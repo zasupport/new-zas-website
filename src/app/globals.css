@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+:root {
+  --teal: #27504D;
+  --teal-light: #2e6260;
+  --green: #0FEA7A;
+  --green-dim: rgba(15, 234, 122, 0.7);
+  --green-glow: rgba(15, 234, 122, 0.15);
+  --dark: #0A1A18;
+  --dark-2: #111C1A;
+  --dark-3: #162220;
+  --text: #E8F4F1;
+  --muted: #7A9E98;
+  --border: rgba(15, 234, 122, 0.15);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Grid overlay pattern */
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(15, 234, 122, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 234, 122, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Glass morphism utilities */
+.glass {
+  background: rgba(17, 28, 26, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+}
+
+.glass-card {
+  background: rgba(22, 34, 32, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+  background: rgba(39, 80, 77, 0.3);
+  border-color: rgba(15, 234, 122, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(15, 234, 122, 0.1);
+}
+
+/* Green neon glow effects */
+.glow-green {
+  box-shadow: 0 0 20px rgba(15, 234, 122, 0.3), 0 0 60px rgba(15, 234, 122, 0.1);
+}
+
+.glow-text-green {
+  text-shadow: 0 0 20px rgba(15, 234, 122, 0.5);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #0FEA7A 0%, #27504D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--teal);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--green);
+}
+
+/* Selection */
+::selection {
+  background: rgba(15, 234, 122, 0.2);
+  color: var(--green);
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(15, 234, 122, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(15, 234, 122, 0.4); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Hero gradient */
+.hero-gradient {
+  background: radial-gradient(ellipse at 20% 50%, rgba(39, 80, 77, 0.3) 0%, transparent 50%),
+              radial-gradient(ellipse at 80% 20%, rgba(15, 234, 122, 0.05) 0%, transparent 40%),
+              var(--dark);
+}
+
+/* Urgency banner */
+.urgency-banner {
+  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+}
+
+/* Step indicator */
+.step-number {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: rgba(15, 234, 122, 0.1);
+  border: 1px solid rgba(15, 234, 122, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--green);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+/* Table styles */
+.dark-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dark-table th {
+  background: rgba(39, 80, 77, 0.3);
+  color: var(--text);
+  font-weight: 600;
+  padding: 0.875rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.dark-table td {
+  padding: 0.875rem 1rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.dark-table tr:hover td {
+  background: rgba(39, 80, 77, 0.1);
+  color: var(--text);
+}

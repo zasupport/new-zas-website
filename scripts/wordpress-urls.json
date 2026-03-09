@@ -1,0 +1,47 @@
+[
+  {
+    "old": "/",
+    "status": 200,
+    "final": "/"
+  },
+  {
+    "old": "/",
+    "status": 200,
+    "final": "/"
+  },
+  {
+    "old": "/contact-apple-store-johannesburg-near-me",
+    "status": 200,
+    "final": "/contact-apple-store-johannesburg-near-me"
+  },
+  {
+    "old": "/macbook-repairs-near-me-johannesburg",
+    "status": 200,
+    "final": "/macbook-repairs-near-me-johannesburg"
+  },
+  {
+    "old": "/macbook-battery-replacement-near-me-johannesburg-south-africa",
+    "status": 200,
+    "final": "/macbook-battery-replacement-near-me-johannesburg-south-africa"
+  },
+  {
+    "old": "/macbook-screen-repair-sandton-johannesburg-south-africa",
+    "status": 200,
+    "final": "/macbook-screen-repair-sandton-johannesburg-south-africa"
+  },
+  {
+    "old": "/macbook-pro-repair-near-me-sandton-johannesburg",
+    "status": 200,
+    "final": "/macbook-pro-repair-near-me-sandton-johannesburg"
+  },
+  {
+    "old": "/macbook-pro-screen-replacement-near-me-johannesburg-south",
+    "status": 200,
+    "final": "/macbook-pro-screen-replacement-near-me-johannesburg-south"
+  },
+  {
+    "old": "/macbook-air-screen-replacement-near-me",
+    "status": 200,
+    "final": "/macbook-air-screen-replacement-near-me"
+  }
+]
