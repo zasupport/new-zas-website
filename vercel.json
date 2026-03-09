@@ -48,7 +48,6 @@
     { "source": "/contact-apple-store-johannesburg-near-me", "destination": "/contact", "permanent": true },
     { "source": "/apple-shop/apple-repairs-johannesburg/:slug*", "destination": "/blog", "permanent": true },
     { "source": "/basket", "destination": "/contact", "permanent": true },
-    { "source": "/?p=:id", "destination": "/blog", "permanent": true },
     { "source": "/wp-admin", "destination": "https://www.zasupport.com/wp-admin", "permanent": false },
     { "source": "/wp-login.php", "destination": "https://www.zasupport.com/wp-login.php", "permanent": false }
   ]
