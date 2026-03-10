@@ -21,12 +21,13 @@ const faqs = [
 ];
 
 const allServices = [
+  { title: 'MacBook Repair', href: '/macbook-repair', price: 'From R 950', sub: 'Battery, screen, keyboard, logic board' },
   { title: 'Liquid Damage Repair', href: '/liquid-damage', price: 'From R 2,500', sub: 'MacBook, iPhone, iPad, Apple Watch' },
   { title: 'Logic Board Repair', href: '/logic-board-repair', price: 'From R 1,800', sub: 'Microsoldering specialists' },
   { title: 'iPhone Repair', href: '/iphone-repair', price: 'From R 950', sub: 'All models, all damage types' },
   { title: 'iPad Repair', href: '/ipad-repair', price: 'From R 1,200', sub: 'All iPad models including M4' },
-  { title: 'MacBook Pro Liquid Damage', href: '/liquid-damage/macbook-pro', price: 'From R 3,500', sub: 'All M-series and Intel' },
-  { title: 'MacBook Air Liquid Damage', href: '/liquid-damage/macbook-air', price: 'From R 2,500', sub: 'M1, M2, M3 and Intel' },
+  { title: 'MacBook Battery Replacement', href: '/macbook-repair/battery', price: 'From R 1,200', sub: 'All M-series and Intel MacBook Air & Pro' },
+  { title: 'MacBook Screen Replacement', href: '/macbook-repair/screen', price: 'From R 3,500', sub: 'Retina display, all models' },
   { title: 'JAMF MDM', href: '/jamf-mdm', price: 'From R 4,500/mo', sub: 'Enterprise Apple management' },
   { title: 'Managed Services', href: '/managed-services', price: 'From R 4,500/mo', sub: 'Apple-first IT MSP' },
 ];

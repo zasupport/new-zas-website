@@ -13,6 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/logic-board-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/iphone-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/apple-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/macbook-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+
+    // MacBook repair sub-pages
+    { url: `${base}/macbook-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/macbook-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/macbook-repair/keyboard`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // Liquid damage sub-pages
     { url: `${base}/liquid-damage/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
