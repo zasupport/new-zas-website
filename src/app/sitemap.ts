@@ -13,12 +13,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/logic-board-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/iphone-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/apple-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/apple-support`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
     { url: `${base}/macbook-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/macbook-air-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/macbook-pro-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
 
     // MacBook repair sub-pages
     { url: `${base}/macbook-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/macbook-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/macbook-repair/keyboard`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/macbook-repair/trackpad`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/macbook-repair/charging-port`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // Liquid damage sub-pages
     { url: `${base}/liquid-damage/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -40,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/iphone-repair/charging`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/iphone-repair/back-glass`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/iphone-repair/camera`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/iphone-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
     // iPad repair sub-pages
     { url: `${base}/ipad-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
