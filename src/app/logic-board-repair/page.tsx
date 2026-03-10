@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Cpu, Zap, AlertTriangle, CheckCircle } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
@@ -72,18 +73,8 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Johannesburg',
   description: 'Expert MacBook logic board repair and microsoldering in Johannesburg. Free diagnostic. No Fix No Fee.',
-  provider: { '@type': 'LocalBusiness', name: 'ZA Support', telephone: CONTACT.phoneTel },
+  provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-};
-
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: { '@type': 'Answer', text: faq.answer },
-  })),
 };
 
 const breadcrumbSchema = {
@@ -95,11 +86,13 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function LogicBoardRepairPage() {
   return (
     <>
-      <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">

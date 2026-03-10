@@ -4,6 +4,8 @@ import { Phone, ArrowRight } from 'lucide-react';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
   title: 'iPhone Battery Replacement Johannesburg | From R 950 | ZA Support',
@@ -19,9 +21,12 @@ const faqs = [
   { question: 'Do you replace batteries for older iPhones?', answer: 'Yes, for models where parts are available. We stock batteries for iPhone 8 through iPhone 16 Pro Max. Call to confirm for older models.' },
 ];
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function iPhoneBatteryPage() {
   return (
     <>
+      <SchemaOrg schema={faqSchema} />
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={[{ label: 'iPhone Repair', href: '/iphone-repair' }, { label: 'Battery' }]} />

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Star, Shield, Clock, BadgeCheck } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
 
@@ -41,9 +42,12 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function AppleRepairPage() {
   return (
     <>
+      <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, Clock, BadgeCheck, Star, Battery, Monitor, Keyboard, Cpu, Droplets, Wrench } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 
@@ -116,19 +117,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Repair Johannesburg',
-  provider: {
-    '@type': 'LocalBusiness',
-    name: SITE.name,
-    telephone: CONTACT.phone,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: CONTACT.address.street,
-      addressLocality: CONTACT.address.city,
-      addressRegion: CONTACT.address.province,
-      postalCode: CONTACT.address.postalCode,
-      addressCountry: 'ZA',
-    },
-  },
+  provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description: 'MacBook repair in Johannesburg — battery, screen, keyboard, liquid damage, logic board. All M-series and Intel models. No Fix No Fee.',
   offers: {
@@ -139,9 +128,12 @@ const serviceSchema = {
   },
 };
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function MacBookRepairPage() {
   return (
     <>
+      <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
 

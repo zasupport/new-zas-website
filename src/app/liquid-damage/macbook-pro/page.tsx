@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, CheckCircle } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
@@ -56,13 +57,16 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro Liquid Damage Repair Johannesburg',
   description: 'Professional MacBook Pro liquid damage repair from R 3,500. All models. Free assessment. No Fix No Fee.',
-  provider: { '@type': 'LocalBusiness', name: 'ZA Support', telephone: CONTACT.phoneTel },
+  provider: LOCAL_BUSINESS_PROVIDER,
   offers: { '@type': 'Offer', price: '3500', priceCurrency: 'ZAR', priceValidUntil: '2027-12-31' },
 };
+
+const faqSchema = buildFaqSchema(faqs);
 
 export default function MacBookProLiquidDamagePage() {
   return (
     <>
+      <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 

@@ -4,6 +4,7 @@ import { Phone, ArrowRight } from 'lucide-react';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -66,19 +67,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Battery Replacement Johannesburg',
-  provider: {
-    '@type': 'LocalBusiness',
-    name: SITE.name,
-    telephone: CONTACT.phone,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: CONTACT.address.street,
-      addressLocality: CONTACT.address.city,
-      addressRegion: CONTACT.address.province,
-      postalCode: CONTACT.address.postalCode,
-      addressCountry: 'ZA',
-    },
-  },
+  provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description: 'MacBook battery replacement from R 1,200. All M-series and Intel models. Same-day service. 12-month warranty.',
   offers: {
@@ -99,9 +88,12 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function MacBookBatteryPage() {
   return (
     <>
+      <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
 

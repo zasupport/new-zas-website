@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, CheckCircle, Shield } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
@@ -51,9 +52,12 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function MacBookAirLiquidDamagePage() {
   return (
     <>
+      <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">

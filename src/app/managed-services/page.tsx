@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Monitor, Shield, BarChart, Headphones } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 
@@ -44,9 +45,12 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function ManagedServicesPage() {
   return (
     <>
+      <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, AlertTriangle, CheckCircle, Clock, Shield, ArrowRight } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
@@ -69,17 +70,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Liquid Damage Repair Johannesburg',
   description: 'Professional MacBook and Apple device liquid damage repair. Ultrasonic cleaning, board-level diagnostics, component repair. Hyde Park, Johannesburg.',
-  provider: {
-    '@type': 'LocalBusiness',
-    name: 'ZA Support',
-    telephone: CONTACT.phoneTel,
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: 'Hyde Park',
-      addressRegion: 'Gauteng',
-      addressCountry: 'ZA',
-    },
-  },
+  provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
@@ -92,16 +83,6 @@ const serviceSchema = {
   },
 };
 
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map((faq) => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: { '@type': 'Answer', text: faq.answer },
-  })),
-};
-
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -111,11 +92,13 @@ const breadcrumbSchema = {
   ],
 };
 
+const faqSchema = buildFaqSchema(faqs);
+
 export default function LiquidDamagePage() {
   return (
     <>
-      <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       {/* Hero */}
