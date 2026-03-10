@@ -23,6 +23,8 @@ const faqs = [
 
 const allServices = [
   { title: 'MacBook Repair', href: '/macbook-repair', price: 'From R 950', sub: 'Battery, screen, keyboard, logic board' },
+  { title: 'MacBook Air Repair', href: '/macbook-air-repair', price: 'From R 1,200', sub: 'M1, M2, M3 and Intel — all models' },
+  { title: 'MacBook Pro Repair', href: '/macbook-pro-repair', price: 'From R 1,500', sub: 'M1–M3 Pro/Max and Intel — all models' },
   { title: 'Liquid Damage Repair', href: '/liquid-damage', price: 'From R 2,500', sub: 'MacBook, iPhone, iPad, Apple Watch' },
   { title: 'Logic Board Repair', href: '/logic-board-repair', price: 'From R 1,800', sub: 'Microsoldering specialists' },
   { title: 'iPhone Repair', href: '/iphone-repair', price: 'From R 950', sub: 'All models, all damage types' },
