@@ -17,6 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/macbook-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/macbook-air-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/macbook-pro-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/imac-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/imac-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/imac-repair/ram-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/imac-repair/ssd-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
     // MacBook repair sub-pages
     { url: `${base}/macbook-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
