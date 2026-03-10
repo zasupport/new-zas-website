@@ -229,6 +229,30 @@ export default function MacBookRepairPage() {
         </div>
       </section>
 
+      {/* Model-specific hubs */}
+      <section className="py-16 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>Repair by MacBook Model</h2>
+          <p className="text-[#7A9E98] text-center text-sm mb-8">See model-specific pricing, common faults, and repair options.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+            <Link href="/macbook-air-repair" className="glass-card p-6 flex items-center justify-between group hover:border-[rgba(15,234,122,0.35)] transition-all">
+              <div>
+                <div className="text-[#E8F4F1] font-bold group-hover:text-[#0FEA7A] transition-colors">MacBook Air Repair</div>
+                <div className="text-[#7A9E98] text-xs mt-1">M1, M2, M3 and Intel — all years</div>
+              </div>
+              <ArrowRight className="w-5 h-5 text-[#0FEA7A] opacity-0 group-hover:opacity-100 transition-opacity" />
+            </Link>
+            <Link href="/macbook-pro-repair" className="glass-card p-6 flex items-center justify-between group hover:border-[rgba(15,234,122,0.35)] transition-all">
+              <div>
+                <div className="text-[#E8F4F1] font-bold group-hover:text-[#0FEA7A] transition-colors">MacBook Pro Repair</div>
+                <div className="text-[#7A9E98] text-xs mt-1">M1–M3 Pro/Max and Intel — all years</div>
+              </div>
+              <ArrowRight className="w-5 h-5 text-[#0FEA7A] opacity-0 group-hover:opacity-100 transition-opacity" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Trust signals */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
