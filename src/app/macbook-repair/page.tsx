@@ -60,9 +60,17 @@ const services = [
     icon: Wrench,
     title: 'Port & Charging Repair',
     description: 'MagSafe, USB-C and Thunderbolt port repair. MacBook not charging? We fix it.',
-    href: '/contact',
-    price: 'From R 950',
+    href: '/macbook-repair/charging-port',
+    price: 'From R 500',
     accent: 'text-red-400',
+  },
+  {
+    icon: Wrench,
+    title: 'Trackpad Repair',
+    description: 'Trackpad not clicking, cursor jumping, raised trackpad from swollen battery. All models.',
+    href: '/macbook-repair/trackpad',
+    price: 'From R 1,800',
+    accent: 'text-yellow-400',
   },
 ];
 
