@@ -68,8 +68,16 @@ export default function Navbar() {
               {CONTACT.phone}
             </a>
             <a
-              href={`tel:${CONTACT.phoneTel}`}
+              href={CONTACT.whatsappLogicBoard}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#0FEA7A] text-[#0A1A18] px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_20px_rgba(15,234,122,0.4)] transition-all"
+            >
+              💬 WhatsApp
+            </a>
+            <a
+              href={`tel:${CONTACT.phoneTel}`}
+              className="border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
             >
               Book Repair
             </a>
@@ -102,8 +110,16 @@ export default function Navbar() {
             ))}
             <div className="mt-6 flex flex-col gap-3">
               <a
-                href={`tel:${CONTACT.phoneTel}`}
+                href={CONTACT.whatsappLogicBoard}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[#0FEA7A]/90 transition-all"
+              >
+                💬 WhatsApp for Quote
+              </a>
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
                 <Phone className="w-5 h-5" />
                 Call {CONTACT.phone}

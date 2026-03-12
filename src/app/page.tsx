@@ -31,6 +31,7 @@ const services = [
     href: '/logic-board-repair',
     price: 'From R 1,800',
     accent: 'text-purple-400',
+    whatsapp: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20logic%20board%20repair%20quote',
   },
   {
     icon: Smartphone,
@@ -223,30 +224,38 @@ export default function HomePage() {
             {services.map((service) => {
               const Icon = service.icon;
               return (
-                <Link
-                  key={service.href}
-                  href={service.href}
-                  className="glass-card p-6 group block"
-                >
-                  <div className="w-12 h-12 bg-[rgba(15,234,122,0.08)] rounded-xl flex items-center justify-center mb-5 group-hover:bg-[rgba(15,234,122,0.15)] transition-all">
-                    <Icon className={`w-6 h-6 ${service.accent}`} />
-                  </div>
-                  <h3
-                    className="text-[#E8F4F1] text-xl font-bold mb-2"
-                    style={{ fontFamily: 'Syne, sans-serif' }}
-                  >
-                    {service.title}
-                  </h3>
-                  <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">
-                    {service.description}
-                  </p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-[#0FEA7A] text-sm font-semibold">{service.price}</span>
-                    <span className="text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors flex items-center gap-1 text-sm">
-                      Learn more <ArrowRight className="w-3 h-3" />
-                    </span>
-                  </div>
-                </Link>
+                <div key={service.href} className="glass-card p-6 flex flex-col">
+                  <Link href={service.href} className="group flex-1">
+                    <div className="w-12 h-12 bg-[rgba(15,234,122,0.08)] rounded-xl flex items-center justify-center mb-5 group-hover:bg-[rgba(15,234,122,0.15)] transition-all">
+                      <Icon className={`w-6 h-6 ${service.accent}`} />
+                    </div>
+                    <h3
+                      className="text-[#E8F4F1] text-xl font-bold mb-2"
+                      style={{ fontFamily: 'Syne, sans-serif' }}
+                    >
+                      {service.title}
+                    </h3>
+                    <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">
+                      {service.description}
+                    </p>
+                    <div className="flex items-center justify-between mb-4">
+                      <span className="text-[#0FEA7A] text-sm font-semibold">{service.price}</span>
+                      <span className="text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors flex items-center gap-1 text-sm">
+                        Learn more <ArrowRight className="w-3 h-3" />
+                      </span>
+                    </div>
+                  </Link>
+                  {'whatsapp' in service && service.whatsapp && (
+                    <a
+                      href={service.whatsapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-auto inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-4 py-2.5 rounded-xl text-sm font-bold hover:bg-[#0FEA7A]/90 transition-all w-full"
+                    >
+                      💬 WhatsApp for Quote
+                    </a>
+                  )}
+                </div>
               );
             })}
           </div>
