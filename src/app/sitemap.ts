@@ -43,6 +43,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/logic-board-repair/imac`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/logic-board-repair/mac-mini`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
+    // Logic board suburb pages
+    { url: `${base}/logic-board-repair/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/rosebank`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/midrand`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/randburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/fourways`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/bryanston`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+
     // iPhone repair sub-pages
     { url: `${base}/iphone-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/iphone-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },

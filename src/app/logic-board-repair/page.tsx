@@ -236,6 +236,31 @@ export default function LogicBoardRepairPage() {
         </div>
       </section>
 
+      {/* Areas We Serve */}
+      <section className="py-16 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Areas We Serve</h2>
+          <p className="text-[#7A9E98] text-sm mb-6 max-w-2xl">
+            We collect from all major Johannesburg suburbs and repair at our Hyde Park workshop. Click your area for suburb-specific information and collection details.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+            {[
+              { label: 'Sandton', href: '/logic-board-repair/sandton', distance: '8 min' },
+              { label: 'Rosebank', href: '/logic-board-repair/rosebank', distance: '5 min' },
+              { label: 'Midrand', href: '/logic-board-repair/midrand', distance: '30 min' },
+              { label: 'Randburg', href: '/logic-board-repair/randburg', distance: '15 min' },
+              { label: 'Fourways', href: '/logic-board-repair/fourways', distance: '25 min' },
+              { label: 'Bryanston', href: '/logic-board-repair/bryanston', distance: '10 min' },
+            ].map((area) => (
+              <Link key={area.href} href={area.href} className="glass-card p-5 flex flex-col items-start group">
+                <h3 className="text-[#E8F4F1] font-bold text-sm mb-1 group-hover:text-[#0FEA7A] transition-colors">{area.label}</h3>
+                <p className="text-[#7A9E98] text-xs">~{area.distance} from Hyde Park</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
