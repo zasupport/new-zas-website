@@ -9,11 +9,6 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  experimental: {
-    turbo: {
-      root: __dirname,
-    },
-  },
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
