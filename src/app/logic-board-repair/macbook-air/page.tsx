@@ -108,7 +108,7 @@ const reviews = [
 const serviceAreas = [
   'Johannesburg', 'Hyde Park', 'Sandton', 'Rosebank', 'Illovo',
   'Bryanston', 'Fourways', 'Midrand', 'Randburg', 'Melrose',
-  'Morningside', 'Parkhurst', 'Edenvale', 'Greenside', 'Linden',
+  'Morningside', 'Sandhurst', 'Parkhurst', 'Edenvale', 'Greenside', 'Linden',
 ];
 
 const faqSchema = buildFaqSchema(faqs);
@@ -404,6 +404,11 @@ export default function MacBookAirLogicBoardPage() {
               <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Air logic board, you pay nothing.
                 No diagnostic fee, no assessment charge. Zero risk to you.</p>
             </div>
+          </div>
+          <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">
+            <p className="text-sm text-[#7A9E98]">
+              💡 <strong className="text-[#E8F4F1]">Price comparison:</strong> Some Johannesburg repair shops charge R 4,999 or more for MacBook Air logic board repair. ZA Support starts from <strong className="text-[#0FEA7A]">R 2,000</strong> — with a 12-month warranty and No Fix No Fee guarantee included.
+            </p>
           </div>
         </div>
       </section>
