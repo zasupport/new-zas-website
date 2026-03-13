@@ -175,11 +175,32 @@ export default function MacBookAirLogicBoardPage() {
                 💬 WhatsApp for Quote
               </a>
               <a
-                href={`tel:${CONTACT.phoneTel}`}
+                href={CONTACT.booking}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                📅 Book Online
+              </a>
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all"
               >
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
+            </div>
+            <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
+              {[
+                { value: SITE.repairsCount, label: 'Devices Repaired' },
+                { value: `${SITE.yearsExperience} Years`, label: 'In Business Since 2012' },
+                { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
+                { value: '12 Months', label: 'Warranty — Written. No Exceptions.' },
+              ].map(({ value, label }) => (
+                <div key={label}>
+                  <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
+                  <p className="text-[#7A9E98] text-xs mt-0.5">{label}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

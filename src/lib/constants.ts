@@ -18,6 +18,7 @@ export const CONTACT = {
   email: 'admin@zasupport.com',
   whatsapp: 'https://wa.me/27645295863',
   whatsappLogicBoard: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20logic%20board%20repair%20quote',
+  booking: 'https://cal.com/zasupport/repair',
   address: {
     street: '1 Hyde Lane, Second Floor, Office E2004',
     suburb: 'Hyde Park',
