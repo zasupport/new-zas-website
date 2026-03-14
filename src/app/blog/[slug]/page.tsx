@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
+import type { SchemaOrg } from '@/types';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Calendar, Clock, Tag } from 'lucide-react';
-import SchemaOrg from '@/components/seo/SchemaOrg';
+import SchemaOrgComp from '@/components/seo/SchemaOrg';
 
 const posts: Record<string, {
   slug: string;
@@ -561,7 +562,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     url: `https://zasupport.com/blog/${slug}`,
   };
 
-  const faqSchemas: Record<string, object> = {
+  const faqSchemas: Record<string, SchemaOrg> = {
     'macbook-load-shedding-damage': {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
@@ -615,12 +616,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     ],
   };
 
-  const schemas: object[] = [articleSchema, breadcrumbSchema];
+  const schemas: SchemaOrg[] = [articleSchema, breadcrumbSchema];
   if (faqSchemas[slug]) schemas.push(faqSchemas[slug]);
 
   return (
     <>
-      <SchemaOrg schema={schemas} />
+      <SchemaOrgComp schema={schemas} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
