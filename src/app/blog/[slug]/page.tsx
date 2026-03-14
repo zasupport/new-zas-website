@@ -377,6 +377,433 @@ We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg. We assess surge damag
 Call **064 529 5863** or message us on WhatsApp. We will have a clear answer for you within the hour.
     `.trim(),
   },
+  'macbook-running-slow': {
+    slug: 'macbook-running-slow',
+    title: 'Why Is My MacBook Running Slow? 7 Fixes That Actually Work',
+    excerpt: 'A slow MacBook is almost always fixable without spending a cent. Here are the 7 most common causes of MacBook slowness and exactly how to fix each one.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `
+## Why Your MacBook Is Running Slow
+
+A slow MacBook is one of the most frustrating IT problems — and one of the most misdiagnosed. Most people assume the machine is simply old and needs replacing. In our experience, the vast majority of slow MacBook cases are caused by fixable software and configuration issues, not failing hardware.
+
+This guide covers the 7 most common causes of MacBook slowness, how to diagnose each one, and the exact steps to fix them. These are the same checks our technicians run during every Health Check service in Johannesburg.
+
+## 1. Your Storage Is Nearly Full
+
+This is the single most common cause of a slow Mac. macOS uses free storage space as virtual memory — when your drive fills up, the operating system has nowhere to write temporary data, and everything grinds to a halt.
+
+**Symptoms:** General sluggishness across all applications. Long delays when opening files. Spinning beach ball on startup and after waking from sleep.
+
+**How to check:** Apple menu → About This Mac → Storage. If available storage is under 20 GB on a 256 GB drive, or under 40 GB on a 512 GB drive, storage pressure is likely contributing to your slowness.
+
+**How to fix:**
+- Open Finder → Go → Downloads. Delete old downloads you no longer need.
+- Open Photos → check Library for duplicates. Use the Duplicates album (macOS Ventura and later).
+- Empty the Trash — it does not free space until emptied.
+- Move large video files and archives to an external drive.
+- If you use Time Machine, check that local snapshots are not consuming space: open Terminal and type \`tmutil listlocalsnapshots /\`
+
+If storage is critically low (under 10 GB), your Mac may be nearly unusable regardless of other fixes. This is often the entire problem.
+
+## 2. Too Many Login Items Starting Automatically
+
+Every application that launches on startup consumes memory and CPU before you have even opened anything. Macs accumulate login items silently — a cloud backup app here, a printer utility there — and after a few years, a dozen applications can be fighting for resources before you have opened Safari.
+
+**How to check (macOS Ventura and later):** System Settings → General → Login Items. Review both the "Open at Login" list and the "Allow in Background" section.
+
+**How to fix:**
+- Remove everything from "Open at Login" that you do not immediately need when you start your Mac. Applications you use daily (Zoom, Slack) may be reasonable to keep. Printer utilities, updater daemons, and cloud sync apps for services you rarely use should be removed.
+- Toggle off the "Allow in Background" items for applications you do not actively use.
+
+**On older macOS (Monterey and earlier):** System Preferences → Users & Groups → Login Items → select the item → click the minus button.
+
+The effect on startup time and available memory can be substantial — we routinely see Macs with 20+ login items where removing half of them delivers an immediate, noticeable improvement.
+
+## 3. Background Processes Consuming CPU
+
+Sometimes a single misbehaving process consumes an entire CPU core, making the entire machine feel sluggish even though nothing visible is open.
+
+**How to check:** Open Activity Monitor (Applications → Utilities → Activity Monitor). Click the CPU tab. Sort by % CPU descending. Look for any process using more than 20–30% CPU continuously when you are not actively doing anything demanding.
+
+**Common culprits:**
+- **Spotlight indexing** (mdworker_shared, mds_stores): This is normal after an OS update or after adding a large external drive. It will complete on its own — typically within a few hours. You cannot and should not kill it.
+- **Antivirus software**: Some AV products run continuous background scans that consume significant CPU. If a product called "MegaCleaner," "Advanced Mac Cleaner," or any product you do not recognise is consuming CPU, this needs investigation.
+- **cloudd / bird**: iCloud sync processes. If these are stuck at high CPU, signing out of iCloud and back in usually resolves it.
+- **kernel_task**: If kernel_task is using very high CPU (over 200%), this is often a thermal management response — the Mac is overheating and throttling the processor. See Fix 6.
+
+**How to fix:** For processes you do not recognise, note the name and search for it. Most legitimate system processes have well-documented purposes. If something unfamiliar is consuming sustained high CPU, bring the Mac to us for assessment — this can indicate malware or a software fault.
+
+## 4. Insufficient RAM for Your Workflow
+
+Modern macOS and application requirements have grown significantly. A MacBook with 8 GB of RAM running macOS Sonoma or Sequoia with multiple browser tabs, Zoom, Microsoft Office, and a cloud sync client is likely under constant memory pressure.
+
+**How to check:** Open Activity Monitor → Memory tab. Look at the "Memory Pressure" graph at the bottom. Green = fine. Yellow = moderate pressure. Red = the Mac is actively swapping, and performance will suffer.
+
+Also check the "Swap Used" figure. If swap usage is consistently above 2–3 GB, your Mac does not have enough RAM for your typical workload.
+
+**For Intel Macs:** RAM is upgradeable on most MacBook Pro models up to 2019. A RAM upgrade from 8 GB to 16 GB is one of the highest-value upgrades we offer — typically R 1,200–R 2,200 fitted, and the performance improvement on a memory-constrained machine is immediate and significant. [Contact us about a RAM upgrade.](/contact)
+
+**For Apple Silicon Macs (M1–M4):** RAM is not upgradeable — it is integrated into the chip. If your M1 or M2 Mac with 8 GB is consistently hitting memory pressure, the realistic options are managing your workflow (fewer browser tabs, close unused apps) or planning an upgrade to a 16 GB model.
+
+## 5. macOS Needs an Update
+
+Apple regularly ships performance improvements, bug fixes, and optimisations in macOS updates. Running a significantly outdated version of macOS can mean missing substantial under-the-hood improvements.
+
+**How to check:** Apple menu → System Settings → General → Software Update.
+
+**How to update:** If an update is available, install it. For major macOS version upgrades (e.g., moving from Ventura to Sonoma), we recommend checking your applications for compatibility first — particularly if you use specialist software.
+
+**One caveat:** On very old Intel Macs (pre-2017), forcing the latest macOS version via third-party tools like OCLP can sometimes cause slowness, not cure it. The Mac's hardware may not have the headroom to run the newer OS efficiently. If you are running OCLP on an older machine, stay on a version that runs smoothly rather than chasing the latest.
+
+## 6. Thermal Throttling (Overheating)
+
+When a MacBook's processor temperature exceeds safe limits, macOS automatically reduces clock speed to prevent damage — a process called thermal throttling. The result is dramatically reduced performance that feels identical to other slowness causes.
+
+**Symptoms:** Slowness that is worse under sustained load (video calls, compilation, video rendering). The fan running constantly at high speed. The chassis being hot to the touch near the hinge or exhaust vents.
+
+**Common causes on older MacBooks:**
+- Degraded or dried-out thermal paste between the CPU and heatsink
+- Blocked exhaust vents from dust accumulation
+- A failing or slow fan
+
+**How to check:** Download Macs Fan Control (free, from crystalidea.com). Open it and check your CPU die temperature. Under normal light use, this should be below 60°C. If you see temperatures above 80°C at idle or light load, thermal paste replacement is very likely needed.
+
+**The fix:** Thermal paste replacement on a MacBook typically costs R 800–R 1,200 at ZA Support and can deliver dramatic performance recovery on machines 4+ years old. On a 2017–2019 MacBook Pro, we routinely see temperatures drop by 20–30°C after a repaste, with proportionally improved performance.
+
+[Read more about our MacBook servicing.](/apple-repair)
+
+## 7. Your SSD May Be Failing
+
+Storage drive health is rarely checked and is often overlooked as a performance cause. A MacBook SSD in the early stages of failure can exhibit dramatically increased read/write latency — the drive is still functional, but operations that normally take milliseconds are taking seconds.
+
+**How to check:** Download DriveDx (paid, R 250 approximate) or use the free Disk Utility (Applications → Utilities → Disk Utility → select your drive → First Aid). DriveDx gives a more detailed S.M.A.R.T. analysis including reallocated sectors and error counts.
+
+**Warning signs of a failing SSD:**
+- Dramatically long application launch times even for simple apps
+- Frequent "spinning beach ball" when switching between applications
+- System freezes that last 10–30 seconds and then resume
+- Failure to complete macOS updates
+
+If DriveDx or Disk Utility reports any S.M.A.R.T. errors or caution status, back up your data immediately and bring the machine to us. SSD failure is progressive — a drive showing early S.M.A.R.T. warnings can fail completely within days to weeks.
+
+[SSD replacement at ZA Support](/apple-repair) starts from R 1,800 fitted, including a fresh macOS install and data migration.
+
+## Still Slow After Trying These Fixes?
+
+If you have worked through all seven fixes and your MacBook is still performing below expectations, the issue is likely hardware-level — either thermal paste degradation, a failing SSD, or insufficient RAM for your workload.
+
+Our [Health Check service](/apple-repair) covers all of these: we run a full 28-phase diagnostic covering hardware, storage health, memory pressure, security, and software — and give you a plain-English report with exactly what we found and what we recommend.
+
+**Free diagnostic. No Fix No Fee. Hyde Park, Johannesburg.**
+
+WhatsApp us on [064 529 5863](https://wa.me/27645295863) to book a same-day assessment.
+    `.trim(),
+  },
+  'macbook-wont-connect-wifi': {
+    slug: 'macbook-wont-connect-wifi',
+    title: 'MacBook Won\'t Connect to WiFi: Complete Fix Guide (2026)',
+    excerpt: 'MacBook WiFi problems range from a 30-second software fix to a hardware fault requiring repair. This guide walks through every fix in order, so you resolve it without unnecessary steps.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '7 min read',
+    author: 'ZA Support',
+    content: `
+## MacBook WiFi Not Working — Start Here
+
+WiFi problems on a MacBook fall into a predictable set of categories: a corrupted network configuration, a conflicting system file, a router issue mistaken for a Mac issue, a macOS bug, or — least commonly — a hardware fault with the WiFi card.
+
+This guide works through every fix in order of complexity. Start at Fix 1. Most cases are resolved by Fix 4. Hardware faults are covered at the end.
+
+## Before You Start: Is It the Mac or the Router?
+
+Before spending time on your MacBook, confirm the problem is not with your router or ISP.
+
+**Quick test:** Take out your phone and connect it to the same WiFi network. If your phone also cannot connect or is experiencing the same symptoms, the problem is the router or ISP, not the Mac.
+
+If your phone connects fine but the MacBook does not, continue with the fixes below.
+
+## Fix 1: Turn WiFi Off and Back On
+
+This sounds trivial, but a simple toggle resolves a surprising number of transient WiFi failures — particularly after waking from sleep.
+
+Click the WiFi icon in the menu bar → Turn WiFi Off. Wait 10 seconds. Turn WiFi On. Attempt to connect.
+
+If this does not work within 30 seconds, move to Fix 2.
+
+## Fix 2: Forget the Network and Reconnect
+
+Your Mac stores network credentials and configuration data for every network it has connected to. If that stored data is corrupted or stale, the Mac will fail to connect even when everything else is working correctly.
+
+**Steps:**
+1. System Settings → WiFi
+2. Click the i (information) button next to your network name
+3. Click "Forget This Network" → Forget
+4. Click on your network name in the list and enter your password as if connecting for the first time
+
+If you do not know your WiFi password, it is typically on a sticker on your router. For business networks, your IT administrator has it.
+
+## Fix 3: Restart Your Router
+
+Even if your phone is connecting fine, restarting the router can resolve issues with how it is handling the Mac's specific connection request.
+
+Unplug your router from the power socket. Wait 30 seconds (not 5 — the router needs time to fully discharge). Plug it back in. Wait 60–90 seconds for it to fully restart before attempting to connect.
+
+## Fix 4: Delete Stored WiFi Preference Files
+
+macOS stores WiFi configuration in a set of preference files. When these become corrupted — which can happen after an OS update, after a crash, or gradually over time — WiFi connections become unreliable or fail entirely.
+
+**Steps (requires admin password):**
+
+1. Open Finder
+2. Press Cmd+Shift+G to open "Go to Folder"
+3. Type: /Library/Preferences/SystemConfiguration/
+4. Look for these files and move them to the Desktop (do not delete yet — you can restore them if needed):
+   - com.apple.airport.preferences.plist
+   - com.apple.network.identification.plist
+   - com.apple.wifi.message-tracer.plist
+   - NetworkInterfaces.plist
+   - preferences.plist
+5. Restart your Mac
+6. Attempt to connect to WiFi
+
+After the restart, macOS will recreate these files from scratch. If WiFi now works, you can delete the files you moved to the Desktop. If it does not, move them back and continue to Fix 5.
+
+## Fix 5: Create a New Network Location
+
+macOS Network Locations allow you to save different network configurations. Creating a new location forces a clean set of network settings without permanently deleting anything.
+
+1. System Settings → Network
+2. Click the three-dot menu at the top of the left sidebar → Edit Locations
+3. Click the + button to add a new location
+4. Name it "Home" or "Default" → Done
+5. With your new location selected, try connecting to WiFi
+
+## Fix 6: Check for IP Address Conflicts
+
+Your router assigns IP addresses to devices on your network. Occasionally, two devices on the same network are assigned the same IP address, causing connectivity failures.
+
+**How to check:**
+1. System Settings → Network → WiFi → Details (next to your connected network)
+2. Check the IP Address field. If it shows 169.254.x.x, your Mac has failed to obtain a valid IP address from the router (this is an APIPA address — a fallback address assigned when DHCP fails).
+
+**Fix:** In the same Details screen, click "Renew DHCP Lease." If this does not work, change the Configure IPv4 setting from "Using DHCP" to "Using DHCP with manual address" and enter a number in the IP address field that ends in a high number (e.g., 192.168.1.200) to avoid conflicts.
+
+## Fix 7: Update macOS
+
+Some macOS versions have shipped with known WiFi bugs that were fixed in subsequent point releases. If you are running a version that has known WiFi issues, an update may resolve everything.
+
+Apple menu → System Settings → General → Software Update. Install any available updates.
+
+## Fix 8: Check WiFi Hardware in System Information
+
+If none of the above fixes have worked, it is worth confirming that macOS can actually see the WiFi hardware.
+
+1. Hold Option and click the Apple menu → System Information
+2. In the left sidebar, under Network, click WiFi
+3. Look at the WiFi section in the right pane
+
+If you see card details (a card name like "Broadcom BCM43xx" or "Apple Wireless" with a MAC address), the hardware is present and macOS can communicate with it.
+
+If the WiFi section shows "No Information Found" or is blank, macOS cannot detect the WiFi card. This indicates either a hardware fault or a connector that has come loose — proceed to the Hardware section below.
+
+## Fix 9: Safe Mode WiFi Test
+
+Booting into Safe Mode loads a minimal version of macOS without third-party extensions. If WiFi works in Safe Mode but not in normal boot, a third-party kernel extension or security tool is interfering with your WiFi stack.
+
+**Intel Mac:** Restart, then hold Shift during startup until you see the login screen with "Safe Boot" in the top right.
+
+**Apple Silicon Mac:** Shut down. Press and hold the power button until you see "Loading startup options." Select your startup disk, hold Shift, and click "Continue in Safe Mode."
+
+In Safe Mode, attempt to connect to WiFi. If it works, the problem is a third-party software conflict. Common culprits include VPN software, security tools, and network monitoring applications.
+
+## Hardware Faults: When Software Fixes Do Not Work
+
+If you have worked through every fix above and WiFi still does not work — or if System Information cannot detect the WiFi card — the issue is hardware.
+
+**MacBook WiFi hardware faults are typically one of:**
+
+**Loose or failed antenna connector:** The WiFi antenna runs through the MacBook display hinge. On older MacBooks (particularly 2015–2019 models), this connector can come loose or fail. Reconnecting it is a straightforward repair.
+
+**Failed WiFi/Bluetooth card:** The WiFi card (which on most MacBooks also handles Bluetooth) can fail. On Intel MacBooks, this is a replaceable part. On Apple Silicon MacBooks, the WiFi chip is on the logic board and requires board-level repair.
+
+**Logic board WiFi circuit fault:** Rare, but possible — particularly on machines that have experienced liquid damage or surge damage.
+
+**What to do:** Bring the machine to us for a free diagnostic. We can determine within 15 minutes whether the fault is software, a loose connector, or a hardware component failure — and give you a clear quote before any work begins.
+
+[Book a free WiFi diagnostic.](https://wa.me/27645295863)
+
+## Frequently Asked Questions
+
+**Q: My Mac connects to WiFi but drops it repeatedly — is this the same problem?**
+
+Intermittent drops are usually caused by a different set of issues: interference from other 2.4GHz devices (microwaves, baby monitors, other routers), a router that is overloaded with connected devices, or a DHCP lease renewal failure. The fix for intermittent drops is typically switching to the 5GHz band on your router and ensuring your router firmware is up to date.
+
+**Q: My MacBook connects to WiFi but says "No Internet Connection" — what does that mean?**
+
+This means your Mac is connected to your router but the router cannot reach the internet. This is an ISP or router problem, not a Mac problem. Restart the router, and if the problem persists, contact your ISP. Check [our ISP outage monitor](/) for known outages affecting South African providers.
+
+**Q: Can I use a USB WiFi adapter as a workaround?**
+
+Yes. A USB-C to WiFi adapter (available from Takealot for R 200–R 400) will work while you arrange a repair. macOS supports most generic USB WiFi adapters without additional drivers.
+
+**Q: My Mac connects to my home WiFi but not to office or public networks — why?**
+
+This usually indicates a network authentication or proxy configuration issue rather than a hardware fault. Office networks often use enterprise authentication (WPA2-Enterprise or WPA3-Enterprise) that requires specific certificate profiles. Bring the Mac to your IT team, or [contact ZA Support](/contact) for business network support.
+
+WhatsApp us on [064 529 5863](https://wa.me/27645295863) for a same-day assessment at our Hyde Park workshop.
+    `.trim(),
+  },
+  'apple-id-locked-out': {
+    slug: 'apple-id-locked-out',
+    title: 'Locked Out of Apple ID? Here\'s Exactly What to Do',
+    excerpt: 'Being locked out of your Apple ID affects your Mac, iPhone, iPad, and access to every Apple service. This guide covers every recovery method available in 2026 — including what to do when the standard options fail.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '9 min read',
+    author: 'ZA Support',
+    content: `
+## Locked Out of Apple ID: What Is Actually Happening
+
+An Apple ID lockout can mean one of three different things, and the recovery method depends entirely on which type you are dealing with:
+
+**Type 1 — Disabled for security:** Apple disabled your account after multiple failed password attempts, unusual activity, or a security concern flagged by Apple's systems. You will see "This Apple ID has been disabled for security reasons."
+
+**Type 2 — Account locked:** Too many failed password attempts have temporarily locked the account. You will see "Your Apple ID is locked."
+
+**Type 3 — Forgotten password:** You know the account is active but you no longer know the password. You will see a standard authentication failure.
+
+Each type has a specific recovery path. Start with the standard method below — it handles all three cases.
+
+## Method 1: Recovery via iforgot.apple.com (Start Here)
+
+Apple's account recovery page handles the majority of lockout situations.
+
+1. On any device or browser, go to [iforgot.apple.com](https://iforgot.apple.com)
+2. Enter your Apple ID email address
+3. Choose your verification method:
+   - **Trusted phone number** (most common): Apple sends a 6-digit code to your registered phone number
+   - **Recovery key**: If you set up Account Recovery Key (a 28-character key), enter it here
+   - **Trusted device**: If you have another Apple device signed into the same Apple ID and it is nearby, it can receive the verification prompt
+
+If the trusted phone number is a current number you have access to, this should work immediately.
+
+## Method 2: Two-Factor Authentication Recovery
+
+If you set up two-factor authentication (2FA), the recovery process uses your trusted devices and phone numbers.
+
+**If you have access to a trusted device (another iPhone, iPad, or Mac signed into the same Apple ID):**
+1. On the trusted device, go to Settings → [Your Name] → Password & Security
+2. Tap "Change Password" or follow the prompt to reset
+3. The device itself acts as a verification method
+
+**If you no longer have access to any trusted device:**
+1. Go to iforgot.apple.com
+2. Enter your Apple ID
+3. Select "Can't access this phone number or device?"
+4. Apple will begin an Account Recovery process (see Method 4 below)
+
+## Method 3: Reset via Your Mac (FileVault Linked Accounts)
+
+If your Mac uses FileVault disk encryption and your Apple ID is linked as a FileVault recovery method, you may be able to reset your Apple ID password directly from the Mac login screen.
+
+**Steps:**
+1. At the Mac login screen, enter an incorrect password three times
+2. A message appears: "If you forgot your password, you can reset it using your Apple ID"
+3. Click the Apple ID reset option
+4. Follow the on-screen prompts — this connects to Apple's servers and initiates a password reset
+
+This method requires an active internet connection at the login screen and the Apple ID account being in a recoverable state.
+
+## Method 4: Apple Account Recovery (Last Resort — 72+ Hours)
+
+If you have lost access to all trusted devices, your trusted phone numbers are no longer active, and you do not have a recovery key, Apple's Account Recovery process is the only remaining option.
+
+**What it involves:**
+1. Start the recovery at iforgot.apple.com — select "Start account recovery"
+2. Apple verifies your identity using the information on the account: devices previously signed in, purchase history, billing address
+3. Apple sets a waiting period — typically 72 hours to several weeks depending on the account security level
+4. During the waiting period, if anyone else attempts to sign in or use the account, the recovery is cancelled (this is a security measure)
+5. After the wait, Apple sends a notification to your trusted number or email confirming you can reset the password
+
+**Important:** Do not cancel or interrupt the recovery process once started. Do not attempt to sign into the account from other devices during the waiting period.
+
+## What Affects How Long Recovery Takes
+
+Apple's recovery waiting period varies based on:
+
+- How long since the account was last successfully accessed
+- Whether two-factor authentication is enabled
+- The security level of the account
+- Whether any suspicious activity has been detected
+
+Accounts with high-security settings and no recent trusted device activity can have waiting periods of 2–4 weeks. This is intentional — it is designed to prevent account hijacking by giving the legitimate owner time to cancel a fraudulent recovery attempt.
+
+## Method 5: Contact Apple Support Directly
+
+For complex situations — particularly where:
+- The account was set up with a phone number or email you no longer have access to
+- The account shows activity you do not recognise
+- You have already gone through the standard recovery and it failed
+
+Apple Support can investigate account issues that the automated recovery process cannot handle.
+
+**How to contact Apple Support in South Africa:**
+- Phone: 0800 020 009 (free from landlines, available Monday–Friday)
+- Chat: [getsupport.apple.com](https://getsupport.apple.com) — available 24/7 for Apple ID issues
+- In-person: Visits Apple Authorised Service Providers (iStore locations in South Africa)
+
+When contacting Apple Support for account recovery, have ready:
+- The Apple ID email address
+- The credit or debit card associated with the account (last 4 digits and billing address)
+- Serial numbers of Apple devices previously associated with the account
+- Purchase receipts from the App Store or Apple Store (if available)
+
+## Protecting Your Account After Recovery
+
+Once you have regained access, take these steps immediately to prevent a repeat lockout:
+
+**1. Add a current, accessible trusted phone number.**
+Settings (on iPhone) or System Settings → Apple ID → Password & Security → Trusted Phone Numbers. Add a number you definitely have long-term access to.
+
+**2. Set up a Recovery Key.**
+System Settings → Apple ID → Password & Security → Recovery Key → Set Up Recovery Key. Store the 28-character key in two physical locations (not only digitally). This eliminates the waiting period in future recovery scenarios.
+
+**3. Add a Recovery Contact.**
+A Recovery Contact is a trusted person (family member, close colleague) who can help you access your account if you are locked out. They do not see your account — they simply receive a recovery code if you request one.
+Settings → Apple ID → Password & Security → Account Recovery → Add Recovery Contact.
+
+**4. Use a strong, unique password.**
+Apple ID passwords should be unique — not used on any other service. Use a password manager (Keychain works, 1Password is excellent) to generate and store a strong password.
+
+## What Happens to Your Mac When Your Apple ID Is Locked
+
+If your Apple ID is locked or disabled:
+
+**On your Mac:** You will see repeated prompts to sign in. iCloud services (Mail, Calendar, Contacts, iCloud Drive, iMessage, FaceTime) stop syncing. If FileVault is linked to your Apple ID, you may be locked out of the machine itself.
+
+**FileVault lockout:** If you cannot log into your Mac because FileVault requires your Apple ID and the account is locked, this is a more complex situation. The Mac can be unlocked using the Recovery Key (generated when FileVault was first set up) or by booting into macOS Recovery (Cmd+R on Intel, hold power on Apple Silicon) and following the disk unlock process. If you do not have the Recovery Key, data recovery may be necessary. [Contact us](/contact) if you are facing this situation.
+
+**On your iPhone/iPad:** Messages will not deliver. FaceTime will not connect. App Store will not open. Find My will stop tracking your devices.
+
+## When to Get Professional Help
+
+The following situations genuinely require professional or Apple-direct involvement:
+
+- You cannot access the account and Apple's automated recovery has failed or timed out
+- The account shows activity you do not recognise (possible account compromise)
+- Your Mac is locked at startup because of a FileVault Apple ID link
+- The Apple ID is linked to a deceased family member's device that needs to be reset
+- Your Apple ID was created under a business account (Apple Business Manager) managed by a company IT team
+
+ZA Support handles Apple ID-related Mac recovery situations regularly — particularly FileVault-linked lockouts and cases where the machine needs to be re-enrolled or reset. [Contact us via WhatsApp](https://wa.me/27645295863) for a same-day assessment at our Hyde Park workshop, or call 064 529 5863.
+
+We do not charge for initial consultations. If the situation requires Apple-direct involvement, we will tell you clearly and point you to the right contact.
+    `.trim(),
+  },
   'jamf-mdm-guide-south-africa': {
     slug: 'jamf-mdm-guide-south-africa',
     title: 'JAMF MDM for South African Businesses: A Complete Guide',
@@ -562,7 +989,169 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     url: `https://zasupport.com/blog/${slug}`,
   };
 
+  const aggregateRatingSchema: SchemaOrg = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'ZA Support',
+    image: 'https://zasupport.com/logo.png',
+    url: 'https://zasupport.com',
+    telephone: '+27645295863',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '1 Hyde Park Lane',
+      addressLocality: 'Hyde Park',
+      addressRegion: 'Gauteng',
+      postalCode: '2196',
+      addressCountry: 'ZA',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '120',
+      bestRating: '5',
+      worstRating: '1',
+    },
+  };
+
   const faqSchemas: Record<string, SchemaOrg> = {
+    'macbook-running-slow': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'Why is my MacBook running so slow all of a sudden?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Sudden MacBook slowness is most often caused by full or nearly-full storage (macOS uses free space as virtual memory), a background process consuming CPU (check Activity Monitor), or a macOS update triggering Spotlight re-indexing. Check your available storage first — if it is under 20 GB on a 256 GB drive, that is likely the cause.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Will a RAM upgrade make my MacBook faster?',
+          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to 2019 MacBook Pro), a RAM upgrade from 8 GB to 16 GB can deliver significant performance improvement if Activity Monitor shows sustained high memory pressure or swap usage above 2–3 GB. On Apple Silicon Macs (M1–M4), RAM is not upgradeable — it is part of the chip. ZA Support fits RAM upgrades on Intel MacBooks from R 1,200–R 2,200.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I check if my Mac has a failing hard drive?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Download DriveDx (paid) or use the built-in Disk Utility (Applications → Utilities → Disk Utility → select your drive → First Aid). Warning signs of a failing SSD include dramatically slow app launches, frequent beach ball spinning, and system freezes that last 10–30 seconds. If S.M.A.R.T. errors are detected, back up immediately and bring the Mac to ZA Support for assessment.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can a MacBook be too old to fix or upgrade?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Most MacBooks from 2015 onwards are viable for repair and upgrade. The key factors are: does it support a current enough macOS for your software, is the hardware in working condition, and does the cost of the upgrade compare favourably to a replacement? ZA Support offers free assessments and provides both repair and replacement options with honest recommendations.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My MacBook fan is running constantly — is that causing the slowness?',
+          acceptedAnswer: { '@type': 'Answer', text: 'A fan running at full speed is a symptom, not a cause. It indicates the processor is running hot — either because of a demanding task, dried-out thermal paste (common on MacBooks 4+ years old), or a blocked exhaust. When the Mac runs hot, it thermal-throttles the CPU, which directly causes slowness. Thermal paste replacement typically costs R 800–R 1,200 at ZA Support and can reduce temperatures by 20–30°C.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I find out what is slowing down my Mac?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Open Activity Monitor (Applications → Utilities → Activity Monitor). The CPU tab shows which processes are consuming processing power. The Memory tab shows memory pressure and swap usage. Sort each by the highest consumer to identify the culprit. For a full diagnosis, ZA Support\'s Health Check service covers 28 diagnostic phases including hardware, storage health, memory, security, and software.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Does reinstalling macOS make a Mac faster?',
+          acceptedAnswer: { '@type': 'Answer', text: 'A clean macOS reinstall can help if the slowness is caused by accumulated software faults, corrupted system files, or malware. It will not help if the cause is hardware — insufficient RAM, a failing SSD, or thermal throttling from degraded thermal paste. Before reinstalling, it is worth diagnosing the root cause, as a reinstall is time-consuming and may not solve the problem.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How much does a MacBook speed-up service cost in Johannesburg?',
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support\'s Health Check service starts from R 899 and includes a full 28-phase diagnostic with a plain-English report. If hardware upgrades are needed (RAM, SSD, thermal paste), we quote those separately before proceeding. Initial assessment is free. No Fix No Fee on all work. Based in Hyde Park, Johannesburg.' },
+        },
+      ],
+    },
+    'macbook-wont-connect-wifi': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'Why won\'t my MacBook connect to WiFi when other devices can?',
+          acceptedAnswer: { '@type': 'Answer', text: 'When other devices connect but your MacBook cannot, the issue is specific to the Mac. The most common causes are corrupted WiFi preference files, a stale network configuration, or a software conflict. Try forgetting the network and reconnecting, then if that fails, delete the WiFi preference files in /Library/Preferences/SystemConfiguration/ and restart.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My MacBook connects to WiFi but has no internet — what does that mean?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Connected to WiFi but no internet means your Mac is communicating with the router successfully, but the router cannot reach the internet. This is an ISP or router problem, not a Mac problem. Restart your router and contact your ISP if the problem persists.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I reset WiFi settings on a Mac?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Open Finder → press Cmd+Shift+G → type /Library/Preferences/SystemConfiguration/ → move these files to the Desktop: com.apple.airport.preferences.plist, NetworkInterfaces.plist, and preferences.plist → restart the Mac. macOS will recreate these files with fresh settings. If WiFi works after the restart, delete the files you moved to the Desktop.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My MacBook keeps dropping WiFi — how do I fix it?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Intermittent WiFi drops are usually caused by interference on the 2.4GHz band (switch to 5GHz if available on your router), an overloaded router, or a DHCP lease renewal failure. Try switching bands, reducing the number of connected devices, and updating your router firmware. If drops continue, check Activity Monitor for any VPN or network monitoring software causing conflicts.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can a MacBook WiFi card be replaced?',
+          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to approximately 2019), the WiFi/Bluetooth card is a replaceable module. On Apple Silicon MacBooks (M1 and later), the WiFi chip is integrated into the logic board and requires board-level repair. ZA Support diagnoses and replaces WiFi cards on Intel MacBooks. Contact us for a free assessment.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Why does my MacBook say WiFi: No Hardware Installed?',
+          acceptedAnswer: { '@type': 'Answer', text: '"No Hardware Installed" means macOS cannot detect the WiFi card. On Intel MacBooks, this is often a loose internal connector (particularly on models that have been dropped or had the screen replaced) or a failed WiFi card. Resetting the SMC can sometimes resolve this: shut down, hold Shift+Control+Option+Power for 10 seconds, then start normally. If the error persists, the Mac needs hardware inspection.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Does macOS update fix WiFi problems?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Some macOS point releases specifically address WiFi bugs. If you are running an outdated version of macOS, an update can resolve WiFi issues introduced by a previous update. Check Apple menu → System Settings → General → Software Update and install any available updates.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How much does MacBook WiFi repair cost in Johannesburg?',
+          acceptedAnswer: { '@type': 'Answer', text: 'WiFi repair cost depends on the cause. Software fixes are covered under our R 899 Health Check service. A WiFi card replacement on an Intel MacBook typically costs R 1,200–R 2,200 fitted. Logic board WiFi circuit repair starts from R 1,800. ZA Support offers free initial diagnostics — we identify the exact fault before quoting. No Fix No Fee. Hyde Park, Johannesburg.' },
+        },
+      ],
+    },
+    'apple-id-locked-out': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'How do I recover a locked Apple ID?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Go to iforgot.apple.com, enter your Apple ID email address, and choose your verification method: a code sent to your trusted phone number, a trusted device nearby, or your Recovery Key if you set one up. If you have lost access to all trusted methods, use the "Start account recovery" option — Apple will verify your identity and set a waiting period of 72 hours to several weeks before allowing a password reset.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How long does Apple account recovery take?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Apple account recovery typically takes 72 hours for accounts with moderate security settings. Accounts with high security settings, no recent trusted device activity, or suspected compromise can have waiting periods of 2–4 weeks. Do not cancel or interrupt the recovery process, and do not attempt to sign in from other devices during the wait — this will cancel the recovery.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'I\'m locked out of my Mac because of my Apple ID — what do I do?',
+          acceptedAnswer: { '@type': 'Answer', text: 'If your Mac is locked at startup because FileVault is linked to your Apple ID, you can unlock it using the FileVault Recovery Key generated when FileVault was first set up. Boot into macOS Recovery (hold Cmd+R on Intel, hold power on Apple Silicon) and follow the disk unlock process. If you do not have the Recovery Key, data recovery may be required. ZA Support handles FileVault-linked lockouts — contact us on 064 529 5863.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What information does Apple need to verify my identity for account recovery?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Apple uses a combination of: the billing address on the account, the credit or debit card associated with the account (last 4 digits), serial numbers of Apple devices previously associated with the account, and purchase history. Having any App Store receipts or original purchase documentation for your Apple devices strengthens your case.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can Apple Support recover my account faster than the automated process?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Apple Support can investigate complex situations but they cannot override the security waiting period for standard lockouts. Where Apple Support is genuinely useful: accounts compromised by a third party, accounts associated with deceased family members, and business Apple ID accounts managed through Apple Business Manager. Call Apple South Africa on 0800 020 009 or use getsupport.apple.com.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is an Apple ID Recovery Key and should I set one up?',
+          acceptedAnswer: { '@type': 'Answer', text: 'A Recovery Key is a 28-character code that lets you bypass the waiting period during account recovery. Setting one up means if you are ever locked out, you can recover instantly using the key — there is no waiting period. The trade-off: if you lose the key and lose access to your trusted devices simultaneously, account recovery becomes significantly harder. Store the key in two physical locations.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My Apple ID shows activity I don\'t recognise — is my account compromised?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Unrecognised activity on your Apple ID is a serious concern. Go to appleid.apple.com, sign in, and review the "Devices" section — remove any device you do not recognise. Change your password immediately. Enable two-factor authentication if not already active. If you cannot access the account at all, contact Apple Support immediately and report the suspected compromise — this is treated as a priority case.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What happens to my iCloud data if my Apple ID is permanently locked?',
+          acceptedAnswer: { '@type': 'Answer', text: 'In the rare case where an Apple ID cannot be recovered, iCloud data (photos, documents, backups) remains tied to that account. Apple does not provide direct data extraction from iCloud without account access. The most important protection is having regular local backups of your iPhone and Mac — Time Machine for Mac, iTunes/Finder backups for iPhone — so your data is not exclusively in iCloud.' },
+        },
+      ],
+    },
     'macbook-load-shedding-damage': {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
@@ -616,7 +1205,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     ],
   };
 
-  const schemas: SchemaOrg[] = [articleSchema, breadcrumbSchema];
+  const schemas: SchemaOrg[] = [articleSchema, breadcrumbSchema, aggregateRatingSchema];
   if (faqSchemas[slug]) schemas.push(faqSchemas[slug]);
 
   return (

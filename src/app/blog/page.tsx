@@ -10,6 +10,30 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'macbook-running-slow',
+    title: 'Why Is My MacBook Running Slow? 7 Fixes That Actually Work',
+    excerpt: 'A slow MacBook is almost always fixable without spending a cent. Here are the 7 most common causes of MacBook slowness and exactly how to fix each one — from storage pressure to thermal throttling.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '8 min read',
+  },
+  {
+    slug: 'macbook-wont-connect-wifi',
+    title: 'MacBook Won\'t Connect to WiFi: Complete Fix Guide (2026)',
+    excerpt: 'MacBook WiFi problems range from a 30-second software fix to a hardware fault. This guide works through every fix in order so you resolve it without unnecessary steps.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '7 min read',
+  },
+  {
+    slug: 'apple-id-locked-out',
+    title: 'Locked Out of Apple ID? Here\'s Exactly What to Do',
+    excerpt: 'Being locked out of your Apple ID affects your Mac, iPhone, iPad, and every Apple service. This guide covers every recovery method available in 2026 — including what to do when the standard options fail.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '9 min read',
+  },
+  {
     slug: 'macbook-load-shedding-damage',
     title: 'Load Shedding Damaged My MacBook: What You Need to Know',
     excerpt: 'Load shedding does not just cut your power — the surge when power returns can silently destroy a MacBook logic board. Here is what happens, the warning signs, and how to protect your machine.',
