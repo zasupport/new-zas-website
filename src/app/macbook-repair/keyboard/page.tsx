@@ -20,7 +20,7 @@ import { buildFaqSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/l
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Keyboard Repair Johannesburg | From R 1,299 | ZA Support',
+  title: 'MacBook Keyboard Repair Johannesburg | ZA Support',
   description:
     'MacBook keyboard repair in Johannesburg from R 1,299. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro — all models. Hyde Park, Johannesburg. 12-month warranty on scissor keyboards.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/keyboard' },

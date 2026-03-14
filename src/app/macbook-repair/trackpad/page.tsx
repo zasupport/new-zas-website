@@ -8,7 +8,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Trackpad Repair Johannesburg | From R 899 | ZA Support',
+  title: 'MacBook Trackpad Repair Johannesburg | ZA Support',
   description:
     'MacBook trackpad repair in Johannesburg from R 899. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Free assessment. No Fix No Fee. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/trackpad' },

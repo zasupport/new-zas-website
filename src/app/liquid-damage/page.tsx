@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Liquid Damage Repair Johannesburg | Water Damage Specialists | ZA Support',
+  title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',
   description:
     'MacBook liquid damage repair in Johannesburg from R 2,500. Expert board-level cleaning, free assessment & same-day diagnosis. No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },

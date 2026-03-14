@@ -8,7 +8,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Battery Replacement Johannesburg | From R 1,299 | ZA Support',
+  title: 'MacBook Battery Replacement Johannesburg | ZA Support',
   description:
     'MacBook battery replacement Johannesburg from R 1,299. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/battery' },

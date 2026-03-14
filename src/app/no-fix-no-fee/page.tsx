@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'No Fix No Fee Mac Repair Johannesburg | Free Assessment | ZA Support',
+  title: 'No Fix No Fee Mac Repair Johannesburg | ZA Support',
   description:
     'No Fix No Fee Mac repair in Johannesburg. Free diagnostic assessment — you only pay if we fix it. No deposit, no diagnostic fee. Hyde Park. WhatsApp 079 053 9964.',
   alternates: { canonical: 'https://zasupport.com/no-fix-no-fee' },

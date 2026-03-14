@@ -7,7 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air Repair Johannesburg | Battery, Screen, Keyboard — All Models | ZA Support',
+  title: 'MacBook Air Repair Johannesburg | ZA Support',
   description:
     'MacBook Air repair in Johannesburg. Battery, screen, keyboard, trackpad, charging port, liquid damage — M1, M2, M3 and Intel models. From R 950. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-air-repair' },

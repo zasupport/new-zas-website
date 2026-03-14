@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro Liquid Damage Repair Johannesburg | From R 1,500 | ZA Support',
+  title: 'MacBook Pro Liquid Damage Repair | ZA Support',
   description:
     'MacBook Pro liquid damage repair in Johannesburg from R 1,500. Emergency guide, No Fix No Fee, 12-month warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro' },

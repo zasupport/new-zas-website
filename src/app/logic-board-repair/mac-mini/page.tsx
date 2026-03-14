@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Mac mini Logic Board Repair Johannesburg 2026 | From R 2,000 | ZA Support',
+  title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
   description:
     'Mac mini logic board repair Johannesburg from R 2,000. M1, M2, M2 Pro, M4, and Intel models. Apple Store charges R 15,000–R 35,000. We fix the chip. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },

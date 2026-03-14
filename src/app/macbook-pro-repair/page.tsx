@@ -7,7 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro Repair Johannesburg | Battery, Screen, Logic Board — All Models | ZA Support',
+  title: 'MacBook Pro Repair Johannesburg | ZA Support',
   description:
     'MacBook Pro repair in Johannesburg. Battery, screen, keyboard, logic board microsoldering, liquid damage — M1 Pro/Max, M2 Pro/Max, M3 Pro/Max and Intel models. From R 950. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair' },

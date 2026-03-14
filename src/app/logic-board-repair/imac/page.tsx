@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iMac Logic Board Repair Johannesburg 2026 | From R 3,000 | ZA Support',
+  title: 'iMac Logic Board Repair Johannesburg | ZA Support',
   description:
     'iMac logic board repair Johannesburg from R 3,000. 21.5", 24" and 27" models — M1, M3, Intel. Apple Store charges R 30,000–R 70,000. We fix the chip. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/imac' },

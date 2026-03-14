@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Logic Board Repair Johannesburg | Microsoldering Specialists | ZA Support',
+  title: 'Logic Board Repair Johannesburg | ZA Support',
   description:
     'MacBook logic board repair in Johannesburg. Expert microsoldering for no-power, no-display, USB-C failure, GPU faults. Free diagnostic. From R 1,800. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair' },

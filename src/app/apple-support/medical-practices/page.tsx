@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Apple Mac Support for Medical Practices Johannesburg | ZA Support',
+  title: 'Apple Mac Support Medical Practices Johannesburg',
   description:
     'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Managed IT from R 4,499/mo. Free diagnostic. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/apple-support/medical-practices' },

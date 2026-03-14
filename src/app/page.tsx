@@ -9,7 +9,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Apple Repair Johannesburg | MacBook Liquid Damage & Logic Board Specialists | ZA Support',
+  title: 'Mac Repair Johannesburg — Logic Board Specialists',
   description:
     "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. No Fix No Fee. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com' },

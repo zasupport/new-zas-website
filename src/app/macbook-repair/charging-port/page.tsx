@@ -8,7 +8,7 @@ import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Charging Port Repair Johannesburg | MacBook Not Charging | From R 299 | ZA Support',
+  title: 'MacBook Not Charging — Repair Johannesburg | ZA Support',
   description:
     'MacBook not charging in Johannesburg? We diagnose and repair all charging faults — dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. From R 299. Free assessment. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/charging-port' },

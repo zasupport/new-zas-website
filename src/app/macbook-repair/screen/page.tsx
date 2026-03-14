@@ -8,7 +8,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Screen Replacement Johannesburg | From R 2,499 | ZA Support',
+  title: 'MacBook Screen Replacement Johannesburg | ZA Support',
   description:
     'MacBook screen replacement in Johannesburg from R 2,499. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/screen' },
