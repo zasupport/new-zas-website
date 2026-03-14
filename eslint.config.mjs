@@ -13,6 +13,15 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  // ZA Support overrides — allow natural prose content in JSX
+  {
+    rules: {
+      // Prose pages use quotes/apostrophes in text — escaping breaks readability
+      "react/no-unescaped-entities": "off",
+      // Unused imports are warnings only — never block deploy
+      "@typescript-eslint/no-unused-vars": "warn",
+    },
+  },
 ]);
 
 export default eslintConfig;
