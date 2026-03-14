@@ -25,12 +25,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/imac-repair/ram-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/imac-repair/ssd-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
+    // Battery replacement (top-level)
+    { url: `${base}/battery-replacement`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+
     // MacBook repair sub-pages
     { url: `${base}/macbook-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/macbook-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/macbook-repair/keyboard`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/trackpad`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/charging-port`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/macbook-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/macbook-repair/logic-board`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/macbook-repair/data-recovery`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/macbook-repair/virus-removal`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // Liquid damage sub-pages
     { url: `${base}/liquid-damage/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -87,5 +94,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/what-to-do-macbook-liquid-damage`, lastModified: now, changeFrequency: 'yearly', priority: 0.6 },
     { url: `${base}/blog/why-rice-does-not-work`, lastModified: now, changeFrequency: 'yearly', priority: 0.6 },
     { url: `${base}/blog/jamf-mdm-guide-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.6 },
+    { url: `${base}/blog/macbook-running-slow`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+    { url: `${base}/blog/macbook-wont-connect-wifi`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+    { url: `${base}/blog/apple-id-locked-out`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
