@@ -75,6 +75,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ipad-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/ipad-repair/charging`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
+    // Apple Watch repair
+    { url: `${base}/apple-watch-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+
+    // AirPods repair
+    { url: `${base}/airpods-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+
+    // Apple accessories repair
+    { url: `${base}/accessories-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+
     // Mac Mini repair
     { url: `${base}/mac-mini-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
 
