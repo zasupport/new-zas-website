@@ -139,8 +139,12 @@ const testimonials = [
 ];
 
 const breadcrumbItems = [
-  { name: 'Home', href: '/' },
-  { name: 'No Fix No Fee', href: '/no-fix-no-fee' },
+  { label: 'No Fix No Fee', href: '/no-fix-no-fee' },
+];
+
+const breadcrumbSchemaItems = [
+  { name: 'Home', url: 'https://zasupport.com' },
+  { name: 'No Fix No Fee', url: 'https://zasupport.com/no-fix-no-fee' },
 ];
 
 export default function NoFixNoFeePage() {
@@ -150,14 +154,11 @@ export default function NoFixNoFeePage() {
     name: 'No Fix No Fee Mac Repair Johannesburg',
     description:
       'Free Mac diagnostic and assessment in Johannesburg. You only pay if we successfully repair your Mac. Covers logic board repair, liquid damage, screen replacement, battery, keyboard, and charging port.',
-    provider: 'ZA Support',
-    areaServed: 'Johannesburg',
-    url: 'https://zasupport.com/no-fix-no-fee',
-    telephone: '+27790539964',
-    aggregateRating: { ratingValue: 4.9, reviewCount: 120 },
+    lowPrice: '0',
+    highPrice: '6500',
   });
 
-  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems);
+  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
   const aggregateRatingSchema = {
     '@context': 'https://schema.org',
@@ -526,7 +527,7 @@ export default function NoFixNoFeePage() {
                 Straight answers about how No Fix No Fee works at ZA Support.
               </p>
             </div>
-            <FAQAccordion faqs={faqs} />
+            <FAQAccordion items={faqs} />
           </div>
         </section>
 

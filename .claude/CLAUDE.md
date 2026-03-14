@@ -28,3 +28,7 @@ ANY request to improve/optimise/upgrade/enhance/fix/refactor ANY file = pre-appr
 ∅ "Shall I?" | ∅ "Want me to?" | ∅ "Would you like?" — ALL BANNED.
 Hard stops only: force push main | delete production data.
 → memory/feedback_auto_approve_improvements.md
+
+## AUTO-EXECUTE RULE (§122 — PERMANENT — HARD)
+Before closing ANY chat or session: execute ALL remaining tasks (build/fix/commit/deploy/verify), write ALL learnings to MEMORY.md + memory/*.md, sync new permanent rules to all repo CLAUDE.md files.
+BANNED: stopping mid-task | leaving items for next session without executing | reporting without acting | "shall I continue?" when more remains.
