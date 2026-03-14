@@ -8,6 +8,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Homepage
     { url: base, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
 
+    // High-intent symptom pages
+    { url: `${base}/macbook-not-turning-on`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+
     // Priority hubs
     { url: `${base}/liquid-damage`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/logic-board-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
