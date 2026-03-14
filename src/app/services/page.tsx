@@ -1,138 +1,565 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, ArrowRight } from 'lucide-react';
-import { CONTACT, REPAIR_PRICES } from '@/lib/constants';
+import { Phone, ArrowRight, Shield, Activity, Wrench, HardDrive, Wifi, Laptop, Building2, MessageCircle } from 'lucide-react';
+import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Services & Pricing | ZA Support — Apple Repair Johannesburg',
+  title: 'IT Services Johannesburg | Mac Repair, Security & Support | ZA Support',
   description:
-    'Full pricing for all ZA Support services. Liquid damage, logic board, iPhone, iPad repair, JAMF MDM, managed IT services. Hyde Park, Johannesburg.',
+    'Complete IT services in Johannesburg — MacBook repair, iMac repair, data recovery, virus removal, Health Check monitoring, CyberShield security, SLA support and business IT. Hyde Park, Johannesburg. Free assessment. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/services' },
+  keywords: [
+    'it services johannesburg',
+    'mac support johannesburg',
+    'apple it support johannesburg',
+    'macbook repair johannesburg',
+    'mac repair hyde park',
+    'apple support johannesburg',
+    'business it support johannesburg',
+    'imac repair johannesburg',
+  ],
 };
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'LocalBusiness',
+      '@id': 'https://zasupport.com/#business',
+      name: 'ZA Support — Apple IT Specialists',
+      description:
+        'IT services in Johannesburg specialising in Mac repair, managed IT, cybersecurity and health monitoring for medical practices, businesses and individuals.',
+      url: 'https://zasupport.com',
+      telephone: '+27645295863',
+      email: 'courtney@zasupport.com',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '1 Hyde Park Lane',
+        addressLocality: 'Hyde Park',
+        addressRegion: 'Gauteng',
+        postalCode: '2196',
+        addressCountry: 'ZA',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: -26.1217,
+        longitude: 28.0402,
+      },
+      openingHours: 'Mo-Fr 08:00-18:00',
+      priceRange: 'R 899 – R 15,000',
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.9',
+        reviewCount: '120',
+        bestRating: '5',
+        worstRating: '1',
+      },
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'ZA Support Services',
+        itemListElement: [
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Repair', url: 'https://zasupport.com/macbook-repair' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'iMac Repair', url: 'https://zasupport.com/imac-repair' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Logic Board Repair', url: 'https://zasupport.com/logic-board-repair' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Liquid Damage Repair', url: 'https://zasupport.com/liquid-damage' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Health Check Monitoring', url: 'https://zasupport.com/apple-support' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'CyberShield Security', url: 'https://zasupport.com/managed-services' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Managed IT Services', url: 'https://zasupport.com/managed-services' } },
+          { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'JAMF MDM', url: 'https://zasupport.com/jamf-mdm' } },
+        ],
+      },
+    },
+    {
+      '@type': 'Service',
+      '@id': 'https://zasupport.com/services#services-overview',
+      name: 'IT Services Johannesburg — ZA Support',
+      provider: { '@id': 'https://zasupport.com/#business' },
+      areaServed: {
+        '@type': 'City',
+        name: 'Johannesburg',
+      },
+      description:
+        'Comprehensive Apple IT services in Johannesburg including Mac repair, logic board microsoldering, data recovery, virus removal, managed security, and SLA support.',
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'What IT services does ZA Support offer in Johannesburg?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'ZA Support offers MacBook repair, iMac repair, logic board microsoldering, liquid damage recovery, data recovery, virus removal, Health Check device monitoring, CyberShield cybersecurity, SLA managed IT support, JAMF MDM, and business IT services from our Hyde Park, Johannesburg office.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Do you charge for an assessment?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'No. All assessments at ZA Support are free of charge. We inspect your device, diagnose the fault, and give you a transparent quote before any work begins.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is the No Fix No Fee policy?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'If we cannot repair your device, you pay nothing. The No Fix No Fee guarantee applies to all Mac and iPhone repairs. You will never be charged for an unsuccessful repair attempt.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How much does MacBook repair cost in Johannesburg?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'MacBook repair costs depend on the fault. Battery replacement starts from R 950, screen replacement from R 2,500, liquid damage from R 1,500, and logic board microsoldering from R 1,800. All assessments are free. Apple Store charges R 15,000 to R 70,000 for logic board replacement — we repair the component from R 1,800.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is Health Check monitoring?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Health Check is ZA Support\'s remote monitoring service. It runs a 28-phase diagnostic on your Mac every 15 minutes, tracking battery health, storage, security, backups, and performance. Alerts are sent automatically when issues are detected, before they become critical failures.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is CyberShield?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'CyberShield is ZA Support\'s cybersecurity product for homes and businesses. It provides network-level threat blocking, ransomware protection, dark web monitoring, and monthly security reports. Home plans start from R 799/month and business plans from R 3,500/month.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Do you support medical practices and healthcare businesses?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Yes. ZA Support specialises in IT for medical practices. We are POPIA and HPCSA-compliant, understand patient data obligations, and provide managed IT, Health Check monitoring, and CyberShield security designed for healthcare environments.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I get started with ZA Support?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. We offer free assessments — bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
+          },
+        },
+      ],
+    },
+  ],
+};
+
+const services = [
+  {
+    icon: Laptop,
+    title: 'MacBook Repair',
+    description:
+      'Component-level repair for all MacBook models. Logic board microsoldering, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. No Fix No Fee on every job.',
+    price: 'From R 950',
+    href: '/macbook-repair',
+    highlight: 'Most popular',
+  },
+  {
+    icon: Wrench,
+    title: 'iMac Repair',
+    description:
+      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a 12-month warranty.',
+    price: 'From R 1,500',
+    href: '/imac-repair',
+    highlight: null,
+  },
+  {
+    icon: HardDrive,
+    title: 'Data Recovery',
+    description:
+      'Professional data recovery from failed HDDs, SSDs, and flash storage. We recover from water-damaged drives, failed logic boards, and accidental deletions. Forensic-grade tools with no data, no fee.',
+    price: 'From R 1,800',
+    href: '/macbook-repair',
+    highlight: null,
+  },
+  {
+    icon: Shield,
+    title: 'Virus & Malware Removal',
+    description:
+      'Complete removal of malware, adware, ransomware, and PUPs from Mac. Full security audit included. We identify the infection source and close the vulnerability so it cannot recur.',
+    price: 'From R 899',
+    href: '/managed-services',
+    highlight: null,
+  },
+  {
+    icon: Activity,
+    title: 'Health Check Monitoring',
+    description:
+      'Remote 28-phase monitoring for your Mac. Tracks battery health, storage, security, backups, and performance every 15 minutes. Early-warning alerts before hardware fails. R 99/device/month.',
+    price: 'R 99/device/month',
+    href: '/apple-support',
+    highlight: 'Proactive',
+  },
+  {
+    icon: Shield,
+    title: 'CyberShield Security',
+    description:
+      'Network-level cybersecurity for homes and businesses. Blocks malware, ransomware and phishing at the network layer. Dark web monitoring, monthly reports. Home from R 799/month, Business from R 3,500/month.',
+    price: 'From R 799/month',
+    href: '/managed-services',
+    highlight: null,
+  },
+  {
+    icon: Building2,
+    title: 'SLA & Managed IT Support',
+    description:
+      'Fixed-fee managed IT for medical practices, SMEs, and professional firms. Unlimited support calls, on-site visits, proactive monitoring and quarterly reviews. Response within 4 hours.',
+    price: 'From R 4,499/month',
+    href: '/managed-services',
+    highlight: 'Best value',
+  },
+  {
+    icon: Wifi,
+    title: 'Business IT & Network Setup',
+    description:
+      'Full network design, UniFi installation, Wi-Fi optimisation, VLAN segmentation, VPN configuration, and server setup for Johannesburg businesses. POPIA-compliant architecture included.',
+    price: 'From R 2,500',
+    href: '/managed-services',
+    highlight: null,
+  },
+  {
+    icon: Building2,
+    title: 'JAMF MDM',
+    description:
+      'Apple device management for businesses using JAMF Pro. Deploy, manage, secure and remote-wipe all Apple devices in your organisation. Zero-touch enrolment and policy enforcement.',
+    price: 'From R 4,500/month',
+    href: '/jamf-mdm',
+    highlight: null,
+  },
+];
+
+const pricingRows = [
+  ['Battery Replacement (MacBook)', 'From R 950', '/battery-replacement'],
+  ['Screen Replacement (MacBook)', 'From R 2,500', '/macbook-repair'],
+  ['Logic Board Microsoldering', 'From R 1,800', '/logic-board-repair'],
+  ['Liquid Damage Recovery (Mac)', 'From R 1,500', '/liquid-damage'],
+  ['Data Recovery', 'From R 1,800', '/macbook-repair'],
+  ['Virus & Malware Removal', 'From R 899', '/managed-services'],
+  ['Health Check Monitoring', 'R 99/device/month', '/apple-support'],
+  ['CyberShield Home', 'From R 799/month', '/managed-services'],
+  ['SLA Managed IT (1 doctor)', 'R 4,499/month', '/managed-services'],
+  ['JAMF MDM Starter', 'R 4,500/month', '/jamf-mdm'],
+  ['IT Assessment (site visit)', 'Free', '/contact'],
+  ['Diagnostic Assessment', 'Free', '/contact'],
+];
 
 export default function ServicesPage() {
   return (
     <>
-      <section className="hero-gradient grid-overlay pt-32 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      {/* Hero */}
+      <section className="hero-gradient grid-overlay pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-            Services &amp; <span className="text-[#0FEA7A]">Pricing</span>
-          </h1>
-          <p className="text-xl text-[#7A9E98] max-w-2xl">
-            Transparent pricing on every service. All assessments are free. No Fix No Fee on all repairs.
-            12-month warranty on all work.
-          </p>
+          <div className="max-w-3xl">
+            <p className="text-[#0FEA7A] text-sm font-semibold tracking-widest uppercase mb-4">
+              Hyde Park, Johannesburg
+            </p>
+            <h1
+              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] mb-6 leading-tight"
+              style={{ fontFamily: 'Syne, sans-serif' }}
+            >
+              IT Services{' '}
+              <span className="text-[#0FEA7A]">Johannesburg</span>
+            </h1>
+            <p className="text-xl text-[#7A9E98] mb-8 leading-relaxed">
+              Mac repair, cybersecurity, managed IT and device monitoring — all from one specialist team in
+              Hyde Park. Free assessment on every device. No Fix No Fee on all repairs. 12-month warranty as standard.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href={CONTACT.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-7 py-3.5 rounded-xl font-bold text-base hover:bg-[#0FEA7A]/90 transition-all"
+              >
+                <MessageCircle className="w-5 h-5" /> WhatsApp Us
+              </a>
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.4)] text-[#0FEA7A] px-7 py-3.5 rounded-xl font-bold text-base hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                <Phone className="w-5 h-5" /> {CONTACT.phone}
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
+      {/* Trust bar */}
+      <section className="bg-[#0D1F1C] border-y border-[rgba(255,255,255,0.05)] py-6">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+            {[
+              ['Free Assessment', 'Every device, no obligation'],
+              ['No Fix No Fee', 'All repairs guaranteed'],
+              ['12-Month Warranty', 'On all parts and labour'],
+              ['4.9 / 5 Rating', '120+ client reviews'],
+            ].map(([heading, sub]) => (
+              <div key={heading}>
+                <p className="text-[#0FEA7A] font-bold text-sm">{heading}</p>
+                <p className="text-[#7A9E98] text-xs mt-0.5">{sub}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Services grid */}
       <section className="py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-          {/* Liquid Damage */}
-          <div>
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>Liquid Damage Repair</h2>
-              <Link href="/liquid-damage" className="text-[#0FEA7A] text-sm hover:underline flex items-center gap-1">View full page <ArrowRight className="w-3 h-3" /></Link>
-            </div>
-            <div className="glass-card overflow-hidden p-0">
-              {Object.entries(REPAIR_PRICES.liquidDamage).map(([device, price], i) => {
-                const labels: Record<string, string> = { macbookAir: 'MacBook Air', macbookPro: 'MacBook Pro', iphone: 'iPhone', ipad: 'iPad', appleWatch: 'Apple Watch', imac: 'iMac' };
-                return (
-                  <div key={device} className={`flex justify-between items-center p-4 ${i < 5 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98]">{labels[device]}</span>
-                    <span className="text-[#0FEA7A] font-bold">{price}+</span>
-                  </div>
-                );
-              })}
-            </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-12">
+            <h2
+              className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
+              style={{ fontFamily: 'Syne, sans-serif' }}
+            >
+              All Services
+            </h2>
+            <p className="text-[#7A9E98] text-lg max-w-2xl">
+              From same-day MacBook repairs to ongoing managed IT for businesses — ZA Support covers the full
+              spectrum of Apple IT services in Johannesburg.
+            </p>
           </div>
 
-          {/* Logic Board */}
-          <div>
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>Logic Board / Microsoldering</h2>
-              <Link href="/logic-board-repair" className="text-[#0FEA7A] text-sm hover:underline flex items-center gap-1">View full page <ArrowRight className="w-3 h-3" /></Link>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {services.map((service) => {
+              const Icon = service.icon;
+              return (
+                <Link
+                  key={service.title}
+                  href={service.href}
+                  className="glass-card p-6 group hover:border-[rgba(15,234,122,0.3)] transition-all flex flex-col"
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center">
+                      <Icon className="w-5 h-5 text-[#0FEA7A]" />
+                    </div>
+                    {service.highlight && (
+                      <span className="text-[10px] font-bold text-[#0A1A18] bg-[#0FEA7A] px-2 py-0.5 rounded-full uppercase tracking-wide">
+                        {service.highlight}
+                      </span>
+                    )}
+                  </div>
+                  <h3
+                    className="text-[#E8F4F1] font-bold text-lg mb-2"
+                    style={{ fontFamily: 'Syne, sans-serif' }}
+                  >
+                    {service.title}
+                  </h3>
+                  <p className="text-[#7A9E98] text-sm leading-relaxed mb-4 flex-1">{service.description}</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[#0FEA7A] font-bold text-sm">{service.price}</span>
+                    <span className="text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors flex items-center gap-1 text-sm">
+                      View details <ArrowRight className="w-3 h-3" />
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing table */}
+      <section className="py-20 bg-[#0D1F1C]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
+            style={{ fontFamily: 'Syne, sans-serif' }}
+          >
+            Pricing Overview
+          </h2>
+          <p className="text-[#7A9E98] mb-8">
+            Transparent, published pricing. Final quotes are confirmed after a free assessment.
+            Apple Store charges R 15,000 – R 70,000 for logic board replacement — we repair the component
+            from R 1,800.
+          </p>
+          <div className="glass-card overflow-hidden p-0">
+            {pricingRows.map(([item, price, href], i) => (
+              <div
+                key={item}
+                className={`flex justify-between items-center px-5 py-4 ${
+                  i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''
+                }`}
+              >
+                <Link
+                  href={href}
+                  className="text-[#7A9E98] hover:text-[#E8F4F1] transition-colors text-sm"
+                >
+                  {item}
+                </Link>
+                <span
+                  className={`font-bold text-sm ${
+                    price === 'Free' ? 'text-[#0FEA7A]' : 'text-[#E8F4F1]'
+                  }`}
+                >
+                  {price}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why ZA Support */}
+      <section className="py-20 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2
+                className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6"
+                style={{ fontFamily: 'Syne, sans-serif' }}
+              >
+                Mac Support in Johannesburg — Done Properly
+              </h2>
+              <p className="text-[#7A9E98] mb-5 leading-relaxed">
+                ZA Support is based in Hyde Park, Johannesburg and specialises exclusively in Apple IT. Every
+                engineer has hands-on experience with Mac hardware at the component level — we do not guess
+                and we do not swap boards unnecessarily.
+              </p>
+              <p className="text-[#7A9E98] mb-5 leading-relaxed">
+                We serve individual Mac owners, medical practices, law firms, SMEs and enterprise businesses
+                across Johannesburg. Whether you need a single MacBook screen replaced or a full managed IT
+                service with POPIA-compliant infrastructure, we have a solution.
+              </p>
+              <p className="text-[#7A9E98] mb-8 leading-relaxed">
+                Our Health Check monitoring platform runs a 28-phase diagnostic on every client device every
+                15 minutes. We identify failing batteries, approaching storage limits, expired backups and
+                security vulnerabilities before they cause downtime. Most clients save more in avoided data
+                loss than the monitoring costs.
+              </p>
+              <a
+                href={CONTACT.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-7 py-3.5 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
+              >
+                <MessageCircle className="w-5 h-5" /> Get a Free Quote on WhatsApp
+              </a>
             </div>
-            <div className="glass-card overflow-hidden p-0">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                ['Diagnostic Assessment', 'Free'],
-                ['USB-C / Thunderbolt Repair', 'From R 1,800'],
-                ['Power Circuit Microsoldering', 'From R 2,000'],
-                ['Component-Level Microsoldering', 'From R 2,500'],
-                ['GPU Reballing (Intel Mac)', 'From R 3,500'],
-                ['Logic Board Replacement', 'From R 8,000'],
-              ].map(([item, price], i) => (
-                <div key={item} className={`flex justify-between items-center p-4 ${i < 5 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                  <span className="text-[#7A9E98]">{item}</span>
-                  <span className="text-[#0FEA7A] font-bold">{price}</span>
+                ['Apple IT Specialists', 'Mac-only focus means deeper expertise than generalist IT companies'],
+                ['Component-Level Repair', 'Microsoldering repairs the fault — not the whole board'],
+                ['Medical IT Experts', 'POPIA + HPCSA-compliant solutions for healthcare practices'],
+                ['Proactive Monitoring', 'Health Check detects failures before they happen'],
+                ['Transparent Pricing', 'All prices published. No surprise invoices.'],
+                ['12-Month Warranty', 'On all parts and labour, no exceptions'],
+              ].map(([title, desc]) => (
+                <div key={title} className="glass-card p-5">
+                  <p className="text-[#E8F4F1] font-bold text-sm mb-1.5" style={{ fontFamily: 'Syne, sans-serif' }}>
+                    {title}
+                  </p>
+                  <p className="text-[#7A9E98] text-xs leading-relaxed">{desc}</p>
                 </div>
               ))}
-            </div>
-          </div>
-
-          {/* iPhone */}
-          <div>
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Repair</h2>
-              <Link href="/iphone-repair" className="text-[#0FEA7A] text-sm hover:underline flex items-center gap-1">View full page <ArrowRight className="w-3 h-3" /></Link>
-            </div>
-            <div className="glass-card overflow-hidden p-0">
-              {[
-                ['Screen Replacement', 'From R 1,500'],
-                ['Battery Replacement', 'From R 950'],
-                ['Liquid Damage', 'From R 1,200'],
-                ['Charging Port', 'From R 750'],
-                ['Back Glass', 'From R 1,200'],
-                ['Camera Repair', 'From R 1,800'],
-              ].map(([item, price], i) => (
-                <div key={item} className={`flex justify-between items-center p-4 ${i < 5 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                  <span className="text-[#7A9E98]">{item}</span>
-                  <span className="text-[#0FEA7A] font-bold">{price}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Business Services */}
-          <div>
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Business & Managed Services</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="glass-card p-6">
-                <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-[#E8F4F1] font-bold" style={{ fontFamily: 'Syne, sans-serif' }}>JAMF MDM</h3>
-                  <Link href="/jamf-mdm" className="text-[#0FEA7A] text-xs hover:underline">Details →</Link>
-                </div>
-                {[['Starter (≤25 devices)', 'R 4,500/month'], ['Business (25–100 devices)', 'R 8,500/month'], ['Enterprise', 'Custom']].map(([tier, price], i) => (
-                  <div key={tier} className={`flex justify-between py-2.5 ${i < 2 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{tier}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{price}</span>
-                  </div>
-                ))}
-              </div>
-              <div className="glass-card p-6">
-                <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-[#E8F4F1] font-bold" style={{ fontFamily: 'Syne, sans-serif' }}>Managed IT Services</h3>
-                  <Link href="/managed-services" className="text-[#0FEA7A] text-xs hover:underline">Details →</Link>
-                </div>
-                {[['Starter', 'R 4,500/month'], ['Business', 'R 8,500/month'], ['Enterprise', 'Custom']].map(([tier, price], i) => (
-                  <div key={tier} className={`flex justify-between py-2.5 ${i < 2 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{tier}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{price}</span>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-[#111C1A]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Free Assessment — No Obligation</h2>
-            <p className="text-[#7A9E98] mb-6">Bring your device in. We assess, quote honestly, and fix it fast.</p>
-            <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
-              <Phone className="w-5 h-5" /> Call {CONTACT.phone}
-            </a>
+      {/* FAQ */}
+      <section className="py-20 bg-[#0D1F1C]">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2
+            className="text-3xl font-extrabold text-[#E8F4F1] mb-10"
+            style={{ fontFamily: 'Syne, sans-serif' }}
+          >
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-6">
+            {[
+              {
+                q: 'What IT services does ZA Support offer in Johannesburg?',
+                a: 'ZA Support offers MacBook repair, iMac repair, logic board microsoldering, liquid damage recovery, data recovery, virus removal, Health Check device monitoring, CyberShield cybersecurity, SLA managed IT support, JAMF MDM, and full business IT services from our Hyde Park, Johannesburg office.',
+              },
+              {
+                q: 'Do you charge for an assessment?',
+                a: 'No. All assessments at ZA Support are free. We inspect your device, diagnose the fault and provide a transparent quote before any work begins. There is no obligation to proceed.',
+              },
+              {
+                q: 'What does No Fix No Fee mean?',
+                a: 'If we cannot repair your device, you pay nothing. The No Fix No Fee policy applies to all Mac and iPhone repairs. You will never be charged for an unsuccessful repair attempt.',
+              },
+              {
+                q: 'How much does MacBook repair cost in Johannesburg?',
+                a: 'Battery replacement starts from R 950, screen replacement from R 2,500, liquid damage from R 1,500, and logic board microsoldering from R 1,800. Apple Store charges R 15,000 – R 70,000 for logic board replacement. We repair the faulty component from R 1,800.',
+              },
+              {
+                q: 'What is Health Check monitoring?',
+                a: "Health Check is ZA Support's remote monitoring service. It runs a 28-phase diagnostic on your Mac every 15 minutes, tracking battery health, storage, security, backups and performance. Alerts are sent automatically when issues are detected, before they become critical. Costs R 99 per device per month.",
+              },
+              {
+                q: 'What is CyberShield?',
+                a: "CyberShield is ZA Support's cybersecurity product for homes and businesses. It provides network-level threat blocking, ransomware protection, dark web monitoring, and monthly security reports. Home plans start from R 799/month and business plans from R 3,500/month.",
+              },
+              {
+                q: 'Do you support medical practices?',
+                a: 'Yes. ZA Support specialises in IT for medical practices. We are POPIA and HPCSA-compliant, understand patient data obligations, and provide managed IT, Health Check monitoring and CyberShield security designed for healthcare environments.',
+              },
+              {
+                q: 'How do I get started?',
+                a: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Free assessments are available at our Hyde Park office or we can arrange a site visit for business clients.',
+              },
+            ].map(({ q, a }) => (
+              <div key={q} className="glass-card p-6">
+                <h3
+                  className="text-[#E8F4F1] font-bold mb-3"
+                  style={{ fontFamily: 'Syne, sans-serif' }}
+                >
+                  {q}
+                </h3>
+                <p className="text-[#7A9E98] text-sm leading-relaxed">{a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* WhatsApp CTA */}
+      <section className="py-20 bg-[#0A1A18]">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="bg-[rgba(39,80,77,0.35)] border border-[rgba(15,234,122,0.25)] rounded-3xl p-10">
+            <h2
+              className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
+              style={{ fontFamily: 'Syne, sans-serif' }}
+            >
+              Free Assessment — No Obligation
+            </h2>
+            <p className="text-[#7A9E98] mb-3">
+              Bring your device in or send us a WhatsApp message. We assess, quote honestly, and fix it fast.
+            </p>
+            <p className="text-[#7A9E98] text-sm mb-8">
+              Hyde Park, Johannesburg &bull; Mon – Fri 08:00 – 18:00
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={CONTACT.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
+              >
+                <MessageCircle className="w-5 h-5" /> WhatsApp Us Now
+              </a>
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.4)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                <Phone className="w-5 h-5" /> {CONTACT.phone}
+              </a>
+            </div>
           </div>
         </div>
       </section>
