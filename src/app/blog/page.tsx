@@ -10,6 +10,22 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'how-to-speed-up-mac-free',
+    title: 'How to Speed Up Your Mac for Free (2026 Guide)',
+    excerpt: 'Ten free steps to make your Mac noticeably faster today — from clearing startup items and resetting the SMC to cleaning your Downloads folder and managing storage pressure. No paid software required.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '9 min read',
+  },
+  {
+    slug: 'mac-not-turning-on-checklist',
+    title: 'Mac Won\'t Turn On? Work Through This Checklist First',
+    excerpt: 'Before assuming the worst, work through this 8-step self-service checklist. Most Mac startup failures have a straightforward cause — a flat battery, a stuck power button, or a corrupted boot volume — and can be resolved without a repair.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '8 min read',
+  },
+  {
     slug: 'macbook-running-slow',
     title: 'Why Is My MacBook Running Slow? 7 Fixes That Actually Work',
     excerpt: 'A slow MacBook is almost always fixable without spending a cent. Here are the 7 most common causes of MacBook slowness and exactly how to fix each one — from storage pressure to thermal throttling.',

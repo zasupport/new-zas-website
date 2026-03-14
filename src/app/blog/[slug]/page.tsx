@@ -804,6 +804,294 @@ ZA Support handles Apple ID-related Mac recovery situations regularly — partic
 We do not charge for initial consultations. If the situation requires Apple-direct involvement, we will tell you clearly and point you to the right contact.
     `.trim(),
   },
+  'how-to-speed-up-mac-free': {
+    slug: 'how-to-speed-up-mac-free',
+    title: 'How to Speed Up Your Mac for Free (2026 Guide)',
+    excerpt: 'Ten free steps to make your Mac noticeably faster today — no paid software required. From clearing startup items and resetting the SMC to managing storage pressure and cleaning your Downloads folder.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '9 min read',
+    author: 'ZA Support',
+    content: `
+## Your Mac Is Probably Faster Than You Think
+
+Before spending anything on a new machine or paid optimisation software, work through these ten free steps. In our experience at ZA Support — after 14 years of Mac repairs and Health Checks in Johannesburg — the majority of slow Macs are suffering from fixable software and configuration issues, not hardware failure.
+
+These steps are in order of impact. Start at Step 1 and stop when your Mac feels fast again.
+
+## Step 1: Check Your Available Storage (Most Common Cause)
+
+macOS uses free disk space as virtual memory. When your drive fills up, the operating system has nowhere to write temporary data and the entire system slows to a crawl.
+
+**How to check:** Apple menu → About This Mac → Storage (or System Settings → General → Storage on Ventura and later).
+
+**What you are looking for:** If you have less than 15–20% of your drive free, storage pressure is almost certainly contributing to your slowness.
+
+**Free fixes:**
+- Open Finder → Go → Downloads. Delete anything you no longer need.
+- Empty the Trash (Finder → Empty Trash). Files in the Trash still count against your storage.
+- On macOS Ventura and later: System Settings → General → Storage → scroll down to see recommendations. "Store in iCloud" and "Optimise Storage" are free and effective if you have an active iCloud plan.
+- Move large video files and photo libraries to an external drive.
+
+A Mac with 5 GB free on a 256 GB drive can feel unusable. Freeing up 30–40 GB can transform performance overnight.
+
+## Step 2: Remove Login Items That Start Automatically
+
+Every application that launches at startup competes for CPU and RAM before you have opened anything. Macs accumulate login items silently over years — cloud backup apps, printer utilities, updater daemons — and after a while, a dozen processes are fighting for resources before you have opened Safari.
+
+**macOS Ventura and later:** System Settings → General → Login Items. Review "Open at Login" and "Allow in Background." Remove anything you do not immediately need at startup.
+
+**macOS Monterey and earlier:** System Preferences → Users & Groups → Login Items → select the item → click the minus (–) button.
+
+**Recommended to remove:** Printer utilities, software updaters for apps you rarely use, cloud sync clients for services you do not actively use. Keep: Zoom or Teams if you use them daily, backup software you rely on.
+
+This single step can dramatically reduce startup time and free up several hundred megabytes of RAM.
+
+## Step 3: Reset the SMC (System Management Controller)
+
+The SMC manages power delivery, fans, sleep behaviour, and thermal management on Intel Macs. A corrupted SMC state can cause sluggishness, runaway fan speeds, battery issues, and unresponsiveness.
+
+**Intel Mac (MacBook with removable battery — pre-2017):**
+Shut down. Remove the battery. Hold the power button for 5 seconds. Reinstall battery. Start normally.
+
+**Intel Mac (MacBook with non-removable battery — 2017 onwards):**
+Shut down. Hold Shift + Control + Option + Power simultaneously for 10 seconds. Release all keys. Press Power to start.
+
+**Apple Silicon Mac (M1–M4):** There is no SMC on Apple Silicon. If you are on an M-series Mac, skip to Step 4.
+
+**When it helps:** Slow response, fans running at full speed constantly, battery not charging correctly, display backlight behaving strangely, Mac not waking from sleep.
+
+## Step 4: Reset NVRAM / PRAM
+
+NVRAM stores small pieces of configuration data: display resolution, startup disk selection, time zone, and speaker volume. Corrupted NVRAM can cause boot slowness and erratic behaviour.
+
+**Intel Mac:** Shut down. Press Power, then immediately hold Option + Command + P + R for about 20 seconds (you will hear the startup chime twice on older models, or see the Apple logo appear and disappear twice on newer ones).
+
+**Apple Silicon Mac:** NVRAM resets automatically on Apple Silicon when needed. No manual step required.
+
+## Step 5: Check Activity Monitor for CPU Hogs
+
+A single misbehaving process can consume an entire CPU core, making everything else feel sluggish.
+
+**Open Activity Monitor:** Applications → Utilities → Activity Monitor → CPU tab. Sort by % CPU descending.
+
+**Normal to see:** kernel_task, windowserver, and your open applications. A brief spike from any app is normal.
+
+**Investigate:** Any unfamiliar process using more than 20–30% CPU continuously when you are not doing anything demanding. Right-click the process → Inspect → Open Files and Ports can help identify what it is.
+
+**Common culprits:**
+- mdworker / mds_stores: Spotlight indexing — normal after an update, will finish on its own
+- cloudd / bird: iCloud sync — sign out and back into iCloud if this is stuck
+- Any process you do not recognise consuming sustained high CPU: search the name online before force-quitting
+
+## Step 6: Clean Out Your Downloads Folder
+
+The Downloads folder is one of the most neglected storage locations on most Macs. Over a few years, it accumulates gigabytes of old installers (.dmg, .pkg), ZIP files, PDF downloads, and attachments. It also often contains hundreds of small files that never get indexed efficiently.
+
+Open Finder → Go → Downloads. Sort by Size (click the Size column header in List view). Delete installer files (.dmg, .pkg) for software you have already installed. They cannot be used again without downloading fresh copies anyway.
+
+Sort by Date Added and delete anything older than six months that you have not opened.
+
+This is free, takes five minutes, and often recovers 10–20 GB on machines that have been in use for a few years.
+
+## Step 7: Reduce Visual Effects (Older Macs)
+
+On Macs from 2015–2019 with integrated graphics, the transparency, animation, and blur effects in macOS can consume meaningful GPU resources.
+
+**macOS Ventura and later:** System Settings → Accessibility → Display → enable "Reduce Motion" and "Reduce Transparency."
+
+**macOS Monterey and earlier:** System Preferences → Accessibility → Display → tick "Reduce Motion" and "Reduce Transparency."
+
+On modern Macs (2020 and later, including all Apple Silicon models), this makes little practical difference. On older Intel machines with 4 GB or 8 GB of RAM, reducing visual effects can noticeably improve responsiveness.
+
+## Step 8: Update macOS
+
+Apple ships performance fixes and under-the-hood improvements in every macOS update. Running a version that is one or two major releases behind can mean missing substantial optimisations — particularly on Apple Silicon where energy efficiency and performance improvements arrive frequently.
+
+**Apple menu → System Settings → General → Software Update.**
+
+Install any available updates. For a major macOS version upgrade, check your critical applications for compatibility first — particularly if you use specialist software like medical, legal, or creative tools.
+
+## Step 9: Reindex Spotlight
+
+If Spotlight suggestions are slow, searches take a long time, or the mdworker process is consistently consuming CPU even weeks after an OS update, Spotlight&apos;s index may be corrupted. Reindexing forces a fresh rebuild.
+
+**To reindex Spotlight on macOS Ventura and later:**
+1. System Settings → Siri & Spotlight → Spotlight Privacy
+2. Click the + button and add your Macintosh HD (main drive)
+3. Wait 10 seconds
+4. Select Macintosh HD and click the – button to remove it
+5. Spotlight will begin reindexing — this takes 30 minutes to several hours depending on drive size
+
+While reindexing, the Mac may run warm and the fan may spin up. This is normal. Performance will improve once indexing completes.
+
+## Step 10: Check Browser Extensions and Tabs
+
+This step is specific to Mac users who spend most of their time in a web browser. Chrome and Safari with many tabs and extensions open are among the heaviest consumers of RAM and CPU on modern Macs.
+
+**Check your tab count:** More than 15–20 tabs open in a browser on an 8 GB Mac will cause memory pressure. Use bookmarks or a tab manager extension to reduce open tabs.
+
+**Audit browser extensions:** In Chrome: chrome://extensions — disable or remove extensions you do not actively use. In Safari: Settings → Extensions. Each extension runs in the background and consumes resources.
+
+**For Chrome users specifically:** Chrome has its own Task Manager. Menu → More Tools → Task Manager. This shows which tabs and extensions are consuming the most CPU and memory, and you can close individual tabs directly from this list.
+
+## When Free Steps Are Not Enough
+
+If you have worked through all ten steps and your Mac is still performing below expectations, the cause is likely hardware:
+
+- **Thermal throttling:** Dried-out thermal paste causes the CPU to overheat and reduce its clock speed. Thermal paste replacement costs R 800–R 1,200 at ZA Support and can reduce temperatures by 20–30°C on machines 4+ years old.
+- **Insufficient RAM:** Intel Macs with 8 GB running macOS Sonoma or later under a typical workload (browser, Zoom, Office) are frequently memory-constrained. A RAM upgrade from 8 GB to 16 GB costs R 1,200–R 2,200 fitted.
+- **Failing SSD:** Early-stage SSD failure causes dramatically increased read/write latency. Download DriveDx and check S.M.A.R.T. status.
+
+For issues beyond DIY, [ZA Support offers free diagnosis](/macbook-repair). We run a full 28-phase Health Check, give you a plain-English report of exactly what we found, and quote any recommended repairs before touching anything. No Fix No Fee. Hyde Park, Johannesburg.
+
+WhatsApp us on [064 529 5863](https://wa.me/27645295863) to book a same-day assessment.
+    `.trim(),
+  },
+  'mac-not-turning-on-checklist': {
+    slug: 'mac-not-turning-on-checklist',
+    title: 'Mac Won\'t Turn On? Work Through This Checklist First',
+    excerpt: 'Before assuming the worst, work through this 8-step self-service checklist. Most Mac startup failures have a straightforward cause — a flat battery, a stuck power button, or a corrupted boot volume — and can be resolved without a repair.',
+    date: '14/03/2026',
+    category: 'How-To Guides',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `
+## Before You Panic: Most Mac Startup Failures Are Fixable
+
+A Mac that will not turn on is alarming, but in the majority of cases it is not a hardware failure. After 14 years of Mac repairs in Johannesburg, the most common causes we see are: a completely flat battery, a corrupted startup volume, a hung sleep state, or a failed macOS update that left the machine mid-boot.
+
+This is a self-service checklist. Work through each step in order and stop when your Mac starts. If you reach the end without success, the problem is hardware — and that is what we are here for.
+
+**Note:** This guide is about diagnosing and resolving startup issues yourself. If you need a repair service, see our [MacBook not turning on repair page](/macbook-not-turning-on).
+
+## Step 1: Check the Power Source
+
+This sounds obvious, but it is the most frequently skipped step.
+
+**What to check:**
+
+If you are on a MacBook:
+- Is the charger cable securely connected at both ends — at the wall socket and at the MacBook?
+- Is the wall socket working? Plug a phone charger into the same socket to confirm.
+- Is the power adapter LED lit? On MagSafe chargers (older MacBooks), a green or amber LED confirms the adapter is working. On USB-C chargers, there is no visible indicator — try a different USB-C cable or adapter if you have one.
+- If the battery was completely drained, leave it charging for at least 15 minutes before pressing the power button. A fully discharged battery may not respond immediately.
+
+**Power LED indicator (older MacBooks with MagSafe):**
+- Amber / orange = charging
+- Green = fully charged
+- No light = adapter not connected, faulty cable, or faulty power board on the Mac
+
+If the charger shows no light at all and you have confirmed the socket is working, the issue may be with the MacBook&apos;s charging circuit rather than the battery. Note this and continue through the checklist.
+
+## Step 2: Perform a Hard Reset
+
+A hung or frozen power state can prevent the Mac from starting normally. A hard reset forces all power to cycle.
+
+**Intel Mac (MacBook):**
+Hold the power button continuously for 10 full seconds until the Mac completely powers off (you may feel or hear a click). Release. Wait 5 seconds. Press the power button once normally.
+
+**Apple Silicon Mac (M1, M2, M3, M4):**
+Hold the power button for 10 seconds. The Mac will power off. Release. Wait 5 seconds. Press the power button once normally.
+
+**Mac desktop (iMac, Mac mini, Mac Pro):**
+Disconnect the power cable from the wall. Wait 15 seconds. Reconnect. Press the power button.
+
+If you hear startup sounds (fan spin, hard drive activity, or startup chime on older models) but nothing appears on screen, proceed to Step 6.
+
+## Step 3: Reset the SMC (Intel Macs Only)
+
+The SMC (System Management Controller) on Intel Macs manages power delivery, startup behaviour, and thermal management. A corrupted SMC state can prevent the Mac from powering on correctly even when all hardware is functioning.
+
+**Intel MacBook (non-removable battery, 2017 and later):**
+Shut down the Mac. Hold Shift + Control + Option (left side) + Power button simultaneously for 10 seconds. Release all keys simultaneously. Press the Power button to start.
+
+**Intel MacBook (removable battery, pre-2017):**
+Shut down. Remove the battery. Hold the Power button for 5 seconds. Reinstall the battery. Press the Power button.
+
+**Apple Silicon Macs (M1 and later):** No SMC exists. Skip this step.
+
+After the SMC reset, attempt to start the Mac normally. If you see charging behaviour change (MagSafe LED changes colour, or the Mac begins drawing charge), the SMC reset has taken effect.
+
+## Step 4: Try a Different Power Outlet and Cable
+
+Faulty power cables are more common than people expect, and a partially failed cable can prevent charging without showing any obvious signs of damage. Fraying near the connectors is the most common failure point on both MagSafe and USB-C cables.
+
+If you have access to a friend&apos;s compatible MacBook charger, test with that. For USB-C MacBooks, any USB-C cable rated for power delivery (not a data-only cable) should work for testing purposes.
+
+If the Mac starts successfully with a different cable, the problem was the original charger.
+
+## Step 5: Check for External Display or Peripheral Conflicts
+
+Some Mac startup failures are display-related rather than power-related — the Mac is actually starting, but nothing is appearing on screen.
+
+Try this:
+- Disconnect all external monitors, USB hubs, dongles, and peripherals
+- Disconnect any external hard drives or USB drives
+- Attempt to start the Mac with only the power cable connected
+
+On MacBooks, after disconnecting everything, press the power button and listen carefully. If you hear fan activity, keyboard backlight activation, or any startup sounds, the Mac is starting but the display may be the issue.
+
+**Brightness check:** On MacBooks, try pressing the brightness increase key (F2 or the dedicated brightness key) several times after pressing Power. If you see any change in screen brightness, the Mac is on and the backlight level was simply at zero.
+
+## Step 6: Boot into Safe Mode
+
+Safe Mode loads a minimal version of macOS, bypassing third-party extensions and running a basic file system check. If the Mac starts in Safe Mode but not normally, the problem is a software conflict or a corrupt system file.
+
+**Intel Mac:**
+Shut down. Press and hold the Shift key. Press the Power button. Keep holding Shift until you see the login screen (it will say "Safe Boot" in the top-right corner).
+
+**Apple Silicon Mac:**
+Shut down. Press and hold the Power button. Keep holding it until you see "Loading startup options." Select your startup disk. Hold the Shift key. Click "Continue in Safe Mode."
+
+If Safe Mode works: your normal startup is being blocked by a third-party kernel extension, a startup item, or a corrupted login item. Common causes: a recently installed application or macOS update that did not complete cleanly.
+
+If Safe Mode also fails: the issue is hardware or a more serious system software fault. Continue to Step 7.
+
+## Step 7: Enter macOS Recovery Mode
+
+Recovery Mode allows you to repair the startup volume, reinstall macOS, or restore from a Time Machine backup — without the Mac needing to boot normally.
+
+**Intel Mac:**
+Restart (or press Power if the Mac is off). Immediately hold Command + R. Hold until you see the Apple logo or spinning globe. Release.
+
+**Apple Silicon Mac:**
+Press and hold the Power button until "Loading startup options" appears. Select "Options" then click Continue.
+
+**In Recovery Mode, try these in order:**
+
+1. **Disk Utility → First Aid on your startup volume.** This checks and repairs the file system. Many startup failures are caused by a corrupted journal that First Aid can fix in 2–5 minutes.
+
+2. **If First Aid finds errors it cannot repair:** Use Disk Utility → Erase (this erases all data — only do this if you have a backup) and then reinstall macOS from the Recovery menu.
+
+3. **Reinstall macOS:** In the Recovery main menu, select "Reinstall macOS." This reinstalls the operating system over the existing installation without erasing your data. It requires an internet connection. This resolves startup failures caused by a corrupted system installation.
+
+## Step 8: Check for Display vs Power Failure
+
+If the Mac appears to be powering on (fan spins, keyboard lights activate) but the screen shows nothing, the problem may be the display rather than the Mac itself.
+
+**Test with an external monitor:**
+Connect the MacBook to an external monitor via HDMI or USB-C to DisplayPort. If the external monitor shows your desktop, the MacBook&apos;s internal display or its cable connection has failed. This is a hardware repair — not a data loss situation.
+
+**Flashlight test for backlight failure:**
+In a dark room, hold a torch directly against the MacBook screen and look closely. If you can faintly see the desktop or a login prompt through the screen when lit this way, the display backlight has failed. The Mac is working; only the backlight is not.
+
+## If None of These Steps Work
+
+If you have reached the end of this checklist and the Mac still will not start, the fault is hardware. The most common hardware causes of a Mac that will not turn on are:
+
+- **Failed logic board** (power delivery circuit, often from a surge event or liquid exposure)
+- **Dead battery** that will not hold enough charge to initiate startup
+- **Failed SSD** (the Mac starts but cannot load an OS)
+- **Display cable failure** (Mac starts but shows nothing)
+
+We diagnose each of these at ZA Support using a DC bench power supply (we bypass the battery entirely to test the logic board), a thermal camera, and direct schematic tracing. Most cases are diagnosed within an hour.
+
+Free diagnostic assessment. No Fix No Fee. [Read about our MacBook not turning on repair service](/macbook-not-turning-on) or contact us directly.
+
+WhatsApp us on [064 529 5863](https://wa.me/27645295863) — we are based at Hyde Park, Johannesburg, 7 days a week.
+    `.trim(),
+  },
   'jamf-mdm-guide-south-africa': {
     slug: 'jamf-mdm-guide-south-africa',
     title: 'JAMF MDM for South African Businesses: A Complete Guide',
@@ -1014,6 +1302,98 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   };
 
   const faqSchemas: Record<string, SchemaOrg> = {
+    'how-to-speed-up-mac-free': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'How can I speed up my Mac for free?',
+          acceptedAnswer: { '@type': 'Answer', text: 'The ten most effective free steps are: (1) clear storage to at least 20% free, (2) remove login items that start at boot, (3) reset the SMC on Intel Macs, (4) reset NVRAM/PRAM, (5) check Activity Monitor for CPU hogs, (6) clean the Downloads folder, (7) reduce visual effects, (8) update macOS, (9) reindex Spotlight, (10) reduce browser tabs and extensions. Start with storage — it is the most common cause of Mac slowness and the easiest free fix.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is the SMC reset and does it speed up a Mac?',
+          acceptedAnswer: { '@type': 'Answer', text: 'The SMC (System Management Controller) on Intel Macs manages power delivery, fans, sleep, and startup behaviour. A corrupted SMC state can cause sluggishness, runaway fans, and unresponsiveness. To reset on a 2017 or later MacBook: shut down, hold Shift + Control + Option + Power for 10 seconds, release, then start normally. Apple Silicon Macs (M1–M4) do not have an SMC and do not need this step.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I remove startup items on a Mac?',
+          acceptedAnswer: { '@type': 'Answer', text: 'On macOS Ventura and later: System Settings → General → Login Items. Remove items from the "Open at Login" list and disable "Allow in Background" for apps you do not use daily. On macOS Monterey and earlier: System Preferences → Users & Groups → Login Items → select item → click the minus button. Every removed login item frees RAM and reduces startup time.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Why is my Mac slow even after restarting?',
+          acceptedAnswer: { '@type': 'Answer', text: 'If a Mac is slow even after a fresh restart, the cause is likely hardware rather than software: thermal throttling from dried-out thermal paste (common on Macs 4+ years old), insufficient RAM for your workload, or an early-stage SSD failure. Check Activity Monitor immediately after restart — if CPU or memory pressure is already high before you open anything, a background process or hardware limitation is the cause.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Does clearing cache speed up a Mac?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Clearing user caches can free up storage, which indirectly improves performance on a nearly-full drive. However, clearing caches does not directly speed up CPU performance and can slow down applications temporarily as they rebuild cached data. Focus on freeing up storage by deleting large files and emptying the Trash rather than clearing caches specifically.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How much storage should I keep free on a Mac?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Apple recommends keeping at least 10–15% of your drive free for virtual memory and system operations. On a 256 GB Mac, aim for at least 30 GB free. On a 512 GB Mac, at least 50 GB. If available storage drops below 5 GB, macOS will warn you and performance will be severely impacted as the virtual memory system runs out of space.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I reindex Spotlight on a Mac?',
+          acceptedAnswer: { '@type': 'Answer', text: 'System Settings → Siri & Spotlight → Spotlight Privacy → click + and add your Macintosh HD → wait 10 seconds → select Macintosh HD and click – to remove it. This triggers a complete Spotlight reindex, which takes 30 minutes to several hours depending on drive size. During reindexing the Mac may run warm — this is normal and performance improves once complete.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'When should I take my slow Mac to a repair shop?',
+          acceptedAnswer: { '@type': 'Answer', text: 'If you have worked through the free steps — cleared storage, removed login items, reset SMC and NVRAM, checked Activity Monitor — and the Mac is still slow, the cause is likely hardware: thermal paste degradation, insufficient RAM, or a failing SSD. ZA Support offers free Mac diagnosis in Hyde Park, Johannesburg. No Fix No Fee on all repairs.' },
+        },
+      ],
+    },
+    'mac-not-turning-on-checklist': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'What do I do if my Mac won\'t turn on?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Work through these steps in order: (1) Check the power source and charger cable, (2) Perform a hard reset by holding the power button for 10 seconds, (3) Reset the SMC on Intel Macs, (4) Try a different power cable or adapter, (5) Disconnect all peripherals and try again, (6) Boot into Safe Mode, (7) Enter macOS Recovery Mode and run First Aid, (8) Test with an external display to rule out a display fault. Most startup failures are resolved by one of these steps.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My Mac makes no sound and screen is black — is it dead?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Not necessarily. A completely black screen with no fan activity usually indicates a power delivery issue — the most common causes are a flat battery that needs 15+ minutes of charging before it can start, a faulty charger cable, or a hung power state that a hard reset (hold power for 10 seconds) can clear. Try charging for 20 minutes and performing a hard reset before assuming hardware failure.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What does it mean when a MacBook has a black screen but the fan is running?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Fan running with a black screen means the Mac is starting but not displaying anything. Causes include: display backlight failure (test with a torch — look for a faint image), a failed display cable (common on MacBook Pros that hinge between the display and body), or a GPU fault. Connect an external monitor to determine if the Mac is actually starting successfully — if the external monitor shows your desktop, the fault is in the display assembly.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I start a Mac in Safe Mode?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Intel Mac: Shut down, then hold the Shift key while pressing Power. Keep holding Shift until the login screen shows "Safe Boot" in the top right. Apple Silicon Mac (M1–M4): Shut down, press and hold the Power button until "Loading startup options" appears, select your startup disk, hold Shift, click "Continue in Safe Mode." If the Mac starts in Safe Mode but not normally, a software conflict or corrupted login item is the cause.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I access macOS Recovery Mode?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Intel Mac: Press and hold Command + R immediately after pressing the power button. Hold until you see the Apple logo or spinning globe. Apple Silicon Mac: Press and hold the Power button until "Loading startup options" appears, then select Options → Continue. In Recovery Mode, use Disk Utility → First Aid to check and repair the startup volume. This resolves many startup failures without erasing data.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Will a Mac that won\'t turn on lose all my data?',
+          acceptedAnswer: { '@type': 'Answer', text: 'In most cases, no. The majority of startup failures are software or power-related — the data on the SSD is intact even if the Mac cannot boot. Hardware failures like a dead battery or failed logic board do not directly affect SSD data. Even in logic board failure cases, the SSD can typically be read using specialist equipment. ZA Support retrieves data from non-booting Macs regularly.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I reset a Mac that won\'t turn on using SMC?',
+          acceptedAnswer: { '@type': 'Answer', text: 'On a 2017 or later Intel MacBook: hold Shift + Control + Option (all on the left side of the keyboard) + the Power button simultaneously for 10 seconds. Release all keys. Press Power to start normally. On a pre-2017 Intel MacBook with removable battery: remove the battery, hold the Power button for 5 seconds, reinstall the battery, press Power. Apple Silicon Macs have no SMC — skip this step.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How much does it cost to fix a Mac that won\'t turn on in Johannesburg?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Cost depends on the cause. Software fixes (corrupted boot volume, SMC/NVRAM issues) are covered under our R 899 Health Check service. Hardware repairs range from R 1,200–R 2,500 for battery or charger port faults to R 2,500–R 6,000 for logic board repair. ZA Support offers a free diagnostic assessment — we identify the exact fault and quote before any work begins. No Fix No Fee. Hyde Park, Johannesburg.' },
+        },
+      ],
+    },
     'macbook-running-slow': {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
