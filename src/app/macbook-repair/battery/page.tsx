@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, CheckCircle, ArrowRight, Battery, AlertTriangle, Star, MapPin, Zap, Shield, Clock } from 'lucide-react';
+import { Phone, CheckCircle, Battery, AlertTriangle, Star, MapPin, Zap, Shield, Clock } from 'lucide-react';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg | ZA Support',

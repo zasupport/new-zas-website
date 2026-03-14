@@ -4,7 +4,7 @@ import { Phone, ArrowRight, CheckCircle, Star, MessageCircle, Shield, Clock, Wre
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {

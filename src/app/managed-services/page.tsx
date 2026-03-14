@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Monitor, Shield, BarChart, Headphones } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 

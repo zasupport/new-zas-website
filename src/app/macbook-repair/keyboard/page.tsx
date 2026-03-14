@@ -16,7 +16,7 @@ import {
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import { buildFaqSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {

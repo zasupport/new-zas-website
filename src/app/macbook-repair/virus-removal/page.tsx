@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, ArrowRight, CheckCircle, Star, MessageCircle, Shield, Clock, Wrench, AlertTriangle, Zap, Bug, Lock } from 'lucide-react';
+import { Phone, ArrowRight, CheckCircle, Star, MessageCircle, Shield, Wrench, AlertTriangle, Zap, Bug, Lock } from 'lucide-react';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
