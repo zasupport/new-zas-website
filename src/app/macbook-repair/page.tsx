@@ -9,10 +9,18 @@ import { CONTACT, SITE } from '@/lib/constants';
 const REVIEWS = { rating: SITE.rating, count: SITE.reviewCount };
 
 export const metadata: Metadata = {
-  title: 'MacBook Repair Johannesburg | Battery, Screen, Keyboard & Logic Board | ZA Support',
+  title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
   description:
-    'MacBook repair in Johannesburg from R 950. Battery, screen, keyboard, liquid damage, logic board microsoldering. All M-series and Intel models. No Fix No Fee. Hyde Park. Call 064 529 5863.',
+    'MacBook repair in Johannesburg from R 499. Battery, screen, keyboard, liquid damage, logic board microsoldering. All M-series and Intel models. No Fix No Fee. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair' },
+  keywords: ['macbook repair johannesburg', 'mac repair near me johannesburg', 'macbook repair sandton', 'apple repair johannesburg', 'macbook battery replacement johannesburg', 'macbook screen repair johannesburg'],
+  openGraph: {
+    title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
+    description: 'MacBook repair in Johannesburg from R 499. Battery, screen, keyboard, liquid damage, logic board microsoldering. No Fix No Fee.',
+    url: 'https://zasupport.com/macbook-repair',
+    siteName: 'ZA Support',
+    type: 'website',
+  },
 };
 
 const services = [
@@ -61,7 +69,7 @@ const services = [
     title: 'Port & Charging Repair',
     description: 'MagSafe, USB-C and Thunderbolt port repair. MacBook not charging? We fix it.',
     href: '/macbook-repair/charging-port',
-    price: 'From R 500',
+    price: 'From R 499',
     accent: 'text-red-400',
   },
   {
@@ -71,6 +79,14 @@ const services = [
     href: '/macbook-repair/trackpad',
     price: 'From R 1,800',
     accent: 'text-yellow-400',
+  },
+  {
+    icon: Wrench,
+    title: 'Data Recovery',
+    description: 'Recover files from failed drives, water-damaged Macs, and non-booting MacBooks.',
+    href: '/macbook-repair/data-recovery',
+    price: 'From R 1,500',
+    accent: 'text-pink-400',
   },
 ];
 
@@ -109,6 +125,22 @@ const faqs = [
   {
     question: 'Can you recover data from a damaged MacBook?',
     answer: 'In most cases, yes. For liquid-damaged or failed-to-boot MacBooks, data recovery is often possible before or alongside the repair. Modern Macs with Apple Silicon have encrypted storage — data is recoverable if the logic board is repaired, not in all cases of total board failure. We will advise you honestly after assessment.',
+  },
+  {
+    question: 'Where are you located in Johannesburg?',
+    answer: 'We are based at 1 Hyde Lane, Hyde Park, Johannesburg, 2196. Hyde Park is centrally located and easily accessible from Sandton, Rosebank, Illovo, Bryanston, and Parktown. We are open Monday to Friday 08:00 – 17:30 and Saturday 09:00 – 13:00. Free parking is available on site.',
+  },
+  {
+    question: 'Do you repair MacBooks that other shops have refused?',
+    answer: 'Yes. We specialise in component-level logic board microsoldering, which many repair shops cannot perform. If you have been told your MacBook is beyond repair or only Apple can fix it, bring it to us for a free second opinion. We successfully repair boards that Apple quotes R15,000 to R70,000 to replace.',
+  },
+  {
+    question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
+    answer: 'MacBook Pro repairs are typically 20–40% more expensive than MacBook Air repairs for equivalent faults. This is due to the higher component cost, the more complex construction of Pro models, and the additional time required for disassembly. Logic board repair pricing is fault-specific and model-specific — a free diagnostic gives you the exact cost before any work starts.',
+  },
+  {
+    question: 'Can you fix a MacBook that will not turn on at all?',
+    answer: 'Yes. A MacBook that will not power on is one of the most common repairs we handle. Causes include a failed charging circuit, corrupted T2/Secure Enclave, blown power management IC, failed SSD, or liquid corrosion on the logic board. We diagnose the root cause at no charge and provide a written quote with options before any repair begins.',
   },
 ];
 
@@ -208,6 +240,52 @@ export default function MacBookRepairPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Pricing Table */}
+      <section className="py-20 bg-[#111C1A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            MacBook Repair <span className="text-[#0FEA7A]">Pricing</span>
+          </h2>
+          <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
+            All prices are quoted after a free assessment. Final cost is confirmed in writing before work begins.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm text-left">
+              <thead>
+                <tr className="border-b border-[rgba(255,255,255,0.08)]">
+                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">Repair Type</th>
+                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">MacBook Air</th>
+                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">MacBook Pro</th>
+                  <th className="text-[#E8F4F1] font-semibold py-3">Turnaround</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[rgba(255,255,255,0.05)]">
+                {[
+                  { repair: 'Battery Replacement', air: 'From R 1,200', pro: 'From R 1,500', time: '60–90 min' },
+                  { repair: 'Screen / Display', air: 'From R 3,500', pro: 'From R 4,500', time: '2–4 hrs' },
+                  { repair: 'Keyboard Replacement', air: 'From R 2,500', pro: 'From R 2,800', time: '2–3 hrs' },
+                  { repair: 'Liquid Damage', air: 'From R 2,500', pro: 'From R 3,500', time: '2–5 days' },
+                  { repair: 'Logic Board Repair', air: 'From R 1,800', pro: 'From R 2,500', time: '2–5 days' },
+                  { repair: 'Charging / Port', air: 'From R 499', pro: 'From R 499', time: '1–2 hrs' },
+                  { repair: 'Trackpad Repair', air: 'From R 1,800', pro: 'From R 2,000', time: '2–4 hrs' },
+                  { repair: 'Data Recovery', air: 'From R 1,500', pro: 'From R 1,500', time: '1–3 days' },
+                ].map((row) => (
+                  <tr key={row.repair} className="hover:bg-[rgba(15,234,122,0.03)] transition-colors">
+                    <td className="text-[#E8F4F1] font-medium py-3 pr-6">{row.repair}</td>
+                    <td className="text-[#0FEA7A] py-3 pr-6">{row.air}</td>
+                    <td className="text-[#0FEA7A] py-3 pr-6">{row.pro}</td>
+                    <td className="text-[#7A9E98] py-3">{row.time}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">
+            Prices are estimates. Final cost confirmed after free assessment. All repairs include 12-month warranty.
+          </p>
         </div>
       </section>
 

@@ -1,8 +1,82 @@
 'use client';
 
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
-import { CONTACT } from '@/lib/constants';
+import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
+import { CONTACT, SITE } from '@/lib/constants';
+import SchemaOrg from '@/components/seo/SchemaOrg';
+
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: 'ZA Support (Apple Experts)',
+  alternateName: 'ZA Support',
+  url: 'https://zasupport.com',
+  telephone: '+27645295863',
+  email: 'admin@zasupport.com',
+  description: 'MacBook repair, iPhone repair, logic board microsoldering, managed IT services and Apple device support in Johannesburg. No Fix No Fee. Free assessment.',
+  image: 'https://zasupport.com/og-image.jpg',
+  priceRange: 'RR',
+  currenciesAccepted: 'ZAR',
+  paymentAccepted: 'Cash, Credit Card, EFT',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
+    addressLocality: 'Johannesburg',
+    addressRegion: 'Gauteng',
+    postalCode: '2196',
+    addressCountry: 'ZA',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: -26.1348,
+    longitude: 28.0469,
+  },
+  hasMap: 'https://maps.app.goo.gl/E1agQ3ZZ6va73ano9',
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '08:00',
+      closes: '17:30',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Saturday'],
+      opens: '09:00',
+      closes: '13:00',
+    },
+  ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: SITE.rating,
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  areaServed: [
+    { '@type': 'City', name: 'Johannesburg' },
+    { '@type': 'Neighborhood', name: 'Hyde Park' },
+    { '@type': 'Neighborhood', name: 'Sandton' },
+    { '@type': 'Neighborhood', name: 'Rosebank' },
+    { '@type': 'Neighborhood', name: 'Illovo' },
+    { '@type': 'Neighborhood', name: 'Bryanston' },
+    { '@type': 'Neighborhood', name: 'Fourways' },
+    { '@type': 'Neighborhood', name: 'Parktown' },
+  ],
+  sameAs: [
+    'https://facebook.com/appleexpertsouthafrica',
+    'https://instagram.com/appleexpertza',
+  ],
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://zasupport.com' },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://zasupport.com/contact' },
+  ],
+};
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', device: '', issue: '', urgency: 'medium' });
@@ -25,20 +99,44 @@ export default function ContactPage() {
 
   return (
     <>
+      <SchemaOrg schema={localBusinessSchema} />
+      <SchemaOrg schema={breadcrumbSchema} />
+
+      {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-            Contact <span className="text-[#0FEA7A]">ZA Support</span>
-          </h1>
-          <p className="text-xl text-[#7A9E98] max-w-2xl">
-            Free assessment. No Fix No Fee. Response within 1 hour during business hours.
-          </p>
+          <div className="max-w-3xl">
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              Contact <span className="text-[#0FEA7A]">ZA Support</span>
+            </h1>
+            <p className="text-xl text-[#7A9E98] mb-6 max-w-2xl">
+              Free assessment. No Fix No Fee. Response within 1 hour during business hours. Hyde Park, Johannesburg.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
+              >
+                <Phone className="w-5 h-5" /> Call {CONTACT.phone}
+              </a>
+              <a
+                href={CONTACT.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                <MessageCircle className="w-5 h-5" /> WhatsApp Us
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
+      {/* Main content */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
             {/* Contact Form */}
             <div className="lg:col-span-2">
               <div className="glass-card p-8">
@@ -151,6 +249,15 @@ export default function ContactPage() {
                   <Phone className="w-5 h-5 text-[#0FEA7A]" />
                   <span className="text-lg font-semibold">{CONTACT.phone}</span>
                 </a>
+                <a
+                  href={CONTACT.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors mb-3"
+                >
+                  <MessageCircle className="w-5 h-5 text-[#0FEA7A]" />
+                  <span className="text-sm">WhatsApp (preferred for photos)</span>
+                </a>
                 <a href={`mailto:${CONTACT.email}`} className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors">
                   <Mail className="w-5 h-5 text-[#0FEA7A]" />
                   <span>{CONTACT.email}</span>
@@ -165,9 +272,13 @@ export default function ContactPage() {
                     <p className="text-sm leading-relaxed">{CONTACT.address.full}</p>
                   </div>
                 </div>
-                <a href="https://maps.google.com/?q=1+Hyde+Lane+Hyde+Park+Johannesburg" target="_blank" rel="noopener noreferrer"
-                  className="text-[#0FEA7A] text-sm hover:underline">
-                  Get Directions →
+                <a
+                  href="https://maps.app.goo.gl/E1agQ3ZZ6va73ano9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#0FEA7A] text-sm hover:underline"
+                >
+                  Get Directions on Google Maps &rarr;
                 </a>
               </div>
 
@@ -176,9 +287,9 @@ export default function ContactPage() {
                 <div className="flex items-start gap-3 text-[#7A9E98]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
                   <div className="space-y-1 text-sm">
-                    <p>Monday – Friday: 08:00 – 17:30</p>
-                    <p>Saturday: 09:00 – 13:00</p>
-                    <p className="text-[#7A9E98]/60">Closed Sundays & Public Holidays</p>
+                    <p>Monday &ndash; Friday: 08:00 &ndash; 17:30</p>
+                    <p>Saturday: 09:00 &ndash; 13:00</p>
+                    <p className="text-[#7A9E98]/60">Closed Sundays &amp; Public Holidays</p>
                   </div>
                 </div>
               </div>
@@ -188,6 +299,60 @@ export default function ContactPage() {
                 <p className="text-[#7A9E98] text-xs">For liquid damage and urgent repairs, calling is faster than the contact form. We answer during business hours.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Google Maps embed */}
+      <section className="bg-[#111C1A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Find Us in <span className="text-[#0FEA7A]">Hyde Park</span>
+          </h2>
+          <p className="text-[#7A9E98] text-center text-sm mb-8 max-w-xl mx-auto">
+            1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg. Free parking on site.
+            Easily accessible from Sandton, Rosebank, Illovo, Bryanston and Parktown.
+          </p>
+          <div className="rounded-2xl overflow-hidden border border-[rgba(255,255,255,0.08)]" style={{ height: '400px' }}>
+            <iframe
+              title="ZA Support — Hyde Park, Johannesburg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.4!2d28.0469!3d-26.1348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d4db39a0c5b%3A0x1234567890abcdef!2s1%20Hyde%20Lane%2C%20Hyde%20Park%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1000000000000!5m2!1sen!2sza"
+              width="100%"
+              height="100%"
+              style={{ border: 0, filter: 'invert(0.9) hue-rotate(180deg)' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+          <div className="flex justify-center mt-6">
+            <a
+              href="https://maps.app.goo.gl/E1agQ3ZZ6va73ano9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all text-sm"
+            >
+              <MapPin className="w-4 h-4" /> Open in Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Nearby areas */}
+      <section className="py-16 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Serving All of <span className="text-[#0FEA7A]">Johannesburg</span>
+          </h2>
+          <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl mx-auto">
+            Walk-in or drop-off from anywhere in Johannesburg. We also offer collection and delivery for managed service clients.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
+            {['Hyde Park', 'Sandton', 'Rosebank', 'Illovo', 'Bryanston', 'Fourways', 'Parktown', 'Melrose', 'Randburg', 'Midrand', 'Rivonia', 'Morningside'].map((area) => (
+              <span key={area} className="text-[#7A9E98] text-sm bg-[rgba(255,255,255,0.04)] border border-[rgba(255,255,255,0.08)] px-4 py-2 rounded-full">
+                {area}
+              </span>
+            ))}
           </div>
         </div>
       </section>
