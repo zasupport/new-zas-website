@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, ArrowRight, Shield, Clock, CheckCircle, Star, Heart } from 'lucide-react';
+import { Phone, ArrowRight, Shield, CheckCircle, Star, Heart } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';

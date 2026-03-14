@@ -4,7 +4,7 @@ import { Phone, ArrowRight, Monitor, Cpu, HardDrive, Wrench, Droplets, Zap } fro
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'iMac Repair Johannesburg | Screen, RAM, SSD, Logic Board | ZA Support',
