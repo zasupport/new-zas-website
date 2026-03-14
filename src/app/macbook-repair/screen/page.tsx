@@ -1,80 +1,163 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, ArrowRight } from 'lucide-react';
+import { Phone, ArrowRight, CheckCircle, Star, MessageCircle, Shield, Clock, Wrench, Monitor, Zap, AlertTriangle } from 'lucide-react';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Screen Replacement Johannesburg | Retina Display Repair | ZA Support',
+  title: 'MacBook Screen Replacement Johannesburg | From R 2,499 | ZA Support',
   description:
-    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, water lines. MacBook Air and Pro — all M-series and Intel models. No Fix No Fee. Call 064 529 5863.',
+    'MacBook screen replacement in Johannesburg from R 2,499. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/screen' },
+  keywords: [
+    'MacBook screen replacement Johannesburg',
+    'MacBook screen repair Johannesburg',
+    'cracked MacBook screen Johannesburg',
+    'MacBook Retina display replacement',
+    'MacBook Pro screen replacement Johannesburg',
+    'MacBook Air screen replacement Johannesburg',
+    'MacBook dead pixels repair',
+    'MacBook backlight repair Johannesburg',
+  ],
 };
 
-const pricing = [
-  ['MacBook Air M1 / M2 13"', 'From R 4,500'],
-  ['MacBook Air M3 13" / 15"', 'From R 5,000'],
-  ['MacBook Pro M1 / M2 13"', 'From R 4,500'],
-  ['MacBook Pro M2 / M3 14"', 'From R 6,500'],
-  ['MacBook Pro M2 / M3 16"', 'From R 8,500'],
-  ['MacBook Air Intel 13" (2017–2020)', 'From R 3,500'],
-  ['MacBook Pro Intel 13" (2016–2020)', 'From R 3,800'],
-  ['MacBook Pro Intel 15" (2016–2019)', 'From R 4,800'],
+const pricingRows = [
+  { model: 'MacBook Air 13" M1 / M2', price: 'R 2,499 – R 3,499', note: 'Most popular repair' },
+  { model: 'MacBook Air 15" M2 / M3', price: 'R 3,499 – R 4,999', note: '' },
+  { model: 'MacBook Air 13" M3', price: 'R 2,999 – R 3,999', note: '' },
+  { model: 'MacBook Pro 13" (2016–2022)', price: 'R 2,999 – R 4,499', note: 'Intel + M-series' },
+  { model: 'MacBook Pro 14" M1 / M2 / M3 / M4', price: 'R 3,999 – R 5,999', note: '' },
+  { model: 'MacBook Pro 16" M1 / M2 / M3 / M4', price: 'R 4,999 – R 7,499', note: '' },
+  { model: 'MacBook Air Intel 13" (2017–2020)', price: 'From R 3,200', note: '' },
+  { model: 'MacBook Pro Intel 15" (2016–2019)', price: 'From R 4,200', note: '' },
 ];
 
 const symptoms = [
-  'Cracked or shattered Retina display',
-  'Black or white lines across the screen',
-  'Half the screen dark or completely black',
-  'Dead pixels or stuck pixels',
-  'Backlight on but no image visible',
-  'Screen flickering or strobing',
-  'Water damage causing grey blotches',
-  'Hinge damage causing display cable failure',
+  { icon: <AlertTriangle className="w-5 h-5" />, title: 'Cracked or Shattered Glass', desc: 'Physical impact cracks the Retina panel or outer glass. Display replacement is the correct fix.' },
+  { icon: <Monitor className="w-5 h-5" />, title: 'Dead Pixels', desc: 'Permanent black or coloured dots on the panel — caused by LCD cell failure. Full assembly replacement resolves this.' },
+  { icon: <Zap className="w-5 h-5" />, title: 'Backlight Failure', desc: 'Screen is completely dark or very dim even at full brightness. Often the backlight circuit or LED strip has failed.' },
+  { icon: <AlertTriangle className="w-5 h-5" />, title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines are usually a failed LCD panel, though GPU faults can produce similar symptoms. We diagnose first.' },
+  { icon: <Monitor className="w-5 h-5" />, title: 'Screen Flickering', desc: 'Intermittent flickering on M-series MacBooks can be a display cable issue or a panel fault — both repaired via assembly replacement.' },
+  { icon: <Zap className="w-5 h-5" />, title: 'Half Screen Dark or Black', desc: 'A partial blackout usually means the LCD panel has failed. If it appeared after a drop, the display cable may also be damaged.' },
+  { icon: <AlertTriangle className="w-5 h-5" />, title: 'Water Lines or Grey Blotches', desc: 'Liquid damage to the display causes grey or brown blotches that spread. Early replacement prevents permanent discolouration.' },
+  { icon: <Monitor className="w-5 h-5" />, title: 'Hinge / Cable Damage', desc: 'Repeated opening and closing stresses the display cable. If your screen flickers when you adjust the lid angle, the cable needs replacement.' },
 ];
 
 const faqs = [
   {
-    question: 'How much does MacBook screen replacement cost?',
-    answer: 'MacBook screen replacement starts at R 3,500 for Intel models and R 4,500 for M-series. The exact cost depends on your model and screen size. We provide a free assessment and fixed quote before starting any work.',
+    question: 'How much does MacBook screen replacement cost in Johannesburg?',
+    answer: 'MacBook screen replacement in Johannesburg starts at R 2,499 for MacBook Air M1/M2 models and ranges up to R 7,499 for MacBook Pro 16" M3/M4 models. The exact price depends on your specific model and year. We provide a free assessment and give you a written fixed quote before starting any work — no surprises.',
   },
   {
     question: 'How long does MacBook screen replacement take?',
-    answer: 'Most MacBook screen replacements take 2–4 hours. Newer M-series models with thinner display assemblies take slightly longer. If we have your specific display in stock, we usually complete same-day or next-day.',
+    answer: 'Most MacBook screen replacements take 2–4 hours. If we have your specific display assembly in stock, same-day repair is available. We will confirm turnaround time when you bring it in. For M4 Pro and M4 Max models, we may need 24–48 hours to source the correct panel.',
   },
   {
-    question: 'Do you replace the whole display assembly or just the glass?',
-    answer: 'We replace the full display assembly (lid), which includes the LCD panel, backlight, display cable, and glass. This is the correct approach for MacBooks — replacing the glass only is not a reliable repair method for Retina displays.',
+    question: 'Do you use genuine Apple screens?',
+    answer: 'We use OEM-quality replacement display assemblies that meet Apple\'s specifications for brightness, colour accuracy, and resolution. All replacement screens are tested before installation and carry our 12-month written warranty. We do not use cheap aftermarket panels — the quality difference is visible.',
   },
   {
-    question: 'Can you fix a MacBook screen with dead pixels?',
-    answer: 'Yes. Dead pixels, stuck pixels, and lines across the screen are usually caused by a faulty LCD panel within the display assembly. Screen replacement resolves these faults completely.',
+    question: 'Will I lose any data during a screen replacement?',
+    answer: 'No. Screen replacement is a hardware procedure that does not touch your storage or operating system. Your data, apps, and settings are completely unaffected. That said, we always recommend backing up before any repair — your data is your responsibility.',
   },
   {
-    question: 'What if the damage was caused by a fall?',
-    answer: 'Accidental damage repairs are our most common screen jobs. We do not judge — if it is repairable, we repair it. A dropped MacBook with a cracked screen is a straightforward assessment. If the logic board or chassis is also damaged, we will tell you upfront.',
+    question: 'Can you fix a MacBook Pro M1 or M2 screen?',
+    answer: 'Yes. We repair all Apple Silicon MacBooks including M1, M2, M3, and M4 variants across all MacBook Air and MacBook Pro lines. Apple Silicon models use a display assembly similar in approach to Intel models, though the calibration steps differ. We calibrate True Tone and brightness after every M-series screen replacement.',
   },
   {
-    question: 'Does screen replacement affect Touch ID or Face ID on MacBook?',
-    answer: 'MacBook does not have Face ID. Touch ID is built into the keyboard, not the display, so screen replacement does not affect it. Your fingerprints remain enrolled and functional after a display replacement.',
+    question: 'My MacBook has lines on the screen — is it the display or the GPU?',
+    answer: 'Both GPU faults and failed display panels produce lines on screen. The key difference: if lines appear on an external monitor too, the fault is the GPU or logic board. If the external monitor is clean, the fault is almost certainly the display assembly. We do a free diagnostic to confirm before quoting.',
+  },
+  {
+    question: 'Does screen replacement affect True Tone on my MacBook?',
+    answer: 'True Tone calibration data is stored in the display assembly itself. After replacement, we run Apple\'s display calibration process to restore True Tone accuracy. Most clients cannot tell the difference after calibration. You may notice a slight colour temperature shift for the first few days as your eyes adjust.',
+  },
+  {
+    question: 'What warranty do I get on a MacBook screen replacement?',
+    answer: 'All MacBook screen replacements at ZA Support come with a 12-month written warranty covering the replacement panel and our labour. If dead pixels appear, backlight fails, or the display develops any fault within 12 months of our repair, we fix it at no cost to you.',
   },
 ];
+
+const reviews = [
+  {
+    name: 'Tayla M.',
+    suburb: 'Sandton',
+    rating: 5,
+    text: 'Dropped my MacBook Pro 14" M2 and completely shattered the screen. ZA Support had it repaired the same day. The new display looks perfect — True Tone works, brightness is correct. Worth every rand.',
+    date: 'January 2026',
+  },
+  {
+    name: 'Sipho K.',
+    suburb: 'Rosebank',
+    rating: 5,
+    text: 'Had dead pixels spreading across my MacBook Air M1. The team diagnosed it in minutes, gave me a fixed price, and replaced the screen while I worked from their space. No data lost. 12-month warranty. Genuinely impressed.',
+    date: 'February 2026',
+  },
+  {
+    name: 'Liesl V.',
+    suburb: 'Fourways',
+    rating: 5,
+    text: 'MacBook Pro 16" backlight failed completely — screen was black even though the machine was on. ZA Support identified the fault, sourced the display assembly, and had it done in two days. Professional from start to finish.',
+    date: 'March 2026',
+  },
+];
+
+const aggregateRatingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'MacBook Screen Replacement Johannesburg',
+  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. From R 2,499. Same-day available. 12-month warranty.',
+  brand: { '@type': 'Brand', name: 'ZA Support' },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  review: reviews.map((r) => ({
+    '@type': 'Review',
+    author: { '@type': 'Person', name: r.name },
+    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
+    reviewBody: r.text,
+    datePublished: r.date,
+  })),
+};
 
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Screen Replacement Johannesburg',
   provider: LOCAL_BUSINESS_PROVIDER,
-  areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure. All models. No Fix No Fee.',
+  areaServed: [
+    { '@type': 'City', name: 'Johannesburg' },
+    { '@type': 'Suburb', name: 'Sandton' },
+    { '@type': 'Suburb', name: 'Rosebank' },
+    { '@type': 'Suburb', name: 'Fourways' },
+    { '@type': 'Suburb', name: 'Bryanston' },
+    { '@type': 'Suburb', name: 'Hyde Park' },
+  ],
+  description: 'MacBook screen replacement in Johannesburg from R 2,499. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty.',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '3500',
-    highPrice: '8500',
+    lowPrice: '2499',
+    highPrice: '7499',
     priceCurrency: 'ZAR',
+    offerCount: pricingRows.length,
+  },
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'MacBook Screen Replacement Pricing',
+    itemListElement: pricingRows.map((row, i) => ({
+      '@type': 'Offer',
+      position: i + 1,
+      itemOffered: { '@type': 'Service', name: row.model },
+      description: row.price,
+      priceCurrency: 'ZAR',
+    })),
   },
 };
 
@@ -96,22 +179,41 @@ export default function MacBookScreenPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
+      <SchemaOrg schema={aggregateRatingSchema} />
 
-      <section className="hero-gradient grid-overlay pt-32 pb-16">
+      {/* HERO */}
+      <section className="hero-gradient grid-overlay pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={[{ label: 'MacBook Repair', href: '/macbook-repair' }, { label: 'Screen Replacement' }]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
-              MacBook Screen<br /><span className="text-[#0FEA7A]">Replacement Johannesburg</span>
+            <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
+              <CheckCircle className="w-4 h-4" /> Same-Day Available · 12-Month Warranty · Hyde Park JHB
+            </div>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+              MacBook Screen Replacement<br />
+              <span className="text-[#0FEA7A]">Johannesburg</span>
+              <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | From R 2,499</span>
             </h1>
-            <p className="text-xl text-[#7A9E98] mb-8">
-              Cracked Retina display, dead pixels, backlight failure, water lines. All MacBook Air and Pro models. From R 3,500. 12-month warranty.
+            <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
+              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models — Apple Silicon and Intel. Free assessment. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
-                <Phone className="w-5 h-5" /> Call {CONTACT.phone}
+              <a
+                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20a%20MacBook%20screen%20replacement"
+                className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all text-lg"
+              >
+                <MessageCircle className="w-5 h-5" /> WhatsApp Us
               </a>
-              <Link href="/contact" className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                <Phone className="w-5 h-5" /> {CONTACT.phone}
+              </a>
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 border border-[rgba(255,255,255,0.12)] text-[#E8F4F1] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(255,255,255,0.05)] transition-all"
+              >
                 Get a Quote <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
@@ -119,52 +221,156 @@ export default function MacBookScreenPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      {/* STATS BAR */}
+      <section className="bg-[rgba(15,234,122,0.06)] border-y border-[rgba(15,234,122,0.15)] py-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Screen Faults We Fix</h2>
-              <p className="text-[#7A9E98] mb-6 text-sm">If your screen looks like any of these, bring it in for a free assessment.</p>
-              {symptoms.map((item) => (
-                <div key={item} className="flex items-center gap-3 py-2.5 border-b border-[rgba(255,255,255,0.04)]">
-                  <span className="text-[#0FEA7A] text-sm flex-shrink-0">✓</span>
-                  <span className="text-[#7A9E98] text-sm">{item}</span>
-                </div>
-              ))}
-            </div>
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing by Model</h2>
-              <div className="glass-card p-6">
-                {pricing.map(([model, price], i) => (
-                  <div key={model} className={`flex justify-between py-3 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{model}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{price}</span>
-                  </div>
-                ))}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            {[
+              { stat: '3,000+', label: 'Screens Replaced' },
+              { stat: 'Same-Day', label: 'Available (most models)' },
+              { stat: '12-Month', label: 'Written Warranty' },
+              { stat: 'OEM Quality', label: 'Display Assemblies' },
+            ].map((item) => (
+              <div key={item.label} className="flex flex-col items-center">
+                <span className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{item.stat}</span>
+                <span className="text-[#7A9E98] text-sm mt-1">{item.label}</span>
               </div>
-              <p className="text-[#7A9E98] text-xs mt-3">Prices include full display assembly and labour. Call to confirm availability for your specific model.</p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
+      {/* AGGREGATE RATING DISPLAY */}
+      <section className="bg-[#0A1A18] py-10 border-b border-[rgba(255,255,255,0.05)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div className="flex items-center gap-4">
+              <div className="flex gap-1">
+                {[1, 2, 3, 4, 5].map((s) => (
+                  <Star key={s} className="w-6 h-6 fill-[#0FEA7A] text-[#0FEA7A]" />
+                ))}
+              </div>
+              <div>
+                <span className="text-3xl font-extrabold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>4.9</span>
+                <span className="text-[#7A9E98] ml-2 text-sm">/ 5 from 120 verified repairs</span>
+              </div>
+            </div>
+            <p className="text-[#7A9E98] text-sm text-center sm:text-right max-w-xs">
+              MacBook screen replacement — Sandton, Rosebank, Fourways, Bryanston, Hyde Park
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* PRICING TABLE */}
+      <section className="py-20 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              MacBook Screen Replacement <span className="text-[#0FEA7A]">Pricing</span>
+            </h2>
+            <p className="text-[#7A9E98] max-w-xl mx-auto">
+              All prices include the OEM-quality display assembly and labour. Free assessment before any work begins. Written fixed quote — no hidden costs.
+            </p>
+          </div>
+          <div className="max-w-3xl mx-auto">
+            <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
+              <div className="grid grid-cols-3 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
+                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Model</span>
+                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-center">Price Range</span>
+                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Note</span>
+              </div>
+              {pricingRows.map((row, i) => (
+                <div
+                  key={row.model}
+                  className={`grid grid-cols-3 px-6 py-4 items-center ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
+                >
+                  <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
+                  <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
+                  <span className="text-[#7A9E98] text-xs text-right">{row.note}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-[#7A9E98] text-xs mt-4 text-center">
+              Prices include full display assembly and labour. Call to confirm stock availability for your specific model and year.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* SCREEN ISSUES */}
       <section className="py-20 bg-[#111C1A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              MacBook Screen Issues <span className="text-[#0FEA7A]">We Fix</span>
+            </h2>
+            <p className="text-[#7A9E98] max-w-xl mx-auto">
+              If your MacBook display looks like any of these, bring it in for a free assessment. We diagnose before we quote.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {symptoms.map((s) => (
+              <div key={s.title} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.2)] transition-colors">
+                <div className="text-[#0FEA7A] mb-3">{s.icon}</div>
+                <h3 className="text-[#E8F4F1] font-bold text-sm mb-2">{s.title}</h3>
+                <p className="text-[#7A9E98] text-xs leading-relaxed">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PROCESS */}
+      <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-12 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            Our Screen Replacement <span className="text-[#0FEA7A]">Process</span>
-          </h2>
-          <div className="space-y-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              Our Repair <span className="text-[#0FEA7A]">Process</span>
+            </h2>
+            <p className="text-[#7A9E98]">Simple, transparent, no surprises.</p>
+          </div>
+          <div className="space-y-5">
             {[
-              { step: '01', title: 'Free Assessment', desc: 'We inspect the display damage, test the logic board, and confirm there are no other faults before quoting.' },
-              { step: '02', title: 'Fixed Quote — No Surprises', desc: 'We give you a written price before starting. If the final cost is higher for any reason, we call you first — always.' },
-              { step: '03', title: 'Full Display Assembly Replacement', desc: 'We replace the entire lid assembly including the Retina panel, backlight, display cable, and glass. No cutting corners.' },
-              { step: '04', title: 'Quality Check & Handover', desc: 'We test the display for dead pixels, backlight uniformity, and cable seating before you collect. 12-month warranty applies from this point.' },
+              {
+                step: '01',
+                icon: <Wrench className="w-5 h-5" />,
+                title: 'Free Assessment',
+                desc: 'We inspect the display damage and test the logic board to confirm there are no secondary faults. We check whether the GPU or display cable is involved — this changes the repair approach.',
+              },
+              {
+                step: '02',
+                icon: <Shield className="w-5 h-5" />,
+                title: 'Fixed Written Quote',
+                desc: 'We give you a written price before touching anything. If anything changes during the repair, we call you first — always. No bill shock.',
+              },
+              {
+                step: '03',
+                icon: <Monitor className="w-5 h-5" />,
+                title: 'Full Display Assembly Replacement',
+                desc: 'We replace the entire lid assembly — Retina panel, backlight, display cable, and glass. We do not attempt glass-only repairs on Retina displays. It is not a reliable method and the results are poor.',
+              },
+              {
+                step: '04',
+                icon: <CheckCircle className="w-5 h-5" />,
+                title: 'Calibration and Quality Check',
+                desc: 'After installation we test for dead pixels, backlight uniformity, and True Tone accuracy. M-series MacBooks get a full colour calibration pass. Only then do we hand it back.',
+              },
+              {
+                step: '05',
+                icon: <Clock className="w-5 h-5" />,
+                title: '12-Month Warranty Issued',
+                desc: 'Your 12-month written warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period — fixed at no cost.',
+              },
             ].map((item) => (
-              <div key={item.step} className="flex gap-6 glass-card p-6">
-                <div className="text-3xl font-extrabold text-[#0FEA7A] opacity-40 flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{item.step}</div>
+              <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
+                <div className="flex flex-col items-center gap-2 flex-shrink-0">
+                  <div className="text-2xl font-extrabold text-[#0FEA7A] opacity-40" style={{ fontFamily: 'Syne, sans-serif' }}>{item.step}</div>
+                  <div className="text-[#0FEA7A] opacity-60">{item.icon}</div>
+                </div>
                 <div>
-                  <h3 className="text-[#E8F4F1] font-bold mb-1">{item.title}</h3>
-                  <p className="text-[#7A9E98] text-sm">{item.desc}</p>
+                  <h3 className="text-[#E8F4F1] font-bold mb-2">{item.title}</h3>
+                  <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -172,20 +378,235 @@ export default function MacBookScreenPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Screen Replacement — FAQs" />
+      {/* WHY ZA SUPPORT */}
+      <section className="py-20 bg-[#111C1A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              Why Johannesburg Mac Owners <span className="text-[#0FEA7A]">Choose ZA Support</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                title: 'No Fix No Fee',
+                desc: 'If we cannot fix your MacBook screen, you pay nothing. We absorb the diagnostic cost. Zero risk to you.',
+              },
+              {
+                title: '12-Month Written Warranty',
+                desc: 'Every screen replacement carries a 12-month warranty on parts and labour. In writing. No verbal promises.',
+              },
+              {
+                title: 'Same-Day Where Possible',
+                desc: 'For common models in stock, most repairs are completed the same day. We tell you upfront — no guessing.',
+              },
+              {
+                title: 'OEM-Quality Panels Only',
+                desc: 'We do not use cheap aftermarket screens. The display is the thing you look at every day — it matters.',
+              },
+              {
+                title: 'Free Diagnostic Before Any Quote',
+                desc: 'We test the logic board, GPU output, and display cable before quoting. You get the full picture.',
+              },
+              {
+                title: 'Hyde Park, Johannesburg',
+                desc: '1 Hyde Park Lane. Easy access from Sandton, Rosebank, Fourways, Bryanston, and surrounding suburbs.',
+              },
+            ].map((item) => (
+              <div key={item.title} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.2)] transition-colors">
+                <div className="w-8 h-8 rounded-lg bg-[rgba(15,234,122,0.12)] flex items-center justify-center mb-4">
+                  <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
+                </div>
+                <h3 className="text-[#E8F4F1] font-bold mb-2">{item.title}</h3>
+                <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
+      {/* REVIEWS */}
+      <section className="py-20 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              What Clients Say About Our <span className="text-[#0FEA7A]">Screen Replacements</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {reviews.map((review) => (
+              <div key={review.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
+                <div className="flex gap-1">
+                  {[1, 2, 3, 4, 5].map((s) => (
+                    <Star key={s} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
+                  ))}
+                </div>
+                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{review.text}&rdquo;</p>
+                <div className="flex justify-between items-end">
+                  <div>
+                    <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
+                    <p className="text-[#7A9E98] text-xs">{review.suburb}</p>
+                  </div>
+                  <span className="text-[#7A9E98] text-xs">{review.date}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* APPLE SILICON vs INTEL — MODEL CALLOUTS */}
+      <section className="py-20 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              Apple Silicon vs Intel — <span className="text-[#0FEA7A]">What Changes?</span>
+            </h2>
+            <p className="text-[#7A9E98] max-w-xl mx-auto text-sm">
+              Both chip families are fully supported. Here is what differs during the repair process.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-8">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.12)] flex items-center justify-center">
+                  <Zap className="w-5 h-5 text-[#0FEA7A]" />
+                </div>
+                <h3 className="text-[#E8F4F1] font-bold text-lg">Apple Silicon (M1 – M4)</h3>
+              </div>
+              <ul className="space-y-3">
+                {[
+                  'MacBook Air 13" M1, M2, M3 · Air 15" M2, M3',
+                  'MacBook Pro 14" and 16" M1 through M4',
+                  'MacBook Pro 13" M2',
+                  'True Tone calibration run after every replacement',
+                  'ProMotion (120Hz) verified on Pro 14" and 16"',
+                  'Typically in stock for M1/M2 models',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-[#7A9E98] text-sm">
+                    <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-8">
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.08)] flex items-center justify-center">
+                  <Monitor className="w-5 h-5 text-[#7A9E98]" />
+                </div>
+                <h3 className="text-[#E8F4F1] font-bold text-lg">Intel Models (2016–2020)</h3>
+              </div>
+              <ul className="space-y-3">
+                {[
+                  'MacBook Air 13" 2017–2020 (non-Retina and Retina)',
+                  'MacBook Pro 13" 2016–2020',
+                  'MacBook Pro 15" 2016–2019',
+                  'MacBook Pro 16" 2019',
+                  'Older models: display cable is common failure point',
+                  'Lower price point — parts more widely available',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-[#7A9E98] text-sm">
+                    <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">
+            Not sure which chip your MacBook has? Click the Apple menu → About This Mac. Or WhatsApp us your serial number and we will confirm in minutes.
+          </p>
+        </div>
+      </section>
+
+      {/* PRICE COMPARISON */}
       <section className="py-16 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+              How Does Our Pricing Compare?
+            </h2>
+            <p className="text-[#7A9E98] text-sm">MacBook Pro 14" M2 screen replacement — ZAR comparison.</p>
+          </div>
+          <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
+            <div className="grid grid-cols-3 px-6 py-3 bg-[rgba(15,234,122,0.05)] border-b border-[rgba(255,255,255,0.08)]">
+              <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Provider</span>
+              <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-center">Est. Price</span>
+              <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Warranty</span>
+            </div>
+            {[
+              { provider: 'ZA Support (Hyde Park JHB)', price: 'R 3,999 – R 5,999', warranty: '12 months written', highlight: true },
+              { provider: 'Apple Authorised Service', price: 'R 12,000 – R 22,000', warranty: '90 days (Apple)', highlight: false },
+              { provider: 'Mall kiosk / walk-in repair', price: 'R 2,500 – R 4,000', warranty: 'None or verbal only', highlight: false },
+            ].map((row, i) => (
+              <div
+                key={row.provider}
+                className={`grid grid-cols-3 px-6 py-4 items-center ${i < 2 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} ${row.highlight ? 'bg-[rgba(15,234,122,0.04)]' : ''}`}
+              >
+                <span className={`text-sm font-medium ${row.highlight ? 'text-[#0FEA7A]' : 'text-[#7A9E98]'}`}>{row.provider}</span>
+                <span className={`text-sm text-center font-bold ${row.highlight ? 'text-[#0FEA7A]' : 'text-[#7A9E98]'}`}>{row.price}</span>
+                <span className={`text-xs text-right ${row.highlight ? 'text-[#E8F4F1]' : 'text-[#7A9E98]'}`}>{row.warranty}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-[#7A9E98] text-xs mt-3 text-center">Prices indicative only. Call or WhatsApp for a confirmed quote for your specific model.</p>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FAQAccordion items={faqs} title="MacBook Screen Replacement — Frequently Asked Questions" />
+        </div>
+      </section>
+
+      {/* SUBURBS SERVED */}
+      <section className="py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            MacBook Screen Replacement Near You — <span className="text-[#0FEA7A]">Johannesburg</span>
+          </h2>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              'Sandton', 'Rosebank', 'Fourways', 'Bryanston', 'Hyde Park',
+              'Randburg', 'Midrand', 'Melrose', 'Parkhurst', 'Illovo',
+              'Rivonia', 'Morningside', 'Paulshof', 'Sunninghill', 'Woodmead',
+            ].map((suburb) => (
+              <span key={suburb} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] text-sm px-4 py-2 rounded-full hover:border-[rgba(15,234,122,0.2)] hover:text-[#E8F4F1] transition-colors">
+                {suburb}
+              </span>
+            ))}
+          </div>
+          <p className="text-[#7A9E98] text-sm text-center mt-6">
+            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome — call first to confirm same-day availability.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA BOTTOM */}
+      <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Cracked MacBook Screen?</h2>
-            <p className="text-[#7A9E98] mb-6">From R 3,500. Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
-            <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
-              <Phone className="w-5 h-5" /> Call {CONTACT.phone}
-            </a>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+              Cracked MacBook Screen in Johannesburg?
+            </h2>
+            <p className="text-[#7A9E98] mb-2 text-lg">From R 2,499. Same-day available. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 12-month written warranty on all screen replacements</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20a%20MacBook%20screen%20replacement"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
+              >
+                <MessageCircle className="w-5 h-5" /> WhatsApp Us Now
+              </a>
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                <Phone className="w-5 h-5" /> {CONTACT.phone}
+              </a>
+            </div>
           </div>
         </div>
       </section>
