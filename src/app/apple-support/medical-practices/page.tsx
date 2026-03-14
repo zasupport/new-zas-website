@@ -483,21 +483,21 @@ export default function MedicalPracticesPage() {
         </div>
       </section>
 
-      {/* Related */}
-      <section className="py-16 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {/* ── Related Services ── */}
+      <section className="py-12 bg-[#071210]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Related Services
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {[
-              { title: 'Logic Board Repair', href: '/logic-board-repair', price: 'From R 1,800' },
-              { title: 'Managed IT Services', href: '/managed-services', price: 'From R 4,499/mo' },
-              { title: 'Apple Support Hub', href: '/apple-support', price: 'All Services' },
-            ].map((item) => (
-              <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
-                </div>
-                <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
+              { label: 'Managed IT Services', href: '/managed-services' },
+              { label: 'Logic Board Repair', href: '/logic-board-repair' },
+              { label: 'MacBook Pro Repair', href: '/macbook-pro-repair' },
+              { label: 'No Fix No Fee', href: '/no-fix-no-fee' },
+            ].map(link => (
+              <Link key={link.href} href={link.href} className="block p-3 rounded-lg bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] hover:text-[#0FEA7A] hover:border-[#0FEA7A] text-sm transition-colors">
+                {link.label} →
               </Link>
             ))}
           </div>

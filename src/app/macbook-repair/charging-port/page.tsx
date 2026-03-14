@@ -557,6 +557,28 @@ export default function MacBookChargingPortPage() {
         </div>
       </section>
 
+      {/* ── Related Services ── */}
+      <section className="py-12 bg-[#071210]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Related Services
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {[
+              { label: 'MacBook Repair', href: '/macbook-repair' },
+              { label: 'MacBook Not Turning On', href: '/macbook-not-turning-on' },
+              { label: 'Logic Board Repair', href: '/logic-board-repair' },
+              { label: 'Battery Replacement', href: '/macbook-repair/battery' },
+              { label: 'Liquid Damage Repair', href: '/liquid-damage' },
+            ].map(link => (
+              <Link key={link.href} href={link.href} className="block p-3 rounded-lg bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] hover:text-[#0FEA7A] hover:border-[#0FEA7A] text-sm transition-colors">
+                {link.label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── WhatsApp CTA ── */}
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

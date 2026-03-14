@@ -516,42 +516,23 @@ export default function MacBookBatteryPage() {
         </div>
       </section>
 
-      {/* ── Internal Links ───────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            Related MacBook Repair Services
+      {/* ── Related Services ── */}
+      <section className="py-12 bg-[#071210]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Related Services
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {[
-              {
-                href: '/macbook-repair',
-                title: 'MacBook Repair — All Services',
-                desc: 'Full overview of MacBook screen, keyboard, trackpad, charging port, and battery repairs in Johannesburg.',
-              },
-              {
-                href: '/macbook-pro-repair',
-                title: 'MacBook Pro Repair Johannesburg',
-                desc: 'Logic board, battery, screen, and component-level repairs for all MacBook Pro models — Intel and Apple Silicon.',
-              },
-              {
-                href: '/macbook-air-repair',
-                title: 'MacBook Air Repair Johannesburg',
-                desc: 'Battery replacement, screen repair, keyboard and trackpad repairs for all MacBook Air models.',
-              },
-            ].map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="group bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-5 hover:border-[rgba(15,234,122,0.3)] hover:bg-[rgba(15,234,122,0.04)] transition-all"
-              >
-                <div className="flex items-start justify-between gap-2 mb-2">
-                  <h3 className="text-[#E8F4F1] font-bold text-sm group-hover:text-[#0FEA7A] transition-colors">
-                    {link.title}
-                  </h3>
-                  <ArrowRight className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                </div>
-                <p className="text-[#7A9E98] text-xs leading-relaxed">{link.desc}</p>
+              { label: 'MacBook Repair', href: '/macbook-repair' },
+              { label: 'Screen Replacement', href: '/macbook-repair/screen' },
+              { label: 'Keyboard Repair', href: '/macbook-repair/keyboard' },
+              { label: 'Trackpad Repair', href: '/macbook-repair/trackpad' },
+              { label: 'Logic Board Repair', href: '/logic-board-repair' },
+              { label: 'MacBook Not Turning On', href: '/macbook-not-turning-on' },
+            ].map(link => (
+              <Link key={link.href} href={link.href} className="block p-3 rounded-lg bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] hover:text-[#0FEA7A] hover:border-[#0FEA7A] text-sm transition-colors">
+                {link.label} →
               </Link>
             ))}
           </div>
