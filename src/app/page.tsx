@@ -6,6 +6,7 @@ import {
   Star, ArrowRight, Zap, Award
 } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, AGGREGATE_RATING } from '@/lib/schema';
 import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -107,10 +108,65 @@ const websiteSchema = {
   },
 };
 
+const aggregateRatingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': 'https://zasupport.com/#organization',
+  name: 'ZA Support',
+  aggregateRating: AGGREGATE_RATING,
+};
+
+const homepageFaqs = [
+  {
+    question: 'Where is ZA Support located in Johannesburg?',
+    answer:
+      'ZA Support is located at 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196. We are open Monday to Friday 8am–6pm and Saturday 9am–1pm. Hyde Park is conveniently accessible from Sandton, Rosebank, Illovo, Bryanston, and Fourways.',
+  },
+  {
+    question: 'What Apple devices do you repair?',
+    answer:
+      'We repair MacBook Air, MacBook Pro, iMac, Mac Mini, Mac Pro, iPhone (all models including iPhone 16), and iPad. We also perform JAMF MDM implementations and managed IT services for businesses. All Apple Silicon (M1/M2/M3/M4) and Intel models are supported.',
+  },
+  {
+    question: 'What does No Fix No Fee mean?',
+    answer:
+      'If we cannot fix your device, you pay nothing — not even a diagnostic fee. We assess the device, identify the fault, and provide a written quote. You only pay if you approve the repair and we complete it successfully. This applies to all MacBook, iMac, Mac Mini, iPhone, and iPad repairs.',
+  },
+  {
+    question: 'How much does Mac repair cost in Johannesburg?',
+    answer:
+      'Mac repair pricing depends on the device and fault. Logic board repair starts at R 1,800, liquid damage starts at R 2,500, MacBook battery replacement starts at R 1,200, screen replacement starts at R 3,500, and SSD upgrades start at R 1,200. We provide a free diagnosis and a fixed quote before starting any work.',
+  },
+  {
+    question: 'Do you repair MacBook liquid damage?',
+    answer:
+      'Yes. MacBook liquid damage is one of our primary specialisations. We perform ultrasonic board cleaning, component-level diagnosis, and microsoldering repair on liquid-damaged MacBook Air and MacBook Pro models. The sooner you bring in a liquid-damaged MacBook, the better the outcome. Do not try to turn it on — bring it to us immediately.',
+  },
+  {
+    question: 'How long does Mac repair take?',
+    answer:
+      'Battery replacements, SSD upgrades, and RAM upgrades are often same-day. Screen replacements typically take 1–3 days. Logic board and liquid damage repairs take 3–7 business days depending on the fault and parts availability. We give you an estimated completion time when your device is booked in.',
+  },
+  {
+    question: 'Do you repair Apple Silicon (M1, M2, M3, M4) MacBooks?',
+    answer:
+      'Yes. We repair Apple Silicon MacBook Air and MacBook Pro models including M1, M2, M3, and M4. Battery replacement, screen replacement, port repair, and logic board repair are all available. Note that RAM and SSD are soldered on Apple Silicon models and cannot be upgraded — but all other repairs are possible.',
+  },
+  {
+    question: 'Is ZA Support an Apple Authorised Service Provider?',
+    answer:
+      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple — and we can repair devices that Apple would refuse to fix (out of warranty, out of production, or with third-party modifications). Our 12-month warranty matches Apple\'s own repair warranty on parts and labour.',
+  },
+];
+
 export default function HomePage() {
+  const faqSchema = buildFaqSchema(homepageFaqs);
+
   return (
     <>
       <SchemaOrg schema={websiteSchema} />
+      <SchemaOrg schema={aggregateRatingSchema} />
+      <SchemaOrg schema={faqSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay min-h-screen flex items-center pt-20">
