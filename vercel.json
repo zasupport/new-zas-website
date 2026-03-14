@@ -52,6 +52,12 @@
     { "source": "/wp-login.php", "destination": "https://www.zasupport.com/wp-login.php", "permanent": false },
     { "source": "/apple-repair/logic-board", "destination": "/logic-board-repair", "permanent": true },
     { "source": "/apple-repair/battery", "destination": "/macbook-repair/battery", "permanent": true },
-    { "source": "/apple-repair/screen", "destination": "/macbook-repair/screen", "permanent": true }
+    { "source": "/apple-repair/screen", "destination": "/macbook-repair/screen", "permanent": true },
+    { "source": "/battery-replacement", "destination": "/macbook-repair/battery", "permanent": true },
+    { "source": "/screen-repair", "destination": "/macbook-repair/screen", "permanent": true },
+    { "source": "/keyboard-repair", "destination": "/macbook-repair/keyboard", "permanent": true },
+    { "source": "/trackpad-repair", "destination": "/macbook-repair/trackpad", "permanent": true },
+    { "source": "/charging-port-repair", "destination": "/macbook-repair/charging-port", "permanent": true },
+    { "source": "/liquid-damage-repair", "destination": "/liquid-damage", "permanent": true }
   ]
 }
