@@ -70,6 +70,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/managed-services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/apple-support/medical-practices`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
+    // No Fix No Fee — zero-competition SEO keyword
+    { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+
     // Core pages
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
