@@ -273,7 +273,7 @@ const aggregateRatingSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
-    reviewCount: '47',
+    reviewCount: '120',
     bestRating: '5',
     worstRating: '1',
   },
@@ -282,7 +282,6 @@ const aggregateRatingSchema = {
 const reviewSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#business',
   name: 'ZA Support',
   review: customerReviews.map((r) => ({
     '@type': 'Review',
