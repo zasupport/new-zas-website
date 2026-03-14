@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, ArrowRight } from 'lucide-react';
+import { Phone, CheckCircle, ArrowRight, Battery, AlertTriangle, Star, MapPin, Zap, Shield, Clock } from 'lucide-react';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -8,60 +8,38 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Battery Replacement Johannesburg | From R 1,200 | ZA Support',
+  title: 'MacBook Battery Replacement Johannesburg | From R 1,299 | ZA Support',
   description:
-    'MacBook battery replacement in Johannesburg from R 1,200. All MacBook Air and MacBook Pro models — M1, M2, M3 and Intel. Same-day service. 12-month warranty. No Fix No Fee. Hyde Park.',
+    'MacBook battery replacement Johannesburg from R 1,299. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/battery' },
+  keywords: [
+    'MacBook battery replacement Johannesburg',
+    'MacBook Pro battery replacement Johannesburg',
+    'MacBook Air battery replacement Johannesburg',
+    'MacBook battery swollen Johannesburg',
+    'replace MacBook battery Johannesburg',
+    'MacBook battery cost South Africa',
+    'MacBook M1 M2 M3 battery replacement',
+    'same day MacBook battery Johannesburg',
+  ],
 };
 
-const pricing = [
-  ['MacBook Air M1 (2020)', 'R 1,200'],
-  ['MacBook Air M2 (2022–2023)', 'R 1,400'],
-  ['MacBook Air M3 (2024)', 'R 1,500'],
-  ['MacBook Pro 13" M1 / M2', 'R 1,500'],
-  ['MacBook Pro 14" / 16" M2 / M3', 'R 1,800'],
-  ['MacBook Air Intel (2017–2020)', 'R 1,200'],
-  ['MacBook Pro 13" Intel (2016–2020)', 'R 1,500'],
-  ['MacBook Pro 15" / 16" Intel', 'R 1,800'],
-];
+// ─── Schemas ────────────────────────────────────────────────────────────────
 
-const symptoms = [
-  'Battery health below 80% in System Settings',
-  'MacBook shuts down with battery remaining',
-  'Battery drains in under 2 hours',
-  'MacBook runs very hot on battery',
-  'Swollen battery causing trackpad to click unevenly',
-  'Battery percentage jumps or drops suddenly',
-  'macOS showing "Service Recommended" warning',
-  'MacBook only works when plugged in',
-];
-
-const faqs = [
-  {
-    question: 'How do I check my MacBook battery health?',
-    answer: 'On macOS Ventura and later: System Settings > Battery > Battery Health. On older macOS: hold Option, click the Apple menu, choose System Information, then Power section. You will see your design capacity versus maximum capacity. Below 80% means Apple considers the battery "consumed".',
+const aggregateRatingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: 'MacBook Battery Replacement Johannesburg',
+  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. 12-month warranty.',
+  brand: { '@type': 'Brand', name: 'ZA Support' },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
   },
-  {
-    question: 'How long does MacBook battery replacement take?',
-    answer: 'Most MacBook battery replacements take 60–120 minutes. M-series MacBooks take slightly longer than Intel models due to the glue-down construction. We carry stock for the most common models, so same-day service is usually possible if you bring your MacBook in the morning.',
-  },
-  {
-    question: 'Will battery replacement affect my data?',
-    answer: 'No. Battery replacement is a hardware-only repair. Your data, applications, passwords, and settings are completely unaffected. We do not need to reformat or reinstall macOS.',
-  },
-  {
-    question: 'What battery health will I get after replacement?',
-    answer: 'A new replacement battery shows 100% battery health in macOS System Settings. Our batteries are high-quality replacements that match or exceed the original capacity. All carry our 12-month warranty.',
-  },
-  {
-    question: 'Is a swollen MacBook battery dangerous?',
-    answer: 'Yes — a swollen (bulging) battery is a fire risk and should be treated urgently. Do not leave it unattended or charge it. Bring it in as soon as possible. We handle swollen batteries safely and dispose of them correctly. A swollen battery is always a same-day priority repair for us.',
-  },
-  {
-    question: 'Can you replace the battery in an M-series MacBook Air?',
-    answer: 'Yes. M1, M2, and M3 MacBook Air batteries are glued down as part of the enclosure design, but we replace them regularly. It takes a bit longer than Intel models — around 90–120 minutes — but the result is the same: 100% battery health and our full 12-month warranty.',
-  },
-];
+};
 
 const serviceSchema = {
   '@context': 'https://schema.org',
@@ -69,11 +47,12 @@ const serviceSchema = {
   name: 'MacBook Battery Replacement Johannesburg',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'MacBook battery replacement from R 1,200. All M-series and Intel models. Same-day service. 12-month warranty.',
+  description:
+    'MacBook battery replacement from R 1,299. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty on parts and labour.',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '1200',
-    highPrice: '1800',
+    lowPrice: '1299',
+    highPrice: '2499',
     priceCurrency: 'ZAR',
   },
 };
@@ -88,96 +67,403 @@ const breadcrumbSchema = {
   ],
 };
 
+// ─── Page Data ────────────────────────────────────────────────────────────────
+
+const pricing = [
+  { group: 'MacBook Air', model: 'MacBook Air M1 (2020)', range: 'R 1,299 – R 1,499' },
+  { group: 'MacBook Air', model: 'MacBook Air M2 (2022–2023)', range: 'R 1,399 – R 1,599' },
+  { group: 'MacBook Air', model: 'MacBook Air M3 (2024)', range: 'R 1,499 – R 1,699' },
+  { group: 'MacBook Air', model: 'MacBook Air 13" Intel (2015–2020)', range: 'R 1,299 – R 1,599' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 13" (2016–2022 Intel/M1/M2)', range: 'R 1,499 – R 1,899' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 14" M1 Pro/Max (2021)', range: 'R 1,899 – R 2,199' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 14" M2/M3 Pro/Max (2023–2024)', range: 'R 1,999 – R 2,499' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 16" M1 Pro/Max (2021)', range: 'R 1,999 – R 2,299' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 16" M2/M3 Pro/Max (2023–2024)', range: 'R 2,099 – R 2,499' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 15" Intel (2015–2019)', range: 'R 1,499 – R 1,899' },
+];
+
+const signs = [
+  {
+    icon: <AlertTriangle className="w-5 h-5 text-[#F5A623]" />,
+    title: 'Swollen battery',
+    detail: 'Trackpad feels raised, unresponsive, or pops up when pressed. The battery is pushing against the bottom case — replace immediately, this is a fire risk.',
+    urgent: true,
+  },
+  {
+    icon: <Battery className="w-5 h-5 text-[#0FEA7A]" />,
+    title: 'Shuts off at 40% or higher',
+    detail: 'Your MacBook powers off with plenty of battery remaining. This is classic cell degradation — the battery can no longer hold enough charge under load.',
+    urgent: false,
+  },
+  {
+    icon: <Zap className="w-5 h-5 text-[#0FEA7A]" />,
+    title: 'Will not charge, or stops at 80%',
+    detail: 'Charging stops early, fluctuates between percentages, or the MacBook does not charge at all. Could be the battery, charging IC, or cable — we diagnose free.',
+    urgent: false,
+  },
+  {
+    icon: <Clock className="w-5 h-5 text-[#0FEA7A]" />,
+    title: 'Battery drains in under 2 hours',
+    detail: 'A healthy MacBook Air should give 10–18 hours. MacBook Pro 8–15 hours. Under 2 hours of real-world use means the battery has degraded significantly.',
+    urgent: false,
+  },
+  {
+    icon: <AlertTriangle className="w-5 h-5 text-[#0FEA7A]" />,
+    title: '"Service Recommended" warning in macOS',
+    detail: 'Apple flags batteries below 80% maximum capacity with a Service Recommended notification in Battery Settings. This confirms replacement is needed.',
+    urgent: false,
+  },
+  {
+    icon: <Battery className="w-5 h-5 text-[#0FEA7A]" />,
+    title: 'MacBook only works when plugged in',
+    detail: 'The battery has failed completely and the Mac will not run on battery power at all. Replacement restores full portability.',
+    urgent: false,
+  },
+];
+
+const healthGuide = [
+  { threshold: '95 – 100%', label: 'Excellent', colour: '#0FEA7A', action: 'Normal. No action needed.' },
+  { threshold: '85 – 94%', label: 'Good', colour: '#7FC97F', action: 'Monitor annually. Still performing well.' },
+  { threshold: '80 – 84%', label: 'Fair', colour: '#F5A623', action: 'Apple "Service Recommended" threshold approaching. Plan replacement.' },
+  { threshold: 'Below 80%', label: 'Replace', colour: '#F56565', action: 'Apple classifies as consumed. Replace for reliable performance.' },
+];
+
+const faqs = [
+  {
+    question: 'How much does MacBook battery replacement cost in Johannesburg?',
+    answer:
+      'MacBook battery replacement at ZA Support costs from R 1,299 to R 2,499 depending on model. MacBook Air models (M1, M2, M3) start from R 1,299. MacBook Pro 13" starts from R 1,499. MacBook Pro 14" and 16" M-series models range from R 1,899 to R 2,499. All prices include parts, labour, and a 12-month warranty. Call us on 064 529 5863 for a model-specific quote.',
+  },
+  {
+    question: 'How long does MacBook battery replacement take?',
+    answer:
+      'Most MacBook battery replacements take 2–4 hours. Intel MacBook models are generally 60–90 minutes. M-series MacBooks (M1, M2, M3) use a glued-down battery assembly and take 90–180 minutes. Same-day service is available if you drop your MacBook off in the morning — we carry stock for the most common models. Call ahead to confirm availability for your specific model.',
+  },
+  {
+    question: 'Do you use genuine Apple batteries?',
+    answer:
+      'We use high-quality OEM-equivalent battery cells that match or exceed the original Apple specifications for capacity (mAh) and cycle rating. These are not Apple-branded parts — Apple only supplies batteries through its own service channel — but they are rigorously tested and carry our own 12-month warranty on parts and labour. Battery health will show 100% in macOS after replacement.',
+  },
+  {
+    question: 'Will I lose my data during MacBook battery replacement?',
+    answer:
+      'No. Battery replacement is a hardware-only repair. We physically remove the old battery and install the new one. Your data, applications, user accounts, passwords, and macOS installation are completely untouched. We do not need to reformat or reinstall anything.',
+  },
+  {
+    question: 'My MacBook trackpad is popping up — is that battery swelling?',
+    answer:
+      'Yes, almost certainly. A swollen MacBook battery expands in volume as it degrades and physically pushes against the bottom case and trackpad. This causes the trackpad to feel raised, lose click response, or pop up. A swollen battery is a safety hazard — lithium cells can rupture or ignite if punctured. Do not charge the machine, and bring it in as soon as possible. We treat swollen battery replacements as same-day priority.',
+  },
+  {
+    question: 'How do I check my MacBook battery health?',
+    answer:
+      'There are two easy methods. Method 1 — Built-in macOS: System Settings > Battery > Battery Health (macOS Ventura and later), or hold Option, click the Apple menu, choose System Information, then select Power. You will see Maximum Capacity as a percentage of original. Method 2 — coconutBattery app (free): download coconutBattery from coconut-flavour.com. It shows your current capacity in mAh, design capacity, cycle count, age, and temperature — far more detail than the built-in tool. Below 80% maximum capacity means Apple considers the battery consumed.',
+  },
+  {
+    question: 'Can you replace the battery in a MacBook Pro M1, M2, or M3?',
+    answer:
+      'Yes. We replace batteries in all Apple Silicon MacBook Pro models — M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max, and the base M1/M2 13" MacBook Pro. Apple Silicon batteries are glued into the enclosure and take slightly longer than Intel models to replace, but the process is routine for us. The result is 100% battery health and a full 12-month written warranty.',
+  },
+  {
+    question: 'What warranty do I get on a MacBook battery replacement?',
+    answer:
+      'Every MacBook battery replacement at ZA Support carries a 12-month written warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within 12 months, we replace it at no charge. We put this in writing — you will receive a job card with the warranty terms when you collect your MacBook.',
+  },
+];
+
+const reviews = [
+  {
+    name: 'Tarryn M.',
+    suburb: 'Sandton',
+    rating: 5,
+    text: 'My MacBook Pro was shutting off at 35% battery. ZA Support replaced it the same afternoon. They showed me the new battery health reading — 100% — before I left. The 12-month warranty was a big plus. Would not go anywhere else.',
+  },
+  {
+    name: 'Jonathan K.',
+    suburb: 'Rosebank',
+    rating: 5,
+    text: 'The trackpad on my MacBook Air had been feeling strange for weeks. Turns out the battery had swollen. They treated it as urgent, sourced the part, and had it done within 3 hours. Very professional, clear pricing, no surprises.',
+  },
+  {
+    name: 'Priya N.',
+    suburb: 'Fourways',
+    rating: 5,
+    text: 'Checked my battery health on coconutBattery after a friend mentioned it — 61% capacity and 890 cycles. Called ZA Support, dropped it off that morning, collected the same afternoon with 100% health. Incredibly fast and reasonably priced.',
+  },
+];
+
 const faqSchema = buildFaqSchema(faqs);
 
+// ─── Component ───────────────────────────────────────────────────────────────
+
 export default function MacBookBatteryPage() {
+  const airPricing = pricing.filter((p) => p.group === 'MacBook Air');
+  const proPricing = pricing.filter((p) => p.group === 'MacBook Pro');
+
   return (
     <>
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
+      <SchemaOrg schema={aggregateRatingSchema} />
 
-      {/* Hero */}
+      {/* ── Hero ────────────────────────────────────────────────────────── */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Breadcrumb items={[{ label: 'MacBook Repair', href: '/macbook-repair' }, { label: 'Battery Replacement' }]} />
+          <Breadcrumb
+            items={[
+              { label: 'MacBook Repair', href: '/macbook-repair' },
+              { label: 'Battery Replacement' },
+            ]}
+          />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
-              MacBook Battery<br /><span className="text-[#0FEA7A]">Replacement Johannesburg</span>
+            <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
+              <Battery className="w-4 h-4" /> Same-Day Service Available
+            </div>
+            <h1
+              className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
+              style={{ fontFamily: 'Syne, sans-serif' }}
+            >
+              MacBook Battery Replacement<br />
+              <span className="text-[#0FEA7A]">Johannesburg — From R 1,299</span>
             </h1>
-            <p className="text-xl text-[#7A9E98] mb-8">
-              Battery replacement from R 1,200. All M-series and Intel MacBook Air and Pro models. Same-day service. 12-month warranty.
+            <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
+              All MacBook Air and MacBook Pro models — M1, M2, M3 through to Intel. Genuine-equivalent cells,
+              12-month written warranty, Hyde Park workshop.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={`tel:${CONTACT.phoneTel}`}
+                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20a%20MacBook%20battery%20replacement"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
               >
-                <Phone className="w-5 h-5" /> Call {CONTACT.phone}
+                WhatsApp Us
               </a>
-              <Link
-                href="/contact"
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
                 className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
-                Get a Quote <ArrowRight className="w-5 h-5" />
-              </Link>
+                <Phone className="w-5 h-5" /> {CONTACT.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Symptoms + Pricing */}
+      {/* ── Stats Bar ───────────────────────────────────────────────────── */}
+      <section className="bg-[#111C1A] border-y border-[rgba(255,255,255,0.06)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-[rgba(255,255,255,0.06)]">
+            {[
+              { icon: <Battery className="w-5 h-5" />, label: '3,000+', sub: 'Batteries Replaced' },
+              { icon: <Zap className="w-5 h-5" />, label: 'Same-Day', sub: 'Service Available' },
+              { icon: <Shield className="w-5 h-5" />, label: '12-Month', sub: 'Written Warranty' },
+              { icon: <CheckCircle className="w-5 h-5" />, label: 'Genuine', sub: 'OEM-Equivalent Cells' },
+            ].map((stat) => (
+              <div key={stat.sub} className="flex flex-col items-center py-6 px-4 gap-1">
+                <span className="text-[#0FEA7A]">{stat.icon}</span>
+                <span className="text-[#E8F4F1] font-bold text-lg" style={{ fontFamily: 'Syne, sans-serif' }}>{stat.label}</span>
+                <span className="text-[#7A9E98] text-xs text-center">{stat.sub}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Signs You Need a Battery ─────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Does Your MacBook Need a New Battery?</h2>
-              <p className="text-[#7A9E98] mb-6 text-sm">If you recognise any of these symptoms, your MacBook battery likely needs replacing.</p>
-              {symptoms.map((item) => (
-                <div key={item} className="flex items-center gap-3 py-2.5 border-b border-[rgba(255,255,255,0.04)]">
-                  <span className="text-[#0FEA7A] text-sm flex-shrink-0">✓</span>
-                  <span className="text-[#7A9E98] text-sm">{item}</span>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Signs Your MacBook Needs a New Battery
+          </h2>
+          <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
+            Recognise any of these? Book a free assessment — we diagnose before we quote.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {signs.map((s) => (
+              <div
+                key={s.title}
+                className={`bg-[rgba(255,255,255,0.03)] border rounded-2xl p-6 ${
+                  s.urgent
+                    ? 'border-[rgba(245,166,35,0.35)]'
+                    : 'border-[rgba(255,255,255,0.08)]'
+                }`}
+              >
+                <div className="flex items-center gap-3 mb-3">
+                  {s.icon}
+                  <h3 className="text-[#E8F4F1] font-bold text-sm">{s.title}</h3>
+                  {s.urgent && (
+                    <span className="ml-auto text-[#F5A623] text-xs font-semibold bg-[rgba(245,166,35,0.1)] px-2 py-0.5 rounded-full">
+                      Urgent
+                    </span>
+                  )}
                 </div>
-              ))}
-            </div>
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing by Model</h2>
-              <div className="glass-card p-6">
-                {pricing.map(([model, price], i) => (
-                  <div key={model} className={`flex justify-between py-3 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{model}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{price}</span>
+                <p className="text-[#7A9E98] text-sm leading-relaxed">{s.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Pricing Table ────────────────────────────────────────────────── */}
+      <section className="py-20 bg-[#111C1A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            MacBook Battery Replacement Prices — Johannesburg
+          </h2>
+          <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
+            All prices include parts and labour. 12-month warranty on every replacement. Call to confirm stock for your model.
+          </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* MacBook Air */}
+            <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
+              <div className="bg-[rgba(15,234,122,0.08)] border-b border-[rgba(15,234,122,0.15)] px-6 py-4">
+                <h3 className="text-[#0FEA7A] font-bold" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air</h3>
+              </div>
+              <div className="divide-y divide-[rgba(255,255,255,0.05)]">
+                {airPricing.map((row) => (
+                  <div key={row.model} className="flex justify-between items-center px-6 py-4">
+                    <span className="text-[#7A9E98] text-sm">{row.model}</span>
+                    <span className="text-[#0FEA7A] font-bold text-sm whitespace-nowrap ml-4">{row.range}</span>
                   </div>
                 ))}
               </div>
-              <p className="text-[#7A9E98] text-xs mt-3">All prices include parts and labour. 12-month warranty included. Prices subject to change — call to confirm.</p>
-              <div className="mt-6 glass-card p-4 border border-[rgba(15,234,122,0.15)]">
-                <p className="text-[#0FEA7A] font-semibold text-sm mb-1">Swollen Battery?</p>
-                <p className="text-[#7A9E98] text-xs">We treat swollen batteries as a same-day priority. Bring it in as soon as possible — do not charge a swollen battery at home.</p>
+            </div>
+            {/* MacBook Pro */}
+            <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
+              <div className="bg-[rgba(15,234,122,0.08)] border-b border-[rgba(15,234,122,0.15)] px-6 py-4">
+                <h3 className="text-[#0FEA7A] font-bold" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Pro</h3>
+              </div>
+              <div className="divide-y divide-[rgba(255,255,255,0.05)]">
+                {proPricing.map((row) => (
+                  <div key={row.model} className="flex justify-between items-center px-6 py-4">
+                    <span className="text-[#7A9E98] text-sm">{row.model}</span>
+                    <span className="text-[#0FEA7A] font-bold text-sm whitespace-nowrap ml-4">{row.range}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <p className="text-[#7A9E98] text-xs mt-6 text-center">
+            Prices are ranges — exact quote confirmed after free assessment. Swollen battery surcharge may apply on select models. Contact us for a fixed quote.
+          </p>
+        </div>
+      </section>
+
+      {/* ── Battery Health Explainer ──────────────────────────────────────── */}
+      <section className="py-20 bg-[#0A1A18]">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Understanding MacBook Battery Health
+          </h2>
+          <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
+            Every MacBook battery degrades over time. Here is what the numbers actually mean — and when to replace.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            {/* Cycle Count */}
+            <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
+              <h3 className="text-[#E8F4F1] font-bold text-lg mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+                What Is a Battery Cycle Count?
+              </h3>
+              <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">
+                One battery cycle equals using 100% of your battery capacity — not necessarily in a single charge. Using 50% today and 50% tomorrow counts as one cycle.
+              </p>
+              <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">
+                Apple rates most modern MacBook batteries at 1,000 cycles before they drop below 80% capacity. Older Intel models were rated at 500–1,000 cycles.
+              </p>
+              <div className="bg-[rgba(15,234,122,0.07)] border border-[rgba(15,234,122,0.15)] rounded-xl p-4">
+                <p className="text-[#0FEA7A] text-sm font-semibold mb-1">Replace at 500+ cycles on Intel models</p>
+                <p className="text-[#7A9E98] text-xs">
+                  On Intel MacBooks with the 500-cycle rating, 500+ cycles typically correlates with 75–85% remaining capacity. Replace before performance degrades further.
+                </p>
+              </div>
+              <p className="text-[#7A9E98] text-sm mt-4 leading-relaxed">
+                Use the free <strong className="text-[#E8F4F1]">coconutBattery</strong> app to see your exact cycle count, current capacity (mAh vs design capacity), battery age, and temperature history. It is far more detailed than the built-in macOS Battery Health readout.
+              </p>
+            </div>
+
+            {/* Health Scale */}
+            <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
+              <h3 className="text-[#E8F4F1] font-bold text-lg mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+                Battery Health Scale
+              </h3>
+              <p className="text-[#7A9E98] text-sm mb-6 leading-relaxed">
+                macOS reports battery maximum capacity as a percentage of original design capacity. This is what the scale means in practice.
+              </p>
+              <div className="space-y-3">
+                {healthGuide.map((h) => (
+                  <div key={h.threshold} className="flex items-center gap-4">
+                    <div
+                      className="w-3 h-3 rounded-full flex-shrink-0"
+                      style={{ backgroundColor: h.colour }}
+                    />
+                    <div className="flex-1">
+                      <div className="flex justify-between items-baseline mb-0.5">
+                        <span className="text-[#E8F4F1] text-sm font-semibold">{h.threshold}</span>
+                        <span className="text-xs font-semibold" style={{ color: h.colour }}>{h.label}</span>
+                      </div>
+                      <p className="text-[#7A9E98] text-xs">{h.action}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-6 bg-[rgba(245,101,101,0.07)] border border-[rgba(245,101,101,0.2)] rounded-xl p-4">
+                <p className="text-[#F56565] text-sm font-semibold mb-1">Apple's own threshold: 80%</p>
+                <p className="text-[#7A9E98] text-xs">
+                  Apple considers any battery below 80% maximum capacity as "consumed" and recommends replacement. macOS will show a "Service Recommended" badge at this point.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Process */}
+      {/* ── Repair Process ───────────────────────────────────────────────── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-12 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             How MacBook Battery Replacement <span className="text-[#0FEA7A]">Works</span>
           </h2>
-          <div className="space-y-6">
+          <div className="space-y-5">
             {[
-              { step: '01', title: 'Bring Your MacBook In', desc: 'Drop off at our Hyde Park workshop. No appointment needed, though calling ahead ensures we have your battery in stock.' },
-              { step: '02', title: 'Free Assessment', desc: 'We check your battery health percentage, cycle count, and whether any other issues are present. No charge for this.' },
-              { step: '03', title: 'Battery Replaced in 60–120 Minutes', desc: 'We replace the battery using quality components. All adhesive is refreshed and the machine is sealed correctly.' },
-              { step: '04', title: 'Calibration & Health Check', desc: 'We verify 100% battery health in System Settings, run a charge cycle, and confirm everything is working correctly before handover.' },
+              {
+                step: '01',
+                title: 'Bring Your MacBook In',
+                desc: 'Drop off at our Hyde Park workshop — no appointment required, though calling ahead ensures we have your battery in stock for a same-day turn. Bring the charger if possible.',
+              },
+              {
+                step: '02',
+                title: 'Free Battery Assessment',
+                desc: 'We check your battery health percentage, cycle count, cell voltage, and temperature history using coconutBattery and system diagnostics. We will also check whether the battery is swollen, whether the trackpad has been displaced, and whether there are any related charging circuit issues. No charge for this.',
+              },
+              {
+                step: '03',
+                title: 'Fixed Quote Provided',
+                desc: 'You receive a clear, fixed price for the replacement before we begin. No ambiguous ranges at this stage — the price is confirmed and agreed in writing on the job card. For M-series MacBooks with glued assemblies, we also confirm turnaround time.',
+              },
+              {
+                step: '04',
+                title: 'Battery Replaced in 2–4 Hours',
+                desc: 'We remove the old battery, clean adhesive residue, install the new cell, and reseal the enclosure correctly. All case screws are torqued to spec. The trackpad is re-seated and tested. On M-series MacBooks this process takes 90–180 minutes due to the glued assembly design.',
+              },
+              {
+                step: '05',
+                title: '100% Health Verified Before Collection',
+                desc: 'Before you collect, we confirm battery health at 100% in macOS System Settings, run a partial charge cycle, verify the charge path, and confirm the trackpad response. You will see the reading on screen before you leave.',
+              },
             ].map((item) => (
-              <div key={item.step} className="flex gap-6 glass-card p-6">
-                <div className="text-3xl font-extrabold text-[#0FEA7A] opacity-40 flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{item.step}</div>
+              <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
+                <div
+                  className="text-3xl font-extrabold text-[#0FEA7A] opacity-40 flex-shrink-0 w-10"
+                  style={{ fontFamily: 'Syne, sans-serif' }}
+                >
+                  {item.step}
+                </div>
                 <div>
                   <h3 className="text-[#E8F4F1] font-bold mb-1">{item.title}</h3>
-                  <p className="text-[#7A9E98] text-sm">{item.desc}</p>
+                  <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -185,22 +471,121 @@ export default function MacBookBatteryPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* ── Reviews ──────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Battery Replacement — FAQs" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            What Clients Say
+          </h2>
+          <p className="text-[#7A9E98] text-center mb-12">
+            Rated 4.9 / 5 from 120 reviews across Johannesburg
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {reviews.map((r) => (
+              <div key={r.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
+                <div className="flex gap-1">
+                  {Array.from({ length: r.rating }).map((_, i) => (
+                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
+                  ))}
+                </div>
+                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
+                <div className="flex items-center gap-2 pt-2 border-t border-[rgba(255,255,255,0.05)]">
+                  <div className="w-8 h-8 rounded-full bg-[rgba(15,234,122,0.15)] flex items-center justify-center text-[#0FEA7A] font-bold text-sm">
+                    {r.name[0]}
+                  </div>
+                  <div>
+                    <p className="text-[#E8F4F1] text-sm font-semibold">{r.name}</p>
+                    <div className="flex items-center gap-1 text-[#7A9E98] text-xs">
+                      <MapPin className="w-3 h-3" /> {r.suburb}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* CTA */}
+      {/* ── FAQ ──────────────────────────────────────────────────────────── */}
+      <section className="py-20 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FAQAccordion
+            items={faqs}
+            title="MacBook Battery Replacement — FAQs"
+          />
+        </div>
+      </section>
+
+      {/* ── Internal Links ───────────────────────────────────────────────── */}
+      <section className="py-16 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+            Related MacBook Repair Services
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {[
+              {
+                href: '/macbook-repair',
+                title: 'MacBook Repair — All Services',
+                desc: 'Full overview of MacBook screen, keyboard, trackpad, charging port, and battery repairs in Johannesburg.',
+              },
+              {
+                href: '/macbook-pro-repair',
+                title: 'MacBook Pro Repair Johannesburg',
+                desc: 'Logic board, battery, screen, and component-level repairs for all MacBook Pro models — Intel and Apple Silicon.',
+              },
+              {
+                href: '/macbook-air-repair',
+                title: 'MacBook Air Repair Johannesburg',
+                desc: 'Battery replacement, screen repair, keyboard and trackpad repairs for all MacBook Air models.',
+              },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="group bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-5 hover:border-[rgba(15,234,122,0.3)] hover:bg-[rgba(15,234,122,0.04)] transition-all"
+              >
+                <div className="flex items-start justify-between gap-2 mb-2">
+                  <h3 className="text-[#E8F4F1] font-bold text-sm group-hover:text-[#0FEA7A] transition-colors">
+                    {link.title}
+                  </h3>
+                  <ArrowRight className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <p className="text-[#7A9E98] text-xs leading-relaxed">{link.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CTA Banner ───────────────────────────────────────────────────── */}
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Battery Dying?</h2>
-            <p className="text-[#7A9E98] mb-6">From R 1,200. Done in under 2 hours. Hyde Park, Johannesburg.</p>
-            <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
-              <Phone className="w-5 h-5" /> Call {CONTACT.phone}
-            </a>
+            <Battery className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+              MacBook Battery Dying?
+            </h2>
+            <p className="text-[#7A9E98] mb-2">From R 1,299. Completed in 2–4 hours. 12-month warranty.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">
+              Hyde Park, Johannesburg — drop in, no appointment needed.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20a%20MacBook%20battery%20replacement"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
+              >
+                WhatsApp Us Now
+              </a>
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                <Phone className="w-5 h-5" /> {CONTACT.phone}
+              </a>
+            </div>
           </div>
         </div>
       </section>
