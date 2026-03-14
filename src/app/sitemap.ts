@@ -77,6 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Blog
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
+    { url: `${base}/blog/macbook-load-shedding-damage`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/what-to-do-macbook-liquid-damage`, lastModified: now, changeFrequency: 'yearly', priority: 0.6 },
     { url: `${base}/blog/why-rice-does-not-work`, lastModified: now, changeFrequency: 'yearly', priority: 0.6 },
     { url: `${base}/blog/jamf-mdm-guide-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.6 },

@@ -10,6 +10,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'macbook-load-shedding-damage',
+    title: 'Load Shedding Damaged My MacBook: What You Need to Know',
+    excerpt: 'Load shedding does not just cut your power — the surge when power returns can silently destroy a MacBook logic board. Here is what happens, the warning signs, and how to protect your machine.',
+    date: '14/03/2026',
+    category: 'Repair Guides',
+    readTime: '7 min read',
+  },
+  {
     slug: 'what-to-do-macbook-liquid-damage',
     title: 'What to Do Immediately After Your MacBook Gets Wet',
     excerpt: 'The first 30 minutes after a liquid spill are critical. Here is exactly what to do — and what not to do — to maximise your chances of a successful repair.',

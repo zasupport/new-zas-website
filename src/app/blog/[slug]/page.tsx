@@ -203,6 +203,179 @@ No amount of rice changes this curve.
 We offer free liquid damage assessments, 7 days a week. No Fix No Fee on all repairs. Call 064 529 5863.
     `.trim(),
   },
+  'macbook-load-shedding-damage': {
+    slug: 'macbook-load-shedding-damage',
+    title: 'Load Shedding Damaged My MacBook: What You Need to Know',
+    excerpt: 'Load shedding does not just cut your power — the surge when power returns can silently destroy a MacBook logic board. Here is what happens, the warning signs, and how to protect your machine.',
+    date: '14/03/2026',
+    category: 'Repair Guides',
+    readTime: '7 min read',
+    author: 'ZA Support',
+    content: `
+## The Real Danger Is Not the Outage — It Is the Return
+
+Most South Africans have learned to live with load shedding. You save your work, you wait, the power comes back. Simple enough.
+
+What very few people know is that the moment power returns — that sudden, unregulated surge of electricity flooding back into the grid — is one of the most dangerous events for any electronics in your home or office. For a MacBook, it can mean the difference between a working machine and a completely dead logic board.
+
+This guide explains exactly what happens to a MacBook during a load shedding surge, the warning signs that your machine has been affected, and what to do about it.
+
+## Why Load Shedding Damages MacBooks: The Power Rail Explanation
+
+Your MacBook is not simply "off or on." Inside it, a series of carefully regulated power lines — called power rails — deliver precise voltages to every component: the processor, the memory, the storage, the display. These rails are managed by a controller chip that expects stable, clean power from your charger.
+
+When Eskom restores power after a load shedding stage, the reinstatement is not clean. Transformers reactivate under load, causing a voltage spike — a brief surge that travels through your wall socket, into your charger, and into your MacBook's power delivery circuitry.
+
+Think of it like water in a pipe. When the supply is cut off and then suddenly restored at full pressure, the first thing through the pipe hits hard. Your MacBook's power controller is designed to handle normal fluctuations — but a reinstatement surge can exceed its tolerance, burning out components on the logic board.
+
+The damage typically affects:
+
+- The MOSFET transistors that regulate voltage to the processor
+- The SMC (System Management Controller) chip that manages power states
+- Capacitors on the primary power rails
+- In severe cases, the CPU or GPU itself
+
+The worst part: the damage is often invisible. Your MacBook may appear to switch on normally and then fail hours or days later. Or it may simply not turn on at all the next morning.
+
+## Warning Signs Your MacBook Was Damaged by a Power Surge
+
+Surge damage rarely announces itself immediately. These are the patterns we see most often in machines brought in after load shedding events:
+
+**The machine will not turn on at all.**
+You plug in the charger, press the power button, and nothing happens. No startup chime, no fan spin, no screen activity. This is the most common presentation of surge damage to the main power rail.
+
+**The charger LED stays amber and never turns green.**
+The MacBook draws charge but never reaches full power. The battery management circuit on the logic board has been compromised.
+
+**Intermittent shutdowns under load.**
+The MacBook starts normally but shuts off when you open a demanding application, connect an external display, or plug in peripherals. The damaged power rail cannot sustain current under load.
+
+**The MagSafe or USB-C charger is not recognised.**
+The machine does not respond to the charger at all — no charging indicator, no response in System Information. The power delivery controller has failed.
+
+**Kernel panics shortly after startup.**
+Random crashes with a grey screen and a restart prompt, typically pointing to a power-related kernel extension in the panic log.
+
+**Distorted or flickering display.**
+The display power rail has been affected. Lines across the screen, flickering, or a backlight that turns on but shows no image.
+
+**Extremely hot chassis near the charger port.**
+A component on the power delivery circuit is short-circuiting and dissipating heat directly into the chassis.
+
+If you experienced a load shedding event in the last 24–72 hours and your MacBook is showing any of these symptoms, the machine needs to be assessed immediately.
+
+## What to Do Immediately If You Suspect Surge Damage
+
+**Step 1: Stop charging the machine.**
+Disconnect the charger now. If a component on the power rail has been compromised, continuing to supply power risks cascading damage to components that are currently still functional. Every hour of continued charging after surge damage can worsen the repair outcome significantly.
+
+**Step 2: Do not force it to power on repeatedly.**
+We understand the instinct — you want to check if it still works. But pressing the power button repeatedly on a surge-damaged board risks triggering short circuits through already-weakened components. One careful power-on attempt is acceptable. More than that increases risk.
+
+**Step 3: Note the sequence of events.**
+When did the load shedding occur? When did the power return? Was the MacBook plugged in at the time? Was it on sleep or fully on? This information helps us diagnose the failure point quickly and accurately.
+
+**Step 4: Bring it to us as soon as possible.**
+Surge damage diagnosis requires specialist equipment: a DC power supply for safe bench testing, a thermal camera to identify hot components, oscilloscope access for power rail measurement, and microscope inspection of the logic board. This is not a home-repair situation.
+
+## How ZA Support Repairs Surge Damage
+
+The most important thing to understand about surge damage repair is this: we repair at component level, not board replacement level.
+
+Apple and iStore quote R 15,000–R 35,000 for MacBook logic board issues because their process is a full board swap — they remove the entire logic board and install a new one. That price is not the cost of the fault. It is the cost of Apple's refusal to diagnose at component level.
+
+Our process is different:
+
+**1. DC bench power supply test**
+We bypass the internal battery and charger entirely, applying clean, controlled power directly to the board at known voltages. This tells us immediately which power rail has failed without risking further damage.
+
+**2. Thermal camera scan**
+An infrared camera identifies components running hotter than expected — the location of a short circuit or failed component shows up clearly as a heat signature.
+
+**3. Schematic-level fault tracing**
+Using board-level schematics and a multimeter, we trace the failed circuit back to the specific component — often a single MOSFET, capacitor, or power management IC costing a few rand to replace.
+
+**4. Microsolder component replacement**
+Failed components are removed under a stereo microscope using hot air and flux, and replaced with matching-specification parts. On a MacBook Pro M2, we are working with 0201 components — roughly the size of a grain of sand.
+
+**5. Power-on verification and load test**
+After repair, the board is tested under load using Cinebench and a full diagnostic suite to confirm stable power delivery before reassembly.
+
+**The result:** You get your data back. Your original machine is returned working. And you pay a fraction of the board-replacement quote.
+
+Surge damage repair at ZA Support starts from **R 2,500** — compared to R 15,000–R 35,000 at Apple or iStore. Most repairs are completed within 3–5 working days.
+
+## Prevention: The Right UPS for Your MacBook in South Africa
+
+The single most effective protection against load shedding surge damage is a quality uninterruptible power supply (UPS). A UPS does two things: it provides battery backup during the outage so your MacBook does not shut down abruptly, and — critically — it conditions the power, absorbing the reinstatement surge before it reaches your charger.
+
+Not all UPS units are equal. For MacBook protection in a South African home or office environment, these are the units we recommend:
+
+### APC Back-UPS Pro 1500VA (Recommended for home offices)
+
+APC is the gold standard for personal and small-business UPS. The Back-UPS Pro 1500VA provides true sine wave output (essential for MacBook chargers, which are switching power supplies), automatic voltage regulation (AVR) to handle brownouts, and surge suppression rated above the reinstatement spikes common on the South African grid.
+
+It provides approximately 30–45 minutes of runtime for a MacBook Air or Pro with normal usage. Available from Incredible Connection, Takealot, and specialist IT suppliers for approximately R 3,500–R 4,200.
+
+### Mecer 2000VA Line-Interactive UPS (Best value for South Africa)
+
+Mecer is a South African brand with service and parts availability locally — an important consideration when a UPS needs warranty service. The 2000VA line-interactive model provides AVR and pure sine wave output, with runtime suitable for finishing work and safely shutting down during extended outages.
+
+Priced at approximately R 2,000–R 2,800 from Takealot and Mecer resellers. Replace the battery every 3–4 years for continued protection.
+
+### Eaton 5E 1100VA (Budget option for MacBook Air)
+
+Eaton's entry-level 5E series provides adequate surge suppression and AVR for a single MacBook Air in a home setup. It does not offer pure sine wave output, which is acceptable for most MacBook chargers but should be noted.
+
+Available from around R 1,400–R 1,800.
+
+**Important note on UPS placement:** Plug your MacBook charger into the UPS. Do not plug the UPS into an extension lead — connect it directly to a wall socket rated for the UPS's current draw. Daisy-chaining extension leads eliminates much of the protection the UPS provides.
+
+**Battery maintenance:** A UPS with a degraded battery can fail to suppress surges effectively. Test your UPS battery annually and replace it every 3–4 years regardless of apparent condition. Most South African UPS batteries are available locally from the original manufacturer or specialist battery suppliers.
+
+## The Cost of Not Having a UPS
+
+A quality UPS costs R 1,400–R 4,200. A MacBook logic board repair after surge damage costs R 2,500–R 6,000 at ZA Support — or R 15,000–R 35,000 at Apple.
+
+But beyond repair cost, there is a more important number: the value of your data. Logic board surge damage frequently affects the SSD controller. In those cases, data recovery is a separate, complex process on top of the board repair. Preventing the damage entirely is vastly more cost-effective than any repair.
+
+South Africa averages over 200 load shedding days per year. Every one of those days includes a reinstatement event. Over 12 months, your MacBook is exposed to hundreds of potential surge events if it is connected without protection.
+
+## Frequently Asked Questions
+
+**Q: My MacBook was not plugged in during load shedding — can it still be damaged?**
+
+If the MacBook was not connected to a charger or any peripherals during the outage, it is very unlikely to have been affected by the power reinstatement surge. The surge travels through the electrical supply — if your MacBook was running on battery with no cables connected, it was isolated from the event. However, if you plugged the charger back in immediately after power returned, that first connection carries the surge.
+
+**Q: My MacBook turned on fine after load shedding — am I safe?**
+
+Not necessarily. Surge damage to certain components — particularly capacitors — can manifest as a gradual failure over days or weeks. If your machine experienced a reinstatement event while plugged in, watch for the warning signs described above over the following week. Any unexpected shutdowns, charging irregularities, or performance changes should be investigated promptly.
+
+**Q: Can Apple or iStore repair surge damage?**
+
+Apple's authorised service model in South Africa does not offer component-level logic board repair. They will quote a full board replacement (R 15,000–R 35,000) or, in many cases, decline to repair the machine at all if it is out of warranty. iStore follows the same process. ZA Support is a component-level repair workshop — we fix the specific fault, not the whole board.
+
+**Q: How long does surge damage repair take?**
+
+Most surge damage repairs are completed within 3–5 working days. Complex cases involving multiple failed components or damaged data storage can extend to 7–10 days. We provide a clear timeline estimate during the free diagnostic assessment.
+
+**Q: Does my Apple Care or device insurance cover surge damage?**
+
+AppleCare does not cover accidental damage or power surge damage — it covers manufacturing defects and, with AppleCare+, accidental damage at an excess fee. Most South African short-term insurance policies do cover surge damage to electronics as a specified or all-risk item, but the excess is often close to or exceeds the cost of a ZA Support repair. Check your policy schedule. We can provide a detailed repair quotation for insurance claim purposes.
+
+**Q: What is the best UPS for a home office MacBook setup in South Africa?**
+
+For most home offices running a MacBook Pro or MacBook Air, we recommend the APC Back-UPS Pro 1500VA or the Mecer 2000VA. Both provide true sine wave output, automatic voltage regulation, and adequate runtime. Avoid cheap generic UPS units without AVR — they absorb some surge but do not regulate brownout conditions that are common during load shedding transitions.
+
+## Book a Free Surge Damage Assessment
+
+If your MacBook is showing any of the symptoms described in this guide — or if it was plugged in during a load shedding reinstatement event and you want peace of mind — bring it in for a free assessment.
+
+We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg. We assess surge damage same day, 7 days a week. No Fix No Fee on all repairs.
+
+Call **064 529 5863** or message us on WhatsApp. We will have a clear answer for you within the hour.
+    `.trim(),
+  },
   'jamf-mdm-guide-south-africa': {
     slug: 'jamf-mdm-guide-south-africa',
     title: 'JAMF MDM for South African Businesses: A Complete Guide',
@@ -388,6 +561,50 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     url: `https://zasupport.com/blog/${slug}`,
   };
 
+  const faqSchemas: Record<string, object> = {
+    'macbook-load-shedding-damage': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'My MacBook was not plugged in during load shedding — can it still be damaged?',
+          acceptedAnswer: { '@type': 'Answer', text: 'If the MacBook was not connected to a charger or any peripherals during the outage, it is very unlikely to have been affected by the power reinstatement surge. However, if you plugged the charger back in immediately after power returned, that first connection carries the surge.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My MacBook turned on fine after load shedding — am I safe?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Not necessarily. Surge damage to certain components — particularly capacitors — can manifest as a gradual failure over days or weeks. Watch for unexpected shutdowns, charging irregularities, or performance changes over the following week.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can Apple or iStore repair surge damage?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Apple and iStore do not offer component-level logic board repair. They quote full board replacement at R 15,000–R 35,000. ZA Support repairs the specific failed component, not the whole board, starting from R 2,500.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How long does surge damage repair take?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Most surge damage repairs are completed within 3–5 working days. Complex cases can extend to 7–10 days. We provide a timeline estimate during the free diagnostic assessment.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Does Apple Care or device insurance cover surge damage?',
+          acceptedAnswer: { '@type': 'Answer', text: 'AppleCare does not cover power surge damage. Most South African short-term insurance policies do cover surge damage to electronics as a specified or all-risk item. We can provide a detailed repair quotation for insurance claim purposes.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What is the best UPS for a MacBook in South Africa?',
+          acceptedAnswer: { '@type': 'Answer', text: 'For most home offices, we recommend the APC Back-UPS Pro 1500VA (R 3,500–R 4,200) or the Mecer 2000VA (R 2,000–R 2,800). Both provide true sine wave output and automatic voltage regulation to handle South African load shedding reinstatement surges.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How much does MacBook surge damage repair cost in Johannesburg?',
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage starting from R 2,500 for component-level logic board repair. This compares to R 15,000–R 35,000 for a full board replacement at Apple or iStore. Free assessment, No Fix No Fee.' },
+        },
+      ],
+    },
+  };
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -398,9 +615,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     ],
   };
 
+  const schemas: object[] = [articleSchema, breadcrumbSchema];
+  if (faqSchemas[slug]) schemas.push(faqSchemas[slug]);
+
   return (
     <>
-      <SchemaOrg schema={[articleSchema, breadcrumbSchema]} />
+      <SchemaOrg schema={schemas} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
