@@ -75,10 +75,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ipad-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/ipad-repair/charging`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
+    // Mac Mini repair
+    { url: `${base}/mac-mini-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+
     // Business services
     { url: `${base}/jamf-mdm`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/managed-services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/managed-services/apple-specialist`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/managed-services/it-support`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${base}/apple-support/medical-practices`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/apple-support/business`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/apple-support/enterprise`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+
+    // iPad repair — additional sub-page
+    { url: `${base}/ipad-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
     // No Fix No Fee — zero-competition SEO keyword
     { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
@@ -86,7 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Core pages
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // Blog
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
@@ -97,5 +107,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/macbook-running-slow`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-wont-connect-wifi`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/apple-id-locked-out`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+    { url: `${base}/blog/how-to-speed-up-mac-free`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+    { url: `${base}/blog/mac-not-turning-on-checklist`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
