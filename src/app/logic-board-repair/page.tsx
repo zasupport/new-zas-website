@@ -88,12 +88,27 @@ const breadcrumbSchema = {
 
 const faqSchema = buildFaqSchema(faqs);
 
+const aggregateRatingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': 'https://zasupport.com/#business',
+  name: 'ZA Support',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
+  },
+};
+
 export default function LogicBoardRepairPage() {
   return (
     <>
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={aggregateRatingSchema} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -143,6 +158,28 @@ export default function LogicBoardRepairPage() {
                   <p className="text-[#7A9E98] text-xs mt-0.5">{label}</p>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Free diagnostic competitive callout */}
+      <section className="py-6 bg-[rgba(15,234,122,0.06)] border-y border-[rgba(15,234,122,0.12)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap items-center justify-center gap-8 text-center">
+            <div>
+              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Other repair shops</p>
+              <p className="text-xl font-extrabold text-red-400 line-through">R 550 diagnostic fee</p>
+            </div>
+            <div className="text-[#0FEA7A] text-3xl font-black">vs</div>
+            <div>
+              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">ZA Support</p>
+              <p className="text-xl font-extrabold text-[#0FEA7A]">Free diagnostic — always</p>
+            </div>
+            <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
+            <div>
+              <p className="text-[#E8F4F1] text-sm font-semibold">No Fix No Fee + 12-Month Written Warranty</p>
+              <p className="text-[#7A9E98] text-xs mt-0.5">No obligation. No charge if we cannot repair it.</p>
             </div>
           </div>
         </div>

@@ -111,6 +111,20 @@ const serviceAreas = [
   'Morningside', 'Sandhurst', 'Parkhurst', 'Edenvale', 'Greenside', 'Linden',
 ];
 
+const aggregateRatingSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': 'https://zasupport.com/#business',
+  name: 'ZA Support',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
+  },
+};
+
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Logic Board Repair Johannesburg',
@@ -130,6 +144,7 @@ export default function MacBookAirLogicBoardPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={aggregateRatingSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-20">
