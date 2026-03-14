@@ -68,6 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Business services
     { url: `${base}/jamf-mdm`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/managed-services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/apple-support/medical-practices`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
     // Core pages
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
