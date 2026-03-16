@@ -345,7 +345,7 @@ export default function LogicBoardRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={[{ label: 'Logic Board Repair' }]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Logic Board Repair
               <br /><span className="text-[#0FEA7A]">in Johannesburg</span>
             </h1>
@@ -393,7 +393,7 @@ export default function LogicBoardRepairPage() {
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
                 <div key={label}>
-                  <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
+                  <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
                   <p className="text-[#7A9E98] text-xs mt-0.5">{label}</p>
                 </div>
               ))}
@@ -427,7 +427,7 @@ export default function LogicBoardRepairPage() {
       {/* ── FAULT TYPES ── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             Common Logic Board Faults We Fix
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
@@ -436,7 +436,7 @@ export default function LogicBoardRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {faults.map((fault) => (
               <div key={fault.title} className="glass-card p-5">
-                <h3 className="text-[#E8F4F1] font-bold mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>{fault.title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-2">{fault.title}</h3>
                 <p className="text-[#7A9E98] text-sm leading-relaxed">{fault.desc}</p>
               </div>
             ))}
@@ -447,7 +447,7 @@ export default function LogicBoardRepairPage() {
       {/* ── WHY COMPONENT REPAIR BEATS BOARD REPLACEMENT, PRICE COMPARISON TABLE ── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             Why Component-Level Repair Beats Full Board Replacement
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
@@ -475,7 +475,7 @@ export default function LogicBoardRepairPage() {
             ].map(({ icon: Icon, title, body }) => (
               <div key={title} className="glass-card p-6">
                 <Icon className="w-6 h-6 text-[#0FEA7A] mb-3" />
-                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm" style={{ fontFamily: 'Syne, sans-serif' }}>{title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm">{title}</h3>
                 <p className="text-[#7A9E98] text-xs leading-relaxed">{body}</p>
               </div>
             ))}
@@ -486,7 +486,7 @@ export default function LogicBoardRepairPage() {
       {/* ── IC FAULT TABLE ── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             IC Fault Reference, Chips We Replace
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
@@ -531,12 +531,12 @@ export default function LogicBoardRepairPage() {
       {/* ── MICROSOLDERING VS BOARD SWAP (existing section) ── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center">
             Microsoldering vs Board Replacement
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="glass-card p-8 border-[rgba(15,234,122,0.3)]">
-              <h3 className="text-[#0FEA7A] text-xl font-bold mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>✓ Microsoldering Repair (Our Preference)</h3>
+              <h3 className="text-[#0FEA7A] text-xl font-bold mb-4">✓ Microsoldering Repair (Our Preference)</h3>
               <ul className="space-y-3">
                 {[
                   'Fixes the specific failed component only',
@@ -554,7 +554,7 @@ export default function LogicBoardRepairPage() {
               </ul>
             </div>
             <div className="glass-card p-8">
-              <h3 className="text-[#7A9E98] text-xl font-bold mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Board Replacement (When Necessary)</h3>
+              <h3 className="text-[#7A9E98] text-xl font-bold mb-4">Board Replacement (When Necessary)</h3>
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not feasible',
@@ -578,7 +578,7 @@ export default function LogicBoardRepairPage() {
       {/* ── REPAIR TYPES ── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Repair Services</h2>
           <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl">
             All repairs are component-level. Final cost is confirmed after the assessment. Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed.
           </p>
@@ -619,7 +619,7 @@ export default function LogicBoardRepairPage() {
       {/* ── CUSTOMER REVIEWS ── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             What Our Customers Say
           </h2>
           <div className="flex items-center justify-center gap-2 mb-10">
@@ -650,7 +650,7 @@ export default function LogicBoardRepairPage() {
       {/* ── DEVICE SUB-PAGES ── */}
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Logic Board Repair by Device</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3">Logic Board Repair by Device</h2>
           <p className="text-[#7A9E98] text-sm mb-6 max-w-2xl">
             Each Mac model has unique logic board architecture and common fault patterns. Select your device below for model-specific information.
           </p>
@@ -671,7 +671,7 @@ export default function LogicBoardRepairPage() {
       {/* ── AREAS WE SERVE ── */}
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Areas We Serve</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3">Areas We Serve</h2>
           <p className="text-[#7A9E98] text-sm mb-6 max-w-2xl">
             We collect from all major Johannesburg suburbs and repair at our Hyde Park workshop. Click your area for suburb-specific information and collection details.
           </p>
@@ -689,7 +689,7 @@ export default function LogicBoardRepairPage() {
       {/* ── PROCESS ── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             Our Repair Process
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
@@ -703,8 +703,8 @@ export default function LogicBoardRepairPage() {
               { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a written warranty. If the same fault returns, we fix it free.' },
             ].map(({ step, title, body }) => (
               <div key={step} className="glass-card p-6 relative overflow-hidden">
-                <span className="absolute top-4 right-4 text-[#0FEA7A] text-3xl font-extrabold opacity-20" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
-                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm" style={{ fontFamily: 'Syne, sans-serif' }}>{title}</h3>
+                <span className="absolute top-4 right-4 text-[#0FEA7A] text-3xl font-extrabold opacity-20">{step}</span>
+                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm">{title}</h3>
                 <p className="text-[#7A9E98] text-xs leading-relaxed">{body}</p>
               </div>
             ))}
@@ -723,7 +723,7 @@ export default function LogicBoardRepairPage() {
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Logic Board Fault? Book an Assessment.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Logic Board Fault? Book an Assessment.</h2>
             <p className="text-[#7A9E98] mb-2">3-month warranty on all repairs. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed. Written fixed-price quote before any work begins.

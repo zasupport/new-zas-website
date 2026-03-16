@@ -67,7 +67,7 @@ export default function iPhoneLiquidDamagePage() {
             { label: 'iPhone' },
           ]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iPhone Liquid Damage
               <br /><span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
@@ -103,7 +103,7 @@ export default function iPhoneLiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>What IP67/IP68 Actually Means</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">What IP67/IP68 Actually Means</h2>
               <p className="text-[#7A9E98] leading-relaxed mb-4">
                 Apple rates modern iPhones at IP67 (iPhone 8 through 11) and IP68 (iPhone 12 and later). These ratings
                 mean the device was tested to resist submersion in controlled laboratory conditions, typically 1–4 metres
@@ -123,7 +123,7 @@ export default function iPhoneLiquidDamagePage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Models We Repair</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Models We Repair</h2>
               <div className="glass-card p-6">
                 {[
                   'iPhone 8 / 8 Plus',
@@ -156,7 +156,7 @@ export default function iPhoneLiquidDamagePage() {
 
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Related Services</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { title: 'iPhone Repair Hub', href: '/iphone-repair' },
@@ -177,7 +177,7 @@ export default function iPhoneLiquidDamagePage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Got Wet? Act Now.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">iPhone Got Wet? Act Now.</h2>
             <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}

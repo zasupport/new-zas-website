@@ -34,7 +34,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-[#0FEA7A] rounded-lg flex items-center justify-center">
                 <Zap className="w-5 h-5 text-[#0A1A18]" />
               </div>
-              <span className="font-bold text-xl text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <span className="font-bold text-xl text-[#E8F4F1]">
                 ZA Support<span className="text-[#0FEA7A]">.</span>
               </span>
             </Link>

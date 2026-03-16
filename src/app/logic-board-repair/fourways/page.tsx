@@ -99,7 +99,7 @@ export default function LogicBoardRepairFourwaysPage() {
             { label: 'Fourways' },
           ]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Fourways, Johannesburg
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
@@ -141,7 +141,7 @@ export default function LogicBoardRepairFourwaysPage() {
       {/* Intro */}
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
             MacBook Logic Board Repair for Fourways Clients
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
@@ -164,13 +164,13 @@ export default function LogicBoardRepairFourwaysPage() {
       {/* Fault Types */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center">
             Logic Board Problems We Resolve
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {faults.map((fault) => (
               <div key={fault.title} className="glass-card p-5">
-                <h3 className="text-[#E8F4F1] font-bold mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>{fault.title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-2">{fault.title}</h3>
                 <p className="text-[#7A9E98] text-sm leading-relaxed">{fault.desc}</p>
               </div>
             ))}
@@ -181,7 +181,7 @@ export default function LogicBoardRepairFourwaysPage() {
       {/* Process */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">
             Our Process, Fourways Collection to Delivery
           </h2>
           <div className="space-y-6">
@@ -193,7 +193,7 @@ export default function LogicBoardRepairFourwaysPage() {
               { step: '05', title: 'Return to Fourways', desc: 'MacBook tested under load, returned to your Fourways address, and backed by a written 3-month warranty.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
-                <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
+                <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
                 <div>
                   <h3 className="text-[#E8F4F1] font-bold mb-1">{title}</h3>
                   <p className="text-[#7A9E98] text-sm leading-relaxed">{desc}</p>
@@ -207,7 +207,7 @@ export default function LogicBoardRepairFourwaysPage() {
       {/* Repair Services */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">Repair Services</h2>
           <div className="glass-card overflow-hidden p-0">
             {pricing.map((item, i) => (
               <div key={item.item} className={`p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
@@ -230,7 +230,7 @@ export default function LogicBoardRepairFourwaysPage() {
       {/* Other Suburbs */}
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>We Also Serve These Areas</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">We Also Serve These Areas</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {[
               { label: 'Sandton', href: '/logic-board-repair/sandton' },
@@ -250,7 +250,7 @@ export default function LogicBoardRepairFourwaysPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Fourways MacBook Fault? Free Diagnostic.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Fourways MacBook Fault? Free Diagnostic.</h2>
             <p className="text-[#7A9E98] mb-6">We collect from Fourways. Assessment: R899 ex VAT. 3-month warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

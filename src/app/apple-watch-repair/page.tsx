@@ -155,7 +155,7 @@ export default function AppleWatchRepairPage() {
             </p>
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Apple Watch Repair Johannesburg
               <br />
@@ -192,7 +192,7 @@ export default function AppleWatchRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Apple Watch Repair Services
           </h2>
@@ -204,7 +204,7 @@ export default function AppleWatchRepairPage() {
               <div key={service.title} className="glass-card p-6">
                 <h3
                   className="text-[#E8F4F1] font-bold text-xl mb-1"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {service.title}
                 </h3>
@@ -228,7 +228,7 @@ export default function AppleWatchRepairPage() {
             <div>
               <h3
                 className="text-[#F5A623] font-bold mb-2"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Apple Watch Ultra and Ultra 2, We Do Not Service These
               </h3>
@@ -249,7 +249,7 @@ export default function AppleWatchRepairPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Prices by Series
           </h2>
@@ -294,7 +294,7 @@ export default function AppleWatchRepairPage() {
           <div className="bg-[rgba(39,80,77,0.25)] border border-[rgba(15,234,122,0.15)] rounded-2xl p-8">
             <h2
               className="text-2xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Series 7 and Later, What You Should Know
             </h2>
@@ -321,7 +321,7 @@ export default function AppleWatchRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Why ZA Support for Apple Watch?
           </h2>
@@ -355,7 +355,7 @@ export default function AppleWatchRepairPage() {
               <div key={item.title} className="glass-card p-6">
                 <h3
                   className="text-[#0FEA7A] font-bold text-base mb-2"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {item.title}
                 </h3>
@@ -371,7 +371,7 @@ export default function AppleWatchRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-8"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Common Apple Watch Problems We Fix
           </h2>
@@ -411,7 +411,7 @@ export default function AppleWatchRepairPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Apple Watch Damaged? Bring It In.
             </h2>

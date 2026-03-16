@@ -184,7 +184,7 @@ export default function MacBookScreenPage() {
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
               <CheckCircle className="w-4 h-4" /> Same-Day Available · 3-Month Warranty · Hyde Park JHB
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Replacement<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
@@ -226,7 +226,7 @@ export default function MacBookScreenPage() {
               { stat: 'OEM Quality', label: 'Display Assemblies' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
-                <span className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{item.stat}</span>
+                <span className="text-2xl font-extrabold text-[#0FEA7A]">{item.stat}</span>
                 <span className="text-[#7A9E98] text-sm mt-1">{item.label}</span>
               </div>
             ))}
@@ -245,7 +245,7 @@ export default function MacBookScreenPage() {
                 ))}
               </div>
               <div>
-                <span className="text-3xl font-extrabold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>4.9</span>
+                <span className="text-3xl font-extrabold text-[#E8F4F1]">4.9</span>
                 <span className="text-[#7A9E98] ml-2 text-sm">/ 5 from 120 verified repairs</span>
               </div>
             </div>
@@ -260,7 +260,7 @@ export default function MacBookScreenPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               MacBook Screen Replacement, <span className="text-[#0FEA7A]">Supported Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
@@ -294,7 +294,7 @@ export default function MacBookScreenPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               MacBook Screen Issues <span className="text-[#0FEA7A]">We Fix</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
@@ -317,7 +317,7 @@ export default function MacBookScreenPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Our Repair <span className="text-[#0FEA7A]">Process</span>
             </h2>
             <p className="text-[#7A9E98]">Simple, transparent, no surprises.</p>
@@ -357,7 +357,7 @@ export default function MacBookScreenPage() {
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
                 <div className="flex flex-col items-center gap-2 flex-shrink-0">
-                  <div className="text-2xl font-extrabold text-[#0FEA7A] opacity-40" style={{ fontFamily: 'Syne, sans-serif' }}>{item.step}</div>
+                  <div className="text-2xl font-extrabold text-[#0FEA7A] opacity-40">{item.step}</div>
                   <div className="text-[#0FEA7A] opacity-60">{item.icon}</div>
                 </div>
                 <div>
@@ -374,7 +374,7 @@ export default function MacBookScreenPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Why Johannesburg Mac Owners <span className="text-[#0FEA7A]">Choose ZA Support</span>
             </h2>
           </div>
@@ -421,7 +421,7 @@ export default function MacBookScreenPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               What Clients Say About Our <span className="text-[#0FEA7A]">Screen Replacements</span>
             </h2>
           </div>
@@ -451,7 +451,7 @@ export default function MacBookScreenPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Apple Silicon vs Intel, <span className="text-[#0FEA7A]">What Changes?</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto text-sm">
@@ -516,7 +516,7 @@ export default function MacBookScreenPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Why ZA Support for MacBook Screen Replacement?
             </h2>
             <p className="text-[#7A9E98] text-sm">What sets our screen repair service apart.</p>
@@ -547,7 +547,7 @@ export default function MacBookScreenPage() {
       {/* SUBURBS SERVED */}
       <section className="py-8 sm:py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center">
             MacBook Screen Replacement Near You, <span className="text-[#0FEA7A]">Johannesburg</span>
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
@@ -570,7 +570,7 @@ export default function MacBookScreenPage() {
       {/* ── Related Services ── */}
       <section className="py-12 bg-[#071210]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
             Related Services
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -594,7 +594,7 @@ export default function MacBookScreenPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Cracked MacBook Screen in Johannesburg?
             </h2>
             <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: R899 ex VAT.</p>

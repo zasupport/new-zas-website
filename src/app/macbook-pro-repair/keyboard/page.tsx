@@ -197,7 +197,7 @@ export default function MacBookProKeyboardPage() {
             </div>
             <h1
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Pro Keyboard<br />
               <span className="text-[#0FEA7A]">Repair</span>
@@ -254,7 +254,7 @@ export default function MacBookProKeyboardPage() {
       {/* Symptoms */}
       <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             Keyboard Issues We Fix
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
@@ -277,7 +277,7 @@ export default function MacBookProKeyboardPage() {
       {/* Butterfly vs Scissor */}
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             MacBook Pro Keyboard <span className="text-[#0FEA7A]">Types Explained</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
@@ -302,7 +302,7 @@ export default function MacBookProKeyboardPage() {
       {/* Supported Models */}
       <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center">
             Supported <span className="text-[#0FEA7A]">Models</span>
           </h2>
           <div className="glass-card rounded-2xl overflow-hidden">
@@ -319,13 +319,13 @@ export default function MacBookProKeyboardPage() {
       {/* Process */}
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-12 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-12 text-center">
             How It <span className="text-[#0FEA7A]">Works</span>
           </h2>
           <div className="space-y-5">
             {process.map((item) => (
               <div key={item.step} className="flex gap-6 glass-card p-6 rounded-2xl">
-                <div className="text-3xl font-extrabold text-[#0FEA7A] opacity-40 flex-shrink-0 w-10" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <div className="text-3xl font-extrabold text-[#0FEA7A] opacity-40 flex-shrink-0 w-10">
                   {item.step}
                 </div>
                 <div>
@@ -341,7 +341,7 @@ export default function MacBookProKeyboardPage() {
       {/* Reviews */}
       <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             What Clients Say
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 text-sm">
@@ -383,7 +383,7 @@ export default function MacBookProKeyboardPage() {
       {/* Related Services */}
       <section className="py-12 bg-[#071210]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
             Related Services
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -408,7 +408,7 @@ export default function MacBookProKeyboardPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <Keyboard className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Keyboard Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-2">3-month warranty. Assessment: R899 ex VAT. Fixed quote before any work begins.</p>

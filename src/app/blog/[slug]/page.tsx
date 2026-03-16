@@ -1525,9 +1525,9 @@ function renderContent(content: string) {
   while (i < lines.length) {
     const line = lines[i];
     if (line.startsWith('## ')) {
-      elements.push(<h2 key={i} className="text-2xl font-bold text-[#E8F4F1] mt-10 mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>{line.slice(3)}</h2>);
+      elements.push(<h2 key={i} className="text-2xl font-bold text-[#E8F4F1] mt-10 mb-4">{line.slice(3)}</h2>);
     } else if (line.startsWith('### ')) {
-      elements.push(<h3 key={i} className="text-xl font-bold text-[#E8F4F1] mt-8 mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>{line.slice(4)}</h3>);
+      elements.push(<h3 key={i} className="text-xl font-bold text-[#E8F4F1] mt-8 mb-3">{line.slice(4)}</h3>);
     } else if (line.startsWith('**') && line.endsWith('**')) {
       elements.push(<p key={i} className="text-[#E8F4F1] font-semibold mt-4 mb-2">{line.slice(2, -2)}</p>);
     } else if (line.startsWith('- ') || line.startsWith('✓ ') || line.startsWith('✗ ')) {
@@ -2017,7 +2017,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <Clock className="w-3.5 h-3.5" /> {post.readTime}
             </span>
           </div>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#E8F4F1] leading-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#E8F4F1] leading-tight">
             {post.title}
           </h1>
           <p className="text-xl text-[#7A9E98] mt-4 max-w-2xl">{post.excerpt}</p>

@@ -59,7 +59,7 @@ export default function iMacWaterDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={[{ label: 'Liquid Damage Repair', href: '/liquid-damage' }, { label: 'iMac' }]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iMac Water Damage<br /><span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
@@ -82,7 +82,7 @@ export default function iMacWaterDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>iMac Liquid Damage: What We See</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">iMac Liquid Damage: What We See</h2>
               <p className="text-[#7A9E98] leading-relaxed mb-4">
                 iMac liquid damage is most often caused by drinks spilled near the base of the display, where the ventilation
                 slots draw air, and liquid, into the chassis. Office water leaks and cleaning accidents account for a significant
@@ -108,7 +108,7 @@ export default function iMacWaterDamagePage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Assessment &amp; Warranty</h2>
               <div className="flex items-center gap-3 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
                 <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. 3-month warranty. Collection available in Hyde Park area.</p>
@@ -127,7 +127,7 @@ export default function iMacWaterDamagePage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iMac Water Damage Repair</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">iMac Water Damage Repair</h2>
             <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}

@@ -255,7 +255,7 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="mt-8 max-w-4xl">
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Air Liquid Damage
               <br />
@@ -318,7 +318,7 @@ export default function MacBookAirLiquidDamagePage() {
                 { value: 'Covered', label: 'Written Warranty, No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
-                  <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
+                  <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
                   <p className="text-[#7A9E98] text-xs mt-0.5">{label}</p>
                 </div>
               ))}
@@ -338,7 +338,7 @@ export default function MacBookAirLiquidDamagePage() {
               { stat: 'Assessment: R899 ex VAT', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
-                <p className="text-[#0FEA7A] text-lg font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{stat}</p>
+                <p className="text-[#0FEA7A] text-lg font-extrabold">{stat}</p>
                 <p className="text-[#7A9E98] text-xs mt-0.5">{label}</p>
               </div>
             ))}
@@ -352,7 +352,7 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="glass-card p-8 border-[rgba(245,166,35,0.2)]">
             <h2
               className="text-2xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Why the MacBook Air Is More Vulnerable to Liquid Damage
             </h2>
@@ -400,7 +400,7 @@ export default function MacBookAirLiquidDamagePage() {
           </div>
           <h2
             className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             What to Do in the First 30 Minutes
           </h2>
@@ -424,7 +424,7 @@ export default function MacBookAirLiquidDamagePage() {
                       ? 'bg-[rgba(245,87,54,0.15)] text-[#F55736]'
                       : 'bg-[rgba(15,234,122,0.12)] text-[#0FEA7A]'
                   }`}
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {item.step}
                 </div>
@@ -444,7 +444,7 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="glass-card p-8 border-[rgba(245,166,35,0.2)]">
             <h2
               className="text-2xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Why the &ldquo;Rice Trick&rdquo; Does Not Work, The Science
             </h2>
@@ -492,7 +492,7 @@ export default function MacBookAirLiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Common Liquid Damage Scenarios &amp; Repair Costs
           </h2>
@@ -508,7 +508,7 @@ export default function MacBookAirLiquidDamagePage() {
                 className={`rounded-2xl border p-7 ${recoveryColours[tier.colour]}`}
               >
                 <div className="flex items-start justify-between gap-3 mb-3">
-                  <h3 className="text-[#E8F4F1] font-bold text-xl" style={{ fontFamily: 'Syne, sans-serif' }}>
+                  <h3 className="text-[#E8F4F1] font-bold text-xl">
                     {tier.scenario}
                   </h3>
                   <span className={`flex-shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full ${badgeColours[tier.colour]}`}>
@@ -545,7 +545,7 @@ export default function MacBookAirLiquidDamagePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Our Liquid Damage Repair Process
           </h2>
@@ -556,7 +556,7 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="space-y-5">
             {repairProcess.map((item) => (
               <div key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-10 h-10 bg-[rgba(15,234,122,0.12)] rounded-full flex items-center justify-center text-[#0FEA7A] font-extrabold text-sm" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <div className="flex-shrink-0 w-10 h-10 bg-[rgba(15,234,122,0.12)] rounded-full flex items-center justify-center text-[#0FEA7A] font-extrabold text-sm">
                   {item.step}
                 </div>
                 <div className="pb-5 border-b border-[rgba(255,255,255,0.04)] flex-1">
@@ -576,7 +576,7 @@ export default function MacBookAirLiquidDamagePage() {
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-6"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 MacBook Air Models We Repair
               </h2>
@@ -607,7 +607,7 @@ export default function MacBookAirLiquidDamagePage() {
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-6"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Common Failure Points After a Spill
               </h2>
@@ -654,7 +654,7 @@ export default function MacBookAirLiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-10"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             What Clients Say
           </h2>
@@ -692,7 +692,7 @@ export default function MacBookAirLiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-2xl font-extrabold text-[#E8F4F1] mb-6"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Related Services
           </h2>
@@ -717,7 +717,7 @@ export default function MacBookAirLiquidDamagePage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Air Water Damage? Act Now.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">

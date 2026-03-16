@@ -103,7 +103,7 @@ export default function AppleSupportPage() {
               <span className="text-[#0FEA7A]">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
               <span className="text-[#E8F4F1] text-sm">{SITE.rating} &middot; {SITE.reviewCount} Google Reviews</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Apple Support Johannesburg
               <br /><span className="text-[#0FEA7A]">Setup, Fix, Migrate. Same Day.</span>
             </h1>
@@ -118,7 +118,7 @@ export default function AppleSupportPage() {
                 { value: SITE.yearsExperience + ' Years', label: 'Apple Experience' },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <span className="block text-3xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{stat.value}</span>
+                  <span className="block text-3xl font-extrabold text-[#0FEA7A]">{stat.value}</span>
                   <span className="text-[#7A9E98] text-sm">{stat.label}</span>
                 </div>
               ))}
@@ -155,12 +155,12 @@ export default function AppleSupportPage() {
 
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>What We Help With</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">What We Help With</h2>
           <p className="text-[#7A9E98] text-center mb-10">Setup, troubleshooting, data, business IT &mdash; all under one roof.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {supportServices.map((service) => (
               <Link key={service.title} href={service.href} className="glass-card p-6 group block">
-                <h3 className="text-[#E8F4F1] font-bold mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>{service.title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-2">{service.title}</h3>
                 <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">{service.desc}</p>
                 <div className="flex items-center justify-end">
                   <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
@@ -176,7 +176,7 @@ export default function AppleSupportPage() {
           <div className="flex items-center justify-center gap-1 mb-4">
             {[1,2,3,4,5].map(i => <Star key={i} className="w-5 h-5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
           </div>
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center">
             {SITE.rating} on Google &mdash; {SITE.reviewCount} Reviews
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -205,7 +205,7 @@ export default function AppleSupportPage() {
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Need Apple Support? Call Us.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Need Apple Support? Call Us.</h2>
             <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}

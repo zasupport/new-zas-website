@@ -5,10 +5,10 @@ export default function NotFound() {
   return (
     <section className="min-h-screen hero-gradient grid-overlay flex items-center">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
-        <div className="text-8xl font-extrabold text-[#0FEA7A] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+        <div className="text-8xl font-extrabold text-[#0FEA7A] mb-4">
           404
         </div>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
           Page Not Found
         </h1>
         <p className="text-xl text-[#7A9E98] mb-12 max-w-xl mx-auto">

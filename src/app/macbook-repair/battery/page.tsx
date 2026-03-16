@@ -248,7 +248,7 @@ export default function MacBookBatteryPage() {
             </div>
             <h1
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Battery Replacement<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
@@ -289,7 +289,7 @@ export default function MacBookBatteryPage() {
             ].map((stat) => (
               <div key={stat.sub} className="flex flex-col items-center py-6 px-4 gap-1">
                 <span className="text-[#0FEA7A]">{stat.icon}</span>
-                <span className="text-[#E8F4F1] font-bold text-lg" style={{ fontFamily: 'Syne, sans-serif' }}>{stat.label}</span>
+                <span className="text-[#E8F4F1] font-bold text-lg">{stat.label}</span>
                 <span className="text-[#7A9E98] text-xs text-center">{stat.sub}</span>
               </div>
             ))}
@@ -300,7 +300,7 @@ export default function MacBookBatteryPage() {
       {/* ── Signs You Need a Battery ─────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             Signs Your MacBook Needs a New Battery
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
@@ -335,7 +335,7 @@ export default function MacBookBatteryPage() {
       {/* ── Models We Service ────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             MacBook Models We Service, Johannesburg
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
@@ -345,7 +345,7 @@ export default function MacBookBatteryPage() {
             {/* MacBook Air */}
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
               <div className="bg-[rgba(15,234,122,0.08)] border-b border-[rgba(15,234,122,0.15)] px-6 py-4">
-                <h3 className="text-[#0FEA7A] font-bold" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air</h3>
+                <h3 className="text-[#0FEA7A] font-bold">MacBook Air</h3>
               </div>
               <div className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {airPricing.map((row) => (
@@ -358,7 +358,7 @@ export default function MacBookBatteryPage() {
             {/* MacBook Pro */}
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
               <div className="bg-[rgba(15,234,122,0.08)] border-b border-[rgba(15,234,122,0.15)] px-6 py-4">
-                <h3 className="text-[#0FEA7A] font-bold" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Pro</h3>
+                <h3 className="text-[#0FEA7A] font-bold">MacBook Pro</h3>
               </div>
               <div className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {proPricing.map((row) => (
@@ -378,7 +378,7 @@ export default function MacBookBatteryPage() {
       {/* ── Battery Health Explainer ──────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             Understanding MacBook Battery Health
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
@@ -388,7 +388,7 @@ export default function MacBookBatteryPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
             {/* Cycle Count */}
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
-              <h3 className="text-[#E8F4F1] font-bold text-lg mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <h3 className="text-[#E8F4F1] font-bold text-lg mb-4">
                 What Is a Battery Cycle Count?
               </h3>
               <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">
@@ -410,7 +410,7 @@ export default function MacBookBatteryPage() {
 
             {/* Health Scale */}
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
-              <h3 className="text-[#E8F4F1] font-bold text-lg mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <h3 className="text-[#E8F4F1] font-bold text-lg mb-4">
                 Battery Health Scale
               </h3>
               <p className="text-[#7A9E98] text-sm mb-6 leading-relaxed">
@@ -447,7 +447,7 @@ export default function MacBookBatteryPage() {
       {/* ── Repair Process ───────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-12 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-12 text-center">
             How MacBook Battery Replacement <span className="text-[#0FEA7A]">Works</span>
           </h2>
           <div className="space-y-5">
@@ -481,7 +481,7 @@ export default function MacBookBatteryPage() {
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
                 <div
                   className="text-3xl font-extrabold text-[#0FEA7A] opacity-40 flex-shrink-0 w-10"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {item.step}
                 </div>
@@ -498,7 +498,7 @@ export default function MacBookBatteryPage() {
       {/* ── Reviews ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             What Clients Say
           </h2>
           <p className="text-[#7A9E98] text-center mb-12">
@@ -543,7 +543,7 @@ export default function MacBookBatteryPage() {
       {/* ── Related Services ── */}
       <section className="py-12 bg-[#071210]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
             Related Services
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -568,7 +568,7 @@ export default function MacBookBatteryPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <Battery className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Battery Dying?
             </h2>
             <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. 3-month warranty. Assessment: R899 ex VAT.</p>

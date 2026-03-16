@@ -193,7 +193,7 @@ export default function MedicalPracticesPage() {
               <Heart className="w-4 h-4 text-[#0FEA7A]" />
               <span className="text-[#0FEA7A] text-sm font-semibold">HPCSA-Aware · POPIA-Compliant · Hyde Park, Johannesburg</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               Apple Mac Support for<br /><span className="text-[#0FEA7A]">Medical Practices Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
@@ -247,7 +247,7 @@ export default function MedicalPracticesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
                 Why Medical Practices Need a Specialist
               </h2>
               <div className="space-y-5">
@@ -309,7 +309,7 @@ export default function MedicalPracticesPage() {
       {/* Services */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             Services for Medical Practices
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
@@ -330,7 +330,7 @@ export default function MedicalPracticesPage() {
       {/* Managed IT Plans */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             Managed IT Plans for Medical Practices
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
@@ -344,7 +344,7 @@ export default function MedicalPracticesPage() {
                     Most Popular
                   </div>
                 )}
-                <h3 className="text-[#E8F4F1] font-extrabold text-lg mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{plan.name}</h3>
+                <h3 className="text-[#E8F4F1] font-extrabold text-lg mb-1">{plan.name}</h3>
                 <p className="text-[#7A9E98] text-sm mb-3">{plan.desc}</p>
                 <p className="text-[#7A9E98] text-xs mb-5">All-inclusive · Parts cost additional</p>
                 <ul className="space-y-2 mb-6">
@@ -378,7 +378,7 @@ export default function MedicalPracticesPage() {
           <div className="glass-card p-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4">
                   POPIA Compliance for Medical Practices, What It Actually Requires
                 </h2>
                 <div className="space-y-3">
@@ -424,7 +424,7 @@ export default function MedicalPracticesPage() {
       {/* Practice software */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             Practice Management Software Support on Mac
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
@@ -446,7 +446,7 @@ export default function MedicalPracticesPage() {
       {/* Reviews */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">
             Medical Practice Reviews
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -476,7 +476,7 @@ export default function MedicalPracticesPage() {
       {/* ── Related Services ── */}
       <section className="py-12 bg-[#071210]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
             Related Services
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -498,7 +498,7 @@ export default function MedicalPracticesPage() {
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               IT Support for Your Medical Practice
             </h2>
             <p className="text-[#7A9E98] mb-2">Free consultation. Month-to-month. No lock-in contracts.</p>

@@ -39,7 +39,7 @@ export default function Navbar() {
             <div className="w-8 h-8 bg-[#0FEA7A] rounded-lg flex items-center justify-center group-hover:shadow-[0_0_16px_rgba(15,234,122,0.5)] transition-all">
               <Zap className="w-5 h-5 text-[#0A1A18]" />
             </div>
-            <span className="font-bold text-xl text-[#E8F4F1] tracking-tight" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <span className="font-bold text-xl text-[#E8F4F1] tracking-tight">
               ZA Support
               <span className="text-[#0FEA7A]">.</span>
             </span>

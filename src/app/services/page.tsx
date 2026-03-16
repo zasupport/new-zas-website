@@ -254,7 +254,7 @@ export default function ServicesPage() {
             </p>
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] mb-6 leading-tight"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               IT Services{' '}
               <span className="text-[#0FEA7A]">Johannesburg</span>
@@ -308,7 +308,7 @@ export default function ServicesPage() {
           <div className="mb-12">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               All Services
             </h2>
@@ -339,7 +339,7 @@ export default function ServicesPage() {
                   </div>
                   <h3
                     className="text-[#E8F4F1] font-bold text-lg mb-2"
-                    style={{ fontFamily: 'Syne, sans-serif' }}
+                   
                   >
                     {service.title}
                   </h3>
@@ -363,7 +363,7 @@ export default function ServicesPage() {
             <div>
               <h2
                 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Mac Support in Johannesburg, Done Properly
               </h2>
@@ -402,7 +402,7 @@ export default function ServicesPage() {
                 ['3-Month Warranty', 'On all parts and labour, no exceptions'],
               ].map(([title, desc]) => (
                 <div key={title} className="glass-card p-5">
-                  <p className="text-[#E8F4F1] font-bold text-sm mb-1.5" style={{ fontFamily: 'Syne, sans-serif' }}>
+                  <p className="text-[#E8F4F1] font-bold text-sm mb-1.5">
                     {title}
                   </p>
                   <p className="text-[#7A9E98] text-xs leading-relaxed">{desc}</p>
@@ -418,7 +418,7 @@ export default function ServicesPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-10"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Frequently Asked Questions
           </h2>
@@ -460,7 +460,7 @@ export default function ServicesPage() {
               <div key={q} className="glass-card p-6">
                 <h3
                   className="text-[#E8F4F1] font-bold mb-3"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {q}
                 </h3>
@@ -477,7 +477,7 @@ export default function ServicesPage() {
           <div className="bg-[rgba(39,80,77,0.35)] border border-[rgba(15,234,122,0.25)] rounded-3xl p-10">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Get Started, Managed Services Assessment
             </h2>

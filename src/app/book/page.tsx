@@ -107,7 +107,7 @@ export default function BookPage() {
           </div>
           <h1
             className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Book a Mac Repair
             <br />
@@ -149,7 +149,7 @@ export default function BookPage() {
               </div>
               <h2
                 className="text-2xl font-extrabold text-[#E8F4F1] mb-3"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Booking Request Received
               </h2>
@@ -183,7 +183,7 @@ export default function BookPage() {
                 <div>
                   <h2
                     className="text-xl font-bold text-[#E8F4F1]"
-                    style={{ fontFamily: 'Syne, sans-serif' }}
+                   
                   >
                     Book Your Assessment
                   </h2>

@@ -74,7 +74,7 @@ export default function iPhoneRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={[{ label: 'iPhone Repair' }]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iPhone Repair Johannesburg
               <br /><span className="text-[#0FEA7A]">All Models. All Damage.</span>
             </h1>
@@ -96,11 +96,11 @@ export default function iPhoneRepairPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Repair Services</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center">iPhone Repair Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {repairTypes.map((repair) => (
               <Link key={repair.href} href={repair.href} className="glass-card p-6 group block">
-                <h3 className="text-[#E8F4F1] font-bold text-lg mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{repair.title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold text-lg mb-1">{repair.title}</h3>
                 <p className="text-[#7A9E98] text-sm mb-3">{repair.desc}</p>
                 <div className="flex items-center justify-between">
                   <span className="text-[#0FEA7A] font-bold">{repair.price}</span>
@@ -114,7 +114,7 @@ export default function iPhoneRepairPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Models We Repair</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">iPhone Models We Repair</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             {models.map((model) => (
               <div key={model} className="glass-card p-3 text-center">
@@ -135,7 +135,7 @@ export default function iPhoneRepairPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Damaged? We Can Fix It.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">iPhone Damaged? We Can Fix It.</h2>
             <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}

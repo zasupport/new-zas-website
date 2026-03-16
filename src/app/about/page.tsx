@@ -219,7 +219,7 @@ export default function AboutPage() {
             <p className="text-[#0FEA7A] text-sm font-semibold uppercase tracking-widest mb-3">
               Apple Repair Specialist · Hyde Park, Johannesburg
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               About ZA Support
               <br /><span className="text-[#0FEA7A]">Practice IT. Perfected.</span>
             </h1>
@@ -243,7 +243,7 @@ export default function AboutPage() {
               { value: SITE.reviewCount, label: 'Verified Reviews' },
             ].map((stat) => (
               <div key={stat.label} className="glass-card p-6 text-center">
-                <span className="block text-4xl font-extrabold text-[#0FEA7A] mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{stat.value}</span>
+                <span className="block text-4xl font-extrabold text-[#0FEA7A] mb-1">{stat.value}</span>
                 <span className="text-[#7A9E98] text-sm">{stat.label}</span>
               </div>
             ))}
@@ -254,7 +254,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div>
                 <p className="text-[#0FEA7A] text-xs font-semibold uppercase tracking-widest mb-2">Founded by</p>
-                <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
                   Courtney Bentley
                 </h2>
                 <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Technician · 16 Years Experience</p>
@@ -295,7 +295,7 @@ export default function AboutPage() {
           {/* Story + Differentiators */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Our Story</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Our Story</h2>
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
                   Founded in 2009 in Hyde Park, we chose board-level microsoldering when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a 3-month warranty on every repair.
@@ -306,7 +306,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>What Makes Us Different</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">What Makes Us Different</h2>
               <div className="space-y-4">
                 {[
                   { icon: Cpu, title: 'Microscope-Level Microsoldering', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
@@ -332,7 +332,7 @@ export default function AboutPage() {
           <div className="glass-card p-8 mb-10">
             <div className="flex items-center gap-3 mb-6">
               <MapPin className="w-6 h-6 text-[#0FEA7A]" />
-              <h2 className="text-2xl font-bold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>Service Area, Greater Johannesburg</h2>
+              <h2 className="text-2xl font-bold text-[#E8F4F1]">Service Area, Greater Johannesburg</h2>
             </div>
             <p className="text-[#7A9E98] mb-5 leading-relaxed">
               Based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196, we collect and deliver across Sandton,
@@ -353,7 +353,7 @@ export default function AboutPage() {
             <div className="glass-card p-8">
               <div className="flex items-center gap-3 mb-6">
                 <Clock className="w-6 h-6 text-[#0FEA7A]" />
-                <h2 className="text-xl font-bold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>Trading Hours</h2>
+                <h2 className="text-xl font-bold text-[#E8F4F1]">Trading Hours</h2>
               </div>
               <div className="space-y-2 text-[#7A9E98]">
                 <p>{CONTACT.hours.weekdays}</p>
@@ -362,7 +362,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="glass-card p-8">
-              <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Company Information</h2>
+              <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">Company Information</h2>
               <div className="space-y-3">
                 {[
                   { label: 'Trading Name', value: 'ZA Support' },
@@ -386,7 +386,7 @@ export default function AboutPage() {
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Work With Us</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Work With Us</h2>
             <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg, serving Sandton, Rosebank &amp; Gauteng.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">

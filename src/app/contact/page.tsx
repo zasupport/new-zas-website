@@ -106,7 +106,7 @@ export default function ContactPage() {
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4">
               Contact <span className="text-[#0FEA7A]">ZA Support</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-2xl">
@@ -140,7 +140,7 @@ export default function ContactPage() {
             {/* Contact Form */}
             <div className="lg:col-span-2">
               <div className="glass-card p-8">
-                <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Send an Enquiry</h2>
+                <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">Send an Enquiry</h2>
                 {status === 'sent' ? (
                   <div className="p-6 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.3)] rounded-xl text-center">
                     <p className="text-[#0FEA7A] text-xl font-bold mb-2">Message Sent!</p>
@@ -244,7 +244,7 @@ export default function ContactPage() {
             {/* Contact Info */}
             <div className="space-y-6">
               <div className="glass-card p-6">
-                <h3 className="text-[#E8F4F1] font-bold mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Call or WhatsApp</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-4">Call or WhatsApp</h3>
                 <a href={`tel:${CONTACT.phoneTel}`} className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors mb-3">
                   <Phone className="w-5 h-5 text-[#0FEA7A]" />
                   <span className="text-lg font-semibold">{CONTACT.phone}</span>
@@ -265,7 +265,7 @@ export default function ContactPage() {
               </div>
 
               <div className="glass-card p-6">
-                <h3 className="text-[#E8F4F1] font-bold mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Location</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-4">Location</h3>
                 <div className="flex items-start gap-3 text-[#7A9E98] mb-4">
                   <MapPin className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
                   <div>
@@ -283,7 +283,7 @@ export default function ContactPage() {
               </div>
 
               <div className="glass-card p-6">
-                <h3 className="text-[#E8F4F1] font-bold mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Business Hours</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-4">Business Hours</h3>
                 <div className="flex items-start gap-3 text-[#7A9E98]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
                   <div className="space-y-1 text-sm">
@@ -306,7 +306,7 @@ export default function ContactPage() {
       {/* Google Maps embed */}
       <section className="bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center">
             Find Us in <span className="text-[#0FEA7A]">Hyde Park</span>
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-8 max-w-xl mx-auto">
@@ -341,7 +341,7 @@ export default function ContactPage() {
       {/* Nearby areas */}
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4">
             Serving All of <span className="text-[#0FEA7A]">Johannesburg</span>
           </h2>
           <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl mx-auto">

@@ -310,7 +310,7 @@ export default function AppleRepairPage() {
               <span className="text-[#0FEA7A]">★★★★★</span>
               <span className="text-[#E8F4F1] text-sm">{SITE.rating} · {SITE.reviewCount} Google Reviews</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Apple Mac Repair, Johannesburg
               <br /><span className="text-[#0FEA7A]">Every Device. Every Problem.</span>
             </h1>
@@ -324,7 +324,7 @@ export default function AppleRepairPage() {
                 { value: SITE.yearsExperience + ' Years', label: 'Apple Experience' },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <span className="block text-3xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{stat.value}</span>
+                  <span className="block text-3xl font-extrabold text-[#0FEA7A]">{stat.value}</span>
                   <span className="text-[#7A9E98] text-sm">{stat.label}</span>
                 </div>
               ))}
@@ -356,7 +356,7 @@ export default function AppleRepairPage() {
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
                 <div key={label}>
-                  <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
+                  <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
                   <p className="text-[#7A9E98] text-xs mt-0.5">{label}</p>
                 </div>
               ))}
@@ -410,7 +410,7 @@ export default function AppleRepairPage() {
       {/* ── SERVICE CARDS ── */}
       <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             Apple Mac Repair Services, Johannesburg
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
@@ -426,7 +426,7 @@ export default function AppleRepairPage() {
                   </span>
                 )}
                 <service.icon className={`w-6 h-6 ${service.accent} mb-3`} />
-                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm group-hover:text-[#0FEA7A] transition-colors" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm group-hover:text-[#0FEA7A] transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs mb-4 leading-relaxed">{service.description}</p>
@@ -449,7 +449,7 @@ export default function AppleRepairPage() {
               </div>
             </div>
             <div className="flex-1 text-center md:text-left">
-              <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-2">
                 Transparent Pricing, Assessment: R899 ex VAT
               </h2>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
@@ -475,13 +475,13 @@ export default function AppleRepairPage() {
       {/* ── ALL SERVICES GRID ── */}
       <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center">
             All Repair &amp; Support Services
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {allServices.map((service) => (
               <Link key={service.href + service.title} href={service.href} className="glass-card p-5 group block">
-                <h3 className="text-[#E8F4F1] font-bold mb-1 text-sm group-hover:text-[#0FEA7A] transition-colors" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h3 className="text-[#E8F4F1] font-bold mb-1 text-sm group-hover:text-[#0FEA7A] transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs mb-3">{service.sub}</p>
@@ -497,7 +497,7 @@ export default function AppleRepairPage() {
       {/* ── WHY ZA SUPPORT ── */}
       <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             Why Choose ZA Support?
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
@@ -538,7 +538,7 @@ export default function AppleRepairPage() {
             ].map(({ icon: Icon, title, body }) => (
               <div key={title} className="glass-card p-6">
                 <Icon className="w-6 h-6 text-[#0FEA7A] mb-3" />
-                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm" style={{ fontFamily: 'Syne, sans-serif' }}>{title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm">{title}</h3>
                 <p className="text-[#7A9E98] text-xs leading-relaxed">{body}</p>
               </div>
             ))}
@@ -549,7 +549,7 @@ export default function AppleRepairPage() {
       {/* ── PROCESS ── */}
       <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             How It Works
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
@@ -558,8 +558,8 @@ export default function AppleRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {processSteps.map(({ step, title, body }) => (
               <div key={step} className="glass-card p-6 relative overflow-hidden">
-                <span className="absolute top-4 right-4 text-[#0FEA7A] text-3xl font-extrabold opacity-20" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
-                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm" style={{ fontFamily: 'Syne, sans-serif' }}>{title}</h3>
+                <span className="absolute top-4 right-4 text-[#0FEA7A] text-3xl font-extrabold opacity-20">{step}</span>
+                <h3 className="text-[#E8F4F1] font-bold mb-2 text-sm">{title}</h3>
                 <p className="text-[#7A9E98] text-xs leading-relaxed">{body}</p>
               </div>
             ))}
@@ -595,7 +595,7 @@ export default function AppleRepairPage() {
               <Star key={i} className="w-5 h-5 fill-[#0FEA7A] text-[#0FEA7A]" />
             ))}
           </div>
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
             {SITE.rating} on Google, {SITE.reviewCount} Reviews
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10">Real clients. Real repairs. Verified on Google.</p>
@@ -637,7 +637,7 @@ export default function AppleRepairPage() {
       <section className="py-12 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Apple Device Damaged? Book an Assessment.
             </h2>
             <p className="text-[#7A9E98] mb-2">3-month warranty on all repairs. Hyde Park, Johannesburg.</p>

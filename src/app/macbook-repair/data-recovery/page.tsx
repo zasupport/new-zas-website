@@ -179,7 +179,7 @@ export default function MacBookDataRecoveryPage() {
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
               <CheckCircle className="w-4 h-4" /> 95% Success Rate · No Data, No Fee · Hyde Park JHB
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Data Recovery<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
 
@@ -222,7 +222,7 @@ export default function MacBookDataRecoveryPage() {
               { stat: 'Free', label: 'Assessment, No Charge' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
-                <span className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{item.stat}</span>
+                <span className="text-2xl font-extrabold text-[#0FEA7A]">{item.stat}</span>
                 <span className="text-[#7A9E98] text-sm mt-1">{item.label}</span>
               </div>
             ))}
@@ -241,7 +241,7 @@ export default function MacBookDataRecoveryPage() {
                 ))}
               </div>
               <div>
-                <span className="text-3xl font-extrabold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>4.9</span>
+                <span className="text-3xl font-extrabold text-[#E8F4F1]">4.9</span>
                 <span className="text-[#7A9E98] ml-2 text-sm">/ 5 from 98 verified recoveries</span>
               </div>
             </div>
@@ -256,7 +256,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Data Recovery <span className="text-[#0FEA7A]">Types</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
@@ -290,7 +290,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               What Data We <span className="text-[#0FEA7A]">Recover</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
@@ -313,7 +313,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Data Loss Situations <span className="text-[#0FEA7A]">We Handle</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
@@ -336,7 +336,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Our Recovery <span className="text-[#0FEA7A]">Process</span>
             </h2>
             <p className="text-[#7A9E98]">Transparent at every step. No work begins without your written approval.</p>
@@ -376,7 +376,7 @@ export default function MacBookDataRecoveryPage() {
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
                 <div className="flex flex-col items-center gap-2 flex-shrink-0">
-                  <div className="text-2xl font-extrabold text-[#0FEA7A] opacity-40" style={{ fontFamily: 'Syne, sans-serif' }}>{item.step}</div>
+                  <div className="text-2xl font-extrabold text-[#0FEA7A] opacity-40">{item.step}</div>
                   <div className="text-[#0FEA7A] opacity-60">{item.icon}</div>
                 </div>
                 <div>
@@ -393,7 +393,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Why Johannesburg Mac Owners <span className="text-[#0FEA7A]">Trust ZA Support</span>
             </h2>
           </div>
@@ -440,7 +440,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               What Clients Say About <span className="text-[#0FEA7A]">Data Recovery</span>
             </h2>
           </div>
@@ -476,7 +476,7 @@ export default function MacBookDataRecoveryPage() {
       {/* SUBURBS */}
       <section className="py-8 sm:py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center">
             MacBook Data Recovery Near You, <span className="text-[#0FEA7A]">Johannesburg</span>
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
@@ -499,7 +499,7 @@ export default function MacBookDataRecoveryPage() {
       {/* RELATED SERVICES */}
       <section className="py-12 bg-[#071210]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
             Related Services
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -523,7 +523,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Lost Data on Your MacBook?
             </h2>
             <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered, no charge.</p>

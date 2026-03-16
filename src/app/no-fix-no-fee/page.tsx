@@ -637,7 +637,7 @@ export default function AssessmentProcessPage() {
         {/* Related Services */}
         <section className="py-12 bg-[#071210]">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
               Related Services
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">

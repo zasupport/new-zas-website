@@ -189,7 +189,7 @@ export default function HomePage() {
 
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-[1.05] mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Johannesburg&apos;s
               <br />
@@ -210,7 +210,7 @@ export default function HomePage() {
                 <div key={stat.label}>
                   <span
                     className="block text-3xl sm:text-4xl font-extrabold text-[#0FEA7A]"
-                    style={{ fontFamily: 'Syne, sans-serif' }}
+                   
                   >
                     {stat.value}
                   </span>
@@ -271,7 +271,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <h2
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Every Apple Device.
               <span className="text-[#0FEA7A]"> Every Fault.</span>
@@ -292,7 +292,7 @@ export default function HomePage() {
                     </div>
                     <h3
                       className="text-[#E8F4F1] text-xl font-bold mb-2"
-                      style={{ fontFamily: 'Syne, sans-serif' }}
+                     
                     >
                       {service.title}
                     </h3>
@@ -328,7 +328,7 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <h2
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Why ZA Support
             </h2>
@@ -348,7 +348,7 @@ export default function HomePage() {
                   <div>
                     <h3
                       className="text-[#E8F4F1] font-bold text-lg mb-2"
-                      style={{ fontFamily: 'Syne, sans-serif' }}
+                     
                     >
                       {item.title}
                     </h3>
@@ -372,7 +372,7 @@ export default function HomePage() {
             </div>
             <h2
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               {SITE.rating} on Google
             </h2>
@@ -413,7 +413,7 @@ export default function HomePage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-12">
             <h2
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Book Your Assessment
             </h2>

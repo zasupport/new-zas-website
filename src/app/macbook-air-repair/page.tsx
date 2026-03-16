@@ -241,7 +241,7 @@ export default function MacBookAirRepairPage() {
               <span className="w-1.5 h-1.5 rounded-full bg-[#0FEA7A] animate-pulse" />
               <Star className="w-3 h-3" /> {REVIEWS.rating} stars &middot; {REVIEWS.count} reviews &middot; {SITE.repairsCount} repairs
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Air Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
@@ -275,7 +275,7 @@ export default function MacBookAirRepairPage() {
       {/* Battery lifespan guide */}
       <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             MacBook Air Battery <span className="text-[#0FEA7A]">Lifespan Guide</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 text-sm max-w-2xl mx-auto">
@@ -309,7 +309,7 @@ export default function MacBookAirRepairPage() {
       {/* Known issues */}
       <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             Known MacBook Air <span className="text-[#0FEA7A]">Issues</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
@@ -338,7 +338,7 @@ export default function MacBookAirRepairPage() {
       {/* Services grid */}
       <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air Repairs We Do</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">MacBook Air Repairs We Do</h2>
           <p className="text-[#7A9E98] text-center mb-12 text-sm">All common MacBook Air faults, same-day diagnosis, fixed pricing, 3-month warranty.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => {
@@ -366,7 +366,7 @@ export default function MacBookAirRepairPage() {
       {/* Models supported */}
       <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>All MacBook Air Models Supported</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center">All MacBook Air Models Supported</h2>
           <div className="glass-card p-6">
             {models.map(({ name, note }, i) => (
               <div key={name} className={`flex justify-between items-center py-3 ${i < models.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
@@ -389,7 +389,7 @@ export default function MacBookAirRepairPage() {
             ].map((item) => (
               <div key={item.title} className="glass-card p-8">
                 <item.icon className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
-                <div className="text-2xl font-extrabold text-[#E8F4F1] mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{item.title}</div>
+                <div className="text-2xl font-extrabold text-[#E8F4F1] mb-1">{item.title}</div>
                 <div className="text-[#7A9E98] text-sm">{item.sub}</div>
               </div>
             ))}
@@ -408,7 +408,7 @@ export default function MacBookAirRepairPage() {
       <section className="py-12 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air Needs a Repair?</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air Needs a Repair?</h2>
             <p className="text-[#7A9E98] mb-6">
               Assessment: R899 ex VAT. Hyde Park, Johannesburg. WhatsApp for the fastest response, typically within 30 minutes during business hours.
             </p>

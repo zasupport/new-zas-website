@@ -227,7 +227,7 @@ export default function MacBookRepairPage() {
               <Star className="w-4 h-4 text-[#0FEA7A]" />
               <span className="text-[#0FEA7A] text-sm font-medium">{REVIEWS.rating} · {REVIEWS.count} reviews · Hyde Park, Johannesburg</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
@@ -259,7 +259,7 @@ export default function MacBookRepairPage() {
       {/* Services grid */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             MacBook Repair <span className="text-[#0FEA7A]">Services</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
@@ -287,7 +287,7 @@ export default function MacBookRepairPage() {
       {/* Repair Services Table */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             MacBook <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
@@ -340,7 +340,7 @@ export default function MacBookRepairPage() {
       {/* Models */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             Models <span className="text-[#0FEA7A]">We Repair</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12">All MacBook Air and MacBook Pro models from 2015 to the latest M3.</p>
@@ -358,7 +358,7 @@ export default function MacBookRepairPage() {
       {/* Model-specific hubs */}
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>Repair by MacBook Model</h2>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4 text-center">Repair by MacBook Model</h2>
           <p className="text-[#7A9E98] text-center text-sm mb-8">See model-specific pricing, common faults, and repair options.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
             <Link href="/macbook-air-repair" className="glass-card p-6 flex items-center justify-between group hover:border-[rgba(15,234,122,0.35)] transition-all">
@@ -390,7 +390,7 @@ export default function MacBookRepairPage() {
             ].map((item) => (
               <div key={item.title} className="glass-card p-8">
                 <item.icon className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
-                <div className="text-2xl font-extrabold text-[#E8F4F1] mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{item.title}</div>
+                <div className="text-2xl font-extrabold text-[#E8F4F1] mb-1">{item.title}</div>
                 <div className="text-[#7A9E98] text-sm">{item.sub}</div>
               </div>
             ))}
@@ -409,7 +409,7 @@ export default function MacBookRepairPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Giving You Problems?</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Giving You Problems?</h2>
             <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Honest quote. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

@@ -251,7 +251,7 @@ export default function MacBookChargingPortPage() {
             </div>
             <h1
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Not Charging?<br />
               <span className="text-[#0FEA7A]">Johannesburg Repair</span>
@@ -288,7 +288,7 @@ export default function MacBookChargingPortPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {stats.map((s) => (
               <div key={s.label}>
-                <div className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <div className="text-2xl font-extrabold text-[#0FEA7A]">
                   {s.value}
                 </div>
                 <div className="text-[#7A9E98] text-sm mt-1">{s.label}</div>
@@ -304,7 +304,7 @@ export default function MacBookChargingPortPage() {
           <div className="text-center mb-14">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Why Your MacBook Won&apos;t Charge
             </h2>
@@ -372,7 +372,7 @@ export default function MacBookChargingPortPage() {
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Charging Problems We Diagnose &amp; Fix
               </h2>
@@ -394,7 +394,7 @@ export default function MacBookChargingPortPage() {
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-6"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Repair Types We Cover
               </h2>
@@ -435,7 +435,7 @@ export default function MacBookChargingPortPage() {
           <div className="text-center mb-14">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               How We Find the Fault
             </h2>
@@ -510,7 +510,7 @@ export default function MacBookChargingPortPage() {
             </div>
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1]"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               What Johannesburg Mac Owners Say
             </h2>
@@ -555,7 +555,7 @@ export default function MacBookChargingPortPage() {
       {/* ── Related Services ── */}
       <section className="py-12 bg-[#071210]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
             Related Services
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -580,7 +580,7 @@ export default function MacBookChargingPortPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Not Charging?
             </h2>

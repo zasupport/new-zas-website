@@ -387,7 +387,7 @@ export default function MacBookNotTurningOnPage() {
 
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Not Turning On?{' '}
               <span className="text-[#0FEA7A]">Johannesburg Repair.</span>
@@ -449,7 +449,7 @@ export default function MacBookNotTurningOnPage() {
                 { value: 'Same Day', label: 'Available' },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <div className="text-2xl sm:text-3xl font-extrabold text-[#0FEA7A] mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>
+                  <div className="text-2xl sm:text-3xl font-extrabold text-[#0FEA7A] mb-1">
                     {stat.value}
                   </div>
                   <div className="text-[#7A9E98] text-sm">{stat.label}</div>
@@ -467,7 +467,7 @@ export default function MacBookNotTurningOnPage() {
             </div>
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               5 Free Fixes Before You Bring It In
             </h2>
@@ -526,7 +526,7 @@ export default function MacBookNotTurningOnPage() {
               </div>
               <h2
                 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Why Your MacBook Won&apos;t Turn On
               </h2>
@@ -598,7 +598,7 @@ export default function MacBookNotTurningOnPage() {
               </div>
               <h2
                 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 From Drop-Off to Fixed Mac
               </h2>
@@ -673,7 +673,7 @@ export default function MacBookNotTurningOnPage() {
             </div>
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               What Johannesburg Clients Say
             </h2>
@@ -717,7 +717,7 @@ export default function MacBookNotTurningOnPage() {
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
           <h2
             className="text-2xl font-extrabold text-[#E8F4F1] mb-6"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Related Repairs
           </h2>
@@ -751,7 +751,7 @@ export default function MacBookNotTurningOnPage() {
 
             <h2
               className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#E8F4F1] mb-5"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Ready to Get Your MacBook Fixed?
             </h2>

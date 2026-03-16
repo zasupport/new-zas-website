@@ -287,7 +287,7 @@ export default function MacBookKeyboardPage() {
             </div>
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Keyboard Repair<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
@@ -333,7 +333,7 @@ export default function MacBookKeyboardPage() {
               <div key={item.label} className="flex flex-col items-center">
                 <span
                   className="text-2xl font-extrabold text-[#0FEA7A]"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {item.stat}
                 </span>
@@ -357,7 +357,7 @@ export default function MacBookKeyboardPage() {
               <div>
                 <span
                   className="text-3xl font-extrabold text-[#E8F4F1]"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   4.9
                 </span>
@@ -377,7 +377,7 @@ export default function MacBookKeyboardPage() {
           <div className="text-center mb-12">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Keyboard Repair <span className="text-[#0FEA7A]">Models</span>
             </h2>
@@ -451,7 +451,7 @@ export default function MacBookKeyboardPage() {
           <div className="text-center mb-12">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               The Butterfly Keyboard <span className="text-[#0FEA7A]">Story</span>
             </h2>
@@ -516,7 +516,7 @@ export default function MacBookKeyboardPage() {
           <div className="text-center mb-12">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Signs You Need <span className="text-[#0FEA7A]">Keyboard Repair</span>
             </h2>
@@ -545,7 +545,7 @@ export default function MacBookKeyboardPage() {
           <div className="text-center mb-12">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Our Repair <span className="text-[#0FEA7A]">Process</span>
             </h2>
@@ -608,7 +608,7 @@ export default function MacBookKeyboardPage() {
           <div className="text-center mb-12">
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               What Our Clients <span className="text-[#0FEA7A]">Say</span>
             </h2>
@@ -654,7 +654,7 @@ export default function MacBookKeyboardPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Keyboard Not Working?
             </h2>

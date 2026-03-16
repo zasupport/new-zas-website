@@ -17,7 +17,7 @@ export default function FAQAccordion({ items, title = 'Frequently Asked Question
       {title && (
         <h2
           className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-8"
-          style={{ fontFamily: 'Syne, sans-serif' }}
+         
         >
           {title}
         </h2>
@@ -32,7 +32,7 @@ export default function FAQAccordion({ items, title = 'Frequently Asked Question
             >
               <span
                 className="text-[#E8F4F1] font-semibold text-base sm:text-lg group-hover:text-[#0FEA7A] transition-colors"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 {item.question}
               </span>

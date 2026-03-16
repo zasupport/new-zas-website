@@ -216,7 +216,7 @@ export default function MacVirusRemovalPage() {
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
               <CheckCircle className="w-4 h-4" /> Free Diagnosis · Same-Day Removal · Hyde Park JHB
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Mac Virus &amp; Malware Removal<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
               <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | Free Diagnosis</span>
@@ -259,7 +259,7 @@ export default function MacVirusRemovalPage() {
               { stat: 'CyberShield', label: 'Ongoing Protection Available' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
-                <span className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{item.stat}</span>
+                <span className="text-2xl font-extrabold text-[#0FEA7A]">{item.stat}</span>
                 <span className="text-[#7A9E98] text-sm mt-1">{item.label}</span>
               </div>
             ))}
@@ -278,7 +278,7 @@ export default function MacVirusRemovalPage() {
                 ))}
               </div>
               <div>
-                <span className="text-3xl font-extrabold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>4.9</span>
+                <span className="text-3xl font-extrabold text-[#E8F4F1]">4.9</span>
                 <span className="text-[#7A9E98] ml-2 text-sm">/ 5 from 87 verified removals</span>
               </div>
             </div>
@@ -293,7 +293,7 @@ export default function MacVirusRemovalPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Signs Your Mac May Be <span className="text-[#0FEA7A]">Infected</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
@@ -316,7 +316,7 @@ export default function MacVirusRemovalPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Common Mac Threats <span className="text-[#0FEA7A]">We Remove</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
@@ -346,7 +346,7 @@ export default function MacVirusRemovalPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Our Removal <span className="text-[#0FEA7A]">Process</span>
             </h2>
             <p className="text-[#7A9E98]">Thorough, documented, and transparent.</p>
@@ -386,7 +386,7 @@ export default function MacVirusRemovalPage() {
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
                 <div className="flex flex-col items-center gap-2 flex-shrink-0">
-                  <div className="text-2xl font-extrabold text-[#0FEA7A] opacity-40" style={{ fontFamily: 'Syne, sans-serif' }}>{item.step}</div>
+                  <div className="text-2xl font-extrabold text-[#0FEA7A] opacity-40">{item.step}</div>
                   <div className="text-[#0FEA7A] opacity-60">{item.icon}</div>
                 </div>
                 <div>
@@ -408,7 +408,7 @@ export default function MacVirusRemovalPage() {
                 <Shield className="w-6 h-6 text-[#0FEA7A]" />
               </div>
               <div>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-2">
                   Prevent Reinfection, <span className="text-[#0FEA7A]">CyberShield</span>
                 </h2>
                 <p className="text-[#7A9E98]">
@@ -435,7 +435,7 @@ export default function MacVirusRemovalPage() {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <div className="text-center sm:text-left">
                 <p className="text-[#7A9E98] text-sm">Starting from</p>
-                <p className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>Contact us for pricing</p>
+                <p className="text-2xl font-extrabold text-[#0FEA7A]">Contact us for pricing</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 sm:ml-auto">
                 <a
@@ -460,7 +460,7 @@ export default function MacVirusRemovalPage() {
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               Why Johannesburg Mac Owners <span className="text-[#0FEA7A]">Choose ZA Support</span>
             </h2>
           </div>
@@ -507,7 +507,7 @@ export default function MacVirusRemovalPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
               What Clients Say About <span className="text-[#0FEA7A]">Malware Removal</span>
             </h2>
           </div>
@@ -543,7 +543,7 @@ export default function MacVirusRemovalPage() {
       {/* SUBURBS */}
       <section className="py-8 sm:py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center">
             Mac Virus Removal Near You, <span className="text-[#0FEA7A]">Johannesburg</span>
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
@@ -566,7 +566,7 @@ export default function MacVirusRemovalPage() {
       {/* RELATED SERVICES */}
       <section className="py-12 bg-[#071210]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-6">
             Related Services
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -590,7 +590,7 @@ export default function MacVirusRemovalPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Think Your Mac Has a Virus?
             </h2>
             <p className="text-[#7A9E98] mb-2 text-lg">Assessment: R899 ex VAT. Same-day removal. No fix, no fee.</p>

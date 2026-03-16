@@ -53,7 +53,7 @@ export default function JamfMdmPage() {
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               JAMF MDM Implementation
               <br /><span className="text-[#0FEA7A]">in South Africa</span>
             </h1>
@@ -75,14 +75,14 @@ export default function JamfMdmPage() {
 
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>What JAMF MDM Delivers</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center">What JAMF MDM Delivers</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map(({ icon: Icon, title, desc }) => (
               <div key={title} className="glass-card p-6 text-center">
                 <div className="w-12 h-12 bg-[rgba(15,234,122,0.1)] rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Icon className="w-6 h-6 text-[#0FEA7A]" />
                 </div>
-                <h3 className="text-[#E8F4F1] font-bold mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>{title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-2">{title}</h3>
                 <p className="text-[#7A9E98] text-sm">{desc}</p>
               </div>
             ))}
@@ -92,12 +92,12 @@ export default function JamfMdmPage() {
 
       <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>JAMF Pro vs JAMF Now, Plans</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center">JAMF Pro vs JAMF Now, Plans</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {tiers.map((tier, i) => (
               <div key={tier.name} className={`glass-card p-8 ${i === 1 ? 'border-[rgba(15,234,122,0.4)] shadow-[0_0_24px_rgba(15,234,122,0.1)]' : ''}`}>
                 {i === 1 && <div className="text-[#0FEA7A] text-xs font-bold mb-3 tracking-widest uppercase">Most Popular</div>}
-                <h3 className="text-[#E8F4F1] text-xl font-bold mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{tier.name}</h3>
+                <h3 className="text-[#E8F4F1] text-xl font-bold mb-1">{tier.name}</h3>
                 <p className="text-[#7A9E98] text-sm mb-6">{tier.devices}</p>
                 <ul className="space-y-2 mb-6">
                   {tier.features.map(f => (
@@ -124,7 +124,7 @@ export default function JamfMdmPage() {
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Ready to Manage Your Apple Devices?</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Ready to Manage Your Apple Devices?</h2>
             <p className="text-[#7A9E98] mb-6">Free consultation. No obligation. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}

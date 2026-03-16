@@ -59,7 +59,7 @@ export default function AppleWatchWaterDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumb items={[{ label: 'Liquid Damage Repair', href: '/liquid-damage' }, { label: 'Apple Watch' }]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Apple Watch Water Damage<br /><span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
@@ -82,7 +82,7 @@ export default function AppleWatchWaterDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Why Apple Watch Water Resistance Fails</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Why Apple Watch Water Resistance Fails</h2>
               <p className="text-[#7A9E98] leading-relaxed mb-4">
                 Apple Watch is designed to be water resistant, but this resistance is not permanent and degrades with use.
                 The seals around the Digital Crown, microphone ports, and sensors wear over time. After swimming, surfing,
@@ -92,7 +92,7 @@ export default function AppleWatchWaterDamagePage() {
                 Pool chlorine and saltwater are particularly aggressive at degrading these seals. Apple recommends annual
                 resealing for Apple Watch to maintain water resistance, but very few users are aware of this service.
               </p>
-              <h3 className="text-xl font-bold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Models We Repair</h3>
+              <h3 className="text-xl font-bold text-[#E8F4F1] mb-3">Models We Repair</h3>
               <div className="grid grid-cols-2 gap-2">
                 {[
                   'Apple Watch Series 3', 'Apple Watch Series 4',
@@ -110,7 +110,7 @@ export default function AppleWatchWaterDamagePage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Assessment &amp; Warranty</h2>
               <div className="p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. warranty on all repairs completed. Apple Watch resealing service also available.</p>
               </div>
@@ -128,7 +128,7 @@ export default function AppleWatchWaterDamagePage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Apple Watch Water Damage Repair</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Apple Watch Water Damage Repair</h2>
             <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}

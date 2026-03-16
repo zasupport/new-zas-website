@@ -152,7 +152,7 @@ export default function AirPodsRepairPage() {
             </p>
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               AirPods Repair Johannesburg
               <br />
@@ -189,7 +189,7 @@ export default function AirPodsRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             AirPods Repair Services
           </h2>
@@ -201,7 +201,7 @@ export default function AirPodsRepairPage() {
               <div key={service.title} className="glass-card p-6">
                 <h3
                   className="text-[#E8F4F1] font-bold text-xl mb-1"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {service.title}
                 </h3>
@@ -225,7 +225,7 @@ export default function AirPodsRepairPage() {
             <div>
               <h3
                 className="text-[#F5A623] font-bold mb-2"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 AirPods Pro Gen 2, Honest Expectations
               </h3>
@@ -247,7 +247,7 @@ export default function AirPodsRepairPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Prices by Model
           </h2>
@@ -287,7 +287,7 @@ export default function AirPodsRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-8"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Common AirPods Problems We Fix
           </h2>
@@ -347,7 +347,7 @@ export default function AirPodsRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Why ZA Support for AirPods?
           </h2>
@@ -381,7 +381,7 @@ export default function AirPodsRepairPage() {
               <div key={item.title} className="glass-card p-6">
                 <h3
                   className="text-[#0FEA7A] font-bold text-base mb-2"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {item.title}
                 </h3>
@@ -405,7 +405,7 @@ export default function AirPodsRepairPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               AirPods Not Working? Bring Them In.
             </h2>

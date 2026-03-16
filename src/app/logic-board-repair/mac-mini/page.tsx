@@ -188,7 +188,7 @@ export default function MacMiniLogicBoardPage() {
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
               <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: R899 ex VAT · 3-Month Warranty · Hyde Park</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               Mac mini Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
@@ -263,7 +263,7 @@ export default function MacMiniLogicBoardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Mac mini Faults We Repair</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Mac mini Faults We Repair</h2>
               {[
                 { fault: 'No Power, Dead Mac mini', desc: 'Power supply failure or power rail fault on logic board. Very common after load-shedding spikes. Over 85% success rate on no-power repairs.' },
                 { fault: 'No HDMI Output', desc: 'Failed HDMI controller IC. Mac mini boots and operates normally but no display signal on any HDMI display or cable.' },
@@ -283,7 +283,7 @@ export default function MacMiniLogicBoardPage() {
               ))}
             </div>
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Repair Services</h2>
               <div className="glass-card p-6 mb-6">
                 {[
                   'Diagnostic Assessment',
@@ -322,7 +322,7 @@ export default function MacMiniLogicBoardPage() {
       {/* IC-level fault table */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             Component-Level Repair, Mac mini Logic Board ICs
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl">
@@ -356,7 +356,7 @@ export default function MacMiniLogicBoardPage() {
       {/* Model compatibility */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             Mac mini Models We Repair
           </h2>
           <p className="text-[#7A9E98] mb-8">All Mac mini generations from 2014 through M4 Pro (2024).</p>
@@ -386,7 +386,7 @@ export default function MacMiniLogicBoardPage() {
       {/* Repair process */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             Our Mac mini Repair Process
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
@@ -412,7 +412,7 @@ export default function MacMiniLogicBoardPage() {
       {/* Why ZA Support */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10">
             Why Johannesburg Chooses ZA Support for Mac mini Repair
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -454,7 +454,7 @@ export default function MacMiniLogicBoardPage() {
       {/* Customer reviews */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">
             Mac mini Repair Reviews, Johannesburg
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -484,7 +484,7 @@ export default function MacMiniLogicBoardPage() {
       {/* Related pages */}
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Related Repairs</h2>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6">Related Repairs</h2>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {[
               { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: R899 ex VAT' },
@@ -508,7 +508,7 @@ export default function MacMiniLogicBoardPage() {
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Mac mini Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>

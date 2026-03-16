@@ -226,7 +226,7 @@ export default function LiquidDamagePage() {
           <div className="mt-8 max-w-4xl">
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               MacBook Liquid Damage
               <br />
@@ -282,7 +282,7 @@ export default function LiquidDamagePage() {
             <div>
               <h2
                 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 What Happens Inside Your Device After a Spill?
               </h2>
@@ -306,7 +306,7 @@ export default function LiquidDamagePage() {
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-6"
-                style={{ fontFamily: 'Syne, sans-serif' }}
+               
               >
                 Devices We Repair
               </h2>
@@ -341,7 +341,7 @@ export default function LiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-12 text-center"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Our 6-Step Repair Process
           </h2>
@@ -351,7 +351,7 @@ export default function LiquidDamagePage() {
                 <div className="step-number mb-4">0{index + 1}</div>
                 <h3
                   className="text-[#E8F4F1] font-bold text-lg mb-2"
-                  style={{ fontFamily: 'Syne, sans-serif' }}
+                 
                 >
                   {step.title}
                 </h3>
@@ -368,7 +368,7 @@ export default function LiquidDamagePage() {
           <div className="bg-[rgba(22,34,32,0.6)] border border-[rgba(255,165,0,0.2)] rounded-2xl p-8">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Why Rice Doesn&apos;t Work (And What to Do Instead)
             </h2>
@@ -386,7 +386,7 @@ export default function LiquidDamagePage() {
           <div className="mt-12">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               When Liquid Damage Affects the Logic Board
             </h2>
@@ -429,7 +429,7 @@ export default function LiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-8"
-            style={{ fontFamily: 'Syne, sans-serif' }}
+           
           >
             Liquid Damage Repair by Device
           </h2>
@@ -463,7 +463,7 @@ export default function LiquidDamagePage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Book Assessment, We Respond Within 1 Hour
             </h2>

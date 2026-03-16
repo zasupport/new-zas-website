@@ -152,7 +152,7 @@ export default function MacBookAirLogicBoardPage() {
             { label: 'MacBook Air' },
           ]} />
           <div className="mt-8 max-w-4xl">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Air Logic Board Repair
               <br /><span className="text-[#0FEA7A]">Johannesburg, Assessment: R899 ex VAT</span>
             </h1>
@@ -209,7 +209,7 @@ export default function MacBookAirLogicBoardPage() {
                 { value: 'Covered', label: 'Warranty, Written. No Exceptions.' },
               ].map(({ value, label }) => (
                 <div key={label}>
-                  <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
+                  <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
                   <p className="text-[#7A9E98] text-xs mt-0.5">{label}</p>
                 </div>
               ))}
@@ -221,7 +221,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* What is a logic board fault? */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6">
             What Is a MacBook Air Logic Board Fault?
           </h2>
           <div className="space-y-5 text-[#7A9E98] leading-relaxed">
@@ -240,7 +240,7 @@ export default function MacBookAirLogicBoardPage() {
               third-party shops in Johannesburg. It requires a microscope, specialist equipment, and the training
               to use it. We have all three.
             </p>
-            <h3 className="text-xl font-bold text-[#E8F4F1] mt-8 mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h3 className="text-xl font-bold text-[#E8F4F1] mt-8 mb-4">
               Common Symptoms of a MacBook Air Logic Board Problem
             </h3>
             <ul className="space-y-3">
@@ -273,7 +273,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* Fault Table */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
             Common MacBook Air Logic Board Faults
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
@@ -312,7 +312,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* Repair Process */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
             Our Repair Process
           </h2>
           <p className="text-[#7A9E98] mb-12 max-w-2xl">
@@ -326,7 +326,7 @@ export default function MacBookAirLogicBoardPage() {
                   <div className="w-9 h-9 rounded-full bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.3)] flex items-center justify-center flex-shrink-0">
                     <span className="text-[#0FEA7A] font-bold text-sm">{step.step}</span>
                   </div>
-                  <h3 className="text-[#E8F4F1] font-bold" style={{ fontFamily: 'Syne, sans-serif' }}>{step.title}</h3>
+                  <h3 className="text-[#E8F4F1] font-bold">{step.title}</h3>
                 </div>
                 <p className="text-[#7A9E98] text-sm leading-relaxed">{step.detail}</p>
               </div>
@@ -346,7 +346,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* Model Compatibility */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
             MacBook Air Model Compatibility
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
@@ -392,7 +392,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* Repair Services */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
             MacBook Air Logic Board Repair Services
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
@@ -436,7 +436,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* Why ZA Support */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
             Why Choose ZA Support for MacBook Air Logic Board Repair?
           </h2>
           <p className="text-[#7A9E98] mb-12 max-w-2xl">
@@ -470,13 +470,13 @@ export default function MacBookAirLogicBoardPage() {
                 <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center mb-4">
                   <Icon className="w-5 h-5 text-[#0FEA7A]" />
                 </div>
-                <h3 className="text-[#E8F4F1] font-bold mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>{title}</h3>
+                <h3 className="text-[#E8F4F1] font-bold mb-3">{title}</h3>
                 <p className="text-[#7A9E98] text-sm leading-relaxed">{body}</p>
               </div>
             ))}
           </div>
           <div className="mt-10 glass-card p-6 max-w-3xl">
-            <h3 className="text-[#E8F4F1] font-bold mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h3 className="text-[#E8F4F1] font-bold mb-3">
               We repair at component level, not just swap boards
             </h3>
             <p className="text-[#7A9E98] text-sm leading-relaxed">
@@ -495,7 +495,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* Reviews */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10">
             What Our Clients Say
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -530,7 +530,7 @@ export default function MacBookAirLogicBoardPage() {
           <div className="flex items-start gap-4 mb-6">
             <MapPin className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-1" />
             <div>
-              <h2 className="text-xl font-bold text-[#E8F4F1] mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <h2 className="text-xl font-bold text-[#E8F4F1] mb-2">
                 MacBook Air Logic Board Repair Across Johannesburg
               </h2>
               <p className="text-[#7A9E98] text-sm max-w-2xl">
@@ -552,7 +552,7 @@ export default function MacBookAirLogicBoardPage() {
       {/* Related */}
       <section className="py-12 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-lg font-bold text-[#E8F4F1] mb-5" style={{ fontFamily: 'Syne, sans-serif' }}>Related Services</h2>
+          <h2 className="text-lg font-bold text-[#E8F4F1] mb-5">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
               { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: R899 ex VAT' },
@@ -575,7 +575,7 @@ export default function MacBookAirLogicBoardPage() {
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Air Logic Board Fault?
             </h2>
             <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>

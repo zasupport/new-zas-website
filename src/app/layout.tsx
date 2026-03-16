@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Syne, Inter, DM_Mono } from 'next/font/google';
+import { Inter, DM_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { GoogleAnalytics } from '@next/third-parties/google';
@@ -8,13 +8,6 @@ import Footer from '@/components/layout/Footer';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { LOCAL_BUSINESS_SCHEMA } from '@/lib/seo';
 import './globals.css';
-
-const syne = Syne({
-  subsets: ['latin'],
-  variable: '--font-syne',
-  display: 'swap',
-  weight: ['400', '500', '600', '700', '800'],
-});
 
 const inter = Inter({
   subsets: ['latin'],
@@ -80,7 +73,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-ZA" className={`${syne.variable} ${inter.variable} ${dmMono.variable}`}>
+    <html lang="en-ZA" className={`${inter.variable} ${dmMono.variable}`}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

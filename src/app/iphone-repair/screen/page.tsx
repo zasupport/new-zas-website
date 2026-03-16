@@ -218,7 +218,7 @@ export default function iPhoneScreenPage() {
             </div>
             <h1
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               iPhone Screen Repair<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
@@ -264,7 +264,7 @@ export default function iPhoneScreenPage() {
       {/* ── Supported Models ─────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             iPhone Models We Repair, Johannesburg 2026
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
@@ -296,7 +296,7 @@ export default function iPhoneScreenPage() {
       {/* ── Symptoms ─────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
             iPhone Screen Faults We Repair
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
@@ -312,7 +312,7 @@ export default function iPhoneScreenPage() {
                 <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center text-[#0FEA7A]">
                   {s.icon}
                 </div>
-                <h3 className="text-[#E8F4F1] font-bold text-sm" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h3 className="text-[#E8F4F1] font-bold text-sm">
                   {s.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs leading-relaxed">{s.desc}</p>
@@ -327,7 +327,7 @@ export default function iPhoneScreenPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
                 Why Johannesburg iPhone Owners Choose ZA Support
               </h2>
               <div className="space-y-5">
@@ -358,7 +358,7 @@ export default function iPhoneScreenPage() {
                       {item.icon}
                     </div>
                     <div>
-                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>
+                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1">
                         {item.title}
                       </h3>
                       <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
@@ -415,7 +415,7 @@ export default function iPhoneScreenPage() {
       {/* ── Process ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10">
             How iPhone Screen Repair Works
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -424,7 +424,7 @@ export default function iPhoneScreenPage() {
                 <div className="w-8 h-8 rounded-full bg-[rgba(15,234,122,0.15)] flex items-center justify-center text-[#0FEA7A] font-bold text-sm mb-4">
                   {p.step}
                 </div>
-                <h3 className="text-[#E8F4F1] font-bold text-sm mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h3 className="text-[#E8F4F1] font-bold text-sm mb-2">
                   {p.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs leading-relaxed">{p.desc}</p>
@@ -444,7 +444,7 @@ export default function iPhoneScreenPage() {
       {/* ── Related repairs ───────────────────────────────────────────────── */}
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6">
             Other iPhone Repairs
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -471,7 +471,7 @@ export default function iPhoneScreenPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+             
             >
               Cracked iPhone Screen?
             </h2>

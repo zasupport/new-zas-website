@@ -112,7 +112,7 @@ export default function BlogPage() {
     <>
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4">
             ZA Support <span className="text-[#0FEA7A]">Blog</span>
           </h1>
           <p className="text-xl text-[#7A9E98] max-w-2xl">Apple tips, repair guides, and IT insights from Johannesburg&apos;s Apple specialists.</p>
@@ -132,7 +132,7 @@ export default function BlogPage() {
                   </div>
                   <span className="text-[#7A9E98] text-xs">{post.readTime}</span>
                 </div>
-                <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
+                <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3">
                   <Link href={`/blog/${post.slug}`} className="hover:text-[#0FEA7A] transition-colors">
                     {post.title}
                   </Link>
