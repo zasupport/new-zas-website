@@ -10,13 +10,13 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Free assessment, No Fix No Fee. Call 064 529 5863.',
+    'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Assessment: R899 ex VAT, Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/iphone' },
 };
 
 const faqs = [
   {
-    question: 'My iPhone is IP67/IP68 rated — why did water damage it?',
+    question: 'My iPhone is IP67/IP68 rated, why did water damage it?',
     answer:
       'Apple\'s IP ratings are tested under specific laboratory conditions using fresh still water. Real-world liquid exposure is different. IP ratings degrade over time as seals wear. Saltwater, chlorinated pool water, and pressurised water (shower, running tap) can penetrate seals that would resist a brief submersion. Additionally, if your iPhone has been dropped before, the seal integrity may be compromised.',
   },
@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'My iPhone shows the liquid detection alert. What should I do?',
     answer:
-      'Do not try to charge it. Apple\'s liquid contact indicator (LCI) has been triggered — there is moisture in the charging port or near the logic board. Bring it to us immediately. Do not put it in rice, do not try to dry it with a hair dryer, and do not attempt to charge it as this can cause short circuit damage that makes repair more difficult.',
+      'Do not try to charge it. Apple\'s liquid contact indicator (LCI) has been triggered, there is moisture in the charging port or near the logic board. Bring it to us immediately. Do not put it in rice, do not try to dry it with a hair dryer, and do not attempt to charge it as this can cause short circuit damage that makes repair more difficult.',
   },
   {
     question: 'Can you recover data from a water-damaged iPhone?',
@@ -73,14 +73,14 @@ export default function iPhoneLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iPhone liquid damage repair. All models iPhone 8 through iPhone 16 Pro Max.
-              Free assessment, No Fix No Fee, warranty. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
-                Free Assessment <ArrowRight className="w-5 h-5" />
+                Book Assessment <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -106,17 +106,17 @@ export default function iPhoneLiquidDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>What IP67/IP68 Actually Means</h2>
               <p className="text-[#7A9E98] leading-relaxed mb-4">
                 Apple rates modern iPhones at IP67 (iPhone 8 through 11) and IP68 (iPhone 12 and later). These ratings
-                mean the device was tested to resist submersion in controlled laboratory conditions — typically 1–4 metres
+                mean the device was tested to resist submersion in controlled laboratory conditions, typically 1–4 metres
                 of still, fresh water for up to 30 minutes.
               </p>
               <p className="text-[#7A9E98] leading-relaxed mb-4">
                 Real-world liquid exposure is entirely different. Seawater, pool water with chlorine, drinks with
                 sugar and acids, and water under pressure (showers, running taps) all exceed what the IP rating is
-                designed to handle. Additionally, IP ratings degrade over time — a two-year-old iPhone 14 no longer
+                designed to handle. Additionally, IP ratings degrade over time, a two-year-old iPhone 14 no longer
                 has the same water resistance as a new one.
               </p>
               <p className="text-[#7A9E98] leading-relaxed">
-                This is why we regularly see iPhones with high IP ratings that have suffered liquid damage — the
+                This is why we regularly see iPhones with high IP ratings that have suffered liquid damage, the
                 rating is a guide, not a guarantee. When liquid damage occurs, the repair process is the same
                 regardless of the device&apos;s IP rating.
               </p>
@@ -141,7 +141,7 @@ export default function iPhoneLiquidDamagePage() {
               </div>
               <div className="flex items-center gap-3 mt-4 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. warranty on all repairs.</p>
+                <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. Assessment: R899 ex VAT. warranty on all repairs.</p>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ export default function iPhoneLiquidDamagePage() {
 
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Liquid Damage — FAQs" />
+          <FAQAccordion items={faqs} title="iPhone Liquid Damage, FAQs" />
         </div>
       </section>
 
@@ -178,7 +178,7 @@ export default function iPhoneLiquidDamagePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Got Wet? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

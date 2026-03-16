@@ -30,8 +30,8 @@ const contactMethods = ['WhatsApp', 'Call', 'Email'];
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'ZA Support — Apple Repair Specialists',
-  description: 'Book a free Mac repair assessment in Hyde Park, Johannesburg. No Fix No Fee.',
+  name: 'ZA Support, Apple Repair Specialists',
+  description: 'Book a Mac repair assessment in Hyde Park, Johannesburg. Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed.',
   url: 'https://zasupport.com/book',
   telephone: '+27645295863',
   address: {
@@ -43,7 +43,7 @@ const localBusinessSchema = {
     addressCountry: 'ZA',
   },
   openingHours: 'Mo-Fr 08:00-17:30 Sa 09:00-13:00',
-  priceRange: 'Free assessment',
+  priceRange: 'R899 ex VAT assessment',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
@@ -102,7 +102,7 @@ export default function BookPage() {
               <Calendar className="w-4 h-4 text-[#0A1A18]" />
             </div>
             <span className="text-[#0FEA7A] text-sm font-semibold tracking-widest uppercase">
-              Free Assessment — No Obligation
+              Assessment: R899 ex VAT, No Deposit to Book
             </span>
           </div>
           <h1
@@ -115,7 +115,7 @@ export default function BookPage() {
           </h1>
           <p className="text-lg text-[#7A9E98] max-w-xl leading-relaxed">
             Fill in the form below and we will contact you within 2 hours to confirm your booking.
-            Free assessment. No Fix No Fee. warranty on all repairs.
+            Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed. 3-month warranty on all repairs.
           </p>
         </div>
       </section>
@@ -125,8 +125,8 @@ export default function BookPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             {[
-              ['Free Assessment', 'No charge to diagnose'],
-              ['No Fix No Fee', 'Pay only if we fix it'],
+              ['Assessment: R899 ex VAT', 'Absorbed into repair if you proceed'],
+              ['3-Month Warranty', 'On all parts and labour'],
               ['2-Hour Response', 'We call you back fast'],
               ['4.9★ Reviews', '120+ happy clients'],
             ].map(([title, sub]) => (
@@ -185,9 +185,9 @@ export default function BookPage() {
                     className="text-xl font-bold text-[#E8F4F1]"
                     style={{ fontFamily: 'Syne, sans-serif' }}
                   >
-                    Book Your Free Assessment
+                    Book Your Assessment
                   </h2>
-                  <p className="text-[#7A9E98] text-sm">Takes 60 seconds — we do the rest</p>
+                  <p className="text-[#7A9E98] text-sm">Takes 60 seconds, we do the rest</p>
                 </div>
               </div>
 
@@ -327,7 +327,7 @@ export default function BookPage() {
                     'Sending...'
                   ) : (
                     <>
-                      Book My Free Assessment
+                      Book My Assessment
                       <ArrowRight className="w-4 h-4" />
                     </>
                   )}
@@ -335,7 +335,7 @@ export default function BookPage() {
 
                 <p className="text-center text-[#7A9E98] text-xs leading-relaxed">
                   By submitting this form you agree to be contacted by ZA Support regarding your repair.
-                  We never share your details. Free assessment — no obligation.
+                  We never share your details. Assessment: R899 ex VAT, absorbed into repair cost if you proceed.
                 </p>
               </form>
             </div>

@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Battery Replacement Johannesburg | ZA Support',
   description:
-    'iPhone battery replacement in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. warranty. Hyde Park, Johannesburg.',
+    'iPhone battery replacement in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. 3-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/battery' },
   keywords: [
     'iPhone battery replacement Johannesburg',
@@ -61,7 +61,7 @@ const symptoms = [
   {
     icon: <Battery className="w-5 h-5" />,
     title: 'Swollen Battery',
-    desc: 'If your screen is lifting away from the body or the back is bulging, the battery has swollen from gas build-up. This is a safety issue — bring it in immediately.',
+    desc: 'If your screen is lifting away from the body or the back is bulging, the battery has swollen from gas build-up. This is a safety issue, bring it in immediately.',
   },
   {
     icon: <Zap className="w-5 h-5" />,
@@ -81,11 +81,11 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Free Assessment', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
+  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
   { step: '2', title: 'Battery Confirmed', desc: 'We confirm the correct replacement battery is in stock for your model. Same-day replacement is available for most models.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery under controlled conditions. iPhone battery replacement takes approximately 45–60 minutes.' },
   { step: '4', title: 'Quality Check', desc: 'We verify the new battery charges correctly, confirm battery health reads 100%, and test for unexpected shutdowns before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a written warranty on the replacement battery and our labour. No Fix No Fee applies if anything goes wrong.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a written warranty on the replacement battery and our labour. Assessment: R899 ex VAT applies if anything goes wrong.' },
 ];
 
 const faqs = [
@@ -110,14 +110,14 @@ const faqs = [
       'No. Battery replacement does not affect your data. We do not need your passcode and we do not access your data. However, we always recommend backing up your iPhone before any repair as a precaution.',
   },
   {
-    question: 'My iPhone is slow — will a new battery fix it?',
+    question: 'My iPhone is slow, will a new battery fix it?',
     answer:
       'Possibly yes. iOS enables performance throttling when the battery cannot sustain peak current. Replacing the battery with a healthy one often restores full CPU speed. You will see the throttling message under Settings then Battery then Battery Health and Charging if this applies to your device.',
   },
   {
     question: 'Is a swollen iPhone battery dangerous?',
     answer:
-      'Yes — a swollen battery is a safety concern. Lithium-ion cells produce flammable gas when they fail. If your screen is lifting, the back is bulging, or you can see or feel a bulge under the display, bring it in immediately. Do not leave it on a soft surface like a bed or sofa.',
+      'Yes, a swollen battery is a safety concern. Lithium-ion cells produce flammable gas when they fail. If your screen is lifting, the back is bulging, or you can see or feel a bulge under the display, bring it in immediately. Do not leave it on a soft surface like a bed or sofa.',
   },
   {
     question: 'Will Face ID or Touch ID still work after battery replacement?',
@@ -136,14 +136,14 @@ const reviews = [
     name: 'Kevin M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'iPhone 14 Pro was shutting off at 30%. New battery from ZA Support and it lasts all day again. Under an hour, warranty. Brilliant service.',
+    text: 'iPhone 14 Pro was shutting off at 30%. New battery from ZA Support and it lasts all day again. Under an hour, 3-month warranty. Brilliant service.',
     date: 'February 2026',
   },
   {
     name: 'Sarah P.',
     suburb: 'Bryanston',
     rating: 5,
-    text: 'Battery health was at 74% and my iPhone 15 was crawling. ZA Support replaced the battery same day — it is back to full speed. Very professional.',
+    text: 'Battery health was at 74% and my iPhone 15 was crawling. ZA Support replaced the battery same day, it is back to full speed. Very professional.',
     date: 'January 2026',
   },
   {
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Battery Replacement Johannesburg',
-  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen battery. warranty.',
+  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen battery. 3-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,7 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Battery Replacement Johannesburg',
-  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. warranty.',
+  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. 3-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -224,12 +224,12 @@ export default function iPhoneBatteryPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Battery draining fast, unexpected shutdowns, swollen battery — we replace iPhone batteries.
+              Battery draining fast, unexpected shutdowns, swollen battery, we replace iPhone batteries.
               iPhone 12 through 16 Pro Max. Same-day available.
-              warranty. Hyde Park, Johannesburg.
+              3-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Free assessment', 'No Fix No Fee', 'warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment: R899 ex VAT', 'Assessment: R899 ex VAT', '3-Month Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -266,7 +266,7 @@ export default function iPhoneBatteryPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Battery Replacement — Supported Models
+            iPhone Battery Replacement, Supported Models
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             All replacements include the battery, parts, and labour. We provide a written fixed-price
@@ -288,8 +288,8 @@ export default function iPhoneBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written warranty. No Fix No Fee. Data is never accessed or affected.
-            Free battery health check — no charge if we cannot repair your device.
+            All repairs include written 3-month warranty. Assessment: R899 ex VAT. Data is never accessed or affected.
+            Free battery health check, no charge if we cannot repair your device.
           </p>
         </div>
       </section>
@@ -302,7 +302,7 @@ export default function iPhoneBatteryPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we see and fix every day.
-            If you are not sure whether your issue is the battery or something else — we diagnose first, at no cost.
+            If you are not sure whether your issue is the battery or something else, we diagnose first, at no cost.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -336,7 +336,7 @@ export default function iPhoneBatteryPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Written Warranty',
-                    desc: 'Every battery replacement carries a warranty on the battery and labour. If it fails or drains unusually fast, we replace it — no charge.',
+                    desc: 'Every battery replacement carries a warranty on the battery and labour. If it fails or drains unusually fast, we replace it, no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
@@ -351,7 +351,7 @@ export default function iPhoneBatteryPage() {
                   {
                     icon: <CheckCircle className="w-5 h-5" />,
                     title: 'Swollen Battery Specialists',
-                    desc: 'We handle swollen batteries safely and promptly. If your screen is lifting or there is a visible bulge, bring it in immediately — we treat it as a priority.',
+                    desc: 'We handle swollen batteries safely and promptly. If your screen is lifting or there is a visible bulge, bring it in immediately, we treat it as a priority.',
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -411,7 +411,7 @@ export default function iPhoneBatteryPage() {
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Battery Replacement — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="iPhone Battery Replacement, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -423,9 +423,9 @@ export default function iPhoneBatteryPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Free diagnostic' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Free diagnostic' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Free diagnostic' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: R899 ex VAT' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: R899 ex VAT' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: R899 ex VAT' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -449,9 +449,9 @@ export default function iPhoneBatteryPage() {
             >
               iPhone Battery Draining Fast?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free battery health check. No Fix No Fee. warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Free battery health check. Assessment: R899 ex VAT. 3-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
+              Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

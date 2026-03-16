@@ -13,7 +13,7 @@ const localBusinessSchema = {
   url: 'https://zasupport.com',
   telephone: '+27645295863',
   email: 'admin@zasupport.com',
-  description: 'MacBook repair, iPhone repair, logic board microsoldering, managed IT services and Apple device support in Johannesburg. No Fix No Fee. Free assessment.',
+  description: 'MacBook repair, iPhone repair, logic board microsoldering, managed IT services and Apple device support in Johannesburg. Assessment: R899 ex VAT. Assessment: R899 ex VAT.',
   image: 'https://zasupport.com/og-image.jpg',
   priceRange: 'RR',
   currenciesAccepted: 'ZAR',
@@ -110,7 +110,7 @@ export default function ContactPage() {
               Contact <span className="text-[#0FEA7A]">ZA Support</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-2xl">
-              Free assessment. No Fix No Fee. Response within 1 hour during business hours. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Assessment: R899 ex VAT. Response within 1 hour during business hours. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -209,10 +209,10 @@ export default function ContactPage() {
                         onChange={e => setForm({ ...form, urgency: e.target.value })}
                         className="w-full bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] focus:border-[rgba(15,234,122,0.4)] rounded-xl px-4 py-3 text-[#E8F4F1] text-sm outline-none transition-all"
                       >
-                        <option value="low">Not urgent — within a few days</option>
-                        <option value="medium">Soon — this week</option>
-                        <option value="high">Urgent — as soon as possible</option>
-                        <option value="emergency">Emergency — device just damaged</option>
+                        <option value="low">Not urgent, within a few days</option>
+                        <option value="medium">Soon, this week</option>
+                        <option value="high">Urgent, as soon as possible</option>
+                        <option value="emergency">Emergency, device just damaged</option>
                       </select>
                     </div>
                     <div>
@@ -315,7 +315,7 @@ export default function ContactPage() {
           </p>
           <div className="rounded-2xl overflow-hidden border border-[rgba(255,255,255,0.08)]" style={{ height: '400px' }}>
             <iframe
-              title="ZA Support — Hyde Park, Johannesburg"
+              title="ZA Support, Hyde Park, Johannesburg"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.4!2d28.0469!3d-26.1348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d4db39a0c5b%3A0x1234567890abcdef!2s1%20Hyde%20Lane%2C%20Hyde%20Park%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1000000000000!5m2!1sen!2sza"
               width="100%"
               height="100%"

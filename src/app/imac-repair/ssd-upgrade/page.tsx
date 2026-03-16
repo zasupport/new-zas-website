@@ -14,12 +14,12 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iMac 21.5" (2012–2019) — HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
-  { model: 'iMac 21.5" (2012–2019) — HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019) — HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019) — HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019) — Fusion Drive', storage: '1 TB SSD (replace both)', note: 'Removes Fusion, full SSD' },
-  { model: 'iMac 27" (2017–2020) — add SSD blade', storage: '512 GB NVMe blade', note: 'PCIe slot — no screen removal' },
+  { model: 'iMac 21.5" (2012–2019), HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
+  { model: 'iMac 21.5" (2012–2019), HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012–2019), HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012–2019), HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012–2019), Fusion Drive', storage: '1 TB SSD (replace both)', note: 'Removes Fusion, full SSD' },
+  { model: 'iMac 27" (2017–2020), add SSD blade', storage: '512 GB NVMe blade', note: 'PCIe slot, no screen removal' },
 ];
 
 const symptoms = [
@@ -43,17 +43,17 @@ const faqs = [
   {
     question: 'Which iMac models can have an SSD upgrade?',
     answer:
-      'All Intel iMac models from 2012 onwards can have their internal storage replaced or upgraded with an SSD. The 2012–2019 iMac 21.5" and 27" models use a 3.5" SATA drive bay. The iMac 27" 2017–2020 also has a PCIe NVMe blade slot that can be upgraded without opening the display. The iMac M1 and M3 (24-inch, 2021+) have storage soldered to the chip — no upgrade is possible on these models.',
+      'All Intel iMac models from 2012 onwards can have their internal storage replaced or upgraded with an SSD. The 2012–2019 iMac 21.5" and 27" models use a 3.5" SATA drive bay. The iMac 27" 2017–2020 also has a PCIe NVMe blade slot that can be upgraded without opening the display. The iMac M1 and M3 (24-inch, 2021+) have storage soldered to the chip, no upgrade is possible on these models.',
   },
   {
     question: 'What is a Fusion Drive and is it worth replacing?',
     answer:
-      'A Fusion Drive combines a spinning hard drive (1–2 TB) with a small SSD cache (24–128 GB). macOS automatically moves frequently-used files to the SSD portion. In practice, Fusion Drives are significantly slower than pure SSDs, and as they age, the management software can cause data loss. We recommend replacing a Fusion Drive with a single pure SSD — the performance improvement is substantial and you eliminate the Fusion complexity.',
+      'A Fusion Drive combines a spinning hard drive (1–2 TB) with a small SSD cache (24–128 GB). macOS automatically moves frequently-used files to the SSD portion. In practice, Fusion Drives are significantly slower than pure SSDs, and as they age, the management software can cause data loss. We recommend replacing a Fusion Drive with a single pure SSD, the performance improvement is substantial and you eliminate the Fusion complexity.',
   },
   {
     question: 'Will you migrate my data to the new SSD?',
     answer:
-      'Yes. Every iMac SSD upgrade includes full data migration — all your files, applications, settings, and user accounts are transferred to the new drive. We use Apple\'s Migration Assistant or cloning tools depending on the drive condition. You collect your iMac with everything exactly as it was, just faster.',
+      'Yes. Every iMac SSD upgrade includes full data migration, all your files, applications, settings, and user accounts are transferred to the new drive. We use Apple\'s Migration Assistant or cloning tools depending on the drive condition. You collect your iMac with everything exactly as it was, just faster.',
   },
   {
     question: 'How long does an iMac SSD upgrade take?',
@@ -66,7 +66,7 @@ const faqs = [
       'iMac displays from 2012–2014 use a suction cup to remove the glass panel. From 2015 onwards, the display is sealed with adhesive strips. We use professional tools to separate the display without damaging it, then reseal it with new adhesive after the upgrade. The result is identical to the factory seal.',
   },
   {
-    question: 'My iMac 27" already has a small SSD — can I get a faster or larger one?',
+    question: 'My iMac 27" already has a small SSD, can I get a faster or larger one?',
     answer:
       'Yes. The iMac 27" 2017–2020 has a dedicated PCIe NVMe slot separate from the main hard drive bay. You can add a blade SSD here without any display removal (accessed through the RAM door). Alternatively, we can replace the internal spinning drive with a larger SSD during a full upgrade.',
   },
@@ -116,7 +116,7 @@ export default function IMacSSDUpgradePage() {
             Replace your slow spinning hard drive or Fusion Drive with a fast SSD.
             Boot in under 20 seconds. All Intel iMac models. Data migration included.
           </p>
-          <p className="text-2xl font-bold text-green-400 mb-8">Free assessment · Fixed quote before we start</p>
+          <p className="text-2xl font-bold text-green-400 mb-8">Assessment: R899 ex VAT · Fixed quote before we start</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
@@ -205,7 +205,7 @@ export default function IMacSSDUpgradePage() {
             </table>
           </div>
           <p className="text-center text-sm text-slate-500 mt-4">
-            Free assessment and fixed quote before we start. Cost confirmed before any work begins.
+            Assessment: R899 ex VAT and fixed quote before we start. Cost confirmed before any work begins.
           </p>
         </div>
       </section>
@@ -251,7 +251,7 @@ export default function IMacSSDUpgradePage() {
             <h3 className="font-bold text-slate-900 mb-1">Bundle with a RAM upgrade?</h3>
             <p className="text-slate-600 text-sm">
               For iMac 27" Intel models, adding RAM alongside the SSD upgrade doubles the impact.
-              Both done in the same service visit — no extra opening required.
+              Both done in the same service visit, no extra opening required.
             </p>
           </div>
           <Link
@@ -269,7 +269,7 @@ export default function IMacSSDUpgradePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book Your iMac SSD Upgrade</h2>
           <p className="text-slate-300 mb-8">
-            Free assessment. Fixed quote. Same-day turnaround for most models.
+            Assessment: R899 ex VAT. Fixed quote. Same-day turnaround for most models.
             Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

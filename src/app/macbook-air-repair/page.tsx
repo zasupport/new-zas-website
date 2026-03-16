@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
   description:
-    'MacBook Air repair Johannesburg — battery replacement, screen repair, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018–2020. Intel battery under 400 cycles = replace now. No Fix No Fee. Hyde Park.',
+    'MacBook Air repair Johannesburg, battery replacement, screen repair, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018–2020. Intel battery under 400 cycles = replace now. Assessment: R899 ex VAT. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-air-repair' },
   keywords: [
     'macbook air repair johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
-    description: 'MacBook Air repair Johannesburg — battery replacement, screen repair. M1/M2/M3/M4 and Intel models. No Fix No Fee.',
+    description: 'MacBook Air repair Johannesburg, battery replacement, screen repair. M1/M2/M3/M4 and Intel models. Assessment: R899 ex VAT.',
     url: 'https://zasupport.com/macbook-air-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -34,7 +34,7 @@ const services = [
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore all-day battery life. Intel and Apple Silicon M1/M2/M3/M4 Air. We test your battery health before and after — verified improvement every time.',
+    description: 'Restore all-day battery life. Intel and Apple Silicon M1/M2/M3/M4 Air. We test your battery health before and after, verified improvement every time.',
     href: '/macbook-repair/battery',
     price: 'Contact for pricing',
   },
@@ -48,7 +48,7 @@ const services = [
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure on Intel 2018–2019 models, sticky keys, broken switches. Magic Keyboard (M-series) key cap and switch repair. Full assembly replacement with warranty.',
+    description: 'Butterfly keyboard failure on Intel 2018–2019 models, sticky keys, broken switches. Magic Keyboard (M-series) key cap and switch repair. Full assembly replacement with 3-month warranty.',
     href: '/macbook-repair/keyboard',
     price: 'Contact for pricing',
   },
@@ -76,14 +76,14 @@ const services = [
   {
     icon: Cpu,
     title: 'Logic Board Repair',
-    description: 'No-power, no-display, USB-C failure, and liquid corrosion — all repaired at component level. Apple Silicon MacBook Air board repairs available. No-Fix No-Fee diagnostic.',
+    description: 'No-power, no-display, USB-C failure, and liquid corrosion, all repaired at component level. Apple Silicon MacBook Air board repairs available. No-Fix No-Fee diagnostic.',
     href: '/logic-board-repair/macbook-air',
     price: 'Contact for pricing',
   },
   {
     icon: Droplets,
     title: 'Liquid Damage',
-    description: 'MacBook Air liquid damage — ultrasonic board cleaning, corrosion removal, component-level microsoldering. Bring it in within 48 hours of the spill for the best outcome.',
+    description: 'MacBook Air liquid damage, ultrasonic board cleaning, corrosion removal, component-level microsoldering. Bring it in within 48 hours of the spill for the best outcome.',
     href: '/liquid-damage/macbook-air',
     price: 'Contact for pricing',
   },
@@ -95,7 +95,7 @@ const models = [
   { name: 'MacBook Air M2 13" (2022)', note: 'Popular' },
   { name: 'MacBook Air M2 15" (2023)', note: 'Popular' },
   { name: 'MacBook Air M1 13" (2020)', note: 'Popular' },
-  { name: 'MacBook Air Intel 13" (2018–2020)', note: 'Intel — butterfly kbd risk' },
+  { name: 'MacBook Air Intel 13" (2018–2020)', note: 'Intel, butterfly kbd risk' },
   { name: 'MacBook Air Intel 13" (2013–2017)', note: 'Intel' },
   { name: 'MacBook Air 11" (all years)', note: 'Intel' },
 ];
@@ -129,7 +129,7 @@ const knownIssues = [
     name: 'Butterfly Keyboard Failure',
     models: 'MacBook Air 2018–2019 (Intel)',
     icon: AlertTriangle,
-    description: 'Apple\'s butterfly keyboard mechanism was used in the 2018 and 2019 MacBook Air Intel models. It is prone to key bounce, stuck keys, and complete switch failure from minor debris. Apple\'s free repair programme has ended. We replace the full top-case assembly — keyboard, battery bracket, and surrounding chassis — with a warranty.',
+    description: 'Apple\'s butterfly keyboard mechanism was used in the 2018 and 2019 MacBook Air Intel models. It is prone to key bounce, stuck keys, and complete switch failure from minor debris. Apple\'s free repair programme has ended. We replace the full top-case assembly, keyboard, battery bracket, and surrounding chassis, with a 3-month warranty.',
   },
   {
     name: 'Screen Anti-Reflective Coating Delamination',
@@ -141,14 +141,14 @@ const knownIssues = [
     name: 'Hinge Cracking (Corner Fractures)',
     models: 'MacBook Air 2018–2020 Intel',
     icon: Wrench,
-    description: 'The 2018–2020 MacBook Air hinge design places stress on the aluminium corners at the hinge point, which can develop cracks or fractures — particularly on machines that are frequently opened and closed. We replace the hinge assembly and repair cosmetic corner damage to restore full lid stability.',
+    description: 'The 2018–2020 MacBook Air hinge design places stress on the aluminium corners at the hinge point, which can develop cracks or fractures, particularly on machines that are frequently opened and closed. We replace the hinge assembly and repair cosmetic corner damage to restore full lid stability.',
   },
 ];
 
 const faqs = [
   {
     question: 'How much does MacBook Air repair cost in Johannesburg?',
-    answer: 'MacBook Air repair costs depend on the fault and model. We confirm the exact cost in writing after a free assessment before starting any work. Battery, screen, keyboard, hinge, charging port, and logic board repairs are all available — contact us for a quote.',
+    answer: 'MacBook Air repair costs depend on the fault and model. We confirm the exact cost in writing after a assessment fee (R899 ex VAT) before starting any work. Battery, screen, keyboard, hinge, charging port, and logic board repairs are all available, contact us for a quote.',
   },
   {
     question: 'When should I replace my MacBook Air battery?',
@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Air will not turn on. What can cause that?',
-    answer: 'A MacBook Air that does not power on has several possible causes: a completely discharged or failed battery, a faulty USB-C charging port, a failed power management IC on the logic board, or in rarer cases a failed T2 chip or Secure Enclave on Intel models. We run a free no-power diagnostic — connect a known-good charger, check port continuity, and test the battery independently before quoting.',
+    answer: 'A MacBook Air that does not power on has several possible causes: a completely discharged or failed battery, a faulty USB-C charging port, a failed power management IC on the logic board, or in rarer cases a failed T2 chip or Secure Enclave on Intel models. We run a free no-power diagnostic, connect a known-good charger, check port continuity, and test the battery independently before quoting.',
   },
   {
     question: 'How long does MacBook Air repair take?',
@@ -168,15 +168,15 @@ const faqs = [
   },
   {
     question: 'My MacBook Air has a butterfly keyboard with keys that do not work. Can it be fixed?',
-    answer: 'Yes. Butterfly keyboard failure is a known issue on MacBook Air 2018 and 2019 Intel models. Apple\'s free repair programme ended in 2023. The repair involves replacing the full top-case assembly — keyboard, battery bracket, and chassis — with a working unit. We carry top-case assemblies for both affected models and include a warranty.',
+    answer: 'Yes. Butterfly keyboard failure is a known issue on MacBook Air 2018 and 2019 Intel models. Apple\'s free repair programme ended in 2023. The repair involves replacing the full top-case assembly, keyboard, battery bracket, and chassis, with a working unit. We carry top-case assemblies for both affected models and include a 3-month warranty.',
   },
   {
     question: 'Is it worth repairing an older MacBook Air?',
-    answer: 'For most Intel MacBook Air models in good structural condition, repair is almost always financially worthwhile. The machines are well-built and many faults — battery, screen, keyboard, port — are inexpensive relative to the residual value of the machine. We provide an honest repair-versus-replace recommendation based on the repair cost against the current market value of your specific model. We never recommend a repair that does not make financial sense.',
+    answer: 'For most Intel MacBook Air models in good structural condition, repair is almost always financially worthwhile. The machines are well-built and many faults, battery, screen, keyboard, port, are inexpensive relative to the residual value of the machine. We provide an honest repair-versus-replace recommendation based on the repair cost against the current market value of your specific model. We never recommend a repair that does not make financial sense.',
   },
   {
     question: 'My MacBook Air hinge is too stiff or the screen wobbles. Can this be fixed without replacing the entire display?',
-    answer: 'Often yes. Hinge tension can be adjusted by accessing the hinge assembly. If the hinge mechanism itself is intact but too tight or too loose, we adjust the tension without replacing the display. If the hinge is cracked, bent, or has broken mounting points — common on 2018–2020 models with corner fractures — we replace the hinge assembly. In most cases the display does not need to be replaced.',
+    answer: 'Often yes. Hinge tension can be adjusted by accessing the hinge assembly. If the hinge mechanism itself is intact but too tight or too loose, we adjust the tension without replacing the display. If the hinge is cracked, bent, or has broken mounting points, common on 2018–2020 models with corner fractures, we replace the hinge assembly. In most cases the display does not need to be replaced.',
   },
   {
     question: 'Does ZA Support offer a warranty on MacBook Air repairs?',
@@ -184,14 +184,14 @@ const faqs = [
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
-    answer: 'MacBook Air repairs are typically less expensive than MacBook Pro repairs for equivalent faults, due to simpler construction and lower component cost. Logic board repairs are priced by fault complexity rather than model and are quoted individually after a free assessment.',
+    answer: 'MacBook Air repairs are typically less expensive than MacBook Pro repairs for equivalent faults, due to simpler construction and lower component cost. Logic board repairs are priced by fault complexity rather than model and are quoted individually after a assessment fee (R899 ex VAT).',
   },
 ];
 
 const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'ZA Support — MacBook Air Repair Johannesburg',
+  name: 'ZA Support, MacBook Air Repair Johannesburg',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: SITE.rating,
@@ -208,7 +208,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook Air repair in Johannesburg. Battery replacement, screen repair, keyboard, hinge, charging port. M1, M2, M3, M4 and Intel models. No Fix No Fee.',
+    'MacBook Air repair in Johannesburg. Battery replacement, screen repair, keyboard, hinge, charging port. M1, M2, M3, M4 and Intel models. Assessment: R899 ex VAT.',
 };
 
 const breadcrumbSchema = {
@@ -245,10 +245,10 @@ export default function MacBookAirRepairPage() {
               MacBook Air Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Battery, screen, keyboard, hinge, and port repair for all MacBook Air models — M1, M2, M3, M4, and Intel. Intel batteries under 400 cycles degrade performance — a battery replacement often transforms the machine.
+              Battery, screen, keyboard, hinge, and port repair for all MacBook Air models, M1, M2, M3, M4, and Intel. Intel batteries under 400 cycles degrade performance, a battery replacement often transforms the machine.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Battery replacement &middot; Screen repair &middot; Hinge repair &middot; Hyde Park, Johannesburg. No Fix No Fee.
+              Battery replacement &middot; Screen repair &middot; Hinge repair &middot; Hyde Park, Johannesburg. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -264,8 +264,8 @@ export default function MacBookAirRepairPage() {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> warranty</span>
-              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> No Fix No Fee</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 3-Month Warranty</span>
+              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: R899 ex VAT</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
           </div>
@@ -288,11 +288,11 @@ export default function MacBookAirRepairPage() {
                 <div className="flex gap-4 mb-4">
                   <div className="text-center">
                     <p className="text-orange-400 font-extrabold text-2xl">{b.warning}</p>
-                    <p className="text-[#7A9E98] text-xs">cycles — monitor</p>
+                    <p className="text-[#7A9E98] text-xs">cycles, monitor</p>
                   </div>
                   <div className="text-center">
                     <p className="text-red-400 font-extrabold text-2xl">{b.replace}</p>
-                    <p className="text-[#7A9E98] text-xs">cycles — replace now</p>
+                    <p className="text-[#7A9E98] text-xs">cycles, replace now</p>
                   </div>
                 </div>
                 <p className="text-[#0FEA7A] text-xs font-medium mb-2">{b.years}</p>
@@ -301,7 +301,7 @@ export default function MacBookAirRepairPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">
-            Check your cycle count: Apple menu &rarr; About This Mac &rarr; System Report &rarr; Power. Contact us for a battery replacement quote — same-day service available.
+            Check your cycle count: Apple menu &rarr; About This Mac &rarr; System Report &rarr; Power. Contact us for a battery replacement quote, same-day service available.
           </p>
         </div>
       </section>
@@ -339,7 +339,7 @@ export default function MacBookAirRepairPage() {
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air Repairs We Do</h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">All common MacBook Air faults — same-day diagnosis, fixed pricing, warranty.</p>
+          <p className="text-[#7A9E98] text-center mb-12 text-sm">All common MacBook Air faults, same-day diagnosis, fixed pricing, 3-month warranty.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => {
               const Icon = svc.icon;
@@ -400,7 +400,7 @@ export default function MacBookAirRepairPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Air Repair — FAQs" />
+          <FAQAccordion items={faqs} title="MacBook Air Repair, FAQs" />
         </div>
       </section>
 
@@ -410,8 +410,8 @@ export default function MacBookAirRepairPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air Needs a Repair?</h2>
             <p className="text-[#7A9E98] mb-6">
-              Free assessment. Fixed pricing. No Fix No Fee. Hyde Park, Johannesburg.<br />
-              WhatsApp for the fastest response — typically within 30 minutes during business hours.
+              Assessment: R899 ex VAT. Fixed pricing. Assessment: R899 ex VAT. Hyde Park, Johannesburg.<br />
+              WhatsApp for the fastest response, typically within 30 minutes during business hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

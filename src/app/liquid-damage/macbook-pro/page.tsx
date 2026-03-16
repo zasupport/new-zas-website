@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment: R899 ex VAT, 3-month warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro' },
   keywords: [
     'MacBook Pro liquid damage repair Johannesburg',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'MacBook Pro corrosion repair Johannesburg',
     'water damaged MacBook Pro fix Johannesburg',
     'MacBook Pro rice trick alternative Johannesburg',
-    'MacBook Pro liquid damage no fix no fee',
+    'MacBook Pro liquid damage assessment: R899 ex VAT',
   ],
 };
 
@@ -39,32 +39,32 @@ const faqs = [
   {
     question: 'Can a water-damaged MacBook Pro be repaired?',
     answer:
-      'Yes — in the majority of cases, especially when the device is brought in quickly. Our ultrasonic cleaning process removes corrosion before it causes permanent damage. MacBook Pros brought in within 24 hours of a spill have a very high recovery rate. Even machines that sat wet for several days can often be saved with component-level microsoldering.',
+      'Yes, in the majority of cases, especially when the device is brought in quickly. Our ultrasonic cleaning process removes corrosion before it causes permanent damage. MacBook Pros brought in within 24 hours of a spill have a very high recovery rate. Even machines that sat wet for several days can often be saved with component-level microsoldering.',
   },
   {
     question: 'How much does liquid damage repair cost?',
     answer:
-      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. The assessment is always free — we confirm the exact cost before any work begins.',
+      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. The assessment is always free, we confirm the exact cost before any work begins.',
   },
   {
-    question: 'My MacBook was in rice for 3 days — will it work?',
+    question: 'My MacBook was in rice for 3 days, will it work?',
     answer:
-      'Rice does not fix corrosion and never will. Rice absorbs some surface moisture but does nothing to remove the corrosive residue that liquid leaves behind on PCB traces, pads, and components. By the time you bring it in after 3 days in rice, the corrosion has had more time to develop. Bring it to us immediately — do not put it in rice first.',
+      'Rice does not fix corrosion and never will. Rice absorbs some surface moisture but does nothing to remove the corrosive residue that liquid leaves behind on PCB traces, pads, and components. By the time you bring it in after 3 days in rice, the corrosion has had more time to develop. Bring it to us immediately, do not put it in rice first.',
   },
   {
     question: 'How long does liquid damage repair take?',
     answer:
-      'The assessment is completed within 24 hours. Simple repairs — keyboard replacement, USB-C board swap, minor cleaning — are typically done within 24–48 hours. Logic board cleaning and component repair takes 48–72 hours. Complex multi-site corrosion with IC replacement takes 3–5 business days. We confirm the exact timeline before work begins.',
+      'The assessment is completed within 24 hours. Simple repairs, keyboard replacement, USB-C board swap, minor cleaning, are typically done within 24–48 hours. Logic board cleaning and component repair takes 48–72 hours. Complex multi-site corrosion with IC replacement takes 3–5 business days. We confirm the exact timeline before work begins.',
   },
   {
     question: 'What happens if I do not repair liquid damage?',
     answer:
-      'Corrosion continues to spread across the logic board over days and weeks — even after the device appears dry. A machine that starts up fine today may fail permanently within a week. Each day the corrosion advances, it attacks more traces, pads, and components, increasing the repair cost and decreasing the chance of a full recovery. Early intervention is always significantly cheaper.',
+      'Corrosion continues to spread across the logic board over days and weeks, even after the device appears dry. A machine that starts up fine today may fail permanently within a week. Each day the corrosion advances, it attacks more traces, pads, and components, increasing the repair cost and decreasing the chance of a full recovery. Early intervention is always significantly cheaper.',
   },
   {
     question: 'Does Apple cover liquid damage?',
     answer:
-      'Standard AppleCare does not cover accidental liquid damage. AppleCare+ includes accidental damage coverage but requires a service fee per incident. Apple then replaces the entire logic board — a very costly outcome. ZA Support repairs the affected components directly, not the entire board, at a fraction of the cost.',
+      'Standard AppleCare does not cover accidental liquid damage. AppleCare+ includes accidental damage coverage but requires a service fee per incident. Apple then replaces the entire logic board, a very costly outcome. ZA Support repairs the affected components directly, not the entire board, at a fraction of the cost.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro?',
@@ -74,7 +74,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a written warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our No Fix No Fee policy also applies: if we cannot repair your machine, the assessment is free and you pay nothing.',
+      'All ZA Support liquid damage repairs carry a written warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: R899 ex VAT policy also applies: if we cannot repair your machine, the assessment is free and assessment fee of R899 ex VAT applies.',
   },
 ];
 
@@ -82,7 +82,7 @@ const emergencySteps = [
   {
     step: '1',
     title: 'Power off IMMEDIATELY',
-    detail: 'Hold the power button until the screen goes completely dark. Do not wait for a normal shutdown — force power off now. Every second the board is powered with liquid present causes more damage.',
+    detail: 'Hold the power button until the screen goes completely dark. Do not wait for a normal shutdown, force power off now. Every second the board is powered with liquid present causes more damage.',
     urgent: true,
   },
   {
@@ -93,7 +93,7 @@ const emergencySteps = [
   },
   {
     step: '3',
-    title: 'Tilt to drain — keyboard side down',
+    title: 'Tilt to drain, keyboard side down',
     detail: 'Turn the MacBook Pro upside down with the keyboard facing down. This allows gravity to pull liquid away from the logic board. Hold this position for 2–3 minutes over a towel.',
     urgent: false,
   },
@@ -121,7 +121,7 @@ const severityTiers = [
     colour: 'green' as const,
   },
   {
-    scenario: 'Logic board corrosion — minor',
+    scenario: 'Logic board corrosion, minor',
     detail: 'Liquid reached the main logic board but corrosion is localised. Component cleaning under ultrasonic bath, trace repair, and targeted IC replacement restores full function.',
     repair: 'Ultrasonic cleaning, IC cleaning, trace repair',
     recovery: 'Very good',
@@ -129,7 +129,7 @@ const severityTiers = [
     colour: 'yellow' as const,
   },
   {
-    scenario: 'Logic board corrosion — major',
+    scenario: 'Logic board corrosion, major',
     detail: 'Extensive corrosion across multiple board areas. Multiple ICs affected, traces damaged, and multiple failed components. Requires full board cleaning plus targeted component replacement.',
     repair: 'Full component repair, multiple IC replacements',
     recovery: 'Case dependent',
@@ -161,18 +161,18 @@ const badgeColours: Record<string, string> = {
 const repairProcess = [
   {
     step: '1',
-    title: 'Free Assessment',
+    title: 'Assessment: R899 ex VAT',
     detail: 'We open the machine, inspect under our Leica stereo microscope, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. No charge. No obligation.',
   },
   {
     step: '2',
     title: 'Written Quote',
-    detail: 'You receive a fixed quote — not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, you pay nothing.',
+    detail: 'You receive a fixed quote, not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, assessment fee of R899 ex VAT applies.',
   },
   {
     step: '3',
     title: 'Ultrasonic Cleaning',
-    detail: 'The logic board is cleaned in our ultrasonic bath with a specialist PCB cleaning solution. This removes corrosive residue from traces, pads, and component leads — the step that rice never performs.',
+    detail: 'The logic board is cleaned in our ultrasonic bath with a specialist PCB cleaning solution. This removes corrosive residue from traces, pads, and component leads, the step that rice never performs.',
   },
   {
     step: '4',
@@ -196,7 +196,7 @@ const reviews = [
     name: 'Natalie H.',
     location: 'Sandton',
     rating: 5,
-    text: 'Spilled an entire glass of water on my MacBook Pro during a Zoom call. Brought it in within an hour and ZA Support saved it completely. Logic board cleaned and keyboard replaced — works perfectly. Could not be more relieved.',
+    text: 'Spilled an entire glass of water on my MacBook Pro during a Zoom call. Brought it in within an hour and ZA Support saved it completely. Logic board cleaned and keyboard replaced, works perfectly. Could not be more relieved.',
     service: 'Liquid Damage Repair',
   },
   {
@@ -210,8 +210,8 @@ const reviews = [
     name: 'Thandi M.',
     location: 'Fourways',
     rating: 5,
-    text: 'My M2 MacBook Pro had a coffee spill. The screen was dead and it would not charge. ZA Support replaced the display, cleaned the board, and had it back to me in 3 days. warranty too — proper professional service.',
-    service: 'Liquid Damage — Display Replacement',
+    text: 'My M2 MacBook Pro had a coffee spill. The screen was dead and it would not charge. ZA Support replaced the display, cleaned the board, and had it back to me in 3 days. 3-month warranty too, proper professional service.',
+    service: 'Liquid Damage, Display Replacement',
   },
 ];
 
@@ -232,7 +232,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, warranty. All Intel and Apple Silicon models.',
+  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, Assessment: R899 ex VAT, 3-month warranty. All Intel and Apple Silicon models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -261,7 +261,7 @@ export default function MacBookProLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. All Intel and Apple Silicon models.
-              No Fix No Fee. written warranty. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. written 3-month warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Every hour matters after a liquid spill. Corrosion starts within minutes of contact —
@@ -269,9 +269,9 @@ export default function MacBookProLiquidDamagePage() {
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Assessment: R899 ex VAT' },
                 { icon: Clock, label: '24–72hr Turnaround' },
-                { icon: Zap, label: 'Free Assessment' },
+                { icon: Zap, label: 'Assessment: R899 ex VAT' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
               ].map(({ icon: Icon, label }) => (
@@ -291,7 +291,7 @@ export default function MacBookProLiquidDamagePage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
               >
-                💬 WhatsApp — Urgent Help
+                💬 WhatsApp, Urgent Help
               </a>
               <a
                 href={CONTACT.booking}
@@ -311,9 +311,9 @@ export default function MacBookProLiquidDamagePage() {
             <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
               {[
                 { value: '500+', label: 'Liquid Damage Recoveries' },
-                { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2012' },
+                { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '★', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Written Warranty — No Exceptions' },
+                { value: 'Covered', label: 'Written Warranty, No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
@@ -331,9 +331,9 @@ export default function MacBookProLiquidDamagePage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             {[
               { stat: '500+', label: 'Liquid Damage Recoveries' },
-              { stat: 'No Fix No Fee', label: 'Pay nothing if we cannot fix it' },
+              { stat: 'Assessment: R899 ex VAT', label: 'Fee absorbed into repair cost if you proceed' },
               { stat: 'Warranty', label: 'Written. On every repair.' },
-              { stat: 'Free Assessment', label: 'Always. No obligation.' },
+              { stat: 'Assessment: R899 ex VAT', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
                 <p className="text-[#0FEA7A] text-lg font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{stat}</p>
@@ -359,7 +359,7 @@ export default function MacBookProLiquidDamagePage() {
           </h2>
           <p className="text-[#7A9E98] leading-relaxed mb-10">
             The actions you take in the first 30 minutes after a spill determine whether your MacBook Pro
-            can be saved. Follow these steps exactly — in order — before bringing it in.
+            can be saved. Follow these steps exactly, in order, before bringing it in.
           </p>
           <div className="space-y-5">
             {emergencySteps.map((item) => (
@@ -399,17 +399,17 @@ export default function MacBookProLiquidDamagePage() {
               className="text-2xl font-extrabold text-[#E8F4F1] mb-4"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              Why the &ldquo;Rice Trick&rdquo; Does Not Work — The Science
+              Why the &ldquo;Rice Trick&rdquo; Does Not Work, The Science
             </h2>
             <div className="space-y-4 text-[#7A9E98] leading-relaxed">
               <p>
-                The rice myth persists because it feels logical — rice absorbs moisture from food containers,
+                The rice myth persists because it feels logical, rice absorbs moisture from food containers,
                 so it should absorb moisture from electronics. The problem is that liquid damage to a MacBook Pro
                 is not a moisture problem. It is a <strong className="text-[#E8F4F1]">corrosion problem</strong>.
               </p>
               <p>
                 When liquid contacts a powered logic board, electrolytic corrosion begins within minutes.
-                The liquid acts as an electrolyte — it allows current to flow between adjacent traces and pads,
+                The liquid acts as an electrolyte, it allows current to flow between adjacent traces and pads,
                 causing metallic ions to migrate from conductors onto the PCB surface. This creates conductive
                 bridges (dendrites) and eats away copper traces.
               </p>
@@ -483,7 +483,7 @@ export default function MacBookProLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All prices are confirmed before any work begins. Our No Fix No Fee policy applies to every case —
+              All prices are confirmed before any work begins. Our Assessment: R899 ex VAT policy applies to every case —
               if we cannot repair your MacBook Pro, the assessment is free and the machine is returned exactly
               as received. written warranty on all repairs.
             </p>
@@ -502,7 +502,7 @@ export default function MacBookProLiquidDamagePage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 leading-relaxed">
             We follow a systematic, transparent process on every liquid damage case. You are kept informed
-            at every stage — and you approve the cost before we begin.
+            at every stage, and you approve the cost before we begin.
           </p>
           <div className="space-y-5">
             {repairProcess.map((item) => (
@@ -532,24 +532,24 @@ export default function MacBookProLiquidDamagePage() {
                 MacBook Pro Models We Repair
               </h2>
               <p className="text-[#7A9E98] leading-relaxed mb-6">
-                We repair all MacBook Pro models for liquid damage — from the 2016 redesign through to the
+                We repair all MacBook Pro models for liquid damage, from the 2016 redesign through to the
                 latest M3 Pro and M3 Max. Our engineers know every board revision and every failure mode
                 across all generations.
               </p>
               <div className="space-y-2.5">
                 {[
-                  'MacBook Pro 13" (A1706, A1708) — 2016–2017',
-                  'MacBook Pro 15" (A1707) — 2016–2017',
-                  'MacBook Pro 13" (A1989, A1990) — 2018–2019',
-                  'MacBook Pro 16" (A2141) — 2019',
-                  'MacBook Pro 13" (A2251, A2289, A2338) — 2020',
-                  'MacBook Pro 14" M1 Pro/Max (A2442) — 2021',
-                  'MacBook Pro 16" M1 Pro/Max (A2485) — 2021',
-                  'MacBook Pro 13" M2 (A2338) — 2022',
-                  'MacBook Pro 14" M2 Pro/Max (A2779) — 2023',
-                  'MacBook Pro 16" M2 Pro/Max (A2780) — 2023',
-                  'MacBook Pro 14" M3 Pro/Max (A2992) — 2023–2024',
-                  'MacBook Pro 16" M3 Pro/Max (A2991) — 2023–2024',
+                  'MacBook Pro 13" (A1706, A1708), 2016–2017',
+                  'MacBook Pro 15" (A1707), 2016–2017',
+                  'MacBook Pro 13" (A1989, A1990), 2018–2019',
+                  'MacBook Pro 16" (A2141), 2019',
+                  'MacBook Pro 13" (A2251, A2289, A2338), 2020',
+                  'MacBook Pro 14" M1 Pro/Max (A2442), 2021',
+                  'MacBook Pro 16" M1 Pro/Max (A2485), 2021',
+                  'MacBook Pro 13" M2 (A2338), 2022',
+                  'MacBook Pro 14" M2 Pro/Max (A2779), 2023',
+                  'MacBook Pro 16" M2 Pro/Max (A2780), 2023',
+                  'MacBook Pro 14" M3 Pro/Max (A2992), 2023–2024',
+                  'MacBook Pro 16" M3 Pro/Max (A2991), 2023–2024',
                 ].map((model) => (
                   <div key={model} className="flex items-center gap-3">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
@@ -626,7 +626,7 @@ export default function MacBookProLiquidDamagePage() {
                   <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
                   <div className="flex items-center gap-1 mt-0.5">
                     <MapPin className="w-3 h-3 text-[#7A9E98]" />
-                    <p className="text-[#7A9E98] text-xs">{review.location} — {review.service}</p>
+                    <p className="text-[#7A9E98] text-xs">{review.location}, {review.service}</p>
                   </div>
                 </div>
               </div>
@@ -638,7 +638,7 @@ export default function MacBookProLiquidDamagePage() {
       {/* FAQs */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro Liquid Damage — FAQs" />
+          <FAQAccordion items={faqs} title="MacBook Pro Liquid Damage, FAQs" />
         </div>
       </section>
 
@@ -683,7 +683,7 @@ export default function MacBookProLiquidDamagePage() {
               MacBook Pro Liquid Damage? Act Now.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              Every minute counts. WhatsApp us now for an immediate response — we will guide you
+              Every minute counts. WhatsApp us now for an immediate response, we will guide you
               through the next steps and get your machine booked in as fast as possible.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -693,7 +693,7 @@ export default function MacBookProLiquidDamagePage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
               >
-                💬 WhatsApp — Urgent Help
+                💬 WhatsApp, Urgent Help
               </a>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
@@ -703,7 +703,7 @@ export default function MacBookProLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              Free assessment. No Fix No Fee. written warranty. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Assessment: R899 ex VAT. written 3-month warranty. Hyde Park, Johannesburg.
             </p>
           </div>
         </div>

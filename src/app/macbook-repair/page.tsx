@@ -11,12 +11,12 @@ const REVIEWS = { rating: SITE.rating, count: SITE.reviewCount };
 export const metadata: Metadata = {
   title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
   description:
-    'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. All M-series and Intel models. No Fix No Fee. Hyde Park. Call 064 529 5863.',
+    'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. All M-series and Intel models. Assessment: R899 ex VAT. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair' },
   keywords: ['macbook repair johannesburg', 'mac repair near me johannesburg', 'macbook repair sandton', 'apple repair johannesburg', 'macbook battery replacement johannesburg', 'macbook screen repair johannesburg'],
   openGraph: {
     title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
-    description: 'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. No Fix No Fee.',
+    description: 'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. Assessment: R899 ex VAT.',
     url: 'https://zasupport.com/macbook-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -27,7 +27,7 @@ const services = [
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore battery life to 100%. MacBook Air and MacBook Pro — all models.',
+    description: 'Restore battery life to 100%. MacBook Air and MacBook Pro, all models.',
     href: '/macbook-repair/battery',
     accent: 'text-green-400',
   },
@@ -96,7 +96,7 @@ const models = [
 const faqs = [
   {
     question: 'How much does MacBook repair cost in Johannesburg?',
-    answer: 'MacBook repair costs depend on the fault type and model. We provide a free assessment and a detailed written quote before any work begins. Contact us for a quote specific to your model and fault.',
+    answer: 'MacBook repair costs depend on the fault type and model. We provide a assessment fee (R899 ex VAT) and a detailed written quote before any work begins. Contact us for a quote specific to your model and fault.',
   },
   {
     question: 'Do you repair M-series MacBooks (M1, M2, M3)?',
@@ -107,8 +107,8 @@ const faqs = [
     answer: 'Battery replacement: 60–90 minutes. Screen replacement: 2–4 hours depending on model. Keyboard replacement: 2–3 hours. Logic board and liquid damage repairs typically take 3–5 business days as they involve component-level diagnosis and microsoldering.',
   },
   {
-    question: 'Is there a No Fix No Fee policy?',
-    answer: 'Yes. If we assess your MacBook and cannot repair it, or the repair is not cost-effective, you pay nothing. We provide an honest prognosis and written quote before starting any work.',
+    question: 'Is there a Assessment: R899 ex VAT policy?',
+    answer: 'Yes. If we assess your MacBook and cannot repair it, or the repair is not cost-effective, assessment fee of R899 ex VAT applies. We provide an honest prognosis and written quote before starting any work.',
   },
   {
     question: 'Do you offer a warranty on MacBook repairs?',
@@ -116,7 +116,7 @@ const faqs = [
   },
   {
     question: 'Can you recover data from a damaged MacBook?',
-    answer: 'In most cases, yes. For liquid-damaged or failed-to-boot MacBooks, data recovery is often possible before or alongside the repair. Modern Macs with Apple Silicon have encrypted storage — data is recoverable if the logic board is repaired, not in all cases of total board failure. We will advise you honestly after assessment.',
+    answer: 'In most cases, yes. For liquid-damaged or failed-to-boot MacBooks, data recovery is often possible before or alongside the repair. Modern Macs with Apple Silicon have encrypted storage, data is recoverable if the logic board is repaired, not in all cases of total board failure. We will advise you honestly after assessment.',
   },
   {
     question: 'Where are you located in Johannesburg?',
@@ -128,7 +128,7 @@ const faqs = [
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
-    answer: 'MacBook Pro repairs are typically more involved than MacBook Air repairs for equivalent faults. This is due to the higher component cost, the more complex construction of Pro models, and the additional time required for disassembly. Logic board repair pricing is fault-specific and model-specific — a free diagnostic gives you the exact cost before any work starts.',
+    answer: 'MacBook Pro repairs are typically more involved than MacBook Air repairs for equivalent faults. This is due to the higher component cost, the more complex construction of Pro models, and the additional time required for disassembly. Logic board repair pricing is fault-specific and model-specific, a assessment gives you the exact cost before any work starts.',
   },
   {
     question: 'Can you fix a MacBook that will not turn on at all?',
@@ -151,7 +151,7 @@ const serviceSchema = {
   name: 'MacBook Repair Johannesburg',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'MacBook repair in Johannesburg — battery, screen, keyboard, liquid damage, logic board. All M-series and Intel models. No Fix No Fee.',
+  description: 'MacBook repair in Johannesburg, battery, screen, keyboard, liquid damage, logic board. All M-series and Intel models. Assessment: R899 ex VAT.',
   offers: {
     '@type': 'AggregateOffer',
   },
@@ -189,7 +189,7 @@ const macbookReviewSchema = {
       author: { '@type': 'Person', name: 'Thabo N.' },
       datePublished: '2026-01',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'MacBook Air would not turn on. ZA Support diagnosed it as a failed charging IC and fixed it in 24 hours. The free diagnostic meant I knew exactly what was wrong before committing to anything. Excellent service.',
+      reviewBody: 'MacBook Air would not turn on. ZA Support diagnosed it as a failed charging IC and fixed it in 24 hours. The assessment meant I knew exactly what was wrong before committing to anything. Excellent service.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Repair Johannesburg',
@@ -201,7 +201,7 @@ const macbookReviewSchema = {
       author: { '@type': 'Person', name: 'Lisa V.' },
       datePublished: '2026-03',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Used ZA Support for a screen replacement on my MacBook. Professional, fast, and fairly priced. They also spotted a swollen battery I did not know about and flagged it — saved me from a bigger problem later.',
+      reviewBody: 'Used ZA Support for a screen replacement on my MacBook. Professional, fast, and fairly priced. They also spotted a swollen battery I did not know about and flagged it, saved me from a bigger problem later.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Repair Johannesburg',
@@ -231,7 +231,7 @@ export default function MacBookRepairPage() {
               MacBook Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. No Fix No Fee policy. warranty.
+              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. Assessment: R899 ex VAT policy. 3-month warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -248,8 +248,8 @@ export default function MacBookRepairPage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> warranty</span>
-              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> No Fix No Fee</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 3-Month Warranty</span>
+              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: R899 ex VAT</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
           </div>
@@ -263,7 +263,7 @@ export default function MacBookRepairPage() {
             MacBook Repair <span className="text-[#0FEA7A]">Services</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            From a dead battery to board-level microsoldering — every MacBook fault, one address.
+            From a dead battery to board-level microsoldering, every MacBook fault, one address.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service) => (
@@ -291,7 +291,7 @@ export default function MacBookRepairPage() {
             MacBook <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            All costs are confirmed after a free assessment. Final cost is confirmed in writing before work begins.
+            All costs are confirmed after a assessment fee (R899 ex VAT). Final cost is confirmed in writing before work begins.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
@@ -323,7 +323,7 @@ export default function MacBookRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">
-            Final cost confirmed after free assessment. All repairs include warranty.
+            Final cost confirmed after assessment fee (R899 ex VAT). All repairs include 3-month warranty.
           </p>
           <div className="mt-8 p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-xl text-center">
             <p className="text-[#E8F4F1] text-sm">
@@ -331,7 +331,7 @@ export default function MacBookRepairPage() {
               <Link href="/logic-board-repair" className="text-[#0FEA7A] font-semibold hover:underline">
                 logic board microsoldering
               </Link>
-              ? We repair the chips other shops replace — at a fraction of Apple&apos;s board replacement quote.
+              ? We repair the chips other shops replace, at a fraction of Apple&apos;s board replacement quote.
             </p>
           </div>
         </div>
@@ -364,14 +364,14 @@ export default function MacBookRepairPage() {
             <Link href="/macbook-air-repair" className="glass-card p-6 flex items-center justify-between group hover:border-[rgba(15,234,122,0.35)] transition-all">
               <div>
                 <div className="text-[#E8F4F1] font-bold group-hover:text-[#0FEA7A] transition-colors">MacBook Air Repair</div>
-                <div className="text-[#7A9E98] text-xs mt-1">M1, M2, M3 and Intel — all years</div>
+                <div className="text-[#7A9E98] text-xs mt-1">M1, M2, M3 and Intel, all years</div>
               </div>
               <ArrowRight className="w-5 h-5 text-[#0FEA7A] opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
             <Link href="/macbook-pro-repair" className="glass-card p-6 flex items-center justify-between group hover:border-[rgba(15,234,122,0.35)] transition-all">
               <div>
                 <div className="text-[#E8F4F1] font-bold group-hover:text-[#0FEA7A] transition-colors">MacBook Pro Repair</div>
-                <div className="text-[#7A9E98] text-xs mt-1">M1–M3 Pro/Max and Intel — all years</div>
+                <div className="text-[#7A9E98] text-xs mt-1">M1–M3 Pro/Max and Intel, all years</div>
               </div>
               <ArrowRight className="w-5 h-5 text-[#0FEA7A] opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
@@ -401,7 +401,7 @@ export default function MacBookRepairPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Repair — FAQs" />
+          <FAQAccordion items={faqs} title="MacBook Repair, FAQs" />
         </div>
       </section>
 
@@ -410,7 +410,7 @@ export default function MacBookRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Giving You Problems?</h2>
-            <p className="text-[#7A9E98] mb-6">Free assessment. Honest quote. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Honest quote. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

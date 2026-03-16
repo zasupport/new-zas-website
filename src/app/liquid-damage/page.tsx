@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, free assessment and same-day diagnosis. No Fix No Fee. Call 064 529 5863.',
+    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, assessment fee (R899 ex VAT) and same-day diagnosis. Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },
 };
 
@@ -18,12 +18,12 @@ const faqs = [
   {
     question: 'How quickly should I bring in my device after liquid damage?',
     answer:
-      'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. Rice does not help and wastes critical time. Switch your device off, do not attempt to charge it, and bring it to our Hyde Park workshop as soon as possible. We offer same-day assessment.',
+      'Immediately, within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. Rice does not help and wastes critical time. Switch your device off, do not attempt to charge it, and bring it to our Hyde Park workshop as soon as possible. We offer same-day assessment.',
   },
   {
     question: 'Will you be able to tell me if my MacBook is repairable before I commit to a repair?',
     answer:
-      'Yes. Our assessment is completely free with no obligation. We will open the device, inspect the damage under magnification, and give you an honest prognosis and quote before any work begins. If it is not economically repairable, we will tell you — and help you with data recovery options.',
+      'Yes. Our assessment is completely free with no obligation. We will open the device, inspect the damage under magnification, and give you an honest prognosis and quote before any work begins. If it is not economically repairable, we will tell you, and help you with data recovery options.',
   },
   {
     question: 'Does liquid damage repair fall under warranty?',
@@ -36,14 +36,14 @@ const faqs = [
       'We disassemble your device completely, then submerge the logic board and affected components in an ultrasonic cleaning bath using IPA-based cleaning solution. The ultrasonic vibration dislodges corrosion, mineral deposits, and contaminants from component leads, pads, and traces that cannot be reached by hand cleaning alone. The board is then dried and inspected under magnification.',
   },
   {
-    question: 'My MacBook got wet but still works — should I bring it in?',
+    question: 'My MacBook got wet but still works, should I bring it in?',
     answer:
       'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern we see is a MacBook that "survived" liquid exposure for weeks, then suddenly fails. Early intervention is dramatically cheaper and more successful than waiting.',
   },
   {
     question: 'What types of liquid cause the most damage?',
     answer:
-      'Coffee and sugary drinks cause the most damage because they leave conductive residues that accelerate corrosion and cause short circuits. Salt water causes rapid and severe corrosion. Pure water causes less immediate damage but still introduces moisture that leads to oxidation over time. Whatever liquid was involved, the repair process is the same — bring the device in immediately.',
+      'Coffee and sugary drinks cause the most damage because they leave conductive residues that accelerate corrosion and cause short circuits. Salt water causes rapid and severe corrosion. Pure water causes less immediate damage but still introduces moisture that leads to oxidation over time. Whatever liquid was involved, the repair process is the same, bring the device in immediately.',
   },
 ];
 
@@ -61,7 +61,7 @@ const steps = [
   { title: 'Ultrasonic Cleaning', description: 'Full disassembly. Logic board and components cleaned in ultrasonic bath to remove corrosion and contaminants.' },
   { title: 'Diagnostic', description: 'Post-clean diagnostic to identify damaged or failed components. Tested against known-good reference boards.' },
   { title: 'Component Repair', description: 'Board-level microsoldering to replace failed chips, capacitors, resistors, and connector pins under magnification.' },
-  { title: 'Testing', description: 'Full functional test — display, keyboard, trackpad, ports, charging, Wi-Fi, camera, and all sensors.' },
+  { title: 'Testing', description: 'Full functional test, display, keyboard, trackpad, ports, charging, Wi-Fi, camera, and all sensors.' },
   { title: 'Return', description: 'Device returned clean, fully functional, with a ZA Support warranty on all repaired components.' },
 ];
 
@@ -89,7 +89,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Liquid Damage Assessment',
-          description: 'Free same-day assessment for MacBook liquid damage. No Fix No Fee.',
+          description: 'Free same-day assessment for MacBook liquid damage. Assessment: R899 ex VAT.',
         },
         price: '0',
         priceCurrency: 'ZAR',
@@ -98,8 +98,8 @@ const serviceSchema = {
         '@type': 'Offer',
         itemOffered: {
           '@type': 'Service',
-          name: 'MacBook Liquid Damage Repair — Ultrasonic Cleaning',
-          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. warranty.',
+          name: 'MacBook Liquid Damage Repair, Ultrasonic Cleaning',
+          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. 3-month warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -120,7 +120,7 @@ const howToSchema = {
       '@type': 'HowToStep',
       position: 1,
       name: 'Switch off immediately and do not turn it back on',
-      text: 'Hold the power button until the Mac shuts down. Do not try to restart it — powering on a wet board causes short circuits that accelerate damage and turn a repairable fault into permanent failure.',
+      text: 'Hold the power button until the Mac shuts down. Do not try to restart it, powering on a wet board causes short circuits that accelerate damage and turn a repairable fault into permanent failure.',
       url: 'https://zasupport.com/liquid-damage#step-switch-off',
     },
     {
@@ -188,7 +188,7 @@ const liquidDamageReviewSchema = {
       author: { '@type': 'Person', name: 'David M.' },
       datePublished: '2026-01',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a warranty. Cannot believe it.',
+      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a 3-month warranty. Cannot believe it.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Liquid Damage Repair Johannesburg',
@@ -200,7 +200,7 @@ const liquidDamageReviewSchema = {
       author: { '@type': 'Person', name: 'Nomsa P.' },
       datePublished: '2026-03',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Free diagnostic, no surprises on the invoice. 5 stars.',
+      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Assessment: R899 ex VAT, no surprises on the invoice. 5 stars.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Liquid Damage Repair Johannesburg',
@@ -234,7 +234,7 @@ export default function LiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Johannesburg&apos;s liquid damage specialists. Board-level cleaning, component repair, and free
-              assessment. No Fix No Fee. warranty. Hyde Park.
+              assessment. Assessment: R899 ex VAT. 3-month warranty. Hyde Park.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -264,7 +264,7 @@ export default function LiquidDamagePage() {
             <AlertTriangle className="w-6 h-6 text-white flex-shrink-0 mt-0.5" />
             <div>
               <p className="text-white font-bold text-lg">
-                Water damage? Act immediately — oxidation spreads within hours. Do NOT use rice.
+                Water damage? Act immediately, oxidation spreads within hours. Do NOT use rice.
               </p>
               <p className="text-red-200 text-sm mt-1">
                 Every hour increases repair complexity. Switch off your device, do not charge it, and contact us now.
@@ -288,13 +288,13 @@ export default function LiquidDamagePage() {
               </h2>
               <div className="space-y-5 text-[#7A9E98] leading-relaxed">
                 <p>
-                  The moment liquid enters your MacBook or iPhone, a damaging process begins. Water — even pure
-                  water — is a conductor when it carries dissolved minerals. The moment it bridges two electrical
+                  The moment liquid enters your MacBook or iPhone, a damaging process begins. Water, even pure
+                  water, is a conductor when it carries dissolved minerals. The moment it bridges two electrical
                   contacts on your logic board, it creates a short circuit. Current flows where it should not,
                   components overheat, and damage begins.
                 </p>
                 <p>
-                  Within hours, the liquid begins to evaporate — but it leaves behind mineral deposits and
+                  Within hours, the liquid begins to evaporate, but it leaves behind mineral deposits and
                   corrosion products. Coffee, sugary drinks, and salt water are particularly destructive because
                   they leave highly conductive residues that continue to cause damage even after the liquid has dried.
                 </p>
@@ -305,7 +305,7 @@ export default function LiquidDamagePage() {
                   component pads.
                 </p>
                 <p>
-                  Professional ultrasonic cleaning — the kind we perform in our Hyde Park workshop — physically
+                  Professional ultrasonic cleaning, the kind we perform in our Hyde Park workshop, physically
                   removes these deposits using ultrasonic vibration in a cleaning solution, stopping the
                   corrosion process before it causes permanent irreversible damage.
                 </p>
@@ -323,11 +323,11 @@ export default function LiquidDamagePage() {
               <div className="bg-[rgba(22,34,32,0.6)] border border-[rgba(15,234,122,0.15)] rounded-2xl overflow-hidden">
                 {[
                   { device: 'MacBook Air', models: 'M1, M2, M3, Intel 2018–2020' },
-                  { device: 'MacBook Pro', models: '13", 14", 16" — All M-series & Intel' },
+                  { device: 'MacBook Pro', models: '13", 14", 16", All M-series & Intel' },
                   { device: 'iPhone', models: 'iPhone 8 through iPhone 16 Pro Max' },
                   { device: 'iPad', models: 'All models including M4 iPad Pro' },
                   { device: 'Apple Watch', models: 'Series 3 through Ultra 2' },
-                  { device: 'iMac', models: '21.5" & 27" — M1, M3, Intel' },
+                  { device: 'iMac', models: '21.5" & 27", M1, M3, Intel' },
                 ].map((item, i) => (
                   <div
                     key={item.device}
@@ -339,7 +339,7 @@ export default function LiquidDamagePage() {
                 ))}
               </div>
               <p className="text-[#7A9E98] text-xs mt-3">
-                Assessment is free. No Fix No Fee guarantee on all liquid damage repairs.
+                Assessment is free. Assessment: R899 ex VAT guarantee on all liquid damage repairs.
               </p>
             </div>
           </div>
@@ -385,7 +385,7 @@ export default function LiquidDamagePage() {
             <div className="space-y-4 text-[#7A9E98] leading-relaxed">
               <p>
                 The rice myth is one of the most damaging pieces of consumer advice circulating online. Placing
-                your MacBook in a bag of rice may feel like you are doing something — but it is actively making
+                your MacBook in a bag of rice may feel like you are doing something, but it is actively making
                 the situation worse.
               </p>
               <p>
@@ -413,7 +413,7 @@ export default function LiquidDamagePage() {
               When Liquid Damage Affects the Logic Board
             </h2>
             <p className="text-[#7A9E98] leading-relaxed mb-4">
-              In severe liquid damage cases, corrosion can damage the logic board itself — affecting chips,
+              In severe liquid damage cases, corrosion can damage the logic board itself, affecting chips,
               capacitors, and copper traces. Standard cleaning is not sufficient for these cases. Our engineers
               use microscope-guided microsoldering to replace individual components at board level, which is far
               more cost-effective than a full logic board replacement.
@@ -435,7 +435,7 @@ export default function LiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { icon: Shield, label: 'No Fix No Fee', sub: 'Zero risk to you' },
+              { icon: Shield, label: 'Assessment: R899 ex VAT', sub: 'Zero risk to you' },
               { icon: CheckCircle, label: 'Warranty', sub: 'On all repairs' },
               { icon: Clock, label: '72-Hour Turnaround', sub: 'Most liquid damage cases' },
               { icon: Phone, label: 'Same-Day Assessment', sub: 'Hyde Park, JHB' },
@@ -479,7 +479,7 @@ export default function LiquidDamagePage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Liquid Damage Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="Liquid Damage Repair, Common Questions" />
         </div>
       </section>
 
@@ -491,10 +491,10 @@ export default function LiquidDamagePage() {
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              Book Free Assessment — We Respond Within 1 Hour
+              Book Assessment, We Respond Within 1 Hour
             </h2>
             <p className="text-[#7A9E98] mb-6">
-              No Fix No Fee. Honest prognosis. warranty on all work.
+              Assessment: R899 ex VAT. Honest prognosis. warranty on all work.
             </p>
             <a
               href={`tel:${CONTACT.phoneTel}`}

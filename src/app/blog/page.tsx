@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { ArrowRight, Calendar } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Blog — Apple Tips, Repair Guides & Tech News | ZA Support',
-  description: 'Apple repair tips, macOS guides, device maintenance advice, and IT news from ZA Support — Johannesburg\'s Apple specialists.',
+  title: 'Blog, Apple Tips, Repair Guides & Tech News | ZA Support',
+  description: 'Apple repair tips, macOS guides, device maintenance advice, and IT news from ZA Support, Johannesburg\'s Apple specialists.',
   alternates: { canonical: 'https://zasupport.com/blog' },
 };
 
@@ -28,7 +28,7 @@ const posts = [
   {
     slug: 'macbook-logic-board-repair-cost-johannesburg-2026',
     title: 'MacBook Logic Board Repair in Johannesburg: What to Expect in 2026',
-    excerpt: 'Everything you need to know about MacBook logic board repair costs in Johannesburg — what a logic board does, signs it has failed, how the repair works, and why component-level repair saves you thousands.',
+    excerpt: 'Everything you need to know about MacBook logic board repair costs in Johannesburg, what a logic board does, signs it has failed, how the repair works, and why component-level repair saves you thousands.',
     date: '16/03/2026',
     category: 'Repair Guides',
     readTime: '7 min read',
@@ -36,7 +36,7 @@ const posts = [
   {
     slug: 'how-to-speed-up-mac-free',
     title: 'How to Speed Up Your Mac for Free (2026 Guide)',
-    excerpt: 'Ten free steps to make your Mac noticeably faster today — from clearing startup items and resetting the SMC to cleaning your Downloads folder and managing storage pressure. No paid software required.',
+    excerpt: 'Ten free steps to make your Mac noticeably faster today, from clearing startup items and resetting the SMC to cleaning your Downloads folder and managing storage pressure. No paid software required.',
     date: '14/03/2026',
     category: 'How-To Guides',
     readTime: '9 min read',
@@ -44,7 +44,7 @@ const posts = [
   {
     slug: 'mac-not-turning-on-checklist',
     title: 'Mac Won\'t Turn On? Work Through This Checklist First',
-    excerpt: 'Before assuming the worst, work through this 8-step self-service checklist. Most Mac startup failures have a straightforward cause — a flat battery, a stuck power button, or a corrupted boot volume — and can be resolved without a repair.',
+    excerpt: 'Before assuming the worst, work through this 8-step self-service checklist. Most Mac startup failures have a straightforward cause, a flat battery, a stuck power button, or a corrupted boot volume, and can be resolved without a repair.',
     date: '14/03/2026',
     category: 'How-To Guides',
     readTime: '8 min read',
@@ -52,7 +52,7 @@ const posts = [
   {
     slug: 'macbook-running-slow',
     title: 'Why Is My MacBook Running Slow? 7 Fixes That Actually Work',
-    excerpt: 'A slow MacBook is almost always fixable without spending a cent. Here are the 7 most common causes of MacBook slowness and exactly how to fix each one — from storage pressure to thermal throttling.',
+    excerpt: 'A slow MacBook is almost always fixable without spending a cent. Here are the 7 most common causes of MacBook slowness and exactly how to fix each one, from storage pressure to thermal throttling.',
     date: '14/03/2026',
     category: 'How-To Guides',
     readTime: '8 min read',
@@ -68,7 +68,7 @@ const posts = [
   {
     slug: 'apple-id-locked-out',
     title: 'Locked Out of Apple ID? Here\'s Exactly What to Do',
-    excerpt: 'Being locked out of your Apple ID affects your Mac, iPhone, iPad, and every Apple service. This guide covers every recovery method available in 2026 — including what to do when the standard options fail.',
+    excerpt: 'Being locked out of your Apple ID affects your Mac, iPhone, iPad, and every Apple service. This guide covers every recovery method available in 2026, including what to do when the standard options fail.',
     date: '14/03/2026',
     category: 'How-To Guides',
     readTime: '9 min read',
@@ -76,7 +76,7 @@ const posts = [
   {
     slug: 'macbook-load-shedding-damage',
     title: 'Load Shedding Damaged My MacBook: What You Need to Know',
-    excerpt: 'Load shedding does not just cut your power — the surge when power returns can silently destroy a MacBook logic board. Here is what happens, the warning signs, and how to protect your machine.',
+    excerpt: 'Load shedding does not just cut your power, the surge when power returns can silently destroy a MacBook logic board. Here is what happens, the warning signs, and how to protect your machine.',
     date: '14/03/2026',
     category: 'Repair Guides',
     readTime: '7 min read',
@@ -84,7 +84,7 @@ const posts = [
   {
     slug: 'what-to-do-macbook-liquid-damage',
     title: 'What to Do Immediately After Your MacBook Gets Wet',
-    excerpt: 'The first 30 minutes after a liquid spill are critical. Here is exactly what to do — and what not to do — to maximise your chances of a successful repair.',
+    excerpt: 'The first 30 minutes after a liquid spill are critical. Here is exactly what to do, and what not to do, to maximise your chances of a successful repair.',
     date: '08/03/2026',
     category: 'Repair Guides',
     readTime: '5 min read',
@@ -100,7 +100,7 @@ const posts = [
   {
     slug: 'jamf-mdm-guide-south-africa',
     title: 'JAMF MDM for South African Businesses: A Complete Guide',
-    excerpt: 'Everything you need to know about managing Apple devices with JAMF in a South African business context — POPIA compliance, costs, and implementation.',
+    excerpt: 'Everything you need to know about managing Apple devices with JAMF in a South African business context, POPIA compliance, costs, and implementation.',
     date: '20/02/2026',
     category: 'Enterprise',
     readTime: '8 min read',

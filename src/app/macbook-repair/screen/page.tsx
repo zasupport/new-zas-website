@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Screen Replacement Johannesburg | ZA Support',
   description:
-    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. warranty. Hyde Park, Johannesburg.',
+    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 3-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/screen' },
   keywords: [
     'MacBook screen replacement Johannesburg',
@@ -37,10 +37,10 @@ const pricingRows = [
 
 const symptoms = [
   { icon: <AlertTriangle className="w-5 h-5" />, title: 'Cracked or Shattered Glass', desc: 'Physical impact cracks the Retina panel or outer glass. Display replacement is the correct fix.' },
-  { icon: <Monitor className="w-5 h-5" />, title: 'Dead Pixels', desc: 'Permanent black or coloured dots on the panel — caused by LCD cell failure. Full assembly replacement resolves this.' },
+  { icon: <Monitor className="w-5 h-5" />, title: 'Dead Pixels', desc: 'Permanent black or coloured dots on the panel, caused by LCD cell failure. Full assembly replacement resolves this.' },
   { icon: <Zap className="w-5 h-5" />, title: 'Backlight Failure', desc: 'Screen is completely dark or very dim even at full brightness. Often the backlight circuit or LED strip has failed.' },
   { icon: <AlertTriangle className="w-5 h-5" />, title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines are usually a failed LCD panel, though GPU faults can produce similar symptoms. We diagnose first.' },
-  { icon: <Monitor className="w-5 h-5" />, title: 'Screen Flickering', desc: 'Intermittent flickering on M-series MacBooks can be a display cable issue or a panel fault — both repaired via assembly replacement.' },
+  { icon: <Monitor className="w-5 h-5" />, title: 'Screen Flickering', desc: 'Intermittent flickering on M-series MacBooks can be a display cable issue or a panel fault, both repaired via assembly replacement.' },
   { icon: <Zap className="w-5 h-5" />, title: 'Half Screen Dark or Black', desc: 'A partial blackout usually means the LCD panel has failed. If it appeared after a drop, the display cable may also be damaged.' },
   { icon: <AlertTriangle className="w-5 h-5" />, title: 'Water Lines or Grey Blotches', desc: 'Liquid damage to the display causes grey or brown blotches that spread. Early replacement prevents permanent discolouration.' },
   { icon: <Monitor className="w-5 h-5" />, title: 'Hinge / Cable Damage', desc: 'Repeated opening and closing stresses the display cable. If your screen flickers when you adjust the lid angle, the cable needs replacement.' },
@@ -49,27 +49,27 @@ const symptoms = [
 const faqs = [
   {
     question: 'How much does MacBook screen replacement cost in Johannesburg?',
-    answer: 'The exact price depends on your specific model and year. We provide a free assessment and give you a written fixed quote before starting any work — no surprises.',
+    answer: 'The exact price depends on your specific model and year. We provide a assessment fee (R899 ex VAT) and give you a written fixed quote before starting any work, no surprises.',
   },
   {
     question: 'How long does MacBook screen replacement take?',
-    answer: 'Most MacBook screen replacements take 2–4 hours. If we have your specific display assembly in stock, same-day repair is available. We will confirm turnaround time when you bring it in. For M4 Pro and M4 Max models, we may need 24–48 hours to source the correct panel.',
+    answer: 'Most MacBook screen replacements take 2–4 hours. We will confirm turnaround time when you bring it in. For newer M4 Pro and M4 Max models, we may need 24–48 hours.',
   },
   {
     question: 'Do you use genuine Apple screens?',
-    answer: 'We use OEM-quality replacement display assemblies that meet Apple\'s specifications for brightness, colour accuracy, and resolution. All replacement screens are tested before installation and carry our written warranty. We do not use cheap aftermarket panels — the quality difference is visible.',
+    answer: 'We use OEM-quality replacement display assemblies that meet Apple\'s specifications for brightness, colour accuracy, and resolution. All replacement screens are tested before installation and carry our written 3-month warranty. We do not use cheap aftermarket panels, the quality difference is visible.',
   },
   {
     question: 'Will I lose any data during a screen replacement?',
-    answer: 'No. Screen replacement is a hardware procedure that does not touch your storage or operating system. Your data, apps, and settings are completely unaffected. That said, we always recommend backing up before any repair — your data is your responsibility.',
+    answer: 'No. Screen replacement is a hardware procedure that does not touch your storage or operating system. Your data, apps, and settings are completely unaffected. That said, we always recommend backing up before any repair, your data is your responsibility.',
   },
   {
     question: 'Can you fix a MacBook Pro M1 or M2 screen?',
     answer: 'Yes. We repair all Apple Silicon MacBooks including M1, M2, M3, and M4 variants across all MacBook Air and MacBook Pro lines. Apple Silicon models use a display assembly similar in approach to Intel models, though the calibration steps differ. We calibrate True Tone and brightness after every M-series screen replacement.',
   },
   {
-    question: 'My MacBook has lines on the screen — is it the display or the GPU?',
-    answer: 'Both GPU faults and failed display panels produce lines on screen. The key difference: if lines appear on an external monitor too, the fault is the GPU or logic board. If the external monitor is clean, the fault is almost certainly the display assembly. We do a free diagnostic to confirm before quoting.',
+    question: 'My MacBook has lines on the screen, is it the display or the GPU?',
+    answer: 'Both GPU faults and failed display panels produce lines on screen. The key difference: if lines appear on an external monitor too, the fault is the GPU or logic board. If the external monitor is clean, the fault is almost certainly the display assembly. We do a assessment to confirm before quoting.',
   },
   {
     question: 'Does screen replacement affect True Tone on my MacBook?',
@@ -86,21 +86,21 @@ const reviews = [
     name: 'Tayla M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'Dropped my MacBook Pro 14" M2 and completely shattered the screen. ZA Support had it repaired the same day. The new display looks perfect — True Tone works, brightness is correct. Worth every rand.',
+    text: 'Dropped my MacBook Pro 14" M2 and completely shattered the screen. ZA Support had it repaired the same day. The new display looks perfect, True Tone works, brightness is correct. Worth every rand.',
     date: 'January 2026',
   },
   {
     name: 'Sipho K.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'Had dead pixels spreading across my MacBook Air M1. The team diagnosed it in minutes, gave me a fixed price, and replaced the screen while I worked from their space. No data lost. warranty. Genuinely impressed.',
+    text: 'Had dead pixels spreading across my MacBook Air M1. The team diagnosed it in minutes, gave me a fixed price, and replaced the screen while I worked from their space. No data lost. 3-month warranty. Genuinely impressed.',
     date: 'February 2026',
   },
   {
     name: 'Liesl V.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'MacBook Pro 16" backlight failed completely — screen was black even though the machine was on. ZA Support identified the fault, sourced the display assembly, and had it done in two days. Professional from start to finish.',
+    text: 'MacBook Pro 16" backlight failed completely, screen was black even though the machine was on. ZA Support identified the fault, sourced the display assembly, and had it done in two days. Professional from start to finish.',
     date: 'March 2026',
   },
 ];
@@ -109,7 +109,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Screen Replacement Johannesburg',
-  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. Same-day available. warranty.',
+  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. Same-day available. 3-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -140,7 +140,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. warranty.',
+  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 3-month warranty.',
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
     { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
@@ -182,14 +182,14 @@ export default function MacBookScreenPage() {
           <Breadcrumb items={[{ label: 'MacBook Repair', href: '/macbook-repair' }, { label: 'Screen Replacement' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Same-Day Available · Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Same-Day Available · 3-Month 3-Month Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Screen Replacement<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models — Apple Silicon and Intel. Free assessment. No Fix No Fee.
+              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -250,7 +250,7 @@ export default function MacBookScreenPage() {
               </div>
             </div>
             <p className="text-[#7A9E98] text-sm text-center sm:text-right max-w-xs">
-              MacBook screen replacement — Sandton, Rosebank, Fourways, Bryanston, Hyde Park
+              MacBook screen replacement, Sandton, Rosebank, Fourways, Bryanston, Hyde Park
             </p>
           </div>
         </div>
@@ -261,10 +261,10 @@ export default function MacBookScreenPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-              MacBook Screen Replacement — <span className="text-[#0FEA7A]">Supported Models</span>
+              MacBook Screen Replacement, <span className="text-[#0FEA7A]">Supported Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              OEM-quality display assemblies and labour included. Free assessment before any work begins. Written fixed quote — no hidden costs.
+              OEM-quality display assemblies and labour included. Assessment: R899 ex VAT before any work begins. Written fixed quote, no hidden costs.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -298,7 +298,7 @@ export default function MacBookScreenPage() {
               MacBook Screen Issues <span className="text-[#0FEA7A]">We Fix</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              If your MacBook display looks like any of these, bring it in for a free assessment. We diagnose before we quote.
+              If your MacBook display looks like any of these, bring it in for a assessment fee (R899 ex VAT). We diagnose before we quote.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -327,20 +327,20 @@ export default function MacBookScreenPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Free Assessment',
-                desc: 'We inspect the display damage and test the logic board to confirm there are no secondary faults. We check whether the GPU or display cable is involved — this changes the repair approach.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'We inspect the display damage and test the logic board to confirm there are no secondary faults. We check whether the GPU or display cable is involved, this changes the repair approach.',
               },
               {
                 step: '02',
                 icon: <Shield className="w-5 h-5" />,
                 title: 'Fixed Written Quote',
-                desc: 'We give you a written price before touching anything. If anything changes during the repair, we call you first — always. No bill shock.',
+                desc: 'We give you a written price before touching anything. If anything changes during the repair, we call you first, always. No bill shock.',
               },
               {
                 step: '03',
                 icon: <Monitor className="w-5 h-5" />,
                 title: 'Full Display Assembly Replacement',
-                desc: 'We replace the entire lid assembly — Retina panel, backlight, display cable, and glass. We do not attempt glass-only repairs on Retina displays. It is not a reliable method and the results are poor.',
+                desc: 'We replace the entire lid assembly, Retina panel, backlight, display cable, and glass. We do not attempt glass-only repairs on Retina displays. It is not a reliable method and the results are poor.',
               },
               {
                 step: '04',
@@ -352,7 +352,7 @@ export default function MacBookScreenPage() {
                 step: '05',
                 icon: <Clock className="w-5 h-5" />,
                 title: 'Warranty Issued',
-                desc: 'Your written warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period — fixed at no cost.',
+                desc: 'Your written warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period, fixed at no cost.',
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
@@ -381,8 +381,8 @@ export default function MacBookScreenPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                title: 'No Fix No Fee',
-                desc: 'If we cannot fix your MacBook screen, you pay nothing. We absorb the diagnostic cost. Zero risk to you.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'If we cannot fix your MacBook screen, assessment fee of R899 ex VAT applies. We absorb the diagnostic cost. Zero risk to you.',
               },
               {
                 title: 'Written Warranty',
@@ -390,11 +390,11 @@ export default function MacBookScreenPage() {
               },
               {
                 title: 'Same-Day Where Possible',
-                desc: 'For common models in stock, most repairs are completed the same day. We tell you upfront — no guessing.',
+                desc: 'For common models in stock, most repairs are completed the same day. We tell you upfront, no guessing.',
               },
               {
                 title: 'OEM-Quality Panels Only',
-                desc: 'We do not use cheap aftermarket screens. The display is the thing you look at every day — it matters.',
+                desc: 'We do not use cheap aftermarket screens. The display is the thing you look at every day, it matters.',
               },
               {
                 title: 'Free Diagnostic Before Any Quote',
@@ -447,12 +447,12 @@ export default function MacBookScreenPage() {
         </div>
       </section>
 
-      {/* APPLE SILICON vs INTEL — MODEL CALLOUTS */}
+      {/* APPLE SILICON vs INTEL, MODEL CALLOUTS */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-              Apple Silicon vs Intel — <span className="text-[#0FEA7A]">What Changes?</span>
+              Apple Silicon vs Intel, <span className="text-[#0FEA7A]">What Changes?</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto text-sm">
               Both chip families are fully supported. Here is what differs during the repair process.
@@ -496,7 +496,7 @@ export default function MacBookScreenPage() {
                   'MacBook Pro 15" 2016–2019',
                   'MacBook Pro 16" 2019',
                   'Older models: display cable is common failure point',
-                  'Lower price point — parts more widely available',
+                  'Lower price point, parts more widely available',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -523,8 +523,8 @@ export default function MacBookScreenPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-4">
             {[
-              { title: 'Free Assessment', body: 'We diagnose the fault before you commit. No charge, no obligation.' },
-              { title: 'No Fix No Fee', body: 'If we cannot repair it, you pay nothing. Simple as that.' },
+              { title: 'Assessment: R899 ex VAT', body: 'We diagnose the fault before you commit. No charge, no obligation.' },
+              { title: 'Assessment: R899 ex VAT', body: 'If we cannot repair it, assessment fee of R899 ex VAT applies. Simple as that.' },
               { title: 'Written Warranty', body: 'Every screen replacement carries a written warranty on parts and labour.' },
             ].map(({ title, body }) => (
               <div key={title} className="glass-card p-5">
@@ -540,7 +540,7 @@ export default function MacBookScreenPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Screen Replacement — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="MacBook Screen Replacement, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -548,7 +548,7 @@ export default function MacBookScreenPage() {
       <section className="py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Screen Replacement Near You — <span className="text-[#0FEA7A]">Johannesburg</span>
+            MacBook Screen Replacement Near You, <span className="text-[#0FEA7A]">Johannesburg</span>
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
             {[
@@ -562,7 +562,7 @@ export default function MacBookScreenPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm text-center mt-6">
-            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome — call first to confirm same-day availability.
+            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome, call first to confirm same-day availability.
           </p>
         </div>
       </section>
@@ -597,7 +597,7 @@ export default function MacBookScreenPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Cracked MacBook Screen in Johannesburg?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: R899 ex VAT. Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · written warranty on all screen replacements</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

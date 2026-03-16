@@ -7,7 +7,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'About ZA Support | Apple Repair Specialist Johannesburg | Hyde Park',
   description:
-    "ZA Support — certified Mac technician Johannesburg since 2012. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 3,000+ repairs, 4.9★. JAMF-certified. No Fix No Fee.",
+    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 3,000+ repairs, 4.9★. JAMF-certified. 3-month warranty.",
   alternates: { canonical: 'https://zasupport.com/about' },
   keywords: [
     'apple repair specialist johannesburg',
@@ -28,13 +28,13 @@ const localBusinessSchema = {
   name: 'ZA Support',
   alternateName: 'Apple Experts',
   legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
-  description: 'Johannesburg Apple repair specialists and certified Mac technicians since 2012. Logic board microsoldering, JAMF MDM, and managed IT for medical practices and businesses across Gauteng.',
+  description: 'Johannesburg Apple repair specialists and certified Mac technicians since 2009. Logic board microsoldering, JAMF MDM, and managed IT for medical practices and businesses across Gauteng.',
   url: 'https://zasupport.com',
   logo: 'https://zasupport.com/logo.png',
   image: 'https://zasupport.com/logo.png',
   telephone: CONTACT.phoneTel,
   email: CONTACT.email,
-  foundingDate: '2012',
+  foundingDate: '2009',
   vatID: SITE.vat,
   address: {
     '@type': 'PostalAddress',
@@ -124,7 +124,7 @@ const personSchema = {
     name: 'ZA Support',
     url: 'https://zasupport.com',
   },
-  description: 'Founder of ZA Support with 14 years of Apple repair expertise. JAMF-certified technician specialising in MacBook logic board microsoldering, Apple fleet management, and managed IT for medical practices across Johannesburg.',
+  description: 'Founder of ZA Support with 16 years of Apple repair expertise. JAMF-certified technician specialising in MacBook logic board microsoldering, Apple fleet management, and managed IT for medical practices across Johannesburg.',
   knowsAbout: [
     'Apple Mac Repair',
     'MacBook Logic Board Microsoldering',
@@ -160,7 +160,7 @@ const organizationSchema = {
   legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
   url: 'https://zasupport.com',
   logo: 'https://zasupport.com/logo.png',
-  foundingDate: '2012',
+  foundingDate: '2009',
   founder: {
     '@type': 'Person',
     name: 'Courtney Bentley',
@@ -187,9 +187,9 @@ const organizationSchema = {
 const aboutPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
-  name: 'About ZA Support — Apple Repair Specialists Johannesburg',
+  name: 'About ZA Support, Apple Repair Specialists Johannesburg',
   url: 'https://zasupport.com/about',
-  description: 'Learn about ZA Support — Johannesburg certified Mac technicians and Apple repair specialists based in Hyde Park, serving Sandton, Rosebank, Fourways and all of Gauteng since 2012.',
+  description: 'Learn about ZA Support, Johannesburg certified Mac technicians and Apple repair specialists based in Hyde Park, serving Sandton, Rosebank, Fourways and all of Gauteng since 2009.',
   breadcrumb: {
     '@type': 'BreadcrumbList',
     itemListElement: [
@@ -224,8 +224,8 @@ export default function AboutPage() {
               <br /><span className="text-[#0FEA7A]">Practice IT. Perfected.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] leading-relaxed max-w-3xl">
-              Since 2012, ZA Support has been Johannesburg&apos;s trusted Apple repair specialist and
-              certified Mac technician — serving Hyde Park, Sandton, Rosebank and all of Gauteng.
+              Since 2009, ZA Support has been Johannesburg&apos;s trusted Apple repair specialist and
+              certified Mac technician, serving Hyde Park, Sandton, Rosebank and all of Gauteng.
               We have built our reputation one device at a time through honest diagnostics,
               transparent pricing, and repairs that last.
             </p>
@@ -258,11 +258,11 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
                   Courtney Bentley
                 </h2>
-                <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Technician · 14 Years Experience</p>
+                <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Technician · 16 Years Experience</p>
                 <p className="text-[#7A9E98] text-sm mb-4">JAMF-Certified · Hyde Park, Johannesburg</p>
                 <p className="text-[#7A9E98] leading-relaxed mb-4">
-                  Courtney founded ZA Support in 2012 with a clear purpose: bring genuinely expert Apple repair
-                  to Johannesburg. With 14 years of hands-on Mac experience, JAMF certification, and component-level
+                  Courtney founded ZA Support in 2009 with a clear purpose: bring genuinely expert Apple repair
+                  to Johannesburg. With 16 years of hands-on Mac experience, JAMF certification, and component-level
                   microsoldering training, Courtney leads every complex repair and manages Apple device deployments
                   for medical practices and businesses across Gauteng.
                 </p>
@@ -276,10 +276,10 @@ export default function AboutPage() {
               </div>
               <div className="space-y-3">
                 {[
-                  { icon: Award, text: 'JAMF Certified — Apple fleet management for businesses and medical practices' },
-                  { icon: Cpu, text: 'Component-level MacBook logic board microsoldering since 2012' },
+                  { icon: Award, text: 'JAMF Certified, Apple fleet management for businesses and medical practices' },
+                  { icon: Cpu, text: 'Component-level MacBook logic board microsoldering since 2009' },
                   { icon: Star, text: '4.9★ Google rating across 120+ verified client reviews' },
-                  { icon: Shield, text: 'No Fix No Fee — free assessment, transparent pricing, warranty' },
+                  { icon: Shield, text: 'Assessment: R899 ex VAT, transparent pricing, 3-month warranty on all repairs' },
                   { icon: CheckCircle, text: '3,000+ Apple devices repaired across Johannesburg and Gauteng' },
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex gap-3 items-start">
@@ -299,15 +299,15 @@ export default function AboutPage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Our Story</h2>
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
-                  ZA Support was founded in 2012 in Hyde Park, Johannesburg with a clear purpose: to bring genuinely expert Apple repair
-                  to Johannesburg. At the time, Mac users had limited options — expensive authorised service
+                  ZA Support was founded in 2009 in Hyde Park, Johannesburg with a clear purpose: to bring genuinely expert Apple repair
+                  to Johannesburg. At the time, Mac users had limited options, expensive authorised service
                   or unreliable shops that replaced boards instead of repairing them.
                 </p>
                 <p>
                   We chose a different path. Our engineers invested in microscope workstations and microsoldering
                   training to perform the same board-level repairs that most shops still cannot do today.
-                  The result: clients keep their original boards, pay significantly less, and get a full
-                  warranty on every repair.
+                  The result: clients keep their original boards, pay significantly less, and get a
+                  3-month warranty on every repair. Extended warranty available on request.
                 </p>
                 <p>
                   As the Apple ecosystem expanded, so did our capabilities. We became Johannesburg&apos;s JAMF MDM
@@ -318,8 +318,8 @@ export default function AboutPage() {
                 <p>
                   Today, ZA Support serves medical practices, businesses, professionals, and families across
                   Johannesburg from our Hyde Park workshop at 1 Hyde Park Lane. Every repair, every client
-                  interaction, every monthly report — all built on the same foundation of technical excellence
-                  and honesty that we started with in 2012.
+                  interaction, every monthly report, all built on the same foundation of technical excellence
+                  and honesty that we started with in 2009.
                 </p>
               </div>
             </div>
@@ -329,8 +329,8 @@ export default function AboutPage() {
                 {[
                   { icon: Cpu, title: 'Microscope-Level Microsoldering', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
                   { icon: Award, title: 'JAMF-Certified Specialists', desc: 'One of Johannesburg\'s few JAMF-certified implementation teams. We manage Apple fleets for organisations across Gauteng.' },
-                  { icon: Star, title: '4.9★ on Google — 120+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews — the themes are honesty, transparency, and results.' },
-                  { icon: Shield, title: 'No Fix No Fee — Always', desc: 'If we cannot repair your device, you pay nothing for the attempt. Our assessment is always free. No surprises.' },
+                  { icon: Star, title: '4.9★ on Google, 120+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews, the themes are honesty, transparency, and results.' },
+                  { icon: Shield, title: 'Transparent Pricing, Always', desc: 'Assessment fee of R899 ex VAT applies. Written quote before any work begins. 3-month warranty on all repairs. No surprises.' },
                 ].map(({ icon: Icon, title, desc }) => (
                   <div key={title} className="flex gap-4 p-4 bg-[rgba(22,34,32,0.5)] rounded-xl border border-[rgba(15,234,122,0.08)]">
                     <div className="w-10 h-10 bg-[rgba(15,234,122,0.1)] rounded-xl flex items-center justify-center flex-shrink-0">
@@ -350,10 +350,10 @@ export default function AboutPage() {
           <div className="glass-card p-8 mb-10">
             <div className="flex items-center gap-3 mb-6">
               <MapPin className="w-6 h-6 text-[#0FEA7A]" />
-              <h2 className="text-2xl font-bold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>Service Area — Greater Johannesburg</h2>
+              <h2 className="text-2xl font-bold text-[#E8F4F1]" style={{ fontFamily: 'Syne, sans-serif' }}>Service Area, Greater Johannesburg</h2>
             </div>
             <p className="text-[#7A9E98] mb-5 leading-relaxed">
-              Based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196 — we collect and deliver across Sandton,
+              Based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196, we collect and deliver across Sandton,
               Rosebank, Fourways, Bryanston, Midrand and all major Johannesburg suburbs. On-site visits available
               for managed IT and medical practice clients.
             </p>
@@ -385,7 +385,7 @@ export default function AboutPage() {
                 {[
                   { label: 'Trading Name', value: 'ZA Support' },
                   { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
-                  { label: 'Founded', value: '2012' },
+                  { label: 'Founded', value: '2009' },
                   { label: 'VAT Number', value: SITE.vat },
                   { label: 'Address', value: '1 Hyde Park Lane, Hyde Park, Johannesburg 2196' },
                   { label: 'Service Area', value: 'Greater Johannesburg / Gauteng' },
@@ -405,7 +405,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Work With Us</h2>
-            <p className="text-[#7A9E98] mb-6">Free assessment. No obligation. Hyde Park, Johannesburg — serving Sandton, Rosebank &amp; Gauteng.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg, serving Sandton, Rosebank &amp; Gauteng.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

@@ -10,12 +10,12 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Logic Board Repair Johannesburg | ZA Support',
   description:
-    'MacBook logic board repair in Johannesburg. Expert microsoldering for no-power, no-display, USB-C failure, GPU faults. Free diagnostic. No Fix No Fee. Call 064 529 5863.',
+    'MacBook logic board repair in Johannesburg. Expert microsoldering for no-power, no-display, USB-C failure, GPU faults. Assessment: R899 ex VAT. 3-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair' },
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no LED. Board-level power circuit diagnosis and repair.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no LED. Board-level power circuit diagnosis and repair.' },
   { title: 'No Display', desc: 'Mac boots but screen stays black. GPU failure, backlight circuit, T-Con board, or display cable fault.' },
   { title: 'Liquid Damage', desc: 'Corrosion on traces and component pads after liquid exposure. Professional board cleaning and component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Thermal runaway, failing voltage regulators, or blocked power rails causing unexpected shutdown.' },
@@ -30,31 +30,31 @@ const repairTypes = [
   { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip' },
   { item: 'Power Circuit Repair', note: 'No-power diagnosis and fix' },
   { item: 'Microsoldering Repair', note: 'Component-level board repair' },
-  { item: 'GPU Repair', note: 'Discrete GPU only — Intel models' },
+  { item: 'GPU Repair', note: 'Discrete GPU only, Intel models' },
   { item: 'Logic Board Replacement', note: 'Where repair is not viable' },
 ];
 
-// Extended FAQ set — 8 items for FAQPage schema
+// Extended FAQ set, 8 items for FAQPage schema
 const faqs = [
   {
     question: 'How much does MacBook logic board repair cost in Johannesburg?',
-    answer: 'Component-level microsoldering repair at ZA Support is significantly cheaper than a full board replacement. We repair the specific failed chip or component rather than replacing the entire logic board. Diagnostic assessment is always free with no obligation — we provide a written quote before any work begins.',
+    answer: 'Component-level microsoldering repair at ZA Support is significantly cheaper than a full board replacement. We repair the specific failed chip or component rather than replacing the entire logic board. Assessment fee is R899 ex VAT, absorbed into the repair cost if you proceed. Written quote provided before any work begins.',
   },
   {
-    question: 'Do you offer No Fix No Fee?',
-    answer: 'Yes. We offer a genuine No Fix No Fee guarantee. We assess your MacBook at no charge, diagnose the fault under microscope, and only charge you if we successfully repair the device. If we cannot fix it, you pay nothing — not even the diagnostic fee. There are no hidden callout fees, no assessment charges, and no obligation to proceed.',
+    question: 'What is your assessment fee policy?',
+    answer: 'Our assessment fee is R899 ex VAT. This covers a full board-level diagnostic under microscope and a written fixed-price quote. If you approve the quote and we proceed with the repair, the R899 ex VAT assessment fee is absorbed into the total repair cost. If you decline, the assessment fee is payable for the diagnostic work completed.',
   },
   {
     question: 'How long does logic board repair take?',
-    answer: 'Most logic board repairs are completed within 24–72 hours. Simple faults such as USB-C controller failure or blown fuses are typically fixed within 24 hours. More complex microsoldering work — multi-component faults, GPU restoration, or liquid damage corrosion — can take 3–5 business days. We will confirm a specific timeframe after the free diagnostic assessment.',
+    answer: 'Most logic board repairs are completed within 24–72 hours. Simple faults such as USB-C controller failure or blown fuses are typically fixed within 24 hours. More complex microsoldering work, multi-component faults, GPU restoration, or liquid damage corrosion, can take 3–5 business days. We will confirm a specific timeframe after the assessment.',
   },
   {
     question: 'What MacBook models do you repair?',
-    answer: 'We repair all MacBook Pro, MacBook Air, iMac, and Mac mini models from 2010 through to current M4 generation. This includes Intel-based models from 2010–2020 and Apple Silicon M1, M2, M3, and M4 models. For older Intel models we can replace GPU chips, power management ICs, and memory. For Apple Silicon models we service the surrounding components — USB-C controllers, power management circuits, and storage.',
+    answer: 'We repair all MacBook Pro, MacBook Air, iMac, and Mac mini models from 2010 through to current M4 generation. This includes Intel-based models from 2010–2020 and Apple Silicon M1, M2, M3, and M4 models. For older Intel models we can replace GPU chips, power management ICs, and memory. For Apple Silicon models we service the surrounding components, USB-C controllers, power management circuits, and storage.',
   },
   {
     question: 'Can you recover data from a dead logic board?',
-    answer: 'Yes. Data recovery is available as part of our logic board repair service. If your MacBook will not power on, we can often recover your data even if the board itself cannot be repaired. For Intel models with a separate SSD, data recovery is straightforward. For M-series Macs where the SSD is soldered to the board, recovery depends on whether the storage chip itself is intact. We will assess data recoverability as part of the free diagnostic.',
+    answer: 'Yes. Data recovery is available as part of our logic board repair service. If your MacBook will not power on, we can often recover your data even if the board itself cannot be repaired. For Intel models with a separate SSD, data recovery is straightforward. For M-series Macs where the SSD is soldered to the board, recovery depends on whether the storage chip itself is intact. We will assess data recoverability as part of the assessment.',
   },
   {
     question: 'Do you provide a warranty on logic board repairs?',
@@ -62,27 +62,27 @@ const faqs = [
   },
   {
     question: 'Can you fix a water-damaged MacBook logic board?',
-    answer: 'Yes. Water and liquid damage is one of our most common repair categories. When liquid contacts the logic board it causes corrosion on component pads, traces, and chips. Our process involves professional board cleaning to remove corrosion, followed by micro-inspection to identify failed components, and then targeted component replacement. Liquid damage repairs are most successful when brought in promptly — the longer corrosion is left, the more components it affects.',
+    answer: 'Yes. Water and liquid damage is one of our most common repair categories. When liquid contacts the logic board it causes corrosion on component pads, traces, and chips. Our process involves professional board cleaning to remove corrosion, followed by micro-inspection to identify failed components, and then targeted component replacement. Liquid damage repairs are most successful when brought in promptly, the longer corrosion is left, the more components it affects.',
   },
   {
     question: "What's the most common MacBook logic board fault?",
-    answer: 'The most frequent logic board faults we see are: (1) GPU failure on 2011–2013 MacBook Pro models — the AMD discrete GPU develops solder joint cracks causing display artifacts or no video; (2) USB-C charging controller failure on 2016–2019 MacBook Pro and MacBook Air — the CD3217B12 or similar controller fails, stopping charging; (3) Power management IC failure — the TPS51980 or LP8550 power rail ICs fail, causing no-power symptoms. All three are standard microsoldering repairs for us.',
+    answer: 'The most frequent logic board faults we see are: (1) GPU failure on 2011–2013 MacBook Pro models, the AMD discrete GPU develops solder joint cracks causing display artifacts or no video; (2) USB-C charging controller failure on 2016–2019 MacBook Pro and MacBook Air, the CD3217B12 or similar controller fails, stopping charging; (3) Power management IC failure, the TPS51980 or LP8550 power rail ICs fail, causing no-power symptoms. All three are standard microsoldering repairs for us.',
   },
   {
     question: 'What is the difference between microsoldering repair and board replacement?',
-    answer: 'Microsoldering repair fixes the specific failed component on your existing logic board — replacing a chip, capacitor, resistor, or damaged trace under microscope. Board replacement swaps the entire logic board for a new or refurbished one. Microsoldering is typically 60–80% cheaper than board replacement and preserves your original board, your data, and your Touch ID / Secure Enclave pairing. It is our strongly preferred approach and the one we use in the vast majority of cases.',
+    answer: 'Microsoldering repair fixes the specific failed component on your existing logic board, replacing a chip, capacitor, resistor, or damaged trace under microscope. Board replacement swaps the entire logic board for a new or refurbished one. Microsoldering is typically 60–80% cheaper than board replacement and preserves your original board, your data, and your Touch ID / Secure Enclave pairing. It is our strongly preferred approach and the one we use in the vast majority of cases.',
   },
   {
     question: 'My MacBook shows no signs of life. Is it worth bringing in?',
-    answer: 'Yes. A completely dead MacBook is one of the most common faults we successfully repair. "No power" faults are very often caused by a single failed component on the power rail — a blown fuse, failed MOSFET, or damaged charging IC. These are microsoldering-level repairs that cost a fraction of a new machine. Bring it in for a free diagnostic and we will tell you exactly what failed and what it will cost to fix.',
+    answer: 'Yes. A completely dead MacBook is one of the most common faults we successfully repair. "No power" faults are very often caused by a single failed component on the power rail, a blown fuse, failed MOSFET, or damaged charging IC. These are microsoldering-level repairs that cost a fraction of a new machine. Book an assessment (R899 ex VAT) and we will tell you exactly what failed and what it will cost to fix.',
   },
   {
     question: 'Can you repair M1, M2, and M3 MacBook logic boards?',
-    answer: 'Yes, with some differences from Intel models. Apple Silicon boards have the CPU, GPU, RAM, and Neural Engine integrated in the M-series chip (SoC), which cannot be replaced at chip level. However, surrounding components — power management, USB-C controllers, storage, and board traces — are fully serviceable through microsoldering.',
+    answer: 'Yes, with some differences from Intel models. Apple Silicon boards have the CPU, GPU, RAM, and Neural Engine integrated in the M-series chip (SoC), which cannot be replaced at chip level. However, surrounding components, power management, USB-C controllers, storage, and board traces, are fully serviceable through microsoldering.',
   },
   {
     question: 'Is my data safe during a logic board repair?',
-    answer: 'Your data stays on the device throughout the repair. We do not reformat or erase your storage unless you specifically request it. If a board replacement is needed and you have an M-series Mac, we will discuss the storage situation with you — on M-series, the SSD is soldered to the board, which requires careful handling.',
+    answer: 'Your data stays on the device throughout the repair. We do not reformat or erase your storage unless you specifically request it. If a board replacement is needed and you have an M-series Mac, we will discuss the storage situation with you, on M-series, the SSD is soldered to the board, which requires careful handling.',
   },
 ];
 
@@ -102,7 +102,7 @@ const suburbPages = [
   { label: 'Bryanston', href: '/logic-board-repair/bryanston', distance: '10 min' },
 ];
 
-// IC fault table — common chips we replace
+// IC fault table, common chips we replace
 const icFaults = [
   {
     chip: 'AMD GPU (MXM)',
@@ -161,14 +161,14 @@ const customerReviews = [
     suburb: 'Rosebank',
     rating: 5,
     date: '01/2026',
-    text: 'Screen was showing strange lines and flickering on my MacBook Pro 2015. I had been told it was unfixable or quoted a high price for a replacement board. ZA Support diagnosed it as the GPU and repaired it at a fair price. warranty included. Six weeks on and it is perfect.',
+    text: 'Screen was showing strange lines and flickering on my MacBook Pro 2015. I had been told it was unfixable or quoted a high price for a replacement board. ZA Support diagnosed it as the GPU and repaired it at a fair price. 3-month warranty included. Six weeks on and it is perfect.',
   },
   {
     name: 'Ryan T.',
     suburb: 'Fourways',
     rating: 5,
     date: '03/2026',
-    text: 'MacBook Air M2 would not charge on either USB-C port. ZA Support found a failed charging controller chip and replaced it same day. They were upfront about pricing, no surprises. The free diagnostic meant I knew exactly what was wrong before paying anything. Will definitely use again.',
+    text: 'MacBook Air M2 would not charge on either USB-C port. ZA Support found a failed charging controller chip and replaced it same day. They were upfront about pricing, no surprises. Clear written quote before any work began. Will definitely use again.',
   },
 ];
 
@@ -176,7 +176,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Johannesburg',
-  description: 'Expert MacBook logic board repair and microsoldering in Johannesburg. Free diagnostic. No Fix No Fee.',
+  description: 'Expert MacBook logic board repair and microsoldering in Johannesburg. Assessment: R899 ex VAT. 3-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -196,8 +196,8 @@ const serviceSchema = {
         '@type': 'Offer',
         itemOffered: {
           '@type': 'Service',
-          name: 'Free MacBook Logic Board Diagnostic',
-          description: 'Board-level inspection under microscope. Free with no obligation. No Fix No Fee.',
+          name: 'MacBook Logic Board Diagnostic Assessment',
+          description: 'Board-level inspection under microscope. R899 ex VAT, absorbed into repair cost if you proceed. Written quote provided.',
         },
         price: '0',
         priceCurrency: 'ZAR',
@@ -207,7 +207,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Microsoldering Repair',
-          description: 'Component-level logic board repair. Chip replacement, trace repair, specialist restoration. warranty.',
+          description: 'Component-level logic board repair. Chip replacement, trace repair, specialist restoration. 3-month warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -231,15 +231,15 @@ const howToSchema = {
     {
       '@type': 'HowToStep',
       position: 1,
-      name: 'Free diagnostic assessment',
-      text: 'Your MacBook is disassembled and the logic board examined under magnification. We identify the specific failed component or damaged area and provide a written quote before any work begins. No Fix No Fee — zero cost if we cannot repair it.',
+      name: 'Diagnostic assessment',
+      text: 'Your MacBook is disassembled and the logic board examined under magnification. We identify the specific failed component or damaged area and provide a written quote before any work begins. Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed.',
       url: 'https://zasupport.com/logic-board-repair#diagnostic',
     },
     {
       '@type': 'HowToStep',
       position: 2,
       name: 'Board-level inspection and fault isolation',
-      text: 'We use a DC power supply to inject voltage at known-good rails, trace short circuits, and identify the exact failed component — a specific chip, capacitor, fuse, or damaged trace.',
+      text: 'We use a DC power supply to inject voltage at known-good rails, trace short circuits, and identify the exact failed component, a specific chip, capacitor, fuse, or damaged trace.',
       url: 'https://zasupport.com/logic-board-repair#inspection',
     },
     {
@@ -259,7 +259,7 @@ const howToSchema = {
     {
       '@type': 'HowToStep',
       position: 5,
-      name: 'Return with warranty',
+      name: 'Return with 3-Month Warranty',
       text: 'Your repaired MacBook is returned with a written warranty on the specific component or fault repaired. If the same fault returns within the warranty period, we fix it at no charge.',
       url: 'https://zasupport.com/logic-board-repair#warranty',
     },
@@ -350,15 +350,15 @@ export default function LogicBoardRepairPage() {
               <br /><span className="text-[#0FEA7A]">in Johannesburg</span>
             </h1>
             <p className="speakable-summary text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Johannesburg&apos;s microsoldering specialists. We repair the chip that failed — not the whole board.
-              Free diagnostic, No Fix No Fee, warranty. Hyde Park.
+              Johannesburg&apos;s microsoldering specialists. We repair the chip that failed, not the whole board.
+              Assessment: R899 ex VAT (absorbed into repair cost if you proceed). 3-month warranty. Hyde Park.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Microsoldering' },
-                { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'No Fix No Fee' },
-                { icon: AlertTriangle, label: 'Warranty' },
+                { icon: Zap, label: 'Assessment: R899 ex VAT' },
+                { icon: CheckCircle, label: '3-Month Warranty' },
+                { icon: AlertTriangle, label: 'Written Quote First' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -387,9 +387,9 @@ export default function LogicBoardRepairPage() {
             <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
               {[
                 { value: '3,000+', label: 'Logic Board Repairs' },
-                { value: '14 Years', label: 'Experience Since 2012' },
+                { value: '16 Years', label: 'Experience Since 2009' },
                 { value: 'Covered', label: 'Written Warranty' },
-                { value: 'No Fix', label: 'No Fee — Always' },
+                { value: 'R899', label: 'ex VAT Assessment' },
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
                 <div key={label}>
@@ -407,18 +407,18 @@ export default function LogicBoardRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">
             <div>
-              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Many repair services</p>
-              <p className="text-xl font-extrabold text-red-400 line-through">Paid diagnostic fee</p>
+              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Assessment policy</p>
+              <p className="text-xl font-extrabold text-[#E8F4F1]">R899 ex VAT</p>
             </div>
-            <div className="text-[#0FEA7A] text-3xl font-black">vs</div>
+            <div className="text-[#0FEA7A] text-3xl font-black">·</div>
             <div>
-              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">ZA Support</p>
-              <p className="text-xl font-extrabold text-[#0FEA7A]">Free diagnostic — always</p>
+              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">If you proceed</p>
+              <p className="text-xl font-extrabold text-[#0FEA7A]">Fee absorbed into repair cost</p>
             </div>
             <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
             <div>
-              <p className="text-[#E8F4F1] text-sm font-semibold">Free diagnostic — no charge, no obligation</p>
-              <p className="text-[#7A9E98] text-xs mt-0.5">No Fix No Fee. written warranty on every repair.</p>
+              <p className="text-[#E8F4F1] text-sm font-semibold">Written fixed-price quote before any work begins</p>
+              <p className="text-[#7A9E98] text-xs mt-0.5">3-month written warranty on every repair.</p>
             </div>
           </div>
         </div>
@@ -431,7 +431,7 @@ export default function LogicBoardRepairPage() {
             Common Logic Board Faults We Fix
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
-            Every fault below is diagnosed free of charge. We use professional specialist equipment for all microsoldering work.
+            Every fault below is covered by our standard assessment process. We use professional specialist equipment for all microsoldering work.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {faults.map((fault) => (
@@ -444,17 +444,17 @@ export default function LogicBoardRepairPage() {
         </div>
       </section>
 
-      {/* ── WHY COMPONENT REPAIR BEATS BOARD REPLACEMENT — PRICE COMPARISON TABLE ── */}
+      {/* ── WHY COMPONENT REPAIR BEATS BOARD REPLACEMENT, PRICE COMPARISON TABLE ── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             Why Component-Level Repair Beats Full Board Replacement
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
-            Most MacBook logic board failures are caused by a single failed component — not the entire board. Replacing the whole board when only one chip has failed is unnecessary, expensive, and causes you to lose your original hardware pairing.
+            Most MacBook logic board failures are caused by a single failed component, not the entire board. Replacing the whole board when only one chip has failed is unnecessary, expensive, and causes you to lose your original hardware pairing.
           </p>
 
-          {/* Why it matters — prose */}
+          {/* Why it matters, prose */}
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
             {[
               {
@@ -487,10 +487,10 @@ export default function LogicBoardRepairPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            IC Fault Reference — Chips We Replace
+            IC Fault Reference, Chips We Replace
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
-            Our technicians work at component level. Below are the most common integrated circuits (ICs) we replace on MacBook and Mac logic boards — with the models affected, typical symptoms, and repair approach.
+            Our technicians work at component level. Below are the most common integrated circuits (ICs) we replace on MacBook and Mac logic boards, with the models affected, typical symptoms, and repair approach.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.08)]">
             <table className="w-full text-sm">
@@ -523,7 +523,7 @@ export default function LogicBoardRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4 text-center">
-            Risk rating indicates complexity of the repair, not likelihood of success. All repairs include free diagnostic. No Fix No Fee applies.
+            Risk rating indicates complexity of the repair, not likelihood of success. Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed. 3-month warranty on all repairs.
           </p>
         </div>
       </section>
@@ -540,7 +540,7 @@ export default function LogicBoardRepairPage() {
               <ul className="space-y-3">
                 {[
                   'Fixes the specific failed component only',
-                  'Your original board — your data stays put',
+                  'Your original board, your data stays put',
                   '60–80% cheaper than board replacement',
                   'Preserves pairing with Touch ID / Secure Enclave',
                   'Backed by ZA Support warranty',
@@ -558,7 +558,7 @@ export default function LogicBoardRepairPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not feasible',
-                  'Higher cost — full board + installation',
+                  'Higher cost, full board + installation',
                   'Loss of pairing on Touch ID-dependent features',
                   'Data migration required (if SSD changes)',
                   'Still includes ZA Support warranty',
@@ -580,7 +580,7 @@ export default function LogicBoardRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
           <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl">
-            All repairs are component-level. Final cost is confirmed after the free diagnostic assessment. You pay nothing if we cannot fix it.
+            All repairs are component-level. Final cost is confirmed after the assessment. Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed.
           </p>
           <div className="glass-card overflow-hidden p-0">
             {repairTypes.map((item, i) => (
@@ -592,10 +592,10 @@ export default function LogicBoardRepairPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final cost depends on specific fault and model. Free diagnostic with no obligation.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final cost depends on specific fault and model. Assessment: R899 ex VAT, absorbed into repair cost if you proceed.</p>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-4">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Free diagnostic — always.</strong> ZA Support assesses your Mac at no charge with no obligation — you only pay if we fix it.
+              💡 <strong className="text-[#E8F4F1]">Transparent assessment.</strong> R899 ex VAT to diagnose your Mac and provide a written fixed-price quote. Fee absorbed into the repair cost if you proceed.
             </p>
           </div>
 
@@ -607,7 +607,7 @@ export default function LogicBoardRepairPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
             >
-              💬 WhatsApp Us — Free Diagnostic
+              💬 WhatsApp for Assessment Quote
             </a>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -659,7 +659,7 @@ export default function LogicBoardRepairPage() {
               <Link key={page.href} href={page.href} className="glass-card p-5 flex items-center justify-between group hover:border-[rgba(15,234,122,0.3)] transition-colors">
                 <div>
                   <h3 className="text-[#E8F4F1] font-bold text-sm mb-1 group-hover:text-[#0FEA7A] transition-colors">{page.title}</h3>
-                  <p className="text-[#0FEA7A] text-xs font-semibold">Free diagnostic</p>
+                  <p className="text-[#0FEA7A] text-xs font-semibold">Assessment: R899 ex VAT</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
@@ -697,8 +697,8 @@ export default function LogicBoardRepairPage() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
-              { step: '01', title: 'Free Diagnostic', body: 'Bring your Mac to our Hyde Park workshop or arrange a courier. We inspect the board under microscope and identify the fault — at no charge.' },
-              { step: '02', title: 'Written Quote', body: 'You receive a clear, written quote before any work begins. No hidden fees. If the price is not acceptable, there is no charge.' },
+              { step: '01', title: 'Assessment: R899 ex VAT', body: 'Bring your Mac to our Hyde Park workshop or arrange a courier. We inspect the board under microscope and identify the fault. Fee is absorbed into repair cost if you proceed.' },
+              { step: '02', title: 'Written Quote', body: 'You receive a clear, written quote before any work begins. No hidden fees. If you decline, the assessment fee is payable for the diagnostic completed.' },
               { step: '03', title: 'Microsoldering Repair', body: 'Our technician works at component level using professional specialist equipment. Most repairs completed in 24–72 hours.' },
               { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a written warranty. If the same fault returns, we fix it free.' },
             ].map(({ step, title, body }) => (
@@ -715,7 +715,7 @@ export default function LogicBoardRepairPage() {
       {/* ── FAQ ── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair, Common Questions" />
         </div>
       </section>
 
@@ -723,10 +723,10 @@ export default function LogicBoardRepairPage() {
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Logic Board Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-2">No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Logic Board Fault? Book an Assessment.</h2>
+            <p className="text-[#7A9E98] mb-2">3-month warranty on all repairs. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Free diagnostic — no charge, no obligation. We only charge you if we successfully repair your Mac.
+              Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed. Written fixed-price quote before any work begins.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

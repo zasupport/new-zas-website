@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Virus & Malware Removal Johannesburg | Free Diagnosis | ZA Support',
   description:
-    'Mac virus and malware removal in Johannesburg. Free diagnosis. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',
+    'Mac virus and malware removal in Johannesburg. Assessment: R899 ex VAT. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/virus-removal' },
   keywords: [
     'mac virus removal johannesburg',
@@ -35,7 +35,7 @@ const threats = [
     name: 'SearchMine / SearchBaron',
     type: 'Browser Hijacker',
     risk: 'High',
-    desc: 'Redirects all searches through searchmine.net or searchbaron.com. Hard to remove because it modifies browser profiles at the system level. Standard drag-to-trash deletion does not work — background components reinstall it.',
+    desc: 'Redirects all searches through searchmine.net or searchbaron.com. Hard to remove because it modifies browser profiles at the system level. Standard drag-to-trash deletion does not work, background components reinstall it.',
   },
   {
     name: 'MacKeeper',
@@ -47,7 +47,7 @@ const threats = [
     name: 'Pirrit / Crossrider',
     type: 'Adware',
     risk: 'High',
-    desc: 'Injects advertising into web pages you visit — including secure banking sites. Installs as a Safari extension and a login daemon. Can intercept web traffic and serve fraudulent pages.',
+    desc: 'Injects advertising into web pages you visit, including secure banking sites. Installs as a Safari extension and a login daemon. Can intercept web traffic and serve fraudulent pages.',
   },
   {
     name: 'OSX.Shlayer',
@@ -78,7 +78,7 @@ const threats = [
 const symptoms = [
   { icon: <AlertTriangle className="w-5 h-5" />, title: 'Mac Running Unusually Slow', desc: 'Background malware processes consume CPU and memory. If Activity Monitor shows unknown processes using significant resources, this warrants investigation.' },
   { icon: <Bug className="w-5 h-5" />, title: 'Browser Redirects & Pop-Ups', desc: 'Searches redirect to unfamiliar sites. Pop-up windows appear even when no browser is open. Your homepage or default search engine has changed without your doing so.' },
-  { icon: <AlertTriangle className="w-5 h-5" />, title: 'Fake Security Alerts', desc: 'Pop-ups warning your Mac is infected and urging you to call a phone number or download software. These are social-engineering attacks — do not call the number.' },
+  { icon: <AlertTriangle className="w-5 h-5" />, title: 'Fake Security Alerts', desc: 'Pop-ups warning your Mac is infected and urging you to call a phone number or download software. These are social-engineering attacks, do not call the number.' },
   { icon: <Lock className="w-5 h-5" />, title: 'Unknown Login Items', desc: 'Items appearing in System Settings → General → Login Items that you did not add. Background agents running at startup that you cannot identify or remove.' },
   { icon: <Zap className="w-5 h-5" />, title: 'Battery Draining Fast', desc: 'Malware running background tasks causes elevated CPU usage, which accelerates battery drain. If your battery life has dropped suddenly, malware is one possible cause.' },
   { icon: <Shield className="w-5 h-5" />, title: 'Antivirus Disabled or Blocked', desc: 'Some malware actively disables or quarantines security tools to prevent removal. If your security software suddenly stopped working, this is a warning sign.' },
@@ -91,31 +91,31 @@ const faqs = [
   },
   {
     question: 'How much does Mac virus removal cost in Johannesburg?',
-    answer: 'Mac virus and malware removal at ZA Support starts with a free diagnosis. We give you a fixed written quote after the diagnostic — no surprises.',
+    answer: 'Mac virus and malware removal at ZA Support starts with a assessment. We give you a fixed written quote after the diagnostic, no surprises.',
   },
   {
     question: 'How long does Mac malware removal take?',
-    answer: 'Most standard adware and browser hijacker removals are completed within 2–3 hours. More complex infections involving persistent LaunchAgents, modified system extensions, or rootkit-level components may require 4–6 hours. If a full macOS reinstall is the safest path (which we recommend for info stealers), we factor in data backup time and the reinstall itself — typically a same-day service.',
+    answer: 'Most standard adware and browser hijacker removals are completed within 2–3 hours. More complex infections involving persistent LaunchAgents, modified system extensions, or rootkit-level components may require 4–6 hours. If a full macOS reinstall is the safest path (which we recommend for info stealers), we factor in data backup time and the reinstall itself, typically a same-day service.',
   },
   {
-    question: 'I removed the app — why is the problem still there?',
-    answer: 'Most Mac malware installs several components beyond the visible application: LaunchAgents in ~/Library/LaunchAgents/, system extensions, browser extensions, modified profile settings, and scheduled tasks. Dragging the app to Trash removes only the visible component. The background daemons remain and reinstall the app at next login. Proper removal requires identifying and removing all components — which is what we do.',
+    question: 'I removed the app, why is the problem still there?',
+    answer: 'Most Mac malware installs several components beyond the visible application: LaunchAgents in ~/Library/LaunchAgents/, system extensions, browser extensions, modified profile settings, and scheduled tasks. Dragging the app to Trash removes only the visible component. The background daemons remain and reinstall the app at next login. Proper removal requires identifying and removing all components, which is what we do.',
   },
   {
     question: 'Should I just wipe and reinstall macOS?',
-    answer: 'For severe infections — particularly info stealers like Atomic Stealer that may have exfiltrated credentials — a clean macOS reinstall is the safest approach. We handle this as a complete service: back up your data, verify the backup, reinstall macOS fresh, restore your files, and install proper security tooling. For lighter adware infections, a targeted removal is usually sufficient without a full wipe.',
+    answer: 'For severe infections, particularly info stealers like Atomic Stealer that may have exfiltrated credentials, a clean macOS reinstall is the safest approach. We handle this as a complete service: back up your data, verify the backup, reinstall macOS fresh, restore your files, and install proper security tooling. For lighter adware infections, a targeted removal is usually sufficient without a full wipe.',
   },
   {
     question: 'What is CyberShield and should I get it after removal?',
-    answer: 'CyberShield is ZA Support\'s ongoing Mac protection service. It includes real-time threat monitoring, monthly security health checks, network-level filtering to block malicious domains before they reach your browser, and alerts if new threats are detected. After a malware removal, we recommend CyberShield to prevent reinfection — contact us for plan details.',
+    answer: 'CyberShield is ZA Support\'s ongoing Mac protection service. It includes real-time threat monitoring, monthly security health checks, network-level filtering to block malicious domains before they reach your browser, and alerts if new threats are detected. After a malware removal, we recommend CyberShield to prevent reinfection, contact us for plan details.',
   },
   {
-    question: 'My bank account details were on the Mac — am I at risk?',
-    answer: 'If you had an info-stealing infection (such as Atomic Stealer or a keylogger), credentials stored in your browser or macOS Keychain may have been compromised. In this situation, change passwords for banking, email, and any accounts you access on that Mac immediately — before bringing it in. Enable two-factor authentication on your critical accounts. We will advise further during the diagnostic.',
+    question: 'My bank account details were on the Mac, am I at risk?',
+    answer: 'If you had an info-stealing infection (such as Atomic Stealer or a keylogger), credentials stored in your browser or macOS Keychain may have been compromised. In this situation, change passwords for banking, email, and any accounts you access on that Mac immediately, before bringing it in. Enable two-factor authentication on your critical accounts. We will advise further during the diagnostic.',
   },
   {
     question: 'How do I avoid getting malware on my Mac again?',
-    answer: 'The most common infection vector is software downloaded outside the Mac App Store — particularly cracked apps, pirated software, and fake Adobe Flash or software update prompts. Never install software from untrusted sources. Keep macOS and all apps up to date. Use a password manager so you recognise phishing sites. Consider CyberShield for ongoing network-level protection. We cover all of this in our post-removal briefing.',
+    answer: 'The most common infection vector is software downloaded outside the Mac App Store, particularly cracked apps, pirated software, and fake Adobe Flash or software update prompts. Never install software from untrusted sources. Keep macOS and all apps up to date. Use a password manager so you recognise phishing sites. Consider CyberShield for ongoing network-level protection. We cover all of this in our post-removal briefing.',
   },
 ];
 
@@ -147,7 +147,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'Mac Virus & Malware Removal Johannesburg',
-  description: 'Mac virus and malware removal service in Johannesburg. Free diagnosis. Remove adware, browser hijackers, spyware, trojans. Ongoing protection via CyberShield.',
+  description: 'Mac virus and malware removal service in Johannesburg. Assessment: R899 ex VAT. Remove adware, browser hijackers, spyware, trojans. Ongoing protection via CyberShield.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -178,7 +178,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'Mac virus and malware removal in Johannesburg. Free diagnosis. Remove Genieo, SearchMine, adware, spyware, trojans. Ongoing protection available via CyberShield.',
+  description: 'Mac virus and malware removal in Johannesburg. Assessment: R899 ex VAT. Remove Genieo, SearchMine, adware, spyware, trojans. Ongoing protection available via CyberShield.',
 
 };
 
@@ -222,7 +222,7 @@ export default function MacVirusRemovalPage() {
               <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | Free Diagnosis</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Adware, browser hijackers, spyware, trojans, and info stealers — we diagnose and remove all known Mac threats. If your Mac is slow, showing pop-ups, or redirecting your browser, bring it in. Diagnosis is free.
+              Adware, browser hijackers, spyware, trojans, and info stealers, we diagnose and remove all known Mac threats. If your Mac is slow, showing pop-ups, or redirecting your browser, bring it in. Diagnosis is free.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -253,7 +253,7 @@ export default function MacVirusRemovalPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { stat: 'Free', label: 'Diagnosis — No Hidden Cost' },
+              { stat: 'Free', label: 'Diagnosis, No Hidden Cost' },
               { stat: 'Same-Day', label: 'Removal for Most Infections' },
               { stat: '100%', label: 'Mac-Specialist Technicians' },
               { stat: 'CyberShield', label: 'Ongoing Protection Available' },
@@ -283,7 +283,7 @@ export default function MacVirusRemovalPage() {
               </div>
             </div>
             <p className="text-[#7A9E98] text-sm text-center sm:text-right max-w-xs">
-              Mac malware removal — Sandton, Rosebank, Fourways, Bryanston, Hyde Park
+              Mac malware removal, Sandton, Rosebank, Fourways, Bryanston, Hyde Park
             </p>
           </div>
         </div>
@@ -297,7 +297,7 @@ export default function MacVirusRemovalPage() {
               Signs Your Mac May Be <span className="text-[#0FEA7A]">Infected</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              These symptoms do not always mean malware — but they warrant investigation. Diagnosis is free.
+              These symptoms do not always mean malware, but they warrant investigation. Diagnosis is free.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -320,7 +320,7 @@ export default function MacVirusRemovalPage() {
               Common Mac Threats <span className="text-[#0FEA7A]">We Remove</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              These are the most frequently encountered Mac infections in South Africa. We remove all of them — including persistent variants that reinstall after standard deletion.
+              These are the most frequently encountered Mac infections in South Africa. We remove all of them, including persistent variants that reinstall after standard deletion.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -368,7 +368,7 @@ export default function MacVirusRemovalPage() {
               {
                 step: '03',
                 icon: <Bug className="w-5 h-5" />,
-                title: 'Full Removal — All Components',
+                title: 'Full Removal, All Components',
                 desc: 'We remove every component: the visible app, all LaunchAgent and LaunchDaemon entries, browser extensions across Safari and Chrome, modified preference files, and scheduled tasks. We verify removal before calling it done.',
               },
               {
@@ -381,7 +381,7 @@ export default function MacVirusRemovalPage() {
                 step: '05',
                 icon: <Lock className="w-5 h-5" />,
                 title: 'Security Briefing + CyberShield Option',
-                desc: 'We explain how the infection got in and what to avoid going forward. We demonstrate CyberShield — our ongoing protection service with network-level filtering and monthly health checks. No hard sell. The choice is yours.',
+                desc: 'We explain how the infection got in and what to avoid going forward. We demonstrate CyberShield, our ongoing protection service with network-level filtering and monthly health checks. No hard sell. The choice is yours.',
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
@@ -409,7 +409,7 @@ export default function MacVirusRemovalPage() {
               </div>
               <div>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>
-                  Prevent Reinfection — <span className="text-[#0FEA7A]">CyberShield</span>
+                  Prevent Reinfection, <span className="text-[#0FEA7A]">CyberShield</span>
                 </h2>
                 <p className="text-[#7A9E98]">
                   Malware removal fixes the immediate problem. CyberShield prevents the next one. Used by ZA Support clients across Johannesburg to keep Macs clean long-term.
@@ -418,10 +418,10 @@ export default function MacVirusRemovalPage() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {[
-                { label: 'Network-level domain blocking', desc: 'Stops malicious sites before they load — at the DNS level, before your browser even connects.' },
+                { label: 'Network-level domain blocking', desc: 'Stops malicious sites before they load, at the DNS level, before your browser even connects.' },
                 { label: 'Monthly security health checks', desc: 'We scan your Mac every month for new threats, suspicious login items, and unusual processes.' },
                 { label: 'Real-time threat intelligence', desc: 'ZA Support monitors emerging Mac threat families and updates your protection automatically.' },
-                { label: 'Immediate incident response', desc: 'If a new infection is detected, we respond within 24 hours — included in your plan.' },
+                { label: 'Immediate incident response', desc: 'If a new infection is detected, we respond within 24 hours, included in your plan.' },
               ].map((f) => (
                 <div key={f.label} className="flex gap-3 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.07)] rounded-xl p-4">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -468,7 +468,7 @@ export default function MacVirusRemovalPage() {
             {[
               {
                 title: 'Free Diagnosis',
-                desc: 'We scan and identify the infection at no cost. You only pay for removal — and only after seeing a written fixed quote.',
+                desc: 'We scan and identify the infection at no cost. You only pay for removal, and only after seeing a written fixed quote.',
               },
               {
                 title: 'Mac Specialists Only',
@@ -476,11 +476,11 @@ export default function MacVirusRemovalPage() {
               },
               {
                 title: 'Complete Removal',
-                desc: 'We remove every component — not just the visible app. We verify clean status before handover. No partial fixes.',
+                desc: 'We remove every component, not just the visible app. We verify clean status before handover. No partial fixes.',
               },
               {
                 title: 'No Hard Sell',
-                desc: 'CyberShield is genuinely useful — but we will explain it and let you decide. We do not pressure. The value speaks for itself.',
+                desc: 'CyberShield is genuinely useful, but we will explain it and let you decide. We do not pressure. The value speaks for itself.',
               },
               {
                 title: 'Same-Day for Most Cases',
@@ -536,7 +536,7 @@ export default function MacVirusRemovalPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Mac Virus & Malware Removal — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="Mac Virus & Malware Removal, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -544,7 +544,7 @@ export default function MacVirusRemovalPage() {
       <section className="py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            Mac Virus Removal Near You — <span className="text-[#0FEA7A]">Johannesburg</span>
+            Mac Virus Removal Near You, <span className="text-[#0FEA7A]">Johannesburg</span>
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
             {[
@@ -558,7 +558,7 @@ export default function MacVirusRemovalPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm text-center mt-6">
-            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome — call first for same-day availability.
+            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome, call first for same-day availability.
           </p>
         </div>
       </section>
@@ -593,7 +593,7 @@ export default function MacVirusRemovalPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Think Your Mac Has a Virus?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Free diagnosis. Same-day removal. No fix, no fee.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Assessment: R899 ex VAT. Same-day removal. No fix, no fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 100% Mac specialists · CyberShield protection available</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

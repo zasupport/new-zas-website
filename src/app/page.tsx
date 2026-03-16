@@ -10,9 +10,9 @@ import { buildFaqSchema, AGGREGATE_RATING } from '@/lib/schema';
 import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Mac Repair Johannesburg — Logic Board Specialists',
+  title: 'Mac Repair Johannesburg, Logic Board Specialists',
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. No Fix No Fee. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. 3-month 3-month warranty. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com' },
 };
 
@@ -66,7 +66,7 @@ const differentiators = [
   {
     icon: Cpu,
     title: 'Board-Level Microsoldering',
-    description: 'We repair the chips others replace. Our engineers perform component-level repairs under microscope — saving you thousands compared to board replacement.',
+    description: 'We repair the chips others replace. Our engineers perform component-level repairs under microscope, saving you thousands compared to board replacement.',
   },
   {
     icon: Award,
@@ -75,13 +75,13 @@ const differentiators = [
   },
   {
     icon: Star,
-    title: '4.9★ on Google — 120+ Reviews',
+    title: '4.9★ on Google, 120+ Reviews',
     description: 'Our reputation is built on honest diagnostics, transparent pricing, and delivering exactly what we promise. No hidden costs.',
   },
   {
     icon: Zap,
-    title: '14 Years of Apple Expertise',
-    description: 'Since 2012, ZA Support has been Johannesburg\'s go-to Apple specialists. We\'ve seen — and fixed — every failure mode in every Apple device.',
+    title: '16 Years of Apple Expertise',
+    description: 'Since 2009, ZA Support has been Johannesburg\'s go-to Apple specialists. We\'ve seen and fixed every failure mode in every Apple device.',
   },
 ];
 
@@ -114,7 +114,7 @@ const speakableSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   '@id': 'https://zasupport.com/#webpage',
-  name: 'Mac Repair Johannesburg — Logic Board Specialists | ZA Support',
+  name: 'Mac Repair Johannesburg, Logic Board Specialists | ZA Support',
   url: 'https://zasupport.com',
   speakable: {
     '@type': 'SpeakableSpecification',
@@ -134,19 +134,19 @@ const homepageFaqs = [
       'We repair MacBook Air, MacBook Pro, iMac, Mac Mini, Mac Pro, iPhone (all models including iPhone 16), and iPad. We also perform JAMF MDM implementations and managed IT services for businesses. All Apple Silicon (M1/M2/M3/M4) and Intel models are supported.',
   },
   {
-    question: 'What does No Fix No Fee mean?',
+    question: 'What is your assessment fee?',
     answer:
-      'If we cannot fix your device, you pay nothing — not even a diagnostic fee. We assess the device, identify the fault, and provide a written quote. You only pay if you approve the repair and we complete it successfully. This applies to all MacBook, iMac, Mac Mini, iPhone, and iPad repairs.',
+      'ZA Support charges an assessment fee of R899 ex VAT. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a 3-month warranty on parts and labour.',
   },
   {
     question: 'How much does Mac repair cost in Johannesburg?',
     answer:
-      'Mac repair cost depends on the device and fault. All assessments are free — we diagnose and provide a fixed quote before starting any work. No Fix No Fee on all repairs.',
+      'Mac repair cost depends on the device and fault. An assessment fee of R899 ex VAT applies, we diagnose and provide a fixed quote before starting any work. Extended warranty is available on request.',
   },
   {
     question: 'Do you repair MacBook liquid damage?',
     answer:
-      'Yes. MacBook liquid damage is one of our primary specialisations. We perform ultrasonic board cleaning, component-level diagnosis, and microsoldering repair on liquid-damaged MacBook Air and MacBook Pro models. The sooner you bring in a liquid-damaged MacBook, the better the outcome. Do not try to turn it on — bring it to us immediately.',
+      'Yes. MacBook liquid damage is one of our primary specialisations. We perform ultrasonic board cleaning, component-level diagnosis, and microsoldering repair on liquid-damaged MacBook Air and MacBook Pro models. The sooner you bring in a liquid-damaged MacBook, the better the outcome. Do not try to turn it on, bring it to us immediately.',
   },
   {
     question: 'How long does Mac repair take?',
@@ -156,12 +156,12 @@ const homepageFaqs = [
   {
     question: 'Do you repair Apple Silicon (M1, M2, M3, M4) MacBooks?',
     answer:
-      'Yes. We repair Apple Silicon MacBook Air and MacBook Pro models including M1, M2, M3, and M4. Battery replacement, screen replacement, port repair, and logic board repair are all available. Note that RAM and SSD are soldered on Apple Silicon models and cannot be upgraded — but all other repairs are possible.',
+      'Yes. We repair Apple Silicon MacBook Air and MacBook Pro models including M1, M2, M3, and M4. Battery replacement, screen replacement, port repair, and logic board repair are all available. Note that RAM and SSD are soldered on Apple Silicon models and cannot be upgraded, but all other repairs are possible.',
   },
   {
     question: 'Is ZA Support an Apple Authorised Service Provider?',
     answer:
-      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple — and we can repair devices that Apple would refuse to fix (out of warranty, out of production, or with third-party modifications). Our warranty matches Apple\'s own repair warranty on parts and labour.',
+      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple, and we can repair devices that Apple would refuse to fix (out of 3-month warranty, out of production, or with third-party modifications). All repairs carry a 3-month warranty on parts and labour. Extended warranty is available on request.',
   },
 ];
 
@@ -198,7 +198,7 @@ export default function HomePage() {
 
             <p className="speakable-summary text-xl sm:text-2xl text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
               MacBook liquid damage, logic board microsoldering, iPhone &amp; iPad repair.
-              Hyde Park, Johannesburg. No Fix No Fee.
+              Hyde Park, Johannesburg. 3-month warranty on all repairs.
             </p>
 
             {/* Stats */}
@@ -234,7 +234,7 @@ export default function HomePage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
-                Book Free Assessment
+                Book Assessment: R899 ex VAT
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
@@ -251,10 +251,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
-              { icon: Shield, label: 'No Fix No Fee' },
-              { icon: BadgeCheck, label: 'Warranty' },
+              { icon: Shield, label: '3-Month Warranty' },
+              { icon: BadgeCheck, label: 'Written Warranty' },
               { icon: Clock, label: '72-Hour Turnaround' },
-              { icon: Search, label: 'Free Assessment' },
+              { icon: Search, label: 'Assessment: R899 ex VAT' },
               { icon: MapPin, label: 'Hyde Park, JHB' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2 text-[#E8F4F1]">
@@ -278,8 +278,8 @@ export default function HomePage() {
               <span className="text-[#0FEA7A]"> Every Problem.</span>
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl mx-auto">
-              From a cracked iPhone screen to a failed logic board — we&apos;ve repaired it all.
-              Transparent pricing, no hidden costs, warranty.
+              From a cracked iPhone screen to a failed logic board, we&apos;ve repaired it all.
+              Transparent pricing, no hidden costs, 3-month warranty.
             </p>
           </div>
 
@@ -335,7 +335,7 @@ export default function HomePage() {
               Why Choose ZA Support?
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl mx-auto">
-              We&apos;re not a repair shop — we&apos;re your Apple technology partner.
+              We&apos;re not a repair shop, we&apos;re your Apple technology partner.
             </p>
           </div>
 
@@ -417,11 +417,11 @@ export default function HomePage() {
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              Book Your Free Assessment
+              Book Your Assessment
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
-              Bring your device in. We&apos;ll assess it for free, give you a clear quote with no obligation,
-              and fix it fast — backed by a warranty.
+              Bring your device in. We&apos;ll assess it (R899 ex VAT), give you a clear quote,
+              and fix it fast, backed by a 3-month 3-month warranty. Extended warranty available on request.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

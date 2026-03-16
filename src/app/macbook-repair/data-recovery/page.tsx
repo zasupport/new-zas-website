@@ -25,67 +25,67 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { tier: 'Logical Recovery — Deleted Files / Accidental Format', note: 'Most common' },
-  { tier: 'Logical Recovery — OS Corruption / Failed Boot', note: '' },
-  { tier: 'Physical SSD Recovery — MacBook Air / Pro', note: 'Chip-level work' },
+  { tier: 'Logical Recovery, Deleted Files / Accidental Format', note: 'Most common' },
+  { tier: 'Logical Recovery, OS Corruption / Failed Boot', note: '' },
+  { tier: 'Physical SSD Recovery, MacBook Air / Pro', note: 'Chip-level work' },
   { tier: 'Liquid Damage + Data Recovery', note: 'Combined service' },
   { tier: 'Emergency Same-Day Recovery', note: 'Subject to availability' },
 ];
 
 const whatWeRecover = [
-  { icon: <FileSearch className="w-5 h-5" />, title: 'Documents & Spreadsheets', desc: 'Word files, Excel, Pages, Numbers, PDFs — regardless of whether the files were deleted, corrupted, or the drive failed to mount.' },
-  { icon: <Database className="w-5 h-5" />, title: 'Photos & Videos', desc: 'Camera roll imports, Final Cut Pro projects, Lightroom libraries, iMovie archives — recovered from internal drives and external media.' },
-  { icon: <HardDrive className="w-5 h-5" />, title: 'Emails & Contacts', desc: 'Apple Mail databases, Outlook PST and OLM archives, Contacts libraries — recovered from failed drives before migrating to a new machine.' },
-  { icon: <Shield className="w-5 h-5" />, title: 'Xcode Projects & Code', desc: 'Developer project directories, Git repositories, database dumps — if you were not pushing to GitHub regularly, we can recover local history.' },
+  { icon: <FileSearch className="w-5 h-5" />, title: 'Documents & Spreadsheets', desc: 'Word files, Excel, Pages, Numbers, PDFs, regardless of whether the files were deleted, corrupted, or the drive failed to mount.' },
+  { icon: <Database className="w-5 h-5" />, title: 'Photos & Videos', desc: 'Camera roll imports, Final Cut Pro projects, Lightroom libraries, iMovie archives, recovered from internal drives and external media.' },
+  { icon: <HardDrive className="w-5 h-5" />, title: 'Emails & Contacts', desc: 'Apple Mail databases, Outlook PST and OLM archives, Contacts libraries, recovered from failed drives before migrating to a new machine.' },
+  { icon: <Shield className="w-5 h-5" />, title: 'Xcode Projects & Code', desc: 'Developer project directories, Git repositories, database dumps, if you were not pushing to GitHub regularly, we can recover local history.' },
   { icon: <AlertTriangle className="w-5 h-5" />, title: 'Accounting & Financial Data', desc: 'QuickBooks, Sage, and Xero local databases. Payroll files. Invoicing records. We prioritise these as time-sensitive recoveries.' },
   { icon: <FileSearch className="w-5 h-5" />, title: 'Medical & Practice Records', desc: 'Patient record exports, GoodX backups, diagnostic imaging. We follow POPIA-compliant handling for all medical practice data recoveries.' },
   { icon: <Database className="w-5 h-5" />, title: 'Creative Projects', desc: 'Adobe Premiere, Photoshop, InDesign, Illustrator project files. Logic Pro and GarageBand sessions. Recovered from failed internal SSDs.' },
-  { icon: <HardDrive className="w-5 h-5" />, title: 'Business Applications', desc: 'Custom database files, legacy application data, backup archives (.zip, .dmg, .sparsebundle) — including Time Machine sparse bundles from failed drives.' },
+  { icon: <HardDrive className="w-5 h-5" />, title: 'Business Applications', desc: 'Custom database files, legacy application data, backup archives (.zip, .dmg, .sparsebundle), including Time Machine sparse bundles from failed drives.' },
 ];
 
 const faultTypes = [
   { icon: <AlertTriangle className="w-5 h-5" />, title: 'Accidental Delete', desc: 'Emptied the Trash or deleted files without a backup. Recovery success rate is high if no significant new data has been written to the drive since.' },
   { icon: <HardDrive className="w-5 h-5" />, title: 'Drive Not Mounting', desc: 'MacBook shows no internal drive, or the drive appears as unreadable. Often a firmware fault, partition table corruption, or early-stage physical failure.' },
-  { icon: <Database className="w-5 h-5" />, title: 'Accidental Format', desc: 'Drive was wiped or formatted — whether during a reinstall, APFS conversion, or by mistake. Logical recovery tools can reconstruct file structures before overwrite.' },
-  { icon: <Shield className="w-5 h-5" />, title: 'macOS Won&apos;t Boot', desc: 'MacBook turns on but gets stuck at the loading bar, shows a folder with a question mark, or cycles to recovery mode. The data is usually intact — it is the OS layer that has failed.' },
-  { icon: <AlertTriangle className="w-5 h-5" />, title: 'Liquid Damage', desc: 'If liquid reached the logic board or storage chips, data recovery requires board-level work before any file extraction can begin. Act fast — salt or sugary liquid causes rapid corrosion.' },
-  { icon: <HardDrive className="w-5 h-5" />, title: 'SSD Controller Failure', desc: 'Newer MacBook SSDs use Apple-proprietary storage chips soldered to the logic board. Physical controller failure requires specialist equipment — not something a general repair shop can handle.' },
+  { icon: <Database className="w-5 h-5" />, title: 'Accidental Format', desc: 'Drive was wiped or formatted, whether during a reinstall, APFS conversion, or by mistake. Logical recovery tools can reconstruct file structures before overwrite.' },
+  { icon: <Shield className="w-5 h-5" />, title: 'macOS Won&apos;t Boot', desc: 'MacBook turns on but gets stuck at the loading bar, shows a folder with a question mark, or cycles to recovery mode. The data is usually intact, it is the OS layer that has failed.' },
+  { icon: <AlertTriangle className="w-5 h-5" />, title: 'Liquid Damage', desc: 'If liquid reached the logic board or storage chips, data recovery requires board-level work before any file extraction can begin. Act fast, salt or sugary liquid causes rapid corrosion.' },
+  { icon: <HardDrive className="w-5 h-5" />, title: 'SSD Controller Failure', desc: 'Newer MacBook SSDs use Apple-proprietary storage chips soldered to the logic board. Physical controller failure requires specialist equipment, not something a general repair shop can handle.' },
   { icon: <FileSearch className="w-5 h-5" />, title: 'Ransomware / Malware Encryption', desc: 'Some Mac malware variants encrypt the home folder. If you have a snapshot or Time Machine backup, recovery is often possible without paying the ransom. Contact us immediately.' },
-  { icon: <Clock className="w-5 h-5" />, title: 'Old Machine — Can No Longer Boot', desc: 'MacBook Pro 2015 or earlier with a spinning HDD? If the machine no longer powers on, we can remove the drive and recover data to a new machine or external storage.' },
+  { icon: <Clock className="w-5 h-5" />, title: 'Old Machine, Can No Longer Boot', desc: 'MacBook Pro 2015 or earlier with a spinning HDD? If the machine no longer powers on, we can remove the drive and recover data to a new machine or external storage.' },
 ];
 
 const faqs = [
   {
     question: 'How much does MacBook data recovery cost in Johannesburg?',
-    answer: 'MacBook data recovery cost depends on the fault type and the volume of data. We provide a free assessment and a written fixed quote before any work begins — if we cannot recover your data, you do not pay.',
+    answer: 'MacBook data recovery cost depends on the fault type and the volume of data. We provide a assessment fee (R899 ex VAT) and a written fixed quote before any work begins, if we cannot recover your data, you do not pay.',
   },
   {
     question: 'What is the success rate for MacBook data recovery?',
-    answer: 'For logical recovery (deleted files, accidental format, OS corruption), our success rate is approximately 95%. For physical SSD failure where the controller is damaged, success depends on the extent of chip damage — we achieve recovery in roughly 70–80% of physical cases. We will give you an honest assessment after our diagnostic. We do not quote recovery jobs we cannot deliver.',
+    answer: 'For logical recovery (deleted files, accidental format, OS corruption), our success rate is approximately 95%. For physical SSD failure where the controller is damaged, success depends on the extent of chip damage, we achieve recovery in roughly 70–80% of physical cases. We will give you an honest assessment after our diagnostic. We do not quote recovery jobs we cannot deliver.',
   },
   {
     question: 'How long does data recovery take?',
-    answer: 'Logical recovery for standard volumes (up to 500 GB) typically takes 4–8 hours. Physical SSD recovery requiring chip-level work can take 1–3 business days. If you need emergency same-day recovery, contact us before bringing the machine in — subject to capacity. We will give you a realistic timeline at assessment.',
+    answer: 'Logical recovery for standard volumes (up to 500 GB) typically takes 4–8 hours. Physical SSD recovery requiring chip-level work can take 1–3 business days. If you need emergency same-day recovery, contact us before bringing the machine in, subject to capacity. We will give you a realistic timeline at assessment.',
   },
   {
     question: 'Can you recover data from a MacBook that will not turn on?',
-    answer: 'Yes. If the MacBook does not power on due to a logic board fault, battery failure, or liquid damage, we assess whether the storage chips are intact. For MacBooks from 2017 onwards, the SSD chips are soldered to the logic board — we work at the component level to extract data before or after board repair. Bring the machine in as soon as possible to maximise the chance of recovery.',
+    answer: 'Yes. If the MacBook does not power on due to a logic board fault, battery failure, or liquid damage, we assess whether the storage chips are intact. For MacBooks from 2017 onwards, the SSD chips are soldered to the logic board, we work at the component level to extract data before or after board repair. Bring the machine in as soon as possible to maximise the chance of recovery.',
   },
   {
-    question: 'I accidentally formatted my MacBook — can my files be recovered?',
+    question: 'I accidentally formatted my MacBook, can my files be recovered?',
     answer: 'In most cases, yes. When you format a drive, macOS marks the space as available but does not immediately overwrite existing file data. Recovery success depends on how much new data has been written since the format. If you have used the machine significantly after formatting, some files may be partially overwritten. Bring it in immediately and minimise use in the meantime.',
   },
   {
     question: 'Can you recover data from a MacBook with liquid damage?',
-    answer: 'Yes. Liquid damage data recovery is one of our most common requests. We first assess the board to determine whether the storage chips have been affected. For most liquid damage cases where the Mac was powered off quickly, the data is recoverable. We recommend bringing the machine in within 48 hours of the incident — corrosion from salt or sugary liquids accelerates over time and can destroy storage chips permanently.',
+    answer: 'Yes. Liquid damage data recovery is one of our most common requests. We first assess the board to determine whether the storage chips have been affected. For most liquid damage cases where the Mac was powered off quickly, the data is recoverable. We recommend bringing the machine in within 48 hours of the incident, corrosion from salt or sugary liquids accelerates over time and can destroy storage chips permanently.',
   },
   {
     question: 'Is my recovered data kept private?',
-    answer: 'Yes. We operate under POPIA (Protection of Personal Information Act) for all data recovery work. We do not copy, retain, or transmit your data beyond what is required for the recovery process. Medical and financial data is handled with additional controls. All recovered data is transferred to your own storage media or a secure cloud share — never stored on our systems beyond the recovery period.',
+    answer: 'Yes. We operate under POPIA (Protection of Personal Information Act) for all data recovery work. We do not copy, retain, or transmit your data beyond what is required for the recovery process. Medical and financial data is handled with additional controls. All recovered data is transferred to your own storage media or a secure cloud share, never stored on our systems beyond the recovery period.',
   },
   {
     question: 'What should I do right now to maximise data recovery chances?',
-    answer: 'Stop using the machine immediately — every write operation reduces recovery chances. Do not reinstall macOS, run Disk Utility Repair, or attempt a restore from backup on the same drive. If liquid damage occurred, power the machine off immediately and do not attempt to turn it on again. Bring it to us as soon as possible. The faster you act, the higher the recovery rate.',
+    answer: 'Stop using the machine immediately, every write operation reduces recovery chances. Do not reinstall macOS, run Disk Utility Repair, or attempt a restore from backup on the same drive. If liquid damage occurred, power the machine off immediately and do not attempt to turn it on again. Bring it to us as soon as possible. The faster you act, the higher the recovery rate.',
   },
 ];
 
@@ -185,7 +185,7 @@ export default function MacBookDataRecoveryPage() {
 
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Deleted files, failed SSD, accidental format, liquid damage, macOS corruption. If your data is on the drive, we will find it. Free assessment. If we cannot recover your data, you pay nothing.
+              Deleted files, failed SSD, accidental format, liquid damage, macOS corruption. If your data is on the drive, we will find it. Assessment: R899 ex VAT. If we cannot recover your data, assessment fee of R899 ex VAT applies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -217,9 +217,9 @@ export default function MacBookDataRecoveryPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { stat: '95%', label: 'Logical Recovery Success Rate' },
-              { stat: 'No Data', label: 'No Fee — Zero Risk' },
+              { stat: 'No Data', label: 'No Fee, Zero Risk' },
               { stat: 'POPIA', label: 'Compliant Handling' },
-              { stat: 'Free', label: 'Assessment — No Charge' },
+              { stat: 'Free', label: 'Assessment, No Charge' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
                 <span className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{item.stat}</span>
@@ -246,7 +246,7 @@ export default function MacBookDataRecoveryPage() {
               </div>
             </div>
             <p className="text-[#7A9E98] text-sm text-center sm:text-right max-w-xs">
-              Mac data recovery — Sandton, Rosebank, Fourways, Bryanston, Hyde Park
+              Mac data recovery, Sandton, Rosebank, Fourways, Bryanston, Hyde Park
             </p>
           </div>
         </div>
@@ -260,7 +260,7 @@ export default function MacBookDataRecoveryPage() {
               Data Recovery <span className="text-[#0FEA7A]">Types</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Free assessment first. Written fixed quote before any work begins. If we cannot recover your data, you pay nothing — no exceptions.
+              Assessment: R899 ex VAT first. Written fixed quote before any work begins. If we cannot recover your data, assessment fee of R899 ex VAT applies, no exceptions.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -294,7 +294,7 @@ export default function MacBookDataRecoveryPage() {
               What Data We <span className="text-[#0FEA7A]">Recover</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              From personal photos to practice management databases — if it was on your Mac, we work to get it back.
+              From personal photos to practice management databases, if it was on your Mac, we work to get it back.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -317,7 +317,7 @@ export default function MacBookDataRecoveryPage() {
               Data Loss Situations <span className="text-[#0FEA7A]">We Handle</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Recognise your situation? Bring the machine in for a free assessment. The sooner you act, the higher the recovery rate.
+              Recognise your situation? Bring the machine in for a assessment fee (R899 ex VAT). The sooner you act, the higher the recovery rate.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -346,8 +346,8 @@ export default function MacBookDataRecoveryPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Free Assessment',
-                desc: 'We image the drive sector-by-sector to a recovery volume before any attempt begins — this protects the original data. We then assess the fault type, determine recovery approach, and confirm what data is visible.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'We image the drive sector-by-sector to a recovery volume before any attempt begins, this protects the original data. We then assess the fault type, determine recovery approach, and confirm what data is visible.',
               },
               {
                 step: '02',
@@ -371,7 +371,7 @@ export default function MacBookDataRecoveryPage() {
                 step: '05',
                 icon: <CheckCircle className="w-5 h-5" />,
                 title: 'Backup Plan',
-                desc: 'Once your data is recovered, we discuss a proper backup strategy so this never happens again. Time Machine, cloud sync, and offsite backup options are all covered — matched to your workflow and budget.',
+                desc: 'Once your data is recovered, we discuss a proper backup strategy so this never happens again. Time Machine, cloud sync, and offsite backup options are all covered, matched to your workflow and budget.',
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
@@ -401,7 +401,7 @@ export default function MacBookDataRecoveryPage() {
             {[
               {
                 title: 'No Data, No Fee',
-                desc: 'If we cannot recover your data, you pay nothing. We absorb the diagnostic and imaging costs. Zero financial risk to you.',
+                desc: 'If we cannot recover your data, assessment fee of R899 ex VAT applies. We absorb the diagnostic and imaging costs. Zero financial risk to you.',
               },
               {
                 title: 'POPIA-Compliant',
@@ -409,7 +409,7 @@ export default function MacBookDataRecoveryPage() {
               },
               {
                 title: 'Forensic Imaging First',
-                desc: 'We sector-image the original drive before any recovery attempt. Your source data is never modified. This is the correct approach — not all shops do this.',
+                desc: 'We sector-image the original drive before any recovery attempt. Your source data is never modified. This is the correct approach, not all shops do this.',
               },
               {
                 title: 'Medical Practice Specialists',
@@ -417,11 +417,11 @@ export default function MacBookDataRecoveryPage() {
               },
               {
                 title: 'Apple-Native Expertise',
-                desc: 'APFS, HFS+, Core Storage, and T2/Apple Silicon storage architectures — we work exclusively on Mac. No Windows generalists guessing at Apple file systems.',
+                desc: 'APFS, HFS+, Core Storage, and T2/Apple Silicon storage architectures, we work exclusively on Mac. No Windows generalists guessing at Apple file systems.',
               },
               {
                 title: 'Hyde Park, Johannesburg',
-                desc: '1 Hyde Park Lane. Accessible from Sandton, Rosebank, Fourways, Bryanston. Walk-ins welcome — call first to confirm same-day capacity.',
+                desc: '1 Hyde Park Lane. Accessible from Sandton, Rosebank, Fourways, Bryanston. Walk-ins welcome, call first to confirm same-day capacity.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.2)] transition-colors">
@@ -469,7 +469,7 @@ export default function MacBookDataRecoveryPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Data Recovery — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="MacBook Data Recovery, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -477,7 +477,7 @@ export default function MacBookDataRecoveryPage() {
       <section className="py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Data Recovery Near You — <span className="text-[#0FEA7A]">Johannesburg</span>
+            MacBook Data Recovery Near You, <span className="text-[#0FEA7A]">Johannesburg</span>
           </h2>
           <div className="flex flex-wrap justify-center gap-3">
             {[
@@ -491,7 +491,7 @@ export default function MacBookDataRecoveryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm text-center mt-6">
-            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome — call first to confirm same-day capacity.
+            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome, call first to confirm same-day capacity.
           </p>
         </div>
       </section>
@@ -526,7 +526,7 @@ export default function MacBookDataRecoveryPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Lost Data on Your MacBook?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered — no charge.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered, no charge.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · POPIA-compliant · Stop using the machine and contact us now</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

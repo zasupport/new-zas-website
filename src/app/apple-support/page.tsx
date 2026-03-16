@@ -16,12 +16,12 @@ export const metadata: Metadata = {
 const supportServices = [
   {
     title: 'Mac Troubleshooting',
-    desc: 'Slow performance, startup problems, software crashes, macOS issues — diagnosed and resolved.',
+    desc: 'Slow performance, startup problems, software crashes, macOS issues, diagnosed and resolved.',
     href: '/macbook-repair',
   },
   {
     title: 'Data Recovery',
-    desc: 'Deleted files, failed drives, corrupted Time Machine backups — recovered where technically possible.',
+    desc: 'Deleted files, failed drives, corrupted Time Machine backups, recovered where technically possible.',
     href: '/apple-repair',
   },
   {
@@ -31,7 +31,7 @@ const supportServices = [
   },
   {
     title: 'iPhone & iPad Support',
-    desc: 'Setup, backup restore, app issues, connectivity, iCloud sync problems — all models.',
+    desc: 'Setup, backup restore, app issues, connectivity, iCloud sync problems, all models.',
     href: '/iphone-repair',
   },
   {
@@ -41,7 +41,7 @@ const supportServices = [
   },
   {
     title: 'Apple Device Repair',
-    desc: 'Screen, battery, liquid damage, logic board — all Apple devices, all damage types.',
+    desc: 'Screen, battery, liquid damage, logic board, all Apple devices, all damage types.',
     href: '/apple-repair',
   },
 ];
@@ -50,17 +50,17 @@ const faqs = [
   {
     question: 'What is the difference between Apple Support and Apple Repair?',
     answer:
-      'Apple Support at ZA Support covers troubleshooting, setup, configuration, data migration, and advice — the "how do I use this" and "something is not working right" questions. Apple Repair covers physical damage: cracked screens, dead batteries, liquid damage, and logic board failures. In practice, most visits involve elements of both — we fix the physical issue and ensure the software is fully set up correctly.',
+      'Apple Support at ZA Support covers troubleshooting, setup, configuration, data migration, and advice, the "how do I use this" and "something is not working right" questions. Apple Repair covers physical damage: cracked screens, dead batteries, liquid damage, and logic board failures. In practice, most visits involve elements of both, we fix the physical issue and ensure the software is fully set up correctly.',
   },
   {
     question: 'Do you support all Apple devices?',
     answer:
-      'Yes — MacBook Air, MacBook Pro, iMac, Mac mini, Mac Pro, Mac Studio, iPhone (8 through 16 Pro Max), iPad (all models including M4), Apple Watch, AirPods, and HomePod. We also support Apple Business Manager, JAMF MDM, and Apple-first IT environments for companies.',
+      'Yes, MacBook Air, MacBook Pro, iMac, Mac mini, Mac Pro, Mac Studio, iPhone (8 through 16 Pro Max), iPad (all models including M4), Apple Watch, AirPods, and HomePod. We also support Apple Business Manager, JAMF MDM, and Apple-first IT environments for companies.',
   },
   {
     question: 'Can you help with data migration from an old Mac to a new one?',
     answer:
-      'Yes. We handle the full migration — old Mac to new Mac, Windows to Mac, or Mac to Mac via Migration Assistant or manual transfer. We also configure iCloud, email accounts, and apps on the new machine. You collect a fully set-up machine ready to work.',
+      'Yes. We handle the full migration, old Mac to new Mac, Windows to Mac, or Mac to Mac via Migration Assistant or manual transfer. We also configure iCloud, email accounts, and apps on the new machine. You collect a fully set-up machine ready to work.',
   },
   {
     question: 'Do you offer on-site Apple support at our office?',
@@ -70,12 +70,12 @@ const faqs = [
   {
     question: 'Can you help if I am locked out of my Apple ID?',
     answer:
-      'Yes, for most scenarios. If you know your recovery email or phone number, we can walk through the Apple ID recovery process. If the account is tied to a deceased person\'s device, we can prepare the documentation Apple requires and assist with the removal process. We cannot bypass Apple\'s activation lock — no one legitimately can.',
+      'Yes, for most scenarios. If you know your recovery email or phone number, we can walk through the Apple ID recovery process. If the account is tied to a deceased person\'s device, we can prepare the documentation Apple requires and assist with the removal process. We cannot bypass Apple\'s activation lock, no one legitimately can.',
   },
   {
     question: 'How much does Apple Support cost?',
     answer:
-      'Contact us for a quote — most single-issue sessions take 1–2 hours. Setup and migration is quoted at a flat rate depending on data size and complexity. Business support and managed services are charged monthly — see our Managed Services page.',
+      'Contact us for a quote, most single-issue sessions take 1–2 hours. Setup and migration is quoted at a flat rate depending on data size and complexity. Business support and managed services are charged monthly, see our Managed Services page.',
   },
 ];
 
@@ -109,7 +109,7 @@ export default function AppleSupportPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Troubleshooting, setup, data migration, and ongoing support for every Apple device.
-              {SITE.yearsExperience} years Apple experience. No Fix No Fee. Hyde Park, Johannesburg.
+              {SITE.yearsExperience} years Apple experience. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -128,7 +128,7 @@ export default function AppleSupportPage() {
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
-                Book Free Assessment <ArrowRight className="w-5 h-5" />
+                Book Assessment <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function AppleSupportPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
-              { icon: Shield, label: 'No Fix No Fee' },
+              { icon: Shield, label: 'Assessment: R899 ex VAT' },
               { icon: BadgeCheck, label: 'Warranty' },
               { icon: Clock, label: 'Same-Day Help' },
               { icon: Headphones, label: 'All Apple Devices' },
@@ -206,7 +206,7 @@ export default function AppleSupportPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Need Apple Support? Call Us.</h2>
-            <p className="text-[#7A9E98] mb-6">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

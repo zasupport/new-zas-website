@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Screen Repair Johannesburg | ZA Support',
   description:
-    'iPad screen repair in Johannesburg. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. warranty. Hyde Park, Johannesburg.',
+    'iPad screen repair in Johannesburg. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. 3-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/screen' },
   keywords: [
     'iPad screen repair Johannesburg',
@@ -35,7 +35,7 @@ const symptoms = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Cracked or Shattered Glass',
-    desc: 'A drop or impact cracks the front glass and often the LCD beneath. Even minor cracks spread under daily pressure — early repair prevents further damage.',
+    desc: 'A drop or impact cracks the front glass and often the LCD beneath. Even minor cracks spread under daily pressure, early repair prevents further damage.',
   },
   {
     icon: <Monitor className="w-5 h-5" />,
@@ -65,7 +65,7 @@ const symptoms = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Ghost Touch (Screen Touches Itself)',
-    desc: 'The display appears to tap and swipe on its own. This is a digitiser fault — often triggered by a cracked panel creating phantom capacitive signals.',
+    desc: 'The display appears to tap and swipe on its own. This is a digitiser fault, often triggered by a cracked panel creating phantom capacitive signals.',
   },
   {
     icon: <Monitor className="w-5 h-5" />,
@@ -75,18 +75,18 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Free Assessment', desc: 'Bring your iPad in or WhatsApp us a photo. We inspect the display and give you a written fixed-price quote — no surprises.' },
+  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPad in or WhatsApp us a photo. We inspect the display and give you a written fixed-price quote, no surprises.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct replacement assembly is in stock for your specific model before committing to a repair date.' },
   { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the display assembly. Most iPad screen repairs take 1–3 hours.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy across the full panel, check brightness uniformity, verify Apple Pencil compatibility, and confirm Face ID or Touch ID still functions.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPad with a written warranty on the replacement screen and our labour. No Fix No Fee applies.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPad with a written warranty on the replacement screen and our labour. Assessment: R899 ex VAT applies.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPad screen repair cost in Johannesburg?',
     answer:
-      'iPad screen repair cost depends on your specific model and generation. We provide a free assessment and written fixed-price quote before starting any work — no surprises.',
+      'iPad screen repair cost depends on your specific model and generation. We provide a assessment fee (R899 ex VAT) and written fixed-price quote before starting any work, no surprises.',
   },
   {
     question: 'How long does iPad screen replacement take?',
@@ -96,7 +96,7 @@ const faqs = [
   {
     question: 'Will Apple Pencil still work after screen repair?',
     answer:
-      'Yes. We use OEM-quality display assemblies that maintain full Apple Pencil compatibility — including tilt detection and pressure sensitivity on supported models. We test Apple Pencil functionality before returning your iPad.',
+      'Yes. We use OEM-quality display assemblies that maintain full Apple Pencil compatibility, including tilt detection and pressure sensitivity on supported models. We test Apple Pencil functionality before returning your iPad.',
   },
   {
     question: 'Will Face ID or Touch ID still work after an iPad screen repair?',
@@ -106,7 +106,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked iPad screen?',
     answer:
-      'In most cases, yes. iPad screen repair costs a fraction of replacement. Screen repair versus buying new is almost always the better value. We provide an honest assessment — if repair is not economical, we will tell you.',
+      'In most cases, yes. iPad screen repair costs a fraction of replacement. Screen repair versus buying new is almost always the better value. We provide an honest assessment, if repair is not economical, we will tell you.',
   },
   {
     question: 'Can you repair an iPad Pro OLED or ProMotion screen?',
@@ -114,9 +114,9 @@ const faqs = [
       'Yes. We repair iPad Pro displays including ProMotion (120 Hz) LCD and OLED panels on the latest M4 iPad Pro. These are premium assemblies. We use high-quality replacements that preserve ProMotion refresh rates and colour accuracy.',
   },
   {
-    question: 'My iPad screen cracked but still works — should I repair it now?',
+    question: 'My iPad screen cracked but still works, should I repair it now?',
     answer:
-      'Yes — sooner is always better. Cracks spread under daily flexion and fingertip pressure. A crack that starts at the corner can reach across the display within weeks. More importantly, a cracked screen exposes the LCD beneath to dust and moisture. Repairing early saves money.',
+      'Yes, sooner is always better. Cracks spread under daily flexion and fingertip pressure. A crack that starts at the corner can reach across the display within weeks. More importantly, a cracked screen exposes the LCD beneath to dust and moisture. Repairing early saves money.',
   },
   {
     question: 'Do you offer a warranty on iPad screen repairs?',
@@ -130,21 +130,21 @@ const reviews = [
     name: 'Priya N.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'Dropped my iPad Air and the screen shattered completely. ZA Support had it fixed the same day — the new display looks perfect and Apple Pencil works flawlessly. Brilliant service.',
+    text: 'Dropped my iPad Air and the screen shattered completely. ZA Support had it fixed the same day, the new display looks perfect and Apple Pencil works flawlessly. Brilliant service.',
     date: 'February 2026',
   },
   {
     name: 'James O.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'iPad Pro 11" screen had dead pixels spreading from the corner. Fixed in two hours, Touch ID still works, warranty. Very professional team.',
+    text: 'iPad Pro 11" screen had dead pixels spreading from the corner. Fixed in two hours, Touch ID still works, 3-month warranty. Very professional team.',
     date: 'January 2026',
   },
   {
     name: 'Fatima D.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Ghost touch was driving me crazy — the screen was tapping itself constantly. ZA Support replaced the digitiser and it has been perfect ever since.',
+    text: 'Ghost touch was driving me crazy, the screen was tapping itself constantly. ZA Support replaced the digitiser and it has been perfect ever since.',
     date: 'March 2026',
   },
 ];
@@ -153,7 +153,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPad Screen Repair Johannesburg',
-  description: 'iPad screen repair service in Johannesburg covering all iPad mini, Air, and Pro models. Same-day available. warranty.',
+  description: 'iPad screen repair service in Johannesburg covering all iPad mini, Air, and Pro models. Same-day available. 3-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -173,7 +173,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Screen Repair Johannesburg',
-  description: 'iPad screen repair in Johannesburg for all iPad mini, Air, and Pro models. Cracked glass, dead touch, dead pixels, backlight failure. warranty.',
+  description: 'iPad screen repair in Johannesburg for all iPad mini, Air, and Pro models. Cracked glass, dead touch, dead pixels, backlight failure. 3-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -216,12 +216,12 @@ export default function iPadScreenPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Cracked glass, dead touch, dead pixels, ghost touch — we repair all iPad screen faults.
+              Cracked glass, dead touch, dead pixels, ghost touch, we repair all iPad screen faults.
               iPad mini, iPad Air, iPad Pro 11" and 12.9". Same-day available.
-              warranty. Hyde Park, Johannesburg.
+              3-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['No Fix No Fee', 'warranty', 'Apple Pencil compatible', 'Same-day available', 'Free assessment'].map((item) => (
+              {['Assessment: R899 ex VAT', '3-Month Warranty', 'Apple Pencil compatible', 'Same-day available', 'Assessment: R899 ex VAT'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -280,8 +280,8 @@ export default function iPadScreenPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written warranty. No Fix No Fee. Apple Pencil compatibility preserved.
-            Free assessment — no charge if we cannot repair your device.
+            All repairs include written 3-month warranty. Assessment: R899 ex VAT. Apple Pencil compatibility preserved.
+            Assessment: R899 ex VAT, no charge if we cannot repair your device.
           </p>
         </div>
       </section>
@@ -294,7 +294,7 @@ export default function iPadScreenPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we repair daily. If you are not sure whether your
-            fault is the screen or something deeper — we diagnose first, at no cost.
+            fault is the screen or something deeper, we diagnose first, at no cost.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -328,7 +328,7 @@ export default function iPadScreenPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Written Warranty',
-                    desc: 'Every iPad screen repair carries a warranty on parts and labour. If it fails, we fix it — no arguments, no charge.',
+                    desc: 'Every iPad screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments, no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
@@ -337,13 +337,13 @@ export default function iPadScreenPage() {
                   },
                   {
                     icon: <Wrench className="w-5 h-5" />,
-                    title: 'No Fix No Fee',
-                    desc: 'If we cannot fix your iPad screen, you pay nothing. We give you an honest assessment and fixed price before we start.',
+                    title: 'Assessment: R899 ex VAT',
+                    desc: 'If we cannot fix your iPad screen, assessment fee of R899 ex VAT applies. We give you an honest assessment and fixed price before we start.',
                   },
                   {
                     icon: <CheckCircle className="w-5 h-5" />,
                     title: 'Apple Pencil Compatibility Preserved',
-                    desc: 'We use OEM-quality display assemblies that maintain full Apple Pencil support — including pressure, tilt, and latency on Pro models.',
+                    desc: 'We use OEM-quality display assemblies that maintain full Apple Pencil support, including pressure, tilt, and latency on Pro models.',
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -364,7 +364,7 @@ export default function iPadScreenPage() {
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
                 <p className="text-[#7A9E98] text-sm italic mb-3">
                   &ldquo;I was told to replace the whole iPad. ZA Support replaced my screen
-                  same-day, warranty, Apple Pencil still works. Should have called them first.&rdquo;
+                  same-day, 3-month warranty, Apple Pencil still works. Should have called them first.&rdquo;
                 </p>
                 <div className="flex items-center gap-2">
                   <div className="flex gap-0.5">
@@ -430,7 +430,7 @@ export default function iPadScreenPage() {
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPad Screen Repair — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="iPad Screen Repair, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -444,9 +444,9 @@ export default function iPadScreenPage() {
             >
               Cracked iPad Screen?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
+              Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

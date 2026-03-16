@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iMac Water Damage Repair Johannesburg | ZA Support',
   description:
-    'iMac water damage repair in Johannesburg. 21.5" and 27" models, M1, M3, and Intel. Free assessment, No Fix No Fee. Call 064 529 5863.',
+    'iMac water damage repair in Johannesburg. 21.5" and 27" models, M1, M3, and Intel. Assessment: R899 ex VAT, Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/imac' },
 };
 
@@ -63,15 +63,15 @@ export default function iMacWaterDamagePage() {
               iMac Water Damage<br /><span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              iMac water damage repair. 21.5&quot;, 24&quot;, and 27&quot; models — M1, M3, and Intel.
-              Free assessment, No Fix No Fee. Hyde Park, Johannesburg.
+              iMac water damage repair. 21.5&quot;, 24&quot;, and 27&quot; models, M1, M3, and Intel.
+              Assessment: R899 ex VAT, Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
-                Free Assessment <ArrowRight className="w-5 h-5" />
+                Book Assessment <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function iMacWaterDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>iMac Liquid Damage: What We See</h2>
               <p className="text-[#7A9E98] leading-relaxed mb-4">
                 iMac liquid damage is most often caused by drinks spilled near the base of the display, where the ventilation
-                slots draw air — and liquid — into the chassis. Office water leaks and cleaning accidents account for a significant
+                slots draw air, and liquid, into the chassis. Office water leaks and cleaning accidents account for a significant
                 number of iMac liquid damage cases we see in Johannesburg each year.
               </p>
               <p className="text-[#7A9E98] leading-relaxed mb-6">
@@ -111,7 +111,7 @@ export default function iMacWaterDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="flex items-center gap-3 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. warranty. Collection available in Hyde Park area.</p>
+                <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty. Collection available in Hyde Park area.</p>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function iMacWaterDamagePage() {
 
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iMac Water Damage — FAQs" />
+          <FAQAccordion items={faqs} title="iMac Water Damage, FAQs" />
         </div>
       </section>
 
@@ -128,7 +128,7 @@ export default function iMacWaterDamagePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iMac Water Damage Repair</h2>
-            <p className="text-[#7A9E98] mb-6">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'AirPods Repair Johannesburg | Battery & Charging Case | ZA Support',
   description:
-    'AirPods repair in Johannesburg. Battery service, charging case replacement, deep cleaning. One AirPod dead, case not charging, connection dropout — we fix it. Hyde Park.',
+    'AirPods repair in Johannesburg. Battery service, charging case replacement, deep cleaning. One AirPod dead, case not charging, connection dropout, we fix it. Hyde Park.',
   keywords: [
     'airpods repair johannesburg',
     'airpods not charging',
@@ -32,17 +32,17 @@ const faqs = [
   {
     question: 'Why are my AirPods not charging in the case?',
     answer:
-      'AirPods charge via metal contact pins inside the case. These pins corrode, accumulate earwax, and bend slightly over time — any of which breaks the charging circuit. We clean the charging contacts on both the AirPods and the case interior. If the case battery is dead or the charging circuitry has failed, we assess whether a case replacement is more cost-effective than a board-level repair.',
+      'AirPods charge via metal contact pins inside the case. These pins corrode, accumulate earwax, and bend slightly over time, any of which breaks the charging circuit. We clean the charging contacts on both the AirPods and the case interior. If the case battery is dead or the charging circuitry has failed, we assess whether a case replacement is more cost-effective than a board-level repair.',
   },
   {
     question: 'Can you replace AirPods batteries?',
     answer:
-      'Yes, for AirPods 2nd and 3rd generation and AirPods Pro 1st generation. AirPods Pro 2nd generation (USB-C and Lightning) have a significantly more compact internal design with the battery directly bonded to the driver assembly — these are extremely difficult to service without damaging the acoustic components. We assess Pro 2nd gen on a case-by-case basis and will be upfront if the repair risk outweighs the cost.',
+      'Yes, for AirPods 2nd and 3rd generation and AirPods Pro 1st generation. AirPods Pro 2nd generation (USB-C and Lightning) have a significantly more compact internal design with the battery directly bonded to the driver assembly, these are extremely difficult to service without damaging the acoustic components. We assess Pro 2nd gen on a case-by-case basis and will be upfront if the repair risk outweighs the cost.',
   },
   {
     question: 'Do you repair AirPods Pro?',
     answer:
-      'AirPods Pro 1st generation (2019) — yes. We handle battery replacement, cleaning, and charging contact repairs. AirPods Pro 2nd generation (2022 and later, with H2 chip) are a different story. The internal construction is considerably more compact and the battery is not designed to be separated without high risk of damaging the noise-cancellation drivers or tearing the flex cable. We will assess them, but we set expectations honestly before attempting any invasive repair on Pro 2nd gen.',
+      'AirPods Pro 1st generation (2019), yes. We handle battery replacement, cleaning, and charging contact repairs. AirPods Pro 2nd generation (2022 and later, with H2 chip) are a different story. The internal construction is considerably more compact and the battery is not designed to be separated without high risk of damaging the noise-cancellation drivers or tearing the flex cable. We will assess them, but we set expectations honestly before attempting any invasive repair on Pro 2nd gen.',
   },
   {
     question: 'How long does AirPods repair take?',
@@ -52,20 +52,20 @@ const faqs = [
   {
     question: 'My AirPods keep disconnecting. Is that a repair issue?',
     answer:
-      'Intermittent connection dropout is usually a software or firmware issue first — try unpairing from all devices, resetting the AirPods by holding the case button for 15 seconds until the LED flashes amber, then re-pairing. If dropout continues after a full reset, it may indicate a degraded battery (low voltage causes Bluetooth instability), a dirty charging case causing incomplete charges, or hardware failure in the Bluetooth antenna. Bring them in — we diagnose at no charge before quoting.',
+      'Intermittent connection dropout is usually a software or firmware issue first, try unpairing from all devices, resetting the AirPods by holding the case button for 15 seconds until the LED flashes amber, then re-pairing. If dropout continues after a full reset, it may indicate a degraded battery (low voltage causes Bluetooth instability), a dirty charging case causing incomplete charges, or hardware failure in the Bluetooth antenna. Bring them in, we diagnose at no charge before quoting.',
   },
 ];
 
 const repairServices = [
   {
-    title: 'Battery Service — Per Ear',
+    title: 'Battery Service, Per Ear',
     models: 'AirPods Gen 2, Gen 3 | AirPods Pro Gen 1',
-    note: 'AirPods Pro Gen 2: assessment required — very complex internal construction.',
+    note: 'AirPods Pro Gen 2: assessment required, very complex internal construction.',
   },
   {
     title: 'Charging Case Replacement',
     models: 'AirPods Gen 2, Gen 3, AirPods Pro Gen 1 & 2',
-    note: 'Case only — your AirPods retained. MagSafe cases quoted separately.',
+    note: 'Case only, your AirPods retained. MagSafe cases quoted separately.',
   },
   {
     title: 'Deep Clean Service',
@@ -80,12 +80,12 @@ const repairServices = [
 ];
 
 const modelSupport = [
-  { model: 'AirPods Gen 1 (2016)', battery: 'Assessment', note: 'Older design — assessment first' },
+  { model: 'AirPods Gen 1 (2016)', battery: 'Assessment', note: 'Older design, assessment first' },
   { model: 'AirPods Gen 2 (2019)', battery: 'Available', note: 'Standard' },
   { model: 'AirPods Gen 3 (2021)', battery: 'Available', note: 'Standard' },
   { model: 'AirPods Pro Gen 1 (2019)', battery: 'Available', note: 'Standard' },
-  { model: 'AirPods Pro Gen 2 (2022–2024)', battery: 'Assessment only', note: 'Very high complexity — honest limitations apply' },
-  { model: 'AirPods Max', battery: '—', note: 'Cleaning only — battery not currently offered' },
+  { model: 'AirPods Pro Gen 2 (2022–2024)', battery: 'Assessment only', note: 'Very high complexity, honest limitations apply' },
+  { model: 'AirPods Max', battery: '—', note: 'Cleaning only, battery not currently offered' },
 ];
 
 const serviceSchema = {
@@ -159,10 +159,10 @@ export default function AirPodsRepairPage() {
               <span className="text-[#0FEA7A]">Battery, Case & Cleaning.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              One AirPod dead, case not charging, or sound muffled by earwax? Battery service, charging case replacement, and deep cleaning — free assessment before any work.
+              One AirPod dead, case not charging, or sound muffled by earwax? Battery service, charging case replacement, and deep cleaning, assessment fee (R899 ex VAT) before any work.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              No Fix No Fee. Free assessment. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -194,7 +194,7 @@ export default function AirPodsRepairPage() {
             AirPods Repair Services
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
-            Starting prices for the most common AirPods faults. Exact quote after free assessment.
+            Starting prices for the most common AirPods faults. Exact quote after assessment fee (R899 ex VAT).
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {repairServices.map((service) => (
@@ -227,7 +227,7 @@ export default function AirPodsRepairPage() {
                 className="text-[#F5A623] font-bold mb-2"
                 style={{ fontFamily: 'Syne, sans-serif' }}
               >
-                AirPods Pro Gen 2 — Honest Expectations
+                AirPods Pro Gen 2, Honest Expectations
               </h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
                 AirPods Pro 2nd generation (2022 and later) are significantly more difficult to service than earlier
@@ -252,7 +252,7 @@ export default function AirPodsRepairPage() {
             Prices by Model
           </h2>
           <p className="text-[#7A9E98] mb-8">
-            Starting prices. Final quote confirmed at free assessment.
+            Starting prices. Final quote confirmed at assessment fee (R899 ex VAT).
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -299,19 +299,19 @@ export default function AirPodsRepairPage() {
             {[
               {
                 symptom: 'One AirPod not working or silent',
-                fix: 'Battery dead or degraded on that ear, or mesh grille blocked — clean first, battery if needed',
+                fix: 'Battery dead or degraded on that ear, or mesh grille blocked, clean first, battery if needed',
               },
               {
                 symptom: 'AirPods not charging in case',
-                fix: 'Charging contact corrosion or earwax on pins — clean or contact pin repair',
+                fix: 'Charging contact corrosion or earwax on pins, clean or contact pin repair',
               },
               {
                 symptom: 'Battery draining in under 2 hours',
-                fix: 'Battery replacement — AirPods batteries degrade to under 80% capacity within 1–2 years of heavy use',
+                fix: 'Battery replacement, AirPods batteries degrade to under 80% capacity within 1–2 years of heavy use',
               },
               {
                 symptom: 'Muffled or distorted audio',
-                fix: 'Speaker mesh blocked by earwax — deep clean resolves most audio degradation',
+                fix: 'Speaker mesh blocked by earwax, deep clean resolves most audio degradation',
               },
               {
                 symptom: 'AirPods keep disconnecting',
@@ -319,15 +319,15 @@ export default function AirPodsRepairPage() {
               },
               {
                 symptom: 'Case not holding charge',
-                fix: 'Case battery degraded — case battery assessment or case replacement',
+                fix: 'Case battery degraded, case battery assessment or case replacement',
               },
               {
                 symptom: 'Water or sweat damage',
-                fix: 'Assessment required — AirPods Pro are rated IPX4 but not waterproof. Drying and contact clean often helps',
+                fix: 'Assessment required, AirPods Pro are rated IPX4 but not waterproof. Drying and contact clean often helps',
               },
               {
                 symptom: 'AirPods not recognised by iPhone',
-                fix: 'Pairing or firmware fault — full reset first, then hardware assessment if unresolved',
+                fix: 'Pairing or firmware fault, full reset first, then hardware assessment if unresolved',
               },
             ].map((item) => (
               <div
@@ -354,19 +354,19 @@ export default function AirPodsRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'No Fix No Fee',
-                desc: 'Cannot fix it? You pay nothing. No assessment fee, no call-out charge.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'Cannot fix it? Assessment fee of R899 ex VAT applies. No assessment fee, no call-out charge.',
               },
               {
                 title: 'Honest About Complexity',
-                desc: 'AirPods Pro Gen 2 are genuinely difficult. We set expectations before we open anything — not after.',
+                desc: 'AirPods Pro Gen 2 are genuinely difficult. We set expectations before we open anything, not after.',
               },
               {
                 title: 'Deep Clean Included',
                 desc: 'Every battery service includes a full clean of the mesh grilles and charging contacts. Most faults are cleaning faults.',
               },
               {
-                title: 'Free Assessment',
+                title: 'Assessment: R899 ex VAT',
                 desc: 'Bring them in. We inspect, test battery health, and quote. No charge if you decide not to proceed.',
               },
               {
@@ -395,7 +395,7 @@ export default function AirPodsRepairPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="AirPods Repair Johannesburg — Common Questions" />
+          <FAQAccordion items={faqs} title="AirPods Repair Johannesburg, Common Questions" />
         </div>
       </section>
 
@@ -412,7 +412,7 @@ export default function AirPodsRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Battery service &nbsp;|&nbsp; Case replacement &nbsp;|&nbsp; Deep clean
             </p>
-            <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

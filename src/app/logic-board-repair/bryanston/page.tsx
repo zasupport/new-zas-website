@@ -10,12 +10,12 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Bryanston | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Bryanston clients. Expert microsoldering — 10 minutes from Bryanston to Hyde Park. Free diagnostic, No Fix No Fee, warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Bryanston clients. Expert microsoldering, 10 minutes from Bryanston to Hyde Park. Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/bryanston' },
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook completely unresponsive. Board-level power delivery diagnosis — fuses, MOSFETs, charging ICs, and voltage rails all assessed.' },
+  { title: 'No Power', desc: 'MacBook completely unresponsive. Board-level power delivery diagnosis, fuses, MOSFETs, charging ICs, and voltage rails all assessed.' },
   { title: 'No Display Output', desc: 'Machine starts but screen is black. GPU output path, backlight driver circuit, or display signal IC traced and repaired at chip level.' },
   { title: 'Liquid Damage', desc: 'Liquid exposure causes immediate failure or delayed corrosion. Board ultrasonically cleaned and damaged traces and components restored.' },
   { title: 'Thermal Shutdowns', desc: 'MacBook shuts off unexpectedly. Voltage regulator or power management IC failure causing unstable power delivery under load.' },
@@ -26,9 +26,9 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Board-level inspection — no charge, no commitment' },
+  { item: 'Diagnostic Assessment', note: 'Board-level inspection, no charge, no commitment' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board' },
-  { item: 'Power Circuit Repair', note: 'No-power fault — power rail diagnosis and fix' },
+  { item: 'Power Circuit Repair', note: 'No-power fault, power rail diagnosis and fix' },
   { item: 'Microsoldering Repair', note: 'Precision microscope-level board repair' },
   { item: 'GPU Repair / Reballing', note: 'Intel discrete GPU models only' },
   { item: 'Logic Board Replacement', note: 'Full swap only when repair is not possible' },
@@ -37,23 +37,23 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Bryanston to collect my MacBook?',
-    answer: 'Yes. Bryanston is one of our closest service areas — approximately 8–12 km from our Hyde Park workshop, or about 10 to 15 minutes drive. We collect from your home or office in Bryanston, complete the repair at Hyde Park, and return your MacBook to you. Contact us on WhatsApp or by phone to arrange a collection time.',
+    answer: 'Yes. Bryanston is one of our closest service areas, approximately 8–12 km from our Hyde Park workshop, or about 10 to 15 minutes drive. We collect from your home or office in Bryanston, complete the repair at Hyde Park, and return your MacBook to you. Contact us on WhatsApp or by phone to arrange a collection time.',
   },
   {
     question: 'How close is Bryanston to your Hyde Park workshop?',
-    answer: 'Bryanston is very close — approximately 8–12 km via Winnie Mandela Drive or William Nicol Drive, which is a 10 to 15-minute drive in normal traffic. It is one of the easiest areas for us to serve, and many Bryanston clients choose to drop off and collect directly at our Hyde Park workshop during a trip to the area.',
+    answer: 'Bryanston is very close, approximately 8–12 km via Winnie Mandela Drive or William Nicol Drive, which is a 10 to 15-minute drive in normal traffic. It is one of the easiest areas for us to serve, and many Bryanston clients choose to drop off and collect directly at our Hyde Park workshop during a trip to the area.',
   },
   {
     question: 'My MacBook Pro 2020 shows no power after a liquid spill. What do you recommend?',
-    answer: 'Stop using it immediately if you have not already — do not attempt to charge or turn on a liquid-damaged Mac. Remove any power source and bring it to us or arrange collection as soon as possible. The faster a liquid-damaged board reaches us, the higher the recovery rate. We ultrasonically clean the board, stop the corrosion process, and repair the damaged components. Many boards that appear dead can be restored.',
+    answer: 'Stop using it immediately if you have not already, do not attempt to charge or turn on a liquid-damaged Mac. Remove any power source and bring it to us or arrange collection as soon as possible. The faster a liquid-damaged board reaches us, the higher the recovery rate. We ultrasonically clean the board, stop the corrosion process, and repair the damaged components. Many boards that appear dead can be restored.',
   },
   {
     question: 'Can you repair the logic board on a MacBook Pro M3?',
-    answer: 'Yes, for the components surrounding the M3 SoC. The M3 chip itself integrates the CPU, GPU, RAM, and Neural Engine in a single package that cannot be replaced at chip level. However, the power management circuit, USB-C controllers, storage interface, and board traces around the SoC are fully repairable through microsoldering — and these are the components that most commonly fail.',
+    answer: 'Yes, for the components surrounding the M3 SoC. The M3 chip itself integrates the CPU, GPU, RAM, and Neural Engine in a single package that cannot be replaced at chip level. However, the power management circuit, USB-C controllers, storage interface, and board traces around the SoC are fully repairable through microsoldering, and these are the components that most commonly fail.',
   },
   {
     question: 'What happens if my MacBook cannot be repaired?',
-    answer: 'We tell you honestly, explain what we found in the diagnostic, and outline your options. You can proceed with a board replacement, sell the device for parts, or pursue data recovery from the storage. The diagnostic is completely free — there is no charge for a "no fix" outcome. We never charge for work that does not happen.',
+    answer: 'We tell you honestly, explain what we found in the diagnostic, and outline your options. You can proceed with a board replacement, sell the device for parts, or pursue data recovery from the storage. The diagnostic is completely free, there is no charge for a "no fix" outcome. We never charge for work that does not happen.',
   },
   {
     question: 'How long does the repair take from Bryanston?',
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Bryanston',
-  description: 'MacBook logic board microsoldering for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Free diagnostic. No Fix No Fee. warranty.',
+  description: 'MacBook logic board microsoldering for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -104,17 +104,17 @@ export default function LogicBoardRepairBryanstonPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Bryanston is 10 minutes from our Hyde Park workshop. We collect your MacBook, diagnose the board fault at component level, and repair it — without replacing the whole board unless absolutely necessary.
+              Bryanston is 10 minutes from our Hyde Park workshop. We collect your MacBook, diagnose the board fault at component level, and repair it, without replacing the whole board unless absolutely necessary.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Bryanston and repair at our Hyde Park workshop — approx. 10–15 min drive (8–12 km)</span>
+              <span>We collect from Bryanston and repair at our Hyde Park workshop, approx. 10–15 min drive (8–12 km)</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'No Fix No Fee' },
+                { icon: CheckCircle, label: 'Assessment: R899 ex VAT' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -146,16 +146,16 @@ export default function LogicBoardRepairBryanstonPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Bryanston is a predominantly residential suburb with a significant population of professionals, executives, and remote workers — many of them on Mac hardware. It sits directly adjacent to the Sandton business district and shares the William Nicol corridor with Hyde Park, making ZA Support&apos;s workshop one of the closest specialist repair options available.
+              Bryanston is a predominantly residential suburb with a significant population of professionals, executives, and remote workers, many of them on Mac hardware. It sits directly adjacent to the Sandton business district and shares the William Nicol corridor with Hyde Park, making ZA Support&apos;s workshop one of the closest specialist repair options available.
             </p>
             <p>
-              The challenge most Bryanston Mac owners face when a logic board fault develops is finding a shop that will actually diagnose and repair the board rather than immediately quoting for a full replacement. Board swaps are easier for general repair shops — they require no specialised equipment. But they cost substantially more, and they are unnecessary in the majority of cases.
+              The challenge most Bryanston Mac owners face when a logic board fault develops is finding a shop that will actually diagnose and repair the board rather than immediately quoting for a full replacement. Board swaps are easier for general repair shops, they require no specialised equipment. But they cost substantially more, and they are unnecessary in the majority of cases.
             </p>
             <p>
-              ZA Support&apos;s approach is to identify the specific failed component first. That requires a stereo microscope, board-level diagnostic tools, and access to Apple schematics — all of which we have at our Hyde Park workshop. The repair itself is microsoldering: the damaged chip, capacitor, or trace is addressed directly, leaving the rest of your original board intact. The cost saving over board replacement is typically 60–80%.
+              ZA Support&apos;s approach is to identify the specific failed component first. That requires a stereo microscope, board-level diagnostic tools, and access to Apple schematics, all of which we have at our Hyde Park workshop. The repair itself is microsoldering: the damaged chip, capacitor, or trace is addressed directly, leaving the rest of your original board intact. The cost saving over board replacement is typically 60–80%.
             </p>
             <p>
-              We offer collection from Bryanston. The drive is 10–15 minutes — less than the time spent on hold with most repair centres. Once collected, your MacBook receives a free board-level diagnostic within 24 hours, a written quote before any work begins, and a warranty on every completed repair.
+              We offer collection from Bryanston. The drive is 10–15 minutes, less than the time spent on hold with most repair centres. Once collected, your MacBook receives a free board-level diagnostic within 24 hours, a written quote before any work begins, and a warranty on every completed repair.
             </p>
           </div>
         </div>
@@ -182,15 +182,15 @@ export default function LogicBoardRepairBryanstonPage() {
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>
-            Bryanston to Hyde Park — The Repair Journey
+            Bryanston to Hyde Park, The Repair Journey
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Bryanston', desc: 'Contact us on WhatsApp or phone. We arrange a collection from your Bryanston address — typically within 24 hours.' },
-              { step: '02', title: 'Free Diagnostic Assessment', desc: 'Board inspected within 24 hours of collection. Fault identified to component level — schematic, microscope, and power diagnostics used.' },
+              { step: '01', title: 'Collection from Bryanston', desc: 'Contact us on WhatsApp or phone. We arrange a collection from your Bryanston address, typically within 24 hours.' },
+              { step: '02', title: 'Free Diagnostic Assessment', desc: 'Board inspected within 24 hours of collection. Fault identified to component level, schematic, microscope, and power diagnostics used.' },
               { step: '03', title: 'Written Quote and Sign-Off', desc: 'You receive a written quote: fault description, repair method, cost, and timeframe. No repair proceeds without your approval.' },
               { step: '04', title: 'Microsoldering Repair', desc: 'The specific failed component is replaced under a stereo microscope. Your original board is preserved. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support warranty. Standard turnaround 48–72 hours from approval.' },
+              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support 3-month warranty. Standard turnaround 48–72 hours from approval.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -216,7 +216,7 @@ export default function LogicBoardRepairBryanstonPage() {
               <ul className="space-y-3">
                 {[
                   'Repairs the exact failed component',
-                  'Original board — data remains on device',
+                  'Original board, data remains on device',
                   '60–80% cheaper than board replacement',
                   'Touch ID and Secure Enclave remain intact',
                   'ZA Support warranty',
@@ -237,7 +237,7 @@ export default function LogicBoardRepairBryanstonPage() {
                   'Significantly higher cost than microsoldering',
                   'Touch ID pairing is broken on replacement',
                   'May require data migration',
-                  'warranty still applies',
+                  '3-month warranty still applies',
                   'Necessary for: burn damage, multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -263,14 +263,14 @@ export default function LogicBoardRepairBryanstonPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Price confirmed by written quote after free diagnostic. No obligation to proceed if quote is not acceptable.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Price confirmed by written quote after assessment. No obligation to proceed if quote is not acceptable.</p>
         </div>
       </section>
 
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Bryanston — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Bryanston, Common Questions" />
         </div>
       </section>
 
@@ -298,7 +298,7 @@ export default function LogicBoardRepairBryanstonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Bryanston MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. No Fix No Fee. warranty.</p>
+            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. Assessment: R899 ex VAT. 3-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

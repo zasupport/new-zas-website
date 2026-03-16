@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Camera Repair Johannesburg | ZA Support',
   description:
-    'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. warranty. Hyde Park.',
+    'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. 3-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/camera' },
   keywords: [
     'iPhone camera repair Johannesburg',
@@ -27,11 +27,11 @@ export const metadata: Metadata = {
 const pricingRows = [
   { model: 'Camera Lens Cover (any model)', note: 'Glass only' },
   { model: 'Front Camera Module', note: 'Face ID intact' },
-  { model: 'Rear Camera — iPhone 12/13', note: '' },
-  { model: 'Rear Camera — iPhone 14', note: '' },
-  { model: 'Rear Camera Pro — iPhone 14 Pro', note: 'Wide/Tele/UW' },
-  { model: 'Rear Camera — iPhone 15/16', note: '' },
-  { model: 'Rear Camera Pro — iPhone 15/16 Pro', note: 'Most popular 2025' },
+  { model: 'Rear Camera, iPhone 12/13', note: '' },
+  { model: 'Rear Camera, iPhone 14', note: '' },
+  { model: 'Rear Camera Pro, iPhone 14 Pro', note: 'Wide/Tele/UW' },
+  { model: 'Rear Camera, iPhone 15/16', note: '' },
+  { model: 'Rear Camera Pro, iPhone 15/16 Pro', note: 'Most popular 2025' },
   { model: 'Full Rear Camera System', note: 'All modules' },
 ];
 
@@ -39,12 +39,12 @@ const symptoms = [
   {
     icon: <Camera className="w-5 h-5" />,
     title: 'Blurry Photos on Every Shot',
-    desc: 'If every photo is blurry regardless of lighting, the camera module or optical image stabiliser (OIS) has failed. This is not a software problem — it needs physical replacement.',
+    desc: 'If every photo is blurry regardless of lighting, the camera module or optical image stabiliser (OIS) has failed. This is not a software problem, it needs physical replacement.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Black Screen in Camera App',
-    desc: 'Opening the Camera app shows a black or frozen screen. This indicates the camera module has failed or its ribbon cable has disconnected — often caused by a drop.',
+    desc: 'Opening the Camera app shows a black or frozen screen. This indicates the camera module has failed or its ribbon cable has disconnected, often caused by a drop.',
   },
   {
     icon: <Zap className="w-5 h-5" />,
@@ -54,17 +54,17 @@ const symptoms = [
   {
     icon: <Camera className="w-5 h-5" />,
     title: 'Cracked Camera Lens',
-    desc: 'A cracked rear camera lens cover causes flare, blurring, and dark patches in photos. This is a common drop injury — we replace just the glass cover without touching the camera module.',
+    desc: 'A cracked rear camera lens cover causes flare, blurring, and dark patches in photos. This is a common drop injury, we replace just the glass cover without touching the camera module.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Flash Not Working',
-    desc: 'The LED flash fails to fire in Camera or Torch modes. This can be a flash module failure or a related power circuit issue — both are diagnosable and repairable.',
+    desc: 'The LED flash fails to fire in Camera or Torch modes. This can be a flash module failure or a related power circuit issue, both are diagnosable and repairable.',
   },
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Front Camera Not Working',
-    desc: 'The selfie camera shows a black screen or distorted image. We replace the front camera module while preserving Face ID — the TrueDepth sensor is a separate component.',
+    desc: 'The selfie camera shows a black screen or distorted image. We replace the front camera module while preserving Face ID, the TrueDepth sensor is a separate component.',
   },
   {
     icon: <Camera className="w-5 h-5" />,
@@ -74,33 +74,33 @@ const symptoms = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Green Tint or Discolouration',
-    desc: 'A green cast, purple fringing, or colour distortion in photos and video is a sign of camera module damage — often caused by internal impact or liquid exposure.',
+    desc: 'A green cast, purple fringing, or colour distortion in photos and video is a sign of camera module damage, often caused by internal impact or liquid exposure.',
   },
 ];
 
 const processSteps = [
-  { step: '1', title: 'Free Assessment', desc: 'Bring your iPhone in or WhatsApp us a sample photo. We identify whether the fault is the lens, the module, or a software issue before quoting.' },
+  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPhone in or WhatsApp us a sample photo. We identify whether the fault is the lens, the module, or a software issue before quoting.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct camera module is in stock for your specific model. We stock modules for all current iPhone generations.' },
   { step: '3', title: 'Camera Replaced', desc: 'A certified technician replaces the camera module or lens cover. Camera repairs typically take 60–90 minutes.' },
   { step: '4', title: 'Full Camera Test', desc: 'We test all lenses (wide, ultra-wide, telephoto), the flash, front camera, video OIS, and Portrait Mode before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a written warranty on the repair and our labour. No Fix No Fee applies.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a written warranty on the repair and our labour. Assessment: R899 ex VAT applies.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPhone camera repair cost in Johannesburg?',
     answer:
-      'iPhone camera repair pricing depends on the repair type and model. We provide a free assessment and written fixed-price quote before any work begins.',
+      'iPhone camera repair pricing depends on the repair type and model. We provide a assessment fee (R899 ex VAT) and written fixed-price quote before any work begins.',
   },
   {
-    question: 'My iPhone camera is blurry — is it the lens or the module?',
+    question: 'My iPhone camera is blurry, is it the lens or the module?',
     answer:
-      'If the lens glass is cracked or scratched, replacing the lens cover resolves the blurring. If the lens is clean but photos are still blurry or the OIS is shaky, the camera module itself has failed. We diagnose this for free — bring it in or WhatsApp us a sample photo.',
+      'If the lens glass is cracked or scratched, replacing the lens cover resolves the blurring. If the lens is clean but photos are still blurry or the OIS is shaky, the camera module itself has failed. We diagnose this for free, bring it in or WhatsApp us a sample photo.',
   },
   {
     question: 'Will Front camera repair affect Face ID?',
     answer:
-      'No — if done correctly. The Face ID TrueDepth sensor is a separate component from the selfie camera. We replace only the front camera module and do not touch the Face ID sensor or its calibration data.',
+      'No, if done correctly. The Face ID TrueDepth sensor is a separate component from the selfie camera. We replace only the front camera module and do not touch the Face ID sensor or its calibration data.',
   },
   {
     question: 'Can you repair just the cracked camera lens cover?',
@@ -134,7 +134,7 @@ const reviews = [
     name: 'Lindi S.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'Cracked camera lens on my iPhone 15 Pro was ruining every photo. ZA Support replaced the glass cover in under an hour. Camera quality is back to perfect — and my face ID still works.',
+    text: 'Cracked camera lens on my iPhone 15 Pro was ruining every photo. ZA Support replaced the glass cover in under an hour. Camera quality is back to perfect, and my face ID still works.',
     date: 'February 2026',
   },
   {
@@ -148,7 +148,7 @@ const reviews = [
     name: 'Ayesha M.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'iPhone 16 Pro rear camera showed green tint after a drop. Full camera system replaced — all three lenses working, ProRes video confirmed. warranty. Very happy.',
+    text: 'iPhone 16 Pro rear camera showed green tint after a drop. Full camera system replaced, all three lenses working, ProRes video confirmed. 3-month warranty. Very happy.',
     date: 'March 2026',
   },
 ];
@@ -157,7 +157,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Camera Repair Johannesburg',
-  description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens, OIS failure. Front and rear. iPhone 12 through 16 Pro Max. warranty.',
+  description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens, OIS failure. Front and rear. iPhone 12 through 16 Pro Max. 3-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -177,7 +177,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Camera Repair Johannesburg',
-  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. warranty.',
+  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. 3-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -222,12 +222,12 @@ export default function iPhoneCameraPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Blurry photos, black camera screen, cracked lens, OIS failure — we repair all iPhone camera faults.
+              Blurry photos, black camera screen, cracked lens, OIS failure, we repair all iPhone camera faults.
               Front and rear cameras. iPhone 12 through 16 Pro Max.
-              warranty. Hyde Park, Johannesburg.
+              3-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['No Fix No Fee', 'warranty', 'Face ID preserved', 'Free assessment', 'ProRes compatible'].map((item) => (
+              {['Assessment: R899 ex VAT', '3-Month Warranty', 'Face ID preserved', 'Assessment: R899 ex VAT', 'ProRes compatible'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -264,10 +264,10 @@ export default function iPhoneCameraPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Camera Repair — Types Supported
+            iPhone Camera Repair, Types Supported
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
-            We provide a written fixed-price quote after a free diagnostic. Send us a photo of your camera fault
+            We provide a written fixed-price quote after a assessment. Send us a photo of your camera fault
             or bring the phone in.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
@@ -286,7 +286,7 @@ export default function iPhoneCameraPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written warranty. No Fix No Fee. Free assessment.
+            All repairs include written 3-month warranty. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
             Face ID is never affected by front camera replacement.
           </p>
         </div>
@@ -300,7 +300,7 @@ export default function iPhoneCameraPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every fault listed below is something we diagnose and repair daily. If you are not sure whether
-            your camera fault is hardware or software — we check first, at no cost.
+            your camera fault is hardware or software, we check first, at no cost.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -334,7 +334,7 @@ export default function iPhoneCameraPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Written Warranty',
-                    desc: 'Every camera repair carries a warranty on the replacement module and labour. If blurring or faults return within the warranty period, we fix it — no charge.',
+                    desc: 'Every camera repair carries a warranty on the replacement module and labour. If blurring or faults return within the warranty period, we fix it, no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
@@ -409,7 +409,7 @@ export default function iPhoneCameraPage() {
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Camera Repair — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="iPhone Camera Repair, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -447,9 +447,9 @@ export default function iPhoneCameraPage() {
             >
               iPhone Camera Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
+              Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

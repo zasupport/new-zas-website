@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
   description:
-    'MacBook Pro repair Johannesburg — Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. M1–M4 Pro/Max and Intel 2015–2019. No Fix No Fee. Hyde Park.',
+    'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. M1–M4 Pro/Max and Intel 2015–2019. Assessment: R899 ex VAT. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair' },
   keywords: [
     'macbook pro repair johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
-    description: 'MacBook Pro repair Johannesburg — Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. No Fix No Fee.',
+    description: 'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. Assessment: R899 ex VAT.',
     url: 'https://zasupport.com/macbook-pro-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -41,7 +41,7 @@ const services = [
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with warranty.',
+    description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with 3-month warranty.',
     href: '/macbook-repair/keyboard',
     price: 'Quoted on assessment',
   },
@@ -83,7 +83,7 @@ const services = [
   {
     icon: Thermometer,
     title: 'Thermal Throttling Fix',
-    description: 'MacBook Pro running hot, fans at full speed, or throttling under load? We clean the heatsink, replace thermal paste, and check for firmware-level throttle issues — common on Intel 15" and 16" models.',
+    description: 'MacBook Pro running hot, fans at full speed, or throttling under load? We clean the heatsink, replace thermal paste, and check for firmware-level throttle issues, common on Intel 15" and 16" models.',
     href: '/contact',
     price: 'Quoted on assessment',
   },
@@ -95,9 +95,9 @@ const models = [
   { name: 'MacBook Pro M2 Pro / Max 14" & 16" (2023)', note: 'Popular' },
   { name: 'MacBook Pro M1 Pro / Max 14" & 16" (2021)', note: 'Popular' },
   { name: 'MacBook Pro Intel 16" (2019)', note: 'Intel' },
-  { name: 'MacBook Pro Intel 15" (2016–2019)', note: 'Intel — Flexgate risk' },
+  { name: 'MacBook Pro Intel 15" (2016–2019)', note: 'Intel, Flexgate risk' },
   { name: 'MacBook Pro Intel 15" (2015)', note: 'Intel' },
-  { name: 'MacBook Pro Intel 13" (2016–2020)', note: 'Intel — butterfly kbd' },
+  { name: 'MacBook Pro Intel 13" (2016–2020)', note: 'Intel, butterfly kbd' },
   { name: 'MacBook Pro Intel 13" (2011–2015)', note: 'Intel' },
   { name: 'MacBook Pro Retina (all years)', note: 'Staingate risk' },
 ];
@@ -119,7 +119,7 @@ const knownIssues = [
     name: 'Butterfly Keyboard',
     models: '2016–2019 MacBook Pro',
     icon: Keyboard,
-    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly — keyboard, battery bracket, and all — with a working unit carrying a warranty.',
+    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly, keyboard, battery bracket, and all, with a working unit carrying a 3-month warranty.',
   },
   {
     name: 'Thermal Throttling',
@@ -140,15 +140,15 @@ const faqs = [
   },
   {
     question: 'Can M1 Pro, M2 Pro, M3 Pro, and M4 Pro MacBook Pro models be repaired?',
-    answer: 'Yes. We repair all M-series MacBook Pro models. RAM and SSD storage are soldered to the logic board on all M-series machines and cannot be upgraded after purchase — but screen, battery, keyboard, trackpad, port, and component-level board repairs are all available. The M-series logic board is repairable at component level by a specialist, unlike what Apple\'s repair cost suggests.',
+    answer: 'Yes. We repair all M-series MacBook Pro models. RAM and SSD storage are soldered to the logic board on all M-series machines and cannot be upgraded after purchase, but screen, battery, keyboard, trackpad, port, and component-level board repairs are all available. The M-series logic board is repairable at component level by a specialist, unlike what Apple\'s repair cost suggests.',
   },
   {
     question: 'My MacBook Pro butterfly keyboard has keys that do not register. What are my options?',
-    answer: 'Butterfly keyboard failure is a known issue on MacBook Pro 2016 to 2019 models. Apple\'s free repair programme has ended. The repair involves replacing the full top case assembly — keyboard, battery connector bracket, and surrounding chassis. This is a major repair but produces a reliably working machine. We carry top cases for most affected models and include a warranty on the repair.',
+    answer: 'Butterfly keyboard failure is a known issue on MacBook Pro 2016 to 2019 models. Apple\'s free repair programme has ended. The repair involves replacing the full top case assembly, keyboard, battery connector bracket, and surrounding chassis. This is a major repair but produces a reliably working machine. We carry top cases for most affected models and include a warranty on the repair.',
   },
   {
     question: 'My MacBook Pro has a black screen but the fans spin on startup. What is wrong?',
-    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016–2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first — if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Free diagnostic before any quote.',
+    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016–2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first, if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Assessment: R899 ex VAT before any quote.',
   },
   {
     question: 'What is logic board microsoldering and when does a MacBook Pro need it?',
@@ -156,7 +156,7 @@ const faqs = [
   },
   {
     question: 'How long does MacBook Pro repair take?',
-    answer: 'Battery replacement: 1.5 to 2.5 hours. Screen replacement: 2 to 4 hours depending on model. Keyboard top-case replacement: 2 to 4 hours. Thermal paste and heatsink service: 1 to 2 hours. Logic board and liquid damage repairs: 3 to 5 business days due to component-level diagnosis and parts sourcing. We give you a precise timeline when you drop in.',
+    answer: 'Battery replacement: 1.5 to 2.5 hours. Screen replacement: 2 to 4 hours depending on model. Keyboard top-case replacement: 2 to 4 hours. Thermal paste and heatsink service: 1 to 2 hours. Logic board and liquid damage repairs: 3 to 5 business days due to component-level diagnosis. We give you a precise timeline when you drop in.',
   },
   {
     question: 'Is there a warranty on MacBook Pro repairs?',
@@ -168,14 +168,14 @@ const faqs = [
   },
   {
     question: 'What is the Staingate issue and can it be fixed?',
-    answer: 'Staingate refers to the delamination of the anti-reflective coating on Retina MacBook Pro screens. It appears as blotchy, cloudy, or oil-stained patches on the display that do not clean off. It is caused by the coating reacting with skin oils and cleaning agents over time. The only permanent fix is a display replacement with a panel that does not have the same coating formula. We replace affected screens — contact us for a quote.',
+    answer: 'Staingate refers to the delamination of the anti-reflective coating on Retina MacBook Pro screens. It appears as blotchy, cloudy, or oil-stained patches on the display that do not clean off. It is caused by the coating reacting with skin oils and cleaning agents over time. The only permanent fix is a display replacement with a panel that does not have the same coating formula. We replace affected screens, contact us for a quote.',
   },
 ];
 
 const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'ZA Support — MacBook Pro Repair Johannesburg',
+  name: 'ZA Support, MacBook Pro Repair Johannesburg',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: SITE.rating,
@@ -192,7 +192,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering, liquid damage. M1–M4 Pro/Max and Intel models. No Fix No Fee.',
+    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering, liquid damage. M1–M4 Pro/Max and Intel models. Assessment: R899 ex VAT.',
   offers: {
     '@type': 'AggregateOffer',
   },
@@ -232,10 +232,10 @@ export default function MacBookProRepairPage() {
               MacBook Pro Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Specialists in MacBook Pro faults — Flexgate backlight failure, Staingate screen delamination, butterfly keyboard, thermal throttling, and logic board microsoldering. All models from M4 Pro/Max back to 2011 Intel.
+              Specialists in MacBook Pro faults, Flexgate backlight failure, Staingate screen delamination, butterfly keyboard, thermal throttling, and logic board microsoldering. All models from M4 Pro/Max back to 2011 Intel.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Hyde Park, Johannesburg. Free assessment. No Fix No Fee.
+              Hyde Park, Johannesburg. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -251,8 +251,8 @@ export default function MacBookProRepairPage() {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> warranty</span>
-              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> No Fix No Fee</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 3-Month Warranty</span>
+              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: R899 ex VAT</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
           </div>
@@ -266,7 +266,7 @@ export default function MacBookProRepairPage() {
             Known MacBook Pro <span className="text-[#0FEA7A]">Design Issues</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Several MacBook Pro generations have well-documented design faults. If your machine has any of these, you are not alone — and all are repairable.
+            Several MacBook Pro generations have well-documented design faults. If your machine has any of these, you are not alone, and all are repairable.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {knownIssues.map((issue) => {
@@ -292,7 +292,7 @@ export default function MacBookProRepairPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Pro Repairs We Do</h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault — from battery to board-level microsoldering. Same-day diagnosis, fixed pricing, warranty.</p>
+          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault, from battery to board-level microsoldering. Same-day diagnosis, fixed pricing, 3-month warranty.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => {
               const Icon = svc.icon;
@@ -321,7 +321,7 @@ export default function MacBookProRepairPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             MacBook Pro <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
-          <p className="text-[#7A9E98] text-center mb-10 text-sm">All costs are confirmed in writing after a free assessment. No hidden costs.</p>
+          <p className="text-[#7A9E98] text-center mb-10 text-sm">All costs are confirmed in writing after a assessment fee (R899 ex VAT). No hidden costs.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
               <thead>
@@ -351,7 +351,7 @@ export default function MacBookProRepairPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after free assessment. All repairs include warranty.</p>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee (R899 ex VAT). All repairs include 3-month warranty.</p>
         </div>
       </section>
 
@@ -370,7 +370,7 @@ export default function MacBookProRepairPage() {
           <div className="mt-6 glass-card p-4 border border-[rgba(15,234,122,0.15)]">
             <p className="text-[#0FEA7A] font-semibold text-sm mb-1">Why We Can Repair What Apple Cannot</p>
             <p className="text-[#7A9E98] text-xs leading-relaxed">
-              Apple replaces entire logic boards because their technicians do not perform component-level work. We use professional rework stations with hot-air and BGA reballing capability. Most MacBook Pro board faults involve a single failed capacitor, IC, or connector — not the entire board. We fix the component, not the machine.
+              Apple replaces entire logic boards because their technicians do not perform component-level work. We use professional rework stations with hot-air and BGA reballing capability. Most MacBook Pro board faults involve a single failed capacitor, IC, or connector, not the entire board. We fix the component, not the machine.
             </p>
           </div>
         </div>
@@ -398,7 +398,7 @@ export default function MacBookProRepairPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro Repair — FAQs" />
+          <FAQAccordion items={faqs} title="MacBook Pro Repair, FAQs" />
         </div>
       </section>
 
@@ -408,8 +408,8 @@ export default function MacBookProRepairPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Pro Needs a Repair?</h2>
             <p className="text-[#7A9E98] mb-6">
-              Free assessment. Fixed pricing. No Fix No Fee. Hyde Park, Johannesburg.<br />
-              WhatsApp for the fastest response — typically within 30 minutes during business hours.
+              Assessment: R899 ex VAT. Fixed pricing. Assessment: R899 ex VAT. Hyde Park, Johannesburg.<br />
+              WhatsApp for the fastest response, typically within 30 minutes during business hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

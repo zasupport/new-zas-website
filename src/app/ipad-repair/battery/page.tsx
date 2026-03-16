@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Battery Replacement Johannesburg | ZA Support',
   description:
-    'iPad battery replacement in Johannesburg. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. warranty. Hyde Park, Johannesburg.',
+    'iPad battery replacement in Johannesburg. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. 3-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/battery' },
   keywords: [
     'iPad battery replacement Johannesburg',
@@ -39,7 +39,7 @@ const symptoms = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Swollen or Raised Back Cover',
-    desc: 'A bulging back panel means the battery is swelling. This is a safety risk — continued use can crack the screen or damage internal components. Repair immediately.',
+    desc: 'A bulging back panel means the battery is swelling. This is a safety risk, continued use can crack the screen or damage internal components. Repair immediately.',
   },
   {
     icon: <Battery className="w-5 h-5" />,
@@ -54,7 +54,7 @@ const symptoms = [
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'iPad Shuts Off at Random',
-    desc: 'Unexpected shutdowns — even at 60% or 70% — are caused by voltage sags in a failing battery. Replacement eliminates the shutdowns.',
+    desc: 'Unexpected shutdowns, even at 60% or 70%, are caused by voltage sags in a failing battery. Replacement eliminates the shutdowns.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
@@ -74,11 +74,11 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Free Assessment', desc: 'Bring your iPad in or WhatsApp us a photo. We test the battery and provide a written fixed-price quote.' },
+  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPad in or WhatsApp us a photo. We test the battery and provide a written fixed-price quote.' },
   { step: '2', title: 'Battery Sourced', desc: 'We confirm the correct OEM-grade replacement battery is available for your model before booking the repair.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery. Most iPad battery replacements take 1–2 hours.' },
   { step: '4', title: 'Full Calibration', desc: 'We run a charge-discharge cycle to calibrate the new battery and verify accurate charge reporting.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect with a written warranty on the replacement battery and our labour. No Fix No Fee.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect with a written warranty on the replacement battery and our labour. Assessment: R899 ex VAT.' },
 ];
 
 const faqs = [
@@ -95,7 +95,7 @@ const faqs = [
   {
     question: 'Is a swollen iPad battery dangerous?',
     answer:
-      'Yes. A swollen battery is a lithium cell failure and is a safety hazard. The expanding gas inside can crack the screen from beneath, damage the logic board, and in rare cases cause a thermal event. If you notice your iPad back cover is raised or you can rock it on a flat surface, bring it in immediately — do not charge it overnight.',
+      'Yes. A swollen battery is a lithium cell failure and is a safety hazard. The expanding gas inside can crack the screen from beneath, damage the logic board, and in rare cases cause a thermal event. If you notice your iPad back cover is raised or you can rock it on a flat surface, bring it in immediately, do not charge it overnight.',
   },
   {
     question: 'How long does iPad battery replacement take?',
@@ -105,12 +105,12 @@ const faqs = [
   {
     question: 'Will data be lost during an iPad battery replacement?',
     answer:
-      'No. Battery replacement is a hardware procedure and does not affect your storage, apps, or settings. However, we always recommend backing up your iPad to iCloud or your Mac before any repair — your data is your responsibility.',
+      'No. Battery replacement is a hardware procedure and does not affect your storage, apps, or settings. However, we always recommend backing up your iPad to iCloud or your Mac before any repair, your data is your responsibility.',
   },
   {
     question: 'Can you replace an iPad Pro battery?',
     answer:
-      'Yes. We replace batteries across all iPad Pro generations — including 11" and 12.9" models from the first generation through to M4. iPad Pro batteries require careful removal of the screen adhesive, which is why the repair takes slightly longer and costs a little more than standard iPad models.',
+      'Yes. We replace batteries across all iPad Pro generations, including 11" and 12.9" models from the first generation through to M4. iPad Pro batteries require careful removal of the screen adhesive, which is why the repair takes slightly longer and costs a little more than standard iPad models.',
   },
   {
     question: 'How many charge cycles before an iPad battery needs replacing?',
@@ -136,14 +136,14 @@ const reviews = [
     name: 'Nadia K.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'Noticed my iPad mini back was slightly raised — ZA Support confirmed a swollen battery and replaced it within two hours. Safe again and charges perfectly.',
+    text: 'Noticed my iPad mini back was slightly raised, ZA Support confirmed a swollen battery and replaced it within two hours. Safe again and charges perfectly.',
     date: 'January 2026',
   },
   {
     name: 'Gareth S.',
     suburb: 'Bryanston',
     rating: 5,
-    text: 'iPad Pro 11" was shutting off randomly at 60%. Fixed in two hours, warranty. Should have done this months ago.',
+    text: 'iPad Pro 11" was shutting off randomly at 60%. Fixed in two hours, 3-month warranty. Should have done this months ago.',
     date: 'March 2026',
   },
 ];
@@ -152,7 +152,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPad Battery Replacement Johannesburg',
-  description: 'iPad battery replacement service in Johannesburg for all iPad mini, Air, and Pro models. Same-day available. warranty.',
+  description: 'iPad battery replacement service in Johannesburg for all iPad mini, Air, and Pro models. Same-day available. 3-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -172,7 +172,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Battery Replacement Johannesburg',
-  description: 'iPad battery replacement in Johannesburg for all iPad mini, Air, and Pro models. iPad dying, swollen battery, slow charging. warranty.',
+  description: 'iPad battery replacement in Johannesburg for all iPad mini, Air, and Pro models. iPad dying, swollen battery, slow charging. 3-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -216,11 +216,11 @@ export default function iPadBatteryPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               iPad dying at 40%, swollen back, or barely lasting the morning? We replace iPad batteries.
-              iPad mini, iPad Air, iPad Pro. Same-day available. warranty.
+              iPad mini, iPad Air, iPad Pro. Same-day available. 3-month warranty.
               Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['No Fix No Fee', 'warranty', 'Same-day available', 'Free battery health test', 'Swollen battery — urgent repair'].map((item) => (
+              {['Assessment: R899 ex VAT', '3-Month Warranty', 'Same-day available', 'Free battery health test', 'Swollen battery, urgent repair'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -257,7 +257,7 @@ export default function iPadBatteryPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPad Battery Replacement Prices — Johannesburg 2026
+            iPad Battery Replacement Prices, Johannesburg 2026
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             All prices include OEM-grade battery, labour, and post-replacement calibration.
@@ -281,7 +281,7 @@ export default function iPadBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written warranty. No Fix No Fee. Free battery health assessment.
+            All repairs include written 3-month warranty. Assessment: R899 ex VAT. Free battery health assessment.
           </p>
         </div>
       </section>
@@ -294,7 +294,7 @@ export default function iPadBatteryPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Most iPad battery faults are easy to identify. If you recognise any of these symptoms,
-            bring your iPad in — we test battery health for free and give you a written quote before starting.
+            bring your iPad in, we test battery health for free and give you a written quote before starting.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -333,12 +333,12 @@ export default function iPadBatteryPage() {
                   {
                     icon: <Clock className="w-5 h-5" />,
                     title: 'Same-Day When in Stock',
-                    desc: 'We stock batteries for the most common iPad models. Same-day repair is available when your battery is in stock — confirmed when you bring it in.',
+                    desc: 'We stock batteries for the most common iPad models. Same-day repair is available when your battery is in stock, confirmed when you bring it in.',
                   },
                   {
                     icon: <Wrench className="w-5 h-5" />,
                     title: 'Free Battery Health Test',
-                    desc: 'We test your iPad battery health before quoting. If the battery is fine and the fault is elsewhere, we diagnose that too — no unnecessary replacements.',
+                    desc: 'We test your iPad battery health before quoting. If the battery is fine and the fault is elsewhere, we diagnose that too, no unnecessary replacements.',
                   },
                   {
                     icon: <CheckCircle className="w-5 h-5" />,
@@ -403,7 +403,7 @@ export default function iPadBatteryPage() {
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPad Battery Replacement — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="iPad Battery Replacement, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -417,9 +417,9 @@ export default function iPadBatteryPage() {
             >
               iPad Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free battery health test. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free battery health test. Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
+              Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

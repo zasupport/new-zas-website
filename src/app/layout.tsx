@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: '%s | ZA Support',
   },
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. No Fix No Fee. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. Assessment: R899 ex VAT. Call 064 529 5863.",
   keywords: [
     'Apple repair Johannesburg',
     'MacBook repair Johannesburg',
@@ -58,12 +58,12 @@ export const metadata: Metadata = {
     siteName: 'ZA Support',
     title: 'Apple Repair Johannesburg | ZA Support',
     description:
-      "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. No Fix No Fee.",
+      "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. Assessment: R899 ex VAT.",
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ZA Support — Apple Repair Johannesburg',
-    description: "Johannesburg's Apple repair specialists. No Fix No Fee. Call 064 529 5863.",
+    title: 'ZA Support, Apple Repair Johannesburg',
+    description: "Johannesburg's Apple repair specialists. Assessment: R899 ex VAT. Call 064 529 5863.",
   },
   robots: {
     index: true,

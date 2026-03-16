@@ -9,7 +9,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iMac Repair Johannesburg | Screen, RAM, SSD, Logic Board | ZA Support',
   description:
-    'iMac repair in Johannesburg. Screen replacement, RAM upgrade, SSD upgrade, logic board repair, liquid damage — all iMac models from 2012 onwards. Hyde Park.',
+    'iMac repair in Johannesburg. Screen replacement, RAM upgrade, SSD upgrade, logic board repair, liquid damage, all iMac models from 2012 onwards. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/imac-repair' },
 };
 
@@ -26,7 +26,7 @@ const services = [
     icon: Cpu,
     title: 'RAM Upgrade',
     description:
-      'Speed up a slow iMac dramatically. Intel iMac 27" supports up to 128 GB RAM — user-accessible upgrade slots. Major performance difference.',
+      'Speed up a slow iMac dramatically. Intel iMac 27" supports up to 128 GB RAM, user-accessible upgrade slots. Major performance difference.',
     href: '/imac-repair/ram-upgrade',
     price: 'Contact for pricing',
   },
@@ -68,10 +68,10 @@ const models = [
   { name: 'iMac 24" M3 (2023)', note: 'Apple Silicon' },
   { name: 'iMac 24" M1 (2021)', note: 'Apple Silicon' },
   { name: 'iMac Pro 27" (2017)', note: 'Intel Xeon' },
-  { name: 'iMac 27" Retina 5K (2014–2020)', note: 'Intel — RAM upgradeable' },
+  { name: 'iMac 27" Retina 5K (2014–2020)', note: 'Intel, RAM upgradeable' },
   { name: 'iMac 21.5" Retina 4K (2017–2019)', note: 'Intel' },
   { name: 'iMac 21.5" (2012–2017)', note: 'Intel' },
-  { name: 'iMac 27" (2012–2013)', note: 'Intel — PCIe SSD slot' },
+  { name: 'iMac 27" (2012–2013)', note: 'Intel, PCIe SSD slot' },
   { name: 'All Retina iMac models', note: 'From 2014 onwards' },
 ];
 
@@ -79,37 +79,37 @@ const faqs = [
   {
     question: 'How much does iMac repair cost in Johannesburg?',
     answer:
-      'iMac repair pricing depends on the model and fault. We provide a free diagnosis and fixed quote before starting. Contact us to get a quote for screen replacement, RAM upgrades, SSD upgrades, logic board repair, or liquid damage assessment.',
+      'iMac repair pricing depends on the model and fault. We provide a assessment and fixed quote before starting. Contact us to get a quote for screen replacement, RAM upgrades, SSD upgrades, logic board repair, or liquid damage assessment.',
   },
   {
     question: 'Can I upgrade the RAM in my iMac?',
     answer:
-      'It depends on the model. The iMac 27-inch (Intel, 2012–2020) has user-accessible RAM slots — you can upgrade to 32 GB or 64 GB without opening the machine. The iMac 21.5-inch (Intel) has soldered RAM after 2012. The iMac M1 and M3 (24-inch) have unified memory soldered to the chip — no upgrade is possible. We confirm upgradability before quoting.',
+      'It depends on the model. The iMac 27-inch (Intel, 2012–2020) has user-accessible RAM slots, you can upgrade to 32 GB or 64 GB without opening the machine. The iMac 21.5-inch (Intel) has soldered RAM after 2012. The iMac M1 and M3 (24-inch) have unified memory soldered to the chip, no upgrade is possible. We confirm upgradability before quoting.',
   },
   {
     question: 'Is it worth repairing an old iMac?',
     answer:
-      'For Intel iMac 27-inch models (2015–2020), yes — an SSD upgrade and RAM upgrade can double or triple performance, compared to the cost of a new M3 iMac. For models older than 2012, repair costs often exceed the machine value. We will always present you with a repair vs replace comparison before proceeding.',
+      'For Intel iMac 27-inch models (2015–2020), yes, an SSD upgrade and RAM upgrade can double or triple performance, compared to the cost of a new M3 iMac. For models older than 2012, repair costs often exceed the machine value. We will always present you with a repair vs replace comparison before proceeding.',
   },
   {
-    question: 'My iMac screen has gone dark or has lines through it — what is wrong?',
+    question: 'My iMac screen has gone dark or has lines through it, what is wrong?',
     answer:
-      'A dark iMac screen with the machine still running (you can hear it) typically points to a display panel failure or a loose display cable. Lines through the display on older iMac 27" models are often GPU-related (AMD Radeon failure — common on 2011 models). Vertical or horizontal lines on newer models usually indicate a panel fault. We diagnose both before quoting.',
+      'A dark iMac screen with the machine still running (you can hear it) typically points to a display panel failure or a loose display cable. Lines through the display on older iMac 27" models are often GPU-related (AMD Radeon failure, common on 2011 models). Vertical or horizontal lines on newer models usually indicate a panel fault. We diagnose both before quoting.',
   },
   {
     question: 'How long does iMac repair take?',
     answer:
-      'Screen replacement takes 2–4 hours once parts are in stock. RAM and SSD upgrades are often same-day (30–60 minutes). Logic board repair takes 3–7 business days depending on component availability. We give you a completion estimate when we receive your machine.',
+      'Screen replacement typically takes 2–4 hours. RAM and SSD upgrades are often same-day (30–60 minutes). Logic board repair takes 3–7 business days. We give you a completion estimate when we receive your machine.',
   },
   {
     question: 'Do you repair iMac 21.5" and 27" models?',
     answer:
-      'Yes, we repair all sizes — 21.5-inch, 24-inch, and 27-inch iMac models from 2012 onwards, including iMac Pro. The 27-inch is our most commonly serviced iMac due to its upgradeable RAM and the availability of replacement parts.',
+      'Yes, we repair all sizes, 21.5-inch, 24-inch, and 27-inch iMac models from 2012 onwards, including iMac Pro. The 27-inch is our most commonly serviced iMac due to its upgradeable RAM and the availability of replacement parts.',
   },
   {
-    question: 'My iMac is slow — can it be fixed without buying a new one?',
+    question: 'My iMac is slow, can it be fixed without buying a new one?',
     answer:
-      'In most cases, yes. The most impactful upgrades on Intel iMacs are: (1) replacing a spinning hard drive with an SSD — this alone makes a machine feel 3x faster, and (2) adding RAM if you\'re running 8 GB or less. A 2017 iMac 27" with a 1 TB SSD and 32 GB RAM performs comparably to entry-level modern machines for most tasks.',
+      'In most cases, yes. The most impactful upgrades on Intel iMacs are: (1) replacing a spinning hard drive with an SSD, this alone makes a machine feel 3x faster, and (2) adding RAM if you\'re running 8 GB or less. A 2017 iMac 27" with a 1 TB SSD and 32 GB RAM performs comparably to entry-level modern machines for most tasks.',
   },
 ];
 
@@ -168,11 +168,11 @@ export default function IMacRepairPage() {
       {/* Trust bar */}
       <section className="bg-slate-800 border-y border-slate-700 py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-slate-300">
-          <span>No Fix No Fee</span>
+          <span>Assessment: R899 ex VAT</span>
           <span className="text-slate-500">|</span>
           <span>Same-Day RAM &amp; SSD Upgrades</span>
           <span className="text-slate-500">|</span>
-          <span>Free Assessment</span>
+          <span>Assessment: R899 ex VAT</span>
           <span className="text-slate-500">|</span>
           <span>All iMac Models</span>
           <span className="text-slate-500">|</span>
@@ -224,7 +224,7 @@ export default function IMacRepairPage() {
           <p className="text-slate-600 mb-6">
             A spinning hard drive is the most common cause of a slow iMac. Replacing it with a solid-state drive
             (SSD) drops boot times from over 2 minutes to under 20 seconds. Combined with a RAM upgrade on the
-            27-inch models, your iMac performs like new — at a fraction of replacement cost.
+            27-inch models, your iMac performs like new, at a fraction of replacement cost.
           </p>
           <div className="grid sm:grid-cols-3 gap-4 text-left">
             {[
@@ -275,7 +275,7 @@ export default function IMacRepairPage() {
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Repair or Replace?</h2>
           <p className="text-slate-600 mb-8">
             We give every iMac owner an honest assessment. Some machines are worth upgrading significantly;
-            others are better replaced. We will tell you which — and if you decide to replace, we can source
+            others are better replaced. We will tell you which, and if you decide to replace, we can source
             and configure a new Mac with your data migrated.
           </p>
           <div className="overflow-x-auto">
@@ -290,23 +290,23 @@ export default function IMacRepairPage() {
                 {[
                   {
                     scenario: 'iMac 27" Intel (2015–2020) running slowly',
-                    rec: 'SSD + RAM upgrade — excellent value',
+                    rec: 'SSD + RAM upgrade, excellent value',
                   },
                   {
                     scenario: 'iMac 21.5" cracked screen (2017+)',
-                    rec: 'Screen replacement — cost-effective',
+                    rec: 'Screen replacement, cost-effective',
                   },
                   {
                     scenario: 'iMac 2012–2014 running slowly',
-                    rec: 'SSD upgrade — still worthwhile',
+                    rec: 'SSD upgrade, still worthwhile',
                   },
                   {
                     scenario: 'iMac M1/M3 fault (screen, port)',
-                    rec: 'Repair — modern machine, worth fixing',
+                    rec: 'Repair, modern machine, worth fixing',
                   },
                   {
                     scenario: 'iMac 2009–2011 any fault',
-                    rec: 'Replace — repair cost exceeds value',
+                    rec: 'Replace, repair cost exceeds value',
                   },
                 ].map((row) => (
                   <tr key={row.scenario} className="hover:bg-slate-50">
@@ -335,7 +335,7 @@ export default function IMacRepairPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Bring Your iMac In</h2>
           <p className="text-slate-300 mb-8">
-            Free assessment. Fixed quote. Hyde Park, Johannesburg.
+            Assessment: R899 ex VAT. Fixed quote. Hyde Park, Johannesburg.
             Most upgrades completed same day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

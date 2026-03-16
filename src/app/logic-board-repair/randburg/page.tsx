@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Randburg | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Randburg clients. Expert microsoldering — collect from Randburg, repair at Hyde Park workshop. Free diagnostic, No Fix No Fee. Call 064 529 5863.',
+    'MacBook logic board repair for Randburg clients. Expert microsoldering, collect from Randburg, repair at Hyde Park workshop. Assessment: R899 ex VAT, Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/randburg' },
 };
 
@@ -20,13 +20,13 @@ const faults = [
   { title: 'Liquid Damage', desc: 'Coffee, juice, or water causes corrosion on board traces. Ultrasonic cleaning removes contamination; damaged pads restored under microscope.' },
   { title: 'Thermal Shutdowns', desc: 'MacBook shuts down under load or during normal use. Failing power regulator, blocked thermal path, or SMC-related board fault.' },
   { title: 'Charging Port Issues', desc: 'USB-C ports not recognising cables or failing to charge. Retimer chip or USB-C controller IC replaced at board level.' },
-  { title: 'Noisy / Runaway Fan', desc: 'Fan runs at maximum from power-on. SMC fault or dead thermal sensor — identified and resolved at component level.' },
+  { title: 'Noisy / Runaway Fan', desc: 'Fan runs at maximum from power-on. SMC fault or dead thermal sensor, identified and resolved at component level.' },
   { title: 'Screen Artefacts / Lines', desc: 'Visual corruption, colour banding, or partial display failure. GPU fault diagnosed and reballed or replaced on Intel models.' },
-  { title: 'Frequent Crashes', desc: 'Kernel panics attributable to board faults — power delivery instability, failing RAM solder pads, or NVMe controller issues.' },
+  { title: 'Frequent Crashes', desc: 'Kernel panics attributable to board faults, power delivery instability, failing RAM solder pads, or NVMe controller issues.' },
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Full board inspection — no obligation' },
+  { item: 'Diagnostic Assessment', note: 'Full board inspection, no obligation' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board' },
   { item: 'Power Circuit Repair', note: 'Dead Mac and charging failure diagnosis and fix' },
   { item: 'Microsoldering Repair', note: 'Component-level precision repair' },
@@ -37,15 +37,15 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Randburg to collect my MacBook?',
-    answer: 'Yes. We collect from Randburg and carry out all logic board repairs at our Hyde Park workshop. Randburg is approximately 10–15 km from Hyde Park — a 15 to 20-minute drive. Contact us on WhatsApp or by phone to arrange a convenient collection time at your home or office in Randburg.',
+    answer: 'Yes. We collect from Randburg and carry out all logic board repairs at our Hyde Park workshop. Randburg is approximately 10–15 km from Hyde Park, a 15 to 20-minute drive. Contact us on WhatsApp or by phone to arrange a convenient collection time at your home or office in Randburg.',
   },
   {
     question: 'How far is Randburg from your Hyde Park workshop?',
-    answer: 'Our Hyde Park workshop at 1 Hyde Lane is approximately 10–15 km from Randburg central — roughly 15 to 20 minutes by car, depending on the route and traffic. It is a very manageable distance and we also offer collection from Randburg directly.',
+    answer: 'Our Hyde Park workshop at 1 Hyde Lane is approximately 10–15 km from Randburg central, roughly 15 to 20 minutes by car, depending on the route and traffic. It is a very manageable distance and we also offer collection from Randburg directly.',
   },
   {
     question: 'What types of MacBook do you repair for Randburg clients?',
-    answer: 'All models — MacBook Air (all Intel generations and M1/M2/M3 Apple Silicon), MacBook Pro 13-inch, 14-inch, 15-inch, 16-inch (Intel and M-series), iMac, and Mac mini. Logic board repair techniques differ between Intel and Apple Silicon, but both are handled at component level.',
+    answer: 'All models, MacBook Air (all Intel generations and M1/M2/M3 Apple Silicon), MacBook Pro 13-inch, 14-inch, 15-inch, 16-inch (Intel and M-series), iMac, and Mac mini. Logic board repair techniques differ between Intel and Apple Silicon, but both are handled at component level.',
   },
   {
     question: 'My MacBook Pro 2019 shows screen artefacts. Is that a GPU fault?',
@@ -53,11 +53,11 @@ const faqs = [
   },
   {
     question: 'Can you repair a MacBook that has been water damaged for some time?',
-    answer: 'Yes, though the success rate is lower on boards that have had extended exposure. If your MacBook was liquid damaged weeks or months ago and has been sitting unused, corrosion will have progressed further into the board. We assess it honestly — if the traces are too severely damaged, we will tell you. But many boards that seem beyond repair can be restored with thorough cleaning and targeted component replacement.',
+    answer: 'Yes, though the success rate is lower on boards that have had extended exposure. If your MacBook was liquid damaged weeks or months ago and has been sitting unused, corrosion will have progressed further into the board. We assess it honestly, if the traces are too severely damaged, we will tell you. But many boards that seem beyond repair can be restored with thorough cleaning and targeted component replacement.',
   },
   {
     question: 'Is there a warranty on the repair?',
-    answer: 'Every completed repair carries a ZA Support warranty. If the same fault recurs within the warranty period, it is repaired at no additional charge. The warranty terms are provided in writing with every repair.',
+    answer: 'Every completed repair carries a ZA Support 3-month warranty. If the same fault recurs within the warranty period, it is repaired at no additional charge. The warranty terms are provided in writing with every repair.',
   },
 ];
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Randburg',
-  description: 'MacBook logic board microsoldering for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Free diagnostic. No Fix No Fee. warranty.',
+  description: 'MacBook logic board microsoldering for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -104,17 +104,17 @@ export default function LogicBoardRepairRandburgPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook logic board microsoldering for Randburg residents and businesses. We collect from Randburg and repair at our Hyde Park workshop — no board-swap guesswork, component-level repair only.
+              MacBook logic board microsoldering for Randburg residents and businesses. We collect from Randburg and repair at our Hyde Park workshop, no board-swap guesswork, component-level repair only.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Randburg and repair at our Hyde Park workshop — approx. 15–20 min drive</span>
+              <span>We collect from Randburg and repair at our Hyde Park workshop, approx. 15–20 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'No Fix No Fee' },
+                { icon: CheckCircle, label: 'Assessment: R899 ex VAT' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -146,16 +146,16 @@ export default function LogicBoardRepairRandburgPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Randburg stretches across a large residential and commercial area west of Sandton, taking in Ferndale, Bordeaux, Robindale, Northcliff, and the Brightwater Commons precinct. It is a densely populated area with a strong concentration of home office workers, freelancers, and small businesses — many of whom depend on a MacBook as their primary income-generating tool.
+              Randburg stretches across a large residential and commercial area west of Sandton, taking in Ferndale, Bordeaux, Robindale, Northcliff, and the Brightwater Commons precinct. It is a densely populated area with a strong concentration of home office workers, freelancers, and small businesses, many of whom depend on a MacBook as their primary income-generating tool.
             </p>
             <p>
-              When that MacBook develops a logic board fault — no power, failed charging, display failure, or liquid damage — the instinct is often to take it to the nearest repair shop. The problem is that most shops in the Randburg area are not equipped for microsoldering. They diagnose a board fault and immediately quote for a full board replacement, when the actual fault is often a single component costing a fraction of that.
+              When that MacBook develops a logic board fault, no power, failed charging, display failure, or liquid damage, the instinct is often to take it to the nearest repair shop. The problem is that most shops in the Randburg area are not equipped for microsoldering. They diagnose a board fault and immediately quote for a full board replacement, when the actual fault is often a single component costing a fraction of that.
             </p>
             <p>
-              ZA Support diagnoses and repairs at component level. Our Hyde Park workshop — approximately 15 minutes from central Randburg — has the equipment to trace a fault to a specific chip, capacitor, or trace, repair it under a stereo microscope, and return your original board to service. We offer a collection service from Randburg so you do not need to make the trip.
+              ZA Support diagnoses and repairs at component level. Our Hyde Park workshop, approximately 15 minutes from central Randburg, has the equipment to trace a fault to a specific chip, capacitor, or trace, repair it under a stereo microscope, and return your original board to service. We offer a collection service from Randburg so you do not need to make the trip.
             </p>
             <p>
-              The Randburg faults we see most often are no-power MacBook Pros (usually a blown fuse or charging IC), USB-C charging issues on newer models, and liquid damage from the home office coffee mug. All are common, all are repairable, and all start with a free diagnostic that gives you the facts before any money is committed.
+              The Randburg faults we see most often are no-power MacBook Pros (usually a blown fuse or charging IC), USB-C charging issues on newer models, and liquid damage from the home office coffee mug. All are common, all are repairable, and all start with a assessment that gives you the facts before any money is committed.
             </p>
           </div>
         </div>
@@ -186,11 +186,11 @@ export default function LogicBoardRepairRandburgPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection Arranged', desc: 'Message or call us. We arrange collection from your Randburg address — home or office — at a time that suits you.' },
+              { step: '01', title: 'Collection Arranged', desc: 'Message or call us. We arrange collection from your Randburg address, home or office, at a time that suits you.' },
               { step: '02', title: 'Free Board Diagnostic', desc: 'Assessment completed within 24 hours. Fault identified at component level using schematics, microscope, and power-supply tools.' },
-              { step: '03', title: 'Quote with Approval', desc: 'Written quote sent to you. Fault description, repair method, cost, and delivery timeline — clear and specific. No hidden costs.' },
+              { step: '03', title: 'Quote with Approval', desc: 'Written quote sent to you. Fault description, repair method, cost, and delivery timeline, clear and specific. No hidden costs.' },
               { step: '04', title: 'Precision Repair', desc: 'Specific failed component replaced under a Swift 100X microscope. Your board stays original. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Randburg', desc: 'Tested under load and returned to your Randburg address with a written warranty. Typically 48–72 hours from collection.' },
+              { step: '05', title: 'Return to Randburg', desc: 'Tested under load and returned to your Randburg address with a written 3-month warranty. Typically 48–72 hours from collection.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -216,14 +216,14 @@ export default function LogicBoardRepairRandburgPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final quote confirmed after free diagnostic assessment. No obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final quote confirmed after assessment assessment. No obligation to proceed.</p>
         </div>
       </section>
 
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Randburg — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Randburg, Common Questions" />
         </div>
       </section>
 
@@ -251,7 +251,7 @@ export default function LogicBoardRepairRandburgPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Randburg MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Randburg. No Fix No Fee. warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Randburg. Assessment: R899 ex VAT. 3-month warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

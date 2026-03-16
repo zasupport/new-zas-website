@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Mary — Content & Client Communications | ZA Support',
+  title: 'Mary, Content & Client Communications | ZA Support',
   description:
     'Mary is the content author and client communications lead at ZA Support. All educational guides, blog posts, and client-facing documentation are authored by Mary.',
   alternates: { canonical: 'https://zasupport.com/author/mary' },
@@ -16,7 +16,7 @@ const personSchema = {
   '@type': 'Person',
   '@id': 'https://zasupport.com/author/mary',
   name: 'Mary',
-  jobTitle: 'Content Author & Client Communications — ZA Support',
+  jobTitle: 'Content Author & Client Communications, ZA Support',
   description:
     'Mary is the content and communications specialist at ZA Support. All educational articles, repair guides, blog posts, and client-facing documentation published on zasupport.com are authored by Mary.',
   url: 'https://zasupport.com/author/mary',
@@ -57,13 +57,13 @@ export default function MaryPage() {
 
           <h1 className="text-4xl font-bold text-[#E8F4F1] mb-2">Mary</h1>
           <p className="text-[#0FEA7A] font-semibold text-lg mb-6">
-            Content Author &amp; Client Communications — ZA Support
+            Content Author &amp; Client Communications, ZA Support
           </p>
 
           <p className="text-[#7A9E98] text-lg leading-relaxed mb-10">
             Mary handles all content and client communications at ZA Support. Every educational guide,
             repair blog post, how-to article, and client-facing document published on zasupport.com
-            is authored by Mary — ensuring clear, plain-language explanations of complex technical
+            is authored by Mary, ensuring clear, plain-language explanations of complex technical
             topics for Mac owners across South Africa.
           </p>
 

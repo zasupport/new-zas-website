@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Free assessment, No Fix No Fee, warranty. Call 064 529 5863.',
+    'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/ipad' },
 };
 
@@ -25,15 +25,11 @@ const faqs = [
   },
   {
     question: 'My iPad Pro fell in the pool. Is it repairable?',
-    answer: 'Pool water contains chlorine and dissolved minerals that are particularly corrosive. Bring it in immediately — do not attempt to charge it. Our ultrasonic cleaning process is effective at removing chlorinated water corrosion, but early intervention significantly improves outcomes. Many pool-damaged iPad Pros are fully recoverable.',
+    answer: 'Pool water contains chlorine and dissolved minerals that are particularly corrosive. Bring it in immediately, do not attempt to charge it. Our ultrasonic cleaning process is effective at removing chlorinated water corrosion, but early intervention significantly improves outcomes. Many pool-damaged iPad Pros are fully recoverable.',
   },
   {
     question: 'Can you save the data on my iPad?',
     answer: 'If the device can be powered on after repair, your data is accessible. Many clients have iCloud Backup enabled, which makes data recovery straightforward. If the logic board cannot be recovered, we will discuss data extraction options with you before any destructive work begins.',
-  },
-  {
-    question: 'Does the Apple Pencil also need repair if the iPad got wet?',
-    answer: 'Apple Pencils have minimal water resistance and are not IP-rated. If your Apple Pencil was also exposed to liquid, we can assess it separately. In most cases, a wet Apple Pencil requires replacement rather than repair.',
   },
 ];
 
@@ -64,14 +60,14 @@ export default function iPadLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iPad liquid damage repair. All iPad models including M4 iPad Pro.
-              Free assessment, No Fix No Fee, warranty. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
-                Free Assessment <ArrowRight className="w-5 h-5" />
+                Book Assessment <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -91,7 +87,7 @@ export default function iPadLiquidDamagePage() {
                   'iPad Pro 11" 1st Gen', 'iPad Pro 11" 2nd Gen',
                   'iPad Pro 11" 3rd Gen', 'iPad Pro 11" M4 (A2837)',
                   'iPad Pro 12.9" 2nd–4th Gen', 'iPad Pro 12.9" 5th–6th Gen',
-                  'iPad Pro 13" M4 (A2925)', 'Apple Pencil Assessment',
+                  'iPad Pro 13" M4 (A2925)',
                 ].map((model) => (
                   <div key={model} className="flex items-center gap-2 text-[#7A9E98] text-sm py-1.5 border-b border-[rgba(255,255,255,0.04)]">
                     <span className="text-[#0FEA7A]">✓</span> {model}
@@ -104,7 +100,7 @@ export default function iPadLiquidDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="flex items-center gap-3 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. warranty on all repairs. Hyde Park, Johannesburg.</p>
+                <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. Assessment: R899 ex VAT. warranty on all repairs. Hyde Park, Johannesburg.</p>
               </div>
             </div>
           </div>
@@ -113,7 +109,7 @@ export default function iPadLiquidDamagePage() {
 
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPad Liquid Damage — FAQs" />
+          <FAQAccordion items={faqs} title="iPad Liquid Damage, FAQs" />
         </div>
       </section>
 
@@ -121,7 +117,7 @@ export default function iPadLiquidDamagePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iPad Liquid Damage? We Can Help.</h2>
-            <p className="text-[#7A9E98] mb-6">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

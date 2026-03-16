@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Accessories Repair Johannesburg | Keyboard, Mouse & Trackpad | ZA Support',
   description:
-    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable repair. Hyde Park. No Fix No Fee.',
+    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable repair. Hyde Park. Assessment: R899 ex VAT.',
   keywords: [
     'magic keyboard repair johannesburg',
     'mac accessories repair',
@@ -32,17 +32,17 @@ const faqs = [
   {
     question: 'My Magic Mouse is not tracking properly or the click is not registering. Can you fix it?',
     answer:
-      'Yes. Erratic tracking is commonly caused by a dirty optical sensor on the underside — we clean this as part of any mouse service. Unresponsive clicks are usually caused by worn click dome switches beneath the main surface. We assess whether the switches can be resoldered or whether a replacement is more practical. Battery degradation also causes tracking instability on Magic Mouse 2 — we check battery health as part of every assessment.',
+      'Yes. Erratic tracking is commonly caused by a dirty optical sensor on the underside, we clean this as part of any mouse service. Unresponsive clicks are usually caused by worn click dome switches beneath the main surface. We assess whether the switches can be resoldered or whether a replacement is more practical. Battery degradation also causes tracking instability on Magic Mouse 2, we check battery health as part of every assessment.',
   },
   {
     question: 'The bottom charge port on my Magic Mouse is damaged. Can it be repaired?',
     answer:
-      'Apple placed the Lightning charging port on the underside of Magic Mouse 2, making it impossible to use while charging — a well-known design choice. If the port is physically damaged or bent, we can assess and attempt a port repair or replacement. This is a board-level repair and success depends on how much the port has deformed. We quote after inspection.',
+      'Apple placed the Lightning charging port on the underside of Magic Mouse 2, making it impossible to use while charging, a well-known design choice. If the port is physically damaged or bent, we can assess and attempt a port repair or replacement. This is a board-level repair and success depends on how much the port has deformed. We quote after inspection.',
   },
   {
-    question: 'Is my MagSafe cable covered under the No Fix No Fee policy?',
+    question: 'Is my MagSafe cable covered under the Assessment: R899 ex VAT policy?',
     answer:
-      'Yes. If we cannot determine whether the fault is with the cable, the adapter, or the MacBook charging circuit — or if the cable cannot be repaired — you pay nothing. No Fix No Fee applies. In many cases we can identify whether the fault is in the cable, the brick, or the Mac itself, which saves you from replacing the wrong part.',
+      'Yes. If we cannot determine whether the fault is with the cable, the adapter, or the MacBook charging circuit, or if the cable cannot be repaired, assessment fee of R899 ex VAT applies. Assessment: R899 ex VAT applies. In many cases we can identify whether the fault is in the cable, the brick, or the Mac itself, which saves you from replacing the wrong part.',
   },
   {
     question: 'Can you repair a Thunderbolt display or external monitor port?',
@@ -52,28 +52,28 @@ const faqs = [
   {
     question: 'My Magic Trackpad clicks but does not register. What is causing this?',
     answer:
-      'Magic Trackpad uses a Force Touch mechanism rather than a physical click — it simulates click feedback using a Taptic Engine. If the click sensation is present but nothing registers, the issue is likely a driver or firmware fault rather than hardware. If the click sensation itself has disappeared, the Taptic Engine or its connection may be at fault. We diagnose both scenarios. A full reset and macOS update resolves the majority of trackpad registration faults before any hardware work is needed.',
+      'Magic Trackpad uses a Force Touch mechanism rather than a physical click, it simulates click feedback using a Taptic Engine. If the click sensation is present but nothing registers, the issue is likely a driver or firmware fault rather than hardware. If the click sensation itself has disappeared, the Taptic Engine or its connection may be at fault. We diagnose both scenarios. A full reset and macOS update resolves the majority of trackpad registration faults before any hardware work is needed.',
   },
 ];
 
 const repairServices = [
   {
-    title: 'Magic Keyboard — Clean & Repair',
+    title: 'Magic Keyboard, Clean & Repair',
     models: 'All Magic Keyboard models (USB, Lightning, USB-C, Touch ID, Numeric)',
     note: 'Includes full disassembly, PCB clean, key mechanism test. Liquid damage assessed separately.',
   },
   {
-    title: 'Magic Mouse — Repair & Service',
+    title: 'Magic Mouse, Repair & Service',
     models: 'Magic Mouse 1 & 2, Magic Mouse USB-C',
     note: 'Sensor clean, click switch test, battery health check. Port repair quoted separately.',
   },
   {
-    title: 'Magic Trackpad — Repair & Service',
+    title: 'Magic Trackpad, Repair & Service',
     models: 'Magic Trackpad 2 & 3',
     note: 'Force Touch mechanism and Taptic Engine assessment included.',
   },
   {
-    title: 'MagSafe Cable — Assessment',
+    title: 'MagSafe Cable, Assessment',
     models: 'MagSafe, MagSafe 2, USB-C MagSafe 3',
     note: 'Fault isolation: cable vs brick vs Mac. No charge if unfixable.',
   },
@@ -89,7 +89,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Apple Accessories Repair Johannesburg',
   description:
-    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable assessment. Hyde Park. No Fix No Fee.',
+    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable assessment. Hyde Park. Assessment: R899 ex VAT.',
   provider: {
     '@type': 'LocalBusiness',
     name: SITE.name,
@@ -149,10 +149,10 @@ export default function AccessoriesRepairPage() {
               <span className="text-[#0FEA7A]">Keyboard, Mouse & Trackpad.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Magic Keyboard sticky keys, Magic Mouse not clicking, MagSafe not charging? Free fault isolation included — we diagnose before quoting any repair.
+              Magic Keyboard sticky keys, Magic Mouse not clicking, MagSafe not charging? Free fault isolation included, we diagnose before quoting any repair.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              No Fix No Fee. Free fault isolation. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Free fault isolation. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -218,43 +218,43 @@ export default function AccessoriesRepairPage() {
             Common Apple Accessory Faults
           </h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple accessories are well-built but face the same practical realities as any device used daily — liquid
+            Apple accessories are well-built but face the same practical realities as any device used daily, liquid
             spills, crumbs, worn switches, and connector fatigue. Most faults are fixable. Here is what we see most
             often and what resolves it.
           </p>
           <div className="space-y-4">
             {[
               {
-                symptom: 'Magic Keyboard — one or more keys not working',
-                fix: 'Debris or liquid beneath the scissor mechanism — disassemble, clean, and test each switch',
+                symptom: 'Magic Keyboard, one or more keys not working',
+                fix: 'Debris or liquid beneath the scissor mechanism, disassemble, clean, and test each switch',
               },
               {
-                symptom: 'Magic Keyboard — keys feel sticky',
-                fix: 'Residue on switch mechanism — full clean with IPA, usually same day',
+                symptom: 'Magic Keyboard, keys feel sticky',
+                fix: 'Residue on switch mechanism, full clean with IPA, usually same day',
               },
               {
-                symptom: 'Magic Mouse — erratic cursor movement',
-                fix: 'Dirty optical sensor on underside — clean resolves most tracking faults',
+                symptom: 'Magic Mouse, erratic cursor movement',
+                fix: 'Dirty optical sensor on underside, clean resolves most tracking faults',
               },
               {
-                symptom: 'Magic Mouse — left or right click not registering',
-                fix: 'Click dome switch worn — resolder or replace the switch mechanism',
+                symptom: 'Magic Mouse, left or right click not registering',
+                fix: 'Click dome switch worn, resolder or replace the switch mechanism',
               },
               {
-                symptom: 'Magic Mouse — not charging',
-                fix: 'Lightning port damage or battery degradation — port repair or battery assessment',
+                symptom: 'Magic Mouse, not charging',
+                fix: 'Lightning port damage or battery degradation, port repair or battery assessment',
               },
               {
-                symptom: 'Magic Trackpad — click not registering',
-                fix: 'Usually a firmware or driver fault — full reset first. If Taptic Engine fault: hardware assessment',
+                symptom: 'Magic Trackpad, click not registering',
+                fix: 'Usually a firmware or driver fault, full reset first. If Taptic Engine fault: hardware assessment',
               },
               {
                 symptom: 'MagSafe not charging MacBook',
-                fix: 'Fault isolation: cable vs brick vs Mac charging circuit — we identify the source before any repair',
+                fix: 'Fault isolation: cable vs brick vs Mac charging circuit, we identify the source before any repair',
               },
               {
                 symptom: 'External display not detected',
-                fix: 'Cable, port, or Mac GPU fault — we test all three to isolate before quoting any repair',
+                fix: 'Cable, port, or Mac GPU fault, we test all three to isolate before quoting any repair',
               },
             ].map((item) => (
               <div
@@ -285,8 +285,8 @@ export default function AccessoriesRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'No Fix No Fee',
-                desc: 'Cannot fix it? You pay nothing. Applies to keyboards, mice, trackpads, and MagSafe assessments.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'Cannot fix it? Assessment fee of R899 ex VAT applies. Applies to keyboards, mice, trackpads, and MagSafe assessments.',
               },
               {
                 title: 'Fault Isolation Included',
@@ -294,7 +294,7 @@ export default function AccessoriesRepairPage() {
               },
               {
                 title: 'Same-Day for Cleaning',
-                desc: 'Sticky keyboard, dirty mouse sensor, contaminated trackpad — cleaning jobs are done same day in most cases.',
+                desc: 'Sticky keyboard, dirty mouse sensor, contaminated trackpad, cleaning jobs are done same day in most cases.',
               },
               {
                 title: 'Board-Level Repair',
@@ -326,7 +326,7 @@ export default function AccessoriesRepairPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Apple Accessories Repair Johannesburg — Common Questions" />
+          <FAQAccordion items={faqs} title="Apple Accessories Repair Johannesburg, Common Questions" />
         </div>
       </section>
 
@@ -341,7 +341,7 @@ export default function AccessoriesRepairPage() {
               Accessory Not Working? Bring It In.
             </h2>
 
-            <p className="text-[#7A9E98] mb-8">No Fix No Fee. Free fault isolation. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Free fault isolation. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

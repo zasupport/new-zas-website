@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Mac Support Medical Practices Johannesburg',
   description:
-    'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Free diagnostic. Call 064 529 5863.',
+    'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/apple-support/medical-practices' },
 };
 
@@ -18,7 +18,7 @@ const faqs = [
   {
     question: 'Why do medical practices need a specialist Apple IT provider?',
     answer:
-      'Medical practices operate under HPCSA guidelines and POPIA requirements that govern how patient data is stored, accessed, and backed up. A general IT shop does not understand these obligations. ZA Support works specifically with medical practices — we know what a practice management system audit requires, how to configure Apple devices for POPIA compliance, and how to handle a hardware failure without compromising patient records.',
+      'Medical practices operate under HPCSA guidelines and POPIA requirements that govern how patient data is stored, accessed, and backed up. A general IT shop does not understand these obligations. ZA Support works specifically with medical practices, we know what a practice management system audit requires, how to configure Apple devices for POPIA compliance, and how to handle a hardware failure without compromising patient records.',
   },
   {
     question: 'My practice uses a MacBook for appointments and patient records. What happens if it fails?',
@@ -28,17 +28,17 @@ const faqs = [
   {
     question: 'Do you support GoodX, Healthbridge, MedEDI, or other practice management software?',
     answer:
-      'Yes. We support Apple devices running GoodX, Healthbridge, MedEDI, Elixir, PracticeAdmin, and other common South African practice management systems. Our role is to ensure the Mac hardware and macOS environment are correctly configured, performant, and backed up — not to replace your practice software vendor, but to make sure the hardware never lets your software down.',
+      'Yes. We support Apple devices running GoodX, Healthbridge, MedEDI, Elixir, PracticeAdmin, and other common South African practice management systems. Our role is to ensure the Mac hardware and macOS environment are correctly configured, performant, and backed up, not to replace your practice software vendor, but to make sure the hardware never lets your software down.',
   },
   {
     question: 'What is the POPIA compliance risk for a medical practice using Apple Macs?',
     answer:
-      'The main risks are: unencrypted patient data on a device that is lost or stolen (FileVault must be enabled), poor access controls (each practitioner needs a separate macOS user account), no verified backup (Time Machine is insufficient alone — cloud backup with encryption and monthly restore test is required), and outdated macOS with known security vulnerabilities. We configure all of these as part of a Health Check or Managed IT engagement.',
+      'The main risks are: unencrypted patient data on a device that is lost or stolen (FileVault must be enabled), poor access controls (each practitioner needs a separate macOS user account), no verified backup (Time Machine is insufficient alone, cloud backup with encryption and monthly restore test is required), and outdated macOS with known security vulnerabilities. We configure all of these as part of a Health Check or Managed IT engagement.',
   },
   {
     question: 'Can you repair a MacBook logic board at the practice to avoid downtime?',
     answer:
-      'Logic board repair requires our workshop equipment — microscope, reflow station, DC power supply, oscilloscope. We cannot do this on-site. However, we collect from your practice, typically repair within 24–48 hours, and return the device. For Managed IT clients, we provide a replacement MacBook while yours is in repair.',
+      'Logic board repair requires our workshop equipment, microscope, reflow station, DC power supply, oscilloscope. We cannot do this on-site. However, we collect from your practice, typically repair within 24–48 hours, and return the device. For Managed IT clients, we provide a replacement MacBook while yours is in repair.',
   },
   {
     question: 'What is included in the Managed IT plan for medical practices?',
@@ -48,12 +48,12 @@ const faqs = [
   {
     question: 'What does Managed IT for a medical practice cost?',
     answer:
-      'Managed IT plans are all-inclusive — hardware repair is included at no extra charge (excluding parts). Contact us for a quote tailored to your practice size.',
+      'Managed IT plans are all-inclusive, hardware repair is included at no extra charge (excluding parts). Contact us for a quote tailored to your practice size.',
   },
   {
     question: 'Do you provide support contracts that satisfy HPCSA audit requirements?',
     answer:
-      'Yes. Our Managed IT agreement documents your data handling, backup procedures, device inventory, and incident response process — all of which can be presented to an HPCSA auditor as evidence of a functional data governance procedure.',
+      'Yes. Our Managed IT agreement documents your data handling, backup procedures, device inventory, and incident response process, all of which can be presented to an HPCSA auditor as evidence of a functional data governance procedure.',
   },
 ];
 
@@ -75,7 +75,7 @@ const services = [
   },
   {
     title: 'Backup Management',
-    desc: 'Dual-location backup (local + cloud). Monthly restore test. Written confirmation. No "I think it is working" — verified backup or we fix it.',
+    desc: 'Dual-location backup (local + cloud). Monthly restore test. Written confirmation. No "I think it is working", verified backup or we fix it.',
     icon: '💾',
   },
   {
@@ -133,13 +133,13 @@ const reviews = [
   {
     name: 'Dr A.M.',
     suburb: 'Sandton',
-    text: 'Running a medical practice means I cannot have my MacBook down for days. ZA Support collected the same morning, repaired the logic board, and had it back within 24 hours. They also set up FileVault and a proper backup — something I had been putting off for two years.',
+    text: 'Running a medical practice means I cannot have my MacBook down for days. ZA Support collected the same morning, repaired the logic board, and had it back within 24 hours. They also set up FileVault and a proper backup, something I had been putting off for two years.',
     rating: 5,
   },
   {
     name: 'Dr E.S.',
     suburb: 'Rosebank',
-    text: 'ZA Support monitors all my Macs remotely. They caught a failing SSD before it caused any data loss and replaced it within a day. For a medical practice, losing patient records is not an option — they understood that without needing to be told.',
+    text: 'ZA Support monitors all my Macs remotely. They caught a failing SSD before it caused any data loss and replaced it within a day. For a medical practice, losing patient records is not an option, they understood that without needing to be told.',
     rating: 5,
   },
 ];
@@ -198,7 +198,7 @@ export default function MedicalPracticesPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Specialist Apple IT support and repair for doctors, specialists, and medical practices in Johannesburg.
-              We understand that a MacBook failure at your practice is not a minor inconvenience — it is a clinical disruption.
+              We understand that a MacBook failure at your practice is not a minor inconvenience, it is a clinical disruption.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-8">
@@ -254,7 +254,7 @@ export default function MedicalPracticesPage() {
                 {[
                   {
                     title: 'POPIA compliance is not optional',
-                    desc: 'Patient records on an unencrypted MacBook — or a MacBook without a verified backup — is a POPIA violation. We configure and document compliance on every device we support.',
+                    desc: 'Patient records on an unencrypted MacBook, or a MacBook without a verified backup, is a POPIA violation. We configure and document compliance on every device we support.',
                   },
                   {
                     title: 'Downtime has a clinical cost',
@@ -266,7 +266,7 @@ export default function MedicalPracticesPage() {
                   },
                   {
                     title: 'HPCSA audits require documented IT procedures',
-                    desc: 'A functioning data governance procedure — including written evidence of backup, access control, and incident response — is increasingly required in HPCSA practice inspections. We provide this documentation.',
+                    desc: 'A functioning data governance procedure, including written evidence of backup, access control, and incident response, is increasingly required in HPCSA practice inspections. We provide this documentation.',
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -313,7 +313,7 @@ export default function MedicalPracticesPage() {
             Services for Medical Practices
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
-            From emergency logic board repair to full managed IT — all designed around the uptime requirements of a working medical practice.
+            From emergency logic board repair to full managed IT, all designed around the uptime requirements of a working medical practice.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s) => (
@@ -334,7 +334,7 @@ export default function MedicalPracticesPage() {
             Managed IT Plans for Medical Practices
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
-            All-inclusive monthly plans. Hardware repair is included — no surprise invoices for parts or labour.
+            All-inclusive monthly plans. Hardware repair is included, no surprise invoices for parts or labour.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {plans.map((plan, i) => (
@@ -379,16 +379,16 @@ export default function MedicalPracticesPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
                 <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-                  POPIA Compliance for Medical Practices — What It Actually Requires
+                  POPIA Compliance for Medical Practices, What It Actually Requires
                 </h2>
                 <div className="space-y-3">
                   {[
-                    { req: 'Device encryption', detail: 'FileVault on every Mac — enabled and verified, key stored securely' },
-                    { req: 'Separate user accounts', detail: 'Each practitioner and staff member on their own macOS account — no shared logins' },
+                    { req: 'Device encryption', detail: 'FileVault on every Mac, enabled and verified, key stored securely' },
+                    { req: 'Separate user accounts', detail: 'Each practitioner and staff member on their own macOS account, no shared logins' },
                     { req: 'Verified backup', detail: 'At minimum: encrypted local backup + encrypted cloud backup + monthly restore test with written record' },
-                    { req: 'Access control', detail: 'Only authorised staff can access patient record folders — macOS permissions and iCloud Drive configuration' },
-                    { req: 'Incident response', detail: 'Written procedure for what happens if a device is lost, stolen, or compromised — POPIA notifiable breach within 72 hours' },
-                    { req: 'Device inventory', detail: 'Asset register of all devices that can access patient data — required for HPCSA audit' },
+                    { req: 'Access control', detail: 'Only authorised staff can access patient record folders, macOS permissions and iCloud Drive configuration' },
+                    { req: 'Incident response', detail: 'Written procedure for what happens if a device is lost, stolen, or compromised, POPIA notifiable breach within 72 hours' },
+                    { req: 'Device inventory', detail: 'Asset register of all devices that can access patient data, required for HPCSA audit' },
                   ].map((item) => (
                     <div key={item.req} className="flex gap-3">
                       <Shield className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -402,10 +402,10 @@ export default function MedicalPracticesPage() {
               </div>
               <div>
                 <p className="text-[#7A9E98] text-sm mb-4">
-                  A ZA Support Managed IT engagement provides written documentation for all six compliance requirements above — in a format designed to be presented to an HPCSA auditor or practice insurance provider.
+                  A ZA Support Managed IT engagement provides written documentation for all six compliance requirements above, in a format designed to be presented to an HPCSA auditor or practice insurance provider.
                 </p>
                 <p className="text-[#7A9E98] text-sm mb-6">
-                  We have been providing Apple IT support to medical practices in Johannesburg since 2012. We understand the operational and compliance environment. We do not need to be briefed on what HPCSA is.
+                  We have been providing Apple IT support to medical practices in Johannesburg since 2009. We understand the operational and compliance environment. We do not need to be briefed on what HPCSA is.
                 </p>
                 <a
                   href={CONTACT.whatsappLogicBoard}
@@ -469,7 +469,7 @@ export default function MedicalPracticesPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Apple Mac Support for Medical Practices — FAQs" />
+          <FAQAccordion items={faqs} title="Apple Mac Support for Medical Practices, FAQs" />
         </div>
       </section>
 
@@ -484,7 +484,7 @@ export default function MedicalPracticesPage() {
               { label: 'Managed IT Services', href: '/managed-services' },
               { label: 'Logic Board Repair', href: '/logic-board-repair' },
               { label: 'MacBook Pro Repair', href: '/macbook-pro-repair' },
-              { label: 'No Fix No Fee', href: '/no-fix-no-fee' },
+              { label: 'Assessment: R899 ex VAT', href: '/no-fix-no-fee' },
             ].map(link => (
               <Link key={link.href} href={link.href} className="block p-3 rounded-lg bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] hover:text-[#0FEA7A] hover:border-[#0FEA7A] text-sm transition-colors">
                 {link.label} →
@@ -502,7 +502,7 @@ export default function MedicalPracticesPage() {
               IT Support for Your Medical Practice
             </h2>
             <p className="text-[#7A9E98] mb-2">Free consultation. Month-to-month. No lock-in contracts.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Johannesburg&apos;s Apple IT specialists for medical practices since 2012.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Johannesburg&apos;s Apple IT specialists for medical practices since 2009.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsappLogicBoard}

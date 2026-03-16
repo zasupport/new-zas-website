@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Trackpad Repair Johannesburg | ZA Support',
   description:
-    'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Free assessment. No Fix No Fee. Hyde Park, Johannesburg.',
+    'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/trackpad' },
   keywords: [
     'MacBook trackpad repair Johannesburg',
@@ -41,7 +41,7 @@ const causes = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Swollen Battery (Most Common)',
-    desc: 'As lithium batteries age they swell. The swollen battery physically pushes up from below the trackpad — causing it to feel raised, click inconsistently, or stop clicking entirely. This is also a fire hazard. We replace the battery first, then realign the trackpad.',
+    desc: 'As lithium batteries age they swell. The swollen battery physically pushes up from below the trackpad, causing it to feel raised, click inconsistently, or stop clicking entirely. This is also a fire hazard. We replace the battery first, then realign the trackpad.',
     urgent: true,
   },
   {
@@ -53,19 +53,19 @@ const causes = [
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Liquid Damage to Flex Cable',
-    desc: 'Liquid seeping under the keyboard can corrode or short the trackpad flex cable — the ribbon cable connecting the trackpad to the logic board. Replacing the flex cable is the repair, not the trackpad itself.',
+    desc: 'Liquid seeping under the keyboard can corrode or short the trackpad flex cable, the ribbon cable connecting the trackpad to the logic board. Replacing the flex cable is the repair, not the trackpad itself.',
     urgent: false,
   },
   {
     icon: <Wrench className="w-5 h-5" />,
     title: 'Force Touch Calibration Off',
-    desc: 'MacBook trackpads since 2015 simulate a physical click using haptic feedback. If calibration drifts — often after a knock, temperature change, or software update — the trackpad may feel wrong or refuse to register clicks. Sometimes a software reset fixes this without replacing any parts.',
+    desc: 'MacBook trackpads since 2015 simulate a physical click using haptic feedback. If calibration drifts, often after a knock, temperature change, or software update, the trackpad may feel wrong or refuse to register clicks. Sometimes a software reset fixes this without replacing any parts.',
     urgent: false,
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Trackpad Chip Failure on Logic Board',
-    desc: 'The trackpad controller IC lives on the logic board. If the chip fails — from liquid damage, age, or a power spike — the trackpad will be completely dead even with a brand new trackpad assembly installed. We diagnose logic board involvement before recommending parts.',
+    desc: 'The trackpad controller IC lives on the logic board. If the chip fails, from liquid damage, age, or a power spike, the trackpad will be completely dead even with a brand new trackpad assembly installed. We diagnose logic board involvement before recommending parts.',
     urgent: false,
   },
 ];
@@ -75,7 +75,7 @@ const symptoms = [
   'Cursor moving erratically or jumping around the screen',
   'Trackpad completely unresponsive',
   'Trackpad clicking on its own (ghost clicks)',
-  'Trackpad raised or lifted — usually caused by swollen battery underneath',
+  'Trackpad raised or lifted, usually caused by swollen battery underneath',
   'Two-finger scrolling or gestures not working',
   'Trackpad feels sticky or has visible physical damage',
   'Clicking works but pointer does not move',
@@ -86,15 +86,15 @@ const symptoms = [
 const faqs = [
   {
     question: 'How much does MacBook trackpad repair cost in Johannesburg?',
-    answer: 'MacBook trackpad repair cost depends on your model and what is causing the fault. If a swollen battery is pushing the trackpad up, we replace both in the same visit and provide a combined quote. We provide a free assessment and written fixed quote before any work begins.',
+    answer: 'MacBook trackpad repair cost depends on your model and what is causing the fault. If a swollen battery is pushing the trackpad up, we replace both in the same visit and provide a combined quote. We provide a assessment fee (R899 ex VAT) and written fixed quote before any work begins.',
   },
   {
     question: 'My MacBook trackpad is raised and hard to click. What is causing this?',
-    answer: 'A raised or bulging trackpad is almost always caused by a swollen battery underneath. As lithium batteries age and degrade, the cells expand and physically push the trackpad upward from below. This causes clicking problems and in some cases makes the trackpad completely unresponsive. More importantly, a swollen battery is a fire and chemical hazard — you should stop using the machine and bring it in immediately. We replace the battery and realign the trackpad in a single repair.',
+    answer: 'A raised or bulging trackpad is almost always caused by a swollen battery underneath. As lithium batteries age and degrade, the cells expand and physically push the trackpad upward from below. This causes clicking problems and in some cases makes the trackpad completely unresponsive. More importantly, a swollen battery is a fire and chemical hazard, you should stop using the machine and bring it in immediately. We replace the battery and realign the trackpad in a single repair.',
   },
   {
     question: 'Why is my MacBook trackpad cursor jumping around?',
-    answer: 'An erratic cursor is typically caused by a faulty trackpad sensor, a cracked trackpad surface that creates phantom touch inputs, contamination under the trackpad glass, or an issue with the trackpad flex cable. On older Intel MacBooks it can also be caused by corrosion from a prior liquid spill. We run a full diagnostic to identify the root cause before recommending a repair — a cursor problem does not always require a full trackpad replacement.',
+    answer: 'An erratic cursor is typically caused by a faulty trackpad sensor, a cracked trackpad surface that creates phantom touch inputs, contamination under the trackpad glass, or an issue with the trackpad flex cable. On older Intel MacBooks it can also be caused by corrosion from a prior liquid spill. We run a full diagnostic to identify the root cause before recommending a repair, a cursor problem does not always require a full trackpad replacement.',
   },
   {
     question: 'How long does MacBook trackpad repair take?',
@@ -102,19 +102,19 @@ const faqs = [
   },
   {
     question: 'Can you fix a MacBook trackpad without replacing the whole top case?',
-    answer: 'Yes. On all current MacBook models the trackpad is a separate replaceable component and does not require a full top case replacement. The butterfly-era MacBook Pros (2016–2019) had the keyboard riveted to the top case, but the trackpad was always separate. Apple charges for a full top case replacement in these situations — we do not. We replace only what is faulty.',
+    answer: 'Yes. On all current MacBook models the trackpad is a separate replaceable component and does not require a full top case replacement. The butterfly-era MacBook Pros (2016–2019) had the keyboard riveted to the top case, but the trackpad was always separate. Apple charges for a full top case replacement in these situations, we do not. We replace only what is faulty.',
   },
   {
     question: 'Is the MacBook trackpad covered under the Apple warranty?',
-    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a written warranty on all our trackpad repairs — if the same fault recurs within the warranty period, we fix it at no cost.',
+    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a written warranty on all our trackpad repairs, if the same fault recurs within the warranty period, we fix it at no cost.',
   },
   {
     question: 'My MacBook trackpad clicks but the cursor does not move. What is wrong?',
-    answer: 'This specific fault — clicking works but no pointer movement — usually indicates a failed trackpad sensor or a damaged flex cable that is passing the click signal but not the position data. It can also happen if the trackpad driver has corrupted; we try a software reset first before opening the machine. Bring it in for a free diagnostic and we will identify whether this is a hardware or software fix.',
+    answer: 'This specific fault, clicking works but no pointer movement, usually indicates a failed trackpad sensor or a damaged flex cable that is passing the click signal but not the position data. It can also happen if the trackpad driver has corrupted; we try a software reset first before opening the machine. Bring it in for a assessment and we will identify whether this is a hardware or software fix.',
   },
   {
     question: 'Can a Force Touch trackpad be repaired?',
-    answer: 'Force Touch trackpads (2015 and newer) simulate physical clicks via haptic feedback. If the haptic actuator fails, Force Touch calibration drifts, or the trackpad stops responding to pressure levels, we can often recalibrate via software. If the hardware has failed, the trackpad assembly is replaced. We always try the software fix first — it is faster and cheaper if it works.',
+    answer: 'Force Touch trackpads (2015 and newer) simulate physical clicks via haptic feedback. If the haptic actuator fails, Force Touch calibration drifts, or the trackpad stops responding to pressure levels, we can often recalibrate via software. If the hardware has failed, the trackpad assembly is replaced. We always try the software fix first, it is faster and cheaper if it works.',
   },
 ];
 
@@ -130,14 +130,14 @@ const reviews = [
     name: 'Greg T.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'Cursor was jumping all over the screen on my MacBook Air M2. Turned out to be a faulty flex cable — not the trackpad itself. ZA Support saved me from paying for an unnecessary full replacement. Fixed in under two hours.',
+    text: 'Cursor was jumping all over the screen on my MacBook Air M2. Turned out to be a faulty flex cable, not the trackpad itself. ZA Support saved me from paying for an unnecessary full replacement. Fixed in under two hours.',
     date: 'January 2026',
   },
   {
     name: 'Priya M.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Force Touch on my MacBook Pro 14" M3 stopped feeling right after a knock. ZA Support ran a full diagnostic, recalibrated it via software — no parts needed. Trackpad is perfect again. Free assessment and honest diagnosis.',
+    text: 'Force Touch on my MacBook Pro 14" M3 stopped feeling right after a knock. ZA Support ran a full diagnostic, recalibrated it via software, no parts needed. Trackpad is perfect again. Assessment: R899 ex VAT and honest diagnosis.',
     date: 'March 2026',
   },
 ];
@@ -211,14 +211,14 @@ export default function MacBookTrackpadPage() {
           />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Free Assessment · Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Assessment: R899 ex VAT · 3-Month 3-Month Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Trackpad Repair<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Trackpad not clicking, cursor jumping, raised trackpad from swollen battery, Force Touch not working. All MacBook Air and Pro models — Apple Silicon and Intel. Free assessment. No Fix No Fee.
+              Trackpad not clicking, cursor jumping, raised trackpad from swollen battery, Force Touch not working. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -279,7 +279,7 @@ export default function MacBookTrackpadPage() {
               </div>
             </div>
             <p className="text-[#7A9E98] text-sm text-center sm:text-right max-w-xs">
-              MacBook trackpad repair — Sandton, Rosebank, Fourways, Bryanston, Hyde Park
+              MacBook trackpad repair, Sandton, Rosebank, Fourways, Bryanston, Hyde Park
             </p>
           </div>
         </div>
@@ -293,7 +293,7 @@ export default function MacBookTrackpadPage() {
             <div>
               <h2 className="text-red-400 font-bold text-base mb-2">Trackpad Raised? Stop Using the Machine.</h2>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                A trackpad that is raised, swollen, or no longer sits flush with the palm rest is almost always caused by a swollen battery. Swollen lithium batteries can rupture, catch fire, or release toxic gas. Do not leave the machine charging overnight. Bring it in as soon as possible — we replace the battery and realign the trackpad in a single same-day repair.
+                A trackpad that is raised, swollen, or no longer sits flush with the palm rest is almost always caused by a swollen battery. Swollen lithium batteries can rupture, catch fire, or release toxic gas. Do not leave the machine charging overnight. Bring it in as soon as possible, we replace the battery and realign the trackpad in a single same-day repair.
               </p>
             </div>
           </div>
@@ -305,10 +305,10 @@ export default function MacBookTrackpadPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-              MacBook Trackpad Repair — <span className="text-[#0FEA7A]">Models We Service</span>
+              MacBook Trackpad Repair, <span className="text-[#0FEA7A]">Models We Service</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Free assessment before any work begins. Written fixed quote — no hidden costs.
+              Assessment: R899 ex VAT before any work begins. Written fixed quote, no hidden costs.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -378,7 +378,7 @@ export default function MacBookTrackpadPage() {
                 Trackpad Problems <span className="text-[#0FEA7A]">We Fix</span>
               </h2>
               <p className="text-[#7A9E98] mb-6 text-sm">
-                From a stuck click to a completely dead trackpad — all faults diagnosed and repaired.
+                From a stuck click to a completely dead trackpad, all faults diagnosed and repaired.
               </p>
               {symptoms.map((item) => (
                 <div key={item} className="flex items-center gap-3 py-2.5 border-b border-[rgba(255,255,255,0.04)]">
@@ -396,20 +396,20 @@ export default function MacBookTrackpadPage() {
                   {
                     step: '01',
                     icon: <Wrench className="w-5 h-5" />,
-                    title: 'Free Assessment',
+                    title: 'Assessment: R899 ex VAT',
                     desc: 'We inspect the trackpad, check for battery swelling, test the flex cable, and probe the trackpad controller on the logic board. We identify the root cause before quoting.',
                   },
                   {
                     step: '02',
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Fixed Written Quote',
-                    desc: 'You receive a written price before we touch anything. If a swollen battery and trackpad fault are both present, we quote both together — no surprises.',
+                    desc: 'You receive a written price before we touch anything. If a swollen battery and trackpad fault are both present, we quote both together, no surprises.',
                   },
                   {
                     step: '03',
                     icon: <MousePointer className="w-5 h-5" />,
                     title: 'Targeted Repair',
-                    desc: 'We replace only what is faulty — flex cable, full trackpad assembly, or battery. We never replace parts that do not need replacing.',
+                    desc: 'We replace only what is faulty, flex cable, full trackpad assembly, or battery. We never replace parts that do not need replacing.',
                   },
                   {
                     step: '04',
@@ -421,7 +421,7 @@ export default function MacBookTrackpadPage() {
                     step: '05',
                     icon: <Clock className="w-5 h-5" />,
                     title: 'Warranty',
-                    desc: 'Every trackpad repair comes with a written warranty. If the same fault recurs within the warranty period, we fix it at no cost.',
+                    desc: 'Every trackpad repair comes with a written 3-month warranty. If the same fault recurs within the warranty period, we fix it at no cost.',
                   },
                 ].map((step) => (
                   <div key={step.step} className="flex gap-4">
@@ -477,7 +477,7 @@ export default function MacBookTrackpadPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Trackpad Repair — FAQs" />
+          <FAQAccordion items={faqs} title="MacBook Trackpad Repair, FAQs" />
         </div>
       </section>
 
@@ -489,7 +489,7 @@ export default function MacBookTrackpadPage() {
               MacBook Trackpad Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-8">
-              Free assessment. No Fix No Fee. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

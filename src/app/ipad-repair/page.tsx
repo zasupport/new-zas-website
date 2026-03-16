@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
   description:
-    'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. No Fix No Fee. Free assessment. Hyde Park.',
+    'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park.',
   keywords: [
     'ipad repair johannesburg',
     'ipad screen repair johannesburg',
@@ -33,7 +33,7 @@ const faqs = [
   {
     question: 'Do you repair iPad Pro M4 and M2 models?',
     answer:
-      'Yes, we repair all current iPad Pro models including M4 and M2. However, Apple Silicon iPad Pros (M1, M2, M4) are significantly more complex than older models — the display is fully laminated, the logic board is denser, and parts are harder to source. Repairs take longer and carry a higher parts cost. We are transparent about this upfront. For complex iPad Pro repairs we carry out a full assessment before committing to a price.',
+      'Yes, we repair all current iPad Pro models including M4 and M2. However, Apple Silicon iPad Pros (M1, M2, M4) are significantly more complex than older models, the display is fully laminated, the logic board is denser, and parts are harder to source. Repairs take longer and carry a higher parts cost. We are transparent about this upfront. For complex iPad Pro repairs we carry out a full assessment before committing to a price.',
   },
   {
     question: 'How long does iPad repair take?',
@@ -48,7 +48,7 @@ const faqs = [
   {
     question: 'Is it worth repairing an iPad or should I replace it?',
     answer:
-      'It depends on the repair and the model. Battery and charging port repairs are almost always worth it — they cost a fraction of a new iPad and extend the life significantly. Screen repairs are worth it on mid-range and Pro models. We will give you an honest cost-benefit comparison at assessment. If it is not worth repairing, we will tell you.',
+      'It depends on the repair and the model. Battery and charging port repairs are almost always worth it, they cost a fraction of a new iPad and extend the life significantly. Screen repairs are worth it on mid-range and Pro models. We will give you an honest cost-benefit comparison at assessment. If it is not worth repairing, we will tell you.',
   },
   {
     question: 'My iPad screen is shattered but the display underneath still works. Can you fix just the glass?',
@@ -94,7 +94,7 @@ const repairServices = [
     desc: 'Ultrasonic board clean, component-level diagnosis, and board repair.',
     priceStandard: 'Contact for pricing',
     pricePro: '',
-    note: 'No Fix No Fee applies — no charge if repair is not possible.',
+    note: 'Assessment: R899 ex VAT applies, no charge if repair is not possible.',
   },
 ];
 
@@ -104,7 +104,7 @@ const models = [
   { family: 'iPad Air', models: '3rd Gen, 4th Gen (M1), 5th Gen (M2)' },
   { family: 'iPad Pro 11"', models: '1st, 2nd, 3rd Gen, M4' },
   { family: 'iPad Pro 12.9" / 13"', models: '2nd through 6th Gen, M4' },
-  { family: 'Accessories', models: 'Apple Pencil (1st & 2nd Gen), Smart Keyboard' },
+  { family: 'Accessories', models: 'Smart Keyboard, Smart Folio' },
 ];
 
 const serviceSchema = {
@@ -175,7 +175,7 @@ export default function iPadRepairPage() {
               Professional iPad repair in Johannesburg. Screen, battery, and charging port repairs for all iPad models including M4 iPad Pro, Air M2, and mini 6.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              No Fix No Fee. warranty on all repairs. Free assessment — no charge if we cannot fix it.
+              Assessment: R899 ex VAT. warranty on all repairs. Assessment: R899 ex VAT, no charge if we cannot fix it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -204,10 +204,10 @@ export default function iPadRepairPage() {
             className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center"
             style={{ fontFamily: 'Syne, sans-serif' }}
           >
-            iPad Repair Prices — Johannesburg
+            iPad Repair Prices, Johannesburg
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
-            Starting prices for common repairs. Exact quotes provided after free assessment.
+            Starting prices for common repairs. Exact quotes provided after assessment fee (R899 ex VAT).
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {repairServices.map((service) => (
@@ -248,7 +248,7 @@ export default function iPadRepairPage() {
             </h2>
             <p className="text-[#7A9E98] mb-4 leading-relaxed">
               Apple Silicon iPad Pros are genuinely harder to repair than older models. The display is fully laminated
-              — glass, digitiser, and LCD are fused together, meaning the entire assembly must be replaced even for
+             , glass, digitiser, and LCD are fused together, meaning the entire assembly must be replaced even for
               a cracked outer glass. Logic board density has increased significantly, and parts availability from
               reliable suppliers takes longer to confirm.
             </p>
@@ -258,7 +258,7 @@ export default function iPadRepairPage() {
               you before you spend anything.
             </p>
             <p className="text-[#7A9E98] leading-relaxed">
-              Standard iPad, iPad mini, and older iPad Air models are straightforward — 2–4 hours in most cases.
+              Standard iPad, iPad mini, and older iPad Air models are straightforward, 2–4 hours in most cases.
             </p>
           </div>
         </div>
@@ -299,15 +299,15 @@ export default function iPadRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'No Fix No Fee',
-                desc: 'If we cannot repair your iPad, you pay nothing. No diagnostic fee, no call-out charge.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'If we cannot repair your iPad, assessment fee of R899 ex VAT applies. No diagnostic fee, no call-out charge.',
               },
               {
                 title: 'Warranty',
-                desc: 'All parts and labour carry a warranty. Same fault within the warranty period — we fix it free.',
+                desc: 'All parts and labour carry a 3-month warranty. Same fault within the warranty period, we fix it free.',
               },
               {
-                title: 'Free Assessment',
+                title: 'Assessment: R899 ex VAT',
                 desc: 'We inspect your iPad and give you a full quote before starting any work. You decide.',
               },
               {
@@ -355,12 +355,12 @@ export default function iPadRepairPage() {
               },
               {
                 step: '2',
-                title: 'Bring It In — Free Assessment',
+                title: 'Book Your Assessment',
                 desc: 'Drop off your iPad at our Hyde Park office. We inspect it thoroughly, check screen, battery health, charging port, and any water damage. Assessment is free.',
               },
               {
                 step: '3',
-                title: 'Quote — You Decide',
+                title: 'Quote, You Decide',
                 desc: 'We give you a fixed quote for the repair. No surprises. You decide whether to go ahead. No charge if you decline.',
               },
               {
@@ -391,7 +391,7 @@ export default function iPadRepairPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPad Repair Johannesburg — Common Questions" />
+          <FAQAccordion items={faqs} title="iPad Repair Johannesburg, Common Questions" />
         </div>
       </section>
 
@@ -406,7 +406,7 @@ export default function iPadRepairPage() {
               iPad Damaged? Let Us Fix It.
             </h2>
             <p className="text-[#7A9E98] mb-2">Screen repair &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Charging port repair</p>
-            <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

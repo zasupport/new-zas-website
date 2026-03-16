@@ -22,7 +22,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Keyboard Repair Johannesburg | ZA Support',
   description:
-    'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro — all models. Hyde Park, Johannesburg. warranty on scissor keyboards.',
+    'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro, all models. Hyde Park, Johannesburg. warranty on scissor keyboards.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/keyboard' },
   keywords: [
     'MacBook keyboard repair Johannesburg',
@@ -42,19 +42,19 @@ export const metadata: Metadata = {
 const pricingRows = [
   {
     model: 'Butterfly keyboard replacement (2016–2019)',
-    warranty: 'No warranty — design defect',
+    warranty: 'No 3-month warranty, design defect',
     noWarranty: true,
     note: 'See butterfly explainer below',
   },
   {
     model: 'Scissor keyboard replacement (2020+)',
-    warranty: 'warranty',
+    warranty: '3-month warranty',
     noWarranty: false,
     note: 'MacBook Air M1/M2/M3',
   },
   {
     model: 'MacBook Pro 14" / 16" keyboard (M-series)',
-    warranty: 'warranty',
+    warranty: '3-month warranty',
     noWarranty: false,
     note: 'M1 / M2 / M3 / M4',
   },
@@ -89,7 +89,7 @@ const symptoms = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Double-Typing (Ghost Keypresses)',
-    desc: 'You type one letter and two appear. A hallmark butterfly keyboard failure mode — the thin mechanism bounces, registering the keypress twice. Apple acknowledged this fault.',
+    desc: 'You type one letter and two appear. A hallmark butterfly keyboard failure mode, the thin mechanism bounces, registering the keypress twice. Apple acknowledged this fault.',
   },
   {
     icon: <XCircle className="w-5 h-5" />,
@@ -99,7 +99,7 @@ const symptoms = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Liquid Spill on Keyboard',
-    desc: 'Even a small amount of liquid can corrode keyboard contacts. We clean and assess the underlying components — if liquid reached the logic board we will check that separately.',
+    desc: 'Even a small amount of liquid can corrode keyboard contacts. We clean and assess the underlying components, if liquid reached the logic board we will check that separately.',
   },
   {
     icon: <Wrench className="w-5 h-5" />,
@@ -132,7 +132,7 @@ const butterflyTimeline = [
   },
   {
     year: '2018',
-    event: 'Apple introduces a silicone membrane under the keys to keep dust out — but failures continue. Apple launches a silent Keyboard Service Programme covering affected models.',
+    event: 'Apple introduces a silicone membrane under the keys to keep dust out, but failures continue. Apple launches a silent Keyboard Service Programme covering affected models.',
   },
   {
     year: '2019',
@@ -152,21 +152,21 @@ const reviews = [
     name: 'Natasha B.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'My 2018 MacBook Pro was double-typing on every keystroke — a nightmare for writing. ZA Support explained the butterfly keyboard issue clearly, replaced the top case the same day and gave me a straight answer about why it carries no warranty. Honest and fast.',
+    text: 'My 2018 MacBook Pro was double-typing on every keystroke, a nightmare for writing. ZA Support explained the butterfly keyboard issue clearly, replaced the top case the same day and gave me a straight answer about why it carries no 3-month warranty. Honest and fast.',
     date: 'February 2026',
   },
   {
     name: 'Gareth O.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Spilled coffee on my MacBook Air M2 keyboard at 7am. Dropped it off at Hyde Park by 9am, picked it up at 2pm with a brand new scissor keyboard and warranty. Incredible turnaround.',
+    text: 'Spilled coffee on my MacBook Air M2 keyboard at 7am. Dropped it off at Hyde Park by 9am, picked it up at 2pm with a brand new scissor keyboard and 3-month warranty. Incredible turnaround.',
     date: 'January 2026',
   },
   {
     name: 'Priya S.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'Three keys had completely stopped working on my 2019 MacBook Pro 15". ZA Support replaced the entire top case, explained the butterfly design flaw and offered the scissor-switch upgrade. No upsell pressure — just facts. Happy with the result.',
+    text: 'Three keys had completely stopped working on my 2019 MacBook Pro 15". ZA Support replaced the entire top case, explained the butterfly design flaw and offered the scissor-switch upgrade. No upsell pressure, just facts. Happy with the result.',
     date: 'March 2026',
   },
 ];
@@ -178,27 +178,27 @@ const faqs = [
   {
     question: 'How much does MacBook keyboard repair cost in Johannesburg?',
     answer:
-      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a warranty. We provide a free assessment and a fixed written quote before starting any work.',
+      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a 3-month warranty. We provide a assessment fee (R899 ex VAT) and a fixed written quote before starting any work.',
   },
   {
     question: 'Why does the butterfly keyboard carry no warranty?',
     answer:
-      'Apple\'s butterfly keyboard (used on MacBook Pro 2016–2019 and MacBook Air 2018–2019) has a fundamental design flaw: the mechanism is so thin that a single particle of dust or debris can cause it to fail. Apple itself acknowledged this by replacing the entire keyboard design in 2019 and running a silent Keyboard Service Programme for affected models. Because the failure is inherent to the design rather than a workmanship issue, we cannot warrant a like-for-like replacement — it will very likely fail again. We are transparent about this upfront rather than replacing it, collecting the warranty claim, and repeating the cycle.',
+      'Apple\'s butterfly keyboard (used on MacBook Pro 2016–2019 and MacBook Air 2018–2019) has a fundamental design flaw: the mechanism is so thin that a single particle of dust or debris can cause it to fail. Apple itself acknowledged this by replacing the entire keyboard design in 2019 and running a silent Keyboard Service Programme for affected models. Because the failure is inherent to the design rather than a workmanship issue, we cannot warrant a like-for-like replacement, it will very likely fail again. We are transparent about this upfront rather than replacing it, collecting the warranty claim, and repeating the cycle.',
   },
   {
     question: 'Can you replace my butterfly keyboard with the newer scissor-switch design?',
     answer:
-      'We offer a scissor-switch keyboard adapter for select butterfly keyboard MacBook Pro models where compatible parts are available. This involves replacing the top case with an updated assembly that uses the more reliable scissor-switch mechanism. Ask us when you bring your machine in — not all models have compatible adapters available and the cost is higher than a like-for-like replacement.',
+      'We offer a scissor-switch keyboard adapter for select butterfly keyboard MacBook Pro models where compatible parts are available. This involves replacing the top case with an updated assembly that uses the more reliable scissor-switch mechanism. Ask us when you bring your machine in, not all models have compatible adapters available and the cost is higher than a like-for-like replacement.',
   },
   {
     question: 'How long does MacBook keyboard replacement take?',
     answer:
-      'Keyboard cleaning and single keycap replacements typically take 1–2 hours. A full keyboard replacement takes 2–4 hours. On butterfly keyboard models (2016–2019), the keyboard is riveted to the top case, so the entire top case must be replaced — this takes 3–4 hours. We will confirm turnaround time when you drop your MacBook off.',
+      'Keyboard cleaning and single keycap replacements typically take 1–2 hours. A full keyboard replacement takes 2–4 hours. On butterfly keyboard models (2016–2019), the keyboard is riveted to the top case, so the entire top case must be replaced, this takes 3–4 hours. We will confirm turnaround time when you drop your MacBook off.',
   },
   {
     question: 'My MacBook keyboard was damaged by a liquid spill. Can it be fixed?',
     answer:
-      'Yes. Liquid-damaged keyboards are one of our most common repairs. We clean the keyboard and assess the underlying connections as part of the process. If liquid has reached the logic board we assess that separately — a keyboard replacement combined with a board-level clean often fully restores the machine. Come in as quickly as possible after a spill: the longer liquid sits on the board, the more corrosion develops.',
+      'Yes. Liquid-damaged keyboards are one of our most common repairs. We clean the keyboard and assess the underlying connections as part of the process. If liquid has reached the logic board we assess that separately, a keyboard replacement combined with a board-level clean often fully restores the machine. Come in as quickly as possible after a spill: the longer liquid sits on the board, the more corrosion develops.',
   },
   {
     question: 'Will keyboard replacement affect my Touch Bar?',
@@ -213,7 +213,7 @@ const faqs = [
   {
     question: 'Can individual keys be replaced on a modern MacBook?',
     answer:
-      'On MacBook models where the keyboard is mechanically separate from the top case — primarily older Intel Macs — individual keycaps can sometimes be replaced. On most modern MacBooks (2016 onward) the keyboard is bonded directly to the top case and cannot be partially replaced. We will always advise the most cost-effective approach for your specific model.',
+      'On MacBook models where the keyboard is mechanically separate from the top case, primarily older Intel Macs, individual keycaps can sometimes be replaced. On most modern MacBooks (2016 onward) the keyboard is bonded directly to the top case and cannot be partially replaced. We will always advise the most cost-effective approach for your specific model.',
   },
 ];
 
@@ -294,7 +294,7 @@ export default function MacBookKeyboardPage() {
 
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Free assessment. No Fix No Fee.
+              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -365,7 +365,7 @@ export default function MacBookKeyboardPage() {
               </div>
             </div>
             <p className="text-[#7A9E98] text-sm text-center sm:text-right max-w-xs">
-              MacBook keyboard repair — Sandton, Rosebank, Fourways, Bryanston, Hyde Park
+              MacBook keyboard repair, Sandton, Rosebank, Fourways, Bryanston, Hyde Park
             </p>
           </div>
         </div>
@@ -382,7 +382,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Repair <span className="text-[#0FEA7A]">Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Free assessment before any work begins. Written fixed quote — no hidden costs.
+              Assessment: R899 ex VAT before any work begins. Written fixed quote, no hidden costs.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -407,7 +407,7 @@ export default function MacBookKeyboardPage() {
                   <div className="col-span-4 text-right">
                     {row.noWarranty ? (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-orange-400 bg-orange-400/10 border border-orange-400/20 px-2 py-1 rounded-full">
-                        <XCircle className="w-3 h-3" /> No warranty
+                        <XCircle className="w-3 h-3" /> No 3-month warranty
                       </span>
                     ) : (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#0FEA7A] bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.2)] px-2 py-1 rounded-full">
@@ -419,7 +419,7 @@ export default function MacBookKeyboardPage() {
               ))}
             </div>
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
-              Prices include parts and labour. Butterfly keyboard replacements carry no warranty due to Apple&apos;s known design flaw — see explainer below.
+              Prices include parts and labour. Butterfly keyboard replacements carry no warranty due to Apple&apos;s known design flaw, see explainer below.
             </p>
           </div>
         </div>
@@ -432,13 +432,13 @@ export default function MacBookKeyboardPage() {
             <AlertTriangle className="w-6 h-6 text-orange-400 flex-shrink-0 mt-0.5" />
             <div>
               <h3 className="text-orange-400 font-bold text-base mb-2">
-                Butterfly Keyboard (2016–2019) — No Warranty Policy
+                Butterfly Keyboard (2016–2019), No Warranty Policy
               </h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed mb-3">
                 ZA Support does not offer a warranty on like-for-like butterfly keyboard replacements because the design itself is the cause of failure. Replacing one butterfly keyboard with another butterfly keyboard will very likely produce the same fault. We are transparent about this before you decide to proceed.
               </p>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter — a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a warranty.
+                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter, a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a 3-month warranty.
               </p>
             </div>
           </div>
@@ -484,12 +484,12 @@ export default function MacBookKeyboardPage() {
               {
                 icon: <Info className="w-5 h-5" />,
                 title: 'Why It Fails',
-                body: 'The butterfly mechanism is only 0.55mm thin — so thin that a single crumb or dust particle prevents the key from travelling. Apple\'s silicone membrane fix (2018) reduced failures but did not solve them.',
+                body: 'The butterfly mechanism is only 0.55mm thin, so thin that a single crumb or dust particle prevents the key from travelling. Apple\'s silicone membrane fix (2018) reduced failures but did not solve them.',
               },
               {
                 icon: <Shield className="w-5 h-5" />,
                 title: 'Apple\'s Service Programme',
-                body: 'Apple ran a silent Keyboard Service Programme covering most 2015–2019 MacBook models. The programme has ended, but ZA Support can still replace your keyboard — we just cannot warrant the result.',
+                body: 'Apple ran a silent Keyboard Service Programme covering most 2015–2019 MacBook models. The programme has ended, but ZA Support can still replace your keyboard, we just cannot warrant the result.',
               },
               {
                 icon: <CheckCircle className="w-5 h-5" />,
@@ -521,7 +521,7 @@ export default function MacBookKeyboardPage() {
               Signs You Need <span className="text-[#0FEA7A]">Keyboard Repair</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Any of these symptoms warrants a free assessment. We diagnose before we quote — no obligation.
+              Any of these symptoms warrants a assessment fee (R899 ex VAT). We diagnose before we quote, no obligation.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -556,7 +556,7 @@ export default function MacBookKeyboardPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Free Assessment',
+                title: 'Assessment: R899 ex VAT',
                 desc: 'We test every key, check for liquid ingress, and inspect the top case. For butterfly keyboard models we advise you on whether the scissor-switch upgrade is available for your specific machine before quoting.',
               },
               {
@@ -575,7 +575,7 @@ export default function MacBookKeyboardPage() {
                 step: '04',
                 icon: <CheckCircle className="w-5 h-5" />,
                 title: 'Full Keyboard Test',
-                desc: 'Before handback we run a complete keyboard test — every key, every modifier, every function key. Touch ID, Touch Bar (where fitted), and backlighting are all verified before the machine leaves us.',
+                desc: 'Before handback we run a complete keyboard test, every key, every modifier, every function key. Touch ID, Touch Bar (where fitted), and backlighting are all verified before the machine leaves us.',
               },
               {
                 step: '05',
@@ -644,7 +644,7 @@ export default function MacBookKeyboardPage() {
       {/* ── FAQ ──────────────────────────────────────────────── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Keyboard Repair — FAQs" />
+          <FAQAccordion items={faqs} title="MacBook Keyboard Repair, FAQs" />
         </div>
       </section>
 
@@ -659,7 +659,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              Free assessment. No Fix No Fee. Hyde Park, Johannesburg. WhatsApp for fastest response.
+              Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg. WhatsApp for fastest response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

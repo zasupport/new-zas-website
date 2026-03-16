@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
   description:
-    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Free assessment.',
+    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Assessment: R899 ex VAT.',
   alternates: { canonical: 'https://zasupport.com/mac-mini-repair' },
   keywords: [
     'mac mini repair johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
     description:
-      'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), overheating repair. Hyde Park. No Fix No Fee.',
+      'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), overheating repair. Hyde Park. Assessment: R899 ex VAT.',
     url: 'https://zasupport.com/mac-mini-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -69,41 +69,41 @@ const services = [
 ];
 
 const models = [
-  { name: 'Mac Mini M2 Pro (2023)', note: 'Apple Silicon — 192 GB max' },
-  { name: 'Mac Mini M2 (2023)', note: 'Apple Silicon — 24 GB max' },
-  { name: 'Mac Mini M1 (2020)', note: 'Apple Silicon — 16 GB max' },
-  { name: 'Mac Mini (2018)', note: 'Intel — SSD + 64 GB RAM upgradeable' },
-  { name: 'Mac Mini (2014)', note: 'Intel — SSD + RAM upgradeable' },
-  { name: 'Mac Mini (2012)', note: 'Intel — SSD + RAM upgradeable' },
-  { name: 'Mac Mini (2011)', note: 'Intel — SSD + RAM upgradeable' },
-  { name: 'Mac Mini Server (2011–2012)', note: 'Intel — dual drive bay' },
+  { name: 'Mac Mini M2 Pro (2023)', note: 'Apple Silicon, 192 GB max' },
+  { name: 'Mac Mini M2 (2023)', note: 'Apple Silicon, 24 GB max' },
+  { name: 'Mac Mini M1 (2020)', note: 'Apple Silicon, 16 GB max' },
+  { name: 'Mac Mini (2018)', note: 'Intel, SSD + 64 GB RAM upgradeable' },
+  { name: 'Mac Mini (2014)', note: 'Intel, SSD + RAM upgradeable' },
+  { name: 'Mac Mini (2012)', note: 'Intel, SSD + RAM upgradeable' },
+  { name: 'Mac Mini (2011)', note: 'Intel, SSD + RAM upgradeable' },
+  { name: 'Mac Mini Server (2011–2012)', note: 'Intel, dual drive bay' },
 ];
 
 const faqs = [
   {
     question: 'How much does Mac Mini repair cost in Johannesburg?',
     answer:
-      'Mac Mini repair pricing depends on the model and fault. We provide a free diagnosis and a fixed quote before starting any work. Contact us to discuss your specific machine and issue.',
+      'Mac Mini repair pricing depends on the model and fault. We provide a assessment and a fixed quote before starting any work. Contact us to discuss your specific machine and issue.',
   },
   {
     question: 'Can I upgrade the RAM in my Mac Mini?',
     answer:
-      'It depends on the model. Intel Mac Mini models (2010–2018) have accessible RAM slots — most can be upgraded to 16 GB, and the 2018 model supports up to 64 GB. The Mac Mini M1, M2, and M2 Pro (2020–2023) have unified memory soldered directly to the chip — no upgrade is possible. We confirm your model before quoting to avoid any surprises.',
+      'It depends on the model. Intel Mac Mini models (2010–2018) have accessible RAM slots, most can be upgraded to 16 GB, and the 2018 model supports up to 64 GB. The Mac Mini M1, M2, and M2 Pro (2020–2023) have unified memory soldered directly to the chip, no upgrade is possible. We confirm your model before quoting to avoid any surprises.',
   },
   {
-    question: 'My Mac Mini is very slow — what can I do?',
+    question: 'My Mac Mini is very slow, what can I do?',
     answer:
       'On Intel Mac Mini models, the most impactful improvement is replacing a spinning hard drive with an SSD. This alone typically drops boot time from 2+ minutes to under 20 seconds and makes everyday use dramatically faster. Adding RAM is the second most effective upgrade. An Intel Mac Mini 2012 with a 500 GB SSD and 16 GB RAM performs well for most daily tasks at a very affordable cost.',
   },
   {
-    question: 'My Mac Mini is overheating or the fan is always loud — is that repairable?',
+    question: 'My Mac Mini is overheating or the fan is always loud, is that repairable?',
     answer:
       'Yes, in most cases. The most common cause on older Intel Mac Mini models is dried-out thermal paste between the processor and heatsink. Replacing the thermal paste and cleaning the heatsink typically reduces idle temperatures by 10–20°C and brings fan noise back to normal. This service takes 1–2 hours.',
   },
   {
-    question: 'My Mac Mini won\'t turn on at all — what could be wrong?',
+    question: 'My Mac Mini won\'t turn on at all, what could be wrong?',
     answer:
-      'The most common causes of a Mac Mini not turning on are: (1) power supply failure — the internal power converter fails over time, especially on 2010–2014 models; (2) a logic board fault — component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting — no fix, no fee applies.',
+      'The most common causes of a Mac Mini not turning on are: (1) power supply failure, the internal power converter fails over time, especially on 2010–2014 models; (2) a logic board fault, component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting, no fix, no fee applies.',
   },
   {
     question: 'Is it worth upgrading an older Mac Mini instead of buying a new one?',
@@ -113,12 +113,12 @@ const faqs = [
   {
     question: 'Do you repair Mac Mini M1 and M2 models?',
     answer:
-      'Yes. Apple Silicon Mac Mini models (M1 2020, M2 2023, M2 Pro 2023) are repairable for hardware faults — ports, display connectivity, overheating, and logic board issues. RAM and storage are soldered on Apple Silicon models so those cannot be upgraded, but repairs to other components are fully possible. We assess each machine before quoting.',
+      'Yes. Apple Silicon Mac Mini models (M1 2020, M2 2023, M2 Pro 2023) are repairable for hardware faults, ports, display connectivity, overheating, and logic board issues. RAM and storage are soldered on Apple Silicon models so those cannot be upgraded, but repairs to other components are fully possible. We assess each machine before quoting.',
   },
   {
     question: 'How long does Mac Mini repair or upgrade take?',
     answer:
-      'SSD and RAM upgrades on Intel models are typically same-day — 1 to 2 hours once the machine is with us. Thermal paste replacement takes 1–2 hours. Logic board and power supply repair takes 2–5 business days depending on component availability. We give you an estimated completion time when your machine is booked in.',
+      'SSD and RAM upgrades on Intel models are typically same-day, 1 to 2 hours once the machine is with us. Thermal paste replacement takes 1–2 hours. Logic board and power supply repair takes 2–5 business days depending on component availability. We give you an estimated completion time when your machine is booked in.',
   },
 ];
 
@@ -163,7 +163,7 @@ export default function MacMiniRepairPage() {
           </p>
           <p className="text-slate-400 mb-8 max-w-2xl mx-auto">
             A Mac Mini SSD upgrade is the single best investment you can make in an older machine.
-            Boot in under 20 seconds. Free assessment — fixed quote before we start.
+            Boot in under 20 seconds. Assessment: R899 ex VAT, fixed quote before we start.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -189,11 +189,11 @@ export default function MacMiniRepairPage() {
       {/* Trust bar */}
       <section className="bg-slate-800 border-y border-slate-700 py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-slate-300">
-          <span>No Fix No Fee</span>
+          <span>Assessment: R899 ex VAT</span>
           <span className="text-slate-500">|</span>
           <span>Same-Day SSD &amp; RAM Upgrades</span>
           <span className="text-slate-500">|</span>
-          <span>Free Assessment</span>
+          <span>Assessment: R899 ex VAT</span>
           <span className="text-slate-500">|</span>
           <span>{SITE.rating}★ {SITE.reviewCount} Reviews</span>
           <span className="text-slate-500">|</span>
@@ -206,7 +206,7 @@ export default function MacMiniRepairPage() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-4">Mac Mini Repair &amp; Upgrade Services</h2>
           <p className="text-slate-500 text-center mb-12">
-            Component-level repairs and upgrades for all Apple Mac Mini models — Intel and Apple Silicon.
+            Component-level repairs and upgrades for all Apple Mac Mini models, Intel and Apple Silicon.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service) => {
@@ -241,13 +241,13 @@ export default function MacMiniRepairPage() {
           <p className="text-slate-600 mb-6">
             Older Mac Mini models shipped with slow spinning hard drives. The single most impactful upgrade
             is replacing it with a solid-state drive. Boot in under 20 seconds instead of 2+ minutes.
-            Applications open instantly. Everything feels new — for a fraction of replacement cost.
+            Applications open instantly. Everything feels new, for a fraction of replacement cost.
           </p>
           <div className="grid sm:grid-cols-3 gap-4 text-left">
             {[
               { label: 'SSD upgrade (500 GB)', note: 'inc. data migration' },
               { label: 'SSD upgrade (1 TB)', note: 'inc. data migration' },
-              { label: 'SSD + RAM bundle', note: 'Intel models — best value' },
+              { label: 'SSD + RAM bundle', note: 'Intel models, best value' },
             ].map((item) => (
               <div key={item.label} className="bg-white border border-green-200 rounded-lg p-4">
                 <div className="font-medium text-slate-900 text-sm mb-1">{item.label}</div>
@@ -269,9 +269,9 @@ export default function MacMiniRepairPage() {
             support up to 16 GB; the 2018 model supports up to 64 GB.
           </p>
           <p className="text-slate-600 mb-4">
-            Apple Silicon Mac Mini models (M1, M2, M2 Pro — 2020 and 2023) have unified memory soldered directly
+            Apple Silicon Mac Mini models (M1, M2, M2 Pro, 2020 and 2023) have unified memory soldered directly
             to the chip. There is no RAM upgrade available for these models. If you are buying new, choose
-            your memory configuration carefully — it cannot be changed later.
+            your memory configuration carefully, it cannot be changed later.
           </p>
           <p className="text-slate-500 text-sm">
             Not sure which model you have?{' '}
@@ -303,7 +303,7 @@ export default function MacMiniRepairPage() {
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Repair or Replace?</h2>
           <p className="text-slate-600 mb-8">
             We give every Mac Mini owner an honest assessment. Some machines are worth upgrading; others
-            are genuinely better replaced. We will always show you both options — and if you decide to
+            are genuinely better replaced. We will always show you both options, and if you decide to
             replace, we can source and configure a new Mac Mini with your data migrated.
           </p>
           <div className="overflow-x-auto">
@@ -319,27 +319,27 @@ export default function MacMiniRepairPage() {
                 {[
                   {
                     scenario: 'Mac Mini 2012–2014 running slowly',
-                    rec: 'SSD + RAM upgrade — excellent value',
+                    rec: 'SSD + RAM upgrade, excellent value',
                     cost: 'Quoted on assessment',
                   },
                   {
                     scenario: 'Mac Mini 2018 with slow hard drive',
-                    rec: 'SSD upgrade — significant improvement',
+                    rec: 'SSD upgrade, significant improvement',
                     cost: 'Quoted on assessment',
                   },
                   {
                     scenario: 'Mac Mini 2018 fault (port, board)',
-                    rec: 'Repair — newer machine, worth fixing',
+                    rec: 'Repair, newer machine, worth fixing',
                     cost: 'Quoted on assessment',
                   },
                   {
                     scenario: 'Mac Mini M1/M2 fault',
-                    rec: 'Repair — modern, no upgrade path',
+                    rec: 'Repair, modern, no upgrade path',
                     cost: 'Quoted on assessment',
                   },
                   {
                     scenario: 'Mac Mini 2009–2010 any fault',
-                    rec: 'Replace — repair cost exceeds value',
+                    rec: 'Replace, repair cost exceeds value',
                     cost: 'Quoted on assessment',
                   },
                 ].map((row) => (
@@ -362,11 +362,11 @@ export default function MacMiniRepairPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                title: 'No Fix No Fee',
-                desc: 'If we cannot fix your Mac Mini, you pay nothing. We diagnose first, quote second, repair third.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'If we cannot fix your Mac Mini, assessment fee of R899 ex VAT applies. We diagnose first, quote second, repair third.',
               },
               {
-                title: 'Free Assessment',
+                title: 'Assessment: R899 ex VAT',
                 desc: 'We assess your Mac Mini at no charge. You get a written quote with no obligation to proceed.',
               },
               {
@@ -378,7 +378,7 @@ export default function MacMiniRepairPage() {
                 desc: 'All repairs carry a warranty on parts and labour. If the same fault returns, we fix it free.',
               },
               {
-                title: '14 Years of Apple Experience',
+                title: '16 Years of Apple Experience',
                 desc: 'We have repaired every Mac Mini model since 2011. We know the common failure points and the best fixes.',
               },
               {
@@ -410,7 +410,7 @@ export default function MacMiniRepairPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Get Your Mac Mini Running Fast Again</h2>
           <p className="text-slate-300 mb-8">
-            Free assessment. Fixed quote. No Fix No Fee. Hyde Park, Johannesburg.
+            Assessment: R899 ex VAT. Fixed quote. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             SSD and RAM upgrades completed same day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

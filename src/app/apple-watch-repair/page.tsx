@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Watch Repair Johannesburg | Screen & Battery | ZA Support',
   description:
-    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. No Fix No Fee. warranty. Hyde Park.',
+    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. Assessment: R899 ex VAT. 3-month warranty. Hyde Park.',
   keywords: [
     'apple watch repair johannesburg',
     'apple watch screen crack johannesburg',
@@ -42,17 +42,17 @@ const faqs = [
   {
     question: 'How long does Apple Watch repair take?',
     answer:
-      'Screen replacements typically take 2–4 hours for Series 3 through 6. Series 7 and later take 4–6 hours. Battery replacements take 1–2 hours for most models. Crown and button repairs vary depending on the issue — from 1 hour to a full day for complex cases.',
+      'Screen replacements typically take 2–4 hours for Series 3 through 6. Series 7 and later take 4–6 hours. Battery replacements take 1–2 hours for most models. Crown and button repairs vary depending on the issue, from 1 hour to a full day for complex cases.',
   },
   {
     question: 'Can Apple Watch water resistance be restored after screen repair?',
     answer:
-      'Apple Watch water resistance relies on adhesive sealing around the display. We use appropriate adhesive and re-seal the watch after every screen repair. However, we do not certify water resistance to Apple specifications after a third-party repair — this is an honest limitation of any non-Apple repair. If water resistance is critical to your use case, this is worth knowing in advance.',
+      'Apple Watch water resistance relies on adhesive sealing around the display. We use appropriate adhesive and re-seal the watch after every screen repair. However, we do not certify water resistance to Apple specifications after a third-party repair, this is an honest limitation of any non-Apple repair. If water resistance is critical to your use case, this is worth knowing in advance.',
   },
   {
     question: 'My Apple Watch shows a red lightning bolt or will not turn on. Is this a battery issue?',
     answer:
-      'Usually yes. A red lightning bolt on Apple Watch indicates a critically low or dead battery. In most cases the watch will recover after charging. If it still does not respond after 30 minutes on the charger, the battery may need replacement or there is a charging port fault. Bring it in for a free assessment.',
+      'Usually yes. A red lightning bolt on Apple Watch indicates a critically low or dead battery. In most cases the watch will recover after charging. If it still does not respond after 30 minutes on the charger, the battery may need replacement or there is a charging port fault. Bring it in for a assessment fee (R899 ex VAT).',
   },
 ];
 
@@ -60,7 +60,7 @@ const repairServices = [
   {
     title: 'Screen Replacement',
     models: 'Series 3, 4, 5, 6 (38mm / 40mm / 42mm / 44mm)',
-    note: 'Series 7 and later: more complex due to redesigned display — assessment required.',
+    note: 'Series 7 and later: more complex due to redesigned display, assessment required.',
   },
   {
     title: 'Battery Replacement',
@@ -75,7 +75,7 @@ const repairServices = [
   {
     title: 'Back Glass / Sensor Cover',
     models: 'Series 4 and later',
-    note: 'Cracked ceramic back. Heart rate sensor may be affected — tested post-repair.',
+    note: 'Cracked ceramic back. Heart rate sensor may be affected, tested post-repair.',
   },
 ];
 
@@ -84,11 +84,11 @@ const seriesSupport = [
   { series: 'Series 4 (40mm / 44mm)', screen: 'Available', battery: 'Available', note: 'Standard' },
   { series: 'Series 5 (40mm / 44mm)', screen: 'Available', battery: 'Available', note: 'Standard' },
   { series: 'Series 6 (40mm / 44mm)', screen: 'Available', battery: 'Available', note: 'Standard' },
-  { series: 'Series 7 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'More complex — longer turnaround' },
-  { series: 'Series 8 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'More complex — assessment required' },
+  { series: 'Series 7 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'More complex, longer turnaround' },
+  { series: 'Series 8 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'More complex, assessment required' },
   { series: 'Series 9 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'Assessment required' },
   { series: 'Apple Watch SE (1st & 2nd Gen)', screen: 'Available', battery: 'Available', note: 'Standard' },
-  { series: 'Apple Watch Ultra / Ultra 2', screen: '—', battery: '—', note: 'Not offered — Apple Service only' },
+  { series: 'Apple Watch Ultra / Ultra 2', screen: '—', battery: '—', note: 'Not offered, Apple Service only' },
 ];
 
 const serviceSchema = {
@@ -96,7 +96,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Apple Watch Repair Johannesburg',
   description:
-    'Apple Watch screen and battery repair in Johannesburg. Series 3 through Series 9. No Fix No Fee. Hyde Park.',
+    'Apple Watch screen and battery repair in Johannesburg. Series 3 through Series 9. Assessment: R899 ex VAT. Hyde Park.',
   provider: {
     '@type': 'LocalBusiness',
     name: SITE.name,
@@ -165,7 +165,7 @@ export default function AppleWatchRepairPage() {
               Cracked Apple Watch screen or dead battery? Screen and battery replacement for Series 3 through Series 9 and Apple Watch SE.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              No Fix No Fee. warranty. Free assessment. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. 3-month warranty. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -197,7 +197,7 @@ export default function AppleWatchRepairPage() {
             Apple Watch Repair Services
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
-            Starting prices for common Apple Watch repairs. Exact quote after free assessment.
+            Starting prices for common Apple Watch repairs. Exact quote after assessment fee (R899 ex VAT).
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {repairServices.map((service) => (
@@ -230,7 +230,7 @@ export default function AppleWatchRepairPage() {
                 className="text-[#F5A623] font-bold mb-2"
                 style={{ fontFamily: 'Syne, sans-serif' }}
               >
-                Apple Watch Ultra and Ultra 2 — We Do Not Service These
+                Apple Watch Ultra and Ultra 2, We Do Not Service These
               </h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
                 Apple Watch Ultra uses a titanium case and a custom display assembly that is not serviceable outside of
@@ -254,7 +254,7 @@ export default function AppleWatchRepairPage() {
             Prices by Series
           </h2>
           <p className="text-[#7A9E98] mb-8">
-            Starting prices. Final quote confirmed at free assessment based on exact model and damage.
+            Starting prices. Final quote confirmed at assessment fee (R899 ex VAT) based on exact model and damage.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -296,7 +296,7 @@ export default function AppleWatchRepairPage() {
               className="text-2xl font-extrabold text-[#E8F4F1] mb-4"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              Series 7 and Later — What You Should Know
+              Series 7 and Later, What You Should Know
             </h2>
             <p className="text-[#7A9E98] mb-4 leading-relaxed">
               Apple redesigned the Apple Watch case in Series 7 to support a larger, edge-to-edge display. The internal
@@ -309,7 +309,7 @@ export default function AppleWatchRepairPage() {
               unaffected by the screen design change.
             </p>
             <p className="text-[#7A9E98] leading-relaxed">
-              Series 3 through 6 and Apple Watch SE are our fastest turnaround repairs — parts are widely available
+              Series 3 through 6 and Apple Watch SE are our fastest turnaround repairs, parts are widely available
               and the procedure is well established.
             </p>
           </div>
@@ -328,12 +328,12 @@ export default function AppleWatchRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'No Fix No Fee',
-                desc: 'Cannot fix it? You pay nothing. No assessment fee, no call-out charge, no admin.',
+                title: 'Assessment: R899 ex VAT',
+                desc: 'Cannot fix it? Assessment fee of R899 ex VAT applies. No assessment fee, no call-out charge, no admin.',
               },
               {
                 title: 'Warranty',
-                desc: 'All Apple Watch repairs carry a parts and labour warranty. Same fault — we fix it at no charge.',
+                desc: 'All Apple Watch repairs carry a parts and labour 3-month warranty. Same fault, we fix it at no charge.',
               },
               {
                 title: 'Sensor Testing',
@@ -344,7 +344,7 @@ export default function AppleWatchRepairPage() {
                 desc: 'We do not service Apple Watch Ultra. We tell you upfront what we can and cannot do rather than attempt repairs we cannot stand behind.',
               },
               {
-                title: 'Free Assessment',
+                title: 'Assessment: R899 ex VAT',
                 desc: 'Bring it in. We inspect and quote. No charge if you decide not to proceed.',
               },
               {
@@ -377,14 +377,14 @@ export default function AppleWatchRepairPage() {
           </h2>
           <div className="space-y-4">
             {[
-              { symptom: 'Cracked or shattered screen', fix: 'Display assembly replacement — screen + glass as one unit' },
-              { symptom: 'Battery drains within a few hours', fix: 'Battery replacement — restores all-day battery life' },
+              { symptom: 'Cracked or shattered screen', fix: 'Display assembly replacement, screen + glass as one unit' },
+              { symptom: 'Battery drains within a few hours', fix: 'Battery replacement, restores all-day battery life' },
               { symptom: 'Apple Watch will not charge', fix: 'Charging contact clean, magnetic charger test, or battery replacement' },
-              { symptom: 'Red lightning bolt or dead screen', fix: 'Battery critically discharged — charge for 30 min, or battery replacement' },
-              { symptom: 'Digital Crown stuck or unresponsive', fix: 'Crown cleaning or replacement — common on older Series' },
+              { symptom: 'Red lightning bolt or dead screen', fix: 'Battery critically discharged, charge for 30 min, or battery replacement' },
+              { symptom: 'Digital Crown stuck or unresponsive', fix: 'Crown cleaning or replacement, common on older Series' },
               { symptom: 'Side button not clicking', fix: 'Button mechanism repair or replacement' },
-              { symptom: 'Cracked ceramic back', fix: 'Back glass/sensor cover replacement — Series 4 and later' },
-              { symptom: 'Ghost touches or unresponsive screen', fix: 'Display replacement — often caused by micro-cracks in digitiser layer' },
+              { symptom: 'Cracked ceramic back', fix: 'Back glass/sensor cover replacement, Series 4 and later' },
+              { symptom: 'Ghost touches or unresponsive screen', fix: 'Display replacement, often caused by micro-cracks in digitiser layer' },
             ].map((item) => (
               <div
                 key={item.symptom}
@@ -401,7 +401,7 @@ export default function AppleWatchRepairPage() {
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Apple Watch Repair Johannesburg — Common Questions" />
+          <FAQAccordion items={faqs} title="Apple Watch Repair Johannesburg, Common Questions" />
         </div>
       </section>
 
@@ -418,7 +418,7 @@ export default function AppleWatchRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Screen replacement &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Crown repair
             </p>
-            <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

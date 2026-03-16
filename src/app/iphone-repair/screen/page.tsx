@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Screen Repair Johannesburg | ZA Support',
   description:
-    'iPhone screen repair in Johannesburg. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. warranty. Hyde Park, Johannesburg.',
+    'iPhone screen repair in Johannesburg. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. 3-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/screen' },
   keywords: [
     'iPhone screen repair Johannesburg',
@@ -41,17 +41,17 @@ const symptoms = [
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Cracked or Shattered OLED',
-    desc: 'A single drop shatters the glass and often cracks the OLED panel beneath. Even a hairline crack spreads under daily pressure — early repair prevents further damage and dark spots forming.',
+    desc: 'A single drop shatters the glass and often cracks the OLED panel beneath. Even a hairline crack spreads under daily pressure, early repair prevents further damage and dark spots forming.',
   },
   {
     icon: <Monitor className="w-5 h-5" />,
     title: 'Touch Not Responding',
-    desc: 'Part of the screen stops registering touch, or the digitiser becomes entirely unresponsive. The touch layer is bonded to the OLED — replacement of the full assembly resolves this.',
+    desc: 'Part of the screen stops registering touch, or the digitiser becomes entirely unresponsive. The touch layer is bonded to the OLED, replacement of the full assembly resolves this.',
   },
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Dead Pixels or Dark Blotches',
-    desc: 'Permanent dark patches or spreading black blotches are signs of OLED cell failure. This is common after a drop — the impact stresses the display internally without always cracking the glass.',
+    desc: 'Permanent dark patches or spreading black blotches are signs of OLED cell failure. This is common after a drop, the impact stresses the display internally without always cracking the glass.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
@@ -66,12 +66,12 @@ const symptoms = [
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Green Line Down the Side',
-    desc: 'A thin green line running vertically down the display is a known OLED failure mode — sometimes triggered by a drop, sometimes spontaneous. Screen replacement resolves it.',
+    desc: 'A thin green line running vertically down the display is a known OLED failure mode, sometimes triggered by a drop, sometimes spontaneous. Screen replacement resolves it.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Ghost Touch (Screen Taps Itself)',
-    desc: 'Your iPhone appears to swipe and tap on its own. This is a digitiser fault — often caused by a cracked panel creating phantom capacitive signals. Replacement stops it completely.',
+    desc: 'Your iPhone appears to swipe and tap on its own. This is a digitiser fault, often caused by a cracked panel creating phantom capacitive signals. Replacement stops it completely.',
   },
   {
     icon: <Monitor className="w-5 h-5" />,
@@ -81,23 +81,23 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Free Assessment', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote — no surprises, no obligation.' },
+  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote, no surprises, no obligation.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct OLED assembly is in stock for your exact model before committing to a repair date. Same-day is available for most models.' },
   { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the OLED display assembly. iPhone screen repairs typically take 60–90 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy, Face ID, True Tone, brightness, and colour uniformity across the full panel before returning your device.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a written warranty on the replacement screen and our labour. No Fix No Fee applies — you pay nothing if we cannot fix it.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a written warranty on the replacement screen and our labour. Assessment: R899 ex VAT applies, assessment fee of R899 ex VAT applies if we cannot fix it.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPhone screen repair cost in Johannesburg?',
     answer:
-      'The exact price depends on your model and generation. We provide a free assessment and written fixed-price quote before starting — no surprises.',
+      'The exact price depends on your model and generation. We provide a assessment fee (R899 ex VAT) and written fixed-price quote before starting, no surprises.',
   },
   {
     question: 'Will Face ID still work after iPhone screen repair?',
     answer:
-      'Yes — if done correctly. We carefully preserve the TrueDepth camera module and Face ID sensor during screen replacement. Face ID, True Tone, and Haptic Touch all function normally after our repairs. We test every function before you collect your iPhone.',
+      'Yes, if done correctly. We carefully preserve the TrueDepth camera module and Face ID sensor during screen replacement. Face ID, True Tone, and Haptic Touch all function normally after our repairs. We test every function before you collect your iPhone.',
   },
   {
     question: 'How long does iPhone screen replacement take?',
@@ -107,15 +107,15 @@ const faqs = [
   {
     question: 'Do you use genuine Apple screens?',
     answer:
-      'We use OEM-quality OLED assemblies that preserve True Tone calibration, ProMotion (120 Hz on Pro models), and Face ID functionality. Genuine Apple screens are available on request at a higher price point — ask us when you book.',
+      'We use OEM-quality OLED assemblies that preserve True Tone calibration, ProMotion (120 Hz on Pro models), and Face ID functionality. Genuine Apple screens are available on request at a higher price point, ask us when you book.',
   },
   {
     question: 'Is it worth repairing a cracked iPhone screen?',
     answer:
-      'In almost every case, yes. Screen repair is a fraction of the cost of a new device. We give you an honest assessment — if repair is not economical, we will tell you.',
+      'In almost every case, yes. Screen repair is a fraction of the cost of a new device. We give you an honest assessment, if repair is not economical, we will tell you.',
   },
   {
-    question: 'My iPhone screen has lines on it but is not cracked — is this a screen fault?',
+    question: 'My iPhone screen has lines on it but is not cracked, is this a screen fault?',
     answer:
       'Yes. Vertical or horizontal lines on an otherwise uncracked iPhone display typically indicate OLED panel failure or a loose display connector. Both are caused by internal stress from a drop and are resolved by screen replacement.',
   },
@@ -136,7 +136,7 @@ const reviews = [
     name: 'Tayla R.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'Dropped my iPhone 15 Pro and the screen shattered. ZA Support replaced it the same day — Face ID works perfectly and the ProMotion display is flawless. Best repair service in Joburg.',
+    text: 'Dropped my iPhone 15 Pro and the screen shattered. ZA Support replaced it the same day, Face ID works perfectly and the ProMotion display is flawless. Best repair service in Joburg.',
     date: 'February 2026',
   },
   {
@@ -150,7 +150,7 @@ const reviews = [
     name: 'Nomsa K.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, warranty, and the technician explained everything clearly. Highly recommend.',
+    text: 'Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, 3-month warranty, and the technician explained everything clearly. Highly recommend.',
     date: 'March 2026',
   },
 ];
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Screen Repair Johannesburg',
-  description: 'iPhone screen repair in Johannesburg. All models iPhone 12 through 16 Pro Max. OLED replacement, touch repair, dead pixels. warranty.',
+  description: 'iPhone screen repair in Johannesburg. All models iPhone 12 through 16 Pro Max. OLED replacement, touch repair, dead pixels. 3-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,7 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Screen Repair Johannesburg',
-  description: 'iPhone screen repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked OLED, dead touch, lines, dead pixels. warranty.',
+  description: 'iPhone screen repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked OLED, dead touch, lines, dead pixels. 3-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -224,12 +224,12 @@ export default function iPhoneScreenPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Cracked OLED, dead touch, lines, ghost touch — we repair all iPhone screen faults.
+              Cracked OLED, dead touch, lines, ghost touch, we repair all iPhone screen faults.
               iPhone 12 through 16 Pro Max. Same-day available.
-              warranty. Hyde Park, Johannesburg.
+              3-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Free assessment', 'No Fix No Fee', 'warranty', 'Face ID preserved', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment: R899 ex VAT', 'Assessment: R899 ex VAT', '3-Month Warranty', 'Face ID preserved', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -266,11 +266,11 @@ export default function iPhoneScreenPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Models We Repair — Johannesburg 2026
+            iPhone Models We Repair, Johannesburg 2026
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             All repairs include the OLED assembly, parts, and labour. We provide a written fixed-price
-            quote before starting — send us your model for an exact quote.
+            quote before starting, send us your model for an exact quote.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
             <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
@@ -288,8 +288,8 @@ export default function iPhoneScreenPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written warranty. No Fix No Fee. Face ID and True Tone preserved.
-            Free assessment — no charge if we cannot repair your device.
+            All repairs include written 3-month warranty. Assessment: R899 ex VAT. Face ID and True Tone preserved.
+            Assessment: R899 ex VAT, no charge if we cannot repair your device.
           </p>
         </div>
       </section>
@@ -302,7 +302,7 @@ export default function iPhoneScreenPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we repair daily. If you are unsure whether your
-            fault is the screen or something deeper — we diagnose first, at no cost.
+            fault is the screen or something deeper, we diagnose first, at no cost.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -336,7 +336,7 @@ export default function iPhoneScreenPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Written Warranty',
-                    desc: 'Every iPhone screen repair carries a warranty on parts and labour. If it fails, we fix it — no arguments, no charge.',
+                    desc: 'Every iPhone screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments, no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
@@ -345,13 +345,13 @@ export default function iPhoneScreenPage() {
                   },
                   {
                     icon: <Wrench className="w-5 h-5" />,
-                    title: 'No Fix No Fee',
-                    desc: 'If we cannot fix your iPhone screen, you pay nothing. We give you an honest assessment and fixed price before we start.',
+                    title: 'Assessment: R899 ex VAT',
+                    desc: 'If we cannot fix your iPhone screen, assessment fee of R899 ex VAT applies. We give you an honest assessment and fixed price before we start.',
                   },
                   {
                     icon: <CheckCircle className="w-5 h-5" />,
                     title: 'Face ID and True Tone Preserved',
-                    desc: 'We carefully transfer the TrueDepth camera module and calibration data during every screen replacement — Face ID and True Tone work normally after repair.',
+                    desc: 'We carefully transfer the TrueDepth camera module and calibration data during every screen replacement, Face ID and True Tone work normally after repair.',
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -397,7 +397,7 @@ export default function iPhoneScreenPage() {
               </div>
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
                 <p className="text-[#7A9E98] text-sm italic mb-3">
-                  &ldquo;Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, warranty.
+                  &ldquo;Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, 3-month warranty.
                   The technician explained everything clearly.&rdquo;
                 </p>
                 <div className="flex items-center gap-2">
@@ -438,7 +438,7 @@ export default function iPhoneScreenPage() {
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Screen Repair — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="iPhone Screen Repair, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -450,9 +450,9 @@ export default function iPhoneScreenPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Free diagnostic' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Free diagnostic' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Free diagnostic' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Assessment: R899 ex VAT' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: R899 ex VAT' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: R899 ex VAT' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -476,9 +476,9 @@ export default function iPhoneScreenPage() {
             >
               Cracked iPhone Screen?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee. warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
+              Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

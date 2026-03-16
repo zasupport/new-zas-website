@@ -6,7 +6,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'IT Services Johannesburg | Mac Repair, Security & Support | ZA Support',
   description:
-    'Complete IT services in Johannesburg — MacBook repair, iMac repair, data recovery, virus removal, Health Check monitoring, CyberShield security, SLA support and business IT. Hyde Park, Johannesburg. Free assessment. No Fix No Fee.',
+    'Complete IT services in Johannesburg, MacBook repair, iMac repair, data recovery, virus removal, Health Check monitoring, CyberShield security, SLA support and business IT. Hyde Park, Johannesburg. Complimentary IT assessment for new managed services clients.',
   alternates: { canonical: 'https://zasupport.com/services' },
   keywords: [
     'it services johannesburg',
@@ -26,7 +26,7 @@ const jsonLd = {
     {
       '@type': 'LocalBusiness',
       '@id': 'https://zasupport.com/#business',
-      name: 'ZA Support — Apple IT Specialists',
+      name: 'ZA Support, Apple IT Specialists',
       description:
         'IT services in Johannesburg specialising in Mac repair, managed IT, cybersecurity and health monitoring for medical practices, businesses and individuals.',
       url: 'https://zasupport.com',
@@ -72,7 +72,7 @@ const jsonLd = {
     {
       '@type': 'Service',
       '@id': 'https://zasupport.com/services#services-overview',
-      name: 'IT Services Johannesburg — ZA Support',
+      name: 'IT Services Johannesburg, ZA Support',
       provider: { '@id': 'https://zasupport.com/#business' },
       areaServed: {
         '@type': 'City',
@@ -97,15 +97,15 @@ const jsonLd = {
           name: 'Do you charge for an assessment?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'No. All assessments at ZA Support are free of charge. We inspect your device, diagnose the fault, and give you a transparent quote before any work begins.',
+            text: 'A R899 ex VAT assessment fee applies. If you proceed with the repair, this fee is absorbed into the total repair cost, you do not pay it on top. If you decline the repair after assessment, the R899 ex VAT assessment fee is payable. New managed services clients receive a complimentary IT assessment at no charge.',
           },
         },
         {
           '@type': 'Question',
-          name: 'What is the No Fix No Fee policy?',
+          name: 'What is your assessment and repair process?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'If we cannot repair your device, you pay nothing. The No Fix No Fee guarantee applies to all Mac and iPhone repairs. You will never be charged for an unsuccessful repair attempt.',
+            text: 'We charge a R899 ex VAT assessment fee to inspect and diagnose your device. We then provide a transparent written quote. If you approve and proceed with the repair, the R899 assessment fee is absorbed into the repair cost. If you decline, the assessment fee of R899 ex VAT is payable for the diagnostic work completed.',
           },
         },
         {
@@ -113,7 +113,7 @@ const jsonLd = {
           name: 'How much does MacBook repair cost in Johannesburg?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'MacBook repair costs depend on the fault. All assessments are free. Contact us for a quote — we repair logic board components that other shops replace entirely.',
+            text: 'MacBook repair costs depend on the fault. An assessment fee of R899 ex VAT applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a 3-month warranty.',
           },
         },
         {
@@ -145,7 +145,7 @@ const jsonLd = {
           name: 'How do I get started with ZA Support?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. We offer free assessments — bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
+            text: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Assessment fee of R899 ex VAT applies, bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
           },
         },
       ],
@@ -158,7 +158,7 @@ const services = [
     icon: Cpu,
     title: 'Logic Board Repair',
     description:
-      'Component-level microsoldering for MacBook no-power, no-display, USB-C failure, GPU faults, and liquid damage. We repair the chips other shops replace. Free diagnostic. No Fix No Fee.',
+      'Component-level microsoldering for MacBook no-power, no-display, USB-C failure, GPU faults, and liquid damage. We repair the chips other shops replace. 3-month warranty. Assessment: R899 ex VAT.',
     href: '/logic-board-repair',
     highlight: '#1 Service',
   },
@@ -166,7 +166,7 @@ const services = [
     icon: Laptop,
     title: 'MacBook Repair',
     description:
-      'Component-level repair for all MacBook models. Logic board microsoldering, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. No Fix No Fee on every job.',
+      'Component-level repair for all MacBook models. Logic board microsoldering, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. 3-month warranty on every job.',
     href: '/macbook-repair',
     highlight: null,
   },
@@ -174,7 +174,7 @@ const services = [
     icon: Wrench,
     title: 'iMac Repair',
     description:
-      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a warranty.',
+      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a 3-month warranty.',
     href: '/imac-repair',
     highlight: null,
   },
@@ -260,8 +260,8 @@ export default function ServicesPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 leading-relaxed">
-              Mac repair, cybersecurity, managed IT and device monitoring — all from one specialist team in
-              Hyde Park. Free assessment on every device. No Fix No Fee on all repairs. warranty as standard.
+              Mac repair, cybersecurity, managed IT and device monitoring, all from one specialist team in
+              Hyde Park. New managed services clients receive a complimentary IT assessment. Warranty on all repairs as standard.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -288,9 +288,9 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {[
-              ['Free Assessment', 'Every device, no obligation'],
-              ['No Fix No Fee', 'All repairs guaranteed'],
-              ['Warranty', 'On all parts and labour'],
+              ['Complimentary IT Assessment', 'For new managed services clients'],
+              ['Assessment Process', 'Transparent R899 ex VAT fee'],
+              ['3-Month Warranty', 'On all parts and labour'],
               ['4.9 / 5 Rating', '120+ client reviews'],
             ].map(([heading, sub]) => (
               <div key={heading}>
@@ -313,7 +313,7 @@ export default function ServicesPage() {
               All Services
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl">
-              From same-day MacBook repairs to ongoing managed IT for businesses — ZA Support covers the full
+              From same-day MacBook repairs to ongoing managed IT for businesses, ZA Support covers the full
               spectrum of Apple IT services in Johannesburg.
             </p>
           </div>
@@ -365,11 +365,11 @@ export default function ServicesPage() {
                 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6"
                 style={{ fontFamily: 'Syne, sans-serif' }}
               >
-                Mac Support in Johannesburg — Done Properly
+                Mac Support in Johannesburg, Done Properly
               </h2>
               <p className="text-[#7A9E98] mb-5 leading-relaxed">
                 ZA Support is based in Hyde Park, Johannesburg and specialises exclusively in Apple IT. Every
-                engineer has hands-on experience with Mac hardware at the component level — we do not guess
+                engineer has hands-on experience with Mac hardware at the component level, we do not guess
                 and we do not swap boards unnecessarily.
               </p>
               <p className="text-[#7A9E98] mb-5 leading-relaxed">
@@ -394,12 +394,12 @@ export default function ServicesPage() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                ['Apple IT Specialists', 'Mac-only focus means deeper expertise than generalist IT companies'],
-                ['Component-Level Repair', 'Microsoldering repairs the fault — not the whole board'],
+                ['Apple IT Specialists', 'Mac-first focus means deeper expertise than generalist IT companies'],
+                ['Mac & Windows Support', 'Fully capable of managing mixed Mac and Windows environments'],
                 ['Medical IT Experts', 'POPIA + HPCSA-compliant solutions for healthcare practices'],
                 ['Proactive Monitoring', 'Health Check detects failures before they happen'],
                 ['Transparent Pricing', 'All prices published. No surprise invoices.'],
-                ['Warranty', 'On all parts and labour, no exceptions'],
+                ['3-Month Warranty', 'On all parts and labour, no exceptions'],
               ].map(([title, desc]) => (
                 <div key={title} className="glass-card p-5">
                   <p className="text-[#E8F4F1] font-bold text-sm mb-1.5" style={{ fontFamily: 'Syne, sans-serif' }}>
@@ -430,15 +430,15 @@ export default function ServicesPage() {
               },
               {
                 q: 'Do you charge for an assessment?',
-                a: 'No. All assessments at ZA Support are free. We inspect your device, diagnose the fault and provide a transparent quote before any work begins. There is no obligation to proceed.',
+                a: 'A R899 ex VAT assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee is absorbed into the repair cost, you do not pay it separately. If you decline the repair after assessment, the R899 ex VAT assessment fee is payable for the diagnostic work completed.',
               },
               {
-                q: 'What does No Fix No Fee mean?',
-                a: 'If we cannot repair your device, you pay nothing. The No Fix No Fee policy applies to all Mac and iPhone repairs. You will never be charged for an unsuccessful repair attempt.',
+                q: 'Do new managed services clients get a free assessment?',
+                a: 'Yes. New clients signing up for IT managed services receive a complimentary IT assessment at no charge. We audit your environment, identify risks, and recommend the right plan before any contract is signed.',
               },
               {
                 q: 'How much does MacBook repair cost in Johannesburg?',
-                a: 'MacBook repair costs depend on the fault. All assessments are free. Contact us for a quote — we repair logic board components that other shops replace entirely.',
+                a: 'MacBook repair costs depend on the fault. An assessment fee of R899 ex VAT applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a 3-month warranty.',
               },
               {
                 q: 'What is Health Check monitoring?',
@@ -454,7 +454,7 @@ export default function ServicesPage() {
               },
               {
                 q: 'How do I get started?',
-                a: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Free assessments are available at our Hyde Park office or we can arrange a site visit for business clients.',
+                a: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Assessment fee of R899 ex VAT applies, bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
               },
             ].map(({ q, a }) => (
               <div key={q} className="glass-card p-6">
@@ -479,10 +479,10 @@ export default function ServicesPage() {
               className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              Free Assessment — No Obligation
+              Get Started, Managed Services Assessment
             </h2>
             <p className="text-[#7A9E98] mb-3">
-              Bring your device in or send us a WhatsApp message. We assess, quote honestly, and fix it fast.
+              New managed services clients receive a complimentary IT assessment. Bring your device in or send us a WhatsApp, we quote honestly and fix it fast.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg &bull; Mon – Fri 08:00 – 18:00

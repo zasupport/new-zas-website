@@ -3,12 +3,12 @@ export const SITE = {
   alternateName: 'Apple Experts',
   tagline: 'Practice IT. Perfected.',
   url: 'https://zasupport.com',
-  foundingDate: '2012',
+  foundingDate: '2009',
   vat: '436-026-0014',
   rating: '4.9',
   reviewCount: '120+',
   repairsCount: '3,000+',
-  yearsExperience: '14',
+  yearsExperience: '16',
   googleMapsUrl: 'https://maps.google.com/?q=1+Hyde+Lane+Hyde+Park+Johannesburg',
 } as const;
 
@@ -62,10 +62,10 @@ export const NAV_LINKS = [
 
 
 export const TRUST_BADGES = [
-  { label: 'No Fix No Fee', icon: 'shield' },
-  { label: 'Warranty', icon: 'badge-check' },
+  { label: '3-Month Warranty', icon: 'shield' },
+  { label: 'Written Warranty', icon: 'badge-check' },
   { label: '72-Hour Turnaround', icon: 'clock' },
-  { label: 'Free Assessment', icon: 'search' },
+  { label: 'Assessment: R899 ex VAT', icon: 'search' },
   { label: 'Hyde Park', icon: 'map-pin' },
 ] as const;
 

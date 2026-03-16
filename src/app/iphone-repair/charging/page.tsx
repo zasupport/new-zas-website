@@ -8,9 +8,9 @@ import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINE
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iPhone Not Charging — Repair Johannesburg | ZA Support',
+  title: 'iPhone Not Charging, Repair Johannesburg | ZA Support',
   description:
-    'iPhone not charging? Lightning and USB-C port repair in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. warranty. Hyde Park.',
+    'iPhone not charging? Lightning and USB-C port repair in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. 3-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/charging' },
   keywords: [
     'iPhone not charging Johannesburg',
@@ -26,10 +26,10 @@ export const metadata: Metadata = {
 
 const pricingRows = [
   { model: 'Lint/Debris Clean (no parts)', note: 'Often resolves the fault' },
-  { model: 'Lightning Port — iPhone 12/13', note: '' },
-  { model: 'Lightning Port — iPhone 14', note: '' },
-  { model: 'USB-C Port — iPhone 15/16', note: '' },
-  { model: 'USB-C Port Pro — iPhone 15/16 Pro', note: '' },
+  { model: 'Lightning Port, iPhone 12/13', note: '' },
+  { model: 'Lightning Port, iPhone 14', note: '' },
+  { model: 'USB-C Port, iPhone 15/16', note: '' },
+  { model: 'USB-C Port Pro, iPhone 15/16 Pro', note: '' },
   { model: 'Charging Board Replacement', note: 'If flex cable failed' },
   { model: 'Liquid-Damaged Port', note: 'Corrosion cleaning + port' },
 ];
@@ -38,17 +38,17 @@ const symptoms = [
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'iPhone Not Charging At All',
-    desc: 'You plug in the cable and nothing happens — no charging indicator, no sound. Before replacing the port we rule out the cable, adapter, and battery. The fix is often simpler than expected.',
+    desc: 'You plug in the cable and nothing happens, no charging indicator, no sound. Before replacing the port we rule out the cable, adapter, and battery. The fix is often simpler than expected.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
     title: 'Cable Falls Out of Port',
-    desc: 'The Lightning or USB-C connector no longer seats firmly and falls out with the slightest movement. The port retaining clips have worn or broken — a port replacement resolves this permanently.',
+    desc: 'The Lightning or USB-C connector no longer seats firmly and falls out with the slightest movement. The port retaining clips have worn or broken, a port replacement resolves this permanently.',
   },
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Charging Only When Angled',
-    desc: 'The iPhone only charges when the cable is held at a specific angle. This indicates bent or corroded port pins. A port replacement is required — the fault will worsen without repair.',
+    desc: 'The iPhone only charges when the cable is held at a specific angle. This indicates bent or corroded port pins. A port replacement is required, the fault will worsen without repair.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
@@ -58,7 +58,7 @@ const symptoms = [
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Lint in Port',
-    desc: 'Pocket lint compacts into the port over time, preventing the cable from seating properly. This is often mistaken for a broken port. We remove the lint safely — no parts required, low cost.',
+    desc: 'Pocket lint compacts into the port over time, preventing the cable from seating properly. This is often mistaken for a broken port. We remove the lint safely, no parts required, low cost.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
@@ -68,7 +68,7 @@ const symptoms = [
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Port Corroded After Liquid',
-    desc: 'If your iPhone was exposed to water or moisture, the charging port is often the first component to corrode. Corrosion can spread — early cleaning and port replacement prevents further damage.',
+    desc: 'If your iPhone was exposed to water or moisture, the charging port is often the first component to corrode. Corrosion can spread, early cleaning and port replacement prevents further damage.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
@@ -78,28 +78,28 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Free Assessment', desc: 'Bring your iPhone in or WhatsApp us. We first test your cable and adapter — if those are the problem, there is no charge. Then we inspect the port.' },
+  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPhone in or WhatsApp us. We first test your cable and adapter, if those are the problem, there is no charge. Then we inspect the port.' },
   { step: '2', title: 'Root Cause Found', desc: 'We determine whether the fault is lint blockage, port damage, a charging flex cable, or a broader liquid damage issue. You get a written fixed-price quote.' },
   { step: '3', title: 'Port Repaired', desc: 'A certified technician cleans or replaces the charging port. Port replacement takes approximately 60 minutes. Lint cleaning takes under 30 minutes.' },
   { step: '4', title: 'Charging Verified', desc: 'We verify fast charging works at the correct wattage, test data sync via cable, and confirm CarPlay connectivity if applicable.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a written warranty on the repair and our labour. No Fix No Fee — you pay nothing if we cannot resolve the fault.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a written warranty on the repair and our labour. Assessment: R899 ex VAT, assessment fee of R899 ex VAT applies if we cannot resolve the fault.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPhone charging port repair cost in Johannesburg?',
     answer:
-      'We provide a free assessment and fixed-price quote before any work. The cost depends on whether it is a simple lint clean, port replacement, or corrosion repair.',
+      'We provide a assessment fee (R899 ex VAT) and fixed-price quote before any work. The cost depends on whether it is a simple lint clean, port replacement, or corrosion repair.',
   },
   {
-    question: 'My iPhone stopped charging — is it definitely the port?',
+    question: 'My iPhone stopped charging, is it definitely the port?',
     answer:
       'Not necessarily. The most common cause is actually a blocked port (lint) or a faulty cable or adapter. We always check the cable, adapter, and battery first before diagnosing the port. If it is lint, we clean it for a fraction of the cost of a port replacement.',
   },
   {
     question: 'How long does iPhone charging port repair take?',
     answer:
-      'A lint cleaning takes 15–30 minutes. A port replacement typically takes 60 minutes. We confirm parts availability and turnaround time when you contact us — same-day service is available for most models.',
+      'A lint cleaning takes 15–30 minutes. A port replacement typically takes 60 minutes. We confirm parts availability and turnaround time when you contact us, same-day service is available for most models.',
   },
   {
     question: 'Can you repair a Lightning port on older iPhones?',
@@ -107,9 +107,9 @@ const faqs = [
       'Yes. We repair Lightning ports on all iPhone models that use Lightning (iPhone 8 through iPhone 14). For USB-C models (iPhone 15 and later), we repair those as well. We stock charging ports for all current iPhone generations.',
   },
   {
-    question: 'My iPhone 15 uses USB-C — can you repair that port?',
+    question: 'My iPhone 15 uses USB-C, can you repair that port?',
     answer:
-      'Yes. We repair USB-C charging ports on iPhone 15, 15 Plus, 15 Pro, 15 Pro Max, iPhone 16, 16 Plus, 16 Pro, and 16 Pro Max. USB-C port repairs use the same process as Lightning — we confirm parts availability when you contact us.',
+      'Yes. We repair USB-C charging ports on iPhone 15, 15 Plus, 15 Pro, 15 Pro Max, iPhone 16, 16 Plus, 16 Pro, and 16 Pro Max. USB-C port repairs use the same process as Lightning, we confirm parts availability when you contact us.',
   },
   {
     question: 'Will charging port repair fix my CarPlay connectivity?',
@@ -133,14 +133,14 @@ const reviews = [
     name: 'Thandeka M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'My iPhone 15 Pro stopped charging completely. ZA Support cleaned out the lint in 20 minutes — no parts, no port replacement needed. Saved me a fortune. They were honest about what the problem was.',
+    text: 'My iPhone 15 Pro stopped charging completely. ZA Support cleaned out the lint in 20 minutes, no parts, no port replacement needed. Saved me a fortune. They were honest about what the problem was.',
     date: 'February 2026',
   },
   {
     name: 'Craig F.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'iPhone 14 charging port was loose and intermittent. Replaced the port in under an hour — charges perfectly and CarPlay works again. warranty. Excellent service.',
+    text: 'iPhone 14 charging port was loose and intermittent. Replaced the port in under an hour, charges perfectly and CarPlay works again. 3-month warranty. Excellent service.',
     date: 'January 2026',
   },
   {
@@ -176,7 +176,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Charging Port Repair Johannesburg',
-  description: 'iPhone charging port repair in Johannesburg. Lightning and USB-C. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion. warranty.',
+  description: 'iPhone charging port repair in Johannesburg. Lightning and USB-C. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion. 3-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -221,12 +221,12 @@ export default function iPhoneChargingPage() {
               <span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Charging port not working, cable falls out, lint blockage — we repair all iPhone charging faults.
+              Charging port not working, cable falls out, lint blockage, we repair all iPhone charging faults.
               Lightning and USB-C. iPhone 12 through 16 Pro Max.
-              Same-day available. warranty. Hyde Park, Johannesburg.
+              Same-day available. 3-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Free assessment', 'No Fix No Fee', 'warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment: R899 ex VAT', 'Assessment: R899 ex VAT', '3-Month Warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -263,7 +263,7 @@ export default function iPhoneChargingPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Charging Repair Services — Johannesburg 2026
+            iPhone Charging Repair Services, Johannesburg 2026
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             We always start with the simplest fix first. If lint is blocking the port, we clean it for a fraction
@@ -285,8 +285,8 @@ export default function iPhoneChargingPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All port repairs include written warranty. No Fix No Fee.
-            Free assessment — we test your cable and adapter first before quoting a port replacement.
+            All port repairs include written 3-month warranty. Assessment: R899 ex VAT.
+            Assessment: R899 ex VAT, we test your cable and adapter first before quoting a port replacement.
           </p>
         </div>
       </section>
@@ -333,12 +333,12 @@ export default function iPhoneChargingPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Written Warranty',
-                    desc: 'Every charging port repair carries a warranty on the replacement port and labour. If the fault returns within the warranty period, we fix it — no charge.',
+                    desc: 'Every charging port repair carries a warranty on the replacement port and labour. If the fault returns within the warranty period, we fix it, no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
-                    title: 'Diagnose First — No Guessing',
-                    desc: 'We test your cable, adapter, and battery before touching the port. Many charging faults are not the port — we find the actual cause and quote accordingly.',
+                    title: 'Diagnose First, No Guessing',
+                    desc: 'We test your cable, adapter, and battery before touching the port. Many charging faults are not the port, we find the actual cause and quote accordingly.',
                   },
                   {
                     icon: <Wrench className="w-5 h-5" />,
@@ -408,7 +408,7 @@ export default function iPhoneChargingPage() {
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Charging Repair — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="iPhone Charging Repair, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -420,9 +420,9 @@ export default function iPhoneChargingPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Free diagnostic' },
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Free diagnostic' },
-              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', label: 'Free diagnostic' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Assessment: R899 ex VAT' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: R899 ex VAT' },
+              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', label: 'Assessment: R899 ex VAT' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -446,9 +446,9 @@ export default function iPhoneChargingPage() {
             >
               iPhone Not Charging?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee. warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
+              Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -8,9 +8,9 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iPhone Repair Johannesburg — All Models, All Damage Types | ZA Support',
+  title: 'iPhone Repair Johannesburg, All Models, All Damage Types | ZA Support',
   description:
-    'iPhone repair in Johannesburg. Screen, battery, charging, liquid damage, back glass, camera. All models iPhone 6 through 16 Pro Max. No Fix No Fee. Call 064 529 5863.',
+    'iPhone repair in Johannesburg. Screen, battery, charging, liquid damage, back glass, camera. All models iPhone 6 through 16 Pro Max. Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair' },
 };
 
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     question: 'Do you use genuine Apple screens or aftermarket?',
-    answer: 'We offer both options. We can source OEM-equivalent (original quality manufacturer) displays for most iPhone models, as well as genuine Apple-pull screens where available. We will explain the options and pricing difference at your assessment — our recommended option is always the highest quality available for your model.',
+    answer: 'We offer both options. We can source OEM-equivalent (original quality manufacturer) displays for most iPhone models, as well as genuine Apple-pull screens where available. We will explain the options and pricing difference at your assessment, our recommended option is always the highest quality available for your model.',
   },
   {
     question: 'Will iPhone screen repair affect Face ID or Touch ID?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is it worth repairing an older iPhone (6, 7, 8)?',
-    answer: 'This depends on the repair type and how much you value the device. A battery replacement on an iPhone 8 is almost always worth it — it extends device life significantly for a small cost. A screen replacement on an iPhone 6 Plus may cost more than the device is worth on the secondhand market. We will give you an honest assessment.',
+    answer: 'This depends on the repair type and how much you value the device. A battery replacement on an iPhone 8 is almost always worth it, it extends device life significantly for a small cost. A screen replacement on an iPhone 6 Plus may cost more than the device is worth on the secondhand market. We will give you an honest assessment.',
   },
 ];
 
@@ -80,7 +80,7 @@ export default function iPhoneRepairPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Professional iPhone repair in Johannesburg. Screen, battery, liquid damage, charging, back glass, camera.
-              iPhone 8 through iPhone 16 Pro Max. No Fix No Fee. Hyde Park.
+              iPhone 8 through iPhone 16 Pro Max. Assessment: R899 ex VAT. Hyde Park.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -128,7 +128,7 @@ export default function iPhoneRepairPage() {
 
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="iPhone Repair, Common Questions" />
         </div>
       </section>
 
@@ -136,7 +136,7 @@ export default function iPhoneRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Damaged? We Can Fix It.</h2>
-            <p className="text-[#7A9E98] mb-6">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

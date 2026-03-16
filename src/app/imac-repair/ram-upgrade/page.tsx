@@ -17,9 +17,9 @@ const pricingRows = [
   { model: 'iMac 27" (2019–2020)', config: '16 GB → 32 GB (add 2× 8 GB)', price: 'Contact for pricing', note: 'No display removal needed' },
   { model: 'iMac 27" (2017–2020)', config: '8 GB → 32 GB (replace all)', price: 'Contact for pricing', note: 'No display removal needed' },
   { model: 'iMac 27" (2015–2020)', config: 'Upgrade to 64 GB', price: 'Contact for pricing', note: '4× 16 GB DDR4 SO-DIMMs' },
-  { model: 'iMac 27" (2017–2020)', config: 'Upgrade to 128 GB', price: 'Contact for pricing', note: '4× 32 GB — maximum config' },
+  { model: 'iMac 27" (2017–2020)', config: 'Upgrade to 128 GB', price: 'Contact for pricing', note: '4× 32 GB, maximum config' },
   { model: 'iMac 21.5" (2012–2015)', config: '8 GB → 16 GB', price: 'Contact for pricing', note: 'Requires display removal' },
-  { model: 'iMac 21.5" (2019–2020 Intel)', config: 'RAM soldered — no upgrade', price: 'N/A', note: 'Cannot be upgraded' },
+  { model: 'iMac 21.5" (2019–2020 Intel)', config: 'RAM soldered, no upgrade', price: 'N/A', note: 'Cannot be upgraded' },
 ];
 
 const symptoms = [
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'Which iMac models support a RAM upgrade?',
     answer:
-      'The iMac 27" from 2012 through 2020 (Intel) has user-accessible RAM via a panel on the back — no tools required. These models support up to 64 GB (2012–2014 DDR3) or 128 GB (2015–2020 DDR4). The iMac 21.5" models from 2012–2015 can be upgraded but require full display removal (panel is not accessible from outside). The iMac 21.5" 2019 and 2020 (Intel) and all iMac M1, M3, and M4 models have RAM soldered to the logic board — no upgrade is possible.',
+      'The iMac 27" from 2012 through 2020 (Intel) has user-accessible RAM via a panel on the back, no tools required. These models support up to 64 GB (2012–2014 DDR3) or 128 GB (2015–2020 DDR4). The iMac 21.5" models from 2012–2015 can be upgraded but require full display removal (panel is not accessible from outside). The iMac 21.5" 2019 and 2020 (Intel) and all iMac M1, M3, and M4 models have RAM soldered to the logic board, no upgrade is possible.',
   },
   {
     question: 'How much RAM does my iMac actually need?',
@@ -53,17 +53,17 @@ const faqs = [
   {
     question: 'Does the iMac 27" RAM upgrade require opening the display?',
     answer:
-      'No. The iMac 27" has a RAM access panel on the back of the stand — a small door with a spring-loaded button. The RAM slots are accessed through this panel without any display removal or special tools. This makes 27" RAM upgrades fast, low-risk, and straightforward.',
+      'No. The iMac 27" has a RAM access panel on the back of the stand, a small door with a spring-loaded button. The RAM slots are accessed through this panel without any display removal or special tools. This makes 27" RAM upgrades fast, low-risk, and straightforward.',
   },
   {
     question: 'What type of RAM does my iMac use?',
     answer:
-      'iMac 27" 2012–2014 models use DDR3 SO-DIMMs (1600 MHz). The 2015–2019 models use DDR4 SO-DIMMs (2133–2666 MHz). The 2020 model uses DDR4 (2666 MHz). The number of slots is always 4, arranged in pairs — for best performance, install RAM in matched pairs (2 sticks of equal size). We source compatible, tested modules for your specific model.',
+      'iMac 27" 2012–2014 models use DDR3 SO-DIMMs (1600 MHz). The 2015–2019 models use DDR4 SO-DIMMs (2133–2666 MHz). The 2020 model uses DDR4 (2666 MHz). The number of slots is always 4, arranged in pairs, for best performance, install RAM in matched pairs (2 sticks of equal size). We source compatible, tested modules for your specific model.',
   },
   {
     question: 'Can I add RAM to my existing sticks or must I replace them all?',
     answer:
-      'It depends on what slots are already populated. If your iMac came with 2 sticks in 2 of the 4 slots, you can add 2 more sticks into the empty slots — provided they match the speed and are the same size as the existing ones. If all 4 slots are already filled (common in factory 8 GB and 16 GB configs), you will need to replace all 4 sticks with larger ones. We check your current configuration before ordering anything.',
+      'It depends on what slots are already populated. If your iMac came with 2 sticks in 2 of the 4 slots, you can add 2 more sticks into the empty slots, provided they match the speed and are the same size as the existing ones. If all 4 slots are already filled (common in factory 8 GB and 16 GB configs), you will need to replace all 4 sticks with larger ones. We check your current configuration before ordering anything.',
   },
   {
     question: 'How long does a RAM upgrade take?',
@@ -145,7 +145,7 @@ export default function IMacRAMUpgradePage() {
             <div>
               <p className="font-bold text-slate-900 text-lg">iMac 21.5" 2012–2015</p>
               <p className="text-amber-700 text-sm font-medium">Display removal required</p>
-              <p className="text-slate-500 text-xs mt-1">Up to 16 GB — check model first</p>
+              <p className="text-slate-500 text-xs mt-1">Up to 16 GB, check model first</p>
             </div>
             <div className="hidden sm:block w-px bg-green-200" />
             <div>
@@ -206,7 +206,7 @@ export default function IMacRAMUpgradePage() {
       {/* Pricing */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac RAM Upgrade — Configurations</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac RAM Upgrade, Configurations</h2>
           <p className="text-slate-500 text-center mb-8">Includes RAM modules and installation. Contact us for a quote. No hidden fees.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
@@ -244,7 +244,7 @@ export default function IMacRAMUpgradePage() {
             {[
               { step: '1', title: 'Bring in your iMac', desc: 'We check Activity Monitor, confirm your current RAM, and identify the maximum supported configuration for your model. Fixed quote before we proceed.' },
               { step: '2', title: 'Compatible modules sourced', desc: 'We source matched-pair DDR3 or DDR4 SO-DIMMs rated for your specific iMac. The wrong speed or pairing reduces performance even if it fits.' },
-              { step: '3', title: 'RAM installed (27" — no display removal)', desc: 'On 27" models, the rear RAM panel opens in seconds. Sticks slide in, panel closes. No adhesive, no display removal, no risk to the screen.' },
+              { step: '3', title: 'RAM installed (27", no display removal)', desc: 'On 27" models, the rear RAM panel opens in seconds. Sticks slide in, panel closes. No adhesive, no display removal, no risk to the screen.' },
               { step: '4', title: 'macOS verified', desc: 'We boot into About This Mac, confirm the new RAM total, run a quick memory test, and check Activity Monitor to confirm pressure has dropped.' },
               { step: '5', title: 'Ready same day', desc: 'Most 27" upgrades are complete within an hour. Call ahead and we can often complete it while you wait.' },
             ].map((item) => (
@@ -270,7 +270,7 @@ export default function IMacRAMUpgradePage() {
             {[
               { step: '1', text: 'Open Activity Monitor (Applications → Utilities)' },
               { step: '2', text: 'Click the Memory tab at the top' },
-              { step: '3', text: 'Look at "Memory Pressure" (bottom left) — green = fine, yellow/red = upgrade needed' },
+              { step: '3', text: 'Look at "Memory Pressure" (bottom left), green = fine, yellow/red = upgrade needed' },
             ].map((item) => (
               <div key={item.step} className="bg-white rounded-xl p-4 border border-slate-200">
                 <div className="w-7 h-7 bg-green-500 text-white rounded-full flex items-center justify-center text-sm font-bold mb-3">
@@ -281,7 +281,7 @@ export default function IMacRAMUpgradePage() {
             ))}
           </div>
           <p className="text-slate-500 text-sm mt-4">
-            Also check "Swap Used" — if this number is anything other than zero, your Mac is using the much-slower SSD as overflow memory. RAM pressure relief is immediate after an upgrade.
+            Also check "Swap Used", if this number is anything other than zero, your Mac is using the much-slower SSD as overflow memory. RAM pressure relief is immediate after an upgrade.
           </p>
         </div>
       </section>
@@ -301,7 +301,7 @@ export default function IMacRAMUpgradePage() {
             <h3 className="font-bold text-slate-900 mb-1">Bundle with an SSD upgrade?</h3>
             <p className="text-slate-600 text-sm">
               For iMac 27" Intel models, combining the RAM upgrade with an SSD replacement gives you the full performance transformation in one visit.
-              SSD + 32 GB RAM — same service visit, no extra charge for opening. Contact us for a quote.
+              SSD + 32 GB RAM, same service visit, no extra charge for opening. Contact us for a quote.
             </p>
           </div>
           <Link
@@ -319,7 +319,7 @@ export default function IMacRAMUpgradePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book Your iMac RAM Upgrade</h2>
           <p className="text-slate-300 mb-8">
-            Free assessment. Fixed quote. Same-day turnaround on iMac 27" models.
+            Assessment: R899 ex VAT. Fixed quote. Same-day turnaround on iMac 27" models.
             Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

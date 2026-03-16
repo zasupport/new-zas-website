@@ -14,17 +14,17 @@ export const metadata: Metadata = {
 
 const faqs = [
   { question: 'What is JAMF MDM?', answer: 'JAMF is the leading Mobile Device Management (MDM) platform for Apple devices. It allows IT administrators to enroll, configure, secure, and manage iPhones, iPads, and Macs centrally. JAMF Pro is for large enterprises; JAMF Now is for smaller businesses with up to 75 devices.' },
-  { question: 'Who should use JAMF MDM?', answer: 'Any organisation with 5 or more Apple devices benefits from MDM. Medical practices with patient data obligations under POPIA, schools with student iPads, businesses deploying Macs — all benefit from central device management, policy enforcement, and remote wipe capability.' },
-  { question: 'What is the difference between JAMF Pro and JAMF Now?', answer: 'JAMF Now is a simpler, web-based MDM ideal for small businesses up to 75 devices. JAMF Pro is the enterprise platform with full scripting, smart groups, policies, and integration with Active Directory and Azure AD. We implement and manage both — we will recommend the right tier for your organisation.' },
-  { question: 'Can JAMF MDM help with POPIA compliance?', answer: 'Yes. JAMF enables remote wipe of lost or stolen devices, enforces encryption (FileVault on Mac, built-in on iOS), requires strong passcodes, and provides an audit trail of device configurations — all relevant to POPIA compliance requirements for personal and patient data protection.' },
-  { question: 'Do we need to be physically present to enroll devices?', answer: 'No. Using Apple Business Manager and Automated Device Enrollment (ADE), new Apple devices can be enrolled, configured, and deployed automatically without physical access — the device configures itself on first boot.' },
+  { question: 'Who should use JAMF MDM?', answer: 'Any organisation with 5 or more Apple devices benefits from MDM. Medical practices with patient data obligations under POPIA, schools with student iPads, businesses deploying Macs, all benefit from central device management, policy enforcement, and remote wipe capability.' },
+  { question: 'What is the difference between JAMF Pro and JAMF Now?', answer: 'JAMF Now is a simpler, web-based MDM ideal for small businesses up to 75 devices. JAMF Pro is the enterprise platform with full scripting, smart groups, policies, and integration with Active Directory and Azure AD. We implement and manage both, we will recommend the right tier for your organisation.' },
+  { question: 'Can JAMF MDM help with POPIA compliance?', answer: 'Yes. JAMF enables remote wipe of lost or stolen devices, enforces encryption (FileVault on Mac, built-in on iOS), requires strong passcodes, and provides an audit trail of device configurations, all relevant to POPIA compliance requirements for personal and patient data protection.' },
+  { question: 'Do we need to be physically present to enroll devices?', answer: 'No. Using Apple Business Manager and Automated Device Enrollment (ADE), new Apple devices can be enrolled, configured, and deployed automatically without physical access, the device configures itself on first boot.' },
 ];
 
 const features = [
   { icon: Shield, title: 'Security & Compliance', desc: 'Enforce encryption, passcodes, and remote wipe. Audit-ready for POPIA compliance.' },
   { icon: Wifi, title: 'Zero-Touch Deployment', desc: 'New devices configure automatically via Apple Business Manager. No manual setup.' },
   { icon: Users, title: 'App Management', desc: 'Deploy, license, and update apps silently. No App Store logins required on managed devices.' },
-  { icon: BarChart, title: 'Inventory & Reporting', desc: 'Real-time visibility of every device — hardware, software, compliance status.' },
+  { icon: BarChart, title: 'Inventory & Reporting', desc: 'Real-time visibility of every device, hardware, software, compliance status.' },
 ];
 
 const tiers = [
@@ -92,7 +92,7 @@ export default function JamfMdmPage() {
 
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>JAMF Pro vs JAMF Now — Plans</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>JAMF Pro vs JAMF Now, Plans</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {tiers.map((tier, i) => (
               <div key={tier.name} className={`glass-card p-8 ${i === 1 ? 'border-[rgba(15,234,122,0.4)] shadow-[0_0_24px_rgba(15,234,122,0.1)]' : ''}`}>
@@ -117,7 +117,7 @@ export default function JamfMdmPage() {
 
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="JAMF MDM — Common Questions" />
+          <FAQAccordion items={faqs} title="JAMF MDM, Common Questions" />
         </div>
       </section>
 

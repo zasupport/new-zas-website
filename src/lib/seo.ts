@@ -71,7 +71,7 @@ export const LOCAL_BUSINESS_SCHEMA = {
   '@id': `${SITE.url}/#organization`,
   name: SITE.name,
   alternateName: SITE.alternateName,
-  description: 'Johannesburg\'s Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. No Fix No Fee. Warranty.',
+  description: 'Johannesburg\'s Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 3-month warranty. Assessment: R899 ex VAT.',
   telephone: CONTACT.phoneTel,
   email: CONTACT.email,
   url: SITE.url,

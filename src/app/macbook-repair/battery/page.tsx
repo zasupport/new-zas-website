@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg | ZA Support',
   description:
-    'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. warranty. Hyde Park. Call 064 529 5863.',
+    'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. 3-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/battery' },
   keywords: [
     'MacBook battery replacement Johannesburg',
@@ -30,7 +30,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Battery Replacement Johannesburg',
-  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. warranty.',
+  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. 3-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -66,7 +66,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Air Battery Replacement Johannesburg',
-          description: 'MacBook Air M1/M2/M3 and Intel battery replacement. Same-day available. warranty.',
+          description: 'MacBook Air M1/M2/M3 and Intel battery replacement. Same-day available. 3-month warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -75,7 +75,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Pro Battery Replacement Johannesburg',
-          description: 'MacBook Pro 13"/14"/16" Intel and M-series battery replacement. warranty.',
+          description: 'MacBook Pro 13"/14"/16" Intel and M-series battery replacement. 3-month warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -112,19 +112,19 @@ const signs = [
   {
     icon: <AlertTriangle className="w-5 h-5 text-[#F5A623]" />,
     title: 'Swollen battery',
-    detail: 'Trackpad feels raised, unresponsive, or pops up when pressed. The battery is pushing against the bottom case — replace immediately, this is a fire risk.',
+    detail: 'Trackpad feels raised, unresponsive, or pops up when pressed. The battery is pushing against the bottom case. Replace immediately, this is a fire risk.',
     urgent: true,
   },
   {
     icon: <Battery className="w-5 h-5 text-[#0FEA7A]" />,
     title: 'Shuts off at 40% or higher',
-    detail: 'Your MacBook powers off with plenty of battery remaining. This is classic cell degradation — the battery can no longer hold enough charge under load.',
+    detail: 'Your MacBook powers off with plenty of battery remaining. This is classic cell degradation. The battery can no longer hold enough charge under load.',
     urgent: false,
   },
   {
     icon: <Zap className="w-5 h-5 text-[#0FEA7A]" />,
     title: 'Will not charge, or stops at 80%',
-    detail: 'Charging stops early, fluctuates between percentages, or the MacBook does not charge at all. Could be the battery, charging IC, or cable — we diagnose free.',
+    detail: 'Charging stops early, fluctuates between percentages, or the MacBook does not charge at all. Could be the battery, charging IC, or cable. We diagnose free.',
     urgent: false,
   },
   {
@@ -158,17 +158,17 @@ const faqs = [
   {
     question: 'How much does MacBook battery replacement cost in Johannesburg?',
     answer:
-      'MacBook battery replacement cost depends on your model. All prices include parts, labour, and a warranty. Call us on 064 529 5863 for a model-specific quote.',
+      'MacBook battery replacement cost depends on your model. All prices include parts, labour, and a 3-month warranty. Call us on 064 529 5863 for a model-specific quote.',
   },
   {
     question: 'How long does MacBook battery replacement take?',
     answer:
-      'Most MacBook battery replacements take 2–4 hours. Intel MacBook models are generally 60–90 minutes. M-series MacBooks (M1, M2, M3) use a glued-down battery assembly and take 90–180 minutes. Same-day service is available if you drop your MacBook off in the morning — we carry stock for the most common models. Call ahead to confirm availability for your specific model.',
+      'Most MacBook battery replacements take 2–4 hours. Intel MacBook models are generally 60–90 minutes. M-series MacBooks (M1, M2, M3) use a glued-down battery assembly and take 90–180 minutes. Same-day service is available if you drop your MacBook off in the morning. Call ahead to confirm availability for your specific model.',
   },
   {
     question: 'Do you use genuine Apple batteries?',
     answer:
-      'We use high-quality OEM-equivalent battery cells that match or exceed the original Apple specifications for capacity (mAh) and cycle rating. These are not Apple-branded parts — Apple only supplies batteries through its own service channel — but they are rigorously tested and carry our own warranty on parts and labour. Battery health will show 100% in macOS after replacement.',
+      'We use high-quality OEM-equivalent battery cells that match or exceed the original Apple specifications for capacity (mAh) and cycle rating. These are not Apple-branded parts. Apple only supplies batteries through its own service channel. Our batteries are rigorously tested and carry our own warranty on parts and labour. Battery health will show 100% in macOS after replacement.',
   },
   {
     question: 'Will I lose my data during MacBook battery replacement?',
@@ -176,24 +176,24 @@ const faqs = [
       'No. Battery replacement is a hardware-only repair. We physically remove the old battery and install the new one. Your data, applications, user accounts, passwords, and macOS installation are completely untouched. We do not need to reformat or reinstall anything.',
   },
   {
-    question: 'My MacBook trackpad is popping up — is that battery swelling?',
+    question: 'My MacBook trackpad is popping up, is that battery swelling?',
     answer:
-      'Yes, almost certainly. A swollen MacBook battery expands in volume as it degrades and physically pushes against the bottom case and trackpad. This causes the trackpad to feel raised, lose click response, or pop up. A swollen battery is a safety hazard — lithium cells can rupture or ignite if punctured. Do not charge the machine, and bring it in as soon as possible. We treat swollen battery replacements as same-day priority.',
+      'Yes, almost certainly. A swollen MacBook battery expands in volume as it degrades and physically pushes against the bottom case and trackpad. This causes the trackpad to feel raised, lose click response, or pop up. A swollen battery is a safety hazard. Lithium cells can rupture or ignite if punctured. Do not charge the machine, and bring it in as soon as possible. We treat swollen battery replacements as same-day priority.',
   },
   {
     question: 'How do I check my MacBook battery health?',
     answer:
-      'There are two easy methods. Method 1 — Built-in macOS: System Settings > Battery > Battery Health (macOS Ventura and later), or hold Option, click the Apple menu, choose System Information, then select Power. You will see Maximum Capacity as a percentage of original. Method 2 — coconutBattery app (free): download coconutBattery from coconut-flavour.com. It shows your current capacity in mAh, design capacity, cycle count, age, and temperature — far more detail than the built-in tool. Below 80% maximum capacity means Apple considers the battery consumed.',
+      'There are two easy methods. Method 1, Built-in macOS: System Settings > Battery > Battery Health (macOS Ventura and later), or hold Option, click the Apple menu, choose System Information, then select Power. You will see Maximum Capacity as a percentage of original. Method 2, coconutBattery app (free): download coconutBattery from coconut-flavour.com. It shows your current capacity in mAh, design capacity, cycle count, age, and temperature, far more detail than the built-in tool. Below 80% maximum capacity means Apple considers the battery consumed.',
   },
   {
     question: 'Can you replace the battery in a MacBook Pro M1, M2, or M3?',
     answer:
-      'Yes. We replace batteries in all Apple Silicon MacBook Pro models — M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max, and the base M1/M2 13" MacBook Pro. Apple Silicon batteries are glued into the enclosure and take slightly longer than Intel models to replace, but the process is routine for us. The result is 100% battery health and a full written warranty.',
+      'Yes. We replace batteries in all Apple Silicon MacBook Pro models: M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max, and the base M1/M2 13" MacBook Pro. Apple Silicon batteries are glued into the enclosure and take slightly longer than Intel models to replace, but the process is routine for us. The result is 100% battery health and a full written 3-month warranty.',
   },
   {
     question: 'What warranty do I get on a MacBook battery replacement?',
     answer:
-      'Every MacBook battery replacement at ZA Support carries a written warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at no charge. We put this in writing — you will receive a job card with the warranty terms when you collect your MacBook.',
+      'Every MacBook battery replacement at ZA Support carries a written warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at no charge. We put this in writing. You will receive a job card with the warranty terms when you collect your MacBook.',
   },
 ];
 
@@ -202,7 +202,7 @@ const reviews = [
     name: 'Tarryn M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'My MacBook Pro was shutting off at 35% battery. ZA Support replaced it the same afternoon. They showed me the new battery health reading — 100% — before I left. The warranty was a big plus. Would not go anywhere else.',
+    text: 'My MacBook Pro was shutting off at 35% battery. ZA Support replaced it the same afternoon. They showed me the new battery health reading, 100%, before I left. The warranty was a big plus. Would not go anywhere else.',
   },
   {
     name: 'Jonathan K.',
@@ -214,7 +214,7 @@ const reviews = [
     name: 'Priya N.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Checked my battery health on coconutBattery after a friend mentioned it — 61% capacity and 890 cycles. Called ZA Support, dropped it off that morning, collected the same afternoon with 100% health. Incredibly fast and reasonably priced.',
+    text: 'Checked my battery health on coconutBattery after a friend mentioned it, 61% capacity and 890 cycles. Called ZA Support, dropped it off that morning, collected the same afternoon with 100% health. Incredibly fast and reasonably priced.',
   },
 ];
 
@@ -254,8 +254,8 @@ export default function MacBookBatteryPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              All MacBook Air and MacBook Pro models — M1, M2, M3 through to Intel. Genuine-equivalent cells,
-              written warranty, Hyde Park workshop.
+              All MacBook Air and MacBook Pro models, M1, M2, M3 through to Intel. Genuine-equivalent cells,
+              written 3-month warranty, Hyde Park workshop.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -304,7 +304,7 @@ export default function MacBookBatteryPage() {
             Signs Your MacBook Needs a New Battery
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            Recognise any of these? Book a free assessment — we diagnose before we quote.
+            Recognise any of these? Book a assessment fee (R899 ex VAT), we diagnose before we quote.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {signs.map((s) => (
@@ -336,7 +336,7 @@ export default function MacBookBatteryPage() {
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Models We Service — Johannesburg
+            MacBook Models We Service, Johannesburg
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
             warranty on every replacement. Call to confirm stock for your model and get a fixed quote.
@@ -370,7 +370,7 @@ export default function MacBookBatteryPage() {
             </div>
           </div>
           <p className="text-[#7A9E98] text-xs mt-6 text-center">
-            Exact quote confirmed after free assessment. Contact us for a fixed price on your model.
+            Exact quote confirmed after assessment fee (R899 ex VAT). Contact us for a fixed price on your model.
           </p>
         </div>
       </section>
@@ -382,7 +382,7 @@ export default function MacBookBatteryPage() {
             Understanding MacBook Battery Health
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            Every MacBook battery degrades over time. Here is what the numbers actually mean — and when to replace.
+            Every MacBook battery degrades over time. Here is what the numbers actually mean, and when to replace.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -392,7 +392,7 @@ export default function MacBookBatteryPage() {
                 What Is a Battery Cycle Count?
               </h3>
               <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">
-                One battery cycle equals using 100% of your battery capacity — not necessarily in a single charge. Using 50% today and 50% tomorrow counts as one cycle.
+                One battery cycle equals using 100% of your battery capacity, not necessarily in a single charge. Using 50% today and 50% tomorrow counts as one cycle.
               </p>
               <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">
                 Apple rates most modern MacBook batteries at 1,000 cycles before they drop below 80% capacity. Older Intel models were rated at 500–1,000 cycles.
@@ -455,7 +455,7 @@ export default function MacBookBatteryPage() {
               {
                 step: '01',
                 title: 'Bring Your MacBook In',
-                desc: 'Drop off at our Hyde Park workshop — no appointment required, though calling ahead ensures we have your battery in stock for a same-day turn. Bring the charger if possible.',
+                desc: 'Drop off at our Hyde Park workshop, no appointment required, though calling ahead ensures we have your battery in stock for a same-day turn. Bring the charger if possible.',
               },
               {
                 step: '02',
@@ -465,7 +465,7 @@ export default function MacBookBatteryPage() {
               {
                 step: '03',
                 title: 'Fixed Quote Provided',
-                desc: 'You receive a clear, fixed price for the replacement before we begin. No ambiguous ranges at this stage — the price is confirmed and agreed in writing on the job card. For M-series MacBooks with glued assemblies, we also confirm turnaround time.',
+                desc: 'You receive a clear, fixed price for the replacement before we begin. No ambiguous ranges at this stage, the price is confirmed and agreed in writing on the job card. For M-series MacBooks with glued assemblies, we also confirm turnaround time.',
               },
               {
                 step: '04',
@@ -535,7 +535,7 @@ export default function MacBookBatteryPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion
             items={faqs}
-            title="MacBook Battery Replacement — FAQs"
+            title="MacBook Battery Replacement, FAQs"
           />
         </div>
       </section>
@@ -571,9 +571,9 @@ export default function MacBookBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. warranty. Free assessment.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. 3-month warranty. Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg — drop in, no appointment needed.
+              Hyde Park, Johannesburg, drop in, no appointment needed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

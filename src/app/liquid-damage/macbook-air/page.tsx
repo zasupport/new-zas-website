@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, Assessment: R899 ex VAT, 3-month warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air' },
   keywords: [
     'MacBook Air liquid damage repair Johannesburg',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'MacBook Air corrosion repair Johannesburg',
     'water damaged MacBook Air fix Johannesburg',
     'MacBook Air rice trick alternative Johannesburg',
-    'MacBook Air liquid damage no fix no fee',
+    'MacBook Air liquid damage assessment: R899 ex VAT',
     'M1 MacBook Air water damage Johannesburg',
     'M2 MacBook Air liquid damage repair',
   ],
@@ -41,32 +41,32 @@ const faqs = [
   {
     question: 'Can a water-damaged MacBook Air be repaired?',
     answer:
-      'Yes — in the majority of cases, particularly when the device is brought in quickly. The MacBook Air has a thin chassis with no active cooling fan, which means liquid can pool differently inside compared to the Pro. Our professional board cleaning process removes corrosion before it causes permanent damage. MacBook Airs brought in within 24 hours of a spill have a very high recovery rate.',
+      'Yes, in the majority of cases, particularly when the device is brought in quickly. The MacBook Air has a thin chassis with no active cooling fan, which means liquid can pool differently inside compared to the Pro. Our professional board cleaning process removes corrosion before it causes permanent damage. MacBook Airs brought in within 24 hours of a spill have a very high recovery rate.',
   },
   {
     question: 'How much does MacBook Air liquid damage repair cost?',
     answer:
-      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. The assessment is always free — we confirm the exact cost before any work begins.',
+      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. The assessment is always free, we confirm the exact cost before any work begins.',
   },
   {
     question: 'Is the MacBook Air more susceptible to liquid damage than the MacBook Pro?',
     answer:
-      'Yes — in a few important ways. The MacBook Air has a thinner chassis, which means liquid has less distance to travel before reaching the logic board. It also has no cooling fan, so liquid that enters tends to pool on and around the logic board rather than being distributed. On M1, M2, and M3 models, the logic board is a single integrated component with unified memory — even a minor spill reaching the board is urgent. Immediate action is especially critical on Air models.',
+      'Yes, in a few important ways. The MacBook Air has a thinner chassis, which means liquid has less distance to travel before reaching the logic board. It also has no cooling fan, so liquid that enters tends to pool on and around the logic board rather than being distributed. On M1, M2, and M3 models, the logic board is a single integrated component with unified memory, even a minor spill reaching the board is urgent. Immediate action is especially critical on Air models.',
   },
   {
-    question: 'My MacBook Air was in rice for 3 days — will it work?',
+    question: 'My MacBook Air was in rice for 3 days, will it work?',
     answer:
-      'Rice does not fix corrosion and never will. Rice absorbs some surface moisture but does nothing to remove the corrosive residue that liquid leaves on PCB traces, pads, and component leads. By the time you bring it in after 3 days in rice, the corrosion has had more time to advance. Bring it to us immediately — do not put it in rice first.',
+      'Rice does not fix corrosion and never will. Rice absorbs some surface moisture but does nothing to remove the corrosive residue that liquid leaves on PCB traces, pads, and component leads. By the time you bring it in after 3 days in rice, the corrosion has had more time to advance. Bring it to us immediately, do not put it in rice first.',
   },
   {
     question: 'How long does MacBook Air liquid damage repair take?',
     answer:
-      'The assessment is completed within 24 hours. Simple repairs — keyboard replacement, minor board cleaning — are typically done within 24–48 hours. Logic board cleaning and component repair takes 48–72 hours. Complex multi-site corrosion with IC replacement takes 3–5 business days. We confirm the exact timeline before work begins.',
+      'The assessment is completed within 24 hours. Simple repairs, keyboard replacement, minor board cleaning, are typically done within 24–48 hours. Logic board cleaning and component repair takes 48–72 hours. Complex multi-site corrosion with IC replacement takes 3–5 business days. We confirm the exact timeline before work begins.',
   },
   {
     question: 'What happens if I do not repair the liquid damage?',
     answer:
-      'Corrosion continues to spread across the logic board over days and weeks — even after the MacBook Air appears dry. A machine that starts fine today may fail permanently within a week. On M-series MacBook Airs, the logic board contains both RAM and the SSD — if the board fails completely, data recovery becomes significantly more complex. Early intervention is always considerably cheaper and more effective.',
+      'Corrosion continues to spread across the logic board over days and weeks, even after the MacBook Air appears dry. A machine that starts fine today may fail permanently within a week. On M-series MacBook Airs, the logic board contains both RAM and the SSD, if the board fails completely, data recovery becomes significantly more complex. Early intervention is always considerably cheaper and more effective.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Air?',
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on MacBook Air liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a written warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our No Fix No Fee policy also applies: if we cannot repair your machine, the assessment is free and you pay nothing.',
+      'All ZA Support liquid damage repairs carry a written warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: R899 ex VAT policy also applies: if we cannot repair your machine, the assessment is free and assessment fee of R899 ex VAT applies.',
   },
 ];
 
@@ -84,7 +84,7 @@ const emergencySteps = [
   {
     step: '1',
     title: 'Power off IMMEDIATELY',
-    detail: 'Hold the power button until the screen goes completely dark. Do not wait for a normal shutdown — force power off now. Every second the MacBook Air is powered with liquid present causes more electrolytic damage to the logic board.',
+    detail: 'Hold the power button until the screen goes completely dark. Do not wait for a normal shutdown, force power off now. Every second the MacBook Air is powered with liquid present causes more electrolytic damage to the logic board.',
     urgent: true,
   },
   {
@@ -95,7 +95,7 @@ const emergencySteps = [
   },
   {
     step: '3',
-    title: 'Tilt to drain — keyboard side down',
+    title: 'Tilt to drain, keyboard side down',
     detail: 'Turn the MacBook Air upside down with the keyboard facing down. Because the Air has no fan to obstruct liquid flow, gravity will pull liquid away from the logic board more effectively than in other models. Hold this position for 2–3 minutes over a towel.',
     urgent: false,
   },
@@ -108,7 +108,7 @@ const emergencySteps = [
   {
     step: '5',
     title: 'Bring it to ZA Support within 24 hours',
-    detail: 'The single most important factor in a successful liquid damage recovery is time. Corrosion begins within minutes of liquid contact — and the MacBook Air\'s fanless design means liquid sits in contact with the board longer. Bring it in within 24 hours for the best possible outcome. Do not put it in rice.',
+    detail: 'The single most important factor in a successful liquid damage recovery is time. Corrosion begins within minutes of liquid contact, and the MacBook Air\'s fanless design means liquid sits in contact with the board longer. Bring it in within 24 hours for the best possible outcome. Do not put it in rice.',
     urgent: false,
   },
 ];
@@ -123,7 +123,7 @@ const severityTiers = [
     colour: 'green' as const,
   },
   {
-    scenario: 'Logic board corrosion — minor',
+    scenario: 'Logic board corrosion, minor',
     detail: 'Liquid reached the logic board but corrosion is localised. More urgent on MacBook Air than Pro due to the fanless design allowing liquid to pool. Ultrasonic cleaning and targeted IC repair restores full function.',
     repair: 'Professional board cleaning, IC cleaning, trace repair',
     recovery: 'Very good',
@@ -131,7 +131,7 @@ const severityTiers = [
     colour: 'yellow' as const,
   },
   {
-    scenario: 'Logic board corrosion — major',
+    scenario: 'Logic board corrosion, major',
     detail: 'Extensive corrosion across multiple board areas. On M-series MacBook Airs this is especially significant as RAM, storage, and CPU are on a single integrated component. Multiple ICs affected requiring full board cleaning plus component replacement.',
     repair: 'Full component repair, multiple IC replacements',
     recovery: 'Case dependent',
@@ -163,18 +163,18 @@ const badgeColours: Record<string, string> = {
 const repairProcess = [
   {
     step: '1',
-    title: 'Free Assessment',
+    title: 'Assessment: R899 ex VAT',
     detail: 'We open the MacBook Air, inspect under magnification, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. No charge. No obligation.',
   },
   {
     step: '2',
     title: 'Written Quote',
-    detail: 'You receive a fixed quote — not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, you pay nothing.',
+    detail: 'You receive a fixed quote, not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, assessment fee of R899 ex VAT applies.',
   },
   {
     step: '3',
     title: 'Ultrasonic Cleaning',
-    detail: 'The logic board is cleaned with a specialist PCB cleaning solution using professional equipment. This removes corrosive residue from traces, pads, and component leads — the step that rice never performs and that saves boards others would write off.',
+    detail: 'The logic board is cleaned with a specialist PCB cleaning solution using professional equipment. This removes corrosive residue from traces, pads, and component leads, the step that rice never performs and that saves boards others would write off.',
   },
   {
     step: '4',
@@ -198,7 +198,7 @@ const reviews = [
     name: 'Simone K.',
     location: 'Sandton',
     rating: 5,
-    text: 'My M2 MacBook Air took a full glass of juice. I panicked but brought it straight in. ZA Support had it assessed within hours and repaired in 2 days — works perfectly. The warranty gives me peace of mind. Cannot recommend them enough.',
+    text: 'My M2 MacBook Air took a full glass of juice. I panicked but brought it straight in. ZA Support had it assessed within hours and repaired in 2 days, works perfectly. The 3-month warranty gives me peace of mind. Cannot recommend them enough.',
     service: 'MacBook Air Liquid Damage Repair',
   },
   {
@@ -212,8 +212,8 @@ const reviews = [
     name: 'Priya N.',
     location: 'Bryanston',
     rating: 5,
-    text: 'Coffee spill on my M1 Air — screen went dark and it would not charge. ZA Support diagnosed a corroded USB-C board and minor logic board damage. Repaired in 48 hours with a written warranty. Professional service, fair pricing.',
-    service: 'MacBook Air Liquid Damage — USB-C & Board',
+    text: 'Coffee spill on my M1 Air, screen went dark and it would not charge. ZA Support diagnosed a corroded USB-C board and minor logic board damage. Repaired in 48 hours with a written 3-month warranty. Professional service, fair pricing.',
+    service: 'MacBook Air Liquid Damage, USB-C & Board',
   },
 ];
 
@@ -234,7 +234,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, warranty. M1, M2, M3 and Intel models.',
+  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, Assessment: R899 ex VAT, 3-month warranty. M1, M2, M3 and Intel models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -263,17 +263,17 @@ export default function MacBookAirLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. M1, M2, M3 and all Intel models.
-              No Fix No Fee. written warranty. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. written 3-month warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               The MacBook Air&apos;s thin, fanless design means liquid reaches the logic board faster than
-              any other Mac. Every minute matters — the sooner you bring it in, the better the outcome.
+              any other Mac. Every minute matters, the sooner you bring it in, the better the outcome.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Assessment: R899 ex VAT' },
                 { icon: Clock, label: '24–72hr Turnaround' },
-                { icon: Zap, label: 'Free Assessment' },
+                { icon: Zap, label: 'Assessment: R899 ex VAT' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
               ].map(({ icon: Icon, label }) => (
@@ -293,7 +293,7 @@ export default function MacBookAirLiquidDamagePage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
               >
-                💬 WhatsApp — Urgent Help
+                💬 WhatsApp, Urgent Help
               </a>
               <a
                 href={CONTACT.booking}
@@ -313,9 +313,9 @@ export default function MacBookAirLiquidDamagePage() {
             <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
               {[
                 { value: '500+', label: 'Liquid Damage Recoveries' },
-                { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2012' },
+                { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '★', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Written Warranty — No Exceptions' },
+                { value: 'Covered', label: 'Written Warranty, No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
@@ -333,9 +333,9 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             {[
               { stat: '500+', label: 'Liquid Damage Recoveries' },
-              { stat: 'No Fix No Fee', label: 'Pay nothing if we cannot fix it' },
+              { stat: 'Assessment: R899 ex VAT', label: 'Fee absorbed into repair cost if you proceed' },
               { stat: 'Warranty', label: 'Written. On every repair.' },
-              { stat: 'Free Assessment', label: 'Always. No obligation.' },
+              { stat: 'Assessment: R899 ex VAT', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
                 <p className="text-[#0FEA7A] text-lg font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{stat}</p>
@@ -358,7 +358,7 @@ export default function MacBookAirLiquidDamagePage() {
             </h2>
             <div className="space-y-4 text-[#7A9E98] leading-relaxed">
               <p>
-                The MacBook Air is Apple&apos;s thinnest notebook — and that thinness comes at a cost when liquid
+                The MacBook Air is Apple&apos;s thinnest notebook, and that thinness comes at a cost when liquid
                 is involved. In a MacBook Pro, the fan assembly and larger chassis create some physical separation
                 between the keyboard and the logic board. In the MacBook Air, there is almost none.
               </p>
@@ -375,9 +375,9 @@ export default function MacBookAirLiquidDamagePage() {
               </p>
               <ul className="space-y-2 pl-4">
                 {[
-                  'Thinner chassis — liquid reaches the logic board in seconds, not minutes',
-                  'No fan — liquid pools rather than distributes, increasing contact time on the board',
-                  'M-series unified logic board — CPU, RAM, and storage on one component',
+                  'Thinner chassis, liquid reaches the logic board in seconds, not minutes',
+                  'No fan, liquid pools rather than distributes, increasing contact time on the board',
+                  'M-series unified logic board, CPU, RAM, and storage on one component',
                   'Logic board replacement is significantly more expensive than component-level repair',
                 ].map((point) => (
                   <li key={point} className="flex items-start gap-2">
@@ -406,7 +406,7 @@ export default function MacBookAirLiquidDamagePage() {
           </h2>
           <p className="text-[#7A9E98] leading-relaxed mb-10">
             The actions you take in the first 30 minutes after a spill determine whether your MacBook Air
-            can be saved. Follow these steps exactly — in order — before bringing it in.
+            can be saved. Follow these steps exactly, in order, before bringing it in.
           </p>
           <div className="space-y-5">
             {emergencySteps.map((item) => (
@@ -446,17 +446,17 @@ export default function MacBookAirLiquidDamagePage() {
               className="text-2xl font-extrabold text-[#E8F4F1] mb-4"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              Why the &ldquo;Rice Trick&rdquo; Does Not Work — The Science
+              Why the &ldquo;Rice Trick&rdquo; Does Not Work, The Science
             </h2>
             <div className="space-y-4 text-[#7A9E98] leading-relaxed">
               <p>
-                The rice myth persists because it feels logical — rice absorbs moisture from food containers,
+                The rice myth persists because it feels logical, rice absorbs moisture from food containers,
                 so it should absorb moisture from electronics. The problem is that liquid damage to a MacBook Air
                 is not a moisture problem. It is a <strong className="text-[#E8F4F1]">corrosion problem</strong>.
               </p>
               <p>
                 When liquid contacts a powered logic board, electrolytic corrosion begins within minutes.
-                The liquid acts as an electrolyte — it allows current to flow between adjacent traces and pads,
+                The liquid acts as an electrolyte, it allows current to flow between adjacent traces and pads,
                 causing metallic ions to migrate from conductors onto the PCB surface. This creates conductive
                 bridges (dendrites) and eats away copper traces. On a MacBook Air, this happens faster because
                 the board is closer to the liquid source.
@@ -532,7 +532,7 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All prices are confirmed before any work begins. Our No Fix No Fee policy applies to every case —
+              All prices are confirmed before any work begins. Our Assessment: R899 ex VAT policy applies to every case —
               if we cannot repair your MacBook Air, the assessment is free and the machine is returned exactly
               as received. written warranty on all repairs.
             </p>
@@ -551,7 +551,7 @@ export default function MacBookAirLiquidDamagePage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 leading-relaxed">
             We follow a systematic, transparent process on every liquid damage case. You are kept informed
-            at every stage — and you approve the cost before we begin.
+            at every stage, and you approve the cost before we begin.
           </p>
           <div className="space-y-5">
             {repairProcess.map((item) => (
@@ -581,20 +581,20 @@ export default function MacBookAirLiquidDamagePage() {
                 MacBook Air Models We Repair
               </h2>
               <p className="text-[#7A9E98] leading-relaxed mb-6">
-                We repair all MacBook Air models for liquid damage — from the slim Intel models of 2018–2020
+                We repair all MacBook Air models for liquid damage, from the slim Intel models of 2018–2020
                 through to the current M3 in both 13&rdquo; and 15&rdquo; configurations. Our engineers know
                 the specific board layout and failure modes of every revision.
               </p>
               <div className="space-y-2.5">
                 {[
-                  'MacBook Air 13" (A1932) — 2018 Intel',
-                  'MacBook Air 13" (A1932) — 2019 Intel',
-                  'MacBook Air 13" (A2179) — 2020 Intel',
-                  'MacBook Air 13" M1 (A2337) — 2020',
-                  'MacBook Air 13" M2 (A2681) — 2022',
-                  'MacBook Air 15" M2 (A2941) — 2023',
-                  'MacBook Air 13" M3 (A3113) — 2024',
-                  'MacBook Air 15" M3 (A3114) — 2024',
+                  'MacBook Air 13" (A1932), 2018 Intel',
+                  'MacBook Air 13" (A1932), 2019 Intel',
+                  'MacBook Air 13" (A2179), 2020 Intel',
+                  'MacBook Air 13" M1 (A2337), 2020',
+                  'MacBook Air 13" M2 (A2681), 2022',
+                  'MacBook Air 15" M2 (A2941), 2023',
+                  'MacBook Air 13" M3 (A3113), 2024',
+                  'MacBook Air 15" M3 (A3114), 2024',
                 ].map((model) => (
                   <div key={model} className="flex items-center gap-3">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
@@ -671,7 +671,7 @@ export default function MacBookAirLiquidDamagePage() {
                   <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
                   <div className="flex items-center gap-1 mt-0.5">
                     <MapPin className="w-3 h-3 text-[#7A9E98]" />
-                    <p className="text-[#7A9E98] text-xs">{review.location} — {review.service}</p>
+                    <p className="text-[#7A9E98] text-xs">{review.location}, {review.service}</p>
                   </div>
                 </div>
               </div>
@@ -683,7 +683,7 @@ export default function MacBookAirLiquidDamagePage() {
       {/* FAQs */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Air Liquid Damage — FAQs" />
+          <FAQAccordion items={faqs} title="MacBook Air Liquid Damage, FAQs" />
         </div>
       </section>
 
@@ -721,7 +721,7 @@ export default function MacBookAirLiquidDamagePage() {
               MacBook Air Water Damage? Act Now.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              Every hour of delay increases corrosion and repair cost. Free assessment. No Fix No Fee.
+              Every hour of delay increases corrosion and repair cost. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
               Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

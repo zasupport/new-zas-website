@@ -9,17 +9,17 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iMac Screen Repair Johannesburg | Cracked Display Replacement | ZA Support',
   description:
-    'iMac screen repair in Johannesburg. Cracked glass, dead pixels, backlight failure, display lines — all iMac models from 2012 onwards. Professional panel replacement. Hyde Park.',
+    'iMac screen repair in Johannesburg. Cracked glass, dead pixels, backlight failure, display lines, all iMac models from 2012 onwards. Professional panel replacement. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/imac-repair/screen' },
 };
 
 const pricingRows = [
   { model: 'iMac 21.5" (2012–2014)', issue: 'Glass + LCD panel', note: 'Front glass separate from panel' },
-  { model: 'iMac 21.5" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD — full assembly' },
-  { model: 'iMac 27" (2012–2014)', issue: 'Glass + LCD panel', note: 'Glass separate — careful removal needed' },
-  { model: 'iMac 27" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD — full assembly' },
-  { model: 'iMac 27" (2020)', issue: 'Nano-texture display', note: 'Call for quote — nano-texture variant' },
-  { model: 'Backlight failure (any model)', issue: 'Backlight board or TCON', note: 'Board repair — panel may be reused' },
+  { model: 'iMac 21.5" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD, full assembly' },
+  { model: 'iMac 27" (2012–2014)', issue: 'Glass + LCD panel', note: 'Glass separate, careful removal needed' },
+  { model: 'iMac 27" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD, full assembly' },
+  { model: 'iMac 27" (2020)', issue: 'Nano-texture display', note: 'Call for quote, nano-texture variant' },
+  { model: 'Backlight failure (any model)', issue: 'Backlight board or TCON', note: 'Board repair, panel may be reused' },
 ];
 
 const symptoms = [
@@ -35,17 +35,17 @@ const faqs = [
   {
     question: 'What is the difference between the glass panel and the LCD panel?',
     answer:
-      'Older iMac models (2012–2014) have a separate front glass held in by magnets, and a separate LCD panel behind it. If only the glass is cracked (no visible damage to the image), replacing just the glass is cheaper. From 2015 onwards, Apple fused (laminated) the glass directly to the LCD — they are one unit and must be replaced together, which increases the cost.',
+      'Older iMac models (2012–2014) have a separate front glass held in by magnets, and a separate LCD panel behind it. If only the glass is cracked (no visible damage to the image), replacing just the glass is cheaper. From 2015 onwards, Apple fused (laminated) the glass directly to the LCD, they are one unit and must be replaced together, which increases the cost.',
   },
   {
-    question: 'My iMac screen is dark but I can hear it running — is that the display or the logic board?',
+    question: 'My iMac screen is dark but I can hear it running, is that the display or the logic board?',
     answer:
-      'If the machine boots and responds to keyboard commands but the screen is black, it is almost certainly the backlight. Connect an external monitor: if a desktop appears, the logic board is fine and the issue is the backlight circuit or TCON board inside the iMac — not the logic board. Backlight repairs are significantly less expensive than full panel replacements.',
+      'If the machine boots and responds to keyboard commands but the screen is black, it is almost certainly the backlight. Connect an external monitor: if a desktop appears, the logic board is fine and the issue is the backlight circuit or TCON board inside the iMac, not the logic board. Backlight repairs are significantly less expensive than full panel replacements.',
   },
   {
     question: 'Can you repair just the cracked glass on an older iMac without replacing the LCD?',
     answer:
-      'On 2012–2014 iMac models, yes — if the LCD itself is undamaged (no dead pixels, no lines, no cracks visible in the image), replacing just the front glass is possible and less expensive than a full panel replacement. We assess the LCD condition before quoting.',
+      'On 2012–2014 iMac models, yes, if the LCD itself is undamaged (no dead pixels, no lines, no cracks visible in the image), replacing just the front glass is possible and less expensive than a full panel replacement. We assess the LCD condition before quoting.',
   },
   {
     question: 'How do you open an iMac to replace the screen?',
@@ -55,12 +55,12 @@ const faqs = [
   {
     question: 'How long does an iMac screen replacement take?',
     answer:
-      'Display removal and panel replacement takes 2–3 hours. If parts are in stock, most repairs are completed same day or the following morning. We confirm parts availability before you bring the machine in.',
+      'Display removal and panel replacement takes 2–3 hours. Most repairs are completed same day or the following morning. We confirm the timeline when you bring the machine in.',
   },
   {
     question: 'What causes iMac screens to fail?',
     answer:
-      'Physical impact is the most common cause (cracked glass or LCD). Backlight failure is the second most common — the backlight LEDs or the TCON driver board fail with age, causing a dark or partially lit screen. Dead pixels and lines are typically caused by panel degradation or, on older models, a failing T-CON board which can be replaced without touching the LCD panel itself.',
+      'Physical impact is the most common cause (cracked glass or LCD). Backlight failure is the second most common, the backlight LEDs or the TCON driver board fail with age, causing a dark or partially lit screen. Dead pixels and lines are typically caused by panel degradation or, on older models, a failing T-CON board which can be replaced without touching the LCD panel itself.',
   },
 ];
 
@@ -102,9 +102,9 @@ export default function IMacScreenRepairPage() {
           </h1>
           <p className="text-xl text-slate-300 mb-4 max-w-2xl mx-auto">
             Cracked glass, dead pixels, backlight failure, display lines.
-            All iMac models from 2012 onwards. Free assessment and fixed quote.
+            All iMac models from 2012 onwards. Assessment: R899 ex VAT and fixed quote.
           </p>
-          <p className="text-2xl font-bold text-green-400 mb-8">Free assessment — contact us for a quote</p>
+          <p className="text-2xl font-bold text-green-400 mb-8">Assessment: R899 ex VAT, contact us for a quote</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
@@ -146,7 +146,7 @@ export default function IMacScreenRepairPage() {
           <div>
             <h3 className="font-bold text-slate-900 mb-1">Dark screen but machine still running?</h3>
             <p className="text-slate-600 text-sm">
-              Connect an external monitor via Thunderbolt or HDMI. If your desktop appears on the external screen, the logic board is fine — the issue is the internal backlight, not the logic board. Backlight repairs are significantly less than a full screen replacement.
+              Connect an external monitor via Thunderbolt or HDMI. If your desktop appears on the external screen, the logic board is fine, the issue is the internal backlight, not the logic board. Backlight repairs are significantly less than a full screen replacement.
             </p>
           </div>
         </div>
@@ -155,8 +155,8 @@ export default function IMacScreenRepairPage() {
       {/* Pricing */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac Screen Repair — Models &amp; Issues</h2>
-          <p className="text-slate-500 text-center mb-8">Free assessment before any commitment. Contact us for a quote.</p>
+          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac Screen Repair, Models &amp; Issues</h2>
+          <p className="text-slate-500 text-center mb-8">Assessment: R899 ex VAT before any commitment. Contact us for a quote.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
               <thead className="bg-slate-900 text-white">
@@ -221,7 +221,7 @@ export default function IMacScreenRepairPage() {
       <section className="py-12 px-4 bg-green-50 border-y border-green-100">
         <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <h3 className="font-bold text-slate-900 mb-1">While the display is open — upgrade the SSD?</h3>
+            <h3 className="font-bold text-slate-900 mb-1">While the display is open, upgrade the SSD?</h3>
             <p className="text-slate-600 text-sm">
               For most iMac models, the SSD is accessed through the same display opening. Replacing the internal drive at the same time as a screen repair adds minimal labour cost and eliminates a second service visit.
             </p>
@@ -241,7 +241,7 @@ export default function IMacScreenRepairPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book Your iMac Screen Repair</h2>
           <p className="text-slate-300 mb-8">
-            Free assessment. Fixed quote. No Fix No Fee.
+            Assessment: R899 ex VAT. Fixed quote. Assessment: R899 ex VAT.
             Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

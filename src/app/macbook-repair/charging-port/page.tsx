@@ -8,9 +8,9 @@ import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Not Charging — Repair Johannesburg | ZA Support',
+  title: 'MacBook Not Charging, Repair Johannesburg | ZA Support',
   description:
-    'MacBook not charging in Johannesburg? We diagnose and repair all charging faults — dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Free assessment. No Fix No Fee. Hyde Park.',
+    'MacBook not charging in Johannesburg? We diagnose and repair all charging faults, dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/charging-port' },
   keywords: [
     'MacBook charging port repair Johannesburg',
@@ -39,9 +39,9 @@ const causes = [
     icon: '🔌',
     title: 'Faulty USB-C / MagSafe Cable',
     description:
-      'The most common cause — and the cheapest fix. A worn, frayed, or internally broken cable looks fine but cannot deliver power. Try a different Apple-certified cable before anything else.',
+      'The most common cause, and the cheapest fix. A worn, frayed, or internally broken cable looks fine but cannot deliver power. Try a different Apple-certified cable before anything else.',
     severity: 'low',
-    cost: 'Free to check — cable replacement available',
+    cost: 'Free to check, cable replacement available',
   },
   {
     icon: '🧹',
@@ -49,15 +49,15 @@ const causes = [
     description:
       'Lint, dust, and moisture build up inside USB-C ports over time. Even a small obstruction can prevent the connector from seating fully, breaking the charging circuit. A professional clean restores full function.',
     severity: 'low',
-    cost: 'Port cleaning — contact for pricing',
+    cost: 'Port cleaning, contact for pricing',
   },
   {
     icon: '⚡',
     title: 'Dead USB-C Controller IC on Logic Board',
     description:
-      'Each USB-C port is managed by a controller IC (such as the TUSB1044 or similar mux chip). When this chip fails — often from overvoltage, liquid, or age — the port stops accepting power entirely. Component-level repair replaces only the failed IC.',
+      'Each USB-C port is managed by a controller IC (such as the TUSB1044 or similar mux chip). When this chip fails, often from overvoltage, liquid, or age, the port stops accepting power entirely. Component-level repair replaces only the failed IC.',
     severity: 'medium',
-    cost: 'Component repair — contact for pricing',
+    cost: 'Component repair, contact for pricing',
   },
   {
     icon: '🔋',
@@ -65,7 +65,7 @@ const causes = [
     description:
       'The CD3217B12 is the primary USB Power Delivery controller on most modern MacBook Pro and Air logic boards. When it fails, the machine draws no current at all even with a working cable and port. This is a logic board component repair, not a port replacement.',
     severity: 'high',
-    cost: 'Logic board repair — contact for pricing',
+    cost: 'Logic board repair, contact for pricing',
   },
   {
     icon: '🧲',
@@ -73,7 +73,7 @@ const causes = [
     description:
       'On MagSafe-equipped MacBooks (Air 2018–2021 via USB-C, and older models with MagSafe 1/2), the DC-in board is a separate component that can be replaced without touching the logic board. Bent pins, liquid damage, or a burned connector are all fixable.',
     severity: 'medium',
-    cost: 'MagSafe DC-in replacement — contact for pricing',
+    cost: 'MagSafe DC-in replacement, contact for pricing',
   },
 ];
 
@@ -84,14 +84,14 @@ const pricing = [
   { service: 'USB-C I/O board replacement (Pro 13")', note: '1–3 hours' },
   { service: 'USB-C I/O board replacement (Pro 14"/16")', note: '2–4 hours' },
   { service: 'USB-C controller IC (logic board component)', note: '2–5 days' },
-  { service: 'Charge IC (CD3217B12 — logic board)', note: '2–5 days' },
+  { service: 'Charge IC (CD3217B12, logic board)', note: '2–5 days' },
 ];
 
 const diagnosisSteps = [
   {
     step: '1',
     title: 'Cable & Charger Elimination',
-    detail: 'We test your cable and charger against known-good equipment. If the fault clears, you leave with no repair cost — just advice on a replacement cable.',
+    detail: 'We test your cable and charger against known-good equipment. If the fault clears, you leave with no repair cost, just advice on a replacement cable.',
   },
   {
     step: '2',
@@ -106,12 +106,12 @@ const diagnosisSteps = [
   {
     step: '4',
     title: 'I/O Board vs Logic Board Determination',
-    detail: 'We confirm whether the charge path fault is in the removable I/O board (cheaper fix) or on the logic board itself (component-level repair). You get a written quote at this stage — before any work begins.',
+    detail: 'We confirm whether the charge path fault is in the removable I/O board (cheaper fix) or on the logic board itself (component-level repair). You get a written quote at this stage, before any work begins.',
   },
   {
     step: '5',
     title: 'Repair and Full Charge Cycle Test',
-    detail: 'After the repair, the machine is put through a complete charge cycle test — from flat battery to 100% — before you collect. We also test all remaining ports for full functionality.',
+    detail: 'After the repair, the machine is put through a complete charge cycle test, from flat battery to 100%, before you collect. We also test all remaining ports for full functionality.',
   },
 ];
 
@@ -120,7 +120,7 @@ const symptoms = [
   'Charger connected but battery percentage not increasing',
   'MagSafe adapter light not turning on',
   'USB-C charging works on one side but not the other',
-  'Charging is intermittent — works sometimes, not reliably',
+  'Charging is intermittent, works sometimes, not reliably',
   'USB-C port physically damaged, bent, or debris-filled',
   'MacBook charges very slowly (trickle charge only)',
   'No video output through USB-C / Thunderbolt port',
@@ -130,19 +130,19 @@ const symptoms = [
 
 const faqs = [
   {
-    question: 'My MacBook won\'t charge — what should I check first?',
+    question: 'My MacBook won\'t charge, what should I check first?',
     answer:
-      'Start with the basics: try a different Apple-certified cable, try a different charger (if available), and perform an SMC reset (hold Shift+Control+Option+Power for 10 seconds on Intel models; on Apple Silicon, simply shut down and restart). If none of these resolve the issue, bring the machine in — we will diagnose the root cause for free and tell you exactly what is needed before charging you anything.',
+      'Start with the basics: try a different Apple-certified cable, try a different charger (if available), and perform an SMC reset (hold Shift+Control+Option+Power for 10 seconds on Intel models; on Apple Silicon, simply shut down and restart). If none of these resolve the issue, bring the machine in, we will diagnose the root cause for free and tell you exactly what is needed before charging you anything.',
   },
   {
     question: 'How much does MacBook charging port repair cost in Johannesburg?',
     answer:
-      'The cost depends on the root cause — from a simple port clean up to logic board component repair. We provide a free assessment so you know the exact cost before committing.',
+      'The cost depends on the root cause, from a simple port clean up to logic board component repair. We provide a assessment fee (R899 ex VAT) so you know the exact cost before committing.',
   },
   {
     question: 'How do I know if it\'s the charging port or the logic board?',
     answer:
-      'You cannot tell from symptoms alone — and neither can most repair shops without proper testing. We use a DC bench power supply to test the incoming power rail, then trace the fault to either the I/O board or the logic board. The free assessment takes 30–60 minutes and gives you a definitive answer with a written quote. Many cases that appear to be logic board faults turn out to be simple I/O board replacements.',
+      'You cannot tell from symptoms alone, and neither can most repair shops without proper testing. We use a DC bench power supply to test the incoming power rail, then trace the fault to either the I/O board or the logic board. The assessment fee (R899 ex VAT) takes 30–60 minutes and gives you a definitive answer with a written quote. Many cases that appear to be logic board faults turn out to be simple I/O board replacements.',
   },
   {
     question: 'Can you repair a broken MagSafe port?',
@@ -150,9 +150,9 @@ const faqs = [
       'Yes. On older MacBook Air and MacBook Pro models with MagSafe 1 or MagSafe 2 connectors, the DC-in board is a separate component that we replace as a unit. On newer MacBook Air models (2018–2022) that charge via USB-C but have the MagSafe 3 port added in 2022 models, the MagSafe board is also replaceable independently. Contact us for a quote.',
   },
   {
-    question: 'My USB-C port is loose — can it be fixed without replacing the whole machine?',
+    question: 'My USB-C port is loose, can it be fixed without replacing the whole machine?',
     answer:
-      'Yes. A loose USB-C port is typically caused by physical wear or the port being knocked sideways. On most MacBook models, the USB-C connector sits on a replaceable I/O board — we swap that board rather than the entire machine. If the connector has pulled traces on the logic board, we can repair those too at component level. Either way, this does not require a new machine.',
+      'Yes. A loose USB-C port is typically caused by physical wear or the port being knocked sideways. On most MacBook models, the USB-C connector sits on a replaceable I/O board, we swap that board rather than the entire machine. If the connector has pulled traces on the logic board, we can repair those too at component level. Either way, this does not require a new machine.',
   },
   {
     question: 'How long does MacBook charging port repair take?',
@@ -162,12 +162,12 @@ const faqs = [
   {
     question: 'Do I need to replace the entire logic board if the USB-C port doesn\'t work?',
     answer:
-      'Not in most cases. The majority of USB-C charging failures are caused by either: (1) a dirty or damaged port on the I/O board — which is replaced as a separate unit, or (2) a specific controller IC on the logic board — which we replace at component level. A full logic board replacement is only necessary when the damage is too extensive for component repair, and we will always tell you if that is the case before you spend anything.',
+      'Not in most cases. The majority of USB-C charging failures are caused by either: (1) a dirty or damaged port on the I/O board, which is replaced as a separate unit, or (2) a specific controller IC on the logic board, which we replace at component level. A full logic board replacement is only necessary when the damage is too extensive for component repair, and we will always tell you if that is the case before you spend anything.',
   },
   {
     question: 'What warranty do you offer on charging port repairs?',
     answer:
-      'All ZA Support charging port repairs carry a written warranty on parts and labour. If the same fault returns within the warranty period — same port, same cause — we fix it at no charge. The warranty is documented in writing when you collect your machine.',
+      'All ZA Support charging port repairs carry a written warranty on parts and labour. If the same fault returns within the warranty period, same port, same cause, we fix it at no charge. The warranty is documented in writing when you collect your machine.',
   },
 ];
 
@@ -176,13 +176,13 @@ const reviews = [
     name: 'Taryn M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'Brought my MacBook Pro in after the USB-C port stopped charging. ZA Support cleaned it out in 30 minutes — turned out to be compacted lint. I expected a big repair bill and walked out paying very little. Completely honest.',
+    text: 'Brought my MacBook Pro in after the USB-C port stopped charging. ZA Support cleaned it out in 30 minutes, turned out to be compacted lint. I expected a big repair bill and walked out paying very little. Completely honest.',
   },
   {
     name: 'David K.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'My MacBook Air MagSafe port had bent pins from a knock. They replaced the DC-in board same-day. Back to full charge. Really professional — they showed me exactly what was wrong before starting.',
+    text: 'My MacBook Air MagSafe port had bent pins from a knock. They replaced the DC-in board same-day. Back to full charge. Really professional, they showed me exactly what was wrong before starting.',
   },
   {
     name: 'Priya N.',
@@ -221,7 +221,7 @@ const aggregateRatingSchema = {
 const serviceSchemaData = buildServiceSchema({
   name: 'MacBook Charging Port Repair Johannesburg',
   description:
-    'MacBook charging port repair in Johannesburg. Diagnose and repair all MacBook not charging faults — USB-C, MagSafe, I/O board, charge IC. Free assessment. No Fix No Fee.',
+    'MacBook charging port repair in Johannesburg. Diagnose and repair all MacBook not charging faults, USB-C, MagSafe, I/O board, charge IC. Assessment: R899 ex VAT. Assessment: R899 ex VAT.',
 });
 
 const faqSchema = buildFaqSchema(faqs);
@@ -257,7 +257,7 @@ export default function MacBookChargingPortPage() {
               <span className="text-[#0FEA7A]">Johannesburg Repair</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              We find the exact cause — dirty port, faulty cable, dead I/O board, or logic board charge IC — and repair only what is needed. Free assessment. No Fix No Fee. Hyde Park, Johannesburg.
+              We find the exact cause, dirty port, faulty cable, dead I/O board, or logic board charge IC, and repair only what is needed. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -309,7 +309,7 @@ export default function MacBookChargingPortPage() {
               Why Your MacBook Won&apos;t Charge
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl mx-auto">
-              Five root causes — from cheapest to most complex. A free assessment tells you which one applies before you spend anything.
+              Five root causes, from cheapest to most complex. A assessment fee (R899 ex VAT) tells you which one applies before you spend anything.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -343,13 +343,13 @@ export default function MacBookChargingPortPage() {
                 </div>
               </div>
             ))}
-            {/* Last card — CTA */}
+            {/* Last card, CTA */}
             <div className="bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.2)] rounded-2xl p-6 flex flex-col justify-between gap-4">
               <div>
                 <AlertTriangle className="w-8 h-8 text-[#0FEA7A] mb-3" />
                 <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Not Sure Which Cause?</h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Our free assessment identifies the exact fault before you spend a rand. Most MacBook not charging cases are resolved same-day.
+                  Our assessment fee (R899 ex VAT) identifies the exact fault before you spend a rand. Most MacBook not charging cases are resolved same-day.
                 </p>
               </div>
               <a
@@ -358,7 +358,7 @@ export default function MacBookChargingPortPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-5 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all text-sm"
               >
-                Get Free Assessment <ArrowRight className="w-4 h-4" />
+                Book Assessment <ArrowRight className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -421,7 +421,7 @@ export default function MacBookChargingPortPage() {
               <div className="mt-5 bg-[rgba(255,255,255,0.03)] border border-[rgba(15,234,122,0.15)] rounded-xl p-4">
                 <p className="text-[#0FEA7A] font-semibold text-sm mb-1">Only charging on one side?</p>
                 <p className="text-[#7A9E98] text-xs leading-relaxed">
-                  Each side of a dual USB-C MacBook has its own I/O board. Single-side charging failure is almost always an I/O board replacement — not a logic board repair. Much more affordable.
+                  Each side of a dual USB-C MacBook has its own I/O board. Single-side charging failure is almost always an I/O board replacement, not a logic board repair. Much more affordable.
                 </p>
               </div>
             </div>
@@ -440,7 +440,7 @@ export default function MacBookChargingPortPage() {
               How We Find the Fault
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              A systematic five-step process that rules out cheap causes before escalating — saving you money every time.
+              A systematic five-step process that rules out cheap causes before escalating, saving you money every time.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -456,7 +456,7 @@ export default function MacBookChargingPortPage() {
                 <p className="text-[#7A9E98] text-sm leading-relaxed">{s.detail}</p>
               </div>
             ))}
-            {/* 6th card — guarantee */}
+            {/* 6th card, guarantee */}
             <div className="bg-[rgba(39,80,77,0.25)] border border-[rgba(15,234,122,0.15)] rounded-2xl p-6 flex flex-col justify-center">
               <Shield className="w-8 h-8 text-[#0FEA7A] mb-4" />
               <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Written Warranty</h3>
@@ -476,7 +476,7 @@ export default function MacBookChargingPortPage() {
               <Wrench className="w-8 h-8 text-[#0FEA7A] mx-auto mb-3" />
               <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Component-Level Repair</h3>
               <p className="text-[#7A9E98] text-sm">
-                We replace the specific failed component — not the entire logic board. Apple charges significantly more. We charge a fraction.
+                We replace the specific failed component, not the entire logic board. Apple charges significantly more. We charge a fraction.
               </p>
             </div>
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 text-center">
@@ -488,9 +488,9 @@ export default function MacBookChargingPortPage() {
             </div>
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 text-center">
               <Shield className="w-8 h-8 text-[#0FEA7A] mx-auto mb-3" />
-              <h3 className="text-[#E8F4F1] font-bold text-base mb-2">No Fix No Fee</h3>
+              <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Assessment: R899 ex VAT</h3>
               <p className="text-[#7A9E98] text-sm">
-                If we cannot repair the fault, you pay nothing. The free diagnostic is unconditional — no obligation, no catch.
+                If we cannot repair the fault, assessment fee of R899 ex VAT applies. The assessment is unconditional, no obligation, no catch.
               </p>
             </div>
           </div>
@@ -548,7 +548,7 @@ export default function MacBookChargingPortPage() {
       {/* ── FAQs ── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Not Charging — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="MacBook Not Charging, Frequently Asked Questions" />
         </div>
       </section>
 
@@ -585,9 +585,9 @@ export default function MacBookChargingPortPage() {
               MacBook Not Charging?
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Free assessment. No Fix No Fee. warranty.
+              Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.
             </p>
-            <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg — or we collect from you.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg, or we collect from you.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={whatsappUrl}

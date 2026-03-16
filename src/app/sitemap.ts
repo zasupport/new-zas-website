@@ -100,7 +100,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // iPad repair — additional sub-page
     { url: `${base}/ipad-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
-    // No Fix No Fee — zero-competition SEO keyword
+    // Assessment Process — transparent pricing page
     { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
 
     // Core pages
