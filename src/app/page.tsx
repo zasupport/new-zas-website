@@ -7,7 +7,8 @@ import {
 } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, AGGREGATE_RATING } from '@/lib/schema';
-import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
+import { CONTACT, SITE } from '@/lib/constants';
+import GoogleReviews from '@/components/ui/GoogleReviews';
 
 export const metadata: Metadata = {
   title: 'Mac Repair Johannesburg, Logic Board Specialists',
@@ -362,48 +363,17 @@ export default function HomePage() {
       </section>
 
       {/* Google Reviews */}
-      <section className="py-24 bg-[#0A1A18]">
+      <section className="py-12 sm:py-24 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <div className="flex items-center justify-center gap-1 mb-3">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <Star key={i} className="w-6 h-6 fill-[#0FEA7A] text-[#0FEA7A]" />
-              ))}
-            </div>
             <h2
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
-             
             >
               {SITE.rating} on Google
             </h2>
             <p className="text-[#7A9E98] text-lg">{SITE.reviewCount} verified reviews from Johannesburg clients</p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {REVIEWS.map((review) => (
-              <div
-                key={review.name}
-                className="p-6 rounded-2xl bg-[rgba(22,34,32,0.6)] border border-[rgba(15,234,122,0.12)] hover:border-[rgba(15,234,122,0.25)] transition-all"
-              >
-                <div className="flex items-center gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                  <span className="ml-2 text-xs text-[#7A9E98] font-medium">{review.service}</span>
-                </div>
-                <p className="text-[#E8F4F1] text-sm leading-relaxed mb-4 italic">
-                  &ldquo;{review.text}&rdquo;
-                </p>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-[rgba(15,234,122,0.15)] rounded-full flex items-center justify-center text-[#0FEA7A] font-bold text-sm">
-                    {review.name[0]}
-                  </div>
-                  <span className="text-[#E8F4F1] font-semibold text-sm">{review.name}</span>
-                  <span className="ml-auto text-xs text-[#7A9E98]">Google Review</span>
-                </div>
-              </div>
-            ))}
-          </div>
+          <GoogleReviews maxReviews={4} />
         </div>
       </section>
 

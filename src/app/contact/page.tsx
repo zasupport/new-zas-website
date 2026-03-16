@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
 import { CONTACT, SITE } from '@/lib/constants';
 import SchemaOrg from '@/components/seo/SchemaOrg';
+import GoogleMap from '@/components/ui/GoogleMap';
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
@@ -280,6 +281,9 @@ export default function ContactPage() {
                 >
                   Get Directions on Google Maps &rarr;
                 </a>
+                <div className="mt-4">
+                  <GoogleMap height="300px" />
+                </div>
               </div>
 
               <div className="glass-card p-6">
