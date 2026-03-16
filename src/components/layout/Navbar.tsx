@@ -2,12 +2,14 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Phone, Menu, X, Zap, Calendar } from 'lucide-react';
-import { CONTACT, NAV_LINKS } from '@/lib/constants';
+import { Phone, Menu, X, Calendar } from 'lucide-react';
+import { NAV_LINKS } from '@/lib/constants';
+import Logo, { useLogoVariant } from './Logo';
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const logoVariant = useLogoVariant();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -35,15 +37,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 bg-[#0FEA7A] rounded-lg flex items-center justify-center group-hover:shadow-[0_0_16px_rgba(15,234,122,0.5)] transition-all">
-              <Zap className="w-5 h-5 text-[#0A1A18]" />
-            </div>
-            <span className="font-bold text-xl text-[#E8F4F1] tracking-tight">
-              ZA Support
-              <span className="text-[#0FEA7A]">.</span>
-            </span>
-          </Link>
+          <Logo />
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-1">
@@ -61,14 +55,14 @@ export default function Navbar() {
           {/* Desktop Phone CTA */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href={`tel:${CONTACT.phoneTel}`}
+              href={`tel:${logoVariant.tel}`}
               className="flex items-center gap-2 text-[#E8F4F1] hover:text-[#0FEA7A] transition-colors text-sm font-medium"
             >
               <Phone className="w-4 h-4 text-[#0FEA7A]" />
-              {CONTACT.phone}
+              {logoVariant.phone}
             </a>
             <a
-              href={CONTACT.whatsappLogicBoard}
+              href={`https://wa.me/${logoVariant.tel.replace('+', '')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#0FEA7A] text-[#0A1A18] px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_20px_rgba(15,234,122,0.4)] transition-all"
@@ -111,7 +105,7 @@ export default function Navbar() {
             ))}
             <div className="mt-6 flex flex-col gap-3">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={`https://wa.me/${logoVariant.tel.replace('+', '')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[#0FEA7A]/90 transition-all"
@@ -127,11 +121,11 @@ export default function Navbar() {
                 Book a Repair
               </Link>
               <a
-                href={`tel:${CONTACT.phoneTel}`}
+                href={`tel:${logoVariant.tel}`}
                 className="flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#7A9E98] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
                 <Phone className="w-5 h-5" />
-                Call {CONTACT.phone}
+                Call {logoVariant.phone}
               </a>
               <p className="text-center text-[#7A9E98] text-sm">
                 Mon–Fri 08:00–17:30 | Sat 09:00–13:00
