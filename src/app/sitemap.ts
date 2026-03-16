@@ -26,6 +26,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/imac-repair/ram-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/imac-repair/ssd-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
+    // MacBook Pro repair sub-pages
+    { url: `${base}/macbook-pro-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/macbook-pro-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/macbook-pro-repair/keyboard`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+
     // Battery replacement (top-level)
     { url: `${base}/battery-replacement`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
