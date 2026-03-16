@@ -149,7 +149,7 @@ export default function LogicBoardRepairMidrandPage() {
               Midrand has grown into one of Gauteng&apos;s most significant technology and business nodes — from the Waterfall City development to the Kyalami area and the commercial parks along the N1. The area hosts a large population of tech workers, remote professionals, and SME business owners, many of whom rely on MacBooks as their primary work machine.
             </p>
             <p>
-              When a logic board fault strikes, the challenge for Midrand residents is finding a repair service with genuine component-level capability rather than one that simply swaps the entire board and charges accordingly. ZA Support&apos;s Hyde Park workshop is equipped for microsoldering — we identify the specific failed component, repair it under a stereo microscope, and return your original board to service. The cost saving over board replacement is typically 60–80%.
+              When a logic board fault strikes, the challenge for Midrand residents is finding a repair service with genuine component-level capability rather than one that simply swaps the entire board and charges accordingly. ZA Support&apos;s Hyde Park workshop is equipped for microsoldering — we identify the specific failed component, repair it using professional equipment, and return your original board to service. The cost saving over board replacement is typically 60–80%.
             </p>
             <p>
               We offer a full collection and return service for Midrand clients. The drive from central Midrand to Hyde Park via the N1 is approximately 25–35 minutes. We coordinate collection times to suit your schedule and provide you with a free diagnostic report and written quote before any repair is authorised.
@@ -189,7 +189,7 @@ export default function LogicBoardRepairMidrandPage() {
               { step: '01', title: 'Arrange Collection from Midrand', desc: 'Contact us via WhatsApp or phone. We agree a collection window at your home, office, or business park in Midrand.' },
               { step: '02', title: 'Board-Level Diagnostic', desc: 'Full inspection within 24 hours — microscope, schematics, and power-supply diagnostics. Exact fault identified and documented.' },
               { step: '03', title: 'Written Quote and Approval', desc: 'You receive a detailed written quote: fault identified, repair approach, cost, and timeframe. No work begins without your sign-off.' },
-              { step: '04', title: 'Microsoldering Repair', desc: 'Precision repair under a Swift 100X stereo microscope. The specific failed component is replaced — your original board is preserved.' },
+              { step: '04', title: 'Microsoldering Repair', desc: 'Precision repair using specialist equipment. The specific failed component is replaced — your original board is preserved.' },
               { step: '05', title: 'Return Delivery to Midrand', desc: 'MacBook tested under load, returned to your Midrand address, and backed by a 12-month written warranty.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">

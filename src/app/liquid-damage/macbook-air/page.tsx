@@ -41,7 +41,7 @@ const faqs = [
   {
     question: 'Can a water-damaged MacBook Air be repaired?',
     answer:
-      'Yes — in the majority of cases, particularly when the device is brought in quickly. The MacBook Air has a thin chassis with no active cooling fan, which means liquid can pool differently inside compared to the Pro. Our ultrasonic cleaning process removes corrosion before it causes permanent damage. MacBook Airs brought in within 24 hours of a spill have a very high recovery rate.',
+      'Yes — in the majority of cases, particularly when the device is brought in quickly. The MacBook Air has a thin chassis with no active cooling fan, which means liquid can pool differently inside compared to the Pro. Our professional board cleaning process removes corrosion before it causes permanent damage. MacBook Airs brought in within 24 hours of a spill have a very high recovery rate.',
   },
   {
     question: 'How much does MacBook Air liquid damage repair cost?',
@@ -125,7 +125,7 @@ const severityTiers = [
   {
     scenario: 'Logic board corrosion — minor',
     detail: 'Liquid reached the logic board but corrosion is localised. More urgent on MacBook Air than Pro due to the fanless design allowing liquid to pool. Ultrasonic cleaning and targeted IC repair restores full function.',
-    repair: 'Ultrasonic cleaning, IC cleaning, trace repair',
+    repair: 'Professional board cleaning, IC cleaning, trace repair',
     recovery: 'Very good',
     timeframe: '48–72 hours',
     colour: 'yellow' as const,
@@ -164,7 +164,7 @@ const repairProcess = [
   {
     step: '1',
     title: 'Free Assessment',
-    detail: 'We open the MacBook Air, inspect under our Leica stereo microscope, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. No charge. No obligation.',
+    detail: 'We open the MacBook Air, inspect under magnification, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. No charge. No obligation.',
   },
   {
     step: '2',
@@ -174,12 +174,12 @@ const repairProcess = [
   {
     step: '3',
     title: 'Ultrasonic Cleaning',
-    detail: 'The logic board is cleaned in our ultrasonic bath with a specialist PCB cleaning solution. This removes corrosive residue from traces, pads, and component leads — the step that rice never performs and that saves boards others would write off.',
+    detail: 'The logic board is cleaned with a specialist PCB cleaning solution using professional equipment. This removes corrosive residue from traces, pads, and component leads — the step that rice never performs and that saves boards others would write off.',
   },
   {
     step: '4',
     title: 'Component-Level Repair',
-    detail: 'Under a stereo microscope with a JBC soldering iron and Hakko FM-204 hot air station, we replace specific damaged ICs, repair lifted traces, and address any corroded connectors or BGA pads on the MacBook Air logic board.',
+    detail: 'Using precision soldering equipment, we replace specific damaged ICs, repair lifted traces, and address any corroded connectors or component pads on the MacBook Air logic board.',
   },
   {
     step: '5',
@@ -468,7 +468,7 @@ export default function MacBookAirLiquidDamagePage() {
                 {[
                   'Remove the corrosive mineral and ionic residue left on the board',
                   'Reverse electrolytic damage already caused while the board was powered',
-                  'Clean corrosion from under IC packages, BGA balls, or connector pins',
+                  'Clean corrosion from under IC packages or connector pins',
                   'Stop ongoing corrosion that continues even after the visible liquid is gone',
                 ].map((point) => (
                   <li key={point} className="flex items-start gap-2">
@@ -478,7 +478,7 @@ export default function MacBookAirLiquidDamagePage() {
                 ))}
               </ul>
               <p>
-                What actually works: professional ultrasonic cleaning with a specialist PCB solution, followed
+                What actually works: professional board cleaning with a specialist PCB solution, followed
                 by microscope inspection and targeted component replacement. This is what we do at ZA Support —
                 and it is why our liquid damage recovery rate is significantly higher than &ldquo;let it dry&rdquo; approaches.
               </p>

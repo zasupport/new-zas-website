@@ -363,7 +363,7 @@ export default function iPadScreenPage() {
             <div className="space-y-4">
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
                 <p className="text-[#7A9E98] text-sm italic mb-3">
-                  &ldquo;The Apple Store wanted me to replace the whole iPad. ZA Support replaced my screen
+                  &ldquo;I was told to replace the whole iPad. ZA Support replaced my screen
                   same-day, 12-month warranty, Apple Pencil still works. Should have called them first.&rdquo;
                 </p>
                 <div className="flex items-center gap-2">

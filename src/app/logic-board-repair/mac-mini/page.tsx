@@ -96,7 +96,7 @@ const icFaults = [
     ic: 'NVMe / PCIe Storage Controller',
     fault: 'Storage path failure',
     symptom: 'Not booting, no disk in Recovery',
-    repair: 'Controller reballing',
+    repair: 'Controller replacement',
   },
   {
     ic: 'Fan Controller / Temp Sensor',
@@ -131,7 +131,7 @@ const reviews = [
   {
     name: 'James K.',
     suburb: 'Midrand',
-    text: 'Mac mini 2018 Intel with all USB-C ports dead. Apple store said board replacement. ZA Support fixed the Thunderbolt controller for a fraction of that price. These are the real Apple specialists in Joburg.',
+    text: 'Mac mini 2018 Intel with all USB-C ports dead. I was quoted a full board replacement elsewhere. ZA Support fixed the Thunderbolt controller for a fraction of that price. These are the real Apple specialists in Joburg.',
     rating: 5,
   },
 ];
@@ -242,7 +242,7 @@ export default function MacMiniLogicBoardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div>
-              <p className="text-[#7A9E98] text-sm mb-1">Apple Store / iStore</p>
+              <p className="text-[#7A9E98] text-sm mb-1">Authorised service</p>
               <p className="text-2xl font-extrabold text-red-400">Full board replacement</p>
               <p className="text-[#7A9E98] text-xs mt-1">Entire board swapped — expensive and unnecessary</p>
             </div>

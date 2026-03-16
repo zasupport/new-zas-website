@@ -14,7 +14,7 @@ interface RelatedServicesProps {
 
 // Predefined service sets for common page types
 export const RELATED_LOGIC_BOARD: ServiceLink[] = [
-  { title: 'Liquid Damage Repair', href: '/liquid-damage', description: 'Board-level ultrasonic cleaning' },
+  { title: 'Liquid Damage Repair', href: '/liquid-damage', description: 'Board-level professional cleaning' },
   { title: 'MacBook Not Turning On', href: '/macbook-not-turning-on', description: 'Free same-day diagnosis' },
   { title: 'MacBook Repair', href: '/macbook-repair', description: 'All models, all faults' },
   { title: 'No Fix No Fee', href: '/no-fix-no-fee', description: 'You only pay if we fix it' },
@@ -23,7 +23,7 @@ export const RELATED_LOGIC_BOARD: ServiceLink[] = [
 
 export const RELATED_MACBOOK_REPAIR: ServiceLink[] = [
   { title: 'Logic Board Repair', href: '/logic-board-repair', description: 'Expert microsoldering' },
-  { title: 'Liquid Damage', href: '/liquid-damage', description: 'Ultrasonic board cleaning' },
+  { title: 'Liquid Damage', href: '/liquid-damage', description: 'Professional board cleaning' },
   { title: 'Battery Replacement', href: '/macbook-repair/battery', description: 'All models, same-day' },
   { title: 'Screen Replacement', href: '/macbook-repair/screen', description: 'Retina display repair' },
   { title: 'No Fix No Fee', href: '/no-fix-no-fee', description: 'Free diagnostic, no risk' },

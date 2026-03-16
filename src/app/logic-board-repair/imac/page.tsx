@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'How long does iMac logic board repair take?',
     answer:
-      'Diagnostic is same-day for most faults. Simple component replacements (USB-C controller, power management IC) are typically 1–3 business days. More complex repairs such as GPU reballing or trace reconstruction after liquid damage are 3–5 business days. We will give you a written turnaround estimate before work begins.',
+      'Diagnostic is same-day for most faults. Simple component replacements (USB-C controller, power management IC) are typically 1–3 business days. More complex repairs such as GPU restoration or trace reconstruction after liquid damage are 3–5 business days. We will give you a written turnaround estimate before work begins.',
   },
   {
     question: 'My iMac fans run at maximum speed constantly. Is this a logic board fault?',
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'Can you repair the iMac 27" Late 2015 with AMD Radeon R9 GPU failure?',
     answer:
-      'Yes. This is one of the most common iMac repairs we perform. The AMD Radeon R9 M290X and M395 GPUs on the 2015 27" iMac are known to fail due to solder joint fatigue on the GPU die. We perform GPU reballing — a precise process where we remove the GPU, replace all solder balls with fresh lead-free solder, and reflow under controlled temperature. Success rate on this specific repair is over 80%.',
+      'Yes. This is one of the most common iMac repairs we perform. The AMD Radeon R9 M290X and M395 GPUs on the 2015 27" iMac are known to fail due to solder joint fatigue on the GPU die. We perform specialist GPU restoration — replacing the solder connections under controlled conditions using professional equipment. Success rate on this specific repair is over 80%.',
   },
 ];
 
@@ -72,7 +72,7 @@ const icFaults = [
     ic: 'AMD Radeon GPU (27" Intel)',
     fault: 'GPU die solder failure',
     symptom: 'Artifacts, distorted display, crash on load',
-    repair: 'GPU reballing',
+    repair: 'GPU restoration',
   },
   {
     ic: 'CD3217 (USB-C Power IC)',
@@ -96,7 +96,7 @@ const icFaults = [
     ic: 'Thunderbolt Controller',
     fault: 'TBT controller IC fault',
     symptom: 'No Thunderbolt/USB-C output, no dGPU',
-    repair: 'Controller reballing/replacement',
+    repair: 'Controller replacement',
   },
   {
     ic: 'SMC / Power Management',
@@ -108,7 +108,7 @@ const icFaults = [
 
 const models = [
   { model: 'iMac 21.5" 2015–2019 (Intel)', chip: 'Intel Core i5/i7', notes: 'Display controller, USB-C, backlight' },
-  { model: 'iMac 27" 2015–2020 (Intel)', chip: 'Intel Core i5/i7/i9', notes: 'GPU reballing most common — 27"' },
+  { model: 'iMac 27" 2015–2020 (Intel)', chip: 'Intel Core i5/i7/i9', notes: 'GPU restoration most common — 27"' },
   { model: 'iMac 24" M1 (2021)', chip: 'Apple M1', notes: 'Power management, USB-C circuits' },
   { model: 'iMac 24" M3 (2023)', chip: 'Apple M3', notes: 'Power ICs, display controller, ports' },
   { model: 'iMac 24" M4 (2024)', chip: 'Apple M4', notes: 'Diagnostic assessment required' },
@@ -130,7 +130,7 @@ const reviews = [
   {
     name: 'Andrew D.',
     suburb: 'Fourways',
-    text: 'iMac 24" M1 had no display. Took it to iStore first — they quoted a high price for a board replacement. ZA Support fixed the display controller IC for a fraction of that. Same day collection.',
+    text: 'iMac 24" M1 had no display. I was quoted a high price for a full board replacement elsewhere. ZA Support fixed the display controller IC for a fraction of that. Same day collection.',
     rating: 5,
   },
 ];
@@ -192,7 +192,7 @@ export default function iMacLogicBoardPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iMac logic board repair. 21.5&quot;, 24&quot; and 27&quot; models — M1, M3, M4, and Intel.
-              We repair the chip. Apple Store replaces the board. Free diagnostic, No Fix No Fee.
+              We repair the chip. Authorised service replaces the board. Free diagnostic, No Fix No Fee.
             </p>
 
             {/* Stats bar */}
@@ -241,7 +241,7 @@ export default function iMacLogicBoardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div>
-              <p className="text-[#7A9E98] text-sm mb-1">Apple Store / iStore</p>
+              <p className="text-[#7A9E98] text-sm mb-1">Authorised service</p>
               <p className="text-2xl font-extrabold text-red-400">Full board replacement</p>
               <p className="text-[#7A9E98] text-xs mt-1">Entire board swapped — data loss on M-series</p>
             </div>
@@ -266,8 +266,8 @@ export default function iMacLogicBoardPage() {
               {[
                 { fault: 'No Power — Dead iMac', desc: 'Power supply unit (PSU) or power circuit failure on logic board. Common after power surges or load-shedding damage. Fully repairable in most cases.' },
                 { fault: 'No Display / Black Screen', desc: 'Backlight failure, display controller fault, or GPU issue. Fan spins, iMac boots (visible with torch), but screen is completely black.' },
-                { fault: 'AMD Radeon GPU Failure (27" Intel)', desc: 'Screen artifacts, distorted image, or complete display failure under GPU load. GPU reballing restores the chip — no board replacement needed.' },
-                { fault: 'Liquid Damage', desc: 'Water, coffee, or cleaning fluid entering through the ventilation slots. Board-level ultrasonic clean, corrosion removal, and component replacement.' },
+                { fault: 'AMD Radeon GPU Failure (27" Intel)', desc: 'Screen artifacts, distorted image, or complete display failure under GPU load. Specialist GPU restoration recovers the chip — no board replacement needed.' },
+                { fault: 'Liquid Damage', desc: 'Water, coffee, or cleaning fluid entering through the ventilation slots. Board-level professional clean, corrosion removal, and component replacement.' },
                 { fault: 'Thunderbolt / USB-C Failure', desc: 'No external displays, no peripherals, no charging signal. Thunderbolt controller IC fault — repairable through component replacement.' },
                 { fault: 'Fan at Maximum Speed', desc: 'Persistent max-fan speed caused by a failed ambient temperature sensor, disconnected sensor cable, or SMC fault.' },
                 { fault: 'Not Booting — Stuck on Logo', desc: 'Boot-loop or failure to complete startup. Can indicate storage controller fault, NAND failure, or corrupted SMC — each diagnosable and repairable.' },
@@ -289,7 +289,7 @@ export default function iMacLogicBoardPage() {
                   'Power Supply Repair',
                   'Logic Board Repair (Intel)',
                   'Logic Board Repair (M-series)',
-                  'GPU Reballing (27" Intel)',
+                  'GPU Restoration (27" Intel)',
                   'Liquid Damage Restoration',
                   'USB-C / Thunderbolt Repair',
                   'Board Replacement',
@@ -325,7 +325,7 @@ export default function iMacLogicBoardPage() {
             Component-Level Repair — iMac Logic Board ICs
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl">
-            Apple and iStore replace the entire logic board. We replace the specific failed IC under microscope. Same result. A fraction of the cost.
+            Authorised service replaces the entire logic board. We replace the specific failed IC under microscope. Same result. A fraction of the cost.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -418,7 +418,7 @@ export default function iMacLogicBoardPage() {
             {[
               {
                 title: 'Board-Level Repair, Not Replacement',
-                desc: 'Apple and iStore replace the entire logic board. We replace the specific failed IC. Same result, fraction of the cost.',
+                desc: 'Authorised service replaces the entire logic board. We replace the specific failed IC. Same result, fraction of the cost.',
               },
               {
                 title: '12-Month Written Warranty',

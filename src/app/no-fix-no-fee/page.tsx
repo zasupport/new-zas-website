@@ -47,7 +47,7 @@ const steps = [
     icon: Search,
     title: 'We Diagnose — Completely Free',
     detail:
-      'Our technician inspects your Mac using professional diagnostic tools, a stereo microscope, and board-level testing equipment. We identify the exact fault — not a broad guess. This takes 30 minutes to 2 hours depending on complexity. You are charged nothing at this stage, whether we find a fault or not.',
+      'Our technician inspects your Mac using professional diagnostic tools and board-level testing equipment. We identify the exact fault — not a broad guess. This takes 30 minutes to 2 hours depending on complexity. You are charged nothing at this stage, whether we find a fault or not.',
   },
   {
     step: '3',
@@ -67,7 +67,7 @@ const steps = [
 
 const services = [
   { name: 'Logic Board Repair', description: 'Component-level microsoldering — no power, no display, no charging, kernel panics', href: '/logic-board-repair' },
-  { name: 'Liquid Damage Repair', description: 'Ultrasonic cleaning, corrosion removal, board-level restoration after spills', href: '/liquid-damage' },
+  { name: 'Liquid Damage Repair', description: 'Professional board cleaning, corrosion removal, board-level restoration after spills', href: '/liquid-damage' },
   { name: 'Screen Replacement', description: 'Full LCD/Retina/ProMotion display replacement — cracked, backlight failure, dead pixels', href: '/macbook-repair/screen' },
   { name: 'Battery Replacement', description: 'Genuine capacity replacement — swollen, not holding charge, sudden shutdown', href: '/macbook-repair/battery' },
   { name: 'Keyboard Replacement', description: 'Full keyboard deck replacement — unresponsive keys, repeated characters, debris damage', href: '/macbook-repair/keyboard' },
@@ -113,7 +113,7 @@ const faqs = [
   {
     question: 'Why do you offer No Fix No Fee when other repair shops charge a diagnostic fee?',
     answer:
-      'Because we are confident in our skills. ZA Support has 14 years of Mac repair experience with component-level expertise across all Intel and Apple Silicon models. We would rather demonstrate our capability than charge you upfront to find out whether we can help. Many shops charge a diagnostic fee before touching your machine — whether they fix it or not. We do not think that is fair to the customer.',
+      'Because we are confident in our skills. ZA Support has 14 years of Mac repair experience with component-level expertise across all Intel and Apple Silicon models. We would rather demonstrate our capability than charge you upfront to find out whether we can help. Many repair services charge a diagnostic fee before touching your machine — whether they fix it or not. We do not think that is fair to the customer.',
   },
 ];
 
@@ -259,7 +259,7 @@ export default function NoFixNoFeePage() {
           </div>
         </section>
 
-        {/* ── Competitor Callout ── */}
+        {/* ── Comparison Callout ── */}
         <section className="py-10 px-4">
           <div className="max-w-4xl mx-auto">
             <div
@@ -295,14 +295,14 @@ export default function NoFixNoFeePage() {
                     ))}
                   </ul>
                 </div>
-                {/* Mac Shack */}
+                {/* Other repair shops */}
                 <div
                   className="rounded-xl p-6"
                   style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.06)' }}
                 >
                   <div className="flex items-center gap-3 mb-4">
                     <XCircle className="w-6 h-6" style={{ color: '#7A9E98' }} />
-                    <span className="font-bold text-lg" style={{ color: '#7A9E98' }}>Mac Shack</span>
+                    <span className="font-bold text-lg" style={{ color: '#7A9E98' }}>Other repair shops</span>
                   </div>
                   <ul className="space-y-3">
                     {[
@@ -321,9 +321,6 @@ export default function NoFixNoFeePage() {
                   </ul>
                 </div>
               </div>
-              <p className="text-xs text-center mt-4" style={{ color: '#7A9E98' }}>
-                Competitor terms as of March 2026. Always verify directly.
-              </p>
             </div>
           </div>
         </section>

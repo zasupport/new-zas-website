@@ -153,7 +153,7 @@ const customerReviews = [
     suburb: 'Sandton',
     rating: 5,
     date: '02/2026',
-    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. ZA Support diagnosed it within a few hours — corroded USB-C controller. Fixed quickly. Apple quoted significantly more for a new board. Cannot recommend highly enough.',
+    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. ZA Support diagnosed it within a few hours — corroded USB-C controller. Fixed quickly. A new board would have cost significantly more. Cannot recommend highly enough.',
     service: 'Liquid Damage + Logic Board',
   },
   {
@@ -161,7 +161,7 @@ const customerReviews = [
     suburb: 'Rosebank',
     rating: 5,
     date: '01/2026',
-    text: 'Screen was flickering on my 2015 MacBook Pro. Other shops said unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a 12-month warranty. Six weeks later — perfect.',
+    text: 'Screen was flickering on my 2015 MacBook Pro. I had been told it was unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a 12-month warranty. Six weeks later — perfect.',
     service: 'Logic Board Repair',
   },
   {
@@ -177,7 +177,7 @@ const customerReviews = [
     suburb: 'Illovo',
     rating: 5,
     date: '03/2026',
-    text: 'Best Apple repair experience in Johannesburg. The team diagnosed a logic board fault that two other shops had completely missed. Honest, knowledgeable, and the 12-month warranty gave me real peace of mind.',
+    text: 'Best Apple repair experience in Johannesburg. The team diagnosed a logic board fault that had been completely missed elsewhere. Honest, knowledgeable, and the 12-month warranty gave me real peace of mind.',
     service: 'Logic Board Repair',
   },
 ];
@@ -220,9 +220,9 @@ const faqs = [
       'In most cases, yes. For Intel Macs with a removable SSD, data recovery is typically straightforward. For M-series Macs where the SSD is soldered to the logic board, recovery depends on whether the storage chip is intact. We assess data recoverability as part of the free diagnostic at no extra charge.',
   },
   {
-    question: 'Is your repair cheaper than the Apple Store?',
+    question: 'Is component-level repair more cost-effective than a board replacement?',
     answer:
-      'Significantly cheaper for most repairs. Apple performs full logic board replacements — we repair the specific component that failed. Plus we offer a free diagnostic, No Fix No Fee, and a 12-month warranty.',
+      'Yes, significantly. Authorised service typically performs full logic board replacements — we repair the specific component that failed, which is considerably more affordable. Plus we offer a free diagnostic, No Fix No Fee, and a 12-month warranty.',
   },
   {
     question: 'Do you repair M1, M2, M3 and M4 MacBooks?',
@@ -392,7 +392,7 @@ export default function AppleRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">
             <div>
-              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Mac Shack &amp; other shops</p>
+              <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Many repair services</p>
               <p className="text-xl font-extrabold text-red-400 line-through">Diagnostic fee charged</p>
             </div>
             <div className="text-[#0FEA7A] text-3xl font-black">vs</div>
@@ -531,7 +531,7 @@ export default function AppleRepairPage() {
               {
                 icon: CheckCircle,
                 title: 'Free Diagnostic — Always',
-                body: 'Unlike Mac Shack and other shops that charge diagnostic fees, our diagnostic is always free. You will know exactly what is wrong and exactly what it will cost before you decide anything.',
+                body: 'Our diagnostic is always free. You will know exactly what is wrong and exactly what it will cost before you decide anything.',
               },
               {
                 icon: Star,
