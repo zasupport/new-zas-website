@@ -73,7 +73,7 @@ export default function JamfMdmPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>What JAMF MDM Delivers</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -90,10 +90,10 @@ export default function JamfMdmPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>JAMF Pro vs JAMF Now, Plans</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {tiers.map((tier, i) => (
               <div key={tier.name} className={`glass-card p-8 ${i === 1 ? 'border-[rgba(15,234,122,0.4)] shadow-[0_0_24px_rgba(15,234,122,0.1)]' : ''}`}>
                 {i === 1 && <div className="text-[#0FEA7A] text-xs font-bold mb-3 tracking-widest uppercase">Most Popular</div>}
@@ -115,7 +115,7 @@ export default function JamfMdmPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="JAMF MDM, Common Questions" />
         </div>

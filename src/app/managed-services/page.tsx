@@ -61,9 +61,8 @@ export default function ManagedServicesPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg, Mac &amp; Windows</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              Proactive IT management for medical practices, SMEs, and professionals. Apple-first, and fully capable
-              of managing mixed Mac and Windows environments. Monitoring, support, JAMF MDM, and Microsoft 365.
-              Hyde Park, Johannesburg.
+              Proactive IT management for medical practices, SMEs, and professionals — Apple-first, fully capable in mixed Mac and Windows environments.
+              Monitoring, support, JAMF MDM, and Microsoft 365 from Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -77,7 +76,7 @@ export default function ManagedServicesPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>What We Manage</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
@@ -100,10 +99,10 @@ export default function ManagedServicesPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>Managed Services Plans</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {tiers.map((tier, i) => (
               <div key={tier.name} className={`glass-card p-8 ${i === 1 ? 'border-[rgba(15,234,122,0.4)] shadow-[0_0_24px_rgba(15,234,122,0.1)]' : ''}`}>
                 {i === 1 && <div className="text-[#0FEA7A] text-xs font-bold mb-3 tracking-widest uppercase">Most Popular</div>}
@@ -125,7 +124,7 @@ export default function ManagedServicesPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="Managed Services, Common Questions" />
         </div>

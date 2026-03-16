@@ -198,7 +198,7 @@ export default function iPadRepairPage() {
       </section>
 
       {/* Pricing */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center"
@@ -237,7 +237,7 @@ export default function iPadRepairPage() {
       </section>
 
       {/* Honest note on Apple Silicon iPads */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-12 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[rgba(39,80,77,0.25)] border border-[rgba(15,234,122,0.15)] rounded-2xl p-8">
             <h2
@@ -247,25 +247,17 @@ export default function iPadRepairPage() {
               A Honest Word on iPad Pro M4 and M2 Repairs
             </h2>
             <p className="text-[#7A9E98] mb-4 leading-relaxed">
-              Apple Silicon iPad Pros are genuinely harder to repair than older models. The display is fully laminated
-             , glass, digitiser, and LCD are fused together, meaning the entire assembly must be replaced even for
-              a cracked outer glass. Logic board density has increased significantly, and parts availability from
-              reliable suppliers takes longer to confirm.
-            </p>
-            <p className="text-[#7A9E98] mb-4 leading-relaxed">
-              We repair these devices, but we are upfront: M4 and M2 iPad Pro repairs require a full assessment
-              before we commit to a price. Turnaround is typically longer. If the repair is not viable, we will tell
-              you before you spend anything.
+              Apple Silicon iPad Pros are genuinely harder to repair. The display is fully laminated — glass, digitiser, and LCD are fused — meaning the entire assembly must be replaced even for a cracked outer glass.
             </p>
             <p className="text-[#7A9E98] leading-relaxed">
-              Standard iPad, iPad mini, and older iPad Air models are straightforward, 2–4 hours in most cases.
+              M4 and M2 iPad Pro repairs require a full assessment before we commit to a price. Standard iPad, iPad mini, and older Air models are straightforward — 2–4 hours in most cases.
             </p>
           </div>
         </div>
       </section>
 
       {/* Models */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
@@ -288,7 +280,7 @@ export default function iPadRepairPage() {
       </section>
 
       {/* Why ZA Support */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center"
@@ -338,7 +330,7 @@ export default function iPadRepairPage() {
       </section>
 
       {/* How it works */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center"
@@ -389,7 +381,7 @@ export default function iPadRepairPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="iPad Repair Johannesburg, Common Questions" />
         </div>

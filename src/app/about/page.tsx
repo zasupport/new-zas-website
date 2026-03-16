@@ -226,14 +226,13 @@ export default function AboutPage() {
             <p className="text-xl text-[#7A9E98] leading-relaxed max-w-3xl">
               Since 2009, ZA Support has been Johannesburg&apos;s trusted Apple repair specialist and
               certified Mac technician, serving Hyde Park, Sandton, Rosebank and all of Gauteng.
-              We have built our reputation one device at a time through honest diagnostics,
-              transparent pricing, and repairs that last.
+              Honest diagnostics, transparent pricing, and repairs that last.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Stats */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
@@ -299,27 +298,10 @@ export default function AboutPage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Our Story</h2>
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
-                  ZA Support was founded in 2009 in Hyde Park, Johannesburg with a clear purpose: to bring genuinely expert Apple repair
-                  to Johannesburg. At the time, Mac users had limited options, expensive authorised service
-                  or unreliable shops that replaced boards instead of repairing them.
+                  Founded in 2009 in Hyde Park, we chose board-level microsoldering when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a 3-month warranty on every repair.
                 </p>
                 <p>
-                  We chose a different path. Our engineers invested in microscope workstations and microsoldering
-                  training to perform the same board-level repairs that most shops still cannot do today.
-                  The result: clients keep their original boards, pay significantly less, and get a
-                  3-month warranty on every repair. Extended warranty available on request.
-                </p>
-                <p>
-                  As the Apple ecosystem expanded, so did our capabilities. We became Johannesburg&apos;s JAMF MDM
-                  specialists for businesses managing Apple fleets. We developed our Health Check monitoring system
-                  to proactively protect client devices. We built managed IT service packages that give businesses
-                  predictable costs and zero unexpected downtime.
-                </p>
-                <p>
-                  Today, ZA Support serves medical practices, businesses, professionals, and families across
-                  Johannesburg from our Hyde Park workshop at 1 Hyde Park Lane. Every repair, every client
-                  interaction, every monthly report, all built on the same foundation of technical excellence
-                  and honesty that we started with in 2009.
+                  Today we serve medical practices, businesses, and professionals across Johannesburg — combining Apple repair, JAMF MDM, and managed IT from our Hyde Park workshop at 1 Hyde Park Lane.
                 </p>
               </div>
             </div>
