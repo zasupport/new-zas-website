@@ -68,6 +68,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/logic-board-repair/randburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/fourways`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/bryanston`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/kempton-park`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+
+    // Battery replacement suburb pages
+    { url: `${base}/battery-replacement/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/rosebank`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+
+    // Screen repair suburb pages
+    { url: `${base}/screen-repair/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // iPhone repair sub-pages
     { url: `${base}/iphone-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },

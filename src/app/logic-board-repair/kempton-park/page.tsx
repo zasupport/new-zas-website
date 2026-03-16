@@ -1,0 +1,315 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { Phone, ArrowRight, Cpu, Zap, AlertTriangle, CheckCircle, MapPin } from 'lucide-react';
+import SchemaOrg from '@/components/seo/SchemaOrg';
+import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import FAQAccordion from '@/components/ui/FAQ';
+import Breadcrumb from '@/components/ui/Breadcrumb';
+import { CONTACT } from '@/lib/constants';
+
+export const metadata: Metadata = {
+  title: 'MacBook Logic Board Repair Kempton Park | ZA Support Hyde Park',
+  description:
+    'MacBook logic board repair for Kempton Park and OR Tambo area clients. Component-level repair specialists. Assessment: from R599, up-to-3 year warranty. We collect from Kempton Park. Call 064 529 5863.',
+  alternates: { canonical: 'https://zasupport.com/logic-board-repair/kempton-park' },
+};
+
+const faults = [
+  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power delivery circuit diagnosed and repaired at component level.' },
+  { title: 'Black Screen', desc: 'Machine starts but the display stays dark. Backlight driver IC, GPU fault, or display signal path identified and repaired under microscope.' },
+  { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and component pads. Ultrasonic cleaning followed by targeted component replacement.' },
+  { title: 'Overheating / Shutdowns', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
+  { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port controller replaced at component level.' },
+  { title: 'Fan at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
+  { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+];
+
+const pricing = [
+  { item: 'Diagnostic Assessment', note: 'Full board-level inspection, no obligation' },
+  { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip replacement' },
+  { item: 'Power Circuit Repair', note: 'No-power diagnosis and board-level fix' },
+  { item: 'Component-level Repair', note: 'Precision component-level board repair under microscope' },
+  { item: 'GPU Repair / Reballing', note: 'Discrete GPU only, Intel Mac models' },
+  { item: 'Logic Board Replacement', note: 'Where component repair is not feasible' },
+];
+
+const faqs = [
+  {
+    question: 'Do you collect MacBooks from Kempton Park?',
+    answer: 'Yes. We offer a collection and return service for Kempton Park clients, including those near OR Tambo International Airport. We collect from your home, office, or a convenient location in Kempton Park, carry out the repair at our Hyde Park workshop, and return your MacBook once the work is complete. Contact us on WhatsApp or by phone to arrange a time.',
+  },
+  {
+    question: 'How far is Kempton Park from your Hyde Park workshop?',
+    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 30–35 km from central Kempton Park, around 30–40 minutes by road depending on traffic. Many Kempton Park clients travelling for work or connecting through OR Tambo drop their MacBook with us on route. We are open Monday to Friday 08:00–17:30.',
+  },
+  {
+    question: 'My MacBook was in my luggage and stopped working after a flight. Can you help?',
+    answer: 'Yes. Pressure changes, rough handling, and temperature extremes during air travel occasionally cause component-level failures on logic boards, particularly on older Intel models. Loose solder joints, failed capacitors, or cracked traces are all repairable at component level. Bring it in or arrange a collection and we will assess it free of charge.',
+  },
+  {
+    question: 'What is the difference between component-level repair and a board replacement?',
+    answer: 'Component-level repair targets the specific failed component — a chip, capacitor, resistor, or damaged trace — on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
+  },
+  {
+    question: 'How long will the repair take?',
+    answer: 'We complete the diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex component-level repair jobs — GPU, multi-component faults, or severe liquid damage — can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
+  },
+  {
+    question: 'What if the board cannot be repaired?',
+    answer: 'We will tell you clearly what we found, explain why repair is not viable, and walk through your options: board replacement, data recovery, or selling the device for parts. The diagnostic assessment is always free; an assessment fee of from R599 applies if we cannot fix it.',
+  },
+];
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'MacBook Logic Board Repair Kempton Park',
+  description: 'Expert MacBook logic board repair and component-level repair for Kempton Park clients. Collection from Kempton Park and OR Tambo area, repair at Hyde Park workshop. Assessment: from R599.',
+  provider: LOCAL_BUSINESS_PROVIDER,
+  areaServed: [
+    { '@type': 'City', name: 'Johannesburg' },
+    { '@type': 'Neighborhood', name: 'Kempton Park' },
+  ],
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://zasupport.com' },
+    { '@type': 'ListItem', position: 2, name: 'Logic Board Repair', item: 'https://zasupport.com/logic-board-repair' },
+    { '@type': 'ListItem', position: 3, name: 'Kempton Park', item: 'https://zasupport.com/logic-board-repair/kempton-park' },
+  ],
+};
+
+const faqSchema = buildFaqSchema(faqs);
+
+export default function LogicBoardRepairKemptonParkPage() {
+  return (
+    <>
+      <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={serviceSchema} />
+      <SchemaOrg schema={breadcrumbSchema} />
+
+      <section className="hero-gradient grid-overlay pt-32 pb-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Breadcrumb items={[
+            { label: 'Logic Board Repair', href: '/logic-board-repair' },
+            { label: 'Kempton Park' },
+          ]} />
+          <div className="mt-8 max-w-4xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
+              Logic Board Repair Kempton Park, Johannesburg
+              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+            </h1>
+            <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
+              MacBook logic board repair for Kempton Park and OR Tambo area clients. We collect from Kempton Park and carry out component-level repair at our Hyde Park workshop. Assessment: from R599.
+            </p>
+            <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
+              <MapPin className="w-4 h-4 text-[#0FEA7A]" />
+              <span>We collect from Kempton Park and repair at our Hyde Park workshop, approx. 30–40 min drive</span>
+            </div>
+            <div className="flex flex-wrap gap-4 mb-8">
+              {[
+                { icon: Cpu, label: 'Microscope Component-level Repair' },
+                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: CheckCircle, label: 'Assessment: from R599' },
+                { icon: AlertTriangle, label: 'Warranty' },
+              ].map(({ icon: Icon, label }) => (
+                <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
+                  <Icon className="w-4 h-4 text-[#0FEA7A]" />
+                  <span className="text-[#E8F4F1] text-sm font-medium">{label}</span>
+                </div>
+              ))}
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
+                WhatsApp for Quote
+              </a>
+              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
+                <Phone className="w-5 h-5" /> Call {CONTACT.phone}
+              </a>
+              <Link href="/contact" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all">
+                Book Collection <ArrowRight className="w-5 h-5" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
+            Logic Board Repair for Kempton Park Residents and Businesses
+          </h2>
+          <div className="space-y-4 text-[#7A9E98] leading-relaxed">
+            <p>
+              Kempton Park sits in Ekurhuleni, east of Johannesburg, and is home to a busy mix of logistics businesses, freight companies, and residential clients connected to OR Tambo International Airport. When a MacBook logic board fails in that environment, whether you are a business owner on Atlas Road or a professional living in Birchleigh, every hour without a working machine costs. ZA Support offers Kempton Park clients a dedicated collection and return service, coming to you and returning your repaired MacBook to your door.
+            </p>
+            <p>
+              Our Hyde Park workshop is equipped with professional hot-air rework stations, a high-magnification stereo microscope, and the diagnostic tools needed to trace faults at board level. We do not guess — every repair starts with a structured diagnostic session that identifies the exact component failure before any soldering takes place.
+            </p>
+            <p>
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini logic boards across all generations, Intel and Apple Silicon alike. Whether you are dealing with a no-power fault on a 2019 MacBook Pro or a USB-C charging failure on an M2 MacBook Air, the process is the same: assess first, quote second, repair only with your approval.
+            </p>
+            <p>
+              Component-level repair is our default approach, targeting the specific failed chip or component rather than replacing the entire logic board. This saves Kempton Park clients 60–80% compared to a full board swap, and your original board, data, Touch ID pairing, and Secure Enclave are all preserved.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Fault Types */}
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center">
+            Logic Board Faults We Diagnose and Repair
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {faults.map((fault) => (
+              <div key={fault.title} className="glass-card p-5">
+                <h3 className="text-[#E8F4F1] font-bold mb-2">{fault.title}</h3>
+                <p className="text-[#7A9E98] text-sm leading-relaxed">{fault.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Process */}
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">
+            Our Repair Process for Kempton Park Clients
+          </h2>
+          <div className="space-y-6">
+            {[
+              { step: '01', title: 'Collection from Kempton Park', desc: 'Contact us via WhatsApp or phone. We arrange a collection time that suits your schedule — home, office, or a convenient Kempton Park location near OR Tambo or central Kempton.' },
+              { step: '02', title: 'Free Diagnostic Assessment', desc: 'Your MacBook is assessed at board level within 24 hours. We trace the exact fault using diagnostic tools, schematics, and a stereo microscope.' },
+              { step: '03', title: 'Written Quote, No Obligation', desc: 'You receive a clear quote detailing the fault, the repair approach, the cost, and the expected timeframe. No work begins until you approve.' },
+              { step: '04', title: 'Component-level Repair', desc: 'Our technician carries out the repair under microscope, replacing the specific failed component while leaving everything else on your board untouched.' },
+              { step: '05', title: 'Quality Check and Return', desc: 'Every repair is tested under load before return. Your MacBook is returned to your Kempton Park address with a ZA Support up-to-3 year warranty.' },
+            ].map(({ step, title, desc }) => (
+              <div key={step} className="glass-card p-6 flex gap-5">
+                <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
+                <div>
+                  <h3 className="text-[#E8F4F1] font-bold mb-1">{title}</h3>
+                  <p className="text-[#7A9E98] text-sm leading-relaxed">{desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Component-level Repair vs Replacement */}
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center">
+            Component-level Repair vs Board Replacement
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="glass-card p-8 border-[rgba(15,234,122,0.3)]">
+              <h3 className="text-[#0FEA7A] text-xl font-bold mb-4">Component-level Repair (Our Preference)</h3>
+              <ul className="space-y-3">
+                {[
+                  'Targets only the specific failed component',
+                  'Your original board, data stays put',
+                  '60–80% cheaper than board replacement',
+                  'Preserves Touch ID and Secure Enclave pairing',
+                  'Backed by ZA Support warranty',
+                  'Typically completed within 48–72 hours',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
+                    <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="glass-card p-8">
+              <h3 className="text-[#7A9E98] text-xl font-bold mb-4">Board Replacement (When Necessary)</h3>
+              <ul className="space-y-3">
+                {[
+                  'Required only when repair is not technically viable',
+                  'Higher cost, full board plus installation',
+                  'Touch ID pairing may be affected',
+                  'Data migration required if SSD changes',
+                  'Still backed by ZA Support warranty',
+                  'Used for severe burn damage or multiple failed chips',
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Repair Services */}
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">Repair Services</h2>
+          <div className="glass-card overflow-hidden p-0">
+            {pricing.map((item, i) => (
+              <div key={item.item} className={`p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
+                <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: from R599 with no obligation to proceed.</p>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FAQAccordion items={faqs} title="Logic Board Repair Kempton Park, Common Questions" />
+        </div>
+      </section>
+
+      {/* Other Suburbs */}
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">We Also Serve These Areas</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { label: 'Sandton', href: '/logic-board-repair/sandton' },
+              { label: 'Rosebank', href: '/logic-board-repair/rosebank' },
+              { label: 'Midrand', href: '/logic-board-repair/midrand' },
+              { label: 'Randburg', href: '/logic-board-repair/randburg' },
+              { label: 'Fourways', href: '/logic-board-repair/fourways' },
+            ].map((area) => (
+              <Link key={area.href} href={area.href} className="glass-card p-4 text-center group">
+                <span className="text-[#E8F4F1] text-sm font-semibold group-hover:text-[#0FEA7A] transition-colors">{area.label}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Kempton Park MacBook Fault? Free Diagnostic.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Kempton Park. Assessment: from R599. Up-to-3 year warranty. Hyde Park workshop.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
+                WhatsApp for Quote
+              </a>
+              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
+                <Phone className="w-5 h-5" /> Call {CONTACT.phone}
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
