@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import {
   Phone, Shield, Clock, Search, MapPin, BadgeCheck,
   Droplets, Cpu, Smartphone, Tablet, Monitor, Wifi,
@@ -373,7 +374,9 @@ export default function HomePage() {
             </h2>
             <p className="text-[#7A9E98] text-lg">{SITE.reviewCount} verified reviews from Johannesburg clients</p>
           </div>
-          <GoogleReviews maxReviews={4} />
+          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
+            <GoogleReviews maxReviews={4} />
+          </Suspense>
         </div>
       </section>
 

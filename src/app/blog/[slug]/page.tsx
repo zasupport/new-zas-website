@@ -1515,6 +1515,21 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${post.title} | ZA Support Blog`,
     description: post.excerpt,
     alternates: { canonical: `https://zasupport.com/blog/${slug}` },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url: `https://zasupport.com/blog/${slug}`,
+      type: 'article',
+      publishedTime: post.date,
+      authors: [post.author],
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: ['/og-image.jpg'],
+    },
   };
 }
 

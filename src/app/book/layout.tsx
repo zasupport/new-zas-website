@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     url: 'https://zasupport.com/book',
     siteName: 'ZA Support',
     type: 'website',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
 };
 
