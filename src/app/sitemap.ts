@@ -106,8 +106,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Business services
     { url: `${base}/jamf-mdm`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/managed-services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/managed-services/apple-specialist`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${base}/managed-services/it-support`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/managed-services/apple-specialist`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/managed-services/it-support`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/apple-support/medical-practices`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/apple-support/business`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/apple-support/enterprise`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
