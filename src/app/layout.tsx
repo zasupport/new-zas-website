@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, DM_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
@@ -84,7 +83,6 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <Analytics />
-        <SpeedInsights />
         {process.env.NEXT_PUBLIC_GA4_ID && (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA4_ID} />
         )}

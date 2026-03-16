@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Rosebank | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Rosebank clients. Microsoldering specialists 5 minutes from Rosebank. Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Rosebank clients. Microsoldering specialists 9 minutes from Rosebank. Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/rosebank' },
 };
 
@@ -37,7 +37,7 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Rosebank to collect my MacBook?',
-    answer: 'Yes. We offer a dedicated collection and return service for Rosebank clients. Our Hyde Park workshop is approximately 2–3 km from Rosebank, a 5-minute drive. We collect from your home, office, or a convenient spot in Rosebank, complete the repair, and return your MacBook. WhatsApp or call us to arrange a time.',
+    answer: 'Yes. We offer a dedicated collection and return service for Rosebank clients. Our Hyde Park workshop is approximately 2–3 km from Rosebank, a 9-minute drive. We collect from your home, office, or a convenient spot in Rosebank, complete the repair, and return your MacBook. WhatsApp or call us to arrange a time.',
   },
   {
     question: 'How close are you to Rosebank?',
@@ -298,7 +298,7 @@ export default function LogicBoardRepairRosebankPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Rosebank MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">5 minutes from Rosebank. Assessment: R899 ex VAT. 3-month warranty.</p>
+            <p className="text-[#7A9E98] mb-6">9 minutes from Rosebank. Assessment: R899 ex VAT. 3-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

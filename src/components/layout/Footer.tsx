@@ -131,7 +131,7 @@ export default function Footer() {
                   <Phone className="w-4 h-4 text-[#0FEA7A] mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" />
                   <div>
                     <span className="text-sm block">{CONTACT.phone}</span>
-                    <span className="text-xs text-[#7A9E98]/60">Mon–Sat</span>
+                    <span className="text-xs text-[#7A9E98]/80">Mon–Sat</span>
                   </div>
                 </a>
               </li>
@@ -164,7 +164,7 @@ export default function Footer() {
                 <span className="text-[#E8F4F1] font-medium block mb-1">Hours</span>
                 <span className="block">Mon–Fri: 08:00 – 17:30</span>
                 <span className="block">Saturday: 09:00 – 13:00</span>
-                <span className="block text-[#7A9E98]/60">Closed Sundays</span>
+                <span className="block text-[#7A9E98]/80">Closed Sundays</span>
               </li>
             </ul>
           </div>

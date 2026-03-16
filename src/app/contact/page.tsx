@@ -293,7 +293,7 @@ export default function ContactPage() {
                   <div className="space-y-1 text-sm">
                     <p>Monday &ndash; Friday: 08:00 &ndash; 17:30</p>
                     <p>Saturday: 09:00 &ndash; 13:00</p>
-                    <p className="text-[#7A9E98]/60">Closed Sundays &amp; Public Holidays</p>
+                    <p className="text-[#7A9E98]/80">Closed Sundays &amp; Public Holidays</p>
                   </div>
                 </div>
               </div>

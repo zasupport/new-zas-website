@@ -37,11 +37,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Fourways to collect my MacBook?',
-    answer: 'Yes. We offer collection from Fourways for all logic board repairs. Our Hyde Park workshop is approximately 20–25 km from Fourways, roughly 20 to 30 minutes via the N14 or William Nicol Drive depending on traffic. We arrange a collection time that suits your schedule, carry out the repair, and return your MacBook once complete.',
+    answer: 'Yes. We offer collection from Fourways for all logic board repairs. Our Hyde Park workshop is approximately 13 km from Fourways, roughly 20 to 30 minutes via the N14 or William Nicol Drive depending on traffic. We arrange a collection time that suits your schedule, carry out the repair, and return your MacBook once complete.',
   },
   {
     question: 'How far is Fourways from your workshop?',
-    answer: 'Fourways is approximately 20–25 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Friday 08:00–17:30 and Saturday 09:00–13:00.',
+    answer: 'Fourways is approximately 13 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Friday 08:00–17:30 and Saturday 09:00–13:00.',
   },
   {
     question: 'My MacBook Air M2 will not turn on. Is that repairable?',

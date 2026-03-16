@@ -37,11 +37,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Sandton to collect my MacBook?',
-    answer: 'Yes. We offer a collection and return service for Sandton clients. Your MacBook is collected from your home or office in Sandton, repaired at our Hyde Park workshop, approximately 8 minutes away, and returned once the repair is complete. Contact us on WhatsApp or by phone to arrange a collection time that suits you.',
+    answer: 'Yes. We offer a collection and return service for Sandton clients. Your MacBook is collected from your home or office in Sandton, repaired at our Hyde Park workshop, approximately 15 minutes away, and returned once the repair is complete. Contact us on WhatsApp or by phone to arrange a collection time that suits you.',
   },
   {
     question: 'How far is Sandton from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 4–6 km from central Sandton, roughly an 8 to 12-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Friday 08:00–17:30 and Saturday 09:00–13:00.',
+    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 9.5 km from central Sandton, roughly a 15-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Friday 08:00–17:30 and Saturday 09:00–13:00.',
   },
   {
     question: 'What is the difference between microsoldering and a board replacement?',
@@ -104,7 +104,7 @@ export default function LogicBoardRepairSandtonPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park microsoldering workshop, just 8 minutes away. Assessment: R899 ex VAT.
+              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park microsoldering workshop, just 15 minutes away. Assessment: R899 ex VAT.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
