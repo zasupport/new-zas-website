@@ -195,7 +195,7 @@ const aggregateRatingSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: SITE.rating,
-    reviewCount: '120',
+    reviewCount: '632',
     bestRating: '5',
     worstRating: '1',
   },

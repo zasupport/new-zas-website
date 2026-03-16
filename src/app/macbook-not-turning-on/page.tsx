@@ -268,7 +268,7 @@ const aggregateRatingSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
-    reviewCount: '120',
+    reviewCount: '632',
     bestRating: '5',
     worstRating: '1',
   },
@@ -669,7 +669,7 @@ export default function MacBookNotTurningOnPage() {
                 <Star key={s} className="w-5 h-5 fill-amber-400 text-amber-400" />
               ))}
               <span className="text-[#E8F4F1] font-bold ml-2">4.9 / 5</span>
-              <span className="text-[#7A9E98] text-sm ml-1">— 120 verified reviews</span>
+              <span className="text-[#7A9E98] text-sm ml-1">— 632 verified reviews</span>
             </div>
             <h2
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]"

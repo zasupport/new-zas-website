@@ -175,7 +175,7 @@ export default function AssessmentProcessPage() {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.9',
-      reviewCount: '120',
+      reviewCount: '632',
       bestRating: '5',
       worstRating: '1',
     },
@@ -476,7 +476,7 @@ export default function AssessmentProcessPage() {
                 ))}
                 <span className="ml-2 font-semibold" style={{ color: '#E8F4F1' }}>4.9 / 5</span>
               </div>
-              <p className="text-sm" style={{ color: '#7A9E98' }}>Based on 120 verified reviews</p>
+              <p className="text-sm" style={{ color: '#7A9E98' }}>Based on 632 verified reviews</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -613,7 +613,7 @@ export default function AssessmentProcessPage() {
                 { icon: Shield, title: '16 Years', sub: 'Mac repair expertise in Johannesburg' },
                 { icon: CheckCircle, title: 'Component-Level', sub: 'Microsoldering, not board swaps' },
                 { icon: Clock, title: 'Warranty', sub: 'On all repairs, industry leading' },
-                { icon: Star, title: '4.9 / 5 Rating', sub: 'Based on 120 verified reviews' },
+                { icon: Star, title: '4.9 / 5 Rating', sub: 'Based on 632 verified reviews' },
               ].map(({ icon: Icon, title, sub }) => (
                 <div
                   key={title}

@@ -157,7 +157,7 @@ const aggregateRatingSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
-    reviewCount: '120',
+    reviewCount: '632',
     bestRating: '5',
     worstRating: '1',
   },
@@ -205,7 +205,7 @@ export default function iPadBatteryPage() {
           />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <Star className="w-4 h-4 fill-current" /> 4.9 / 5 from 120 verified repairs
+              <Star className="w-4 h-4 fill-current" /> 4.9 / 5 from 632 verified reviews
             </div>
             <h1
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-6"

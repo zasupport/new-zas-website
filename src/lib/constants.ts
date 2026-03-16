@@ -6,7 +6,7 @@ export const SITE = {
   foundingDate: '2009',
   vat: '436-026-0014',
   rating: '4.9',
-  reviewCount: '120+',
+  reviewCount: '632',
   repairsCount: '3,000+',
   yearsExperience: '16',
   googleMapsUrl: 'https://maps.google.com/?q=1+Hyde+Lane+Hyde+Park+Johannesburg',

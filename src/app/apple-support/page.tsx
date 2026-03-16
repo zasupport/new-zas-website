@@ -9,7 +9,7 @@ import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Support Johannesburg | Same-Day Help for Mac, iPhone, iPad | ZA Support',
   description:
-    "Apple support in Johannesburg. On-site and in-studio help for Mac, iPhone, iPad and Apple Watch. Setup, troubleshooting, data recovery, business IT. 4.9★ 120+ reviews. Call 064 529 5863.",
+    "Apple support in Johannesburg. On-site and in-studio help for Mac, iPhone, iPad and Apple Watch. Setup, troubleshooting, data recovery, business IT. 4.9★ 632+ reviews. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com/apple-support' },
 };
 

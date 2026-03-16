@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: '%s | ZA Support',
   },
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. Assessment: R899 ex VAT. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. Assessment: R899 ex VAT. Call 064 529 5863.",
   keywords: [
     'Apple repair Johannesburg',
     'MacBook repair Johannesburg',

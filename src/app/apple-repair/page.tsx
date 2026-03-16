@@ -25,7 +25,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Mac Repair, Johannesburg | ZA Support',
   description:
-    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. 3-month warranty. 4.9★ 120+ reviews. Assessment: R899 ex VAT. Hyde Park. Call 064 529 5863.",
+    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. 3-month warranty. 4.9★ 632+ reviews. Assessment: R899 ex VAT. Hyde Park. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com/apple-repair' },
   openGraph: {
     title: 'Apple Mac Repair Johannesburg | ZA Support',
@@ -263,7 +263,7 @@ const aggregateRatingSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
-    reviewCount: '120',
+    reviewCount: '632',
     bestRating: '5',
     worstRating: '1',
   },

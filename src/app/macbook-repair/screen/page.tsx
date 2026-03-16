@@ -114,7 +114,7 @@ const aggregateRatingSchema = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
-    reviewCount: '120',
+    reviewCount: '632',
     bestRating: '5',
     worstRating: '1',
   },
@@ -246,7 +246,7 @@ export default function MacBookScreenPage() {
               </div>
               <div>
                 <span className="text-3xl font-extrabold text-[#E8F4F1]">4.9</span>
-                <span className="text-[#7A9E98] ml-2 text-sm">/ 5 from 120 verified repairs</span>
+                <span className="text-[#7A9E98] ml-2 text-sm">/ 5 from 632 verified reviews</span>
               </div>
             </div>
             <p className="text-[#7A9E98] text-sm text-center sm:text-right max-w-xs">

@@ -24,7 +24,7 @@ interface StaticReview {
 
 async function fetchGoogleReviews(): Promise<PlacesApiResponse | null> {
   const key = process.env.GOOGLE_MAPS_API_KEY;
-  const placeId = process.env.GOOGLE_PLACE_ID || 'ChIJN1t_tDeuEmsRUsoyG83frY4';
+  const placeId = process.env.GOOGLE_PLACE_ID || 'ChIJW-UAmbwMlR4RFE71YI_pK5g';
 
   if (!key) return null;
 

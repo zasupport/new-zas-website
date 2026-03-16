@@ -14,7 +14,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 export const metadata: Metadata = {
   title: 'Mac Repair Johannesburg, Logic Board Specialists',
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. 3-month warranty. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. 3-month warranty. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com' },
 };
 
