@@ -296,13 +296,37 @@ const reviewSchema = {
   '@type': 'LocalBusiness',
   '@id': 'https://zasupport.com/#business',
   name: 'ZA Support',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
+  },
   review: customerReviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },
     datePublished: r.date,
-    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
+    reviewRating: { '@type': 'Rating', ratingValue: String(r.rating), bestRating: '5' },
     reviewBody: r.text,
+    itemReviewed: {
+      '@type': 'Service',
+      name: 'MacBook Logic Board Repair Johannesburg',
+      provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
+    },
   })),
+};
+
+const speakableSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': 'https://zasupport.com/logic-board-repair#webpage',
+  name: 'Logic Board Repair Johannesburg | ZA Support',
+  url: 'https://zasupport.com/logic-board-repair',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '.speakable-summary'],
+  },
 };
 
 export default function LogicBoardRepairPage() {
@@ -314,6 +338,7 @@ export default function LogicBoardRepairPage() {
       <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={reviewSchema} />
       <SchemaOrg schema={howToSchema} />
+      <SchemaOrg schema={speakableSchema} />
 
       {/* ── HERO ── */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">
@@ -324,7 +349,7 @@ export default function LogicBoardRepairPage() {
               MacBook Logic Board Repair
               <br /><span className="text-[#0FEA7A]">in Johannesburg</span>
             </h1>
-            <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
+            <p className="speakable-summary text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Johannesburg&apos;s microsoldering specialists. We repair the chips other shops replace.
               Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park.
             </p>

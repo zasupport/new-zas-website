@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Phone, ArrowRight, Shield, Activity, Wrench, HardDrive, Wifi, Laptop, Building2, MessageCircle } from 'lucide-react';
+import { Phone, ArrowRight, Shield, Activity, Wrench, HardDrive, Wifi, Laptop, Building2, MessageCircle, Cpu } from 'lucide-react';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -155,12 +155,20 @@ const jsonLd = {
 
 const services = [
   {
+    icon: Cpu,
+    title: 'Logic Board Repair',
+    description:
+      'Component-level microsoldering for MacBook no-power, no-display, USB-C failure, GPU faults, and liquid damage. We repair the chips other shops replace. Free diagnostic. No Fix No Fee.',
+    href: '/logic-board-repair',
+    highlight: '#1 Service',
+  },
+  {
     icon: Laptop,
     title: 'MacBook Repair',
     description:
       'Component-level repair for all MacBook models. Logic board microsoldering, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. No Fix No Fee on every job.',
     href: '/macbook-repair',
-    highlight: 'Most popular',
+    highlight: null,
   },
   {
     icon: Wrench,

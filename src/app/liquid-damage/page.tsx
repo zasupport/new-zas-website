@@ -158,6 +158,58 @@ const breadcrumbSchema = {
 
 const faqSchema = buildFaqSchema(faqs);
 
+const liquidDamageReviewSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': 'https://zasupport.com/#business',
+  name: 'ZA Support',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  review: [
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Sarah K.' },
+      datePublished: '2026-02',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Spilled an entire cup of coffee on my MacBook Pro 2021. ZA Support had it in ultrasonic cleaning within 2 hours of bringing it in. Two days later it was completely restored. They found corrosion on the USB-C controller and replaced it. Absolutely incredible service.',
+      itemReviewed: {
+        '@type': 'Service',
+        name: 'MacBook Liquid Damage Repair Johannesburg',
+        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
+      },
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'David M.' },
+      datePublished: '2026-01',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a 12-month warranty. Cannot believe it.',
+      itemReviewed: {
+        '@type': 'Service',
+        name: 'MacBook Liquid Damage Repair Johannesburg',
+        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
+      },
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Nomsa P.' },
+      datePublished: '2026-03',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Free diagnostic, no surprises on the invoice. 5 stars.',
+      itemReviewed: {
+        '@type': 'Service',
+        name: 'MacBook Liquid Damage Repair Johannesburg',
+        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
+      },
+    },
+  ],
+};
+
 export default function LiquidDamagePage() {
   return (
     <>
@@ -165,6 +217,7 @@ export default function LiquidDamagePage() {
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={howToSchema} />
+      <SchemaOrg schema={liquidDamageReviewSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">

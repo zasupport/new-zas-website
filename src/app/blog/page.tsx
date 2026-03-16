@@ -10,6 +10,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'macbook-logic-board-repair-cost-johannesburg-2026',
+    title: 'MacBook Logic Board Repair in Johannesburg: What to Expect in 2026',
+    excerpt: 'Everything you need to know about MacBook logic board repair costs in Johannesburg — what a logic board does, signs it has failed, how the repair works, and why component-level repair saves you thousands.',
+    date: '16/03/2026',
+    category: 'Repair Guides',
+    readTime: '7 min read',
+  },
+  {
     slug: 'how-to-speed-up-mac-free',
     title: 'How to Speed Up Your Mac for Free (2026 Guide)',
     excerpt: 'Ten free steps to make your Mac noticeably faster today — from clearing startup items and resetting the SMC to cleaning your Downloads folder and managing storage pressure. No paid software required.',

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Phone, Menu, X, Zap } from 'lucide-react';
+import { Phone, Menu, X, Zap, Calendar } from 'lucide-react';
 import { CONTACT, NAV_LINKS } from '@/lib/constants';
 
 export default function Navbar() {
@@ -75,12 +75,13 @@ export default function Navbar() {
             >
               💬 WhatsApp
             </a>
-            <a
-              href={`tel:${CONTACT.phoneTel}`}
-              className="border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+            <Link
+              href="/book"
+              className="flex items-center gap-1.5 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
             >
-              Book Repair
-            </a>
+              <Calendar className="w-4 h-4" />
+              Book a Repair
+            </Link>
           </div>
 
           {/* Mobile Toggle */}
@@ -117,9 +118,17 @@ export default function Navbar() {
               >
                 💬 WhatsApp for Quote
               </a>
+              <Link
+                href="/book"
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
+                <Calendar className="w-5 h-5" />
+                Book a Repair
+              </Link>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
-                className="flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[rgba(15,234,122,0.08)] transition-all"
+                className="flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#7A9E98] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
                 <Phone className="w-5 h-5" />
                 Call {CONTACT.phone}

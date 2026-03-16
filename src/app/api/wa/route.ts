@@ -43,5 +43,12 @@ export async function GET(request: NextRequest) {
     console.log(`[wa-track] service=${service} page=${page}`);
   }
 
-  return NextResponse.redirect(waUrl, { status: 302 });
+  const response = NextResponse.redirect(waUrl, { status: 302 });
+  // Track returning visitors — 30 day expiry
+  response.cookies.set('za_wa_click', '1', {
+    maxAge: 60 * 60 * 24 * 30,
+    path: '/',
+    sameSite: 'lax',
+  });
+  return response;
 }

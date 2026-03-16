@@ -110,6 +110,18 @@ const aggregateRatingSchema = {
   aggregateRating: AGGREGATE_RATING,
 };
 
+const speakableSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': 'https://zasupport.com/#webpage',
+  name: 'Mac Repair Johannesburg — Logic Board Specialists | ZA Support',
+  url: 'https://zasupport.com',
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '.speakable-summary'],
+  },
+};
+
 const homepageFaqs = [
   {
     question: 'Where is ZA Support located in Johannesburg?',
@@ -161,6 +173,7 @@ export default function HomePage() {
       <SchemaOrg schema={websiteSchema} />
       <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={faqSchema} />
+      <SchemaOrg schema={speakableSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay min-h-screen flex items-center pt-20">
@@ -183,7 +196,7 @@ export default function HomePage() {
               <span className="text-[#0FEA7A] glow-text-green">Apple Specialists</span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
+            <p className="speakable-summary text-xl sm:text-2xl text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
               MacBook liquid damage, logic board microsoldering, iPhone &amp; iPad repair.
               Hyde Park, Johannesburg. No Fix No Fee.
             </p>

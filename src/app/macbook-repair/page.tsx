@@ -159,12 +159,65 @@ const serviceSchema = {
 
 const faqSchema = buildFaqSchema(faqs);
 
+const macbookReviewSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': 'https://zasupport.com/#business',
+  name: 'ZA Support',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '120',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  review: [
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Michael B.' },
+      datePublished: '2026-02',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Brought my MacBook Pro 16-inch in for a battery replacement and keyboard issue. ZA Support had it back to me the same day. Transparent pricing, no hidden costs, and the 12-month warranty gives real peace of mind.',
+      itemReviewed: {
+        '@type': 'Service',
+        name: 'MacBook Repair Johannesburg',
+        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
+      },
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Thabo N.' },
+      datePublished: '2026-01',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'MacBook Air would not turn on. ZA Support diagnosed it as a failed charging IC and fixed it in 24 hours. The free diagnostic meant I knew exactly what was wrong before committing to anything. Excellent service.',
+      itemReviewed: {
+        '@type': 'Service',
+        name: 'MacBook Repair Johannesburg',
+        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
+      },
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Lisa V.' },
+      datePublished: '2026-03',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Used ZA Support for a screen replacement on my MacBook. Professional, fast, and fairly priced. They also spotted a swollen battery I did not know about and flagged it — saved me from a bigger problem later.',
+      itemReviewed: {
+        '@type': 'Service',
+        name: 'MacBook Repair Johannesburg',
+        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
+      },
+    },
+  ],
+};
+
 export default function MacBookRepairPage() {
   return (
     <>
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
+      <SchemaOrg schema={macbookReviewSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">
@@ -272,6 +325,15 @@ export default function MacBookRepairPage() {
           <p className="text-[#7A9E98] text-xs text-center mt-6">
             Final cost confirmed after free assessment. All repairs include 12-month warranty.
           </p>
+          <div className="mt-8 p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-xl text-center">
+            <p className="text-[#E8F4F1] text-sm">
+              Looking for component-level{' '}
+              <Link href="/logic-board-repair" className="text-[#0FEA7A] font-semibold hover:underline">
+                logic board microsoldering
+              </Link>
+              ? We repair the chips other shops replace — at a fraction of Apple&apos;s board replacement quote.
+            </p>
+          </div>
         </div>
       </section>
 

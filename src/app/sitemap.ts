@@ -9,15 +9,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
 
     // High-intent symptom pages
-    { url: `${base}/macbook-not-turning-on`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/macbook-not-turning-on`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
 
     // Priority hubs
-    { url: `${base}/liquid-damage`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${base}/logic-board-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/liquid-damage`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
+    { url: `${base}/logic-board-repair`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
     { url: `${base}/iphone-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/apple-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/apple-support`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
     { url: `${base}/macbook-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/book`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/macbook-air-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/macbook-pro-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/imac-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
@@ -100,7 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/ipad-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
 
     // No Fix No Fee — zero-competition SEO keyword
-    { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
 
     // Core pages
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
@@ -118,5 +119,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/apple-id-locked-out`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/how-to-speed-up-mac-free`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/mac-not-turning-on-checklist`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+    { url: `${base}/blog/macbook-logic-board-repair-cost-johannesburg-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
   ];
 }

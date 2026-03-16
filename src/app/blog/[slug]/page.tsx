@@ -1220,6 +1220,110 @@ Our process starts with a free assessment: we review your current device estate,
 Contact us on 064 529 5863 or via our contact form to book your free assessment.
     `.trim(),
   },
+  'macbook-logic-board-repair-cost-johannesburg-2026': {
+    slug: 'macbook-logic-board-repair-cost-johannesburg-2026',
+    title: 'MacBook Logic Board Repair in Johannesburg: What to Expect in 2026',
+    excerpt: 'Everything you need to know about MacBook logic board repair costs in Johannesburg — what a logic board does, signs it has failed, how the repair works, and why component-level repair saves you thousands.',
+    date: '16/03/2026',
+    category: 'Repair Guides',
+    readTime: '7 min read',
+    author: 'Mary',
+    content: `
+## What Is a Logic Board?
+
+The logic board — also called the motherboard or mainboard — is the central circuit board inside every Mac. It is the backbone that connects your processor, RAM, storage, GPU, USB controllers, charging circuits, display controller, and every other component.
+
+When your logic board fails, your Mac fails. There is no workaround, no software fix, no restart sequence that bypasses a dead board. But that does not mean your Mac is beyond repair.
+
+## Signs Your Logic Board Has Failed
+
+Logic board failure presents differently depending on which component or circuit has stopped working. Common symptoms include:
+
+**No power at all** — The MacBook shows no signs of life when you press the power button. No fan spin, no startup chime, no LED. This is the most common presentation of a power management circuit failure.
+
+**Black screen on boot** — The Mac appears to start (you hear the fan, the keyboard lights up) but the display stays black. This points to a GPU failure, backlight circuit fault, or display controller issue on the board.
+
+**No charging** — The MacBook will not charge on either USB-C port, or only charges on one side. A failed BIOS chip or USB-C controller is usually responsible.
+
+**Random shutdowns and kernel panics** — Frequent crashes, especially under load, often indicate a failing voltage regulator or thermal management fault on the board.
+
+**USB-C and Thunderbolt failures** — Ports that do not recognise devices, monitors that do not display, or docks that connect intermittently. The USB-C/Thunderbolt controller chips sit on the logic board.
+
+**Liquid damage aftermath** — If your MacBook stopped working days or weeks after a liquid spill, corrosion has progressed to the point of board failure.
+
+## The Logic Board Repair Process at ZA Support
+
+We follow a structured process for every [logic board repair](/logic-board-repair) we undertake:
+
+**Step 1 — Free diagnostic.** Your Mac is inspected under a stereo microscope and tested with professional diagnostic tools. We identify the exact fault — not a generic guess — and provide a written quote. This is completely free with no obligation.
+
+**Step 2 — Board removal.** The logic board is carefully removed from the chassis. Every connector is documented and tested. The board is inspected under high magnification for physical damage, corrosion, or component failure.
+
+**Step 3 — Component-level repair.** Using a hot air rework station, precision soldering iron, and microscope, our technicians replace or reflow the failed component. This might be a power management IC, a USB-C controller, a BIOS chip, or a failed resistor or capacitor.
+
+**Step 4 — Post-repair testing.** The board is tested in isolation before reassembly to confirm the fault is resolved. We then reassemble the Mac and run a full functional test covering display, keyboard, trackpad, Wi-Fi, Bluetooth, camera, charging, and all ports.
+
+**Step 5 — Return with warranty.** Your Mac is returned clean and fully functional with a 12-month ZA Support warranty on all repaired components.
+
+## Why Component-Level Repair Beats Board Replacement
+
+Apple quotes for a new logic board when yours fails. That replacement board costs between R15,000 and R70,000 depending on the model — and on Apple Silicon Macs, board replacement means losing everything on your soldered SSD.
+
+Mac Shack and most high-street repair shops charge R4,499 for a "refurbished" board swap — a used board of unknown provenance with no guarantee the same fault will not recur.
+
+Component-level [logic board microsoldering](/logic-board-repair) replaces only what is broken. Your data stays intact. Your SSD stays in place. Your repair costs a fraction of board replacement. And our 12-month warranty covers the specific components we worked on — not a refurbished used board we cannot vouch for.
+
+## No Fix No Fee — What It Means for Logic Board Repair
+
+Logic board repair is the highest-risk category of Mac repair. Some boards are simply too far gone to recover. We will not charge you for a repair we cannot complete.
+
+Our [No Fix No Fee](/no-fix-no-fee) guarantee applies fully to logic board repair: if we assess your board and determine it cannot be economically repaired, or if we attempt the repair and cannot resolve the fault, you pay nothing. No diagnostic fee. No handling charge.
+
+## How to Book Your Free Logic Board Assessment
+
+The fastest way is to WhatsApp us on 064 529 5863 with your Mac model and the fault description. We will confirm a same-day or next-day appointment.
+
+You can also [book a repair online](/book) — fill in the form and we will respond within 2 hours.
+
+We are based at Hyde Park, Johannesburg. Clients come to us from Sandton, Rosebank, Fourways, Bryanston, Midrand, and across Gauteng.
+
+---
+
+## Frequently Asked Questions
+
+**How much does MacBook logic board repair cost in Johannesburg in 2026?**
+
+Component-level logic board repair at ZA Support typically costs between R1,500 and R5,500 depending on the specific fault, the Mac model, and which components need replacement. This compares to R4,499–R6,000 for a refurbished board swap at competitors, and R15,000–R70,000 for a new board from Apple. All assessments are free — you receive a fixed quote before any work begins.
+
+**Can a MacBook logic board be repaired without losing data?**
+
+In most cases, yes. Component-level repair leaves the SSD untouched. Your files, operating system, and settings remain on the storage device. Board replacement on Apple Silicon Macs, by contrast, requires a new SSD — meaning total data loss. This is one of the strongest reasons to choose microsoldering repair over board swap.
+
+**How long does logic board repair take?**
+
+Most logic board repairs are completed within 1–3 business days. Simple component replacements (a failed fuse, a single blown capacitor) can be done same-day. Complex faults involving BGA chip replacement or multi-point corrosion damage may take 3–5 days. We give you a realistic turnaround time at the diagnostic stage.
+
+**Is it worth repairing a 2015–2019 Intel MacBook logic board?**
+
+Yes, in most cases. Intel MacBook logic boards from 2015–2019 are well-understood and parts are available. Repair costs are typically lower than newer M-series models. Given that a replacement Intel MacBook Pro in good condition costs R10,000–R18,000 secondhand, a R2,000–R4,000 board repair is almost always the better financial decision.
+
+**Can liquid-damaged logic boards be repaired?**
+
+Yes. Liquid damage is the most common cause of logic board failure we see, and it is very frequently repairable. The outcome depends on how quickly the Mac was powered off after the spill and how long it sat before being brought in. We combine ultrasonic cleaning with component-level repair for liquid-damaged boards. Early intervention dramatically improves success rates.
+
+**Does ZA Support repair Apple Silicon (M1/M2/M3/M4) logic boards?**
+
+Yes. Apple Silicon logic board repair requires specialist tooling and expertise that most repair shops do not have — particularly for BGA chip work. ZA Support has the microscopy, hot-air, and BGA rework equipment required for M-series board repair. Not every fault on an M-series board is repairable, but many are, and the alternative (board replacement = data loss + R30,000+) makes the attempt worthwhile.
+
+**What is the warranty on logic board repair?**
+
+All logic board repairs at ZA Support carry a 12-month warranty on parts and labour. If the same fault recurs within 12 months of the repair, we fix it at no charge. This applies to the specific components replaced — not unrelated new faults.
+
+**What should I do if my MacBook suddenly stops working?**
+
+Do not attempt to restart it repeatedly — this can cause further damage. If there was any liquid exposure, do not plug in a charger. Bring it to us as soon as possible. We offer same-day assessment in Hyde Park, Johannesburg. The faster we see it, the higher the likelihood of a full, cost-effective repair.
+    `.trim(),
+  },
 };
 
 export async function generateStaticParams() {
@@ -1570,6 +1674,52 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           '@type': 'Question',
           name: 'How much does MacBook surge damage repair cost in Johannesburg?',
           acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage at component level — significantly less than a full board replacement at Apple or iStore. Free assessment, No Fix No Fee.' },
+        },
+      ],
+    },
+    'macbook-logic-board-repair-cost-johannesburg-2026': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'How much does MacBook logic board repair cost in Johannesburg in 2026?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Component-level logic board repair at ZA Support typically costs between R1,500 and R5,500 depending on the specific fault and Mac model. This compares to R4,499–R6,000 for a refurbished board swap at competitors, and R15,000–R70,000 for a new board from Apple. All assessments are free with No Fix No Fee.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can a MacBook logic board be repaired without losing data?',
+          acceptedAnswer: { '@type': 'Answer', text: 'In most cases, yes. Component-level repair leaves the SSD untouched. Board replacement on Apple Silicon Macs, by contrast, requires a new SSD — meaning total data loss. This is one of the strongest reasons to choose microsoldering repair over board swap.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How long does MacBook logic board repair take?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Most logic board repairs are completed within 1–3 business days. Simple component replacements can be done same-day. Complex faults involving BGA chip replacement or multi-point corrosion damage may take 3–5 days. We provide a realistic turnaround at the diagnostic stage.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Is it worth repairing a 2015–2019 Intel MacBook logic board?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes, in most cases. Intel MacBook logic boards from 2015–2019 are well-understood and parts are available. Given that a replacement Intel MacBook Pro costs R10,000–R18,000 secondhand, a R2,000–R4,000 board repair is almost always the better financial decision.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Can liquid-damaged MacBook logic boards be repaired?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. Liquid damage is the most common cause of logic board failure. The outcome depends on how quickly the Mac was powered off and how long it sat before being brought in. ZA Support combines ultrasonic cleaning with component-level repair for liquid-damaged boards. Early intervention dramatically improves success rates.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Does ZA Support repair Apple Silicon M1 M2 M3 M4 logic boards?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. ZA Support has the microscopy, hot-air, and BGA rework equipment required for M-series board repair in Johannesburg. Not every fault is repairable, but many are — and the alternative (board replacement equals data loss plus R30,000 or more) makes the attempt worthwhile.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What warranty does ZA Support provide on logic board repair?',
+          acceptedAnswer: { '@type': 'Answer', text: 'All logic board repairs at ZA Support carry a 12-month warranty on parts and labour. If the same fault recurs within 12 months, we fix it at no charge.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What should I do if my MacBook suddenly stops working?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Do not attempt to restart it repeatedly. If there was liquid exposure, do not plug in a charger. Bring it to ZA Support in Hyde Park, Johannesburg for a free same-day assessment. The faster we see it, the higher the likelihood of a full, cost-effective repair. No Fix No Fee.' },
         },
       ],
     },
