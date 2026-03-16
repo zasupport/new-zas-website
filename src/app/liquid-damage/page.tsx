@@ -288,26 +288,16 @@ export default function LiquidDamagePage() {
               </h2>
               <div className="space-y-5 text-[#7A9E98] leading-relaxed">
                 <p>
-                  The moment liquid enters your MacBook or iPhone, a damaging process begins. Water, even pure
-                  water, is a conductor when it carries dissolved minerals. The moment it bridges two electrical
-                  contacts on your logic board, it creates a short circuit. Current flows where it should not,
-                  components overheat, and damage begins.
+                  The moment liquid enters your device, it bridges contacts on the logic board, causing short circuits and immediate component damage.
                 </p>
                 <p>
-                  Within hours, the liquid begins to evaporate, but it leaves behind mineral deposits and
-                  corrosion products. Coffee, sugary drinks, and salt water are particularly destructive because
-                  they leave highly conductive residues that continue to cause damage even after the liquid has dried.
+                  Coffee, sugary drinks, and salt water are worst — they leave conductive residues that keep causing damage long after the liquid dries.
                 </p>
                 <p>
-                  This is why rice does not work. Rice can absorb some moisture from the air, but it cannot
-                  remove the corrosion and conductive deposits from the logic board. By the time your device feels
-                  &ldquo;dry,&rdquo; the corrosion is already eating through your board&apos;s copper traces and
-                  component pads.
+                  Rice does nothing. By the time your device feels dry, corrosion has already eaten through copper traces and component pads.
                 </p>
                 <p>
-                  Professional ultrasonic cleaning, the kind we perform in our Hyde Park workshop, physically
-                  removes these deposits using ultrasonic vibration in a cleaning solution, stopping the
-                  corrosion process before it causes permanent irreversible damage.
+                  Ultrasonic cleaning physically removes those deposits — stopping the corrosion process before it becomes permanent.
                 </p>
               </div>
             </div>
@@ -384,22 +374,10 @@ export default function LiquidDamagePage() {
             </h2>
             <div className="space-y-4 text-[#7A9E98] leading-relaxed">
               <p>
-                The rice myth is one of the most damaging pieces of consumer advice circulating online. Placing
-                your MacBook in a bag of rice may feel like you are doing something, but it is actively making
-                the situation worse.
-              </p>
-              <p>
-                Rice can absorb atmospheric moisture, but it cannot reach the corrosion that is already forming
-                on your device&apos;s logic board inside a sealed chassis. While your device sits in rice for 24 or
-                48 hours, corrosion is actively spreading across your board&apos;s copper traces and component pads.
-              </p>
-              <p>
-                Even worse, rice can introduce small starchy particles into your device through vents and openings,
-                which can cause additional problems later.
+                Rice absorbs atmospheric moisture — not the corrosion already forming on your logic board. While your device sits in a bag, the damage spreads.
               </p>
               <p className="text-[#E8F4F1] font-semibold">
-                The correct action: switch off immediately, do not attempt to charge, remove any accessories,
-                and bring it to our Hyde Park workshop as soon as possible. Every hour matters.
+                Switch off immediately. Do not charge it. Bring it to Hyde Park. Every hour matters.
               </p>
             </div>
           </div>
@@ -413,14 +391,10 @@ export default function LiquidDamagePage() {
               When Liquid Damage Affects the Logic Board
             </h2>
             <p className="text-[#7A9E98] leading-relaxed mb-4">
-              In severe liquid damage cases, corrosion can damage the logic board itself, affecting chips,
-              capacitors, and copper traces. Standard cleaning is not sufficient for these cases. Our engineers
-              use microscope-guided microsoldering to replace individual components at board level, which is far
-              more cost-effective than a full logic board replacement.
+              When corrosion reaches chips, capacitors, or copper traces, standard cleaning is not enough. We use microscope-guided microsoldering to replace individual components — far cheaper than a full board swap.
             </p>
             <p className="text-[#7A9E98] leading-relaxed mb-6">
-              Common logic board failures from liquid damage include: no power, no display, USB-C not charging,
-              keyboard not responding, and data inaccessibility. Our{' '}
+              No power, no display, USB-C not charging, keyboard dead — our{' '}
               <Link href="/logic-board-repair" className="text-[#0FEA7A] hover:underline">
                 logic board repair service
               </Link>{' '}

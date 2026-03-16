@@ -264,7 +264,7 @@ export default function MacBookScreenPage() {
               MacBook Screen Replacement, <span className="text-[#0FEA7A]">Supported Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              OEM-quality display assemblies and labour included. Assessment: R899 ex VAT before any work begins. Written fixed quote, no hidden costs.
+              OEM-quality assemblies. Written fixed quote. No hidden costs.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -298,7 +298,7 @@ export default function MacBookScreenPage() {
               MacBook Screen Issues <span className="text-[#0FEA7A]">We Fix</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              If your MacBook display looks like any of these, bring it in for a assessment fee (R899 ex VAT). We diagnose before we quote.
+              Recognise any of these? Bring it in. We diagnose before we quote.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -455,7 +455,7 @@ export default function MacBookScreenPage() {
               Apple Silicon vs Intel, <span className="text-[#0FEA7A]">What Changes?</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto text-sm">
-              Both chip families are fully supported. Here is what differs during the repair process.
+              Both fully supported. Here is what differs.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
