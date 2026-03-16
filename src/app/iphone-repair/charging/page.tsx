@@ -222,8 +222,7 @@ export default function iPhoneChargingPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Charging port not working, cable falls out, lint blockage, we repair all iPhone charging faults.
-              Lightning and USB-C. iPhone 12 through 16 Pro Max.
-              Same-day available. 3-month warranty. Hyde Park, Johannesburg.
+              Lightning and USB-C, iPhone 12 through 16 Pro Max, same-day available, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
               {['Assessment: R899 ex VAT', 'Assessment: R899 ex VAT', '3-Month Warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
@@ -260,7 +259,7 @@ export default function iPhoneChargingPage() {
       </section>
 
       {/* ── Repair Services ──────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
             iPhone Charging Repair Services, Johannesburg 2026
@@ -292,7 +291,7 @@ export default function iPhoneChargingPage() {
       </section>
 
       {/* ── Symptoms ─────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
             Charging Faults We Repair
@@ -321,9 +320,9 @@ export default function iPhoneChargingPage() {
       </section>
 
       {/* ── Why Choose ZA Support ─────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
                 Why Choose ZA Support for iPhone Charging Repair
@@ -384,7 +383,7 @@ export default function iPhoneChargingPage() {
       </section>
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10" style={{ fontFamily: 'Syne, sans-serif' }}>
             How iPhone Charging Port Repair Works
@@ -406,14 +405,14 @@ export default function iPhoneChargingPage() {
       </section>
 
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="iPhone Charging Repair, Frequently Asked Questions" />
         </div>
       </section>
 
       {/* ── Related repairs ───────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
             Other iPhone Repairs
@@ -437,7 +436,7 @@ export default function iPhoneChargingPage() {
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2

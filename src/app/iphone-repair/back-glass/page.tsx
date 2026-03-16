@@ -225,8 +225,7 @@ export default function iPhoneBackGlassPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Cracked rear glass, MagSafe alignment, wireless charging, we repair all iPhone back glass faults.
-              iPhone 12 through 16 Pro Max.
-              3-month warranty. Hyde Park, Johannesburg.
+              iPhone 12 through 16 Pro Max, 3-month warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
               {['Assessment: R899 ex VAT', '3-Month Warranty', 'MagSafe preserved', 'IP68 re-sealed', 'Assessment: R899 ex VAT'].map((item) => (
@@ -263,7 +262,7 @@ export default function iPhoneBackGlassPage() {
       </section>
 
       {/* ── Pricing ──────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
             iPhone Back Glass Repair, Models Supported
@@ -295,7 +294,7 @@ export default function iPhoneBackGlassPage() {
       </section>
 
       {/* ── Symptoms ─────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
             Back Glass Problems We Repair
@@ -323,9 +322,9 @@ export default function iPhoneBackGlassPage() {
       </section>
 
       {/* ── Why Choose ZA Support ─────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
                 Why Choose ZA Support for iPhone Back Glass Repair
@@ -386,7 +385,7 @@ export default function iPhoneBackGlassPage() {
       </section>
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10" style={{ fontFamily: 'Syne, sans-serif' }}>
             How iPhone Back Glass Repair Works
@@ -408,14 +407,14 @@ export default function iPhoneBackGlassPage() {
       </section>
 
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="iPhone Back Glass Repair, Frequently Asked Questions" />
         </div>
       </section>
 
       {/* ── Related repairs ───────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
             Other iPhone Repairs
@@ -439,7 +438,7 @@ export default function iPhoneBackGlassPage() {
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2

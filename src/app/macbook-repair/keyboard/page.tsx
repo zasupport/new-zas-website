@@ -372,7 +372,7 @@ export default function MacBookKeyboardPage() {
       </section>
 
       {/* ── PRICING TABLE ────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2
@@ -446,7 +446,7 @@ export default function MacBookKeyboardPage() {
       </section>
 
       {/* ── BUTTERFLY EXPLAINER ──────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2
@@ -511,7 +511,7 @@ export default function MacBookKeyboardPage() {
       </section>
 
       {/* ── SYMPTOMS GRID ────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2
@@ -540,7 +540,7 @@ export default function MacBookKeyboardPage() {
       </section>
 
       {/* ── PROCESS ──────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2
@@ -603,7 +603,7 @@ export default function MacBookKeyboardPage() {
       </section>
 
       {/* ── REVIEWS ──────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2
@@ -616,7 +616,7 @@ export default function MacBookKeyboardPage() {
               MacBook keyboard repairs across Sandton, Fourways, Rosebank and surrounding suburbs.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {reviews.map((r) => (
               <div
                 key={r.name}
@@ -642,14 +642,14 @@ export default function MacBookKeyboardPage() {
       </section>
 
       {/* ── FAQ ──────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="MacBook Keyboard Repair, FAQs" />
         </div>
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2

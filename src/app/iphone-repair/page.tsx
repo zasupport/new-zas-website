@@ -94,7 +94,7 @@ export default function iPhoneRepairPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Repair Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -112,7 +112,7 @@ export default function iPhoneRepairPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Models We Repair</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
@@ -126,13 +126,13 @@ export default function iPhoneRepairPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="iPhone Repair, Common Questions" />
         </div>
       </section>
 
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Damaged? We Can Fix It.</h2>

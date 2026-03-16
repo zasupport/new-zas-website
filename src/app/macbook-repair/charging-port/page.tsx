@@ -299,7 +299,7 @@ export default function MacBookChargingPortPage() {
       </section>
 
       {/* ── Why Won't My MacBook Charge ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
@@ -312,7 +312,7 @@ export default function MacBookChargingPortPage() {
               Five root causes, from cheapest to most complex. A assessment fee (R899 ex VAT) tells you which one applies before you spend anything.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {causes.map((c, i) => (
               <div
                 key={c.title}
@@ -366,9 +366,9 @@ export default function MacBookChargingPortPage() {
       </section>
 
       {/* ── Symptoms We Fix ── */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
@@ -430,7 +430,7 @@ export default function MacBookChargingPortPage() {
       </section>
 
       {/* ── Our Diagnosis Process ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
@@ -443,7 +443,7 @@ export default function MacBookChargingPortPage() {
               A systematic five-step process that rules out cheap causes before escalating, saving you money every time.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {diagnosisSteps.map((s) => (
               <div
                 key={s.step}
@@ -498,7 +498,7 @@ export default function MacBookChargingPortPage() {
       </section>
 
       {/* ── Reviews ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-2 mb-3">
@@ -515,7 +515,7 @@ export default function MacBookChargingPortPage() {
               What Johannesburg Mac Owners Say
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {reviews.map((r) => (
               <div
                 key={r.name}
@@ -546,7 +546,7 @@ export default function MacBookChargingPortPage() {
       </section>
 
       {/* ── FAQs ── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="MacBook Not Charging, Frequently Asked Questions" />
         </div>
@@ -575,7 +575,7 @@ export default function MacBookChargingPortPage() {
       </section>
 
       {/* ── WhatsApp CTA ── */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2

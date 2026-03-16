@@ -298,7 +298,7 @@ export default function MacBookBatteryPage() {
       </section>
 
       {/* ── Signs You Need a Battery ─────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             Signs Your MacBook Needs a New Battery
@@ -333,7 +333,7 @@ export default function MacBookBatteryPage() {
       </section>
 
       {/* ── Models We Service ────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             MacBook Models We Service, Johannesburg
@@ -376,7 +376,7 @@ export default function MacBookBatteryPage() {
       </section>
 
       {/* ── Battery Health Explainer ──────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             Understanding MacBook Battery Health
@@ -385,7 +385,7 @@ export default function MacBookBatteryPage() {
             Every MacBook battery degrades over time. Here is what the numbers actually mean, and when to replace.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
             {/* Cycle Count */}
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
               <h3 className="text-[#E8F4F1] font-bold text-lg mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
@@ -445,7 +445,7 @@ export default function MacBookBatteryPage() {
       </section>
 
       {/* ── Repair Process ───────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-12 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             How MacBook Battery Replacement <span className="text-[#0FEA7A]">Works</span>
@@ -496,7 +496,7 @@ export default function MacBookBatteryPage() {
       </section>
 
       {/* ── Reviews ──────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             What Clients Say
@@ -504,7 +504,7 @@ export default function MacBookBatteryPage() {
           <p className="text-[#7A9E98] text-center mb-12">
             Rated 4.9 / 5 from 120 reviews across Johannesburg
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {reviews.map((r) => (
               <div key={r.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
                 <div className="flex gap-1">
@@ -531,7 +531,7 @@ export default function MacBookBatteryPage() {
       </section>
 
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion
             items={faqs}
@@ -564,7 +564,7 @@ export default function MacBookBatteryPage() {
       </section>
 
       {/* ── CTA Banner ───────────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <Battery className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />

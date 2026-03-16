@@ -345,7 +345,7 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* Emergency Guide */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <AlertTriangle className="w-6 h-6 text-[#F5A623]" />
@@ -392,7 +392,7 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* Why Rice Doesn't Work */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="glass-card p-8 border-[rgba(245,166,35,0.2)]">
             <h2
@@ -440,7 +440,7 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* Severity Tiers */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
@@ -492,7 +492,7 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* Repair Process */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
@@ -521,9 +521,9 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* Models We Repair */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16">
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-6"
@@ -605,7 +605,7 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* Reviews */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-10"
@@ -613,7 +613,7 @@ export default function MacBookProLiquidDamagePage() {
           >
             What Clients Say
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
               <div key={review.name} className="glass-card p-6 flex flex-col gap-4">
                 <div className="flex gap-0.5">
@@ -636,14 +636,14 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="MacBook Pro Liquid Damage, FAQs" />
         </div>
       </section>
 
       {/* Related Services */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-2xl font-extrabold text-[#E8F4F1] mb-6"
@@ -673,7 +673,7 @@ export default function MacBookProLiquidDamagePage() {
       </section>
 
       {/* WhatsApp CTA */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2

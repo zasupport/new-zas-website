@@ -276,9 +276,9 @@ export default function LiquidDamagePage() {
       </section>
 
       {/* What happens inside */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-start">
             <div>
               <h2
                 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6"
@@ -337,7 +337,7 @@ export default function LiquidDamagePage() {
       </section>
 
       {/* 6-Step Process */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-12 text-center"
@@ -345,7 +345,7 @@ export default function LiquidDamagePage() {
           >
             Our 6-Step Repair Process
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {steps.map((step, index) => (
               <div key={step.title} className="glass-card p-6">
                 <div className="step-number mb-4">0{index + 1}</div>
@@ -363,7 +363,7 @@ export default function LiquidDamagePage() {
       </section>
 
       {/* Why Rice Doesn't Work */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-[rgba(22,34,32,0.6)] border border-[rgba(255,165,0,0.2)] rounded-2xl p-8">
             <h2
@@ -425,7 +425,7 @@ export default function LiquidDamagePage() {
       </section>
 
       {/* Sub-pages grid */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2
             className="text-3xl font-extrabold text-[#E8F4F1] mb-8"
@@ -451,14 +451,14 @@ export default function LiquidDamagePage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="Liquid Damage Repair, Common Questions" />
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2

@@ -257,7 +257,7 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* SUPPORTED MODELS TABLE */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
@@ -291,7 +291,7 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* SCREEN ISSUES */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
@@ -314,7 +314,7 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* PROCESS */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
@@ -371,14 +371,14 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* WHY ZA SUPPORT */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               Why Johannesburg Mac Owners <span className="text-[#0FEA7A]">Choose ZA Support</span>
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {[
               {
                 title: 'Assessment: R899 ex VAT',
@@ -418,14 +418,14 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* REVIEWS */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               What Clients Say About Our <span className="text-[#0FEA7A]">Screen Replacements</span>
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {reviews.map((review) => (
               <div key={review.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
                 <div className="flex gap-1">
@@ -448,7 +448,7 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* APPLE SILICON vs INTEL, MODEL CALLOUTS */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
@@ -458,7 +458,7 @@ export default function MacBookScreenPage() {
               Both fully supported. Here is what differs.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.12)] flex items-center justify-center">
@@ -513,7 +513,7 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* WARRANTY COMPARISON */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
@@ -538,14 +538,14 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="MacBook Screen Replacement, Frequently Asked Questions" />
         </div>
       </section>
 
       {/* SUBURBS SERVED */}
-      <section className="py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18] border-t border-[rgba(255,255,255,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             MacBook Screen Replacement Near You, <span className="text-[#0FEA7A]">Johannesburg</span>
@@ -591,7 +591,7 @@ export default function MacBookScreenPage() {
       </section>
 
       {/* CTA BOTTOM */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>

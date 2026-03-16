@@ -257,7 +257,7 @@ export default function MacBookRepairPage() {
       </section>
 
       {/* Services grid */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             MacBook Repair <span className="text-[#0FEA7A]">Services</span>
@@ -265,7 +265,7 @@ export default function MacBookRepairPage() {
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
             From a dead battery to board-level microsoldering, every MacBook fault, one address.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service) => (
               <Link
                 key={service.href}
@@ -285,7 +285,7 @@ export default function MacBookRepairPage() {
       </section>
 
       {/* Repair Services Table */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             MacBook <span className="text-[#0FEA7A]">Repair Services</span>
@@ -338,7 +338,7 @@ export default function MacBookRepairPage() {
       </section>
 
       {/* Models */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             Models <span className="text-[#0FEA7A]">We Repair</span>
@@ -356,7 +356,7 @@ export default function MacBookRepairPage() {
       </section>
 
       {/* Model-specific hubs */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>Repair by MacBook Model</h2>
           <p className="text-[#7A9E98] text-center text-sm mb-8">See model-specific pricing, common faults, and repair options.</p>
@@ -380,9 +380,9 @@ export default function MacBookRepairPage() {
       </section>
 
       {/* Trust signals */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center">
             {[
               { icon: BadgeCheck, title: SITE.repairsCount + ' Repairs', sub: 'MacBook, iPhone and iPad' },
               { icon: Star, title: REVIEWS.rating + ' Stars', sub: REVIEWS.count + ' Google reviews' },
@@ -399,14 +399,14 @@ export default function MacBookRepairPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="MacBook Repair, FAQs" />
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Giving You Problems?</h2>

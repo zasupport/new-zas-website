@@ -254,7 +254,7 @@ export default function iPadBatteryPage() {
       </section>
 
       {/* ── Pricing ──────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
             iPad Battery Replacement Prices, Johannesburg 2026
@@ -287,7 +287,7 @@ export default function iPadBatteryPage() {
       </section>
 
       {/* ── Signs your battery needs replacing ───────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
             Signs Your iPad Battery Needs Replacing
@@ -296,7 +296,7 @@ export default function iPadBatteryPage() {
             Most iPad battery faults are easy to identify. If you recognise any of these symptoms,
             bring your iPad in, we test battery health for free and give you a written quote before starting.
           </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
               <div
                 key={s.title}
@@ -316,9 +316,9 @@ export default function iPadBatteryPage() {
       </section>
 
       {/* ── Why ZA Support ───────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
                 Why Replace Your iPad Battery at ZA Support?
@@ -379,12 +379,12 @@ export default function iPadBatteryPage() {
       </section>
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10" style={{ fontFamily: 'Syne, sans-serif' }}>
             How iPad Battery Replacement Works
           </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {processSteps.map((p) => (
               <div key={p.step} className="glass-card p-6">
                 <div className="w-8 h-8 rounded-full bg-[rgba(15,234,122,0.15)] flex items-center justify-center text-[#0FEA7A] font-bold text-sm mb-4">
@@ -401,14 +401,14 @@ export default function iPadBatteryPage() {
       </section>
 
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="iPad Battery Replacement, Frequently Asked Questions" />
         </div>
       </section>
 
       {/* ── CTA ──────────────────────────────────────────────────────────── */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2
