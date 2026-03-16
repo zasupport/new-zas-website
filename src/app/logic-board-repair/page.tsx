@@ -178,11 +178,92 @@ const serviceSchema = {
   name: 'MacBook Logic Board Repair Johannesburg',
   description: 'Expert MacBook logic board repair and microsoldering in Johannesburg. Free diagnostic. No Fix No Fee.',
   provider: LOCAL_BUSINESS_PROVIDER,
-  areaServed: { '@type': 'City', name: 'Johannesburg' },
-  offers: {
-    '@type': 'Offer',
-    description: 'MacBook logic board microsoldering repair. Free diagnostic. No Fix No Fee.',
+  areaServed: [
+    { '@type': 'City', name: 'Johannesburg' },
+    { '@type': 'Neighborhood', name: 'Hyde Park' },
+    { '@type': 'Neighborhood', name: 'Sandton' },
+    { '@type': 'Neighborhood', name: 'Rosebank' },
+  ],
+  availableChannel: [
+    { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
+    { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Logic Board Repair Services',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Free MacBook Logic Board Diagnostic',
+          description: 'Board-level inspection under microscope. Free with no obligation. No Fix No Fee.',
+        },
+        price: '0',
+        priceCurrency: 'ZAR',
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'MacBook Microsoldering Repair',
+          description: 'Component-level logic board repair. Chip replacement, trace repair, BGA reballing. 12-month warranty.',
+        },
+        priceCurrency: 'ZAR',
+      },
+    ],
   },
+};
+
+const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How MacBook logic board repair works',
+  description: 'The step-by-step process ZA Support follows for MacBook logic board microsoldering repair in Johannesburg.',
+  totalTime: 'P3D',
+  tool: [
+    { '@type': 'HowToTool', name: 'Soldering microscope' },
+    { '@type': 'HowToTool', name: 'Hot air rework station' },
+    { '@type': 'HowToTool', name: 'DC power supply for board-level testing' },
+  ],
+  supply: [],
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Free diagnostic assessment',
+      text: 'Your MacBook is disassembled and the logic board examined under magnification. We identify the specific failed component or damaged area and provide a written quote before any work begins. No Fix No Fee — zero cost if we cannot repair it.',
+      url: 'https://zasupport.com/logic-board-repair#diagnostic',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Board-level inspection and fault isolation',
+      text: 'We use a DC power supply to inject voltage at known-good rails, trace short circuits, and identify the exact failed component — a specific chip, capacitor, fuse, or damaged trace.',
+      url: 'https://zasupport.com/logic-board-repair#inspection',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Component-level microsoldering repair',
+      text: 'The failed component is removed under microscope using a hot air rework station. The replacement part is soldered in place with precision, and flux is cleaned from surrounding pads and traces.',
+      url: 'https://zasupport.com/logic-board-repair#repair',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Full functional test',
+      text: 'After reassembly, your MacBook is tested for display, charging, ports, Wi-Fi, keyboard, trackpad, and all sensors. We confirm the original fault is resolved and no new issues have been introduced.',
+      url: 'https://zasupport.com/logic-board-repair#testing',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 5,
+      name: 'Return with 12-month warranty',
+      text: 'Your repaired MacBook is returned with a written 12-month warranty on the specific component or fault repaired. If the same fault returns within 12 months, we fix it at no charge.',
+      url: 'https://zasupport.com/logic-board-repair#warranty',
+    },
+  ],
 };
 
 const breadcrumbSchema = {
@@ -232,6 +313,7 @@ export default function LogicBoardRepairPage() {
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={reviewSchema} />
+      <SchemaOrg schema={howToSchema} />
 
       {/* ── HERO ── */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">
@@ -261,7 +343,7 @@ export default function LogicBoardRepairPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20help%20with%20my%20MacBook%20logic%20board"
+                href="/api/wa?service=logic-board&page=/logic-board-repair"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
@@ -542,7 +624,7 @@ export default function LogicBoardRepairPage() {
           {/* Mid-page WhatsApp CTA */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
-              href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20help%20with%20my%20MacBook%20logic%20board"
+              href="/api/wa?service=logic-board&page=/logic-board-repair"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
@@ -671,7 +753,7 @@ export default function LogicBoardRepairPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20help%20with%20my%20MacBook%20logic%20board"
+                href="/api/wa?service=logic-board&page=/logic-board-repair"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"

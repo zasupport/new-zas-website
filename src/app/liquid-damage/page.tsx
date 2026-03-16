@@ -71,8 +71,80 @@ const serviceSchema = {
   name: 'MacBook Liquid Damage Repair Johannesburg',
   description: 'Professional MacBook and Apple device liquid damage repair. Ultrasonic cleaning, board-level diagnostics, component repair. Hyde Park, Johannesburg.',
   provider: LOCAL_BUSINESS_PROVIDER,
-  areaServed: { '@type': 'City', name: 'Johannesburg' },
+  areaServed: [
+    { '@type': 'City', name: 'Johannesburg' },
+    { '@type': 'Neighborhood', name: 'Hyde Park' },
+    { '@type': 'Neighborhood', name: 'Sandton' },
+  ],
+  availableChannel: [
+    { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
+    { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Liquid Damage Repair Services',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'MacBook Liquid Damage Assessment',
+          description: 'Free same-day assessment for MacBook liquid damage. No Fix No Fee.',
+        },
+        price: '0',
+        priceCurrency: 'ZAR',
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'MacBook Liquid Damage Repair — Ultrasonic Cleaning',
+          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. 12-month warranty.',
+        },
+        priceCurrency: 'ZAR',
+      },
+    ],
+  },
+};
 
+const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'What to do if your MacBook gets water damage',
+  description: 'Immediate steps to take after liquid spills on your MacBook, to maximise the chance of a successful repair.',
+  totalTime: 'PT15M',
+  tool: [],
+  supply: [],
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Switch off immediately and do not turn it back on',
+      text: 'Hold the power button until the Mac shuts down. Do not try to restart it — powering on a wet board causes short circuits that accelerate damage and turn a repairable fault into permanent failure.',
+      url: 'https://zasupport.com/liquid-damage#step-switch-off',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Do not put it in rice',
+      text: 'Rice does not remove corrosion and does not dry the internals effectively. Rice wastes critical time. The window for successful repair narrows rapidly after liquid exposure.',
+      url: 'https://zasupport.com/liquid-damage#step-no-rice',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Remove all cables and accessories',
+      text: 'Unplug the charger, USB devices, and external monitors immediately. Tilt the Mac so any pooled liquid drains away from the logic board.',
+      url: 'https://zasupport.com/liquid-damage#step-unplug',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Bring it to ZA Support within hours',
+      text: 'Every hour that passes allows corrosion to spread. Bring your MacBook to our Hyde Park workshop for a free same-day assessment. Earlier treatment delivers a significantly better repair outcome.',
+      url: 'https://zasupport.com/liquid-damage#step-bring-in',
+    },
+  ],
 };
 
 const breadcrumbSchema = {
@@ -92,6 +164,7 @@ export default function LiquidDamagePage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={howToSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">
@@ -118,12 +191,14 @@ export default function LiquidDamagePage() {
                 <Phone className="w-5 h-5" />
                 Call {CONTACT.phone}
               </a>
-              <Link
-                href="/contact"
+              <a
+                href="/api/wa?service=liquid-damage&page=/liquid-damage"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
-                Book Free Assessment <ArrowRight className="w-5 h-5" />
-              </Link>
+                WhatsApp for Quote <ArrowRight className="w-5 h-5" />
+              </a>
             </div>
           </div>
         </div>

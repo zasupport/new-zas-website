@@ -222,7 +222,7 @@ export default function NoFixNoFeePage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
-                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%27d%20like%20a%20free%20Mac%20assessment"
+                href="/api/wa?service=no-fix-no-fee&page=/no-fix-no-fee"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-lg transition-all hover:opacity-90 hover:scale-[1.02]"
@@ -569,7 +569,7 @@ export default function NoFixNoFeePage() {
                   Message us on WhatsApp with your Mac model and what it is doing. We will confirm a time and let you know what to bring.
                 </p>
                 <a
-                  href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%27d%20like%20a%20free%20Mac%20assessment"
+                  href="/api/wa?service=no-fix-no-fee&page=/no-fix-no-fee"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full py-4 rounded-xl font-semibold text-base transition-all hover:opacity-90"
@@ -675,7 +675,7 @@ export default function NoFixNoFeePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%27d%20like%20a%20free%20Mac%20assessment"
+                href="/api/wa?service=no-fix-no-fee&page=/no-fix-no-fee"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-semibold text-lg transition-all hover:opacity-90 hover:scale-[1.02]"

@@ -22,6 +22,9 @@
       ]
     }
   ],
+  "crons": [
+    { "path": "/api/seo-report/cron", "schedule": "0 7 * * *" }
+  ],
   "redirects": [
     { "source": "/services/mac-repair", "destination": "/apple-repair", "permanent": true },
     { "source": "/services/liquid-damage", "destination": "/liquid-damage", "permanent": true },

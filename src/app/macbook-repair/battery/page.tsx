@@ -46,9 +46,41 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Battery Replacement Johannesburg',
   provider: LOCAL_BUSINESS_PROVIDER,
-  areaServed: { '@type': 'City', name: 'Johannesburg' },
+  areaServed: [
+    { '@type': 'City', name: 'Johannesburg' },
+    { '@type': 'Neighborhood', name: 'Hyde Park' },
+    { '@type': 'Neighborhood', name: 'Sandton' },
+  ],
   description:
     'MacBook battery replacement in Johannesburg. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty on parts and labour.',
+  availableChannel: [
+    { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
+    { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'MacBook Battery Replacement Services',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'MacBook Air Battery Replacement Johannesburg',
+          description: 'MacBook Air M1/M2/M3 and Intel battery replacement. Same-day available. 12-month warranty.',
+        },
+        priceCurrency: 'ZAR',
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'MacBook Pro Battery Replacement Johannesburg',
+          description: 'MacBook Pro 13"/14"/16" Intel and M-series battery replacement. 12-month warranty.',
+        },
+        priceCurrency: 'ZAR',
+      },
+    ],
+  },
 };
 
 const breadcrumbSchema = {

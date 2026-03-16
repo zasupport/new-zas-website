@@ -274,6 +274,53 @@ const aggregateRatingSchema = {
   },
 };
 
+const howToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to fix a MacBook that won\'t turn on',
+  description: 'Step-by-step guide to diagnose and fix a MacBook that won\'t turn on, from free home fixes to professional repair in Johannesburg.',
+  totalTime: 'PT30M',
+  tool: [],
+  supply: [],
+  step: [
+    {
+      '@type': 'HowToStep',
+      position: 1,
+      name: 'Reset the SMC (Intel) or force restart (Apple Silicon)',
+      text: 'On Intel MacBooks: hold Shift + Control + Option + Power for 10 seconds, release, then press Power normally. On Apple Silicon: shut down, wait 30 seconds, then press Power.',
+      url: 'https://zasupport.com/macbook-not-turning-on#smc-reset',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 2,
+      name: 'Reset NVRAM / PRAM (Intel only)',
+      text: 'Power on and immediately hold Cmd + Option + P + R until the Apple logo appears and disappears twice. This clears cached startup settings.',
+      url: 'https://zasupport.com/macbook-not-turning-on#nvram-reset',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 3,
+      name: 'Remove all accessories and try a different charger',
+      text: 'Unplug every USB-C hub, external drive, and peripheral. Try a known-good Apple charger and cable. A faulty USB-C hub or cable is one of the top five causes of MacBooks that appear dead.',
+      url: 'https://zasupport.com/macbook-not-turning-on#check-charger',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 4,
+      name: 'Inspect the charging port for debris',
+      text: 'Use a torch to check the MagSafe or USB-C port for lint or damage. Use a dry non-metallic tool to clear any debris. Scorched or discoloured ports indicate surge damage — stop and bring the Mac in for professional diagnosis.',
+      url: 'https://zasupport.com/macbook-not-turning-on#port-inspection',
+    },
+    {
+      '@type': 'HowToStep',
+      position: 5,
+      name: 'Bring it in for a free professional assessment',
+      text: 'If none of the above steps work, bring your MacBook to ZA Support in Hyde Park, Johannesburg for a free same-day diagnosis. No Fix No Fee — you only pay if we repair it.',
+      url: 'https://zasupport.com/macbook-not-turning-on#get-help',
+    },
+  ],
+};
+
 // ─── Colour map ───────────────────────────────────────────────────────────────
 const colourMap: Record<string, string> = {
   emerald: 'text-emerald-400',
@@ -316,6 +363,7 @@ export default function MacBookNotTurningOnPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={aggregateRatingSchema} />
+      <SchemaOrg schema={howToSchema} />
 
       <main className="bg-[#0A1A18] min-h-screen">
 

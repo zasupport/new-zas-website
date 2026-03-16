@@ -141,6 +141,10 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
   description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty.',
+  availableChannel: [
+    { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
+    { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
+  ],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'MacBook Screen Replacement Models',

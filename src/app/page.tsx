@@ -23,7 +23,7 @@ const services = [
     description: 'Expert microsoldering for no-power, no-display, USB-C failure, and GPU faults.',
     href: '/logic-board-repair',
     accent: 'text-purple-400',
-    whatsapp: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20logic%20board%20repair%20quote',
+    whatsapp: '/api/wa?service=logic-board&page=/',
   },
   {
     icon: Droplets,
