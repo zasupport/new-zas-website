@@ -226,23 +226,19 @@ export default function MacBookAirLogicBoardPage() {
           </h2>
           <div className="space-y-5 text-[#7A9E98] leading-relaxed">
             <p>
-              The logic board is the central circuit board inside your MacBook Air, every component connects through
-              it. The processor, unified memory (on M-series), storage controller, USB-C ports, display output,
-              battery management, and keyboard all depend on it functioning correctly. When the logic board develops
-              a fault, symptoms range from a completely dead machine to subtler issues: a port that stopped charging,
-              a screen that stays black, or random shutdowns at an inconvenient moment.
+              The logic board is the central circuit board inside your MacBook Air — the processor, unified memory,
+              USB-C ports, display output, and battery management all run through it. When it develops a fault,
+              symptoms range from a completely dead machine to a port that stopped charging or a screen that stays black.
             </p>
             <p>
-              The important thing to understand is that most MacBook Air logic board failures are caused by a single
-              failed component, one fuse, one controller chip, one corroded trace. A microsoldering repair targets
-              that specific component under a stereo microscope. The rest of the board is untouched, your data remains
-              where it is, and the repair costs a fraction of what Apple or a board-swap shop would charge.
+              Most MacBook Air logic board failures are caused by a single failed component — one fuse, one controller
+              chip, one corroded trace. A microsoldering repair targets only that component under a stereo microscope,
+              leaving the rest of the board untouched and your data exactly where it is.
             </p>
             <p>
-              Apple does not perform component-level repair. They replace the entire logic board, which starts at
-              a significant amount for older models, more for recent Apple Silicon MacBook Airs. Component-level
-              repair is not available at Apple or most third-party shops in Johannesburg. It requires a microscope,
-              specialist equipment, and the training to use it. We have all three.
+              Apple replaces the entire logic board — component-level repair is not available at Apple or most
+              third-party shops in Johannesburg. It requires a microscope, specialist equipment, and the training
+              to use it. We have all three.
             </p>
             <h3 className="text-xl font-bold text-[#E8F4F1] mt-8 mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               Common Symptoms of a MacBook Air Logic Board Problem
@@ -323,7 +319,7 @@ export default function MacBookAirLogicBoardPage() {
             Every MacBook Air logic board repair follows the same structured process.
             No surprises. No hidden charges. No work without your approval.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {repairProcess.map((step) => (
               <div key={step.step} className="glass-card p-6">
                 <div className="flex items-center gap-3 mb-4">

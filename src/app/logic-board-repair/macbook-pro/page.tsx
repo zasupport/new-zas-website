@@ -228,20 +228,17 @@ export default function MacBookProLogicBoardPage() {
           </h2>
           <div className="space-y-5 text-[#7A9E98] leading-relaxed">
             <p>
-              The logic board is the main circuit board inside your MacBook Pro. Every component in the machine
-              connects to it, the processor, memory, storage, display, USB-C ports, battery, fans, and keyboard.
-              When the logic board fails, the effects range from a completely dead machine to subtle problems like
-              random shutdowns, a flickering screen, or a port that stopped working after a bump.
+              The logic board is the main circuit board inside your MacBook Pro — the processor, memory, storage,
+              display, USB-C ports, battery, and keyboard all connect through it. When it fails, the effects range
+              from a completely dead machine to subtler problems like random shutdowns or a port that stopped working.
             </p>
             <p>
-              Most people hear &ldquo;logic board fault&rdquo; and assume the machine is done. It is usually not. Logic board
-              failures are almost always caused by a single failed component, one chip, one capacitor, one damaged
-              trace. A microsoldering repair replaces that specific component under a stereo microscope, restoring the
-              board to full function. The cost is a fraction of a new board or a new machine.
+              Most logic board failures are caused by a single failed component — one chip, one capacitor, one damaged
+              trace. A microsoldering repair replaces only that component under a stereo microscope, restoring the
+              board to full function at a fraction of the cost of a full replacement.
             </p>
             <p>
-              Apple does not offer component-level repair, they replace the entire board at a significant premium.
-              We repair the component. Same result, fraction of the cost.
+              Apple replaces the entire board at a significant premium. We repair the component. Same result, fraction of the cost.
             </p>
             <h3 className="text-xl font-bold text-[#E8F4F1] mt-8 mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               Common Symptoms of a Logic Board Problem
@@ -322,7 +319,7 @@ export default function MacBookProLogicBoardPage() {
             Every MacBook Pro logic board repair follows the same process. No surprises, no hidden costs,
             no work done without your explicit approval.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {repairProcess.map((step) => (
               <div key={step.step} className="glass-card p-6">
                 <div className="flex items-center gap-3 mb-4">
