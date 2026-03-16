@@ -109,7 +109,7 @@ export default function AppleSupportPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Troubleshooting, setup, data migration, and ongoing support for every Apple device.
-              {SITE.yearsExperience} years Apple experience. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
+              {SITE.yearsExperience} years Apple experience. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -139,7 +139,7 @@ export default function AppleSupportPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
-              { icon: Shield, label: 'Assessment: R899 ex VAT' },
+              { icon: Shield, label: 'Assessment: from R599 ex VAT' },
               { icon: BadgeCheck, label: 'Warranty' },
               { icon: Clock, label: 'Same-Day Help' },
               { icon: Headphones, label: 'All Apple Devices' },
@@ -206,7 +206,7 @@ export default function AppleSupportPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Need Apple Support? Call Us.</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: from R599 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

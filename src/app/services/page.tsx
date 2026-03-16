@@ -79,7 +79,7 @@ const jsonLd = {
         name: 'Johannesburg',
       },
       description:
-        'Comprehensive Apple IT services in Johannesburg including Mac repair, logic board microsoldering, data recovery, virus removal, managed security, and SLA support.',
+        'Comprehensive Apple IT services in Johannesburg including Mac repair, logic board component-level repair, data recovery, virus removal, managed security, and SLA support.',
     },
     {
       '@type': 'FAQPage',
@@ -89,7 +89,7 @@ const jsonLd = {
           name: 'What IT services does ZA Support offer in Johannesburg?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'ZA Support offers MacBook repair, iMac repair, logic board microsoldering, liquid damage recovery, data recovery, virus removal, Health Check device monitoring, CyberShield cybersecurity, SLA managed IT support, JAMF MDM, and business IT services from our Hyde Park, Johannesburg office.',
+            text: 'ZA Support offers MacBook repair, iMac repair, logic board component-level repair, liquid damage recovery, data recovery, virus removal, Health Check device monitoring, CyberShield cybersecurity, SLA managed IT support, JAMF MDM, and business IT services from our Hyde Park, Johannesburg office.',
           },
         },
         {
@@ -97,7 +97,7 @@ const jsonLd = {
           name: 'Do you charge for an assessment?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A R899 ex VAT assessment fee applies. If you proceed with the repair, this fee is absorbed into the total repair cost, you do not pay it on top. If you decline the repair after assessment, the R899 ex VAT assessment fee is payable. New managed services clients receive a complimentary IT assessment at no charge.',
+            text: 'A from R599 ex VAT assessment fee applies. If you proceed with the repair, this fee is absorbed into the total repair cost, you do not pay it on top. If you decline the repair after assessment, the from R599 ex VAT assessment fee is payable. New managed services clients receive a complimentary IT assessment at no charge.',
           },
         },
         {
@@ -105,7 +105,7 @@ const jsonLd = {
           name: 'What is your assessment and repair process?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'We charge a R899 ex VAT assessment fee to inspect and diagnose your device. We then provide a transparent written quote. If you approve and proceed with the repair, the R899 assessment fee is absorbed into the repair cost. If you decline, the assessment fee of R899 ex VAT is payable for the diagnostic work completed.',
+            text: 'We charge a from R599 ex VAT assessment fee to inspect and diagnose your device. We then provide a transparent written quote. If you approve and proceed with the repair, the from R599 assessment fee is absorbed into the repair cost. If you decline, the assessment fee of from R599 ex VAT is payable for the diagnostic work completed.',
           },
         },
         {
@@ -113,7 +113,7 @@ const jsonLd = {
           name: 'How much does MacBook repair cost in Johannesburg?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'MacBook repair costs depend on the fault. An assessment fee of R899 ex VAT applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a 3-month warranty.',
+            text: 'MacBook repair costs depend on the fault. An assessment fee of from R599 ex VAT applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a up-to-3 year warranty.',
           },
         },
         {
@@ -145,7 +145,7 @@ const jsonLd = {
           name: 'How do I get started with ZA Support?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Assessment fee of R899 ex VAT applies, bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
+            text: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Assessment fee of from R599 ex VAT applies, bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
           },
         },
       ],
@@ -158,7 +158,7 @@ const services = [
     icon: Cpu,
     title: 'Logic Board Repair',
     description:
-      'Component-level microsoldering for MacBook no-power, no-display, USB-C failure, GPU faults, and liquid damage. We repair the chips other shops replace. 3-month warranty. Assessment: R899 ex VAT.',
+      'Component-level component-level repair for MacBook no-power, no-display, USB-C failure, GPU faults, and liquid damage. We repair the chips other shops replace. up-to-3 year warranty. Assessment: from R599 ex VAT.',
     href: '/logic-board-repair',
     highlight: '#1 Service',
   },
@@ -166,7 +166,7 @@ const services = [
     icon: Laptop,
     title: 'MacBook Repair',
     description:
-      'Component-level repair for all MacBook models. Logic board microsoldering, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. 3-month warranty on every job.',
+      'Component-level repair for all MacBook models. Logic board component-level repair, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. up-to-3 year warranty on every job.',
     href: '/macbook-repair',
     highlight: null,
   },
@@ -174,7 +174,7 @@ const services = [
     icon: Wrench,
     title: 'iMac Repair',
     description:
-      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a 3-month warranty.',
+      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a up-to-3 year warranty.',
     href: '/imac-repair',
     highlight: null,
   },
@@ -289,8 +289,8 @@ export default function ServicesPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {[
               ['Complimentary IT Assessment', 'For new managed services clients'],
-              ['Assessment Process', 'Transparent R899 ex VAT fee'],
-              ['3-Month Warranty', 'On all parts and labour'],
+              ['Assessment Process', 'Transparent from R599 ex VAT fee'],
+              ['Up-to-3 Year Warranty', 'On all parts and labour'],
               ['4.9 / 5 Rating', '120+ client reviews'],
             ].map(([heading, sub]) => (
               <div key={heading}>
@@ -399,7 +399,7 @@ export default function ServicesPage() {
                 ['Medical IT Experts', 'POPIA + HPCSA-compliant solutions for healthcare practices'],
                 ['Proactive Monitoring', 'Health Check detects failures before they happen'],
                 ['Transparent Pricing', 'All prices published. No surprise invoices.'],
-                ['3-Month Warranty', 'On all parts and labour, no exceptions'],
+                ['Up-to-3 Year Warranty', 'On all parts and labour, no exceptions'],
               ].map(([title, desc]) => (
                 <div key={title} className="glass-card p-5">
                   <p className="text-[#E8F4F1] font-bold text-sm mb-1.5">
@@ -426,11 +426,11 @@ export default function ServicesPage() {
             {[
               {
                 q: 'What IT services does ZA Support offer in Johannesburg?',
-                a: 'ZA Support offers MacBook repair, iMac repair, logic board microsoldering, liquid damage recovery, data recovery, virus removal, Health Check device monitoring, CyberShield cybersecurity, SLA managed IT support, JAMF MDM, and full business IT services from our Hyde Park, Johannesburg office.',
+                a: 'ZA Support offers MacBook repair, iMac repair, logic board component-level repair, liquid damage recovery, data recovery, virus removal, Health Check device monitoring, CyberShield cybersecurity, SLA managed IT support, JAMF MDM, and full business IT services from our Hyde Park, Johannesburg office.',
               },
               {
                 q: 'Do you charge for an assessment?',
-                a: 'A R899 ex VAT assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee is absorbed into the repair cost, you do not pay it separately. If you decline the repair after assessment, the R899 ex VAT assessment fee is payable for the diagnostic work completed.',
+                a: 'A from R599 ex VAT assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee is absorbed into the repair cost, you do not pay it separately. If you decline the repair after assessment, the from R599 ex VAT assessment fee is payable for the diagnostic work completed.',
               },
               {
                 q: 'Do new managed services clients get a free assessment?',
@@ -438,7 +438,7 @@ export default function ServicesPage() {
               },
               {
                 q: 'How much does MacBook repair cost in Johannesburg?',
-                a: 'MacBook repair costs depend on the fault. An assessment fee of R899 ex VAT applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a 3-month warranty.',
+                a: 'MacBook repair costs depend on the fault. An assessment fee of from R599 ex VAT applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a up-to-3 year warranty.',
               },
               {
                 q: 'What is Health Check monitoring?',
@@ -454,7 +454,7 @@ export default function ServicesPage() {
               },
               {
                 q: 'How do I get started?',
-                a: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Assessment fee of R899 ex VAT applies, bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
+                a: 'Call or WhatsApp 064 529 5863, or email courtney@zasupport.com. Assessment fee of from R599 ex VAT applies, bring your device to our Hyde Park office or we can arrange a site visit for business clients.',
               },
             ].map(({ q, a }) => (
               <div key={q} className="glass-card p-6">

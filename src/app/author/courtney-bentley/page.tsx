@@ -7,7 +7,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Courtney Bentley, Apple Certified Technician | ZA Support',
   description:
-    'Courtney Bentley is the founder of ZA Support and an Apple Certified Technician with 16 years of experience in Mac repair, JAMF MDM, and component-level microsoldering in Johannesburg.',
+    'Courtney Bentley is the founder of ZA Support and an Apple Certified Technician with 16 years of experience in Mac repair, JAMF MDM, and component-level component-level repair in Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/author/courtney-bentley' },
 };
 
@@ -18,14 +18,14 @@ const personSchema = {
   name: 'Courtney Bentley',
   jobTitle: 'Founder & Apple Certified Technician',
   description:
-    'Courtney Bentley is the founder of ZA Support (trading as Apple Experts) and has been repairing Apple devices in Johannesburg since 2009. Specialising in component-level microsoldering, JAMF MDM, and medical practice IT.',
+    'Courtney Bentley is the founder of ZA Support (trading as Apple Experts) and has been repairing Apple devices in Johannesburg since 2009. Specialising in component-level component-level repair, JAMF MDM, and medical practice IT.',
   url: 'https://zasupport.com/author/courtney-bentley',
   image: 'https://zasupport.com/courtney-bentley.jpg',
   email: CONTACT.email,
   telephone: CONTACT.phoneTel,
   knowsAbout: [
     'MacBook logic board repair',
-    'Component-level microsoldering',
+    'Component-level component-level repair',
     'JAMF MDM',
     'Apple device repair',
     'Medical practice IT',
@@ -42,7 +42,7 @@ const personSchema = {
     {
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: 'certification',
-      name: 'Component-Level Microsoldering, Apple Logic Boards',
+      name: 'Component-Level Component-level repair, Apple Logic Boards',
       issuedBy: { '@type': 'Organization', name: 'ZA Support' },
     },
   ],
@@ -60,7 +60,7 @@ const personSchema = {
 
 const credentials = [
   { icon: Award, label: 'JAMF Certified Technician', detail: 'Apple device management and MDM deployment' },
-  { icon: Wrench, label: 'Component-Level Microsoldering', detail: 'Logic board repair under microscope, chip-level' },
+  { icon: Wrench, label: 'Component-Level Component-level repair', detail: 'Logic board repair under microscope, chip-level' },
   { icon: Shield, label: 'Medical IT Specialist', detail: 'HPCSA-compliant IT for medical practices across Gauteng' },
   { icon: CheckCircle, label: '16 Years Apple Experience', detail: 'Mac repair, iPhone, iPad, Apple Watch since 2009' },
 ];
@@ -87,7 +87,7 @@ export default function CourtneyBentleyPage() {
           <p className="text-[#7A9E98] text-lg leading-relaxed mb-10">
             Courtney Bentley founded ZA Support in 2009 and has spent 16 years repairing Apple devices
             at component level from the workshop in Hyde Park, Johannesburg. Specialising in MacBook
-            logic board microsoldering, JAMF MDM rollouts for businesses, and managed IT for medical
+            logic board component-level repair, JAMF MDM rollouts for businesses, and managed IT for medical
             practices across Gauteng.
           </p>
 
@@ -109,7 +109,7 @@ export default function CourtneyBentleyPage() {
           <div className="border-t border-[#27504D]/20 pt-8">
             <h2 className="text-xl font-bold text-[#E8F4F1] mb-4">Services</h2>
             <div className="flex flex-wrap gap-3">
-              {['Logic Board Repair', 'Liquid Damage', 'JAMF MDM', 'MacBook Repair', 'Medical Practice IT', 'Assessment: R899 ex VAT'].map((s) => (
+              {['Logic Board Repair', 'Liquid Damage', 'JAMF MDM', 'MacBook Repair', 'Medical Practice IT', 'Assessment: from R599 ex VAT'].map((s) => (
                 <span key={s} className="text-sm px-3 py-1 rounded-full border border-[#27504D]/40 text-[#7A9E98]">
                   {s}
                 </span>

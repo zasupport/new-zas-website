@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, Assessment: R899 ex VAT, 3-month warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, Assessment: from R599 ex VAT, up-to-3 year warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air' },
   keywords: [
     'MacBook Air liquid damage repair Johannesburg',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'MacBook Air corrosion repair Johannesburg',
     'water damaged MacBook Air fix Johannesburg',
     'MacBook Air rice trick alternative Johannesburg',
-    'MacBook Air liquid damage assessment: R899 ex VAT',
+    'MacBook Air liquid damage assessment: from R599 ex VAT',
     'M1 MacBook Air water damage Johannesburg',
     'M2 MacBook Air liquid damage repair',
   ],
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on MacBook Air liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a written warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: R899 ex VAT policy also applies: if we cannot repair your machine, the assessment is free and assessment fee of R899 ex VAT applies.',
+      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: from R599 ex VAT policy also applies: if we cannot repair your machine, the assessment is free and assessment fee of from R599 ex VAT applies.',
   },
 ];
 
@@ -163,13 +163,13 @@ const badgeColours: Record<string, string> = {
 const repairProcess = [
   {
     step: '1',
-    title: 'Assessment: R899 ex VAT',
+    title: 'Assessment: from R599 ex VAT',
     detail: 'We open the MacBook Air, inspect under magnification, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. No charge. No obligation.',
   },
   {
     step: '2',
     title: 'Written Quote',
-    detail: 'You receive a fixed quote, not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, assessment fee of R899 ex VAT applies.',
+    detail: 'You receive a fixed quote, not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, assessment fee of from R599 ex VAT applies.',
   },
   {
     step: '3',
@@ -189,7 +189,7 @@ const repairProcess = [
   {
     step: '6',
     title: 'Collection or Delivery',
-    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a written warranty certificate with every repaired MacBook Air.',
+    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a up-to-3 year warranty certificate with every repaired MacBook Air.',
   },
 ];
 
@@ -198,7 +198,7 @@ const reviews = [
     name: 'Simone K.',
     location: 'Sandton',
     rating: 5,
-    text: 'My M2 MacBook Air took a full glass of juice. I panicked but brought it straight in. ZA Support had it assessed within hours and repaired in 2 days, works perfectly. The 3-month warranty gives me peace of mind. Cannot recommend them enough.',
+    text: 'My M2 MacBook Air took a full glass of juice. I panicked but brought it straight in. ZA Support had it assessed within hours and repaired in 2 days, works perfectly. The up-to-3 year warranty gives me peace of mind. Cannot recommend them enough.',
     service: 'MacBook Air Liquid Damage Repair',
   },
   {
@@ -212,7 +212,7 @@ const reviews = [
     name: 'Priya N.',
     location: 'Bryanston',
     rating: 5,
-    text: 'Coffee spill on my M1 Air, screen went dark and it would not charge. ZA Support diagnosed a corroded USB-C board and minor logic board damage. Repaired in 48 hours with a written 3-month warranty. Professional service, fair pricing.',
+    text: 'Coffee spill on my M1 Air, screen went dark and it would not charge. ZA Support diagnosed a corroded USB-C board and minor logic board damage. Repaired in 48 hours with a written up-to-3 year warranty. Professional service, fair pricing.',
     service: 'MacBook Air Liquid Damage, USB-C & Board',
   },
 ];
@@ -234,7 +234,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, Assessment: R899 ex VAT, 3-month warranty. M1, M2, M3 and Intel models.',
+  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, Assessment: from R599 ex VAT, up-to-3 year warranty. M1, M2, M3 and Intel models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -263,7 +263,7 @@ export default function MacBookAirLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. M1, M2, M3 and all Intel models.
-              Assessment: R899 ex VAT. written 3-month warranty. Hyde Park, Johannesburg.
+              Assessment: from R599 ex VAT. written up-to-3 year warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               The MacBook Air&apos;s thin, fanless design means liquid reaches the logic board faster than
@@ -271,9 +271,9 @@ export default function MacBookAirLiquidDamagePage() {
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'Assessment: R899 ex VAT' },
+                { icon: Shield, label: 'Assessment: from R599 ex VAT' },
                 { icon: Clock, label: '24–72hr Turnaround' },
-                { icon: Zap, label: 'Assessment: R899 ex VAT' },
+                { icon: Zap, label: 'Assessment: from R599 ex VAT' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
               ].map(({ icon: Icon, label }) => (
@@ -315,7 +315,7 @@ export default function MacBookAirLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '★', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Written Warranty, No Exceptions' },
+                { value: 'Covered', label: 'Up-to-3 Year Warranty, No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -333,9 +333,9 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             {[
               { stat: '500+', label: 'Liquid Damage Recoveries' },
-              { stat: 'Assessment: R899 ex VAT', label: 'Fee absorbed into repair cost if you proceed' },
+              { stat: 'Assessment: from R599 ex VAT', label: 'Fee absorbed into repair cost if you proceed' },
               { stat: 'Warranty', label: 'Written. On every repair.' },
-              { stat: 'Assessment: R899 ex VAT', label: 'Always. No obligation.' },
+              { stat: 'Assessment: from R599 ex VAT', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
                 <p className="text-[#0FEA7A] text-lg font-extrabold">{stat}</p>
@@ -532,9 +532,9 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All prices are confirmed before any work begins. Our Assessment: R899 ex VAT policy applies to every case —
+              All prices are confirmed before any work begins. Our Assessment: from R599 ex VAT policy applies to every case —
               if we cannot repair your MacBook Air, the assessment is free and the machine is returned exactly
-              as received. written warranty on all repairs.
+              as received. up-to-3 year warranty on all repairs.
             </p>
           </div>
         </div>
@@ -721,7 +721,7 @@ export default function MacBookAirLiquidDamagePage() {
               MacBook Air Water Damage? Act Now.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              Every hour of delay increases corrosion and repair cost. Assessment: R899 ex VAT.
+              Every hour of delay increases corrosion and repair cost. Assessment: from R599 ex VAT.
               Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

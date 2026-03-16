@@ -11,12 +11,12 @@ const REVIEWS = { rating: SITE.rating, count: SITE.reviewCount };
 export const metadata: Metadata = {
   title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
   description:
-    'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. All M-series and Intel models. Assessment: R899 ex VAT. Hyde Park. Call 064 529 5863.',
+    'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board component-level repair. All M-series and Intel models. Assessment: from R599 ex VAT. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair' },
   keywords: ['macbook repair johannesburg', 'mac repair near me johannesburg', 'macbook repair sandton', 'apple repair johannesburg', 'macbook battery replacement johannesburg', 'macbook screen repair johannesburg'],
   openGraph: {
     title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
-    description: 'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. Assessment: R899 ex VAT.',
+    description: 'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board component-level repair. Assessment: from R599 ex VAT.',
     url: 'https://zasupport.com/macbook-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -55,7 +55,7 @@ const services = [
   {
     icon: Cpu,
     title: 'Logic Board Repair',
-    description: 'Expert microsoldering for no-power, no-display, USB-C failure and GPU faults.',
+    description: 'Expert component-level repair for no-power, no-display, USB-C failure and GPU faults.',
     href: '/logic-board-repair',
     accent: 'text-orange-400',
   },
@@ -96,7 +96,7 @@ const models = [
 const faqs = [
   {
     question: 'How much does MacBook repair cost in Johannesburg?',
-    answer: 'MacBook repair costs depend on the fault type and model. We provide a assessment fee (R899 ex VAT) and a detailed written quote before any work begins. Contact us for a quote specific to your model and fault.',
+    answer: 'MacBook repair costs depend on the fault type and model. We provide a assessment fee (from R599 ex VAT) and a detailed written quote before any work begins. Contact us for a quote specific to your model and fault.',
   },
   {
     question: 'Do you repair M-series MacBooks (M1, M2, M3)?',
@@ -104,11 +104,11 @@ const faqs = [
   },
   {
     question: 'How long does MacBook repair take?',
-    answer: 'Battery replacement: 60–90 minutes. Screen replacement: 2–4 hours depending on model. Keyboard replacement: 2–3 hours. Logic board and liquid damage repairs typically take 3–5 business days as they involve component-level diagnosis and microsoldering.',
+    answer: 'Battery replacement: 60–90 minutes. Screen replacement: 2–4 hours depending on model. Keyboard replacement: 2–3 hours. Logic board and liquid damage repairs typically take 3–5 business days as they involve component-level diagnosis and component-level repair.',
   },
   {
-    question: 'Is there a Assessment: R899 ex VAT policy?',
-    answer: 'Yes. If we assess your MacBook and cannot repair it, or the repair is not cost-effective, assessment fee of R899 ex VAT applies. We provide an honest prognosis and written quote before starting any work.',
+    question: 'Is there a Assessment: from R599 ex VAT policy?',
+    answer: 'Yes. If we assess your MacBook and cannot repair it, or the repair is not cost-effective, assessment fee of from R599 ex VAT applies. We provide an honest prognosis and written quote before starting any work.',
   },
   {
     question: 'Do you offer a warranty on MacBook repairs?',
@@ -120,11 +120,11 @@ const faqs = [
   },
   {
     question: 'Where are you located in Johannesburg?',
-    answer: 'We are based at 1 Hyde Lane, Hyde Park, Johannesburg, 2196. Hyde Park is centrally located and easily accessible from Sandton, Rosebank, Illovo, Bryanston, and Parktown. We are open Monday to Friday 08:00 – 17:30 and Saturday 09:00 – 13:00. Free parking is available on site.',
+    answer: 'We are based at 1 Hyde Lane, Hyde Park, Johannesburg, 2196. Hyde Park is centrally located and easily accessible from Sandton, Rosebank, Illovo, Bryanston, and Parktown. We are open Monday to Friday 08:00 – 17:30 and Closed Saturdays. Free parking is available on site.',
   },
   {
     question: 'Do you repair MacBooks that other shops have refused?',
-    answer: 'Yes. We specialise in component-level logic board microsoldering, which many repair shops cannot perform. If you have been told your MacBook is beyond repair or only Apple can fix it, bring it to us for a free second opinion. We successfully repair boards that Apple quotes for full replacement.',
+    answer: 'Yes. We specialise in component-level logic board component-level repair, which many repair shops cannot perform. If you have been told your MacBook is beyond repair or only Apple can fix it, bring it to us for a free second opinion. We successfully repair boards that Apple quotes for full replacement.',
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
@@ -151,7 +151,7 @@ const serviceSchema = {
   name: 'MacBook Repair Johannesburg',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'MacBook repair in Johannesburg, battery, screen, keyboard, liquid damage, logic board. All M-series and Intel models. Assessment: R899 ex VAT.',
+  description: 'MacBook repair in Johannesburg, battery, screen, keyboard, liquid damage, logic board. All M-series and Intel models. Assessment: from R599 ex VAT.',
   offers: {
     '@type': 'AggregateOffer',
   },
@@ -231,7 +231,7 @@ export default function MacBookRepairPage() {
               MacBook Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. Assessment: R899 ex VAT policy. 3-month warranty.
+              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. Assessment: from R599 ex VAT policy. up-to-3 year warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -248,8 +248,8 @@ export default function MacBookRepairPage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 3-Month Warranty</span>
-              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: R899 ex VAT</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty</span>
+              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: from R599 ex VAT</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
           </div>
@@ -263,7 +263,7 @@ export default function MacBookRepairPage() {
             MacBook Repair <span className="text-[#0FEA7A]">Services</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            From a dead battery to board-level microsoldering, every MacBook fault, one address.
+            From a dead battery to board-level component-level repair, every MacBook fault, one address.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service) => (
@@ -291,7 +291,7 @@ export default function MacBookRepairPage() {
             MacBook <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            All costs are confirmed after a assessment fee (R899 ex VAT). Final cost is confirmed in writing before work begins.
+            All costs are confirmed after a assessment fee (from R599 ex VAT). Final cost is confirmed in writing before work begins.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
@@ -323,13 +323,13 @@ export default function MacBookRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">
-            Final cost confirmed after assessment fee (R899 ex VAT). All repairs include 3-month warranty.
+            Final cost confirmed after assessment fee (from R599 ex VAT). All repairs include up-to-3 year warranty.
           </p>
           <div className="mt-8 p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-xl text-center">
             <p className="text-[#E8F4F1] text-sm">
               Looking for component-level{' '}
               <Link href="/logic-board-repair" className="text-[#0FEA7A] font-semibold hover:underline">
-                logic board microsoldering
+                logic board component-level repair
               </Link>
               ? We repair the chips other shops replace, at a fraction of Apple&apos;s board replacement quote.
             </p>
@@ -410,7 +410,7 @@ export default function MacBookRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Giving You Problems?</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Honest quote. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: from R599 ex VAT. Honest quote. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

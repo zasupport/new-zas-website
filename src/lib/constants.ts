@@ -31,7 +31,7 @@ export const CONTACT = {
   },
   hours: {
     weekdays: 'Monday – Friday: 08:00 – 17:30',
-    saturday: 'Saturday: 09:00 – 13:00',
+    saturday: 'Closed Saturdays',
     sunday: 'Closed Sundays & Public Holidays',
   },
 } as const;
@@ -62,10 +62,10 @@ export const NAV_LINKS = [
 
 
 export const TRUST_BADGES = [
-  { label: '3-Month Warranty', icon: 'shield' },
-  { label: 'Written Warranty', icon: 'badge-check' },
-  { label: '72-Hour Turnaround', icon: 'clock' },
-  { label: 'Assessment: R899 ex VAT', icon: 'search' },
+  { label: 'Up-to-3 Year Warranty', icon: 'shield' },
+  { label: 'Fastest Turnaround Times', icon: 'clock' },
+  { label: '16 Years Experience', icon: 'badge-check' },
+  { label: 'Assessment: from R599', icon: 'search' },
   { label: 'Hyde Park', icon: 'map-pin' },
 ] as const;
 

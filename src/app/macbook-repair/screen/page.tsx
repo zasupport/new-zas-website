@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Screen Replacement Johannesburg | ZA Support',
   description:
-    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 3-month warranty. Hyde Park, Johannesburg.',
+    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/screen' },
   keywords: [
     'MacBook screen replacement Johannesburg',
@@ -49,7 +49,7 @@ const symptoms = [
 const faqs = [
   {
     question: 'How much does MacBook screen replacement cost in Johannesburg?',
-    answer: 'The exact price depends on your specific model and year. We provide a assessment fee (R899 ex VAT) and give you a written fixed quote before starting any work, no surprises.',
+    answer: 'The exact price depends on your specific model and year. We provide a assessment fee (from R599 ex VAT) and give you a written fixed quote before starting any work, no surprises.',
   },
   {
     question: 'How long does MacBook screen replacement take?',
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     question: 'Do you use genuine Apple screens?',
-    answer: 'We use OEM-quality replacement display assemblies that meet Apple\'s specifications for brightness, colour accuracy, and resolution. All replacement screens are tested before installation and carry our written 3-month warranty. We do not use cheap aftermarket panels, the quality difference is visible.',
+    answer: 'We use OEM-quality replacement display assemblies that meet Apple\'s specifications for brightness, colour accuracy, and resolution. All replacement screens are tested before installation and carry our written up-to-3 year warranty. We do not use cheap aftermarket panels, the quality difference is visible.',
   },
   {
     question: 'Will I lose any data during a screen replacement?',
@@ -77,7 +77,7 @@ const faqs = [
   },
   {
     question: 'What warranty do I get on a MacBook screen replacement?',
-    answer: 'All MacBook screen replacements at ZA Support come with a written warranty covering the replacement panel and our labour. If dead pixels appear, backlight fails, or the display develops any fault within the warranty period, we fix it at no cost to you.',
+    answer: 'All MacBook screen replacements at ZA Support come with a up-to-3 year warranty covering the replacement panel and our labour. If dead pixels appear, backlight fails, or the display develops any fault within the warranty period, we fix it at no cost to you.',
   },
 ];
 
@@ -93,7 +93,7 @@ const reviews = [
     name: 'Sipho K.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'Had dead pixels spreading across my MacBook Air M1. The team diagnosed it in minutes, gave me a fixed price, and replaced the screen while I worked from their space. No data lost. 3-month warranty. Genuinely impressed.',
+    text: 'Had dead pixels spreading across my MacBook Air M1. The team diagnosed it in minutes, gave me a fixed price, and replaced the screen while I worked from their space. No data lost. up-to-3 year warranty. Genuinely impressed.',
     date: 'February 2026',
   },
   {
@@ -109,7 +109,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Screen Replacement Johannesburg',
-  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. Same-day available. 3-month warranty.',
+  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. Same-day available. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -140,7 +140,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 3-month warranty.',
+  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. up-to-3 year warranty.',
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
     { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
@@ -182,14 +182,14 @@ export default function MacBookScreenPage() {
           <Breadcrumb items={[{ label: 'MacBook Repair', href: '/macbook-repair' }, { label: 'Screen Replacement' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Same-Day Available · 3-Month Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Same-Day Available · Up-to-3 Year Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Replacement<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: R899 ex VAT.
+              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: from R599 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -222,7 +222,7 @@ export default function MacBookScreenPage() {
             {[
               { stat: '3,000+', label: 'Screens Replaced' },
               { stat: 'Same-Day', label: 'Available (most models)' },
-              { stat: '12-Month', label: 'Written Warranty' },
+              { stat: '12-Month', label: 'Up-to-3 Year Warranty' },
               { stat: 'OEM Quality', label: 'Display Assemblies' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
@@ -327,7 +327,7 @@ export default function MacBookScreenPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Assessment: R899 ex VAT',
+                title: 'Assessment: from R599 ex VAT',
                 desc: 'We inspect the display damage and test the logic board to confirm there are no secondary faults. We check whether the GPU or display cable is involved, this changes the repair approach.',
               },
               {
@@ -352,7 +352,7 @@ export default function MacBookScreenPage() {
                 step: '05',
                 icon: <Clock className="w-5 h-5" />,
                 title: 'Warranty Issued',
-                desc: 'Your written warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period, fixed at no cost.',
+                desc: 'Your up-to-3 year warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period, fixed at no cost.',
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
@@ -381,11 +381,11 @@ export default function MacBookScreenPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {[
               {
-                title: 'Assessment: R899 ex VAT',
-                desc: 'If we cannot fix your MacBook screen, assessment fee of R899 ex VAT applies. We absorb the diagnostic cost. Zero risk to you.',
+                title: 'Assessment: from R599 ex VAT',
+                desc: 'If we cannot fix your MacBook screen, assessment fee of from R599 ex VAT applies. We absorb the diagnostic cost. Zero risk to you.',
               },
               {
-                title: 'Written Warranty',
+                title: 'Up-to-3 Year Warranty',
                 desc: 'Every screen replacement carries a warranty on parts and labour. In writing. No verbal promises.',
               },
               {
@@ -523,9 +523,9 @@ export default function MacBookScreenPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-4">
             {[
-              { title: 'Assessment: R899 ex VAT', body: 'We diagnose the fault before you commit. No charge, no obligation.' },
-              { title: 'Assessment: R899 ex VAT', body: 'If we cannot repair it, assessment fee of R899 ex VAT applies. Simple as that.' },
-              { title: 'Written Warranty', body: 'Every screen replacement carries a written warranty on parts and labour.' },
+              { title: 'Assessment: from R599 ex VAT', body: 'We diagnose the fault before you commit. No charge, no obligation.' },
+              { title: 'Assessment: from R599 ex VAT', body: 'If we cannot repair it, assessment fee of from R599 ex VAT applies. Simple as that.' },
+              { title: 'Up-to-3 Year Warranty', body: 'Every screen replacement carries a up-to-3 year warranty on parts and labour.' },
             ].map(({ title, body }) => (
               <div key={title} className="glass-card p-5">
                 <p className="text-[#0FEA7A] font-bold text-sm mb-1">{title}</p>
@@ -597,8 +597,8 @@ export default function MacBookScreenPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Cracked MacBook Screen in Johannesburg?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: R899 ex VAT.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · written warranty on all screen replacements</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: from R599 ex VAT.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · up-to-3 year warranty on all screen replacements</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20a%20MacBook%20screen%20replacement"

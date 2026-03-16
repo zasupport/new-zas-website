@@ -109,7 +109,7 @@ The earlier we begin this process, the higher your recovery rate. Machines broug
 
 To be honest with you: some liquid damage is irreversible. Machines that were powered on post-spill, or that sat for several days before arriving, often have burned traces or failed chips that cannot be repaired economically.
 
-In those cases, we will tell you clearly. Our Assessment: R899 ex VAT policy means you never pay for an unsuccessful assessment.
+In those cases, we will tell you clearly. Our Assessment: from R599 ex VAT policy means you never pay for an unsuccessful assessment.
 
 ## Summary: The Liquid Damage Checklist
 
@@ -201,7 +201,7 @@ No amount of rice changes this curve.
 3. Do not press any buttons (this can push liquid into connectors)
 4. Bring it to ZA Support as soon as possible — same day is best
 
-We offer free liquid damage assessments, 7 days a week. Assessment: R899 ex VAT on all repairs. Call 064 529 5863.
+We offer free liquid damage assessments, 7 days a week. Assessment: from R599 ex VAT on all repairs. Call 064 529 5863.
     `.trim(),
   },
   'macbook-load-shedding-damage': {
@@ -354,7 +354,7 @@ Not necessarily. Surge damage to certain components — particularly capacitors 
 
 **Q: Can authorised service providers repair surge damage?**
 
-Apple authorised service in South Africa does not offer component-level logic board repair. They will quote a full board replacement or, in many cases, decline to repair the machine at all if it is out of 3-month warranty. ZA Support is a component-level repair workshop — we fix the specific fault, not the whole board.
+Apple authorised service in South Africa does not offer component-level logic board repair. They will quote a full board replacement or, in many cases, decline to repair the machine at all if it is out of up-to-3 year warranty. ZA Support is a component-level repair workshop — we fix the specific fault, not the whole board.
 
 **Q: How long does surge damage repair take?**
 
@@ -370,9 +370,9 @@ For most home offices running a MacBook Pro or MacBook Air, we recommend the APC
 
 ## Book a Free Surge Damage Assessment
 
-If your MacBook is showing any of the symptoms described in this guide — or if it was plugged in during a load shedding reinstatement event and you want peace of mind — bring it in for a assessment fee (R899 ex VAT).
+If your MacBook is showing any of the symptoms described in this guide — or if it was plugged in during a load shedding reinstatement event and you want peace of mind — bring it in for a assessment fee (from R599 ex VAT).
 
-We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg. We assess surge damage same day, 7 days a week. Assessment: R899 ex VAT on all repairs.
+We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg. We assess surge damage same day, 7 days a week. Assessment: from R599 ex VAT on all repairs.
 
 Call **064 529 5863** or message us on WhatsApp. We will have a clear answer for you within the hour.
     `.trim(),
@@ -498,7 +498,7 @@ If you have worked through all seven fixes and your MacBook is still performing 
 
 Our [Health Check service](/apple-repair) covers all of these: we run a full 28-phase diagnostic covering hardware, storage health, memory pressure, security, and software — and give you a plain-English report with exactly what we found and what we recommend.
 
-**Assessment: R899 ex VAT. Hyde Park, Johannesburg.**
+**Assessment: from R599 ex VAT. Hyde Park, Johannesburg.**
 
 WhatsApp us on [064 529 5863](https://wa.me/27645295863) to book a same-day assessment.
     `.trim(),
@@ -943,7 +943,7 @@ If you have worked through all ten steps and your Mac is still performing below 
 - **Insufficient RAM:** Intel Macs with 8 GB running macOS Sonoma or later under a typical workload (browser, Zoom, Office) are frequently memory-constrained. A RAM upgrade from 8 GB to 16 GB is available fitted at our Hyde Park workshop.
 - **Failing SSD:** Early-stage SSD failure causes dramatically increased read/write latency. Download DriveDx and check S.M.A.R.T. status.
 
-For issues beyond DIY, [ZA Support offers assessment](/macbook-repair). We run a full 28-phase Health Check, give you a plain-English report of exactly what we found, and quote any recommended repairs before touching anything. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
+For issues beyond DIY, [ZA Support offers assessment](/macbook-repair). We run a full 28-phase Health Check, give you a plain-English report of exactly what we found, and quote any recommended repairs before touching anything. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.
 
 WhatsApp us on [064 529 5863](https://wa.me/27645295863) to book a same-day assessment.
     `.trim(),
@@ -1087,7 +1087,7 @@ If you have reached the end of this checklist and the Mac still will not start, 
 
 We diagnose each of these at ZA Support using a DC bench power supply (we bypass the battery entirely to test the logic board), a thermal camera, and direct schematic tracing. Most cases are diagnosed within an hour.
 
-Assessment: R899 ex VAT assessment. Assessment: R899 ex VAT. [Read about our MacBook not turning on repair service](/macbook-not-turning-on) or contact us directly.
+Assessment: from R599 ex VAT assessment. Assessment: from R599 ex VAT. [Read about our MacBook not turning on repair service](/macbook-not-turning-on) or contact us directly.
 
 WhatsApp us on [064 529 5863](https://wa.me/27645295863) — we are based at Hyde Park, Johannesburg, 7 days a week.
     `.trim(),
@@ -1215,9 +1215,9 @@ If you have 10 or more Apple devices and they are used for any business-critical
 
 ZA Support is one of Johannesburg's few JAMF-certified implementation teams. We have deployed JAMF for medical practices, law firms, financial services companies, and SMEs across Gauteng.
 
-Our process starts with a assessment fee (R899 ex VAT): we review your current device estate, understand your compliance requirements, and design a JAMF configuration that fits your business.
+Our process starts with a assessment fee (from R599 ex VAT): we review your current device estate, understand your compliance requirements, and design a JAMF configuration that fits your business.
 
-Contact us on 064 529 5863 or via our contact form to book your assessment fee (R899 ex VAT).
+Contact us on 064 529 5863 or via our contact form to book your assessment fee (from R599 ex VAT).
     `.trim(),
   },
   'macbook-battery-replacement-johannesburg': {
@@ -1252,7 +1252,7 @@ If you notice any of these symptoms, stop using the MacBook immediately and brin
 
 At ZA Support, battery replacement is a same-day service for most models. Here is what happens from the moment you drop off your Mac.
 
-**1. Assessment: R899 ex VAT.** We confirm which model you have, run a battery diagnostic report showing current capacity, cycle count, and condition, and confirm that no other components have been affected (swollen batteries sometimes damage the trackpad cable or flex connectors in the lower case).
+**1. Assessment: from R599 ex VAT.** We confirm which model you have, run a battery diagnostic report showing current capacity, cycle count, and condition, and confirm that no other components have been affected (swollen batteries sometimes damage the trackpad cable or flex connectors in the lower case).
 
 **2. Original-specification replacement battery.** We use replacement batteries that match or exceed the original Apple specification for your model year. MacBook Air and MacBook Pro batteries are model-specific -- a 2020 M1 MacBook Air uses a different battery to a 2019 Intel 13-inch. The specification matters: voltage, capacity in mAh, and physical dimensions all need to match.
 
@@ -1274,7 +1274,7 @@ At ZA Support, battery replacement is a same-day service for most models. Here i
 
 ZA Support is based at 1 Hyde Park Lane, Second Floor, Johannesburg. We service all MacBook models.
 
-Bring your MacBook in for a assessment fee (R899 ex VAT). We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. Assessment: R899 ex VAT. warranty on all battery replacements.
+Bring your MacBook in for a assessment fee (from R599 ex VAT). We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. Assessment: from R599 ex VAT. warranty on all battery replacements.
 
 Call **064 529 5863** or message us on WhatsApp to book.
 
@@ -1306,7 +1306,7 @@ For a 2015 MacBook Pro or MacBook Air in good condition, a battery replacement i
 
 **Q: Will my MacBook warranty be affected by a ZA Support battery replacement?**
 
-If your MacBook is still covered by AppleCare+, a third-party battery replacement may affect that coverage. We recommend checking your AppleCare+ status before proceeding. If you are out of 3-month warranty, which is the case for the majority of battery replacements we perform, this does not apply.
+If your MacBook is still covered by AppleCare+, a third-party battery replacement may affect that coverage. We recommend checking your AppleCare+ status before proceeding. If you are out of up-to-3 year warranty, which is the case for the majority of battery replacements we perform, this does not apply.
     `.trim(),
   },
   'macbook-screen-repair-johannesburg': {
@@ -1338,7 +1338,7 @@ Understanding what kind of fault you have is the first step to knowing what your
 
 ## What Happens During a MacBook Screen Repair
 
-**Step 1 -- Assessment: R899 ex VAT.** We test the Mac with an external monitor to determine whether the fault is in the display assembly, the display cable, or the logic board GPU. This distinction is critical -- a logic board GPU fault requires very different work to a display assembly replacement.
+**Step 1 -- Assessment: from R599 ex VAT.** We test the Mac with an external monitor to determine whether the fault is in the display assembly, the display cable, or the logic board GPU. This distinction is critical -- a logic board GPU fault requires very different work to a display assembly replacement.
 
 **Step 2 -- Component identification.** MacBook display assemblies are model-specific. We identify the exact part required before quoting.
 
@@ -1362,7 +1362,7 @@ Understanding what kind of fault you have is the first step to knowing what your
 
 ZA Support services all MacBook models. Most repairs completed within 1-3 business days.
 
-We offer a assessment fee (R899 ex VAT) before any commitment. Bring your Mac in to 1 Hyde Park Lane, Hyde Park, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with Assessment: R899 ex VAT. All screen replacements carry a 3-month warranty.
+We offer a assessment fee (from R599 ex VAT) before any commitment. Bring your Mac in to 1 Hyde Park Lane, Hyde Park, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with Assessment: from R599 ex VAT. All screen replacements carry a up-to-3 year warranty.
 
 Call **064 529 5863** or message us on WhatsApp to book or ask about your specific model.
 
@@ -1374,7 +1374,7 @@ Yes. A cracked Retina display is repaired by replacing the full display assembly
 
 **Q: My MacBook screen is black but I can hear it starting up -- is this a screen fault or something worse?**
 
-It could be either. The key test is to connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable -- typically a display repair. If the external monitor also shows nothing, the fault is on the logic board. We perform this test during the assessment fee (R899 ex VAT).
+It could be either. The key test is to connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable -- typically a display repair. If the external monitor also shows nothing, the fault is on the logic board. We perform this test during the assessment fee (from R599 ex VAT).
 
 **Q: Does ZA Support repair the 2016-2019 MacBook Pro Flexgate issue?**
 
@@ -1394,7 +1394,7 @@ Most repairs completed within 1-3 business days. We will confirm the timeline at
 
 **Q: My MacBook Pro 2019 screen is showing pink lines -- what is causing this?**
 
-On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We will test with an external monitor during the assessment fee (R899 ex VAT) to confirm.
+On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We will test with an external monitor during the assessment fee (from R599 ex VAT) to confirm.
     `.trim(),
   },
   'macbook-logic-board-repair-cost-johannesburg-2026': {
@@ -1432,7 +1432,7 @@ Logic board failure presents differently depending on which component or circuit
 
 We follow a structured process for every [logic board repair](/logic-board-repair) we undertake:
 
-**Step 1 — Assessment: R899 ex VAT.** Your Mac is inspected under specialist equipment and tested with professional diagnostic tools. We identify the exact fault — not a generic guess — and provide a written quote. This is completely free with no obligation.
+**Step 1 — Assessment: from R599 ex VAT.** Your Mac is inspected under specialist equipment and tested with professional diagnostic tools. We identify the exact fault — not a generic guess — and provide a written quote. This is completely free with no obligation.
 
 **Step 2 — Board removal.** The logic board is carefully removed from the chassis. Every connector is documented and tested. The board is inspected under high magnification for physical damage, corrosion, or component failure.
 
@@ -1440,7 +1440,7 @@ We follow a structured process for every [logic board repair](/logic-board-repai
 
 **Step 4 — Post-repair testing.** The board is tested in isolation before reassembly to confirm the fault is resolved. We then reassemble the Mac and run a full functional test covering display, keyboard, trackpad, Wi-Fi, Bluetooth, camera, charging, and all ports.
 
-**Step 5 — Return with 3-month warranty.** Your Mac is returned clean and fully functional with a ZA Support warranty on all repaired components.
+**Step 5 — Return with up-to-3 year warranty.** Your Mac is returned clean and fully functional with a ZA Support warranty on all repaired components.
 
 ## Why Component-Level Repair Beats Board Replacement
 
@@ -1448,13 +1448,13 @@ Authorised service quotes for a new logic board when yours fails. That replaceme
 
 Most repair shops that do not work at component level charge for a "refurbished" board swap — a used board of unknown provenance with no guarantee the same fault will not recur.
 
-Component-level [logic board microsoldering](/logic-board-repair) replaces only what is broken. Your data stays intact. Your SSD stays in place. Your repair costs a fraction of board replacement. And our warranty covers the specific components we worked on — not a refurbished used board we cannot vouch for.
+Component-level [logic board component-level repair](/logic-board-repair) replaces only what is broken. Your data stays intact. Your SSD stays in place. Your repair costs a fraction of board replacement. And our warranty covers the specific components we worked on — not a refurbished used board we cannot vouch for.
 
-## Assessment: R899 ex VAT — What It Means for Logic Board Repair
+## Assessment: from R599 ex VAT — What It Means for Logic Board Repair
 
 Logic board repair is the highest-risk category of Mac repair. Some boards are simply too far gone to recover. We will not charge you for a repair we cannot complete.
 
-Our [Assessment: R899 ex VAT](/no-fix-no-fee) guarantee applies fully to logic board repair: if we assess your board and determine it cannot be economically repaired, or if we attempt the repair and cannot resolve the fault, assessment fee of R899 ex VAT applies. No diagnostic fee. No handling charge.
+Our [Assessment: from R599 ex VAT](/no-fix-no-fee) guarantee applies fully to logic board repair: if we assess your board and determine it cannot be economically repaired, or if we attempt the repair and cannot resolve the fault, assessment fee of from R599 ex VAT applies. No diagnostic fee. No handling charge.
 
 ## How to Book Your Free Logic Board Assessment
 
@@ -1474,7 +1474,7 @@ Component-level logic board repair at ZA Support is significantly less than a fu
 
 **Can a MacBook logic board be repaired without losing data?**
 
-In most cases, yes. Component-level repair leaves the SSD untouched. Your files, operating system, and settings remain on the storage device. Board replacement on Apple Silicon Macs, by contrast, requires a new SSD — meaning total data loss. This is one of the strongest reasons to choose microsoldering repair over board swap.
+In most cases, yes. Component-level repair leaves the SSD untouched. Your files, operating system, and settings remain on the storage device. Board replacement on Apple Silicon Macs, by contrast, requires a new SSD — meaning total data loss. This is one of the strongest reasons to choose component-level repair repair over board swap.
 
 **How long does logic board repair take?**
 
@@ -1640,7 +1640,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'When should I take my slow Mac to a repair shop?',
-          acceptedAnswer: { '@type': 'Answer', text: 'If you have worked through the free steps — cleared storage, removed login items, reset SMC and NVRAM, checked Activity Monitor — and the Mac is still slow, the cause is likely hardware: thermal paste degradation, insufficient RAM, or a failing SSD. ZA Support offers free Mac diagnosis in Hyde Park, Johannesburg. Assessment: R899 ex VAT on all repairs.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'If you have worked through the free steps — cleared storage, removed login items, reset SMC and NVRAM, checked Activity Monitor — and the Mac is still slow, the cause is likely hardware: thermal paste degradation, insufficient RAM, or a failing SSD. ZA Support offers free Mac diagnosis in Hyde Park, Johannesburg. Assessment: from R599 ex VAT on all repairs.' },
         },
       ],
     },
@@ -1686,7 +1686,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does it cost to fix a Mac that won\'t turn on in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Cost depends on the cause. ZA Support offers a assessment assessment — we identify the exact fault and quote before any work begins. Software fixes, hardware repairs, and logic board repairs are all quoted individually after diagnosis. Assessment: R899 ex VAT. Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Cost depends on the cause. ZA Support offers a assessment assessment — we identify the exact fault and quote before any work begins. Software fixes, hardware repairs, and logic board repairs are all quoted individually after diagnosis. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1712,7 +1712,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'Can a MacBook be too old to fix or upgrade?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Most MacBooks from 2015 onwards are viable for repair and upgrade. The key factors are: does it support a current enough macOS for your software, is the hardware in working condition, and does the cost of the upgrade compare favourably to a replacement? ZA Support offers assessment fee (R899 ex VAT)s and provides both repair and replacement options with honest recommendations.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Most MacBooks from 2015 onwards are viable for repair and upgrade. The key factors are: does it support a current enough macOS for your software, is the hardware in working condition, and does the cost of the upgrade compare favourably to a replacement? ZA Support offers assessment fee (from R599 ex VAT)s and provides both repair and replacement options with honest recommendations.' },
         },
         {
           '@type': 'Question',
@@ -1732,7 +1732,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does a MacBook speed-up service cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support\'s Health Check service includes a full 28-phase diagnostic with a plain-English report. If hardware upgrades are needed (RAM, SSD, thermal paste), we quote those separately before proceeding. Initial assessment is free. Assessment: R899 ex VAT on all work. Based in Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support\'s Health Check service includes a full 28-phase diagnostic with a plain-English report. If hardware upgrades are needed (RAM, SSD, thermal paste), we quote those separately before proceeding. Initial assessment is free. Assessment: from R599 ex VAT on all work. Based in Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1763,7 +1763,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'Can a MacBook WiFi card be replaced?',
-          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to approximately 2019), the WiFi/Bluetooth card is a replaceable module. On Apple Silicon MacBooks (M1 and later), the WiFi chip is integrated into the logic board and requires board-level repair. ZA Support diagnoses and replaces WiFi cards on Intel MacBooks. Contact us for a assessment fee (R899 ex VAT).' },
+          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to approximately 2019), the WiFi/Bluetooth card is a replaceable module. On Apple Silicon MacBooks (M1 and later), the WiFi chip is integrated into the logic board and requires board-level repair. ZA Support diagnoses and replaces WiFi cards on Intel MacBooks. Contact us for a assessment fee (from R599 ex VAT).' },
         },
         {
           '@type': 'Question',
@@ -1778,7 +1778,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does MacBook WiFi repair cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'WiFi repair cost depends on the cause. ZA Support offers free initial diagnostics — we identify the exact fault before quoting. Software fixes, WiFi card replacement, and logic board circuit repair are all quoted individually after diagnosis. Assessment: R899 ex VAT. Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'WiFi repair cost depends on the cause. ZA Support offers free initial diagnostics — we identify the exact fault before quoting. Software fixes, WiFi card replacement, and logic board circuit repair are all quoted individually after diagnosis. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1865,7 +1865,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does MacBook surge damage repair cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage at component level — significantly less than a full board replacement through authorised service. Assessment: R899 ex VAT.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage at component level — significantly less than a full board replacement through authorised service. Assessment: from R599 ex VAT.' },
         },
       ],
     },
@@ -1876,12 +1876,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does MacBook logic board repair cost in Johannesburg in 2026?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Component-level logic board repair at ZA Support is significantly less than a full board swap or replacement through authorised service. All assessments are free with Assessment: R899 ex VAT. Contact us for a quote specific to your model and fault.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Component-level logic board repair at ZA Support is significantly less than a full board swap or replacement through authorised service. All assessments are free with Assessment: from R599 ex VAT. Contact us for a quote specific to your model and fault.' },
         },
         {
           '@type': 'Question',
           name: 'Can a MacBook logic board be repaired without losing data?',
-          acceptedAnswer: { '@type': 'Answer', text: 'In most cases, yes. Component-level repair leaves the SSD untouched. Board replacement on Apple Silicon Macs, by contrast, requires a new SSD — meaning total data loss. This is one of the strongest reasons to choose microsoldering repair over board swap.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'In most cases, yes. Component-level repair leaves the SSD untouched. Board replacement on Apple Silicon Macs, by contrast, requires a new SSD — meaning total data loss. This is one of the strongest reasons to choose component-level repair repair over board swap.' },
         },
         {
           '@type': 'Question',
@@ -1911,7 +1911,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'What should I do if my MacBook suddenly stops working?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Do not attempt to restart it repeatedly. If there was liquid exposure, do not plug in a charger. Bring it to ZA Support in Hyde Park, Johannesburg for a free same-day assessment. The faster we see it, the higher the likelihood of a full, cost-effective repair. Assessment: R899 ex VAT.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Do not attempt to restart it repeatedly. If there was liquid exposure, do not plug in a charger. Bring it to ZA Support in Hyde Park, Johannesburg for a free same-day assessment. The faster we see it, the higher the likelihood of a full, cost-effective repair. Assessment: from R599 ex VAT.' },
         },
       ],
     },
@@ -1952,7 +1952,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'What warranty does ZA Support provide on MacBook battery replacement?',
-          acceptedAnswer: { '@type': 'Answer', text: 'warranty on parts and labour. Assessment: R899 ex VAT -- if we find a secondary issue during assessment that means we cannot complete the repair cleanly, we tell you before proceeding.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'warranty on parts and labour. Assessment: from R599 ex VAT -- if we find a secondary issue during assessment that means we cannot complete the repair cleanly, we tell you before proceeding.' },
         },
       ],
     },
@@ -1968,12 +1968,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'My MacBook screen is black but I can hear it starting up -- is this a screen fault?',
-          acceptedAnswer: { '@type': 'Answer', text: 'It could be either. Connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable. If the external monitor also shows nothing, the fault is on the logic board. ZA Support performs this test during the assessment fee (R899 ex VAT).' },
+          acceptedAnswer: { '@type': 'Answer', text: 'It could be either. Connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable. If the external monitor also shows nothing, the fault is on the logic board. ZA Support performs this test during the assessment fee (from R599 ex VAT).' },
         },
         {
           '@type': 'Question',
           name: 'How much does MacBook screen replacement cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Contact ZA Support for a quote on your specific model. Cost depends on the model, model year, and whether the repair requires a full assembly replacement or a cable repair. Assessment: R899 ex VAT with Assessment: R899 ex VAT.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Contact ZA Support for a quote on your specific model. Cost depends on the model, model year, and whether the repair requires a full assembly replacement or a cable repair. Assessment: from R599 ex VAT with Assessment: from R599 ex VAT.' },
         },
         {
           '@type': 'Question',
@@ -1993,7 +1993,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'My MacBook Pro 2019 screen is showing pink lines -- what is causing this?',
-          acceptedAnswer: { '@type': 'Answer', text: 'On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We test with an external monitor during the assessment fee (R899 ex VAT) to confirm.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We test with an external monitor during the assessment fee (from R599 ex VAT) to confirm.' },
         },
       ],
     },
@@ -2048,8 +2048,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
 
           <div className="mt-12 p-6 bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-2xl text-center">
-            <p className="text-[#E8F4F1] font-bold text-lg mb-2">Need a repair? Assessment: R899 ex VAT.</p>
-            <p className="text-[#7A9E98] mb-4">Hyde Park, Johannesburg. Assessment: R899 ex VAT on all repairs.</p>
+            <p className="text-[#E8F4F1] font-bold text-lg mb-2">Need a repair? Assessment: from R599 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-4">Hyde Park, Johannesburg. Assessment: from R599 ex VAT on all repairs.</p>
             <a href="tel:0645295863" className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
               Call 064 529 5863
             </a>

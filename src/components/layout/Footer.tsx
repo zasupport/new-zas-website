@@ -39,7 +39,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-[#7A9E98] text-sm leading-relaxed mb-6">
-              Johannesburg&apos;s Apple repair specialists. Logic board microsoldering, liquid damage,
+              Johannesburg&apos;s Apple repair specialists. Logic board component-level repair, liquid damage,
               iPhone &amp; iPad repair, JAMF MDM, and managed IT services.
             </p>
             <div className="flex items-center gap-3">
@@ -163,7 +163,7 @@ export default function Footer() {
               <li className="text-[#7A9E98] text-sm">
                 <span className="text-[#E8F4F1] font-medium block mb-1">Hours</span>
                 <span className="block">Mon–Fri: 08:00 – 17:30</span>
-                <span className="block">Saturday: 09:00 – 13:00</span>
+                <span className="block">Closed Saturdays</span>
                 <span className="block text-[#7A9E98]/80">Closed Sundays</span>
               </li>
             </ul>

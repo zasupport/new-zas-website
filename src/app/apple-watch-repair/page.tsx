@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Watch Repair Johannesburg | Screen & Battery | ZA Support',
   description:
-    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. Assessment: R899 ex VAT. 3-month warranty. Hyde Park.',
+    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park.',
   keywords: [
     'apple watch repair johannesburg',
     'apple watch screen crack johannesburg',
@@ -52,7 +52,7 @@ const faqs = [
   {
     question: 'My Apple Watch shows a red lightning bolt or will not turn on. Is this a battery issue?',
     answer:
-      'Usually yes. A red lightning bolt on Apple Watch indicates a critically low or dead battery. In most cases the watch will recover after charging. If it still does not respond after 30 minutes on the charger, the battery may need replacement or there is a charging port fault. Bring it in for a assessment fee (R899 ex VAT).',
+      'Usually yes. A red lightning bolt on Apple Watch indicates a critically low or dead battery. In most cases the watch will recover after charging. If it still does not respond after 30 minutes on the charger, the battery may need replacement or there is a charging port fault. Bring it in for a assessment fee (from R599 ex VAT).',
   },
 ];
 
@@ -96,7 +96,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Apple Watch Repair Johannesburg',
   description:
-    'Apple Watch screen and battery repair in Johannesburg. Series 3 through Series 9. Assessment: R899 ex VAT. Hyde Park.',
+    'Apple Watch screen and battery repair in Johannesburg. Series 3 through Series 9. Assessment: from R599 ex VAT. Hyde Park.',
   provider: {
     '@type': 'LocalBusiness',
     name: SITE.name,
@@ -165,7 +165,7 @@ export default function AppleWatchRepairPage() {
               Cracked Apple Watch screen or dead battery? Screen and battery replacement for Series 3 through Series 9 and Apple Watch SE.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment: R899 ex VAT. 3-month warranty. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
+              Assessment: from R599 ex VAT. up-to-3 year warranty. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -197,7 +197,7 @@ export default function AppleWatchRepairPage() {
             Apple Watch Repair Services
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
-            Starting prices for common Apple Watch repairs. Exact quote after assessment fee (R899 ex VAT).
+            Starting prices for common Apple Watch repairs. Exact quote after assessment fee (from R599 ex VAT).
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {repairServices.map((service) => (
@@ -254,7 +254,7 @@ export default function AppleWatchRepairPage() {
             Prices by Series
           </h2>
           <p className="text-[#7A9E98] mb-8">
-            Starting prices. Final quote confirmed at assessment fee (R899 ex VAT) based on exact model and damage.
+            Starting prices. Final quote confirmed at assessment fee (from R599 ex VAT) based on exact model and damage.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -328,12 +328,12 @@ export default function AppleWatchRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Assessment: R899 ex VAT',
-                desc: 'Cannot fix it? Assessment fee of R899 ex VAT applies. No assessment fee, no call-out charge, no admin.',
+                title: 'Assessment: from R599 ex VAT',
+                desc: 'Cannot fix it? Assessment fee of from R599 ex VAT applies. No assessment fee, no call-out charge, no admin.',
               },
               {
                 title: 'Warranty',
-                desc: 'All Apple Watch repairs carry a parts and labour 3-month warranty. Same fault, we fix it at no charge.',
+                desc: 'All Apple Watch repairs carry a parts and labour up-to-3 year warranty. Same fault, we fix it at no charge.',
               },
               {
                 title: 'Sensor Testing',
@@ -344,7 +344,7 @@ export default function AppleWatchRepairPage() {
                 desc: 'We do not service Apple Watch Ultra. We tell you upfront what we can and cannot do rather than attempt repairs we cannot stand behind.',
               },
               {
-                title: 'Assessment: R899 ex VAT',
+                title: 'Assessment: from R599 ex VAT',
                 desc: 'Bring it in. We inspect and quote. No charge if you decide not to proceed.',
               },
               {
@@ -418,7 +418,7 @@ export default function AppleWatchRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Screen replacement &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Crown repair
             </p>
-            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

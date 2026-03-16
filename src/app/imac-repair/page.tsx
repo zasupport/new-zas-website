@@ -168,11 +168,11 @@ export default function IMacRepairPage() {
       {/* Trust bar */}
       <section className="bg-slate-800 border-y border-slate-700 py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-slate-300">
-          <span>Assessment: R899 ex VAT</span>
+          <span>Assessment: from R599 ex VAT</span>
           <span className="text-slate-500">|</span>
           <span>Same-Day RAM &amp; SSD Upgrades</span>
           <span className="text-slate-500">|</span>
-          <span>Assessment: R899 ex VAT</span>
+          <span>Assessment: from R599 ex VAT</span>
           <span className="text-slate-500">|</span>
           <span>All iMac Models</span>
           <span className="text-slate-500">|</span>
@@ -335,7 +335,7 @@ export default function IMacRepairPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Bring Your iMac In</h2>
           <p className="text-slate-300 mb-8">
-            Assessment: R899 ex VAT. Fixed quote. Hyde Park, Johannesburg.
+            Assessment: from R599 ex VAT. Fixed quote. Hyde Park, Johannesburg.
             Most upgrades completed same day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

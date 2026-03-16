@@ -10,16 +10,16 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Logic Board Repair | ZA Support',
   description:
-    'MacBook Pro logic board repair in Johannesburg. Assessment: R899 ex VAT, 3-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro logic board repair in Johannesburg. Assessment: from R599 ex VAT, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro' },
   keywords: [
     'MacBook Pro logic board repair Johannesburg',
     'MacBook Pro no power repair',
-    'MacBook Pro microsoldering Johannesburg',
+    'MacBook Pro component-level repair Johannesburg',
     'component-level repair MacBook Pro',
     'MacBook Pro GPU repair Johannesburg',
     'MacBook Pro liquid damage board repair',
-    'assessment: R899 ex VAT MacBook Pro',
+    'assessment: from R599 ex VAT MacBook Pro',
   ],
 };
 
@@ -40,7 +40,7 @@ const repairProcess = [
   { step: '1', title: 'Free Diagnostic', detail: 'We inspect the board under microscope. Power rail testing, short-circuit mapping, and component identification. No charge, no obligation. Completed within 24 hours.' },
   { step: '2', title: 'Written Quote', detail: 'You receive a clear quote covering the specific fault, parts needed, labour, and a completion estimate. No ambiguous "from" pricing at this stage, it is a fixed quote.' },
   { step: '3', title: 'Your Approval', detail: 'We begin work only after you approve the quote. If you decline, you walk away paying nothing. The machine is returned exactly as received.' },
-  { step: '4', title: 'Component-Level Repair', detail: 'Our technician uses a Hakko FM-204 hot air station, Leica stereo microscope, and JBC soldering iron to replace the specific failed component. We reflow solder, replace ICs, and repair traces as needed.' },
+  { step: '4', title: 'Component-Level Repair', detail: 'Our technician uses a professional hot-air rework station, stereo microscope, and precision soldering station to replace the specific failed component. We reflow solder, replace ICs, and repair traces as needed.' },
   { step: '5', title: 'Multi-Stage Testing', detail: 'Before closing the machine: power-on test, full charge cycle, display output check, USB-C port enumeration, thermal monitoring under load, and SMC/T2 validation on applicable models.' },
   { step: '6', title: 'Collection or Delivery', detail: 'You collect from Hyde Park or we arrange secure courier delivery across Johannesburg. Most repairs completed within 3–5 business days from approval.' },
 ];
@@ -60,7 +60,7 @@ const modelCompatibility = [
 const faqs = [
   {
     question: 'How long does MacBook Pro logic board repair take?',
-    answer: 'The diagnostic is completed within 24 hours. Simple repairs, USB-C controllers, backlight circuits, power fuse, are typically done within 48–72 hours. Complex microsoldering jobs such as multi-component liquid damage or GPU reball take 3–5 business days. We confirm the timeframe at the assessment stage before any work begins.',
+    answer: 'The diagnostic is completed within 24 hours. Simple repairs, USB-C controllers, backlight circuits, power fuse, are typically done within 48–72 hours. Complex component-level repair jobs such as multi-component liquid damage or GPU reball take 3–5 business days. We confirm the timeframe at the assessment stage before any work begins.',
   },
   {
     question: 'Do you offer a warranty on logic board repairs?',
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     question: 'What if my MacBook Pro cannot be fixed?',
-    answer: 'Assessment fee of R899 ex VAT applies. Our Assessment: R899 ex VAT policy is unconditional, if we cannot repair the fault, the diagnostic is free and the machine is returned to you exactly as it was received. We will give you an honest assessment of your options: board replacement pricing, data recovery, or part-out value.',
+    answer: 'Assessment fee of from R599 ex VAT applies. Our Assessment: from R599 ex VAT policy is unconditional, if we cannot repair the fault, the diagnostic is free and the machine is returned to you exactly as it was received. We will give you an honest assessment of your options: board replacement pricing, data recovery, or part-out value.',
   },
   {
     question: 'Is it worth repairing a MacBook Pro versus buying a new one?',
@@ -92,11 +92,11 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro 15" Intel shows GPU artifacts and flickering. What is happening?',
-    answer: 'This is almost certainly a discrete GPU failure, specifically, solder joint failure between the AMD Radeon GPU package and the logic board. This is a known issue on 2011–2019 Intel MacBook Pros with discrete GPUs. The repair involves reballing (removing the chip, cleaning the pads, applying fresh solder balls, and reflowing) or component-level repair of the GPU package. It is a definitive fix, not a temporary workaround, and is covered by our 3-month warranty.',
+    answer: 'This is almost certainly a discrete GPU failure, specifically, solder joint failure between the AMD Radeon GPU package and the logic board. This is a known issue on 2011–2019 Intel MacBook Pros with discrete GPUs. The repair involves reballing (removing the chip, cleaning the pads, applying fresh solder balls, and reflowing) or component-level repair of the GPU package. It is a definitive fix, not a temporary workaround, and is covered by our up-to-3 year warranty.',
   },
   {
     question: 'My MacBook Pro stopped working after the USB-C port was damaged. What is the repair path?',
-    answer: 'On most MacBook Pro models from 2016 onwards, the USB-C ports connect via a separate I/O board, which can be replaced independently of the main logic board. If the damage extended to the Thunderbolt controller IC on the main logic board (Titan Ridge on Intel models, Apple-custom on M-series), that requires microsoldering. We assess the exact damage path during the assessment.',
+    answer: 'On most MacBook Pro models from 2016 onwards, the USB-C ports connect via a separate I/O board, which can be replaced independently of the main logic board. If the damage extended to the Thunderbolt controller IC on the main logic board (Titan Ridge on Intel models, Apple-custom on M-series), that requires component-level repair. We assess the exact damage path during the assessment.',
   },
 ];
 
@@ -130,7 +130,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Logic Board Repair Johannesburg',
-  description: 'Expert MacBook Pro logic board repair and microsoldering in Johannesburg. All Intel and Apple Silicon models. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'Expert MacBook Pro logic board repair and component-level repair in Johannesburg. All Intel and Apple Silicon models. Assessment: from R599 ex VAT. up-to-3 year warranty.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Home', url: 'https://zasupport.com' },
@@ -156,22 +156,22 @@ export default function MacBookProLogicBoardPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Pro Logic Board Repair
-              <br /><span className="text-[#0FEA7A]">Johannesburg, Assessment: R899 ex VAT</span>
+              <br /><span className="text-[#0FEA7A]">Johannesburg, Assessment: from R599 ex VAT</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Component-level microsoldering for MacBook Pro logic board faults.
-              All Intel and Apple Silicon models. Assessment: R899 ex VAT with no obligation.
+              Component-level component-level repair for MacBook Pro logic board faults.
+              All Intel and Apple Silicon models. Assessment: from R599 ex VAT with no obligation.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               We repair the board, we do not just replace it. Component-level repair is a fraction of the cost of a full board replacement. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'Assessment: R899 ex VAT' },
-                { icon: Clock, label: '3–5 Day Turnaround' },
+                { icon: Shield, label: 'Assessment: from R599 ex VAT' },
+                { icon: Clock, label: 'Fastest Turnaround Times' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'Warranty' },
-                { icon: Cpu, label: 'Microscope Microsoldering' },
+                { icon: Cpu, label: 'Microscope Component-level repair' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -234,7 +234,7 @@ export default function MacBookProLogicBoardPage() {
             </p>
             <p>
               Most logic board failures are caused by a single failed component — one chip, one capacitor, one damaged
-              trace. A microsoldering repair replaces only that component under a stereo microscope, restoring the
+              trace. A component-level repair repair replaces only that component under a stereo microscope, restoring the
               board to full function at a fraction of the cost of a full replacement.
             </p>
             <p>
@@ -401,7 +401,7 @@ export default function MacBookProLogicBoardPage() {
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
               { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. No charge, no obligation.' },
-              { item: 'USB-C / I/O Board Repair', note: 'Port board replacement or USB-C controller IC microsoldering' },
+              { item: 'USB-C / I/O Board Repair', note: 'Port board replacement or USB-C controller IC component-level repair' },
               { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or eDP connector fault' },
               { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC replacement' },
               { item: 'Liquid Damage Repair', note: 'Ultrasonic clean, trace repair, component replacement' },
@@ -420,14 +420,14 @@ export default function MacBookProLogicBoardPage() {
               <p className="text-[#7A9E98] text-sm">Apple replaces the entire logic board, we repair the specific failed component. Same result, your machine works again, at a fraction of the cost.</p>
             </div>
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
-              <p className="text-[#E8F4F1] font-bold mb-2">Assessment: R899 ex VAT, guaranteed</p>
-              <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Pro logic board, assessment fee of R899 ex VAT applies.
+              <p className="text-[#E8F4F1] font-bold mb-2">Assessment: from R599 ex VAT, guaranteed</p>
+              <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Pro logic board, assessment fee of from R599 ex VAT applies.
                 The diagnostic is free. The assessment is free. Zero obligation, zero risk to you.</p>
             </div>
           </div>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Assessment: R899 ex VAT, always.</strong> We assess your MacBook Pro at no charge with no obligation. Written quote before any work begins.
+              💡 <strong className="text-[#E8F4F1]">Assessment: from R599 ex VAT, always.</strong> We assess your MacBook Pro at no charge with no obligation. Written quote before any work begins.
             </p>
           </div>
         </div>
@@ -462,8 +462,8 @@ export default function MacBookProLogicBoardPage() {
               },
               {
                 icon: Shield,
-                title: 'Assessment: R899 ex VAT, No Exceptions',
-                body: 'If we cannot fix it, assessment fee of R899 ex VAT applies. We are one of the only repair specialists in Johannesburg offering this unconditionally on logic board repairs.',
+                title: 'Assessment: from R599 ex VAT, No Exceptions',
+                body: 'If we cannot fix it, assessment fee of from R599 ex VAT applies. We are one of the only repair specialists in Johannesburg offering this unconditionally on logic board repairs.',
               },
             ].map(({ icon: Icon, title, body }) => (
               <div key={title} className="glass-card p-6">
@@ -482,7 +482,7 @@ export default function MacBookProLogicBoardPage() {
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               Most repair shops in Johannesburg only offer board replacement, they swap the entire logic board for a new
               or refurbished one. This is expensive and often unnecessary. ZA Support performs component-level
-              microsoldering: we identify and replace the specific failed chip or component on your existing board. Your
+              component-level repair: we identify and replace the specific failed chip or component on your existing board. Your
               data stays put, your Touch ID pairing is preserved, and you get your machine back at 60–80% less than a
               board replacement would cost. We have the equipment, the training, and the track record to do this on
               every MacBook Pro model from 2015 to 2024.
@@ -554,9 +554,9 @@ export default function MacBookProLogicBoardPage() {
           <h2 className="text-lg font-bold text-[#E8F4F1] mb-5">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: R899 ex VAT' },
+              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: from R599 ex VAT' },
               { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
-              { title: 'Liquid Damage Repair', href: '/liquid-damage', label: 'Assessment: R899 ex VAT' },
+              { title: 'Liquid Damage Repair', href: '/liquid-damage', label: 'Assessment: from R599 ex VAT' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -577,8 +577,8 @@ export default function MacBookProLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Saturday 09:00–13:00</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Closed Saturdays</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsappLogicBoard}

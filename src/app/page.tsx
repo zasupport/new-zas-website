@@ -14,7 +14,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 export const metadata: Metadata = {
   title: 'Mac Repair Johannesburg, Logic Board Specialists',
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. 3-month warranty. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. up-to-3 year warranty. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com' },
 };
 
@@ -22,7 +22,7 @@ const services = [
   {
     icon: Cpu,
     title: 'Logic Board Repair',
-    description: 'Expert microsoldering for no-power, no-display, USB-C failure, and GPU faults.',
+    description: 'Expert component-level repair for no-power, no-display, USB-C failure, and GPU faults.',
     href: '/logic-board-repair',
     accent: 'text-purple-400',
     whatsapp: '/api/wa?service=logic-board&page=/',
@@ -67,7 +67,7 @@ const services = [
 const differentiators = [
   {
     icon: Cpu,
-    title: 'Board-Level Microsoldering',
+    title: 'Board-Level Component-level repair',
     description: 'We repair the chips others replace. Our engineers perform component-level repairs under microscope, saving you thousands compared to board replacement.',
   },
   {
@@ -128,7 +128,7 @@ const homepageFaqs = [
   {
     question: 'Where is ZA Support located in Johannesburg?',
     answer:
-      'ZA Support is located at 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196. We are open Monday to Friday 8am–6pm and Saturday 9am–1pm. Hyde Park is conveniently accessible from Sandton, Rosebank, Illovo, Bryanston, and Fourways.',
+      'ZA Support is located at 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196. We are open Monday to Friday 8am–6pm and Closed Saturdays. Hyde Park is conveniently accessible from Sandton, Rosebank, Illovo, Bryanston, and Fourways.',
   },
   {
     question: 'What Apple devices do you repair?',
@@ -138,17 +138,17 @@ const homepageFaqs = [
   {
     question: 'What is your assessment fee?',
     answer:
-      'ZA Support charges an assessment fee of R899 ex VAT. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a 3-month warranty on parts and labour.',
+      'ZA Support charges an assessment fee of from R599 ex VAT. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a up-to-3 year warranty on parts and labour.',
   },
   {
     question: 'How much does Mac repair cost in Johannesburg?',
     answer:
-      'Mac repair cost depends on the device and fault. An assessment fee of R899 ex VAT applies, we diagnose and provide a fixed quote before starting any work. Extended warranty is available on request.',
+      'Mac repair cost depends on the device and fault. An assessment fee of from R599 ex VAT applies, we diagnose and provide a fixed quote before starting any work. Extended warranty is available on request.',
   },
   {
     question: 'Do you repair MacBook liquid damage?',
     answer:
-      'Yes. MacBook liquid damage is one of our primary specialisations. We perform ultrasonic board cleaning, component-level diagnosis, and microsoldering repair on liquid-damaged MacBook Air and MacBook Pro models. The sooner you bring in a liquid-damaged MacBook, the better the outcome. Do not try to turn it on, bring it to us immediately.',
+      'Yes. MacBook liquid damage is one of our primary specialisations. We perform ultrasonic board cleaning, component-level diagnosis, and component-level repair repair on liquid-damaged MacBook Air and MacBook Pro models. The sooner you bring in a liquid-damaged MacBook, the better the outcome. Do not try to turn it on, bring it to us immediately.',
   },
   {
     question: 'How long does Mac repair take?',
@@ -163,7 +163,7 @@ const homepageFaqs = [
   {
     question: 'Is ZA Support an Apple Authorised Service Provider?',
     answer:
-      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple, and we can repair devices that Apple would refuse to fix (out of 3-month warranty, out of production, or with third-party modifications). All repairs carry a 3-month warranty on parts and labour. Extended warranty is available on request.',
+      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple, and we can repair devices that Apple would refuse to fix (out of up-to-3 year warranty, out of production, or with third-party modifications). All repairs carry a up-to-3 year warranty on parts and labour. Extended warranty is available on request.',
   },
 ];
 
@@ -199,7 +199,7 @@ export default function HomePage() {
             </h1>
 
             <p className="speakable-summary text-base sm:text-lg text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
-              MacBook liquid damage, logic board microsoldering, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment: R899 ex VAT. 3-month warranty.
+              MacBook liquid damage, logic board component-level repair, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment: from R599 ex VAT. up-to-3 year warranty.
             </p>
 
             {/* Stats */}
@@ -235,13 +235,13 @@ export default function HomePage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
-                Book Assessment: R899 ex VAT
+                Book Assessment: from R599 ex VAT
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
 
             <p className="mt-4 text-[#7A9E98] text-sm">
-              Mon–Fri: 08:00–17:30 · Sat: 09:00–13:00 · Hyde Park, Johannesburg
+              Mon–Fri: 08:00–17:30 · Closed Sat & Sun · Hyde Park, Johannesburg
             </p>
           </div>
         </div>
@@ -252,10 +252,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-6 sm:gap-10 overflow-x-auto pb-1 sm:flex-wrap sm:justify-center">
             {[
-              { icon: Shield, label: '3-Month Warranty' },
-              { icon: BadgeCheck, label: 'Written Warranty' },
-              { icon: Clock, label: '72-Hour Turnaround' },
-              { icon: Search, label: 'Assessment: R899 ex VAT' },
+              { icon: Shield, label: 'Up-to-3 Year Warranty' },
+              { icon: BadgeCheck, label: '16 Years Experience' },
+              { icon: Clock, label: 'Fastest Turnaround Times' },
+              { icon: Search, label: 'Assessment: from R599' },
               { icon: MapPin, label: 'Hyde Park, JHB' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2 text-[#E8F4F1]">
@@ -264,6 +264,21 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Google Reviews — near top for social proof */}
+      <section className="py-12 sm:py-20 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
+              {SITE.rating} on Google
+            </h2>
+            <p className="text-[#7A9E98] text-lg">Over {SITE.reviewCount} verified reviews from Johannesburg clients · 16 years of Apple expertise</p>
+          </div>
+          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
+            <GoogleReviews maxReviews={4} />
+          </Suspense>
         </div>
       </section>
 
@@ -363,22 +378,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Google Reviews */}
-      <section className="py-12 sm:py-24 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-14">
-            <h2
-              className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
-            >
-              {SITE.rating} on Google
-            </h2>
-            <p className="text-[#7A9E98] text-lg">{SITE.reviewCount} verified reviews from Johannesburg clients</p>
-          </div>
-          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
-            <GoogleReviews maxReviews={4} />
-          </Suspense>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-24 bg-[#111C1A]">
@@ -391,8 +390,8 @@ export default function HomePage() {
               Book Your Assessment
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
-              Bring your device in. We&apos;ll assess it (R899 ex VAT), give you a clear quote,
-              and fix it fast, backed by a 3-month warranty. Extended warranty available on request.
+              Bring your device in. We&apos;ll assess it (from R599 ex VAT), give you a clear quote,
+              and fix it fast, backed by a up-to-3 year warranty. Extended warranty available on request.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -411,7 +410,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="mt-6 text-[#7A9E98] text-sm">
-              1 Hyde Lane, Hyde Park, Johannesburg · Mon–Fri 08:00–17:30 · Sat 09:00–13:00
+              1 Hyde Lane, Hyde Park, Johannesburg · Mon–Fri 08:00–17:30 · Closed Sat & Sun
             </p>
           </div>
         </div>

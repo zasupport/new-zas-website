@@ -42,25 +42,25 @@ export const metadata: Metadata = {
 const pricingRows = [
   {
     model: 'Butterfly keyboard replacement (2016–2019)',
-    warranty: 'No 3-month warranty, design defect',
+    warranty: 'No up-to-3 year warranty, design defect',
     noWarranty: true,
     note: 'See butterfly explainer below',
   },
   {
     model: 'Scissor keyboard replacement (2020+)',
-    warranty: '3-month warranty',
+    warranty: 'up-to-3 year warranty',
     noWarranty: false,
     note: 'MacBook Air M1/M2/M3',
   },
   {
     model: 'MacBook Pro 14" / 16" keyboard (M-series)',
-    warranty: '3-month warranty',
+    warranty: 'up-to-3 year warranty',
     noWarranty: false,
     note: 'M1 / M2 / M3 / M4',
   },
   {
     model: 'Single keycap replacement',
-    warranty: '3-month warranty',
+    warranty: 'up-to-3 year warranty',
     noWarranty: false,
     note: 'Where mechanically feasible',
   },
@@ -152,14 +152,14 @@ const reviews = [
     name: 'Natasha B.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'My 2018 MacBook Pro was double-typing on every keystroke, a nightmare for writing. ZA Support explained the butterfly keyboard issue clearly, replaced the top case the same day and gave me a straight answer about why it carries no 3-month warranty. Honest and fast.',
+    text: 'My 2018 MacBook Pro was double-typing on every keystroke, a nightmare for writing. ZA Support explained the butterfly keyboard issue clearly, replaced the top case the same day and gave me a straight answer about why it carries no up-to-3 year warranty. Honest and fast.',
     date: 'February 2026',
   },
   {
     name: 'Gareth O.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Spilled coffee on my MacBook Air M2 keyboard at 7am. Dropped it off at Hyde Park by 9am, picked it up at 2pm with a brand new scissor keyboard and 3-month warranty. Incredible turnaround.',
+    text: 'Spilled coffee on my MacBook Air M2 keyboard at 7am. Dropped it off at Hyde Park by 9am, picked it up at 2pm with a brand new scissor keyboard and up-to-3 year warranty. Incredible turnaround.',
     date: 'January 2026',
   },
   {
@@ -178,7 +178,7 @@ const faqs = [
   {
     question: 'How much does MacBook keyboard repair cost in Johannesburg?',
     answer:
-      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a 3-month warranty. We provide a assessment fee (R899 ex VAT) and a fixed written quote before starting any work.',
+      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a up-to-3 year warranty. We provide a assessment fee (from R599 ex VAT) and a fixed written quote before starting any work.',
   },
   {
     question: 'Why does the butterfly keyboard carry no warranty?',
@@ -294,7 +294,7 @@ export default function MacBookKeyboardPage() {
 
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Assessment: R899 ex VAT.
+              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Assessment: from R599 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -382,7 +382,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Repair <span className="text-[#0FEA7A]">Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Assessment: R899 ex VAT before any work begins. Written fixed quote, no hidden costs.
+              Assessment: from R599 ex VAT before any work begins. Written fixed quote, no hidden costs.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -407,7 +407,7 @@ export default function MacBookKeyboardPage() {
                   <div className="col-span-4 text-right">
                     {row.noWarranty ? (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-orange-400 bg-orange-400/10 border border-orange-400/20 px-2 py-1 rounded-full">
-                        <XCircle className="w-3 h-3" /> No 3-month warranty
+                        <XCircle className="w-3 h-3" /> No up-to-3 year warranty
                       </span>
                     ) : (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#0FEA7A] bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.2)] px-2 py-1 rounded-full">
@@ -438,7 +438,7 @@ export default function MacBookKeyboardPage() {
                 ZA Support does not offer a warranty on like-for-like butterfly keyboard replacements because the design itself is the cause of failure. Replacing one butterfly keyboard with another butterfly keyboard will very likely produce the same fault. We are transparent about this before you decide to proceed.
               </p>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter, a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a 3-month warranty.
+                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter, a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a up-to-3 year warranty.
               </p>
             </div>
           </div>
@@ -521,7 +521,7 @@ export default function MacBookKeyboardPage() {
               Signs You Need <span className="text-[#0FEA7A]">Keyboard Repair</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Any of these symptoms warrants a assessment fee (R899 ex VAT). We diagnose before we quote, no obligation.
+              Any of these symptoms warrants a assessment fee (from R599 ex VAT). We diagnose before we quote, no obligation.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -556,7 +556,7 @@ export default function MacBookKeyboardPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Assessment: R899 ex VAT',
+                title: 'Assessment: from R599 ex VAT',
                 desc: 'We test every key, check for liquid ingress, and inspect the top case. For butterfly keyboard models we advise you on whether the scissor-switch upgrade is available for your specific machine before quoting.',
               },
               {
@@ -659,7 +659,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              Assessment: R899 ex VAT. Hyde Park, Johannesburg. WhatsApp for fastest response.
+              Assessment: from R599 ex VAT. Hyde Park, Johannesburg. WhatsApp for fastest response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
   description:
-    'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. M1–M4 Pro/Max and Intel 2015–2019. Assessment: R899 ex VAT. Hyde Park.',
+    'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. M1–M4 Pro/Max and Intel 2015–2019. Assessment: from R599 ex VAT. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair' },
   keywords: [
     'macbook pro repair johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
-    description: 'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. Assessment: R899 ex VAT.',
+    description: 'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. Assessment: from R599 ex VAT.',
     url: 'https://zasupport.com/macbook-pro-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -41,7 +41,7 @@ const services = [
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with 3-month warranty.',
+    description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with up-to-3 year warranty.',
     href: '/macbook-pro-repair/keyboard',
     price: 'Quoted on assessment',
   },
@@ -55,21 +55,21 @@ const services = [
   {
     icon: Cpu,
     title: 'Logic Board Repair',
-    description: 'Component-level microsoldering for no-power, no-display, GPU fault, USB-C charging failure, and T2 issues. All MacBook Pro models repaired in-house.',
+    description: 'Component-level component-level repair for no-power, no-display, GPU fault, USB-C charging failure, and T2 issues. All MacBook Pro models repaired in-house.',
     href: '/logic-board-repair/macbook-pro',
     price: 'Quoted on assessment',
   },
   {
     icon: Droplets,
     title: 'Liquid Damage',
-    description: 'Ultrasonic board cleaning, corrosion removal and component-level microsoldering. MacBook Pro liquid damage is often fully repairable if assessed quickly.',
+    description: 'Ultrasonic board cleaning, corrosion removal and component-level component-level repair. MacBook Pro liquid damage is often fully repairable if assessed quickly.',
     href: '/liquid-damage/macbook-pro',
     price: 'Quoted on assessment',
   },
   {
     icon: Wrench,
     title: 'Charging Port Repair',
-    description: 'USB-C or Thunderbolt port not charging, bent pins, MagSafe port failure on older models. Port board replacement or microsoldering where needed.',
+    description: 'USB-C or Thunderbolt port not charging, bent pins, MagSafe port failure on older models. Port board replacement or component-level repair where needed.',
     href: '/macbook-repair/charging-port',
     price: 'Quoted on assessment',
   },
@@ -119,7 +119,7 @@ const knownIssues = [
     name: 'Butterfly Keyboard',
     models: '2016–2019 MacBook Pro',
     icon: Keyboard,
-    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly, keyboard, battery bracket, and all, with a working unit carrying a 3-month warranty.',
+    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly, keyboard, battery bracket, and all, with a working unit carrying a up-to-3 year warranty.',
   },
   {
     name: 'Thermal Throttling',
@@ -148,11 +148,11 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro has a black screen but the fans spin on startup. What is wrong?',
-    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016–2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first, if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Assessment: R899 ex VAT before any quote.',
+    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016–2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first, if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Assessment: from R599 ex VAT before any quote.',
   },
   {
-    question: 'What is logic board microsoldering and when does a MacBook Pro need it?',
-    answer: 'Logic board microsoldering is component-level repair on the MacBook Pro main circuit board. It is needed for no-power faults, no-display faults where the screen is confirmed good, GPU failure, USB-C charging failure where the port board is intact, and liquid damage where corrosion has damaged individual components. Apple charges many times the cost of our repair for a full board replacement.',
+    question: 'What is logic board component-level repair and when does a MacBook Pro need it?',
+    answer: 'Logic board component-level repair is component-level repair on the MacBook Pro main circuit board. It is needed for no-power faults, no-display faults where the screen is confirmed good, GPU failure, USB-C charging failure where the port board is intact, and liquid damage where corrosion has damaged individual components. Apple charges many times the cost of our repair for a full board replacement.',
   },
   {
     question: 'How long does MacBook Pro repair take?',
@@ -192,7 +192,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering, liquid damage. M1–M4 Pro/Max and Intel models. Assessment: R899 ex VAT.',
+    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair, liquid damage. M1–M4 Pro/Max and Intel models. Assessment: from R599 ex VAT.',
   offers: {
     '@type': 'AggregateOffer',
   },
@@ -232,10 +232,10 @@ export default function MacBookProRepairPage() {
               MacBook Pro Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Specialists in MacBook Pro faults, Flexgate backlight failure, Staingate screen delamination, butterfly keyboard, thermal throttling, and logic board microsoldering. All models from M4 Pro/Max back to 2011 Intel.
+              Specialists in MacBook Pro faults, Flexgate backlight failure, Staingate screen delamination, butterfly keyboard, thermal throttling, and logic board component-level repair. All models from M4 Pro/Max back to 2011 Intel.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Hyde Park, Johannesburg. Assessment: R899 ex VAT.
+              Hyde Park, Johannesburg. Assessment: from R599 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -251,8 +251,8 @@ export default function MacBookProRepairPage() {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 3-Month Warranty</span>
-              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: R899 ex VAT</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty</span>
+              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: from R599 ex VAT</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
           </div>
@@ -292,7 +292,7 @@ export default function MacBookProRepairPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">MacBook Pro Repairs We Do</h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault, from battery to board-level microsoldering. Same-day diagnosis, fixed pricing, 3-month warranty.</p>
+          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault, from battery to board-level component-level repair. Same-day diagnosis, fixed pricing, up-to-3 year warranty.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => {
               const Icon = svc.icon;
@@ -321,7 +321,7 @@ export default function MacBookProRepairPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             MacBook Pro <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
-          <p className="text-[#7A9E98] text-center mb-10 text-sm">All costs are confirmed in writing after a assessment fee (R899 ex VAT). No hidden costs.</p>
+          <p className="text-[#7A9E98] text-center mb-10 text-sm">All costs are confirmed in writing after a assessment fee (from R599 ex VAT). No hidden costs.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
               <thead>
@@ -336,7 +336,7 @@ export default function MacBookProRepairPage() {
                   { repair: 'Keyboard Replacement (butterfly / Magic)', time: '2–4 hrs' },
                   { repair: 'Battery Replacement (13")', time: '1.5–2.5 hrs' },
                   { repair: 'Battery Replacement (14" / 16")', time: '2–3 hrs' },
-                  { repair: 'Logic Board Microsoldering', time: '3–5 days' },
+                  { repair: 'Logic Board Component-level repair', time: '3–5 days' },
                   { repair: 'Liquid Damage (ultrasonic + component repair)', time: '2–5 days' },
                   { repair: 'Charging Port / USB-C Repair', time: '1–2 hrs' },
                   { repair: 'Trackpad Repair', time: '2–4 hrs' },
@@ -351,7 +351,7 @@ export default function MacBookProRepairPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee (R899 ex VAT). All repairs include 3-month warranty.</p>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee (from R599 ex VAT). All repairs include up-to-3 year warranty.</p>
         </div>
       </section>
 
@@ -408,7 +408,7 @@ export default function MacBookProRepairPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro Needs a Repair?</h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment: R899 ex VAT. Fixed pricing. Assessment: R899 ex VAT. Hyde Park, Johannesburg.<br />
+              Assessment: from R599 ex VAT. Fixed pricing. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.<br />
               WhatsApp for the fastest response, typically within 30 minutes during business hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

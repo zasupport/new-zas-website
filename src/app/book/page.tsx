@@ -31,7 +31,7 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'ZA Support, Apple Repair Specialists',
-  description: 'Book a Mac repair assessment in Hyde Park, Johannesburg. Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed.',
+  description: 'Book a Mac repair assessment in Hyde Park, Johannesburg. Assessment fee: from R599 ex VAT, absorbed into repair cost if you proceed.',
   url: 'https://zasupport.com/book',
   telephone: '+27645295863',
   address: {
@@ -43,7 +43,7 @@ const localBusinessSchema = {
     addressCountry: 'ZA',
   },
   openingHours: 'Mo-Fr 08:00-17:30 Sa 09:00-13:00',
-  priceRange: 'R899 ex VAT assessment',
+  priceRange: 'from R599 ex VAT assessment',
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.9',
@@ -102,7 +102,7 @@ export default function BookPage() {
               <Calendar className="w-4 h-4 text-[#0A1A18]" />
             </div>
             <span className="text-[#0FEA7A] text-sm font-semibold tracking-widest uppercase">
-              Assessment: R899 ex VAT, No Deposit to Book
+              Assessment: from R599 ex VAT, No Deposit to Book
             </span>
           </div>
           <h1
@@ -115,7 +115,7 @@ export default function BookPage() {
           </h1>
           <p className="text-lg text-[#7A9E98] max-w-xl leading-relaxed">
             Fill in the form below and we will contact you within 2 hours to confirm your booking.
-            Assessment fee: R899 ex VAT, absorbed into repair cost if you proceed. 3-month warranty on all repairs.
+            Assessment fee: from R599 ex VAT, absorbed into repair cost if you proceed. up-to-3 year warranty on all repairs.
           </p>
         </div>
       </section>
@@ -125,8 +125,8 @@ export default function BookPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             {[
-              ['Assessment: R899 ex VAT', 'Absorbed into repair if you proceed'],
-              ['3-Month Warranty', 'On all parts and labour'],
+              ['Assessment: from R599 ex VAT', 'Absorbed into repair if you proceed'],
+              ['Up-to-3 Year Warranty', 'On all parts and labour'],
               ['2-Hour Response', 'We call you back fast'],
               ['4.9★ Reviews', '120+ happy clients'],
             ].map(([title, sub]) => (
@@ -335,7 +335,7 @@ export default function BookPage() {
 
                 <p className="text-center text-[#7A9E98] text-xs leading-relaxed">
                   By submitting this form you agree to be contacted by ZA Support regarding your repair.
-                  We never share your details. Assessment: R899 ex VAT, absorbed into repair cost if you proceed.
+                  We never share your details. Assessment: from R599 ex VAT, absorbed into repair cost if you proceed.
                 </p>
               </form>
             </div>

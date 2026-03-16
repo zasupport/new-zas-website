@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Battery Replacement Johannesburg | ZA Support',
   description:
-    'iPhone battery replacement in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. 3-month warranty. Hyde Park, Johannesburg.',
+    'iPhone battery replacement in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/battery' },
   keywords: [
     'iPhone battery replacement Johannesburg',
@@ -81,11 +81,11 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
+  { step: '1', title: 'Assessment: from R599 ex VAT', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
   { step: '2', title: 'Battery Confirmed', desc: 'We confirm the correct replacement battery is in stock for your model. Same-day replacement is available for most models.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery under controlled conditions. iPhone battery replacement takes approximately 45–60 minutes.' },
   { step: '4', title: 'Quality Check', desc: 'We verify the new battery charges correctly, confirm battery health reads 100%, and test for unexpected shutdowns before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a written warranty on the replacement battery and our labour. Assessment: R899 ex VAT applies if anything goes wrong.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599 ex VAT applies if anything goes wrong.' },
 ];
 
 const faqs = [
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on iPhone battery replacements?',
     answer:
-      'All iPhone battery replacements at ZA Support come with a written warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at no charge.',
+      'All iPhone battery replacements at ZA Support come with a up-to-3 year warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at no charge.',
   },
 ];
 
@@ -136,7 +136,7 @@ const reviews = [
     name: 'Kevin M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'iPhone 14 Pro was shutting off at 30%. New battery from ZA Support and it lasts all day again. Under an hour, 3-month warranty. Brilliant service.',
+    text: 'iPhone 14 Pro was shutting off at 30%. New battery from ZA Support and it lasts all day again. Under an hour, up-to-3 year warranty. Brilliant service.',
     date: 'February 2026',
   },
   {
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Battery Replacement Johannesburg',
-  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen battery. 3-month warranty.',
+  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen battery. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,7 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Battery Replacement Johannesburg',
-  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. 3-month warranty.',
+  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. up-to-3 year warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -225,10 +225,10 @@ export default function iPhoneBatteryPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Battery draining fast, unexpected shutdowns, swollen battery, we replace iPhone batteries.
-              iPhone 12 through 16 Pro Max, same-day available, 3-month warranty, Hyde Park Johannesburg.
+              iPhone 12 through 16 Pro Max, same-day available, up-to-3 year warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: R899 ex VAT', 'Assessment: R899 ex VAT', '3-Month Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment: from R599 ex VAT', 'Assessment: from R599 ex VAT', 'Up-to-3 Year Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -287,7 +287,7 @@ export default function iPhoneBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written 3-month warranty. Assessment: R899 ex VAT. Data is never accessed or affected.
+            All repairs include written up-to-3 year warranty. Assessment: from R599 ex VAT. Data is never accessed or affected.
             Free battery health check, no charge if we cannot repair your device.
           </p>
         </div>
@@ -334,7 +334,7 @@ export default function iPhoneBatteryPage() {
                 {[
                   {
                     icon: <Shield className="w-5 h-5" />,
-                    title: 'Written Warranty',
+                    title: 'Up-to-3 Year Warranty',
                     desc: 'Every battery replacement carries a warranty on the battery and labour. If it fails or drains unusually fast, we replace it, no charge.',
                   },
                   {
@@ -422,9 +422,9 @@ export default function iPhoneBatteryPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: R899 ex VAT' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: R899 ex VAT' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: R899 ex VAT' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: from R599 ex VAT' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: from R599 ex VAT' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: from R599 ex VAT' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -448,7 +448,7 @@ export default function iPhoneBatteryPage() {
             >
               iPhone Battery Draining Fast?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free battery health check. Assessment: R899 ex VAT. 3-month warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Free battery health check. Assessment: from R599 ex VAT. up-to-3 year warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, assessment fee (R899 ex VAT) and same-day diagnosis. Assessment: R899 ex VAT. Call 064 529 5863.',
+    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, assessment fee (from R599 ex VAT) and same-day diagnosis. Assessment: from R599 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },
 };
 
@@ -60,7 +60,7 @@ const steps = [
   { title: 'Intake & Assessment', description: 'Free inspection. We assess the extent of liquid exposure, identify affected areas, and provide an honest quote.' },
   { title: 'Ultrasonic Cleaning', description: 'Full disassembly. Logic board and components cleaned in ultrasonic bath to remove corrosion and contaminants.' },
   { title: 'Diagnostic', description: 'Post-clean diagnostic to identify damaged or failed components. Tested against known-good reference boards.' },
-  { title: 'Component Repair', description: 'Board-level microsoldering to replace failed chips, capacitors, resistors, and connector pins under magnification.' },
+  { title: 'Component Repair', description: 'Board-level component-level repair to replace failed chips, capacitors, resistors, and connector pins under magnification.' },
   { title: 'Testing', description: 'Full functional test, display, keyboard, trackpad, ports, charging, Wi-Fi, camera, and all sensors.' },
   { title: 'Return', description: 'Device returned clean, fully functional, with a ZA Support warranty on all repaired components.' },
 ];
@@ -89,7 +89,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Liquid Damage Assessment',
-          description: 'Free same-day assessment for MacBook liquid damage. Assessment: R899 ex VAT.',
+          description: 'Free same-day assessment for MacBook liquid damage. Assessment: from R599 ex VAT.',
         },
         price: '0',
         priceCurrency: 'ZAR',
@@ -99,7 +99,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Liquid Damage Repair, Ultrasonic Cleaning',
-          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. 3-month warranty.',
+          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. up-to-3 year warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -188,7 +188,7 @@ const liquidDamageReviewSchema = {
       author: { '@type': 'Person', name: 'David M.' },
       datePublished: '2026-01',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a 3-month warranty. Cannot believe it.',
+      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a up-to-3 year warranty. Cannot believe it.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Liquid Damage Repair Johannesburg',
@@ -200,7 +200,7 @@ const liquidDamageReviewSchema = {
       author: { '@type': 'Person', name: 'Nomsa P.' },
       datePublished: '2026-03',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Assessment: R899 ex VAT, no surprises on the invoice. 5 stars.',
+      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Assessment: from R599 ex VAT, no surprises on the invoice. 5 stars.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Liquid Damage Repair Johannesburg',
@@ -234,7 +234,7 @@ export default function LiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Johannesburg&apos;s liquid damage specialists. Board-level cleaning, component repair, and free
-              assessment. Assessment: R899 ex VAT. 3-month warranty. Hyde Park.
+              assessment. Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -329,7 +329,7 @@ export default function LiquidDamagePage() {
                 ))}
               </div>
               <p className="text-[#7A9E98] text-xs mt-3">
-                Assessment is free. Assessment: R899 ex VAT guarantee on all liquid damage repairs.
+                Assessment is free. Assessment: from R599 ex VAT guarantee on all liquid damage repairs.
               </p>
             </div>
           </div>
@@ -391,7 +391,7 @@ export default function LiquidDamagePage() {
               When Liquid Damage Affects the Logic Board
             </h2>
             <p className="text-[#7A9E98] leading-relaxed mb-4">
-              When corrosion reaches chips, capacitors, or copper traces, standard cleaning is not enough. We use microscope-guided microsoldering to replace individual components — far cheaper than a full board swap.
+              When corrosion reaches chips, capacitors, or copper traces, standard cleaning is not enough. We use microscope-guided component-level repair to replace individual components — far cheaper than a full board swap.
             </p>
             <p className="text-[#7A9E98] leading-relaxed mb-6">
               No power, no display, USB-C not charging, keyboard dead — our{' '}
@@ -409,9 +409,9 @@ export default function LiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { icon: Shield, label: 'Assessment: R899 ex VAT', sub: 'Zero risk to you' },
+              { icon: Shield, label: 'Assessment: from R599 ex VAT', sub: 'Zero risk to you' },
               { icon: CheckCircle, label: 'Warranty', sub: 'On all repairs' },
-              { icon: Clock, label: '72-Hour Turnaround', sub: 'Most liquid damage cases' },
+              { icon: Clock, label: 'Fastest Turnaround Times', sub: 'Most liquid damage cases' },
               { icon: Phone, label: 'Same-Day Assessment', sub: 'Hyde Park, JHB' },
             ].map(({ icon: Icon, label, sub }) => (
               <div key={label} className="flex flex-col items-center gap-2 p-4">
@@ -468,7 +468,7 @@ export default function LiquidDamagePage() {
               Book Assessment, We Respond Within 1 Hour
             </h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment: R899 ex VAT. Honest prognosis. warranty on all work.
+              Assessment: from R599 ex VAT. Honest prognosis. warranty on all work.
             </p>
             <a
               href={`tel:${CONTACT.phoneTel}`}

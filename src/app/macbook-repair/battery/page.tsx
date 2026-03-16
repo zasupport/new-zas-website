@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg | ZA Support',
   description:
-    'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. 3-month warranty. Hyde Park. Call 064 529 5863.',
+    'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/battery' },
   keywords: [
     'MacBook battery replacement Johannesburg',
@@ -30,7 +30,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Battery Replacement Johannesburg',
-  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. 3-month warranty.',
+  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -66,7 +66,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Air Battery Replacement Johannesburg',
-          description: 'MacBook Air M1/M2/M3 and Intel battery replacement. Same-day available. 3-month warranty.',
+          description: 'MacBook Air M1/M2/M3 and Intel battery replacement. Same-day available. up-to-3 year warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -75,7 +75,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Pro Battery Replacement Johannesburg',
-          description: 'MacBook Pro 13"/14"/16" Intel and M-series battery replacement. 3-month warranty.',
+          description: 'MacBook Pro 13"/14"/16" Intel and M-series battery replacement. up-to-3 year warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -158,7 +158,7 @@ const faqs = [
   {
     question: 'How much does MacBook battery replacement cost in Johannesburg?',
     answer:
-      'MacBook battery replacement cost depends on your model. All prices include parts, labour, and a 3-month warranty. Call us on 064 529 5863 for a model-specific quote.',
+      'MacBook battery replacement cost depends on your model. All prices include parts, labour, and a up-to-3 year warranty. Call us on 064 529 5863 for a model-specific quote.',
   },
   {
     question: 'How long does MacBook battery replacement take?',
@@ -188,12 +188,12 @@ const faqs = [
   {
     question: 'Can you replace the battery in a MacBook Pro M1, M2, or M3?',
     answer:
-      'Yes. We replace batteries in all Apple Silicon MacBook Pro models: M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max, and the base M1/M2 13" MacBook Pro. Apple Silicon batteries are glued into the enclosure and take slightly longer than Intel models to replace, but the process is routine for us. The result is 100% battery health and a full written 3-month warranty.',
+      'Yes. We replace batteries in all Apple Silicon MacBook Pro models: M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max, and the base M1/M2 13" MacBook Pro. Apple Silicon batteries are glued into the enclosure and take slightly longer than Intel models to replace, but the process is routine for us. The result is 100% battery health and a full written up-to-3 year warranty.',
   },
   {
     question: 'What warranty do I get on a MacBook battery replacement?',
     answer:
-      'Every MacBook battery replacement at ZA Support carries a written warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at no charge. We put this in writing. You will receive a job card with the warranty terms when you collect your MacBook.',
+      'Every MacBook battery replacement at ZA Support carries a up-to-3 year warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at no charge. We put this in writing. You will receive a job card with the warranty terms when you collect your MacBook.',
   },
 ];
 
@@ -255,7 +255,7 @@ export default function MacBookBatteryPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
               All MacBook Air and MacBook Pro models, M1, M2, M3 through to Intel. Genuine-equivalent cells,
-              written 3-month warranty, Hyde Park workshop.
+              written up-to-3 year warranty, Hyde Park workshop.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -284,7 +284,7 @@ export default function MacBookBatteryPage() {
             {[
               { icon: <Battery className="w-5 h-5" />, label: '3,000+', sub: 'Batteries Replaced' },
               { icon: <Zap className="w-5 h-5" />, label: 'Same-Day', sub: 'Service Available' },
-              { icon: <Shield className="w-5 h-5" />, label: '12-Month', sub: 'Written Warranty' },
+              { icon: <Shield className="w-5 h-5" />, label: '12-Month', sub: 'Up-to-3 Year Warranty' },
               { icon: <CheckCircle className="w-5 h-5" />, label: 'Genuine', sub: 'OEM-Equivalent Cells' },
             ].map((stat) => (
               <div key={stat.sub} className="flex flex-col items-center py-6 px-4 gap-1">
@@ -304,7 +304,7 @@ export default function MacBookBatteryPage() {
             Signs Your MacBook Needs a New Battery
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            Recognise any of these? Book a assessment fee (R899 ex VAT), we diagnose before we quote.
+            Recognise any of these? Book a assessment fee (from R599 ex VAT), we diagnose before we quote.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {signs.map((s) => (
@@ -370,7 +370,7 @@ export default function MacBookBatteryPage() {
             </div>
           </div>
           <p className="text-[#7A9E98] text-xs mt-6 text-center">
-            Exact quote confirmed after assessment fee (R899 ex VAT). Contact us for a fixed price on your model.
+            Exact quote confirmed after assessment fee (from R599 ex VAT). Contact us for a fixed price on your model.
           </p>
         </div>
       </section>
@@ -571,7 +571,7 @@ export default function MacBookBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. 3-month warranty. Assessment: R899 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. up-to-3 year warranty. Assessment: from R599 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, drop in, no appointment needed.
             </p>

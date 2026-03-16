@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Fourways | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Fourways clients. Microsoldering specialists, we collect from Fourways and repair at our Hyde Park workshop. Assessment: R899 ex VAT. Call 064 529 5863.',
+    'MacBook logic board repair for Fourways clients. Component-level repair specialists, we collect from Fourways and repair at our Hyde Park workshop. Assessment: from R599 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/fourways' },
 };
 
@@ -29,7 +29,7 @@ const pricing = [
   { item: 'Diagnostic Assessment', note: 'Full board-level inspection, no charge, no obligation' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board replacement' },
   { item: 'Power Circuit Repair', note: 'No-power fault and charging failure repair' },
-  { item: 'Microsoldering Repair', note: 'Component-level repair under microscope' },
+  { item: 'Component-level repair Repair', note: 'Component-level repair under microscope' },
   { item: 'GPU Repair / Reballing', note: 'Discrete GPU, Intel Mac models only' },
   { item: 'Logic Board Replacement', note: 'Full board swap where repair is not viable' },
 ];
@@ -41,19 +41,19 @@ const faqs = [
   },
   {
     question: 'How far is Fourways from your workshop?',
-    answer: 'Fourways is approximately 13 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Friday 08:00–17:30 and Saturday 09:00–13:00.',
+    answer: 'Fourways is approximately 13 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Friday 08:00–17:30 and Closed Saturdays.',
   },
   {
     question: 'My MacBook Air M2 will not turn on. Is that repairable?',
-    answer: 'In most cases, yes. A no-power fault on an Apple Silicon MacBook Air is very often caused by a failed component in the power delivery circuitry, a blown fuse, a dead MOSFET, or a failed power management IC. These are not failures in the M2 SoC itself but in the surrounding board components that can be repaired by microsoldering. The diagnostic will confirm the exact cause.',
+    answer: 'In most cases, yes. A no-power fault on an Apple Silicon MacBook Air is very often caused by a failed component in the power delivery circuitry, a blown fuse, a dead MOSFET, or a failed power management IC. These are not failures in the M2 SoC itself but in the surrounding board components that can be repaired by component-level repair. The diagnostic will confirm the exact cause.',
   },
   {
     question: 'Do you repair MacBook Pros from the Fourways Mall Apple Premium Reseller?',
-    answer: 'Yes, we repair all models sold through Apple Premium Resellers and independent retailers. ZA Support is an independent Apple repair specialist, we are not affiliated with Apple or any reseller. This means our prices are competitive, our repairs are component-level (not just board swaps), and we back every repair with a 3-month warranty.',
+    answer: 'Yes, we repair all models sold through Apple Premium Resellers and independent retailers. ZA Support is an independent Apple repair specialist, we are not affiliated with Apple or any reseller. This means our prices are competitive, our repairs are component-level (not just board swaps), and we back every repair with a up-to-3 year warranty.',
   },
   {
     question: 'What is the turnaround time for a Fourways collection job?',
-    answer: 'From collection to return, most repairs are completed within 3–5 business days including the collection day, diagnostic (24 hours), the repair itself (48–72 hours for most faults), and return. Complex microsoldering jobs may take 5–7 business days. We confirm the timeline with you before work begins.',
+    answer: 'From collection to return, most repairs are completed within 3–5 business days including the collection day, diagnostic (24 hours), the repair itself (48–72 hours for most faults), and return. Complex component-level repair jobs may take 5–7 business days. We confirm the timeline with you before work begins.',
   },
   {
     question: 'Is my data at risk during a logic board repair?',
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Fourways',
-  description: 'MacBook logic board microsoldering for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'MacBook logic board component-level repair for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Assessment: from R599 ex VAT. up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -104,7 +104,7 @@ export default function LogicBoardRepairFourwaysPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Fourways MacBook logic board repair with collection from your door. We specialise in microsoldering, fixing the actual failed component, not just replacing the whole board at premium cost.
+              Fourways MacBook logic board repair with collection from your door. We specialise in component-level repair, fixing the actual failed component, not just replacing the whole board at premium cost.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -112,9 +112,9 @@ export default function LogicBoardRepairFourwaysPage() {
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: Cpu, label: 'Microscope Microsoldering' },
+                { icon: Cpu, label: 'Microscope Component-level repair' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'Assessment: R899 ex VAT' },
+                { icon: CheckCircle, label: 'Assessment: from R599 ex VAT' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -152,7 +152,7 @@ export default function LogicBoardRepairFourwaysPage() {
               When a logic board fault develops, and they do, on every generation of Mac, the question is whether the shop you take it to has the equipment and skill to repair it at component level. Most general repair shops in the Fourways area do not. They quote a full board replacement when the actual fault is a single blown fuse or a failed charging IC worth a fraction of that. ZA Support is different.
             </p>
             <p>
-              Our Hyde Park workshop is approximately 20–30 minutes from Fourways via William Nicol Drive. We are equipped for microsoldering, a stereo microscope, precision rework stations, and the diagnostic tools needed to trace a fault to a specific millimetre on the board. We offer collection from Fourways so you can stay home or at work while we handle the rest.
+              Our Hyde Park workshop is approximately 20–30 minutes from Fourways via William Nicol Drive. We are equipped for component-level repair, a stereo microscope, precision rework stations, and the diagnostic tools needed to trace a fault to a specific millimetre on the board. We offer collection from Fourways so you can stay home or at work while we handle the rest.
             </p>
             <p>
               We see a consistent pattern of faults from Fourways clients: MacBook Airs with failed USB-C charging, Intel MacBook Pro 15-inch models with GPU failure, and liquid-damaged MacBooks from the home office environment. All are handled with the same structured approach, diagnostic first, quote second, repair only on approval.
@@ -189,8 +189,8 @@ export default function LogicBoardRepairFourwaysPage() {
               { step: '01', title: 'Collection from Fourways', desc: 'Message or call. We arrange collection from your Fourways home, office, or business at a time that suits your day.' },
               { step: '02', title: 'Board Diagnostic', desc: 'Assessment within 24 hours. Fault identified using schematics, oscilloscope, and microscope. No assumptions, exact cause confirmed.' },
               { step: '03', title: 'Written Quote', desc: 'You receive a clear written quote with fault description, repair approach, price, and timeframe. No work begins without approval.' },
-              { step: '04', title: 'Microsoldering Repair', desc: 'Failed component replaced under a Swift 100X stereo microscope. Original board preserved. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Fourways', desc: 'MacBook tested under load, returned to your Fourways address, and backed by a written 3-month warranty.' },
+              { step: '04', title: 'Component-level repair Repair', desc: 'Failed component replaced under a high-magnification stereo microscope. Original board preserved. Only the fault is addressed.' },
+              { step: '05', title: 'Return to Fourways', desc: 'MacBook tested under load, returned to your Fourways address, and backed by a written up-to-3 year warranty.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
@@ -251,7 +251,7 @@ export default function LogicBoardRepairFourwaysPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Fourways MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Fourways. Assessment: R899 ex VAT. 3-month warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Fourways. Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

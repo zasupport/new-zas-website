@@ -7,7 +7,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'About ZA Support | Apple Repair Specialist Johannesburg | Hyde Park',
   description:
-    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 3,000+ repairs, 4.9★. JAMF-certified. 3-month warranty.",
+    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 3,000+ repairs, 4.9★. JAMF-certified. up-to-3 year warranty.",
   alternates: { canonical: 'https://zasupport.com/about' },
   keywords: [
     'apple repair specialist johannesburg',
@@ -28,7 +28,7 @@ const localBusinessSchema = {
   name: 'ZA Support',
   alternateName: 'Apple Experts',
   legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
-  description: 'Johannesburg Apple repair specialists and certified Mac technicians since 2009. Logic board microsoldering, JAMF MDM, and managed IT for medical practices and businesses across Gauteng.',
+  description: 'Johannesburg Apple repair specialists and certified Mac technicians since 2009. Logic board component-level repair, JAMF MDM, and managed IT for medical practices and businesses across Gauteng.',
   url: 'https://zasupport.com',
   logo: 'https://zasupport.com/logo.png',
   image: 'https://zasupport.com/logo.png',
@@ -55,12 +55,6 @@ const localBusinessSchema = {
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
       opens: '08:00',
       closes: '17:30',
-    },
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: 'Saturday',
-      opens: '09:00',
-      closes: '13:00',
     },
   ],
   areaServed: [
@@ -91,10 +85,10 @@ const localBusinessSchema = {
     '@type': 'OfferCatalog',
     name: 'Apple Repair Services',
     itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Logic Board Repair', description: 'Component-level microsoldering repair' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Logic Board Repair', description: 'Component-level component-level repair repair' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Battery Replacement', description: 'Battery replacement' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Screen Replacement', description: 'Retina display replacement' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Liquid Damage Repair', description: 'Ultrasonic cleaning and microsoldering' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Liquid Damage Repair', description: 'Ultrasonic cleaning and component-level repair' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'JAMF MDM Setup', description: 'Apple fleet management for businesses' } },
     ],
   },
@@ -124,10 +118,10 @@ const personSchema = {
     name: 'ZA Support',
     url: 'https://zasupport.com',
   },
-  description: 'Founder of ZA Support with 16 years of Apple repair expertise. JAMF-certified technician specialising in MacBook logic board microsoldering, Apple fleet management, and managed IT for medical practices across Johannesburg.',
+  description: 'Founder of ZA Support with 16 years of Apple repair expertise. JAMF-certified technician specialising in MacBook logic board component-level repair, Apple fleet management, and managed IT for medical practices across Johannesburg.',
   knowsAbout: [
     'Apple Mac Repair',
-    'MacBook Logic Board Microsoldering',
+    'MacBook Logic Board Component-level repair',
     'JAMF MDM',
     'Apple Device Management',
     'Managed IT Services',
@@ -262,7 +256,7 @@ export default function AboutPage() {
                 <p className="text-[#7A9E98] leading-relaxed mb-4">
                   Courtney founded ZA Support in 2009 with a clear purpose: bring genuinely expert Apple repair
                   to Johannesburg. With 16 years of hands-on Mac experience, JAMF certification, and component-level
-                  microsoldering training, Courtney leads every complex repair and manages Apple device deployments
+                  component-level repair training, Courtney leads every complex repair and manages Apple device deployments
                   for medical practices and businesses across Gauteng.
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -276,9 +270,9 @@ export default function AboutPage() {
               <div className="space-y-3">
                 {[
                   { icon: Award, text: 'JAMF Certified, Apple fleet management for businesses and medical practices' },
-                  { icon: Cpu, text: 'Component-level MacBook logic board microsoldering since 2009' },
+                  { icon: Cpu, text: 'Component-level MacBook logic board component-level repair since 2009' },
                   { icon: Star, text: '4.9★ Google rating across 120+ verified client reviews' },
-                  { icon: Shield, text: 'Assessment: R899 ex VAT, transparent pricing, 3-month warranty on all repairs' },
+                  { icon: Shield, text: 'Assessment: from R599 ex VAT, transparent pricing, up-to-3 year warranty on all repairs' },
                   { icon: CheckCircle, text: '3,000+ Apple devices repaired across Johannesburg and Gauteng' },
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex gap-3 items-start">
@@ -298,7 +292,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">Our Story</h2>
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
-                  Founded in 2009 in Hyde Park, we chose board-level microsoldering when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a 3-month warranty on every repair.
+                  Founded in 2009 in Hyde Park, we chose board-level component-level repair when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a up-to-3 year warranty on every repair.
                 </p>
                 <p>
                   Today we serve medical practices, businesses, and professionals across Johannesburg — combining Apple repair, JAMF MDM, and managed IT from our Hyde Park workshop at 1 Hyde Park Lane.
@@ -309,10 +303,10 @@ export default function AboutPage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">What Makes Us Different</h2>
               <div className="space-y-4">
                 {[
-                  { icon: Cpu, title: 'Microscope-Level Microsoldering', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
+                  { icon: Cpu, title: 'Microscope-Level Component-level repair', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
                   { icon: Award, title: 'JAMF-Certified Specialists', desc: 'One of Johannesburg\'s few JAMF-certified implementation teams. We manage Apple fleets for organisations across Gauteng.' },
                   { icon: Star, title: '4.9★ on Google, 120+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews, the themes are honesty, transparency, and results.' },
-                  { icon: Shield, title: 'Transparent Pricing, Always', desc: 'Assessment fee of R899 ex VAT applies. Written quote before any work begins. 3-month warranty on all repairs. No surprises.' },
+                  { icon: Shield, title: 'Transparent Pricing, Always', desc: 'Assessment fee of from R599 ex VAT applies. Written quote before any work begins. up-to-3 year warranty on all repairs. No surprises.' },
                 ].map(({ icon: Icon, title, desc }) => (
                   <div key={title} className="flex gap-4 p-4 bg-[rgba(22,34,32,0.5)] rounded-xl border border-[rgba(15,234,122,0.08)]">
                     <div className="w-10 h-10 bg-[rgba(15,234,122,0.1)] rounded-xl flex items-center justify-center flex-shrink-0">
@@ -387,7 +381,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Work With Us</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg, serving Sandton, Rosebank &amp; Gauteng.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: from R599 ex VAT. Hyde Park, Johannesburg, serving Sandton, Rosebank &amp; Gauteng.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

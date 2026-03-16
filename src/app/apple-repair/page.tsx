@@ -25,12 +25,12 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Mac Repair, Johannesburg | ZA Support',
   description:
-    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. 3-month warranty. 4.9★ 632+ reviews. Assessment: R899 ex VAT. Hyde Park. Call 064 529 5863.",
+    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. up-to-3 year warranty. 4.9★ 632+ reviews. Assessment: from R599 ex VAT. Hyde Park. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com/apple-repair' },
   openGraph: {
     title: 'Apple Mac Repair Johannesburg | ZA Support',
     description:
-      'Expert Apple Mac repair in Johannesburg. Logic board microsoldering, battery, screen, keyboard, liquid damage. Assessment: R899 ex VAT. 3-month warranty.',
+      'Expert Apple Mac repair in Johannesburg. Logic board component-level repair, battery, screen, keyboard, liquid damage. Assessment: from R599 ex VAT. up-to-3 year warranty.',
     url: 'https://zasupport.com/apple-repair',
     siteName: 'ZA Support',
     locale: 'en_ZA',
@@ -43,7 +43,7 @@ const serviceCards = [
   {
     icon: Cpu,
     title: 'Logic Board Repair',
-    description: 'Microsoldering specialists. We fix the chip that failed, not the whole board. No-power, no-display, USB-C failure, GPU faults.',
+    description: 'Component-level repair specialists. We repair the specific faulty component — saving you up to 80% versus full board replacement. No-power, no-display, USB-C failure, GPU faults.',
     href: '/logic-board-repair',
     tag: 'Most popular',
     accent: 'text-orange-400',
@@ -51,7 +51,7 @@ const serviceCards = [
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore battery health to 100%. All M-series and Intel MacBook Air and Pro models. OEM-grade cells, 3-month warranty.',
+    description: 'Restore battery health to 100%. All M-series and Intel MacBook Air and Pro models. OEM-grade cells, up-to-3 year warranty.',
     href: '/macbook-repair/battery',
     tag: null,
     accent: 'text-green-400',
@@ -112,7 +112,7 @@ const allServices = [
   { title: 'MacBook Air Repair', href: '/macbook-air-repair', sub: 'M1, M2, M3 and Intel, all models' },
   { title: 'MacBook Pro Repair', href: '/macbook-pro-repair', sub: 'M1–M3 Pro/Max and Intel, all models' },
   { title: 'iMac Repair', href: '/imac-repair', sub: 'Screen, RAM, SSD, logic board, all models' },
-  { title: 'Logic Board Repair', href: '/logic-board-repair', sub: 'Microsoldering specialists' },
+  { title: 'Logic Board Repair', href: '/logic-board-repair', sub: 'Component-level repair specialists' },
   { title: 'Liquid Damage Repair', href: '/liquid-damage', sub: 'MacBook, iMac, iPhone, iPad, Apple Watch' },
   { title: 'iPhone Repair', href: '/iphone-repair', sub: 'All models, all damage types' },
   { title: 'iPad Repair', href: '/ipad-repair', sub: 'All iPad models including M4' },
@@ -126,8 +126,8 @@ const allServices = [
 const processSteps = [
   {
     step: '01',
-    title: 'Assessment: R899 ex VAT',
-    body: 'Bring your device to our Hyde Park workshop or arrange a courier. We inspect and identify the fault. Assessment fee: R899 ex VAT (absorbed into repair cost if you proceed).',
+    title: 'Assessment: from R599 ex VAT',
+    body: 'Bring your device to our Hyde Park workshop or arrange a courier. We inspect and identify the fault. Assessment fee: from R599 ex VAT (absorbed into repair cost if you proceed).',
   },
   {
     step: '02',
@@ -141,8 +141,8 @@ const processSteps = [
   },
   {
     step: '04',
-    title: 'Tested + 3-Month Warranty',
-    body: 'Your device is fully tested before collection. Every repair includes a written 3-month warranty covering parts and workmanship. Extended warranty available on request.',
+    title: 'Tested + Up-to-3 Year Warranty',
+    body: 'Your device is fully tested before collection. Every repair includes a written up-to-3 year warranty covering parts and workmanship. Extended warranty available on request.',
   },
 ];
 
@@ -161,7 +161,7 @@ const customerReviews = [
     suburb: 'Rosebank',
     rating: 5,
     date: '01/2026',
-    text: 'Screen was flickering on my 2015 MacBook Pro. I had been told it was unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a 3-month warranty. Six weeks later, perfect.',
+    text: 'Screen was flickering on my 2015 MacBook Pro. I had been told it was unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a up-to-3 year warranty. Six weeks later, perfect.',
     service: 'Logic Board Repair',
   },
   {
@@ -192,7 +192,7 @@ const faqs = [
   {
     question: 'What is your assessment fee policy?',
     answer:
-      'An assessment fee of R899 ex VAT applies to all device diagnostics. If you proceed with the repair, this fee is absorbed into the total cost. If you choose not to proceed after the assessment, the R899 ex VAT fee is payable. All repairs carry a 3-month warranty on parts and labour.',
+      'An assessment fee of from R599 ex VAT applies to all device diagnostics. If you proceed with the repair, this fee is absorbed into the total cost. If you choose not to proceed after the assessment, the from R599 ex VAT fee is payable. All repairs carry a up-to-3 year warranty on parts and labour.',
   },
   {
     question: 'Do you repair both old and new Apple devices?',
@@ -202,12 +202,12 @@ const faqs = [
   {
     question: 'Do you offer a warranty on repairs?',
     answer:
-      'Yes, every repair includes a written 3-month warranty on parts and labour. If the same fault returns within the warranty period, we repair it at no charge. Extended warranty is available on request. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
+      'Yes, every repair includes a written up-to-3 year warranty on parts and labour. If the same fault returns within the warranty period, we repair it at no charge. Extended warranty is available on request. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
   },
   {
     question: 'How long does repair take?',
     answer:
-      'Battery and screen replacements are typically completed within 24 hours, often same-day. Logic board microsoldering: 24–72 hours. Complex liquid damage or multi-component board faults: 3–5 business days. We will give you a specific timeframe after the assessment.',
+      'Battery and screen replacements are typically completed within 24 hours, often same-day. Logic board component-level repair: 24–72 hours. Complex liquid damage or multi-component board faults: 3–5 business days. We will give you a specific timeframe after the assessment.',
   },
   {
     question: 'Where are you located?',
@@ -222,7 +222,7 @@ const faqs = [
   {
     question: 'Is component-level repair more cost-effective than a board replacement?',
     answer:
-      'Yes, significantly. Authorised service typically performs full logic board replacements, we repair the specific component that failed, which is considerably more affordable. Plus we offer transparent assessment pricing (R899 ex VAT) and a 3-month warranty on all repairs.',
+      'Yes, significantly. Authorised service typically performs full logic board replacements, we repair the specific component that failed, which is considerably more affordable. Plus we offer transparent assessment pricing (from R599 ex VAT) and a up-to-3 year warranty on all repairs.',
   },
   {
     question: 'Do you repair M1, M2, M3 and M4 MacBooks?',
@@ -242,7 +242,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'Apple Mac Repair Johannesburg',
   description:
-    'Expert Apple Mac repair in Johannesburg. Logic board microsoldering, battery replacement, screen repair, keyboard repair, liquid damage, trackpad and charging port repair. All MacBook, iMac, Mac mini, iPhone and iPad models.',
+    'Expert Apple Mac repair in Johannesburg. Logic board component-level repair, battery replacement, screen repair, keyboard repair, liquid damage, trackpad and charging port repair. All MacBook, iMac, Mac mini, iPhone and iPad models.',
 });
 
 const aggregateRatingSchema = {
@@ -315,7 +315,7 @@ export default function AppleRepairPage() {
               <br /><span className="text-[#0FEA7A]">Every Device. Every Problem.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Logic board microsoldering, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: R899 ex VAT, absorbed into repair cost if you proceed.
+              Logic board component-level repair, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: from R599 ex VAT, absorbed into repair cost if you proceed.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -351,8 +351,8 @@ export default function AppleRepairPage() {
               {[
                 { value: SITE.repairsCount, label: 'Repairs Completed' },
                 { value: '16 Years', label: 'Experience Since 2009' },
-                { value: 'Covered', label: 'Written Warranty' },
-                { value: 'R899', label: 'ex VAT Assessment' },
+                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'from R599', label: 'ex VAT Assessment' },
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
                 <div key={label}>
@@ -370,10 +370,10 @@ export default function AppleRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
-              { icon: Shield, label: '3-Month Warranty' },
-              { icon: BadgeCheck, label: 'Written Warranty' },
-              { icon: Clock, label: '72-Hour Turnaround' },
-              { icon: CheckCircle, label: 'Assessment: R899 ex VAT' },
+              { icon: Shield, label: 'Up-to-3 Year Warranty' },
+              { icon: BadgeCheck, label: 'Up-to-3 Year Warranty' },
+              { icon: Clock, label: 'Fastest Turnaround Times' },
+              { icon: CheckCircle, label: 'Assessment: from R599 ex VAT' },
               { icon: Phone, label: '064 529 5863' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2">
@@ -391,7 +391,7 @@ export default function AppleRepairPage() {
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">
             <div>
               <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Assessment policy</p>
-              <p className="text-xl font-extrabold text-[#E8F4F1]">R899 ex VAT</p>
+              <p className="text-xl font-extrabold text-[#E8F4F1]">from R599 ex VAT</p>
             </div>
             <div className="text-[#0FEA7A] text-3xl font-black">·</div>
             <div>
@@ -400,7 +400,7 @@ export default function AppleRepairPage() {
             </div>
             <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
             <div>
-              <p className="text-[#E8F4F1] text-sm font-semibold">3-month warranty on every repair. Extended warranty available.</p>
+              <p className="text-[#E8F4F1] text-sm font-semibold">up-to-3 year warranty on every repair. Extended warranty available.</p>
               <p className="text-[#7A9E98] text-xs mt-0.5">Transparent pricing. Written quote before any work begins.</p>
             </div>
           </div>
@@ -415,7 +415,7 @@ export default function AppleRepairPage() {
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
             We repair every Apple device, every fault type, at component level where possible.
-            All services include a transparent assessment (R899 ex VAT), written quote, and a 3-month warranty.
+            All services include a transparent assessment (from R599 ex VAT), written quote, and a up-to-3 year warranty.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {serviceCards.map((service) => (
@@ -450,12 +450,12 @@ export default function AppleRepairPage() {
             </div>
             <div className="flex-1 text-center md:text-left">
               <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-2">
-                Transparent Pricing, Assessment: R899 ex VAT
+                Transparent Pricing, Assessment: from R599 ex VAT
               </h2>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                We charge R899 ex VAT for the assessment and diagnosis. If you proceed with the repair, this fee is absorbed into the total cost.
-                If you choose not to proceed, the R899 ex VAT assessment fee applies for the diagnostic work completed.
-                Written quote before any work begins. Every repair backed by a 3-month warranty on parts and labour.
+                We charge from R599 ex VAT for the assessment and diagnosis. If you proceed with the repair, this fee is absorbed into the total cost.
+                If you choose not to proceed, the from R599 ex VAT assessment fee applies for the diagnostic work completed.
+                Written quote before any work begins. Every repair backed by a up-to-3 year warranty on parts and labour.
               </p>
             </div>
             <div className="flex-shrink-0">
@@ -501,7 +501,7 @@ export default function AppleRepairPage() {
             Why Choose ZA Support?
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
-            Specialist Apple technicians working at component level. Honest advice, written quotes, and a 3-month warranty on every repair.
+            Specialist Apple technicians working at component level. Honest advice, written quotes, and a up-to-3 year warranty on every repair.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -513,22 +513,22 @@ export default function AppleRepairPage() {
               {
                 icon: Shield,
                 title: 'Honest Assessment',
-                body: 'If your device is not worth repairing, we will tell you. Our assessment (R899 ex VAT) is a genuine diagnostic, not a sales exercise. Absorbed into repair cost if you proceed.',
+                body: 'If your device is not worth repairing, we will tell you. Our assessment (from R599 ex VAT) is a genuine diagnostic, not a sales exercise. Absorbed into repair cost if you proceed.',
               },
               {
                 icon: BadgeCheck,
-                title: '3-Month Written Warranty',
-                body: 'Every repair comes with a written 3-month warranty on parts and labour. If the same issue returns within the warranty period, we fix it at no charge. Extended warranty available on request.',
+                title: '3-Month Up-to-3 Year Warranty',
+                body: 'Every repair comes with a written up-to-3 year warranty on parts and labour. If the same issue returns within the warranty period, we fix it at no charge. Extended warranty available on request.',
               },
               {
                 icon: Clock,
                 title: 'Fast Turnaround',
-                body: 'Most battery, screen and keyboard repairs: same day or next day. Logic board microsoldering: 24–72 hours. We know your Mac is critical to your work, we do not hold jobs unnecessarily.',
+                body: 'Most battery, screen and keyboard repairs: same day or next day. Logic board component-level repair: 24–72 hours. We know your Mac is critical to your work, we do not hold jobs unnecessarily.',
               },
               {
                 icon: CheckCircle,
-                title: 'Diagnostic Assessment: R899 ex VAT',
-                body: 'Our assessment fee is R899 ex VAT. You will know exactly what is wrong and exactly what it will cost before any work begins. Fee absorbed into repair cost if you proceed.',
+                title: 'Diagnostic Assessment: from R599 ex VAT',
+                body: 'Our assessment fee is from R599 ex VAT. You will know exactly what is wrong and exactly what it will cost before any work begins. Fee absorbed into repair cost if you proceed.',
               },
               {
                 icon: Star,
@@ -640,9 +640,9 @@ export default function AppleRepairPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Apple Device Damaged? Book an Assessment.
             </h2>
-            <p className="text-[#7A9E98] mb-2">3-month warranty on all repairs. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty on all repairs. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Assessment fee: R899 ex VAT. You will know exactly what is wrong and what it will cost before any work begins. Fee absorbed into repair cost if you proceed.
+              Assessment fee: from R599 ex VAT. You will know exactly what is wrong and what it will cost before any work begins. Fee absorbed into repair cost if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Screen Repair Johannesburg | Flexgate, Staingate, Crack | ZA Support',
   description:
-    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All Intel and M-series models. Assessment: R899 ex VAT. Hyde Park.',
+    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All Intel and M-series models. Assessment: from R599 ex VAT. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair/screen' },
   keywords: [
     'MacBook Pro screen repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Screen Repair Johannesburg | Flexgate, Staingate, Crack | ZA Support',
-    description: 'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All models. Assessment: R899 ex VAT.',
+    description: 'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All models. Assessment: from R599 ex VAT.',
     url: 'https://zasupport.com/macbook-pro-repair/screen',
     siteName: 'ZA Support',
     type: 'website',
@@ -33,7 +33,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Pro Screen Repair Johannesburg',
-  description: 'Professional MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display. All models. 3-month warranty.',
+  description: 'Professional MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display. All models. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -55,7 +55,7 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
   description:
-    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure, dead pixels. All Intel and M-series models. Assessment R899 ex VAT.',
+    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure, dead pixels. All Intel and M-series models. Assessment from R599 ex VAT.',
 };
 
 const breadcrumbSchema = {
@@ -72,7 +72,7 @@ const faults = [
   { title: 'Cracked or shattered display', detail: 'Physical screen damage on any MacBook Pro model. We replace the full display assembly with a quality panel.' },
   { title: 'Flexgate: stage-light effect at screen base', detail: 'Affects 2016-2019 MacBook Pro. A bright band or stage-light pattern at the bottom of the screen worsening as the lid opens wider.', highlight: 'Flexgate' },
   { title: 'Staingate: anti-reflective coating peeling', detail: 'Affects 2013-2015 Retina MacBook Pro. Coating delaminates creating foggy, streaky marks that cannot be cleaned.', highlight: 'Staingate' },
-  { title: 'No backlight (screen works but very dim or black)', detail: 'A faint image visible under strong light indicates a backlight failure. Often a microsoldering repair rather than full screen replacement.' },
+  { title: 'No backlight (screen works but very dim or black)', detail: 'A faint image visible under strong light indicates a backlight failure. Often a component-level repair repair rather than full screen replacement.' },
   { title: 'Dead pixels or black spots', detail: 'Individual pixels fail or clusters of pixels go black. Screen replacement restores a full, clean image.' },
   { title: 'Display flicker or colour shift', detail: 'Screen flickers, shifts colour, or shows horizontal lines. Can indicate a cable fault, display fault, or GPU issue.' },
   { title: 'Water damage to screen', detail: 'Liquid ingress causes display corruption, backlight failure, or permanent lines. Assessment determines repairability.' },
@@ -93,7 +93,7 @@ const knownIssues = [
   {
     name: 'Standard Screen Damage',
     models: 'All MacBook Pro models',
-    description: 'Cracks, dead pixels, backlight failure, and water damage on any model. Assessment: R899 ex VAT, fixed quote provided before any work begins.',
+    description: 'Cracks, dead pixels, backlight failure, and water damage on any model. Assessment: from R599 ex VAT, fixed quote provided before any work begins.',
   },
 ];
 
@@ -110,7 +110,7 @@ const process = [
   { step: '01', title: 'Drop In for Assessment', desc: 'Bring your MacBook Pro to our Hyde Park workshop. We connect an external display first to isolate whether the fault is in the screen assembly, cable, or logic board.' },
   { step: '02', title: 'Written Quote', desc: 'You receive a fixed price before any work begins. For Flexgate and Staingate, we check Apple extended programme eligibility first.' },
   { step: '03', title: 'Screen Replacement (Data Untouched)', desc: 'We replace the display assembly only. Your storage, apps, and data are completely unaffected. No reinstall or erase required.' },
-  { step: '04', title: 'Full Test and Return', desc: 'Screen calibration verified, brightness and colour confirmed, and 3-month written warranty issued on parts and labour.' },
+  { step: '04', title: 'Full Test and Return', desc: 'Screen calibration verified, brightness and colour confirmed, and 3-month up-to-3 year warranty issued on parts and labour.' },
 ];
 
 const faqs = [
@@ -124,7 +124,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'R899 ex VAT. Includes full screen diagnostic and written fixed-price quote. The fee is absorbed into the repair cost if you proceed, and payable only if you decline.',
+    answer: 'from R599 ex VAT. Includes full screen diagnostic and written fixed-price quote. The fee is absorbed into the repair cost if you proceed, and payable only if you decline.',
   },
   {
     question: 'How long does MacBook Pro screen repair take?',
@@ -140,11 +140,11 @@ const faqs = [
   },
   {
     question: 'My backlight is out but the screen shows a faint image. Is it repairable?',
-    answer: 'Yes. A faint image with no backlight is typically a backlight circuit fault on the logic board or a failed backlight driver IC. This is a microsoldering repair, not necessarily a full screen replacement. Assessment will determine the exact cause and the most cost-effective fix.',
+    answer: 'Yes. A faint image with no backlight is typically a backlight circuit fault on the logic board or a failed backlight driver IC. This is a component-level repair repair, not necessarily a full screen replacement. Assessment will determine the exact cause and the most cost-effective fix.',
   },
   {
     question: 'What warranty do you provide on screen repairs?',
-    answer: '3-month written warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at no charge. Extended warranty is also available on request.',
+    answer: '3-month up-to-3 year warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at no charge. Extended warranty is also available on request.',
   },
 ];
 
@@ -159,7 +159,7 @@ const reviews = [
     name: 'James T.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'Cracked Retina screen on my M2 Pro. Quoted clearly, repaired quickly, and the screen looks perfect. 3-month warranty in writing. Highly recommend.',
+    text: 'Cracked Retina screen on my M2 Pro. Quoted clearly, repaired quickly, and the screen looks perfect. up-to-3 year warranty in writing. Highly recommend.',
   },
   {
     name: 'Anita V.',
@@ -200,14 +200,14 @@ export default function MacBookProScreenPage() {
               <span className="text-[#0FEA7A]">Repair</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Cracked display, Flexgate stage-light effect, Staingate coating, backlight failure. All MacBook Pro models. 3-month warranty.
+              Cracked display, Flexgate stage-light effect, Staingate coating, backlight failure. All MacBook Pro models. up-to-3 year warranty.
             </p>
             {/* Badges */}
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Monitor, label: 'Screen Repair' },
-                { icon: Shield, label: '3-Month Warranty' },
-                { icon: Zap, label: 'Assessment: R899 ex VAT' },
+                { icon: Shield, label: 'Up-to-3 Year Warranty' },
+                { icon: Zap, label: 'Assessment: from R599 ex VAT' },
                 { icon: AlertTriangle, label: 'Flexgate Specialists' },
               ].map(({ icon: Icon, label }) => (
                 <span key={label} className="inline-flex items-center gap-1.5 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] text-[#7A9E98] text-xs px-3 py-1.5 rounded-full">
@@ -249,7 +249,7 @@ export default function MacBookProScreenPage() {
             Screen Issues We Fix
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Assessment: R899 ex VAT — we diagnose the exact fault and provide a fixed quote before any work begins.
+            Assessment: from R599 ex VAT — we diagnose the exact fault and provide a fixed quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {faults.map((f) => (
@@ -402,7 +402,7 @@ export default function MacBookProScreenPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Screen Needs Repair?
             </h2>
-            <p className="text-[#7A9E98] mb-2">3-month warranty. Assessment: R899 ex VAT. Fixed quote before any work begins.</p>
+            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment: from R599 ex VAT. Fixed quote before any work begins.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Sandton | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Sandton residents. Expert microsoldering, assessment, Assessment: R899 ex VAT. We collect from Sandton and repair at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook logic board repair for Sandton residents. Expert component-level repair, assessment, Assessment: from R599 ex VAT. We collect from Sandton and repair at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/sandton' },
 };
 
@@ -29,7 +29,7 @@ const pricing = [
   { item: 'Diagnostic Assessment', note: 'Full board-level inspection, no obligation' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip replacement' },
   { item: 'Power Circuit Repair', note: 'No-power diagnosis and board-level fix' },
-  { item: 'Microsoldering Repair', note: 'Component-level board repair under microscope' },
+  { item: 'Component-level repair Repair', note: 'Component-level board repair under microscope' },
   { item: 'GPU Repair / Reballing', note: 'Discrete GPU only, Intel Mac models' },
   { item: 'Logic Board Replacement', note: 'Where component repair is not feasible' },
 ];
@@ -41,23 +41,23 @@ const faqs = [
   },
   {
     question: 'How far is Sandton from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 9.5 km from central Sandton, roughly a 15-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Friday 08:00–17:30 and Saturday 09:00–13:00.',
+    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 9.5 km from central Sandton, roughly a 15-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Friday 08:00–17:30 and Closed Saturdays.',
   },
   {
-    question: 'What is the difference between microsoldering and a board replacement?',
-    answer: 'Microsoldering repair targets the specific failed component, a chip, capacitor, resistor, or damaged trace, on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Microsoldering preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
+    question: 'What is the difference between component-level repair and a board replacement?',
+    answer: 'Component-level repair repair targets the specific failed component, a chip, capacitor, resistor, or damaged trace, on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
   },
   {
     question: 'My MacBook Pro shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC on the power rail, a straightforward microsoldering repair that costs far less than a new machine. Bring it in or request a collection and we will assess it for free.',
+    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC on the power rail, a straightforward component-level repair repair that costs far less than a new machine. Bring it in or request a collection and we will assess it for free.',
   },
   {
     question: 'How long will the repair take?',
-    answer: 'We complete the diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex microsoldering jobs, GPU, multi-component faults, or severe liquid damage, can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
+    answer: 'We complete the diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex component-level repair jobs, GPU, multi-component faults, or severe liquid damage, can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
   },
   {
     question: 'What if the board cannot be repaired?',
-    answer: 'We will tell you clearly what we found, explain why repair is not viable, and walk through your options: board replacement, data recovery, or selling the device for parts. The diagnostic assessment is always free, assessment fee of R899 ex VAT applies if we cannot fix it.',
+    answer: 'We will tell you clearly what we found, explain why repair is not viable, and walk through your options: board replacement, data recovery, or selling the device for parts. The diagnostic assessment is always free, assessment fee of from R599 ex VAT applies if we cannot fix it.',
   },
 ];
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Sandton',
-  description: 'Expert MacBook logic board repair and microsoldering for Sandton clients. Collection from Sandton, repair at Hyde Park workshop. Assessment: R899 ex VAT.',
+  description: 'Expert MacBook logic board repair and component-level repair for Sandton clients. Collection from Sandton, repair at Hyde Park workshop. Assessment: from R599 ex VAT.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -104,7 +104,7 @@ export default function LogicBoardRepairSandtonPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park microsoldering workshop, just 15 minutes away. Assessment: R899 ex VAT.
+              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park component-level repair workshop, just 15 minutes away. Assessment: from R599 ex VAT.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -112,9 +112,9 @@ export default function LogicBoardRepairSandtonPage() {
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: Cpu, label: 'Microscope Microsoldering' },
+                { icon: Cpu, label: 'Microscope Component-level repair' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'Assessment: R899 ex VAT' },
+                { icon: CheckCircle, label: 'Assessment: from R599 ex VAT' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -146,10 +146,10 @@ export default function LogicBoardRepairSandtonPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Sandton is Johannesburg&apos;s financial and commercial hub, and when a MacBook logic board fails in the middle of a working day, every hour of downtime costs. ZA Support offers Sandton clients a dedicated collection and return service. We come to your home or office in Sandton, collect your MacBook, and carry out the repair at our Hyde Park microsoldering workshop approximately 4–6 kilometres away. Most clients are back up and running within 48–72 hours.
+              Sandton is Johannesburg&apos;s financial and commercial hub, and when a MacBook logic board fails in the middle of a working day, every hour of downtime costs. ZA Support offers Sandton clients a dedicated collection and return service. We come to your home or office in Sandton, collect your MacBook, and carry out the repair at our Hyde Park component-level repair workshop approximately 4–6 kilometres away. Most clients are back up and running within 48–72 hours.
             </p>
             <p>
-              Our workshop is equipped with professional hot-air rework stations, Hakko FX-951 soldering irons, a Swift 100X stereo microscope, and the diagnostic tools needed to trace faults at board level. We do not guess, every repair starts with a structured diagnostic session that identifies the exact component failure before any soldering takes place.
+              Our workshop is equipped with professional hot-air rework stations, professional soldering stations, a high-magnification stereo microscope, and the diagnostic tools needed to trace faults at board level. We do not guess, every repair starts with a structured diagnostic session that identifies the exact component failure before any soldering takes place.
             </p>
             <p>
               Sandton clients range from individual professionals working from home in Morningside and Bryanston Road to SME business owners based in Sandton City and Katherine Street. We handle MacBook Pro, MacBook Air, iMac, and Mac mini logic board repairs across all generations, Intel and Apple Silicon alike.
@@ -189,8 +189,8 @@ export default function LogicBoardRepairSandtonPage() {
               { step: '01', title: 'Collection from Sandton', desc: 'Contact us via WhatsApp or phone. We arrange a collection time that suits your schedule, home, office, or a convenient Sandton location.' },
               { step: '02', title: 'Free Diagnostic Assessment', desc: 'Your MacBook is assessed at board level within 24 hours. We trace the exact fault using diagnostic tools, schematics, and a stereo microscope.' },
               { step: '03', title: 'Written Quote, No Obligation', desc: 'You receive a clear quote detailing the fault, the repair approach, the cost, and the expected timeframe. No work begins until you approve.' },
-              { step: '04', title: 'Microsoldering Repair', desc: 'Our technician carries out the repair under microscope, replacing the specific failed component while leaving everything else on your board untouched.' },
-              { step: '05', title: 'Quality Check and Return', desc: 'Every repair is tested under load before return. Your MacBook is returned to your Sandton address with a ZA Support 3-month warranty.' },
+              { step: '04', title: 'Component-level repair Repair', desc: 'Our technician carries out the repair under microscope, replacing the specific failed component while leaving everything else on your board untouched.' },
+              { step: '05', title: 'Quality Check and Return', desc: 'Every repair is tested under load before return. Your MacBook is returned to your Sandton address with a ZA Support up-to-3 year warranty.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
@@ -204,15 +204,15 @@ export default function LogicBoardRepairSandtonPage() {
         </div>
       </section>
 
-      {/* Microsoldering vs Replacement */}
+      {/* Component-level repair vs Replacement */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center">
-            Microsoldering vs Board Replacement
+            Component-level repair vs Board Replacement
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="glass-card p-8 border-[rgba(15,234,122,0.3)]">
-              <h3 className="text-[#0FEA7A] text-xl font-bold mb-4">✓ Microsoldering Repair (Our Preference)</h3>
+              <h3 className="text-[#0FEA7A] text-xl font-bold mb-4">✓ Component-level repair Repair (Our Preference)</h3>
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
@@ -263,7 +263,7 @@ export default function LogicBoardRepairSandtonPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: R899 ex VAT with no obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: from R599 ex VAT with no obligation to proceed.</p>
         </div>
       </section>
 
@@ -298,7 +298,7 @@ export default function LogicBoardRepairSandtonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Sandton MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Sandton. Assessment: R899 ex VAT. 3-month warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Sandton. Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

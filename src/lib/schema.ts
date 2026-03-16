@@ -39,12 +39,6 @@ export const LOCAL_BUSINESS_PROVIDER = {
       opens: '08:00',
       closes: '17:30',
     },
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Saturday'],
-      opens: '09:00',
-      closes: '13:00',
-    },
   ],
   aggregateRating: AGGREGATE_RATING,
   hasMap: 'https://maps.app.goo.gl/E1agQ3ZZ6va73ano9',

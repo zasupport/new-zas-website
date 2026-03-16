@@ -116,7 +116,7 @@ export default function IMacSSDUpgradePage() {
             Replace your slow spinning hard drive or Fusion Drive with a fast SSD.
             Boot in under 20 seconds. All Intel iMac models. Data migration included.
           </p>
-          <p className="text-2xl font-bold text-green-400 mb-8">Assessment: R899 ex VAT · Fixed quote before we start</p>
+          <p className="text-2xl font-bold text-green-400 mb-8">Assessment: from R599 ex VAT · Fixed quote before we start</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
@@ -205,7 +205,7 @@ export default function IMacSSDUpgradePage() {
             </table>
           </div>
           <p className="text-center text-sm text-slate-500 mt-4">
-            Assessment: R899 ex VAT and fixed quote before we start. Cost confirmed before any work begins.
+            Assessment: from R599 ex VAT and fixed quote before we start. Cost confirmed before any work begins.
           </p>
         </div>
       </section>
@@ -269,7 +269,7 @@ export default function IMacSSDUpgradePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book Your iMac SSD Upgrade</h2>
           <p className="text-slate-300 mb-8">
-            Assessment: R899 ex VAT. Fixed quote. Same-day turnaround for most models.
+            Assessment: from R599 ex VAT. Fixed quote. Same-day turnaround for most models.
             Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

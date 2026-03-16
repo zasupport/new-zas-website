@@ -10,7 +10,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 export const metadata: Metadata = {
   title: 'Mac Assessment Process Johannesburg, How We Work | ZA Support',
   description:
-    'How ZA Support assessments work: R899 ex VAT assessment fee, absorbed into repair cost if you proceed. Transparent quotes, no hidden charges. Hyde Park, Johannesburg. WhatsApp 079 053 9964.',
+    'How ZA Support assessments work: from R599 ex VAT assessment fee, absorbed into repair cost if you proceed. Transparent quotes, no hidden charges. Hyde Park, Johannesburg. WhatsApp 079 053 9964.',
   alternates: { canonical: 'https://zasupport.com/no-fix-no-fee' },
   keywords: [
     'Mac assessment Johannesburg',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Mac Assessment Process Johannesburg | How We Work | ZA Support',
-    description: 'R899 ex VAT assessment fee, absorbed into your repair cost if you proceed. Transparent fixed-price quotes before any work begins.',
+    description: 'from R599 ex VAT assessment fee, absorbed into your repair cost if you proceed. Transparent fixed-price quotes before any work begins.',
     url: 'https://zasupport.com/no-fix-no-fee',
     siteName: 'ZA Support',
     locale: 'en_ZA',
@@ -45,9 +45,9 @@ const steps = [
   {
     step: '2',
     icon: Search,
-    title: 'We Diagnose, R899 ex VAT Assessment Fee',
+    title: 'We Diagnose, from R599 ex VAT Assessment Fee',
     detail:
-      'Our technician inspects your Mac using professional diagnostic tools and board-level testing equipment. We identify the exact fault. The assessment fee is R899 ex VAT. This covers the full diagnostic, regardless of complexity.',
+      'Our technician inspects your Mac using professional diagnostic tools and board-level testing equipment. We identify the exact fault. The assessment fee is from R599 ex VAT. This covers the full diagnostic, regardless of complexity.',
   },
   {
     step: '3',
@@ -61,12 +61,12 @@ const steps = [
     icon: CheckCircle,
     title: 'Proceed or Decline, Your Choice',
     detail:
-      'If you approve the quote and we proceed with the repair, the R899 ex VAT assessment fee is absorbed into the repair cost. If you decline the repair after assessment, the R899 ex VAT assessment fee is payable for the diagnostic work completed.',
+      'If you approve the quote and we proceed with the repair, the from R599 ex VAT assessment fee is absorbed into the repair cost. If you decline the repair after assessment, the from R599 ex VAT assessment fee is payable for the diagnostic work completed.',
   },
 ];
 
 const services = [
-  { name: 'Logic Board Repair', description: 'Component-level microsoldering, no power, no display, no charging, kernel panics', href: '/logic-board-repair' },
+  { name: 'Logic Board Repair', description: 'Component-level component-level repair, no power, no display, no charging, kernel panics', href: '/logic-board-repair' },
   { name: 'Liquid Damage Repair', description: 'Professional board cleaning, corrosion removal, board-level restoration after spills', href: '/liquid-damage' },
   { name: 'Screen Replacement', description: 'Full LCD/Retina/ProMotion display replacement, cracked, backlight failure, dead pixels', href: '/macbook-repair/screen' },
   { name: 'Battery Replacement', description: 'Genuine capacity replacement, swollen, not holding charge, sudden shutdown', href: '/macbook-repair/battery' },
@@ -78,22 +78,22 @@ const faqs = [
   {
     question: 'How much does the Mac assessment cost?',
     answer:
-      'The assessment fee is R899 ex VAT. This covers the full diagnostic inspection of your Mac, board-level testing, fault identification, and a written quote. If you proceed with the repair, this fee is absorbed into the repair cost and you do not pay it separately.',
+      'The assessment fee is from R599 ex VAT. This covers the full diagnostic inspection of your Mac, board-level testing, fault identification, and a written quote. If you proceed with the repair, this fee is absorbed into the repair cost and you do not pay it separately.',
   },
   {
     question: 'What happens if I proceed with the repair?',
     answer:
-      'If you approve the quote and we carry out the repair, the R899 ex VAT assessment fee is absorbed into the total repair cost. You pay the repair price quoted, the assessment fee is not charged on top of that.',
+      'If you approve the quote and we carry out the repair, the from R599 ex VAT assessment fee is absorbed into the total repair cost. You pay the repair price quoted, the assessment fee is not charged on top of that.',
   },
   {
     question: 'What happens if I decline the repair after assessment?',
     answer:
-      'If you decline the repair after receiving the written quote, the R899 ex VAT assessment fee is payable. This covers the time and equipment used to diagnose your Mac and provide the detailed fault report and quote.',
+      'If you decline the repair after receiving the written quote, the from R599 ex VAT assessment fee is payable. This covers the time and equipment used to diagnose your Mac and provide the detailed fault report and quote.',
   },
   {
     question: 'Do I need to pay a deposit to book an assessment?',
     answer:
-      'No deposit is required to book. You book via WhatsApp or online, bring your Mac in, and the R899 ex VAT assessment fee is settled after the diagnostic is complete. Payment for the repair is only required once you have approved the written quote.',
+      'No deposit is required to book. You book via WhatsApp or online, bring your Mac in, and the from R599 ex VAT assessment fee is settled after the diagnostic is complete. Payment for the repair is only required once you have approved the written quote.',
   },
   {
     question: 'How long does the assessment take?',
@@ -153,7 +153,7 @@ export default function AssessmentProcessPage() {
   const serviceSchema = buildServiceSchema({
     name: 'Mac Assessment and Repair Process, Johannesburg',
     description:
-      'R899 ex VAT assessment fee for Mac diagnostic and fault identification in Johannesburg. Assessment fee absorbed into repair cost if client proceeds. Covers logic board repair, liquid damage, screen replacement, battery, keyboard, and charging port.',
+      'from R599 ex VAT assessment fee for Mac diagnostic and fault identification in Johannesburg. Assessment fee absorbed into repair cost if client proceeds. Covers logic board repair, liquid damage, screen replacement, battery, keyboard, and charging port.',
   });
 
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
@@ -180,8 +180,7 @@ export default function AssessmentProcessPage() {
       worstRating: '1',
     },
     openingHoursSpecification: [
-      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '08:00', closes: '18:00' },
-      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '09:00', closes: '14:00' },
+      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '08:00', closes: '17:30' },
     ],
   };
 
@@ -212,7 +211,7 @@ export default function AssessmentProcessPage() {
             </h1>
 
             <p className="text-xl md:text-2xl mb-4 max-w-2xl mx-auto leading-relaxed" style={{ color: '#7A9E98' }}>
-              R899 ex VAT assessment fee &mdash; <strong style={{ color: '#E8F4F1' }}>absorbed into your repair cost</strong> if you proceed.
+              from R599 ex VAT assessment fee &mdash; <strong style={{ color: '#E8F4F1' }}>absorbed into your repair cost</strong> if you proceed.
             </p>
 
             <p className="text-base mb-10 max-w-xl mx-auto" style={{ color: '#7A9E98' }}>
@@ -243,7 +242,7 @@ export default function AssessmentProcessPage() {
             {/* Trust bar */}
             <div className="flex flex-wrap justify-center gap-6 mt-12">
               {[
-                { label: 'R899 ex VAT assessment fee', icon: '✓' },
+                { label: 'from R599 ex VAT assessment fee', icon: '✓' },
                 { label: 'Fee absorbed if repair proceeds', icon: '✓' },
                 { label: '16 years experience', icon: '✓' },
                 { label: 'Warranty on all repairs', icon: '✓' },
@@ -280,7 +279,7 @@ export default function AssessmentProcessPage() {
                   </div>
                   <ul className="space-y-3">
                     {[
-                      'Assessment fee: R899 ex VAT',
+                      'Assessment fee: from R599 ex VAT',
                       'Fee absorbed into repair cost',
                       'You pay the quoted repair price only',
                       'Written fixed-price quote provided',
@@ -305,7 +304,7 @@ export default function AssessmentProcessPage() {
                   </div>
                   <ul className="space-y-3">
                     {[
-                      'Assessment fee: R899 ex VAT payable',
+                      'Assessment fee: from R599 ex VAT payable',
                       'Covers full diagnostic completed',
                       'Written fault report provided',
                       'Your Mac returned as received',
@@ -378,16 +377,16 @@ export default function AssessmentProcessPage() {
 
             <div className="space-y-6 text-base leading-relaxed" style={{ color: '#7A9E98' }}>
               <p>
-                ZA Support charges a R899 ex VAT assessment fee to inspect and diagnose your Mac. This covers the time and equipment required to identify the exact fault, test the board at component level, and produce a written fixed-price quote.
+                ZA Support charges a from R599 ex VAT assessment fee to inspect and diagnose your Mac. This covers the time and equipment required to identify the exact fault, test the board at component level, and produce a written fixed-price quote.
               </p>
               <p>
                 When you bring your Mac to our Hyde Park workshop, we assess it using professional board-level diagnostic equipment. We identify the specific fault and provide you with a written fixed-price quote. The quote includes the exact fault, the component or parts required, the total cost including labour, and a realistic turnaround time.
               </p>
               <p>
-                At that point, you have a choice. You approve the quote and we proceed &mdash; the R899 ex VAT assessment fee is absorbed into the repair cost, so you pay the quoted repair price and nothing more. Or you decline the quote &mdash; in which case the R899 ex VAT assessment fee is payable for the diagnostic work completed, and we return your Mac exactly as received.
+                At that point, you have a choice. You approve the quote and we proceed &mdash; the from R599 ex VAT assessment fee is absorbed into the repair cost, so you pay the quoted repair price and nothing more. Or you decline the quote &mdash; in which case the from R599 ex VAT assessment fee is payable for the diagnostic work completed, and we return your Mac exactly as received.
               </p>
               <p>
-                This policy applies to all Mac repairs: logic board microsoldering, liquid damage restoration, screen replacement, battery replacement, keyboard repair, and charging port repair.
+                This policy applies to all Mac repairs: logic board component-level repair, liquid damage restoration, screen replacement, battery replacement, keyboard repair, and charging port repair.
               </p>
 
               <div
@@ -398,7 +397,7 @@ export default function AssessmentProcessPage() {
                   <AlertCircle className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#0FEA7A' }} />
                   <div>
                     <p className="font-semibold mb-2" style={{ color: '#E8F4F1' }}>
-                      What is always included in the R899 ex VAT assessment:
+                      What is always included in the from R599 ex VAT assessment:
                     </p>
                     <ul className="space-y-2">
                       {[
@@ -454,7 +453,7 @@ export default function AssessmentProcessPage() {
                   <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
                     <span className="text-xs flex items-center gap-1" style={{ color: '#0FEA7A' }}>
                       <CheckCircle className="w-3 h-3" />
-                      Assessment R899 ex VAT &mdash; absorbed if repair proceeds
+                      Assessment from R599 ex VAT &mdash; absorbed if repair proceeds
                     </span>
                   </div>
                 </Link>
@@ -543,7 +542,7 @@ export default function AssessmentProcessPage() {
                     { label: 'Address', value: '1 Hyde Park Lane, Hyde Park, Johannesburg 2196' },
                     { label: 'Phone', value: '079 053 9964' },
                     { label: 'WhatsApp', value: '079 053 9964' },
-                    { label: 'Hours', value: 'Mon–Fri 08:00–18:00 | Sat 09:00–14:00' },
+                    { label: 'Hours', value: 'Mon–Fri 08:00–17:30 | Closed Sat & Sun' },
                   ].map(({ label, value }) => (
                     <div key={label} className="flex gap-3">
                       <span className="text-sm font-semibold w-20 flex-shrink-0" style={{ color: '#0FEA7A' }}>{label}</span>
@@ -582,7 +581,7 @@ export default function AssessmentProcessPage() {
                 <div className="flex items-center justify-center gap-4 mt-4">
                   {[
                     'No deposit to book',
-                    'R899 ex VAT fee',
+                    'from R599 ex VAT fee',
                     'Fee absorbed if repair proceeds',
                   ].map((item) => (
                     <span key={item} className="text-xs flex items-center gap-1" style={{ color: '#7A9E98' }}>
@@ -611,7 +610,7 @@ export default function AssessmentProcessPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
                 { icon: Shield, title: '16 Years', sub: 'Mac repair expertise in Johannesburg' },
-                { icon: CheckCircle, title: 'Component-Level', sub: 'Microsoldering, not board swaps' },
+                { icon: CheckCircle, title: 'Component-Level', sub: 'Component-level repair, not board swaps' },
                 { icon: Clock, title: 'Warranty', sub: 'On all repairs, industry leading' },
                 { icon: Star, title: '4.9 / 5 Rating', sub: 'Based on 632 verified reviews' },
               ].map(({ icon: Icon, title, sub }) => (
@@ -664,7 +663,7 @@ export default function AssessmentProcessPage() {
               <span style={{ color: '#0FEA7A' }}>Today.</span>
             </h2>
             <p className="text-lg mb-10" style={{ color: '#7A9E98' }}>
-              R899 ex VAT assessment fee. Absorbed into your repair cost if you proceed. A straight answer about what is wrong and what it will cost to fix.
+              from R599 ex VAT assessment fee. Absorbed into your repair cost if you proceed. A straight answer about what is wrong and what it will cost to fix.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

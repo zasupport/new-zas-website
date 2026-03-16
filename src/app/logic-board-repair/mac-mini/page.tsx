@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
   description:
-    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment: R899 ex VAT, 3-month warranty. Hyde Park. Call 064 529 5863.',
+    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment: from R599 ex VAT, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },
 };
 
@@ -23,7 +23,7 @@ const faqs = [
   {
     question: 'My Mac mini M1 has no power. Is this repairable?',
     answer:
-      'Yes. A dead Mac mini M1 is almost always caused by a failed power supply component or a power rail fault on the logic board, not the M1 chip itself. Both are repairable through microsoldering. We see this fault regularly, and our success rate for no-power Mac mini repairs is over 85%.',
+      'Yes. A dead Mac mini M1 is almost always caused by a failed power supply component or a power rail fault on the logic board, not the M1 chip itself. Both are repairable through component-level repair. We see this fault regularly, and our success rate for no-power Mac mini repairs is over 85%.',
   },
   {
     question: 'Mac mini is running very hot and throttling. Is this a logic board fault?',
@@ -33,7 +33,7 @@ const faqs = [
   {
     question: 'Can the Mac mini M2 Pro logic board be repaired?',
     answer:
-      'Yes, for surrounding component faults. The M2 Pro chip integrates CPU, GPU, RAM, and Neural Engine, these are on a single die and cannot be replaced at component level. However, USB-C controllers, PCIe/NVMe storage circuits, HDMI 2.1 controller, power management ICs, Thunderbolt 4 controllers, and board traces are all repairable through microsoldering.',
+      'Yes, for surrounding component faults. The M2 Pro chip integrates CPU, GPU, RAM, and Neural Engine, these are on a single die and cannot be replaced at component level. However, USB-C controllers, PCIe/NVMe storage circuits, HDMI 2.1 controller, power management ICs, Thunderbolt 4 controllers, and board traces are all repairable through component-level repair.',
   },
   {
     question: 'Is Mac mini logic board repair worth it vs buying a new machine?',
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on Mac mini logic board repair?',
     answer:
-      'All Mac mini logic board repairs carry a warranty on the specific component repaired. This is a written warranty with no fine print. If the repaired component fails within the warranty period, we fix it at no charge. We stand behind our work.',
+      'All Mac mini logic board repairs carry a warranty on the specific component repaired. This is a up-to-3 year warranty with no fine print. If the repaired component fails within the warranty period, we fix it at no charge. We stand behind our work.',
   },
 ];
 
@@ -119,7 +119,7 @@ const reviews = [
   {
     name: 'Mark T.',
     suburb: 'Sandton',
-    text: 'Mac mini M1 completely dead after a power surge. ZA Support diagnosed a blown power IC the same day and fixed it in two days. Saved me a significant amount on a new machine. 3-month warranty in writing, that is what sealed it for me.',
+    text: 'Mac mini M1 completely dead after a power surge. ZA Support diagnosed a blown power IC the same day and fixed it in two days. Saved me a significant amount on a new machine. up-to-3 year warranty in writing, that is what sealed it for me.',
     rating: 5,
   },
   {
@@ -164,10 +164,10 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'Mac mini logic board repair. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'Mac mini logic board repair. Assessment: from R599 ex VAT. up-to-3 year warranty.',
   offers: {
     '@type': 'Offer',
-    description: 'Mac mini logic board repair. Assessment: R899 ex VAT.',
+    description: 'Mac mini logic board repair. Assessment: from R599 ex VAT.',
   },
 };
 
@@ -186,14 +186,14 @@ export default function MacMiniLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'Mac mini' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: R899 ex VAT · 3-Month Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: from R599 ex VAT · Up-to-3 Year Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               Mac mini Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Mac mini logic board repair. M1, M2, M2 Pro, M4, and Intel models.
-              We replace the failed component. Apple replaces the board. Assessment: R899 ex VAT.
+              We replace the failed component. Apple replaces the board. Assessment: from R599 ex VAT.
             </p>
 
             {/* Stats bar */}
@@ -252,7 +252,7 @@ export default function MacMiniLogicBoardPage() {
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">ZA Support, Mac mini Logic Board Repair</p>
               <p className="text-2xl font-extrabold text-[#0FEA7A]">Component-level repair</p>
-              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. 3-month warranty.</p>
+              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. up-to-3 year warranty.</p>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ export default function MacMiniLogicBoardPage() {
                 {[
                   'Diagnostic Assessment',
                   'Power Supply Repair',
-                  'Logic Board Microsoldering',
+                  'Logic Board Component-level repair',
                   'HDMI Controller Repair',
                   'USB-C / Thunderbolt Repair',
                   'Thermal Repaste',
@@ -307,7 +307,7 @@ export default function MacMiniLogicBoardPage() {
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <CheckCircle className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Assessment: R899 ex VAT</span>, If we cannot repair it, assessment fee of R899 ex VAT applies.</p>
+                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Assessment: from R599 ex VAT</span>, If we cannot repair it, assessment fee of from R599 ex VAT applies.</p>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
@@ -397,7 +397,7 @@ export default function MacMiniLogicBoardPage() {
               { step: '01', title: 'Drop-Off or Collection', desc: 'Bring your Mac mini to Hyde Park or arrange same-day collection from Sandton, Rosebank, Randburg, Fourways, Midrand, or Bryanston.' },
               { step: '02', title: 'Free Same-Day Diagnostic', desc: 'Board-level diagnostic using DC power supply analysis, scope probing, and thermal imaging. We identify the exact component at fault.' },
               { step: '03', title: 'Component-Level Repair', desc: 'Under microscope, we replace only the failed IC or component, not the whole board. Temperature-controlled soldering, correct equipment.' },
-              { step: '04', title: 'Full Test + Written Warranty', desc: 'Post-repair stress test: all ports, display outputs, boot stability, thermal performance. Written warranty issued on collection.' },
+              { step: '04', title: 'Full Test + Up-to-3 Year Warranty', desc: 'Post-repair stress test: all ports, display outputs, boot stability, thermal performance. Up-to-3 year warranty issued on collection.' },
             ].map((s) => (
               <div key={s.step} className="glass-card p-6">
                 <span className="text-4xl font-black text-[rgba(15,234,122,0.2)]">{s.step}</span>
@@ -422,12 +422,12 @@ export default function MacMiniLogicBoardPage() {
                 desc: 'Apple replaces the entire Mac mini board. We replace the specific failed IC. You keep your data and save thousands.',
               },
               {
-                title: 'Written Warranty',
-                desc: 'We issue a written warranty on every repair. No 90-day hidden cap. No fine print. If the repaired component fails within the warranty period, we fix it at zero cost.',
+                title: 'Up-to-3 Year Warranty',
+                desc: 'We issue a up-to-3 year warranty on every repair. No 90-day hidden cap. No fine print. If the repaired component fails within the warranty period, we fix it at zero cost.',
               },
               {
-                title: 'Assessment: R899 ex VAT',
-                desc: 'If we cannot repair your Mac mini, assessment fee of R899 ex VAT applies, including the diagnostic. We back our diagnosis with our own fee. That is how confident we are.',
+                title: 'Assessment: from R599 ex VAT',
+                desc: 'If we cannot repair your Mac mini, assessment fee of from R599 ex VAT applies, including the diagnostic. We back our diagnosis with our own fee. That is how confident we are.',
               },
               {
                 title: 'Apple Silicon M-Series Expertise',
@@ -487,9 +487,9 @@ export default function MacMiniLogicBoardPage() {
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6">Related Repairs</h2>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {[
-              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: R899 ex VAT' },
-              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: R899 ex VAT' },
-              { title: 'iMac Logic Board', href: '/logic-board-repair/imac', label: 'Assessment: R899 ex VAT' },
+              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: from R599 ex VAT' },
+              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: from R599 ex VAT' },
+              { title: 'iMac Logic Board', href: '/logic-board-repair/imac', label: 'Assessment: from R599 ex VAT' },
               { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
@@ -511,7 +511,7 @@ export default function MacMiniLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Mac mini Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">A second opinion costs you nothing, bring it in before committing to a board replacement.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

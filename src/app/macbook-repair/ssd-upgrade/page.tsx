@@ -9,7 +9,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook SSD Upgrade Johannesburg | Faster Boot, More Storage | ZA Support',
   description:
-    'MacBook SSD upgrade in Johannesburg. Replace slow or failing storage on Intel MacBook Air and Pro. Faster boot, more space. Data migration included. Hyde Park. 3-month warranty.',
+    'MacBook SSD upgrade in Johannesburg. Replace slow or failing storage on Intel MacBook Air and Pro. Faster boot, more space. Data migration included. Hyde Park. up-to-3 year warranty.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/ssd-upgrade' },
 };
 
@@ -47,7 +47,7 @@ const steps = [
   {
     step: '2',
     title: 'Quote',
-    desc: 'Assessment fee is R899 ex VAT, absorbed into the repair cost if you proceed. No surprises.',
+    desc: 'Assessment fee is from R599 ex VAT, absorbed into the repair cost if you proceed. No surprises.',
   },
   {
     step: '3',
@@ -70,7 +70,7 @@ const faqs = [
   {
     question: 'What is the assessment fee policy?',
     answer:
-      'The assessment fee is R899 ex VAT. It covers a full diagnostic and a written fixed-price quote. The fee is absorbed into the repair cost if you proceed with the upgrade.',
+      'The assessment fee is from R599 ex VAT. It covers a full diagnostic and a written fixed-price quote. The fee is absorbed into the repair cost if you proceed with the upgrade.',
   },
   {
     question: 'How long does an SSD upgrade take?',
@@ -100,7 +100,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on SSD upgrades?',
     answer:
-      'All SSD upgrades carry a 3-month written warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at no charge.',
+      'All SSD upgrades carry a 3-month up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at no charge.',
   },
 ];
 
@@ -109,7 +109,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook SSD Upgrade Johannesburg',
   description:
-    'MacBook SSD upgrade service in Johannesburg. Replace internal storage on Intel MacBook Air and Pro. Data migration included. 3-month warranty.',
+    'MacBook SSD upgrade service in Johannesburg. Replace internal storage on Intel MacBook Air and Pro. Data migration included. up-to-3 year warranty.',
   url: 'https://zasupport.com/macbook-repair/ssd-upgrade',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
@@ -157,10 +157,10 @@ export default function MacBookSSDUpgradePage() {
             MacBook SSD Upgrade Johannesburg
           </h1>
           <p className="text-xl text-[#7A9E98] mb-4 max-w-2xl mx-auto">
-            Slow MacBook? The drive is usually the problem. We replace Intel MacBook storage with fast SSD. Data migration included. 3-month warranty.
+            Slow MacBook? The drive is usually the problem. We replace Intel MacBook storage with fast SSD. Data migration included. up-to-3 year warranty.
           </p>
           <p className="text-lg font-semibold text-[#0FEA7A] mb-8">
-            Assessment: R899 ex VAT · Fixed quote before we start
+            Assessment: from R599 ex VAT · Fixed quote before we start
           </p>
 
           {/* Badges */}
@@ -168,7 +168,7 @@ export default function MacBookSSDUpgradePage() {
             {[
               { icon: <HardDrive className="w-4 h-4" />, label: 'SSD Upgrade' },
               { icon: <Zap className="w-4 h-4" />, label: 'Data Migration Included' },
-              { icon: <Shield className="w-4 h-4" />, label: '3-Month Warranty' },
+              { icon: <Shield className="w-4 h-4" />, label: 'Up-to-3 Year Warranty' },
               { icon: <CheckCircle className="w-4 h-4" />, label: 'Written Quote First' },
             ].map((badge) => (
               <span
@@ -329,7 +329,7 @@ export default function MacBookSSDUpgradePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#E8F4F1] mb-4">Book Your MacBook SSD Upgrade</h2>
           <p className="text-[#7A9E98] mb-8">
-            Assessment: R899 ex VAT. Fixed quote. Same-day turnaround for most Intel models. Hyde Park, Johannesburg.
+            Assessment: from R599 ex VAT. Fixed quote. Same-day turnaround for most Intel models. Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

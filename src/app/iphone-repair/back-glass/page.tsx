@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Back Glass Repair Johannesburg | ZA Support',
   description:
-    'iPhone back glass repair in Johannesburg. Cracked rear glass on all models iPhone 12 through 16 Pro Max. MagSafe preserved. 3-month warranty. Hyde Park.',
+    'iPhone back glass repair in Johannesburg. Cracked rear glass on all models iPhone 12 through 16 Pro Max. MagSafe preserved. up-to-3 year warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/back-glass' },
   keywords: [
     'iPhone back glass repair Johannesburg',
@@ -81,18 +81,18 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: R899 ex VAT', desc: 'Bring your iPhone in or WhatsApp us a photo of the damage. We quote a fixed price for parts and labour before any work begins.' },
+  { step: '1', title: 'Assessment: from R599 ex VAT', desc: 'Bring your iPhone in or WhatsApp us a photo of the damage. We quote a fixed price for parts and labour before any work begins.' },
   { step: '2', title: 'Glass Confirmed', desc: 'We confirm the correct rear glass is in stock for your specific model and colour. We stock glass for all current iPhone models in the main colour options.' },
   { step: '3', title: 'Glass Replaced', desc: 'A certified technician uses controlled heat to remove the shattered glass and bonds OEM-quality replacement glass using UV adhesive. The process takes 90–120 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test wireless charging, MagSafe alignment, the rear camera system, and re-seal the chassis to restore IP68-class water resistance.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a written warranty on the replacement glass and our labour. Assessment: R899 ex VAT, assessment fee of R899 ex VAT applies if we cannot complete the repair.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the replacement glass and our labour. Assessment: from R599 ex VAT, assessment fee of from R599 ex VAT applies if we cannot complete the repair.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPhone back glass repair cost in Johannesburg?',
     answer:
-      'iPhone back glass repair pricing depends on your model and colour. We provide a assessment fee (R899 ex VAT) and written fixed-price quote before starting.',
+      'iPhone back glass repair pricing depends on your model and colour. We provide a assessment fee (from R599 ex VAT) and written fixed-price quote before starting.',
   },
   {
     question: 'How long does iPhone back glass replacement take?',
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on iPhone back glass repairs?',
     answer:
-      'All iPhone back glass repairs at ZA Support carry a written warranty on the replacement glass and our labour. If the glass delaminates or any fault related to our repair appears within the warranty period, we fix it at no charge.',
+      'All iPhone back glass repairs at ZA Support carry a up-to-3 year warranty on the replacement glass and our labour. If the glass delaminates or any fault related to our repair appears within the warranty period, we fix it at no charge.',
   },
 ];
 
@@ -136,7 +136,7 @@ const reviews = [
     name: 'Gareth L.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'iPhone 15 Pro back glass shattered after a drop. ZA Support replaced it perfectly, titanium chassis looks flawless, MagSafe snaps perfectly, 3-month warranty. Fast and professional.',
+    text: 'iPhone 15 Pro back glass shattered after a drop. ZA Support replaced it perfectly, titanium chassis looks flawless, MagSafe snaps perfectly, up-to-3 year warranty. Fast and professional.',
     date: 'February 2026',
   },
   {
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Back Glass Repair Johannesburg',
-  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging. 3-month warranty.',
+  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,7 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Back Glass Repair Johannesburg',
-  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging restoration. 3-month warranty.',
+  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging restoration. up-to-3 year warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -225,10 +225,10 @@ export default function iPhoneBackGlassPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Cracked rear glass, MagSafe alignment, wireless charging, we repair all iPhone back glass faults.
-              iPhone 12 through 16 Pro Max, 3-month warranty, Hyde Park Johannesburg.
+              iPhone 12 through 16 Pro Max, up-to-3 year warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: R899 ex VAT', '3-Month Warranty', 'MagSafe preserved', 'IP68 re-sealed', 'Assessment: R899 ex VAT'].map((item) => (
+              {['Assessment: from R599 ex VAT', 'Up-to-3 Year Warranty', 'MagSafe preserved', 'IP68 re-sealed', 'Assessment: from R599 ex VAT'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -287,8 +287,8 @@ export default function iPhoneBackGlassPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written 3-month warranty. Assessment: R899 ex VAT. MagSafe and wireless charging tested post-repair.
-            Assessment: R899 ex VAT, no charge if we cannot complete the repair.
+            All repairs include written up-to-3 year warranty. Assessment: from R599 ex VAT. MagSafe and wireless charging tested post-repair.
+            Assessment: from R599 ex VAT, no charge if we cannot complete the repair.
           </p>
         </div>
       </section>
@@ -333,7 +333,7 @@ export default function iPhoneBackGlassPage() {
                 {[
                   {
                     icon: <Shield className="w-5 h-5" />,
-                    title: 'Written Warranty',
+                    title: 'Up-to-3 Year Warranty',
                     desc: 'Every back glass repair carries a warranty on the replacement glass and labour. If it delaminates or fails, we fix it, no charge.',
                   },
                   {
@@ -447,7 +447,7 @@ export default function iPhoneBackGlassPage() {
             >
               Cracked iPhone Back?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: from R599 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

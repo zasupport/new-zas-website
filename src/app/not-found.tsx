@@ -29,7 +29,7 @@ export default function NotFound() {
           <Link href="/logic-board-repair" className="glass-card p-5 text-left hover:border-[rgba(15,234,122,0.3)] transition-all group">
             <Wrench className="w-6 h-6 text-[#0FEA7A] mb-3" />
             <p className="text-[#E8F4F1] font-semibold">Logic Board Repair</p>
-            <p className="text-[#7A9E98] text-sm">Microsoldering experts</p>
+            <p className="text-[#7A9E98] text-sm">Component-level repair experts</p>
           </Link>
           <Link href="/iphone-repair" className="glass-card p-5 text-left hover:border-[rgba(15,234,122,0.3)] transition-all group">
             <Wrench className="w-6 h-6 text-[#0FEA7A] mb-3" />

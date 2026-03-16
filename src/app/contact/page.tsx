@@ -14,7 +14,7 @@ const localBusinessSchema = {
   url: 'https://zasupport.com',
   telephone: '+27645295863',
   email: 'admin@zasupport.com',
-  description: 'MacBook repair, iPhone repair, logic board microsoldering, managed IT services and Apple device support in Johannesburg. Assessment: R899 ex VAT.',
+  description: 'MacBook repair, iPhone repair, logic board component-level repair, managed IT services and Apple device support in Johannesburg. Assessment: from R599 ex VAT.',
   image: 'https://zasupport.com/og-image.jpg',
   priceRange: 'RR',
   currenciesAccepted: 'ZAR',
@@ -39,12 +39,6 @@ const localBusinessSchema = {
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
       opens: '08:00',
       closes: '17:30',
-    },
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Saturday'],
-      opens: '09:00',
-      closes: '13:00',
     },
   ],
   aggregateRating: {
@@ -111,7 +105,7 @@ export default function ContactPage() {
               Contact <span className="text-[#0FEA7A]">ZA Support</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-2xl">
-              Assessment: R899 ex VAT. Response within 1 hour during business hours. Hyde Park, Johannesburg.
+              Assessment: from R599 ex VAT. Response within 1 hour during business hours. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -292,7 +286,7 @@ export default function ContactPage() {
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
                   <div className="space-y-1 text-sm">
                     <p>Monday &ndash; Friday: 08:00 &ndash; 17:30</p>
-                    <p>Saturday: 09:00 &ndash; 13:00</p>
+                    <p>Closed Saturdays</p>
                     <p className="text-[#7A9E98]/80">Closed Sundays &amp; Public Holidays</p>
                   </div>
                 </div>

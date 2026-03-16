@@ -9,7 +9,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook RAM Upgrade Johannesburg | Intel Mac Memory | ZA Support',
   description:
-    'MacBook RAM upgrade in Johannesburg. Upgrade memory on Intel MacBook Pro. More RAM = faster multitasking. Assessment: R899 ex VAT. Hyde Park. 3-month warranty.',
+    'MacBook RAM upgrade in Johannesburg. Upgrade memory on Intel MacBook Pro. More RAM = faster multitasking. Assessment: from R599 ex VAT. Hyde Park. up-to-3 year warranty.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/ram-upgrade' },
 };
 
@@ -52,7 +52,7 @@ const steps = [
   {
     step: '2',
     title: 'Quote',
-    desc: 'Assessment fee is R899 ex VAT, absorbed into the upgrade cost if you proceed. Fixed price confirmed before we start.',
+    desc: 'Assessment fee is from R599 ex VAT, absorbed into the upgrade cost if you proceed. Fixed price confirmed before we start.',
   },
   {
     step: '3',
@@ -75,7 +75,7 @@ const faqs = [
   {
     question: 'What is the assessment fee policy?',
     answer:
-      'The assessment fee is R899 ex VAT. It covers a full diagnostic and a written fixed-price quote. The fee is absorbed into the upgrade cost if you proceed.',
+      'The assessment fee is from R599 ex VAT. It covers a full diagnostic and a written fixed-price quote. The fee is absorbed into the upgrade cost if you proceed.',
   },
   {
     question: 'How long does a RAM upgrade take?',
@@ -105,7 +105,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on RAM upgrades?',
     answer:
-      'All RAM upgrades carry a 3-month written warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at no charge.',
+      'All RAM upgrades carry a 3-month up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at no charge.',
   },
 ];
 
@@ -114,7 +114,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook RAM Upgrade Johannesburg',
   description:
-    'MacBook RAM upgrade service in Johannesburg. Upgrade memory on Intel MacBook Pro models with SO-DIMM slots. 3-month warranty.',
+    'MacBook RAM upgrade service in Johannesburg. Upgrade memory on Intel MacBook Pro models with SO-DIMM slots. up-to-3 year warranty.',
   url: 'https://zasupport.com/macbook-repair/ram-upgrade',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
@@ -161,7 +161,7 @@ export default function MacBookRAMUpgradePage() {
             MacBook RAM Upgrade Johannesburg
           </h1>
           <p className="text-xl text-[#7A9E98] mb-6 max-w-2xl mx-auto">
-            Upgrade RAM on Intel MacBook Pro. More memory, faster multitasking, fewer crashes. 3-month warranty.
+            Upgrade RAM on Intel MacBook Pro. More memory, faster multitasking, fewer crashes. up-to-3 year warranty.
           </p>
 
           {/* Important note */}
@@ -173,7 +173,7 @@ export default function MacBookRAMUpgradePage() {
           </div>
 
           <p className="text-lg font-semibold text-[#0FEA7A] mb-8">
-            Assessment: R899 ex VAT · Fixed quote before we start
+            Assessment: from R599 ex VAT · Fixed quote before we start
           </p>
 
           {/* Badges */}
@@ -181,7 +181,7 @@ export default function MacBookRAMUpgradePage() {
             {[
               { icon: <Cpu className="w-4 h-4" />, label: 'RAM Upgrade' },
               { icon: <Zap className="w-4 h-4" />, label: 'Same-Day Service' },
-              { icon: <Shield className="w-4 h-4" />, label: '3-Month Warranty' },
+              { icon: <Shield className="w-4 h-4" />, label: 'Up-to-3 Year Warranty' },
               { icon: <CheckCircle className="w-4 h-4" />, label: 'Written Quote First' },
             ].map((badge) => (
               <span
@@ -346,7 +346,7 @@ export default function MacBookRAMUpgradePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#E8F4F1] mb-4">Book Your MacBook RAM Upgrade</h2>
           <p className="text-[#7A9E98] mb-8">
-            Assessment: R899 ex VAT. Fixed quote. Same-day service on most Intel MacBook Pro models. Hyde Park, Johannesburg.
+            Assessment: from R599 ex VAT. Fixed quote. Same-day service on most Intel MacBook Pro models. Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -10,16 +10,16 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Logic Board Repair | ZA Support',
   description:
-    'MacBook Air logic board repair in Johannesburg. Assessment: R899 ex VAT, 3-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air logic board repair in Johannesburg. Assessment: from R599 ex VAT, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air' },
   keywords: [
     'MacBook Air logic board repair Johannesburg',
     'MacBook Air no power repair',
-    'MacBook Air microsoldering Johannesburg',
+    'MacBook Air component-level repair Johannesburg',
     'MacBook Air M1 M2 M3 logic board repair',
     'MacBook Air liquid damage board repair',
     'component-level repair MacBook Air',
-    'assessment: R899 ex VAT MacBook Air Johannesburg',
+    'assessment: from R599 ex VAT MacBook Air Johannesburg',
   ],
 };
 
@@ -40,7 +40,7 @@ const repairProcess = [
   { step: '1', title: 'Free Diagnostic', detail: 'We inspect the board under stereo microscope. Power rail probing, short-circuit mapping, and thermal imaging where applicable. No charge, no obligation. Completed within 24 hours.' },
   { step: '2', title: 'Written Quote', detail: 'You receive a specific written quote: fault identified, parts required, labour, and turnaround time. This is a fixed quote, no surprises when you collect.' },
   { step: '3', title: 'Your Approval', detail: 'Work begins only after you approve the quote. If you decline for any reason, the machine is returned exactly as received, no charge.' },
-  { step: '4', title: 'Component-Level Repair', detail: 'Using a Leica stereo microscope, Hakko hot air station, and JBC soldering iron, we replace the specific failed component, whether a fuse, capacitor, controller IC, or damaged trace.' },
+  { step: '4', title: 'Component-Level Repair', detail: 'Using a stereo microscope, professional hot-air rework station, and precision soldering station, we replace the specific failed component, whether a fuse, capacitor, controller IC, or damaged trace.' },
   { step: '5', title: 'Multi-Stage Testing', detail: 'Post-repair verification: power-on and charge cycle test, display output (internal + external), USB-C device enumeration, thermal monitoring, and T2/SMC validation on applicable models.' },
   { step: '6', title: 'Collection or Delivery', detail: 'Collect from our Hyde Park workshop or arrange secure courier return across Johannesburg. Most MacBook Air logic board repairs are completed within 3–5 business days from approval.' },
 ];
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     question: 'What if my MacBook Air cannot be fixed?',
-    answer: 'Assessment fee of R899 ex VAT applies. Our Assessment: R899 ex VAT policy covers all logic board diagnostics unconditionally. If we cannot repair the fault, the assessment is free and the machine is returned to you exactly as received. We will give you honest options: board replacement pricing, data recovery, or part-out value if applicable.',
+    answer: 'Assessment fee of from R599 ex VAT applies. Our Assessment: from R599 ex VAT policy covers all logic board diagnostics unconditionally. If we cannot repair the fault, the assessment is free and the machine is returned to you exactly as received. We will give you honest options: board replacement pricing, data recovery, or part-out value if applicable.',
   },
   {
     question: 'Is it worth repairing a MacBook Air versus buying a new one?',
@@ -128,7 +128,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Logic Board Repair Johannesburg',
-  description: 'Expert MacBook Air logic board repair and microsoldering in Johannesburg. All Intel and Apple Silicon models. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'Expert MacBook Air logic board repair and component-level repair in Johannesburg. All Intel and Apple Silicon models. Assessment: from R599 ex VAT. up-to-3 year warranty.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Home', url: 'https://zasupport.com' },
@@ -154,22 +154,22 @@ export default function MacBookAirLogicBoardPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Air Logic Board Repair
-              <br /><span className="text-[#0FEA7A]">Johannesburg, Assessment: R899 ex VAT</span>
+              <br /><span className="text-[#0FEA7A]">Johannesburg, Assessment: from R599 ex VAT</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Component-level microsoldering for MacBook Air logic board faults.
-              All Intel and Apple Silicon models. Assessment: R899 ex VAT with no obligation.
+              Component-level component-level repair for MacBook Air logic board faults.
+              All Intel and Apple Silicon models. Assessment: from R599 ex VAT with no obligation.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               We repair the board, we do not just replace it. Component-level repair is a fraction of the cost of a full board replacement. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'Assessment: R899 ex VAT' },
-                { icon: Clock, label: '3–5 Day Turnaround' },
+                { icon: Shield, label: 'Assessment: from R599 ex VAT' },
+                { icon: Clock, label: 'Fastest Turnaround Times' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'Warranty' },
-                { icon: Cpu, label: 'Microscope Microsoldering' },
+                { icon: Cpu, label: 'Microscope Component-level repair' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -232,7 +232,7 @@ export default function MacBookAirLogicBoardPage() {
             </p>
             <p>
               Most MacBook Air logic board failures are caused by a single failed component — one fuse, one controller
-              chip, one corroded trace. A microsoldering repair targets only that component under a stereo microscope,
+              chip, one corroded trace. A component-level repair repair targets only that component under a stereo microscope,
               leaving the rest of the board untouched and your data exactly where it is.
             </p>
             <p>
@@ -382,7 +382,7 @@ export default function MacBookAirLogicBoardPage() {
               SoC, a single chip that cannot be replaced individually. However, almost all MacBook Air M-series
               failures in practice occur in the <em>surrounding</em> components: USB-C controller ICs, power
               management circuits, backlight drivers, charging path components, and board traces. These are all
-              repairable through component-level microsoldering. If the fault is in the SoC itself (genuinely rare),
+              repairable through component-level component-level repair. If the fault is in the SoC itself (genuinely rare),
               we will tell you that clearly and honestly during the assessment.
             </p>
           </div>
@@ -401,11 +401,11 @@ export default function MacBookAirLogicBoardPage() {
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
               { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. No charge, no obligation.' },
-              { item: 'USB-C / Charging Repair', note: 'USB-C controller IC or charging path microsoldering' },
+              { item: 'USB-C / Charging Repair', note: 'USB-C controller IC or charging path component-level repair' },
               { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or display connector fault' },
               { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC' },
               { item: 'Liquid Damage Repair', note: 'Ultrasonic clean, trace repair, component replacement' },
-              { item: 'Microsoldering (Complex)', note: 'Multi-component or trace repair under microscope' },
+              { item: 'Component-level repair (Complex)', note: 'Multi-component or trace repair under microscope' },
               { item: 'Logic Board Replacement', note: 'Only recommended when component repair is not viable' },
             ].map((item, i, arr) => (
               <div key={item.item} className={`p-5 ${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
@@ -420,14 +420,14 @@ export default function MacBookAirLogicBoardPage() {
               <p className="text-[#7A9E98] text-sm">Apple replaces the entire logic board. Our component-level repair targets the specific failed part, same outcome, at a fraction of the cost.</p>
             </div>
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
-              <p className="text-[#E8F4F1] font-bold mb-2">Assessment: R899 ex VAT, guaranteed</p>
-              <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Air logic board, assessment fee of R899 ex VAT applies.
+              <p className="text-[#E8F4F1] font-bold mb-2">Assessment: from R599 ex VAT, guaranteed</p>
+              <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Air logic board, assessment fee of from R599 ex VAT applies.
                 No diagnostic fee, no assessment charge. Zero risk to you.</p>
             </div>
           </div>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Assessment: R899 ex VAT, always.</strong> We assess your MacBook Air at no charge with no obligation. Written quote before any work begins.
+              💡 <strong className="text-[#E8F4F1]">Assessment: from R599 ex VAT, always.</strong> We assess your MacBook Air at no charge with no obligation. Written quote before any work begins.
             </p>
           </div>
         </div>
@@ -462,7 +462,7 @@ export default function MacBookAirLogicBoardPage() {
               },
               {
                 icon: Shield,
-                title: 'Assessment: R899 ex VAT',
+                title: 'Assessment: from R599 ex VAT',
                 body: 'Unconditional. If we cannot repair your MacBook Air logic board, the diagnostic is free. No charge, no exception, no pressure.',
               },
             ].map(({ icon: Icon, title, body }) => (
@@ -482,7 +482,7 @@ export default function MacBookAirLogicBoardPage() {
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               The majority of repair shops in Johannesburg offer one option for a logic board fault: replace the entire
               board. This is expensive and almost always unnecessary. ZA Support performs component-level
-              microsoldering, we identify the specific failed chip, fuse, or trace, and replace only that. Your data
+              component-level repair, we identify the specific failed chip, fuse, or trace, and replace only that. Your data
               stays on the device throughout. Your Touch ID pairing is preserved. And the repair costs 60–80% less than
               a full board swap. This is the repair approach that requires a microscope, proper training, and
               specialist equipment. We have all of them, and we apply them to every MacBook Air model from
@@ -555,9 +555,9 @@ export default function MacBookAirLogicBoardPage() {
           <h2 className="text-lg font-bold text-[#E8F4F1] mb-5">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: R899 ex VAT' },
+              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: from R599 ex VAT' },
               { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
-              { title: 'Liquid Damage Repair', href: '/liquid-damage/macbook-air', label: 'Assessment: R899 ex VAT' },
+              { title: 'Liquid Damage Repair', href: '/liquid-damage/macbook-air', label: 'Assessment: from R599 ex VAT' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -578,8 +578,8 @@ export default function MacBookAirLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Air Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Saturday 09:00–13:00</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Closed Saturdays</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsappLogicBoard}

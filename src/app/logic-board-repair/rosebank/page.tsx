@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Rosebank | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Rosebank clients. Microsoldering specialists 9 minutes from Rosebank. Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Rosebank clients. Component-level repair specialists 9 minutes from Rosebank. Assessment: from R599 ex VAT, up-to-3 year warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/rosebank' },
 };
 
@@ -29,7 +29,7 @@ const pricing = [
   { item: 'Diagnostic Assessment', note: 'Board-level inspection, no obligation to repair' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board replacement' },
   { item: 'Power Circuit Repair', note: 'No-power and charging failure repair' },
-  { item: 'Microsoldering Repair', note: 'Precision component-level board repair' },
+  { item: 'Component-level repair Repair', note: 'Precision component-level board repair' },
   { item: 'GPU Repair / Reballing', note: 'Discrete GPU, Intel-era Mac models only' },
   { item: 'Logic Board Replacement', note: 'Full board swap when repair is not possible' },
 ];
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Rosebank',
-  description: 'MacBook logic board microsoldering for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'MacBook logic board component-level repair for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment: from R599 ex VAT. up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -104,7 +104,7 @@ export default function LogicBoardRepairRosebankPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Rosebank is 5 minutes from our Hyde Park workshop. We collect from Rosebank and repair MacBook logic boards at component level, microsoldering, not board swaps.
+              Rosebank is 5 minutes from our Hyde Park workshop. We collect from Rosebank and repair MacBook logic boards at component level, component-level repair, not board swaps.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -112,9 +112,9 @@ export default function LogicBoardRepairRosebankPage() {
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: Cpu, label: 'Microscope Microsoldering' },
+                { icon: Cpu, label: 'Microscope Component-level repair' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'Assessment: R899 ex VAT' },
+                { icon: CheckCircle, label: 'Assessment: from R599 ex VAT' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -149,7 +149,7 @@ export default function LogicBoardRepairRosebankPage() {
               Rosebank has a high concentration of creative professionals, media businesses, and corporate offices where Macs are central to the working day. A failed logic board in that environment is not just inconvenient, it can halt client deliverables and affect revenue. ZA Support offers Rosebank clients a collection service combined with rapid board-level repair at our Hyde Park workshop, just 2–3 km up Jan Smuts Avenue.
             </p>
             <p>
-              Logic board faults are diagnosed at component level, we use schematics, oscilloscopes, and microscopy to identify exactly what has failed. Rather than quoting a full board replacement immediately, we determine whether the fault is repairable at the chip or component level first. In most cases it is, and the cost saving is substantial: microsoldering typically costs 60–80% less than a new board.
+              Logic board faults are diagnosed at component level, we use schematics, oscilloscopes, and microscopy to identify exactly what has failed. Rather than quoting a full board replacement immediately, we determine whether the fault is repairable at the chip or component level first. In most cases it is, and the cost saving is substantial: component-level repair typically costs 60–80% less than a new board.
             </p>
             <p>
               We work on all MacBook generations including M1 MacBook Air, M2 MacBook Pro, M3 MacBook Air, and all Intel-era MacBook Pro 13-inch, 15-inch, and 16-inch models. iMac and Mac mini logic boards are handled with the same component-level approach.
@@ -189,8 +189,8 @@ export default function LogicBoardRepairRosebankPage() {
               { step: '01', title: 'Contact Us', desc: 'WhatsApp or call to describe the fault. We advise whether to bring it in or request a collection from your Rosebank location.' },
               { step: '02', title: 'Free Diagnostic', desc: 'Board-level assessment within 24 hours using schematics and microscopy. Exact fault identified, no guesswork.' },
               { step: '03', title: 'Written Quote', desc: 'Clear breakdown: fault, repair method, cost, and timeframe. No work starts until you approve in writing.' },
-              { step: '04', title: 'Precision Repair', desc: 'Microsoldering under a Swift 100X stereo microscope. Only the failed component is touched, your board remains original.' },
-              { step: '05', title: 'Return to Rosebank', desc: 'Tested under load and returned to your door with a written 3-month warranty. Turnaround typically 48–72 hours.' },
+              { step: '04', title: 'Precision Repair', desc: 'Component-level repair under a high-magnification stereo microscope. Only the failed component is touched, your board remains original.' },
+              { step: '05', title: 'Return to Rosebank', desc: 'Tested under load and returned to your door with a written up-to-3 year warranty. Turnaround typically 48–72 hours.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
@@ -204,7 +204,7 @@ export default function LogicBoardRepairRosebankPage() {
         </div>
       </section>
 
-      {/* Microsoldering vs Replacement */}
+      {/* Component-level repair vs Replacement */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-10 text-center">
@@ -212,7 +212,7 @@ export default function LogicBoardRepairRosebankPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="glass-card p-8 border-[rgba(15,234,122,0.3)]">
-              <h3 className="text-[#0FEA7A] text-xl font-bold mb-4">✓ Microsoldering (What We Always Try First)</h3>
+              <h3 className="text-[#0FEA7A] text-xl font-bold mb-4">✓ Component-level repair (What We Always Try First)</h3>
               <ul className="space-y-3">
                 {[
                   'Repairs only the failed component',
@@ -298,7 +298,7 @@ export default function LogicBoardRepairRosebankPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Rosebank MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">9 minutes from Rosebank. Assessment: R899 ex VAT. 3-month warranty.</p>
+            <p className="text-[#7A9E98] mb-6">9 minutes from Rosebank. Assessment: from R599 ex VAT. up-to-3 year warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote
