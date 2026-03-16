@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'MacBook liquid damage repair in Johannesburg from R 2,500. Expert board-level cleaning, free assessment & same-day diagnosis. No Fix No Fee. Call 064 529 5863.',
+    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, free assessment and same-day diagnosis. No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },
 };
 
@@ -48,12 +48,12 @@ const faqs = [
 ];
 
 const subPages = [
-  { title: 'MacBook Pro', href: '/liquid-damage/macbook-pro', price: 'From R 3,500' },
-  { title: 'MacBook Air', href: '/liquid-damage/macbook-air', price: 'From R 2,500' },
-  { title: 'iPhone', href: '/liquid-damage/iphone', price: 'From R 1,200' },
-  { title: 'iPad', href: '/liquid-damage/ipad', price: 'From R 1,500' },
-  { title: 'Apple Watch', href: '/liquid-damage/apple-watch', price: 'From R 900' },
-  { title: 'iMac', href: '/liquid-damage/imac', price: 'From R 4,500' },
+  { title: 'MacBook Pro', href: '/liquid-damage/macbook-pro' },
+  { title: 'MacBook Air', href: '/liquid-damage/macbook-air' },
+  { title: 'iPhone', href: '/liquid-damage/iphone' },
+  { title: 'iPad', href: '/liquid-damage/ipad' },
+  { title: 'Apple Watch', href: '/liquid-damage/apple-watch' },
+  { title: 'iMac', href: '/liquid-damage/imac' },
 ];
 
 const steps = [
@@ -72,15 +72,7 @@ const serviceSchema = {
   description: 'Professional MacBook and Apple device liquid damage repair. Ultrasonic cleaning, board-level diagnostics, component repair. Hyde Park, Johannesburg.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Liquid Damage Repair',
-    itemListElement: [
-      { '@type': 'Offer', name: 'MacBook Air Liquid Damage', price: '2500', priceCurrency: 'ZAR' },
-      { '@type': 'Offer', name: 'MacBook Pro Liquid Damage', price: '3500', priceCurrency: 'ZAR' },
-      { '@type': 'Offer', name: 'iPhone Liquid Damage', price: '1200', priceCurrency: 'ZAR' },
-    ],
-  },
+
 };
 
 const breadcrumbSchema = {
@@ -192,37 +184,34 @@ export default function LiquidDamagePage() {
               </div>
             </div>
 
-            {/* Pricing */}
+            {/* Devices We Repair */}
             <div>
               <h2
                 className="text-3xl font-extrabold text-[#E8F4F1] mb-6"
                 style={{ fontFamily: 'Syne, sans-serif' }}
               >
-                Repair Pricing Guide
+                Devices We Repair
               </h2>
               <div className="bg-[rgba(22,34,32,0.6)] border border-[rgba(15,234,122,0.15)] rounded-2xl overflow-hidden">
                 {[
-                  { device: 'MacBook Air', price: 'From R 2,500', models: 'M1, M2, M3, Intel 2018–2020' },
-                  { device: 'MacBook Pro', price: 'From R 3,500', models: '13", 14", 16" — All M-series & Intel' },
-                  { device: 'iPhone', price: 'From R 1,200', models: 'iPhone 8 through iPhone 16 Pro Max' },
-                  { device: 'iPad', price: 'From R 1,500', models: 'All models including M4 iPad Pro' },
-                  { device: 'Apple Watch', price: 'From R 900', models: 'Series 3 through Ultra 2' },
-                  { device: 'iMac', price: 'From R 4,500', models: '21.5" & 27" — M1, M3, Intel' },
+                  { device: 'MacBook Air', models: 'M1, M2, M3, Intel 2018–2020' },
+                  { device: 'MacBook Pro', models: '13", 14", 16" — All M-series & Intel' },
+                  { device: 'iPhone', models: 'iPhone 8 through iPhone 16 Pro Max' },
+                  { device: 'iPad', models: 'All models including M4 iPad Pro' },
+                  { device: 'Apple Watch', models: 'Series 3 through Ultra 2' },
+                  { device: 'iMac', models: '21.5" & 27" — M1, M3, Intel' },
                 ].map((item, i) => (
                   <div
                     key={item.device}
-                    className={`flex items-center justify-between p-4 ${i < 5 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
+                    className={`p-4 ${i < 5 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
                   >
-                    <div>
-                      <p className="text-[#E8F4F1] font-semibold">{item.device}</p>
-                      <p className="text-[#7A9E98] text-xs mt-0.5">{item.models}</p>
-                    </div>
-                    <span className="text-[#0FEA7A] font-bold whitespace-nowrap ml-4">{item.price}</span>
+                    <p className="text-[#E8F4F1] font-semibold">{item.device}</p>
+                    <p className="text-[#7A9E98] text-xs mt-0.5">{item.models}</p>
                   </div>
                 ))}
               </div>
               <p className="text-[#7A9E98] text-xs mt-3">
-                * Assessment is free. Final price depends on extent of damage. No Fix No Fee guarantee.
+                Assessment is free. No Fix No Fee guarantee on all liquid damage repairs.
               </p>
             </div>
           </div>
@@ -351,7 +340,6 @@ export default function LiquidDamagePage() {
               >
                 <div>
                   <h3 className="text-[#E8F4F1] font-bold mb-1">{page.title}</h3>
-                  <p className="text-[#0FEA7A] text-sm font-semibold">{page.price}</p>
                 </div>
                 <ArrowRight className="w-5 h-5 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>

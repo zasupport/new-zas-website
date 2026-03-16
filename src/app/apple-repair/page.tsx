@@ -45,7 +45,6 @@ const serviceCards = [
     title: 'Logic Board Repair',
     description: 'Microsoldering specialists. We fix the chip that failed — not the whole board. No-power, no-display, USB-C failure, GPU faults.',
     href: '/logic-board-repair',
-    price: 'From R 1,800',
     tag: 'Most popular',
     accent: 'text-orange-400',
   },
@@ -54,7 +53,6 @@ const serviceCards = [
     title: 'Battery Replacement',
     description: 'Restore battery health to 100%. All M-series and Intel MacBook Air and Pro models. OEM-grade cells, 12-month warranty.',
     href: '/macbook-repair/battery',
-    price: 'From R 1,200',
     tag: null,
     accent: 'text-green-400',
   },
@@ -63,7 +61,6 @@ const serviceCards = [
     title: 'Screen Repair',
     description: 'Cracked Retina display, dead pixels, backlight failure. Genuine-quality panels for all MacBook, iMac and iPad models.',
     href: '/macbook-repair/screen',
-    price: 'From R 3,500',
     tag: null,
     accent: 'text-blue-400',
   },
@@ -72,7 +69,6 @@ const serviceCards = [
     title: 'Keyboard Repair',
     description: 'Sticky keys, broken keys, water-damaged keyboard. Butterfly to Magic keyboard. All MacBook Pro and Air models.',
     href: '/macbook-repair',
-    price: 'From R 2,500',
     tag: null,
     accent: 'text-purple-400',
   },
@@ -81,7 +77,6 @@ const serviceCards = [
     title: 'Liquid Damage Repair',
     description: 'Ultrasonic cleaning and component-level repair for MacBook, iMac, iPhone, iPad and Apple Watch after liquid exposure.',
     href: '/liquid-damage',
-    price: 'From R 2,500',
     tag: null,
     accent: 'text-cyan-400',
   },
@@ -90,7 +85,6 @@ const serviceCards = [
     title: 'Trackpad Repair',
     description: 'Force Touch trackpad failure, physical damage, or click not registering. MacBook Air and Pro, all models.',
     href: '/macbook-repair',
-    price: 'From R 1,800',
     tag: null,
     accent: 'text-yellow-400',
   },
@@ -99,7 +93,6 @@ const serviceCards = [
     title: 'Charging Port Repair',
     description: 'USB-C / MagSafe charging port failure. Charging controller chip replacement. No charging, one-side only, loose port.',
     href: '/logic-board-repair',
-    price: 'From R 1,800',
     tag: null,
     accent: 'text-red-400',
   },
@@ -108,7 +101,6 @@ const serviceCards = [
     title: 'MacBook Pro Repair',
     description: 'All faults, all years — Intel 2008 through M4 Pro/Max 2024. Battery, screen, keyboard, logic board, liquid damage.',
     href: '/macbook-pro-repair',
-    price: 'From R 1,200',
     tag: null,
     accent: 'text-teal-400',
   },
@@ -116,18 +108,18 @@ const serviceCards = [
 
 // ─── All Services Grid ────────────────────────────────────────────────────────
 const allServices = [
-  { title: 'MacBook Repair', href: '/macbook-repair', price: 'From R 950', sub: 'Battery, screen, keyboard, logic board' },
-  { title: 'MacBook Air Repair', href: '/macbook-air-repair', price: 'From R 1,200', sub: 'M1, M2, M3 and Intel — all models' },
-  { title: 'MacBook Pro Repair', href: '/macbook-pro-repair', price: 'From R 1,500', sub: 'M1–M3 Pro/Max and Intel — all models' },
-  { title: 'iMac Repair', href: '/imac-repair', price: 'From R 1,800', sub: 'Screen, RAM, SSD, logic board — all models' },
-  { title: 'Logic Board Repair', href: '/logic-board-repair', price: 'From R 1,800', sub: 'Microsoldering specialists' },
-  { title: 'Liquid Damage Repair', href: '/liquid-damage', price: 'From R 2,500', sub: 'MacBook, iMac, iPhone, iPad, Apple Watch' },
-  { title: 'iPhone Repair', href: '/iphone-repair', price: 'From R 950', sub: 'All models, all damage types' },
-  { title: 'iPad Repair', href: '/ipad-repair', price: 'From R 1,200', sub: 'All iPad models including M4' },
-  { title: 'MacBook Battery', href: '/macbook-repair/battery', price: 'From R 1,200', sub: 'All M-series and Intel MacBook Air & Pro' },
-  { title: 'MacBook Screen', href: '/macbook-repair/screen', price: 'From R 3,500', sub: 'Retina display, all models' },
-  { title: 'JAMF MDM', href: '/jamf-mdm', price: 'From R 4,500/mo', sub: 'Enterprise Apple device management' },
-  { title: 'Managed IT Services', href: '/managed-services', price: 'From R 4,500/mo', sub: 'Apple-first IT support for business' },
+  { title: 'MacBook Repair', href: '/macbook-repair', sub: 'Battery, screen, keyboard, logic board' },
+  { title: 'MacBook Air Repair', href: '/macbook-air-repair', sub: 'M1, M2, M3 and Intel — all models' },
+  { title: 'MacBook Pro Repair', href: '/macbook-pro-repair', sub: 'M1–M3 Pro/Max and Intel — all models' },
+  { title: 'iMac Repair', href: '/imac-repair', sub: 'Screen, RAM, SSD, logic board — all models' },
+  { title: 'Logic Board Repair', href: '/logic-board-repair', sub: 'Microsoldering specialists' },
+  { title: 'Liquid Damage Repair', href: '/liquid-damage', sub: 'MacBook, iMac, iPhone, iPad, Apple Watch' },
+  { title: 'iPhone Repair', href: '/iphone-repair', sub: 'All models, all damage types' },
+  { title: 'iPad Repair', href: '/ipad-repair', sub: 'All iPad models including M4' },
+  { title: 'MacBook Battery', href: '/macbook-repair/battery', sub: 'All M-series and Intel MacBook Air & Pro' },
+  { title: 'MacBook Screen', href: '/macbook-repair/screen', sub: 'Retina display, all models' },
+  { title: 'JAMF MDM', href: '/jamf-mdm', sub: 'Enterprise Apple device management' },
+  { title: 'Managed IT Services', href: '/managed-services', sub: 'Apple-first IT support for business' },
 ];
 
 // ─── Process Steps ────────────────────────────────────────────────────────────
@@ -161,7 +153,7 @@ const customerReviews = [
     suburb: 'Sandton',
     rating: 5,
     date: '02/2026',
-    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. ZA Support diagnosed it within a few hours — corroded USB-C controller. Fixed for R 2,200. Apple quoted R 42,000 for a new board. Cannot recommend highly enough.',
+    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. ZA Support diagnosed it within a few hours — corroded USB-C controller. Fixed quickly. Apple quoted significantly more for a new board. Cannot recommend highly enough.',
     service: 'Liquid Damage + Logic Board',
   },
   {
@@ -169,7 +161,7 @@ const customerReviews = [
     suburb: 'Rosebank',
     rating: 5,
     date: '01/2026',
-    text: 'Screen was flickering on my 2015 MacBook Pro. Other shops said unfixable or quoted R 8,000+ for a replacement board. ZA Support repaired the GPU for R 3,500 with a 12-month warranty. Six weeks later — perfect.',
+    text: 'Screen was flickering on my 2015 MacBook Pro. Other shops said unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a 12-month warranty. Six weeks later — perfect.',
     service: 'Logic Board Repair',
   },
   {
@@ -195,7 +187,7 @@ const faqs = [
   {
     question: 'How much does Apple Mac repair cost in Johannesburg?',
     answer:
-      'Costs vary by device and fault type. Battery replacement from R 1,200 (MacBook Air) or R 1,500 (MacBook Pro). Screen replacement from R 3,500. Logic board microsoldering from R 1,800. Liquid damage from R 2,500. iPhone screen from R 1,500, battery from R 950. All diagnostics are free with no obligation — you will receive a written quote before any work begins.',
+      'Costs vary by device and fault type. All diagnostics are free with no obligation — you will receive a written quote before any work begins. We only charge you once we have successfully repaired your device.',
   },
   {
     question: 'What is your No Fix No Fee policy?',
@@ -230,7 +222,7 @@ const faqs = [
   {
     question: 'Is your repair cheaper than the Apple Store?',
     answer:
-      'Significantly cheaper for most repairs. Apple Store logic board replacements typically cost R 15,000 – R 70,000. ZA Support microsoldering repair for the same fault: R 1,800 – R 6,500. Battery replacement at Apple is R 2,000–R 2,500; ZA Support from R 1,200. Plus we offer a free diagnostic, No Fix No Fee, and a 12-month warranty.',
+      'Significantly cheaper for most repairs. Apple performs full logic board replacements — we repair the specific component that failed. Plus we offer a free diagnostic, No Fix No Fee, and a 12-month warranty.',
   },
   {
     question: 'Do you repair M1, M2, M3 and M4 MacBooks?',
@@ -251,8 +243,6 @@ const serviceSchema = buildServiceSchema({
   name: 'Apple Mac Repair Johannesburg',
   description:
     'Expert Apple Mac repair in Johannesburg. Logic board microsoldering, battery replacement, screen repair, keyboard repair, liquid damage, trackpad and charging port repair. All MacBook, iMac, Mac mini, iPhone and iPad models.',
-  lowPrice: '950',
-  highPrice: '12000',
 });
 
 const aggregateRatingSchema = {
@@ -403,7 +393,7 @@ export default function AppleRepairPage() {
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">
             <div>
               <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Mac Shack &amp; other shops</p>
-              <p className="text-xl font-extrabold text-red-400 line-through">R 550 diagnostic fee</p>
+              <p className="text-xl font-extrabold text-red-400 line-through">Diagnostic fee charged</p>
             </div>
             <div className="text-[#0FEA7A] text-3xl font-black">vs</div>
             <div>
@@ -442,8 +432,7 @@ export default function AppleRepairPage() {
                   {service.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs mb-4 leading-relaxed">{service.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-[#0FEA7A] text-sm font-bold">{service.price}</span>
+                <div className="flex items-center justify-end">
                   <ArrowRight className="w-3.5 h-3.5 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
                 </div>
               </Link>
@@ -498,8 +487,7 @@ export default function AppleRepairPage() {
                   {service.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs mb-3">{service.sub}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-[#0FEA7A] text-sm font-bold">{service.price}</span>
+                <div className="flex items-center justify-end">
                   <ArrowRight className="w-3.5 h-3.5 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
                 </div>
               </Link>
@@ -523,7 +511,7 @@ export default function AppleRepairPage() {
               {
                 icon: Cpu,
                 title: 'Component-Level Repair',
-                body: 'We replace the chip or component that failed — not the entire logic board. This saves you R 10,000–R 60,000 compared to an Apple Store board replacement, and keeps your original data and Touch ID pairing intact.',
+                body: 'We replace the chip or component that failed — not the entire logic board. This avoids the high cost of Apple\'s full board replacement and keeps your original data and Touch ID pairing intact.',
               },
               {
                 icon: Shield,
@@ -543,7 +531,7 @@ export default function AppleRepairPage() {
               {
                 icon: CheckCircle,
                 title: 'Free Diagnostic — Always',
-                body: 'Unlike Mac Shack (R 550) and other shops, our diagnostic is always free. You will know exactly what is wrong and exactly what it will cost before you decide anything.',
+                body: 'Unlike Mac Shack and other shops that charge diagnostic fees, our diagnostic is always free. You will know exactly what is wrong and exactly what it will cost before you decide anything.',
               },
               {
                 icon: Star,
@@ -637,52 +625,6 @@ export default function AppleRepairPage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── PRICING OVERVIEW ── */}
-      <section className="py-20 bg-[#111C1A]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-            Repair Pricing Guide
-          </h2>
-          <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl">
-            All diagnostics are free. Final price confirmed after assessment. No Fix No Fee applies to every job.
-          </p>
-          <div className="glass-card overflow-hidden p-0">
-            {[
-              { item: 'Diagnostic Assessment', price: 'Free', note: 'All devices, all faults — always free' },
-              { item: 'Battery Replacement', price: 'From R 1,200', note: 'MacBook Air from R 1,200 · MacBook Pro from R 1,500' },
-              { item: 'Screen Replacement', price: 'From R 3,500', note: 'Retina display, all MacBook models' },
-              { item: 'Keyboard Replacement', price: 'From R 2,500', note: 'All MacBook Air and Pro models' },
-              { item: 'Charging Port / USB-C', price: 'From R 1,800', note: 'Charging controller chip or port board' },
-              { item: 'Logic Board Repair', price: 'From R 1,800', note: 'Microsoldering — component-level repair' },
-              { item: 'Liquid Damage Repair', price: 'From R 2,500', note: 'Ultrasonic clean + component repair' },
-              { item: 'Trackpad Repair', price: 'From R 1,800', note: 'Force Touch trackpad, all models' },
-              { item: 'iPhone Screen', price: 'From R 1,500', note: 'iPhone 8 through iPhone 16 Pro Max' },
-              { item: 'iPhone Battery', price: 'From R 950', note: 'All iPhone models' },
-            ].map((item, i, arr) => (
-              <div key={item.item} className={`flex items-center justify-between p-5 ${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold text-sm">{item.item}</p>
-                  <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
-                </div>
-                <span className={`font-bold whitespace-nowrap ml-4 text-sm ${item.price === 'Free' ? 'text-[#0FEA7A]' : 'text-[#0FEA7A]'}`}>
-                  {item.price}
-                </span>
-              </div>
-            ))}
-          </div>
-          <p className="text-[#7A9E98] text-xs mt-3">
-            Final price depends on specific fault and model. Free diagnostic with no obligation to proceed.
-          </p>
-          <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-4">
-            <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">How we compare:</strong> Mac Shack charges R 550 just to look at your device, then R 4,499+ for a board replacement.
-              Apple Store board replacements start at R 15,000 and reach R 70,000 for newer models.
-              ZA Support starts from <strong className="text-[#0FEA7A]">R 1,800</strong> — free diagnostic, No Fix No Fee, 12-month warranty included.
-            </p>
           </div>
         </div>
       </section>

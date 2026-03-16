@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Screen Repair Johannesburg | ZA Support',
   description:
-    'iPad screen repair in Johannesburg from R 799. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
+    'iPad screen repair in Johannesburg. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/screen' },
   keywords: [
     'iPad screen repair Johannesburg',
@@ -25,10 +25,10 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iPad mini (all generations)', price: 'R 799 – R 1,299', note: '' },
-  { model: 'iPad Air (all generations)', price: 'R 999 – R 1,799', note: 'Most popular repair' },
-  { model: 'iPad Pro 11"', price: 'R 1,499 – R 2,499', note: 'ProMotion LCD / OLED' },
-  { model: 'iPad Pro 12.9" / 13"', price: 'R 1,999 – R 3,499', note: 'Liquid Retina XDR' },
+  { model: 'iPad mini (all generations)', note: '' },
+  { model: 'iPad Air (all generations)', note: 'Most popular repair' },
+  { model: 'iPad Pro 11"', note: 'ProMotion LCD / OLED' },
+  { model: 'iPad Pro 12.9" / 13"', note: 'Liquid Retina XDR' },
 ];
 
 const symptoms = [
@@ -86,7 +86,7 @@ const faqs = [
   {
     question: 'How much does iPad screen repair cost in Johannesburg?',
     answer:
-      'iPad screen repair in Johannesburg starts at R 799 for iPad mini and ranges up to R 3,499 for iPad Pro 12.9" / 13" models with Liquid Retina XDR displays. The exact price depends on your specific model and generation. We provide a free assessment and written fixed-price quote before starting any work — no surprises.',
+      'iPad screen repair cost depends on your specific model and generation. We provide a free assessment and written fixed-price quote before starting any work — no surprises.',
   },
   {
     question: 'How long does iPad screen replacement take?',
@@ -106,12 +106,12 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked iPad screen?',
     answer:
-      'In most cases, yes. iPad screen repair costs a fraction of replacement. A cracked iPad mini screen at R 799–R 1,299 versus R 9,000+ for a new device is compelling. Even iPad Pro screen repairs at R 1,499–R 3,499 are significantly cheaper than replacement. We provide an honest assessment — if repair is not economical, we will tell you.',
+      'In most cases, yes. iPad screen repair costs a fraction of replacement. Screen repair versus buying new is almost always the better value. We provide an honest assessment — if repair is not economical, we will tell you.',
   },
   {
     question: 'Can you repair an iPad Pro OLED or ProMotion screen?',
     answer:
-      'Yes. We repair iPad Pro displays including ProMotion (120 Hz) LCD and OLED panels on the latest M4 iPad Pro. These are premium assemblies and are reflected in the higher pricing. We use high-quality replacements that preserve ProMotion refresh rates and colour accuracy.',
+      'Yes. We repair iPad Pro displays including ProMotion (120 Hz) LCD and OLED panels on the latest M4 iPad Pro. These are premium assemblies. We use high-quality replacements that preserve ProMotion refresh rates and colour accuracy.',
   },
   {
     question: 'My iPad screen cracked but still works — should I repair it now?',
@@ -153,7 +153,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPad Screen Repair Johannesburg',
-  description: 'iPad screen repair service in Johannesburg covering all iPad mini, Air, and Pro models. From R 799. Same-day available. 12-month warranty.',
+  description: 'iPad screen repair service in Johannesburg covering all iPad mini, Air, and Pro models. Same-day available. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -173,9 +173,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Screen Repair Johannesburg',
-  description: 'iPad screen repair in Johannesburg for all iPad mini, Air, and Pro models. Cracked glass, dead touch, dead pixels, backlight failure. From R 799. 12-month warranty.',
-  lowPrice: '799',
-  highPrice: '3499',
+  description: 'iPad screen repair in Johannesburg for all iPad mini, Air, and Pro models. Cracked glass, dead touch, dead pixels, backlight failure. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -218,12 +216,12 @@ export default function iPadScreenPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Cracked glass, dead touch, dead pixels, ghost touch — we repair all iPad screen faults
-              from R 799. iPad mini, iPad Air, iPad Pro 11" and 12.9". Same-day available.
+              Cracked glass, dead touch, dead pixels, ghost touch — we repair all iPad screen faults.
+              iPad mini, iPad Air, iPad Pro 11" and 12.9". Same-day available.
               12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['From R 799', 'No Fix No Fee', '12-month warranty', 'Apple Pencil compatible', 'Same-day available', 'Free assessment'].map((item) => (
+              {['No Fix No Fee', '12-month warranty', 'Apple Pencil compatible', 'Same-day available', 'Free assessment'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -256,29 +254,27 @@ export default function iPadScreenPage() {
         </div>
       </section>
 
-      {/* ── Pricing ──────────────────────────────────────────────────────── */}
+      {/* ── Models ──────────────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPad Screen Repair Prices — Johannesburg 2026
+            iPad Models We Repair
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
-            All prices include parts and labour. We provide a written fixed-price quote before starting.
-            Prices vary by model generation — bring your iPad in or send us the model number for an exact quote.
+            We provide a written fixed-price quote before starting.
+            Bring your iPad in or send us the model number for an exact quote.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
-            <div className="grid grid-cols-3 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
+            <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider">Model</span>
-              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-center">Price Range</span>
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-right">Note</span>
             </div>
             {pricingRows.map((row, i) => (
               <div
                 key={row.model}
-                className={`grid grid-cols-3 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
+                className={`grid grid-cols-2 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
               >
                 <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                 <span className="text-[#7A9E98] text-xs text-right self-center">{row.note}</span>
               </div>
             ))}
@@ -367,8 +363,8 @@ export default function iPadScreenPage() {
             <div className="space-y-4">
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
                 <p className="text-[#7A9E98] text-sm italic mb-3">
-                  &ldquo;The Apple Store quoted me R 8,500 for a new iPad. ZA Support replaced my screen for R 1,499.
-                  Same-day, 12-month warranty, Apple Pencil still works. Should have called them first.&rdquo;
+                  &ldquo;The Apple Store wanted me to replace the whole iPad. ZA Support replaced my screen
+                  same-day, 12-month warranty, Apple Pencil still works. Should have called them first.&rdquo;
                 </p>
                 <div className="flex items-center gap-2">
                   <div className="flex gap-0.5">
@@ -448,7 +444,7 @@ export default function iPadScreenPage() {
             >
               Cracked iPad Screen?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 799. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

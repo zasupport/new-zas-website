@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: 'My iPhone battery percentage drops suddenly and the phone shuts off. Is this a repair?',
-    answer: 'Yes. Sudden percentage drops and unexpected shutdowns are classic signs of a degraded battery with high internal resistance. iPhone battery replacement typically costs R 950 and takes under an hour. We check your battery health percentage and give you an honest recommendation.',
+    answer: 'Yes. Sudden percentage drops and unexpected shutdowns are classic signs of a degraded battery with high internal resistance. iPhone battery replacement takes under an hour. We check your battery health percentage and give you an honest recommendation.',
   },
   {
     question: 'Is it worth repairing an older iPhone (6, 7, 8)?',
@@ -38,12 +38,12 @@ const faqs = [
 ];
 
 const repairTypes = [
-  { title: 'Screen Replacement', href: '/iphone-repair/screen', price: 'From R 1,500', desc: 'OLED / LCD replacement. All models.' },
-  { title: 'Battery Replacement', href: '/iphone-repair/battery', price: 'From R 950', desc: 'Restore full battery life.' },
-  { title: 'Liquid Damage', href: '/iphone-repair/liquid-damage', price: 'From R 1,200', desc: 'Ultrasonic cleaning, board repair.' },
-  { title: 'Charging Port', href: '/iphone-repair/charging', price: 'From R 750', desc: 'Lightning and USB-C port repair.' },
-  { title: 'Back Glass', href: '/iphone-repair/back-glass', price: 'From R 1,200', desc: 'Cracked back glass replacement.' },
-  { title: 'Camera Repair', href: '/iphone-repair/camera', price: 'From R 1,800', desc: 'Front and rear camera module.' },
+  { title: 'Screen Replacement', href: '/iphone-repair/screen', price: 'Contact for pricing', desc: 'OLED / LCD replacement. All models.' },
+  { title: 'Battery Replacement', href: '/iphone-repair/battery', price: 'Contact for pricing', desc: 'Restore full battery life.' },
+  { title: 'Liquid Damage', href: '/iphone-repair/liquid-damage', price: 'Contact for pricing', desc: 'Ultrasonic cleaning, board repair.' },
+  { title: 'Charging Port', href: '/iphone-repair/charging', price: 'Contact for pricing', desc: 'Lightning and USB-C port repair.' },
+  { title: 'Back Glass', href: '/iphone-repair/back-glass', price: 'Contact for pricing', desc: 'Cracked back glass replacement.' },
+  { title: 'Camera Repair', href: '/iphone-repair/camera', price: 'Contact for pricing', desc: 'Front and rear camera module.' },
 ];
 
 const models = [

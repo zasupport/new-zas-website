@@ -7,19 +7,19 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iMac Screen Repair Johannesburg | Cracked Display Replacement | From R 4,500 | ZA Support',
+  title: 'iMac Screen Repair Johannesburg | Cracked Display Replacement | ZA Support',
   description:
-    'iMac screen repair in Johannesburg. Cracked glass, dead pixels, backlight failure, display lines — all iMac models from 2012 onwards. Professional panel replacement from R 4,500. Hyde Park.',
+    'iMac screen repair in Johannesburg. Cracked glass, dead pixels, backlight failure, display lines — all iMac models from 2012 onwards. Professional panel replacement. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/imac-repair/screen' },
 };
 
 const pricingRows = [
-  { model: 'iMac 21.5" (2012–2014)', issue: 'Glass + LCD panel', price: 'From R 4,500', note: 'Front glass separate from panel' },
-  { model: 'iMac 21.5" (2015–2019)', issue: 'Laminated display assembly', price: 'From R 5,500', note: 'Glass fused to LCD — full assembly' },
-  { model: 'iMac 27" (2012–2014)', issue: 'Glass + LCD panel', price: 'From R 5,500', note: 'Glass separate — careful removal needed' },
-  { model: 'iMac 27" (2015–2019)', issue: 'Laminated display assembly', price: 'From R 6,500', note: 'Glass fused to LCD — full assembly' },
-  { model: 'iMac 27" (2020)', issue: 'Nano-texture display', price: 'From R 7,500', note: 'Call for quote — nano-texture variant' },
-  { model: 'Backlight failure (any model)', issue: 'Backlight board or TCON', price: 'From R 2,800', note: 'Board repair — panel may be reused' },
+  { model: 'iMac 21.5" (2012–2014)', issue: 'Glass + LCD panel', note: 'Front glass separate from panel' },
+  { model: 'iMac 21.5" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD — full assembly' },
+  { model: 'iMac 27" (2012–2014)', issue: 'Glass + LCD panel', note: 'Glass separate — careful removal needed' },
+  { model: 'iMac 27" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD — full assembly' },
+  { model: 'iMac 27" (2020)', issue: 'Nano-texture display', note: 'Call for quote — nano-texture variant' },
+  { model: 'Backlight failure (any model)', issue: 'Backlight board or TCON', note: 'Board repair — panel may be reused' },
 ];
 
 const symptoms = [
@@ -73,10 +73,6 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Computer Repair',
-  offers: [
-    { '@type': 'Offer', name: 'iMac 21.5" Screen Repair', price: '4500', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iMac 27" Screen Repair', price: '5500', priceCurrency: 'ZAR' },
-  ],
 };
 
 export default function IMacScreenRepairPage() {
@@ -108,7 +104,7 @@ export default function IMacScreenRepairPage() {
             Cracked glass, dead pixels, backlight failure, display lines.
             All iMac models from 2012 onwards. Free assessment and fixed quote.
           </p>
-          <p className="text-2xl font-bold text-green-400 mb-8">From R 4,500</p>
+          <p className="text-2xl font-bold text-green-400 mb-8">Free assessment — contact us for a quote</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
@@ -150,7 +146,7 @@ export default function IMacScreenRepairPage() {
           <div>
             <h3 className="font-bold text-slate-900 mb-1">Dark screen but machine still running?</h3>
             <p className="text-slate-600 text-sm">
-              Connect an external monitor via Thunderbolt or HDMI. If your desktop appears on the external screen, the logic board is fine — the issue is the internal backlight, not the logic board. Backlight repairs start from R 2,800, significantly less than a full screen replacement.
+              Connect an external monitor via Thunderbolt or HDMI. If your desktop appears on the external screen, the logic board is fine — the issue is the internal backlight, not the logic board. Backlight repairs are significantly less than a full screen replacement.
             </p>
           </div>
         </div>
@@ -159,15 +155,14 @@ export default function IMacScreenRepairPage() {
       {/* Pricing */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac Screen Repair Pricing</h2>
-          <p className="text-slate-500 text-center mb-8">Prices include parts and labour. Free assessment before any commitment.</p>
+          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac Screen Repair — Models &amp; Issues</h2>
+          <p className="text-slate-500 text-center mb-8">Free assessment before any commitment. Contact us for a quote.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
               <thead className="bg-slate-900 text-white">
                 <tr>
                   <th className="text-left p-4">iMac Model</th>
                   <th className="text-left p-4">Issue</th>
-                  <th className="text-left p-4">Price</th>
                   <th className="text-left p-4">Notes</th>
                 </tr>
               </thead>
@@ -176,7 +171,6 @@ export default function IMacScreenRepairPage() {
                   <tr key={`${row.model}-${row.issue}`} className="hover:bg-slate-50">
                     <td className="p-4 text-slate-700">{row.model}</td>
                     <td className="p-4 text-slate-700 text-xs">{row.issue}</td>
-                    <td className="p-4 font-semibold text-green-600">{row.price}</td>
                     <td className="p-4 text-slate-500 text-xs">{row.note}</td>
                   </tr>
                 ))}

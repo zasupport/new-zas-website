@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
   description:
-    'MacBook Air repair Johannesburg — battery replacement from R 1,200, screen from R 2,200, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018–2020. Intel battery < 400 cycles = replace now. No Fix No Fee. Hyde Park.',
+    'MacBook Air repair Johannesburg — battery replacement, screen repair, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018–2020. Intel battery under 400 cycles = replace now. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-air-repair' },
   keywords: [
     'macbook air repair johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
-    description: 'MacBook Air repair Johannesburg — battery from R 1,200, screen from R 2,200. M1/M2/M3/M4 and Intel models. No Fix No Fee.',
+    description: 'MacBook Air repair Johannesburg — battery replacement, screen repair. M1/M2/M3/M4 and Intel models. No Fix No Fee.',
     url: 'https://zasupport.com/macbook-air-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -34,58 +34,58 @@ const services = [
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore all-day battery life. Intel MacBook Air from R 1,200. Apple Silicon M1/M2/M3/M4 Air from R 1,200. We test your battery health before and after — verified improvement every time.',
+    description: 'Restore all-day battery life. Intel and Apple Silicon M1/M2/M3/M4 Air. We test your battery health before and after — verified improvement every time.',
     href: '/macbook-repair/battery',
-    price: 'From R 1,200',
+    price: 'Contact for pricing',
   },
   {
     icon: Monitor,
     title: 'Screen Replacement',
-    description: 'Cracked Retina display, dead pixels, backlight failure, anti-reflective coating delamination. MacBook Air screens from R 2,200. Genuine-quality panels with accurate colour rendition.',
+    description: 'Cracked Retina display, dead pixels, backlight failure, anti-reflective coating delamination. Genuine-quality panels with accurate colour rendition.',
     href: '/macbook-repair/screen',
-    price: 'From R 2,200',
+    price: 'Contact for pricing',
   },
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
     description: 'Butterfly keyboard failure on Intel 2018–2019 models, sticky keys, broken switches. Magic Keyboard (M-series) key cap and switch repair. Full assembly replacement with 12-month warranty.',
     href: '/macbook-repair/keyboard',
-    price: 'From R 2,500',
+    price: 'Contact for pricing',
   },
   {
     icon: Wrench,
     title: 'Hinge Repair',
     description: 'MacBook Air hinge too stiff, too loose, or cracked at the corner. Hinge tension adjustments and full hinge bar replacements available for all Intel and M-series Air models.',
     href: '/contact',
-    price: 'From R 1,200',
+    price: 'Contact for pricing',
   },
   {
     icon: Wrench,
     title: 'Charging Port Repair',
     description: 'USB-C port not charging, loose connection, bent pins. MagSafe port repair on older Intel Air models. Port board replacement or microsoldering where needed.',
     href: '/macbook-repair/charging-port',
-    price: 'From R 500',
+    price: 'Contact for pricing',
   },
   {
     icon: Wrench,
     title: 'Trackpad Repair',
     description: 'Trackpad not clicking, erratic cursor, Force Touch not responding, raised trackpad from a swollen battery. Fast turnaround on most MacBook Air models.',
     href: '/macbook-repair/trackpad',
-    price: 'From R 1,800',
+    price: 'Contact for pricing',
   },
   {
     icon: Cpu,
     title: 'Logic Board Repair',
     description: 'No-power, no-display, USB-C failure, and liquid corrosion — all repaired at component level. Apple Silicon MacBook Air board repairs available. No-Fix No-Fee diagnostic.',
     href: '/logic-board-repair/macbook-air',
-    price: 'From R 1,800',
+    price: 'Contact for pricing',
   },
   {
     icon: Droplets,
     title: 'Liquid Damage',
     description: 'MacBook Air liquid damage — ultrasonic board cleaning, corrosion removal, component-level microsoldering. Bring it in within 48 hours of the spill for the best outcome.',
     href: '/liquid-damage/macbook-air',
-    price: 'From R 2,500',
+    price: 'Contact for pricing',
   },
 ];
 
@@ -148,11 +148,11 @@ const knownIssues = [
 const faqs = [
   {
     question: 'How much does MacBook Air repair cost in Johannesburg?',
-    answer: 'MacBook Air repair costs depend on the fault and model. Battery replacement starts at R 1,200 for all models including M1, M2, M3, and Intel. Screen replacement starts at R 2,200. Keyboard replacement starts at R 2,500. Hinge repair starts at R 1,200. Charging port repair starts at R 500. All prices are estimates — we confirm the exact cost in writing after a free assessment before starting any work.',
+    answer: 'MacBook Air repair costs depend on the fault and model. We confirm the exact cost in writing after a free assessment before starting any work. Battery, screen, keyboard, hinge, charging port, and logic board repairs are all available — contact us for a quote.',
   },
   {
     question: 'When should I replace my MacBook Air battery?',
-    answer: 'For Intel MacBook Air models, battery replacement is typically worthwhile at around 300–400 cycle count or when health drops below 80%. For Apple Silicon M1/M2/M3/M4 Air models, the threshold is around 500 cycles. Below 80% health, macOS will throttle performance under load to protect the battery. A battery replacement restores full performance and runtime and is one of the best-value repairs for any MacBook Air.',
+    answer: 'For Intel MacBook Air models, battery replacement is typically worthwhile at around 300–400 cycle count or when health drops below 80%. For Apple Silicon M1/M2/M3/M4 Air models, the threshold is around 500 cycles. Below 80% health, macOS will throttle performance under load to protect the battery. A battery replacement restores full performance and runtime and is one of the best-value repairs for any MacBook Air. Contact us for a quote.',
   },
   {
     question: 'Can M1, M2, M3, and M4 MacBook Air models be repaired?',
@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
-    answer: 'MacBook Air repairs are typically 15–30% less expensive than MacBook Pro repairs for equivalent faults, due to simpler construction and lower component cost. For example, a MacBook Air screen starts at R 2,200 while a MacBook Pro screen starts at R 2,500. MacBook Air batteries are also generally less expensive to replace. Logic board repairs are priced by fault complexity rather than model and are quoted individually after a free assessment.',
+    answer: 'MacBook Air repairs are typically less expensive than MacBook Pro repairs for equivalent faults, due to simpler construction and lower component cost. Logic board repairs are priced by fault complexity rather than model and are quoted individually after a free assessment.',
   },
 ];
 
@@ -208,13 +208,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook Air repair in Johannesburg. Battery replacement from R 1,200, screen from R 2,200, keyboard, hinge, charging port. M1, M2, M3, M4 and Intel models. No Fix No Fee.',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '500',
-    highPrice: '8000',
-    priceCurrency: 'ZAR',
-  },
+    'MacBook Air repair in Johannesburg. Battery replacement, screen repair, keyboard, hinge, charging port. M1, M2, M3, M4 and Intel models. No Fix No Fee.',
 };
 
 const breadcrumbSchema = {
@@ -251,10 +245,10 @@ export default function MacBookAirRepairPage() {
               MacBook Air Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Battery, screen, keyboard, hinge, and port repair for all MacBook Air models — M1, M2, M3, M4, and Intel. Intel batteries under 400 cycles degrade performance: a R 1,200 battery fix often transforms the machine.
+              Battery, screen, keyboard, hinge, and port repair for all MacBook Air models — M1, M2, M3, M4, and Intel. Intel batteries under 400 cycles degrade performance — a battery replacement often transforms the machine.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Battery from R 1,200 &middot; Screen from R 2,200 &middot; Hinge from R 1,200 &middot; Hyde Park, Johannesburg. No Fix No Fee.
+              Battery replacement &middot; Screen repair &middot; Hinge repair &middot; Hyde Park, Johannesburg. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -307,7 +301,7 @@ export default function MacBookAirRepairPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">
-            Check your cycle count: Apple menu &rarr; About This Mac &rarr; System Report &rarr; Power. Battery replacement from R 1,200 — same-day service.
+            Check your cycle count: Apple menu &rarr; About This Mac &rarr; System Report &rarr; Power. Contact us for a battery replacement quote — same-day service available.
           </p>
         </div>
       </section>
@@ -366,48 +360,6 @@ export default function MacBookAirRepairPage() {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* Pricing table */}
-      <section className="py-20 bg-[#0A1A18]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Air Repair <span className="text-[#0FEA7A]">Pricing</span>
-          </h2>
-          <p className="text-[#7A9E98] text-center mb-10 text-sm">All prices confirmed in writing after a free assessment. No hidden costs.</p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm text-left">
-              <thead>
-                <tr className="border-b border-[rgba(255,255,255,0.08)]">
-                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">Repair</th>
-                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">From</th>
-                  <th className="text-[#E8F4F1] font-semibold py-3">Turnaround</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-[rgba(255,255,255,0.05)]">
-                {[
-                  { repair: 'Battery Replacement (Intel)', from: 'R 1,200', time: '60–90 min' },
-                  { repair: 'Battery Replacement (M1 / M2 / M3 / M4)', from: 'R 1,200', time: '90–120 min' },
-                  { repair: 'Screen Replacement (Retina)', from: 'R 2,200', time: '2–3 hrs' },
-                  { repair: 'Keyboard Replacement (butterfly / Magic)', from: 'R 2,500', time: '2–4 hrs' },
-                  { repair: 'Hinge Repair / Adjustment', from: 'R 1,200', time: '1–2 hrs' },
-                  { repair: 'Charging Port / USB-C Repair', from: 'R 500', time: '1–2 hrs' },
-                  { repair: 'Trackpad Repair', from: 'R 1,800', time: '2–3 hrs' },
-                  { repair: 'Liquid Damage (ultrasonic + component)', from: 'R 2,500', time: '2–5 days' },
-                  { repair: 'Logic Board Repair (microsoldering)', from: 'R 1,800', time: '3–5 days' },
-                  { repair: 'Data Recovery', from: 'R 1,500', time: '1–3 days' },
-                ].map((row) => (
-                  <tr key={row.repair} className="hover:bg-[rgba(15,234,122,0.03)] transition-colors">
-                    <td className="text-[#E8F4F1] font-medium py-3 pr-6">{row.repair}</td>
-                    <td className="text-[#0FEA7A] font-bold py-3 pr-6">{row.from}</td>
-                    <td className="text-[#7A9E98] py-3">{row.time}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-[#7A9E98] text-xs text-center mt-6">Prices are starting estimates. Final cost confirmed after free assessment. All repairs include 12-month warranty.</p>
         </div>
       </section>
 

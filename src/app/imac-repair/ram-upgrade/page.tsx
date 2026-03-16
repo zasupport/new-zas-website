@@ -7,18 +7,18 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iMac RAM Upgrade Johannesburg | Up to 128 GB | From R 1,800 | ZA Support',
+  title: 'iMac RAM Upgrade Johannesburg | Up to 128 GB | ZA Support',
   description:
-    'iMac RAM upgrade in Johannesburg. Upgrade iMac 27" Intel to 32 GB, 64 GB or 128 GB RAM. Tool-free installation via rear panel. Same-day service from R 1,800. Hyde Park.',
+    'iMac RAM upgrade in Johannesburg. Upgrade iMac 27" Intel to 32 GB, 64 GB or 128 GB RAM. Tool-free installation via rear panel. Same-day service. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/imac-repair/ram-upgrade' },
 };
 
 const pricingRows = [
-  { model: 'iMac 27" (2019–2020)', config: '16 GB → 32 GB (add 2× 8 GB)', price: 'From R 1,800', note: 'No display removal needed' },
-  { model: 'iMac 27" (2017–2020)', config: '8 GB → 32 GB (replace all)', price: 'From R 2,200', note: 'No display removal needed' },
-  { model: 'iMac 27" (2015–2020)', config: 'Upgrade to 64 GB', price: 'From R 3,500', note: '4× 16 GB DDR4 SO-DIMMs' },
-  { model: 'iMac 27" (2017–2020)', config: 'Upgrade to 128 GB', price: 'From R 6,200', note: '4× 32 GB — maximum config' },
-  { model: 'iMac 21.5" (2012–2015)', config: '8 GB → 16 GB', price: 'From R 1,400', note: 'Requires display removal' },
+  { model: 'iMac 27" (2019–2020)', config: '16 GB → 32 GB (add 2× 8 GB)', price: 'Contact for pricing', note: 'No display removal needed' },
+  { model: 'iMac 27" (2017–2020)', config: '8 GB → 32 GB (replace all)', price: 'Contact for pricing', note: 'No display removal needed' },
+  { model: 'iMac 27" (2015–2020)', config: 'Upgrade to 64 GB', price: 'Contact for pricing', note: '4× 16 GB DDR4 SO-DIMMs' },
+  { model: 'iMac 27" (2017–2020)', config: 'Upgrade to 128 GB', price: 'Contact for pricing', note: '4× 32 GB — maximum config' },
+  { model: 'iMac 21.5" (2012–2015)', config: '8 GB → 16 GB', price: 'Contact for pricing', note: 'Requires display removal' },
   { model: 'iMac 21.5" (2019–2020 Intel)', config: 'RAM soldered — no upgrade', price: 'N/A', note: 'Cannot be upgraded' },
 ];
 
@@ -81,11 +81,6 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Computer Upgrade',
-  offers: [
-    { '@type': 'Offer', name: 'iMac RAM Upgrade 32 GB', price: '1800', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iMac RAM Upgrade 64 GB', price: '3500', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iMac RAM Upgrade 128 GB', price: '6200', priceCurrency: 'ZAR' },
-  ],
 };
 
 export default function IMacRAMUpgradePage() {
@@ -117,7 +112,7 @@ export default function IMacRAMUpgradePage() {
             Upgrade your iMac 27" to 32 GB, 64 GB or 128 GB RAM.
             No display removal needed. Same-day service. Data untouched.
           </p>
-          <p className="text-2xl font-bold text-green-400 mb-8">From R 1,800</p>
+          <p className="text-2xl font-bold text-green-400 mb-8">Contact us for a quote</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
@@ -211,8 +206,8 @@ export default function IMacRAMUpgradePage() {
       {/* Pricing */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac RAM Upgrade Pricing</h2>
-          <p className="text-slate-500 text-center mb-8">Prices include RAM modules and installation. No hidden fees.</p>
+          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac RAM Upgrade — Configurations</h2>
+          <p className="text-slate-500 text-center mb-8">Includes RAM modules and installation. Contact us for a quote. No hidden fees.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
               <thead className="bg-slate-900 text-white">
@@ -306,7 +301,7 @@ export default function IMacRAMUpgradePage() {
             <h3 className="font-bold text-slate-900 mb-1">Bundle with an SSD upgrade?</h3>
             <p className="text-slate-600 text-sm">
               For iMac 27" Intel models, combining the RAM upgrade with an SSD replacement gives you the full performance transformation in one visit.
-              SSD + 32 GB RAM from R 4,200 — same service visit, no extra charge for opening.
+              SSD + 32 GB RAM — same service visit, no extra charge for opening. Contact us for a quote.
             </p>
           </div>
           <Link

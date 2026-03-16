@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Trackpad Repair Johannesburg | ZA Support',
   description:
-    'MacBook trackpad repair in Johannesburg from R 899. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Free assessment. No Fix No Fee. Hyde Park, Johannesburg.',
+    'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Free assessment. No Fix No Fee. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/trackpad' },
   keywords: [
     'MacBook trackpad repair Johannesburg',
@@ -26,15 +26,15 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Air M1 / M2 / M3', price: 'R 899 – R 1,299', note: 'Flex cable or full replacement' },
-  { model: 'MacBook Air 13" Intel (2018–2020)', price: 'R 899 – R 1,499', note: '' },
-  { model: 'MacBook Pro 13" M1 / M2', price: 'R 1,099 – R 1,799', note: '' },
-  { model: 'MacBook Pro 14" M2 / M3 / M4', price: 'R 1,499 – R 2,199', note: '' },
-  { model: 'MacBook Pro 16" M2 / M3 / M4', price: 'R 1,799 – R 2,799', note: '' },
-  { model: 'MacBook Pro Intel 13" (2016–2020)', price: 'R 999 – R 1,799', note: '' },
-  { model: 'MacBook Pro Intel 15" (2016–2019)', price: 'R 1,299 – R 2,199', note: '' },
-  { model: 'Battery replacement (if cause)', price: 'R 1,299 – R 2,499', note: 'Combined with trackpad job' },
-  { model: 'Flex cable only', price: 'R 499 – R 799', note: 'Where cable is the sole fault' },
+  { model: 'MacBook Air M1 / M2 / M3', note: 'Flex cable or full replacement' },
+  { model: 'MacBook Air 13" Intel (2018–2020)', note: '' },
+  { model: 'MacBook Pro 13" M1 / M2', note: '' },
+  { model: 'MacBook Pro 14" M2 / M3 / M4', note: '' },
+  { model: 'MacBook Pro 16" M2 / M3 / M4', note: '' },
+  { model: 'MacBook Pro Intel 13" (2016–2020)', note: '' },
+  { model: 'MacBook Pro Intel 15" (2016–2019)', note: '' },
+  { model: 'Battery replacement (if cause)', note: 'Combined with trackpad job' },
+  { model: 'Flex cable only', note: 'Where cable is the sole fault' },
 ];
 
 const causes = [
@@ -86,7 +86,7 @@ const symptoms = [
 const faqs = [
   {
     question: 'How much does MacBook trackpad repair cost in Johannesburg?',
-    answer: 'MacBook trackpad repair in Johannesburg starts at R 899. The exact cost depends on your model and what is causing the fault. If a swollen battery is pushing the trackpad up, we replace both in the same visit and provide a combined quote — typically R 1,299 to R 2,499 all-in depending on model. Flex cable repairs start at R 499. We provide a free assessment and written fixed quote before any work begins.',
+    answer: 'MacBook trackpad repair cost depends on your model and what is causing the fault. If a swollen battery is pushing the trackpad up, we replace both in the same visit and provide a combined quote. We provide a free assessment and written fixed quote before any work begins.',
   },
   {
     question: 'My MacBook trackpad is raised and hard to click. What is causing this?',
@@ -146,7 +146,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Trackpad Repair Johannesburg',
-  description: 'MacBook trackpad repair service in Johannesburg. Swollen battery, clicking faults, cursor issues, Force Touch repair. All MacBook Air and Pro models. From R 899.',
+  description: 'MacBook trackpad repair service in Johannesburg. Swollen battery, clicking faults, cursor issues, Force Touch repair. All MacBook Air and Pro models.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -177,13 +177,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'MacBook trackpad repair in Johannesburg from R 899. Swollen battery causing raised trackpad, trackpad not clicking, erratic cursor, Force Touch calibration, flex cable replacement. All MacBook Air and Pro models.',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '899',
-    highPrice: '2799',
-    priceCurrency: 'ZAR',
-  },
+  description: 'MacBook trackpad repair in Johannesburg. Swollen battery causing raised trackpad, trackpad not clicking, erratic cursor, Force Touch calibration, flex cable replacement. All MacBook Air and Pro models.',
 };
 
 const breadcrumbSchema = {
@@ -222,7 +216,6 @@ export default function MacBookTrackpadPage() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Trackpad Repair<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
-              <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | From R 899</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
               Trackpad not clicking, cursor jumping, raised trackpad from swollen battery, Force Touch not working. All MacBook Air and Pro models — Apple Silicon and Intel. Free assessment. No Fix No Fee.
@@ -307,37 +300,35 @@ export default function MacBookTrackpadPage() {
         </div>
       </section>
 
-      {/* PRICING TABLE */}
+      {/* MODELS TABLE */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-              MacBook Trackpad Repair <span className="text-[#0FEA7A]">Pricing</span>
+              MacBook Trackpad Repair — <span className="text-[#0FEA7A]">Models We Service</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              All prices include parts and labour. Free assessment before any work begins. Written fixed quote — no hidden costs.
+              Free assessment before any work begins. Written fixed quote — no hidden costs.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
-              <div className="grid grid-cols-3 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
+              <div className="grid grid-cols-2 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
                 <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Model</span>
-                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-center">Price Range</span>
                 <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Note</span>
               </div>
               {pricingRows.map((row, i) => (
                 <div
                   key={row.model}
-                  className={`grid grid-cols-3 px-6 py-4 items-center ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
+                  className={`grid grid-cols-2 px-6 py-4 items-center ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
                 >
                   <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                  <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                   <span className="text-[#7A9E98] text-xs text-right">{row.note}</span>
                 </div>
               ))}
             </div>
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
-              Prices include parts and labour. Combined battery + trackpad quotes available. Call or WhatsApp to confirm stock availability for your model.
+              Combined battery + trackpad quotes available. Call or WhatsApp to confirm stock availability for your model.
             </p>
           </div>
         </div>
@@ -498,7 +489,7 @@ export default function MacBookTrackpadPage() {
               MacBook Trackpad Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-8">
-              From R 899. Free assessment. No Fix No Fee. Hyde Park, Johannesburg.
+              Free assessment. No Fix No Fee. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

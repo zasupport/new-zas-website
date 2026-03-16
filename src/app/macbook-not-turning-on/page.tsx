@@ -93,7 +93,6 @@ const causes = [
     description:
       'The most common cause. MacBook batteries degrade over charge cycles. A battery at 0% or below minimum voltage will not allow the MacBook to power on at all — even when plugged in, if the charging IC is also struggling.',
     symptoms: ['No response to power button', 'MagSafe light green but no startup', 'Powers on only when plugged in'],
-    priceRange: 'R 1,299 – R 2,499',
     repairTime: '2–4 hours',
     fixable: true,
     colour: 'emerald',
@@ -104,7 +103,6 @@ const causes = [
     description:
       'South Africa\'s load shedding cycle creates voltage spikes when power returns. A single surge can destroy the USB-C controller, blow a polyfuse, or fry the power management IC — leaving the MacBook completely unresponsive.',
     symptoms: ['Dead after load shedding', 'No charging light', 'Smells faintly burnt', 'Screen permanently black'],
-    priceRange: 'R 2,500 – R 6,500',
     repairTime: '1–3 business days',
     fixable: true,
     colour: 'amber',
@@ -115,7 +113,6 @@ const causes = [
     description:
       'Water, coffee, wine — any liquid reaching the logic board causes electrolytic corrosion that eats through copper traces and corrodes component pads. The damage often appears days after the spill as oxidation spreads. Earlier treatment = better outcome.',
     symptoms: ['Stopped working after liquid exposure', 'Intermittent power then nothing', 'Keyboard/trackpad unresponsive before death'],
-    priceRange: 'R 1,500 – R 8,500',
     repairTime: '2–5 business days',
     fixable: true,
     colour: 'blue',
@@ -126,7 +123,6 @@ const causes = [
     description:
       'The logic board is the central nervous system of your MacBook. Failed capacitors, damaged power rails, shorted MOSFETs or a failed SoC (Apple Silicon) can all result in a Mac that will not start. Component-level repair is possible on most faults.',
     symptoms: ['Fan spins but no screen', 'Boots then immediately shuts off', 'No response at all — completely silent'],
-    priceRange: 'R 1,800 – R 6,500',
     repairTime: '1–4 business days',
     fixable: true,
     colour: 'purple',
@@ -137,7 +133,6 @@ const causes = [
     description:
       'The USB-C Power Delivery controller chip (CD3217B12 on many Intel models) negotiates the charging voltage with your adapter. When this chip fails, the MacBook draws no power, the battery drains to zero, and the Mac appears completely dead.',
     symptoms: ['No charging from any cable', 'Battery percentage stuck at 0%', 'Previously worked, then stopped overnight'],
-    priceRange: 'R 2,500 – R 4,500',
     repairTime: '2–3 business days',
     fixable: true,
     colour: 'teal',
@@ -148,7 +143,6 @@ const causes = [
     description:
       'MacBooks with a T2 security chip or Apple Silicon can become unbootable due to corrupted firmware — often after a failed macOS update or third-party SSD replacement. The Mac may show a black screen or blink an error code. Firmware can be restored without data loss in most cases.',
     symptoms: ['Stuck on Apple logo', 'Blinking folder with question mark', 'Black screen after macOS update'],
-    priceRange: 'R 1,500 – R 3,500',
     repairTime: '24–48 hours',
     fixable: true,
     colour: 'orange',
@@ -159,7 +153,6 @@ const causes = [
     description:
       'A blown backlight fuse or failed backlight driver IC means the MacBook IS on — you just cannot see the screen. Test: shine a torch at the Apple logo area in a dark room. If you can faintly see the desktop, this is a backlight fault, not a power fault.',
     symptoms: ['Screen completely black but fan/keyboard lit', 'Faint image visible with torch', 'Connected to external monitor works fine'],
-    priceRange: 'R 1,500 – R 3,999',
     repairTime: '1–2 business days',
     fixable: true,
     colour: 'indigo',
@@ -170,20 +163,10 @@ const causes = [
     description:
       'Drop damage, bent chassis, or broken display hinges can interrupt internal ribbon cables, fracture solder joints, or break connectors. Physical damage assessment requires hands-on inspection — pricing depends entirely on the specific fault found.',
     symptoms: ['Stopped working after drop', 'Cracked or bent chassis', 'Screen cracked with no power'],
-    priceRange: 'Quote required',
     repairTime: 'Assessed after diagnostic',
     fixable: null,
     colour: 'red',
   },
-];
-
-// ─── Price Comparison ─────────────────────────────────────────────────────────
-const priceComparison = [
-  { repair: 'Battery Replacement', zasupport: 'R 1,299 – R 2,499', apple: 'R 3,500 – R 6,500', macshack: 'R 2,500 – R 4,500' },
-  { repair: 'Charging Port / USB-C IC', zasupport: 'R 2,500 – R 4,500', apple: 'R 8,000 – R 18,000', macshack: 'N/A' },
-  { repair: 'Logic Board Repair', zasupport: 'R 1,800 – R 6,500', apple: 'R 15,000 – R 70,000', macshack: 'R 4,499 (full board swap)' },
-  { repair: 'Liquid Damage', zasupport: 'R 1,500 – R 8,500', apple: 'R 15,000+ (board swap)', macshack: 'R 3,500+' },
-  { repair: 'Firmware Restore', zasupport: 'R 1,500 – R 3,500', apple: 'R 8,000+', macshack: 'N/A' },
 ];
 
 // ─── FAQs ─────────────────────────────────────────────────────────────────────
@@ -201,12 +184,12 @@ const faqs = [
   {
     question: 'My MacBook screen is black but I can hear it starting — is it broken?',
     answer:
-      'A black screen with audible startup sounds (fan spinning, keyboard backlight on, startup chime) almost always indicates a backlight fault rather than a dead MacBook. Backlight failures are caused by a blown backlight fuse or a failed backlight driver IC on the logic board. Quick test: shine a bright torch at the Apple logo in a dark room. If you can faintly see the desktop, your MacBook is running — it just cannot illuminate the screen. This is a common, fully repairable fault starting from R 1,500.',
+      'A black screen with audible startup sounds (fan spinning, keyboard backlight on, startup chime) almost always indicates a backlight fault rather than a dead MacBook. Backlight failures are caused by a blown backlight fuse or a failed backlight driver IC on the logic board. Quick test: shine a bright torch at the Apple logo in a dark room. If you can faintly see the desktop, your MacBook is running — it just cannot illuminate the screen. This is a common, fully repairable fault.',
   },
   {
     question: 'How much does it cost to fix a MacBook that won\'t turn on?',
     answer:
-      'Pricing depends entirely on the root cause, which we diagnose for free. Battery replacement: R 1,299 – R 2,499. Surge/load shedding damage: R 2,500 – R 6,500. Liquid damage: R 1,500 – R 8,500. Logic board component repair: R 1,800 – R 6,500. Backlight repair: R 1,500 – R 3,999. Firmware restore: R 1,500 – R 3,500. Compare this to Apple\'s out-of-warranty logic board replacement at R 15,000 – R 70,000. We give you a fixed written quote before any work begins.',
+      'Pricing depends entirely on the root cause, which we diagnose for free. We assess battery, surge, liquid damage, logic board, backlight, and firmware faults. Apple\'s out-of-warranty logic board replacement involves replacing the entire board — we fix the specific component that failed. We give you a fixed written quote before any work begins.',
   },
   {
     question: 'Can you recover my data if the MacBook won\'t turn on?',
@@ -216,7 +199,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a 7-year-old MacBook that won\'t turn on?',
     answer:
-      'It depends on the fault, the model, and what the machine is worth to you. Our free assessment will tell you exactly what is wrong and what repair costs. A 2017 MacBook Pro with a failed battery (R 1,500 repair) is almost always worth fixing — it has years of usable life remaining. A 2012 MacBook Pro with serious liquid damage may not be worth the repair cost. We will always give you our honest recommendation, including whether a used replacement makes more financial sense.',
+      'It depends on the fault, the model, and what the machine is worth to you. Our free assessment will tell you exactly what is wrong and what repair costs. A 2017 MacBook Pro with a failed battery is almost always worth fixing — it has years of usable life remaining. A 2012 MacBook Pro with serious liquid damage may not be worth the repair cost. We will always give you our honest recommendation, including whether a used replacement makes more financial sense.',
   },
   {
     question: 'My MacBook shows a flashing folder with a question mark on startup — what does that mean?',
@@ -247,7 +230,7 @@ const suburbReviews = [
     suburb: 'Sandton',
     stars: 5,
     review:
-      'My MacBook Pro completely died after load shedding. ZA Support diagnosed it the same day — blown USB-C chip. Fixed within 48 hours for R 3,200. Apple quoted me R 22,000 for a board replacement. I nearly threw the machine away. Cannot recommend them enough.',
+      'My MacBook Pro completely died after load shedding. ZA Support diagnosed it the same day — blown USB-C chip. Fixed within 48 hours. Apple quoted significantly more for a full board replacement. I nearly threw the machine away. Cannot recommend them enough.',
     service: 'Surge Damage Repair',
   },
   {
@@ -255,7 +238,7 @@ const suburbReviews = [
     suburb: 'Rosebank',
     stars: 5,
     review:
-      'MacBook Air wouldn\'t turn on at all — totally dead. I assumed the worst. Turned out to be the battery completely failing. They replaced it the same day for R 1,499. The machine works perfectly now. Free diagnostic meant there was no risk in bringing it in.',
+      'MacBook Air wouldn\'t turn on at all — totally dead. I assumed the worst. Turned out to be the battery completely failing. They replaced it the same day. The machine works perfectly now. Free diagnostic meant there was no risk in bringing it in.',
     service: 'Battery Replacement',
   },
   {
@@ -273,8 +256,6 @@ const serviceSchema = buildServiceSchema({
   name: 'MacBook Not Turning On — Repair & Diagnosis, Johannesburg',
   description:
     'Free same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. No Fix No Fee. 12-month warranty.',
-  lowPrice: '1299',
-  highPrice: '8500',
 });
 
 const faqSchema = buildFaqSchema(faqs);
@@ -371,7 +352,7 @@ export default function MacBookNotTurningOnPage() {
 
             <p className="text-[#7A9E98] text-base mb-10 max-w-2xl">
               Load shedding surge, dead battery, liquid damage, backlight fault — we identify the exact cause and fix it.
-              Component-level repair from <strong className="text-[#E8F4F1]">R 1,299</strong>. Based in Hyde Park, Johannesburg.
+              Based in Hyde Park, Johannesburg.
             </p>
 
             {/* CTAs */}
@@ -543,11 +524,7 @@ export default function MacBookNotTurningOnPage() {
                     </ul>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-3 pt-4 border-t border-[rgba(255,255,255,0.06)]">
-                    <div>
-                      <p className="text-[#7A9E98] text-xs mb-1">Repair Cost</p>
-                      <p className={`font-bold text-sm ${colourMap[cause.colour]}`}>{cause.priceRange}</p>
-                    </div>
+                  <div className="pt-4 border-t border-[rgba(255,255,255,0.06)]">
                     <div>
                       <p className="text-[#7A9E98] text-xs mb-1">Repair Time</p>
                       <p className="text-[#E8F4F1] font-semibold text-sm">{cause.repairTime}</p>
@@ -558,64 +535,9 @@ export default function MacBookNotTurningOnPage() {
             </div>
 
             <p className="mt-8 text-[#7A9E98] text-sm text-center">
-              All prices are for component-level repair. Prices confirmed in writing before work begins.{' '}
+              Prices confirmed in writing before work begins.{' '}
               <strong className="text-[#E8F4F1]">No Fix No Fee</strong> applies to all repairs.
             </p>
-          </div>
-        </section>
-
-        {/* ── Price Comparison ── */}
-        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="mb-10">
-            <div className="inline-block bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-1.5 mb-4">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Price Comparison</span>
-            </div>
-            <h2
-              className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-              style={{ fontFamily: 'Syne, sans-serif' }}
-            >
-              ZA Support vs Apple Store vs Mac Shack
-            </h2>
-            <p className="text-[#7A9E98] text-lg max-w-2xl">
-              Apple&apos;s out-of-warranty repairs replace the entire logic board — at a fraction of the cost, we fix the specific
-              component that failed. Here is what the numbers look like.
-            </p>
-          </div>
-
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-[rgba(255,255,255,0.08)]">
-                  <th className="text-left py-4 px-4 text-[#7A9E98] font-semibold">Repair</th>
-                  <th className="text-left py-4 px-4 text-[#0FEA7A] font-bold">ZA Support</th>
-                  <th className="text-left py-4 px-4 text-[#7A9E98] font-semibold">Apple Store</th>
-                  <th className="text-left py-4 px-4 text-[#7A9E98] font-semibold">Mac Shack</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-[rgba(255,255,255,0.04)]">
-                {priceComparison.map((row) => (
-                  <tr key={row.repair} className="hover:bg-[rgba(255,255,255,0.02)] transition-colors">
-                    <td className="py-4 px-4 text-[#E8F4F1] font-medium">{row.repair}</td>
-                    <td className="py-4 px-4 text-[#0FEA7A] font-bold">{row.zasupport}</td>
-                    <td className="py-4 px-4 text-[#7A9E98]">{row.apple}</td>
-                    <td className="py-4 px-4 text-[#7A9E98]">{row.macshack}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <div className="mt-6 bg-[rgba(255,200,0,0.05)] border border-amber-500/20 rounded-xl p-5">
-            <div className="flex items-start gap-3">
-              <AlertTriangle className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-[#E8F4F1] font-semibold mb-1">Apple Store quote: R 15,000 – R 70,000</p>
-                <p className="text-[#7A9E98] text-sm">
-                  Apple does not perform component-level repairs. They replace the entire logic board — whether one component failed or ten.
-                  Independent repair at component level routinely saves clients R 10,000 – R 60,000 on the same fault.
-                </p>
-              </div>
-            </div>
           </div>
         </section>
 

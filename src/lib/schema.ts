@@ -86,8 +86,8 @@ export function buildFaqSchema(faqs: Array<{ question: string; answer: string }>
 export function buildServiceSchema(params: {
   name: string;
   description: string;
-  lowPrice: string;
-  highPrice: string;
+  lowPrice?: string;
+  highPrice?: string;
 }) {
   return {
     '@context': 'https://schema.org',
@@ -96,12 +96,6 @@ export function buildServiceSchema(params: {
     description: params.description,
     provider: LOCAL_BUSINESS_PROVIDER,
     areaServed: { '@type': 'City', name: 'Johannesburg' },
-    offers: {
-      '@type': 'AggregateOffer',
-      lowPrice: params.lowPrice,
-      highPrice: params.highPrice,
-      priceCurrency: 'ZAR',
-    },
   };
 }
 

@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Accessories Repair Johannesburg | Keyboard, Mouse & Trackpad | ZA Support',
   description:
-    'Apple accessories repair in Johannesburg. Magic Keyboard clean and repair R 499, Magic Mouse repair R 399, MagSafe cable assessment R 149. Hyde Park. No Fix No Fee.',
+    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable repair. Hyde Park. No Fix No Fee.',
   keywords: [
     'magic keyboard repair johannesburg',
     'mac accessories repair',
@@ -42,7 +42,7 @@ const faqs = [
   {
     question: 'Is my MagSafe cable covered under the No Fix No Fee policy?',
     answer:
-      'Yes. Our standard assessment fee for MagSafe cables is R 149. If we cannot determine whether the fault is with the cable, the adapter, or the MacBook charging circuit — or if the cable cannot be repaired — you pay nothing additional beyond the assessment. In many cases we can identify whether the fault is in the cable, the brick, or the Mac itself, which saves you from replacing the wrong part.',
+      'Yes. If we cannot determine whether the fault is with the cable, the adapter, or the MacBook charging circuit — or if the cable cannot be repaired — you pay nothing. No Fix No Fee applies. In many cases we can identify whether the fault is in the cable, the brick, or the Mac itself, which saves you from replacing the wrong part.',
   },
   {
     question: 'Can you repair a Thunderbolt display or external monitor port?',
@@ -60,31 +60,26 @@ const repairServices = [
   {
     title: 'Magic Keyboard — Clean & Repair',
     models: 'All Magic Keyboard models (USB, Lightning, USB-C, Touch ID, Numeric)',
-    price: 'R 499',
     note: 'Includes full disassembly, PCB clean, key mechanism test. Liquid damage assessed separately.',
   },
   {
     title: 'Magic Mouse — Repair & Service',
     models: 'Magic Mouse 1 & 2, Magic Mouse USB-C',
-    price: 'R 399',
     note: 'Sensor clean, click switch test, battery health check. Port repair quoted separately.',
   },
   {
     title: 'Magic Trackpad — Repair & Service',
     models: 'Magic Trackpad 2 & 3',
-    price: 'R 399',
     note: 'Force Touch mechanism and Taptic Engine assessment included.',
   },
   {
     title: 'MagSafe Cable — Assessment',
     models: 'MagSafe, MagSafe 2, USB-C MagSafe 3',
-    price: 'R 149',
     note: 'Fault isolation: cable vs brick vs Mac. No charge if unfixable.',
   },
   {
     title: 'External Display Port Repair',
     models: 'Thunderbolt Display, LG UltraFine, Studio Display',
-    price: 'Quote after assessment',
     note: 'Mini DisplayPort, Thunderbolt, USB-C. Success depends on damage and parts availability.',
   },
 ];
@@ -94,7 +89,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Apple Accessories Repair Johannesburg',
   description:
-    'Apple accessories repair in Johannesburg. Magic Keyboard R 499, Magic Mouse R 399, Magic Trackpad R 399, MagSafe assessment R 149. Hyde Park. No Fix No Fee.',
+    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable assessment. Hyde Park. No Fix No Fee.',
   provider: {
     '@type': 'LocalBusiness',
     name: SITE.name,
@@ -110,12 +105,6 @@ const serviceSchema = {
     url: 'https://zasupport.com',
   },
   areaServed: 'Johannesburg',
-  offers: [
-    { '@type': 'Offer', name: 'Magic Keyboard Clean and Repair', price: '499', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Magic Mouse Repair', price: '399', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Magic Trackpad Repair', price: '399', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'MagSafe Cable Assessment', price: '149', priceCurrency: 'ZAR' },
-  ],
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: SITE.rating,
@@ -160,10 +149,7 @@ export default function AccessoriesRepairPage() {
               <span className="text-[#0FEA7A]">Keyboard, Mouse & Trackpad.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Magic Keyboard sticky keys, Magic Mouse not clicking, MagSafe not charging? Keyboard clean and repair from{' '}
-              <strong className="text-[#E8F4F1]">R 499</strong>, mouse repair from{' '}
-              <strong className="text-[#E8F4F1]">R 399</strong>, MagSafe assessment{' '}
-              <strong className="text-[#E8F4F1]">R 149</strong>.
+              Magic Keyboard sticky keys, Magic Mouse not clicking, MagSafe not charging? Free fault isolation included — we diagnose before quoting any repair.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
               No Fix No Fee. Free fault isolation. Hyde Park, Johannesburg.
@@ -210,7 +196,7 @@ export default function AccessoriesRepairPage() {
                   {service.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs mb-3">{service.models}</p>
-                <span className="text-[#0FEA7A] font-bold text-lg">{service.price}</span>
+
                 {service.note && (
                   <p className="text-[#7A9E98] text-xs italic border-t border-[rgba(15,234,122,0.1)] pt-3 mt-3">
                     {service.note}
@@ -264,7 +250,7 @@ export default function AccessoriesRepairPage() {
               },
               {
                 symptom: 'MagSafe not charging MacBook',
-                fix: 'Fault isolation: cable vs brick vs Mac charging circuit — R 149 assessment saves you guessing',
+                fix: 'Fault isolation: cable vs brick vs Mac charging circuit — we identify the source before any repair',
               },
               {
                 symptom: 'External display not detected',
@@ -293,7 +279,7 @@ export default function AccessoriesRepairPage() {
             Why Repair Rather Than Replace?
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
-            A new Magic Keyboard retails for R 1,799 to R 2,499. Most keyboard faults cost R 499 to resolve.
+            A new Magic Keyboard retails for far more than a repair costs to resolve.
             The same logic applies to Magic Mouse and Trackpad.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -354,11 +340,7 @@ export default function AccessoriesRepairPage() {
             >
               Accessory Not Working? Bring It In.
             </h2>
-            <p className="text-[#7A9E98] mb-2">
-              Keyboard from <strong className="text-[#E8F4F1]">R 499</strong> &nbsp;|&nbsp; Mouse from{' '}
-              <strong className="text-[#E8F4F1]">R 399</strong> &nbsp;|&nbsp; MagSafe assessment{' '}
-              <strong className="text-[#E8F4F1]">R 149</strong>
-            </p>
+
             <p className="text-[#7A9E98] mb-8">No Fix No Fee. Free fault isolation. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

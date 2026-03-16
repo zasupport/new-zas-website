@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Not Charging — Repair Johannesburg | ZA Support',
   description:
-    'iPad not charging in Johannesburg? Port cleaning from R 199, charging port repair R 499–R 999. Dirty port, cable fault, charging IC. All models. 12-month warranty. Hyde Park.',
+    'iPad not charging in Johannesburg? Port cleaning, charging port repair, charging IC fault diagnosis. All models. 12-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/charging' },
   keywords: [
     'iPad not charging Johannesburg',
@@ -25,10 +25,10 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { service: 'Charging port clean (lint / debris)', price: 'R 199', note: 'Most common fix' },
-  { service: 'Lightning port repair / replacement', price: 'R 499 – R 999', note: 'Older iPad models' },
-  { service: 'USB-C port repair / replacement', price: 'R 599 – R 999', note: 'iPad Air, Pro, mini 6+' },
-  { service: 'Charging IC / logic board repair', price: 'R 1,500+', note: 'Board-level diagnosis first' },
+  { service: 'Charging port clean (lint / debris)', price: 'Contact for pricing', note: 'Most common fix' },
+  { service: 'Lightning port repair / replacement', price: 'Contact for pricing', note: 'Older iPad models' },
+  { service: 'USB-C port repair / replacement', price: 'Contact for pricing', note: 'iPad Air, Pro, mini 6+' },
+  { service: 'Charging IC / logic board repair', price: 'Contact for pricing', note: 'Board-level diagnosis first' },
   { service: 'Assessment', price: 'Free', note: 'No Fix No Fee' },
 ];
 
@@ -36,7 +36,7 @@ const causes = [
   {
     icon: <Plug className="w-5 h-5" />,
     title: 'Dirty or Blocked Port',
-    desc: 'The most common cause. Lint, dust, and pocket debris compact into the charging port over time and prevent the cable from making contact. A professional clean costs R 199 and often resolves the issue immediately.',
+    desc: 'The most common cause. Lint, dust, and pocket debris compact into the charging port over time and prevent the cable from making contact. A professional clean often resolves the issue immediately.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
@@ -46,7 +46,7 @@ const causes = [
   {
     icon: <Zap className="w-5 h-5" />,
     title: 'Damaged Charging Port',
-    desc: 'Bent or broken pins inside the port — often from inserting the cable at an angle or a drop impact. Physical port damage requires port replacement. Repair starts at R 499.',
+    desc: 'Bent or broken pins inside the port — often from inserting the cable at an angle or a drop impact. Physical port damage requires port replacement.',
   },
   {
     icon: <AlertTriangle className="w-5 h-5" />,
@@ -87,12 +87,12 @@ const faqs = [
   {
     question: 'Why is my iPad not charging?',
     answer:
-      'The most common cause is a blocked charging port — lint and pocket debris compact over time and prevent the cable making contact. Other causes include a faulty cable, a damaged port, a failed charging IC on the logic board, or a critically degraded battery. We diagnose all four in a free assessment.',
+      'The most common cause is a blocked charging port — lint and pocket debris compact over time and prevent the cable making contact. Other causes include a faulty cable, a damaged port, a failed charging IC on the logic board, or a critically degraded battery. We diagnose all four in a free assessment. Contact us for a quote.',
   },
   {
     question: 'How much does iPad charging port repair cost in Johannesburg?',
     answer:
-      'A charging port clean (lint removal) costs R 199 and resolves most cases. If the port needs replacement, Lightning port repair starts at R 499 and USB-C repair starts at R 599. Logic board charging IC faults start at R 1,500. All prices include a free initial assessment — no charge if we cannot fix it.',
+      'A charging port clean resolves most cases. If the port needs replacement, we carry out Lightning or USB-C port repair as needed. Logic board charging IC faults require board-level diagnosis. All repairs include a free initial assessment — no charge if we cannot fix it. Contact us for a quote.',
   },
   {
     question: 'Can a dirty charging port stop an iPad from charging completely?',
@@ -107,7 +107,7 @@ const faqs = [
   {
     question: 'Is it worth repairing an iPad charging port?',
     answer:
-      'Yes, in the vast majority of cases. A port clean at R 199 or a port replacement at R 499–R 999 is far more economical than replacing an iPad. Even logic board charging IC repairs, while more involved, are a fraction of replacement cost. We give you an honest recommendation — if repair does not make economic sense, we will tell you.',
+      'Yes, in the vast majority of cases. A port clean or port replacement is far more economical than replacing an iPad. Even logic board charging IC repairs, while more involved, are a fraction of replacement cost. We give you an honest recommendation — if repair does not make economic sense, we will tell you.',
   },
   {
     question: 'How long does iPad charging port repair take?',
@@ -131,14 +131,14 @@ const reviews = [
     name: 'Thabo M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'iPad Air refused to charge. ZA Support cleaned the port in 20 minutes for R 199 — charges perfectly now. Should have brought it in sooner.',
+    text: 'iPad Air refused to charge. ZA Support cleaned the port in 20 minutes — charges perfectly now. Should have brought it in sooner.',
     date: 'February 2026',
   },
   {
     name: 'Karen W.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'Bent pins in the Lightning port after a drop. ZA Support replaced the port same day for R 649. 12-month warranty. Excellent service.',
+    text: 'Bent pins in the Lightning port after a drop. ZA Support replaced the port same day. 12-month warranty. Excellent service.',
     date: 'January 2026',
   },
   {
@@ -154,7 +154,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPad Charging Repair Johannesburg',
-  description: 'iPad not charging repair in Johannesburg. Port cleaning, port replacement, logic board charging IC fault. From R 199. All models. 12-month warranty.',
+  description: 'iPad not charging repair in Johannesburg. Port cleaning, port replacement, logic board charging IC fault. All models. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -174,9 +174,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Charging Repair Johannesburg',
-  description: 'iPad not charging repair in Johannesburg. Dirty port, cable fault, charging IC, battery failure. Port cleaning from R 199. Port replacement R 499–R 999. Logic board R 1,500+.',
-  lowPrice: '199',
-  highPrice: '1500',
+  description: 'iPad not charging repair in Johannesburg. Dirty port, cable fault, charging IC, battery failure. Port cleaning, port replacement, logic board repair.',
 });
 
 const breadcrumbSchemaItems = [
@@ -220,11 +218,11 @@ export default function iPadChargingPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Dirty port, damaged pins, charging IC fault, or dead battery — we diagnose iPad charging
-              problems for free and fix them from R 199. All models, Lightning and USB-C.
+              problems for free. All models, Lightning and USB-C.
               12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Port clean from R 199', 'Port repair from R 499', 'No Fix No Fee', '12-month warranty', 'Free assessment', 'Same-day for most faults'].map((item) => (
+              {['No Fix No Fee', '12-month warranty', 'Free assessment', 'Same-day for most faults'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -337,7 +335,7 @@ export default function iPadChargingPage() {
                   {
                     icon: <Wrench className="w-5 h-5" />,
                     title: 'Diagnose First — Always',
-                    desc: 'We identify the root cause before recommending any repair. Most charging faults are a R 199 clean — we will not upsell you to a port replacement you do not need.',
+                    desc: 'We identify the root cause before recommending any repair. Most charging faults are a simple port clean — we will not upsell you to a port replacement you do not need.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
@@ -421,7 +419,7 @@ export default function iPadChargingPage() {
             >
               iPad Not Charging?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Port clean from R 199. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

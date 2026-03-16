@@ -22,7 +22,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Keyboard Repair Johannesburg | ZA Support',
   description:
-    'MacBook keyboard repair in Johannesburg from R 1,299. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro — all models. Hyde Park, Johannesburg. 12-month warranty on scissor keyboards.',
+    'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro — all models. Hyde Park, Johannesburg. 12-month warranty on scissor keyboards.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/keyboard' },
   keywords: [
     'MacBook keyboard repair Johannesburg',
@@ -42,35 +42,30 @@ export const metadata: Metadata = {
 const pricingRows = [
   {
     model: 'Butterfly keyboard replacement (2016–2019)',
-    price: 'R 1,299 – R 2,499',
     warranty: 'No warranty — design defect',
     noWarranty: true,
     note: 'See butterfly explainer below',
   },
   {
     model: 'Scissor keyboard replacement (2020+)',
-    price: 'R 1,299 – R 1,899',
     warranty: '12-month warranty',
     noWarranty: false,
     note: 'MacBook Air M1/M2/M3',
   },
   {
     model: 'MacBook Pro 14" / 16" keyboard (M-series)',
-    price: 'R 1,799 – R 2,999',
     warranty: '12-month warranty',
     noWarranty: false,
     note: 'M1 / M2 / M3 / M4',
   },
   {
     model: 'Single keycap replacement',
-    price: 'R 299 – R 499',
     warranty: '3-month warranty',
     noWarranty: false,
     note: 'Where mechanically feasible',
   },
   {
     model: 'Keyboard cleaning + stuck key depress',
-    price: 'R 299',
     warranty: '1-month warranty',
     noWarranty: false,
     note: 'Dust, debris, minor spill',
@@ -183,7 +178,7 @@ const faqs = [
   {
     question: 'How much does MacBook keyboard repair cost in Johannesburg?',
     answer:
-      'MacBook keyboard repair in Johannesburg starts at R 299 for a stuck key cleaning service, R 299–R 499 for a single keycap, and R 1,299–R 2,499 for a full keyboard replacement depending on your model and generation. Scissor-switch replacements (2020 and newer) carry a 12-month warranty. We provide a free assessment and a fixed written quote before starting any work.',
+      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a 12-month warranty. We provide a free assessment and a fixed written quote before starting any work.',
   },
   {
     question: 'Why does the butterfly keyboard carry no warranty?',
@@ -213,12 +208,12 @@ const faqs = [
   {
     question: 'Do you repair MacBook Pro 14" and 16" M-series keyboards?',
     answer:
-      'Yes. We repair all M-series MacBook Pro keyboards including the 14" and 16" models with M1, M2, M3, and M4 chips. These use the MagicKeyboard scissor-switch mechanism and carry a 12-month warranty when replaced. Pricing is R 1,799–R 2,999 depending on the specific model.',
+      'Yes. We repair all M-series MacBook Pro keyboards including the 14" and 16" models with M1, M2, M3, and M4 chips. These use the MagicKeyboard scissor-switch mechanism and carry a 12-month warranty when replaced. Contact us for a model-specific quote.',
   },
   {
     question: 'Can individual keys be replaced on a modern MacBook?',
     answer:
-      'On MacBook models where the keyboard is mechanically separate from the top case — primarily older Intel Macs — individual keycaps can sometimes be replaced at R 299–R 499. On most modern MacBooks (2016 onward) the keyboard is bonded directly to the top case and cannot be partially replaced. We will always advise the most cost-effective approach for your specific model.',
+      'On MacBook models where the keyboard is mechanically separate from the top case — primarily older Intel Macs — individual keycaps can sometimes be replaced. On most modern MacBooks (2016 onward) the keyboard is bonded directly to the top case and cannot be partially replaced. We will always advise the most cost-effective approach for your specific model.',
   },
 ];
 
@@ -228,9 +223,7 @@ const faqs = [
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Keyboard Repair Johannesburg',
   description:
-    'MacBook keyboard repair in Johannesburg from R 1,299. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. All MacBook Air and Pro models.',
-  lowPrice: '1299',
-  highPrice: '2999',
+    'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. All MacBook Air and Pro models.',
 });
 
 const aggregateRatingSchema = {
@@ -238,7 +231,7 @@ const aggregateRatingSchema = {
   '@type': 'Product',
   name: 'MacBook Keyboard Repair Johannesburg',
   description:
-    'MacBook keyboard repair service in Johannesburg covering all MacBook Air and Pro models. From R 1,299.',
+    'MacBook keyboard repair service in Johannesburg covering all MacBook Air and Pro models.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -298,7 +291,7 @@ export default function MacBookKeyboardPage() {
             >
               MacBook Keyboard Repair<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
-              <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | From R 1,299</span>
+
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
               MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Free assessment. No Fix No Fee.
@@ -386,17 +379,16 @@ export default function MacBookKeyboardPage() {
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              MacBook Keyboard Repair <span className="text-[#0FEA7A]">Pricing</span>
+              MacBook Keyboard Repair <span className="text-[#0FEA7A]">Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              All prices include parts and labour. Free assessment before any work begins. Written fixed quote — no hidden costs.
+              Free assessment before any work begins. Written fixed quote — no hidden costs.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
               <div className="grid grid-cols-12 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
-                <span className="col-span-5 text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Service</span>
-                <span className="col-span-3 text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-center">Price Range</span>
+                <span className="col-span-8 text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Service</span>
                 <span className="col-span-4 text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Warranty</span>
               </div>
               {pricingRows.map((row, i) => (
@@ -406,13 +398,12 @@ export default function MacBookKeyboardPage() {
                     i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''
                   } hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
                 >
-                  <div className="col-span-5">
+                  <div className="col-span-8">
                     <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
                     {row.note && (
                       <span className="block text-[#7A9E98] text-xs mt-0.5">{row.note}</span>
                     )}
                   </div>
-                  <span className="col-span-3 text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                   <div className="col-span-4 text-right">
                     {row.noWarranty ? (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-orange-400 bg-orange-400/10 border border-orange-400/20 px-2 py-1 rounded-full">
@@ -668,7 +659,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              From R 1,299. Free assessment. No Fix No Fee. Hyde Park, Johannesburg. WhatsApp for fastest response.
+              Free assessment. No Fix No Fee. Hyde Park, Johannesburg. WhatsApp for fastest response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

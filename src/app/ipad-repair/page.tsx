@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
   description:
-    'iPad repair in Johannesburg. Screen from R 899 (mini/Air), screen from R 1,499 (Pro), battery from R 799, charging port from R 699. iPad Pro M4, Air M2, mini 6. No Fix No Fee. Hyde Park.',
+    'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. No Fix No Fee. Free assessment. Hyde Park.',
   keywords: [
     'ipad repair johannesburg',
     'ipad screen repair johannesburg',
@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'How much does iPad screen repair cost in Johannesburg?',
     answer:
-      'iPad mini and iPad Air screen repairs start from R 899. iPad Pro screen repairs start from R 1,499 due to the more complex ProMotion display and laminated glass construction. Standard iPad (9th and 10th generation) screens start from R 999. Call or WhatsApp us with your model for an exact quote.',
+      'iPad repair costs depend on the model and fault. iPad Pro repairs are higher than mini/Air due to the more complex ProMotion display and laminated glass construction. Call or WhatsApp us with your model for an exact quote.',
   },
   {
     question: 'Do you repair iPad Pro M4 and M2 models?',
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: 'Can you fix an iPad that will not charge?',
     answer:
-      'Yes. Charging issues are usually one of three things: a faulty USB-C or Lightning port, a damaged charging cable or adapter, or a battery that no longer accepts charge. We diagnose all three. Charging port repair starts from R 699. We test the port and battery before quoting.',
+      'Yes. Charging issues are usually one of three things: a faulty USB-C or Lightning port, a damaged charging cable or adapter, or a battery that no longer accepts charge. We diagnose all three and test the port and battery before quoting.',
   },
   {
     question: 'Do you offer a warranty on iPad repairs?',
@@ -71,28 +71,28 @@ const repairServices = [
   {
     title: 'Screen Replacement',
     desc: 'LCD and digitiser assembly. All iPad models including current M-series.',
-    priceStandard: 'From R 899',
-    pricePro: 'From R 1,499 (Pro)',
+    priceStandard: 'Contact for pricing',
+    pricePro: '',
     note: 'Apple Silicon iPads require additional time and care.',
   },
   {
     title: 'Battery Replacement',
     desc: 'Restore full battery capacity and eliminate unexpected shutdowns.',
-    priceStandard: 'From R 799',
+    priceStandard: 'Contact for pricing',
     pricePro: '',
     note: 'Battery health check included at no charge.',
   },
   {
     title: 'Charging Port Repair',
     desc: 'Lightning and USB-C port replacement. Fixes slow/no charging and sync issues.',
-    priceStandard: 'From R 699',
+    priceStandard: 'Contact for pricing',
     pricePro: '',
     note: 'Port cleaning attempted first before replacement.',
   },
   {
     title: 'Liquid Damage',
     desc: 'Ultrasonic board clean, component-level diagnosis, and board repair.',
-    priceStandard: 'From R 1,500',
+    priceStandard: 'Contact for pricing',
     pricePro: '',
     note: 'No Fix No Fee applies — no charge if repair is not possible.',
   },
@@ -128,12 +128,6 @@ const serviceSchema = {
     url: 'https://zasupport.com',
   },
   areaServed: 'Johannesburg',
-  offers: [
-    { '@type': 'Offer', name: 'iPad Screen Replacement (mini/Air/Standard)', price: '899', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iPad Pro Screen Replacement', price: '1499', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iPad Battery Replacement', price: '799', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iPad Charging Port Repair', price: '699', priceCurrency: 'ZAR' },
-  ],
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: SITE.rating,
@@ -178,9 +172,7 @@ export default function iPadRepairPage() {
               <span className="text-[#0FEA7A]">All Models. All Damage.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Professional iPad repair in Johannesburg. Screen replacement from <strong className="text-[#E8F4F1]">R 899</strong>, battery
-              from <strong className="text-[#E8F4F1]">R 799</strong>, charging port from{' '}
-              <strong className="text-[#E8F4F1]">R 699</strong>. All iPad models including M4 iPad Pro, Air M2, and mini 6.
+              Professional iPad repair in Johannesburg. Screen, battery, and charging port repairs for all iPad models including M4 iPad Pro, Air M2, and mini 6.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
               No Fix No Fee. 12-month warranty on all repairs. Free assessment — no charge if we cannot fix it.
@@ -413,11 +405,7 @@ export default function iPadRepairPage() {
             >
               iPad Damaged? Let Us Fix It.
             </h2>
-            <p className="text-[#7A9E98] mb-2">
-              Screen from <strong className="text-[#E8F4F1]">R 899</strong> &nbsp;|&nbsp; Battery from{' '}
-              <strong className="text-[#E8F4F1]">R 799</strong> &nbsp;|&nbsp; Charging port from{' '}
-              <strong className="text-[#E8F4F1]">R 699</strong>
-            </p>
+            <p className="text-[#7A9E98] mb-2">Screen repair &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Charging port repair</p>
             <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

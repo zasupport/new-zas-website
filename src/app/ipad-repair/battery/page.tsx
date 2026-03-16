@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Battery Replacement Johannesburg | ZA Support',
   description:
-    'iPad battery replacement in Johannesburg from R 699. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
+    'iPad battery replacement in Johannesburg. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/battery' },
   keywords: [
     'iPad battery replacement Johannesburg',
@@ -25,9 +25,9 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iPad mini (all generations)', price: 'R 699 – R 999', note: '' },
-  { model: 'iPad Air (all generations)', price: 'R 799 – R 1,199', note: 'Most popular repair' },
-  { model: 'iPad Pro 11" / 12.9"', price: 'R 999 – R 1,499', note: 'M-series + older' },
+  { model: 'iPad mini (all generations)', price: 'Contact for pricing', note: '' },
+  { model: 'iPad Air (all generations)', price: 'Contact for pricing', note: 'Most popular repair' },
+  { model: 'iPad Pro 11" / 12.9"', price: 'Contact for pricing', note: 'M-series + older' },
 ];
 
 const symptoms = [
@@ -85,7 +85,7 @@ const faqs = [
   {
     question: 'How much does iPad battery replacement cost in Johannesburg?',
     answer:
-      'iPad battery replacement in Johannesburg starts at R 699 for iPad mini models and ranges up to R 1,499 for iPad Pro 11" and 12.9". The exact price depends on your model and generation. We provide a free battery health test and a written fixed-price quote before starting any work.',
+      'iPad battery replacement pricing depends on your model and generation. We provide a free battery health test and a written fixed-price quote before starting any work.',
   },
   {
     question: 'How do I know if my iPad battery needs replacing?',
@@ -152,7 +152,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPad Battery Replacement Johannesburg',
-  description: 'iPad battery replacement service in Johannesburg for all iPad mini, Air, and Pro models. From R 699. Same-day available. 12-month warranty.',
+  description: 'iPad battery replacement service in Johannesburg for all iPad mini, Air, and Pro models. Same-day available. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -172,9 +172,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Battery Replacement Johannesburg',
-  description: 'iPad battery replacement in Johannesburg for all iPad mini, Air, and Pro models. iPad dying, swollen battery, slow charging. From R 699. 12-month warranty.',
-  lowPrice: '699',
-  highPrice: '1499',
+  description: 'iPad battery replacement in Johannesburg for all iPad mini, Air, and Pro models. iPad dying, swollen battery, slow charging. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -217,12 +215,12 @@ export default function iPadBatteryPage() {
               <span className="text-[#0FEA7A]">Replacement Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              iPad dying at 40%, swollen back, or barely lasting the morning? We replace iPad batteries
-              from R 699. iPad mini, iPad Air, iPad Pro. Same-day available. 12-month warranty.
+              iPad dying at 40%, swollen back, or barely lasting the morning? We replace iPad batteries.
+              iPad mini, iPad Air, iPad Pro. Same-day available. 12-month warranty.
               Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['From R 699', 'No Fix No Fee', '12-month warranty', 'Same-day available', 'Free battery health test', 'Swollen battery — urgent repair'].map((item) => (
+              {['No Fix No Fee', '12-month warranty', 'Same-day available', 'Free battery health test', 'Swollen battery — urgent repair'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -419,7 +417,7 @@ export default function iPadBatteryPage() {
             >
               iPad Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 699. Free battery health test. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free battery health test. No Fix No Fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

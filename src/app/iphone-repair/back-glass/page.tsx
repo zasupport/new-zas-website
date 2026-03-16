@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Back Glass Repair Johannesburg | ZA Support',
   description:
-    'iPhone back glass repair in Johannesburg from R 499. Cracked rear glass on all models iPhone 12 through 16 Pro Max. MagSafe preserved. 12-month warranty. Hyde Park.',
+    'iPhone back glass repair in Johannesburg. Cracked rear glass on all models iPhone 12 through 16 Pro Max. MagSafe preserved. 12-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/back-glass' },
   keywords: [
     'iPhone back glass repair Johannesburg',
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iPhone 12 / 12 mini', price: 'R 499 – R 649', note: '' },
-  { model: 'iPhone 12 Pro / Pro Max', price: 'R 699 – R 849', note: '' },
-  { model: 'iPhone 13 / 13 mini', price: 'R 549 – R 699', note: '' },
-  { model: 'iPhone 13 Pro / Pro Max', price: 'R 749 – R 899', note: '' },
-  { model: 'iPhone 14 / 14 Plus', price: 'R 649 – R 799', note: 'Most common' },
-  { model: 'iPhone 14 Pro / Pro Max', price: 'R 849 – R 1,099', note: '' },
-  { model: 'iPhone 15 / 15 Plus', price: 'R 749 – R 899', note: '' },
-  { model: 'iPhone 15 Pro / Pro Max', price: 'R 999 – R 1,249', note: 'Titanium chassis' },
-  { model: 'iPhone 16 / 16 Plus', price: 'R 849 – R 999', note: '' },
-  { model: 'iPhone 16 Pro / Pro Max', price: 'R 1,099 – R 1,499', note: 'Most popular 2025' },
+  { model: 'iPhone 12 / 12 mini', note: '' },
+  { model: 'iPhone 12 Pro / Pro Max', note: '' },
+  { model: 'iPhone 13 / 13 mini', note: '' },
+  { model: 'iPhone 13 Pro / Pro Max', note: '' },
+  { model: 'iPhone 14 / 14 Plus', note: 'Most common' },
+  { model: 'iPhone 14 Pro / Pro Max', note: '' },
+  { model: 'iPhone 15 / 15 Plus', note: '' },
+  { model: 'iPhone 15 Pro / Pro Max', note: 'Titanium chassis' },
+  { model: 'iPhone 16 / 16 Plus', note: '' },
+  { model: 'iPhone 16 Pro / Pro Max', note: 'Most popular 2025' },
 ];
 
 const symptoms = [
@@ -92,7 +92,7 @@ const faqs = [
   {
     question: 'How much does iPhone back glass repair cost in Johannesburg?',
     answer:
-      'iPhone back glass repair in Johannesburg starts at R 499 for iPhone 12 mini and ranges up to R 1,499 for iPhone 16 Pro Max. The exact price depends on your model and colour. We provide a free assessment and written fixed-price quote before starting.',
+      'iPhone back glass repair pricing depends on your model and colour. We provide a free assessment and written fixed-price quote before starting.',
   },
   {
     question: 'How long does iPhone back glass replacement take?',
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Back Glass Repair Johannesburg',
-  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging. From R 499. 12-month warranty.',
+  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,9 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Back Glass Repair Johannesburg',
-  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging restoration. From R 499. 12-month warranty.',
-  lowPrice: '499',
-  highPrice: '1499',
+  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging restoration. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -226,12 +224,12 @@ export default function iPhoneBackGlassPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Cracked rear glass, MagSafe alignment, wireless charging — we repair all iPhone back glass
-              faults from R 499. iPhone 12 through 16 Pro Max.
+              Cracked rear glass, MagSafe alignment, wireless charging — we repair all iPhone back glass faults.
+              iPhone 12 through 16 Pro Max.
               12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['From R 499', 'No Fix No Fee', '12-month warranty', 'MagSafe preserved', 'IP68 re-sealed', 'Free assessment'].map((item) => (
+              {['No Fix No Fee', '12-month warranty', 'MagSafe preserved', 'IP68 re-sealed', 'Free assessment'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -268,25 +266,23 @@ export default function iPhoneBackGlassPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Back Glass Repair Prices — Johannesburg 2026
+            iPhone Back Glass Repair — Models Supported
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
-            All prices include parts and labour. We provide a written fixed-price quote before starting.
+            We provide a written fixed-price quote before starting.
             Bring your iPhone in or WhatsApp us a photo of the damage for an instant quote.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
-            <div className="grid grid-cols-3 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
+            <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider">Model</span>
-              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-center">Price Range</span>
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-right">Note</span>
             </div>
             {pricingRows.map((row, i) => (
               <div
                 key={row.model}
-                className={`grid grid-cols-3 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
+                className={`grid grid-cols-2 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
               >
                 <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                 <span className="text-[#7A9E98] text-xs text-right self-center">{row.note}</span>
               </div>
             ))}
@@ -426,9 +422,9 @@ export default function iPhoneBackGlassPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', price: 'From R 599' },
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', price: 'From R 499' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', price: 'From R 799' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', price: 'Contact for pricing' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', price: 'Contact for pricing' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', price: 'Contact for pricing' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -452,7 +448,7 @@ export default function iPhoneBackGlassPage() {
             >
               Cracked iPhone Back?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 499. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

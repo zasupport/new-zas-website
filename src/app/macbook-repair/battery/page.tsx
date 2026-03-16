@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg | ZA Support',
   description:
-    'MacBook battery replacement Johannesburg from R 1,299. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. 12-month warranty. Hyde Park. Call 064 529 5863.',
+    'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/battery' },
   keywords: [
     'MacBook battery replacement Johannesburg',
@@ -48,13 +48,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook battery replacement from R 1,299. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty on parts and labour.',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '1299',
-    highPrice: '2499',
-    priceCurrency: 'ZAR',
-  },
+    'MacBook battery replacement in Johannesburg. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty on parts and labour.',
 };
 
 const breadcrumbSchema = {
@@ -70,16 +64,16 @@ const breadcrumbSchema = {
 // ─── Page Data ────────────────────────────────────────────────────────────────
 
 const pricing = [
-  { group: 'MacBook Air', model: 'MacBook Air M1 (2020)', range: 'R 1,299 – R 1,499' },
-  { group: 'MacBook Air', model: 'MacBook Air M2 (2022–2023)', range: 'R 1,399 – R 1,599' },
-  { group: 'MacBook Air', model: 'MacBook Air M3 (2024)', range: 'R 1,499 – R 1,699' },
-  { group: 'MacBook Air', model: 'MacBook Air 13" Intel (2015–2020)', range: 'R 1,299 – R 1,599' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 13" (2016–2022 Intel/M1/M2)', range: 'R 1,499 – R 1,899' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 14" M1 Pro/Max (2021)', range: 'R 1,899 – R 2,199' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 14" M2/M3 Pro/Max (2023–2024)', range: 'R 1,999 – R 2,499' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 16" M1 Pro/Max (2021)', range: 'R 1,999 – R 2,299' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 16" M2/M3 Pro/Max (2023–2024)', range: 'R 2,099 – R 2,499' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 15" Intel (2015–2019)', range: 'R 1,499 – R 1,899' },
+  { group: 'MacBook Air', model: 'MacBook Air M1 (2020)' },
+  { group: 'MacBook Air', model: 'MacBook Air M2 (2022–2023)' },
+  { group: 'MacBook Air', model: 'MacBook Air M3 (2024)' },
+  { group: 'MacBook Air', model: 'MacBook Air 13" Intel (2015–2020)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 13" (2016–2022 Intel/M1/M2)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 14" M1 Pro/Max (2021)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 14" M2/M3 Pro/Max (2023–2024)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 16" M1 Pro/Max (2021)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 16" M2/M3 Pro/Max (2023–2024)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 15" Intel (2015–2019)' },
 ];
 
 const signs = [
@@ -132,7 +126,7 @@ const faqs = [
   {
     question: 'How much does MacBook battery replacement cost in Johannesburg?',
     answer:
-      'MacBook battery replacement at ZA Support costs from R 1,299 to R 2,499 depending on model. MacBook Air models (M1, M2, M3) start from R 1,299. MacBook Pro 13" starts from R 1,499. MacBook Pro 14" and 16" M-series models range from R 1,899 to R 2,499. All prices include parts, labour, and a 12-month warranty. Call us on 064 529 5863 for a model-specific quote.',
+      'MacBook battery replacement cost depends on your model. All prices include parts, labour, and a 12-month warranty. Call us on 064 529 5863 for a model-specific quote.',
   },
   {
     question: 'How long does MacBook battery replacement take?',
@@ -225,7 +219,7 @@ export default function MacBookBatteryPage() {
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
               MacBook Battery Replacement<br />
-              <span className="text-[#0FEA7A]">Johannesburg — From R 1,299</span>
+              <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
               All MacBook Air and MacBook Pro models — M1, M2, M3 through to Intel. Genuine-equivalent cells,
@@ -306,14 +300,14 @@ export default function MacBookBatteryPage() {
         </div>
       </section>
 
-      {/* ── Pricing Table ────────────────────────────────────────────────── */}
+      {/* ── Models We Service ────────────────────────────────────────────── */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Battery Replacement Prices — Johannesburg
+            MacBook Models We Service — Johannesburg
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            All prices include parts and labour. 12-month warranty on every replacement. Call to confirm stock for your model.
+            12-month warranty on every replacement. Call to confirm stock for your model and get a fixed quote.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* MacBook Air */}
@@ -323,9 +317,8 @@ export default function MacBookBatteryPage() {
               </div>
               <div className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {airPricing.map((row) => (
-                  <div key={row.model} className="flex justify-between items-center px-6 py-4">
+                  <div key={row.model} className="flex items-center px-6 py-4">
                     <span className="text-[#7A9E98] text-sm">{row.model}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm whitespace-nowrap ml-4">{row.range}</span>
                   </div>
                 ))}
               </div>
@@ -337,16 +330,15 @@ export default function MacBookBatteryPage() {
               </div>
               <div className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {proPricing.map((row) => (
-                  <div key={row.model} className="flex justify-between items-center px-6 py-4">
+                  <div key={row.model} className="flex items-center px-6 py-4">
                     <span className="text-[#7A9E98] text-sm">{row.model}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm whitespace-nowrap ml-4">{row.range}</span>
                   </div>
                 ))}
               </div>
             </div>
           </div>
           <p className="text-[#7A9E98] text-xs mt-6 text-center">
-            Prices are ranges — exact quote confirmed after free assessment. Swollen battery surcharge may apply on select models. Contact us for a fixed quote.
+            Exact quote confirmed after free assessment. Contact us for a fixed price on your model.
           </p>
         </div>
       </section>
@@ -547,7 +539,7 @@ export default function MacBookBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 1,299. Completed in 2–4 hours. 12-month warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. 12-month warranty. Free assessment.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — drop in, no appointment needed.
             </p>

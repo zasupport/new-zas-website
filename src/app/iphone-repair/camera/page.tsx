@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Camera Repair Johannesburg | ZA Support',
   description:
-    'iPhone camera repair in Johannesburg from R 799. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. 12-month warranty. Hyde Park.',
+    'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. 12-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/camera' },
   keywords: [
     'iPhone camera repair Johannesburg',
@@ -25,14 +25,14 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'Camera Lens Cover (any model)', price: 'R 799 – R 999', note: 'Glass only' },
-  { model: 'Front Camera Module', price: 'R 799 – R 999', note: 'Face ID intact' },
-  { model: 'Rear Camera — iPhone 12/13', price: 'R 999 – R 1,299', note: '' },
-  { model: 'Rear Camera — iPhone 14', price: 'R 1,099 – R 1,399', note: '' },
-  { model: 'Rear Camera Pro — iPhone 14 Pro', price: 'R 1,399 – R 1,699', note: 'Wide/Tele/UW' },
-  { model: 'Rear Camera — iPhone 15/16', price: 'R 1,199 – R 1,499', note: '' },
-  { model: 'Rear Camera Pro — iPhone 15/16 Pro', price: 'R 1,599 – R 1,999', note: 'Most popular 2025' },
-  { model: 'Full Rear Camera System', price: 'R 1,799 – R 1,999', note: 'All modules' },
+  { model: 'Camera Lens Cover (any model)', note: 'Glass only' },
+  { model: 'Front Camera Module', note: 'Face ID intact' },
+  { model: 'Rear Camera — iPhone 12/13', note: '' },
+  { model: 'Rear Camera — iPhone 14', note: '' },
+  { model: 'Rear Camera Pro — iPhone 14 Pro', note: 'Wide/Tele/UW' },
+  { model: 'Rear Camera — iPhone 15/16', note: '' },
+  { model: 'Rear Camera Pro — iPhone 15/16 Pro', note: 'Most popular 2025' },
+  { model: 'Full Rear Camera System', note: 'All modules' },
 ];
 
 const symptoms = [
@@ -90,7 +90,7 @@ const faqs = [
   {
     question: 'How much does iPhone camera repair cost in Johannesburg?',
     answer:
-      'iPhone camera repair in Johannesburg starts at R 799 for a lens cover or front camera module and ranges up to R 1,999 for a full rear camera system on iPhone 15 Pro or 16 Pro. We provide a free assessment and written fixed-price quote before any work begins.',
+      'iPhone camera repair pricing depends on the repair type and model. We provide a free assessment and written fixed-price quote before any work begins.',
   },
   {
     question: 'My iPhone camera is blurry — is it the lens or the module?',
@@ -157,7 +157,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Camera Repair Johannesburg',
-  description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens, OIS failure. Front and rear. iPhone 12 through 16 Pro Max. From R 799. 12-month warranty.',
+  description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens, OIS failure. Front and rear. iPhone 12 through 16 Pro Max. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -177,9 +177,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Camera Repair Johannesburg',
-  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. From R 799. 12-month warranty.',
-  lowPrice: '799',
-  highPrice: '1999',
+  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -224,12 +222,12 @@ export default function iPhoneCameraPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Blurry photos, black camera screen, cracked lens, OIS failure — we repair all iPhone camera faults
-              from R 799. Front and rear cameras. iPhone 12 through 16 Pro Max.
+              Blurry photos, black camera screen, cracked lens, OIS failure — we repair all iPhone camera faults.
+              Front and rear cameras. iPhone 12 through 16 Pro Max.
               12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['From R 799', 'No Fix No Fee', '12-month warranty', 'Face ID preserved', 'Free assessment', 'ProRes compatible'].map((item) => (
+              {['No Fix No Fee', '12-month warranty', 'Face ID preserved', 'Free assessment', 'ProRes compatible'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -266,26 +264,23 @@ export default function iPhoneCameraPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Camera Repair Prices — Johannesburg 2026
+            iPhone Camera Repair — Types Supported
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
-            All prices include the replacement module or lens cover, parts, and labour. We provide a
-            written fixed-price quote after a free diagnostic. Send us a photo of your camera fault
+            We provide a written fixed-price quote after a free diagnostic. Send us a photo of your camera fault
             or bring the phone in.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
-            <div className="grid grid-cols-3 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
+            <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider">Repair Type</span>
-              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-center">Price Range</span>
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-right">Note</span>
             </div>
             {pricingRows.map((row, i) => (
               <div
                 key={row.model}
-                className={`grid grid-cols-3 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
+                className={`grid grid-cols-2 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
               >
                 <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                 <span className="text-[#7A9E98] text-xs text-right self-center">{row.note}</span>
               </div>
             ))}
@@ -426,9 +421,9 @@ export default function iPhoneCameraPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', price: 'From R 599' },
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', price: 'From R 499' },
-              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', price: 'From R 499' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', price: 'Contact for pricing' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', price: 'Contact for pricing' },
+              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', price: 'Contact for pricing' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -452,7 +447,7 @@ export default function iPhoneCameraPage() {
             >
               iPhone Camera Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 799. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

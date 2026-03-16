@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     question: 'How much does Mac virus removal cost in Johannesburg?',
-    answer: 'Mac virus and malware removal at ZA Support starts with a free diagnosis. For most adware and browser hijacker removal, the service costs R 899 – R 1,499 depending on the extent of the infection and whether system files have been modified. We give you a fixed written quote after the diagnostic — no surprises.',
+    answer: 'Mac virus and malware removal at ZA Support starts with a free diagnosis. We give you a fixed written quote after the diagnostic — no surprises.',
   },
   {
     question: 'How long does Mac malware removal take?',
@@ -107,7 +107,7 @@ const faqs = [
   },
   {
     question: 'What is CyberShield and should I get it after removal?',
-    answer: 'CyberShield is ZA Support\'s ongoing Mac protection service. It includes real-time threat monitoring, monthly security health checks, network-level filtering to block malicious domains before they reach your browser, and alerts if new threats are detected. After a malware removal, we recommend CyberShield to prevent reinfection — plans start from R 799 per month for home users.',
+    answer: 'CyberShield is ZA Support\'s ongoing Mac protection service. It includes real-time threat monitoring, monthly security health checks, network-level filtering to block malicious domains before they reach your browser, and alerts if new threats are detected. After a malware removal, we recommend CyberShield to prevent reinfection — contact us for plan details.',
   },
   {
     question: 'My bank account details were on the Mac — am I at risk?',
@@ -179,13 +179,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
   description: 'Mac virus and malware removal in Johannesburg. Free diagnosis. Remove Genieo, SearchMine, adware, spyware, trojans. Ongoing protection available via CyberShield.',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '899',
-    highPrice: '2499',
-    priceCurrency: 'ZAR',
-    offerCount: 3,
-  },
+
 };
 
 const breadcrumbSchema = {
@@ -369,7 +363,7 @@ export default function MacVirusRemovalPage() {
                 step: '02',
                 icon: <Shield className="w-5 h-5" />,
                 title: 'Written Quote',
-                desc: 'Based on the infection scope, we give you a fixed written price. For standard adware removal: R 899 – R 1,499. For complex persistent infections or if a clean reinstall is recommended: we quote accordingly.',
+                desc: 'Based on the infection scope, we give you a fixed written price. For complex persistent infections or if a clean reinstall is recommended, we quote accordingly.',
               },
               {
                 step: '03',
@@ -441,7 +435,7 @@ export default function MacVirusRemovalPage() {
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <div className="text-center sm:text-left">
                 <p className="text-[#7A9E98] text-sm">Starting from</p>
-                <p className="text-3xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>R 799 <span className="text-lg text-[#7A9E98] font-normal">/ month</span></p>
+                <p className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>Contact us for pricing</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 sm:ml-auto">
                 <a
@@ -533,41 +527,6 @@ export default function MacVirusRemovalPage() {
                   </div>
                   <span className="text-[#7A9E98] text-xs">{review.date}</span>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PRICING */}
-      <section className="py-16 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-              Virus &amp; Malware Removal <span className="text-[#0FEA7A]">Pricing</span>
-            </h2>
-            <p className="text-[#7A9E98] text-sm">Diagnosis is always free. Written fixed quote before any work begins.</p>
-          </div>
-          <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
-            <div className="grid grid-cols-3 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
-              <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider col-span-2">Service</span>
-              <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Price</span>
-            </div>
-            {[
-              { service: 'Diagnosis & Assessment', note: 'Always free', price: 'Free' },
-              { service: 'Standard Adware / Browser Hijacker Removal', note: 'Genieo, SearchMine, Adload etc.', price: 'R 899 – R 1,499' },
-              { service: 'Complex Persistent Infection Removal', note: 'Multi-component, rootkit-adjacent', price: 'R 1,499 – R 2,499' },
-              { service: 'Full macOS Reinstall + Data Recovery', note: 'Recommended for info stealers', price: 'From R 2,499' },
-            ].map((row, i) => (
-              <div
-                key={row.service}
-                className={`grid grid-cols-3 px-6 py-4 items-center ${i < 3 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
-              >
-                <div className="col-span-2">
-                  <p className="text-[#E8F4F1] text-sm font-medium">{row.service}</p>
-                  <p className="text-[#7A9E98] text-xs mt-0.5">{row.note}</p>
-                </div>
-                <span className="text-[#0FEA7A] font-bold text-sm text-right">{row.price}</span>
               </div>
             ))}
           </div>

@@ -9,7 +9,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iMac Repair Johannesburg | Screen, RAM, SSD, Logic Board | ZA Support',
   description:
-    'iMac repair in Johannesburg. Screen replacement, RAM upgrade, SSD upgrade, logic board repair, liquid damage — all iMac models from 2012 onwards. From R 1,800. Hyde Park.',
+    'iMac repair in Johannesburg. Screen replacement, RAM upgrade, SSD upgrade, logic board repair, liquid damage — all iMac models from 2012 onwards. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/imac-repair' },
 };
 
@@ -20,7 +20,7 @@ const services = [
     description:
       'Cracked display, dead pixels, backlight failure, delamination on older models. iMac 21.5" and 27" screens replaced.',
     href: '/imac-repair/screen',
-    price: 'From R 4,500',
+    price: 'Contact for pricing',
   },
   {
     icon: Cpu,
@@ -28,7 +28,7 @@ const services = [
     description:
       'Speed up a slow iMac dramatically. Intel iMac 27" supports up to 128 GB RAM — user-accessible upgrade slots. Major performance difference.',
     href: '/imac-repair/ram-upgrade',
-    price: 'From R 1,800',
+    price: 'Contact for pricing',
   },
   {
     icon: HardDrive,
@@ -36,7 +36,7 @@ const services = [
     description:
       'Replace a slow spinning hard drive or Fusion Drive with a fast SSD. Boot times drop from 2 minutes to under 20 seconds.',
     href: '/imac-repair/ssd-upgrade',
-    price: 'From R 2,500',
+    price: 'Contact for pricing',
   },
   {
     icon: Wrench,
@@ -44,7 +44,7 @@ const services = [
     description:
       'GPU failure, no-power, random shutdowns, kernel panics. Component-level repair on iMac logic boards.',
     href: '/logic-board-repair/imac',
-    price: 'From R 3,500',
+    price: 'Contact for pricing',
   },
   {
     icon: Droplets,
@@ -52,7 +52,7 @@ const services = [
     description:
       'Liquid spilled on or near your iMac. Ultrasonic board cleaning, component replacement, corrosion repair.',
     href: '/liquid-damage/imac',
-    price: 'From R 2,500',
+    price: 'Contact for pricing',
   },
   {
     icon: Zap,
@@ -60,7 +60,7 @@ const services = [
     description:
       'iMac won\'t turn on, intermittent power loss, no display. Power supply unit diagnosis and replacement.',
     href: '/imac-repair/power-supply',
-    price: 'From R 2,800',
+    price: 'Contact for pricing',
   },
 ];
 
@@ -79,7 +79,7 @@ const faqs = [
   {
     question: 'How much does iMac repair cost in Johannesburg?',
     answer:
-      'iMac repair pricing depends on the model and fault: screen replacement starts at R 4,500, RAM upgrades start at R 1,800 (parts included), SSD upgrades start at R 2,500, logic board repair starts at R 3,500, and liquid damage assessment starts at R 950. We provide a free diagnosis and fixed quote before starting.',
+      'iMac repair pricing depends on the model and fault. We provide a free diagnosis and fixed quote before starting. Contact us to get a quote for screen replacement, RAM upgrades, SSD upgrades, logic board repair, or liquid damage assessment.',
   },
   {
     question: 'Can I upgrade the RAM in my iMac?',
@@ -89,7 +89,7 @@ const faqs = [
   {
     question: 'Is it worth repairing an old iMac?',
     answer:
-      'For Intel iMac 27-inch models (2015–2020), yes — an SSD upgrade and RAM upgrade can double or triple performance for R 3,500–R 6,000, compared to R 25,000+ for a new M3 iMac. For models older than 2012, repair costs often exceed the machine value. We will always present you with a repair vs replace comparison before proceeding.',
+      'For Intel iMac 27-inch models (2015–2020), yes — an SSD upgrade and RAM upgrade can double or triple performance, compared to the cost of a new M3 iMac. For models older than 2012, repair costs often exceed the machine value. We will always present you with a repair vs replace comparison before proceeding.',
   },
   {
     question: 'My iMac screen has gone dark or has lines through it — what is wrong?',
@@ -122,12 +122,6 @@ const repairSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Computer Repair',
-  offers: [
-    { '@type': 'Offer', name: 'iMac Screen Replacement', price: '4500', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iMac RAM Upgrade', price: '1800', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iMac SSD Upgrade', price: '2500', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iMac Logic Board Repair', price: '3500', priceCurrency: 'ZAR' },
-  ],
 };
 
 export default function IMacRepairPage() {
@@ -234,13 +228,12 @@ export default function IMacRepairPage() {
           </p>
           <div className="grid sm:grid-cols-3 gap-4 text-left">
             {[
-              { label: 'SSD upgrade (500 GB)', price: 'From R 2,500', note: 'inc. data migration' },
-              { label: 'RAM upgrade (32 GB)', price: 'From R 2,200', note: '27" Intel models' },
-              { label: 'SSD + RAM bundle', price: 'From R 4,200', note: 'best value' },
+              { label: 'SSD upgrade (500 GB)', note: 'inc. data migration' },
+              { label: 'RAM upgrade (32 GB)', note: '27" Intel models' },
+              { label: 'SSD + RAM bundle', note: 'best value' },
             ].map((item) => (
               <div key={item.label} className="bg-white border border-green-200 rounded-lg p-4">
                 <div className="font-medium text-slate-900 text-sm mb-1">{item.label}</div>
-                <div className="text-green-600 font-bold">{item.price}</div>
                 <div className="text-xs text-slate-500 mt-1">{item.note}</div>
               </div>
             ))}
@@ -291,7 +284,6 @@ export default function IMacRepairPage() {
                 <tr>
                   <th className="text-left p-4">Scenario</th>
                   <th className="text-left p-4">Recommendation</th>
-                  <th className="text-left p-4">Typical Cost</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
@@ -299,33 +291,27 @@ export default function IMacRepairPage() {
                   {
                     scenario: 'iMac 27" Intel (2015–2020) running slowly',
                     rec: 'SSD + RAM upgrade — excellent value',
-                    cost: 'R 3,500–R 6,000',
                   },
                   {
                     scenario: 'iMac 21.5" cracked screen (2017+)',
                     rec: 'Screen replacement — cost-effective',
-                    cost: 'R 4,500–R 6,500',
                   },
                   {
                     scenario: 'iMac 2012–2014 running slowly',
                     rec: 'SSD upgrade — still worthwhile',
-                    cost: 'R 2,500–R 3,500',
                   },
                   {
                     scenario: 'iMac M1/M3 fault (screen, port)',
                     rec: 'Repair — modern machine, worth fixing',
-                    cost: 'Quoted on assessment',
                   },
                   {
                     scenario: 'iMac 2009–2011 any fault',
                     rec: 'Replace — repair cost exceeds value',
-                    cost: 'New Mac from R 22,000',
                   },
                 ].map((row) => (
                   <tr key={row.scenario} className="hover:bg-slate-50">
                     <td className="p-4 text-slate-700">{row.scenario}</td>
                     <td className="p-4 text-slate-700">{row.rec}</td>
-                    <td className="p-4 font-medium text-green-600">{row.cost}</td>
                   </tr>
                 ))}
               </tbody>

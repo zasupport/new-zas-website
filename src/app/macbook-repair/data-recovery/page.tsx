@@ -8,9 +8,9 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Data Recovery Johannesburg | From R 1,499 | ZA Support',
+  title: 'MacBook Data Recovery Johannesburg | ZA Support',
   description:
-    'MacBook data recovery in Johannesburg from R 1,499. Recover deleted files, failed hard drives, SSD faults, accidental format, and liquid damage data loss. 95% success rate. No data, no fee. Hyde Park, Johannesburg.',
+    'MacBook data recovery in Johannesburg. Recover deleted files, failed hard drives, SSD faults, accidental format, and liquid damage data loss. 95% success rate. No data, no fee. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/data-recovery' },
   keywords: [
     'macbook data recovery johannesburg',
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { tier: 'Logical Recovery — Deleted Files / Accidental Format', price: 'From R 1,499', note: 'Most common' },
-  { tier: 'Logical Recovery — OS Corruption / Failed Boot', price: 'From R 1,999', note: '' },
-  { tier: 'Physical SSD Recovery — MacBook Air / Pro', price: 'From R 3,499', note: 'Chip-level work' },
-  { tier: 'Liquid Damage + Data Recovery', price: 'From R 3,999', note: 'Combined service' },
-  { tier: 'Emergency Same-Day Recovery', price: 'POA', note: 'Subject to availability' },
+  { tier: 'Logical Recovery — Deleted Files / Accidental Format', note: 'Most common' },
+  { tier: 'Logical Recovery — OS Corruption / Failed Boot', note: '' },
+  { tier: 'Physical SSD Recovery — MacBook Air / Pro', note: 'Chip-level work' },
+  { tier: 'Liquid Damage + Data Recovery', note: 'Combined service' },
+  { tier: 'Emergency Same-Day Recovery', note: 'Subject to availability' },
 ];
 
 const whatWeRecover = [
@@ -57,7 +57,7 @@ const faultTypes = [
 const faqs = [
   {
     question: 'How much does MacBook data recovery cost in Johannesburg?',
-    answer: 'MacBook data recovery in Johannesburg starts at R 1,499 for logical recovery (deleted files, accidental format, OS corruption). Physical SSD recovery from chip-level failure starts at R 3,499. The exact price depends on the fault type and the volume of data. We provide a free assessment and a written fixed quote before any work begins — if we cannot recover your data, you do not pay.',
+    answer: 'MacBook data recovery cost depends on the fault type and the volume of data. We provide a free assessment and a written fixed quote before any work begins — if we cannot recover your data, you do not pay.',
   },
   {
     question: 'What is the success rate for MacBook data recovery?',
@@ -117,7 +117,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Data Recovery Johannesburg',
-  description: 'MacBook data recovery service in Johannesburg. Deleted files, failed drives, liquid damage, accidental format. From R 1,499. No data, no fee.',
+  description: 'MacBook data recovery service in Johannesburg. Deleted files, failed drives, liquid damage, accidental format. No data, no fee.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -148,25 +148,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'MacBook data recovery in Johannesburg from R 1,499. Deleted files, hard drive failure, SSD faults, accidental format, liquid damage. 95% success rate. No data, no fee.',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '1499',
-    highPrice: '5999',
-    priceCurrency: 'ZAR',
-    offerCount: pricingRows.length,
-  },
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'MacBook Data Recovery Pricing',
-    itemListElement: pricingRows.map((row, i) => ({
-      '@type': 'Offer',
-      position: i + 1,
-      itemOffered: { '@type': 'Service', name: row.tier },
-      description: row.price,
-      priceCurrency: 'ZAR',
-    })),
-  },
+  description: 'MacBook data recovery in Johannesburg. Deleted files, hard drive failure, SSD faults, accidental format, liquid damage. 95% success rate. No data, no fee.',
 };
 
 const breadcrumbSchema = {
@@ -200,7 +182,7 @@ export default function MacBookDataRecoveryPage() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Data Recovery<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
-              <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | From R 1,499</span>
+
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
               Deleted files, failed SSD, accidental format, liquid damage, macOS corruption. If your data is on the drive, we will find it. Free assessment. If we cannot recover your data, you pay nothing.
@@ -237,7 +219,7 @@ export default function MacBookDataRecoveryPage() {
               { stat: '95%', label: 'Logical Recovery Success Rate' },
               { stat: 'No Data', label: 'No Fee — Zero Risk' },
               { stat: 'POPIA', label: 'Compliant Handling' },
-              { stat: 'From R 1,499', label: 'Transparent Pricing' },
+              { stat: 'Free', label: 'Assessment — No Charge' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
                 <span className="text-2xl font-extrabold text-[#0FEA7A]" style={{ fontFamily: 'Syne, sans-serif' }}>{item.stat}</span>
@@ -275,7 +257,7 @@ export default function MacBookDataRecoveryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-              Data Recovery <span className="text-[#0FEA7A]">Pricing</span>
+              Data Recovery <span className="text-[#0FEA7A]">Types</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
               Free assessment first. Written fixed quote before any work begins. If we cannot recover your data, you pay nothing — no exceptions.
@@ -283,22 +265,22 @@ export default function MacBookDataRecoveryPage() {
           </div>
           <div className="max-w-3xl mx-auto">
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
-              <div className="grid grid-cols-3 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
-                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider col-span-2">Recovery Type</span>
-                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Price</span>
+              <div className="grid grid-cols-2 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
+                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Recovery Type</span>
+                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Notes</span>
               </div>
               {pricingRows.map((row, i) => (
                 <div
                   key={row.tier}
-                  className={`grid grid-cols-3 px-6 py-4 items-center ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
+                  className={`grid grid-cols-2 px-6 py-4 items-center ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
                 >
-                  <span className="text-[#E8F4F1] text-sm font-medium col-span-2">{row.tier} {row.note && <span className="text-[#7A9E98] text-xs ml-2">· {row.note}</span>}</span>
-                  <span className="text-[#0FEA7A] font-bold text-sm text-right">{row.price}</span>
+                  <span className="text-[#E8F4F1] text-sm font-medium">{row.tier}</span>
+                  <span className="text-[#7A9E98] text-xs text-right">{row.note}</span>
                 </div>
               ))}
             </div>
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
-              All prices include assessment, recovery labour, and transfer to your storage media. No hidden fees.
+              Assessment, recovery labour, and transfer to your storage media included. No hidden fees.
             </p>
           </div>
         </div>
@@ -544,7 +526,7 @@ export default function MacBookDataRecoveryPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Lost Data on Your MacBook?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">From R 1,499. 95% success rate. No data recovered — no charge.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered — no charge.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · POPIA-compliant · Stop using the machine and contact us now</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
