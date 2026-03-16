@@ -92,7 +92,7 @@ export default function IMacRAMUpgradePage() {
       <SchemaOrg schema={faqSchema} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-20 px-4">
+      <section className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-10 sm:py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-4">
             <Link href="/imac-repair" className="text-sm text-slate-400 hover:text-green-400 flex items-center gap-1">

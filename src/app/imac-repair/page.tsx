@@ -133,7 +133,7 @@ export default function IMacRepairPage() {
       <SchemaOrg schema={faqSchema} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-20 px-4">
+      <section className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-10 sm:py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Monitor className="w-4 h-4" />

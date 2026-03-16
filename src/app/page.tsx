@@ -176,8 +176,8 @@ export default function HomePage() {
       <SchemaOrg schema={speakableSchema} />
 
       {/* Hero */}
-      <section className="hero-gradient grid-overlay min-h-screen flex items-center pt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section className="hero-gradient grid-overlay pt-24 pb-12 sm:pt-32 sm:pb-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-8">
@@ -188,7 +188,7 @@ export default function HomePage() {
             </div>
 
             <h1
-              className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-[#E8F4F1] leading-[1.05] mb-6"
+              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-[1.05] mb-6"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
               Johannesburg&apos;s
@@ -196,13 +196,12 @@ export default function HomePage() {
               <span className="text-[#0FEA7A] glow-text-green">Apple Specialists</span>
             </h1>
 
-            <p className="speakable-summary text-xl sm:text-2xl text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
-              MacBook liquid damage, logic board microsoldering, iPhone &amp; iPad repair.
-              Hyde Park, Johannesburg. 3-month warranty on all repairs.
+            <p className="speakable-summary text-base sm:text-lg text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
+              MacBook liquid damage, logic board microsoldering, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment: R899 ex VAT. 3-month warranty.
             </p>
 
             {/* Stats */}
-            <div className="flex flex-wrap gap-8 mb-10">
+            <div className="grid grid-cols-3 gap-3 sm:flex sm:gap-8 mb-8">
               {[
                 { value: SITE.repairsCount, label: 'Repairs Completed' },
                 { value: SITE.rating + '★', label: 'Google Rating' },
@@ -228,7 +227,7 @@ export default function HomePage() {
                 className="inline-flex items-center justify-center gap-3 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.5)] transition-all animate-pulse-glow"
               >
                 <Phone className="w-5 h-5" />
-                Device damaged? Call now: {CONTACT.phone}
+                Call {CONTACT.phone}
               </a>
               <Link
                 href="/contact"
@@ -249,7 +248,7 @@ export default function HomePage() {
       {/* Trust Strip */}
       <section className="bg-[#111C1A] border-y border-[rgba(15,234,122,0.1)] py-5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
+          <div className="flex items-center gap-6 sm:gap-10 overflow-x-auto pb-1 sm:flex-wrap sm:justify-center">
             {[
               { icon: Shield, label: '3-Month Warranty' },
               { icon: BadgeCheck, label: 'Written Warranty' },
@@ -275,11 +274,10 @@ export default function HomePage() {
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
               Every Apple Device.
-              <span className="text-[#0FEA7A]"> Every Problem.</span>
+              <span className="text-[#0FEA7A]"> Every Fault.</span>
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl mx-auto">
-              From a cracked iPhone screen to a failed logic board, we&apos;ve repaired it all.
-              Transparent pricing, no hidden costs, 3-month warranty.
+              Every Apple device. Every fault.
             </p>
           </div>
 
@@ -332,10 +330,10 @@ export default function HomePage() {
               className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] mb-4"
               style={{ fontFamily: 'Syne, sans-serif' }}
             >
-              Why Choose ZA Support?
+              Why ZA Support
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl mx-auto">
-              We&apos;re not a repair shop, we&apos;re your Apple technology partner.
+              We fix the chip. Not the whole board.
             </p>
           </div>
 

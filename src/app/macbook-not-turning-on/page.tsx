@@ -460,7 +460,7 @@ export default function MacBookNotTurningOnPage() {
         </section>
 
         {/* ── Free Fixes First ── */}
-        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
           <div className="mb-12">
             <div className="inline-block bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-1.5 mb-4">
               <span className="text-[#0FEA7A] text-sm font-semibold">Try These First, No Cost</span>
@@ -519,7 +519,7 @@ export default function MacBookNotTurningOnPage() {
 
         {/* ── Causes ── */}
         <section className="bg-[rgba(255,255,255,0.015)] border-y border-[rgba(255,255,255,0.06)]">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
             <div className="mb-12">
               <div className="inline-block bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-1.5 mb-4">
                 <span className="text-[#0FEA7A] text-sm font-semibold">8 Most Common Causes</span>
@@ -591,7 +591,7 @@ export default function MacBookNotTurningOnPage() {
 
         {/* ── Process ── */}
         <section className="bg-[rgba(255,255,255,0.015)] border-y border-[rgba(255,255,255,0.06)]">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
             <div className="mb-12">
               <div className="inline-block bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-1.5 mb-4">
                 <span className="text-[#0FEA7A] text-sm font-semibold">How It Works</span>
@@ -662,7 +662,7 @@ export default function MacBookNotTurningOnPage() {
         </section>
 
         {/* ── Reviews ── */}
-        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
           <div className="mb-10">
             <div className="inline-flex items-center gap-2 mb-4">
               {[1, 2, 3, 4, 5].map((s) => (
@@ -705,7 +705,7 @@ export default function MacBookNotTurningOnPage() {
 
         {/* ── FAQ ── */}
         <section className="bg-[rgba(255,255,255,0.015)] border-y border-[rgba(255,255,255,0.06)]">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
             <FAQAccordion
               items={faqs}
               title="MacBook Not Turning On, Common Questions"
@@ -714,7 +714,7 @@ export default function MacBookNotTurningOnPage() {
         </section>
 
         {/* ── Internal Links ── */}
-        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
           <h2
             className="text-2xl font-extrabold text-[#E8F4F1] mb-6"
             style={{ fontFamily: 'Syne, sans-serif' }}
@@ -743,7 +743,7 @@ export default function MacBookNotTurningOnPage() {
 
         {/* ── Final CTA ── */}
         <section className="bg-[rgba(15,234,122,0.04)] border-t border-[#0FEA7A]/15">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20 text-center">
             <div className="inline-flex items-center gap-2 bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-2 mb-6">
               <div className="w-2 h-2 rounded-full bg-[#0FEA7A] animate-pulse" />
               <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: R899 ex VAT</span>

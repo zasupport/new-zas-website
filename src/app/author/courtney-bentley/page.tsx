@@ -70,7 +70,7 @@ export default function CourtneyBentleyPage() {
     <>
       <SchemaOrg schema={personSchema} />
       <main className="min-h-screen bg-[#0A1A18] text-[#E8F4F1]">
-        <div className="max-w-3xl mx-auto px-4 py-20">
+        <div className="max-w-3xl mx-auto px-4 py-10 sm:py-20">
           <div className="mb-6">
             <Link href="/" className="text-sm text-[#7A9E98] hover:text-[#0FEA7A] transition-colors">
               ZA Support
