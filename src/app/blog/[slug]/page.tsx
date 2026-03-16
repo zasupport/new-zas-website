@@ -1220,6 +1220,183 @@ Our process starts with a free assessment: we review your current device estate,
 Contact us on 064 529 5863 or via our contact form to book your free assessment.
     `.trim(),
   },
+  'macbook-battery-replacement-johannesburg': {
+    slug: 'macbook-battery-replacement-johannesburg',
+    title: 'MacBook Battery Replacement in Johannesburg: Everything You Need to Know',
+    excerpt: 'A swollen, draining, or dead MacBook battery does not mean the end of your machine. This guide covers how to tell when your battery needs replacing, what the process involves, and what to expect from a professional replacement in Johannesburg.',
+    date: '16/03/2026',
+    category: 'Repair Guides',
+    readTime: '6 min read',
+    author: 'Mary',
+    content: `
+## When Does a MacBook Battery Actually Need Replacing?
+
+Your MacBook battery is designed to hold around 80% of its original charge capacity after 1,000 full charge cycles. Once it degrades below that threshold, you will start to notice real-world impacts: shorter runtimes, unexpected shutdowns, and in some cases, a swelling battery that physically distorts your MacBook trackpad or base.
+
+Here is how to check your battery health right now. Hold the Option key and click the battery icon in the menu bar. If it says "Service Recommended" or "Replace Now", your battery has passed the replacement threshold. For a more detailed reading: Apple menu then About This Mac then System Report then Power.
+
+You will see Cycle Count (the number of full charges used) and Condition (Normal, Service Recommended, or Replace Now).
+
+## Warning Signs That Need Immediate Attention
+
+A degraded battery is an inconvenience. A swollen battery is an emergency.
+
+Swelling occurs when cells inside the battery expand due to gas buildup -- usually caused by age, deep discharge, or heat exposure. Signs of a swelling battery include:
+- The trackpad feels raised or stiff and is harder to click
+- The base of the MacBook is no longer flat -- it rocks on a hard surface
+- The top case appears to be lifting slightly from the bottom chassis
+
+If you notice any of these symptoms, stop using the MacBook immediately and bring it in for assessment. A swollen lithium battery is a fire risk. Do not attempt to remove it yourself -- the cells are glued and require specialist tools.
+
+## The MacBook Battery Replacement Process
+
+At ZA Support, battery replacement is a same-day service for most models. Here is what happens from the moment you drop off your Mac.
+
+**1. Free assessment.** We confirm which model you have, run a battery diagnostic report showing current capacity, cycle count, and condition, and confirm that no other components have been affected (swollen batteries sometimes damage the trackpad cable or flex connectors in the lower case).
+
+**2. Original-specification replacement battery.** We use replacement batteries that match or exceed the original Apple specification for your model year. MacBook Air and MacBook Pro batteries are model-specific -- a 2020 M1 MacBook Air uses a different battery to a 2019 Intel 13-inch. The specification matters: voltage, capacity in mAh, and physical dimensions all need to match.
+
+**3. Calibrated installation.** After installation, the battery management system is reset and the battery is cycled to calibrate the charge readings. This ensures your battery percentage indicator is accurate from day one.
+
+**4. Post-installation test.** We verify that the MacBook charges correctly, that the charge indicator functions normally, and that the system recognises the new battery.
+
+## How to Make Your New Battery Last
+
+**Avoid constant 100% charging.** MacBooks with Apple Silicon have built-in Optimised Battery Charging, which learns your routine and pauses charging at 80% until just before you typically unplug. Leave this on.
+
+**Avoid deep discharge.** Repeatedly letting your battery drain to 0% before charging accelerates cycle consumption. Keep it above 20% where possible.
+
+**Manage heat.** MacBook batteries degrade faster when consistently operated at high temperatures. If you use your MacBook on a surface that blocks airflow, use a stand that elevates the machine.
+
+**Check your cycle count annually.** Knowing where you are in your battery lifecycle lets you plan a replacement before it becomes urgent.
+
+## MacBook Battery Replacement in Johannesburg
+
+ZA Support is based at 1 Hyde Park Lane, Second Floor, Johannesburg. We carry replacement batteries for the most common MacBook models in stock. For less common models we can usually source the battery within 1-2 business days.
+
+Bring your MacBook in for a free assessment. We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. No Fix No Fee. 12-month warranty on all battery replacements.
+
+Call **064 529 5863** or message us on WhatsApp to book.
+
+## Frequently Asked Questions
+
+**Q: My MacBook shuts down at 30% -- is that a battery problem?**
+
+Yes. Unexpected shutdowns at a non-zero battery percentage are a classic sign of battery degradation. When battery cells lose capacity unevenly, the charge management system can no longer accurately predict when charge will run out -- the machine shuts down to protect itself. This happens most often in cold conditions or under high CPU load. Battery replacement resolves this.
+
+**Q: Is a third-party MacBook battery as good as an Apple battery?**
+
+Quality varies significantly. Low-cost batteries from online marketplaces often have lower actual capacity than advertised and may not properly communicate with macOS, leading to inaccurate charge readings. ZA Support uses replacement batteries from verified suppliers that match the original specification. We do not use the cheapest available option.
+
+**Q: Can I replace my MacBook battery myself?**
+
+Technically yes for some models, but we do not recommend it. MacBook batteries are glued to the chassis using adhesive strips. Removal requires specific tools, heat, and patience. Done incorrectly, you can tear the battery (a fire risk), damage the trackpad cable, or scratch the bottom case. Professional replacement is the safer choice.
+
+**Q: How long does MacBook battery replacement take?**
+
+For most models: 2-4 hours. We stock batteries for common models. Less common models may require a 1-2 day lead time for parts sourcing. We will confirm the timeline at assessment.
+
+**Q: Does a new battery reset the cycle count in macOS?**
+
+Yes. A new battery resets the cycle count to zero. The Condition indicator will show Normal and coconutBattery will show 100% health after replacement and calibration.
+
+**Q: My MacBook is a 2015 Intel model -- is it worth replacing the battery?**
+
+For a 2015 MacBook Pro or MacBook Air in good condition, a battery replacement is almost always worth doing. These machines run macOS Sequoia via OCLP and have no other planned hardware failures. A new battery effectively gives the machine another 3-5 years of daily use.
+
+**Q: Will my MacBook warranty be affected by a ZA Support battery replacement?**
+
+If your MacBook is still covered by AppleCare+, a third-party battery replacement may affect that coverage. We recommend checking your AppleCare+ status before proceeding. If you are out of warranty, which is the case for the majority of battery replacements we perform, this does not apply.
+    `.trim(),
+  },
+  'macbook-screen-repair-johannesburg': {
+    slug: 'macbook-screen-repair-johannesburg',
+    title: 'MacBook Screen Repair in Johannesburg: Cracked, Black, or Flickering',
+    excerpt: 'Whether your MacBook screen is cracked, completely black, flickering, or showing lines -- this guide covers every display fault, what causes it, and what your repair options are in Johannesburg.',
+    date: '16/03/2026',
+    category: 'Repair Guides',
+    readTime: '7 min read',
+    author: 'Mary',
+    content: `
+## MacBook Display Problems: What Is Actually Wrong?
+
+A MacBook display fault is one of the most alarming things that can happen to your machine -- especially when it happens mid-work with no warning. But not every black screen means a dead Mac, and not every cracked display requires a full screen assembly replacement.
+
+Understanding what kind of fault you have is the first step to knowing what your repair will involve.
+
+## The Most Common MacBook Screen Faults
+
+**Cracked or shattered display glass** -- Physical impact to the screen. The LCD panel beneath may or may not be damaged depending on the severity. On Retina models, the glass and LCD are fused -- damage to one typically means replacing the full assembly.
+
+**Completely black screen** -- The Mac appears to be on (keyboard backlight, startup sound, fan spin) but the display shows nothing. This can be a failed display cable, a backlight fault, a GPU issue on the logic board, or a failed display panel. Diagnosis determines whether this is a display replacement or a logic board repair.
+
+**Backlight failure (dark but visible)** -- You can faintly see the screen contents when you shine a light at it, but there is no illumination. The backlight LED strip or the backlight driver circuit on the logic board has failed. On many models this is repairable without a full screen replacement.
+
+**Flickering or colour banding** -- The display flickers, shows horizontal or vertical lines, or has sections of colour distortion. This can be a failing display data cable, a failing LCD panel, or in some cases an early-stage logic board fault.
+
+**Stage Light / Flexgate issue** -- Specific to certain 2016-2019 MacBook Pro models: a stage light pattern appears at the bottom of the screen, or the display only works when the lid is fully open. This is a known design flaw caused by the display backlight flex cable failing from repeated bending stress.
+
+## What Happens During a MacBook Screen Repair
+
+**Step 1 -- Free diagnostic.** We test the Mac with an external monitor to determine whether the fault is in the display assembly, the display cable, or the logic board GPU. This distinction is critical -- a logic board GPU fault requires very different work to a display assembly replacement.
+
+**Step 2 -- Component identification.** MacBook display assemblies are model-specific. We identify the exact part required before quoting.
+
+**Step 3 -- Display assembly replacement.** On most Retina MacBook models, the display is replaced as a complete assembly -- glass, LCD panel, backlight, and front camera integrated. The assembly is carefully installed and tested for colour accuracy, brightness uniformity, and proper lid-close sensor function.
+
+**Step 4 -- Cable repair where applicable.** On models affected by the Flexgate issue, the fault is in the display data cable rather than the panel itself. Cable replacement is significantly less expensive than a full assembly replacement.
+
+**Step 5 -- Calibration and verification.** True Tone, Night Shift, and ProMotion display features are verified. We do not return a machine with display features disabled.
+
+## MacBook Models and Display Considerations
+
+**MacBook Pro 2016-2019** -- These models are prone to the Flexgate display cable issue. If you see the stage light effect or lid-angle-dependent display failure, this is the cause. Check whether your serial is covered by Apple extended service programme before booking a repair.
+
+**MacBook Pro M1 / M2 / M3 / M4 (2020 onwards)** -- Apple Silicon MacBooks have Liquid Retina XDR displays on Pro and Max models. These are high-quality but carry a premium replacement cost due to display technology.
+
+**MacBook Air M1 / M2 / M3** -- The MacBook Air uses a thinner, lighter display assembly than the Pro line. Replacement assemblies are available.
+
+**Intel MacBook Pro 13-inch (2012-2015)** -- Parts availability is good and replacement costs are lower than newer models.
+
+## Screen Replacement in Johannesburg -- What to Expect
+
+ZA Support carries assemblies for the most common MacBook models. Less common or newer model assemblies may require sourcing -- typically 3-5 business days.
+
+We offer a free assessment before any commitment. Bring your Mac in to 1 Hyde Park Lane, Hyde Park, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with No Fix No Fee. All screen replacements carry a 12-month warranty.
+
+Call **064 529 5863** or message us on WhatsApp to book or ask about your specific model.
+
+## Frequently Asked Questions
+
+**Q: My MacBook fell and the screen cracked -- can it be repaired?**
+
+Yes. A cracked Retina display is repaired by replacing the full display assembly. On non-Retina models, it is sometimes possible to replace only the outer glass, but this is uncommon because the adhesion bond makes separation risky. We will assess which approach is appropriate for your model at no charge.
+
+**Q: My MacBook screen is black but I can hear it starting up -- is this a screen fault or something worse?**
+
+It could be either. The key test is to connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable -- typically a display repair. If the external monitor also shows nothing, the fault is on the logic board. We perform this test during the free assessment.
+
+**Q: Does ZA Support repair the 2016-2019 MacBook Pro Flexgate issue?**
+
+Yes. We replace the display backlight cable on affected models. Before proceeding, check whether your serial number qualifies for Apple extended service programme by entering it at apple.com/support.
+
+**Q: My MacBook display flickers when I move the lid -- is this the cable?**
+
+Almost certainly yes. Intermittent display faults that are position-sensitive are almost always caused by a failing display data cable running through the hinge. Cable replacement resolves this.
+
+**Q: Can I use my MacBook with a cracked screen while I wait for repair?**
+
+Yes, provided the crack has not compromised the LCD panel. If you can see screen contents clearly and the crack is only in the outer glass, it is generally safe to continue using the machine while you arrange a repair. If there are dead pixels, colour bleeding, or dark patches spreading from the crack, the LCD layer is damaged.
+
+**Q: How long does a MacBook screen replacement take?**
+
+For models where we hold the assembly in stock: same day to next business day. For models requiring parts sourcing: typically 3-5 business days. We will confirm the timeline at assessment.
+
+**Q: My MacBook Pro 2019 screen is showing pink lines -- what is causing this?**
+
+On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We will test with an external monitor during the free assessment to confirm.
+    `.trim(),
+  },
   'macbook-logic-board-repair-cost-johannesburg-2026': {
     slug: 'macbook-logic-board-repair-cost-johannesburg-2026',
     title: 'MacBook Logic Board Repair in Johannesburg: What to Expect in 2026',
@@ -1720,6 +1897,88 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           '@type': 'Question',
           name: 'What should I do if my MacBook suddenly stops working?',
           acceptedAnswer: { '@type': 'Answer', text: 'Do not attempt to restart it repeatedly. If there was liquid exposure, do not plug in a charger. Bring it to ZA Support in Hyde Park, Johannesburg for a free same-day assessment. The faster we see it, the higher the likelihood of a full, cost-effective repair. No Fix No Fee.' },
+        },
+      ],
+    },
+    'macbook-battery-replacement-johannesburg': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'My MacBook shuts down at 30% battery -- is that a battery problem?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. Unexpected shutdowns at a non-zero battery percentage are a classic sign of battery degradation. When cells lose capacity unevenly, the charge management system shuts down to protect itself. This happens most often in cold conditions or under high CPU load. Battery replacement resolves this.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How do I check my MacBook battery health?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Hold the Option key and click the battery icon in the menu bar. If it says Service Recommended or Replace Now, your battery has passed the replacement threshold. For full details: Apple menu, About This Mac, System Report, Power. You will see Cycle Count and Condition.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How long does MacBook battery replacement take in Johannesburg?',
+          acceptedAnswer: { '@type': 'Answer', text: 'For most models: 2-4 hours at ZA Support in Hyde Park. We stock batteries for common MacBook Air and MacBook Pro models. Less common models may require a 1-2 business day lead time for parts sourcing.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Is a swollen MacBook battery dangerous?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. A swollen lithium battery is a fire risk. Signs include a raised trackpad, a rocking base, or lifting top case. Stop using the MacBook immediately and bring it in for professional assessment. Do not attempt to remove a swollen battery yourself -- the cells are glued and require specialist tools.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Does a new MacBook battery reset the cycle count?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. A new battery resets the cycle count to zero. The Condition indicator will show Normal and battery health diagnostic tools will show 100% capacity after replacement and calibration.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Is it worth replacing the battery on a 2015 Intel MacBook?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes, in most cases. A 2015 MacBook Pro or Air in good condition runs macOS Sequoia via OCLP and has no other planned hardware failures. A new battery effectively gives the machine another 3-5 years of daily use at a fraction of replacement cost.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'What warranty does ZA Support provide on MacBook battery replacement?',
+          acceptedAnswer: { '@type': 'Answer', text: '12-month warranty on parts and labour. No Fix No Fee -- if we find a secondary issue during assessment that means we cannot complete the repair cleanly, we tell you before proceeding.' },
+        },
+      ],
+    },
+    'macbook-screen-repair-johannesburg': {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'My MacBook fell and the screen cracked -- can it be repaired?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. A cracked Retina display is repaired by replacing the full display assembly. On non-Retina models, replacing only the outer glass is sometimes possible but uncommon. We will assess which approach is appropriate for your model at no charge.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My MacBook screen is black but I can hear it starting up -- is this a screen fault?',
+          acceptedAnswer: { '@type': 'Answer', text: 'It could be either. Connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable. If the external monitor also shows nothing, the fault is on the logic board. ZA Support performs this test during the free assessment.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How much does MacBook screen replacement cost in Johannesburg?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Contact ZA Support for a quote on your specific model. Cost depends on the model, model year, and whether the repair requires a full assembly replacement or a cable repair. Free assessment with No Fix No Fee.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'Does ZA Support repair the 2016-2019 MacBook Pro Flexgate issue?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Yes. We replace the display backlight cable on affected models. This produces the stage light effect or lid-angle-dependent display failure. Before proceeding, check whether your serial qualifies for Apple extended service at apple.com/support.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My MacBook display flickers when I move the lid -- is this the cable?',
+          acceptedAnswer: { '@type': 'Answer', text: 'Almost certainly yes. Intermittent display faults that are position-sensitive are almost always caused by a failing display data cable running through the hinge. Cable replacement resolves this and is less expensive than a full assembly replacement.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'How long does MacBook screen replacement take?',
+          acceptedAnswer: { '@type': 'Answer', text: 'For models where ZA Support holds the assembly in stock: same day to next business day. For models requiring parts sourcing: typically 3-5 business days. Timeline confirmed at assessment.' },
+        },
+        {
+          '@type': 'Question',
+          name: 'My MacBook Pro 2019 screen is showing pink lines -- what is causing this?',
+          acceptedAnswer: { '@type': 'Answer', text: 'On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We test with an external monitor during the free assessment to confirm.' },
         },
       ],
     },

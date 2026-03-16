@@ -120,5 +120,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/how-to-speed-up-mac-free`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/mac-not-turning-on-checklist`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-logic-board-repair-cost-johannesburg-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
+    { url: `${base}/blog/macbook-battery-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
+    { url: `${base}/blog/macbook-screen-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
   ];
 }

@@ -10,6 +10,22 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'macbook-screen-repair-johannesburg',
+    title: 'MacBook Screen Repair in Johannesburg: Cracked, Black, or Flickering',
+    excerpt: 'Whether your MacBook screen is cracked, completely black, flickering, or showing lines -- this guide covers every display fault, what causes it, and what your repair options are in Johannesburg.',
+    date: '16/03/2026',
+    category: 'Repair Guides',
+    readTime: '7 min read',
+  },
+  {
+    slug: 'macbook-battery-replacement-johannesburg',
+    title: 'MacBook Battery Replacement in Johannesburg: Everything You Need to Know',
+    excerpt: 'A swollen, draining, or dead MacBook battery does not mean the end of your machine. This guide covers how to tell when your battery needs replacing, what the process involves, and what to expect.',
+    date: '16/03/2026',
+    category: 'Repair Guides',
+    readTime: '6 min read',
+  },
+  {
     slug: 'macbook-logic-board-repair-cost-johannesburg-2026',
     title: 'MacBook Logic Board Repair in Johannesburg: What to Expect in 2026',
     excerpt: 'Everything you need to know about MacBook logic board repair costs in Johannesburg — what a logic board does, signs it has failed, how the repair works, and why component-level repair saves you thousands.',
