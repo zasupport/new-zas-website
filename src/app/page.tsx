@@ -161,7 +161,7 @@ const homepageFaqs = [
   {
     question: 'Is ZA Support an Apple Authorised Service Provider?',
     answer:
-      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple — and we can repair devices that Apple would refuse to fix (out of warranty, out of production, or with third-party modifications). Our 12-month warranty matches Apple\'s own repair warranty on parts and labour.',
+      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple — and we can repair devices that Apple would refuse to fix (out of warranty, out of production, or with third-party modifications). Our warranty matches Apple\'s own repair warranty on parts and labour.',
   },
 ];
 
@@ -252,7 +252,7 @@ export default function HomePage() {
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
               { icon: Shield, label: 'No Fix No Fee' },
-              { icon: BadgeCheck, label: '12-Month Warranty' },
+              { icon: BadgeCheck, label: 'Warranty' },
               { icon: Clock, label: '72-Hour Turnaround' },
               { icon: Search, label: 'Free Assessment' },
               { icon: MapPin, label: 'Hyde Park, JHB' },
@@ -279,7 +279,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl mx-auto">
               From a cracked iPhone screen to a failed logic board — we&apos;ve repaired it all.
-              Transparent pricing, no hidden costs, 12-month warranty.
+              Transparent pricing, no hidden costs, warranty.
             </p>
           </div>
 
@@ -421,7 +421,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
               Bring your device in. We&apos;ll assess it for free, give you a clear quote with no obligation,
-              and fix it fast — backed by a 12-month warranty.
+              and fix it fast — backed by a warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

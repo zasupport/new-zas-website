@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: 'Do you provide a warranty on logic board repairs?',
-    answer: 'Yes. Every logic board repair carried out by ZA Support includes a 12-month written warranty covering the specific component or fault we repaired. This warranty is provided in writing, is non-negotiable, and covers parts and labour. If the same fault returns within 12 months, we repair it at no charge. This applies to all microsoldering work, board replacements, and component-level repairs.',
+    answer: 'Yes. Every logic board repair carried out by ZA Support includes a written warranty covering the specific component or fault we repaired. This warranty is provided in writing, is non-negotiable, and covers parts and labour. If the same fault returns within the warranty period, we repair it at no charge. This applies to all microsoldering work, board replacements, and component-level repairs.',
   },
   {
     question: 'Can you fix a water-damaged MacBook logic board?',
@@ -161,7 +161,7 @@ const customerReviews = [
     suburb: 'Rosebank',
     rating: 5,
     date: '01/2026',
-    text: 'Screen was showing strange lines and flickering on my MacBook Pro 2015. I had been told it was unfixable or quoted a high price for a replacement board. ZA Support diagnosed it as the GPU and repaired it at a fair price. 12-month warranty included. Six weeks on and it is perfect.',
+    text: 'Screen was showing strange lines and flickering on my MacBook Pro 2015. I had been told it was unfixable or quoted a high price for a replacement board. ZA Support diagnosed it as the GPU and repaired it at a fair price. warranty included. Six weeks on and it is perfect.',
   },
   {
     name: 'Ryan T.',
@@ -207,7 +207,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Microsoldering Repair',
-          description: 'Component-level logic board repair. Chip replacement, trace repair, specialist restoration. 12-month warranty.',
+          description: 'Component-level logic board repair. Chip replacement, trace repair, specialist restoration. warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -259,8 +259,8 @@ const howToSchema = {
     {
       '@type': 'HowToStep',
       position: 5,
-      name: 'Return with 12-month warranty',
-      text: 'Your repaired MacBook is returned with a written 12-month warranty on the specific component or fault repaired. If the same fault returns within 12 months, we fix it at no charge.',
+      name: 'Return with warranty',
+      text: 'Your repaired MacBook is returned with a written warranty on the specific component or fault repaired. If the same fault returns within the warranty period, we fix it at no charge.',
       url: 'https://zasupport.com/logic-board-repair#warranty',
     },
   ],
@@ -351,14 +351,14 @@ export default function LogicBoardRepairPage() {
             </h1>
             <p className="speakable-summary text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Johannesburg&apos;s microsoldering specialists. We repair the chip that failed — not the whole board.
-              Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park.
+              Free diagnostic, No Fix No Fee, warranty. Hyde Park.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'No Fix No Fee' },
-                { icon: AlertTriangle, label: '12-Month Warranty' },
+                { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -388,7 +388,7 @@ export default function LogicBoardRepairPage() {
               {[
                 { value: '3,000+', label: 'Logic Board Repairs' },
                 { value: '14 Years', label: 'Experience Since 2012' },
-                { value: '12 Months', label: 'Written Warranty' },
+                { value: 'Covered', label: 'Written Warranty' },
                 { value: 'No Fix', label: 'No Fee — Always' },
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
@@ -418,7 +418,7 @@ export default function LogicBoardRepairPage() {
             <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
             <div>
               <p className="text-[#E8F4F1] text-sm font-semibold">Free diagnostic — no charge, no obligation</p>
-              <p className="text-[#7A9E98] text-xs mt-0.5">No Fix No Fee. 12-month written warranty on every repair.</p>
+              <p className="text-[#7A9E98] text-xs mt-0.5">No Fix No Fee. written warranty on every repair.</p>
             </div>
           </div>
         </div>
@@ -451,55 +451,8 @@ export default function LogicBoardRepairPage() {
             Why Component-Level Repair Beats Full Board Replacement
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
-            Most MacBook logic board failures are caused by a single failed component — not the entire board. Replacing the whole board when only one chip has failed is unnecessary, expensive, and causes you to lose your original hardware pairing. Here is how ZA Support compares to the alternatives.
+            Most MacBook logic board failures are caused by a single failed component — not the entire board. Replacing the whole board when only one chip has failed is unnecessary, expensive, and causes you to lose your original hardware pairing.
           </p>
-
-          {/* Comparison table */}
-          <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.08)]">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-[rgba(15,234,122,0.08)] border-b border-[rgba(255,255,255,0.08)]">
-                  <th className="text-left text-[#7A9E98] font-semibold px-5 py-4 uppercase tracking-wider text-xs">Provider</th>
-                  <th className="text-left text-[#7A9E98] font-semibold px-5 py-4 uppercase tracking-wider text-xs">Approach</th>
-                  <th className="text-left text-[#7A9E98] font-semibold px-5 py-4 uppercase tracking-wider text-xs">Typical Cost</th>
-                  <th className="text-left text-[#7A9E98] font-semibold px-5 py-4 uppercase tracking-wider text-xs">Diagnostic</th>
-                  <th className="text-left text-[#7A9E98] font-semibold px-5 py-4 uppercase tracking-wider text-xs">Warranty</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b border-[rgba(255,255,255,0.05)] bg-[rgba(15,234,122,0.04)]">
-                  <td className="px-5 py-4">
-                    <span className="text-[#0FEA7A] font-bold">ZA Support</span>
-                    <span className="ml-2 text-[10px] bg-[#0FEA7A]/10 text-[#0FEA7A] border border-[#0FEA7A]/20 px-2 py-0.5 rounded-full">Recommended</span>
-                  </td>
-                  <td className="px-5 py-4 text-[#E8F4F1]">Component-level microsoldering</td>
-                  <td className="px-5 py-4 text-[#0FEA7A] font-bold">Quoted on assessment</td>
-                  <td className="px-5 py-4 text-[#0FEA7A] font-semibold">Free</td>
-                  <td className="px-5 py-4 text-[#0FEA7A] font-semibold">12 months written</td>
-                </tr>
-                <tr className="border-b border-[rgba(255,255,255,0.05)]">
-                  <td className="px-5 py-4 text-[#E8F4F1] font-medium">Authorised service</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">Full logic board replacement</td>
-                  <td className="px-5 py-4 text-red-400 font-bold">Full board replacement</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">Assessment available</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">90 days (parts only)</td>
-                </tr>
-                <tr>
-                  <td className="px-5 py-4 text-[#E8F4F1] font-medium">Typical repair shop</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">Board replacement (no microsoldering)</td>
-                  <td className="px-5 py-4 text-orange-400 font-bold">Board swap (no microsoldering)</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">Paid diagnostic fee</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">3 months</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="mt-6 p-4 rounded-xl bg-[rgba(15,234,122,0.04)] border border-[rgba(15,234,122,0.12)]">
-            <p className="text-[#7A9E98] text-xs leading-relaxed">
-              ZA Support prices are for component-level repair — final price depends on specific fault identified at free diagnostic. All other pricing is indicative only and subject to change.
-            </p>
-          </div>
 
           {/* Why it matters — prose */}
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -590,7 +543,7 @@ export default function LogicBoardRepairPage() {
                   'Your original board — your data stays put',
                   '60–80% cheaper than board replacement',
                   'Preserves pairing with Touch ID / Secure Enclave',
-                  'Backed by 12-month ZA Support warranty',
+                  'Backed by ZA Support warranty',
                   'Completed in 48–72 hours in most cases',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -608,7 +561,7 @@ export default function LogicBoardRepairPage() {
                   'Higher cost — full board + installation',
                   'Loss of pairing on Touch ID-dependent features',
                   'Data migration required (if SSD changes)',
-                  'Still includes 12-month ZA Support warranty',
+                  'Still includes ZA Support warranty',
                   'Used for: severe burn damage, multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -747,7 +700,7 @@ export default function LogicBoardRepairPage() {
               { step: '01', title: 'Free Diagnostic', body: 'Bring your Mac to our Hyde Park workshop or arrange a courier. We inspect the board under microscope and identify the fault — at no charge.' },
               { step: '02', title: 'Written Quote', body: 'You receive a clear, written quote before any work begins. No hidden fees. If the price is not acceptable, there is no charge.' },
               { step: '03', title: 'Microsoldering Repair', body: 'Our technician works at component level using professional specialist equipment. Most repairs completed in 24–72 hours.' },
-              { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a 12-month written warranty. If the same fault returns, we fix it free.' },
+              { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a written warranty. If the same fault returns, we fix it free.' },
             ].map(({ step, title, body }) => (
               <div key={step} className="glass-card p-6 relative overflow-hidden">
                 <span className="absolute top-4 right-4 text-[#0FEA7A] text-3xl font-extrabold opacity-20" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -771,7 +724,7 @@ export default function LogicBoardRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Logic Board Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-2">No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Free diagnostic — no charge, no obligation. We only charge you if we successfully repair your Mac.
             </p>

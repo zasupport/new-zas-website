@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
   description:
-    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
+    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Free diagnostic, No Fix No Fee, warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },
 };
 
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on Mac mini logic board repair?',
     answer:
-      'All Mac mini logic board repairs carry a 12-month warranty on the specific component repaired. This is a written warranty with no fine print. If the repaired component fails within 12 months, we fix it at no charge. Most Johannesburg repair shops offer 30–90 days. Our 12-month warranty is one of the longest available for Apple repairs in South Africa.',
+      'All Mac mini logic board repairs carry a warranty on the specific component repaired. This is a written warranty with no fine print. If the repaired component fails within the warranty period, we fix it at no charge. We stand behind our work.',
   },
 ];
 
@@ -119,7 +119,7 @@ const reviews = [
   {
     name: 'Mark T.',
     suburb: 'Sandton',
-    text: 'Mac mini M1 completely dead after a power surge. ZA Support diagnosed a blown power IC the same day and fixed it in two days. Saved me a significant amount on a new machine. 12-month warranty in writing — that is what sealed it for me.',
+    text: 'Mac mini M1 completely dead after a power surge. ZA Support diagnosed a blown power IC the same day and fixed it in two days. Saved me a significant amount on a new machine. warranty in writing — that is what sealed it for me.',
     rating: 5,
   },
   {
@@ -164,7 +164,7 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'Mac mini logic board repair. Free diagnostic. No Fix No Fee. 12-month warranty.',
+  description: 'Mac mini logic board repair. Free diagnostic. No Fix No Fee. warranty.',
   offers: {
     '@type': 'Offer',
     description: 'Mac mini logic board repair. Free diagnostic. No Fix No Fee.',
@@ -186,7 +186,7 @@ export default function MacMiniLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'Mac mini' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">No Fix No Fee · 12-Month Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">No Fix No Fee · Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               Mac mini Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
@@ -202,7 +202,7 @@ export default function MacMiniLogicBoardPage() {
                 { value: '3,000+', label: 'Repairs Done' },
                 { value: '4.9★', label: '120+ Reviews' },
                 { value: '14 Years', label: 'Apple Experience' },
-                { value: '12 Months', label: 'Warranty' },
+                { value: 'Covered', label: 'Warranty' },
               ].map((s) => (
                 <div key={s.label}>
                   <span className="block text-2xl font-extrabold text-[#0FEA7A]">{s.value}</span>
@@ -252,7 +252,7 @@ export default function MacMiniLogicBoardPage() {
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">ZA Support — Mac mini Logic Board Repair</p>
               <p className="text-2xl font-extrabold text-[#0FEA7A]">Component-level repair</p>
-              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. 12-month warranty.</p>
+              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. warranty.</p>
             </div>
           </div>
         </div>
@@ -303,7 +303,7 @@ export default function MacMiniLogicBoardPage() {
               <div className="flex flex-col gap-3">
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">12-Month Warranty</span> — Written. No 90-day fine print. No exceptions.</p>
+                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Warranty</span> — Written. No 90-day fine print. No exceptions.</p>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <CheckCircle className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
@@ -397,7 +397,7 @@ export default function MacMiniLogicBoardPage() {
               { step: '01', title: 'Drop-Off or Collection', desc: 'Bring your Mac mini to Hyde Park or arrange same-day collection from Sandton, Rosebank, Randburg, Fourways, Midrand, or Bryanston.' },
               { step: '02', title: 'Free Same-Day Diagnostic', desc: 'Board-level diagnostic using DC power supply analysis, scope probing, and thermal imaging. We identify the exact component at fault.' },
               { step: '03', title: 'Component-Level Repair', desc: 'Under microscope, we replace only the failed IC or component — not the whole board. Temperature-controlled soldering, correct equipment.' },
-              { step: '04', title: 'Full Test + Written Warranty', desc: 'Post-repair stress test: all ports, display outputs, boot stability, thermal performance. Written 12-month warranty issued on collection.' },
+              { step: '04', title: 'Full Test + Written Warranty', desc: 'Post-repair stress test: all ports, display outputs, boot stability, thermal performance. Written warranty issued on collection.' },
             ].map((s) => (
               <div key={s.step} className="glass-card p-6">
                 <span className="text-4xl font-black text-[rgba(15,234,122,0.2)]">{s.step}</span>
@@ -422,8 +422,8 @@ export default function MacMiniLogicBoardPage() {
                 desc: 'Apple replaces the entire Mac mini board. We replace the specific failed IC. You keep your data and save thousands.',
               },
               {
-                title: '12-Month Written Warranty',
-                desc: 'We issue a written warranty on every repair. No 90-day hidden cap. No fine print. If the repaired component fails within 12 months, we fix it at zero cost.',
+                title: 'Written Warranty',
+                desc: 'We issue a written warranty on every repair. No 90-day hidden cap. No fine print. If the repaired component fails within the warranty period, we fix it at zero cost.',
               },
               {
                 title: 'No Fix No Fee',
@@ -511,7 +511,7 @@ export default function MacMiniLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Mac mini Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">A second opinion costs you nothing — bring it in before committing to a board replacement.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -247,7 +247,7 @@ export default function NoFixNoFeePage() {
                 { label: 'Free diagnostic', icon: '✓' },
                 { label: 'No deposit required', icon: '✓' },
                 { label: '14 years experience', icon: '✓' },
-                { label: '12-month warranty', icon: '✓' },
+                { label: 'warranty', icon: '✓' },
                 { label: 'Hyde Park workshop', icon: '✓' },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-2 text-sm" style={{ color: '#7A9E98' }}>
@@ -286,7 +286,7 @@ export default function NoFixNoFeePage() {
                       'Deposit required: None',
                       'Pay if not fixed: No',
                       'Written fixed-price quote: Yes',
-                      '12-month warranty: Yes',
+                      'warranty: Yes',
                     ].map((item) => (
                       <li key={item} className="flex items-center gap-2 text-sm" style={{ color: '#E8F4F1' }}>
                         <CheckCircle className="w-4 h-4 flex-shrink-0" style={{ color: '#0FEA7A' }} />
@@ -311,7 +311,7 @@ export default function NoFixNoFeePage() {
                       'Deposit required',
                       'Pay if not fixed: Yes — you already have',
                       'Written fixed-price quote: Not always',
-                      'Warranty: 3 months (standard)',
+                      'Limited warranty terms',
                     ].map((item) => (
                       <li key={item} className="flex items-center gap-2 text-sm" style={{ color: '#7A9E98' }}>
                         <XCircle className="w-4 h-4 flex-shrink-0" style={{ color: '#7A9E98' }} />
@@ -616,7 +616,7 @@ export default function NoFixNoFeePage() {
               {[
                 { icon: Shield, title: '14 Years', sub: 'Mac repair expertise in Johannesburg' },
                 { icon: CheckCircle, title: 'Component-Level', sub: 'Microsoldering — not board swaps' },
-                { icon: Clock, title: '12-Month Warranty', sub: 'On all repairs — industry leading' },
+                { icon: Clock, title: 'Warranty', sub: 'On all repairs — industry leading' },
                 { icon: Star, title: '4.9 / 5 Rating', sub: 'Based on 120 verified reviews' },
               ].map(({ icon: Icon, title, sub }) => (
                 <div

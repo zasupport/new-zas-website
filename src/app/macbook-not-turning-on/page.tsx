@@ -219,7 +219,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook repairs?',
     answer:
-      'All ZA Support repairs carry a 12-month written warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within 12 months of repair, we fix it at no charge. The warranty is transferable if you sell the device.',
+      'All ZA Support repairs carry a written warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within the warranty period, we fix it at no charge. The warranty is transferable if you sell the device.',
   },
 ];
 
@@ -255,7 +255,7 @@ const suburbReviews = [
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Not Turning On — Repair & Diagnosis, Johannesburg',
   description:
-    'Free same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. No Fix No Fee. 12-month warranty.',
+    'Free same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. No Fix No Fee. warranty.',
 });
 
 const faqSchema = buildFaqSchema(faqs);
@@ -425,7 +425,7 @@ export default function MacBookNotTurningOnPage() {
 
             {/* Trust row */}
             <div className="flex flex-wrap gap-3">
-              {['Free Assessment', 'No Fix No Fee', '12-Month Warranty', 'Same-Day Available', 'Hyde Park, JHB'].map((badge) => (
+              {['Free Assessment', 'No Fix No Fee', 'Warranty', 'Same-Day Available', 'Hyde Park, JHB'].map((badge) => (
                 <span
                   key={badge}
                   className="inline-flex items-center gap-1.5 bg-[rgba(255,255,255,0.04)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] text-sm px-3 py-1.5 rounded-full"
@@ -642,7 +642,7 @@ export default function MacBookNotTurningOnPage() {
                 {
                   step: '6',
                   title: 'Collection',
-                  detail: 'Collect from Hyde Park or courier delivery across Johannesburg. 12-month written warranty issued. Most repairs complete within 24–72 hours.',
+                  detail: 'Collect from Hyde Park or courier delivery across Johannesburg. written warranty issued. Most repairs complete within 24–72 hours.',
                   icon: <MapPin className="w-5 h-5" />,
                 },
               ].map((item) => (
@@ -757,7 +757,7 @@ export default function MacBookNotTurningOnPage() {
             </h2>
 
             <p className="text-[#7A9E98] text-lg mb-10 max-w-2xl mx-auto">
-              Free diagnosis. Written quote. No Fix No Fee. 12-month warranty.
+              Free diagnosis. Written quote. No Fix No Fee. warranty.
               Based in Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways and all surrounding suburbs.
             </p>
 

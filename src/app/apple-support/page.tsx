@@ -140,7 +140,7 @@ export default function AppleSupportPage() {
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
               { icon: Shield, label: 'No Fix No Fee' },
-              { icon: BadgeCheck, label: '12-Month Warranty' },
+              { icon: BadgeCheck, label: 'Warranty' },
               { icon: Clock, label: 'Same-Day Help' },
               { icon: Headphones, label: 'All Apple Devices' },
             ].map(({ icon: Icon, label }) => (

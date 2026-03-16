@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Bryanston | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Bryanston clients. Expert microsoldering — 10 minutes from Bryanston to Hyde Park. Free diagnostic, No Fix No Fee, 12-month warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Bryanston clients. Expert microsoldering — 10 minutes from Bryanston to Hyde Park. Free diagnostic, No Fix No Fee, warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/bryanston' },
 };
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Bryanston',
-  description: 'MacBook logic board microsoldering for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Free diagnostic. No Fix No Fee. 12-month warranty.',
+  description: 'MacBook logic board microsoldering for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Free diagnostic. No Fix No Fee. warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -115,7 +115,7 @@ export default function LogicBoardRepairBryanstonPage() {
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'No Fix No Fee' },
-                { icon: AlertTriangle, label: '12-Month Warranty' },
+                { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -155,7 +155,7 @@ export default function LogicBoardRepairBryanstonPage() {
               ZA Support&apos;s approach is to identify the specific failed component first. That requires a stereo microscope, board-level diagnostic tools, and access to Apple schematics — all of which we have at our Hyde Park workshop. The repair itself is microsoldering: the damaged chip, capacitor, or trace is addressed directly, leaving the rest of your original board intact. The cost saving over board replacement is typically 60–80%.
             </p>
             <p>
-              We offer collection from Bryanston. The drive is 10–15 minutes — less than the time spent on hold with most repair centres. Once collected, your MacBook receives a free board-level diagnostic within 24 hours, a written quote before any work begins, and a 12-month warranty on every completed repair.
+              We offer collection from Bryanston. The drive is 10–15 minutes — less than the time spent on hold with most repair centres. Once collected, your MacBook receives a free board-level diagnostic within 24 hours, a written quote before any work begins, and a warranty on every completed repair.
             </p>
           </div>
         </div>
@@ -190,7 +190,7 @@ export default function LogicBoardRepairBryanstonPage() {
               { step: '02', title: 'Free Diagnostic Assessment', desc: 'Board inspected within 24 hours of collection. Fault identified to component level — schematic, microscope, and power diagnostics used.' },
               { step: '03', title: 'Written Quote and Sign-Off', desc: 'You receive a written quote: fault description, repair method, cost, and timeframe. No repair proceeds without your approval.' },
               { step: '04', title: 'Microsoldering Repair', desc: 'The specific failed component is replaced under a stereo microscope. Your original board is preserved. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a 12-month ZA Support warranty. Standard turnaround 48–72 hours from approval.' },
+              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support warranty. Standard turnaround 48–72 hours from approval.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -219,7 +219,7 @@ export default function LogicBoardRepairBryanstonPage() {
                   'Original board — data remains on device',
                   '60–80% cheaper than board replacement',
                   'Touch ID and Secure Enclave remain intact',
-                  '12-month ZA Support warranty',
+                  'ZA Support warranty',
                   'Turnaround typically 48–72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -237,7 +237,7 @@ export default function LogicBoardRepairBryanstonPage() {
                   'Significantly higher cost than microsoldering',
                   'Touch ID pairing is broken on replacement',
                   'May require data migration',
-                  '12-month warranty still applies',
+                  'warranty still applies',
                   'Necessary for: burn damage, multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -298,7 +298,7 @@ export default function LogicBoardRepairBryanstonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Bryanston MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. No Fix No Fee. 12-month warranty.</p>
+            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. No Fix No Fee. warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

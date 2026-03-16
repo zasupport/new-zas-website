@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, 12-month warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air' },
   keywords: [
     'MacBook Air liquid damage repair Johannesburg',
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on MacBook Air liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a 12-month written warranty on every component we repair or replace. If the same fault returns within 12 months due to our workmanship, we fix it at no charge. This is one of the longest warranties in Johannesburg — most shops offer 1–3 months. Our No Fix No Fee policy also applies: if we cannot repair your machine, the assessment is free and you pay nothing.',
+      'All ZA Support liquid damage repairs carry a written warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our No Fix No Fee policy also applies: if we cannot repair your machine, the assessment is free and you pay nothing.',
   },
 ];
 
@@ -189,7 +189,7 @@ const repairProcess = [
   {
     step: '6',
     title: 'Collection or Delivery',
-    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a written 12-month warranty certificate with every repaired MacBook Air.',
+    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a written warranty certificate with every repaired MacBook Air.',
   },
 ];
 
@@ -198,7 +198,7 @@ const reviews = [
     name: 'Simone K.',
     location: 'Sandton',
     rating: 5,
-    text: 'My M2 MacBook Air took a full glass of juice. I panicked but brought it straight in. ZA Support had it assessed within hours and repaired in 2 days — works perfectly. The 12-month warranty gives me peace of mind. Cannot recommend them enough.',
+    text: 'My M2 MacBook Air took a full glass of juice. I panicked but brought it straight in. ZA Support had it assessed within hours and repaired in 2 days — works perfectly. The warranty gives me peace of mind. Cannot recommend them enough.',
     service: 'MacBook Air Liquid Damage Repair',
   },
   {
@@ -234,7 +234,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, 12-month warranty. M1, M2, M3 and Intel models.',
+  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, warranty. M1, M2, M3 and Intel models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -263,7 +263,7 @@ export default function MacBookAirLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. M1, M2, M3 and all Intel models.
-              No Fix No Fee. 12-month written warranty. Hyde Park, Johannesburg.
+              No Fix No Fee. written warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               The MacBook Air&apos;s thin, fanless design means liquid reaches the logic board faster than
@@ -274,7 +274,7 @@ export default function MacBookAirLiquidDamagePage() {
                 { icon: Shield, label: 'No Fix No Fee' },
                 { icon: Clock, label: '24–72hr Turnaround' },
                 { icon: Zap, label: 'Free Assessment' },
-                { icon: CheckCircle, label: '12-Month Warranty' },
+                { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
               ].map(({ icon: Icon, label }) => (
                 <div
@@ -315,7 +315,7 @@ export default function MacBookAirLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2012' },
                 { value: SITE.rating + '★', label: SITE.reviewCount + ' Google Reviews' },
-                { value: '12 Months', label: 'Written Warranty — No Exceptions' },
+                { value: 'Covered', label: 'Written Warranty — No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
@@ -334,7 +334,7 @@ export default function MacBookAirLiquidDamagePage() {
             {[
               { stat: '500+', label: 'Liquid Damage Recoveries' },
               { stat: 'No Fix No Fee', label: 'Pay nothing if we cannot fix it' },
-              { stat: '12-Month Warranty', label: 'Written. On every repair.' },
+              { stat: 'Warranty', label: 'Written. On every repair.' },
               { stat: 'Free Assessment', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
@@ -534,7 +534,7 @@ export default function MacBookAirLiquidDamagePage() {
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               All prices are confirmed before any work begins. Our No Fix No Fee policy applies to every case —
               if we cannot repair your MacBook Air, the assessment is free and the machine is returned exactly
-              as received. 12-month written warranty on all repairs.
+              as received. written warranty on all repairs.
             </p>
           </div>
         </div>

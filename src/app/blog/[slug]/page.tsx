@@ -1274,7 +1274,7 @@ At ZA Support, battery replacement is a same-day service for most models. Here i
 
 ZA Support is based at 1 Hyde Park Lane, Second Floor, Johannesburg. We carry replacement batteries for the most common MacBook models in stock. For less common models we can usually source the battery within 1-2 business days.
 
-Bring your MacBook in for a free assessment. We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. No Fix No Fee. 12-month warranty on all battery replacements.
+Bring your MacBook in for a free assessment. We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. No Fix No Fee. warranty on all battery replacements.
 
 Call **064 529 5863** or message us on WhatsApp to book.
 
@@ -1362,7 +1362,7 @@ Understanding what kind of fault you have is the first step to knowing what your
 
 ZA Support carries assemblies for the most common MacBook models. Less common or newer model assemblies may require sourcing -- typically 3-5 business days.
 
-We offer a free assessment before any commitment. Bring your Mac in to 1 Hyde Park Lane, Hyde Park, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with No Fix No Fee. All screen replacements carry a 12-month warranty.
+We offer a free assessment before any commitment. Bring your Mac in to 1 Hyde Park Lane, Hyde Park, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with No Fix No Fee. All screen replacements carry a warranty.
 
 Call **064 529 5863** or message us on WhatsApp to book or ask about your specific model.
 
@@ -1440,7 +1440,7 @@ We follow a structured process for every [logic board repair](/logic-board-repai
 
 **Step 4 — Post-repair testing.** The board is tested in isolation before reassembly to confirm the fault is resolved. We then reassemble the Mac and run a full functional test covering display, keyboard, trackpad, Wi-Fi, Bluetooth, camera, charging, and all ports.
 
-**Step 5 — Return with warranty.** Your Mac is returned clean and fully functional with a 12-month ZA Support warranty on all repaired components.
+**Step 5 — Return with warranty.** Your Mac is returned clean and fully functional with a ZA Support warranty on all repaired components.
 
 ## Why Component-Level Repair Beats Board Replacement
 
@@ -1448,7 +1448,7 @@ Authorised service quotes for a new logic board when yours fails. That replaceme
 
 Most repair shops that do not work at component level charge for a "refurbished" board swap — a used board of unknown provenance with no guarantee the same fault will not recur.
 
-Component-level [logic board microsoldering](/logic-board-repair) replaces only what is broken. Your data stays intact. Your SSD stays in place. Your repair costs a fraction of board replacement. And our 12-month warranty covers the specific components we worked on — not a refurbished used board we cannot vouch for.
+Component-level [logic board microsoldering](/logic-board-repair) replaces only what is broken. Your data stays intact. Your SSD stays in place. Your repair costs a fraction of board replacement. And our warranty covers the specific components we worked on — not a refurbished used board we cannot vouch for.
 
 ## No Fix No Fee — What It Means for Logic Board Repair
 
@@ -1494,7 +1494,7 @@ Yes. Apple Silicon logic board repair requires specialist tooling and expertise 
 
 **What is the warranty on logic board repair?**
 
-All logic board repairs at ZA Support carry a 12-month warranty on parts and labour. If the same fault recurs within 12 months of the repair, we fix it at no charge. This applies to the specific components replaced — not unrelated new faults.
+All logic board repairs at ZA Support carry a warranty on parts and labour. If the same fault recurs within the warranty period of the repair, we fix it at no charge. This applies to the specific components replaced — not unrelated new faults.
 
 **What should I do if my MacBook suddenly stops working?**
 
@@ -1891,7 +1891,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'What warranty does ZA Support provide on logic board repair?',
-          acceptedAnswer: { '@type': 'Answer', text: 'All logic board repairs at ZA Support carry a 12-month warranty on parts and labour. If the same fault recurs within 12 months, we fix it at no charge.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'All logic board repairs at ZA Support carry a warranty on parts and labour. If the same fault recurs within the warranty period, we fix it at no charge.' },
         },
         {
           '@type': 'Question',
@@ -1937,7 +1937,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'What warranty does ZA Support provide on MacBook battery replacement?',
-          acceptedAnswer: { '@type': 'Answer', text: '12-month warranty on parts and labour. No Fix No Fee -- if we find a secondary issue during assessment that means we cannot complete the repair cleanly, we tell you before proceeding.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'warranty on parts and labour. No Fix No Fee -- if we find a secondary issue during assessment that means we cannot complete the repair cleanly, we tell you before proceeding.' },
         },
       ],
     },

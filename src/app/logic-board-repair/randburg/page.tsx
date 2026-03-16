@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     question: 'Is there a warranty on the repair?',
-    answer: 'Every completed repair carries a 12-month ZA Support warranty. If the same fault recurs within the warranty period, it is repaired at no additional charge. The warranty terms are provided in writing with every repair.',
+    answer: 'Every completed repair carries a ZA Support warranty. If the same fault recurs within the warranty period, it is repaired at no additional charge. The warranty terms are provided in writing with every repair.',
   },
 ];
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Randburg',
-  description: 'MacBook logic board microsoldering for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Free diagnostic. No Fix No Fee. 12-month warranty.',
+  description: 'MacBook logic board microsoldering for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Free diagnostic. No Fix No Fee. warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -115,7 +115,7 @@ export default function LogicBoardRepairRandburgPage() {
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'No Fix No Fee' },
-                { icon: AlertTriangle, label: '12-Month Warranty' },
+                { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -190,7 +190,7 @@ export default function LogicBoardRepairRandburgPage() {
               { step: '02', title: 'Free Board Diagnostic', desc: 'Assessment completed within 24 hours. Fault identified at component level using schematics, microscope, and power-supply tools.' },
               { step: '03', title: 'Quote with Approval', desc: 'Written quote sent to you. Fault description, repair method, cost, and delivery timeline — clear and specific. No hidden costs.' },
               { step: '04', title: 'Precision Repair', desc: 'Specific failed component replaced under a Swift 100X microscope. Your board stays original. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Randburg', desc: 'Tested under load and returned to your Randburg address with a 12-month written warranty. Typically 48–72 hours from collection.' },
+              { step: '05', title: 'Return to Randburg', desc: 'Tested under load and returned to your Randburg address with a written warranty. Typically 48–72 hours from collection.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -251,7 +251,7 @@ export default function LogicBoardRepairRandburgPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Randburg MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Randburg. No Fix No Fee. 12-month warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Randburg. No Fix No Fee. warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

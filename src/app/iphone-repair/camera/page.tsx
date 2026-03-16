@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Camera Repair Johannesburg | ZA Support',
   description:
-    'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. 12-month warranty. Hyde Park.',
+    'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/camera' },
   keywords: [
     'iPhone camera repair Johannesburg',
@@ -83,7 +83,7 @@ const processSteps = [
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct camera module is in stock for your specific model. We stock modules for all current iPhone generations.' },
   { step: '3', title: 'Camera Replaced', desc: 'A certified technician replaces the camera module or lens cover. Camera repairs typically take 60–90 minutes.' },
   { step: '4', title: 'Full Camera Test', desc: 'We test all lenses (wide, ultra-wide, telephoto), the flash, front camera, video OIS, and Portrait Mode before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a 12-month written warranty on the repair and our labour. No Fix No Fee applies.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a written warranty on the repair and our labour. No Fix No Fee applies.' },
 ];
 
 const faqs = [
@@ -125,7 +125,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on iPhone camera repairs?',
     answer:
-      'All iPhone camera repairs at ZA Support come with a 12-month written warranty on the replacement module or lens and our labour. If the camera develops any fault within 12 months of our repair, we fix it at no charge.',
+      'All iPhone camera repairs at ZA Support come with a written warranty on the replacement module or lens and our labour. If the camera develops any fault within the warranty period, we fix it at no charge.',
   },
 ];
 
@@ -148,7 +148,7 @@ const reviews = [
     name: 'Ayesha M.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'iPhone 16 Pro rear camera showed green tint after a drop. Full camera system replaced — all three lenses working, ProRes video confirmed. 12-month warranty. Very happy.',
+    text: 'iPhone 16 Pro rear camera showed green tint after a drop. Full camera system replaced — all three lenses working, ProRes video confirmed. warranty. Very happy.',
     date: 'March 2026',
   },
 ];
@@ -157,7 +157,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Camera Repair Johannesburg',
-  description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens, OIS failure. Front and rear. iPhone 12 through 16 Pro Max. 12-month warranty.',
+  description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens, OIS failure. Front and rear. iPhone 12 through 16 Pro Max. warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -177,7 +177,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Camera Repair Johannesburg',
-  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. 12-month warranty.',
+  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -224,10 +224,10 @@ export default function iPhoneCameraPage() {
             <p className="text-xl text-[#7A9E98] mb-4">
               Blurry photos, black camera screen, cracked lens, OIS failure — we repair all iPhone camera faults.
               Front and rear cameras. iPhone 12 through 16 Pro Max.
-              12-month warranty. Hyde Park, Johannesburg.
+              warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['No Fix No Fee', '12-month warranty', 'Face ID preserved', 'Free assessment', 'ProRes compatible'].map((item) => (
+              {['No Fix No Fee', 'warranty', 'Face ID preserved', 'Free assessment', 'ProRes compatible'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -286,7 +286,7 @@ export default function iPhoneCameraPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include 12-month written warranty. No Fix No Fee. Free assessment.
+            All repairs include written warranty. No Fix No Fee. Free assessment.
             Face ID is never affected by front camera replacement.
           </p>
         </div>
@@ -333,8 +333,8 @@ export default function iPhoneCameraPage() {
                 {[
                   {
                     icon: <Shield className="w-5 h-5" />,
-                    title: '12-Month Written Warranty',
-                    desc: 'Every camera repair carries a 12-month warranty on the replacement module and labour. If blurring or faults return within 12 months, we fix it — no charge.',
+                    title: 'Written Warranty',
+                    desc: 'Every camera repair carries a warranty on the replacement module and labour. If blurring or faults return within the warranty period, we fix it — no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

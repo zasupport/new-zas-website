@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Watch Repair Johannesburg | Screen & Battery | ZA Support',
   description:
-    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. No Fix No Fee. 12-month warranty. Hyde Park.',
+    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. No Fix No Fee. warranty. Hyde Park.',
   keywords: [
     'apple watch repair johannesburg',
     'apple watch screen crack johannesburg',
@@ -37,7 +37,7 @@ const faqs = [
   {
     question: 'Do you repair Apple Watch Ultra or Ultra 2?',
     answer:
-      'No. Apple Watch Ultra is not a service we offer. The Ultra uses a titanium case with a custom display assembly that is not serviceable outside of Apple. We would rather be honest upfront than attempt a repair we cannot stand behind. Apple Store or Apple Authorised Service Provider is the right path for Ultra repairs.',
+      'No. Apple Watch Ultra is not a service we offer. The Ultra uses a titanium case with a custom display assembly that is not serviceable outside of Apple. We would rather be honest upfront than attempt a repair we cannot stand behind. Contact Apple directly for Ultra repairs.',
   },
   {
     question: 'How long does Apple Watch repair take?',
@@ -165,7 +165,7 @@ export default function AppleWatchRepairPage() {
               Cracked Apple Watch screen or dead battery? Screen and battery replacement for Series 3 through Series 9 and Apple Watch SE.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              No Fix No Fee. 12-month warranty. Free assessment. Hyde Park, Johannesburg.
+              No Fix No Fee. warranty. Free assessment. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -332,8 +332,8 @@ export default function AppleWatchRepairPage() {
                 desc: 'Cannot fix it? You pay nothing. No assessment fee, no call-out charge, no admin.',
               },
               {
-                title: '12-Month Warranty',
-                desc: 'All Apple Watch repairs carry a 12-month parts and labour warranty. Same fault — we fix it at no charge.',
+                title: 'Warranty',
+                desc: 'All Apple Watch repairs carry a parts and labour warranty. Same fault — we fix it at no charge.',
               },
               {
                 title: 'Sensor Testing',
@@ -418,7 +418,7 @@ export default function AppleWatchRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Screen replacement &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Crown repair
             </p>
-            <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

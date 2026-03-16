@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Logic Board Repair | ZA Support',
   description:
-    'MacBook Pro logic board repair in Johannesburg. Free diagnostic, No Fix No Fee, 12-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro logic board repair in Johannesburg. Free diagnostic, No Fix No Fee, warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro' },
   keywords: [
     'MacBook Pro logic board repair Johannesburg',
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     question: 'Do you offer a warranty on logic board repairs?',
-    answer: 'Yes — all ZA Support logic board repairs carry a 12-month warranty on the repaired component and any parts replaced. This is significantly longer than the industry standard in Johannesburg, where most repair shops offer 1–3 months. If the same fault returns within 12 months, we repair it at no charge.',
+    answer: 'Yes — all ZA Support logic board repairs carry a warranty on the repaired component and any parts replaced. This is significantly longer than the industry standard in Johannesburg. If the same fault returns within the warranty period, we repair it at no charge.',
   },
   {
     question: 'What if my MacBook Pro cannot be fixed?',
@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro 15" Intel shows GPU artifacts and flickering. What is happening?',
-    answer: 'This is almost certainly a discrete GPU failure — specifically, solder joint failure between the AMD Radeon GPU package and the logic board. This is a known issue on 2011–2019 Intel MacBook Pros with discrete GPUs. The repair involves reballing (removing the chip, cleaning the pads, applying fresh solder balls, and reflowing) or component-level repair of the GPU package. It is a definitive fix, not a temporary workaround, and is covered by our 12-month warranty.',
+    answer: 'This is almost certainly a discrete GPU failure — specifically, solder joint failure between the AMD Radeon GPU package and the logic board. This is a known issue on 2011–2019 Intel MacBook Pros with discrete GPUs. The repair involves reballing (removing the chip, cleaning the pads, applying fresh solder balls, and reflowing) or component-level repair of the GPU package. It is a definitive fix, not a temporary workaround, and is covered by our warranty.',
   },
   {
     question: 'My MacBook Pro stopped working after the USB-C port was damaged. What is the repair path?',
@@ -130,7 +130,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Logic Board Repair Johannesburg',
-  description: 'Expert MacBook Pro logic board repair and microsoldering in Johannesburg. All Intel and Apple Silicon models. Free diagnostic. No Fix No Fee. 12-month warranty.',
+  description: 'Expert MacBook Pro logic board repair and microsoldering in Johannesburg. All Intel and Apple Silicon models. Free diagnostic. No Fix No Fee. warranty.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Home', url: 'https://zasupport.com' },
@@ -163,14 +163,14 @@ export default function MacBookProLogicBoardPage() {
               All Intel and Apple Silicon models. Free diagnostic with no obligation.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              We repair the board — we do not just replace it. Component-level repair is a fraction of the cost of an Apple Store replacement. Hyde Park, Johannesburg.
+              We repair the board — we do not just replace it. Component-level repair is a fraction of the cost of a full board replacement. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Shield, label: 'No Fix No Fee' },
                 { icon: Clock, label: '3–5 Day Turnaround' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: '12-Month Warranty' },
+                { icon: CheckCircle, label: 'Warranty' },
                 { icon: Cpu, label: 'Microscope Microsoldering' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -208,7 +208,7 @@ export default function MacBookProLogicBoardPage() {
                 { value: SITE.repairsCount, label: 'Devices Repaired' },
                 { value: `${SITE.yearsExperience} Years`, label: 'In Business Since 2012' },
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
-                { value: '12 Months', label: 'Warranty — Written. No Exceptions.' },
+                { value: 'Covered', label: 'Warranty — Written. No Exceptions.' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
@@ -419,7 +419,7 @@ export default function MacBookProLogicBoardPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
-              <p className="text-[#E8F4F1] font-bold mb-2">Our repair vs Apple Store</p>
+              <p className="text-[#E8F4F1] font-bold mb-2">Why Component-Level Repair</p>
               <p className="text-[#7A9E98] text-sm">Apple replaces the entire logic board — we repair the specific failed component. Same result — your machine works again — at a fraction of the cost.</p>
             </div>
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
@@ -460,8 +460,8 @@ export default function MacBookProLogicBoardPage() {
               },
               {
                 icon: CheckCircle,
-                title: '12-Month Warranty',
-                body: 'Our warranty period is 12 months on every repaired component. The industry standard in JHB is 1–3 months. We stand behind our work.',
+                title: 'Warranty',
+                body: 'We stand behind our work.',
               },
               {
                 icon: Shield,
@@ -580,7 +580,7 @@ export default function MacBookProLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Pro Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Saturday 09:00–13:00</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

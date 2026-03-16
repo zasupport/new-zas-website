@@ -41,7 +41,7 @@ const services = [
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with 12-month warranty.',
+    description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with warranty.',
     href: '/macbook-repair/keyboard',
     price: 'Quoted on assessment',
   },
@@ -119,7 +119,7 @@ const knownIssues = [
     name: 'Butterfly Keyboard',
     models: '2016–2019 MacBook Pro',
     icon: Keyboard,
-    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly — keyboard, battery bracket, and all — with a working unit carrying a 12-month warranty.',
+    description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly — keyboard, battery bracket, and all — with a working unit carrying a warranty.',
   },
   {
     name: 'Thermal Throttling',
@@ -144,7 +144,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro butterfly keyboard has keys that do not register. What are my options?',
-    answer: 'Butterfly keyboard failure is a known issue on MacBook Pro 2016 to 2019 models. Apple\'s free repair programme has ended. The repair involves replacing the full top case assembly — keyboard, battery connector bracket, and surrounding chassis. This is a major repair but produces a reliably working machine. We carry top cases for most affected models and include a 12-month warranty on the repair.',
+    answer: 'Butterfly keyboard failure is a known issue on MacBook Pro 2016 to 2019 models. Apple\'s free repair programme has ended. The repair involves replacing the full top case assembly — keyboard, battery connector bracket, and surrounding chassis. This is a major repair but produces a reliably working machine. We carry top cases for most affected models and include a warranty on the repair.',
   },
   {
     question: 'My MacBook Pro has a black screen but the fans spin on startup. What is wrong?',
@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     question: 'Is there a warranty on MacBook Pro repairs?',
-    answer: 'All MacBook Pro repairs carry a 12-month ZA Support warranty on parts and labour. If the same fault reoccurs within 12 months, we fix it at no additional cost. This covers screen, battery, keyboard, trackpad, port, and logic board repairs. Physical damage, liquid damage after repair, and unrelated new faults are excluded.',
+    answer: 'All MacBook Pro repairs carry a ZA Support warranty on parts and labour. If the same fault reoccurs within the warranty period, we fix it at no additional cost. This covers screen, battery, keyboard, trackpad, port, and logic board repairs. Physical damage, liquid damage after repair, and unrelated new faults are excluded.',
   },
   {
     question: 'My MacBook Pro is throttling and running hot. Can you fix it?',
@@ -251,7 +251,7 @@ export default function MacBookProRepairPage() {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 12-month warranty</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> warranty</span>
               <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> No Fix No Fee</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
@@ -292,7 +292,7 @@ export default function MacBookProRepairPage() {
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Pro Repairs We Do</h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault — from battery to board-level microsoldering. Same-day diagnosis, fixed pricing, 12-month warranty.</p>
+          <p className="text-[#7A9E98] text-center mb-12 text-sm">Every MacBook Pro fault — from battery to board-level microsoldering. Same-day diagnosis, fixed pricing, warranty.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => {
               const Icon = svc.icon;
@@ -351,7 +351,7 @@ export default function MacBookProRepairPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after free assessment. All repairs include 12-month warranty.</p>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after free assessment. All repairs include warranty.</p>
         </div>
       </section>
 
@@ -383,7 +383,7 @@ export default function MacBookProRepairPage() {
             {[
               { icon: BadgeCheck, title: SITE.repairsCount, sub: 'MacBook, iPhone and iPad repairs completed' },
               { icon: Star, title: SITE.rating + ' Stars', sub: SITE.reviewCount + ' verified Google reviews' },
-              { icon: Shield, title: '12-Month Warranty', sub: 'On every repair, every component replaced' },
+              { icon: Shield, title: 'Warranty', sub: 'On every repair, every component replaced' },
             ].map((item) => (
               <div key={item.title} className="glass-card p-8">
                 <item.icon className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />

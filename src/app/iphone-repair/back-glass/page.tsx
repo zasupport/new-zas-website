@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Back Glass Repair Johannesburg | ZA Support',
   description:
-    'iPhone back glass repair in Johannesburg. Cracked rear glass on all models iPhone 12 through 16 Pro Max. MagSafe preserved. 12-month warranty. Hyde Park.',
+    'iPhone back glass repair in Johannesburg. Cracked rear glass on all models iPhone 12 through 16 Pro Max. MagSafe preserved. warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/back-glass' },
   keywords: [
     'iPhone back glass repair Johannesburg',
@@ -85,7 +85,7 @@ const processSteps = [
   { step: '2', title: 'Glass Confirmed', desc: 'We confirm the correct rear glass is in stock for your specific model and colour. We stock glass for all current iPhone models in the main colour options.' },
   { step: '3', title: 'Glass Replaced', desc: 'A certified technician uses controlled heat to remove the shattered glass and bonds OEM-quality replacement glass using UV adhesive. The process takes 90–120 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test wireless charging, MagSafe alignment, the rear camera system, and re-seal the chassis to restore IP68-class water resistance.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a 12-month written warranty on the replacement glass and our labour. No Fix No Fee — you pay nothing if we cannot complete the repair.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a written warranty on the replacement glass and our labour. No Fix No Fee — you pay nothing if we cannot complete the repair.' },
 ];
 
 const faqs = [
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on iPhone back glass repairs?',
     answer:
-      'All iPhone back glass repairs at ZA Support carry a 12-month written warranty on the replacement glass and our labour. If the glass delaminates or any fault related to our repair appears within 12 months, we fix it at no charge.',
+      'All iPhone back glass repairs at ZA Support carry a written warranty on the replacement glass and our labour. If the glass delaminates or any fault related to our repair appears within the warranty period, we fix it at no charge.',
   },
 ];
 
@@ -136,7 +136,7 @@ const reviews = [
     name: 'Gareth L.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'iPhone 15 Pro back glass shattered after a drop. ZA Support replaced it perfectly — titanium chassis looks flawless, MagSafe snaps perfectly, 12-month warranty. Fast and professional.',
+    text: 'iPhone 15 Pro back glass shattered after a drop. ZA Support replaced it perfectly — titanium chassis looks flawless, MagSafe snaps perfectly, warranty. Fast and professional.',
     date: 'February 2026',
   },
   {
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Back Glass Repair Johannesburg',
-  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging. 12-month warranty.',
+  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging. warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,7 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Back Glass Repair Johannesburg',
-  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging restoration. 12-month warranty.',
+  description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging restoration. warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -226,10 +226,10 @@ export default function iPhoneBackGlassPage() {
             <p className="text-xl text-[#7A9E98] mb-4">
               Cracked rear glass, MagSafe alignment, wireless charging — we repair all iPhone back glass faults.
               iPhone 12 through 16 Pro Max.
-              12-month warranty. Hyde Park, Johannesburg.
+              warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['No Fix No Fee', '12-month warranty', 'MagSafe preserved', 'IP68 re-sealed', 'Free assessment'].map((item) => (
+              {['No Fix No Fee', 'warranty', 'MagSafe preserved', 'IP68 re-sealed', 'Free assessment'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -288,7 +288,7 @@ export default function iPhoneBackGlassPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include 12-month written warranty. No Fix No Fee. MagSafe and wireless charging tested post-repair.
+            All repairs include written warranty. No Fix No Fee. MagSafe and wireless charging tested post-repair.
             Free assessment — no charge if we cannot complete the repair.
           </p>
         </div>
@@ -334,8 +334,8 @@ export default function iPhoneBackGlassPage() {
                 {[
                   {
                     icon: <Shield className="w-5 h-5" />,
-                    title: '12-Month Written Warranty',
-                    desc: 'Every back glass repair carries a 12-month warranty on the replacement glass and labour. If it delaminates or fails, we fix it — no charge.',
+                    title: 'Written Warranty',
+                    desc: 'Every back glass repair carries a warranty on the replacement glass and labour. If it delaminates or fails, we fix it — no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

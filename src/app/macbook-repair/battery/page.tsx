@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg | ZA Support',
   description:
-    'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. 12-month warranty. Hyde Park. Call 064 529 5863.',
+    'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/battery' },
   keywords: [
     'MacBook battery replacement Johannesburg',
@@ -30,7 +30,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Battery Replacement Johannesburg',
-  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. 12-month warranty.',
+  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -52,7 +52,7 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
   description:
-    'MacBook battery replacement in Johannesburg. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty on parts and labour.',
+    'MacBook battery replacement in Johannesburg. All M-series and Intel MacBook Air and Pro models. Same-day available. warranty on parts and labour.',
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
     { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
@@ -66,7 +66,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Air Battery Replacement Johannesburg',
-          description: 'MacBook Air M1/M2/M3 and Intel battery replacement. Same-day available. 12-month warranty.',
+          description: 'MacBook Air M1/M2/M3 and Intel battery replacement. Same-day available. warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -75,7 +75,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Pro Battery Replacement Johannesburg',
-          description: 'MacBook Pro 13"/14"/16" Intel and M-series battery replacement. 12-month warranty.',
+          description: 'MacBook Pro 13"/14"/16" Intel and M-series battery replacement. warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -158,7 +158,7 @@ const faqs = [
   {
     question: 'How much does MacBook battery replacement cost in Johannesburg?',
     answer:
-      'MacBook battery replacement cost depends on your model. All prices include parts, labour, and a 12-month warranty. Call us on 064 529 5863 for a model-specific quote.',
+      'MacBook battery replacement cost depends on your model. All prices include parts, labour, and a warranty. Call us on 064 529 5863 for a model-specific quote.',
   },
   {
     question: 'How long does MacBook battery replacement take?',
@@ -168,7 +168,7 @@ const faqs = [
   {
     question: 'Do you use genuine Apple batteries?',
     answer:
-      'We use high-quality OEM-equivalent battery cells that match or exceed the original Apple specifications for capacity (mAh) and cycle rating. These are not Apple-branded parts — Apple only supplies batteries through its own service channel — but they are rigorously tested and carry our own 12-month warranty on parts and labour. Battery health will show 100% in macOS after replacement.',
+      'We use high-quality OEM-equivalent battery cells that match or exceed the original Apple specifications for capacity (mAh) and cycle rating. These are not Apple-branded parts — Apple only supplies batteries through its own service channel — but they are rigorously tested and carry our own warranty on parts and labour. Battery health will show 100% in macOS after replacement.',
   },
   {
     question: 'Will I lose my data during MacBook battery replacement?',
@@ -188,12 +188,12 @@ const faqs = [
   {
     question: 'Can you replace the battery in a MacBook Pro M1, M2, or M3?',
     answer:
-      'Yes. We replace batteries in all Apple Silicon MacBook Pro models — M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max, and the base M1/M2 13" MacBook Pro. Apple Silicon batteries are glued into the enclosure and take slightly longer than Intel models to replace, but the process is routine for us. The result is 100% battery health and a full 12-month written warranty.',
+      'Yes. We replace batteries in all Apple Silicon MacBook Pro models — M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max, and the base M1/M2 13" MacBook Pro. Apple Silicon batteries are glued into the enclosure and take slightly longer than Intel models to replace, but the process is routine for us. The result is 100% battery health and a full written warranty.',
   },
   {
     question: 'What warranty do I get on a MacBook battery replacement?',
     answer:
-      'Every MacBook battery replacement at ZA Support carries a 12-month written warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within 12 months, we replace it at no charge. We put this in writing — you will receive a job card with the warranty terms when you collect your MacBook.',
+      'Every MacBook battery replacement at ZA Support carries a written warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at no charge. We put this in writing — you will receive a job card with the warranty terms when you collect your MacBook.',
   },
 ];
 
@@ -202,7 +202,7 @@ const reviews = [
     name: 'Tarryn M.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'My MacBook Pro was shutting off at 35% battery. ZA Support replaced it the same afternoon. They showed me the new battery health reading — 100% — before I left. The 12-month warranty was a big plus. Would not go anywhere else.',
+    text: 'My MacBook Pro was shutting off at 35% battery. ZA Support replaced it the same afternoon. They showed me the new battery health reading — 100% — before I left. The warranty was a big plus. Would not go anywhere else.',
   },
   {
     name: 'Jonathan K.',
@@ -255,7 +255,7 @@ export default function MacBookBatteryPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
               All MacBook Air and MacBook Pro models — M1, M2, M3 through to Intel. Genuine-equivalent cells,
-              12-month written warranty, Hyde Park workshop.
+              written warranty, Hyde Park workshop.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -339,7 +339,7 @@ export default function MacBookBatteryPage() {
             MacBook Models We Service — Johannesburg
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            12-month warranty on every replacement. Call to confirm stock for your model and get a fixed quote.
+            warranty on every replacement. Call to confirm stock for your model and get a fixed quote.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* MacBook Air */}
@@ -571,7 +571,7 @@ export default function MacBookBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. 12-month warranty. Free assessment.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. warranty. Free assessment.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — drop in, no appointment needed.
             </p>

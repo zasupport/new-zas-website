@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Screen Repair Johannesburg | ZA Support',
   description:
-    'iPhone screen repair in Johannesburg. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
+    'iPhone screen repair in Johannesburg. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/screen' },
   keywords: [
     'iPhone screen repair Johannesburg',
@@ -85,7 +85,7 @@ const processSteps = [
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct OLED assembly is in stock for your exact model before committing to a repair date. Same-day is available for most models.' },
   { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the OLED display assembly. iPhone screen repairs typically take 60–90 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy, Face ID, True Tone, brightness, and colour uniformity across the full panel before returning your device.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a 12-month written warranty on the replacement screen and our labour. No Fix No Fee applies — you pay nothing if we cannot fix it.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a written warranty on the replacement screen and our labour. No Fix No Fee applies — you pay nothing if we cannot fix it.' },
 ];
 
 const faqs = [
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on iPhone screen repairs?',
     answer:
-      'All iPhone screen repairs at ZA Support come with a 12-month written warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within 12 months of our repair, we fix it at no charge.',
+      'All iPhone screen repairs at ZA Support come with a written warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at no charge.',
   },
 ];
 
@@ -150,7 +150,7 @@ const reviews = [
     name: 'Nomsa K.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, 12-month warranty, and the technician explained everything clearly. Highly recommend.',
+    text: 'Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, warranty, and the technician explained everything clearly. Highly recommend.',
     date: 'March 2026',
   },
 ];
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Screen Repair Johannesburg',
-  description: 'iPhone screen repair in Johannesburg. All models iPhone 12 through 16 Pro Max. OLED replacement, touch repair, dead pixels. 12-month warranty.',
+  description: 'iPhone screen repair in Johannesburg. All models iPhone 12 through 16 Pro Max. OLED replacement, touch repair, dead pixels. warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,7 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Screen Repair Johannesburg',
-  description: 'iPhone screen repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked OLED, dead touch, lines, dead pixels. 12-month warranty.',
+  description: 'iPhone screen repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked OLED, dead touch, lines, dead pixels. warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -226,10 +226,10 @@ export default function iPhoneScreenPage() {
             <p className="text-xl text-[#7A9E98] mb-4">
               Cracked OLED, dead touch, lines, ghost touch — we repair all iPhone screen faults.
               iPhone 12 through 16 Pro Max. Same-day available.
-              12-month warranty. Hyde Park, Johannesburg.
+              warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Free assessment', 'No Fix No Fee', '12-month warranty', 'Face ID preserved', 'Same-day available', 'Written quote'].map((item) => (
+              {['Free assessment', 'No Fix No Fee', 'warranty', 'Face ID preserved', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -288,7 +288,7 @@ export default function iPhoneScreenPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include 12-month written warranty. No Fix No Fee. Face ID and True Tone preserved.
+            All repairs include written warranty. No Fix No Fee. Face ID and True Tone preserved.
             Free assessment — no charge if we cannot repair your device.
           </p>
         </div>
@@ -335,8 +335,8 @@ export default function iPhoneScreenPage() {
                 {[
                   {
                     icon: <Shield className="w-5 h-5" />,
-                    title: '12-Month Written Warranty',
-                    desc: 'Every iPhone screen repair carries a 12-month warranty on parts and labour. If it fails, we fix it — no arguments, no charge.',
+                    title: 'Written Warranty',
+                    desc: 'Every iPhone screen repair carries a warranty on parts and labour. If it fails, we fix it — no arguments, no charge.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
@@ -397,7 +397,7 @@ export default function iPhoneScreenPage() {
               </div>
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
                 <p className="text-[#7A9E98] text-sm italic mb-3">
-                  &ldquo;Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, 12-month warranty.
+                  &ldquo;Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, warranty.
                   The technician explained everything clearly.&rdquo;
                 </p>
                 <div className="flex items-center gap-2">
@@ -476,7 +476,7 @@ export default function iPhoneScreenPage() {
             >
               Cracked iPhone Screen?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee. 12-month warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee. warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

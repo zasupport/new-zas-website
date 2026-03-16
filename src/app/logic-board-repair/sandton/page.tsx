@@ -115,7 +115,7 @@ export default function LogicBoardRepairSandtonPage() {
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'No Fix No Fee' },
-                { icon: AlertTriangle, label: '12-Month Warranty' },
+                { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -190,7 +190,7 @@ export default function LogicBoardRepairSandtonPage() {
               { step: '02', title: 'Free Diagnostic Assessment', desc: 'Your MacBook is assessed at board level within 24 hours. We trace the exact fault using diagnostic tools, schematics, and a stereo microscope.' },
               { step: '03', title: 'Written Quote — No Obligation', desc: 'You receive a clear quote detailing the fault, the repair approach, the cost, and the expected timeframe. No work begins until you approve.' },
               { step: '04', title: 'Microsoldering Repair', desc: 'Our technician carries out the repair under microscope — replacing the specific failed component while leaving everything else on your board untouched.' },
-              { step: '05', title: 'Quality Check and Return', desc: 'Every repair is tested under load before return. Your MacBook is returned to your Sandton address with a 12-month ZA Support warranty.' },
+              { step: '05', title: 'Quality Check and Return', desc: 'Every repair is tested under load before return. Your MacBook is returned to your Sandton address with a ZA Support warranty.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -219,7 +219,7 @@ export default function LogicBoardRepairSandtonPage() {
                   'Your original board — data stays put',
                   '60–80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
-                  'Backed by 12-month ZA Support warranty',
+                  'Backed by ZA Support warranty',
                   'Typically completed within 48–72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -237,7 +237,7 @@ export default function LogicBoardRepairSandtonPage() {
                   'Higher cost — full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
-                  'Still backed by 12-month ZA Support warranty',
+                  'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -298,7 +298,7 @@ export default function LogicBoardRepairSandtonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Sandton MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Sandton. No Fix No Fee. 12-month warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Sandton. No Fix No Fee. warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

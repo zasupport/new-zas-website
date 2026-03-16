@@ -174,7 +174,7 @@ const services = [
     icon: Wrench,
     title: 'iMac Repair',
     description:
-      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a 12-month warranty.',
+      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a warranty.',
     href: '/imac-repair',
     highlight: null,
   },
@@ -261,7 +261,7 @@ export default function ServicesPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 leading-relaxed">
               Mac repair, cybersecurity, managed IT and device monitoring — all from one specialist team in
-              Hyde Park. Free assessment on every device. No Fix No Fee on all repairs. 12-month warranty as standard.
+              Hyde Park. Free assessment on every device. No Fix No Fee on all repairs. warranty as standard.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -290,7 +290,7 @@ export default function ServicesPage() {
             {[
               ['Free Assessment', 'Every device, no obligation'],
               ['No Fix No Fee', 'All repairs guaranteed'],
-              ['12-Month Warranty', 'On all parts and labour'],
+              ['Warranty', 'On all parts and labour'],
               ['4.9 / 5 Rating', '120+ client reviews'],
             ].map(([heading, sub]) => (
               <div key={heading}>
@@ -399,7 +399,7 @@ export default function ServicesPage() {
                 ['Medical IT Experts', 'POPIA + HPCSA-compliant solutions for healthcare practices'],
                 ['Proactive Monitoring', 'Health Check detects failures before they happen'],
                 ['Transparent Pricing', 'All prices published. No surprise invoices.'],
-                ['12-Month Warranty', 'On all parts and labour, no exceptions'],
+                ['Warranty', 'On all parts and labour, no exceptions'],
               ].map(([title, desc]) => (
                 <div key={title} className="glass-card p-5">
                   <p className="text-[#E8F4F1] font-bold text-sm mb-1.5" style={{ fontFamily: 'Syne, sans-serif' }}>

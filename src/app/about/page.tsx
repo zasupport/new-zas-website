@@ -279,7 +279,7 @@ export default function AboutPage() {
                   { icon: Award, text: 'JAMF Certified — Apple fleet management for businesses and medical practices' },
                   { icon: Cpu, text: 'Component-level MacBook logic board microsoldering since 2012' },
                   { icon: Star, text: '4.9★ Google rating across 120+ verified client reviews' },
-                  { icon: Shield, text: 'No Fix No Fee — free assessment, transparent pricing, 12-month warranty' },
+                  { icon: Shield, text: 'No Fix No Fee — free assessment, transparent pricing, warranty' },
                   { icon: CheckCircle, text: '3,000+ Apple devices repaired across Johannesburg and Gauteng' },
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex gap-3 items-start">
@@ -300,13 +300,13 @@ export default function AboutPage() {
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
                   ZA Support was founded in 2012 in Hyde Park, Johannesburg with a clear purpose: to bring genuinely expert Apple repair
-                  to Johannesburg. At the time, the choice for Mac users was between expensive Apple Stores
-                  and unreliable third-party shops that replaced boards instead of repairing them.
+                  to Johannesburg. At the time, Mac users had limited options — expensive authorised service
+                  or unreliable shops that replaced boards instead of repairing them.
                 </p>
                 <p>
                   We chose a different path. Our engineers invested in microscope workstations and microsoldering
                   training to perform the same board-level repairs that most shops still cannot do today.
-                  The result: clients keep their original boards, pay significantly less, and get a 12-month
+                  The result: clients keep their original boards, pay significantly less, and get a full
                   warranty on every repair.
                 </p>
                 <p>

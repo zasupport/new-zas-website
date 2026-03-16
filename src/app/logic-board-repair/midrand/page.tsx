@@ -115,7 +115,7 @@ export default function LogicBoardRepairMidrandPage() {
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'No Fix No Fee' },
-                { icon: AlertTriangle, label: '12-Month Warranty' },
+                { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -190,7 +190,7 @@ export default function LogicBoardRepairMidrandPage() {
               { step: '02', title: 'Board-Level Diagnostic', desc: 'Full inspection within 24 hours — microscope, schematics, and power-supply diagnostics. Exact fault identified and documented.' },
               { step: '03', title: 'Written Quote and Approval', desc: 'You receive a detailed written quote: fault identified, repair approach, cost, and timeframe. No work begins without your sign-off.' },
               { step: '04', title: 'Microsoldering Repair', desc: 'Precision repair using specialist equipment. The specific failed component is replaced — your original board is preserved.' },
-              { step: '05', title: 'Return Delivery to Midrand', desc: 'MacBook tested under load, returned to your Midrand address, and backed by a 12-month written warranty.' },
+              { step: '05', title: 'Return Delivery to Midrand', desc: 'MacBook tested under load, returned to your Midrand address, and backed by a written warranty.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -251,7 +251,7 @@ export default function LogicBoardRepairMidrandPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Midrand MacBook Problem? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Midrand. No Fix No Fee. 12-month warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Midrand. No Fix No Fee. warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

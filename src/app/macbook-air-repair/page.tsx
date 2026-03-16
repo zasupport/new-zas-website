@@ -48,7 +48,7 @@ const services = [
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure on Intel 2018–2019 models, sticky keys, broken switches. Magic Keyboard (M-series) key cap and switch repair. Full assembly replacement with 12-month warranty.',
+    description: 'Butterfly keyboard failure on Intel 2018–2019 models, sticky keys, broken switches. Magic Keyboard (M-series) key cap and switch repair. Full assembly replacement with warranty.',
     href: '/macbook-repair/keyboard',
     price: 'Contact for pricing',
   },
@@ -129,7 +129,7 @@ const knownIssues = [
     name: 'Butterfly Keyboard Failure',
     models: 'MacBook Air 2018–2019 (Intel)',
     icon: AlertTriangle,
-    description: 'Apple\'s butterfly keyboard mechanism was used in the 2018 and 2019 MacBook Air Intel models. It is prone to key bounce, stuck keys, and complete switch failure from minor debris. Apple\'s free repair programme has ended. We replace the full top-case assembly — keyboard, battery bracket, and surrounding chassis — with a 12-month warranty.',
+    description: 'Apple\'s butterfly keyboard mechanism was used in the 2018 and 2019 MacBook Air Intel models. It is prone to key bounce, stuck keys, and complete switch failure from minor debris. Apple\'s free repair programme has ended. We replace the full top-case assembly — keyboard, battery bracket, and surrounding chassis — with a warranty.',
   },
   {
     name: 'Screen Anti-Reflective Coating Delamination',
@@ -168,7 +168,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Air has a butterfly keyboard with keys that do not work. Can it be fixed?',
-    answer: 'Yes. Butterfly keyboard failure is a known issue on MacBook Air 2018 and 2019 Intel models. Apple\'s free repair programme ended in 2023. The repair involves replacing the full top-case assembly — keyboard, battery bracket, and chassis — with a working unit. We carry top-case assemblies for both affected models and include a 12-month warranty.',
+    answer: 'Yes. Butterfly keyboard failure is a known issue on MacBook Air 2018 and 2019 Intel models. Apple\'s free repair programme ended in 2023. The repair involves replacing the full top-case assembly — keyboard, battery bracket, and chassis — with a working unit. We carry top-case assemblies for both affected models and include a warranty.',
   },
   {
     question: 'Is it worth repairing an older MacBook Air?',
@@ -180,7 +180,7 @@ const faqs = [
   },
   {
     question: 'Does ZA Support offer a warranty on MacBook Air repairs?',
-    answer: 'Yes. All MacBook Air repairs carry a 12-month ZA Support warranty on parts and labour. If the same fault reoccurs within 12 months, we repair it at no additional cost. This applies to battery, screen, keyboard, hinge, port, and logic board work. Physical damage subsequent to the repair and new unrelated faults are not covered.',
+    answer: 'Yes. All MacBook Air repairs carry a ZA Support warranty on parts and labour. If the same fault reoccurs within the warranty period, we repair it at no additional cost. This applies to battery, screen, keyboard, hinge, port, and logic board work. Physical damage subsequent to the repair and new unrelated faults are not covered.',
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
@@ -264,7 +264,7 @@ export default function MacBookAirRepairPage() {
               </a>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 12-month warranty</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> warranty</span>
               <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> No Fix No Fee</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
@@ -339,7 +339,7 @@ export default function MacBookAirRepairPage() {
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air Repairs We Do</h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">All common MacBook Air faults — same-day diagnosis, fixed pricing, 12-month warranty.</p>
+          <p className="text-[#7A9E98] text-center mb-12 text-sm">All common MacBook Air faults — same-day diagnosis, fixed pricing, warranty.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((svc) => {
               const Icon = svc.icon;
@@ -385,7 +385,7 @@ export default function MacBookAirRepairPage() {
             {[
               { icon: BadgeCheck, title: SITE.repairsCount, sub: 'MacBook, iPhone and iPad repairs completed' },
               { icon: Star, title: SITE.rating + ' Stars', sub: SITE.reviewCount + ' verified Google reviews' },
-              { icon: Shield, title: '12-Month Warranty', sub: 'On every repair, every component replaced' },
+              { icon: Shield, title: 'Warranty', sub: 'On every repair, every component replaced' },
             ].map((item) => (
               <div key={item.title} className="glass-card p-8">
                 <item.icon className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />

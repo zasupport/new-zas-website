@@ -111,7 +111,7 @@ export default function iMacWaterDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="flex items-center gap-3 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. 12-month warranty. Collection available in Hyde Park area.</p>
+                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. warranty. Collection available in Hyde Park area.</p>
               </div>
             </div>
           </div>

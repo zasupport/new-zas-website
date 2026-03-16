@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     question: 'Do you repair MacBook Pros from the Fourways Mall Apple Premium Reseller?',
-    answer: 'Yes, we repair all models sold through Apple Premium Resellers and independent retailers. ZA Support is an independent Apple repair specialist — we are not affiliated with Apple or any reseller. This means our prices are competitive, our repairs are component-level (not just board swaps), and we back every repair with a 12-month warranty.',
+    answer: 'Yes, we repair all models sold through Apple Premium Resellers and independent retailers. ZA Support is an independent Apple repair specialist — we are not affiliated with Apple or any reseller. This means our prices are competitive, our repairs are component-level (not just board swaps), and we back every repair with a warranty.',
   },
   {
     question: 'What is the turnaround time for a Fourways collection job?',
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Fourways',
-  description: 'MacBook logic board microsoldering for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Free diagnostic. No Fix No Fee. 12-month warranty.',
+  description: 'MacBook logic board microsoldering for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Free diagnostic. No Fix No Fee. warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -115,7 +115,7 @@ export default function LogicBoardRepairFourwaysPage() {
                 { icon: Cpu, label: 'Microscope Microsoldering' },
                 { icon: Zap, label: 'Free Diagnostic' },
                 { icon: CheckCircle, label: 'No Fix No Fee' },
-                { icon: AlertTriangle, label: '12-Month Warranty' },
+                { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -146,7 +146,7 @@ export default function LogicBoardRepairFourwaysPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Fourways has evolved into one of Johannesburg&apos;s largest residential and commercial precincts — taking in Broadacres, Lonehill, Douglasdale, Paulshof, and the Fourways Mall node. It is home to a significant number of professionals, families, and remote workers, many of them on Apple devices bought through the Fourways Mall Apple Premium Reseller or through the Sandton Apple Store.
+              Fourways has evolved into one of Johannesburg&apos;s largest residential and commercial precincts — taking in Broadacres, Lonehill, Douglasdale, Paulshof, and the Fourways Mall node. It is home to a significant number of professionals, families, and remote workers, many of them on Apple devices.
             </p>
             <p>
               When a logic board fault develops — and they do, on every generation of Mac — the question is whether the shop you take it to has the equipment and skill to repair it at component level. Most general repair shops in the Fourways area do not. They quote a full board replacement when the actual fault is a single blown fuse or a failed charging IC worth a fraction of that. ZA Support is different.
@@ -190,7 +190,7 @@ export default function LogicBoardRepairFourwaysPage() {
               { step: '02', title: 'Board Diagnostic', desc: 'Assessment within 24 hours. Fault identified using schematics, oscilloscope, and microscope. No assumptions — exact cause confirmed.' },
               { step: '03', title: 'Written Quote', desc: 'You receive a clear written quote with fault description, repair approach, price, and timeframe. No work begins without approval.' },
               { step: '04', title: 'Microsoldering Repair', desc: 'Failed component replaced under a Swift 100X stereo microscope. Original board preserved. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Fourways', desc: 'MacBook tested under load, returned to your Fourways address, and backed by a 12-month written warranty.' },
+              { step: '05', title: 'Return to Fourways', desc: 'MacBook tested under load, returned to your Fourways address, and backed by a written warranty.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0" style={{ fontFamily: 'Syne, sans-serif' }}>{step}</span>
@@ -251,7 +251,7 @@ export default function LogicBoardRepairFourwaysPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Fourways MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Fourways. No Fix No Fee. 12-month warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Fourways. No Fix No Fee. warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

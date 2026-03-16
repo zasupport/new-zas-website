@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'Does liquid damage repair fall under warranty?',
     answer:
-      'Liquid damage is not covered under Apple\'s standard warranty or AppleCare. However, ZA Support provides a 12-month warranty on all our liquid damage repairs, covering our workmanship and any components we replace.',
+      'Liquid damage is not covered under Apple\'s standard warranty or AppleCare. However, ZA Support provides a warranty on all our liquid damage repairs, covering our workmanship and any components we replace.',
   },
   {
     question: 'What does the ultrasonic cleaning process involve?',
@@ -62,7 +62,7 @@ const steps = [
   { title: 'Diagnostic', description: 'Post-clean diagnostic to identify damaged or failed components. Tested against known-good reference boards.' },
   { title: 'Component Repair', description: 'Board-level microsoldering to replace failed chips, capacitors, resistors, and connector pins under magnification.' },
   { title: 'Testing', description: 'Full functional test — display, keyboard, trackpad, ports, charging, Wi-Fi, camera, and all sensors.' },
-  { title: 'Return', description: 'Device returned clean, fully functional, with a 12-month ZA Support warranty on all repaired components.' },
+  { title: 'Return', description: 'Device returned clean, fully functional, with a ZA Support warranty on all repaired components.' },
 ];
 
 const serviceSchema = {
@@ -99,7 +99,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Liquid Damage Repair — Ultrasonic Cleaning',
-          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. 12-month warranty.',
+          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. warranty.',
         },
         priceCurrency: 'ZAR',
       },
@@ -188,7 +188,7 @@ const liquidDamageReviewSchema = {
       author: { '@type': 'Person', name: 'David M.' },
       datePublished: '2026-01',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a 12-month warranty. Cannot believe it.',
+      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a warranty. Cannot believe it.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Liquid Damage Repair Johannesburg',
@@ -234,7 +234,7 @@ export default function LiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Johannesburg&apos;s liquid damage specialists. Board-level cleaning, component repair, and free
-              assessment. No Fix No Fee. 12-month warranty. Hyde Park.
+              assessment. No Fix No Fee. warranty. Hyde Park.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -436,7 +436,7 @@ export default function LiquidDamagePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { icon: Shield, label: 'No Fix No Fee', sub: 'Zero risk to you' },
-              { icon: CheckCircle, label: '12-Month Warranty', sub: 'On all repairs' },
+              { icon: CheckCircle, label: 'Warranty', sub: 'On all repairs' },
               { icon: Clock, label: '72-Hour Turnaround', sub: 'Most liquid damage cases' },
               { icon: Phone, label: 'Same-Day Assessment', sub: 'Hyde Park, JHB' },
             ].map(({ icon: Icon, label, sub }) => (
@@ -494,7 +494,7 @@ export default function LiquidDamagePage() {
               Book Free Assessment — We Respond Within 1 Hour
             </h2>
             <p className="text-[#7A9E98] mb-6">
-              No Fix No Fee. Honest prognosis. 12-month warranty on all work.
+              No Fix No Fee. Honest prognosis. warranty on all work.
             </p>
             <a
               href={`tel:${CONTACT.phoneTel}`}

@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, 12-month warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro' },
   keywords: [
     'MacBook Pro liquid damage repair Johannesburg',
@@ -74,7 +74,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a 12-month written warranty on every component we repair or replace. If the same fault returns within 12 months due to our workmanship, we fix it at no charge. This is one of the longest warranties in Johannesburg — most shops offer 1–3 months. Our No Fix No Fee policy also applies: if we cannot repair your machine, the assessment is free and you pay nothing.',
+      'All ZA Support liquid damage repairs carry a written warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our No Fix No Fee policy also applies: if we cannot repair your machine, the assessment is free and you pay nothing.',
   },
 ];
 
@@ -187,7 +187,7 @@ const repairProcess = [
   {
     step: '6',
     title: 'Collection or Delivery',
-    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a written 12-month warranty certificate with every repaired machine.',
+    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a written warranty certificate with every repaired machine.',
   },
 ];
 
@@ -210,7 +210,7 @@ const reviews = [
     name: 'Thandi M.',
     location: 'Fourways',
     rating: 5,
-    text: 'My M2 MacBook Pro had a coffee spill. The screen was dead and it would not charge. ZA Support replaced the display, cleaned the board, and had it back to me in 3 days. 12-month warranty too — proper professional service.',
+    text: 'My M2 MacBook Pro had a coffee spill. The screen was dead and it would not charge. ZA Support replaced the display, cleaned the board, and had it back to me in 3 days. warranty too — proper professional service.',
     service: 'Liquid Damage — Display Replacement',
   },
 ];
@@ -232,7 +232,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, 12-month warranty. All Intel and Apple Silicon models.',
+  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, warranty. All Intel and Apple Silicon models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -261,7 +261,7 @@ export default function MacBookProLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. All Intel and Apple Silicon models.
-              No Fix No Fee. 12-month written warranty. Hyde Park, Johannesburg.
+              No Fix No Fee. written warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Every hour matters after a liquid spill. Corrosion starts within minutes of contact —
@@ -272,7 +272,7 @@ export default function MacBookProLiquidDamagePage() {
                 { icon: Shield, label: 'No Fix No Fee' },
                 { icon: Clock, label: '24–72hr Turnaround' },
                 { icon: Zap, label: 'Free Assessment' },
-                { icon: CheckCircle, label: '12-Month Warranty' },
+                { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
               ].map(({ icon: Icon, label }) => (
                 <div
@@ -313,7 +313,7 @@ export default function MacBookProLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2012' },
                 { value: SITE.rating + '★', label: SITE.reviewCount + ' Google Reviews' },
-                { value: '12 Months', label: 'Written Warranty — No Exceptions' },
+                { value: 'Covered', label: 'Written Warranty — No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold" style={{ fontFamily: 'Syne, sans-serif' }}>{value}</p>
@@ -332,7 +332,7 @@ export default function MacBookProLiquidDamagePage() {
             {[
               { stat: '500+', label: 'Liquid Damage Recoveries' },
               { stat: 'No Fix No Fee', label: 'Pay nothing if we cannot fix it' },
-              { stat: '12-Month Warranty', label: 'Written. On every repair.' },
+              { stat: 'Warranty', label: 'Written. On every repair.' },
               { stat: 'Free Assessment', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
@@ -485,7 +485,7 @@ export default function MacBookProLiquidDamagePage() {
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               All prices are confirmed before any work begins. Our No Fix No Fee policy applies to every case —
               if we cannot repair your MacBook Pro, the assessment is free and the machine is returned exactly
-              as received. 12-month written warranty on all repairs.
+              as received. written warranty on all repairs.
             </p>
           </div>
         </div>
@@ -703,7 +703,7 @@ export default function MacBookProLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              Free assessment. No Fix No Fee. 12-month written warranty. Hyde Park, Johannesburg.
+              Free assessment. No Fix No Fee. written warranty. Hyde Park, Johannesburg.
             </p>
           </div>
         </div>

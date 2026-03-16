@@ -73,7 +73,7 @@ export default function iPhoneLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iPhone liquid damage repair. All models iPhone 8 through iPhone 16 Pro Max.
-              Free assessment, No Fix No Fee, 12-month warranty. Hyde Park, Johannesburg.
+              Free assessment, No Fix No Fee, warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -141,7 +141,7 @@ export default function iPhoneLiquidDamagePage() {
               </div>
               <div className="flex items-center gap-3 mt-4 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. 12-month warranty on all repairs.</p>
+                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. warranty on all repairs.</p>
               </div>
             </div>
           </div>

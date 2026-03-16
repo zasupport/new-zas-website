@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Apple Mac Repair Johannesburg | ZA Support',
     description:
-      'Expert Apple Mac repair in Johannesburg. Logic board microsoldering, battery, screen, keyboard, liquid damage. Free diagnostic. No Fix No Fee. 12-month warranty.',
+      'Expert Apple Mac repair in Johannesburg. Logic board microsoldering, battery, screen, keyboard, liquid damage. Free diagnostic. No Fix No Fee. warranty.',
     url: 'https://zasupport.com/apple-repair',
     siteName: 'ZA Support',
     locale: 'en_ZA',
@@ -51,7 +51,7 @@ const serviceCards = [
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore battery health to 100%. All M-series and Intel MacBook Air and Pro models. OEM-grade cells, 12-month warranty.',
+    description: 'Restore battery health to 100%. All M-series and Intel MacBook Air and Pro models. OEM-grade cells, warranty.',
     href: '/macbook-repair/battery',
     tag: null,
     accent: 'text-green-400',
@@ -142,7 +142,7 @@ const processSteps = [
   {
     step: '04',
     title: 'Tested + Warrantied',
-    body: 'Your device is fully tested before collection. Every repair includes a 12-month written warranty covering parts and workmanship.',
+    body: 'Your device is fully tested before collection. Every repair includes a written warranty covering parts and workmanship.',
   },
 ];
 
@@ -161,7 +161,7 @@ const customerReviews = [
     suburb: 'Rosebank',
     rating: 5,
     date: '01/2026',
-    text: 'Screen was flickering on my 2015 MacBook Pro. I had been told it was unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a 12-month warranty. Six weeks later — perfect.',
+    text: 'Screen was flickering on my 2015 MacBook Pro. I had been told it was unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a warranty. Six weeks later — perfect.',
     service: 'Logic Board Repair',
   },
   {
@@ -177,7 +177,7 @@ const customerReviews = [
     suburb: 'Illovo',
     rating: 5,
     date: '03/2026',
-    text: 'Best Apple repair experience in Johannesburg. The team diagnosed a logic board fault that had been completely missed elsewhere. Honest, knowledgeable, and the 12-month warranty gave me real peace of mind.',
+    text: 'Best Apple repair experience in Johannesburg. The team diagnosed a logic board fault that had been completely missed elsewhere. Honest, knowledgeable, and the warranty gave me real peace of mind.',
     service: 'Logic Board Repair',
   },
 ];
@@ -202,7 +202,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on repairs?',
     answer:
-      'Yes — every repair includes a 12-month written warranty covering workmanship and replacement components. If the same fault returns within 12 months, we repair it at no charge. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
+      'Yes — every repair includes a written warranty covering workmanship and replacement components. If the same fault returns within the warranty period, we repair it at no charge. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
   },
   {
     question: 'How long does repair take?',
@@ -222,7 +222,7 @@ const faqs = [
   {
     question: 'Is component-level repair more cost-effective than a board replacement?',
     answer:
-      'Yes, significantly. Authorised service typically performs full logic board replacements — we repair the specific component that failed, which is considerably more affordable. Plus we offer a free diagnostic, No Fix No Fee, and a 12-month warranty.',
+      'Yes, significantly. Authorised service typically performs full logic board replacements — we repair the specific component that failed, which is considerably more affordable. Plus we offer a free diagnostic, No Fix No Fee, and a warranty.',
   },
   {
     question: 'Do you repair M1, M2, M3 and M4 MacBooks?',
@@ -317,7 +317,7 @@ export default function AppleRepairPage() {
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               ZA Support is Johannesburg&apos;s specialist Apple repair service. Logic board microsoldering,
               battery, screen, keyboard, liquid damage, trackpad, charging port — all Mac and iOS devices.
-              Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park.
+              Free diagnostic, No Fix No Fee, warranty. Hyde Park.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -353,7 +353,7 @@ export default function AppleRepairPage() {
               {[
                 { value: SITE.repairsCount, label: 'Repairs Completed' },
                 { value: '14 Years', label: 'Experience Since 2012' },
-                { value: '12 Months', label: 'Written Warranty' },
+                { value: 'Covered', label: 'Written Warranty' },
                 { value: 'No Fix', label: 'No Fee — Always' },
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
@@ -373,7 +373,7 @@ export default function AppleRepairPage() {
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {[
               { icon: Shield, label: 'No Fix No Fee' },
-              { icon: BadgeCheck, label: '12-Month Warranty' },
+              { icon: BadgeCheck, label: 'Warranty' },
               { icon: Clock, label: '72-Hour Turnaround' },
               { icon: CheckCircle, label: 'Free Diagnostic' },
               { icon: Phone, label: '064 529 5863' },
@@ -402,7 +402,7 @@ export default function AppleRepairPage() {
             </div>
             <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
             <div>
-              <p className="text-[#E8F4F1] text-sm font-semibold">No Fix No Fee. 12-month written warranty on every repair.</p>
+              <p className="text-[#E8F4F1] text-sm font-semibold">No Fix No Fee. written warranty on every repair.</p>
               <p className="text-[#7A9E98] text-xs mt-0.5">We only charge you when we successfully fix your device.</p>
             </div>
           </div>
@@ -417,7 +417,7 @@ export default function AppleRepairPage() {
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
             We repair every Apple device, every fault type, at component level where possible.
-            All services include a free diagnostic, No Fix No Fee, and a 12-month written warranty.
+            All services include a free diagnostic, No Fix No Fee, and a written warranty.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {serviceCards.map((service) => (
@@ -457,7 +457,7 @@ export default function AppleRepairPage() {
               <p className="text-[#7A9E98] text-sm leading-relaxed">
                 We assess your device free of charge, diagnose the fault, and only charge you if we successfully repair it.
                 If we cannot fix it, or if the repair is not cost-effective for you, you pay nothing.
-                No callout fee. No diagnostic charge. No hidden costs. Every repair backed by a 12-month written warranty.
+                No callout fee. No diagnostic charge. No hidden costs. Every repair backed by a written warranty.
               </p>
             </div>
             <div className="flex-shrink-0">
@@ -504,7 +504,7 @@ export default function AppleRepairPage() {
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
             We are not a franchise or a walk-in counter. We are specialist Apple technicians who work at component level,
-            give you honest advice, and back every repair with a real 12-month warranty.
+            give you honest advice, and back every repair with a real warranty.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -520,8 +520,8 @@ export default function AppleRepairPage() {
               },
               {
                 icon: BadgeCheck,
-                title: '12-Month Written Warranty',
-                body: 'Every repair comes with a 12-month written warranty covering the specific fault we repaired. If the same issue returns within 12 months, we fix it at no charge. This is non-negotiable and included on every job.',
+                title: 'Written Warranty',
+                body: 'Every repair comes with a written warranty covering the specific fault we repaired. If the same issue returns within the warranty period, we fix it at no charge. This is non-negotiable and included on every job.',
               },
               {
                 icon: Clock,
@@ -643,7 +643,7 @@ export default function AppleRepairPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Apple Device Damaged? Free Diagnostic.
             </h2>
-            <p className="text-[#7A9E98] mb-2">No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Free diagnostic — no charge, no obligation. We only charge you if we successfully repair your device.
             </p>

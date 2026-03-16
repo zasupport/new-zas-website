@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Free assessment, No Fix No Fee, 12-month warranty. Call 064 529 5863.',
+    'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Free assessment, No Fix No Fee, warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/ipad' },
 };
 
@@ -64,7 +64,7 @@ export default function iPadLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iPad liquid damage repair. All iPad models including M4 iPad Pro.
-              Free assessment, No Fix No Fee, 12-month warranty. Hyde Park, Johannesburg.
+              Free assessment, No Fix No Fee, warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -104,7 +104,7 @@ export default function iPadLiquidDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="flex items-center gap-3 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. 12-month warranty on all repairs. Hyde Park, Johannesburg.</p>
+                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. warranty on all repairs. Hyde Park, Johannesburg.</p>
               </div>
             </div>
           </div>

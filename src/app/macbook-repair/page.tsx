@@ -112,7 +112,7 @@ const faqs = [
   },
   {
     question: 'Do you offer a warranty on MacBook repairs?',
-    answer: 'All MacBook repairs carry a 12-month warranty covering our workmanship and any components we replace. This does not cover subsequent physical damage or new unrelated faults.',
+    answer: 'All MacBook repairs carry a warranty covering our workmanship and any components we replace. This does not cover subsequent physical damage or new unrelated faults.',
   },
   {
     question: 'Can you recover data from a damaged MacBook?',
@@ -177,7 +177,7 @@ const macbookReviewSchema = {
       author: { '@type': 'Person', name: 'Michael B.' },
       datePublished: '2026-02',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Brought my MacBook Pro 16-inch in for a battery replacement and keyboard issue. ZA Support had it back to me the same day. Transparent pricing, no hidden costs, and the 12-month warranty gives real peace of mind.',
+      reviewBody: 'Brought my MacBook Pro 16-inch in for a battery replacement and keyboard issue. ZA Support had it back to me the same day. Transparent pricing, no hidden costs, and the warranty gives real peace of mind.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Repair Johannesburg',
@@ -231,7 +231,7 @@ export default function MacBookRepairPage() {
               MacBook Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. No Fix No Fee policy. 12-month warranty.
+              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. No Fix No Fee policy. warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -248,7 +248,7 @@ export default function MacBookRepairPage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 12-month warranty</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> warranty</span>
               <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> No Fix No Fee</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
@@ -323,7 +323,7 @@ export default function MacBookRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">
-            Final cost confirmed after free assessment. All repairs include 12-month warranty.
+            Final cost confirmed after free assessment. All repairs include warranty.
           </p>
           <div className="mt-8 p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-xl text-center">
             <p className="text-[#E8F4F1] text-sm">
@@ -386,7 +386,7 @@ export default function MacBookRepairPage() {
             {[
               { icon: BadgeCheck, title: SITE.repairsCount + ' Repairs', sub: 'MacBook, iPhone and iPad' },
               { icon: Star, title: REVIEWS.rating + ' Stars', sub: REVIEWS.count + ' Google reviews' },
-              { icon: Shield, title: '12-Month Warranty', sub: 'On every repair, every component' },
+              { icon: Shield, title: 'Warranty', sub: 'On every repair, every component' },
             ].map((item) => (
               <div key={item.title} className="glass-card p-8">
                 <item.icon className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />

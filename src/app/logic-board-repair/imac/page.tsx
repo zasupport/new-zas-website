@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iMac Logic Board Repair Johannesburg | ZA Support',
   description:
-    'iMac logic board repair Johannesburg. 21.5", 24" and 27" models — M1, M3, M4, and Intel. We fix the chip, not the board. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
+    'iMac logic board repair Johannesburg. 21.5", 24" and 27" models — M1, M3, M4, and Intel. We fix the chip, not the board. Free diagnostic, No Fix No Fee, warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/imac' },
 };
 
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: 'What warranty do you give on iMac logic board repair?',
     answer:
-      'All iMac logic board repairs carry a 12-month warranty on the specific component repaired. This is a written warranty — no hidden clauses. Competitor warranties in Johannesburg are typically 30–90 days. Our 12-month warranty is one of the longest in the JHB market. If the repaired component fails within 12 months, we fix it at no charge.',
+      'All iMac logic board repairs carry a warranty on the specific component repaired. This is a written warranty — no hidden clauses. If the repaired component fails within the warranty period, we fix it at no charge.',
   },
   {
     question: 'Can you repair the iMac 27" Late 2015 with AMD Radeon R9 GPU failure?',
@@ -124,7 +124,7 @@ const reviews = [
   {
     name: 'Priya N.',
     suburb: 'Rosebank',
-    text: 'The iMac just died after a power outage. ZA Support diagnosed a blown power rail on the logic board within the same day. Fixed in two days. 12-month warranty is real — they put it in writing.',
+    text: 'The iMac just died after a power outage. ZA Support diagnosed a blown power rail on the logic board within the same day. Fixed in two days. warranty is real — they put it in writing.',
     rating: 5,
   },
   {
@@ -163,7 +163,7 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'iMac logic board repair. Free diagnostic. No Fix No Fee. 12-month warranty.',
+  description: 'iMac logic board repair. Free diagnostic. No Fix No Fee. warranty.',
   offers: {
     '@type': 'Offer',
     description: 'iMac logic board repair. Free diagnostic. No Fix No Fee.',
@@ -185,7 +185,7 @@ export default function iMacLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'iMac' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">No Fix No Fee · 12-Month Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">No Fix No Fee · Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               iMac Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
@@ -201,7 +201,7 @@ export default function iMacLogicBoardPage() {
                 { value: '3,000+', label: 'Repairs Done' },
                 { value: '4.9★', label: '120+ Reviews' },
                 { value: '14 Years', label: 'Apple Experience' },
-                { value: '12 Months', label: 'Warranty' },
+                { value: 'Covered', label: 'Warranty' },
               ].map((s) => (
                 <div key={s.label}>
                   <span className="block text-2xl font-extrabold text-[#0FEA7A]">{s.value}</span>
@@ -251,7 +251,7 @@ export default function iMacLogicBoardPage() {
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">ZA Support — iMac Logic Board Repair</p>
               <p className="text-2xl font-extrabold text-[#0FEA7A]">Component-level repair</p>
-              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. Board stays. 12-month warranty.</p>
+              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. Board stays. warranty.</p>
             </div>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default function iMacLogicBoardPage() {
               <div className="flex flex-col gap-3">
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">12-Month Warranty</span> — Written. No exceptions. No 90-day fine print.</p>
+                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Warranty</span> — Written. No exceptions. No 90-day fine print.</p>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <CheckCircle className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
@@ -396,7 +396,7 @@ export default function iMacLogicBoardPage() {
               { step: '01', title: 'Drop-Off or Collection', desc: 'Bring your iMac to our Hyde Park workshop or arrange collection. We cover Sandton, Rosebank, Randburg, Fourways, and surrounds.' },
               { step: '02', title: 'Free Diagnostic', desc: 'Same-day board-level diagnostic. We identify the exact component or circuit at fault — not a guess. You receive a written quote before any work begins.' },
               { step: '03', title: 'Component-Level Repair', desc: 'Under a Leica microscope with temperature-controlled soldering equipment, we replace only the failed IC — not the whole board.' },
-              { step: '04', title: 'Full Test + 12-Month Warranty', desc: 'Post-repair stress test: power cycling, display output, port function, thermal sensors. Written 12-month warranty issued on collection.' },
+              { step: '04', title: 'Full Test + Warranty', desc: 'Post-repair stress test: power cycling, display output, port function, thermal sensors. Written warranty issued on collection.' },
             ].map((s) => (
               <div key={s.step} className="glass-card p-6">
                 <span className="text-4xl font-black text-[rgba(15,234,122,0.2)]">{s.step}</span>
@@ -421,8 +421,8 @@ export default function iMacLogicBoardPage() {
                 desc: 'Authorised service replaces the entire logic board. We replace the specific failed IC. Same result, fraction of the cost.',
               },
               {
-                title: '12-Month Written Warranty',
-                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within 12 months, we fix it free.',
+                title: 'Written Warranty',
+                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within the warranty period, we fix it free.',
               },
               {
                 title: 'No Fix No Fee',
@@ -510,7 +510,7 @@ export default function iMacLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               iMac Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Get a second opinion before committing to a board replacement — it costs you nothing.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

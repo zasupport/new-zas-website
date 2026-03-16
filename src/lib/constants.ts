@@ -63,7 +63,7 @@ export const NAV_LINKS = [
 
 export const TRUST_BADGES = [
   { label: 'No Fix No Fee', icon: 'shield' },
-  { label: '12-Month Warranty', icon: 'badge-check' },
+  { label: 'Warranty', icon: 'badge-check' },
   { label: '72-Hour Turnaround', icon: 'clock' },
   { label: 'Free Assessment', icon: 'search' },
   { label: 'Hyde Park', icon: 'map-pin' },

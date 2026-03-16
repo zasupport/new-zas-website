@@ -115,7 +115,7 @@ export default function BookPage() {
           </h1>
           <p className="text-lg text-[#7A9E98] max-w-xl leading-relaxed">
             Fill in the form below and we will contact you within 2 hours to confirm your booking.
-            Free assessment. No Fix No Fee. 12-month warranty on all repairs.
+            Free assessment. No Fix No Fee. warranty on all repairs.
           </p>
         </div>
       </section>

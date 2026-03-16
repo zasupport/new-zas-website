@@ -374,8 +374,8 @@ export default function MacMiniRepairPage() {
                 desc: 'We repair chips and components, not just swap boards. This saves significantly on logic board faults versus Apple\'s board replacement cost.',
               },
               {
-                title: '12-Month Warranty',
-                desc: 'All repairs carry a 12-month warranty on parts and labour. If the same fault returns, we fix it free.',
+                title: 'Warranty',
+                desc: 'All repairs carry a warranty on parts and labour. If the same fault returns, we fix it free.',
               },
               {
                 title: '14 Years of Apple Experience',

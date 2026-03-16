@@ -22,7 +22,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Keyboard Repair Johannesburg | ZA Support',
   description:
-    'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro — all models. Hyde Park, Johannesburg. 12-month warranty on scissor keyboards.',
+    'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro — all models. Hyde Park, Johannesburg. warranty on scissor keyboards.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/keyboard' },
   keywords: [
     'MacBook keyboard repair Johannesburg',
@@ -48,13 +48,13 @@ const pricingRows = [
   },
   {
     model: 'Scissor keyboard replacement (2020+)',
-    warranty: '12-month warranty',
+    warranty: 'warranty',
     noWarranty: false,
     note: 'MacBook Air M1/M2/M3',
   },
   {
     model: 'MacBook Pro 14" / 16" keyboard (M-series)',
-    warranty: '12-month warranty',
+    warranty: 'warranty',
     noWarranty: false,
     note: 'M1 / M2 / M3 / M4',
   },
@@ -159,7 +159,7 @@ const reviews = [
     name: 'Gareth O.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Spilled coffee on my MacBook Air M2 keyboard at 7am. Dropped it off at Hyde Park by 9am, picked it up at 2pm with a brand new scissor keyboard and 12-month warranty. Incredible turnaround.',
+    text: 'Spilled coffee on my MacBook Air M2 keyboard at 7am. Dropped it off at Hyde Park by 9am, picked it up at 2pm with a brand new scissor keyboard and warranty. Incredible turnaround.',
     date: 'January 2026',
   },
   {
@@ -178,7 +178,7 @@ const faqs = [
   {
     question: 'How much does MacBook keyboard repair cost in Johannesburg?',
     answer:
-      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a 12-month warranty. We provide a free assessment and a fixed written quote before starting any work.',
+      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a warranty. We provide a free assessment and a fixed written quote before starting any work.',
   },
   {
     question: 'Why does the butterfly keyboard carry no warranty?',
@@ -208,7 +208,7 @@ const faqs = [
   {
     question: 'Do you repair MacBook Pro 14" and 16" M-series keyboards?',
     answer:
-      'Yes. We repair all M-series MacBook Pro keyboards including the 14" and 16" models with M1, M2, M3, and M4 chips. These use the MagicKeyboard scissor-switch mechanism and carry a 12-month warranty when replaced. Contact us for a model-specific quote.',
+      'Yes. We repair all M-series MacBook Pro keyboards including the 14" and 16" models with M1, M2, M3, and M4 chips. These use the MagicKeyboard scissor-switch mechanism and carry a warranty when replaced. Contact us for a model-specific quote.',
   },
   {
     question: 'Can individual keys be replaced on a modern MacBook?',
@@ -283,7 +283,7 @@ export default function MacBookKeyboardPage() {
           <Breadcrumb items={breadcrumbItems} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Same-Day Available · 12-Month Warranty (scissor) · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Same-Day Available · Warranty (scissor) · Hyde Park JHB
             </div>
             <h1
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
@@ -438,7 +438,7 @@ export default function MacBookKeyboardPage() {
                 ZA Support does not offer a warranty on like-for-like butterfly keyboard replacements because the design itself is the cause of failure. Replacing one butterfly keyboard with another butterfly keyboard will very likely produce the same fault. We are transparent about this before you decide to proceed.
               </p>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter — a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a 12-month warranty.
+                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter — a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a warranty.
               </p>
             </div>
           </div>
@@ -494,7 +494,7 @@ export default function MacBookKeyboardPage() {
               {
                 icon: <CheckCircle className="w-5 h-5" />,
                 title: 'The Right Fix',
-                body: 'Where a scissor-switch adapter is available for your model, that is the repair we recommend. It uses the updated Magic Keyboard mechanism and carries a 12-month warranty from ZA Support.',
+                body: 'Where a scissor-switch adapter is available for your model, that is the repair we recommend. It uses the updated Magic Keyboard mechanism and carries a warranty from ZA Support.',
               },
             ].map((card) => (
               <div

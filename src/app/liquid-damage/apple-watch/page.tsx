@@ -112,7 +112,7 @@ export default function AppleWatchWaterDamagePage() {
             <div>
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
-                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. 12-month warranty on all repairs completed. Apple Watch resealing service also available.</p>
+                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. warranty on all repairs completed. Apple Watch resealing service also available.</p>
               </div>
             </div>
           </div>

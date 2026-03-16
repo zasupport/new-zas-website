@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad repairs?',
     answer:
-      'Yes. All iPad repairs carry a 12-month warranty on parts and labour. If the same fault recurs within 12 months, we fix it at no charge. This excludes physical damage or liquid damage after the repair.',
+      'Yes. All iPad repairs carry a warranty on parts and labour. If the same fault recurs within the warranty period, we fix it at no charge. This excludes physical damage or liquid damage after the repair.',
   },
 ];
 
@@ -175,7 +175,7 @@ export default function iPadRepairPage() {
               Professional iPad repair in Johannesburg. Screen, battery, and charging port repairs for all iPad models including M4 iPad Pro, Air M2, and mini 6.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              No Fix No Fee. 12-month warranty on all repairs. Free assessment — no charge if we cannot fix it.
+              No Fix No Fee. warranty on all repairs. Free assessment — no charge if we cannot fix it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -303,8 +303,8 @@ export default function iPadRepairPage() {
                 desc: 'If we cannot repair your iPad, you pay nothing. No diagnostic fee, no call-out charge.',
               },
               {
-                title: '12-Month Warranty',
-                desc: 'All parts and labour carry a 12-month warranty. Same fault within 12 months — we fix it free.',
+                title: 'Warranty',
+                desc: 'All parts and labour carry a warranty. Same fault within the warranty period — we fix it free.',
               },
               {
                 title: 'Free Assessment',
@@ -365,8 +365,8 @@ export default function iPadRepairPage() {
               },
               {
                 step: '4',
-                title: 'Repair with 12-Month Warranty',
-                desc: 'We carry out the repair. You are notified when it is ready. All repairs carry a 12-month warranty on parts and labour.',
+                title: 'Repair with Warranty',
+                desc: 'We carry out the repair. You are notified when it is ready. All repairs carry a warranty on parts and labour.',
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-5 glass-card p-6">

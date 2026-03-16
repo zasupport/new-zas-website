@@ -106,7 +106,7 @@ const faqs = [
   },
   {
     question: 'Is the MacBook trackpad covered under the Apple warranty?',
-    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a 12-month written warranty on all our trackpad repairs — if the same fault recurs within 12 months, we fix it at no cost.',
+    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a written warranty on all our trackpad repairs — if the same fault recurs within the warranty period, we fix it at no cost.',
   },
   {
     question: 'My MacBook trackpad clicks but the cursor does not move. What is wrong?',
@@ -123,7 +123,7 @@ const reviews = [
     name: 'Ayesha N.',
     suburb: 'Sandton',
     rating: 5,
-    text: 'My MacBook Pro trackpad was raised and barely clicking. ZA Support diagnosed a swollen battery in minutes, replaced both the battery and realigned the trackpad in the same afternoon. Machine feels brand new. 12-month warranty on the repair too.',
+    text: 'My MacBook Pro trackpad was raised and barely clicking. ZA Support diagnosed a swollen battery in minutes, replaced both the battery and realigned the trackpad in the same afternoon. Machine feels brand new. warranty on the repair too.',
     date: 'February 2026',
   },
   {
@@ -211,7 +211,7 @@ export default function MacBookTrackpadPage() {
           />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Free Assessment · 12-Month Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Free Assessment · Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Trackpad Repair<br />
@@ -420,8 +420,8 @@ export default function MacBookTrackpadPage() {
                   {
                     step: '05',
                     icon: <Clock className="w-5 h-5" />,
-                    title: '12-Month Warranty',
-                    desc: 'Every trackpad repair comes with a 12-month written warranty. If the same fault recurs within 12 months, we fix it at no cost.',
+                    title: 'Warranty',
+                    desc: 'Every trackpad repair comes with a written warranty. If the same fault recurs within the warranty period, we fix it at no cost.',
                   },
                 ].map((step) => (
                   <div key={step.step} className="flex gap-4">
