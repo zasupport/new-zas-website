@@ -14,7 +14,7 @@ const localBusinessSchema = {
   url: 'https://zasupport.com',
   telephone: '+27645295863',
   email: 'admin@zasupport.com',
-  description: 'MacBook repair, iPhone repair, logic board component-level repair, managed IT services and Apple device support in Johannesburg. Assessment: from R599 ex VAT.',
+  description: 'MacBook repair, iPhone repair, logic board component-level repair, managed IT services and Apple device support in Johannesburg. Assessment: from R599.',
   image: 'https://zasupport.com/og-image.jpg',
   priceRange: 'RR',
   currenciesAccepted: 'ZAR',
@@ -105,7 +105,7 @@ export default function ContactPage() {
               Contact <span className="text-[#0FEA7A]">ZA Support</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-2xl">
-              Assessment: from R599 ex VAT. Response within 1 hour during business hours. Hyde Park, Johannesburg.
+              Assessment: from R599. Response within 1 hour during business hours. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

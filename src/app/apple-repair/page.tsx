@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Suspense } from 'react';
+import GoogleReviews from '@/components/ui/GoogleReviews';
 import {
   Phone,
   ArrowRight,
@@ -25,12 +27,12 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Mac Repair, Johannesburg | ZA Support',
   description:
-    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. up-to-3 year warranty. 4.9★ 632+ reviews. Assessment: from R599 ex VAT. Hyde Park. Call 064 529 5863.",
+    "Johannesburg's Apple Mac repair specialists. Logic board, battery, screen, keyboard, liquid damage, trackpad, charging port. up-to-3 year warranty. 4.9★ 632+ reviews. Assessment: from R599. Hyde Park. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com/apple-repair' },
   openGraph: {
     title: 'Apple Mac Repair Johannesburg | ZA Support',
     description:
-      'Expert Apple Mac repair in Johannesburg. Logic board component-level repair, battery, screen, keyboard, liquid damage. Assessment: from R599 ex VAT. up-to-3 year warranty.',
+      'Expert Apple Mac repair in Johannesburg. Logic board component-level repair, battery, screen, keyboard, liquid damage. Assessment: from R599. up-to-3 year warranty.',
     url: 'https://zasupport.com/apple-repair',
     siteName: 'ZA Support',
     locale: 'en_ZA',
@@ -126,8 +128,8 @@ const allServices = [
 const processSteps = [
   {
     step: '01',
-    title: 'Assessment: from R599 ex VAT',
-    body: 'Bring your device to our Hyde Park workshop or arrange a courier. We inspect and identify the fault. Assessment fee: from R599 ex VAT (absorbed into repair cost if you proceed).',
+    title: 'Assessment: from R599',
+    body: 'Bring your device to our Hyde Park workshop or arrange a courier. We inspect and identify the fault. Assessment fee: from R599 (absorbed into repair cost if you proceed).',
   },
   {
     step: '02',
@@ -192,7 +194,7 @@ const faqs = [
   {
     question: 'What is your assessment fee policy?',
     answer:
-      'An assessment fee of from R599 ex VAT applies to all device diagnostics. If you proceed with the repair, this fee is absorbed into the total cost. If you choose not to proceed after the assessment, the from R599 ex VAT fee is payable. All repairs carry a up-to-3 year warranty on parts and labour.',
+      'An assessment fee of from R599 applies to all device diagnostics. If you proceed with the repair, this fee is absorbed into the total cost. If you choose not to proceed after the assessment, the from R599 fee is payable. All repairs carry a up-to-3 year warranty on parts and labour.',
   },
   {
     question: 'Do you repair both old and new Apple devices?',
@@ -222,7 +224,7 @@ const faqs = [
   {
     question: 'Is component-level repair more cost-effective than a board replacement?',
     answer:
-      'Yes, significantly. Authorised service typically performs full logic board replacements, we repair the specific component that failed, which is considerably more affordable. Plus we offer transparent assessment pricing (from R599 ex VAT) and a up-to-3 year warranty on all repairs.',
+      'Yes, significantly. Authorised service typically performs full logic board replacements, we repair the specific component that failed, which is considerably more affordable. Plus we offer transparent assessment pricing (from R599) and a up-to-3 year warranty on all repairs.',
   },
   {
     question: 'Do you repair M1, M2, M3 and M4 MacBooks?',
@@ -315,7 +317,7 @@ export default function AppleRepairPage() {
               <br /><span className="text-[#0FEA7A]">Every Device. Every Problem.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Logic board component-level repair, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: from R599 ex VAT, absorbed into repair cost if you proceed.
+              Logic board component-level repair, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: from R599, absorbed into repair cost if you proceed.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -352,7 +354,7 @@ export default function AppleRepairPage() {
                 { value: SITE.repairsCount, label: 'Repairs Completed' },
                 { value: '16 Years', label: 'Experience Since 2009' },
                 { value: 'Covered', label: 'Up-to-3 Year Warranty' },
-                { value: 'from R599', label: 'ex VAT Assessment' },
+                { value: 'from R599', label: 'Assessment Fee' },
                 { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
               ].map(({ value, label }) => (
                 <div key={label}>
@@ -365,6 +367,20 @@ export default function AppleRepairPage() {
         </div>
       </section>
 
+      {/* Google Reviews */}
+      <section className="py-12 sm:py-16 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider mb-2">Verified Reviews</p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]">4.9★ — Over 632 Google Reviews</h2>
+            <p className="text-[#7A9E98] mt-2">16 years of Apple expertise. Johannesburg&apos;s most reviewed Apple specialist.</p>
+          </div>
+          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
+            <GoogleReviews maxReviews={4} />
+          </Suspense>
+        </div>
+      </section>
+
       {/* ── TRUST BAR ── */}
       <section className="py-6 bg-[#111C1A] border-y border-[rgba(15,234,122,0.1)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -373,7 +389,7 @@ export default function AppleRepairPage() {
               { icon: Shield, label: 'Up-to-3 Year Warranty' },
               { icon: BadgeCheck, label: 'Up-to-3 Year Warranty' },
               { icon: Clock, label: 'Fastest Turnaround Times' },
-              { icon: CheckCircle, label: 'Assessment: from R599 ex VAT' },
+              { icon: CheckCircle, label: 'Assessment: from R599' },
               { icon: Phone, label: '064 529 5863' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2">
@@ -391,7 +407,7 @@ export default function AppleRepairPage() {
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">
             <div>
               <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Assessment policy</p>
-              <p className="text-xl font-extrabold text-[#E8F4F1]">from R599 ex VAT</p>
+              <p className="text-xl font-extrabold text-[#E8F4F1]">from R599</p>
             </div>
             <div className="text-[#0FEA7A] text-3xl font-black">·</div>
             <div>
@@ -415,7 +431,7 @@ export default function AppleRepairPage() {
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
             We repair every Apple device, every fault type, at component level where possible.
-            All services include a transparent assessment (from R599 ex VAT), written quote, and a up-to-3 year warranty.
+            All services include a transparent assessment (from R599), written quote, and a up-to-3 year warranty.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {serviceCards.map((service) => (
@@ -450,11 +466,11 @@ export default function AppleRepairPage() {
             </div>
             <div className="flex-1 text-center md:text-left">
               <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-2">
-                Transparent Pricing, Assessment: from R599 ex VAT
+                Transparent Pricing, Assessment: from R599
               </h2>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                We charge from R599 ex VAT for the assessment and diagnosis. If you proceed with the repair, this fee is absorbed into the total cost.
-                If you choose not to proceed, the from R599 ex VAT assessment fee applies for the diagnostic work completed.
+                We charge from R599 for the assessment and diagnosis. If you proceed with the repair, this fee is absorbed into the total cost.
+                If you choose not to proceed, the from R599 assessment fee applies for the diagnostic work completed.
                 Written quote before any work begins. Every repair backed by a up-to-3 year warranty on parts and labour.
               </p>
             </div>
@@ -513,7 +529,7 @@ export default function AppleRepairPage() {
               {
                 icon: Shield,
                 title: 'Honest Assessment',
-                body: 'If your device is not worth repairing, we will tell you. Our assessment (from R599 ex VAT) is a genuine diagnostic, not a sales exercise. Absorbed into repair cost if you proceed.',
+                body: 'If your device is not worth repairing, we will tell you. Our assessment (from R599) is a genuine diagnostic, not a sales exercise. Absorbed into repair cost if you proceed.',
               },
               {
                 icon: BadgeCheck,
@@ -527,8 +543,8 @@ export default function AppleRepairPage() {
               },
               {
                 icon: CheckCircle,
-                title: 'Diagnostic Assessment: from R599 ex VAT',
-                body: 'Our assessment fee is from R599 ex VAT. You will know exactly what is wrong and exactly what it will cost before any work begins. Fee absorbed into repair cost if you proceed.',
+                title: 'Diagnostic Assessment: from R599',
+                body: 'Our assessment fee is from R599. You will know exactly what is wrong and exactly what it will cost before any work begins. Fee absorbed into repair cost if you proceed.',
               },
               {
                 icon: Star,
@@ -642,7 +658,7 @@ export default function AppleRepairPage() {
             </h2>
             <p className="text-[#7A9E98] mb-2">up-to-3 year warranty on all repairs. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Assessment fee: from R599 ex VAT. You will know exactly what is wrong and what it will cost before any work begins. Fee absorbed into repair cost if you proceed.
+              Assessment fee: from R599. You will know exactly what is wrong and what it will cost before any work begins. Fee absorbed into repair cost if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

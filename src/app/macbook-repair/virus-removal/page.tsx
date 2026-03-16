@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Virus & Malware Removal Johannesburg | Free Diagnosis | ZA Support',
   description:
-    'Mac virus and malware removal in Johannesburg. Assessment: from R599 ex VAT. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',
+    'Mac virus and malware removal in Johannesburg. Assessment: from R599. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/virus-removal' },
   keywords: [
     'mac virus removal johannesburg',
@@ -147,7 +147,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'Mac Virus & Malware Removal Johannesburg',
-  description: 'Mac virus and malware removal service in Johannesburg. Assessment: from R599 ex VAT. Remove adware, browser hijackers, spyware, trojans. Ongoing protection via CyberShield.',
+  description: 'Mac virus and malware removal service in Johannesburg. Assessment: from R599. Remove adware, browser hijackers, spyware, trojans. Ongoing protection via CyberShield.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -178,7 +178,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'Mac virus and malware removal in Johannesburg. Assessment: from R599 ex VAT. Remove Genieo, SearchMine, adware, spyware, trojans. Ongoing protection available via CyberShield.',
+  description: 'Mac virus and malware removal in Johannesburg. Assessment: from R599. Remove Genieo, SearchMine, adware, spyware, trojans. Ongoing protection available via CyberShield.',
 
 };
 
@@ -593,7 +593,7 @@ export default function MacVirusRemovalPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Think Your Mac Has a Virus?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Assessment: from R599 ex VAT. Same-day removal. No fix, no fee.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Assessment: from R599. Same-day removal. No fix, no fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 100% Mac specialists · CyberShield protection available</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

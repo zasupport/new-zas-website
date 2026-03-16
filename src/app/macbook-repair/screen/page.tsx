@@ -49,7 +49,7 @@ const symptoms = [
 const faqs = [
   {
     question: 'How much does MacBook screen replacement cost in Johannesburg?',
-    answer: 'The exact price depends on your specific model and year. We provide a assessment fee (from R599 ex VAT) and give you a written fixed quote before starting any work, no surprises.',
+    answer: 'The exact price depends on your specific model and year. We provide a assessment fee (from R599) and give you a written fixed quote before starting any work, no surprises.',
   },
   {
     question: 'How long does MacBook screen replacement take?',
@@ -189,7 +189,7 @@ export default function MacBookScreenPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: from R599 ex VAT.
+              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: from R599.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -327,7 +327,7 @@ export default function MacBookScreenPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Assessment: from R599 ex VAT',
+                title: 'Assessment: from R599',
                 desc: 'We inspect the display damage and test the logic board to confirm there are no secondary faults. We check whether the GPU or display cable is involved, this changes the repair approach.',
               },
               {
@@ -381,8 +381,8 @@ export default function MacBookScreenPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {[
               {
-                title: 'Assessment: from R599 ex VAT',
-                desc: 'If we cannot fix your MacBook screen, assessment fee of from R599 ex VAT applies. We absorb the diagnostic cost. Zero risk to you.',
+                title: 'Assessment: from R599',
+                desc: 'If we cannot fix your MacBook screen, assessment fee of from R599 applies. We absorb the diagnostic cost. Zero risk to you.',
               },
               {
                 title: 'Up-to-3 Year Warranty',
@@ -523,8 +523,8 @@ export default function MacBookScreenPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-4">
             {[
-              { title: 'Assessment: from R599 ex VAT', body: 'We diagnose the fault before you commit. No charge, no obligation.' },
-              { title: 'Assessment: from R599 ex VAT', body: 'If we cannot repair it, assessment fee of from R599 ex VAT applies. Simple as that.' },
+              { title: 'Assessment: from R599', body: 'We diagnose the fault before you commit. No charge, no obligation.' },
+              { title: 'Assessment: from R599', body: 'If we cannot repair it, assessment fee of from R599 applies. Simple as that.' },
               { title: 'Up-to-3 Year Warranty', body: 'Every screen replacement carries a up-to-3 year warranty on parts and labour.' },
             ].map(({ title, body }) => (
               <div key={title} className="glass-card p-5">
@@ -597,7 +597,7 @@ export default function MacBookScreenPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Cracked MacBook Screen in Johannesburg?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: from R599 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: from R599.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · up-to-3 year warranty on all screen replacements</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

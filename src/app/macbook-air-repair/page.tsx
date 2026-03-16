@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
   description:
-    'MacBook Air repair Johannesburg, battery replacement, screen repair, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018–2020. Intel battery under 400 cycles = replace now. Assessment: from R599 ex VAT. Hyde Park.',
+    'MacBook Air repair Johannesburg, battery replacement, screen repair, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018–2020. Intel battery under 400 cycles = replace now. Assessment: from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-air-repair' },
   keywords: [
     'macbook air repair johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
-    description: 'MacBook Air repair Johannesburg, battery replacement, screen repair. M1/M2/M3/M4 and Intel models. Assessment: from R599 ex VAT.',
+    description: 'MacBook Air repair Johannesburg, battery replacement, screen repair. M1/M2/M3/M4 and Intel models. Assessment: from R599.',
     url: 'https://zasupport.com/macbook-air-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -83,7 +83,7 @@ const services = [
   {
     icon: Droplets,
     title: 'Liquid Damage',
-    description: 'MacBook Air liquid damage, ultrasonic board cleaning, corrosion removal, component-level component-level repair. Bring it in within 48 hours of the spill for the best outcome.',
+    description: 'MacBook Air liquid damage, ultrasonic board cleaning, corrosion removal, component-level repair. Bring it in within 48 hours of the spill for the best outcome.',
     href: '/liquid-damage/macbook-air',
     price: 'Contact for pricing',
   },
@@ -148,7 +148,7 @@ const knownIssues = [
 const faqs = [
   {
     question: 'How much does MacBook Air repair cost in Johannesburg?',
-    answer: 'MacBook Air repair costs depend on the fault and model. We confirm the exact cost in writing after a assessment fee (from R599 ex VAT) before starting any work. Battery, screen, keyboard, hinge, charging port, and logic board repairs are all available, contact us for a quote.',
+    answer: 'MacBook Air repair costs depend on the fault and model. We confirm the exact cost in writing after a assessment fee (from R599) before starting any work. Battery, screen, keyboard, hinge, charging port, and logic board repairs are all available, contact us for a quote.',
   },
   {
     question: 'When should I replace my MacBook Air battery?',
@@ -184,7 +184,7 @@ const faqs = [
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
-    answer: 'MacBook Air repairs are typically less expensive than MacBook Pro repairs for equivalent faults, due to simpler construction and lower component cost. Logic board repairs are priced by fault complexity rather than model and are quoted individually after a assessment fee (from R599 ex VAT).',
+    answer: 'MacBook Air repairs are typically less expensive than MacBook Pro repairs for equivalent faults, due to simpler construction and lower component cost. Logic board repairs are priced by fault complexity rather than model and are quoted individually after a assessment fee (from R599).',
   },
 ];
 
@@ -208,7 +208,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook Air repair in Johannesburg. Battery replacement, screen repair, keyboard, hinge, charging port. M1, M2, M3, M4 and Intel models. Assessment: from R599 ex VAT.',
+    'MacBook Air repair in Johannesburg. Battery replacement, screen repair, keyboard, hinge, charging port. M1, M2, M3, M4 and Intel models. Assessment: from R599.',
 };
 
 const breadcrumbSchema = {
@@ -248,7 +248,7 @@ export default function MacBookAirRepairPage() {
               Battery, screen, keyboard, hinge, and port repair for all MacBook Air models, M1, M2, M3, M4, and Intel. Intel batteries under 400 cycles degrade performance, a battery replacement often transforms the machine.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Battery replacement &middot; Screen repair &middot; Hinge repair &middot; Hyde Park, Johannesburg. Assessment: from R599 ex VAT.
+              Battery replacement &middot; Screen repair &middot; Hinge repair &middot; Hyde Park, Johannesburg. Assessment: from R599.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -265,7 +265,7 @@ export default function MacBookAirRepairPage() {
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
               <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty</span>
-              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: from R599 ex VAT</span>
+              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: from R599</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
           </div>
@@ -410,7 +410,7 @@ export default function MacBookAirRepairPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air Needs a Repair?</h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment: from R599 ex VAT. Hyde Park, Johannesburg. WhatsApp for the fastest response, typically within 30 minutes during business hours.
+              Assessment: from R599. Hyde Park, Johannesburg. WhatsApp for the fastest response, typically within 30 minutes during business hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

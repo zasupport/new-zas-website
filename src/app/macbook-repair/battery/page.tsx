@@ -304,7 +304,7 @@ export default function MacBookBatteryPage() {
             Signs Your MacBook Needs a New Battery
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            Recognise any of these? Book a assessment fee (from R599 ex VAT), we diagnose before we quote.
+            Recognise any of these? Book a assessment fee (from R599), we diagnose before we quote.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {signs.map((s) => (
@@ -370,7 +370,7 @@ export default function MacBookBatteryPage() {
             </div>
           </div>
           <p className="text-[#7A9E98] text-xs mt-6 text-center">
-            Exact quote confirmed after assessment fee (from R599 ex VAT). Contact us for a fixed price on your model.
+            Exact quote confirmed after assessment fee (from R599). Contact us for a fixed price on your model.
           </p>
         </div>
       </section>
@@ -571,7 +571,7 @@ export default function MacBookBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. up-to-3 year warranty. Assessment: from R599 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. up-to-3 year warranty. Assessment: from R599.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, drop in, no appointment needed.
             </p>

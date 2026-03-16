@@ -74,11 +74,11 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599 ex VAT', desc: 'Bring your iPad in or WhatsApp us a photo. We test the battery and provide a written fixed-price quote.' },
+  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPad in or WhatsApp us a photo. We test the battery and provide a written fixed-price quote.' },
   { step: '2', title: 'Battery Sourced', desc: 'We confirm the correct OEM-grade replacement battery is available for your model before booking the repair.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery. Most iPad battery replacements take 1–2 hours.' },
   { step: '4', title: 'Full Calibration', desc: 'We run a charge-discharge cycle to calibrate the new battery and verify accurate charge reporting.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599 ex VAT.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599.' },
 ];
 
 const faqs = [
@@ -220,7 +220,7 @@ export default function iPadBatteryPage() {
               Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599 ex VAT', 'Up-to-3 Year Warranty', 'Same-day available', 'Free battery health test', 'Swollen battery, urgent repair'].map((item) => (
+              {['Assessment: from R599', 'Up-to-3 Year Warranty', 'Same-day available', 'Free battery health test', 'Swollen battery, urgent repair'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -281,7 +281,7 @@ export default function iPadBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599 ex VAT. Free battery health assessment.
+            All repairs include written up-to-3 year warranty. Assessment: from R599. Free battery health assessment.
           </p>
         </div>
       </section>
@@ -417,7 +417,7 @@ export default function iPadBatteryPage() {
             >
               iPad Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free battery health test. Assessment: from R599 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2">Free battery health test. Assessment: from R599.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

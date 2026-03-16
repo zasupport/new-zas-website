@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
   description:
-    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Assessment: from R599 ex VAT.',
+    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Assessment: from R599.',
   alternates: { canonical: 'https://zasupport.com/mac-mini-repair' },
   keywords: [
     'mac mini repair johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
     description:
-      'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), overheating repair. Hyde Park. Assessment: from R599 ex VAT.',
+      'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), overheating repair. Hyde Park. Assessment: from R599.',
     url: 'https://zasupport.com/mac-mini-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -58,7 +58,7 @@ const services = [
     icon: Wrench,
     title: 'Logic Board Repair',
     description:
-      'No video output, random shutdowns, USB ports dead, Wi-Fi failure. Component-level component-level repair on Mac Mini logic boards. Saves significant cost versus Apple\'s board replacement.',
+      'No video output, random shutdowns, USB ports dead, Wi-Fi failure. Component-level repair on Mac Mini logic boards. Saves significant cost versus Apple\'s board replacement.',
   },
   {
     icon: Monitor,
@@ -163,7 +163,7 @@ export default function MacMiniRepairPage() {
           </p>
           <p className="text-slate-400 mb-8 max-w-2xl mx-auto">
             A Mac Mini SSD upgrade is the single best investment you can make in an older machine.
-            Boot in under 20 seconds. Assessment: from R599 ex VAT, fixed quote before we start.
+            Boot in under 20 seconds. Assessment: from R599, fixed quote before we start.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -189,11 +189,11 @@ export default function MacMiniRepairPage() {
       {/* Trust bar */}
       <section className="bg-slate-800 border-y border-slate-700 py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-slate-300">
-          <span>Assessment: from R599 ex VAT</span>
+          <span>Assessment: from R599</span>
           <span className="text-slate-500">|</span>
           <span>Same-Day SSD &amp; RAM Upgrades</span>
           <span className="text-slate-500">|</span>
-          <span>Assessment: from R599 ex VAT</span>
+          <span>Assessment: from R599</span>
           <span className="text-slate-500">|</span>
           <span>{SITE.rating}★ {SITE.reviewCount} Reviews</span>
           <span className="text-slate-500">|</span>
@@ -362,11 +362,11 @@ export default function MacMiniRepairPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                title: 'Assessment: from R599 ex VAT',
-                desc: 'If we cannot fix your Mac Mini, assessment fee of from R599 ex VAT applies. We diagnose first, quote second, repair third.',
+                title: 'Assessment: from R599',
+                desc: 'If we cannot fix your Mac Mini, assessment fee of from R599 applies. We diagnose first, quote second, repair third.',
               },
               {
-                title: 'Assessment: from R599 ex VAT',
+                title: 'Assessment: from R599',
                 desc: 'We assess your Mac Mini at no charge. You get a written quote with no obligation to proceed.',
               },
               {
@@ -410,7 +410,7 @@ export default function MacMiniRepairPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Get Your Mac Mini Running Fast Again</h2>
           <p className="text-slate-300 mb-8">
-            Assessment: from R599 ex VAT. Fixed quote. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.
+            Assessment: from R599. Fixed quote. Assessment: from R599. Hyde Park, Johannesburg.
             SSD and RAM upgrades completed same day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

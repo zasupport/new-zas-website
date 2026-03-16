@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Randburg | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Randburg clients. Expert component-level repair, collect from Randburg, repair at Hyde Park workshop. Assessment: from R599 ex VAT. Call 064 529 5863.',
+    'MacBook logic board repair for Randburg clients. Expert component-level repair, collect from Randburg, repair at Hyde Park workshop. Assessment: from R599. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/randburg' },
 };
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Randburg',
-  description: 'MacBook logic board component-level repair for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Assessment: from R599 ex VAT. up-to-3 year warranty.',
+  description: 'MacBook logic board component-level repair for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Assessment: from R599. up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -114,7 +114,7 @@ export default function LogicBoardRepairRandburgPage() {
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'Assessment: from R599 ex VAT' },
+                { icon: CheckCircle, label: 'Assessment: from R599' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -251,7 +251,7 @@ export default function LogicBoardRepairRandburgPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Randburg. Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Randburg. Assessment: from R599. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

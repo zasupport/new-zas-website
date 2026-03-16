@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment: from R599 ex VAT, up-to-3 year warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment: from R599, up-to-3 year warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro' },
   keywords: [
     'MacBook Pro liquid damage repair Johannesburg',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'MacBook Pro corrosion repair Johannesburg',
     'water damaged MacBook Pro fix Johannesburg',
     'MacBook Pro rice trick alternative Johannesburg',
-    'MacBook Pro liquid damage assessment: from R599 ex VAT',
+    'MacBook Pro liquid damage assessment: from R599',
   ],
 };
 
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: 'Can a water-damaged MacBook Pro be repaired?',
     answer:
-      'Yes, in the majority of cases, especially when the device is brought in quickly. Our ultrasonic cleaning process removes corrosion before it causes permanent damage. MacBook Pros brought in within 24 hours of a spill have a very high recovery rate. Even machines that sat wet for several days can often be saved with component-level component-level repair.',
+      'Yes, in the majority of cases, especially when the device is brought in quickly. Our ultrasonic cleaning process removes corrosion before it causes permanent damage. MacBook Pros brought in within 24 hours of a spill have a very high recovery rate. Even machines that sat wet for several days can often be saved with component-level repair.',
   },
   {
     question: 'How much does liquid damage repair cost?',
@@ -74,7 +74,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: from R599 ex VAT policy also applies: if we cannot repair your machine, the assessment is free and assessment fee of from R599 ex VAT applies.',
+      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: from R599 policy also applies: if we cannot repair your machine, the assessment is free and assessment fee of from R599 applies.',
   },
 ];
 
@@ -161,13 +161,13 @@ const badgeColours: Record<string, string> = {
 const repairProcess = [
   {
     step: '1',
-    title: 'Assessment: from R599 ex VAT',
+    title: 'Assessment: from R599',
     detail: 'We open the machine, inspect under our stereo microscope, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. No charge. No obligation.',
   },
   {
     step: '2',
     title: 'Written Quote',
-    detail: 'You receive a fixed quote, not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, assessment fee of from R599 ex VAT applies.',
+    detail: 'You receive a fixed quote, not a vague estimate. The quote covers the specific fault, every component to be replaced, labour, and a confirmed completion time. If you decline, assessment fee of from R599 applies.',
   },
   {
     step: '3',
@@ -232,7 +232,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, Assessment: from R599 ex VAT, up-to-3 year warranty. All Intel and Apple Silicon models.',
+  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, Assessment: from R599, up-to-3 year warranty. All Intel and Apple Silicon models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -261,7 +261,7 @@ export default function MacBookProLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. All Intel and Apple Silicon models.
-              Assessment: from R599 ex VAT. written up-to-3 year warranty. Hyde Park, Johannesburg.
+              Assessment: from R599. written up-to-3 year warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Every hour matters after a liquid spill. Corrosion starts within minutes of contact —
@@ -269,9 +269,9 @@ export default function MacBookProLiquidDamagePage() {
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'Assessment: from R599 ex VAT' },
+                { icon: Shield, label: 'Assessment: from R599' },
                 { icon: Clock, label: '24–72hr Turnaround' },
-                { icon: Zap, label: 'Assessment: from R599 ex VAT' },
+                { icon: Zap, label: 'Assessment: from R599' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
               ].map(({ icon: Icon, label }) => (
@@ -331,9 +331,9 @@ export default function MacBookProLiquidDamagePage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             {[
               { stat: '500+', label: 'Liquid Damage Recoveries' },
-              { stat: 'Assessment: from R599 ex VAT', label: 'Fee absorbed into repair cost if you proceed' },
+              { stat: 'Assessment: from R599', label: 'Fee absorbed into repair cost if you proceed' },
               { stat: 'Warranty', label: 'Written. On every repair.' },
-              { stat: 'Assessment: from R599 ex VAT', label: 'Always. No obligation.' },
+              { stat: 'Assessment: from R599', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
                 <p className="text-[#0FEA7A] text-lg font-extrabold">{stat}</p>
@@ -483,7 +483,7 @@ export default function MacBookProLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All prices are confirmed before any work begins. Our Assessment: from R599 ex VAT policy applies to every case —
+              All prices are confirmed before any work begins. Our Assessment: from R599 policy applies to every case —
               if we cannot repair your MacBook Pro, the assessment is free and the machine is returned exactly
               as received. up-to-3 year warranty on all repairs.
             </p>
@@ -703,7 +703,7 @@ export default function MacBookProLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              Assessment: from R599 ex VAT. written up-to-3 year warranty. Hyde Park, Johannesburg.
+              Assessment: from R599. written up-to-3 year warranty. Hyde Park, Johannesburg.
             </p>
           </div>
         </div>

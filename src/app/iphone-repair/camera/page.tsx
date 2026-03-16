@@ -79,18 +79,18 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599 ex VAT', desc: 'Bring your iPhone in or WhatsApp us a sample photo. We identify whether the fault is the lens, the module, or a software issue before quoting.' },
+  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a sample photo. We identify whether the fault is the lens, the module, or a software issue before quoting.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct camera module is in stock for your specific model. We stock modules for all current iPhone generations.' },
   { step: '3', title: 'Camera Replaced', desc: 'A certified technician replaces the camera module or lens cover. Camera repairs typically take 60–90 minutes.' },
   { step: '4', title: 'Full Camera Test', desc: 'We test all lenses (wide, ultra-wide, telephoto), the flash, front camera, video OIS, and Portrait Mode before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the repair and our labour. Assessment: from R599 ex VAT applies.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the repair and our labour. Assessment: from R599 applies.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPhone camera repair cost in Johannesburg?',
     answer:
-      'iPhone camera repair pricing depends on the repair type and model. We provide a assessment fee (from R599 ex VAT) and written fixed-price quote before any work begins.',
+      'iPhone camera repair pricing depends on the repair type and model. We provide a assessment fee (from R599) and written fixed-price quote before any work begins.',
   },
   {
     question: 'My iPhone camera is blurry, is it the lens or the module?',
@@ -226,7 +226,7 @@ export default function iPhoneCameraPage() {
               Front and rear cameras, iPhone 12 through 16 Pro Max, up-to-3 year warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599 ex VAT', 'Up-to-3 Year Warranty', 'Face ID preserved', 'Assessment: from R599 ex VAT', 'ProRes compatible'].map((item) => (
+              {['Assessment: from R599', 'Up-to-3 Year Warranty', 'Face ID preserved', 'Assessment: from R599', 'ProRes compatible'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -285,7 +285,7 @@ export default function iPhoneCameraPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599 ex VAT.
+            All repairs include written up-to-3 year warranty. Assessment: from R599.
             Face ID is never affected by front camera replacement.
           </p>
         </div>
@@ -446,7 +446,7 @@ export default function iPhoneCameraPage() {
             >
               iPhone Camera Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: from R599 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: from R599.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

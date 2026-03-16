@@ -319,7 +319,7 @@ export default function IMacRAMUpgradePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book Your iMac RAM Upgrade</h2>
           <p className="text-slate-300 mb-8">
-            Assessment: from R599 ex VAT. Fixed quote. Same-day turnaround on iMac 27" models.
+            Assessment: from R599. Fixed quote. Same-day turnaround on iMac 27" models.
             Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

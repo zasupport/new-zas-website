@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Not Charging, Repair Johannesburg | ZA Support',
   description:
-    'MacBook not charging in Johannesburg? We diagnose and repair all charging faults, dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Assessment: from R599 ex VAT. Hyde Park.',
+    'MacBook not charging in Johannesburg? We diagnose and repair all charging faults, dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Assessment: from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/charging-port' },
   keywords: [
     'MacBook charging port repair Johannesburg',
@@ -137,12 +137,12 @@ const faqs = [
   {
     question: 'How much does MacBook charging port repair cost in Johannesburg?',
     answer:
-      'The cost depends on the root cause, from a simple port clean up to logic board component repair. We provide a assessment fee (from R599 ex VAT) so you know the exact cost before committing.',
+      'The cost depends on the root cause, from a simple port clean up to logic board component repair. We provide a assessment fee (from R599) so you know the exact cost before committing.',
   },
   {
     question: 'How do I know if it\'s the charging port or the logic board?',
     answer:
-      'You cannot tell from symptoms alone, and neither can most repair shops without proper testing. We use a DC bench power supply to test the incoming power rail, then trace the fault to either the I/O board or the logic board. The assessment fee (from R599 ex VAT) takes 30–60 minutes and gives you a definitive answer with a written quote. Many cases that appear to be logic board faults turn out to be simple I/O board replacements.',
+      'You cannot tell from symptoms alone, and neither can most repair shops without proper testing. We use a DC bench power supply to test the incoming power rail, then trace the fault to either the I/O board or the logic board. The assessment fee (from R599) takes 30–60 minutes and gives you a definitive answer with a written quote. Many cases that appear to be logic board faults turn out to be simple I/O board replacements.',
   },
   {
     question: 'Can you repair a broken MagSafe port?',
@@ -221,7 +221,7 @@ const aggregateRatingSchema = {
 const serviceSchemaData = buildServiceSchema({
   name: 'MacBook Charging Port Repair Johannesburg',
   description:
-    'MacBook charging port repair in Johannesburg. Diagnose and repair all MacBook not charging faults, USB-C, MagSafe, I/O board, charge IC. Assessment: from R599 ex VAT.',
+    'MacBook charging port repair in Johannesburg. Diagnose and repair all MacBook not charging faults, USB-C, MagSafe, I/O board, charge IC. Assessment: from R599.',
 });
 
 const faqSchema = buildFaqSchema(faqs);
@@ -257,7 +257,7 @@ export default function MacBookChargingPortPage() {
               <span className="text-[#0FEA7A]">Johannesburg Repair</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              We find the exact cause, dirty port, faulty cable, dead I/O board, or logic board charge IC, and repair only what is needed. Assessment: from R599 ex VAT. Hyde Park, Johannesburg.
+              We find the exact cause, dirty port, faulty cable, dead I/O board, or logic board charge IC, and repair only what is needed. Assessment: from R599. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -309,7 +309,7 @@ export default function MacBookChargingPortPage() {
               Why Your MacBook Won&apos;t Charge
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl mx-auto">
-              Five root causes, from cheapest to most complex. A assessment fee (from R599 ex VAT) tells you which one applies before you spend anything.
+              Five root causes, from cheapest to most complex. A assessment fee (from R599) tells you which one applies before you spend anything.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -349,7 +349,7 @@ export default function MacBookChargingPortPage() {
                 <AlertTriangle className="w-8 h-8 text-[#0FEA7A] mb-3" />
                 <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Not Sure Which Cause?</h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Our assessment fee (from R599 ex VAT) identifies the exact fault before you spend a rand. Most MacBook not charging cases are resolved same-day.
+                  Our assessment fee (from R599) identifies the exact fault before you spend a rand. Most MacBook not charging cases are resolved same-day.
                 </p>
               </div>
               <a
@@ -488,9 +488,9 @@ export default function MacBookChargingPortPage() {
             </div>
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 text-center">
               <Shield className="w-8 h-8 text-[#0FEA7A] mx-auto mb-3" />
-              <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Assessment: from R599 ex VAT</h3>
+              <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Assessment: from R599</h3>
               <p className="text-[#7A9E98] text-sm">
-                If we cannot repair the fault, assessment fee of from R599 ex VAT applies. The assessment is unconditional, no obligation, no catch.
+                If we cannot repair the fault, assessment fee of from R599 applies. The assessment is unconditional, no obligation, no catch.
               </p>
             </div>
           </div>
@@ -585,7 +585,7 @@ export default function MacBookChargingPortPage() {
               MacBook Not Charging?
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Assessment: from R599 ex VAT. up-to-3 year warranty.
+              Assessment: from R599. up-to-3 year warranty.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg, or we collect from you.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -81,11 +81,11 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599 ex VAT', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
+  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
   { step: '2', title: 'Battery Confirmed', desc: 'We confirm the correct replacement battery is in stock for your model. Same-day replacement is available for most models.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery under controlled conditions. iPhone battery replacement takes approximately 45–60 minutes.' },
   { step: '4', title: 'Quality Check', desc: 'We verify the new battery charges correctly, confirm battery health reads 100%, and test for unexpected shutdowns before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599 ex VAT applies if anything goes wrong.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599 applies if anything goes wrong.' },
 ];
 
 const faqs = [
@@ -228,7 +228,7 @@ export default function iPhoneBatteryPage() {
               iPhone 12 through 16 Pro Max, same-day available, up-to-3 year warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599 ex VAT', 'Assessment: from R599 ex VAT', 'Up-to-3 Year Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment: from R599', 'Assessment: from R599', 'Up-to-3 Year Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -287,7 +287,7 @@ export default function iPhoneBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599 ex VAT. Data is never accessed or affected.
+            All repairs include written up-to-3 year warranty. Assessment: from R599. Data is never accessed or affected.
             Free battery health check, no charge if we cannot repair your device.
           </p>
         </div>
@@ -422,9 +422,9 @@ export default function iPhoneBatteryPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: from R599 ex VAT' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: from R599 ex VAT' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: from R599 ex VAT' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: from R599' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: from R599' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: from R599' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -448,7 +448,7 @@ export default function iPhoneBatteryPage() {
             >
               iPhone Battery Draining Fast?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free battery health check. Assessment: from R599 ex VAT. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Free battery health check. Assessment: from R599. up-to-3 year warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

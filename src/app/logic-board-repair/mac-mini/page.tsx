@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
   description:
-    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment: from R599 ex VAT, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
+    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment: from R599, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },
 };
 
@@ -164,10 +164,10 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'Mac mini logic board repair. Assessment: from R599 ex VAT. up-to-3 year warranty.',
+  description: 'Mac mini logic board repair. Assessment: from R599. up-to-3 year warranty.',
   offers: {
     '@type': 'Offer',
-    description: 'Mac mini logic board repair. Assessment: from R599 ex VAT.',
+    description: 'Mac mini logic board repair. Assessment: from R599.',
   },
 };
 
@@ -186,14 +186,14 @@ export default function MacMiniLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'Mac mini' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: from R599 ex VAT · Up-to-3 Year Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: from R599 · Up-to-3 Year Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               Mac mini Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Mac mini logic board repair. M1, M2, M2 Pro, M4, and Intel models.
-              We replace the failed component. Apple replaces the board. Assessment: from R599 ex VAT.
+              We replace the failed component. Apple replaces the board. Assessment: from R599.
             </p>
 
             {/* Stats bar */}
@@ -307,7 +307,7 @@ export default function MacMiniLogicBoardPage() {
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <CheckCircle className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Assessment: from R599 ex VAT</span>, If we cannot repair it, assessment fee of from R599 ex VAT applies.</p>
+                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Assessment: from R599</span>, If we cannot repair it, assessment fee of from R599 applies.</p>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
@@ -426,8 +426,8 @@ export default function MacMiniLogicBoardPage() {
                 desc: 'We issue a up-to-3 year warranty on every repair. No 90-day hidden cap. No fine print. If the repaired component fails within the warranty period, we fix it at zero cost.',
               },
               {
-                title: 'Assessment: from R599 ex VAT',
-                desc: 'If we cannot repair your Mac mini, assessment fee of from R599 ex VAT applies, including the diagnostic. We back our diagnosis with our own fee. That is how confident we are.',
+                title: 'Assessment: from R599',
+                desc: 'If we cannot repair your Mac mini, assessment fee of from R599 applies, including the diagnostic. We back our diagnosis with our own fee. That is how confident we are.',
               },
               {
                 title: 'Apple Silicon M-Series Expertise',
@@ -487,9 +487,9 @@ export default function MacMiniLogicBoardPage() {
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6">Related Repairs</h2>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {[
-              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: from R599 ex VAT' },
-              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: from R599 ex VAT' },
-              { title: 'iMac Logic Board', href: '/logic-board-repair/imac', label: 'Assessment: from R599 ex VAT' },
+              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: from R599' },
+              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: from R599' },
+              { title: 'iMac Logic Board', href: '/logic-board-repair/imac', label: 'Assessment: from R599' },
               { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
@@ -511,7 +511,7 @@ export default function MacMiniLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Mac mini Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">A second opinion costs you nothing, bring it in before committing to a board replacement.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

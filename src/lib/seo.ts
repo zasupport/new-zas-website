@@ -71,7 +71,7 @@ export const LOCAL_BUSINESS_SCHEMA = {
   '@id': `${SITE.url}/#organization`,
   name: SITE.name,
   alternateName: SITE.alternateName,
-  description: 'Johannesburg\'s Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. up-to-3 year warranty. Assessment: from R599 ex VAT.',
+  description: 'Johannesburg\'s Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. up-to-3 year warranty. Assessment: from R599.',
   telephone: CONTACT.phoneTel,
   email: CONTACT.email,
   url: SITE.url,

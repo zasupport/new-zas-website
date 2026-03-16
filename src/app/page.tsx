@@ -138,17 +138,17 @@ const homepageFaqs = [
   {
     question: 'What is your assessment fee?',
     answer:
-      'ZA Support charges an assessment fee of from R599 ex VAT. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a up-to-3 year warranty on parts and labour.',
+      'ZA Support charges an assessment fee of from R599. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a up-to-3 year warranty on parts and labour.',
   },
   {
     question: 'How much does Mac repair cost in Johannesburg?',
     answer:
-      'Mac repair cost depends on the device and fault. An assessment fee of from R599 ex VAT applies, we diagnose and provide a fixed quote before starting any work. Extended warranty is available on request.',
+      'Mac repair cost depends on the device and fault. An assessment fee of from R599 applies, we diagnose and provide a fixed quote before starting any work. Extended warranty is available on request.',
   },
   {
     question: 'Do you repair MacBook liquid damage?',
     answer:
-      'Yes. MacBook liquid damage is one of our primary specialisations. We perform ultrasonic board cleaning, component-level diagnosis, and component-level repair repair on liquid-damaged MacBook Air and MacBook Pro models. The sooner you bring in a liquid-damaged MacBook, the better the outcome. Do not try to turn it on, bring it to us immediately.',
+      'Yes. MacBook liquid damage is one of our primary specialisations. We perform ultrasonic board cleaning, component-level diagnosis, and component-level repair on liquid-damaged MacBook Air and MacBook Pro models. The sooner you bring in a liquid-damaged MacBook, the better the outcome. Do not try to turn it on, bring it to us immediately.',
   },
   {
     question: 'How long does Mac repair take?',
@@ -199,7 +199,7 @@ export default function HomePage() {
             </h1>
 
             <p className="speakable-summary text-base sm:text-lg text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
-              MacBook liquid damage, logic board component-level repair, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment: from R599 ex VAT. up-to-3 year warranty.
+              MacBook liquid damage, logic board component-level repair, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment: from R599. up-to-3 year warranty.
             </p>
 
             {/* Stats */}
@@ -235,7 +235,7 @@ export default function HomePage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
-                Book Assessment: from R599 ex VAT
+                Book Assessment: from R599
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
@@ -390,7 +390,7 @@ export default function HomePage() {
               Book Your Assessment
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
-              Bring your device in. We&apos;ll assess it (from R599 ex VAT), give you a clear quote,
+              Bring your device in. We&apos;ll assess it (from R599), give you a clear quote,
               and fix it fast, backed by a up-to-3 year warranty. Extended warranty available on request.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

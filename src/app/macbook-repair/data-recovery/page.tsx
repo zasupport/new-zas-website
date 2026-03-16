@@ -57,7 +57,7 @@ const faultTypes = [
 const faqs = [
   {
     question: 'How much does MacBook data recovery cost in Johannesburg?',
-    answer: 'MacBook data recovery cost depends on the fault type and the volume of data. We provide a assessment fee (from R599 ex VAT) and a written fixed quote before any work begins, if we cannot recover your data, you do not pay.',
+    answer: 'MacBook data recovery cost depends on the fault type and the volume of data. We provide a assessment fee (from R599) and a written fixed quote before any work begins, if we cannot recover your data, you do not pay.',
   },
   {
     question: 'What is the success rate for MacBook data recovery?',
@@ -185,7 +185,7 @@ export default function MacBookDataRecoveryPage() {
 
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Deleted files, failed SSD, accidental format, liquid damage, macOS corruption. If your data is on the drive, we will find it. Assessment: from R599 ex VAT. If we cannot recover your data, assessment fee of from R599 ex VAT applies.
+              Deleted files, failed SSD, accidental format, liquid damage, macOS corruption. If your data is on the drive, we will find it. Assessment: from R599. If we cannot recover your data, assessment fee of from R599 applies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -260,7 +260,7 @@ export default function MacBookDataRecoveryPage() {
               Data Recovery <span className="text-[#0FEA7A]">Types</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Assessment: from R599 ex VAT first. Written fixed quote before any work begins. If we cannot recover your data, assessment fee of from R599 ex VAT applies, no exceptions.
+              Assessment: from R599 first. Written fixed quote before any work begins. If we cannot recover your data, assessment fee of from R599 applies, no exceptions.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -317,7 +317,7 @@ export default function MacBookDataRecoveryPage() {
               Data Loss Situations <span className="text-[#0FEA7A]">We Handle</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Recognise your situation? Bring the machine in for a assessment fee (from R599 ex VAT). The sooner you act, the higher the recovery rate.
+              Recognise your situation? Bring the machine in for a assessment fee (from R599). The sooner you act, the higher the recovery rate.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -346,7 +346,7 @@ export default function MacBookDataRecoveryPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Assessment: from R599 ex VAT',
+                title: 'Assessment: from R599',
                 desc: 'We image the drive sector-by-sector to a recovery volume before any attempt begins, this protects the original data. We then assess the fault type, determine recovery approach, and confirm what data is visible.',
               },
               {
@@ -401,7 +401,7 @@ export default function MacBookDataRecoveryPage() {
             {[
               {
                 title: 'No Data, No Fee',
-                desc: 'If we cannot recover your data, assessment fee of from R599 ex VAT applies. We absorb the diagnostic and imaging costs. Zero financial risk to you.',
+                desc: 'If we cannot recover your data, assessment fee of from R599 applies. We absorb the diagnostic and imaging costs. Zero financial risk to you.',
               },
               {
                 title: 'POPIA-Compliant',

@@ -78,18 +78,18 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599 ex VAT', desc: 'Bring your iPhone in or WhatsApp us. We first test your cable and adapter, if those are the problem, there is no charge. Then we inspect the port.' },
+  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us. We first test your cable and adapter, if those are the problem, there is no charge. Then we inspect the port.' },
   { step: '2', title: 'Root Cause Found', desc: 'We determine whether the fault is lint blockage, port damage, a charging flex cable, or a broader liquid damage issue. You get a written fixed-price quote.' },
   { step: '3', title: 'Port Repaired', desc: 'A certified technician cleans or replaces the charging port. Port replacement takes approximately 60 minutes. Lint cleaning takes under 30 minutes.' },
   { step: '4', title: 'Charging Verified', desc: 'We verify fast charging works at the correct wattage, test data sync via cable, and confirm CarPlay connectivity if applicable.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the repair and our labour. Assessment: from R599 ex VAT, assessment fee of from R599 ex VAT applies if we cannot resolve the fault.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the repair and our labour. Assessment: from R599, assessment fee of from R599 applies if we cannot resolve the fault.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPhone charging port repair cost in Johannesburg?',
     answer:
-      'We provide a assessment fee (from R599 ex VAT) and fixed-price quote before any work. The cost depends on whether it is a simple lint clean, port replacement, or corrosion repair.',
+      'We provide a assessment fee (from R599) and fixed-price quote before any work. The cost depends on whether it is a simple lint clean, port replacement, or corrosion repair.',
   },
   {
     question: 'My iPhone stopped charging, is it definitely the port?',
@@ -225,7 +225,7 @@ export default function iPhoneChargingPage() {
               Lightning and USB-C, iPhone 12 through 16 Pro Max, same-day available, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599 ex VAT', 'Assessment: from R599 ex VAT', 'Up-to-3 Year Warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment: from R599', 'Assessment: from R599', 'Up-to-3 Year Warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -284,8 +284,8 @@ export default function iPhoneChargingPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All port repairs include written up-to-3 year warranty. Assessment: from R599 ex VAT.
-            Assessment: from R599 ex VAT, we test your cable and adapter first before quoting a port replacement.
+            All port repairs include written up-to-3 year warranty. Assessment: from R599.
+            Assessment: from R599, we test your cable and adapter first before quoting a port replacement.
           </p>
         </div>
       </section>
@@ -419,9 +419,9 @@ export default function iPhoneChargingPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Assessment: from R599 ex VAT' },
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: from R599 ex VAT' },
-              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', label: 'Assessment: from R599 ex VAT' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Assessment: from R599' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: from R599' },
+              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', label: 'Assessment: from R599' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -445,7 +445,7 @@ export default function iPhoneChargingPage() {
             >
               iPhone Not Charging?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: from R599 ex VAT. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

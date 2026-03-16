@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Sandton | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Sandton residents. Expert component-level repair, assessment, Assessment: from R599 ex VAT. We collect from Sandton and repair at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook logic board repair for Sandton residents. Expert component-level repair, assessment, Assessment: from R599. We collect from Sandton and repair at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/sandton' },
 };
 
@@ -45,11 +45,11 @@ const faqs = [
   },
   {
     question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair repair targets the specific failed component, a chip, capacitor, resistor, or damaged trace, on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
+    answer: 'Component-level repair targets the specific failed component, a chip, capacitor, resistor, or damaged trace, on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
   },
   {
     question: 'My MacBook Pro shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC on the power rail, a straightforward component-level repair repair that costs far less than a new machine. Bring it in or request a collection and we will assess it for free.',
+    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC on the power rail, a straightforward component-level repair that costs far less than a new machine. Bring it in or request a collection and we will assess it for free.',
   },
   {
     question: 'How long will the repair take?',
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     question: 'What if the board cannot be repaired?',
-    answer: 'We will tell you clearly what we found, explain why repair is not viable, and walk through your options: board replacement, data recovery, or selling the device for parts. The diagnostic assessment is always free, assessment fee of from R599 ex VAT applies if we cannot fix it.',
+    answer: 'We will tell you clearly what we found, explain why repair is not viable, and walk through your options: board replacement, data recovery, or selling the device for parts. The diagnostic assessment is always free, assessment fee of from R599 applies if we cannot fix it.',
   },
 ];
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Sandton',
-  description: 'Expert MacBook logic board repair and component-level repair for Sandton clients. Collection from Sandton, repair at Hyde Park workshop. Assessment: from R599 ex VAT.',
+  description: 'Expert MacBook logic board repair and component-level repair for Sandton clients. Collection from Sandton, repair at Hyde Park workshop. Assessment: from R599.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -104,7 +104,7 @@ export default function LogicBoardRepairSandtonPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park component-level repair workshop, just 15 minutes away. Assessment: from R599 ex VAT.
+              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park component-level repair workshop, just 15 minutes away. Assessment: from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -114,7 +114,7 @@ export default function LogicBoardRepairSandtonPage() {
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
                 { icon: Zap, label: 'Free Diagnostic' },
-                { icon: CheckCircle, label: 'Assessment: from R599 ex VAT' },
+                { icon: CheckCircle, label: 'Assessment: from R599' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -263,7 +263,7 @@ export default function LogicBoardRepairSandtonPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: from R599 ex VAT with no obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: from R599 with no obligation to proceed.</p>
         </div>
       </section>
 
@@ -298,7 +298,7 @@ export default function LogicBoardRepairSandtonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Sandton MacBook Fault? Free Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Sandton. Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Sandton. Assessment: from R599. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

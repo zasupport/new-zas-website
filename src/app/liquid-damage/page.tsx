@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Suspense } from 'react';
 import { Phone, AlertTriangle, CheckCircle, Clock, Shield, ArrowRight } from 'lucide-react';
+import GoogleReviews from '@/components/ui/GoogleReviews';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
@@ -10,7 +12,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, assessment fee (from R599 ex VAT) and same-day diagnosis. Assessment: from R599 ex VAT. Call 064 529 5863.',
+    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, assessment fee (from R599) and same-day diagnosis. Assessment: from R599. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },
 };
 
@@ -89,7 +91,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Liquid Damage Assessment',
-          description: 'Free same-day assessment for MacBook liquid damage. Assessment: from R599 ex VAT.',
+          description: 'Free same-day assessment for MacBook liquid damage. Assessment: from R599.',
         },
         price: '0',
         priceCurrency: 'ZAR',
@@ -200,7 +202,7 @@ const liquidDamageReviewSchema = {
       author: { '@type': 'Person', name: 'Nomsa P.' },
       datePublished: '2026-03',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Assessment: from R599 ex VAT, no surprises on the invoice. 5 stars.',
+      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Assessment: from R599, no surprises on the invoice. 5 stars.',
       itemReviewed: {
         '@type': 'Service',
         name: 'MacBook Liquid Damage Repair Johannesburg',
@@ -234,7 +236,7 @@ export default function LiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Johannesburg&apos;s liquid damage specialists. Board-level cleaning, component repair, and free
-              assessment. Assessment: from R599 ex VAT. up-to-3 year warranty. Hyde Park.
+              assessment. Assessment: from R599. up-to-3 year warranty. Hyde Park.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -254,6 +256,20 @@ export default function LiquidDamagePage() {
               </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Google Reviews */}
+      <section className="py-12 sm:py-16 bg-[#0A1A18]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider mb-2">Verified Reviews</p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]">4.9★ — Over 632 Google Reviews</h2>
+            <p className="text-[#7A9E98] mt-2">16 years of Apple expertise. Johannesburg&apos;s most reviewed Apple specialist.</p>
+          </div>
+          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
+            <GoogleReviews maxReviews={4} />
+          </Suspense>
         </div>
       </section>
 
@@ -329,7 +345,7 @@ export default function LiquidDamagePage() {
                 ))}
               </div>
               <p className="text-[#7A9E98] text-xs mt-3">
-                Assessment is free. Assessment: from R599 ex VAT guarantee on all liquid damage repairs.
+                Assessment is free. Assessment: from R599 guarantee on all liquid damage repairs.
               </p>
             </div>
           </div>
@@ -409,7 +425,7 @@ export default function LiquidDamagePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { icon: Shield, label: 'Assessment: from R599 ex VAT', sub: 'Zero risk to you' },
+              { icon: Shield, label: 'Assessment: from R599', sub: 'Zero risk to you' },
               { icon: CheckCircle, label: 'Warranty', sub: 'On all repairs' },
               { icon: Clock, label: 'Fastest Turnaround Times', sub: 'Most liquid damage cases' },
               { icon: Phone, label: 'Same-Day Assessment', sub: 'Hyde Park, JHB' },
@@ -468,7 +484,7 @@ export default function LiquidDamagePage() {
               Book Assessment, We Respond Within 1 Hour
             </h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment: from R599 ex VAT. Honest prognosis. warranty on all work.
+              Assessment: from R599. Honest prognosis. warranty on all work.
             </p>
             <a
               href={`tel:${CONTACT.phoneTel}`}

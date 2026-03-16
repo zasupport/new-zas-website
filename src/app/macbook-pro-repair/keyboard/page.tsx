@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Keyboard Repair Johannesburg | Butterfly Keyboard Fix | ZA Support',
   description:
-    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, no key response. All models. Assessment: from R599 ex VAT. Hyde Park.',
+    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, no key response. All models. Assessment: from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair/keyboard' },
   keywords: [
     'MacBook Pro keyboard repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Keyboard Repair Johannesburg | Butterfly Keyboard Fix | ZA Support',
-    description: 'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, no key response. All models. Assessment: from R599 ex VAT.',
+    description: 'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, no key response. All models. Assessment: from R599.',
     url: 'https://zasupport.com/macbook-pro-repair/keyboard',
     siteName: 'ZA Support',
     type: 'website',
@@ -55,7 +55,7 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
   description:
-    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, liquid damage. All models. Assessment from R599 ex VAT.',
+    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, liquid damage. All models. Assessment from R599.',
 };
 
 const breadcrumbSchema = {
@@ -113,7 +113,7 @@ const process = [
   { step: '01', title: 'Drop In for Assessment', desc: 'Bring your MacBook Pro to our Hyde Park workshop. We test every key, check for liquid damage, and identify whether the fault is butterfly mechanism, top case, or logic board input.' },
   { step: '02', title: 'Written Quote', desc: 'You receive a fixed price before any work begins. For butterfly models, we also confirm whether any Apple extended programme coverage may apply.' },
   { step: '03', title: 'Top Case or Keyboard Replacement', desc: 'Most MacBook Pro keyboard repairs require full top case assembly replacement. Your storage and data are completely unaffected throughout.' },
-  { step: '04', title: 'Full Test and Return', desc: 'Every key tested before collection. 3-month up-to-3 year warranty issued on parts and labour.' },
+  { step: '04', title: 'Full Test and Return', desc: 'Every key tested before collection. up-to-3 year warranty issued on parts and labour.' },
 ];
 
 const faqs = [
@@ -131,7 +131,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'from R599 ex VAT covers a full keyboard diagnostic and written fixed-price quote. The fee is absorbed into the repair if you proceed, and payable only if you decline.',
+    answer: 'from R599 covers a full keyboard diagnostic and written fixed-price quote. The fee is absorbed into the repair if you proceed, and payable only if you decline.',
   },
   {
     question: 'Can individual butterfly keys be replaced?',
@@ -139,11 +139,11 @@ const faqs = [
   },
   {
     question: 'What if liquid got into the keyboard?',
-    answer: 'Liquid damage to the keyboard requires assessment. We check whether the corrosion is limited to the top case or has reached the logic board. If only the top case is affected, replacement resolves the issue. Logic board corrosion requires additional component-level repair repair. Assessment: from R599 ex VAT before any quote.',
+    answer: 'Liquid damage to the keyboard requires assessment. We check whether the corrosion is limited to the top case or has reached the logic board. If only the top case is affected, replacement resolves the issue. Logic board corrosion requires additional component-level repair. Assessment: from R599 before any quote.',
   },
   {
     question: 'What warranty do you provide on keyboard repairs?',
-    answer: '3-month up-to-3 year warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at no charge. Extended warranty is also available on request.',
+    answer: 'up-to-3 year warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at no charge. Extended warranty is also available on request.',
   },
   {
     question: 'Are MacBook Pro 2020 and later keyboards more reliable?',
@@ -216,7 +216,7 @@ export default function MacBookProKeyboardPage() {
               {[
                 { icon: Keyboard, label: 'Keyboard Repair' },
                 { icon: Shield, label: 'Up-to-3 Year Warranty' },
-                { icon: Zap, label: 'Assessment: from R599 ex VAT' },
+                { icon: Zap, label: 'Assessment: from R599' },
                 { icon: CheckCircle, label: 'Data Safe' },
               ].map(({ icon: Icon, label }) => (
                 <span key={label} className="inline-flex items-center gap-1.5 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] text-[#7A9E98] text-xs px-3 py-1.5 rounded-full">
@@ -258,7 +258,7 @@ export default function MacBookProKeyboardPage() {
             Keyboard Issues We Fix
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Assessment: from R599 ex VAT — we diagnose the exact fault and provide a fixed quote before any work begins.
+            Assessment: from R599 — we diagnose the exact fault and provide a fixed quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {symptoms.map((s) => (
@@ -411,7 +411,7 @@ export default function MacBookProKeyboardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Keyboard Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment: from R599 ex VAT. Fixed quote before any work begins.</p>
+            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment: from R599. Fixed quote before any work begins.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
