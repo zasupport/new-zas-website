@@ -22,7 +22,6 @@ const services = [
     title: 'Logic Board Repair',
     description: 'Expert microsoldering for no-power, no-display, USB-C failure, and GPU faults.',
     href: '/logic-board-repair',
-    price: 'From R 1,800',
     accent: 'text-purple-400',
     whatsapp: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20logic%20board%20repair%20quote',
   },
@@ -31,7 +30,6 @@ const services = [
     title: 'Liquid Damage Repair',
     description: 'MacBook, iPhone, iPad, Apple Watch. Board-level ultrasonic cleaning and component repair.',
     href: '/liquid-damage',
-    price: 'From R 2,500',
     accent: 'text-blue-400',
   },
   {
@@ -39,7 +37,6 @@ const services = [
     title: 'iPhone Repair',
     description: 'Screen, battery, charging port, liquid damage, back glass. All models including iPhone 16.',
     href: '/iphone-repair',
-    price: 'From R 950',
     accent: 'text-[#0FEA7A]',
   },
   {
@@ -47,7 +44,6 @@ const services = [
     title: 'iPad Repair',
     description: 'Screen replacement, battery, charging, and liquid damage. All iPad generations.',
     href: '/ipad-repair',
-    price: 'From R 1,200',
     accent: 'text-yellow-400',
   },
   {
@@ -55,7 +51,6 @@ const services = [
     title: 'JAMF MDM',
     description: 'Enterprise Apple device management. JAMF Pro and JAMF Now implementation.',
     href: '/jamf-mdm',
-    price: 'From R 4,500/mo',
     accent: 'text-orange-400',
   },
   {
@@ -63,7 +58,6 @@ const services = [
     title: 'Managed IT Services',
     description: 'Apple-first MSP for businesses. Full IT ownership, monitoring, and support.',
     href: '/managed-services',
-    price: 'From R 4,500/mo',
     accent: 'text-red-400',
   },
 ];
@@ -135,7 +129,7 @@ const homepageFaqs = [
   {
     question: 'How much does Mac repair cost in Johannesburg?',
     answer:
-      'Mac repair pricing depends on the device and fault. Logic board repair starts at R 1,800, liquid damage starts at R 2,500, MacBook battery replacement starts at R 1,200, screen replacement starts at R 3,500, and SSD upgrades start at R 1,200. We provide a free diagnosis and a fixed quote before starting any work.',
+      'Mac repair cost depends on the device and fault. All assessments are free — we diagnose and provide a fixed quote before starting any work. No Fix No Fee on all repairs.',
   },
   {
     question: 'Do you repair MacBook liquid damage?',
@@ -294,8 +288,7 @@ export default function HomePage() {
                     <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">
                       {service.description}
                     </p>
-                    <div className="flex items-center justify-between mb-4">
-                      <span className="text-[#0FEA7A] text-sm font-semibold">{service.price}</span>
+                    <div className="flex items-center justify-end mb-4">
                       <span className="text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors flex items-center gap-1 text-sm">
                         Learn more <ArrowRight className="w-3 h-3" />
                       </span>

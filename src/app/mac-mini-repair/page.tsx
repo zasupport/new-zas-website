@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
   description:
-    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade from R 1,200, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Free assessment.',
+    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Free assessment.',
   alternates: { canonical: 'https://zasupport.com/mac-mini-repair' },
   keywords: [
     'mac mini repair johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
     description:
-      'Mac Mini repair and upgrade in Johannesburg. SSD from R 1,200, RAM upgrade (Intel models), overheating repair. Hyde Park. No Fix No Fee.',
+      'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), overheating repair. Hyde Park. No Fix No Fee.',
     url: 'https://zasupport.com/mac-mini-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -35,42 +35,36 @@ const services = [
     title: 'SSD Upgrade',
     description:
       'Replace a slow spinning hard drive or upgrade to a larger SSD. Boot times drop from 2+ minutes to under 20 seconds. All Intel Mac Mini models from 2011 onwards.',
-    price: 'From R 1,200',
   },
   {
     icon: Cpu,
     title: 'RAM Upgrade (Intel)',
     description:
       'Intel Mac Mini (2010–2018) has user-accessible RAM slots. Upgrade from 4 GB to 16 GB or 32 GB (2018 model) for a significant performance boost. Apple Silicon models have soldered unified memory.',
-    price: 'From R 800',
   },
   {
     icon: Thermometer,
     title: 'Overheating & Fan Repair',
     description:
       'Mac Mini running hot, fan constantly at full speed, or thermal throttling causing slowdowns. Thermal paste replacement and fan cleaning. Common on Mac Mini 2011–2014 models.',
-    price: 'From R 950',
   },
   {
     icon: Zap,
     title: 'No-Power Repair',
     description:
       'Mac Mini won\'t turn on, no power LED, intermittent startup. Power supply failure is the most common cause. We diagnose and repair internal power circuitry at component level.',
-    price: 'From R 1,800',
   },
   {
     icon: Wrench,
     title: 'Logic Board Repair',
     description:
-      'No video output, random shutdowns, USB ports dead, Wi-Fi failure. Component-level microsoldering on Mac Mini logic boards. Saves R 8,000–R 15,000 versus Apple\'s board replacement.',
-    price: 'From R 2,800',
+      'No video output, random shutdowns, USB ports dead, Wi-Fi failure. Component-level microsoldering on Mac Mini logic boards. Saves significant cost versus Apple\'s board replacement.',
   },
   {
     icon: Monitor,
     title: 'Port & Connectivity Repair',
     description:
       'Thunderbolt, HDMI, USB-A, and USB-C port repair. Wi-Fi and Bluetooth antenna replacement. Mac Mini not detecting displays? We diagnose and repair at chip level.',
-    price: 'From R 1,500',
   },
 ];
 
@@ -89,7 +83,7 @@ const faqs = [
   {
     question: 'How much does Mac Mini repair cost in Johannesburg?',
     answer:
-      'Mac Mini repair pricing depends on the model and fault: SSD upgrades start at R 1,200 (parts included), RAM upgrades start at R 800, thermal paste replacement starts at R 950, no-power repair starts at R 1,800, and logic board repair starts at R 2,800. We provide a free diagnosis and a fixed quote before starting any work.',
+      'Mac Mini repair pricing depends on the model and fault. We provide a free diagnosis and a fixed quote before starting any work. Contact us to discuss your specific machine and issue.',
   },
   {
     question: 'Can I upgrade the RAM in my Mac Mini?',
@@ -99,12 +93,12 @@ const faqs = [
   {
     question: 'My Mac Mini is very slow — what can I do?',
     answer:
-      'On Intel Mac Mini models, the most impactful improvement is replacing a spinning hard drive with an SSD. This alone typically drops boot time from 2+ minutes to under 20 seconds and makes everyday use dramatically faster. Adding RAM is the second most effective upgrade. An Intel Mac Mini 2012 with a 500 GB SSD and 16 GB RAM performs well for most daily tasks at a total cost of R 2,000–R 3,500.',
+      'On Intel Mac Mini models, the most impactful improvement is replacing a spinning hard drive with an SSD. This alone typically drops boot time from 2+ minutes to under 20 seconds and makes everyday use dramatically faster. Adding RAM is the second most effective upgrade. An Intel Mac Mini 2012 with a 500 GB SSD and 16 GB RAM performs well for most daily tasks at a very affordable cost.',
   },
   {
     question: 'My Mac Mini is overheating or the fan is always loud — is that repairable?',
     answer:
-      'Yes, in most cases. The most common cause on older Intel Mac Mini models is dried-out thermal paste between the processor and heatsink. Replacing the thermal paste and cleaning the heatsink typically reduces idle temperatures by 10–20°C and brings fan noise back to normal. This service takes 1–2 hours and costs from R 950.',
+      'Yes, in most cases. The most common cause on older Intel Mac Mini models is dried-out thermal paste between the processor and heatsink. Replacing the thermal paste and cleaning the heatsink typically reduces idle temperatures by 10–20°C and brings fan noise back to normal. This service takes 1–2 hours.',
   },
   {
     question: 'My Mac Mini won\'t turn on at all — what could be wrong?',
@@ -114,7 +108,7 @@ const faqs = [
   {
     question: 'Is it worth upgrading an older Mac Mini instead of buying a new one?',
     answer:
-      'For Intel Mac Mini models from 2012 to 2018, an SSD and RAM upgrade is almost always cost-effective. A Mac Mini 2018 with a 1 TB SSD and 32 GB RAM costs R 3,500–R 6,000 to upgrade and outperforms most entry-level new machines for everyday tasks. Compare this to R 22,000+ for a new Mac Mini M2. We will give you a clear repair vs replace comparison before you decide.',
+      'For Intel Mac Mini models from 2012 to 2018, an SSD and RAM upgrade is almost always cost-effective. A Mac Mini 2018 with a 1 TB SSD and 32 GB RAM outperforms most entry-level new machines for everyday tasks at a fraction of new Mac Mini cost. We will give you a clear repair vs replace comparison before you decide.',
   },
   {
     question: 'Do you repair Mac Mini M1 and M2 models?',
@@ -138,10 +132,10 @@ const repairSchema = {
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Computer Repair',
   offers: [
-    { '@type': 'Offer', name: 'Mac Mini SSD Upgrade', price: '1200', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Mac Mini RAM Upgrade', price: '800', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Mac Mini Thermal Paste Replacement', price: '950', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Mac Mini Logic Board Repair', price: '2800', priceCurrency: 'ZAR' },
+    { '@type': 'Offer', name: 'Mac Mini SSD Upgrade' },
+    { '@type': 'Offer', name: 'Mac Mini RAM Upgrade' },
+    { '@type': 'Offer', name: 'Mac Mini Thermal Paste Replacement' },
+    { '@type': 'Offer', name: 'Mac Mini Logic Board Repair' },
   ],
 };
 
@@ -169,8 +163,7 @@ export default function MacMiniRepairPage() {
           </p>
           <p className="text-slate-400 mb-8 max-w-2xl mx-auto">
             A Mac Mini SSD upgrade is the single best investment you can make in an older machine.
-            Boot in under 20 seconds. From{' '}
-            <span className="text-green-400 font-semibold">R 1,200</span>.
+            Boot in under 20 seconds. Free assessment — fixed quote before we start.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -230,10 +223,7 @@ export default function MacMiniRepairPage() {
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-1">{service.title}</h3>
                       <p className="text-sm text-slate-500 mb-2">{service.description}</p>
-                      <span className="text-xs font-medium text-green-600 bg-green-50 px-2 py-1 rounded">
-                        {service.price}
-                      </span>
-                    </div>
+                        </div>
                   </div>
                 </div>
               );
@@ -255,13 +245,12 @@ export default function MacMiniRepairPage() {
           </p>
           <div className="grid sm:grid-cols-3 gap-4 text-left">
             {[
-              { label: 'SSD upgrade (500 GB)', price: 'From R 1,200', note: 'inc. data migration' },
-              { label: 'SSD upgrade (1 TB)', price: 'From R 1,800', note: 'inc. data migration' },
-              { label: 'SSD + RAM bundle', price: 'From R 1,800', note: 'Intel models — best value' },
+              { label: 'SSD upgrade (500 GB)', note: 'inc. data migration' },
+              { label: 'SSD upgrade (1 TB)', note: 'inc. data migration' },
+              { label: 'SSD + RAM bundle', note: 'Intel models — best value' },
             ].map((item) => (
               <div key={item.label} className="bg-white border border-green-200 rounded-lg p-4">
                 <div className="font-medium text-slate-900 text-sm mb-1">{item.label}</div>
-                <div className="text-green-600 font-bold">{item.price}</div>
                 <div className="text-xs text-slate-500 mt-1">{item.note}</div>
               </div>
             ))}
@@ -331,12 +320,12 @@ export default function MacMiniRepairPage() {
                   {
                     scenario: 'Mac Mini 2012–2014 running slowly',
                     rec: 'SSD + RAM upgrade — excellent value',
-                    cost: 'R 1,800–R 3,200',
+                    cost: 'Quoted on assessment',
                   },
                   {
                     scenario: 'Mac Mini 2018 with slow hard drive',
                     rec: 'SSD upgrade — significant improvement',
-                    cost: 'R 1,800–R 3,000',
+                    cost: 'Quoted on assessment',
                   },
                   {
                     scenario: 'Mac Mini 2018 fault (port, board)',
@@ -351,7 +340,7 @@ export default function MacMiniRepairPage() {
                   {
                     scenario: 'Mac Mini 2009–2010 any fault',
                     rec: 'Replace — repair cost exceeds value',
-                    cost: 'New Mac Mini from R 22,000',
+                    cost: 'Quoted on assessment',
                   },
                 ].map((row) => (
                   <tr key={row.scenario} className="hover:bg-slate-50">
@@ -382,7 +371,7 @@ export default function MacMiniRepairPage() {
               },
               {
                 title: 'Component-Level Repair',
-                desc: 'We repair chips and components, not just swap boards. This saves R 5,000–R 12,000 on logic board faults.',
+                desc: 'We repair chips and components, not just swap boards. This saves significantly on logic board faults versus Apple\'s board replacement cost.',
               },
               {
                 title: '12-Month Warranty',

@@ -75,7 +75,7 @@ export const LOCAL_BUSINESS_SCHEMA = {
   telephone: CONTACT.phoneTel,
   email: CONTACT.email,
   url: SITE.url,
-  priceRange: 'R900 - R10,000+',
+  priceRange: '$$',
   currenciesAccepted: 'ZAR',
   paymentAccepted: 'Cash, EFT, Credit Card, Debit Card',
   foundingDate: SITE.foundingDate,

@@ -26,12 +26,12 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', price: 'Free', note: 'Full board-level inspection — no charge, no obligation' },
-  { item: 'USB-C / Thunderbolt Repair', price: 'From R 1,800', note: 'Controller chip or port board replacement' },
-  { item: 'Power Circuit Repair', price: 'From R 2,000', note: 'No-power fault and charging failure repair' },
-  { item: 'Microsoldering Repair', price: 'From R 2,500', note: 'Component-level repair under microscope' },
-  { item: 'GPU Repair / Reballing', price: 'From R 3,500', note: 'Discrete GPU — Intel Mac models only' },
-  { item: 'Logic Board Replacement', price: 'From R 8,000', note: 'Full board swap where repair is not viable' },
+  { item: 'Diagnostic Assessment', note: 'Full board-level inspection — no charge, no obligation' },
+  { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board replacement' },
+  { item: 'Power Circuit Repair', note: 'No-power fault and charging failure repair' },
+  { item: 'Microsoldering Repair', note: 'Component-level repair under microscope' },
+  { item: 'GPU Repair / Reballing', note: 'Discrete GPU — Intel Mac models only' },
+  { item: 'Logic Board Replacement', note: 'Full board swap where repair is not viable' },
 ];
 
 const faqs = [
@@ -149,7 +149,7 @@ export default function LogicBoardRepairFourwaysPage() {
               Fourways has evolved into one of Johannesburg&apos;s largest residential and commercial precincts — taking in Broadacres, Lonehill, Douglasdale, Paulshof, and the Fourways Mall node. It is home to a significant number of professionals, families, and remote workers, many of them on Apple devices bought through the Fourways Mall Apple Premium Reseller or through the Sandton Apple Store.
             </p>
             <p>
-              When a logic board fault develops — and they do, on every generation of Mac — the question is whether the shop you take it to has the equipment and skill to repair it at component level. Most general repair shops in the Fourways area do not. They quote a board replacement at R 8,000 to R 12,000 when the actual fault is a single blown fuse or a failed charging IC worth a fraction of that. ZA Support is different.
+              When a logic board fault develops — and they do, on every generation of Mac — the question is whether the shop you take it to has the equipment and skill to repair it at component level. Most general repair shops in the Fourways area do not. They quote a full board replacement when the actual fault is a single blown fuse or a failed charging IC worth a fraction of that. ZA Support is different.
             </p>
             <p>
               Our Hyde Park workshop is approximately 20–30 minutes from Fourways via William Nicol Drive. We are equipped for microsoldering — a stereo microscope, precision rework stations, and the diagnostic tools needed to trace a fault to a specific millimetre on the board. We offer collection from Fourways so you can stay home or at work while we handle the rest.
@@ -204,22 +204,19 @@ export default function LogicBoardRepairFourwaysPage() {
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Repair Services */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing Guide</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
           <div className="glass-card overflow-hidden p-0">
             {pricing.map((item, i) => (
-              <div key={item.item} className={`flex items-center justify-between p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
-                  <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
-                </div>
-                <span className="text-[#0FEA7A] font-bold whitespace-nowrap ml-4">{item.price}</span>
+              <div key={item.item} className={`p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
+                <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">All prices are indicative. Confirmed by written quote after free diagnostic. No obligation to repair if the quote is not acceptable.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Confirmed by written quote after free diagnostic. No obligation to repair if the quote is not acceptable.</p>
         </div>
       </section>
 

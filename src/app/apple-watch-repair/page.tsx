@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Watch Repair Johannesburg | Screen & Battery | ZA Support',
   description:
-    'Apple Watch repair in Johannesburg. Screen from R 699 (Series 3-6), battery from R 599, crown and button repair. No Fix No Fee. 12-month warranty. Hyde Park.',
+    'Apple Watch repair in Johannesburg. Screen replacement, battery replacement, crown and button repair. No Fix No Fee. 12-month warranty. Hyde Park.',
   keywords: [
     'apple watch repair johannesburg',
     'apple watch screen crack johannesburg',
@@ -27,7 +27,7 @@ const faqs = [
   {
     question: 'How much does Apple Watch screen repair cost in Johannesburg?',
     answer:
-      'Apple Watch screen (LTPO OLED display and Ion-X glass) replacement starts from R 699 for Series 3 through Series 6. Series 7 and later models are more complex due to the larger always-on display and tighter tolerances, and pricing starts from R 999. Call or WhatsApp with your Watch model and series for an exact quote.',
+      'Apple Watch screen (LTPO OLED display and Ion-X glass) replacement is available for Series 3 through Series 9. Series 7 and later models are more complex due to the larger always-on display and tighter tolerances. Call or WhatsApp with your Watch model and series for an exact quote.',
   },
   {
     question: 'Do you repair Apple Watch Series 7, 8, and 9?',
@@ -52,7 +52,7 @@ const faqs = [
   {
     question: 'My Apple Watch shows a red lightning bolt or will not turn on. Is this a battery issue?',
     answer:
-      'Usually yes. A red lightning bolt on Apple Watch indicates a critically low or dead battery. In most cases the watch will recover after charging. If it still does not respond after 30 minutes on the charger, the battery may need replacement or there is a charging port fault. Battery replacement starts from R 599. Bring it in for a free assessment.',
+      'Usually yes. A red lightning bolt on Apple Watch indicates a critically low or dead battery. In most cases the watch will recover after charging. If it still does not respond after 30 minutes on the charger, the battery may need replacement or there is a charging port fault. Bring it in for a free assessment.',
   },
 ];
 
@@ -60,38 +60,34 @@ const repairServices = [
   {
     title: 'Screen Replacement',
     models: 'Series 3, 4, 5, 6 (38mm / 40mm / 42mm / 44mm)',
-    price: 'From R 699',
-    note: 'Series 7 and later: from R 999 — more complex due to redesigned display.',
+    note: 'Series 7 and later: more complex due to redesigned display — assessment required.',
   },
   {
     title: 'Battery Replacement',
     models: 'All Apple Watch Series 3 through Series 9',
-    price: 'From R 599',
     note: 'Battery health test included at no charge before quoting.',
   },
   {
     title: 'Crown & Side Button Repair',
     models: 'Series 3 through Series 9',
-    price: 'From R 799',
     note: 'Digital Crown sticky, unresponsive, or damaged. Side button stuck or broken.',
   },
   {
     title: 'Back Glass / Sensor Cover',
     models: 'Series 4 and later',
-    price: 'From R 599',
     note: 'Cracked ceramic back. Heart rate sensor may be affected — tested post-repair.',
   },
 ];
 
 const seriesSupport = [
-  { series: 'Series 3 (38mm / 42mm)', screen: 'R 699', battery: 'R 599', note: 'Standard' },
-  { series: 'Series 4 (40mm / 44mm)', screen: 'R 749', battery: 'R 599', note: 'Standard' },
-  { series: 'Series 5 (40mm / 44mm)', screen: 'R 749', battery: 'R 649', note: 'Standard' },
-  { series: 'Series 6 (40mm / 44mm)', screen: 'R 799', battery: 'R 699', note: 'Standard' },
-  { series: 'Series 7 (41mm / 45mm)', screen: 'From R 999', battery: 'R 749', note: 'More complex — longer turnaround' },
-  { series: 'Series 8 (41mm / 45mm)', screen: 'From R 999', battery: 'R 749', note: 'More complex — assessment required' },
-  { series: 'Series 9 (41mm / 45mm)', screen: 'From R 1,099', battery: 'R 799', note: 'Assessment required' },
-  { series: 'Apple Watch SE (1st & 2nd Gen)', screen: 'From R 749', battery: 'R 649', note: 'Standard' },
+  { series: 'Series 3 (38mm / 42mm)', screen: 'Available', battery: 'Available', note: 'Standard' },
+  { series: 'Series 4 (40mm / 44mm)', screen: 'Available', battery: 'Available', note: 'Standard' },
+  { series: 'Series 5 (40mm / 44mm)', screen: 'Available', battery: 'Available', note: 'Standard' },
+  { series: 'Series 6 (40mm / 44mm)', screen: 'Available', battery: 'Available', note: 'Standard' },
+  { series: 'Series 7 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'More complex — longer turnaround' },
+  { series: 'Series 8 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'More complex — assessment required' },
+  { series: 'Series 9 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'Assessment required' },
+  { series: 'Apple Watch SE (1st & 2nd Gen)', screen: 'Available', battery: 'Available', note: 'Standard' },
   { series: 'Apple Watch Ultra / Ultra 2', screen: '—', battery: '—', note: 'Not offered — Apple Service only' },
 ];
 
@@ -100,7 +96,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Apple Watch Repair Johannesburg',
   description:
-    'Apple Watch screen and battery repair in Johannesburg. Series 3 through Series 9. Screen from R 699, battery from R 599. No Fix No Fee. Hyde Park.',
+    'Apple Watch screen and battery repair in Johannesburg. Series 3 through Series 9. No Fix No Fee. Hyde Park.',
   provider: {
     '@type': 'LocalBusiness',
     name: SITE.name,
@@ -117,10 +113,10 @@ const serviceSchema = {
   },
   areaServed: 'Johannesburg',
   offers: [
-    { '@type': 'Offer', name: 'Apple Watch Screen Replacement (Series 3–6)', price: '699', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Apple Watch Screen Replacement (Series 7+)', price: '999', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Apple Watch Battery Replacement', price: '599', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'Apple Watch Crown Repair', price: '799', priceCurrency: 'ZAR' },
+    { '@type': 'Offer', name: 'Apple Watch Screen Replacement (Series 3–6)' },
+    { '@type': 'Offer', name: 'Apple Watch Screen Replacement (Series 7+)' },
+    { '@type': 'Offer', name: 'Apple Watch Battery Replacement' },
+    { '@type': 'Offer', name: 'Apple Watch Crown Repair' },
   ],
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -166,9 +162,7 @@ export default function AppleWatchRepairPage() {
               <span className="text-[#0FEA7A]">Screen, Battery & Crown.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Cracked Apple Watch screen or dead battery? Screen replacement from{' '}
-              <strong className="text-[#E8F4F1]">R 699</strong>, battery replacement from{' '}
-              <strong className="text-[#E8F4F1]">R 599</strong>. Series 3 through Series 9 and Apple Watch SE.
+              Cracked Apple Watch screen or dead battery? Screen and battery replacement for Series 3 through Series 9 and Apple Watch SE.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
               No Fix No Fee. 12-month warranty. Free assessment. Hyde Park, Johannesburg.
@@ -215,7 +209,6 @@ export default function AppleWatchRepairPage() {
                   {service.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs mb-3">{service.models}</p>
-                <span className="text-[#0FEA7A] font-bold text-lg">{service.price}</span>
                 {service.note && (
                   <p className="text-[#7A9E98] text-xs italic border-t border-[rgba(15,234,122,0.1)] pt-3 mt-3">
                     {service.note}
@@ -423,9 +416,7 @@ export default function AppleWatchRepairPage() {
               Apple Watch Damaged? Bring It In.
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Screen from <strong className="text-[#E8F4F1]">R 699</strong> &nbsp;|&nbsp; Battery from{' '}
-              <strong className="text-[#E8F4F1]">R 599</strong> &nbsp;|&nbsp; Crown repair from{' '}
-              <strong className="text-[#E8F4F1]">R 799</strong>
+              Screen replacement &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Crown repair
             </p>
             <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -9,7 +9,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'IT Managed Services Johannesburg — Apple-First MSP | ZA Support',
   description:
-    'IT managed services in Johannesburg. Apple-first MSP for medical practices, SMEs, and professionals. Monitoring, support, JAMF MDM. From R 4,500/month. Call 064 529 5863.',
+    'IT managed services in Johannesburg. Apple-first MSP for medical practices, SMEs, and professionals. Monitoring, support, JAMF MDM. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/managed-services' },
 };
 
@@ -23,15 +23,15 @@ const faqs = [
 
 const tiers = [
   {
-    name: 'Starter', price: 'R 4,500/month', ideal: 'Ideal for: Solo professionals, small practices (up to 5 devices)',
+    name: 'Starter', ideal: 'Ideal for: Solo professionals, small practices (up to 5 devices)',
     features: ['Continuous device monitoring', 'Monthly health reports', 'Patch management (macOS + iOS)', 'Backup monitoring and alerts', 'Email support (business hours)', '24-hour response SLA'],
   },
   {
-    name: 'Business', price: 'R 8,500/month', ideal: 'Ideal for: SMEs, medical practices (5–20 devices)',
+    name: 'Business', ideal: 'Ideal for: SMEs, medical practices (5–20 devices)',
     features: ['Everything in Starter', 'JAMF MDM device management', 'Unlimited remote support', 'Monthly on-site visit (included)', 'Microsoft 365 management', 'Priority 4-hour response SLA', 'Network monitoring', 'Annual security review'],
   },
   {
-    name: 'Enterprise', price: 'Custom', ideal: 'Ideal for: Multi-site businesses, 20+ devices',
+    name: 'Enterprise', ideal: 'Ideal for: Multi-site businesses, 20+ devices',
     features: ['Everything in Business', 'Dedicated account manager', 'Custom SLA terms', 'On-site as needed', 'Integration with existing ITSM', 'Executive IT reporting'],
   },
 ];
@@ -62,7 +62,7 @@ export default function ManagedServicesPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Proactive IT management for medical practices, SMEs, and professionals. Monitoring, support,
-              JAMF MDM, and Microsoft 365. From R 4,500/month. Hyde Park, Johannesburg.
+              JAMF MDM, and Microsoft 365. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -100,14 +100,13 @@ export default function ManagedServicesPage() {
 
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>Managed Services Pricing</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>Managed Services Plans</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {tiers.map((tier, i) => (
               <div key={tier.name} className={`glass-card p-8 ${i === 1 ? 'border-[rgba(15,234,122,0.4)] shadow-[0_0_24px_rgba(15,234,122,0.1)]' : ''}`}>
                 {i === 1 && <div className="text-[#0FEA7A] text-xs font-bold mb-3 tracking-widest uppercase">Most Popular</div>}
                 <h3 className="text-[#E8F4F1] text-xl font-bold mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{tier.name}</h3>
-                <p className="text-[#7A9E98] text-xs mb-3">{tier.ideal}</p>
-                <p className="text-[#0FEA7A] text-3xl font-extrabold mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>{tier.price}</p>
+                <p className="text-[#7A9E98] text-xs mb-6">{tier.ideal}</p>
                 <ul className="space-y-2 mb-6">
                   {tier.features.map(f => (
                     <li key={f} className="flex items-start gap-2 text-[#7A9E98] text-sm">

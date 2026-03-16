@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iMac Logic Board Repair Johannesburg | ZA Support',
   description:
-    'iMac logic board repair Johannesburg from R 3,000. 21.5", 24" and 27" models — M1, M3, Intel. Apple Store charges R 30,000–R 70,000. We fix the chip. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
+    'iMac logic board repair Johannesburg. 21.5", 24" and 27" models — M1, M3, M4, and Intel. We fix the chip, not the board. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/imac' },
 };
 
@@ -18,7 +18,7 @@ const faqs = [
   {
     question: 'Is it worth repairing an iMac logic board vs replacing the whole machine?',
     answer:
-      'Almost always yes. A new 24" iMac M3 costs R 32,000–R 55,000. Our logic board repair starts at R 3,000 — a fraction of replacement cost. Even for older Intel iMacs (2017–2020), repair typically costs R 3,000–R 7,000 vs R 18,000+ for a comparable used machine. We give you an honest written cost-benefit comparison before you commit to anything.',
+      'Almost always yes. A new 24" iMac M3 costs significantly more than a component-level repair. Even for older Intel iMacs, repair is typically a fraction of the cost of a comparable used machine. We give you an honest written cost-benefit comparison before you commit to anything.',
   },
   {
     question: 'My iMac 27" has no display but the fans spin. What is the fault?',
@@ -53,7 +53,7 @@ const faqs = [
   {
     question: 'Do you offer iMac collection and delivery in Johannesburg?',
     answer:
-      'Yes. We collect from Hyde Park, Sandton, Rosebank, Randburg, Fourways, and surrounds. Collection is free for repairs over R 3,000. For areas outside our standard route, we use an insured courier service. Call 064 529 5863 or WhatsApp to arrange.',
+      'Yes. We collect from Hyde Park, Sandton, Rosebank, Randburg, Fourways, and surrounds. For areas outside our standard route, we use an insured courier service. Call 064 529 5863 or WhatsApp to arrange.',
   },
   {
     question: 'What warranty do you give on iMac logic board repair?',
@@ -73,58 +73,52 @@ const icFaults = [
     fault: 'GPU die solder failure',
     symptom: 'Artifacts, distorted display, crash on load',
     repair: 'GPU reballing',
-    price: 'From R 4,500',
   },
   {
     ic: 'CD3217 (USB-C Power IC)',
     fault: 'USB-C controller failure',
     symptom: 'No peripherals, no charging, no display out',
     repair: 'IC replacement',
-    price: 'From R 2,500',
   },
   {
     ic: 'TPS51980 (PWM Controller)',
     fault: 'Power rail dropout',
     symptom: 'No power, dead on arrival',
     repair: 'IC replacement + trace repair',
-    price: 'From R 3,000',
   },
   {
     ic: 'LP8550 (LED Backlight Driver)',
     fault: 'Backlight driver failure',
     symptom: 'Black screen, dim display, visible image with torch',
     repair: 'Driver IC replacement',
-    price: 'From R 3,000',
   },
   {
     ic: 'Thunderbolt Controller',
     fault: 'TBT controller IC fault',
     symptom: 'No Thunderbolt/USB-C output, no dGPU',
     repair: 'Controller reballing/replacement',
-    price: 'From R 3,500',
   },
   {
     ic: 'SMC / Power Management',
     fault: 'SMC logic failure',
     symptom: 'No boot, sensor errors, fan at max',
     repair: 'SMC IC replacement',
-    price: 'From R 3,500',
   },
 ];
 
 const models = [
-  { model: 'iMac 21.5" 2015–2019 (Intel)', chip: 'Intel Core i5/i7', repairFrom: 'R 3,000', notes: 'Display controller, USB-C, backlight' },
-  { model: 'iMac 27" 2015–2020 (Intel)', chip: 'Intel Core i5/i7/i9', repairFrom: 'R 3,500', notes: 'GPU reballing most common — 27"' },
-  { model: 'iMac 24" M1 (2021)', chip: 'Apple M1', repairFrom: 'R 3,500', notes: 'Power management, USB-C circuits' },
-  { model: 'iMac 24" M3 (2023)', chip: 'Apple M3', repairFrom: 'R 3,500', notes: 'Power ICs, display controller, ports' },
-  { model: 'iMac 24" M4 (2024)', chip: 'Apple M4', repairFrom: 'POA', notes: 'Diagnostic assessment required' },
+  { model: 'iMac 21.5" 2015–2019 (Intel)', chip: 'Intel Core i5/i7', notes: 'Display controller, USB-C, backlight' },
+  { model: 'iMac 27" 2015–2020 (Intel)', chip: 'Intel Core i5/i7/i9', notes: 'GPU reballing most common — 27"' },
+  { model: 'iMac 24" M1 (2021)', chip: 'Apple M1', notes: 'Power management, USB-C circuits' },
+  { model: 'iMac 24" M3 (2023)', chip: 'Apple M3', notes: 'Power ICs, display controller, ports' },
+  { model: 'iMac 24" M4 (2024)', chip: 'Apple M4', notes: 'Diagnostic assessment required' },
 ];
 
 const reviews = [
   {
     name: 'Grant M.',
     suburb: 'Sandton',
-    text: 'My iMac 27" had vertical lines and then went completely black. ZA Support identified AMD GPU failure, reballed it, and it came back perfect. Saved me R 22,000 on a new machine.',
+    text: 'My iMac 27" had vertical lines and then went completely black. ZA Support identified AMD GPU failure, reballed it, and it came back perfect. Saved me thousands on a new machine.',
     rating: 5,
   },
   {
@@ -136,7 +130,7 @@ const reviews = [
   {
     name: 'Andrew D.',
     suburb: 'Fourways',
-    text: 'iMac 24" M1 had no display. Took it to iStore first — they quoted R 35,000 for a board replacement. ZA Support fixed the display controller IC for R 3,800. Same day collection.',
+    text: 'iMac 24" M1 had no display. Took it to iStore first — they quoted a high price for a board replacement. ZA Support fixed the display controller IC for a fraction of that. Same day collection.',
     rating: 5,
   },
 ];
@@ -169,12 +163,10 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'iMac logic board repair from R 3,000. No Fix No Fee. 12-month warranty.',
+  description: 'iMac logic board repair. Free diagnostic. No Fix No Fee. 12-month warranty.',
   offers: {
     '@type': 'Offer',
-    priceCurrency: 'ZAR',
-    price: '3000',
-    priceSpecification: { '@type': 'PriceSpecification', minPrice: '3000', priceCurrency: 'ZAR' },
+    description: 'iMac logic board repair. Free diagnostic. No Fix No Fee.',
   },
 };
 
@@ -199,8 +191,8 @@ export default function iMacLogicBoardPage() {
               iMac Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              iMac logic board repair from R 3,000. 21.5&quot;, 24&quot; and 27&quot; models — M1, M3, M4, and Intel.
-              We repair the chip. Apple Store replaces the board. That is a R 20,000+ difference.
+              iMac logic board repair. 21.5&quot;, 24&quot; and 27&quot; models — M1, M3, M4, and Intel.
+              We repair the chip. Apple Store replaces the board. Free diagnostic, No Fix No Fee.
             </p>
 
             {/* Stats bar */}
@@ -244,22 +236,22 @@ export default function iMacLogicBoardPage() {
         </div>
       </section>
 
-      {/* Price comparison callout */}
+      {/* Comparison callout */}
       <section className="py-10 bg-[rgba(39,80,77,0.2)] border-y border-[rgba(15,234,122,0.1)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">Apple Store / iStore</p>
-              <p className="text-3xl font-extrabold text-red-400">R 30,000–R 70,000</p>
-              <p className="text-[#7A9E98] text-xs mt-1">Logic board replacement — entire board swapped</p>
+              <p className="text-2xl font-extrabold text-red-400">Full board replacement</p>
+              <p className="text-[#7A9E98] text-xs mt-1">Entire board swapped — data loss on M-series</p>
             </div>
             <div className="flex items-center justify-center">
               <div className="text-[#0FEA7A] text-4xl font-black">vs</div>
             </div>
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">ZA Support — iMac Logic Board Repair</p>
-              <p className="text-3xl font-extrabold text-[#0FEA7A]">From R 3,000</p>
-              <p className="text-[#7A9E98] text-xs mt-1">We repair the specific failed component. Board stays. 12-month warranty.</p>
+              <p className="text-2xl font-extrabold text-[#0FEA7A]">Component-level repair</p>
+              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. Board stays. 12-month warranty.</p>
             </div>
           </div>
         </div>
@@ -290,21 +282,20 @@ export default function iMacLogicBoardPage() {
               ))}
             </div>
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
               <div className="glass-card p-6 mb-6">
                 {[
-                  { item: 'Diagnostic', price: 'Free' },
-                  { item: 'Power Supply Repair', price: 'From R 2,500' },
-                  { item: 'Logic Board Repair (Intel)', price: 'From R 3,000' },
-                  { item: 'Logic Board Repair (M1/M3)', price: 'From R 3,500' },
-                  { item: 'GPU Reballing (27" Intel)', price: 'From R 4,500' },
-                  { item: 'Liquid Damage Restoration', price: 'From R 3,500' },
-                  { item: 'USB-C / Thunderbolt Repair', price: 'From R 2,500' },
-                  { item: 'Board Replacement', price: 'From R 9,000' },
-                ].map((item, i) => (
-                  <div key={item.item} className={`flex justify-between py-3 ${i < 7 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{item.item}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{item.price}</span>
+                  'Diagnostic Assessment',
+                  'Power Supply Repair',
+                  'Logic Board Repair (Intel)',
+                  'Logic Board Repair (M-series)',
+                  'GPU Reballing (27" Intel)',
+                  'Liquid Damage Restoration',
+                  'USB-C / Thunderbolt Repair',
+                  'Board Replacement',
+                ].map((item, i, arr) => (
+                  <div key={item} className={`py-3 ${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                    <span className="text-[#7A9E98] text-sm">{item}</span>
                   </div>
                 ))}
               </div>
@@ -343,8 +334,7 @@ export default function iMacLogicBoardPage() {
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Component</th>
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Failure Mode</th>
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Symptom</th>
-                  <th className="text-left text-[#0FEA7A] py-3 pr-6">Repair</th>
-                  <th className="text-left text-[#0FEA7A] py-3">From</th>
+                  <th className="text-left text-[#0FEA7A] py-3">Repair</th>
                 </tr>
               </thead>
               <tbody>
@@ -353,8 +343,7 @@ export default function iMacLogicBoardPage() {
                     <td className="text-[#E8F4F1] py-3 pr-6 font-medium">{row.ic}</td>
                     <td className="text-[#7A9E98] py-3 pr-6">{row.fault}</td>
                     <td className="text-[#7A9E98] py-3 pr-6">{row.symptom}</td>
-                    <td className="text-[#7A9E98] py-3 pr-6">{row.repair}</td>
-                    <td className="text-[#0FEA7A] py-3 font-bold">{row.price}</td>
+                    <td className="text-[#7A9E98] py-3">{row.repair}</td>
                   </tr>
                 ))}
               </tbody>
@@ -376,7 +365,6 @@ export default function iMacLogicBoardPage() {
                 <tr className="border-b border-[rgba(15,234,122,0.15)]">
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Model</th>
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Chip</th>
-                  <th className="text-left text-[#0FEA7A] py-3 pr-6">Repair From</th>
                   <th className="text-left text-[#0FEA7A] py-3">Common Repairs</th>
                 </tr>
               </thead>
@@ -385,7 +373,6 @@ export default function iMacLogicBoardPage() {
                   <tr key={row.model} className={`${i < models.length - 1 ? 'border-b border-[rgba(255,255,255,0.04)]' : ''}`}>
                     <td className="text-[#E8F4F1] py-3 pr-6 font-medium">{row.model}</td>
                     <td className="text-[#7A9E98] py-3 pr-6">{row.chip}</td>
-                    <td className="text-[#0FEA7A] py-3 pr-6 font-bold">{row.repairFrom}</td>
                     <td className="text-[#7A9E98] py-3">{row.notes}</td>
                   </tr>
                 ))}
@@ -431,7 +418,7 @@ export default function iMacLogicBoardPage() {
             {[
               {
                 title: 'Board-Level Repair, Not Replacement',
-                desc: 'Apple and iStore replace the entire logic board at R 30,000–R 70,000. We replace the specific failed IC. Same result, fraction of the cost.',
+                desc: 'Apple and iStore replace the entire logic board. We replace the specific failed IC. Same result, fraction of the cost.',
               },
               {
                 title: '12-Month Written Warranty',
@@ -499,15 +486,15 @@ export default function iMacLogicBoardPage() {
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Related Repairs</h2>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {[
-              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', price: 'From R 2,500' },
-              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', price: 'From R 1,800' },
-              { title: 'Mac mini Logic Board', href: '/logic-board-repair/mac-mini', price: 'From R 2,000' },
-              { title: 'Logic Board Repair Hub', href: '/logic-board-repair', price: 'All Devices' },
+              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Free diagnostic' },
+              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Free diagnostic' },
+              { title: 'Mac mini Logic Board', href: '/logic-board-repair/mac-mini', label: 'Free diagnostic' },
+              { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
+                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.label}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
@@ -524,7 +511,7 @@ export default function iMacLogicBoardPage() {
               iMac Logic Board Fault?
             </h2>
             <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Apple Store quoted you R 30,000? Get a second opinion first — it costs you nothing.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Get a second opinion before committing to a board replacement — it costs you nothing.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsappLogicBoard}

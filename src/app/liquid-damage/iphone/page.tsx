@@ -8,9 +8,9 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iPhone Liquid Damage Repair Johannesburg | From R 1,200 | ZA Support',
+  title: 'iPhone Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'iPhone liquid damage repair in Johannesburg from R 1,200. All models iPhone 8 through 16 Pro Max. Free assessment, No Fix No Fee. Call 064 529 5863.',
+    'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Free assessment, No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/iphone' },
 };
 
@@ -72,7 +72,7 @@ export default function iPhoneLiquidDamagePage() {
               <br /><span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              iPhone liquid damage repair from R 1,200. All models iPhone 8 through iPhone 16 Pro Max.
+              iPhone liquid damage repair. All models iPhone 8 through iPhone 16 Pro Max.
               Free assessment, No Fix No Fee, 12-month warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -123,27 +123,25 @@ export default function iPhoneLiquidDamagePage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing by Model</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Models We Repair</h2>
               <div className="glass-card p-6">
                 {[
-                  { model: 'iPhone 8 / 8 Plus', price: 'From R 1,200' },
-                  { model: 'iPhone X / XS / XR / XS Max', price: 'From R 1,400' },
-                  { model: 'iPhone 11 / 11 Pro / 11 Pro Max', price: 'From R 1,400' },
-                  { model: 'iPhone 12 Series', price: 'From R 1,600' },
-                  { model: 'iPhone 13 Series', price: 'From R 1,600' },
-                  { model: 'iPhone 14 Series', price: 'From R 1,800' },
-                  { model: 'iPhone 15 / 16 Series', price: 'From R 2,000' },
-                  { model: 'Assessment', price: 'Free' },
-                ].map((item, i) => (
-                  <div key={item.model} className={`flex justify-between py-2.5 ${i < 7 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{item.model}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{item.price}</span>
+                  'iPhone 8 / 8 Plus',
+                  'iPhone X / XS / XR / XS Max',
+                  'iPhone 11 / 11 Pro / 11 Pro Max',
+                  'iPhone 12 Series',
+                  'iPhone 13 Series',
+                  'iPhone 14 Series',
+                  'iPhone 15 / 16 Series',
+                ].map((model, i) => (
+                  <div key={model} className={`py-2.5 ${i < 6 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                    <span className="text-[#7A9E98] text-sm">{model}</span>
                   </div>
                 ))}
               </div>
               <div className="flex items-center gap-3 mt-4 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">No Fix No Fee. 12-month warranty on all repairs.</p>
+                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. 12-month warranty on all repairs.</p>
               </div>
             </div>
           </div>
@@ -161,14 +159,13 @@ export default function iPhoneLiquidDamagePage() {
           <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Repair Hub', href: '/iphone-repair', price: 'All Damage Types' },
-              { title: 'Liquid Damage Hub', href: '/liquid-damage', price: 'All Devices' },
-              { title: 'MacBook Liquid Damage', href: '/liquid-damage/macbook-pro', price: 'From R 3,500' },
+              { title: 'iPhone Repair Hub', href: '/iphone-repair' },
+              { title: 'Liquid Damage Hub', href: '/liquid-damage' },
+              { title: 'MacBook Liquid Damage', href: '/liquid-damage/macbook-pro' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>

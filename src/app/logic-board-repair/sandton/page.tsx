@@ -26,12 +26,12 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', price: 'Free', note: 'Full board-level inspection — no obligation' },
-  { item: 'USB-C / Thunderbolt Repair', price: 'From R 1,800', note: 'Port board or controller chip replacement' },
-  { item: 'Power Circuit Repair', price: 'From R 2,000', note: 'No-power diagnosis and board-level fix' },
-  { item: 'Microsoldering Repair', price: 'From R 2,500', note: 'Component-level board repair under microscope' },
-  { item: 'GPU Repair / Reballing', price: 'From R 3,500', note: 'Discrete GPU only — Intel Mac models' },
-  { item: 'Logic Board Replacement', price: 'From R 8,000', note: 'Where component repair is not feasible' },
+  { item: 'Diagnostic Assessment', note: 'Full board-level inspection — no obligation' },
+  { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip replacement' },
+  { item: 'Power Circuit Repair', note: 'No-power diagnosis and board-level fix' },
+  { item: 'Microsoldering Repair', note: 'Component-level board repair under microscope' },
+  { item: 'GPU Repair / Reballing', note: 'Discrete GPU only — Intel Mac models' },
+  { item: 'Logic Board Replacement', note: 'Where component repair is not feasible' },
 ];
 
 const faqs = [
@@ -251,22 +251,19 @@ export default function LogicBoardRepairSandtonPage() {
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Repair Services */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing Guide</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
           <div className="glass-card overflow-hidden p-0">
             {pricing.map((item, i) => (
-              <div key={item.item} className={`flex items-center justify-between p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
-                  <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
-                </div>
-                <span className="text-[#0FEA7A] font-bold whitespace-nowrap ml-4">{item.price}</span>
+              <div key={item.item} className={`p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
+                <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">All prices are for Sandton clients. Final price confirmed at diagnostic. Free assessment with no obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Free assessment with no obligation to proceed.</p>
         </div>
       </section>
 

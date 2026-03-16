@@ -8,9 +8,9 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Apple Watch Water Damage Repair Johannesburg | From R 900 | ZA Support',
+  title: 'Apple Watch Water Damage Repair Johannesburg | ZA Support',
   description:
-    'Apple Watch water damage repair in Johannesburg from R 900. Series 3 through Ultra 2. Free assessment, No Fix No Fee. Call 064 529 5863.',
+    'Apple Watch water damage repair in Johannesburg. Series 3 through Ultra 2. Free assessment, No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/apple-watch' },
 };
 
@@ -63,7 +63,7 @@ export default function AppleWatchWaterDamagePage() {
               Apple Watch Water Damage<br /><span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              Apple Watch water damage repair from R 900. Series 3 through Ultra 2.
+              Apple Watch water damage repair. Series 3 through Ultra 2.
               Free assessment, No Fix No Fee. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -110,24 +110,9 @@ export default function AppleWatchWaterDamagePage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing</h2>
-              <div className="glass-card p-6 mb-6">
-                {[
-                  { model: 'Apple Watch Series 3–5', price: 'From R 900' },
-                  { model: 'Apple Watch SE', price: 'From R 950' },
-                  { model: 'Apple Watch Series 6–8', price: 'From R 1,100' },
-                  { model: 'Apple Watch Series 9', price: 'From R 1,200' },
-                  { model: 'Apple Watch Ultra / Ultra 2', price: 'From R 1,500' },
-                  { model: 'Assessment', price: 'Free' },
-                ].map((item, i) => (
-                  <div key={item.model} className={`flex justify-between py-2.5 ${i < 5 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{item.model}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{item.price}</span>
-                  </div>
-                ))}
-              </div>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
-                <p className="text-[#7A9E98] text-sm">No Fix No Fee. 12-month warranty on all repairs completed. Apple Watch resealing service also available.</p>
+                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. 12-month warranty on all repairs completed. Apple Watch resealing service also available.</p>
               </div>
             </div>
           </div>

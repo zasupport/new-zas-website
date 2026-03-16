@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Not Charging — Repair Johannesburg | ZA Support',
   description:
-    'iPhone not charging? Lightning and USB-C port repair in Johannesburg from R 399. All models iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park.',
+    'iPhone not charging? Lightning and USB-C port repair in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/charging' },
   keywords: [
     'iPhone not charging Johannesburg',
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'Lint/Debris Clean (no parts)', price: 'R 199 – R 299', note: 'Often resolves the fault' },
-  { model: 'Lightning Port — iPhone 12/13', price: 'R 399 – R 499', note: '' },
-  { model: 'Lightning Port — iPhone 14', price: 'R 449 – R 549', note: '' },
-  { model: 'USB-C Port — iPhone 15/16', price: 'R 499 – R 599', note: '' },
-  { model: 'USB-C Port Pro — iPhone 15/16 Pro', price: 'R 599 – R 699', note: '' },
-  { model: 'Charging Board Replacement', price: 'R 649 – R 799', note: 'If flex cable failed' },
-  { model: 'Liquid-Damaged Port', price: 'R 699 – R 799', note: 'Corrosion cleaning + port' },
+  { model: 'Lint/Debris Clean (no parts)', note: 'Often resolves the fault' },
+  { model: 'Lightning Port — iPhone 12/13', note: '' },
+  { model: 'Lightning Port — iPhone 14', note: '' },
+  { model: 'USB-C Port — iPhone 15/16', note: '' },
+  { model: 'USB-C Port Pro — iPhone 15/16 Pro', note: '' },
+  { model: 'Charging Board Replacement', note: 'If flex cable failed' },
+  { model: 'Liquid-Damaged Port', note: 'Corrosion cleaning + port' },
 ];
 
 const symptoms = [
@@ -89,7 +89,7 @@ const faqs = [
   {
     question: 'How much does iPhone charging port repair cost in Johannesburg?',
     answer:
-      'iPhone charging port repair in Johannesburg starts at R 199 for a lint clean (no parts) and ranges up to R 799 for a corroded or liquid-damaged port replacement. A Lightning or USB-C port replacement typically costs R 399–R 699 depending on model. We provide a free assessment and fixed-price quote before any work.',
+      'We provide a free assessment and fixed-price quote before any work. The cost depends on whether it is a simple lint clean, port replacement, or corrosion repair.',
   },
   {
     question: 'My iPhone stopped charging — is it definitely the port?',
@@ -156,7 +156,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Charging Port Repair Johannesburg',
-  description: 'iPhone not charging repair in Johannesburg. Lightning and USB-C ports. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion repair. From R 399.',
+  description: 'iPhone not charging repair in Johannesburg. Lightning and USB-C ports. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion repair.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -176,9 +176,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Charging Port Repair Johannesburg',
-  description: 'iPhone charging port repair in Johannesburg. Lightning and USB-C. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion. From R 399. 12-month warranty.',
-  lowPrice: '399',
-  highPrice: '799',
+  description: 'iPhone charging port repair in Johannesburg. Lightning and USB-C. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -223,12 +221,12 @@ export default function iPhoneChargingPage() {
               <span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Charging port not working, cable falls out, lint blockage — we repair all iPhone charging faults
-              from R 399. Lightning and USB-C. iPhone 12 through 16 Pro Max.
+              Charging port not working, cable falls out, lint blockage — we repair all iPhone charging faults.
+              Lightning and USB-C. iPhone 12 through 16 Pro Max.
               Same-day available. 12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['From R 399', 'No Fix No Fee', '12-month warranty', 'Lint clean from R 199', 'Same-day available', 'Free assessment'].map((item) => (
+              {['Free assessment', 'No Fix No Fee', '12-month warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -261,29 +259,27 @@ export default function iPhoneChargingPage() {
         </div>
       </section>
 
-      {/* ── Pricing ──────────────────────────────────────────────────────── */}
+      {/* ── Repair Services ──────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Charging Repair Prices — Johannesburg 2026
+            iPhone Charging Repair Services — Johannesburg 2026
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             We always start with the simplest fix first. If lint is blocking the port, we clean it for a fraction
             of the cost of a full port replacement. Written fixed-price quote before any work.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
-            <div className="grid grid-cols-3 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
+            <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider">Repair Type</span>
-              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-center">Price Range</span>
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-right">Note</span>
             </div>
             {pricingRows.map((row, i) => (
               <div
                 key={row.model}
-                className={`grid grid-cols-3 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
+                className={`grid grid-cols-2 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
               >
                 <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                 <span className="text-[#7A9E98] text-xs text-right self-center">{row.note}</span>
               </div>
             ))}
@@ -424,14 +420,14 @@ export default function iPhoneChargingPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', price: 'From R 499' },
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', price: 'From R 599' },
-              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', price: 'From R 499' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Free diagnostic' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Free diagnostic' },
+              { title: 'iPhone Back Glass Repair', href: '/iphone-repair/back-glass', label: 'Free diagnostic' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
+                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.label}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
@@ -450,7 +446,7 @@ export default function iPhoneChargingPage() {
             >
               iPhone Not Charging?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 399. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee. 12-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

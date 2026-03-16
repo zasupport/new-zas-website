@@ -7,19 +7,19 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iMac SSD Upgrade Johannesburg | Fusion Drive to SSD | From R 2,500 | ZA Support',
+  title: 'iMac SSD Upgrade Johannesburg | Fusion Drive to SSD | ZA Support',
   description:
-    'iMac SSD upgrade in Johannesburg. Replace slow hard drive or Fusion Drive with a fast SSD. Boot in under 20 seconds. All Intel iMac models. From R 2,500 inc. data migration. Hyde Park.',
+    'iMac SSD upgrade in Johannesburg. Replace slow hard drive or Fusion Drive with a fast SSD. Boot in under 20 seconds. All Intel iMac models. Data migration included. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/imac-repair/ssd-upgrade' },
 };
 
 const pricingRows = [
-  { model: 'iMac 21.5" (2012–2019) — HDD to SSD', storage: '500 GB SSD', price: 'From R 2,500', note: 'Data migration included' },
-  { model: 'iMac 21.5" (2012–2019) — HDD to SSD', storage: '1 TB SSD', price: 'From R 3,200', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019) — HDD to SSD', storage: '500 GB SSD', price: 'From R 2,800', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019) — HDD to SSD', storage: '1 TB SSD', price: 'From R 3,500', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019) — Fusion Drive', storage: '1 TB SSD (replace both)', price: 'From R 3,800', note: 'Removes Fusion, full SSD' },
-  { model: 'iMac 27" (2017–2020) — add SSD blade', storage: '512 GB NVMe blade', price: 'From R 2,200', note: 'PCIe slot — no screen removal' },
+  { model: 'iMac 21.5" (2012–2019) — HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
+  { model: 'iMac 21.5" (2012–2019) — HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012–2019) — HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012–2019) — HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012–2019) — Fusion Drive', storage: '1 TB SSD (replace both)', note: 'Removes Fusion, full SSD' },
+  { model: 'iMac 27" (2017–2020) — add SSD blade', storage: '512 GB NVMe blade', note: 'PCIe slot — no screen removal' },
 ];
 
 const symptoms = [
@@ -82,8 +82,8 @@ const serviceSchema = {
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Computer Upgrade',
   offers: [
-    { '@type': 'Offer', name: 'iMac SSD Upgrade 500 GB', price: '2500', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'iMac SSD Upgrade 1 TB', price: '3200', priceCurrency: 'ZAR' },
+    { '@type': 'Offer', name: 'iMac SSD Upgrade 500 GB' },
+    { '@type': 'Offer', name: 'iMac SSD Upgrade 1 TB' },
   ],
 };
 
@@ -116,7 +116,7 @@ export default function IMacSSDUpgradePage() {
             Replace your slow spinning hard drive or Fusion Drive with a fast SSD.
             Boot in under 20 seconds. All Intel iMac models. Data migration included.
           </p>
-          <p className="text-2xl font-bold text-green-400 mb-8">From R 2,500</p>
+          <p className="text-2xl font-bold text-green-400 mb-8">Free assessment · Fixed quote before we start</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
@@ -179,18 +179,17 @@ export default function IMacSSDUpgradePage() {
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Upgrade Options */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac SSD Upgrade Pricing</h2>
-          <p className="text-slate-500 text-center mb-8">All prices include data migration. No hidden fees.</p>
+          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac SSD Upgrade Options</h2>
+          <p className="text-slate-500 text-center mb-8">All upgrades include data migration. No hidden fees.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
               <thead className="bg-slate-900 text-white">
                 <tr>
                   <th className="text-left p-4">iMac Model</th>
                   <th className="text-left p-4">Storage</th>
-                  <th className="text-left p-4">Price</th>
                   <th className="text-left p-4">Notes</th>
                 </tr>
               </thead>
@@ -199,7 +198,6 @@ export default function IMacSSDUpgradePage() {
                   <tr key={`${row.model}-${row.storage}`} className="hover:bg-slate-50">
                     <td className="p-4 text-slate-700">{row.model}</td>
                     <td className="p-4 text-slate-700">{row.storage}</td>
-                    <td className="p-4 font-semibold text-green-600">{row.price}</td>
                     <td className="p-4 text-slate-500 text-xs">{row.note}</td>
                   </tr>
                 ))}
@@ -207,7 +205,7 @@ export default function IMacSSDUpgradePage() {
             </table>
           </div>
           <p className="text-center text-sm text-slate-500 mt-4">
-            Free assessment and fixed quote before we start. Prices may vary for older or unusual configurations.
+            Free assessment and fixed quote before we start. Cost confirmed before any work begins.
           </p>
         </div>
       </section>
@@ -253,7 +251,7 @@ export default function IMacSSDUpgradePage() {
             <h3 className="font-bold text-slate-900 mb-1">Bundle with a RAM upgrade?</h3>
             <p className="text-slate-600 text-sm">
               For iMac 27" Intel models, adding RAM alongside the SSD upgrade doubles the impact.
-              SSD + 32 GB RAM from R 4,200 — same service visit, no extra opening.
+              Both done in the same service visit — no extra opening required.
             </p>
           </div>
           <Link

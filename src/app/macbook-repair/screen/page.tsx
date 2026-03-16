@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Screen Replacement Johannesburg | ZA Support',
   description:
-    'MacBook screen replacement in Johannesburg from R 2,499. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
+    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/screen' },
   keywords: [
     'MacBook screen replacement Johannesburg',
@@ -25,14 +25,14 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Air 13" M1 / M2', price: 'R 2,499 – R 3,499', note: 'Most popular repair' },
-  { model: 'MacBook Air 15" M2 / M3', price: 'R 3,499 – R 4,999', note: '' },
-  { model: 'MacBook Air 13" M3', price: 'R 2,999 – R 3,999', note: '' },
-  { model: 'MacBook Pro 13" (2016–2022)', price: 'R 2,999 – R 4,499', note: 'Intel + M-series' },
-  { model: 'MacBook Pro 14" M1 / M2 / M3 / M4', price: 'R 3,999 – R 5,999', note: '' },
-  { model: 'MacBook Pro 16" M1 / M2 / M3 / M4', price: 'R 4,999 – R 7,499', note: '' },
-  { model: 'MacBook Air Intel 13" (2017–2020)', price: 'From R 3,200', note: '' },
-  { model: 'MacBook Pro Intel 15" (2016–2019)', price: 'From R 4,200', note: '' },
+  { model: 'MacBook Air 13" M1 / M2', note: 'Most popular repair' },
+  { model: 'MacBook Air 15" M2 / M3', note: '' },
+  { model: 'MacBook Air 13" M3', note: '' },
+  { model: 'MacBook Pro 13" (2016–2022)', note: 'Intel + M-series' },
+  { model: 'MacBook Pro 14" M1 / M2 / M3 / M4', note: '' },
+  { model: 'MacBook Pro 16" M1 / M2 / M3 / M4', note: '' },
+  { model: 'MacBook Air Intel 13" (2017–2020)', note: '' },
+  { model: 'MacBook Pro Intel 15" (2016–2019)', note: '' },
 ];
 
 const symptoms = [
@@ -49,7 +49,7 @@ const symptoms = [
 const faqs = [
   {
     question: 'How much does MacBook screen replacement cost in Johannesburg?',
-    answer: 'MacBook screen replacement in Johannesburg starts at R 2,499 for MacBook Air M1/M2 models and ranges up to R 7,499 for MacBook Pro 16" M3/M4 models. The exact price depends on your specific model and year. We provide a free assessment and give you a written fixed quote before starting any work — no surprises.',
+    answer: 'The exact price depends on your specific model and year. We provide a free assessment and give you a written fixed quote before starting any work — no surprises.',
   },
   {
     question: 'How long does MacBook screen replacement take?',
@@ -109,7 +109,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Screen Replacement Johannesburg',
-  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. From R 2,499. Same-day available. 12-month warranty.',
+  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. Same-day available. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -140,23 +140,14 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'MacBook screen replacement in Johannesburg from R 2,499. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty.',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '2499',
-    highPrice: '7499',
-    priceCurrency: 'ZAR',
-    offerCount: pricingRows.length,
-  },
+  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty.',
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
-    name: 'MacBook Screen Replacement Pricing',
+    name: 'MacBook Screen Replacement Models',
     itemListElement: pricingRows.map((row, i) => ({
       '@type': 'Offer',
       position: i + 1,
       itemOffered: { '@type': 'Service', name: row.model },
-      description: row.price,
-      priceCurrency: 'ZAR',
     })),
   },
 };
@@ -192,7 +183,6 @@ export default function MacBookScreenPage() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Screen Replacement<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
-              <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | From R 2,499</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
               Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models — Apple Silicon and Intel. Free assessment. No Fix No Fee.
@@ -262,37 +252,35 @@ export default function MacBookScreenPage() {
         </div>
       </section>
 
-      {/* PRICING TABLE */}
+      {/* SUPPORTED MODELS TABLE */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-              MacBook Screen Replacement <span className="text-[#0FEA7A]">Pricing</span>
+              MacBook Screen Replacement — <span className="text-[#0FEA7A]">Supported Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              All prices include the OEM-quality display assembly and labour. Free assessment before any work begins. Written fixed quote — no hidden costs.
+              OEM-quality display assemblies and labour included. Free assessment before any work begins. Written fixed quote — no hidden costs.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
             <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
-              <div className="grid grid-cols-3 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
+              <div className="grid grid-cols-2 px-6 py-3 bg-[rgba(15,234,122,0.07)] border-b border-[rgba(255,255,255,0.08)]">
                 <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Model</span>
-                <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-center">Price Range</span>
                 <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Note</span>
               </div>
               {pricingRows.map((row, i) => (
                 <div
                   key={row.model}
-                  className={`grid grid-cols-3 px-6 py-4 items-center ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
+                  className={`grid grid-cols-2 px-6 py-4 items-center ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} hover:bg-[rgba(15,234,122,0.03)] transition-colors`}
                 >
                   <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                  <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                   <span className="text-[#7A9E98] text-xs text-right">{row.note}</span>
                 </div>
               ))}
             </div>
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
-              Prices include full display assembly and labour. Call to confirm stock availability for your specific model and year.
+              Call to confirm stock availability for your specific model and year.
             </p>
           </div>
         </div>
@@ -520,37 +508,35 @@ export default function MacBookScreenPage() {
         </div>
       </section>
 
-      {/* PRICE COMPARISON */}
+      {/* WARRANTY COMPARISON */}
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-              How Does Our Pricing Compare?
+              How Does Our Service Compare?
             </h2>
-            <p className="text-[#7A9E98] text-sm">MacBook Pro 14" M2 screen replacement — ZAR comparison.</p>
+            <p className="text-[#7A9E98] text-sm">MacBook Pro 14" M2 screen replacement — service comparison.</p>
           </div>
           <div className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl overflow-hidden">
-            <div className="grid grid-cols-3 px-6 py-3 bg-[rgba(15,234,122,0.05)] border-b border-[rgba(255,255,255,0.08)]">
+            <div className="grid grid-cols-2 px-6 py-3 bg-[rgba(15,234,122,0.05)] border-b border-[rgba(255,255,255,0.08)]">
               <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider">Provider</span>
-              <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-center">Est. Price</span>
               <span className="text-[#7A9E98] text-xs font-semibold uppercase tracking-wider text-right">Warranty</span>
             </div>
             {[
-              { provider: 'ZA Support (Hyde Park JHB)', price: 'R 3,999 – R 5,999', warranty: '12 months written', highlight: true },
-              { provider: 'Apple Authorised Service', price: 'R 12,000 – R 22,000', warranty: '90 days (Apple)', highlight: false },
-              { provider: 'Mall kiosk / walk-in repair', price: 'R 2,500 – R 4,000', warranty: 'None or verbal only', highlight: false },
+              { provider: 'ZA Support (Hyde Park JHB)', warranty: '12 months written', highlight: true },
+              { provider: 'Apple Authorised Service', warranty: '90 days (Apple)', highlight: false },
+              { provider: 'Mall kiosk / walk-in repair', warranty: 'None or verbal only', highlight: false },
             ].map((row, i) => (
               <div
                 key={row.provider}
-                className={`grid grid-cols-3 px-6 py-4 items-center ${i < 2 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} ${row.highlight ? 'bg-[rgba(15,234,122,0.04)]' : ''}`}
+                className={`grid grid-cols-2 px-6 py-4 items-center ${i < 2 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''} ${row.highlight ? 'bg-[rgba(15,234,122,0.04)]' : ''}`}
               >
                 <span className={`text-sm font-medium ${row.highlight ? 'text-[#0FEA7A]' : 'text-[#7A9E98]'}`}>{row.provider}</span>
-                <span className={`text-sm text-center font-bold ${row.highlight ? 'text-[#0FEA7A]' : 'text-[#7A9E98]'}`}>{row.price}</span>
                 <span className={`text-xs text-right ${row.highlight ? 'text-[#E8F4F1]' : 'text-[#7A9E98]'}`}>{row.warranty}</span>
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3 text-center">Prices indicative only. Call or WhatsApp for a confirmed quote for your specific model.</p>
+          <p className="text-[#7A9E98] text-xs mt-3 text-center">Call or WhatsApp for a confirmed quote for your specific model.</p>
         </div>
       </section>
 
@@ -614,7 +600,7 @@ export default function MacBookScreenPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Cracked MacBook Screen in Johannesburg?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">From R 2,499. Same-day available. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Free assessment. No Fix No Fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 12-month written warranty on all screen replacements</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

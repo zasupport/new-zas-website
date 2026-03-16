@@ -9,7 +9,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
   description:
-    'MacBook Pro repair Johannesburg — Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. M1–M4 Pro/Max and Intel 2015–2019. Screen from R 2,500, keyboard from R 1,800, logic board from R 3,500. No Fix No Fee. Hyde Park.',
+    'MacBook Pro repair Johannesburg — Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering. M1–M4 Pro/Max and Intel 2015–2019. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair' },
   keywords: [
     'macbook pro repair johannesburg',
@@ -36,56 +36,56 @@ const services = [
     title: 'Screen Replacement',
     description: 'Cracked Retina or Liquid Retina XDR, Flexgate backlight failure (2016–2019), dead pixels, Staingate delamination. Genuine-quality panels for all MacBook Pro sizes.',
     href: '/macbook-repair/screen',
-    price: 'From R 2,500',
+    price: 'Quoted on assessment',
   },
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
     description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with 12-month warranty.',
     href: '/macbook-repair/keyboard',
-    price: 'From R 1,800',
+    price: 'Quoted on assessment',
   },
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore all-day battery life and eliminate thermal shutdown. MacBook Pro 13" from R 1,500, MacBook Pro 14"/16" from R 1,800. OEM-grade cells, same-day turnaround.',
+    description: 'Restore all-day battery life and eliminate thermal shutdown. OEM-grade cells, same-day turnaround.',
     href: '/macbook-repair/battery',
-    price: 'From R 1,500',
+    price: 'Quoted on assessment',
   },
   {
     icon: Cpu,
     title: 'Logic Board Repair',
-    description: 'Component-level microsoldering for no-power, no-display, GPU fault, USB-C charging failure, and T2 issues. All MacBook Pro models repaired in-house. Alternatives cost R 15,000–R 70,000.',
+    description: 'Component-level microsoldering for no-power, no-display, GPU fault, USB-C charging failure, and T2 issues. All MacBook Pro models repaired in-house.',
     href: '/logic-board-repair/macbook-pro',
-    price: 'From R 3,500',
+    price: 'Quoted on assessment',
   },
   {
     icon: Droplets,
     title: 'Liquid Damage',
     description: 'Ultrasonic board cleaning, corrosion removal and component-level microsoldering. MacBook Pro liquid damage is often fully repairable if assessed quickly.',
     href: '/liquid-damage/macbook-pro',
-    price: 'From R 2,500',
+    price: 'Quoted on assessment',
   },
   {
     icon: Wrench,
     title: 'Charging Port Repair',
     description: 'USB-C or Thunderbolt port not charging, bent pins, MagSafe port failure on older models. Port board replacement or microsoldering where needed.',
     href: '/macbook-repair/charging-port',
-    price: 'From R 1,800',
+    price: 'Quoted on assessment',
   },
   {
     icon: Wrench,
     title: 'Trackpad Repair',
     description: 'Trackpad not clicking, erratic cursor, Force Touch unresponsive, raised trackpad from a swollen battery. Same-day repair for most models.',
     href: '/macbook-repair/trackpad',
-    price: 'From R 2,200',
+    price: 'Quoted on assessment',
   },
   {
     icon: Thermometer,
     title: 'Thermal Throttling Fix',
     description: 'MacBook Pro running hot, fans at full speed, or throttling under load? We clean the heatsink, replace thermal paste, and check for firmware-level throttle issues — common on Intel 15" and 16" models.',
     href: '/contact',
-    price: 'From R 950',
+    price: 'Quoted on assessment',
   },
 ];
 
@@ -132,7 +132,7 @@ const knownIssues = [
 const faqs = [
   {
     question: 'How much does MacBook Pro repair cost in Johannesburg?',
-    answer: 'MacBook Pro repair pricing depends on the model and fault. Screen replacement starts at R 2,500. Keyboard replacement starts at R 1,800. Battery replacement starts at R 1,500. Logic board microsoldering starts at R 3,500. Liquid damage assessment is free, with a fixed quote before any work begins. We never start work without written approval.',
+    answer: 'MacBook Pro repair pricing depends on the model and fault. Liquid damage assessment is free, with a fixed quote before any work begins. We never start work without written approval.',
   },
   {
     question: 'What is Flexgate and can it be fixed?',
@@ -152,7 +152,7 @@ const faqs = [
   },
   {
     question: 'What is logic board microsoldering and when does a MacBook Pro need it?',
-    answer: 'Logic board microsoldering is component-level repair on the MacBook Pro main circuit board. It is needed for no-power faults, no-display faults where the screen is confirmed good, GPU failure, USB-C charging failure where the port board is intact, and liquid damage where corrosion has damaged individual components. Apple charges R 15,000 to R 70,000 for a board replacement. We repair the original board from R 3,500.',
+    answer: 'Logic board microsoldering is component-level repair on the MacBook Pro main circuit board. It is needed for no-power faults, no-display faults where the screen is confirmed good, GPU failure, USB-C charging failure where the port board is intact, and liquid damage where corrosion has damaged individual components. Apple charges many times the cost of our repair for a full board replacement.',
   },
   {
     question: 'How long does MacBook Pro repair take?',
@@ -164,11 +164,11 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro is throttling and running hot. Can you fix it?',
-    answer: 'Yes. Thermal throttling is common on Intel MacBook Pro 15" and 16" models, particularly after a few years as the thermal paste dries out. We disassemble the machine, clean the heatsink, apply fresh thermal compound, and verify that CPU and GPU temperatures are within spec under load. This often restores full performance without any hardware replacement. The service starts at R 950.',
+    answer: 'Yes. Thermal throttling is common on Intel MacBook Pro 15" and 16" models, particularly after a few years as the thermal paste dries out. We disassemble the machine, clean the heatsink, apply fresh thermal compound, and verify that CPU and GPU temperatures are within spec under load. This often restores full performance without any hardware replacement.',
   },
   {
     question: 'What is the Staingate issue and can it be fixed?',
-    answer: 'Staingate refers to the delamination of the anti-reflective coating on Retina MacBook Pro screens. It appears as blotchy, cloudy, or oil-stained patches on the display that do not clean off. It is caused by the coating reacting with skin oils and cleaning agents over time. The only permanent fix is a display replacement with a panel that does not have the same coating formula. We replace affected screens from R 2,500.',
+    answer: 'Staingate refers to the delamination of the anti-reflective coating on Retina MacBook Pro screens. It appears as blotchy, cloudy, or oil-stained patches on the display that do not clean off. It is caused by the coating reacting with skin oils and cleaning agents over time. The only permanent fix is a display replacement with a panel that does not have the same coating formula. We replace affected screens — contact us for a quote.',
   },
 ];
 
@@ -195,9 +195,6 @@ const serviceSchema = {
     'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board microsoldering, liquid damage. M1–M4 Pro/Max and Intel models. No Fix No Fee.',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '950',
-    highPrice: '12000',
-    priceCurrency: 'ZAR',
   },
 };
 
@@ -238,7 +235,7 @@ export default function MacBookProRepairPage() {
               Specialists in MacBook Pro faults — Flexgate backlight failure, Staingate screen delamination, butterfly keyboard, thermal throttling, and logic board microsoldering. All models from M4 Pro/Max back to 2011 Intel.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Screen from R 2,500 &middot; Keyboard from R 1,800 &middot; Logic board from R 3,500 &middot; Hyde Park, Johannesburg. No Fix No Fee.
+              Hyde Park, Johannesburg. Free assessment. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -308,8 +305,7 @@ export default function MacBookProRepairPage() {
                   <Icon className="w-8 h-8 text-[#0FEA7A] mb-4" />
                   <h3 className="text-lg font-bold text-[#E8F4F1] mb-2 group-hover:text-[#0FEA7A] transition-colors">{svc.title}</h3>
                   <p className="text-[#7A9E98] text-sm mb-4">{svc.description}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-[#0FEA7A] font-bold text-sm">{svc.price}</span>
+                  <div className="flex items-center justify-end">
                     <ArrowRight className="w-4 h-4 text-[#0FEA7A] opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>
                 </Link>
@@ -319,45 +315,43 @@ export default function MacBookProRepairPage() {
         </div>
       </section>
 
-      {/* Pricing table */}
+      {/* Repair Services table */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Pro Repair <span className="text-[#0FEA7A]">Pricing</span>
+            MacBook Pro <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
-          <p className="text-[#7A9E98] text-center mb-10 text-sm">All prices are confirmed in writing after a free assessment. No hidden costs.</p>
+          <p className="text-[#7A9E98] text-center mb-10 text-sm">All costs are confirmed in writing after a free assessment. No hidden costs.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
               <thead>
                 <tr className="border-b border-[rgba(255,255,255,0.08)]">
                   <th className="text-[#E8F4F1] font-semibold py-3 pr-6">Repair</th>
-                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">From</th>
                   <th className="text-[#E8F4F1] font-semibold py-3">Turnaround</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {[
-                  { repair: 'Screen Replacement (Retina / Liquid Retina XDR)', from: 'R 2,500', time: '2–4 hrs' },
-                  { repair: 'Keyboard Replacement (butterfly / Magic)', from: 'R 1,800', time: '2–4 hrs' },
-                  { repair: 'Battery Replacement (13")', from: 'R 1,500', time: '1.5–2.5 hrs' },
-                  { repair: 'Battery Replacement (14" / 16")', from: 'R 1,800', time: '2–3 hrs' },
-                  { repair: 'Logic Board Microsoldering', from: 'R 3,500', time: '3–5 days' },
-                  { repair: 'Liquid Damage (ultrasonic + component repair)', from: 'R 2,500', time: '2–5 days' },
-                  { repair: 'Charging Port / USB-C Repair', from: 'R 1,800', time: '1–2 hrs' },
-                  { repair: 'Trackpad Repair', from: 'R 2,200', time: '2–4 hrs' },
-                  { repair: 'Thermal Paste + Heatsink Service', from: 'R 950', time: '1–2 hrs' },
-                  { repair: 'Data Recovery', from: 'R 1,500', time: '1–3 days' },
+                  { repair: 'Screen Replacement (Retina / Liquid Retina XDR)', time: '2–4 hrs' },
+                  { repair: 'Keyboard Replacement (butterfly / Magic)', time: '2–4 hrs' },
+                  { repair: 'Battery Replacement (13")', time: '1.5–2.5 hrs' },
+                  { repair: 'Battery Replacement (14" / 16")', time: '2–3 hrs' },
+                  { repair: 'Logic Board Microsoldering', time: '3–5 days' },
+                  { repair: 'Liquid Damage (ultrasonic + component repair)', time: '2–5 days' },
+                  { repair: 'Charging Port / USB-C Repair', time: '1–2 hrs' },
+                  { repair: 'Trackpad Repair', time: '2–4 hrs' },
+                  { repair: 'Thermal Paste + Heatsink Service', time: '1–2 hrs' },
+                  { repair: 'Data Recovery', time: '1–3 days' },
                 ].map((row) => (
                   <tr key={row.repair} className="hover:bg-[rgba(15,234,122,0.03)] transition-colors">
                     <td className="text-[#E8F4F1] font-medium py-3 pr-6">{row.repair}</td>
-                    <td className="text-[#0FEA7A] font-bold py-3 pr-6">{row.from}</td>
                     <td className="text-[#7A9E98] py-3">{row.time}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-[#7A9E98] text-xs text-center mt-6">Prices are starting estimates. Final cost confirmed after free assessment. All repairs include 12-month warranty.</p>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after free assessment. All repairs include 12-month warranty.</p>
         </div>
       </section>
 
@@ -376,7 +370,7 @@ export default function MacBookProRepairPage() {
           <div className="mt-6 glass-card p-4 border border-[rgba(15,234,122,0.15)]">
             <p className="text-[#0FEA7A] font-semibold text-sm mb-1">Why We Can Repair What Apple Cannot</p>
             <p className="text-[#7A9E98] text-xs leading-relaxed">
-              Apple replaces entire logic boards at R 15,000 to R 70,000 because their technicians do not perform component-level work. We use professional rework stations with hot-air and BGA reballing capability. Most MacBook Pro board faults involve a single failed capacitor, IC, or connector — not the entire board. We fix the component, not the machine.
+              Apple replaces entire logic boards because their technicians do not perform component-level work. We use professional rework stations with hot-air and BGA reballing capability. Most MacBook Pro board faults involve a single failed capacitor, IC, or connector — not the entire board. We fix the component, not the machine.
             </p>
           </div>
         </div>

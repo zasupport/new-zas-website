@@ -60,39 +60,6 @@ export const NAV_LINKS = [
   { label: 'Contact', href: '/contact' },
 ] as const;
 
-export const REPAIR_PRICES = {
-  liquidDamage: {
-    macbookAir: 'R 2,500',
-    macbookPro: 'R 3,500',
-    iphone: 'R 1,200',
-    ipad: 'R 1,500',
-    appleWatch: 'R 900',
-    imac: 'R 4,500',
-  },
-  logicBoard: {
-    diagnostic: 'Free',
-    usbC: 'R 1,800',
-    microsoldering: 'R 2,500',
-    gpu: 'R 3,500',
-  },
-  iphone: {
-    screen: 'R 1,500',
-    battery: 'R 950',
-    chargingPort: 'R 750',
-    backGlass: 'R 1,200',
-    camera: 'R 1,800',
-  },
-  managedServices: {
-    starter: 'R 4,500',
-    business: 'R 8,500',
-    enterprise: 'Custom',
-  },
-  jamf: {
-    starter: 'R 4,500',
-    business: 'R 8,500',
-    enterprise: 'Custom',
-  },
-} as const;
 
 export const TRUST_BADGES = [
   { label: 'No Fix No Fee', icon: 'shield' },

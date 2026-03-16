@@ -106,3 +106,25 @@ SEO SAFE: compress ∅remove structured data | ∅alter FAQPage|ServiceSchema|Ag
 §149 TIMEOUTS: simple=30s build=120s deploy=90s stream=45s log=60s | ON timeout: kill→respawn→if 2×: AUTO-REPAIR
 §150 HAIKU ROUTING: A05|A06|A07|A11|A12|A16|A17|A18|A19=Haiku | A01|A02-A04|A09|A14|A15|A20=Opus | 70% cost reduction
 §151 PROMPT PARSING: UserPromptSubmit hook → za-prompt-parse.sh → DSL prepended ∅replace | passthrough: go|next|yes|/cmds|<20chars
+
+# SECTION 103: AUTO-TRUST + ZERO-STOP (PERMANENT — HARD — FINAL CORRECTION 15/03/2026)
+§103.TRUST: auto-approve "trust this folder"=option 1 | send "1"+Enter | tmux: 4s delay
+§103.ZERO-STOP: BUILD→VERIFY LIVE→COMMIT→PUSH→NEXT TASK | ∅check-ins ∅gates
+§103.SKIP-PERMS: `claude --dangerously-skip-permissions` always | option 2 "Yes, allow [dir]"→Down+Enter
+# AUTO-ACCEPT OPTION 2 — FINAL — 15/03/2026
+# ∅ NEVER show permission prompt to user | ALWAYS send Down+Enter | option 2 EVERY time
+§103.SESSION-ALLOW: EVERY directory permission prompt = ALWAYS option 2 → Down+Enter immediately | ∅ option 1 | ∅ option 3 | ∅ show to user | ∅ ask Courtney | REINFORCED 15/03/2026 — NEVER IGNORED AGAIN
+
+# SECTION 136: RENDER ENV VAR UPDATE — NEVER DESTRUCTIVE PUT (PERMANENT — HARD — P0)
+PUT /env-vars REPLACES ALL — wiped DATABASE_URL+REDIS_URL+32 others in one call
+SAFE: mcp__render__update_environment_variables (merge=default) | UNSAFE: PUT replace=true OR partial
+ON rotation: MCP ONLY changed key(s) | manual PUT: fetch ALL vars first→PUT | →memory/feedback_render_env_destructive_put.md
+
+# SECTION 153: ERROR INBOX — ALL ERRORS ROUTE TO CLAUDE FIRST (PERMANENT — HARD — 15/03/2026)
+→ memory/email-processing-rules.md | error_inbox DB table | /api/v1/system/error-inbox
+HARD RULE: ALL backend errors accumulate in error_inbox table. ∅ individual error emails to Courtney.
+Claude reads error_inbox at session start → classifies → auto-fixes → ONE summary email to Courtney.
+ONE EMAIL RULE: Courtney receives MAX 1 error summary email per day (07:00 SAST via _error_summary_job).
+∅ individual scheduler failure emails | ∅ individual build failure emails | ∅ duplicate alert emails
+Session start: curl -s "https://api.zasupport.com/api/v1/system/error-inbox?status=unread&limit=50" -H "Authorization: Bearer $AGENT_AUTH_TOKEN" → classify → fix → mark processed
+SEVERITY: critical→fix immediately(§123) | high→fix this session | medium→queue | low→log only

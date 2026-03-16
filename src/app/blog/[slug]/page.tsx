@@ -283,7 +283,7 @@ Surge damage diagnosis requires specialist equipment: a DC power supply for safe
 
 The most important thing to understand about surge damage repair is this: we repair at component level, not board replacement level.
 
-Apple and iStore quote R 15,000–R 35,000 for MacBook logic board issues because their process is a full board swap — they remove the entire logic board and install a new one. That price is not the cost of the fault. It is the cost of Apple's refusal to diagnose at component level.
+Apple and iStore quote significantly more for MacBook logic board issues because their process is a full board swap — they remove the entire logic board and install a new one. That price is not the cost of the fault. It is the cost of Apple's refusal to diagnose at component level.
 
 Our process is different:
 
@@ -304,7 +304,7 @@ After repair, the board is tested under load using Cinebench and a full diagnost
 
 **The result:** You get your data back. Your original machine is returned working. And you pay a fraction of the board-replacement quote.
 
-Surge damage repair at ZA Support starts from **R 2,500** — compared to R 15,000–R 35,000 at Apple or iStore. Most repairs are completed within 3–5 working days.
+Surge damage repair at ZA Support is available at component level — compared to full board replacement cost at Apple or iStore. Most repairs are completed within 3–5 working days.
 
 ## Prevention: The Right UPS for Your MacBook in South Africa
 
@@ -316,19 +316,19 @@ Not all UPS units are equal. For MacBook protection in a South African home or o
 
 APC is the gold standard for personal and small-business UPS. The Back-UPS Pro 1500VA provides true sine wave output (essential for MacBook chargers, which are switching power supplies), automatic voltage regulation (AVR) to handle brownouts, and surge suppression rated above the reinstatement spikes common on the South African grid.
 
-It provides approximately 30–45 minutes of runtime for a MacBook Air or Pro with normal usage. Available from Incredible Connection, Takealot, and specialist IT suppliers for approximately R 3,500–R 4,200.
+It provides approximately 30–45 minutes of runtime for a MacBook Air or Pro with normal usage. Available from Incredible Connection, Takealot, and specialist IT suppliers.
 
 ### Mecer 2000VA Line-Interactive UPS (Best value for South Africa)
 
 Mecer is a South African brand with service and parts availability locally — an important consideration when a UPS needs warranty service. The 2000VA line-interactive model provides AVR and pure sine wave output, with runtime suitable for finishing work and safely shutting down during extended outages.
 
-Priced at approximately R 2,000–R 2,800 from Takealot and Mecer resellers. Replace the battery every 3–4 years for continued protection.
+Available from Takealot and Mecer resellers. Replace the battery every 3–4 years for continued protection.
 
 ### Eaton 5E 1100VA (Budget option for MacBook Air)
 
 Eaton's entry-level 5E series provides adequate surge suppression and AVR for a single MacBook Air in a home setup. It does not offer pure sine wave output, which is acceptable for most MacBook chargers but should be noted.
 
-Available from around R 1,400–R 1,800.
+Available from Eaton resellers and Takealot.
 
 **Important note on UPS placement:** Plug your MacBook charger into the UPS. Do not plug the UPS into an extension lead — connect it directly to a wall socket rated for the UPS's current draw. Daisy-chaining extension leads eliminates much of the protection the UPS provides.
 
@@ -336,7 +336,7 @@ Available from around R 1,400–R 1,800.
 
 ## The Cost of Not Having a UPS
 
-A quality UPS costs R 1,400–R 4,200. A MacBook logic board repair after surge damage costs R 2,500–R 6,000 at ZA Support — or R 15,000–R 35,000 at Apple.
+A quality UPS is a cost-effective investment. A MacBook logic board repair after surge damage at ZA Support is available at component level — significantly less than full board replacement cost at Apple.
 
 But beyond repair cost, there is a more important number: the value of your data. Logic board surge damage frequently affects the SSD controller. In those cases, data recovery is a separate, complex process on top of the board repair. Preventing the damage entirely is vastly more cost-effective than any repair.
 
@@ -354,7 +354,7 @@ Not necessarily. Surge damage to certain components — particularly capacitors 
 
 **Q: Can Apple or iStore repair surge damage?**
 
-Apple's authorised service model in South Africa does not offer component-level logic board repair. They will quote a full board replacement (R 15,000–R 35,000) or, in many cases, decline to repair the machine at all if it is out of warranty. iStore follows the same process. ZA Support is a component-level repair workshop — we fix the specific fault, not the whole board.
+Apple's authorised service model in South Africa does not offer component-level logic board repair. They will quote a full board replacement or, in many cases, decline to repair the machine at all if it is out of warranty. iStore follows the same process. ZA Support is a component-level repair workshop — we fix the specific fault, not the whole board.
 
 **Q: How long does surge damage repair take?**
 
@@ -445,7 +445,7 @@ Modern macOS and application requirements have grown significantly. A MacBook wi
 
 Also check the "Swap Used" figure. If swap usage is consistently above 2–3 GB, your Mac does not have enough RAM for your typical workload.
 
-**For Intel Macs:** RAM is upgradeable on most MacBook Pro models up to 2019. A RAM upgrade from 8 GB to 16 GB is one of the highest-value upgrades we offer — typically R 1,200–R 2,200 fitted, and the performance improvement on a memory-constrained machine is immediate and significant. [Contact us about a RAM upgrade.](/contact)
+**For Intel Macs:** RAM is upgradeable on most MacBook Pro models up to 2019. A RAM upgrade from 8 GB to 16 GB is one of the highest-value upgrades we offer — fitted at our Hyde Park workshop — and the performance improvement on a memory-constrained machine is immediate and significant. [Contact us about a RAM upgrade.](/contact)
 
 **For Apple Silicon Macs (M1–M4):** RAM is not upgradeable — it is integrated into the chip. If your M1 or M2 Mac with 8 GB is consistently hitting memory pressure, the realistic options are managing your workflow (fewer browser tabs, close unused apps) or planning an upgrade to a 16 GB model.
 
@@ -472,7 +472,7 @@ When a MacBook's processor temperature exceeds safe limits, macOS automatically 
 
 **How to check:** Download Macs Fan Control (free, from crystalidea.com). Open it and check your CPU die temperature. Under normal light use, this should be below 60°C. If you see temperatures above 80°C at idle or light load, thermal paste replacement is very likely needed.
 
-**The fix:** Thermal paste replacement on a MacBook typically costs R 800–R 1,200 at ZA Support and can deliver dramatic performance recovery on machines 4+ years old. On a 2017–2019 MacBook Pro, we routinely see temperatures drop by 20–30°C after a repaste, with proportionally improved performance.
+**The fix:** Thermal paste replacement on a MacBook at ZA Support can deliver dramatic performance recovery on machines 4+ years old. On a 2017–2019 MacBook Pro, we routinely see temperatures drop by 20–30°C after a repaste, with proportionally improved performance.
 
 [Read more about our MacBook servicing.](/apple-repair)
 
@@ -480,7 +480,7 @@ When a MacBook's processor temperature exceeds safe limits, macOS automatically 
 
 Storage drive health is rarely checked and is often overlooked as a performance cause. A MacBook SSD in the early stages of failure can exhibit dramatically increased read/write latency — the drive is still functional, but operations that normally take milliseconds are taking seconds.
 
-**How to check:** Download DriveDx (paid, R 250 approximate) or use the free Disk Utility (Applications → Utilities → Disk Utility → select your drive → First Aid). DriveDx gives a more detailed S.M.A.R.T. analysis including reallocated sectors and error counts.
+**How to check:** Download DriveDx (paid) or use the free Disk Utility (Applications → Utilities → Disk Utility → select your drive → First Aid). DriveDx gives a more detailed S.M.A.R.T. analysis including reallocated sectors and error counts.
 
 **Warning signs of a failing SSD:**
 - Dramatically long application launch times even for simple apps
@@ -490,7 +490,7 @@ Storage drive health is rarely checked and is often overlooked as a performance 
 
 If DriveDx or Disk Utility reports any S.M.A.R.T. errors or caution status, back up your data immediately and bring the machine to us. SSD failure is progressive — a drive showing early S.M.A.R.T. warnings can fail completely within days to weeks.
 
-[SSD replacement at ZA Support](/apple-repair) starts from R 1,800 fitted, including a fresh macOS install and data migration.
+[SSD replacement at ZA Support](/apple-repair) is available fitted, including a fresh macOS install and data migration.
 
 ## Still Slow After Trying These Fixes?
 
@@ -648,7 +648,7 @@ This means your Mac is connected to your router but the router cannot reach the 
 
 **Q: Can I use a USB WiFi adapter as a workaround?**
 
-Yes. A USB-C to WiFi adapter (available from Takealot for R 200–R 400) will work while you arrange a repair. macOS supports most generic USB WiFi adapters without additional drivers.
+Yes. A USB-C to WiFi adapter (available from Takealot) will work while you arrange a repair. macOS supports most generic USB WiFi adapters without additional drivers.
 
 **Q: My Mac connects to my home WiFi but not to office or public networks — why?**
 
@@ -939,8 +939,8 @@ This step is specific to Mac users who spend most of their time in a web browser
 
 If you have worked through all ten steps and your Mac is still performing below expectations, the cause is likely hardware:
 
-- **Thermal throttling:** Dried-out thermal paste causes the CPU to overheat and reduce its clock speed. Thermal paste replacement costs R 800–R 1,200 at ZA Support and can reduce temperatures by 20–30°C on machines 4+ years old.
-- **Insufficient RAM:** Intel Macs with 8 GB running macOS Sonoma or later under a typical workload (browser, Zoom, Office) are frequently memory-constrained. A RAM upgrade from 8 GB to 16 GB costs R 1,200–R 2,200 fitted.
+- **Thermal throttling:** Dried-out thermal paste causes the CPU to overheat and reduce its clock speed. Thermal paste replacement at ZA Support can reduce temperatures by 20–30°C on machines 4+ years old.
+- **Insufficient RAM:** Intel Macs with 8 GB running macOS Sonoma or later under a typical workload (browser, Zoom, Office) are frequently memory-constrained. A RAM upgrade from 8 GB to 16 GB is available fitted at our Hyde Park workshop.
 - **Failing SSD:** Early-stage SSD failure causes dramatically increased read/write latency. Download DriveDx and check S.M.A.R.T. status.
 
 For issues beyond DIY, [ZA Support offers free diagnosis](/macbook-repair). We run a full 28-phase Health Check, give you a plain-English report of exactly what we found, and quote any recommended repairs before touching anything. No Fix No Fee. Hyde Park, Johannesburg.
@@ -1170,9 +1170,9 @@ South African internet infrastructure presents specific challenges for JAMF depl
 
 JAMF licensing is USD-denominated at source, which creates currency exposure for South African businesses. ZA Support's JAMF packages include:
 
-- **Starter (up to 25 devices):** R 4,500/month — includes licensing, implementation, and support
-- **Business (25–100 devices):** R 8,500/month — includes licensing, implementation, dedicated support
-- **Enterprise (100+ devices):** Custom pricing
+- **Starter (up to 25 devices):** includes licensing, implementation, and support
+- **Business (25–100 devices):** includes licensing, implementation, and dedicated support
+- **Enterprise (100+ devices):** custom pricing on request
 
 These packages include full JAMF Pro licensing, initial implementation and configuration, onboarding training for your team, and ongoing ZA Support management of your instance.
 
@@ -1390,7 +1390,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does it cost to fix a Mac that won\'t turn on in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Cost depends on the cause. Software fixes (corrupted boot volume, SMC/NVRAM issues) are covered under our R 899 Health Check service. Hardware repairs range from R 1,200–R 2,500 for battery or charger port faults to R 2,500–R 6,000 for logic board repair. ZA Support offers a free diagnostic assessment — we identify the exact fault and quote before any work begins. No Fix No Fee. Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Cost depends on the cause. ZA Support offers a free diagnostic assessment — we identify the exact fault and quote before any work begins. Software fixes, hardware repairs, and logic board repairs are all quoted individually after diagnosis. No Fix No Fee. Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1406,7 +1406,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'Will a RAM upgrade make my MacBook faster?',
-          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to 2019 MacBook Pro), a RAM upgrade from 8 GB to 16 GB can deliver significant performance improvement if Activity Monitor shows sustained high memory pressure or swap usage above 2–3 GB. On Apple Silicon Macs (M1–M4), RAM is not upgradeable — it is part of the chip. ZA Support fits RAM upgrades on Intel MacBooks from R 1,200–R 2,200.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to 2019 MacBook Pro), a RAM upgrade from 8 GB to 16 GB can deliver significant performance improvement if Activity Monitor shows sustained high memory pressure or swap usage above 2–3 GB. On Apple Silicon Macs (M1–M4), RAM is not upgradeable — it is part of the chip. ZA Support fits RAM upgrades on eligible Intel MacBooks — contact us for a quote.' },
         },
         {
           '@type': 'Question',
@@ -1421,7 +1421,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'My MacBook fan is running constantly — is that causing the slowness?',
-          acceptedAnswer: { '@type': 'Answer', text: 'A fan running at full speed is a symptom, not a cause. It indicates the processor is running hot — either because of a demanding task, dried-out thermal paste (common on MacBooks 4+ years old), or a blocked exhaust. When the Mac runs hot, it thermal-throttles the CPU, which directly causes slowness. Thermal paste replacement typically costs R 800–R 1,200 at ZA Support and can reduce temperatures by 20–30°C.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'A fan running at full speed is a symptom, not a cause. It indicates the processor is running hot — either because of a demanding task, dried-out thermal paste (common on MacBooks 4+ years old), or a blocked exhaust. When the Mac runs hot, it thermal-throttles the CPU, which directly causes slowness. Thermal paste replacement at ZA Support can reduce temperatures by 20–30°C.' },
         },
         {
           '@type': 'Question',
@@ -1436,7 +1436,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does a MacBook speed-up service cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support\'s Health Check service starts from R 899 and includes a full 28-phase diagnostic with a plain-English report. If hardware upgrades are needed (RAM, SSD, thermal paste), we quote those separately before proceeding. Initial assessment is free. No Fix No Fee on all work. Based in Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support\'s Health Check service includes a full 28-phase diagnostic with a plain-English report. If hardware upgrades are needed (RAM, SSD, thermal paste), we quote those separately before proceeding. Initial assessment is free. No Fix No Fee on all work. Based in Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1482,7 +1482,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does MacBook WiFi repair cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'WiFi repair cost depends on the cause. Software fixes are covered under our R 899 Health Check service. A WiFi card replacement on an Intel MacBook typically costs R 1,200–R 2,200 fitted. Logic board WiFi circuit repair starts from R 1,800. ZA Support offers free initial diagnostics — we identify the exact fault before quoting. No Fix No Fee. Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'WiFi repair cost depends on the cause. ZA Support offers free initial diagnostics — we identify the exact fault before quoting. Software fixes, WiFi card replacement, and logic board circuit repair are all quoted individually after diagnosis. No Fix No Fee. Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1549,7 +1549,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'Can Apple or iStore repair surge damage?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Apple and iStore do not offer component-level logic board repair. They quote full board replacement at R 15,000–R 35,000. ZA Support repairs the specific failed component, not the whole board, starting from R 2,500.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Apple and iStore do not offer component-level logic board repair. They quote full board replacement at significantly higher cost. ZA Support repairs the specific failed component, not the whole board, at a fraction of that price.' },
         },
         {
           '@type': 'Question',
@@ -1564,12 +1564,12 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'What is the best UPS for a MacBook in South Africa?',
-          acceptedAnswer: { '@type': 'Answer', text: 'For most home offices, we recommend the APC Back-UPS Pro 1500VA (R 3,500–R 4,200) or the Mecer 2000VA (R 2,000–R 2,800). Both provide true sine wave output and automatic voltage regulation to handle South African load shedding reinstatement surges.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'For most home offices, we recommend the APC Back-UPS Pro 1500VA or the Mecer 2000VA. Both provide true sine wave output and automatic voltage regulation to handle South African load shedding reinstatement surges.' },
         },
         {
           '@type': 'Question',
           name: 'How much does MacBook surge damage repair cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage starting from R 2,500 for component-level logic board repair. This compares to R 15,000–R 35,000 for a full board replacement at Apple or iStore. Free assessment, No Fix No Fee.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage at component level — significantly less than a full board replacement at Apple or iStore. Free assessment, No Fix No Fee.' },
         },
       ],
     },

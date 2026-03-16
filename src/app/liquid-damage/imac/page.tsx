@@ -8,9 +8,9 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iMac Water Damage Repair Johannesburg | From R 4,500 | ZA Support',
+  title: 'iMac Water Damage Repair Johannesburg | ZA Support',
   description:
-    'iMac water damage repair in Johannesburg from R 4,500. 21.5" and 27" models, M1, M3, and Intel. Free assessment, No Fix No Fee. Call 064 529 5863.',
+    'iMac water damage repair in Johannesburg. 21.5" and 27" models, M1, M3, and Intel. Free assessment, No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/imac' },
 };
 
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: 'Is iMac liquid damage repair cost-effective?',
-    answer: 'For M1 and M3 iMacs, repair is almost always significantly cheaper than replacement — these machines cost R 30,000–R 70,000+ new. Even for older Intel iMacs, repair can be cost-effective if the logic board is salvageable. We will give you an honest assessment and quote before any work begins.',
+    answer: 'For M1 and M3 iMacs, repair is almost always significantly cheaper than replacement given the high cost of new machines. Even for older Intel iMacs, repair can be cost-effective if the logic board is salvageable. We will give you an honest assessment and quote before any work begins.',
   },
   {
     question: 'Will my data be safe during the repair?',
@@ -63,7 +63,7 @@ export default function iMacWaterDamagePage() {
               iMac Water Damage<br /><span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              iMac water damage repair from R 4,500. 21.5&quot;, 24&quot;, and 27&quot; models — M1, M3, and Intel.
+              iMac water damage repair. 21.5&quot;, 24&quot;, and 27&quot; models — M1, M3, and Intel.
               Free assessment, No Fix No Fee. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -108,24 +108,10 @@ export default function iMacWaterDamagePage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing</h2>
-              <div className="glass-card p-6 mb-6">
-                {[
-                  { model: 'iMac 21.5" Intel', price: 'From R 4,500' },
-                  { model: 'iMac 27" Intel', price: 'From R 5,500' },
-                  { model: 'iMac 24" M1', price: 'From R 5,000' },
-                  { model: 'iMac 24" M3', price: 'From R 5,500' },
-                  { model: 'Assessment', price: 'Free' },
-                ].map((item, i) => (
-                  <div key={item.model} className={`flex justify-between py-2.5 ${i < 4 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{item.model}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{item.price}</span>
-                  </div>
-                ))}
-              </div>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="flex items-center gap-3 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">No Fix No Fee. 12-month warranty. Collection available in Hyde Park area.</p>
+                <p className="text-[#7A9E98] text-sm">Free assessment. No Fix No Fee. 12-month warranty. Collection available in Hyde Park area.</p>
               </div>
             </div>
           </div>

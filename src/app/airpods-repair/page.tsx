@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'AirPods Repair Johannesburg | Battery & Charging Case | ZA Support',
   description:
-    'AirPods repair in Johannesburg. Battery service from R 499 per ear, charging case replacement from R 799, deep cleaning R 299. One AirPod dead, case not charging, connection dropout — we fix it. Hyde Park.',
+    'AirPods repair in Johannesburg. Battery service, charging case replacement, deep cleaning. One AirPod dead, case not charging, connection dropout — we fix it. Hyde Park.',
   keywords: [
     'airpods repair johannesburg',
     'airpods not charging',
@@ -37,7 +37,7 @@ const faqs = [
   {
     question: 'Can you replace AirPods batteries?',
     answer:
-      'Yes, for AirPods 2nd and 3rd generation and AirPods Pro 1st generation. AirPods Pro 2nd generation (USB-C and Lightning) have a significantly more compact internal design with the battery directly bonded to the driver assembly — these are extremely difficult to service without damaging the acoustic components. We assess Pro 2nd gen on a case-by-case basis and will be upfront if the repair risk outweighs the cost. Battery service starts from R 499 per ear.',
+      'Yes, for AirPods 2nd and 3rd generation and AirPods Pro 1st generation. AirPods Pro 2nd generation (USB-C and Lightning) have a significantly more compact internal design with the battery directly bonded to the driver assembly — these are extremely difficult to service without damaging the acoustic components. We assess Pro 2nd gen on a case-by-case basis and will be upfront if the repair risk outweighs the cost.',
   },
   {
     question: 'Do you repair AirPods Pro?',
@@ -60,36 +60,32 @@ const repairServices = [
   {
     title: 'Battery Service — Per Ear',
     models: 'AirPods Gen 2, Gen 3 | AirPods Pro Gen 1',
-    price: 'From R 499 per ear',
     note: 'AirPods Pro Gen 2: assessment required — very complex internal construction.',
   },
   {
     title: 'Charging Case Replacement',
     models: 'AirPods Gen 2, Gen 3, AirPods Pro Gen 1 & 2',
-    price: 'From R 799',
     note: 'Case only — your AirPods retained. MagSafe cases quoted separately.',
   },
   {
     title: 'Deep Clean Service',
     models: 'All AirPods models',
-    price: 'R 299',
     note: 'Speaker mesh, charging contacts, case interior. Restores audio and charging in many cases.',
   },
   {
     title: 'Charging Contact Repair',
     models: 'All AirPods models',
-    price: 'From R 349',
     note: 'Corroded or bent contact pins cleaned or restored. Often resolves intermittent charging.',
   },
 ];
 
 const modelSupport = [
-  { model: 'AirPods Gen 1 (2016)', battery: 'Assessment', clean: 'R 299', note: 'Older design — assessment first' },
-  { model: 'AirPods Gen 2 (2019)', battery: 'R 499/ear', clean: 'R 299', note: 'Standard' },
-  { model: 'AirPods Gen 3 (2021)', battery: 'R 549/ear', clean: 'R 299', note: 'Standard' },
-  { model: 'AirPods Pro Gen 1 (2019)', battery: 'R 599/ear', clean: 'R 299', note: 'Standard' },
-  { model: 'AirPods Pro Gen 2 (2022–2024)', battery: 'Assessment only', clean: 'R 299', note: 'Very high complexity — honest limitations apply' },
-  { model: 'AirPods Max', battery: '—', clean: 'R 499', note: 'Cleaning only — battery not currently offered' },
+  { model: 'AirPods Gen 1 (2016)', battery: 'Assessment', note: 'Older design — assessment first' },
+  { model: 'AirPods Gen 2 (2019)', battery: 'Available', note: 'Standard' },
+  { model: 'AirPods Gen 3 (2021)', battery: 'Available', note: 'Standard' },
+  { model: 'AirPods Pro Gen 1 (2019)', battery: 'Available', note: 'Standard' },
+  { model: 'AirPods Pro Gen 2 (2022–2024)', battery: 'Assessment only', note: 'Very high complexity — honest limitations apply' },
+  { model: 'AirPods Max', battery: '—', note: 'Cleaning only — battery not currently offered' },
 ];
 
 const serviceSchema = {
@@ -114,10 +110,10 @@ const serviceSchema = {
   },
   areaServed: 'Johannesburg',
   offers: [
-    { '@type': 'Offer', name: 'AirPods Battery Service (per ear)', price: '499', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'AirPods Charging Case Replacement', price: '799', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'AirPods Deep Clean', price: '299', priceCurrency: 'ZAR' },
-    { '@type': 'Offer', name: 'AirPods Charging Contact Repair', price: '349', priceCurrency: 'ZAR' },
+    { '@type': 'Offer', name: 'AirPods Battery Service (per ear)' },
+    { '@type': 'Offer', name: 'AirPods Charging Case Replacement' },
+    { '@type': 'Offer', name: 'AirPods Deep Clean' },
+    { '@type': 'Offer', name: 'AirPods Charging Contact Repair' },
   ],
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -163,10 +159,7 @@ export default function AirPodsRepairPage() {
               <span className="text-[#0FEA7A]">Battery, Case & Cleaning.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              One AirPod dead, case not charging, or sound muffled by earwax? Battery service from{' '}
-              <strong className="text-[#E8F4F1]">R 499 per ear</strong>, charging case replacement from{' '}
-              <strong className="text-[#E8F4F1]">R 799</strong>, deep clean{' '}
-              <strong className="text-[#E8F4F1]">R 299</strong>.
+              One AirPod dead, case not charging, or sound muffled by earwax? Battery service, charging case replacement, and deep cleaning — free assessment before any work.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
               No Fix No Fee. Free assessment. Hyde Park, Johannesburg.
@@ -213,7 +206,6 @@ export default function AirPodsRepairPage() {
                   {service.title}
                 </h3>
                 <p className="text-[#7A9E98] text-xs mb-3">{service.models}</p>
-                <span className="text-[#0FEA7A] font-bold text-lg">{service.price}</span>
                 {service.note && (
                   <p className="text-[#7A9E98] text-xs italic border-t border-[rgba(15,234,122,0.1)] pt-3 mt-3">
                     {service.note}
@@ -267,8 +259,7 @@ export default function AirPodsRepairPage() {
               <thead>
                 <tr className="border-b border-[rgba(15,234,122,0.15)]">
                   <th className="text-left text-[#7A9E98] font-medium pb-3 pr-4">Model</th>
-                  <th className="text-left text-[#7A9E98] font-medium pb-3 pr-4">Battery (per ear)</th>
-                  <th className="text-left text-[#7A9E98] font-medium pb-3 pr-4">Deep Clean</th>
+                  <th className="text-left text-[#7A9E98] font-medium pb-3 pr-4">Battery Service</th>
                   <th className="text-left text-[#7A9E98] font-medium pb-3">Note</th>
                 </tr>
               </thead>
@@ -282,7 +273,6 @@ export default function AirPodsRepairPage() {
                     <td className={`py-3 pr-4 font-semibold ${row.battery === '—' || row.battery === 'Assessment only' ? 'text-[#7A9E98]' : 'text-[#0FEA7A]'}`}>
                       {row.battery}
                     </td>
-                    <td className="py-3 pr-4 font-semibold text-[#0FEA7A]">{row.clean}</td>
                     <td className="text-[#7A9E98] py-3 text-xs">{row.note}</td>
                   </tr>
                 ))}
@@ -420,9 +410,7 @@ export default function AirPodsRepairPage() {
               AirPods Not Working? Bring Them In.
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Battery from <strong className="text-[#E8F4F1]">R 499 per ear</strong> &nbsp;|&nbsp; Case from{' '}
-              <strong className="text-[#E8F4F1]">R 799</strong> &nbsp;|&nbsp; Clean{' '}
-              <strong className="text-[#E8F4F1]">R 299</strong>
+              Battery service &nbsp;|&nbsp; Case replacement &nbsp;|&nbsp; Deep clean
             </p>
             <p className="text-[#7A9E98] mb-8">Free assessment. No Fix No Fee. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

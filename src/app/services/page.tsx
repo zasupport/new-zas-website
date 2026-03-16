@@ -46,7 +46,7 @@ const jsonLd = {
         longitude: 28.0402,
       },
       openingHours: 'Mo-Fr 08:00-18:00',
-      priceRange: 'R 899 – R 15,000',
+      priceRange: '$$',
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: '4.9',
@@ -113,7 +113,7 @@ const jsonLd = {
           name: 'How much does MacBook repair cost in Johannesburg?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'MacBook repair costs depend on the fault. Battery replacement starts from R 950, screen replacement from R 2,500, liquid damage from R 1,500, and logic board microsoldering from R 1,800. All assessments are free. Apple Store charges R 15,000 to R 70,000 for logic board replacement — we repair the component from R 1,800.',
+            text: 'MacBook repair costs depend on the fault. All assessments are free. Contact us for a quote — we repair logic board components that other shops replace entirely.',
           },
         },
         {
@@ -129,7 +129,7 @@ const jsonLd = {
           name: 'What is CyberShield?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'CyberShield is ZA Support\'s cybersecurity product for homes and businesses. It provides network-level threat blocking, ransomware protection, dark web monitoring, and monthly security reports. Home plans start from R 799/month and business plans from R 3,500/month.',
+            text: 'CyberShield is ZA Support\'s cybersecurity product for homes and businesses. It provides network-level threat blocking, ransomware protection, dark web monitoring, and monthly security reports.',
           },
         },
         {
@@ -159,7 +159,6 @@ const services = [
     title: 'MacBook Repair',
     description:
       'Component-level repair for all MacBook models. Logic board microsoldering, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. No Fix No Fee on every job.',
-    price: 'From R 950',
     href: '/macbook-repair',
     highlight: 'Most popular',
   },
@@ -168,7 +167,6 @@ const services = [
     title: 'iMac Repair',
     description:
       'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a 12-month warranty.',
-    price: 'From R 1,500',
     href: '/imac-repair',
     highlight: null,
   },
@@ -177,7 +175,6 @@ const services = [
     title: 'Data Recovery',
     description:
       'Professional data recovery from failed HDDs, SSDs, and flash storage. We recover from water-damaged drives, failed logic boards, and accidental deletions. Forensic-grade tools with no data, no fee.',
-    price: 'From R 1,800',
     href: '/macbook-repair',
     highlight: null,
   },
@@ -186,7 +183,6 @@ const services = [
     title: 'Virus & Malware Removal',
     description:
       'Complete removal of malware, adware, ransomware, and PUPs from Mac. Full security audit included. We identify the infection source and close the vulnerability so it cannot recur.',
-    price: 'From R 899',
     href: '/managed-services',
     highlight: null,
   },
@@ -194,8 +190,7 @@ const services = [
     icon: Activity,
     title: 'Health Check Monitoring',
     description:
-      'Remote 28-phase monitoring for your Mac. Tracks battery health, storage, security, backups, and performance every 15 minutes. Early-warning alerts before hardware fails. R 99/device/month.',
-    price: 'R 99/device/month',
+      'Remote 28-phase monitoring for your Mac. Tracks battery health, storage, security, backups, and performance every 15 minutes. Early-warning alerts before hardware fails.',
     href: '/apple-support',
     highlight: 'Proactive',
   },
@@ -203,8 +198,7 @@ const services = [
     icon: Shield,
     title: 'CyberShield Security',
     description:
-      'Network-level cybersecurity for homes and businesses. Blocks malware, ransomware and phishing at the network layer. Dark web monitoring, monthly reports. Home from R 799/month, Business from R 3,500/month.',
-    price: 'From R 799/month',
+      'Network-level cybersecurity for homes and businesses. Blocks malware, ransomware and phishing at the network layer. Dark web monitoring and monthly reports.',
     href: '/managed-services',
     highlight: null,
   },
@@ -213,7 +207,6 @@ const services = [
     title: 'SLA & Managed IT Support',
     description:
       'Fixed-fee managed IT for medical practices, SMEs, and professional firms. Unlimited support calls, on-site visits, proactive monitoring and quarterly reviews. Response within 4 hours.',
-    price: 'From R 4,499/month',
     href: '/managed-services',
     highlight: 'Best value',
   },
@@ -222,7 +215,6 @@ const services = [
     title: 'Business IT & Network Setup',
     description:
       'Full network design, UniFi installation, Wi-Fi optimisation, VLAN segmentation, VPN configuration, and server setup for Johannesburg businesses. POPIA-compliant architecture included.',
-    price: 'From R 2,500',
     href: '/managed-services',
     highlight: null,
   },
@@ -231,26 +223,11 @@ const services = [
     title: 'JAMF MDM',
     description:
       'Apple device management for businesses using JAMF Pro. Deploy, manage, secure and remote-wipe all Apple devices in your organisation. Zero-touch enrolment and policy enforcement.',
-    price: 'From R 4,500/month',
     href: '/jamf-mdm',
     highlight: null,
   },
 ];
 
-const pricingRows = [
-  ['Battery Replacement (MacBook)', 'From R 950', '/battery-replacement'],
-  ['Screen Replacement (MacBook)', 'From R 2,500', '/macbook-repair'],
-  ['Logic Board Microsoldering', 'From R 1,800', '/logic-board-repair'],
-  ['Liquid Damage Recovery (Mac)', 'From R 1,500', '/liquid-damage'],
-  ['Data Recovery', 'From R 1,800', '/macbook-repair'],
-  ['Virus & Malware Removal', 'From R 899', '/managed-services'],
-  ['Health Check Monitoring', 'R 99/device/month', '/apple-support'],
-  ['CyberShield Home', 'From R 799/month', '/managed-services'],
-  ['SLA Managed IT (1 doctor)', 'R 4,499/month', '/managed-services'],
-  ['JAMF MDM Starter', 'R 4,500/month', '/jamf-mdm'],
-  ['IT Assessment (site visit)', 'Free', '/contact'],
-  ['Diagnostic Assessment', 'Free', '/contact'],
-];
 
 export default function ServicesPage() {
   return (
@@ -359,8 +336,7 @@ export default function ServicesPage() {
                     {service.title}
                   </h3>
                   <p className="text-[#7A9E98] text-sm leading-relaxed mb-4 flex-1">{service.description}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-[#0FEA7A] font-bold text-sm">{service.price}</span>
+                  <div className="flex items-center justify-end">
                     <span className="text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors flex items-center gap-1 text-sm">
                       View details <ArrowRight className="w-3 h-3" />
                     </span>
@@ -368,47 +344,6 @@ export default function ServicesPage() {
                 </Link>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* Pricing table */}
-      <section className="py-20 bg-[#0D1F1C]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-            style={{ fontFamily: 'Syne, sans-serif' }}
-          >
-            Pricing Overview
-          </h2>
-          <p className="text-[#7A9E98] mb-8">
-            Transparent, published pricing. Final quotes are confirmed after a free assessment.
-            Apple Store charges R 15,000 – R 70,000 for logic board replacement — we repair the component
-            from R 1,800.
-          </p>
-          <div className="glass-card overflow-hidden p-0">
-            {pricingRows.map(([item, price, href], i) => (
-              <div
-                key={item}
-                className={`flex justify-between items-center px-5 py-4 ${
-                  i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''
-                }`}
-              >
-                <Link
-                  href={href}
-                  className="text-[#7A9E98] hover:text-[#E8F4F1] transition-colors text-sm"
-                >
-                  {item}
-                </Link>
-                <span
-                  className={`font-bold text-sm ${
-                    price === 'Free' ? 'text-[#0FEA7A]' : 'text-[#E8F4F1]'
-                  }`}
-                >
-                  {price}
-                </span>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -495,15 +430,15 @@ export default function ServicesPage() {
               },
               {
                 q: 'How much does MacBook repair cost in Johannesburg?',
-                a: 'Battery replacement starts from R 950, screen replacement from R 2,500, liquid damage from R 1,500, and logic board microsoldering from R 1,800. Apple Store charges R 15,000 – R 70,000 for logic board replacement. We repair the faulty component from R 1,800.',
+                a: 'MacBook repair costs depend on the fault. All assessments are free. Contact us for a quote — we repair logic board components that other shops replace entirely.',
               },
               {
                 q: 'What is Health Check monitoring?',
-                a: "Health Check is ZA Support's remote monitoring service. It runs a 28-phase diagnostic on your Mac every 15 minutes, tracking battery health, storage, security, backups and performance. Alerts are sent automatically when issues are detected, before they become critical. Costs R 99 per device per month.",
+                a: "Health Check is ZA Support's remote monitoring service. It runs a 28-phase diagnostic on your Mac every 15 minutes, tracking battery health, storage, security, backups and performance. Alerts are sent automatically when issues are detected, before they become critical.",
               },
               {
                 q: 'What is CyberShield?',
-                a: "CyberShield is ZA Support's cybersecurity product for homes and businesses. It provides network-level threat blocking, ransomware protection, dark web monitoring, and monthly security reports. Home plans start from R 799/month and business plans from R 3,500/month.",
+                a: "CyberShield is ZA Support's cybersecurity product for homes and businesses. It provides network-level threat blocking, ransomware protection, dark web monitoring, and monthly security reports.",
               },
               {
                 q: 'Do you support medical practices?',

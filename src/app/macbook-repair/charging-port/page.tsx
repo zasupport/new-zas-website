@@ -188,7 +188,7 @@ const reviews = [
     name: 'Priya N.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'Thought I needed a new logic board as my Mac wouldn\'t charge at all. ZA Support diagnosed it as the CD3217B12 charge IC and fixed just that component. Saved me about R 15,000 versus Apple\'s quote.',
+    text: 'Thought I needed a new logic board as my Mac wouldn\'t charge at all. ZA Support diagnosed it as the CD3217B12 charge IC and fixed just that component. Saved me a significant amount versus Apple\'s quote.',
   },
 ];
 

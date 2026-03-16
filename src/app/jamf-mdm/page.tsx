@@ -8,7 +8,7 @@ import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'JAMF MDM Implementation South Africa | Apple Device Management | ZA Support',
-  description: 'JAMF MDM implementation in South Africa. JAMF Pro and JAMF Now for schools, medical practices, and businesses. From R 4,500/month. Call 064 529 5863.',
+  description: 'JAMF MDM implementation in South Africa. JAMF Pro and JAMF Now for schools, medical practices, and businesses. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/jamf-mdm' },
 };
 
@@ -28,9 +28,9 @@ const features = [
 ];
 
 const tiers = [
-  { name: 'Starter', price: 'R 4,500/month', devices: 'Up to 25 devices', features: ['JAMF Now implementation', 'Apple Business Manager setup', 'Device enrollment (all devices)', 'Basic policy configuration', 'Remote wipe capability', 'Monthly health report'] },
-  { name: 'Business', price: 'R 8,500/month', devices: '25–100 devices', features: ['JAMF Pro implementation', 'Full policy and script management', 'Smart groups and targeting', 'App catalog and licensing', 'Azure AD / Active Directory integration', 'Weekly reporting and monitoring', 'Priority support response'] },
-  { name: 'Enterprise', price: 'Custom', devices: '100+ devices', features: ['Full JAMF Pro enterprise deployment', 'Custom scripting and automation', 'Integration with existing ITSM tools', 'Dedicated account manager', 'SLA-backed support', '24/7 escalation path'] },
+  { name: 'Starter', devices: 'Up to 25 devices', features: ['JAMF Now implementation', 'Apple Business Manager setup', 'Device enrollment (all devices)', 'Basic policy configuration', 'Remote wipe capability', 'Monthly health report'] },
+  { name: 'Business', devices: '25–100 devices', features: ['JAMF Pro implementation', 'Full policy and script management', 'Smart groups and targeting', 'App catalog and licensing', 'Azure AD / Active Directory integration', 'Weekly reporting and monitoring', 'Priority support response'] },
+  { name: 'Enterprise', devices: '100+ devices', features: ['Full JAMF Pro enterprise deployment', 'Custom scripting and automation', 'Integration with existing ITSM tools', 'Dedicated account manager', 'SLA-backed support', '24/7 escalation path'] },
 ];
 
 const breadcrumbSchema = {
@@ -59,7 +59,7 @@ export default function JamfMdmPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               South Africa&apos;s Apple MDM specialists. JAMF Pro and JAMF Now implementation for medical practices,
-              schools, and businesses. From R 4,500/month. Hyde Park, Johannesburg.
+              schools, and businesses. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -92,14 +92,13 @@ export default function JamfMdmPage() {
 
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>JAMF Pro vs JAMF Now — Pricing</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>JAMF Pro vs JAMF Now — Plans</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {tiers.map((tier, i) => (
               <div key={tier.name} className={`glass-card p-8 ${i === 1 ? 'border-[rgba(15,234,122,0.4)] shadow-[0_0_24px_rgba(15,234,122,0.1)]' : ''}`}>
                 {i === 1 && <div className="text-[#0FEA7A] text-xs font-bold mb-3 tracking-widest uppercase">Most Popular</div>}
                 <h3 className="text-[#E8F4F1] text-xl font-bold mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{tier.name}</h3>
-                <p className="text-[#7A9E98] text-sm mb-3">{tier.devices}</p>
-                <p className="text-[#0FEA7A] text-3xl font-extrabold mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>{tier.price}</p>
+                <p className="text-[#7A9E98] text-sm mb-6">{tier.devices}</p>
                 <ul className="space-y-2 mb-6">
                   {tier.features.map(f => (
                     <li key={f} className="flex items-start gap-2 text-[#7A9E98] text-sm">

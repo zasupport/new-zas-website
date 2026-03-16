@@ -92,8 +92,8 @@ const localBusinessSchema = {
     name: 'Apple Repair Services',
     itemListElement: [
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Logic Board Repair', description: 'Component-level microsoldering repair' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Battery Replacement', description: 'Battery replacement from R 1,200' } },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Screen Replacement', description: 'Retina display replacement from R 2,200' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Battery Replacement', description: 'Battery replacement' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'MacBook Screen Replacement', description: 'Retina display replacement' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Liquid Damage Repair', description: 'Ultrasonic cleaning and microsoldering' } },
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'JAMF MDM Setup', description: 'Apple fleet management for businesses' } },
     ],
@@ -104,7 +104,7 @@ const localBusinessSchema = {
     reviewCount: '120',
     bestRating: '5',
   },
-  priceRange: 'R500 – R8,500',
+  priceRange: '$$',
   currenciesAccepted: 'ZAR',
   paymentAccepted: 'Cash, Credit Card, EFT',
   sameAs: [

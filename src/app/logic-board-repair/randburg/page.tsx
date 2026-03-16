@@ -26,12 +26,12 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', price: 'Free', note: 'Full board inspection — no obligation' },
-  { item: 'USB-C / Thunderbolt Repair', price: 'From R 1,800', note: 'Controller chip or port board' },
-  { item: 'Power Circuit Repair', price: 'From R 2,000', note: 'Dead Mac and charging failure diagnosis and fix' },
-  { item: 'Microsoldering Repair', price: 'From R 2,500', note: 'Component-level precision repair' },
-  { item: 'GPU Repair / Reballing', price: 'From R 3,500', note: 'Intel discrete GPU models only' },
-  { item: 'Logic Board Replacement', price: 'From R 8,000', note: 'Full replacement as last resort' },
+  { item: 'Diagnostic Assessment', note: 'Full board inspection — no obligation' },
+  { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board' },
+  { item: 'Power Circuit Repair', note: 'Dead Mac and charging failure diagnosis and fix' },
+  { item: 'Microsoldering Repair', note: 'Component-level precision repair' },
+  { item: 'GPU Repair / Reballing', note: 'Intel discrete GPU models only' },
+  { item: 'Logic Board Replacement', note: 'Full replacement as last resort' },
 ];
 
 const faqs = [
@@ -149,7 +149,7 @@ export default function LogicBoardRepairRandburgPage() {
               Randburg stretches across a large residential and commercial area west of Sandton, taking in Ferndale, Bordeaux, Robindale, Northcliff, and the Brightwater Commons precinct. It is a densely populated area with a strong concentration of home office workers, freelancers, and small businesses — many of whom depend on a MacBook as their primary income-generating tool.
             </p>
             <p>
-              When that MacBook develops a logic board fault — no power, failed charging, display failure, or liquid damage — the instinct is often to take it to the nearest repair shop. The problem is that most shops in the Randburg area are not equipped for microsoldering. They diagnose a board fault and immediately quote for a board replacement at R 8,000 or more, when the actual fault is often a single component costing a fraction of that.
+              When that MacBook develops a logic board fault — no power, failed charging, display failure, or liquid damage — the instinct is often to take it to the nearest repair shop. The problem is that most shops in the Randburg area are not equipped for microsoldering. They diagnose a board fault and immediately quote for a full board replacement, when the actual fault is often a single component costing a fraction of that.
             </p>
             <p>
               ZA Support diagnoses and repairs at component level. Our Hyde Park workshop — approximately 15 minutes from central Randburg — has the equipment to trace a fault to a specific chip, capacitor, or trace, repair it under a stereo microscope, and return your original board to service. We offer a collection service from Randburg so you do not need to make the trip.
@@ -204,22 +204,19 @@ export default function LogicBoardRepairRandburgPage() {
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Repair Services */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing Guide</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
           <div className="glass-card overflow-hidden p-0">
             {pricing.map((item, i) => (
-              <div key={item.item} className={`flex items-center justify-between p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
-                  <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
-                </div>
-                <span className="text-[#0FEA7A] font-bold whitespace-nowrap ml-4">{item.price}</span>
+              <div key={item.item} className={`p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
+                <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Prices are guides. Final quote confirmed after free diagnostic assessment. No obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final quote confirmed after free diagnostic assessment. No obligation to proceed.</p>
         </div>
       </section>
 

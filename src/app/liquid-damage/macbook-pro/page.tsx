@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Pro liquid damage repair in Johannesburg from R 1,500. Emergency guide, No Fix No Fee, 12-month warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, 12-month warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro' },
   keywords: [
     'MacBook Pro liquid damage repair Johannesburg',
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: 'How much does liquid damage repair cost?',
     answer:
-      'Costs range from R 1,500 to R 8,500 depending on the severity of the damage. A keyboard-only spill with no logic board involvement costs R 1,500–R 3,500. Minor logic board corrosion requiring component cleaning costs R 2,500–R 5,000. Severe corrosion requiring multiple IC replacements costs R 3,500–R 8,500. The assessment is always free — we confirm the exact cost before any work begins.',
+      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. The assessment is always free — we confirm the exact cost before any work begins.',
   },
   {
     question: 'My MacBook was in rice for 3 days — will it work?',
@@ -64,7 +64,7 @@ const faqs = [
   {
     question: 'Does Apple cover liquid damage?',
     answer:
-      'Standard AppleCare does not cover accidental liquid damage. AppleCare+ includes accidental damage coverage but requires a service fee (typically R 1,499–R 3,499 per incident). Apple then replaces the entire logic board — starting at R 15,000 for older models and exceeding R 35,000 for newer ones. ZA Support repairs the affected components directly, not the entire board, at a fraction of the cost.',
+      'Standard AppleCare does not cover accidental liquid damage. AppleCare+ includes accidental damage coverage but requires a service fee per incident. Apple then replaces the entire logic board — a very costly outcome. ZA Support repairs the affected components directly, not the entire board, at a fraction of the cost.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro?',
@@ -116,7 +116,6 @@ const severityTiers = [
     scenario: 'Spill on keyboard only',
     detail: 'Liquid reached the keyboard and possibly the trackpad but did not penetrate to the logic board. The most common and most recoverable scenario.',
     repair: 'Keyboard and/or trackpad replacement',
-    priceRange: 'R 1,500 – R 3,500',
     recovery: 'Excellent',
     timeframe: '24–48 hours',
     colour: 'green' as const,
@@ -125,7 +124,6 @@ const severityTiers = [
     scenario: 'Logic board corrosion — minor',
     detail: 'Liquid reached the main logic board but corrosion is localised. Component cleaning under ultrasonic bath, trace repair, and targeted IC replacement restores full function.',
     repair: 'Ultrasonic cleaning, IC cleaning, trace repair',
-    priceRange: 'R 2,500 – R 5,000',
     recovery: 'Very good',
     timeframe: '48–72 hours',
     colour: 'yellow' as const,
@@ -134,7 +132,6 @@ const severityTiers = [
     scenario: 'Logic board corrosion — major',
     detail: 'Extensive corrosion across multiple board areas. Multiple ICs affected, traces damaged, and multiple failed components. Requires full board cleaning plus targeted component replacement.',
     repair: 'Full component repair, multiple IC replacements',
-    priceRange: 'R 3,500 – R 8,500',
     recovery: 'Case dependent',
     timeframe: '3–5 business days',
     colour: 'orange' as const,
@@ -143,7 +140,6 @@ const severityTiers = [
     scenario: 'Screen damage from liquid',
     detail: 'Liquid entered the display assembly causing dead pixels, backlight failure, or full screen blackout. The display assembly is replaced independently of the logic board.',
     repair: 'Display assembly replacement',
-    priceRange: 'From R 2,499',
     recovery: 'Excellent',
     timeframe: '24–48 hours',
     colour: 'green' as const,
@@ -236,9 +232,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro liquid damage repair in Johannesburg from R 1,500. Emergency assessment, No Fix No Fee, 12-month warranty. All Intel and Apple Silicon models.',
-  lowPrice: '1500',
-  highPrice: '8500',
+  description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, 12-month warranty. All Intel and Apple Silicon models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -266,7 +260,7 @@ export default function MacBookProLiquidDamagePage() {
               <span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              From R 1,500. Emergency assessment available. All Intel and Apple Silicon models.
+              Emergency assessment available. All Intel and Apple Silicon models.
               No Fix No Fee. 12-month written warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
@@ -479,10 +473,6 @@ export default function MacBookProLiquidDamagePage() {
                     <p className="text-[#E8F4F1] text-sm font-medium">{tier.repair}</p>
                   </div>
                   <div>
-                    <p className="text-[#7A9E98] text-xs mb-1">Price range</p>
-                    <p className="text-[#0FEA7A] text-sm font-bold">{tier.priceRange}</p>
-                  </div>
-                  <div>
                     <p className="text-[#7A9E98] text-xs mb-1">Typical turnaround</p>
                     <p className="text-[#E8F4F1] text-sm font-medium">{tier.timeframe}</p>
                   </div>
@@ -663,9 +653,9 @@ export default function MacBookProLiquidDamagePage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'MacBook Air Liquid Damage', href: '/liquid-damage/macbook-air', price: 'From R 2,500' },
-              { title: 'MacBook Pro Logic Board Repair', href: '/logic-board-repair/macbook-pro', price: 'From R 1,800' },
-              { title: 'Liquid Damage Hub', href: '/liquid-damage', price: 'All Devices' },
+              { title: 'MacBook Air Liquid Damage', href: '/liquid-damage/macbook-air' },
+              { title: 'MacBook Pro Logic Board Repair', href: '/logic-board-repair/macbook-pro' },
+              { title: 'Liquid Damage Hub', href: '/liquid-damage' },
             ].map((item) => (
               <Link
                 key={item.href}
@@ -674,7 +664,6 @@ export default function MacBookProLiquidDamagePage() {
               >
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>

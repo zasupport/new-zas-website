@@ -18,37 +18,31 @@ const supportServices = [
     title: 'Mac Troubleshooting',
     desc: 'Slow performance, startup problems, software crashes, macOS issues — diagnosed and resolved.',
     href: '/macbook-repair',
-    price: 'From R 899/hr',
   },
   {
     title: 'Data Recovery',
     desc: 'Deleted files, failed drives, corrupted Time Machine backups — recovered where technically possible.',
     href: '/apple-repair',
-    price: 'From R 1,800',
   },
   {
     title: 'Mac Setup & Migration',
     desc: 'New Mac setup, data migration from old Mac or Windows, iCloud configuration, Apple ID issues.',
     href: '/apple-repair',
-    price: 'From R 1,499',
   },
   {
     title: 'iPhone & iPad Support',
     desc: 'Setup, backup restore, app issues, connectivity, iCloud sync problems — all models.',
     href: '/iphone-repair',
-    price: 'From R 899/hr',
   },
   {
     title: 'Business Apple Support',
     desc: 'JAMF MDM deployment, Apple Business Manager, fleet setup, M365 integration.',
     href: '/managed-services',
-    price: 'From R 4,500/mo',
   },
   {
     title: 'Apple Device Repair',
     desc: 'Screen, battery, liquid damage, logic board — all Apple devices, all damage types.',
     href: '/apple-repair',
-    price: 'From R 950',
   },
 ];
 
@@ -81,7 +75,7 @@ const faqs = [
   {
     question: 'How much does Apple Support cost?',
     answer:
-      'Hourly rate is R 899/hour. Most single-issue sessions take 1–2 hours. Setup and migration is quoted at a flat rate (typically R 1,499–R 2,999 depending on data size and complexity). Business support and managed services are charged monthly — see our Managed Services page for tier pricing.',
+      'Contact us for a quote — most single-issue sessions take 1–2 hours. Setup and migration is quoted at a flat rate depending on data size and complexity. Business support and managed services are charged monthly — see our Managed Services page.',
   },
 ];
 
@@ -168,8 +162,7 @@ export default function AppleSupportPage() {
               <Link key={service.title} href={service.href} className="glass-card p-6 group block">
                 <h3 className="text-[#E8F4F1] font-bold mb-2" style={{ fontFamily: 'Syne, sans-serif' }}>{service.title}</h3>
                 <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">{service.desc}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-[#0FEA7A] text-sm font-bold">{service.price}</span>
+                <div className="flex items-center justify-end">
                   <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
                 </div>
               </Link>

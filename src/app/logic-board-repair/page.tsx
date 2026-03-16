@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Logic Board Repair Johannesburg | ZA Support',
   description:
-    'MacBook logic board repair in Johannesburg. Expert microsoldering for no-power, no-display, USB-C failure, GPU faults. Free diagnostic. From R 1,800. Call 064 529 5863.',
+    'MacBook logic board repair in Johannesburg. Expert microsoldering for no-power, no-display, USB-C failure, GPU faults. Free diagnostic. No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair' },
 };
 
@@ -25,20 +25,20 @@ const faults = [
   { title: 'Kernel Panic / Crash', desc: 'Persistent kernel panics traced to failing RAM, storage, or logic board component fault.' },
 ];
 
-const pricing = [
-  { item: 'Diagnostic Assessment', price: 'Free', note: 'Full board-level inspection' },
-  { item: 'USB-C / Thunderbolt Repair', price: 'From R 1,800', note: 'Port board or controller chip' },
-  { item: 'Power Circuit Repair', price: 'From R 2,000', note: 'No-power diagnosis and fix' },
-  { item: 'Microsoldering Repair', price: 'From R 2,500', note: 'Component-level board repair' },
-  { item: 'GPU Repair / Reballing', price: 'From R 3,500', note: 'Discrete GPU only — Intel models' },
-  { item: 'Logic Board Replacement', price: 'From R 8,000', note: 'Where repair is not viable' },
+const repairTypes = [
+  { item: 'Diagnostic Assessment', note: 'Full board-level inspection' },
+  { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip' },
+  { item: 'Power Circuit Repair', note: 'No-power diagnosis and fix' },
+  { item: 'Microsoldering Repair', note: 'Component-level board repair' },
+  { item: 'GPU Repair / Reballing', note: 'Discrete GPU only — Intel models' },
+  { item: 'Logic Board Replacement', note: 'Where repair is not viable' },
 ];
 
 // Extended FAQ set — 8 items for FAQPage schema
 const faqs = [
   {
     question: 'How much does MacBook logic board repair cost in Johannesburg?',
-    answer: 'Component-level microsoldering repair at ZA Support starts from R 1,800 and typically ranges between R 1,800 and R 6,500 depending on the fault and model. This compares to R 15,000–R 70,000 for an Apple Store board replacement and R 4,499+ for a Mac Shack board swap. We repair the specific failed chip or component rather than replacing the entire logic board, which is why our prices are significantly lower. Diagnostic assessment is always free with no obligation.',
+    answer: 'Component-level microsoldering repair at ZA Support is significantly cheaper than full board replacement at Apple or other shops. We repair the specific failed chip or component rather than replacing the entire logic board. Diagnostic assessment is always free with no obligation — we provide a written quote before any work begins.',
   },
   {
     question: 'Do you offer No Fix No Fee?',
@@ -87,10 +87,10 @@ const faqs = [
 ];
 
 const subPages = [
-  { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', price: 'From R 2,500' },
-  { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', price: 'From R 2,000' },
-  { title: 'iMac Logic Board', href: '/logic-board-repair/imac', price: 'From R 3,000' },
-  { title: 'Mac mini Logic Board', href: '/logic-board-repair/mac-mini', price: 'From R 2,000' },
+  { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro' },
+  { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air' },
+  { title: 'iMac Logic Board', href: '/logic-board-repair/imac' },
+  { title: 'Mac mini Logic Board', href: '/logic-board-repair/mac-mini' },
 ];
 
 const suburbPages = [
@@ -154,21 +154,21 @@ const customerReviews = [
     suburb: 'Sandton',
     rating: 5,
     date: '02/2026',
-    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. Brought it to ZA Support in Hyde Park and they had it diagnosed within a few hours. Turned out to be corrosion on the USB-C controller. Fixed for R 2,200 — Apple quoted me R 42,000 for a new logic board. Cannot recommend highly enough.',
+    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. Brought it to ZA Support in Hyde Park and they had it diagnosed within a few hours. Turned out to be corrosion on the USB-C controller. Fixed for a fraction of what Apple quoted for a new logic board. Cannot recommend highly enough.',
   },
   {
     name: 'Priya M.',
     suburb: 'Rosebank',
     rating: 5,
     date: '01/2026',
-    text: 'Screen was showing strange lines and flickering on my MacBook Pro 2015. Other shops said it was unfixable or quoted R 8,000+ for a replacement board. ZA Support diagnosed it as the GPU and repaired it for R 3,500. 12-month warranty included. Six weeks on and it is perfect.',
+    text: 'Screen was showing strange lines and flickering on my MacBook Pro 2015. Other shops said it was unfixable or quoted a high price for a replacement board. ZA Support diagnosed it as the GPU and repaired it at a fair price. 12-month warranty included. Six weeks on and it is perfect.',
   },
   {
     name: 'Ryan T.',
     suburb: 'Fourways',
     rating: 5,
     date: '03/2026',
-    text: 'MacBook Air M2 would not charge on either USB-C port. ZA Support found a failed charging controller chip and replaced it same day. They were upfront about pricing, no surprises. The free diagnostic saved me from paying R 550 elsewhere just to be told what was wrong. Will definitely use again.',
+    text: 'MacBook Air M2 would not charge on either USB-C port. ZA Support found a failed charging controller chip and replaced it same day. They were upfront about pricing, no surprises. The free diagnostic saved me from paying a diagnostic fee elsewhere just to be told what was wrong. Will definitely use again.',
   },
 ];
 
@@ -181,9 +181,7 @@ const serviceSchema = {
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   offers: {
     '@type': 'Offer',
-    priceCurrency: 'ZAR',
-    price: '1800',
-    description: 'MacBook logic board microsoldering repair from R 1,800',
+    description: 'MacBook logic board microsoldering repair. Free diagnostic. No Fix No Fee.',
   },
 };
 
@@ -303,7 +301,7 @@ export default function LogicBoardRepairPage() {
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">
             <div>
               <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">Mac Shack &amp; other shops</p>
-              <p className="text-xl font-extrabold text-red-400 line-through">R 550 diagnostic fee</p>
+              <p className="text-xl font-extrabold text-red-400 line-through">Paid diagnostic fee</p>
             </div>
             <div className="text-[#0FEA7A] text-3xl font-black">vs</div>
             <div>
@@ -368,22 +366,22 @@ export default function LogicBoardRepairPage() {
                     <span className="ml-2 text-[10px] bg-[#0FEA7A]/10 text-[#0FEA7A] border border-[#0FEA7A]/20 px-2 py-0.5 rounded-full">Recommended</span>
                   </td>
                   <td className="px-5 py-4 text-[#E8F4F1]">Component-level microsoldering</td>
-                  <td className="px-5 py-4 text-[#0FEA7A] font-bold">R 1,800 – R 6,500</td>
+                  <td className="px-5 py-4 text-[#0FEA7A] font-bold">Quoted on assessment</td>
                   <td className="px-5 py-4 text-[#0FEA7A] font-semibold">Free</td>
                   <td className="px-5 py-4 text-[#0FEA7A] font-semibold">12 months written</td>
                 </tr>
                 <tr className="border-b border-[rgba(255,255,255,0.05)]">
                   <td className="px-5 py-4 text-[#E8F4F1] font-medium">Apple Store (Johannesburg)</td>
                   <td className="px-5 py-4 text-[#7A9E98]">Full logic board replacement</td>
-                  <td className="px-5 py-4 text-red-400 font-bold">R 15,000 – R 70,000</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">R 0 assessment</td>
+                  <td className="px-5 py-4 text-red-400 font-bold">Full board replacement</td>
+                  <td className="px-5 py-4 text-[#7A9E98]">Free assessment</td>
                   <td className="px-5 py-4 text-[#7A9E98]">90 days (parts only)</td>
                 </tr>
                 <tr>
                   <td className="px-5 py-4 text-[#E8F4F1] font-medium">Mac Shack</td>
                   <td className="px-5 py-4 text-[#7A9E98]">Board replacement (no microsoldering)</td>
-                  <td className="px-5 py-4 text-orange-400 font-bold">R 4,499+ board swap</td>
-                  <td className="px-5 py-4 text-[#7A9E98]">R 550 fee</td>
+                  <td className="px-5 py-4 text-orange-400 font-bold">Board swap (no microsoldering)</td>
+                  <td className="px-5 py-4 text-[#7A9E98]">Paid diagnostic fee</td>
                   <td className="px-5 py-4 text-[#7A9E98]">3 months</td>
                 </tr>
               </tbody>
@@ -517,28 +515,27 @@ export default function LogicBoardRepairPage() {
         </div>
       </section>
 
-      {/* ── PRICING ── */}
+      {/* ── REPAIR TYPES ── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing Guide</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
           <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl">
-            All pricing is for component-level repair. Final cost is confirmed after the free diagnostic assessment. You pay nothing if we cannot fix it.
+            All repairs are component-level. Final cost is confirmed after the free diagnostic assessment. You pay nothing if we cannot fix it.
           </p>
           <div className="glass-card overflow-hidden p-0">
-            {pricing.map((item, i) => (
-              <div key={item.item} className={`flex items-center justify-between p-5 ${i < pricing.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+            {repairTypes.map((item, i) => (
+              <div key={item.item} className={`flex items-center justify-between p-5 ${i < repairTypes.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
                 <div>
                   <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
                   <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
                 </div>
-                <span className="text-[#0FEA7A] font-bold whitespace-nowrap ml-4">{item.price}</span>
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price depends on specific fault and model. Free diagnostic with no obligation.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final cost depends on specific fault and model. Free diagnostic with no obligation.</p>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-4">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Price comparison:</strong> Mac Shack charges R 4,499+ for a board replacement plus a R 550 diagnostic fee. Apple Store replacements start at R 15,000. ZA Support starts from <strong className="text-[#0FEA7A]">R 1,800</strong> with free diagnostic, No Fix No Fee, and a 12-month written warranty included.
+              💡 <strong className="text-[#E8F4F1]">Free diagnostic — always.</strong> Unlike other shops that charge a diagnostic fee before even looking at your board, ZA Support assesses your Mac at no charge with no obligation.
             </p>
           </div>
 
@@ -595,14 +592,14 @@ export default function LogicBoardRepairPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Logic Board Repair by Device</h2>
           <p className="text-[#7A9E98] text-sm mb-6 max-w-2xl">
-            Each Mac model has unique logic board architecture, common fault patterns, and pricing. Select your device below for model-specific information.
+            Each Mac model has unique logic board architecture and common fault patterns. Select your device below for model-specific information.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {subPages.map((page) => (
               <Link key={page.href} href={page.href} className="glass-card p-5 flex items-center justify-between group hover:border-[rgba(15,234,122,0.3)] transition-colors">
                 <div>
                   <h3 className="text-[#E8F4F1] font-bold text-sm mb-1 group-hover:text-[#0FEA7A] transition-colors">{page.title}</h3>
-                  <p className="text-[#0FEA7A] text-xs font-semibold">{page.price}</p>
+                  <p className="text-[#0FEA7A] text-xs font-semibold">Free diagnostic</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
@@ -670,7 +667,7 @@ export default function LogicBoardRepairPage() {
             <p className="text-[#7A9E98] mb-2">No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Free diagnostic — no charge, no obligation. We only charge you if we successfully repair your Mac.
-              Compare: Mac Shack charges R 550 before they even look at your board.
+              Unlike other shops, we do not charge a diagnostic fee before we begin.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

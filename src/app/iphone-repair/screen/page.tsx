@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Screen Repair Johannesburg | ZA Support',
   description:
-    'iPhone screen repair in Johannesburg from R 599. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
+    'iPhone screen repair in Johannesburg. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/screen' },
   keywords: [
     'iPhone screen repair Johannesburg',
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iPhone 12 / 12 mini', price: 'R 599 – R 799', note: 'OLED' },
-  { model: 'iPhone 12 Pro / Pro Max', price: 'R 999 – R 1,299', note: 'Super Retina XDR' },
-  { model: 'iPhone 13 / 13 mini', price: 'R 799 – R 999', note: 'OLED' },
-  { model: 'iPhone 13 Pro / Pro Max', price: 'R 1,199 – R 1,499', note: 'ProMotion OLED' },
-  { model: 'iPhone 14 / 14 Plus', price: 'R 999 – R 1,299', note: 'OLED' },
-  { model: 'iPhone 14 Pro / Pro Max', price: 'R 1,499 – R 1,799', note: 'Always-On ProMotion' },
-  { model: 'iPhone 15 / 15 Plus', price: 'R 1,099 – R 1,399', note: 'OLED' },
-  { model: 'iPhone 15 Pro / Pro Max', price: 'R 1,699 – R 1,999', note: 'ProMotion titanium' },
-  { model: 'iPhone 16 / 16 Plus', price: 'R 1,299 – R 1,599', note: 'OLED' },
-  { model: 'iPhone 16 Pro / Pro Max', price: 'R 1,999 – R 2,499', note: 'Most popular 2025' },
+  { model: 'iPhone 12 / 12 mini', note: 'OLED' },
+  { model: 'iPhone 12 Pro / Pro Max', note: 'Super Retina XDR' },
+  { model: 'iPhone 13 / 13 mini', note: 'OLED' },
+  { model: 'iPhone 13 Pro / Pro Max', note: 'ProMotion OLED' },
+  { model: 'iPhone 14 / 14 Plus', note: 'OLED' },
+  { model: 'iPhone 14 Pro / Pro Max', note: 'Always-On ProMotion' },
+  { model: 'iPhone 15 / 15 Plus', note: 'OLED' },
+  { model: 'iPhone 15 Pro / Pro Max', note: 'ProMotion titanium' },
+  { model: 'iPhone 16 / 16 Plus', note: 'OLED' },
+  { model: 'iPhone 16 Pro / Pro Max', note: 'Most popular 2025' },
 ];
 
 const symptoms = [
@@ -92,7 +92,7 @@ const faqs = [
   {
     question: 'How much does iPhone screen repair cost in Johannesburg?',
     answer:
-      'iPhone screen repair in Johannesburg starts at R 599 for iPhone 12 mini and ranges up to R 2,499 for iPhone 16 Pro Max. The exact price depends on your model and generation. We provide a free assessment and written fixed-price quote before starting — no surprises.',
+      'The exact price depends on your model and generation. We provide a free assessment and written fixed-price quote before starting — no surprises.',
   },
   {
     question: 'Will Face ID still work after iPhone screen repair?',
@@ -112,7 +112,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked iPhone screen?',
     answer:
-      'In almost every case, yes. An iPhone 15 screen repair at R 1,099–R 1,399 versus R 20,000+ for a new device is compelling. Even iPhone 16 Pro Max at R 2,499 is a fraction of replacement cost. We give you an honest assessment — if repair is not economical, we will tell you.',
+      'In almost every case, yes. Screen repair is a fraction of the cost of a new device. We give you an honest assessment — if repair is not economical, we will tell you.',
   },
   {
     question: 'My iPhone screen has lines on it but is not cracked — is this a screen fault?',
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Screen Repair Johannesburg',
-  description: 'iPhone screen repair in Johannesburg. All models iPhone 12 through 16 Pro Max. OLED replacement, touch repair, dead pixels. From R 599. 12-month warranty.',
+  description: 'iPhone screen repair in Johannesburg. All models iPhone 12 through 16 Pro Max. OLED replacement, touch repair, dead pixels. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,9 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Screen Repair Johannesburg',
-  description: 'iPhone screen repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked OLED, dead touch, lines, dead pixels. From R 599. 12-month warranty.',
-  lowPrice: '599',
-  highPrice: '2499',
+  description: 'iPhone screen repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked OLED, dead touch, lines, dead pixels. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -226,12 +224,12 @@ export default function iPhoneScreenPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Cracked OLED, dead touch, lines, ghost touch — we repair all iPhone screen faults
-              from R 599. iPhone 12 through 16 Pro Max. Same-day available.
+              Cracked OLED, dead touch, lines, ghost touch — we repair all iPhone screen faults.
+              iPhone 12 through 16 Pro Max. Same-day available.
               12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['From R 599', 'No Fix No Fee', '12-month warranty', 'Face ID preserved', 'Same-day available', 'Free assessment'].map((item) => (
+              {['Free assessment', 'No Fix No Fee', '12-month warranty', 'Face ID preserved', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -264,29 +262,27 @@ export default function iPhoneScreenPage() {
         </div>
       </section>
 
-      {/* ── Pricing ──────────────────────────────────────────────────────── */}
+      {/* ── Supported Models ─────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Screen Repair Prices — Johannesburg 2026
+            iPhone Models We Repair — Johannesburg 2026
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
-            All prices include the OLED assembly, parts, and labour. We provide a written fixed-price
-            quote before starting. Prices vary by model generation — send us your model for an exact quote.
+            All repairs include the OLED assembly, parts, and labour. We provide a written fixed-price
+            quote before starting — send us your model for an exact quote.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
-            <div className="grid grid-cols-3 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
+            <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider">Model</span>
-              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-center">Price Range</span>
-              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-right">Note</span>
+              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-right">Display Type</span>
             </div>
             {pricingRows.map((row, i) => (
               <div
                 key={row.model}
-                className={`grid grid-cols-3 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
+                className={`grid grid-cols-2 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
               >
                 <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                 <span className="text-[#7A9E98] text-xs text-right self-center">{row.note}</span>
               </div>
             ))}
@@ -454,14 +450,14 @@ export default function iPhoneScreenPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', price: 'From R 499' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', price: 'From R 799' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', price: 'From R 399' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Free diagnostic' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Free diagnostic' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Free diagnostic' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
+                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.label}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
@@ -480,7 +476,7 @@ export default function iPhoneScreenPage() {
             >
               Cracked iPhone Screen?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 599. Free assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free assessment. No Fix No Fee. 12-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

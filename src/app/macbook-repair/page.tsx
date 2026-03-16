@@ -11,12 +11,12 @@ const REVIEWS = { rating: SITE.rating, count: SITE.reviewCount };
 export const metadata: Metadata = {
   title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
   description:
-    'MacBook repair in Johannesburg from R 499. Battery, screen, keyboard, liquid damage, logic board microsoldering. All M-series and Intel models. No Fix No Fee. Hyde Park. Call 064 529 5863.',
+    'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. All M-series and Intel models. No Fix No Fee. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair' },
   keywords: ['macbook repair johannesburg', 'mac repair near me johannesburg', 'macbook repair sandton', 'apple repair johannesburg', 'macbook battery replacement johannesburg', 'macbook screen repair johannesburg'],
   openGraph: {
     title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
-    description: 'MacBook repair in Johannesburg from R 499. Battery, screen, keyboard, liquid damage, logic board microsoldering. No Fix No Fee.',
+    description: 'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board microsoldering. No Fix No Fee.',
     url: 'https://zasupport.com/macbook-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -27,9 +27,8 @@ const services = [
   {
     icon: Battery,
     title: 'Battery Replacement',
-    description: 'Restore battery life to 100%. MacBook Air from R 1,200. MacBook Pro from R 1,500.',
+    description: 'Restore battery life to 100%. MacBook Air and MacBook Pro — all models.',
     href: '/macbook-repair/battery',
-    price: 'From R 1,200',
     accent: 'text-green-400',
   },
   {
@@ -37,7 +36,6 @@ const services = [
     title: 'Screen Replacement',
     description: 'Cracked Retina display, dead pixels, backlight failure. Genuine quality panels.',
     href: '/macbook-repair/screen',
-    price: 'From R 3,500',
     accent: 'text-blue-400',
   },
   {
@@ -45,7 +43,6 @@ const services = [
     title: 'Keyboard Replacement',
     description: 'Sticky keys, broken keys, water-damaged keyboard. MacBook Pro butterfly to Magic keyboard.',
     href: '/macbook-repair/keyboard',
-    price: 'From R 2,500',
     accent: 'text-purple-400',
   },
   {
@@ -53,7 +50,6 @@ const services = [
     title: 'Liquid Damage Repair',
     description: 'Board-level ultrasonic cleaning and component repair. MacBook Air & Pro specialists.',
     href: '/liquid-damage',
-    price: 'From R 2,500',
     accent: 'text-cyan-400',
   },
   {
@@ -61,7 +57,6 @@ const services = [
     title: 'Logic Board Repair',
     description: 'Expert microsoldering for no-power, no-display, USB-C failure and GPU faults.',
     href: '/logic-board-repair',
-    price: 'From R 1,800',
     accent: 'text-orange-400',
   },
   {
@@ -69,7 +64,6 @@ const services = [
     title: 'Port & Charging Repair',
     description: 'MagSafe, USB-C and Thunderbolt port repair. MacBook not charging? We fix it.',
     href: '/macbook-repair/charging-port',
-    price: 'From R 499',
     accent: 'text-red-400',
   },
   {
@@ -77,7 +71,6 @@ const services = [
     title: 'Trackpad Repair',
     description: 'Trackpad not clicking, cursor jumping, raised trackpad from swollen battery. All models.',
     href: '/macbook-repair/trackpad',
-    price: 'From R 1,800',
     accent: 'text-yellow-400',
   },
   {
@@ -85,7 +78,6 @@ const services = [
     title: 'Data Recovery',
     description: 'Recover files from failed drives, water-damaged Macs, and non-booting MacBooks.',
     href: '/macbook-repair/data-recovery',
-    price: 'From R 1,500',
     accent: 'text-pink-400',
   },
 ];
@@ -104,7 +96,7 @@ const models = [
 const faqs = [
   {
     question: 'How much does MacBook repair cost in Johannesburg?',
-    answer: 'MacBook repair costs depend on the fault type and model. Battery replacement starts at R 1,200. Screen replacement from R 3,500. Keyboard replacement from R 2,500. Logic board microsoldering from R 1,800. Liquid damage assessment is free with a detailed quote before any work begins.',
+    answer: 'MacBook repair costs depend on the fault type and model. We provide a free assessment and a detailed written quote before any work begins. Contact us for a quote specific to your model and fault.',
   },
   {
     question: 'Do you repair M-series MacBooks (M1, M2, M3)?',
@@ -132,11 +124,11 @@ const faqs = [
   },
   {
     question: 'Do you repair MacBooks that other shops have refused?',
-    answer: 'Yes. We specialise in component-level logic board microsoldering, which many repair shops cannot perform. If you have been told your MacBook is beyond repair or only Apple can fix it, bring it to us for a free second opinion. We successfully repair boards that Apple quotes R15,000 to R70,000 to replace.',
+    answer: 'Yes. We specialise in component-level logic board microsoldering, which many repair shops cannot perform. If you have been told your MacBook is beyond repair or only Apple can fix it, bring it to us for a free second opinion. We successfully repair boards that Apple quotes for full replacement.',
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',
-    answer: 'MacBook Pro repairs are typically 20–40% more expensive than MacBook Air repairs for equivalent faults. This is due to the higher component cost, the more complex construction of Pro models, and the additional time required for disassembly. Logic board repair pricing is fault-specific and model-specific — a free diagnostic gives you the exact cost before any work starts.',
+    answer: 'MacBook Pro repairs are typically more involved than MacBook Air repairs for equivalent faults. This is due to the higher component cost, the more complex construction of Pro models, and the additional time required for disassembly. Logic board repair pricing is fault-specific and model-specific — a free diagnostic gives you the exact cost before any work starts.',
   },
   {
     question: 'Can you fix a MacBook that will not turn on at all?',
@@ -162,9 +154,6 @@ const serviceSchema = {
   description: 'MacBook repair in Johannesburg — battery, screen, keyboard, liquid damage, logic board. All M-series and Intel models. No Fix No Fee.',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '950',
-    highPrice: '12000',
-    priceCurrency: 'ZAR',
   },
 };
 
@@ -233,8 +222,7 @@ export default function MacBookRepairPage() {
                 <service.icon className={`w-8 h-8 ${service.accent} mb-4`} />
                 <h3 className="text-lg font-bold text-[#E8F4F1] mb-2 group-hover:text-[#0FEA7A] transition-colors">{service.title}</h3>
                 <p className="text-[#7A9E98] text-sm mb-4">{service.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-[#0FEA7A] font-bold text-sm">{service.price}</span>
+                <div className="flex items-center justify-end">
                   <ArrowRight className="w-4 h-4 text-[#0FEA7A] opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
               </Link>
@@ -243,40 +231,38 @@ export default function MacBookRepairPage() {
         </div>
       </section>
 
-      {/* Pricing Table */}
+      {/* Repair Services Table */}
       <section className="py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Repair <span className="text-[#0FEA7A]">Pricing</span>
+            MacBook <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            All prices are quoted after a free assessment. Final cost is confirmed in writing before work begins.
+            All costs are confirmed after a free assessment. Final cost is confirmed in writing before work begins.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
               <thead>
                 <tr className="border-b border-[rgba(255,255,255,0.08)]">
                   <th className="text-[#E8F4F1] font-semibold py-3 pr-6">Repair Type</th>
-                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">MacBook Air</th>
-                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">MacBook Pro</th>
+                  <th className="text-[#E8F4F1] font-semibold py-3 pr-6">Models</th>
                   <th className="text-[#E8F4F1] font-semibold py-3">Turnaround</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {[
-                  { repair: 'Battery Replacement', air: 'From R 1,200', pro: 'From R 1,500', time: '60–90 min' },
-                  { repair: 'Screen / Display', air: 'From R 3,500', pro: 'From R 4,500', time: '2–4 hrs' },
-                  { repair: 'Keyboard Replacement', air: 'From R 2,500', pro: 'From R 2,800', time: '2–3 hrs' },
-                  { repair: 'Liquid Damage', air: 'From R 2,500', pro: 'From R 3,500', time: '2–5 days' },
-                  { repair: 'Logic Board Repair', air: 'From R 1,800', pro: 'From R 2,500', time: '2–5 days' },
-                  { repair: 'Charging / Port', air: 'From R 499', pro: 'From R 499', time: '1–2 hrs' },
-                  { repair: 'Trackpad Repair', air: 'From R 1,800', pro: 'From R 2,000', time: '2–4 hrs' },
-                  { repair: 'Data Recovery', air: 'From R 1,500', pro: 'From R 1,500', time: '1–3 days' },
+                  { repair: 'Battery Replacement', models: 'MacBook Air & Pro', time: '60–90 min' },
+                  { repair: 'Screen / Display', models: 'MacBook Air & Pro', time: '2–4 hrs' },
+                  { repair: 'Keyboard Replacement', models: 'MacBook Air & Pro', time: '2–3 hrs' },
+                  { repair: 'Liquid Damage', models: 'MacBook Air & Pro', time: '2–5 days' },
+                  { repair: 'Logic Board Repair', models: 'MacBook Air & Pro', time: '2–5 days' },
+                  { repair: 'Charging / Port', models: 'MacBook Air & Pro', time: '1–2 hrs' },
+                  { repair: 'Trackpad Repair', models: 'MacBook Air & Pro', time: '2–4 hrs' },
+                  { repair: 'Data Recovery', models: 'MacBook Air & Pro', time: '1–3 days' },
                 ].map((row) => (
                   <tr key={row.repair} className="hover:bg-[rgba(15,234,122,0.03)] transition-colors">
                     <td className="text-[#E8F4F1] font-medium py-3 pr-6">{row.repair}</td>
-                    <td className="text-[#0FEA7A] py-3 pr-6">{row.air}</td>
-                    <td className="text-[#0FEA7A] py-3 pr-6">{row.pro}</td>
+                    <td className="text-[#7A9E98] py-3 pr-6">{row.models}</td>
                     <td className="text-[#7A9E98] py-3">{row.time}</td>
                   </tr>
                 ))}
@@ -284,7 +270,7 @@ export default function MacBookRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">
-            Prices are estimates. Final cost confirmed after free assessment. All repairs include 12-month warranty.
+            Final cost confirmed after free assessment. All repairs include 12-month warranty.
           </p>
         </div>
       </section>

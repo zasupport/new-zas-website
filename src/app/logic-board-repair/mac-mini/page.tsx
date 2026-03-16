@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
   description:
-    'Mac mini logic board repair Johannesburg from R 2,000. M1, M2, M2 Pro, M4, and Intel models. Apple Store charges R 15,000–R 35,000. We fix the chip. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
+    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Free diagnostic, No Fix No Fee, 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },
 };
 
@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'Mac mini is running very hot and throttling. Is this a logic board fault?',
     answer:
-      'Not necessarily. Thermal throttling in a Mac mini is most commonly caused by dust accumulation in the fan and heatsink (clean — free). Failed thermal paste is the next most common cause (thermal repaste — R 800). A faulty fan motor or a power rail fault causing incorrect voltage can also cause throttling. We diagnose the exact cause before recommending any repair.',
+      'Not necessarily. Thermal throttling in a Mac mini is most commonly caused by dust accumulation in the fan and heatsink. Failed thermal paste is the next most common cause. A faulty fan motor or a power rail fault causing incorrect voltage can also cause throttling. We diagnose the exact cause before recommending any repair.',
   },
   {
     question: 'Can the Mac mini M2 Pro logic board be repaired?',
@@ -38,7 +38,7 @@ const faqs = [
   {
     question: 'Is Mac mini logic board repair worth it vs buying a new machine?',
     answer:
-      'Generally yes. Mac mini is the most cost-effective Mac to own and repair. A new Mac mini M2 costs R 18,000+; most logic board repairs are R 2,000–R 4,500. A Mac mini M1 replacement is R 15,000+; our repair is from R 2,500. We give you an honest written comparison at the assessment stage — we will tell you clearly if replacement makes more financial sense.',
+      'Generally yes. Mac mini is the most cost-effective Mac to own and repair. A new Mac mini costs significantly more than a component-level repair. We give you an honest written comparison at the assessment stage — we will tell you clearly if replacement makes more financial sense.',
   },
   {
     question: 'My Mac mini has no HDMI output. Is this repairable?',
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: 'Do you offer Mac mini collection and delivery in Johannesburg?',
     answer:
-      'Yes. Mac mini is compact and easy to courier. We collect from Hyde Park, Sandton, Rosebank, Randburg, Fourways, Midrand, and Bryanston. Collection is free for repairs over R 2,500. Call 064 529 5863 or WhatsApp to arrange.',
+      'Yes. Mac mini is compact and easy to courier. We collect from Hyde Park, Sandton, Rosebank, Randburg, Fourways, Midrand, and Bryanston. Call 064 529 5863 or WhatsApp to arrange.',
   },
   {
     question: 'What warranty do you provide on Mac mini logic board repair?',
@@ -73,59 +73,53 @@ const icFaults = [
     fault: 'Controller IC failure',
     symptom: 'No USB-C, no Thunderbolt, no display output',
     repair: 'IC replacement',
-    price: 'From R 2,500',
   },
   {
     ic: 'HDMI Controller IC',
     fault: 'HDMI output failure',
     symptom: 'No display signal via HDMI',
     repair: 'IC replacement',
-    price: 'From R 2,000',
   },
   {
     ic: 'TPS51980 (PWM Controller)',
     fault: 'Power rail dropout',
     symptom: 'No power, dead on arrival',
     repair: 'IC + trace repair',
-    price: 'From R 2,500',
   },
   {
     ic: 'Power Supply Module',
     fault: 'PSU capacitor / FET failure',
     symptom: 'No power or intermittent shutdown',
     repair: 'Component replacement',
-    price: 'From R 2,000',
   },
   {
     ic: 'NVMe / PCIe Storage Controller',
     fault: 'Storage path failure',
     symptom: 'Not booting, no disk in Recovery',
     repair: 'Controller reballing',
-    price: 'From R 3,000',
   },
   {
     ic: 'Fan Controller / Temp Sensor',
     fault: 'Thermal management failure',
     symptom: 'Fan at max speed, extreme throttling',
     repair: 'Sensor replacement',
-    price: 'From R 1,500',
   },
 ];
 
 const models = [
-  { model: 'Mac mini 2014 (Intel)', chip: 'Intel Core i5/i7', repairFrom: 'R 2,000', notes: 'HDMI, Thunderbolt 2, power supply' },
-  { model: 'Mac mini 2018 (Intel)', chip: 'Intel Core i3/i5/i7', repairFrom: 'R 2,000', notes: 'USB-C/Thunderbolt 3, HDMI 2.0' },
-  { model: 'Mac mini M1 (2020)', chip: 'Apple M1', repairFrom: 'R 2,500', notes: 'Power management, Thunderbolt 4' },
-  { model: 'Mac mini M2 (2023)', chip: 'Apple M2', repairFrom: 'R 2,500', notes: 'HDMI 2.1, USB-C, power circuits' },
-  { model: 'Mac mini M2 Pro (2023)', chip: 'Apple M2 Pro', repairFrom: 'R 3,000', notes: 'Thunderbolt 4 × 3, PCIe storage' },
-  { model: 'Mac mini M4 / M4 Pro (2024)', chip: 'Apple M4 / M4 Pro', repairFrom: 'POA', notes: 'Diagnostic assessment required' },
+  { model: 'Mac mini 2014 (Intel)', chip: 'Intel Core i5/i7', notes: 'HDMI, Thunderbolt 2, power supply' },
+  { model: 'Mac mini 2018 (Intel)', chip: 'Intel Core i3/i5/i7', notes: 'USB-C/Thunderbolt 3, HDMI 2.0' },
+  { model: 'Mac mini M1 (2020)', chip: 'Apple M1', notes: 'Power management, Thunderbolt 4' },
+  { model: 'Mac mini M2 (2023)', chip: 'Apple M2', notes: 'HDMI 2.1, USB-C, power circuits' },
+  { model: 'Mac mini M2 Pro (2023)', chip: 'Apple M2 Pro', notes: 'Thunderbolt 4 × 3, PCIe storage' },
+  { model: 'Mac mini M4 / M4 Pro (2024)', chip: 'Apple M4 / M4 Pro', notes: 'Diagnostic assessment required' },
 ];
 
 const reviews = [
   {
     name: 'Mark T.',
     suburb: 'Sandton',
-    text: 'Mac mini M1 completely dead after a power surge. ZA Support diagnosed a blown power IC the same day and fixed it in two days. Saved me R 16,000 on a new machine. 12-month warranty in writing — that is what sealed it for me.',
+    text: 'Mac mini M1 completely dead after a power surge. ZA Support diagnosed a blown power IC the same day and fixed it in two days. Saved me a significant amount on a new machine. 12-month warranty in writing — that is what sealed it for me.',
     rating: 5,
   },
   {
@@ -137,7 +131,7 @@ const reviews = [
   {
     name: 'James K.',
     suburb: 'Midrand',
-    text: 'Mac mini 2018 Intel with all USB-C ports dead. Apple store said board replacement at R 12,500. ZA Support fixed the Thunderbolt controller for R 2,800. These are the real Apple specialists in Joburg.',
+    text: 'Mac mini 2018 Intel with all USB-C ports dead. Apple store said board replacement. ZA Support fixed the Thunderbolt controller for a fraction of that price. These are the real Apple specialists in Joburg.',
     rating: 5,
   },
 ];
@@ -170,12 +164,10 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'Mac mini logic board repair from R 2,000. No Fix No Fee. 12-month warranty.',
+  description: 'Mac mini logic board repair. Free diagnostic. No Fix No Fee. 12-month warranty.',
   offers: {
     '@type': 'Offer',
-    priceCurrency: 'ZAR',
-    price: '2000',
-    priceSpecification: { '@type': 'PriceSpecification', minPrice: '2000', priceCurrency: 'ZAR' },
+    description: 'Mac mini logic board repair. Free diagnostic. No Fix No Fee.',
   },
 };
 
@@ -200,8 +192,8 @@ export default function MacMiniLogicBoardPage() {
               Mac mini Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              Mac mini logic board repair from R 2,000. M1, M2, M2 Pro, M4, and Intel models.
-              We replace the failed component. Apple replaces the board. The difference is R 10,000+.
+              Mac mini logic board repair. M1, M2, M2 Pro, M4, and Intel models.
+              We replace the failed component. Apple replaces the board. Free diagnostic, No Fix No Fee.
             </p>
 
             {/* Stats bar */}
@@ -245,21 +237,21 @@ export default function MacMiniLogicBoardPage() {
         </div>
       </section>
 
-      {/* Price comparison */}
+      {/* Comparison callout */}
       <section className="py-10 bg-[rgba(39,80,77,0.2)] border-y border-[rgba(15,234,122,0.1)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">Apple Store / iStore</p>
-              <p className="text-3xl font-extrabold text-red-400">R 15,000–R 35,000</p>
-              <p className="text-[#7A9E98] text-xs mt-1">Logic board replacement — full board swapped</p>
+              <p className="text-2xl font-extrabold text-red-400">Full board replacement</p>
+              <p className="text-[#7A9E98] text-xs mt-1">Entire board swapped — expensive and unnecessary</p>
             </div>
             <div className="flex items-center justify-center">
               <div className="text-[#0FEA7A] text-4xl font-black">vs</div>
             </div>
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">ZA Support — Mac mini Logic Board Repair</p>
-              <p className="text-3xl font-extrabold text-[#0FEA7A]">From R 2,000</p>
+              <p className="text-2xl font-extrabold text-[#0FEA7A]">Component-level repair</p>
               <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. 12-month warranty.</p>
             </div>
           </div>
@@ -291,21 +283,20 @@ export default function MacMiniLogicBoardPage() {
               ))}
             </div>
             <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Pricing</h2>
+              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Repair Services</h2>
               <div className="glass-card p-6 mb-6">
                 {[
-                  { item: 'Diagnostic', price: 'Free' },
-                  { item: 'Power Supply Repair', price: 'From R 2,000' },
-                  { item: 'Logic Board Microsoldering', price: 'From R 2,500' },
-                  { item: 'HDMI Controller Repair', price: 'From R 2,000' },
-                  { item: 'USB-C / Thunderbolt Repair', price: 'From R 2,500' },
-                  { item: 'Thermal Repaste', price: 'From R 800' },
-                  { item: 'Liquid Damage Restoration', price: 'From R 2,500' },
-                  { item: 'Board Replacement', price: 'From R 6,500' },
-                ].map((item, i) => (
-                  <div key={item.item} className={`flex justify-between py-3 ${i < 7 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                    <span className="text-[#7A9E98] text-sm">{item.item}</span>
-                    <span className="text-[#0FEA7A] font-bold text-sm">{item.price}</span>
+                  'Diagnostic Assessment',
+                  'Power Supply Repair',
+                  'Logic Board Microsoldering',
+                  'HDMI Controller Repair',
+                  'USB-C / Thunderbolt Repair',
+                  'Thermal Repaste',
+                  'Liquid Damage Restoration',
+                  'Board Replacement',
+                ].map((item, i, arr) => (
+                  <div key={item} className={`py-3 ${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                    <span className="text-[#7A9E98] text-sm">{item}</span>
                   </div>
                 ))}
               </div>
@@ -335,7 +326,7 @@ export default function MacMiniLogicBoardPage() {
             Component-Level Repair — Mac mini Logic Board ICs
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl">
-            We identify and replace the specific failed IC under microscope. Apple replaces the entire board. That is the difference between a R 2,000 repair and a R 15,000 bill.
+            We identify and replace the specific failed IC under microscope. Apple replaces the entire board. Component-level repair is a fraction of the cost.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -344,8 +335,7 @@ export default function MacMiniLogicBoardPage() {
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Component</th>
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Failure Mode</th>
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Symptom</th>
-                  <th className="text-left text-[#0FEA7A] py-3 pr-6">Repair</th>
-                  <th className="text-left text-[#0FEA7A] py-3">From</th>
+                  <th className="text-left text-[#0FEA7A] py-3">Repair</th>
                 </tr>
               </thead>
               <tbody>
@@ -354,8 +344,7 @@ export default function MacMiniLogicBoardPage() {
                     <td className="text-[#E8F4F1] py-3 pr-6 font-medium">{row.ic}</td>
                     <td className="text-[#7A9E98] py-3 pr-6">{row.fault}</td>
                     <td className="text-[#7A9E98] py-3 pr-6">{row.symptom}</td>
-                    <td className="text-[#7A9E98] py-3 pr-6">{row.repair}</td>
-                    <td className="text-[#0FEA7A] py-3 font-bold">{row.price}</td>
+                    <td className="text-[#7A9E98] py-3">{row.repair}</td>
                   </tr>
                 ))}
               </tbody>
@@ -377,7 +366,6 @@ export default function MacMiniLogicBoardPage() {
                 <tr className="border-b border-[rgba(15,234,122,0.15)]">
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Model</th>
                   <th className="text-left text-[#0FEA7A] py-3 pr-6">Chip</th>
-                  <th className="text-left text-[#0FEA7A] py-3 pr-6">Repair From</th>
                   <th className="text-left text-[#0FEA7A] py-3">Common Repairs</th>
                 </tr>
               </thead>
@@ -386,7 +374,6 @@ export default function MacMiniLogicBoardPage() {
                   <tr key={row.model} className={`${i < models.length - 1 ? 'border-b border-[rgba(255,255,255,0.04)]' : ''}`}>
                     <td className="text-[#E8F4F1] py-3 pr-6 font-medium">{row.model}</td>
                     <td className="text-[#7A9E98] py-3 pr-6">{row.chip}</td>
-                    <td className="text-[#0FEA7A] py-3 pr-6 font-bold">{row.repairFrom}</td>
                     <td className="text-[#7A9E98] py-3">{row.notes}</td>
                   </tr>
                 ))}
@@ -432,7 +419,7 @@ export default function MacMiniLogicBoardPage() {
             {[
               {
                 title: 'Component Repair, Not Board Swap',
-                desc: 'Apple charges R 15,000–R 35,000 for a Mac mini board replacement. We replace the failed IC for R 2,000–R 4,500. You keep your data. You save thousands.',
+                desc: 'Apple replaces the entire Mac mini board. We replace the specific failed IC. You keep your data and save thousands.',
               },
               {
                 title: '12-Month Written Warranty',
@@ -452,7 +439,7 @@ export default function MacMiniLogicBoardPage() {
               },
               {
                 title: 'Hyde Park + Collection Across JHB',
-                desc: '1 Hyde Park Lane. Free collection for repairs over R 2,500. We cover Sandton, Rosebank, Randburg, Fourways, Midrand, and Bryanston.',
+                desc: '1 Hyde Park Lane. We cover Sandton, Rosebank, Randburg, Fourways, Midrand, and Bryanston.',
               },
             ].map((item) => (
               <div key={item.title} className="glass-card p-6">
@@ -500,15 +487,15 @@ export default function MacMiniLogicBoardPage() {
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Related Repairs</h2>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {[
-              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', price: 'From R 2,500' },
-              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', price: 'From R 1,800' },
-              { title: 'iMac Logic Board', href: '/logic-board-repair/imac', price: 'From R 3,000' },
-              { title: 'Logic Board Repair Hub', href: '/logic-board-repair', price: 'All Devices' },
+              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Free diagnostic' },
+              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Free diagnostic' },
+              { title: 'iMac Logic Board', href: '/logic-board-repair/imac', label: 'Free diagnostic' },
+              { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
+                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.label}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
@@ -525,7 +512,7 @@ export default function MacMiniLogicBoardPage() {
               Mac mini Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-2">Free diagnostic. No Fix No Fee. 12-month warranty. Hyde Park, Johannesburg.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Apple quoted R 15,000+? A second opinion costs you nothing and could save you thousands.</p>
+            <p className="text-[#7A9E98] text-sm mb-8">A second opinion costs you nothing — bring it in before committing to a board replacement.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsappLogicBoard}

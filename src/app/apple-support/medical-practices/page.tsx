@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Mac Support Medical Practices Johannesburg',
   description:
-    'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Managed IT from R 4,499/mo. Free diagnostic. Call 064 529 5863.',
+    'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Free diagnostic. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/apple-support/medical-practices' },
 };
 
@@ -48,7 +48,7 @@ const faqs = [
   {
     question: 'What does Managed IT for a medical practice cost?',
     answer:
-      'Managed IT for a solo practitioner starts at R 4,499/month excl. VAT. Two-doctor practices are R 5,499/month. Three or more doctors are R 5,999/month. These are all-inclusive plans — hardware repair is included at no extra charge (excluding parts). Ad-hoc support without a plan is R 899/hour.',
+      'Managed IT plans are all-inclusive — hardware repair is included at no extra charge (excluding parts). Contact us for a quote tailored to your practice size.',
   },
   {
     question: 'Do you provide support contracts that satisfy HPCSA audit requirements?',
@@ -93,7 +93,6 @@ const services = [
 const plans = [
   {
     name: 'Solo Practitioner',
-    price: 'R 4,499',
     desc: 'One doctor practice',
     items: [
       'Up to 3 devices monitored',
@@ -106,7 +105,6 @@ const plans = [
   },
   {
     name: 'Two-Doctor Practice',
-    price: 'R 5,499',
     desc: 'Two doctor practice',
     items: [
       'Up to 6 devices monitored',
@@ -119,7 +117,6 @@ const plans = [
   },
   {
     name: 'Group Practice',
-    price: 'R 5,999',
     desc: 'Three or more doctors',
     items: [
       'Unlimited devices monitored',
@@ -175,13 +172,7 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'Specialist Apple Mac support and repair for medical practices in Johannesburg. POPIA-aware. Managed IT from R 4,499/month.',
-  offers: {
-    '@type': 'Offer',
-    priceCurrency: 'ZAR',
-    price: '4499',
-    priceSpecification: { '@type': 'PriceSpecification', minPrice: '4499', priceCurrency: 'ZAR' },
-  },
+  description: 'Specialist Apple Mac support and repair for medical practices in Johannesburg. POPIA-aware.',
 };
 
 const faqSchema = buildFaqSchema(faqs);
@@ -216,7 +207,7 @@ export default function MedicalPracticesPage() {
                 'POPIA compliance setup',
                 'HPCSA audit documentation',
                 'Loaner MacBook available',
-                'Managed IT from R 4,499/mo',
+                'Managed IT plans available',
               ].map((item) => (
                 <div key={item} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-1.5 rounded-full">
                   <CheckCircle className="w-3.5 h-3.5 text-[#0FEA7A]" />
@@ -355,8 +346,7 @@ export default function MedicalPracticesPage() {
                 )}
                 <h3 className="text-[#E8F4F1] font-extrabold text-lg mb-1" style={{ fontFamily: 'Syne, sans-serif' }}>{plan.name}</h3>
                 <p className="text-[#7A9E98] text-sm mb-3">{plan.desc}</p>
-                <p className="text-3xl font-extrabold text-[#0FEA7A] mb-1">{plan.price}<span className="text-base text-[#7A9E98] font-normal">/mo</span></p>
-                <p className="text-[#7A9E98] text-xs mb-5">Excl. VAT · Parts cost additional</p>
+                <p className="text-[#7A9E98] text-xs mb-5">All-inclusive · Parts cost additional</p>
                 <ul className="space-y-2 mb-6">
                   {plan.items.map((item) => (
                     <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">

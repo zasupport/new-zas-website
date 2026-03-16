@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Liquid Damage Repair | ZA Support',
   description:
-    'MacBook Air liquid damage repair in Johannesburg from R 1,500. Emergency guide, No Fix No Fee, 12-month warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, No Fix No Fee, 12-month warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air' },
   keywords: [
     'MacBook Air liquid damage repair Johannesburg',
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: 'How much does MacBook Air liquid damage repair cost?',
     answer:
-      'Costs range from R 1,500 to R 6,500 depending on the severity of the damage. A keyboard-only spill with no logic board involvement costs R 1,500–R 3,000. Minor logic board corrosion requiring component cleaning costs R 2,000–R 4,000. Severe corrosion requiring multiple IC replacements costs R 3,000–R 6,500. The assessment is always free — we confirm the exact cost before any work begins.',
+      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. The assessment is always free — we confirm the exact cost before any work begins.',
   },
   {
     question: 'Is the MacBook Air more susceptible to liquid damage than the MacBook Pro?',
@@ -118,7 +118,6 @@ const severityTiers = [
     scenario: 'Spill on keyboard only',
     detail: 'Liquid reached the keyboard and possibly the trackpad but did not penetrate to the logic board. Common in small spills. The MacBook Air keyboard layout provides some protection for the board beneath.',
     repair: 'Keyboard and/or trackpad replacement',
-    priceRange: 'R 1,500 – R 3,000',
     recovery: 'Excellent',
     timeframe: '24–48 hours',
     colour: 'green' as const,
@@ -127,7 +126,6 @@ const severityTiers = [
     scenario: 'Logic board corrosion — minor',
     detail: 'Liquid reached the logic board but corrosion is localised. More urgent on MacBook Air than Pro due to the fanless design allowing liquid to pool. Ultrasonic cleaning and targeted IC repair restores full function.',
     repair: 'Ultrasonic cleaning, IC cleaning, trace repair',
-    priceRange: 'R 2,000 – R 4,000',
     recovery: 'Very good',
     timeframe: '48–72 hours',
     colour: 'yellow' as const,
@@ -136,7 +134,6 @@ const severityTiers = [
     scenario: 'Logic board corrosion — major',
     detail: 'Extensive corrosion across multiple board areas. On M-series MacBook Airs this is especially significant as RAM, storage, and CPU are on a single integrated component. Multiple ICs affected requiring full board cleaning plus component replacement.',
     repair: 'Full component repair, multiple IC replacements',
-    priceRange: 'R 3,000 – R 6,500',
     recovery: 'Case dependent',
     timeframe: '3–5 business days',
     colour: 'orange' as const,
@@ -145,7 +142,6 @@ const severityTiers = [
     scenario: 'Screen damage from liquid',
     detail: 'Liquid entered the display assembly causing dead pixels, backlight failure, or full blackout. The display assembly on the MacBook Air is replaced independently of the logic board.',
     repair: 'Display assembly replacement',
-    priceRange: 'From R 2,499',
     recovery: 'Excellent',
     timeframe: '24–48 hours',
     colour: 'green' as const,
@@ -238,9 +234,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Air liquid damage repair in Johannesburg from R 1,500. Emergency assessment, No Fix No Fee, 12-month warranty. M1, M2, M3 and Intel models.',
-  lowPrice: '1500',
-  highPrice: '6500',
+  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, No Fix No Fee, 12-month warranty. M1, M2, M3 and Intel models.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -268,7 +262,7 @@ export default function MacBookAirLiquidDamagePage() {
               <span className="text-[#0FEA7A]">Repair Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              From R 1,500. Emergency assessment available. M1, M2, M3 and all Intel models.
+              Emergency assessment available. M1, M2, M3 and all Intel models.
               No Fix No Fee. 12-month written warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
@@ -377,15 +371,14 @@ export default function MacBookAirLiquidDamagePage() {
               <p>
                 On M1, M2, and M3 MacBook Airs, the situation is further complicated by Apple&apos;s unified architecture:
                 the CPU, RAM, and neural engine are all on one silicon die. A single corroded trace near
-                unified memory can render the entire board non-functional — and logic board replacement
-                starts at R 8,000. Early cleaning is not just preferable. It is essential.
+                unified memory can render the entire board non-functional. Early cleaning is not just preferable. It is essential.
               </p>
               <ul className="space-y-2 pl-4">
                 {[
                   'Thinner chassis — liquid reaches the logic board in seconds, not minutes',
                   'No fan — liquid pools rather than distributes, increasing contact time on the board',
                   'M-series unified logic board — CPU, RAM, and storage on one component',
-                  'Logic board replacement cost: R 8,000–R 18,000 vs R 1,500–R 6,500 for component repair',
+                  'Logic board replacement is significantly more expensive than component-level repair',
                 ].map((point) => (
                   <li key={point} className="flex items-start gap-2">
                     <span className="text-[#F55736] font-bold mt-0.5">!</span>
@@ -527,10 +520,6 @@ export default function MacBookAirLiquidDamagePage() {
                   <div>
                     <p className="text-[#7A9E98] text-xs mb-1">Repair type</p>
                     <p className="text-[#E8F4F1] text-sm font-medium">{tier.repair}</p>
-                  </div>
-                  <div>
-                    <p className="text-[#7A9E98] text-xs mb-1">Price range</p>
-                    <p className="text-[#0FEA7A] text-sm font-bold">{tier.priceRange}</p>
                   </div>
                   <div>
                     <p className="text-[#7A9E98] text-xs mb-1">Typical turnaround</p>
@@ -709,14 +698,13 @@ export default function MacBookAirLiquidDamagePage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'MacBook Pro Liquid Damage', href: '/liquid-damage/macbook-pro', price: 'From R 1,500' },
-              { title: 'Liquid Damage Hub', href: '/liquid-damage', price: 'All Devices' },
-              { title: 'Logic Board Repair', href: '/logic-board-repair', price: 'From R 1,800' },
+              { title: 'MacBook Pro Liquid Damage', href: '/liquid-damage/macbook-pro' },
+              { title: 'Liquid Damage Hub', href: '/liquid-damage' },
+              { title: 'Logic Board Repair', href: '/logic-board-repair' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>

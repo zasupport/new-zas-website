@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Battery Replacement Johannesburg | ZA Support',
   description:
-    'iPhone battery replacement in Johannesburg from R 499. All models iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
+    'iPhone battery replacement in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/battery' },
   keywords: [
     'iPhone battery replacement Johannesburg',
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iPhone 12 / 12 mini', price: 'R 499 – R 549', note: '' },
-  { model: 'iPhone 12 Pro / Pro Max', price: 'R 549 – R 599', note: '' },
-  { model: 'iPhone 13 / 13 mini', price: 'R 549 – R 599', note: 'Most common' },
-  { model: 'iPhone 13 Pro / Pro Max', price: 'R 599 – R 649', note: '' },
-  { model: 'iPhone 14 / 14 Plus', price: 'R 599 – R 649', note: '' },
-  { model: 'iPhone 14 Pro / Pro Max', price: 'R 649 – R 749', note: '' },
-  { model: 'iPhone 15 / 15 Plus', price: 'R 699 – R 799', note: '' },
-  { model: 'iPhone 15 Pro / Pro Max', price: 'R 799 – R 899', note: '' },
-  { model: 'iPhone 16 / 16 Plus', price: 'R 799 – R 899', note: '' },
-  { model: 'iPhone 16 Pro / Pro Max', price: 'R 899 – R 999', note: 'Most popular 2025' },
+  { model: 'iPhone 12 / 12 mini', note: '' },
+  { model: 'iPhone 12 Pro / Pro Max', note: '' },
+  { model: 'iPhone 13 / 13 mini', note: 'Most common' },
+  { model: 'iPhone 13 Pro / Pro Max', note: '' },
+  { model: 'iPhone 14 / 14 Plus', note: '' },
+  { model: 'iPhone 14 Pro / Pro Max', note: '' },
+  { model: 'iPhone 15 / 15 Plus', note: '' },
+  { model: 'iPhone 15 Pro / Pro Max', note: '' },
+  { model: 'iPhone 16 / 16 Plus', note: '' },
+  { model: 'iPhone 16 Pro / Pro Max', note: 'Most popular 2025' },
 ];
 
 const symptoms = [
@@ -92,7 +92,7 @@ const faqs = [
   {
     question: 'How much does iPhone battery replacement cost in Johannesburg?',
     answer:
-      'iPhone battery replacement in Johannesburg starts at R 499 for iPhone 12 mini and ranges up to R 999 for iPhone 16 Pro Max. The exact price depends on your model. We provide a free battery health check and written fixed-price quote before starting any work.',
+      'The exact price depends on your model. We provide a free battery health check and written fixed-price quote before starting any work.',
   },
   {
     question: 'How do I know if my iPhone battery needs replacing?',
@@ -159,7 +159,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'iPhone Battery Replacement Johannesburg',
-  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen battery. From R 499. 12-month warranty.',
+  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen battery. 12-month warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   aggregateRating: {
     '@type': 'AggregateRating',
@@ -179,9 +179,7 @@ const aggregateRatingSchema = {
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Battery Replacement Johannesburg',
-  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. From R 499. 12-month warranty.',
-  lowPrice: '499',
-  highPrice: '999',
+  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -226,12 +224,12 @@ export default function iPhoneBatteryPage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
-              Battery draining fast, unexpected shutdowns, swollen battery — we replace iPhone batteries
-              from R 499. iPhone 12 through 16 Pro Max. Same-day available.
+              Battery draining fast, unexpected shutdowns, swollen battery — we replace iPhone batteries.
+              iPhone 12 through 16 Pro Max. Same-day available.
               12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['From R 499', 'No Fix No Fee', '12-month warranty', 'Data safe', 'Same-day available', 'Free assessment'].map((item) => (
+              {['Free assessment', 'No Fix No Fee', '12-month warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -264,29 +262,27 @@ export default function iPhoneBatteryPage() {
         </div>
       </section>
 
-      {/* ── Pricing ──────────────────────────────────────────────────────── */}
+      {/* ── Supported Models ─────────────────────────────────────────────── */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
-            iPhone Battery Replacement Prices — Johannesburg 2026
+            iPhone Battery Replacement — Supported Models
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
-            All prices include the replacement battery, parts, and labour. We provide a written fixed-price
-            quote after a free battery health check. Prices include 12-month warranty.
+            All replacements include the battery, parts, and labour. We provide a written fixed-price
+            quote after a free battery health check.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
-            <div className="grid grid-cols-3 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
+            <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider">Model</span>
-              <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-center">Price Range</span>
               <span className="text-[#0FEA7A] text-xs font-bold uppercase tracking-wider text-right">Note</span>
             </div>
             {pricingRows.map((row, i) => (
               <div
                 key={row.model}
-                className={`grid grid-cols-3 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
+                className={`grid grid-cols-2 gap-0 px-6 py-4 ${i < pricingRows.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
               >
                 <span className="text-[#E8F4F1] text-sm font-medium">{row.model}</span>
-                <span className="text-[#0FEA7A] font-bold text-sm text-center">{row.price}</span>
                 <span className="text-[#7A9E98] text-xs text-right self-center">{row.note}</span>
               </div>
             ))}
@@ -427,14 +423,14 @@ export default function iPhoneBatteryPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', price: 'From R 599' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', price: 'From R 799' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', price: 'From R 399' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Free diagnostic' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Free diagnostic' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Free diagnostic' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
+                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.label}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
@@ -453,7 +449,7 @@ export default function iPhoneBatteryPage() {
             >
               iPhone Battery Draining Fast?
             </h2>
-            <p className="text-[#7A9E98] mb-2">From R 499. Free battery health check. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-2">Free battery health check. No Fix No Fee. 12-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg — serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

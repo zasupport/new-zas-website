@@ -66,12 +66,12 @@ const steps = [
 ];
 
 const services = [
-  { name: 'Logic Board Repair', description: 'Component-level microsoldering — no power, no display, no charging, kernel panics', href: '/logic-board-repair', from: 'R 1,800' },
-  { name: 'Liquid Damage Repair', description: 'Ultrasonic cleaning, corrosion removal, board-level restoration after spills', href: '/liquid-damage', from: 'R 2,500' },
-  { name: 'Screen Replacement', description: 'Full LCD/Retina/ProMotion display replacement — cracked, backlight failure, dead pixels', href: '/macbook-repair/screen', from: 'R 2,200' },
-  { name: 'Battery Replacement', description: 'Genuine capacity replacement — swollen, not holding charge, sudden shutdown', href: '/macbook-repair/battery', from: 'R 1,800' },
-  { name: 'Keyboard Replacement', description: 'Full keyboard deck replacement — unresponsive keys, repeated characters, debris damage', href: '/macbook-repair/keyboard', from: 'R 2,500' },
-  { name: 'Charging Port Repair', description: 'USB-C / MagSafe port repair — not charging, no connection detected, bent pins', href: '/macbook-repair/charging-port', from: 'R 1,800' },
+  { name: 'Logic Board Repair', description: 'Component-level microsoldering — no power, no display, no charging, kernel panics', href: '/logic-board-repair' },
+  { name: 'Liquid Damage Repair', description: 'Ultrasonic cleaning, corrosion removal, board-level restoration after spills', href: '/liquid-damage' },
+  { name: 'Screen Replacement', description: 'Full LCD/Retina/ProMotion display replacement — cracked, backlight failure, dead pixels', href: '/macbook-repair/screen' },
+  { name: 'Battery Replacement', description: 'Genuine capacity replacement — swollen, not holding charge, sudden shutdown', href: '/macbook-repair/battery' },
+  { name: 'Keyboard Replacement', description: 'Full keyboard deck replacement — unresponsive keys, repeated characters, debris damage', href: '/macbook-repair/keyboard' },
+  { name: 'Charging Port Repair', description: 'USB-C / MagSafe port repair — not charging, no connection detected, bent pins', href: '/macbook-repair/charging-port' },
 ];
 
 const faqs = [
@@ -113,7 +113,7 @@ const faqs = [
   {
     question: 'Why do you offer No Fix No Fee when other repair shops charge a diagnostic fee?',
     answer:
-      'Because we are confident in our skills. ZA Support has 14 years of Mac repair experience with component-level expertise across all Intel and Apple Silicon models. We would rather demonstrate our capability than charge you upfront to find out whether we can help. Mac Shack, for example, charges a R 550 diagnostic fee before touching your machine — whether they fix it or not. We do not think that is fair to the customer.',
+      'Because we are confident in our skills. ZA Support has 14 years of Mac repair experience with component-level expertise across all Intel and Apple Silicon models. We would rather demonstrate our capability than charge you upfront to find out whether we can help. Many shops charge a diagnostic fee before touching your machine — whether they fix it or not. We do not think that is fair to the customer.',
   },
 ];
 
@@ -127,7 +127,7 @@ const testimonials = [
   {
     suburb: 'Rosebank',
     name: 'Michael T.',
-    text: 'After my MacBook Air got water damage I took it to two other shops — both wanted R 550 just to look at it. ZA Support assessed it for free, cleaned the board, and it has been running perfectly for six months. Honest pricing, brilliant service.',
+    text: 'After my MacBook Air got water damage I took it to two other shops — both charged a diagnostic fee just to look at it. ZA Support assessed it for free, cleaned the board, and it has been running perfectly for six months. Honest service.',
     stars: 5,
   },
   {
@@ -154,8 +154,6 @@ export default function NoFixNoFeePage() {
     name: 'No Fix No Fee Mac Repair Johannesburg',
     description:
       'Free Mac diagnostic and assessment in Johannesburg. You only pay if we successfully repair your Mac. Covers logic board repair, liquid damage, screen replacement, battery, keyboard, and charging port.',
-    lowPrice: '0',
-    highPrice: '6500',
   });
 
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
@@ -283,8 +281,8 @@ export default function NoFixNoFeePage() {
                   </div>
                   <ul className="space-y-3">
                     {[
-                      'Assessment fee: R 0',
-                      'Diagnostic charge: R 0',
+                      'Assessment fee: Free',
+                      'Diagnostic charge: Free',
                       'Deposit required: None',
                       'Pay if not fixed: No',
                       'Written fixed-price quote: Yes',
@@ -308,9 +306,9 @@ export default function NoFixNoFeePage() {
                   </div>
                   <ul className="space-y-3">
                     {[
-                      'Assessment fee: R 550',
-                      'Diagnostic charge: R 550 (non-refundable)',
-                      'Deposit required: R 550',
+                      'Assessment fee charged',
+                      'Diagnostic charge (non-refundable)',
+                      'Deposit required',
                       'Pay if not fixed: Yes — you already have',
                       'Written fixed-price quote: Not always',
                       'Warranty: 3 months (standard)',
@@ -324,7 +322,7 @@ export default function NoFixNoFeePage() {
                 </div>
               </div>
               <p className="text-xs text-center mt-4" style={{ color: '#7A9E98' }}>
-                Mac Shack diagnostic fee as of March 2026. Always verify current pricing directly.
+                Competitor terms as of March 2026. Always verify directly.
               </p>
             </div>
           </div>
@@ -426,7 +424,7 @@ export default function NoFixNoFeePage() {
               </div>
 
               <p>
-                Compare this to the industry standard in Johannesburg. Mac Shack charges R 550 for a diagnostic assessment — non-refundable, regardless of whether they fix your Mac or not. You are paying R 550 just to find out if they can help you. At ZA Support, that information is free.
+                Compare this to the industry standard in Johannesburg. Many shops charge a diagnostic fee — non-refundable, regardless of whether they fix your Mac or not. You are paying just to find out if they can help you. At ZA Support, that information is free.
               </p>
               <p>
                 We can offer this because after 14 years of Mac repair — including component-level microsoldering on Intel and Apple Silicon boards — we have the expertise to accurately assess most faults within 30 minutes. We are not guessing. We know what we are looking at.
@@ -448,7 +446,7 @@ export default function NoFixNoFeePage() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {services.map(({ name, description, href, from }) => (
+              {services.map(({ name, description, href }) => (
                 <Link
                   key={name}
                   href={href}
@@ -460,10 +458,6 @@ export default function NoFixNoFeePage() {
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0 mt-0.5" style={{ color: '#0FEA7A' }} />
                   </div>
                   <p className="text-sm mb-4 leading-relaxed" style={{ color: '#7A9E98' }}>{description}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs" style={{ color: '#7A9E98' }}>From</span>
-                    <span className="text-sm font-bold" style={{ color: '#0FEA7A' }}>{from}</span>
-                  </div>
                   <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
                     <span className="text-xs flex items-center gap-1" style={{ color: '#0FEA7A' }}>
                       <CheckCircle className="w-3 h-3" />

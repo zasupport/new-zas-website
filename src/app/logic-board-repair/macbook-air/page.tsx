@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Logic Board Repair | ZA Support',
   description:
-    'MacBook Air logic board repair in Johannesburg from R 2,000. Free diagnostic, No Fix No Fee, 12-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air logic board repair in Johannesburg. Free diagnostic, No Fix No Fee, 12-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air' },
   keywords: [
     'MacBook Air logic board repair Johannesburg',
@@ -24,16 +24,16 @@ export const metadata: Metadata = {
 };
 
 const faultTable = [
-  { fault: 'No Power / Completely Dead', cause: 'Blown F7000 fuse, failed MOSFET, damaged ISL6259 or corroded power rail', fixable: 'Yes — most cases', cost: 'From R 2,000' },
-  { fault: 'Not Charging on USB-C', cause: 'USB-C controller IC, Tristar/Hydra chip (Intel), or power management fault', fixable: 'Yes', cost: 'From R 2,000' },
-  { fault: 'Black Screen / No Backlight', cause: 'Backlight fuse LP8550, backlight driver, or damaged eDP display connector', fixable: 'Yes — common repair', cost: 'From R 2,000' },
-  { fault: 'Liquid Damage Corrosion', cause: 'Electrolytic corrosion from water, coffee or beverage exposure', fixable: 'Often yes', cost: 'From R 2,500' },
-  { fault: 'Random Shutdowns / Kernel Panics', cause: 'Failing power capacitor, bad voltage regulator, or unstable power rail', fixable: 'Yes — after diagnosis', cost: 'From R 2,200' },
-  { fault: 'USB-C Port Not Working', cause: 'USB-C controller IC fault or physical port damage extending to board', fixable: 'Yes', cost: 'From R 2,000' },
-  { fault: 'Fan at Full Speed Constantly', cause: 'Failed thermal sensor IC or fan controller fault on logic board', fixable: 'Yes', cost: 'From R 1,500' },
-  { fault: 'No External Display Output', cause: 'DisplayPort mux IC fault or damaged USB-C alt-mode controller', fixable: 'Usually yes', cost: 'From R 2,000' },
-  { fault: 'Touch ID Not Working', cause: 'Secure Enclave communication fault or T2/internal board pairing issue', fixable: 'Sometimes', cost: 'Assessed per case' },
-  { fault: 'Boots to External Display Only', cause: 'Backlight circuit fault — display path working but backlight failed', fixable: 'Yes — isolated fault', cost: 'From R 2,000' },
+  { fault: 'No Power / Completely Dead', cause: 'Blown F7000 fuse, failed MOSFET, damaged ISL6259 or corroded power rail', fixable: 'Yes — most cases' },
+  { fault: 'Not Charging on USB-C', cause: 'USB-C controller IC, Tristar/Hydra chip (Intel), or power management fault', fixable: 'Yes' },
+  { fault: 'Black Screen / No Backlight', cause: 'Backlight fuse LP8550, backlight driver, or damaged eDP display connector', fixable: 'Yes — common repair' },
+  { fault: 'Liquid Damage Corrosion', cause: 'Electrolytic corrosion from water, coffee or beverage exposure', fixable: 'Often yes' },
+  { fault: 'Random Shutdowns / Kernel Panics', cause: 'Failing power capacitor, bad voltage regulator, or unstable power rail', fixable: 'Yes — after diagnosis' },
+  { fault: 'USB-C Port Not Working', cause: 'USB-C controller IC fault or physical port damage extending to board', fixable: 'Yes' },
+  { fault: 'Fan at Full Speed Constantly', cause: 'Failed thermal sensor IC or fan controller fault on logic board', fixable: 'Yes' },
+  { fault: 'No External Display Output', cause: 'DisplayPort mux IC fault or damaged USB-C alt-mode controller', fixable: 'Usually yes' },
+  { fault: 'Touch ID Not Working', cause: 'Secure Enclave communication fault or T2/internal board pairing issue', fixable: 'Sometimes' },
+  { fault: 'Boots to External Display Only', cause: 'Backlight circuit fault — display path working but backlight failed', fixable: 'Yes — isolated fault' },
 ];
 
 const repairProcess = [
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     question: 'Is it worth repairing a MacBook Air versus buying a new one?',
-    answer: 'In most cases, yes — especially for M1 and M2 models which are still current machines worth preserving. Apple charges R 12,000–R 28,000 to replace a MacBook Air logic board. Our component-level repairs start from R 2,000. For Intel MacBook Airs, the calculus depends on the model year — we will always give you an honest recommendation rather than push you toward a repair that is not economically sensible.',
+    answer: 'In most cases, yes — especially for M1 and M2 models which are still current machines worth preserving. Apple replaces the entire logic board at a significant premium. Our component-level repairs cost a fraction of that. For Intel MacBook Airs, the calculus depends on the model year — we will always give you an honest recommendation rather than push you toward a repair that is not economically sensible.',
   },
   {
     question: 'Do you repair Apple Silicon MacBook Air logic boards (M1, M2, M3)?',
@@ -94,7 +94,7 @@ const faqs = [
   },
   {
     question: 'Is MacBook Air logic board repair cheaper than MacBook Pro?',
-    answer: 'Generally yes, slightly. MacBook Air boards are somewhat simpler in layout and lack the discrete GPU found in Intel MacBook Pro 15" and 16" models (which require GPU reballing). USB-C and power circuit repairs on MacBook Airs typically start from R 2,000 — slightly lower than the MacBook Pro equivalent. The free diagnostic is the same regardless of model.',
+    answer: 'Generally yes, slightly. MacBook Air boards are somewhat simpler in layout and lack the discrete GPU found in Intel MacBook Pro 15" and 16" models (which require GPU reballing). The free diagnostic is the same regardless of model.',
   },
 ];
 
@@ -102,7 +102,7 @@ const reviews = [
   { name: 'Sarah M.', location: 'Sandton', rating: 5, text: 'Best Apple repair experience I\'ve had in Johannesburg. The team clearly knows their stuff — they diagnosed a logic board issue other shops had missed.', service: 'Logic Board Repair' },
   { name: 'Priya S.', location: 'Morningside', rating: 5, text: 'My MacBook Air M2 was completely dead after a coffee spill. ZA Support diagnosed it the same day, gave me a clear quote, and had it running again within 3 days. Incredible service.', service: 'Liquid Damage Repair' },
   { name: 'James T.', location: 'Rosebank', rating: 5, text: 'No charging on either USB-C port. Dropped it off on Tuesday, collected on Thursday, works perfectly. They explained exactly what was wrong and why. Highly recommend.', service: 'USB-C Repair' },
-  { name: 'Kefilwe N.', location: 'Fourways', rating: 5, text: 'Was told by another shop my MacBook Air needed a new board for R 12,000. ZA Support repaired the actual fault for R 2,200. Two months later, still going strong.', service: 'Logic Board Repair' },
+  { name: 'Kefilwe N.', location: 'Fourways', rating: 5, text: 'Was told by another shop my MacBook Air needed a new board. ZA Support repaired the actual fault for a fraction of that price. Two months later, still going strong.', service: 'Logic Board Repair' },
 ];
 
 const serviceAreas = [
@@ -129,8 +129,6 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Logic Board Repair Johannesburg',
   description: 'Expert MacBook Air logic board repair and microsoldering in Johannesburg. All Intel and Apple Silicon models. Free diagnostic. No Fix No Fee. 12-month warranty.',
-  lowPrice: '2000',
-  highPrice: '7000',
 });
 const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Home', url: 'https://zasupport.com' },
@@ -159,12 +157,11 @@ export default function MacBookAirLogicBoardPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg — No Fix No Fee</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Component-level microsoldering for MacBook Air logic board faults. From R 2,000.
+              Component-level microsoldering for MacBook Air logic board faults.
               All Intel and Apple Silicon models. Free diagnostic with no obligation.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              We repair the board — we do not just replace it. That means a R 2,000–R 3,500 fix instead
-              of a R 20,000+ Apple Store replacement. Hyde Park, Johannesburg.
+              We repair the board — we do not just replace it. Component-level repair is a fraction of the cost of an Apple Store board replacement. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -243,7 +240,7 @@ export default function MacBookAirLogicBoardPage() {
             </p>
             <p>
               Apple does not perform component-level repair. They replace the entire logic board — which starts at
-              R 12,000 for older models and exceeds R 28,000 for recent Apple Silicon MacBook Airs. Component-level
+              a significant amount for older models, more for recent Apple Silicon MacBook Airs. Component-level
               repair is not available at Apple or most third-party shops in Johannesburg. It requires a microscope,
               specialist equipment, and the training to use it. We have all three.
             </p>
@@ -284,9 +281,7 @@ export default function MacBookAirLogicBoardPage() {
             Common MacBook Air Logic Board Faults
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
-            The most common MacBook Air logic board faults we repair, the underlying cause at component level,
-            whether repair is typically viable, and indicative pricing. Your specific quote is confirmed
-            after the free diagnostic.
+            The most common MacBook Air logic board faults we repair and the underlying cause at component level. Your specific quote is confirmed after the free diagnostic.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -294,8 +289,7 @@ export default function MacBookAirLogicBoardPage() {
                 <tr className="border-b border-[rgba(15,234,122,0.15)]">
                   <th className="text-left text-[#E8F4F1] font-bold pb-4 pr-6">Fault</th>
                   <th className="text-left text-[#E8F4F1] font-bold pb-4 pr-6">Cause</th>
-                  <th className="text-left text-[#E8F4F1] font-bold pb-4 pr-6">Fixable?</th>
-                  <th className="text-left text-[#E8F4F1] font-bold pb-4">Typical Cost</th>
+                  <th className="text-left text-[#E8F4F1] font-bold pb-4">Fixable?</th>
                 </tr>
               </thead>
               <tbody>
@@ -303,19 +297,18 @@ export default function MacBookAirLogicBoardPage() {
                   <tr key={row.fault} className={`${i < faultTable.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
                     <td className="py-4 pr-6 text-[#E8F4F1] font-semibold align-top">{row.fault}</td>
                     <td className="py-4 pr-6 text-[#7A9E98] align-top">{row.cause}</td>
-                    <td className="py-4 pr-6 align-top">
+                    <td className="py-4 align-top">
                       <span className={`inline-block px-2 py-0.5 rounded text-xs font-semibold ${row.fixable.startsWith('Yes') ? 'bg-[rgba(15,234,122,0.1)] text-[#0FEA7A]' : 'bg-[rgba(122,158,152,0.1)] text-[#7A9E98]'}`}>
                         {row.fixable}
                       </span>
                     </td>
-                    <td className="py-4 text-[#0FEA7A] font-bold align-top whitespace-nowrap">{row.cost}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Prices are starting points. Final pricing is confirmed in a written quote after the free diagnostic. No work begins without your approval.
+            Final pricing is confirmed in a written quote after the free diagnostic. No work begins without your approval.
           </p>
         </div>
       </section>
@@ -400,40 +393,35 @@ export default function MacBookAirLogicBoardPage() {
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Repair Services */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
-            MacBook Air Logic Board Repair Pricing
+            MacBook Air Logic Board Repair Services
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
-            Starting prices below. Your exact cost is confirmed in a written quote after the free diagnostic.
-            We do not charge for assessments that conclude the board is beyond repair.
+            Your exact cost is confirmed in a written quote after the free diagnostic. We do not charge for assessments that conclude the board is beyond repair.
           </p>
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
-              { item: 'Diagnostic Assessment', price: 'Free', note: 'Full board inspection under microscope. No charge, no obligation.' },
-              { item: 'USB-C / Charging Repair', price: 'From R 2,000', note: 'USB-C controller IC or charging path microsoldering' },
-              { item: 'Backlight / Display Circuit Repair', price: 'From R 2,000', note: 'Backlight fuse, driver IC, or display connector fault' },
-              { item: 'Power Circuit Repair', price: 'From R 2,000', note: 'No-power diagnosis, fuse, MOSFET, or charging IC' },
-              { item: 'Liquid Damage Repair', price: 'From R 2,500', note: 'Ultrasonic clean, trace repair, component replacement' },
-              { item: 'Microsoldering (Complex)', price: 'From R 2,500', note: 'Multi-component or trace repair under microscope' },
-              { item: 'Logic Board Replacement', price: 'From R 7,000', note: 'Only recommended when component repair is not viable' },
+              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. No charge, no obligation.' },
+              { item: 'USB-C / Charging Repair', note: 'USB-C controller IC or charging path microsoldering' },
+              { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or display connector fault' },
+              { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC' },
+              { item: 'Liquid Damage Repair', note: 'Ultrasonic clean, trace repair, component replacement' },
+              { item: 'Microsoldering (Complex)', note: 'Multi-component or trace repair under microscope' },
+              { item: 'Logic Board Replacement', note: 'Only recommended when component repair is not viable' },
             ].map((item, i, arr) => (
-              <div key={item.item} className={`flex items-start justify-between p-5 ${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
-                <div className="flex-1 pr-6">
-                  <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
-                  <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
-                </div>
-                <span className="text-[#0FEA7A] font-bold whitespace-nowrap">{item.price}</span>
+              <div key={item.item} className={`p-5 ${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}>
+                <p className="text-[#E8F4F1] font-semibold">{item.item}</p>
+                <p className="text-[#7A9E98] text-xs mt-0.5">{item.note}</p>
               </div>
             ))}
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
               <p className="text-[#E8F4F1] font-bold mb-2">Our repair vs Apple Store</p>
-              <p className="text-[#7A9E98] text-sm">Apple charges R 12,000–R 28,000 to replace a MacBook Air logic board. Our component-level repair
-                typically costs R 2,000–R 3,500. Same outcome — your machine works again — at a fraction of the price.</p>
+              <p className="text-[#7A9E98] text-sm">Apple replaces the entire logic board. Our component-level repair targets the specific failed part — same outcome, at a fraction of the cost.</p>
             </div>
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
               <p className="text-[#E8F4F1] font-bold mb-2">No Fix No Fee — guaranteed</p>
@@ -443,7 +431,7 @@ export default function MacBookAirLogicBoardPage() {
           </div>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Price comparison:</strong> Some Johannesburg repair shops charge R 4,999 or more for MacBook Air logic board repair. ZA Support starts from <strong className="text-[#0FEA7A]">R 2,000</strong> — with a 12-month warranty and No Fix No Fee guarantee included.
+              💡 <strong className="text-[#E8F4F1]">Free diagnostic — always.</strong> We assess your MacBook Air at no charge with no obligation. Written quote before any work begins.
             </p>
           </div>
         </div>
@@ -497,7 +485,7 @@ export default function MacBookAirLogicBoardPage() {
             </h3>
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               The majority of repair shops in Johannesburg offer one option for a logic board fault: replace the entire
-              board. This is expensive (R 7,000+) and almost always unnecessary. ZA Support performs component-level
+              board. This is expensive and almost always unnecessary. ZA Support performs component-level
               microsoldering — we identify the specific failed chip, fuse, or trace, and replace only that. Your data
               stays on the device throughout. Your Touch ID pairing is preserved. And the repair costs 60–80% less than
               a full board swap. This is the repair approach that requires a microscope, proper training, and
@@ -571,14 +559,14 @@ export default function MacBookAirLogicBoardPage() {
           <h2 className="text-lg font-bold text-[#E8F4F1] mb-5" style={{ fontFamily: 'Syne, sans-serif' }}>Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', price: 'From R 1,800' },
-              { title: 'Logic Board Repair Hub', href: '/logic-board-repair', price: 'All Devices' },
-              { title: 'Liquid Damage Repair', href: '/liquid-damage/macbook-air', price: 'From R 2,500' },
+              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Free diagnostic' },
+              { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
+              { title: 'Liquid Damage Repair', href: '/liquid-damage/macbook-air', label: 'Free diagnostic' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.title}</p>
-                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.price}</p>
+                  <p className="text-[#0FEA7A] text-xs mt-0.5">{item.label}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
               </Link>
