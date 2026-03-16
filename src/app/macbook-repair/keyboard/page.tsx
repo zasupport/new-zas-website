@@ -294,7 +294,7 @@ export default function MacBookKeyboardPage() {
 
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
+              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -659,7 +659,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg. WhatsApp for fastest response.
+              Assessment: R899 ex VAT. Hyde Park, Johannesburg. WhatsApp for fastest response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

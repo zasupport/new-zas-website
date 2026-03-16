@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
   description:
-    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Hyde Park. Call 064 529 5863.',
+    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment: R899 ex VAT, 3-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },
 };
 
@@ -164,10 +164,10 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'Mac mini logic board repair. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'Mac mini logic board repair. Assessment: R899 ex VAT. 3-month warranty.',
   offers: {
     '@type': 'Offer',
-    description: 'Mac mini logic board repair. Assessment: R899 ex VAT. Assessment: R899 ex VAT.',
+    description: 'Mac mini logic board repair. Assessment: R899 ex VAT.',
   },
 };
 
@@ -186,14 +186,14 @@ export default function MacMiniLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'Mac mini' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: R899 ex VAT · 3-Month 3-Month Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: R899 ex VAT · 3-Month Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               Mac mini Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Mac mini logic board repair. M1, M2, M2 Pro, M4, and Intel models.
-              We replace the failed component. Apple replaces the board. Assessment: R899 ex VAT, Assessment: R899 ex VAT.
+              We replace the failed component. Apple replaces the board. Assessment: R899 ex VAT.
             </p>
 
             {/* Stats bar */}
@@ -511,7 +511,7 @@ export default function MacMiniLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Mac mini Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">A second opinion costs you nothing, bring it in before committing to a board replacement.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

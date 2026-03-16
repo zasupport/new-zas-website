@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Liquid Damage Repair Johannesburg | ZA Support',
   description:
-    'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Assessment: R899 ex VAT, Assessment: R899 ex VAT. Call 064 529 5863.',
+    'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/iphone' },
 };
 
@@ -73,7 +73,7 @@ export default function iPhoneLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iPhone liquid damage repair. All models iPhone 8 through iPhone 16 Pro Max.
-              Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT, 3-month warranty. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -141,7 +141,7 @@ export default function iPhoneLiquidDamagePage() {
               </div>
               <div className="flex items-center gap-3 mt-4 p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
                 <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. Assessment: R899 ex VAT. warranty on all repairs.</p>
+                <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. warranty on all repairs.</p>
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function iPhoneLiquidDamagePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>iPhone Got Wet? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

@@ -12,7 +12,7 @@ import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Repair Johannesburg, Logic Board Specialists',
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. 3-month 3-month warranty. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board microsoldering, iPhone & iPad repair. 4.9★ 120+ reviews. Hyde Park. 3-month warranty. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com' },
 };
 
@@ -421,7 +421,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
               Bring your device in. We&apos;ll assess it (R899 ex VAT), give you a clear quote,
-              and fix it fast, backed by a 3-month 3-month warranty. Extended warranty available on request.
+              and fix it fast, backed by a 3-month warranty. Extended warranty available on request.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

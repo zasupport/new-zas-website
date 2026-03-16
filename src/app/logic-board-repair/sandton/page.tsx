@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Sandton',
-  description: 'Expert MacBook logic board repair and microsoldering for Sandton clients. Collection from Sandton, repair at Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT.',
+  description: 'Expert MacBook logic board repair and microsoldering for Sandton clients. Collection from Sandton, repair at Hyde Park workshop. Assessment: R899 ex VAT.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -104,7 +104,7 @@ export default function LogicBoardRepairSandtonPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park microsoldering workshop, just 8 minutes away. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
+              Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park microsoldering workshop, just 8 minutes away. Assessment: R899 ex VAT.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

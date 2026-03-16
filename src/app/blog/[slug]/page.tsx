@@ -498,7 +498,7 @@ If you have worked through all seven fixes and your MacBook is still performing 
 
 Our [Health Check service](/apple-repair) covers all of these: we run a full 28-phase diagnostic covering hardware, storage health, memory pressure, security, and software — and give you a plain-English report with exactly what we found and what we recommend.
 
-**Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.**
+**Assessment: R899 ex VAT. Hyde Park, Johannesburg.**
 
 WhatsApp us on [064 529 5863](https://wa.me/27645295863) to book a same-day assessment.
     `.trim(),
@@ -1850,7 +1850,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does MacBook surge damage repair cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage at component level — significantly less than a full board replacement through authorised service. Assessment: R899 ex VAT, Assessment: R899 ex VAT.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support repairs MacBook surge damage at component level — significantly less than a full board replacement through authorised service. Assessment: R899 ex VAT.' },
         },
       ],
     },

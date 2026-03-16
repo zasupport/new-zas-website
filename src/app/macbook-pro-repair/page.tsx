@@ -235,7 +235,7 @@ export default function MacBookProRepairPage() {
               Specialists in MacBook Pro faults, Flexgate backlight failure, Staingate screen delamination, butterfly keyboard, thermal throttling, and logic board microsoldering. All models from M4 Pro/Max back to 2011 Intel.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Hyde Park, Johannesburg. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
+              Hyde Park, Johannesburg. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

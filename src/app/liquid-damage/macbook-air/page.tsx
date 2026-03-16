@@ -721,7 +721,7 @@ export default function MacBookAirLiquidDamagePage() {
               MacBook Air Water Damage? Act Now.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              Every hour of delay increases corrosion and repair cost. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
+              Every hour of delay increases corrosion and repair cost. Assessment: R899 ex VAT.
               Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -162,7 +162,7 @@ export default function AirPodsRepairPage() {
               One AirPod dead, case not charging, or sound muffled by earwax? Battery service, charging case replacement, and deep cleaning, assessment fee (R899 ex VAT) before any work.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -412,7 +412,7 @@ export default function AirPodsRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Battery service &nbsp;|&nbsp; Case replacement &nbsp;|&nbsp; Deep clean
             </p>
-            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

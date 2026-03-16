@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Midrand | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Midrand clients. Microsoldering specialists, collect from Midrand, repair at Hyde Park workshop. Assessment: R899 ex VAT, Assessment: R899 ex VAT. Call 064 529 5863.',
+    'MacBook logic board repair for Midrand clients. Microsoldering specialists, collect from Midrand, repair at Hyde Park workshop. Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/midrand' },
 };
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Midrand',
-  description: 'MacBook logic board repair and microsoldering for Midrand clients. Collection from Midrand, repair at Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT.',
+  description: 'MacBook logic board repair and microsoldering for Midrand clients. Collection from Midrand, repair at Hyde Park workshop. Assessment: R899 ex VAT.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },

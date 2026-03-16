@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Rosebank | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Rosebank clients. Microsoldering specialists 5 minutes from Rosebank. Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Rosebank clients. Microsoldering specialists 5 minutes from Rosebank. Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/rosebank' },
 };
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Rosebank',
-  description: 'MacBook logic board microsoldering for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'MacBook logic board microsoldering for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment: R899 ex VAT. 3-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },

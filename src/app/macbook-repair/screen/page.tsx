@@ -100,7 +100,7 @@ const reviews = [
     name: 'Liesl V.',
     suburb: 'Fourways',
     rating: 5,
-    text: 'MacBook Pro 16" backlight failed completely, screen was black even though the machine was on. ZA Support identified the fault, sourced the display assembly, and had it done in two days. Professional from start to finish.',
+    text: 'MacBook Pro 16" backlight failed completely, screen was black even though the machine was on. ZA Support identified the fault and had it done in two days. Professional from start to finish.',
     date: 'March 2026',
   },
 ];
@@ -182,14 +182,14 @@ export default function MacBookScreenPage() {
           <Breadcrumb items={[{ label: 'MacBook Repair', href: '/macbook-repair' }, { label: 'Screen Replacement' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Same-Day Available · 3-Month 3-Month Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Same-Day Available · 3-Month Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Screen Replacement<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
+              Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -597,7 +597,7 @@ export default function MacBookScreenPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               Cracked MacBook Screen in Johannesburg?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: R899 ex VAT. Assessment: R899 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · written warranty on all screen replacements</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

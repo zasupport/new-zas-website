@@ -419,7 +419,7 @@ export default function iPadChargingPage() {
             >
               iPad Not Charging?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

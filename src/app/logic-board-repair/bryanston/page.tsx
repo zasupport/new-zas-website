@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Bryanston | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Bryanston clients. Expert microsoldering, 10 minutes from Bryanston to Hyde Park. Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Bryanston clients. Expert microsoldering, 10 minutes from Bryanston to Hyde Park. Assessment: R899 ex VAT, 3-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/bryanston' },
 };
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Bryanston',
-  description: 'MacBook logic board microsoldering for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'MacBook logic board microsoldering for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Assessment: R899 ex VAT. 3-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },

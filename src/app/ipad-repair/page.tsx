@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
   description:
-    'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park.',
+    'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. Assessment: R899 ex VAT. Hyde Park.',
   keywords: [
     'ipad repair johannesburg',
     'ipad screen repair johannesburg',
@@ -406,7 +406,7 @@ export default function iPadRepairPage() {
               iPad Damaged? Let Us Fix It.
             </h2>
             <p className="text-[#7A9E98] mb-2">Screen repair &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Charging port repair</p>
-            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

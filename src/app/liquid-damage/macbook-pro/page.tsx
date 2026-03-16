@@ -703,7 +703,7 @@ export default function MacBookProLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              Assessment: R899 ex VAT. Assessment: R899 ex VAT. written 3-month warranty. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. written 3-month warranty. Hyde Park, Johannesburg.
             </p>
           </div>
         </div>

@@ -208,7 +208,7 @@ const reviews = [
     name: 'Jonathan K.',
     suburb: 'Rosebank',
     rating: 5,
-    text: 'The trackpad on my MacBook Air had been feeling strange for weeks. Turns out the battery had swollen. They treated it as urgent, sourced the part, and had it done within 3 hours. Very professional, clear pricing, no surprises.',
+    text: 'The trackpad on my MacBook Air had been feeling strange for weeks. Turns out the battery had swollen. They treated it as urgent and had it done within 3 hours. Very professional, clear pricing, no surprises.',
   },
   {
     name: 'Priya N.',

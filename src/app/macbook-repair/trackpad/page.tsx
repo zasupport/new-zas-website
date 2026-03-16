@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Trackpad Repair Johannesburg | ZA Support',
   description:
-    'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.',
+    'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Assessment: R899 ex VAT. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/trackpad' },
   keywords: [
     'MacBook trackpad repair Johannesburg',
@@ -211,14 +211,14 @@ export default function MacBookTrackpadPage() {
           />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Assessment: R899 ex VAT · 3-Month 3-Month Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Assessment: R899 ex VAT · 3-Month Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Trackpad Repair<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Trackpad not clicking, cursor jumping, raised trackpad from swollen battery, Force Touch not working. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
+              Trackpad not clicking, cursor jumping, raised trackpad from swollen battery, Force Touch not working. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: R899 ex VAT.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -489,7 +489,7 @@ export default function MacBookTrackpadPage() {
               MacBook Trackpad Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-8">
-              Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

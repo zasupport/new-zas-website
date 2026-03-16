@@ -286,7 +286,7 @@ export default function iPhoneCameraPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written 3-month warranty. Assessment: R899 ex VAT. Assessment: R899 ex VAT.
+            All repairs include written 3-month warranty. Assessment: R899 ex VAT.
             Face ID is never affected by front camera replacement.
           </p>
         </div>
@@ -447,7 +447,7 @@ export default function iPhoneCameraPage() {
             >
               iPhone Camera Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iMac Logic Board Repair Johannesburg | ZA Support',
   description:
-    'iMac logic board repair Johannesburg. 21.5", 24" and 27" models, M1, M3, M4, and Intel. We fix the chip, not the board. Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. Hyde Park. Call 064 529 5863.',
+    'iMac logic board repair Johannesburg. 21.5", 24" and 27" models, M1, M3, M4, and Intel. We fix the chip, not the board. Assessment: R899 ex VAT, 3-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/imac' },
 };
 
@@ -163,10 +163,10 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'iMac logic board repair. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'iMac logic board repair. Assessment: R899 ex VAT. 3-month warranty.',
   offers: {
     '@type': 'Offer',
-    description: 'iMac logic board repair. Assessment: R899 ex VAT. Assessment: R899 ex VAT.',
+    description: 'iMac logic board repair. Assessment: R899 ex VAT.',
   },
 };
 
@@ -185,14 +185,14 @@ export default function iMacLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'iMac' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: R899 ex VAT · 3-Month 3-Month Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: R899 ex VAT · 3-Month Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4" style={{ fontFamily: 'Syne, sans-serif' }}>
               iMac Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iMac logic board repair. 21.5&quot;, 24&quot; and 27&quot; models, M1, M3, M4, and Intel.
-              We repair the chip. Authorised service replaces the board. Assessment: R899 ex VAT, Assessment: R899 ex VAT.
+              We repair the chip. Authorised service replaces the board. Assessment: R899 ex VAT.
             </p>
 
             {/* Stats bar */}
@@ -510,7 +510,7 @@ export default function iMacLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               iMac Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Get a second opinion before committing to a board replacement, it costs you nothing.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

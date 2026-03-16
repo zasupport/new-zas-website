@@ -418,7 +418,7 @@ export default function AppleWatchRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Screen replacement &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Crown repair
             </p>
-            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}

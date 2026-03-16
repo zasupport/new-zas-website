@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Not Charging, Repair Johannesburg | ZA Support',
   description:
-    'MacBook not charging in Johannesburg? We diagnose and repair all charging faults, dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park.',
+    'MacBook not charging in Johannesburg? We diagnose and repair all charging faults, dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Assessment: R899 ex VAT. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/charging-port' },
   keywords: [
     'MacBook charging port repair Johannesburg',
@@ -221,7 +221,7 @@ const aggregateRatingSchema = {
 const serviceSchemaData = buildServiceSchema({
   name: 'MacBook Charging Port Repair Johannesburg',
   description:
-    'MacBook charging port repair in Johannesburg. Diagnose and repair all MacBook not charging faults, USB-C, MagSafe, I/O board, charge IC. Assessment: R899 ex VAT. Assessment: R899 ex VAT.',
+    'MacBook charging port repair in Johannesburg. Diagnose and repair all MacBook not charging faults, USB-C, MagSafe, I/O board, charge IC. Assessment: R899 ex VAT.',
 });
 
 const faqSchema = buildFaqSchema(faqs);
@@ -257,7 +257,7 @@ export default function MacBookChargingPortPage() {
               <span className="text-[#0FEA7A]">Johannesburg Repair</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              We find the exact cause, dirty port, faulty cable, dead I/O board, or logic board charge IC, and repair only what is needed. Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
+              We find the exact cause, dirty port, faulty cable, dead I/O board, or logic board charge IC, and repair only what is needed. Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -585,7 +585,7 @@ export default function MacBookChargingPortPage() {
               MacBook Not Charging?
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.
+              Assessment: R899 ex VAT. 3-month warranty.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg, or we collect from you.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

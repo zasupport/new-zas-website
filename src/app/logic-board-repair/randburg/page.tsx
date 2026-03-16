@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Randburg | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Randburg clients. Expert microsoldering, collect from Randburg, repair at Hyde Park workshop. Assessment: R899 ex VAT, Assessment: R899 ex VAT. Call 064 529 5863.',
+    'MacBook logic board repair for Randburg clients. Expert microsoldering, collect from Randburg, repair at Hyde Park workshop. Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/randburg' },
 };
 
@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Randburg',
-  description: 'MacBook logic board microsoldering for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'MacBook logic board microsoldering for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Assessment: R899 ex VAT. 3-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },

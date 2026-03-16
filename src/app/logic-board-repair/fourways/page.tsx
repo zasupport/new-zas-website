@@ -65,7 +65,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Fourways',
-  description: 'MacBook logic board microsoldering for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'MacBook logic board microsoldering for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Assessment: R899 ex VAT. 3-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },

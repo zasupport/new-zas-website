@@ -10,7 +10,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro Logic Board Repair | ZA Support',
   description:
-    'MacBook Pro logic board repair in Johannesburg. Assessment: R899 ex VAT, Assessment: R899 ex VAT, 3-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro logic board repair in Johannesburg. Assessment: R899 ex VAT, 3-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro' },
   keywords: [
     'MacBook Pro logic board repair Johannesburg',
@@ -130,7 +130,7 @@ const aggregateRatingSchema = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Logic Board Repair Johannesburg',
-  description: 'Expert MacBook Pro logic board repair and microsoldering in Johannesburg. All Intel and Apple Silicon models. Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty.',
+  description: 'Expert MacBook Pro logic board repair and microsoldering in Johannesburg. All Intel and Apple Silicon models. Assessment: R899 ex VAT. 3-month warranty.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Home', url: 'https://zasupport.com' },
@@ -580,7 +580,7 @@ export default function MacBookProLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
               MacBook Pro Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment: R899 ex VAT. 3-month warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Saturday 09:00–13:00</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

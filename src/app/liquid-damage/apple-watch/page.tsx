@@ -10,7 +10,7 @@ import { CONTACT } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Apple Watch Water Damage Repair Johannesburg | ZA Support',
   description:
-    'Apple Watch water damage repair in Johannesburg. Series 3 through Ultra 2. Assessment: R899 ex VAT, Assessment: R899 ex VAT. Call 064 529 5863.',
+    'Apple Watch water damage repair in Johannesburg. Series 3 through Ultra 2. Assessment: R899 ex VAT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/apple-watch' },
 };
 
@@ -64,7 +64,7 @@ export default function AppleWatchWaterDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Apple Watch water damage repair. Series 3 through Ultra 2.
-              Assessment: R899 ex VAT, Assessment: R899 ex VAT. Hyde Park, Johannesburg.
+              Assessment: R899 ex VAT. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -112,7 +112,7 @@ export default function AppleWatchWaterDamagePage() {
             <div>
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6" style={{ fontFamily: 'Syne, sans-serif' }}>Assessment &amp; Warranty</h2>
               <div className="p-4 bg-[rgba(15,234,122,0.05)] rounded-xl border border-[rgba(15,234,122,0.1)]">
-                <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. Assessment: R899 ex VAT. warranty on all repairs completed. Apple Watch resealing service also available.</p>
+                <p className="text-[#7A9E98] text-sm">Assessment: R899 ex VAT. warranty on all repairs completed. Apple Watch resealing service also available.</p>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function AppleWatchWaterDamagePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>Apple Watch Water Damage Repair</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment: R899 ex VAT. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

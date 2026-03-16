@@ -91,7 +91,7 @@ export const REVIEWS = [
   {
     name: 'Sarah M.',
     rating: 5,
-    text: 'Best Apple repair experience I\'ve had in Johannesburg. The team clearly knows their stuff — they diagnosed a logic board issue other shops had missed.',
+    text: 'Best Apple repair experience I\'ve had in Johannesburg. The team clearly knows their stuff. They diagnosed a logic board issue other shops had missed.',
     service: 'Logic Board Repair',
   },
 ] as const;
