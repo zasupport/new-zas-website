@@ -268,7 +268,7 @@ export default function AssessmentProcessPage() {
               <h2 className="text-xl font-bold mb-6 text-center" style={{ color: '#E8F4F1' }}>
                 How Our Assessment Fee Works
               </h2>
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {/* Proceed with repair */}
                 <div
                   className="rounded-xl p-6"
@@ -325,7 +325,7 @@ export default function AssessmentProcessPage() {
         </section>
 
         {/* How It Works */}
-        <section className="py-16 px-4">
+        <section className="py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#E8F4F1' }}>
@@ -336,7 +336,7 @@ export default function AssessmentProcessPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {steps.map(({ step, icon: Icon, title, detail }) => (
                 <div
                   key={step}
@@ -370,7 +370,7 @@ export default function AssessmentProcessPage() {
         </section>
 
         {/* Policy Detail */}
-        <section className="py-16 px-4" style={{ background: 'rgba(255,255,255,0.015)' }}>
+        <section className="py-12 sm:py-16 px-4" style={{ background: 'rgba(255,255,255,0.015)' }}>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#E8F4F1' }}>
               Our Assessment Policy &mdash; In Full
@@ -420,14 +420,14 @@ export default function AssessmentProcessPage() {
               </div>
 
               <p>
-                We are transparent about this because we believe you deserve to know the full cost before booking. After 16 years of Mac repair at component level, we provide thorough, accurate diagnostics. We charge fairly for that expertise.
+                Thorough, accurate diagnostics require time and specialist equipment. We charge fairly for that expertise.
               </p>
             </div>
           </div>
         </section>
 
         {/* Services Covered */}
-        <section className="py-16 px-4">
+        <section className="py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#E8F4F1' }}>
@@ -438,7 +438,7 @@ export default function AssessmentProcessPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {services.map(({ name, description, href }) => (
                 <Link
                   key={name}
@@ -464,7 +464,7 @@ export default function AssessmentProcessPage() {
         </section>
 
         {/* Testimonials */}
-        <section className="py-16 px-4" style={{ background: 'rgba(255,255,255,0.015)' }}>
+        <section className="py-12 sm:py-16 px-4" style={{ background: 'rgba(255,255,255,0.015)' }}>
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#E8F4F1' }}>
@@ -479,7 +479,7 @@ export default function AssessmentProcessPage() {
               <p className="text-sm" style={{ color: '#7A9E98' }}>Based on 120 verified reviews</p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {testimonials.map(({ suburb, name, text, stars }) => (
                 <div
                   key={name}
@@ -504,7 +504,7 @@ export default function AssessmentProcessPage() {
         </section>
 
         {/* FAQ */}
-        <section className="py-16 px-4">
+        <section className="py-12 sm:py-16 px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#E8F4F1' }}>
@@ -519,9 +519,9 @@ export default function AssessmentProcessPage() {
         </section>
 
         {/* Location + Workshop */}
-        <section className="py-16 px-4" style={{ background: 'rgba(255,255,255,0.015)' }}>
+        <section className="py-12 sm:py-16 px-4" style={{ background: 'rgba(255,255,255,0.015)' }}>
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center">
               <div>
                 <h2 className="text-3xl font-bold mb-6" style={{ color: '#E8F4F1' }}>
                   Our Workshop &mdash; Hyde Park, Johannesburg
@@ -597,7 +597,7 @@ export default function AssessmentProcessPage() {
         </section>
 
         {/* Why ZA Support */}
-        <section className="py-16 px-4">
+        <section className="py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#E8F4F1' }}>
@@ -608,7 +608,7 @@ export default function AssessmentProcessPage() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
                 { icon: Shield, title: '16 Years', sub: 'Mac repair expertise in Johannesburg' },
                 { icon: CheckCircle, title: 'Component-Level', sub: 'Microsoldering, not board swaps' },
@@ -657,7 +657,7 @@ export default function AssessmentProcessPage() {
         </section>
 
         {/* Final CTA */}
-        <section className="py-20 px-4 text-center">
+        <section className="py-16 sm:py-20 px-4 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: '#E8F4F1' }}>
               Book your Mac assessment.{' '}

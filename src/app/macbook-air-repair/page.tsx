@@ -273,7 +273,7 @@ export default function MacBookAirRepairPage() {
       </section>
 
       {/* Battery lifespan guide */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             MacBook Air Battery <span className="text-[#0FEA7A]">Lifespan Guide</span>
@@ -281,7 +281,7 @@ export default function MacBookAirRepairPage() {
           <p className="text-[#7A9E98] text-center mb-10 text-sm max-w-2xl mx-auto">
             MacBook Air battery health directly affects performance. macOS throttles the processor when battery health falls below 80% to protect the battery. Replacing the battery restores full speed.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {batteryGuide.map((b) => (
               <div key={b.model} className="glass-card p-6 rounded-2xl">
                 <h3 className="text-[#E8F4F1] font-bold text-sm mb-3">{b.model}</h3>
@@ -307,7 +307,7 @@ export default function MacBookAirRepairPage() {
       </section>
 
       {/* Known issues */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             Known MacBook Air <span className="text-[#0FEA7A]">Issues</span>
@@ -315,7 +315,7 @@ export default function MacBookAirRepairPage() {
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
             Some MacBook Air models have documented design faults. If your machine is showing these symptoms, the repair is typically straightforward.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {knownIssues.map((issue) => {
               const Icon = issue.icon;
               return (
@@ -336,7 +336,7 @@ export default function MacBookAirRepairPage() {
       </section>
 
       {/* Services grid */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air Repairs We Do</h2>
           <p className="text-[#7A9E98] text-center mb-12 text-sm">All common MacBook Air faults, same-day diagnosis, fixed pricing, 3-month warranty.</p>
@@ -364,7 +364,7 @@ export default function MacBookAirRepairPage() {
       </section>
 
       {/* Models supported */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>All MacBook Air Models Supported</h2>
           <div className="glass-card p-6">
@@ -379,9 +379,9 @@ export default function MacBookAirRepairPage() {
       </section>
 
       {/* Trust signals */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-12 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
             {[
               { icon: BadgeCheck, title: SITE.repairsCount, sub: 'MacBook, iPhone and iPad repairs completed' },
               { icon: Star, title: SITE.rating + ' Stars', sub: SITE.reviewCount + ' verified Google reviews' },
@@ -398,20 +398,19 @@ export default function MacBookAirRepairPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="MacBook Air Repair, FAQs" />
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-[#0A1A18]">
+      <section className="py-12 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>MacBook Air Needs a Repair?</h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment: R899 ex VAT. Fixed pricing. Assessment: R899 ex VAT. Hyde Park, Johannesburg.<br />
-              WhatsApp for the fastest response, typically within 30 minutes during business hours.
+              Assessment: R899 ex VAT. Hyde Park, Johannesburg. WhatsApp for the fastest response, typically within 30 minutes during business hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

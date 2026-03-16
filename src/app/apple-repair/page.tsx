@@ -315,9 +315,7 @@ export default function AppleRepairPage() {
               <br /><span className="text-[#0FEA7A]">Every Device. Every Problem.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              ZA Support is Johannesburg&apos;s specialist Apple repair service. Logic board microsoldering,
-              battery, screen, keyboard, liquid damage, trackpad, charging port, all Mac and iOS devices.
-              Assessment: R899 ex VAT. 3-month warranty. Hyde Park.
+              Logic board microsoldering, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: R899 ex VAT, absorbed into repair cost if you proceed.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -410,7 +408,7 @@ export default function AppleRepairPage() {
       </section>
 
       {/* ── SERVICE CARDS ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             Apple Mac Repair Services, Johannesburg
@@ -475,7 +473,7 @@ export default function AppleRepairPage() {
       </section>
 
       {/* ── ALL SERVICES GRID ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             All Repair &amp; Support Services
@@ -497,16 +495,15 @@ export default function AppleRepairPage() {
       </section>
 
       {/* ── WHY ZA SUPPORT ── */}
-      <section className="py-20 bg-[#111C1A]">
+      <section className="py-16 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             Why Choose ZA Support?
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10 max-w-2xl mx-auto">
-            We are not a franchise or a walk-in counter. We are specialist Apple technicians who work at component level,
-            give you honest advice, and back every repair with a 3-month warranty.
+            Specialist Apple technicians working at component level. Honest advice, written quotes, and a 3-month warranty on every repair.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 icon: Cpu,
@@ -550,7 +547,7 @@ export default function AppleRepairPage() {
       </section>
 
       {/* ── PROCESS ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center" style={{ fontFamily: 'Syne, sans-serif' }}>
             How It Works
@@ -591,7 +588,7 @@ export default function AppleRepairPage() {
       </section>
 
       {/* ── REVIEWS ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center gap-1 mb-4">
             {[1, 2, 3, 4, 5].map((i) => (
@@ -602,7 +599,7 @@ export default function AppleRepairPage() {
             {SITE.rating} on Google, {SITE.reviewCount} Reviews
           </h2>
           <p className="text-[#7A9E98] text-center text-sm mb-10">Real clients. Real repairs. Verified on Google.</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {customerReviews.map((review) => (
               <div key={review.name} className="glass-card p-6">
                 <div className="flex items-center gap-1 mb-3">
@@ -630,14 +627,14 @@ export default function AppleRepairPage() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="py-20 bg-[#0A1A18]">
+      <section className="py-16 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion items={faqs} title="Apple Mac Repair, Common Questions" />
         </div>
       </section>
 
       {/* ── BOTTOM CTA ── */}
-      <section className="py-16 bg-[#111C1A]">
+      <section className="py-12 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3" style={{ fontFamily: 'Syne, sans-serif' }}>
