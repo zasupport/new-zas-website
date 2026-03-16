@@ -1,0 +1,16 @@
+# Target modern browsers only — removes Next.js polyfill-nomodule.js (~40KB gzipped)
+# Audience: South African Mac/iPhone users on Chrome, Safari, Edge 2022+
+# IE and legacy browser share < 0.1% for this demographic
+[production]
+Chrome >= 91
+Firefox >= 90
+Safari >= 14
+Edge >= 91
+Samsung >= 15
+not dead
+not ie 11
+
+[development]
+last 1 chrome version
+last 1 firefox version
+last 1 safari version

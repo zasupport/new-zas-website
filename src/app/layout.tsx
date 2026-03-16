@@ -74,8 +74,6 @@ export default function RootLayout({
   return (
     <html lang="en-ZA" className={`${inter.variable} ${dmMono.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <SchemaOrg schema={LOCAL_BUSINESS_SCHEMA} />
       </head>
       <body className="font-sans antialiased bg-[#0A1A18] text-[#E8F4F1]" style={{ fontFamily: 'Inter, sans-serif' }}>
@@ -83,8 +81,9 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <Analytics />
-        {process.env.NEXT_PUBLIC_GA4_ID && (
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA4_ID} />
+        {/^G-[A-Z0-9]{7,10}$/.test(process.env.NEXT_PUBLIC_GA4_ID ?? '') &&
+          process.env.NEXT_PUBLIC_GA4_ID !== 'G-XXXXXXXXXX' && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA4_ID!} />
         )}
       </body>
     </html>
