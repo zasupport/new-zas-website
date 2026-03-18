@@ -5,8 +5,6 @@
  */
 
 import { readFileSync, writeFileSync } from 'fs';
-import { globSync } from 'fs';
-import path from 'path';
 
 // All pages with FAQAccordion (confirmed by grep)
 const FAQ_PAGES = [

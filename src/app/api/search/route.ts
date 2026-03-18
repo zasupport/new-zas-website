@@ -65,7 +65,7 @@ export async function GET(req: NextRequest) {
         thumbnail: item.pagemap?.cse_thumbnail?.[0]?.src,
       })),
     });
-  } catch (err) {
+  } catch {
     return NextResponse.json({ error: 'Search failed' }, { status: 500 });
   }
 }

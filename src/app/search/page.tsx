@@ -50,7 +50,7 @@ export default async function SearchPage({ searchParams }: Props) {
 
         {/* Results */}
         {query ? (
-          <SearchResults query={query} start={start} />
+          <SearchResults key={`${query}-${start}`} query={query} start={start} />
         ) : (
           <div className="space-y-4 text-sm text-white/50">
             <p>Try searching for:</p>
