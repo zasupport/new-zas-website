@@ -2,7 +2,42 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { ExternalLink, AlertCircle } from 'lucide-react';
+import { ExternalLink, AlertCircle, ArrowRight } from 'lucide-react';
+
+interface IntentCTA {
+  heading: string;
+  body: string;
+  primary: { label: string; href: string };
+  secondary?: { label: string; href: string };
+}
+
+function getIntentCTA(query: string): IntentCTA | null {
+  const q = query.toLowerCase();
+  const isRepair = /logic board|liquid|water damage|screen|display|battery|macbook repair|mac repair|not turning on|won.t start/.test(q);
+  const isManaged = /managed|sla|monthly|business it|it support|it services/.test(q);
+  const isHealthCheck = /health check|diagnostic|slow mac|performance|virus|malware|cybershield|security/.test(q);
+  const isPrice = /cost|price|how much|quote|R[0-9]|repair cost/.test(q);
+
+  if (isManaged) return {
+    heading: 'Managed IT for Businesses & Medical Practices',
+    body: 'Fixed monthly fee. No surprise invoices. Includes monitoring, support and Health Check.',
+    primary: { label: 'View Packages', href: '/managed-services' },
+    secondary: { label: '💬 WhatsApp for Quote', href: 'https://wa.me/27645295863?text=Hi%2C%20I%27d%20like%20a%20managed%20IT%20quote' },
+  };
+  if (isHealthCheck) return {
+    heading: 'Mac Health Check — Know Exactly What\'s Wrong',
+    body: 'Our diagnostic tool checks 120+ data points: battery health, security risks, software conflicts and more.',
+    primary: { label: 'Learn About Health Check', href: '/services' },
+    secondary: { label: '💬 Book a Diagnostic', href: 'https://wa.me/27645295863?text=Hi%2C%20I%27d%20like%20a%20Mac%20Health%20Check' },
+  };
+  if (isPrice || isRepair) return {
+    heading: 'Free Diagnostic — No Fix, No Fee',
+    body: 'We assess your Mac at no charge. No fix = no invoice. Logic board repairs from R2,499 with a 12-month warranty.',
+    primary: { label: '💬 Get a WhatsApp Quote', href: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20repair%20quote' },
+    secondary: { label: 'Book a Repair', href: '/book' },
+  };
+  return null;
+}
 
 interface SearchResult {
   title: string;
@@ -22,11 +57,62 @@ interface Props {
   start: number;
 }
 
+function CTACard({ cta }: { cta: IntentCTA }) {
+  const isExternal = (href: string) => href.startsWith('http');
+  return (
+    <div className="bg-[rgba(15,234,122,0.06)] border border-[rgba(15,234,122,0.2)] rounded-xl p-5">
+      <p className="text-[10px] font-semibold uppercase tracking-wider text-[#0FEA7A]/60 mb-2">Recommended for you</p>
+      <h3 className="text-white font-semibold text-base mb-1">{cta.heading}</h3>
+      <p className="text-sm text-white/60 mb-4 leading-relaxed">{cta.body}</p>
+      <div className="flex flex-wrap gap-2">
+        {isExternal(cta.primary.href) ? (
+          <a
+            href={cta.primary.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 bg-[#0FEA7A] text-[#0A1A18] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-[#0FEA7A]/90 transition"
+          >
+            {cta.primary.label} <ArrowRight className="w-3.5 h-3.5" />
+          </a>
+        ) : (
+          <Link
+            href={cta.primary.href}
+            className="inline-flex items-center gap-1.5 bg-[#0FEA7A] text-[#0A1A18] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-[#0FEA7A]/90 transition"
+          >
+            {cta.primary.label} <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
+        )}
+        {cta.secondary && (
+          isExternal(cta.secondary.href) ? (
+            <a
+              href={cta.secondary.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-[rgba(15,234,122,0.08)] transition"
+            >
+              {cta.secondary.label}
+            </a>
+          ) : (
+            <Link
+              href={cta.secondary.href}
+              className="inline-flex items-center gap-1.5 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-[rgba(15,234,122,0.08)] transition"
+            >
+              {cta.secondary.label}
+            </Link>
+          )
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default function SearchResults({ query, start }: Props) {
   const [data, setData] = useState<SearchResponse | null>(null);
   const [loading, setLoading] = useState(true);
+  const cta = getIntentCTA(query);
 
   useEffect(() => {
+    setLoading(true);
     fetch(`/api/search?q=${encodeURIComponent(query)}&start=${start}`)
       .then((r) => r.json())
       .then((d) => { setData(d); setLoading(false); })
@@ -59,9 +145,12 @@ export default function SearchResults({ query, start }: Props) {
 
   if (!data?.results?.length) {
     return (
-      <div className="text-sm text-white/50 space-y-4">
-        <p>No results found for <strong className="text-white">&ldquo;{query}&rdquo;</strong>.</p>
-        <p>Try different keywords, or <Link href="/contact" className="text-[#0FEA7A] hover:underline">contact us directly</Link>.</p>
+      <div className="space-y-6">
+        <div className="text-sm text-white/50 space-y-2">
+          <p>No results found for <strong className="text-white">&ldquo;{query}&rdquo;</strong>.</p>
+          <p>Try different keywords, or <Link href="/contact" className="text-[#0FEA7A] hover:underline">contact us directly</Link>.</p>
+        </div>
+        {cta && <CTACard cta={cta} />}
       </div>
     );
   }
@@ -76,6 +165,8 @@ export default function SearchResults({ query, start }: Props) {
       <p className="text-xs text-white/40 mb-6">
         About {data.total.toLocaleString()} results
       </p>
+
+      {cta && start === 1 && <div className="mb-8"><CTACard cta={cta} /></div>}
 
       <div className="space-y-8">
         {data.results.map((r, i) => {

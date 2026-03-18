@@ -52,18 +52,46 @@ export default async function SearchPage({ searchParams }: Props) {
         {query ? (
           <SearchResults key={`${query}-${start}`} query={query} start={start} />
         ) : (
-          <div className="space-y-4 text-sm text-white/50">
-            <p>Try searching for:</p>
-            <div className="flex flex-wrap gap-2">
-              {['logic board repair', 'liquid damage', 'MacBook battery', 'iPhone screen', 'Mac Health Check', 'managed services'].map((s) => (
-                <Link
-                  key={s}
-                  href={`/search?q=${encodeURIComponent(s)}`}
-                  className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-white/70 hover:border-[#0FEA7A]/50 hover:text-white transition text-xs"
-                >
-                  {s}
-                </Link>
-              ))}
+          <div className="space-y-6 text-sm text-white/50">
+            <div>
+              <p className="mb-3 text-[11px] font-semibold uppercase tracking-wider text-[#7A9E98]">Top repairs</p>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  'logic board repair Johannesburg',
+                  'liquid damage MacBook',
+                  'MacBook battery replacement',
+                  'MacBook not turning on',
+                  'screen repair',
+                ].map((s) => (
+                  <Link
+                    key={s}
+                    href={`/search?q=${encodeURIComponent(s)}`}
+                    className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-white/70 hover:border-[#0FEA7A]/50 hover:text-[#0FEA7A] transition text-xs"
+                  >
+                    {s}
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div>
+              <p className="mb-3 text-[11px] font-semibold uppercase tracking-wider text-[#7A9E98]">Services</p>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  'managed IT services',
+                  'Mac Health Check',
+                  'CyberShield security',
+                  'no fix no fee',
+                  'Apple certified repair',
+                ].map((s) => (
+                  <Link
+                    key={s}
+                    href={`/search?q=${encodeURIComponent(s)}`}
+                    className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-white/70 hover:border-[#0FEA7A]/50 hover:text-[#0FEA7A] transition text-xs"
+                  >
+                    {s}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         )}

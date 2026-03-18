@@ -1,15 +1,19 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Phone, Menu, X, Calendar, Search } from 'lucide-react';
 import { NAV_LINKS } from '@/lib/constants';
 import Logo, { useLogoVariant } from './Logo';
+import NavSearch from './NavSearch';
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [mobileSearch, setMobileSearch] = useState('');
   const logoVariant = useLogoVariant();
+  const router = useRouter();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -54,13 +58,7 @@ export default function Navbar() {
 
           {/* Desktop Phone CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <Link
-              href="/search"
-              className="p-2 text-[#7A9E98] hover:text-[#0FEA7A] hover:bg-[rgba(15,234,122,0.06)] rounded-lg transition-all"
-              aria-label="Search"
-            >
-              <Search className="w-4 h-4" />
-            </Link>
+            <NavSearch />
             <a
               href={`tel:${logoVariant.tel}`}
               className="flex items-center gap-2 text-[#E8F4F1] hover:text-[#0FEA7A] transition-colors text-sm font-medium"
@@ -98,8 +96,37 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="lg:hidden fixed inset-0 top-16 bg-[rgba(10,26,24,0.98)] backdrop-blur-xl z-40">
+        <div className="lg:hidden fixed inset-0 top-16 bg-[rgba(10,26,24,0.98)] backdrop-blur-xl z-40 overflow-y-auto">
           <div className="flex flex-col p-6 gap-2">
+            {/* Mobile Search */}
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                const q = mobileSearch.trim();
+                if (!q) return;
+                setMobileOpen(false);
+                setMobileSearch('');
+                router.push(`/search?q=${encodeURIComponent(q)}`);
+              }}
+              className="flex gap-2 mb-2"
+            >
+              <div className="flex-1 relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[#7A9E98]" />
+                <input
+                  type="search"
+                  value={mobileSearch}
+                  onChange={(e) => setMobileSearch(e.target.value)}
+                  placeholder="Search services…"
+                  className="w-full bg-[rgba(15,234,122,0.06)] border border-[rgba(15,234,122,0.2)] rounded-xl pl-10 pr-4 py-3 text-sm text-white placeholder-[#7A9E98] focus:outline-none focus:border-[#0FEA7A]/50"
+                />
+              </div>
+              <button
+                type="submit"
+                className="px-4 py-3 bg-[#0FEA7A] text-[#0A1A18] rounded-xl text-sm font-semibold"
+              >
+                Go
+              </button>
+            </form>
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
