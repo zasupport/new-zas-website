@@ -1397,6 +1397,136 @@ Most repairs completed within 1-3 business days. We will confirm the timeline at
 On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We will test with an external monitor during the assessment fee (from R599) to confirm.
     `.trim(),
   },
+  'apple-background-security-update-safari-mac-2026': {
+    slug: 'apple-background-security-update-safari-mac-2026',
+    title: 'Apple\'s New Background Security Updates: What Mac Users in South Africa Need to Know',
+    excerpt: 'Apple has introduced a new category of silent security patches that update Safari automatically without requiring a full macOS update. Here is what it means, why it matters, and how to confirm your Mac is protected.',
+    date: '18/03/2026',
+    category: 'Security',
+    readTime: '5 min read',
+    author: 'Mary',
+    content: `
+## Apple Has Changed How It Patches Security Vulnerabilities
+
+On 17 March 2026, Apple quietly rolled out something new: the first-ever "background security improvement." Unlike a standard macOS update that requires you to approve and install it, this patch applied itself silently in the background — no restart required, no notification, no action needed from you.
+
+The target was a vulnerability in Safari, Apple's built-in web browser, affecting iPhones, iPads, and Macs running current software versions.
+
+This matters because it represents a fundamental shift in how Apple responds to security threats. Rather than waiting for the next scheduled update cycle, Apple can now push targeted fixes directly to your browser — the application most exposed to the internet — without touching the rest of your operating system.
+
+## What Is a "Background Security Improvement"?
+
+Apple introduced this mechanism specifically for Safari and WebKit — the browser engine that powers Safari and all web content on iOS and macOS. Because WebKit handles everything you view in a browser, vulnerabilities in it are high-value targets for attackers.
+
+Previously, fixing a Safari bug required a full iOS or macOS software update. That process involves:
+- Apple publishing a security advisory
+- Users receiving an update notification
+- Users choosing when (or whether) to install it
+- A restart of the device
+
+With background security improvements, Apple bypasses that entire chain. The fix is delivered and applied automatically, in the background, with no user interaction.
+
+**For you as a Mac user in Johannesburg:** your Safari was patched on 17 March 2026 whether you noticed or not — provided you are running a current version of macOS.
+
+## Why This Safari Vulnerability Mattered
+
+Safari vulnerabilities are serious because your browser is the primary point of contact between your Mac and the internet. A flaw in how Safari processes web content — JavaScript, images, fonts, or video — can potentially allow a malicious website to execute code on your machine without your knowledge.
+
+Apple has not published full technical details of this specific vulnerability, which is standard practice until the patch has been widely distributed. What is clear is that the urgency was sufficient for Apple to deploy their new rapid-response mechanism for the first time.
+
+## How to Confirm Your Mac Received the Update
+
+To verify the background security improvement has been applied to your Mac:
+
+1. Open **Safari**
+2. Click **Safari** in the menu bar → **About Safari**
+3. Your Safari version should reflect the March 2026 update
+
+Alternatively, check your macOS software update history:
+1. Open **System Settings** (macOS Ventura and later)
+2. Click **General** → **Software Update**
+3. Click **Update History** — background security improvements appear here separately from full OS updates
+
+If your Mac is running macOS Monterey or earlier, background security improvements may not apply. This is one of several security reasons to upgrade to Ventura or Sonoma.
+
+## What This Means for Older Macs
+
+Background security improvements only apply to current macOS versions. If your Mac is running:
+
+- **macOS Ventura (13)** — supported
+- **macOS Sonoma (14)** — supported
+- **macOS Sequoia (15)** — supported
+- **macOS Monterey (12) or earlier** — not supported for background updates
+
+Intel Macs from 2015–2019 can run Ventura, which keeps you within Apple's supported security umbrella. If your Intel Mac is stuck on Catalina or Big Sur because of a compatibility issue, that is worth addressing — those machines are no longer receiving full security coverage.
+
+ZA Support can assess your Mac, confirm which macOS version it supports, and handle the upgrade. Intel Mac upgrades to Ventura start from R 1,999 at our Hyde Park workshop.
+
+## The Broader Picture: Mac Security in 2026
+
+This Safari patch is part of a larger pattern. Apple has significantly expanded its security response capabilities over the past two years:
+
+- **Rapid Security Responses (RSRs)** — introduced in 2023 for critical fixes
+- **Background security improvements** — the new mechanism, targeting Safari/WebKit specifically
+- **Lockdown Mode** — for users under active threat
+- **Advanced Data Protection** — end-to-end encryption for iCloud
+
+Taken together, Apple's security posture in 2026 is meaningfully stronger than it was in 2020. But these protections only work if your Mac is running a supported operating system and you have not disabled automatic updates.
+
+## How ZA Support's Health Check Monitors Your Mac's Security Status
+
+Our [Health Check diagnostic](/services) scans 32 categories of your Mac's configuration, including:
+
+- **Current macOS version** — identifies if you are on an unsupported OS
+- **Safari and WebKit version** — confirms security patches are applied
+- **Software Update settings** — flags if automatic updates are disabled
+- **System Integrity Protection (SIP)** — confirms core OS protection is active
+- **Firewall status** — identifies if network protection is enabled
+- **Gatekeeper** — confirms only signed software can run
+
+After the scan, you receive a written report with a risk rating and specific recommendations. If your Mac has received the March 2026 Safari patch, that will be confirmed. If it has not — because of an outdated OS or a configuration issue — we will identify why and resolve it.
+
+[Book a Health Check assessment](/book) — from R599 at our Hyde Park workshop.
+
+## Keeping Your Mac Protected: The Checklist
+
+While Apple's background updates handle Safari automatically, the rest of your Mac's security posture still requires attention:
+
+- ✓ **Keep macOS updated** — install updates within 7 days of release
+- ✓ **Enable automatic updates** — System Settings → General → Software Update → turn on all automatic options
+- ✓ **Do not disable SIP** — never follow instructions that require turning off System Integrity Protection
+- ✓ **Use a password manager** — Safari's built-in Passwords app works, or use 1Password
+- ✓ **Enable FileVault** — full-disk encryption protects your data if your Mac is lost or stolen
+- ✓ **Enable the firewall** — System Settings → Network → Firewall
+
+These six settings take under ten minutes to configure and collectively close the most common attack vectors on a Mac.
+
+---
+
+## Frequently Asked Questions
+
+**Do I need to do anything to get Apple's background security update?**
+
+No. If you are running a current version of macOS, the update applied automatically in the background. Check Safari → About Safari to confirm your version is current.
+
+**What if my Mac is too old to run the latest macOS?**
+
+You will not receive background security improvements. Intel Macs from 2015 onwards can typically run macOS Ventura. ZA Support can assess your specific Mac and handle the upgrade. Contact us on WhatsApp: 064 529 5863.
+
+**Can I turn off background security updates?**
+
+You can, but it is strongly advised against. These updates fix active vulnerabilities in Safari — the browser you use every day. Disabling them leaves a known security gap open until the next full OS update.
+
+**How is this different from a normal macOS update?**
+
+A normal macOS update covers the entire operating system and requires approval and usually a restart. Background security improvements target only Safari and WebKit, apply silently, and require no restart. They can be deployed by Apple within hours of a vulnerability being confirmed.
+
+**Does this affect iPhones and iPads too?**
+
+Yes. The same background security mechanism applies to iPhones and iPads running current iOS and iPadOS versions. All three platforms — Mac, iPhone, iPad — received the March 2026 Safari patch simultaneously.
+    `.trim(),
+  },
+
   'macbook-logic-board-repair-cost-johannesburg-2026': {
     slug: 'macbook-logic-board-repair-cost-johannesburg-2026',
     title: 'MacBook Logic Board Repair in Johannesburg: What to Expect in 2026',
