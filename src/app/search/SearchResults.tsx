@@ -31,7 +31,7 @@ function getIntentCTA(query: string): IntentCTA | null {
     secondary: { label: '💬 Book a Diagnostic', href: 'https://wa.me/27645295863?text=Hi%2C%20I%27d%20like%20a%20Mac%20Health%20Check' },
   };
   if (isPrice || isRepair) return {
-    heading: 'Free Diagnostic — No Fix, No Fee',
+    heading: 'No-Obligation Diagnostic — No Fix, No Fee',
     body: 'We assess your Mac at no charge. No fix = no invoice. Logic board repairs from R2,499 with a 12-month warranty.',
     primary: { label: '💬 Get a WhatsApp Quote', href: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20repair%20quote' },
     secondary: { label: 'Book a Repair', href: '/book' },

@@ -25,7 +25,7 @@ const faqs = [
   {
     question: 'Will you be able to tell me if my MacBook is repairable before I commit to a repair?',
     answer:
-      'Yes. Our assessment is completely free with no obligation. We will open the device, inspect the damage under magnification, and give you an honest prognosis and quote before any work begins. If it is not economically repairable, we will tell you, and help you with data recovery options.',
+      'Yes. Our assessment is with no obligation. We will open the device, inspect the damage under magnification, and give you an honest prognosis and quote before any work begins. If it is not economically repairable, we will tell you, and help you with data recovery options.',
   },
   {
     question: 'Does liquid damage repair fall under warranty?',
@@ -59,7 +59,7 @@ const subPages = [
 ];
 
 const steps = [
-  { title: 'Intake & Assessment', description: 'Free inspection. We assess the extent of liquid exposure, identify affected areas, and provide an honest quote.' },
+  { title: 'Intake & Assessment', description: 'Assessment: from R599. We assess the extent of liquid exposure, identify affected areas, and provide an honest quote.' },
   { title: 'Ultrasonic Cleaning', description: 'Full disassembly. Logic board and components cleaned in ultrasonic bath to remove corrosion and contaminants.' },
   { title: 'Diagnostic', description: 'Post-clean diagnostic to identify damaged or failed components. Tested against known-good reference boards.' },
   { title: 'Component Repair', description: 'Board-level component-level repair to replace failed chips, capacitors, resistors, and connector pins under magnification.' },
@@ -91,7 +91,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Liquid Damage Assessment',
-          description: 'Free same-day assessment for MacBook liquid damage. Assessment: from R599.',
+          description: 'Same-day assessment for MacBook liquid damage. Assessment: from R599.',
         },
         price: '0',
         priceCurrency: 'ZAR',
@@ -143,7 +143,7 @@ const howToSchema = {
       '@type': 'HowToStep',
       position: 4,
       name: 'Bring it to ZA Support within hours',
-      text: 'Every hour that passes allows corrosion to spread. Bring your MacBook to our Hyde Park workshop for a free same-day assessment. Earlier treatment delivers a significantly better repair outcome.',
+      text: 'Every hour that passes allows corrosion to spread. Bring your MacBook to our Hyde Park workshop for a same-day assessment. Earlier treatment delivers a significantly better repair outcome.',
       url: 'https://zasupport.com/liquid-damage#step-bring-in',
     },
   ],
@@ -235,7 +235,7 @@ export default function LiquidDamagePage() {
               <span className="text-[#0FEA7A]">Repair in Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Johannesburg&apos;s liquid damage specialists. Board-level cleaning, component repair, and free
+              Johannesburg&apos;s liquid damage specialists. Board-level cleaning, component repair, and same-day
               assessment. Assessment: from R599. up-to-3 year warranty. Hyde Park.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -345,7 +345,7 @@ export default function LiquidDamagePage() {
                 ))}
               </div>
               <p className="text-[#7A9E98] text-xs mt-3">
-                Assessment is free. Assessment: from R599 guarantee on all liquid damage repairs.
+                Assessment: from R599 on all liquid damage repairs.
               </p>
             </div>
           </div>

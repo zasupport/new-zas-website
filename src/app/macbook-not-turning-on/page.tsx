@@ -23,7 +23,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Not Turning On Johannesburg | Assessment: from R599',
   description:
-    'MacBook won\'t turn on? Free same-day diagnosis in Johannesburg. 8 out of 10 Macs that won\'t power on are repairable. Assessment: from R599. Hyde Park. Call 064 529 5863.',
+    'MacBook won\'t turn on? Same-day assessment in Johannesburg. 8 out of 10 Macs that won\'t power on are repairable. Assessment: from R599. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-not-turning-on' },
   keywords: [
     'MacBook not turning on Johannesburg',
@@ -46,7 +46,7 @@ const breadcrumbSchemaItems = [
   { name: 'MacBook Not Turning On', url: 'https://zasupport.com/macbook-not-turning-on' },
 ];
 
-// ─── Free Fixes ───────────────────────────────────────────────────────────────
+// ─── Quick Checks ───────────────────────────────────────────────────────────────
 const freeFixes = [
   {
     step: '1',
@@ -189,7 +189,7 @@ const faqs = [
   {
     question: 'How much does it cost to fix a MacBook that won\'t turn on?',
     answer:
-      'Pricing depends entirely on the root cause, which we diagnose for free. We assess battery, surge, liquid damage, logic board, backlight, and firmware faults. Apple\'s out-of-warranty logic board replacement involves replacing the entire board, we fix the specific component that failed. We give you a fixed written quote before any work begins.',
+      'Pricing depends entirely on the root cause. We quote before any work begins. We assess battery, surge, liquid damage, logic board, backlight, and firmware faults. Apple\'s out-of-warranty logic board replacement involves replacing the entire board, we fix the specific component that failed. We give you a fixed written quote before any work begins.',
   },
   {
     question: 'Can you recover my data if the MacBook won\'t turn on?',
@@ -255,7 +255,7 @@ const suburbReviews = [
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Not Turning On, Repair & Diagnosis, Johannesburg',
   description:
-    'Free same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. Assessment: from R599. up-to-3 year warranty.',
+    'Same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. Assessment: from R599. up-to-3 year warranty.',
 });
 
 const faqSchema = buildFaqSchema(faqs);
@@ -278,7 +278,7 @@ const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
   name: 'How to fix a MacBook that won\'t turn on',
-  description: 'Step-by-step guide to diagnose and fix a MacBook that won\'t turn on, from free home fixes to professional repair in Johannesburg.',
+  description: 'Step-by-step guide to diagnose and fix a MacBook that won\'t turn on, from quick checks at home to professional repair in Johannesburg.',
   totalTime: 'PT30M',
   tool: [],
   supply: [],
@@ -314,8 +314,8 @@ const howToSchema = {
     {
       '@type': 'HowToStep',
       position: 5,
-      name: 'Bring it in for a free professional assessment',
-      text: 'If none of the above steps work, bring your MacBook to ZA Support in Hyde Park, Johannesburg for a free same-day diagnosis. Assessment: from R599, you only pay if we repair it.',
+      name: 'Bring it in for a professional assessment',
+      text: 'If none of the above steps work, bring your MacBook to ZA Support in Hyde Park, Johannesburg for a same-day assessment. Assessment: from R599, you only pay if we repair it.',
       url: 'https://zasupport.com/macbook-not-turning-on#get-help',
     },
   ],
@@ -382,7 +382,7 @@ export default function MacBookNotTurningOnPage() {
             {/* Urgency badge */}
             <div className="inline-flex items-center gap-2 bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-2 mb-6">
               <div className="w-2 h-2 rounded-full bg-[#0FEA7A] animate-pulse" />
-              <span className="text-[#0FEA7A] text-sm font-semibold tracking-wide">Free Diagnosis, No Obligation</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold tracking-wide">No-Obligation Diagnostic</span>
             </div>
 
             <h1
@@ -444,7 +444,7 @@ export default function MacBookNotTurningOnPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
               {[
                 { value: '3,000+', label: 'MacBooks Recovered' },
-                { value: 'Free', label: 'Assessment, Always' },
+                { value: 'R599', label: 'Assessment, from' },
                 { value: 'No Fix', label: 'No Fee, Zero Risk' },
                 { value: 'Same Day', label: 'Available' },
               ].map((stat) => (
@@ -459,7 +459,7 @@ export default function MacBookNotTurningOnPage() {
           </div>
         </section>
 
-        {/* ── Free Fixes First ── */}
+        {/* ── Quick Checks First ── */}
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
           <div className="mb-12">
             <div className="inline-block bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-1.5 mb-4">
@@ -469,7 +469,7 @@ export default function MacBookNotTurningOnPage() {
               className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
              
             >
-              5 Free Fixes Before You Bring It In
+              5 Quick Checks Before You Bring It In
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl">
               Before anything else, try these steps. They cost nothing and fix a significant percentage of MacBooks that appear dead.
@@ -611,7 +611,7 @@ export default function MacBookNotTurningOnPage() {
               {[
                 {
                   step: '1',
-                  title: 'Free Diagnostic',
+                  title: 'Assessment: from R599',
                   detail: 'Drop off at Hyde Park or arrange collection. We test the power circuit, battery, logic board rails, and charging path. Completed within 24 hours. Assessment fee of from R599 applies at this stage.',
                   icon: <Wrench className="w-5 h-5" />,
                 },

@@ -149,10 +149,10 @@ export default function AccessoriesRepairPage() {
               <span className="text-[#0FEA7A]">Keyboard, Mouse & Trackpad.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Magic Keyboard sticky keys, Magic Mouse not clicking, MagSafe not charging? Free fault isolation included, we diagnose before quoting any repair.
+              Magic Keyboard sticky keys, Magic Mouse not clicking, MagSafe not charging? Fault isolation included in assessment, we diagnose before quoting any repair.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment: from R599. Free fault isolation. Hyde Park, Johannesburg.
+              Assessment: from R599. Fault isolation included. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -341,7 +341,7 @@ export default function AccessoriesRepairPage() {
               Accessory Not Working? Bring It In.
             </h2>
 
-            <p className="text-[#7A9E98] mb-8">Assessment: from R599. Free fault isolation. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment: from R599. Fault isolation included. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={CONTACT.whatsapp}
