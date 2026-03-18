@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Phone, Menu, X, Calendar } from 'lucide-react';
+import { Phone, Menu, X, Calendar, Search } from 'lucide-react';
 import { NAV_LINKS } from '@/lib/constants';
 import Logo, { useLogoVariant } from './Logo';
 
@@ -54,6 +54,13 @@ export default function Navbar() {
 
           {/* Desktop Phone CTA */}
           <div className="hidden lg:flex items-center gap-4">
+            <Link
+              href="/search"
+              className="p-2 text-[#7A9E98] hover:text-[#0FEA7A] hover:bg-[rgba(15,234,122,0.06)] rounded-lg transition-all"
+              aria-label="Search"
+            >
+              <Search className="w-4 h-4" />
+            </Link>
             <a
               href={`tel:${logoVariant.tel}`}
               className="flex items-center gap-2 text-[#E8F4F1] hover:text-[#0FEA7A] transition-colors text-sm font-medium"
