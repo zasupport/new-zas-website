@@ -395,7 +395,7 @@ export default function MacBookNotTurningOnPage() {
 
             <p className="text-xl sm:text-2xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Don&apos;t panic. <strong className="text-[#E8F4F1]">8 out of 10 MacBooks</strong> that won&apos;t turn on can be repaired.
-              Assessment: from R599, Assessment fee: from R599, absorbed into repair cost if you proceed.
+              Assessment: from R599, Assessment fee: from R599.
             </p>
 
             <p className="text-[#7A9E98] text-base mb-10 max-w-2xl">

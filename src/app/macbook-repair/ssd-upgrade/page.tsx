@@ -47,7 +47,7 @@ const steps = [
   {
     step: '2',
     title: 'Quote',
-    desc: 'Assessment fee is from R599, absorbed into the repair cost if you proceed. No surprises.',
+    desc: 'Assessment fee is from R599. No surprises.',
   },
   {
     step: '3',
@@ -70,7 +70,7 @@ const faqs = [
   {
     question: 'What is the assessment fee policy?',
     answer:
-      'The assessment fee is from R599. It covers a full diagnostic and a written fixed-price quote. The fee is absorbed into the repair cost if you proceed with the upgrade.',
+      'The assessment fee is from R599. It covers a full diagnostic and a written fixed-price quote. The fee is with the upgrade.',
   },
   {
     question: 'How long does an SSD upgrade take?',

@@ -97,7 +97,7 @@ const jsonLd = {
           name: 'Do you charge for an assessment?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A from R599 assessment fee applies. If you proceed with the repair, this fee is absorbed into the total repair cost, you do not pay it on top. If you decline the repair after assessment, the from R599 assessment fee is payable. New managed services clients receive a complimentary IT assessment at no charge.',
+            text: 'A from R599 assessment fee applies. If you proceed with the repair, this fee applies, you do not pay it on top. If you decline the repair after assessment, the from R599 assessment fee is payable. New managed services clients receive a complimentary IT assessment at no charge.',
           },
         },
         {
@@ -105,7 +105,7 @@ const jsonLd = {
           name: 'What is your assessment and repair process?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'We charge a from R599 assessment fee to inspect and diagnose your device. We then provide a transparent written quote. If you approve and proceed with the repair, the from R599 assessment fee is absorbed into the repair cost. If you decline, the assessment fee of from R599 is payable for the diagnostic work completed.',
+            text: 'We charge a from R599 assessment fee to inspect and diagnose your device. We then provide a transparent written quote. If you approve and proceed with the repair, the from R599 assessment fee applies. If you decline, the assessment fee of from R599 is payable for the diagnostic work completed.',
           },
         },
         {
@@ -430,7 +430,7 @@ export default function ServicesPage() {
               },
               {
                 q: 'Do you charge for an assessment?',
-                a: 'A from R599 assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee is absorbed into the repair cost, you do not pay it separately. If you decline the repair after assessment, the from R599 assessment fee is payable for the diagnostic work completed.',
+                a: 'A from R599 assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee applies, you do not pay it separately. If you decline the repair after assessment, the from R599 assessment fee is payable for the diagnostic work completed.',
               },
               {
                 q: 'Do new managed services clients get a free assessment?',

@@ -52,7 +52,7 @@ const steps = [
   {
     step: '2',
     title: 'Quote',
-    desc: 'Assessment fee is from R599, absorbed into the upgrade cost if you proceed. Fixed price confirmed before we start.',
+    desc: 'Assessment fee is from R599, payable on confirmation. Fixed price confirmed before we start.',
   },
   {
     step: '3',
@@ -75,7 +75,7 @@ const faqs = [
   {
     question: 'What is the assessment fee policy?',
     answer:
-      'The assessment fee is from R599. It covers a full diagnostic and a written fixed-price quote. The fee is absorbed into the upgrade cost if you proceed.',
+      'The assessment fee is from R599. It covers a full diagnostic and a written fixed-price quote. The fee applies if you proceed.',
   },
   {
     question: 'How long does a RAM upgrade take?',

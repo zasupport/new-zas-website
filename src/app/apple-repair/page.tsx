@@ -129,7 +129,7 @@ const processSteps = [
   {
     step: '01',
     title: 'Assessment: from R599',
-    body: 'Bring your device to our Hyde Park workshop or arrange a courier. We inspect and identify the fault. Assessment fee: from R599 (absorbed into repair cost if you proceed).',
+    body: 'Bring your device to our Hyde Park workshop or arrange a courier. We inspect and identify the fault. Assessment fee: from R599 (payable on confirmation if you proceed).',
   },
   {
     step: '02',
@@ -194,7 +194,7 @@ const faqs = [
   {
     question: 'What is your assessment fee policy?',
     answer:
-      'An assessment fee of from R599 applies to all device diagnostics. If you proceed with the repair, this fee is absorbed into the total cost. If you choose not to proceed after the assessment, the from R599 fee is payable. All repairs carry a up-to-3 year warranty on parts and labour.',
+      'An assessment fee of from R599 applies to all device diagnostics. If you proceed with the repair, this fee applies. If you choose not to proceed after the assessment, the from R599 fee is payable. All repairs carry a up-to-3 year warranty on parts and labour.',
   },
   {
     question: 'Do you repair both old and new Apple devices?',
@@ -317,7 +317,7 @@ export default function AppleRepairPage() {
               <br /><span className="text-[#0FEA7A]">Every Device. Every Problem.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Logic board component-level repair, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: from R599, absorbed into repair cost if you proceed.
+              Logic board component-level repair, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: from R599.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -412,7 +412,7 @@ export default function AppleRepairPage() {
             <div className="text-[#0FEA7A] text-3xl font-black">·</div>
             <div>
               <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">If you proceed with repair</p>
-              <p className="text-xl font-extrabold text-[#0FEA7A]">Fee absorbed into repair cost</p>
+              <p className="text-xl font-extrabold text-[#0FEA7A]">Assessment fee from R599</p>
             </div>
             <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
             <div>
@@ -469,7 +469,7 @@ export default function AppleRepairPage() {
                 Transparent Pricing, Assessment: from R599
               </h2>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                We charge from R599 for the assessment and diagnosis. If you proceed with the repair, this fee is absorbed into the total cost.
+                We charge from R599 for the assessment and diagnosis. If you proceed with the repair, this fee applies.
                 If you choose not to proceed, the from R599 assessment fee applies for the diagnostic work completed.
                 Written quote before any work begins. Every repair backed by a up-to-3 year warranty on parts and labour.
               </p>
@@ -544,7 +544,7 @@ export default function AppleRepairPage() {
               {
                 icon: CheckCircle,
                 title: 'Diagnostic Assessment: from R599',
-                body: 'Our assessment fee is from R599. You will know exactly what is wrong and exactly what it will cost before any work begins. Fee absorbed into repair cost if you proceed.',
+                body: 'Our assessment fee is from R599. You will know exactly what is wrong and exactly what it will cost before any work begins. Fee.',
               },
               {
                 icon: Star,
@@ -658,7 +658,7 @@ export default function AppleRepairPage() {
             </h2>
             <p className="text-[#7A9E98] mb-2">up-to-3 year warranty on all repairs. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Assessment fee: from R599. You will know exactly what is wrong and what it will cost before any work begins. Fee absorbed into repair cost if you proceed.
+              Assessment fee: from R599. You will know exactly what is wrong and what it will cost before any work begins. Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

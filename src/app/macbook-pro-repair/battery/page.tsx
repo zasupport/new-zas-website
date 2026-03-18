@@ -100,7 +100,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'from R599 covers a full diagnostic and written quote. If you proceed with the repair, the assessment fee is absorbed into the total. It is payable only if you decline the quote.',
+    answer: 'from R599 covers a full diagnostic and written quote. If you proceed with the repair, the assessment fee applies. It is payable only if you decline the quote.',
   },
   {
     question: 'How long does a MacBook Pro battery replacement take?',

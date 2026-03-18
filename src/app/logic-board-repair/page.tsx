@@ -40,11 +40,11 @@ const repairTypes = [
 const faqs = [
   {
     question: 'How much does MacBook logic board repair cost in Johannesburg?',
-    answer: 'Component-level repair at ZA Support is significantly cheaper than a full board replacement. We repair the specific failed chip or component rather than replacing the entire logic board. Assessment fee is from R599, absorbed into the repair cost if you proceed. Written quote provided before any work begins.',
+    answer: 'Component-level repair at ZA Support is significantly cheaper than a full board replacement. We repair the specific failed chip or component rather than replacing the entire logic board. Assessment fee is from R599. Written quote provided before any work begins.',
   },
   {
     question: 'What is your assessment fee policy?',
-    answer: 'Our assessment fee is from R599. This covers a full board-level diagnostic under microscope and a written fixed-price quote. If you approve the quote and we proceed with the repair, the from R599 assessment fee is absorbed into the total repair cost. If you decline, the assessment fee is payable for the diagnostic work completed.',
+    answer: 'Our assessment fee is from R599. This covers a full board-level diagnostic under microscope and a written fixed-price quote. If you approve the quote and we proceed with the repair, the from R599 assessment fee applies. If you decline, the assessment fee is payable for the diagnostic work completed.',
   },
   {
     question: 'How long does logic board repair take?',
@@ -199,7 +199,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Logic Board Diagnostic Assessment',
-          description: 'Board-level inspection under microscope. from R599, absorbed into repair cost if you proceed. Written quote provided.',
+          description: 'Board-level inspection under microscope. from R599. Written quote provided.',
         },
         price: '0',
         priceCurrency: 'ZAR',
@@ -234,7 +234,7 @@ const howToSchema = {
       '@type': 'HowToStep',
       position: 1,
       name: 'Diagnostic assessment',
-      text: 'Your MacBook is disassembled and the logic board examined under magnification. We identify the specific failed component or damaged area and provide a written quote before any work begins. Assessment fee: from R599, absorbed into repair cost if you proceed.',
+      text: 'Your MacBook is disassembled and the logic board examined under magnification. We identify the specific failed component or damaged area and provide a written quote before any work begins. Assessment fee: from R599.',
       url: 'https://zasupport.com/logic-board-repair#diagnostic',
     },
     {
@@ -353,7 +353,7 @@ export default function LogicBoardRepairPage() {
             </h1>
             <p className="speakable-summary text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               Johannesburg&apos;s component-level repair specialists. We repair the specific faulty component where possible — saving clients up to 80% versus full board replacement.
-              Assessment: from R599 (absorbed into repair cost if you proceed). up-to-3 year warranty. Hyde Park.
+              Assessment: from R599 (payable on confirmation if you proceed). up-to-3 year warranty. Hyde Park.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -429,7 +429,7 @@ export default function LogicBoardRepairPage() {
             <div className="text-[#0FEA7A] text-3xl font-black">·</div>
             <div>
               <p className="text-[#7A9E98] text-xs uppercase tracking-wider mb-1">If you proceed</p>
-              <p className="text-xl font-extrabold text-[#0FEA7A]">Fee absorbed into repair cost</p>
+              <p className="text-xl font-extrabold text-[#0FEA7A]">Assessment fee from R599</p>
             </div>
             <div className="hidden sm:block h-8 w-px bg-[rgba(15,234,122,0.2)]"></div>
             <div>
@@ -539,7 +539,7 @@ export default function LogicBoardRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4 text-center">
-            Risk rating indicates complexity of the repair, not likelihood of success. Assessment fee: from R599, absorbed into repair cost if you proceed. up-to-3 year warranty on all repairs.
+            Risk rating indicates complexity of the repair, not likelihood of success. Assessment fee: from R599. up-to-3 year warranty on all repairs.
           </p>
         </div>
       </section>
@@ -596,7 +596,7 @@ export default function LogicBoardRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Repair Services</h2>
           <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl">
-            All repairs are component-level. Final cost is confirmed after the assessment. Assessment fee: from R599, absorbed into repair cost if you proceed.
+            All repairs are component-level. Final cost is confirmed after the assessment. Assessment fee: from R599.
           </p>
           <div className="glass-card overflow-hidden p-0">
             {repairTypes.map((item, i) => (
@@ -608,10 +608,10 @@ export default function LogicBoardRepairPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final cost depends on specific fault and model. Assessment: from R599, absorbed into repair cost if you proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final cost depends on specific fault and model. Assessment: from R599.</p>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-4">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Transparent assessment.</strong> from R599 to diagnose your Mac and provide a written fixed-price quote. Fee absorbed into the repair cost if you proceed.
+              💡 <strong className="text-[#E8F4F1]">Transparent assessment.</strong> from R599 to diagnose your Mac and provide a written fixed-price quote. Fee.
             </p>
           </div>
 
@@ -713,7 +713,7 @@ export default function LogicBoardRepairPage() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
-              { step: '01', title: 'Assessment: from R599', body: 'Bring your Mac to our Hyde Park workshop or arrange a courier. We inspect the board under microscope and identify the fault. Fee is absorbed into repair cost if you proceed.' },
+              { step: '01', title: 'Assessment: from R599', body: 'Bring your Mac to our Hyde Park workshop or arrange a courier. We inspect the board under microscope and identify the fault. Fee is.' },
               { step: '02', title: 'Written Quote', body: 'You receive a clear, written quote before any work begins. No hidden fees. If you decline, the assessment fee is payable for the diagnostic completed.' },
               { step: '03', title: 'Component-level repair Repair', body: 'Our technician works at component level using professional specialist equipment. Most repairs completed in 24–72 hours.' },
               { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a up-to-3 year warranty. If the same fault returns, we fix it free.' },
@@ -742,7 +742,7 @@ export default function LogicBoardRepairPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Logic Board Fault? Book an Assessment.</h2>
             <p className="text-[#7A9E98] mb-2">up-to-3 year warranty on all repairs. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Assessment fee: from R599, absorbed into repair cost if you proceed. Written fixed-price quote before any work begins.
+              Assessment fee: from R599. Written fixed-price quote before any work begins.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

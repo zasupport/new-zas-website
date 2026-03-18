@@ -124,7 +124,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'from R599. Includes full screen diagnostic and written fixed-price quote. The fee is absorbed into the repair cost if you proceed, and payable only if you decline.',
+    answer: 'from R599. Includes full screen diagnostic and written fixed-price quote. The fee is, and payable only if you decline.',
   },
   {
     question: 'How long does MacBook Pro screen repair take?',

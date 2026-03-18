@@ -31,7 +31,7 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'ZA Support, Apple Repair Specialists',
-  description: 'Book a Mac repair assessment in Hyde Park, Johannesburg. Assessment fee: from R599, absorbed into repair cost if you proceed.',
+  description: 'Book a Mac repair assessment in Hyde Park, Johannesburg. Assessment fee: from R599.',
   url: 'https://zasupport.com/book',
   telephone: '+27645295863',
   address: {
@@ -115,7 +115,7 @@ export default function BookPage() {
           </h1>
           <p className="text-lg text-[#7A9E98] max-w-xl leading-relaxed">
             Fill in the form below and we will contact you within 2 hours to confirm your booking.
-            Assessment fee: from R599, absorbed into repair cost if you proceed. up-to-3 year warranty on all repairs.
+            Assessment fee: from R599. up-to-3 year warranty on all repairs.
           </p>
         </div>
       </section>
@@ -335,7 +335,7 @@ export default function BookPage() {
 
                 <p className="text-center text-[#7A9E98] text-xs leading-relaxed">
                   By submitting this form you agree to be contacted by ZA Support regarding your repair.
-                  We never share your details. Assessment: from R599, absorbed into repair cost if you proceed.
+                  We never share your details. Assessment: from R599.
                 </p>
               </form>
             </div>

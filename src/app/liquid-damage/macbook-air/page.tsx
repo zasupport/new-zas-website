@@ -333,7 +333,7 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             {[
               { stat: '500+', label: 'Liquid Damage Recoveries' },
-              { stat: 'Assessment: from R599', label: 'Fee absorbed into repair cost if you proceed' },
+              { stat: 'Assessment: from R599', label: 'Fee' },
               { stat: 'Warranty', label: 'Written. On every repair.' },
               { stat: 'Assessment: from R599', label: 'Always. No obligation.' },
             ].map(({ stat, label }) => (

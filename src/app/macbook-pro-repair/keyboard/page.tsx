@@ -131,7 +131,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'from R599 covers a full keyboard diagnostic and written fixed-price quote. The fee is absorbed into the repair if you proceed, and payable only if you decline.',
+    answer: 'from R599 covers a full keyboard diagnostic and written fixed-price quote. The assessment fee of from R599 is payable on confirmation.',
   },
   {
     question: 'Can individual butterfly keys be replaced?',
