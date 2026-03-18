@@ -112,7 +112,6 @@ export default function SearchResults({ query, start }: Props) {
   const cta = getIntentCTA(query);
 
   useEffect(() => {
-    setLoading(true);
     fetch(`/api/search?q=${encodeURIComponent(query)}&start=${start}`)
       .then((r) => r.json())
       .then((d) => { setData(d); setLoading(false); })
