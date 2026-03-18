@@ -124,7 +124,7 @@ const signs = [
   {
     icon: <Zap className="w-5 h-5 text-[#0FEA7A]" />,
     title: 'Will not charge, or stops at 80%',
-    detail: 'Charging stops early, fluctuates between percentages, or the MacBook does not charge at all. Could be the battery, charging IC, or cable. We diagnose free.',
+    detail: 'Charging stops early, fluctuates between percentages, or the MacBook does not charge at all. Could be the battery, charging IC, or cable. Assessment: from R599.',
     urgent: false,
   },
   {
@@ -459,8 +459,8 @@ export default function MacBookBatteryPage() {
               },
               {
                 step: '02',
-                title: 'Free Battery Assessment',
-                desc: 'We check your battery health percentage, cycle count, cell voltage, and temperature history using coconutBattery and system diagnostics. We will also check whether the battery is swollen, whether the trackpad has been displaced, and whether there are any related charging circuit issues. No charge for this.',
+                title: 'Battery Assessment',
+                desc: 'We check your battery health percentage, cycle count, cell voltage, and temperature history using coconutBattery and system diagnostics. We will also check whether the battery is swollen, whether the trackpad has been displaced, and whether there are any related charging circuit issues.',
               },
               {
                 step: '03',

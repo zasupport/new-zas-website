@@ -389,7 +389,7 @@ export default function ServicesPage() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-7 py-3.5 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
               >
-                <MessageCircle className="w-5 h-5" /> Get a Free Quote on WhatsApp
+                <MessageCircle className="w-5 h-5" /> Get a WhatsApp Quote
               </a>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -433,8 +433,8 @@ export default function ServicesPage() {
                 a: 'A from R599 assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee applies, you do not pay it separately. If you decline the repair after assessment, the from R599 assessment fee is payable for the diagnostic work completed.',
               },
               {
-                q: 'Do new managed services clients get a free assessment?',
-                a: 'Yes. New clients signing up for IT managed services receive a complimentary IT assessment at no charge. We audit your environment, identify risks, and recommend the right plan before any contract is signed.',
+                q: 'Do new managed services clients get a complimentary assessment?',
+                a: 'Yes. New clients signing up for IT managed services receive a complimentary IT assessment included in onboarding. We audit your environment, identify risks, and recommend the right plan before any contract is signed.',
               },
               {
                 q: 'How much does MacBook repair cost in Johannesburg?',

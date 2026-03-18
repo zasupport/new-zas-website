@@ -37,7 +37,7 @@ const faultTable = [
 ];
 
 const repairProcess = [
-  { step: '1', title: 'Free Diagnostic', detail: 'We inspect the board under stereo microscope. Power rail probing, short-circuit mapping, and thermal imaging where applicable. No charge, no obligation. Completed within 24 hours.' },
+  { step: '1', title: 'Diagnostic: from R599', detail: 'We inspect the board under stereo microscope. Power rail probing, short-circuit mapping, and thermal imaging where applicable. Completed within 24 hours.' },
   { step: '2', title: 'Written Quote', detail: 'You receive a specific written quote: fault identified, parts required, labour, and turnaround time. This is a fixed quote, no surprises when you collect.' },
   { step: '3', title: 'Your Approval', detail: 'Work begins only after you approve the quote. If you decline for any reason, the machine is returned exactly as received, no charge.' },
   { step: '4', title: 'Component-Level Repair', detail: 'Using a stereo microscope, professional hot-air rework station, and precision soldering station, we replace the specific failed component, whether a fuse, capacitor, controller IC, or damaged trace.' },
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     question: 'What if my MacBook Air cannot be fixed?',
-    answer: 'Assessment fee of from R599 applies. Our Assessment: from R599 policy covers all logic board diagnostics unconditionally. If we cannot repair the fault, the assessment is free and the machine is returned to you exactly as received. We will give you honest options: board replacement pricing, data recovery, or part-out value if applicable.',
+    answer: 'An assessment fee of from R599 applies. If we cannot repair the fault, the machine is returned to you exactly as received. We will give you honest options: board replacement pricing, data recovery, or part-out value if applicable.',
   },
   {
     question: 'Is it worth repairing a MacBook Air versus buying a new one?',
@@ -167,7 +167,7 @@ export default function MacBookAirLogicBoardPage() {
               {[
                 { icon: Shield, label: 'Assessment: from R599' },
                 { icon: Clock, label: 'Fastest Turnaround Times' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'Diagnostic: from R599' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Cpu, label: 'Microscope Component-level repair' },
               ].map(({ icon: Icon, label }) => (
@@ -263,7 +263,7 @@ export default function MacBookAirLogicBoardPage() {
               ))}
             </ul>
             <p className="mt-4">
-              If your MacBook Air is showing any of these symptoms, the diagnostic is free. Bring it in to Hyde Park
+              If your MacBook Air is showing any of these symptoms, bring it in to Hyde Park
               or send us a WhatsApp message, we will tell you honestly what is wrong and whether repair makes sense.
             </p>
           </div>
@@ -463,7 +463,7 @@ export default function MacBookAirLogicBoardPage() {
               {
                 icon: Shield,
                 title: 'Assessment: from R599',
-                body: 'Unconditional. If we cannot repair your MacBook Air logic board, the diagnostic is free. No charge, no exception, no pressure.',
+                body: 'Assessment: from R599. If we cannot repair your MacBook Air logic board, the machine is returned exactly as received. No exceptions, no pressure.',
               },
             ].map(({ icon: Icon, title, body }) => (
               <div key={title} className="glass-card p-6">

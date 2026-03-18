@@ -15,7 +15,7 @@ interface RelatedServicesProps {
 // Predefined service sets for common page types
 export const RELATED_LOGIC_BOARD: ServiceLink[] = [
   { title: 'Liquid Damage Repair', href: '/liquid-damage', description: 'Board-level professional cleaning' },
-  { title: 'MacBook Not Turning On', href: '/macbook-not-turning-on', description: 'Free same-day diagnosis' },
+  { title: 'MacBook Not Turning On', href: '/macbook-not-turning-on', description: 'Same-day assessment: from R599' },
   { title: 'MacBook Repair', href: '/macbook-repair', description: 'All models, all faults' },
   { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment: from R599' },
   { title: 'About ZA Support', href: '/about', description: '16 years, 3,000+ repairs' },

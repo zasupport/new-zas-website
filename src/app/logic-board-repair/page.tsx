@@ -716,7 +716,7 @@ export default function LogicBoardRepairPage() {
               { step: '01', title: 'Assessment: from R599', body: 'Bring your Mac to our Hyde Park workshop or arrange a courier. We inspect the board under microscope and identify the fault. Fee is.' },
               { step: '02', title: 'Written Quote', body: 'You receive a clear, written quote before any work begins. No hidden fees. If you decline, the assessment fee is payable for the diagnostic completed.' },
               { step: '03', title: 'Component-level repair Repair', body: 'Our technician works at component level using professional specialist equipment. Most repairs completed in 24–72 hours.' },
-              { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a up-to-3 year warranty. If the same fault returns, we fix it free.' },
+              { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a up-to-3 year warranty. If the same fault returns, we fix it at no charge.' },
             ].map(({ step, title, body }) => (
               <div key={step} className="glass-card p-6 relative overflow-hidden">
                 <span className="absolute top-4 right-4 text-[#0FEA7A] text-3xl font-extrabold opacity-20">{step}</span>

@@ -397,7 +397,7 @@ export default function MacBookScreenPage() {
                 desc: 'We do not use cheap aftermarket screens. The display is the thing you look at every day, it matters.',
               },
               {
-                title: 'Free Diagnostic Before Any Quote',
+                title: 'Diagnostic Before Any Quote',
                 desc: 'We test the logic board, GPU output, and display cable before quoting. You get the full picture.',
               },
               {

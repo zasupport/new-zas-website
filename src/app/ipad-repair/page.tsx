@@ -348,7 +348,7 @@ export default function iPadRepairPage() {
               {
                 step: '2',
                 title: 'Book Your Assessment',
-                desc: 'Drop off your iPad at our Hyde Park office. We inspect it thoroughly, check screen, battery health, charging port, and any water damage. Assessment is free.',
+                desc: 'Drop off your iPad at our Hyde Park office. We inspect it thoroughly, check screen, battery health, charging port, and any water damage. Assessment: from R599.',
               },
               {
                 step: '3',

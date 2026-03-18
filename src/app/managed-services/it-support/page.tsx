@@ -443,7 +443,7 @@ export default function ITSupportPage() {
               Mac IT Support for Your Johannesburg Business
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Free initial consultation. Month-to-month plans. No lock-in contracts.
+              Initial consultation included. Month-to-month plans. No lock-in contracts.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Sandton, Rosebank, Midrand, Fourways, Randburg, Hyde Park — and remote nationally.

@@ -219,7 +219,7 @@ export default function MacBookDataRecoveryPage() {
               { stat: '95%', label: 'Logical Recovery Success Rate' },
               { stat: 'No Data', label: 'No Fee, Zero Risk' },
               { stat: 'POPIA', label: 'Compliant Handling' },
-              { stat: 'Free', label: 'Assessment, No Charge' },
+              { stat: 'R599', label: 'Assessment, from' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
                 <span className="text-2xl font-extrabold text-[#0FEA7A]">{item.stat}</span>

@@ -95,7 +95,7 @@ const faqs = [
   {
     question: 'My iPhone camera is blurry, is it the lens or the module?',
     answer:
-      'If the lens glass is cracked or scratched, replacing the lens cover resolves the blurring. If the lens is clean but photos are still blurry or the OIS is shaky, the camera module itself has failed. We diagnose this for free, bring it in or WhatsApp us a sample photo.',
+      'If the lens glass is cracked or scratched, replacing the lens cover resolves the blurring. If the lens is clean but photos are still blurry or the OIS is shaky, the camera module itself has failed. Bring it in or WhatsApp us a sample photo and we will diagnose it.',
   },
   {
     question: 'Will Front camera repair affect Face ID?',

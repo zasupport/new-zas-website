@@ -367,7 +367,7 @@ export default function MedicalPracticesPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm mt-6">
-            All plans are month-to-month with 30-day notice. No long-term contracts. <Link href="/contact" className="text-[#0FEA7A] hover:underline">Book a free consultation</Link> to discuss your practice&apos;s specific needs.
+            All plans are month-to-month with 30-day notice. No long-term contracts. <Link href="/contact" className="text-[#0FEA7A] hover:underline">Book a consultation</Link> to discuss your practice&apos;s specific needs.
           </p>
         </div>
       </section>
@@ -501,7 +501,7 @@ export default function MedicalPracticesPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               IT Support for Your Medical Practice
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free consultation. Month-to-month. No lock-in contracts.</p>
+            <p className="text-[#7A9E98] mb-2">Initial consultation included. Month-to-month. No lock-in contracts.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Johannesburg&apos;s Apple IT specialists for medical practices since 2009.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

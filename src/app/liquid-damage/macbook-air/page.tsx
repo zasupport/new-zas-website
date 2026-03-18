@@ -46,7 +46,7 @@ const faqs = [
   {
     question: 'How much does MacBook Air liquid damage repair cost?',
     answer:
-      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. The assessment is always free, we confirm the exact cost before any work begins.',
+      'Repair cost depends on the severity of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. Minor logic board corrosion requiring component cleaning costs more. Severe corrosion requiring multiple IC replacements is the most complex case. Assessment: from R599, we confirm the exact cost before any work begins.',
   },
   {
     question: 'Is the MacBook Air more susceptible to liquid damage than the MacBook Pro?',
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on MacBook Air liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: from R599 policy also applies: if we cannot repair your machine, the assessment is free and assessment fee of from R599 applies.',
+      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: from R599 policy also applies: if we cannot repair your machine, an assessment fee of from R599 applies and the machine is returned exactly as received.',
   },
 ];
 
@@ -533,7 +533,7 @@ export default function MacBookAirLiquidDamagePage() {
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               All prices are confirmed before any work begins. Our Assessment: from R599 policy applies to every case —
-              if we cannot repair your MacBook Air, the assessment is free and the machine is returned exactly
+              if we cannot repair your MacBook Air, an assessment fee of from R599 applies and the machine is returned exactly
               as received. up-to-3 year warranty on all repairs.
             </p>
           </div>

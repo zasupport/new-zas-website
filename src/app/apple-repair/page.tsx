@@ -189,7 +189,7 @@ const faqs = [
   {
     question: 'How much does Apple Mac repair cost in Johannesburg?',
     answer:
-      'Costs vary by device and fault type. All diagnostics are free with no obligation, you will receive a written quote before any work begins. We only charge you once we have successfully repaired your device.',
+      'Costs vary by device and fault type. Assessment: from R599 with no obligation, you will receive a written quote before any work begins. We only charge you once we have successfully repaired your device.',
   },
   {
     question: 'What is your assessment fee policy?',

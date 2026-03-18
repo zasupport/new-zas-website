@@ -81,7 +81,7 @@ const keyboardTypes = [
   {
     name: 'Butterfly Keyboard',
     models: '2016–2019 MacBook Pro (all sizes)',
-    description: 'Apple\'s butterfly mechanism is prone to dust ingress, key bounce, and complete switch failure. Apple\'s free repair programme has ended. The fix involves replacing the full top case assembly, including the keyboard, battery bracket, and chassis. We carry top cases for most affected models with a up-to-3 year warranty.',
+    description: 'Apple\'s butterfly mechanism is prone to dust ingress, key bounce, and complete switch failure. Apple\'s repair programme has ended. The fix involves replacing the full top case assembly, including the keyboard, battery bracket, and chassis. We carry top cases for most affected models with a up-to-3 year warranty.',
     warning: true,
   },
   {
@@ -119,7 +119,7 @@ const process = [
 const faqs = [
   {
     question: 'What is the butterfly keyboard issue on MacBook Pro?',
-    answer: 'Apple used a butterfly keyboard mechanism in MacBook Pro models from 2016 to 2019. The mechanism is very sensitive to dust and debris, which causes keys to stop registering, repeat, or become sticky. Apple ran a free repair programme that has since ended. The repair involves replacing the full top case assembly.',
+    answer: 'Apple used a butterfly keyboard mechanism in MacBook Pro models from 2016 to 2019. The mechanism is very sensitive to dust and debris, which causes keys to stop registering, repeat, or become sticky. Apple ran a repair programme that has since ended. The repair involves replacing the full top case assembly.',
   },
   {
     question: 'Does Apple still cover butterfly keyboards under the extended programme?',

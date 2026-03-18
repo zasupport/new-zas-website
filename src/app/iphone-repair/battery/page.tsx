@@ -92,7 +92,7 @@ const faqs = [
   {
     question: 'How much does iPhone battery replacement cost in Johannesburg?',
     answer:
-      'The exact price depends on your model. We provide a free battery health check and written fixed-price quote before starting any work.',
+      'The exact price depends on your model. We provide a battery health check and written fixed-price quote before starting any work.',
   },
   {
     question: 'How do I know if my iPhone battery needs replacing?',
@@ -269,7 +269,7 @@ export default function iPhoneBatteryPage() {
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             All replacements include the battery, parts, and labour. We provide a written fixed-price
-            quote after a free battery health check.
+            quote after a battery health check.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
             <div className="grid grid-cols-2 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
@@ -288,7 +288,7 @@ export default function iPhoneBatteryPage() {
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
             All repairs include written up-to-3 year warranty. Assessment: from R599. Data is never accessed or affected.
-            Free battery health check, no charge if we cannot repair your device.
+            Battery health check included. Assessment: from R599.
           </p>
         </div>
       </section>
@@ -448,7 +448,7 @@ export default function iPhoneBatteryPage() {
             >
               iPhone Battery Draining Fast?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free battery health check. Assessment: from R599. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Battery health check included. Assessment: from R599. up-to-3 year warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

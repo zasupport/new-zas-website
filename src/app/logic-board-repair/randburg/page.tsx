@@ -113,7 +113,7 @@ export default function LogicBoardRepairRandburgPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'Diagnostic: from R599' },
                 { icon: CheckCircle, label: 'Assessment: from R599' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
@@ -187,7 +187,7 @@ export default function LogicBoardRepairRandburgPage() {
           <div className="space-y-6">
             {[
               { step: '01', title: 'Collection Arranged', desc: 'Message or call us. We arrange collection from your Randburg address, home or office, at a time that suits you.' },
-              { step: '02', title: 'Free Board Diagnostic', desc: 'Assessment completed within 24 hours. Fault identified at component level using schematics, microscope, and power-supply tools.' },
+              { step: '02', title: 'Board Diagnostic', desc: 'Assessment completed within 24 hours. Fault identified at component level using schematics, microscope, and power-supply tools.' },
               { step: '03', title: 'Quote with Approval', desc: 'Written quote sent to you. Fault description, repair method, cost, and delivery timeline, clear and specific. No hidden costs.' },
               { step: '04', title: 'Precision Repair', desc: 'Specific failed component replaced under a Swift 100X microscope. Your board stays original. Only the fault is addressed.' },
               { step: '05', title: 'Return to Randburg', desc: 'Tested under load and returned to your Randburg address with a written up-to-3 year warranty. Typically 48–72 hours from collection.' },
@@ -250,7 +250,7 @@ export default function LogicBoardRepairRandburgPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Fault? Free Diagnostic.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Fault? Diagnostic: from R599.</h2>
             <p className="text-[#7A9E98] mb-6">We collect from Randburg. Assessment: from R599. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

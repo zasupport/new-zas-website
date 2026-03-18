@@ -445,7 +445,7 @@ export default function AppleSpecialistPage() {
               Johannesburg&apos;s Apple IT Specialist
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              JAMF MDM, Apple Business Manager, M-series Mac management. Free consultation included for new clients.
+              JAMF MDM, Apple Business Manager, M-series Mac management. Initial consultation included for new clients.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Apple-first since 2009.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

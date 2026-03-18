@@ -37,7 +37,7 @@ const faultTable = [
 ];
 
 const repairProcess = [
-  { step: '1', title: 'Free Diagnostic', detail: 'We inspect the board under microscope. Power rail testing, short-circuit mapping, and component identification. No charge, no obligation. Completed within 24 hours.' },
+  { step: '1', title: 'Diagnostic: from R599', detail: 'We inspect the board under microscope. Power rail testing, short-circuit mapping, and component identification. Completed within 24 hours.' },
   { step: '2', title: 'Written Quote', detail: 'You receive a clear quote covering the specific fault, parts needed, labour, and a completion estimate. No ambiguous "from" pricing at this stage, it is a fixed quote.' },
   { step: '3', title: 'Your Approval', detail: 'We begin work only after you approve the quote. If you decline, you walk away paying nothing. The machine is returned exactly as received.' },
   { step: '4', title: 'Component-Level Repair', detail: 'Our technician uses a professional hot-air rework station, stereo microscope, and precision soldering station to replace the specific failed component. We reflow solder, replace ICs, and repair traces as needed.' },
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     question: 'What if my MacBook Pro cannot be fixed?',
-    answer: 'Assessment fee of from R599 applies. Our Assessment: from R599 policy is unconditional, if we cannot repair the fault, the diagnostic is free and the machine is returned to you exactly as it was received. We will give you an honest assessment of your options: board replacement pricing, data recovery, or part-out value.',
+    answer: 'An assessment fee of from R599 applies. If we cannot repair the fault, the machine is returned to you exactly as it was received. We will give you an honest assessment of your options: board replacement pricing, data recovery, or part-out value.',
   },
   {
     question: 'Is it worth repairing a MacBook Pro versus buying a new one?',
@@ -169,7 +169,7 @@ export default function MacBookProLogicBoardPage() {
               {[
                 { icon: Shield, label: 'Assessment: from R599' },
                 { icon: Clock, label: 'Fastest Turnaround Times' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'Diagnostic: from R599' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Cpu, label: 'Microscope Component-level repair' },
               ].map(({ icon: Icon, label }) => (
@@ -264,7 +264,7 @@ export default function MacBookProLogicBoardPage() {
             </ul>
             <p className="mt-4">
               If your MacBook Pro is showing any of these symptoms, bring it in or send us a WhatsApp message. The
-              diagnostic is always free.
+              diagnostic starts from R599.
             </p>
           </div>
         </div>
@@ -422,7 +422,7 @@ export default function MacBookProLogicBoardPage() {
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
               <p className="text-[#E8F4F1] font-bold mb-2">Assessment: from R599, guaranteed</p>
               <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Pro logic board, assessment fee of from R599 applies.
-                The diagnostic is free. The assessment is free. Zero obligation, zero risk to you.</p>
+                Assessment fee of from R599 applies. Zero obligation beyond the assessment fee, zero risk to you.</p>
             </div>
           </div>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">

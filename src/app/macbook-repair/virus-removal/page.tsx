@@ -8,7 +8,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Mac Virus & Malware Removal Johannesburg | Free Diagnosis | ZA Support',
+  title: 'Mac Virus & Malware Removal Johannesburg | No-Obligation Diagnostic | ZA Support',
   description:
     'Mac virus and malware removal in Johannesburg. Assessment: from R599. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/virus-removal' },
@@ -214,15 +214,15 @@ export default function MacVirusRemovalPage() {
           <Breadcrumb items={[{ label: 'MacBook Repair', href: '/macbook-repair' }, { label: 'Virus & Malware Removal' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Free Diagnosis · Same-Day Removal · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> No-Obligation Diagnostic · Same-Day Removal · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Mac Virus &amp; Malware Removal<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
-              <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | Free Diagnosis</span>
+              <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | No-Obligation Diagnostic</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Adware, browser hijackers, spyware, trojans, and info stealers, we diagnose and remove all known Mac threats. If your Mac is slow, showing pop-ups, or redirecting your browser, bring it in. Diagnosis is free.
+              Adware, browser hijackers, spyware, trojans, and info stealers, we diagnose and remove all known Mac threats. If your Mac is slow, showing pop-ups, or redirecting your browser, bring it in. Assessment: from R599.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -253,7 +253,7 @@ export default function MacVirusRemovalPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { stat: 'Free', label: 'Diagnosis, No Hidden Cost' },
+              { stat: 'R599', label: 'Diagnostic, from' },
               { stat: 'Same-Day', label: 'Removal for Most Infections' },
               { stat: '100%', label: 'Mac-Specialist Technicians' },
               { stat: 'CyberShield', label: 'Ongoing Protection Available' },
@@ -297,7 +297,7 @@ export default function MacVirusRemovalPage() {
               Signs Your Mac May Be <span className="text-[#0FEA7A]">Infected</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              These symptoms do not always mean malware, but they warrant investigation. Diagnosis is free.
+              These symptoms do not always mean malware, but they warrant investigation. Assessment: from R599.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -356,7 +356,7 @@ export default function MacVirusRemovalPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Free Diagnostic Scan',
+                title: 'Diagnostic Scan',
                 desc: 'We run a full system scan covering LaunchAgents, LaunchDaemons, login items, browser extensions, system extensions, and running processes. We map every component of the infection before touching anything.',
               },
               {
@@ -467,8 +467,8 @@ export default function MacVirusRemovalPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {[
               {
-                title: 'Free Diagnosis',
-                desc: 'We scan and identify the infection at no cost. You only pay for removal, and only after seeing a written fixed quote.',
+                title: 'Diagnostic: from R599',
+                desc: 'We scan and identify the infection. You only pay for removal, and only after seeing a written fixed quote.',
               },
               {
                 title: 'Mac Specialists Only',

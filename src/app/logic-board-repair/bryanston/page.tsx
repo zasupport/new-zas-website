@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: 'What happens if my MacBook cannot be repaired?',
-    answer: 'We tell you honestly, explain what we found in the diagnostic, and outline your options. You can proceed with a board replacement, sell the device for parts, or pursue data recovery from the storage. The diagnostic is completely free, there is no charge for a "no fix" outcome. We never charge for work that does not happen.',
+    answer: 'We tell you honestly, explain what we found in the diagnostic, and outline your options. You can proceed with a board replacement, sell the device for parts, or pursue data recovery from the storage. An assessment fee of from R599 applies. We never charge for repair work that does not happen.',
   },
   {
     question: 'How long does the repair take from Bryanston?',
@@ -113,7 +113,7 @@ export default function LogicBoardRepairBryanstonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'Diagnostic: from R599' },
                 { icon: CheckCircle, label: 'Assessment: from R599' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
@@ -155,7 +155,7 @@ export default function LogicBoardRepairBryanstonPage() {
               ZA Support&apos;s approach is to identify the specific failed component first. That requires a stereo microscope, board-level diagnostic tools, and access to Apple schematics, all of which we have at our Hyde Park workshop. The repair itself is component-level repair: the damaged chip, capacitor, or trace is addressed directly, leaving the rest of your original board intact. The cost saving over board replacement is typically 60–80%.
             </p>
             <p>
-              We offer collection from Bryanston. The drive is 10–15 minutes, less than the time spent on hold with most repair centres. Once collected, your MacBook receives a free board-level diagnostic within 24 hours, a written quote before any work begins, and a warranty on every completed repair.
+              We offer collection from Bryanston. The drive is 10–15 minutes, less than the time spent on hold with most repair centres. Once collected, your MacBook receives a board-level diagnostic within 24 hours, a written quote before any work begins, and a warranty on every completed repair.
             </p>
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function LogicBoardRepairBryanstonPage() {
           <div className="space-y-6">
             {[
               { step: '01', title: 'Collection from Bryanston', desc: 'Contact us on WhatsApp or phone. We arrange a collection from your Bryanston address, typically within 24 hours.' },
-              { step: '02', title: 'Free Diagnostic Assessment', desc: 'Board inspected within 24 hours of collection. Fault identified to component level, schematic, microscope, and power diagnostics used.' },
+              { step: '02', title: 'Diagnostic Assessment', desc: 'Board inspected within 24 hours of collection. Fault identified to component level, schematic, microscope, and power diagnostics used.' },
               { step: '03', title: 'Written Quote and Sign-Off', desc: 'You receive a written quote: fault description, repair method, cost, and timeframe. No repair proceeds without your approval.' },
               { step: '04', title: 'Component-level repair Repair', desc: 'The specific failed component is replaced under a stereo microscope. Your original board is preserved. Only the fault is addressed.' },
               { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support up-to-3 year warranty. Standard turnaround 48–72 hours from approval.' },
@@ -297,7 +297,7 @@ export default function LogicBoardRepairBryanstonPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Bryanston MacBook Fault? Free Diagnostic.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Bryanston MacBook Fault? Diagnostic: from R599.</h2>
             <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. Assessment: from R599. up-to-3 year warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

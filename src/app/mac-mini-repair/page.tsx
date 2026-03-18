@@ -375,7 +375,7 @@ export default function MacMiniRepairPage() {
               },
               {
                 title: 'Warranty',
-                desc: 'All repairs carry a warranty on parts and labour. If the same fault returns, we fix it free.',
+                desc: 'All repairs carry a warranty on parts and labour. If the same fault returns within the warranty period, we fix it at no charge.',
               },
               {
                 title: '16 Years of Apple Experience',

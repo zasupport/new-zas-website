@@ -85,12 +85,12 @@ const faqs = [
   {
     question: 'How much does iPad battery replacement cost in Johannesburg?',
     answer:
-      'iPad battery replacement pricing depends on your model and generation. We provide a free battery health test and a written fixed-price quote before starting any work.',
+      'iPad battery replacement pricing depends on your model and generation. We provide a battery health test and a written fixed-price quote before starting any work.',
   },
   {
     question: 'How do I know if my iPad battery needs replacing?',
     answer:
-      'Key signs are: iPad dying at 40–50% charge; noticeable bulging or raised back cover; barely lasting half a day; shutting off randomly; only working when plugged in. Any of these symptoms means your battery is degraded. We test battery health for free and give you an accurate capacity reading.',
+      'Key signs are: iPad dying at 40–50% charge; noticeable bulging or raised back cover; barely lasting half a day; shutting off randomly; only working when plugged in. Any of these symptoms means your battery is degraded. We test battery health and give you an accurate capacity reading.',
   },
   {
     question: 'Is a swollen iPad battery dangerous?',
@@ -220,7 +220,7 @@ export default function iPadBatteryPage() {
               Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599', 'Up-to-3 Year Warranty', 'Same-day available', 'Free battery health test', 'Swollen battery, urgent repair'].map((item) => (
+              {['Assessment: from R599', 'Up-to-3 Year Warranty', 'Same-day available', 'Battery health test included', 'Swollen battery, urgent repair'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -281,7 +281,7 @@ export default function iPadBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599. Free battery health assessment.
+            All repairs include written up-to-3 year warranty. Assessment: from R599. Battery health assessment included.
           </p>
         </div>
       </section>
@@ -294,7 +294,7 @@ export default function iPadBatteryPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Most iPad battery faults are easy to identify. If you recognise any of these symptoms,
-            bring your iPad in, we test battery health for free and give you a written quote before starting.
+            bring your iPad in, we test battery health and give you a written quote before starting.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -337,7 +337,7 @@ export default function iPadBatteryPage() {
                   },
                   {
                     icon: <Wrench className="w-5 h-5" />,
-                    title: 'Free Battery Health Test',
+                    title: 'Battery Health Test Included',
                     desc: 'We test your iPad battery health before quoting. If the battery is fine and the fault is elsewhere, we diagnose that too, no unnecessary replacements.',
                   },
                   {
@@ -417,7 +417,7 @@ export default function iPadBatteryPage() {
             >
               iPad Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Free battery health test. Assessment: from R599.</p>
+            <p className="text-[#7A9E98] mb-2">Battery health test included. Assessment: from R599.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

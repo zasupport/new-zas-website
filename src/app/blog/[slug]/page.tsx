@@ -201,7 +201,7 @@ No amount of rice changes this curve.
 3. Do not press any buttons (this can push liquid into connectors)
 4. Bring it to ZA Support as soon as possible — same day is best
 
-We offer free liquid damage assessments, 7 days a week. Assessment: from R599 on all repairs. Call 064 529 5863.
+We offer same-day liquid damage assessments, 7 days a week. Assessment: from R599 on all repairs. Call 064 529 5863.
     `.trim(),
   },
   'macbook-load-shedding-damage': {
@@ -368,7 +368,7 @@ AppleCare does not cover accidental damage or power surge damage — it covers m
 
 For most home offices running a MacBook Pro or MacBook Air, we recommend the APC Back-UPS Pro 1500VA or the Mecer 2000VA. Both provide true sine wave output, automatic voltage regulation, and adequate runtime. Avoid cheap generic UPS units without AVR — they absorb some surge but do not regulate brownout conditions that are common during load shedding transitions.
 
-## Book a Free Surge Damage Assessment
+## Book a Surge Damage Assessment
 
 If your MacBook is showing any of the symptoms described in this guide — or if it was plugged in during a load shedding reinstatement event and you want peace of mind — bring it in for a assessment fee (from R599).
 
@@ -634,7 +634,7 @@ If you have worked through every fix above and WiFi still does not work — or i
 
 **What to do:** Bring the machine to us for a assessment. We can determine within 15 minutes whether the fault is software, a loose connector, or a hardware component failure — and give you a clear quote before any work begins.
 
-[Book a free WiFi diagnostic.](https://wa.me/27645295863)
+[Book a WiFi diagnostic.](https://wa.me/27645295863)
 
 ## Frequently Asked Questions
 
@@ -1562,7 +1562,7 @@ Logic board failure presents differently depending on which component or circuit
 
 We follow a structured process for every [logic board repair](/logic-board-repair) we undertake:
 
-**Step 1 — Assessment: from R599.** Your Mac is inspected under specialist equipment and tested with professional diagnostic tools. We identify the exact fault — not a generic guess — and provide a written quote. This is completely free with no obligation.
+**Step 1 — Assessment: from R599.** Your Mac is inspected under specialist equipment and tested with professional diagnostic tools. We identify the exact fault — not a generic guess — and provide a written quote. This is with no obligation.
 
 **Step 2 — Board removal.** The logic board is carefully removed from the chassis. Every connector is documented and tested. The board is inspected under high magnification for physical damage, corrosion, or component failure.
 
@@ -1586,7 +1586,7 @@ Logic board repair is the highest-risk category of Mac repair. Some boards are s
 
 Our [Assessment: from R599](/no-fix-no-fee) guarantee applies fully to logic board repair: if we assess your board and determine it cannot be economically repaired, or if we attempt the repair and cannot resolve the fault, assessment fee of from R599 applies. No diagnostic fee. No handling charge.
 
-## How to Book Your Free Logic Board Assessment
+## How to Book Your Logic Board Assessment
 
 The fastest way is to WhatsApp us on 064 529 5863 with your Mac model and the fault description. We will confirm a same-day or next-day appointment.
 
@@ -1600,7 +1600,7 @@ We are based at Hyde Park, Johannesburg. Clients come to us from Sandton, Roseba
 
 **How much does MacBook logic board repair cost in Johannesburg in 2026?**
 
-Component-level logic board repair at ZA Support is significantly less than a full board swap or replacement. All assessments are free — you receive a fixed quote before any work begins. Contact us for a quote specific to your model and fault.
+Component-level logic board repair at ZA Support is significantly less than a full board swap or replacement. Assessment: from R599 — you receive a fixed quote before any work begins. Contact us for a quote specific to your model and fault.
 
 **Can a MacBook logic board be repaired without losing data?**
 
@@ -1770,7 +1770,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'When should I take my slow Mac to a repair shop?',
-          acceptedAnswer: { '@type': 'Answer', text: 'If you have worked through the free steps — cleared storage, removed login items, reset SMC and NVRAM, checked Activity Monitor — and the Mac is still slow, the cause is likely hardware: thermal paste degradation, insufficient RAM, or a failing SSD. ZA Support offers free Mac diagnosis in Hyde Park, Johannesburg. Assessment: from R599 on all repairs.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'If you have worked through the free steps — cleared storage, removed login items, reset SMC and NVRAM, checked Activity Monitor — and the Mac is still slow, the cause is likely hardware: thermal paste degradation, insufficient RAM, or a failing SSD. ZA Support offers Mac diagnosis: from R599 in Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1862,7 +1862,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does a MacBook speed-up service cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support\'s Health Check service includes a full 28-phase diagnostic with a plain-English report. If hardware upgrades are needed (RAM, SSD, thermal paste), we quote those separately before proceeding. Initial assessment is free. Assessment: from R599 on all work. Based in Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'ZA Support\'s Health Check service includes a full 28-phase diagnostic with a plain-English report. If hardware upgrades are needed (RAM, SSD, thermal paste), we quote those separately before proceeding. Assessment: from R599 on all work. Based in Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -1908,7 +1908,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does MacBook WiFi repair cost in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'WiFi repair cost depends on the cause. ZA Support offers free initial diagnostics — we identify the exact fault before quoting. Software fixes, WiFi card replacement, and logic board circuit repair are all quoted individually after diagnosis. Assessment: from R599. Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'WiFi repair cost depends on the cause. ZA Support offers diagnostic assessments: from R599 — we identify the exact fault before quoting. Software fixes, WiFi card replacement, and logic board circuit repair are all quoted individually after diagnosis. Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -2006,7 +2006,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does MacBook logic board repair cost in Johannesburg in 2026?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Component-level logic board repair at ZA Support is significantly less than a full board swap or replacement through authorised service. All assessments are free with Assessment: from R599. Contact us for a quote specific to your model and fault.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Component-level logic board repair at ZA Support is significantly less than a full board swap or replacement through authorised service. Assessment: from R599. Contact us for a quote specific to your model and fault.' },
         },
         {
           '@type': 'Question',
@@ -2041,7 +2041,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'What should I do if my MacBook suddenly stops working?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Do not attempt to restart it repeatedly. If there was liquid exposure, do not plug in a charger. Bring it to ZA Support in Hyde Park, Johannesburg for a free same-day assessment. The faster we see it, the higher the likelihood of a full, cost-effective repair. Assessment: from R599.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Do not attempt to restart it repeatedly. If there was liquid exposure, do not plug in a charger. Bring it to ZA Support in Hyde Park, Johannesburg for a same-day assessment. Assessment: from R599. The faster we see it, the higher the likelihood of a full, cost-effective repair.' },
         },
       ],
     },

@@ -124,7 +124,7 @@ const faqs = [
   },
   {
     question: 'Do you repair MacBooks that other shops have refused?',
-    answer: 'Yes. We specialise in component-level logic board component-level repair, which many repair shops cannot perform. If you have been told your MacBook is beyond repair or only Apple can fix it, bring it to us for a free second opinion. We successfully repair boards that Apple quotes for full replacement.',
+    answer: 'Yes. We specialise in component-level logic board component-level repair, which many repair shops cannot perform. If you have been told your MacBook is beyond repair or only Apple can fix it, bring it to us for a second opinion. We successfully repair boards that Apple quotes for full replacement.',
   },
   {
     question: 'What is the difference between MacBook Air and MacBook Pro repair costs?',

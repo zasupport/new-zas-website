@@ -230,7 +230,7 @@ export default function MacMiniLogicBoardPage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all"
               >
-                Free Diagnostic <ArrowRight className="w-5 h-5" />
+                Diagnostic: from R599 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -395,7 +395,7 @@ export default function MacMiniLogicBoardPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { step: '01', title: 'Drop-Off or Collection', desc: 'Bring your Mac mini to Hyde Park or arrange same-day collection from Sandton, Rosebank, Randburg, Fourways, Midrand, or Bryanston.' },
-              { step: '02', title: 'Free Same-Day Diagnostic', desc: 'Board-level diagnostic using DC power supply analysis, scope probing, and thermal imaging. We identify the exact component at fault.' },
+              { step: '02', title: 'Same-Day Diagnostic', desc: 'Board-level diagnostic using DC power supply analysis, scope probing, and thermal imaging. We identify the exact component at fault.' },
               { step: '03', title: 'Component-Level Repair', desc: 'Under microscope, we replace only the failed IC or component, not the whole board. Temperature-controlled soldering, correct equipment.' },
               { step: '04', title: 'Full Test + Up-to-3 Year Warranty', desc: 'Post-repair stress test: all ports, display outputs, boot stability, thermal performance. Up-to-3 year warranty issued on collection.' },
             ].map((s) => (

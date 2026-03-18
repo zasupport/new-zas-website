@@ -229,7 +229,7 @@ export default function iMacLogicBoardPage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all"
               >
-                Free Diagnostic <ArrowRight className="w-5 h-5" />
+                Diagnostic: from R599 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -394,7 +394,7 @@ export default function iMacLogicBoardPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { step: '01', title: 'Drop-Off or Collection', desc: 'Bring your iMac to our Hyde Park workshop or arrange collection. We cover Sandton, Rosebank, Randburg, Fourways, and surrounds.' },
-              { step: '02', title: 'Free Diagnostic', desc: 'Same-day board-level diagnostic. We identify the exact component or circuit at fault, not a guess. You receive a written quote before any work begins.' },
+              { step: '02', title: 'Diagnostic: from R599', desc: 'Same-day board-level diagnostic. We identify the exact component or circuit at fault, not a guess. You receive a written quote before any work begins.' },
               { step: '03', title: 'Component-Level Repair', desc: 'Under a stereo microscope with temperature-controlled soldering equipment, we replace only the failed IC, not the whole board.' },
               { step: '04', title: 'Full Test + Warranty', desc: 'Post-repair stress test: power cycling, display output, port function, thermal sensors. Up-to-3 year warranty issued on collection.' },
             ].map((s) => (
@@ -422,7 +422,7 @@ export default function iMacLogicBoardPage() {
               },
               {
                 title: 'Up-to-3 Year Warranty',
-                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within the warranty period, we fix it free.',
+                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within the warranty period, we fix it at no charge.',
               },
               {
                 title: 'Assessment: from R599',

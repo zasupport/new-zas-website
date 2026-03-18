@@ -129,7 +129,7 @@ const knownIssues = [
     name: 'Butterfly Keyboard Failure',
     models: 'MacBook Air 2018–2019 (Intel)',
     icon: AlertTriangle,
-    description: 'Apple\'s butterfly keyboard mechanism was used in the 2018 and 2019 MacBook Air Intel models. It is prone to key bounce, stuck keys, and complete switch failure from minor debris. Apple\'s free repair programme has ended. We replace the full top-case assembly, keyboard, battery bracket, and surrounding chassis, with a up-to-3 year warranty.',
+    description: 'Apple\'s butterfly keyboard mechanism was used in the 2018 and 2019 MacBook Air Intel models. It is prone to key bounce, stuck keys, and complete switch failure from minor debris. Apple\'s repair programme has ended. We replace the full top-case assembly, keyboard, battery bracket, and surrounding chassis, with a up-to-3 year warranty.',
   },
   {
     name: 'Screen Anti-Reflective Coating Delamination',
@@ -160,7 +160,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Air will not turn on. What can cause that?',
-    answer: 'A MacBook Air that does not power on has several possible causes: a completely discharged or failed battery, a faulty USB-C charging port, a failed power management IC on the logic board, or in rarer cases a failed T2 chip or Secure Enclave on Intel models. We run a free no-power diagnostic, connect a known-good charger, check port continuity, and test the battery independently before quoting.',
+    answer: 'A MacBook Air that does not power on has several possible causes: a completely discharged or failed battery, a faulty USB-C charging port, a failed power management IC on the logic board, or in rarer cases a failed T2 chip or Secure Enclave on Intel models. We run a no-power diagnostic, connect a known-good charger, check port continuity, and test the battery independently before quoting.',
   },
   {
     question: 'How long does MacBook Air repair take?',
@@ -168,7 +168,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Air has a butterfly keyboard with keys that do not work. Can it be fixed?',
-    answer: 'Yes. Butterfly keyboard failure is a known issue on MacBook Air 2018 and 2019 Intel models. Apple\'s free repair programme ended in 2023. The repair involves replacing the full top-case assembly, keyboard, battery bracket, and chassis, with a working unit. We carry top-case assemblies for both affected models and include a up-to-3 year warranty.',
+    answer: 'Yes. Butterfly keyboard failure is a known issue on MacBook Air 2018 and 2019 Intel models. Apple\'s repair programme ended in 2023. The repair involves replacing the full top-case assembly, keyboard, battery bracket, and chassis, with a working unit. We carry top-case assemblies for both affected models and include a up-to-3 year warranty.',
   },
   {
     question: 'Is it worth repairing an older MacBook Air?',

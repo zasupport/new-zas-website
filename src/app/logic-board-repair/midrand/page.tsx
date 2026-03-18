@@ -113,7 +113,7 @@ export default function LogicBoardRepairMidrandPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'Diagnostic: from R599' },
                 { icon: CheckCircle, label: 'Assessment: from R599' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
@@ -250,7 +250,7 @@ export default function LogicBoardRepairMidrandPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Midrand MacBook Problem? Free Diagnostic.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Midrand MacBook Problem? Diagnostic: from R599.</h2>
             <p className="text-[#7A9E98] mb-6">We collect from Midrand. Assessment: from R599. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={CONTACT.whatsappLogicBoard} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

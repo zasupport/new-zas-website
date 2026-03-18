@@ -29,7 +29,7 @@ const pricingRows = [
   { service: 'Lightning port repair / replacement', price: 'Contact for pricing', note: 'Older iPad models' },
   { service: 'USB-C port repair / replacement', price: 'Contact for pricing', note: 'iPad Air, Pro, mini 6+' },
   { service: 'Charging IC / logic board repair', price: 'Contact for pricing', note: 'Board-level diagnosis first' },
-  { service: 'Assessment', price: 'Free', note: 'Assessment: from R599' },
+  { service: 'Assessment', price: 'From R599', note: 'Assessment: from R599' },
 ];
 
 const causes = [
@@ -92,7 +92,7 @@ const faqs = [
   {
     question: 'How much does iPad charging port repair cost in Johannesburg?',
     answer:
-      'A charging port clean resolves most cases. If the port needs replacement, we carry out Lightning or USB-C port repair as needed. Logic board charging IC faults require board-level diagnosis. All repairs include a free initial assessment, no charge if we cannot fix it. Contact us for a quote.',
+      'A charging port clean resolves most cases. If the port needs replacement, we carry out Lightning or USB-C port repair as needed. Logic board charging IC faults require board-level diagnosis. All repairs include an initial assessment from R599. Contact us for a quote.',
   },
   {
     question: 'Can a dirty charging port stop an iPad from charging completely?',
@@ -218,7 +218,7 @@ export default function iPadChargingPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Dirty port, damaged pins, charging IC fault, or dead battery, we diagnose iPad charging
-              problems for free. All models, Lightning and USB-C.
+              problems. Assessment: from R599. All models, Lightning and USB-C.
               up-to-3 year warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
@@ -283,7 +283,7 @@ export default function iPadChargingPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599. Assessment is always free.
+            All repairs include written up-to-3 year warranty. Assessment: from R599.
           </p>
         </div>
       </section>
@@ -345,7 +345,7 @@ export default function iPadChargingPage() {
                   {
                     icon: <CheckCircle className="w-5 h-5" />,
                     title: 'Assessment: from R599',
-                    desc: 'If we cannot resolve your iPad charging fault, assessment fee of from R599 applies. Our assessment is always free, no charge regardless of outcome.',
+                    desc: 'Assessment: from R599. We diagnose the root cause before any repair work begins. Written quote provided before we start.',
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">

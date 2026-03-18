@@ -41,7 +41,7 @@ const causes = [
     description:
       'The most common cause, and the cheapest fix. A worn, frayed, or internally broken cable looks fine but cannot deliver power. Try a different Apple-certified cable before anything else.',
     severity: 'low',
-    cost: 'Free to check, cable replacement available',
+    cost: 'Check your cable at home first, replacement available',
   },
   {
     icon: '🧹',
@@ -132,7 +132,7 @@ const faqs = [
   {
     question: 'My MacBook won\'t charge, what should I check first?',
     answer:
-      'Start with the basics: try a different Apple-certified cable, try a different charger (if available), and perform an SMC reset (hold Shift+Control+Option+Power for 10 seconds on Intel models; on Apple Silicon, simply shut down and restart). If none of these resolve the issue, bring the machine in, we will diagnose the root cause for free and tell you exactly what is needed before charging you anything.',
+      'Start with the basics: try a different Apple-certified cable, try a different charger (if available), and perform an SMC reset (hold Shift+Control+Option+Power for 10 seconds on Intel models; on Apple Silicon, simply shut down and restart). If none of these resolve the issue, bring the machine in, we will diagnose the root cause and tell you exactly what is needed before charging you anything.',
   },
   {
     question: 'How much does MacBook charging port repair cost in Johannesburg?',

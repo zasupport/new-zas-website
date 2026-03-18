@@ -100,7 +100,7 @@ const faqs = [
   {
     question: 'My MacBook Pro is from 2017 — can I upgrade the RAM?',
     answer:
-      'It depends on the model. The MacBook Pro 15" 2017 has SO-DIMM slots and can be upgraded. The MacBook Pro 13" 2017 has RAM soldered to the logic board and cannot be upgraded. Bring your machine in for a free check, or call us with your serial number and we can confirm in seconds.',
+      'It depends on the model. The MacBook Pro 15" 2017 has SO-DIMM slots and can be upgraded. The MacBook Pro 13" 2017 has RAM soldered to the logic board and cannot be upgraded. Bring your machine in or call us with your serial number and we can confirm in seconds.',
   },
   {
     question: 'What warranty do you provide on RAM upgrades?',

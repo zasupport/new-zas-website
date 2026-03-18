@@ -132,7 +132,7 @@ const knownIssues = [
 const faqs = [
   {
     question: 'How much does MacBook Pro repair cost in Johannesburg?',
-    answer: 'MacBook Pro repair pricing depends on the model and fault. Liquid damage assessment is free, with a fixed quote before any work begins. We never start work without written approval.',
+    answer: 'MacBook Pro repair pricing depends on the model and fault. Liquid damage assessment: from R599, with a fixed quote before any work begins. We never start work without written approval.',
   },
   {
     question: 'What is Flexgate and can it be fixed?',
@@ -144,7 +144,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro butterfly keyboard has keys that do not register. What are my options?',
-    answer: 'Butterfly keyboard failure is a known issue on MacBook Pro 2016 to 2019 models. Apple\'s free repair programme has ended. The repair involves replacing the full top case assembly, keyboard, battery connector bracket, and surrounding chassis. This is a major repair but produces a reliably working machine. We carry top cases for most affected models and include a warranty on the repair.',
+    answer: 'Butterfly keyboard failure is a known issue on MacBook Pro 2016 to 2019 models. Apple\'s repair programme has ended. The repair involves replacing the full top case assembly, keyboard, battery connector bracket, and surrounding chassis. This is a major repair but produces a reliably working machine. We carry top cases for most affected models and include a warranty on the repair.',
   },
   {
     question: 'My MacBook Pro has a black screen but the fans spin on startup. What is wrong?',
