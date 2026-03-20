@@ -279,20 +279,6 @@ const breadcrumbSchema = {
 
 const faqSchema = buildFaqSchema(faqs);
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#business',
-  name: 'ZA Support',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
-};
-
 const reviewSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
@@ -337,7 +323,6 @@ export default function LogicBoardRepairPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={reviewSchema} />
       <SchemaOrg schema={howToSchema} />
       <SchemaOrg schema={speakableSchema} />

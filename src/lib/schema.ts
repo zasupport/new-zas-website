@@ -40,7 +40,6 @@ export const LOCAL_BUSINESS_PROVIDER = {
       closes: '17:30',
     },
   ],
-  aggregateRating: AGGREGATE_RATING,
   hasMap: 'https://maps.app.goo.gl/E1agQ3ZZ6va73ano9',
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
