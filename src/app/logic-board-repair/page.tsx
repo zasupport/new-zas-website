@@ -282,15 +282,8 @@ const faqSchema = buildFaqSchema(faqs);
 const reviewSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#business',
+  '@id': 'https://zasupport.com/#organization',
   name: 'ZA Support',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: customerReviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },
