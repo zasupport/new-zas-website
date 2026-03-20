@@ -32,13 +32,6 @@ const aggregateRatingSchema = {
   name: 'MacBook Battery Replacement Johannesburg',
   description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const serviceSchema = {

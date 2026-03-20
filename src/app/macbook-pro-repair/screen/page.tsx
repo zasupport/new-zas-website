@@ -35,13 +35,6 @@ const aggregateRatingSchema = {
   name: 'MacBook Pro Screen Repair Johannesburg',
   description: 'Professional MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display. All models. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE.rating,
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const serviceSchema = {

@@ -47,13 +47,6 @@ const jsonLd = {
       },
       openingHours: 'Mo-Fr 08:00-18:00',
       priceRange: '$$',
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '4.9',
-        reviewCount: '632',
-        bestRating: '5',
-        worstRating: '1',
-      },
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: 'ZA Support Services',

@@ -155,13 +155,6 @@ const aggregateRatingSchema = {
   name: 'iPad Screen Repair Johannesburg',
   description: 'iPad screen repair service in Johannesburg covering all iPad mini, Air, and Pro models. Same-day available. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },

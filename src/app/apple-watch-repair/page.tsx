@@ -118,13 +118,6 @@ const serviceSchema = {
     { '@type': 'Offer', name: 'Apple Watch Battery Replacement' },
     { '@type': 'Offer', name: 'Apple Watch Crown Repair' },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE.rating,
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const breadcrumbSchema = {

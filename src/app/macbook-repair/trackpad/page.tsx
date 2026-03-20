@@ -148,13 +148,6 @@ const aggregateRatingSchema = {
   name: 'MacBook Trackpad Repair Johannesburg',
   description: 'MacBook trackpad repair service in Johannesburg. Swollen battery, clicking faults, cursor issues, Force Touch repair. All MacBook Air and Pro models.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },

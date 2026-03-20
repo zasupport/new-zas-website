@@ -1718,13 +1718,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       postalCode: '2196',
       addressCountry: 'ZA',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '632',
-      bestRating: '5',
-      worstRating: '1',
-    },
   };
 
   const faqSchemas: Record<string, SchemaOrg> = {

@@ -35,13 +35,6 @@ const aggregateRatingSchema = {
   name: 'MacBook Pro Battery Replacement Johannesburg',
   description: 'Professional MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE.rating,
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const serviceSchema = {

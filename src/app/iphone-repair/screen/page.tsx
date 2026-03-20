@@ -161,13 +161,6 @@ const aggregateRatingSchema = {
   name: 'iPhone Screen Repair Johannesburg',
   description: 'iPhone screen repair in Johannesburg. All models iPhone 12 through 16 Pro Max. OLED replacement, touch repair, dead pixels. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },

@@ -262,13 +262,6 @@ const aggregateRatingSchema = {
     postalCode: CONTACT.address.postalCode,
     addressCountry: 'ZA',
   },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const reviewSchema = {

@@ -160,12 +160,6 @@ const serviceSchema = {
   provider: {
     '@type': 'LocalBusiness',
     name: 'ZA Support',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '120',
-      bestRating: '5',
-    },
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1 Hyde Lane',

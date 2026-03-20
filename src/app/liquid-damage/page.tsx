@@ -165,13 +165,6 @@ const liquidDamageReviewSchema = {
   '@type': 'LocalBusiness',
   '@id': 'https://zasupport.com/#business',
   name: 'ZA Support',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: [
     {
       '@type': 'Review',

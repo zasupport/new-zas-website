@@ -192,13 +192,6 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'ZA Support, MacBook Air Repair Johannesburg',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE.rating,
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const serviceSchema = {

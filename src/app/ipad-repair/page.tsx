@@ -128,13 +128,6 @@ const serviceSchema = {
     url: 'https://zasupport.com',
   },
   areaServed: 'Johannesburg',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE.rating,
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const breadcrumbSchema = {

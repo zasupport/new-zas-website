@@ -233,13 +233,6 @@ const aggregateRatingSchema = {
   description:
     'MacBook keyboard repair service in Johannesburg covering all MacBook Air and Pro models.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },

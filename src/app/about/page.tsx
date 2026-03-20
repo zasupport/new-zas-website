@@ -92,12 +92,6 @@ const localBusinessSchema = {
       { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'JAMF MDM Setup', description: 'Apple fleet management for businesses' } },
     ],
   },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-  },
   priceRange: '$$',
   currenciesAccepted: 'ZAR',
   paymentAccepted: 'Cash, Credit Card, EFT',

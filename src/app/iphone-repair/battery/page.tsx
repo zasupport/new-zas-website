@@ -161,13 +161,6 @@ const aggregateRatingSchema = {
   name: 'iPhone Battery Replacement Johannesburg',
   description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen battery. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },

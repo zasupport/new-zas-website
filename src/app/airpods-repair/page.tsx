@@ -115,13 +115,6 @@ const serviceSchema = {
     { '@type': 'Offer', name: 'AirPods Deep Clean' },
     { '@type': 'Offer', name: 'AirPods Charging Contact Repair' },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE.rating,
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
 };
 
 const breadcrumbSchema = {

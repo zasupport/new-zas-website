@@ -159,13 +159,6 @@ const aggregateRatingSchema = {
   name: 'iPhone Camera Repair Johannesburg',
   description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens, OIS failure. Front and rear. iPhone 12 through 16 Pro Max. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },

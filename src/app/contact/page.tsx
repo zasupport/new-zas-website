@@ -41,13 +41,6 @@ const localBusinessSchema = {
       closes: '17:30',
     },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE.rating,
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
     { '@type': 'Neighborhood', name: 'Hyde Park' },

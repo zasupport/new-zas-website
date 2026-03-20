@@ -161,13 +161,6 @@ const aggregateRatingSchema = {
   name: 'iPhone Back Glass Repair Johannesburg',
   description: 'iPhone back glass repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Cracked rear glass, MagSafe, wireless charging. up-to-3 year warranty.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },

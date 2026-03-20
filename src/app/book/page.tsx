@@ -44,12 +44,6 @@ const localBusinessSchema = {
   },
   openingHours: 'Mo-Fr 08:00-17:30 Sa 09:00-13:00',
   priceRange: 'from R599 assessment',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-  },
 };
 
 export default function BookPage() {

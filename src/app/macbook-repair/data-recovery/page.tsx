@@ -119,13 +119,6 @@ const aggregateRatingSchema = {
   name: 'MacBook Data Recovery Johannesburg',
   description: 'MacBook data recovery service in Johannesburg. Deleted files, failed drives, liquid damage, accidental format. No data, no fee.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '98',
-    bestRating: '5',
-    worstRating: '1',
-  },
   review: reviews.map((r) => ({
     '@type': 'Review',
     author: { '@type': 'Person', name: r.name },
