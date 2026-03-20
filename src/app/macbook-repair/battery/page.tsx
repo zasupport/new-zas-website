@@ -231,7 +231,6 @@ export default function MacBookBatteryPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
-      <SchemaOrg schema={aggregateRatingSchema} />
 
       {/* ── Hero ────────────────────────────────────────────────────────── */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">

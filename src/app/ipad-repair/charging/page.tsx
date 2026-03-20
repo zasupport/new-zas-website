@@ -191,7 +191,6 @@ const whatsappUrl = 'https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20my%20
 export default function iPadChargingPage() {
   return (
     <>
-      <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />

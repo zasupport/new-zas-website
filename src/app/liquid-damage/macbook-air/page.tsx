@@ -246,7 +246,6 @@ export default function MacBookAirLiquidDamagePage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={aggregateRatingSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-20">

@@ -238,7 +238,6 @@ export default function MacBookChargingPortPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchemaData} />
-      <SchemaOrg schema={aggregateRatingSchema} />
 
       {/* ── Hero ── */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">

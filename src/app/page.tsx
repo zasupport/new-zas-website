@@ -7,7 +7,7 @@ import {
   Star, ArrowRight, Zap, Award
 } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema, AGGREGATE_RATING } from '@/lib/schema';
+import { buildFaqSchema } from '@/lib/schema';
 import { CONTACT, SITE } from '@/lib/constants';
 import GoogleReviews from '@/components/ui/GoogleReviews';
 
@@ -104,13 +104,6 @@ const websiteSchema = {
   },
 };
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#organization',
-  name: 'ZA Support',
-  aggregateRating: AGGREGATE_RATING,
-};
 
 const speakableSchema = {
   '@context': 'https://schema.org',
@@ -173,7 +166,6 @@ export default function HomePage() {
   return (
     <>
       <SchemaOrg schema={websiteSchema} />
-      <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={speakableSchema} />
 

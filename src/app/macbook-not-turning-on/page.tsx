@@ -362,7 +362,6 @@ export default function MacBookNotTurningOnPage() {
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={howToSchema} />
 
       <main className="bg-[#0A1A18] min-h-screen">

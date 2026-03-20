@@ -299,7 +299,6 @@ export default function AppleRepairPage() {
     <>
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
-      <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={reviewSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 

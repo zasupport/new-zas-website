@@ -195,7 +195,6 @@ void LOCAL_BUSINESS_PROVIDER;
 export default function iPhoneChargingPage() {
   return (
     <>
-      <SchemaOrg schema={aggregateRatingSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />

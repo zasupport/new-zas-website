@@ -189,7 +189,6 @@ export default function AssessmentProcessPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={aggregateRatingSchema} />
 
       <main className="min-h-screen" style={{ background: '#0A1A18', color: '#E8F4F1' }}>
 

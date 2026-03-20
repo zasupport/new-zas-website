@@ -33,20 +33,23 @@ Hard stops only: force push main | delete production data.
 Before closing ANY chat or session: execute ALL remaining tasks (build/fix/commit/deploy/verify), write ALL learnings to MEMORY.md + memory/*.md, sync new permanent rules to all repo CLAUDE.md files.
 BANNED: stopping mid-task | leaving items for next session without executing | reporting without acting | "shall I continue?" when more remains.
 
-## CI/DEPLOY ERROR RULE (§BUILD-FIRST — PERMANENT — HARD)
-ON ANY CI failure, GitHub Actions failure, Vercel deploy failure, or build error:
-FIX IT IMMEDIATELY — before any other task, before any new feature, before any other response.
-(1) Pull exact error from `gh run list --repo zasupport/new-zas-website` + `gh run view <id> --log-failed` (2) Fix root cause in code (3) Commit + push (4) Verify CI passes (5) THEN continue prior task.
-∅ "I'll fix this later" | ∅ move on with failure unresolved | ∅ report without fixing
-Email signals: subject:"Run failed" | subject:"Failed production deployment" — treat as P0 interrupts.
-Common errors this repo: react/no-unescaped-entities (FIXED in eslint.config.mjs) | TypeScript type mismatches | unused imports
-
 ## CI/DEPLOY ERROR RULE (§123 — PERMANENT — HARD — P0)
-ON ANY CI failure, GitHub Actions failure, Vercel deploy failure, Render crash, or build error:
-FIX IMMEDIATELY — before any other task, before any new feature, before continuing anything.
-(1) gh run list --repo <repo> --limit 3 → identify (2) gh run view <id> --log-failed → get errors (3) Fix in code (4) Commit+push (5) Verify green (6) Resume prior task.
-∅ "I will fix this later" | ∅ proceed with broken CI | ∅ report without fixing
-Monitor: ~/bin/za-ci-monitor.sh (every 5min) | Alert: ~/Desktop/ZA-CI-FAILURE-*.md → fix same response.
+ON ANY CI/Vercel/build failure: FIX IMMEDIATELY — before any other task.
+(1) gh run list --repo zasupport/new-zas-website --limit 3 (2) gh run view <id> --log-failed (3) Fix (4) Commit+push (5) Verify green (6) Resume.
+∅ proceed with broken CI | ∅ "fix later" | Monitor: ~/bin/za-ci-monitor.sh
+Common errors: react/no-unescaped-entities | TypeScript mismatches | unused imports
+
+## E2E TEST RULE (§164 — PERMANENT — HARD — 20/03/2026)
+AFTER ANY change (code|config|schema|robots|deploy): immediately run full infrastructure e2e test SAME response.
+TEST SUITE — run ALL in parallel:
+(1) gh run list --limit 1 → CI green ✅
+(2) curl -s -o /dev/null -w "%{http_code}" https://zasupport.com/ → 200 ✅
+(3) curl -s https://zasupport.com/robots.txt → correct Disallow rules ✅
+(4) curl -s https://zasupport.com/sitemap.xml | head -5 → valid XML ✅
+(5) curl -s https://zasupport.com/<changed-page> | python3 -c "count aggregateRating" → 1 per page ✅
+(6) curl -s https://zasupport.com/<changed-page> | grep -c '"@type"' → schemas present ✅
+∅ "deploy queued" and stop | ∅ report changes without running tests | ∅ assume it works
+NOTIFY: "✅ E2E PASS — [n] checks green. [any failures → fix immediately before notifying]"
 
 ## AUTOMATION/MONITORING TOOL REQUESTS (§124 — PERMANENT — HARD)
 Requests to build any monitoring, alerting, watchdog, automation, or CI tool = pre-approved. Build immediately, zero questions. ∅ ask, ∅ confirm.
