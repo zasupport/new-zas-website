@@ -89,6 +89,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/iphone-repair/screen/bryanston`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/iphone-repair/screen/midrand`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/iphone-repair/screen/randburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/iphone-repair/screen/kempton-park`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // Liquid damage suburb pages
     { url: `${base}/liquid-damage/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -97,6 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/bryanston`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/liquid-damage/midrand`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/liquid-damage/randburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/liquid-damage/kempton-park`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // iPhone repair sub-pages
     { url: `${base}/iphone-repair/screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },

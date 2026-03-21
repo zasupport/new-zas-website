@@ -3195,6 +3195,28 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </a>
           </div>
 
+          <div className="mt-10">
+            <h2 className="text-lg font-bold text-[#E8F4F1] mb-4">ZA Support Services</h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {[
+                { label: 'Logic Board Repair', href: '/logic-board-repair' },
+                { label: 'Liquid Damage Repair', href: '/liquid-damage' },
+                { label: 'Battery Replacement', href: '/battery-replacement' },
+                { label: 'MacBook Repair', href: '/macbook-repair' },
+                { label: 'iPhone Screen Repair', href: '/iphone-repair/screen' },
+                { label: 'All Blog Posts', href: '/blog' },
+              ].map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="glass-card p-3 text-center text-sm font-medium text-[#E8F4F1] hover:text-[#0FEA7A] transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+
           <div className="mt-8">
             <Link href="/blog" className="inline-flex items-center gap-2 text-[#7A9E98] hover:text-[#0FEA7A] text-sm transition-colors">
               <ArrowLeft className="w-4 h-4" /> All posts
