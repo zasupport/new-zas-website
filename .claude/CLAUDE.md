@@ -23,6 +23,73 @@ Revenue priority: Logic board repair #1 | Liquid damage #2 | iPhone/iPad #3 (org
 - Title format: "[Service] Johannesburg [Year] | From R[Price] | ZA Support"
 - Competitor price anchors: Mac Shack=R4,499 board replacement | Apple Store=R15k-R70k
 
+## §165 FAQ MANDATE (PERMANENT — HARD — 22/03/2026)
+EVERY page (service|suburb|blog|landing) MUST have:
+1. FAQAccordion component with ≥6 FAQs visible on page
+2. FAQPage schema block (buildFaqSchema) in structured data
+∅ create any page without FAQAccordion + FAQPage schema | ∅ ship any page without both
+
+## §166 SERP MAXIMISATION (PERMANENT — HARD — 22/03/2026)
+Every SERP-eligible page MUST have ALL applicable schema:
+- ServiceSchema (every service/suburb page)
+- FAQPage schema (every page with Q&A content)
+- BreadcrumbList (every page below homepage)
+- AggregateRating via layout LocalBusiness (do NOT duplicate on page level)
+- ArticleSchema (blog posts only)
+∅ ship page missing applicable schema | check via Google Rich Results Test after deploy
+
+## §167 MODEL-SPECIFIC PAGES (PERMANENT — HARD — 22/03/2026)
+Every service type MUST have model-specific sub-pages. Generic device pages (e.g. /macbook-pro) are NOT sufficient.
+REQUIRED for logic-board-repair: macbook-pro-m1 | macbook-pro-m2 | macbook-pro-m3 | macbook-pro-14-inch | macbook-pro-16-inch | macbook-pro-13-inch | macbook-air-m1 | macbook-air-m2
+ON any new service hub: immediately create model-specific variants | ∅ hub-only (no model pages) = INCOMPLETE
+
+## §168 E-E-A-T SIGNALS (PERMANENT — HARD — 22/03/2026)
+Every service page MUST include at minimum:
+- Specific technical process described (not generic)
+- At least 1 suburb/location-specific detail in body copy
+- Explicit mention of: written warranty | assessment fee (from R599) | No Fix No Fee
+- ZA Support contact embedded naturally (not just CTA)
+∅ generic filler content | ∅ pages under 400 words body text
+
+## §169 SERVICE AREA (PERMANENT — HARD — 22/03/2026)
+Service area = all suburbs within 25km of Hyde Park (1 Hyde Park Lane, JHB) PLUS Pretoria and Centurion (explicit client request).
+COVERED SUBURBS (22/03/2026): sandton|rosebank|bryanston|fourways|midrand|randburg|kempton-park
+PENDING SUBURBS: pretoria|centurion|morningside|rivonia|sunninghill|paulshof|northcliff|houghton|parkhurst
+ON new suburb page: create across ALL 4 service types simultaneously: logic-board-repair + battery-replacement + liquid-damage + iphone-repair/screen
+∅ create suburb page for one service without creating for all 4 | sitemap updated same commit
+
+## §171 CONTENT QUALITY — AI DETECTION MITIGATION (PERMANENT — HARD — 22/03/2026)
+Google does not explicitly penalise AI-written content — it penalises LOW-QUALITY content that lacks E-E-A-T.
+ALL generated content MUST include:
+1. First-person experience signals: "We have seen...", "In our Hyde Park workshop...", "Clients frequently ask us..."
+2. Specific technical detail: component names, model numbers, tool names, exact procedures
+3. Local SA context: ZAR prices, load shedding, SA ISPs, Johannesburg suburbs, POPIA
+4. Varied sentence rhythm: mix short punchy sentences with longer explanatory ones — ∅ uniform length
+5. Concrete numbers: repair percentages, temperatures, time ranges, cost ranges
+6. Genuine opinion: "The most common mistake we see..." — ∅ neutral fence-sitting
+∅ publish content without all 6 signals present | update blog generator system prompt with these requirements
+AI HUMANISER TOOLS (use when content flagged): rewrite.ai (free) | Undetectable.ai (limited free) | QuillBot paraphrase mode
+PRIORITY FIX: update scripts/generate-blog-posts.py SYSTEM prompt to include these signals in every generation
+
+## §172 CONTENT SEO COMPLETENESS (PERMANENT — HARD — 22/03/2026)
+EVERY page before publish MUST have:
+- Title tag: target keyword + location + year + brand
+- Meta description: 150-160 chars, includes keyword + CTA
+- H1: one only, contains primary keyword
+- H2s: at least 4, covering subtopics and long-tail variants
+- Internal links: at least 3 linking to service hubs
+- External link: at least 1 to authoritative source (Apple support, iFixit, etc.)
+- Image alt tags: keyword-rich (if images present)
+- FAQPage schema: ≥6 questions (see §165)
+- Word count: minimum 600 words body text (800+ preferred)
+∅ publish page missing any item above | treat as incomplete until all present
+
+## §170 CONTENT CALENDAR — 3 BLOGS/DAY (PERMANENT — 22/03/2026)
+Generate 3 blog posts per day using claude-haiku-4-5 via scripts/generate-blog-posts.py
+Topics rotate: model-specific fault guides | suburb-specific repair guides | cost/pricing guides | how-to diagnostic guides
+Each post MUST have: FAQPage schema | ServiceSchema mention | 600-900 words | UK English | ≥6 FAQs in faqSchemas map
+∅ blog post without FAQPage schema | ∅ generic content (must target specific keyword)
+
 ## §109: AUTO-APPROVE IMPROVEMENTS (PERMANENT — HARD)
 ANY request to improve/optimise/upgrade/enhance/fix/refactor ANY file = pre-approved. Execute immediately.
 ∅ "Shall I?" | ∅ "Want me to?" | ∅ "Would you like?" — ALL BANNED.
