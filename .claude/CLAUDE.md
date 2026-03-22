@@ -23,6 +23,12 @@ Revenue priority: Logic board repair #1 | Liquid damage #2 | iPhone/iPad #3 (org
 - Title format: "[Service] Johannesburg [Year] | From R[Price] | ZA Support"
 - Competitor price anchors: Mac Shack=R4,499 board replacement | Apple Store=R15k-R70k
 
+## §173 EXECUTE-ON-SPEAK (PERMANENT — HARD — 22/03/2026)
+Identifying a gap/plan/fix/idea verbally or in text = IMMEDIATE execution same response.
+∅ "I'll build X" ∅ "this should be done" ∅ "the fix is Y" without doing it NOW.
+∅ separate planning from doing — they are the SAME response. Spoken = committed = done.
+VIOLATION: naming a task without completing it in the same response.
+
 ## §165 FAQ MANDATE (PERMANENT — HARD — 22/03/2026)
 EVERY page (service|suburb|blog|landing) MUST have:
 1. FAQAccordion component with ≥6 FAQs visible on page
