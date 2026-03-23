@@ -4,6 +4,8 @@
 # Usage: bash scripts/seo-monitor.sh
 # Schedule: weekly (add to crontab: 0 9 * * 1 cd /path && bash scripts/seo-monitor.sh)
 
+[ -f "$HOME/.za-keys-pending.env" ] && source "$HOME/.za-keys-pending.env"
+
 SITE="https://zasupport.com"
 LOG_DIR="$HOME/.za_support/seo-logs"
 DATE=$(date '+%d/%m/%Y %H:%M')
@@ -52,15 +54,19 @@ done
 # 5. PageSpeed check (API call)
 echo "" | tee -a "$LOG_FILE"
 echo "PageSpeed scores:" | tee -a "$LOG_FILE"
-for page in "/" "/liquid-damage" "/logic-board-repair"; do
-    SCORE=$(curl -s "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${SITE}${page}&strategy=mobile&key=" 2>/dev/null | \
-        python3 -c "import sys,json; d=json.load(sys.stdin);
+if [ -z "${PSI_API_KEY:-}" ]; then
+    echo "  [SKIP] PSI_API_KEY not set — skipping PageSpeed section" | tee -a "$LOG_FILE"
+else
+    for page in "/" "/liquid-damage" "/logic-board-repair"; do
+        SCORE=$(curl -s "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${SITE}${page}&strategy=mobile&key=${PSI_API_KEY:-}" 2>/dev/null | \
+            python3 -c "import sys,json; d=json.load(sys.stdin);
 cats=d.get('lighthouseResult',{}).get('categories',{})
 perf=cats.get('performance',{}).get('score','?')
 if perf != '?': print(int(perf*100))
 else: print('N/A')" 2>/dev/null)
-    echo "  Mobile score $page: $SCORE" | tee -a "$LOG_FILE"
-done
+        echo "  Mobile score $page: $SCORE" | tee -a "$LOG_FILE"
+    done
+fi
 
 # 6. Summary notification
 echo "" | tee -a "$LOG_FILE"
