@@ -98,6 +98,41 @@ EVERY page before publish MUST have:
 - Word count: minimum 600 words body text (800+ preferred)
 ∅ publish page missing any item above | treat as incomplete until all present
 
+## §W-SESSION-START — CHECKLIST (PERMANENT — HARD — 24/03/2026)
+ON every W session start, run ALL checks before any code changes:
+```bash
+grep "NEXT_PUBLIC_GA4_ID" ~/Developer/new-zas-website/.env.local 2>/dev/null; vercel env ls 2>/dev/null | grep GA4
+grep "NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION" ~/Developer/new-zas-website/.env.local 2>/dev/null
+curl -sf https://zasupport.com/c4f4daab237f44197e59b5b52f40da52.txt | head -1
+grep -o 'url: `[^`]*`' src/app/sitemap.ts | sort | uniq -d
+grep "og-image" src/app/layout.tsx
+curl -sf https://zasupport.com/robots.txt | head -5
+```
+**9-point service checklist (FAIL = fix before new features):**
+- [ ] GA4 ID real — NOT `G-XXXXXXXXXX` | Real ID: Google Analytics → Admin → Data Streams
+- [ ] GSC verified — NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION set in Vercel | GSC: paulwhittaker099@gmail.com
+- [ ] IndexNow key live — curl zasupport.com/c4f4daab237f44197e59b5b52f40da52.txt = key
+- [ ] Sitemap no duplicates — grep url sitemap.ts | sort | uniq -d = empty
+- [ ] OG image in metadata — grep "og-image" src/app/layout.tsx shows openGraph.images AND twitter.images
+- [ ] robots.txt correct — Disallow: /api/ /studio/ /_next/ /admin/
+- [ ] SSL cert > 30 days — morning billing report checks daily, warn <30d
+- [ ] Vercel deploy green — gh run list --limit 1 → CI pass
+- [ ] PSI scores > 90 — ~/bin/za-website-morning-report.sh
+
+## §W-SITEMAP-DEDUP (PERMANENT — HARD — 24/03/2026)
+Before committing ANY sitemap.ts change:
+```bash
+grep -o 'url: `[^`]*`' src/app/sitemap.ts | sort | uniq -d
+```
+Any output = duplicates — remove before committing. Duplicates waste GSC crawl budget.
+
+## §W-GA4-GSC (PERMANENT — HARD — 24/03/2026)
+GA4: NEXT_PUBLIC_GA4_ID must match `G-[A-Z0-9]{7,10}` — placeholder G-XXXXXXXXXX = zero tracking.
+GSC: verified via `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` env var in Vercel.
+IndexNow: ∅ direct Google/Bing ping URLs (deprecated) — use ~/bin/za-index-submit.sh ONLY.
+OG images: must be declared in metadata `openGraph.images` + `twitter.images` (absolute URLs, 1200×630px) — file in /public is NOT enough.
+PWA/mobile: theme-color + apple-mobile-web-app-capable + apple-touch-icon in layout.tsx <head> on every new project.
+
 ## §170 CONTENT CALENDAR — 3 BLOGS/DAY (PERMANENT — 22/03/2026)
 Generate 3 blog posts per day using claude-haiku-4-5 via scripts/generate-blog-posts.py
 Topics rotate: model-specific fault guides | suburb-specific repair guides | cost/pricing guides | how-to diagnostic guides
