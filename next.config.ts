@@ -14,7 +14,7 @@ const securityHeaders = [
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' https://fonts.gstatic.com",
       "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com https://cdn.sanity.io",
-      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://api.zasupport.com",
+      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://api.zasupport.com https://api.indexnow.org",
       "frame-src 'self' https://maps.google.com https://www.google.com",
       "object-src 'none'",
       "base-uri 'self'",

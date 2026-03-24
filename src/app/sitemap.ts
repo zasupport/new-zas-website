@@ -229,15 +229,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/parkhurst`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/iphone-repair/screen/parkhurst`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
-    // Auto-generated suburb pages — overnight batch
-    { url: `${base}/battery-replacement/pretoria`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/centurion`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/morningside`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/rivonia`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/sunninghill`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/paulshof`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/northcliff`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/houghton`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/battery-replacement/parkhurst`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
   ];
 }
