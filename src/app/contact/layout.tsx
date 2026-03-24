@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Contact ZA Support — Apple Repair Johannesburg',
     description: 'MacBook, iPhone and iPad repair in Hyde Park. Assessment: from R599. Call 064 529 5863.',
     url: 'https://zasupport.com/contact',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+    images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }],
   },
 };
 
