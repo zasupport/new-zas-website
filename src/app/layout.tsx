@@ -51,11 +51,20 @@ export const metadata: Metadata = {
     title: 'Apple Repair Johannesburg | ZA Support',
     description:
       "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. Assessment: from R599.",
+    images: [
+      {
+        url: 'https://zasupport.com/og-image.jpg',
+        width: 1200,
+        height: 800,
+        alt: 'ZA Support — Apple Repair Specialists Johannesburg',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ZA Support, Apple Repair Johannesburg',
     description: "Johannesburg's Apple repair specialists. Assessment: from R599. Call 064 529 5863.",
+    images: ['https://zasupport.com/og-image.jpg'],
   },
   robots: {
     index: true,
@@ -66,6 +75,9 @@ export const metadata: Metadata = {
     canonical: 'https://zasupport.com',
     languages: { 'en-ZA': 'https://zasupport.com' },
   },
+  ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { verification: { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } }
+    : {}),
 };
 
 export default function RootLayout({
@@ -75,6 +87,12 @@ export default function RootLayout({
     <html lang="en-ZA" className={`${inter.variable} ${dmMono.variable}`}>
       <head>
         <SchemaOrg schema={LOCAL_BUSINESS_SCHEMA} />
+        <meta name="theme-color" content="#0FEA7A" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="ZA Support" />
+        <link rel="apple-touch-icon" href="/icon-192.png" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="font-sans antialiased bg-[#0A1A18] text-[#E8F4F1]" style={{ fontFamily: 'Inter, sans-serif' }}>
         <Navbar />
