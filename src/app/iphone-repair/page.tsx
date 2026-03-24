@@ -62,6 +62,28 @@ const breadcrumbSchema = {
   ],
 };
 
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'iPhone Repair Johannesburg',
+  description: 'iPhone screen, battery, charging port, liquid damage and back glass repair in Johannesburg. All models iPhone 6 through 16 Pro Max. Assessment from R599.',
+  provider: {
+    '@type': 'LocalBusiness',
+    name: 'ZA Support',
+    url: 'https://zasupport.com',
+    telephone: '+27645295863',
+  },
+  areaServed: { '@type': 'City', name: 'Johannesburg' },
+  serviceType: 'iPhone Repair',
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'ZAR',
+    price: '599',
+    priceSpecification: { '@type': 'UnitPriceSpecification', price: '599', priceCurrency: 'ZAR', unitText: 'assessment from' },
+    availability: 'https://schema.org/InStock',
+  },
+};
+
 const faqSchema = buildFaqSchema(faqs);
 
 export default function iPhoneRepairPage() {
@@ -69,6 +91,7 @@ export default function iPhoneRepairPage() {
     <>
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
+      <SchemaOrg schema={serviceSchema} />
 
       <section className="hero-gradient grid-overlay pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

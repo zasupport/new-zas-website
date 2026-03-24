@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import Link from 'next/link';
 import { Phone, MessageCircle, CheckCircle, ArrowRight, Calendar, Zap } from 'lucide-react';
+import { trackBookFormSubmit, trackBookFormStart } from '@/lib/analytics';
 
 type FormValues = {
   name: string;
@@ -72,6 +73,7 @@ export default function BookPage() {
       });
       const json = await res.json();
       if (!res.ok) throw new Error(json.error ?? 'Submission failed');
+      trackBookFormSubmit(data.deviceType, data.deviceType);
       setWhatsappUrl(json.whatsappUrl ?? '');
       setSubmitted(true);
     } catch (err) {
@@ -185,7 +187,7 @@ export default function BookPage() {
                 </div>
               </div>
 
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-5" noValidate>
+              <form onSubmit={handleSubmit(onSubmit)} onFocus={trackBookFormStart} className="space-y-5" noValidate>
                 {/* Name */}
                 <div>
                   <label className="block text-[#E8F4F1] text-sm font-medium mb-1.5">

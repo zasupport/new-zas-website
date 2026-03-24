@@ -55,7 +55,7 @@ export const metadata: Metadata = {
       {
         url: 'https://zasupport.com/og-image.jpg',
         width: 1200,
-        height: 800,
+        height: 630,
         alt: 'ZA Support — Apple Repair Specialists Johannesburg',
       },
     ],
