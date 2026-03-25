@@ -620,7 +620,7 @@ export default function LogicBoardRepairPage() {
             {[1, 2, 3, 4, 5].map((s) => (
               <Star key={s} className="w-5 h-5 fill-[#0FEA7A] text-[#0FEA7A]" />
             ))}
-            <span className="text-[#7A9E98] text-sm ml-2">4.9 average · 120 Google reviews</span>
+            <span className="text-[#7A9E98] text-sm ml-2">4.9 average · 632 Google reviews</span>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {customerReviews.map((review) => (

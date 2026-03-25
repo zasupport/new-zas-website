@@ -505,7 +505,7 @@ export default function MacBookChargingPortPage() {
                 <Star key={i} className="w-5 h-5 text-[#0FEA7A] fill-[#0FEA7A]" />
               ))}
               <span className="text-[#E8F4F1] font-bold ml-2">4.9 / 5</span>
-              <span className="text-[#7A9E98] text-sm ml-1">(120 reviews)</span>
+              <span className="text-[#7A9E98] text-sm ml-1">(632 reviews)</span>
             </div>
             <h2
               className="text-3xl font-extrabold text-[#E8F4F1]"

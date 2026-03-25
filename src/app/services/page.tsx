@@ -284,7 +284,7 @@ export default function ServicesPage() {
               ['Complimentary IT Assessment', 'For new managed services clients'],
               ['Assessment Process', 'Transparent from R599 fee'],
               ['Up-to-3 Year Warranty', 'On all parts and labour'],
-              ['4.9 / 5 Rating', '120+ client reviews'],
+              ['4.9 / 5 Rating', '632+ client reviews'],
             ].map(([heading, sub]) => (
               <div key={heading}>
                 <p className="text-[#0FEA7A] font-bold text-sm">{heading}</p>

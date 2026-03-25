@@ -494,7 +494,7 @@ export default function MacBookBatteryPage() {
             What Clients Say
           </h2>
           <p className="text-[#7A9E98] text-center mb-12">
-            Rated 4.9 / 5 from 120 reviews across Johannesburg
+            Rated 4.9 / 5 from 632 reviews across Johannesburg
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {reviews.map((r) => (

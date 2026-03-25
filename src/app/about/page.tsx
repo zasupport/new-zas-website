@@ -265,7 +265,7 @@ export default function AboutPage() {
                 {[
                   { icon: Award, text: 'JAMF Certified, Apple fleet management for businesses and medical practices' },
                   { icon: Cpu, text: 'Component-level MacBook logic board repair since 2009' },
-                  { icon: Star, text: '4.9★ Google rating across 120+ verified client reviews' },
+                  { icon: Star, text: '4.9★ Google rating across 632+ verified client reviews' },
                   { icon: Shield, text: 'Assessment: from R599, transparent pricing, up-to-3 year warranty on all repairs' },
                   { icon: CheckCircle, text: '3,000+ Apple devices repaired across Johannesburg and Gauteng' },
                 ].map(({ icon: Icon, text }) => (
@@ -299,7 +299,7 @@ export default function AboutPage() {
                 {[
                   { icon: Cpu, title: 'Microscope-Level Component-level repair', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
                   { icon: Award, title: 'JAMF-Certified Specialists', desc: 'One of Johannesburg\'s few JAMF-certified implementation teams. We manage Apple fleets for organisations across Gauteng.' },
-                  { icon: Star, title: '4.9★ on Google, 120+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews, the themes are honesty, transparency, and results.' },
+                  { icon: Star, title: '4.9★ on Google, 632+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews, the themes are honesty, transparency, and results.' },
                   { icon: Shield, title: 'Transparent Pricing, Always', desc: 'Assessment fee of from R599 applies. Written quote before any work begins. up-to-3 year warranty on all repairs. No surprises.' },
                 ].map(({ icon: Icon, title, desc }) => (
                   <div key={title} className="flex gap-4 p-4 bg-[rgba(22,34,32,0.5)] rounded-xl border border-[rgba(15,234,122,0.08)]">
