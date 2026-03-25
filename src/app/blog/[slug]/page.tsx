@@ -3133,6 +3133,141 @@ Power application to a wet logic board creates short circuits that cause catastr
 }
 \`\`\``,
   },
+  'macbook-not-charging-johannesburg': {
+    slug: 'macbook-not-charging-johannesburg',
+    title: `MacBook Not Charging Johannesburg: Complete Guide by ZA Support`,
+    excerpt: `Is your MacBook refusing to charge in Johannesburg? You're not alone. This common issue frustrates countless users across South Africa, but the good news is that most charging problems have straightfo.`,
+    date: '25 March 2026',
+    category: 'Repairs',
+    readTime: '4 min read',
+    author: 'ZA Support',
+    content: `# MacBook Not Charging Johannesburg: Complete Guide by ZA Support
+
+Is your MacBook refusing to charge in Johannesburg? You're not alone. This common issue frustrates countless users across South Africa, but the good news is that most charging problems have straightforward solutions. ZA Support is here to help you diagnose and fix your MacBook charging issue quickly and efficiently.
+
+## Understanding MacBook Charging Problems
+
+MacBook charging issues can stem from multiple sources. Whether you're experiencing a completely dead battery, slow charging, or intermittent connection problems, understanding the root cause is essential before seeking professional help. In Johannesburg's climate, heat and humidity can occasionally affect charging components, making proper diagnosis crucial.
+
+## Common Causes of MacBook Not Charging
+
+### Software Issues
+
+Sometimes your MacBook isn't actually failing to charge—a software glitch might be preventing the system from recognising the power adapter. Resetting your SMC (System Management Controller) often resolves these mysterious charging problems. For newer MacBooks with Apple Silicon chips, simply shut down your device, wait thirty seconds, then restart it.
+
+### Hardware Problems
+
+The charging cable is typically the culprit. MacBook chargers experience significant wear, especially the connector points. If your cable shows fraying, discolouration, or the connection feels loose, replacement is necessary. Battery degradation is another possibility, particularly if your MacBook is several years old.
+
+### Environmental Factors
+
+Johannesburg's varying temperatures can impact battery performance. Excessive heat reduces battery efficiency, whilst cold conditions temporarily decrease charging speed. Ensure your MacBook remains between 10-35°C when charging for optimal performance.
+
+## Troubleshooting Steps for Johannesburg Users
+
+### Step One: Check Your Power Adapter
+
+Inspect your charging cable thoroughly. Look for visible damage, bent connectors, or loose connections. Try using your charger on another Apple device if available—this quickly determines whether the adapter is faulty.
+
+### Step Two: Reset the SMC
+
+Shutting down your MacBook completely and waiting before restarting often clears charging recognition issues. This simple step resolves numerous charging problems without requiring technical expertise.
+
+### Step Three: Update macOS
+
+Outdated operating systems occasionally cause charging recognition failures. Connect to WiFi using another device and update your system software when possible.
+
+### Step Four: Check Battery Health
+
+Hold Option and click the battery icon in your menu bar. If your condition reads "Service Recommended," your battery requires professional attention.
+
+## Professional MacBook Repair in Johannesburg
+
+If DIY troubleshooting doesn't resolve your issue, ZA Support offers professional MacBook repair services throughout Johannesburg. Our certified technicians diagnose charging problems accurately and provide rapid solutions. We stock genuine Apple components and guarantee quality workmanship.
+
+## Preventative Maintenance Tips
+
+Extending your MacBook's charging lifespan requires simple preventative measures. Avoid exposing your device to extreme temperatures, keep the charging port clean from dust and debris, and consider using a surge protector in areas with unstable power supply—common in certain Johannesburg locations.
+
+## When to Seek Professional Help
+
+If your MacBook battery drains whilst plugged in, won't charge beyond a certain percentage, or your charger produces unusual heat, professional assistance is necessary. Attempting complex repairs yourself risks permanent hardware damage.
+
+ZA Support's Johannesburg team provides same-day diagnostics for most MacBook charging issues. Contact us today for reliable, affordable repair solutions.
+
+---
+
+### What causes MacBook not charging in Johannesburg?
+
+MacBook charging failures typically result from faulty cables, aged batteries, software glitches, or environmental factors. ZA Support can diagnose your specific issue within minutes.
+
+### How much does MacBook charging repair cost in Johannesburg?
+
+Repair costs vary depending on the problem. Cable replacement starts from affordable rates, whilst battery replacement costs more. Contact ZA Support for an accurate quote.
+
+### Can I fix my MacBook charging problem myself?
+
+Many issues resolve through simple troubleshooting like SMC resets or software updates. However, hardware problems require professional attention from qualified technicians.
+
+### How long does MacBook charging repair take?
+
+Most charging repairs complete within 24 hours. ZA Support offers express services for urgent requirements.
+
+### Where can I get my MacBook repaired in Johannesburg?
+
+ZA Support operates multiple convenient Johannesburg locations. Visit our website or call our helpline to find your nearest service centre.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes MacBook not charging in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MacBook charging failures typically result from faulty cables, aged batteries, software glitches, or environmental factors. ZA Support can diagnose your specific issue within minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does MacBook charging repair cost in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Repair costs vary depending on the problem. Cable replacement starts from affordable rates, whilst battery replacement costs more. Contact ZA Support for an accurate quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I fix my MacBook charging problem myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many issues resolve through simple troubleshooting like SMC resets or software updates. However, hardware problems require professional attention from qualified technicians."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does MacBook charging repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most charging repairs complete within 24 hours. ZA Support offers express services for urgent requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I get my MacBook repaired in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ZA Support operates multiple convenient Johannesburg locations. Visit our website or call our helpline to find your nearest service centre."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
