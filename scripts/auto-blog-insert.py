@@ -182,16 +182,24 @@ def insert_into_blog_page(slug: str, post_entry: str, faq_entry: str) -> bool:
     # Insert post into POSTS object
     posts_marker = "// END_POSTS"
     if posts_marker not in content:
-        # Fallback: find last entry in posts object
-        # Look for the closing of the posts Record
-        posts_marker_alt = "} as Record<string"
-        if posts_marker_alt not in content:
-            print(f"  ERROR: cannot find posts insertion point for {slug}")
-            return False
-        content = content.replace(
-            posts_marker_alt,
-            f"{post_entry}\n{posts_marker_alt}"
-        )
+        # Fallback: find the closing }; of the const posts = { ... }; block.
+        # The block ends with "};\n\nexport async function generateStaticParams"
+        posts_close = "\n};\n\nexport async function generateStaticParams"
+        if posts_close not in content:
+            # Last-resort: insert before generateStaticParams
+            posts_close_alt = "\nexport async function generateStaticParams"
+            if posts_close_alt not in content:
+                print(f"  ERROR: cannot find posts insertion point for {slug}")
+                return False
+            content = content.replace(
+                posts_close_alt,
+                f"\n{post_entry}\n}};\n\nexport async function generateStaticParams"
+            )
+        else:
+            content = content.replace(
+                posts_close,
+                f"\n{post_entry}{posts_close}"
+            )
     else:
         content = content.replace(
             posts_marker,
@@ -202,13 +210,22 @@ def insert_into_blog_page(slug: str, post_entry: str, faq_entry: str) -> bool:
     if faq_entry:
         faq_marker = "// END_FAQ_SCHEMAS"
         if faq_marker not in content:
-            # Fallback: find faqSchemas closing brace
-            faq_marker_alt = "} as Record<string, object>"
-            if faq_marker_alt in content:
+            # Fallback: find faqSchemas closing }; before export default
+            import re as _re
+            # Find the faqSchemas block end — look for last entry in it
+            faq_close = "\n  };\n\n  if (faqSchemas"
+            if faq_close in content:
                 content = content.replace(
-                    faq_marker_alt,
-                    f"{faq_entry}\n{faq_marker_alt}"
+                    faq_close,
+                    f"\n{faq_entry}{faq_close}"
                 )
+            else:
+                faq_marker_alt = "} as Record<string, object>"
+                if faq_marker_alt in content:
+                    content = content.replace(
+                        faq_marker_alt,
+                        f"{faq_entry}\n{faq_marker_alt}"
+                    )
         else:
             content = content.replace(
                 faq_marker,

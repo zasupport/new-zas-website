@@ -229,5 +229,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/parkhurst`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/iphone-repair/screen/parkhurst`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
+        { url: `${base}/blog/logic-board-repair-cost-johannesburg-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-not-turning-on-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-water-damage-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
