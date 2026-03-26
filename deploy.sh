@@ -35,11 +35,27 @@ git commit -m "deploy: $(date '+%d/%m/%Y %H:%M') — auto-deploy" || echo "Nothi
 git push origin main
 
 echo ""
-echo "✓ Deploy triggered — Vercel will auto-build from GitHub push"
-echo "✓ Live at: https://zasupport.com (once DNS points to Vercel)"
-echo "✓ Preview at: https://new-zas-website.vercel.app"
-echo ""
+echo "✓ Deploy triggered — waiting 90s for Vercel to build..."
+sleep 90
 
-# macOS notification
-osascript -e 'display notification "ZA Support website deployed successfully" with title "Deploy Complete" sound name "Glass"' 2>/dev/null || true
+# Poll /api/health until new commit SHA is live (max 3 min)
+NEW_SHA=$(git rev-parse --short HEAD)
+for i in $(seq 1 12); do
+  LIVE_SHA=$(curl -s "https://zasupport.com/api/health" --max-time 10 2>/dev/null | python3 -c "import json,sys; print(json.load(sys.stdin).get('version','')[:7])" 2>/dev/null || echo "")
+  [[ "$LIVE_SHA" == "$NEW_SHA" ]] && { echo "✓ Deploy live — version $NEW_SHA confirmed"; break; }
+  echo "  Waiting for deploy... attempt $i (live=$LIVE_SHA want=$NEW_SHA)"
+  sleep 15
+done
+
+# Run full E2E test against live site
+echo ""
+echo "=== Running E2E verification ==="
+if bash ~/bin/za-e2e-test.sh 2>&1; then
+  echo "✓ All E2E checks passed"
+  osascript -e 'display notification "Deploy verified — 0 failures" with title "Deploy Complete" sound name "Glass"' 2>/dev/null || true
+else
+  echo "❌ E2E failures detected — check output above and fix before calling done"
+  osascript -e 'display notification "Deploy has E2E failures — fix required" with title "Deploy Warning" sound name "Basso"' 2>/dev/null || true
+  exit 1
+fi
 afplay /System/Library/Sounds/Glass.aiff 2>/dev/null || true
