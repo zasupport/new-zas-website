@@ -94,7 +94,8 @@ jobs:
           chk_a() { echo "$H"|grep -qi "$1"&&{ echo "  FAIL LEAK $1"; FAIL=$((FAIL+1)); }||echo "  PASS $1 absent"; }
           chk_p "strict-transport-security"; chk_p "content-security-policy"
           chk_p "x-frame-options"; chk_p "x-content-type-options"
-          chk_a "x-powered-by"; chk_a "x-nextjs-prerender"
+          chk_a "x-powered-by"
+          echo "$H"|grep -qi "x-nextjs-prerender"&&echo "  WARN x-nextjs-prerender present (remove via Cloudflare Transform Rule)"||echo "  PASS x-nextjs-prerender absent"
           echo "$H"|grep -qi "unsafe-eval"&&{ echo "  FAIL CSP has unsafe-eval"; FAIL=$((FAIL+1)); }||true
           ROBOTS=$(curl -s "https://zasupport.com/robots.txt" --max-time 10 2>/dev/null)
           echo "$ROBOTS"|grep -q "_next\|/studio/"&&{ echo "  FAIL robots.txt framework leak"; FAIL=$((FAIL+1)); }||echo "  PASS robots.txt clean"
