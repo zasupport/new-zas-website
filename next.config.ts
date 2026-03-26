@@ -1,30 +1,9 @@
 import type { NextConfig } from "next";
 
-const securityHeaders = [
-  { key: 'X-DNS-Prefetch-Control', value: 'on' },
-  { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
-  { key: 'X-Content-Type-Options', value: 'nosniff' },
-  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-  { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
-  {
-    key: 'Content-Security-Policy',
-    value: [
-      "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
-      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-      "font-src 'self' https://fonts.gstatic.com",
-      "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com https://cdn.sanity.io",
-      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://api.zasupport.com https://api.indexnow.org",
-      "frame-src 'self' https://maps.google.com https://www.google.com",
-      "object-src 'none'",
-      "base-uri 'self'",
-      "form-action 'self'",
-      "upgrade-insecure-requests",
-    ].join('; '),
-  },
-];
-
 const nextConfig: NextConfig = {
+  // Suppress X-Powered-By: Next.js header — hides framework from HTTP fingerprinting
+  poweredByHeader: false,
+
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
@@ -32,11 +11,17 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  async headers() {
+  // Security headers are now handled centrally in src/middleware.ts.
+  // The only header config here is for static asset caching (unchanged from vercel.json).
+  // Do NOT add security headers here — they will conflict with middleware and create mismatches.
+
+  async rewrites() {
     return [
+      // Proxy Sanity CDN images through our own origin.
+      // This removes cdn.sanity.io from CSP img-src, hiding the CMS provider.
       {
-        source: '/(.*)',
-        headers: securityHeaders,
+        source: '/cms-img/:path*',
+        destination: 'https://cdn.sanity.io/:path*',
       },
     ];
   },

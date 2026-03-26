@@ -1,16 +1,60 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
+import { escapeHtml, isValidEmail, clampLength, LIMITS } from '@/lib/sanitise';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, phone, device, issue, urgency } = body;
+    const { name, email, phone, device, issue, urgency, _hp, _ts } = body;
 
+    // Honeypot — bots fill hidden fields, humans don't
+    if (_hp) {
+      return NextResponse.json({ success: true }); // Silent discard
+    }
+
+    // Time gate — legitimate users take >3 seconds to fill a form
+    if (_ts && typeof _ts === 'number' && Date.now() - _ts < 3000) {
+      return NextResponse.json({ success: true }); // Silent discard
+    }
+
+    // Required fields
     if (!name || !email || !issue) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
+
+    // Type coercion to string
+    const nameStr = String(name).trim();
+    const emailStr = String(email).trim();
+    const issueStr = String(issue).trim();
+    const phoneStr = phone ? String(phone).trim() : '';
+    const deviceStr = device ? String(device).trim() : '';
+    const urgencyStr = urgency ? String(urgency).trim() : '';
+
+    // Email format validation
+    if (!isValidEmail(emailStr)) {
+      return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
+    }
+
+    // Length limits
+    if (clampLength(nameStr, LIMITS.name) === null)
+      return NextResponse.json({ error: 'Name too long' }, { status: 400 });
+    if (clampLength(emailStr, LIMITS.email) === null)
+      return NextResponse.json({ error: 'Email too long' }, { status: 400 });
+    if (clampLength(issueStr, LIMITS.issue) === null)
+      return NextResponse.json({ error: 'Issue description too long (2000 chars max)' }, { status: 400 });
+    if (phoneStr && clampLength(phoneStr, LIMITS.phone) === null)
+      return NextResponse.json({ error: 'Phone number too long' }, { status: 400 });
+    if (deviceStr && clampLength(deviceStr, LIMITS.device) === null)
+      return NextResponse.json({ error: 'Device name too long' }, { status: 400 });
+
+    // Sanitise all user input before HTML interpolation
+    const safeName = escapeHtml(nameStr);
+    const safeEmail = escapeHtml(emailStr);
+    const safePhone = escapeHtml(phoneStr);
+    const safeDevice = escapeHtml(deviceStr);
+    const safeIssue = escapeHtml(issueStr);
 
     const urgencyLabels: Record<string, string> = {
       low: 'Not urgent',
@@ -18,25 +62,26 @@ export async function POST(request: NextRequest) {
       high: 'Urgent',
       emergency: 'Emergency',
     };
+    const safeUrgency = urgencyLabels[urgencyStr] ?? escapeHtml(urgencyStr);
 
     // Send notification to admin
     await resend.emails.send({
       from: 'ZA Support Website <admin@zasupport.com>',
       to: ['admin@zasupport.com'],
-      subject: `[${urgencyLabels[urgency] || urgency}] New Enquiry — ${device || 'Unknown device'} — ${name}`,
+      subject: `[${safeUrgency}] New Enquiry — ${safeDevice || 'Unknown device'} — ${safeName}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #0FEA7A; border-bottom: 2px solid #0FEA7A; padding-bottom: 8px;">New Website Enquiry</h2>
           <table style="width: 100%; border-collapse: collapse;">
-            <tr><td style="padding: 8px 0; color: #666; width: 140px;"><strong>Name:</strong></td><td style="padding: 8px 0;">${name}</td></tr>
-            <tr><td style="padding: 8px 0; color: #666;"><strong>Email:</strong></td><td style="padding: 8px 0;"><a href="mailto:${email}">${email}</a></td></tr>
-            <tr><td style="padding: 8px 0; color: #666;"><strong>Phone:</strong></td><td style="padding: 8px 0;">${phone || 'Not provided'}</td></tr>
-            <tr><td style="padding: 8px 0; color: #666;"><strong>Device:</strong></td><td style="padding: 8px 0;">${device || 'Not specified'}</td></tr>
-            <tr><td style="padding: 8px 0; color: #666;"><strong>Urgency:</strong></td><td style="padding: 8px 0; color: ${urgency === 'emergency' ? 'red' : 'inherit'};">${urgencyLabels[urgency] || urgency}</td></tr>
+            <tr><td style="padding: 8px 0; color: #666; width: 140px;"><strong>Name:</strong></td><td style="padding: 8px 0;">${safeName}</td></tr>
+            <tr><td style="padding: 8px 0; color: #666;"><strong>Email:</strong></td><td style="padding: 8px 0;"><a href="mailto:${safeEmail}">${safeEmail}</a></td></tr>
+            <tr><td style="padding: 8px 0; color: #666;"><strong>Phone:</strong></td><td style="padding: 8px 0;">${safePhone || 'Not provided'}</td></tr>
+            <tr><td style="padding: 8px 0; color: #666;"><strong>Device:</strong></td><td style="padding: 8px 0;">${safeDevice || 'Not specified'}</td></tr>
+            <tr><td style="padding: 8px 0; color: #666;"><strong>Urgency:</strong></td><td style="padding: 8px 0; color: ${urgencyStr === 'emergency' ? 'red' : 'inherit'};">${safeUrgency}</td></tr>
           </table>
           <div style="background: #f5f5f5; padding: 16px; border-radius: 8px; margin-top: 16px;">
             <strong>Issue:</strong><br/>
-            <p style="white-space: pre-wrap; margin: 8px 0 0;">${issue}</p>
+            <p style="white-space: pre-wrap; margin: 8px 0 0;">${safeIssue}</p>
           </div>
         </div>
       `,
@@ -45,17 +90,17 @@ export async function POST(request: NextRequest) {
     // Send auto-reply to client
     await resend.emails.send({
       from: 'ZA Support <admin@zasupport.com>',
-      to: [email],
-      subject: 'Your ZA Support Enquiry — We\'ll Be in Touch',
+      to: [emailStr],
+      subject: "Your ZA Support Enquiry — We'll Be in Touch",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #0FEA7A;">Thank you, ${name}.</h2>
+          <h2 style="color: #0FEA7A;">Thank you, ${safeName}.</h2>
           <p>We have received your enquiry and will get back to you within 1 hour during business hours.</p>
           <p>If your issue is urgent, please call us directly:</p>
           <p style="font-size: 20px; font-weight: bold; color: #27504D;">064 529 5863</p>
           <hr style="border: 1px solid #eee; margin: 24px 0;" />
           <p><strong>Your enquiry:</strong></p>
-          <p>${issue}</p>
+          <p>${safeIssue}</p>
           <hr style="border: 1px solid #eee; margin: 24px 0;" />
           <p style="color: #666; font-size: 14px;">
             ZA Support | 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg<br/>
