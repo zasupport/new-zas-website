@@ -358,6 +358,7 @@ def send_email(subject, html_body):
         headers={
             "Authorization": f"Bearer {RESEND_API_KEY}",
             "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (compatible; zasupport-notify/1.0)",
         },
         method="POST",
     )
