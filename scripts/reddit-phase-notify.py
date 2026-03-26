@@ -367,7 +367,11 @@ def send_email(subject, html_body):
             print(f"Email sent: {body.get('id', 'ok')}")
             return True
     except urllib.error.HTTPError as e:
-        print(f"Email error {e.code}: {e.read().decode()}")
+        body = e.read().decode()
+        print(f"Email error {e.code}: {body}")
+        # 429 = daily quota exceeded — not a script failure, will retry tomorrow
+        if e.code == 429:
+            return None  # None = rate limited, don't count as error
         return False
 
 def build_html(trigger, today_str):
@@ -447,6 +451,9 @@ def main():
             sent_ids.add(tid)
             state["sent"].append(tid)
             save_state(state)
+        elif ok is None:
+            # Rate limited — log but don't count as error, will retry tomorrow
+            print(f"Rate limited — will retry tomorrow: {tid}")
         else:
             errors += 1
 
