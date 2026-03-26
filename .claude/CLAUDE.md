@@ -268,3 +268,11 @@ SEVERITY: critical→fix immediately(§123) | high→fix this session | medium�
 # SCRIPT FIX RULE (HARD — 26/03/2026): bash -n = syntax only ≠ test | DONE requires:
 #   execute script → capture stdout → confirm fixed behaviour in output — SAME response as fix
 #   ∅commit without running | ∅"syntax OK" as verification | ∅declare done before seeing real output
+
+# ── §MONITOR-ALERTS (HARD — 26/03/2026) ─────────────────────────────────────
+# VERCEL INFRA HEADERS: x-nextjs-prerender | x-nextjs-stale-time | x-nextjs-cache | server:Vercel
+#   x-vercel-id | x-vercel-cache — injected by Vercel edge AFTER middleware, CANNOT be removed in code
+#   → WARN only in monitoring scripts | NEVER fail() or alert() | strip requires Cloudflare Transform Rules
+# ALERT DEDUP: any monitoring script MUST deduplicate via MD5(message)+timestamp → file before osascript
+#   same alert ≤1× per 2 hours | mechanism: ~/.za-*-alert-dedup | prevents popup spam every 5min
+# TEST BEFORE DEPLOY: after building any monitoring script, run it → inspect stdout → confirm 0 false positives
