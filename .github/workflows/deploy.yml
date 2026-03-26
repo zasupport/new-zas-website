@@ -58,10 +58,61 @@ jobs:
       - run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
 
+  # ── STEP 4: RETEST — Health + Security + Endpoints (§178) ───────────────────
+  retest:
+    name: Retest — Health + Security + Endpoints
+    runs-on: ubuntu-latest
+    needs: deploy-production
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - name: Poll /api/health until live (max 3 min)
+        run: |
+          for i in $(seq 1 12); do
+            HTTP=$(curl -s -o /dev/null -w "%{http_code}" "https://zasupport.com/api/health" --max-time 10 2>/dev/null||echo "000")
+            [[ "$HTTP" == "200" ]]&&{ echo "Site live (attempt $i)"; break; }
+            echo "  Attempt $i: $HTTP — waiting 15s..."; sleep 15
+            [[ $i -lt 12 ]]||{ echo "FAIL site did not come up"; exit 1; }
+          done
+      - name: Endpoint tests (9 checks)
+        run: |
+          FAIL=0
+          chk() { got=$(curl -s -o /dev/null -w "%{http_code}" "$2" --max-time 15 2>/dev/null||echo "000"); [[ "$got" == "$3" ]]&&echo "  PASS $1"||{ echo "  FAIL $1 got=$got want=$3"; FAIL=$((FAIL+1)); }; }
+          chk "Homepage"          "https://zasupport.com/"                        "200"
+          chk "Logic board"       "https://zasupport.com/logic-board-repair"      "200"
+          chk "Contact"           "https://zasupport.com/contact"                 "200"
+          chk "Blog"              "https://zasupport.com/blog"                    "200"
+          chk "Sitemap"           "https://zasupport.com/sitemap.xml"             "200"
+          chk "Robots.txt"        "https://zasupport.com/robots.txt"              "200"
+          chk "Health API"        "https://zasupport.com/api/health"              "200"
+          chk "WP-admin"          "https://zasupport.com/wp-admin"                "308"
+          chk "Cron unauth"       "https://zasupport.com/api/seo-report/cron"     "401"
+          echo "Endpoints: $((9-FAIL)) pass, $FAIL fail"; [[ $FAIL -eq 0 ]]||exit 1
+      - name: Security headers + rate limit
+        run: |
+          H=$(curl -sI "https://zasupport.com" --max-time 10 2>/dev/null); FAIL=0
+          chk_p() { echo "$H"|grep -qi "$1"&&echo "  PASS $1"||{ echo "  FAIL MISSING $1"; FAIL=$((FAIL+1)); }; }
+          chk_a() { echo "$H"|grep -qi "$1"&&{ echo "  FAIL LEAK $1"; FAIL=$((FAIL+1)); }||echo "  PASS $1 absent"; }
+          chk_p "strict-transport-security"; chk_p "content-security-policy"
+          chk_p "x-frame-options"; chk_p "x-content-type-options"
+          chk_a "x-powered-by"; chk_a "x-nextjs-prerender"
+          echo "$H"|grep -qi "unsafe-eval"&&{ echo "  FAIL CSP has unsafe-eval"; FAIL=$((FAIL+1)); }||true
+          ROBOTS=$(curl -s "https://zasupport.com/robots.txt" --max-time 10 2>/dev/null)
+          echo "$ROBOTS"|grep -q "_next\|/studio/"&&{ echo "  FAIL robots.txt framework leak"; FAIL=$((FAIL+1)); }||echo "  PASS robots.txt clean"
+          GOT_429=0
+          for i in $(seq 1 8); do
+            C=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://zasupport.com/api/contact" \
+              -H "Content-Type: application/json" -H "Origin: https://zasupport.com" \
+              -d '{"name":"ci","email":"ci@t.com","issue":"probe","_hp":"","_ts":0}' --max-time 5 2>/dev/null||echo "000")
+            [[ "$C" == "429" ]]&&{ GOT_429=1; break; }
+          done
+          [[ $GOT_429 -eq 1 ]]&&echo "  PASS rate limiting active"||{ echo "  FAIL rate limiting not working"; FAIL=$((FAIL+1)); }
+          echo "Security: $FAIL failure(s)"; [[ $FAIL -eq 0 ]]||exit 1
+
+  # ── STEP 5: LIGHTHOUSE CI ─────────────────────────────────────────────────
   lighthouse:
     name: Lighthouse CI
     runs-on: ubuntu-latest
-    needs: deploy-production
+    needs: retest
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     steps:
       - uses: actions/checkout@v4
@@ -76,16 +127,55 @@ jobs:
           uploadArtifacts: true
           temporaryPublicStorage: true
 
+  # ── STEP 6: FINGERPRINT AUDIT ─────────────────────────────────────────────
+  fingerprint-audit:
+    name: Fingerprint Audit
+    runs-on: ubuntu-latest
+    needs: retest
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - name: Scan for tech-stack fingerprints
+        run: |
+          FAIL=0
+          for PAGE in "/" "/logic-board-repair" "/contact"; do
+            HTML=$(curl -s "https://zasupport.com$PAGE" --max-time 15 2>/dev/null)||{ echo "WARN cannot fetch $PAGE"; continue; }
+            HEADERS=$(curl -sI "https://zasupport.com$PAGE" --max-time 10 2>/dev/null)||HEADERS=""
+            echo "$HTML"|grep -qE "dpl_[A-Za-z0-9]{10,}"&&{ echo "FAIL $PAGE: Vercel deploy ID leaked"; FAIL=$((FAIL+1)); }
+            echo "$HEADERS"|grep -qi "^x-powered-by"&&{ echo "FAIL $PAGE: x-powered-by present"; FAIL=$((FAIL+1)); }
+            echo "$HTML"|grep -q "cdn\.sanity\.io"&&echo "WARN $PAGE: cdn.sanity.io in HTML (use /cms-img/)"
+            echo "PASS $PAGE scanned"
+          done
+          echo "Fingerprint: $FAIL failure(s)"; [[ $FAIL -eq 0 ]]||exit 1
+
+  # ── STEP 7: EMAIL-CHECK (§178) ────────────────────────────────────────────
+  email-check:
+    name: Email-Check — §178 Post-Deploy Error Scan
+    runs-on: ubuntu-latest
+    needs: [retest, lighthouse, fingerprint-audit]
+    if: always() && github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - name: Check error inbox + record deploy
+        run: |
+          R=$(curl -s "https://api.zasupport.com/api/v1/system/error-inbox?status=unread&limit=10&source=vercel" \
+            -H "Authorization: Bearer ${{ secrets.AGENT_AUTH_TOKEN }}" --max-time 10 2>/dev/null)||R="{}"
+          COUNT=$(echo "$R"|python3 -c "import json,sys;d=json.load(sys.stdin);i=d.get('data',d) if isinstance(d.get('data'),list) else (d if isinstance(d,list) else []);print(len(i))" 2>/dev/null||echo "0")
+          [[ "$COUNT" -gt "0" ]]&&echo "WARN $COUNT post-deploy error(s) in inbox"||echo "PASS No post-deploy errors"
+          curl -s -X POST "https://api.zasupport.com/api/v1/system/error-inbox" \
+            -H "Authorization: Bearer ${{ secrets.AGENT_AUTH_TOKEN }}" -H "Content-Type: application/json" \
+            -d "{\"error_type\":\"info\",\"severity\":\"low\",\"service\":\"new-zas-website\",\"message\":\"Deploy complete ${{ github.sha }}\",\"detail\":{\"run_id\":\"${{ github.run_id }}\"}}" \
+            --max-time 10||true
+
+  # ── FAILURE HANDLER ───────────────────────────────────────────────────────
   notify-failure:
     name: Notify Failure
     runs-on: ubuntu-latest
-    needs: [validate, deploy-preview, deploy-production, lighthouse]
+    needs: [validate, deploy-preview, deploy-production, retest, lighthouse, fingerprint-audit]
     if: failure()
     steps:
-      - name: Log CI failure to error_inbox
+      - name: Log to error_inbox
         run: |
           curl -s -X POST "https://api.zasupport.com/api/v1/system/error-inbox" \
             -H "Authorization: Bearer ${{ secrets.AGENT_AUTH_TOKEN }}" \
             -H "Content-Type: application/json" \
-            -d "{\"error_type\":\"build\",\"severity\":\"high\",\"service\":\"new-zas-website\",\"message\":\"CI failure on ${{ github.ref }} — run ${{ github.run_id }}\",\"detail\":{\"repo\":\"zasupport/new-zas-website\",\"run_url\":\"https://github.com/zasupport/new-zas-website/actions/runs/${{ github.run_id }}\",\"actor\":\"${{ github.actor }}\",\"event\":\"${{ github.event_name }}\"}}" \
-            --max-time 10 || true
+            -d "{\"error_type\":\"build\",\"severity\":\"high\",\"service\":\"new-zas-website\",\"message\":\"CI failure on ${{ github.ref }} run ${{ github.run_id }}\",\"detail\":{\"repo\":\"zasupport/new-zas-website\",\"run_url\":\"https://github.com/zasupport/new-zas-website/actions/runs/${{ github.run_id }}\",\"actor\":\"${{ github.actor }}\",\"event\":\"${{ github.event_name }}\"}}" \
+            --max-time 10||true
