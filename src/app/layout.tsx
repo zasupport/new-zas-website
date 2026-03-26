@@ -2,8 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, DM_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { GoogleAnalytics } from '@next/third-parties/google';
-import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
+import SiteShell from '@/components/layout/SiteShell';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { LOCAL_BUSINESS_SCHEMA } from '@/lib/seo';
 import './globals.css';
@@ -95,9 +94,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="font-sans antialiased bg-[#0A1A18] text-[#E8F4F1]" style={{ fontFamily: 'Inter, sans-serif' }}>
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+        <SiteShell>{children}</SiteShell>
         <Analytics />
         {/^G-[A-Z0-9]{7,10}$/.test(process.env.NEXT_PUBLIC_GA4_ID ?? '') &&
           process.env.NEXT_PUBLIC_GA4_ID !== 'G-XXXXXXXXXX' && (
