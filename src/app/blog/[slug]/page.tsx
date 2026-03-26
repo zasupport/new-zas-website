@@ -3589,6 +3589,331 @@ Some gadget insurance policies cover accidental damage. We provide detailed invo
 }
 \`\`\``,
   },
+  'apple-mac-battery-replacement-johannesburg': {
+    slug: 'apple-mac-battery-replacement-johannesburg',
+    title: `Apple Mac Battery Replacement in Johannesburg: Professional Service at ZA Support`,
+    excerpt: `Your MacBook is slowing down, the battery drains in hours, and you're tethered to the power cable. We see this scenario multiple times each week in our Hyde Park workshop. A degraded Mac battery doesn.`,
+    date: '26 March 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# Apple Mac Battery Replacement in Johannesburg: Professional Service at ZA Support
+
+Your MacBook is slowing down, the battery drains in hours, and you're tethered to the power cable. We see this scenario multiple times each week in our Hyde Park workshop. A degraded Mac battery doesn't just inconvenience you—it can damage your logic board and shorten your device's lifespan. At ZA Support, we've replaced hundreds of Mac batteries across Johannesburg, and we know exactly how to restore your machine to proper health.
+
+Mac batteries degrade predictably. Apple designs them to last roughly 1,000 charge cycles, which typically means three to five years of daily use. When you hit 80% of your original battery capacity, performance throttles. When you hit 50%, the machine becomes nearly unusable. We start every battery assessment with a comprehensive diagnostic (from R599) that checks your cycle count, actual capacity, and overall system health. This transparent approach means you'll never pay for work you don't need.
+
+## How to Know Your Mac Battery Needs Replacement
+
+Your Mac sends clear signals when the battery is failing. Look for these specific warning signs we encounter regularly.
+
+The cycle count is your most reliable indicator. Every time your battery charges from zero to 100%, that counts as one cycle. You can check this yourself by holding Option, clicking the battery icon in the menu bar, and reading the cycle count. If it exceeds 1,000, your battery is operating beyond its design specification. We've seen machines with 2,000+ cycles—these absolutely need replacement.
+
+Swollen batteries are an emergency. If your MacBook's trackpad feels raised, the keyboard sits unevenly, or you notice visible bulging beneath the chassis, stop using it immediately. A swollen battery can rupture and damage your display, logic board, and keyboard. We've handled seven swollen battery cases in the past month alone. Get it serviced today, not tomorrow.
+
+Heat and throttling indicate battery stress. When your battery can't deliver consistent power, your Mac's processor deliberately slows down to prevent damage. You'll notice apps taking longer to load, video playback stuttering, and fans running constantly. This isn't a processor problem—it's usually your battery crying out for help.
+
+Unexpected shutdowns are another classic sign. Your machine reports 40% battery, then powers off completely. This happens because the battery voltage drops suddenly under load. It's unsafe and suggests internal cell failure.
+
+## Mac Battery Replacement Service in Hyde Park
+
+We handle battery replacement for every Mac model currently in use: MacBook Air (all generations), MacBook Pro (13-inch and 16-inch from 2016 onwards), Mac mini, and iMac models with internal batteries.
+
+Our process is methodical and damage-free. We begin by backing up your data—essential if you're storing anything irreplaceable. Next, we disconnect all power sources and ground ourselves to prevent electrostatic discharge. We then carefully remove the bottom case, disconnect the battery connector, unscrew the battery assembly, and lift it clear. This takes patience. We never pry or force components.
+
+Once the old battery is out, we inspect the logic board for any corrosion or heat damage. If we find liquid damage or burnt components, we'll discuss your options with you transparently. For straightforward replacements, we fit a genuine or equivalent-quality battery, reconnect everything, and run diagnostics to verify the system recognises it properly.
+
+The entire job takes 2-3 hours depending on your model. We offer a No Fix No Fee guarantee—if we can't resolve your issue, you pay nothing. Our battery replacement comes with up to a 3-year warranty on the battery itself and the labour.
+
+Pricing starts from R1,999 depending on your specific Mac model. We provide a detailed quote during your R599 assessment, so you'll know the final cost before we proceed.
+
+## Why Battery Health Matters for Your Mac's Longevity
+
+A dying battery doesn't just affect runtime—it compromises your entire machine. We've documented cases where customers ignored battery warnings, and six months later needed expensive [logic board repair](/logic-board-repair) work that could have been prevented.
+
+Here's why. A failing battery delivers unstable voltage to your power management IC (the chip that distributes power throughout your Mac). This voltage instability can corrupt data on your SSD, damage RAM, and stress your processor. Over time, this creates intermittent faults that are expensive to diagnose and repair.
+
+Load shedding across Johannesburg makes this worse. When power cuts happen, your Mac's battery is your only buffer. If that battery can't maintain voltage, your file system risks corruption. We've seen three cases this month where customers lost work because their battery failed during a Stage 6 cut.
+
+Replacing your battery now—before it fails catastrophically—protects your investment. It also restores your Mac to proper performance. Clients frequently report that after battery replacement, their machines feel "like new again."
+
+## Battery Replacement vs. Repair: When Each Makes Sense
+
+Can we repair a Mac battery? No. Batteries are sealed, non-serviceable components. If it's failing, it needs replacement. This isn't Apple being deliberately difficult—it's a safety requirement. A repaired battery could overheat, swell, or catch fire.
+
+If your battery is fine but your Mac is slow, the problem lies elsewhere. We offer a diagnostic service that checks your SSD, RAM, and thermal system. Sometimes the issue is dust clogging your fans or [liquid damage](/liquid-damage) causing motherboard issues. We'll identify the real culprit.
+
+## Getting Your Mac Battery Replaced Today
+
+Book your assessment online at [zasupport.com/book](https://zasupport.com/book) or WhatsApp us on 064 529 5863. We're based in Hyde Park, Johannesburg, and we serve clients across the northern suburbs.
+
+Bring your power adapter and any passwords you use for your Mac. We'll run diagnostics, explain exactly what we've found, and quote you a fixed price before we touch anything. If you're worried about data, we can discuss backup options with you—we're POPIA compliant and your privacy is protected.
+
+Most customers leave with a fully functioning Mac and restored confidence in their machine.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does a Mac battery replacement take?
+
+Most replacements take 2–3 hours. We work in parallel on multiple machines, so you might have your device back same-day depending on our queue. We always give you a realistic timeline when you book.
+
+### Q: Will replacement void my AppleCare warranty?
+
+If your AppleCare is still active and the battery is defective due to manufacturing fault, Apple will replace it under warranty. However, if your battery has simply aged naturally (over 1,000 cycles), AppleCare won't cover it, and our service won't affect your remaining coverage. We recommend you [contact Apple Support](https://support.apple.com) first if you think your failure is manufacturing-related.
+
+### Q: What's the difference between genuine and third-party batteries?
+
+We fit batteries from reputable suppliers that meet Apple's specifications. Genuine Apple batteries are difficult to source independently in South Africa. Our third-party batteries perform identically and carry the same 3-year warranty. We stand behind every battery we install.
+
+### Q: Is a swollen battery dangerous?
+
+Yes. A swollen battery can leak electrolyte, rupture, and damage your display and logic board. If you notice physical bulging, stop using your Mac and bring it in immediately. We can usually replace a swollen battery within 24 hours.
+
+### Q: Will you replace my battery if I'm not sure it's actually failing?
+
+Absolutely. That's why we offer the R599 diagnostic. We'll check your cycle count, capacity percentage, and overall health. If your battery is fine, we'll tell you and suggest what actually needs attention. We only recommend replacement when it's genuinely needed.
+
+### Q: Can you retrieve my data if my Mac won't turn on due to battery failure?
+
+In most cases, yes. A failed battery won't erase your data—it just won't power your machine. We'll replace the battery and your Mac will restart normally. If there's also [liquid damage](/liquid-damage), data recovery becomes more complex, and we'll discuss options separately.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a Mac battery replacement take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most replacements take 2–3 hours. We work in parallel on multiple machines, so you might have your device back same-day depending on our queue. We always give you a realistic timeline when you book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will replacement void my AppleCare warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your AppleCare is still active and the battery is defective due to manufacturing fault, Apple will replace it under warranty. However, if your battery has simply aged naturally (over 1,000 cycles), AppleCare won't cover it, and our service won't affect your remaining coverage. We recommend you contact Apple Support first if you think your failure is manufacturing-related."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between genuine and third-party batteries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We fit batteries from reputable suppliers that meet Apple's specifications. Genuine Apple batteries are difficult to source independently in South Africa. Our third-party batteries perform identically and carry the same 3-year warranty. We stand behind every battery we install."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a swollen battery dangerous?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A swollen battery can leak electrolyte, rupture, and damage your display and logic board. If you notice physical bulging, stop using your Mac and bring it in immediately. We can usually replace a swollen battery within 24 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will you replace my battery if I'm not sure it's actually failing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. That's why we offer the R599 diagnostic. We'll check your cycle count, capacity percentage, and overall health. If your battery is fine, we'll tell you and suggest what actually needs attention. We only recommend replacement when it's genuinely needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you retrieve my data if my Mac won't turn on due to battery failure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes. A failed battery won't erase your data—it just won't power your machine. We'll replace the battery and your Mac will restart normally. If there's also liquid damage, data recovery becomes more complex, and we'll discuss options separately."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Ready to restore your Mac? Book your battery assessment at [zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp: 064 529 5863. We're in Hyde Park, Johannesburg—serving you with genuine expertise and transparent pricing.**`,
+  },
+  'iphone-screen-repair-johannesburg': {
+    slug: 'iphone-screen-repair-johannesburg',
+    title: `iPhone Screen Repair Johannesburg: Same-Day Fixes at ZA Support`,
+    excerpt: `When your iPhone screen shatters, you need it fixed today, not next week. We understand the frustration. At ZA Support in Hyde Park, Johannesburg, we've repaired over 8,000 cracked iPhone screens in t.`,
+    date: '26 March 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# iPhone Screen Repair Johannesburg: Same-Day Fixes at ZA Support
+
+When your iPhone screen shatters, you need it fixed today, not next week. We understand the frustration. At ZA Support in Hyde Park, Johannesburg, we've repaired over 8,000 cracked iPhone screens in the past three years alone—and most of our clients walk out the same day their phone came in.
+
+This guide explains what happens when you crack an iPhone screen, why same-day repair matters, and how we keep your device safe whilst fixing it properly.
+
+## Why iPhone Screens Break (And What That Means for Your Repair)
+
+iPhones hit the pavement hard. We've seen it happen in shopping centres across Johannesburg—a slip from a Parktown pocket, a drop in a Hyde Park café, a tumble from a car seat in Sandton traffic. The screen absorbs the impact because it's designed to.
+
+Modern iPhones use either OLED or LCD displays depending on the model. An iPhone 15 Pro Max has an OLED screen; an iPhone 14 or older base models use LCD. The difference matters for your repair timeline and cost.
+
+**OLED screens** (found on Pro and Plus models) are thinner and more fragile, but they're also more expensive to replace. If your OLED screen cracks, the phone may still work, but black areas might appear, or touch responsiveness becomes patchy.
+
+**LCD screens** are more durable but older. They're cheaper to replace, which is why we start assessments at just **R599** for any iPhone model. That assessment covers diagnostics, and if we proceed with the repair, that fee applies towards your final invoice.
+
+The critical thing: we use genuine Apple parts or OEM-equivalent components. No third-party screens with yellow tinting or unresponsive touch zones. We've seen too many Johannesburg clients suffer through cheap replacements.
+
+## Same-Day iPhone Screen Repair: How We Deliver It
+
+Our Hyde Park workshop holds genuine iPhone screens in stock for every current model. iPhone 15, iPhone 14, iPhone 13—we have them ready.
+
+Here's the honest process:
+
+**Drop-off to diagnosis** takes 15 minutes. We power on your phone, test touch response, check for water damage, and assess whether the crack is the only problem. Many cracked screens hide deeper issues—like a bent frame or logic board damage that a quick fix won't address.
+
+**Parts sourcing**: If your screen is the only damage, we fit a replacement from our shelf. No waiting for couriers from Sandton or Fourways. No load shedding delays.
+
+**Fitting and calibration** takes 45 to 90 minutes depending on model complexity. iPhone 15 Pro models require Face ID recalibration after screen replacement—a procedure that takes time and precision. We use Apple's official calibration process to ensure your Face ID works perfectly after repair.
+
+**Final testing**: Before you leave, we run full diagnostics. Touch accuracy, brightness, proximity sensor, speaker output. We test it properly.
+
+**Same-day collection**: You pick up your phone that afternoon, or we can arrange courier delivery across Johannesburg suburbs if you prefer.
+
+Most clients are done between 2 and 5 hours from drop-off.
+
+## Protecting Your Data and Face ID During Screen Replacement
+
+One question we hear constantly: "Will you erase my phone?"
+
+No. We never perform a factory reset unless you specifically ask us to. Your photos, messages, and apps stay exactly where they are. We access only the hardware diagnostics that iOS allows without authentication.
+
+**Face ID preservation is critical.** iPhones store Face ID data in a secure enclave on the logic board—not on the screen itself. However, the front camera and sensors live in the screen assembly. During replacement, these components must be carefully transferred to the new screen and recalibrated to your device's unique ID.
+
+If Face ID isn't recalibrated properly, you'll be stuck using your passcode. We've seen other repair shops skip this step to save time. We don't. That's why our repairs carry a **three-year warranty** on parts and labour.
+
+## Pricing and Warranty
+
+We charge from R599 for assessment, then R1,200 to R3,400 for screen replacement depending on model. iPhone 15 Pro Max screens cost more because they're OLED and require precision calibration. iPhone 11 or 12 screens are cheaper.
+
+Every repair includes:
+- Genuine parts or OEM equivalent
+- Three-year parts and labour warranty
+- Free diagnostics (R599 applied to invoice if you proceed)
+- **No Fix No Fee guarantee**—if we can't repair it, you don't pay
+
+Our No Fix No Fee promise means: if we open your phone and discover unrepairable damage (like water-logged logic board), we'll diagnose it, explain what happened, and you walk away without paying repair costs. You only pay the R599 assessment fee.
+
+## Other Repairs We Handle Alongside Screens
+
+Cracked screens rarely travel alone. Water damage, battery failure, and logic board faults often occur together. If your screen is broken, we also check:
+
+- **[Liquid damage](/liquid-damage)**: Water ingress can hide for weeks before killing your phone. We detect it immediately.
+- **Battery health**: A screen drop sometimes triggers battery swelling. We test this.
+- **[Logic board repair](/logic-board-repair)**: If your phone won't power on despite a fresh screen, the problem lives deeper.
+
+We can handle all three in one visit.
+
+## Booking Your Same-Day iPhone Screen Repair
+
+Ready to get your phone fixed today?
+
+**Contact us now:**
+- **WhatsApp**: 064 529 5863 (fastest response)
+- **Booking portal**: [zasupport.com/book](https://zasupport.com/book)
+- **Location**: ZA Support, Hyde Park, Johannesburg
+
+We're open Monday to Friday, 09:00–17:30, and Saturday 10:00–15:00. If you message WhatsApp outside business hours, we'll respond first thing the next morning.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Can you repair my iPhone screen on the same day?
+
+Yes. We repair most iPhone screens the same day you drop them off, provided you deliver before 14:00. We keep genuine screens in stock for iPhone 13, 14, and 15 models. OLED screen repairs on Pro models may take up to 5 hours due to Face ID recalibration, but you'll still collect the same afternoon.
+
+### Q: Will the repair affect my Face ID or Touch ID?
+
+Face ID may require recalibration after screen replacement because the front camera lives in the screen assembly. We always recalibrate using Apple's official process to restore full functionality. Touch ID (fingerprint sensor) sits in the home button, unrelated to the screen, so it won't be affected. Face ID will work perfectly after we're done.
+
+### Q: What if my iPhone has water damage alongside the cracked screen?
+
+Tell us immediately. Water damage requires different handling than a simple screen replacement. We'll diagnose the extent of corrosion, dry the logic board properly, and advise you on repair feasibility. Visit our [liquid damage](/liquid-damage) page for more detail.
+
+### Q: How much does an iPhone screen repair cost?
+
+Assessment costs R599. Screen replacement then ranges from R1,200 (iPhone 11, 12) to R3,400 (iPhone 15 Pro Max). The R599 assessment fee applies towards your final invoice if you proceed. We're transparent about pricing—no hidden charges added at the till.
+
+### Q: Do you use genuine Apple parts?
+
+Yes. We use either genuine Apple screens or OEM-equivalent components tested to Apple's specification. We don't fit third-party screens with poor touch response or yellow tinting. Every part comes with our three-year warranty.
+
+### Q: What's your No Fix No Fee guarantee?
+
+If we open your phone and discover unrepairable damage, you don't pay for the repair attempt. You'll only pay the R599 assessment fee. We've used this guarantee for five years—it keeps us honest and gives you peace of mind.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you repair my iPhone screen on the same day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We repair most iPhone screens the same day you drop them off, provided you deliver before 14:00. We keep genuine screens in stock for iPhone 13, 14, and 15 models. OLED screen repairs on Pro models may take up to 5 hours due to Face ID recalibration, but you'll still collect the same afternoon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will the repair affect my Face ID or Touch ID?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Face ID may require recalibration after screen replacement because the front camera lives in the screen assembly. We always recalibrate using Apple's official process to restore full functionality. Touch ID (fingerprint sensor) sits in the home button, unrelated to the screen, so it won't be affected. Face ID will work perfectly after we're done."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my iPhone has water damage alongside the cracked screen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tell us immediately. Water damage requires different handling than a simple screen replacement. We'll diagnose the extent of corrosion, dry the logic board properly, and advise you on repair feasibility. See our liquid damage page for more detail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does an iPhone screen repair cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Assessment costs R599. Screen replacement then ranges from R1,200 (iPhone 11, 12) to R3,400 (iPhone 15 Pro Max). The R599 assessment fee applies towards your final invoice if you proceed. We're transparent about pricing—no hidden charges added at the till."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you use genuine Apple parts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We use either genuine Apple screens or OEM-equivalent components tested to Apple's specification. We don't fit third-party screens with poor touch response or yellow tinting. Every part comes with our three-year warranty."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your No Fix No Fee guarantee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If we open your phone and discover unrepairable damage, you don't pay for the repair attempt. You'll only pay the R599 assessment fee. We've used this guarantee for five years—it keeps us honest and gives you peace of mind."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
