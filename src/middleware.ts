@@ -162,7 +162,8 @@ export function middleware(request: NextRequest) {
   }
 
   // CSRF origin check on POST routes
-  if (request.method === 'POST' && pathname.startsWith('/api/')) {
+  // Exempt /api/csp-report — browsers POST violation reports without a matching Origin header
+  if (request.method === 'POST' && pathname.startsWith('/api/') && pathname !== '/api/csp-report') {
     if (!isValidOrigin(request)) {
       return NextResponse.json({ error: 'Invalid origin' }, { status: 403 });
     }
