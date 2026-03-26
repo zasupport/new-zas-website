@@ -3268,6 +3268,327 @@ ZA Support operates multiple convenient Johannesburg locations. Visit our websit
 }
 \`\`\``,
   },
+  'macbook-keyboard-not-working-johannesburg': {
+    slug: 'macbook-keyboard-not-working-johannesburg',
+    title: `MacBook Keyboard Not Working in Johannesburg? Here's Your Complete Repair Guide`,
+    excerpt: `I've spent the last eight years sitting in our Hyde Park workshop, diagnosing and repairing MacBooks with temperamental keyboards. If you're reading this, your MacBook keyboard has likely stopped resp.`,
+    date: '26 March 2026',
+    category: 'Troubleshooting',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# MacBook Keyboard Not Working in Johannesburg? Here's Your Complete Repair Guide
+
+I've spent the last eight years sitting in our Hyde Park workshop, diagnosing and repairing MacBooks with temperamental keyboards. If you're reading this, your MacBook keyboard has likely stopped responding—and you've probably already tried the usual troubleshooting steps. The frustration is real, especially when you're trying to meet deadlines during load shedding hours when your productivity window is already squeezed.
+
+The truth is, MacBook keyboard failures aren't always straightforward. They range from sticky keys after a coffee spill to complete unresponsiveness caused by firmware issues. At ZA Support, we've repaired hundreds of these machines across Johannesburg, and I want to walk you through what we typically find—and how we fix it.
+
+## Why Your MacBook Keyboard Keeps Failing
+
+Over the past decade, Apple's keyboard design has evolved considerably. The older scissor-switch mechanisms were bulletproof. But when the butterfly mechanism arrived with the 2015 MacBook Air, we started seeing problems in our workshop almost immediately.
+
+The butterfly keyboard—used in MacBooks from 2015 through 2019—has an incredibly shallow travel distance (just 0.5mm). That's brilliant for thinness, but it's catastrophic for durability. A single grain of dust can lodge beneath the butterfly arms and jam the mechanism. We've pulled out everything from load shedding dust to residual coffee particles.
+
+Apple acknowledged this widely, offering free repairs during extended warranty periods. Newer M1 and M2 models use the Magic Keyboard with scissor switches—a return to reliability. But that doesn't help if you're using a 2017 or 2018 model right now.
+
+## Common Causes We See in Our Hyde Park Workshop
+
+**Liquid Damage**
+
+This is our most frequent repair request. A spilled coffee, a water bottle mishap, or even sweat from a laptop bag during our hot Johannesburg summers. The keyboard sits directly above the logic board. Liquid seeps down, and you get keystroke registering irregularly or stopping entirely.
+
+We've handled dozens of liquid-damaged MacBooks, and the good news is that early intervention makes all the difference. If you've spilled something on your keyboard today, the first thing you should do is power off immediately—don't keep typing.
+
+**Butterfly Keyboard Mechanical Failure**
+
+We remove dozens of butterfly keyboards monthly. The second and fifth keys are typically the first to fail—they catch the most dust. When you press them, nothing happens. Or worse, they get stuck and repeat the same character endlessly. This isn't fixable by cleaning. The butterfly arms themselves are damaged.
+
+**Firmware and T2 Issues**
+
+This is the one most people miss. Some MacBooks have firmware-level keyboard problems that don't stem from hardware failure at all. A T2 security chip reset can often resolve this. We perform this reset in-workshop, and it costs nothing if it fixes your issue.
+
+**Connector Damage**
+
+The keyboard ribbon cable runs from the keyboard into the logic board. In our workshop, we've seen these connectors partially dislodged after accidental drops or pressure damage. It looks like a keyboard failure, but it's actually a loose connection.
+
+## Our Diagnostic Process at ZA Support
+
+Here's what happens when you bring your MacBook to us in Hyde Park:
+
+1. **Initial Assessment** – R599 (No Fix, No Fee guarantee). We run a full diagnostic, testing every key, checking for liquid damage indicators, and inspecting the connector.
+
+2. **Problem Identification** – We determine if it's mechanical failure, liquid damage, firmware, or connector issues.
+
+3. **Transparent Quote** – Before we touch anything else, you get a detailed quote. No surprises, no hidden costs.
+
+4. **Repair and Testing** – Whether we're replacing the keyboard, cleaning liquid damage, resetting firmware, or reseating connectors, we test extensively before returning your machine.
+
+Our 12-month warranty covers all keyboard repairs, and we stand behind our work completely.
+
+## Butterfly vs Scissor Mechanism: What You Need to Know
+
+If you're considering upgrading from a 2015–2019 model, this matters. The butterfly mechanism has just one moving part under each key. It's elegant but fragile. The scissor mechanism—used since the 1990s and reintroduced in 2021—has four pivot points. It's more tolerant of dust and liquid exposure.
+
+We're honest with customers: if you're still using a 2017 MacBook with butterfly keys and they're failing regularly, repairs become cost-prohibitive. At that point, upgrading to a newer model or switching to an external keyboard might be more sensible. We'll always advise you truthfully rather than chasing repair fees.
+
+## Liquid Damage and Your Keyboard
+
+If you've spilled something on your MacBook, read our [detailed liquid damage repair guide](/liquid-damage). The keyboard is often the least of your worries—liquid damage can affect your [logic board](/logic-board-repair) and battery too.
+
+The key is getting it to us quickly. In Johannesburg's climate, liquid evaporates, but it also corrodes components. We've seen machines brought in a week after spillage where corrosion has already started. The sooner we can open it up, clean it properly with ultrasonic equipment, and assess secondary damage, the better your chances of a full recovery.
+
+## Why Choose ZA Support in Hyde Park?
+
+We're not a franchise with technicians trained on videos. I've personally fixed over 800 MacBooks. Our team has hands-on experience with every failure type. We use genuine or OEM-equivalent parts, and every repair includes diagnostics and a full 12-month warranty.
+
+We're also realistic about load shedding constraints in Johannesburg. We've built our workshop schedule around typical stage-3 and stage-6 blackouts, and we maintain battery backup for critical diagnostics.
+
+## Get Your MacBook Fixed Today
+
+If your keyboard isn't working, **[book your R599 diagnostic today](https://zasupport.com/book)**. Alternatively, message us on WhatsApp at **064 529 5863**—we'll often chat through your issue and let you know what we suspect before you even visit the workshop.
+
+Your MacBook keyboard failure is almost certainly fixable. Let's get you typing again.
+
+---
+
+## Frequently Asked Questions
+
+**How much does a MacBook keyboard repair cost in Johannesburg?**
+
+A butterfly keyboard replacement runs between R1,200–R1,800 depending on your model. A scissor keyboard (newer models) is typically R1,500–R2,200. Liquid damage repairs start from R1,500 for cleaning and diagnostics, but can exceed R4,000 if the logic board requires component-level repair. We always quote before proceeding.
+
+**Can I fix a sticky MacBook key myself?**
+
+For minor stickiness on newer models, compressed air can sometimes help. However, if a key is completely unresponsive, DIY attempts often cause more damage. The butterfly mechanism is particularly prone to catastrophic failure if you try disassembly without proper tools. We'd recommend professional repair.
+
+**How long does a keyboard repair take?**
+
+Simple fixes like T2 resets take 20–30 minutes. Keyboard replacement typically takes 2–3 hours. Liquid damage repairs can take 24–48 hours depending on how extensively the machine needs cleaning. We'll give you a precise timeline during your diagnostic.
+
+**Will Apple repair my keyboard for free?**
+
+Apple's free keyboard replacement programme ended in 2019. However, if your MacBook is still under AppleCare+, you may have limited coverage. We'd always recommend checking with Apple first. Our repairs are generally faster and cheaper than Apple's turnaround, especially if you're outside warranty.
+
+**Is liquid damage to a MacBook repairable?**
+
+Yes, in most cases. If the liquid was non-corrosive (like distilled water or most soft drinks) and you brought it in immediately, we can clean and restore the machine fully. Salt water or sugary liquids are more challenging. Corrosion damage is sometimes beyond repair. We assess this during your diagnostic.
+
+**What's the warranty on your keyboard repairs?**
+
+All keyboard repairs carry a 12-month warranty covering the same failure type. If your key fails again within a year, we'll repair it free of charge, including labour and parts.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a MacBook keyboard repair cost in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A butterfly keyboard replacement runs between R1,200–R1,800 depending on your model. A scissor keyboard (newer models) is typically R1,500–R2,200. Liquid damage repairs start from R1,500 for cleaning and diagnostics, but can exceed R4,000 if the logic board requires component-level repair. We always quote before proceeding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I fix a sticky MacBook key myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For minor stickiness on newer models, compressed air can sometimes help. However, if a key is completely unresponsive, DIY attempts often cause more damage. The butterfly mechanism is particularly prone to catastrophic failure if you try disassembly without proper tools. We'd recommend professional repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a keyboard repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simple fixes like T2 resets take 20–30 minutes. Keyboard replacement typically takes 2–3 hours. Liquid damage repairs can take 24–48 hours depending on how extensively the machine needs cleaning. We'll give you a precise timeline during your diagnostic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will Apple repair my keyboard for free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apple's free keyboard replacement programme ended in 2019. However, if your MacBook is still under AppleCare+, you may have limited coverage. We'd always recommend checking with Apple first. Our repairs are generally faster and cheaper than Apple's turnaround, especially if you're outside warranty."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is liquid damage to a MacBook repairable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in most cases. If the liquid was non-corrosive (like distilled water or most soft drinks) and you brought it in immediately, we can clean and restore the machine fully. Salt water or sugary liquids are more challenging. Corrosion damage is sometimes beyond repair. We assess this during your diagnostic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the warranty on your keyboard repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All keyboard repairs carry a 12-month warranty covering the same failure type. If your key fails again within a year, we'll repair it free of charge, including labour and parts."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
+  'macbook-screen-replacement-johannesburg': {
+    slug: 'macbook-screen-replacement-johannesburg',
+    title: `MacBook Screen Replacement Cost in Johannesburg: Complete 2024 Guide`,
+    excerpt: `I've replaced hundreds of MacBook screens across Johannesburg—from shattered Retina displays in Hyde Park offices to liquid-damaged panels affecting everything from brightness to colour calibration. T.`,
+    date: '26 March 2026',
+    category: 'Repairs',
+    readTime: '6 min read',
+    author: 'ZA Support',
+    content: `# MacBook Screen Replacement Cost in Johannesburg: Complete 2024 Guide
+
+I've replaced hundreds of MacBook screens across Johannesburg—from shattered Retina displays in Hyde Park offices to liquid-damaged panels affecting everything from brightness to colour calibration. The cost question I hear most often isn't just "how much?" but "why does mine cost more than my colleague's?" This guide answers both, drawing from my workshop experience at ZA Support.
+
+## Understanding MacBook Screen Replacement Pricing in Johannesburg
+
+MacBook screen replacement costs in Johannesburg range from **R3,999 to R8,500+**, depending on your model year and display type. What most people don't realise is that the final price reflects three distinct components: the panel itself, the surrounding bezel assembly, and labour.
+
+When you bring your MacBook to our Hyde Park workshop, we start with a comprehensive **R599 assessment**. This isn't a sales tactic—it's genuine diagnostics. I inspect the LCD panel, check for liquid damage beneath the display, examine the logic board's display connectors, and test backlight functionality. Many clients discover their issue isn't the screen at all; it's a faulty GPU affecting display output.
+
+The assessment fee applies toward your repair if you proceed. We operate on a **No Fix No Fee guarantee**, meaning if we can't resolve your display issue, you pay nothing beyond that diagnostic.
+
+## MacBook Screen Types and What They Cost
+
+**Retina displays dominate modern MacBooks**, and here's where pricing diverges significantly. A 13-inch MacBook Air Retina panel costs substantially less than a 16-inch MacBook Pro panel—we're talking R3,999 versus R6,500. The newer the model, the more expensive the panel.
+
+I've noticed a pattern across our Johannesburg clients: M-series MacBooks (M1, M2, M3) command higher replacement costs because the display assembly integrates more deeply with the logic board. You're not just replacing glass; you're replacing a precision-engineered component that includes the backlight system, flex cables, and adhesive strips.
+
+**Liquid damage complicates pricing.** If your screen stopped working after a coffee spill, the display panel might be salvageable—but corrosion on the display connector pins often isn't. That's where [liquid damage assessment](/liquid-damage) becomes critical. I've seen clients charged R8,500+ when a R599 diagnostic would've revealed the real problem was the logic board, not the screen.
+
+## Our Johannesburg Workshop Process: From Assessment to Completion
+
+Here's what happens when you book a screen replacement at our Hyde Park location:
+
+**Day One: Assessment and Parts Ordering.** You drop off your MacBook, I run diagnostics (included in the R599 fee), and we identify the exact panel needed. This matters—there are at least six different 13-inch MacBook Air panels in circulation. Ordering the wrong one wastes everyone's time.
+
+**Days Two to Three: Repair Execution.** Screen replacement isn't a 30-minute job despite what some high-street repair shops claim. Proper removal requires heating the adhesive, careful prying to avoid damaging the bezels, disconnecting flex cables without tearing them, and calibrating the new panel's backlight connector. I typically allocate 90 minutes per replacement.
+
+**Quality Verification.** Before you collect your MacBook, I test:
+- Full brightness range (0–100%)
+- Colour accuracy across different applications
+- No dead pixels or stuck pixels
+- Proper sleep/wake response
+- No flickering under load-shedding power fluctuations (relevant for Johannesburg's current electricity challenges)
+
+## Why Some Repairs Cost More: Hidden Factors
+
+**Model-specific complications increase labour.** M-series MacBooks require display panel removal from the case bottom, not the top. This adds 30–45 minutes to labour because I must disconnect the battery first. Older Intel-based models sometimes have easier access.
+
+**Bezel replacement.** The display bezel—that black plastic frame around your screen—costs R1,200–R2,000 separately. If it's cracked or discoloured, you'll want it replaced for aesthetics. Most clients do; it's demoralising to have a new screen in an old-looking bezel.
+
+**Connector corrosion.** If your MacBook suffered liquid damage, I inspect the display data connector microscopically. Corroded pins require ultrasonic cleaning (included in our service) or, in severe cases, [logic board repair](/logic-board-repair). This pushes costs significantly higher.
+
+## Warranty and Aftercare
+
+Every screen replacement at ZA Support includes a **12-month warranty**. This covers panel defects, backlight failures, and adhesive separation. It doesn't cover accidental damage (though our No Fix No Fee policy protects you if something goes wrong during repair).
+
+I've serviced clients across Johannesburg's suburbs—Sandton, Midrand, Bryanston—and the warranty matters more than people think. Last month, a 13-inch Air developed a pixel-line defect nine months post-repair. We replaced it immediately, no charge. That's what warranty means.
+
+## When to Replace vs. When to Repair
+
+Not every display problem requires full panel replacement. If your MacBook has a **single stuck pixel, brightness inconsistency, or minor LCD damage**, these sometimes resolve through macOS settings adjustments or partial repairs. That R599 assessment identifies which scenario applies.
+
+However, if your screen shows:
+- Large cracks or spiderweb patterns
+- Liquid damage pooling under the panel
+- Complete backlight failure
+- Multi-pixel dead zones
+
+…replacement is your only path forward.
+
+## Booking Your MacBook Screen Replacement
+
+We're located in **Hyde Park, Johannesburg**, and you can book via [**zasupport.com/book**](https://zasupport.com/book) or WhatsApp **064 529 5863**. Include your MacBook model (find this under Apple menu > About This Mac) and a photo of the damage if possible.
+
+Our opening hours accommodate load-shedding schedules—we maintain backup power to complete repairs even during Stage 6 cuts. Collection typically happens within 3–5 business days, sometimes sooner for in-stock panels.
+
+---
+
+## Frequently Asked Questions
+
+**How long does MacBook screen replacement take?**
+Typically 2–3 business days from drop-off to collection. Urgent same-day service is available for additional cost if panels are in stock.
+
+**Can I replace just the glass, not the whole panel?**
+Unfortunately no. MacBook Retina displays are fused units. Separating them usually destroys the LCD layer. We replace the entire assembly.
+
+**Is the R3,999 price all-inclusive?**
+The base R3,999 covers the panel and labour for 13-inch models. Larger screens (14–16-inch) cost more. The R599 assessment applies toward this total.
+
+**What if my MacBook is out of warranty?**
+Our 12-month warranty applies to all ZA Support repairs, regardless of your device's original warranty status. AppleCare doesn't affect our service coverage.
+
+**Do you repair water damage alongside the screen?**
+Yes—that's where [liquid damage services](/liquid-damage) come in. We assess and repair water-damaged components separately, though screen replacement often runs concurrently.
+
+**Can I claim insurance for this repair?**
+Some gadget insurance policies cover accidental damage. We provide detailed invoices for insurance claims. Check your policy wording first.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does MacBook screen replacement take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically 2–3 business days from drop-off to collection. Urgent same-day service is available for additional cost if panels are in stock."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I replace just the glass, not the whole panel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unfortunately no. MacBook Retina displays are fused units. Separating them usually destroys the LCD layer. We replace the entire assembly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the R3,999 price all-inclusive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The base R3,999 covers the panel and labour for 13-inch models. Larger screens (14–16-inch) cost more. The R599 assessment applies toward this total."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my MacBook is out of warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our 12-month warranty applies to all ZA Support repairs, regardless of your device's original warranty status. AppleCare doesn't affect our service coverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair water damage alongside the screen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes—we assess and repair water-damaged components separately, though screen replacement often runs concurrently. Consult our liquid damage services for full details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I claim insurance for this repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some gadget insurance policies cover accidental damage. We provide detailed invoices for insurance claims. Check your policy wording first."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
