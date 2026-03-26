@@ -97,6 +97,9 @@ async function stripHtml(readable, writable) {
       // Strip next-size-adjust meta tag
       chunk = chunk.replace(/<meta\s+name="next-size-adjust"[^>]*>/gi, '');
 
+      // Strip Vercel deploy ID from static asset URLs (?dpl=dpl_xxxx query param)
+      chunk = chunk.replace(/\?dpl=dpl_[A-Za-z0-9]+/g, '');
+
       await writer.write(encoder.encode(chunk));
     }
   } finally {
