@@ -17,11 +17,13 @@ from datetime import date
 
 WEBSITE_DIR = Path(__file__).parent.parent
 BLOG_PAGE = WEBSITE_DIR / "src" / "app" / "blog" / "[slug]" / "page.tsx"
+BLOG_LISTING = WEBSITE_DIR / "src" / "app" / "blog" / "page.tsx"
 SITEMAP = WEBSITE_DIR / "src" / "app" / "sitemap.ts"
 BLOG_DRAFTS_DIR = Path.home() / "Desktop" / "Claude" / "Blog"
 INSERTED_LOG = BLOG_DRAFTS_DIR / ".inserted.json"
 
 TODAY = date.today().strftime("%d %B %Y")
+TODAY_DISPLAY = date.today().strftime("%d/%m/%Y")
 TODAY_SLUG = date.today().strftime("%d%m%Y")
 
 
@@ -37,7 +39,9 @@ def save_inserted(slugs: set):
 
 def slug_from_filename(fname: str) -> str:
     """draft-macbook-wont-charge-johannesburg-22032026.md → macbook-wont-charge-johannesburg"""
-    name = fname.replace("draft-", "").replace(f"-{TODAY_SLUG}", "").replace(".md", "")
+    name = fname.replace("draft-", "").replace(".md", "")
+    # Strip any 8-digit date suffix (DDMMYYYY) from the end
+    name = re.sub(r'-\d{8}$', '', name)
     return name
 
 
@@ -236,6 +240,35 @@ def insert_into_blog_page(slug: str, post_entry: str, faq_entry: str) -> bool:
     return True
 
 
+def insert_listing_entry(slug: str, title: str, excerpt: str, category: str, read_time_str: str):
+    """Insert post into the blog listing page (blog/page.tsx) so it appears on /blog."""
+    if not BLOG_LISTING.exists():
+        print(f"  WARN: Blog listing page not found — post won't appear on /blog")
+        return
+
+    content = BLOG_LISTING.read_text()
+
+    if f"'{slug}'" in content:
+        return  # Already in listing
+
+    # Escape for JS single-quote strings
+    safe_title = title.replace("'", "\\'").replace('"', '\\"')
+    safe_excerpt = excerpt.replace("'", "\\'").replace('"', '\\"')
+
+    entry = (
+        f"  {{ slug: '{slug}', title: '{safe_title}', "
+        f"excerpt: '{safe_excerpt}', "
+        f"date: '{TODAY_DISPLAY}', category: '{category}', "
+        f"readTime: '{read_time_str}' }},"
+    )
+
+    # Insert at the TOP of the posts array (newest first) — right after "const posts = ["
+    marker = "const posts = ["
+    if marker in content:
+        content = content.replace(marker, f"{marker}\n{entry}")
+        BLOG_LISTING.write_text(content)
+
+
 def insert_sitemap_entry(slug: str):
     content = SITEMAP.read_text()
     entry = f"    {{ url: `${{base}}/blog/{slug}`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 }},"
@@ -286,8 +319,14 @@ def main():
         post_entry = build_post_entry(slug, content)
         faq_entry = build_faq_schema_entry(slug, faqs) if faqs else ""
 
+        title = extract_title(content)
+        excerpt = extract_excerpt(content)
+        rt = read_time(content)
+        cat = category_from_slug(slug)
+
         success = insert_into_blog_page(slug, post_entry, faq_entry)
         if success:
+            insert_listing_entry(slug, title, excerpt, cat, rt)
             insert_sitemap_entry(slug)
             newly_inserted.append(slug)
             inserted.add(slug)
@@ -311,15 +350,16 @@ def main():
         print(f"BUILD FAILED:\n{result.stderr[-2000:]}")
         # Revert blog files so next run can retry cleanly
         subprocess.run(
-            ["git", "checkout", "HEAD", "--", "src/app/blog/[slug]/page.tsx", "src/app/sitemap.ts"],
+            ["git", "checkout", "HEAD", "--",
+             "src/app/blog/[slug]/page.tsx", "src/app/blog/page.tsx", "src/app/sitemap.ts"],
             cwd=WEBSITE_DIR,
         )
-        print("Reverted page.tsx + sitemap.ts — slugs NOT marked inserted, will retry next run")
+        print("Reverted blog files — slugs NOT marked inserted, will retry next run")
         return 1
     print("Build: OK")
 
     subprocess.run(
-        ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts", "scripts/"],
+        ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],
         cwd=WEBSITE_DIR, check=True,
     )
     msg = f"feat: {len(newly_inserted)} blog posts auto-inserted (overnight Haiku batch)"
