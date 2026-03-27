@@ -212,7 +212,7 @@ export default function MacBookScreenPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { stat: '3,000+', label: 'Screens Replaced' },
+              { stat: '50,000+', label: 'Screens Replaced' },
               { stat: 'Same-Day', label: 'Available (most models)' },
               { stat: '12-Month', label: 'Up-to-3 Year Warranty' },
               { stat: 'OEM Quality', label: 'Display Assemblies' },

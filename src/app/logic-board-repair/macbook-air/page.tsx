@@ -445,7 +445,7 @@ export default function MacBookAirLogicBoardPage() {
               {
                 icon: Clock,
                 title: `${SITE.yearsExperience} Years of Apple Repair`,
-                body: 'Over 3,000 repairs completed since 2009. We have seen every MacBook Air fault and repaired most of them.',
+                body: 'Over 50,000 repairs completed since 2009. We have seen every MacBook Air fault and repaired most of them.',
               },
               {
                 icon: CheckCircle,

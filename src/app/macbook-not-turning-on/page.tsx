@@ -435,7 +435,7 @@ export default function MacBookNotTurningOnPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
               {[
-                { value: '3,000+', label: 'MacBooks Recovered' },
+                { value: '50,000+', label: 'MacBooks Recovered' },
                 { value: 'R599', label: 'Assessment, from' },
                 { value: 'No Fix', label: 'No Fee, Zero Risk' },
                 { value: 'Same Day', label: 'Available' },

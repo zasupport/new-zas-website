@@ -7,7 +7,7 @@ export const SITE = {
   vat: '436-026-0014',
   rating: '4.9',
   reviewCount: '631',
-  repairsCount: '3,000+',
+  repairsCount: '50,000+',
   yearsExperience: '16',
   googleMapsUrl: 'https://maps.google.com/?q=1+Hyde+Lane+Hyde+Park+Johannesburg',
 } as const;

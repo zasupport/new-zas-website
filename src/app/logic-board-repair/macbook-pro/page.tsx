@@ -445,7 +445,7 @@ export default function MacBookProLogicBoardPage() {
               {
                 icon: Clock,
                 title: `${SITE.yearsExperience} Years of Apple Repair`,
-                body: 'Founded in 2009, we have been repairing MacBook logic boards longer than most shops in JHB have been open. Over 3,000 repairs completed.',
+                body: 'Founded in 2009, we have been repairing MacBook logic boards longer than most shops in JHB have been open. Over 50,000 repairs completed.',
               },
               {
                 icon: CheckCircle,

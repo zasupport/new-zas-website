@@ -7,7 +7,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'About ZA Support | Apple Repair Specialist Johannesburg | Hyde Park',
   description:
-    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 3,000+ repairs, 4.9★. JAMF-certified. up-to-3 year warranty.",
+    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 50,000+ repairs, 4.9★. JAMF-certified. up-to-3 year warranty.",
   alternates: { canonical: 'https://zasupport.com/about' },
   keywords: [
     'apple repair specialist johannesburg',
@@ -267,7 +267,7 @@ export default function AboutPage() {
                   { icon: Cpu, text: 'Component-level MacBook logic board repair since 2009' },
                   { icon: Star, text: '4.9★ Google rating across 632+ verified client reviews' },
                   { icon: Shield, text: 'Assessment: from R599, transparent pricing, up-to-3 year warranty on all repairs' },
-                  { icon: CheckCircle, text: '3,000+ Apple devices repaired across Johannesburg and Gauteng' },
+                  { icon: CheckCircle, text: '50,000+ Apple devices repaired across Johannesburg and Gauteng' },
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex gap-3 items-start">
                     <div className="w-8 h-8 bg-[rgba(15,234,122,0.1)] rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">

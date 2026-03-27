@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 // ─── Data ────────────────────────────────────────────────────────────────────
 
 const stats = [
-  { value: '3,000+', label: 'Repairs Completed' },
+  { value: '50,000+', label: 'Repairs Completed' },
   { value: 'Same-Day', label: 'Available' },
   { value: '12-Month', label: 'Warranty' },
   { value: 'No Fix', label: 'No Fee' },

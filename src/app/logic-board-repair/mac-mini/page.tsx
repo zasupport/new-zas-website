@@ -199,7 +199,7 @@ export default function MacMiniLogicBoardPage() {
             {/* Stats bar */}
             <div className="flex flex-wrap gap-6 mb-8">
               {[
-                { value: '3,000+', label: 'Repairs Done' },
+                { value: '50,000+', label: 'Repairs Done' },
                 { value: '4.9★', label: '120+ Reviews' },
                 { value: '16 Years', label: 'Apple Experience' },
                 { value: 'Covered', label: 'Warranty' },

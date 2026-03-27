@@ -274,7 +274,7 @@ export default function MacBookBatteryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-[rgba(255,255,255,0.06)]">
             {[
-              { icon: <Battery className="w-5 h-5" />, label: '3,000+', sub: 'Batteries Replaced' },
+              { icon: <Battery className="w-5 h-5" />, label: '50,000+', sub: 'Batteries Replaced' },
               { icon: <Zap className="w-5 h-5" />, label: 'Same-Day', sub: 'Service Available' },
               { icon: <Shield className="w-5 h-5" />, label: '12-Month', sub: 'Up-to-3 Year Warranty' },
               { icon: <CheckCircle className="w-5 h-5" />, label: 'Genuine', sub: 'OEM-Equivalent Cells' },

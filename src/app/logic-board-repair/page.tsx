@@ -366,7 +366,7 @@ export default function LogicBoardRepairPage() {
             {/* Stats bar */}
             <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
               {[
-                { value: '3,000+', label: 'Logic Board Repairs' },
+                { value: '50,000+', label: 'Logic Board Repairs' },
                 { value: '16 Years', label: 'Experience Since 2009' },
                 { value: 'Covered', label: 'Up-to-3 Year Warranty' },
                 { value: 'from R599', label: 'Assessment Fee' },
