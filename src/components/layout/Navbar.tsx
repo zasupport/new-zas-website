@@ -1,9 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Phone, Menu, X, Calendar, Search } from 'lucide-react';
+import { Phone, Menu, X, Calendar, Search, ChevronDown } from 'lucide-react';
 import { NAV_LINKS } from '@/lib/constants';
 import Logo, { useLogoVariant } from './Logo';
 import NavSearch from './NavSearch';
@@ -12,9 +12,12 @@ import { trackWhatsAppClick, trackPhoneTap } from '@/lib/analytics';
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
   const [mobileSearch, setMobileSearch] = useState('');
   const logoVariant = useLogoVariant();
   const router = useRouter();
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -31,6 +34,17 @@ export default function Navbar() {
     return () => { document.body.style.overflow = ''; };
   }, [mobileOpen]);
 
+  // Close dropdown on outside click
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setOpenDropdown(null);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, []);
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -45,16 +59,51 @@ export default function Navbar() {
           <Logo />
 
           {/* Desktop Nav */}
-          <div className="hidden lg:flex items-center gap-1">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="px-4 py-2 text-[#7A9E98] hover:text-[#E8F4F1] hover:bg-[rgba(15,234,122,0.06)] rounded-lg transition-all duration-200 text-sm font-medium"
-              >
-                {link.label}
-              </Link>
-            ))}
+          <div className="hidden lg:flex items-center gap-1" ref={dropdownRef}>
+            {NAV_LINKS.map((link) =>
+              link.children ? (
+                <div key={link.label} className="relative">
+                  <button
+                    onClick={() => setOpenDropdown(openDropdown === link.label ? null : link.label)}
+                    className="flex items-center gap-1 px-4 py-2 text-[#7A9E98] hover:text-[#E8F4F1] hover:bg-[rgba(15,234,122,0.06)] rounded-lg transition-all duration-200 text-sm font-medium"
+                  >
+                    {link.label}
+                    <ChevronDown
+                      className={`w-3.5 h-3.5 transition-transform duration-200 ${openDropdown === link.label ? 'rotate-180 text-[#0FEA7A]' : ''}`}
+                    />
+                  </button>
+
+                  {openDropdown === link.label && (
+                    <div className="absolute top-full left-0 mt-2 w-64 bg-[rgba(10,22,20,0.98)] backdrop-blur-xl border border-[rgba(15,234,122,0.15)] rounded-2xl shadow-[0_16px_48px_rgba(0,0,0,0.6)] py-2 z-50">
+                      {link.children.map((child) => (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          onClick={() => setOpenDropdown(null)}
+                          className="flex flex-col px-4 py-3 hover:bg-[rgba(15,234,122,0.07)] transition-all group"
+                        >
+                          <span className="text-[#E8F4F1] text-sm font-medium group-hover:text-[#0FEA7A] transition-colors">
+                            {child.label}
+                          </span>
+                          {child.desc && (
+                            <span className="text-[#7A9E98] text-xs mt-0.5">{child.desc}</span>
+                          )}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setOpenDropdown(null)}
+                  className="px-4 py-2 text-[#7A9E98] hover:text-[#E8F4F1] hover:bg-[rgba(15,234,122,0.06)] rounded-lg transition-all duration-200 text-sm font-medium"
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
           </div>
 
           {/* Desktop Phone CTA */}
@@ -130,16 +179,46 @@ export default function Navbar() {
                 Go
               </button>
             </form>
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setMobileOpen(false)}
-                className="px-4 py-3 text-[#E8F4F1] hover:text-[#0FEA7A] hover:bg-[rgba(15,234,122,0.08)] rounded-xl transition-all text-lg font-medium border-b border-[rgba(255,255,255,0.04)]"
-              >
-                {link.label}
-              </Link>
-            ))}
+
+            {NAV_LINKS.map((link) =>
+              link.children ? (
+                <div key={link.label}>
+                  <button
+                    onClick={() => setMobileExpanded(mobileExpanded === link.label ? null : link.label)}
+                    className="w-full flex items-center justify-between px-4 py-3 text-[#E8F4F1] hover:text-[#0FEA7A] hover:bg-[rgba(15,234,122,0.08)] rounded-xl transition-all text-lg font-medium border-b border-[rgba(255,255,255,0.04)]"
+                  >
+                    {link.label}
+                    <ChevronDown
+                      className={`w-5 h-5 transition-transform duration-200 ${mobileExpanded === link.label ? 'rotate-180 text-[#0FEA7A]' : 'text-[#7A9E98]'}`}
+                    />
+                  </button>
+                  {mobileExpanded === link.label && (
+                    <div className="ml-4 mt-1 flex flex-col gap-1 border-l border-[rgba(15,234,122,0.15)] pl-4">
+                      {link.children.map((child) => (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          onClick={() => { setMobileOpen(false); setMobileExpanded(null); }}
+                          className="py-2.5 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors text-base font-medium"
+                        >
+                          {child.label}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="px-4 py-3 text-[#E8F4F1] hover:text-[#0FEA7A] hover:bg-[rgba(15,234,122,0.08)] rounded-xl transition-all text-lg font-medium border-b border-[rgba(255,255,255,0.04)]"
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
+
             <div className="mt-6 flex flex-col gap-3">
               <a
                 href={`https://wa.me/${logoVariant.tel.replace('+', '')}`}

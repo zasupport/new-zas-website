@@ -52,13 +52,45 @@ export const BRAND = {
   muted: '#7A9E98',
 } as const;
 
-export const NAV_LINKS = [
-  { label: 'Services', href: '/services' },
-  { label: 'Repairs', href: '/apple-repair' },
-  { label: 'Enterprise', href: '/managed-services' },
+export type NavChild = { label: string; href: string; desc?: string };
+export type NavLink = { label: string; href: string; children?: NavChild[] };
+
+export const NAV_LINKS: NavLink[] = [
+  {
+    label: 'Repairs',
+    href: '/apple-repair',
+    children: [
+      { label: 'Logic Board Repair', href: '/logic-board-repair', desc: 'Component-level board repair' },
+      { label: 'Liquid Damage', href: '/liquid-damage', desc: 'Spill recovery & corrosion clean' },
+      { label: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook & iPhone batteries' },
+      { label: 'Screen Repair', href: '/screen-repair', desc: 'Cracked & broken displays' },
+      { label: 'iPhone Repair', href: '/iphone-repair', desc: 'Screen, battery, charging port' },
+      { label: 'iPad Repair', href: '/ipad-repair', desc: 'Screen, battery, charging' },
+    ],
+  },
+  {
+    label: 'Mac Models',
+    href: '/apple-repair',
+    children: [
+      { label: 'MacBook Pro Repair', href: '/macbook-pro-repair', desc: 'All models inc M1–M4' },
+      { label: 'MacBook Air Repair', href: '/macbook-air-repair', desc: 'All models inc M1–M3' },
+      { label: 'iMac Repair', href: '/imac-repair', desc: 'iMac logic board & display' },
+      { label: 'Mac Mini Repair', href: '/mac-mini-repair', desc: 'Mac Mini all generations' },
+      { label: 'MacBook Not Turning On', href: '/macbook-not-turning-on', desc: 'Startup fault diagnosis' },
+    ],
+  },
+  {
+    label: 'Enterprise',
+    href: '/managed-services',
+    children: [
+      { label: 'Managed IT Services', href: '/managed-services', desc: 'Monthly SLA coverage' },
+      { label: 'JAMF MDM', href: '/jamf-mdm', desc: 'Apple device management' },
+      { label: 'Medical IT', href: '/apple-support/medical-practices', desc: 'HPCSA-aware IT for practices' },
+    ],
+  },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
-] as const;
+];
 
 
 export const TRUST_BADGES = [

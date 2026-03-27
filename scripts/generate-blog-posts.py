@@ -11,6 +11,17 @@ import os
 import re
 import time
 from datetime import date
+from pathlib import Path
+
+# Load API key from ~/.za-keys-pending.env if not already in environment
+if not os.environ.get('ANTHROPIC_API_KEY'):
+    env_file = Path.home() / '.za-keys-pending.env'
+    if env_file.exists():
+        for line in env_file.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith('#') and '=' in line:
+                key, _, val = line.partition('=')
+                os.environ.setdefault(key.strip(), val.strip())
 
 client = anthropic.Anthropic()
 
