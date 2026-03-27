@@ -237,5 +237,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-screen-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/apple-mac-battery-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/iphone-screen-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/does-macbook-warranty-cover-water-damage-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/how-long-macbook-survive-after-water-damage`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/laptop-water-damage-repair-vs-buy-new-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-logic-board-repair-vs-replacement-water-damage`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-water-damage-data-recovery-options`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-water-damage-diy-mistakes-to-avoid`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-water-damage-repair-cost-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/prevent-macbook-water-damage-protection-tips`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/signs-of-water-damage-macbook-how-to-tell`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/spilled-coffee-on-macbook-what-to-do-right-now`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

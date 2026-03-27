@@ -299,9 +299,7 @@ def main():
         print("No new posts inserted.")
         return 0
 
-    save_inserted(inserted)
-
-    # Build + commit + push
+    # Build BEFORE saving inserted.json — if build fails, slugs stay untracked for retry
     print(f"\nBuilding ({len(newly_inserted)} new posts)...")
     result = subprocess.run(
         ["npm", "run", "build"],
@@ -311,13 +309,30 @@ def main():
     )
     if result.returncode != 0:
         print(f"BUILD FAILED:\n{result.stderr[-2000:]}")
+        # Revert blog files so next run can retry cleanly
+        subprocess.run(
+            ["git", "checkout", "HEAD", "--", "src/app/blog/[slug]/page.tsx", "src/app/sitemap.ts"],
+            cwd=WEBSITE_DIR,
+        )
+        print("Reverted page.tsx + sitemap.ts — slugs NOT marked inserted, will retry next run")
         return 1
     print("Build: OK")
 
-    subprocess.run(["git", "add", "-A"], cwd=WEBSITE_DIR, check=True)
+    subprocess.run(
+        ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts", "scripts/"],
+        cwd=WEBSITE_DIR, check=True,
+    )
     msg = f"feat: {len(newly_inserted)} blog posts auto-inserted (overnight Haiku batch)"
     subprocess.run(["git", "commit", "-m", msg], cwd=WEBSITE_DIR, check=True)
-    subprocess.run(["git", "push", "origin", "main"], cwd=WEBSITE_DIR, check=True)
+    push_result = subprocess.run(
+        ["git", "push", "origin", "main"], cwd=WEBSITE_DIR, capture_output=True, text=True,
+    )
+    if push_result.returncode != 0:
+        print(f"PUSH FAILED:\n{push_result.stderr[-1000:]}")
+        return 1
+
+    # Only save inserted.json AFTER successful build + push
+    save_inserted(inserted)
     print(f"Committed + pushed: {', '.join(newly_inserted)}")
     return 0
 
