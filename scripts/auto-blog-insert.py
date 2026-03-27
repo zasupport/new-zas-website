@@ -338,16 +338,19 @@ def main():
         print("No new posts inserted.")
         return 0
 
-    # Build BEFORE saving inserted.json — if build fails, slugs stay untracked for retry
-    print(f"\nBuilding ({len(newly_inserted)} new posts)...")
+    # Fast syntax check — no full build (Vercel builds on push, CI validates)
+    # Just verify TypeScript can parse the modified files (~2s vs ~16s full build)
+    print(f"\nSyntax check ({len(newly_inserted)} new posts)...")
     result = subprocess.run(
-        ["npm", "run", "build"],
+        ["npx", "tsc", "--noEmit", "--incremental",
+         "src/app/blog/[slug]/page.tsx", "src/app/blog/page.tsx"],
         cwd=WEBSITE_DIR,
         capture_output=True,
         text=True,
+        timeout=30,
     )
     if result.returncode != 0:
-        print(f"BUILD FAILED:\n{result.stderr[-2000:]}")
+        print(f"SYNTAX CHECK FAILED:\n{result.stderr[-2000:]}")
         # Revert blog files so next run can retry cleanly
         subprocess.run(
             ["git", "checkout", "HEAD", "--",
@@ -356,7 +359,7 @@ def main():
         )
         print("Reverted blog files — slugs NOT marked inserted, will retry next run")
         return 1
-    print("Build: OK")
+    print("Syntax: OK")
 
     subprocess.run(
         ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],

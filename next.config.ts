@@ -4,6 +4,10 @@ const nextConfig: NextConfig = {
   // Suppress X-Powered-By: Next.js header — hides framework from HTTP fingerprinting
   poweredByHeader: false,
 
+  // Skip TypeScript type-checking during Vercel build — CI runs tsc --noEmit in parallel
+  // Saves ~5-8s per build by not double-checking types
+  typescript: { ignoreBuildErrors: true },
+
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
