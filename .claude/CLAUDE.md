@@ -276,3 +276,12 @@ SEVERITY: critical→fix immediately(§123) | high→fix this session | medium�
 # ALERT DEDUP: any monitoring script MUST deduplicate via MD5(message)+timestamp → file before osascript
 #   same alert ≤1× per 2 hours | mechanism: ~/.za-*-alert-dedup | prevents popup spam every 5min
 # TEST BEFORE DEPLOY: after building any monitoring script, run it → inspect stdout → confirm 0 false positives
+
+# ── §181 EMAIL CHECK AFTER EVERY UPDATE (PERMANENT — HARD — 27/03/2026) ──────
+# AFTER every commit+push or deploy: wait 5 minutes then check emails for errors
+# METHOD: osascript AppleScript → Microsoft Outlook → search inbox for Vercel|Render|GitHub errors
+# ON error found: fix immediately → redeploy → recheck emails → loop until clean
+# ∅ stop ∅ defer ∅ "I'll check later" — fix NOW same response
+# SCOPE: Vercel deploy failures | Render deploy/cron failures | GitHub Actions failures | any 3rd-party CI/CD error
+# FREQUENCY: every update, not just deploys — commit+push counts as update
+# MANDATORY: this check is part of the §178 pipeline — EMAIL-CHECK step is not optional
