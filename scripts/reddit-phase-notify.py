@@ -374,6 +374,12 @@ def send_email(subject, html_body):
         if e.code == 429:
             return None  # None = rate limited, don't count as error
         return False
+    except urllib.error.URLError as e:
+        print(f"Network error sending email: {e.reason}")
+        return None  # transient — retry tomorrow, don't count as hard error
+    except Exception as e:
+        print(f"Unexpected error sending email: {e}")
+        return False
 
 def build_html(trigger, today_str):
     phase_colour = {
