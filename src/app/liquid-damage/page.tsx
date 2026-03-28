@@ -7,7 +7,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',

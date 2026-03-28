@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, Activity, Wrench, HardDrive, Wifi, Laptop, Building2, MessageCircle, Cpu } from 'lucide-react';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'IT Services Johannesburg | Mac Repair, Security & Support | ZA Support',
@@ -34,7 +34,7 @@ const jsonLd = {
       email: 'courtney@zasupport.com',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '1 Hyde Park Lane',
+        streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
         addressLocality: 'Hyde Park',
         addressRegion: 'Gauteng',
         postalCode: '2196',
@@ -258,7 +258,7 @@ export default function ServicesPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('SVC-HERO', 'general')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-7 py-3.5 rounded-xl font-bold text-base hover:bg-[#0FEA7A]/90 transition-all"
@@ -377,7 +377,7 @@ export default function ServicesPage() {
                 loss than the monitoring costs.
               </p>
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('SVC-MONITOR', 'managed-services')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-7 py-3.5 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -482,7 +482,7 @@ export default function ServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('SVC-CTA', 'managed-services')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

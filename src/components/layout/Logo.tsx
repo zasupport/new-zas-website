@@ -2,6 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 
 type LogoVariant = 'apple' | 'it' | 'medical';
 
@@ -19,67 +20,14 @@ function getVariant(pathname: string): LogoVariant {
 }
 
 const VARIANTS = {
-  apple:   { label: 'Apple Experts',          phone: '064 529 5863', tel: '+27645295863' },
-  it:      { label: 'IT Specialist',           phone: '063 529 5863', tel: '+27635295863' },
-  medical: { label: 'Medical IT Specialist',   phone: '064 529 5863', tel: '+27645295863' },
+  apple:   { label: 'Apple Experts',          phone: '064 529 5863', tel: '+27645295863', logo: '/za-logo-apple-experts.png' },
+  it:      { label: 'IT Specialist',           phone: '063 529 5863', tel: '+27635295863', logo: '/za-logo-it-specialist.png' },
+  medical: { label: 'Medical IT Specialist',   phone: '064 529 5863', tel: '+27645295863', logo: '/za-logo-apple-experts.png' },
 } as const;
 
 export function useLogoVariant() {
   const pathname = usePathname();
   return VARIANTS[getVariant(pathname)];
-}
-
-/* SVG brand mark — matches the official ZA Support logo:
-   partial circle arc, bold "za", green leaf, spaced "support" */
-function ZaMarkSvg() {
-  return (
-    <svg
-      width="44"
-      height="44"
-      viewBox="0 0 44 44"
-      fill="none"
-      aria-hidden="true"
-      className="flex-shrink-0"
-    >
-      {/* Partial circle arc — open at bottom-left (~300°) */}
-      <path
-        d="M 9 34 A 16 16 0 1 1 35 34"
-        stroke="white"
-        strokeWidth="2.2"
-        strokeLinecap="round"
-        fill="none"
-      />
-      {/* Bold "z" */}
-      <text
-        x="8"
-        y="33"
-        fontFamily="'Inter', 'Arial', sans-serif"
-        fontWeight="800"
-        fontSize="19"
-        fill="white"
-        letterSpacing="-0.5"
-      >
-        z
-      </text>
-      {/* Bold "a" */}
-      <text
-        x="20"
-        y="33"
-        fontFamily="'Inter', 'Arial', sans-serif"
-        fontWeight="800"
-        fontSize="19"
-        fill="white"
-        letterSpacing="-0.5"
-      >
-        a
-      </text>
-      {/* Green leaf at top-right of "a" */}
-      <g transform="translate(33, 11) rotate(-30)">
-        <ellipse cx="0" cy="0" rx="3" ry="5.5" fill="#0FEA7A" />
-        <line x1="0" y1="-5" x2="0" y2="4" stroke="#0A1A18" strokeWidth="0.7" strokeLinecap="round" />
-      </g>
-    </svg>
-  );
 }
 
 export default function Logo() {
@@ -88,23 +36,14 @@ export default function Logo() {
 
   return (
     <Link href="/" className="flex items-center gap-1.5 group select-none">
-      {/* SVG brand mark */}
-      <div className="group-hover:drop-shadow-[0_0_8px_rgba(15,234,122,0.5)] transition-all duration-200">
-        <ZaMarkSvg />
-      </div>
-
-      {/* Text stack: "support" + variant label */}
-      <div className="flex flex-col leading-none -ml-0.5">
-        <span
-          className="text-[#0FEA7A] font-light text-[13px] tracking-[0.35em] uppercase"
-          style={{ fontFamily: 'Inter, sans-serif' }}
-        >
-          support
-        </span>
-        <span className="text-[#E8F4F1] font-bold text-[11px] tracking-wide mt-0.5 group-hover:text-white transition-colors whitespace-nowrap">
-          {config.label}
-        </span>
-      </div>
+      <Image
+        src={config.logo}
+        alt={`ZA Support — ${config.label}`}
+        width={160}
+        height={44}
+        className="h-10 w-auto group-hover:drop-shadow-[0_0_8px_rgba(15,234,122,0.5)] transition-all duration-200"
+        priority
+      />
     </Link>
   );
 }

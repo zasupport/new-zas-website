@@ -8,7 +8,7 @@ import {
 } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import GoogleReviews from '@/components/ui/GoogleReviews';
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ const services = [
     description: 'Expert component-level repair for no-power, no-display, USB-C failure, and GPU faults.',
     href: '/logic-board-repair',
     accent: 'text-purple-400',
-    whatsapp: '/api/wa?service=logic-board&page=/',
+    whatsapp: buildWhatsAppUrl('HOME-LBR', 'logic-board'),
   },
   {
     icon: Droplets,
@@ -33,6 +33,7 @@ const services = [
     description: 'MacBook, iPhone, iPad, Apple Watch. Board-level ultrasonic cleaning and component repair.',
     href: '/liquid-damage',
     accent: 'text-blue-400',
+    whatsapp: buildWhatsAppUrl('HOME-LIQ', 'liquid-damage'),
   },
   {
     icon: Smartphone,
@@ -40,6 +41,7 @@ const services = [
     description: 'Screen, battery, charging port, liquid damage, back glass. All models including iPhone 16.',
     href: '/iphone-repair',
     accent: 'text-[#0FEA7A]',
+    whatsapp: buildWhatsAppUrl('HOME-IPH', 'iphone-repair'),
   },
   {
     icon: Tablet,
@@ -47,6 +49,7 @@ const services = [
     description: 'Screen replacement, battery, charging, and liquid damage. All iPad generations.',
     href: '/ipad-repair',
     accent: 'text-yellow-400',
+    whatsapp: buildWhatsAppUrl('HOME-IPD', 'ipad-repair'),
   },
   {
     icon: Wifi,
@@ -54,6 +57,7 @@ const services = [
     description: 'Enterprise Apple device management. JAMF Pro and JAMF Now implementation.',
     href: '/jamf-mdm',
     accent: 'text-orange-400',
+    whatsapp: buildWhatsAppUrl('HOME-JAMF', 'jamf-mdm'),
   },
   {
     icon: Monitor,
@@ -61,6 +65,7 @@ const services = [
     description: 'Apple-first MSP for businesses. Full IT ownership, monitoring, and support.',
     href: '/managed-services',
     accent: 'text-red-400',
+    whatsapp: buildWhatsAppUrl('HOME-MSP', 'managed-services'),
   },
 ];
 
@@ -218,6 +223,7 @@ export default function HomePage() {
               {/* Emergency CTA */}
               <a
                 href={`tel:${CONTACT.phoneTel}`}
+                data-ref="HOME-HERO"
                 className="inline-flex items-center justify-center gap-3 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.5)] transition-all animate-pulse-glow"
               >
                 <Phone className="w-5 h-5" />
@@ -268,7 +274,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#7A9E98] text-lg">Over {SITE.reviewCount} verified reviews from Johannesburg clients · 16 years of Apple expertise</p>
           </div>
-          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
+          <Suspense fallback={null}>
             <GoogleReviews maxReviews={4} />
           </Suspense>
         </div>
@@ -388,6 +394,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.phoneTel}`}
+                data-ref="HOME-CTA"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
               >
                 <Phone className="w-5 h-5" />

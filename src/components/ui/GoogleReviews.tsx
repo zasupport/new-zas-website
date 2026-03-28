@@ -96,42 +96,7 @@ function ReviewGrid({ reviews }: { reviews: Array<{ name: string; rating: number
   );
 }
 
-export default async function GoogleReviews({ maxReviews = 4 }: { maxReviews?: number }) {
-  const data = await fetchGoogleReviews();
-
-  const hasLiveReviews = !!(data?.reviews && data.reviews.length > 0);
-
-  if (hasLiveReviews) {
-    const liveReviews = (data!.reviews ?? []).slice(0, maxReviews).map((r) => ({
-      name: r.authorAttribution?.displayName ?? 'Google Reviewer',
-      rating: r.rating,
-      text: r.text?.text ?? '',
-      meta: r.relativePublishTimeDescription,
-    }));
-
-    const rating = data!.rating ?? SITE.rating;
-    const reviewCount = data!.userRatingCount?.toLocaleString();
-
-    return (
-      <div>
-        <div className="flex items-center justify-center gap-3 mb-10">
-          <StarRow rating={5} size="lg" />
-          <span className="text-[#E8F4F1] font-bold text-xl">{Number(rating).toFixed(1)}</span>
-          <span className="text-[#7A9E98]">&middot;</span>
-          <span className="text-[#7A9E98]">{reviewCount}+ Google Reviews</span>
-        </div>
-        <ReviewGrid reviews={liveReviews} />
-        <div className="flex justify-center mt-8">
-          <a href={mapsUrl} target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all text-sm">
-            See all reviews on Google <ExternalLink className="w-4 h-4" />
-          </a>
-        </div>
-      </div>
-    );
-  }
-
-  // Static fallback — always renders with full content
+function StaticReviewBlock({ maxReviews }: { maxReviews: number }) {
   const staticReviews: readonly StaticReview[] = REVIEWS;
   const displayed = staticReviews.slice(0, maxReviews).map((r) => ({
     name: r.name,
@@ -149,6 +114,49 @@ export default async function GoogleReviews({ maxReviews = 4 }: { maxReviews?: n
         <span className="text-[#7A9E98]">{SITE.reviewCount} Google Reviews</span>
       </div>
       <ReviewGrid reviews={displayed} />
+      <div className="flex justify-center mt-8">
+        <a href={mapsUrl} target="_blank" rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all text-sm">
+          See all reviews on Google <ExternalLink className="w-4 h-4" />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default async function GoogleReviews({ maxReviews = 4 }: { maxReviews?: number }) {
+  let data: PlacesApiResponse | null = null;
+  try {
+    data = await fetchGoogleReviews();
+  } catch {
+    // Fall through to static reviews
+  }
+
+  const hasLiveReviews = !!(data?.reviews && data.reviews.length > 0);
+
+  if (!hasLiveReviews) {
+    return <StaticReviewBlock maxReviews={maxReviews} />;
+  }
+
+  const liveReviews = (data!.reviews ?? []).slice(0, maxReviews).map((r) => ({
+    name: r.authorAttribution?.displayName ?? 'Google Reviewer',
+    rating: r.rating,
+    text: r.text?.text ?? '',
+    meta: r.relativePublishTimeDescription,
+  }));
+
+  const rating = data!.rating ?? SITE.rating;
+  const reviewCount = data!.userRatingCount?.toLocaleString();
+
+  return (
+    <div>
+      <div className="flex items-center justify-center gap-3 mb-10">
+        <StarRow rating={5} size="lg" />
+        <span className="text-[#E8F4F1] font-bold text-xl">{Number(rating).toFixed(1)}</span>
+        <span className="text-[#7A9E98]">&middot;</span>
+        <span className="text-[#7A9E98]">{reviewCount}+ Google Reviews</span>
+      </div>
+      <ReviewGrid reviews={liveReviews} />
       <div className="flex justify-center mt-8">
         <a href={mapsUrl} target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all text-sm">

@@ -4,7 +4,7 @@ import { Phone, ArrowRight, HardDrive, Cpu, Wrench, Thermometer, Zap, Monitor } 
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
@@ -167,7 +167,7 @@ export default function MacMiniRepairPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20Mac%20Mini%20repair%20or%20upgrade%20quote`}
+              href={buildWhatsAppUrl('MINI', 'mac-mini-repair')}
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -415,7 +415,7 @@ export default function MacMiniRepairPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20Mac%20Mini%20repair%20or%20upgrade%20quote"
+              href={buildWhatsAppUrl('MINI', 'mac-mini-repair')}
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -432,7 +432,7 @@ export default function MacMiniRepairPage() {
             </a>
           </div>
           <p className="text-slate-500 text-sm mt-6">
-            1 Hyde Park Lane, Hyde Park, Johannesburg · Mon–Fri 8am–6pm · Sat 9am–1pm
+            1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg · Mon–Fri 8am–6pm
           </p>
         </div>
       </section>

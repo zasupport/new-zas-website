@@ -17,7 +17,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema } from '@/lib/schema';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Keyboard Repair Johannesburg | ZA Support',
@@ -290,7 +290,7 @@ export default function MacBookKeyboardPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20MacBook%20keyboard%20repair"
+                href={buildWhatsAppUrl('MBR-KBD', 'macbook-repair')}
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all text-lg"
               >
                 <MessageCircle className="w-5 h-5" /> WhatsApp Us
@@ -655,7 +655,7 @@ export default function MacBookKeyboardPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20MacBook%20keyboard%20repair"
+                href={buildWhatsAppUrl('MBR-KBD', 'macbook-repair')}
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
               >
                 <MessageCircle className="w-5 h-5" /> WhatsApp Us

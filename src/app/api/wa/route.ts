@@ -4,13 +4,14 @@ import { NextRequest, NextResponse } from 'next/server';
 // wa.me does not support UTM params, so clicks are tracked server-side.
 
 const SERVICE_MAP: Record<string, string> = {
-  'logic-board': 'Hi%2C%20I%20need%20a%20logic%20board%20repair%20quote',
-  'liquid-damage': 'Hi%2C%20I%20need%20a%20liquid%20damage%20repair%20quote',
-  'macbook-repair': 'Hi%2C%20I%20need%20a%20MacBook%20repair%20quote',
-  'battery': 'Hi%2C%20I%20need%20a%20MacBook%20battery%20replacement%20quote',
-  'screen': 'Hi%2C%20I%20need%20a%20MacBook%20screen%20replacement%20quote',
-  'no-fix-no-fee': 'Hi%2C%20I%20need%20a%20free%20Mac%20diagnostic',
-  'general': 'Hi%2C%20I%20need%20help%20with%20my%20Apple%20device',
+  'logic-board': 'Hi, I need a logic board repair quote',
+  'liquid-damage': 'Hi, I need a liquid damage repair quote',
+  'macbook-repair': 'Hi, I need a MacBook repair quote',
+  'battery': 'Hi, I need a MacBook battery replacement quote',
+  'screen': 'Hi, I need a MacBook screen replacement quote',
+  'no-fix-no-fee': 'Hi, I need a free Mac diagnostic',
+  'assessment': 'Hi, I need a free Mac diagnostic',
+  'general': 'Hi, I need help with my Apple device',
 };
 
 const BASE_WA = 'https://wa.me/27645295863';
@@ -25,8 +26,13 @@ export async function GET(request: NextRequest) {
   // Sanitise page param — only allow alphanumeric, hyphens, slashes
   const page = /^[a-zA-Z0-9\-\/]+$/.test(rawPage) ? rawPage : '/';
 
-  const textParam = SERVICE_MAP[service];
-  const waUrl = `${BASE_WA}?text=${textParam}`;
+  // Build ref code from service + page for tracking
+  const pageRef = page.replace(/^\//, '').replace(/\//g, '-').toUpperCase() || 'HOME';
+  const svcRef = service.toUpperCase().replace(/-/g, '');
+  const ref = `${svcRef}-${pageRef}`;
+
+  const textParam = `${SERVICE_MAP[service]} [REF:${ref}]`;
+  const waUrl = `${BASE_WA}?text=${encodeURIComponent(textParam)}`;
 
   // Log click via structured console.log (captured by Vercel log drain — no filesystem)
   console.log(JSON.stringify({

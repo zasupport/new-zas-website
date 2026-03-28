@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'iMac Logic Board Repair Johannesburg | ZA Support',
@@ -154,7 +154,7 @@ const serviceSchema = {
     name: 'ZA Support',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '1 Hyde Park Lane',
+      streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
       addressLocality: 'Hyde Park',
       addressRegion: 'Gauteng',
       postalCode: '2196',
@@ -212,7 +212,7 @@ export default function iMacLogicBoardPage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('LBR-IMAC', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -438,7 +438,7 @@ export default function iMacLogicBoardPage() {
               },
               {
                 title: 'Hyde Park Workshop',
-                desc: '1 Hyde Park Lane, a premium, secure location. Collection and delivery available across Sandton, Rosebank, Randburg, Fourways, and Midrand.',
+                desc: '1 Hyde Lane, Second Floor, Office E2004, a premium, secure location. Collection and delivery available across Sandton, Rosebank, Randburg, Fourways, and Midrand.',
               },
             ].map((item) => (
               <div key={item.title} className="glass-card p-6">
@@ -514,7 +514,7 @@ export default function iMacLogicBoardPage() {
             <p className="text-[#7A9E98] text-sm mb-8">Get a second opinion before committing to a board replacement, it costs you nothing.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('LBR-IMAC', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

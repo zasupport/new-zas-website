@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { Phone, Menu, X, Calendar, Search, ChevronDown } from 'lucide-react';
-import { NAV_LINKS } from '@/lib/constants';
+import { NAV_LINKS, buildWhatsAppUrl } from '@/lib/constants';
 import Logo, { useLogoVariant } from './Logo';
 import NavSearch from './NavSearch';
 import { trackWhatsAppClick, trackPhoneTap } from '@/lib/analytics';
@@ -111,15 +111,16 @@ export default function Navbar() {
             <NavSearch />
             <a
               href={`tel:${logoVariant.tel}`}
-              onClick={() => trackPhoneTap('navbar-desktop')}
+              onClick={() => trackPhoneTap('navbar-desktop', 'NAV-DESK')}
+              data-ref="NAV-DESK"
               className="flex items-center gap-2 text-[#E8F4F1] hover:text-[#0FEA7A] transition-colors text-sm font-medium"
             >
               <Phone className="w-4 h-4 text-[#0FEA7A]" />
               {logoVariant.phone}
             </a>
             <a
-              href={`https://wa.me/${logoVariant.tel.replace('+', '')}`}
-              onClick={() => trackWhatsAppClick('navbar-desktop')}
+              href={buildWhatsAppUrl('NAV-DESK', 'general')}
+              onClick={() => trackWhatsAppClick('navbar-desktop', 'general', 'NAV-DESK')}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#0FEA7A] text-[#0A1A18] px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_20px_rgba(15,234,122,0.4)] transition-all"
@@ -221,8 +222,8 @@ export default function Navbar() {
 
             <div className="mt-6 flex flex-col gap-3">
               <a
-                href={`https://wa.me/${logoVariant.tel.replace('+', '')}`}
-                onClick={() => { trackWhatsAppClick('navbar-mobile'); setMobileOpen(false); }}
+                href={buildWhatsAppUrl('NAV-MOB', 'general')}
+                onClick={() => { trackWhatsAppClick('navbar-mobile', 'general', 'NAV-MOB'); setMobileOpen(false); }}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[#0FEA7A]/90 transition-all"
@@ -239,7 +240,8 @@ export default function Navbar() {
               </Link>
               <a
                 href={`tel:${logoVariant.tel}`}
-                onClick={() => { trackPhoneTap('navbar-mobile'); setMobileOpen(false); }}
+                onClick={() => { trackPhoneTap('navbar-mobile', 'NAV-MOB'); setMobileOpen(false); }}
+                data-ref="NAV-MOB"
                 className="flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#7A9E98] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
                 <Phone className="w-5 h-5" />

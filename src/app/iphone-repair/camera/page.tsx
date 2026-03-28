@@ -5,7 +5,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'iPhone Camera Repair Johannesburg | ZA Support',
@@ -182,7 +182,7 @@ const breadcrumbSchemaItems = [
 const faqSchema = buildFaqSchema(faqs);
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
-const whatsappUrl = 'https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20iPhone%20camera%20repair';
+const whatsappUrl = buildWhatsAppUrl('IPH-CAM', 'iphone-repair');
 
 void LOCAL_BUSINESS_PROVIDER;
 

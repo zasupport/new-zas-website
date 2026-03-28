@@ -5,7 +5,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Not Charging, Repair Johannesburg | ZA Support',
@@ -227,8 +227,7 @@ const serviceSchemaData = buildServiceSchema({
 const faqSchema = buildFaqSchema(faqs);
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
-const whatsappUrl =
-  'https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20my%20MacBook%20is%20not%20charging';
+const whatsappUrl = buildWhatsAppUrl('MBR-CHRG', 'charging-port');
 
 // ─── Component ───────────────────────────────────────────────────────────────
 

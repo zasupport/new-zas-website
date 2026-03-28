@@ -7,7 +7,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Logic Board Repair Johannesburg | ZA Support',

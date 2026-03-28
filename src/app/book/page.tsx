@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form';
 import Link from 'next/link';
 import { Phone, MessageCircle, CheckCircle, ArrowRight, Calendar, Zap } from 'lucide-react';
 import { trackBookFormSubmit, trackBookFormStart } from '@/lib/analytics';
+import { buildWhatsAppUrl } from '@/lib/constants';
 
 type FormValues = {
   name: string;
@@ -37,7 +38,7 @@ const localBusinessSchema = {
   telephone: '+27645295863',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '1 Hyde Park Lane',
+    streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
     addressLocality: 'Hyde Park',
     addressRegion: 'Gauteng',
     postalCode: '2196',
@@ -340,7 +341,7 @@ export default function BookPage() {
           {/* Secondary contact options */}
           <div className="mt-8 grid grid-cols-2 gap-4">
             <a
-              href="https://wa.me/27645295863?text=Hi%2C%20I%20would%20like%20to%20book%20a%20Mac%20repair%20assessment"
+              href={buildWhatsAppUrl('BOOK', 'general')}
               target="_blank"
               rel="noopener noreferrer"
               className="glass-card p-4 flex items-center gap-3 hover:border-[rgba(15,234,122,0.3)] transition-colors"

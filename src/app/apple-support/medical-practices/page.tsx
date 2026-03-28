@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Apple Mac Support Medical Practices Johannesburg',
@@ -163,7 +163,7 @@ const serviceSchema = {
     name: 'ZA Support',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '1 Hyde Park Lane',
+      streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
       addressLocality: 'Hyde Park',
       addressRegion: 'Gauteng',
       postalCode: '2196',
@@ -218,7 +218,7 @@ export default function MedicalPracticesPage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('APPSUP-MEDIC', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -356,7 +356,7 @@ export default function MedicalPracticesPage() {
                   ))}
                 </ul>
                 <a
-                  href={CONTACT.whatsappLogicBoard}
+                  href={buildWhatsAppUrl('APPSUP-MEDIC', 'logic-board')}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-bold text-sm transition-all ${i === 1 ? 'bg-[#0FEA7A] text-[#0A1A18] hover:bg-[#0FEA7A]/90' : 'border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] hover:bg-[rgba(15,234,122,0.08)]'}`}
@@ -408,7 +408,7 @@ export default function MedicalPracticesPage() {
                   We have been providing Apple IT support to medical practices in Johannesburg since 2009. We understand the operational and compliance environment. We do not need to be briefed on what HPCSA is.
                 </p>
                 <a
-                  href={CONTACT.whatsappLogicBoard}
+                  href={buildWhatsAppUrl('APPSUP-MEDIC', 'logic-board')}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-3 rounded-xl font-bold text-sm hover:bg-[#0FEA7A]/90 transition-all"
@@ -505,7 +505,7 @@ export default function MedicalPracticesPage() {
             <p className="text-[#7A9E98] text-sm mb-8">Johannesburg&apos;s Apple IT specialists for medical practices since 2009.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('APPSUP-MEDIC', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
@@ -172,7 +172,7 @@ export default function iPadRepairPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('IPAD', 'ipad-repair')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -394,7 +394,7 @@ export default function iPadRepairPage() {
             <p className="text-[#7A9E98] mb-8">Assessment: from R599. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('IPAD', 'ipad-repair')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

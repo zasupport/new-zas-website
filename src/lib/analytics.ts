@@ -37,20 +37,22 @@ function gtag(event: string, params?: GtagEvent) {
   }
 }
 
-export function trackWhatsAppClick(source: string, servicePage?: string) {
+export function trackWhatsAppClick(source: string, servicePage?: string, ref?: string) {
   gtag('whatsapp_click', {
     event_category: 'conversion',
     event_label: source,
     service_type: servicePage ?? 'general',
     page_location: typeof window !== 'undefined' ? window.location.pathname : '',
+    ref_code: ref ?? source,
   });
 }
 
-export function trackPhoneTap(source: string) {
+export function trackPhoneTap(source: string, ref?: string) {
   gtag('phone_tap', {
     event_category: 'conversion',
     event_label: source,
     page_location: typeof window !== 'undefined' ? window.location.pathname : '',
+    ref_code: ref ?? source,
   });
 }
 

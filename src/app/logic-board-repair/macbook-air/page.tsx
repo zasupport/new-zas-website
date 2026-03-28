@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Air Logic Board Repair | ZA Support',
@@ -171,7 +171,7 @@ export default function MacBookAirLogicBoardPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('LBR-MBA', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
@@ -574,7 +574,7 @@ export default function MacBookAirLogicBoardPage() {
             <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Closed Saturdays</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('LBR-MBA', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

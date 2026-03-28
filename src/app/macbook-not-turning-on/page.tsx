@@ -18,7 +18,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Not Turning On Johannesburg | Assessment: from R599',
@@ -398,7 +398,7 @@ export default function MacBookNotTurningOnPage() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <a
-                href={`https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20my%20MacBook%20won%27t%20turn%20on%20%E2%80%94%20need%20help`}
+                href={buildWhatsAppUrl('MBNTO', 'macbook-not-turning-on')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] font-bold px-8 py-4 rounded-xl text-lg hover:bg-[#0FEA7A]/90 transition-all shadow-lg shadow-[#0FEA7A]/20"
@@ -498,7 +498,7 @@ export default function MacBookNotTurningOnPage() {
               <p className="text-[#7A9E98]">Assessment: from R599 at our Hyde Park workshop. Takes 30 minutes. No charge regardless of outcome.</p>
             </div>
             <a
-              href={`https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20my%20MacBook%20won%27t%20turn%20on%20%E2%80%94%20need%20help`}
+              href={buildWhatsAppUrl('MBNTO', 'macbook-not-turning-on')}
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] font-bold px-6 py-3 rounded-xl hover:bg-[#0FEA7A]/90 transition-all"
@@ -755,7 +755,7 @@ export default function MacBookNotTurningOnPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <a
-                href={`https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20my%20MacBook%20won%27t%20turn%20on%20%E2%80%94%20need%20help`}
+                href={buildWhatsAppUrl('MBNTO', 'macbook-not-turning-on')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] font-bold px-8 py-4 rounded-xl text-lg hover:bg-[#0FEA7A]/90 transition-all shadow-lg shadow-[#0FEA7A]/20"

@@ -4,7 +4,7 @@ import { Phone, ArrowRight, Battery, Monitor, Keyboard, Wrench, Droplets, Shield
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
@@ -244,7 +244,7 @@ export default function MacBookAirRepairPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={`https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20MacBook%20Air%20repair%20quote`}
+                href={buildWhatsAppUrl('MBA', 'macbook-air-repair')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -406,7 +406,7 @@ export default function MacBookAirRepairPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={`https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20MacBook%20Air%20repair%20quote`}
+                href={buildWhatsAppUrl('MBA', 'macbook-air-repair')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

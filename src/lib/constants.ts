@@ -127,3 +127,81 @@ export const REVIEWS = [
     service: 'Logic Board Repair',
   },
 ] as const;
+
+/* ── Page-specific WhatsApp & Phone tracking helpers ────────────────────────
+ * Every WA link on the site includes a [REF:CODE] tag so we can identify
+ * which page and section generated the enquiry.
+ *
+ * REF format: [REF:{PAGE}-{SECTION}]
+ *   PAGE   = short code for the page (HOME, LBR, LIQ, BAT, SCR, CONTACT, etc.)
+ *   SECTION = optional section within the page (HERO, CTA, CARD, FOOTER, NAV)
+ */
+
+const WA_BASE = 'https://wa.me/27645295863';
+
+const SERVICE_MESSAGES: Record<string, string> = {
+  'logic-board': 'Hi, I need a logic board repair quote',
+  'liquid-damage': 'Hi, I need a liquid damage repair quote',
+  'macbook-repair': 'Hi, I need a MacBook repair quote',
+  'macbook-pro-repair': 'Hi, I need a MacBook Pro repair quote',
+  'macbook-air-repair': 'Hi, I need a MacBook Air repair quote',
+  'imac-repair': 'Hi, I need an iMac repair quote',
+  'mac-mini-repair': 'Hi, I need a Mac Mini repair or upgrade quote',
+  'battery': 'Hi, I need a battery replacement quote',
+  'screen': 'Hi, I need a screen repair quote',
+  'iphone-repair': 'Hi, I need an iPhone repair quote',
+  'iphone-screen': 'Hi, I need an iPhone screen repair quote',
+  'iphone-battery': 'Hi, I need an iPhone battery replacement quote',
+  'iphone-charging': 'Hi, my iPhone is not charging',
+  'iphone-back-glass': 'Hi, I need iPhone back glass repair',
+  'iphone-camera': 'Hi, I need an iPhone camera repair quote',
+  'ipad-repair': 'Hi, I need an iPad repair quote',
+  'ipad-screen': 'Hi, I need an iPad screen repair quote',
+  'ipad-battery': 'Hi, I need an iPad battery replacement quote',
+  'ipad-charging': 'Hi, my iPad is not charging',
+  'keyboard': 'Hi, I need a MacBook keyboard repair quote',
+  'charging-port': 'Hi, I need a charging port repair quote',
+  'data-recovery': 'Hi, I need data recovery help',
+  'virus-removal': 'Hi, I need virus/malware removal help',
+  'trackpad': 'Hi, I need a MacBook trackpad repair quote',
+  'ssd-upgrade': 'Hi, I need an SSD upgrade quote',
+  'ram-upgrade': 'Hi, I need a RAM upgrade quote',
+  'apple-watch': 'Hi, I need an Apple Watch repair quote',
+  'airpods': 'Hi, I need AirPods repair quote',
+  'accessories': 'Hi, I need help with Apple accessories repair',
+  'no-fix-no-fee': 'Hi, I need a free Mac diagnostic',
+  'managed-services': "Hi, I'd like a managed IT services quote",
+  'medical-it': "Hi, I'm a medical practice and need IT support",
+  'jamf-mdm': "Hi, I'd like a JAMF MDM implementation quote",
+  'apple-support': "Hi, I need Apple support for my business",
+  'macbook-not-turning-on': "Hi, my MacBook won't turn on and I need help",
+  'general': 'Hi, I need help with my Apple device',
+};
+
+/**
+ * Build a WhatsApp URL with a tracking ref code appended to the message text.
+ *
+ * @param ref      Tracking ref code, e.g. 'HOME-HERO', 'LBR-CTA', 'NAV-DESK'
+ * @param service  Optional service key from SERVICE_MESSAGES map
+ * @param message  Optional custom message (overrides service message)
+ * @returns        Full wa.me URL with ?text= including [REF:code]
+ *
+ * @example
+ *   buildWhatsAppUrl('HOME-HERO', 'general')
+ *   // => https://wa.me/27645295863?text=Hi%2C%20I%20need%20help%20...%20%5BREF%3AHOME-HERO%5D
+ */
+export function buildWhatsAppUrl(ref: string, service?: string, message?: string): string {
+  const baseMessage = message ?? SERVICE_MESSAGES[service ?? 'general'] ?? SERVICE_MESSAGES['general'];
+  const fullMessage = `${baseMessage} [REF:${ref}]`;
+  return `${WA_BASE}?text=${encodeURIComponent(fullMessage)}`;
+}
+
+/**
+ * Build a WhatsApp URL for suburb-specific pages.
+ * Includes both the service and suburb in the message.
+ */
+export function buildWhatsAppSuburbUrl(ref: string, service: string, suburb: string): string {
+  const svcMsg = SERVICE_MESSAGES[service] ?? SERVICE_MESSAGES['general'];
+  const fullMessage = `${svcMsg} (${suburb}) [REF:${ref}]`;
+  return `${WA_BASE}?text=${encodeURIComponent(fullMessage)}`;
+}

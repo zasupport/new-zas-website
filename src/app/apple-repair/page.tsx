@@ -22,7 +22,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Apple Mac Repair, Johannesburg | ZA Support',
@@ -325,7 +325,7 @@ export default function AppleRepairPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={`https://wa.me/27645295863?text=Hi%20ZA%20Support%2C%20I%20need%20help%20with%20my%20Apple%20device`}
+                href={buildWhatsAppUrl('APPREP', 'general')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
@@ -468,7 +468,7 @@ export default function AppleRepairPage() {
             </div>
             <div className="flex-shrink-0">
               <a
-                href={`https://wa.me/27645295863?text=Hi%20ZA%20Support%2C%20I%20need%20help%20with%20my%20Apple%20device`}
+                href={buildWhatsAppUrl('APPREP', 'general')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-3 rounded-xl font-bold text-sm hover:bg-[#0FEA7A]/90 transition-all whitespace-nowrap"
@@ -581,7 +581,7 @@ export default function AppleRepairPage() {
           <p className="text-[#E8F4F1] font-semibold mb-4">Apple device damaged? Get a quote in minutes.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`https://wa.me/27645295863?text=Hi%20ZA%20Support%2C%20I%20need%20help%20with%20my%20Apple%20device`}
+              href={buildWhatsAppUrl('APPREP', 'general')}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
@@ -654,7 +654,7 @@ export default function AppleRepairPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={`https://wa.me/27645295863?text=Hi%20ZA%20Support%2C%20I%20need%20help%20with%20my%20Apple%20device`}
+                href={buildWhatsAppUrl('APPREP', 'general')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"

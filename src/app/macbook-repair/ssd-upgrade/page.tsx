@@ -4,7 +4,7 @@ import { Phone, ArrowRight, HardDrive, Zap, Shield, CheckCircle } from 'lucide-r
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook SSD Upgrade Johannesburg | Faster Boot, More Storage | ZA Support',
@@ -184,7 +184,7 @@ export default function MacBookSSDUpgradePage() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href={`https://wa.me/27645295863?text=Hi%2C%20I%27d%20like%20a%20MacBook%20SSD%20upgrade%20quote`}
+              href={buildWhatsAppUrl('MBR-SSD', 'macbook-repair')}
               className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0dd96d] text-[#0A1A18] px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
             >
               WhatsApp Us

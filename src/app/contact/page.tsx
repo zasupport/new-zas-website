@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
-import { CONTACT, SITE } from '@/lib/constants';
+import { Phone, Mail, MapPin, Clock, Send, MessageCircle, CheckCircle } from 'lucide-react';
+import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import GoogleMap from '@/components/ui/GoogleMap';
 
@@ -108,7 +108,7 @@ export default function ContactPage() {
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('CONTACT', 'general', "Hi, I'd like to get in touch")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
@@ -130,9 +130,37 @@ export default function ContactPage() {
               <div className="glass-card p-8">
                 <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">Send an Enquiry</h2>
                 {status === 'sent' ? (
-                  <div className="p-6 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.3)] rounded-xl text-center">
-                    <p className="text-[#0FEA7A] text-xl font-bold mb-2">Message Sent!</p>
-                    <p className="text-[#7A9E98]">We will get back to you within 1 hour during business hours.</p>
+                  <div className="py-12 px-6 text-center">
+                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[rgba(15,234,122,0.15)] border border-[rgba(15,234,122,0.3)] mb-6">
+                      <CheckCircle className="w-8 h-8 text-[#0FEA7A]" />
+                    </div>
+                    <h3 className="text-2xl sm:text-3xl font-extrabold text-[#E8F4F1] mb-3">
+                      Thank You for Your Enquiry!
+                    </h3>
+                    <p className="text-[#7A9E98] text-lg mb-6 max-w-md mx-auto">
+                      We have received your message and will respond within <span className="text-[#0FEA7A] font-semibold">1 hour</span> during business hours.
+                    </p>
+                    <div className="p-5 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-xl max-w-sm mx-auto mb-8">
+                      <p className="text-[#7A9E98] text-sm mb-1">Business hours</p>
+                      <p className="text-[#E8F4F1] text-sm font-semibold">Monday &ndash; Friday: 08:00 &ndash; 17:30</p>
+                    </div>
+                    <p className="text-[#7A9E98] text-sm mb-4">Need a faster response? Call or WhatsApp us directly.</p>
+                    <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                      <a
+                        href={`tel:${CONTACT.phoneTel}`}
+                        className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
+                      >
+                        <Phone className="w-5 h-5" /> Call {CONTACT.phone}
+                      </a>
+                      <a
+                        href={buildWhatsAppUrl('CONTACT', 'general', "Hi, I'd like to get in touch")}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+                      >
+                        <MessageCircle className="w-5 h-5" /> WhatsApp Us
+                      </a>
+                    </div>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-5">
@@ -238,7 +266,7 @@ export default function ContactPage() {
                   <span className="text-lg font-semibold">{CONTACT.phone}</span>
                 </a>
                 <a
-                  href={CONTACT.whatsapp}
+                  href={buildWhatsAppUrl('CONTACT', 'general', "Hi, I'd like to get in touch")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors mb-3"

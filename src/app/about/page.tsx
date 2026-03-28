@@ -38,7 +38,7 @@ const localBusinessSchema = {
   vatID: SITE.vat,
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '1 Hyde Park Lane',
+    streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
     addressLocality: 'Hyde Park',
     addressRegion: 'Gauteng',
     postalCode: '2196',
@@ -156,7 +156,7 @@ const organizationSchema = {
   },
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '1 Hyde Park Lane',
+    streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
     addressLocality: 'Hyde Park',
     addressRegion: 'Gauteng',
     postalCode: '2196',
@@ -289,7 +289,7 @@ export default function AboutPage() {
                   Founded in 2009 in Hyde Park, we chose board-level component-level repair when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a up-to-3 year warranty on every repair.
                 </p>
                 <p>
-                  Today we serve medical practices, businesses, and professionals across Johannesburg — combining Apple repair, JAMF MDM, and managed IT from our Hyde Park workshop at 1 Hyde Park Lane.
+                  Today we serve medical practices, businesses, and professionals across Johannesburg — combining Apple repair, JAMF MDM, and managed IT from our Hyde Park workshop at 1 Hyde Lane, Second Floor, Office E2004.
                 </p>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold text-[#E8F4F1]">Service Area, Greater Johannesburg</h2>
             </div>
             <p className="text-[#7A9E98] mb-5 leading-relaxed">
-              Based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196, we collect and deliver across Sandton,
+              Based at 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196, we collect and deliver across Sandton,
               Rosebank, Fourways, Bryanston, Midrand and all major Johannesburg suburbs. On-site visits available
               for managed IT and medical practice clients.
             </p>
@@ -357,7 +357,7 @@ export default function AboutPage() {
                   { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
                   { label: 'Founded', value: '2009' },
                   { label: 'VAT Number', value: SITE.vat },
-                  { label: 'Address', value: '1 Hyde Park Lane, Hyde Park, Johannesburg 2196' },
+                  { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
                   { label: 'Service Area', value: 'Greater Johannesburg / Gauteng' },
                 ].map((item) => (
                   <div key={item.label} className="flex gap-2">

@@ -372,7 +372,7 @@ For most home offices running a MacBook Pro or MacBook Air, we recommend the APC
 
 If your MacBook is showing any of the symptoms described in this guide — or if it was plugged in during a load shedding reinstatement event and you want peace of mind — bring it in for a assessment fee (from R599).
 
-We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg. We assess surge damage same day, 7 days a week. Assessment: from R599 on all repairs.
+We are based at 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg. We assess surge damage same day, 7 days a week. Assessment: from R599 on all repairs.
 
 Call **064 529 5863** or message us on WhatsApp. We will have a clear answer for you within the hour.
     `.trim(),
@@ -1272,7 +1272,7 @@ At ZA Support, battery replacement is a same-day service for most models. Here i
 
 ## MacBook Battery Replacement in Johannesburg
 
-ZA Support is based at 1 Hyde Park Lane, Second Floor, Johannesburg. We service all MacBook models.
+ZA Support is based at 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg. We service all MacBook models.
 
 Bring your MacBook in for a assessment fee (from R599). We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. Assessment: from R599. warranty on all battery replacements.
 
@@ -1362,7 +1362,7 @@ Understanding what kind of fault you have is the first step to knowing what your
 
 ZA Support services all MacBook models. Most repairs completed within 1-3 business days.
 
-We offer a assessment fee (from R599) before any commitment. Bring your Mac in to 1 Hyde Park Lane, Hyde Park, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with Assessment: from R599. All screen replacements carry a up-to-3 year warranty.
+We offer a assessment fee (from R599) before any commitment. Bring your Mac in to 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with Assessment: from R599. All screen replacements carry a up-to-3 year warranty.
 
 Call **064 529 5863** or message us on WhatsApp to book or ask about your specific model.
 
@@ -5809,7 +5809,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     telephone: '+27645295863',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '1 Hyde Park Lane',
+      streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
       addressLocality: 'Hyde Park',
       addressRegion: 'Gauteng',
       postalCode: '2196',

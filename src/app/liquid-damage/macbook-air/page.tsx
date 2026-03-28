@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT, SITE } from '@/lib/constants';
+import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Air Liquid Damage Repair | ZA Support',
@@ -232,7 +232,7 @@ const serviceSchema = buildServiceSchema({
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
 export default function MacBookAirLiquidDamagePage() {
-  const whatsappLiquidDamage = 'https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20my%20MacBook%20Air%20has%20liquid%20damage';
+  const whatsappLiquidDamage = buildWhatsAppUrl('LIQ-MBA', 'liquid-damage');
 
   return (
     <>

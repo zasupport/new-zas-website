@@ -5,7 +5,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Mac Virus & Malware Removal Johannesburg | No-Obligation Diagnostic | ZA Support',
@@ -218,7 +218,7 @@ export default function MacVirusRemovalPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/27645295863?text=Hi%20ZA%20Support%2C%20I%20think%20my%20Mac%20has%20a%20virus"
+                href={buildWhatsAppUrl('MBR-VIRUS', 'macbook-repair')}
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all text-lg"
               >
                 <MessageCircle className="w-5 h-5" /> WhatsApp Us
@@ -431,7 +431,7 @@ export default function MacVirusRemovalPage() {
               </div>
               <div className="flex flex-col sm:flex-row gap-3 sm:ml-auto">
                 <a
-                  href="https://wa.me/27645295863?text=Hi%20ZA%20Support%2C%20I%20want%20to%20know%20more%20about%20CyberShield"
+                  href={buildWhatsAppUrl('MBR-VIRUS', 'macbook-repair')}
                   className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
                 >
                   <MessageCircle className="w-4 h-4" /> Ask About CyberShield
@@ -480,7 +480,7 @@ export default function MacVirusRemovalPage() {
               },
               {
                 title: 'Hyde Park, Johannesburg',
-                desc: '1 Hyde Park Lane. Easy access from Sandton, Rosebank, Fourways, and surrounding suburbs.',
+                desc: '1 Hyde Lane, Second Floor, Office E2004. Easy access from Sandton, Rosebank, Fourways, and surrounding suburbs.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.2)] transition-colors">
@@ -550,7 +550,7 @@ export default function MacVirusRemovalPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm text-center mt-6">
-            Based at <strong className="text-[#E8F4F1]">1 Hyde Park Lane, Hyde Park, Johannesburg 2196</strong>. Walk-ins welcome, call first for same-day availability.
+            Based at <strong className="text-[#E8F4F1]">1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196</strong>. Walk-ins welcome, call first for same-day availability.
           </p>
         </div>
       </section>
@@ -589,7 +589,7 @@ export default function MacVirusRemovalPage() {
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 100% Mac specialists · CyberShield protection available</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27645295863?text=Hi%20ZA%20Support%2C%20I%20think%20my%20Mac%20has%20a%20virus"
+                href={buildWhatsAppUrl('MBR-VIRUS', 'macbook-repair')}
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
               >
                 <MessageCircle className="w-5 h-5" /> WhatsApp Us Now

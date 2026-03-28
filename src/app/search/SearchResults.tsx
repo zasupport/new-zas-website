@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ExternalLink, AlertCircle, ArrowRight } from 'lucide-react';
+import { buildWhatsAppUrl } from '@/lib/constants';
 
 interface IntentCTA {
   heading: string;
@@ -22,18 +23,18 @@ function getIntentCTA(query: string): IntentCTA | null {
     heading: 'Managed IT for Businesses & Medical Practices',
     body: 'Fixed monthly fee. No surprise invoices. Includes monitoring, support and Health Check.',
     primary: { label: 'View Packages', href: '/managed-services' },
-    secondary: { label: '💬 WhatsApp for Quote', href: 'https://wa.me/27645295863?text=Hi%2C%20I%27d%20like%20a%20managed%20IT%20quote' },
+    secondary: { label: '💬 WhatsApp for Quote', href: buildWhatsAppUrl('SEARCH', 'general') },
   };
   if (isHealthCheck) return {
     heading: 'Mac Health Check — Know Exactly What\'s Wrong',
     body: 'Our diagnostic tool checks 120+ data points: battery health, security risks, software conflicts and more.',
     primary: { label: 'Learn About Health Check', href: '/services' },
-    secondary: { label: '💬 Book a Diagnostic', href: 'https://wa.me/27645295863?text=Hi%2C%20I%27d%20like%20a%20Mac%20Health%20Check' },
+    secondary: { label: '💬 Book a Diagnostic', href: buildWhatsAppUrl('SEARCH', 'general') },
   };
   if (isPrice || isRepair) return {
     heading: 'No-Obligation Diagnostic — No Fix, No Fee',
     body: 'We assess your Mac at no charge. No fix = no invoice. Logic board repairs from R2,499 with a 12-month warranty.',
-    primary: { label: '💬 Get a WhatsApp Quote', href: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20repair%20quote' },
+    primary: { label: '💬 Get a WhatsApp Quote', href: buildWhatsAppUrl('SEARCH', 'general') },
     secondary: { label: 'Book a Repair', href: '/book' },
   };
   return null;

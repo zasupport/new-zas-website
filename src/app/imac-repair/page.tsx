@@ -355,7 +355,7 @@ export default function IMacRepairPage() {
             </Link>
           </div>
           <p className="text-slate-500 text-sm mt-6">
-            1 Hyde Park Lane, Hyde Park, Johannesburg · Mon–Fri 8am–6pm
+            1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg · Mon–Fri 8am–6pm
           </p>
         </div>
       </section>

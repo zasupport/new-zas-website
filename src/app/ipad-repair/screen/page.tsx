@@ -5,7 +5,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'iPad Screen Repair Johannesburg | ZA Support',
@@ -178,7 +178,7 @@ const breadcrumbSchemaItems = [
 const faqSchema = buildFaqSchema(faqs);
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
-const whatsappUrl = 'https://wa.me/27790539964?text=Hi%20ZA%20Support%2C%20I%20need%20iPad%20screen%20repair';
+const whatsappUrl = buildWhatsAppUrl('IPD-SCR', 'ipad-repair');
 
 export default function iPadScreenPage() {
   return (

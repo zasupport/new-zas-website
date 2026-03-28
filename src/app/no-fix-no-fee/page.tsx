@@ -166,7 +166,7 @@ export default function AssessmentProcessPage() {
     telephone: '+27790539964',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '1 Hyde Park Lane',
+      streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
       addressLocality: 'Hyde Park',
       addressRegion: 'Johannesburg',
       postalCode: '2196',
@@ -519,7 +519,7 @@ export default function AssessmentProcessPage() {
                 </h2>
                 <div className="space-y-4 text-base leading-relaxed" style={{ color: '#7A9E98' }}>
                   <p>
-                    We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196 &mdash; centrally located for clients travelling from Sandton, Rosebank, Midrand, Bryanston, Randburg, and Fourways.
+                    We are based at 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196 &mdash; centrally located for clients travelling from Sandton, Rosebank, Midrand, Bryanston, Randburg, and Fourways.
                   </p>
                   <p>
                     Walk-ins are welcome for assessments. For complex repairs, we recommend booking via WhatsApp first so we can prepare appropriately and give you a realistic time estimate.
@@ -531,7 +531,7 @@ export default function AssessmentProcessPage() {
 
                 <div className="mt-8 space-y-3">
                   {[
-                    { label: 'Address', value: '1 Hyde Park Lane, Hyde Park, Johannesburg 2196' },
+                    { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
                     { label: 'Phone', value: '079 053 9964' },
                     { label: 'WhatsApp', value: '079 053 9964' },
                     { label: 'Hours', value: 'Mon–Fri 08:00–17:30 | Closed Sat & Sun' },

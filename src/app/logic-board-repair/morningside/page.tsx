@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Morningside | ZA Support Hyde Park',
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: 'How far is Morningside from your Hyde Park workshop?',
-    answer: 'Approximately 8 km from Morningside to our workshop at 1 Hyde Park Lane — roughly 10–15 minutes by car. Morningside is approximately 8 km from our Hyde Park workshop — one of our closest collection areas.',
+    answer: 'Approximately 8 km from Morningside to our workshop at 1 Hyde Lane, Second Floor, Office E2004 — roughly 10–15 minutes by car. Morningside is approximately 8 km from our Hyde Park workshop — one of our closest collection areas.',
   },
   {
     question: 'What does MacBook logic board repair cost for Morningside clients?',
@@ -115,7 +115,7 @@ export default function LogicBoardRepairMorningsidePage() {
               ))}
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
+              <a href={buildWhatsAppUrl('LBR-MORNINGSIDE', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
                 WhatsApp for Quote
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
@@ -178,7 +178,7 @@ export default function LogicBoardRepairMorningsidePage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Logic Board Fault? Assessment from R599.</h2>
             <p className="text-[#7A9E98] mb-6">Collecting from Morningside. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href={CONTACT.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
+              <a href={buildWhatsAppUrl('LBR-MORNINGSIDE', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">

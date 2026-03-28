@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Mac IT Support Johannesburg — Business & SME | ZA Support',
@@ -255,7 +255,7 @@ export default function ITSupportPage() {
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('MSP-ITSUP', 'managed-services')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
@@ -456,7 +456,7 @@ export default function ITSupportPage() {
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <a
-                href={CONTACT.whatsapp}
+                href={buildWhatsAppUrl('MSP-ITSUP', 'managed-services')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"

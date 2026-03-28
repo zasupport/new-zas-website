@@ -5,7 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
@@ -155,7 +155,7 @@ const serviceSchema = {
     name: 'ZA Support',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '1 Hyde Park Lane',
+      streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
       addressLocality: 'Hyde Park',
       addressRegion: 'Gauteng',
       postalCode: '2196',
@@ -213,7 +213,7 @@ export default function MacMiniLogicBoardPage() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('LBR-MINI', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -439,7 +439,7 @@ export default function MacMiniLogicBoardPage() {
               },
               {
                 title: 'Hyde Park + Collection Across JHB',
-                desc: '1 Hyde Park Lane. We cover Sandton, Rosebank, Randburg, Fourways, Midrand, and Bryanston.',
+                desc: '1 Hyde Lane, Second Floor, Office E2004. We cover Sandton, Rosebank, Randburg, Fourways, Midrand, and Bryanston.',
               },
             ].map((item) => (
               <div key={item.title} className="glass-card p-6">
@@ -515,7 +515,7 @@ export default function MacMiniLogicBoardPage() {
             <p className="text-[#7A9E98] text-sm mb-8">A second opinion costs you nothing, bring it in before committing to a board replacement.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={CONTACT.whatsappLogicBoard}
+                href={buildWhatsAppUrl('LBR-MINI', 'logic-board')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
