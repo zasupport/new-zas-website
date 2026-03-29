@@ -29,11 +29,24 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
       }
     };
 
+    // Prevent text selection on body (allow in inputs/textareas)
+    document.body.style.userSelect = 'none';
+    document.body.style.webkitUserSelect = 'none';
+
+    // Prevent image dragging
+    const blockDrag = (e: DragEvent) => {
+      if ((e.target as HTMLElement)?.tagName === 'IMG') e.preventDefault();
+    };
+
     document.addEventListener('contextmenu', blockContextMenu);
     document.addEventListener('keydown', blockKeys);
+    document.addEventListener('dragstart', blockDrag);
     return () => {
       document.removeEventListener('contextmenu', blockContextMenu);
       document.removeEventListener('keydown', blockKeys);
+      document.removeEventListener('dragstart', blockDrag);
+      document.body.style.userSelect = '';
+      document.body.style.webkitUserSelect = '';
     };
   }, []);
 
