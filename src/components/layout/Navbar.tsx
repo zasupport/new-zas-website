@@ -46,6 +46,7 @@ export default function Navbar() {
   }, []);
 
   return (
+    <>
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
@@ -146,8 +147,9 @@ export default function Navbar() {
           </button>
         </div>
       </nav>
+    </header>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu — rendered OUTSIDE header to avoid stacking context trap */}
       {mobileOpen && (
         <div className="lg:hidden fixed inset-0 top-16 bg-[rgba(10,26,24,0.98)] backdrop-blur-xl z-[60] overflow-y-auto">
           <div className="flex flex-col p-6 gap-2">
@@ -254,6 +256,6 @@ export default function Navbar() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }
