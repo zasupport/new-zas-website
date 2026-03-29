@@ -80,6 +80,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/logic-board-repair/bryanston`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/kempton-park`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
+    // Screen repair hub
+    { url: `${base}/screen-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
+
+    // Liquid damage model-specific pages
+    { url: `${base}/liquid-damage/macbook-pro-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-air-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+
     // Battery replacement suburb pages
     { url: `${base}/battery-replacement/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/rosebank`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
