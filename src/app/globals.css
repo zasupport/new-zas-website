@@ -44,7 +44,6 @@ input, textarea, select, code, pre, .selectable {
 /* Disable image dragging */
 img {
   -webkit-user-drag: none;
-  user-drag: none;
   pointer-events: none;
 }
 
