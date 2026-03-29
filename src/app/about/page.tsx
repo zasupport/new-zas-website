@@ -356,7 +356,6 @@ export default function AboutPage() {
                   { label: 'Trading Name', value: 'ZA Support' },
                   { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
                   { label: 'Founded', value: '2009' },
-                  { label: 'VAT Number', value: SITE.vat },
                   { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
                   { label: 'Service Area', value: 'Greater Johannesburg / Gauteng' },
                 ].map((item) => (

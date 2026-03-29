@@ -332,7 +332,6 @@ export default function EnterprisePage() {
                 { label: 'Youth Development', value: 'Active internship & mentorship programme' },
                 { label: 'Women Empowerment', value: 'Technology sector skills development' },
                 { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
-                { label: 'VAT Number', value: SITE.vat },
                 { label: 'Founded', value: '2009' },
               ].map((item) => (
                 <div key={item.label} className="flex gap-4 p-4 bg-[rgba(22,34,32,0.5)] rounded-xl border border-[rgba(15,234,122,0.08)]">

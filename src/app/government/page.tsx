@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 const GOV_FAQS = [
   {
     question: 'Is ZA Support registered on the Central Supplier Database (CSD)?',
-    answer: 'Yes. ZA Support is fully registered on the CSD under Vizibiliti Intelligent Solutions (Pty) Ltd. Our CSD supplier number is MAAA0071742, with an additional registration under MAAA0480310. We are compliant with all National Treasury procurement requirements.',
+    answer: 'Yes. ZA Support is fully registered on the Central Supplier Database and compliant with all National Treasury procurement requirements. Contact us for our CSD details and BEE certificate.',
   },
   {
     question: 'What is your BEE level and do you qualify for government procurement?',
@@ -133,7 +133,7 @@ const BEE_HIGHLIGHTS = [
   'Youth employment and skills development programmes',
   'Women empowerment through technology training initiatives',
   'Enterprise and supplier development for emerging IT businesses',
-  'CSD registered: MAAA0071742 (Vizibiliti: MAAA0480310)',
+  'CSD registered — details available on request',
   'Compliant with Preferential Procurement Policy Framework Act',
 ];
 
@@ -224,9 +224,9 @@ export default function GovernmentPage() {
                 </p>
                 <p className="text-[#7A9E98] leading-relaxed">
                   Our BEE Level 1 status means government procurement officers receive the maximum available
-                  preferential points when selecting ZA Support. Combined with our CSD registration
-                  (Supplier No: MAAA0071742, Vizibiliti: MAAA0480310), we meet every compliance requirement
-                  for government IT procurement under the Preferential Procurement Policy Framework Act.
+                  preferential points when selecting ZA Support. We are fully CSD registered and meet every
+                  compliance requirement for government IT procurement under the Preferential Procurement
+                  Policy Framework Act. Contact us for our CSD supplier details and BEE certificate.
                 </p>
               </div>
               <div className="space-y-3">
@@ -331,49 +331,23 @@ export default function GovernmentPage() {
             </div>
           </div>
 
-          {/* CSD Registration and Compliance */}
+          {/* Government Compliance */}
           <div className="glass-card p-8 mb-16">
             <div className="flex items-center gap-3 mb-6">
               <MapPin className="w-6 h-6 text-[#0FEA7A]" />
-              <h2 className="text-2xl font-bold text-[#E8F4F1]">CSD Registration and Company Details</h2>
+              <h2 className="text-2xl font-bold text-[#E8F4F1]">Government Compliance</h2>
             </div>
-            <p className="text-[#7A9E98] mb-6 leading-relaxed">
-              ZA Support trades under Vizibiliti Intelligent Solutions (Pty) Ltd and is fully registered
-              on the Central Supplier Database as required by National Treasury for all government procurement.
-              Our registrations are current and verified.
+            <p className="text-[#7A9E98] mb-4 leading-relaxed">
+              ZA Support is a BEE Level 1 contributor, fully CSD registered, and compliant with all
+              National Treasury procurement requirements. For our CSD supplier numbers, BEE certificate,
+              and company registration details, please contact us directly.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="space-y-3">
-                {[
-                  { label: 'Trading Name', value: 'ZA Support' },
-                  { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
-                  { label: 'CSD Supplier No', value: 'MAAA0071742' },
-                  { label: 'Vizibiliti CSD No', value: 'MAAA0480310' },
-                  { label: 'BEE Level', value: 'Level 1 Contributor' },
-                  { label: 'VAT Number', value: SITE.vat },
-                ].map((item) => (
-                  <div key={item.label} className="flex gap-2">
-                    <p className="text-[#7A9E98] text-xs uppercase tracking-wider w-36 flex-shrink-0 pt-0.5">{item.label}</p>
-                    <p className="text-[#E8F4F1] font-medium text-sm">{item.value}</p>
-                  </div>
-                ))}
-              </div>
-              <div className="space-y-3">
-                {[
-                  { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
-                  { label: 'Phone', value: '063 529 5863' },
-                  { label: 'Email', value: CONTACT.email },
-                  { label: 'Rate', value: 'R899/hr | Assessment from R599' },
-                  { label: 'Service Area', value: 'Gauteng, with national deployment capability' },
-                  { label: 'Founded', value: '2009' },
-                ].map((item) => (
-                  <div key={item.label} className="flex gap-2">
-                    <p className="text-[#7A9E98] text-xs uppercase tracking-wider w-36 flex-shrink-0 pt-0.5">{item.label}</p>
-                    <p className="text-[#E8F4F1] font-medium text-sm">{item.value}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <a
+              href={buildWhatsAppUrl('GOV-CSD', 'managed-services')}
+              className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] font-semibold px-6 py-3 rounded-lg hover:brightness-110 transition"
+            >
+              Request CSD &amp; BEE Documents
+            </a>
           </div>
 
           {/* Internal Links Section */}
