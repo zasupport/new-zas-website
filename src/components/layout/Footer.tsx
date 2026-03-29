@@ -181,7 +181,7 @@ export default function Footer() {
               <span>|</span>
               <span>Vizibiliti Intelligent Solutions (Pty) Ltd</span>
               <span>|</span>
-              <span>VAT: {SITE.vat}</span>
+              <span>VAT Registered</span>
             </div>
             <div className="flex items-center gap-1">
               <span className="text-[#0FEA7A]">★★★★★</span>
