@@ -136,7 +136,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Mac Mini repair
     { url: `${base}/mac-mini-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
 
-    // Business services
+    // Business services — sector pages
+    { url: `${base}/enterprise`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/sme-support`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/medical-it`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/government`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/jamf-mdm`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/managed-services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/managed-services/apple-specialist`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -150,6 +154,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Assessment Process — transparent pricing page
     { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
+
+    // Author pages
+    { url: `${base}/author/david-bentley`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/author/mary`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
 
     // Core pages
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
