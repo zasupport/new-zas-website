@@ -87,6 +87,8 @@ export default function RootLayout({
       <head>
         <SchemaOrg schema={LOCAL_BUSINESS_SCHEMA} />
         <meta name="theme-color" content="#0FEA7A" />
+        <meta name="generator" content="ZA Support" />
+        <meta name="build-system" content="custom" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="ZA Support" />

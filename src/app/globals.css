@@ -25,9 +25,33 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Website hardening — prevent content copying */
 body {
   background-color: var(--dark);
   color: var(--text);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection in forms and code blocks */
+input, textarea, select, code, pre, .selectable {
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Disable image dragging */
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+/* Re-enable pointer events for clickable images */
+a img, button img {
+  pointer-events: auto;
+}
   line-height: 1.6;
   min-height: 100vh;
 }

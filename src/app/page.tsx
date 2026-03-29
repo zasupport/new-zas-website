@@ -265,6 +265,27 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Awards / Trust Signals */}
+      <section className="py-8 bg-[#0A1A18] border-b border-[rgba(15,234,122,0.06)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-[#7A9E98] text-xs uppercase tracking-widest mb-6">Recognised by</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            {[
+              { name: 'Forbes 30-under-30', detail: 'Technology Innovator' },
+              { name: 'Absa Technology', detail: 'Innovator Runner-up' },
+              { name: 'Verizon', detail: 'Digital Innovation Winner' },
+              { name: 'Santam', detail: 'InsurTech of the Year Runner-up' },
+            ].map((award) => (
+              <div key={award.name} className="flex flex-col items-center text-center p-4 rounded-xl bg-[rgba(22,34,32,0.4)] border border-[rgba(15,234,122,0.08)]">
+                <Award className="w-6 h-6 text-[#0FEA7A] mb-2" />
+                <span className="text-[#E8F4F1] text-sm font-semibold">{award.name}</span>
+                <span className="text-[#7A9E98] text-xs">{award.detail}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Google Reviews — near top for social proof */}
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
