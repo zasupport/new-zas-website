@@ -149,7 +149,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="lg:hidden fixed inset-0 top-16 bg-[rgba(10,26,24,0.98)] backdrop-blur-xl z-40 overflow-y-auto">
+        <div className="lg:hidden fixed inset-0 top-16 bg-[rgba(10,26,24,0.98)] backdrop-blur-xl z-[60] overflow-y-auto">
           <div className="flex flex-col p-6 gap-2">
             {/* Mobile Search */}
             <form
