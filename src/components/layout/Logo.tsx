@@ -20,9 +20,9 @@ function getVariant(pathname: string): LogoVariant {
 }
 
 const VARIANTS = {
-  apple:   { label: 'Apple Experts',          phone: '064 529 5863', tel: '+27645295863', logo: '/za-logo-apple-experts.png' },
-  it:      { label: 'IT Specialist',           phone: '063 529 5863', tel: '+27635295863', logo: '/za-logo-it-specialist.png' },
-  medical: { label: 'Medical IT Specialist',   phone: '064 529 5863', tel: '+27645295863', logo: '/za-logo-apple-experts.png' },
+  apple:   { label: 'Apple Experts',          phone: '064 529 5863', tel: '+27645295863', logo: '/za-logo-standard-web.png' },
+  it:      { label: 'IT Specialist',           phone: '063 529 5863', tel: '+27635295863', logo: '/za-logo-standard-web.png' },
+  medical: { label: 'Medical IT Specialist',   phone: '064 529 5863', tel: '+27645295863', logo: '/za-logo-standard-web.png' },
 } as const;
 
 export function useLogoVariant() {
