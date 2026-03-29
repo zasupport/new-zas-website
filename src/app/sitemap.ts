@@ -247,5 +247,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/prevent-macbook-water-damage-protection-tips`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/signs-of-water-damage-macbook-how-to-tell`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/spilled-coffee-on-macbook-what-to-do-right-now`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/can-water-damaged-macbook-be-repaired-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-air-water-damage-logic-board-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-liquid-damage-indicator-what-apple-checks`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-coffee-spill-repair-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-water-damage-first-aid-steps-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

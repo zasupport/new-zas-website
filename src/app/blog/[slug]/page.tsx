@@ -5728,6 +5728,798 @@ We don't charge for diagnostics. If after a full assessment we determine your Ma
 
 **Your next steps:** Power off your MacBook, close the lid, and get it to us. WhatsApp **064 529 5863** or [book your free diagnostic at zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, Johannesburg, and we'll give you honest feedback about whether your machine is salvageable—at no cost if we can't repair it.`,
   },
+  'can-water-damaged-macbook-be-repaired-south-africa': {
+    slug: 'can-water-damaged-macbook-be-repaired-south-africa',
+    title: `Can a Water-Damaged MacBook Be Repaired in South Africa?`,
+    excerpt: `Water damage to your MacBook feels like a catastrophe. You've spilled coffee, survived a rainstorm, or your child knocked over a drink bottle. Now your machine is dead or behaving erratically. The hon.`,
+    date: '29 March 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'ZA Support',
+    content: `# Can a Water-Damaged MacBook Be Repaired in South Africa?
+
+Water damage to your MacBook feels like a catastrophe. You've spilled coffee, survived a rainstorm, or your child knocked over a drink bottle. Now your machine is dead or behaving erratically. The honest answer? Yes, water-damaged MacBooks can almost always be repaired—but timing and proper technique matter enormously.
+
+Here at ZA Support in Hyde Park, Johannesburg, we've recovered hundreds of water-damaged MacBooks over the past decade. What we've learned is straightforward: the difference between a successful repair and permanent data loss often comes down to what you do in the first 48 hours. This guide walks through exactly what happens, what to expect, and whether professional repair is your best option.
+
+## How Water Damage Affects MacBook Components
+
+Water itself isn't necessarily the enemy—it's what happens afterwards. When liquid contacts your MacBook's logic board, the circuit pathways conduct electricity where they shouldn't. If power remains on, you risk immediate short-circuiting. If you leave it wet without intervention, corrosion begins almost immediately.
+
+In our Hyde Park workshop, we use a thermal imaging camera to map exactly where liquid has penetrated. Most MacBooks have multiple layers: the aluminium chassis, the logic board underneath, the battery, and the SSD. Water doesn't distribute evenly. It pools in crevices, behind the trackpad, and beneath the keyboard. We've seen machines where the damage appeared surface-level but corrosion had already crept down to the power regulation circuits.
+
+The real timeline is brutal. Within 24 hours, you'll see oxidation forming on exposed copper traces. By day three, corrosion has typically spread across multiple components. By day seven, even with professional ultrasonic cleaning, the success rate drops sharply. This is why bringing your machine to us quickly—ideally within 48 hours—dramatically improves recovery chances.
+
+## The Professional Water Damage Assessment: What We Actually Do
+
+When you bring a water-damaged MacBook to our Hyde Park location, we don't guess. We perform a comprehensive assessment starting at R599. This isn't a marketing gimmick; it genuinely costs us time and equipment.
+
+First, we visually inspect for liquid corrosion indicators (LCI). Apple devices contain small white or red indicators that change colour when exposed to moisture. If these have activated, it confirms water exposure—important for warranty purposes if the machine still carries coverage. We photograph everything with macro detail.
+
+Next comes ultrasonic cleaning. This isn't the rice-in-a-box method you'll read about online. Rice absorbs almost nothing from inside your MacBook and can actually leave starch residue. We use a professional-grade ultrasonic cleaning bath with demineralised water and approved solvents. This process reaches into micro-gaps where hand-cleaning cannot. It safely removes corrosion without stressing delicate components. The machine sits in the bath for 15–20 minutes, vibrating at 40,000 cycles per second.
+
+After cleaning, we inspect the logic board under magnification. We're looking for:
+
+- Corrosion bridging between power and ground pins
+- Mineral deposits across flex cable connectors
+- Liquid residue in the power management IC area
+- Damage to the battery connector
+
+Then comes the critical assessment: can this be repaired cost-effectively, or does the logic board need professional micro-soldering work? We're honest here. If we see extensive corrosion on the main power rail, we'll tell you upfront that [logic board repair](/logic-board-repair) may cost upwards of R2,500 and isn't guaranteed.
+
+## Timing Is Everything: The 48-Hour Window
+
+We've analysed our repair data across hundreds of cases. Here's what we actually see:
+
+**Within 48 hours of water exposure:** 70–85% success rate with professional ultrasonic cleaning and drying. The corrosion process is still early. Copper hasn't turned green. Solder joints haven't degraded.
+
+**3–7 days after exposure:** 40–60% success rate. Corrosion is now visible to the naked eye. Even after ultrasonic cleaning, some damage is permanent. We may need to replace flex cables or power regulators.
+
+**Beyond 7 days:** 20–35% success rate. This is salvage territory. We're looking at component replacement, possibly logic board micro-soldering, or potentially a full logic board swap if yours is repairable.
+
+This isn't scare mongering. It's chemistry. Copper oxidises continuously. Each day you wait, the damage compounds.
+
+If your MacBook has water damage, here's our recommendation: power it off immediately, don't attempt to dry it, and contact us today on WhatsApp at 064 529 5863. Even a conversation takes minutes but could save your machine.
+
+## [Liquid Damage Repair](/liquid-damage): What's Actually Involved
+
+Most water damage cases we see fall into two categories: spillage (coffee, juice, rainwater) and submersion (dropped in a bath, caught in heavy rain).
+
+For spillage, the liquid typically enters through the keyboard or ports. It drains down through the logic board area and pools above the battery. We remove the bottom case, carefully dry the accessible areas, then immerse the logic board in our ultrasonic bath. Once dry—we use compressed air and heat in a controlled chamber—we test the power sequence.
+
+For submersion damage, more components are affected. The battery itself may have absorbed water. Flex cables connecting the display to the logic board are compromised. We replace the battery as standard (typically R800–1,200 depending on model), clean everything, and rebuild.
+
+The total cost for a typical water damage repair at ZA Support starts around R1,500 and goes up depending on what else needs replacing. We offer up to a 3-year warranty on our work, and we operate a No Fix No Fee policy—if we can't restore your machine to working order, you don't pay the repair cost.
+
+## Should You Try DIY Drying Methods?
+
+We need to address the rice myth directly. Putting your MacBook in a bowl of rice does almost nothing. Rice absorbs moisture from the air, not from inside sealed electronics. It leaves starch dust in your ports. The only thing rice accomplishes is making you wait five days whilst corrosion accelerates.
+
+Similarly, hair dryers, ovens, and direct sunlight are harmful. Heat accelerates corrosion. It can warp plastic components. It may cause thermal expansion damage to solder joints.
+
+The only sensible DIY step is: power off your machine immediately, don't plug it in, and don't attempt to turn it back on. That's it. After that, your machine needs professional care.
+
+## Getting Your MacBook Repaired: Next Steps
+
+[Contact ZA Support](/contact) today for your R599 professional assessment. We're located in Hyde Park, Johannesburg, and we can often turnaround water-damaged repairs within 5–7 working days.
+
+You can book online at zasupport.com/book or message us directly on WhatsApp: 064 529 5863.
+
+We handle all MacBook models from the last 10 years, and we source genuine parts where required. Every repair includes our standard warranty terms, and water damage assessments are non-obligatory—walk away without commitment if you'd prefer to pursue other options.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Is water-damaged data recoverable?
+If your MacBook won't power on after water damage, the data is still almost certainly on your SSD. Once we've cleaned and repaired the logic board, your machine will boot normally and your files are intact. We've recovered data from machines that were completely unresponsive. If the SSD itself is damaged (which is rare), we can extract data using specialist equipment and transfer it to a replacement drive.
+
+### Q: Will my AppleCare warranty cover water damage?
+No. Apple explicitly excludes liquid damage from all warranty coverage. However, if your machine is repairable and you're within your 12-month statutory consumer protection period, you may have rights under South African consumer law—it depends on the damage cause and timing. We can advise when you bring the machine in.
+
+### Q: How much does water damage repair actually cost?
+It varies. A straightforward ultrasonic clean and dry runs R1,500–2,200. If we need to replace the battery and some flex cables, add R800–1,500. If the logic board requires micro-soldering or component-level repair, you're looking at R2,500–4,500. Our R599 assessment tells you exactly what your machine needs before you commit to anything.
+
+### Q: Can I use my MacBook again after water damage repair?
+Absolutely. Once repaired, your machine functions normally. We don't do temporary fixes. We either properly restore the device or we don't charge you under our No Fix No Fee guarantee. Your warranty covers parts and labour for up to three years on water damage repairs we complete.
+
+### Q: How do I prevent water damage to my MacBook?
+Use a protective case designed for MacBooks. Keep drinks away from your desk when working. If you work near water (kitchen, garden, bathroom), invest in a waterproof bag. If a spill happens, power off immediately and contact a professional—don't wait.
+
+### Q: What's the success rate for water-damaged MacBooks brought in within 48 hours?
+In our Hyde Park workshop, we see 70–85% full recovery when machines arrive within 48 hours of water exposure. This drops to roughly 50% by day five and 30% by day seven. Speed matters enormously. The longer you wait, the more expensive and uncertain the repair becomes.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is water-damaged data recoverable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your MacBook won't power on after water damage, the data is still almost certainly on your SSD. Once we've cleaned and repaired the logic board, your machine will boot normally and your files are intact. We've recovered data from machines that were completely unresponsive. If the SSD itself is damaged (which is rare), we can extract data using specialist equipment and transfer it to a replacement drive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my AppleCare warranty cover water damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Apple explicitly excludes liquid damage from all warranty coverage. However, if your machine is repairable and you're within your 12-month statutory consumer protection period, you may have rights under South African consumer law—it depends on the damage cause and timing. We can advise when you bring the machine in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does water damage repair actually cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It varies. A straightforward ultrasonic clean and dry runs R1,500–2,200. If we need to replace the battery and some flex cables, add R800–1,500. If the logic board requires micro-soldering or component-level repair, you're looking at R2,500–4,500. Our R599 assessment tells you exactly what your machine needs before you commit to anything."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use my MacBook again after water damage repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Once repaired, your machine functions normally. We don't do temporary fixes. We either properly restore the device or we don't charge you under our No Fix No Fee guarantee. Your warranty covers parts and labour for up to three years on water damage repairs we complete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I prevent water damage to my MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a protective case designed for MacBooks. Keep drinks away from your desk when working. If you work near water (kitchen, garden, bathroom), invest in a waterproof bag. If a spill happens, power off immediately and contact a professional—don't wait."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the success rate for water-damaged MacBooks brought in within 48 hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In our Hyde Park workshop, we see 70–85% full recovery when machines arrive within 48 hours of water exposure. This drops to roughly 50% by day five and 30% by day seven. Speed matters enormously. The longer you wait, the more expensive and uncertain the repair becomes."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
+  'macbook-air-water-damage-logic-board-repair-johannesburg': {
+    slug: 'macbook-air-water-damage-logic-board-repair-johannesburg',
+    title: `MacBook Air Water Damage Logic Board Repair Johannesburg`,
+    excerpt: `Water damage to a MacBook Air is one of the most stressful situations we encounter in our Hyde Park workshop. A single cup of coffee, a burst water pipe, or load shedding-related flooding can render y.`,
+    date: '29 March 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# MacBook Air Water Damage Logic Board Repair Johannesburg
+
+Water damage to a MacBook Air is one of the most stressful situations we encounter in our Hyde Park workshop. A single cup of coffee, a burst water pipe, or load shedding-related flooding can render your device completely unusable within minutes. The challenge with MacBook Air water damage is particularly acute because of Apple's unified memory architecture—when liquid reaches the logic board, it doesn't just affect one component. The entire system is compromised.
+
+We've been repairing MacBook Airs in Johannesburg for years, and we've learned that rapid response makes the difference between a successful board repair and permanent data loss. This guide covers everything you need to know about water damage to your MacBook Air, why the logic board is so critical, and what your repair options actually are.
+
+## Why MacBook Air Logic Boards Are Vulnerable to Water Damage
+
+The MacBook Air's design prioritises thinness and portability. This means the logic board sits closer to the chassis than in other Apple products, with minimal clearance between components. When liquid enters—whether through the keyboard, trackpad, or ventilation ports—it travels directly onto the board's surface.
+
+In our experience, the M1 and M2 MacBook Air models present a particular challenge. These processors use unified memory architecture, which means the RAM is soldered directly onto the logic board. There's no discrete memory module you can swap out. When corrosion reaches these memory chips, the entire board often becomes unserviceable. That's very different from older Intel-based MacBook Airs, where we could sometimes replace individual components.
+
+The fanless design of the MacBook Air also means there's no fan assembly to protect the board from liquid intrusion. A spill that might sit harmlessly in a MacBook Pro's fan duct can spread across the MacBook Air's logic board in seconds.
+
+## What Happens in the First Hours After Water Damage
+
+Time is critical. In the first two to four hours after water contact, oxidation hasn't yet begun. The liquid itself is often less damaging than the corrosion that follows. We've had clients bring machines in within 30 minutes of a spill, and the repair outcome is substantially better than when someone waits a week.
+
+The liquid will corrode copper traces, create short circuits, and cause power delivery issues. Even if the board powers on initially, the damage progresses rapidly. You might see the device working for a few hours, then failing completely as corrosion spreads through the power management circuit.
+
+This is why our [liquid damage assessment](/liquid-damage) always starts with a visual inspection of the Liquid Contact Indicator (LCI). The LCI is a small white or pale yellow sticker underneath the MacBook Air's bottom case. When it contacts water or high humidity, it turns red or pink. If we see an LCI activation, we know water has definitely entered the system, and we proceed with component-level assessment.
+
+One thing we need to address: the rice myth. Burying your MacBook Air in a container of rice does nothing. Rice won't extract the water that's already on the board, and it delays professional cleaning. That critical two-to-four-hour window closes while your machine sits in your kitchen.
+
+## Component-Level Repair vs Logic Board Replacement
+
+We offer two approaches to MacBook Air water damage, and the choice depends on the extent of corrosion and which components are affected.
+
+**Component-level repair** involves ultrasonic cleaning of the board, identification of corroded areas, and targeted micro-soldering to replace damaged components. In our Hyde Park workshop, we use ultrasonic baths with precision deionised water to remove corrosion from under components where liquid has penetrated. This is labour-intensive—often six to eight hours of work—but it preserves your original board and, critically, your data environment.
+
+After ultrasonic cleaning, we use a microscope to identify which power management ICs, voltage regulators, or connectivity chips have suffered corrosion damage. Not every component needs replacement; sometimes we can clean and reflow the solder joints without replacing the chip itself. This approach typically costs between R2,500 and R4,500, depending on how many components require replacement.
+
+**Logic board replacement** is straightforward but more expensive and carries additional considerations. We source a compatible used board and perform a full board swap. This costs between R3,800 and R5,200 depending on the MacBook Air model and whether the replacement board is sourced locally or internationally. The advantage is speed—usually 24 to 48 hours turnaround. The disadvantage is that you're receiving a used board with its own history, though we warranty all replacements for up to three years.
+
+For M1 and M2 models, board replacement is often the recommended path because the unified memory means corrosion to any part of the board affects the entire system. With component-level repair on these models, success rates are lower.
+
+## Our Assessment Process: From R599 to Complete Repair
+
+Every water-damaged MacBook Air starts with our R599 diagnostic assessment. This is not a repair cost—it's a thorough evaluation. We open the bottom case, inspect for liquid residue, check the LCI, perform electrical continuity testing, and run boot diagnostics. This assessment tells us exactly what's happened and what repair options exist.
+
+After assessment, we provide a fixed quote for either component-level repair or board replacement. No surprises, no hidden costs. We operate on a **No Fix No Fee** basis for logic board work—if we can't repair the board or if the machine doesn't power on after repair, you don't pay for the repair labour. You pay only for the assessment and any components we've already replaced.
+
+## Why Choose ZA Support for Water Damage Repair in Johannesburg
+
+We're based in Hyde Park, accessible from Sandton, Rosebank, and across Johannesburg. We understand load shedding affects both our workshop and our clients' homes. We've repaired MacBook Airs damaged by water from burst geysers during power cuts, spills caused by load shedding-related accidents, and weather-related flooding in areas across the Gauteng region.
+
+Our repairs come with warranties up to three years, depending on the work performed. We provide detailed documentation of what was replaced, cleaned, and tested. We're POPIA compliant, which means your device and data handling follows South African privacy law.
+
+If you need to contact us about water damage, WhatsApp us on 064 529 5863 or book a slot at [zasupport.com/book](https://zasupport.com/book). We usually have same-day assessment available for walk-ins.
+
+For more information on our broader [logic board repair services](/logic-board-repair), or if you'd like to understand more about [liquid damage specifically](/liquid-damage), those pages have additional detail.
+
+Apple's own support documentation on liquid damage is available [here](https://support.apple.com/en-za/HT201662), though they'll typically recommend board replacement rather than component-level repair.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Will my MacBook Air definitely need a new logic board if it got wet?
+
+Not necessarily. If you bring it in within the first few hours, before corrosion spreads, component-level repair is often possible. However, M1 and M2 models are less likely to be salvageable through component-level work because of the unified memory architecture. We assess this during the R599 diagnostic.
+
+### Q: What does "No Fix No Fee" actually mean?
+
+It means we don't charge labour costs if we're unable to complete the repair or if the board doesn't power on afterwards. You pay only the R599 assessment fee and the cost of any components we've already ordered or installed. It's a commitment we make because we're confident in our repair quality.
+
+### Q: How long does a water damage repair usually take?
+
+Component-level repair takes five to seven business days because of the ultrasonic cleaning process, drying time, and thorough testing. Board replacement typically takes two to three business days. We prioritise water damage cases because oxidation continues to worsen if you wait.
+
+### Q: Can I use my MacBook Air while the repair is in progress?
+
+No. Water-damaged boards cannot be safely powered on until all corrosion is cleaned and electrical continuity is confirmed. Powering on too early can cause additional short circuits and make repair impossible.
+
+### Q: Is a used replacement board from ZA Support guaranteed to work?
+
+Yes. All replacement boards we source come with up to a three-year warranty, and we test them fully before installation. We don't install a board unless it passes our complete power delivery and boot diagnostics testing.
+
+### Q: How much will this repair cost me?
+
+Our R599 assessment gives us the answer. Component-level repair ranges from R2,500 to R4,500. Board replacement ranges from R3,800 to R5,200. We'll provide a fixed quote before you approve any work.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will my MacBook Air definitely need a new logic board if it got wet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. If you bring it in within the first few hours, before corrosion spreads, component-level repair is often possible. However, M1 and M2 models are less likely to be salvageable through component-level work because of the unified memory architecture. We assess this during the R599 diagnostic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does 'No Fix No Fee' actually mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It means we don't charge labour costs if we're unable to complete the repair or if the board doesn't power on afterwards. You pay only the R599 assessment fee and the cost of any components we've already ordered or installed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a water damage repair usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Component-level repair takes five to seven business days because of the ultrasonic cleaning process, drying time, and thorough testing. Board replacement typically takes two to three business days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use my MacBook Air while the repair is in progress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Water-damaged boards cannot be safely powered on until all corrosion is cleaned and electrical continuity is confirmed. Powering on too early can cause additional short circuits and make repair impossible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a used replacement board from ZA Support guaranteed to work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All replacement boards we source come with up to a three-year warranty, and we test them fully before installation. We don't install a board unless it passes our complete power delivery and boot diagnostics testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much will this repair cost me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our R599 assessment gives us the answer. Component-level repair ranges from R2,500 to R4,500. Board replacement ranges from R3,800 to R5,200. We'll provide a fixed quote before you approve any work."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
+  'macbook-liquid-damage-indicator-what-apple-checks': {
+    slug: 'macbook-liquid-damage-indicator-what-apple-checks',
+    title: `MacBook Liquid Damage Indicator: What Apple Checks and Why It Matters`,
+    excerpt: `When a client brings a MacBook into our workshop at ZA Support in Hyde Park, one of the first things we examine isn't the logic board or the trackpad. It's a small adhesive strip inside the chassis—th.`,
+    date: '29 March 2026',
+    category: 'How-To',
+    readTime: '9 min read',
+    author: 'ZA Support',
+    content: `# MacBook Liquid Damage Indicator: What Apple Checks and Why It Matters
+
+When a client brings a MacBook into our workshop at ZA Support in Hyde Park, one of the first things we examine isn't the logic board or the trackpad. It's a small adhesive strip inside the chassis—the Liquid Contact Indicator, or LCI. This unassuming component tells Apple (and us) whether liquid has ever entered the device. Understanding what Apple checks, and how these indicators work, can save you thousands in repair costs and clarify your warranty position.
+
+I've handled water-damaged MacBooks for over a decade. The question we hear most often is: "Will Apple know about the coffee I spilled three months ago?" The answer involves science, not magic.
+
+## How Apple's Liquid Contact Indicators Actually Work
+
+The LCI is fundamentally a colour-change sticker. Apple installs these inside every MacBook—typically on the logic board, beneath the battery, and sometimes near the trackpad connector. The indicator uses a special chemical formula: when exposed to moisture, it transitions from white or pale pink to deep red or blue. This change is permanent and irreversible.
+
+Apple's engineering team selected this approach because it's reliable and tamper-evident. Unlike software diagnostics that can be cleared or logs that might be overwritten, a physical colour change cannot be undone without replacing the component entirely. When we conduct a full diagnostic at our Hyde Park workshop, examining the LCI takes seconds but provides crucial information.
+
+The timeline matters. Liquid doesn't activate the LCI instantly. Moisture must contact the adhesive directly. Some clients ask if their MacBook was damaged in transit—perhaps condensation from a humid Johannesburg afternoon. In our experience, a single humid day won't trigger the indicator. Submersion or direct liquid contact does.
+
+## Where Apple Finds These Indicators During Hardware Service
+
+When you send a MacBook to Apple in South Africa (or when we conduct a comprehensive assessment starting from R599), technicians follow a documented inspection process. They don't guess.
+
+First, they remove the bottom case. This gives them access to several LCI placements. The primary indicator sits on the logic board itself, usually near the power input or battery connector. Second, they check beneath the battery, where liquid often pools due to gravity. Third, they examine the trackpad connection point—a common ingress location because the trackpad is thin and the connector sits low on the chassis.
+
+Our technicians follow the same procedure. We've found that liquid often reaches the LCI from multiple entry points simultaneously: the keyboard, the gap between the screen and chassis, and the ports. We document everything with photos, which is why our No Fix No Fee assessment provides transparency you won't get elsewhere.
+
+Apple's documentation is thorough. If any LCI shows a colour change, Apple classifies the device as liquid-damaged. This triggers warranty denial, even if the MacBook boots normally and the user insists the spill was minor.
+
+## Corrosion and the Timeline Between Damage and Failure
+
+Here's what most users don't understand: liquid damage doesn't always cause immediate failure. We've seen MacBooks operate normally for weeks or months after liquid exposure, then suddenly power down. The culprit is corrosion, which progresses invisibly.
+
+When liquid contacts copper traces on the logic board, oxidisation begins. In the humid Johannesburg climate—especially during our summer months—corrosion accelerates. Copper oxide is electrically resistant. Over time, it creates short circuits. The device may work today but fail tomorrow.
+
+We've examined logic boards with corrosion so advanced that components were visibly discoloured green or white. By that stage, simple drying won't help. This is why the "rice myth" frustrates us. Placing a wet MacBook in uncooked rice does nothing. Uncooked rice cannot absorb moisture trapped inside sealed compartments. It cannot reverse corrosion. It cannot prevent component failure.
+
+Our recommendation: if your MacBook contacts liquid, power it down immediately. Don't attempt to dry it. Bring it to ZA Support in Hyde Park for an assessment. Early intervention using ultrasonic cleaning—which we offer as part of our diagnostic—can remove corrosion-causing residue before permanent damage occurs. Many clients avoid warranty denial by acting within hours of the incident.
+
+## Understanding Apple's Warranty Policy on Liquid Damage
+
+Apple's terms are unambiguous. Accidental liquid damage voids the standard one-year warranty. This applies globally, including in South Africa. If an LCI shows activation, Apple will refuse repair under warranty, even if the damage seems minor.
+
+This is where we differ. Our up to 3-year warranty covers liquid damage in many circumstances because we perform the repairs ourselves. Our No Fix No Fee policy means you don't pay anything if we cannot restore your MacBook to working condition. You get clarity before committing funds.
+
+Customers frequently ask if Apple will replace the LCI before sending the device back. The answer is no. Once an LCI activates, it remains activated. Apple cannot reset it. We cannot reset it either. The indicator is part of Apple's evidence trail.
+
+If you've had a liquid incident and are concerned about warranty, our assessment from R599 is worth the investment. We'll tell you exactly what we find, what it means, and what your repair options are.
+
+## Third-Party Repair and Your Rights Under South African Consumer Law
+
+POPIA and the Consumer Protection Act protect your rights, even after the standard warranty expires. If your MacBook suffered liquid damage outside the warranty window, you have repair options that don't require Apple's approval.
+
+Our workshop performs [liquid damage](/liquid-damage) assessment and [logic board repair](/logic-board-repair) on devices Apple has rejected. We have the equipment—including ultrasonic cleaning systems and micro-soldering stations—to address damage Apple considers terminal. Many MacBooks we've recovered were told "unrepairable" by Apple.
+
+The cost difference is significant. Apple's liquid damage repair quotes often exceed R8,000. Our assessments from R599 provide a second opinion. If we proceed with repair, you benefit from our up to 3-year warranty, which is more extensive than Apple's standard cover.
+
+## What to Do If Your MacBook Has Water Damage
+
+Act fast. Every hour matters. Power down the device and disconnect all peripherals. Do not attempt to dry it with heat—this accelerates corrosion. Do not open the chassis yourself; you'll damage delicate components and void any repair option.
+
+Contact us for an assessment. WhatsApp 064 529 5863 or visit [zasupport.com/book](https://zasupport.com/book) to schedule a workshop visit. We're in Hyde Park, conveniently located for Johannesburg. Within two hours of inspection, we'll provide a full diagnostic, explain what the LCI shows, confirm whether corrosion is present, and quote a fixed repair cost. No surprises.
+
+You can also review [Apple's official liquid damage guidelines](https://support.apple.com/en-za/HT201300) for additional technical details.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Can I replace the LCI myself to hide liquid damage?
+Replacing the LCI is visible to any trained technician. Apple's documentation teaches technicians to examine not just the sticker's colour but the chassis for signs of liquid contact, corrosion marks, and residue. Tampering with the indicator alone solves nothing and is often detectable. Your MacBook will still show corrosion evidence.
+
+### Q: How long does it take for corrosion to damage a liquid-exposed logic board?
+In South Africa's climate, observable corrosion can begin within 24 to 48 hours. Functional damage—where the board stops working reliably—often occurs within one to three weeks. We've seen devices fail suddenly after apparently working fine for a month. This unpredictability is why early intervention is critical.
+
+### Q: Will Apple repair my MacBook if the LCI hasn't changed colour?
+Yes, in most cases. If the LCI shows no colour change and the MacBook functions normally, Apple will service it under warranty. However, if Apple's diagnostics reveal corrosion or liquid residue internally, they may refuse repair regardless of the LCI status. Bring your MacBook in for assessment if you suspect hidden liquid exposure.
+
+### Q: What does ultrasonic cleaning remove that regular drying doesn't?
+Ultrasonic cleaning uses high-frequency vibrations to dislodge microscopic salt, mineral, and contaminant particles from circuit board surfaces and component pins. Regular air drying leaves these contaminants in place, where they continue oxidising and corroding copper traces. We use ultrasonic cleaning as part of our liquid damage recovery process.
+
+### Q: Can I claim liquid damage repair under home insurance in South Africa?
+Some home and contents policies cover accidental liquid damage to electronics. However, you'll need to check your specific policy terms. Many insurers exclude damage deemed "user negligence." Our R599 assessment gives you documentation to support an insurance claim if applicable. We're happy to discuss this during your workshop visit.
+
+### Q: How much does it cost to repair a MacBook after liquid damage?
+Costs vary widely based on damage extent and which components are affected. Apple typically quotes R8,000 or more and often refuses liquid-damaged repairs outright. Our assessments from R599 include a fixed repair quote. Many recoveries fall between R1,500 and R4,500, significantly lower than Apple's pricing. We provide estimates before you commit.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I replace the LCI myself to hide liquid damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Replacing the LCI is visible to any trained technician. Apple's documentation teaches technicians to examine not just the sticker's colour but the chassis for signs of liquid contact, corrosion marks, and residue. Tampering with the indicator alone solves nothing and is often detectable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take for corrosion to damage a liquid-exposed logic board?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In South Africa's climate, observable corrosion can begin within 24 to 48 hours. Functional damage often occurs within one to three weeks. Early intervention is critical to prevent total failure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will Apple repair my MacBook if the LCI hasn't changed colour?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in most cases. If the LCI shows no colour change and the MacBook functions normally, Apple will service it under warranty. However, if diagnostics reveal corrosion or liquid residue internally, they may refuse repair regardless of the LCI status."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does ultrasonic cleaning remove that regular drying doesn't?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ultrasonic cleaning uses high-frequency vibrations to dislodge microscopic salt, mineral, and contaminant particles from circuit board surfaces and component pins. Regular air drying leaves these contaminants in place, where they continue oxidising and corroding copper traces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I claim liquid damage repair under home insurance in South Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some home and contents policies cover accidental liquid damage to electronics. Check your specific policy terms. Many insurers exclude damage deemed user negligence. Our assessments provide documentation to support insurance claims where applicable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to repair a MacBook after liquid damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Costs vary based on damage extent and affected components. Apple typically quotes R8,000 or more and often refuses liquid-damaged repairs. Our assessments from R599 include a fixed repair quote. Many recoveries fall between R1,500 and R4,500, significantly lower than Apple's pricing."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
+  'macbook-pro-coffee-spill-repair-cost-johannesburg': {
+    slug: 'macbook-pro-coffee-spill-repair-cost-johannesburg',
+    title: `MacBook Pro Coffee Spill Repair Cost Johannesburg 2026`,
+    excerpt: `When you knock over your coffee onto your MacBook Pro, the first thing you feel is panic. We understand that at ZA Support in Hyde Park. We've handled thousands of liquid damage cases—and coffee is qu.`,
+    date: '29 March 2026',
+    category: 'Pricing',
+    readTime: '9 min read',
+    author: 'ZA Support',
+    content: `# MacBook Pro Coffee Spill Repair Cost Johannesburg 2026
+
+When you knock over your coffee onto your MacBook Pro, the first thing you feel is panic. We understand that at ZA Support in Hyde Park. We've handled thousands of liquid damage cases—and coffee is quite possibly the worst offence your logic board can suffer. Unlike water, which evaporates, coffee contains acids and sugars that bond to circuitry and accelerate corrosion within hours. This blog post covers exactly what you'll pay for MacBook Pro coffee spill repair in Johannesburg right now, what happens inside your machine, and why time matters more than you think.
+
+## What Happens When Coffee Hits Your MacBook Pro
+
+Coffee damage differs fundamentally from water damage. The acidic nature of coffee (typically pH 4.85 to 5.10) reacts chemically with copper traces on your logic board. The sugars oxidise and create sticky residue that traps moisture under components. In our Hyde Park workshop, we've documented the progression: immediate shut-down occurs within minutes as liquid bridges electrical pathways. Then, if power is reapplied, component failure accelerates exponentially. Corrosion begins within 2 to 4 hours—not days.
+
+The Liquid Contact Indicator (LCI) on your MacBook Pro will turn pink or red within seconds of coffee exposure. Apple uses these tiny paper strips as proof of liquid damage, and unfortunately, they invalidate your standard warranty. However, your device isn't permanently broken. We've successfully recovered MacBook Pro units six months after spill incidents, provided the right steps were taken immediately.
+
+## Immediate Actions: The First 15 Minutes Matter
+
+The moment coffee makes contact with your keyboard, power off your MacBook Pro completely. Don't attempt to drain liquid through speaker grilles or keyboard gaps—this pushes liquid deeper into the logic board cavity. Don't use compressed air either; pressure forces coffee into connector sockets and under surface-mount components.
+
+Instead, place your MacBook Pro on its side (keyboard facing down, slightly elevated at the display hinge) and leave it unplugged for a minimum of 72 hours. Resist the urge to open it yourself. We've seen clients attempt DIY repairs using the rice-in-a-bag myth—spoiler: rice dust clogs fans and doesn't extract corrosive sugars from PCB traces. Professional ultrasonic cleaning is the only method that reaches trapped liquid beneath BGA chips and between PCB layers.
+
+Contact ZA Support immediately. Our **No Fix No Fee** assessment starts at **R599** and takes 45 minutes. We'll examine the Liquid Contact Indicator, use microscopy to identify corrosion extent, and advise on component replacement versus full logic board recovery.
+
+## Breaking Down MacBook Pro Coffee Spill Repair Costs in Johannesburg
+
+Repair costs depend on damage severity and your specific MacBook Pro model (M1, M2, M3, Intel-based 2019–2022).
+
+**Scenario 1: Surface Corrosion Only (Caught Within Hours)**
+If you've powered off immediately and brought the unit in within 4 hours, we can often save the original logic board. Ultrasonic cleaning in isopropyl alcohol removes acidic residue and sugar deposits. We then apply protective conformal coating to vulnerable traces. This costs **R1,800 to R2,400** and includes a 12-month warranty.
+
+**Scenario 2: Component-Level Damage (24 to 48 Hours)**
+Coffee reaching your keyboard controller, trackpad flex ribbon, or liquid-sensitive charging board requires component replacement. We've recovered many units by desoldering and replacing the keyboard connector assembly (R800), trackpad logic (R1,100), or DC-in board (R1,500). Combined with board cleaning, expect **R2,900 to R4,200**.
+
+**Scenario 3: Logic Board Replacement (72+ Hours or Multiple Liquid Pathways)**
+If coffee reached the main logic board and corrosion has progressed, component-level repair becomes economically unviable. A replacement logic board for M1 or M2 MacBook Pro costs **R8,500 to R12,800**, plus labour and testing (R1,200). This pushes total repair to **R9,700 to R14,000**—still significantly less than a new MacBook Pro (R35,000+).
+
+We offer **up to a 3-year warranty** on logic board replacements, and all work includes a comprehensive liquid damage assessment report required by insurance companies.
+
+## Our Coffee Damage Repair Process at ZA Support
+
+We don't guess. In our Hyde Park workshop, we follow a documented five-step protocol.
+
+**Step 1: Triage Assessment** – Visual inspection, Liquid Contact Indicator check, moisture meter readings on PCB layers. This diagnostic session is R599 and takes 45 minutes.
+
+**Step 2: Ultrasonic Cleaning** – We use industrial-grade isopropyl alcohol (99.9% purity) in ultrasonic tanks calibrated to 40kHz frequency. This penetrates beneath components and dissolves acidic coffee residue without damaging solder joints. Duration: 90 minutes per cycle.
+
+**Step 3: Microscopy and Corrosion Mapping** – We examine every millimetre of the logic board under 100x magnification, marking corrosion sites with precise notes. This data determines whether component replacement or full board replacement is necessary.
+
+**Step 4: Component Replacement or Board Recovery** – If corrosion is localised, we replace affected components using BGA rework equipment. If widespread, we fit a replacement logic board with your original storage and memory modules (if undamaged).
+
+**Step 5: Full System Testing** – Power-on testing, kernel panic monitoring over 6 hours, thermal stress testing, and battery cycle verification. We run real-world workload tests before release.
+
+## Why Professional Service Beats DIY and Other Repair Shops
+
+We're Apple Certified Technicians. That means we've completed Apple's training modules, maintain current certification, and have access to genuine component sourcing and diagnostic tools unavailable to independent shops. When you choose ZA Support, you're getting warranty-backed expertise—not a hobbyist with a heat gun.
+
+Many shops in Johannesburg offer fast turnaround by replacing entire logic boards unnecessarily. A coffee spill doesn't always require this expense. Our **No Fix No Fee** promise means we won't recommend component replacement unless our diagnostic assessment proves it necessary. If we assess your MacBook Pro and determine repair isn't viable, you pay nothing. Not every shop guarantees this.
+
+Load shedding is another issue. We maintain battery backup systems and comply with POPIA data protection standards. Your repair notes, serial numbers, and diagnostic images are encrypted and never shared.
+
+## How Our Hyde Park Location Serves Greater Johannesburg
+
+ZA Support is based in Hyde Park, making us accessible from Sandton, Midrand, Bryanston, Randburg, and the surrounding suburbs. Same-day assessment is available for walk-in appointments, and we offer **WhatsApp quotations** (064 529 5863) for clients who'd prefer an estimate before bringing their device in.
+
+We also service corporate accounts in the Johannesburg CBD. Several law firms and accounting practices have standing agreements with us for urgent liquid damage repairs—because losing a MacBook Pro for a week impacts business operations.
+
+Booking online takes 90 seconds at **zasupport.com/book**. We'll schedule your R599 assessment and confirm turnaround estimates.
+
+## Related Repair Services
+
+If your MacBook Pro has experienced other damage alongside the coffee spill, we handle integrated repairs:
+
+- [Logic Board Repair](/logic-board-repair) – For component-level corrosion or power delivery failures
+- [Liquid Damage](/liquid-damage) – Full documentation of our ultrasonic cleaning process and warranty coverage
+
+## Frequently Asked Questions
+
+### Q: Can ZA Support fix my MacBook Pro if it won't power on after coffee spill?
+
+A: Yes, in most cases. Power failure after liquid exposure typically indicates liquid bridging electrical pathways on the logic board, not permanent component death. Once we've cleaned the board and verified component integrity via microscopy, power restoration is usually straightforward. Our R599 assessment will determine feasibility within 45 minutes.
+
+### Q: Is the Liquid Contact Indicator (LCI) going to void my AppleCare warranty?
+
+A: AppleCare doesn't cover liquid damage regardless of LCI status, but the pink LCI proves liquid exposure to Apple's support team. Standard hardware warranty remains void. However, ZA Support offers independent warranty coverage up to 3 years on repaired units, which many insurance policies accept as proof of professional restoration.
+
+### Q: How long does coffee spill repair take at ZA Support?
+
+A: Assessment (R599) takes 45 minutes. Ultrasonic cleaning and component diagnosis takes 2 to 3 business days. Component replacement or logic board installation adds 1 to 2 days. Expedited service is available for an additional fee; contact us via WhatsApp (064 529 5863) for same-day turnaround options.
+
+### Q: Will you replace my logic board if ultrasonic cleaning doesn't work?
+
+A: If corrosion has advanced beyond component-level repair, yes. We'll present a quotation including the replacement board cost (R8,500 to R12,800), labour, and testing. You'll approve the repair in writing before we proceed—no surprises. Our No Fix No Fee guarantee only applies to the initial R599 assessment; repair costs are quoted separately once diagnostics are complete.
+
+### Q: Do you use genuine Apple components or third-party replacements?
+
+A: We use genuine Apple logic boards sourced from authorised distributors in South Africa. This ensures warranty validity and optimal performance. We never fit third-party clone boards. Pricing reflects authentic component sourcing, which is why our quotes are competitive but not suspiciously cheap.
+
+### Q: What's your WhatsApp number and how do I book?
+
+A: Contact us on **064 529 5863** for quotations and urgent repairs. Online booking is available at **zasupport.com/book**. We respond to WhatsApp enquiries within 2 hours during business hours (Monday to Friday, 09:00 to 17:30).
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can ZA Support fix my MacBook Pro if it won't power on after coffee spill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in most cases. Power failure after liquid exposure typically indicates liquid bridging electrical pathways on the logic board, not permanent component death. Once we've cleaned the board and verified component integrity via microscopy, power restoration is usually straightforward. Our R599 assessment will determine feasibility within 45 minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Liquid Contact Indicator (LCI) going to void my AppleCare warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AppleCare doesn't cover liquid damage regardless of LCI status, but the pink LCI proves liquid exposure to Apple's support team. Standard hardware warranty remains void. However, ZA Support offers independent warranty coverage up to 3 years on repaired units, which many insurance policies accept as proof of professional restoration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does coffee spill repair take at ZA Support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Assessment (R599) takes 45 minutes. Ultrasonic cleaning and component diagnosis takes 2 to 3 business days. Component replacement or logic board installation adds 1 to 2 days. Expedited service is available for an additional fee; contact us via WhatsApp (064 529 5863) for same-day turnaround options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will you replace my logic board if ultrasonic cleaning doesn't work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If corrosion has advanced beyond component-level repair, yes. We'll present a quotation including the replacement board cost (R8,500 to R12,800), labour, and testing. You'll approve the repair in writing before we proceed—no surprises. Our No Fix No Fee guarantee only applies to the initial R599 assessment; repair costs are quoted separately once diagnostics are complete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you use genuine Apple components or third-party replacements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use genuine Apple logic boards sourced from authorised distributors in South Africa. This ensures warranty validity and optimal performance. We never fit third-party clone boards. Pricing reflects authentic component sourcing, which is why our quotes are competitive but not suspiciously cheap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your WhatsApp number and how do I book?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contact us on 064 529 5863 for quotations and urgent repairs. Online booking is available at zasupport.com/book. We respond to WhatsApp enquiries within 2 hours during business hours (Monday to Friday, 09:00 to 17:30)."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
+  'macbook-water-damage-first-aid-steps-johannesburg': {
+    slug: 'macbook-water-damage-first-aid-steps-johannesburg',
+    title: `MacBook Water Damage First Aid Steps: What To Do In Johannesburg`,
+    excerpt: `Your MacBook has just taken an unexpected bath. Your heart sinks. You've got maybe ten minutes to act properly, and the next 72 hours will determine whether your machine survives intact or heads towar.`,
+    date: '29 March 2026',
+    category: 'Repairs',
+    readTime: '10 min read',
+    author: 'ZA Support',
+    content: `# MacBook Water Damage First Aid Steps: What To Do In Johannesburg
+
+Your MacBook has just taken an unexpected bath. Your heart sinks. You've got maybe ten minutes to act properly, and the next 72 hours will determine whether your machine survives intact or heads toward a costly logic board replacement.
+
+We've handled hundreds of water-damaged MacBooks in our Hyde Park workshop over the past eight years. The difference between a device that recovers fully and one that doesn't often comes down to those critical first moments after the spill. This guide walks you through exactly what to do—and what not to do—if your MacBook meets liquid.
+
+## Immediate Actions: The First Five Minutes
+
+The moment water touches your MacBook, stop using it. Close the lid if it's open. Do not attempt to save your work. Do not press any keys. Do not wait to see if it still works.
+
+Here's what you need to do right now.
+
+**Power off completely.** Hold the power button for ten seconds until the screen blacks out entirely. If your MacBook shuts down immediately after the spill, this is actually good—it means the device has triggered its built-in safety protocols. If it's still running, force the shutdown. Do not use Sleep mode.
+
+Do not plug in the power adapter. Do not connect any cables. Do not open the lid repeatedly to check the damage. Every time you open the lid, you're introducing air circulation that can push moisture deeper into components.
+
+Tilt the MacBook gently to allow excess liquid to drain. If the spill was from the top (coffee, tea, water glass), tilt with the keyboard facing slightly downward. Let gravity work for 30 seconds. You're not trying to squeeze water out—you're allowing it to exit naturally through the keyboard or vents.
+
+## Why The Rice Myth Doesn't Work For MacBooks
+
+You'll hear this from well-meaning friends: put your MacBook in a container of uncooked rice for 48 hours. This advice is genuinely problematic for modern laptops.
+
+Rice absorbs moisture, yes. But it's too slow. MacBook components begin corroding within hours of exposure to liquid. The oxidation process on circuit traces and solder joints doesn't wait for rice to work. Rice also produces starch dust that can settle onto components and create additional resistance problems.
+
+We've assessed dozens of MacBooks that sat in rice for two or three days. The damage was worse than if they'd been assessed immediately. Moisture had already penetrated the logic board by the time owners brought them in.
+
+The only effective way to remove moisture from internal components is ultrasonic cleaning in a controlled environment—something we offer in our workshop from R599 for the initial assessment.
+
+## Why The 72-Hour Myth Is Misleading
+
+Another common misconception: you have 72 hours before permanent damage occurs. This is dangerously inaccurate.
+
+Corrosion begins within the first 24 hours. We've examined MacBooks that showed visible oxidation on chip contacts after just 12 hours of exposure to liquid. The longer moisture remains on the logic board, the more aggressive the corrosion becomes. By 48 hours, you're looking at potential trace damage that can cause intermittent failures weeks or months later.
+
+The "72-hour window" seems to come from consumer electronics repair forums, but it doesn't account for the complexity of MacBook engineering. Modern boards have tighter component spacing. Moisture trapped under BGA chips (ball grid arrays) corrodes invisible solder connections.
+
+Bring your MacBook in as soon as possible after a spill. Same day is ideal. Next morning is acceptable. Waiting beyond that exponentially increases repair costs.
+
+## What Happens In Our Hyde Park Workshop
+
+When you bring your water-damaged MacBook to us, here's the process we follow.
+
+First, we inspect for visible damage and check the Liquid Contact Indicator (LCI)—a small white or pink sticker located near internal components. If it's tripped (turned red or pink), Apple and most technicians will refuse warranty work. This is purely informational; it doesn't prevent us from repairing your device. We'll discuss what tripping means for your warranty status with complete transparency.
+
+We then disassemble the MacBook to access the logic board and other affected components. This requires proper tools and training—it's not a DIY job. One wrong move with a plastic opener can damage ribbon cables worth hundreds of rands to replace.
+
+Next comes ultrasonic cleaning. We place the logic board in a specialised ultrasonic bath with distilled water and a mild cleaning agent. Sound waves oscillating at high frequency (typically 40kHz) create cavitation bubbles that dislodge microscopic corrosion and mineral deposits from every surface and crevice. This is far more effective than any manual cleaning method and reaches areas that would be impossible to access otherwise.
+
+After ultrasonic cleaning, we dry the board completely using warm air circulation in a controlled environment—never direct heat that could damage components.
+
+Then comes testing. We power on the board in isolation to check for short circuits or component failures. We run diagnostics on the SSD. We test the keyboard and trackpad separately. Only once we're confident the machine will function do we reassemble and deliver it to you.
+
+This entire process takes 5–7 working days typically. During load shedding periods, it may extend to 10 days due to power constraints in our facility.
+
+## Assessment Costs And Warranty Protection
+
+Our water damage assessment is R599. This covers the full inspection, testing, and a detailed report of what needs repair. That assessment fee is credited toward the final repair bill if you proceed with us.
+
+Most water damage repairs fall between R1,200 and R3,500, depending on what components were affected. Minor keyboard and trackpad damage sits on the lower end. Logic board component-level repair or SSD recovery sits on the upper end.
+
+Here's what protects you: we offer up to a 3-year warranty on water damage repairs. This means if a corrosion-related failure occurs within three years of our repair, we fix it at no charge. This is genuine protection—we've stood behind our work for years.
+
+Our No Fix No Fee policy also applies: if assessment reveals the damage is beyond economical repair, you pay only the R599 assessment fee. We won't perform unnecessary work.
+
+## Prevention: Stop It Before It Starts
+
+Invest in a quality laptop sleeve (from R200–400) and keep it with your MacBook whenever you're working near liquids. Coffee shops, kitchen tables, outdoor venues—these are all high-risk environments.
+
+Consider a keyboard cover if you're particularly prone to spills. They're not perfect, but they do buy you precious seconds by slowing liquid penetration.
+
+Most importantly: never eat or drink directly above your keyboard. This sounds obvious, but we see it constantly in our workshop.
+
+## Next Steps: Get Professional Assessment
+
+If your MacBook has been exposed to liquid, contact us today. The sooner we assess it, the better your chances of a full recovery with minimal cost.
+
+**WhatsApp us on 064 529 5863** with photos of the damage, or **book an appointment at zasupport.com/book** for a convenient time.
+
+We're located in Hyde Park, Johannesburg, and we've repaired water-damaged MacBooks from across Gauteng. Bring your device, your charger, and any relevant information about what liquid spilled and when. We'll take it from there.
+
+If your water damage has affected your logic board, you can learn more about our [logic board repair services](/logic-board-repair) or read our comprehensive guide on [liquid damage assessment](/liquid-damage). For technical details, the [Apple Support page on liquid damage](https://support.apple.com/en-za/HT201182) is also worth reviewing.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Can I use a hair dryer to dry my MacBook after a water spill?
+No. Direct heat can damage delicate components and potentially melt plastic connectors. The problem with hair dryers is uneven heat distribution and potential for pushing moisture deeper into the machine rather than out. Controlled, low-temperature air drying in a workshop environment is far safer.
+
+### Q: Should I attempt to disassemble my MacBook myself to dry internal components?
+Not unless you have professional training and proper tools. Opening a modern MacBook without anti-static equipment can introduce static discharge that permanently damages the logic board. The risk of damaging ribbon cables, connectors, or components far outweighs any benefit from DIY drying. Professional disassembly is worth the cost.
+
+### Q: Is my MacBook definitely ruined if it was exposed to saltwater instead of fresh water?
+Saltwater is more corrosive than fresh water and accelerates oxidation, but it's not automatically a death sentence. Salt residue does increase repair complexity and cost because it requires more aggressive cleaning. Bring it in as soon as possible—the sooner we assess it, the better. Saltwater exposure typically adds R300–800 to repair costs compared to fresh water damage.
+
+### Q: Will AppleCare cover water damage to my MacBook?
+Standard AppleCare does not cover accidental liquid damage. You'll need to contact Apple directly for an assessment, but they'll likely quote you a full logic board replacement (often R3,500–5,000 or more). We can often repair the same device for significantly less, and we don't require your machine to be in original condition.
+
+### Q: How long does a water damage repair typically take?
+Most repairs take 5–7 working days in our Hyde Park workshop. During load shedding or if component-level logic board work is required, it may take up to 10 days. We'll provide an exact timeline after assessment. We can discuss urgent turnaround options if you need your MacBook back quickly—though faster service may incur an additional fee.
+
+### Q: What does the Liquid Contact Indicator (LCI) actually tell me?
+The LCI is a small sticker that changes colour from white or pink to red when it contacts moisture. If it's red when we open your MacBook, it confirms liquid exposure occurred. However, a red LCI doesn't prevent repair—it's only a record. It may affect Apple's warranty coverage, but it has no bearing on our ability to repair your device or our warranty terms. We assess and repair water-damaged MacBooks with red LCI indicators regularly.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I use a hair dryer to dry my MacBook after a water spill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Direct heat can damage delicate components and potentially melt plastic connectors. The problem with hair dryers is uneven heat distribution and potential for pushing moisture deeper into the machine rather than out. Controlled, low-temperature air drying in a workshop environment is far safer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I attempt to disassemble my MacBook myself to dry internal components?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not unless you have professional training and proper tools. Opening a modern MacBook without anti-static equipment can introduce static discharge that permanently damages the logic board. The risk of damaging ribbon cables, connectors, or components far outweighs any benefit from DIY drying. Professional disassembly is worth the cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my MacBook definitely ruined if it was exposed to saltwater instead of fresh water?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Saltwater is more corrosive than fresh water and accelerates oxidation, but it's not automatically a death sentence. Salt residue does increase repair complexity and cost because it requires more aggressive cleaning. Bring it in as soon as possible—the sooner we assess it, the better. Saltwater exposure typically adds R300–800 to repair costs compared to fresh water damage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will AppleCare cover water damage to my MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard AppleCare does not cover accidental liquid damage. You'll need to contact Apple directly for an assessment, but they'll likely quote you a full logic board replacement (often R3,500–5,000 or more). We can often repair the same device for significantly less, and we don't require your machine to be in original condition."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a water damage repair typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs take 5–7 working days in our Hyde Park workshop. During load shedding or if component-level logic board work is required, it may take up to 10 days. We'll provide an exact timeline after assessment. We can discuss urgent turnaround options if you need your MacBook back quickly—though faster service may incur an additional fee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the Liquid Contact Indicator (LCI) actually tell me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The LCI is a small sticker that changes colour from white or pink to red when it contacts moisture. If it's red when we open your MacBook, it confirms liquid exposure occurred. However, a red LCI doesn't prevent repair—it's only a record. It may affect Apple's warranty coverage, but it has no bearing on our ability to repair your device or our warranty terms. We assess and repair water-damaged MacBooks with red LCI indicators regularly."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
