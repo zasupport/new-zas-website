@@ -7,7 +7,7 @@ import { CONTACT, SITE } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'About ZA Support | Apple Repair Specialist Johannesburg | Hyde Park',
   description:
-    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 50,000+ repairs, 4.9★. JAMF-certified. up-to-3 year warranty.",
+    "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 50,000+ repairs, 4.9★. up-to-3 year warranty.",
   alternates: { canonical: 'https://zasupport.com/about' },
   keywords: [
     'apple repair specialist johannesburg',
@@ -105,14 +105,14 @@ const localBusinessSchema = {
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'Courtney Bentley',
+  name: 'David Bentley',
   jobTitle: 'Founder & Apple Certified Technician',
   worksFor: {
     '@type': 'Organization',
     name: 'ZA Support',
     url: 'https://zasupport.com',
   },
-  description: 'Founder of ZA Support with 16 years of Apple repair expertise. JAMF-certified technician specialising in MacBook logic board component-level repair, Apple fleet management, and managed IT for medical practices across Johannesburg.',
+  description: 'Founder of ZA Support with 16 years of Apple repair expertise specialising in MacBook logic board component-level repair, Apple fleet management, and managed IT for medical practices across Johannesburg.',
   knowsAbout: [
     'Apple Mac Repair',
     'MacBook Logic Board Component-level repair',
@@ -125,7 +125,7 @@ const personSchema = {
   hasCredential: [
     {
       '@type': 'EducationalOccupationalCredential',
-      name: 'JAMF Certified Technician',
+      name: 'Apple Certified Technician',
       credentialCategory: 'Certification',
     },
   ],
@@ -151,7 +151,7 @@ const organizationSchema = {
   foundingDate: '2009',
   founder: {
     '@type': 'Person',
-    name: 'Courtney Bentley',
+    name: 'David Bentley',
     jobTitle: 'Founder & Apple Certified Technician',
   },
   address: {
@@ -243,18 +243,18 @@ export default function AboutPage() {
               <div>
                 <p className="text-[#0FEA7A] text-xs font-semibold uppercase tracking-widest mb-2">Founded by</p>
                 <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
-                  Courtney Bentley
+                  David Bentley
                 </h2>
                 <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Technician · 16 Years Experience</p>
-                <p className="text-[#7A9E98] text-sm mb-4">JAMF-Certified · Hyde Park, Johannesburg</p>
+                <p className="text-[#7A9E98] text-sm mb-4">BSc Informatics · Previous Apple Manager &amp; Solution Architect · Hyde Park, Johannesburg</p>
                 <p className="text-[#7A9E98] leading-relaxed mb-4">
-                  Courtney founded ZA Support in 2009 with a clear purpose: bring genuinely expert Apple repair
-                  to Johannesburg. With 16 years of hands-on Mac experience, JAMF certification, and component-level
-                  component-level repair training, Courtney leads every complex repair and manages Apple device deployments
+                  David founded ZA Support in 2009 with a clear purpose: bring genuinely expert Apple repair
+                  to Johannesburg. With 16 years of hands-on Mac experience and component-level
+                  repair training, David leads every complex repair and manages Apple device deployments
                   for medical practices and businesses across Gauteng.
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  {['JAMF Certified', 'Logic Board Repair', 'Apple MDM', 'macOS', 'Medical IT'].map((badge) => (
+                  {['Logic Board Repair', 'Apple MDM', 'macOS', 'Medical IT', 'Solution Architect'].map((badge) => (
                     <span key={badge} className="px-3 py-1 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.2)] text-[#0FEA7A] text-xs rounded-full font-medium">
                       {badge}
                     </span>
@@ -263,7 +263,7 @@ export default function AboutPage() {
               </div>
               <div className="space-y-3">
                 {[
-                  { icon: Award, text: 'JAMF Certified, Apple fleet management for businesses and medical practices' },
+                  { icon: Award, text: 'Apple fleet management for businesses and medical practices' },
                   { icon: Cpu, text: 'Component-level MacBook logic board repair since 2009' },
                   { icon: Star, text: '4.9★ Google rating across 632+ verified client reviews' },
                   { icon: Shield, text: 'Assessment: from R599, transparent pricing, up-to-3 year warranty on all repairs' },
@@ -298,7 +298,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 {[
                   { icon: Cpu, title: 'Microscope-Level Component-level repair', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
-                  { icon: Award, title: 'JAMF-Certified Specialists', desc: 'One of Johannesburg\'s few JAMF-certified implementation teams. We manage Apple fleets for organisations across Gauteng.' },
+                  { icon: Award, title: 'Apple MDM Specialists', desc: 'We implement and manage Apple device fleets for organisations across Gauteng using industry-leading MDM solutions.' },
                   { icon: Star, title: '4.9★ on Google, 632+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews, the themes are honesty, transparency, and results.' },
                   { icon: Shield, title: 'Transparent Pricing, Always', desc: 'Assessment fee of from R599 applies. Written quote before any work begins. up-to-3 year warranty on all repairs. No surprises.' },
                 ].map(({ icon: Icon, title, desc }) => (

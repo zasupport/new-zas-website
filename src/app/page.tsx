@@ -77,8 +77,8 @@ const differentiators = [
   },
   {
     icon: Award,
-    title: 'JAMF Enterprise Specialists',
-    description: 'South Africa\'s leading JAMF MDM implementation team. We manage Apple devices for medical practices, SMEs, and enterprise clients.',
+    title: 'Apple MDM Specialists',
+    description: 'We implement and manage Apple device fleets for medical practices, SMEs, and enterprise clients across Johannesburg and Gauteng.',
   },
   {
     icon: Star,
@@ -274,7 +274,24 @@ export default function HomePage() {
             </h2>
             <p className="text-[#7A9E98] text-lg">Over {SITE.reviewCount} verified reviews from Johannesburg clients · 16 years of Apple expertise</p>
           </div>
-          <Suspense fallback={null}>
+          <Suspense fallback={
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {[1, 2, 3, 4].map((i) => (
+                <div key={i} className="p-6 rounded-2xl bg-[rgba(22,34,32,0.6)] border border-[rgba(15,234,122,0.12)] animate-pulse">
+                  <div className="flex gap-1 mb-3">
+                    {[1,2,3,4,5].map((s) => <div key={s} className="w-4 h-4 bg-[rgba(15,234,122,0.15)] rounded" />)}
+                  </div>
+                  <div className="h-4 bg-[rgba(15,234,122,0.08)] rounded w-full mb-2" />
+                  <div className="h-4 bg-[rgba(15,234,122,0.08)] rounded w-3/4 mb-2" />
+                  <div className="h-4 bg-[rgba(15,234,122,0.08)] rounded w-1/2 mb-4" />
+                  <div className="flex items-center gap-2">
+                    <div className="w-8 h-8 bg-[rgba(15,234,122,0.15)] rounded-full" />
+                    <div className="h-3 bg-[rgba(15,234,122,0.08)] rounded w-24" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          }>
             <GoogleReviews maxReviews={4} />
           </Suspense>
         </div>

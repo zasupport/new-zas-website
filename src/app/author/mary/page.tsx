@@ -85,8 +85,8 @@ export default function MaryPage() {
           <div className="border-t border-[#27504D]/20 pt-8">
             <p className="text-sm text-[#7A9E98]">
               Technical accuracy verified by{' '}
-              <Link href="/author/courtney-bentley" className="text-[#0FEA7A] hover:underline">
-                Courtney Bentley
+              <Link href="/author/david-bentley" className="text-[#0FEA7A] hover:underline">
+                David Bentley
               </Link>
               , Founder &amp; Apple Certified Technician.
             </p>
