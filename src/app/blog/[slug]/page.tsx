@@ -6520,6 +6520,468 @@ The LCI is a small sticker that changes colour from white or pink to red when it
 }
 \`\`\``,
   },
+  'macbook-charging-port-repair-johannesburg': {
+    slug: 'macbook-charging-port-repair-johannesburg',
+    title: `MacBook Charging Port Repair in Johannesburg: Professional Solutions at ZA Support`,
+    excerpt: `MacBook charging issues are far more common than most people realise. In our Hyde Park workshop, we see at least three or four MacBook charging failures every week—everything from bent connector pins .`,
+    date: '29 March 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'ZA Support',
+    content: `# MacBook Charging Port Repair in Johannesburg: Professional Solutions at ZA Support
+
+MacBook charging issues are far more common than most people realise. In our Hyde Park workshop, we see at least three or four MacBook charging failures every week—everything from bent connector pins to complete USB-C port replacements. The frustration is real: your MacBook won't charge, you're losing productivity, and you're worried about the cost. We've been fixing these problems for Johannesburg clients since 2016, and we know exactly what you're dealing with.
+
+The truth is that MacBook charging ports fail for specific, identifiable reasons. Some are quick fixes. Others require board-level repair. What matters is getting a proper diagnosis from someone who understands the difference between MagSafe and USB-C architecture, and knows whether your machine needs a simple connector replacement or something more involved.
+
+This guide covers what actually happens when your MacBook charging port fails, what your repair options are, and why you should choose experienced technicians in Johannesburg rather than guessing or attempting DIY repairs that could cost you thousands in additional damage.
+
+## MagSafe vs USB-C: Understanding Your MacBook's Charging System
+
+Not all MacBook charging ports are the same, and this distinction matters significantly for repair strategy.
+
+Newer MacBook models (2021 onwards) use Apple's MagSafe connector—a magnetic charging system that's far more user-friendly than the older USB-C designs. The magnetic connection means accidental disconnection is far less damaging. We've found MagSafe failures are usually limited to the charging cable itself rather than the MacBook's internal port.
+
+Older MacBook Pro and MacBook Air models rely on USB-C charging. These are notorious for two specific problems: bent pins inside the port (from angled insertion or pressure) and thermal stress on the solder joints connecting the port to the logic board. In our experience, USB-C port failures on machines from 2015–2020 account for nearly 60% of the charging repairs we perform at ZA Support.
+
+The practical difference? MagSafe repairs often cost less (we're typically replacing a cable), whilst USB-C repairs frequently require either connector replacement (around R1,200–R1,800) or board-level rework if the damage extends to the solder connections (from R1,800 upwards). We always offer a comprehensive R599 assessment so you know exactly what you're dealing with before committing to any repair.
+
+## Common Causes of MacBook Charging Port Failure
+
+We've documented the failure patterns across hundreds of machines. Understanding why your port failed helps prevent it happening again.
+
+**Bent connector pins**: This is the single most common issue. A MacBook gets pushed against the wall, or the charging cable is inserted at a slight angle repeatedly over months. The small pins inside the USB-C port bend outwards, losing electrical contact. Clients often describe this as "the charger feels loose" or "sometimes it charges, sometimes it doesn't."
+
+**Thermal stress and solder joint failure**: MacBooks generate significant heat during normal operation. The charging port is mounted directly to the logic board with solder joints. Over time—typically 18 months to 3 years of heavy use—these joints crack under thermal cycling. This is particularly common in models like the 2016–2017 MacBook Pro.
+
+**Liquid contact**: We've covered this separately in our [liquid damage repair guide](/liquid-damage), but charging ports are common entry points for water or spilled coffee. Even small amounts of liquid can corrode the pins or create short circuits that prevent charging detection.
+
+**Sleep/wake cycle strain**: Every time you charge your MacBook, the connector makes contact and breaks contact. After thousands of cycles, the physical connectors wear out. This is less dramatic than bent pins, but it's a genuine wear mechanism.
+
+**Manufacturing defects**: Occasionally, we find ports with defective solder joints right from the factory. Apple has acknowledged this on certain 2015–2016 MacBook Pro models. These usually fail between months 6–18.
+
+## Charging Port Repair Options: Connector Replacement vs Board-Level Work
+
+This is where many repair shops get vague. We're going to be specific.
+
+**Simple connector replacement** is possible on some MacBook models. We can remove the damaged USB-C port and solder a new connector directly to the logic board. This requires micro-soldering equipment, steady hands, and components that cost R300–R600. At ZA Support, this service runs from R1,200 to R1,800 including labour and a 2-year warranty. The repair takes approximately 48 hours in our Hyde Park workshop. You need this option if your pins are simply bent but the surrounding board traces are intact—which our R599 assessment will confirm.
+
+**Board-level repair** is necessary when the damage extends beyond the port itself. If pins have been bent so badly they've fractured the solder joints underneath, or if liquid has corroded multiple traces, we must rework the entire port area. This is more expensive (typically R2,200–R3,200) and takes longer (3–5 working days), but it's the only option that will give you a reliable long-term fix. We document this work thoroughly and offer a full 3-year warranty on board-level charging repairs—one of the longest guarantees you'll find in Johannesburg.
+
+**Cable replacement** (MagSafe models): If you're on a newer MacBook with MagSafe, your problem is likely the cable, not the MacBook itself. A genuine Apple MagSafe charging cable costs around R1,200 retail. We can replace it for R899 including labour and testing.
+
+Sometimes the simplest fix is best. Before you commit to internal work, we always check whether the issue is actually the cable, the power adapter, or a macOS software setting. We've had clients come in convinced their port is broken when the problem is just an unpaired MagSafe connection or a BIOS setting.
+
+## Why Board-Level Repair Beats Repeated Temporary Fixes
+
+We need to be honest here: some repair shops will sell you a connector replacement knowing full well that board-level damage exists. The port will work for a few weeks, then fail again. You're back where you started, except you've now spent R1,500 and you've lost another month of work.
+
+This happens because micro-soldering is technically demanding and requires proper diagnostic equipment. Not every technician in Johannesburg has it. At ZA Support, we have invested in thermal imaging and microscopic inspection specifically so we can identify whether your damage is connector-only or board-level before quoting you. It takes time, but it saves you money and frustration.
+
+A board-level repair, done properly once, is genuinely permanent. We use lead-free solder (because we're repairing electronics that may contain POPIA-sensitive data), we stress-test the power delivery circuit, and we verify charging detection in both sleep and wake states. You get our 3-year warranty because we're confident in the result.
+
+## How to Get Your MacBook Charging Port Repaired at ZA Support
+
+**Step one**: Contact us on WhatsApp at **064 529 5863** or visit **zasupport.com/book** to arrange an appointment in our Hyde Park workshop. We're open Monday to Friday, 8am–5pm.
+
+**Step two**: Bring your MacBook and power adapter. We'll perform a comprehensive R599 assessment including visual inspection, multimeter testing of the port, and a logic board check under magnification. You'll know exactly what you need and what it will cost before we start any work.
+
+**Step three**: We repair the fault using the appropriate method (connector replacement, board-level rework, or cable replacement). You get a fixed deadline and updates via WhatsApp.
+
+**Step four**: You collect your MacBook with a 2–3 year warranty (depending on repair type) and full confidence that the problem is solved.
+
+Our No Fix No Fee promise means you only pay for the repair if we successfully fix it. We don't charge diagnostic fees if you decide not to proceed.
+
+If your MacBook's charging issue is related to logic board damage beyond the port itself, we also offer comprehensive [logic board repair](/logic-board-repair) for liquid damage, hardware failure, and component-level issues.
+
+## Frequently Asked Questions
+
+### Q: How long does a MacBook charging port repair take?
+
+Simple connector replacement takes 48 hours. Board-level repairs take 3–5 working days. We provide you with a loaner device if you need one urgently.
+
+### Q: Can I use a third-party charger while waiting for my port repair?
+
+No. Using a non-Apple charger, or a charger designed for a different MacBook model, risks additional board damage. We recommend you don't attempt charging until the port is properly repaired.
+
+### Q: Is the R599 assessment fee refunded if I proceed with the repair?
+
+Yes. The R599 diagnostic cost is credited directly against your repair invoice, so if your final repair costs R2,000, you're only charged R1,401.
+
+### Q: What warranty do you offer on charging port repairs?
+
+Connector replacement repairs come with a 2-year warranty. Board-level repairs include our full 3-year warranty. This covers charging functionality and includes free re-repair if the fault recurs during the warranty period.
+
+### Q: Will my data be safe during the repair?
+
+Absolutely. We never format your drive or access your files unless you specifically request data recovery. Your MacBook is handled on a secure bench, and we maintain full POPIA compliance with your personal information.
+
+### Q: Do you repair MagSafe charging ports?
+
+MagSafe failures are usually cable-based rather than port-based. We can replace MagSafe charging cables for R899, or repair the magnetic connector assembly on your MacBook (rare) for R1,200–R1,600. Contact us to discuss your specific issue.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a MacBook charging port repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simple connector replacement takes 48 hours. Board-level repairs take 3–5 working days. We provide you with a loaner device if you need one urgently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a third-party charger while waiting for my port repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Using a non-Apple charger, or a charger designed for a different MacBook model, risks additional board damage. We recommend you don't attempt charging until the port is properly repaired."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the R599 assessment fee refunded if I proceed with the repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The R599 diagnostic cost is credited directly against your repair invoice, so if your final repair costs R2,000, you're only charged R1,401."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty do you offer on charging port repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Connector replacement repairs come with a 2-year warranty. Board-level repairs include our full 3-year warranty. This covers charging functionality and includes free re-repair if the fault recurs during the warranty period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my data be safe during the repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We never format your drive or access your files unless you specifically request data recovery. Your MacBook is handled on a secure bench, and we maintain full POPIA compliance with your personal information."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair MagSafe charging ports?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MagSafe failures are usually cable-based rather than port-based. We can replace MagSafe charging cables for R899, or repair the magnetic connector assembly on your MacBook (rare) for R1,200–R1,600. Contact us to discuss your specific issue."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Ready to fix your MacBook's charging issue?** Contact ZA Support in Hyde Park, Johannesburg. Message us on **WhatsApp: 064 529 5863** or book online at **zasupport.com/book**. No Fix No Fee. Professional diagnosis from R599.`,
+  },
+  'macbook-pro-m1-logic-board-repair': {
+    slug: 'macbook-pro-m1-logic-board-repair',
+    title: `MacBook Pro M1 Logic Board Repair in Johannesburg: Expert Fixes at ZA Support`,
+    excerpt: `When your MacBook Pro M1 fails to power on, displays kernel panics, or shows unexpected restarts, the logic board is often the culprit. We have seen dozens of M1 units arrive at our Hyde Park workshop.`,
+    date: '29 March 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# MacBook Pro M1 Logic Board Repair in Johannesburg: Expert Fixes at ZA Support
+
+When your MacBook Pro M1 fails to power on, displays kernel panics, or shows unexpected restarts, the logic board is often the culprit. We have seen dozens of M1 units arrive at our Hyde Park workshop with logic board faults, and we understand how frustrating it is when Apple's premium hardware stops working. At ZA Support, we specialise in MacBook Pro M1 logic board repair, offering genuine diagnostics and transparent pricing starting from a comprehensive R599 assessment.
+
+The M1 System-on-Chip represents a significant leap in Apple's engineering, integrating CPU, GPU, neural engine, and unified memory architecture onto a single package. This innovation brings remarkable performance and efficiency—but it also means logic board failures require specialist knowledge. We do not simply swap components; we identify root causes and apply targeted repairs that restore your machine to full functionality.
+
+## Understanding M1 Logic Board Failures
+
+The M1 SoC is soldered directly to the logic board, making it both integral to the machine's speed and challenging to repair if problems emerge. In our workshop, the most common M1 failures we encounter include power delivery issues, liquid damage affecting the memory subsystem, and thermal stress on the unified memory architecture.
+
+Unlike earlier Intel-based MacBooks, where certain components could be replaced individually, M1 boards often require micro-soldering work or complete logic board replacement. We possess the diagnostic equipment—including thermal imaging and power rail testing—to pinpoint exactly which section of the board has failed. This precision prevents unnecessary and expensive replacements; sometimes a focused repair is all that is needed.
+
+Load shedding in Johannesburg presents an additional challenge for MacBook owners. We have noticed that power surges during Stage 6 blackouts can damage the power management circuits on the logic board. If your MacBook failed during or shortly after load shedding, bring it in for assessment. We can inspect the power delivery pathways and protect you from further risk with proper surge protection advice.
+
+## Common Symptoms of M1 Logic Board Problems
+
+You might suspect a logic board issue if your MacBook Pro M1:
+
+- Fails to power on or shows no signs of life, even when plugged in
+- Restarts unexpectedly during normal use or under light load
+- Displays kernel panic error messages referencing memory or firmware
+- Shows a frozen screen with no responsiveness to keyboard or trackpad input
+- Experiences battery drain despite appearing to be in sleep mode
+- Produces no audio or video output whilst showing signs of processor activity
+
+Not every one of these symptoms points to the logic board—sometimes the issue is display-related or involves the power adapter. That is precisely why our R599 assessment is so valuable. We run comprehensive diagnostics using Apple Service Toolkit and our own specialist equipment to rule out other causes before confirming logic board damage.
+
+## Our MacBook Pro M1 Logic Board Repair Process
+
+In our Hyde Park Johannesburg workshop, we follow a structured approach to M1 logic board repair. First, we power down the unit safely and perform a complete visual inspection under magnification, looking for burnt components, corrosion, or evidence of liquid damage. We then run non-invasive power rail tests to measure voltage across the main power delivery circuits.
+
+If the board has suffered liquid damage, we use our [liquid damage repair service](https://zasupport.com/liquid-damage) to carefully clean and restore the affected areas. For thermal or power delivery faults, we may need to reflow solder joints or replace a specific power management integrated circuit (IC). In cases where the M1 SoC itself has failed, we advise clients on logic board replacement options and pricing.
+
+Every repair comes with up to a three-year warranty on parts and workmanship. We stand behind our work because we use only quality components and proven repair techniques. And because we offer a No Fix No Fee guarantee, you will never pay for a repair that does not restore your MacBook to working order.
+
+## Why Choose ZA Support for M1 Logic Board Repair?
+
+We are not an authorised Apple service centre, but that works in your favour. Apple's standard pricing for M1 logic board replacement can exceed R12,000–R15,000, and they will often replace the entire board rather than investigate the specific fault. We take a different approach: we diagnose, we repair where possible, and we charge fairly.
+
+Our technicians have extensive experience with Apple's M1 architecture and the specific failure modes we have encountered across hundreds of units. We understand POPIA compliance and handle your personal data securely. We also maintain transparent communication—you will know exactly what we find and what repair will cost before we proceed.
+
+Johannesburg's climate can be harsh on electronics. Heat, humidity in summer, and the shock of load shedding all strain MacBook hardware. We have developed protocols specifically for diagnosing Johannesburg-based damage patterns, and we can advise on preventative measures for your next machine.
+
+## Booking Your M1 Logic Board Assessment
+
+Ready to get your MacBook Pro M1 running again? Start with our R599 comprehensive assessment. Visit our booking page at [zasupport.com/book](https://zasupport.com/book) to reserve your slot, or message us directly on WhatsApp at 064 529 5863. We typically diagnose and provide a quote within 24 hours.
+
+Our workshop is located in Hyde Park, Johannesburg, and we welcome appointments throughout the week. If you prefer, we can also arrange courier pickup for clients across South Africa—simply let us know when you contact us.
+
+For more information on logic board repair generally, visit our [comprehensive logic board repair guide](https://zasupport.com/logic-board-repair). And if you need to discuss your specific issue before booking, [contact our team](https://zasupport.com/contact) via email or phone.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does M1 logic board repair take?
+
+Most logic board diagnostics are completed within 24 hours. Simple repairs, such as replacing a power management circuit, may be done within 2–3 working days. Complex repairs involving micro-soldering can take 5–7 days. We always confirm the timeline once we have diagnosed the exact issue.
+
+### Q: Will I lose my data if my logic board is repaired?
+
+No. The M1's unified memory and storage are separate from the logic board itself. We repair the logic board without touching your SSD, so your files remain intact. However, we always recommend backing up your data regularly—this fault could have happened to anyone, and it is a good reminder to keep external backups.
+
+### Q: Is M1 logic board repair cheaper than buying a new MacBook?
+
+Yes, almost always. A new M1 MacBook Pro starts at R25,000 or more. Our repairs—even those requiring board replacement—typically cost R4,000–R8,000, making repair the far more sensible choice. Plus, you keep your familiar machine, keyboard, and existing setup.
+
+### Q: Does ZA Support repair offer a warranty?
+
+Yes. We provide up to a three-year warranty on parts and labour. If your repaired logic board fails within that period due to our work, we will repair it free of charge. This is one of the strongest warranties in Johannesburg for specialist electronics repair.
+
+### Q: Can you repair M1 boards damaged by liquid?
+
+Yes. Our [liquid damage repair service](https://zasupport.com/liquid-damage) includes careful cleaning, component-level diagnostics, and targeted repairs. However, the sooner you bring the MacBook in after liquid exposure, the better the outcome. Do not attempt to power it on yourself—bring it straight to us.
+
+### Q: What if the M1 SoC itself is faulty?
+
+If the M1 chip itself has failed—which is rare—it cannot be replaced in isolation. We would advise you on full logic board replacement options and pricing. We can source genuine or high-quality compatible boards and fit them with a full warranty, typically costing less than Apple's service but more than a minor repair.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does M1 logic board repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most logic board diagnostics are completed within 24 hours. Simple repairs, such as replacing a power management circuit, may be done within 2–3 working days. Complex repairs involving micro-soldering can take 5–7 days. We always confirm the timeline once we have diagnosed the exact issue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I lose my data if my logic board is repaired?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The M1's unified memory and storage are separate from the logic board itself. We repair the logic board without touching your SSD, so your files remain intact. However, we always recommend backing up your data regularly—this fault could have happened to anyone, and it is a good reminder to keep external backups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is M1 logic board repair cheaper than buying a new MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, almost always. A new M1 MacBook Pro starts at R25,000 or more. Our repairs—even those requiring board replacement—typically cost R4,000–R8,000, making repair the far more sensible choice. Plus, you keep your familiar machine, keyboard, and existing setup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ZA Support repair offer a warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We provide up to a three-year warranty on parts and labour. If your repaired logic board fails within that period due to our work, we will repair it free of charge. This is one of the strongest warranties in Johannesburg for specialist electronics repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you repair M1 boards damaged by liquid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our liquid damage repair service includes careful cleaning, component-level diagnostics, and targeted repairs. However, the sooner you bring the MacBook in after liquid exposure, the better the outcome. Do not attempt to power it on yourself—bring it straight to us."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the M1 SoC itself is faulty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the M1 chip itself has failed—which is rare—it cannot be replaced in isolation. We would advise you on full logic board replacement options and pricing. We can source genuine or high-quality compatible boards and fit them with a full warranty, typically costing less than Apple's service but more than a minor repair."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
+  'macbook-trackpad-not-clicking-johannesburg': {
+    slug: 'macbook-trackpad-not-clicking-johannesburg',
+    title: `MacBook Trackpad Not Clicking in Johannesburg: Complete Repair Guide`,
+    excerpt: `Your MacBook trackpad stopped responding to clicks, and you're frantically scrolling with two fingers just to navigate. We understand the frustration. In our Hyde Park workshop, we see this problem at.`,
+    date: '29 March 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'ZA Support',
+    content: `# MacBook Trackpad Not Clicking in Johannesburg: Complete Repair Guide
+
+Your MacBook trackpad stopped responding to clicks, and you're frantically scrolling with two fingers just to navigate. We understand the frustration. In our Hyde Park workshop, we see this problem at least three times weekly—and it's rarely as simple as a software glitch. After fifteen years repairing Macs in Johannesburg, we can tell you that trackpad failure falls into predictable categories, most of which require professional diagnosis.
+
+The trackpad is arguably the most-used input device on any MacBook. When it fails, your entire workflow collapses. Some clients attempt DIY fixes from YouTube videos. These sometimes work. Most times, they create additional damage that costs considerably more to repair. We'll walk you through what's actually happening inside your machine and when you need hands-on help.
+
+## Why Your MacBook Trackpad Stopped Clicking
+
+There are four primary culprits we encounter repeatedly. The first is battery swelling. Lithium batteries in MacBooks—particularly models from 2013 to 2017—swell as they age. The battery sits directly beneath the trackpad assembly. As it expands, it pushes upward against the trackpad, lifting it fractionally. This prevents the click mechanism from engaging properly. You might notice the trackpad sits slightly proud of the surrounding aluminium, or you'll feel resistance when pressing at certain angles.
+
+The second cause is worn-out Force Touch sensors. Modern MacBooks use piezoelectric sensors rather than mechanical switches. These sensors detect pressure and simulate a click through haptic feedback. When the capacitive film degrades—often from moisture exposure during load shedding season when Johannesburg experiences humidity spikes—the sensor loses sensitivity. The trackpad feels dead, unresponsive.
+
+Third is liquid damage. Many Johannesburg clients assume a single spill disqualifies their machine. In reality, we've recovered dozens of liquid-damaged MacBooks. But the trackpad's ribbon cable—the delicate flex connector linking the trackpad to your logic board—corrodes quickly. Corrosion creates intermittent contact failure. You might get clicks for thirty seconds, then nothing.
+
+Finally, there's the trackpad cable itself. These ribbons bend repeatedly every time you lift your MacBook from a desk. Over 18 months to three years of normal use, the solder joints at the connector weaken. One careless jostle, and the connection fails completely.
+
+## Battery Swelling: The Most Common Culprit in Johannesburg
+
+We've examined roughly two hundred swollen batteries in the past eighteen months. Lithium cells degrade chemically over time, producing gases that expand the cell. This isn't a defect—it's chemistry. MacBook batteries typically swell after 500 to 800 charge cycles. If you've owned your machine for three years and charged it daily, you're at high risk.
+
+The danger here extends beyond your trackpad. A severely swollen battery can press against your logic board, creating micro-fractures in solder joints. We've seen logic board failures triggered by undetected battery swelling. This is why we always recommend professional diagnosis. Our R599 assessment includes a visual inspection of battery condition, trackpad mechanism, and logic board health. You'll receive a written report before any work begins.
+
+Battery replacement costs between R1,200 and R1,800 depending on your MacBook model. A 13-inch M1 MacBook Air battery runs approximately R1,400. A 16-inch Intel model runs closer to R1,800. Replacement takes three to four hours in our workshop. We include a three-year warranty on battery components and a one-year warranty on labour.
+
+## Force Touch Sensor Recalibration and Replacement
+
+Force Touch sensors malfunction differently than mechanical trackpads. When a sensor fails, software diagnostics sometimes show nothing wrong. The machine boots normally. The trackpad appears responsive to movement. But clicking—genuinely pressing and triggering an action—doesn't work.
+
+We run Apple's native Service Diagnostic tool during assessment. This hidden utility tests Force Touch sensitivity across multiple pressure thresholds. If the sensor reads below Apple's specification (typically 65 grams of force required for activation), recalibration may restore function.
+
+Recalibration involves resetting the sensor's baseline pressure threshold via the logic board's firmware. This takes fifteen minutes and costs R349 at ZA Support. Success rates hover around 70 per cent. If recalibration fails, the sensor requires replacement. The trackpad assembly—sensor, haptic engine, and frame—costs R2,100 to R2,800 installed, with a three-year warranty.
+
+For clients uncertain whether they need recalibration or replacement, our No Fix No Fee promise applies: if we diagnose the problem and you decide not to proceed, you pay nothing beyond the initial R599 assessment fee.
+
+## Liquid Damage and Trackpad Failure
+
+Johannesburg's rainy season creates conditions for accidental spills. We once repaired a MacBook Air after a client knocked over a coffee mug directly onto the keyboard. Everyone assumed the machine was beyond saving.
+
+We were able to save it. Here's what happened: the liquid soaked through the keyboard and dripped onto the trackpad's ribbon connector. Within 48 hours, corrosion began forming on the solder joints. Had the client waited another week, we couldn't have recovered the machine.
+
+Our liquid damage repair process includes ultrasonic cleaning of affected components, replacement of corroded connectors, and logic board inspection for hidden damage. Trackpad-specific liquid damage runs R1,800 to R3,200 depending on how far the corrosion has spread.
+
+We've written extensively about [liquid damage repair](/liquid-damage) on our blog. That guide covers prevention, immediate response steps, and why professional decontamination matters. Load shedding in Johannesburg means many homes experience temperature fluctuations that accelerate corrosion. Professional repairs account for this.
+
+## When to Seek Professional Diagnosis in Hyde Park
+
+You can attempt basic troubleshooting yourself. Restart your MacBook. Run the latest macOS update. Check System Preferences > Accessibility > Trackpad to confirm settings haven't been accidentally modified. Reset the SMC (System Management Controller) by shutting down, then holding Shift + Control + Option + Power for ten seconds.
+
+If these steps fail, contact us. Professional diagnosis clarifies whether the problem is software-based (fixable via remote support) or hardware-based (requiring in-workshop repair). Our technicians have access to service manuals, calibration tools, and replacement parts that simply aren't available to home users.
+
+We're located in Hyde Park, Johannesburg, and offer same-day appointments most weekdays. Booking takes sixty seconds via our website at [zasupport.com/book](https://zasupport.com/book), or ring 064 529 5863 on WhatsApp.
+
+Common related issues include [logic board repair](/logic-board-repair) when battery swelling has caused solder damage, and [keyboard replacement](/logic-board-repair) if liquid has affected both input devices. We handle all of these under one roof.
+
+## Prevention and Long-Term Trackpad Health
+
+Your trackpad will last longest with consistent care. Keep your MacBook away from heat sources. Avoid eating whilst typing—crumbs lodge beneath the trackpad and create intermittent clicking issues. Never force the trackpad downward; the mechanism is engineered for light, controlled pressure.
+
+Most importantly, schedule annual check-ups. Our R599 assessment catches problems early. Battery health, trackpad calibration, and logic board integrity can be verified before failure occurs. This preventative approach saves thousands in emergency repairs.
+
+We offer a three-year warranty on most component replacements and three years on labour for parts we install. This warranty covers defects in workmanship and parts failure—not accidental damage. Full terms are available on our booking page.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does trackpad repair take?
+
+Most trackpad repairs complete within 24 to 48 hours from dropping off your MacBook. Battery replacement and Force Touch recalibration are our quickest repairs. Trackpad assembly replacement takes longer due to the precision required to avoid damaging adjacent components. We'll provide a timeframe once you book your assessment.
+
+### Q: Can a swollen battery permanently damage my MacBook?
+
+Yes, if left unaddressed. A severely swollen battery pushes against the logic board, creating micro-fractures in solder joints over weeks. Once these fractures form, they're permanent. Your machine may fail unexpectedly during critical work. This is why we recommend immediate battery replacement if swelling is detected. Prevention is far cheaper than repairing a damaged logic board.
+
+### Q: Will my warranty be voided if I bring my MacBook to ZA Support?
+
+Not necessarily. If your MacBook remains under AppleCare+, certain repairs we perform might affect your coverage. We always discuss warranty implications before starting work. Many clients' AppleCare policies have expired, making third-party repair the most cost-effective option. Our three-year warranty on replacement components exceeds Apple's standard one-year coverage.
+
+### Q: What's the cost of trackpad replacement in Johannesburg?
+
+Trackpad assembly replacement ranges from R2,100 to R2,800 installed, depending on your MacBook model and whether the trackpad is a standard replacement or includes additional sensors. Battery replacement runs R1,200 to R1,800. Force Touch recalibration costs R349. Our R599 assessment will provide a precise quote for your specific machine.
+
+### Q: Can I use an external trackpad while my MacBook trackpad is broken?
+
+Absolutely. Many clients continue working with a wireless trackpad or mouse whilst awaiting repair. However, the MacBook trackpad's failure usually indicates an underlying hardware problem—swollen battery, liquid damage, or sensor degradation—that will worsen over time. We recommend scheduling repair within two weeks to prevent additional damage.
+
+### Q: How do I know if my trackpad problem is software or hardware?
+
+Run the SMC reset and check System Preferences settings as described above. If those steps don't restore function, the problem is almost certainly hardware. Professional diagnosis via Apple's Service Diagnostic tool will confirm whether you need recalibration (software-fixable) or component replacement (hardware-based). Book your R599 assessment to find out exactly what's wrong with your machine.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does trackpad repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most trackpad repairs complete within 24 to 48 hours from dropping off your MacBook. Battery replacement and Force Touch recalibration are our quickest repairs. Trackpad assembly replacement takes longer due to the precision required to avoid damaging adjacent components. We'll provide a timeframe once you book your assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a swollen battery permanently damage my MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if left unaddressed. A severely swollen battery pushes against the logic board, creating micro-fractures in solder joints over weeks. Once these fractures form, they're permanent. Your machine may fail unexpectedly during critical work. This is why we recommend immediate battery replacement if swelling is detected. Prevention is far cheaper than repairing a damaged logic board."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my warranty be voided if I bring my MacBook to ZA Support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. If your MacBook remains under AppleCare+, certain repairs we perform might affect your coverage. We always discuss warranty implications before starting work. Many clients' AppleCare policies have expired, making third-party repair the most cost-effective option. Our three-year warranty on replacement components exceeds Apple's standard one-year coverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the cost of trackpad replacement in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trackpad assembly replacement ranges from R2,100 to R2,800 installed, depending on your MacBook model and whether the trackpad is a standard replacement or includes additional sensors. Battery replacement runs R1,200 to R1,800. Force Touch recalibration costs R349. Our R599 assessment will provide a precise quote for your specific machine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use an external trackpad while my MacBook trackpad is broken?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Many clients continue working with a wireless trackpad or mouse whilst awaiting repair. However, the MacBook trackpad's failure usually indicates an underlying hardware problem—swollen battery, liquid damage, or sensor degradation—that will worsen over time. We recommend scheduling repair within two weeks to prevent additional damage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my trackpad problem is software or hardware?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Run the SMC reset and check System Preferences settings as described above. If those steps don't restore function, the problem is almost certainly hardware. Professional diagnosis via Apple's Service Diagnostic tool will confirm whether you need recalibration (software-fixable) or component replacement (hardware-based). Book your R599 assessment to find out exactly what's wrong with your machine."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
