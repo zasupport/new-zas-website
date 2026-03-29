@@ -342,15 +342,15 @@ def main():
     # Just verify TypeScript can parse the modified files (~2s vs ~16s full build)
     print(f"\nSyntax check ({len(newly_inserted)} new posts)...")
     result = subprocess.run(
-        ["npx", "tsc", "--noEmit", "--incremental",
-         "src/app/blog/[slug]/page.tsx", "src/app/blog/page.tsx"],
+        ["npx", "tsc", "--noEmit"],
         cwd=WEBSITE_DIR,
         capture_output=True,
         text=True,
-        timeout=30,
+        timeout=60,
     )
     if result.returncode != 0:
-        print(f"SYNTAX CHECK FAILED:\n{result.stderr[-2000:]}")
+        errors = (result.stdout + result.stderr)[-2000:]
+        print(f"SYNTAX CHECK FAILED:\n{errors}")
         # Revert blog files so next run can retry cleanly
         subprocess.run(
             ["git", "checkout", "HEAD", "--",

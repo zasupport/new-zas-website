@@ -77,13 +77,15 @@ function isMaliciousBot(ua: string | null): boolean {
 // ─── Security Headers ───────────────────────────────────────────────────────
 // Single source of truth — replaces both next.config.ts headers() and vercel.json headers.
 
-function buildCsp(nonce: string): string {
+function buildCsp(): string {
+  // No nonce — Next.js App Router injects inline scripts without nonce attributes.
+  // Per CSP Level 2+, if a nonce is present browsers IGNORE 'unsafe-inline',
+  // which breaks React hydration and all interactive components (menus, dropdowns).
   return [
     "default-src 'self'",
-    `script-src 'self' 'unsafe-inline' 'nonce-${nonce}' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com`,
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com",
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com",
-    // img-src: Sanity images proxied via /_next/image — cdn.sanity.io not needed in browser CSP
     "img-src 'self' data: blob: https://www.google-analytics.com https://www.googletagmanager.com",
     "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://api.zasupport.com https://api.indexnow.org https://va.vercel-scripts.com https://vitals.vercel-insights.com",
     "frame-src 'self' https://maps.google.com https://www.google.com",
@@ -96,14 +98,14 @@ function buildCsp(nonce: string): string {
   ].join('; ');
 }
 
-function applySecurityHeaders(response: NextResponse, nonce: string): void {
+function applySecurityHeaders(response: NextResponse): void {
   response.headers.set('Strict-Transport-Security', 'max-age=63072000; includeSubDomains; preload');
   response.headers.set('X-Frame-Options', 'SAMEORIGIN');
   response.headers.set('X-Content-Type-Options', 'nosniff');
   response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
   response.headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
   response.headers.set('X-DNS-Prefetch-Control', 'on');
-  response.headers.set('Content-Security-Policy', buildCsp(nonce));
+  response.headers.set('Content-Security-Policy', buildCsp());
 
   // Strip framework-identifying headers (Vercel/Next.js fingerprints).
   // Note: server + x-vercel-id are injected AFTER middleware by Vercel's edge — strip those via Cloudflare Transform Rules.
@@ -182,16 +184,9 @@ export function middleware(request: NextRequest) {
     }
   }
 
-  // Generate a per-request nonce for CSP
-  const nonce = Buffer.from(crypto.randomUUID()).toString('base64');
+  const response = NextResponse.next();
 
-  // Pass nonce downstream so layout.tsx can attach it to <script> tags
-  const requestHeaders = new Headers(request.headers);
-  requestHeaders.set('x-nonce', nonce);
-
-  const response = NextResponse.next({ request: { headers: requestHeaders } });
-
-  applySecurityHeaders(response, nonce);
+  applySecurityHeaders(response);
 
   return response;
 }
