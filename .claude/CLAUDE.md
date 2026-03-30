@@ -166,3 +166,5 @@ Session start: curl -s "https://api.zasupport.com/api/v1/system/error-inbox?stat
 SEVERITY: critical→fix immediately | high→fix this session | medium→queue | low→log only
 # §188 CLIENT MACHINE APPROVAL → global CLAUDE.md (auto-loaded)
 # §189 RULES SYNC → global CLAUDE.md (auto-loaded)
+# §191 HR ZOHO AUTO-EXCHANGE → global CLAUDE.md (auto-loaded)
+# §192 HR PREFIX = HARD RULE → global CLAUDE.md (auto-loaded)
