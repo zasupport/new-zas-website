@@ -187,13 +187,13 @@ export default function MacBookScreenPage() {
               <a
                 href={buildWhatsAppUrl('MBR-SCR', 'macbook-repair')}
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all text-lg"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5" /> WhatsApp Us
               </a>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
                 className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" /> {CONTACT.phone}
               </a>
               <Link
@@ -595,13 +595,13 @@ export default function MacBookScreenPage() {
               <a
                 href={buildWhatsAppUrl('MBR-SCR', 'macbook-repair')}
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="w-5 h-5" /> WhatsApp Us Now
               </a>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" /> {CONTACT.phone}
               </a>
             </div>

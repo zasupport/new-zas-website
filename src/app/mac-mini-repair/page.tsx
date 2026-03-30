@@ -178,7 +178,7 @@ export default function MacMiniRepairPage() {
             <a
               href={`tel:${CONTACT.phoneTel}`}
               className="inline-flex items-center gap-2 border border-slate-500 hover:border-green-400 text-slate-300 hover:text-green-400 px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
+             target="_blank" rel="noopener noreferrer">
               Call {CONTACT.phone}
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -426,7 +426,7 @@ export default function MacMiniRepairPage() {
             <a
               href={`tel:${CONTACT.phoneTel}`}
               className="inline-flex items-center gap-2 border border-slate-600 hover:border-green-400 text-slate-300 hover:text-green-400 px-8 py-4 rounded-xl font-semibold transition-colors"
-            >
+             target="_blank" rel="noopener noreferrer">
               Call {CONTACT.phone}
               <ArrowRight className="w-5 h-5" />
             </a>

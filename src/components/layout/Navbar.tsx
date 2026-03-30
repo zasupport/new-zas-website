@@ -114,6 +114,8 @@ export default function Navbar() {
               href={`tel:${logoVariant.tel}`}
               onClick={() => trackPhoneTap('navbar-desktop', 'NAV-DESK')}
               data-ref="NAV-DESK"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-[#E8F4F1] hover:text-[#0FEA7A] transition-colors text-sm font-medium"
             >
               <Phone className="w-4 h-4 text-[#0FEA7A]" />
@@ -244,6 +246,8 @@ export default function Navbar() {
                 href={`tel:${logoVariant.tel}`}
                 onClick={() => { trackPhoneTap('navbar-mobile', 'NAV-MOB'); setMobileOpen(false); }}
                 data-ref="NAV-MOB"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#7A9E98] px-6 py-4 rounded-xl font-semibold text-lg hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
                 <Phone className="w-5 h-5" />

@@ -104,7 +104,7 @@ export default function ContactPage() {
               <a
                 href={`tel:${CONTACT.phoneTel}`}
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <a
@@ -149,7 +149,7 @@ export default function ContactPage() {
                       <a
                         href={`tel:${CONTACT.phoneTel}`}
                         className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-6 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
-                      >
+                       target="_blank" rel="noopener noreferrer">
                         <Phone className="w-5 h-5" /> Call {CONTACT.phone}
                       </a>
                       <a

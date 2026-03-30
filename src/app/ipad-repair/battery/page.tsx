@@ -231,7 +231,7 @@ export default function iPadBatteryPage() {
               <a
                 href={`tel:${CONTACT.phoneTel}`}
                 className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <Link
@@ -425,7 +425,7 @@ export default function iPadBatteryPage() {
               <a
                 href={`tel:${CONTACT.phoneTel}`}
                 className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
             </div>

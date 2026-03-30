@@ -345,7 +345,7 @@ export default function GovernmentPage() {
             <a
               href={buildWhatsAppUrl('GOV-CSD', 'managed-services')}
               className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] font-semibold px-6 py-3 rounded-lg hover:brightness-110 transition"
-            >
+             target="_blank" rel="noopener noreferrer">
               Request CSD &amp; BEE Documents
             </a>
           </div>
@@ -399,7 +399,7 @@ export default function GovernmentPage() {
               <a
                 href="tel:+27635295863"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" /> Call 063 529 5863
               </a>
               <a

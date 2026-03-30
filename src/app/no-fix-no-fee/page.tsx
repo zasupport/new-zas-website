@@ -225,7 +225,7 @@ export default function AssessmentProcessPage() {
                 href="tel:+27790539964"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-base transition-all hover:opacity-80"
                 style={{ background: 'rgba(255,255,255,0.06)', color: '#E8F4F1', border: '1px solid rgba(255,255,255,0.12)' }}
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" />
                 079 053 9964
               </a>
@@ -566,7 +566,7 @@ export default function AssessmentProcessPage() {
                   href="tel:+27790539964"
                   className="flex items-center justify-center gap-2 w-full py-3 mt-3 rounded-xl font-medium text-sm transition-all hover:opacity-80"
                   style={{ background: 'rgba(255,255,255,0.05)', color: '#E8F4F1', border: '1px solid rgba(255,255,255,0.1)' }}
-                >
+                 target="_blank" rel="noopener noreferrer">
                   <Phone className="w-4 h-4" />
                   Call 079 053 9964
                 </a>

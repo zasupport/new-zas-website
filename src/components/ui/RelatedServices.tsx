@@ -56,7 +56,7 @@ export default function RelatedServices({ heading = 'Related Services', services
               key={svc.href}
               href={svc.href}
               className="group flex flex-col gap-1 p-4 rounded-xl border border-[#27504D]/30 hover:border-[#0FEA7A]/50 bg-[#111C1A]/60 hover:bg-[#0FEA7A]/5 transition-all"
-            >
+             target="_blank" rel="noopener noreferrer">
               <span className="flex items-center gap-1 text-sm font-semibold text-[#E8F4F1] group-hover:text-[#0FEA7A] transition-colors">
                 {svc.title}
                 <ArrowRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />

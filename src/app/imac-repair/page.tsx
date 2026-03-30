@@ -150,7 +150,7 @@ export default function IMacRepairPage() {
             <a
               href={`tel:${CONTACT.phone}`}
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
+             target="_blank" rel="noopener noreferrer">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
@@ -342,7 +342,7 @@ export default function IMacRepairPage() {
             <a
               href={`tel:${CONTACT.phone}`}
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold transition-colors"
-            >
+             target="_blank" rel="noopener noreferrer">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>

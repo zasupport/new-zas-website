@@ -128,7 +128,7 @@ export default function Footer() {
                   href={`tel:${CONTACT.phoneTel}`}
                   data-ref="FOOTER"
                   className="flex items-start gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors group"
-                >
+                 target="_blank" rel="noopener noreferrer">
                   <Phone className="w-4 h-4 text-[#0FEA7A] mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" />
                   <div>
                     <span className="text-sm block">{CONTACT.phone}</span>
@@ -140,7 +140,7 @@ export default function Footer() {
                 <a
                   href={`mailto:${CONTACT.email}`}
                   className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors"
-                >
+                 target="_blank" rel="noopener noreferrer">
                   <Mail className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   <span className="text-sm">{CONTACT.email}</span>
                 </a>

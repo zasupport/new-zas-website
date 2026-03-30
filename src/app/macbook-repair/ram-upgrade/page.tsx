@@ -199,7 +199,7 @@ export default function MacBookRAMUpgradePage() {
             <a
               href={buildWhatsAppUrl('MBR-RAM', 'macbook-repair')}
               className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0dd96d] text-[#0A1A18] px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
+             target="_blank" rel="noopener noreferrer">
               WhatsApp Us
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -213,7 +213,7 @@ export default function MacBookRAMUpgradePage() {
             <a
               href={`tel:${CONTACT.phoneTel}`}
               className="inline-flex items-center gap-2 border border-[#27504D] hover:border-[#0FEA7A] text-[#7A9E98] hover:text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-            >
+             target="_blank" rel="noopener noreferrer">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
@@ -352,7 +352,7 @@ export default function MacBookRAMUpgradePage() {
             <a
               href={`tel:${CONTACT.phoneTel}`}
               className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0dd96d] text-[#0A1A18] px-8 py-4 rounded-xl font-semibold transition-colors"
-            >
+             target="_blank" rel="noopener noreferrer">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>

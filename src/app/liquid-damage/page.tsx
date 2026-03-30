@@ -235,7 +235,7 @@ export default function LiquidDamagePage() {
               <a
                 href={`tel:${CONTACT.phoneTel}`}
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
-              >
+               target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5" />
                 Call {CONTACT.phone}
               </a>
@@ -482,7 +482,7 @@ export default function LiquidDamagePage() {
             <a
               href={`tel:${CONTACT.phoneTel}`}
               className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
-            >
+             target="_blank" rel="noopener noreferrer">
               <Phone className="w-5 h-5" />
               Call {CONTACT.phone}
             </a>
