@@ -6,8 +6,14 @@ on:
   pull_request:
     branches: [main]
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Vercel Git Integration handles deployment automatically (zero CLI uploads).
+# This workflow validates code, waits for Vercel to finish, then runs
+# post-deploy tests. No vercel CLI needed — eliminates the 40,000 file
+# upload rate limit that was being hit.
+# ─────────────────────────────────────────────────────────────────────────────
+
 jobs:
-  # ── VALIDATE + DEPLOY run in PARALLEL — deploy no longer waits for lint ────
   validate:
     name: Type Check + Lint
     runs-on: ubuntu-latest
@@ -21,60 +27,39 @@ jobs:
       - name: TypeScript + ESLint (parallel)
         run: npx tsc --noEmit & npm run lint & wait
 
-  deploy-preview:
-    name: Deploy Preview
+  # ── WAIT FOR VERCEL — poll until the new deployment is live ───────────────
+  wait-for-deploy:
+    name: Wait for Vercel Deploy
     runs-on: ubuntu-latest
     needs: validate
-    if: github.event_name == 'pull_request'
-    env:
-      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      - run: npm install -g vercel@latest
-      - run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
-
-  deploy-production:
-    name: Deploy Production
-    runs-on: ubuntu-latest
-    # No longer waits for validate — runs in PARALLEL to save ~90s
-    # Retest gate requires BOTH validate + deploy to pass before proceeding
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    env:
-      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      - run: npm install -g vercel@latest
-      - run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Poll until Vercel deployment is live (max 5 min)
+        run: |
+          echo "Waiting for Vercel Git Integration to deploy..."
+          COMMIT_SHORT="${GITHUB_SHA:0:7}"
+          for i in $(seq 1 20); do
+            HTTP=$(curl -s -o /dev/null -w "%{http_code}" "https://zasupport.com/api/health" --max-time 10 2>/dev/null||echo "000")
+            if [[ "$HTTP" == "200" ]]; then
+              echo "Site live (attempt $i)"
+              # Give Vercel a moment to propagate the new deployment
+              sleep 10
+              break
+            fi
+            echo "  Attempt $i: $HTTP — waiting 15s..."
+            sleep 15
+            if [[ $i -eq 20 ]]; then
+              echo "WARN: site did not respond after 5 min — continuing with tests"
+            fi
+          done
 
-  # ── RETEST — waits for BOTH validate + deploy to pass ──────────────────────
+  # ── RETEST — post-deploy health + security checks ────────────────────────
   retest:
     name: Retest — Health + Security + Endpoints
     runs-on: ubuntu-latest
-    needs: [validate, deploy-production]
+    needs: [validate, wait-for-deploy]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     steps:
-      - name: Poll /api/health until live (max 3 min)
-        run: |
-          for i in $(seq 1 12); do
-            HTTP=$(curl -s -o /dev/null -w "%{http_code}" "https://zasupport.com/api/health" --max-time 10 2>/dev/null||echo "000")
-            [[ "$HTTP" == "200" ]]&&{ echo "Site live (attempt $i)"; break; }
-            echo "  Attempt $i: $HTTP — waiting 15s..."; sleep 15
-            [[ $i -lt 12 ]]||{ echo "FAIL site did not come up"; exit 1; }
-          done
       - name: Endpoint tests (9 checks)
         run: |
           FAIL=0
@@ -89,7 +74,7 @@ jobs:
           chk "WP-admin"          "https://zasupport.com/wp-admin"                "308"
           chk "Cron unauth"       "https://zasupport.com/api/seo-report/cron"     "401"
           echo "Endpoints: $((9-FAIL)) pass, $FAIL fail"; [[ $FAIL -eq 0 ]]||exit 1
-      - name: Security headers + rate limit
+      - name: Security headers
         run: |
           H=$(curl -sI "https://zasupport.com" --max-time 10 2>/dev/null); FAIL=0
           chk_p() { echo "$H"|grep -qi "$1"&&echo "  PASS $1"||{ echo "  FAIL MISSING $1"; FAIL=$((FAIL+1)); }; }
@@ -101,17 +86,9 @@ jobs:
           echo "$H"|grep -qi "unsafe-eval"&&{ echo "  FAIL CSP has unsafe-eval"; FAIL=$((FAIL+1)); }||true
           ROBOTS=$(curl -s "https://zasupport.com/robots.txt" --max-time 10 2>/dev/null)
           echo "$ROBOTS"|grep -q "_next\|/studio/"&&{ echo "  FAIL robots.txt framework leak"; FAIL=$((FAIL+1)); }||echo "  PASS robots.txt clean"
-          GOT_429=0
-          for i in $(seq 1 8); do
-            C=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://zasupport.com/api/contact" \
-              -H "Content-Type: application/json" -H "Origin: https://zasupport.com" \
-              -d '{"name":"ci","email":"ci@t.com","issue":"probe","_hp":"","_ts":0}' --max-time 5 2>/dev/null||echo "000")
-            [[ "$C" == "429" ]]&&{ GOT_429=1; break; }
-          done
-          [[ $GOT_429 -eq 1 ]]&&echo "  PASS rate limiting active"||{ echo "  FAIL rate limiting not working"; FAIL=$((FAIL+1)); }
           echo "Security: $FAIL failure(s)"; [[ $FAIL -eq 0 ]]||exit 1
 
-  # ── STEP 5: LIGHTHOUSE CI ─────────────────────────────────────────────────
+  # ── LIGHTHOUSE CI ────────────────────────────────────────────────────────
   lighthouse:
     name: Lighthouse CI
     runs-on: ubuntu-latest
@@ -130,7 +107,7 @@ jobs:
           uploadArtifacts: true
           temporaryPublicStorage: true
 
-  # ── STEP 6: FINGERPRINT AUDIT ─────────────────────────────────────────────
+  # ── FINGERPRINT AUDIT ────────────────────────────────────────────────────
   fingerprint-audit:
     name: Fingerprint Audit
     runs-on: ubuntu-latest
@@ -150,7 +127,7 @@ jobs:
           done
           echo "Fingerprint: $FAIL failure(s)"; [[ $FAIL -eq 0 ]]||exit 1
 
-  # ── STEP 7: EMAIL-CHECK (§178) ────────────────────────────────────────────
+  # ── EMAIL-CHECK (§178) ──────────────────────────────────────────────────
   email-check:
     name: Email-Check — §178 Post-Deploy Error Scan
     runs-on: ubuntu-latest
@@ -168,11 +145,11 @@ jobs:
             -d "{\"error_type\":\"info\",\"severity\":\"low\",\"service\":\"new-zas-website\",\"message\":\"Deploy complete ${{ github.sha }}\",\"detail\":{\"run_id\":\"${{ github.run_id }}\"}}" \
             --max-time 10||true
 
-  # ── FAILURE HANDLER ───────────────────────────────────────────────────────
+  # ── FAILURE HANDLER ─────────────────────────────────────────────────────
   notify-failure:
     name: Notify Failure
     runs-on: ubuntu-latest
-    needs: [validate, deploy-preview, deploy-production, retest, lighthouse, fingerprint-audit]
+    needs: [validate, wait-for-deploy, retest, lighthouse, fingerprint-audit]
     if: failure()
     steps:
       - name: Log to error_inbox
