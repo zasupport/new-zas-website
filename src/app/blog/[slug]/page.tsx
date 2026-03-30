@@ -15,6 +15,84 @@ const posts: Record<string, {
   author: string;
   content: string;
 }> = {
+  'iphone-will-still-exist-50-years-from-now-says-apple-an-south-africa-2026': {
+    slug: 'iphone-will-still-exist-50-years-from-now-says-apple-an-south-africa-2026',
+    title: 'Apple\'s 50-Year Vision: What Device Longevity Means for Mac Owners in South Africa 2026',
+    excerpt: 'Apple's leadership confirms iPhones will exist decades from now. Here's what that commitment to long-term device support means for Mac users seeking affordable repairs in Johannesburg.',
+    date: '30/03/2026',
+    category: 'Apple News',
+    readTime: '5 min read',
+    author: 'Mary',
+    content: `In a rare moment of candour, Apple's marketing chief Greg Joswiak recently stated something refreshingly honest: the iPhone will almost certainly still exist 50 years from now. More significantly, he noted that Apple isn't racing to hire thousands of AI executives despite the industry frenzy. For Mac owners in Johannesburg facing R15,000+ repair quotes from the Apple Store, this longer-term thinking has real implications.
+
+## What Apple's 50-Year Commitment Actually Means
+
+Joswiak's statement wasn't empty marketing speak. He acknowledged that predicting technology five decades out is difficult, but Apple's track record suggests a company building for durability, not planned obsolescence. This philosophy extends beyond the iPhone to the entire Apple ecosystem—including your MacBook, iMac, or Mac mini.
+
+In South Africa, where device replacement costs hit differently, this matters. A new MacBook Air starts around R15,000–R20,000. A Mac Studio easily climbs to R30,000+. When Apple designs products expecting them to function for decades, your repair investment becomes protection.
+
+## Why SA's Repair Market Validates Apple's Vision
+
+Compare Apple's cautious AI hiring approach to competitors chasing every new trend. Apple is building sustainable products—literally. Your Mac is designed to be repaired: logic boards are modular, components are replaceable, and software updates span seven to ten years minimum.
+
+We've seen this play out at ZA Support. Logic board failures that should mean a complete R15,000+ replacement at Mac Shack (or R40,000+ at the Apple Store) become R2,499 repairs. A liquid damage incident that others quote at R8,000 costs R1,999 here. These savings exist *because* Apple designed these Macs to be fixed.
+
+## The No-Hype, Real-Product Strategy
+
+While everyone else announces AI features monthly, Apple is hiring conservatively. Greg Joswiak's team focuses on products that last. A MacBook designed to function in 2074 can't rely on disposable AI novelties. It needs quality engineering, repairability, and honest software support.
+
+For Johannesburg users, this translates to:
+
+**Longer device lifespan.** Your 2019 MacBook still runs current software. Repairs keep it competitive.
+
+**Lower total cost of ownership.** A R2,499 logic board repair beats a R18,000 new laptop.
+
+**Parts availability.** Durable design means components stay available longer.
+
+**Resale value.** A well-maintained Mac still sells. Disposable devices don't.
+
+## Real Repair Impact in South Africa
+
+In load-shedding era Johannesburg, Mac durability hits another level. Unexpected power surges corrupt components regularly. Rather than accepting "it's too expensive to fix," South African users increasingly call local specialists.
+
+Here's what we've observed: a Health Check (R599) catches issues before they escalate. Liquid damage (R1,999) beats "time for a new device." Logic board repairs (from R2,499) restore functionality for years more. These aren't premium services—they're basic device maintenance that Apple's design enables.
+
+Mac Shack charges R4,499+ for board-level work, assuming they'll replace rather than repair. Apple Store estimates often exceed R70,000 for integrated repairs. The gap exists because local technicians actually fix things.
+
+## What This Means for Your Current Mac
+
+If you own a MacBook, iMac, or Mac mini purchased in the last decade, Joswiak's statement is your permission slip to invest in it. That 2017 MacBook Pro isn't old—it's designed to last until 2047. A logic board repair at R2,499 extends that timeline significantly.
+
+Across Sandton, Rosebank, Midrand, Randburg, Fourways, and Bryanston, the calculus is the same: repair beats replacement.
+
+## Frequently Asked Questions
+
+**Q: How long do Macs actually last?**
+A: Modern Macs receive software updates for 7–10 years. Hardware typically functions 10–15 years with proper maintenance. A R599 Health Check identifies issues early.
+
+**Q: Is logic board repair worth it?**
+A: Absolutely. At R2,499, it's a fraction of replacement cost. Your Mac works another 5+ years.
+
+**Q: What about liquid damage?**
+A: At R1,999, liquid damage repair is manageable. Delaying it risks permanent failure. Contact us immediately after spillage.
+
+**Q: Can I repair my Mac myself?**
+A: Modern Macs are sealed by design. Professional repair preserves warranty and functionality. We've serviced hundreds in Hyde Park.
+
+**Q: How do I know if my Mac needs repair?**
+A: Unexpected crashes, overheating, kernel panics, or unexpected shutdowns signal logic board issues. A diagnostic Health Check costs R599 and reveals exactly what's wrong.
+
+**Q: Does repair affect warranty?**
+A: Our repairs carry 12-month warranty on all work. Your device regains reliability.
+
+## The Local Advantage
+
+ZA Support operates in Hyde Park, serving all of greater Johannesburg. We've invested in the tools and expertise Apple designed these devices to receive. When your Mac needs attention—whether it's a preventative Health Check (R599), liquid damage recovery (R1,999), or logic board restoration (from R2,499)—you're covered with local, professional support backed by real experience.
+
+Apple's 50-year vision starts now. Maintain your device. Repair before replacing. Your wallet—and the planet—will thank you.
+
+**Need help with your Mac? WhatsApp us today.**`
+  },
 'ipados-26-5-beta-1-now-available-plus-tvos-26-5-watchos-south-africa-2026': {
   slug: 'ipados-26-5-beta-1-now-available-plus-tvos-26-5-watchos-south-africa-2026',
   title: 'iPadOS 26.5 Beta 1 Now Available: What South African Users Need to Know | ZA Support',
