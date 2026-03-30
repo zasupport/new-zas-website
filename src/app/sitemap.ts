@@ -210,6 +210,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/about`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/services`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/privacy`, lastModified: now, changeFrequency: 'yearly', priority: 0.4 },
+    { url: `${base}/terms`, lastModified: now, changeFrequency: 'yearly', priority: 0.4 },
 
     // Blog
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
