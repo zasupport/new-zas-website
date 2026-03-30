@@ -113,6 +113,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/screen-repair/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/macbook-pro-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/screen-repair/macbook-pro-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/screen-repair/macbook-pro-13-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/macbook-air`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/imac`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/screen-repair/iphone`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
