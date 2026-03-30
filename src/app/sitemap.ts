@@ -97,6 +97,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/battery-replacement/randburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/kempton-park`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
+    // Screen repair model pages
+    { url: `${base}/screen-repair/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/screen-repair/macbook-air`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/screen-repair/imac`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/screen-repair/iphone`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+
     // Screen repair suburb pages
     { url: `${base}/screen-repair/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
