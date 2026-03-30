@@ -99,6 +99,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/battery-replacement/macbook-air`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/battery-replacement/imac`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/iphone`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/battery-replacement/mac-mini`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // Battery replacement suburb pages
     { url: `${base}/battery-replacement/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -327,5 +328,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/battery-replacement/macbook-air-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/macbook-air-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+
+    // Troubleshooting guides (HowTo schema — featured snippet targets)
+    { url: `${base}/guides`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/guides/macbook-not-turning-on`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/guides/macbook-water-damage-what-to-do`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/guides/macbook-not-charging`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/guides/macbook-overheating-fix`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/guides/macbook-screen-flickering`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/guides/how-to-check-macbook-battery-health`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/guides/how-to-recover-data-from-dead-macbook`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/guides/macbook-running-slow`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
   ];
 }
