@@ -187,3 +187,7 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 
 # §209 GOOGLE FOLDER (HARD — 30/03/2026): ALL Google/SEO/ranking/analytics content → ~/Desktop/Claude/Google/ | Sub-folders: SEO|SEO-Intelligence|Lighthouse|PageSpeed|Analytics|Search-Console|Nightly-Tests|Competitor-Intel | ∅ create SEO folders outside Google/
 # §210 NO SALES WORDING (HARD — 30/03/2026): ∅ motivational/inspirational taglines in docs/PDFs/emails/proposals | ∅ "deserves" ∅ "works as hard as" | factual + professional tone only
+
+# §211 OVERNIGHT EXECUTION VERIFICATION (HARD — 30/03/2026): EVERY automated task MUST verify output — ∅ exit 0 without proof | file tasks: [ -s ] + validate | git: diff --stat non-empty | API: parse body | blog/page: tsc pass or REVERT | pipeline: explicit PASS/FAIL verdict | ∅ Haiku claims success without deliverable
+# §212 LAUNCHAGENT HEALTH (HARD — 30/03/2026): ALL 34 agents loaded | session start: launchctl list | grep -c zasupport = 34 | < 34 = reload before work | exit 127 = fix path | exit 1 = fix script
+# §213 BLOG PIPELINE 10/DAY (HARD — 30/03/2026): dynamic keyword-gap → deduplicate → generate → insert → deploy | 10/day target | ∅ static topic lists | ∅ exit 0 with 0 posts | each: 700-950 words, ≥6 FAQs, FAQPage schema
