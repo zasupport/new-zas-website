@@ -308,5 +308,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-charging-port-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pro-m1-logic-board-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-trackpad-not-clicking-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+
+    // Complete service/suburb/model pages — auto-synced 30/03/2026
+    { url: `${base}/battery-replacement/macbook-pro-13-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/macbook-pro-14-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/macbook-pro-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/macbook-pro-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/mac-mini`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/screen-repair/macbook-air-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/screen-repair/macbook-air-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/screen-repair/macbook-pro-14-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/screen-repair/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
   ];
 }
