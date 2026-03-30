@@ -4,6 +4,26 @@ import { escapeHtml, isValidEmail, clampLength, LIMITS } from '@/lib/sanitise';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+// ─── Bot content detection ─────────────────────────────────────────────────
+// Names/issues shorter than real human input, or known bot probe patterns
+const BOT_NAME_PATTERNS = [/^rltest$/i, /^ci$/i, /^test$/i, /^bot$/i, /^asdf$/i, /^aaa+$/i, /^x+$/i, /^admin$/i, /^user$/i, /^null$/i];
+const BOT_EMAIL_DOMAINS = ['example.com', 'test.com', 'mailinator.com', 'guerrillamail.com', 'tempmail.com', 'throwaway.email', 'yopmail.com', 'sharklasers.com', 'guerrillamailblock.com', 'grr.la'];
+const BOT_ISSUE_PATTERNS = [/^test$/i, /^testing$/i, /^asdf/i, /^(a|x){3,}$/i, /^\.+$/, /^hello$/i, /^\d+$/];
+
+function looksLikeBot(name: string, email: string, issue: string): boolean {
+  // Name matches known bot probe patterns
+  if (BOT_NAME_PATTERNS.some(p => p.test(name.trim()))) return true;
+  // Disposable/test email domain
+  const domain = email.split('@')[1]?.toLowerCase() ?? '';
+  if (BOT_EMAIL_DOMAINS.includes(domain)) return true;
+  // Issue body is trivially short or matches bot patterns
+  if (issue.trim().length < 10) return true;
+  if (BOT_ISSUE_PATTERNS.some(p => p.test(issue.trim()))) return true;
+  // Name is a single character
+  if (name.trim().length < 2) return true;
+  return false;
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -11,7 +31,7 @@ export async function POST(request: NextRequest) {
 
     // Honeypot — bots fill hidden fields, humans don't
     if (_hp) {
-      return NextResponse.json({ success: true }); // Silent discard
+      return NextResponse.json({ success: true }); // Silent discard — 200 so bots think it worked
     }
 
     // Time gate — legitimate users take >3 seconds to fill a form
@@ -22,6 +42,12 @@ export async function POST(request: NextRequest) {
     // Required fields
     if (!name || !email || !issue) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+    }
+
+    // Content-based bot detection — silently discard, return 200 so bot doesn't retry
+    if (looksLikeBot(String(name), String(email), String(issue))) {
+      console.log(`[contact] bot-filtered: name="${String(name).slice(0, 20)}" email="${String(email).slice(0, 30)}"`);
+      return NextResponse.json({ success: true });
     }
 
     // Type coercion to string
