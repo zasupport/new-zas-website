@@ -86,7 +86,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Liquid damage model-specific pages
     { url: `${base}/liquid-damage/macbook-pro-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-pro-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-pro-13-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-pro-14-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-air-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-air-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/mac-mini`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
     // Battery replacement model pages
     { url: `${base}/battery-replacement/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
@@ -105,12 +111,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Screen repair model pages
     { url: `${base}/screen-repair/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/screen-repair/macbook-pro-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/screen-repair/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/macbook-air`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/imac`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/screen-repair/iphone`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
     // Screen repair suburb pages
     { url: `${base}/screen-repair/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/rosebank`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/bryanston`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/fourways`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/midrand`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/randburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/kempton-park`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/pretoria`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/centurion`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/morningside`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/rivonia`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/sunninghill`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/paulshof`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/northcliff`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/houghton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/screen-repair/parkhurst`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
     // iPhone screen repair suburb pages
     { url: `${base}/iphone-repair/screen/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
