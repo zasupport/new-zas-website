@@ -398,8 +398,7 @@ export default function GovernmentPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:+27635295863"
-                className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
-               target="_blank" rel="noopener noreferrer">
+                className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call 063 529 5863
               </a>
               <a

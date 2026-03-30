@@ -65,7 +65,7 @@ export default function ManagedServicesPage() {
               Monitoring, support, JAMF MDM, and Microsoft 365 from Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" target="_blank" rel="noopener noreferrer">
+              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
               <Link href="/contact" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
@@ -136,7 +136,7 @@ export default function ManagedServicesPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Ready for Proactive IT Management?</h2>
             <p className="text-[#7A9E98] mb-2">New managed services clients receive a <strong className="text-[#E8F4F1]">complimentary IT assessment</strong>, we audit your environment, identify risks, and recommend the right plan. No obligation.</p>
             <p className="text-[#7A9E98] text-sm mb-6">Mac, Windows, or mixed environments. Hyde Park, Johannesburg.</p>
-            <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" target="_blank" rel="noopener noreferrer">
+            <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>
           </div>

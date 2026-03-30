@@ -354,8 +354,7 @@ export default function BookPage() {
             </a>
             <a
               href="tel:+27645295863"
-              className="glass-card p-4 flex items-center gap-3 hover:border-[rgba(15,234,122,0.3)] transition-colors"
-             target="_blank" rel="noopener noreferrer">
+              className="glass-card p-4 flex items-center gap-3 hover:border-[rgba(15,234,122,0.3)] transition-colors">
               <Phone className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
               <div>
                 <p className="text-[#E8F4F1] text-sm font-semibold">064 529 5863</p>

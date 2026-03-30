@@ -250,8 +250,7 @@ export default function ScreenRepairPage() {
                 </a>
                 <a
                   href={`tel:${CONTACT.phoneTel}`}
-                  className="inline-flex items-center justify-center gap-2 border-2 border-[#27504D] text-[#E8F4F1] font-bold px-8 py-4 rounded-xl hover:border-[#0FEA7A] hover:text-[#0FEA7A] transition-colors text-lg"
-                 target="_blank" rel="noopener noreferrer">
+                  className="inline-flex items-center justify-center gap-2 border-2 border-[#27504D] text-[#E8F4F1] font-bold px-8 py-4 rounded-xl hover:border-[#0FEA7A] hover:text-[#0FEA7A] transition-colors text-lg">
                   <Phone className="w-5 h-5" />
                   {CONTACT.phone}
                 </a>

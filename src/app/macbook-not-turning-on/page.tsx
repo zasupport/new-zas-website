@@ -408,8 +408,7 @@ export default function MacBookNotTurningOnPage() {
               </a>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
-                className="inline-flex items-center justify-center gap-2 border border-[rgba(255,255,255,0.12)] text-[#E8F4F1] font-semibold px-8 py-4 rounded-xl text-lg hover:border-[#0FEA7A]/40 hover:text-[#0FEA7A] transition-all"
-               target="_blank" rel="noopener noreferrer">
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(255,255,255,0.12)] text-[#E8F4F1] font-semibold px-8 py-4 rounded-xl text-lg hover:border-[#0FEA7A]/40 hover:text-[#0FEA7A] transition-all">
                 <Phone className="w-5 h-5" />
                 {CONTACT.phone}
               </a>
@@ -765,8 +764,7 @@ export default function MacBookNotTurningOnPage() {
               </a>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
-                className="inline-flex items-center justify-center gap-2 border border-[rgba(255,255,255,0.12)] text-[#E8F4F1] font-semibold px-8 py-4 rounded-xl text-lg hover:border-[#0FEA7A]/40 hover:text-[#0FEA7A] transition-all"
-               target="_blank" rel="noopener noreferrer">
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(255,255,255,0.12)] text-[#E8F4F1] font-semibold px-8 py-4 rounded-xl text-lg hover:border-[#0FEA7A]/40 hover:text-[#0FEA7A] transition-all">
                 <Phone className="w-5 h-5" />
                 Call {CONTACT.phone}
               </a>

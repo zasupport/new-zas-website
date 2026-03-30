@@ -205,8 +205,7 @@ export default function BatteryReplacementPage() {
                 </a>
                 <a
                   href={`tel:${CONTACT.phoneTel}`}
-                  className="inline-flex items-center justify-center gap-2 border border-[#27504D] text-[#E8F4F1] font-semibold px-8 py-4 rounded-lg hover:bg-[#27504D]/20 transition-colors text-lg"
-                 target="_blank" rel="noopener noreferrer">
+                  className="inline-flex items-center justify-center gap-2 border border-[#27504D] text-[#E8F4F1] font-semibold px-8 py-4 rounded-lg hover:bg-[#27504D]/20 transition-colors text-lg">
                   <Phone className="w-5 h-5" />
                   {CONTACT.phone}
                 </a>
@@ -533,8 +532,7 @@ export default function BatteryReplacementPage() {
               </a>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
-                className="inline-flex items-center justify-center gap-2 border border-[#27504D] text-[#E8F4F1] font-semibold px-10 py-4 rounded-lg hover:bg-[#27504D]/20 transition-colors text-lg"
-               target="_blank" rel="noopener noreferrer">
+                className="inline-flex items-center justify-center gap-2 border border-[#27504D] text-[#E8F4F1] font-semibold px-10 py-4 rounded-lg hover:bg-[#27504D]/20 transition-colors text-lg">
                 <Phone className="w-5 h-5" />
                 Call {CONTACT.phone}
               </a>

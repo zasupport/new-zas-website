@@ -120,8 +120,7 @@ export default function IMacSSDUpgradePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
-             target="_blank" rel="noopener noreferrer">
+              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
@@ -275,8 +274,7 @@ export default function IMacSSDUpgradePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold transition-colors"
-             target="_blank" rel="noopener noreferrer">
+              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold transition-colors">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
