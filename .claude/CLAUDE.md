@@ -146,6 +146,14 @@ AFTER ANY change: run full infrastructure e2e test SAME response:
 (6) curl changed page | grep -c '"@type"' → schemas present
 ∅ "deploy queued" and stop | ∅ assume it works
 
+## §189 DAILY CONTENT PIPELINE (HARD — 30/03/2026)
+# 18:00 SAST daily: ~/bin/za-daily-content-pipeline.sh → builds up to 10 high-value SEO pages
+# LaunchAgent: com.zasupport.dailycontent | Log: ~/.za-daily-content.log
+# Priority: model pages > suburb pages | logic-board > liquid-damage > screen-repair > battery
+# Each page: ServiceSchema+FAQPage+BreadcrumbList | 800+ words (model) | 600+ words (suburb)
+# Google safe limit: 10 quality pages/day for small business domain | ∅ thin/duplicate content
+# Auto: audit missing → build via claude --print → tsc → sitemap update → commit → deploy.sh
+
 ## §MONITOR-ALERTS (HARD — 26/03/2026)
 # VERCEL INFRA HEADERS: x-nextjs-prerender | x-nextjs-stale-time | x-nextjs-cache | server:Vercel
 #   x-vercel-id | x-vercel-cache — injected by Vercel edge, CANNOT be removed in code
@@ -156,3 +164,5 @@ AFTER ANY change: run full infrastructure e2e test SAME response:
 → error_inbox DB table | /api/v1/system/error-inbox
 Session start: curl -s "https://api.zasupport.com/api/v1/system/error-inbox?status=unread&limit=50" → classify → fix
 SEVERITY: critical→fix immediately | high→fix this session | medium→queue | low→log only
+# §188 CLIENT MACHINE APPROVAL → global CLAUDE.md (auto-loaded)
+# §189 RULES SYNC → global CLAUDE.md (auto-loaded)
