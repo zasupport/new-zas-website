@@ -320,5 +320,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/screen-repair/macbook-air-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/screen-repair/macbook-pro-14-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/screen-repair/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/battery-replacement/macbook-air-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/macbook-air-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
 }
