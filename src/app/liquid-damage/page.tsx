@@ -172,11 +172,6 @@ const liquidDamageReviewSchema = {
       datePublished: '2026-02',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       reviewBody: 'Spilled an entire cup of coffee on my MacBook Pro 2021. ZA Support had it in ultrasonic cleaning within 2 hours of bringing it in. Two days later it was completely restored. They found corrosion on the USB-C controller and replaced it. Absolutely incredible service.',
-      itemReviewed: {
-        '@type': 'Service',
-        name: 'MacBook Liquid Damage Repair Johannesburg',
-        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
-      },
     },
     {
       '@type': 'Review',
@@ -184,11 +179,6 @@ const liquidDamageReviewSchema = {
       datePublished: '2026-01',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a up-to-3 year warranty. Cannot believe it.',
-      itemReviewed: {
-        '@type': 'Service',
-        name: 'MacBook Liquid Damage Repair Johannesburg',
-        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
-      },
     },
     {
       '@type': 'Review',
@@ -196,11 +186,6 @@ const liquidDamageReviewSchema = {
       datePublished: '2026-03',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Assessment: from R599, no surprises on the invoice. 5 stars.',
-      itemReviewed: {
-        '@type': 'Service',
-        name: 'MacBook Liquid Damage Repair Johannesburg',
-        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
-      },
     },
   ],
 };

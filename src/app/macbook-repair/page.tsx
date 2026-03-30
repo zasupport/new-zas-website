@@ -171,11 +171,6 @@ const macbookReviewSchema = {
       datePublished: '2026-02',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       reviewBody: 'Brought my MacBook Pro 16-inch in for a battery replacement and keyboard issue. ZA Support had it back to me the same day. Transparent pricing, no hidden costs, and the warranty gives real peace of mind.',
-      itemReviewed: {
-        '@type': 'Service',
-        name: 'MacBook Repair Johannesburg',
-        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
-      },
     },
     {
       '@type': 'Review',
@@ -183,11 +178,6 @@ const macbookReviewSchema = {
       datePublished: '2026-01',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       reviewBody: 'MacBook Air would not turn on. ZA Support diagnosed it as a failed charging IC and fixed it in 24 hours. The assessment meant I knew exactly what was wrong before committing to anything. Excellent service.',
-      itemReviewed: {
-        '@type': 'Service',
-        name: 'MacBook Repair Johannesburg',
-        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
-      },
     },
     {
       '@type': 'Review',
@@ -195,11 +185,6 @@ const macbookReviewSchema = {
       datePublished: '2026-03',
       reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
       reviewBody: 'Used ZA Support for a screen replacement on my MacBook. Professional, fast, and fairly priced. They also spotted a swollen battery I did not know about and flagged it, saved me from a bigger problem later.',
-      itemReviewed: {
-        '@type': 'Service',
-        name: 'MacBook Repair Johannesburg',
-        provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
-      },
     },
   ],
 };

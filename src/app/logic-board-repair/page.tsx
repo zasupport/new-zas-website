@@ -290,11 +290,6 @@ const reviewSchema = {
     datePublished: r.date,
     reviewRating: { '@type': 'Rating', ratingValue: String(r.rating), bestRating: '5' },
     reviewBody: r.text,
-    itemReviewed: {
-      '@type': 'Service',
-      name: 'MacBook Logic Board Repair Johannesburg',
-      provider: { '@type': 'LocalBusiness', name: 'ZA Support', url: 'https://zasupport.com' },
-    },
   })),
 };
 

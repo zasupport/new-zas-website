@@ -205,18 +205,6 @@ const breadcrumbSchemaItems = [
   { name: 'Charging Port Repair', url: 'https://zasupport.com/macbook-repair/charging-port' },
 ];
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'AggregateRating',
-  itemReviewed: {
-    '@type': 'LocalBusiness',
-    name: 'ZA Support',
-  },
-  ratingValue: '4.9',
-  reviewCount: '632',
-  bestRating: '5',
-  worstRating: '1',
-};
 
 const serviceSchemaData = buildServiceSchema({
   name: 'MacBook Charging Port Repair Johannesburg',
