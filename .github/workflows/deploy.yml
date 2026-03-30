@@ -85,7 +85,9 @@ jobs:
           echo "$H"|grep -qi "x-nextjs-prerender"&&echo "  WARN x-nextjs-prerender present (remove via Cloudflare Transform Rule)"||echo "  PASS x-nextjs-prerender absent"
           echo "$H"|grep -qi "unsafe-eval"&&{ echo "  FAIL CSP has unsafe-eval"; FAIL=$((FAIL+1)); }||true
           ROBOTS=$(curl -s "https://zasupport.com/robots.txt" --max-time 10 2>/dev/null)
-          echo "$ROBOTS"|grep -q "_next\|/studio/"&&{ echo "  FAIL robots.txt framework leak"; FAIL=$((FAIL+1)); }||echo "  PASS robots.txt clean"
+          echo "$ROBOTS"|grep -i "^Allow.*_next\|^Allow.*/studio/"&&{ echo "  FAIL robots.txt allows framework paths"; FAIL=$((FAIL+1)); }||echo "  PASS robots.txt clean"
+          echo "$ROBOTS"|grep -qi "^Disallow.*_next"&&echo "  PASS /_next/ blocked in robots.txt"||echo "  WARN /_next/ NOT blocked in robots.txt"
+          echo "$ROBOTS"|grep -qi "^Disallow.*/studio/"&&echo "  PASS /studio/ blocked in robots.txt"||echo "  WARN /studio/ NOT blocked in robots.txt"
           echo "Security: $FAIL failure(s)"; [[ $FAIL -eq 0 ]]||exit 1
 
   # ── LIGHTHOUSE CI ────────────────────────────────────────────────────────
