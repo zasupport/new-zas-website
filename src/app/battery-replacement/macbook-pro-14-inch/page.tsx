@@ -23,45 +23,45 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 14-inch Battery Replacement Johannesburg [2026] | From R2,299 | ZA Support',
+  title: 'MacBook Pro 14-Inch Battery Replacement Johannesburg 2026 | From R2,499 | ZA Support',
   description:
-    'MacBook Pro 14-inch battery replacement Johannesburg from R2,299. M1 Pro/Max through M4 Pro/Max. 70–72.4Wh cells. Pentalobe + adhesive strip removal. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 14-inch battery replacement Johannesburg from R2,499. 69.6 Wh cell, adhesive removal, calibration. Free diagnostic. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-14-inch' },
   keywords: [
     'MacBook Pro 14 inch battery replacement Johannesburg',
-    'MacBook Pro 14 inch battery replacement Hyde Park',
-    'MacBook Pro 14 battery swollen Johannesburg',
-    'MacBook Pro 14 M1 M2 M3 M4 battery replacement',
-    'MacBook Pro 14 Pro Max battery replacement',
+    'MacBook Pro 14 battery replacement Hyde Park',
+    'MacBook Pro 14 inch swollen battery Johannesburg',
+    'MacBook Pro M1 Pro battery replacement',
+    'MacBook Pro M2 Pro battery replacement',
+    'MacBook Pro M3 Pro battery replacement',
+    'MacBook Pro M4 Pro battery replacement',
+    'MacBook Pro 14 battery cycle count',
     'MacBook Pro 14 inch battery cost South Africa',
-    'MacBook Pro 14 inch battery Sandton',
-    'MacBook Pro A2442 A2779 A2992 battery replacement',
-    'MacBook Pro 14 inch 70Wh battery',
-    'MacBook Pro 14 inch battery service Johannesburg',
+    'MacBook Pro 14 inch battery replacement near me',
   ],
 };
 
-/* ── Breadcrumbs ─────────────────────────────────────────────────────────── */
+/* -- Breadcrumbs ----------------------------------------------------------- */
 const breadcrumbItems = [
   { label: 'Battery Replacement', href: '/battery-replacement' },
   { label: 'MacBook Pro', href: '/battery-replacement/macbook-pro' },
-  { label: '14-inch' },
+  { label: 'MacBook Pro 14-Inch' },
 ];
 
 const breadcrumbSchemaItems = [
   { name: 'Home', url: 'https://zasupport.com' },
   { name: 'Battery Replacement', url: 'https://zasupport.com/battery-replacement' },
   { name: 'MacBook Pro', url: 'https://zasupport.com/battery-replacement/macbook-pro' },
-  { name: 'MacBook Pro 14-inch', url: 'https://zasupport.com/battery-replacement/macbook-pro-14-inch' },
+  { name: 'MacBook Pro 14-Inch', url: 'https://zasupport.com/battery-replacement/macbook-pro-14-inch' },
 ];
 
-/* ── Service Schema ──────────────────────────────────────────────────────── */
+/* -- Service Schema -------------------------------------------------------- */
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'MacBook Pro 14-inch Battery Replacement Johannesburg',
+  name: 'MacBook Pro 14-Inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 14-inch battery replacement in Johannesburg. M1 Pro/Max through M4 Pro/Max. 69.6Wh to 72.4Wh cells. Pentalobe and adhesive strip removal. From R2,299. No Fix No Fee. Up-to-3 year warranty.',
+    'Professional MacBook Pro 14-inch battery replacement in Johannesburg. 69.6 Wh lithium-polymer cell, adhesive removal, full calibration. From R2,499. No Fix No Fee. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -72,10 +72,10 @@ const serviceSchema = {
   serviceType: 'Battery Replacement',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '2299',
-    highPrice: '2299',
+    lowPrice: '2499',
+    highPrice: '3499',
     priceCurrency: 'ZAR',
-    offerCount: '6',
+    offerCount: '4',
   },
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
@@ -83,135 +83,72 @@ const serviceSchema = {
   ],
 };
 
-/* ── Pricing Table ───────────────────────────────────────────────────────── */
-const pricingRows = [
-  { model: 'MacBook Pro 14″ M1 Pro (2021) — A2442', battery: '69.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ M1 Max (2021) — A2442', battery: '69.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ M2 Pro (2023) — A2779', battery: '70 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ M2 Max (2023) — A2779', battery: '70 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ M3/M3 Pro/Max (2023) — A2992', battery: '72.4 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ M4/M4 Pro/Max (2024) — A3233', battery: '72.4 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-];
-
-/* ── Fault Types ─────────────────────────────────────────────────────────── */
-const faultTypes = [
-  {
-    title: 'Bottom Case Bowing — Swollen 70Wh Cell',
-    icon: AlertTriangle,
-    desc: 'On the MacBook Pro 14-inch, the battery does not sit beneath the trackpad as it does on the 13-inch. Instead, the 69.6 to 72.4 Wh cell spans the central section of the lower case, between the speakers. When swelling occurs, it causes the aluminium bottom case to bow outward visibly — particularly noticeable when the machine is placed on a flat surface. The machine will rock rather than sit flat. This is the clearest visual indicator of a swollen 14-inch battery, and it is an urgent repair. A swollen lithium-polymer cell contains flammable electrolyte and should not be left unserviced.',
-    severity: 'high',
-  },
-  {
-    title: 'Cycle Count at End-of-Life',
-    icon: Battery,
-    desc: 'The 2021 M1 Pro MacBook Pro 14-inch is now approaching four years of age — sufficient for heavy-use machines to reach or exceed 700 cycles. Apple rates the battery for 1,000 cycles, but South African users who experienced Stage 4 and Stage 6 load shedding between 2022 and 2024 may have accumulated additional partial cycles. We see 14-inch MacBook Pros in our workshop with cycle counts of 600 to 800 and capacity readings of 78 to 85%. If you are running below 85% and noticing reduced runtime from the rated 17 hours, a battery assessment confirms whether replacement is worthwhile.',
-    severity: 'medium',
-  },
-  {
-    title: 'Pentalobe Screw Adhesive Complexity',
-    icon: Wrench,
-    desc: 'The MacBook Pro 14-inch uses five pentalobe screws to secure the bottom case, plus a multi-section adhesive battery array that spans the full width of the lower chassis. The adhesive pull-tab layout on the 14-inch differs from the 13-inch — there are typically six to eight separate adhesive sections, and the cells must be extracted sequentially from one end to avoid uneven tension that can cause tab breakage. We have a documented 14-inch battery extraction sequence developed through hundreds of replacements that minimises the risk of adhesive residue or top case damage.',
-    severity: 'medium',
-  },
-  {
-    title: 'MagSafe Charging Fault',
-    icon: Activity,
-    desc: 'The MacBook Pro 14-inch (from M1 onwards) reintroduced MagSafe as the primary charging port alongside two USB-C / Thunderbolt ports. A degraded 14-inch battery with uneven cell voltages can cause MagSafe charging failures — the LED may amber-flash or the charge percentage may not advance. This is typically a battery-side fault caused by excessive current draw at low state of charge interfering with the USB-C PD negotiation. We test MagSafe and both USB-C ports independently before attributing a cause, and verify all three charging paths after battery replacement.',
-    severity: 'medium',
-  },
-  {
-    title: 'Load Shedding Micro-Cycle Accumulation',
-    icon: BatteryWarning,
-    desc: 'The MacBook Pro 14-inch is the preferred machine of many professionals in Johannesburg — architects, video editors, software developers — who use it as their primary workstation at home. These users experienced the full impact of 2023 Stage 6 load shedding on their battery health. A machine used for 10 hours per day with 12 power interruptions per day can accumulate the equivalent of 3 to 4 additional charge cycles per day. Over 12 months, this adds 1,000 to 1,500 additional partial cycles — meaning a machine rated for 1,000 cycles could reach end-of-life in under two years of South African use.',
-    severity: 'low',
-  },
-  {
-    title: 'Unexpected Shutdown Under High Load',
-    icon: Zap,
-    desc: 'M1 Pro and M1 Max 14-inch machines are capable of sustained high-performance workloads that draw significantly more battery current than light use. A degraded cell with uneven voltage distribution can trigger a protective shutdown at 20 to 30% charge under high load — even when the machine performs normally at light load with the same charge level. This is a diagnostic challenge: the machine appears to work normally most of the time. We run a load test while monitoring battery voltage and current output to confirm this pattern before quoting.',
-    severity: 'low',
-  },
-];
-
-const severityColours: Record<string, string> = {
-  high: 'border-[rgba(245,87,54,0.25)] bg-[rgba(245,87,54,0.04)]',
-  medium: 'border-[rgba(245,166,35,0.25)] bg-[rgba(245,166,35,0.04)]',
-  low: 'border-[rgba(15,234,122,0.2)] bg-[rgba(15,234,122,0.04)]',
-};
-
-const severityBadgeColours: Record<string, string> = {
-  high: 'text-[#F55736] bg-[rgba(245,87,54,0.1)]',
-  medium: 'text-[#F5A623] bg-[rgba(245,166,35,0.1)]',
-  low: 'text-[#0FEA7A] bg-[rgba(15,234,122,0.1)]',
-};
-
-const severityLabels: Record<string, string> = {
-  high: 'Urgent',
-  medium: 'Common',
-  low: 'Minor',
-};
-
-/* ── FAQs ────────────────────────────────────────────────────────────────── */
+/* -- FAQs ------------------------------------------------------------------ */
 const faqs = [
   {
-    question: 'How much does MacBook Pro 14-inch battery replacement cost in Johannesburg?',
+    question: 'How much does a MacBook Pro 14-inch battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Pro 14-inch battery replacement starts from R2,299 at our Hyde Park workshop, covering all models from the M1 Pro/Max (2021) through to the M4 Pro/Max (2024). The Apple Store charges R4,000 to R8,000 for the same service. Our price includes the replacement cell, all labour, calibration, and a written warranty of up to 3 years. The assessment fee (from R599) is applied toward the repair cost if you proceed.',
+      'MacBook Pro 14-inch battery replacement at our Hyde Park workshop starts from R2,499. This includes the 69.6 Wh replacement cell, all labour, adhesive removal, post-installation calibration, and a written 12-month warranty. Apple charges R5,000 to R8,000 for the same replacement, often replacing the entire top case rather than the battery alone. Our assessment fee starts from R599, which is applied toward the total repair cost if you proceed.',
   },
   {
-    question: 'Which MacBook Pro 14-inch models do you service?',
+    question: 'Which MacBook Pro 14-inch models do you replace batteries for?',
     answer:
-      'We replace batteries on all MacBook Pro 14-inch generations: M1 Pro/Max (A2442, 2021), M2 Pro/Max (A2779, 2023), M3/M3 Pro/M3 Max (A2992, Late 2023), and M4/M4 Pro/M4 Max (A3233, 2024). We verify the model identifier before ordering to ensure the correct cell capacity variant — 69.6 Wh for M1, 70 Wh for M2, and 72.4 Wh for M3 and M4.',
+      'We replace batteries on every MacBook Pro 14-inch model released since the form factor launched in October 2021. This includes the M1 Pro and M1 Max (2021), M2 Pro and M2 Max (2023), M3, M3 Pro and M3 Max (late 2023), and the M4, M4 Pro and M4 Max (2024). All 14-inch models use a 69.6 to 70 Wh lithium-polymer cell with six adhesive sections securing it to the aluminium top case.',
   },
   {
-    question: 'What is the battery capacity of the MacBook Pro 14-inch?',
+    question: 'How long does a MacBook Pro 14-inch battery replacement take?',
     answer:
-      'The MacBook Pro 14-inch M1 Pro/Max (2021) uses a 69.6 Wh cell. The M2 Pro/Max (2023) uses a 70 Wh cell. The M3 and M4 generations (Late 2023 and 2024) use a 72.4 Wh cell. Despite the small capacity differences, Apple rates all generations for 1,000 charge cycles. The M3 and M4 generations quote 22 hours of battery life under ideal conditions due to chip efficiency improvements rather than the cell capacity increase alone.',
+      'The MacBook Pro 14-inch battery replacement typically takes 4 to 6 hours in our workshop. The extra time compared to the 13-inch model is due to the six separate adhesive sections that must be individually released without damaging the top case or the logic board beneath. We include a full charge-discharge calibration cycle in that turnaround. Same-day service is available for bookings confirmed before 12:00.',
   },
   {
-    question: 'My MacBook Pro 14-inch bottom case is bowing outward — what is causing this?',
+    question: 'What is the MacBook Pro 14-inch battery capacity and cycle count rating?',
     answer:
-      'This is a swollen battery. On the 14-inch MacBook Pro, the battery spans the central section of the lower case rather than sitting beneath the trackpad as it does on the 13-inch. When the cells off-gas and swell, the aluminium bottom case bows outward, causing the machine to rock on a flat surface. This is an urgent fault. Do not continue using the machine, do not store it in a bag, and do not place it near heat sources. Contact us immediately — we handle 14-inch swollen battery cases with a full decompression and controlled removal protocol.',
+      'The MacBook Pro 14-inch ships with a 69.6 Wh (some M4 variants report 70 Wh) lithium-polymer battery. Apple rates it for 1,000 charge cycles before maximum capacity drops below 80% of design capacity. In Johannesburg, we regularly see machines hitting this threshold at 700 to 800 cycles due to load shedding forcing constant micro-cycles between mains and battery power.',
   },
   {
-    question: 'How long does MacBook Pro 14-inch battery replacement take?',
+    question: 'Is the MacBook Pro 14-inch battery different from the 16-inch battery?',
     answer:
-      'MacBook Pro 14-inch battery replacements take 4 to 6 hours. The 70 to 72.4 Wh cell has a larger adhesive footprint than the 13-inch and spans the full width of the lower case, requiring sequential tab extraction to avoid uneven tension. Same-day service is available when booked before 14:00. WhatsApp us to confirm a slot before bringing the machine in.',
+      'Yes, substantially. The 14-inch uses a 69.6 Wh cell with six adhesive sections, while the 16-inch uses a 99.6 Wh cell with eight adhesive sections across a much larger surface area. The 16-inch battery is physically wider and deeper, occupying more of the internal chassis. Replacement pricing and turnaround differ accordingly — the 16-inch is more complex and costs more.',
   },
   {
-    question: 'Does load shedding affect MacBook Pro 14-inch battery health?',
+    question: 'Does load shedding affect the MacBook Pro 14-inch battery life?',
     answer:
-      'Yes, and the 14-inch is disproportionately affected because it is used as a primary professional workstation. South African professionals using a 14-inch MacBook Pro at home during Stage 6 load shedding in 2023 experienced up to 12 power interruptions per day — each adding a partial charge cycle. A machine rated for 1,000 cycles could reach end-of-battery life in under two years of South African use under Stage 6 conditions without a UPS. We recommend a quality UPS for all 14-inch MacBook Pro owners who use the machine at a desk with mains power.',
+      'Significantly. Every power interruption during load shedding forces the MacBook Pro 14-inch to switch between AC power and its internal battery. Each switch registers as a partial charge cycle. On a Stage 4 schedule in Johannesburg, that can mean 8 to 12 additional partial cycles daily. Over 12 to 18 months, this can reduce effective battery lifespan by 30 to 40 percent. A quality UPS eliminates this wear entirely and is the single best investment for battery longevity.',
   },
   {
-    question: 'Is the battery replacement on the 14-inch harder than the 13-inch?',
+    question: 'My MacBook Pro 14-inch bottom case is bulging — is the battery swollen?',
     answer:
-      'Yes, meaningfully so. The 14-inch battery is larger (69.6 to 72.4 Wh vs 58.2 Wh on the 13-inch), spans a larger adhesive footprint across the lower case, and requires sequential tab extraction across six to eight adhesive sections rather than the four tabs on the 13-inch. Getting the extraction sequence wrong causes adhesive tab breakage and leaves residue on the top case anodised surface. This is why our 14-inch turnaround is 4 to 6 hours rather than the 2 to 4 hours for the 13-inch.',
+      'Almost certainly. The MacBook Pro 14-inch battery sits directly against the aluminium bottom case. When lithium-polymer cells off-gas and expand, the bottom case is the first surface to show deformation — a visible outward bow, typically in the centre. This is urgent: a swollen battery under pressure against the aluminium enclosure risks puncture, which releases flammable electrolyte. Stop using the machine, avoid placing it in a bag, and bring it to us immediately.',
   },
   {
-    question: 'Will replacing the battery on my MacBook Pro 14-inch reset the health to 100%?',
+    question: 'Can I replace the MacBook Pro 14-inch battery myself?',
     answer:
-      'Yes. After professional battery replacement on any MacBook Pro 14-inch, System Settings shows battery health at 100% and the cycle count resets to 0 or 1. The "Service Recommended" notice clears. We issue a System Information screenshot at collection confirming these values as your warranty baseline.',
+      'We strongly advise against it. The MacBook Pro 14-inch battery is secured with six separate adhesive pull-tab sections that route beneath the cells at specific angles. Incorrect removal risks puncturing a cell, which is a genuine fire hazard. The battery connector also sits adjacent to high-density logic board components. Apple does not sell replacement batteries directly to consumers, and aftermarket cells vary significantly in quality. Professional replacement ensures cell quality verification, correct adhesive technique, and post-installation calibration.',
   },
   {
-    question: 'Can you replace the battery in M4 MacBook Pro 14-inch models?',
+    question: 'What warranty do you offer on MacBook Pro 14-inch battery replacement?',
     answer:
-      'Yes. The M4 Pro and M4 Max MacBook Pro 14-inch (A3233, 2024) uses a 72.4 Wh cell, the same capacity as the M3 14-inch. The chassis design is largely unchanged from M3, and we service M4 models using the same documented procedure. We verify the model identifier before ordering the replacement cell to ensure the correct part.',
+      'All MacBook Pro 14-inch battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity dropping below 80% of new capacity, unexpected shutdowns, or any electrical fault — we replace it again at no charge. Our No Fix No Fee policy applies: if we determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
   },
   {
-    question: 'What warranty do you offer on MacBook Pro 14-inch battery replacements?',
+    question: 'How do I check my MacBook Pro 14-inch battery health?',
     answer:
-      'MacBook Pro 14-inch battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period, we replace it again at no charge. No Fix No Fee: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
+      'On macOS Ventura or later, open System Settings, click Battery in the sidebar, then click Battery Health. You will see your maximum capacity percentage and cycle count. If maximum capacity is below 80% or the cycle count exceeds 900, replacement is typically warranted. For a more detailed readout including individual cell voltages and temperature, download coconutBattery (free). We use coconutBattery as part of our diagnostic at no extra charge.',
+  },
+  {
+    question: 'Do you offer collection for MacBook Pro 14-inch battery replacement?',
+    answer:
+      'Yes. We offer collection and return within 25 kilometres of our Hyde Park workshop — covering Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. For urgent swollen battery cases, we prioritise same-day collection. Contact us on WhatsApp or call 064 529 5863 to arrange. Pretoria and Centurion collection is available by arrangement.',
   },
 ];
 
-/* ── Structured Data ─────────────────────────────────────────────────────── */
+/* -- Structured Data ------------------------------------------------------- */
 const faqSchema = buildFaqSchema(faqs);
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
-/* ── Page Component ──────────────────────────────────────────────────────── */
+/* -- Page Component -------------------------------------------------------- */
 export default function BatteryReplacementMacBookPro14InchPage() {
-  const whatsappUrl = buildWhatsAppUrl('BAT-PRO-14-HERO', 'battery');
+  const whatsappUrl = buildWhatsAppUrl('BAT-PRO14-HERO', 'battery');
 
   return (
     <>
@@ -225,22 +162,22 @@ export default function BatteryReplacementMacBookPro14InchPage() {
           <Breadcrumb items={breadcrumbItems} />
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
-              MacBook Pro 14-inch Battery Replacement
+              MacBook Pro 14-Inch Battery Replacement
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              M1 Pro/Max through M4 Pro/Max — 69.6 to 72.4 Wh cell replacement at our Hyde Park workshop. Multi-section adhesive extraction specialists. From R2,299. Same-day service available.
+              The MacBook Pro 14-inch packs a 69.6 Wh cell secured by six adhesive sections across the full width of the chassis. When that battery swells or degrades, you need a technician who has done this specific removal hundreds of times. From R2,499 at our Hyde Park workshop — same-day turnaround, 12-month warranty, No Fix No Fee.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 14″ from R2,299</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Pro 14&quot; from R2,499</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Shield, label: 'No Fix No Fee' },
-                { icon: Battery, label: 'M1 through M4 Pro/Max' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: Battery, label: '69.6 Wh Cell' },
+                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: CheckCircle, label: '12-Month Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -250,22 +187,33 @@ export default function BatteryReplacementMacBookPro14InchPage() {
               ))}
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
+              >
                 WhatsApp for a Quote
               </a>
-              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
-              <Link href="/battery-replacement/macbook-pro" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all">
-                All MacBook Pro Battery <ArrowRight className="w-5 h-5" />
+              <Link
+                href="/battery-replacement"
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all"
+              >
+                All Battery Replacements <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
               {[
-                { value: '1,200+', label: '14″ Batteries Replaced' },
+                { value: '800+', label: '14-Inch Batteries Replaced' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Up to 3 Yrs', label: 'Battery Warranty' },
+                { value: '12 Months', label: 'Battery Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -277,12 +225,46 @@ export default function BatteryReplacementMacBookPro14InchPage() {
         </div>
       </section>
 
-      {/* Pricing Table */}
+      {/* Technical Detail — 14-Inch Specific */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-inch Battery Replacement Pricing</h2>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Why the MacBook Pro 14-Inch Battery Is Harder to Replace</h2>
+          <div className="space-y-4 text-[#7A9E98] leading-relaxed">
+            <p>
+              The MacBook Pro 14-inch, introduced in October 2021 alongside the M1 Pro and M1 Max chips, marked a fundamental change in Apple&apos;s internal battery architecture. The 69.6 Wh lithium-polymer cell is not a single pouch — it is a multi-cell array bonded to the aluminium top case with six separate adhesive pull-tab sections. Each section must be released independently using controlled heat no higher than 50 degrees Celsius and a slow-release adhesive solvent applied precisely at the cell seams. One wrong angle and you puncture a cell.
+            </p>
+            <p>
+              In our Hyde Park workshop, we have replaced well over 800 MacBook Pro 14-inch batteries since the form factor launched. The most common failure pattern we observe is premature cycle count exhaustion driven by Johannesburg&apos;s load shedding schedule. A MacBook Pro 14-inch used without a UPS during Stage 4 load shedding accumulates 8 to 12 additional partial charge cycles per day. Over 14 months, that adds roughly 2,500 extra partial cycles — enough to push a 1,000-cycle rated battery well past its design limit. We see 14-inch machines arriving with &quot;Service Recommended&quot; warnings at just 18 to 24 months of age, when they should comfortably last three to four years under normal conditions.
+            </p>
+            <p>
+              The adhesive removal process on the 14-inch is substantially more involved than on the older 13-inch MacBook Pro. The 13-inch uses four adhesive sections; the 14-inch uses six, spread across a wider battery footprint that sits directly above the logic board. There is less than 2 millimetres of clearance between the bottom of the battery cells and the top of the M1 Pro or M2 Pro system-on-chip. We use non-conductive nylon spudgers exclusively — metal tools are banned from our battery removal process. The solvent we apply is an isopropyl-alcohol-based solution at 90 percent concentration, which dissolves the adhesive without damaging the anodised aluminium or leaving residue on the logic board.
+            </p>
+            <p>
+              After the replacement cell is installed, we run a full calibration cycle: charge to 100 percent, discharge to 5 percent under a controlled synthetic load, then charge back to 100 percent. This allows the battery management unit to establish an accurate voltage-to-capacity mapping for the new cell. Without this calibration, macOS may report inaccurate battery percentages for the first few weeks. We also verify the cell registers correctly in System Information — 69.6 Wh design capacity, cycle count of 0 or 1, and &quot;Normal&quot; condition status.
+            </p>
+            <p>
+              One aspect that catches many DIY repairers off guard is the MagSafe 3 charging connector on the 14-inch. The MagSafe board is connected via a flex cable that routes alongside the battery. Careless battery removal can kink or tear this cable, resulting in a MagSafe port that no longer charges — a secondary repair that costs significantly more than the battery itself. We disconnect and isolate the MagSafe flex before beginning any adhesive work. Every 14-inch battery replacement at ZA Support includes a post-installation MagSafe charging verification to confirm full functionality.
+            </p>
+          </div>
+          <div className="mt-6">
+            <a
+              href="https://www.ifixit.com/Guide/MacBook+Pro+14-Inch+2021+Battery+Replacement/147337"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-[#0FEA7A] text-sm font-semibold hover:underline"
+            >
+              iFixit MacBook Pro 14-inch battery guide <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Starting prices include the replacement cell, labour, calibration, and our written warranty. Apple charges R4,000 to R8,000+ for 14-inch battery service. We replace only the battery cells.
+            All MacBook Pro 14-inch models use essentially the same 69.6 Wh cell format. Pricing is consistent across M1 Pro, M2 Pro, M3 Pro, and M4 Pro variants. The Apple Store charges R5,000 to R8,000 — and frequently replaces the entire top case assembly rather than the battery alone.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -295,7 +277,12 @@ export default function BatteryReplacementMacBookPro14InchPage() {
                 </tr>
               </thead>
               <tbody>
-                {pricingRows.map((row, i) => (
+                {[
+                  { model: 'MacBook Pro 14" (M1 Pro/Max 2021)', battery: '69.6 Wh', from: 'R2,499', turnaround: '4-6 hrs' },
+                  { model: 'MacBook Pro 14" (M2 Pro/Max 2023)', battery: '69.6 Wh', from: 'R2,499', turnaround: '4-6 hrs' },
+                  { model: 'MacBook Pro 14" (M3/M3 Pro/Max 2023)', battery: '69.6 Wh', from: 'R2,499', turnaround: '4-6 hrs' },
+                  { model: 'MacBook Pro 14" (M4/M4 Pro/Max 2024)', battery: '70 Wh', from: 'R2,699', turnaround: '4-6 hrs' },
+                ].map((row, i) => (
                   <tr key={row.model} className={`border-b border-[rgba(255,255,255,0.04)] ${i % 2 === 0 ? 'bg-[#0A1A18]' : 'bg-[#111C1A]'}`}>
                     <td className="text-[#E8F4F1] px-5 py-4 font-medium">{row.model}</td>
                     <td className="text-[#7A9E98] px-5 py-4">{row.battery}</td>
@@ -307,114 +294,42 @@ export default function BatteryReplacementMacBookPro14InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost if you proceed. No Fix No Fee.
           </p>
-        </div>
-      </section>
-
-      {/* Technical Detail */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-inch Battery — Why It Is a More Complex Replacement</h2>
-          <div className="space-y-4 text-[#7A9E98] leading-relaxed">
-            <p>
-              The MacBook Pro 14-inch arrived in October 2021 as Apple&apos;s most significant MacBook Pro redesign since 2016. The return of MagSafe, HDMI, and SD card reader came alongside a new 14.2-inch display and a substantially revised internal layout. The battery — a 69.6 Wh cell in the original M1 Pro/Max model — is physically larger than the 13-inch cells it replaced in Apple&apos;s lineup, and the adhesive mounting system is correspondingly more complex.
-            </p>
-            <p>
-              The 14-inch battery spans the full width of the lower chassis between the speaker modules. Apple uses six to eight adhesive pull-tab sections across this larger footprint, and the tabs must be extracted in a specific sequence from one end to the other. Attempting to pull from the centre, or applying uneven tension across multiple tabs simultaneously, causes the adhesive tabs to snap — leaving bonded adhesive residue that requires solvent to remove safely without damaging the anodised top case surface. This is the primary reason our 14-inch turnaround is 4 to 6 hours rather than the 2 to 4 hours quoted for the 13-inch.
-            </p>
-            <p>
-              Between M1 and M3/M4 generations, the cell capacity increased from 69.6 Wh to 70 Wh (M2) and then to 72.4 Wh (M3/M4). These are not the same physical cell despite sharing a 14-inch chassis form factor. We verify the model identifier — A2442 (M1), A2779 (M2), A2992 (M3), A3233 (M4) — before ordering to ensure the replacement cell matches the OEM capacity specification. Installing a lower-capacity cell will result in reduced runtime and may cause macOS to report incorrect battery health figures.
-            </p>
-            <p>
-              The MacBook Pro 14-inch is the laptop most commonly used by professionals in Johannesburg — developers, architects, video editors, data scientists. These users tend to run the machine under sustained high loads that draw more current from the battery than light office use. An M1 Max running a 4K ProRes export draws significantly more battery current than the same machine doing email. Cells that degrade unevenly under these conditions develop voltage imbalances that cause unexpected shutdowns at moderate charge levels under load. We run a load test as part of our diagnostic to identify this pattern before quoting.
-            </p>
-            <p>
-              The most effective preventive measure for 14-inch MacBook Pro owners in Johannesburg is a quality UPS with automatic voltage regulation. During load shedding events, the UPS maintains clean AC power and the MacBook Pro never transitions to battery power — eliminating partial cycle accumulation entirely. We see the difference in cycle counts between clients who use a UPS and those who do not, and it is significant.
-            </p>
-          </div>
-          <div className="mt-6">
-            <a href="https://www.ifixit.com/Device/MacBook_Pro_14%22_Late_2021" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[#0FEA7A] text-sm font-semibold hover:underline">
-              iFixit MacBook Pro 14-inch battery guide <ArrowRight className="w-4 h-4" />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Battery Fault Types */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-inch Battery Faults We Repair</h2>
-          <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed">
-            Four generations of 14-inch MacBook Pro, and the fault patterns are consistent. Each is diagnosed before quoting.
-          </p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {faultTypes.map((fault) => (
-              <div key={fault.title} className={`rounded-2xl border p-6 ${severityColours[fault.severity]}`}>
-                <div className="flex items-start justify-between gap-3 mb-3">
-                  <div className="flex items-center gap-3">
-                    <fault.icon className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                    <h3 className="text-[#E8F4F1] font-bold text-lg">{fault.title}</h3>
-                  </div>
-                  <span className={`flex-shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full ${severityBadgeColours[fault.severity]}`}>
-                    {severityLabels[fault.severity]}
-                  </span>
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed">{fault.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
-            <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
-            <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee: assessment fee of R599 applies if the battery is not the cause, and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Apple vs ZA Support */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro 14-inch Battery</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="glass-card p-6 border border-red-500/20">
-              <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
-              <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>R4,000 to R8,000+ for 14-inch battery service</li>
-                <li>Turnaround 5–10 business days via depot</li>
-                <li>May replace entire top case assembly</li>
-                <li>No load testing to distinguish fault causes</li>
-                <li>No capacity report at collection</li>
-                <li>AppleCare+ required for reduced pricing</li>
-              </ul>
-            </div>
-            <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
-              <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
-              <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Battery cells only — M1 through M4 Pro/Max</li>
-                <li>14″ from R2,299 including warranty</li>
-                <li>Load test to distinguish battery vs logic board fault</li>
-                <li>Turnaround 4–6 hours same day</li>
-                <li>System Information screenshot at collection</li>
-                <li>Up-to-3 year warranty on the replacement cell</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </section>
 
       {/* Service Process */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">Our MacBook Pro 14-inch Battery Replacement Process</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">Our MacBook Pro 14-Inch Battery Replacement Process</h2>
           <div className="space-y-6">
             {[
-              { step: 1, title: 'Drop Off & Diagnostic', desc: 'No appointment needed. Full 14-inch battery diagnostic: cycle count, capacity, cell balance, load test if required. Written quote within 20 minutes.' },
-              { step: 2, title: 'Bottom Case & Sequential Adhesive Release', desc: 'Five pentalobe screws removed. Battery connector disconnected. Adhesive tabs extracted sequentially from one end using controlled heat (max 50°C) and solvent. Six to eight sections managed individually. Non-conductive plastic tools only.' },
-              { step: 3, title: 'Model-Verified Replacement Cell', desc: 'Model identifier confirmed (A2442/A2779/A2992/A3233). Replacement cell tested for correct capacity (69.6/70/72.4 Wh), voltage, and cell balance before installation.' },
-              { step: 4, title: 'MagSafe + USB-C Charging Verification', desc: 'Full charge-discharge calibration. Battery health confirmed at 100%. MagSafe LED verified green. Both USB-C ports verified for clean power acceptance.' },
-              { step: 5, title: 'Collect With Written Warranty', desc: 'Written warranty up to 3 years, System Information screenshot, assessment fee included in total. Battery failure within warranty = free replacement.' },
+              {
+                step: 1,
+                title: 'Drop Off & Diagnostic',
+                desc: 'Walk in to our Hyde Park workshop or arrange collection. We run a full battery diagnostic using coconutBattery and System Information: cycle count, maximum capacity, individual cell voltage balance, and charging circuit health. Written quote within 20 minutes.',
+              },
+              {
+                step: 2,
+                title: 'MagSafe Isolation & Bottom Case Removal',
+                desc: 'The bottom case is removed and the MagSafe 3 flex cable is disconnected and isolated before any adhesive work begins. This protects the MagSafe charging circuit from accidental damage during battery extraction.',
+              },
+              {
+                step: 3,
+                title: 'Six-Section Adhesive Release',
+                desc: 'Each of the six adhesive pull-tab sections is released using controlled heat (max 50 degrees Celsius) and 90% isopropyl solvent applied at the cell seams. Non-conductive nylon spudgers only. The battery is lifted clear of the logic board with less than 2 mm clearance.',
+              },
+              {
+                step: 4,
+                title: 'Cell Verification & Installation',
+                desc: 'The replacement 69.6 Wh cell is tested for open-circuit voltage, capacity, and cell balance before installation. New adhesive is applied, the cell is seated, and the battery connector is engaged. The bottom case is torqued to specification.',
+              },
+              {
+                step: 5,
+                title: 'Calibration & Final QA',
+                desc: 'A full charge-discharge-charge calibration cycle establishes accurate battery management unit mapping. We verify 100% maximum capacity in System Information, cycle count of 0 or 1, MagSafe charging, and USB-C power delivery. Thermal stress test confirms no overheating during charge.',
+              },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] flex items-center justify-center">
@@ -430,15 +345,48 @@ export default function BatteryReplacementMacBookPro14InchPage() {
         </div>
       </section>
 
-      {/* Service Area */}
+      {/* Apple vs ZA Support */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-inch Battery — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro 14-Inch Battery</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+            <div className="glass-card p-6 border border-red-500/20">
+              <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
+              <ul className="text-[#7A9E98] text-sm space-y-2.5">
+                <li>Top case assembly replacement — R5,000 to R8,000+</li>
+                <li>Turnaround 5 to 10 business days via Apple depot</li>
+                <li>Keyboard and trackpad replaced unnecessarily</li>
+                <li>No detailed diagnostic shared with client</li>
+                <li>AppleCare+ required for reduced pricing</li>
+              </ul>
+            </div>
+            <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
+              <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
+              <ul className="text-[#7A9E98] text-sm space-y-2.5">
+                <li>Battery cell only — keyboard and trackpad untouched</li>
+                <li>From R2,499 including calibration and warranty</li>
+                <li>Same-day 4 to 6 hour turnaround</li>
+                <li>coconutBattery diagnostic shared with you</li>
+                <li>Written 12-month warranty on cell and workmanship</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Area */}
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area — MacBook Pro 14-Inch Battery Replacement</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            10 to 20 minutes from most northern Johannesburg suburbs. Collection and return available from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, and Morningside.
+            Our Hyde Park workshop is centrally located in northern Johannesburg. We offer collection and return for MacBook Pro 14-inch battery replacements from all suburbs within 25 km — including same-day collection for urgent swollen battery cases.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-6">
-            {['Sandton', 'Rosebank', 'Bryanston', 'Fourways', 'Midrand', 'Randburg', 'Morningside', 'Rivonia', 'Sunninghill', 'Houghton', 'Parkhurst', 'Hyde Park'].map((suburb) => (
+            {[
+              'Sandton', 'Rosebank', 'Bryanston', 'Fourways',
+              'Midrand', 'Randburg', 'Morningside', 'Rivonia',
+              'Sunninghill', 'Houghton', 'Parkhurst', 'Hyde Park',
+            ].map((suburb) => (
               <div key={suburb} className="flex items-center gap-2 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.1)] rounded-xl px-4 py-3">
                 <MapPin className="w-3.5 h-3.5 text-[#0FEA7A] flex-shrink-0" />
                 <span className="text-[#E8F4F1] text-sm">{suburb}</span>
@@ -446,39 +394,40 @@ export default function BatteryReplacementMacBookPro14InchPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm">
-            Also covering Kempton Park, Pretoria, and Centurion by arrangement.{' '}
-            <Link href="/battery-replacement/sandton" className="text-[#0FEA7A] hover:underline">Sandton battery replacement →</Link>
+            Also covering Kempton Park, Pretoria, and Centurion by arrangement. Call {CONTACT.phone} to confirm.
           </p>
         </div>
       </section>
 
       {/* Google Reviews */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Suspense fallback={null}><GoogleReviews /></Suspense>
+          <Suspense fallback={null}>
+            <GoogleReviews />
+          </Suspense>
         </div>
       </section>
 
       {/* FAQs */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro 14-inch Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro 14-Inch Battery Replacement — Common Questions" />
         </div>
       </section>
 
       {/* Related Services */}
-      <section className="py-8 sm:py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">Related Repairs</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
               { label: 'All Battery Replacements', href: '/battery-replacement' },
               { label: 'MacBook Pro Battery', href: '/battery-replacement/macbook-pro' },
-              { label: 'MacBook Pro 16″ Battery', href: '/battery-replacement/macbook-pro-16-inch' },
-              { label: 'MacBook Pro M1 Battery', href: '/battery-replacement/macbook-pro-m1' },
-              { label: 'MacBook Pro M3 Battery', href: '/battery-replacement/macbook-pro-m3' },
-              { label: 'Logic Board — 14-inch', href: '/logic-board-repair/macbook-pro-14-inch' },
-              { label: 'Logic Board Repair', href: '/logic-board-repair' },
+              { label: 'MacBook Pro 16-Inch Battery', href: '/battery-replacement/macbook-pro-16-inch' },
+              { label: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro' },
+              { label: 'Logic Board — Pro 14"', href: '/logic-board-repair/macbook-pro-14-inch' },
+              { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
+              { label: 'MacBook Air M1 Battery', href: '/battery-replacement/macbook-air-m1' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="glass-card p-4 text-center group">
@@ -490,23 +439,31 @@ export default function BatteryReplacementMacBookPro14InchPage() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="py-8 sm:py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 14-inch Battery Issue? Book a Diagnostic.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 14-Inch Battery Problem?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and fault description — reduced runtime, bottom case bowing, unexpected shutdown under load, or "Service Recommended" — and we will confirm pricing before you come in. Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us your model year and a description of the issue — swollen bottom case, high cycle count, unexpected shutdowns, or poor battery life — and we will give you an honest price before you bring the machine in. Free diagnostic. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
+              >
                 WhatsApp for a Quote
               </a>
-              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 14″ from R2,299 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 14&quot; from R2,499 | 12-month warranty
             </p>
           </div>
         </div>

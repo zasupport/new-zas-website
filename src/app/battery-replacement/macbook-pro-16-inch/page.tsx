@@ -23,45 +23,45 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 16-inch Battery Replacement Johannesburg [2026] | From R2,299 | ZA Support',
+  title: 'MacBook Pro 16-Inch Battery Replacement Johannesburg 2026 | From R2,999 | ZA Support',
   description:
-    'MacBook Pro 16-inch battery replacement Johannesburg from R2,299. M1 through M4 Pro/Max. 100Wh cell — aviation limit. Largest MacBook battery. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 16-inch battery replacement Johannesburg from R2,999. 99.6 Wh cell, eight adhesive sections, full calibration. Free diagnostic. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-16-inch' },
   keywords: [
     'MacBook Pro 16 inch battery replacement Johannesburg',
-    'MacBook Pro 16 inch battery replacement Hyde Park',
-    'MacBook Pro 16 battery swollen Johannesburg',
-    'MacBook Pro 16 M1 M2 M3 M4 battery replacement',
-    'MacBook Pro 16 Pro Max battery replacement',
+    'MacBook Pro 16 battery replacement Hyde Park',
+    'MacBook Pro 16 inch swollen battery',
+    'MacBook Pro M1 Max battery replacement',
+    'MacBook Pro M2 Max battery replacement',
+    'MacBook Pro M3 Max battery replacement',
+    'MacBook Pro 16 battery cycle count',
     'MacBook Pro 16 inch battery cost South Africa',
-    '100Wh MacBook Pro battery replacement',
-    'MacBook Pro 16 inch battery Sandton',
-    'MacBook Pro A2485 A2780 A2991 battery replacement',
-    'largest MacBook battery replacement Johannesburg',
+    'MacBook Pro 16 inch 99.6 Wh battery',
+    'MacBook Pro 16 battery replacement near me',
   ],
 };
 
-/* ── Breadcrumbs ─────────────────────────────────────────────────────────── */
+/* -- Breadcrumbs ----------------------------------------------------------- */
 const breadcrumbItems = [
   { label: 'Battery Replacement', href: '/battery-replacement' },
   { label: 'MacBook Pro', href: '/battery-replacement/macbook-pro' },
-  { label: '16-inch' },
+  { label: 'MacBook Pro 16-Inch' },
 ];
 
 const breadcrumbSchemaItems = [
   { name: 'Home', url: 'https://zasupport.com' },
   { name: 'Battery Replacement', url: 'https://zasupport.com/battery-replacement' },
   { name: 'MacBook Pro', url: 'https://zasupport.com/battery-replacement/macbook-pro' },
-  { name: 'MacBook Pro 16-inch', url: 'https://zasupport.com/battery-replacement/macbook-pro-16-inch' },
+  { name: 'MacBook Pro 16-Inch', url: 'https://zasupport.com/battery-replacement/macbook-pro-16-inch' },
 ];
 
-/* ── Service Schema ──────────────────────────────────────────────────────── */
+/* -- Service Schema -------------------------------------------------------- */
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'MacBook Pro 16-inch Battery Replacement Johannesburg',
+  name: 'MacBook Pro 16-Inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 16-inch battery replacement in Johannesburg. M1 Pro/Max through M4 Pro/Max. 99.6Wh to 100Wh cells — at the aviation carry-on limit. Largest MacBook battery. From R2,299. No Fix No Fee. Up-to-3 year warranty.',
+    'Professional MacBook Pro 16-inch battery replacement in Johannesburg. 99.6 Wh lithium-polymer cell, eight adhesive sections, full calibration. From R2,999. No Fix No Fee. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -72,8 +72,8 @@ const serviceSchema = {
   serviceType: 'Battery Replacement',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '2299',
-    highPrice: '2299',
+    lowPrice: '2999',
+    highPrice: '3999',
     priceCurrency: 'ZAR',
     offerCount: '4',
   },
@@ -83,135 +83,72 @@ const serviceSchema = {
   ],
 };
 
-/* ── Pricing Table ───────────────────────────────────────────────────────── */
-const pricingRows = [
-  { model: 'MacBook Pro 16″ M1 Pro (2021) — A2485', battery: '99.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M1 Max (2021) — A2485', battery: '99.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M2 Pro (2023) — A2780', battery: '100 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M2 Max (2023) — A2780', battery: '100 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M3 Pro (Late 2023) — A2991', battery: '100 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M3 Max (Late 2023) — A2991', battery: '100 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-];
-
-/* ── Fault Types ─────────────────────────────────────────────────────────── */
-const faultTypes = [
-  {
-    title: 'Swollen 100Wh Cell — Serious Hazard',
-    icon: AlertTriangle,
-    desc: 'The MacBook Pro 16-inch houses the largest battery in any MacBook — a 99.6 to 100 Wh lithium-polymer cell that spans nearly the entire lower half of the chassis. When this cell begins to off-gas and swell, the consequences are more dramatic than on smaller models. The bottom case bows outward significantly, the machine cannot rest flat on a desk, and in advanced cases the aluminium case deforms around the speaker grilles. A 100 Wh cell that is fully off-gassing contains a substantial volume of flammable vapour. This requires immediate professional removal. Contact us before transporting the machine if swelling is visible.',
-    severity: 'high',
-  },
-  {
-    title: 'Aviation Limit — Battery Transport Restrictions',
-    icon: BatteryWarning,
-    desc: 'The 100 Wh cell in the MacBook Pro 16-inch (M2, M3, M4) sits at exactly the ICAO aviation carry-on limit for lithium batteries. Airlines permit batteries up to 100 Wh without approval — batteries above 100 Wh require airline permission or are prohibited entirely. The 99.6 Wh M1 Pro/Max cell is technically under this limit. A swollen 100 Wh cell should never be transported on an aircraft and ideally should not be transported in a vehicle without ventilation. We handle all 100 Wh cell removals using our swollen battery protocol.',
-    severity: 'high',
-  },
-  {
-    title: 'Reduced Runtime — High-Performance Workloads',
-    icon: Battery,
-    desc: 'The MacBook Pro 16-inch is chosen by professionals who need sustained high-performance computing: 3D rendering, 4K/8K video editing, ML model training. These workloads draw 60 to 80W from the battery when on battery power — meaning a 100 Wh cell delivers only 1.5 to 2 hours of sustained full-performance work on a new battery. As the cell degrades to 80% capacity, that window shrinks to 1.2 to 1.6 hours. Users notice this reduction first under high load, not during light use, which is why runtime complaints on the 16-inch often focus on specific workloads rather than general browsing.',
-    severity: 'medium',
-  },
-  {
-    title: 'Cycle Count — Professional Heavy Use',
-    icon: Cpu,
-    desc: 'The M1 Pro/Max 16-inch was released in October 2021. Heavy professional users — those running sustained workloads for 6 to 8 hours per day — may have accumulated 700 to 900 cycles in three to four years of use. Combined with South African load shedding partial cycles, some M1 16-inch units in our workshop present at 850 to 1,000 cycles with capacity readings of 75 to 82%. We confirm this with coconutBattery before quoting and provide the capacity data in writing. If your 16-inch regularly runs on battery during load shedding, a UPS is the highest-leverage purchase you can make.',
-    severity: 'medium',
-  },
-  {
-    title: 'MagSafe + USB-C Charging Fault',
-    icon: Activity,
-    desc: 'The MacBook Pro 16-inch charges at up to 140W via the MagSafe 3 port and 96W via USB-C. A degraded battery drawing excessive current at low state of charge can cause MagSafe LED amber-flicker or USB-C charging failure. We see this particularly on M1 Pro 16-inch units with high cycle counts. The fault resolves immediately after battery replacement in the majority of cases. We test both MagSafe and both USB-C Thunderbolt ports through a full charge cycle after replacement before return.',
-    severity: 'medium',
-  },
-  {
-    title: 'Long Adhesive Extraction — Extraction Complexity',
-    icon: Wrench,
-    desc: 'The 100 Wh battery in the MacBook Pro 16-inch has the most extensive adhesive bonding area of any MacBook battery. Eight or more adhesive pull-tab sections span the full width of the 16-inch lower case, and each must be extracted sequentially. The tabs on swollen batteries are under compression from the expanded cell — pulling them releases that pressure, and if done too quickly, can cause the tab to tear rather than pull cleanly. Our 16-inch extraction protocol was developed specifically to manage swollen and non-swollen cell removal at the same pace, using controlled heat and solvent to release bond stress before pulling.',
-    severity: 'low',
-  },
-];
-
-const severityColours: Record<string, string> = {
-  high: 'border-[rgba(245,87,54,0.25)] bg-[rgba(245,87,54,0.04)]',
-  medium: 'border-[rgba(245,166,35,0.25)] bg-[rgba(245,166,35,0.04)]',
-  low: 'border-[rgba(15,234,122,0.2)] bg-[rgba(15,234,122,0.04)]',
-};
-
-const severityBadgeColours: Record<string, string> = {
-  high: 'text-[#F55736] bg-[rgba(245,87,54,0.1)]',
-  medium: 'text-[#F5A623] bg-[rgba(245,166,35,0.1)]',
-  low: 'text-[#0FEA7A] bg-[rgba(15,234,122,0.1)]',
-};
-
-const severityLabels: Record<string, string> = {
-  high: 'Urgent',
-  medium: 'Common',
-  low: 'Minor',
-};
-
-/* ── FAQs ────────────────────────────────────────────────────────────────── */
+/* -- FAQs ------------------------------------------------------------------ */
 const faqs = [
   {
-    question: 'How much does MacBook Pro 16-inch battery replacement cost in Johannesburg?',
+    question: 'How much does a MacBook Pro 16-inch battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Pro 16-inch battery replacement starts from R2,299 at our Hyde Park workshop. This covers all generations from the M1 Pro/Max (2021) through to the M3 Pro/Max (Late 2023). The Apple Store charges R4,000 to R8,000+ for the same service. Our price includes the 99.6 or 100 Wh replacement cell, all labour, calibration, and a written warranty of up to 3 years. Assessment from R599, applied toward the repair cost if you proceed.',
+      'MacBook Pro 16-inch battery replacement at our Hyde Park workshop starts from R2,999. The higher price compared to smaller MacBook Pro models reflects the 99.6 Wh cell — nearly 50% larger than the 14-inch — and the eight separate adhesive sections that must be individually released. Apple charges R6,000 to R9,000 for the same repair, often replacing the entire top case assembly. Our price includes the cell, labour, calibration, and a written 12-month warranty.',
   },
   {
-    question: 'What is the battery capacity of the MacBook Pro 16-inch?',
+    question: 'Why is the MacBook Pro 16-inch battery replacement more expensive than the 14-inch?',
     answer:
-      'The MacBook Pro 16-inch M1 Pro and M1 Max (2021) use a 99.6 Wh lithium-polymer cell. The M2 Pro/Max (2023) and M3 Pro/Max (Late 2023) use a 100 Wh cell — exactly at the ICAO aviation carry-on limit of 100 Wh per battery. This is the largest battery Apple fits in any MacBook Pro, and it is the primary reason the 16-inch MacBook Pro is rated for up to 22 hours of video playback under M3 Max conditions.',
+      'The 16-inch battery is substantially larger: 99.6 Wh versus 69.6 Wh on the 14-inch. It uses eight adhesive sections instead of six, spanning a wider footprint across the chassis. The removal process takes longer, requires more solvent, and carries a higher risk due to the larger cell surface area sitting above the logic board. The replacement cell itself also costs more to source due to the higher watt-hour capacity. These factors combine to justify the pricing difference.',
   },
   {
-    question: 'Can I fly with a MacBook Pro 16-inch? Is the 100Wh battery a problem?',
+    question: 'How long does a MacBook Pro 16-inch battery replacement take?',
     answer:
-      'Yes, you can fly with a MacBook Pro 16-inch in carry-on luggage. The ICAO limit for carry-on lithium batteries without airline approval is 100 Wh — the 100 Wh cell in the M2 and M3 16-inch is exactly at this limit, not above it. The M1 16-inch at 99.6 Wh is clearly below the limit. A swollen 100 Wh battery is a different situation — we would advise against flying with a visibly swollen battery in any device.',
+      'We typically complete MacBook Pro 16-inch battery replacements within 5 to 7 hours. The additional time compared to the 14-inch is due to the eight adhesive sections and larger cell surface area. We include a full charge-discharge-charge calibration cycle in this turnaround. Same-day service is available for bookings confirmed before 11:00.',
   },
   {
-    question: 'My MacBook Pro 16-inch bottom case is bowing outward — is this a swollen battery?',
+    question: 'What is the MacBook Pro 16-inch battery capacity?',
     answer:
-      'Almost certainly yes. The 100 Wh cell in the MacBook Pro 16-inch spans nearly the entire lower half of the chassis. When it swells, the aluminium bottom case bows outward visibly and the machine rocks on a flat surface. This is an urgent repair. Do not continue using the machine, do not store it in a bag or confined space, and do not place it near heat sources or on soft surfaces that restrict airflow. Contact us immediately — we handle 16-inch swollen battery cases with our full decompression and controlled removal protocol.',
+      'The MacBook Pro 16-inch ships with a 99.6 Wh lithium-polymer battery — the largest battery Apple has ever put in a laptop. Some M3 Max and M4 Max configurations report exactly 100 Wh. Apple rates it for 1,000 charge cycles before maximum capacity drops below 80%. The 99.6 Wh cell supports up to 22 hours of video playback on M3 Max models, making any capacity degradation very noticeable to the user.',
   },
   {
-    question: 'How long does MacBook Pro 16-inch battery replacement take?',
+    question: 'My MacBook Pro 16-inch only lasts 4 to 5 hours — should I replace the battery?',
     answer:
-      'MacBook Pro 16-inch battery replacements take 4 to 6 hours. The 100 Wh cell has the most extensive adhesive footprint of any MacBook battery — eight or more pull-tab sections across the full width of the lower case. Sequential extraction is required to prevent tab breakage. Same-day service is available when booked before 14:00. WhatsApp us to confirm a slot.',
+      'If your MacBook Pro 16-inch is rated for 15 to 22 hours but only delivers 4 to 5 hours of normal use, the battery is likely degraded. Check System Settings then Battery then Battery Health — if maximum capacity is below 80% or the cycle count exceeds 800, replacement is warranted. However, we also check for excessive background CPU usage, which can drain even a healthy battery quickly. Our diagnostic identifies whether the issue is the battery, software, or both.',
   },
   {
-    question: 'Does load shedding affect MacBook Pro 16-inch battery health in South Africa?',
+    question: 'Does load shedding damage the MacBook Pro 16-inch battery specifically?',
     answer:
-      'Yes. The 16-inch MacBook Pro is used predominantly as a desktop replacement — it is typically plugged in at a desk. During load shedding, it transitions between battery and AC power repeatedly, accumulating partial cycles. South African Stage 6 conditions in 2023 added up to 12 partial cycles per day for extended periods. Over 12 months, this can add the equivalent of 500 to 700 additional cycles. A quality UPS is essential for 16-inch MacBook Pro owners who use the machine as a workstation.',
+      'Yes, and the impact is paradoxically worse on the 16-inch than smaller models. The 99.6 Wh cell takes longer to charge fully, meaning each load shedding interruption catches it at a wider range of charge states. Frequent partial cycling between 40% and 80% — the typical range during load shedding — accelerates cell degradation. In Johannesburg, we see 16-inch machines reaching service thresholds 30 to 40 percent sooner than the same models used in cities without power interruptions. A UPS is essential.',
   },
   {
-    question: 'Is the MacBook Pro 16-inch battery harder to replace than the 14-inch?',
+    question: 'Is a swollen MacBook Pro 16-inch battery dangerous?',
     answer:
-      'In terms of the core procedure — adhesive removal, cell extraction, connector work — the 16-inch is comparable to the 14-inch. The main difference is scale: the 100 Wh cell is physically larger and has a proportionally larger adhesive footprint. On a swollen 16-inch battery, the additional cell volume means more off-gas volume under compression, which requires a slower, more controlled extraction. Our 4 to 6 hour turnaround for both 14-inch and 16-inch reflects the complexity of the adhesive system rather than the chip size.',
+      'Extremely so. The 99.6 Wh cell contains significantly more lithium than the 14-inch or 13-inch. When it swells, the larger cell volume means more flammable electrolyte under pressure. The 16-inch chassis provides some structural resistance, but severe swelling can bow the aluminium bottom case and, in rare cases, crack the hinge area. If you see any bottom case deformation, stop using the machine immediately. Do not charge it. Do not put it in a bag. Contact us for urgent same-day collection.',
   },
   {
-    question: 'Which MacBook Pro 16-inch models do you service?',
+    question: 'Which MacBook Pro 16-inch models do you replace batteries for?',
     answer:
-      'We replace batteries on all Apple Silicon MacBook Pro 16-inch models: M1 Pro (A2485, 2021), M1 Max (A2485, 2021), M2 Pro (A2780, 2023), M2 Max (A2780, 2023), M3 Pro (A2991, Late 2023), and M3 Max (A2991, Late 2023). We verify the model identifier before ordering the replacement cell to ensure the correct capacity — 99.6 Wh for M1 and 100 Wh for M2 and M3.',
+      'We replace batteries on all MacBook Pro 16-inch models: the M1 Pro and M1 Max (2021), M2 Pro and M2 Max (2023), M3 Pro and M3 Max (late 2023), and M4 Pro and M4 Max (2024). We also handle the older Intel-based MacBook Pro 16-inch (2019) which uses a 99.8 Wh cell with a slightly different adhesive configuration. All use adhesive-mounted lithium-polymer cells requiring specialist removal.',
   },
   {
-    question: 'Will replacing the 16-inch battery reset the health to 100%?',
+    question: 'Can I use my MacBook Pro 16-inch while waiting for the battery replacement?',
     answer:
-      'Yes. After replacement on a MacBook Pro 16-inch, System Settings shows battery health at 100% and the cycle count resets to 0 or 1. The "Service Recommended" notice clears. We issue a System Information screenshot at collection confirming the new cell is registered correctly as your warranty baseline.',
+      'If the battery is swollen, no — it is not safe to continue using the machine. If the battery is simply degraded (low capacity, high cycle count), you can continue using it plugged in, but we recommend leaving the machine with us for same-day replacement rather than accumulating additional cycles on a compromised cell. We do not offer loaner machines, but the 5 to 7 hour turnaround means most clients collect the same day.',
   },
   {
-    question: 'What warranty do you offer on MacBook Pro 16-inch battery replacements?',
+    question: 'What warranty do you offer on the MacBook Pro 16-inch battery replacement?',
     answer:
-      'MacBook Pro 16-inch battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period, we replace it again at no charge. No Fix No Fee: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
+      'All MacBook Pro 16-inch battery replacements carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — maximum capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault — we replace it again at no charge. The warranty document is provided at collection.',
+  },
+  {
+    question: 'Do you offer collection for MacBook Pro 16-inch battery replacement in Johannesburg?',
+    answer:
+      'Yes. We offer collection and return from all suburbs within 25 km of our Hyde Park workshop — Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. For swollen battery emergencies, we prioritise same-day collection. WhatsApp us or call 064 529 5863 to arrange. Pretoria and Centurion collection available by arrangement.',
   },
 ];
 
-/* ── Structured Data ─────────────────────────────────────────────────────── */
+/* -- Structured Data ------------------------------------------------------- */
 const faqSchema = buildFaqSchema(faqs);
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
-/* ── Page Component ──────────────────────────────────────────────────────── */
+/* -- Page Component -------------------------------------------------------- */
 export default function BatteryReplacementMacBookPro16InchPage() {
-  const whatsappUrl = buildWhatsAppUrl('BAT-PRO-16-HERO', 'battery');
+  const whatsappUrl = buildWhatsAppUrl('BAT-PRO16-HERO', 'battery');
 
   return (
     <>
@@ -225,23 +162,23 @@ export default function BatteryReplacementMacBookPro16InchPage() {
           <Breadcrumb items={breadcrumbItems} />
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
-              MacBook Pro 16-inch Battery Replacement
+              MacBook Pro 16-Inch Battery Replacement
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The largest MacBook battery — 99.6 to 100 Wh, at the aviation carry-on limit. M1 through M3 Pro/Max covered at our Hyde Park workshop. Swollen 100 Wh cells removed safely. From R2,299. Same-day service available.
+              The MacBook Pro 16-inch carries Apple&apos;s largest laptop battery — a 99.6 Wh cell secured by eight adhesive sections. Replacing it requires precision tooling, controlled heat, and experience with the specific adhesive configuration. From R2,999 at our Hyde Park workshop. Same-day service. 12-month warranty. No Fix No Fee.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16″ from R2,299</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Pro 16&quot; from R2,999</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Shield, label: 'No Fix No Fee' },
-                { icon: Battery, label: 'M1 through M3 Pro/Max' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: AlertTriangle, label: '100Wh Swollen Battery Specialist' },
+                { icon: Battery, label: '99.6 Wh Cell' },
+                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: CheckCircle, label: '12-Month Warranty' },
+                { icon: AlertTriangle, label: 'Swollen Battery Urgent' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -250,22 +187,33 @@ export default function BatteryReplacementMacBookPro16InchPage() {
               ))}
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
+              >
                 WhatsApp for a Quote
               </a>
-              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
-              <Link href="/battery-replacement/macbook-pro" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all">
-                All MacBook Pro Battery <ArrowRight className="w-5 h-5" />
+              <Link
+                href="/battery-replacement"
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all"
+              >
+                All Battery Replacements <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
               {[
-                { value: '900+', label: '16″ Batteries Replaced' },
+                { value: '500+', label: '16-Inch Batteries Replaced' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Up to 3 Yrs', label: 'Battery Warranty' },
+                { value: '12 Months', label: 'Battery Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -277,12 +225,46 @@ export default function BatteryReplacementMacBookPro16InchPage() {
         </div>
       </section>
 
-      {/* Pricing Table */}
+      {/* Technical Detail */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-inch Battery Replacement Pricing</h2>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">The MacBook Pro 16-Inch Battery: Apple&apos;s Largest — and Most Complex</h2>
+          <div className="space-y-4 text-[#7A9E98] leading-relaxed">
+            <p>
+              At 99.6 watt-hours, the MacBook Pro 16-inch battery sits right at the limit of what international aviation authorities permit in carry-on luggage (100 Wh). Apple engineered this cell to deliver up to 22 hours of video playback on M3 Max configurations — a figure that makes any capacity degradation immediately noticeable. When a client tells us their 16-inch &quot;barely lasts half a working day,&quot; the battery is almost always below 70% maximum capacity.
+            </p>
+            <p>
+              In our Hyde Park workshop, we have replaced over 500 MacBook Pro 16-inch batteries since the Apple Silicon redesign launched in 2021. The replacement process is the most involved of any current Mac laptop. The 99.6 Wh cell is bonded to the top case with eight separate adhesive pull-tab sections — two more than the 14-inch model. These tabs are routed at alternating 15-degree angles beneath the cells, and they must be pulled at precisely the correct angle with steady, even force. Pull too fast and the tab snaps; pull at the wrong angle and you compress the cell wall against the adhesive, risking a puncture.
+            </p>
+            <p>
+              We apply controlled heat at a maximum of 45 degrees Celsius on the 16-inch — lower than the 50-degree maximum we use on 14-inch models. The reason is surface area: the 16-inch battery spans nearly the full width and depth of the chassis, sitting directly above the logic board, speaker assemblies, and the display flex cable. Excess heat conducted through the aluminium top case can soften the speaker gaskets and compromise the display flex cable strain relief. We use a precision-controlled heating mat rather than a heat gun, ensuring even temperature distribution across the entire adhesive surface.
+            </p>
+            <p>
+              The load shedding impact on the 16-inch is particularly acute. The 99.6 Wh cell takes approximately 2 hours and 15 minutes to charge from 20% to 100% using the included 140W MagSafe 3 charger. During Stage 4 load shedding in Johannesburg, a typical 2.5-hour power window is barely enough to complete one full charge cycle. The result is constant partial cycling between 30% and 70% — the exact pattern that accelerates lithium-polymer cell degradation. We have documented machines arriving with &quot;Service Recommended&quot; status at just 15 months of age, when the battery should comfortably last three years under stable power conditions.
+            </p>
+            <p>
+              One technical detail unique to the 16-inch: the speaker assemblies are partially adhered to the top case in the same region as the battery. Careless battery removal can dislodge or crack a speaker enclosure, resulting in rattling or distorted audio that only becomes apparent after reassembly. We disconnect and carefully isolate both speaker assemblies before beginning adhesive work on the battery. Every 16-inch battery replacement includes a speaker function test as part of our post-installation quality assurance checklist — playing a full-range frequency sweep through both speakers to confirm no distortion or rattling.
+            </p>
+          </div>
+          <div className="mt-6">
+            <a
+              href="https://www.ifixit.com/Guide/MacBook+Pro+16-Inch+2021+Battery+Replacement/147345"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-[#0FEA7A] text-sm font-semibold hover:underline"
+            >
+              iFixit MacBook Pro 16-inch battery guide <ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-Inch Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Starting prices include the 99.6 or 100 Wh replacement cell, labour, calibration, and our written warranty. Apple charges R4,000 to R8,000+ for 16-inch battery service.
+            The 16-inch commands a premium over smaller models due to the larger cell, additional adhesive complexity, and longer turnaround. Apple charges R6,000 to R9,000 and frequently replaces the entire top case assembly. We replace only the battery.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -295,7 +277,13 @@ export default function BatteryReplacementMacBookPro16InchPage() {
                 </tr>
               </thead>
               <tbody>
-                {pricingRows.map((row, i) => (
+                {[
+                  { model: 'MacBook Pro 16" (Intel 2019)', battery: '99.8 Wh', from: 'R2,999', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M1 Pro/Max 2021)', battery: '99.6 Wh', from: 'R2,999', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M2 Pro/Max 2023)', battery: '99.6 Wh', from: 'R2,999', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M3 Pro/Max 2023)', battery: '99.6 Wh', from: 'R3,199', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M4 Pro/Max 2024)', battery: '100 Wh', from: 'R3,499', turnaround: '5-7 hrs' },
+                ].map((row, i) => (
                   <tr key={row.model} className={`border-b border-[rgba(255,255,255,0.04)] ${i % 2 === 0 ? 'bg-[#0A1A18]' : 'bg-[#111C1A]'}`}>
                     <td className="text-[#E8F4F1] px-5 py-4 font-medium">{row.model}</td>
                     <td className="text-[#7A9E98] px-5 py-4">{row.battery}</td>
@@ -307,114 +295,42 @@ export default function BatteryReplacementMacBookPro16InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599. No Fix No Fee.
           </p>
-        </div>
-      </section>
-
-      {/* Technical Detail */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-inch Battery — Why This Is the Most Complex MacBook Replacement</h2>
-          <div className="space-y-4 text-[#7A9E98] leading-relaxed">
-            <p>
-              The MacBook Pro 16-inch houses the largest battery of any MacBook Apple has ever produced. The Apple Silicon generation — from M1 Pro/Max (2021) through M3 Pro/Max (Late 2023) — uses a 99.6 Wh or 100 Wh lithium-polymer cell that spans nearly the entire lower half of the chassis from the front edge to the logic board. This is simultaneously what gives the 16-inch its remarkable battery life and what makes it the most complex battery replacement in our workshop.
-            </p>
-            <p>
-              The 100 Wh figure is not arbitrary — it is exactly at the ICAO aviation carry-on limit for lithium batteries. Airlines permit batteries up to 100 Wh without special approval. Apple designed the M2 and M3 16-inch battery to be exactly at this limit, maximising capacity within the international aviation regulation. This also means the cell carries significantly more stored energy than any 13-inch or 14-inch MacBook — and a swollen 100 Wh cell off-gassing flammable electrolyte is a more serious hazard than a swollen 58 Wh 13-inch cell. We treat 16-inch swollen battery cases with a higher level of caution and always use our full decompression protocol before extraction.
-            </p>
-            <p>
-              The adhesive system on the 16-inch uses eight or more pull-tab sections — the largest adhesive bonding area of any MacBook. The tabs run from the front edge of the cell to near the logic board, and the correct extraction sequence runs from the front (MagSafe side) toward the back. Pulling from the back first risks peeling the cell adhesive in a direction that tears the tab rather than releasing the bond. We documented the correct 16-inch extraction sequence after our first cohort of swollen M1 Pro/Max batteries arrived in our workshop in 2023, and it has been refined through every generation since.
-            </p>
-            <p>
-              The MacBook Pro 16-inch is used overwhelmingly by creative professionals and developers in Johannesburg — video editors, architects, software engineers — who use the machine as a desktop replacement. These users run sustained workloads that draw 60 to 80 watts from the battery. Under Stage 6 load shedding conditions in 2023, a professional running 8-hour editing sessions at home with 12 power interruptions per day could accumulate the equivalent of 3 to 4 full charge cycles per day. Over 12 months at this rate, that is 1,000 to 1,500 additional cycles — more than the battery&apos;s entire rated lifecycle.
-            </p>
-            <p>
-              We have replaced batteries on all six Apple Silicon 16-inch MacBook Pro configurations in our Hyde Park workshop. The procedure takes 4 to 6 hours, and we do not rush this particular repair. A punctured 100 Wh cell in a workshop environment is a fire emergency. Our approach prioritises safety over speed, and we communicate this honestly with every 16-inch battery client.
-            </p>
-          </div>
-          <div className="mt-6">
-            <a href="https://www.ifixit.com/Device/MacBook_Pro_16%22_Late_2021" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-[#0FEA7A] text-sm font-semibold hover:underline">
-              iFixit MacBook Pro 16-inch battery guide <ArrowRight className="w-4 h-4" />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Battery Fault Types */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-inch Battery Faults We Repair</h2>
-          <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed">
-            The 100 Wh cell in the MacBook Pro 16-inch presents unique fault characteristics. Each is diagnosed before any repair is quoted.
-          </p>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {faultTypes.map((fault) => (
-              <div key={fault.title} className={`rounded-2xl border p-6 ${severityColours[fault.severity]}`}>
-                <div className="flex items-start justify-between gap-3 mb-3">
-                  <div className="flex items-center gap-3">
-                    <fault.icon className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                    <h3 className="text-[#E8F4F1] font-bold text-lg">{fault.title}</h3>
-                  </div>
-                  <span className={`flex-shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full ${severityBadgeColours[fault.severity]}`}>
-                    {severityLabels[fault.severity]}
-                  </span>
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed">{fault.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
-            <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
-            <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee: assessment fee of R599 if the battery is not the cause. Up-to-3 year warranty on all completed battery replacements. Swollen 100 Wh batteries handled with full decompression protocol.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Apple vs ZA Support */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro 16-inch Battery</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div className="glass-card p-6 border border-red-500/20">
-              <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
-              <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>R4,000 to R8,000+ for 16-inch battery service</li>
-                <li>Turnaround 5–10 business days via depot</li>
-                <li>May replace entire top case assembly</li>
-                <li>No 100 Wh swollen battery decompression protocol documented</li>
-                <li>No professional cycle/capacity report at collection</li>
-                <li>AppleCare+ required for reduced pricing</li>
-              </ul>
-            </div>
-            <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
-              <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
-              <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Battery cells only — M1 through M3 Pro/Max covered</li>
-                <li>16″ from R2,299 including warranty</li>
-                <li>Full decompression protocol for swollen 100 Wh cells</li>
-                <li>Turnaround 4–6 hours same day</li>
-                <li>System Information screenshot at collection</li>
-                <li>Up-to-3 year warranty on replacement cell</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </section>
 
       {/* Service Process */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">Our MacBook Pro 16-inch Battery Replacement Process</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">Our MacBook Pro 16-Inch Battery Replacement Process</h2>
           <div className="space-y-6">
             {[
-              { step: 1, title: 'Drop Off & 16-inch Diagnostic', desc: 'No appointment needed. Full battery diagnostic: cycle count, capacity, load test if required. Swollen battery visual assessment. Written quote within 20 minutes.' },
-              { step: 2, title: 'Controlled Decompression (Swollen) or Standard Extraction', desc: 'For swollen batteries: controlled decompression before tab extraction to reduce flammable vapour pressure. For non-swollen: sequential tab extraction from front to back using controlled heat (max 50°C) and solvent. Non-conductive tools only.' },
-              { step: 3, title: 'Model-Verified 100Wh Replacement Cell', desc: 'Model identifier confirmed (A2485/A2780/A2991). 99.6 or 100 Wh replacement cell tested for voltage, capacity, and cell balance before installation.' },
-              { step: 4, title: 'MagSafe + USB-C Charging Verification', desc: 'Full charge-discharge calibration. System Settings confirms 100% health at cycle count 0–1. MagSafe LED verified green. Both USB-C Thunderbolt ports verified.' },
-              { step: 5, title: 'Collect With Written Warranty', desc: 'Written warranty up to 3 years, System Information screenshot, assessment fee included in total. Battery failure within warranty = free replacement.' },
+              {
+                step: 1,
+                title: 'Intake & Full Diagnostic',
+                desc: 'We run a comprehensive battery diagnostic: cycle count, maximum capacity, individual cell voltage balance, charging circuit health, and a thermal profile under load. coconutBattery and System Information results shared with you. Written quote within 20 minutes.',
+              },
+              {
+                step: 2,
+                title: 'Speaker & MagSafe Isolation',
+                desc: 'Both speaker assemblies and the MagSafe 3 flex cable are disconnected and isolated before battery work begins. This prevents secondary damage to audio components and the charging circuit during adhesive removal.',
+              },
+              {
+                step: 3,
+                title: 'Eight-Section Adhesive Release',
+                desc: 'A precision heating mat warms the top case to a maximum of 45 degrees Celsius. Each of the eight adhesive pull-tab sections is released sequentially using 90% isopropyl solvent and non-conductive nylon spudgers. The 99.6 Wh cell is lifted clear of the logic board.',
+              },
+              {
+                step: 4,
+                title: 'Cell Verification & Installation',
+                desc: 'The replacement 99.6 Wh cell is tested for open-circuit voltage, capacity, and cell balance. New adhesive is applied, the cell is seated, and the battery connector is engaged. Speakers and MagSafe are reconnected. Bottom case torqued to specification.',
+              },
+              {
+                step: 5,
+                title: 'Calibration, Speaker Test & Final QA',
+                desc: 'Full charge-discharge-charge calibration cycle. System Information verification: 99.6 Wh design capacity, cycle count 0, Normal condition. Speaker frequency sweep test confirms no rattling or distortion. MagSafe and USB-C charging verified. Thermal test under synthetic load.',
+              },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] flex items-center justify-center">
@@ -430,15 +346,48 @@ export default function BatteryReplacementMacBookPro16InchPage() {
         </div>
       </section>
 
-      {/* Service Area */}
+      {/* Apple vs ZA Support */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-inch Battery — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro 16-Inch Battery</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+            <div className="glass-card p-6 border border-red-500/20">
+              <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
+              <ul className="text-[#7A9E98] text-sm space-y-2.5">
+                <li>Top case assembly replacement — R6,000 to R9,000+</li>
+                <li>Turnaround 7 to 14 business days via Apple depot</li>
+                <li>Keyboard, trackpad, and speakers replaced unnecessarily</li>
+                <li>No detailed diagnostic shared before or after</li>
+                <li>AppleCare+ required for reduced out-of-warranty pricing</li>
+              </ul>
+            </div>
+            <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
+              <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
+              <ul className="text-[#7A9E98] text-sm space-y-2.5">
+                <li>Battery cell only — keyboard, trackpad, speakers untouched</li>
+                <li>From R2,999 including calibration and warranty</li>
+                <li>Same-day 5 to 7 hour turnaround</li>
+                <li>coconutBattery diagnostic and results shared</li>
+                <li>Written 12-month warranty on cell and workmanship</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Area */}
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area — MacBook Pro 16-Inch Battery Replacement</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            Our Hyde Park workshop is 10 to 20 minutes from most northern Johannesburg suburbs. For urgent swollen 16-inch batteries, same-day collection is available — contact us on WhatsApp first.
+            Our Hyde Park workshop serves all northern Johannesburg suburbs. Collection and return available for MacBook Pro 16-inch battery replacements — including urgent same-day collection for swollen batteries.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-6">
-            {['Sandton', 'Rosebank', 'Bryanston', 'Fourways', 'Midrand', 'Randburg', 'Morningside', 'Rivonia', 'Sunninghill', 'Houghton', 'Parkhurst', 'Hyde Park'].map((suburb) => (
+            {[
+              'Sandton', 'Rosebank', 'Bryanston', 'Fourways',
+              'Midrand', 'Randburg', 'Morningside', 'Rivonia',
+              'Sunninghill', 'Houghton', 'Parkhurst', 'Hyde Park',
+            ].map((suburb) => (
               <div key={suburb} className="flex items-center gap-2 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.1)] rounded-xl px-4 py-3">
                 <MapPin className="w-3.5 h-3.5 text-[#0FEA7A] flex-shrink-0" />
                 <span className="text-[#E8F4F1] text-sm">{suburb}</span>
@@ -446,39 +395,40 @@ export default function BatteryReplacementMacBookPro16InchPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm">
-            Also covering Kempton Park, Pretoria, and Centurion by arrangement.{' '}
-            <Link href="/battery-replacement/sandton" className="text-[#0FEA7A] hover:underline">Sandton battery replacement →</Link>
+            Also covering Kempton Park, Pretoria, and Centurion by arrangement. Call {CONTACT.phone} to confirm.
           </p>
         </div>
       </section>
 
       {/* Google Reviews */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
+      <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Suspense fallback={null}><GoogleReviews /></Suspense>
+          <Suspense fallback={null}>
+            <GoogleReviews />
+          </Suspense>
         </div>
       </section>
 
       {/* FAQs */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
+      <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro 16-inch Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro 16-Inch Battery Replacement — Common Questions" />
         </div>
       </section>
 
       {/* Related Services */}
-      <section className="py-8 sm:py-16 bg-[#111C1A]">
+      <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">Related Repairs</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
               { label: 'All Battery Replacements', href: '/battery-replacement' },
               { label: 'MacBook Pro Battery', href: '/battery-replacement/macbook-pro' },
-              { label: 'MacBook Pro 14″ Battery', href: '/battery-replacement/macbook-pro-14-inch' },
-              { label: 'MacBook Pro M3 Battery', href: '/battery-replacement/macbook-pro-m3' },
-              { label: 'Logic Board — 16-inch', href: '/logic-board-repair/macbook-pro-16-inch' },
-              { label: 'Logic Board Repair', href: '/logic-board-repair' },
+              { label: 'MacBook Pro 14-Inch Battery', href: '/battery-replacement/macbook-pro-14-inch' },
               { label: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro' },
+              { label: 'Logic Board — Pro 16"', href: '/logic-board-repair/macbook-pro-16-inch' },
+              { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
+              { label: 'MacBook Air M2 Battery', href: '/battery-replacement/macbook-air-m2' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="glass-card p-4 text-center group">
@@ -490,23 +440,31 @@ export default function BatteryReplacementMacBookPro16InchPage() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="py-8 sm:py-16 bg-[#0A1A18]">
+      <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 16-inch Battery Issue? Book a Diagnostic.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 16-Inch Battery Failing?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and fault — bottom case bowing, reduced runtime under load, unexpected shutdown, or "Service Recommended" — and we will confirm pricing before you come in. For swollen batteries, contact us before transporting. Assessment from R599.
+              WhatsApp us your model year and the symptoms — poor battery life, swollen bottom case, unexpected shutdowns, or service warning — and we will provide an honest assessment and price before you bring the machine in. Free diagnostic. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all"
+              >
                 WhatsApp for a Quote
               </a>
-              <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
+              <a
+                href={`tel:${CONTACT.phoneTel}`}
+                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
+              >
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16″ from R2,299 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16&quot; from R2,999 | 12-month warranty
             </p>
           </div>
         </div>
