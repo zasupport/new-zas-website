@@ -20,6 +20,7 @@
 # §129/§131/§132/§133/§134 → global CLAUDE.md (auto-loaded)
 # §145-§151 AGENT COMPRESSION → global CLAUDE.md (auto-loaded)
 # §153 ERROR INBOX → global CLAUDE.md (auto-loaded)
+# §187 LOCAL AUTOMATION FIRST → global CLAUDE.md (auto-loaded)
 
 ## PROJECT PURPOSE
 Public marketing website for zasupport.com. SEO-first. Converts Mac owners with logic board faults.
