@@ -88,6 +88,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-air-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
+    // Battery replacement model pages
+    { url: `${base}/battery-replacement/macbook-pro`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/battery-replacement/macbook-air`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/battery-replacement/imac`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/battery-replacement/iphone`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+
     // Battery replacement suburb pages
     { url: `${base}/battery-replacement/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/rosebank`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
