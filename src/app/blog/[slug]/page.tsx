@@ -7764,7 +7764,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div className="mt-12 p-6 bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-2xl text-center">
             <p className="text-[#E8F4F1] font-bold text-lg mb-2">Need a repair? Assessment: from R599.</p>
             <p className="text-[#7A9E98] mb-4">Hyde Park, Johannesburg. Assessment: from R599 on all repairs.</p>
-            <a href="tel:0645295863" className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
+            <a href="tel:0645295863" className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all" target="_blank" rel="noopener noreferrer">
               Call 064 529 5863
             </a>
           </div>

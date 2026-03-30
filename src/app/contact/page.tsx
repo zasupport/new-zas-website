@@ -261,7 +261,7 @@ export default function ContactPage() {
             <div className="space-y-6">
               <div className="glass-card p-6">
                 <h3 className="text-[#E8F4F1] font-bold mb-4">Call or WhatsApp</h3>
-                <a href={`tel:${CONTACT.phoneTel}`} className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors mb-3">
+                <a href={`tel:${CONTACT.phoneTel}`} className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors mb-3" target="_blank" rel="noopener noreferrer">
                   <Phone className="w-5 h-5 text-[#0FEA7A]" />
                   <span className="text-lg font-semibold">{CONTACT.phone}</span>
                 </a>
@@ -274,7 +274,7 @@ export default function ContactPage() {
                   <MessageCircle className="w-5 h-5 text-[#0FEA7A]" />
                   <span className="text-sm">WhatsApp (preferred for photos)</span>
                 </a>
-                <a href={`mailto:${CONTACT.email}`} className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors">
+                <a href={`mailto:${CONTACT.email}`} className="flex items-center gap-3 text-[#7A9E98] hover:text-[#0FEA7A] transition-colors" target="_blank" rel="noopener noreferrer">
                   <Mail className="w-5 h-5 text-[#0FEA7A]" />
                   <span>{CONTACT.email}</span>
                 </a>

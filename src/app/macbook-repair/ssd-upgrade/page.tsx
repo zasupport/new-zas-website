@@ -270,7 +270,7 @@ export default function MacBookSSDUpgradePage() {
           </div>
           <p className="text-center text-[#7A9E98] text-xs mt-6">
             Not sure if your MacBook is Intel or Apple Silicon?{' '}
-            <a href={`tel:${CONTACT.phoneTel}`} className="text-[#0FEA7A] hover:underline">
+            <a href={`tel:${CONTACT.phoneTel}`} className="text-[#0FEA7A] hover:underline" target="_blank" rel="noopener noreferrer">
               Call us
             </a>{' '}
             — we will check it in under a minute.

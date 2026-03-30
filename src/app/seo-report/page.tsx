@@ -145,7 +145,7 @@ export default async function SeoReportPage() {
           <tbody>
             {(data.page_statuses ?? []).map((p, i) => (
               <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff' }}>
-                <td style={{ padding: '7px 12px' }}><a href={p.url} style={{ color: '#27504D' }}>{p.label}</a></td>
+                <td style={{ padding: '7px 12px' }}><a href={p.url} style={{ color: '#27504D' }} target="_blank" rel="noopener noreferrer">{p.label}</a></td>
                 <td style={{ padding: '7px 12px', textAlign: 'center' }}>{p.ok ? '✅' : `❌ ${p.status}`}</td>
               </tr>
             ))}
@@ -277,7 +277,7 @@ export default async function SeoReportPage() {
           <tbody>
             {r.competitor_monitoring.map((c, i) => (
               <tr key={i} style={{ background: i % 2 === 0 ? '#f9f9f9' : '#fff' }}>
-                <td style={{ padding: '7px 12px' }}><a href={`https://${c.domain}`} style={{ color: '#27504D' }}>{c.domain}</a></td>
+                <td style={{ padding: '7px 12px' }}><a href={`https://${c.domain}`} style={{ color: '#27504D' }} target="_blank" rel="noopener noreferrer">{c.domain}</a></td>
                 <td style={{ padding: '7px 12px', textAlign: 'center' }}>{c.status === 'ok' ? '✅' : '❌'}</td>
                 <td style={{ padding: '7px 12px', textAlign: 'center' }}>{c.page_count}</td>
                 <td style={{ padding: '7px 12px', textAlign: 'center' }}>{c.changed ? '⚠️ Changed' : '—'}</td>

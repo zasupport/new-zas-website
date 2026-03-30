@@ -184,7 +184,7 @@ export default function SearchResults({ query, start }: Props) {
                   </h2>
                 </Link>
               ) : (
-                <a href={r.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+                <a href={r.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1" >
                   <h2 className="text-[#0FEA7A] group-hover:underline font-medium leading-snug mb-1">
                     {r.title}
                   </h2>

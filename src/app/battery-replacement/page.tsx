@@ -335,7 +335,7 @@ export default function BatteryReplacementPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Devices We Service</h2>
             <p className="text-[#7A9E98] mb-10 max-w-2xl">
               We replace batteries in every MacBook, iPhone, and iPad model from 2012 to the current M4 generation.
-              If your device is not listed below, <a href={buildWhatsAppUrl('BAT-COMPAT', 'battery')} target="_blank" rel="noopener noreferrer" className="text-[#0FEA7A] underline hover:no-underline">WhatsApp us</a> and
+              If your device is not listed below, <a href={buildWhatsAppUrl('BAT-COMPAT', 'battery')} target="_blank" rel="noopener noreferrer" className="text-[#0FEA7A] underline hover:no-underline" >WhatsApp us</a> and
               we will confirm compatibility.
             </p>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
