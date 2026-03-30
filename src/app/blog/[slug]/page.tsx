@@ -15,6 +15,82 @@ const posts: Record<string, {
   author: string;
   content: string;
 }> = {
+'sunday-reboot-addiction-vr-and-how-the-iphone-air-doesn-south-africa-2026': {
+    slug: 'sunday-reboot-addiction-vr-and-how-the-iphone-air-doesnt-suck',
+    title: 'Tech Addiction, Productivity, and Keeping Your Mac Healthy in Johannesburg 2026 | ZA Support',
+    excerpt: 'How to balance digital wellness with VR gaming, avoid Apple addiction traps, and maintain your MacBook Pro without expensive downtime.',
+    date: '30/03/2026',
+    category: 'Mac Tips',
+    readTime: '5 min read',
+    author: 'Mary',
+    content: `## Tech Addiction, Productivity & Mac Longevity: A South African Perspective
+
+It's Sunday morning in Johannesburg, and chances are your iPhone is already in your hand. That's not a judgment — it's just reality. This week, Apple's broader ecosystem faced some hard questions about social addiction, VR escapism, and whether we're using our devices mindfully or whether they're using us.
+
+But here's what nobody talks about: **the real addiction isn't to your phone — it's to your MacBook Pro when it dies mid-project.**
+
+## The App Store Addiction Problem (And Your Mac's Role)
+
+Apple's App Store has become a focal point in addiction litigation this week, with courts finding that Meta and Google deliberately engineered habit-forming features into their platforms. YouTube shorts, Instagram Reels, TikTok — they're all designed to keep you scrolling.
+
+But your **Mac is supposed to be different**. It's your productivity machine, your creative tool, your business partner. Yet many Mac owners in Johannesburg don't realize their devices are silently accumulating damage whilst they're trapped in endless app notifications.
+
+Here's what happens: you're working on something important, your MacBook overheats because the fans are clogged with dust (load shedding has everyone stressed), and suddenly you're facing a **logic board failure**. Mac Shack wants R4,499+ to fix it. Apple Store quotes R15,000–R70,000 depending on what's failed. ZA Support does the same repair from **R2,499**, plus you get a **12-month warranty** and can have a technician in Johannesburg within 48 hours.
+
+## VR Gaming & Your Mac's Heat Output
+
+Nvidia CloudXR is genuinely brilliant for Apple Vision Pro gaming — it streams games from your Mac to your headset without needing a high-end gaming PC. But here's the catch: **streaming VR puts massive thermal load on your Mac's GPU and processor**.
+
+If your MacBook Pro's cooling system isn't maintained, you're one gaming session away from thermal throttling — or worse, a **liquid damage failure** if condensation builds up inside the chassis during intense workloads.
+
+This is especially relevant in Johannesburg's climate. During summer, humidity spikes, and older MacBook Airs (M1, M2) are particularly vulnerable if their thermal paste has degraded. ZA Support sees this every week: someone's been gaming or video-editing heavily, the Mac stops working, and suddenly they're facing a **liquid damage repair (from R1,999)** or a full **logic board replacement**.
+
+## Why the iPhone Air Doesn't Suck (And Why Your Mac Deserves the Same Respect)
+
+The iPhone Air has quietly become an excellent mid-range device. It doesn't overpromise on specs, it delivers reliability, and it costs less than the Pro models. That's wisdom.
+
+Your **Mac is the same philosophy**. A MacBook Air M5 (from R15,000–R18,000) will handle 95% of what most users do — email, spreadsheets, video calls, even light video editing. You don't need the 16-inch Pro. But you *do* need to maintain what you buy.
+
+**That maintenance costs nothing compared to emergency repairs.** A Health Check from ZA Support costs just **R599** — it includes:
+- Complete system diagnostics
+- Battery health assessment  
+- Thermal performance analysis
+- Software integrity checks
+- Free recommendations
+
+## FAQs: Protecting Your Mac in 2026
+
+**Q: How do I know if my Mac has liquid damage?**
+A: Common signs include erratic keyboard behaviour, keys that don't respond, screen flickering, or the Mac shutting down randomly. If your MacBook's been near water (even steam from a cup of tea), bring it to ZA Support immediately. We can assess damage within an hour, often before it spreads.
+
+**Q: Is my MacBook Pro affected by load shedding?**
+A: Yes. Power surges during load shedding can damage your logic board. Use a UPS (uninterruptible power supply) for expensive Macs — R800–R1,500 investment saves you R25,000 in repairs. Always shut down properly; don't force-shut during brownouts.
+
+**Q: Can I game on my MacBook Air with Apple Vision Pro?**
+A: Yes, but be cautious. Ensure your Mac isn't running hot, update macOS, and don't game for more than 2–3 hours continuously. Let it cool between sessions. If your Mac feels hot to the touch, bring it in — thermal paste degradation is fixable and cheap if caught early.
+
+**Q: What's the difference between ZA Support and Mac Shack or Apple Store?**
+A: Apple Store is official but slow (2–4 weeks) and expensive. Mac Shack charges R4,499+ for logic board work. ZA Support is **local, fast (48 hours Johannesburg area), affordable (from R2,499), and we provide written 12-month warranties**. No Fix No Fee guarantee means you don't pay if we can't fix it.
+
+**Q: How often should I get my Mac serviced?**
+A: Every 12–18 months if you're a heavy user. If you game, edit video, or live in dusty areas, annual thermal maintenance is wise. Light users can go 2 years. But a Health Check annually (R599) catches problems before they become expensive failures.
+
+**Q: Should I upgrade to macOS 26 if my Mac is older?**
+A: Not necessarily. If your Mac is 5+ years old (Pre-M1), upgrading may slow it down. We can assess whether an upgrade makes sense, or help you optimise your current OS instead.
+
+## The Real Addiction: Staying Productive Without Burnout
+
+The Sunday Reboot reminds us that balance matters. Your Mac isn't meant to be a perpetual productivity machine — it's meant to serve you *reliably* so you can step away guilt-free.
+
+Keep it cool, keep it maintained, and when something goes wrong, **get it fixed quickly by someone local who understands Johannesburg's unique climate challenges**.
+
+Your focus should be on your work, your creativity, your life — not on whether your MacBook will survive the afternoon.
+
+**Need a Health Check or facing a repair?** WhatsApp us now: **wa.me/27645295863** or call **064 529 5863**.
+
+We're here in Hyde Park, Johannesburg, and we fix Macs faster and better than anyone else in Gauteng.
+`
+},
   'm5-macbook-air-review-incremental-update-but-the-best-b-south-africa-2026': {
     slug: 'm5-macbook-air-review-incremental-update-but-the-best-b-south-africa-2026',
     title: 'M5 MacBook Air 2026 — Incremental Update, But Still the Best Buy for Most South Africans | ZA Support',
