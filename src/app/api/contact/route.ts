@@ -4,6 +4,28 @@ import { escapeHtml, isValidEmail, clampLength, LIMITS } from '@/lib/sanitise';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+// ─── IP-based rate limiting ────────────────────────────────────────────────
+// 5 requests per IP per 60 seconds. Module-level store persists within a warm
+// Lambda instance. Cold-start resets are acceptable — provides meaningful
+// protection against rapid-fire bot bursts within the same request window.
+const rateLimitStore = new Map<string, { count: number; resetAt: number }>();
+const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_WINDOW_MS = 60_000;
+
+function checkRateLimit(ip: string): { limited: boolean; remaining: number } {
+  const now = Date.now();
+  const entry = rateLimitStore.get(ip);
+  if (!entry || now > entry.resetAt) {
+    rateLimitStore.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return { limited: false, remaining: RATE_LIMIT_MAX - 1 };
+  }
+  entry.count += 1;
+  if (entry.count > RATE_LIMIT_MAX) {
+    return { limited: true, remaining: 0 };
+  }
+  return { limited: false, remaining: RATE_LIMIT_MAX - entry.count };
+}
+
 // ─── Bot content detection ─────────────────────────────────────────────────
 // Names/issues shorter than real human input, or known bot probe patterns
 const BOT_NAME_PATTERNS = [/^rltest$/i, /^ci$/i, /^test$/i, /^bot$/i, /^asdf$/i, /^aaa+$/i, /^x+$/i, /^admin$/i, /^user$/i, /^null$/i];
@@ -26,6 +48,26 @@ function looksLikeBot(name: string, email: string, issue: string): boolean {
 
 export async function POST(request: NextRequest) {
   try {
+    // ── Rate limit check — first, before any other processing ────────────────
+    const ip =
+      request.headers.get('x-forwarded-for')?.split(',')[0].trim() ||
+      request.headers.get('x-real-ip') ||
+      'unknown';
+    const { limited, remaining } = checkRateLimit(ip);
+    if (limited) {
+      return NextResponse.json(
+        { error: 'Too many requests — please wait before trying again.' },
+        {
+          status: 429,
+          headers: {
+            'Retry-After': '60',
+            'X-RateLimit-Limit': String(RATE_LIMIT_MAX),
+            'X-RateLimit-Remaining': '0',
+          },
+        }
+      );
+    }
+
     const body = await request.json();
     const { name, email, phone, device, issue, urgency, _hp, _ts } = body;
 
