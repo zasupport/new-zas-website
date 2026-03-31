@@ -15,6 +15,78 @@ const posts: Record<string, {
   author: string;
   content: string;
 }> = {
+'apple-adds-apple-tv-and-ipad-mini-models-to-obsolete-pr-south-africa-2026': {
+  slug: 'apple-adds-apple-tv-and-ipad-mini-models-to-obsolete-pr-south-africa-2026',
+  title: 'Apple Adds Apple TV and iPad mini Models to "Obsolete" List – What It Means for South African Users',
+  excerpt: 'Apple has officially marked Apple TV HD and iPad mini models as obsolete, ending official repair support. Here is what South African device owners need to know.',
+  date: '31/03/2026',
+  category: 'Apple News',
+  readTime: '5 min read',
+  author: 'Mary',
+  content: `## Apple Adds Apple TV and iPad mini to Obsolete Products – Here's What It Means for You
+
+Apple has just updated its official list of vintage and obsolete products, adding **Apple TV HD and several iPad mini models** to the discontinued support category. For Mac users and Apple device owners across Johannesburg and South Africa, this is a moment to pause and understand what this decision means for your devices and your wallet.
+
+## What Does "Obsolete" Actually Mean?
+
+When Apple designates a product as obsolete, it means the device **stopped being sold more than seven years ago**. More critically, it signals the end of hardware repair support through Apple Authorised Service Providers. Your device won't suddenly stop working, but official repairs, spare parts, and support options effectively disappear.
+
+For South African users, this creates a real problem. Once a device is officially obsolete, local Apple Authorised Service Providers cannot perform repairs, source replacement components, or offer warranty coverage. You're left to fend for yourself.
+
+## Why This Matters in South Africa
+
+In Johannesburg and across our country, Apple's obsolescence classifications hit differently than they do internationally. Here's why:
+
+**No Local Official Support**: South African Apple Authorised Service Providers follow Apple's classifications religiously. Once a device is obsolete, they cannot help – full stop. There is no grey area, no exception process, no negotiation.
+
+**Repair Costs Skyrocket**: When official channels close, independent repair shops fill the gap – with premium pricing. Mac Shack and similar providers charge **R4,499 and upward** for repairs that would have cost a fraction of that when the device had official support status. Compare that to transparent pricing at ZA Support, and the difference becomes starkly clear.
+
+**Device Lifespan Uncertainty**: Owners of older iPad mini or Apple TV models now face a critical crossroads: pour money into repairs with limited parts availability, or invest in new hardware. For families and small businesses, this is a genuine financial decision.
+
+**Import and VAT Burden**: Apple products cost substantially more in South Africa due to import duties and value-added tax. A device representing a significant initial investment becomes e-waste the moment it needs repair and loses official support status.
+
+## The Bigger Picture: Apple's Narrowing Support Window
+
+This announcement reflects a troubling trend. Apple has systematically narrowed the window during which it provides official support and repairs. **The company now focuses repair availability and security updates almost exclusively on the most recent device generations.**
+
+For South African consumers paying premium prices for hardware, this shortened lifespan represents poor value. Unlike in developed markets where device replacement cycles are faster and cheaper, many South African users depend on devices functioning reliably for five, six, or seven years.
+
+## When Obsolete Status Becomes Critical: Logic Board and Liquid Damage
+
+Here is where the real impact hits. **Logic board failures and liquid damage** – the most severe and most expensive repairs – become impossible to address through official channels once a device is obsolete.
+
+Your iPad mini takes a spill. Your Apple TV develops a short circuit. The motherboard fails. Before the obsolete classification, you could take it to an Authorised Service Provider. Now? You have no official option. Independent repair costs explode. Apple Store repairs on officially unsupported devices can exceed **R15,000 to R70,000**.
+
+This is precisely the scenario where ZA Support's expertise in **logic board repair** and **liquid damage remediation** becomes invaluable. We can often save devices that Apple has officially abandoned, extending device life and preserving your investment.
+
+## The Health Check Advantage
+
+Before your device fails, a **Health Check costs just R599** and identifies emerging problems while repair options still exist. Catching a degrading logic board, a developing liquid damage issue, or battery problems early can save hundreds of rands in emergency repairs – or the cost of complete device replacement.
+
+Once a device is officially obsolete, preventative maintenance becomes exponentially more important. There is no safety net. No official repairs. No second chances.
+
+## Making the Right Decision
+
+If you own an older iPad mini or Apple TV device, the time to act is now – before failure forces expensive emergency decisions.
+
+Ask yourself three questions:
+
+**Does the device still serve its purpose?** If yes, protect your investment through preventative maintenance.
+
+**Are repairs needed now?** Address issues immediately while you still have options.
+
+**Have you considered your exit strategy?** Know your repair costs before deciding whether replacement makes financial sense.
+
+## We're Here to Help
+
+Whether your device needs immediate repair, a preventative Health Check, or just honest advice about whether your older Apple hardware is worth repairing, ZA Support understands the South African tech landscape.
+
+Don't wait for failure. **Reach out today** – especially if you own devices Apple is now abandoning. We offer transparent pricing, genuine expertise, and solutions that keep devices working when manufacturers have given up on them.
+
+**WhatsApp us**: [wa.me/27645295863](https://wa.me/27645295863)
+
+Your older Apple devices deserve better than being classified as disposable.`
+},
 'sunday-reboot-addiction-vr-and-how-the-iphone-air-doesn-south-africa-2026': {
     slug: 'sunday-reboot-addiction-vr-and-how-the-iphone-air-doesnt-suck',
     title: 'Tech Addiction, Productivity, and Keeping Your Mac Healthy in Johannesburg 2026 | ZA Support',
