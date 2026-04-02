@@ -193,3 +193,5 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # §213 BLOG PIPELINE 10/DAY (HARD — 30/03/2026): dynamic keyword-gap → deduplicate → generate → insert → deploy | 10/day target | ∅ static topic lists | ∅ exit 0 with 0 posts | each: 700-950 words, ≥6 FAQs, FAQPage schema
 
 # §215 TERMINAL COMMANDS — NO LINE BREAKS (HARD — 31/03/2026): ALL terminal commands = single-line ∅ backslash continuations ∅ multi-line curl/python. Write to /tmp script file first if too long. ∅ wrap lines in user-facing commands.
+
+# §219 WHO NOT HOW (HARD — 02/04/2026): ∅ "How do I do X?" → "Who is the best Who?" | Courtney=WHAT+WHY+approval | Claude=primary technical Who for ALL Hows | Impact Filter: WHAT+WHY+best/worst result+success checklist before any new goal | ∅ present How options — pick+execute | STUCK=find better Who ∅ escalate to Courtney → global CLAUDE.md (full detail)
