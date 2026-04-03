@@ -15,6 +15,93 @@ const posts: Record<string, {
   author: string;
   content: string;
 }> = {
+'discounted-ipad-pro-hits-apple-refurb-store-with-last-g-south-africa-2026': {
+  slug: 'discounted-ipad-pro-hits-apple-refurb-store-with-last-g-south-africa-2026',
+  title: 'Apple Refurbished Devices vs Mac Repair: What South African Users Should Know in 2026 | ZA Support',
+  excerpt: 'Apple's refurb store offers discounted devices, but sometimes repair is smarter. Here's how to decide for your Johannesburg Mac.',
+  date: '03/04/2026',
+  category: 'Mac Tips',
+  readTime: '5 min read',
+  author: 'Mary',
+  content: `Apple just added new refurbished iPad Pro models to its refurb store with last-generation specs at reduced prices. If you're in Johannesburg and facing an expensive Mac or iPad repair bill, you might be wondering: is buying refurbished the answer, or should you repair what you have?
+
+## The Refurbished Device Myth in South Africa
+
+**Refurbished devices ARE cheaper**, but they come with trade-offs that South African users need to understand. Apple's refurb store prices run 10-15% lower than retail—meaningful savings when a MacBook Pro costs R25,000 to R45,000 new. However, you're still looking at premium pricing compared to locally available alternatives.
+
+Here's the reality: Apple refurbished devices carry a one-year limited warranty. For Johannesburg users, that's often not enough protection. Our climate—high humidity, temperature swings, power fluctuations—is harder on electronics than Apple's testing assumes.
+
+## When Repair Beats Replacement
+
+A **Logic Board repair at R2,499** is drastically cheaper than replacing a MacBook Pro. If your device has liquid damage (spilled coffee, water splash), our **Liquid Damage service at R1,999** often brings it back to full function. Compare that to Apple Store replacement pricing—R15,000 to R70,000 depending on model—and repair becomes the obvious choice.
+
+The key question: **Is the repair less than 40% of replacement cost?** If yes, repair almost always wins. Logic board failures, liquid damage, and screen issues fall into this category.
+
+## Your Mac's Hidden Health Issues
+
+Before you buy refurbished, you should know your current device's actual condition. Apple refurb descriptions tell you what's been fixed, but they won't catch developing issues. Our **Health Check service at R599** runs nine diagnostic points:
+
+- Battery health (capacity and degradation)
+- Thermal performance (fans, heat management)
+- Storage integrity (SSD health)
+- Liquid damage markers (even old damage)
+- Keyboard and trackpad responsiveness
+- Display functionality
+- RAM stability
+- Logic board micro-faults
+- Firmware/software issues
+
+A Health Check often reveals that your "broken" Mac isn't actually broken—it's just slow or needs optimisation. Often costs R599. Replacement costs R25,000+.
+
+## The South African Repair Cost Comparison
+
+Let's talk money plainly:
+
+**Apple Store repairs:** R15,000 to R70,000+ depending on model and issue. No negotiation. Long turnaround (often 2-4 weeks if parts need importing).
+
+**Mac Shack and similar chains:** R4,499 to R12,000 for common repairs. Faster locally, but less transparency on parts quality.
+
+**ZA Support:** Targeted, transparent pricing. R599 Health Check to diagnose. R1,999 Liquid Damage. R2,499 Logic Board. No surprise charges. Same-day or next-day turnaround for most jobs.
+
+## Refurbished Doesn't Mean "Like New"
+
+Apple's refurbished stock in South Africa is **sometimes** available locally, but usually ships from international warehouses. Shipping costs are built into pricing. You're also buying last-generation specs (which means slower performance for the same money) on devices that have already been cycled once.
+
+A refurbished 2022 MacBook Air won't perform like a new 2026 model. But repairing your existing 2022 model and optimising it with a Health Check often costs one-tenth as much and runs the same speed.
+
+## When Refurbished Actually Makes Sense
+
+Refurbished devices make sense if:
+
+- You want a **specific older model** (for software compatibility or preference)
+- Your current device is **truly unsalvageable** (not just broken, but parts unavailable)
+- You need **backup hardware immediately** and can't wait for repairs
+- You're buying for **secondary use** (kids, travel, non-critical work)
+
+For primary work devices in Johannesburg's environment, repair and optimisation almost always wins on cost, reliability, and environmental impact.
+
+## What to Do This Week
+
+**Step 1:** Get a Health Check if you're unsure about your device's real condition. R599 tells you everything. Many Johannesburg users discover their Mac just needs cleaning, RAM upgrade (R1,500-R3,000), or SSD replacement (R2,000-R5,000)—not replacement.
+
+**Step 2:** If repair is the answer, Logic Board and Liquid Damage jobs start at R1,999-R2,499.
+
+**Step 3:** If you truly need new hardware, compare. Apple refurb saves money but not dramatically. Sometimes a certified second-hand Mac from a trusted local dealer offers better value than refurbished.
+
+## The Bottom Line
+
+**Refurbished devices are cheaper, but refurbished doesn't always beat repair.** In Johannesburg's climate and cost context, repairing what you have—especially logic board issues, liquid damage, or battery problems—is almost always the smarter financial choice.
+
+Your Mac isn't obsolete. It's just temporarily broken.
+
+Get your Health Check done this week. You might find you don't need to buy anything at all.
+
+---
+
+**WhatsApp us now to book your Health Check or discuss your repair needs: wa.me/27645295863**
+
+Built for Johannesburg's Apple users. Practice IT. Perfected.`
+},
 'iphone-18-s-biggest-design-change-will-be-new-colors-sa-south-africa-2026': {
   slug: 'iphone-18-s-biggest-design-change-will-be-new-colors-sa-south-africa-2026',
   title: 'iPhone 18's Biggest Design Change: New Colors Explained | South Africa 2026 | ZA Support',
