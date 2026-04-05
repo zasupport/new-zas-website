@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-const GOOGLE_API_KEY = process.env.GOOGLE_MAPS_API_KEY || '';
+const GOOGLE_API_KEY = process.env.GOOGLE_CSE_API_KEY || '';
 const GOOGLE_CSE_CX = process.env.GOOGLE_CSE_CX || '';
 
 interface CSEItem {
@@ -30,7 +30,7 @@ export async function GET(req: NextRequest) {
   }
 
   if (!GOOGLE_CSE_CX || !GOOGLE_API_KEY) {
-    return NextResponse.json({ error: 'Search not configured' }, { status: 503 });
+    return NextResponse.json({ error: 'Search not configured', not_configured: true }, { status: 503 });
   }
 
   const params = new URLSearchParams({

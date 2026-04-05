@@ -51,6 +51,7 @@ interface SearchResponse {
   total: number;
   results: SearchResult[];
   error?: string;
+  not_configured?: boolean;
 }
 
 interface Props {
@@ -134,11 +135,27 @@ export default function SearchResults({ query, start }: Props) {
     );
   }
 
-  if (data?.error) {
+  if (data?.not_configured || data?.error) {
+    const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(query + ' site:zasupport.com')}`;
     return (
-      <div className="flex items-center gap-2 text-red-400 text-sm">
-        <AlertCircle className="w-4 h-4" />
-        {data.error}
+      <div className="space-y-4">
+        <div className="flex items-start gap-3 bg-white/5 border border-white/10 rounded-xl p-4">
+          <AlertCircle className="w-4 h-4 text-white/40 mt-0.5 flex-shrink-0" />
+          <div className="space-y-2">
+            <p className="text-sm text-white/70">
+              Showing results for <strong className="text-white">&ldquo;{query}&rdquo;</strong> via Google.
+            </p>
+            <a
+              href={googleUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 bg-[#0FEA7A] text-[#0A1A18] px-4 py-2 rounded-lg text-sm font-semibold hover:bg-[#0FEA7A]/90 transition"
+            >
+              Search zasupport.com on Google <ExternalLink className="w-3.5 h-3.5" />
+            </a>
+          </div>
+        </div>
+        {cta && <CTACard cta={cta} />}
       </div>
     );
   }
