@@ -133,10 +133,13 @@ IndexNow: ∅ direct Google/Bing ping URLs — use ~/bin/za-index-submit.sh ONLY
 OG images: metadata `openGraph.images` + `twitter.images` (absolute URLs, 1200x630px).
 PWA/mobile: theme-color + apple-mobile-web-app-capable + apple-touch-icon in layout.tsx.
 
-## §170 CONTENT CALENDAR — 3 BLOGS/DAY (PERMANENT — 22/03/2026)
-Generate 3 blog posts per day using claude-haiku-4-5 via scripts/generate-blog-posts.py
-Topics rotate: model-specific fault guides | suburb-specific repair guides | cost/pricing guides | how-to diagnostic guides
-Each post: FAQPage schema | ServiceSchema mention | 600-900 words | UK English | ≥6 FAQs
+## §220 RESEARCH-FIRST BLOG PIPELINE — 7/DAY (HARD — 04/04/2026 — REPLACES §170/§213)
+Target: 7 posts/day (4 overnight 22:30 SAST via za-overnight-batch.sh + 3 daily 14:00 SAST via za-daily-blog-pipeline.sh)
+EVERY topic must be justified by data from ≥2 sources: GSC impressions-without-clicks | GA4 top-page patterns | PyTrends ZA | competitor keyword gaps | rank tracker position 5-20
+Research engine: ~/bin/za-blog-research-engine.py → ~/Desktop/Claude/Blog/research-briefs-DDMMYYYY.json
+Each topic gets a full research brief injected into the Haiku generation prompt
+Each post: 700-950 words | UK English | ≥6 FAQs | FAQPage schema | research data referenced naturally
+∅ hardcoded topic pools | ∅ DDG scraping as sole research | ∅ generic AI topics
 
 ## E2E TEST RULE (§164 — PERMANENT — HARD — 20/03/2026)
 AFTER ANY change: run full infrastructure e2e test SAME response:
@@ -190,7 +193,7 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 
 # §211 OVERNIGHT EXECUTION VERIFICATION (HARD — 30/03/2026): EVERY automated task MUST verify output — ∅ exit 0 without proof | file tasks: [ -s ] + validate | git: diff --stat non-empty | API: parse body | blog/page: tsc pass or REVERT | pipeline: explicit PASS/FAIL verdict | ∅ Haiku claims success without deliverable
 # §212 LAUNCHAGENT HEALTH (HARD — 30/03/2026): ALL 34 agents loaded | session start: launchctl list | grep -c zasupport = 34 | < 34 = reload before work | exit 127 = fix path | exit 1 = fix script
-# §213 BLOG PIPELINE 10/DAY (HARD — 30/03/2026): dynamic keyword-gap → deduplicate → generate → insert → deploy | 10/day target | ∅ static topic lists | ∅ exit 0 with 0 posts | each: 700-950 words, ≥6 FAQs, FAQPage schema
+# §220 BLOG PIPELINE 7/DAY (HARD — 04/04/2026): research-first (≥2 SEO sources per topic) → research brief → generate → insert → deploy | 7/day (4+3) | ∅ hardcoded pools | ∅ exit 0 with 0 posts | each: 700-950 words, ≥6 FAQs, FAQPage schema
 
 # §215 TERMINAL COMMANDS — NO LINE BREAKS (HARD — 31/03/2026): ALL terminal commands = single-line ∅ backslash continuations ∅ multi-line curl/python. Write to /tmp script file first if too long. ∅ wrap lines in user-facing commands.
 

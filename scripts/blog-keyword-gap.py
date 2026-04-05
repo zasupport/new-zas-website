@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
 ZA Support — Blog Keyword Gap Analyser
-Finds the best 3 blog topics to write tonight based on what hasn't been covered yet.
+DEPRECATED (§220 — 04/04/2026): Replaced by ~/bin/za-blog-research-engine.py
+Kept as fallback for 2026-04-18 (2 weeks). Remove after that date.
+Original function: finds best 3 blog topics from PyTrends + DDG scraping.
+New function: za-blog-research-engine.py uses GSC + GA4 + PyTrends + competitor gaps + rank tracker.
 """
 
 import json
