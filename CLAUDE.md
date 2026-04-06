@@ -143,3 +143,13 @@ src/app/editorial-policy/page.tsx          — Editorial policy trust page
 - Never use USD, HIPAA, US regulations, Benoni address, or MM/DD/YYYY dates
 - Never use iFixit images in published content (copyright — internal use only)
 - Never use "enterprise-grade", "best-in-class", "cutting-edge", "game-changer", "revolutionary", "world-class"
+
+# §221 GMB MEDIA SYNC (HARD — 06/04/2026):
+# Pull all photos+videos from Google Business Profile → ~/Desktop/Claude/Google/GMB-Media/
+# Auth: python3 ~/bin/za-gmb-oauth-setup.py (one-time OAuth2 consent — browser required)
+# Sync: bash ~/bin/za-gmb-media-sync.sh | LaunchAgent: com.zasupport.gmbmediasync (Mon 07:00)
+# Photos → /GMB-Media/photos/*.webp | Videos → /GMB-Media/videos/*.mp4
+# Use GMB photos in blog posts instead of stock images (§7 Image Requirements)
+# Credentials: GBP_CLIENT_ID + GBP_CLIENT_SECRET + GBP_REFRESH_TOKEN in ~/.za-keys-pending.env
+# Setup prereq: enable Business Profile API at console.cloud.google.com (project: za-support-seo-202603)
+

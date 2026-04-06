@@ -198,3 +198,13 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # §215 TERMINAL COMMANDS — NO LINE BREAKS (HARD — 31/03/2026): ALL terminal commands = single-line ∅ backslash continuations ∅ multi-line curl/python. Write to /tmp script file first if too long. ∅ wrap lines in user-facing commands.
 
 # §219 WHO NOT HOW (HARD — 02/04/2026): ∅ "How do I do X?" → "Who is the best Who?" | Courtney=WHAT+WHY+approval | Claude=primary technical Who for ALL Hows | Impact Filter: WHAT+WHY+best/worst result+success checklist before any new goal | ∅ present How options — pick+execute | STUCK=find better Who ∅ escalate to Courtney → global CLAUDE.md (full detail)
+
+# §221 GMB MEDIA SYNC (HARD — 06/04/2026):
+# Pull all photos+videos from Google Business Profile → ~/Desktop/Claude/Google/GMB-Media/
+# Auth: python3 ~/bin/za-gmb-oauth-setup.py (one-time OAuth2 consent — browser required)
+# Sync: bash ~/bin/za-gmb-media-sync.sh | LaunchAgent: com.zasupport.gmbmediasync (Mon 07:00)
+# Photos → /GMB-Media/photos/*.webp | Videos → /GMB-Media/videos/*.mp4
+# Use GMB photos in blog posts instead of stock images (§7 Image Requirements)
+# Credentials: GBP_CLIENT_ID + GBP_CLIENT_SECRET + GBP_REFRESH_TOKEN in ~/.za-keys-pending.env
+# Setup prereq: enable Business Profile API at console.cloud.google.com (project: za-support-seo-202603)
+
