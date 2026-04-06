@@ -101,7 +101,7 @@ const faqs = [
   {
     question: 'My Mac Mini will not turn on — is it the power supply?',
     answer:
-      'A Mac Mini that does not respond to the power button at all is most commonly a power supply failure. We diagnose this by testing the PSU output voltages independently of the logic board. If the PSU delivers correct voltage but the Mac Mini still does not power on, the fault is on the logic board — typically a blown power management IC or shorted capacitor near the power input. We can repair both. Bring it in for a free diagnostic and we will identify the exact component at fault before quoting.',
+      'A Mac Mini that does not respond to the power button at all is most commonly a power supply failure. We diagnose this by testing the PSU output voltages independently of the logic board. If the PSU delivers correct voltage but the Mac Mini still does not power on, the fault is on the logic board — typically a blown power management IC or shorted capacitor near the power input. We can repair both. Bring it in for an assessment from R599 and we will identify the exact component at fault before quoting.',
   },
   {
     question: 'Can load shedding damage a Mac Mini power supply?',
@@ -440,7 +440,7 @@ export default function BatteryReplacementMacMiniPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Mac Mini Not Powering On?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your Mac Mini model and a description of the fault — dead, intermittent, or losing settings after power cuts — and we will give you an honest assessment and price. Free diagnostic. Same-day service for most repairs. No Fix No Fee.
+              WhatsApp us your Mac Mini model and a description of the fault — dead, intermittent, or losing settings after power cuts — and we will give you an honest assessment and price. From R599 assessment. Same-day service for most repairs. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

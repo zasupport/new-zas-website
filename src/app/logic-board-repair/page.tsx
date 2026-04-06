@@ -391,7 +391,7 @@ export default function LogicBoardRepairPage() {
         </div>
       </section>
 
-      {/* ── FREE DIAGNOSTIC COMPETITIVE CALLOUT ── */}
+      {/* ── ASSESSMENT COMPETITIVE CALLOUT ── */}
       <section className="py-6 bg-[rgba(15,234,122,0.06)] border-y border-[rgba(15,234,122,0.12)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">

@@ -393,7 +393,7 @@ export default function AppleRepairPage() {
         </div>
       </section>
 
-      {/* ── FREE DIAGNOSTIC CALLOUT ── */}
+      {/* ── ASSESSMENT CALLOUT (from R599) ── */}
       <section className="py-6 bg-[rgba(15,234,122,0.06)] border-b border-[rgba(15,234,122,0.12)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">

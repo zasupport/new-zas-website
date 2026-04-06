@@ -4500,7 +4500,7 @@ We charge from R599 for assessment, then R1,200 to R3,400 for screen replacement
 Every repair includes:
 - Genuine parts or OEM equivalent
 - Three-year parts and labour warranty
-- Free diagnostics (R599 applied to invoice if you proceed)
+- Assessment from R599 (applied to invoice if you proceed)
 - **No Fix No Fee guarantee**—if we can't repair it, you don't pay
 
 Our No Fix No Fee promise means: if we open your phone and discover unrepairable damage (like water-logged logic board), we'll diagnose it, explain what happened, and you walk away without paying repair costs. You only pay the R599 assessment fee.
@@ -4633,7 +4633,7 @@ Apple's standard one-year limited warranty explicitly excludes liquid damage. Th
 
 In our experience at ZA Support, we've seen countless clients arrive with their MacBooks still under Apple's standard warranty, only to discover that the damage they sustained falls outside covered defects. The distinction Apple makes is important: liquid damage is classified as accidental damage caused by the user, not a manufacturing defect or hardware failure that occurs under normal use.
 
-When we conduct our free diagnostic assessment (from R599), we document exactly what we find—whether it's corrosion on the logic board, oxidised connectors, or water damage to the battery. This documentation becomes crucial if you're planning to make an insurance claim later.
+When we conduct our R599 assessment, we document exactly what we find—whether it's corrosion on the logic board, oxidised connectors, or water damage to the battery. This documentation becomes crucial if you're planning to make an insurance claim later.
 
 ## Does AppleCare+ Cover Liquid Damage in South Africa?
 
@@ -4685,7 +4685,7 @@ We've also helped clients with secondary repairs—for instance, if a liquid dam
 
 Whilst we can't prevent accidents, we can help you prepare. Consider AppleCare+ if you regularly work near liquids or in high-risk environments. If you already have device insurance, verify that accidental damage including liquid damage is covered and understand your excess before you need to claim.
 
-More immediately: if your MacBook has suffered water damage, act fast. Power it down, don't attempt to dry it with heat, and bring it to us for a free diagnostic. Early intervention prevents corrosion from spreading and significantly reduces repair costs.
+More immediately: if your MacBook has suffered water damage, act fast. Power it down, don't attempt to dry it with heat, and bring it to us for an assessment from R599. Early intervention prevents corrosion from spreading and significantly reduces repair costs.
 
 Visit our [MacBook repair page](/macbook-repair/screen) or [contact us](/contact) today to discuss your situation. We're here in Hyde Park, easily accessible from across Johannesburg, and we're ready to help.
 
@@ -4715,7 +4715,7 @@ Power it down immediately if it's still on. Don't attempt to dry it with heat, d
 
 ### Q: How long does liquid damage repair typically take at ZA Support?
 
-Most liquid damage repairs are completed within 5–7 business days, depending on component availability and extent of damage. We provide a turnaround estimate during your free diagnostic. All repairs are covered by our 12-month warranty, giving you genuine protection after we've fixed your MacBook.
+Most liquid damage repairs are completed within 5–7 business days, depending on component availability and extent of damage. We provide a turnaround estimate during your R599 assessment. All repairs are covered by our 12-month warranty, giving you genuine protection after we've fixed your MacBook.
 
 ---
 
@@ -4769,7 +4769,7 @@ Most liquid damage repairs are completed within 5–7 business days, depending o
       "name": "How long does liquid damage repair typically take at ZA Support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most liquid damage repairs are completed within 5–7 business days, depending on component availability and extent of damage. A turnaround estimate is provided during the free diagnostic. All repairs are covered by a 12-month warranty, giving genuine protection after the MacBook has been fixed."
+        "text": "Most liquid damage repairs are completed within 5–7 business days, depending on component availability and extent of damage. A turnaround estimate is provided during the R599 assessment. All repairs are covered by a 12-month warranty, giving genuine protection after the MacBook has been fixed."
       }
     }
   ]
@@ -4830,7 +4830,7 @@ The longer you wait, the deeper corrosion penetrates. Copper oxidises. Solder jo
 
 ## What You Should Do Right Now
 
-If your MacBook has encountered water, liquid, or humidity damage, don't wait. Bring it in for our [free diagnostic assessment](https://zasupport.com/contact). We'll examine the logic board under magnification, check for corrosion, and advise you on the best path forward.
+If your MacBook has encountered water, liquid, or humidity damage, don't wait. Bring it in for our [R599 assessment](https://zasupport.com/contact). We'll examine the logic board under magnification, check for corrosion, and advise you on the best path forward.
 
 Our process starts with a comprehensive assessment—from R599—that includes:
 
@@ -4954,7 +4954,7 @@ A: No. AppleCare+ and standard warranty don't cover accidental liquid damage. Th
 
 ---
 
-**Your MacBook's survival depends on what you do in the next 24 hours.** Don't gamble on a machine that seems fine. Book a [free assessment at ZA Support today](https://zasupport.com/contact).
+**Your MacBook's survival depends on what you do in the next 24 hours.** Don't gamble on a machine that seems fine. Book a [R599 assessment at ZA Support today](https://zasupport.com/contact).
 
 **Hyde Park Workshop | WhatsApp: 064 529 5863 | Book online: [zasupport.com/book](https://zasupport.com/book)**`,
   },
@@ -4980,7 +4980,7 @@ Water itself doesn't destroy electronics. Corrosion does. When liquid enters you
 
 The speed of your response matters enormously. In our workshop, we have an ultrasonic cleaner and the right isopropyl alcohol (99 per cent purity, not the supermarket variety). Within twelve hours of water exposure, we can typically arrest corrosion. We remove the logic board, battery, and display assembly, clean every trace of liquid and residue, and allow proper drying. After that window closes, the chemistry of oxidation becomes much harder to reverse.
 
-We've also seen load shedding complicate water damage recovery. Clients bring devices to us days after incidents because Stage 6 blackouts prevented them from getting to our Hyde Park location. By then, secondary damage has often begun. This is why our free diagnostic—from R599 assessment—should happen as quickly as possible after any liquid contact.
+We've also seen load shedding complicate water damage recovery. Clients bring devices to us days after incidents because Stage 6 blackouts prevented them from getting to our Hyde Park location. By then, secondary damage has often begun. This is why our R599 assessment—from R599 assessment—should happen as quickly as possible after any liquid contact.
 
 ## The Financial Reality: Repair Costs versus New Device Prices
 
@@ -5020,7 +5020,7 @@ This is why we're confident enough to offer a No Fix No Fee guarantee on water d
 
 This shifts the calculation entirely. Getting a professional diagnostic at our Hyde Park workshop—from R599—costs far less than an Apple Store visit, and you receive actual repair options rather than a "replace the logic board" statement.
 
-Most people we see with water damage don't actually know whether repair is viable. They're making the buy-new decision based on assumption, not information. A free assessment takes that guesswork away.
+Most people we see with water damage don't actually know whether repair is viable. They're making the buy-new decision based on assumption, not information. A R599 assessment takes that guesswork away.
 
 ## Our Water Damage Repair Process
 
@@ -5030,11 +5030,11 @@ The timeline is typically five to seven business days for standard water damage.
 
 ## Making Your Decision
 
-Visit our Hyde Park Johannesburg workshop or [book a free assessment online](/book). Bring your device, explain what happened, and let us provide actual numbers. If repair costs less than 40 per cent of a replacement device, and your machine is reasonably recent, repair is almost certainly worth pursuing.
+Visit our Hyde Park Johannesburg workshop or [book an assessment from R599 online](/book). Bring your device, explain what happened, and let us provide actual numbers. If repair costs less than 40 per cent of a replacement device, and your machine is reasonably recent, repair is almost certainly worth pursuing.
 
 The data says this clearly: 85 per cent of water-damaged laptops that reach us within 48 hours recover fully. Your device is likely repairable. The only question is whether repair costs justify the benefit—and with actual numbers from a professional diagnostic, you can answer that with confidence rather than assumption.
 
-**WhatsApp us:** 064 529 5863 | **Book your free assessment:** zasupport.com/book
+**WhatsApp us:** 064 529 5863 | **Book your assessment:** zasupport.com/book
 
 ---
 
@@ -5047,7 +5047,7 @@ Within the first 48 hours, success rates are highest because corrosion hasn't pr
 Yes. We prioritise data preservation. The hard drive or SSD is typically unaffected by liquid exposure because it's a sealed component. Even if the logic board requires replacement, your storage device remains safe, and your data remains intact. We can recover data from devices that don't repair as well.
 
 ### Q: How much does water damage repair cost at ZA Support?
-Most straightforward water damage repairs cost between R3,500 and R5,500. Complex cases involving multiple failed components might reach R8,000. A free diagnostic from R599 gives you an exact quote before any work begins. We offer a 12-month warranty on all repairs and a No Fix No Fee guarantee if repair proves impossible.
+Most straightforward water damage repairs cost between R3,500 and R5,500. Complex cases involving multiple failed components might reach R8,000. A R599 assessment from R599 gives you an exact quote before any work begins. We offer a 12-month warranty on all repairs and a No Fix No Fee guarantee if repair proves impossible.
 
 ### Q: Is it worth repairing a five-year-old MacBook after water damage?
 Typically, yes. A five-year-old MacBook still has useful working life, particularly for general productivity. If repair costs less than 40 per cent of a new device (roughly R9,000–R18,000 depending on the model), repair is financially sensible. You also preserve your existing setup, software, and data structure.
@@ -5086,7 +5086,7 @@ Many gadget insurance policies in South Africa cover accidental water damage, th
       "name": "How much does water damage repair cost at ZA Support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most straightforward water damage repairs cost between R3,500 and R5,500. Complex cases involving multiple failed components might reach R8,000. A free diagnostic from R599 gives you an exact quote before any work begins. We offer a 12-month warranty on all repairs and a No Fix No Fee guarantee if repair proves impossible."
+        "text": "Most straightforward water damage repairs cost between R3,500 and R5,500. Complex cases involving multiple failed components might reach R8,000. A R599 assessment from R599 gives you an exact quote before any work begins. We offer a 12-month warranty on all repairs and a No Fix No Fee guarantee if repair proves impossible."
       }
     },
     {
@@ -5175,7 +5175,7 @@ But on newer MacBook Air and MacBook Pro models (2016 onwards), component repair
 
 ## Our Repair Process: Transparent from Diagnosis
 
-Every MacBook that arrives at ZA Support gets a **free diagnostic assessment** (from R599 if you choose not to proceed). Here's what we do:
+Every MacBook that arrives at ZA Support gets a **R599 assessment** (from R599 if you choose not to proceed). Here's what we do:
 
 1. **Initial inspection** – visual corrosion mapping under magnification
 2. **Ultrasonic clean** – remove loose oxides and salts in isopropyl alcohol
@@ -5203,9 +5203,9 @@ We invest in proper diagnostics: oscilloscopes, thermal imaging cameras, and a d
 
 For comparison, [Apple Support](https://support.apple.com) and authorised retailers follow a full-replacement model exclusively. There's nothing wrong with that for critical work environments, but it's not the only option—and it's certainly not the most economical for personal and small business use.
 
-## Booking Your Free Diagnostic
+## Booking Your Assessment
 
-If your MacBook won't turn on, charges erratically, or was exposed to liquid, contact us for a free assessment:
+If your MacBook won't turn on, charges erratically, or was exposed to liquid, contact us for an assessment from R599:
 
 **WhatsApp: 064 529 5863**  
 **Book online: zasupport.com/book**  
@@ -5220,7 +5220,7 @@ See our full [logic board repair service](/logic-board-repair) or learn more abo
 ## Frequently Asked Questions
 
 ### Q: How do you know if a logic board is repairable vs beyond repair?
-A: We use multimeter continuity testing to map short circuits, then thermal imaging to spot corrosion hotspots. If damage is confined to one or two components (power IC, USB controller, SSD connector), it's repairable. If the corrosion is widespread across the board and multiple power domains are shorted, replacement may be more sensible. Our free diagnostic reveals this clearly.
+A: We use multimeter continuity testing to map short circuits, then thermal imaging to spot corrosion hotspots. If damage is confined to one or two components (power IC, USB controller, SSD connector), it's repairable. If the corrosion is widespread across the board and multiple power domains are shorted, replacement may be more sensible. Our R599 assessment reveals this clearly.
 
 ### Q: Why does ultrasonic cleaning sometimes fix a water-damaged MacBook on its own?
 A: Ultrasonic vibrations (typically 40 kHz) physically dislodge oxidation and mineral salts from solder joints and copper traces without applying heat or chemicals that might damage delicate components. In boards with mild corrosion, this alone restores electrical continuity. However, ultrasonic cleaning cannot fix physical component failure—only corrosion.
@@ -5249,7 +5249,7 @@ A: No. Once the logic board is sent for repair, the MacBook cannot function. Dur
       "name": "How do you know if a logic board is repairable vs beyond repair?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We use multimeter continuity testing to map short circuits, then thermal imaging to spot corrosion hotspots. If damage is confined to one or two components (power IC, USB controller, SSD connector), it's repairable. If the corrosion is widespread across the board and multiple power domains are shorted, replacement may be more sensible. Our free diagnostic reveals this clearly."
+        "text": "We use multimeter continuity testing to map short circuits, then thermal imaging to spot corrosion hotspots. If damage is confined to one or two components (power IC, USB controller, SSD connector), it's repairable. If the corrosion is widespread across the board and multiple power domains are shorted, replacement may be more sensible. Our R599 assessment reveals this clearly."
       }
     },
     {
@@ -5320,7 +5320,7 @@ The immediate damage from water is oxidation and short-circuiting on the logic b
 
 In our experience, if the MacBook's logic board can be stabilised and partially restored, the SSD data often survives intact. Apple's T2 chip and M-series encryption do complicate matters (we'll cover this below), but it's not a barrier to data recovery.
 
-**The real issue:** if you wait weeks before bringing the device in, corrosion spreads. That's why [we offer a free diagnostic](https://zasupport.com/book) starting from R599—we can assess the damage immediately and tell you whether your data is recoverable.
+**The real issue:** if you wait weeks before bringing the device in, corrosion spreads. That's why [we offer an assessment from R599](https://zasupport.com/book) starting from R599—we can assess the damage immediately and tell you whether your data is recoverable.
 
 ## Why Apple Can't Help With Data Recovery
 
@@ -5368,7 +5368,7 @@ This is why keeping your recovery key in a safe place matters. It's found in Sys
 
 ## Data Recovery Costs and Timeline
 
-Our [free diagnostic assessment](https://zasupport.com/book), available from R599, tells you exactly what's salvageable. 
+Our [R599 assessment](https://zasupport.com/book), available from R599, tells you exactly what's salvageable. 
 
 For logic board repair on liquid-damaged MacBooks, we typically charge from R3,500 to R7,999 depending on the extent of corrosion and which components need reworking. This includes a **12-month warranty**. If we can't restore function, you pay nothing—that's our **No Fix No Fee guarantee**.
 
@@ -5387,7 +5387,7 @@ If your MacBook has been exposed to liquid, here's what to do:
 3. **Bring it to us within 48 hours.** Corrosion accelerates after the first 24 hours.
 4. **Have your password ready.** If we do need to boot the machine for testing, we'll need your login credentials.
 
-[Book your free diagnostic today.](/book) Our Hyde Park workshop is open Monday to Friday, 09:00 to 17:00. We'll examine your MacBook and give you a clear recovery plan with no hidden costs.
+[Book your assessment today.](/book) Our Hyde Park workshop is open Monday to Friday, 09:00 to 17:00. We'll examine your MacBook and give you a clear recovery plan with no hidden costs.
 
 And if your MacBook is repairable, we'll also check your [battery health](/macbook-repair/battery) and [screen](/macbook-repair/screen) while it's with us—water damage often exposes hidden issues in other components.
 
@@ -5397,7 +5397,7 @@ And if your MacBook is repairable, we'll also check your [battery health](/macbo
 
 ### Q: Can I recover data from a MacBook that won't turn on at all?
 
-Yes, often. If the logic board can be partially restored, data recovery is possible. Even if the board is beyond repair, the soldered SSD may be intact and accessible via specialist hardware extraction. Our free diagnostic will determine your specific situation.
+Yes, often. If the logic board can be partially restored, data recovery is possible. Even if the board is beyond repair, the soldered SSD may be intact and accessible via specialist hardware extraction. Our R599 assessment will determine your specific situation.
 
 ### Q: How long does MacBook water damage data recovery take?
 
@@ -5409,7 +5409,7 @@ Absolutely. If you've been backing up to Time Machine, you can restore everythin
 
 ### Q: Is data recovery from a water-damaged MacBook expensive?
 
-Our [logic board repairs](/logic-board-repair) start from R3,500 and come with a 12-month warranty. If we can't repair it, you pay nothing. Specialist NAND recovery services (if needed) typically cost R2,500–R8,000. Always get a free diagnostic first.
+Our [logic board repairs](/logic-board-repair) start from R3,500 and come with a 12-month warranty. If we can't repair it, you pay nothing. Specialist NAND recovery services (if needed) typically cost R2,500–R8,000. Always get an assessment from R599 first.
 
 ### Q: Should I open my water-damaged MacBook myself to clean it?
 
@@ -5431,7 +5431,7 @@ Yes, in most cases. If the logic board is repairable, the MacBook boots normally
       "name": "Can I recover data from a MacBook that won't turn on at all?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, often. If the logic board can be partially restored, data recovery is possible. Even if the board is beyond repair, the soldered SSD may be intact and accessible via specialist hardware extraction. Our free diagnostic will determine your specific situation."
+        "text": "Yes, often. If the logic board can be partially restored, data recovery is possible. Even if the board is beyond repair, the soldered SSD may be intact and accessible via specialist hardware extraction. Our R599 assessment will determine your specific situation."
       }
     },
     {
@@ -5455,7 +5455,7 @@ Yes, in most cases. If the logic board is repairable, the MacBook boots normally
       "name": "Is data recovery from a water-damaged MacBook expensive?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our logic board repairs start from R3,500 and come with a 12-month warranty. If we can't repair it, you pay nothing. Specialist NAND recovery services (if needed) typically cost R2,500–R8,000. Always get a free diagnostic first."
+        "text": "Our logic board repairs start from R3,500 and come with a 12-month warranty. If we can't repair it, you pay nothing. Specialist NAND recovery services (if needed) typically cost R2,500–R8,000. Always get an assessment from R599 first."
       }
     },
     {
@@ -5483,7 +5483,7 @@ Yes, in most cases. If the logic board is repairable, the MacBook boots normally
 **Need help now?** Contact ZA Support in Hyde Park, Johannesburg.
 **WhatsApp:** [064 529 5863](https://wa.me/27645295863)
 **Book online:** [zasupport.com/book](https://zasupport.com/book)
-**Free diagnostic:** from R599 | **No Fix No Fee** | **12-month warranty**`,
+**Assessment:** from R599 | **No Fix No Fee** | **12-month warranty**`,
   },
   'macbook-water-damage-diy-mistakes-to-avoid': {
     slug: 'macbook-water-damage-diy-mistakes-to-avoid',
@@ -5547,7 +5547,7 @@ We once had a client tilt a MacBook Pro vertically after spilling tea on the key
 
 If you're attempting to disassemble the MacBook yourself (which we don't recommend), metal tools can cause static discharge and short circuits. We've seen clients use metal tweezers to remove liquid from keyboard switches, only to accidentally touch a live trace on the logic board.
 
-**What to do instead:** Don't open the device. Call us for a free diagnostic. Our technicians use proper ESD mats, grounding straps, and plastic spudgers specifically designed for this work.
+**What to do instead:** Don't open the device. Call us for an assessment from R599. Our technicians use proper ESD mats, grounding straps, and plastic spudgers specifically designed for this work.
 
 ## Mistake 6: Pouring Isopropyl Alcohol Directly Into the Keyboard
 
@@ -5571,7 +5571,7 @@ We had a client wait three weeks after water damage, hoping it would dry out. By
 
 **Step 3:** Leave the device closed and stationary in a warm, dry room (20–25°C) for 48 hours.
 
-**Step 4:** After 48 hours, bring it to ZA Support in Hyde Park for a free diagnostic. No Fix No Fee means you won't pay a cent if we can't repair it.
+**Step 4:** After 48 hours, bring it to ZA Support in Hyde Park for an assessment from R599. No Fix No Fee means you won't pay a cent if we can't repair it.
 
 Our assessment costs just R599 if you do decide to proceed with repairs, and we offer up to a 12-month warranty on [liquid damage repairs](/liquid-damage). We've successfully recovered data and restored functionality to machines other workshops said were beyond repair.
 
@@ -5664,7 +5664,7 @@ If we assess your MacBook and determine it can't be repaired, you don't pay. Our
 
 ---
 
-**Need urgent help with water damage?** Message us on WhatsApp: **064 529 5863** or [book your free diagnostic](https://zasupport.com/book). We're open Monday to Saturday, Hyde Park Johannesburg.`,
+**Need urgent help with water damage?** Message us on WhatsApp: **064 529 5863** or [book your assessment](https://zasupport.com/book). We're open Monday to Saturday, Hyde Park Johannesburg.`,
   },
   'macbook-water-damage-repair-cost-south-africa': {
     slug: 'macbook-water-damage-repair-cost-south-africa',
@@ -5929,7 +5929,7 @@ Despite precautions, accidents happen. Here is what to do:
 
 1. **Switch off immediately.** Do not wait. Shut down and unplug all cables.
 2. **Do not attempt to dry it.** Heat guns and hair dryers push liquid deeper into components.
-3. **Contact us within 4 hours.** We offer a free diagnostic (from R599 assessment) and can often prevent permanent damage with controlled drying.
+3. **Contact us within 4 hours.** We offer an assessment from R599 (from R599 assessment) and can often prevent permanent damage with controlled drying.
 4. **Avoid opening the case yourself.** The logic board has micro-components. Touching them risks electrostatic damage.
 
 We have achieved 80 per cent recovery rates on devices brought in immediately after spill incidents. Delayed contact (24+ hours) reduces recovery chances significantly.
@@ -6039,7 +6039,7 @@ Turnaround is typically 3–5 working days depending on component availability. 
 
 **Need help protecting your MacBook or dealing with existing water damage?** Contact ZA Support in Hyde Park, Johannesburg.
 
-WhatsApp us on **064 529 5863** or book online at **zasupport.com/book** for your free diagnostic assessment (normally R599). We offer No Fix No Fee guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
+WhatsApp us on **064 529 5863** or book online at **zasupport.com/book** for your R599 assessment. We offer No Fix No Fee guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
   },
   'signs-of-water-damage-macbook-how-to-tell': {
     slug: 'signs-of-water-damage-macbook-how-to-tell',
@@ -6059,7 +6059,7 @@ The challenge is that Apple doesn't make water damage obvious. Your MacBook won'
 
 Apple includes Liquid Contact Indicators in virtually every MacBook model dating back to 2008. The LCI is a small paper-based sensor that changes colour when exposed to moisture. In normal conditions, it appears white or translucent. Once exposed to liquid, it turns bright red or pink.
 
-The problem? The LCI's location varies dramatically between models, and many owners never know their MacBook has one. This is precisely why clients frequently ask us during our free diagnostic assessment where to find theirs.
+The problem? The LCI's location varies dramatically between models, and many owners never know their MacBook has one. This is precisely why clients frequently ask us during our R599 assessment where to find theirs.
 
 For most modern MacBooks (2015 onwards), Apple places the LCI near the battery connector or inside the trackpad assembly. On older models like the MacBook Pro 2013 and earlier, you'll find it tucked beneath the keyboard or near the USB ports. On the MacBook Air, it's typically located under the battery unit.
 
@@ -6089,7 +6089,7 @@ The real danger lurks on the logic board. This is where we deploy our expertise 
 
 ## How to Check Your MacBook for Water Damage at Home
 
-If you suspect your MacBook has been exposed to liquid, follow these steps before visiting us for a free diagnostic:
+If you suspect your MacBook has been exposed to liquid, follow these steps before visiting us for an assessment from R599:
 
 **First, power it off immediately.** Do not attempt to charge it. Do not restart it to "see if it still works." Every second a liquid-exposed machine remains powered, more corrosion occurs.
 
@@ -6155,7 +6155,7 @@ Indirectly, yes. If your MacBook suffered liquid damage and you haven't yet had 
 
 If you've identified any of these signs—a red Liquid Contact Indicator, discolouration around the keyboard, or unexplained performance issues—don't wait for failure. Contact ZA Support today.
 
-**Book your free diagnostic:** zasupport.com/book or WhatsApp us on **064 529 5863**
+**Book your assessment:** zasupport.com/book or WhatsApp us on **064 529 5863**
 
 We're located in Hyde Park, Johannesburg. Our R599 comprehensive assessment covers LCI inspection, logic board examination, component testing, and a detailed repair quote. From there, you'll know exactly what's needed and how much it costs—no surprises, no pressure.
 
@@ -6272,7 +6272,7 @@ The safest immediate action is to leave the machine powered off and closed, and 
 
 ## When to Bring Your MacBook In: Our Assessment Process
 
-We offer a free diagnostic assessment at our Hyde Park location. Here's what happens:
+We offer a R599 assessment at our Hyde Park location. Here's what happens:
 
 First, we visually inspect the MacBook for liquid pooling or visible damage. We check whether any liquid has dried on the external case—this tells us how much likely penetrated the interior. Next, we use our isopropyl alcohol 99% rinse test: we apply a tiny amount to see if residue washes away or sticks. Sticky residue means sugary liquid, which changes our repair strategy.
 
@@ -6324,7 +6324,7 @@ Not every liquid-damaged MacBook is repairable.
 
 If your machine was exposed to liquid, left powered on for several minutes, and then sat idle for weeks before repair, we might find extensive corrosion that reaches a point of diminishing returns. If the SSD has failed electrically (not uncommon with liquid damage), you're looking at data recovery costs on top of repair costs, and even then, recovery isn't guaranteed.
 
-Our free diagnostic will answer this definitively. We check the SSD's [SMART status](/liquid-damage), listen for signs of component failure, and use our experience (we've seen thousands of spill cases) to give you an honest assessment: repairable, expensive but worth it, or unfortunately beyond economic repair.
+Our R599 assessment will answer this definitively. We check the SSD's [SMART status](/liquid-damage), listen for signs of component failure, and use our experience (we've seen thousands of spill cases) to give you an honest assessment: repairable, expensive but worth it, or unfortunately beyond economic repair.
 
 If a machine is beyond repair, you haven't paid anything. That's the No Fix No Fee promise.
 
@@ -6334,7 +6334,7 @@ It sounds obvious, but keep liquids away from your workspace when your MacBook i
 
 Consider a separate coffee table or mug holder at arm's length from your desk, not immediately next to your keyboard. A spill is often a matter of millimetres of carelessness—an elbow bump, a moment's distraction.
 
-If you do spill something, remember: closed lid, power off, call us. We're in Hyde Park, and we can typically get you in for a free assessment within 24 hours. WhatsApp us on 064 529 5863 or [book online at zasupport.com/book](https://zasupport.com/book).
+If you do spill something, remember: closed lid, power off, call us. We're in Hyde Park, and we can typically get you in for an assessment from R599 within 24 hours. WhatsApp us on 064 529 5863 or [book online at zasupport.com/book](https://zasupport.com/book).
 
 ---
 
@@ -6358,7 +6358,7 @@ Not always, but usually. If you bring the machine in within 2-3 hours and the co
 
 ### Q: How much does it cost to repair a coffee-spilled MacBook?
 
-Our free diagnostic tells you exactly. Keyboard replacement with professional cleaning starts from R4,499. If the logic board is affected, costs can reach R8,000-R12,000 depending on the extent of corrosion. This is substantially less than Apple's typical R15,000-R70,000 logic board replacement costs. All repairs come with a 12-month warranty.
+Our R599 assessment tells you exactly. Keyboard replacement with professional cleaning starts from R4,499. If the logic board is affected, costs can reach R8,000-R12,000 depending on the extent of corrosion. This is substantially less than Apple's typical R15,000-R70,000 logic board replacement costs. All repairs come with a 12-month warranty.
 
 ### Q: What's your No Fix No Fee guarantee exactly?
 
@@ -6408,7 +6408,7 @@ We don't charge for diagnostics. If after a full assessment we determine your Ma
       "name": "How much does it cost to repair a coffee-spilled MacBook?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our free diagnostic tells you exactly. Keyboard replacement with professional cleaning starts from R4,499. If the logic board is affected, costs can reach R8,000-R12,000 depending on the extent of corrosion. This is substantially less than Apple's typical R15,000-R70,000 logic board replacement costs. All repairs come with a 12-month warranty."
+        "text": "Our R599 assessment tells you exactly. Keyboard replacement with professional cleaning starts from R4,499. If the logic board is affected, costs can reach R8,000-R12,000 depending on the extent of corrosion. This is substantially less than Apple's typical R15,000-R70,000 logic board replacement costs. All repairs come with a 12-month warranty."
       }
     },
     {
@@ -6425,7 +6425,7 @@ We don't charge for diagnostics. If after a full assessment we determine your Ma
 
 ---
 
-**Your next steps:** Power off your MacBook, close the lid, and get it to us. WhatsApp **064 529 5863** or [book your free diagnostic at zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, Johannesburg, and we'll give you honest feedback about whether your machine is salvageable—at no cost if we can't repair it.`,
+**Your next steps:** Power off your MacBook, close the lid, and get it to us. WhatsApp **064 529 5863** or [book your assessment at zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, Johannesburg, and we'll give you honest feedback about whether your machine is salvageable—at no cost if we can't repair it.`,
   },
   'can-water-damaged-macbook-be-repaired-south-africa': {
     slug: 'can-water-damaged-macbook-be-repaired-south-africa',

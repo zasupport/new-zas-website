@@ -25,7 +25,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air M2 Battery Replacement Johannesburg 2026 | From R1,999 | ZA Support',
   description:
-    'MacBook Air M2 battery replacement Johannesburg from R1,999. 52.6 Wh cell, flat-body design, MagSafe 3 charging. Free diagnostic. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Air M2 battery replacement Johannesburg from R1,999. 52.6 Wh cell, flat-body design, MagSafe 3 charging. From R599 assessment. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air-m2' },
   keywords: [
     'MacBook Air M2 battery replacement Johannesburg',
@@ -174,7 +174,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
               {[
                 { icon: Shield, label: 'No Fix No Fee' },
                 { icon: Battery, label: '52.6 Wh Cell' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'R599 Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
                 { icon: Wrench, label: '2-4 Hour Turnaround' },
               ].map(({ icon: Icon, label }) => (
@@ -446,7 +446,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M2 Battery Struggling?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model (13-inch or 15-inch), cycle count, and a description of the issue. We will give you an honest price and turnaround before you bring the machine in. Free diagnostic. No Fix No Fee.
+              WhatsApp us your model (13-inch or 15-inch), cycle count, and a description of the issue. We will give you an honest price and turnaround before you bring the machine in. From R599 assessment. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

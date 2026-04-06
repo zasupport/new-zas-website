@@ -71,12 +71,14 @@ Every service page MUST include at minimum:
 - ZA Support contact embedded naturally (not just CTA)
 ∅ generic filler content | ∅ pages under 400 words body text
 
-## §169 SERVICE AREA (PERMANENT — HARD — 22/03/2026)
-Service area = all suburbs within 25km of Hyde Park (1 Hyde Park Lane, JHB) PLUS Pretoria and Centurion.
-COVERED: sandton|rosebank|bryanston|fourways|midrand|randburg|kempton-park
-PENDING: pretoria|centurion|morningside|rivonia|sunninghill|paulshof|northcliff|houghton|parkhurst
-ON new suburb page: create across ALL 4 service types simultaneously
-∅ create suburb page for one service without creating for all 4 | sitemap updated same commit
+## §169 / §223 SERVICE AREA — 60KM GAUTENG ONLY (HARD — updated 06/04/2026)
+Service area = Gauteng suburbs within 60km of Hyde Park (1 Hyde Park Lane, JHB 2196). ∅ Cape Town ∅ other provinces.
+≤20km TIER 1: sandton|rosebank|bryanston|fourways|morningside|rivonia|houghton|melrose|illovo|parkhurst|northcliff|randburg|sunninghill|paulshof|woodmead|kyalami|edenvale|bedfordview
+20–60km TIER 2: midrand|kempton-park|centurion|pretoria|roodepoort|boksburg|benoni|alberton|germiston|randpark-ridge
+PRIORITY PER SUBURB: logic-board > liquid-damage > managed-IT(medical/corporate) > screen > battery
+HIGH VALUE: sandton(Investec)|morningside(medical)|bryanston(corporate)|midrand(tech)
+ON new suburb page: create across ALL service types simultaneously | sitemap updated same commit
+∅ create suburb page for one service without creating for all | ∅ content targeting outside 60km radius
 
 ## §171 CONTENT QUALITY — AI DETECTION MITIGATION (PERMANENT — HARD — 22/03/2026)
 ALL generated content MUST include:
@@ -207,4 +209,11 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # Use GMB photos in blog posts instead of stock images (§7 Image Requirements)
 # Credentials: GBP_CLIENT_ID + GBP_CLIENT_SECRET + GBP_REFRESH_TOKEN in ~/.za-keys-pending.env
 # Setup prereq: enable Business Profile API at console.cloud.google.com (project: za-support-seo-202603)
+
+# §222 CLAUDE OPUS TERMINAL ONLY (HARD — 06/04/2026):
+# ALWAYS launch Claude via Terminal — ∅ web browser ∅ claude.ai
+# Model lock: claude-opus-4-6 set in ~/.claude/settings.json (permanent)
+# Terminal launcher: ~/Desktop/Claude Opus.app (double-click → Terminal → claude --model claude-opus-4-6)
+# CLI: `claude --model claude-opus-4-6` or just `claude` (settings.json enforces Opus)
+# ∅ open claude.ai in browser | ∅ use Sonnet when Opus is available | ∅ skip --model flag
 

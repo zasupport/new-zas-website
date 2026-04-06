@@ -220,7 +220,7 @@ export default function ScreenRepairMacMiniPage() {
                 { icon: Monitor, label: 'All Mac Mini Models' },
                 { icon: Cpu, label: 'HDMI & Thunderbolt Specialist' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'R599 Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -320,7 +320,7 @@ export default function ScreenRepairMacMiniPage() {
               Load shedding is the single most destructive factor for Mac Mini display hardware in South Africa. A surge on power restoration can propagate through the internal power supply and reach the HDMI controller or Thunderbolt retimer before the onboard voltage regulator clamps the spike. The result is a Mac Mini that boots, runs, and responds to network traffic — but produces absolutely no display output. We see this pattern multiple times every month in Johannesburg. The repair is component-level, typically under R2,000, and dramatically cheaper than Apple&apos;s logic board replacement.
             </p>
             <p>
-              The most common misdiagnosis we encounter is clients replacing their monitor or cable when the fault is actually inside the Mac Mini. A simple test separates the two: connect a different device to the same monitor and cable. If the monitor works, the Mac Mini output is the problem. Bring it to us for a free diagnostic — we will identify the exact failed component before you spend anything.
+              The most common misdiagnosis we encounter is clients replacing their monitor or cable when the fault is actually inside the Mac Mini. A simple test separates the two: connect a different device to the same monitor and cable. If the monitor works, the Mac Mini output is the problem. Bring it to us for an assessment from R599 — we will identify the exact failed component before you spend anything.
             </p>
           </div>
           <div className="mt-6">
@@ -470,7 +470,7 @@ export default function ScreenRepairMacMiniPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Mac Mini Not Displaying? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us with a description of the fault — which port, which monitor, what you see (or don&apos;t see). We will give you an honest assessment and a price range before you bring the machine in. Free diagnostic. No Fix No Fee. 12-month warranty on all repairs.
+              WhatsApp us with a description of the fault — which port, which monitor, what you see (or don&apos;t see). We will give you an honest assessment and a price range before you bring the machine in. From R599 assessment. No Fix No Fee. 12-month warranty on all repairs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

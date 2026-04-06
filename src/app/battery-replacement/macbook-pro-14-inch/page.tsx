@@ -25,7 +25,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro 14-Inch Battery Replacement Johannesburg 2026 | From R2,499 | ZA Support',
   description:
-    'MacBook Pro 14-inch battery replacement Johannesburg from R2,499. 69.6 Wh cell, adhesive removal, calibration. Free diagnostic. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro 14-inch battery replacement Johannesburg from R2,499. 69.6 Wh cell, adhesive removal, calibration. From R599 assessment. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-14-inch' },
   keywords: [
     'MacBook Pro 14 inch battery replacement Johannesburg',
@@ -176,7 +176,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
               {[
                 { icon: Shield, label: 'No Fix No Fee' },
                 { icon: Battery, label: '69.6 Wh Cell' },
-                { icon: Zap, label: 'Free Diagnostic' },
+                { icon: Zap, label: 'R599 Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
@@ -444,7 +444,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 14-Inch Battery Problem?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and a description of the issue — swollen bottom case, high cycle count, unexpected shutdowns, or poor battery life — and we will give you an honest price before you bring the machine in. Free diagnostic. No Fix No Fee.
+              WhatsApp us your model year and a description of the issue — swollen bottom case, high cycle count, unexpected shutdowns, or poor battery life — and we will give you an honest price before you bring the machine in. From R599 assessment. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
