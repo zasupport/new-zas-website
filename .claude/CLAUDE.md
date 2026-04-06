@@ -196,6 +196,8 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # §211 OVERNIGHT EXECUTION VERIFICATION (HARD — 30/03/2026): EVERY automated task MUST verify output — ∅ exit 0 without proof | file tasks: [ -s ] + validate | git: diff --stat non-empty | API: parse body | blog/page: tsc pass or REVERT | pipeline: explicit PASS/FAIL verdict | ∅ Haiku claims success without deliverable
 # §212 LAUNCHAGENT HEALTH (HARD — 30/03/2026): ALL 34 agents loaded | session start: launchctl list | grep -c zasupport = 34 | < 34 = reload before work | exit 127 = fix path | exit 1 = fix script
 # §220 BLOG PIPELINE 7/DAY (HARD — 04/04/2026): research-first (≥2 SEO sources per topic) → research brief → generate → insert → deploy | 7/day (4+3) | ∅ hardcoded pools | ∅ exit 0 with 0 posts | each: 700-950 words, ≥6 FAQs, FAQPage schema
+# §225 GAUTENG 60KM ONLY (HARD — 06/04/2026): ALL SEO = Gauteng suburbs ≤60km Hyde Park | ∅ Cape Town ∅ other provinces | suburb × service matrix | priority: logic-board > liquid-damage > managed-IT > screen > battery
+# §226 BANNED "FREE ASSESSMENT" (HARD — 06/04/2026): ∅ "free assessment" ∅ "free diagnostic" ∅ "free check" | ZA Support charges R599 for assessments | correct: "from R599 assessment" | find+replace immediately on any violation | applies to ALL pages|blogs|meta|emails
 
 # §215 TERMINAL COMMANDS — NO LINE BREAKS (HARD — 31/03/2026): ALL terminal commands = single-line ∅ backslash continuations ∅ multi-line curl/python. Write to /tmp script file first if too long. ∅ wrap lines in user-facing commands.
 
