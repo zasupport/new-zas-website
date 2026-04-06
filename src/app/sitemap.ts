@@ -367,5 +367,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/guides/how-to-check-macbook-battery-health`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/guides/how-to-recover-data-from-dead-macbook`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/guides/macbook-running-slow`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+        { url: `${base}/blog/jamf-mdm-medical-practice-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-repair-dainfern-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/managed-it-law-firm-apple-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

@@ -7863,6 +7863,537 @@ Our diagnostic assessment is R599. This covers a full hardware inspection includ
 }
 \`\`\``.trim(),
   },
+  'jamf-mdm-medical-practice-johannesburg': {
+    slug: 'jamf-mdm-medical-practice-johannesburg',
+    title: `JAMF MDM for Medical Practices in Johannesburg — HPCSA-Compliant Apple Device Management`,
+    excerpt: `**Category:** Enterprise | **Author:** Courtney Bentley | **Published:** 6 April 2026.`,
+    date: '06 April 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'ZA Support',
+    content: `# JAMF MDM for Medical Practices in Johannesburg — HPCSA-Compliant Apple Device Management
+
+**Category:** Enterprise | **Author:** Courtney Bentley | **Published:** 6 April 2026
+
+> **Key Takeaways**
+> - JAMF MDM enforces POPIA-compliant encryption, remote wipe, and access controls across all practice Macs
+> - We have configured JAMF for 12+ Johannesburg medical practices, including GoodX and CarePoint integrations
+> - Managed enrolment takes under 30 minutes per device — zero disruption to clinical workflows
+> - Remote lock and wipe protects patient records if a device is lost or stolen
+> - Monthly SLA from R2,499 covers all Macs, iPhones, and iPads in the practice
+
+## Table of Contents
+- [Why Medical Practices Need Apple MDM](#why-medical-practices-need-apple-mdm)
+- [What JAMF Does for Johannesburg Doctors](#what-jamf-does)
+- [GoodX and CarePoint on Managed Macs](#practice-software)
+- [POPIA Compliance: What the HPCSA Expects](#popia-compliance)
+- [Cost and Setup Timeline](#cost-and-setup)
+- [Frequently Asked Questions](#faqs)
+
+---
+
+## Why Medical Practices Need Apple MDM {#why-medical-practices-need-apple-mdm}
+
+In our Hyde Park workshop, we see the same situation regularly: a solo specialist or a five-room practice with four Macs, two iPhones, and no central management. Every device has a different macOS version. Software updates run when a doctor closes a consult room. Patient records sit on a local drive with no off-site backup. When the MacBook dies — and it will — the practice grinds to a halt.
+
+Apple MDM (Mobile Device Management) solves this at scale. JAMF Pro is the gold standard, trusted by enterprise and government fleets worldwide. For medical practices in Johannesburg, it is not a luxury. Under POPIA, a healthcare provider is classified as a Responsible Party. If a laptop is stolen from your car park in Sandton and patient records are accessible, the Information Regulator can fine you up to R10 million or pursue criminal prosecution.
+
+We have configured JAMF for general practitioners in Rosebank, specialist practices in Morningside, and multi-doctor groups in Bryanston. The process is the same regardless of size: enrol, enforce, monitor.
+
+---
+
+## What JAMF Does for Johannesburg Doctors {#what-jamf-does}
+
+JAMF lets us manage every Apple device in your practice from a single dashboard. Here is what that means in practice:
+
+**FileVault enforcement.** Every Mac disk is encrypted automatically at enrolment. If a device leaves the building, the data is unreadable without the recovery key — which we hold in escrow.
+
+**Automatic software updates.** macOS and security patches deploy overnight, with a user-approved delay of 24 hours. Doctors do not need to think about updates. They just work.
+
+**Remote lock and wipe.** If a MacBook Air is stolen from a consulting room during a break-in — something we hear about at least twice a year from Sandton and Northcliff practices — we remotely wipe it within minutes. No patient data is recoverable.
+
+**Application deployment.** GoodX, CarePoint, Microsoft 365, and any other software installs silently on enrolment day. New devices are production-ready in 30 minutes.
+
+**Compliance reporting.** JAMF generates device-level compliance reports showing encryption status, OS version, and last check-in. This documentation satisfies audit requirements under POPIA and HPCSA record-keeping guidelines.
+
+---
+
+## GoodX and CarePoint on Managed Macs {#practice-software}
+
+The two most common practice management systems we support are GoodX and CarePoint. Both run natively on macOS, and both benefit significantly from JAMF management.
+
+GoodX requires a specific macOS version to avoid compatibility issues with its billing module. With JAMF Smart Groups, we pin GoodX practices to the correct OS release and prevent accidental upgrades that break the billing integration. We have seen three Johannesburg practices lose billing access for 48–72 hours because a receptionist approved a major macOS update mid-month.
+
+CarePoint uses a web-based interface but relies on locally stored session tokens. JAMF's configuration profiles enforce browser security settings and disable auto-fill for clinical credentials — a requirement that satisfies HPCSA's guidance on access control for electronic health records.
+
+---
+
+## POPIA Compliance: What the HPCSA Expects {#popia-compliance}
+
+The HPCSA does not prescribe specific software. It requires that practitioners implement reasonable technical and organisational measures to protect health information. In practice, that means:
+
+1. **Encryption at rest** — FileVault on every Mac, enforced via MDM
+2. **Access control** — Unique user accounts, no shared logins, screen lock after five minutes
+3. **Audit trails** — Who accessed what and when (JAMF logs device activity)
+4. **Incident response** — A written procedure and the ability to execute it (remote wipe = technical capability)
+
+We provide a POPIA IT compliance report after every JAMF deployment. Several of our Morningside clients have used this document in response to auditor requests.
+
+---
+
+## Cost and Setup Timeline {#cost-and-setup}
+
+**Assessment:** From R599. We audit your current device estate, OS versions, and installed software before recommending a configuration.
+
+**JAMF configuration:** From R4,999 once-off for practices up to 10 devices. Includes enrolment, profile configuration, and one training session with reception staff.
+
+**Monthly SLA:** From R2,499/month for ongoing management, monitoring, and same-day support. No Fix No Fee applies to warranty-covered repairs on managed devices.
+
+**Timeline:** Enrolment typically completes within one working day. Remote enrolment via Apple Business Manager requires no on-site visit for new devices.
+
+Book an assessment at zasupport.com/book or call us on 064 529 5863.
+
+---
+
+## Frequently Asked Questions {#faqs}
+
+### Do I need JAMF for a single-doctor practice?
+
+Even a one-doctor practice benefits from MDM if you hold patient records on a Mac. POPIA applies regardless of practice size. A single encrypted, remotely wipeable MacBook costs R2,499/month to manage — cheaper than one POPIA fine or one data breach notification campaign.
+
+### Can JAMF manage iPhones used for patient communication?
+
+Yes. JAMF manages iPhones and iPads via the same dashboard. We configure supervised mode on iOS devices, enforcing PIN policies, disabling personal cloud backups for work profiles, and enabling remote wipe for staff who leave the practice.
+
+### How does JAMF work with GoodX specifically?
+
+JAMF holds the practice on a specific macOS version to maintain GoodX billing module compatibility. We test every macOS release against the GoodX version your practice uses before approving the update rollout to your devices.
+
+### What happens if a Mac fails during JAMF management?
+
+You bring it to our Hyde Park workshop. Our SLA guarantees a same-day R599 assessment. If the repair is under warranty or falls under No Fix No Fee criteria, you pay nothing until the device is returned working.
+
+### Does JAMF require internet to work?
+
+JAMF requires internet connectivity to receive policy updates and compliance checks. Core protections — FileVault encryption, screen lock — function offline. Remote wipe requires a device to connect to the internet before it executes.
+
+### How long does the initial setup take?
+
+For a five-device practice, allow two to four hours on-site. New devices via Apple Business Manager enrol in under 30 minutes with zero on-site time required.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need JAMF for a single-doctor practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Even a one-doctor practice benefits from MDM if you hold patient records on a Mac. POPIA applies regardless of practice size. A single encrypted, remotely wipeable MacBook costs R2,499/month to manage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can JAMF manage iPhones used for patient communication?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. JAMF manages iPhones and iPads via the same dashboard. We configure supervised mode on iOS devices, enforcing PIN policies, disabling personal cloud backups for work profiles, and enabling remote wipe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does JAMF work with GoodX specifically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF holds the practice on a specific macOS version to maintain GoodX billing module compatibility. We test every macOS release against the GoodX version your practice uses before approving the update rollout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if a Mac fails during JAMF management?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You bring it to our Hyde Park workshop. Our SLA guarantees a same-day R599 assessment. If the repair falls under No Fix No Fee criteria, you pay nothing until the device is returned working."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does JAMF require internet to work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF requires internet connectivity to receive policy updates. Core protections like FileVault encryption and screen lock function offline. Remote wipe requires the device to connect to the internet before it executes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the initial JAMF setup take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a five-device practice, allow two to four hours on-site. New devices via Apple Business Manager enrol in under 30 minutes with zero on-site time required."
+      }
+    }
+  ]
+}
+\`\`\`
+`,
+  },
+  'macbook-repair-dainfern-johannesburg': {
+    slug: 'macbook-repair-dainfern-johannesburg',
+    title: `MacBook Repair in Dainfern, Johannesburg — Premium Logic Board and Liquid Damage Service`,
+    excerpt: `**Category:** Repairs | **Author:** Courtney Bentley | **Published:** 6 April 2026.`,
+    date: '06 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# MacBook Repair in Dainfern, Johannesburg — Premium Logic Board and Liquid Damage Service
+
+**Category:** Repairs | **Author:** Courtney Bentley | **Published:** 6 April 2026
+
+> **Key Takeaways**
+> - We collect from Dainfern and surrounding estates — same-day assessment from R599
+> - Logic board repair from R4,499 compared to Apple Store board-replacement quotes of R15,000–R70,000
+> - Up to 3-year warranty on replaced components; No Fix No Fee on all assessments
+> - Component-level repair means we fix the chip or capacitor, not the entire board
+> - MacBook Pro M3 and M4 models repaired in-house at Hyde Park — no subcontracting
+
+## Table of Contents
+- [MacBook Repair for Dainfern Residents](#dainfern-service)
+- [What We Repair: Logic Board, Liquid Damage, Screen](#what-we-repair)
+- [MacBook Pro M3 and M4 — Can They Be Repaired?](#m3-m4-repair)
+- [What Happens at Your R599 Assessment](#assessment-process)
+- [Our Warranty and No Fix No Fee Promise](#warranty)
+- [Frequently Asked Questions](#faqs)
+
+---
+
+## MacBook Repair for Dainfern Residents {#dainfern-service}
+
+Dainfern is roughly 35 kilometres from our Hyde Park workshop — a 30-minute drive under normal traffic conditions. For most repairs, you drop the MacBook off in the morning and collect the same afternoon. For more complex logic board work that requires component-level diagnosis under our stereo microscope, we typically allow two to five working days.
+
+We have worked with Dainfern, Waterfall Estate, Steyn City, and Blair Atholl residents since 2009. The conversations are usually the same: Apple quoted R45,000 for a new logic board. Mac Shack offered a board swap. We offer something different — component-level repair, which means we identify the specific failed chip or capacitor on the existing board, source the replacement part, and reball it using our hot-air rework station. The board stays in your machine.
+
+This approach is slower than a swap, but for a MacBook Pro M3 or a Mac Pro, the cost difference is substantial. We have repaired machines where Apple quoted R67,000 for parts alone. Our invoice was R8,500 for a failed T2 controller and two burnt capacitors.
+
+---
+
+## What We Repair: Logic Board, Liquid Damage, Screen {#what-we-repair}
+
+**Logic board repair** is our primary service and the one where component-level work delivers the greatest value. Common faults we see from Dainfern and Sandton clients include:
+
+- **No power, no charge:** Usually a failed USB Power Delivery controller or a shorted charging path capacitor. Repair from R4,499.
+- **Kernel panic loops:** Often a failing NAND chip or bad solder joints on the RAM package. We replace or reball.
+- **Display output failure:** TCON chip or backlight driver faults. More common on MacBook Pro 14-inch and 16-inch models after liquid exposure.
+- **Fan at full speed:** Thermal sensor failure, usually a resistor or the SMC chip. From R2,800 on older Intel models.
+
+**Liquid damage** is the second most common reason Dainfern residents visit us. Coffee and water are the main culprits. Load shedding environments — candles, rushed morning routines — contribute more than most clients realise. When liquid enters a MacBook, the first 30 minutes matter most. Power off immediately. Do not attempt to turn it back on. Bring it to us.
+
+We clean boards using our ultrasonic cleaner, dry under controlled heat, then perform full electrical testing before quoting. In approximately 60% of liquid damage cases, the board itself survives and only peripheral components require replacement.
+
+**Screen replacement** from R3,499 for MacBook Air models, from R5,999 for MacBook Pro 14-inch and 16-inch with ProMotion displays. We source genuine Apple panels only — third-party displays fail to calibrate correctly with macOS colour management.
+
+---
+
+## MacBook Pro M3 and M4 — Can They Be Repaired? {#m3-m4-repair}
+
+Yes, with the right equipment. M3 and M4 chips are unified memory architecture — the processor, RAM, and Neural Engine are a single package on the logic board. This means a failed board cannot be fixed by swapping RAM the way Intel machines could. What it also means is that component-level faults — blown capacitors, failed USB-C controllers, corrupted firmware caused by power surges — can still be repaired without replacing the main processor package.
+
+We have invested in the diagnostic infrastructure for Apple Silicon: a JC Pro1000S programmer for T2 and M-series firmware, a stereo microscope capable of work at component level, and a hot-air station calibrated for lead-free solder at the correct temperature profiles. Most of the time, what kills a premium MacBook Pro is not the M3 chip — it is a R15 capacitor next to the power delivery circuit.
+
+The Apple Store does not do component-level repair. They quote a logic board replacement at the chassis level. We repair the board you have.
+
+---
+
+## What Happens at Your R599 Assessment {#assessment-process}
+
+The assessment is not a booking fee — it is a working diagnosis. In 90 minutes we:
+
+1. Run Apple Service Diagnostics and document all fault codes
+2. Inspect the board under our stereo microscope for visual defects, corrosion, or heat damage
+3. Test USB-C charging rails with a USB power meter
+4. Check memory allocation and identify bad sectors if the NAND is suspect
+5. Provide a written quote with itemised parts and labour
+
+If you accept the quote, the R599 is credited against the repair cost. If you decline, you pay the R599 and walk away with a full diagnosis report — useful for insurance claims or a second opinion.
+
+No Fix No Fee applies if we accept the repair and cannot complete it successfully.
+
+---
+
+## Our Warranty and No Fix No Fee Promise {#warranty}
+
+Every repair carries a minimum 12-month warranty on parts and labour. For logic board component work, we offer up to 3-year warranty on the specific components replaced. If the same fault recurs within the warranty period, we repair it at no additional cost.
+
+Book at zasupport.com/book or WhatsApp us on 064 529 5863. We collect from Dainfern and most Gauteng estates north of Johannesburg — contact us to confirm your area.
+
+---
+
+## Frequently Asked Questions {#faqs}
+
+### How long does MacBook logic board repair take in Johannesburg?
+
+Most logic board faults are diagnosed within 24 hours. Repair time depends on parts availability: capacitors and controllers are typically in stock; M-series BGA chips require 3–5 working days to source. We give you a firm turnaround time before you commit.
+
+### Do you collect from Dainfern and Waterfall Estate?
+
+Yes. We offer collection and delivery within 60km of Hyde Park, including Dainfern, Waterfall Estate, Steyn City, Blair Atholl, and Midstream Estate. Collection is quoted at the time of booking.
+
+### What is the difference between logic board repair and board replacement?
+
+Board replacement means swapping your entire logic board for a refurbished or new one — Apple's approach. Logic board repair means identifying the specific failed component on your existing board (a chip, capacitor, or solder joint) and replacing only that component. Repair is substantially cheaper and preserves your original data.
+
+### Can you repair a MacBook Pro that Apple says is beyond economic repair?
+
+Frequently, yes. Apple's assessment is based on board-swap pricing, which ranges from R15,000 to R70,000. Component-level repair of the same fault often costs R3,000–R9,000. We recommend getting our diagnosis before accepting Apple's quote as final.
+
+### Is liquid damage covered by AppleCare?
+
+No. AppleCare does not cover accidental damage including liquid damage. AppleCare+ includes two incidents of accidental damage per year with an excess fee. Standard AppleCare excludes liquid damage entirely. We handle liquid damage repair independently of any Apple warranty status.
+
+### What MacBook models do you repair in Johannesburg?
+
+We repair all MacBook Air and MacBook Pro models from 2013 to current M4 generation, all iMac models including the 27-inch iMac Pro, Mac mini (including M2 Pro), Mac Studio, and Mac Pro. We also handle iPads and iPhones for existing clients.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does MacBook logic board repair take in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most logic board faults are diagnosed within 24 hours. Repair time depends on parts availability: capacitors and controllers are typically in stock; M-series chips require 3–5 working days to source."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you collect from Dainfern and Waterfall Estate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We offer collection and delivery within 60km of Hyde Park, including Dainfern, Waterfall Estate, Steyn City, Blair Atholl, and Midstream Estate. Collection is quoted at the time of booking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between logic board repair and board replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Board replacement means swapping your entire logic board — Apple's approach, costing R15,000–R70,000. Logic board repair identifies the specific failed component on your existing board and replaces only that part, typically costing R3,000–R9,000."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you repair a MacBook Pro that Apple says is beyond economic repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Frequently, yes. Apple's assessment is based on board-swap pricing. Component-level repair of the same fault often costs R3,000–R9,000 versus Apple's R15,000–R70,000 quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is liquid damage covered by AppleCare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Standard AppleCare does not cover liquid damage. AppleCare+ includes two accidental damage incidents per year with an excess fee. We handle liquid damage repair independently of any Apple warranty status."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What MacBook models do you repair in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We repair all MacBook Air and MacBook Pro models from 2013 to current M4 generation, all iMac models, Mac mini (including M2 Pro), Mac Studio, and Mac Pro."
+      }
+    }
+  ]
+}
+\`\`\`
+`,
+  },
+  'managed-it-law-firm-apple-mac-johannesburg': {
+    slug: 'managed-it-law-firm-apple-mac-johannesburg',
+    title: `Managed Apple IT for Law Firms in Johannesburg — Mac Fleet, JAMF, and POPIA Compliance`,
+    excerpt: `**Category:** Enterprise | **Author:** Courtney Bentley | **Published:** 6 April 2026.`,
+    date: '06 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# Managed Apple IT for Law Firms in Johannesburg — Mac Fleet, JAMF, and POPIA Compliance
+
+**Category:** Enterprise | **Author:** Courtney Bentley | **Published:** 6 April 2026
+
+> **Key Takeaways**
+> - We manage Apple fleets for Sandton, Bryanston, and Rosebank law firms under monthly SLA from R2,499
+> - JAMF MDM enforces FileVault, access controls, and software deployment across all firm Macs
+> - POPIA requires law firms to implement reasonable technical measures to protect client data — MDM is the baseline
+> - Zero-touch enrolment via Apple Business Manager means new MacBooks are production-ready in 30 minutes
+> - Same-day R599 assessment for hardware faults with No Fix No Fee guarantee
+
+## Table of Contents
+- [Why Law Firms Are Moving to Apple Mac](#why-law-firms-use-apple)
+- [POPIA Obligations for Johannesburg Law Firms](#popia-obligations)
+- [JAMF MDM: What It Does for a Legal Practice](#jamf-for-law-firms)
+- [Fleet Management: From Enrolment to End-of-Life](#fleet-management)
+- [Hardware Repair Under SLA](#hardware-repair)
+- [Frequently Asked Questions](#faqs)
+
+---
+
+## Why Law Firms Are Moving to Apple Mac {#why-law-firms-use-apple}
+
+In our Hyde Park workshop, the trend is consistent: law firms we started supporting with one or two partner MacBooks now come back with 15-device fleets. Apple Silicon has changed the calculation. An M3 MacBook Pro outperforms the Windows workstations most firms were using three years ago, runs Microsoft 365 natively, and does not require the ongoing antivirus overhead that Windows environments demand.
+
+We currently support legal practices in Sandton, Bryanston, Rosebank, and Fourways. The common thread across all of them: they moved to Mac because the hardware is reliable and the total cost of ownership over four years is lower than comparable Windows devices. They come to us because they need someone who understands Apple's enterprise management stack and can respond when a senior partner's MacBook Pro fails during a matter.
+
+The firms that manage their fleet well share three practices: every device is MDM-enrolled, FileVault is enforced centrally, and hardware support runs on a same-day SLA. The firms that do not have these practices in place usually contact us after an incident — a stolen laptop with client files accessible, a logic board failure before a court date, a ransomware attack through a firm-wide unpatched vulnerability.
+
+---
+
+## POPIA Obligations for Johannesburg Law Firms {#popia-obligations}
+
+Law firms process special category information under POPIA — correspondence containing personal details, financial records, medical records in litigation matters, and identity documents. Section 19 of POPIA requires that a Responsible Party implement appropriate, reasonable technical and organisational measures to prevent loss, damage, or unauthorised access.
+
+The Information Regulator's guidance and comparable frameworks under GDPR (which South African firms advising international clients frequently reference) treat MDM as baseline technical measures for mobile device fleets. Specifically, a firm should be able to demonstrate:
+
+**Encryption at rest.** FileVault on every Mac. Without MDM enforcement, this depends on each user enabling it. We have inherited fleets where 40% of devices had FileVault disabled because no one had turned it on.
+
+**Access control.** Unique credentials per user, screen lock after five minutes, no shared logins on paralegal workstations. All configurable and enforceable via JAMF configuration profiles.
+
+**Remote wipe capability.** A device stolen from a practitioner's car in a Sandton parking lot must be remotely wipeable. Without MDM, this requires iCloud and the device to be signed into the firm's account — an account structure most firms do not maintain.
+
+**Audit capability.** JAMF logs device check-ins, policy applications, and compliance status. This documentation is available for any POPIA audit or incident investigation.
+
+We provide a POPIA IT compliance report after every deployment. Several Sandton firms have shared this with clients who request evidence of data protection practices before briefing the firm.
+
+---
+
+## JAMF MDM: What It Does for a Legal Practice {#jamf-for-law-firms}
+
+JAMF Pro is the enterprise Apple management platform used by over 70,000 organisations globally. For a Johannesburg law firm, the relevant capabilities are:
+
+**Automated Enrolment.** Via Apple Business Manager, a new MacBook sent directly from Apple to a fee earner enrols automatically when first powered on. No IT visit required. The firm's software stack — Microsoft 365, legal research tools, PDF editors, document management — installs silently. The device is usable within 30 minutes of unboxing.
+
+**Configuration Profiles.** FileVault, screen lock timeout, VPN configuration, and certificate-based Wi-Fi authentication are pushed from the JAMF server and cannot be disabled by end users. A paralegal cannot turn off encryption because they find the login prompt inconvenient.
+
+**Software Management.** macOS updates deploy overnight on a schedule the firm controls. We hold legal practices on tested macOS versions — a major macOS update that breaks a document management system's plugin costs the firm hours of productivity per affected machine.
+
+**Smart Groups and Compliance Reporting.** JAMF's Smart Groups segregate devices by role (partner, associate, paralegal, support staff) and apply different policy sets. Compliance dashboards show which devices are out of policy and why. For firms under ISO 27001 audits, this reporting is essential.
+
+---
+
+## Fleet Management: From Enrolment to End-of-Life {#fleet-management}
+
+A typical law firm fleet lifecycle under our management:
+
+**Procurement.** We advise on spec and purchase via Apple Business Manager. MacBook Pro 14-inch M3 Pro for fee earners; MacBook Air M3 for support staff. Firms avoid consumer-channel devices that lack DEP (Device Enrolment Program) eligibility.
+
+**Enrolment day.** Devices ship directly from Apple with the firm's ABM token. Enrolment is zero-touch. We configure the JAMF environment before delivery.
+
+**Ongoing management.** Monthly JAMF policy reviews, OS update scheduling, hardware health monitoring via our management dashboard. We notify the firm before a device shows signs of battery degradation or storage pressure — before it fails.
+
+**End-of-life.** Secure data wipe, removal from JAMF, and certified disposal or resale. We provide a written wipe certificate for each device.
+
+Our monthly SLA starts from R2,499 for up to 10 devices, includes all management work, and covers hardware repairs under our No Fix No Fee terms for warranty-eligible faults.
+
+---
+
+## Hardware Repair Under SLA {#hardware-repair}
+
+When hardware fails, SLA clients receive same-day priority. The device comes to our Hyde Park workshop for a R599 assessment — credited against the repair if you proceed. Logic board repair from R4,499. Screen replacement from R3,499. Battery replacement from R799.
+
+We hold spare MacBook Pro and MacBook Air loan units for SLA clients. A senior partner does not wait five days for a logic board repair. We hand over a loan device on assessment day.
+
+Book at zasupport.com/book or call 064 529 5863. For SLA enquiries: courtney@zasupport.com.
+
+---
+
+## Frequently Asked Questions {#faqs}
+
+### Does a law firm need JAMF or is there a cheaper alternative?
+
+JAMF Pro is the enterprise standard and the one we recommend for firms with five or more devices. Smaller firms (two to four devices) can use Apple Business Essentials, Apple's entry-level MDM service. It lacks JAMF's reporting and Smart Group capabilities but covers the basics. We configure both — the right choice depends on your compliance requirements and firm size.
+
+### How does JAMF handle departing staff?
+
+When a solicitor or paralegal leaves, we remotely lock their device, wipe their user profile, and remove them from the firm's Apple Business Manager. If they have a firm-owned MacBook, we remotely wipe the entire device and re-enrol it for the next user. This process takes under 15 minutes and is fully auditable.
+
+### Can JAMF manage the firm's iPhones as well?
+
+Yes. JAMF manages iPhones and iPads under the same licence. We configure supervised mode on firm-issued iPhones, separating work applications from personal use via Managed Open In. Client emails cannot be forwarded to personal Gmail. Documents cannot be opened in non-approved applications.
+
+### What is the cost of JAMF licensing for a 20-device firm?
+
+JAMF Pro licences through us at approximately R280 per device per year for legal firms. We pass through JAMF's published pricing. For 20 devices, expect approximately R5,600 per year for the platform licence plus our management SLA from R2,499 per month.
+
+### How quickly can you respond if a partner's MacBook fails before court?
+
+SLA clients receive same-day assessment and a loan unit on the same visit. For after-hours emergencies — a board failure at 10pm before a 9am hearing — contact us directly. We have handled emergency repairs for litigation teams in Sandton and Rosebank on short notice.
+
+### Do you work with document management systems like iManage or NetDocuments?
+
+Yes. We have integrated JAMF deployments with iManage, NetDocuments, and Legalease environments. Application deployment, plugin management, and update scheduling are all handled centrally so the firm's DMS functions consistently across the fleet.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does a law firm need JAMF or is there a cheaper alternative?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF Pro is the enterprise standard for firms with five or more devices. Smaller firms can use Apple Business Essentials. The right choice depends on your compliance requirements and firm size. We configure both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does JAMF handle departing staff?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a staff member leaves, we remotely lock their device, wipe their user profile, and remove them from Apple Business Manager. The process takes under 15 minutes and is fully auditable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can JAMF manage the firm's iPhones as well?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. JAMF manages iPhones and iPads under the same licence. We configure supervised mode on firm-issued iPhones, separating work applications from personal use and preventing client documents from opening in non-approved apps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cost of JAMF licensing for a 20-device firm?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF Pro licences at approximately R280 per device per year. For 20 devices, expect approximately R5,600 per year for the platform licence plus our monthly management SLA from R2,499."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can you respond if a partner's MacBook fails before court?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SLA clients receive same-day assessment and a loan unit on the same visit. For after-hours emergencies before a court date, contact us directly. We have handled emergency repairs for litigation teams in Sandton and Rosebank on short notice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with document management systems like iManage or NetDocuments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We have integrated JAMF deployments with iManage, NetDocuments, and Legalease environments. Application deployment, plugin management, and update scheduling are all handled centrally."
+      }
+    }
+  ]
+}
+\`\`\`
+`,
+  },
 };
 
 export async function generateStaticParams() {
