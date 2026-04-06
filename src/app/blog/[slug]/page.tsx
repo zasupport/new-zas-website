@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Calendar, Clock, Tag } from 'lucide-react';
 import SchemaOrgComp from '@/components/seo/SchemaOrg';
+import { AuthorBox } from '@/components/blog/AuthorBox';
 
 const posts: Record<string, {
   slug: string;
@@ -1057,7 +1058,7 @@ Apple authorised service in South Africa does not offer component-level logic bo
 
 **Q: How long does surge damage repair take?**
 
-Most surge damage repairs are completed within 3–5 working days. Complex cases involving multiple failed components or damaged data storage can extend to 7–10 days. We provide a clear timeline estimate during the assessment assessment.
+Most surge damage repairs are completed within 3–5 working days. Complex cases involving multiple failed components or damaged data storage can extend to 7–10 days. We provide a clear timeline estimate during the initial assessment.
 
 **Q: Does my Apple Care or device insurance cover surge damage?**
 
@@ -1069,7 +1070,7 @@ For most home offices running a MacBook Pro or MacBook Air, we recommend the APC
 
 ## Book a Surge Damage Assessment
 
-If your MacBook is showing any of the symptoms described in this guide — or if it was plugged in during a load shedding reinstatement event and you want peace of mind — bring it in for a assessment fee (from R599).
+If your MacBook is showing any of the symptoms described in this guide — or if it was plugged in during a load shedding reinstatement event and you want peace of mind — bring it in for an assessment from R599.
 
 We are based at 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg. We assess surge damage same day, 7 days a week. Assessment: from R599 on all repairs.
 
@@ -1331,7 +1332,7 @@ If you have worked through every fix above and WiFi still does not work — or i
 
 **Logic board WiFi circuit fault:** Rare, but possible — particularly on machines that have experienced liquid damage or surge damage.
 
-**What to do:** Bring the machine to us for a assessment. We can determine within 15 minutes whether the fault is software, a loose connector, or a hardware component failure — and give you a clear quote before any work begins.
+**What to do:** Bring the machine to us for an assessment. We can determine within 15 minutes whether the fault is software, a loose connector, or a hardware component failure — and give you a clear quote before any work begins.
 
 [Book a WiFi diagnostic.](https://wa.me/27645295863)
 
@@ -1914,9 +1915,9 @@ If you have 10 or more Apple devices and they are used for any business-critical
 
 ZA Support is one of Johannesburg's few JAMF-certified implementation teams. We have deployed JAMF for medical practices, law firms, financial services companies, and SMEs across Gauteng.
 
-Our process starts with a assessment fee (from R599): we review your current device estate, understand your compliance requirements, and design a JAMF configuration that fits your business.
+Our process starts with an assessment from R599: we review your current device estate, understand your compliance requirements, and design a JAMF configuration that fits your business.
 
-Contact us on 064 529 5863 or via our contact form to book your assessment fee (from R599).
+Contact us on 064 529 5863 or via our contact form to book your assessment from R599.
     `.trim(),
   },
   'macbook-battery-replacement-johannesburg': {
@@ -1973,7 +1974,7 @@ At ZA Support, battery replacement is a same-day service for most models. Here i
 
 ZA Support is based at 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg. We service all MacBook models.
 
-Bring your MacBook in for a assessment fee (from R599). We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. Assessment: from R599. warranty on all battery replacements.
+Bring your MacBook in for an assessment from R599. We will confirm the battery condition, give you a quote, and in most cases complete the replacement the same day. Assessment: from R599. warranty on all battery replacements.
 
 Call **064 529 5863** or message us on WhatsApp to book.
 
@@ -2061,7 +2062,7 @@ Understanding what kind of fault you have is the first step to knowing what your
 
 ZA Support services all MacBook models. Most repairs completed within 1-3 business days.
 
-We offer a assessment fee (from R599) before any commitment. Bring your Mac in to 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with Assessment: from R599. All screen replacements carry a up-to-3 year warranty.
+We offer an assessment from R599 before any commitment. Bring your Mac in to 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg and we will diagnose the fault, identify the correct part, and provide a written quote with Assessment: from R599. All screen replacements carry a up-to-3 year warranty.
 
 Call **064 529 5863** or message us on WhatsApp to book or ask about your specific model.
 
@@ -2073,7 +2074,7 @@ Yes. A cracked Retina display is repaired by replacing the full display assembly
 
 **Q: My MacBook screen is black but I can hear it starting up -- is this a screen fault or something worse?**
 
-It could be either. The key test is to connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable -- typically a display repair. If the external monitor also shows nothing, the fault is on the logic board. We perform this test during the assessment fee (from R599).
+It could be either. The key test is to connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable -- typically a display repair. If the external monitor also shows nothing, the fault is on the logic board. We perform this test during the assessment from R599.
 
 **Q: Does ZA Support repair the 2016-2019 MacBook Pro Flexgate issue?**
 
@@ -2093,7 +2094,7 @@ Most repairs completed within 1-3 business days. We will confirm the timeline at
 
 **Q: My MacBook Pro 2019 screen is showing pink lines -- what is causing this?**
 
-On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We will test with an external monitor during the assessment fee (from R599) to confirm.
+On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We will test with an external monitor during the assessment from R599 to confirm.
     `.trim(),
   },
   'apple-background-security-update-safari-mac-2026': {
@@ -2523,7 +2524,7 @@ Calculate roughly what your phone is worth secondhand versus what the repair cos
 
 ## Getting Your Screen Replaced in Johannesburg
 
-When you're ready to book a repair, get a proper assessment before committing to the cost. Many Johannesburg repair specialists, including ZA Support, charge a modest assessment fee (from R599) that gives you an accurate quote based on your specific phone and damage. This removes guesswork from the process.
+When you're ready to book a repair, get a proper assessment before committing to the cost. Many Johannesburg repair specialists, including ZA Support, charge a modest assessment from R599 that gives you an accurate quote based on your specific phone and damage. This removes guesswork from the process.
 
 ZA Support operates from Hyde Park and serves the broader Johannesburg area. You can reach them via WhatsApp on 064 529 5863 to discuss your situation, arrange collection from your location in Johannesburg's northern suburbs, or book an appointment. They'll give you honest advice about whether your phone is worth repairing and what the actual cost will be.
 
@@ -4778,7 +4779,7 @@ Most liquid damage repairs are completed within 5–7 business days, depending o
 
 ---
 
-**Need help with your water-damaged MacBook?** Contact ZA Support today. Free diagnostic assessment from R599. No Fix No Fee guarantee. Call **064 529 5863** or book online at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and serve all surrounding areas.`,
+**Need help with your water-damaged MacBook?** Contact ZA Support today. Assessment from R599. No Fix No Fee guarantee. Call **064 529 5863** or book online at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and serve all surrounding areas.`,
   },
   'how-long-macbook-survive-after-water-damage': {
     slug: 'how-long-macbook-survive-after-water-damage',
@@ -8426,24 +8427,117 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   };
 }
 
+function extractFaqsFromContent(content: string): { question: string; answer: string }[] {
+  const faqs: { question: string; answer: string }[] = [];
+  const lines = content.split('\n');
+  let inCodeBlock = false;
+  let currentQuestion = '';
+  let currentAnswer = '';
+  let inFaqSection = false;
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (line.startsWith('```')) { inCodeBlock = !inCodeBlock; continue; }
+    if (inCodeBlock) continue;
+    if (/^#{1,2}\s/.test(line) && /faq|frequently asked/i.test(line)) {
+      inFaqSection = true;
+      continue;
+    }
+    if (inFaqSection && line.startsWith('### ')) {
+      if (currentQuestion && currentAnswer.trim()) {
+        faqs.push({ question: currentQuestion, answer: currentAnswer.trim() });
+      }
+      currentQuestion = line.slice(4).trim();
+      currentAnswer = '';
+    } else if (inFaqSection && currentQuestion && line.startsWith('## ')) {
+      if (currentAnswer.trim()) faqs.push({ question: currentQuestion, answer: currentAnswer.trim() });
+      break;
+    } else if (inFaqSection && currentQuestion && line.trim()) {
+      currentAnswer += (currentAnswer ? ' ' : '') + line.trim();
+    }
+  }
+  if (currentQuestion && currentAnswer.trim()) {
+    faqs.push({ question: currentQuestion, answer: currentAnswer.trim() });
+  }
+  return faqs;
+}
+
+function getAuthorSlug(name: string): string {
+  if (!name || name === 'ZA Support') return 'courtney-bentley';
+  return name.toLowerCase().replace(/\s+/g, '-');
+}
+
+function processInlineMarkdown(text: string, keyPrefix: string): React.ReactNode {
+  const parts: React.ReactNode[] = [];
+  let remaining = text;
+  let partIdx = 0;
+  while (remaining.length > 0) {
+    const boldMatch = remaining.match(/\*\*(.+?)\*\*/);
+    const linkMatch = remaining.match(/\[([^\]]+)\]\(([^)]+)\)/);
+    const candidates: { index: number; length: number; node: React.ReactNode }[] = [];
+    if (boldMatch && boldMatch.index !== undefined) {
+      candidates.push({ index: boldMatch.index, length: boldMatch[0].length, node: <strong key={`${keyPrefix}-b${partIdx}`} className="text-[#E8F4F1] font-semibold">{boldMatch[1]}</strong> });
+    }
+    if (linkMatch && linkMatch.index !== undefined) {
+      candidates.push({ index: linkMatch.index, length: linkMatch[0].length, node: <a key={`${keyPrefix}-a${partIdx}`} href={linkMatch[2]} className="text-[#0FEA7A] underline hover:text-[#0FEA7A]/80" target={linkMatch[2].startsWith('http') ? '_blank' : undefined} rel={linkMatch[2].startsWith('http') ? 'noopener noreferrer' : undefined}>{linkMatch[1]}</a> });
+    }
+    candidates.sort((a, b) => a.index - b.index);
+    const earliest = candidates[0];
+    if (earliest) {
+      if (earliest.index > 0) parts.push(remaining.slice(0, earliest.index));
+      parts.push(earliest.node);
+      remaining = remaining.slice(earliest.index + earliest.length);
+      partIdx++;
+    } else {
+      parts.push(remaining);
+      break;
+    }
+  }
+  return parts.length === 1 && typeof parts[0] === 'string' ? parts[0] : <>{parts}</>;
+}
+
 function renderContent(content: string) {
   const lines = content.split('\n');
   const elements: React.ReactNode[] = [];
   let i = 0;
+  let inCodeBlock = false;
   while (i < lines.length) {
     const line = lines[i];
+    if (line.startsWith('```')) {
+      inCodeBlock = !inCodeBlock;
+      i++;
+      continue;
+    }
+    if (inCodeBlock) {
+      i++;
+      continue;
+    }
+    if (line.startsWith('# ') && !line.startsWith('## ')) {
+      i++;
+      continue;
+    }
     if (line.startsWith('## ')) {
-      elements.push(<h2 key={i} className="text-2xl font-bold text-[#E8F4F1] mt-10 mb-4">{line.slice(3)}</h2>);
+      elements.push(<h2 key={i} className="text-2xl font-bold text-[#E8F4F1] mt-10 mb-4">{processInlineMarkdown(line.slice(3), `h2-${i}`)}</h2>);
     } else if (line.startsWith('### ')) {
-      elements.push(<h3 key={i} className="text-xl font-bold text-[#E8F4F1] mt-8 mb-3">{line.slice(4)}</h3>);
+      elements.push(<h3 key={i} className="text-xl font-bold text-[#E8F4F1] mt-8 mb-3">{processInlineMarkdown(line.slice(4), `h3-${i}`)}</h3>);
+    } else if (line.startsWith('> ')) {
+      elements.push(<blockquote key={i} className="border-l-4 border-[#0FEA7A] pl-4 my-4 text-[#7A9E98] italic">{processInlineMarkdown(line.slice(2), `bq-${i}`)}</blockquote>);
+    } else if (line.startsWith('![')) {
+      const imgMatch = line.match(/^!\[([^\]]*)\]\(([^)]+)\)/);
+      if (imgMatch) {
+        elements.push(<figure key={i} className="my-6"><img src={imgMatch[2]} alt={imgMatch[1]} className="rounded-xl w-full" loading="lazy" /></figure>);
+      }
+    } else if (line.startsWith('*') && !line.startsWith('**') && line.endsWith('*') && !line.endsWith('**')) {
+      elements.push(<p key={i} className="text-[#7A9E98] text-sm italic mt-1 mb-4">{line.slice(1, -1)}</p>);
     } else if (line.startsWith('**') && line.endsWith('**')) {
       elements.push(<p key={i} className="text-[#E8F4F1] font-semibold mt-4 mb-2">{line.slice(2, -2)}</p>);
+    } else if (/^\d+\.\s/.test(line)) {
+      elements.push(<li key={i} className="text-[#7A9E98] leading-relaxed list-decimal ml-6">{processInlineMarkdown(line.replace(/^\d+\.\s/, ''), `ol-${i}`)}</li>);
     } else if (line.startsWith('- ') || line.startsWith('✓ ') || line.startsWith('✗ ')) {
-      elements.push(<li key={i} className="text-[#7A9E98] leading-relaxed">{line.slice(2)}</li>);
+      elements.push(<li key={i} className="text-[#7A9E98] leading-relaxed list-disc ml-6">{processInlineMarkdown(line.slice(2), `ul-${i}`)}</li>);
     } else if (line.trim() === '') {
       // skip empty lines
     } else {
-      elements.push(<p key={i} className="text-[#7A9E98] leading-relaxed mb-4">{line}</p>);
+      elements.push(<p key={i} className="text-[#7A9E98] leading-relaxed mb-4">{processInlineMarkdown(line, `p-${i}`)}</p>);
     }
     i++;
   }
@@ -8572,7 +8666,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How much does it cost to fix a Mac that won\'t turn on in Johannesburg?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Cost depends on the cause. ZA Support offers a assessment assessment — we identify the exact fault and quote before any work begins. Software fixes, hardware repairs, and logic board repairs are all quoted individually after diagnosis. Assessment: from R599. Hyde Park, Johannesburg.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Cost depends on the cause. ZA Support offers a initial assessment — we identify the exact fault and quote before any work begins. Software fixes, hardware repairs, and logic board repairs are all quoted individually after diagnosis. Assessment: from R599. Hyde Park, Johannesburg.' },
         },
       ],
     },
@@ -8598,7 +8692,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'Can a MacBook be too old to fix or upgrade?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Most MacBooks from 2015 onwards are viable for repair and upgrade. The key factors are: does it support a current enough macOS for your software, is the hardware in working condition, and does the cost of the upgrade compare favourably to a replacement? ZA Support offers assessment fee (from R599)s and provides both repair and replacement options with honest recommendations.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Most MacBooks from 2015 onwards are viable for repair and upgrade. The key factors are: does it support a current enough macOS for your software, is the hardware in working condition, and does the cost of the upgrade compare favourably to a replacement? ZA Support offers assessments from R599 and provides both repair and replacement options with honest recommendations.' },
         },
         {
           '@type': 'Question',
@@ -8649,7 +8743,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'Can a MacBook WiFi card be replaced?',
-          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to approximately 2019), the WiFi/Bluetooth card is a replaceable module. On Apple Silicon MacBooks (M1 and later), the WiFi chip is integrated into the logic board and requires board-level repair. ZA Support diagnoses and replaces WiFi cards on Intel MacBooks. Contact us for a assessment fee (from R599).' },
+          acceptedAnswer: { '@type': 'Answer', text: 'On Intel MacBooks (up to approximately 2019), the WiFi/Bluetooth card is a replaceable module. On Apple Silicon MacBooks (M1 and later), the WiFi chip is integrated into the logic board and requires board-level repair. ZA Support diagnoses and replaces WiFi cards on Intel MacBooks. Contact us for an assessment from R599.' },
         },
         {
           '@type': 'Question',
@@ -8736,7 +8830,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'How long does surge damage repair take?',
-          acceptedAnswer: { '@type': 'Answer', text: 'Most surge damage repairs are completed within 3–5 working days. Complex cases can extend to 7–10 days. We provide a timeline estimate during the assessment assessment.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'Most surge damage repairs are completed within 3–5 working days. Complex cases can extend to 7–10 days. We provide a timeline estimate during the initial assessment.' },
         },
         {
           '@type': 'Question',
@@ -8854,7 +8948,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'My MacBook screen is black but I can hear it starting up -- is this a screen fault?',
-          acceptedAnswer: { '@type': 'Answer', text: 'It could be either. Connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable. If the external monitor also shows nothing, the fault is on the logic board. ZA Support performs this test during the assessment fee (from R599).' },
+          acceptedAnswer: { '@type': 'Answer', text: 'It could be either. Connect an external monitor via USB-C or HDMI. If the external monitor works, the fault is in the display assembly or cable. If the external monitor also shows nothing, the fault is on the logic board. ZA Support performs this test during the assessment from R599.' },
         },
         {
           '@type': 'Question',
@@ -8879,7 +8973,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         {
           '@type': 'Question',
           name: 'My MacBook Pro 2019 screen is showing pink lines -- what is causing this?',
-          acceptedAnswer: { '@type': 'Answer', text: 'On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We test with an external monitor during the assessment fee (from R599) to confirm.' },
+          acceptedAnswer: { '@type': 'Answer', text: 'On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most commonly caused by a failing display data cable rather than a failed panel. This is a more cost-effective repair than a full assembly replacement. We test with an external monitor during the assessment from R599 to confirm.' },
         },
       ],
     },
@@ -9136,7 +9230,22 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   };
 
   const schemas: SchemaOrg[] = [articleSchema, breadcrumbSchema, aggregateRatingSchema];
-  if (faqSchemas[slug]) schemas.push(faqSchemas[slug]);
+  if (faqSchemas[slug]) {
+    schemas.push(faqSchemas[slug]);
+  } else {
+    const extractedFaqs = extractFaqsFromContent(post.content);
+    if (extractedFaqs.length > 0) {
+      schemas.push({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: extractedFaqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+      });
+    }
+  }
 
   return (
     <>
@@ -9171,6 +9280,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <article className="prose-custom">
               {renderContent(post.content)}
             </article>
+            <AuthorBox authorSlug={getAuthorSlug(post.author)} />
           </div>
 
           <div className="mt-12 p-6 bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-2xl text-center">

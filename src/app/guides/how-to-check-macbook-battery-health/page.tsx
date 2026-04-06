@@ -511,7 +511,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Battery Health Looking Poor?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your cycle count and maximum capacity percentage — we will tell you honestly whether you need a replacement. Free diagnostic at our Hyde Park workshop. Same-day turnaround. No Fix No Fee. 12-month warranty on every battery we fit.
+              WhatsApp us your cycle count and maximum capacity percentage — we will tell you honestly whether you need a replacement. Assessment from R599 at our Hyde Park workshop. Same-day turnaround. No Fix No Fee. 12-month warranty on every battery we fit.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

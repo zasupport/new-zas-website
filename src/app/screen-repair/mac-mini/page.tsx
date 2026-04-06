@@ -297,7 +297,7 @@ export default function ScreenRepairMacMiniPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our 12-month warranty. Free diagnostic on all Mac Mini display faults. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment from R599 on all Mac Mini display faults. No Fix No Fee applies on all cases.
           </p>
         </div>
       </section>

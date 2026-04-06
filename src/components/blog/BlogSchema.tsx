@@ -113,19 +113,19 @@ export function BlogSchema({
     '@type': 'BreadcrumbList',
     itemListElement: [
       {
-        '@type': 'ListItemElement',
+        '@type': 'ListItem',
         position: 1,
         name: 'Home',
         item: 'https://www.zasupport.com',
       },
       {
-        '@type': 'ListItemElement',
+        '@type': 'ListItem',
         position: 2,
         name: 'Blog',
         item: 'https://www.zasupport.com/blog',
       },
       {
-        '@type': 'ListItemElement',
+        '@type': 'ListItem',
         position: 3,
         name: title,
         item: url,

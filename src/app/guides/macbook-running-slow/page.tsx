@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Running Slow? 12 Proven Fixes for 2026 | ZA Support',
   description:
-    'MacBook running slow? 12 step-by-step fixes from Activity Monitor to SSD upgrades. South Africa pricing, load shedding tips. Free assessment from R599.',
+    'MacBook running slow? 12 step-by-step fixes from Activity Monitor to SSD upgrades. South Africa pricing, load shedding tips. Assessment from R599.',
   alternates: { canonical: 'https://zasupport.com/guides/macbook-running-slow' },
 };
 

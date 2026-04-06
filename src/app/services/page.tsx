@@ -425,8 +425,8 @@ export default function ServicesPage() {
                 a: 'A from R599 assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee applies, you do not pay it separately. If you decline the repair after assessment, the from R599 assessment fee is payable for the diagnostic work completed.',
               },
               {
-                q: 'Do new managed services clients get a complimentary assessment?',
-                a: 'Yes. New clients signing up for IT managed services receive a complimentary IT assessment included in onboarding. We audit your environment, identify risks, and recommend the right plan before any contract is signed.',
+                q: 'Do new managed services clients get an onboarding assessment?',
+                a: 'Yes. New clients signing up for IT managed services receive an IT assessment included in onboarding. We audit your environment, identify risks, and recommend the right plan before any contract is signed.',
               },
               {
                 q: 'How much does MacBook repair cost in Johannesburg?',
