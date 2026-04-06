@@ -96,7 +96,7 @@ Get in touch via WhatsApp to discuss your setup or book a health check today.`
 'discounted-ipad-pro-hits-apple-refurb-store-with-last-g-south-africa-2026': {
   slug: 'discounted-ipad-pro-hits-apple-refurb-store-with-last-g-south-africa-2026',
   title: 'Apple Refurbished Devices vs Mac Repair: What South African Users Should Know in 2026 | ZA Support',
-  excerpt: 'Apple's refurb store offers discounted devices, but sometimes repair is smarter. Here's how to decide for your Johannesburg Mac.',
+  excerpt: "Apple's refurb store offers discounted devices, but sometimes repair is smarter. Here's how to decide for your Johannesburg Mac.",
   date: '03/04/2026',
   category: 'Mac Tips',
   readTime: '5 min read',
@@ -182,8 +182,8 @@ Built for Johannesburg's Apple users. Practice IT. Perfected.`
 },
 'iphone-18-s-biggest-design-change-will-be-new-colors-sa-south-africa-2026': {
   slug: 'iphone-18-s-biggest-design-change-will-be-new-colors-sa-south-africa-2026',
-  title: 'iPhone 18's Biggest Design Change: New Colors Explained | South Africa 2026 | ZA Support',
-  excerpt: 'Apple's iPhone 18 lineup will feature bold new color options, marking the biggest visual shift in years—here's what Johannesburg customers should know.',
+  title: "iPhone 18's Biggest Design Change: New Colors Explained | South Africa 2026 | ZA Support",
+  excerpt: "Apple's iPhone 18 lineup will feature bold new color options, marking the biggest visual shift in years—here's what Johannesburg customers should know.",
   date: '02/04/2026',
   category: 'Apple News',
   readTime: '5 min read',
@@ -418,7 +418,7 @@ We're here in Hyde Park, Johannesburg, and we fix Macs faster and better than an
   'm5-macbook-air-review-incremental-update-but-the-best-b-south-africa-2026': {
     slug: 'm5-macbook-air-review-incremental-update-but-the-best-b-south-africa-2026',
     title: 'M5 MacBook Air 2026 — Incremental Update, But Still the Best Buy for Most South Africans | ZA Support',
-    excerpt: 'Apple\'s M5 MacBook Air remains the smartest choice for most South African users—and why protecting it from liquid damage matters more than paying extra.',
+    excerpt: "Apple\'s M5 MacBook Air remains the smartest choice for most South African users—and why protecting it from liquid damage matters more than paying extra.",
     date: '30/03/2026',
     category: 'Apple News',
     readTime: '5 min read',
@@ -483,7 +483,7 @@ The M5 MacBook Air is an incremental update that doesn't need to be more. It wor
 'first-ios-26-5-macos-26-5-developer-betas-now-available-south-africa-2026': {
   slug: 'first-ios-26-5-macos-26-5-developer-betas-now-available-south-africa-2026',
   title: 'iOS 26.5 and macOS 26.5 Beta Testing Guide South Africa 2026 | ZA Support',
-  excerpt: 'Apple's released iOS 26.5 and macOS 26.5 betas. Here's what South African Mac users need to know about stability, backing up, and when to upgrade your machine.',
+  excerpt: "Apple's released iOS 26.5 and macOS 26.5 betas. Here's what South African Mac users need to know about stability, backing up, and when to upgrade your machine.",
   date: '30/03/2026',
   category: 'Apple News',
   readTime: '5 min read',
@@ -567,15 +567,11 @@ Worried your Mac might have thermal issues or hidden problems? A Health Check te
 Message us on WhatsApp: **wa.me/27645295863** or visit our Hyde Park workshop. We can run diagnostics before you install anything.
 
 Beta testing is exciting, but your data is irreplaceable.`
-}
-
-| Task | % | Status |
-|------|---|--------|
-| Blog post generated | 100% | Complete |,
+},
   'iphone-will-still-exist-50-years-from-now-says-apple-an-south-africa-2026': {
     slug: 'iphone-will-still-exist-50-years-from-now-says-apple-an-south-africa-2026',
-    title: 'Apple\'s 50-Year Vision: What Device Longevity Means for Mac Owners in South Africa 2026',
-    excerpt: 'Apple's leadership confirms iPhones will exist decades from now. Here's what that commitment to long-term device support means for Mac users seeking affordable repairs in Johannesburg.',
+    title: "Apple\'s 50-Year Vision: What Device Longevity Means for Mac Owners in South Africa 2026",
+    excerpt: "Apple's leadership confirms iPhones will exist decades from now. Here's what that commitment to long-term device support means for Mac users seeking affordable repairs in Johannesburg.",
     date: '30/03/2026',
     category: 'Apple News',
     readTime: '5 min read',
@@ -653,7 +649,7 @@ Apple's 50-year vision starts now. Maintain your device. Repair before replacing
 'ipados-26-5-beta-1-now-available-plus-tvos-26-5-watchos-south-africa-2026': {
   slug: 'ipados-26-5-beta-1-now-available-plus-tvos-26-5-watchos-south-africa-2026',
   title: 'iPadOS 26.5 Beta 1 Now Available: What South African Users Need to Know | ZA Support',
-  excerpt: 'Apple releases iPadOS 26.5 beta alongside tvOS and watchOS updates—here\'s what Johannesburg Mac users should know about testing beta software.',
+  excerpt: "Apple releases iPadOS 26.5 beta alongside tvOS and watchOS updates—here\'s what Johannesburg Mac users should know about testing beta software.",
   date: '30/03/2026',
   category: 'Apple News',
   readTime: '5 min read',
@@ -1208,7 +1204,7 @@ WhatsApp us on [064 529 5863](https://wa.me/27645295863) to book a same-day asse
   },
   'macbook-wont-connect-wifi': {
     slug: 'macbook-wont-connect-wifi',
-    title: 'MacBook Won\'t Connect to WiFi: Complete Fix Guide (2026)',
+    title: "MacBook Won\'t Connect to WiFi: Complete Fix Guide (2026)",
     excerpt: 'MacBook WiFi problems range from a 30-second software fix to a hardware fault requiring repair. This guide walks through every fix in order, so you resolve it without unnecessary steps.',
     date: '14/03/2026',
     category: 'How-To Guides',
@@ -1362,7 +1358,7 @@ WhatsApp us on [064 529 5863](https://wa.me/27645295863) for a same-day assessme
   },
   'apple-id-locked-out': {
     slug: 'apple-id-locked-out',
-    title: 'Locked Out of Apple ID? Here\'s Exactly What to Do',
+    title: "Locked Out of Apple ID? Here\'s Exactly What to Do",
     excerpt: 'Being locked out of your Apple ID affects your Mac, iPhone, iPad, and access to every Apple service. This guide covers every recovery method available in 2026 — including what to do when the standard options fail.',
     date: '14/03/2026',
     category: 'How-To Guides',
@@ -1653,7 +1649,7 @@ WhatsApp us on [064 529 5863](https://wa.me/27645295863) to book a same-day asse
   },
   'mac-not-turning-on-checklist': {
     slug: 'mac-not-turning-on-checklist',
-    title: 'Mac Won\'t Turn On? Work Through This Checklist First',
+    title: "Mac Won\'t Turn On? Work Through This Checklist First",
     excerpt: 'Before assuming the worst, work through this 8-step self-service checklist. Most Mac startup failures have a straightforward cause — a flat battery, a stuck power button, or a corrupted boot volume — and can be resolved without a repair.',
     date: '14/03/2026',
     category: 'How-To Guides',
@@ -2102,7 +2098,7 @@ On 2019 Intel MacBook Pro models, horizontal or vertical coloured lines are most
   },
   'apple-background-security-update-safari-mac-2026': {
     slug: 'apple-background-security-update-safari-mac-2026',
-    title: 'Apple\'s New Background Security Updates: What Mac Users in South Africa Need to Know',
+    title: "Apple\'s New Background Security Updates: What Mac Users in South Africa Need to Know",
     excerpt: 'Apple has introduced a new category of silent security patches that update Safari automatically without requiring a full macOS update. Here is what it means, why it matters, and how to confirm your Mac is protected.',
     date: '18/03/2026',
     category: 'Security',
