@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Stale Claude Code worktrees — not source files
+    ".claude/worktrees/**",
+    "perfect-blog/**",
   ]),
   // ZA Support overrides — allow natural prose content in JSX
   {
