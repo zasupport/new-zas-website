@@ -242,7 +242,7 @@ export default function EnterprisePage() {
             </div>
 
             <p className="mt-4 text-[#7A9E98] text-sm">
-              1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196 · Mon-Fri 08:00-17:30
+              1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196 · Mon–Thu 08:00–17:00 · Fri 08:00–16:30
             </p>
           </div>
         </div>
@@ -539,7 +539,7 @@ export default function EnterprisePage() {
               </a>
             </div>
             <p className="mt-6 text-[#7A9E98] text-sm">
-              1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196 · Mon-Fri 08:00-17:30
+              1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196 · Mon–Thu 08:00–17:00 · Fri 08:00–16:30
             </p>
           </div>
         </div>

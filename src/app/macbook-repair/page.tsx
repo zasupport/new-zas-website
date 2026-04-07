@@ -120,7 +120,7 @@ const faqs = [
   },
   {
     question: 'Where are you located in Johannesburg?',
-    answer: 'We are based at 1 Hyde Lane, Hyde Park, Johannesburg, 2196. Hyde Park is centrally located and easily accessible from Sandton, Rosebank, Illovo, Bryanston, and Parktown. We are open Monday to Friday 08:00 – 17:30 and Closed Saturdays. Free parking is available on site.',
+    answer: 'We are based at 1 Hyde Lane, Hyde Park, Johannesburg, 2196. Hyde Park is centrally located and easily accessible from Sandton, Rosebank, Illovo, Bryanston, and Parktown. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30. Closed weekends. Free parking is available on site.',
   },
   {
     question: 'Do you repair MacBooks that other shops have refused?',

@@ -1,0 +1,17 @@
+{
+  "chat_id": "UNKNOWN",
+  "detected": "2026-04-07T14:02:53.593699",
+  "files": [
+    {
+      "path": "/Users/courtneybentley/Developer/new-zas-website/docs/seo/MEDIA_PIPELINE.md",
+      "version": "unknown"
+    },
+    {
+      "path": "/Users/courtneybentley/Developer/new-zas-website/docs/seo/EMAIL_AUTOFIX.md",
+      "version": "unknown"
+    }
+  ],
+  "status": "PENDING",
+  "executed_by": null,
+  "executed_at": null
+}

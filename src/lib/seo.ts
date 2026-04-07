@@ -101,12 +101,18 @@ export const LOCAL_BUSINESS_SCHEMA = {
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
       opens: '08:00',
-      closes: '17:30',
+      closes: '17:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Friday'],
+      opens: '08:00',
+      closes: '16:30',
     },
   ],
-  hasMap: 'https://maps.google.com/?q=1+Hyde+Lane+Hyde+Park+Johannesburg',
+  hasMap: 'https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A',
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
     { '@type': 'City', name: 'Sandton' },

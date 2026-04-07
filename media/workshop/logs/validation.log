@@ -22,3 +22,41 @@
 [2026-04-07 13:33:35] WATCHER: Detected 12 new/changed files from ZAS-CHAT-20260407-1100-SEO
 [2026-04-07 13:33:35] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/ZAS-CHAT-20260407-1100-SEO.json
 [2026-04-07 13:33:35] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-07 13:33:40] WATCHER: Detected 1 new/changed files from UNKNOWN
+[2026-04-07 13:33:40] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/UNKNOWN.json
+[2026-04-07 13:33:40] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-07 13:33:44] SCRIPT za_file_watcher.py TESTED: PASS — scanned 12 files
+[2026-04-07 13:33:44] SCRIPT za_session_feedback.py TESTED: PASS — report generated
+[2026-04-07 13:33:44] SERVICE com.zasupport.filewatcher DEPLOYED: PID 50396
+[2026-04-07 13:33:44] SESSION-REPORTS DIR: 1 reports
+[2026-04-07 13:33:44] CUMULATIVE-LEARNINGS: 4 lines
+[2026-04-07 13:33:44] LAUNCHAGENTS: 66 loaded
+[2026-04-07 14:02:53] WATCHER: Detected 2 new/changed files from UNKNOWN
+[2026-04-07 14:02:53] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/UNKNOWN.json
+[2026-04-07 14:02:53] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-07 14:02:53] === DEPLOY_FULL_PIPELINE ===
+[2026-04-07 14:02:53] SCRIPT za_media_watcher.sh DEPLOYED: 49 lines
+[2026-04-07 14:02:53] SCRIPT za_email_autofix.sh DEPLOYED: 106 lines
+[2026-04-07 14:02:53] SERVICE com.zasupport.mediawatcher DEPLOYED: exit=1
+[2026-04-07 14:02:53] SERVICE com.zasupport.emailfix DEPLOYED: exit=1
+[2026-04-07 14:02:53] SHORTCUT ZAS-Workshop-Sync SIGNED: -rw-------@ 1 courtneybentley  staff  22125 Apr  7 14:02 /Users/courtneybentley/Developer/new-zas-website/scripts/ZAS-Workshop-Sync.shortcut
+EXISTS
+[2026-04-07 14:02:53] ICLOUD DIR: 0 files
+[2026-04-07 14:02:53] SHORTCUTS APP: ZAS-Workshop-Sync
+[2026-04-07 14:02:53] LAUNCHAGENTS: 68 loaded
+[2026-04-07 14:27:16] === FEEDBACK LOOP 4 ===
+[2026-04-07 14:27:16] SCRIPT za_icloud_bridge.sh DEPLOYED: 15 lines
+[2026-04-07 14:27:16] SERVICE com.zasupport.icloudbridge DEPLOYED: PID -
+[2026-04-07 14:27:16] SKILL updated: v3.4 → v3.5 (ImageObject, iCloud bridge flow, chat_id)
+[2026-04-07 14:27:16] LAUNCHAGENTS: 69 loaded
+[2026-04-07 14:27:23] WATCHER: Detected 13 new/changed files from ZAS-CHAT-20260407-1100-SEO
+[2026-04-07 14:27:23] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/ZAS-CHAT-20260407-1100-SEO.json
+[2026-04-07 14:27:23] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-07 14:34:23] FIX: com.zasupport.mediapipeline Python path /opt/homebrew → /Library/Frameworks (requests missing)
+[2026-04-07 14:34:23] SERVICE com.zasupport.mediapipeline ACTIVE: PID 10582, fswatch on ~/Workshop Photos/
+[2026-04-07 14:42:04] SHORTCUT ZAS-Workshop-Sync v2 IMPORTED: Find Photos + Repeat + Save File (signed)
+[2026-04-07 15:02:22] PIPELINE REAL-DATA TEST: PASS — 2 HEIC photos processed
+[2026-04-07 15:02:22] FIX: fswatch case-insensitive regex (.HEIC uppercase)
+[2026-04-07 15:02:22] FIX: HEIC→JPEG→WebP conversion chain (sips first, then cwebp with resize)
+[2026-04-07 15:02:22] OUTPUT: apple-device-workshop-20260407-150135.webp (106KB 1200x900) + apple-device-workshop-20260407-150139.webp (112KB 1200x900)
+[2026-04-07 15:02:22] SOCIAL: Instagram 400 (needs public URL) | Facebook 403 (token permissions) — expected, requires hosted images

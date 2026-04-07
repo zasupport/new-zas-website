@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'How far is Fourways from your workshop?',
-    answer: 'Fourways is approximately 13 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Friday 08:00–17:30 and Closed Saturdays.',
+    answer: 'Fourways is approximately 13 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30 and Closed Saturdays.',
   },
   {
     question: 'My MacBook Air M2 will not turn on. Is that repairable?',

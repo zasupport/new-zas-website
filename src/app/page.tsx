@@ -103,7 +103,7 @@ const websiteSchema = {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://zasupport.com/blog?q={search_term_string}',
+      urlTemplate: 'https://zasupport.com/search?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },
@@ -126,7 +126,7 @@ const homepageFaqs = [
   {
     question: 'Where is ZA Support located in Johannesburg?',
     answer:
-      'ZA Support is located at 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196. We are open Monday to Friday 8am–6pm and Closed Saturdays. Hyde Park is conveniently accessible from Sandton, Rosebank, Illovo, Bryanston, and Fourways.',
+      'ZA Support is located at 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30. Closed weekends and public holidays. Hyde Park is conveniently accessible from Sandton, Rosebank, Illovo, Bryanston, and Fourways.',
   },
   {
     question: 'What Apple devices do you repair?',
@@ -238,7 +238,7 @@ export default function HomePage() {
             </div>
 
             <p className="mt-4 text-[#7A9E98] text-sm">
-              Mon–Fri: 08:00–17:30 · Closed Sat & Sun · Hyde Park, Johannesburg
+              Mon–Thu: 08:00–17:00 · Fri: 08:00–16:30 · Closed Sat & Sun · Hyde Park, Johannesburg
             </p>
           </div>
         </div>
@@ -445,7 +445,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="mt-6 text-[#7A9E98] text-sm">
-              1 Hyde Lane, Hyde Park, Johannesburg · Mon–Fri 08:00–17:30 · Closed Sat & Sun
+              1 Hyde Lane, Hyde Park, Johannesburg · Mon–Thu 08:00–17:00 · Fri 08:00–16:30 · Closed Sat & Sun
             </p>
           </div>
         </div>

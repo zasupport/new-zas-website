@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'How far is Kempton Park from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 30–35 km from central Kempton Park, around 30–40 minutes by road depending on traffic. Many Kempton Park clients travelling for work or connecting through OR Tambo drop their MacBook with us on route. We are open Monday to Friday 08:00–17:30.',
+    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 30–35 km from central Kempton Park, around 30–40 minutes by road depending on traffic. Many Kempton Park clients travelling for work or connecting through OR Tambo drop their MacBook with us on route. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
   },
   {
     question: 'My MacBook was in my luggage and stopped working after a flight. Can you help?',

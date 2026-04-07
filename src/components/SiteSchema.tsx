@@ -43,9 +43,15 @@ export function SiteSchema() {
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
         opens: '08:00',
-        closes: '17:30',
+        closes: '17:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Friday'],
+        opens: '08:00',
+        closes: '16:30',
       },
     ],
     priceRange: 'R599–R15000',
@@ -77,6 +83,7 @@ export function SiteSchema() {
       'https://www.tiktok.com/@appleexpertza',
       'https://www.youtube.com/@zasupport-applemacupgrader6746',
       'https://www.linkedin.com/in/bentleycourtney/',
+      'https://www.linkedin.com/company/zasupport/',
     ],
     aggregateRating: {
       '@type': 'AggregateRating',

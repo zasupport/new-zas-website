@@ -172,7 +172,7 @@ export async function POST(request: NextRequest) {
           <hr style="border: 1px solid #eee; margin: 24px 0;" />
           <p style="color: #666; font-size: 14px;">
             ZA Support | 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg<br/>
-            Mon–Fri: 08:00–17:30 · Sat: 09:00–13:00
+            Mon–Thu: 08:00–17:00 · Fri: 08:00–16:30 · Closed Weekends
           </p>
         </div>
       `,

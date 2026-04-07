@@ -773,7 +773,7 @@ export default function MacBookNotTurningOnPage() {
             {/* Address */}
             <div className="inline-flex items-center gap-2 text-[#7A9E98] text-sm">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Second Floor, Hyde Park, Johannesburg, Monday to Friday 08:00 – 17:30 · Closed Saturdays</span>
+              <span>1 Hyde Lane, Second Floor, Hyde Park, Johannesburg · Mon–Thu 08:00–17:00 · Fri 08:00–16:30</span>
             </div>
           </div>
         </section>

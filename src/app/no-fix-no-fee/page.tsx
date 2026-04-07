@@ -173,7 +173,8 @@ export default function AssessmentProcessPage() {
       addressCountry: 'ZA',
     },
     openingHoursSpecification: [
-      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '08:00', closes: '17:30' },
+      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'], opens: '08:00', closes: '17:00' },
+      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Friday'], opens: '08:00', closes: '16:30' },
     ],
   };
 
@@ -533,7 +534,7 @@ export default function AssessmentProcessPage() {
                     { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
                     { label: 'Phone', value: '079 053 9964' },
                     { label: 'WhatsApp', value: '079 053 9964' },
-                    { label: 'Hours', value: 'Mon–Fri 08:00–17:30 | Closed Sat & Sun' },
+                    { label: 'Hours', value: 'Mon–Thu 08:00–17:00 | Fri 08:00–16:30 | Closed Sat & Sun' },
                   ].map(({ label, value }) => (
                     <div key={label} className="flex gap-3">
                       <span className="text-sm font-semibold w-20 flex-shrink-0" style={{ color: '#0FEA7A' }}>{label}</span>

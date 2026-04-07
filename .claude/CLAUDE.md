@@ -136,11 +136,11 @@ OG images: metadata `openGraph.images` + `twitter.images` (absolute URLs, 1200x6
 PWA/mobile: theme-color + apple-mobile-web-app-capable + apple-touch-icon in layout.tsx.
 
 ## §220 RESEARCH-FIRST BLOG PIPELINE — 7/DAY (HARD — 04/04/2026 — REPLACES §170/§213)
-Target: 7 posts/day (4 overnight 22:30 SAST via za-overnight-batch.sh + 3 daily 14:00 SAST via za-daily-blog-pipeline.sh)
+Target: 8 posts/day MAX (~240/month — Google-safe with E-E-A-T quality gates, 85% confidence)
 EVERY topic must be justified by data from ≥2 sources: GSC impressions-without-clicks | GA4 top-page patterns | PyTrends ZA | competitor keyword gaps | rank tracker position 5-20
 Research engine: ~/bin/za-blog-research-engine.py → ~/Desktop/Claude/Blog/research-briefs-DDMMYYYY.json
 Each topic gets a full research brief injected into the Haiku generation prompt
-Each post: 700-950 words | UK English | ≥6 FAQs | FAQPage schema | research data referenced naturally
+Each post: TIERED (1500+ repair/competitive | 1200+ informational | 800+ troubleshooting) | UK English | ≥6 FAQs | FAQPage schema | research data referenced naturally
 ∅ hardcoded topic pools | ∅ DDG scraping as sole research | ∅ generic AI topics
 
 ## E2E TEST RULE (§164 — PERMANENT — HARD — 20/03/2026)
@@ -195,7 +195,7 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 
 # §211 OVERNIGHT EXECUTION VERIFICATION (HARD — 30/03/2026): EVERY automated task MUST verify output — ∅ exit 0 without proof | file tasks: [ -s ] + validate | git: diff --stat non-empty | API: parse body | blog/page: tsc pass or REVERT | pipeline: explicit PASS/FAIL verdict | ∅ Haiku claims success without deliverable
 # §212 LAUNCHAGENT HEALTH (HARD — 30/03/2026): ALL 34 agents loaded | session start: launchctl list | grep -c zasupport = 34 | < 34 = reload before work | exit 127 = fix path | exit 1 = fix script
-# §220 BLOG PIPELINE 7/DAY (HARD — 04/04/2026): research-first (≥2 SEO sources per topic) → research brief → generate → insert → deploy | 7/day (4+3) | ∅ hardcoded pools | ∅ exit 0 with 0 posts | each: 700-950 words, ≥6 FAQs, FAQPage schema
+# §220 BLOG PIPELINE 8/DAY (HARD — 07/04/2026 — updated by §229): research-first (≥2 SEO sources per topic) → research brief → generate → insert → deploy | 8/day (4+4) | ∅ hardcoded pools | ∅ exit 0 with 0 posts | each: tiered 1500+/1200+/800+ words, ≥6 FAQs, FAQPage schema
 # §225 GAUTENG 60KM ONLY (HARD — 06/04/2026): ALL SEO = Gauteng suburbs ≤60km Hyde Park | ∅ Cape Town ∅ other provinces | suburb × service matrix | priority: logic-board > liquid-damage > managed-IT > screen > battery
 # §226 BANNED "FREE ASSESSMENT" (HARD — 06/04/2026): ∅ "free assessment" ∅ "free diagnostic" ∅ "free check" | ZA Support charges R599 for assessments | correct: "from R599 assessment" | find+replace immediately on any violation | applies to ALL pages|blogs|meta|emails
 
@@ -219,3 +219,4 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # CLI: `claude --model claude-opus-4-6` or just `claude` (settings.json enforces Opus)
 # ∅ open claude.ai in browser | ∅ use Sonnet when Opus is available | ∅ skip --model flag
 
+# §234 CLIENT-FACING PDF FORMAT (HARD — 07/04/2026) → global CLAUDE.md (auto-loaded)

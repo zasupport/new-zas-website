@@ -570,7 +570,7 @@ export default function MacBookAirLogicBoardPage() {
               MacBook Air Logic Board Fault?
             </h2>
             <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Monday – Friday 08:00–17:30 · Closed Saturdays</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Mon–Thu 08:00–17:00 · Fri 08:00–16:30 · Closed Weekends</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('LBR-MBA', 'logic-board')}

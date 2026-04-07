@@ -35,12 +35,18 @@ export const LOCAL_BUSINESS_PROVIDER = {
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
       opens: '08:00',
-      closes: '17:30',
+      closes: '17:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Friday'],
+      opens: '08:00',
+      closes: '16:30',
     },
   ],
-  hasMap: 'https://maps.app.goo.gl/E1agQ3ZZ6va73ano9',
+  hasMap: 'https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A',
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
     { '@type': 'Neighborhood', name: 'Hyde Park' },

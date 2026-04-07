@@ -477,7 +477,7 @@ export default function ServicesPage() {
               New managed services clients receive a complimentary IT assessment. Bring your device in or send us a WhatsApp, we quote honestly and fix it fast.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Hyde Park, Johannesburg &bull; Mon – Fri 08:00 – 18:00
+              Hyde Park, Johannesburg &bull; Mon–Thu 08:00–17:00 &bull; Fri 08:00–16:30
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

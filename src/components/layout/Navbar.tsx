@@ -254,7 +254,7 @@ export default function Navbar() {
                 Call {logoVariant.phone}
               </a>
               <p className="text-center text-[#7A9E98] text-sm">
-                Mon–Fri 08:00–17:30 | Closed Sat & Sun
+                Mon–Thu 08:00–17:00 | Fri 08:00–16:30 | Closed Sat & Sun
               </p>
             </div>
           </div>

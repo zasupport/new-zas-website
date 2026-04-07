@@ -52,9 +52,15 @@ const localBusinessSchema = {
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
       opens: '08:00',
-      closes: '17:30',
+      closes: '17:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Friday'],
+      opens: '08:00',
+      closes: '16:30',
     },
   ],
   areaServed: [
@@ -99,6 +105,7 @@ const localBusinessSchema = {
     'https://facebook.com/appleexpertsouthafrica',
     'https://instagram.com/appleexpertza',
     'https://twitter.com/za_support',
+    'https://linkedin.com/company/zasupport',
   ],
 };
 
@@ -169,6 +176,7 @@ const organizationSchema = {
     'https://facebook.com/appleexpertsouthafrica',
     'https://instagram.com/appleexpertza',
     'https://twitter.com/za_support',
+    'https://linkedin.com/company/zasupport',
   ],
 };
 

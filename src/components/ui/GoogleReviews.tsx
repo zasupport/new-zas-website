@@ -66,7 +66,7 @@ function truncate(text: string, max = 200): string {
   return text.slice(0, max).trimEnd() + '...';
 }
 
-const mapsUrl = 'https://maps.app.goo.gl/E1agQ3ZZ6va73ano9';
+const mapsUrl = 'https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A';
 
 function ReviewGrid({ reviews }: { reviews: Array<{ name: string; rating: number; text: string; meta: string }> }) {
   return (

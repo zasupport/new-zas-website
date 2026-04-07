@@ -7,9 +7,11 @@
 # If src/components/blog/AuthorBox.tsx does NOT exist: bash perfect-blog/setup.sh
 # If setup.sh missing: find ~ -maxdepth 4 -name "setup.sh" -path "*/perfect-blog/*" 2>/dev/null | head -1
 
-# §229 BLOG VELOCITY 2-3/DAY (HARD — 07/04/2026 — REPLACES §220 15/day):
-# Maximum: 2-3 posts/day at consistent times | Minimum: 3 posts/week
-# NEVER batch >5 in a day | Word count: min 1,500 repair guides, min 800 troubleshooting
+# §229 BLOG VELOCITY 8/DAY (HARD — 07/04/2026 — GOOGLE-SAFE LIMIT):
+# Target: 8 posts/day MAX (~240/month) | 4 overnight 22:30 + 4 daily 12:00 SAST | NEVER batch >5 at once
+# 85% confidence — defensible with E-E-A-T signals (named author, workshop experience, local pricing)
+# §227 compliance: ALL quality gates must pass | WORD COUNT TIERS: 1,500+ repair guides | 1,200+ informational/comparison | 800+ troubleshooting
+# ∅ default to shortest tier | longer articles (1200-1500+) rank higher — PRIORITISE for competitive keywords
 # Research-first: ≥2 SEO sources per topic | /perfect-blog-creator SKILL v2 is canonical source
 # §220 RESEARCH-FIRST BLOG PIPELINE → global CLAUDE.md (auto-loaded) + /perfect-blog-creator SKILL v2
 # §221 GMB MEDIA SYNC (HARD — 06/04/2026):
@@ -26,3 +28,4 @@
 # Model lock: claude-opus-4-6 set in ~/.claude/settings.json (permanent)
 # Terminal launcher: ~/Desktop/Claude Opus.app | CLI: claude --model claude-opus-4-6
 # ∅ open claude.ai in browser | ∅ use Sonnet when Opus is available
+# §234 CLIENT-FACING PDF FORMAT (HARD — 07/04/2026) → global CLAUDE.md (auto-loaded)

@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'How far is Edenvale from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Park Lane is approximately 22 km from Edenvale, roughly a 25-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Friday 08:00–17:30.',
+    answer: 'Our workshop at 1 Hyde Park Lane is approximately 22 km from Edenvale, roughly a 25-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
   },
   {
     question: 'What is the difference between component-level repair and a board replacement?',

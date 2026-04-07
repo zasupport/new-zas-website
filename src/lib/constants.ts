@@ -9,7 +9,7 @@ export const SITE = {
   reviewCount: '632',
   repairsCount: '50,000+',
   yearsExperience: '16',
-  googleMapsUrl: 'https://maps.google.com/?q=1+Hyde+Lane+Hyde+Park+Johannesburg',
+  googleMapsUrl: 'https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A',
 } as const;
 
 export const CONTACT = {
@@ -30,7 +30,7 @@ export const CONTACT = {
     full: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg, 2196',
   },
   hours: {
-    weekdays: 'Monday – Friday: 08:00 – 17:30',
+    weekdays: 'Mon–Thu: 08:00 – 17:00, Fri: 08:00 – 16:30',
     saturday: 'Closed Saturdays',
     sunday: 'Closed Sundays & Public Holidays',
   },

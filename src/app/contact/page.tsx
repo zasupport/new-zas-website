@@ -32,13 +32,19 @@ const localBusinessSchema = {
     latitude: -26.1348,
     longitude: 28.0469,
   },
-  hasMap: 'https://maps.app.goo.gl/E1agQ3ZZ6va73ano9',
+  hasMap: 'https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A',
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'],
       opens: '08:00',
-      closes: '17:30',
+      closes: '17:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Friday'],
+      opens: '08:00',
+      closes: '16:30',
     },
   ],
   areaServed: [
@@ -54,6 +60,7 @@ const localBusinessSchema = {
   sameAs: [
     'https://facebook.com/appleexpertsouthafrica',
     'https://instagram.com/appleexpertza',
+    'https://linkedin.com/company/zasupport',
   ],
 };
 
@@ -141,7 +148,7 @@ export default function ContactPage() {
                     </p>
                     <div className="p-5 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-xl max-w-sm mx-auto mb-8">
                       <p className="text-[#7A9E98] text-sm mb-1">Business hours</p>
-                      <p className="text-[#E8F4F1] text-sm font-semibold">Monday &ndash; Friday: 08:00 &ndash; 17:30</p>
+                      <p className="text-[#E8F4F1] text-sm font-semibold">Mon&ndash;Thu: 08:00 &ndash; 17:00, Fri: 08:00 &ndash; 16:30</p>
                     </div>
                     <p className="text-[#7A9E98] text-sm mb-4">Need a faster response? Call or WhatsApp us directly.</p>
                     <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -287,7 +294,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <a
-                  href="https://maps.app.goo.gl/E1agQ3ZZ6va73ano9"
+                  href="https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#0FEA7A] text-sm hover:underline"
@@ -304,7 +311,8 @@ export default function ContactPage() {
                 <div className="flex items-start gap-3 text-[#7A9E98]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
                   <div className="space-y-1 text-sm">
-                    <p>Monday &ndash; Friday: 08:00 &ndash; 17:30</p>
+                    <p>Mon&ndash;Thu: 08:00 &ndash; 17:00</p>
+                    <p>Fri: 08:00 &ndash; 16:30</p>
                     <p>Closed Saturdays</p>
                     <p className="text-[#7A9E98]/80">Closed Sundays &amp; Public Holidays</p>
                   </div>
@@ -344,7 +352,7 @@ export default function ContactPage() {
           </div>
           <div className="flex justify-center mt-6">
             <a
-              href="https://maps.app.goo.gl/E1agQ3ZZ6va73ano9"
+              href="https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all text-sm"

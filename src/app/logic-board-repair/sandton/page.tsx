@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'How far is Sandton from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 9.5 km from central Sandton, roughly a 15-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Friday 08:00–17:30 and Closed Saturdays.',
+    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 9.5 km from central Sandton, roughly a 15-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30 and Closed Saturdays.',
   },
   {
     question: 'What is the difference between component-level repair and a board replacement?',
