@@ -105,14 +105,14 @@ const localBusinessSchema = {
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'David Bentley',
-  jobTitle: 'Founder & Apple Certified Technician',
+  name: 'Courtney Bentley',
+  jobTitle: 'Apple Certified Expert Consultant',
   worksFor: {
     '@type': 'Organization',
     name: 'ZA Support',
     url: 'https://zasupport.com',
   },
-  description: 'Founder of ZA Support with 16 years of Apple repair expertise specialising in MacBook logic board component-level repair, Apple fleet management, and managed IT for medical practices across Johannesburg.',
+  description: 'Founder of ZA Support with 17 years of Apple repair expertise specialising in MacBook logic board component-level repair, Apple fleet management, and managed IT for medical practices across Johannesburg.',
   knowsAbout: [
     'Apple Mac Repair',
     'MacBook Logic Board Component-level repair',
@@ -151,8 +151,8 @@ const organizationSchema = {
   foundingDate: '2009',
   founder: {
     '@type': 'Person',
-    name: 'David Bentley',
-    jobTitle: 'Founder & Apple Certified Technician',
+    name: 'Courtney Bentley',
+    jobTitle: 'Apple Certified Expert Consultant',
   },
   address: {
     '@type': 'PostalAddress',
@@ -243,7 +243,7 @@ export default function AboutPage() {
               <div>
                 <p className="text-[#0FEA7A] text-xs font-semibold uppercase tracking-widest mb-2">Founded by</p>
                 <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
-                  David Bentley
+                  Courtney Bentley
                 </h2>
                 <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Technician · 16 Years Experience</p>
                 <p className="text-[#7A9E98] text-sm mb-4">BSc Informatics · Previous Apple Manager &amp; Solution Architect · Hyde Park, Johannesburg</p>

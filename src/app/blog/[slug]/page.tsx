@@ -19,7 +19,7 @@ const posts: Record<string, {
 'apple-prepping-ios-26-4-1-update-for-iphone-south-africa-2026': {
     slug: 'apple-prepping-ios-26-4-1-update-for-iphone-south-africa-2026',
     title: 'iOS 26.4.1 Update Coming Soon: What Johannesburg iPhone Users Need to Know',
-    excerpt: 'Apple is preparing iOS 26.4.1 bug fixes—here's why you shouldn\'t delay the update and how to protect your iPhone\'s hardware.',
+    excerpt: 'Apple is preparing iOS 26.4.1 bug fixes. Here is why you should not delay the update and how to protect your iPhone hardware.',
     date: '06/04/2026',
     category: 'Apple News',
     readTime: '5 min read',

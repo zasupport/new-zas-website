@@ -206,7 +206,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
 
     // Author pages
-    { url: `${base}/author/david-bentley`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${base}/author/courtney-bentley`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/author/mary`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
 
     // Core pages

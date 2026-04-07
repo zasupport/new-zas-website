@@ -7,7 +7,11 @@
 # If src/components/blog/AuthorBox.tsx does NOT exist: bash perfect-blog/setup.sh
 # If setup.sh missing: find ~ -maxdepth 4 -name "setup.sh" -path "*/perfect-blog/*" 2>/dev/null | head -1
 
-# §220 RESEARCH-FIRST BLOG PIPELINE → global CLAUDE.md (auto-loaded) + /perfect-blog-creator SKILL
+# §229 BLOG VELOCITY 2-3/DAY (HARD — 07/04/2026 — REPLACES §220 15/day):
+# Maximum: 2-3 posts/day at consistent times | Minimum: 3 posts/week
+# NEVER batch >5 in a day | Word count: min 1,500 repair guides, min 800 troubleshooting
+# Research-first: ≥2 SEO sources per topic | /perfect-blog-creator SKILL v2 is canonical source
+# §220 RESEARCH-FIRST BLOG PIPELINE → global CLAUDE.md (auto-loaded) + /perfect-blog-creator SKILL v2
 # §221 GMB MEDIA SYNC (HARD — 06/04/2026):
 # Pull all photos+videos from Google Business Profile → ~/Desktop/Claude/Google/GMB-Media/
 # Auth: python3 ~/bin/za-gmb-oauth-setup.py (one-time OAuth2 consent — browser required)

@@ -56,6 +56,21 @@ const nextConfig: NextConfig = {
       // Old blog slugs
       { source: '/blog/liquid-damage', destination: '/blog/what-to-do-macbook-liquid-damage', permanent: true },
       { source: '/blog/rice-myth', destination: '/blog/why-rice-does-not-work', permanent: true },
+
+      // Old WordPress page URLs (404s from legacy site)
+      { source: '/apple-repairs', destination: '/apple-repair', permanent: true },
+      { source: '/apple-expertise-johannesburg-south-africa', destination: '/about', permanent: true },
+      { source: '/macbook-pro-ram-memory-upgrades', destination: '/macbook-repair/ram-upgrade', permanent: true },
+      { source: '/apple-macbook-pro-upgrades-johannesburg-south-africa', destination: '/macbook-pro-repair', permanent: true },
+      { source: '/imac-support-johannesburg-south-africa', destination: '/imac-repair', permanent: true },
+      { source: '/apple-repair-near-me', destination: '/apple-repair', permanent: true },
+      { source: '/macbook-pro-repairs-johannesburg-south-africa', destination: '/macbook-pro-repair', permanent: true },
+      { source: '/macbook-pro-support-johannesburg-south-africa', destination: '/apple-support', permanent: true },
+      { source: '/apple-upgrades-johannesburg-south-africa', destination: '/macbook-repair/ssd-upgrade', permanent: true },
+      { source: '/macbook-air-ssd-upgrades', destination: '/macbook-repair/ssd-upgrade', permanent: true },
+
+      // Author identity correction
+      { source: '/author/david-bentley', destination: '/author/courtney-bentley', permanent: true },
     ];
   },
 };
