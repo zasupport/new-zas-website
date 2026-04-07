@@ -1,0 +1,24 @@
+[2026-04-07 13:25:16] === VALIDATION RUN ===
+[2026-04-07 13:25:16] yt-dlp: 2026.03.17 @ /Library/Frameworks/Python.framework/Versions/3.14/bin/yt-dlp
+[2026-04-07 13:25:17] ffmpeg: ffmpeg version 8.1 Copyright (c) 2000-2026 the FFmpeg developers @ /opt/homebrew/bin/ffmpeg
+[2026-04-07 13:25:17] exiftool: 13.50 @ /opt/homebrew/bin/exiftool
+[2026-04-07 13:25:17] fswatch: /opt/homebrew/bin/fswatch
+[2026-04-07 13:25:17] python3: Python 3.14.2 @ /Library/Frameworks/Python.framework/Versions/3.14/bin/python3
+[2026-04-07 13:25:17] SCRIPTS:
+[2026-04-07 13:25:17]   INSTALLED: /Users/courtneybentley/bin/za_media_pipeline.py (     617 lines)
+[2026-04-07 13:25:17]   INSTALLED: /Users/courtneybentley/bin/za_google_monitor.py (     568 lines)
+[2026-04-07 13:25:17]   INSTALLED: /Users/courtneybentley/bin/za_email_scanner.py (     650 lines)
+[2026-04-07 13:25:17]   INSTALLED: /Users/courtneybentley/bin/za_tiktok_pull.py (     323 lines)
+[2026-04-07 13:25:17] LAUNCHAGENTS: 65 loaded
+[2026-04-07 13:25:17] TIKTOK FRAMES: 14 WebP files
+[2026-04-07 13:25:17] CATALOGUE: NOT_FOUND
+[2026-04-07 13:25:17] WEBP DIRS: 9 categories
+[2026-04-07 13:25:18] INSTAGRAM: IG API: 200 @appleexpertza
+[2026-04-07 13:25:18] === VALIDATION COMPLETE ===
+[2026-04-07 13:33:30] WATCHER: File watcher started
+[2026-04-07 13:33:30] WATCHER: Detected 12 new/changed files from UNKNOWN
+[2026-04-07 13:33:30] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/UNKNOWN.json
+[2026-04-07 13:33:30] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-07 13:33:35] WATCHER: Detected 12 new/changed files from ZAS-CHAT-20260407-1100-SEO
+[2026-04-07 13:33:35] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/ZAS-CHAT-20260407-1100-SEO.json
+[2026-04-07 13:33:35] WATCHER: Cannot send notification — no MS Graph token
