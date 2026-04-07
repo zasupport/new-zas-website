@@ -420,5 +420,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/randpark-ridge`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/screen-repair/randpark-ridge`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/randpark-ridge`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+        { url: `${base}/blog/apple-vs-third-party-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-fan-noise-fix-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-wifi-not-working-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
