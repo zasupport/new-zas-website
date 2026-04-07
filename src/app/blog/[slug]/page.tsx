@@ -16,6 +16,88 @@ const posts: Record<string, {
   author: string;
   content: string;
 }> = {
+  'iphone-fold-is-on-track-to-launch-this-september-per-ma-south-africa-2026': {
+    slug: 'iphone-fold-is-on-track-to-launch-this-september-per-ma-south-africa-2026',
+    title: 'Apple\'s iPhone Fold Arrives September 2026 – What South African Users Need to Know',
+    excerpt: 'Mark Gurman confirms the foldable iPhone is on track for a September launch – here\'s what Johannesburg-based Apple users should know before pre-orders begin.',
+    date: '07/04/2026',
+    category: 'Apple News',
+    readTime: '5 min read',
+    author: 'Mary',
+    content: `Apple's first foldable iPhone is officially on track for a September 2026 launch, according to Bloomberg's Mark Gurman. After earlier reports suggested potential delays into 2027, this confirmation means South African Apple enthusiasts should start preparing for one of the most anticipated device launches in years.
+
+## What Is the iPhone Fold?
+
+Apple's iPhone Fold represents a major shift in how we think about smartphone design. Unlike traditional iPhones, this device will feature a bendable display that folds in half, transforming a compact pocket-sized phone into a tablet-sized screen. When closed, it'll be roughly the size of a traditional iPhone but significantly thicker. Unfolded, you're looking at approximately a 7.8-inch display—somewhere between your iPhone 17 Pro and an iPad mini.
+
+## Why This Matters for Johannesburg Users
+
+For tech professionals in Sandton, creatives in Bryanston, or students across Gauteng, the iPhone Fold could change how you work on the go. **The larger unfolded display means genuine productivity features** that rival laptop alternatives for mobile work. Whether you're drafting proposals, editing photos, or managing multiple apps simultaneously, the increased real estate offers real advantages.
+
+However, this innovation comes with new considerations—especially in South Africa's high-humidity climate and during load-shedding-related stress on your devices.
+
+## The Durability Question: Foldable Screens Are Different
+
+Here's what you need to understand: **foldable displays are fundamentally different from traditional iPhone glass**. The folding mechanism creates a crease in the centre of the screen, and the display uses more flexible materials that are inherently more susceptible to:
+
+- **Liquid damage** from coffee spills or accidental water contact
+- **Screen creasing** and potential degradation over time
+- **Hinge stress** from repeated folding
+- **Pressure sensitivity issues** if dropped on the fold line
+
+This is where the conversation gets practical for South African users.
+
+## Real Repair Costs: Apple Store vs. Local Specialists
+
+If your iPhone Fold's display is damaged, Apple's official repair costs could be devastating. At the Apple Store in Sandton or Rosebank, display replacements for foldable phones typically start at **R15,000–R70,000 depending on severity**. That's a significant portion of the device's purchase price.
+
+Alternative repair shops like Mac Shack charge **R4,499 and upwards** for similar work—still substantial, but considerably less than official channels.
+
+**At ZA Support in Johannesburg, we offer a third option: expert diagnosis and repair from our workshop in Hyde Park.** Our **Logic Board Repair service (R2,499)** covers complex foldable display electronics. If liquid damage has affected the internal circuitry—common with foldables—our **Liquid Damage service (R1,999)** can often save your device. And before making any repair decision, our **Health Check (R599)** gives you full diagnostic clarity on what's actually damaged.
+
+## Practical Advice Before You Buy
+
+When the iPhone Fold launches in September, keep these points in mind:
+
+**1. AppleCare+ Will Be Essential**
+Unlike standard iPhones, foldables require specific extended protection. AppleCare+ for the Fold will likely include accidental damage protection—invest in it immediately at purchase.
+
+**2. Use a Quality Case and Screen Protector**
+Spend money on protective accessories upfront. The cost of a R500 protective case is negligible compared to repair bills.
+
+**3. Avoid Moisture in Gauteng's Summer**
+Our rainy summers (November–March) mean increased humidity. Keep your Fold away from steam, condensation, and water features.
+
+**4. Know Your Local Repair Options**
+Before something goes wrong, have a backup plan. **Johannesburg-based Apple users should know that ZA Support offers faster turnaround than shipping to Sandton Apple Store**, often same-day diagnostics for liquid damage and electronic faults.
+
+**5. Document Your Device**
+Take photos of your Fold in mint condition. If damage occurs, documentation helps when filing warranty claims.
+
+## The South African Price Reality
+
+The iPhone Fold will launch at a premium price point globally. In South Africa, expect pricing between **R30,000–R40,000 ZAR**, depending on storage. For Johannesburg professionals in Investec towers or corporate offices in Midrand, this positions the Fold as a genuine productivity investment rather than a consumer luxury.
+
+## What About the September Timeframe?
+
+Mark Gurman's confirmation means **supply chains are stable, manufacturing is on schedule, and you should expect announcements in late August with pre-orders opening immediately after**. South African Apple retailers typically receive stock within 2–4 weeks of international launch, so September/October is realistic for local availability.
+
+## Making the Right Choice for Your Workflow
+
+Not everyone needs a foldable iPhone. If you're primarily a messaging and social media user, your current iPhone serves you fine. But if you're editing spreadsheets, managing client projects, or working with multiple apps simultaneously while mobile, the Fold's productivity advantage is genuine.
+
+The key is **knowing your repair pathway before you buy**. Don't assume Apple Store is your only option when issues arise.
+
+## Get Expert Advice Before Launch
+
+We're already fielding questions from Johannesburg professionals curious about the Fold's durability and repairability. **If you want hands-on guidance before the September launch—or if you're concerned about what foldable technology means for your current device—reach out via WhatsApp.**
+
+**Message us on WhatsApp: [wa.me/27645295863](https://wa.me/27645295863)**
+
+Our team can discuss your specific needs, explain liquid damage prevention, and ensure you understand the real costs of ownership before launch day arrives.
+
+The iPhone Fold is coming. Being prepared beats being surprised.`
+  },
 'apple-prepping-ios-26-4-1-update-for-iphone-south-africa-2026': {
     slug: 'apple-prepping-ios-26-4-1-update-for-iphone-south-africa-2026',
     title: 'iOS 26.4.1 Update Coming Soon: What Johannesburg iPhone Users Need to Know',
