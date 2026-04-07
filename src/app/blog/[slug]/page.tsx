@@ -10314,6 +10314,179 @@ If we run a full diagnostic and determine the repair is not possible or economic
 }
 \`\`\``,
   },
+  'macbook-battery-swollen-johannesburg': {
+    slug: 'macbook-battery-swollen-johannesburg',
+    title: `Swollen MacBook Battery Repair Johannesburg: What You Need to Know`,
+    excerpt: `A swollen MacBook battery is one of the most dangerous hardware failures we encounter in our Hyde Park workshop. Unlike a cracked screen or keyboard malfunction, a bulging battery poses an immediate f.`,
+    date: '07 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# Swollen MacBook Battery Repair Johannesburg: What You Need to Know
+
+A swollen MacBook battery is one of the most dangerous hardware failures we encounter in our Hyde Park workshop. Unlike a cracked screen or keyboard malfunction, a bulging battery poses an immediate fire and injury risk—and the problem often develops silently until the trackpad stops responding or the screen lifts away from the chassis.
+
+In this guide, I'll walk you through exactly what causes battery swelling, why it happens faster in Johannesburg's climate, and how to get it fixed safely without damaging your machine further.
+
+## Why MacBook Batteries Swell: The Chemistry
+
+Battery swelling occurs when lithium-ion cells generate gas during thermal runaway or chemical degradation. Inside your MacBook's sealed case, there's nowhere for that gas to escape, so pressure builds up. The result: the battery physically expands, pushing upward against your trackpad and screen.
+
+We've seen this happen for three main reasons:
+
+**Age and cycle count.** Apple's batteries are rated for around 1,000 charge cycles before capacity drops below 80%. Once you hit 1,200–1,500 cycles, the internal separators can degrade, causing the cells to swell.
+
+**Heat exposure.** Johannesburg's summer temperatures regularly exceed 30°C. If your MacBook sits in direct sunlight, near a heater, or inside a hot car, the internal temperature can spike to 50°C+. Lithium-ion cells degrade much faster at elevated temperatures—we typically see swelling occur 6–12 months earlier in machines exposed to consistent heat.
+
+**Manufacturing defect.** Some MacBook batteries ship with a weakness in the cell chemistry. This is less common but does happen, particularly in 2016–2017 models.
+
+The danger is real. A swollen battery can short-circuit, ignite the electrolyte inside, or rupture. We never recommend opening a swollen battery yourself or attempting a DIY replacement. The moment you see a lifted trackpad or bulging case, contact us.
+
+## How to Spot a Swollen Battery Before It Becomes Critical
+
+Most clients don't realise they have a swollen battery until the trackpad becomes unresponsive or they notice the screen bezel lifting away from the base. By then, the battery has already been expanding for weeks.
+
+Watch for these early warning signs:
+
+- Trackpad feels stiff or unresponsive to clicks (pressure from below)
+- Keyboard sits higher than usual or has inconsistent key travel
+- Visible gap between the bottom case and the screen when closed
+- Device becomes warm even when idle
+- Battery drains rapidly despite low usage
+- Strange warping or bulge visible on the base of the machine
+
+If you spot any of these, don't delay. The longer a swollen battery sits in your machine, the greater the risk of corrosion to the logic board and trackpad connector. We've had clients in Sandton and Bryanston whose machines needed logic board repair—a far more expensive fix—because they waited too long.
+
+## Swollen MacBook Battery Repair in Johannesburg: Our Process
+
+At ZA Support in Hyde Park, we handle swollen battery replacements with strict safety protocols.
+
+**Step one:** Diagnosis. We run a full hardware scan and open the base case in a controlled environment to assess the battery's condition and check for secondary damage. This takes around 30 minutes and costs from R599 for a full assessment (this is not a "free diagnostic"—you get a detailed fault report and repair quote).
+
+**Step two:** Safe battery isolation. If the battery is actively swelling or showing signs of bloating, we do not attempt removal in-house. We liaise with Apple's authorised service network in Midrand or Pretoria to ensure safe handling and recycling. If the battery is stable but expanded, we carefully disconnect the power connector first, then extract the battery using specialised tools.
+
+**Step three:** Replacement. We install an OEM Apple battery or an equivalent certified replacement. All our batteries come with up to 3-year warranty and carry full Parts & Labour coverage.
+
+**Step four:** Logic board inspection. Swelling batteries often damage the trackpad connector or nearby power delivery circuits. We inspect these components and repair any damage (see our [logic board repair service](/logic-board-repair)).
+
+**Step five:** Testing and handover.** We run a 48-hour burn-in test to verify the new battery holds charge, cycles correctly, and the trackpad responds normally.
+
+Turnaround is typically 3–5 working days if parts are in stock. If we need to source a specific battery model, it may extend to 7 days.
+
+## Cost and Warranty
+
+A swollen MacBook battery replacement typically costs between R2,200 and R3,800 depending on your machine's model and age. This includes parts, labour, and our 3-year warranty on the replacement battery.
+
+If we discover secondary damage to your trackpad, logic board, or power delivery circuit during the repair, we'll quote that separately. However, our No Fix No Fee guarantee means if we diagnose the problem but you choose not to proceed, you pay only the assessment fee.
+
+Many clients ask if they should pursue this through Apple directly. If your MacBook is under warranty, Apple will replace the battery at no cost. If it's out of warranty, Apple charges R3,100–R4,200 for the same service. We're competitive on price, faster on turnaround (we're in Hyde Park, not a regional service centre), and we can often spot and repair secondary damage in the same visit.
+
+## Battery Swelling and Load Shedding
+
+A quick note for Johannesburg users: load shedding has indirectly worsened battery swelling complaints. When power cuts hit, many people leave their MacBooks plugged in during the outage, then charge aggressively once power returns. This rapid charge cycling, combined with heat stress, accelerates battery degradation. If you're in an area affected by load shedding (Centurion, Midrand, Randburg), consider unplugging your charger during outages and using your battery instead.
+
+## What to Do Right Now
+
+If you suspect your MacBook has a swollen battery, do this:
+
+1. Stop using the machine immediately.
+2. Unplug the charger and do not attempt to charge it further.
+3. Place it in a cool, well-ventilated area (not in a bag or near flammable materials).
+4. Contact us via WhatsApp on **064 529 5863** or visit **zasupport.com/book** to schedule an assessment.
+
+If you've already experienced [liquid damage](/liquid-damage) to your machine, a swollen battery repair often uncovers corrosion we can address in the same visit. Read our full liquid damage recovery guide for context.
+
+For detailed Apple support information on battery health, see [Apple's official MacBook battery guide](https://support.apple.com/en-us/HT201585).
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does a swollen battery repair take?
+
+Most swollen battery replacements take 3–5 working days. If your machine requires secondary repairs (trackpad connector, logic board inspection), add 1–2 days. We'll give you a precise timeline during your assessment.
+
+### Q: Is it safe to use a MacBook with a swollen battery?
+
+No. A swollen battery can rupture, short-circuit, or catch fire. Do not use the machine, charge it, or leave it plugged in. Stop using it immediately and contact us. This is not hyperbole—lithium fires are difficult to extinguish.
+
+### Q: Will AppleCare+ cover a swollen battery repair?
+
+Yes, if your machine is under AppleCare+ and the swelling is not caused by physical damage. If it's out of warranty, AppleCare+ does not apply. We can check your coverage during assessment. Bring your proof of purchase if you have it.
+
+### Q: What causes battery swelling in Johannesburg specifically?
+
+Heat and cycle stress. Our summer temperatures (30°C+) accelerate lithium-ion degradation. High-altitude charging (Johannesburg sits at 1,760m) also stresses cells. Combined with inconsistent power supply during load shedding, batteries fail faster here than in cooler regions.
+
+### Q: Can I replace a swollen battery myself?
+
+Absolutely not. Swollen batteries can rupture during removal, releasing flammable electrolyte and creating a burn or fire hazard. We use specialised safety equipment and proper disposal protocols. DIY attempts risk severe injury.
+
+### Q: What's your warranty on a replacement battery?
+
+We offer up to 3-year warranty on all replacement batteries, including parts and labour. This covers defects, premature capacity loss, and manufacturing faults. Warranty does not cover physical damage from drops or liquid exposure.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a swollen battery repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most swollen battery replacements take 3–5 working days. If your machine requires secondary repairs (trackpad connector, logic board inspection), add 1–2 days. We'll give you a precise timeline during your assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it safe to use a MacBook with a swollen battery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A swollen battery can rupture, short-circuit, or catch fire. Do not use the machine, charge it, or leave it plugged in. Stop using it immediately and contact us. This is not hyperbole—lithium fires are difficult to extinguish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will AppleCare+ cover a swollen battery repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if your machine is under AppleCare+ and the swelling is not caused by physical damage. If it's out of warranty, AppleCare+ does not apply. We can check your coverage during assessment. Bring your proof of purchase if you have it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes battery swelling in Johannesburg specifically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Heat and cycle stress. Our summer temperatures (30°C+) accelerate lithium-ion degradation. High-altitude charging (Johannesburg sits at 1,760m) also stresses cells. Combined with inconsistent power supply during load shedding, batteries fail faster here than in cooler regions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I replace a swollen battery myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely not. Swollen batteries can rupture during removal, releasing flammable electrolyte and creating a burn or fire hazard. We use specialised safety equipment and proper disposal protocols. DIY attempts risk severe injury."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your warranty on a replacement battery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer up to 3-year warranty on all replacement batteries, including parts and labour. This covers defects, premature capacity loss, and manufacturing faults. Warranty does not cover physical damage from drops or liquid exposure."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Get your swollen battery fixed safely.** WhatsApp us on **064 529 5863** or book your assessment at **zasupport.com/book**. We're in Hyde Park, serving Sandton, Bryanston, Fourways, Centurion, and Pretoria. From R599 assessment. No Fix No Fee.`,
+  },
 };
 
 export async function generateStaticParams() {
