@@ -6,7 +6,7 @@ export const SITE = {
   foundingDate: '2009',
   vat: '436-026-0014',
   rating: '4.9',
-  reviewCount: '632',
+  reviewCount: '633',
   repairsCount: '50,000+',
   yearsExperience: '16',
   googleMapsUrl: 'https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A',
