@@ -10569,6 +10569,306 @@ We offer up to 3-year warranty on all replacement batteries, including parts and
 
 **Get your swollen battery fixed safely.** WhatsApp us on **064 529 5863** or book your assessment at **zasupport.com/book**. We're in Hyde Park, serving Sandton, Bryanston, Fourways, Centurion, and Pretoria. From R599 assessment. No Fix No Fee.`,
   },
+  'logic-board-repair-cost-johannesburg': {
+    slug: 'logic-board-repair-cost-johannesburg',
+    title: `Logic Board Repair Cost Johannesburg 2026: What You'll Actually Pay`,
+    excerpt: `Logic board failures are among the most expensive repairs an Apple device can face. In our Hyde Park Johannesburg workshop, we see clients shocked by Apple Store quotes—often ranging from R15,000 to R.`,
+    date: '07 April 2026',
+    category: 'Pricing',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# Logic Board Repair Cost Johannesburg 2026: What You'll Actually Pay
+
+Logic board failures are among the most expensive repairs an Apple device can face. In our Hyde Park Johannesburg workshop, we see clients shocked by Apple Store quotes—often ranging from R15,000 to R70,000 depending on the device and fault type. At ZA Support, we repair the same boards for from R4,499, and we wanted to explain exactly why costs vary so dramatically and what you should expect to pay in 2026.
+
+The logic board is your device's brain. When it fails—whether from liquid damage, manufacturing defects, or component burnout—your phone, tablet, or laptop stops working entirely. The question isn't whether repair is possible; it's whether the repair makes financial sense. We'll walk you through the real costs, what drives them, and how to avoid overpaying.
+
+## Logic Board Repair Cost Range in Johannesburg
+
+You'll find wildly different prices depending on where you take your device. Apple Store repairs in South Africa typically start at R15,000 for minor board-level work and climb to R70,000 or more for newer models like the iPhone 15 Pro or MacBook Pro 16-inch. These prices include Apple's standard one-year warranty and use of genuine components.
+
+At ZA Support, our logic board repairs start from R4,499 for older iPhone models and scale with device complexity. A MacBook Air logic board might cost R8,999, whilst a newer iPhone 14 board sits around R6,499. The difference isn't quality—it's overhead. We operate from our Hyde Park workshop without retail premises costs, and we don't carry Apple's markup structure. Every board we repair comes with a up to 3-year warranty and our No Fix No Fee guarantee: if we can't fix your device, you pay nothing for diagnosis.
+
+Why the R10,000+ gap? Apple's pricing covers their brand guarantee, their retail locations, and their supply chain certainty. We've invested in diagnostic equipment and technician training instead. Both approaches work; one just costs significantly less.
+
+## What Affects Logic Board Repair Pricing
+
+Not all logic board failures are equal, and pricing reflects actual work complexity.
+
+**Device model and age.** A 2019 iPhone 11 board is simpler and cheaper to repair than an iPhone 15 Pro Max. Newer boards have denser component placement, more layers, and specialised chips that increase both parts cost and labour time. We've charged from R599 for initial assessment—this diagnostic fee applies toward your repair if you proceed, or stands alone if you decide not to repair.
+
+**Type of failure.** We see three main categories. *Liquid damage* often requires micro-soldering work to replace corroded components—this is labour-intensive and costs more. *Component failure*—a burnt power management chip, for instance—might be a single component replacement, cheaper and faster. *Manufacturing defects* vary wildly; some need a single micro-solder joint re-flow, others need full board replacement.
+
+**Parts availability.** If your board needs a specific component manufactured only by Apple, costs rise because we source through specialist suppliers and pay a premium. Devices from 2015–2018 sometimes have components that are genuinely difficult to source in South Africa. Newer devices have slightly more accessible parts because they're in higher demand.
+
+**Load shedding impact.** This is a real cost factor in Johannesburg we don't see discussed elsewhere. Our workshop runs on backup power during Stage 6 load shedding, which adds operational cost. We factor this into quotes, especially for repairs that take 4–6 hours under controlled conditions.
+
+## Why Choose ZA Support Over the Apple Store
+
+We're not cheaper by accident. Over eight years repairing Apple devices across Johannesburg suburbs—from Sandton to Soweto—we've built processes that the Apple Store doesn't use.
+
+Our technicians spend 60% of their time on logic board work specifically. Apple Genius Bar staff handle everything from screen replacement to software support; logic boards are maybe 5% of their workload. Specialisation matters. We own our diagnostic equipment and don't charge you for the privilege of using it.
+
+We offer No Fix No Fee. If we diagnose your board and determine it cannot be economically repaired, you don't pay for that diagnosis. The Apple Store charges R499–R999 for diagnosis whether they repair or not.
+
+Warranty is another differentiator. Our repairs carry a up to 3-year warranty on parts and labour. If that micro-solder joint we re-flowed fails within three years, we fix it free. Apple's one-year warranty is standard industry practice; ours is genuinely unusual in South Africa.
+
+We respect your data. If your board is repairable without data loss, we'll work around your storage. Apple's standard practice is device replacement, which erases everything. We've seen clients lose years of photos because Apple's process didn't preserve their data.
+
+## Common Logic Board Failures We See in Johannesburg
+
+**Liquid damage from load shedding-related flooding.** During heavy rains in areas like Fourways and Bryanston, water ingress causes oxidation on board traces within hours. This is the most common failure we see in winter. Early intervention—within 48 hours—can prevent permanent damage. We have a [full guide to liquid damage repair](/liquid-damage) on our site.
+
+**USB-C port charge controller failure.** On iPhone 15 models, we're seeing a pattern of power management chip failure, typically after 18–24 months. This isn't a user error; it's component stress under normal charging cycles. Repair costs around R5,499.
+
+**WiFi and Bluetooth module burnout.** Usually caused by power surges during load shedding when devices are plugged in. The module itself costs R800–R1,200, but removal and replacement requires micro-soldering skills. Labour brings total cost to R3,499–R4,999.
+
+**Battery management system failure.** The chip that communicates between battery and device fails silently, and the device won't charge. Common on iPhone 12 and 13 models. This is one of the faster repairs—typically same-day—and costs from R2,999.
+
+For detailed technical information about what we do, [Apple's official repair documentation](https://support.apple.com/en-us/HT201401) covers the components involved, though it doesn't detail repair procedures.
+
+## How to Get Your Board Repaired
+
+Start with diagnosis. Bring your device to our Hyde Park workshop or arrange a WhatsApp consultation on **064 529 5863**. We'll run diagnostics for R599 and give you a fixed quote—no hidden costs, no surprise charges when you pick up.
+
+If you decide to proceed, we'll give you a timeline. Most logic board repairs complete within 3–5 working days, depending on parts availability. You can [book an appointment here](/book).
+
+If you're in Johannesburg but can't visit Hyde Park, we accept devices by post with full insurance coverage. Message us on WhatsApp to arrange.
+
+## Frequently Asked Questions
+
+### Q: Why is the Apple Store so much more expensive?
+
+Apple Store pricing includes their warranty, their brand assurance, and their overhead costs. They also typically replace the entire logic board rather than repair individual components. There's no quality difference—it's a business model difference. We repair boards; they replace them.
+
+### Q: Is a R4,499 repair actually better than a R15,000 replacement?
+
+That depends on your device age and whether data preservation matters. For a three-year-old iPhone, repair makes sense. For a six-year-old device, replacement might be more sensible. We'll advise honestly—we've turned down repairs where replacement was actually better value.
+
+### Q: What does "No Fix No Fee" actually mean?
+
+If we diagnose your board and determine repair isn't economically viable or technically possible, the R599 diagnostic fee is waived. You pay nothing if we can't fix it. This protects you from paying diagnosis fees elsewhere that don't result in repair.
+
+### Q: How long does a logic board repair take?
+
+Most repairs take 3–5 working days. Liquid damage cases take longer because we need to clean and dry the board thoroughly. Same-day repairs are rare but possible for simple component replacements if parts are in stock.
+
+### Q: Will my data be safe during repair?
+
+Yes. We repair boards in-circuit whenever possible, meaning your storage stays intact. We never wipe devices as part of the repair process. If data recovery is needed separately, that's a different service we can discuss.
+
+### Q: What's covered under the warranty?
+
+Our up to 3-year warranty covers the repaired component and labour. If that specific section of the board fails again within three years, we repair it free. Normal wear, accidental damage, and liquid damage aren't covered—but you get a clear explanation of what is and isn't covered before we start work.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is the Apple Store so much more expensive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apple Store pricing includes their warranty, their brand assurance, and their overhead costs. They also typically replace the entire logic board rather than repair individual components. There's no quality difference—it's a business model difference. We repair boards; they replace them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a R4,499 repair actually better than a R15,000 replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That depends on your device age and whether data preservation matters. For a three-year-old iPhone, repair makes sense. For a six-year-old device, replacement might be more sensible. We'll advise honestly—we've turned down repairs where replacement was actually better value."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does No Fix No Fee actually mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If we diagnose your board and determine repair isn't economically viable or technically possible, the R599 diagnostic fee is waived. You pay nothing if we can't fix it. This protects you from paying diagnosis fees elsewhere that don't result in repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a logic board repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs take 3–5 working days. Liquid damage cases take longer because we need to clean and dry the board thoroughly. Same-day repairs are rare but possible for simple component replacements if parts are in stock."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my data be safe during repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We repair boards in-circuit whenever possible, meaning your storage stays intact. We never wipe devices as part of the repair process. If data recovery is needed separately, that's a different service we can discuss."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's covered under the warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our up to 3-year warranty covers the repaired component and labour. If that specific section of the board fails again within three years, we repair it free. Normal wear, accidental damage, and liquid damage aren't covered—but you get a clear explanation of what is and isn't covered before we start work."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Ready to get your logic board repaired?** Message us on WhatsApp: **064 529 5863** or [book your appointment here](/book). We're in Hyde Park, Johannesburg, and we'll give you a fixed quote with no surprises.`,
+  },
+  'macbook-liquid-damage-recovery-johannesburg': {
+    slug: 'macbook-liquid-damage-recovery-johannesburg',
+    title: `MacBook Liquid Damage Recovery in Johannesburg: What You Need to Know`,
+    excerpt: `When your MacBook encounters liquid damage, every minute counts. We're the team at ZA Support in Hyde Park, and we've spent years recovering devices that their owners thought were beyond saving. This .`,
+    date: '07 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'ZA Support',
+    content: `# MacBook Liquid Damage Recovery in Johannesburg: What You Need to Know
+
+When your MacBook encounters liquid damage, every minute counts. We're the team at ZA Support in Hyde Park, and we've spent years recovering devices that their owners thought were beyond saving. This guide walks you through what actually happens when liquid meets circuitry, why common myths cost you money, and how professional recovery can restore your machine to full working order.
+
+## Understanding MacBook Liquid Damage: The First Hours Matter
+
+Liquid damage isn't always fatal. The outcome depends on three factors: what liquid entered the device, how quickly you act, and which components were saturated. In our Hyde Park workshop, we've recovered MacBooks that survived coffee spills, juice incidents, and even water from load-shedding pump failures—but only when the owner powered down immediately.
+
+When liquid contacts the logic board, it creates two problems. First, the conductive pathways short circuits form where they shouldn't, causing immediate component failure. Second, as the liquid dries naturally over days, corrosion begins. Microscopic salt and mineral deposits from tap water, or sticky residue from soft drinks, eat away at solder joints and trace lines. This secondary damage is why a MacBook might work for a day after a spill, then fail entirely.
+
+Your first action should be: power off the device immediately, don't attempt restart, and contact a specialist. Do not leave it "to dry out." We've seen too many clients lose devices this way.
+
+## Why the 72-Hour Drying Myth Fails Your MacBook
+
+Online forums often recommend leaving a wet MacBook in rice or a warm cupboard for three days. This advice comes from logic that seems reasonable—evaporation needs time. But it doesn't account for what's actually happening inside your device.
+
+Passive air drying is passive *corrosion* drying. Every hour your logic board sits damp, oxidation spreads. Tap water in Johannesburg contains minerals; coffee contains sugar and acids. These don't simply evaporate. They crystallise on circuit traces, bonding to copper and solder. By hour 48, the damage is often irreversible without professional intervention.
+
+Professional liquid damage recovery uses targeted methods. At ZA Support, we start with ultrasonic cleaning—submerging the logic board in a controlled solvent bath and using high-frequency sound waves to dislodge contaminants from component legs, under chips, and inside connectors. This is where passive drying fails completely; sound waves reach places air never will.
+
+Following ultrasonic cleaning, we apply controlled low-temperature heat to accelerate safe evaporation, then inspect for corrosion. This process takes hours, not days, and prevents the secondary damage that kills devices left to dry.
+
+## Professional MacBook Liquid Damage Assessment: What's Involved
+
+Our assessment process at ZA Support costs R599 and includes a full diagnostic to determine whether your device is recoverable. Here's what happens:
+
+**Visual inspection**: We examine the logic board under magnification, looking for obvious damage like burnt components or extensive corrosion. We note which sections were wetted—the keyboard area, USB ports, or proximity to the CPU all carry different recovery odds.
+
+**Testing without power**: We apply power through a bench-top supply in current-limiting mode. This means we can detect short circuits without allowing full current to flow, which would destroy more components. Many liquid-damaged MacBooks will short immediately at this stage.
+
+**Component-level diagnosis**: If the device doesn't short, we measure voltage at key points on the logic board. The power management chip, CPU power rails, and DRAM supply are our first targets. Corrosion here is usually visible, but testing confirms whether it's affecting function.
+
+**Keyboard and trackpad assessment**: Liquid damage often settles in these components too. If they're affected, they complicate recovery because moisture trapped in the matrix requires separate drying cycles.
+
+Based on this assessment, we'll provide a fixed quote. We work on a **No Fix No Fee** basis—if we cannot restore the device to full working order, you pay nothing. Most liquid damage cases we accept are recovered fully. Some require [logic board repair](/logic-board-repair) for component replacement, but the core device is salvageable.
+
+## Liquid Damage Recovery Timeline and What to Expect
+
+Recovery isn't instant. From handover to power-on testing, the process typically takes 5–7 working days. Here's why.
+
+After ultrasonic cleaning, the board requires a full drying cycle under controlled heat and humidity. This prevents new corrosion from forming as moisture evaporates. We then allow a cooling period before testing, because thermal stress can hide intermittent faults.
+
+If testing reveals [liquid damage](/liquid-damage) beyond ultrasonic cleaning—for instance, corroded solder joints or failed power management components—we move to repair. This might involve microsolder replacement, component reballing, or power IC replacement. Each adds 2–3 days.
+
+We provide a full report with photographs before and after recovery, because you'll want evidence of what happened inside your device. Most clients are shocked to see the corrosion that would have destroyed their MacBook had it sat untreated.
+
+Every device we recover carries **up to a three-year warranty** on the repair. This is our confidence in the work, not a marketing claim.
+
+## Preventing Future Liquid Damage in Johannesburg's Climate
+
+Johannesburg's hot, dry climate and unpredictable water supply create specific risks. Load-shedding has made water pumps common in homes and offices, and pump failures have brought us several MacBook spill cases this year alone. Keep your device away from areas where backup water systems operate.
+
+Coffee spills remain the single most common cause. Keep drinks well clear of your workspace, or invest in a spill-proof travel mug if you work mobile around the city.
+
+If you're in a building vulnerable to water ingress during summer storms, position your MacBook on a desk, not the floor. And if you travel between suburbs with significant altitude differences (like moving between the southern suburbs and the north), give your device time to acclimatise before opening it—condensation inside is a slow leak.
+
+Most importantly: if a spill happens, don't hesitate. Contact us immediately at [064 529 5863](tel:064 529 5863) on WhatsApp, or [book an assessment online at zasupport.com/book](https://zasupport.com/book). The first hour is the difference between a R599 assessment leading to full recovery and a total loss.
+
+For more technical detail on how liquid damage spreads, Apple's official repair guidelines are available at [Apple Support's service resources](https://support.apple.com). We also recommend iFixit's teardown guides if you're curious about MacBook internals—they're detailed and honest about where water damage risks are highest.
+
+## Frequently Asked Questions
+
+### Q: Is my MacBook definitely broken if it got wet?
+Not necessarily. Liquid alone doesn't destroy a device; power does. A powered-off MacBook that's dried and cleaned properly has a strong recovery chance. We assess this for R599 with no obligation.
+
+### Q: Should I try to turn it on to see if it still works?
+No. Applying power to a wet logic board creates short circuits that destroy components instantly. Leave it off and bring it to us.
+
+### Q: How much does full liquid damage recovery cost?
+The R599 assessment tells us what's needed. Simple cases where ultrasonic cleaning restores function cost R1,200–R1,800. Complex cases requiring component replacement are quoted individually but typically range from R2,500–R5,000. No Fix No Fee means you pay nothing if we can't recover it.
+
+### Q: What if my MacBook was exposed to salt water instead of fresh water?
+Salt water is more corrosive because salt accelerates oxidation. Recovery is still possible, but urgency is higher and corrosion inspection is more thorough. Bring it in as soon as you can.
+
+### Q: Can I claim liquid damage under AppleCare?
+AppleCare typically excludes accidental liquid damage unless you purchased AppleCare+. We can diagnose whether your device qualifies before you contact Apple.
+
+### Q: How long does recovery take from drop-off to pickup?
+5–7 working days for most cases. If component replacement is needed, add 2–3 days. We'll give you an exact timeline after assessment.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is my MacBook definitely broken if it got wet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. Liquid alone doesn't destroy a device; power does. A powered-off MacBook that's dried and cleaned properly has a strong recovery chance. We assess this for R599 with no obligation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I try to turn it on to see if it still works?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Applying power to a wet logic board creates short circuits that destroy components instantly. Leave it off and bring it to us."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does full liquid damage recovery cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The R599 assessment tells us what's needed. Simple cases where ultrasonic cleaning restores function cost R1,200–R1,800. Complex cases requiring component replacement are quoted individually but typically range from R2,500–R5,000. No Fix No Fee means you pay nothing if we can't recover it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my MacBook was exposed to salt water instead of fresh water?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Salt water is more corrosive because salt accelerates oxidation. Recovery is still possible, but urgency is higher and corrosion inspection is more thorough. Bring it in as soon as you can."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I claim liquid damage under AppleCare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AppleCare typically excludes accidental liquid damage unless you purchased AppleCare+. We can diagnose whether your device qualifies before you contact Apple."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does recovery take from drop-off to pickup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "5–7 working days for most cases. If component replacement is needed, add 2–3 days. We'll give you an exact timeline after assessment."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Get your MacBook assessed today.** WhatsApp us on [064 529 5863](tel:064 529 5863) or [book online at zasupport.com/book](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and ready to recover your device.`,
+  },
 };
 
 export async function generateStaticParams() {
