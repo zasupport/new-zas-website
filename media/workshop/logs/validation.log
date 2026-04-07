@@ -60,3 +60,18 @@ EXISTS
 [2026-04-07 15:02:22] FIX: HEIC→JPEG→WebP conversion chain (sips first, then cwebp with resize)
 [2026-04-07 15:02:22] OUTPUT: apple-device-workshop-20260407-150135.webp (106KB 1200x900) + apple-device-workshop-20260407-150139.webp (112KB 1200x900)
 [2026-04-07 15:02:22] SOCIAL: Instagram 400 (needs public URL) | Facebook 403 (token permissions) — expected, requires hosted images
+[2026-04-07 22:46:00] WATCHER: Detected 2 new/changed files from UNKNOWN
+[2026-04-07 22:46:00] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/UNKNOWN.json
+[2026-04-07 22:46:00] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-07 22:46:12] V5-DEPLOY: courtney-bentley-voice SKILL deployed (225L) — NEW skill for client communication voice+tone+medical UVP guidelines
+[2026-04-07 22:46:12] V5-DEPLOY: perfect-blog-creator SKILL updated v1.0→v1.1 (293L) — medical practice IT 15% topic distribution, 10 priority blog topics, 6 new never-list items
+[2026-04-07 22:46:12] V5-DEPLOY: zas-frontend SKILL deployed v1.1 (641L) — Section 10.1 medical UVP display requirements, operator agreement badge, compliance score, cost avoidance
+[2026-04-07 22:46:12] V5-DEPLOY: ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md deployed (559L) — master document, 18 UVPs, application map, articulation guidelines
+[2026-04-07 22:46:12] V5-DEPLOY: ZAS-UVP-QUICK-REFERENCE-v2.md deployed (64L) — quick scan card, situation-based UVP leads
+[2026-04-07 23:00:07] WATCHER: Detected 2 new/changed files from UNKNOWN
+[2026-04-07 23:00:07] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/UNKNOWN.json
+[2026-04-07 23:00:07] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-07 23:00:28] V6-DEPLOY: courtney-bentley-voice SKILL merged V5+V6 (225→311L) — added breach assessment, MS DPA vs POPIA S21, IT complexity, SLA positioning, 7 wording benchmarks, 4 new banned phrases, V6 learnings
+[2026-04-07 23:00:28] V6-DEPLOY: Global CLAUDE.md updated — §235 breach assessment partner, §236 MS DPA ≠ POPIA S21, §237 IT complexity, §238 banned additions
+[2026-04-07 23:00:28] V6-DEPLOY: ZA Support Communication Rules.md → docs/seo/ (portable rules, 125L)
+[2026-04-07 23:00:28] V6-DEPLOY: ZA-Support-Project-CLAUDE-Template.md → docs/seo/ (project template, 39L)
