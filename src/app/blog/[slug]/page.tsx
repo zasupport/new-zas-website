@@ -11157,6 +11157,485 @@ Bring it to us for the R599 diagnostic. Most drop damage falls into one of three
 
 **Ready to get your M2 MacBook Air back in working order?** Contact ZA Support today. Book your diagnostic at [zasupport.com/book](https://zasupport.com/book) or WhatsApp us on **064 529 5863**. We're based in Hyde Park, Johannesburg, and we're here Monday to Friday, 09:00–17:00. From R599 assessment, No Fix No Fee, up to three-year warranty—proper repair, no shortcuts.`,
   },
+  'mac-repair-morningside-johannesburg': {
+    slug: 'mac-repair-morningside-johannesburg',
+    title: `Mac Repair in Morningside Johannesburg: Fast, Reliable Service for Your Apple Devices`,
+    excerpt: `We've spent over a decade repairing Macs in Johannesburg's northern suburbs, and Morningside has become one of our busiest service areas. The suburb sits in the heart of Gauteng's professional corrido.`,
+    date: '08 April 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'ZA Support',
+    content: `# Mac Repair in Morningside Johannesburg: Fast, Reliable Service for Your Apple Devices
+
+We've spent over a decade repairing Macs in Johannesburg's northern suburbs, and Morningside has become one of our busiest service areas. The suburb sits in the heart of Gauteng's professional corridor—home to medical practices, legal firms, accounting offices, and busy households where a broken MacBook or iMac means lost productivity and genuine stress. This post covers what we see in our Hyde Park workshop when Morningside clients bring their Macs in, what goes wrong most often, and how we fix it.
+
+## Why Morningside Clients Choose ZA Support for Mac Repair
+
+Morningside residents work in high-pressure environments. A general practitioner whose iMac won't boot, a legal secretary whose MacBook keyboard has failed, or a home user locked out of their Mac Pro—these aren't minor inconveniences. We've built our reputation on same-day diagnostics and honest repair decisions.
+
+We're based in Hyde Park, a 10-minute drive from most Morningside addresses. When you bring your Mac to us, you don't wait two weeks. We start from R599 assessment—no guessing, no "we'll charge you more once we look inside." You get clarity upfront. If we can't fix it, you don't pay (No Fix No Fee). If we repair it, your Mac leaves with up to a 3-year warranty depending on the work completed.
+
+Medical practices and professional offices in Morningside trust us because we understand downtime costs money. A dentist whose appointment system runs on Mac Mini can't afford vague timelines. We've learned to prioritise those calls.
+
+## Common Mac Issues We See in Morningside
+
+Over hundreds of repairs, certain problems appear again and again in our Morningside client base.
+
+**Battery and Power Issues**
+
+MacBook batteries degrade. After 300–500 charge cycles (roughly two to three years), capacity drops noticeably. Morningside residents often bring in three-year-old MacBook Airs that won't hold charge longer than an hour. It's not a sign your Mac is finished—it's a worn battery. We replace them as part of routine maintenance.
+
+**Liquid Damage**
+
+This one surprises people: most liquid damage to Macs comes from small spills, not accidents. A cup of coffee beside the keyboard, juice on a desk near where your Mac sits, even humidity from a kettle. Morningside's summer heat means people run coffee near their workstations more often. Liquid damage is serious—it corrodes circuits and causes shorts—but it's treatable. See our detailed [liquid damage repair guide](/liquid-damage) for what happens and how we address it.
+
+**Logic Board Failure**
+
+The logic board is your Mac's brain. When it fails, symptoms range from random shutdowns to the dreaded kernel panic. Logic board repair is one of the more complex jobs in our workshop. We've invested in micro-soldering equipment and training specifically for this. If your Mac shows repeated crashes, freezes, or won't power on at all, the logic board often needs investigation. Read more on our [logic board repair page](/logic-board-repair).
+
+**SSD and Storage Faults**
+
+Storage drives fail. Sometimes they fail silently—your Mac slows to a crawl because the SSD is dying. Sometimes they fail audibly—clicking sounds from an older drive. Morningside professionals often can't afford to lose files. We recover data from failing drives before replacement, and we make sure your new SSD is faster than the original.
+
+## Our Mac Repair Process in Morningside
+
+When you arrive at our Hyde Park workshop, here's what happens:
+
+1. **Intake and Initial Assessment** – We listen to your description. Is the Mac not powering on? Is it slow? Is there physical damage? We ask about recent changes: new software, spills, drops, or power surges.
+
+2. **Full Diagnostic (from R599)** – We run comprehensive tests. We check the power supply, battery (if applicable), logic board, storage drive, and RAM. We check the operating system for software issues. This takes 45 minutes to two hours.
+
+3. **Honest Quote** – You get a written estimate. We explain what's broken, why it broke, and what the fix costs. We quote warranty length: typically 12 months for component replacement, up to 3 years for major logic board work.
+
+4. **Repair or Alternative Options** – If the cost seems high relative to your Mac's age, we say so. Sometimes upgrading makes more sense than repairing. We're not incentivised to upsell—we'd rather lose a job than push an expensive repair on someone with a five-year-old MacBook.
+
+5. **Testing and Handover** – Your Mac gets stress-tested. We run it under load, check temperature, verify storage speed, and confirm the OS is stable. You collect it, and we hand over documentation of what was repaired.
+
+## Why Morningside's Professional Community Trusts Us
+
+Medical practices, legal firms, and accountants in Morningside have learned that a breakdown with their Apple devices isn't a crisis if they call us. We've fixed iMacs in dental surgeries, replaced logic boards in MacBook Pros used by attorneys, and recovered files from crashed drives belonging to financial advisors.
+
+We're also POPIA-compliant. If your Mac contains confidential client data, you can trust us not to access it unnecessarily or share it. Morningside professionals rely on that confidence.
+
+Many Morningside clients also ask about managed IT support. We can help with that too—Mac backup solutions, security updates, and network setup. Ask about it when you [book your appointment](/contact) or message us on WhatsApp: **064 529 5863**.
+
+## Getting Your Mac Repaired in Morningside
+
+You have two options:
+
+- **Visit our Hyde Park workshop** – We're open Monday to Friday, 08:00 to 17:00. Drive from Morningside and you're there in 10 minutes. Parking is straightforward.
+- **Book online** – Use [zasupport.com/book](https://zasupport.com/book) to reserve a slot. We'll confirm the day before.
+
+If you prefer to talk first, WhatsApp **064 529 5863** and describe your Mac issue. We'll advise on next steps and likely repair costs.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does a Mac repair usually take?
+Most repairs complete within 24 to 48 hours. Battery replacement takes one day. Logic board work can take three to five days if we need to order a replacement part. We'll give you an exact timeline after diagnosis.
+
+### Q: What's your warranty on Mac repairs?
+We offer 12 months on component replacements like batteries, hard drives, and RAM. Logic board repairs come with up to a 3-year warranty. We'll confirm the warranty term on your repair invoice.
+
+### Q: Do you repair all Mac models?
+Yes. MacBook Pro, MacBook Air, iMac, Mac Mini, Mac Studio—we service them all. If your Mac is five years old or newer and doesn't have M-series damage (rare for us), we can almost certainly fix it.
+
+### Q: What if you can't fix my Mac?
+You don't pay. That's our No Fix No Fee guarantee. We'll explain why the Mac can't be repaired (usually it's age-related or physical damage beyond economical repair), and we'll discuss your options—upgrade, second-hand replacement, or trade-in.
+
+### Q: Can you recover my files if my Mac won't start?
+Yes, most of the time. We have data recovery equipment. Files are usually recoverable even from a failed drive. There's a cost (typically R1,200–R2,500 depending on failure type), but it's separate from repair fees.
+
+### Q: Do you offer service for newer M1 and M2 MacBooks?
+Yes. M-series Macs are newer and require different diagnostics in some cases, but we're trained and equipped for them. Bring your M-series Mac in if there's an issue.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a Mac repair usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs complete within 24 to 48 hours. Battery replacement takes one day. Logic board work can take three to five days if we need to order a replacement part. We'll give you an exact timeline after diagnosis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your warranty on Mac repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer 12 months on component replacements like batteries, hard drives, and RAM. Logic board repairs come with up to a 3-year warranty. We'll confirm the warranty term on your repair invoice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair all Mac models?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. MacBook Pro, MacBook Air, iMac, Mac Mini, Mac Studio—we service them all. If your Mac is five years old or newer and doesn't have M-series damage (rare for us), we can almost certainly fix it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if you can't fix my Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You don't pay. That's our No Fix No Fee guarantee. We'll explain why the Mac can't be repaired (usually it's age-related or physical damage beyond economical repair), and we'll discuss your options—upgrade, second-hand replacement, or trade-in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover my files if my Mac won't start?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, most of the time. We have data recovery equipment. Files are usually recoverable even from a failed drive. There's a cost (typically R1,200–R2,500 depending on failure type), but it's separate from repair fees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer service for newer M1 and M2 MacBooks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. M-series Macs are newer and require different diagnostics in some cases, but we're trained and equipped for them. Bring your M-series Mac in if there's an issue."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
+  'macbook-battery-swollen-replacement-sandton': {
+    slug: 'macbook-battery-swollen-replacement-sandton',
+    title: `MacBook Swollen Battery Replacement in Sandton: Safety-First Service from ZA Support`,
+    excerpt: `A swollen MacBook battery is not a cosmetic issue. It's a fire risk that demands immediate attention. If your MacBook's trackpad is lifting, the keyboard feels spongy, or you've noticed the chassis bu.`,
+    date: '08 April 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'ZA Support',
+    content: `# MacBook Swollen Battery Replacement in Sandton: Safety-First Service from ZA Support
+
+A swollen MacBook battery is not a cosmetic issue. It's a fire risk that demands immediate attention. If your MacBook's trackpad is lifting, the keyboard feels spongy, or you've noticed the chassis bulging, your battery has failed internally and is expanding. At ZA Support, we've handled hundreds of swollen battery cases across Sandton, Rosebank, and Hyde Park. We know the urgency, the risk, and the right fix.
+
+This guide explains what causes MacBook battery swelling, why it's dangerous, how we replace it safely, and what to expect from start to finish.
+
+## What Causes a MacBook Battery to Swell?
+
+Lithium-ion batteries age. Inside your MacBook, the battery has multiple cells stacked in parallel. Each cell stores electrical charge separated by a chemical separator. When this separator degrades—through age, heat, manufacturing defect, or excessive charge cycles—the anode and cathode can contact each other. This triggers a chemical reaction that produces gas.
+
+The battery puffed up over weeks or months. You didn't drop it. You didn't spill on it. The battery simply reached end-of-life and failed chemically. This happens to MacBooks aged 3–7 years, especially models that spent time in hot rooms or were left charging overnight repeatedly.
+
+In our Hyde Park workshop, we've seen this across MacBook Air (2013–2017 models), MacBook Pro (13-inch and 15-inch), and newer 14-inch and 16-inch Pro models. The newer the machine, the less common it is—but it still happens.
+
+**Why is it dangerous?** A swollen battery can rupture internally or catch fire if the cell voltage rises uncontrolled. Once rupture begins, it can escalate rapidly, especially under pressure. Your MacBook sitting in a closed bag or under your arm creates pressure. The risk is real.
+
+## Signs Your MacBook Battery Is Swollen
+
+- **Trackpad lifts visibly** from the case or feels springy
+- **Keyboard is raised or spongy** to the touch, especially near the space bar
+- **Chassis bulges** noticeably at the bottom
+- **The machine won't close** properly; the lid gap increases
+- **Battery health reads 1% or "Service Recommended"** in System Preferences
+- **The machine feels warm** even at rest
+
+If you see any of these, stop using your MacBook. Do not charge it further. Do not leave it plugged in. Contact us immediately on **WhatsApp: 064 529 5863** or book online at **zasupport.com/book**.
+
+## Our Swollen MacBook Battery Replacement Process
+
+### Assessment and Safety (from R599)
+
+We start with a physical inspection and full diagnostic. Our technician will:
+
+- Open the MacBook safely using proper anti-static procedures
+- Inspect the battery for visible deformation, cell separation, or leakage
+- Test the power rails and charging circuit to rule out faults upstream
+- Check the trackpad, keyboard, and chassis for permanent damage
+
+This takes 30–45 minutes. We charge from R599 for the assessment. If we proceed with replacement, the assessment fee applies toward the final bill.
+
+### Safe Removal
+
+A swollen battery cannot be yanked out. Our process:
+
+- Discharge any residual charge safely
+- Disconnect the battery cable from the logic board
+- Remove adhesive strips holding the battery in place (this is time-consuming—cheap shops skip this and crack batteries, creating real fire hazard)
+- Lift the battery carefully to avoid puncture or rupture
+- Inspect the interior for thermal damage or corrosion
+
+If we discover water damage or burnt components, we'll refer you to our [logic board repair](/logic-board-repair) service or recommend a full unit assessment.
+
+### Battery Replacement and Testing
+
+We fit an OEM-equivalent lithium-ion battery matched to your MacBook model:
+
+- MacBook Air (M1/M2): 49.9 Wh battery, **from R1,499**
+- MacBook Pro 13-inch (M2): 52.0 Wh battery, **from R1,599**
+- MacBook Pro 16-inch (M1 Pro/Max): 99.6 Wh battery, **from R2,199**
+
+We reconnect the battery cable, apply fresh adhesive, and close the case. Then we:
+
+- Charge the battery to 100% whilst monitoring voltage and temperature
+- Run System Information to confirm battery health reads 100%
+- Test trackpad, keyboard, and thermal sensors
+- Verify the device closes flush with no bulging
+
+Turnaround in Sandton: **1–2 working days** (same-day if you drop off before 11:00).
+
+## Warranty and Aftercare
+
+All battery replacements come with **up to 3-year warranty** covering manufacturing defect. If your battery fails within the warranty period, we replace it free.
+
+We also offer **No Fix No Fee**: if we diagnose a fault but you decide not to proceed, you pay only the assessment cost.
+
+After replacement, we recommend:
+
+- Keep your MacBook away from extreme heat
+- Avoid leaving it plugged in overnight repeatedly
+- Update macOS—Apple regularly improves power management
+- If you experience [liquid damage](/liquid-damage), have it assessed quickly; water can degrade the battery faster
+
+## Why Choose ZA Support in Sandton?
+
+We're not a mall kiosk. We're a dedicated Apple workshop in Hyde Park with 10+ years' experience. We stock genuine batteries, use proper tools, and verify every repair before you leave.
+
+We serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. If you're outside these areas, [contact us](/contact) to discuss options.
+
+We're open Monday–Friday, 08:30–17:30, and Saturday 09:00–14:00. WhatsApp is fastest: **064 529 5863**.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Will a swollen battery damage my MacBook permanently?
+
+In most cases, no. A swollen battery pushes on the trackpad and keyboard, but the logic board, screen, and case usually survive intact. However, if the battery ruptures internally, it can cause thermal damage to nearby components. This is rare but possible. Early replacement prevents this entirely.
+
+### Q: Can I repair a swollen battery myself?
+
+Absolutely not. Lithium-ion batteries can rupture, catch fire, or release toxic gas if handled incorrectly. You need proper tools, anti-static equipment, and experience. The risk of injury or property damage is too high. Bring it to a professional workshop.
+
+### Q: How much does swollen battery replacement cost in Sandton?
+
+From R1,499 for a MacBook Air to R2,199 for a MacBook Pro 16-inch, plus R599 for assessment. Prices include labour and 3-year warranty. We'll give you a fixed quote after diagnosis.
+
+### Q: How long does replacement take?
+
+Usually 1–2 working days in Sandton. If you drop off before 11:00 and the battery is in stock, we often complete it same-day. We'll confirm turnaround when you book.
+
+### Q: Is a refurbished or third-party battery safe?
+
+We recommend OEM-equivalent batteries only. Third-party batteries may work, but they often have poorer thermal management and shorter lifespan. We stock genuine replacements and guarantee them. It's worth the extra cost.
+
+### Q: What if my MacBook won't turn on after battery replacement?
+
+This is extremely rare if the replacement is done correctly. If it happens, we'll diagnose the logic board at no extra charge. Most often, it's a loose cable—a 5-minute fix. You're covered by our 3-year warranty.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "type": "FAQPage",
+  "mainEntity": [
+    {
+      "type": "Question",
+      "name": "Will a swollen battery damage my MacBook permanently?",
+      "acceptedAnswer": {
+        "type": "Answer",
+        "text": "In most cases, no. A swollen battery pushes on the trackpad and keyboard, but the logic board, screen, and case usually survive intact. However, if the battery ruptures internally, it can cause thermal damage to nearby components. This is rare but possible. Early replacement prevents this entirely."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Can I repair a swollen battery myself?",
+      "acceptedAnswer": {
+        "type": "Answer",
+        "text": "Absolutely not. Lithium-ion batteries can rupture, catch fire, or release toxic gas if handled incorrectly. You need proper tools, anti-static equipment, and experience. The risk of injury or property damage is too high. Bring it to a professional workshop."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "How much does swollen battery replacement cost in Sandton?",
+      "acceptedAnswer": {
+        "type": "Answer",
+        "text": "From R1,499 for a MacBook Air to R2,199 for a MacBook Pro 16-inch, plus R599 for assessment. Prices include labour and 3-year warranty. We will give you a fixed quote after diagnosis."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "How long does replacement take?",
+      "acceptedAnswer": {
+        "type": "Answer",
+        "text": "Usually 1–2 working days in Sandton. If you drop off before 11:00 and the battery is in stock, we often complete it same-day. We will confirm turnaround when you book."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "Is a refurbished or third-party battery safe?",
+      "acceptedAnswer": {
+        "type": "Answer",
+        "text": "We recommend OEM-equivalent batteries only. Third-party batteries may work, but they often have poorer thermal management and shorter lifespan. We stock genuine replacements and guarantee them. It is worth the extra cost."
+      }
+    },
+    {
+      "type": "Question",
+      "name": "What if my MacBook won't turn on after battery replacement?",
+      "acceptedAnswer": {
+        "type": "Answer",
+        "text": "This is extremely rare if the replacement is done correctly. If it happens, we will diagnose the logic board at no extra charge. Most often, it is a loose cable—a 5-minute fix. You are covered by our 3-year warranty."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Next step:** Stop using your swollen-battery MacBook and [book with us today](https://zasupport.com/book). Or message **064 529 5863** on WhatsApp. We'll get you safe and back to work.`,
+  },
+  'macbook-screen-repair-fourways-johannesburg': {
+    slug: 'macbook-screen-repair-fourways-johannesburg',
+    title: `MacBook Screen Repair Fourways Johannesburg | ZA Support Hyde Park`,
+    excerpt: `Your MacBook's retina display is one of the most precise pieces of engineering you own. When it cracks, dims, or develops dead pixels, it affects everything — from colour accuracy to screen brightness.`,
+    date: '08 April 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'ZA Support',
+    content: `# MacBook Screen Repair Fourways Johannesburg | ZA Support Hyde Park
+
+Your MacBook's retina display is one of the most precise pieces of engineering you own. When it cracks, dims, or develops dead pixels, it affects everything — from colour accuracy to screen brightness. At ZA Support in Hyde Park, we've repaired thousands of MacBook screens for Fourways residents, Sandton professionals, and families across Gauteng. We understand the urgency: a broken MacBook screen isn't just cosmetic damage. It's your connection to work, study, and life.
+
+In our Hyde Park workshop, we see MacBook screen failures almost daily. Some are accidental drops. Others are pressure damage from laptop bags or heat-related failures after load shedding cycles damage the display connector. Whatever caused your screen damage, we can help. Our MacBook screen repair service starts from a R599 assessment, and we'll tell you exactly what's wrong before you commit to any repair.
+
+## MacBook Retina Screen Replacement: What You Need to Know
+
+MacBook screens aren't simple glass panels. They're integrated retina displays with millions of pixels, backlighting circuits, and precise calibration. If your screen is cracked, flickering, or shows discolouration, it usually needs full replacement. We don't repair individual pixels or reseal cracked glass — that's not how modern displays work. We remove your old screen and install a genuine Apple replacement.
+
+The process takes about two hours in our workshop. We'll back up your data (if the MacBook powers on), carefully disassemble the top case and display bezel, disconnect the display ribbon cable, and fit the new screen. Every MacBook model has slightly different connector positions, so precision matters. We've done this on MacBook Air M1/M2, MacBook Pro 13-inch and 16-inch, and older Intel models. Your screen replacement comes with up to a 3-year warranty, depending on the model and your insurance eligibility.
+
+Fourways residents appreciate that we're only 15 minutes away in Hyde Park. No need to drive to the Johannesburg CBD or wait days for a mail-in repair. Drop your MacBook off before your commute, and we'll often have it ready the same day.
+
+## Common MacBook Screen Problems in Johannesburg's Climate
+
+Johannesburg's altitude (1,750 metres above sea level) and temperature swings create specific challenges for MacBook displays. We've noticed three patterns in our Hyde Park workshop:
+
+**Physical damage.** A MacBook dropped from desk height, or pressure from a bag strap, cracks the screen. The impact usually damages the LCD panel's internal layers. You'll see a black or coloured splotch, spider-web cracks, or sections that don't light up. This always requires replacement.
+
+**Load shedding thermal stress.** When electricity cuts out during Stage 5–6 load shedding, some MacBooks don't shut down gracefully. If yours was on charge when the power failed, the display connector can be damaged by voltage spikes. You might see flickering, lines across the screen, or a display that won't wake. This often pairs with [logic board damage](/logic-board-repair) that we can diagnose at your assessment.
+
+**Pressure damage from cases.** Hard-shell MacBook cases that press on the display bezel can crack the screen over months. Fourways commuters sometimes store MacBooks in tight bags. The cumulative pressure damages the LCD. This damage is gradual — you might not notice until the screen suddenly stops responding to touch or shows permanent discolouration.
+
+## MacBook Screen Repair vs. Replacement: Cost and Timeline
+
+A from R599 assessment tells you exactly what's needed. Most screen failures require full replacement, not repair. The cost depends on your model:
+
+- **MacBook Air 13-inch (M1/M2/M3):** typically R4,500–R5,800 including labour
+- **MacBook Pro 13-inch (M2/M3):** typically R5,200–R6,500
+- **MacBook Pro 16-inch (M1 Pro/Max):** typically R6,800–R8,200
+- **Older Intel models (2015–2019):** typically R3,800–R5,200
+
+We use genuine Apple parts for all screen replacements. If your MacBook suffered [liquid damage](/liquid-damage) alongside the screen crack, we'll identify that during assessment and quote separately for logic board cleaning.
+
+Timeline: most screens are replaced same-day if you book before noon. We keep stock of the most common models (Air 13-inch M1/M2, Pro 13-inch M2/M3) at our Hyde Park workshop. Unusual models might require 1–2 business days for parts.
+
+## Why Fourways Residents Choose ZA Support
+
+Fourways is one of Johannesburg's busiest business and residential nodes. You're surrounded by shopping centres, offices, and schools. But IT support options are fragmented — big chains in Sandton, independent technicians with inconsistent quality, or mail-in services that take a week. We're different.
+
+In our Hyde Park workshop, we focus on Apple devices only. That means expertise, not generalist tinkering. Every technician has repaired hundreds of MacBook screens. We use Apple-approved tools (pentalobe screwdrivers, display removal jigs, anti-static mats) and test every screen under full brightness before handover.
+
+We also offer No Fix No Fee on diagnostic work. If we assess your MacBook and determine the screen is working normally (despite cosmetic marks), you pay nothing. You won't find that guarantee elsewhere in Fourways or Midrand.
+
+Finally, your repair is backed by up to 3 years of warranty on parts and labour. If your new screen fails due to manufacturing defect, we'll replace it at no cost. That confidence comes from using genuine components and skilled assembly.
+
+## Booking Your MacBook Screen Repair in Fourways
+
+Getting started is straightforward. You can [book online at zasupport.com/book](https://zasupport.com/book) and select a time that suits your schedule. Alternatively, message us on WhatsApp at **064 529 5863** — include a photo of your screen damage and your MacBook model, and we'll confirm the assessment cost and timeline.
+
+Bring your charger and any account passwords you remember (in case we need to run diagnostics). Our Hyde Park workshop is in the heart of the area, about 15 minutes from Fourways by car.
+
+## Frequently Asked Questions
+
+### Q: How long does a MacBook screen replacement take?
+Most screens are replaced within 2–4 hours. If we keep your model in stock, same-day turnaround is common. Check our [contact page](/contact) or WhatsApp **064 529 5863** to confirm current wait times.
+
+### Q: Is my MacBook data safe during screen repair?
+Yes. We don't erase or access your drive unless you explicitly ask us to (e.g., for a separate data recovery issue). Screen replacement doesn't require a full backup, though we recommend one before any repair.
+
+### Q: What warranty comes with your screen replacement?
+Up to 3 years on parts and labour, depending on your model and whether you carry additional AppleCare+. We'll confirm the exact terms at your assessment.
+
+### Q: Can I get a loaner MacBook while mine is being repaired?
+Not routinely, but we can discuss options if you're under time pressure. Many Fourways-based professionals arrange collection later the same day. Ask your technician during booking.
+
+### Q: What if my screen is cracked but the MacBook still powers on?
+It can usually still be repaired. A powered-on display with cracks is often safer to work with than a dead screen (fewer voltage risks). Bring it to our Hyde Park workshop, and we'll assess from R599.
+
+### Q: Do you repair older MacBook models (2012–2015)?
+Yes. We repair Intel-era MacBooks extensively. Some older models require different display connectors or bezels, but the principle is the same. Bring your model in for assessment.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a MacBook screen replacement take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most screens are replaced within 2–4 hours. If we keep your model in stock, same-day turnaround is common. Check our contact page or WhatsApp 064 529 5863 to confirm current wait times."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my MacBook data safe during screen repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We don't erase or access your drive unless you explicitly ask us to. Screen replacement doesn't require a full backup, though we recommend one before any repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty comes with your screen replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Up to 3 years on parts and labour, depending on your model and AppleCare+ status. We'll confirm exact terms at your assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a loaner MacBook while mine is being repaired?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not routinely, but we can discuss options if you're under time pressure. Many Fourways-based professionals arrange collection later the same day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my screen is cracked but the MacBook still powers on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can usually still be repaired. A powered-on display with cracks is often safer to work with than a dead screen. Bring it to our Hyde Park workshop for assessment from R599."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair older MacBook models from 2012–2015?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We repair Intel-era MacBooks extensively. Some older models require different display connectors, but the principle is the same. Bring your model in for assessment."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Ready to get your MacBook screen fixed? [Book now at zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp: 064 529 5863. From R599 assessment, no Fix No Fee.**`,
+  },
 };
 
 export async function generateStaticParams() {
