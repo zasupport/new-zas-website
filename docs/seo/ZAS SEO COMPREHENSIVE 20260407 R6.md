@@ -28,7 +28,7 @@ Social: linkedin.com/company/zasupport | linkedin.com/in/bentleycourtney/ | face
 |---|---|---|
 | Azure AD | CREDENTIAL SET | 14 permissions granted (portal screenshots) |
 | Instagram | CREDENTIAL SET | 60-day token exchanged (Terminal), User ID 17841447858894928 |
-| Facebook | CREDENTIAL SET | Same Meta app 1240306301419431 |
+| Facebook | CREDENTIAL SET | See ~/.za-support.env [REDACTED from git — rotate at developers.facebook.com] |
 | GBP API | BLOCKED | Case 2-6348000041138, 7-10 working days |
 | Anthropic API | CREDENTIAL SET | Console confirmed (sk-ant-api03-cf0) |
 | MS Graph | CREDENTIAL SET | Pre-existing (033c8fd5-10b5-4918-9030-5a336531066f) |

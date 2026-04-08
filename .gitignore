@@ -9,3 +9,10 @@ node_modules/
 next-env.d.ts
 .DS_Store
 npm-debug.log*
+
+# Security: credential documents — never commit files with literal secrets
+docs/seo/*PLATFORM*SETUP*.md
+docs/seo/*CREDENTIALS*.md
+docs/seo/*API*KEYS*.md
+*SETUP*GUIDE*.md
+*.env.secret

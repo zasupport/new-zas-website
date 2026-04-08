@@ -13,13 +13,16 @@ status: ALL CRITICAL SETUPS COMPLETE
 App: 033c8fd5-10b5-4918-9030-5a336531066f | 14 permissions granted: Mail.Read, Mail.ReadWrite, Mail.Send, Calendars.ReadWrite, Files.Read.All, Files.ReadWrite.All + 8 delegated. All green ticks.
 
 ## INSTAGRAM + FACEBOOK: CREDENTIAL SET (07/04/2026)
-Meta App: ZA Support Pipeline (ID 1240306301419431, Business type)
-Meta App Secret: 2ce09c97ff19a7ad091e0059d672ff22
-Instagram App ID: 1976499056297428 | IG App Secret: 35fa53e0f92ed2acb4fed525cc7d8561
-Instagram Business Account: @appleexpertza (ID 17841447858894928)
+Meta App: ZA Support Pipeline (Business type)
+Meta App ID: [REDACTED — rotate immediately at developers.facebook.com → App Settings → Advanced → Reset Secret]
+Meta App Secret: [REDACTED — EXPOSED IN GIT HISTORY — ROTATE NOW at developers.facebook.com]
+Instagram App ID: [REDACTED — rotate at developers.facebook.com]
+Instagram App Secret: [REDACTED — EXPOSED IN GIT HISTORY — ROTATE NOW at developers.facebook.com]
+Instagram Business Account: @appleexpertza
 Long-lived token in ~/.za-support.env (60-day, expires ~June 2026)
-Business Portfolio: Courtney Bentley's Business (ID 2169050193411436)
+Business Portfolio: Courtney Bentley's Business
 Note: IG direct login broken. Graph API via Facebook login works.
+SECURITY: All secrets stored in ~/.za-support.env ONLY — never in committed files.
 
 ## GBP API: BLOCKED (07/04/2026)
 Case: 2-6348000041138 | Project: 795563431366 (za-support-seo-202603) | 7-10 working days (~14-21 April)
