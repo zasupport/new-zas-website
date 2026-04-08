@@ -10443,7 +10443,7 @@ If you spot any of these, don't delay. The longer a swollen battery sits in your
 
 At ZA Support in Hyde Park, we handle swollen battery replacements with strict safety protocols.
 
-**Step one:** Diagnosis. We run a full hardware scan and open the base case in a controlled environment to assess the battery's condition and check for secondary damage. This takes around 30 minutes and costs from R599 for a full assessment (this is not a "free diagnostic"—you get a detailed fault report and repair quote).
+**Step one:** Diagnosis. We run a full hardware scan and open the base case in a controlled environment to assess the battery's condition and check for secondary damage. This takes around 30 minutes and costs from R599 for a full assessment (this is not a "Assessment from R599"—you get a detailed fault report and repair quote).
 
 **Step two:** Safe battery isolation. If the battery is actively swelling or showing signs of bloating, we do not attempt removal in-house. We liaise with Apple's authorised service network in Midrand or Pretoria to ensure safe handling and recycling. If the battery is stable but expanded, we carefully disconnect the power connector first, then extract the battery using specialised tools.
 
