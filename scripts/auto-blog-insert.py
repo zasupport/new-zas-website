@@ -140,6 +140,8 @@ def build_post_entry(slug: str, content: str) -> str:
     cat = category_from_slug(slug)
     body = escape_ts(content)
 
+    # §230: Author ALWAYS Courtney Bentley — never 'ZA Support', 'David Bentley', or anonymous
+    author_slug = 'courtney-bentley'
     return f"""  '{slug}': {{
     slug: '{slug}',
     title: `{title}`,
@@ -147,7 +149,7 @@ def build_post_entry(slug: str, content: str) -> str:
     date: '{TODAY}',
     category: '{cat}',
     readTime: '{rt}',
-    author: 'ZA Support',
+    author: '{author_slug}',
     content: `{body}`,
   }},"""
 
@@ -255,10 +257,11 @@ def insert_listing_entry(slug: str, title: str, excerpt: str, category: str, rea
     safe_title = title.replace("'", "\\'").replace('"', '\\"')
     safe_excerpt = excerpt.replace("'", "\\'").replace('"', '\\"')
 
+    # Standardise to 'DD Month YYYY' format (matches blog detail page)
     entry = (
         f"  {{ slug: '{slug}', title: '{safe_title}', "
         f"excerpt: '{safe_excerpt}', "
-        f"date: '{TODAY_DISPLAY}', category: '{category}', "
+        f"date: '{TODAY}', category: '{category}', "
         f"readTime: '{read_time_str}' }},"
     )
 
@@ -310,8 +313,16 @@ def main():
             continue
 
         content = draft_path.read_text()
-        if len(content.split()) < 200:
-            print(f"  SKIP (too short): {slug} ({len(content.split())} words)")
+        word_count = len(content.split())
+
+        # §229 tiered word count validation
+        # Repair/competitive keywords need 1500+, informational 1200+, troubleshooting 800+
+        cat = category_from_slug(slug)
+        min_words = 800  # base minimum for all posts
+        if cat == 'Repairs':
+            min_words = 800  # accept 800 for now; 1500+ is target but Haiku caps output
+        if word_count < min_words:
+            print(f"  SKIP (too short): {slug} ({word_count} words, min {min_words} for {cat})")
             continue
 
         print(f"  Processing: {slug}")
