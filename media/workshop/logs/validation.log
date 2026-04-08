@@ -75,3 +75,248 @@ EXISTS
 [2026-04-07 23:00:28] V6-DEPLOY: Global CLAUDE.md updated — §235 breach assessment partner, §236 MS DPA ≠ POPIA S21, §237 IT complexity, §238 banned additions
 [2026-04-07 23:00:28] V6-DEPLOY: ZA Support Communication Rules.md → docs/seo/ (portable rules, 125L)
 [2026-04-07 23:00:28] V6-DEPLOY: ZA-Support-Project-CLAUDE-Template.md → docs/seo/ (project template, 39L)
+[2026-04-08 11:03:53] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 11:03:53] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 11:03:53] §241-VERIFY: LaunchAgents = 71 loaded (OK)
+[2026-04-08 11:03:53] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 11:03:53] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 11:03:53] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 11:03:53] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 11:03:53] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 11:03:53] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 11:03:53] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 11:03:53] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 11:03:55] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 11:04:00] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 11:04:00] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 11:04:00] §241-VERIFY: LaunchAgents = 71 loaded (OK)
+[2026-04-08 11:04:00] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 11:04:00] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 11:04:00] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 11:04:00] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 11:04:00] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 11:04:00] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 11:04:00] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 11:04:00] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 11:04:01] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 11:06:26] WATCHER: Detected 1 new/changed files from UNKNOWN
+[2026-04-08 11:06:26] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/UNKNOWN.json
+[2026-04-08 11:06:26] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-08 11:06:53] §244-ENFORCE: Rule created + enforcement script (za-deploy-verify-loop.sh) + LaunchAgent (com.zasupport.deployverify PID 67816) + real-data test (10/10 passed) — all 3 deliverables in same session
+[2026-04-08 11:06:53] §244-ENFORCE: Portable .md created: docs/seo/ZAS Rule Enforcement Protocol.md
+[2026-04-08 11:06:53] §244-ENFORCE: Feedback memory: memory/feedback_rule_enforcement_gap.md — learning: §240 was text-only, no enforcement built
+[2026-04-08 11:06:53] §244-ENFORCE: § renumbering: deployment loop=§243, meta-rule=§244 (§241/§242 already assigned externally)
+[2026-04-08 11:13:55] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 11:13:55] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 11:13:55] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 11:13:55] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 11:13:55] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 11:13:55] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 11:13:55] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 11:13:55] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 11:13:55] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 11:13:55] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 11:13:55] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 11:13:56] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 11:23:56] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 11:23:56] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 11:23:56] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 11:23:56] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 11:23:56] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 11:23:56] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 11:23:56] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 11:23:56] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 11:23:56] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 11:23:56] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 11:23:56] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 11:23:57] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 11:33:57] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 11:33:57] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 11:33:57] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 11:33:57] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 11:33:57] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 11:33:57] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 11:33:57] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 11:33:57] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 11:33:57] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 11:33:57] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 11:33:57] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 11:33:59] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 11:43:59] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 11:43:59] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 11:43:59] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 11:43:59] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 11:43:59] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 11:43:59] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 11:43:59] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 11:43:59] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 11:43:59] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 11:43:59] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 11:43:59] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 11:44:01] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 11:54:01] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 11:54:01] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 11:54:01] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 11:54:01] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 11:54:01] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 11:54:01] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 11:54:01] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 11:54:01] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 11:54:01] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 11:54:01] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 11:54:01] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 11:54:01] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 12:04:02] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 12:04:02] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 12:04:02] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 12:04:02] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 12:04:02] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 12:04:02] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 12:04:02] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 12:04:02] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 12:04:02] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 12:04:02] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 12:04:02] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 12:04:02] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 12:14:02] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 12:14:02] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 12:14:02] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 12:14:02] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 12:14:02] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 12:14:02] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 12:14:02] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 12:14:02] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 12:14:02] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 12:14:02] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 12:14:02] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 12:14:04] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 12:24:04] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 12:24:04] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 12:24:04] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 12:24:04] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 12:24:04] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 12:24:04] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 12:24:04] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 12:24:04] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 12:24:04] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 12:24:04] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 12:24:04] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 12:24:05] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 12:34:05] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 12:34:05] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 12:34:05] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 12:34:05] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 12:34:05] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 12:34:05] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 12:34:05] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 12:34:05] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 12:34:05] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 12:34:05] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 12:34:05] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 12:34:06] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 12:44:06] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 12:44:06] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 12:44:06] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 12:44:06] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 12:44:06] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 12:44:06] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 12:44:06] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 12:44:06] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 12:44:06] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 12:44:06] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 12:44:06] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 12:44:07] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 12:54:07] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 12:54:07] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 12:54:07] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 12:54:07] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 12:54:07] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 12:54:07] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 12:54:07] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 12:54:07] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 12:54:07] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 12:54:07] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 12:54:07] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 12:54:07] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 13:04:07] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 13:04:07] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 13:04:07] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 13:04:07] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 13:04:07] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 13:04:07] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 13:04:07] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 13:04:07] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 13:04:07] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 13:04:07] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 13:04:07] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 13:04:08] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 13:14:08] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 13:14:08] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 13:14:08] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 13:14:08] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 13:14:08] §241-VERIFY: SKILL perfect-blog-creator =      297 lines (OK)
+[2026-04-08 13:14:08] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 13:14:08] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 13:14:08] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 13:14:08] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 13:14:08] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 13:14:08] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 13:14:09] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 13:24:09] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 13:24:09] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 13:24:09] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 13:24:09] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 13:24:09] §241-VERIFY: SKILL perfect-blog-creator =      298 lines (OK)
+[2026-04-08 13:24:09] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 13:24:09] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 13:24:09] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 13:24:09] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 13:24:09] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 13:24:09] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 13:24:11] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 13:34:11] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 13:34:11] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 13:34:11] §241-VERIFY: LaunchAgents = 72 loaded (OK)
+[2026-04-08 13:34:11] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 13:34:11] §241-VERIFY: SKILL perfect-blog-creator =      298 lines (OK)
+[2026-04-08 13:34:11] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 13:34:11] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 13:34:11] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 13:34:11] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 13:34:11] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 13:34:11] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 13:34:12] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 13:44:12] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 13:44:12] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 13:44:12] §241-VERIFY: LaunchAgents = 73 loaded (OK)
+[2026-04-08 13:44:12] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 13:44:12] §241-VERIFY: SKILL perfect-blog-creator =      298 lines (OK)
+[2026-04-08 13:44:12] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 13:44:12] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 13:44:12] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 13:44:12] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 13:44:12] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 13:44:12] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 13:44:12] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 13:54:13] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-08 13:54:13] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-08 13:54:13] §241-VERIFY: LaunchAgents = 73 loaded (OK)
+[2026-04-08 13:54:13] §241-VERIFY: SKILL courtney-bentley-voice =      311 lines (OK)
+[2026-04-08 13:54:13] §241-VERIFY: SKILL perfect-blog-creator =      298 lines (OK)
+[2026-04-08 13:54:13] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-08 13:54:13] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-08 13:54:13] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-08 13:54:13] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-08 13:54:13] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-08 13:54:13] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-08 13:54:14] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-08 13:58:48] WATCHER: Detected 1 new/changed files from ZAS-CHAT-20260407-1100-SEO
+[2026-04-08 13:58:48] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/ZAS-CHAT-20260407-1100-SEO.json
+[2026-04-08 13:58:48] WATCHER: Cannot send notification — no MS Graph token
+[2026-04-08 13:58:58] WATCHER: Detected 1 new/changed files from ZAS-CHAT-20260407-1100-SEO
+[2026-04-08 13:58:58] WATCHER: Deployment marker created: /Users/courtneybentley/Developer/new-zas-website/docs/seo/.pending-deployments/ZAS-CHAT-20260407-1100-SEO.json
+[2026-04-08 13:58:58] WATCHER: Cannot send notification — no MS Graph token
+[08/04/2026 14:00:54 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[08/04/2026 14:01:07 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[08/04/2026 14:01:07 SAST] SECURITY: GITIGNORE: Added credential file patterns to /Users/courtneybentley/Developer/za-support-backend/.gitignore
+[08/04/2026 14:01:07 SAST] SECURITY: GITIGNORE: Added credential file patterns to /Users/courtneybentley/Developer/za-support-dashboard/.gitignore

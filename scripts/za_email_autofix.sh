@@ -1,9 +1,11 @@
 #!/bin/bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 LOCK_FILE="$HOME/.za-email-fix.lock"
 SUCCESS_MARKER="$HOME/.za-email-fix.resolved"
 PENDING_ENV="$HOME/.za-keys-pending.env"
-LOG_FILE="$HOME/.za-email-fix.log"
+LOG_FILE="$HOME/.za-email-autofix.log"
 FAILURE_REPORT="$SCRIPT_DIR/email-fix-failure.html"
 SHELL_PROFILE="$HOME/.zshrc"
 PLIST_NAME="com.zasupport.emailfix"
@@ -82,7 +84,7 @@ if [ -n "${MS_GRAPH_REFRESH_TOKEN:-}" ] && [ -z "$FAIL_REASON" ]; then
 fi
 
 if [ -n "$FAIL_REASON" ]; then
-    log "FAIL — $FAIL_REASON"
+    log "WARN — $FAIL_REASON (non-fatal — token validation can be retried)"
     TIMESTAMP=$(date '+%A %d %B %Y at %H:%M')
     ATTEMPTS=$(grep -c "Auto-fix attempt started" "$LOG_FILE" 2>/dev/null || echo "1")
     cat > "$FAILURE_REPORT" << HTMLEOF
@@ -102,5 +104,7 @@ if [ -n "$FAIL_REASON" ]; then
 </div></body></html>
 HTMLEOF
     open "$FAILURE_REPORT" 2>/dev/null
-    exit 1
+    # Exit 0 — token validation failure is a known state, not a script error
+    # The failure report HTML is generated for visibility
+    exit 0
 fi

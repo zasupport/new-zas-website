@@ -1,4 +1,6 @@
 #!/bin/bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+
 ICLOUD_SOURCE="$HOME/Library/Mobile Documents/com~apple~CloudDocs/ZAS-Workshop-Media"
 TARGET_DIR="$HOME/Workshop Photos"
 LOG_FILE="$HOME/.za-media-watcher.log"
@@ -47,3 +49,4 @@ find "$ICLOUD_SOURCE" -type f \( \
     fi
 done
 find "$ICLOUD_SOURCE" -name "*.${PROCESSED_MARKER}" -mtime +30 -delete 2>/dev/null
+exit 0
