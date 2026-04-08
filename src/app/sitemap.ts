@@ -430,5 +430,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/mac-repair-morningside-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-battery-swollen-replacement-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-screen-repair-fourways-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-practice-popia-it-provider-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
