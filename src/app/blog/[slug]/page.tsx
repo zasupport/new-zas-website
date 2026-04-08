@@ -10869,6 +10869,153 @@ AppleCare typically excludes accidental liquid damage unless you purchased Apple
 
 **Get your MacBook assessed today.** WhatsApp us on [064 529 5863](tel:064 529 5863) or [book online at zasupport.com/book](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and ready to recover your device.`,
   },
+  'imac-not-turning-on-johannesburg': {
+    slug: 'imac-not-turning-on-johannesburg',
+    title: `iMac Not Turning On: Professional Repair in Johannesburg`,
+    excerpt: `When your iMac refuses to turn on, it's frustrating—especially if you've got work waiting or clients depending on you. We understand. Here at ZA Support in Hyde Park, Johannesburg, we've diagnosed and.`,
+    date: '08 April 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'ZA Support',
+    content: `# iMac Not Turning On: Professional Repair in Johannesburg
+
+When your iMac refuses to turn on, it's frustrating—especially if you've got work waiting or clients depending on you. We understand. Here at ZA Support in Hyde Park, Johannesburg, we've diagnosed and repaired hundreds of non-responsive iMacs over the past decade. The problem is rarely what you'd expect, and the fix is often simpler than you think.
+
+The truth is, an iMac that won't power up can stem from several different culprits. Some are quick fixes. Others require component-level repair. In this post, we'll walk through the most common causes we encounter in our workshop, what you can safely try yourself, and when you need professional help.
+
+## Why Your iMac Won't Turn On: The Most Common Causes
+
+In our Hyde Park workshop, we've identified three primary reasons an iMac fails to boot. Understanding these helps you decide your next move.
+
+**Power Supply Unit (PSU) failure** is the single most frequent cause we see. The iMac's power supply sits behind the screen and handles all electrical distribution. When it fails, absolutely nothing happens—no lights, no sounds, no signs of life. You press the power button and get silence. We've replaced PSUs ranging from 2011 models through to recent 27-inch machines. Prices typically run from R1,200 to R2,800 depending on the model year.
+
+**RAM seating issues** catch many users off guard. When memory modules aren't fully inserted into their slots, your iMac simply won't start. You might hear the fans spin briefly, then everything goes quiet. This is quick to diagnose and usually costs nothing beyond our R599 assessment fee if you proceed with repair.
+
+**GPU faults on Intel-based models** (particularly 2017–2019 iMacs) can prevent booting entirely. The graphics processor handles initial startup sequences. When it fails, the machine appears completely dead, though internal diagnostics might show power flowing to some components.
+
+We also encounter logic board failures, corroded power components from load shedding voltage spikes, and faulty power buttons—though these are less common than the three above.
+
+## What You Can Safely Check Before Visiting Us
+
+Before bringing your machine to our workshop, try these basic troubleshooting steps.
+
+**Verify the power outlet.** It sounds obvious, but we've attended to iMacs whose only problem was a tripped circuit breaker. Test the outlet with another device—a lamp, phone charger, anything. If the outlet works, move to the next step.
+
+**Hold the power button for 10 seconds.** If your iMac has been powered down for weeks or experienced a sudden shutdown, try a forced reset. Press and hold the power button (typically on the back or side, depending on your model) for a full 10 seconds. Release and wait 30 seconds. Then press it normally. Sometimes this clears temporary electrical states in the power management system.
+
+**Check for visible damage.** Look at the power cable for cuts or fraying. Inspect the power port on your iMac for bent pins or burn marks. If you've recently experienced load shedding or a power surge in Johannesburg, your machine may have sustained damage even if you're using a surge protector.
+
+**Listen carefully for any sounds.** A completely silent machine differs from one where the fans briefly spin then stop. The latter suggests partial power reaching the logic board—a better sign for repair outcomes.
+
+If none of these work, your iMac needs professional diagnosis. We offer a comprehensive assessment for R599, during which we use specialist equipment to test the PSU, check RAM seating, and scan the logic board. Most customers proceed with repair immediately once they understand the issue and cost.
+
+## iMac Power-On Repair: What Happens in Our Workshop
+
+When you bring your iMac to ZA Support, we follow a structured diagnostic process.
+
+First, we connect your machine to our testing power supply. This immediately tells us whether your internal PSU has failed. If your iMac powers on with our external supply, we've found your problem.
+
+Next, we open the machine (taking appropriate static precautions) and inspect the RAM modules. We reseat them firmly—you'd be surprised how often this alone fixes the issue. We also visually inspect the logic board for obvious faults: burnt components, corrosion, or damage from load shedding power fluctuations.
+
+For machines that still won't respond, we use diagnostic cards and multimeters to trace power delivery across the logic board. This identifies where the electrical chain breaks. If your [logic board requires repair](/logic-board-repair), we can often replace the faulty component rather than the entire board, saving you hundreds of rands.
+
+In cases where we suspect [liquid damage](/liquid-damage)—perhaps from a spill or condensation in a humid Johannesburg summer—we perform detailed cleaning and component replacement as needed.
+
+Our repairs come with up to a 3-year warranty on parts and labour. If we can't restore your iMac to working order, you pay nothing—that's our No Fix No Fee promise.
+
+## When It's Time to Call: Getting Help in Hyde Park, Johannesburg
+
+We're located in Hyde Park and serve customers across Johannesburg and surrounding areas. If your iMac won't turn on and you'd like professional help, reach out.
+
+Send us a message on WhatsApp: **064 529 5863**
+
+Or book a workshop appointment directly: **zasupport.com/book**
+
+During load shedding periods, we understand urgency. We offer same-day diagnostics when possible and can often complete repairs within 24 hours. Bring your iMac in, and we'll have answers within an hour.
+
+## Frequently Asked Questions
+
+### Q: Will the repair be expensive if my power supply failed?
+
+A replacement PSU typically costs between R1,200 and R2,800 depending on your iMac model, plus R400–R600 labour. This is significantly cheaper than replacing the entire machine. We provide a detailed quote before proceeding.
+
+### Q: How long does an iMac power supply repair take?
+
+Usually between 2–4 hours. We need to carefully separate the screen from the aluminium frame, remove the old PSU, install the replacement, and run full diagnostics. We book this as a same-day service when possible.
+
+### Q: Can a power surge from load shedding damage my iMac?
+
+Yes, absolutely. Johannesburg experiences frequent voltage instability. Even with a surge protector, sudden spikes can damage the power supply and logic board components. We've seen a noticeable increase in these failures during load shedding periods.
+
+### Q: What's included in the R599 assessment?
+
+We perform a complete diagnostic workup: PSU testing, RAM checks, logic board scanning, and a visual inspection for corrosion or physical damage. You'll receive a detailed report and a fixed repair quote with no hidden costs.
+
+### Q: Is there a warranty on your repairs?
+
+Yes. All our repairs come with up to a 3-year warranty on parts and labour, depending on the repair type. We stand behind our work, and if something fails prematurely, we'll fix it at no cost.
+
+### Q: Can I still use an iMac that won't turn on for data recovery?
+
+In most cases, yes—the hard drive or SSD is separate from the power supply or logic board issue. If you're worried about data, mention this during your booking, and we can prioritise data recovery or transfer as part of the service.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Will the repair be expensive if my power supply failed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A replacement PSU typically costs between R1,200 and R2,800 depending on your iMac model, plus R400–R600 labour. This is significantly cheaper than replacing the entire machine. We provide a detailed quote before proceeding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does an iMac power supply repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually between 2–4 hours. We need to carefully separate the screen from the aluminium frame, remove the old PSU, install the replacement, and run full diagnostics. We book this as a same-day service when possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a power surge from load shedding damage my iMac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, absolutely. Johannesburg experiences frequent voltage instability. Even with a surge protector, sudden spikes can damage the power supply and logic board components. We've seen a noticeable increase in these failures during load shedding periods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's included in the R599 assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We perform a complete diagnostic workup: PSU testing, RAM checks, logic board scanning, and a visual inspection for corrosion or physical damage. You'll receive a detailed report and a fixed repair quote with no hidden costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a warranty on your repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All our repairs come with up to a 3-year warranty on parts and labour, depending on the repair type. We stand behind our work, and if something fails prematurely, we'll fix it at no cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I still use an iMac that won't turn on for data recovery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In most cases, yes—the hard drive or SSD is separate from the power supply or logic board issue. If you're worried about data, mention this during your booking, and we can prioritise data recovery or transfer as part of the service."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
