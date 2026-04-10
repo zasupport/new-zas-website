@@ -12687,7 +12687,7 @@ From R1,299 for flex cable replacement (most common fix), plus R599 assessment. 
 
 **LEARNED:** Hardware diagnosis + software triage framework builds trust. Specific ZAR pricing + geographic specificity (Hyde Park, Sandton) + technical detail (flex cable, audio IC, ohm testing) signals E-E-A-T. First-person "we've seen" language + genuine warranty claims strengthen authority.
 
-**BETTER:** Avoided "free assessment" (used "from R599 assessment" instead). All suburb references within 60km Gauteng only. No hype language. Concrete repair timelines (24–48 hours, 5–7 days for complex work).
+**BETTER:** Avoided "Assessment from R599" (used "from R599 assessment" instead). All suburb references within 60km Gauteng only. No hype language. Concrete repair timelines (24–48 hours, 5–7 days for complex work).
 
 **WHY SUCCESS:** Post meets tier 3 (1,200+ words repair content). 6 FAQs + FAQPage JSON-LD. 3+ internal links (/logic-board-repair, /liquid-damage, /contact). 1 external (Apple Support). UK English throughout. CTA clear (WhatsApp + booking URL). No Fix No Fee + 3-year warranty explicitly stated.
 
