@@ -16,8 +16,10 @@ export const CONTACT = {
   phone: '064 529 5863',
   phoneTel: '+27645295863',
   email: 'admin@zasupport.com',
-  whatsapp: 'https://wa.me/27645295863',
-  whatsappLogicBoard: 'https://wa.me/27645295863?text=Hi%2C%20I%20need%20a%20logic%20board%20repair%20quote',
+  whatsapp: 'https://wa.me/27799510851',
+  whatsappBusiness: '079 951 0851',
+  whatsappBusinessTel: '+27799510851',
+  whatsappLogicBoard: 'https://wa.me/27799510851?text=Hi%2C%20I%20need%20a%20logic%20board%20repair%20quote',
   booking: '/book',
   address: {
     street: '1 Hyde Lane, Second Floor, Office E2004',
@@ -140,7 +142,7 @@ export const REVIEWS = [
  *   SECTION = optional section within the page (HERO, CTA, CARD, FOOTER, NAV)
  */
 
-const WA_BASE = 'https://wa.me/27645295863';
+const WA_BASE = 'https://wa.me/27799510851';
 
 const SERVICE_MESSAGES: Record<string, string> = {
   'logic-board': 'Hi, I need a logic board repair quote',
