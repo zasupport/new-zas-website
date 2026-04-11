@@ -135,8 +135,8 @@ IndexNow: ∅ direct Google/Bing ping URLs — use ~/bin/za-index-submit.sh ONLY
 OG images: metadata `openGraph.images` + `twitter.images` (absolute URLs, 1200x630px).
 PWA/mobile: theme-color + apple-mobile-web-app-capable + apple-touch-icon in layout.tsx.
 
-## §220 RESEARCH-FIRST BLOG PIPELINE — 7/DAY (HARD — 04/04/2026 — REPLACES §170/§213)
-Target: 8 posts/day MAX (~240/month — Google-safe with E-E-A-T quality gates, 85% confidence)
+## §220 RESEARCH-FIRST BLOG PIPELINE — 8/DAY (HARD — 04/04/2026 — REPLACES §170/§213)
+Target: 8 posts/day (~240/month — Google-safe with E-E-A-T quality gates, 85% confidence)
 EVERY topic must be justified by data from ≥2 sources: GSC impressions-without-clicks | GA4 top-page patterns | PyTrends ZA | competitor keyword gaps | rank tracker position 5-20
 Research engine: ~/bin/za-blog-research-engine.py → ~/Desktop/Claude/Blog/research-briefs-DDMMYYYY.json
 Each topic gets a full research brief injected into the Haiku generation prompt
@@ -242,4 +242,13 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 
 # §256 IFIXIT REPAIR GUIDE LOOKUP: /ifixit-repair-guide — search iFixit for exact model+component guide, verify A-number, save to Knowledge Centre | ∅ generic model without year
 
+# §260 CONTINUE = RESUME, NOT RESTART: "continue"/"finish"/"complete the above" = resume signal | ∅ restart ∅ recap | extends §231
+# §259 WHATSAPP SKILL AUTO-ACTIVATION: NLP trigger → auto-load WhatsApp skills (7 total) | za-whatsapp-skill-verify.sh
 # §257 CROSS-PLATFORM CONTEXT SYNC: portable.md every 2min → iCloud+API+local | za-portable-context-sync.sh | com.zasupport.portablesync (120s)
+
+# §261 CONTACT NUMBER LOCK (HARD — 11/04/2026): Website contact number = 064 529 5863 ALWAYS | ∅ change to 079 951 0851 | ∅ change ANY website contact number without explicit Courtney approval
+# 079 951 0851 = WA Business number (pending approval) — WA link URLs (wa.me) are separate from displayed contact number
+# REMINDER 13/04/2026: check if WA Business approved 079 951 0851 → ask Courtney before any number change
+
+# §263 WEEKLY KEYWORD STRATEGY (HARD — 11/04/2026): Saturday XLSX (exact format from ZA-Support-Keyword-Strategy-06042026.xlsx) + daily reminders until approved | global CLAUDE.md (full detail)
+# §262 END-TO-END PROOF GATE (HARD — 11/04/2026): EVERY build/update/pipeline MUST prove with real data that every stage works end-to-end | ∅ done without proof | extends §92+§233+§240+§247 | global CLAUDE.md (full detail)

@@ -7,8 +7,8 @@
 # If src/components/blog/AuthorBox.tsx does NOT exist: bash perfect-blog/setup.sh
 # If setup.sh missing: find ~ -maxdepth 4 -name "setup.sh" -path "*/perfect-blog/*" 2>/dev/null | head -1
 
-# §229 BLOG VELOCITY 8/DAY (HARD — 07/04/2026 — GOOGLE-SAFE LIMIT):
-# Target: 8 posts/day MAX (~240/month) | 4 overnight 22:30 + 4 daily 12:00 SAST | NEVER batch >5 at once
+# §229 BLOG VELOCITY 8/DAY (HARD — 11/04/2026 — GOOGLE-SAFE TARGET):
+# Target: 8 posts/day (~240/month) | 4 overnight 22:30 + 4 daily 12:00 SAST | NEVER batch >5 at once
 # 85% confidence — defensible with E-E-A-T signals (named author, workshop experience, local pricing)
 # §227 compliance: ALL quality gates must pass | WORD COUNT TIERS: 1,500+ repair guides | 1,200+ informational/comparison | 800+ troubleshooting
 # ∅ default to shortest tier | longer articles (1200-1500+) rank higher — PRIORITISE for competitive keywords
@@ -53,3 +53,10 @@
 # §260 CONTINUE = RESUME, NOT RESTART: "continue"/"finish"/"complete the above" = resume signal | ∅ restart ∅ recap | extends §231
 # §259 WHATSAPP SKILL AUTO-ACTIVATION: NLP trigger → auto-load WhatsApp skills (7 total) | za-whatsapp-skill-verify.sh
 # §257 CROSS-PLATFORM CONTEXT SYNC: portable.md every 2min → iCloud+API+local | za-portable-context-sync.sh | com.zasupport.portablesync (120s)
+
+# §261 CONTACT NUMBER LOCK (HARD — 11/04/2026): Website contact number = 064 529 5863 ALWAYS | ∅ change to 079 951 0851 | ∅ change ANY website contact number without explicit Courtney approval
+# 079 951 0851 = WA Business number (pending approval) — WA link URLs (wa.me) are separate from displayed contact number
+# REMINDER 13/04/2026: check if WA Business approved 079 951 0851 → ask Courtney before any number change
+
+# §263 WEEKLY KEYWORD STRATEGY (HARD — 11/04/2026): Saturday XLSX (exact format from ZA-Support-Keyword-Strategy-06042026.xlsx) + daily reminders until approved | global CLAUDE.md (full detail)
+# §262 END-TO-END PROOF GATE (HARD — 11/04/2026): EVERY build/update/pipeline MUST prove with real data that every stage works end-to-end | ∅ done without proof | extends §92+§233+§240+§247 | global CLAUDE.md (full detail)
