@@ -13203,7 +13203,7 @@ No. Remote wipe is permanent and irreversible—that's the security feature. Alw
 
 ---
 
-**LEARNED:** Corporate fleet posts require concrete operational detail (MDM, DEP, policies) paired with Johannesburg-specific context (load shedding, humidity). Reference real client scenarios to signal E-E-A-T. Avoid "free assessment"—use "from R599 assessment" and warranty mentions consistently. | **BETTER:** H2s structured around business outcomes (compliance, standardisation, SLA monitoring) not just technical features. FAQ section anchors long-tail keywords naturally. Internal links placed mid-body where reader intent aligns. | **WHY:** Corporate decision-makers search for operational benefits, not just features. Load shedding context is unique to SA and demonstrates local workshop knowledge. Three-year warranty detail and No Fix No Fee guarantee differentiate from national chains. | **REPLICATE:** For enterprise posts: lead with business pain → explain technical solution → connect to Johannesburg risks → include pricing anchors (from R599) → end with FAQ + schema. Use first-person workshop experience in opening. Emphasise compliance (POPIA) for corporate angle.`,
+**LEARNED:** Corporate fleet posts require concrete operational detail (MDM, DEP, policies) paired with Johannesburg-specific context (load shedding, humidity). Reference real client scenarios to signal E-E-A-T. Avoid "Assessment from R599"—use "from R599 assessment" and warranty mentions consistently. | **BETTER:** H2s structured around business outcomes (compliance, standardisation, SLA monitoring) not just technical features. FAQ section anchors long-tail keywords naturally. Internal links placed mid-body where reader intent aligns. | **WHY:** Corporate decision-makers search for operational benefits, not just features. Load shedding context is unique to SA and demonstrates local workshop knowledge. Three-year warranty detail and No Fix No Fee guarantee differentiate from national chains. | **REPLICATE:** For enterprise posts: lead with business pain → explain technical solution → connect to Johannesburg risks → include pricing anchors (from R599) → end with FAQ + schema. Use first-person workshop experience in opening. Emphasise compliance (POPIA) for corporate angle.`,
   },
   'macbook-air-m3-repair-johannesburg': {
     slug: 'macbook-air-m3-repair-johannesburg',
@@ -13609,7 +13609,7 @@ Absolutely. In fact, most liquid-damaged MacBooks we see have already been left 
 
 ---
 
-**LEARNED:** First-person workshop voice + specific Gauteng suburbs + load shedding context + banned phrase replacement ("from R599 assessment" not "free diagnostic") = higher E-E-A-T trust signals. Logic board repair section bridges technical detail with customer pain (downtime + cost).
+**LEARNED:** First-person workshop voice + specific Gauteng suburbs + load shedding context + banned phrase replacement ("from R599 assessment" not "Assessment from R599") = higher E-E-A-T trust signals. Logic board repair section bridges technical detail with customer pain (downtime + cost).
 
 **BETTER:** Included warranty structure explicitly (up to 3 years) + No Fix No Fee early in CTA + data preservation reassurance + FAQ schema validation-ready.
 
