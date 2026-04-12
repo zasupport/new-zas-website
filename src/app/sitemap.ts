@@ -436,5 +436,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/popia-it-provider-agreement-medical-practice`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-speaker-not-working-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-touch-id-not-working-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/apple-certified-repair-hyde-park`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/corporate-apple-fleet-management-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-air-m3-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-repair-midrand`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
