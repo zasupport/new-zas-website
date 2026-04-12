@@ -57,6 +57,33 @@ const nextConfig: NextConfig = {
       { source: '/blog/liquid-damage', destination: '/blog/what-to-do-macbook-liquid-damage', permanent: true },
       { source: '/blog/rice-myth', destination: '/blog/why-rice-does-not-work', permanent: true },
 
+      // Water damage cluster consolidation → pillar post
+      { source: '/blog/can-water-damaged-macbook-be-repaired-south-africa', destination: '/blog/macbook-water-damage-repair-johannesburg', permanent: true },
+      { source: '/blog/macbook-air-water-damage-logic-board-repair-johannesburg', destination: '/blog/macbook-water-damage-repair-johannesburg', permanent: true },
+      { source: '/blog/macbook-water-damage-data-recovery-options', destination: '/blog/macbook-water-damage-repair-johannesburg', permanent: true },
+      { source: '/blog/how-long-macbook-survive-after-water-damage', destination: '/blog/macbook-water-damage-repair-johannesburg', permanent: true },
+      { source: '/blog/prevent-macbook-water-damage-protection-tips', destination: '/blog/macbook-water-damage-repair-johannesburg', permanent: true },
+      { source: '/blog/does-macbook-warranty-cover-water-damage-south-africa', destination: '/blog/macbook-water-damage-repair-johannesburg', permanent: true },
+
+      // Water damage cluster → spoke 1 (first aid)
+      { source: '/blog/macbook-water-damage-first-aid-steps-johannesburg', destination: '/blog/macbook-water-damage-first-aid', permanent: true },
+      { source: '/blog/macbook-water-damage-diy-mistakes-to-avoid', destination: '/blog/macbook-water-damage-first-aid', permanent: true },
+      { source: '/blog/spilled-coffee-on-macbook-what-to-do-right-now', destination: '/blog/macbook-water-damage-first-aid', permanent: true },
+      { source: '/blog/what-to-do-macbook-liquid-damage', destination: '/blog/macbook-water-damage-first-aid', permanent: true },
+
+      // Water damage cluster → spoke 2 (cost)
+      { source: '/blog/macbook-pro-coffee-spill-repair-cost-johannesburg', destination: '/blog/macbook-water-damage-repair-cost-2026', permanent: true },
+      { source: '/blog/macbook-water-damage-repair-cost-south-africa', destination: '/blog/macbook-water-damage-repair-cost-2026', permanent: true },
+      { source: '/blog/liquid-damage-macbook-johannesburg-cost', destination: '/blog/macbook-water-damage-repair-cost-2026', permanent: true },
+
+      // Water damage cluster → spoke 3 (signs/diagnosis)
+      { source: '/blog/macbook-liquid-damage-indicator-what-apple-checks', destination: '/blog/signs-of-water-damage-macbook', permanent: true },
+      { source: '/blog/signs-of-water-damage-macbook-how-to-tell', destination: '/blog/signs-of-water-damage-macbook', permanent: true },
+
+      // Water damage cluster → spoke 4 (repair vs replacement)
+      { source: '/blog/macbook-logic-board-repair-vs-replacement-water-damage', destination: '/blog/macbook-logic-board-repair-vs-replacement', permanent: true },
+      { source: '/blog/laptop-water-damage-repair-vs-buy-new-south-africa', destination: '/blog/macbook-logic-board-repair-vs-replacement', permanent: true },
+
       // Old WordPress page URLs (404s from legacy site)
       { source: '/apple-repairs', destination: '/apple-repair', permanent: true },
       { source: '/apple-expertise-johannesburg-south-africa', destination: '/about', permanent: true },

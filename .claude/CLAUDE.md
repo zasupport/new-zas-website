@@ -246,9 +246,13 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # §259 WHATSAPP SKILL AUTO-ACTIVATION: NLP trigger → auto-load WhatsApp skills (7 total) | za-whatsapp-skill-verify.sh
 # §257 CROSS-PLATFORM CONTEXT SYNC: portable.md every 2min → iCloud+API+local | za-portable-context-sync.sh | com.zasupport.portablesync (120s)
 
+# §266 CROSS-SESSION DEDUP (HARD — 12/04/2026): auto-detect duplicate work across sessions | za-session-dedup-hook.sh + za-session-dedup.sh | global CLAUDE.md (full detail)
+
 # §261 CONTACT NUMBER LOCK (HARD — 11/04/2026): Website contact number = 064 529 5863 ALWAYS | ∅ change to 079 951 0851 | ∅ change ANY website contact number without explicit Courtney approval
 # 079 951 0851 = WA Business number (pending approval) — WA link URLs (wa.me) are separate from displayed contact number
 # REMINDER 13/04/2026: check if WA Business approved 079 951 0851 → ask Courtney before any number change
 
+# §267 COMPLETE ALL PENDING BEFORE SESSION END (HARD — 12/04/2026): ∅ end session with unfinished detected tasks | verify 0 pending before stopping | za-pending-completion-gate.sh (Stop hook) | global CLAUDE.md (full detail)
+# §265 AUTO-COMPLETE BLOG+WEBSITE WORK (HARD — 12/04/2026): auto-execute blog/website tasks that need no Courtney input | blog posts, SEO fixes, schema, sitemap, 404s, self-heal | ∅ ask ∅ wait | global CLAUDE.md (full detail)
 # §263 WEEKLY KEYWORD STRATEGY (HARD — 11/04/2026): Saturday XLSX (exact format from ZA-Support-Keyword-Strategy-06042026.xlsx) + daily reminders until approved | global CLAUDE.md (full detail)
 # §262 END-TO-END PROOF GATE (HARD — 11/04/2026): EVERY build/update/pipeline MUST prove with real data that every stage works end-to-end | ∅ done without proof | extends §92+§233+§240+§247 | global CLAUDE.md (full detail)
