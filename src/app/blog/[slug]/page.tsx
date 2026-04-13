@@ -15039,7 +15039,7 @@ Yes, in most cases. If the machine won't boot but the NAND storage is intact, we
 
 ### Q: Why is your assessment R599 and not free?
 
-A proper assessment takes 30–45 minutes of skilled technician time, specialist equipment, and diagnostic software. That has a real cost. Free assessments incentivise technicians to diagnose every machine as repairable (and expensive), which distorts the decision-making process. Our assessment fee is credited back against repair costs if you proceed. We want you to decide based on accurate information, not on pressure to recover the assessment cost.
+A proper assessment takes 30–45 minutes of skilled technician time, specialist equipment, and diagnostic software. That has a real cost. Assessment from R599s incentivise technicians to diagnose every machine as repairable (and expensive), which distorts the decision-making process. Our assessment fee is credited back against repair costs if you proceed. We want you to decide based on accurate information, not on pressure to recover the assessment cost.
 
 ### Q: What's the difference between your repair and Apple's Service?
 
@@ -15087,7 +15087,7 @@ Apple's standard approach is logic board replacement; they rarely attempt compon
       "name": "Why is your assessment R599 and not free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A proper assessment takes 30–45 minutes of skilled technician time, specialist equipment, and diagnostic software. That has a real cost. Free assessments incentivise technicians to diagnose every machine as repairable (and expensive), which distorts the decision-making process. Our assessment fee is credited back against repair costs if you proceed. We want you to decide based on accurate information, not on pressure to recover the assessment cost."
+        "text": "A proper assessment takes 30–45 minutes of skilled technician time, specialist equipment, and diagnostic software. That has a real cost. Assessment from R599s incentivise technicians to diagnose every machine as repairable (and expensive), which distorts the decision-making process. Our assessment fee is credited back against repair costs if you proceed. We want you to decide based on accurate information, not on pressure to recover the assessment cost."
       }
     },
     {
