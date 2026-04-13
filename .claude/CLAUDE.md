@@ -246,6 +246,9 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # §259 WHATSAPP SKILL AUTO-ACTIVATION: NLP trigger → auto-load WhatsApp skills (7 total) | za-whatsapp-skill-verify.sh
 # §257 CROSS-PLATFORM CONTEXT SYNC: portable.md every 2min → iCloud+API+local | za-portable-context-sync.sh | com.zasupport.portablesync (120s)
 
+# §269 PROPRIETARY TOOL CONCEALMENT (HARD — 13/04/2026): ∅ ANY reference to tools, technologies, frameworks, platforms, methods, processes in ANY public output | FULL SPEC: ~/.claude/rules/269-proprietary-tool-concealment.md | supersedes §268 | extends §203+§204+§205+§252 | global CLAUDE.md (full detail)
+# §268 TECH STACK CONCEALMENT (HARD — 13/04/2026): ∅ proprietary technology identifiers (logos, favicons, SVGs, meta tags, boilerplate) visible on ANY public-facing property | Vercel/Next.js/Render/Sanity branding = competitive intelligence leak | remove on sight | replace with ZA Support branding | grep -rl "vercel\|nextjs" public/ must = 0 | extends §203+§204
+
 # §266 CROSS-SESSION DEDUP (HARD — 12/04/2026): auto-detect duplicate work across sessions | za-session-dedup-hook.sh + za-session-dedup.sh | global CLAUDE.md (full detail)
 
 # §261 CONTACT NUMBER LOCK (HARD — 11/04/2026): Website contact number = 064 529 5863 ALWAYS | ∅ change to 079 951 0851 | ∅ change ANY website contact number without explicit Courtney approval
