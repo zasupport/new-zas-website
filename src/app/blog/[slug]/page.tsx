@@ -15116,6 +15116,565 @@ Apple's standard approach is logic board replacement; they rarely attempt compon
 
 **REPLICATE:** For future technical service posts: (1) lead with integration/architecture story, (2) cite workshop volume data by failure type, (3) contrast competitor approaches (Apple's board replacement strategy), (4) weave local environmental factors naturally, (5) FAQ answers expand on workshop philosophy not FAQ formula, (6) fenced JSON-LD for SEO signal.`,
   },
+  'imac-logic-board-repair-johannesburg-2026': {
+    slug: 'imac-logic-board-repair-johannesburg-2026',
+    title: `iMac Logic Board Repair in Johannesburg 2026: Component-Level Diagnosis and Repair at ZA Support`,
+    excerpt: `When your iMac\'s logic board fails, Apple\'s solution is a full board replacement costing R15,000 to R45,000. At ZA Support in Hyde Park, we repair at component level — fixing the actual fault, not r.`,
+    date: '13 April 2026',
+    category: 'Repairs',
+    readTime: '14 min read',
+    author: 'courtney-bentley',
+    content: `# iMac Logic Board Repair in Johannesburg 2026: Component-Level Diagnosis and Repair at ZA Support
+
+When your iMac refuses to boot, displays graphical artefacts, or shuts down randomly, the logic board is almost always involved. In our Hyde Park workshop, we see between eight and twelve iMac logic board faults every month — and the consistent pattern is this: customers arrive expecting a quote of R15,000 to R45,000 because that is what Apple or an authorised provider quoted them for a full board replacement. What they discover at ZA Support is that the actual fault is often a single component — a failed GPU, a blown capacitor, a corrupted BIOS chip — that can be repaired at component level for a fraction of that cost.
+
+This is not a shortcut. Component-level repair is more technically demanding than board replacement. It requires micro-soldering equipment, thermal imaging, oscilloscope diagnostics, and deep knowledge of Apple's power delivery and signal architectures. But for the customer, it means paying R4,499 to R8,000 instead of R25,000 or more — and keeping a machine that may have years of productive life remaining.
+
+## Why iMac Logic Boards Fail in Johannesburg
+
+Johannesburg presents specific environmental challenges that accelerate logic board degradation. At 1,750 metres above sea level, air pressure is lower, which reduces the cooling efficiency of the iMac's internal fans. The 21.5-inch iMac in particular runs warm even in optimal conditions — in a Sandton office during summer, internal temperatures regularly exceed Apple's design tolerances.
+
+Load shedding compounds the problem. Every power interruption creates a voltage spike when electricity returns, and while surge protectors help, they cannot eliminate micro-surges that stress the power management ICs on the logic board. We have documented cases where repeated load shedding cycles degraded the ISL6259 or ISL95828 power management chips to the point of failure — a pattern we see far more frequently in Johannesburg than technicians in Europe or North America would encounter.
+
+Dust is the third factor. Johannesburg winters are dry and dusty, and the iMac's intake vents pull fine particulate directly onto the logic board. Over two to three years, this creates insulating layers that trap heat around critical components, particularly the GPU and southbridge chipsets.
+
+## The Diagnostic Process: What We Actually Do
+
+When an iMac arrives at our Hyde Park workshop with a suspected logic board fault, we follow a structured diagnostic sequence that has been refined over thousands of repairs:
+
+**Stage 1: Visual Inspection**
+We open the machine and inspect the logic board under magnification for obvious damage — burnt components, swollen capacitors, corrosion from liquid exposure. This catches approximately 20% of faults immediately.
+
+**Stage 2: Power Rail Analysis**
+Using a bench power supply, we measure current draw at various voltage rails. A healthy iMac logic board draws specific current at specific voltages during boot. Deviations point us to the failing subsystem — for example, excessive current on the 3.3V rail often indicates a GPU short, while zero current on the 5V rail suggests a failed PMIC.
+
+**Stage 3: Thermal Imaging**
+We power the board and use a FLIR thermal camera to identify hot spots. A shorted capacitor or failed MOSFET will generate localised heat that is invisible to the eye but immediately apparent on thermal imaging. This technique has become central to our diagnostic workflow because it reduces diagnosis time from hours to minutes.
+
+**Stage 4: Signal Tracing**
+For intermittent faults or issues that do not present obvious thermal signatures, we use an oscilloscope to trace clock signals, data bus activity, and power sequencing. The iMac's boot sequence follows a precise order — power good signals, clock generation, memory initialisation, GPU activation — and any deviation reveals where the fault lies.
+
+**Stage 5: Component-Level Repair**
+Once the faulty component is identified, we replace it using a micro-soldering station. This might be a single capacitor (R50 part cost), a power management IC (R200 to R800), or a GPU chip (R1,500 to R3,000 for the chip itself). Labour is where the expertise sits — the physical repair takes 30 minutes to two hours, but the diagnosis that precedes it is what separates professional repair from guesswork.
+
+## iMac Models We Repair Most Frequently
+
+**iMac 27-inch (2012-2019)**
+These are our highest-volume iMac repairs. The 27-inch models use discrete AMD GPUs that are prone to failure, particularly the Radeon Pro 570, 575, 580, and 5500 XT variants. GPU failure manifests as graphical corruption, vertical lines, or complete display loss. We can replace the GPU chip — a BGA reball and reflow process — for R5,500 to R7,000. Apple quotes R18,000 to R25,000 for the same machine because they replace the entire logic board.
+
+**iMac 21.5-inch (2012-2019)**
+The smaller iMacs run hotter due to more compact thermal design. We frequently see power delivery failures and SSD controller faults on these models. The 2017 and 2019 models with Fusion Drives are particularly prone to issues when the HDD portion fails, causing the entire system to become unstable. Logic board repair for power faults: R4,499 to R5,500.
+
+**iMac 5K (Late 2014-2019)**
+The 5K Retina models push the GPU harder than any other iMac, driving a 5120x2880 display. GPU failures are common after three to four years. We see thermal compound degradation as a contributing factor in nearly every 5K GPU failure we diagnose. Our repair includes GPU replacement, full thermal service, and upgraded thermal compound.
+
+**iMac M1 (2021) and M3 (2024)**
+The M-series iMacs have fewer logic board failures overall — credit to Apple's integrated architecture — but when they do fail, the repair is more complex because the SoC, memory, and SSD are all on the same board. We handle M-series logic board repair, but we are transparent: if the SoC itself is damaged (not the supporting components), the board cannot be repaired. In approximately 65% of M-series failures, the fault is in power delivery or peripheral circuits, which we can address.
+
+## What Logic Board Repair Costs at ZA Support
+
+All pricing is for the repair itself, excluding the initial assessment:
+
+- **Assessment**: From R599 (deducted from repair cost if you proceed)
+- **Power delivery repair** (capacitors, MOSFETs, PMICs): R4,499 to R5,500
+- **GPU repair** (reball, reflow, or chip replacement): R5,500 to R7,000
+- **Backlight circuit repair**: R3,500 to R4,500
+- **USB/Thunderbolt port IC repair**: R3,000 to R4,000
+- **BIOS/firmware recovery**: R2,500 to R3,500
+- **Full logic board service** (multiple faults): R6,000 to R8,000
+
+Compare these to Apple's board replacement pricing of R15,000 to R45,000 and the value proposition is clear. We also offer a three-year warranty on all logic board repairs — longer than Apple's standard 90-day repair warranty.
+
+## Why Component-Level Repair Is Better Than Board Replacement
+
+Board replacement is the approach taken by Apple and authorised service providers. They remove the failed board and install a new one. This works, but it is wasteful and expensive. The failed board goes into Apple's recycling programme, and the customer pays for an entirely new board when only one component was faulty.
+
+Component-level repair addresses only the failed part. The rest of the board — which is perfectly functional — remains in place. This approach:
+
+- **Costs 60% to 80% less** than board replacement
+- **Preserves your data** (the SSD remains on the original board for M-series, or is not affected for Intel models)
+- **Extends the machine's life** without the environmental cost of manufacturing a new board
+- **Is backed by our three-year warranty** on the repaired components
+
+The only scenario where board replacement is genuinely preferable is when multiple subsystems have failed simultaneously — typically from severe liquid damage or electrical events. In those cases, we will tell you honestly.
+
+## Service Areas in Gauteng
+
+We are located at 1 Hyde Park Lane, Hyde Park, Johannesburg. Our primary service areas include Sandton, Rosebank, Bryanston, Fourways, Morningside, Rivonia, Houghton, Melrose, Illovo, Parkhurst, Northcliff, and Randburg. We also service Midrand, Kempton Park, Centurion, Pretoria, and Bedfordview — most customers in these areas drop off and collect, though we can arrange courier for machines that cannot be transported easily.
+
+Turnaround for iMac logic board repair is typically three to five working days. Assessment is completed within 24 hours of drop-off, and we contact you with findings and a fixed quote before proceeding with any repair.
+
+## Frequently Asked Questions
+
+### Is it worth repairing an iMac logic board or should I buy a new machine?
+
+If your iMac is a 2017 or newer model with 16 GB or more RAM, repairing the logic board for R4,499 to R7,000 is almost always more cost-effective than replacing the machine (R22,000 to R45,000 new). For older models, we will advise honestly based on the machine's overall condition and your usage requirements.
+
+### Can you recover my data if the iMac logic board has failed?
+
+Yes, in most cases. For Intel iMacs, the SSD or hard drive is separate from the logic board, so data recovery is straightforward. For M-series iMacs, the data is encrypted and tied to the logic board, so we repair the board to access the data. Our success rate for data recovery via board repair is approximately 80%.
+
+### How do I know if my iMac has a logic board problem?
+
+Common symptoms include: the iMac will not turn on at all, the screen displays vertical lines or graphical corruption, the machine boots but shuts down randomly, fans run at full speed immediately on power-up, or the machine chimes but shows no display. Any of these warrants a professional assessment.
+
+### Do you repair iMac logic boards with liquid damage?
+
+Yes. Liquid damage to iMac logic boards is less common than with MacBooks (since iMacs are desktop machines), but it does happen — spilled drinks, leaking ceilings, and flooding during Johannesburg storms. We clean the board ultrasonically, identify damaged components, and repair them individually.
+
+### How long does an iMac logic board repair take?
+
+Assessment is completed within 24 hours. The repair itself takes three to five working days depending on complexity and parts availability. We provide a fixed quote after assessment — no surprises.
+
+### What warranty do you offer on iMac logic board repairs?
+
+All logic board repairs carry a three-year warranty on the repaired components. If the same fault recurs within that period, we repair it at no additional cost. This is significantly longer than Apple's standard 90-day repair warranty.
+
+*Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience repairing Apple devices in Johannesburg.*`,
+  },
+  'mac-repair-rivonia-johannesburg': {
+    slug: 'mac-repair-rivonia-johannesburg',
+    title: `Mac Repair in Rivonia Johannesburg: Professional Apple Service Near You`,
+    excerpt: `Rivonia professionals and businesses rely on their Apple devices daily. When your MacBook, iMac, or iPhone needs expert repair, ZA Support in nearby Hyde Park offers component-level service with a thr.`,
+    date: '13 April 2026',
+    category: 'Repairs',
+    readTime: '10 min read',
+    author: 'courtney-bentley',
+    content: `# Mac Repair in Rivonia Johannesburg: Professional Apple Service Near You
+
+Rivonia sits at the intersection of professional ambition and suburban convenience in Johannesburg's northern corridor. The suburb is home to corporate head offices, medical practices along Rivonia Road, and a growing community of remote professionals who depend on their Apple devices for everything from client presentations to patient record management. When a MacBook refuses to charge, an iMac displays graphical artefacts, or an iPhone screen shatters on Rivonia Boulevard, the question is not whether you need repair — it is who you trust to do it properly.
+
+At ZA Support, we are located a twelve-minute drive from Rivonia at 1 Hyde Park Lane, Hyde Park. We have been repairing Apple devices for Rivonia residents and businesses since 2009, and the suburb has become one of our busiest service areas. This is not a coincidence — Rivonia's professional demographic means high-value machines in daily production use, and when those machines fail, downtime has real financial consequences.
+
+## Why Rivonia Professionals Choose ZA Support
+
+The repair landscape in Johannesburg is fragmented. You have Apple's authorised service through iStore or DigiCape, which offers genuine parts but at premium prices and often lengthy turnaround times. You have mall kiosks and market repair stands, which offer speed and low prices but no warranty and questionable quality. And then you have component-level repair specialists like ZA Support, which sits in a different category entirely.
+
+Component-level repair means we diagnose and fix the actual fault on your logic board, rather than replacing the entire board. When a MacBook Pro's power management IC fails — a R300 component — Apple or an authorised provider will quote you R18,000 to R25,000 for a full board replacement. We will quote you R4,499 to repair the specific component, backed by a three-year warranty.
+
+For Rivonia professionals managing tight margins or personal budgets, this difference is not trivial. It is the difference between repairing your machine and being forced to buy a new one.
+
+## Services We Provide for Rivonia Clients
+
+**Logic Board Repair (From R4,499)**
+The most technically demanding repair we offer, and the one that saves our clients the most money. We repair MacBook, iMac, Mac Mini, and Mac Studio logic boards at component level. GPU failures, power delivery faults, backlight circuit damage, and USB-C/Thunderbolt port failures are all within our scope. Three-year warranty on all board-level repairs.
+
+**Liquid Damage Recovery (From R1,999)**
+Coffee spills, load shedding-related flooding, and Johannesburg's summer storms account for a steady stream of liquid-damaged devices from Rivonia. Our process: ultrasonic cleaning of the logic board, identification and replacement of corroded components, full system test, and data verification. We recover approximately 80% of liquid-damaged machines that arrive within the first 48 hours of the incident.
+
+**Screen Replacement (From R2,499)**
+MacBook Retina displays, iMac screens, iPhone OLED panels, and iPad digitisers. We use quality replacement screens that match Apple specifications for colour accuracy, brightness, and touch responsiveness. Same-day service for most iPhone screen replacements.
+
+**Battery Replacement (From R1,299)**
+Swollen batteries are a safety hazard that we see weekly. If your MacBook's trackpad is raised, the keyboard feels spongy, or the chassis is bulging, do not wait. We replace batteries with cells that meet Apple's original specifications, including the adhesive and thermal management components.
+
+**Data Recovery (From R1,200)**
+When a machine will not boot but the data matters more than the machine itself, we can often recover files through board repair (for M-series Macs where the SSD is soldered) or direct SSD reading (for Intel Macs with removable storage).
+
+**Managed IT for Rivonia Businesses (Custom Pricing)**
+Several Rivonia-based businesses — including medical practices and professional services firms — use our managed IT service. This covers device procurement, configuration, MDM deployment, POPIA compliance monitoring, and ongoing support. We provide a written IT provider agreement that satisfies POPIA Section 21 requirements for operator agreements.
+
+## Getting to ZA Support from Rivonia
+
+From central Rivonia, take Rivonia Road south towards Sandton. Turn onto William Nicol Drive, then left onto Jan Smuts Avenue. 1 Hyde Park Lane is on your left, adjacent to Hyde Park Corner. The drive takes approximately twelve minutes in normal traffic, or twenty minutes during peak hours.
+
+We offer drop-off and collection. Most Rivonia clients drop off in the morning on their commute and collect on the way home — our location at Hyde Park makes this a natural stop on the Rivonia-Sandton corridor.
+
+## What to Expect When You Visit
+
+Assessment starts from R599. This covers a full diagnostic of your device, including hardware testing, visual inspection under magnification, and software analysis where relevant. After assessment, we provide a fixed written quote with no hidden costs. If you proceed with the repair, the R599 assessment fee is deducted from the repair cost.
+
+Turnaround varies by repair type:
+- **iPhone screen replacement**: Same day (most models)
+- **Battery replacement**: Same day to next day
+- **Logic board repair**: Three to five working days
+- **Liquid damage recovery**: Three to seven working days
+- **Data recovery**: Two to five working days
+
+We contact you with findings and a quote before proceeding with any work. There are no surprises. If we cannot fix your device, you pay only the assessment fee.
+
+## The Load Shedding Factor
+
+Rivonia, like all Johannesburg suburbs, deals with Eskom's load shedding schedules. Power interruptions create voltage spikes that stress MacBook chargers and iMac power supplies, and over time, these micro-surges degrade the power management circuits on logic boards. We have seen a measurable increase in power-related logic board failures across Rivonia since Stage 4 and Stage 6 load shedding became routine.
+
+Our recommendation for all Rivonia Apple users: invest in a quality UPS (uninterruptible power supply) for desktop machines, and avoid plugging your MacBook charger directly into a wall socket without surge protection. These are inexpensive precautions that prevent expensive repairs.
+
+## Rivonia Medical Practices
+
+We work with several medical practices in the Rivonia area. Medical environments have specific requirements: POPIA compliance for patient data handling, HPCSA regulatory awareness, and the need for minimal downtime. Our managed IT service includes:
+
+- Written IT provider agreement (POPIA Section 21 compliant)
+- JAMF MDM deployment for device management
+- FileVault encryption verification across all devices
+- Backup monitoring and verification
+- Priority response for hardware failures
+
+If your practice is in Rivonia and you do not have a written IT provider agreement with your current IT support, this is a compliance gap that the Information Regulator will ask about during any assessment or incident.
+
+## Frequently Asked Questions
+
+### How far is ZA Support from Rivonia?
+
+We are located at 1 Hyde Park Lane, Hyde Park — approximately twelve minutes from central Rivonia via Rivonia Road and William Nicol Drive. Twenty minutes during peak traffic.
+
+### Do you offer a collection service for Rivonia clients?
+
+We do not currently offer a collection service, but most Rivonia clients find drop-off convenient as Hyde Park is on the natural commute route towards Sandton. Some clients use courier services for devices that are difficult to transport.
+
+### What makes ZA Support different from iStore or DigiCape for repairs?
+
+We repair at component level, which means fixing the specific failed component rather than replacing the entire board. This typically costs 60% to 80% less than authorised service providers. We also offer a three-year warranty versus the standard 90-day warranty from authorised channels.
+
+### Can you repair M-series MacBooks and iMacs?
+
+Yes. We repair M1, M2, M3, and M4 MacBook and iMac logic boards. The M-series architecture requires specialised diagnostic techniques because the SoC, memory, and storage are integrated, but our workshop is equipped for this level of repair.
+
+### Do you work with businesses in Rivonia or only individual clients?
+
+Both. We provide individual device repair and managed IT services for Rivonia businesses. Several medical practices and professional services firms in the area use our ongoing support.
+
+### What should I do if I spill liquid on my MacBook?
+
+Turn it off immediately. Do not try to charge it. Do not put it in rice. Bring it to our workshop as quickly as possible — ideally within 24 hours. The sooner we can clean and dry the logic board, the higher the chance of full recovery.
+
+*Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience repairing Apple devices in Johannesburg.*`,
+  },
+  'macbook-thunderbolt-port-repair-johannesburg': {
+    slug: 'macbook-thunderbolt-port-repair-johannesburg',
+    title: `MacBook Thunderbolt Port Repair in Johannesburg: When Your Ports Stop Working`,
+    excerpt: `A failed Thunderbolt port on your MacBook means no charging, no external display, and no data transfer. At ZA Support in Hyde Park, we diagnose and repair Thunderbolt controller and port faults at bo.`,
+    date: '13 April 2026',
+    category: 'Troubleshooting',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Thunderbolt Port Repair in Johannesburg: When Your Ports Stop Working
+
+Your MacBook has four Thunderbolt ports — or two, depending on the model — and when one fails, you might not notice immediately. When two fail, you start rearranging cables. When all of them stop working, your MacBook becomes an expensive paperweight that cannot charge, connect to an external display, or transfer data. At our Hyde Park workshop, Thunderbolt port failures have become one of the most common logic board-adjacent repairs we handle, and the good news is that most of them are fixable at component level.
+
+## Understanding Thunderbolt Port Architecture
+
+Modern MacBook Pro models (2016 onwards) use USB-C ports that support Thunderbolt 3 or Thunderbolt 4. These are not simple connectors — each port is managed by a dedicated Thunderbolt controller chip on the logic board, with its own power delivery circuitry. On Intel MacBooks, this is typically a separate Intel JHL chip. On M-series machines, Thunderbolt functionality is integrated into the SoC but still relies on external retimer chips and power delivery components.
+
+This matters because when a port fails, the fault is rarely the physical connector itself. In approximately 70% of the Thunderbolt failures we diagnose, the issue is an upstream component: a failed CD3217 USB-C port controller, a damaged TPS65982 power delivery IC, or a blown filter capacitor on the data lines. The physical port looks fine, but the electronics behind it have failed.
+
+## Common Causes of Thunderbolt Port Failure in Johannesburg
+
+**Cheap or damaged USB-C cables**: This is the single most common cause. Low-quality USB-C cables that do not comply with the USB Power Delivery specification can deliver incorrect voltage or current, damaging the port controller IC. We see this at least twice weekly — a customer bought a R50 cable from a market stall, and it killed one or more ports.
+
+**Load shedding voltage spikes**: When power returns after a load shedding event, the voltage spike can travel through a connected charger into the Thunderbolt port's power delivery circuit. Even with a surge protector, micro-spikes can degrade the CD3217 or TPS65982 chips over time.
+
+**Liquid ingress**: Coffee, tea, and condensation (common during Johannesburg's humid summers) can reach the USB-C port connectors and cause corrosion on the pins and surrounding components. The corrosion may not be visible externally but can create micro-shorts that damage the controller IC.
+
+**Physical damage**: Forcing a USB-C connector at an angle, dropping the MacBook while a cable is connected, or inserting a damaged connector can bend internal pins or crack solder joints on the port's PCB mounting.
+
+## Diagnosis at ZA Support
+
+When a MacBook arrives with Thunderbolt issues, we test each port individually with calibrated USB-C testing equipment that measures:
+
+- Voltage and current delivery (is the port providing power correctly?)
+- Data negotiation (is the Thunderbolt controller responding to device handshakes?)
+- Display output (is the DisplayPort alt-mode signal present?)
+- Power delivery protocol (is USB-PD negotiation completing?)
+
+This tells us immediately whether the fault is in the physical connector, the port controller IC, the power delivery IC, or the Thunderbolt retimer chip. Each component has a different repair pathway and cost.
+
+## Repair Options and Costs
+
+**Physical connector replacement**: R1,500 to R2,000 per port. This is the simplest repair — the USB-C connector itself is damaged or worn. We desolder the old connector and install a new one. This is the repair needed in about 30% of cases.
+
+**Port controller IC replacement** (CD3217/CD3215): R3,000 to R4,000. The controller chip that manages USB-C negotiation and power delivery has failed. We replace the chip using micro-soldering techniques. This is the most common electronic repair for Thunderbolt faults.
+
+**Power delivery IC replacement** (TPS65982/TPS65983): R3,500 to R4,500. The chip that manages USB Power Delivery negotiation and high-voltage charging through the port has failed. Symptoms typically include the port working for data but not for charging, or vice versa.
+
+**Thunderbolt retimer chip**: R4,000 to R5,500. On M-series MacBooks, the retimer chip handles high-speed Thunderbolt signalling. Failure here means the port physically works for charging but cannot maintain Thunderbolt data speeds or external display connections.
+
+**Assessment**: From R599, deducted from the repair cost if you proceed.
+
+## Prevention
+
+- Use only MFi-certified or reputable USB-C cables (Anker, Apple, Belkin)
+- Connect your charger through a quality surge protector, especially during load shedding seasons
+- Avoid connecting and disconnecting cables at angles — straight in, straight out
+- Keep ports clean and free of lint using compressed air
+- If a port starts behaving intermittently, stop using it and bring the machine in before the fault spreads to other components
+
+## When to Seek Repair
+
+If you notice any of these symptoms, book an assessment:
+
+- One or more ports no longer charge the MacBook
+- External displays connect intermittently or not at all
+- USB-C devices are not recognised in some ports
+- The MacBook shows a warning about an accessory drawing too much power (when using a known-good device)
+- Charging is slow or intermittent through a specific port
+
+Left unaddressed, Thunderbolt port failures can cascade — a short in one port's controller can damage the power rail shared with other ports, turning a single-port repair into a multi-port or full logic board service.
+
+## Frequently Asked Questions
+
+### Can you repair just one Thunderbolt port or do you have to replace the whole logic board?
+
+We repair individual ports and their associated controller chips. There is no need to replace the entire logic board for a port fault. This is what makes our service significantly less expensive than Apple or authorised service providers.
+
+### How long does a Thunderbolt port repair take?
+
+Assessment is same-day. The repair itself takes two to four working days depending on whether it is a connector replacement (simpler) or a controller IC replacement (more complex). We will provide a fixed quote after assessment.
+
+### My MacBook charges from one port but not the others. Is that a Thunderbolt problem?
+
+Yes, this is a classic symptom. It means the power delivery IC on the non-charging ports has failed while the physical connector and data functions may still work. Each port has its own power delivery path, so individual port failure is common.
+
+### Will my data be safe during a Thunderbolt port repair?
+
+Yes. Thunderbolt port repair does not involve the storage subsystem. Your SSD and data are not affected. We do not need to erase or reinstall anything for a port-level repair.
+
+### Do you repair Thunderbolt ports on M-series MacBooks?
+
+Yes. M1, M2, M3, and M4 MacBooks all use external retimer chips and port controller ICs that we can replace at component level. The M-series integration makes diagnosis slightly different, but the repair techniques are established.
+
+### Is it worth repairing Thunderbolt ports on an older Intel MacBook?
+
+If the machine is a 2018 or newer Intel MacBook Pro with 16 GB RAM, port repair at R2,000 to R4,000 is almost always worthwhile compared to buying a new machine. For 2016-2017 models, it depends on overall machine health — we will advise during assessment.
+
+*Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience repairing Apple devices in Johannesburg.*`,
+  },
+  'macbook-liquid-damage-repair-bryanston': {
+    slug: 'macbook-liquid-damage-repair-bryanston',
+    title: `MacBook Liquid Damage Repair in Bryanston: Fast Recovery at ZA Support Hyde Park`,
+    excerpt: `Bryanston professionals who spill liquid on their MacBook need fast, expert intervention. At ZA Support in Hyde Park — ten minutes from Bryanston — we recover approximately 80% of liquid-damaged MacBo.`,
+    date: '13 April 2026',
+    category: 'Repairs',
+    readTime: '11 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Liquid Damage Repair in Bryanston: Fast Recovery at ZA Support Hyde Park
+
+Every week, at least one Bryanston resident walks into our Hyde Park workshop carrying a MacBook that has met coffee, wine, water, or — in one memorable case — an entire smoothie. The expression is always the same: part panic, part resignation, entirely uncertain about whether their machine and their data can be saved. After seventeen years of repairing liquid-damaged Apple devices, we can tell you that the answer is almost always yes — but timing matters enormously, and the decisions you make in the first hour after the spill determine whether recovery costs R1,999 or R8,000.
+
+Bryanston is one of our most active service areas for liquid damage recovery. The suburb's concentration of home offices, corporate remote workers, and families with school-age children creates a perfect environment for laptop-meets-liquid incidents. Working from the kitchen counter while the kettle boils. A child's water bottle tipping onto the desk. An after-work glass of wine next to the MacBook while catching up on emails. We have seen every scenario, and we have recovered machines from all of them.
+
+## The First Hour: What You Must Do
+
+When liquid hits your MacBook, these steps — in this order — give you the best chance of full recovery:
+
+**1. Power off immediately.** Hold the power button for five seconds until the machine shuts down. Do not try to save your work first. Do not let it go to sleep. Force it off. Every second it remains powered with liquid on the logic board increases the risk of short circuits and component damage.
+
+**2. Unplug everything.** Remove the power cable, USB devices, headphones — anything connected to the machine.
+
+**3. Invert and drain.** Open the MacBook to about 45 degrees, flip it upside down so the keyboard faces the floor, and let it drain onto a towel. This gets the bulk of the liquid away from the logic board.
+
+**4. Do not use rice.** Rice does not absorb moisture from inside a sealed MacBook chassis. What it does is introduce starch dust and rice fragments into the ports and keyboard mechanism, creating additional problems. This is not opinion — we have cleaned rice residue out of hundreds of machines and it invariably makes recovery harder.
+
+**5. Do not use a hairdryer.** Heat can drive moisture deeper into the machine and potentially damage heat-sensitive components. Let gravity and air do the work.
+
+**6. Bring it to us as quickly as possible.** Corrosion begins forming on the logic board within hours. A machine that is recoverable at 12 hours may not be recoverable at 72 hours. The corrosion products from liquid (especially sugary drinks like coffee with milk or wine) are conductive and create secondary short circuits that damage components the original spill did not reach.
+
+## Our Liquid Damage Recovery Process
+
+At our Hyde Park workshop — a ten-minute drive from Bryanston via William Nicol Drive — we follow a proven recovery process:
+
+**Disassembly and assessment**: We remove the bottom case, disconnect the battery, and assess the extent of liquid penetration. We photograph the board for your records and our diagnostic reference.
+
+**Ultrasonic cleaning**: The logic board is removed and placed in an ultrasonic cleaning bath with specialised solution. This removes all liquid residue, corrosion products, and contaminants at a molecular level. Surface wiping with isopropyl alcohol — the approach most repair shops use — only cleans what you can see. Ultrasonic cleaning reaches under BGA chips, inside connector housings, and between tightly spaced components where corrosion hides.
+
+**Drying and inspection**: After cleaning, the board is dried in a controlled environment and inspected under magnification for remaining damage. We check every component for signs of corrosion, discolouration, or physical damage.
+
+**Component-level repair**: Damaged components are identified and replaced individually. Common casualties of liquid damage include the keyboard backlight driver IC, the audio codec chip, the charging circuit IC, and various filter capacitors throughout the power delivery network. We replace only what is damaged — we do not replace the entire logic board.
+
+**Full system test**: After repair, we reassemble the machine and run comprehensive hardware diagnostics. We test every port, the keyboard, trackpad, display, speakers, microphone, camera, battery charging, and wireless connectivity. If anything fails, we investigate and repair before returning the machine.
+
+**Data verification**: For M-series MacBooks where the SSD is soldered to the logic board, we verify that all your data is intact and accessible after repair. For Intel MacBooks, data is typically unaffected regardless of board damage, but we verify anyway.
+
+## What Liquid Damage Repair Costs
+
+Pricing depends on the severity of damage:
+
+- **Assessment**: From R599 (deducted from repair if you proceed)
+- **Minor liquid damage** (caught within hours, minimal component damage): R1,999 to R3,000
+- **Moderate liquid damage** (multiple components affected, 24-48 hours exposure): R3,000 to R5,500
+- **Severe liquid damage** (extended exposure, significant corrosion, sugary liquids): R5,500 to R8,000
+- **Data recovery only** (board repaired enough to access data, not for long-term use): R2,499 to R4,000
+
+We provide a fixed written quote after assessment. If recovery is not possible — which happens in approximately 20% of cases, usually when the machine was left powered on for extended periods after the spill — you pay only the R599 assessment fee.
+
+## Why Bryanston Clients Choose Us
+
+Bryanston is served by several repair options, from the iStore at Sandton City to various small repair shops along Main Road and in Nicolway. Our differentiation is straightforward:
+
+**Component-level repair**: We fix the damaged parts, not replace the entire board. This saves 60% to 80% compared to authorised service providers.
+
+**Speed**: Assessment within 24 hours. Most liquid damage repairs completed within three to five working days. We understand that Bryanston professionals cannot be without their machines for weeks.
+
+**Transparency**: Fixed written quotes with no hidden costs. Photographs of damage shared with you during assessment. Clear explanation of what failed and what we are repairing.
+
+**Three-year warranty**: All repairs carry a three-year warranty on repaired components. If a component we replaced fails within three years, we repair it again at no cost.
+
+**Proximity**: Hyde Park is ten minutes from Bryanston. Drop off on your morning commute, collect on the way home.
+
+## Prevention for Bryanston Home Offices
+
+Given how many Bryanston clients work from home, here are practical prevention steps:
+
+- **Designated work zone**: Keep your MacBook on a desk with no drinks within arm's reach. Not the kitchen counter, not the couch.
+- **Spill-proof mugs**: Invest in a travel mug with a sealed lid for your workspace. R150 for a good mug versus R3,000 for liquid damage repair.
+- **Keyboard covers**: A silicone keyboard cover provides some protection against small spills. It will not save you from a full cup, but it buys you crucial seconds for minor splashes.
+- **Regular backups**: Time Machine to an external drive, weekly at minimum. If the worst happens, at least your data is safe regardless of what happens to the machine.
+
+## Frequently Asked Questions
+
+### How quickly should I bring my liquid-damaged MacBook in after a spill?
+
+As quickly as possible. Ideally within the first few hours. Corrosion begins forming immediately and accelerates over time. A machine brought in within 24 hours has a significantly higher recovery rate than one left for a week.
+
+### Does it matter what type of liquid was spilled?
+
+Yes. Clean water causes the least damage and has the highest recovery rate. Coffee, tea, and juice contain sugars and acids that accelerate corrosion. Wine and beer are particularly damaging due to their acidity. Saltwater is the worst — it causes rapid and aggressive corrosion.
+
+### Can you recover data from a liquid-damaged MacBook?
+
+In approximately 80% of cases, yes. For M-series MacBooks, we repair the logic board to access the data. For Intel MacBooks, we can often remove the SSD and read it directly without needing to repair the board. We will always attempt data recovery before declaring a machine unrecoverable.
+
+### Will my Apple warranty cover liquid damage?
+
+No. Apple does not cover liquid damage under standard warranty or AppleCare+. AppleCare+ does cover accidental damage, but with a service fee of R2,700 to R4,500 depending on the device. Our component-level repair is often comparable or less expensive than the AppleCare+ service fee, with a longer warranty.
+
+### How can I tell if my MacBook has internal liquid damage?
+
+Check the liquid contact indicators inside the USB-C ports. These are small white strips that turn red or pink when exposed to liquid. You can see them by shining a light into the port. However, absence of indicator activation does not mean absence of damage — liquid can reach the logic board through the keyboard without triggering port indicators.
+
+### Is it safe to turn on my MacBook to check if it still works after a spill?
+
+No. This is the single most common mistake we see. A machine may appear to work fine for minutes or hours after a spill while corrosion is actively spreading inside. Powering on a wet logic board creates electrical paths through the liquid that accelerate damage. Wait for professional assessment.
+
+*Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience repairing Apple devices in Johannesburg.*`,
+  },
+  'managed-it-medical-practice-morningside-johannesburg': {
+    slug: 'managed-it-medical-practice-morningside-johannesburg',
+    title: `Managed IT for Medical Practices in Morningside Johannesburg: POPIA, HPCSA, and Apple Device Management`,
+    excerpt: `Morningside medical practices handle sensitive patient data daily. Without a written IT provider agreement, your practice faces a compliance gap that the Information Regulator will ask about. ZA Suppo.`,
+    date: '13 April 2026',
+    category: 'Enterprise',
+    readTime: '12 min read',
+    author: 'courtney-bentley',
+    content: `# Managed IT for Medical Practices in Morningside Johannesburg: POPIA, HPCSA, and Apple Device Management
+
+Morningside is home to one of Johannesburg's densest concentrations of medical practitioners. Specialists, general practitioners, physiotherapists, and dental practices line Rivonia Road and the surrounding streets, each handling sensitive patient data across multiple devices every day. In our experience working with Morningside medical practices since 2015, the consistent finding is this: most practices have IT support, but very few have a documented IT provider agreement that would satisfy the Information Regulator during a POPIA assessment or data breach investigation.
+
+This is not a theoretical risk. The Information Regulator has been actively investigating data breaches in the healthcare sector since POPIA's enforcement date. When they arrive at your practice, one of the first documents they request is your written agreement with your IT service provider — the entity that has access to your systems, your patient data, and your network infrastructure. If that agreement does not exist, your practice has a compliance gap that no amount of technical security can compensate for.
+
+## The Difference Between a Microsoft DPA and a POPIA Section 21 Agreement
+
+Many practices believe their Microsoft 365 Data Processing Agreement covers their IT compliance obligations. It does not. The Microsoft DPA is a global document between Microsoft and their tenant. It addresses how Microsoft handles data within their cloud infrastructure. It does not address:
+
+- How your IT provider accesses your local network
+- What security configurations your IT provider maintains on your devices
+- How your IT provider handles data during repairs or support sessions
+- What monitoring your IT provider performs for data breach detection
+- How your IT provider responds to and reports security incidents
+- What happens to patient data when a device is decommissioned
+
+These are practice-specific obligations that require a written agreement between your practice and your IT provider — not between your practice and Microsoft. The Microsoft licence gives you tools. A managed IT provider configures, monitors, and ensures compliance with those tools. The written IT provider agreement is what the Regulator asks for.
+
+## What HPCSA Practitioners Need to Understand
+
+As an HPCSA-registered practitioner, you have a personal regulatory obligation regarding patient data. This is not delegated to your practice manager or your IT provider — it sits with you. The HPCSA Ethical Rules and the Health Professions Act require that you take reasonable steps to protect patient confidentiality, and in 2026, that means digital data protection, not just physical file security.
+
+When your MacBook containing patient notes is stolen from your car in Morningside, the Information Regulator will ask: Was FileVault encryption enabled? Was the device managed through an MDM solution? Was there a written IT provider agreement documenting these security measures? Was there an incident response plan?
+
+If the answer to any of these questions is no, you are personally liable. Not your practice. Not your IT person. You.
+
+## Our Managed IT Service for Morningside Medical Practices
+
+At ZA Support, we provide a managed IT service specifically designed for medical practices in the Morningside area and across Gauteng. This is not generic IT support — it is a compliance-focused service built around the specific regulatory requirements that HPCSA practitioners face.
+
+**Written IT Provider Agreement**
+The foundation of our service is a formal written agreement that satisfies POPIA Section 21 requirements. This document specifies exactly how we handle your data, what security measures we maintain, how we respond to incidents, and what our obligations are regarding confidentiality. This is the document the Information Regulator will request during any assessment.
+
+**JAMF MDM Deployment**
+We deploy JAMF Pro for Apple device management across your practice. This gives you centralised control over every Mac, iPhone, and iPad in your practice — enforcing encryption, managing application deployment, configuring security policies, and enabling remote wipe capability if a device is lost or stolen.
+
+**FileVault Encryption Verification**
+Every Mac in your practice must have FileVault enabled. We verify this during onboarding and monitor it continuously through JAMF. If FileVault is disabled on any device — accidentally or intentionally — we are alerted immediately and can remediate remotely.
+
+**Backup Monitoring and Verification**
+We do not just set up Time Machine and forget about it. We monitor backup completion, verify backup integrity monthly, and ensure that at least one backup set is stored off-site (encrypted, in compliance with POPIA). A backup that exists but has not been verified is not a backup — it is a hope.
+
+**Network Security Assessment**
+We assess your practice's network infrastructure: Wi-Fi security (WPA3 enforcement), network segmentation between patient-facing and staff networks, firewall configuration, and IoT device isolation. Many Morningside practices share a network between patient iPads in the waiting room and the practice management system — this is a compliance risk.
+
+**Incident Response Planning**
+We create and maintain an incident response plan tailored to your practice. This covers data breach notification (you have 72 hours under POPIA), device theft procedures, ransomware response, and communication templates for patients and regulators. When an incident occurs, you will know exactly what to do and in what order.
+
+**Ongoing Support and Maintenance**
+Hardware and software support for all Apple devices in your practice. Priority response for medical practices — we understand that system downtime in a medical environment has different consequences than in a corporate office.
+
+## Pricing for Morningside Medical Practices
+
+Our managed IT service is priced per device per month, with the IT provider agreement and compliance documentation included:
+
+- **Solo practice** (1-3 devices): Custom pricing based on scope
+- **Small practice** (4-8 devices): Custom pricing based on scope
+- **Medium practice** (9-20 devices): Custom pricing based on scope
+- **Assessment and onboarding**: From R599 per device for initial security audit
+
+We provide a detailed proposal after an initial assessment of your practice's infrastructure, devices, and compliance requirements. Every practice is different, and we do not believe in one-size-fits-all pricing for compliance-sensitive environments.
+
+## Why Morningside Practices Need This Now
+
+The Information Regulator's enforcement activity is increasing. In 2025, several healthcare providers received enforcement notices for inadequate data protection measures. The Regulator has stated publicly that healthcare is a priority sector for compliance audits due to the sensitivity of patient data.
+
+Approaching compliance from a position of documented corrective action — implementing proper IT governance, signing an IT provider agreement, deploying MDM, verifying encryption — is significantly better than responding reactively after a breach. The Regulator views proactive compliance favourably. Reactive compliance after a breach invites scrutiny.
+
+For Morningside practices specifically, the concentration of medical professionals in the suburb means that a single breach incident could prompt the Regulator to audit multiple practices in the area. Being prepared is not paranoia — it is professional responsibility.
+
+## Hardware Repair for Medical Practice Devices
+
+In addition to managed IT, we provide the same component-level repair service to Morningside medical practices that we offer to all clients:
+
+- **Logic board repair**: From R4,499 (vs R15,000-R45,000 at Apple)
+- **Liquid damage recovery**: From R1,999
+- **Screen replacement**: From R2,499
+- **Battery replacement**: From R1,299
+- **Data recovery**: From R1,200
+
+Medical practices receive priority scheduling for hardware repairs. We understand that a failed iMac running your practice management system is not the same as a personal machine — it is a business-critical asset that affects patient care.
+
+## Getting Started
+
+The process is straightforward:
+
+1. **Initial consultation**: We visit your Morningside practice to assess your current infrastructure, devices, and compliance posture. No charge for the initial consultation.
+2. **Proposal**: We provide a detailed written proposal covering managed IT scope, pricing, and timeline.
+3. **Onboarding**: Once approved, we deploy MDM, configure security policies, sign the IT provider agreement, and bring your practice into compliance. Typical onboarding: two to five working days depending on practice size.
+4. **Ongoing management**: Monthly monitoring, maintenance, and support. Quarterly compliance review meetings.
+
+## Frequently Asked Questions
+
+### Do I really need a written IT provider agreement for my medical practice?
+
+Yes. POPIA Section 21 requires a written agreement between the responsible party (your practice) and any operator (your IT provider) that processes personal information on your behalf. The Information Regulator will request this document during any assessment or breach investigation.
+
+### What is the difference between generic IT support and managed IT for medical practices?
+
+Generic IT support fixes things when they break. Managed IT for medical practices includes proactive compliance monitoring, POPIA documentation, HPCSA-aware security configurations, and incident response planning. The regulatory context is fundamentally different from corporate IT support.
+
+### Can ZA Support manage non-Apple devices in my practice?
+
+Our primary expertise is Apple devices. For practices with mixed environments (Apple and Windows), we manage the Apple devices and can recommend trusted partners for Windows infrastructure. We do not pretend to be experts in everything — we are experts in Apple.
+
+### How quickly can you respond to a hardware failure at my practice?
+
+Medical practices receive priority scheduling. For critical failures (practice management system down, data access issues), we aim for same-day assessment. Standard hardware repairs are scheduled within one working day of contact.
+
+### What happens if there is a data breach at my practice?
+
+Our incident response plan covers the immediate technical response (containment, evidence preservation), regulatory notification (Information Regulator within 72 hours), patient notification, and post-incident remediation. Having this plan documented before an incident occurs is essential.
+
+### Is JAMF MDM necessary for a small practice with only two or three devices?
+
+Even for small practices, MDM provides enforcement of encryption, remote wipe capability, and centralised management that manual approaches cannot match. The cost is modest relative to the compliance benefit and the protection it provides if a device is lost or stolen.
+
+*Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience supporting medical practices across Johannesburg.*`,
+  },
 };
 
 export async function generateStaticParams() {
