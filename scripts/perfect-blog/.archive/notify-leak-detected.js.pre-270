@@ -20,24 +20,13 @@ const FROM_ADDRESS = 'admin@zasupport.com'
  */
 async function getAccessToken() {
   const refreshToken = process.env.MS_GRAPH_REFRESH_TOKEN
+  if (!refreshToken) {
+    throw new Error('MS_GRAPH_REFRESH_TOKEN not set in environment. Check ~/.za-keys-pending.env')
+  }
+
   const tenantId = process.env.MS_GRAPH_TENANT_ID
   const clientId = process.env.MS_GRAPH_CLIENT_ID
   const clientSecret = process.env.MS_GRAPH_CLIENT_SECRET
-
-  // Validate all credentials are present with a clear error message
-  const missing = []
-  if (!tenantId) missing.push('MS_GRAPH_TENANT_ID')
-  if (!clientId) missing.push('MS_GRAPH_CLIENT_ID')
-  if (!clientSecret) missing.push('MS_GRAPH_CLIENT_SECRET')
-  if (!refreshToken) missing.push('MS_GRAPH_REFRESH_TOKEN')
-
-  if (missing.length > 0) {
-    throw new Error(
-      `MS Graph credentials missing: ${missing.join(', ')}. ` +
-      `Run 'bash scripts/bootstrap-ms-graph.sh' to activate, ` +
-      `or source ~/.za-keys/active.env in your shell.`
-    )
-  }
 
   const params = new URLSearchParams({
     client_id: clientId,
