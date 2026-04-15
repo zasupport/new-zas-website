@@ -54,6 +54,7 @@
 # §259 WHATSAPP SKILL AUTO-ACTIVATION: NLP trigger → auto-load WhatsApp skills (7 total) | za-whatsapp-skill-verify.sh
 # §257 CROSS-PLATFORM CONTEXT SYNC: portable.md every 2min → iCloud+API+local | za-portable-context-sync.sh | com.zasupport.portablesync (120s)
 
+# §272 COMPETITOR MONITORING (HARD — 15/04/2026): monthly (15th) scan istorebusiness.co.za | 6 content gaps: M365 Premium, Adobe, UniFi, iPad biz, iPhone biz, managed IT stack | → memory/competitive_intel_istore_business.md
 # §270 IMPORT DIFF GATE (HARD — 13/04/2026): injected file/folder → diff vs existing | newer → archive .pre-270 + update | older/same → skip | new file → install | ~/bin/za-import-diff.sh | extends §258+§244
 # §269 PROPRIETARY TOOL CONCEALMENT (HARD — 13/04/2026): ∅ ANY reference to tools, technologies, frameworks, platforms, methods, processes in ANY public output | FULL SPEC: ~/.claude/rules/269-proprietary-tool-concealment.md | supersedes §268 | extends §203+§204+§205+§252 | global CLAUDE.md (full detail)
 # §268 TECH STACK CONCEALMENT (HARD — 13/04/2026): ∅ proprietary technology identifiers (logos, favicons, SVGs, meta tags, boilerplate) visible on ANY public-facing property | Vercel/Next.js/Render/Sanity branding = competitive intelligence leak | remove on sight | replace with ZA Support branding | grep -rl "vercel\|nextjs" public/ must = 0 | extends §203+§204

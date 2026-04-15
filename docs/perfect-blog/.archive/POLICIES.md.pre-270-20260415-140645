@@ -349,28 +349,8 @@ Internal evaluation labels, prompt scaffolding, meta-commentary, and authoring m
 ### Why this matters
 These labels expose ZA Support's proprietary content development workflow. A competitor reading them can reverse-engineer the entire content evaluation framework.
 
-### The original incident (13 April 2026)
-
-A live blog page at zasupport.com was found rendering this text as visible body content:
-
-> [x] E-E-A-T signals: "In our Hyde Park workshop", specific component names (Thermal Grizzly Kryonaut, 52.6Wh battery), exact procedures, genuine opinion ("60-70% of cases"), no hype
->
-> **LEARNED:** M3 Air thermal architecture requires non-generic approach; geographic context (load shedding, ambient temperature patterns by suburb) improves authenticity and relevance.
->
-> **BETTER:** Integrated real-world Johannesburg environmental factors rather than generic repair guidance. This differentiates from national competitors.
->
-> **WHY SUCCESS:** Grounded in actual workshop patterns, specific model thermal design, compliance with all hard rules.
->
-> **REPLICATE:** Always anchor technical content to specific geographic environment, integrate verified service area limits early, include real warranty terms and pricing, validate JSON-LD syntax.
-
-This is internal Claude evaluation scaffolding. A competitor reading it could reverse-engineer the entire content evaluation framework. The auto-repair system would rewrite it as:
-
-> M3 MacBook Air thermal management is unlike any previous Apple Silicon design. The fanless chassis means the entire aluminium body acts as the heatsink, and Johannesburg's load shedding cycles create thermal stress patterns we don't see in Cape Town or Durban units. In our Hyde Park workshop, we apply Thermal Grizzly Kryonaut to the SoC during repaste work - it's the only compound we've tested that holds up under our local ambient temperature swings without pump-out after 18 months. The 52.6Wh battery in the M3 Air is sensitive to these thermal cycles too, which is why we always check both together rather than treating them as separate repairs.
-
-The factual claims survive. The internal scaffolding is gone. The voice matches the rest of the site.
-
 ### Implementation
-- `config/banned-content-patterns.js` — 7 tiers of patterns (+ `<s>` tag added to banned list)
+- `config/banned-content-patterns.js` — 7 tiers of patterns
 - `sanity/leak-auto-fixer.ts` — strips on save
 - `scripts/scan-blog-leaks.js` — catches on production
 - `scripts/learning-loop.js` — generalises new variants permanently

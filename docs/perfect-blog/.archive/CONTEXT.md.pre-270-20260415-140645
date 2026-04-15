@@ -116,11 +116,11 @@ Google's March 2026 spam update completed on 25 March 2026 — right in the midd
 
 ### Business
 - **Legal entity:** Vizibiliti Intelligent Solutions (Pty) Ltd
-- **Trading names:** ZA Support, Apple Experts, Mac Apple Experts, IT Specialist, Medical IT Specialist
-- **Founded:** 2009 (17 years operating — domain age is a trust signal)
+- **Trading name:** ZA Support (also "ZA Support Apple Experts")
+- **Founded:** 2009
 - **Address:** 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196
 - **Phone:** 064 529 5863 (also WhatsApp)
-- **Email:** admin@zasupport.com (reaches Courtney + Mary), courtney@zasupport.com
+- **Email:** admin@zasupport.com
 - **Hours:** Mon–Fri 08:00–17:30, closed Sat/Sun
 - **BEE:** Level 1
 - **Apple status:** Authorised Apple Reseller, Apple Developer Program member
@@ -252,7 +252,7 @@ Google's March 2026 spam update completed on 25 March 2026 — right in the midd
 
 ### Mary Blount (secondary author)
 - **Slug:** mary-blount
-- **Role:** Client Relations & Apple Support Specialist (also runs diagnostics)
+- **Role:** Client Relations & Apple Support Specialist
 - **Specialisations:** macOS troubleshooting, data recovery workflows, POPIA-compliant device handling
 - **Photos available (uploaded):**
   - mary-blount-portrait.png — formal portrait
@@ -452,8 +452,7 @@ JAMF deployment, fleet management, Apple Business Manager, MDM policies, SLAs, e
 - Self-healing code preferred — anticipate, detect, fix, verify
 - iFixit images: internal use only, never in commercial products
 - No hiring suggestions — automate instead of hiring people
-- Design tasks: ask whether to brief Qaasim before iterating in chat (after ~7 prompts of iteration, stop and ask)
-- Qaasim handles ALL visual/branding: vehicle branding, graphics, layouts, posters, marketing visuals, logos, signage
+- Design tasks: ask whether to brief Qaasim before iterating in chat
 
 ### Decisions made in this project
 1. **Author byline mandatory** — every post must have Courtney or Mary as named author
