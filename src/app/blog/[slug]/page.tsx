@@ -17608,7 +17608,7 @@ This is rare, but it happens if a second issue was hidden (e.g., SSD was failing
 ✓ WhatsApp CTA: 064 529 5863 ✓ | Booking: zasupport.com/book ✓  
 ✓ UK English: colour → colour ✓, optimise ✓, recognised ✓  
 ✓ E-E-A-T signals: first-person ("We've seen", "In our Hyde Park workshop"), technical specifics (SSD SMART data, thermal throttling, microsoldering), SA context (ZAR, load shedding, Johannesburg suburbs), genuine opinion, varied rhythm  
-✓ No banned phrases: "free assessment" ✗ (replaced with "from R599 assessment")  
+✓ No banned phrases: "Assessment from R599" ✗ (replaced with "from R599 assessment")  
 ✓ No hype: "game-changer" appears once (contextual, acceptable); no "free", "amazing", "revolutionary"  
 ✓ Markdown formatting: clean, no --- dividers, code block JSON only  
 
