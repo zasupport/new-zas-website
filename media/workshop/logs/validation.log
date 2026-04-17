@@ -37843,3 +37843,4 @@ d95a26e20e59743869e529bb05763f5133a40364
 [16/04/2026 16:39:37 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
 [16/04/2026 16:39:37 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
 [16/04/2026 16:39:37 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[16/04/2026 23:09:20] §248 learning captured: 2P/00F | brief: learning-20260416.json
