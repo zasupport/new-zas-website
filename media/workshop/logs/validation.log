@@ -37844,3 +37844,827 @@ d95a26e20e59743869e529bb05763f5133a40364
 [16/04/2026 16:39:37 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
 [16/04/2026 16:39:37 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
 [16/04/2026 23:09:20] §248 learning captured: 2P/00F | brief: learning-20260416.json
+[17/04/2026 03:59:10 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 03:59:23] §241-VERIFY: FAIL zasupport.com = 000
+[2026-04-17 03:59:23] §241-VERIFY: FAIL api.zasupport.com/health = 000
+[2026-04-17 03:59:23] §241-VERIFY: LaunchAgents = 78 loaded (OK)
+[2026-04-17 03:59:23] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 03:59:23] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 03:59:23] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 03:59:23] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 03:59:23] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 03:59:23] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 03:59:23] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 03:59:23] §241-VERIFY: RESULT 8/10 passed | 2 failures
+[2026-04-17 03:59:23] §241-VERIFY: 2 failures — retrying in 10 minutes
+[17/04/2026 03:59:30 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 03:59:55 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 03:59:55 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 03:59:55 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 03:59:55 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 03:59:55 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 03:59:55 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 03:59:55 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[17/04/2026 10:29:22] §248 learning captured: 2P/00F | brief: learning-20260417.json
+[17/04/2026 13:34:09 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 13:34:31 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 14:05:18 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 14:05:18 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 14:05:18 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 14:05:18 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 14:05:18 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 14:05:18 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 14:05:18 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 14:06:13] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:07:14] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:08:15] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:09:48] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 14:09:48] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 14:09:48] §241-VERIFY: LaunchAgents = 78 loaded (OK)
+[2026-04-17 14:09:48] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 14:09:48] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 14:09:48] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 14:09:48] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 14:09:48] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 14:09:48] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 14:09:48] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 14:09:48] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 14:09:51] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 14:11:25] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:12:35] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 14:12:36 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 14:13:04 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 14:14:50 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 14:14:50 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 14:14:50 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 14:14:50 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 14:14:50 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 14:14:50 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 14:14:50 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 14:14:53] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:32:34] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:34:00] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:49:28] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:50:30] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 14:51:10 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 14:51:24 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[2026-04-17 14:51:31] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 14:51:33 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 14:51:33 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 14:51:33 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 14:51:33 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 14:51:33 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 14:51:33 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 14:51:33 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 14:52:32] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:53:33] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:53:58] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 14:53:58] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 14:53:58] §241-VERIFY: LaunchAgents = 78 loaded (OK)
+[2026-04-17 14:53:58] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 14:53:58] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 14:53:58] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 14:53:58] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 14:53:58] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 14:53:58] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 14:53:58] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 14:53:58] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 14:53:59] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 14:54:34] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:55:35] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 14:56:33 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 14:56:36] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 14:56:44 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 14:56:53 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 14:56:53 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 14:56:53 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 14:56:53 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 14:56:53 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 14:56:53 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 14:56:53 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 14:57:37] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:58:38] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 14:59:39] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:00:40] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:01:41] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:01:53 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:02:04 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:02:13 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:02:13 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:02:13 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:02:13 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:02:13 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:02:13 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:02:13 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:02:42] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:03:42] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:03:59] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 15:03:59] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 15:03:59] §241-VERIFY: LaunchAgents = 78 loaded (OK)
+[2026-04-17 15:03:59] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 15:03:59] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 15:03:59] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 15:03:59] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 15:03:59] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 15:03:59] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 15:03:59] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 15:03:59] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 15:04:00] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 15:04:43] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:05:45] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:06:46] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:07:13 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:07:23 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:07:33 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:07:33 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:07:33 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:07:33 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:07:33 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:07:33 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:07:33 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:07:46] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:08:47] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:09:48] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:10:49] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:11:50] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:12:33 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:12:44 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[2026-04-17 15:12:51] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:12:53 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:12:53 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:12:53 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:12:53 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:12:53 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:12:53 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:12:53 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:13:52] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:14:00] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 15:14:00] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 15:14:00] §241-VERIFY: LaunchAgents = 78 loaded (OK)
+[2026-04-17 15:14:00] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 15:14:00] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 15:14:00] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 15:14:00] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 15:14:00] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 15:14:00] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 15:14:00] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 15:14:00] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 15:14:01] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 15:14:53] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:15:54] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:16:55] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:17:53 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 15:17:56] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:18:03 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:18:13 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:18:13 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:18:13 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:18:13 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:18:13 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:18:13 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:18:13 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:18:57] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:19:58] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:20:59] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:22:00] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:23:01] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:23:13 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:23:23 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:23:33 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:23:33 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:23:33 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:23:33 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:23:33 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:23:33 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:23:33 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:24:01] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 15:24:01] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 15:24:01] §241-VERIFY: LaunchAgents = 78 loaded (OK)
+[2026-04-17 15:24:01] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 15:24:01] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 15:24:01] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 15:24:01] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 15:24:01] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 15:24:01] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 15:24:01] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 15:24:01] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 15:24:02] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 15:24:02] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:25:03] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:26:04] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:27:05] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:28:06] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:28:33 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:28:44 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:28:53 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:28:53 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:28:53 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:28:53 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:28:53 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:28:53 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:28:53 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:29:07] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:30:08] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:31:09] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:32:09] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:33:10] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:33:29] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 15:33:30] WATCHER: File watcher started
+[17/04/2026 15:33:30 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 15:33:31] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:33:29] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 15:33:29] §241-VERIFY: LaunchAgents = 80 loaded (OK)
+[2026-04-17 15:33:29] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 15:33:29] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 15:33:29] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 15:33:29] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 15:33:29] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 15:33:29] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 15:33:29] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 15:33:29] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 15:33:31] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[17/04/2026 15:33:41 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:33:50 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:33:50 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:33:50 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:33:50 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:33:50 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:33:50 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:33:50 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:34:32] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:35:33] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:36:34] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:37:35] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:38:36] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:38:50 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:39:01 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:39:10 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:39:10 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:39:10 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:39:10 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:39:10 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:39:10 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:39:10 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:39:36] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:40:37] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:41:38] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:42:39] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:43:31] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 15:43:31] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 15:43:31] §241-VERIFY: LaunchAgents = 80 loaded (OK)
+[2026-04-17 15:43:31] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 15:43:31] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 15:43:31] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 15:43:31] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 15:43:31] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 15:43:31] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 15:43:31] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 15:43:31] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 15:43:32] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 15:43:40] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:44:10 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:44:20 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:44:29 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:44:29 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:44:29 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:44:29 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:44:29 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:44:29 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:44:29 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:44:41] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:45:42] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:46:43] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:47:44] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:48:31] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 15:48:32] WATCHER: File watcher started
+[17/04/2026 15:48:32 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 15:48:33] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:48:31] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 15:48:31] §241-VERIFY: LaunchAgents = 80 loaded (OK)
+[2026-04-17 15:48:31] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 15:48:31] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 15:48:31] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 15:48:31] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 15:48:31] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 15:48:31] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 15:48:31] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 15:48:31] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 15:48:33] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[17/04/2026 15:48:42 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:48:51 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:48:51 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:48:51 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:48:51 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:48:51 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:48:51 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:48:51 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:49:33] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:50:34] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:51:35] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:52:36] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:53:37] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:53:51 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:54:01 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:54:10 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:54:10 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:54:10 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:54:10 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:54:10 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:54:10 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:54:10 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:54:38] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:55:40] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:56:41] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:57:42] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 15:58:33] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 15:58:33] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 15:58:33] §241-VERIFY: LaunchAgents = 80 loaded (OK)
+[2026-04-17 15:58:33] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 15:58:33] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 15:58:33] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 15:58:33] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 15:58:33] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 15:58:33] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 15:58:33] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 15:58:33] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 15:58:35] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 15:58:43] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 15:59:10 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 15:59:20 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 15:59:30 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 15:59:30 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 15:59:30 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 15:59:30 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 15:59:30 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 15:59:30 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 15:59:30 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 15:59:44] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:00:45] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:01:45] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:02:46] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:03:33] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 16:03:33] WATCHER: File watcher started
+[17/04/2026 16:03:33 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 16:03:34] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:03:33] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 16:03:33] §241-VERIFY: LaunchAgents = 79 loaded (OK)
+[2026-04-17 16:03:33] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 16:03:33] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 16:03:33] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 16:03:33] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 16:03:33] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 16:03:33] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 16:03:33] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 16:03:33] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 16:03:34] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[17/04/2026 16:03:44 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 16:03:53 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 16:03:53 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 16:03:53 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 16:03:53 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 16:03:53 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 16:03:53 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 16:03:53 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 16:04:35] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:05:36] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:06:37] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:07:38] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:08:39] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 16:08:53 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 16:09:03 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 16:09:11 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 16:09:11 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 16:09:11 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 16:09:11 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 16:09:11 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 16:09:11 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 16:09:11 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 16:09:40] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:10:41] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:11:41] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:12:42] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:13:34] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 16:13:34] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 16:13:34] §241-VERIFY: LaunchAgents = 80 loaded (OK)
+[2026-04-17 16:13:34] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 16:13:34] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 16:13:34] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 16:13:34] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 16:13:34] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 16:13:34] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 16:13:34] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 16:13:34] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 16:13:36] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 16:13:43] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 16:14:12 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 16:14:21 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 16:14:30 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 16:14:30 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 16:14:30 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 16:14:30 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 16:14:30 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 16:14:30 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 16:14:30 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 16:14:44] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:15:45] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:16:46] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:17:47] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:18:34] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 16:18:34] WATCHER: File watcher started
+[2026-04-17 16:18:34] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 16:18:34] §241-VERIFY: LaunchAgents = 79 loaded (OK)
+[2026-04-17 16:18:34] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 16:18:34] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 16:18:34] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 16:18:34] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 16:18:34] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 16:18:34] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 16:18:34] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 16:18:34] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 16:18:35] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[17/04/2026 16:18:35 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 16:18:35] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 16:18:44 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 16:18:54 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 16:18:54 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 16:18:54 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 16:18:54 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 16:18:54 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 16:18:54 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 16:18:54 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 16:19:36] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:20:37] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:21:38] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:22:39] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:29:19] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 16:29:28 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[17/04/2026 16:29:56 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 16:32:12 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 16:32:12 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 16:32:12 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 16:32:12 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 16:32:12 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 16:32:12 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 16:32:12 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 16:32:14] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:47:44] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 16:50:41] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 17:15:44] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 17:16:30] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-17 17:16:30] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-17 17:16:30] §241-VERIFY: LaunchAgents = 80 loaded (OK)
+[2026-04-17 17:16:30] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-17 17:16:30] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-17 17:16:30] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-17 17:16:30] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-17 17:16:30] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-17 17:16:30] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-17 17:16:30] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-17 17:16:30] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-17 17:16:31] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[2026-04-17 17:16:46] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 17:41:19 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-17 17:41:28] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[17/04/2026 17:43:11 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[17/04/2026 17:43:34 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[17/04/2026 17:43:34 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[17/04/2026 17:43:34 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[17/04/2026 17:43:34 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[17/04/2026 17:43:34 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[17/04/2026 17:43:34 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[17/04/2026 17:43:34 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-17 17:54:19] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+[2026-04-17 17:58:26] §245-GSC: TOKEN ERROR: 400 {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
