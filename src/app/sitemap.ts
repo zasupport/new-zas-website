@@ -478,5 +478,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/mac-virus-removal-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/medical-emr-mac-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/second-hand-mac-check-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/carepoint-macbook-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

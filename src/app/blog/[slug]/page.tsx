@@ -22365,6 +22365,193 @@ It's risky. You can't inspect a machine remotely, and sellers' descriptions are 
 
 **REPLICATE:** For future assessment/pre-purchase content: (1) lead with decision-gate uncertainty (2) detail exact process/checklist (3) name real problems found in local climate/usage patterns (4) anchor all services at R-pricing (5) include warranty/guarantee terms (6) embed service booking path 3+ times (7) FAQPage for long-tail question clustering.`,
   },
+  'carepoint-macbook-support-johannesburg': {
+    slug: 'carepoint-macbook-support-johannesburg',
+    title: `MacBook Support in Johannesburg: Genuine Repairs at ZA Support Hyde Park`,
+    excerpt: `When your MacBook stops working, the panic sets in. You're dependent on that machine—for work, for creative projects, for staying connected. We understand this pressure completely. At ZA Support in Hy.`,
+    date: '15 April 2026',
+    category: 'Repairs',
+    readTime: '10 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Support in Johannesburg: Genuine Repairs at ZA Support Hyde Park
+
+When your MacBook stops working, the panic sets in. You're dependent on that machine—for work, for creative projects, for staying connected. We understand this pressure completely. At ZA Support in Hyde Park, we've been repairing MacBooks for Johannesburg professionals and students for years now, and we've developed a straightforward approach: diagnose accurately, repair thoroughly, and get you back to productivity without the corporate runaround.
+
+This guide walks through what MacBook problems we see most often, how we solve them, and what sets our workshop apart from the generic repair chains you'll find elsewhere in Sandton or Rosebank.
+
+## Why MacBook Repairs Matter More Than You Think
+
+MacBooks aren't just laptops. They're integrated into your workflow—your files, your preferences, your muscle memory. When something breaks, you lose productivity immediately. We've watched clients miss deadlines, lose income, and stress unnecessarily because they chose the wrong repair partner.
+
+The stakes are genuine. A logic board failure on a MacBook Air M1 isn't a simple parts swap. A cracked screen on a 14-inch MacBook Pro affects your entire workflow. Water damage from a coffee spill can cascade through multiple systems if not addressed within hours. We've seen all of these scenarios in our Hyde Park workshop, and we've learned exactly how to handle them.
+
+What matters in Johannesburg's climate is also different. Load shedding affects how we manage power diagnostics. The highveld's dust infiltration creates specific cooling system issues we account for. Summer humidity in suburbs like Bryanston and Fourways means corrosion patterns we anticipate. Generic support chains don't factor these realities into their approach.
+
+## Our Assessment Process: From R599 Upwards
+
+We start with honesty. When you bring a MacBook to our Hyde Park workshop, we perform a comprehensive diagnostic assessment from R599. This isn't a cursory look—we're running hardware diagnostics, checking thermal performance, testing battery cycles, and examining any visible damage.
+
+Most repair shops skip this step or hide the real cost. We don't. The R599 assessment covers:
+
+- Full hardware diagnostics using Apple's diagnostic tools and third-party analysers
+- Thermal imaging to identify cooling failures
+- Battery health reporting
+- Storage integrity checks
+- Logic board inspection
+
+If you proceed with repair, we credit the R599 toward your final invoice. If we identify a problem beyond economical repair, we tell you that directly. No pressure, no hidden fees later.
+
+The reason we start at R599 rather than offering "free diagnostics" is simple: we've learned that assessments people pay for are taken seriously. When someone invests that small amount upfront, they're committed to making an informed decision. Clients appreciate this clarity.
+
+From this assessment, we give you a fixed quote. Common repairs we handle regularly:
+
+**Logic board repairs** (ranging from R1,200 to R4,500 depending on failure type) are the most complex work we do. Whether it's a GPU failure on an Intel-era MacBook Pro or a storage controller issue on an M1 model, we have the micro-soldering capability in-house. See our [full logic board repair guide](/logic-board-repair).
+
+**Liquid damage recovery** starts with immediate assessment. Water ingress, coffee spills, even tea damage—we've handled them all in suburbs from Midrand to Centurion. The faster you get the machine to us, the better our recovery odds. Read more about [our liquid damage process](/liquid-damage).
+
+**Screen replacements** range from R1,800 for older 13-inch models to R3,200 for the latest 16-inch MacBook Pro displays.
+
+**Battery replacement** is straightforward at R800–R1,200 depending on model.
+
+## Why Johannesburg Clients Choose ZA Support Over Competitors
+
+The MacBook repair market in Johannesburg is fragmented. You've got big-box retailers who prioritise volume, authorised Apple service providers who charge premium rates, and independent shops of wildly varying quality. We sit deliberately in the middle: skilled enough to handle complex work, transparent enough to earn trust, local enough to understand Johannesburg's specific challenges.
+
+Our competitive advantage isn't marketing. It's workshop reality:
+
+**We keep parts in stock.** When you need a keyboard replacement for a MacBook Air 2018, we likely have it here. You're not waiting two weeks for parts to arrive from Cape Town. This matters for clients in Morningside or Bryanston who can't be without their machines.
+
+**We warranty our work properly.** Every repair comes with a minimum two-year warranty, extendable to three years on major work. This is backed by our **No Fix No Fee guarantee**—if we complete a repair and the same issue recurs within the warranty period, we fix it at no charge. We don't charge assessment fees twice. Clients find this genuinely reassuring because we're clearly confident in our work.
+
+**We understand local context.** Load shedding affects how we test power delivery systems. We account for it. Johannesburg's water quality (especially in areas like Fourways with older infrastructure) creates specific corrosion patterns we're trained to identify and prevent. When we repair a MacBook for someone who works in Centurion or Pretoria, we're not just fixing the machine—we're preparing it for the environment it lives in.
+
+## What Makes Our Technical Approach Different
+
+In our Hyde Park workshop, every repair follows this protocol:
+
+**Diagnosis is separate from repair.** You pay for honest assessment first. We tell you exactly what's wrong, what fixing it costs, what timeline you're looking at, and what warranty you receive. No surprises.
+
+**We use genuine or high-quality equivalent components.** MacBook parts aren't created equal. A cheap battery replacement creates problems down the line. We source screens, batteries, keyboards, and logic board components from verified suppliers. On logic board work specifically, we use OEM-equivalent micro-components, not salvage parts.
+
+**We test under realistic conditions.** It's not enough to power on a MacBook and call it fixed. We run Geekbench tests, monitor thermals under load, test battery charging cycles, verify storage speeds, and run real applications. Only when performance matches Apple's specifications do you get your machine back.
+
+**We document everything.** You receive a detailed report after every repair. What we found, what we replaced, test results, and warranty terms. This documentation matters if you ever need the work verified or explained to someone else.
+
+## The Warranty and Support You Actually Need
+
+Here's what you get when you repair with us:
+
+- **Two-year standard warranty** on all parts and labour
+- **Three-year warranty** on major repairs (logic boards, screens, main components)
+- **No Fix No Fee guarantee** on the same issue within warranty
+- **Free follow-up assessment** if anything feels wrong post-repair
+- **Honest advice** on whether a repair is genuinely cost-effective versus replacement
+
+You can reach us via WhatsApp on 064 529 5863 to describe your issue before bringing the machine in. This often helps us prepare for the assessment and set realistic expectations.
+
+To book an assessment appointment at our Hyde Park location (serving clients across Johannesburg, Sandton, Rosebank, Bryanston, Fourways, and surrounding suburbs), visit [zasupport.com/book](https://zasupport.com/book).
+
+## Getting Your MacBook Back to Work
+
+The journey from "my MacBook won't start" to "my MacBook is back to normal" takes clarity, expertise, and genuine care. At ZA Support, we've built our reputation on exactly this—clients know they'll get an honest assessment, skilled repair, and genuine support.
+
+If your MacBook is struggling, contact us today. From R599 assessment, we'll tell you what's actually wrong and what it costs to fix.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does a typical MacBook repair take?
+
+Simple repairs like battery replacement take 2–3 hours. Screen replacements take 4–6 hours depending on adhesive. Logic board repairs can take 2–3 days if we need to order specific micro-components, though we often have parts in stock here in Hyde Park. We always give you a timeline upfront before you leave the machine with us.
+
+### Q: Is it cheaper to replace my MacBook than repair it?
+
+Often not. A MacBook Air with a failed logic board might cost R4,500 to repair but R12,000+ to replace. Unless your machine is over five years old with multiple failing systems, repair is almost always more economical. Our assessment (R599) tells you definitively whether repair or replacement makes sense for your specific situation.
+
+### Q: Do you repair all MacBook models?
+
+We repair MacBook Air and MacBook Pro models from 2013 onwards, including the latest M1, M2, M3, and Intel-based systems. Older models sometimes present parts availability challenges, but we've usually solved them. Bring the machine in or WhatsApp a photo to 064 529 5863 and we'll confirm our capability immediately.
+
+### Q: What's your policy if you can't fix the problem?
+
+We tell you immediately, refund the assessment fee, and discuss alternatives. We don't charge you for diagnosing a problem we can't solve. If a logic board is damaged beyond economical micro-soldering repair, we'll say so clearly and explain your options: replacement board cost, machine replacement, or data recovery services.
+
+### Q: Do you use genuine Apple parts?
+
+For most components like batteries and screens, we source OEM-equivalent parts that meet Apple's specifications. For logic boards, genuine Apple boards aren't available separately, so we use verified suppliers for replacement components. We always clarify what you're getting before proceeding. Premium components cost more upfront but last longer and cause fewer compatibility issues later.
+
+### Q: How do I know your warranty is legitimate?
+
+Every repair comes with a written warranty document detailing what's covered, for how long, and how to claim. Our No Fix No Fee guarantee means if the same issue recurs within warranty, we fix it free. You can verify our standing through our contact details and booking system at zasupport.com. Clients in Johannesburg's professional community (especially in Sandton and Midrand) rely on our reputation because we back our work with genuine coverage.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical MacBook repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simple repairs like battery replacement take 2–3 hours. Screen replacements take 4–6 hours depending on adhesive. Logic board repairs can take 2–3 days if we need to order specific micro-components, though we often have parts in stock here in Hyde Park. We always give you a timeline upfront before you leave the machine with us."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it cheaper to replace my MacBook than repair it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often not. A MacBook Air with a failed logic board might cost R4,500 to repair but R12,000+ to replace. Unless your machine is over five years old with multiple failing systems, repair is almost always more economical. Our assessment (R599) tells you definitively whether repair or replacement makes sense for your specific situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair all MacBook models?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We repair MacBook Air and MacBook Pro models from 2013 onwards, including the latest M1, M2, M3, and Intel-based systems. Older models sometimes present parts availability challenges, but we've usually solved them. Bring the machine in or WhatsApp a photo to 064 529 5863 and we'll confirm our capability immediately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your policy if you can't fix the problem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We tell you immediately, refund the assessment fee, and discuss alternatives. We don't charge you for diagnosing a problem we can't solve. If a logic board is damaged beyond economical micro-soldering repair, we'll say so clearly and explain your options: replacement board cost, machine replacement, or data recovery services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you use genuine Apple parts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most components like batteries and screens, we source OEM-equivalent parts that meet Apple's specifications. For logic boards, genuine Apple boards aren't available separately, so we use verified suppliers for replacement components. We always clarify what you're getting before proceeding. Premium components cost more upfront but last longer and cause fewer compatibility issues later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know your warranty is legitimate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every repair comes with a written warranty document detailing what's covered, for how long, and how to claim. Our No Fix No Fee guarantee means if the same issue recurs within warranty, we fix it free. You can verify our standing through our contact details and booking system at zasupport.com. Clients in Johannesburg's professional community (especially in Sandton and Midrand) rely on our warranty because we back our work with genuine coverage."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Ready to get your MacBook fixed?**
+
+WhatsApp us on 064 529 5863 or book your assessment at [zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, serving Johannesburg and surrounding suburbs from Sandton to Centurion.
+
+From R599 assessment. Two-year warranty. No Fix No Fee.`,
+  },
 };
 
 export async function generateStaticParams() {
