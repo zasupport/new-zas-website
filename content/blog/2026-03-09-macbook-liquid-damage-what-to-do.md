@@ -80,8 +80,8 @@ This is why professional ultrasonic cleaning of the logic board is so important.
 
 When you bring your wet MacBook to us at 1 Hyde Lane, Hyde Park, here's exactly what happens:
 
-**Free Assessment First**
-Every liquid damage case starts with a no-obligation, free assessment. We disassemble the machine, inspect the logic board under magnification, identify what liquid entered and where, and give you a clear, honest diagnosis. No hidden fees. No guessing.
+**Paid Assessment from R599**
+Every liquid damage case starts with a R599 workshop assessment (credited toward the repair). We disassemble the machine, inspect the logic board under magnification, identify what liquid entered and where, and give you a clear, honest diagnosis. No hidden fees. No guessing.
 
 **Ultrasonic Cleaning**
 If the board is a candidate for cleaning, we run it through a professional ultrasonic cleaner with specialist electronic cleaning solution. This process uses high-frequency sound waves to dislodge and remove corrosive residue from every surface of the logic board — including under chips and between solder joints where a cotton swab could never reach. This is not something you can replicate at home.
@@ -93,7 +93,7 @@ After cleaning, we test the board thoroughly. If specific components have been d
 We understand your MacBook isn't just a machine — it's your work, your photos, your life. Data preservation is always part of our process. Where the drive is intact, we protect your data throughout the repair.
 
 **No Fix No Fee**
-If we can't fix it, you don't pay for the repair. Simple as that. The free assessment means you always know where you stand before any money changes hands.
+If we can't fix it, you don't pay for the repair. Simple as that. The R599 assessment means you always know where you stand before any money changes hands.
 
 ---
 
@@ -103,7 +103,7 @@ Cost depends heavily on which MacBook model you have, what liquid entered the ma
 
 | Service | Approximate Cost (ZAR) |
 |---|---|
-| Free assessment | R 0 |
+| R599 assessment | R 0 |
 | Ultrasonic board cleaning (minor damage, fast response) | R 1,800 – R 2,800 |
 | Board cleaning + component repair (moderate damage) | R 2,500 – R 4,500 |
 | Logic board repair with multiple failed components | R 3,500 – R 6,500 |
@@ -111,7 +111,7 @@ Cost depends heavily on which MacBook model you have, what liquid entered the ma
 
 The single biggest factor in your final cost is how quickly you act. MacBooks brought in within hours of a spill, while still powered off, regularly come back from cleaning alone. MacBooks brought in a week later — especially if someone attempted to power them on — often require extensive component-level repair or board replacement.
 
-There's no guarantee until we assess it, which is why the free assessment is so important. Come in, let us look at it, and you'll have a real number with no surprises.
+There's no guarantee until we assess it, which is why the R599 assessment is so important. Come in, let us look at it, and you'll have a real number with no surprises.
 
 ---
 
@@ -121,7 +121,7 @@ We're Apple specialists — not generalists, not a phone repair shop that also d
 
 We're located at 1 Hyde Lane, Hyde Park — central, easy to get to from Sandton, Rosebank, Fourways, Melrose, and across Johannesburg's northern suburbs. We see MacBook liquid damage cases regularly, and we know exactly what it takes to give your machine the best possible chance of a full recovery.
 
-If you're not sure whether your MacBook can be saved, come in for the free assessment. You have nothing to lose and potentially everything to gain. You can also learn more about the full range of [Apple repair services](/apple-repair) we offer, or go directly to our [MacBook and iPhone repair pages](/iphone-repair) for more detail.
+If you're not sure whether your MacBook can be saved, come in for the R599 assessment. You have nothing to lose and potentially everything to gain. You can also learn more about the full range of [Apple repair services](/apple-repair) we offer, or go directly to our [MacBook and iPhone repair pages](/iphone-repair) for more detail.
 
 ---
 
@@ -129,7 +129,7 @@ If you're not sure whether your MacBook can be saved, come in for the free asses
 
 **Q: My MacBook got wet last night and I put it in rice. It's been 12 hours. What should I do now?**
 
-A: Take it out of the rice immediately and bring it to us. Rice has not helped — but more importantly, it hasn't made things worse in the mechanical sense, just the time sense. Every additional hour that passes increases corrosion risk. Come in for a free assessment as soon as possible. Don't turn the MacBook on before you arrive.
+A: Take it out of the rice immediately and bring it to us. Rice has not helped — but more importantly, it hasn't made things worse in the mechanical sense, just the time sense. Every additional hour that passes increases corrosion risk. Come in for a R599 assessment as soon as possible. Don't turn the MacBook on before you arrive.
 
 **Q: I spilled water on my MacBook and it seemed fine, then stopped working two days later. Why?**
 
@@ -137,7 +137,7 @@ A: This is extremely common and it's exactly what corrosion looks like in practi
 
 **Q: How long does a MacBook liquid damage repair take at ZA Support?**
 
-A: The free assessment happens same day in most cases. Ultrasonic cleaning and testing typically takes one to three business days depending on the extent of damage and component availability. We'll give you a realistic timeframe when we assess your machine.
+A: The R599 assessment happens same day in most cases. Ultrasonic cleaning and testing typically takes one to three business days depending on the extent of damage and component availability. We'll give you a realistic timeframe when we assess your machine.
 
 **Q: I spilled coffee on my MacBook — is that worse than water?**
 
@@ -145,7 +145,7 @@ A: Yes, significantly. Coffee contains sugars and acids that are far more corros
 
 **Q: Will my data be okay?**
 
-A: In most liquid damage cases, the MacBook's SSD survives intact because it's typically located away from where liquid first contacts the board. However, we never make promises about data until we've assessed the machine. Data preservation is always part of our repair process, and we'll tell you exactly where things stand during your free assessment.
+A: In most liquid damage cases, the MacBook's SSD survives intact because it's typically located away from where liquid first contacts the board. However, we never make promises about data until we've assessed the machine. Data preservation is always part of our repair process, and we'll tell you exactly where things stand during your R599 assessment.
 
 **Q: My MacBook is out of Apple warranty. Does that matter for your repairs?**
 
@@ -153,7 +153,7 @@ A: Not at all. We work on out-of-warranty MacBooks every day — it's actually t
 
 **Q: What if ZA Support can't fix my MacBook?**
 
-A: Our No Fix No Fee policy means you pay nothing for the repair if we can't resolve the issue. The free assessment is always free regardless of outcome. We'll give you an honest answer about what's possible and what it will cost before any work begins.
+A: Our No Fix No Fee policy means you pay nothing for the repair if we can't resolve the issue. The R599 assessment is always free regardless of outcome. We'll give you an honest answer about what's possible and what it will cost before any work begins.
 
 ---
 
@@ -163,10 +163,10 @@ If your MacBook just got wet, you have a window of opportunity right now. Every 
 
 Turn it off. Leave it off. And get it to us.
 
-ZA Support has been bringing water-damaged MacBooks back to life in Johannesburg for 14 years. Our ultrasonic cleaning process, component-level board repair expertise, free assessment, and No Fix No Fee commitment mean you've got nothing to lose by coming in — and potentially your MacBook to gain.
+ZA Support has been bringing water-damaged MacBooks back to life in Johannesburg for 14 years. Our ultrasonic cleaning process, component-level board repair expertise, R599 assessment, and No Fix No Fee commitment mean you've got nothing to lose by coming in — and potentially your MacBook to gain.
 
 Don't let a spilled drink cost you a new machine when a repair might be all it takes.
 
 ---
 
-**Call 064 529 5863 or visit 1 Hyde Lane, Hyde Park to book your free assessment.**
+**Call 064 529 5863 or visit 1 Hyde Lane, Hyde Park to book your R599 assessment.**

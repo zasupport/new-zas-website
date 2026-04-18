@@ -169,7 +169,7 @@ ZA Support implements and manages both JAMF MDM and Microsoft Intune for South A
 - **POPIA alignment** — configuring your MDM to support your organisation's compliance obligations under South African data protection law
 - **Staff and IT training** — ensuring your internal team understands the platform and can handle day-to-day queries
 
-All MDM engagements begin with a **free assessment** of your current environment — no obligation, no fee.
+All MDM engagements begin with a **R599 assessment** of your current environment — no obligation, no fee.
 
 ---
 

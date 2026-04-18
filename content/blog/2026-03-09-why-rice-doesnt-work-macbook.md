@@ -70,9 +70,9 @@ If your MacBook gets wet, the right move is to power it off immediately, do not 
 
 When your water-damaged MacBook arrives at ZA Support in Hyde Park, we don't just open it up, dab it with a cloth, and hope for the best. We follow a rigorous, professional liquid damage remediation process — the same methodology used by Apple-certified repair facilities worldwide.
 
-### Step 1: Free Assessment
+### Step 1: R599 assessment
 
-Every liquid damage MacBook begins with a **free assessment**. We open the machine, photograph the damage, and give you a clear, honest diagnosis before any paid work begins. This is part of our **No Fix No Fee** commitment — if we can't fix it, you don't pay for the repair.
+Every liquid damage MacBook begins with a **R599 assessment**. We open the machine, photograph the damage, and give you a clear, honest diagnosis before any paid work begins. This is part of our **No Fix No Fee** commitment — if we can't fix it, you don't pay for the repair.
 
 ### Step 2: Full Disassembly
 
@@ -134,7 +134,7 @@ Visit our [liquid damage service page](/liquid-damage) for more detail on our pr
 
 **Q: My MacBook got wet but it still turns on. Does it still need to be looked at?**
 
-A: Absolutely, and urgently. A MacBook that boots after a liquid spill is not a MacBook that has escaped damage — it is a MacBook where corrosion has not yet caused visible failure. Corrosion continues to progress even when the machine appears functional. Many customers bring us MacBooks that "worked fine for a week" after a spill and then died suddenly. That failure was caused by the liquid on day one. Bring it in immediately for a free assessment.
+A: Absolutely, and urgently. A MacBook that boots after a liquid spill is not a MacBook that has escaped damage — it is a MacBook where corrosion has not yet caused visible failure. Corrosion continues to progress even when the machine appears functional. Many customers bring us MacBooks that "worked fine for a week" after a spill and then died suddenly. That failure was caused by the liquid on day one. Bring it in immediately for a R599 assessment.
 
 **Q: How long does MacBook liquid damage repair take?**
 
@@ -146,7 +146,7 @@ A: Standard Apple warranty does not cover accidental liquid damage. AppleCare+ d
 
 **Q: Can you recover my data from a water-damaged MacBook?**
 
-A: In many cases, yes. MacBook SSDs are soldered directly to the logic board, which means the condition of the storage depends on the condition of the board. If the SSD controller and storage chips are intact after liquid damage remediation, data recovery may be possible. We assess this during our free diagnostic and advise you accordingly. Data recovery is always treated as a priority.
+A: In many cases, yes. MacBook SSDs are soldered directly to the logic board, which means the condition of the storage depends on the condition of the board. If the SSD controller and storage chips are intact after liquid damage remediation, data recovery may be possible. We assess this during our R599 diagnostic and advise you accordingly. Data recovery is always treated as a priority.
 
 **Q: What liquids cause the worst damage to a MacBook?**
 
@@ -154,7 +154,7 @@ A: Tap water is damaging due to dissolved mineral content. Saltwater is particul
 
 **Q: Can you repair a MacBook that's been in rice for days?**
 
-A: Yes — we can and do repair MacBooks that have spent time in rice before reaching us. The success rate and cost are both affected by the delay, but these machines are not automatically write-offs. Our free assessment will tell you exactly where your machine stands and what repair is viable. We've saved MacBooks in worse condition.
+A: Yes — we can and do repair MacBooks that have spent time in rice before reaching us. The success rate and cost are both affected by the delay, but these machines are not automatically write-offs. Our R599 assessment will tell you exactly where your machine stands and what repair is viable. We've saved MacBooks in worse condition.
 
 ---
 
@@ -166,10 +166,10 @@ The corrosion that liquid spills cause on your MacBook's logic board is an activ
 
 If your MacBook has been exposed to any liquid — power it off, do not plug it in, do not try to turn it on again, and bring it to us at ZA Support in Hyde Park as fast as you possibly can.
 
-Our [liquid damage repair process](/liquid-damage) is professional, transparent, and backed by 14 years of Apple specialist experience. Our free assessment costs you nothing. Our No Fix No Fee policy means you take on no financial risk. And our ultrasonic cleaning capability gives your MacBook the best possible chance of a full recovery.
+Our [liquid damage repair process](/liquid-damage) is professional, transparent, and backed by 14 years of Apple specialist experience. Our R599 assessment costs you nothing. Our No Fix No Fee policy means you take on no financial risk. And our ultrasonic cleaning capability gives your MacBook the best possible chance of a full recovery.
 
 Don't gamble your MacBook on a bag of rice. Call the specialists.
 
 ---
 
-**Call 064 529 5863 or visit 1 Hyde Lane, Hyde Park to book your free assessment.**
+**Call 064 529 5863 or visit 1 Hyde Lane, Hyde Park to book your R599 assessment.**

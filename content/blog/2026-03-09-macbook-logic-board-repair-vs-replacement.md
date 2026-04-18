@@ -62,7 +62,7 @@ Let us be direct about the numbers, because pricing transparency matters when yo
 
 These figures reflect real-world pricing in the Johannesburg market as of mid-2025. The component-level repair route at ZA Support represents a saving of between **R 5,500 and R 15,500** compared to a full board swap — and in many cases your original data remains safe and intact.
 
-Our **No Fix No Fee** policy applies to all logic board assessments. If we cannot repair your board after a thorough diagnosis, you do not pay for the repair attempt. Every MacBook that comes to our Hyde Park workshop starts with a **free assessment** so you know exactly what the problem is before any work begins.
+Our **No Fix No Fee** policy applies to all logic board assessments. If we cannot repair your board after a thorough diagnosis, you do not pay for the repair attempt. Every MacBook that comes to our Hyde Park workshop starts with a **R599 assessment** so you know exactly what the problem is before any work begins.
 
 ---
 
@@ -97,7 +97,7 @@ In the interest of complete honesty, there are situations where replacing the en
 - **Catastrophic physical damage** — if the board has been bent, cracked, or exposed to extreme heat or flame damage across a wide area, component repair becomes impractical.
 - **Multiple simultaneous chip failures** caused by severe liquid damage where the corrosion has destroyed entire sections of the PCB.
 - **Apple Silicon M-series boards** with faults in the main SoC package itself — while we can address many peripheral faults on these boards, the SoC itself is not serviceable at component level anywhere in the world.
-- **Boards where the cost of repair approaches or exceeds replacement cost**, which we will always communicate to you honestly during your free assessment.
+- **Boards where the cost of repair approaches or exceeds replacement cost**, which we will always communicate to you honestly during your R599 assessment.
 
 If a replacement is the right path, we will advise you on the most cost-effective and reliable sourcing options available.
 
@@ -111,7 +111,7 @@ ZA Support has been operating from Hyde Park for 14 years, specialising exclusiv
 - **Digital microscope** for visual inspection of solder joints, traces, and component condition
 - **Professional diagnostic tools** including DC power supply current analysis (to identify short circuits before applying power)
 - **No Fix No Fee** guarantee — we do not charge for repairs we cannot complete
-- **Free assessment** on every MacBook logic board fault
+- **R599 assessment** on every MacBook logic board fault
 - **Data preservation priority** — we work to keep your original board functioning wherever possible to protect your data
 - **14 years of Apple-specific experience** in the Johannesburg market
 
@@ -122,13 +122,13 @@ Our [logic board repair](/logic-board-repair) service covers MacBook Air, MacBoo
 ## FAQ: MacBook Logic Board Repair South Africa
 
 **Q: How do I know if my MacBook has a logic board fault?**
-A: Common symptoms include a MacBook that will not power on at all, one that turns on but shows no image on the display, random kernel panics or shutdowns, USB-C ports that do not charge or recognise devices, graphical distortion or artefacts on screen, and unusual system behaviour after liquid exposure. Bring your MacBook to us at Hyde Park for a free assessment — we will run diagnostics and give you a clear explanation of what is wrong.
+A: Common symptoms include a MacBook that will not power on at all, one that turns on but shows no image on the display, random kernel panics or shutdowns, USB-C ports that do not charge or recognise devices, graphical distortion or artefacts on screen, and unusual system behaviour after liquid exposure. Bring your MacBook to us at Hyde Park for a R599 assessment — we will run diagnostics and give you a clear explanation of what is wrong.
 
 **Q: Will my data be safe if you repair the logic board?**
 A: In most cases, yes. Component-level repair works on your original board, so the encrypted relationship between your storage and security chip remains intact. On Apple Silicon Macs especially, keeping the original board is critical for data access. We prioritise data preservation in our approach, and if there is any risk to your data, we will discuss it with you before proceeding.
 
 **Q: How long does MacBook logic board repair take at ZA Support?**
-A: Most repairs are completed within 3 to 7 business days. Complex liquid damage cases or faults requiring imported components may take slightly longer. We will give you a realistic timeframe during your free assessment.
+A: Most repairs are completed within 3 to 7 business days. Complex liquid damage cases or faults requiring imported components may take slightly longer. We will give you a realistic timeframe during your R599 assessment.
 
 **Q: Is it worth repairing an older MacBook logic board?**
 A: It depends on the age and specification of the machine. A 2019 MacBook Pro in good condition is absolutely worth repairing — a logic board repair at R 2,500 to R 6,500 against a replacement machine cost of R 20,000 to R 35,000 makes strong financial sense. We will always give you an honest assessment of whether repair is economically worthwhile for your specific model.
@@ -148,10 +148,10 @@ A: Yes, for many classes of fault. We can address USB-C controller failures, pow
 
 A faulty logic board does not automatically mean your MacBook is beyond saving — and it certainly does not mean you need to spend R 18,000 on a replacement board or walk into an Apple Store for a quote that exceeds the value of the machine. Component-level microsoldering repair, carried out by experienced technicians with the right equipment, resolves the majority of MacBook logic board faults at a fraction of the cost of replacement.
 
-ZA Support has been South Africa's trusted Apple repair specialist in Hyde Park, Johannesburg, for 14 years. We offer a **free assessment**, a **No Fix No Fee** commitment, and the technical expertise to back it all up. Whether your MacBook won't power on, is refusing to charge, or has suffered liquid damage, bring it to us before writing it off.
+ZA Support has been South Africa's trusted Apple repair specialist in Hyde Park, Johannesburg, for 14 years. We offer a **R599 assessment**, a **No Fix No Fee** commitment, and the technical expertise to back it all up. Whether your MacBook won't power on, is refusing to charge, or has suffered liquid damage, bring it to us before writing it off.
 
 Visit our [logic board repair](/logic-board-repair) page to learn more, explore our full range of [Apple repair](/apple-repair) services, or [contact us](/contact) to arrange your assessment.
 
 ---
 
-**Call 064 529 5863 or visit 1 Hyde Lane, Hyde Park to book your free assessment.**
+**Call 064 529 5863 or visit 1 Hyde Lane, Hyde Park to book your R599 assessment.**

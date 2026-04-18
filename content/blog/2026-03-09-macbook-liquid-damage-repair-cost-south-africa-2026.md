@@ -24,7 +24,7 @@ This is why the speed of your response matters enormously, and why understanding
 
 ## MacBook Liquid Damage Repair Cost South Africa — 2026 Pricing Table
 
-The following prices reflect real-world repair costs at ZA Support as of January 2026. Every repair begins with a **free assessment**, so you'll always know the exact cost before we do any work.
+The following prices reflect real-world repair costs at ZA Support as of January 2026. Every repair begins with a **R599 assessment**, so you'll always know the exact cost before we do any work.
 
 | Device | Liquid Damage Repair Cost |
 |---|---|
@@ -50,7 +50,7 @@ If you immediately powered off and left the machine off, you've given yourself a
 Our technicians assess the board under microscopes. Light surface oxidation on connector pads is a relatively straightforward clean. Corrosion that has penetrated under BGA chips, damaged power management circuits, or eaten through PCB traces requires significantly more microsoldering work — and that is reflected in the cost.
 
 **4. Component Failures**
-Sometimes the liquid causes specific components to fail: the keyboard, trackpad, battery, I/O board, or display backlight circuit. Each failed component adds to the overall repair cost. We always identify these during the free assessment so there are no surprises.
+Sometimes the liquid causes specific components to fail: the keyboard, trackpad, battery, I/O board, or display backlight circuit. Each failed component adds to the overall repair cost. We always identify these during the R599 assessment so there are no surprises.
 
 **5. MacBook Model and Generation**
 Newer M-series MacBooks use more tightly integrated silicon, which can make certain microsoldering tasks more complex. Older Intel models have more traditional logic board layouts. Both are repairable — the model simply affects the technical labour involved.
@@ -121,7 +121,7 @@ If the spill just happened — or happened recently — here are the immediate s
 3. **Disconnect all cables and peripherals,** including the MagSafe or USB-C charger.
 4. **Turn the MacBook upside down in a tent shape** to encourage any pooled liquid to drain downward away from the logic board.
 5. **Do not put it in rice.** Rice is ineffective, and it wastes critical time. The longer corrosion is allowed to develop, the more expensive the repair becomes.
-6. **Bring it to us as soon as possible.** Same-day assessment is available at our Hyde Park location. [Book your free assessment online](/contact) or call us directly.
+6. **Bring it to us as soon as possible.** Same-day assessment is available at our Hyde Park location. [Book your R599 assessment online](/contact) or call us directly.
 
 ---
 
@@ -133,11 +133,11 @@ Standard Apple warranty (and even AppleCare) does not cover liquid damage caused
 
 ### Q2: How long does a MacBook liquid damage repair take?
 
-Most MacBook liquid damage repairs at ZA Support are completed within **2–5 business days**. This accounts for the free assessment, ultrasonic cleaning, microscope inspection, any required microsoldering, and full system testing. Complex cases involving extensive logic board damage may take slightly longer. We'll give you a realistic timeframe after the assessment.
+Most MacBook liquid damage repairs at ZA Support are completed within **2–5 business days**. This accounts for the R599 assessment, ultrasonic cleaning, microscope inspection, any required microsoldering, and full system testing. Complex cases involving extensive logic board damage may take slightly longer. We'll give you a realistic timeframe after the assessment.
 
 ### Q3: Can you repair a MacBook that got wet months ago?
 
-Yes — in many cases, we can. Older liquid damage is more challenging because corrosion has had time to spread and deepen. However, ultrasonic cleaning and microsoldering can often address corrosion even on machines that were damaged weeks or months ago. The free assessment will give us a clear picture of what's recoverable. Don't assume it's too late without getting it checked.
+Yes — in many cases, we can. Older liquid damage is more challenging because corrosion has had time to spread and deepen. However, ultrasonic cleaning and microsoldering can often address corrosion even on machines that were damaged weeks or months ago. The R599 assessment will give us a clear picture of what's recoverable. Don't assume it's too late without getting it checked.
 
 ### Q4: My MacBook powers on but has problems after getting wet — do I still need liquid damage repair?
 
@@ -145,7 +145,7 @@ Absolutely. A MacBook that boots but behaves erratically after a liquid incident
 
 ### Q5: Do you repair iPhones and iPads with liquid damage too?
 
-Yes. We repair liquid damage across the full range of Apple devices — iPhones, iPads, Apple Watches, iMacs, and MacBooks. iPhone liquid damage repairs start from R 1,200, and iPad liquid damage repairs start from R 1,500. The same free assessment, ultrasonic cleaning, and No Fix No Fee policy applies to all devices. Visit our [iPhone repair page](/iphone-repair) for details.
+Yes. We repair liquid damage across the full range of Apple devices — iPhones, iPads, Apple Watches, iMacs, and MacBooks. iPhone liquid damage repairs start from R 1,200, and iPad liquid damage repairs start from R 1,500. The same R599 assessment, ultrasonic cleaning, and No Fix No Fee policy applies to all devices. Visit our [iPhone repair page](/iphone-repair) for details.
 
 ### Q6: What if you assess my MacBook and say it's not repairable — do I pay anything?
 
@@ -161,7 +161,7 @@ Yes. All successful liquid damage repairs at ZA Support are covered by a **12-mo
 
 With 14 years of experience repairing Apple devices, we've built our reputation in Hyde Park on three things: honest assessments, expert repairs, and standing behind our work. We don't turn people away with expensive replacement quotes when a repair is perfectly viable. We invest in the right equipment — ultrasonic cleaners, microsoldering stations, stereo microscopes — because the quality of the repair depends on the quality of the tools and the experience of the technician.
 
-We also believe in transparency. You'll never receive a bill for work you didn't approve. The free assessment gives you complete information before you decide. And if we can't fix it, you owe us nothing.
+We also believe in transparency. You'll never receive a bill for work you didn't approve. The R599 assessment gives you complete information before you decide. And if we can't fix it, you owe us nothing.
 
 If your MacBook has suffered liquid damage — whether it happened this morning or several months ago — the most important step is getting it assessed by someone who genuinely knows what they're looking at.
 
