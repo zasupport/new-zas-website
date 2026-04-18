@@ -463,5 +463,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/apple-repair-vs-replacement-guide-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/investec-sandton-apple-support`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/logic-board-repair-parkhurst`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/how-to-diagnose-macbook-fault-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/mac-migration-assistant-guide-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/mac-support-financial-services-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/mac-support-small-business-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-backup-time-machine-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
