@@ -458,5 +458,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-water-indicator-check-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/imac-m3-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-logic-board-repair-bryanston`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/mac-startup-disk-full-fix-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
