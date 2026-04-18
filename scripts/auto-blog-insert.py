@@ -13,7 +13,7 @@ import sys
 import subprocess
 import json
 from pathlib import Path
-from datetime import date
+from datetime import date, datetime
 
 WEBSITE_DIR = Path(__file__).parent.parent
 BLOG_PAGE = WEBSITE_DIR / "src" / "app" / "blog" / "[slug]" / "page.tsx"
@@ -22,9 +22,17 @@ SITEMAP = WEBSITE_DIR / "src" / "app" / "sitemap.ts"
 BLOG_DRAFTS_DIR = Path.home() / "Desktop" / "Claude" / "Blog"
 INSERTED_LOG = BLOG_DRAFTS_DIR / ".inserted.json"
 
-TODAY = date.today().strftime("%d %B %Y")
-TODAY_DISPLAY = date.today().strftime("%d/%m/%Y")
-TODAY_SLUG = date.today().strftime("%d%m%Y")
+# §277: honour BLOG_INSERT_DATE override (format "DD Month YYYY") for backfill runs
+_override = os.environ.get("BLOG_INSERT_DATE", "").strip()
+if _override:
+    _d = datetime.strptime(_override, "%d %B %Y").date()
+    TODAY = _d.strftime("%d %B %Y")
+    TODAY_DISPLAY = _d.strftime("%d/%m/%Y")
+    TODAY_SLUG = _d.strftime("%d%m%Y")
+else:
+    TODAY = date.today().strftime("%d %B %Y")
+    TODAY_DISPLAY = date.today().strftime("%d/%m/%Y")
+    TODAY_SLUG = date.today().strftime("%d%m%Y")
 
 
 def load_inserted() -> set:
