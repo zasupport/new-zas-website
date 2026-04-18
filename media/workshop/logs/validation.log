@@ -46696,3 +46696,90 @@ d95a26e20e59743869e529bb05763f5133a40364
 [18/04/2026 16:59:16 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
 [18/04/2026 16:59:16 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
 [18/04/2026 16:59:16 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[18/04/2026 22:48:08] §248 learning captured: 2P/00F | brief: learning-20260418.json
+[18/04/2026 22:48:37 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-18 22:48:39] §245-GSC: Token acquired, querying GSC...
+[2026-04-18 22:48:40] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-18 22:48:41] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-18 22:48:41] §245-GSC: No current data from GSC
+[18/04/2026 22:48:59 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[18/04/2026 22:49:12 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[18/04/2026 22:49:12 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[18/04/2026 22:49:12 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[18/04/2026 22:49:12 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[18/04/2026 22:49:12 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[18/04/2026 22:49:12 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[18/04/2026 22:49:12 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-18 23:25:51] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-18 23:25:51] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-18 23:25:51] §241-VERIFY: LaunchAgents = 84 loaded (OK)
+[2026-04-18 23:25:51] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-18 23:25:51] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-18 23:25:51] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-18 23:25:51] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-18 23:25:51] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-18 23:25:51] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-18 23:25:51] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-18 23:25:51] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-18 23:25:51] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[18/04/2026 23:44:47 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[18/04/2026 23:59:53 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[2026-04-19 00:00:11] §245-GSC: Token acquired, querying GSC...
+[2026-04-19 00:00:11] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 00:00:12] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 00:00:12] §245-GSC: No current data from GSC
+[19/04/2026 00:00:35 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 00:00:35 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 00:00:35 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 00:00:35 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 00:00:35 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 00:00:35 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 00:00:35 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
