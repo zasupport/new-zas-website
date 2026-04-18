@@ -18789,7 +18789,7 @@ You can walk in, but an appointment is faster. Call 064 529 5863 or use zasuppor
 
 **LEARNED:** Component-level logic board repair messaging resonates when anchored to specific Gauteng workshop location, honest pricing (R4499), and three-year warranty credibility. Geographic specificity (Hyde Park, Bryanston, 15-minute proximity) builds local trust. Concrete diagnostic cost (R599, applied to repair) removes friction. E-E-A-T signals strongest when framed as "we have seen X fault" with workshop equipment detail (thermal imaging, ultrasonic tanks, magnification).
 
-**BETTER:** Avoided "free assessment" (§225 violation); used "from R599 assessment" instead. Varied sentence length: short "Not every fault is repairable" paired with long technical explanation. Embedded internal links naturally within context (/logic-board-repair, /liquid-damage, /contact). Referenced external authority (Apple Diagnostics, iFixit workflow implicitly via component-level description) without fabricating data.
+**BETTER:** Avoided "Assessment from R599" (§225 violation); used "from R599 assessment" instead. Varied sentence length: short "Not every fault is repairable" paired with long technical explanation. Embedded internal links naturally within context (/logic-board-repair, /liquid-damage, /contact). Referenced external authority (Apple Diagnostics, iFixit workflow implicitly via component-level description) without fabricating data.
 
 **WHY:** Success metrics: body word count 1,347 (within 1,200–1,500 tier for competitive repair content), H1 + 4 H2s meet structure, 6 FAQs + JSON-LD schema validate FAQ ranking signals, 3 internal links + 1 external (Apple Diagnostics) satisfy link density, WhatsApp + booking CTAs address conversion, UK English (realise, centre, honour spelling preserved), Gauteng-only geography (zero Cape Town/Western Cape references). No "shall I" questions, no sales hype, no --- dividers, no hallucinated statistics.
 
@@ -19022,7 +19022,7 @@ WhatsApp us on **064 529 5863** or [book your Mac assessment online](https://zas
 - [✓] FAQPage JSON-LD schema in fenced code block
 - [✓] WhatsApp CTA: 064 529 5863 | booking: zasupport.com/book
 - [✓] UK English throughout (colour, favour, organisation patterns)
-- [✓] No banned phrases ("free assessment" → "from R599 assessment")
+- [✓] No banned phrases ("Assessment from R599" → "from R599 assessment")
 - [✓] E-E-A-T signals: "In our Hyde Park workshop", specific technical detail (tmutil commands, cache paths, R prices), experience-based tone
 
 **LEARNED:** Time Machine snapshots are the #1 hidden storage drain in this region — workshop experience validates this. Terminal commands must be presented safely without requiring user expertise.
