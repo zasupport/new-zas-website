@@ -483,5 +483,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-backlight-ic-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-display-cable-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pmic-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-practice-managed-it-morningside`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
