@@ -15337,6 +15337,65 @@ Both. We provide individual device repair and managed IT services for Rivonia bu
 
 Turn it off immediately. Do not try to charge it. Do not put it in rice. Bring it to our workshop as quickly as possible — ideally within 24 hours. The sooner we can clean and dry the logic board, the higher the chance of full recovery.
 
+
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How far is ZA Support from Rivonia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are located at 1 Hyde Park Lane, Hyde Park — approximately twelve minutes from central Rivonia via Rivonia Road and William Nicol Drive. Twenty minutes during peak traffic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer a collection service for Rivonia clients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We do not currently offer a collection service, but most Rivonia clients find drop-off convenient as Hyde Park is on the natural commute route towards Sandton. Some clients use courier services for devices that are difficult to transport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes ZA Support different from iStore or DigiCape for repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We repair at component level, which means fixing the specific failed component rather than replacing the entire board. This typically costs 60% to 80% less than authorised service providers. We also offer a three-year warranty versus the standard 90-day warranty from authorised channels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you repair M-series MacBooks and iMacs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We repair M1, M2, M3, and M4 MacBook and iMac logic boards. The M-series architecture requires specialised diagnostic techniques because the SoC, memory, and storage are integrated, but our workshop is equipped for this level of repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you work with businesses in Rivonia or only individual clients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both. We provide individual device repair and managed IT services for Rivonia businesses. Several medical practices and professional services firms in the area use our ongoing support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I spill liquid on my MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turn it off immediately. Do not try to charge it. Do not put it in rice. Bring it to our workshop as quickly as possible — ideally within 24 hours. The sooner we can clean and dry the logic board, the higher the chance of full recovery."
+      }
+    }
+  ]
+}
+\`\`\`
+
 *Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience repairing Apple devices in Johannesburg.*`,
   },
   'macbook-thunderbolt-port-repair-johannesburg': {
@@ -15435,6 +15494,65 @@ Yes. M1, M2, M3, and M4 MacBooks all use external retimer chips and port control
 ### Is it worth repairing Thunderbolt ports on an older Intel MacBook?
 
 If the machine is a 2018 or newer Intel MacBook Pro with 16 GB RAM, port repair at R2,000 to R4,000 is almost always worthwhile compared to buying a new machine. For 2016-2017 models, it depends on overall machine health — we will advise during assessment.
+
+
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you repair just one Thunderbolt port or do you have to replace the whole logic board?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We repair individual ports and their associated controller chips. There is no need to replace the entire logic board for a port fault. This is what makes our service significantly less expensive than Apple or authorised service providers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a Thunderbolt port repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Assessment is same-day. The repair itself takes two to four working days depending on whether it is a connector replacement (simpler) or a controller IC replacement (more complex). We will provide a fixed quote after assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My MacBook charges from one port but not the others. Is that a Thunderbolt problem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, this is a classic symptom. It means the power delivery IC on the non-charging ports has failed while the physical connector and data functions may still work. Each port has its own power delivery path, so individual port failure is common."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my data be safe during a Thunderbolt port repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Thunderbolt port repair does not involve the storage subsystem. Your SSD and data are not affected. We do not need to erase or reinstall anything for a port-level repair."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair Thunderbolt ports on M-series MacBooks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. M1, M2, M3, and M4 MacBooks all use external retimer chips and port controller ICs that we can replace at component level. The M-series integration makes diagnosis slightly different, but the repair techniques are established."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it worth repairing Thunderbolt ports on an older Intel MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the machine is a 2018 or newer Intel MacBook Pro with 16 GB RAM, port repair at R2,000 to R4,000 is almost always worthwhile compared to buying a new machine. For 2016-2017 models, it depends on overall machine health — we will advise during assessment."
+      }
+    }
+  ]
+}
+\`\`\`
 
 *Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience repairing Apple devices in Johannesburg.*`,
   },
@@ -15544,6 +15662,65 @@ Check the liquid contact indicators inside the USB-C ports. These are small whit
 ### Is it safe to turn on my MacBook to check if it still works after a spill?
 
 No. This is the single most common mistake we see. A machine may appear to work fine for minutes or hours after a spill while corrosion is actively spreading inside. Powering on a wet logic board creates electrical paths through the liquid that accelerate damage. Wait for professional assessment.
+
+
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How quickly should I bring my liquid-damaged MacBook in after a spill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As quickly as possible. Ideally within the first few hours. Corrosion begins forming immediately and accelerates over time. A machine brought in within 24 hours has a significantly higher recovery rate than one left for a week."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it matter what type of liquid was spilled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Clean water causes the least damage and has the highest recovery rate. Coffee, tea, and juice contain sugars and acids that accelerate corrosion. Wine and beer are particularly damaging due to their acidity. Saltwater is the worst — it causes rapid and aggressive corrosion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover data from a liquid-damaged MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In approximately 80% of cases, yes. For M-series MacBooks, we repair the logic board to access the data. For Intel MacBooks, we can often remove the SSD and read it directly without needing to repair the board. We will always attempt data recovery before declaring a machine unrecoverable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my Apple warranty cover liquid damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Apple does not cover liquid damage under standard warranty or AppleCare+. AppleCare+ does cover accidental damage, but with a service fee of R2,700 to R4,500 depending on the device. Our component-level repair is often comparable or less expensive than the AppleCare+ service fee, with a longer warranty."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I tell if my MacBook has internal liquid damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check the liquid contact indicators inside the USB-C ports. These are small white strips that turn red or pink when exposed to liquid. You can see them by shining a light into the port. However, absence of indicator activation does not mean absence of damage — liquid can reach the logic board through the keyboard without triggering port indicators."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it safe to turn on my MacBook to check if it still works after a spill?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This is the single most common mistake we see. A machine may appear to work fine for minutes or hours after a spill while corrosion is actively spreading inside. Powering on a wet logic board creates electrical paths through the liquid that accelerate damage. Wait for professional assessment."
+      }
+    }
+  ]
+}
+\`\`\`
 
 *Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience repairing Apple devices in Johannesburg.*`,
   },
@@ -15672,6 +15849,65 @@ Our incident response plan covers the immediate technical response (containment,
 ### Is JAMF MDM necessary for a small practice with only two or three devices?
 
 Even for small practices, MDM provides enforcement of encryption, remote wipe capability, and centralised management that manual approaches cannot match. The cost is modest relative to the compliance benefit and the protection it provides if a device is lost or stolen.
+
+
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I really need a written IT provider agreement for my medical practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. POPIA Section 21 requires a written agreement between the responsible party (your practice) and any operator (your IT provider) that processes personal information on your behalf. The Information Regulator will request this document during any assessment or breach investigation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between generic IT support and managed IT for medical practices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generic IT support fixes things when they break. Managed IT for medical practices includes proactive compliance monitoring, POPIA documentation, HPCSA-aware security configurations, and incident response planning. The regulatory context is fundamentally different from corporate IT support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ZA Support manage non-Apple devices in my practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our primary expertise is Apple devices. For practices with mixed environments (Apple and Windows), we manage the Apple devices and can recommend trusted partners for Windows infrastructure. We do not pretend to be experts in everything — we are experts in Apple."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can you respond to a hardware failure at my practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Medical practices receive priority scheduling. For critical failures (practice management system down, data access issues), we aim for same-day assessment. Standard hardware repairs are scheduled within one working day of contact."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if there is a data breach at my practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our incident response plan covers the immediate technical response (containment, evidence preservation), regulatory notification (Information Regulator within 72 hours), patient notification, and post-incident remediation. Having this plan documented before an incident occurs is essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is JAMF MDM necessary for a small practice with only two or three devices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Even for small practices, MDM provides enforcement of encryption, remote wipe capability, and centralised management that manual approaches cannot match. The cost is modest relative to the compliance benefit and the protection it provides if a device is lost or stolen."
+      }
+    }
+  ]
+}
+\`\`\`
 
 *Written by Courtney Bentley with AI assistance, based on 17 years of hands-on experience supporting medical practices across Johannesburg.*`,
   },
