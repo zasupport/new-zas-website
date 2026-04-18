@@ -473,5 +473,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/hpcsa-records-mac-backup-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/mac-clean-install-macos-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-cooling-pad-worth-it-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/goodx-mac-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
