@@ -312,7 +312,20 @@ def main():
             print(f"  SKIP (already inserted): {slug}")
             continue
 
-        content = draft_path.read_text()
+        # iCloud advisory locks can raise EDEADLK (errno 11) on read_text().
+        # Retry once after forcing a download, then skip this draft if still locked.
+        try:
+            content = draft_path.read_text()
+        except OSError as e:
+            if e.errno == 11:
+                subprocess.run(["brctl", "download", str(draft_path)], check=False)
+                try:
+                    content = draft_path.read_text()
+                except OSError as e2:
+                    print(f"  SKIP (iCloud lock EDEADLK): {draft_path.name} — {e2}")
+                    continue
+            else:
+                raise
         word_count = len(content.split())
 
         # §229 tiered word count validation
