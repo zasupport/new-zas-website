@@ -484,5 +484,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-display-cable-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pmic-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/medical-practice-managed-it-morningside`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/iphone-battery-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/liquid-damage-macbook-fourways`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/managed-it-services-medical-practice-gauteng`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-practice-managed-it-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
