@@ -43,17 +43,21 @@ export default function PricingDisclaimer() {
   if (!shouldShow(pathname)) return null;
 
   return (
-    <section aria-label="Pricing disclaimer" className="bg-black py-3 border-b border-red-900/40">
+    <section
+      aria-label="Pricing disclaimer"
+      data-pricing-disclaimer="true"
+      className="mt-16 lg:mt-20 bg-black py-3 border-b border-red-900/40"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
-          className="flex items-start gap-3 rounded-xl px-4 py-3"
+          className="flex items-start gap-3 rounded-xl px-4 py-3 sm:px-5 sm:py-4"
           style={{
             background: 'linear-gradient(135deg, #dc2626 0%, #991b1b 100%)',
             border: '1px solid rgba(239, 68, 68, 0.4)',
           }}
         >
           <AlertTriangle className="w-5 h-5 text-white flex-shrink-0 mt-0.5" aria-hidden />
-          <div>
+          <div className="min-w-0">
             <p className="text-white font-bold text-sm sm:text-base leading-snug">
               Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number.
             </p>
