@@ -54,6 +54,9 @@
 # §259 WHATSAPP SKILL AUTO-ACTIVATION: NLP trigger → auto-load WhatsApp skills (7 total) | za-whatsapp-skill-verify.sh
 # §257 CROSS-PLATFORM CONTEXT SYNC: portable.md every 2min → iCloud+API+local | za-portable-context-sync.sh | com.zasupport.portablesync (120s)
 
+# §287 PRICING DISCLAIMER BANNER (HARD — 19/04/2026): EVERY pricing page = red banner "Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number." | Component: src/components/PricingDisclaimer.tsx mounted in SiteShell.tsx | Route allow-list via PRICING_ROUTES | Contact: 064 529 5863 (§261) | Adding new pricing route → update PRICING_ROUTES same commit | global CLAUDE.md (full detail)
+
+# §284 GAP ANALYSIS AUTO-EXECUTE (HARD — 19/04/2026): §278 EXECUTABLE-NOW items → auto-enqueue ~/.za-gap-analysis-queue.json + live drain + LaunchAgent com.zasupport.gapanalysisexecutor (RunAtLoad+300s failover, survives sleep/lid-close/session-death) | headless Claude per item → ~/.za-gap-analysis-logs/<id>.log | Retry 3× then notify+failed | BLOCKED-EXTERNAL never auto-executed | LIVE 19/04 13:50: exit=0, /tmp/ga-test.txt=OK, queue status=done | extends §278+§274+§265+§216+§267+§273 | global CLAUDE.md (full detail)
 # §272 COMPETITOR MONITORING (HARD — 15/04/2026): monthly (15th) scan istorebusiness.co.za | 6 content gaps: M365 Premium, Adobe, UniFi, iPad biz, iPhone biz, managed IT stack | → memory/competitive_intel_istore_business.md
 # §270 IMPORT DIFF GATE (HARD — 13/04/2026): injected file/folder → diff vs existing | newer → archive .pre-270 + update | older/same → skip | new file → install | ~/bin/za-import-diff.sh | extends §258+§244
 # §269 PROPRIETARY TOOL CONCEALMENT (HARD — 13/04/2026): ∅ ANY reference to tools, technologies, frameworks, platforms, methods, processes in ANY public output | FULL SPEC: ~/.claude/rules/269-proprietary-tool-concealment.md | supersedes §268 | extends §203+§204+§205+§252 | global CLAUDE.md (full detail)

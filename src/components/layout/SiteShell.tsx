@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import WhatsAppButton from './WhatsAppButton';
+import PricingDisclaimer from '../PricingDisclaimer';
 
 const SHELL_FREE = ['/admin/sla'];
 
@@ -56,6 +57,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Navbar />
+      <PricingDisclaimer />
       <main>{children}</main>
       <Footer />
       <WhatsAppButton />
