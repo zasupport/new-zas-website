@@ -7,11 +7,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M1 Screen Repair Johannesburg [2026] | From R3,999 | ZA Support',
   description:
-    'MacBook Pro M1 screen repair in Johannesburg from R3,999. IPS Retina display specialists. Backlight IC, display cable, True Tone. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro M1 screen repair in Johannesburg from R3,999. IPS Retina display specialists. Backlight IC, display cable, True Tone. From R599 assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-m1' },
   keywords: [
     'MacBook Pro M1 screen repair Johannesburg',
@@ -235,7 +236,7 @@ export default function ScreenRepairMacBookProM1Page() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Cpu, label: 'M1 Chip Specialists' },
                 { icon: Eye, label: 'True Tone Preserved' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -316,8 +317,9 @@ export default function ScreenRepairMacBookProM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -381,7 +383,7 @@ export default function ScreenRepairMacBookProM1Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our No Fix No Fee policy means that if we cannot resolve your MacBook Pro M1 screen fault, an assessment fee of R599 applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
+              Every repair is quoted before work begins. Our From R599 assessment policy means that if we cannot resolve your MacBook Pro M1 screen fault, an assessment fee of R599 applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
             </p>
           </div>
         </div>
@@ -489,7 +491,7 @@ export default function ScreenRepairMacBookProM1Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M1 Screen Fault? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a photo of the fault — we will give you an honest assessment and a price range before you even bring the machine in. No obligation. Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a photo of the fault — we will give you an honest assessment and a price range before you even bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -23,6 +23,7 @@ import { buildFaqSchema, buildServiceSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Apple Mac Repair, Johannesburg | ZA Support',
@@ -134,7 +135,7 @@ const processSteps = [
   {
     step: '02',
     title: 'Written Quote',
-    body: 'You receive a clear, written quote before any work begins. No hidden fees. If the price does not suit you, there is no charge.',
+    body: 'You receive a clear, written quote before any work begins. Transparent R599+ pricing. If the price does not suit you, there is from R599.',
   },
   {
     step: '03',
@@ -189,7 +190,7 @@ const faqs = [
   {
     question: 'How much does Apple Mac repair cost in Johannesburg?',
     answer:
-      'Costs vary by device and fault type. Assessment: from R599 with no obligation, you will receive a written quote before any work begins. We only charge you once we have successfully repaired your device.',
+      'Costs vary by device and fault type. Assessment: from R599 with, you will receive a written quote before any work begins. We only charge you once we have successfully repaired your device.',
   },
   {
     question: 'What is your assessment fee policy?',
@@ -204,7 +205,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on repairs?',
     answer:
-      'Yes, every repair includes a written up-to-3 year warranty on parts and labour. If the same fault returns within the warranty period, we repair it at no charge. Extended warranty is available on request. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
+      'Yes, every repair includes a written up-to-3 year warranty on parts and labour. If the same fault returns within the warranty period, we repair it at from R599. Extended warranty is available on request. This applies to all repairs: logic board, battery, screen, keyboard, liquid damage and more.',
   },
   {
     question: 'How long does repair take?',
@@ -412,6 +413,7 @@ export default function AppleRepairPage() {
               <p className="text-[#7A9E98] text-xs mt-0.5">Transparent pricing. Written quote before any work begins.</p>
             </div>
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -526,7 +528,7 @@ export default function AppleRepairPage() {
               {
                 icon: BadgeCheck,
                 title: '3-Month Up-to-3 Year Warranty',
-                body: 'Every repair comes with a written up-to-3 year warranty on parts and labour. If the same issue returns within the warranty period, we fix it at no charge. Extended warranty available on request.',
+                body: 'Every repair comes with a written up-to-3 year warranty on parts and labour. If the same issue returns within the warranty period, we fix it at from R599. Extended warranty available on request.',
               },
               {
                 icon: Clock,

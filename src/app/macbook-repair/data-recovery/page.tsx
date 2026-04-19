@@ -6,11 +6,12 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Data Recovery Johannesburg | ZA Support',
   description:
-    'MacBook data recovery in Johannesburg. Recover deleted files, failed hard drives, SSD faults, accidental format, and liquid damage data loss. 95% success rate. No data, no fee. Hyde Park, Johannesburg.',
+    'MacBook data recovery in Johannesburg. Recover deleted files, failed hard drives, SSD faults, accidental format, and liquid damage data loss. 95% success rate. No data. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/data-recovery' },
   keywords: [
     'macbook data recovery johannesburg',
@@ -117,7 +118,7 @@ const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'Product',
   name: 'MacBook Data Recovery Johannesburg',
-  description: 'MacBook data recovery service in Johannesburg. Deleted files, failed drives, liquid damage, accidental format. No data, no fee.',
+  description: 'MacBook data recovery service in Johannesburg. Deleted files, failed drives, liquid damage, accidental format. No data.',
   brand: { '@type': 'Brand', name: 'ZA Support' },
   review: reviews.map((r) => ({
     '@type': 'Review',
@@ -141,7 +142,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'MacBook data recovery in Johannesburg. Deleted files, hard drive failure, SSD faults, accidental format, liquid damage. 95% success rate. No data, no fee.',
+  description: 'MacBook data recovery in Johannesburg. Deleted files, hard drive failure, SSD faults, accidental format, liquid damage. 95% success rate. No data.',
 };
 
 const breadcrumbSchema = {
@@ -271,8 +272,9 @@ export default function MacBookDataRecoveryPage() {
               ))}
             </div>
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
-              Assessment, recovery labour, and transfer to your storage media included. No hidden fees.
+              Assessment, recovery labour, and transfer to your storage media included. Transparent R599+ pricing.
             </p>
+            <PricingNote variant="inline" />
           </div>
         </div>
       </section>
@@ -517,7 +519,7 @@ export default function MacBookDataRecoveryPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Lost Data on Your MacBook?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered, no charge.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered, from R599.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · POPIA-compliant · Stop using the machine and contact us now</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

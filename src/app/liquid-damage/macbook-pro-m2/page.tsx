@@ -56,7 +56,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M2 liquid damage repair cost?',
     answer:
-      'Costs depend on the extent of damage. A keyboard-only replacement where no liquid reached the logic board is the most affordable. USB-C controller or NAND controller repair is moderately priced. Full board cleaning with multiple IC replacements is the most complex case. All repairs are quoted upfront. Assessment from R599. No Fix No Fee.',
+      'Costs depend on the extent of damage. A keyboard-only replacement where no liquid reached the logic board is the most affordable. USB-C controller or NAND controller repair is moderately priced. Full board cleaning with multiple IC replacements is the most complex case. All repairs are quoted upfront. Assessment from R599. From R599 assessment.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro M2?',
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'Is a liquid-damaged M2 MacBook Pro worth repairing?',
     answer:
-      'Almost always, yes. A new MacBook Pro M2 costs R22,000-R55,000 depending on specification. Our component-level repairs typically cost a fraction of replacement. We preserve your data, your settings, and your machine. If repair is genuinely not economical, we tell you honestly during the assessment — no obligation beyond the R599 fee.',
+      'Almost always, yes. A new MacBook Pro M2 costs R22,000-R55,000 depending on specification. Our component-level repairs typically cost a fraction of replacement. We preserve your data, your settings, and your machine. If repair is genuinely not economical, we tell you honestly during the assessment — beyond the R599 fee.',
   },
   {
     question: 'Do you collect M2 MacBook Pros from across Johannesburg?',
@@ -170,7 +170,7 @@ export default function MacBookProM2LiquidDamagePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M2 Specialist' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -246,7 +246,7 @@ export default function MacBookProM2LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every case — if we cannot repair your M2 MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
+              All repairs are quoted before work begins. From R599 assessment on every case — if we cannot repair your M2 MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>

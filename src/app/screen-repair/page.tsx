@@ -8,6 +8,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
@@ -108,7 +109,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you offer on screen repairs?',
-    answer: 'Every screen repair carried out by ZA Support includes an up-to-3 year warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period — dead pixels, backlight failure, colour shift — we repair or replace it at no charge. The warranty is provided in writing and covers parts and labour.',
+    answer: 'Every screen repair carried out by ZA Support includes an up-to-3 year warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period — dead pixels, backlight failure, colour shift — we repair or replace it at from R599. The warranty is provided in writing and covers parts and labour.',
   },
 ];
 
@@ -262,7 +263,7 @@ export default function ScreenRepairPage() {
                   <Shield className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty
                 </span>
                 <span className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-[#0FEA7A]" /> No Fix, No Fee
+                  <CheckCircle className="w-4 h-4 text-[#0FEA7A]" /> From R599 assessment
                 </span>
                 <span className="flex items-center gap-2">
                   <Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-Day iPhone Repairs
@@ -351,6 +352,7 @@ export default function ScreenRepairPage() {
               All prices in ZAR and include parts, labour, and up-to-3 year warranty. Exact price depends on model year and panel type.
               Apple Store comparison: R6,000–R15,000 for the same repairs.
             </p>
+            <PricingNote />
           </div>
         </section>
 
@@ -451,7 +453,7 @@ export default function ScreenRepairPage() {
               </div>
               <div className="text-center p-6">
                 <CheckCircle className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">No Fix, No Fee</h3>
+                <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">From R599 assessment</h3>
                 <p className="text-[#7A9E98] text-sm">
                   If we cannot repair your screen or source the correct panel for your model, you pay nothing beyond the
                   assessment fee. No surprises.
@@ -582,7 +584,7 @@ export default function ScreenRepairPage() {
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
               WhatsApp us a photo of the damage and we will reply with a fixed-price quote — usually within 30 minutes
-              during business hours. Assessment from R599. No Fix, No Fee.
+              during business hours. Assessment from R599. From R599 assessment.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

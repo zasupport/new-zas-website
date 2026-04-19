@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
@@ -63,7 +64,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on Mac mini logic board repair?',
     answer:
-      'All Mac mini logic board repairs carry a warranty on the specific component repaired. This is a up-to-3 year warranty with no fine print. If the repaired component fails within the warranty period, we fix it at no charge. We stand behind our work.',
+      'All Mac mini logic board repairs carry a warranty on the specific component repaired. This is a up-to-3 year warranty with no fine print. If the repaired component fails within the warranty period, we fix it at from R599. We stand behind our work.',
   },
 ];
 
@@ -379,6 +380,8 @@ export default function MacMiniLogicBoardPage() {
               </tbody>
             </table>
           </div>
+        
+          <PricingNote variant="inline" />
         </div>
       </section>
 

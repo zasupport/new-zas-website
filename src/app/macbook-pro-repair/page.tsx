@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
@@ -344,6 +345,7 @@ export default function MacBookProRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee (from R599). All repairs include up-to-3 year warranty.</p>
+          <PricingNote />
         </div>
       </section>
 

@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
@@ -63,7 +64,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad repairs?',
     answer:
-      'Yes. All iPad repairs carry a warranty on parts and labour. If the same fault recurs within the warranty period, we fix it at no charge. This excludes physical damage or liquid damage after the repair.',
+      'Yes. All iPad repairs carry a warranty on parts and labour. If the same fault recurs within the warranty period, we fix it at from R599. This excludes physical damage or liquid damage after the repair.',
   },
 ];
 
@@ -80,7 +81,7 @@ const repairServices = [
     desc: 'Restore full battery capacity and eliminate unexpected shutdowns.',
     priceStandard: 'Contact for pricing',
     pricePro: '',
-    note: 'Battery health check included at no charge.',
+    note: 'Battery health check included at from R599.',
   },
   {
     title: 'Charging Port Repair',
@@ -94,7 +95,7 @@ const repairServices = [
     desc: 'Ultrasonic board clean, component-level diagnosis, and board repair.',
     priceStandard: 'Contact for pricing',
     pricePro: '',
-    note: 'Assessment: from R599 applies, no charge if repair is not possible.',
+    note: 'Assessment: from R599 applies, from R599 if repair is not possible.',
   },
 ];
 
@@ -168,7 +169,7 @@ export default function iPadRepairPage() {
               Professional iPad repair in Johannesburg. Screen, battery, and charging port repairs for all iPad models including M4 iPad Pro, Air M2, and mini 6.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment: from R599. warranty on all repairs. Assessment: from R599, no charge if we cannot fix it.
+              Assessment: from R599. warranty on all repairs. Assessment: from R599, from R599 if we cannot fix it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -225,6 +226,7 @@ export default function iPadRepairPage() {
               </div>
             ))}
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -345,7 +347,7 @@ export default function iPadRepairPage() {
               {
                 step: '3',
                 title: 'Quote, You Decide',
-                desc: 'We give you a fixed quote for the repair. No surprises. You decide whether to go ahead. No charge if you decline.',
+                desc: 'We give you a fixed quote for the repair. No surprises. You decide whether to go ahead. From R599 if you decline.',
               },
               {
                 step: '4',

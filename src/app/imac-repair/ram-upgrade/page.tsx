@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iMac RAM Upgrade Johannesburg | Up to 128 GB | ZA Support',
@@ -232,6 +233,7 @@ export default function IMacRAMUpgradePage() {
           <p className="text-center text-sm text-slate-500 mt-4">
             We check your current RAM configuration before ordering. Fixed quote, no surprises.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

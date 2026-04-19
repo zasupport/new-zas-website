@@ -66,7 +66,7 @@ const faqs = [
   {
     question: 'How much does MacBook water damage repair cost in South Africa?',
     answer:
-      'Assessment is R599 at ZA Support in Hyde Park, Johannesburg. Minor spills requiring only ultrasonic cleaning typically cost R1,500 to R3,500. Moderate damage with one or two failed ICs ranges from R3,500 to R6,500. Severe multi-component corrosion with power management IC replacement can range from R6,500 to R12,000. All costs are confirmed in a written quote before any work begins. No Fix No Fee policy applies.',
+      'Assessment is R599 at ZA Support in Hyde Park, Johannesburg. Minor spills requiring only ultrasonic cleaning typically cost R1,500 to R3,500. Moderate damage with one or two failed ICs ranges from R3,500 to R6,500. Severe multi-component corrosion with power management IC replacement can range from R6,500 to R12,000. All costs are confirmed in a written quote before any work begins. From R599 assessment policy applies.',
   },
   {
     question: 'What liquid causes the most damage to MacBooks?',
@@ -236,7 +236,7 @@ export default function MacBookWaterDamageGuidePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Clock, label: 'Same-Day Assessment' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -420,7 +420,7 @@ export default function MacBookWaterDamageGuidePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              <strong className="text-[#E8F4F1]">No Fix No Fee.</strong> If we cannot repair your MacBook, the R599 assessment fee applies and the machine is returned exactly as received. No hidden costs. All repair pricing confirmed in a written quote before any work begins. Up-to-3 year warranty on all completed repairs.
+              <strong className="text-[#E8F4F1]">From R599 assessment.</strong> If we cannot repair your MacBook, the R599 assessment fee applies and the machine is returned exactly as received. No hidden costs. All repair pricing confirmed in a written quote before any work begins. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -433,15 +433,15 @@ export default function MacBookWaterDamageGuidePage() {
           <div className="space-y-4 text-[#7A9E98] leading-relaxed mb-8">
             <p>We have been repairing liquid-damaged Macs in Johannesburg since 2009. In 16 years, we have built the tooling, techniques, and component inventory to handle everything from a minor water splash to a catastrophic red wine flood across an entire keyboard deck.</p>
             <p>Unlike Apple and iStore, who replace the entire logic board at R18,000 to R48,000, we repair at the component level. This means we only replace what is actually broken. A failed USB-C controller does not require a new logic board. A corroded audio IC does not mean replacing the CPU. Component-level repair saves you thousands of rands and preserves your data on the original machine.</p>
-            <p>We are honest about prognosis. If your MacBook is beyond economic repair, we tell you upfront and offer data recovery instead. We do not upsell unnecessary repairs or hold machines hostage. Our No Fix No Fee policy means you only pay R599 for the assessment if we cannot fix it.</p>
+            <p>We are honest about prognosis. If your MacBook is beyond economic repair, we tell you upfront and offer data recovery instead. We do not upsell unnecessary repairs or hold machines hostage. Our From R599 assessment policy means you only pay R599 for the assessment if we cannot fix it.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
               { title: 'Component-Level Repair', desc: 'We replace individual failed ICs, not entire boards. This costs a fraction of Apple\'s board-swap approach and preserves your data.' },
               { title: 'Same-Day Collection', desc: 'We collect liquid-damaged MacBooks from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg and all Johannesburg suburbs. Time is critical.' },
-              { title: 'Up-to-3 Year Warranty', desc: 'Every completed repair includes our warranty. If the same component fails, we repair it again at no charge.' },
-              { title: 'Transparent Pricing', desc: 'Written quote before any work begins. No hidden fees. Assessment from R599. No Fix No Fee on every case.' },
+              { title: 'Up-to-3 Year Warranty', desc: 'Every completed repair includes our warranty. If the same component fails, we repair it again at from R599.' },
+              { title: 'Transparent Pricing', desc: 'Written quote before any work begins. Transparent R599+ pricing. Assessment from R599. From R599 assessment on every case.' },
             ].map((item) => (
               <div key={item.title} className="glass-card p-5 border border-[rgba(15,234,122,0.15)]">
                 <h3 className="text-[#E8F4F1] font-bold mb-2">{item.title}</h3>
@@ -499,7 +499,7 @@ export default function MacBookWaterDamageGuidePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | No Fix No Fee | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | From R599 assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

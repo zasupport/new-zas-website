@@ -23,6 +23,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'SME Apple Support Johannesburg | Business IT Solutions | ZA Support',
@@ -128,7 +129,7 @@ const SME_SERVICES = [
   {
     icon: Shield,
     title: 'Industry-Leading Warranties',
-    desc: 'Up-to-3 year warranty on all repairs. Written quotes before work begins. No Fix, No Fee on diagnostics.',
+    desc: 'Up-to-3 year warranty on all repairs. Written quotes before work begins. From R599 assessment on diagnostics.',
   },
   {
     icon: Package,
@@ -290,6 +291,7 @@ export default function SMESupportPage() {
               </div>
             ))}
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -393,7 +395,7 @@ export default function SMESupportPage() {
               {
                 step: '02',
                 title: 'Proposal',
-                desc: 'You receive a written proposal with clear scope, pricing, and timeline. No obligation, no pressure.',
+                desc: 'You receive a written proposal with clear scope, pricing, and timeline. .',
               },
               {
                 step: '03',

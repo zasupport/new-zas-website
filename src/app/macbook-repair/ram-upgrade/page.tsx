@@ -105,7 +105,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on RAM upgrades?',
     answer:
-      'All RAM upgrades carry a up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at no charge.',
+      'All RAM upgrades carry a up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at from R599.',
   },
 ];
 

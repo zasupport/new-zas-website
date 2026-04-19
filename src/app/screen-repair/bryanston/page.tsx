@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Bryanston | ZA Support Hyde Park',
@@ -225,6 +226,7 @@ export default function ScreenRepairBryanstonPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed after diagnostic. Written quote before any work begins.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

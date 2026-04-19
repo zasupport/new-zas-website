@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Midrand | ZA Support Hyde Park',
@@ -26,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Component-level board inspection with no charge' },
+  { item: 'Diagnostic Assessment', note: 'Component-level board inspection with from R599' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip, Midrand collection available' },
   { item: 'Power Circuit Repair', note: 'No-power and charging circuit fault repair' },
   { item: 'Component-level repair Repair', note: 'Precision chip and component-level repair' },
@@ -217,6 +218,7 @@ export default function LogicBoardRepairMidrandPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed after assessment. Collection from Midrand included in service, no hidden charges.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

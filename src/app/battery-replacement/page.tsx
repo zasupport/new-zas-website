@@ -8,11 +8,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg [2026] | From R1,499 | ZA Support',
   description:
-    'MacBook & iPhone battery replacement in Johannesburg from R1,499. Same-day service, up-to-3 year warranty. No Fix No Fee. Assessment from R599. Call 064 529 5863.',
+    'MacBook & iPhone battery replacement in Johannesburg from R1,499. Same-day service, up-to-3 year warranty. From R599 assessment. Assessment from R599. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement' },
 };
 
@@ -31,7 +32,7 @@ const processSteps = [
   { step: 2, title: 'Assessment & Quote', desc: 'We test your battery cycle count, maximum capacity, and charging circuitry. You receive a written, fixed-price quote before any work begins. Assessment from R599.' },
   { step: 3, title: 'Battery Replacement', desc: 'Our technicians remove the old battery using precision tools and adhesive solvents. The replacement cell is tested for voltage, capacity, and thermal stability before installation.' },
   { step: 4, title: 'Calibration & QA', desc: 'Full charge-discharge calibration cycle. We verify the battery reports correctly in macOS System Information, confirm MagSafe / USB-C charging, and run a thermal stress test.' },
-  { step: 5, title: 'Collect with Warranty', desc: 'You collect your device with a written warranty — up to 3 years on MacBook batteries, up to 12 months on iPhone and iPad. If the battery fails within the warranty period, we replace it at no charge.' },
+  { step: 5, title: 'Collect with Warranty', desc: 'You collect your device with a written warranty — up to 3 years on MacBook batteries, up to 12 months on iPhone and iPad. If the battery fails within the warranty period, we replace it at from R599.' },
 ];
 
 /* ── Device Compatibility Grid ───────────────────────────────────────────── */
@@ -88,7 +89,7 @@ const faqs = [
   },
   {
     question: 'What is your warranty on battery replacements?',
-    answer: 'MacBook battery replacements carry a written warranty of up to 3 years covering the battery cell and our workmanship. iPhone and iPad battery replacements carry a warranty of up to 12 months. If the replacement battery fails within the warranty period — capacity drops below 80% or the battery develops a fault — we replace it again at no charge. The warranty is provided in writing at collection.',
+    answer: 'MacBook battery replacements carry a written warranty of up to 3 years covering the battery cell and our workmanship. iPhone and iPad battery replacements carry a warranty of up to 12 months. If the replacement battery fails within the warranty period — capacity drops below 80% or the battery develops a fault — we replace it again at from R599. The warranty is provided in writing at collection.',
   },
   {
     question: 'Can you replace the battery in a MacBook with a swollen battery?',
@@ -99,7 +100,7 @@ const faqs = [
     answer: 'Apple charges a premium that includes their retail overhead, logistics, and the fact that they often replace additional components unnecessarily. For example, Apple replaces the entire top case assembly on many MacBook Pro models rather than just the battery. We replace only the battery cells themselves, which reduces parts cost substantially. Our Hyde Park workshop has lower overheads than a Sandton City retail unit, and we pass those savings directly to you.',
   },
   {
-    question: 'Do you offer a No Fix No Fee policy on battery replacements?',
+    question: 'Do you offer a From R599 assessment policy on battery replacements?',
     answer: 'Yes. If we assess your device and determine that a battery replacement will not resolve your issue — for example, if the problem is actually a logic board fault causing incorrect battery readings — you pay nothing beyond the assessment fee (from R599). We will never replace a battery that does not need replacing. If the battery is the confirmed issue, the assessment fee is included in the replacement cost.',
   },
 ];
@@ -186,7 +187,7 @@ export default function BatteryReplacementPage() {
               <p className="text-lg sm:text-xl text-[#7A9E98] mb-4 speakable-summary">
                 Same-day MacBook battery replacement from <strong className="text-[#E8F4F1]">R1,499</strong> at our
                 Hyde Park workshop. iPhone batteries from <strong className="text-[#E8F4F1]">R899</strong>. Up-to-3 year
-                warranty on all MacBook battery replacements. No Fix No Fee.
+                warranty on all MacBook battery replacements. From R599 assessment.
               </p>
               <p className="text-[#7A9E98] mb-8">
                 The Apple Store charges R3,500 to R8,000 for the same replacement. We fit premium-grade cells
@@ -221,7 +222,7 @@ export default function BatteryReplacementPage() {
               { icon: Shield, label: 'Up-to-3 Year Warranty' },
               { icon: Clock, label: 'Same-Day Service' },
               { icon: Star, label: `${SITE.rating}★ (${SITE.reviewCount} Reviews)` },
-              { icon: CheckCircle, label: 'No Fix No Fee' },
+              { icon: CheckCircle, label: 'From R599 assessment' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center gap-2">
                 <Icon className="w-6 h-6 text-[#0FEA7A]" />
@@ -307,6 +308,7 @@ export default function BatteryReplacementPage() {
               Assessment fee from R599. If you proceed with the replacement, the assessment fee is included in the total cost.
               All prices are in ZAR and include VAT.
             </p>
+            <PricingNote />
           </div>
         </section>
 
@@ -363,7 +365,7 @@ export default function BatteryReplacementPage() {
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     Every MacBook battery replacement includes a written warranty of up to 3 years. This covers the
                     battery cell and our workmanship. If your replacement battery drops below 80% maximum capacity or
-                    develops any fault within the warranty period, we replace it again at no charge — parts and labour
+                    develops any fault within the warranty period, we replace it again at from R599 — parts and labour
                     included.
                   </p>
                   <p className="text-[#7A9E98] leading-relaxed">
@@ -376,10 +378,10 @@ export default function BatteryReplacementPage() {
                   <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">iPhone & iPad — Up to 12 Months</h3>
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     iPhone and iPad battery replacements carry a written warranty of up to 12 months. The same principle
-                    applies: if the battery fails within the warranty period, we replace it at no charge. We test every
+                    applies: if the battery fails within the warranty period, we replace it at from R599. We test every
                     iPhone battery for capacity and thermal stability before fitting it.
                   </p>
-                  <h3 className="text-xl font-bold mb-3 mt-6 text-[#0FEA7A]">No Fix No Fee</h3>
+                  <h3 className="text-xl font-bold mb-3 mt-6 text-[#0FEA7A]">From R599 assessment</h3>
                   <p className="text-[#7A9E98] leading-relaxed">
                     If we determine that your battery is not the issue — for instance, if a{' '}
                     <Link href="/logic-board-repair" className="text-[#0FEA7A] underline hover:no-underline">logic board fault</Link>{' '}

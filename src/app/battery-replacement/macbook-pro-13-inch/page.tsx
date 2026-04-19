@@ -21,11 +21,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro 13-inch Battery Replacement Johannesburg [2026] | From R1,799 | ZA Support',
   description:
-    'MacBook Pro 13-inch battery replacement Johannesburg from R1,799. All models 2012–2024. Touch Bar dual-cell covered. Adhesive removal specialists. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 13-inch battery replacement Johannesburg from R1,799. All models 2012–2024. Touch Bar dual-cell covered. Adhesive removal specialists. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-13-inch' },
   keywords: [
     'MacBook Pro 13 inch battery replacement Johannesburg',
@@ -61,7 +62,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 13-inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 13-inch battery replacement in Johannesburg. All models 2012 through 2024. Touch Bar dual-cell models covered. Adhesive removal specialists. From R1,799. No Fix No Fee. Up-to-3 year warranty.',
+    'Professional MacBook Pro 13-inch battery replacement in Johannesburg. All models 2012 through 2024. Touch Bar dual-cell models covered. Adhesive removal specialists. From R1,799. From R599 assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -201,7 +202,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Pro 13-inch battery replacements?',
     answer:
-      'MacBook Pro 13-inch battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period — dropping below 80% capacity or developing any electrical fault — we replace it again at no charge. The warranty document is issued in writing at collection. No Fix No Fee: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
+      'MacBook Pro 13-inch battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period — dropping below 80% capacity or developing any electrical fault — we replace it again at from R599. The warranty document is issued in writing at collection. From R599 assessment: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
   },
 ];
 
@@ -237,7 +238,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Battery, label: 'All 13″ Models 2012–2024' },
                 { icon: Zap, label: 'Assessment from R599' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -307,8 +308,9 @@ export default function BatteryReplacementMacBookPro13InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -367,7 +369,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our No Fix No Fee policy means that if we assess your MacBook Pro 13-inch and determine a battery replacement will not resolve your issue, an assessment fee of R599 applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our From R599 assessment policy means that if we assess your MacBook Pro 13-inch and determine a battery replacement will not resolve your issue, an assessment fee of R599 applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
             </p>
           </div>
         </div>

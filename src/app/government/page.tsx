@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import FAQAccordion from '@/components/ui/FAQ';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Government IT Services South Africa | BEE Level 1 Apple Specialist | ZA Support',
@@ -285,6 +286,7 @@ export default function GovernmentPage() {
                 </div>
               ))}
             </div>
+            <PricingNote />
           </div>
 
           {/* Security Section */}

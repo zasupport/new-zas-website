@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPhone Back Glass Repair Johannesburg | ZA Support',
@@ -127,7 +128,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on iPhone back glass repairs?',
     answer:
-      'All iPhone back glass repairs at ZA Support carry a up-to-3 year warranty on the replacement glass and our labour. If the glass delaminates or any fault related to our repair appears within the warranty period, we fix it at no charge.',
+      'All iPhone back glass repairs at ZA Support carry a up-to-3 year warranty on the replacement glass and our labour. If the glass delaminates or any fault related to our repair appears within the warranty period, we fix it at from R599.',
   },
 ];
 
@@ -279,8 +280,9 @@ export default function iPhoneBackGlassPage() {
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
             All repairs include written up-to-3 year warranty. Assessment: from R599. MagSafe and wireless charging tested post-repair.
-            Assessment: from R599, no charge if we cannot complete the repair.
+            Assessment: from R599, from R599 if we cannot complete the repair.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -325,7 +327,7 @@ export default function iPhoneBackGlassPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every back glass repair carries a warranty on the replacement glass and labour. If it delaminates or fails, we fix it, no charge.',
+                    desc: 'Every back glass repair carries a warranty on the replacement glass and labour. If it delaminates or fails, we fix it, from R599.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

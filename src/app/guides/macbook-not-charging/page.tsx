@@ -19,7 +19,7 @@ const faqs = [
   { question: 'How do I reset the SMC on my MacBook?', answer: 'On Intel MacBooks: shut down, hold Shift + Control + Option + Power for 10 seconds, release all keys, then press Power to start. On Apple Silicon (M1, M2, M3, M4): shut down completely, wait 30 seconds, then press and hold the power button for 10 seconds. Release, wait a few seconds, and press power normally. The Apple Silicon method forces the power management controller to reinitialise.' },
   { question: 'My MagSafe light is not coming on at all. What does that mean?', answer: 'No light on the MagSafe connector means zero power is reaching the Mac. Check the cable for damage, try a different wall outlet (especially after load shedding), and try a known-good charger. If the charger works on another Mac but produces no light on yours, the fault is internal — typically the MagSafe board connector, a blown fuse on the logic board, or a failed charging IC.' },
   { question: 'Can a USB-C MacBook charge from only one port?', answer: 'If your MacBook charges from one USB-C port but not the other, it usually indicates a failed CD3215 or CD3217 USB-C controller IC on the dead port side. This is a board-level component repair, not a port replacement. ZA Support repairs these at component level in our Hyde Park workshop.' },
-  { question: 'How much does MacBook charging repair cost in South Africa?', answer: 'Costs vary by fault type. A new genuine charger runs R1,200 to R2,499. USB-C port cleaning is R299 to R499. Charging IC replacement (CD3215, CD3217, ISL9240) ranges from R1,800 to R4,500 depending on the model. Battery replacement costs R1,499 to R3,999. ZA Support provides a written quote after the R599 assessment — No Fix No Fee applies.' },
+  { question: 'How much does MacBook charging repair cost in South Africa?', answer: 'Costs vary by fault type. A new genuine charger runs R1,200 to R2,499. USB-C port cleaning is R299 to R499. Charging IC replacement (CD3215, CD3217, ISL9240) ranges from R1,800 to R4,500 depending on the model. Battery replacement costs R1,499 to R3,999. ZA Support provides a written quote after the R599 assessment — From R599 assessment applies.' },
   { question: 'Does load shedding damage MacBook chargers?', answer: 'Yes. The power surge when electricity returns after load shedding regularly damages both the charger brick and the MacBook internal charging circuit. We see this weekly in our Hyde Park workshop. A quality surge protector rated for South African load shedding conditions (minimum 1,000 joules) is essential. If your MacBook stopped charging after a power event, the ISL9240 charger IC or CD3217 USB-C controller is the most likely casualty.' },
   { question: 'How do I check my MacBook battery health?', answer: 'Click the Apple menu, hold Option, and click System Information. Navigate to Hardware then Power. Look for Cycle Count (under 1,000 is normal), Condition (should say Normal), and Maximum Capacity percentage. Below 80% maximum capacity means the battery is degraded and may not hold charge or accept charge properly. On macOS Ventura and later, go to System Settings then Battery then Battery Health.' },
   { question: 'My MacBook shows "Not Charging" but is plugged in. Why?', answer: 'The "Not Charging" status means the Mac detects the charger but is deliberately not drawing power. Common causes: using a charger with insufficient wattage (e.g., a 30W charger on a 16-inch MacBook Pro that needs 140W), battery temperature too high, or a software bug. Try an SMC reset first. If the status persists with the correct wattage charger, the battery or charging circuit needs professional diagnosis.' },
@@ -38,7 +38,7 @@ const steps = [
   { name: 'Test both USB-C ports', text: 'On MacBooks with USB-C charging, try plugging the charger into each port individually. If one port charges and the other does not, the fault is a failed USB-C controller IC on the dead port side — typically the CD3215 (older models) or CD3217 (newer models). Each USB-C port has its own controller chip, so a single port failure is a discrete component fault, not a whole-board issue. If neither port charges, the fault may be upstream on the main power rail or the ISL9240 charger IC.' },
   { name: 'Identify a charging IC fault', text: 'When all external checks pass but the MacBook still will not charge, the fault is almost certainly a failed charging IC on the logic board. The three most common culprits we see in our Hyde Park workshop: the CD3215 and CD3217 USB-C power delivery controllers that negotiate voltage and current with the charger, and the ISL9240 charger IC that regulates power from the USB-C controller to the battery. Load shedding surges in South Africa are the number one cause of these failures — the return-of-power spike exceeds the IC voltage tolerances. These are surface-mount components requiring micro-soldering to replace.' },
   { name: 'Check for battery problems', text: 'A battery can fail in ways that prevent charging entirely. Swollen batteries (visible as a bulging trackpad or uneven base) must be replaced immediately as they are a fire hazard. Dead cells cause the battery management system to reject charge to protect the remaining cells. Connector damage — corrosion or a loose ribbon cable at the battery connector on the logic board — breaks the charge path. If your MacBook runs on mains power but the battery percentage never increases, or if it shuts down the moment you unplug, the battery itself needs replacement.' },
-  { name: 'Get a professional assessment', text: 'If you have worked through steps 1 to 9 without success, the fault requires board-level diagnosis. At ZA Support, we use thermal imaging and micro-soldering stations to pinpoint the exact failed component — whether that is a blown fuse, a shorted capacitor, a dead charging IC, or a damaged battery connector. Our R599 assessment includes a full written report identifying the fault, a fixed-price repair quote, and our No Fix No Fee guarantee. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs.' },
+  { name: 'Get a professional assessment', text: 'If you have worked through steps 1 to 9 without success, the fault requires board-level diagnosis. At ZA Support, we use thermal imaging and micro-soldering stations to pinpoint the exact failed component — whether that is a blown fuse, a shorted capacitor, a dead charging IC, or a damaged battery connector. Our R599 assessment includes a full written report identifying the fault, a fixed-price repair quote, and our From R599 assessment guarantee. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs.' },
 ];
 
 const costGuide = [
@@ -123,14 +123,14 @@ export default function MacBookNotChargingGuidePage() {
               <br /><span className="text-[#0FEA7A]">Here&apos;s How to Fix It</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Your MacBook is plugged in but nothing happens. No light, no charge, no response. Before you panic, work through these 10 steps. We have diagnosed thousands of charging faults at our Hyde Park workshop in Johannesburg — from dead chargers to blown charging ICs caused by South African load shedding surges. This guide covers everything you can check at home, when it is time for professional repair, and what each fix costs in ZAR.
+              Your MacBook is plugged in but nothing happens. No light, from R599, no response. Before you panic, work through these 10 steps. We have diagnosed thousands of charging faults at our Hyde Park workshop in Johannesburg — from dead chargers to blown charging ICs caused by South African load shedding surges. This guide covers everything you can check at home, when it is time for professional repair, and what each fix costs in ZAR.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Park Lane, Hyde Park, JHB 2196 | Assessment from R599 | No Fix No Fee | 12-Month Warranty</span>
+              <span>1 Hyde Park Lane, Hyde Park, JHB 2196 | Assessment from R599 | From R599 assessment | 12-Month Warranty</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['10-Step Guide', 'No Fix No Fee', '12-Month Warranty', 'Assessment from R599'].map((l) => (
+              {['10-Step Guide', 'From R599 assessment', '12-Month Warranty', 'Assessment from R599'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -185,7 +185,7 @@ export default function MacBookNotChargingGuidePage() {
             <div className="glass-card p-5">
               <h3 className="text-[#E8F4F1] font-bold mb-2">CD3215 / CD3217 — USB-C Power Delivery Controller</h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                These Texas Instruments chips handle USB-C power negotiation on every MacBook from 2016 onwards. They communicate with the charger to agree on voltage (5V, 9V, 15V, or 20V) and current. A surge or liquid damage kills the negotiation, so the charger never delivers power even though the cable is physically connected. Symptoms: no charge from one or both USB-C ports, intermittent charging, or the Mac drawing power but not negotiating the correct wattage. The CD3217 is the newer variant found in M1 and later machines.
+                These Texas Instruments chips handle USB-C power negotiation on every MacBook from 2016 onwards. They communicate with the charger to agree on voltage (5V, 9V, 15V, or 20V) and current. A surge or liquid damage kills the negotiation, so the charger never delivers power even though the cable is physically connected. Symptoms: from R599 from one or both USB-C ports, intermittent charging, or the Mac drawing power but not negotiating the correct wattage. The CD3217 is the newer variant found in M1 and later machines.
               </p>
             </div>
             <div className="glass-card p-5">
@@ -230,7 +230,7 @@ export default function MacBookNotChargingGuidePage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-sm mt-6">
-            All repairs are quoted after the R599 assessment. No Fix No Fee applies — if we cannot fix it, you pay nothing beyond the assessment fee. Prices valid as of 2026 and subject to model-specific variation.
+            All repairs are quoted after the R599 assessment. From R599 assessment applies — if we cannot fix it, you pay nothing beyond the assessment fee. Prices valid as of 2026 and subject to model-specific variation.
           </p>
         </div>
       </section>
@@ -271,7 +271,7 @@ export default function MacBookNotChargingGuidePage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Still Not Charging? We Will Fix It.</h2>
             <p className="text-[#7A9E98] mb-6">
-              R599 assessment. No Fix No Fee. 12-month warranty on all charging repairs. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.
+              R599 assessment. From R599 assessment. 12-month warranty on all charging repairs. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('GUIDE-CHARGING-CTA', 'charging-port')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

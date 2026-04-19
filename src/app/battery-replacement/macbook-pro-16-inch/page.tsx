@@ -21,11 +21,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro 16-Inch Battery Replacement Johannesburg 2026 | From R2,999 | ZA Support',
   description:
-    'MacBook Pro 16-inch battery replacement Johannesburg from R2,999. 99.6 Wh cell, eight adhesive sections, full calibration. From R599 assessment. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 16-inch battery replacement Johannesburg from R2,999. 99.6 Wh cell, eight adhesive sections, full calibration. From R599 assessment. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-16-inch' },
   keywords: [
     'MacBook Pro 16 inch battery replacement Johannesburg',
@@ -61,7 +62,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 16-Inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 16-inch battery replacement in Johannesburg. 99.6 Wh lithium-polymer cell, eight adhesive sections, full calibration. From R2,999. No Fix No Fee. 12-month warranty.',
+    'Professional MacBook Pro 16-inch battery replacement in Johannesburg. 99.6 Wh lithium-polymer cell, eight adhesive sections, full calibration. From R2,999. From R599 assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -133,7 +134,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on the MacBook Pro 16-inch battery replacement?',
     answer:
-      'All MacBook Pro 16-inch battery replacements carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — maximum capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault — we replace it again at no charge. The warranty document is provided at collection.',
+      'All MacBook Pro 16-inch battery replacements carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — maximum capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault — we replace it again at from R599. The warranty document is provided at collection.',
   },
   {
     question: 'Do you offer collection for MacBook Pro 16-inch battery replacement in Johannesburg?',
@@ -166,7 +167,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Pro 16-inch carries Apple&apos;s largest laptop battery — a 99.6 Wh cell secured by eight adhesive sections. Replacing it requires precision tooling, controlled heat, and experience with the specific adhesive configuration. From R2,999 at our Hyde Park workshop. Same-day service. 12-month warranty. No Fix No Fee.
+              The MacBook Pro 16-inch carries Apple&apos;s largest laptop battery — a 99.6 Wh cell secured by eight adhesive sections. Replacing it requires precision tooling, controlled heat, and experience with the specific adhesive configuration. From R2,999 at our Hyde Park workshop. Same-day service. 12-month warranty. From R599 assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -174,7 +175,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Battery, label: '99.6 Wh Cell' },
                 { icon: Zap, label: 'R599 Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
@@ -295,8 +296,9 @@ export default function BatteryReplacementMacBookPro16InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599. No Fix No Fee.
+            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599. From R599 assessment.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -445,7 +447,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 16-Inch Battery Failing?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and the symptoms — poor battery life, swollen bottom case, unexpected shutdowns, or service warning — and we will provide an honest assessment and price before you bring the machine in. From R599 assessment. No Fix No Fee.
+              WhatsApp us your model year and the symptoms — poor battery life, swollen bottom case, unexpected shutdowns, or service warning — and we will provide an honest assessment and price before you bring the machine in. From R599 assessment. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

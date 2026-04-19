@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air M3 Logic Board Repair 2026 | ZA Support',
   description:
-    'Expert MacBook Air M3 logic board repair in Johannesburg. Component-level diagnosis of M3 chip, MagSafe 3, USB-C and backlight failures. No Fix No Fee. Assessment from R599.',
+    'Expert MacBook Air M3 logic board repair in Johannesburg. Component-level diagnosis of M3 chip, MagSafe 3, USB-C and backlight failures. From R599 assessment. Assessment from R599.',
   alternates: {
     canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m3',
   },
@@ -23,7 +23,7 @@ const faults = [
   },
   {
     fault: 'MagSafe 3 Charging Not Working',
-    desc: 'Amber light but no charge, or no LED at all — both point to the MagSafe 3 sense circuit on the logic board rather than the cable itself. The M3 Air shares the same connector footprint as the M2, so the weak point is identical: the four outermost pads that carry the charge negotiation signal. We reflow or replace the gate driver and test at full 67 W input before returning the machine.',
+    desc: 'Amber light but from R599, or no LED at all — both point to the MagSafe 3 sense circuit on the logic board rather than the cable itself. The M3 Air shares the same connector footprint as the M2, so the weak point is identical: the four outermost pads that carry the charge negotiation signal. We reflow or replace the gate driver and test at full 67 W input before returning the machine.',
   },
   {
     fault: 'USB-C / Thunderbolt Port Failure',
@@ -75,7 +75,7 @@ const faqs = [
       'We repair both variants. The 13-inch (model A3113) and 15-inch (model A3114) share the same M3 chip and nearly identical power delivery circuitry. The 15-inch model has a slightly larger battery and an additional speaker, but the logic board layout and common failure points are the same.',
   },
   {
-    question: 'What is your No Fix No Fee policy?',
+    question: 'What is your From R599 assessment policy?',
     answer:
       'If we cannot resolve the fault after diagnosis, you pay nothing beyond the initial R599 assessment fee. The assessment covers a full component-level inspection with thermal imaging and board-level testing — you receive a detailed report regardless of whether you proceed with the repair.',
   },
@@ -136,7 +136,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </h1>
           <p className="mt-4 text-lg text-[#7A9E98] max-w-2xl mx-auto">
             Component-level micro-soldering for the 2024 MacBook Air with Apple&apos;s 3nm M3 chip.
-            No Fix No Fee — assessment from R599 with a written warranty on every repair.
+            From R599 assessment — assessment from R599 with a written warranty on every repair.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -210,7 +210,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </div>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
-              'No Fix No Fee guarantee',
+              'From R599 assessment guarantee',
               'Assessment from R599',
               'Written warranty included',
               'Genuine and tested parts',

@@ -49,7 +49,7 @@ const faqs = [
     answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
   },
   {
-    question: 'Is there a No Fix No Fee policy for liquid damage?',
+    question: 'Is there a From R599 assessment policy for liquid damage?',
     answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
   },
   {
@@ -112,7 +112,7 @@ export default function LiquidDamageWoodmeadPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Woodmead' },
-                { icon: CheckCircle, label: 'No Fix No Fee' },
+                { icon: CheckCircle, label: 'From R599 assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -162,7 +162,7 @@ export default function LiquidDamageWoodmeadPage() {
               For office-park businesses and corporate teams in Woodmead Estate, same-day collection from Woodmead Office Park, Woodlands Boulevard, and surrounding business estate makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with no obligation to proceed.
+              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function LiquidDamageWoodmeadPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Woodmead? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Woodmead. Assessment from R599. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Woodmead. Assessment from R599. From R599 assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-WOODMEAD', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp — Act Now

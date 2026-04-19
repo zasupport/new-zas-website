@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Managed IT Services for Investec Clients Johannesburg 2026 | ZA Support',
@@ -390,6 +391,7 @@ export default function InvestecManagedServicesPage() {
               </div>
             ))}
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -508,9 +510,8 @@ export default function InvestecManagedServicesPage() {
             </h2>
             <p className="text-[#7A9E98] mb-2">
               New Investec-plan clients receive a{' '}
-              <strong className="text-[#E8F4F1]">complimentary IT security assessment</strong>. We audit
-              your devices, evaluate your compliance posture, and recommend the right plan. No obligation,
-              no pressure.
+              <strong className="text-[#E8F4F1]">R599 IT security assessment</strong>. We audit
+              your devices, evaluate your compliance posture, and recommend the right plan.
             </p>
             <p className="text-[#7A9E98] text-sm mb-6">
               Based at 1 Hyde Park Lane, Hyde Park — 8 minutes from Investec Place, Sandton.

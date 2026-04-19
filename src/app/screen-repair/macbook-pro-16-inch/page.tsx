@@ -7,6 +7,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro 16-Inch Screen Repair Johannesburg [2026] | From R4,999 | ZA Support',
@@ -293,6 +294,7 @@ export default function ScreenRepairMacBookPro16Page() {
           <p className="text-[#7A9E98] text-xs mt-4">
             All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

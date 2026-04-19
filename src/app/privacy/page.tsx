@@ -258,7 +258,7 @@ export default function PrivacyPolicyPage() {
                 <li><span className="text-[#E8F4F1] font-medium">Right to lodge a complaint:</span> submit a complaint to the Information Regulator if you believe your rights have been infringed</li>
               </ul>
               <p className="mt-4">
-                We will respond to all valid requests within 30 days, as required by POPIA. There is no fee for submitting a request, though we may charge a reasonable fee for manifestly unfounded or excessive requests.
+                We will respond to all valid requests within 30 days, as required by POPIA. Submitting a data request carries no additional administrative cost (POPIA s50(6) applies), though we may charge a reasonable fee for manifestly unfounded or excessive requests.
               </p>
             </div>
           </div>

@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     question: 'Do you offer a warranty on logic board repairs?',
-    answer: 'Yes, all ZA Support logic board repairs carry a warranty on the repaired component and any parts replaced. This is significantly longer than the industry standard in Johannesburg. If the same fault returns within the warranty period, we repair it at no charge.',
+    answer: 'Yes, all ZA Support logic board repairs carry a warranty on the repaired component and any parts replaced. This is significantly longer than the industry standard in Johannesburg. If the same fault returns within the warranty period, we repair it at from R599.',
   },
   {
     question: 'What if my MacBook Pro cannot be fixed?',
@@ -152,7 +152,7 @@ export default function MacBookProLogicBoardPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Component-level repair for MacBook Pro logic board faults.
-              All Intel and Apple Silicon models. Assessment: from R599 with no obligation.
+              All Intel and Apple Silicon models. Assessment: from R599 with.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               We repair the board, we do not just replace it. Component-level repair is a fraction of the cost of a full board replacement. Hyde Park, Johannesburg.
@@ -391,7 +391,7 @@ export default function MacBookProLogicBoardPage() {
           </p>
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
-              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. No charge, no obligation.' },
+              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. From R599,.' },
               { item: 'USB-C / I/O Board Repair', note: 'Port board replacement or USB-C controller IC component-level repair' },
               { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or eDP connector fault' },
               { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC replacement' },
@@ -418,7 +418,7 @@ export default function MacBookProLogicBoardPage() {
           </div>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Assessment: from R599, always.</strong> We assess your MacBook Pro at no charge with no obligation. Written quote before any work begins.
+              💡 <strong className="text-[#E8F4F1]">Assessment: from R599, always.</strong> We assess your MacBook Pro at from R599 with. Written quote before any work begins.
             </p>
           </div>
         </div>

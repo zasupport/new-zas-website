@@ -18,6 +18,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Keyboard Repair Johannesburg | ZA Support',
@@ -412,6 +413,7 @@ export default function MacBookKeyboardPage() {
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
               Prices include parts and labour. Butterfly keyboard replacements carry no warranty due to Apple&apos;s known design flaw, see explainer below.
             </p>
+            <PricingNote variant="inline" />
           </div>
         </div>
       </section>
@@ -512,7 +514,7 @@ export default function MacBookKeyboardPage() {
               Signs You Need <span className="text-[#0FEA7A]">Keyboard Repair</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Any of these symptoms warrants a assessment fee (from R599). We diagnose before we quote, no obligation.
+              Any of these symptoms warrants a assessment fee (from R599). We diagnose before we quote,.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">

@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 const REVIEWS = { rating: SITE.rating, count: SITE.reviewCount };
 
@@ -132,7 +133,7 @@ const faqs = [
   },
   {
     question: 'Can you fix a MacBook that will not turn on at all?',
-    answer: 'Yes. A MacBook that will not power on is one of the most common repairs we handle. Causes include a failed charging circuit, corrupted T2/Secure Enclave, blown power management IC, failed SSD, or liquid corrosion on the logic board. We diagnose the root cause at no charge and provide a written quote with options before any repair begins.',
+    answer: 'Yes. A MacBook that will not power on is one of the most common repairs we handle. Causes include a failed charging circuit, corrupted T2/Secure Enclave, blown power management IC, failed SSD, or liquid corrosion on the logic board. We diagnose the root cause at from R599 and provide a written quote with options before any repair begins.',
   },
 ];
 
@@ -311,6 +312,7 @@ export default function MacBookRepairPage() {
               ? We repair the chips other shops replace, at a fraction of Apple&apos;s board replacement quote.
             </p>
           </div>
+          <PricingNote />
         </div>
       </section>
 

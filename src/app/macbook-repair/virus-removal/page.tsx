@@ -584,7 +584,7 @@ export default function MacVirusRemovalPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Think Your Mac Has a Virus?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Assessment: from R599. Same-day removal. No fix, no fee.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Assessment: from R599. Same-day removal. No fix.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 100% Mac specialists · CyberShield protection available</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

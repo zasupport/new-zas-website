@@ -21,11 +21,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M2 Battery Replacement Johannesburg 2026 | From R1,999 | ZA Support',
   description:
-    'MacBook Air M2 battery replacement Johannesburg from R1,999. 52.6 Wh cell, flat-body design, MagSafe 3 charging. From R599 assessment. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Air M2 battery replacement Johannesburg from R1,999. 52.6 Wh cell, flat-body design, MagSafe 3 charging. From R599 assessment. From R599 assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air-m2' },
   keywords: [
     'MacBook Air M2 battery replacement Johannesburg',
@@ -59,7 +60,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air M2 Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Air M2 battery replacement in Johannesburg. 52.6 Wh lithium-polymer cell, flat-body design, MagSafe 3 charging verification. From R1,999. No Fix No Fee. 12-month warranty.',
+    'Professional MacBook Air M2 battery replacement in Johannesburg. 52.6 Wh lithium-polymer cell, flat-body design, MagSafe 3 charging verification. From R1,999. From R599 assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -131,7 +132,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Air M2 battery replacement?',
     answer:
-      'All MacBook Air M2 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity below 80% of new, swelling, shutdowns, or electrical fault — we replace it at no charge. No Fix No Fee applies: if the battery is not the issue, you pay only the assessment fee from R599.',
+      'All MacBook Air M2 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity below 80% of new, swelling, shutdowns, or electrical fault — we replace it at from R599. From R599 assessment applies: if the battery is not the issue, you pay only the assessment fee from R599.',
   },
   {
     question: 'Do you offer collection for MacBook Air M2 battery replacement in Johannesburg?',
@@ -164,7 +165,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Apple&apos;s redesigned MacBook Air M2 brought a new flat-body chassis, MagSafe 3 charging, and a 52.6 Wh battery with five adhesive sections. When that battery degrades or swells, the repair demands precision knowledge of this specific design. From R1,999 at our Hyde Park workshop — same-day service, 12-month warranty, No Fix No Fee.
+              Apple&apos;s redesigned MacBook Air M2 brought a new flat-body chassis, MagSafe 3 charging, and a 52.6 Wh battery with five adhesive sections. When that battery degrades or swells, the repair demands precision knowledge of this specific design. From R1,999 at our Hyde Park workshop — same-day service, 12-month warranty, From R599 assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -172,7 +173,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Battery, label: '52.6 Wh Cell' },
                 { icon: Zap, label: 'R599 Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
@@ -291,8 +292,9 @@ export default function BatteryReplacementMacBookAirM2Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost. No Fix No Fee.
+            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost. From R599 assessment.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -446,7 +448,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M2 Battery Struggling?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model (13-inch or 15-inch), cycle count, and a description of the issue. We will give you an honest price and turnaround before you bring the machine in. From R599 assessment. No Fix No Fee.
+              WhatsApp us your model (13-inch or 15-inch), cycle count, and a description of the issue. We will give you an honest price and turnaround before you bring the machine in. From R599 assessment. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

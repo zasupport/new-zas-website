@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Mac IT Support Johannesburg — Business & SME | ZA Support',
@@ -352,6 +353,7 @@ export default function ITSupportPage() {
                   </div>
                 ))}
               </div>
+              <PricingNote />
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
@@ -191,7 +192,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPhone screen replacements?',
     answer:
-      'Yes. Every iPhone screen repair at ZA Support includes an up-to-3 year warranty covering the display panel and our workmanship. If the replacement display develops a fault — dead pixels, touch issues, backlight failure, or colour shift — within the warranty period, we repair or replace it at no charge. The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
+      'Yes. Every iPhone screen repair at ZA Support includes an up-to-3 year warranty covering the display panel and our workmanship. If the replacement display develops a fault — dead pixels, touch issues, backlight failure, or colour shift — within the warranty period, we repair or replace it at from R599. The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
   },
   {
     question: 'Do you repair iPhone screens in Sandton or do I need to come to Hyde Park?',
@@ -256,7 +257,7 @@ export default function ScreenRepairIphonePage() {
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: CheckCircle, label: 'True Tone Calibrated' },
                 { icon: Smartphone, label: 'Face ID Preserved' },
                 { icon: Zap, label: 'Same-Day Repair' },
@@ -352,6 +353,7 @@ export default function ScreenRepairIphonePage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             Prices are indicative and confirmed in writing before any work begins. Assessment from R599 applies where diagnosis is required before a quote can be given.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -446,7 +448,7 @@ export default function ScreenRepairIphonePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <AlertTriangle className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              No Fix No Fee applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay the R599 diagnostic fee and receive your phone back exactly as presented. We quote in writing before every repair — there are no surprises.
+              From R599 assessment applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay the R599 diagnostic fee and receive your phone back exactly as presented. We quote in writing before every repair — there are no surprises.
             </p>
           </div>
         </div>

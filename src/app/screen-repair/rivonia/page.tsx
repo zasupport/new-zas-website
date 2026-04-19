@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Rivonia | ZA Support Hyde Park',
@@ -65,7 +66,7 @@ const faqs = [
   },
   {
     question: 'Does a screen replacement come with a warranty?',
-    answer: 'Yes. Every display replacement at ZA Support comes with a written warranty. The warranty covers the panel, the replacement work, and any associated components that were repaired or replaced. If any fault related to the repair work arises within the warranty period, we resolve it at no charge.',
+    answer: 'Yes. Every display replacement at ZA Support comes with a written warranty. The warranty covers the panel, the replacement work, and any associated components that were repaired or replaced. If any fault related to the repair work arises within the warranty period, we resolve it at from R599.',
   },
 ];
 
@@ -228,6 +229,7 @@ export default function ScreenRepairRivoniaPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed after diagnostic. Written quote before any work begins.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

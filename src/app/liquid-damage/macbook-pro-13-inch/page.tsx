@@ -10,7 +10,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro 13 Inch Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
   description:
-    'MacBook Pro 13-inch liquid damage repair Johannesburg. M1, M2 & Intel models. Touch Bar corrosion, USB-C controller recovery. Assessment from R599. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 13-inch liquid damage repair Johannesburg. M1, M2 & Intel models. Touch Bar corrosion, USB-C controller recovery. Assessment from R599. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-13-inch' },
   keywords: [
     'MacBook Pro 13 inch liquid damage repair Johannesburg',
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro 13-inch be repaired?',
     answer:
-      'Yes, in most cases. The MacBook Pro 13-inch — covering Intel models (2016 to 2020), the M1 (2020), and the M2 (2022) — uses a compact logic board layout that concentrates components tightly. This makes liquid damage more acute than on the larger 14-inch or 16-inch models, but it does not make the machine unrepairable. At our Hyde Park workshop we have recovered many 13-inch MacBook Pros from full keyboard spills, coffee, and water ingress. Assessment from R599, No Fix No Fee.',
+      'Yes, in most cases. The MacBook Pro 13-inch — covering Intel models (2016 to 2020), the M1 (2020), and the M2 (2022) — uses a compact logic board layout that concentrates components tightly. This makes liquid damage more acute than on the larger 14-inch or 16-inch models, but it does not make the machine unrepairable. At our Hyde Park workshop we have recovered many 13-inch MacBook Pros from full keyboard spills, coffee, and water ingress. Assessment from R599, From R599 assessment.',
   },
   {
     question: 'My MacBook Pro 13-inch will not turn on after a spill — is it repairable?',
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 13-inch liquid damage repair cost?',
     answer:
-      'Cost varies by model generation and extent of damage. A USB-C controller replacement on an M1 or M2 13-inch is one of the more contained repairs. Intel models with T2 corrosion or multiple IC failures require more diagnostic time. M2 models with NAND controller contamination take longer still. All repairs are quoted in writing before work starts. Assessment from R599. No Fix No Fee applies across all 13-inch MacBook Pro generations.',
+      'Cost varies by model generation and extent of damage. A USB-C controller replacement on an M1 or M2 13-inch is one of the more contained repairs. Intel models with T2 corrosion or multiple IC failures require more diagnostic time. M2 models with NAND controller contamination take longer still. All repairs are quoted in writing before work starts. Assessment from R599. From R599 assessment applies across all 13-inch MacBook Pro generations.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro 13-inch?',
@@ -93,7 +93,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a liquid-damaged MacBook Pro 13-inch?',
     answer:
-      'In nearly every case, yes. A new MacBook Pro 13-inch M2 retails from R22,000 to R30,000 in South Africa. Our component-level repairs are a fraction of that cost, and you keep your data, your installed software, and your machine\'s serial number — none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment with no obligation beyond the R599 fee.',
+      'In nearly every case, yes. A new MacBook Pro 13-inch M2 retails from R22,000 to R30,000 in South Africa. Our component-level repairs are a fraction of that cost, and you keep your data, your installed software, and your machine\'s serial number — none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment with beyond the R599 fee.',
   },
 ];
 
@@ -183,7 +183,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / Intel' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -293,7 +293,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every 13-inch case — if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. From R599 assessment on every 13-inch case — if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -446,7 +446,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
               MacBook Pro 13-Inch Liquid Damage? Every Minute Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 13-inch chassis gives liquid the fastest path to the logic board of any MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. M1, M2, and Intel models. Assessment from R599. No Fix No Fee.
+              The 13-inch chassis gives liquid the fastest path to the logic board of any MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. M1, M2, and Intel models. Assessment from R599. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

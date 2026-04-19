@@ -8,6 +8,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Logic Board Repair Johannesburg | ZA Support',
@@ -60,7 +61,7 @@ const faqs = [
   },
   {
     question: 'Do you provide a warranty on logic board repairs?',
-    answer: 'Yes. Every logic board repair carried out by ZA Support includes a up-to-3 year warranty covering the specific component or fault we repaired. This warranty is provided in writing, is non-negotiable, and covers parts and labour. If the same fault returns within the warranty period, we repair it at no charge. This applies to all component-level repair work, board replacements, and component-level repairs.',
+    answer: 'Yes. Every logic board repair carried out by ZA Support includes a up-to-3 year warranty covering the specific component or fault we repaired. This warranty is provided in writing, is non-negotiable, and covers parts and labour. If the same fault returns within the warranty period, we repair it at from R599. This applies to all component-level repair work, board replacements, and component-level repairs.',
   },
   {
     question: 'Can you fix a water-damaged MacBook logic board?',
@@ -262,7 +263,7 @@ const howToSchema = {
       '@type': 'HowToStep',
       position: 5,
       name: 'Return with Up-to-3 Year Warranty',
-      text: 'Your repaired MacBook is returned with a up-to-3 year warranty on the specific component or fault repaired. If the same fault returns within the warranty period, we fix it at no charge.',
+      text: 'Your repaired MacBook is returned with a up-to-3 year warranty on the specific component or fault repaired. If the same fault returns within the warranty period, we fix it at from R599.',
       url: 'https://zasupport.com/logic-board-repair#warranty',
     },
   ],
@@ -587,6 +588,7 @@ export default function LogicBoardRepairPage() {
               💡 <strong className="text-[#E8F4F1]">Transparent assessment.</strong> from R599 to diagnose your Mac and provide a written fixed-price quote. Fee.
             </p>
           </div>
+          <PricingNote />
 
           {/* Mid-page WhatsApp CTA */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -687,9 +689,9 @@ export default function LogicBoardRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {[
               { step: '01', title: 'Assessment: from R599', body: 'Bring your Mac to our Hyde Park workshop or arrange a courier. We inspect the board under microscope and identify the fault. Fee is.' },
-              { step: '02', title: 'Written Quote', body: 'You receive a clear, written quote before any work begins. No hidden fees. If you decline, the assessment fee is payable for the diagnostic completed.' },
+              { step: '02', title: 'Written Quote', body: 'You receive a clear, written quote before any work begins. Transparent R599+ pricing. If you decline, the assessment fee is payable for the diagnostic completed.' },
               { step: '03', title: 'Component-level repair Repair', body: 'Our technician works at component level using professional specialist equipment. Most repairs completed in 24–72 hours.' },
-              { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a up-to-3 year warranty. If the same fault returns, we fix it at no charge.' },
+              { step: '04', title: 'Tested and Warrantied', body: 'Your Mac is fully tested before collection. Every repair includes a up-to-3 year warranty. If the same fault returns, we fix it at from R599.' },
             ].map(({ step, title, body }) => (
               <div key={step} className="glass-card p-6 relative overflow-hidden">
                 <span className="absolute top-4 right-4 text-[#0FEA7A] text-3xl font-extrabold opacity-20">{step}</span>

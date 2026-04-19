@@ -21,11 +21,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M3 Battery Replacement Johannesburg [2026] | From R2,299 | ZA Support',
   description:
-    'MacBook Pro M3 battery replacement Johannesburg from R2,299. 72.4Wh (14") / 100Wh (16") latest-gen cells. Longest rated life. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro M3 battery replacement Johannesburg from R2,299. 72.4Wh (14") / 100Wh (16") latest-gen cells. Longest rated life. From R599 assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-m3' },
   keywords: [
     'MacBook Pro M3 battery replacement Johannesburg',
@@ -61,7 +62,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M3 Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro M3 battery replacement in Johannesburg. 72.4Wh (14-inch) and 100Wh (16-inch) latest-generation cell replacement. From R2,299. No Fix No Fee. Up-to-3 year warranty.',
+    'Professional MacBook Pro M3 battery replacement in Johannesburg. 72.4Wh (14-inch) and 100Wh (16-inch) latest-generation cell replacement. From R2,299. From R599 assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -115,7 +116,7 @@ const faultTypes = [
   {
     title: 'MagSafe Charging Not Detected',
     icon: Activity,
-    desc: 'A small number of M3 MacBook Pro users report MagSafe not charging — the LED does not light or shows amber with no charge progress. In the majority of cases we investigate, the fault is with the USB-C port or MagSafe connector rather than the battery. However, a severely degraded battery drawing excessive current at low state of charge can also manifest as a charging detection fault. We test both the MagSafe connector and the battery independently before attributing a cause. If the battery is degraded, replacement resolves the charging fault in most cases.',
+    desc: 'A small number of M3 MacBook Pro users report MagSafe not charging — the LED does not light or shows amber with from R599 progress. In the majority of cases we investigate, the fault is with the USB-C port or MagSafe connector rather than the battery. However, a severely degraded battery drawing excessive current at low state of charge can also manifest as a charging detection fault. We test both the MagSafe connector and the battery independently before attributing a cause. If the battery is degraded, replacement resolves the charging fault in most cases.',
     severity: 'medium',
   },
   {
@@ -200,7 +201,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on M3 MacBook Pro battery replacements?',
     answer:
-      'MacBook Pro M3 battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period — dropping below 80% capacity or developing any electrical fault — we replace it again at no charge. No Fix No Fee: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
+      'MacBook Pro M3 battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period — dropping below 80% capacity or developing any electrical fault — we replace it again at from R599. From R599 assessment: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
   },
 ];
 
@@ -236,7 +237,7 @@ export default function BatteryReplacementMacBookProM3Page() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Battery, label: 'All M3 Models' },
                 { icon: Zap, label: 'Assessment from R599' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -317,8 +318,9 @@ export default function BatteryReplacementMacBookProM3Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -382,7 +384,7 @@ export default function BatteryReplacementMacBookProM3Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our No Fix No Fee policy means that if we assess your MacBook Pro M3 and determine a battery replacement will not resolve your issue, an assessment fee of R599 applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our From R599 assessment policy means that if we assess your MacBook Pro M3 and determine a battery replacement will not resolve your issue, an assessment fee of R599 applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
             </p>
           </div>
         </div>

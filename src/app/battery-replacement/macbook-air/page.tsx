@@ -25,7 +25,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air Battery Replacement Johannesburg [2026] | From R1,499 | ZA Support',
   description:
-    'MacBook Air battery replacement in Johannesburg from R1,499. M1, M2, M3 & Intel Air. Swollen battery, adhesive removal, cycle count checks. No Fix No Fee. Hyde Park.',
+    'MacBook Air battery replacement in Johannesburg from R1,499. M1, M2, M3 & Intel Air. Swollen battery, adhesive removal, cycle count checks. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air' },
   keywords: [
     'MacBook Air battery replacement Johannesburg',
@@ -187,7 +187,7 @@ const processSteps = [
   {
     step: 6,
     title: 'Collect with Written Warranty',
-    desc: 'You leave with a written warranty of up to 3 years on the battery and our workmanship. If the replacement battery drops below 80% capacity within the warranty period, we replace it again at no charge — parts and labour included.',
+    desc: 'You leave with a written warranty of up to 3 years on the battery and our workmanship. If the replacement battery drops below 80% capacity within the warranty period, we replace it again at from R599 — parts and labour included.',
   },
 ];
 
@@ -244,7 +244,7 @@ const faqs = [
       'No. A battery replacement on the MacBook Air does not touch the SSD, logic board, or Secure Enclave. Your data, applications, activation state, and Apple ID association are completely unaffected. The T2 chip on Intel Retina Air models and the M-series Secure Enclave on M1/M2/M3 models operate independently of the battery. We have never seen a battery replacement trigger an activation issue on any MacBook Air model.',
   },
   {
-    question: 'Does the No Fix No Fee policy apply to MacBook Air battery repairs?',
+    question: 'Does the From R599 assessment policy apply to MacBook Air battery repairs?',
     answer:
       'Yes. If we assess your MacBook Air and conclude that the problem is not the battery — for instance, a charging IC fault on the logic board, a damaged MagSafe or USB-C board, or a software issue causing incorrect readings — you pay only the assessment fee (from R599) and your machine is returned exactly as received. We will never replace a battery that does not need replacing. If the battery is confirmed as the fault and you choose to proceed, the assessment fee is included in the replacement total.',
   },
@@ -327,7 +327,7 @@ export default function BatteryReplacementMacBookAirPage() {
                 <strong className="text-[#E8F4F1]">R2,500 to R5,500</strong> for the same service.
               </p>
               <p className="text-[#7A9E98] mb-8">
-                Assessment from R599. No Fix No Fee. Written warranty of up to 3 years. Same-day service
+                Assessment from R599. From R599 assessment. Written warranty of up to 3 years. Same-day service
                 available for all M-series and Intel Retina Air models.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -372,7 +372,7 @@ export default function BatteryReplacementMacBookAirPage() {
             {[
               { icon: Shield, label: 'Up-to-3 Year Warranty' },
               { icon: Clock, label: 'Same-Day Service' },
-              { icon: CheckCircle, label: 'No Fix No Fee' },
+              { icon: CheckCircle, label: 'From R599 assessment' },
               { icon: MapPin, label: 'Hyde Park Workshop' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center gap-2">
@@ -576,13 +576,13 @@ export default function BatteryReplacementMacBookAirPage() {
           </div>
         </section>
 
-        {/* ─── Warranty & No Fix No Fee ────────────────────────────────────── */}
+        {/* ─── Warranty & From R599 assessment ────────────────────────────────────── */}
         <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
           <div className="max-w-6xl mx-auto">
             <div className="bg-[#0A1A18] rounded-2xl p-8 sm:p-12 border border-[#27504D]/20">
               <div className="flex items-center gap-3 mb-6">
                 <Shield className="w-8 h-8 text-[#0FEA7A]" />
-                <h2 className="text-3xl sm:text-4xl font-extrabold">Warranty & No Fix No Fee</h2>
+                <h2 className="text-3xl sm:text-4xl font-extrabold">Warranty & From R599 assessment</h2>
               </div>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -591,7 +591,7 @@ export default function BatteryReplacementMacBookAirPage() {
                     Every MacBook Air battery replacement at ZA Support includes a written warranty of up to 3 years.
                     This covers the battery cell and our workmanship. If your replacement battery drops below 80%
                     maximum capacity within the warranty period, or develops any other fault, we replace it again at
-                    no charge — parts and labour included.
+                    from R599 — parts and labour included.
                   </p>
                   <p className="text-[#7A9E98] leading-relaxed">
                     Most third-party repair shops in Sandton and Rosebank offer 90 days. The Apple Store offers
@@ -600,7 +600,7 @@ export default function BatteryReplacementMacBookAirPage() {
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">No Fix No Fee — How It Works</h3>
+                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">From R599 assessment — How It Works</h3>
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     If we assess your MacBook Air and the problem is not the battery — for example, a faulty USB-C
                     charging board, a damaged MagSafe connector, or a{' '}
@@ -751,7 +751,7 @@ export default function BatteryReplacementMacBookAirPage() {
             </h2>
             <p className="text-[#7A9E98] mb-8 text-lg leading-relaxed">
               Walk in to our Hyde Park workshop, or WhatsApp us now for a quote. Same-day service available for M1,
-              M2, M3, and Intel Retina MacBook Air. Assessment from R599. No Fix No Fee. Up-to-3 year warranty.
+              M2, M3, and Intel Retina MacBook Air. Assessment from R599. From R599 assessment. Up-to-3 year warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

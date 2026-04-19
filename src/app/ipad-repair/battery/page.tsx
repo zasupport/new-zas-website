@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPad Battery Replacement Johannesburg | ZA Support',
@@ -120,7 +121,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad battery replacements?',
     answer:
-      'Yes. All iPad battery replacements at ZA Support include a up-to-3 year warranty on the replacement battery and our labour. If the battery capacity drops unexpectedly or the replacement develops a fault within the warranty period, we fix it at no charge.',
+      'Yes. All iPad battery replacements at ZA Support include a up-to-3 year warranty on the replacement battery and our labour. If the battery capacity drops unexpectedly or the replacement develops a fault within the warranty period, we fix it at from R599.',
   },
 ];
 
@@ -274,6 +275,7 @@ export default function iPadBatteryPage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             All repairs include written up-to-3 year warranty. Assessment: from R599. Battery health assessment included.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -319,7 +321,7 @@ export default function iPadBatteryPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every battery replacement includes a warranty on the replacement cell and labour. Unexpected capacity loss or faults are covered at no cost.',
+                    desc: 'Every battery replacement includes a warranty on the replacement cell and labour. Unexpected capacity loss or faults are covered from R599.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

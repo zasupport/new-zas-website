@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iMac Logic Board Repair Johannesburg | ZA Support',
@@ -58,7 +59,7 @@ const faqs = [
   {
     question: 'What warranty do you give on iMac logic board repair?',
     answer:
-      'All iMac logic board repairs carry a warranty on the specific component repaired. This is a written up-to-3 year warranty, no hidden clauses. If the repaired component fails within the warranty period, we fix it at no charge.',
+      'All iMac logic board repairs carry a warranty on the specific component repaired. This is a written up-to-3 year warranty, no hidden clauses. If the repaired component fails within the warranty period, we fix it at from R599.',
   },
   {
     question: 'Can you repair the iMac 27" Late 2015 with AMD Radeon R9 GPU failure?',
@@ -378,6 +379,8 @@ export default function iMacLogicBoardPage() {
               </tbody>
             </table>
           </div>
+        
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -421,7 +424,7 @@ export default function iMacLogicBoardPage() {
               },
               {
                 title: 'Up-to-3 Year Warranty',
-                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within the warranty period, we fix it at no charge.',
+                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within the warranty period, we fix it at from R599.',
               },
               {
                 title: 'Assessment: from R599',

@@ -21,11 +21,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Battery & Power Supply Repair Johannesburg 2026 | From R599 | ZA Support',
   description:
-    'Mac Mini PRAM battery, power supply unit repair and UPS advice in Johannesburg. From R599 assessment. No Fix No Fee. 12-month warranty. Hyde Park workshop.',
+    'Mac Mini PRAM battery, power supply unit repair and UPS advice in Johannesburg. From R599 assessment. From R599 assessment. 12-month warranty. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/mac-mini' },
   keywords: [
     'Mac Mini power supply repair Johannesburg',
@@ -59,7 +60,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Mac Mini Power Supply & PRAM Battery Repair Johannesburg',
   description:
-    'Professional Mac Mini power supply unit repair, PRAM/CMOS battery replacement, and power board diagnostics in Johannesburg. From R599 assessment. No Fix No Fee. 12-month warranty on parts and labour.',
+    'Professional Mac Mini power supply unit repair, PRAM/CMOS battery replacement, and power board diagnostics in Johannesburg. From R599 assessment. From R599 assessment. 12-month warranty on parts and labour.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -131,7 +132,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on Mac Mini power supply repairs?',
     answer:
-      'All Mac Mini power supply repairs and PRAM battery replacements at ZA Support carry a written 12-month warranty covering the replacement parts and our workmanship. If the PSU develops any fault within 12 months — voltage instability, failure to power on, unexpected shutdowns, or any electrical fault — we repair it again at no charge. No Fix No Fee applies: if we assess your Mac Mini and determine the PSU is not repairable, you pay only the assessment fee from R599.',
+      'All Mac Mini power supply repairs and PRAM battery replacements at ZA Support carry a written 12-month warranty covering the replacement parts and our workmanship. If the PSU develops any fault within 12 months — voltage instability, failure to power on, unexpected shutdowns, or any electrical fault — we repair it again at from R599. From R599 assessment applies: if we assess your Mac Mini and determine the PSU is not repairable, you pay only the assessment fee from R599.',
   },
   {
     question: 'Do you offer collection for Mac Mini power supply repair?',
@@ -164,7 +165,7 @@ export default function BatteryReplacementMacMiniPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The Mac Mini is a desktop — it does not have a rechargeable battery. But it does have a PRAM coin cell, an internal power supply unit, and a power board that are all vulnerable to Johannesburg&apos;s load shedding surges. We diagnose and repair all Mac Mini power faults at our Hyde Park workshop. Assessment from R599 with No Fix No Fee guarantee and 12-month warranty.
+              The Mac Mini is a desktop — it does not have a rechargeable battery. But it does have a PRAM coin cell, an internal power supply unit, and a power board that are all vulnerable to Johannesburg&apos;s load shedding surges. We diagnose and repair all Mac Mini power faults at our Hyde Park workshop. Assessment from R599 with From R599 assessment guarantee and 12-month warranty.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -172,7 +173,7 @@ export default function BatteryReplacementMacMiniPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Zap, label: 'PSU & Power Board' },
                 { icon: Battery, label: 'PRAM Battery' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
@@ -283,8 +284,9 @@ export default function BatteryReplacementMacMiniPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Assessment from R599 — applied toward repair cost if you proceed. No Fix No Fee. All repairs include a written 12-month warranty.
+            Assessment from R599 — applied toward repair cost if you proceed. From R599 assessment. All repairs include a written 12-month warranty.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -440,7 +442,7 @@ export default function BatteryReplacementMacMiniPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Mac Mini Not Powering On?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your Mac Mini model and a description of the fault — dead, intermittent, or losing settings after power cuts — and we will give you an honest assessment and price. From R599 assessment. Same-day service for most repairs. No Fix No Fee.
+              WhatsApp us your Mac Mini model and a description of the fault — dead, intermittent, or losing settings after power cuts — and we will give you an honest assessment and price. From R599 assessment. Same-day service for most repairs. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iMac SSD Upgrade Johannesburg | Fusion Drive to SSD | ZA Support',
@@ -206,6 +207,7 @@ export default function IMacSSDUpgradePage() {
           <p className="text-center text-sm text-slate-500 mt-4">
             Assessment: from R599 and fixed quote before we start. Cost confirmed before any work begins.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

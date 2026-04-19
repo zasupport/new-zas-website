@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iMac Repair Johannesburg | Screen, RAM, SSD, Logic Board | ZA Support',
@@ -211,6 +212,7 @@ export default function IMacRepairPage() {
               );
             })}
           </div>
+          <PricingNote />
         </div>
       </section>
 

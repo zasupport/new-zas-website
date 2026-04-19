@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPhone Camera Repair Johannesburg | ZA Support',
@@ -125,7 +126,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on iPhone camera repairs?',
     answer:
-      'All iPhone camera repairs at ZA Support come with a up-to-3 year warranty on the replacement module or lens and our labour. If the camera develops any fault within the warranty period, we fix it at no charge.',
+      'All iPhone camera repairs at ZA Support come with a up-to-3 year warranty on the replacement module or lens and our labour. If the camera develops any fault within the warranty period, we fix it at from R599.',
   },
 ];
 
@@ -279,6 +280,7 @@ export default function iPhoneCameraPage() {
             All repairs include written up-to-3 year warranty. Assessment: from R599.
             Face ID is never affected by front camera replacement.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -290,7 +292,7 @@ export default function iPhoneCameraPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every fault listed below is something we diagnose and repair daily. If you are not sure whether
-            your camera fault is hardware or software, we check first, at no cost.
+            your camera fault is hardware or software, we check first, from R599.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -324,7 +326,7 @@ export default function iPhoneCameraPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every camera repair carries a warranty on the replacement module and labour. If blurring or faults return within the warranty period, we fix it, no charge.',
+                    desc: 'Every camera repair carries a warranty on the replacement module and labour. If blurring or faults return within the warranty period, we fix it, from R599.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

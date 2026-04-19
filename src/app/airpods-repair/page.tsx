@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'AirPods Repair Johannesburg | Battery & Charging Case | ZA Support',
@@ -52,7 +53,7 @@ const faqs = [
   {
     question: 'My AirPods keep disconnecting. Is that a repair issue?',
     answer:
-      'Intermittent connection dropout is usually a software or firmware issue first, try unpairing from all devices, resetting the AirPods by holding the case button for 15 seconds until the LED flashes amber, then re-pairing. If dropout continues after a full reset, it may indicate a degraded battery (low voltage causes Bluetooth instability), a dirty charging case causing incomplete charges, or hardware failure in the Bluetooth antenna. Bring them in, we diagnose at no charge before quoting.',
+      'Intermittent connection dropout is usually a software or firmware issue first, try unpairing from all devices, resetting the AirPods by holding the case button for 15 seconds until the LED flashes amber, then re-pairing. If dropout continues after a full reset, it may indicate a degraded battery (low voltage causes Bluetooth instability), a dirty charging case causing incomplete charges, or hardware failure in the Bluetooth antenna. Bring them in, we diagnose at from R599 before quoting.',
   },
 ];
 
@@ -271,6 +272,7 @@ export default function AirPodsRepairPage() {
               </tbody>
             </table>
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -359,7 +361,7 @@ export default function AirPodsRepairPage() {
               },
               {
                 title: 'Assessment: from R599',
-                desc: 'Bring them in. We inspect, test battery health, and quote. No charge if you decide not to proceed.',
+                desc: 'Bring them in. We inspect, test battery health, and quote. From R599 if you decide not to proceed.',
               },
               {
                 title: 'Same-Day Cleaning',

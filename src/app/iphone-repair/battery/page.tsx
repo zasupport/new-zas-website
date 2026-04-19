@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPhone Battery Replacement Johannesburg | ZA Support',
@@ -127,7 +128,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on iPhone battery replacements?',
     answer:
-      'All iPhone battery replacements at ZA Support come with a up-to-3 year warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at no charge.',
+      'All iPhone battery replacements at ZA Support come with a up-to-3 year warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at from R599.',
   },
 ];
 
@@ -281,6 +282,7 @@ export default function iPhoneBatteryPage() {
             All repairs include written up-to-3 year warranty. Assessment: from R599. Data is never accessed or affected.
             Battery health check included. Assessment: from R599.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -292,7 +294,7 @@ export default function iPhoneBatteryPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we see and fix every day.
-            If you are not sure whether your issue is the battery or something else, we diagnose first, at no cost.
+            If you are not sure whether your issue is the battery or something else, we diagnose first, from R599.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -326,7 +328,7 @@ export default function iPhoneBatteryPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every battery replacement carries a warranty on the battery and labour. If it fails or drains unusually fast, we replace it, no charge.',
+                    desc: 'Every battery replacement carries a warranty on the battery and labour. If it fails or drains unusually fast, we replace it, from R599.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

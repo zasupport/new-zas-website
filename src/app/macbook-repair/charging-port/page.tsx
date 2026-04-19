@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Not Charging, Repair Johannesburg | ZA Support',
@@ -167,7 +168,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on charging port repairs?',
     answer:
-      'All ZA Support charging port repairs carry a up-to-3 year warranty on parts and labour. If the same fault returns within the warranty period, same port, same cause, we fix it at no charge. The warranty is documented in writing when you collect your machine.',
+      'All ZA Support charging port repairs carry a up-to-3 year warranty on parts and labour. If the same fault returns within the warranty period, same port, same cause, we fix it at from R599. The warranty is documented in writing when you collect your machine.',
   },
 ];
 
@@ -362,7 +363,7 @@ export default function MacBookChargingPortPage() {
                 Charging Problems We Diagnose &amp; Fix
               </h2>
               <p className="text-[#7A9E98] mb-6">
-                Every symptom below has a specific root cause. We identify which one applies to your machine at no charge.
+                Every symptom below has a specific root cause. We identify which one applies to your machine at from R599.
               </p>
               <div className="space-y-0">
                 {symptoms.map((item) => (
@@ -408,6 +409,7 @@ export default function MacBookChargingPortPage() {
                 <p className="text-[#7A9E98] text-xs leading-relaxed">
                   Each side of a dual USB-C MacBook has its own I/O board. Single-side charging failure is almost always an I/O board replacement, not a logic board repair. Much more affordable.
                 </p>
+                <PricingNote variant="inline" />
               </div>
             </div>
           </div>
@@ -446,7 +448,7 @@ export default function MacBookChargingPortPage() {
               <Shield className="w-8 h-8 text-[#0FEA7A] mb-4" />
               <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Up-to-3 Year Warranty</h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                Every charging port repair is covered by a up-to-3 year warranty on parts and labour. If the same fault returns, we fix it at no charge.
+                Every charging port repair is covered by a up-to-3 year warranty on parts and labour. If the same fault returns, we fix it at from R599.
               </p>
             </div>
           </div>
@@ -475,7 +477,7 @@ export default function MacBookChargingPortPage() {
               <Shield className="w-8 h-8 text-[#0FEA7A] mx-auto mb-3" />
               <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Assessment: from R599</h3>
               <p className="text-[#7A9E98] text-sm">
-                If we cannot repair the fault, assessment fee of from R599 applies. The assessment is unconditional, no obligation, no catch.
+                If we cannot repair the fault, assessment fee of from R599 applies. The assessment is unconditional,, no catch.
               </p>
             </div>
           </div>

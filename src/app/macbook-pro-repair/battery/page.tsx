@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro Battery Replacement Johannesburg | All Models | ZA Support',
@@ -113,7 +114,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on battery replacements?',
-    answer: 'up-to-3 year warranty on the battery and labour. If the battery fails or shows the same fault within the warranty period, we replace it at no charge. Extended warranty is also available on request.',
+    answer: 'up-to-3 year warranty on the battery and labour. If the battery fails or shows the same fault within the warranty period, we replace it at from R599. Extended warranty is also available on request.',
   },
   {
     question: 'What cycle count is considered high for a MacBook Pro battery?',
@@ -277,6 +278,7 @@ export default function MacBookProBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-4">All models supported. Apple Silicon battery replacement available.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

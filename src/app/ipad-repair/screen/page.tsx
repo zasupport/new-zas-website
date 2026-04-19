@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPad Screen Repair Johannesburg | ZA Support',
@@ -121,7 +122,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad screen repairs?',
     answer:
-      'Yes. All iPad screen repairs at ZA Support come with a up-to-3 year warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at no charge. This warranty is backed in writing.',
+      'Yes. All iPad screen repairs at ZA Support come with a up-to-3 year warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at from R599. This warranty is backed in writing.',
   },
 ];
 
@@ -272,8 +273,9 @@ export default function iPadScreenPage() {
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
             All repairs include written up-to-3 year warranty. Assessment: from R599. Apple Pencil compatibility preserved.
-            Assessment: from R599, no charge if we cannot repair your device.
+            Assessment: from R599, from R599 if we cannot repair your device.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -285,7 +287,7 @@ export default function iPadScreenPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we repair daily. If you are not sure whether your
-            fault is the screen or something deeper, we diagnose first, at no cost.
+            fault is the screen or something deeper, we diagnose first, from R599.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -319,7 +321,7 @@ export default function iPadScreenPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every iPad screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments, no charge.',
+                    desc: 'Every iPad screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments, from R599.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

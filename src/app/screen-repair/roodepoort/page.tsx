@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'What is the screen repair assessment fee?',
-    answer: 'Assessment from R599. This covers inspection, fault diagnosis, and a written quote with no obligation. Final repair cost depends on the model and fault type.',
+    answer: 'Assessment from R599. This covers inspection, fault diagnosis, and a written quote with. Final repair cost depends on the model and fault type.',
   },
   {
     question: 'Do you use genuine Apple screens?',
@@ -49,7 +49,7 @@ const faqs = [
     answer: 'Yes. We repair displays on MacBook Air M1, M2, M3 and MacBook Pro M1, M2, M3 models. Apple Silicon models use different display assemblies to Intel models and we stock parts for current-generation machines.',
   },
   {
-    question: 'What is a No Fix No Fee guarantee?',
+    question: 'What is a From R599 assessment guarantee?',
     answer: 'If we cannot repair your MacBook screen, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
   },
   {
@@ -111,7 +111,7 @@ export default function ScreenRepairRoodepoortPage() {
               {[
                 { icon: Monitor, label: 'Retina Display Repairs' },
                 { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'No Fix No Fee' },
+                { icon: CheckCircle, label: 'From R599 assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -178,7 +178,7 @@ export default function ScreenRepairRoodepoortPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Roodepoort? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Roodepoort. Assessment from R599. No Fix No Fee. 12-month warranty.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Roodepoort. Assessment from R599. From R599 assessment. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-ROODEPOO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

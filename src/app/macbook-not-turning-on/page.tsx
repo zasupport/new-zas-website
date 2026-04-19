@@ -219,7 +219,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook repairs?',
     answer:
-      'All ZA Support repairs carry a up-to-3 year warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within the warranty period, we fix it at no charge. The warranty is transferable if you sell the device.',
+      'All ZA Support repairs carry a up-to-3 year warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within the warranty period, we fix it at from R599. The warranty is transferable if you sell the device.',
   },
 ];
 
@@ -494,7 +494,7 @@ export default function MacBookNotTurningOnPage() {
           <div className="mt-8 bg-[rgba(15,234,122,0.05)] border border-[#0FEA7A]/20 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[#E8F4F1] font-semibold text-lg mb-1">None of these worked?</p>
-              <p className="text-[#7A9E98]">Assessment: from R599 at our Hyde Park workshop. Takes 30 minutes. No charge regardless of outcome.</p>
+              <p className="text-[#7A9E98]">Assessment: from R599 at our Hyde Park workshop. Takes 30 minutes. From R599 regardless of outcome.</p>
             </div>
             <a
               href={buildWhatsAppUrl('MBNTO', 'macbook-not-turning-on')}

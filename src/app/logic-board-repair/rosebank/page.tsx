@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Rosebank | ZA Support Hyde Park',
@@ -26,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Board-level inspection, no obligation to repair' },
+  { item: 'Diagnostic Assessment', note: 'Board-level inspection, to repair' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board replacement' },
   { item: 'Power Circuit Repair', note: 'No-power and charging failure repair' },
   { item: 'Component-level repair Repair', note: 'Precision component-level board repair' },
@@ -57,7 +58,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide?',
-    answer: 'Every logic board repair carries a ZA Support warranty covering the specific fault repaired and any directly related board failure. If the same fault recurs within the warranty period, we repair it at no charge. Warranty is provided in writing with every completed repair.',
+    answer: 'Every logic board repair carries a ZA Support warranty covering the specific fault repaired and any directly related board failure. If the same fault recurs within the warranty period, we repair it at from R599. Warranty is provided in writing with every completed repair.',
   },
 ];
 
@@ -263,7 +264,8 @@ export default function LogicBoardRepairRosebankPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final quote given after assessment. No obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final quote given after assessment.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

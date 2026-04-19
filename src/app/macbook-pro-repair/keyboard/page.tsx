@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro Keyboard Repair Johannesburg | Butterfly Keyboard Fix | ZA Support',
@@ -136,7 +137,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on keyboard repairs?',
-    answer: 'up-to-3 year warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at no charge. Extended warranty is also available on request.',
+    answer: 'up-to-3 year warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at from R599. Extended warranty is also available on request.',
   },
   {
     question: 'Are MacBook Pro 2020 and later keyboards more reliable?',
@@ -304,6 +305,8 @@ export default function MacBookProKeyboardPage() {
               </div>
             ))}
           </div>
+        
+          <PricingNote variant="inline" />
         </div>
       </section>
 

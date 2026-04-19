@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Replacement Johannesburg | ZA Support',
@@ -77,7 +78,7 @@ const faqs = [
   },
   {
     question: 'What warranty do I get on a MacBook screen replacement?',
-    answer: 'All MacBook screen replacements at ZA Support come with a up-to-3 year warranty covering the replacement panel and our labour. If dead pixels appear, backlight fails, or the display develops any fault within the warranty period, we fix it at no cost to you.',
+    answer: 'All MacBook screen replacements at ZA Support come with a up-to-3 year warranty covering the replacement panel and our labour. If dead pixels appear, backlight fails, or the display develops any fault within the warranty period, we fix it from R599.',
   },
 ];
 
@@ -277,6 +278,7 @@ export default function MacBookScreenPage() {
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
               Call to confirm stock availability for your specific model and year.
             </p>
+            <PricingNote variant="inline" />
           </div>
         </div>
       </section>
@@ -343,7 +345,7 @@ export default function MacBookScreenPage() {
                 step: '05',
                 icon: <Clock className="w-5 h-5" />,
                 title: 'Warranty Issued',
-                desc: 'Your up-to-3 year warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period, fixed at no cost.',
+                desc: 'Your up-to-3 year warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period, fixed from R599.',
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
@@ -514,7 +516,7 @@ export default function MacBookScreenPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-4">
             {[
-              { title: 'Assessment: from R599', body: 'We diagnose the fault before you commit. No charge, no obligation.' },
+              { title: 'Assessment: from R599', body: 'We diagnose the fault before you commit. From R599,.' },
               { title: 'Assessment: from R599', body: 'If we cannot repair it, assessment fee of from R599 applies. Simple as that.' },
               { title: 'Up-to-3 Year Warranty', body: 'Every screen replacement carries a up-to-3 year warranty on parts and labour.' },
             ].map(({ title, body }) => (

@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Edenvale | ZA Support Hyde Park',
@@ -26,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Full board-level inspection, no obligation' },
+  { item: 'Diagnostic Assessment', note: 'Full board-level inspection,' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip replacement' },
   { item: 'Power Circuit Repair', note: 'No-power diagnosis and board-level fix' },
   { item: 'Component-level Repair', note: 'Component-level board repair under microscope' },
@@ -60,7 +61,7 @@ const faqs = [
     answer: 'The assessment is from R599. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
   },
   {
-    question: 'Do you offer a No Fix No Fee guarantee?',
+    question: 'Do you offer a From R599 assessment guarantee?',
     answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
   },
   {
@@ -122,7 +123,7 @@ export default function LogicBoardRepairEdenvalePage() {
               {[
                 { icon: Cpu, label: 'Microscope Component-level Repair' },
                 { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'No Fix No Fee' },
+                { icon: CheckCircle, label: 'From R599 assessment' },
                 { icon: AlertTriangle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -266,7 +267,8 @@ export default function LogicBoardRepairEdenvalePage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with no obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with to proceed.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPad Not Charging, Repair Johannesburg | ZA Support',
@@ -78,7 +79,7 @@ const causes = [
 const processSteps = [
   { step: '1', title: 'Assessment: from R599', desc: 'We test the port, cable, battery, and charging circuit. Most charging faults are diagnosed in under 30 minutes.' },
   { step: '2', title: 'Root Cause Identified', desc: 'We confirm whether the fault is debris, a damaged port, a charging IC fault, or the battery, before quoting.' },
-  { step: '3', title: 'Fixed Price Quote', desc: 'You receive a written fixed-price quote. No surprises. No charge if you decline the repair.' },
+  { step: '3', title: 'Fixed Price Quote', desc: 'You receive a written fixed-price quote. No surprises. From R599 if you decline the repair.' },
   { step: '4', title: 'Repair Completed', desc: 'A certified technician carries out the repair. Port clean: same visit. Port replacement: 1–3 hours. Board repair: 1–2 days.' },
   { step: '5', title: 'Collect with Warranty', desc: 'up-to-3 year warranty on parts and labour. Assessment: from R599 applies to every repair.' },
 ];
@@ -122,7 +123,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad charging repairs?',
     answer:
-      'Yes. All iPad charging repairs at ZA Support include a up-to-3 year warranty on parts and labour. If the port or related component fails within the warranty period, we fix it at no charge. This applies to port cleans, port replacements, and logic board charging repairs.',
+      'Yes. All iPad charging repairs at ZA Support include a up-to-3 year warranty on parts and labour. If the port or related component fails within the warranty period, we fix it at from R599. This applies to port cleans, port replacements, and logic board charging repairs.',
   },
 ];
 
@@ -276,6 +277,7 @@ export default function iPadChargingPage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             All repairs include written up-to-3 year warranty. Assessment: from R599.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -321,7 +323,7 @@ export default function iPadChargingPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every charging repair includes a written up-to-3 year warranty. If the fault returns within the warranty period, we fix it at no charge.',
+                    desc: 'Every charging repair includes a written up-to-3 year warranty. If the fault returns within the warranty period, we fix it at from R599.',
                   },
                   {
                     icon: <Wrench className="w-5 h-5" />,

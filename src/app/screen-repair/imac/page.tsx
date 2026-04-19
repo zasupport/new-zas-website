@@ -8,6 +8,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iMac Screen Repair Johannesburg [2026] | From R3,999 | ZA Support',
@@ -61,7 +62,7 @@ const faqs = [
   {
     question: 'Does the iMac display replacement include a warranty?',
     answer:
-      'Yes. Every iMac screen repair at ZA Support includes an up-to-3 year warranty covering the display panel, backlight circuit, and our workmanship. If the replacement panel develops dead pixels, backlight failure, or colour drift within the warranty period, we repair or replace it at no charge. The warranty is issued in writing at the time of collection.',
+      'Yes. Every iMac screen repair at ZA Support includes an up-to-3 year warranty covering the display panel, backlight circuit, and our workmanship. If the replacement panel develops dead pixels, backlight failure, or colour drift within the warranty period, we repair or replace it at from R599. The warranty is issued in writing at the time of collection.',
   },
   {
     question: 'What is the TCON board, and can you repair it?',
@@ -211,7 +212,7 @@ export default function ScreenRepairImacPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Monitor, label: 'All iMac Models' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
                 { icon: Zap, label: 'Assessment from R599' },
@@ -280,7 +281,7 @@ export default function ScreenRepairImacPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">iMac Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include the display assembly, adhesive strips, calibration, labour, and our up-to-3 year warranty. Assessment from R599. No Fix No Fee applies to all models. For comparison, the Apple Store charges R8,000 to R18,000 for the same repair.
+            All prices include the display assembly, adhesive strips, calibration, labour, and our up-to-3 year warranty. Assessment from R599. From R599 assessment applies to all models. For comparison, the Apple Store charges R8,000 to R18,000 for the same repair.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(15,234,122,0.12)]">
             <table className="w-full text-sm">
@@ -305,6 +306,7 @@ export default function ScreenRepairImacPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">Prices are indicative. Exact quote provided in writing before work begins. Assessment fee from R599 applies if repair is declined after diagnosis.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -385,7 +387,7 @@ export default function ScreenRepairImacPage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              No Fix No Fee on every iMac screen repair. If we assess the machine and cannot repair the display to your satisfaction, the assessment fee of R599 applies and the iMac is returned exactly as received. No hidden charges.
+              From R599 assessment on every iMac screen repair. If we assess the machine and cannot repair the display to your satisfaction, the assessment fee of R599 applies and the iMac is returned exactly as received. No hidden charges.
             </p>
           </div>
         </div>
@@ -437,7 +439,7 @@ export default function ScreenRepairImacPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">iMac Screen Damaged? Get a Fixed-Price Quote Today.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              From R3,999, with an up-to-3 year warranty and No Fix No Fee. WhatsApp us a photo of the damage and we will give you an indicative price within the hour — no obligation, no call centre.
+              From R3,999, with an up-to-3 year warranty and From R599 assessment. WhatsApp us a photo of the damage and we will give you an indicative price within the hour —, no call centre.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -456,7 +458,7 @@ export default function ScreenRepairImacPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty | No Fix No Fee
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty | From R599 assessment
             </p>
           </div>
         </div>

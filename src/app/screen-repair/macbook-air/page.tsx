@@ -7,6 +7,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Air Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
@@ -533,6 +534,7 @@ export default function ScreenRepairMacBookAirPage() {
             All prices in ZAR. Assessment fee of R599 applies if no repair is undertaken. Up-to-3 year parts and labour
             warranty on all completed screen repairs.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

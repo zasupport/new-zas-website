@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'IT Support for Wealth Management Firms Johannesburg 2026 | ZA Support',
@@ -473,6 +474,7 @@ export default function WealthManagementPage() {
               </div>
             ))}
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -573,7 +575,7 @@ export default function WealthManagementPage() {
             <p className="text-[#7A9E98] mb-2">
               New wealth management clients receive a{' '}
               <strong className="text-[#E8F4F1]">complimentary IT security assessment</strong> —
-              we audit your devices, network, backup, and compliance posture. No obligation.
+              we audit your devices, network, backup, and compliance posture 
             </p>
             <p className="text-[#7A9E98] text-sm mb-6">
               1 Hyde Park Lane, Hyde Park, Johannesburg — minutes from Sandton.

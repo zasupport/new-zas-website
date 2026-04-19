@@ -10,6 +10,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import GoogleReviews from '@/components/ui/GoogleReviews';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Mac Repair Johannesburg, Logic Board Specialists',
@@ -371,6 +372,7 @@ export default function HomePage() {
               );
             })}
           </div>
+          <PricingNote />
         </div>
       </section>
 

@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Randburg | ZA Support Hyde Park',
@@ -26,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Full board inspection, no obligation' },
+  { item: 'Diagnostic Assessment', note: 'Full board inspection,' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board' },
   { item: 'Power Circuit Repair', note: 'Dead Mac and charging failure diagnosis and fix' },
   { item: 'Component-level repair Repair', note: 'Component-level precision repair' },
@@ -216,7 +217,8 @@ export default function LogicBoardRepairRandburgPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final quote confirmed after assessment assessment. No obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final quote confirmed after assessment assessment.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

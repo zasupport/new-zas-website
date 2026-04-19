@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg | ZA Support',
@@ -186,7 +187,7 @@ const faqs = [
   {
     question: 'What warranty do I get on a MacBook battery replacement?',
     answer:
-      'Every MacBook battery replacement at ZA Support carries a up-to-3 year warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at no charge. We put this in writing. You will receive a job card with the warranty terms when you collect your MacBook.',
+      'Every MacBook battery replacement at ZA Support carries a up-to-3 year warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at from R599. We put this in writing. You will receive a job card with the warranty terms when you collect your MacBook.',
   },
 ];
 
@@ -363,6 +364,7 @@ export default function MacBookBatteryPage() {
           <p className="text-[#7A9E98] text-xs mt-6 text-center">
             Exact quote confirmed after assessment fee (from R599). Contact us for a fixed price on your model.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

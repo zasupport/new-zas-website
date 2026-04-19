@@ -7,11 +7,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Screen & Display Repair Johannesburg 2026 | From R899 | ZA Support',
   description:
-    'Mac Mini display repair in Johannesburg from R899. HDMI, Thunderbolt, GPU faults, external monitor issues. M1, M2, M4. No Fix No Fee. Hyde Park workshop.',
+    'Mac Mini display repair in Johannesburg from R899. HDMI, Thunderbolt, GPU faults, external monitor issues. M1, M2, M4. From R599 assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/mac-mini' },
   keywords: [
     'Mac Mini display repair Johannesburg',
@@ -157,7 +158,7 @@ const faqs = [
   {
     question: 'Does Mac Mini display repair come with a warranty?',
     answer:
-      'Every Mac Mini display repair we complete carries a 12-month warranty covering both the replacement component and our labour. If the same fault recurs within the warranty period, we repair it again at no charge. Our No Fix No Fee policy also applies — if we cannot resolve your Mac Mini display fault, an assessment fee of R899 applies and your machine is returned exactly as we received it.',
+      'Every Mac Mini display repair we complete carries a 12-month warranty covering both the replacement component and our labour. If the same fault recurs within the warranty period, we repair it again at from R599. Our From R599 assessment policy also applies — if we cannot resolve your Mac Mini display fault, an assessment fee of R899 applies and your machine is returned exactly as we received it.',
   },
   {
     question: 'How long does Mac Mini display repair take?',
@@ -216,7 +217,7 @@ export default function ScreenRepairMacMiniPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Monitor, label: 'All Mac Mini Models' },
                 { icon: Cpu, label: 'HDMI & Thunderbolt Specialist' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
@@ -297,8 +298,9 @@ export default function ScreenRepairMacMiniPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our 12-month warranty. Assessment from R599 on all Mac Mini display faults. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment from R599 on all Mac Mini display faults. From R599 assessment applies on all cases.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -362,7 +364,7 @@ export default function ScreenRepairMacMiniPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our No Fix No Fee policy means that if we cannot resolve your Mac Mini display fault, you pay nothing and your machine is returned exactly as we received it. 12-month warranty on all completed display repairs.
+              Every repair is quoted before work begins. Our From R599 assessment policy means that if we cannot resolve your Mac Mini display fault, you pay nothing and your machine is returned exactly as we received it. 12-month warranty on all completed display repairs.
             </p>
           </div>
         </div>
@@ -470,7 +472,7 @@ export default function ScreenRepairMacMiniPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Mac Mini Not Displaying? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us with a description of the fault — which port, which monitor, what you see (or don&apos;t see). We will give you an honest assessment and a price range before you bring the machine in. From R599 assessment. No Fix No Fee. 12-month warranty on all repairs.
+              WhatsApp us with a description of the fault — which port, which monitor, what you see (or don&apos;t see). We will give you an honest assessment and a price range before you bring the machine in. From R599 assessment. From R599 assessment. 12-month warranty on all repairs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -489,7 +491,7 @@ export default function ScreenRepairMacMiniPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Mac Mini display repair from R899 | 12-month warranty | No Fix No Fee
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Mac Mini display repair from R899 | 12-month warranty | From R599 assessment
             </p>
           </div>
         </div>

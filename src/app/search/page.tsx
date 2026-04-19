@@ -80,7 +80,7 @@ export default async function SearchPage({ searchParams }: Props) {
                   'managed IT services',
                   'Mac Health Check',
                   'CyberShield security',
-                  'no fix no fee',
+                  'from R599 assessment',
                   'Apple certified repair',
                 ].map((s) => (
                   <Link

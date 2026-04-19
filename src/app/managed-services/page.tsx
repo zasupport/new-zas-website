@@ -134,7 +134,7 @@ export default function ManagedServicesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Ready for Proactive IT Management?</h2>
-            <p className="text-[#7A9E98] mb-2">New managed services clients receive a <strong className="text-[#E8F4F1]">complimentary IT assessment</strong>, we audit your environment, identify risks, and recommend the right plan. No obligation.</p>
+            <p className="text-[#7A9E98] mb-2">New managed services clients receive a <strong className="text-[#E8F4F1]">R599 IT assessment</strong>, we audit your environment, identify risks, and recommend the right plan </p>
             <p className="text-[#7A9E98] text-sm mb-6">Mac, Windows, or mixed environments. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}

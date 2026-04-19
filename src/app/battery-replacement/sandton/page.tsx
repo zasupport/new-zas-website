@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Sandton | ZA Support Hyde Park',
@@ -152,7 +153,7 @@ export default function BatteryReplacementSandtonPage() {
               We replace batteries in all MacBook Air and MacBook Pro models, from Intel-era machines through to the latest M-series. Every battery replacement uses Apple-specification cells and is backed by a written ZA Support warranty. We carry stock of the most common battery sizes, so in most cases your repair will not require an order.
             </p>
             <p>
-              If you are unsure whether your battery needs replacing, we will check the cycle count and health percentage before proceeding. There is no charge for the health check.
+              If you are unsure whether your battery needs replacing, we will check the cycle count and health percentage before proceeding. There is from R599 for the health check.
             </p>
           </div>
         </div>
@@ -184,7 +185,7 @@ export default function BatteryReplacementSandtonPage() {
           <div className="space-y-6">
             {[
               { step: '01', title: 'Collection from Sandton', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Sandton at a time that suits you.' },
-              { step: '02', title: 'Battery Health Check', desc: 'We confirm the cycle count, health percentage, and whether replacement is the right fix. No charge for the health check.' },
+              { step: '02', title: 'Battery Health Check', desc: 'We confirm the cycle count, health percentage, and whether replacement is the right fix. From R599 for the health check.' },
               { step: '03', title: 'Written Quote', desc: 'Clear pricing confirmed before any work begins. No hidden costs.' },
               { step: '04', title: 'Battery Replacement', desc: 'Apple-specification battery fitted by our technician at the Hyde Park workshop. Old battery disposed of safely.' },
               { step: '05', title: 'Return to Sandton', desc: 'Your MacBook is tested and returned to your Sandton address with a written ZA Support warranty on the battery and installation.' },
@@ -214,6 +215,7 @@ export default function BatteryReplacementSandtonPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed after battery health check. Written quote before any work begins.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

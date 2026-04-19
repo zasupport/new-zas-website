@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Apple Accessories Repair Johannesburg | Keyboard, Mouse & Trackpad | ZA Support',
@@ -75,7 +76,7 @@ const repairServices = [
   {
     title: 'MagSafe Cable, Assessment',
     models: 'MagSafe, MagSafe 2, USB-C MagSafe 3',
-    note: 'Fault isolation: cable vs brick vs Mac. No charge if unfixable.',
+    note: 'Fault isolation: cable vs brick vs Mac. From R599 if unfixable.',
   },
   {
     title: 'External Display Port Repair',
@@ -197,6 +198,7 @@ export default function AccessoriesRepairPage() {
               </div>
             ))}
           </div>
+          <PricingNote />
         </div>
       </section>
 

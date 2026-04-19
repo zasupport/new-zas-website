@@ -90,7 +90,7 @@ const jsonLd = {
           name: 'Do you charge for an assessment?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'A from R599 assessment fee applies. If you proceed with the repair, this fee applies, you do not pay it on top. If you decline the repair after assessment, the from R599 assessment fee is payable. New managed services clients receive a complimentary IT assessment at no charge.',
+            text: 'A from R599 assessment fee applies. If you proceed with the repair, this fee applies, you do not pay it on top. If you decline the repair after assessment, the from R599 assessment fee is payable. New managed services clients receive a complimentary IT assessment at from R599.',
           },
         },
         {
@@ -175,7 +175,7 @@ const services = [
     icon: HardDrive,
     title: 'Data Recovery',
     description:
-      'Professional data recovery from failed HDDs, SSDs, and flash storage. We recover from water-damaged drives, failed logic boards, and accidental deletions. Forensic-grade tools with no data, no fee.',
+      'Professional data recovery from failed HDDs, SSDs, and flash storage. We recover from water-damaged drives, failed logic boards, and accidental deletions. Forensic-grade tools with no data.',
     href: '/macbook-repair',
     highlight: null,
   },

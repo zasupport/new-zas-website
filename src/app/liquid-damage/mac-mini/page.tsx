@@ -10,7 +10,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Mini Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
   description:
-    'Mac Mini liquid damage repair Johannesburg. M1, M2, M2 Pro, M4 models. Internal PSU corrosion, port contamination. Assessment from R599. No Fix No Fee. Hyde Park.',
+    'Mac Mini liquid damage repair Johannesburg. M1, M2, M2 Pro, M4 models. Internal PSU corrosion, port contamination. Assessment from R599. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/mac-mini' },
   keywords: [
     'Mac Mini liquid damage repair Johannesburg',
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged Mac Mini be repaired?',
     answer:
-      'Yes, in most cases. The Mac Mini houses its logic board, internal power supply, and all I/O controllers in a compact horizontal chassis. Liquid that enters the Mac Mini — typically through rear USB-A, USB-C, HDMI, or Ethernet ports, or directly through the ventilation slots — causes electrolytic corrosion on specific circuits rather than catastrophic board failure. We have repaired M1, M2, M2 Pro, and M4 Mac Mini units with liquid damage at our Hyde Park workshop. Assessment from R599, No Fix No Fee.',
+      'Yes, in most cases. The Mac Mini houses its logic board, internal power supply, and all I/O controllers in a compact horizontal chassis. Liquid that enters the Mac Mini — typically through rear USB-A, USB-C, HDMI, or Ethernet ports, or directly through the ventilation slots — causes electrolytic corrosion on specific circuits rather than catastrophic board failure. We have repaired M1, M2, M2 Pro, and M4 Mac Mini units with liquid damage at our Hyde Park workshop. Assessment from R599, From R599 assessment.',
   },
   {
     question: 'How does liquid typically enter a Mac Mini?',
@@ -61,7 +61,7 @@ const faqs = [
   {
     question: 'How much does Mac Mini liquid damage repair cost?',
     answer:
-      'Cost depends on which components were affected. A single port controller or Ethernet PHY replacement on an M2 Mac Mini is a relatively contained repair. M2 Pro logic boards carry additional memory channels and a dedicated media engine, which extends diagnostic time. M4 boards require the same 3nm-precision approach we use on M3 MacBook Pros — tighter tolerance work with bench PSU testing before power-on. The internal power supply board, if affected, is assessed separately. All repairs are quoted in writing upfront. Assessment from R599. No Fix No Fee applies to every case.',
+      'Cost depends on which components were affected. A single port controller or Ethernet PHY replacement on an M2 Mac Mini is a relatively contained repair. M2 Pro logic boards carry additional memory channels and a dedicated media engine, which extends diagnostic time. M4 boards require the same 3nm-precision approach we use on M3 MacBook Pros — tighter tolerance work with bench PSU testing before power-on. The internal power supply board, if affected, is assessed separately. All repairs are quoted in writing upfront. Assessment from R599. From R599 assessment applies to every case.',
   },
   {
     question: 'Can you recover data from a water-damaged Mac Mini?',
@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a liquid-damaged Mac Mini?',
     answer:
-      'In nearly every case, yes. New Mac Mini M4 units start at approximately R14,999 in South Africa; the M4 Pro starts from R25,999. Our component-level repairs typically cost a fraction of replacement and preserve your original data, installed applications, and serial number. The Mac Mini is also commonly used as a server, home lab, or media centre — configurations that take significant time to rebuild from scratch. If repair genuinely is not economical, we tell you honestly during the assessment with no obligation beyond the R599 fee.',
+      'In nearly every case, yes. New Mac Mini M4 units start at approximately R14,999 in South Africa; the M4 Pro starts from R25,999. Our component-level repairs typically cost a fraction of replacement and preserve your original data, installed applications, and serial number. The Mac Mini is also commonly used as a server, home lab, or media centre — configurations that take significant time to rebuild from scratch. If repair genuinely is not economical, we tell you honestly during the assessment with beyond the R599 fee.',
   },
   {
     question: 'Do you collect Mac Minis from across Johannesburg?',
@@ -181,7 +181,7 @@ export default function MacMiniLiquidDamagePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / M2 Pro / M4' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -288,7 +288,7 @@ export default function MacMiniLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every Mac Mini case — if we cannot repair your unit, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. From R599 assessment on every Mac Mini case — if we cannot repair your unit, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -441,7 +441,7 @@ export default function MacMiniLiquidDamagePage() {
               Mac Mini Liquid Damage? Unplug It Now.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The Mac Mini&apos;s internal mains PSU makes liquid damage an urgent situation. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. No Fix No Fee.
+              The Mac Mini&apos;s internal mains PSU makes liquid damage an urgent situation. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

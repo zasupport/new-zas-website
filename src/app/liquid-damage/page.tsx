@@ -25,7 +25,7 @@ const faqs = [
   {
     question: 'Will you be able to tell me if my MacBook is repairable before I commit to a repair?',
     answer:
-      'Yes. Our assessment is with no obligation. We will open the device, inspect the damage under magnification, and give you an honest prognosis and quote before any work begins. If it is not economically repairable, we will tell you, and help you with data recovery options.',
+      'Yes. Our assessment is with. We will open the device, inspect the damage under magnification, and give you an honest prognosis and quote before any work begins. If it is not economically repairable, we will tell you, and help you with data recovery options.',
   },
   {
     question: 'Does liquid damage repair fall under warranty?',

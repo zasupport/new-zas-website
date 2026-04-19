@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Sandton | ZA Support Hyde Park',
@@ -26,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Full board-level inspection, no obligation' },
+  { item: 'Diagnostic Assessment', note: 'Full board-level inspection,' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip replacement' },
   { item: 'Power Circuit Repair', note: 'No-power diagnosis and board-level fix' },
   { item: 'Component-level repair Repair', note: 'Component-level board repair under microscope' },
@@ -263,7 +264,8 @@ export default function LogicBoardRepairSandtonPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: from R599 with no obligation to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: from R599 with to proceed.</p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

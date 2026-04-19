@@ -23,6 +23,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title:
@@ -703,6 +704,7 @@ export default function MedicalITPage() {
             </Link>{' '}
             to discuss your practice&apos;s specific requirements.
           </p>
+          <PricingNote />
         </div>
       </section>
 

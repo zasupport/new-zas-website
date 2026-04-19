@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Apple Watch Repair Johannesburg | Screen & Battery | ZA Support',
@@ -65,7 +66,7 @@ const repairServices = [
   {
     title: 'Battery Replacement',
     models: 'All Apple Watch Series 3 through Series 9',
-    note: 'Battery health test included at no charge before quoting.',
+    note: 'Battery health test included at from R599 before quoting.',
   },
   {
     title: 'Crown & Side Button Repair',
@@ -277,6 +278,7 @@ export default function AppleWatchRepairPage() {
               </tbody>
             </table>
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -325,7 +327,7 @@ export default function AppleWatchRepairPage() {
               },
               {
                 title: 'Warranty',
-                desc: 'All Apple Watch repairs carry a parts and labour up-to-3 year warranty. Same fault, we fix it at no charge.',
+                desc: 'All Apple Watch repairs carry a parts and labour up-to-3 year warranty. Same fault, we fix it at from R599.',
               },
               {
                 title: 'Sensor Testing',
@@ -337,7 +339,7 @@ export default function AppleWatchRepairPage() {
               },
               {
                 title: 'Assessment: from R599',
-                desc: 'Bring it in. We inspect and quote. No charge if you decide not to proceed.',
+                desc: 'Bring it in. We inspect and quote. From R599 if you decide not to proceed.',
               },
               {
                 title: 'Hyde Park, Johannesburg',

@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
@@ -103,7 +104,7 @@ const faqs = [
   {
     question: 'My Mac Mini won\'t turn on at all, what could be wrong?',
     answer:
-      'The most common causes of a Mac Mini not turning on are: (1) power supply failure, the internal power converter fails over time, especially on 2010–2014 models; (2) a logic board fault, component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting, no fix, no fee applies.',
+      'The most common causes of a Mac Mini not turning on are: (1) power supply failure, the internal power converter fails over time, especially on 2010–2014 models; (2) a logic board fault, component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting, from R599 assessment applies.',
   },
   {
     question: 'Is it worth upgrading an older Mac Mini instead of buying a new one?',
@@ -228,6 +229,7 @@ export default function MacMiniRepairPage() {
               );
             })}
           </div>
+          <PricingNote />
         </div>
       </section>
 
@@ -366,7 +368,7 @@ export default function MacMiniRepairPage() {
               },
               {
                 title: 'Assessment: from R599',
-                desc: 'We assess your Mac Mini at no charge. You get a written quote with no obligation to proceed.',
+                desc: 'We assess your Mac Mini at from R599. You get a written quote with to proceed.',
               },
               {
                 title: 'Component-Level Repair',
@@ -374,7 +376,7 @@ export default function MacMiniRepairPage() {
               },
               {
                 title: 'Warranty',
-                desc: 'All repairs carry a warranty on parts and labour. If the same fault returns within the warranty period, we fix it at no charge.',
+                desc: 'All repairs carry a warranty on parts and labour. If the same fault returns within the warranty period, we fix it at from R599.',
               },
               {
                 title: '16 Years of Apple Experience',

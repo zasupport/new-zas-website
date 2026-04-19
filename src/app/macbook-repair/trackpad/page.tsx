@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Trackpad Repair Johannesburg | ZA Support',
@@ -106,7 +107,7 @@ const faqs = [
   },
   {
     question: 'Is the MacBook trackpad covered under the Apple warranty?',
-    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a up-to-3 year warranty on all our trackpad repairs, if the same fault recurs within the warranty period, we fix it at no cost.',
+    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a up-to-3 year warranty on all our trackpad repairs, if the same fault recurs within the warranty period, we fix it from R599.',
   },
   {
     question: 'My MacBook trackpad clicks but the cursor does not move. What is wrong?',
@@ -321,6 +322,7 @@ export default function MacBookTrackpadPage() {
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
               Combined battery + trackpad quotes available. Call or WhatsApp to confirm stock availability for your model.
             </p>
+            <PricingNote variant="inline" />
           </div>
         </div>
       </section>
@@ -412,7 +414,7 @@ export default function MacBookTrackpadPage() {
                     step: '05',
                     icon: <Clock className="w-5 h-5" />,
                     title: 'Warranty',
-                    desc: 'Every trackpad repair comes with a written up-to-3 year warranty. If the same fault recurs within the warranty period, we fix it at no cost.',
+                    desc: 'Every trackpad repair comes with a written up-to-3 year warranty. If the same fault recurs within the warranty period, we fix it from R599.',
                   },
                 ].map((step) => (
                   <div key={step.step} className="flex gap-4">

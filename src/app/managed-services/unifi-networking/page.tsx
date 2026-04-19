@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'UniFi Business Networking Johannesburg 2026 | From R599 Assessment | ZA Support',
@@ -356,6 +357,7 @@ export default function UniFiNetworkingPage() {
               </div>
             ))}
           </div>
+          <PricingNote />
         </div>
       </section>
 

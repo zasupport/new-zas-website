@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro Screen Repair Johannesburg | Flexgate, Staingate, Crack | ZA Support',
@@ -137,7 +138,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on screen repairs?',
-    answer: 'up-to-3 year warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at no charge. Extended warranty is also available on request.',
+    answer: 'up-to-3 year warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at from R599. Extended warranty is also available on request.',
   },
 ];
 
@@ -295,6 +296,8 @@ export default function MacBookProScreenPage() {
               </div>
             ))}
           </div>
+        
+          <PricingNote variant="inline" />
         </div>
       </section>
 

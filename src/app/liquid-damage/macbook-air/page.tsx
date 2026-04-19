@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on MacBook Air liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at no charge. Our Assessment: from R599 policy also applies: if we cannot repair your machine, an assessment fee of from R599 applies and the machine is returned exactly as received.',
+      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at from R599. Our Assessment: from R599 policy also applies: if we cannot repair your machine, an assessment fee of from R599 applies and the machine is returned exactly as received.',
   },
 ];
 
@@ -164,7 +164,7 @@ const repairProcess = [
   {
     step: '1',
     title: 'Assessment: from R599',
-    detail: 'We open the MacBook Air, inspect under magnification, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. No charge. No obligation.',
+    detail: 'We open the MacBook Air, inspect under magnification, and map every affected area. Power rail testing confirms whether the logic board has short circuits. Completed within 24 hours. From R599 ',
   },
   {
     step: '2',
@@ -326,7 +326,7 @@ export default function MacBookAirLiquidDamagePage() {
               { stat: '500+', label: 'Liquid Damage Recoveries' },
               { stat: 'Assessment: from R599', label: 'Fee' },
               { stat: 'Warranty', label: 'Written. On every repair.' },
-              { stat: 'Assessment: from R599', label: 'Always. No obligation.' },
+              { stat: 'Assessment: from R599', label: 'Always from R599.' },
             ].map(({ stat, label }) => (
               <div key={stat} className="px-4">
                 <p className="text-[#0FEA7A] text-lg font-extrabold">{stat}</p>

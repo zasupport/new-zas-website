@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPhone Repair Johannesburg, All Models, All Damage Types | ZA Support',
@@ -132,6 +133,7 @@ export default function iPhoneRepairPage() {
               </Link>
             ))}
           </div>
+          <PricingNote />
         </div>
       </section>
 

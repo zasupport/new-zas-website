@@ -21,11 +21,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro 14-Inch Battery Replacement Johannesburg 2026 | From R2,499 | ZA Support',
   description:
-    'MacBook Pro 14-inch battery replacement Johannesburg from R2,499. 69.6 Wh cell, adhesive removal, calibration. From R599 assessment. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro 14-inch battery replacement Johannesburg from R2,499. 69.6 Wh cell, adhesive removal, calibration. From R599 assessment. From R599 assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-14-inch' },
   keywords: [
     'MacBook Pro 14 inch battery replacement Johannesburg',
@@ -61,7 +62,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 14-Inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 14-inch battery replacement in Johannesburg. 69.6 Wh lithium-polymer cell, adhesive removal, full calibration. From R2,499. No Fix No Fee. 12-month warranty.',
+    'Professional MacBook Pro 14-inch battery replacement in Johannesburg. 69.6 Wh lithium-polymer cell, adhesive removal, full calibration. From R2,499. From R599 assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -128,7 +129,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Pro 14-inch battery replacement?',
     answer:
-      'All MacBook Pro 14-inch battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity dropping below 80% of new capacity, unexpected shutdowns, or any electrical fault — we replace it again at no charge. Our No Fix No Fee policy applies: if we determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
+      'All MacBook Pro 14-inch battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity dropping below 80% of new capacity, unexpected shutdowns, or any electrical fault — we replace it again at from R599. Our From R599 assessment policy applies: if we determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
   },
   {
     question: 'How do I check my MacBook Pro 14-inch battery health?',
@@ -166,7 +167,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Pro 14-inch packs a 69.6 Wh cell secured by six adhesive sections across the full width of the chassis. When that battery swells or degrades, you need a technician who has done this specific removal hundreds of times. From R2,499 at our Hyde Park workshop — same-day turnaround, 12-month warranty, No Fix No Fee.
+              The MacBook Pro 14-inch packs a 69.6 Wh cell secured by six adhesive sections across the full width of the chassis. When that battery swells or degrades, you need a technician who has done this specific removal hundreds of times. From R2,499 at our Hyde Park workshop — same-day turnaround, 12-month warranty, From R599 assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -174,7 +175,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Battery, label: '69.6 Wh Cell' },
                 { icon: Zap, label: 'R599 Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
@@ -294,8 +295,9 @@ export default function BatteryReplacementMacBookPro14InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost if you proceed. No Fix No Fee.
+            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost if you proceed. From R599 assessment.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -444,7 +446,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 14-Inch Battery Problem?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and a description of the issue — swollen bottom case, high cycle count, unexpected shutdowns, or poor battery life — and we will give you an honest price before you bring the machine in. From R599 assessment. No Fix No Fee.
+              WhatsApp us your model year and a description of the issue — swollen bottom case, high cycle count, unexpected shutdowns, or poor battery life — and we will give you an honest price before you bring the machine in. From R599 assessment. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

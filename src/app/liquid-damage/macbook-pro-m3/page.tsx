@@ -10,7 +10,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro M3 Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
   description:
-    'MacBook Pro M3 liquid damage repair Johannesburg. 3nm chip, MagSafe 3 port corrosion, NAND recovery. Assessment from R599. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro M3 liquid damage repair Johannesburg. 3nm chip, MagSafe 3 port corrosion, NAND recovery. Assessment from R599. From R599 assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m3' },
   keywords: [
     'MacBook Pro M3 liquid damage repair Johannesburg',
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro M3 be repaired?',
     answer:
-      'Yes, in most cases. The M3 MacBook Pro uses Apple\'s 3nm chip architecture — the densest consumer silicon ever produced. While this makes component-level work more exacting, it also means peripheral circuits such as USB-C controllers, power management ICs, and MagSafe charging rails remain individually replaceable. We have repaired MacBook Pro M3, M3 Pro, and M3 Max machines with liquid damage at our Hyde Park workshop. Assessment from R599, No Fix No Fee.',
+      'Yes, in most cases. The M3 MacBook Pro uses Apple\'s 3nm chip architecture — the densest consumer silicon ever produced. While this makes component-level work more exacting, it also means peripheral circuits such as USB-C controllers, power management ICs, and MagSafe charging rails remain individually replaceable. We have repaired MacBook Pro M3, M3 Pro, and M3 Max machines with liquid damage at our Hyde Park workshop. Assessment from R599, From R599 assessment.',
   },
   {
     question: 'How does M3 liquid damage differ from M2 and M1?',
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M3 liquid damage repair cost?',
     answer:
-      'Costs vary by extent of damage. A MagSafe port cleaning or USB-C controller replacement on an M3 base model is the most straightforward case. M3 Pro boards with NAND or power management IC involvement require more work. M3 Max boards carry additional memory channels and a second media engine, which extends diagnostic time. All repairs are quoted in writing upfront. Assessment from R599. No Fix No Fee applies to every case.',
+      'Costs vary by extent of damage. A MagSafe port cleaning or USB-C controller replacement on an M3 base model is the most straightforward case. M3 Pro boards with NAND or power management IC involvement require more work. M3 Max boards carry additional memory channels and a second media engine, which extends diagnostic time. All repairs are quoted in writing upfront. Assessment from R599. From R599 assessment applies to every case.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro M3?',
@@ -78,7 +78,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a liquid-damaged MacBook Pro M3?',
     answer:
-      'In nearly every case, yes. A new MacBook Pro M3 retails from R28,000 to R75,000 in South Africa depending on specification. Our component-level repairs typically cost significantly less than replacement. We also preserve your original data, your installed software, and your machine\'s serial number — none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment with no obligation beyond the R599 fee.',
+      'In nearly every case, yes. A new MacBook Pro M3 retails from R28,000 to R75,000 in South Africa depending on specification. Our component-level repairs typically cost significantly less than replacement. We also preserve your original data, your installed software, and your machine\'s serial number — none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment with beyond the R599 fee.',
   },
   {
     question: 'What makes MagSafe 3 liquid damage different on the M3?',
@@ -178,7 +178,7 @@ export default function MacBookProM3LiquidDamagePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M3 / M3 Pro / M3 Max' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
@@ -288,7 +288,7 @@ export default function MacBookProM3LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every M3 case — if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. From R599 assessment on every M3 case — if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -441,7 +441,7 @@ export default function MacBookProM3LiquidDamagePage() {
               M3 MacBook Pro Liquid Damage? Every Hour Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 3nm M3 chip&apos;s tight tolerances make speed more critical than any previous MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. No Fix No Fee.
+              The 3nm M3 chip&apos;s tight tolerances make speed more critical than any previous MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

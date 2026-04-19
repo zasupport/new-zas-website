@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
+import PricingNote from '@/components/PricingNote';
 
 
 export const metadata: Metadata = {
@@ -259,7 +260,8 @@ export default function AssessmentProcessPage() {
               <h2 className="text-xl font-bold mb-6 text-center" style={{ color: '#E8F4F1' }}>
                 How Our Assessment Fee Works
               </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <PricingNote />
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
                 {/* Proceed with repair */}
                 <div
                   className="rounded-xl p-6"

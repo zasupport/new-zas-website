@@ -7,6 +7,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
@@ -176,7 +177,7 @@ const faqs = [
   {
     question: 'Is the iPhone battery replacement covered by a warranty?',
     answer:
-      'Yes. Every iPhone battery replacement at ZA Support includes a 12-month written warranty covering the battery cell and our workmanship. If the replacement battery develops a fault — capacity drops below 80% within the warranty period, charging irregularities, or a manufacturing defect — we replace it again at no charge. The warranty is provided in writing at the time of collection. It covers parts and labour and does not cover subsequent physical damage or liquid ingress.',
+      'Yes. Every iPhone battery replacement at ZA Support includes a 12-month written warranty covering the battery cell and our workmanship. If the replacement battery develops a fault — capacity drops below 80% within the warranty period, charging irregularities, or a manufacturing defect — we replace it again at from R599. The warranty is provided in writing at the time of collection. It covers parts and labour and does not cover subsequent physical damage or liquid ingress.',
   },
   {
     question: 'Does battery replacement void my iPhone warranty with Apple?',
@@ -353,6 +354,7 @@ export default function BatteryReplacementIphonePage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             Prices are indicative and confirmed in writing before any work begins. Assessment from R599 applies where diagnosis is required before a quote can be given.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -459,7 +461,7 @@ export default function BatteryReplacementIphonePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <AlertTriangle className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              No Fix No Fee applies to every iPhone battery replacement. If we assess your device and determine the fault lies elsewhere — such as a logic board charging circuit issue rather than the battery cell — you pay the R599 diagnostic fee and receive your phone back exactly as presented. We never replace a battery that does not need replacing.
+              From R599 assessment applies to every iPhone battery replacement. If we assess your device and determine the fault lies elsewhere — such as a logic board charging circuit issue rather than the battery cell — you pay the R599 diagnostic fee and receive your phone back exactly as presented. We never replace a battery that does not need replacing.
             </p>
           </div>
         </div>

@@ -8,6 +8,7 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iMac Battery & Power Supply Repair Johannesburg [2026] | From R899 | ZA Support',
@@ -343,6 +344,7 @@ export default function BatteryReplacementImacPage() {
             <p className="text-[#7A9E98] text-xs mt-4">
               Prices are indicative. A written fixed-price quote is provided before any work begins. Assessment fee from R599 applies if the repair is declined after diagnosis.
             </p>
+            <PricingNote variant="inline" />
           </div>
         </section>
 

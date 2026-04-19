@@ -9,6 +9,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Enterprise Apple Support Johannesburg | Fleet Management & MDM | ZA Support',
@@ -468,6 +469,7 @@ export default function EnterprisePage() {
                 We integrate fully with your internal IT infrastructure. Active Directory, Azure AD, Google Workspace, your existing ticketing system, your VPN: we plug into all of it. For many of our clients, particularly medical practices and SMEs, we effectively become their outsourced IT department. For larger organisations, we augment your internal team with Apple-specific expertise they may lack.
               </p>
             </div>
+            <PricingNote />
           </div>
         </div>
       </section>

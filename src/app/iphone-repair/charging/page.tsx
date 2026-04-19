@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPhone Not Charging, Repair Johannesburg | ZA Support',
@@ -78,7 +79,7 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us. We first test your cable and adapter, if those are the problem, there is no charge. Then we inspect the port.' },
+  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us. We first test your cable and adapter, if those are the problem, there is from R599. Then we inspect the port.' },
   { step: '2', title: 'Root Cause Found', desc: 'We determine whether the fault is lint blockage, port damage, a charging flex cable, or a broader liquid damage issue. You get a written fixed-price quote.' },
   { step: '3', title: 'Port Repaired', desc: 'A certified technician cleans or replaces the charging port. Port replacement takes approximately 60 minutes. Lint cleaning takes under 30 minutes.' },
   { step: '4', title: 'Charging Verified', desc: 'We verify fast charging works at the correct wattage, test data sync via cable, and confirm CarPlay connectivity if applicable.' },
@@ -124,7 +125,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on charging port repairs?',
     answer:
-      'All charging port repairs at ZA Support come with a up-to-3 year warranty on parts and labour. If the port stops charging, data sync fails, or CarPlay fails within the warranty period, we fix it at no charge.',
+      'All charging port repairs at ZA Support come with a up-to-3 year warranty on parts and labour. If the port stops charging, data sync fails, or CarPlay fails within the warranty period, we fix it at from R599.',
   },
 ];
 
@@ -278,6 +279,7 @@ export default function iPhoneChargingPage() {
             All port repairs include written up-to-3 year warranty. Assessment: from R599.
             Assessment: from R599, we test your cable and adapter first before quoting a port replacement.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -323,7 +325,7 @@ export default function iPhoneChargingPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every charging port repair carries a warranty on the replacement port and labour. If the fault returns within the warranty period, we fix it, no charge.',
+                    desc: 'Every charging port repair carries a warranty on the replacement port and labour. If the fault returns within the warranty period, we fix it, from R599.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iMac Screen Repair Johannesburg | Cracked Display Replacement | ZA Support',
@@ -179,6 +180,7 @@ export default function IMacScreenRepairPage() {
           <p className="text-center text-sm text-slate-500 mt-4">
             Parts availability confirmed before any work begins. Prices may vary for unusual configurations.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 

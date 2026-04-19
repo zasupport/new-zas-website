@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'iPhone Screen Repair Johannesburg | ZA Support',
@@ -81,7 +82,7 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote, no surprises, no obligation.' },
+  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote, no surprises,.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct OLED assembly is in stock for your exact model before committing to a repair date. Same-day is available for most models.' },
   { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the OLED display assembly. iPhone screen repairs typically take 60–90 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy, Face ID, True Tone, brightness, and colour uniformity across the full panel before returning your device.' },
@@ -127,7 +128,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on iPhone screen repairs?',
     answer:
-      'All iPhone screen repairs at ZA Support come with a up-to-3 year warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at no charge.',
+      'All iPhone screen repairs at ZA Support come with a up-to-3 year warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at from R599.',
   },
 ];
 
@@ -279,8 +280,9 @@ export default function iPhoneScreenPage() {
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
             All repairs include written up-to-3 year warranty. Assessment: from R599. Face ID and True Tone preserved.
-            Assessment: from R599, no charge if we cannot repair your device.
+            Assessment: from R599, from R599 if we cannot repair your device.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -292,7 +294,7 @@ export default function iPhoneScreenPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we repair daily. If you are unsure whether your
-            fault is the screen or something deeper, we diagnose first, at no cost.
+            fault is the screen or something deeper, we diagnose first, from R599.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -326,7 +328,7 @@ export default function iPhoneScreenPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every iPhone screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments, no charge.',
+                    desc: 'Every iPhone screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments, from R599.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,

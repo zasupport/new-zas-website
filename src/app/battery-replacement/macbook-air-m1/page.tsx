@@ -21,11 +21,12 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M1 Battery Replacement Johannesburg 2026 | From R1,899 | ZA Support',
   description:
-    'MacBook Air M1 battery replacement Johannesburg from R1,899. 49.9 Wh cell, fanless design considerations, full calibration. From R599 assessment. No Fix No Fee. Hyde Park.',
+    'MacBook Air M1 battery replacement Johannesburg from R1,899. 49.9 Wh cell, fanless design considerations, full calibration. From R599 assessment. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air-m1' },
   keywords: [
     'MacBook Air M1 battery replacement Johannesburg',
@@ -59,7 +60,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air M1 Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Air M1 battery replacement in Johannesburg. 49.9 Wh lithium-polymer cell, fanless design specialist, full calibration. From R1,899. No Fix No Fee. 12-month warranty.',
+    'Professional MacBook Air M1 battery replacement in Johannesburg. 49.9 Wh lithium-polymer cell, fanless design specialist, full calibration. From R1,899. From R599 assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -126,7 +127,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Air M1 battery replacement?',
     answer:
-      'All MacBook Air M1 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault — we replace it again at no charge. No Fix No Fee applies: if we assess your machine and determine the battery is not the issue, you pay only the assessment fee from R599.',
+      'All MacBook Air M1 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault — we replace it again at from R599. From R599 assessment applies: if we assess your machine and determine the battery is not the issue, you pay only the assessment fee from R599.',
   },
   {
     question: 'How do I check my MacBook Air M1 battery health?',
@@ -164,7 +165,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Air M1 redefined battery life — 18 hours from a 49.9 Wh cell. But Johannesburg&apos;s load shedding has pushed many of these machines to their cycle limit years ahead of schedule. We replace the battery in 2 to 3 hours at our Hyde Park workshop. From R1,899 with a 12-month warranty and No Fix No Fee guarantee.
+              The MacBook Air M1 redefined battery life — 18 hours from a 49.9 Wh cell. But Johannesburg&apos;s load shedding has pushed many of these machines to their cycle limit years ahead of schedule. We replace the battery in 2 to 3 hours at our Hyde Park workshop. From R1,899 with a 12-month warranty and From R599 assessment guarantee.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -172,7 +173,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'From R599 assessment' },
                 { icon: Battery, label: '49.9 Wh Cell' },
                 { icon: Zap, label: 'R599 Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
@@ -290,8 +291,9 @@ export default function BatteryReplacementMacBookAirM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Price includes the 49.9 Wh replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost. No Fix No Fee.
+            Price includes the 49.9 Wh replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost. From R599 assessment.
           </p>
+          <PricingNote variant="inline" />
         </div>
       </section>
 
@@ -368,7 +370,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
                 <li>Turnaround 5 to 7 business days via depot</li>
                 <li>Keyboard and trackpad replaced unnecessarily</li>
                 <li>No coconutBattery diagnostic shared</li>
-                <li>No Fix No Fee not offered</li>
+                <li>From R599 assessment not offered</li>
               </ul>
             </div>
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
@@ -377,7 +379,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
                 <li>Battery cell only — R1,899 all-inclusive</li>
                 <li>Same-day 2 to 3 hour turnaround</li>
                 <li>coconutBattery diagnostic shared with you</li>
-                <li>No Fix No Fee — pay only R599 assessment if not repairable</li>
+                <li>From R599 assessment — pay only R599 assessment if not repairable</li>
                 <li>Written 12-month warranty on cell and workmanship</li>
               </ul>
             </div>
@@ -455,7 +457,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M1 Battery Dying?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your cycle count and maximum capacity percentage — or just describe the problem — and we will give you an honest assessment and price. From R599 assessment. 2 to 3 hour turnaround. No Fix No Fee.
+              WhatsApp us your cycle count and maximum capacity percentage — or just describe the problem — and we will give you an honest assessment and price. From R599 assessment. 2 to 3 hour turnaround. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -39,7 +39,7 @@ const faultTable = [
 const repairProcess = [
   { step: '1', title: 'Diagnostic: from R599', detail: 'We inspect the board under stereo microscope. Power rail probing, short-circuit mapping, and thermal imaging where applicable. Completed within 24 hours.' },
   { step: '2', title: 'Written Quote', detail: 'You receive a specific written quote: fault identified, parts required, labour, and turnaround time. This is a fixed quote, no surprises when you collect.' },
-  { step: '3', title: 'Your Approval', detail: 'Work begins only after you approve the quote. If you decline for any reason, the machine is returned exactly as received, no charge.' },
+  { step: '3', title: 'Your Approval', detail: 'Work begins only after you approve the quote. If you decline for any reason, the machine is returned exactly as received, from R599.' },
   { step: '4', title: 'Component-Level Repair', detail: 'Using a stereo microscope, professional hot-air rework station, and precision soldering station, we replace the specific failed component, whether a fuse, capacitor, controller IC, or damaged trace.' },
   { step: '5', title: 'Multi-Stage Testing', detail: 'Post-repair verification: power-on and charge cycle test, display output (internal + external), USB-C device enumeration, thermal monitoring, and T2/SMC validation on applicable models.' },
   { step: '6', title: 'Collection or Delivery', detail: 'Collect from our Hyde Park workshop or arrange secure courier return across Johannesburg. Most MacBook Air logic board repairs are completed within 3–5 business days from approval.' },
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: 'Do you offer a warranty on MacBook Air logic board repairs?',
-    answer: 'Yes, every ZA Support logic board repair carries a warranty on the repaired component and any replaced parts. If the same fault returns within the warranty period, we fix it at no charge.',
+    answer: 'Yes, every ZA Support logic board repair carries a warranty on the repaired component and any replaced parts. If the same fault returns within the warranty period, we fix it at from R599.',
   },
   {
     question: 'What if my MacBook Air cannot be fixed?',
@@ -150,7 +150,7 @@ export default function MacBookAirLogicBoardPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Component-level repair for MacBook Air logic board faults.
-              All Intel and Apple Silicon models. Assessment: from R599 with no obligation.
+              All Intel and Apple Silicon models. Assessment: from R599 with.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               We repair the board, we do not just replace it. Component-level repair is a fraction of the cost of a full board replacement. Hyde Park, Johannesburg.
@@ -391,7 +391,7 @@ export default function MacBookAirLogicBoardPage() {
           </p>
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
-              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. No charge, no obligation.' },
+              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. From R599,.' },
               { item: 'USB-C / Charging Repair', note: 'USB-C controller IC or charging path component-level repair' },
               { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or display connector fault' },
               { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC' },
@@ -418,7 +418,7 @@ export default function MacBookAirLogicBoardPage() {
           </div>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Assessment: from R599, always.</strong> We assess your MacBook Air at no charge with no obligation. Written quote before any work begins.
+              💡 <strong className="text-[#E8F4F1]">Assessment: from R599, always.</strong> We assess your MacBook Air at from R599 with. Written quote before any work begins.
             </p>
           </div>
         </div>
