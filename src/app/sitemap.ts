@@ -488,5 +488,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/liquid-damage-macbook-fourways`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/managed-it-services-medical-practice-gauteng`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/medical-practice-managed-it-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/imac-screen-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/ipad-battery-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-battery-replacement-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-charging-ic-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
