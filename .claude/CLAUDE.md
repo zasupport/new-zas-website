@@ -24,6 +24,8 @@
 # §153 ERROR INBOX → global CLAUDE.md (auto-loaded)
 # §187 LOCAL AUTOMATION FIRST → global CLAUDE.md (auto-loaded)
 
+# §284 GAP ANALYSIS AUTO-EXECUTE (HARD — 19/04/2026): §278 EXECUTABLE-NOW items → auto-enqueue ~/.za-gap-analysis-queue.json + live drain + LaunchAgent com.zasupport.gapanalysisexecutor (RunAtLoad+300s failover, survives sleep/lid-close/session-death) | headless Claude per item → ~/.za-gap-analysis-logs/<id>.log | Retry 3× then notify+failed | BLOCKED-EXTERNAL never auto-executed | LIVE 19/04 13:50: exit=0, /tmp/ga-test.txt=OK, queue status=done | extends §278+§274+§265+§216+§267+§273 | global CLAUDE.md (full detail)
+
 ## PROJECT PURPOSE
 Public marketing website for zasupport.com. SEO-first. Converts Mac owners with logic board faults.
 Revenue priority: Logic board repair #1 | Liquid damage #2 | iPhone/iPad #3 (organic only, not promoted)
