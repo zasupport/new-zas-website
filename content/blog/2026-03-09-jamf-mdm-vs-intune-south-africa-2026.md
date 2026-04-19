@@ -169,7 +169,7 @@ ZA Support implements and manages both JAMF MDM and Microsoft Intune for South A
 - **POPIA alignment** — configuring your MDM to support your organisation's compliance obligations under South African data protection law
 - **Staff and IT training** — ensuring your internal team understands the platform and can handle day-to-day queries
 
-All MDM engagements begin with a **R599 assessment** of your current environment — no obligation, no fee.
+All MDM engagements begin with a **R599 assessment** of your current environment — .
 
 ---
 
@@ -181,7 +181,7 @@ Yes. JAMF Pro manages all Apple platforms — macOS, iOS, iPadOS, tvOS, and visi
 
 **Q: Is Intune really free if we already have Microsoft 365?**
 
-It depends on your licence tier. Microsoft 365 Business Premium, E3, and E5 licences include Intune at no additional per-user cost. Microsoft 365 Business Basic and Business Standard do not. Review your current M365 agreement or speak to your Microsoft partner to confirm what you're entitled to. ZA Support can assess this during your free consultation.
+It depends on your licence tier. Microsoft 365 Business Premium, E3, and E5 licences include Intune at no additional per-user cost. Microsoft 365 Business Basic and Business Standard do not. Review your current M365 agreement or speak to your Microsoft partner to confirm what you're entitled to. ZA Support can assess this during your initial consultation from R599.
 
 **Q: How does JAMF help with POPIA compliance?**
 

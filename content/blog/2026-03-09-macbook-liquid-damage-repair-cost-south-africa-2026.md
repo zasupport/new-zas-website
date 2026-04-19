@@ -62,7 +62,7 @@ Newer M-series MacBooks use more tightly integrated silicon, which can make cert
 When you bring your MacBook to our Hyde Park workshop, here is exactly what happens:
 
 ### Step 1: Free Visual and Diagnostic Assessment
-We open the MacBook, inspect the liquid damage indicator strips, and do a thorough visual inspection of the logic board, keyboard assembly, I/O board, and battery. We check for corrosion, burnt components, and liquid ingress patterns. This assessment is completely free, with no obligation to proceed.
+We open the MacBook, inspect the liquid damage indicator strips, and do a thorough visual inspection of the logic board, keyboard assembly, I/O board, and battery. We check for corrosion, burnt components, and liquid ingress patterns. This assessment is from R599, with to proceed.
 
 We then give you a written quote before any work begins.
 
@@ -82,19 +82,19 @@ After reassembly, we run a complete diagnostic pass — including Apple's own di
 
 ---
 
-## Our No Fix No Fee Policy — What It Means for You
+## Our R599 Assessment Policy — What It Means for You
 
-We operate on a strict **No Fix No Fee** policy for liquid damage repairs. If our technicians assess your MacBook and determine that the damage is beyond economical repair — or if the repair attempt is unsuccessful — you pay nothing.
+We operate on a transparent **R599 assessment** policy for liquid damage repairs. Every MacBook that arrives is inspected at this flat rate, and you receive a detailed written diagnosis before any repair is quoted or commenced.
 
-This policy exists because liquid damage has variables that even experienced technicians cannot always predict in advance. Occasionally, corrosion has caused irreversible damage to Apple's proprietary silicon or destroyed critical PCB layers. In those rare cases, we will tell you honestly, show you what we found, and charge you nothing for our time.
+This matters because liquid damage has variables that even experienced technicians cannot always predict in advance. Occasionally, corrosion has caused irreversible damage to Apple's proprietary silicon or destroyed critical PCB layers. In those rare cases, we will tell you honestly, show you what we found, and confirm that no further repair work will be carried out.
 
-We believe this is the only ethical way to operate in the repair industry. You came to us with a problem — if we can't solve it, you shouldn't pay for it.
+We believe this is the only ethical way to operate in the repair industry. You came to us with a problem — our job is to give you the full picture up front so you can make an informed decision.
 
 ---
 
 ## 12-Month Warranty on All Liquid Damage Repairs
 
-Every successful liquid damage repair at ZA Support is backed by a **12-month warranty** covering the work performed. If a fault directly related to our repair re-emerges within 12 months, we will address it at no additional cost.
+Every successful liquid damage repair at ZA Support is backed by a **12-month warranty** covering the work performed. If a fault directly related to our repair re-emerges within 12 months, we will address it under the terms of that warranty.
 
 This warranty gives you peace of mind that we stand behind our work — and it's a meaningful commitment given the complexity of liquid damage repairs. Not every repair shop in Johannesburg offers this. We do.
 
@@ -108,7 +108,7 @@ We're frequently asked how our pricing compares to other repair options. Here's 
 
 **Generic Repair Shops:** Cheaper upfront quotes sometimes reflect a lack of ultrasonic cleaning equipment, no microsoldering capability, or inexperienced technicians. A MacBook "repaired" without proper cleaning will often fail again within weeks as hidden corrosion continues to spread.
 
-**ZA Support:** We occupy the position between a premium price point and an amateur quick-fix. We have the equipment, the 14 years of experience, the warranty, and the No Fix No Fee safety net. Our pricing is transparent before we start, and our [liquid damage repair service page](/liquid-damage) has full details.
+**ZA Support:** We occupy the position between a premium price point and an amateur quick-fix. We have the equipment, the 14 years of experience, the written warranty, and a transparent R599 assessment before any repair commences. Our pricing is communicated up front, and our [liquid damage repair service page](/liquid-damage) has full details.
 
 ---
 
@@ -145,15 +145,15 @@ Absolutely. A MacBook that boots but behaves erratically after a liquid incident
 
 ### Q5: Do you repair iPhones and iPads with liquid damage too?
 
-Yes. We repair liquid damage across the full range of Apple devices — iPhones, iPads, Apple Watches, iMacs, and MacBooks. iPhone liquid damage repairs start from R 1,200, and iPad liquid damage repairs start from R 1,500. The same R599 assessment, ultrasonic cleaning, and No Fix No Fee policy applies to all devices. Visit our [iPhone repair page](/iphone-repair) for details.
+Yes. We repair liquid damage across the full range of Apple devices — iPhones, iPads, Apple Watches, iMacs, and MacBooks. iPhone liquid damage repairs start from R 1,200, and iPad liquid damage repairs start from R 1,500. The same R599 assessment and ultrasonic cleaning methodology applies to all devices. Visit our [iPhone repair page](/iphone-repair) for details.
 
-### Q6: What if you assess my MacBook and say it's not repairable — do I pay anything?
+### Q6: What if you assess my MacBook and say it's not repairable — what do I pay?
 
-No. Our No Fix No Fee policy means that if we cannot repair your MacBook, or if our repair attempt is unsuccessful, you pay nothing. We'll return your device in the same condition we received it, and we'll give you an honest explanation of what the assessment found. There is no charge for the assessment itself.
+If we determine during the R599 assessment that your MacBook is not economically repairable — or if a repair attempt is unsuccessful — you pay only the R599 assessment fee. No repair costs are added on top. We'll return your device in the same condition we received it and give you an honest written explanation of what the assessment found.
 
 ### Q7: Do you offer a warranty on liquid damage repairs?
 
-Yes. All successful liquid damage repairs at ZA Support are covered by a **12-month warranty** on the work performed. If a fault directly attributable to our repair appears within that period, we'll fix it at no cost to you.
+Yes. All successful liquid damage repairs at ZA Support are covered by a **12-month warranty** on the work performed. If a fault directly attributable to our repair appears within that period, we'll address it under the terms of the warranty.
 
 ---
 
@@ -161,7 +161,7 @@ Yes. All successful liquid damage repairs at ZA Support are covered by a **12-mo
 
 With 14 years of experience repairing Apple devices, we've built our reputation in Hyde Park on three things: honest assessments, expert repairs, and standing behind our work. We don't turn people away with expensive replacement quotes when a repair is perfectly viable. We invest in the right equipment — ultrasonic cleaners, microsoldering stations, stereo microscopes — because the quality of the repair depends on the quality of the tools and the experience of the technician.
 
-We also believe in transparency. You'll never receive a bill for work you didn't approve. The R599 assessment gives you complete information before you decide. And if we can't fix it, you owe us nothing.
+We also believe in transparency. You'll never receive a bill for work you didn't approve. The R599 assessment gives you complete information before you decide whether to proceed with any repair.
 
 If your MacBook has suffered liquid damage — whether it happened this morning or several months ago — the most important step is getting it assessed by someone who genuinely knows what they're looking at.
 

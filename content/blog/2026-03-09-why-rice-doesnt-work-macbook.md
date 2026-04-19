@@ -72,7 +72,7 @@ When your water-damaged MacBook arrives at ZA Support in Hyde Park, we don't jus
 
 ### Step 1: R599 assessment
 
-Every liquid damage MacBook begins with a **R599 assessment**. We open the machine, photograph the damage, and give you a clear, honest diagnosis before any paid work begins. This is part of our **No Fix No Fee** commitment — if we can't fix it, you don't pay for the repair.
+Every liquid damage MacBook begins with a **R599 assessment**. We open the machine, photograph the damage, and give you a clear, honest diagnosis before any paid work begins. If we can't fix it, you pay only the R599 assessment — not the attempted repair.
 
 ### Step 2: Full Disassembly
 
@@ -109,7 +109,7 @@ Pricing for **liquid damage MacBook repair in South Africa** depends entirely on
 - **Ultrasonic cleaning + component-level repair:** Quoted after assessment, based on specific board damage found
 - **Logic board replacement (if beyond repair):** We'll always advise you honestly if this is the more cost-effective path
 
-We will never charge you for a repair we couldn't complete. Our No Fix No Fee policy is absolute.
+We will never charge you for a repair we couldn't complete — you pay only the R599 assessment.
 
 For context, a new MacBook Pro logic board from Apple can cost R 15,000 to R 25,000 or more depending on model. Professional liquid damage remediation, even with component-level repair, is almost always significantly less — and we save machines that other repairers have written off.
 
@@ -122,8 +122,8 @@ There are repair shops all over Johannesburg. Here's why MacBook owners across G
 - **14 years of Apple specialist experience** — we understand MacBook architecture at a component level
 - **Professional ultrasonic cleaning equipment** — not available at most general repair shops
 - **Micro-soldering capability** — logic board repair, not just board replacement
-- **No Fix No Fee, always** — complete transparency, no hidden fees
-- **Free initial assessment** — you know what you're dealing with before spending a rand
+- **From R599 assessment, always** — complete transparency, transparent R599+ pricing
+- **R599 initial assessment** — you know what you're dealing with before committing to any repair spend
 - **[Apple-specialist focus](/apple-repair)** — MacBooks are not a sideline for us, they are our expertise
 
 Visit our [liquid damage service page](/liquid-damage) for more detail on our process, or our [iPhone repair page](/iphone-repair) if your iPhone has also taken a swim.
@@ -166,7 +166,7 @@ The corrosion that liquid spills cause on your MacBook's logic board is an activ
 
 If your MacBook has been exposed to any liquid — power it off, do not plug it in, do not try to turn it on again, and bring it to us at ZA Support in Hyde Park as fast as you possibly can.
 
-Our [liquid damage repair process](/liquid-damage) is professional, transparent, and backed by 14 years of Apple specialist experience. Our R599 assessment costs you nothing. Our No Fix No Fee policy means you take on no financial risk. And our ultrasonic cleaning capability gives your MacBook the best possible chance of a full recovery.
+Our [liquid damage repair process](/liquid-damage) is professional, transparent, and backed by 14 years of Apple specialist experience. Our R599 assessment gives you a full diagnosis before any repair work is committed to, so you know exactly what you're dealing with up front. And our ultrasonic cleaning capability gives your MacBook the best possible chance of a full recovery.
 
 Don't gamble your MacBook on a bag of rice. Call the specialists.
 

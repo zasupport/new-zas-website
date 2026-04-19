@@ -47968,3 +47968,1168 @@ d95a26e20e59743869e529bb05763f5133a40364
 [19/04/2026 17:55:52 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
 [19/04/2026 17:58:14] §248 learning captured: 2P/00F | brief: learning-20260419.json
 [19/04/2026 17:58:21] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:00:06] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:00:52 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:01:02 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:01:12 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:01:12 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:01:12 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:01:12 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:01:12 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:01:12 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:01:12 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 18:02:56] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 18:02:56] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 18:02:56] §241-VERIFY: LaunchAgents = 90 loaded (OK)
+[2026-04-19 18:02:56] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 18:02:56] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 18:02:56] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 18:02:56] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 18:02:56] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 18:02:56] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 18:02:56] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 18:02:56] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 18:02:58] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 18:06:13 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:06:23 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:06:35 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:06:35 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:06:35 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:06:35 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:06:35 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:06:35 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:06:35 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 18:09:40] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[2026-04-19 18:10:24] §245-GSC: Token acquired, querying GSC...
+[2026-04-19 18:10:24] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 18:10:25] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 18:10:25] §245-GSC: No current data from GSC
+[19/04/2026 18:11:35 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:11:46 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:11:57 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:11:57 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:11:57 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:11:57 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:11:57 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:11:57 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:11:57 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 18:12:58] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 18:12:58] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 18:12:58] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 18:12:58] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 18:12:58] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 18:12:58] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 18:12:58] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 18:12:58] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 18:12:58] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 18:12:58] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 18:12:58] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 18:12:59] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 18:15:50] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:16:57 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:17:07 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:17:18 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:17:18 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:17:18 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:17:18 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:17:18 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:17:18 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:17:18 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 18:18:56] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:19:22] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:21:11] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:22:18 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:22:29 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:22:40 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:22:40 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:22:40 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:22:40 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:22:40 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:22:40 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:22:40 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 18:22:59] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 18:22:59] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 18:22:59] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 18:22:59] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 18:22:59] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 18:22:59] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 18:22:59] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 18:22:59] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 18:22:59] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 18:22:59] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 18:22:59] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 18:23:00] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 18:27:40 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:27:50 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:28:01 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:28:01 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:28:01 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:28:01 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:28:01 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:28:01 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:28:01 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 18:32:59] §241-VERIFY: zasupport.com = 200 OK
+[19/04/2026 18:33:01 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-19 18:32:59] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 18:32:59] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 18:32:59] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 18:32:59] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 18:32:59] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 18:32:59] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 18:32:59] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 18:32:59] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 18:32:59] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 18:32:59] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 18:33:01] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 18:33:14 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:33:25 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:33:25 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:33:25 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:33:25 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:33:25 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:33:25 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:33:25 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 18:38:25 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:38:36 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:38:48 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:38:48 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:38:48 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:38:48 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:38:48 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:38:48 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:38:48 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 18:43:01] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 18:43:01] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 18:43:01] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 18:43:01] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 18:43:01] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 18:43:01] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 18:43:01] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 18:43:01] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 18:43:01] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 18:43:01] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 18:43:01] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 18:43:02] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 18:43:48 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:44:08 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:44:20 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:44:20 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:44:20 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:44:20 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:44:20 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:44:20 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:44:20 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 18:47:39] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:48:16] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:49:20 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:49:31 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:49:42 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:49:42 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:49:42 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:49:42 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:49:42 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:49:42 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:49:42 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 18:53:02] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 18:53:02] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 18:53:02] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 18:53:02] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 18:53:02] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 18:53:02] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 18:53:02] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 18:53:02] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 18:53:02] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 18:53:02] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 18:53:02] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 18:53:03] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 18:54:42 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 18:54:47] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 18:54:54 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 18:55:05 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 18:55:05 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 18:55:05 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 18:55:05 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 18:55:05 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 18:55:05 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 18:55:05 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 18:57:57] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 19:00:06 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 19:00:16 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 19:00:27 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 19:00:27 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 19:00:27 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 19:00:27 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 19:00:27 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 19:00:27 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 19:00:27 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 19:03:03] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 19:03:03] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 19:03:03] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 19:03:03] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 19:03:03] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 19:03:03] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 19:03:03] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 19:03:03] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 19:03:03] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 19:03:03] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 19:03:03] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 19:03:04] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 19:05:27 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 19:05:39 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 19:05:49 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 19:05:50 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 19:05:50 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 19:05:50 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 19:05:50 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 19:05:50 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 19:05:50 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 19:48:15] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[2026-04-19 19:50:10] §245-GSC: Token acquired, querying GSC...
+[2026-04-19 19:50:10] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 19:50:11] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 19:50:11] §245-GSC: No current data from GSC
+[19/04/2026 19:51:20 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 19:51:31 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 19:51:42 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 19:51:42 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 19:51:42 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 19:51:42 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 19:51:42 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 19:51:42 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 19:51:42 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 19:53:34] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 19:53:34] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 19:53:34] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 19:53:34] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 19:53:34] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 19:53:34] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 19:53:34] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 19:53:34] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 19:53:34] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 19:53:34] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 19:53:34] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 19:53:35] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 19:56:42 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 19:56:52 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 19:57:04 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 19:57:04 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 19:57:04 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 19:57:04 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 19:57:04 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 19:57:04 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 19:57:04 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 20:02:04 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:02:14 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:02:24 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:02:24 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:02:24 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:02:24 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:02:24 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:02:24 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:02:24 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 20:03:35] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 20:03:35] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 20:03:35] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 20:03:35] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 20:03:35] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 20:03:35] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 20:03:35] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 20:03:35] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 20:03:35] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 20:03:35] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 20:03:35] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 20:03:36] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 20:07:24 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:07:35 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:07:45 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:07:45 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:07:45 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:07:45 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:07:45 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:07:45 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:07:45 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 20:12:45 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:12:55 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:13:06 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:13:06 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:13:06 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:13:06 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:13:06 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:13:06 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:13:06 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 20:13:35] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 20:13:35] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 20:13:35] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 20:13:35] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 20:13:35] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 20:13:35] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 20:13:35] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 20:13:35] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 20:13:35] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 20:13:35] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 20:13:35] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 20:13:37] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 20:18:06 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:18:15 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:18:26 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:18:26 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:18:26 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:18:26 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:18:26 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:18:26 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:18:26 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 20:23:26 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:23:37 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[2026-04-19 20:23:37] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 20:23:37] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 20:23:37] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 20:23:37] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 20:23:37] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 20:23:37] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 20:23:37] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 20:23:37] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 20:23:37] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 20:23:37] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 20:23:37] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 20:23:39] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 20:23:45] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 20:23:48 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:23:48 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:23:48 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:23:48 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:23:48 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:23:48 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:23:48 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 20:28:48 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:28:59 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:29:09 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:29:09 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:29:09 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:29:09 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:29:09 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:29:09 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:29:09 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 20:33:39] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 20:33:39] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 20:33:39] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 20:33:39] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 20:33:39] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 20:33:39] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 20:33:39] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 20:33:39] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 20:33:39] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 20:33:39] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 20:33:39] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 20:33:40] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 20:34:09 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:34:20 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:34:29 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:34:29 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:34:29 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:34:29 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:34:29 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:34:29 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:34:29 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 20:39:29 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:39:39 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:39:49 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:39:49 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:39:49 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:39:49 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:39:49 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:39:49 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:39:49 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 20:43:40] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 20:43:40] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 20:43:40] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 20:43:40] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 20:43:40] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 20:43:40] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 20:43:40] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 20:43:40] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 20:43:40] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 20:43:40] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 20:43:40] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 20:43:41] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 20:44:49 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:45:01 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:45:11 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:45:11 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:45:11 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:45:11 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:45:11 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:45:11 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:45:11 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 20:50:11 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:50:21 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[2026-04-19 20:50:25] §245-GSC: Token acquired, querying GSC...
+[2026-04-19 20:50:25] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 20:50:25] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 20:50:25] §245-GSC: No current data from GSC
+[19/04/2026 20:50:31 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:50:31 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:50:31 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:50:31 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:50:31 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:50:31 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:50:31 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 20:53:41] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 20:53:41] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 20:53:41] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 20:53:41] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 20:53:41] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 20:53:41] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 20:53:41] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 20:53:41] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 20:53:41] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 20:53:41] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 20:53:41] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 20:53:42] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 20:55:31 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 20:55:42 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 20:55:52 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 20:55:52 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 20:55:52 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 20:55:52 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 20:55:52 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 20:55:52 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 20:55:52 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 21:00:52 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:01:03 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:01:13 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:01:13 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:01:14 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:01:14 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:01:14 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:01:14 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:01:14 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 21:03:42] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 21:03:42] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 21:03:42] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 21:03:42] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 21:03:42] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 21:03:42] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 21:03:42] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 21:03:42] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 21:03:42] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 21:03:42] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 21:03:42] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 21:03:42] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 21:06:14 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:06:24 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:06:34 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:06:34 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:06:34 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:06:34 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:06:34 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:06:34 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:06:34 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 21:11:34 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:11:44 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:11:55 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:11:55 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:11:55 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:11:55 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:11:55 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:11:55 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:11:55 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 21:13:42] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 21:13:42] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 21:13:42] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 21:13:42] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 21:13:42] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 21:13:42] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 21:13:42] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 21:13:42] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 21:13:42] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 21:13:42] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 21:13:42] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 21:13:43] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 21:16:55 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:17:05 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:17:15 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:17:15 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:17:15 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:17:15 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:17:15 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:17:15 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:17:15 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 21:22:15 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:22:25 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:22:36 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:22:36 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:22:36 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:22:36 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:22:36 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:22:36 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:22:36 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 21:23:43] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 21:23:43] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 21:23:43] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 21:23:43] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 21:23:43] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 21:23:43] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 21:23:43] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 21:23:43] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 21:23:43] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 21:23:43] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 21:23:43] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 21:23:45] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 21:27:36 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:27:46 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:27:56 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:27:56 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:27:56 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:27:56 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:27:56 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:27:56 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:27:56 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 21:32:56 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:33:06 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:33:16 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:33:16 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:33:16 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:33:16 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:33:16 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:33:16 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:33:16 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 21:33:45] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 21:33:45] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 21:33:45] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 21:33:45] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 21:33:45] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 21:33:45] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 21:33:45] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 21:33:45] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 21:33:45] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 21:33:45] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 21:33:45] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 21:33:45] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 21:38:16 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:38:26 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:38:36 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:38:36 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:38:36 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:38:36 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:38:36 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:38:36 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:38:36 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 21:43:36 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-19 21:43:45] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 21:43:45] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 21:43:45] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 21:43:45] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 21:43:45] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 21:43:45] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 21:43:45] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 21:43:45] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 21:43:45] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 21:43:45] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 21:43:45] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 21:43:46] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 21:43:46 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:43:56 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:43:56 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:43:56 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:43:56 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:43:56 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:43:56 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:43:56 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 21:45:04] §248 learning captured: 2P/00F | brief: learning-20260419.json
+[19/04/2026 21:48:56 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:49:06 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:49:16 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:49:16 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:49:16 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:49:16 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:49:16 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:49:16 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:49:16 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 21:50:40] §245-GSC: Token acquired, querying GSC...
+[2026-04-19 21:50:41] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 21:50:41] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 21:50:41] §245-GSC: No current data from GSC
+[2026-04-19 21:53:46] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 21:53:46] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 21:53:46] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 21:53:46] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 21:53:46] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 21:53:46] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 21:53:46] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 21:53:46] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 21:53:46] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 21:53:46] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 21:53:46] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 21:53:47] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 21:54:16 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:54:26 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:54:36 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:54:36 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:54:36 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:54:36 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:54:36 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:54:36 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:54:36 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 21:59:36 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 21:59:46 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 21:59:56 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 21:59:56 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 21:59:56 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 21:59:56 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 21:59:56 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 21:59:56 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 21:59:56 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:03:47] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 22:03:47] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 22:03:47] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 22:03:47] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 22:03:47] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 22:03:47] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 22:03:47] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 22:03:47] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 22:03:47] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 22:03:47] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 22:03:47] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 22:03:48] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 22:04:56 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:05:06 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:05:16 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:05:16 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:05:16 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:05:16 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:05:16 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:05:16 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:05:16 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 22:10:16 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:10:26 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:10:36 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:10:36 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:10:36 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:10:36 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:10:36 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:10:36 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:10:36 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:13:48] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 22:13:48] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 22:13:48] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 22:13:48] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 22:13:48] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 22:13:48] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 22:13:48] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 22:13:48] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 22:13:48] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 22:13:48] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 22:13:48] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 22:13:49] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 22:15:36 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:15:46 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:15:55 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:15:55 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:15:55 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:15:55 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:15:55 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:15:56 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:15:56 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 22:20:56 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:21:06 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:21:15 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:21:15 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:21:15 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:21:15 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:21:15 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:21:15 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:21:15 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:23:49] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 22:23:49] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 22:23:49] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 22:23:49] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 22:23:49] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 22:23:49] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 22:23:49] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 22:23:49] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 22:23:49] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 22:23:49] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 22:23:49] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 22:23:50] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 22:26:15 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:26:26 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:26:36 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:26:36 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:26:36 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:26:36 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:26:36 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:26:36 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:26:36 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 22:31:36 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:31:46 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:31:56 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:31:56 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:31:56 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:31:56 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:31:56 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:31:56 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:31:56 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:33:22] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 22:33:23] WATCHER: File watcher started
+[19/04/2026 22:33:23 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-19 22:33:22] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 22:33:22] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 22:33:22] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 22:33:22] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 22:33:22] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 22:33:22] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 22:33:22] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 22:33:22] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 22:33:22] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 22:33:22] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 22:33:24] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 22:33:34 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:33:43 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:33:43 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:33:43 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:33:43 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:33:43 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:33:43 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:33:43 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 22:38:43 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:38:53 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:39:03 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:39:03 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:39:03 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:39:03 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:39:03 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:39:03 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:39:03 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:43:24] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 22:43:24] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 22:43:24] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 22:43:24] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 22:43:24] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 22:43:24] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 22:43:24] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 22:43:24] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 22:43:24] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 22:43:24] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 22:43:24] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 22:43:25] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 22:44:03 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:44:13 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:44:23 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:44:23 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:44:23 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:44:23 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:44:23 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:44:23 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:44:23 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:48:24] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 22:48:24] WATCHER: File watcher started
+[2026-04-19 22:48:24] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 22:48:24] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 22:48:24] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 22:48:24] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 22:48:24] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 22:48:24] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 22:48:24] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 22:48:24] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 22:48:24] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 22:48:24] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 22:48:25] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 22:48:25 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:48:36 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:48:45 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:48:45 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:48:45 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:48:45 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:48:45 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:48:45 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:48:45 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:51:26] §245-GSC: Token acquired, querying GSC...
+[2026-04-19 22:51:26] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 22:51:27] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 22:51:27] §245-GSC: No current data from GSC
+[19/04/2026 22:53:46 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:53:55 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:54:06 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:54:06 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:54:06 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:54:06 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:54:06 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:54:06 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:54:06 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 22:58:25] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 22:58:25] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 22:58:25] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 22:58:25] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 22:58:25] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 22:58:25] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 22:58:25] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 22:58:25] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 22:58:25] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 22:58:25] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 22:58:25] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 22:58:25] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 22:59:06 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 22:59:16 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 22:59:26 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 22:59:26 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 22:59:26 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 22:59:26 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 22:59:26 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 22:59:26 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 22:59:26 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:03:26] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 23:03:26] WATCHER: File watcher started
+[2026-04-19 23:03:26] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:03:26] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 23:03:26] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:03:26] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:03:26] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:03:26] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:03:26] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:03:26] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:03:26] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:03:26] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:03:26] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:03:26 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:03:36 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:03:45 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:03:45 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:03:45 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:03:45 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:03:45 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:03:45 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:03:45 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 23:08:45 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:08:55 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:09:05 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:09:05 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:09:05 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:09:05 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:09:05 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:09:05 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:09:05 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:13:26] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 23:13:26] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:13:26] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 23:13:26] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:13:26] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:13:26] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:13:26] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:13:26] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:13:26] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:13:26] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:13:26] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:13:27] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:14:05 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:14:16 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:14:25 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:14:25 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:14:25 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:14:25 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:14:25 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:14:25 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:14:25 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:18:27] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 23:18:27] WATCHER: File watcher started
+[19/04/2026 23:18:28 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-19 23:18:27] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:18:27] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 23:18:27] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:18:27] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:18:27] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:18:27] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:18:27] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:18:27] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:18:27] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:18:27] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:18:28] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:18:38 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:18:47 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:18:48 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:18:48 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:18:48 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:18:48 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:18:48 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:18:48 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 23:23:48 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:23:57 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:24:08 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:24:08 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:24:08 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:24:08 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:24:08 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:24:08 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:24:08 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:28:28] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 23:28:28] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:28:28] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 23:28:28] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:28:28] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:28:28] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:28:28] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:28:28] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:28:28] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:28:28] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:28:28] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:28:29] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:29:08 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:29:17 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:29:27 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:29:27 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:29:27 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:29:27 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:29:27 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:29:27 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:29:27 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:33:29] WATCHER: File watcher started
+[2026-04-19 23:33:28] §241-VERIFY: zasupport.com = 200 OK
+[19/04/2026 23:33:29 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[2026-04-19 23:33:28] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:33:28] §241-VERIFY: LaunchAgents = 92 loaded (OK)
+[2026-04-19 23:33:28] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:33:28] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:33:28] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:33:28] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:33:28] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:33:28] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:33:28] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:33:28] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:33:30] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:33:39 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:33:49 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:33:49 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:33:49 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:33:49 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:33:49 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:33:49 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:33:49 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[19/04/2026 23:38:49 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:39:00 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:39:09 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:39:09 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:39:09 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:39:09 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:39:09 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:39:09 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:39:09 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:43:30] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 23:43:30] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:43:30] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 23:43:30] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:43:30] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:43:30] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:43:30] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:43:30] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:43:30] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:43:30] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:43:30] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:43:31] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:44:10 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:44:20 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:44:29 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:44:29 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:44:29 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:44:29 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:44:29 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:44:29 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:44:29 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:48:30] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 23:48:30] WATCHER: File watcher started
+[2026-04-19 23:48:30] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:48:30] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 23:48:30] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:48:30] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:48:30] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:48:30] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:48:30] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:48:30] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:48:30] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:48:30] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:48:31] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:48:31 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:48:41 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:48:50 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:48:50 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:48:50 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:48:50 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:48:51 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:48:51 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:48:51 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:51:32] §245-GSC: Token acquired, querying GSC...
+[2026-04-19 23:51:32] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 23:51:33] §245-GSC: GSC QUERY ERROR: 403 {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "detai
+[2026-04-19 23:51:33] §245-GSC: No current data from GSC
+[19/04/2026 23:53:51 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:54:00 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:54:12 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:54:12 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:54:12 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:54:12 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:54:12 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:54:12 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:54:12 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
+[2026-04-19 23:58:31] §241-VERIFY: zasupport.com = 200 OK
+[2026-04-19 23:58:31] §241-VERIFY: api.zasupport.com/health = 200 OK
+[2026-04-19 23:58:31] §241-VERIFY: LaunchAgents = 93 loaded (OK)
+[2026-04-19 23:58:31] §241-VERIFY: SKILL courtney-bentley-voice =      373 lines (OK)
+[2026-04-19 23:58:31] §241-VERIFY: SKILL perfect-blog-creator =      384 lines (OK)
+[2026-04-19 23:58:31] §241-VERIFY: SKILL zas-frontend =      641 lines (OK)
+[2026-04-19 23:58:31] §241-VERIFY: doc ZAS-COMPLETE-UVP-MEDICAL-PRACTICES.md = present (OK)
+[2026-04-19 23:58:31] §241-VERIFY: doc ZAS-UVP-QUICK-REFERENCE-v2.md = present (OK)
+[2026-04-19 23:58:31] §241-VERIFY: doc ZA Support Communication Rules.md = present (OK)
+[2026-04-19 23:58:31] §241-VERIFY: Global CLAUDE.md has §240 (OK)
+[2026-04-19 23:58:31] §241-VERIFY: RESULT 10/10 passed | 0 failures
+[2026-04-19 23:58:31] §241-VERIFY: ALL CHECKS PASSED — deployment verified
+[19/04/2026 23:59:12 SAST] SECURITY: === SECURITY AUTOFIX START === Subject: scheduled-scan ===
+[19/04/2026 23:59:22 SAST] SECURITY: SCAN: No exposed credentials found in current files
+[19/04/2026 23:59:31 SAST] SECURITY: WARNING: Credentials found in git history: d95a26e20e59743869e529bb05763f5133a40364
+[19/04/2026 23:59:31 SAST] SECURITY: WARNING: Requires force-push to purge — manual approval needed (§ hard stop)
+[19/04/2026 23:59:31 SAST] SECURITY: NOTIFY (silent): SECURITY: Credentials in git history — needs force-push approval
+[19/04/2026 23:59:31 SAST] SECURITY: ALERT DETAILS: Severity=HIGH | Commits=d95a26e20e59743869e529bb05763f5133a40364 | Action=rotate Meta+IG secrets at developers.facebook.com then approve force-push
+[19/04/2026 23:59:31 SAST] SECURITY: ENV: META_APP_SECRET/META_APP_ID present in ~/.za-support.env (correct location)
+[19/04/2026 23:59:31 SAST] SECURITY: === SECURITY AUTOFIX COMPLETE === Redacted: 0 files | .gitignore: 0 repos ===
+[19/04/2026 23:59:32 SAST] SECURITY: NOTIFY (silent): Security scan complete. Check ~/.za-security-autofix.log
