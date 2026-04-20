@@ -6944,7 +6944,7 @@ When you send a MacBook to Apple in South Africa (or when we conduct a comprehen
 
 First, they remove the bottom case. This gives them access to several LCI placements. The primary indicator sits on the logic board itself, usually near the power input or battery connector. Second, they check beneath the battery, where liquid often pools due to gravity. Third, they examine the trackpad connection point—a common ingress location because the trackpad is thin and the connector sits low on the chassis.
 
-Our technicians follow the same procedure. We've found that liquid often reaches the LCI from multiple entry points simultaneously: the keyboard, the gap between the screen and chassis, and the ports. We document everything with photos, which is why our From R599 assessment assessment provides transparency you won't get elsewhere.
+Our technicians follow the same procedure. We've found that liquid often reaches the LCI from multiple entry points simultaneously: the keyboard, the gap between the screen and chassis, and the ports. We document everything with photos, which is why our From R599 initial assessment provides transparency you won't get elsewhere.
 
 Apple's documentation is thorough. If any LCI shows a colour change, Apple classifies the device as liquid-damaged. This triggers warranty denial, even if the MacBook boots normally and the user insists the spill was minor.
 
@@ -19855,7 +19855,7 @@ Yes. During setup, Migration Assistant will merge accounts and files. However, i
 
 ### Q: What happens if migration fails and I need to start over?
 
-Migration Assistant can restart from the same backup without data loss. The process is designed to be resumable. However, if your new Mac's storage is failing, repeated migration attempts can accelerate the failure. If migration fails three times, we recommend our From R599 assessment assessment (from R599). If we diagnose a logic board or storage fault, we'll repair it under up to 3-year warranty.
+Migration Assistant can restart from the same backup without data loss. The process is designed to be resumable. However, if your new Mac's storage is failing, repeated migration attempts can accelerate the failure. If migration fails three times, we recommend our From R599 initial assessment (from R599). If we diagnose a logic board or storage fault, we'll repair it under up to 3-year warranty.
 
 ## FAQPage Schema
 
@@ -19909,7 +19909,7 @@ Migration Assistant can restart from the same backup without data loss. The proc
       "name": "What happens if migration fails and I need to start over?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Migration Assistant can restart from the same backup without data loss. The process is designed to be resumable. However, if your new Mac's storage is failing, repeated migration attempts can accelerate the failure. If migration fails three times, we recommend our From R599 assessment assessment (from R599). If we diagnose a logic board or storage fault, we'll repair it under up to 3-year warranty."
+        "text": "Migration Assistant can restart from the same backup without data loss. The process is designed to be resumable. However, if your new Mac's storage is failing, repeated migration attempts can accelerate the failure. If migration fails three times, we recommend our From R599 initial assessment (from R599). If we diagnose a logic board or storage fault, we'll repair it under up to 3-year warranty."
       }
     }
   ]
