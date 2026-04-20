@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
   try {
     await resend.emails.send({
       from: 'ZA Support Bookings <admin@zasupport.com>',
-      to: 'courtney@zasupport.com',
+      to: 'mary@zasupport.com',
       subject: `New Repair Booking — ${safeName} — ${safeDeviceType}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #0A1A18; color: #E8F4F1; padding: 24px; border-radius: 12px;">

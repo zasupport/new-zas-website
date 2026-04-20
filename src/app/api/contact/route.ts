@@ -135,7 +135,7 @@ export async function POST(request: NextRequest) {
     // Send notification to admin
     await resend.emails.send({
       from: 'ZA Support Website <admin@zasupport.com>',
-      to: ['admin@zasupport.com'],
+      to: ['mary@zasupport.com'],
       subject: `[${safeUrgency}] New Enquiry — ${safeDevice || 'Unknown device'} — ${safeName}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

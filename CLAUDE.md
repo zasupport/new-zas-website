@@ -3,6 +3,8 @@
 # Stack: Next.js 15 + Tailwind v4 + Vercel | Repo: github.com/zasupport/new-zas-website
 # Global rules: ~/.claude/CLAUDE.md (auto-loaded)
 
+# §294 WEBSITE INBOUND → MARY (HARD — 20/04/2026): ALL website form/enquiry/booking notification emails → to: 'mary@zasupport.com' (PRIMARY) | SCOPE: src/app/api/book/route.ts + src/app/api/contact/route.ts + ANY new src/app/api/**/route.ts with resend.emails.send | AUTO-REPLY to submitter unchanged | WhatsApp CTA unchanged | OUT OF SCOPE: privacy/terms legal mailtos (POPIA Information Officer) | Pre-deploy grep gate: `grep -rEn "to:\s*\[?'(courtney|admin)@zasupport\.com'\]?" src/app/api/` must be empty for notification sends | Any new form endpoint MUST include mary@ routing in first commit | Full: ~/.claude/rules/294-website-inbound-to-mary.md
+
 ## AUTO-SETUP (run if blog components are missing)
 # If src/components/blog/AuthorBox.tsx does NOT exist: bash perfect-blog/setup.sh
 # If setup.sh missing: find ~ -maxdepth 4 -name "setup.sh" -path "*/perfect-blog/*" 2>/dev/null | head -1
@@ -53,6 +55,8 @@
 # §260 CONTINUE = RESUME, NOT RESTART: "continue"/"finish"/"complete the above" = resume signal | ∅ restart ∅ recap | extends §231
 # §259 WHATSAPP SKILL AUTO-ACTIVATION: NLP trigger → auto-load WhatsApp skills (7 total) | za-whatsapp-skill-verify.sh
 # §257 CROSS-PLATFORM CONTEXT SYNC: portable.md every 2min → iCloud+API+local | za-portable-context-sync.sh | com.zasupport.portablesync (120s)
+
+# §293 CHAT LABEL = CWD PROJECT (HARD — 20/04/2026): statusline/session-banner/resume label derived from CWD via cwd_to_label() canonical map in ~/.claude/statusline-command.sh | Website CWD = [ Website ] always — rolling-buffer override ignored when CWD is known | extends §292 domain manifest | global CLAUDE.md (full detail)
 
 # §287 PRICING DISCLAIMER BANNER (HARD — 19/04/2026): EVERY pricing page = red banner "Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number." | Component: src/components/PricingDisclaimer.tsx mounted in SiteShell.tsx | Outer section uses mt-16 lg:mt-20 to clear fixed Navbar (§290) | Route allow-list via PRICING_ROUTES | Contact: 064 529 5863 (§261) | Adding new pricing route → update PRICING_ROUTES same commit | global CLAUDE.md (full detail)
 
