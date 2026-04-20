@@ -159,26 +159,6 @@ export default function AssessmentProcessPage() {
 
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
-  const aggregateRatingSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: 'ZA Support, Apple Mac Repair Johannesburg',
-    url: 'https://zasupport.com',
-    telephone: '+27645295863',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '1 Hyde Lane, Second Floor, Office E2004',
-      addressLocality: 'Hyde Park',
-      addressRegion: 'Johannesburg',
-      postalCode: '2196',
-      addressCountry: 'ZA',
-    },
-    openingHoursSpecification: [
-      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'], opens: '08:00', closes: '17:00' },
-      { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Friday'], opens: '08:00', closes: '16:30' },
-    ],
-  };
-
   return (
     <>
       <SchemaOrg schema={faqSchema} />
