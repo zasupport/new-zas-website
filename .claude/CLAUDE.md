@@ -38,7 +38,7 @@ Revenue priority: Logic board repair #1 | Liquid damage #2 | iPhone/iPad #3 (org
 - /apple-support/medical-practices — Medical practice IT (uncontested keyword)
 
 ## SEO RULES
-- Every logic board page: WhatsApp primary CTA | Free diagnostic callout | 12-month warranty | No Fix No Fee
+- Every logic board page: WhatsApp primary CTA | R599 assessment callout | 12-month warranty | transparent R599+ pricing | §290 ∅ free/no-charge wording
 - AggregateRating schema: ratingValue=4.9 reviewCount=120 on all logic board pages
 - ServiceSchema on every service page
 - FAQPage schema: minimum 8 FAQs per page
@@ -69,7 +69,7 @@ ON any new service hub: immediately create model-specific variants
 Every service page MUST include at minimum:
 - Specific technical process described (not generic)
 - At least 1 suburb/location-specific detail in body copy
-- Explicit mention of: written warranty | assessment fee (from R599) | No Fix No Fee
+- Explicit mention of: written warranty | assessment fee (from R599) | transparent R599+ pricing (§290 ∅ "no fix no fee"/free/no-charge)
 - ZA Support contact embedded naturally (not just CTA)
 ∅ generic filler content | ∅ pages under 400 words body text
 
