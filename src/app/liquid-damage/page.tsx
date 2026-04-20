@@ -160,35 +160,6 @@ const breadcrumbSchema = {
 
 const faqSchema = buildFaqSchema(faqs);
 
-const liquidDamageReviewSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#business',
-  name: 'ZA Support',
-  review: [
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Sarah K.' },
-      datePublished: '2026-02',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Spilled an entire cup of coffee on my MacBook Pro 2021. ZA Support had it in ultrasonic cleaning within 2 hours of bringing it in. Two days later it was completely restored. They found corrosion on the USB-C controller and replaced it. Absolutely incredible service.',
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'David M.' },
-      datePublished: '2026-01',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'My MacBook Air went through a washing machine (yes, really). I expected it to be a write-off. ZA Support performed an ultrasonic clean and component repair. It came back fully functional with a up-to-3 year warranty. Cannot believe it.',
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Nomsa P.' },
-      datePublished: '2026-03',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Brought in a liquid-damaged MacBook that another shop had given up on. ZA Support diagnosed it in one day and repaired the charging circuit. Assessment: from R599, no surprises on the invoice. 5 stars.',
-    },
-  ],
-};
 
 export default function LiquidDamagePage() {
   return (
@@ -197,7 +168,6 @@ export default function LiquidDamagePage() {
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={howToSchema} />
-      <SchemaOrg schema={liquidDamageReviewSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">

@@ -227,21 +227,6 @@ const serviceSchema = buildServiceSchema({
     'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. All MacBook Air and Pro models.',
 });
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'MacBook Keyboard Repair Johannesburg',
-  description:
-    'MacBook keyboard repair service in Johannesburg covering all MacBook Air and Pro models.',
-  brand: { '@type': 'Brand', name: 'ZA Support' },
-  review: reviews.map((r) => ({
-    '@type': 'Review',
-    author: { '@type': 'Person', name: r.name },
-    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
-    reviewBody: r.text,
-    datePublished: r.date,
-  })),
-};
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',

@@ -106,20 +106,6 @@ const reviews = [
   },
 ];
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'MacBook Screen Replacement Johannesburg',
-  description: 'MacBook screen replacement service in Johannesburg covering all MacBook Air and Pro models. Same-day available. up-to-3 year warranty.',
-  brand: { '@type': 'Brand', name: 'ZA Support' },
-  review: reviews.map((r) => ({
-    '@type': 'Review',
-    author: { '@type': 'Person', name: r.name },
-    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
-    reviewBody: r.text,
-    datePublished: r.date,
-  })),
-};
 
 const serviceSchema = {
   '@context': 'https://schema.org',

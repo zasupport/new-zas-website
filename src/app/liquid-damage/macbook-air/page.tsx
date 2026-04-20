@@ -220,7 +220,7 @@ const reviews = [
 const aggregateRatingSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#business',
+  '@id': 'https://zasupport.com/#organization',
   name: 'ZA Support',
 };
 

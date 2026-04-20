@@ -151,20 +151,6 @@ const reviews = [
   },
 ];
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'iPad Charging Repair Johannesburg',
-  description: 'iPad not charging repair in Johannesburg. Port cleaning, port replacement, logic board charging IC fault. All models. up-to-3 year warranty.',
-  brand: { '@type': 'Brand', name: 'ZA Support' },
-  review: reviews.map((r) => ({
-    '@type': 'Review',
-    author: { '@type': 'Person', name: r.name },
-    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
-    reviewBody: r.text,
-    datePublished: r.date,
-  })),
-};
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Charging Repair Johannesburg',

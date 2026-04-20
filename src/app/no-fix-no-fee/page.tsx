@@ -164,7 +164,7 @@ export default function AssessmentProcessPage() {
     '@type': 'LocalBusiness',
     name: 'ZA Support, Apple Mac Repair Johannesburg',
     url: 'https://zasupport.com',
-    telephone: '+27790539964',
+    telephone: '+27645295863',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '1 Hyde Lane, Second Floor, Office E2004',

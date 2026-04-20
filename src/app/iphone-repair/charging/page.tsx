@@ -153,20 +153,6 @@ const reviews = [
   },
 ];
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'iPhone Charging Port Repair Johannesburg',
-  description: 'iPhone not charging repair in Johannesburg. Lightning and USB-C ports. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion repair.',
-  brand: { '@type': 'Brand', name: 'ZA Support' },
-  review: reviews.map((r) => ({
-    '@type': 'Review',
-    author: { '@type': 'Person', name: r.name },
-    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
-    reviewBody: r.text,
-    datePublished: r.date,
-  })),
-};
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Charging Port Repair Johannesburg',

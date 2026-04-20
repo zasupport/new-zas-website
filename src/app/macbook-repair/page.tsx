@@ -160,35 +160,6 @@ const serviceSchema = {
 
 const faqSchema = buildFaqSchema(faqs);
 
-const macbookReviewSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#business',
-  name: 'ZA Support',
-  review: [
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Michael B.' },
-      datePublished: '2026-02',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Brought my MacBook Pro 16-inch in for a battery replacement and keyboard issue. ZA Support had it back to me the same day. Transparent pricing, no hidden costs, and the warranty gives real peace of mind.',
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Thabo N.' },
-      datePublished: '2026-01',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'MacBook Air would not turn on. ZA Support diagnosed it as a failed charging IC and fixed it in 24 hours. The assessment meant I knew exactly what was wrong before committing to anything. Excellent service.',
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Lisa V.' },
-      datePublished: '2026-03',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Used ZA Support for a screen replacement on my MacBook. Professional, fast, and fairly priced. They also spotted a swollen battery I did not know about and flagged it, saved me from a bigger problem later.',
-    },
-  ],
-};
 
 export default function MacBookRepairPage() {
   return (
@@ -196,7 +167,6 @@ export default function MacBookRepairPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
-      <SchemaOrg schema={macbookReviewSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">

@@ -25,7 +25,7 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://zasupport.com/#business',
+      '@id': 'https://zasupport.com/#organization',
       name: 'ZA Support, Apple IT Specialists',
       description:
         'IT services in Johannesburg specialising in Mac repair, managed IT, cybersecurity and health monitoring for medical practices, businesses and individuals.',
@@ -66,7 +66,7 @@ const jsonLd = {
       '@type': 'Service',
       '@id': 'https://zasupport.com/services#services-overview',
       name: 'IT Services Johannesburg, ZA Support',
-      provider: { '@id': 'https://zasupport.com/#business' },
+      provider: { '@id': 'https://zasupport.com/#organization' },
       areaServed: {
         '@type': 'City',
         name: 'Johannesburg',

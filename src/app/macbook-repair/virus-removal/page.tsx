@@ -143,20 +143,6 @@ const reviews = [
   },
 ];
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'Mac Virus & Malware Removal Johannesburg',
-  description: 'Mac virus and malware removal service in Johannesburg. Assessment: from R599. Remove adware, browser hijackers, spyware, trojans. Ongoing protection via CyberShield.',
-  brand: { '@type': 'Brand', name: 'ZA Support' },
-  review: reviews.map((r) => ({
-    '@type': 'Review',
-    author: { '@type': 'Person', name: r.name },
-    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
-    reviewBody: r.text,
-    datePublished: r.date,
-  })),
-};
 
 const serviceSchema = {
   '@context': 'https://schema.org',

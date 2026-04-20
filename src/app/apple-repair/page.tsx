@@ -248,35 +248,6 @@ const serviceSchema = buildServiceSchema({
     'Expert Apple Mac repair in Johannesburg. Logic board component-level repair, battery replacement, screen repair, keyboard repair, liquid damage, trackpad and charging port repair. All MacBook, iMac, Mac mini, iPhone and iPad models.',
 });
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#business',
-  name: 'ZA Support',
-  url: 'https://zasupport.com',
-  telephone: CONTACT.phone,
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: CONTACT.address.street,
-    addressLocality: CONTACT.address.city,
-    addressRegion: CONTACT.address.province,
-    postalCode: CONTACT.address.postalCode,
-    addressCountry: 'ZA',
-  },
-};
-
-const reviewSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: 'ZA Support',
-  review: customerReviews.map((r) => ({
-    '@type': 'Review',
-    author: { '@type': 'Person', name: r.name },
-    datePublished: r.date,
-    reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5 },
-    reviewBody: r.text,
-  })),
-};
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -293,7 +264,6 @@ export default function AppleRepairPage() {
     <>
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
-      <SchemaOrg schema={reviewSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       {/* ── HERO ── */}
