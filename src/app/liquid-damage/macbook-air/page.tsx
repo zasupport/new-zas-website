@@ -230,6 +230,8 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Liquid Damage Repair Johannesburg',
   description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, Assessment: from R599, up-to-3 year warranty. M1, M2, M3 and Intel models.',
+  lowPrice: '4900',
+  highPrice: '17150',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

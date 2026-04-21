@@ -155,6 +155,8 @@ const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 13-Inch Liquid Damage Repair Johannesburg',
   description:
     'Professional MacBook Pro 13-inch liquid damage repair in Johannesburg. M1, M2 and Intel models. Touch Bar corrosion recovery, USB-C controller replacement, T2 security chip diagnosis, ultrasonic cleaning. Assessment from R599. Up-to-3 year warranty.',
+  lowPrice: '4900',
+  highPrice: '17150',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

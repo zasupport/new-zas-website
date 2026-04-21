@@ -258,6 +258,8 @@ const serviceSchema = buildServiceSchema({
   name: 'MacBook Not Turning On, Repair & Diagnosis, Johannesburg',
   description:
     'Same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. Assessment: from R599. up-to-3 year warranty.',
+  lowPrice: '1599',
+  highPrice: '16000',
 });
 
 const faqSchema = buildFaqSchema(faqs);

@@ -126,6 +126,8 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Logic Board Repair Johannesburg',
   description: 'Expert MacBook Pro logic board repair and component-level repair in Johannesburg. All Intel and Apple Silicon models. Assessment: from R599. up-to-3 year warranty.',
+  lowPrice: '5500',
+  highPrice: '22000',
 });
 const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Home', url: 'https://zasupport.com' },

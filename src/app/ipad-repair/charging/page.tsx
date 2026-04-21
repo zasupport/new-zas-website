@@ -156,6 +156,8 @@ const reviews = [
 const serviceSchema = buildServiceSchema({
   name: 'iPad Charging Repair Johannesburg',
   description: 'iPad not charging repair in Johannesburg. Dirty port, cable fault, charging IC, battery failure. Port cleaning, port replacement, logic board repair.',
+  lowPrice: '1599',
+  highPrice: '6400',
 });
 
 const breadcrumbSchemaItems = [

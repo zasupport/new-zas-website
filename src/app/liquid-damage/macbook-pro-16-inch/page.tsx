@@ -160,6 +160,8 @@ const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg',
   description:
     'Professional MacBook Pro 16-inch liquid damage repair in Johannesburg. M1 Max, M2 Max, M3 Max specialists. HDMI 2.1, SD card, MagSafe 3 140W, and Thunderbolt 4 corrosion repair. Assessment from R599. Up-to-3 year warranty.',
+  lowPrice: '5700',
+  highPrice: '19950',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

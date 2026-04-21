@@ -151,6 +151,8 @@ const serviceSchema = buildServiceSchema({
   name: 'MacBook Air M2 Liquid Damage Repair Johannesburg',
   description:
     'Professional MacBook Air M2 liquid damage repair in Johannesburg. Thinnest-chassis specialist. MagSafe 3 corrosion repair. Ultrasonic cleaning, component-level IC replacement. Assessment from R599. Up-to-3 year warranty.',
+  lowPrice: '4900',
+  highPrice: '17150',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

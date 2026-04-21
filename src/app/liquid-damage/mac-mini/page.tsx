@@ -153,6 +153,8 @@ const serviceSchema = buildServiceSchema({
   name: 'Mac Mini Liquid Damage Repair Johannesburg',
   description:
     'Professional Mac Mini liquid damage repair in Johannesburg. M1, M2, M2 Pro, and M4 models. Internal PSU corrosion, port controller replacement, NAND recovery. Assessment from R599. Up-to-3 year warranty.',
+  lowPrice: '4500',
+  highPrice: '15750',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

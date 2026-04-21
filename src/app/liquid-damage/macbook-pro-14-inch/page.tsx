@@ -155,6 +155,8 @@ const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg',
   description:
     'Professional MacBook Pro 14-inch liquid damage repair in Johannesburg. HDMI, SD card, MagSafe 3, and Thunderbolt 4 port specialists. Ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+  lowPrice: '4900',
+  highPrice: '17150',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

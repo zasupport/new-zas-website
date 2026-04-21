@@ -150,6 +150,8 @@ const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M3 Liquid Damage Repair Johannesburg',
   description:
     'Professional MacBook Pro M3 liquid damage repair in Johannesburg. 3nm chip specialist, MagSafe 3 corrosion recovery, ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+  lowPrice: '5700',
+  highPrice: '19950',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

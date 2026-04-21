@@ -142,6 +142,8 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M2 Liquid Damage Repair Johannesburg',
   description: 'Professional MacBook Pro M2 liquid damage repair in Johannesburg. NAND controller specialist. Ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+  lowPrice: '5700',
+  highPrice: '19950',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 

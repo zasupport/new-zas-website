@@ -1,4 +1,5 @@
 import { CONTACT, SITE } from '@/lib/constants';
+import type { SchemaOrg } from '@/types';
 
 // ─── Aggregate Rating ────────────────────────────────────────────────────────
 // Used on every service page — renders ★★★★★ in Google search results.
@@ -87,8 +88,8 @@ export function buildServiceSchema(params: {
   description: string;
   lowPrice?: string;
   highPrice?: string;
-}) {
-  return {
+}): SchemaOrg {
+  const base: SchemaOrg = {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: params.name,
@@ -96,6 +97,15 @@ export function buildServiceSchema(params: {
     provider: LOCAL_BUSINESS_PROVIDER,
     areaServed: { '@type': 'City', name: 'Johannesburg' },
   };
+  if (params.lowPrice && params.highPrice) {
+    base.offers = {
+      '@type': 'AggregateOffer',
+      lowPrice: params.lowPrice,
+      highPrice: params.highPrice,
+      priceCurrency: 'ZAR',
+    };
+  }
+  return base;
 }
 
 // ─── Breadcrumb Builder ───────────────────────────────────────────────────────

@@ -228,6 +228,8 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Liquid Damage Repair Johannesburg',
   description: 'Professional MacBook Pro liquid damage repair in Johannesburg. Emergency assessment, Assessment: from R599, up-to-3 year warranty. All Intel and Apple Silicon models.',
+  lowPrice: '5500',
+  highPrice: '22000',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
