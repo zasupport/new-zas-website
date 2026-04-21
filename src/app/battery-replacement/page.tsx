@@ -9,6 +9,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg [2026] | From R1,499 | ZA Support',
@@ -308,6 +309,7 @@ export default function BatteryReplacementPage() {
               Assessment fee from R599. If you proceed with the replacement, the assessment fee is included in the total cost.
               All prices are in ZAR and include VAT.
             </p>
+            <PricingRange page="/battery-replacement" />
             <PricingNote />
           </div>
         </section>

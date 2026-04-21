@@ -22,6 +22,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Battery & Power Supply Repair Johannesburg 2026 | From R599 | ZA Support',
@@ -69,13 +70,6 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Rosebank' },
   ],
   serviceType: 'Power Supply & Battery Repair',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '599',
-    highPrice: '3499',
-    priceCurrency: 'ZAR',
-    offerCount: '4',
-  },
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
     { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
@@ -286,6 +280,7 @@ export default function BatteryReplacementMacMiniPage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             Assessment from R599 — applied toward repair cost if you proceed. From R599 assessment. All repairs include a written 12-month warranty.
           </p>
+          <PricingRange page="/battery-replacement/mac-mini" />
           <PricingNote variant="inline" />
         </div>
       </section>

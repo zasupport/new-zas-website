@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Fourways | ZA Support Hyde Park',
@@ -211,6 +212,7 @@ export default function BatteryReplacementFourwaysPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed after battery health check. Written quote before any work begins.</p>
+          <PricingRange page="/battery-replacement/fourways" />
           <PricingNote variant="inline" />
         </div>
       </section>

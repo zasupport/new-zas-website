@@ -22,6 +22,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M1 Battery Replacement Johannesburg [2026] | From R1,799 | ZA Support',
@@ -73,8 +74,8 @@ const serviceSchema = {
   serviceType: 'Battery Replacement',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '1799',
-    highPrice: '2299',
+    lowPrice: '2599',
+    highPrice: '5700',
     priceCurrency: 'ZAR',
     offerCount: '3',
   },
@@ -320,6 +321,7 @@ export default function BatteryReplacementMacBookProM1Page() {
           <p className="text-[#7A9E98] text-xs mt-4">
             All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
+          <PricingRange page="/battery-replacement/macbook-pro-m1" />
           <PricingNote variant="inline" />
         </div>
       </section>

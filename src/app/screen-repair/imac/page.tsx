@@ -9,6 +9,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'iMac Screen Repair Johannesburg [2026] | From R3,999 | ZA Support',
@@ -306,6 +307,7 @@ export default function ScreenRepairImacPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">Prices are indicative. Exact quote provided in writing before work begins. Assessment fee from R599 applies if repair is declined after diagnosis.</p>
+          <PricingRange page="/screen-repair/imac" />
           <PricingNote variant="inline" />
         </div>
       </section>

@@ -8,6 +8,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'Mac Mini Screen & Display Repair Johannesburg 2026 | From R899 | ZA Support',
@@ -48,13 +49,6 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen & Display Repair',
-  offers: {
-    '@type': 'AggregateOffer',
-    lowPrice: '899',
-    highPrice: '9500',
-    priceCurrency: 'ZAR',
-    offerCount: '10',
-  },
 };
 
 const pricingRows = [
@@ -300,6 +294,7 @@ export default function ScreenRepairMacMiniPage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             All prices include parts, labour, and our 12-month warranty. Assessment from R599 on all Mac Mini display faults. From R599 assessment applies on all cases.
           </p>
+          <PricingRange page="/screen-repair/mac-mini" />
           <PricingNote variant="inline" />
         </div>
       </section>

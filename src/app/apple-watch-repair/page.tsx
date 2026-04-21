@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'Apple Watch Repair Johannesburg | Screen & Battery | ZA Support',
@@ -278,6 +279,7 @@ export default function AppleWatchRepairPage() {
               </tbody>
             </table>
           </div>
+          <PricingRange page="/apple-watch-repair" />
           <PricingNote />
         </div>
       </section>

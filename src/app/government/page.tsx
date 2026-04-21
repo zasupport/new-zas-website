@@ -6,6 +6,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'Government IT Services South Africa | BEE Level 1 Apple Specialist | ZA Support',
@@ -77,7 +78,6 @@ const GOV_FAQS = [
 const serviceSchema = buildServiceSchema({
   name: 'Government IT Services South Africa',
   description: 'BEE Level 1, CSD registered Apple IT specialist providing secure fleet management, POPIA compliance, device lifecycle management and government-grade security for South African government departments.',
-  lowPrice: '599',
 });
 
 const faqSchema = buildFaqSchema(GOV_FAQS);
@@ -286,6 +286,7 @@ export default function GovernmentPage() {
                 </div>
               ))}
             </div>
+            <PricingRange page="/government" />
             <PricingNote />
           </div>
 

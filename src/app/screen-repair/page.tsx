@@ -9,6 +9,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
@@ -352,6 +353,7 @@ export default function ScreenRepairPage() {
               All prices in ZAR and include parts, labour, and up-to-3 year warranty. Exact price depends on model year and panel type.
               Apple Store comparison: R6,000–R15,000 for the same repairs.
             </p>
+            <PricingRange page="/screen-repair" />
             <PricingNote />
           </div>
         </section>

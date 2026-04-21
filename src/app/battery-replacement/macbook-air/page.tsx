@@ -21,6 +21,8 @@ import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Air Battery Replacement Johannesburg [2026] | From R1,499 | ZA Support',
@@ -777,6 +779,13 @@ export default function BatteryReplacementMacBookAirPage() {
             </p>
           </div>
         </section>
+      <section className="py-12 bg-[#0A1A18]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PricingRange page="/battery-replacement/macbook-air" />
+          <PricingNote />
+        </div>
+      </section>
+
 
       </main>
     </>

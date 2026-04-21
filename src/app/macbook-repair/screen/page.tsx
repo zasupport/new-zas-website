@@ -7,6 +7,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Replacement Johannesburg | ZA Support',
@@ -264,6 +265,7 @@ export default function MacBookScreenPage() {
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
               Call to confirm stock availability for your specific model and year.
             </p>
+            <PricingRange page="/macbook-repair/screen" />
             <PricingNote variant="inline" />
           </div>
         </div>

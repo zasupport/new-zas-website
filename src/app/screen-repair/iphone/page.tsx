@@ -8,6 +8,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
@@ -353,6 +354,7 @@ export default function ScreenRepairIphonePage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             Prices are indicative and confirmed in writing before any work begins. Assessment from R599 applies where diagnosis is required before a quote can be given.
           </p>
+          <PricingRange page="/screen-repair/iphone" />
           <PricingNote variant="inline" />
         </div>
       </section>

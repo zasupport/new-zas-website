@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'AirPods Repair Johannesburg | Battery & Charging Case | ZA Support',
@@ -272,6 +273,7 @@ export default function AirPodsRepairPage() {
               </tbody>
             </table>
           </div>
+          <PricingRange page="/airpods-repair" />
           <PricingNote />
         </div>
       </section>

@@ -6,6 +6,7 @@ import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'UniFi Business Networking Johannesburg 2026 | From R599 Assessment | ZA Support',
@@ -122,8 +123,6 @@ const serviceSchema = buildServiceSchema({
   name: 'UniFi Business Networking Johannesburg',
   description:
     'UniFi business networking installation and managed support for practices in Johannesburg. POPIA-aligned VLAN segmentation, WiFi 6 access points, guest isolation, and multi-site management.',
-  lowPrice: '1799',
-  highPrice: '4499',
 });
 
 const faqSchema = buildFaqSchema(faqs);
@@ -357,6 +356,7 @@ export default function UniFiNetworkingPage() {
               </div>
             ))}
           </div>
+          <PricingRange page="/managed-services/unifi-networking" />
           <PricingNote />
         </div>
       </section>

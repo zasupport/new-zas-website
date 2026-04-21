@@ -22,6 +22,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M1 Battery Replacement Johannesburg 2026 | From R1,899 | ZA Support',
@@ -71,8 +72,8 @@ const serviceSchema = {
   serviceType: 'Battery Replacement',
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '1899',
-    highPrice: '2499',
+    lowPrice: '2599',
+    highPrice: '5700',
     priceCurrency: 'ZAR',
     offerCount: '2',
   },
@@ -293,6 +294,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
           <p className="text-[#7A9E98] text-xs mt-4">
             Price includes the 49.9 Wh replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost. From R599 assessment.
           </p>
+          <PricingRange page="/battery-replacement/macbook-air-m1" />
           <PricingNote variant="inline" />
         </div>
       </section>

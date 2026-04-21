@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
@@ -226,6 +227,7 @@ export default function iPadRepairPage() {
               </div>
             ))}
           </div>
+          <PricingRange page="/ipad-repair" />
           <PricingNote />
         </div>
       </section>

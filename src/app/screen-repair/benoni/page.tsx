@@ -6,6 +6,8 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Benoni | ZA Support Hyde Park',
@@ -190,6 +192,13 @@ export default function ScreenRepairBenoniPage() {
           </div>
         </div>
       </section>
+      <section className="py-12 bg-[#0A1A18]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PricingRange page="/screen-repair/benoni" />
+          <PricingNote />
+        </div>
+      </section>
+
     </>
   );
 }

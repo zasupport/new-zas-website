@@ -8,6 +8,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M2 Screen Repair Johannesburg [2026] | From R4,199 | ZA Support',
@@ -65,8 +66,8 @@ const serviceSchema = {
   ],
   offers: {
     '@type': 'AggregateOffer',
-    lowPrice: '4199',
-    highPrice: '7999',
+    lowPrice: '7500',
+    highPrice: '26250',
     priceCurrency: 'ZAR',
     offerCount: '4',
   },
@@ -327,6 +328,7 @@ export default function ScreenRepairMacBookProM2Page() {
           <p className="text-[#7A9E98] text-xs mt-4">
             All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
+          <PricingRange page="/screen-repair/macbook-pro-m2" />
           <PricingNote variant="inline" />
         </div>
       </section>

@@ -24,6 +24,7 @@ import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import FAQAccordion from '@/components/ui/FAQ';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'SME Apple Support Johannesburg | Business IT Solutions | ZA Support',
@@ -47,7 +48,7 @@ const serviceSchema = buildServiceSchema({
   description:
     'Comprehensive Apple support, managed IT services, repairs, networking and software development for small and medium enterprises in Johannesburg. BEE Level 1 provider. Assessment from R599, R899/hr.',
   lowPrice: '599',
-  highPrice: '8999',
+  highPrice: '1100',
 });
 
 const SME_FAQS = [
@@ -291,6 +292,7 @@ export default function SMESupportPage() {
               </div>
             ))}
           </div>
+          <PricingRange page="/sme-support" />
           <PricingNote />
         </div>
       </section>

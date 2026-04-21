@@ -7,6 +7,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'iPad Not Charging, Repair Johannesburg | ZA Support',
@@ -263,6 +264,7 @@ export default function iPadChargingPage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             All repairs include written up-to-3 year warranty. Assessment: from R599.
           </p>
+          <PricingRange page="/ipad-repair/charging" />
           <PricingNote variant="inline" />
         </div>
       </section>

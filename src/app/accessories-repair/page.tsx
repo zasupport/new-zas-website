@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'Apple Accessories Repair Johannesburg | Keyboard, Mouse & Trackpad | ZA Support',
@@ -198,6 +199,7 @@ export default function AccessoriesRepairPage() {
               </div>
             ))}
           </div>
+          <PricingRange page="/accessories-repair" />
           <PricingNote />
         </div>
       </section>

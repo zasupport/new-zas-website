@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Kyalami | ZA Support Hyde Park',
@@ -268,6 +269,7 @@ export default function LogicBoardRepairKyalamiPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with to proceed.</p>
+          <PricingRange page="/logic-board-repair/kyalami" />
           <PricingNote variant="inline" />
         </div>
       </section>
