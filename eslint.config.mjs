@@ -15,6 +15,10 @@ const eslintConfig = defineConfig([
     // Stale Claude Code worktrees — not source files
     ".claude/worktrees/**",
     "perfect-blog/**",
+    // Standalone Node CJS utilities — run directly via node/launchctl, not bundled by Next.js
+    "cloudflare-worker/**",
+    "config/perfect-blog/**",
+    "scripts/**",
   ]),
   // ZA Support overrides — allow natural prose content in JSX
   {
