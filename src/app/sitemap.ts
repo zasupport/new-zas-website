@@ -500,5 +500,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/liquid-damage-macbook-bryanston`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/logic-board-repair-houghton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/mac-pro-2019-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/logic-board-repair-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-air-m2-board-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-firmware-restore-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-wifi-card-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
