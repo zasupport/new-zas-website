@@ -1,8 +1,25 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { escapeHtml, isValidEmail, clampLength, LIMITS } from '@/lib/sanitise';
+import { escapeHtml, isValidEmail, clampLength, LIMITS, normalizeZAPhone } from '@/lib/sanitise';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
+
+const ZA_PHONE = '27645295863';
+
+function buildClientReplyUrl(name: string, phone: string, issue: string): string {
+  const firstName = (name.split(/\s+/)[0] || name).trim();
+  const clientPhone = normalizeZAPhone(phone);
+  const target = clientPhone || ZA_PHONE;
+  const issuePhrase = issue.trim().replace(/[.!?\s]+$/, '').toLowerCase();
+  const msg = encodeURIComponent(
+    `Hi ${firstName},\n` +
+    `Thank you for the email.\n` +
+    `I understand your problem to be that your ${issuePhrase}. Would you mind sending me your serial number and your model number. The model number starts with an 'A'. Thanks so much. Chat soon.\n\n` +
+    `Kind regards,\n` +
+    `Mary Blount`
+  );
+  return `https://wa.me/${target}?text=${msg}`;
+}
 
 // ─── IP-based rate limiting ────────────────────────────────────────────────
 // 5 requests per IP per 60 seconds. Module-level store persists within a warm
@@ -132,6 +149,9 @@ export async function POST(request: NextRequest) {
     };
     const safeUrgency = urgencyLabels[urgencyStr] ?? escapeHtml(urgencyStr);
 
+    const whatsappUrl = phoneStr ? buildClientReplyUrl(nameStr, phoneStr, issueStr) : '';
+    const safeWhatsappUrl = whatsappUrl ? escapeHtml(whatsappUrl) : '';
+
     // Send notification to admin
     await resend.emails.send({
       from: 'ZA Support Website <admin@zasupport.com>',
@@ -151,6 +171,11 @@ export async function POST(request: NextRequest) {
             <strong>Issue:</strong><br/>
             <p style="white-space: pre-wrap; margin: 8px 0 0;">${safeIssue}</p>
           </div>
+          ${safeWhatsappUrl ? `<div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #eee;">
+            <a href="${safeWhatsappUrl}" style="background: #0FEA7A; color: #0A1A18; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">
+              Reply via WhatsApp
+            </a>
+          </div>` : ''}
         </div>
       `,
     });

@@ -1,16 +1,24 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { escapeHtml, isValidEmail, clampLength, LIMITS } from '@/lib/sanitise';
+import { escapeHtml, isValidEmail, clampLength, LIMITS, normalizeZAPhone } from '@/lib/sanitise';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const PHONE = '27645295863';
+const ZA_PHONE = '27645295863';
 
-function buildWhatsAppUrl(name: string, device: string, problem: string): string {
+function buildClientReplyUrl(name: string, phone: string, problem: string): string {
+  const firstName = (name.split(/\s+/)[0] || name).trim();
+  const clientPhone = normalizeZAPhone(phone);
+  const target = clientPhone || ZA_PHONE;
+  const problemPhrase = problem.trim().replace(/[.!?\s]+$/, '').toLowerCase();
   const msg = encodeURIComponent(
-    `Hi, I just submitted a booking request.\n\nName: ${name}\nDevice: ${device}\nProblem: ${problem}\n\nLooking forward to hearing from you!`
+    `Hi ${firstName},\n` +
+    `Thank you for the email.\n` +
+    `I understand your problem to be that your ${problemPhrase}. Would you mind sending me your serial number and your model number. The model number starts with an 'A'. Thanks so much. Chat soon.\n\n` +
+    `Kind regards,\n` +
+    `Mary Blount`
   );
-  return `https://wa.me/${PHONE}?text=${msg}`;
+  return `https://wa.me/${target}?text=${msg}`;
 }
 
 export async function POST(request: NextRequest) {
@@ -34,12 +42,12 @@ export async function POST(request: NextRequest) {
 
   // Honeypot — bots fill hidden fields, humans don't
   if (_hp) {
-    return NextResponse.json({ success: true, whatsappUrl: `https://wa.me/${PHONE}` });
+    return NextResponse.json({ success: true, whatsappUrl: `https://wa.me/${ZA_PHONE}` });
   }
 
   // Time gate — legitimate users take >3 seconds to fill a form
   if (_ts && typeof _ts === 'number' && Date.now() - _ts < 3000) {
-    return NextResponse.json({ success: true, whatsappUrl: `https://wa.me/${PHONE}` });
+    return NextResponse.json({ success: true, whatsappUrl: `https://wa.me/${ZA_PHONE}` });
   }
 
   // Validate required fields
@@ -73,7 +81,7 @@ export async function POST(request: NextRequest) {
   if (clampLength(preferredContactStr, LIMITS.preferredContact) === null)
     return NextResponse.json({ error: 'Preferred contact value too long' }, { status: 400 });
 
-  const whatsappUrl = buildWhatsAppUrl(nameStr, deviceTypeStr, problemStr);
+  const whatsappUrl = buildClientReplyUrl(nameStr, phoneStr, problemStr);
 
   // Sanitise for HTML email
   const safeName = escapeHtml(nameStr);

@@ -23,6 +23,20 @@ export function clampLength(value: string, max: number): string | null {
   return value.length <= max ? value : null;
 }
 
+/**
+ * Normalise a ZA phone number to international `wa.me`-compatible digits.
+ * `0827604086` → `27827604086` | `+27 82 760 4086` → `27827604086` | `827604086` → `27827604086`.
+ * Returns an empty string if input has no digits.
+ */
+export function normalizeZAPhone(phone: string): string {
+  const digits = String(phone ?? '').replace(/\D/g, '');
+  if (!digits) return '';
+  if (digits.startsWith('27')) return digits;
+  if (digits.startsWith('0')) return '27' + digits.slice(1);
+  if (digits.length === 9) return '27' + digits;
+  return digits;
+}
+
 /** Field length limits (characters). */
 export const LIMITS = {
   name: 100,
