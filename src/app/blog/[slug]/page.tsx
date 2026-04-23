@@ -14714,13 +14714,7 @@ Three years on parts and labour. This covers defects in the keyboard components 
 
 ---
 
-**Need your MacBook keyboard fixed today?** Message us on WhatsApp: **064 529 5863** or book at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg, Sandton, Bryanston, and Centurion. From R599 assessment—From R599 assessment.
-
----
-
-### LEARNING BLOCK (§248)
-
-**WHAT LEARNED:** Keyboard repair positioning requires explicit cost transparency (R599 assessment, individual key vs top case pricing) to build trust. Butterfly vs scissor distinction is critical E-E-A-T signal differentiating ZA Support from generic "repair" sites. Liquid damage crossover prevents false positives (encouraging related service discovery).`,
+**Need your MacBook keyboard fixed today?** Message us on WhatsApp: **064 529 5863** or book at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg, Sandton, Bryanston, and Centurion. From R599 assessment—From R599 assessment.`,
   },
   'macbook-pro-14-inch-repair-johannesburg': {
     slug: 'macbook-pro-14-inch-repair-johannesburg',
@@ -17137,9 +17131,7 @@ A: Power off the device immediately (hold the power button for 10 seconds). Disc
 
 ---
 
-**Need help now?** WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. We're here in Hyde Park, serving Sandton and across Gauteng.
-
-LEARNED:[Ultrasonic cleaning + board rework remain foundational recovery methods; E-E-A-T signals strengthened by workshop-specific language ("In our Hyde Park workshop") and first-person plural ("We have seen")] | BETTER:[Structured data validation before output; explicit markdown formatting; FAQ count verified (6×); internal links matched to /logic-board-repair /liquid-damage /contact] | WHY:[ZA Support brand integrity requires geographic precision (Gauteng only), pricing transparency (from R599), and warranty claims (from R599 assessment, 3-year parts)] | REPLICATE:[1. Verify all geographic references stay within 60km Hyde Park radius 2. All pricing includes "from R" phrasing 3. Internal link paths validated against live routing 4. FAQ × 6 enforced; FAQPage schema auto-checked post-generation 5. Word count confirmed 1200–1500 body range]`,
+**Need help now?** WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. We're here in Hyde Park, serving Sandton and across Gauteng.`,
   },
   'macbook-battery-draining-fast-johannesburg': {
     slug: 'macbook-battery-draining-fast-johannesburg',
@@ -19551,11 +19543,7 @@ A drive with SMART health below 50% will fail within weeks or months. When it fa
 
 ---
 
-**Need help now?** WhatsApp **064 529 5863** or visit **zasupport.com/book** to schedule your diagnostic assessment in Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, or Pretoria. From R599 assessment. From R599 assessment.
-
----
-
-LEARNED: [First-person workshop voice ("We see", "In our Hyde Park workshop") performs strongest with technical depth. Specific Gauteng suburbs + R pricing + load shedding context differentiates from generic repair content. Thermal/storage/SSD diagnostics cover 80% of real faults—this angle beats competitor "how to diagnose" posts lacking local validation] | BETTER: [Structured 5-step diagnostic mirrors our actual workshop workflow; concrete R599 pricing anchor + From R599 assessment removes objection; internal links to /logic-board-repair and /liquid-damage support topical authority] | WHY: [Competitor gap showed 4 rivals ranking for "macbook" with generic troubleshooting. Our post combines E-E-A-T signals (first-person + technical detail + local context) with schema markup + actionable diagnostics user can try before booking. Load shedding reference unique to Johannesburg market] | REPLICATE: [Workshop-sourced technical detail + named Gauteng suburbs only + R pricing always visible + From R599 assessment in body + FAQ schema + WhatsApp CTA + internal linking to service pages]`,
+**Need help now?** WhatsApp **064 529 5863** or visit **zasupport.com/book** to schedule your diagnostic assessment in Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, or Pretoria. From R599 assessment. From R599 assessment.`,
   },
   'mac-migration-assistant-guide-johannesburg': {
     slug: 'mac-migration-assistant-guide-johannesburg',
@@ -19888,9 +19876,7 @@ A: Yes. We can schedule staggered appointments, offer fleet discount pricing, an
 
 ---
 
-**Ready to protect your financial services Macs?** [Book a diagnostic assessment](/book) or message us on WhatsApp: **064 529 5863**. From R599, we'll give you honest advice on what's failing, what needs attention, and how to prevent costly downtime. We're based in Hyde Park and service the entire Johannesburg and Pretoria financial sector.
-
-LEARNED: Financial services angle requires compliance-first framing (POPIA, data handling, regulatory exposure) + concrete cost comparisons (repair vs. replace ROI) + emphasis on downtime = liability, not just inconvenience. Johannesburg context: load shedding as specific failure vector (power surges, UPS recommendations), proximity value (15min to Sandton), local parts sourcing. E-E-A-T: first-person workshop experience ("we've seen", "we've handled"), specific ZAR pricing (R599, R3,500), named suburbs (Hyde Park, Sandton, Bryanston, Fourways, Midrand, Centurion, Pretoria), technical detail (Bloomberg terminals, SWIFT, MYOB, Pastel, SSD brands, recovery tools CCC). | BETTER: Competitor gap identified (2 competitors cover 'johannesburg' generically; no detailed financial services angle). ZA Support differentiates via: (1) workshop depth (load shedding damage, liquid recovery specifics), (2) financial sector compliance language (POPIA, confidentiality, regulatory fines), (3) fleet pricing mention (multi-Mac offices), (4) proximity value (same-day diagnostics, local sourcing). | WHY: Blog succeeds because it speaks to actual pain points (compliance downtime cost, POPIA liability, load shedding damage) rather than generic "Mac repair". Financial services audience reads for risk mitigation, not speed—framing shifts from "fast turnaround" to "regulatory indemnity" and "documented data handling". | REPLICATE: For future financial/enterprise verticals: (1) identify sector-specific software (Bloomberg, SWIFT, tax platforms), (2) map regulatory frameworks (POPIA, FSB compliance), (3) research local environmental failure vectors (load shedding, water quality), (4) emphasize confidentiality + audit trails over speed, (5) include fleet discount + consolidated reporting, (6) cost-of-ownership ROI calculations, not just repair quotes.`,
+**Ready to protect your financial services Macs?** [Book a diagnostic assessment](/book) or message us on WhatsApp: **064 529 5863**. From R599, we'll give you honest advice on what's failing, what needs attention, and how to prevent costly downtime. We're based in Hyde Park and service the entire Johannesburg and Pretoria financial sector.`,
   },
   'mac-support-small-business-johannesburg': {
     slug: 'mac-support-small-business-johannesburg',
@@ -20307,15 +20293,7 @@ iCloud+ backs up system settings, photos, and documents—but not your entire Ma
 
 ---
 
-**TASK COMPLETE.** Post is production-ready for zasupport.com/macbook-backup-time-machine-johannesburg.
-
-LEARNED: Geographic constraint (Gauteng 60km radius) and R-currency pricing grounds credibility. First-person workshop anecdotes ("We've seen...") beat generic how-to guides. Load-shedding context differentiates ZA Support from global competitors.
-
-BETTER: Could add video embed placeholder for visual setup walkthrough; future revision should include local Johannesburg power outage statistics (Stage 4–6 frequency) for SEO authority.
-
-WHY: Competitor gap (4 competitors, zero ZA Support content) filled with hyper-local, trusted voice. E-E-A-T signals + technical depth + pricing transparency = higher CTR + lower bounce + better conversions.
-
-REPLICATE: (1) Always anchor to local geography within 60km radius (2) Include first-person workshop anecdotes tied to specific suburbs (3) Price products + services transparently in ZAR (4) Reference seasonal/regional challenges (load-shedding, weather, POPIA) naturally in body text (5) Verify 6+ FAQs + schema before publish (6) Link internally to service pages with URL paths, not anchor text alone.`,
+**TASK COMPLETE.** Post is production-ready for zasupport.com/macbook-backup-time-machine-johannesburg.`,
   },
   'mac-security-setup-johannesburg': {
     slug: 'mac-security-setup-johannesburg',
@@ -21074,11 +21052,7 @@ Install the latest stable version compatible with your Mac's year of manufacture
 
 **Need professional help with your Mac's clean install?** We're in Hyde Park, Johannesburg, and service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
-WhatsApp us on **064 529 5863** or [book online at zasupport.com/book](https://zasupport.com/book).
-
----
-
-LEARNED: ZA-specific geographic limitations (Gauteng only) force genuine localization rather than generic tech writing. BETTER: Researched actual workshop timescales (2–4 hours prep) rather than vague estimates. Added specific failure scenarios (load-shedding file corruption) that resonate with Johannesburg audience. WHY success: Competitor gap analysis identified no Johannesburg-specific clean install content; first-person "we've done this hundreds of times" adds E-E-A-T authority that generic guides lack. REPLICATE: Always reference workshop experience, include R pricing upfront, ground technical steps in local context (load-shedding, specific Gauteng suburbs), verify word count reaches tiered requirement (1,200–1,500 for informational content).`,
+WhatsApp us on **064 529 5863** or [book online at zasupport.com/book](https://zasupport.com/book).`,
   },
   'macbook-cooling-pad-worth-it-johannesburg': {
     slug: 'macbook-cooling-pad-worth-it-johannesburg',
@@ -22925,16 +22899,7 @@ We offer same-day diagnosis and same-day repair completion for most display cabl
 
 **Ready to fix your MacBook display?**
 
-WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.
-
-LEARNED: Flexgate is a concrete, high-intent repair topic with strong long-tail potential. Specificity (model years, component names, exact procedures) builds E-E-A-T. Pricing transparency + warranty callouts reduce friction. Internal links to logic-board and liquid-damage repair pages create content cluster strategy.
-
-BETTER: Added concrete workshop details (Jan Smuts Avenue landmark, parking notes), specific timeline ranges (60–90 minutes), and genuine pricing anchors (R1,200–R1,800) instead of generic "affordable" language.
-
-WHY SUCCESS: Post targets high-intent commercial keywords (repair + location), addresses real customer objections (DIY risk, warranty impact), and includes schema markup for rich snippet eligibility. No-fix-no-fee policy and "from R599 assessment" differentiate from competitors and reduce trust friction.
-
-REPLICATE: For future repair posts—always include: (1) specific fault symptoms, (2) real workshop procedure overview, (3) pricing + warranty in body text, (4) preventative care, (5) local geographic details, (6) assessment fee callout + CTA with phone + booking URL.
-\`\`\``,
+WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.`,
   },
   'macbook-pmic-repair-johannesburg': {
     slug: 'macbook-pmic-repair-johannesburg',
@@ -24136,17 +24101,7 @@ Yes. Managed IT includes emergency support weekdays 08:00–18:00 and on-call av
 
 ---
 
-**Ready to protect your practice?** WhatsApp us on 064 529 5863 or [book a consultation](https://zasupport.com/book). We'll assess your systems, discuss compliance gaps, and design a managed IT plan that fits your practice and budget.
-
----
-
-### LEARNED: [Medical practice IT requires compliance-first framing (POPIA + HPCSA + audit trails) before cost/features. E-E-A-T signals (workshop experience, specific system names, Sandton suburbs, actual role-based access examples) convert better than generic IT copy. Practices fear regulatory liability more than downtime.]
-
-### BETTER: [Lead with compliance risk, not uptime. Reference specific practice management systems (MedMan, Medicore) to signal experience. Include audit trail, role-based access, monthly backup testing as concrete differentiators.]
-
-### WHY: [Medical buyers verify expertise via specificity. Generic "security" language fails. Naming systems you've integrated + explaining POPIA operator agreements + detailing monthly backup testing = credibility. Compliance concerns (HPCSA audits, data breach liability) outweigh cost objections for healthcare.]
-
-### REPLICATE: [Healthcare/regulated industries blogs: lead with compliance framework → name specific regulations/standards → reference specific systems/tools → explain how your service addresses compliance gaps → price transparency → FAQ schema. Avoid "from R599 assessments" entirely—offer "from R599 assessment".]`,
+**Ready to protect your practice?** WhatsApp us on 064 529 5863 or [book a consultation](https://zasupport.com/book). We'll assess your systems, discuss compliance gaps, and design a managed IT plan that fits your practice and budget.`,
   },
   'imac-screen-replacement-johannesburg': {
     slug: 'imac-screen-replacement-johannesburg',
@@ -24304,11 +24259,7 @@ If this happens immediately after repair, contact us—it may be a loose connect
 }
 \`\`\`
 
-**Ready to get your iMac screen repaired? Message us on WhatsApp at 064 529 5863 or book your assessment at zasupport.com/book. We're in Hyde Park, Johannesburg, and we service all surrounding Gauteng suburbs.**
-
----
-
-LEARNED: [iMac screen replacement requires credible technical detail (LG/Samsung panel sourcing, adhesive reseal process, OEM-equivalent standards) + genuine workshop voice + specific pricing in ZAR + geographic boundary enforcement (Gauteng only)] | BETTER: [Integrated internal links naturally (logic board, liquid damage, contact/book) + FAQ directly addresses repair decision fatigue + JSON-LD schema validates FAQPage for featured snippets + WhatsApp CTA separates from generic "contact us"] | WHY: [E-E-A-T signals from first-person workshop experience ("we have seen", "our Hyde Park workshop") + avoided banned phrases ("from R599 assessment" → "from R599 assessment") + concrete numbers (R4,200, 2-3 days, 3-year warranty) + UK English throughout] | REPLICATE: [Use workshop voice + local suburb references + ZAR pricing + specific component names (LG/Samsung panels, LED backlight, ribbon connectors) + warranty differentiation (up to 3-year vs. competitive vagueness) + POPIA/compliance mention for trust]`,
+**Ready to get your iMac screen repaired? Message us on WhatsApp at 064 529 5863 or book your assessment at zasupport.com/book. We're in Hyde Park, Johannesburg, and we service all surrounding Gauteng suburbs.**`,
   },
   'ipad-battery-replacement-johannesburg': {
     slug: 'ipad-battery-replacement-johannesburg',
@@ -24481,15 +24432,7 @@ This suggests logic board damage, usually to the charging circuit. A new battery
 
 WhatsApp us now: **064 529 5863**  
 Book online: **zasupport.com/book**  
-Visit us: Hyde Park, Johannesburg (Sandton, Rosebank, Bryanston service area)
-
-LEARNED: iPad battery posts require balance between technical depth (adhesive reseal, thermal specs, charge cycles) and accessibility for non-technical readers. E-E-A-T signals strengthened by specific workshop patterns ("hundreds replaced", "summer heat pattern observed") and Gauteng geographic specificity. Long-tail variants (liquid damage intersection, DIY risks, warranty detail) increase topical authority.
-
-BETTER: Integrated secondary repair pathways (/logic-board-repair, /liquid-damage) naturally within narrative rather than forced; maintained R-currency + ZA service area rules throughout; avoided banned phrases ("from R599 assessment" → "from R599"); word count 1,487 body text validates tiered requirement.
-
-WHY SUCCESS: Research data (adhesive reseal, battery swap) embedded in methodology section; FAQs address real workshop patterns (third-party failures, liquid damage + battery intersection, shutdown-after-replacement scenarios); JSON-LD validates with schema.org FAQPage structure; WhatsApp + booking CTAs positioned naturally at close.
-
-REPLICATE: For similar repair posts—prioritise workshop pattern narrative over generic advice; layer geographic + currency specificity into every section; structure secondary repairs as diagnostic discoveries, not upsells; validate word count before delivery.`,
+Visit us: Hyde Park, Johannesburg (Sandton, Rosebank, Bryanston service area)`,
   },
   'macbook-battery-replacement-sandton': {
     slug: 'macbook-battery-replacement-sandton',
@@ -25896,9 +25839,7 @@ Yes. We recommend bringing it in as soon as possible after power-down. We often 
 
 WhatsApp: **064 529 5863**  
 Book online: **zasupport.com/book**  
-Located in Hyde Park, serving Bryanston and surrounding areas.
-
-LEARNED: Ultrasonic cleaning detail + corporate Bryanston context (accountants, legal practices) creates authentic E-E-A-T signal. POPIA mention differentiates from competitors. | BETTER: Three-year warranty claim needs internal verification before publication — confirm with ops team. "No Fix, No Fee" is powerful but requires clear internal process. | WHY: Research data mentioned "Bryanston corporate clients + ultrasonic" — threading this through warranty, data security, and business use cases makes content specific and trustworthy rather than generic. | REPLICATE: Always anchor technical process (ultrasonic cleaning steps) to local geography + compliance (POPIA) + business segment (accountants/legal) for higher-quality E-E-A-T signals.`,
+Located in Hyde Park, serving Bryanston and surrounding areas.`,
   },
   'logic-board-repair-houghton': {
     slug: 'logic-board-repair-houghton',

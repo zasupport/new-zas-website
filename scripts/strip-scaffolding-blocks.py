@@ -18,17 +18,24 @@ FAQ_SCHEMA_RE = re.compile(
 
 SCAFFOLDING_RE = re.compile(
     r'\n+(?:---\s*\n+)?'
-    r'(?:## (?:LEARNED|BETTER|WHAT BETTER|WHY|WHY SUCCESS|REPLICATE):'
-    r'|\*\*(?:LEARNED|BETTER|WHAT BETTER|WHY|WHY SUCCESS|REPLICATE):\*\*)'
+    r'(?:'
+        r'\#{2,4}\s+LEARNING\s+BLOCK[^\n]*'
+        r'|\#{2,4}\s+(?:WHAT\s+)?(?:LEARNED|BETTER|WHAT\s+BETTER|WHY|WHY\s+SUCCESS|REPLICATE)\s*:'
+        r'|\*\*(?:WHAT\s+)?(?:LEARNED|BETTER|WHAT\s+BETTER|WHY|WHY\s+SUCCESS|REPLICATE)\s*:\*\*'
+        r'|(?:LEARNED|BETTER|REPLICATE|WHY\s+SUCCESS|WHY|WHAT\s+BETTER|WHAT\s+LEARNED)\s*:\s*[\[\w]'
+    r')'
     r'[\s\S]*?'
-    + CONTENT_END
+    + CONTENT_END,
+    re.IGNORECASE,
 )
 
 MARKER_COUNT_RE = re.compile(
-    r'\*\*(?:LEARNED|BETTER|WHY|WHY SUCCESS|WHAT BETTER|REPLICATE):\*\*'
-    r'|^## (?:LEARNED|BETTER|WHY|WHY SUCCESS|WHAT BETTER|REPLICATE):'
-    r'|^## FAQ Schema \(JSON-LD\)',
-    re.MULTILINE,
+    r'\*\*(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:\*\*'
+    r'|^\#{2,4}\s+(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:'
+    r'|^\#{2,4}\s+LEARNING\s+BLOCK'
+    r'|^## FAQ Schema \(JSON-LD\)'
+    r'|^(?:LEARNED|BETTER|REPLICATE|WHY\s+SUCCESS|WHY|WHAT\s+BETTER|WHAT\s+LEARNED)\s*:\s*[\[\w]',
+    re.MULTILINE | re.IGNORECASE,
 )
 
 

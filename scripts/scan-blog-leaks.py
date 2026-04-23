@@ -9,10 +9,12 @@ import sys
 FILE = pathlib.Path('src/app/blog/[slug]/page.tsx')
 
 SCAFFOLDING_RE = re.compile(
-    r'\*\*(?:LEARNED|BETTER|WHY|WHY SUCCESS|WHAT BETTER|REPLICATE):\*\*'
-    r'|^## (?:LEARNED|BETTER|WHY|WHY SUCCESS|WHAT BETTER|REPLICATE):'
-    r'|^## FAQ Schema \(JSON-LD\)',
-    re.MULTILINE,
+    r'\*\*(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:\*\*'
+    r'|^\#{2,4}\s+(?:WHAT\s+)?(?:LEARNED|BETTER|WHY|WHY\s+SUCCESS|WHAT\s+BETTER|REPLICATE)\s*:'
+    r'|^\#{2,4}\s+LEARNING\s+BLOCK'
+    r'|^## FAQ Schema \(JSON-LD\)'
+    r'|^(?:LEARNED|BETTER|REPLICATE|WHY\s+SUCCESS|WHY|WHAT\s+BETTER|WHAT\s+LEARNED)\s*:\s*[\[\w]',
+    re.MULTILINE | re.IGNORECASE,
 )
 
 
