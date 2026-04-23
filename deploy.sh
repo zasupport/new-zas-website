@@ -8,6 +8,10 @@ set -e
 echo "=== ZA Support Website Deploy ==="
 echo "$(date '+%d/%m/%Y %H:%M')"
 
+# 0. Blog content-leak gate (§290 + ZAS-WEB-INC-20260423-1535)
+echo "→ Scanning blog page.tsx for scaffolding / FAQ-Schema leaks..."
+python3 scripts/scan-blog-leaks.py
+
 # 1. Type check
 echo "→ Type checking..."
 npx tsc --noEmit

@@ -11973,21 +11973,7 @@ Unprotected machines are at risk during power surges. A UPS (Uninterruptible Pow
 ---
 
 **Ready to repair? Book your Mac Studio assessment:**
-**[zasupport.com/book](https://zasupport.com/book) | WhatsApp: 064 529 5863**
-
----
-
-## LEARNED:
-[Mac Studio repair anchors M-series Ultra thermal + power supply vulnerabilities + SA load shedding context. Monitor compatibility signals = differentiation vs. generic Apple repair. R599 assessment = trust signal. Three-year warranty on PSU = rare/specific = E-E-A-T.]
-
-**BETTER:**
-[Mention of UPS cost/payoff ratio (R2,400–R4,500 prevents 80% failures) = concrete prevention advice. Architect/designer use-case (Fourways firm) = specific audience signal. Component-level detail (capacitors, micro-soldering) = technical credibility. Load shedding Stage 6 reference = Johannesburg-native knowledge.]
-
-**WHY SUCCESS:**
-[Keyword "Mac Studio Repair Johannesburg" in H1 + body. Long-tail coverage: "studio monitor compatibility", "M-series Ultra", "logic board repair", "liquid damage". Internal links natural (not forced): /logic-board-repair /liquid-damage /contact. External: Apple Support + iFixit implied trust. Warranty specifics (3-year PSU, 2-year logic board) = competitive signal. Pricing transparency R599–R7,200 = reduces friction. FAQs address purchase intent: cost, turnaround, warranty, upgrade options. JSON-LD = schema credit. CTA natural: book + WhatsApp (not pushy). Word count 1,387 = within tier (1,200+ informational, 1,500+ repair/competitive). UK English clean.]
-
-**REPLICATE:**
-[1. Lead with workshop truth ("We have seen…"). 2. Link Gauteng suburbs + specific issue (load shedding) + local value. 3. Price transparently with R ranges. 4. Include warranty detail that competitors omit. 5. Preventative care section = retention signal. 6. FAQs answer purchase anxiety, not just "what is Mac Studio". 7. Schema placement = schema-first markdown (not after). 8. WhatsApp + booking CTA = no-friction conversion.]`,
+**[zasupport.com/book](https://zasupport.com/book) | WhatsApp: 064 529 5863**`,
   },
   'macbook-usb-c-port-not-working-johannesburg': {
     slug: 'macbook-usb-c-port-not-working-johannesburg',
@@ -12681,17 +12667,7 @@ From R1,299 for flex cable replacement (most common fix), plus R599 assessment. 
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** Hardware diagnosis + software triage framework builds trust. Specific ZAR pricing + geographic specificity (Hyde Park, Sandton) + technical detail (flex cable, audio IC, ohm testing) signals E-E-A-T. First-person "we've seen" language + genuine warranty claims strengthen authority.
-
-**BETTER:** Avoided "Assessment from R599" (used "from R599 assessment" instead). All suburb references within 60km Gauteng only. No hype language. Concrete repair timelines (24–48 hours, 5–7 days for complex work).
-
-**WHY SUCCESS:** Post meets tier 3 (1,200+ words repair content). 6 FAQs + FAQPage JSON-LD. 3+ internal links (/logic-board-repair, /liquid-damage, /contact). 1 external (Apple Support). UK English throughout. CTA clear (WhatsApp + booking URL). From R599 assessment + 3-year warranty explicitly stated.
-
-**REPLICATE:** On next blog task: (1) Lead with workshop experience ("We see X weekly..."). (2) Provide ZAR pricing + suburb list upfront. (3) Use multimeter/technical specifics to prove expertise. (4) Structure as diagnostic flowchart (software → hardware → specialist repair). (5) Verify all suburb references are Gauteng only.`,
+\`\`\``,
   },
   'macbook-touch-id-not-working-johannesburg': {
     slug: 'macbook-touch-id-not-working-johannesburg',
@@ -13199,11 +13175,7 @@ No. Remote wipe is permanent and irreversible—that's the security feature. Alw
 }
 \`\`\`
 
-**Need corporate Apple support in Johannesburg?** Message us on WhatsApp at 064 529 5863 or book an assessment at [zasupport.com/book](https://zasupport.com/book). We service Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.
-
----
-
-**LEARNED:** Corporate fleet posts require concrete operational detail (MDM, DEP, policies) paired with Johannesburg-specific context (load shedding, humidity). Reference real client scenarios to signal E-E-A-T. Avoid "Assessment from R599"—use "from R599 assessment" and warranty mentions consistently. | **BETTER:** H2s structured around business outcomes (compliance, standardisation, SLA monitoring) not just technical features. FAQ section anchors long-tail keywords naturally. Internal links placed mid-body where reader intent aligns. | **WHY:** Corporate decision-makers search for operational benefits, not just features. Load shedding context is unique to SA and demonstrates local workshop knowledge. Three-year warranty detail and From R599 assessment guarantee differentiate from national chains. | **REPLICATE:** For enterprise posts: lead with business pain → explain technical solution → connect to Johannesburg risks → include pricing anchors (from R599) → end with FAQ + schema. Use first-person workshop experience in opening. Emphasise compliance (POPIA) for corporate angle.`,
+**Need corporate Apple support in Johannesburg?** Message us on WhatsApp at 064 529 5863 or book an assessment at [zasupport.com/book](https://zasupport.com/book). We service Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
   },
   'macbook-air-m3-repair-johannesburg': {
     slug: 'macbook-air-m3-repair-johannesburg',
@@ -13410,15 +13382,7 @@ Your M3 Air deserves expert care. We've got the tools, the experience, and the w
 - [x] 6 FAQs + valid FAQPage JSON-LD schema ✓
 - [x] WhatsApp CTA + booking link ✓
 - [x] UK English (colour, warranty, favour patterns) ✓
-- [x] E-E-A-T signals: "In our Hyde Park workshop", specific component names (Thermal Grizzly Kryonaut, 52.6Wh battery), exact procedures, genuine opinion ("60–70% of cases"), no hype ✓
-
-**LEARNED:** M3 Air thermal architecture requires non-generic approach; geographic context (load shedding, ambient temperature patterns by suburb) improves authenticity and relevance. Schema validation matters more than "should work" promises.
-
-**BETTER:** Integrated real-world Johannesburg environmental factors (load shedding, heat stress) rather than generic repair guidance. This differentiates from national competitors.
-
-**WHY SUCCESS:** Grounded in actual workshop patterns, specific model thermal design, compliance with all hard rules (§225, §226), and verification before output.
-
-**REPLICATE:** Always anchor technical content to specific geographic environment, integrate verified service area limits early, include real warranty terms and pricing, validate JSON-LD syntax.`,
+- [x] E-E-A-T signals: "In our Hyde Park workshop", specific component names (Thermal Grizzly Kryonaut, 52.6Wh battery), exact procedures, genuine opinion ("60–70% of cases"), no hype ✓`,
   },
   'macbook-repair-midrand': {
     slug: 'macbook-repair-midrand',
@@ -13605,17 +13569,7 @@ Absolutely. In fact, most liquid-damaged MacBooks we see have already been left 
 }
 \`\`\`
 
-**Ready to get your MacBook fixed?** Contact ZA Support on **064 529 5863** (WhatsApp) or [book your appointment online](/book). We serve Midrand, Hyde Park, Sandton, and all surrounding Gauteng suburbs.
-
----
-
-**LEARNED:** First-person workshop voice + specific Gauteng suburbs + load shedding context + banned phrase replacement ("from R599 assessment" not "Assessment from R599") = higher E-E-A-T trust signals. Logic board repair section bridges technical detail with customer pain (downtime + cost).
-
-**BETTER:** Included warranty structure explicitly (up to 3 years) + From R599 assessment early in CTA + data preservation reassurance + FAQ schema validation-ready.
-
-**WHY:** Midrand users search "MacBook repair near me" + "liquid damage MacBook" + "logic board repair cost"—this post targets intent via subtopic coverage + local trust markers (Hyde Park workshop, load shedding reference, POPIA-adjacent data handling).
-
-**REPLICATE:** Repair/competitive posts (1500w) = workshop anecdote opening + problem categories + 2–3 technical deep-dives + warranty transparency + 6 FAQs + FAQ-LD schema + WhatsApp CTA. Always verify internal links exist before publish.`,
+**Ready to get your MacBook fixed?** Contact ZA Support on **064 529 5863** (WhatsApp) or [book your appointment online](/book). We serve Midrand, Hyde Park, Sandton, and all surrounding Gauteng suburbs.`,
   },
   'macbook-water-damage-first-aid': {
     slug: 'macbook-water-damage-first-aid',
@@ -14766,13 +14720,7 @@ Three years on parts and labour. This covers defects in the keyboard components 
 
 ### LEARNING BLOCK (§248)
 
-**WHAT LEARNED:** Keyboard repair positioning requires explicit cost transparency (R599 assessment, individual key vs top case pricing) to build trust. Butterfly vs scissor distinction is critical E-E-A-T signal differentiating ZA Support from generic "repair" sites. Liquid damage crossover prevents false positives (encouraging related service discovery).
-
-**WHAT BETTER:** Integrated internal links naturally (/logic-board-repair, /liquid-damage, /contact) rather than forced. Warranty specificity (3-year parts, not blanket) signals legitimate repair business. Geographic boundaries (Hyde Park, Midrand, Centurion, Pretoria only) reinforce local authority and POPIA compliance.
-
-**WHY SUCCESS:** Real technical depth (butterfly 0.5 mm vs scissor 1.5 mm travel, dust ingress mechanism, top case labour time) passes E-E-A-T scrutiny. First-person workshop voice ("We've seen...", "In our Hyde Park workshop...") establishes authority without hyperbole. Pricing anchored to ZAR and local suburbs (Bryanston, Fourways, Sandton) prevents rank dilution across national queries.
-
-**REPLICATE:** Structure repair blogs as decision trees (individual key? top case?). Always price from established floor (R599 assessment). Include warranty exclusions explicitly. Restrict geography to Gauteng 60 km radius. Use component names + model numbers. End with actionable CTA + WhatsApp.`,
+**WHAT LEARNED:** Keyboard repair positioning requires explicit cost transparency (R599 assessment, individual key vs top case pricing) to build trust. Butterfly vs scissor distinction is critical E-E-A-T signal differentiating ZA Support from generic "repair" sites. Liquid damage crossover prevents false positives (encouraging related service discovery).`,
   },
   'macbook-pro-14-inch-repair-johannesburg': {
     slug: 'macbook-pro-14-inch-repair-johannesburg',
@@ -15104,17 +15052,7 @@ Apple's standard approach is logic board replacement; they rarely attempt compon
 
 ---
 
-**Ready to get your M4 evaluated?** WhatsApp us on **064 529 5863** or book an assessment at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and we service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.
-
----
-
-**LEARNED:** M4 board-level repair requires authoritative technical voice grounded in workshop experience. Specific failure modes (power delivery %, GPU symptoms, memory faults) build credibility. South African context (load shedding, POPIA, local parts sourcing, Gauteng geography) differentiates from generic Apple repair content and signals local expertise.
-
-**BETTER:** Integrated architecture narrative (M4 is soldered, not modular) positioned as technical reality, not limitation. Comparison against Intel-based machines and Apple's own repair approach adds depth. Three-year warranty and From R599 assessment frame value proposition through service design, not price alone.
-
-**WHY:** E-E-A-T signals earned through specificity: workshop volume data (40+ M4 repairs, 35% power faults), component names (MOSFETs, PWM controllers, BGA), precise pricing (R4499–R12,000 range, R599 assessment), and local context (load shedding impact, Midrand/Centurion suburbs). Reader perceives author as practising technician, not marketer.
-
-**REPLICATE:** For future technical service posts: (1) lead with integration/architecture story, (2) cite workshop volume data by failure type, (3) contrast competitor approaches (Apple's board replacement strategy), (4) weave local environmental factors naturally, (5) FAQ answers expand on workshop philosophy not FAQ formula, (6) fenced JSON-LD for SEO signal.`,
+**Ready to get your M4 evaluated?** WhatsApp us on **064 529 5863** or book an assessment at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and we service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
   },
   'imac-logic-board-repair-johannesburg-2026': {
     slug: 'imac-logic-board-repair-johannesburg-2026',
@@ -16102,17 +16040,7 @@ A: Yes. For repairs over R1,200, we offer free collection and delivery within Mi
 
 **Ready to book your MacBook hinge assessment?**
 
-WhatsApp us on **064 529 5863** or visit **zasupport.com/book** to schedule your from R599 assessment at our Hyde Park workshop. We'll diagnose the fault, quote an exact repair price, and have your MacBook back in working order within days.
-
----
-
-**LEARNED:** MacBook hinge repair resonates strongly with Johannesburg audience when framed around load shedding (behaviour-specific context). E-E-A-T signals (first-person workshop detail, specific component names, genuine pricing) outperform generic advice. Three-year warranty mention builds trust more effectively than "industry-leading" claims.
-
-**BETTER:** Could expand "clutch wear" with modal comparison data (e.g., "clutch wear accounts for 7 of 10 hinges we see") if GSC data provided. Load-shedding tie-in is Gauteng-specific strength—replicate this for other seasonal/environmental triggers.
-
-**WHY:** Long-form content (1,300+ words) with structural H2s, internal links, and FAQ schema improves dwell time and CTR on "MacBook hinge repair Johannesburg" SERP. Authentic first-person voice reduces bounce rate vs. templated repair guides. No-fix-no-fee and R599 assessment framing removes friction (banned "free" phrasing, priced alternative signals confidence).
-
-**REPLICATE:** For future repair content: (1) Lead with audience-specific pain (seasonal, regional, climate), (2) Break repair options into cost tiers with turnaround, (3) Include 3+ internal service links, (4) Real warranty claims, (5) FAQ JSON-LD schema, (6) WhatsApp + booking CTA.`,
+WhatsApp us on **064 529 5863** or visit **zasupport.com/book** to schedule your from R599 assessment at our Hyde Park workshop. We'll diagnose the fault, quote an exact repair price, and have your MacBook back in working order within days.`,
   },
   'macbook-kernel-panic-fix-johannesburg': {
     slug: 'macbook-kernel-panic-fix-johannesburg',
@@ -16467,17 +16395,7 @@ Many practices attempt DIY compliance and discover too late that their approach 
 
 Ready to audit your practice's Apple device security? WhatsApp us on **064 529 5863** or book an assessment at **zasupport.com/book**. We'll identify your compliance gaps, build a remediation plan, and ensure your patient data meets POPIA requirements. From our Hyde Park workshop, we serve medical practices across Gauteng—Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
-Your patients' data security matters. Let's get it right.
-
----
-
-**LEARNED:** Medical practice IT security blog requires POPIA-specific language (Operator Agreement, 30-day breach notification, R10M fines) with concrete compliance steps (FileVault, role-based access, audit logging). E-E-A-T signals built through workshop experience ("four years", "Bryanston iPad"), specific technical detail (256-bit encryption, DOD-erase protocols), and Johannesburg context (load shedding, UPS systems). Research data (POPIA, HPCSA, patient data) naturally integrated without fabricated statistics.
-
-**BETTER:** Structured assessment framework (from R599) and remediation costs (R2,000–R8,000) grounded in real practice scope, not generic IT advice. FAQ section directly addresses compliance anxiety (shared iPad risk, breach notification process) with actionable answers.
-
-**WHY:** Medical practices in Johannesburg are compliance-anxious and risk-averse—regulatory fines and patient data breaches are existential threats. Post positions ZA Support as compliance specialist (not generic repair shop), builds trust through specific POPIA/HPCSA references, and converts compliance fear into managed service upsell (R500–R1,500 monthly contracts).
-
-**REPLICATE:** For future medical/compliance posts: (1) Lead with real audit findings (E-E-A-T authority). (2) Reference specific South African legislation + penalties (POPIA, HPCSA, Information Regulator). (3) Structure as: Problem → Regulatory framework → Assessment process → Remediation → Ongoing support. (4) Include cost anchors (from R599 assessment, R2,000–R8,000 remediation) to establish market positioning. (5) FAQ section addresses compliance anxiety, not generic troubleshooting.`,
+Your patients' data security matters. Let's get it right.`,
   },
   'mac-repair-sandton-johannesburg': {
     slug: 'mac-repair-sandton-johannesburg',
@@ -16697,13 +16615,7 @@ We're open Monday–Friday 08:00–17:00, Saturday 09:00–13:00. Load shedding 
 ---
 
 ## LEARNED
-**[E-A-T integration into repair content]** Real workshop context (10 years, load shedding knowledge, specific suburbs, POPIA) builds authority without marketing hype.
-
-**BETTER:** Section on "When to Replace vs. Repair" — honest cost-benefit advice converts trust into bookings.
-
-**WHY:** Sandton professionals research before calling; content that acknowledges trade-offs ranks + converts.
-
-**REPLICATE:** [1] Lead with specific workshop experience (numbers, locations, problems). [2] Use local context (load shedding, humidity, altitude). [3] Answer the unstated question ("Is this worth fixing?"). [4] 1,400+ words for competitive repair niches.`,
+**[E-A-T integration into repair content]** Real workshop context (10 years, load shedding knowledge, specific suburbs, POPIA) builds authority without marketing hype.`,
   },
   'macbook-pro-m3-max-repair-johannesburg': {
     slug: 'macbook-pro-m3-max-repair-johannesburg',
@@ -17061,17 +16973,7 @@ Your MacBook's screen flickering is fixable. Most cases resolve within 24 hours 
 
 **From R599 assessment.** If we can't repair it, you pay nothing.
 
-[Visit our booking page: zasupport.com/book](https://zasupport.com/book)
-
----
-
-**LEARNED:** Flexgate demand remains high in Johannesburg market; concrete pricing + warranty guarantees + geographic specificity build trust signals. Multi-format testing (Safe Mode + external monitor) is the primary differentiator in search intent.
-
-**BETTER:** Moved logic board mention earlier in diagnostic section; added exact cable costs (R1,800–R3,000) to improve E-E-A-T; restructured FAQs to answer objections (warranty, data safety, DIY risk) before CTA.
-
-**WHY:** E-E-A-T signals (workshop experience, specific ZAR prices, turnaround times, Gauteng suburbs, component names) satisfy Google's 2024 ranking criteria. Flexgate + GPU specificity targets high-intent long-tail search. JSON-LD FAQ schema improves CTR via featured snippets.
-
-**REPLICATE:** Lead with workshop experience + exact costs + specific suburbs. Use external monitor test as diagnostic proof point. Emphasize data safety + warranty in FAQs. Hyperlink internal services early. End with From R599 assessment + WhatsApp CTA.`,
+[Visit our booking page: zasupport.com/book](https://zasupport.com/book)`,
   },
   'liquid-damage-macbook-pro-sandton': {
     slug: 'liquid-damage-macbook-pro-sandton',
@@ -17448,15 +17350,7 @@ ZA Support | Hyde Park, Johannesburg | Serving Sandton, Rosebank, Bryanston, Fou
 ✓ WhatsApp CTA: 064 529 5863  
 ✓ Booking link: zasupport.com/book  
 ✓ UK English, no hype, workshop-grounded tone  
-✓ JSON-LD FAQPage schema validated  
-
-**LEARNED:** Blog structure with E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) drives engagement when grounded in specific workshop examples and local context. Opening with "we've diagnosed this" establishes credibility immediately.
-
-**BETTER:** Alternating short and long sentences maintains reader rhythm. Specific R prices (R599, R1,200–R2,100) remove friction from decision-making. Three diagnostic paths (self-check, SMC reset, professional repair) guide readers logically.
-
-**WHY SUCCESS:** Research data (cycle count, kernel_task, SMC reset) integrated naturally without fabrication. Geographic constraints (Gauteng 60km) enforced throughout. Service area words (Hyde Park, Sandton, load shedding context) signal local authority.
-
-**REPLICATE:** Lead with workshop experience. Use numbers (R prices, cycle counts, percentages). Provide three escalation paths. Close with schema + contact CTA.`,
+✓ JSON-LD FAQPage schema validated  `,
   },
   'macbook-black-screen-fix-johannesburg': {
     slug: 'macbook-black-screen-fix-johannesburg',
@@ -17638,9 +17532,7 @@ For detailed support from Apple, visit [Apple's official MacBook repair guide](h
 ✓ WhatsApp CTA: 064 529 5863 | booking: zasupport.com/book  
 ✓ UK English throughout, no US spelling  
 ✓ E-E-A-T signals: First-person workshop experience ("In our Hyde Park workshop"), specific technical detail (GPU, EFI, display cable), SA context (load shedding, POPIA, Johannesburg suburbs), varied rhythm, concrete numbers (R599, R1,500–R2,800, 5–7 days)  
-✓ Markdown only output  
-
-**LEARNED:** Black screen diagnosis requires differentiating three root causes (GPU, display cable, EFI) with clear diagnostic steps before repair recommendation. E-E-A-T trust built through workshop-specific detail and honest pricing transparency. | **BETTER:** Next iteration should include a simple flowchart-style troubleshooting decision tree in text form to guide readers through self-diagnosis before booking. | **WHY:** Success driven by matching research data (GPU failure, display cable, EFI corruption) to real Johannesburg workshop patterns, avoiding fabrication, and grounding every claim in verifiable experience. | **REPLICATE:** Always start diagnosis section with listener tests (fan noise, chime) before visual checks; separate expensive fixes (GPU) from cheap fixes (cable) early in copy; use specific ZA pricing in currency; end with low-friction contact method (WhatsApp + booking URL).`,
+✓ Markdown only output  `,
   },
   'macbook-running-slow-johannesburg': {
     slug: 'macbook-running-slow-johannesburg',
@@ -17846,30 +17738,7 @@ This is rare, but it happens if a second issue was hidden (e.g., SSD was failing
 ✓ E-E-A-T signals: first-person ("We've seen", "In our Hyde Park workshop"), technical specifics (SSD SMART data, thermal throttling, microsoldering), SA context (ZAR, load shedding, Johannesburg suburbs), genuine opinion, varied rhythm  
 ✓ No banned phrases: "Assessment from R599" ✗ (replaced with "from R599 assessment")  
 ✓ No hype: "game-changer" appears once (contextual, acceptable); no "free", "amazing", "revolutionary"  
-✓ Markdown formatting: clean, no --- dividers, code block JSON only  
-
-**LEARNED:**
-- E-E-A-T signals strongest when specific workshop locations named (Hyde Park, Sandton, Rosebank) + real process steps (Activity Monitor check, thermal camera, SSD SMART data review)
-- Long-tail variants naturally embedded: "MacBook slow after liquid damage", "RAM upgrade", "thermal throttling", "deep cleaning"
-- Price anchoring from R599 assessment → subsequent fixes increases trust (no hidden costs)
-- FAQ schema JSON-LD validates in Google Search Console; improves rich snippet chance
-
-**BETTER:**
-- Could add one external link naturally (e.g., [Apple Activity Monitor guide](https://support.apple.com/en-gb/guide/activity-monitor) in software section)
-- Could include specific MacBook model years affected by each issue (2015 4GB RAM example included—replicable pattern)
-
-**WHY SUCCESS:**
-- Prompt specified research data (SSD health, RAM pressure, thermal throttling) → all three addressed in dedicated paragraphs
-- UK English enforced throughout (colour, optimise, centre)
-- Word count lands in tier 2 (1,200–1,500 for informational content)
-- CTA dual-channel (WhatsApp + booking link) mirrors real customer behaviour in Gauteng
-
-**REPLICATE:**
-1. For future blog posts: anchor E-E-A-T in specific workshop locations + diagnostic process steps
-2. Price transparency upfront ("from R599 assessment") before solution costs
-3. Embed long-tail variants in H2 subheadings and topic sentences
-4. Always validate geographic compliance against 60km Hyde Park radius
-5. Include FAQ JSON-LD in fenced code block for copy-paste to CMS`,
+✓ Markdown formatting: clean, no --- dividers, code block JSON only  `,
   },
   'imac-not-turning-on-repair-johannesburg': {
     slug: 'imac-not-turning-on-repair-johannesburg',
@@ -18070,17 +17939,7 @@ Use a surge-protected power board rated for your iMac's wattage. Keep your iMac 
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** First-person workshop narrative ("We've been there with hundreds of customers...") + specific technical detail (LED code meanings, capacitor batches 2013–2015, PSU replacement timelines) + Johannesburg context (load shedding, local suburbs, ZAR pricing) creates E-E-A-T signals naturally without fabrication. Alternating short/long sentences improves readability. Genuine constraints (no "free" language, service area limits) shaped authentic voice.
-
-**BETTER:** Combined research data (PSU, capacitor, LED codes) into narrative sections rather than list format. Positioned "3-year warranty" and "From R599 assessment" as trust signals, not sales language. Used internal links contextually (/logic-board-repair, /liquid-damage, /contact paths implied in copy). Verified word count: 1,487 body words, meets §229 tiered requirement for competitive repair content.
-
-**WHY:** Customers researching "iMac not turning on Johannesburg" want diagnosis confidence + local credibility + honest pricing. Workshop experience + LED diagnostic detail + load shedding context (unique to SA) signals authority. FAQ schema enables rich snippets. WhatsApp CTA + booking link reduce friction.
-
-**REPLICATE:** (1) Lead with customer pain + workshop experience. (2) Layer technical detail (component names, procedures, timelines). (3) Add geography + local hazards (load shedding). (4) Close with trust signals (warranty, no-fix-no-fee, pricing transparency). (5) Use H2s for long-tail variants. (6) Validate FAQPage JSON-LD in next build.`,
+\`\`\``,
   },
   'macbook-camera-not-working-johannesburg': {
     slug: 'macbook-camera-not-working-johannesburg',
@@ -18262,17 +18121,7 @@ We don't charge you (From R599 assessment). If the logic board damage is too sev
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** Camera failures in Johannesburg cluster around three environmental factors (dust, load shedding, humidity) + hardware fragility (iSight cable). E-E-A-T signals strongest when anchored to specific workshop experience (e.g., "we've repaired dozens") and Johannesburg-specific context (load shedding stage references, suburb names, local product availability). FAQ schema drives featured snippet rankings for "how do I know if" searches.
-
-**BETTER:** Sentence rhythm varied across sections; avoided repetition of "camera" by using pronoun/synonym rotation ("it", "the system"). Specificity strengthened claims: R799–R1,299 ranges, model names (Air, Pro 13", 16"), component names (iSight cable, T2 chip), precise timing (2–4 hours same-day, 3–5 days logic board), and named local brands (Redarc, Ellies).
-
-**WHY SUCCESS:** Word count 1,387 (within tier); H1 + 4 H2s cover primary + 3 long-tail variants (cable, T2, dust/load shedding, prevention); 3 internal links (/logic-board-repair, /liquid-damage, /contact); 1 external (Apple Support); 6 FAQs with schema; WhatsApp + booking CTA; UK English throughout (honour, centre, colour avoided, favour of British spellings); From R599 assessment + 3-year warranty + from R599 assessment included; geographic scope tight to Gauteng within 60km (Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria).
-
-**REPLICATE:** For future technical blog posts: anchor expertise to workshop frequency data ("we see X every month"), layer environmental/geographic context early, vary sentence length (1–3 words for impact; 15+ for explanation), name specific parts + price ranges, end with preventative care (reduces future service calls, builds authority), structure FAQ as diagnostic decision tree (if X → then Y, not generic Q&A).`,
+\`\`\``,
   },
   'macbook-water-indicator-check-johannesburg': {
     slug: 'macbook-water-indicator-check-johannesburg',
@@ -18595,17 +18444,7 @@ Yes. We service the greater Johannesburg area including Centurion, Midrand, Four
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** iMac M3 repair content requires balancing technical depth with accessibility—specifics about thermal imaging and micro-soldering build credibility, but framing them in problem-outcome language keeps copy readable. First-person workshop voice ("we have seen", "our technicians") significantly strengthens E-E-A-T signals without sounding sales-y.
-
-**BETTER:** Structured the post around actual failure modes (screen, logic board, thermal, liquid damage) rather than generic "common problems". This matches search intent for "iMac M3 repair" and gives readers a mental map of what might be wrong with their machine.
-
-**WHY:** Posts organised by symptom/failure mode consistently outrank generic "how to fix" content. Combining diagnostic guidance with explicit pricing (from R599, R2,800, etc.) and warranty coverage removes purchase friction.
-
-**REPLICATE:** For future Apple repair posts: (1) lead with 2–3 specific failure modes observed in workshop, (2) dedicate separate H2s to each failure with diagnosis + repair process + cost range, (3) anchor all geographic references to Johannesburg suburbs within 60km of Hyde Park, (4) include From R599 assessment and warranty language in every customer-facing section.`,
+\`\`\``,
   },
   'macbook-logic-board-repair-bryanston': {
     slug: 'macbook-logic-board-repair-bryanston',
@@ -18783,17 +18622,7 @@ You can walk in, but an appointment is faster. Call 064 529 5863 or use zasuppor
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** Component-level logic board repair messaging resonates when anchored to specific Gauteng workshop location, honest pricing (R4499), and three-year warranty credibility. Geographic specificity (Hyde Park, Bryanston, 15-minute proximity) builds local trust. Concrete diagnostic cost (R599, applied to repair) removes friction. E-E-A-T signals strongest when framed as "we have seen X fault" with workshop equipment detail (thermal imaging, ultrasonic tanks, magnification).
-
-**BETTER:** Avoided "Assessment from R599" (§225 violation); used "from R599 assessment" instead. Varied sentence length: short "Not every fault is repairable" paired with long technical explanation. Embedded internal links naturally within context (/logic-board-repair, /liquid-damage, /contact). Referenced external authority (Apple Diagnostics, iFixit workflow implicitly via component-level description) without fabricating data.
-
-**WHY:** Success metrics: body word count 1,347 (within 1,200–1,500 tier for competitive repair content), H1 + 4 H2s meet structure, 6 FAQs + JSON-LD schema validate FAQ ranking signals, 3 internal links + 1 external (Apple Diagnostics) satisfy link density, WhatsApp + booking CTAs address conversion, UK English (realise, centre, honour spelling preserved), Gauteng-only geography (zero Cape Town/Western Cape references). No "shall I" questions, no sales hype, no --- dividers, no hallucinated statistics.
-
-**REPLICATE:** For future blog posts: (1) Lead with component-level repair definition + workshop location pairing. (2) Price everything explicitly (R4499, R599, R8000–R18000). (3) Anchor E-E-A-T to first-person diagnostics ("we have seen"). (4) Use 3–4 sentence paragraphs with rhythm variation. (5) FAQ format: 6 questions addressing cost, data safety, warranty, timing, damage type, booking. (6) Validate word count tiering before output. (7) Verify all internal links exist on site.`,
+\`\`\``,
   },
   'mac-startup-disk-full-fix-johannesburg': {
     slug: 'mac-startup-disk-full-fix-johannesburg',
@@ -19023,15 +18852,7 @@ WhatsApp us on **064 529 5863** or [book your Mac assessment online](https://zas
 - [✓] WhatsApp CTA: 064 529 5863 | booking: zasupport.com/book
 - [✓] UK English throughout (colour, favour, organisation patterns)
 - [✓] No banned phrases ("Assessment from R599" → "from R599 assessment")
-- [✓] E-E-A-T signals: "In our Hyde Park workshop", specific technical detail (tmutil commands, cache paths, R prices), experience-based tone
-
-**LEARNED:** Time Machine snapshots are the #1 hidden storage drain in this region — workshop experience validates this. Terminal commands must be presented safely without requiring user expertise.
-
-**BETTER:** Added granular verification steps (System Settings → Storage path, tmutil specific syntax) and preventive maintenance section to reduce repeat issues.
-
-**WHY SUCCESS:** Geographic constraint compliance (Gauteng only), service pricing transparency ("from R599"), and technical credibility (specific commands, folder paths) builds trust with local Johannesburg audience. JSON-LD schema enables rich snippets for FAQ visibility.
-
-**REPLICATE:** This structure (problem → diagnosis → DIY steps → professional escalation → prevention) works for all hardware/software repair posts in this vertical.`,
+- [✓] E-E-A-T signals: "In our Hyde Park workshop", specific technical detail (tmutil commands, cache paths, R prices), experience-based tone`,
   },
   'apple-repair-vs-replacement-guide-johannesburg': {
     slug: 'apple-repair-vs-replacement-guide-johannesburg',
@@ -19202,9 +19023,7 @@ Under our up to 3-year warranty, we'll diagnose and repair the fault from R599. 
 - ✓ First-person workshop experience: "In our Hyde Park workshop...", "We've seen...", "We help customers..."
 - ✓ Genuine technical detail: component names (logic board, charging port, lithium batteries), model numbers (iPhone 15, iPhone 11, iPhone 8), prices in ZAR
 
-**OUTPUT VERIFICATION:** [ -s "apple-repair-vs-replacement-guide-johannesburg.md" ] = success ✓
-
-**LEARNED:** [E-E-A-T signals work best when anchored to specific location (Hyde Park), specific prices (R2,800–R3,200), and first-person credibility ("In our workshop"). Research data (cost comparison) integrated naturally without fabrication. Tiers applied correctly: 1,247 words = repair/competitive tier.] | **BETTER:** [Price ranges and warranty details positioned early to build trust. Trade-in and resale value sections address customer anxiety directly.] | **WHY:** [Success because: (1) geographic specificity matches Gauteng-only rule, (2) pricing grounded in real ZAR figures, (3) FAQ schema validates for rich snippets, (4) internal links support ICP journey from consideration to booking.] | **REPLICATE:** [Always anchor location + currency + price range in opening 150 words. Use past-tense workshop observations ("we have seen") for authenticity. End FAQs with schema validation. Include trade-in/resale for consideration-stage content.]`,
+**OUTPUT VERIFICATION:** [ -s "apple-repair-vs-replacement-guide-johannesburg.md" ] = success ✓`,
   },
   'investec-sandton-apple-support': {
     slug: 'investec-sandton-apple-support',
@@ -19395,15 +19214,7 @@ We can give you a rough estimate based on symptoms (liquid damage, screen damage
 
 ---
 
-## LEARNED (§248)
-
-**LEARNED:** Corporate intent keywords (e.g., "Investec Sandton Apple Support") require **explicit SLA messaging** and **data security reassurance** (POPIA compliance) to convert B2B audiences. Generic repair content underperforms for enterprise verticals.
-
-**BETTER:** Structured the post around **corporate pain points** (downtime cost, compliance audits, fleet management, load shedding risk) rather than feature lists. Added specific ZAR pricing and warranty terms to reduce friction.
-
-**WHY:** Investec's procurement teams evaluate vendors on uptime guarantees and legal compliance. By mentioning POPIA, on-site visits, and data handling explicitly, we reduce perceived risk and position ZA Support as enterprise-grade.
-
-**REPLICATE:** For all B2B target keywords, include: (1) SLA/timeline guarantees, (2) compliance/security messaging, (3) on-site service options, (4) fleet management benefits, (5) case-specific pricing (not "call for quote").`,
+## LEARNED (§248)`,
   },
   'logic-board-repair-parkhurst': {
     slug: 'logic-board-repair-parkhurst',
@@ -19573,11 +19384,7 @@ No. Our policy is zero data access. Your device is repaired and returned with no
 
 WhatsApp: **064 529 5863**  
 Book online: **zasupport.com/book**  
-Location: Hyde Park, Johannesburg (serving Parkhurst, Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Pretoria)
-
----
-
-## LEARNED:[Logic board repair blog requires component-level technical specificity (backlight IC, charging IC, power management IC) + ZAR pricing anchored to assessment cost (R599) + local geography (Parkhurst, Hyde Park) + warranty tiers (12/24/36 months) to signal E-E-A-T] | BETTER:[Structured repair process (5 steps) + related service links (/liquid-damage, /contact) + POPIA compliance mention + no-data-access policy = trust signals for technical audience in Johannesburg repair market] | WHY:[Parkhurst is affluent suburb; audience researches logic board repair after device failure; they need cost comparison, timeline, warranty certainty, and local pickup option. E-E-A-T signals compete against chain stores. §220 research data (backlight IC, charging IC, local collection) naturally embedded in H2s and FAQ answers, not fabricated stats] | REPLICATE:[1. Geography lock: every suburb reference checked against Gauteng 60km radius. 2. Pricing specificity: R599 assessment, R1,299–R3,299 repair ranges, R8,000+ replacement comparison. 3. Internal links: /liquid-damage, /contact, /logic-board-repair. 4. External link: Apple Support or iFixit for backlight/charging IC specs. 5. FAQ structure: 6 questions addressing repair timeline, liquid damage, warranty, cost comparison, device models, data policy. 6. JSON-LD schema validation: all 6 FAQs encoded, structured data ready for GSC. 7. WhatsApp CTA + booking link in header and footer. 8. UK English throughout; sed escape apostrophes in awk if dynamic injection occurs]`,
+Location: Hyde Park, Johannesburg (serving Parkhurst, Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Pretoria)`,
   },
   'how-to-diagnose-macbook-fault-johannesburg': {
     slug: 'how-to-diagnose-macbook-fault-johannesburg',
@@ -19918,11 +19725,7 @@ Migration Assistant can restart from the same backup without data loss. The proc
 
 ---
 
-**Need hands-on help with Mac migration?** WhatsApp us at 064 529 5863 or [book an appointment at ZA Support](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.
-
----
-
-**LEARNED:** Migration Assistant posts rank highest when combining procedural clarity (step-by-step screenshots mentally) with genuine troubleshooting drawn from workshop experience. Competitor gap was accurate—no Johannesburg-specific migration content exists. ZAR pricing (R599 assessment) and load-shedding context differentiate naturally without forced angles. | **BETTER:** Added "Do not interrupt" warning for network transfers (common failure point we've diagnosed). Expanded iCloud Keychain re-authentication because it's the #1 post-migration complaint. Included 24-hour overnight transfer guidance tied to Johannesburg power cuts. | **WHY:** Users trust repair technicians more than Apple's generic guides. First-person "we've seen" language builds authority. Specific failure scenarios (frozen progress bar, missing iCloud photos) match real support tickets. | **REPLICATE:** For future guides: lead with personal workshop anecdote → address competitor gap explicitly → tie local context (load-shedding, suburbs) to solutions → troubleshooting section should reflect actual support queue patterns → pricing and warranty always integrated, never bolted-on.`,
+**Need hands-on help with Mac migration?** WhatsApp us at 064 529 5863 or [book an appointment at ZA Support](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
   },
   'mac-support-financial-services-johannesburg': {
     slug: 'mac-support-financial-services-johannesburg',
@@ -20717,17 +20520,7 @@ If you don't have the recovery key and you forget your password, you can't acces
 
 ---
 
-**Ready to audit your Mac security?** Ring us on **064 529 5863** (WhatsApp), or [book online](/book). We're in Hyde Park, serving Johannesburg, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. From R599 assessment, from R599 if we find nothing you need to fix. Up to 3-year warranty on all security configuration work.
-
----
-
-**LEARNED:** Gauteng-specific framing (load shedding, power surges, local suburbs) increases credibility. First-person workshop detail ("We've seen X times...") signals genuine expertise without sounding salesy. Pricing anchor (R599) early + "From R599 assessment" removes purchase anxiety. FAQ structure with JSON-LD improves searchability for long-tail variants ("FileVault slow", "forgotten recovery key"). E-E-A-T satisfied: Experience (20 years, workshop), Expertise (component names, exact settings paths), Authoritativeness (specific prices, warranty terms), Trustworthiness (honest limitations of antivirus, clear recovery costs).
-
-**BETTER:** Avoided "from R599 assessment" (banned). Integrated internal links naturally (/logic-board-repair, /liquid-damage, /contact, /book). External links to Apple Support + iFixit. Varied sentence length (short punchy + longer explanatory). UK English throughout (optimisation, centre, colour would have appeared if needed). WhatsApp CTA prominent without forced sales language. 1,347 words body (within 1,200–1,500 tier).
-
-**WHY SUCCESS:** Research gap identified (2 competitors only in JNB space) — we differentiated with R currency, Gauteng suburbs only, workshop-specific experience, and realistic pricing. Haiku guidelines followed: no DROP TABLE, no "shall I" language, no --- dividers, no US spelling, proper file verification. Competitor gap naturally referenced in angle without fabricating stats.
-
-**REPLICATE:** For next security/tech blog: lead with local context (load shedding, theft, power instability in JNB), use first-person plural (we, our), embed R pricing early, include genuine limitations ("antivirus overhead", "expensive recovery"), structure FAQs by user symptom not question order, add JSON-LD for schema-heavy ranking opportunity, gate professional services with clear R pricing.`,
+**Ready to audit your Mac security?** Ring us on **064 529 5863** (WhatsApp), or [book online](/book). We're in Hyde Park, serving Johannesburg, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. From R599 assessment, from R599 if we find nothing you need to fix. Up to 3-year warranty on all security configuration work.`,
   },
   'macbook-preventive-maintenance-johannesburg': {
     slug: 'macbook-preventive-maintenance-johannesburg',
@@ -21620,11 +21413,7 @@ Yes. Our warranty is attached to the machine, not to location. If you relocate o
 }
 \`\`\`
 
-**Ready to get your Mac fixed properly?** Contact us via WhatsApp: **064 529 5863** or [book your assessment now](https://zasupport.com/book). We're in Hyde Park, Johannesburg, serving all northern suburbs.
-
----
-
-**LEARNED:** Post structure incorporating first-person workshop authority, specific Johannesburg geography constraints (6 suburbs named, all within 60km Hyde Park), R599 pricing anchor, and From R599 assessment commitment achieved natural E-E-A-T without promotional language. FAQ schema validates. Internal links placed contextually (/liquid-damage, /logic-board-repair, /contact via booking link). Word count: 1,447 (within 1,200–1,500 tiered range for competitive+informational tier). UK English verified (colour, realise patterns avoided; "honour" used correctly). | **BETTER:** Added load shedding/Johannesburg weather relevance (specific market angle competitor_gap identified). Removed "from R599 assessment" language entirely—replaced with "from R599" per §225. Three-year warranty + From R599 assessment placed organically in process section. | **WHY:** GoodX competitor gap = Johannesburg coverage only by 2 sites. ZA Support workshop-first narrative + local pricing + Gauteng-only geography differentiates. Schema validates FAQPage; internal links support content pillar strategy. | **REPLICATE:** For future competitive blog: (1) extract competitor gap angle into opening hook, (2) lock geography to 60km radius with specific suburb names, (3) use "from R[price]" format for all pricing, (4) embed first-person workshop experience in every section, (5) validate word count against tiered tiers (troubleshooting 800+, informational 1200+, competitive 1500+), (6) FAQPage schema as mandatory footer block.`,
+**Ready to get your Mac fixed properly?** Contact us via WhatsApp: **064 529 5863** or [book your assessment now](https://zasupport.com/book). We're in Hyde Park, Johannesburg, serving all northern suburbs.`,
   },
   'carepoint-mac-support-johannesburg': {
     slug: 'carepoint-mac-support-johannesburg',
@@ -21797,17 +21586,7 @@ The warranty covers parts and labour related to the repair we performed. It does
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** CarePoint competitive angle required specific service differentiation (not generic Mac support messaging). ZA Support's strengths: local Hyde Park access, R599 entry point, 3-year warranty, From R599 assessment, fast turnaround. Johannesburg business context (load shedding, humidity, suburban distribution) created authentic angle competitors lack.
-
-**BETTER:** First-person workshop voice ("We've seen", "We handle regularly") combined with specific ZAR pricing (R2,200–R4,500 logic board, R599 assessment) signals authenticity. Rejected "R599 diagnostic assessment" language per §225. Addressed logic board + liquid damage pain points matching ZA Support's core services.
-
-**WHY:** Success driven by: (1) transparent pricing vs competitor vagueness, (2) geographic specificity (Hyde Park, Fourways, Midrand, Centurion—all Gauteng, <60km), (3) business continuity angle (CarePoint target = corporate IT), (4) warranty/guarantee positioning (From R599 assessment, 3-year coverage), (5) component-level technical detail (capacitor failures, kernel panics, micro-soldering).
-
-**REPLICATE:** For similar competitive gaps—research competitor messaging, identify what they DON'T mention (pricing, warranty, local access), then build narrative around ZA Support's actual strengths. Business/B2B angles outperform consumer repair messaging for corporate search intent.`,
+\`\`\``,
   },
   'mac-virus-removal-johannesburg': {
     slug: 'mac-virus-removal-johannesburg',
@@ -22353,17 +22132,7 @@ It's risky. You can't inspect a machine remotely, and sellers' descriptions are 
 
 ---
 
-**Ready to buy with confidence?** WhatsApp us on **064 529 5863** or book your second hand Mac check at **[zasupport.com/book](https://zasupport.com/book)**. We're in Hyde Park, serving Johannesburg and surrounding areas.
-
----
-
-**LEARNED:** Second-hand Mac assessment is high-intent local search with clear purchase decision gateway. Geographic + pricing specificity (R599, R4,000–R7,000 component costs, ZAR context) drives trust more than generic technical content. Competitor gap suggests no local workshop has published detailed assessment procedures + pricing + Johannesburg suburbs combined.
-
-**BETTER:** Embedded three internal links naturally (logic-board-repair, liquid-damage, contact path via WhatsApp + /book). Structured FAQs to capture "how long", "what if problems", "warranty" long-tails. First-person workshop voice ("we've assessed hundreds") + specific technical depth (battery cycles, thermal paste, GPU failure patterns) establishes E-E-A-T. Avoided all "free" language; anchored all service entry points at from R599.
-
-**WHY:** Post targets buyer uncertainty at point of purchase (second-hand context) + local Johannesburg/Gauteng service radius. Detailed procedures (what we check) + real problems found (battery, thermal, water) + pricing anchors + warranty terms reduce friction. FAQPage schema captures voice search variants. No fabricated statistics — competitor gap and task briefing confirm content gap, not market data gap.
-
-**REPLICATE:** For future assessment/pre-purchase content: (1) lead with decision-gate uncertainty (2) detail exact process/checklist (3) name real problems found in local climate/usage patterns (4) anchor all services at R-pricing (5) include warranty/guarantee terms (6) embed service booking path 3+ times (7) FAQPage for long-tail question clustering.`,
+**Ready to buy with confidence?** WhatsApp us on **064 529 5863** or book your second hand Mac check at **[zasupport.com/book](https://zasupport.com/book)**. We're in Hyde Park, serving Johannesburg and surrounding areas.`,
   },
   'carepoint-macbook-support-johannesburg': {
     slug: 'carepoint-macbook-support-johannesburg',
@@ -22983,15 +22752,7 @@ It depends on the machine's value and your attachment to it. A 2015 MacBook Pro 
 ✓ WhatsApp: 064 529 5863 | Booking: zasupport.com/book
 ✓ UK English (favour, organisation, etc.)
 ✓ E-E-A-T signals: first-person workshop experience, specific component names (LP8550), precise procedures, Johannesburg suburbs, ZAR pricing
-✓ Markdown only
-
-**LEARNED:** Backlight IC content performs strongly when anchored to specific component (LP8550) + local workshop credibility + alternative cost comparison (Apple R8k–R14k vs our R1.8k–R2.4k). Diagnostic cost (R599 credited) reduces friction.
-
-**BETTER:** Added symptom differentiation table to prevent non-IC repairs reaching workshop. Expanded step-by-step process to justify 3–5 hour timeline and reduce perceived uncertainty.
-
-**WHY SUCCESS:** Model-specific coverage (2013–2021) + liquid damage connection + warranty transparency + WhatsApp/booking CTAs on second mention = higher conversion intent signals.
-
-**REPLICATE:** For future repair posts: diagnostic cost upfront → credited model → specific component ICs/codes → step-by-step process → cost vs Apple comparison → warranty statement → 6 FAQs with schema.`,
+✓ Markdown only`,
   },
   'macbook-display-cable-repair-johannesburg': {
     slug: 'macbook-display-cable-repair-johannesburg',
@@ -23370,15 +23131,7 @@ A: We do not recommend this. PMIC replacement requires a rework station (BGA/mic
 - All keywords: Hyde Park, R599 assessment, R warranty, From R599 assessment ✓
 - Gauteng suburbs only (Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria) ✓
 - UK English throughout ✓
-- WhatsApp CTA + booking link ✓
-
-**LEARNED:** PMIC repair is highly technical; audience needs reassurance via specificity (exact prices, warranty duration, rework vs. replacement distinction). First-person workshop tone ("we have observed", "in our Hyde Park workshop") builds credibility without hype.
-
-**BETTER:** Structured diagnostic flow (visual → electrical → thermal) mirrors actual workshop methodology. Symptom list precedes diagnosis to match user search intent. FAQ addresses cost-benefit and DIY temptation—common customer objections.
-
-**WHY SUCCESS:** Post addresses intent (how to fix PMIC), provides actionable next step (book R599 assessment), includes long-tail variants (PMIC failure symptoms, repair cost, SMC reset), and anchors location credibility. JSON-LD schema enhances SERP visibility for FAQ snippets.
-
-**REPLICATE:** Use exact technical procedures (SMC reset steps, voltage rails, solder joint inspection) + local pricing + warranty guarantees. Structure as diagnosis → repair options → prevention → FAQs. Always verify parts availability claim with inventory before publishing.`,
+- WhatsApp CTA + booking link ✓`,
   },
   'medical-practice-managed-it-morningside': {
     slug: 'medical-practice-managed-it-morningside',
@@ -23992,17 +23745,7 @@ We're open Monday to Friday, 08:00–17:00, and Saturday 09:00–14:00. For more
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** Liquid damage repair posts require immediate-action framing (first 4–6 hours critical) + specific technical mechanisms (corrosion vs. electrical shorts) + workshop evidence (common scenarios in northern Johannesburg) to build credibility. Geographic specificity (Fourways, load shedding context, humidity patterns) drives local search relevance without fabrication.
-
-**BETTER:** Included failure-mode prevention section (DIY mistakes, drying myths) to establish authority through negative space. Tiered pricing language (R2,800–R12,000) signals realism vs. generic "affordable" claims. From R599 assessment + up to 3-year warranty are trust signals verified in brand guidelines.
-
-**WHY:** Post hits 1,428 words (within 1,200–1,500 tier). H1 + 4 H2s cover primary + long-tail variants (board recovery, assessment, DIY failures, cost). 3 internal links + 1 external (Apple Support implied via "MacBook's protective shutdown" context). 6 FAQs + JSON-LD schema complete structure. WhatsApp CTA + booking link embedded naturally. UK English throughout.
-
-**REPLICATE:** For service-area repair posts: (1) open with emotional acknowledgement + data (5-year workshop pattern); (2) explain failure mechanisms before solutions; (3) debunk DIY myths as authority signal; (4) geographic anchoring to northern Gauteng suburbs only; (5) tiered pricing with assessment entry point; (6) warranty/guarantee as trust closure. Avoid: "R599 diagnostic assessment", "best in JNB", fabricated competitor comparisons, Western Cape/other province references.`,
+\`\`\``,
   },
   'managed-it-services-medical-practice-gauteng': {
     slug: 'managed-it-services-medical-practice-gauteng',
@@ -25247,17 +24990,7 @@ Ring us on 064 529 5863 to arrange same-day pickup, or drop it at our Hyde Park 
     }
   ]
 }
-\`\`\`
-
----
-
-**LEARNED:** Liquid damage blog posts require specific technical depth (component names, micro-soldering detail, actual timelines) to build trust. Generic "we fix water damage" content ranks poorly. Mentioning Midrand + same-day triage + specific cost ranges (R599, R2,500–R4,000) signals real workshop experience and beats competitor vagueness.
-
-**BETTER:** Added thermal imaging detail, battery safety mention, and data extraction fact—these are questions customers ask but rarely see answered. Included load shedding context (Johannesburg-specific) to show local knowledge.
-
-**WHY SUCCESS:** 1,450 words, 4 H2 subheadings, 3 internal links (/logic-board-repair, /liquid-damage, /contact implicit in booking CTA), 1 external (Apple Support implied via "Apple's standard approach"), 6 FAQs with JSON-LD schema, WhatsApp CTA (064 529 5863), booking link, UK English, Midrand + Hyde Park geography verified within 60km Gauteng, no banned phrases ("from R599 assessment" correct), no hype language, E-E-A-T signals throughout (first-person workshop experience, specific component names, exact procedures, ZAR pricing, POPIA-adjacent data safety mention).
-
-**REPLICATE:** For all repair blog posts: (1) Open with real customer scenario + emotional hook, (2) Explain *why* speed matters with technical detail, (3) Break down your actual process step-by-step, (4) Call out specific components + real costs, (5) Add local climate/infrastructure context, (6) Warranty + No Fix No Fee near end, (7) FAQs answer "what if" scenarios customers ask, (8) JSON-LD validates for Google.`,
+\`\`\``,
   },
   'logic-board-repair-melrose': {
     slug: 'logic-board-repair-melrose',
@@ -25443,11 +25176,7 @@ For more on liquid damage repair, see our guide on [liquid damage recovery](/liq
 
 ---
 
-**Word count (body text):** 1,447 words | **Internal links:** 3 | **External link:** [Apple Diagnostics](https://support.apple.com/en-za/HT202731) | **Geographic scope:** Melrose, Hyde Park, Johannesburg, Gauteng | **Warranty phrase:** Up to 3-year warranty ✓ | **No Fix No Fee:** Included ✓ | **Assessment price:** from R599 ✓ | **WhatsApp CTA:** 064 529 5863 ✓ | **Booking link:** zasupport.com/book ✓
-
----
-
-**LEARNED:** Logic board repair content requires concrete pricing (R1,200–R4,500 range) and component-specific examples (power management IC, GPU, memory) to signal E-E-A-T. Melrose residents respond to proximity (5 minutes from Hyde Park) and load shedding context (specific to Johannesburg). FAQs covering repair time, data safety, and warranty scope address intent-driven search queries better than general troubleshooting. | **BETTER:** Included "hot air rework vs. micro-soldering" distinction—technical detail that separates competent technicians from DIY guides. Avoided "Assessment from R599" (§226 violation). Used R currency throughout and Gauteng suburbs only (Melrose, Sandton, Bryanston, Rosebank). | **WHY:** Success: keyword "Logic Board Repair Melrose" appears in H1 + H2s; 1,447 words meets 1,200–1,500 tier; JSON-LD FAQPage schema supports rich snippets; 3-year warranty + No Fix No Fee + from R599 assessment satisfy trust signals. | **REPLICATE:** Use R pricing ranges tied to complexity; cite component names (power IC, GPU) instead of generic "motherboard"; reference load shedding + humidity as Johannesburg-specific risk factors; always include booking link + WhatsApp number in CTA; validate markdown structure before output.`,
+**Word count (body text):** 1,447 words | **Internal links:** 3 | **External link:** [Apple Diagnostics](https://support.apple.com/en-za/HT202731) | **Geographic scope:** Melrose, Hyde Park, Johannesburg, Gauteng | **Warranty phrase:** Up to 3-year warranty ✓ | **No Fix No Fee:** Included ✓ | **Assessment price:** from R599 ✓ | **WhatsApp CTA:** 064 529 5863 ✓ | **Booking link:** zasupport.com/book ✓`,
   },
   'macbook-ram-upgrade-johannesburg': {
     slug: 'macbook-ram-upgrade-johannesburg',
@@ -26650,21 +26379,7 @@ Every repair includes a 12-month warranty on parts and labour. If the same compo
 
 **Book your assessment today.**
 WhatsApp: **064 529 5863**  
-Online: **zasupport.com/book**
-
----
-
-## LEARNED:[Word count 1447 | Verified UK English (seatbelts, behaviour, colour, honour patterns) | Integrated all hard constraints: R599 assessment, No Fix No Fee, 12-month warranty, 3-year option, geographic boundaries (Rosebank, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria—all within 60km Gauteng) | Four H2 subheadings naturally covering component repair, process, pricing, and service area | Six FAQs with logical progression (timeline, warranty, data recovery, repair types, liquid damage, warranty detail) | FAQPage JSON-LD schema validated | Internal links to /logic-board-repair/, /liquid-damage/, /contact/ embedded naturally | External link to Apple Support standards referenced implicitly; iFixit pattern established | WhatsApp + booking URL included | Avoided banned phrases entirely]
-
-| BETTER:[Sentence rhythm varied (simple + complex + compound throughout first 8 paragraphs) | First-person workshop authority "we've identified", "we've received" | Specific ZAR pricing ladder (R599 → R4499 → R6499–R8999 → R12000–R14000) | Load-shedding context ties Johannesburg geography to actual customer pain | Component names technical (BGA, USB-C power controller, audio codec) without jargon explanation | Word count tier 3 (repair/competitive): 1447 words meets 1200–1500 range]
-
-| WHY:[Success factors: (1) Research data (component-level from R4499, 12-month warranty) integrated as anchor pricing; (2) Geographic constraints applied surgical precision—zero mention of provinces outside Gauteng, zero banned phrases; (3) FAQ structure validates E-E-A-T (expertise shown in diagnostics detail, experience shown in failure mode inventory, authoritativeness shown in warranty & certification claims); (4) JSON-LD ensures search visibility for "Logic Board Repair Rosebank" featured snippets; (5) Internal link anchors (/liquid-damage/ + /logic-board-repair/) create topical cluster signals; (6) UK spelling applied consistently (authorised, optimised pattern)]
-
-| REPLICATE:[For future posts: (1) Always verify hard constraints before writing (banned phrases, geographic bounds, pricing anchors) in checklist format; (2) Tier word count by repair complexity (troubleshooting < informational < competitive/repair); (3) Open with device metaphor or failure narrative (e.g. "central nervous system") to establish authority immediately; (4) Build FAQ progression logically (time → warranty → data → repair types → damage scenario → warranty detail); (5) Integrate pricing ladder in body text before FAQ section; (6) Run UK spelling pass (authorised, colour, favour, travelled) before final output; (7) Validate JSON-LD schema syntax in fenced block with 6 matching Q&A pairs]
-
----
-
-**Output verified.** File ready for deployment to zasupport.com/blog/logic-board-repair-rosebank. Slug: \`logic-board-repair-rosebank\`. Frontmatter should include: \`keywords: Logic Board Repair Rosebank, Apple Logic Board Repair Johannesburg, iPhone Logic Board Repair, MacBook Logic Board Repair\` | \`canonical: https://zasupport.com/blog/logic-board-repair-rosebank\` | \`internal_links: 3\` | \`external_links: 1\` | \`word_count: 1447\`.`,
+Online: **zasupport.com/book**`,
   },
   'macbook-air-m2-board-repair-johannesburg': {
     slug: 'macbook-air-m2-board-repair-johannesburg',
@@ -26851,11 +26566,7 @@ Yes. All component-level repairs carry a three-year parts warranty and a six-mon
 
 WhatsApp: 064 529 5863  
 Book assessment: zasupport.com/book  
-Location: Hyde Park, Johannesburg (serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria)
-
----
-
-## LEARNED:[M2 board diagnostics require 8-step verification process; customers from outer suburbs (Centurion/Midrand) seek specialist repair to avoid Apple's standardised replacement model] | BETTER:[Used first-person workshop voice ("We have documented", "We have seen") to establish E-E-A-T; grounded pricing in actual component costs (TPS65130 IC failure pattern); tied load-shedding context to UPS investment as credibility signal] | WHY:[E-E-A-T signals are earned through specificity (TPS65130 buck converter, 18 power rails, 40x magnification inspection) not claims; geographic restriction enforces expertise credibility; repair cost vs Apple cost comparison naturally justifies page authority] | REPLICATE:[Lead with diagnostic process, not repair outcome; reference specific component failures documented in workshop data; tie local context (load-shedding, distances, suburbs) to service differentiation; structure FAQs around risk mitigation (warranty, data recovery, no-fix-no-fee)]`,
+Location: Hyde Park, Johannesburg (serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria)`,
   },
   'macbook-firmware-restore-johannesburg': {
     slug: 'macbook-firmware-restore-johannesburg',
@@ -27050,11 +26761,7 @@ If your Mac won't boot and you've exhausted standard recovery options, firmware 
     }
   ]
 }
-\`\`\`
-
----
-
-## LEARNED: [Firmware restoration is a technical-depth topic requiring precise hardware distinction—readers need to understand DFU mode and why DIY fails without becoming overwhelmed by jargon.] | BETTER: [Used workshop experience ("We've seen...") to ground technical detail in real scenarios; differentiated firmware from OS reinstallation early with concrete consequences; structured diagnosis section so readers self-identify their need.] | WHY: [E-E-A-T signals (experience, expertise, authority) perform better on high-intent technical queries; Johannesburg context (load shedding, liquid damage in specific suburbs) increases relevance; "No Fix No Fee" and warranty specifics reduce trust barriers for price-sensitive audiences.] | REPLICATE: [When writing firmware/BIOS/low-level repair content: always open with workshop scenario; define the technical concept vs. its simpler cousin early; structure diagnosis as self-assessment; include failure modes we've seen; close with specific local context and warranty details.]`,
+\`\`\``,
   },
   'macbook-wifi-card-repair-johannesburg': {
     slug: 'macbook-wifi-card-repair-johannesburg',
@@ -27747,11 +27454,7 @@ Your Apple device's logic board is repairable when you act quickly. We serve Cen
 
 Contact us via WhatsApp: **064 529 5863**  
 Book online: **zasupport.com/book**  
-From R599 assessment | No Fix No Fee | Up to 3-year warranty
-
----
-
-**LEARNED:** Logic board repair commands strong search intent in tier-2 metros (Centurion, Midrand) when paired with geographic specificity and component pricing. E-E-A-T signals (workshop experience, specific technical detail, warranty specificity) outperform generic competitor content. | **BETTER:** Integrated liquid damage cross-link naturally within failure modes section; avoided "R599 diagnostic" 3 times; grounded all claims in observable workshop patterns (corrosion progression, DIY failure modes). | **WHY:** Geographic competitors rank on location + service name only; this post anchors credibility via technical depth (260°C reflow temp, voltage measurement, encryption processor restrictions) + warranty differentiation (3-year vs industry standard none) + No Fix No Fee positioning. | **REPLICATE:** [1] Research seed_pool for component pricing + warranty patterns [2] Map failure modes to observable customer behaviours (liquid exposure → corrosion → cascading IC failure) [3] Contrast with DIY harm (two failed boards scenario) to justify professional cost [4] Hyperlink internal services at natural context points, not forced [5] FAQ answers answer intent (cost comparison, timeline, warranty scope) not brand promotion [6] Validate against ZA Support brand voice: first-person workshop authority, UK English, R currency, Gauteng geography only`,
+From R599 assessment | No Fix No Fee | Up to 3-year warranty`,
   },
   'macbook-pro-m2-board-repair-johannesburg': {
     slug: 'macbook-pro-m2-board-repair-johannesburg',
@@ -27858,68 +27561,7 @@ Usually, yes. The storage on an M2 (the SSD) is separate from the logic board. E
 The M2 board has components packed tightly, with power delivery circuits distributed across the entire surface. Liquid finds pathways between components and causes corrosion. Unlike older MacBooks with larger component spacing, there's little margin for error. Immediate power-off and professional cleaning within 24 hours are essential.
 
 ### Q: Is it worth repairing an M2 board if my MacBook is four years old?
-Generally, yes. M2 MacBook Pros are still actively used and hold resale value (R25,000–R40,000 depending on specs). A R5,000 repair keeps a R35,000 machine functional. Compare that to replacement: a new M4 is R70,000+. Repair is the sensible choice unless the machine is physically damaged in multiple areas.
-
----
-
-## FAQ Schema (JSON-LD)
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does M2 board repair take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In our Hyde Park workshop, most board repairs take 5–7 working days once parts arrive. Power delivery repairs (charging issues) are usually faster—3–4 days—because components are in stock. Liquid damage repairs may take longer if corrosion has spread to secondary circuits."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is M2 board repair covered by AppleCare+?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. AppleCare+ covers accidental damage (liquid, drops) with a R3,000 deductible, and hardware failures with a R2,500 deductible. Logic board failures are usually classified as hardware failures, so you'd pay R2,500 to Apple for a R32,000 replacement. Our repair at R4,000–R7,000 is often cheaper than the AppleCare deductible alone, and you keep your machine."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the warranty on your repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All board repairs carry a 3-year warranty on the repaired component. If the same fault returns within three years, we repair it free under our No Fix No Fee guarantee. This covers parts, labour, and diagnostics."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you recover my data if the board is damaged?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Usually, yes. The storage on an M2 (the SSD) is separate from the logic board. Even if the board is non-functional, we can often recover your drive and extract data. This costs R1,200–R2,500 depending on complexity. We'll assess during your initial diagnosis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why does liquid damage happen so easily on M2 boards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The M2 board has components packed tightly, with power delivery circuits distributed across the entire surface. Liquid finds pathways between components and causes corrosion. Unlike older MacBooks with larger component spacing, there's little margin for error. Immediate power-off and professional cleaning within 24 hours are essential."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it worth repairing an M2 board if my MacBook is four years old?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally, yes. M2 MacBook Pros are still actively used and hold resale value (R25,000–R40,000 depending on specs). A R5,000 repair keeps a R35,000 machine functional. Compare that to replacement: a new M4 is R70,000+. Repair is the sensible choice unless the machine is physically damaged in multiple areas."
-      }
-    }
-  ]
-}
-\`\`\``,
+Generally, yes. M2 MacBook Pros are still actively used and hold resale value (R25,000–R40,000 depending on specs). A R5,000 repair keeps a R35,000 machine functional. Compare that to replacement: a new M4 is R70,000+. Repair is the sensible choice unless the machine is physically damaged in multiple areas.`,
   },
 };
 
@@ -28021,11 +27663,14 @@ function processInlineMarkdown(text: string, keyPrefix: string): React.ReactNode
   return parts.length === 1 && typeof parts[0] === 'string' ? parts[0] : <>{parts}</>;
 }
 
-function renderContent(content: string) {
+function renderContent(content: string, excerpt?: string) {
   const lines = content.split('\n');
   const elements: React.ReactNode[] = [];
   let i = 0;
   let inCodeBlock = false;
+  const normalise = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const excerptNorm = excerpt ? normalise(excerpt) : '';
+  let ledeChecked = !excerptNorm;
   while (i < lines.length) {
     const line = lines[i];
     if (line.startsWith('```')) {
@@ -28063,6 +27708,18 @@ function renderContent(content: string) {
     } else if (line.trim() === '') {
       // skip empty lines
     } else {
+      if (!ledeChecked && elements.length === 0) {
+        ledeChecked = true;
+        const lineNorm = normalise(line);
+        if (
+          lineNorm === excerptNorm ||
+          lineNorm.startsWith(excerptNorm) ||
+          excerptNorm.startsWith(lineNorm)
+        ) {
+          i++;
+          continue;
+        }
+      }
       elements.push(<p key={i} className="text-[#7A9E98] leading-relaxed mb-4">{processInlineMarkdown(line, `p-${i}`)}</p>);
     }
     i++;
@@ -29184,7 +28841,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="glass-card p-8 lg:p-12">
             <article className="prose-custom">
-              {renderContent(post.content)}
+              {renderContent(post.content, post.excerpt)}
             </article>
             <AuthorBox authorSlug={getAuthorSlug(post.author)} />
           </div>
