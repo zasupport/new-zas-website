@@ -28098,7 +28098,7 @@ Load shedding causes power surges when electricity is restored. These surges ove
 - ✓ UK English throughout
 - ✓ First-person workshop voice ("We have seen", "In our Hyde Park workshop")
 - ✓ Technical specificity (PMIC, mosfet, thermal imaging, isopropyl alcohol protocol)
-- ✓ No banned phrases ("free assessment" → "from R599 assessment")
+- ✓ No banned phrases ("Assessment from R599" → "from R599 assessment")
 
 ---
 
