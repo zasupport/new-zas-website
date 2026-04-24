@@ -4,6 +4,7 @@ import { Phone, ArrowRight, Monitor, Shield, BarChart, Headphones, Laptop } from
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -120,6 +121,9 @@ export default function ManagedServicesPage() {
                 </Link>
               </div>
             ))}
+          </div>
+          <div className="mt-10">
+            <PricingNote />
           </div>
         </div>
       </section>

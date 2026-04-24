@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, Activity, Wrench, HardDrive, Wifi, Laptop, Building2, MessageCircle, Cpu } from 'lucide-react';
+import PricingNote from '@/components/PricingNote';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -344,6 +345,9 @@ export default function ServicesPage() {
                 </Link>
               );
             })}
+          </div>
+          <div className="mt-10">
+            <PricingNote />
           </div>
         </div>
       </section>

@@ -7,6 +7,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
+import PricingNote from '@/components/PricingNote';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -294,6 +295,9 @@ export default function LiquidDamagePage() {
               <p className="text-[#7A9E98] text-xs mt-3">
                 Assessment: from R599 on all liquid damage repairs.
               </p>
+              <div className="mt-4">
+                <PricingNote variant="inline" />
+              </div>
             </div>
           </div>
         </div>
