@@ -508,5 +508,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/liquid-damage-macbook-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/logic-board-repair-centurion`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pro-m2-board-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/logic-board-repair-fourways`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/logic-board-repair-midrand`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/logic-board-repair-rivonia`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-battery-replacement-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
