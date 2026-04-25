@@ -27690,8 +27690,7 @@ Logic board repair requires specialised equipment (reflow ovens, thermal cameras
 Contact ZA Support via WhatsApp: **064 529 5863** or book online at **zasupport.com/book**
 
 We're located in Hyde Park, serving Fourways, Sandton, Bryanston, Morningside, Midrand, and surrounding Gauteng suburbs.
-
-LEARNED:[Logic board diagnostics demand precision equipment + extended testing cycles—customers underestimate complexity, which justifies pricing transparency] | BETTER:[Use technical specificity (capacitor ESR values, BGA terminology) without jargon—ground abstract concepts in workshop observation ("We see this constantly")] | WHY:[E-E-A-T signals multiply when expertise is grounded in local context + transparent cost breakdown builds trust over hype] | REPLICATE:[Lead with first-person workshop experience; cite exact components, measurements, and ZAR prices; reference local geography (load shedding, Johannesburg climate); close all FAQs with actionable next steps]`,
+`,
   },
   'logic-board-repair-midrand': {
     slug: 'logic-board-repair-midrand',
@@ -27890,16 +27889,7 @@ Costs vary widely: iPhone logic board repair averages R1,500–R3,500; MacBook A
 ---
 
 **Need logic board diagnostics?** WhatsApp **064 529 5863** or book at **zasupport.com/book**. We're in Hyde Park, serving Midrand, Sandton, and all of Gauteng's tech corridor.
-
----
-
-**LEARNED:** Logic board repair content requires transparency on cost variability, early intervention messaging for liquid damage, and Johannesburg-specific context (load shedding, power surges). E-E-A-T signals strengthened by: workshop experience ("we've seen"), specific component names (VRM, BGA, capacitors), precise pricing (R599 assessment), measurable warranty (3-year), and genuine policy (No Fix No Fee). Avoided sales language entirely; replaced "free" with "from R599".
-
-**BETTER:** Structured workflow section (assessment → planning → repair → testing → warranty) provides confidence over vague promises. FAQ answers numbered component costs concretely. Mention of known Apple defects (2016–2019 keyboards, M1 issues) adds authority. Load shedding context unique to Johannesburg.
-
-**WHY:** Success signals: geographic precision (Midrand service area defined), all BANNED PHRASES replaced, internal links natural (liquid-damage, logic-board-repair, contact), external reference (Apple Service Toolkit), word count 1,487 words (within tier), FAQPage schema valid, UK English throughout, no hype.
-
-**REPLICATE:** Always ground repair posts in local infrastructure (load shedding), use oscilloscope/thermal camera detail, separate component repair from replacement with cost delta, include "No Fix No Fee" + warranty terms explicitly, reference known device defects, structure workflow transparently, end with precise contact CTA.`,
+`,
   },
   'logic-board-repair-rivonia': {
     slug: 'logic-board-repair-rivonia',
@@ -28080,35 +28070,7 @@ Load shedding causes power surges when electricity is restored. These surges ove
 ---
 
 **Need help now?** WhatsApp us on **064 529 5863** or [book your assessment online](https://zasupport.com/book). ZA Support is open Monday to Friday, 08:00–17:00, based in Hyde Park, Johannesburg. We serve Rivonia, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. **No Fix No Fee** on diagnostics—you only pay if you approve repair.
-
----
-
-**VERIFIED OUTPUT:**
-- ✓ Word count: 1,447 (body text, excluding H1, FAQs, JSON)
-- ✓ H1 present with primary keyword
-- ✓ 4 H2 subheadings with long-tail coverage
-- ✓ Geographic anchors: Hyde Park, Rivonia, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion (all within 60km Gauteng)
-- ✓ Service pricing: from R599 assessment, R1,200–R3,500 repair, 3-year warranty, No Fix No Fee
-- ✓ Internal links: /logic-board-repair, /liquid-damage, /contact
-- ✓ External link: Apple Support (implied in FAQ), iFixit-style technical depth
-- ✓ 6 FAQs with answers
-- ✓ FAQPage JSON-LD schema
-- ✓ WhatsApp CTA: 064 529 5863
-- ✓ Booking CTA: zasupport.com/book
-- ✓ UK English throughout
-- ✓ First-person workshop voice ("We have seen", "In our Hyde Park workshop")
-- ✓ Technical specificity (PMIC, mosfet, thermal imaging, isopropyl alcohol protocol)
-- ✓ No banned phrases ("Assessment from R599" → "from R599 assessment")
-
----
-
-**LEARNED:** Component-level logic board repair narrative resonates stronger than replacement-only messaging. Specific technical procedures (PMIC identification, load testing duration, isopropyl cleaning) build credibility.
-
-**BETTER:** Integrated load shedding context into PMIC failure explanation (geographic + technical relevance for Johannesburg). Added financial comparison (R1,200–R3,500 vs. R12,000+ new device) to answer cost objection early.
-
-**WHY:** Research shows repair-focused content ranks for long-tail keywords ("PMIC repair", "logic board assessment cost"). First-person workshop detail and Gauteng geographic specificity satisfy E-E-A-T for local search. FAQ schema improves featured snippet odds.
-
-**REPLICATE:** Open with specific fault symptoms (won't power on, won't charge, kernel panic). Lead with diagnosis cost (R599) before quoting repair. Use load shedding as Johannesburg-specific pain point. Close with WhatsApp + booking links on same paragraph for frictionless CTA.`,
+`,
   },
   'macbook-battery-replacement-rosebank': {
     slug: 'macbook-battery-replacement-rosebank',
@@ -28291,10 +28253,7 @@ Yes. We calibrate the battery in-house (one full charge cycle), so it's ready fo
 **Ready to book your MacBook battery replacement in Rosebank?**
 
 WhatsApp us on **064 529 5863** or visit **zasupport.com/book**. Same-day service available. From R599 assessment—no guessing, no unnecessary parts.
-
----
-
-**LEARNED:** [Johannesburg temperature/humidity context significantly impacts battery degradation rates; genuine differentiation vs. national repair chains requires first-person workshop data, not generic advice] | **BETTER:** [Included specific failure modes observed in-house (SMC faults, port issues mimicking battery failure), load shedding impact, and comparative cost-benefit of DIY vs. professional replacement] | **WHY:** [E-E-A-T signals—experience, expertise, authoritativeness, trustworthiness—strongest when grounded in local climate, operational constraints, and direct observation rather than manufacturer specs] | **REPLICATE:** [For all repair posts: quantify failure rates from workshop observation, reference seasonal patterns specific to Johannesburg, include diagnostic flow chart showing false-positive scenarios, provide itemised pricing with warranty tiers]`,
+`,
   },
   'logic-board-repair-morningside': {
     slug: 'logic-board-repair-morningside',
@@ -28452,8 +28411,7 @@ Yes. We offer up to a three-year warranty depending on repair type and device mo
 ---
 
 **Contact ZA Support today for logic board repair in Morningside and across Johannesburg. WhatsApp 064 529 5863 or book at zasupport.com/book. From R599 assessment. Up to three-year warranty. No Fix No Fee.**
-
-LEARNED: [Logic board repair content requires specific technical detail (BGA, reflow temps, component costs) + geographic specificity (Morningside Medical Precinct placement, 8km distance from Hyde Park) + pricing transparency (R599 assessment, R1,800–R6,500 repair range) to signal E-E-A-T. Research data on BGA reflow + trace repair + Morningside precinct integrated naturally without fabrication.] | BETTER: [Avoided sales language ("Assessment from R599" → "from R599 assessment"), maintained UK English (recognised → recognized), used first-person workshop voice ("we've seen", "we've invested"), embedded internal links contextually (/logic-board-repair, /liquid-damage, /contact implied in booking), included No Fix No Fee trust signal.] | WHY: [Technical specificity (R120,000 equipment cost, ±2°C precision reflow, 20× microscope minimum) differentiates from competitors lacking workshop infrastructure. Geographic anchoring (Morningside Medical Precinct, 8km from Hyde Park, 12-minute drive) addresses local search intent. Three-year warranty + warranty scope clarity (covers same fault recurrence, excludes new faults) reduces buyer risk and frames professional service.] | REPLICATE: [For future repair blog posts: (1) source specific component costs + equipment specs from workshop invoicing, (2) anchor geography to 60km Gauteng suburbs with distance/drive-time data, (3) include assessment cost + repair range + warranty scope in one section, (4) separate technical methods (BGA, trace, component replacement) with troubleshooting pathway, (5) FAQ structure must address DIY risk, warranty clarity, competitor differentiation, and common misconceptions.]`,
+`,
   },
   'macbook-clean-install-johannesburg': {
     slug: 'macbook-clean-install-johannesburg',
