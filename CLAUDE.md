@@ -82,3 +82,6 @@
 # §265 AUTO-COMPLETE BLOG+WEBSITE WORK (HARD — 12/04/2026): auto-execute blog/website tasks that need no Courtney input | blog posts, SEO fixes, schema, sitemap, 404s, self-heal | ∅ ask ∅ wait | global CLAUDE.md (full detail)
 # §263 WEEKLY KEYWORD STRATEGY (HARD — 11/04/2026): Saturday XLSX (exact format from ZA-Support-Keyword-Strategy-06042026.xlsx) + daily reminders until approved | global CLAUDE.md (full detail)
 # §262 END-TO-END PROOF GATE (HARD — 11/04/2026): EVERY build/update/pipeline MUST prove with real data that every stage works end-to-end | ∅ done without proof | extends §92+§233+§240+§247 | global CLAUDE.md (full detail)
+
+# §301 PARALLEL AGENT DISPATCH (HARD — 25/04/2026 v1.1 — DEFAULT N=20): "use N agents"|"in parallel" → runtime fan-out via concurrent Task subagents in ONE message | DEFAULT N=20 | global CLAUDE.md (full detail)
+# §300 BLOG IP ZERO-TOLERANCE (HARD — 25/04/2026): 5 blog posts had IP trailers (LEARNED/BETTER/WHY/REPLICATE/VERIFIED OUTPUT) — stripped + 4-layer gate chain installed (scanner ~/bin/za-blog-ip-zero-tolerance.sh + .git/hooks/pre-commit + LaunchAgent com.zasupport.blogipscanner + SKILL blog-ip-concealment) | global CLAUDE.md (full detail)
