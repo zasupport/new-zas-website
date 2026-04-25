@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'How to Recover Data from a Dead MacBook in 2026 | ZA Support',
@@ -564,13 +565,14 @@ export default function DataRecoveryGuidePage() {
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
               <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">No Fix No Fee</span> — You only pay in full if we recover your data.</p>
+              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">From R599 assessment</span> — Pricing confirmed after diagnosis on every recovery job.</p>
             </div>
             <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
               <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
               <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">12-Month Warranty</span> — On all board repairs performed during data recovery.</p>
             </div>
           </div>
+          <PricingNote />
         </div>
       </section>
 

@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Not Charging? 10 Steps to Fix It in 2026 | ZA Support',
@@ -232,6 +233,7 @@ export default function MacBookNotChargingGuidePage() {
           <p className="text-[#7A9E98] text-sm mt-6">
             All repairs are quoted after the R599 assessment. From R599 assessment applies — if we cannot fix it, you pay nothing beyond the assessment fee. Prices valid as of 2026 and subject to model-specific variation.
           </p>
+          <PricingNote />
         </div>
       </section>
 

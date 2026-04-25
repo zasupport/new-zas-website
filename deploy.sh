@@ -12,6 +12,10 @@ echo "$(date '+%d/%m/%Y %H:%M')"
 echo "→ Scanning blog page.tsx for scaffolding / FAQ-Schema leaks..."
 python3 scripts/scan-blog-leaks.py
 
+# 0.5 Pricing disclaimer audit (§287 + §244)
+echo "→ Auditing pricing pages for <PricingNote>..."
+bash "$HOME/bin/za-pricing-disclaimer-audit.sh" --check
+
 # 1. Type check
 echo "→ Type checking..."
 npx tsc --noEmit

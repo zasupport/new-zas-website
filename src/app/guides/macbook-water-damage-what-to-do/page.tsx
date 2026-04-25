@@ -6,6 +6,7 @@ import { buildFaqSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'Spilled Water on MacBook? Do This Immediately | 2026 Guide | ZA Support',
@@ -420,9 +421,10 @@ export default function MacBookWaterDamageGuidePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              <strong className="text-[#E8F4F1]">From R599 assessment.</strong> If we cannot repair your MacBook, the R599 assessment fee applies and the machine is returned exactly as received. No hidden costs. All repair pricing confirmed in a written quote before any work begins. Up-to-3 year warranty on all completed repairs.
+              <strong className="text-[#E8F4F1]">From R599 assessment.</strong> If we cannot repair your MacBook, the R599 assessment fee applies and the machine is returned exactly as received. All repair pricing confirmed in a written quote before any work begins. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
+          <PricingNote />
         </div>
       </section>
 

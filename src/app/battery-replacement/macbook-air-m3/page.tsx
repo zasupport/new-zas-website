@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M3 Battery Replacement Johannesburg 2026 | ZA Support',
@@ -152,7 +153,8 @@ export default function MacBookAirM3BatteryPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M3 Battery Failing? From R1,899.</h2>
             <p className="text-[#7A9E98] mb-6">Same-day replacement. Written warranty. Collection from Johannesburg suburbs.</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <PricingNote variant="inline" />
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
               <a href={buildWhatsAppUrl('BAT-MACBOOKAIRM3', 'battery')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote
               </a>
