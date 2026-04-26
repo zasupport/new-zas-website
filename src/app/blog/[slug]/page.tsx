@@ -9,6 +9,7 @@ import { AuthorBox } from '@/components/blog/AuthorBox';
 const posts: Record<string, {
   slug: string;
   title: string;
+  shortTitle?: string;
   excerpt: string;
   date: string;
   category: string;
@@ -29753,8 +29754,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = posts[slug];
   if (!post) return { title: 'Post Not Found' };
+  const serpTitle = post.shortTitle
+    ? `${post.shortTitle} | ZA Support`
+    : `${post.title.slice(0, 55)} | ZA Support`;
   return {
-    title: `${post.title} | ZA Support Blog`,
+    title: serpTitle,
     description: post.excerpt,
     alternates: { canonical: `https://zasupport.com/blog/${slug}` },
     openGraph: {
