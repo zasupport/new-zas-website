@@ -28580,6 +28580,166 @@ Yes. We offer selective restoration, where we keep your personal documents, phot
 }
 \`\`\``,
   },
+  'tim-cook-steps-down-john-ternus-apple-ceo-south-africa': {
+    slug: 'tim-cook-steps-down-john-ternus-apple-ceo-south-africa',
+    title: `Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for South African Users`,
+    excerpt: `**Breadcrumbs:** Home / Blog / News / Apple Leadership Change 2026.`,
+    date: '22 April 2026',
+    category: 'Repairs',
+    readTime: '11 min read',
+    author: 'courtney-bentley',
+    content: `# Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for South African Users
+
+**Breadcrumbs:** Home / Blog / News / Apple Leadership Change 2026
+
+*Published 22 April 2026 · Updated 22 April 2026 · By Courtney Bentley, Apple-certified technician, ZA Support*
+
+## Key Takeaways
+
+- Tim Cook is stepping down after 15 years as Apple CEO. John Ternus, previously senior vice president of Hardware Engineering, becomes Apple's 8th CEO on 1 September 2026. Cook stays on as executive chairman.
+- Under Cook, Apple's market capitalisation grew more than 1,000% to roughly US$4 trillion, and annual revenue grew from US$108 billion (FY2011) to US$416 billion (FY2025).
+- Ternus, 50, is a mechanical engineer by training (UPenn, 1997) and has spent 25 years at Apple. His teams led the MacBook Neo, iPhone Air, iPhone 17 lineup, and Apple Vision Pro hardware.
+- Johny Srouji becomes Apple's Chief Hardware Officer in an expanded role; Tom Marieb takes over Ternus's previous direct responsibilities.
+- For South African Apple users this is a continuity transition, not a reset. Device pricing, warranty terms, and local reseller policy are not affected in the short term.
+- The line we are watching from our Hyde Park workshop: whether a hardware-engineering CEO protects Mac and iPad repairability and longevity — which matters directly for every business running an Apple fleet in Johannesburg.
+
+## Table of Contents
+
+1. What Happened
+2. Who is John Ternus?
+3. Why is Tim Cook Stepping Down Now?
+4. What Challenges Does Ternus Inherit?
+5. What Does This Mean for South African Apple Users?
+6. What Does This Mean for Johannesburg Businesses?
+7. Will Apple's Repair and Warranty Policy Change?
+8. What Our Workshop Is Watching For
+9. FAQ
+
+## What Happened
+
+On Monday 20 April 2026, Apple announced that Tim Cook will step down as CEO on 31 August 2026 and that John Ternus, Apple's senior vice president of Hardware Engineering, becomes CEO on 1 September 2026. Cook will then move to executive chairman, continuing in an advisory and policy-engagement capacity.
+
+Arthur Levinson, who has been Apple's non-executive chairman for the past 15 years, becomes lead independent director on the same date. Ternus joins the Apple board.
+
+Apple also announced a hardware-side reshuffle behind Ternus. Johny Srouji (previously senior vice president of Hardware Technologies, famous for leading Apple Silicon) becomes Chief Hardware Officer in an expanded role. Tom Marieb takes over the direct hardware-engineering portfolio that Ternus previously held.
+
+This is the first Apple CEO transition since Cook took over from Steve Jobs in 2011. Ternus will be Apple's 8th CEO.
+
+## Who is John Ternus?
+
+John Ternus is 50 years old. He earned a Bachelor of Science in Mechanical Engineering from the University of Pennsylvania in 1997, where he also competed on the men's varsity swimming team.
+
+Before Apple, he worked at Virtual Research Systems, designing early virtual-reality headsets. He joined Apple in 2001 as a mechanical engineer on the product design team. His first project was the original Apple Cinema Display.
+
+His trajectory: 2001 joined as mechanical engineer; 2013 VP Hardware Engineering under Dan Riccio (AirPods, Mac, iPad); 2020 takes on iPhone hardware leadership; 2021 SVP Hardware Engineering and joins executive team; 1 September 2026 becomes CEO.
+
+His teams at Apple led development of the iPad, AirPods, Apple Vision Pro, iPhone 17 lineup, iPhone Air, and the recently launched MacBook Neo. He has been a recurring presenter at Apple events since 2018.
+
+Ternus is not well known outside the Apple-events circuit. He has not courted press. Industry observers describe him as low-ego, collaborative, and engineering-first. Morgan Stanley's analyst note after the announcement captured it: promoting Ternus signals that Apple's emphasis is going to remain "product at the centre of the flywheel".
+
+## Why is Tim Cook Stepping Down Now?
+
+Cook is 65, has been CEO for 15 years, and leaves Apple with a record that is difficult to overstate. Market capitalisation: from roughly US$350 billion in 2011 to US$4 trillion in 2026 — growth of more than 1,000%. Annual revenue from US$108 billion (FY2011) to US$416 billion (FY2025), nearly 4x. New product lines launched under his watch include Apple Watch, AirPods, Apple Vision Pro, the Apple Silicon transition for Mac, and Apple Intelligence.
+
+The messaging from Apple is a planned, long-term succession, not a crisis exit. Cook is not leaving Apple — he shifts to executive chairman, keeping the board-level and government-relations work while Ternus takes operational control. This is the pattern Apple used before: Jobs handed to Cook in 2011 in a similar way.
+
+The timing is also strategic. The handover happens before WWDC 2026 (June) and before the expected September iPhone 18 / iPhone Fold launch — giving Ternus a clean runway and a major hardware launch as his opening move.
+
+## What Challenges Does Ternus Inherit?
+
+Four open fronts, all with direct or indirect implications for South African users and the wider Apple repair economy.
+
+**Apple Intelligence and the Siri Problem.** The most urgent issue. Apple's AI strategy has slipped more than once. Apple's AI chief John Giannandrea is leaving the company this month. In the interim, Apple has turned to Google Gemini and OpenAI's ChatGPT to power parts of Apple Intelligence. For South Africa, Apple Intelligence rollout has been staged and limited. Ternus's decisions on whether to keep renting third-party models or invest harder in Apple's own silicon-based AI will shape what features actually land on South African iPhones, iPads, and Macs — and on what hardware generation.
+
+**The App Store Antitrust Fight.** The Epic Games litigation and the US DOJ 2024 smartphone monopoly case both remain active. Apple is preparing a Supreme Court petition on the Epic matter. The financial stakes are significant for Apple but limited for ordinary users. The operational stakes are bigger — if outcomes force sideloading, alternative payment rails, or interoperability with non-Apple smartwatches and messaging platforms, the iPhone experience changes in ways users will feel.
+
+**India and a US$38 Billion Fine.** India's competition regulator has found Apple guilty of abusing its position in the app market and has indicated a potential fine of around US$38 billion — roughly R700 billion at current rates. The case is complicated by Apple's relatively modest Indian market share (around 9%), which gives Apple grounds to contest the penalty size. For South African observers this matters as precedent — regulators in every mid-sized market are watching what India gets away with.
+
+**China Supply Chain Exposure.** Cook built Apple's manufacturing around China over two decades. That dependency is now both strategic and political. Apple has slowly moved parts of assembly to India and Vietnam, but the core of the iPhone still comes out of Chinese factories. Ternus inherits that position at a point where trade relationships are more volatile than at any time in Cook's tenure. Apple has explicitly signalled that Cook-as-executive-chairman will continue helping Ternus on this front.
+
+## What Does This Mean for South African Apple Users?
+
+For the person holding an iPhone or MacBook in Johannesburg, almost nothing changes on Day One. That is the whole point of how Apple has structured this transition.
+
+What stays the same: iPhone, iPad, MacBook, iMac, and Apple Watch pricing through the South African reseller network; the Core Group distribution model in South Africa and iStore retail footprint; Apple's warranty terms and service policy; AppleCare+ pricing and terms; iCloud, App Store, and Apple Music availability.
+
+What may shift over the next 12–18 months: Apple Intelligence availability on South African devices — this is the line item most directly in Ternus's lane, and decisions about which Apple silicon tiers get which AI features will shape upgrade advice for local clients; App Store rules — if US or EU litigation forces structural changes, those changes typically ripple to smaller markets including South Africa within a year or two; hardware release cadence — a hardware-engineering CEO may be more willing to ship longer-lived hardware platforms, which would lengthen the useful life of devices already on South African desks.
+
+## What Does This Mean for Johannesburg Businesses Running Apple Fleet?
+
+This is the question our enterprise clients in Sandton, Rosebank, Hyde Park, and Bryanston are asking today.
+
+A change at Apple's top is much less disruptive to a small or medium business running 15 to 150 Apple devices than a change at Microsoft or Google would be, because the platforms you rely on — macOS, iOS, iPadOS, Apple Business Manager, Apple Business Essentials, and MDM tooling such as JAMF or Kandji — are already stable and unlikely to have their commercial terms rewritten by an incoming CEO.
+
+Three practical implications worth planning around:
+
+1. MDM and Apple Business Manager are safe bets. If your practice, firm, or studio has been weighing a move to a managed Apple fleet, nothing in this announcement changes that calculation. Ternus's hardware-first posture if anything strengthens the Mac and iPad as serious productivity platforms.
+2. Do not panic-upgrade because of AI uncertainty. A working M1 MacBook Pro will still be a working M1 MacBook Pro in 18 months. Apple Intelligence support will arrive when it arrives; it is not worth replacing functional hardware on a rumour cycle.
+3. Treat the first Ternus iPhone carefully. Incoming CEOs get scrutiny on their first major launch. September's iPhone 18 Pro and expected iPhone Fold will be that moment. For business procurement, the safer rule is to wait one quarter after launch rather than being a day-one buyer — which is standard practice regardless of the CEO.
+
+In our Hyde Park workshop we see the downstream effect of every Apple design decision — repairability, component quality, logic-board serviceability, solder grade, adhesive strategy. A hardware-engineer CEO is a net positive on that axis.
+
+## Will Apple's Repair and Warranty Policy Change?
+
+Short version: not meaningfully, not soon.
+
+Apple's Self Service Repair programme, Independent Repair Provider programme, and the slow opening of parts and diagnostics have all been driven more by US and EU regulatory pressure (right-to-repair legislation) than by CEO preference. That pressure is not going away. If anything, a hardware-engineering CEO is likely to be more comfortable with granular repair policy than an operations-first CEO, because the failure modes and the repair economics are inside his professional experience.
+
+In our Hyde Park workshop we work every day with both out-of-warranty Macs (component-level logic board repair, liquid damage recovery, display assembly) and in-warranty devices (routed through the official channel). We do not expect the policy boundary between those two buckets to move sharply in the short term.
+
+## What Our Workshop Is Watching For
+
+Practical, not speculative. These are the specific signals we are tracking for our clients:
+
+- WWDC 2026 keynote (June 2026) — Cook's last major set piece, but Ternus will share the stage. Apple's AI strategy and the macOS/iOS roadmap will be the clearest guide to where Apple is going.
+- September 2026 iPhone launch — Ternus's first major reveal as incoming CEO. Widely expected to include iPhone 18 Pro, iPhone 18 Pro Max, and the first iPhone Fold.
+- Next MacBook Pro refresh cycle — whether repairability gains continue on the next silicon generation.
+- Apple Intelligence feature gating — which silicon tiers get which features, and how aggressively older hardware is cut off.
+- Any change to South African pricing relative to USD — sustained rand weakness plus any margin changes at Apple would show up here first.
+
+## FAQ
+
+### Who is the new Apple CEO?
+John Ternus, previously Apple's senior vice president of Hardware Engineering, becomes Apple's 8th CEO on 1 September 2026. Tim Cook moves to executive chairman.
+
+### When does John Ternus become Apple CEO?
+1 September 2026. Cook remains CEO through 31 August 2026 and then transitions to executive chairman.
+
+### How old is John Ternus?
+He is 50 years old. He was born in 1975 or 1976 and graduated with a degree in Mechanical Engineering from the University of Pennsylvania in 1997.
+
+### Will Apple device prices change in South Africa because of the new CEO?
+No pricing change is linked to the transition. South African Apple pricing is driven by the USD–ZAR exchange rate, import duties, and Core Group distribution margins — none of which move because of a CEO handover.
+
+### Should I delay buying a new MacBook or iPhone because of the leadership change?
+No. The transition is being managed for continuity. If you need a device now, buy now. The only reason to delay is if a new hardware generation is imminent — which is a product cycle question, not a CEO question.
+
+### Will Apple Intelligence finally arrive fully in South Africa under Ternus?
+This is the most likely policy shift. Ternus is a hardware engineer with a clearer view of AI rollout dependencies than his predecessor. Our expectation is a cleaner, better-communicated rollout plan within his first year, but no guaranteed acceleration of South African availability.
+
+### Does the leadership change affect my AppleCare or device warranty?
+No. AppleCare terms, standard warranty, and repair policy are contractual and unaffected by the CEO transition.
+
+### What is the MacBook Neo that Ternus is famous for?
+The MacBook Neo is a laptop line launched under Ternus's hardware engineering leadership, positioned to make the Mac experience more accessible to a broader user base. We will cover it in a dedicated post on zasupport.com/blog.
+
+---
+
+**Need Help Planning Your Apple Device Strategy?**
+
+We have been repairing and supporting Apple hardware in Johannesburg since 2009. If you are weighing an upgrade, planning a fleet refresh, or want a straight answer on whether to wait out the next Apple cycle, book an assessment.
+
+Workshop assessment from R599 · 064 529 5863 · [Book via WhatsApp](/whatsapp) · [Book online](/book)
+
+---
+
+**Related Reading**
+- [Who is John Ternus? The Engineer Taking Over at Apple](/blog/who-is-john-ternus-apple-ceo-engineer)
+- [Apple Intelligence in South Africa: What the New CEO Means for the Timeline](/blog/apple-intelligence-south-africa-timeline)
+- [What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet](/blog/apple-ceo-change-johannesburg-business-fleet)
+
+**Outbound authoritative source:** [Apple Newsroom — Tim Cook to Become Apple Executive Chairman, John Ternus to Become Apple CEO](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)`,
+  },
 };
 
 export async function generateStaticParams() {

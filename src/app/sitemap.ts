@@ -514,5 +514,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-battery-replacement-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/logic-board-repair-morningside`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-clean-install-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/tim-cook-steps-down-john-ternus-apple-ceo-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
