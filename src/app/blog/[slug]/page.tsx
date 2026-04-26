@@ -28740,6 +28740,155 @@ Workshop assessment from R599 · 064 529 5863 · [Book via WhatsApp](/whatsapp) 
 
 **Outbound authoritative source:** [Apple Newsroom — Tim Cook to Become Apple Executive Chairman, John Ternus to Become Apple CEO](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)`,
   },
+  'who-is-john-ternus-apple-ceo-engineer': {
+    slug: 'who-is-john-ternus-apple-ceo-engineer',
+    title: `Who is John Ternus? The Engineer Taking Over at Apple`,
+    excerpt: `**Breadcrumbs:** Home / Blog / News / Who is John Ternus.`,
+    date: '23 April 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# Who is John Ternus? The Engineer Taking Over at Apple
+
+**Breadcrumbs:** Home / Blog / News / Who is John Ternus
+
+*Published 23 April 2026 · By Courtney Bentley, Apple-certified technician, ZA Support Hyde Park*
+
+## Key Takeaways
+
+- John Ternus is Apple's 8th CEO, taking over from Tim Cook on 1 September 2026.
+- He is 50 years old, a mechanical engineer by training, and has spent 25 years at Apple.
+- He joined Apple in 2001 as a mechanical engineer on the product design team. His first project was the Apple Cinema Display.
+- His teams led the iPad, AirPods, Apple Vision Pro, iPhone 17 lineup, iPhone Air, and MacBook Neo.
+- He was a varsity swimmer at the University of Pennsylvania and designed a mechanical feeding arm for people with quadriplegia as his senior engineering project.
+- Morgan Stanley's read on his appointment: it signals that Apple's strategy will keep "product at the centre of the flywheel".
+
+## Table of Contents
+
+1. The Basics: Age, Background, Role
+2. University Years
+3. Early Career Before Apple
+4. 25 Years at Apple: A Timeline
+5. The Products Ternus Built
+6. What Kind of Leader is He?
+7. Why an Engineer as CEO Matters for You
+8. FAQ
+
+## The Basics
+
+- Full name: John Ternus
+- Age: 50 (born 1975 or 1976)
+- Nationality: American
+- Education: BSc Mechanical Engineering, University of Pennsylvania, 1997
+- Current role: Senior Vice President, Hardware Engineering, Apple Inc.
+- Next role: Chief Executive Officer, Apple Inc., effective 1 September 2026
+- Tenure at Apple: 25 years (since 2001)
+
+## University Years
+
+John Ternus studied mechanical engineering at the University of Pennsylvania, graduating in 1997. Two details from his student years are genuinely revealing about the person.
+
+He competed on the men's varsity swimming team. Endurance-sport discipline shows up in engineering managers differently than in pure marketers or financiers. Long training cycles, delayed gratification, and process discipline are common patterns.
+
+His senior engineering project was a mechanical feeding arm operable by people with quadriplegia, using head movements to control it. This is a meaningful choice of project. It is an assistive-technology problem solved with mechanical engineering — a direct foreshadowing of Apple's accessibility work, which has become a signature of the Cook era and has been extended under Ternus's hardware leadership with features like AirPods as over-the-counter hearing aids.
+
+When Ternus gave the commencement address at the Penn engineering school in 2024, he spoke candidly about imposter syndrome during his early days at Apple: "I wasn't sure I belonged there. The people I met were so smart and so confident, and they knew so much more than me, but I'll always be grateful that I wasn't afraid to ask for help when I needed it."
+
+## Early Career Before Apple
+
+After graduation Ternus joined Virtual Research Systems, an early virtual-reality hardware company, as a mechanical engineer designing VR headsets. This is worth noting. The VR work that Ternus did in the late 1990s — long before commercial VR was viable — is directly relevant to the product category that Apple bet on heavily in 2024 with the Apple Vision Pro. Ternus has been thinking about head-mounted displays for nearly 30 years.
+
+He joined Apple in 2001, at 25 years old, as a mechanical engineer on the product design team. His first project was the Apple Cinema Display — a flat-panel display line that Apple eventually merged into the Pro Display XDR product family.
+
+## 25 Years at Apple: A Timeline
+
+- 2001 — Joins Apple as mechanical engineer, product design team. First project: Apple Cinema Display.
+- 2013 — Appointed Vice President, Hardware Engineering under Dan Riccio. Takes over engineering for AirPods, Mac, and iPad.
+- 2018 onwards — Becomes regular presenter at WWDC and Apple Events (iMac Pro, Mac Pro, iPad Pro).
+- 2020 — Takes on iPhone hardware leadership (previously overseen directly by Riccio).
+- 2021 — Promoted to Senior Vice President, Hardware Engineering. Joins Apple's executive team.
+- 2024–2025 — Leads the MacBook Neo project and the iPhone 17 / iPhone Air hardware work.
+- 20 April 2026 — Apple announces Ternus as CEO-designate.
+- 1 September 2026 — Becomes CEO.
+
+## The Products Ternus Built
+
+iPad. Ternus led the hardware engineering for the iPad line under Riccio, including the redesigned 2018 iPad Pro and every generation since.
+
+AirPods. The entire AirPods line, from the original through AirPods Pro and the hearing-aid-capable models. The over-the-counter hearing aid capability — a genuinely novel use of consumer hardware — came out of his team.
+
+Apple Vision Pro. The headset launched in 2024. While consumer reception has been mixed and the product has not hit Apple's volume expectations, the hardware engineering is widely admired — and Ternus's VR background from the 1990s goes straight back into that product's DNA.
+
+iPhone 17 lineup. The fall 2025 iPhone generation, including the iPhone 17 Pro, iPhone 17 Pro Max, and the iPhone Air — described by Apple as "radically thin and durable". Ternus introduced this lineup on stage.
+
+MacBook Neo. An all-new laptop launched under Ternus's leadership, aimed at making the Mac experience more accessible to a broader user base. Analysts describe MacBook Neo as one of the most disruptive products Apple has shipped in a while — and it is a core part of why Ternus got the CEO job.
+
+Apple Watch. Every generation since the original, under his hardware engineering oversight at various levels.
+
+## What Kind of Leader is He?
+
+Two things come through consistently in industry reporting.
+
+Low ego, high collaboration. Multiple sources describe Ternus as unusually collaborative for a senior tech executive, someone who inspires loyalty in his teams. This matters at Apple specifically, because Apple's engineering culture depends on hundreds of cross-functional decisions landing correctly on tight launch timelines. Disruptive internal politics would break that cadence.
+
+Engineer, not a showman. Unlike Jobs, and to a lesser extent Cook, Ternus has not cultivated personal celebrity. His public presence is Apple's keynote stages and occasional press. He has not courted interviews. His own first all-hands message as incoming CEO was quoted by Mark Gurman: "We are about to change the world once again... AI is going to create almost unlimited potential." That is the tone — understated, engineering-confident, without the Steve Jobs theatre.
+
+The closest analogue in Apple's own history is Dan Riccio, Ternus's former boss, who quietly ran hardware for years. Ternus is Riccio's intellectual heir in that sense.
+
+## Why an Engineer as CEO Matters for You
+
+We spend every day in our Hyde Park workshop inside MacBook, iMac, iPad, and iPhone hardware. A hardware-engineer CEO is relevant to the people who own and use these devices in specific ways.
+
+Repairability. Apple has been incrementally improving repairability under external pressure — Self Service Repair, Independent Repair Provider programme, parts availability. An engineer CEO who understands failure modes is more likely to let those improvements continue than to reverse them for margin reasons.
+
+Long-term reliability. Apple's public messaging around the Ternus appointment explicitly credits him with leading the company's focus on reliability and durability. For a South African buyer — where device lifespans are longer because replacement cost is higher against the rand — this is a direct benefit.
+
+Thermal and power design. Apple Silicon's power efficiency is largely a hardware achievement. A CEO who understands the silicon-chassis-battery system personally will be harder to talk into shipping hot, thermally-compromised products.
+
+Serviceability. Hardware engineers understand that products need to be opened, tested, cleaned, and sometimes fixed. They write fewer glue-only, part-pairing-locked devices than marketing-led leadership does.
+
+None of this is guaranteed. But the probability distribution shifts in the right direction when the top job goes to someone who has held a logic board in their hands.
+
+## FAQ
+
+### How old is John Ternus?
+He is 50 years old, born in 1975 or 1976.
+
+### Where did John Ternus study?
+University of Pennsylvania. He graduated with a Bachelor of Science in Mechanical Engineering in 1997.
+
+### What was John Ternus's first job?
+He worked at Virtual Research Systems designing virtual-reality headsets before joining Apple in 2001.
+
+### What was John Ternus's first Apple product?
+The Apple Cinema Display. He joined Apple's product design team in 2001 as a mechanical engineer.
+
+### What products did John Ternus work on at Apple?
+iPad, AirPods, Apple Watch, iPhone hardware (including the iPhone 17 lineup and iPhone Air), Apple Vision Pro, and the MacBook Neo.
+
+### When does John Ternus become Apple CEO?
+1 September 2026. Tim Cook stays as CEO through the summer of 2026, then transitions to executive chairman.
+
+### What is John Ternus's management style?
+Industry observers describe him as collaborative, low-ego, engineering-first, and someone who inspires loyalty in teams. He is not a showman in the Steve Jobs mould.
+
+---
+
+**Planning a Mac or iPhone Upgrade Under New Apple Leadership?**
+
+Whatever Ternus ships in September, the right device for you depends on what you actually do with it. We have been advising Johannesburg clients on Apple purchases, upgrades, and fleet refreshes since 2009. Talk to us before you buy.
+
+Workshop assessment from R599 · 064 529 5863 · [WhatsApp](/whatsapp) · [Book online](/book)
+
+---
+
+**Related Reading**
+- [Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for SA Users](/blog/tim-cook-steps-down-john-ternus-apple-ceo-south-africa)
+- [MacBook Neo Explained: The Product That Built Ternus's CEO Case](/blog/macbook-neo-apple-laptop-explained)
+- [What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet](/blog/apple-ceo-change-johannesburg-business-fleet)
+
+**Outbound authoritative source:** [Apple Leadership — John Ternus](https://www.apple.com/leadership/john-ternus/)`,
+  },
 };
 
 export async function generateStaticParams() {
