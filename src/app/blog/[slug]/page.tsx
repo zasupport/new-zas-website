@@ -29914,7 +29914,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
@@ -30973,6 +30973,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   };
 
   const schemas: SchemaOrg[] = [articleSchema, breadcrumbSchema, aggregateRatingSchema];
+  if (post.category.toLowerCase().includes('news')) {
+    schemas.push({ ...articleSchema, '@type': 'NewsArticle' });
+  }
   if (faqSchemas[slug]) {
     schemas.push(faqSchemas[slug]);
   } else {
