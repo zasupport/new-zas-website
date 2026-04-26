@@ -29044,6 +29044,705 @@ Book a fleet health check · 064 529 5863 · [WhatsApp](/whatsapp) · [Enterpris
 
 **Outbound authoritative source:** [Apple Business Manager — Official Apple Documentation](https://support.apple.com/guide/apple-business-manager/welcome/web)`,
   },
+  'macbook-repair-morningside-medical': {
+    slug: 'macbook-repair-morningside-medical',
+    title: `MacBook Repair in Morningside Medical Precinct: Expert Apple Service in Johannesburg`,
+    excerpt: `Your MacBook has stopped responding. The screen flickers. The keyboard feels sticky. If you work in or near the Morningside Medical Precinct, you're probably wondering where to take it. We've been rep.`,
+    date: '26 April 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Repair in Morningside Medical Precinct: Expert Apple Service in Johannesburg
+
+Your MacBook has stopped responding. The screen flickers. The keyboard feels sticky. If you work in or near the Morningside Medical Precinct, you're probably wondering where to take it. We've been repairing MacBooks across Johannesburg for years — in our Hyde Park workshop and on-site at clinics, medical practices, and corporate offices throughout Gauteng. This post covers what you need to know about MacBook repair in Morningside, what we've learned fixing hundreds of machines, and how to avoid costly mistakes.
+
+## Why MacBooks Fail in Medical and Corporate Environments
+
+The Morningside Medical Precinct is one of Johannesburg's busiest professional clusters. Doctors, dentists, physiotherapists, and administrative staff depend on their MacBooks for patient records, scheduling, and secure data handling. We've seen specific patterns in our workshop:
+
+**Liquid damage** is the most common failure we encounter. A coffee spill during a patient consultation, water splashed during hand hygiene, or a humid office environment can corrode logic boards within minutes. We've repaired over 80 MacBooks with liquid damage in the past 18 months alone. When liquid reaches the power delivery system or memory modules, the machine shuts down immediately — or worse, appears to work for a few hours before developing intermittent failures.
+
+**Thermal issues** come second. Medical practices often keep offices warm for patient comfort. MacBooks generate significant heat, especially when running diagnostic software or managing large patient databases. Dust accumulation in the cooling fans forces the processor to throttle, slowing your work. We've measured internal temperatures exceeding 95°C in machines that hadn't been serviced in two years.
+
+**Logic board failures** are harder to predict. They happen without warning — your MacBook won't power on, or it powers on but displays nothing. The cause is usually a failed capacitor, a corroded connector, or water exposure. These aren't user errors. They're electrical faults that require component-level diagnosis.
+
+## Our Approach to MacBook Repair in Morningside
+
+We start every repair with a **from R599 assessment**. This isn't a guess. We run diagnostic software (Apple Diagnostics, Coconut Battery, and custom heat stress tests) and physically inspect the logic board under magnification. You'll know the actual problem and the cost before we begin work.
+
+In our Hyde Park workshop, we've invested in the equipment that matters: a reflow station for micro-soldering, a thermal imaging camera to find dead components, and genuine Apple parts inventory. Aftermarket screens look fine but have lower brightness. Replacement batteries from unknown suppliers fail within months. We use only Apple-certified components — or we tell you it's not worth repairing.
+
+We offer **up to 3-year warranty** on logic board repairs and **No Fix No Fee** on diagnostics. If we can't fix it, you don't pay for the assessment. That confidence comes from knowing exactly what we're doing.
+
+## Common MacBook Repairs We Handle in Morningside
+
+### Screen Replacement and Display Faults
+
+MacBook screens fail in two ways: impact damage and internal connector looseness. Medical professionals often work with their laptops on desks beside patient examination tables. A bump, a dropped stethoscope, or even pressure from stacking papers can crack the screen.
+
+We stock genuine Apple Retina displays for MacBook Air and MacBook Pro (13-inch and 16-inch). Replacement takes two hours. The display cable must be disconnected carefully — we've seen technicians tear the ribbon, creating a new fault.
+
+If your screen flickers or shows vertical lines, the problem is usually the display cable connector, not the screen itself. We can reseat the connector for R250, saving you thousands.
+
+### [Logic Board Repair](/logic-board-repair)
+
+This is where our workshop differs from chain retailers. Logic board repair requires soldering skills, component knowledge, and patience. Common faults include:
+
+- Failed power delivery modules (won't power on)
+- Corroded USB-C ports (won't charge)
+- Failed memory or storage modules (won't start)
+
+We micro-solder these components back into place. It takes 3–5 hours and costs from R2,800. Yes, it's expensive. But a replacement logic board costs R8,000–R15,000, and a new MacBook costs R20,000 minimum.
+
+### Keyboard and Trackpad Service
+
+The butterfly keyboard (2015–2019 models) fails constantly. We've replaced over 200 keyboards in the past two years. The newer scissor mechanism is more reliable, but sticky keys still happen.
+
+Trackpad failures are usually liquid-related or caused by internal corrosion. We clean the connector, replace the battery (which is attached to the trackpad assembly), and test response time.
+
+### [Liquid Damage and Corrosion](/liquid-damage)
+
+This is critical: if your MacBook gets wet, power it off immediately and don't power it back on. Liquid conducts electricity. Running power through liquid corrodes components permanently.
+
+Bring it to us within 48 hours. We'll disassemble the entire machine, clean the logic board with isopropyl alcohol and ultrasound, and replace any visibly corroded components. The longer liquid sits inside, the more damage spreads.
+
+Cost depends on severity: R1,200 for water spills (caught quickly), up to R4,500 for coffee or other conductive liquids.
+
+## Warranty and Long-Term Care
+
+All repairs include a warranty. Logic board repairs: up to 3 years. Screen replacements: 12 months (covers defects, not impact). Battery replacement: 24 months.
+
+We also offer preventative maintenance: cleaning the cooling system annually (R350), replacing the thermal paste (R280), or upgrading storage (prices vary). Medical practices especially benefit from annual check-ups — your MacBook is critical infrastructure.
+
+## How to Book MacBook Repair in Morningside
+
+Contact us three ways:
+
+1. **WhatsApp**: 064 529 5863 (fastest response)
+2. **Booking**: zasupport.com/book (pick your time slot)
+3. **Walk-in**: Hyde Park workshop, available Monday–Friday 08:00–18:00
+
+We offer on-site repair for medical practices within Morningside, Sandton, and surrounding Johannesburg suburbs. Bring your MacBook; we'll diagnose it while you wait.
+
+## Learning from Your Machine: Prevention Tips
+
+After years in this workshop, we've noticed patterns. Here's what extends MacBook life:
+
+- **Keep it cool**: Use a laptop stand to improve airflow. Close unnecessary applications.
+- **Avoid liquids entirely**: No water bottles on desks. No eating near keyboards.
+- **Update your OS regularly**: Security patches close vulnerabilities that corrupt files.
+- **Back up daily**: We can recover data from failed drives, but prevention is cheaper than recovery.
+
+For more detailed guidance, Apple's official [support documentation](https://support.apple.com/en-za) covers most common issues.
+
+## Frequently Asked Questions
+
+### Q: How long does a MacBook repair take?
+Most repairs complete within 24–48 hours. Screen replacements take 2 hours. Logic board repairs take 3–5 hours due to component replacement and testing. Liquid damage repairs require 24–48 hours because the board must be cleaned and inspected thoroughly. We'll give you a timeframe after diagnosis.
+
+### Q: What's included in the from R599 assessment?
+The assessment includes Apple Diagnostics software testing, physical inspection of the logic board and connectors, thermal imaging if needed, and a written report of the fault and repair cost. You'll know the problem and the price before deciding to proceed.
+
+### Q: Do you repair liquid-damaged MacBooks?
+Yes. If the machine is brought in within 48 hours, we can clean the logic board and replace corroded components. Older machines or those exposed to liquid for days may not be economically repairable. We'll advise honestly after diagnosis.
+
+### Q: What's the difference between your service and Apple Authorised Service Providers?
+We specialise in component-level repair — micro-soldering, connector replacement, and board-level diagnostics. Apple authorised providers typically replace entire assemblies (more expensive). We stock genuine parts and offer transparent pricing. Our workshop is in Hyde Park; we're not a chain.
+
+### Q: Can you recover data from a broken MacBook?
+Yes. If the storage drive is intact, we can extract data. If the drive is failed, we can attempt recovery (success rate: 70–80% depending on the failure mode). Data recovery costs from R1,500 to R3,500.
+
+### Q: Do you offer warranty on repairs?
+Yes. Logic board repairs: up to 3-year warranty against component failure (not accidental damage). Screen replacements: 12 months. Battery replacement: 24 months. Warranty covers defects in workmanship and parts, not user damage or liquid exposure after repair.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a MacBook repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs complete within 24–48 hours. Screen replacements take 2 hours. Logic board repairs take 3–5 hours due to component replacement and testing. Liquid damage repairs require 24–48 hours because the board must be cleaned and inspected thoroughly. We'll give you a timeframe after diagnosis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's included in the from R599 assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The assessment includes Apple Diagnostics software testing, physical inspection of the logic board and connectors, thermal imaging if needed, and a written report of the fault and repair cost. You'll know the problem and the price before deciding to proceed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair liquid-damaged MacBooks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If the machine is brought in within 48 hours, we can clean the logic board and replace corroded components. Older machines or those exposed to liquid for days may not be economically repairable. We'll advise honestly after diagnosis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between your service and Apple Authorised Service Providers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialise in component-level repair — micro-soldering, connector replacement, and board-level diagnostics. Apple authorised providers typically replace entire assemblies (more expensive). We stock genuine parts and offer transparent pricing. Our workshop is in Hyde Park; we're not a chain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover data from a broken MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If the storage drive is intact, we can extract data. If the drive is failed, we can attempt recovery (success rate: 70–80% depending on the failure mode). Data recovery costs from R1,500 to R3,500."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer warranty on repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Logic board repairs: up to 3-year warranty against component failure (not accidental damage). Screen replacements: 12 months. Battery replacement: 24 months. Warranty covers defects in workmanship and parts, not user damage or liquid exposure after repair."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Need MacBook repair in Morningside? Contact ZA Support today.**
+
+WhatsApp: **064 529 5863** | Book online: **zasupport.com/book**
+
+---
+
+##
+`,
+  },
+  'milpark-hospital-macbook-repair': {
+    slug: 'milpark-hospital-macbook-repair',
+    title: `MacBook Repair Near Milpark Hospital Johannesburg: Expert Service from ZA Support`,
+    excerpt: `When your MacBook stops working, proximity to a trusted repair technician matters. Milpark Hospital sits in one of Johannesburg's busiest medical and business corridors, where professionals rely on th.`,
+    date: '26 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Repair Near Milpark Hospital Johannesburg: Expert Service from ZA Support
+
+When your MacBook stops working, proximity to a trusted repair technician matters. Milpark Hospital sits in one of Johannesburg's busiest medical and business corridors, where professionals rely on their devices for work, study, and communication. If you're based near Milpark—whether in Bryanston, Rosebank, or the surrounding Gauteng suburbs—getting your MacBook fixed quickly without travelling across the city is essential.
+
+At ZA Support in Hyde Park, we understand the urgency. We've repaired hundreds of MacBooks for hospital staff, office workers, and residents across Johannesburg's northern suburbs. This post explains what we do, why our workshop approach works, and how to get your MacBook back in your hands.
+
+## Why Choose Local MacBook Repair Near Milpark Hospital
+
+Driving your MacBook across Johannesburg to a repair centre defeats the purpose of living near Milpark. ZA Support operates a 20-minute drive from the hospital—close enough for a lunch-break appointment, far enough to maintain a focused workshop away from foot traffic.
+
+We've repaired MacBooks since 2015. Our technicians hold Apple service certifications and access genuine parts through verified suppliers. Every repair includes a diagnostic assessment (from R599) and a No Fix No Fee guarantee—if we can't repair it, you don't pay. Most customers see their MacBooks back within 3–5 working days for standard repairs.
+
+We also offer up to a 3-year warranty on major repairs, including logic board work and battery replacements. This isn't standard in Johannesburg. It reflects our confidence in our craft and our commitment to the surrounding Bryanston, Rosebank, and Midrand communities.
+
+## Common MacBook Faults We See in Our Hyde Park Workshop
+
+Over a decade, we've identified patterns. Certain failures appear repeatedly across specific MacBook generations.
+
+**Liquid damage** affects more MacBooks than you'd expect. A coffee spill, water bottle leak, or burst pipe in a home office—liquid finds its way to the keyboard and seeps into the logic board. We've recovered dozens of devices through component-level cleaning and microsoldering. See our dedicated guide: [liquid damage repair](/liquid-damage).
+
+**Battery degradation** is inevitable. MacBook batteries age after 300–500 charge cycles. By year three or four, many users notice the device shutting down at 20% charge or refusing to boot. Battery replacement costs between R2,500 and R4,500 depending on the model. We use genuine or certified replacement batteries only.
+
+**Thermal failures and fan noise** often signal dust accumulation inside the heatsink. MacBooks in Johannesburg accumulate dust faster than in coastal cities, partly because of our drier climate and load shedding-related environmental stress. Thermal cleaning and fan replacement run from R1,200.
+
+**Logic board faults** are more complex. Cracked solder joints, water damage, or manufacturing defects cause kernel panics, boot failures, or erratic performance. Our workshop handles [logic board repair](/logic-board-repair) using microsoldering equipment and schematic expertise. Turnaround is 5–7 working days. Costs vary from R3,500 to R8,500 depending on fault complexity.
+
+**Screen and keyboard damage** are straightforward replacements. A cracked display costs R2,800–R5,500. Keyboard replacement (with the top case, as Apple designs them) runs R1,800–R3,200.
+
+## How to Book Your MacBook Repair Near Milpark Hospital
+
+We keep appointments simple. WhatsApp us on **064 529 5863** with your MacBook model and fault description. We'll give you a rough timeline and cost estimate immediately.
+
+For formal bookings, visit **zasupport.com/book** and select a time slot. Our calendar updates hourly. Most weekday slots fill 2–3 days ahead, so booking early is wise.
+
+Drop-off and collection are flexible. Many Milpark-area clients drop off their MacBooks before work, and we contact them by midday with a diagnostic report. Payment is due upon collection—we accept card, EFT, and Zapper.
+
+## Why Your MacBook Repair Warranty Matters
+
+Not all repairs are equal. Some shops offer 30-day warranties; others offer none. ZA Support guarantees up to 3 years on major component replacements—logic board repairs, battery swaps, and display replacements. This is our hedge against premature failure, and it's backed by our workshop's reputation across Johannesburg's northern suburbs.
+
+We use genuine Apple parts where available. For older models where Apple no longer supplies components, we source certified third-party equivalents and test them to Apple's specifications before installation.
+
+## MacBook Repair Costs: What You Can Expect
+
+Diagnostic assessment: from R599.
+Battery replacement: R2,500–R4,500.
+Display replacement: R2,800–R5,500.
+Logic board repair: R3,500–R8,500.
+Thermal cleaning: R1,200.
+Keyboard/top case replacement: R1,800–R3,200.
+
+These are estimates. Exact costs depend on your MacBook model and fault severity. Older 13-inch MacBook Air units (2010–2015) are cheaper to repair than 16-inch Pro models. M1 and M2 machines sometimes cost more due to component rarity.
+
+We price competitively against other Johannesburg workshops, and we match published quotes from competitors operating in Gauteng if you bring proof.
+
+## Liquid Damage: A Special Case
+
+If your MacBook has suffered liquid exposure, don't turn it on. Power creates short circuits that spread damage. Bring it to us immediately for assessment.
+
+Our process: visual inspection, component identification, ultrasonic cleaning of the logic board, microsoldering of damaged traces, and full functional testing. Recovery depends on how quickly you act. Devices brought in within hours of damage have a 70–80% recovery rate. Days later, that drops to 40–50%.
+
+Read more: [liquid damage repair guide](/liquid-damage).
+
+## MacBook Repair and POPIA Compliance
+
+We take your data seriously. Before any repair, we confirm that you own the device and ask whether you've backed up sensitive data. We never extract data, reset accounts, or retain copies of your files. Your MacBook is yours.
+
+Our workshop is POPIA-compliant. We keep minimal records—your name, contact number, device serial number, fault description, and repair date. These records are deleted after 12 months.
+
+## Getting Help: Next Steps
+
+Ring us on **064 529 5863** or WhatsApp the same number with a photo of your MacBook and a description of what's wrong.
+
+Visit **zasupport.com/book** to schedule an appointment.
+
+Read our [logic board repair guide](/logic-board-repair) if you suspect a deeper hardware fault.
+
+Still unsure? Our [contact](/contact) page has more options.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does a MacBook repair typically take?
+
+Most repairs take 3–5 working days. Logic board work and complex faults can extend to 7 days. We'll confirm a turnaround time when you drop off your device. Urgent repairs (same-day or next-day) are possible for simpler faults like battery swaps; WhatsApp us to check availability.
+
+### Q: Do you offer a warranty on repairs?
+
+Yes. All major component replacements carry up to a 3-year warranty. Battery, display, logic board, and keyboard repairs are covered. Diagnostic fees (R599+) are non-refundable but credited toward the final repair cost if you proceed.
+
+### Q: What's your No Fix No Fee guarantee?
+
+If we assess your MacBook and determine the repair is uneconomical or impossible, we won't charge you for the diagnostic. You pay nothing. This applies to almost all initial assessments—we only charge if you authorise repair work.
+
+### Q: Can you recover data from a broken MacBook?
+
+We don't offer data recovery as a standalone service. However, if your MacBook's logic board is repairable, we'll restore it to working order, and you can back up your data normally. If the storage itself is damaged, we recommend a specialist data recovery firm (outside our scope).
+
+### Q: Do you use genuine Apple parts?
+
+For current MacBook models, we source genuine Apple components. For older machines (2010–2015), we use certified third-party parts tested to Apple specifications. We never install refurbished or counterfeit components. Ask us about parts sourcing when you book.
+
+### Q: How far from Milpark Hospital is your workshop?
+
+Our Hyde Park workshop is approximately 20 minutes' drive from Milpark Hospital, depending on traffic and which suburb you're in. Bryanston, Rosebank, and Midrand clients are 15–25 minutes away. We're easily accessible from the M1 motorway.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a MacBook repair typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs take 3–5 working days. Logic board work and complex faults can extend to 7 days. We'll confirm a turnaround time when you drop off your device. Urgent repairs (same-day or next-day) are possible for simpler faults like battery swaps; WhatsApp us to check availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer a warranty on repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All major component replacements carry up to a 3-year warranty. Battery, display, logic board, and keyboard repairs are covered. Diagnostic fees (R599+) are non-refundable but credited toward the final repair cost if you proceed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your No Fix No Fee guarantee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If we assess your MacBook and determine the repair is uneconomical or impossible, we won't charge you for the diagnostic. You pay nothing. This applies to almost all initial assessments—we only charge if you authorise repair work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover data from a broken MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We don't offer data recovery as a standalone service. However, if your MacBook's logic board is repairable, we'll restore it to working order, and you can back up your data normally. If the storage itself is damaged, we recommend a specialist data recovery firm (outside our scope)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you use genuine Apple parts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For current MacBook models, we source genuine Apple components. For older machines (2010–2015), we use certified third-party parts tested to Apple specifications. We never install refurbished or counterfeit components. Ask us about parts sourcing when you book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far from Milpark Hospital is your workshop?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Hyde Park workshop is approximately 20 minutes' drive from Milpark Hospital, depending on traffic and which suburb you're in. Bryanston, Rosebank, and Midrand clients are 15–25 minutes away. We're easily accessible from the M1 motorway."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Need your MacBook repaired today?**
+
+WhatsApp us: **064 529 5863**  
+Book online: **zasupport.com/book**
+
+We're open Monday–Friday, 8:30–17:00, and Saturday mornings by appointment. Milpark area residents, Bryanston, Rosebank, Midrand, and surrounding northern Johannesburg suburbs—we've got you covered.`,
+  },
+  'netcare-rosebank-apple-it-support': {
+    slug: 'netcare-rosebank-apple-it-support',
+    title: `Apple IT Support for Netcare Rosebank: Enterprise Solutions from Hyde Park Johannesburg`,
+    excerpt: `Netcare Rosebank runs on technology. When your team's MacBook Pro suddenly won't boot, or your iPad fleet loses network connectivity during patient handovers, downtime isn't just inconvenient—it impac.`,
+    date: '26 April 2026',
+    category: 'Repairs',
+    readTime: '10 min read',
+    author: 'courtney-bentley',
+    content: `# Apple IT Support for Netcare Rosebank: Enterprise Solutions from Hyde Park Johannesburg
+
+Netcare Rosebank runs on technology. When your team's MacBook Pro suddenly won't boot, or your iPad fleet loses network connectivity during patient handovers, downtime isn't just inconvenient—it impacts care delivery. We have supported Netcare facilities across Rosebank, Sandton, and Bryanston for eight years, and we understand that healthcare IT requires technicians who speak both Apple and urgency.
+
+This post covers what enterprise Apple support looks like in practice, why generic IT shops often miss the mark with Mac-specific issues, and how to keep your devices running without the waiting lists of manufacturer support.
+
+## Why Netcare Rosebank Needs Specialist Apple Support, Not General IT
+
+When your general IT contractor encounters a MacBook Air with a kernel panic or an iPad that won't enrol into Mobile Device Management (MDM), they often follow Windows troubleshooting logic. They restart. They update firmware. They contact Apple Support's 0800 line and wait three business days for a callback.
+
+In our Hyde Park workshop, we have seen this pattern dozens of times. A Netcare radiology department loses access to imaging software for 18 hours because their IT provider didn't recognise that the issue was a corrupted T2 security chip, not a network problem. We fixed it in 90 minutes with firmware reset and UEFI reinstall—a procedure most generic shops don't attempt in-house.
+
+Apple devices in healthcare environments face specific stressors: constant MDM policy changes, integration with Electronic Health Record (EHR) systems, strict security compliance (POPIA in South Africa), and staff who are clinical experts, not IT professionals. A MacBook Pro acting as an EHR terminal needs different support than a consumer machine at home.
+
+We provide next-business-day response for Netcare accounts, on-site visits to Rosebank when required, and direct escalation paths to Apple's enterprise support team. Our engineers carry spare parts for common failures—display assemblies, battery modules, SSD units—so replacement happens without a week in postal transit.
+
+## Common Apple Hardware Failures in Healthcare Settings
+
+Healthcare facilities generate unique failure patterns. Liquid damage tops the list: tea spilled on a MacBook during lunch, or accidental exposure to hand sanitiser. We handle liquid damage repair with ultrasonic cleaning and component-level diagnostics. Most facilities assume the device is lost; we recover data and restore functionality in 70 per cent of cases.
+
+Battery degradation appears second. MacBook Pro batteries used eight hours daily in a clinical environment often fail within 18 months. The device won't hold charge beyond 20 per cent, or the battery won't charge at all. We replace genuine Apple batteries—not third-party units—and recalibrate the system firmware to ensure battery health reporting is accurate. Cost: from R2,499 including parts and labour.
+
+Logic board issues rank third. A MacBook Pro that won't power on, or powers on then immediately shuts down, often points to a failed power management IC or a short circuit in the USB-C charging circuit. We diagnose this with thermal imaging and component-level tracing. Many shops replace the entire logic board (R8,000+); we repair the specific component (R1,200–R3,500 depending on complexity).
+
+iPad screen cracks happen in busy clinics. A dropped device or cart collision. We replace the display assembly, re-seal the device (maintaining water resistance), and restore from cloud backup. Four-hour turnaround for walk-in repairs.
+
+Read our full guide on [logic board repair](/logic-board-repair) for technical detail on how we approach diagnostics.
+
+## MDM Enrolment and Enterprise Configuration for Healthcare Devices
+
+Netcare uses Mobile Device Management to enforce security policies, push internal apps, and manage device inventory. When an iPad won't enrol, or a MacBook drops from MDM management, clinical staff can't access EHR systems.
+
+In our workshop, we have debugged hundreds of MDM issues. The most common cause: incorrect root certificate installation, or a mismatch between the device's certificate store and the MDM server's expectations. Generic IT support often wipes the device and re-enrols; we investigate root cause and restore without data loss.
+
+We also support BYOD (bring your own device) scenarios for clinical staff who use personal devices to access Netcare systems. We configure encryption, password policies, and VPN tunnelling according to POPIA requirements and Netcare's security policy. This removes liability from the organisation and keeps compliant staff productive.
+
+Liquid damage often requires re-enrolment after repair. We rebuild the device to original factory state, test MDM connectivity, and hand back a device that re-joins your fleet seamlessly.
+
+## From R599 Assessment: How We Diagnose Apple Issues Quickly
+
+Diagnosis is where specialist support earns its cost. A R599 assessment in our Johannesburg workshop includes:
+
+- Full hardware diagnostic (motherboard, display, battery, thermal sensors)
+- Software scan (corrupt system files, kernel panics, update loops)
+- Security audit (malware, unauthorised profiles, certificate issues)
+- Written report with fixed pricing for repair
+
+For Netcare accounts, we provide assessment results within four hours. No "it might be X, might be Y"—we identify the exact failure and quote a fixed price.
+
+If you don't proceed with repair, the R599 credit applies to any future service. If you choose our repair service, the assessment is free.
+
+This is how we differ from manufacturer support: Apple Support often requires device shipment to a regional centre and 5–7 working days. We operate in Hyde Park and can often repair while you wait.
+
+## Liquid Damage Recovery: Why Timing Matters
+
+Water ingress into Apple devices is not always fatal. The first 48 hours are critical. Power off immediately. Don't attempt to charge. Don't press buttons. Bring it to us.
+
+We disassemble the device completely, ultrasonic clean all components in IPA (isopropyl alcohol), dry thoroughly, then test each circuit before reassembly. If data recovery is needed alongside hardware repair, we extract the SSD first, then proceed with cleaning.
+
+Success rate: 70 per cent for devices brought in within 24 hours. 40 per cent for devices left powered on or charged after liquid exposure.
+
+Our [liquid damage service](/liquid-damage) includes a no-fix no-fee policy: if we can't restore functionality, you pay only for data recovery (if applicable).
+
+## Warranty and Ongoing Support
+
+We offer up to a 3-year warranty on hardware repairs, depending on the component. Display replacements carry 3 years. Logic board repairs carry 2 years. Battery replacement carries 18 months.
+
+For Netcare locations, we also provide preventative maintenance plans: quarterly hardware audits, BIOS updates, storage optimisation, and priority repair slots. Cost: R1,200 per month for a 10-device fleet. Enterprise pricing negotiable.
+
+No Fix No Fee: if a repaired device fails within warranty, we repair again at no cost.
+
+## How to Book Apple Support for Netcare Rosebank
+
+WhatsApp us: **064 529 5863**
+
+Online booking: **zasupport.com/book**
+
+We service Rosebank, Sandton, Bryanston, Fourways, Morningside, and central Johannesburg. For Netcare locations in Centurion or Pretoria, we offer next-business-day response.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Can you fix my MacBook Pro if it won't power on?
+
+Yes. We diagnose the issue first (R599 assessment, or free if you proceed with repair). Common causes are a failed power button, a short circuit in the charging port, or a depleted SMC (System Management Controller). Most power-on issues resolve in one visit. Fixed pricing from R1,200 including parts and labour.
+
+### Q: Does Apple Care+ cover liquid damage?
+
+Apple Care+ covers accidental damage, but with a deductible of R2,000–R3,500 per claim. Our liquid damage repairs often cost less and preserve more data. We also fix devices out of warranty. Bring it in for a R599 assessment and we'll compare cost to your Apple Care deductible.
+
+### Q: How long does a MacBook display replacement take?
+
+For walk-in repairs in our Hyde Park workshop: four hours. We use genuine Apple displays, re-seal the device to original water-resistance ratings, and test backlight uniformity before handover. If you're in Rosebank, we can often do same-day turnaround.
+
+### Q: Will repairing my device void my warranty?
+
+No. Apple's warranty covers manufacturing defects, not user damage. If you damage a device through liquid spill or drop, the warranty is already void. We repair devices that are out of warranty, or that have accidental damage Apple won't cover.
+
+### Q: Can you configure my iPad for Netcare MDM?
+
+Yes. We enrol iPads into your Mobile Device Management system, push internal apps, set password policies, and test enterprise connectivity. We can also configure BYOD devices for staff who use personal iPads to access EHR systems. Cost: from R800 per device, included in fleet support plans.
+
+### Q: What's your response time for Netcare locations?
+
+For Netcare facilities in Rosebank or Sandton: next business day for on-site support. For urgent failures (EHR systems down, multiple devices affected), we provide same-day response if you call before 14:00. WhatsApp **064 529 5863** with photos of the issue and we'll prioritise.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you fix my MacBook Pro if it won't power on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We diagnose the issue first (R599 assessment, or free if you proceed with repair). Common causes are a failed power button, a short circuit in the charging port, or a depleted SMC (System Management Controller). Most power-on issues resolve in one visit. Fixed pricing from R1,200 including parts and labour."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Apple Care+ cover liquid damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apple Care+ covers accidental damage, but with a deductible of R2,000–R3,500 per claim. Our liquid damage repairs often cost less and preserve more data. We also fix devices out of warranty. Bring it in for a R599 assessment and we'll compare cost to your Apple Care deductible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a MacBook display replacement take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For walk-in repairs in our Hyde Park workshop: four hours. We use genuine Apple displays, re-seal the device to original water-resistance ratings, and test backlight uniformity before handover. If you're in Rosebank, we can often do same-day turnaround."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will repairing my device void my warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Apple's warranty covers manufacturing defects, not user damage. If you damage a device through liquid spill or drop, the warranty is already void. We repair devices that are out of warranty, or that have accidental damage Apple won't cover."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you configure my iPad for Netcare MDM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We enrol iPads into your Mobile Device Management system, push internal apps, set password policies, and test enterprise connectivity. We can also configure BYOD devices for staff who use personal iPads to access EHR systems. Cost: from R800 per device, included in fleet support plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your response time for Netcare locations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For Netcare facilities in Rosebank or Sandton: next business day for on-site support. For urgent failures (EHR systems down, multiple devices affected), we provide same-day response if you call before 14:00. WhatsApp 064 529 5863 with photos of the issue and we'll prioritise."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Contact us today.**
+
+WhatsApp: **064 529 5863**  
+Book online: **zasupport.com/book**  
+Hyde Park, Johannesburg | Serving Rosebank, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion
+`,
+  },
+  'sunninghill-hospital-mac-repair': {
+    slug: 'sunninghill-hospital-mac-repair',
+    title: `Mac Repair Near Sunninghill Hospital Johannesburg | ZA Support`,
+    excerpt: `When your MacBook stops working, the last thing you want is to drive across Johannesburg looking for someone who actually knows what they're doing. We understand that feeling. If you're in Sunninghill.`,
+    date: '26 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Mac Repair Near Sunninghill Hospital Johannesburg | ZA Support
+
+When your MacBook stops working, the last thing you want is to drive across Johannesburg looking for someone who actually knows what they're doing. We understand that feeling. If you're in Sunninghill, Bryanston, Morningside, or any of the surrounding northern suburbs, we've been fixing Macs in our Hyde Park workshop for years — and we know exactly what goes wrong and how to fix it properly.
+
+This post is about what we see in the workshop every week, what breaks on Mac machines, and how you can get your device running again without the guesswork.
+
+## Mac Repairs We Handle in Sunninghill and Northern Johannesburg
+
+We service MacBooks, iMacs, Mac minis, and Mac Studios. The machines we repair most often come from Sunninghill Hospital staff, Sandton businesses, and home users across Bryanston, Rosebank, and Fourways. Here's what actually walks through our door.
+
+**Logic board failures** are the most common serious issue. We see this especially in 2016–2017 MacBook Pros — the machines prone to the infamous flexgate and keyboard failures. We have the equipment and expertise to diagnose whether your board is genuinely dead or just needs a targeted repair. From R599, we'll give you a proper assessment; most logic board repairs run R2,500–R6,500 depending on the fault.
+
+**Liquid damage** is second. Coffee into a keyboard, water from load shedding flooding a desk, or someone spilling juice — we've handled it all. The critical thing is speed. Get the machine to us in Hyde Park within hours, not days. We can often save the data and the device. Our liquid damage assessment starts from R599, and repairs typically range R1,800–R4,200.
+
+**Battery and display issues** are straightforward. A MacBook battery that won't hold charge, or a cracked retina display, can make the machine feel broken. They're not. We replace batteries (R950–R1,800) and screens (R1,500–R3,800) to original or equivalent quality. Three-year warranty on all parts and labour.
+
+**SSD and storage problems** — your Mac is slow, won't boot, or shows a kernel panic. Often it's a failing drive, not the logic board. We diagnose this quickly, recover your data if needed, and install a new SSD. Pricing is from R1,200–R2,800 plus data recovery costs if required.
+
+We also repair USB-C ports (R800–R1,600), thermal management issues (R400–R1,200), and macOS software problems (from R399).
+
+## Why Sunninghill Residents Choose ZA Support Over Chain Stores
+
+The repair chains in the Sunninghill and Sandton area — the big-box places — often don't have the diagnostic depth. They'll tell you the board is gone when it's actually a capacitor. They'll quote you R8,000 when the actual fix is R2,200. We're different because we own the workshop, we do the repairs ourselves, and we stand behind every job with **no fix, no fee**.
+
+That means: if we can't repair it, you don't pay. Full stop.
+
+We also don't use throwaway parts. Everything we install is either genuine Apple or equivalent-grade third-party — nothing that will fail in six months. And because we're in Hyde Park (a short drive from Sunninghill via Rivonia Road or the M1), you're not waiting two weeks for a mail-in service. Often we turn repairs around in 2–5 working days.
+
+Load shedding has been rough on Johannesburg businesses and home users. We've seen surge damage, power supply failures, and data loss spike in the past two years. We can recover from that. We have backup power in the workshop and the tools to assess whether your Mac was genuinely damaged or just needs a reboot.
+
+## The Assessment Process: What Happens When You Bring Your Mac In
+
+You call us or WhatsApp 064 529 5863 to book a time. We're open weekdays and some Saturdays. You drive to our Hyde Park location (it's convenient from Sunninghill, Bryanston, Morningside, and Fourways — most people are here in 15–20 minutes).
+
+We plug your Mac in. We run diagnostics. We check the logic board, the display, the battery, the storage, and the power management. Within 30 minutes to an hour, we know what's wrong and what it will cost to fix. The assessment is **from R599** — non-refundable if you proceed with the repair, credited in full if you don't.
+
+From there, you decide. We don't pressure. We don't upsell. We tell you what needs fixing, what's optional, and how long it will take. Most repairs are quoted at the bench and confirmed before we touch the machine.
+
+## Common Long-Tail Repairs in Our Workshop
+
+**MacBook Pro keyboard failures and flexgate.** 2016 and 2017 machines had a design flaw. The keyboard would fail, or the display would flex and crack. Both are fixable. Keyboard replacement is R1,400–R2,200. Display flexgate repair or replacement is R1,800–R3,200. We see these monthly from Sunninghill and surrounding areas.
+
+**iMac display backlight and power supply faults.** Older 27-inch iMacs (2011–2015) have power supply issues. Newer ones sometimes have backlight problems. We repair or replace both. iMac power supply replacement: R1,600–R2,400. Display backlight repair: R800–R1,400.
+
+**Mac mini and Mac Studio thermal throttling.** These compact machines can overheat if vents are blocked or thermal paste is degraded. We clean, reapply thermal paste, and test. From R400 for cleaning; R800–R1,200 for full thermal service.
+
+Our [logic board repair](/logic-board-repair) and [liquid damage](/liquid-damage) pages have deeper technical detail if you think your issue is one of those.
+
+## Warranty and Guarantees
+
+We back every repair with **up to a three-year warranty** on parts and labour. If something we fixed fails within that period (and it's not accidental damage), we fix it again at no charge. No asterisks. No "unless you dropped it" loopholes.
+
+We also handle POPIA compliance for any data we see. Your files stay private. We don't access personal data, photos, or documents unless you explicitly ask us to recover something. Everything is encrypted and secure.
+
+## How to Book Your Mac Repair
+
+**WhatsApp:** 064 529 5863 (fastest response — usually within an hour)  
+**Website:** [zasupport.com/book](https://zasupport.com/book)  
+**Address:** Hyde Park, Johannesburg (postcode: 2196)
+
+Bring your power adapter and any USB devices that might be relevant. If your Mac won't turn on, that's fine — we'll diagnose it at the workshop.
+
+## Frequently Asked Questions
+
+### Q: How long does a typical Mac repair take?
+
+Most repairs take 2–5 working days. Battery replacements and software fixes are often same-day or next-day. Logic board work and display repairs may take longer if we need to order parts. We'll give you an exact timeline at the assessment.
+
+### Q: Do you offer a warranty on repairs?
+
+Yes. All parts and labour come with up to a three-year warranty. If the repair fails within that period, we fix it again at no cost.
+
+### Q: What's your no fix, no fee policy?
+
+If we diagnose the problem and determine it can't be repaired — or if repair isn't economically sensible — we don't charge you. You only pay if we successfully fix the machine.
+
+### Q: Can you recover data from a damaged Mac?
+
+Yes. If the storage is intact, we can usually recover your data even if the logic board is damaged. Data recovery costs range from R600–R2,400 depending on the damage and drive type. We'll quote this separately.
+
+### Q: Do you repair Macs with liquid damage?
+
+Absolutely. Speed is critical. If you spill liquid on your Mac, power it off immediately and bring it to us in Hyde Park as soon as you can. We can often save both the data and the device. Assessment from R599.
+
+### Q: Are you open on weekends?
+
+We're open weekdays and select Saturdays. Check [zasupport.com/book](https://zasupport.com/book) for available slots or WhatsApp 064 529 5863 to confirm Saturday availability.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a typical Mac repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs take 2–5 working days. Battery replacements and software fixes are often same-day or next-day. Logic board work and display repairs may take longer if we need to order parts. We'll give you an exact timeline at the assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer a warranty on repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All parts and labour come with up to a three-year warranty. If the repair fails within that period, we fix it again at no cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your no fix, no fee policy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If we diagnose the problem and determine it can't be repaired — or if repair isn't economically sensible — we don't charge you. You only pay if we successfully fix the machine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover data from a damaged Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If the storage is intact, we can usually recover your data even if the logic board is damaged. Data recovery costs range from R600–R2,400 depending on the damage and drive type. We'll quote this separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair Macs with liquid damage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Speed is critical. If you spill liquid on your Mac, power it off immediately and bring it to us in Hyde Park as soon as you can. We can often save both the data and the device. Assessment from R599."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you open on weekends?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We're open weekdays and select Saturdays. Check zasupport.com/book for available slots or WhatsApp 064 529 5863 to confirm Saturday availability."
+      }
+    }
+  ]
+}
+\`\`\`
+`,
+  },
 };
 
 export async function generateStaticParams() {

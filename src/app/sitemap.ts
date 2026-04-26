@@ -517,5 +517,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/tim-cook-steps-down-john-ternus-apple-ceo-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/who-is-john-ternus-apple-ceo-engineer`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/apple-ceo-change-johannesburg-business-fleet`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-repair-morningside-medical`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/milpark-hospital-macbook-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/netcare-rosebank-apple-it-support`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/sunninghill-hospital-mac-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
