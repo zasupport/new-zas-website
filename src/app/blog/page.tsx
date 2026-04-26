@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 };
 
 const posts = [
+  { slug: 'apple-ceo-change-johannesburg-business-fleet', title: 'What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet', excerpt: '**Breadcrumbs:** Home / Blog / News / Apple CEO Change — Business Impact.', date: '24 April 2026', category: 'Repairs', readTime: '9 min read' },
   { slug: 'who-is-john-ternus-apple-ceo-engineer', title: 'Who is John Ternus? The Engineer Taking Over at Apple', excerpt: '**Breadcrumbs:** Home / Blog / News / Who is John Ternus.', date: '23 April 2026', category: 'Repairs', readTime: '7 min read' },
   { slug: 'tim-cook-steps-down-john-ternus-apple-ceo-south-africa', title: 'Tim Cook Steps Down, John Ternus Takes Over: What Apple\'s Leadership Change Means for South African Users', excerpt: '**Breadcrumbs:** Home / Blog / News / Apple Leadership Change 2026.', date: '22 April 2026', category: 'Repairs', readTime: '11 min read' },
   { slug: 'macbook-clean-install-johannesburg', title: 'MacBook Clean Install macOS in Johannesburg: Complete Workshop Guide', excerpt: 'When a MacBook starts to feel sluggish, accumulates years of application clutter, or develops persistent software issues, a clean install of macOS can restore it to near-factory performance. At ZA Sup.', date: '24 April 2026', category: 'Repairs', readTime: '10 min read' },
