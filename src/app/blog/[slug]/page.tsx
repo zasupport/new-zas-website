@@ -28585,7 +28585,7 @@ Yes. We offer selective restoration, where we keep your personal documents, phot
     title: `Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for South African Users`,
     excerpt: `**Breadcrumbs:** Home / Blog / News / Apple Leadership Change 2026.`,
     date: '22 April 2026',
-    category: 'Repairs',
+    category: 'Apple News',
     readTime: '11 min read',
     author: 'courtney-bentley',
     content: `# Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for South African Users
@@ -28745,7 +28745,7 @@ Workshop assessment from R599 · 064 529 5863 · [Book via WhatsApp](/whatsapp) 
     title: `Who is John Ternus? The Engineer Taking Over at Apple`,
     excerpt: `**Breadcrumbs:** Home / Blog / News / Who is John Ternus.`,
     date: '23 April 2026',
-    category: 'Repairs',
+    category: 'Apple News',
     readTime: '7 min read',
     author: 'courtney-bentley',
     content: `# Who is John Ternus? The Engineer Taking Over at Apple
@@ -28894,7 +28894,7 @@ Workshop assessment from R599 · 064 529 5863 · [WhatsApp](/whatsapp) · [Book 
     title: `What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet`,
     excerpt: `**Breadcrumbs:** Home / Blog / News / Apple CEO Change — Business Impact.`,
     date: '24 April 2026',
-    category: 'Repairs',
+    category: 'Apple News',
     readTime: '9 min read',
     author: 'courtney-bentley',
     content: `# What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet
