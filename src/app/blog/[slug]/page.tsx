@@ -16,6 +16,7 @@ const posts: Record<string, {
   category: string;
   readTime: string;
   author: string;
+  featuredImage?: string;
   content: string;
 }> = {
   'iphone-fold-is-on-track-to-launch-this-september-per-ma-south-africa-2026': {
@@ -108,6 +109,7 @@ The iPhone Fold is coming. Being prepared beats being surprised.`
     category: 'Apple News',
     readTime: '5 min read',
     author: 'Mary',
+    featuredImage: '/gmb/20200618_da124a35.webp',
     content: `Apple is quietly preparing **iOS 26.4.1**, a bug-fix update for iPhone users worldwide—including those of us here in Johannesburg and across South Africa. While it might seem like just another routine software patch, understanding what these updates do and why they matter could save you significant money on repairs down the line.
 
 ## What is iOS 26.4.1?
@@ -133,6 +135,9 @@ Over time, this stress can lead to:
 - **Liquid damage vulnerability** if your phone overheats near moisture
 
 At ZA Support here in Johannesburg, we've seen countless iPhones come in with hardware damage that could have been prevented—or at least delayed—with timely software updates. **Logic board repairs alone start from R2,499**, and liquid damage repairs from R1,999. A simple iOS update takes 10 minutes; a logic board repair takes days.
+
+![ZA Support workshop Hyde Park Johannesburg — iPhone and Mac repair specialists](/blog/za-support-workshop-mac-repair.webp)
+*ZA Support workshop, Hyde Park, Johannesburg — component-level Apple device repairs.*
 
 ## How to Install iOS 26.4.1 When It Arrives
 
@@ -165,6 +170,9 @@ A **Health Check from ZA Support costs just R599**—and during that assessment,
 - Test battery health
 - Identify apps causing software conflicts
 
+![ZA Support Apple repair team Johannesburg — MacBook and iPhone diagnostics workshop](/blog/za-support-team-imac-workshop.webp)
+*Our Hyde Park team conducting device diagnostics — same-day results for Johannesburg clients.*
+
 ## What If You've Already Had Issues?
 
 If your iPhone has **suffered liquid damage** (spilled coffee in the office, caught in Johannesburg's summer rain) or shows signs of **logic board stress** (random shutdowns, freezing, overheating), don't wait for the next update. Contact ZA Support immediately.
@@ -184,6 +192,9 @@ Not every iOS issue requires a repair. But if you notice these signs *after* upd
 - Device feels warm even when idle
 - Apps crash repeatedly despite reinstalling
 - WiFi or Bluetooth disconnects randomly
+
+![ZA Support iPhone assessment — same-day diagnostics at our Hyde Park workshop](/gmb/20210112_88702b0c.webp)
+*Same-day iPhone assessments at ZA Support, Hyde Park — from R599.*
 
 **WhatsApp us on 064 529 5863 to book your diagnostic appointment.** We're based in Hyde Park, Johannesburg, and can usually see you within 24 hours.
 
@@ -457,6 +468,7 @@ Located in Hyde Park, Johannesburg, we're ready to support your Apple ecosystem�
   category: 'Apple News',
   readTime: '5 min read',
   author: 'Mary',
+  featuredImage: '/gmb/20200824_65066035.webp',
   content: `## Apple Adds Apple TV and iPad mini to Obsolete Products – Here's What It Means for You
 
 Apple has just updated its official list of vintage and obsolete products, adding **Apple TV HD and several iPad mini models** to the discontinued support category. For Mac users and Apple device owners across Johannesburg and South Africa, this is a moment to pause and understand what this decision means for your devices and your wallet.
@@ -479,6 +491,9 @@ In Johannesburg and across our country, Apple's obsolescence classifications hit
 
 **Import and VAT Burden**: Apple products cost substantially more in South Africa due to import duties and value-added tax. A device representing a significant initial investment becomes e-waste the moment it needs repair and loses official support status.
 
+![ZA Support workshop — Apple device repair Johannesburg, Hyde Park](/blog/za-support-workshop-mac-repair.webp)
+*ZA Support, Hyde Park — component-level repairs for Apple devices manufacturers no longer support.*
+
 ## The Bigger Picture: Apple's Narrowing Support Window
 
 This announcement reflects a troubling trend. Apple has systematically narrowed the window during which it provides official support and repairs. **The company now focuses repair availability and security updates almost exclusively on the most recent device generations.**
@@ -491,11 +506,17 @@ Here is where the real impact hits. **Logic board failures and liquid damage** �
 
 Your iPad mini takes a spill. Your Apple TV develops a short circuit. The motherboard fails. Before the obsolete classification, you could take it to an Authorised Service Provider. Now? You have no official option. Independent repair costs explode. Apple Store repairs on officially unsupported devices can exceed **R15,000 to R70,000**.
 
+![ZA Support Johannesburg — logic board and liquid damage repair specialists for older Apple devices](/blog/za-support-team-imac-workshop.webp)
+*ZA Support can repair Apple devices long after official support ends — Johannesburg, Hyde Park.*
+
 This is precisely the scenario where ZA Support's expertise in **logic board repair** and **liquid damage remediation** becomes invaluable. We can often save devices that Apple has officially abandoned, extending device life and preserving your investment.
 
 ## The Health Check Advantage
 
 Before your device fails, a **Health Check costs just R599** and identifies emerging problems while repair options still exist. Catching a degrading logic board, a developing liquid damage issue, or battery problems early can save hundreds of rands in emergency repairs – or the cost of complete device replacement.
+
+![ZA Support health check diagnostic — Hyde Park workshop, Johannesburg Apple repair](/gmb/20210518_50c4b560.webp)
+*R599 Health Check at ZA Support — full 28-phase diagnostic before problems become costly.*
 
 Once a device is officially obsolete, preventative maintenance becomes exponentially more important. There is no safety net. No official repairs. No second chances.
 
@@ -758,6 +779,7 @@ Beta testing is exciting, but your data is irreplaceable.`
     category: 'Apple News',
     readTime: '5 min read',
     author: 'Mary',
+    featuredImage: '/gmb/20200824_8a839658.webp',
     content: `In a rare moment of candour, Apple's marketing chief Greg Joswiak recently stated something refreshingly honest: the iPhone will almost certainly still exist 50 years from now. More significantly, he noted that Apple isn't racing to hire thousands of AI executives despite the industry frenzy. For Mac owners in Johannesburg facing R15,000+ repair quotes from the Apple Store, this longer-term thinking has real implications.
 
 ## What Apple's 50-Year Commitment Actually Means
@@ -771,6 +793,9 @@ In South Africa, where device replacement costs hit differently, this matters. A
 Compare Apple's cautious AI hiring approach to competitors chasing every new trend. Apple is building sustainable products—literally. Your Mac is designed to be repaired: logic boards are modular, components are replaceable, and software updates span seven to ten years minimum.
 
 We've seen this play out at ZA Support. Logic board failures that should mean a complete R15,000+ replacement at Mac Shack (or R40,000+ at the Apple Store) become R2,499 repairs. A liquid damage incident that others quote at R8,000 costs R1,999 here. These savings exist *because* Apple designed these Macs to be fixed.
+
+![ZA Support workshop Hyde Park — MacBook logic board repair Johannesburg](/blog/za-support-workshop-mac-repair.webp)
+*ZA Support Hyde Park workshop — component-level MacBook logic board repairs from R2,499.*
 
 ## The No-Hype, Real-Product Strategy
 
@@ -792,6 +817,9 @@ In load-shedding era Johannesburg, Mac durability hits another level. Unexpected
 
 Here's what we've observed: a Health Check (R599) catches issues before they escalate. Liquid damage (R1,999) beats "time for a new device." Logic board repairs (from R2,499) restore functionality for years more. These aren't premium services—they're basic device maintenance that Apple's design enables.
 
+![ZA Support Johannesburg Apple Mac repair team — MacBook and iMac workshop specialists](/blog/za-support-team-imac-workshop.webp)
+*The ZA Support team at our Hyde Park workshop — Johannesburg's Mac repair specialists.*
+
 Mac Shack charges R4,499+ for board-level work, assuming they'll replace rather than repair. Apple Store estimates often exceed R70,000 for integrated repairs. The gap exists because local technicians actually fix things.
 
 ## What This Means for Your Current Mac
@@ -799,6 +827,9 @@ Mac Shack charges R4,499+ for board-level work, assuming they'll replace rather 
 If you own a MacBook, iMac, or Mac mini purchased in the last decade, Joswiak's statement is your permission slip to invest in it. That 2017 MacBook Pro isn't old—it's designed to last until 2047. A logic board repair at R2,499 extends that timeline significantly.
 
 Across Sandton, Rosebank, Midrand, Randburg, Fourways, and Bryanston, the calculus is the same: repair beats replacement.
+
+![ZA Support Mac assessment — R599 Health Check, Hyde Park Johannesburg](/gmb/20210112_88702b0c.webp)
+*R599 Health Check at ZA Support — identify issues early and protect your Apple investment.*
 
 ## Frequently Asked Questions
 
@@ -31057,6 +31088,16 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             {post.title}
           </h1>
           <p className="text-xl text-[#7A9E98] mt-4 max-w-2xl">{post.excerpt}</p>
+          {post.featuredImage && (
+            <figure className="mt-8">
+              <img
+                src={post.featuredImage}
+                alt={post.title}
+                className="rounded-2xl w-full max-h-96 object-cover"
+                loading="eager"
+              />
+            </figure>
+          )}
         </div>
       </section>
 
