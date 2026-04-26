@@ -30972,7 +30972,36 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     ],
   };
 
-  const schemas: SchemaOrg[] = [articleSchema, breadcrumbSchema, aggregateRatingSchema];
+  const personSchema: SchemaOrg = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Courtney Bentley',
+    url: 'https://zasupport.com/author/courtney-bentley',
+    jobTitle: 'Apple Certified Expert Consultant',
+    worksFor: {
+      '@type': 'Organization',
+      name: 'ZA Support',
+      url: 'https://zasupport.com',
+    },
+    sameAs: [
+      'https://www.linkedin.com/in/bentleycourtney/',
+      'https://www.tiktok.com/@appleexpertza',
+      'https://x.com/za_support',
+      'https://www.facebook.com/courtney.bentley.10/',
+      'https://www.instagram.com/appleexpertza/',
+    ],
+    knowsAbout: [
+      'Apple Mac repair',
+      'MacBook logic board repair',
+      'Apple liquid damage recovery',
+      'MacBook Pro component-level repair',
+      'Apple device diagnostics',
+      'JAMF MDM',
+      'Apple enterprise fleet management',
+    ],
+  };
+
+  const schemas: SchemaOrg[] = [articleSchema, breadcrumbSchema, aggregateRatingSchema, personSchema];
   if (post.category.toLowerCase().includes('news')) {
     schemas.push({ ...articleSchema, '@type': 'NewsArticle' });
   }
