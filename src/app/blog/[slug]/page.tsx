@@ -11,6 +11,7 @@ const posts: Record<string, {
   title: string;
   shortTitle?: string;
   excerpt: string;
+  seoDescription?: string;
   date: string;
   category: string;
   readTime: string;
@@ -28585,6 +28586,7 @@ Yes. We offer selective restoration, where we keep your personal documents, phot
     slug: 'tim-cook-steps-down-john-ternus-apple-ceo-south-africa',
     title: `Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for South African Users`,
     excerpt: `**Breadcrumbs:** Home / Blog / News / Apple Leadership Change 2026.`,
+    seoDescription: `Tim Cook steps down; John Ternus becomes Apple's 8th CEO on 1 September 2026. What this leadership change means for South African Apple users and businesses.`,
     date: '22 April 2026',
     category: 'Apple News',
     readTime: '11 min read',
@@ -28745,6 +28747,7 @@ Workshop assessment from R599 · 064 529 5863 · [Book via WhatsApp](/whatsapp) 
     slug: 'who-is-john-ternus-apple-ceo-engineer',
     title: `Who is John Ternus? The Engineer Taking Over at Apple`,
     excerpt: `**Breadcrumbs:** Home / Blog / News / Who is John Ternus.`,
+    seoDescription: `John Ternus, Apple's incoming CEO, is a 25-year Apple veteran and mechanical engineer. Full profile: education, career timeline, and what his leadership means.`,
     date: '23 April 2026',
     category: 'Apple News',
     readTime: '7 min read',
@@ -28894,6 +28897,7 @@ Workshop assessment from R599 · 064 529 5863 · [WhatsApp](/whatsapp) · [Book 
     slug: 'apple-ceo-change-johannesburg-business-fleet',
     title: `What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet`,
     excerpt: `**Breadcrumbs:** Home / Blog / News / Apple CEO Change — Business Impact.`,
+    seoDescription: `Apple CEO transition on 1 September 2026: what Johannesburg businesses running Apple fleet need to know about devices, MDM, upgrades, and Apple Intelligence.`,
     date: '24 April 2026',
     category: 'Apple News',
     readTime: '9 min read',
@@ -29757,13 +29761,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const serpTitle = post.shortTitle
     ? `${post.shortTitle} | ZA Support`
     : `${post.title.slice(0, 55)} | ZA Support`;
+  const metaDescription = (post.seoDescription && post.seoDescription.length >= 130)
+    ? post.seoDescription
+    : post.excerpt.slice(0, 160);
   return {
     title: serpTitle,
-    description: post.excerpt,
+    description: metaDescription,
     alternates: { canonical: `https://zasupport.com/blog/${slug}` },
     openGraph: {
       title: post.title,
-      description: post.excerpt,
+      description: metaDescription,
       url: `https://zasupport.com/blog/${slug}`,
       type: 'article',
       publishedTime: post.date,
@@ -29773,7 +29780,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     twitter: {
       card: 'summary_large_image',
       title: post.title,
-      description: post.excerpt,
+      description: metaDescription,
       images: ['/og-image.jpg'],
     },
   };
