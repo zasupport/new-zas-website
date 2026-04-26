@@ -149,6 +149,38 @@ export function BlogSchema({
       }
     : null
 
+  // Standalone Person schema — strengthens E-E-A-T author entity per §168
+  const personSchema = author
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Person',
+        name: author.name,
+        url: `https://www.zasupport.com/author/${authorSlug}`,
+        jobTitle: author.role,
+        worksFor: {
+          '@type': 'Organization',
+          name: 'ZA Support',
+          url: 'https://www.zasupport.com',
+        },
+        sameAs: [
+          author.linkedin,
+          author.tiktok,
+          author.twitter,
+          author.facebook,
+          author.instagram,
+        ].filter(Boolean),
+        knowsAbout: [
+          'Apple Mac repair',
+          'MacBook logic board repair',
+          'Apple liquid damage recovery',
+          'MacBook Pro component-level repair',
+          'Apple device diagnostics',
+          'JAMF MDM',
+          'Apple enterprise fleet management',
+        ],
+      }
+    : null
+
   return (
     <>
       <script
@@ -163,6 +195,12 @@ export function BlogSchema({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {personSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
         />
       )}
     </>
