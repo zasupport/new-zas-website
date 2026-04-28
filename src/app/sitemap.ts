@@ -522,5 +522,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/netcare-rosebank-apple-it-support`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/sunninghill-hospital-mac-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/same-day-macbook-repair-doctors-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-repair-midstream-estate`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

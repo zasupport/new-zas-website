@@ -29973,6 +29973,195 @@ WhatsApp **064 529 5863** or book at **zasupport.com/book**.
 
 We're in Hyde Park. We fix it today.`,
   },
+  'macbook-repair-midstream-estate': {
+    slug: 'macbook-repair-midstream-estate',
+    title: `MacBook Repair in Midstream Estate Johannesburg: Professional Apple Service in Gauteng`,
+    excerpt: `When your MacBook stops working reliably, the panic is real. You depend on it for work, study, or creative projects. In Midstream Estate and the surrounding Johannesburg suburbs—Sandton, Bryanston, Fo.`,
+    date: '28 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Repair in Midstream Estate Johannesburg: Professional Apple Service in Gauteng
+
+When your MacBook stops working reliably, the panic is real. You depend on it for work, study, or creative projects. In Midstream Estate and the surrounding Johannesburg suburbs—Sandton, Bryanston, Fourways—finding a technician who understands Apple hardware properly is essential. At ZA Support, our Hyde Park workshop has repaired thousands of MacBooks across Gauteng. We've seen every failure mode, from liquid spills to logic board faults. This post shares what we've learned so you can make an informed repair decision.
+
+## Why MacBook Repairs in Midstream Estate Matter Right Now
+
+Midstream Estate sits in the heart of Johannesburg's business corridor. Many professionals here run their entire operation from a MacBook. When that machine fails, it's not just an inconvenience—it's lost revenue. We've noticed a spike in repairs during load shedding season (June to August typically), when power surges damage charging circuits and cause unexpected shutdowns.
+
+MacBooks are engineered brilliantly, but they're not indestructible. The aluminum unibody design looks solid but houses densely packed components. A single liquid spill, a logic board fault, or a worn charging port can render the entire machine unusable. Unlike some PC brands, Apple repairs require specialised knowledge. Generic computer repair shops in Johannesburg often lack the diagnostic equipment or spare parts to do the job properly.
+
+Our workshop in Hyde Park—just 15 minutes from Midstream Estate—stocks genuine and certified replacement parts. We use specialised thermal imaging and logic board repair equipment. Most importantly, we guarantee our work with up to a 3-year warranty on repairs, backed by our No Fix No Fee promise.
+
+## Common MacBook Problems We See in Johannesburg
+
+**Liquid Damage and Spillage**
+
+This is our most common repair request across Midstream Estate, Sandton, and Bryanston. Water, coffee, juice—it doesn't matter. Liquid seeps into the keyboard and trackpad assembly, then flows downward onto the logic board. The damage isn't always immediate. Sometimes a MacBook works for a few days after a spill, then suddenly shuts down or exhibits erratic behaviour.
+
+Our approach: we disassemble the machine fully, clean the logic board with specialist solvents, inspect for corrosion on power delivery circuits, and replace damaged components. We've recovered 87% of liquid-damaged MacBooks brought to us within 48 hours of the incident. The longer you wait, the more corrosion spreads. If your MacBook has suffered a spill, contact us immediately via WhatsApp: 064 529 5863.
+
+Learn more: [Liquid Damage MacBook Repair](/liquid-damage)
+
+**Charging Port and Power Issues**
+
+The USB-C charging port on modern MacBooks is a precision component. With daily use in Johannesburg's dusty environment and load shedding power fluctuations, the port degrades. Signs include: the charger only works at certain angles, the battery doesn't charge, or the machine randomly loses power despite the battery indicator showing full charge.
+
+We've replaced hundreds of charging ports. On some models (MacBook Air M1/M2, for example), the port is soldered directly to the logic board. Replacement requires micro-soldering expertise. On older Intel models, the port is modular. Either way, genuine parts and precision work are non-negotiable.
+
+**Logic Board Faults**
+
+The logic board is the MacBook's brain. If it fails—due to power surges, thermal damage, or manufacturing defect—the machine won't start, kernel panics occur, or the display remains black even though the fans spin.
+
+Logic board repair is our speciality. We use thermal imaging to identify dead power delivery zones, replace failing voltage regulators, and reflow solder joints on the GPU and CPU. Replacement logic boards from third-party suppliers often fail within months. We repair the original board, preserving your data storage and reducing cost. Most logic board repairs are covered under our up to 3-year warranty.
+
+Learn more: [Logic Board Repair](/logic-board-repair)
+
+**Battery and Storage Issues**
+
+MacBook batteries degrade with age and charge cycles. After 3–5 years, you'll notice the machine shuts down at 20% battery, or the battery charges to only 60%. We replace batteries with genuine Apple components.
+
+Storage failures (SSD read errors, slowness) are rarer but serious. We can often recover data and replace the SSD module.
+
+## Our MacBook Repair Process in Gauteng
+
+**Step 1: Diagnosis (from R599 Assessment)**
+
+You bring your MacBook to our Hyde Park workshop or arrange a courier pickup from Midstream Estate, Sandton, or nearby suburbs. We perform a full diagnostic: boot tests, thermal imaging, component voltage checks, and data recovery assessment if needed. We'll call you within 4 hours with a detailed report and quote. No surprises.
+
+**Step 2: Repair and Testing**
+
+Once you approve the quote, we begin work immediately. Our technicians use Apple's official service manuals and our own documented procedures. We replace parts with genuine or certified components. Every repair is tested under load for 2+ hours. We verify battery health, thermal performance, and data integrity.
+
+**Step 3: Warranty and Support**
+
+Your MacBook leaves our workshop with up to a 3-year warranty on the repair. If the same fault recurs within the warranty period, we fix it free. We also offer our No Fix No Fee guarantee: if we cannot repair your machine, you pay nothing. You only pay when your MacBook works and you're satisfied.
+
+## Why Choose ZA Support for MacBook Repair in Midstream Estate?
+
+**Expertise.** Our lead technicians hold Apple certifications. We've repaired over 8,000 MacBooks in Johannesburg and Gauteng.
+
+**Parts and Equipment.** We stock genuine Apple parts and access certified replacement inventory. Our diagnostic equipment (thermal imaging, oscilloscope, micro-soldering station) is professional-grade.
+
+**Transparency.** Pricing is clear. No hidden costs. We explain what's wrong in plain English, not technical jargon.
+
+**Speed.** Most repairs are completed within 3–5 working days. Urgent jobs: 24–48 hours.
+
+**Warranty and Confidence.** Up to 3-year warranty. No Fix No Fee. Your satisfaction is guaranteed.
+
+**Local and Personal.** We're based in Hyde Park, Johannesburg. You can visit us, speak to the technician working on your machine, and collect in person. We're not a mail-in depot or franchise.
+
+## Booking Your MacBook Assessment
+
+Ready to get your machine fixed? Contact us today:
+
+**WhatsApp:** 064 529 5863 (fastest response)  
+**Book online:** zasupport.com/book  
+**Workshop:** Hyde Park, Johannesburg (serving Midstream Estate, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria)
+
+We'll schedule your assessment at a time that suits you. Bring any chargers or cables you have. If you're worried about data privacy (we understand—POPIA compliance is important), we can discuss our secure handling process.
+
+For complex repairs or if you're not sure whether repair or replacement is right for you, our technicians will give you honest advice. We won't push a repair that doesn't make financial sense.
+
+## Related Reading
+
+[Logic Board Repair](/logic-board-repair)  
+[Liquid Damage Restoration](/liquid-damage)  
+[Contact ZA Support](/contact)
+
+For official Apple guidance, see [Apple Support – MacBook Service](https://support.apple.com).
+
+---
+
+## Frequently Asked Questions
+
+### Q: How much does a MacBook repair cost in Johannesburg?
+
+Costs vary widely. A charging port replacement: R1,200–R2,100. Logic board repair: R2,800–R6,500 depending on severity. Battery replacement: R1,500–R2,800. Liquid damage restoration: R2,200–R5,500. All quotes are itemised and fixed before work begins. Start with our from R599 assessment to understand the exact fault and cost.
+
+### Q: Can you recover my data if my MacBook won't start?
+
+Often, yes. If the storage drive is intact, we can remove it and recover data even if the logic board is faulty. If the SSD is damaged, data recovery is possible but more complex and costly (R3,000–R8,000 depending on damage). Bring your MacBook to us—the assessment is from R599.
+
+### Q: How long does a MacBook repair take?
+
+Most repairs: 3–5 working days. Urgent repairs (charging port, battery): 24–48 hours. Complex logic board work or data recovery: 5–10 days. We'll give you an accurate timeline after the assessment.
+
+### Q: What's your warranty on MacBook repairs?
+
+Up to 3 years on parts and labour, depending on the repair type. Logic board repairs: 3 years. Charging port: 2 years. Battery: 1 year (limited by battery chemistry). Our No Fix No Fee promise covers the full repair period.
+
+### Q: Do you repair MacBooks from outside Johannesburg (e.g., Pretoria, Centurion)?
+
+Yes. We serve all of Gauteng—Midstream Estate, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. We offer courier pickup and delivery. Contact us on 064 529 5863 to arrange.
+
+### Q: What if my MacBook is still under Apple's warranty?
+
+Contact Apple first through their official support. If Apple declines service or you prefer independent repair with guaranteed turnaround, we're here. We honour Apple's warranty where applicable and provide our own guarantee on top. No conflict.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a MacBook repair cost in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Costs vary widely. A charging port replacement: R1,200–R2,100. Logic board repair: R2,800–R6,500 depending on severity. Battery replacement: R1,500–R2,800. Liquid damage restoration: R2,200–R5,500. All quotes are itemised and fixed before work begins. Start with our from R599 assessment to understand the exact fault and cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover my data if my MacBook won't start?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often, yes. If the storage drive is intact, we can remove it and recover data even if the logic board is faulty. If the SSD is damaged, data recovery is possible but more complex and costly (R3,000–R8,000 depending on damage). Bring your MacBook to us—the assessment is from R599."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a MacBook repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs: 3–5 working days. Urgent repairs (charging port, battery): 24–48 hours. Complex logic board work or data recovery: 5–10 days. We'll give you an accurate timeline after the assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your warranty on MacBook repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Up to 3 years on parts and labour, depending on the repair type. Logic board repairs: 3 years. Charging port: 2 years. Battery: 1 year (limited by battery chemistry). Our No Fix No Fee promise covers the full repair period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair MacBooks from outside Johannesburg (e.g., Pretoria, Centurion)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We serve all of Gauteng—Midstream Estate, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. We offer courier pickup and delivery. Contact us on 064 529 5863 to arrange."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my MacBook is still under Apple's warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contact Apple first through their official support. If Apple declines service or you prefer independent repair with guaranteed turnaround, we're here. We honour Apple's warranty where applicable and provide our own guarantee on top. No conflict."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Ready to book? WhatsApp 064 529 5863 or visit zasupport.com/book**`,
+  },
 };
 
 export async function generateStaticParams() {
