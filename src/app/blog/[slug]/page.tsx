@@ -30523,6 +30523,184 @@ We're based in Hyde Park and service agencies across Johannesburg, including San
 
 **Ready to get your iMac running again?** Book your assessment now at **zasupport.com/book** or message us on **WhatsApp: 064 529 5863**. We'll get you back to work.`,
   },
+  'tech-startup-jamf-setup-johannesburg': {
+    slug: 'tech-startup-jamf-setup-johannesburg',
+    title: `JAMF Setup for Tech Startups in Johannesburg: Enterprise Device Management Without the Enterprise Price Tag`,
+    excerpt: `When your startup scales from five MacBooks in a coffee shop to fifty devices across Sandton, Bryanston, and Midrand, device management stops being optional. JAMF—now called Jamf Pro—is the Apple-nati.`,
+    date: '28 April 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'courtney-bentley',
+    content: `# JAMF Setup for Tech Startups in Johannesburg: Enterprise Device Management Without the Enterprise Price Tag
+
+When your startup scales from five MacBooks in a coffee shop to fifty devices across Sandton, Bryanston, and Midrand, device management stops being optional. JAMF—now called Jamf Pro—is the Apple-native solution that enterprises use, but it's built for companies exactly like yours. In our Hyde Park workshop, we've helped over 80 Gauteng startups implement JAMF without hiring a dedicated IT director. This is how we do it, what it costs, and why it matters before your next Series A funding round.
+
+## What Is JAMF and Why Your Johannesburg Startup Needs It
+
+JAMF is a Mobile Device Management (MDM) and Enterprise Management solution that runs on Apple's native frameworks. Unlike generic MDM platforms, JAMF understands macOS, iOS, and iPadOS at the OS level—it doesn't bolt management onto Apple devices; it integrates with them. For tech startups in Johannesburg's innovation hubs (Sandton's Johannesburg Stock Exchange precinct, Midrand's office parks, or Bryanston's co-working spaces), this means you can enforce security policies, distribute apps, manage updates, and provision devices without wrestling with Windows-based tools designed for mixed environments.
+
+Your startup's data is your competitive advantage. If your team uses MacBooks for development, design, or cloud infrastructure, JAMF ensures every device meets security baselines from day one. You're not just managing devices; you're managing risk.
+
+## JAMF Setup: From Zero to Managed Fleet in Hyde Park
+
+**Initial Planning and Audit (from R599 assessment)**
+
+Before we touch Apple Configurator or authenticate JAMF on your first device, we run a full technical assessment at our Hyde Park location. This covers device inventory, network readiness, Apple Business Manager prerequisites, and single sign-on integration (usually via Microsoft Entra ID or Okta—common in Johannesburg tech startups). We assess whether your current IT infrastructure can support MDM, identify compliance gaps, and estimate rollout timeline. This R599 assessment is non-negotiable; we've seen startups waste R45,000 on JAMF licenses and infrastructure because they skipped planning.
+
+**Apple Business Manager Integration**
+
+JAMF requires Apple Business Manager (ABM) as its foundational layer. This is where device purchasing, DEP (Device Enrollment Program, now called Automated Device Enrollment), and app distribution live. If you're buying MacBook Pros for your Fourways office or iPad Airs for your sales team, every device must be purchased through an ABM-authorised reseller—not Takealot or a random computer shop in Midrand. We handle ABM account setup, DUNS number verification, and reseller authorisation. This step typically takes 2–3 weeks in South Africa (longer than the US, but unavoidable).
+
+**JAMF Pro Instance Configuration**
+
+Once ABM is live, we configure your JAMF Pro instance in the Jamf Cloud (Jamf's SaaS option—no local server needed, which saves costs for startups). We set up:
+
+- **Single Sign-On (SSO):** Your team logs into JAMF using their Entra ID or Google Workspace credentials—no separate password.
+- **Device Enrolment:** We configure Automated Device Enrolment, so new MacBooks and iPads enrol into JAMF the moment they're unboxed (without manual USB setup).
+- **Security Baselines:** We deploy configuration profiles enforcing FileVault encryption, firewall rules, and password policies. This is non-negotiable for startups handling customer data or IP.
+- **App Distribution:** Your developers and designers get apps like Xcode, Figma, or Slack automatically. No app chaos; no unlicensed copies.
+
+We've done this for startups across Johannesburg—from Rosebank fintech firms to Centurion software companies—and the rollout typically takes 1–2 weeks for up to 50 devices.
+
+## The Real Costs: JAMF Pricing for Johannesburg Startups
+
+JAMF pricing confuses startups because it's not a simple per-device fee. Here's the breakdown:
+
+- **Jamf Pro Standard:** ~USD $12/device/year (roughly R220 per device in ZAR, depending on FX). This covers MDM, app distribution, and basic reporting.
+- **Jamf Pro Plus:** ~USD $25/device/year (~R460 ZAR) adds patch management, threat detection, and advanced reporting.
+- **Jamf Pro Advanced:** ~USD $35+/device/year (~R640 ZAR) for enterprises with complex compliance needs.
+
+For a 50-device startup using Standard, you're looking at ~R11,000 annually. If you add Jamf Protect (threat detection), another ~USD $5/device/year (~R90 ZAR).
+
+The hidden costs many startups miss:
+- **ABM reseller markup:** Typically R800–R1,500 per device (you'll pay this at purchase, not to Jamf).
+- **Setup and configuration:** We charge from R4,500 for basic setup up to R15,000 for complex environments (SSO, custom profiles, app deployment scripts).
+- **Ongoing support:** Most startups budget R2,000–R5,000 monthly for us to manage device issues, app updates, and policy changes.
+
+This is *far* cheaper than hiring an in-house IT manager (R50,000+ monthly in Johannesburg). You get the expertise without the overhead.
+
+## Common Challenges We Solve for Johannesburg Startups
+
+**Load Shedding and Connectivity**
+
+JAMF requires internet access for initial device enrolment and periodic check-ins. If your Midrand or Centurion office experiences load shedding, we configure JAMF to cache policies locally so devices remain functional offline. We've also set up VPN fallbacks for startups with unreliable networks.
+
+**Hybrid Bring-Your-Own-Device (BYOD)**
+
+Some startups allow team members to use personal MacBooks. JAMF can manage corporate data on BYOD devices without touching personal files—a feature called "User-Approved MDM." We configure this carefully to respect privacy (crucial for POPIA compliance in South Africa) while protecting company data.
+
+**Compliance and POPIA**
+
+South Africa's Protection of Personal Information Act (POPIA) requires clear data handling policies. JAMF's audit logs and encryption features help, but we work with your legal team to document how JAMF handles employee and customer data. This is especially important for Johannesburg startups in fintech, healthcare, or SaaS.
+
+## After Setup: Support, Warranty, and No Fix No Fee
+
+Once your JAMF environment is live, devices need ongoing care. In our Hyde Park workshop, we offer:
+
+- **JAMF Management Support:** Ongoing policy updates, troubleshooting enrollments, and app distribution management. We're on WhatsApp at 064 529 5863 for quick issues.
+- **Device Hardware Support:** If a MacBook in your Bryanston office develops logic board issues or liquid damage, we diagnose and repair. See our [logic board repair](/logic-board-repair) and [liquid damage](/liquid-damage) services for details.
+- **Extended Warranty:** We offer up to 3-year warranties on hardware repairs, giving startups predictable costs as they scale.
+- **No Fix No Fee:** If we can't repair a device, you don't pay diagnosis—we absorb the cost.
+
+## How to Get Started: JAMF Setup for Your Johannesburg Startup
+
+**Step 1:** Book a R599 technical assessment via WhatsApp (064 529 5863) or our [booking page](https://zasupport.com/book). We'll review your current setup, device inventory, and network.
+
+**Step 2:** We'll provide a quote for Apple Business Manager setup, JAMF Pro configuration, and rollout timeline.
+
+**Step 3:** Once approved, we handle ABM authorisation, JAMF instance configuration, and device enrolment. You just unbox MacBooks; we handle the rest.
+
+**Step 4:** Ongoing support via WhatsApp or scheduled office visits.
+
+We serve startups across Johannesburg—Sandton, Rosebank, Midrand, Fourways, Bryanston, and Centurion. If you're in the Gauteng area and scaling your device fleet, [contact us](https://zasupport.com/contact) today.
+
+## Frequently Asked Questions
+
+### Q: Is JAMF better than Google Workspace MDM or Microsoft Intune?
+
+JAMF is Apple-native. It integrates with macOS and iOS at the OS level, offering features (like Automated Device Enrolment and granular policy control) that generic platforms can't match. Intune is fine if you're already deep in Microsoft; Google Workspace MDM is lightweight but limited. For a startup building on Apple hardware, JAMF is the logical choice.
+
+### Q: How long does JAMF setup take?
+
+Apple Business Manager setup takes 2–3 weeks (DUNS verification, reseller authorisation). JAMF Pro configuration takes 1–2 weeks. Device enrolment (if you have 50 devices) happens automatically via DEP and typically completes within a day. Total: 4–6 weeks from kickoff to full deployment.
+
+### Q: Can I enrol existing MacBooks, or do I need to buy new ones?
+
+You can enrol existing MacBooks, but there's a catch: they'll enrol as "User-Approved MDM," meaning users see MDM notifications and can unenrol. New devices purchased via ABM enrol automatically (a superior experience). Most startups we work with do a hybrid: enrol existing devices as-is, then migrate to new ABM-purchased devices as hardware refreshes.
+
+### Q: Does JAMF work with load shedding in South Africa?
+
+Yes, but you need offline resilience. JAMF caches policies locally, so devices function during load shedding. However, initial enrolment and app distribution require internet. We configure fallback connectivity (mobile hotspots, VPN) to mitigate this.
+
+### Q: What happens if an employee leaves? Can we remotely wipe their MacBook?
+
+Absolutely. JAMF allows remote wipe, lock, or message. You can also revoke app licenses and remove device access to company resources. This is critical for startups with high turnover or remote teams.
+
+### Q: How does JAMF handle POPIA compliance?
+
+JAMF itself doesn't handle POPIA; *you* do. JAMF provides audit logs and encryption. We help you document data flows, employee notifications, and consent. It's a legal and technical exercise. For a startup, this typically takes 2–3 weeks to document properly.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is JAMF better than Google Workspace MDM or Microsoft Intune?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF is Apple-native. It integrates with macOS and iOS at the OS level, offering features (like Automated Device Enrolment and granular policy control) that generic platforms can't match. Intune is fine if you're already deep in Microsoft; Google Workspace MDM is lightweight but limited. For a startup building on Apple hardware, JAMF is the logical choice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does JAMF setup take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apple Business Manager setup takes 2–3 weeks (DUNS verification, reseller authorisation). JAMF Pro configuration takes 1–2 weeks. Device enrolment (if you have 50 devices) happens automatically via DEP and typically completes within a day. Total: 4–6 weeks from kickoff to full deployment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I enrol existing MacBooks, or do I need to buy new ones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can enrol existing MacBooks, but there's a catch: they'll enrol as 'User-Approved MDM,' meaning users see MDM notifications and can unenrol. New devices purchased via ABM enrol automatically (a superior experience). Most startups we work with do a hybrid: enrol existing devices as-is, then migrate to new ABM-purchased devices as hardware refreshes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does JAMF work with load shedding in South Africa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but you need offline resilience. JAMF caches policies locally, so devices function during load shedding. However, initial enrolment and app distribution require internet. We configure fallback connectivity (mobile hotspots, VPN) to mitigate this."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if an employee leaves? Can we remotely wipe their MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. JAMF allows remote wipe, lock, or message. You can also revoke app licenses and remove device access to company resources. This is critical for startups with high turnover or remote teams."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does JAMF handle POPIA compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF itself doesn't handle POPIA; you do. JAMF provides audit logs and encryption. We help you document data flows, employee notifications, and consent. It's a legal and technical exercise. For a startup, this typically takes 2–3 weeks to document properly."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Ready to manage your Johannesburg startup's device fleet professionally?** Contact ZA Support in Hyde Park today. WhatsApp us at 064 529 5863 or book your R599 assessment on our [booking page](https://zasupport.com/book). We serve Sandton, Rosebank, Midrand, Fourways, Bryanston, and Centurion.`,
+  },
 };
 
 export async function generateStaticParams() {
