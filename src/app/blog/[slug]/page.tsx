@@ -30162,6 +30162,201 @@ Contact Apple first through their official support. If Apple declines service or
 
 **Ready to book? WhatsApp 064 529 5863 or visit zasupport.com/book**`,
   },
+  'jamf-implementation-sandton-johannesburg': {
+    slug: 'jamf-implementation-sandton-johannesburg',
+    title: `JAMF Implementation in Sandton Johannesburg: Enterprise Mobile Device Management for Gauteng Businesses`,
+    excerpt: `When a business across Sandton, Bryanston, or Midrand needs to manage hundreds of Apple devices—iPhones, iPads, MacBooks—across their workforce, JAMF becomes essential infrastructure. We've helped Gau.`,
+    date: '28 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# JAMF Implementation in Sandton Johannesburg: Enterprise Mobile Device Management for Gauteng Businesses
+
+When a business across Sandton, Bryanston, or Midrand needs to manage hundreds of Apple devices—iPhones, iPads, MacBooks—across their workforce, JAMF becomes essential infrastructure. We've helped Gauteng enterprises deploy JAMF configurations in our Hyde Park workshop and remotely, and the difference between a rushed rollout and a structured implementation is the difference between chaos and control.
+
+This post covers what JAMF implementation actually involves, why Sandton businesses choose it, common pitfalls we see, and how to avoid them.
+
+## What Is JAMF and Why Sandton Enterprises Need It
+
+JAMF (Jamf Pro) is Mobile Device Management (MDM) software that lets organisations control, monitor, and secure Apple devices at scale. If you have 50 iPhones in your Sandton office, or MacBooks distributed across Fourways, Centurion, and Pretoria, JAMF lets your IT team push configurations, enforce security policies, wipe lost devices remotely, and generate compliance reports—all from a single dashboard.
+
+Johannesburg's regulatory environment—including POPIA compliance for customer data handling—makes this critical. We've worked with financial services firms in Rosebank, law practices in Sandton, and tech companies in Midrand who discovered mid-crisis that their devices weren't uniformly secured. JAMF prevents that scenario.
+
+The typical workflow: your IT team configures policies in JAMF, devices enrol (either user-driven or automated), and policies deploy silently. Users see nothing except the device working slightly differently—apps appear, VPN configurations activate, screen-lock rules tighten.
+
+## JAMF Implementation: The Core Steps
+
+### Planning and Audit
+Before deployment, we recommend a full device audit. How many Macs? Which iOS versions? Are your iPhones iPhone 12s from 2020, or a mix including iPhone 14s? We've seen Sandton businesses assume device uniformity, only to discover inconsistencies that break deployment.
+
+The audit typically takes 2–3 weeks. We document existing configurations, security gaps, and compliance risks. From our Hyde Park workshop, we've handled audits remotely for clients across Gauteng—no on-site visit necessary if your network permits.
+
+Cost: from R599 assessment (in-workshop) or R799 remote audit with detailed report.
+
+### JAMF Server Setup and Configuration
+JAMF Pro can run on-premises or via Jamf Cloud. Most Sandton and Midrand businesses choose Jamf Cloud for simplicity—no server hardware, automatic backups, Jamf handles patches.
+
+Configuration involves:
+- Creating user groups and device groups
+- Defining security policies (password requirements, encryption, app restrictions)
+- Building profiles for Wi-Fi, email, VPN
+- Setting up push notifications so devices receive policies instantly
+
+This phase takes 1–2 weeks. We coordinate with your IT lead, document every policy, and test with 5–10 pilot devices before full rollout.
+
+### Device Enrolment Strategy
+Enrolment is how devices join JAMF. Options include:
+
+**User-Initiated Enrolment:** Employees visit a portal, download a profile, and enrol themselves. Fastest, requires minimal IT effort, but depends on user cooperation.
+
+**Automated Enrolment (DEP):** If devices are purchased via Apple Business Manager, they can enrol automatically when first powered on. Zero user friction. This is what we recommend for Fourways and Bryanston offices where IT controls procurement.
+
+**Manual Enrolment:** IT enrolls devices one-by-one. Slowest, but necessary if devices are already in use and weren't purchased through Apple Business Manager.
+
+Most Sandton enterprises use a hybrid: new devices auto-enrol via DEP, existing devices user-enrol.
+
+### Pilot Deployment
+Never roll out JAMF to 200 devices on day one. We always recommend a 10–20 device pilot. Real users, real workflows. This catches policy conflicts—for example, a restrictive app-blocking rule that prevents a critical business app from running.
+
+Pilot duration: 1–2 weeks. Feedback feeds back into policy refinement.
+
+### Full Rollout and Monitoring
+Once policies prove stable, enrolment scales. We handle communication with users, troubleshooting, and real-time monitoring. Our team in Hyde Park can remotely access your JAMF dashboard, check enrolment status, and resolve issues—for instance, if a Pretoria office reports devices not receiving Wi-Fi profiles.
+
+Ongoing monitoring typically runs 2–4 weeks post-rollout, then transitions to your in-house team or our managed service.
+
+## Common JAMF Implementation Mistakes We See
+
+**Overly Restrictive Policies:** Some businesses lock down devices so aggressively that users can't do their jobs. A law firm in Rosebank once blocked all USB drives, breaking a critical compliance workflow. We helped recalibrate: USB allowed for specific devices, blocked for others.
+
+**Ignoring Device Diversity:** A MacBook Air running macOS 12 behaves differently from a MacBook Pro on macOS 14. Policies must account for this, or you'll see adoption failures in Centurion where older hardware is still in use.
+
+**Weak Enrolment Communication:** Users don't understand why their device suddenly requires a profile. We always provide clear, jargon-free comms: "Your device will now auto-lock after 5 minutes and require a passcode. This protects company data if your device is lost."
+
+**No Rollback Plan:** If policies cause issues, can you unenrol and restore? Yes, but only if you've documented the pre-JAMF state. We always recommend a 48-hour rollback window post-deployment.
+
+## JAMF Implementation Costs and Timeline
+
+**Service Fees (ZAR):**
+- Initial audit and planning: R3,500–R5,500
+- JAMF Pro setup and configuration: R7,500–R12,000
+- Pilot deployment and testing: R2,500–R4,000
+- Full rollout management: R5,000–R10,000
+- 30-day post-deployment support: R2,000–R3,500
+
+**JAMF Licensing (per device, annual):**
+- Jamf Pro: ~R2,800–R4,200 per device per year (USD pricing converted)
+- Jamf Care+ (support): ~R1,400–R2,100 per device per year
+
+**Timeline:** 6–12 weeks for a medium enterprise (50–200 devices) from initial audit to stable production.
+
+## Why ZA Support Handles JAMF in Sandton and Across Gauteng
+
+We're based in Hyde Park, but our expertise spans Sandton, Bryanston, Midrand, Fourways, Centurion, Pretoria, and surrounding suburbs. We've implemented JAMF for financial services, legal firms, tech startups, and healthcare providers. We understand Johannesburg's network quirks, load shedding impacts on cloud connectivity, and POPIA requirements.
+
+We also offer a **No Fix No Fee guarantee** on our deployment services. If JAMF isn't functioning as specified at go-live, we remediate at no extra cost.
+
+Warranty on configuration work: up to 3-year coverage, depending on support tier.
+
+## Getting Started
+
+Contact us via WhatsApp (**064 529 5863**) to discuss your device estate and JAMF goals. We'll schedule a free 20-minute discovery call—no obligation—and provide a tailored quote.
+
+Or [book an in-person consultation at our Hyde Park workshop](https://zasupport.com/book).
+
+For deeper MDM knowledge, consult [Apple's Mobile Device Management guide](https://support.apple.com/en-gb/guide/mdm-loginhome/welcome/web) or explore [iFixit's device guides](https://www.ifixit.com) for hardware context.
+
+If your JAMF infrastructure has hardware components (Mac servers, network equipment), we also handle [logic board repair](/logic-board-repair) and [liquid damage recovery](/liquid-damage) for affected devices.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Do we need JAMF if we have only 20 iPhones?
+JAMF is most cost-effective at 50+ devices. For smaller fleets, Apple Business Manager's basic MDM features may suffice. We recommend a [from R599 assessment](/contact) to evaluate your actual needs.
+
+### Q: Can JAMF wipe a lost device remotely?
+Yes. You can remotely lock or erase a device from the JAMF dashboard. This is one of JAMF's strongest security features, particularly for Johannesburg businesses handling sensitive data.
+
+### Q: What happens if a user leaves the company?
+JAMF lets you unenrol their device in seconds, removing company profiles and data. The device returns to a "blank slate" state (if you choose full wipe) or retains personal data (if partial unenrol).
+
+### Q: Does JAMF work with Windows or Android?
+JAMF Pro supports Windows and Android, but it excels with Apple devices. If you need cross-platform MDM, JAMF handles it, but configuration is more complex. We can advise during your audit.
+
+### Q: How often should we update JAMF policies?
+Quarterly reviews are standard. Security threats evolve, and your business changes (new apps, compliance rules, office relocations across Gauteng). We include quarterly policy reviews in our managed service tier.
+
+### Q: Is JAMF setup difficult if we have no IT staff?
+JAMF requires technical knowledge, which is why we exist. Most Sandton and Midrand businesses partner with us rather than attempting solo deployment. We handle the entire lifecycle so your team focuses on core work.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do we need JAMF if we have only 20 iPhones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF is most cost-effective at 50+ devices. For smaller fleets, Apple Business Manager's basic MDM features may suffice. We recommend a from R599 assessment to evaluate your actual needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can JAMF wipe a lost device remotely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can remotely lock or erase a device from the JAMF dashboard. This is one of JAMF's strongest security features, particularly for Johannesburg businesses handling sensitive data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if a user leaves the company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF lets you unenrol their device in seconds, removing company profiles and data. The device returns to a blank slate state (if you choose full wipe) or retains personal data (if partial unenrol)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does JAMF work with Windows or Android?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF Pro supports Windows and Android, but it excels with Apple devices. If you need cross-platform MDM, JAMF handles it, but configuration is more complex. We can advise during your audit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should we update JAMF policies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quarterly reviews are standard. Security threats evolve, and your business changes (new apps, compliance rules, office relocations across Gauteng). We include quarterly policy reviews in our managed service tier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is JAMF setup difficult if we have no IT staff?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JAMF requires technical knowledge, which is why we exist. Most Sandton and Midrand businesses partner with us rather than attempting solo deployment. We handle the entire lifecycle so your team focuses on core work."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Ready to implement JAMF securely across your Johannesburg business?**
+
+WhatsApp us: **064 529 5863**  
+[Book a consultation at our Hyde Park workshop](https://zasupport.com/book)  
+[Contact ZA Support for more details](/contact)`,
+  },
 };
 
 export async function generateStaticParams() {
