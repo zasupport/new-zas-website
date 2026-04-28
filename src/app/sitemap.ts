@@ -524,5 +524,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/same-day-macbook-repair-doctors-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-repair-midstream-estate`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/jamf-implementation-sandton-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/marketing-agency-imac-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
