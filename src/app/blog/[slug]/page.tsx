@@ -29779,6 +29779,200 @@ We're open weekdays and select Saturdays. Check [zasupport.com/book](https://zas
 \`\`\`
 `,
   },
+  'same-day-macbook-repair-doctors-johannesburg': {
+    slug: 'same-day-macbook-repair-doctors-johannesburg',
+    title: `Same-Day MacBook Repair for Doctors in Johannesburg: Why We're Your Workshop Solution`,
+    excerpt: `Doctors in Johannesburg live in a different operational reality than most professionals. Your MacBook isn't a convenience—it's clinical infrastructure. Patient records, diagnostic imaging, secure comm.`,
+    date: '28 April 2026',
+    category: 'Repairs',
+    readTime: '10 min read',
+    author: 'courtney-bentley',
+    content: `# Same-Day MacBook Repair for Doctors in Johannesburg: Why We're Your Workshop Solution
+
+Doctors in Johannesburg live in a different operational reality than most professionals. Your MacBook isn't a convenience—it's clinical infrastructure. Patient records, diagnostic imaging, secure communications, prescription management. When your MacBook fails, the practice doesn't just slow down. It stops.
+
+We've been running the ZA Support workshop in Hyde Park for seven years. In that time, we've repaired MacBooks for GPs in Sandton, specialists in Rosebank, and consultants working across Midrand and Fourways. The pattern is identical: doctors need fast, reliable repair *within hours*, not weeks. And they need transparent pricing with zero hidden costs.
+
+This post explains exactly what we do, how same-day repair actually works, and why the doctors we've worked with keep coming back.
+
+## Why Doctors Choose Same-Day MacBook Repair Over Mail-In Services
+
+The first thing most doctors ask is: "Can you do it today?" Mail-in repair services—even the authorised ones—take 5–14 days. For a GP managing a practice, that's impossible. You can't run patient schedules on a single iPad.
+
+Same-day repair isn't magic. It's logistics and stock. We keep logic boards, display assemblies, battery units, and keyboard modules in inventory. When you walk into our Hyde Park workshop, we diagnose the fault in front of you, quote a price within 30 minutes, and—for most jobs—hand you a working MacBook before 17:00.
+
+The trade-off is this: same-day repair works for common faults (battery replacement, keyboard repair, SSD upgrades, liquid damage recovery). Complex motherboard failures sometimes take two days. But we tell you that upfront, and we start work the same morning.
+
+No Fix No Fee applies to diagnosis and assessment. You pay from R599 for the assessment alone. If we repair the machine, that R599 comes off the final invoice. If we can't fix it—or if you choose not to proceed—you pay only the assessment and walk away.
+
+## MacBook Models We Repair for Medical Professionals
+
+The doctors we work with use three MacBook generations predominantly:
+
+**M1/M2/M3 MacBook Air and Pro (2020–2024)**
+These are the machines in most Johannesburg medical practices right now. They're fast, reliable, and built like tanks. But Apple's integrated design means one fault cascades: liquid spill on the keyboard → motherboard failure. We recover data from M-series machines even when the board looks dead. Logic board repair for M1/M2 typically costs R2,800–R4,200, and we complete it same-day.
+
+**Intel-era MacBook Pro (2015–2019)**
+Older practices still rely on these. They're robust, and components are cheaper. A keyboard replacement is R1,200. A battery swap is R1,600. If the logic board fails—and it does, especially after liquid damage—repair or data recovery usually takes one day in our workshop.
+
+**MacBook Air M2 (the most common fault machine)**
+We see M2 Air failures more than any other model. The culprit: thermal paste degradation under load. Doctors running Zoom calls, EHR software, and diagnostic tools simultaneously hit thermal throttling. The machine shuts down mid-consultation. We clean the thermal path, replace the paste, and pressure-test it. Same-day, R899.
+
+## Our Same-Day MacBook Repair Process: What Actually Happens
+
+When you arrive at our Hyde Park workshop, here's the sequence:
+
+**Step 1: Intake & Diagnosis (15 minutes)**
+You describe the fault. We ask specific questions: When did it fail? Any liquid exposure? Any drops? What software was running? We then run our diagnostic suite—hardware scan, SSD check, memory test. We identify the fault.
+
+**Step 2: Quote & Approval (15 minutes)**
+We walk you through the repair, show you the parts we'll replace, explain the warranty, and quote a fixed price. No surprises. You approve in writing. If it's going to take longer than same-day, we say so immediately.
+
+**Step 3: Repair (30 minutes – 4 hours depending on fault)**
+Our technician works on your machine. If you're local, we message you with updates. For keyboard repair or battery replacement, expect 1 hour. For [logic board repair](/logic-board-repair) or [liquid damage recovery](/liquid-damage), expect 2–4 hours.
+
+**Step 4: Testing & Handover**
+We test under load—run Zoom, open your EHR software (if you grant access), verify your data is intact. We run a thermal load test. We verify all USB ports, Thunderbolt connectivity, and camera function. You sign off and take the machine.
+
+**Step 5: Warranty**
+All repairs come with a 12-month warranty on the parts we replace. Critical repairs (motherboard work, liquid damage) qualify for our extended 3-year warranty for an additional R299.
+
+## Common MacBook Faults We Repair Same-Day in Johannesburg
+
+**Liquid Damage**
+Coffee spill, humidity from Johannesburg's load shedding room setup, even sweat from a hot day at the clinic. We isolate the damage, replace affected components, and recover your data. This is the one fault where "same-day" means "within 24 hours"—we need to dry the machine properly.
+
+**Keyboard & Trackpad Failure**
+Keys stop working. Trackpad becomes erratic. M1/M2 Air keyboards are R890 + labour. We replace, test, and hand back same-day. For older Intel MacBooks, we repair the keyboard mechanism itself—often R450–R650.
+
+**Battery Bloat & Shutdown**
+Your MacBook shuts down at 40% battery, or the case is visibly swollen. The battery is failing. We replace it (R1,600–R2,100 depending on model) and test over 2 hours to verify stability. Same-day.
+
+**SSD Failure or Upgrade**
+Your storage is full, or the SSD isn't being recognised. We diagnose, recover data if needed, and install a new SSD (or upgrade you to 1TB or 2TB). Same-day, R1,200–R3,200 depending on capacity.
+
+**Thermal Issues**
+The machine throttles under load, fans scream, or it shuts down after 30 minutes of use. We clean the thermal path, replace the paste, and pressure-test under simulated workload. R899, same-day.
+
+## Why Doctors Trust ZA Support Over Mail-In Repair
+
+Doctors need assurance. You're not buying a repair service; you're buying back the ability to see patients.
+
+We're locally based in Hyde Park, Johannesburg. You can visit the workshop, see the technician, watch the diagnosis. We're not a call centre in Cape Town or a shipping service in Durban. We're here.
+
+We understand medical compliance. We handle your MacBook as confidential. We don't require network access to patient data. We don't photograph your screens. If your machine contains sensitive patient information, we work offline and give you control.
+
+We price transparently. No "diagnostic fee" buried in the invoice. No surprise component costs. The quote we give you—from the R599 assessment onwards—is what you pay.
+
+We offer No Fix No Fee. If we can't repair it, you pay the assessment only. If you decide not to proceed after diagnosis, you pay the assessment only. No pressure to accept a repair you don't want.
+
+## Booking Same-Day MacBook Repair: Next Steps
+
+If your MacBook has failed and you need it working again—whether you're a GP in Sandton, a consultant in Rosebank, or a specialist working across Midrand—get in touch.
+
+Call or WhatsApp us on **064 529 5863**. Describe the fault. We'll tell you if we can fix it same-day, and we'll hold a slot for you.
+
+Or book online: **zasupport.com/book**. Choose your time, select "MacBook Repair," and we'll confirm within 2 hours.
+
+We're open Monday to Friday, 08:00–17:00, Saturday 09:00–13:00. We're located at Hyde Park, Johannesburg, with easy parking and access from Sandton, Bryanston, and Fourways.
+
+Your MacBook is your practice. We fix it.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does a same-day MacBook repair actually take?
+
+Most repairs take 1–4 hours. Battery replacement and keyboard repair are typically 1 hour. Logic board repair, liquid damage recovery, and thermal cleaning take 2–4 hours. When you arrive, we diagnose (15 minutes) and tell you the exact timeline. If it's going to exceed same-day, we're honest about it and offer to start work the next morning.
+
+### Q: What if my MacBook has patient data on it?
+
+We handle confidentiality carefully. We don't require network access. We don't photograph your screens or export files. If your SSD needs replacement, we migrate your data in-house, offline, using only hardware-level tools. You retain complete control. For POPIA compliance, we can provide a formal confidentiality declaration on request.
+
+### Q: Do you accept liquid-damaged MacBooks?
+
+Yes. Liquid damage is one of our most common repairs. We isolate the damage, identify affected components, replace them, recover your data, and test thoroughly. Most liquid damage repairs take 24 hours to allow proper drying and component verification. We offer a 3-year extended warranty for liquid damage repairs.
+
+### Q: What's your warranty on repairs?
+
+All repairs come with a 12-month parts warranty as standard. For critical repairs—motherboard work, liquid damage recovery, SSD replacement—we offer an extended 3-year warranty for an additional R299. This covers parts and labour if the same fault recurs.
+
+### Q: Can you upgrade my MacBook storage or RAM?
+
+Storage upgrades, yes. Most modern MacBooks have soldered RAM, so we can't upgrade that—but we can replace your SSD with a faster or larger unit. For example, we can upgrade an M2 Air from 256GB to 1TB for R2,100 total (including labour). We'll migrate your data and test thoroughly, same-day.
+
+### Q: What if I'm based in Centurion or Pretoria? Do you do remote diagnosis?
+
+We're based in Hyde Park but serve the greater Gauteng area including Centurion and Pretoria. For diagnosis and simple repairs, remote consultation is possible—we can walk you through basic troubleshooting via WhatsApp. For actual repairs, we ask you to bring the machine to our workshop or arrange courier delivery. Courier repair typically takes 3–5 working days because of transit time.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a same-day MacBook repair actually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most repairs take 1–4 hours. Battery replacement and keyboard repair are typically 1 hour. Logic board repair, liquid damage recovery, and thermal cleaning take 2–4 hours. When you arrive, we diagnose (15 minutes) and tell you the exact timeline. If it is going to exceed same-day, we are honest about it and offer to start work the next morning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my MacBook has patient data on it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We handle confidentiality carefully. We do not require network access. We do not photograph your screens or export files. If your SSD needs replacement, we migrate your data in-house, offline, using only hardware-level tools. You retain complete control. For POPIA compliance, we can provide a formal confidentiality declaration on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you accept liquid-damaged MacBooks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Liquid damage is one of our most common repairs. We isolate the damage, identify affected components, replace them, recover your data, and test thoroughly. Most liquid damage repairs take 24 hours to allow proper drying and component verification. We offer a 3-year extended warranty for liquid damage repairs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is your warranty on repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All repairs come with a 12-month parts warranty as standard. For critical repairs—motherboard work, liquid damage recovery, SSD replacement—we offer an extended 3-year warranty for an additional R299. This covers parts and labour if the same fault recurs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you upgrade my MacBook storage or RAM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Storage upgrades, yes. Most modern MacBooks have soldered RAM, so we cannot upgrade that—but we can replace your SSD with a faster or larger unit. For example, we can upgrade an M2 Air from 256GB to 1TB for R2,100 total (including labour). We will migrate your data and test thoroughly, same-day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I am based in Centurion or Pretoria? Do you do remote diagnosis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We are based in Hyde Park but serve the greater Gauteng area including Centurion and Pretoria. For diagnosis and simple repairs, remote consultation is possible—we can walk you through basic troubleshooting via WhatsApp. For actual repairs, we ask you to bring the machine to our workshop or arrange courier delivery. Courier repair typically takes 3–5 working days because of transit time."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Need same-day MacBook repair in Johannesburg?**
+
+WhatsApp **064 529 5863** or book at **zasupport.com/book**.
+
+We're in Hyde Park. We fix it today.`,
+  },
 };
 
 export async function generateStaticParams() {
