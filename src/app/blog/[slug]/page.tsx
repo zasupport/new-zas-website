@@ -32602,6 +32602,170 @@ A: Partially. Avoid exposure to liquid, extreme heat, and power surges (use a su
 }
 \`\`\``,
   },
+  'macbook-battery-replacement-fourways': {
+    slug: 'macbook-battery-replacement-fourways',
+    title: `MacBook Battery Replacement Fourways`,
+    excerpt: `We've seen countless MacBook users from Fourways and the surrounding Hyde Park area struggle with battery degradation, swollen batteries, and devices that won't hold a charge. At ZA Support, our senio.`,
+    date: '27 April 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Battery Replacement Fourways
+
+We've seen countless MacBook users from Fourways and the surrounding Hyde Park area struggle with battery degradation, swollen batteries, and devices that won't hold a charge. At ZA Support, our senior technicians understand that a failing battery doesn't just inconvenience you—it puts your data and hardware at risk. Whether you're experiencing kernel panic warnings, unexpected shutdowns, or a battery that drains within minutes, we're here to help with professional, transparent MacBook battery replacement services right here in Johannesburg.
+
+## Why Your MacBook Battery Fails
+
+Battery degradation is inevitable, but understanding why helps you protect your investment. Lithium-polymer batteries in MacBooks degrade through charge cycles. We've observed that most MacBook batteries begin showing real-world performance issues between 800 and 1,000 full charge cycles. However, environmental factors—heat exposure, constant fast charging, and leaving your device plugged in permanently—accelerate this timeline significantly.
+
+In our Fourways workshop, we've diagnosed batteries that have swollen to dangerous levels. Swelling occurs when lithium cells oxidise internally, creating gas buildup. This is a fire hazard and requires immediate professional attention. If you notice your trackpad feeling raised, your screen separating slightly from the base, or a visible bulge underneath your keyboard, **stop using the device immediately** and contact us for assessment.
+
+Thermal stress from blocked air vents also contributes to premature battery failure. Fourways residents often store MacBooks in warm environments or use them on soft surfaces that restrict airflow. We always recommend keeping your device in a cool, well-ventilated space and using a laptop stand when possible.
+
+## Our MacBook Battery Replacement Process
+
+Our workshop assessment begins with a comprehensive R599 diagnostic charge. This is never free—you're paying for our expertise and proper diagnosis using Apple-grade tools. We run coconutBattery analysis, check system logs for battery health metrics, and visually inspect the internal battery for swelling or damage.
+
+Once we confirm battery replacement is necessary, we provide transparent pricing based on your specific MacBook model:
+
+- **MacBook Air (2013–2021)**: R1,899–R2,499
+- **MacBook Air M1/M2/M3 (2021+)**: R2,699–R3,299
+- **MacBook Pro 13″ (Intel)**: R2,199–R2,899
+- **MacBook Pro 14″/16″ (M1/M2/M3)**: R3,499–R4,299
+
+All pricing includes labour, genuine replacement battery, and our 12-month parts warranty. We never use third-party batteries—your MacBook deserves original Apple components.
+
+The replacement itself takes 2–4 hours depending on your model. We remove the bottom case, disconnect the battery connector, remove adhesive tape securing the battery, and carefully extract the old cell. Installation involves repositioning the new battery, securing connectors, running diagnostics, and resealing your device. Throughout the process, we protect your data—we never access your files or require passwords.
+
+## Liquid Damage and Battery Issues in Gauteng
+
+We've encountered cases where Fourways residents believed their battery had failed, only to discover underlying [liquid damage](/liquid-damage) caused the failure. Coffee spills, accidental water exposure during load-shedding-related confusion, or humidity from Johannesburg's summer storms can corrode battery contacts and trigger false battery health warnings.
+
+If you've had any liquid exposure—even months ago—inform us during your assessment. Our technicians can inspect for oxidation on the battery connector and logic board before proceeding with replacement. Sometimes cleaning corroded contacts solves the problem without battery replacement, saving you money.
+
+## Why Choose ZA Support in Hyde Park
+
+We're based in Hyde Park, Johannesburg, serving Fourways and surrounding areas within our ≤60km coverage zone. This means faster turnaround, no courier delays, and face-to-face transparency about what your MacBook needs.
+
+Our senior technicians hold Apple certification credentials and work exclusively on Mac devices. We've completed over 2,000 battery replacements in the Gauteng region. We maintain genuine Apple parts inventory because we refuse to compromise on quality.
+
+Your 12-month warranty covers battery defect, labour, and any damage we cause during service—though this happens rarely thanks to our experience. We also provide pre-service and post-service coconutBattery reports, so you can verify your battery health improvement in writing.
+
+## Post-Replacement Battery Care
+
+After your battery replacement, we recommend resetting your MacBook's power management settings. Hold Control + Option + Command + P (Power) for 10 seconds while plugged in. This recalibrates your battery health percentage and clears any lingering firmware confusion about the old battery.
+
+Avoid leaving your MacBook plugged in constantly. Modern batteries manage themselves well, but keeping your device permanently at 100% charge reduces lifespan. Aim for the "sweet spot" of 20–80% charge during normal daily use.
+
+Enable reduced motion and reduce screen brightness where practical—these decrease power draw and heat generation. If you're a Fourways resident working from home, use an external monitor; it reduces your MacBook's processing load and battery stress.
+
+## Booking Your MacBook Battery Replacement
+
+**WhatsApp us on 064 529 5863** with your MacBook's year, model, and a photo of any visible damage or swelling. We'll provide an initial assessment and confirm appointment availability.
+
+Our workshop is open Monday to Friday, 08:00–17:00 SAST. We accept walk-ins for assessments, though booking ahead ensures we have your model's battery in stock.
+
+Payment options include EFT, card, and cash. We require the R599 assessment fee upfront; this is deducted from your total if you proceed with replacement.
+
+---
+
+## Frequently Asked Questions
+
+**1. Is my MacBook data safe during battery replacement?**
+
+Yes. We never access your files, require passwords, or perform any operations beyond battery removal and installation. Your data remains untouched. If you're concerned, enable FileVault encryption beforehand—it provides an additional security layer.
+
+**2. How long does a replacement battery actually last?**
+
+Genuine Apple batteries typically deliver 1,000+ full charge cycles before degrading to 80% health. In real-world use, this equals 3–5 years for daily users. Your warranty covers defects for 12 months from installation.
+
+**3. Can I replace a swollen battery myself?**
+
+No. Swollen batteries risk fire, explosion, and toxic fume release if mishandled. Always have a professional service a visibly damaged battery. DIY attempts in Johannesburg have resulted in hospital visits—don't risk it.
+
+**4. What if my MacBook is still under AppleCare+?**
+
+Check your coverage first. AppleCare+ typically covers battery replacement if health has degraded below 80%, though out-of-warranty degradation may incur charges. We can provide the assessment; you decide whether to claim through Apple or use our service.
+
+**5. Why do you charge R599 for assessment if service is straightforward?**
+
+Our assessment includes detailed health reporting, voltage testing, connector inspection, and system log analysis. This expertise prevents misdiagnosis. The R599 reflects genuine technical labour and Apple-grade diagnostic tools. It's transparent pricing—you know what you're paying for.
+
+**6. How often should I check my battery health?**
+
+Every 6 months for daily-use MacBooks. Download coconutBattery (free, trusted by professionals) and track your cycle count and health percentage. Contact us when health drops below 80% or cycles exceed 800 on devices older than 2–3 years.
+
+---
+
+## Contact ZA Support
+
+**Workshop Location**: Hyde Park, Johannesburg  
+**Service Area**: Fourways and Gauteng (≤60km from Hyde Park)  
+**WhatsApp**: 064 529 5863  
+**Assessment Fee**: R599 (non-refundable, deducted from service)  
+**Warranty**: 12 months on all replacements
+
+[Contact us today](/contact) for your MacBook battery assessment.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is my MacBook data safe during battery replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We never access your files, require passwords, or perform any operations beyond battery removal and installation. Your data remains untouched. If you're concerned, enable FileVault encryption beforehand—it provides an additional security layer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a replacement battery actually last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Genuine Apple batteries typically deliver 1,000+ full charge cycles before degrading to 80% health. In real-world use, this equals 3–5 years for daily users. Your warranty covers defects for 12 months from installation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I replace a swollen battery myself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Swollen batteries risk fire, explosion, and toxic fume release if mishandled. Always have a professional service a visibly damaged battery. DIY attempts in Johannesburg have resulted in hospital visits—don't risk it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my MacBook is still under AppleCare+?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check your coverage first. AppleCare+ typically covers battery replacement if health has degraded below 80%, though out-of-warranty degradation may incur charges. We can provide the assessment; you decide whether to claim through Apple or use our service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do you charge R599 for assessment if service is straightforward?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our assessment includes detailed health reporting, voltage testing, connector inspection, and system log analysis. This expertise prevents misdiagnosis. The R599 reflects genuine technical labour and Apple-grade diagnostic tools. It's transparent pricing—you know what you're paying for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I check my battery health?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every 6 months for daily-use MacBooks. Download coconutBattery (free, trusted by professionals) and track your cycle count and health percentage. Contact us when health drops below 80% or cycles exceed 800 on devices older than 2–3 years."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
