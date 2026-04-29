@@ -536,5 +536,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-air-screen-repair-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pro-logic-board-failure-signs`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-battery-replacement-fourways`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/logic-board-repair-randburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

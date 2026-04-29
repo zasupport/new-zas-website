@@ -32766,6 +32766,224 @@ Every 6 months for daily-use MacBooks. Download coconutBattery (free, trusted by
 }
 \`\`\``,
   },
+  'logic-board-repair-randburg': {
+    slug: 'logic-board-repair-randburg',
+    title: `Logic Board Repair Randburg – Expert iPhone & MacBook Solutions at ZA Support`,
+    excerpt: `We have seen countless logic board failures across Randburg and the greater Gauteng region over the past decade. Whether it's a water-damaged iPhone 15 Pro, a MacBook Air that won't power on, or an iP.`,
+    date: '28 April 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Logic Board Repair Randburg – Expert iPhone & MacBook Solutions at ZA Support
+
+We have seen countless logic board failures across Randburg and the greater Gauteng region over the past decade. Whether it's a water-damaged iPhone 15 Pro, a MacBook Air that won't power on, or an iPad displaying the dreaded black screen, logic board issues represent some of the most critical hardware faults we encounter in our Hyde Park workshop. This guide explains what goes wrong, how we diagnose and repair these issues, and what you can expect when you bring your device to us.
+
+## Understanding Logic Board Damage in Randburg
+
+The logic board—or motherboard—is the central nervous system of every Apple device. When it fails, your phone, tablet, or laptop becomes completely non-functional. We've diagnosed logic board problems stemming from:
+
+- **Liquid exposure** (coffee spills, rain, swimming pools)
+- **Thermal stress** (prolonged gaming, software glitches causing thermal throttling)
+- **Physical impact** (drops, crushing damage)
+- **Component degradation** (capacitor failure, corrosion from age)
+- **Manufacturing defects** (rare, but we see them occasionally)
+
+The moment we receive a device with suspected logic board damage, we perform a comprehensive R599 diagnostic assessment. This isn't a cursory glance—we use advanced microScope inspection, multimeter testing, and thermal imaging to pinpoint exactly where the failure has occurred. Most Randburg clients appreciate this transparent approach; you'll know the exact cost before we proceed with repairs.
+
+## Our Randburg Logic Board Repair Process
+
+### Step 1: Professional Diagnostics (R599)
+
+Every repair begins with our standard assessment fee of R599. During this process, we:
+
+- Inspect the board under magnification for visible component damage, corrosion, or burn marks
+- Test power delivery circuits using precision multimeters
+- Check for short circuits between power rails
+- Examine connector integrity on all daughter boards
+- Document findings with high-resolution photography
+
+This investment in proper diagnosis saves you money later. We've prevented countless unnecessary replacements by identifying isolated component failures rather than recommending a full board swap.
+
+### Step 2: Component-Level Repair vs. Board Replacement
+
+Depending on findings, we may:
+
+- **Micro-solder damaged traces** (hairline cracks from drops)
+- **Replace failed capacitors, resistors, or IC chips** (liquid damage aftermath)
+- **Reflow solder joints** (thermal stress failures)
+- **Replace the entire logic board** (when damage is too extensive or cost-prohibitive to repair)
+
+Component-level repairs are significantly more affordable than full board replacement and preserve your original device architecture. We've successfully restored devices other technicians declared "beyond repair."
+
+### Step 3: Quality Testing & Warranty
+
+Once repair is complete, we test every function:
+
+- Power sequencing
+- CPU performance benchmarking
+- RAM functionality
+- Storage access and speed
+- Thermal management under load
+- All ports and wireless connectivity
+
+All logic board repairs include our **12-month warranty**—the strongest guarantee in Johannesburg. If the same issue recurs, you're covered at no additional cost.
+
+## Why Choose ZA Support for Logic Board Repair in Randburg?
+
+We're located in **Hyde Park, within the Gauteng ≤60km radius** that we service directly. Randburg customers benefit from:
+
+- **Same-day or next-day turnaround** for most component repairs
+- **Original Apple parts** where replacement is necessary
+- **No "diagnostic fee" buried in inflated repair quotes**—our R599 assessment is transparent and applied to your final bill
+- **Senior technician expertise**—not apprentice work
+- **Zero pressure sales tactics**—we explain your options clearly
+
+Unlike franchises, we don't have quotas to meet. If a device can be repaired affordably, we'll tell you. If board replacement is truly necessary, we'll explain why and provide upfront ZAR pricing.
+
+## Common Logic Board Issues We Fix
+
+### iPhone Logic Board Failures
+
+Water damage remains the leading cause. The iPhone 12 and earlier models, despite IP68 ratings, suffer logic board corrosion after liquid exposure. We've successfully restored dozens of water-damaged iPhones by removing corrosion, replacing failed components, and resealing against future moisture ingress. Costs range from R1,200 (component replacement) to R3,800 (full board replacement).
+
+### MacBook Logic Board Repairs
+
+MacBook Air and Pro units frequently develop logic board issues from thermal cycling. The M1 and Intel chips generate heat that stresses solder joints over time. We've become expert at identifying and reflowing these connections before total failure. Pricing typically ranges from R1,500 to R4,200 depending on repair complexity.
+
+### iPad Logic Board Restoration
+
+iPads suffer liquid damage more often than phones—people use them near pools and kitchens more casually. We've restored iPad Air, iPad Pro, and standard iPad models after complete submersion. Our [liquid damage repair](/liquid-damage) service includes logic board assessment as standard.
+
+## Liquid Damage and Logic Board Repair
+
+If your device has water exposure, time is critical. We recommend bringing it to us immediately—within 24 hours if possible. Corrosion accelerates exponentially as minerals in liquid oxidise the board's traces and components.
+
+Our [comprehensive liquid damage service](/liquid-damage) includes:
+
+- Immediate power-down and disassembly
+- Ultrasonic cleaning of all components
+- Targeted component replacement
+- Full logic board inspection and testing
+
+Don't attempt home remediation with rice or air-drying. These methods allow corrosion to progress invisibly beneath the surface. We've seen devices that appeared fine after DIY drying fail catastrophically two weeks later—precisely because corrosion had already begun.
+
+## Logic Board Repair Pricing for Randburg Clients
+
+Transparent ZAR pricing is fundamental to our approach:
+
+| Issue | Typical Price Range |
+|-------|-------------------|
+| Diagnostic assessment (applied to repairs) | R599 |
+| Micro-soldering trace repairs | R1,200–R2,100 |
+| Component replacement (1–3 chips) | R1,500–R2,800 |
+| Full logic board replacement | R2,500–R4,500 |
+| Liquid damage logic board restoration | R1,800–R3,200 |
+
+All repairs include 12 months warranty and testing. Final quotes are provided after assessment—never estimated blindly.
+
+## Contacting ZA Support from Randburg
+
+We're easily accessible from Randburg via the N1 toward Johannesburg CBD, then to Hyde Park. Most Randburg clients reach us within 20–25 minutes.
+
+**Contact us:**
+
+- **WhatsApp:** 064 529 5863 (fastest response)
+- **Email:** [contact](/contact)
+- **Service area:** Gauteng only, ≤60km from Hyde Park (Randburg fully covered)
+
+Drop your device off with a brief description of the issue, and we'll have a senior technician perform diagnostics the same day.
+
+## When to Replace Rather Than Repair
+
+We're honest about economics. If a MacBook Pro 2011 requires a R4,000 logic board replacement and the device is worth R2,500, repair doesn't make sense. We'll advise replacement or refurbishment options. But for modern devices with residual value, component-level repair almost always beats replacement costs by 40–60%.
+
+---
+
+## Frequently Asked Questions: Logic Board Repair
+
+### 1. **How long does logic board repair typically take?**
+
+Component-level repairs (micro-soldering, capacitor replacement) usually take 2–5 working days. Full board replacement may take slightly longer if we're sourcing an original part. We'll provide a timeline during your diagnostic assessment.
+
+### 2. **Can a water-damaged logic board be repaired, or does it need replacement?**
+
+Most water-damaged boards can be repaired through aggressive cleaning, corrosion removal, and targeted component replacement. Full replacement is necessary only when damage is catastrophic—rare in our experience. Bring it to us within 24 hours of water exposure for best results.
+
+### 3. **Is the R599 diagnostic fee worth paying if I'm unsure about repair costs?**
+
+Absolutely. The R599 assessment identifies the exact problem, prevents wasted money on unnecessary full board replacements, and is credited toward your final repair bill. It's the most economical decision you can make.
+
+### 4. **What's your warranty on logic board repairs?**
+
+12 months, standard across all our repairs. If the same failure recurs, we repair or replace it free of charge. This is backed by our senior technician expertise—not a marketing gimmick.
+
+### 5. **Do you use original Apple parts for logic board replacement?**
+
+Yes, when replacement is necessary. We source OEM boards for iPhones, MacBooks, and iPads. Third-party refurbished boards are never used for critical components like logic boards.
+
+### 6. **My device still won't start after logic board repair—is it covered under warranty?**
+
+If we've completed repairs and the device fails for the same reason, yes, it's fully covered. However, if a *different* issue emerges (unrelated to the original logic board problem), that would be assessed as a separate repair. We'll always discuss this distinction clearly.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does logic board repair typically take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Component-level repairs (micro-soldering, capacitor replacement) usually take 2–5 working days. Full board replacement may take slightly longer if we're sourcing an original part. We'll provide a timeline during your diagnostic assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a water-damaged logic board be repaired, or does it need replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most water-damaged boards can be repaired through aggressive cleaning, corrosion removal, and targeted component replacement. Full replacement is necessary only when damage is catastrophic. Bring it to us within 24 hours of water exposure for best results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the R599 diagnostic fee worth paying if I'm unsure about repair costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. The R599 assessment identifies the exact problem, prevents wasted money on unnecessary full board replacements, and is credited toward your final repair bill. It's the most economical decision you can make."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your warranty on logic board repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "12 months, standard across all our repairs. If the same failure recurs, we repair or replace it free of charge. This is backed by our senior technician expertise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you use original Apple parts for logic board replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, when replacement is necessary. We source OEM boards for iPhones, MacBooks, and iPads. Third-party refurbished boards are never used for critical components like logic boards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My device still won't start after logic board repair—is it covered under warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If we've completed repairs and the device fails for the same reason, yes, it's fully covered. However, if a different issue emerges (unrelated to the original logic board problem), that would be assessed as a separate repair. We'll discuss this distinction clearly."
+      }
+    }
+  ]
+}
+\`\`\``,
+  },
 };
 
 export async function generateStaticParams() {
