@@ -529,5 +529,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-fleet-management-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/popia-macbook-encryption-sme-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/charlotte-maxeke-hospital-apple-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/life-fourways-hospital-apple-it`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
