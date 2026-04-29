@@ -261,3 +261,4 @@ SEVERITY: critical→fix immediately | high→fix this session | medium→queue 
 # §265 AUTO-COMPLETE BLOG+WEBSITE WORK (HARD — 12/04/2026): auto-execute blog/website tasks that need no Courtney input | blog posts, SEO fixes, schema, sitemap, 404s, self-heal | ∅ ask ∅ wait | global CLAUDE.md (full detail)
 # §263 WEEKLY KEYWORD STRATEGY (HARD — 11/04/2026): Saturday XLSX (exact format from ZA-Support-Keyword-Strategy-06042026.xlsx) + daily reminders until approved | global CLAUDE.md (full detail)
 # §262 END-TO-END PROOF GATE (HARD — 11/04/2026): EVERY build/update/pipeline MUST prove with real data that every stage works end-to-end | ∅ done without proof | extends §92+§233+§240+§247 | global CLAUDE.md (full detail)
+# §187 LOCAL FIRST → global CLAUDE.md (auto-loaded)

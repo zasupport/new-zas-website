@@ -27535,67 +27535,7 @@ Usually, yes. The storage on an M2 (the SSD) is separate from the logic board. E
 The M2 board has components packed tightly, with power delivery circuits distributed across the entire surface. Liquid finds pathways between components and causes corrosion. Unlike older MacBooks with larger component spacing, there's little margin for error. Immediate power-off and professional cleaning within 24 hours are essential.
 
 ### Q: Is it worth repairing an M2 board if my MacBook is four years old?
-Generally, yes. M2 MacBook Pros are still actively used and hold resale value (R25,000–R40,000 depending on specs). A R5,000 repair keeps a R35,000 machine functional. Compare that to replacement: a new M4 is R70,000+. Repair is the sensible choice unless the machine is physically damaged in multiple areas.
-
----
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does M2 board repair take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In our Hyde Park workshop, most board repairs take 5–7 working days once parts arrive. Power delivery repairs (charging issues) are usually faster—3–4 days—because components are in stock. Liquid damage repairs may take longer if corrosion has spread to secondary circuits."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is M2 board repair covered by AppleCare+?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. AppleCare+ covers accidental damage (liquid, drops) with a R3,000 deductible, and hardware failures with a R2,500 deductible. Logic board failures are usually classified as hardware failures, so you'd pay R2,500 to Apple for a R32,000 replacement. Our repair at R4,000–R7,000 is often cheaper than the AppleCare deductible alone, and you keep your machine."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the warranty on your repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All board repairs carry a 3-year warranty on the repaired component. If the same fault returns within three years, we repair it free under our No Fix No Fee guarantee. This covers parts, labour, and diagnostics."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you recover my data if the board is damaged?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Usually, yes. The storage on an M2 (the SSD) is separate from the logic board. Even if the board is non-functional, we can often recover your drive and extract data. This costs R1,200–R2,500 depending on complexity. We'll assess during your initial diagnosis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why does liquid damage happen so easily on M2 boards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The M2 board has components packed tightly, with power delivery circuits distributed across the entire surface. Liquid finds pathways between components and causes corrosion. Unlike older MacBooks with larger component spacing, there's little margin for error. Immediate power-off and professional cleaning within 24 hours are essential."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it worth repairing an M2 board if my MacBook is four years old?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generally, yes. M2 MacBook Pros are still actively used and hold resale value (R25,000–R40,000 depending on specs). A R5,000 repair keeps a R35,000 machine functional. Compare that to replacement: a new M4 is R70,000+. Repair is the sensible choice unless the machine is physically damaged in multiple areas."
-      }
-    }
-  ]
-}
-\`\`\`
-`,
+Generally, yes. M2 MacBook Pros are still actively used and hold resale value (R25,000–R40,000 depending on specs). A R5,000 repair keeps a R35,000 machine functional. Compare that to replacement: a new M4 is R70,000+. Repair is the sensible choice unless the machine is physically damaged in multiple areas.`,
   },
   'logic-board-repair-fourways': {
     slug: 'logic-board-repair-fourways',
