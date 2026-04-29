@@ -32290,7 +32290,7 @@ Mention your model, describe the damage, and we'll confirm turnaround and pricin
 
 ### 6. Why is the diagnostic fee R599 if it's "applied to my invoice"?
 
-The R599 diagnostic fee is non-refundable but credited toward your final repair invoice. This ensures we're serious about thorough assessment (not offering false "free diagnostics" that rush customers toward expensive repairs they may not need). If you decide not to proceed after diagnostics, you've still paid for an honest evaluation—no hidden costs, no pressure.
+The R599 diagnostic fee is non-refundable but credited toward your final repair invoice. This ensures we're serious about thorough assessment (not offering false "R599 diagnostic assessments" that rush customers toward expensive repairs they may not need). If you decide not to proceed after diagnostics, you've still paid for an honest evaluation—no hidden costs, no pressure.
 
 ---
 
@@ -32344,7 +32344,7 @@ The R599 diagnostic fee is non-refundable but credited toward your final repair 
       "name": "Why is the diagnostic fee R599 if it's applied to my invoice?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The R599 diagnostic fee is non-refundable but credited toward your final repair invoice. This ensures we're serious about thorough assessment (not offering false free diagnostics that rush customers toward expensive repairs they may not need). If you decide not to proceed after diagnostics, you've still paid for an honest evaluation—no hidden costs, no pressure."
+        "text": "The R599 diagnostic fee is non-refundable but credited toward your final repair invoice. This ensures we're serious about thorough assessment (not offering false R599 diagnostic assessments that rush customers toward expensive repairs they may not need). If you decide not to proceed after diagnostics, you've still paid for an honest evaluation—no hidden costs, no pressure."
       }
     }
   ]
