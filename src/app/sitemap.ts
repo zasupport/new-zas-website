@@ -527,5 +527,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/marketing-agency-imac-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/tech-startup-jamf-setup-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-fleet-management-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/popia-macbook-encryption-sme-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
