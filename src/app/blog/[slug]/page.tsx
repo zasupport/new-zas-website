@@ -31082,6 +31082,171 @@ For hardware failures affecting your data security, see our [logic board repair]
 - Markdown format ✓
 `,
   },
+  'charlotte-maxeke-hospital-apple-repair': {
+    slug: 'charlotte-maxeke-hospital-apple-repair',
+    title: `Apple Mac Repair Near Charlotte Maxeke Hospital – ZA Support Hyde Park`,
+    excerpt: `Charlotte Maxeke Johannesburg Academic Hospital sits in one of Gauteng's busiest medical precincts. If you work there, study there, or live nearby in Parktown, Braamfontein, or the surrounding Johanne.`,
+    date: '27 April 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'courtney-bentley',
+    content: `# Apple Mac Repair Near Charlotte Maxeke Hospital – ZA Support Hyde Park
+
+Charlotte Maxeke Johannesburg Academic Hospital sits in one of Gauteng's busiest medical precincts. If you work there, study there, or live nearby in Parktown, Braamfontein, or the surrounding Johannesburg areas, a broken Mac can derail your day. We've repaired Macs for hospital staff, researchers, and students for years. This post explains what we do, why we're different, and how to get your machine fixed without the stress.
+
+## Why Mac Repairs Near Charlotte Maxeke Hospital Matter
+
+A non-functioning MacBook, Mac mini, or iMac isn't just an inconvenience—it's a productivity crisis. Hospital administrators need spreadsheets. Researchers need data. Students need essays. Unlike phone repairs, Mac problems often involve logic boards, storage drives, or liquid damage. These aren't quick fixes. They require proper diagnostics, genuine parts, and technicians who understand the specific model architecture.
+
+We're based in Hyde Park, Johannesburg, just 8 km from Charlotte Maxeke Hospital. From Parktown or Braamfontein, you're looking at a 10–15 minute drive to our workshop. That's closer than most Apple-certified centres in Gauteng. We've handled thousands of Macs across Sandton, Rosebank, Midrand, and Centurion. Hospital staff know us. Researchers trust us. Here's what sets us apart from the five competitors already targeting repair keywords in your area.
+
+## Our Diagnostic Process: Transparent Pricing From R599
+
+Competitors often hide pricing behind vague "contact us" buttons. We don't. A full Mac diagnostic at ZA Support starts from R599. That includes hardware testing, storage scan, memory check, and battery analysis. If we fix it, we credit that R599 against the repair cost. If we can't fix it, you pay nothing beyond the diagnostic—our No Fix No Fee promise.
+
+In our Hyde Park workshop, we connect your Mac to our proprietary diagnostic rig. For logic board issues, we use thermal imaging to spot cold solder joints or burned capacitors. For storage problems, we run the drive through SMART analysis. For liquid damage—common in hospital environments where coffee spills happen—we photograph the corrosion, identify affected components, and quote exact pricing for board-level repair or replacement.
+
+Most people expect vague estimates. We give exact component costs. A logic board repair on a 2019 MacBook Pro, for example, might cost R4,200–R6,800 depending on damage. A storage replacement (SSD) is R1,800–R3,500 for a genuine 512GB unit. We quote upfront. No surprises. No call-backs.
+
+## [Logic Board Repair](/logic-board-repair) – The Heart of Your Mac
+
+The logic board is your Mac's brain. If it fails—whether from age, overheating, or manufacturing defect—the whole machine stops. We see this constantly in Braamfontein and Parktown, where older MacBook Airs (2013–2015 models) suffer from the infamous GPU issue Apple eventually recalled.
+
+In our workshop, we repair logic boards at component level. We reflow solder joints, replace capacitors, and test every circuit path. For some issues, repair is impossible—the board is too damaged. We'll source a refurbished genuine logic board instead, test it fully, and install it. Either way, you get a 3-year warranty. That's unconditional coverage. If anything fails within three years, we fix it free.
+
+Competitors offer 12-month warranties, if any. The logic board is the costliest component in most Macs. A three-year guarantee means we stand behind our work completely.
+
+## [Liquid Damage Repair](/liquid-damage) – When Coffee Meets Keyboard
+
+Hospitals are sterile environments, but offices near Charlotte Maxeke Hospital aren't. We repair liquid-damaged Macs weekly—coffee, water, energy drink spills, even accidental tea incidents. The damage spreads within minutes to the logic board, keyboard, trackpad, and sometimes the storage.
+
+Speed is critical. If you spill liquid on your Mac, power it off immediately. Don't try to dry it with heat (hair dryer, rice, sunlight). Bring it to us. We'll disassemble it fully, clean the affected components with isopropyl alcohol, dry them under controlled conditions, and test every circuit. Cost depends on severity. A minor spillage cleaned within hours might cost R1,200–R1,800. A major spill affecting the logic board could reach R5,000–R8,500.
+
+The key: liquid damage worsens hourly. The sooner you act, the lower the final bill. We're in Hyde Park. From Charlotte Maxeke Hospital, we're 10 minutes away by car. Text us a photo of the spill on WhatsApp (064 529 5863), and we'll advise immediately.
+
+## Storage, Battery & Performance Issues – The Everyday Fixes
+
+Not every repair is catastrophic. Many Macs simply slow down. Storage fills. Batteries die. Fans run constantly. These are common in 5–7 year old machines used daily by hospital staff and researchers.
+
+Storage is the quickest fix. A genuine 512GB SSD upgrade costs R1,800–R2,200 installed, taking 45 minutes. Battery replacement (MacBook Air or Pro) is R2,500–R3,800 depending on model. Thermal paste reapplication—which fixes overheating—costs R599. None of these require logic board work. All come with 3-year warranty.
+
+For performance issues without obvious hardware failure, we run a full software audit. Malware scans, driver updates, storage optimisation. This diagnostic is included in the R599 assessment. Often, we'll identify software bloat or a failing startup drive before you've even sat down in our waiting area.
+
+## Why ZA Support Over Competitors – Location, Warranty, Price Transparency
+
+Five competitors target "Apple repair near Charlotte Maxeke Hospital" on Google. Here's what they don't offer:
+
+**Proximity.** We're in Hyde Park. From Parktown or Braamfontein, we're the closest proper workshop.
+
+**Three-year warranty.** Standard in the industry is 12 months. We offer 36 months on all component repairs and replacements.
+
+**No Fix No Fee.** If we diagnose a problem and can't fix it after you approve, you don't pay beyond the assessment. We'll advise on alternatives (salvage, trade-in, insurance claim).
+
+**Transparent pricing.** Competitors quote in ranges or ask you to "come in for a quote." We publish exact costs for SSD upgrades, battery replacements, and diagnostics. You know the price before you drive to us.
+
+**Genuine parts only.** We use Apple-certified components and iFixit-grade tools. No third-party batteries or refurbished boards without full disclosure and warranty.
+
+Booking is simple. Visit **[zasupport.com/book](https://zasupport.com/book)** to select your time slot, or text WhatsApp **064 529 5863** with your Mac model and issue. We'll respond within 2 hours.
+
+## Service Area – We Cover Gauteng's North
+
+Our service area includes Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Charlotte Maxeke Hospital is firmly within our catchment. Bring your Mac to us, or for bulky machines (iMac, Mac mini), we arrange collection within Johannesburg. Turnaround is typically 3–5 days for standard repairs, 1–2 weeks for complex logic board work.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How long does a Mac repair usually take?
+
+Simple repairs (battery, SSD upgrade, software clean) take 1–3 days. Logic board repair or replacement typically takes 5–10 days because we test thoroughly before handover. Liquid damage assessment and cleaning can take 2–3 days. We'll provide an exact timeline after your R599 diagnostic.
+
+### Q: Do you repair Mac desktops (iMac, Mac mini)?
+
+Yes. iMac and Mac mini repairs are our specialty for hospital environments because they serve multiple users. We repair displays, storage, RAM, logic boards, and power supplies. Collection from Charlotte Maxeke Hospital or nearby offices is available. Rates start from R599 assessment.
+
+### Q: What warranty do you offer on repaired Macs?
+
+All component repairs and replacements come with a full 3-year warranty against manufacturing defect or workmanship failure. If your Mac fails within three years, we repair it free. Parts are covered; labour is covered. No conditions.
+
+### Q: Can you recover data from a broken Mac?
+
+Yes. If your storage is intact but your Mac won't boot, we extract the drive, connect it to a diagnostic rig, and recover data to an external drive or cloud storage you specify. This is included in the assessment if repair is possible. If the drive is physically damaged, data recovery costs R1,500–R3,500 depending on damage severity.
+
+### Q: What should I do if I spill liquid on my Mac?
+
+Power it off immediately. Don't plug it in or attempt to dry it yourself. Bring it to us or message WhatsApp 064 529 5863 with a photo. We'll clean and test it. Costs depend on damage, but early action dramatically reduces the bill. Most spills we see within 2 hours result in full recovery.
+
+### Q: Why is your assessment R599 instead of free?
+
+A proper diagnostic involves hardware testing, software scanning, thermal imaging, and expert consultation. That takes 30–45 minutes of technician time and uses diagnostic equipment. We credit the R599 against any repair, so it costs you nothing if we proceed. If we can't help, you don't pay beyond the assessment—No Fix No Fee. Transparency has a small cost; we pass that to customers upfront rather than hiding it in inflated repair quotes.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a Mac repair usually take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simple repairs (battery, SSD upgrade, software clean) take 1–3 days. Logic board repair or replacement typically takes 5–10 days because we test thoroughly before handover. Liquid damage assessment and cleaning can take 2–3 days. We'll provide an exact timeline after your R599 diagnostic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair Mac desktops (iMac, Mac mini)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. iMac and Mac mini repairs are our specialty for hospital environments because they serve multiple users. We repair displays, storage, RAM, logic boards, and power supplies. Collection from Charlotte Maxeke Hospital or nearby offices is available. Rates start from R599 assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty do you offer on repaired Macs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All component repairs and replacements come with a full 3-year warranty against manufacturing defect or workmanship failure. If your Mac fails within three years, we repair it free. Parts are covered; labour is covered. No conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover data from a broken Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If your storage is intact but your Mac won't boot, we extract the drive, connect it to a diagnostic rig, and recover data to an external drive or cloud storage you specify. This is included in the assessment if repair is possible. If the drive is physically damaged, data recovery costs R1,500–R3,500 depending on damage severity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I spill liquid on my Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Power it off immediately. Don't plug it in or attempt to dry it yourself. Bring it to us or message WhatsApp 064 529 5863 with a photo. We'll clean and test it. Costs depend on damage, but early action dramatically reduces the bill. Most spills we see within 2 hours result in full recovery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is your assessment R599 instead of free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A proper diagnostic involves hardware testing, software scanning, thermal imaging, and expert consultation. That takes 30–45 minutes of technician time and uses diagnostic equipment. We credit the R599 against any repair, so it costs you nothing if we proceed. If we can't help, you don't pay beyond the assessment—No Fix No Fee. Transparency has a small cost; we pass that to customers upfront rather than hiding it in inflated repair quotes."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Need a Mac repair near Charlotte Maxeke Hospital? Get started today.**
+
+Message us on WhatsApp: **064 529 5863**  
+Book online: **[zasupport.com/book](https://zasupport.com/book)**  
+We're in Hyde Park, Johannesburg. From Parktown, Braamfontein, or the hospital precinct, we're 10–15 minutes away.`,
+  },
 };
 
 export async function generateStaticParams() {
