@@ -537,5 +537,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-pro-logic-board-failure-signs`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-battery-replacement-fourways`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/logic-board-repair-randburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/how-much-macbook-repair-johannesburg-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/mac-pro-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-hdmi-not-working-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-logic-board-short-circuit-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-2020-intel-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
