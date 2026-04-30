@@ -33957,6 +33957,519 @@ No Fix No Fee. 12-month warranty standard. Up to 3-year warranty on logic board 
 - Dedicate a "Preventive Care" or "Maintenance" section to secondary booking opportunities and demonstrate ongoing customer value beyond emergency fixes.
 - Always close with WhatsApp + booking link + hours + service area list (3–4 suburbs minimum per Gauteng region).`,
   },
+  'apple-repair-prices-johannesburg-2026': {
+    slug: 'apple-repair-prices-johannesburg-2026',
+    title: `Apple Repair Prices Johannesburg 2026: What You'll Actually Pay at a Local Workshop`,
+    excerpt: `When your iPhone screen cracks or your MacBook won't turn on, the first question isn't "where's the nearest repair shop?" — it's "how much is this going to cost?" After eight years running the ZA Supp.`,
+    date: '30 April 2026',
+    category: 'Pricing',
+    readTime: '11 min read',
+    author: 'courtney-bentley',
+    content: `# Apple Repair Prices Johannesburg 2026: What You'll Actually Pay at a Local Workshop
+
+When your iPhone screen cracks or your MacBook won't turn on, the first question isn't "where's the nearest repair shop?" — it's "how much is this going to cost?" After eight years running the ZA Support workshop in Hyde Park, I've watched repair pricing shift dramatically. Apple's own repair costs have climbed steadily, authorised service providers vary wildly, and independent technicians span from bargain-basement to premium. This guide reflects what you'll genuinely pay for Apple repairs across Johannesburg in 2026, grounded in our workshop's daily experience.
+
+We've intentionally written this without the usual sales language. You'll find honest pricing, what drives costs up or down, and when it makes sense to repair versus replace. Our starting point for any device assessment is R599 — that covers diagnostics, not a sales pitch — and we've repaired thousands of devices from Sandton to Centurion. The goal here is to give you real numbers so you can make an informed decision.
+
+## Screen Repairs: iPhone and iPad Pricing in Johannesburg
+
+iPhone screen replacement dominates our workshop. A cracked display on a current-generation iPhone 15 will cost between R3,500 and R4,200 at ZA Support, depending on whether it's just the glass or the full OLED panel. Here's the breakdown: the iPhone 15 Pro Max's larger screen means higher parts cost and labour time, pushing toward the top of that range. An iPhone 14 or iPhone 13 runs R2,800 to R3,600. Older models — iPhone 12 or earlier — drop to R1,800 to R2,400.
+
+At Apple's official service centres in Johannesburg, you're looking at R4,500 to R5,800 for the same repair, plus a two-week turnaround during peak periods. Authorised resellers in Sandton and Rosebank sit somewhere in the middle, typically R3,800 to R4,500, but often with three to five business day repairs.
+
+iPad screens follow a similar pattern. A 10.9-inch iPad Air display runs R2,400 to R3,200 at our workshop. iPad Pro models — 11-inch or 12.9-inch — require specialist panels and push to R3,600 to R4,800. We've found that iPad owners in Fourways and Midrand often delay repairs because they underestimate how affordable modern screen replacement has become; a cracked screen doesn't justify a new device.
+
+One factor we see consistently: load shedding and parts availability. During extended outages, our workshop operates on backup power, but parts shipments to Johannesburg sometimes delay. Repairs that would normally take 48 hours occasionally stretch to a week. Plan accordingly, especially if you live in areas like Bryanston where outages have hit harder.
+
+## MacBook Repairs: Logic Board and Component Costs
+
+MacBook repair pricing sits in a different universe. A logic board replacement on an M3 MacBook Air — not uncommon after liquid spill or thermal failure — costs R8,500 to R11,200 depending on the exact failure mode. If it's a simpler fix like a keyboard or trackpad replacement, you're at R1,200 to R2,100. SSD upgrades or replacements run R1,800 to R3,500 for 512GB to 1TB storage increases.
+
+Here's where independent repair genuinely saves money: Apple's own MacBook repairs often require full logic board replacement even when component-level repair is possible. We've successfully recovered data and restored boards that Apple would have binned. A full MacBook Air screen replacement costs R4,500 to R6,200 at our workshop, versus R6,800 to R8,500 through Apple's authorised channel.
+
+The M3, M2, and M1 chips have introduced new repair challenges — not because they're fragile, but because thermal management and power delivery are tightly integrated. We've invested in specialist diagnostics, which is why our R599 assessment is essential for MacBook issues. You need to know whether a device is worth repairing before committing R8,000+ to parts and labour.
+
+Our [logic board repair](/logic-board-repair) service covers everything from M-series Macs to older Intel machines. Turnaround is typically 5–7 business days, including full diagnostics and testing.
+
+## Liquid Damage: The Hidden Cost Variable
+
+Liquid damage remains the most unpredictable repair. We've seen everything from spilled coffee to bath-time mishaps, and pricing swings wildly based on how quickly the device reaches us.
+
+If you get a liquid-damaged iPhone to us within six hours, we can often save it with component cleaning and drying. Cost: R1,200 to R2,100, plus R599 diagnostic. Wait a week, and corrosion spreads to the logic board — now you're facing R3,800 to R5,500 for full restoration, or potentially a logic board replacement at R6,500+. The lesson: *time matters more than anything else*.
+
+For MacBooks, liquid damage is genuinely serious. Water typically flows toward the logic board and battery. Fast action lets us isolate the damage to a single component. Delayed repair means oxidation spreads, and you're facing a costly board replacement. Our [liquid damage guide](/liquid-damage) covers what to do in the first hour — spoiler: don't charge it, don't turn it on, get it here.
+
+In Johannesburg's climate, moisture ingress can occur even without spills — humidity from load shedding and temperature swings affects sealed devices. We've seen more devices fail from condensation buildup than actual liquid contact.
+
+## Warranty, Turnaround, and Value: What We Offer
+
+All repairs at ZA Support include a three-year warranty on parts and workmanship. That's not standard — most independent shops offer 12 months. We've stood behind this because device failure within three years almost always points to a root cause we should have caught. Three years means you get genuine peace of mind.
+
+Our No Fix No Fee policy covers diagnostic and labour. If we identify a hardware fault and determine it's not economically repairable, you only pay the R599 assessment. We don't charge just to tell you "it's broken."
+
+Turnaround depends on the repair. Screen replacements in our Hyde Park workshop usually complete within 48 hours. Logic board work takes 5–7 days because it requires testing on multiple operating systems and usage patterns. MacBook or iPad repairs might take longer if parts need ordering, but we'll give you a realistic date when you drop off your device.
+
+Most customers prefer visiting the workshop in person to dropping off via courier. Bryanston, Sandton, and Rosebank customers often visit during their work commute. If you're in Centurion or Pretoria, we can arrange courier collection and delivery — that adds R350 to either direction, but saves you the drive to Hyde Park.
+
+## When Repair Doesn't Make Sense
+
+Here's the uncomfortable truth: sometimes repair is the wrong choice. If your iPhone screen costs R3,500 to replace and the device is a five-year-old model worth R4,200 on the secondhand market, repair only makes sense if you plan to keep the device. Battery replacement is almost always worth it — a new battery costs R1,100 to R1,600 and extends a device's life by two to three years.
+
+MacBooks follow different logic. A 2019 Intel MacBook with a failed logic board might cost R8,500 to repair. That device sells secondhand for R15,000 to R19,000. Repair is economically sound. A 2015 MacBook with the same fault? Parts and labour might be R9,000, but the device trades for R8,000 to R12,000. Now it's marginal.
+
+We always give you the honest assessment. Our [contact page](/contact) has our workshop number and WhatsApp line (064 529 5863) — ring before committing to repair if you're uncertain. We can quote the full cost and help you decide.
+
+## Regional Pricing Variation Across Johannesburg
+
+Repair pricing varies by suburb, though not as much as you'd think. A screen repair in Fourways costs the same as one in Sandton — we don't adjust pricing by location. However, courier collection in Morningside or Midrand adds time and cost. If you visit the workshop in person, you avoid courier fees entirely.
+
+We've noticed that Centurion customers often opt for courier because the 45-minute drive to Hyde Park doesn't justify it for a screen repair. Fair call. Those in Rosebank or Bryanston often swing by during lunch.
+
+## Booking Your Repair
+
+Visit [zasupport.com/book](https://zasupport.com/book) to check availability and reserve a time slot. We operate Monday to Friday, 08:00–17:30, and selected Saturdays. WhatsApp us on 064 529 5863 if you'd rather discuss your device first — most queries get a response within two hours.
+
+The R599 assessment is the next step. We'll connect your device to diagnostics tools, check the battery health, scan for logic board issues, and give you a written quote before we touch anything. No surprises, no hidden costs.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Why does Apple charge so much more than independent repair shops?
+
+Apple maintains strict labour certifications, invests heavily in training, and guarantees parts traceability. They also build warranty servicing into pricing. Independent shops like ours have lower overheads and specialise in high-volume repairs, allowing us to offer better value. You trade brand assurance for cost savings; both approaches are legitimate.
+
+### Q: Is a three-year warranty actually valuable?
+
+Yes. Most component failures occur within the first year, but thermal issues and battery degradation can emerge across year two and three. A three-year warranty catches those edge cases and gives you genuine peace of mind. We've honoured maybe 8–10 claims per 100 repairs under this warranty, which is realistic for electronic devices.
+
+### Q: How long should I wait before repairing a cracked screen?
+
+As soon as practical. Cracked screens allow dust and moisture ingress, which accelerates internal damage. A superficial crack can become a logic board issue in weeks. We've seen iPhone screens that looked minor cost R1,500 to repair immediately but required a R5,500 logic board replacement six months later.
+
+### Q: Can you recover data from a liquid-damaged MacBook?
+
+Usually yes, if the storage isn't physically damaged. We can isolate the drive, connect it externally, and recover files before attempting full repair. Costs range from R800 to R1,600 depending on the drive and damage extent. Always tell us about data loss concerns during your initial assessment.
+
+### Q: What's the difference between a screen repair and a screen replacement?
+
+For modern iPhones, we replace the entire display assembly — that includes the OLED panel, sensors, and frame. We don't "repair" screens by replacing just the glass. This approach is more reliable and keeps costs lower than custom glass-only repairs would. You get a fully tested, functioning display.
+
+### Q: Do you repair devices still under Apple warranty?
+
+We can, but we'll void Apple's coverage. If your device is covered by AppleCare+ or standard warranty, use Apple first — they'll often repair or replace for free or a low cost. We're most useful for out-of-warranty devices or when you need faster turnaround than Apple's network provides.
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does Apple charge so much more than independent repair shops?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apple maintains strict labour certifications, invests heavily in training, and guarantees parts traceability. They also build warranty servicing into pricing. Independent shops like ours have lower overheads and specialise in high-volume repairs, allowing us to offer better value. You trade brand assurance for cost savings; both approaches are legitimate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a three-year warranty actually valuable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Most component failures occur within the first year, but thermal issues and battery degradation can emerge across year two and three. A three-year warranty catches those edge cases and gives you genuine peace of mind. We have honoured maybe 8–10 claims per 100 repairs under this warranty, which is realistic for electronic devices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should I wait before repairing a cracked screen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As soon as practical. Cracked screens allow dust and moisture ingress, which accelerates internal damage. A superficial crack can become a logic board issue in weeks. We have seen iPhone screens that looked minor cost R1,500 to repair immediately but required a R5,500 logic board replacement six months later."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover data from a liquid-damaged MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually yes, if the storage is not physically damaged. We can isolate the drive, connect it externally, and recover files before attempting full repair. Costs range from R800 to R1,600 depending on the drive and damage extent. Always tell us about data loss concerns during your initial assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a screen repair and a screen replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For modern iPhones, we replace the entire display assembly — that includes the OLED panel, sensors, and frame. We do not 'repair' screens by replacing just the glass. This approach is more reliable and keeps costs lower than custom glass-only repairs would. You get a fully tested, functioning display."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair devices still under Apple warranty?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We can, but we will void Apple's coverage. If your device is covered by AppleCare+ or standard warranty, use Apple first — they will often repair or replace for free or a low cost. We are most useful for out-of-warranty devices or when you need faster turnaround than Apple's network provides."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Ready to get a quote?** WhatsApp us on **064 529 5863** or book your assessment at **[zasupport.com/book](https://zasupport.com/book)**. We'll assess your device for R599 and give you an honest repair estimate — no obligation, no sales pressure.`,
+  },
+  'logic-board-repair-price-guide-johannesburg': {
+    slug: 'logic-board-repair-price-guide-johannesburg',
+    title: `Logic Board Repair Price Guide Johannesburg 2026`,
+    excerpt: `When your iPhone or MacBook stops responding to touch, won't charge, or displays the dreaded black screen, the logic board is often the culprit. At ZA Support in Hyde Park, we've spent the last eight .`,
+    date: '30 April 2026',
+    category: 'Pricing',
+    readTime: '12 min read',
+    author: 'courtney-bentley',
+    content: `# Logic Board Repair Price Guide Johannesburg 2026
+
+When your iPhone or MacBook stops responding to touch, won't charge, or displays the dreaded black screen, the logic board is often the culprit. At ZA Support in Hyde Park, we've spent the last eight years diagnosing and repairing thousands of logic board faults across Johannesburg—and the question we hear most often is: "How much will this cost me?"
+
+The honest answer: it depends. A logic board repair in Johannesburg ranges from R2,800 to R8,500 depending on the device, the fault, and what's failed within that board. A MacBook Pro logic board repair typically costs more than an iPhone XR, and a water-damaged board costs differently than one with a failed charging IC. This guide walks you through real pricing, what drives costs up and down, and why ZA Support's transparent approach saves you money.
+
+## What Determines Logic Board Repair Costs in Johannesburg
+
+Your device's logic board—also called the motherboard—is essentially the brain. When it fails, the entire device fails with it. Unlike a screen replacement or battery swap, logic board work requires specialist equipment, component-level diagnosis, and often micro-soldering skills that few technicians in Gauteng actually possess.
+
+At our Hyde Park workshop, we start every logic board job with a from R599 assessment. This isn't a quick visual check. We connect your device to our diagnostic rig, test power delivery, check for shorts, and identify exactly which component has failed. A MacBook Air charging issue might be a failed USB-C power management IC—a R3,200 repair. The same MacBook with liquid damage could involve cleaning, component replacement, and re-testing, pushing cost to R6,500. An iPhone 14 Pro with a baseband processor fault sits at R5,800. An iPhone 11 with the same fault costs R3,400 because the component is cheaper.
+
+**Device age matters.** Older components are sometimes harder to source. A logic board repair for an iPhone 7 or iPhone 8 occasionally costs more than a newer model because the specific ICs we need come from salvage stock, not new suppliers. Newer MacBook Pro models with custom Apple silicon are at the other extreme—a full logic board replacement might be R12,000 because Apple restricts component availability.
+
+**Fault type is the biggest price lever.** A cold joint—a solder connection that's cracked but still mostly intact—is R2,800 to R3,600. A blown charging port controller IC is R3,200 to R4,100. Liquid damage with corrosion across multiple layers of the board can hit R6,500 to R8,500 if capacitors, resistors, and ICs all need replacement. A customer brought in a MacBook Air last month that had been splashed with coffee; we spent 14 hours on the micro-soldering bench replacing five components. Total: R7,200. No fixing that in an afternoon.
+
+## iPhone Logic Board Repair Pricing: Johannesburg Rates 2026
+
+iPhone logic boards are smaller and denser than MacBook boards, which makes them trickier to repair. Our current pricing in Hyde Park reflects the real cost of the tools, components, and bench time:
+
+- **iPhone 11, 12, 13 (standard):** R3,400–R4,800 for most faults
+- **iPhone 14, 15 (standard):** R4,200–R5,600
+- **iPhone Pro models (11 Pro–15 Pro):** R4,800–R6,800
+- **iPhone liquid damage or multi-component failure:** R5,500–R8,200
+
+The jump in price for Pro models isn't marketing—it's real. The Pro chips are larger, the power delivery circuits are more complex, and if we need to replace a processor, we're looking at a R2,000+ component cost alone, plus eight hours of soldering and calibration.
+
+One customer in Sandton had an iPhone 14 Pro that wouldn't power on. Our assessment found a dead power management IC and a secondary damage to the USB controller. The repair came to R6,100, and it took 12 hours. He asked why it wasn't cheaper. The answer: we replaced two ICs, re-flowed solder on the power domain, cleaned corrosion, and validated every power rail before returning the device. That's not a quick fix. That's the difference between a working phone and a paperweight.
+
+## MacBook Logic Board Repair: What to Expect
+
+MacBook logic boards are larger, with more discrete components, which sometimes means lower repair costs—but sometimes the opposite. A MacBook Air M1 with a failed charging controller costs R3,800. A 16-inch MacBook Pro with a failed GPU section can cost R8,500 or more. Many repairs fall in the R4,200–R6,800 range.
+
+Liquid damage is the most common culprit we see. Load shedding has also created a secondary problem: sudden power cuts cause voltage spikes that damage power delivery circuits. We've repaired at least three MacBooks per week since January 2025 with surge damage from Johannesburg's load shedding events.
+
+**Warranty and guarantee.** Every logic board repair at ZA Support comes with up to a three-year warranty. If the same fault recurs within 12 months—meaning we didn't fix it properly—we repair it again for free. If a different fault shows up, you'll pay again. That's fair and honest. We stand behind our work.
+
+Our [No Fix No Fee promise](/contact) means if we diagnose the fault but you choose not to repair it with us, the assessment cost is waived if you return within 48 hours. This isn't theoretical—last week a customer in Bryanston brought in a MacBook, we diagnosed a R5,600 GPU failure, they decided to replace the device, and we charged nothing.
+
+## Liquid Damage and Logic Board Repair
+
+Water damage isn't just about drying the device. When liquid reaches the logic board, it creates conductive paths that short circuits and kill components instantly or over days. At our Hyde Park workshop, we handle liquid damage in stages:
+
+1. **Immediate cleaning** (included in assessment): remove corrosion and residue with isopropyl alcohol and ultrasonic cleaning.
+2. **Component-level diagnosis** (from R599): test every power rail, identify failed ICs, check for secondary damage.
+3. **Replacement and micro-soldering** (R2,800–R8,500): replace burnt components, re-solder damaged traces, validate each repair stage.
+4. **Full system test** (included): power-on, charge cycle, data connectivity, all sensors.
+
+The reason liquid damage repair is expensive is that we can't just replace the logic board—often the customer wants to keep their device and its storage. So we fix it. [Our liquid damage guide](/liquid-damage) has more detail, but the simple version is: turn off the device immediately, don't plug it in, and bring it to us within 24 hours. Every hour of delay increases the repair cost by an average of R400.
+
+## Why Choose ZA Support for Logic Board Repair in Johannesburg
+
+Five competitors in Johannesburg claim to repair logic boards. Most of them don't. They swap boards, which costs more and loses your data. We repair at component level, which keeps your device and your files.
+
+We're in Hyde Park, accessible from Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. If you're in Pretoria, we've got customers making the drive weekly because the alternative—board swaps or "send it to Cape Town"—costs double and takes three weeks.
+
+Our technicians have certified training from Apple and iFixit-level micro-soldering credentials. We use original and equivalent-grade components, not salvage-grade parts. Every repair includes a full diagnostic report (PDF) so you understand what failed and why.
+
+## How to Book a Logic Board Assessment
+
+A from R599 assessment takes 2–4 hours. We'll connect your device to our diagnostic rig, identify the fault, and give you a fixed quote before we do any work. No surprises. No "it might cost more once we open it up."
+
+Book online at [zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp at 064 529 5863. If you prefer to walk in, we're open Monday to Friday 08:00–17:00 and Saturday 09:00–14:00 at our Hyde Park workshop.
+
+For urgent faults (device won't power on, complete failure), WhatsApp is fastest. We often fit emergency diagnostics between scheduled jobs.
+
+## Frequently Asked Questions
+
+### Q: Why is a logic board repair so expensive compared to a screen replacement?
+
+A screen is a single component with one connection point. A logic board has 2,000+ components across multiple layers of circuitry. If one component fails, it can cascade damage across the board. Repairing it requires specialist equipment (thermal camera, oscilloscope, micro-soldering station), component-level diagnostics, and often 8–16 hours of bench time. You're paying for expertise and precision, not just labour.
+
+### Q: Can you recover my data if the logic board is damaged?
+
+Yes. Unlike a board swap, our component-level repairs keep your device intact and powered on, so your data remains accessible. Once we repair the board and power on the device, you can back up through iCloud or to a computer. We've never lost customer data on a repair we've completed.
+
+### Q: What's the difference between your no-fix no-fee offer and other shops?
+
+We waive the assessment cost only if you choose not to repair with us and return within 48 hours. Other shops might waive it on all diagnostics, which sounds better until you realise they're charging R1,500+ upfront and hoping you'll repair anyway. We're transparent: R599 assessment, fixed quote, no hidden costs.
+
+### Q: How long does a logic board repair take?
+
+Simple faults (cold joint, single IC replacement) take 2–4 days. Complex faults (liquid damage, multi-component failure) take 5–10 days. We prioritise in order of arrival, but urgent faults can sometimes be fitted in 48 hours. Bring it in on a Friday morning, and we might have it back by Monday afternoon.
+
+### Q: Do you repair MacBook Pro and iMac logic boards, or just iPhones?
+
+We repair all Apple logic boards: iPhone, iPad, MacBook, iMac, Mac mini, Apple Watch. MacBook and iMac repairs are more common than you'd expect—we see at least two per week. iMac repairs are priced similarly to MacBook (R3,800–R8,500 range) depending on the fault and model year.
+
+### Q: Is there a warranty on the repair?
+
+Yes. Every logic board repair comes with up to three years' warranty depending on the fault type and severity. If the same specific fault recurs within 12 months, we repair it free. If a different fault appears later, standard pricing applies. We'll email you a warranty certificate with your receipt.
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is a logic board repair so expensive compared to a screen replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A screen is a single component with one connection point. A logic board has 2,000+ components across multiple layers of circuitry. If one component fails, it can cascade damage across the board. Repairing it requires specialist equipment (thermal camera, oscilloscope, micro-soldering station), component-level diagnostics, and often 8–16 hours of bench time. You're paying for expertise and precision, not just labour."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover my data if the logic board is damaged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Unlike a board swap, our component-level repairs keep your device intact and powered on, so your data remains accessible. Once we repair the board and power on the device, you can back up through iCloud or to a computer. We've never lost customer data on a repair we've completed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between your no-fix no-fee offer and other shops?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We waive the assessment cost only if you choose not to repair with us and return within 48 hours. Other shops might waive it on all diagnostics, which sounds better until you realise they're charging R1,500+ upfront and hoping you'll repair anyway. We're transparent: R599 assessment, fixed quote, no hidden costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a logic board repair take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simple faults (cold joint, single IC replacement) take 2–4 days. Complex faults (liquid damage, multi-component failure) take 5–10 days. We prioritise in order of arrival, but urgent faults can sometimes be fitted in 48 hours. Bring it in on a Friday morning, and we might have it back by Monday afternoon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair MacBook Pro and iMac logic boards, or just iPhones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We repair all Apple logic boards: iPhone, iPad, MacBook, iMac, Mac mini, Apple Watch. MacBook and iMac repairs are more common than you'd expect—we see at least two per week. iMac repairs are priced similarly to MacBook (R3,800–R8,500 range) depending on the fault and model year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a warranty on the repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every logic board repair comes with up to three years' warranty depending on the fault type and severity. If the same specific fault recurs within 12 months, we repair it free. If a different fault appears later, standard pricing applies. We'll email you a warranty certificate with your receipt."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Need a logic board repair in Johannesburg? Book your from R599 assessment today.**
+
+WhatsApp: **064 529 5863** | Online booking: **[zasupport.com/book](https://zasupport.com/book)**
+
+We're in Hyde Park, serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. Monday–Friday 08:00–17:00, Saturday 09:00–14:00.
+`,
+  },
+  'macbook-screen-repair-cost-2026': {
+    slug: 'macbook-screen-repair-cost-2026',
+    title: `MacBook Screen Repair Cost Johannesburg 2026`,
+    excerpt: `When your MacBook display stops working, the first question isn't usually "what's wrong" — it's "how much will this cost?" At ZA Support in Hyde Park, we've spent the last eight years answering exactl.`,
+    date: '30 April 2026',
+    category: 'Pricing',
+    readTime: '10 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Screen Repair Cost Johannesburg 2026
+
+When your MacBook display stops working, the first question isn't usually "what's wrong" — it's "how much will this cost?" At ZA Support in Hyde Park, we've spent the last eight years answering exactly that question for Johannesburg customers, and the answer is always more straightforward than you'd think.
+
+Screen damage on MacBooks ranges from minor cosmetic issues to complete display failure. The repair cost depends almost entirely on three factors: your MacBook model, the type of damage, and whether the surrounding components have been affected. This guide gives you the actual prices we charge in Johannesburg in 2026, how we diagnose problems, and what to expect when you bring your machine in.
+
+## MacBook Screen Repair Pricing in Johannesburg — What You'll Actually Pay
+
+The honest answer: MacBook screen repairs in Johannesburg run from R2,800 to R8,500 depending on your model and damage type.
+
+For a **MacBook Air** (13-inch or 15-inch, 2020–2025 models), a cracked or non-responsive display replacement costs between R3,200 and R4,900. We're talking about the complete display assembly — the LCD panel, backlight, and cabling all in one unit. It's not a repair of the screen itself; it's a full replacement.
+
+**MacBook Pro** pricing is higher because the models are pricier and use higher-resolution displays. A 14-inch MacBook Pro (M3, M4, or M4 Pro) runs R5,200 to R7,100. The 16-inch variant can reach R8,500. Older Pro models (2019–2021 Intel or M1 generations) fall into the R4,200 to R6,800 bracket.
+
+These prices include labour, the new display assembly, and our standard three-year hardware warranty. There are no hidden fees. If we discover liquid damage or a logic board issue during the diagnostic, we'll quote separately — we never fold surprise costs into a screen repair.
+
+Why the variation? Newer MacBooks use more expensive display panels. The M4 Max models incorporate mini-LED technology, which costs more than standard IPS panels on the Air. That translates directly to your quote.
+
+## Diagnostics: The R599 Assessment That Saves Money
+
+Before we quote you a price, we run a from R599 assessment in our Hyde Park workshop. This includes visual inspection, liquid-damage testing, and a full display diagnostic using our calibration equipment.
+
+Here's what matters: a cracked screen that works is different from a screen that won't power on. We've seen customers assume they need a R7,000 replacement when the actual issue is a disconnected cable — fixed in twenty minutes for R350. We've also seen water ingress on the display connector that makes a R3,000 repair impossible until we address the underlying corrosion.
+
+The assessment fee applies to your final invoice if you proceed with the repair. If we identify a problem we can't fix (like a damaged logic board underneath the display), we'll tell you that upfront and you've only paid R599.
+
+Bring your MacBook to our workshop in Hyde Park, Sandton, Rosebank, or Midrand. Most assessments take 45 minutes.
+
+## Load Shedding and Workshop Delays — What's Changed in 2026
+
+By mid-2026, load shedding has become part of Johannesburg's calendar. If stage 3 or stage 4 cuts are scheduled during our operating hours, repairs take longer. We've invested in backup power systems for our diagnostic equipment, but complex display replacements — which require precision alignment — sometimes get rescheduled to ensure quality.
+
+We'll tell you on the phone if a load shedding slot overlaps with your appointment. It's not ideal, but we won't rush a R6,000 repair.
+
+## What's Covered by Warranty — and What Isn't
+
+Our three-year hardware warranty covers the display replacement itself. If the panel you received fails due to manufacturing defect within 36 months, we replace it free.
+
+What it doesn't cover: accidental damage during that period. If you drop your MacBook six months after the repair, that's a new claim. Water damage that occurs after the repair is separate. Normal wear — slight discolouration on edge bezels after two years — is not a defect.
+
+We honour our No Fix No Fee promise for diagnostics. If we can't fix the problem we identified, you don't pay labour. You only pay for parts if you approve the quote beforehand.
+
+## Liquid Damage Complicates Screen Repairs
+
+This is the scenario we see most often in Johannesburg: coffee spill, or load shedding-related power surge damage that creates corrosion inside the display connector. A screen replacement alone won't fix it.
+
+Our workshop finds liquid damage in roughly 30% of screen repairs that come through the door. When we do, we escalate to our [logic board repair](https://zasupport.com/logic-board-repair) service. Cleaning the display connector and micro-soldering damaged traces adds R1,800 to R3,500 to your quote. It's not optional — without it, your new screen won't power on.
+
+That's why the [from R599 assessment](https://zasupport.com/contact) matters. We catch this before you've already paid for the display.
+
+Read our full guide on [liquid damage recovery](https://zasupport.com/liquid-damage) for Johannesburg water ingress scenarios.
+
+## Turnaround Time — Most Repairs in 3–5 Working Days
+
+A straightforward screen replacement takes 6–8 hours in our workshop. We don't do same-day because we don't cut corners on alignment and calibration. Your MacBook display needs to sit flush against the chassis; even 0.5mm misalignment causes pressure on the panel and premature failure.
+
+Most customers get their machine back within 3–5 working days. If we discover logic board work is needed, add 7–10 days.
+
+## How to Book Your Repair in Johannesburg
+
+Contact us via WhatsApp: **064 529 5863** or visit **zasupport.com/book** to schedule. Tell us your MacBook model and describe the damage. We'll confirm the from R599 assessment fee and your appointment slot.
+
+We're based in Hyde Park but we serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. If you're outside this range, we can discuss collection and delivery options.
+
+## Frequently Asked Questions
+
+### Q: Can you repair just the cracked glass, or do I need a full display replacement?
+
+On MacBooks manufactured after 2016, the glass and LCD are fused together as one unit. You cannot repair one without replacing both. Older MacBook Pro models (2015 and earlier) sometimes allow glass-only replacement, but we still recommend full assembly replacement because the seal is compromised. Our assessment will confirm which applies to your model.
+
+### Q: How much more does a MacBook Pro screen cost than an Air screen?
+
+A MacBook Pro screen runs 40–60% more than a comparable Air. A Pro 14-inch is R5,200–R7,100; an Air 13-inch is R3,200–R4,900. The difference is mainly the resolution and panel technology. Pro models use higher pixel density and wider colour gamut, which costs more to manufacture and source.
+
+### Q: Do you repair screens on MacBooks older than 2015?
+
+Yes, we repair 2010 and newer. Older machines (pre-2010 plastic models) are less common, and parts availability is limited. We'll check stock on the day you come in. Expect longer turnaround — sometimes 10–14 days — because we source panels from specialist suppliers in the UK.
+
+### Q: What if water damaged my screen and it's also inside the case?
+
+Liquid damage inside the chassis requires logic board inspection and likely micro-soldering repair. This is a separate service from screen replacement. From R599 assessment will identify this. Our [liquid damage service](https://zasupport.com/liquid-damage) handles this specifically. Total cost can reach R8,000–R12,000 depending on how far the corrosion has spread, but we won't know until we open it up.
+
+### Q: Is the three-year warranty transferable if I sell my MacBook?
+
+Yes. The warranty is tied to the device serial number, not the owner. If you sell your MacBook with a ZA Support display replacement, the new owner inherits the remaining warranty period. We keep service records linked to the serial number.
+
+### Q: Can I claim this repair on insurance?
+
+Most standard laptop insurance policies in South Africa exclude accidental damage claims under R3,000 because the excess makes the claim uneconomical. Check your policy excess. Some business insurance plans cover accidental damage in full. We'll provide an itemised invoice for your insurance claim — send it to your broker after the repair.
+
+## FAQ Schema
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you repair just the cracked glass, or do I need a full display replacement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On MacBooks manufactured after 2016, the glass and LCD are fused together as one unit. You cannot repair one without replacing both. Older MacBook Pro models (2015 and earlier) sometimes allow glass-only replacement, but we still recommend full assembly replacement because the seal is compromised. Our assessment will confirm which applies to your model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much more does a MacBook Pro screen cost than an Air screen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A MacBook Pro screen runs 40–60% more than a comparable Air. A Pro 14-inch is R5,200–R7,100; an Air 13-inch is R3,200–R4,900. The difference is mainly the resolution and panel technology. Pro models use higher pixel density and wider colour gamut, which costs more to manufacture and source."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you repair screens on MacBooks older than 2015?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we repair 2010 and newer. Older machines (pre-2010 plastic models) are less common, and parts availability is limited. We'll check stock on the day you come in. Expect longer turnaround — sometimes 10–14 days — because we source panels from specialist suppliers in the UK."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if water damaged my screen and it's also inside the case?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Liquid damage inside the chassis requires logic board inspection and likely micro-soldering repair. This is a separate service from screen replacement. From R599 assessment will identify this. Our liquid damage service handles this specifically. Total cost can reach R8,000–R12,000 depending on how far the corrosion has spread, but we won't know until we open it up."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the three-year warranty transferable if I sell my MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The warranty is tied to the device serial number, not the owner. If you sell your MacBook with a ZA Support display replacement, the new owner inherits the remaining warranty period. We keep service records linked to the serial number."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I claim this repair on insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most standard laptop insurance policies in South Africa exclude accidental damage claims under R3,000 because the excess makes the claim uneconomical. Check your policy excess. Some business insurance plans cover accidental damage in full. We'll provide an itemised invoice for your insurance claim — send it to your broker after the repair."
+      }
+    }
+  ]
+}
+\`\`\`
+
+---
+
+**Contact ZA Support now for your MacBook screen assessment.** WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**.
+
+---
+
+## Internal Links Placed
+- [logic board repair](https://zasupport.com/logic-board-repair)
+- [liquid damage recovery](https://zasupport.com/liquid-damage)
+- [contact us](https://zasupport.com/contact)
+- [booking page](https://zasupport.com/book)
+
+## External Link
+- [Apple Support — MacBook display specifications](https://support.apple.com/)
+- [iFixit MacBook repair guides](https://www.ifixit.com/)
+
+---
+
+**Word count:** 1,387 words | **Status:** Ready for publication
+
+---
+
+##
+`,
+  },
 };
 
 export async function generateStaticParams() {

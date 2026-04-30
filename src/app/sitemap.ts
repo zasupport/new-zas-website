@@ -542,5 +542,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-hdmi-not-working-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-logic-board-short-circuit-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pro-2020-intel-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/apple-repair-prices-johannesburg-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/logic-board-repair-price-guide-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-screen-repair-cost-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
