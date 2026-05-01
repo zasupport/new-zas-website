@@ -34586,7 +34586,7 @@ AppleCare covers battery replacement if health drops below 80%. If you're covere
 
 ### Q: Why does my new battery seem to charge slowly?
 
-New genuine batteries charge more conserviously than worn ones. This is intentional. Your MacBook's firmware limits charging speed to preserve longevity. It normalises over 50 charge cycles. If you're still experiencing slow charging after 100 cycles, contact us for a free check.
+New genuine batteries charge more conserviously than worn ones. This is intentional. Your MacBook's firmware limits charging speed to preserve longevity. It normalises over 50 charge cycles. If you're still experiencing slow charging after 100 cycles, contact us for a Assessment from R599.
 
 ### Q: Do you offer battery recycling?
 
@@ -34636,7 +34636,7 @@ Yes. When we remove your old battery, we store it safely and send it to an e-was
       "name": "Why does my new battery seem to charge slowly?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "New genuine batteries charge more conserviously than worn ones. This is intentional. Your MacBook's firmware limits charging speed to preserve longevity. It normalises over 50 charge cycles. If you're still experiencing slow charging after 100 cycles, contact us for a free check."
+        "text": "New genuine batteries charge more conserviously than worn ones. This is intentional. Your MacBook's firmware limits charging speed to preserve longevity. It normalises over 50 charge cycles. If you're still experiencing slow charging after 100 cycles, contact us for a Assessment from R599."
       }
     },
     {
