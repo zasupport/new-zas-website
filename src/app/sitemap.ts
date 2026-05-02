@@ -546,5 +546,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/logic-board-repair-price-guide-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-screen-repair-cost-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-battery-replacement-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/repair-vs-replace-macbook-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

@@ -34670,6 +34670,165 @@ Yes. When we remove your old battery, we store it safely and send it to an e-was
 **Word count: 1,485 words (body text, excluding H1, FAQs, and JSON-LD)**
 `,
   },
+  'repair-vs-replace-macbook-johannesburg': {
+    slug: 'repair-vs-replace-macbook-johannesburg',
+    title: `MacBook Repair vs Replace: A Johannesburg Guide from Your Local Technician`,
+    excerpt: `When your MacBook stops working as it should, the question becomes immediate: fix it or buy a new one? At ZA Support in Hyde Park, we've answered this question for hundreds of customers across Johanne.`,
+    date: '02 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Repair vs Replace: A Johannesburg Guide from Your Local Technician
+
+When your MacBook stops working as it should, the question becomes immediate: fix it or buy a new one? At ZA Support in Hyde Park, we've answered this question for hundreds of customers across Johannesburg and Gauteng. The answer isn't always obvious, and it certainly isn't always "replace." This guide draws on our workshop experience to help you make the right decision for your situation and your budget.
+
+## Understanding the True Cost of a New MacBook
+
+A new MacBook M3 or M4 will cost you upwards of R45,000 to R65,000 in South Africa. Factor in setup time, data migration, and software licensing, and you're looking at an investment that extends well beyond the sticker price. Load shedding across Johannesburg has also made older hardware less reliable—but that doesn't automatically mean you need a new machine.
+
+The reality in our Hyde Park workshop is this: most MacBooks that come through our door are repairable. We've fixed water-damaged units from Morningside, replaced failed logic boards in machines from Sandton, and restored keyboard functionality in devices that owners thought were finished. The question is whether repair makes financial sense for your specific machine and problem.
+
+A [logic board repair](/logic-board-repair) might cost R2,800 to R4,500. A keyboard replacement runs R1,200 to R1,800. Even a full screen replacement—one of the more expensive single repairs—sits between R1,500 and R2,200. These are investments that extend your MacBook's life by 2-3 years, often at a fraction of the cost of replacement.
+
+## When Repair Makes Economic Sense
+
+Your MacBook is worth repairing if it's less than 5-6 years old and the repair cost is below 40% of the machine's current market value. That's the threshold we use in our Johannesburg workshop when advising clients in Bryanston, Centurion, and surrounding areas.
+
+For example: a 2021 MacBook Air M1 has a current resale value of roughly R18,000 to R22,000. A repair costing R5,000 to R7,000 is absolutely sensible. You're investing in reliability at a fraction of what a new machine costs.
+
+Conversely, a 2015 MacBook Pro with a failed logic board might fetch R4,000 to R6,000 second-hand. A R3,500 repair still makes sense if you plan to keep it, but if you're considering selling it, the maths shifts. This is why our from R599 assessment is crucial—we'll diagnose the exact problem and show you the real cost before you commit.
+
+Age matters too. Machines older than 7 years start presenting recurring issues. Parts become harder to source. Battery life deteriorates. Operating system support becomes limited. These machines are worth repairing if they're sentimental or if you're using them for basic tasks, but for professional work, replacement often makes sense.
+
+## Common MacBook Problems and Their Repair Costs
+
+In our Hyde Park workshop, we see consistent patterns. The most common issues—and their typical costs—are:
+
+**Liquid damage** is the leading failure we encounter. Coffee, tea, and the occasional Johannesburg thunderstorm find their way into keyboards. Trapped moisture causes corrosion, short circuits, and component failure. Our [liquid damage assessment and repair](/liquid-damage) typically ranges from R1,500 to R4,000 depending on extent. This is almost always repairable and far cheaper than replacement.
+
+**Battery failure** affects machines over 3-4 years old. A new battery costs R800 to R1,200 and takes 45 minutes to install. It transforms a sluggish machine back into something reliable.
+
+**Screen damage** from drops or pressure varies wildly. A cracked display on a 2022 MacBook runs R1,800 to R2,200. On older models with simpler displays, you're looking at R1,200 to R1,500. Repairable, always.
+
+**Keyboard failure**—sticky keys, non-responsive keys, or complete failure—costs R1,200 to R1,800 for replacement. We see this frequently in machines that've endured Johannesburg's dust and load shedding conditions.
+
+**Hard drive and SSD failure** presents differently. Modern Macs use soldered storage, making "repair" actually mean data recovery plus replacement. Costs sit between R2,500 and R4,500. Recoverable data is golden; a brand-new drive costs significantly less than a new machine.
+
+## When Replacement Is the Right Call
+
+Replace your MacBook if the repair cost exceeds 50% of the machine's replacement value. It's that simple.
+
+Replace if the machine is older than 7 years and presenting multiple failures simultaneously. That's usually a sign the motherboard or logic board is degrading. One issue now means three more in the next year.
+
+Replace if you're using your MacBook for professional video work, 3D rendering, or machine learning tasks and your current model can't handle your workload. Repair keeps it limping along; replacement gives you the performance jump you actually need.
+
+Replace if you're running software your machine can no longer support. Johannesburg-based businesses sometimes need newer operating systems for compliance or security reasons. An unsupported machine is a liability.
+
+We're honest about this in our workshop. We've had customers bring in 2013 MacBooks with three separate issues—keyboard, battery, and screen—and we've recommended replacement. The repair bill would hit R5,500, and they'd still have a machine that can't run modern software reliably. A refurbished 2019 or 2020 model for R12,000 to R15,000 made far more sense for their actual use.
+
+## Getting the Right Assessment in Johannesburg
+
+This is why the assessment matters. At ZA Support, we charge from R599 for a comprehensive diagnostic. We'll identify the exact problem, quote the exact repair cost, and give you honest advice about whether repair or replacement makes sense for your situation.
+
+We offer up to a 3-year warranty on repairs, which means your investment is protected. Our No Fix No Fee promise means if we can't solve it, you don't pay. That's confidence built on workshop experience.
+
+We're based in Hyde Park, serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. You can book your assessment at [zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp at 064 529 5863.
+
+## Making Your Decision
+
+The right choice comes down to four factors: the machine's age, the repair cost, your actual use case, and how much longer you plan to keep it. A 3-year-old MacBook with a single, clear problem is almost always worth repairing. A 7-year-old machine with multiple issues is almost always worth replacing.
+
+When in doubt, get the assessment. You'll know exactly what you're facing, and you'll have the information to make the right call for your budget and your needs.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How do I know if my MacBook can be repaired?
+
+Most MacBook problems are repairable. Logic board failure, water damage, screen cracks, keyboard issues, and battery degradation are all fixable. The real question is whether repair is cost-effective relative to replacement. Our assessment will tell you. Book a diagnostic from R599 at [zasupport.com/book](https://zasupport.com/book).
+
+### Q: What's the typical turnaround time for MacBook repair in Johannesburg?
+
+Standard repairs—battery, keyboard, screen replacement—take 2-3 working days. Logic board and water damage repairs require 5-7 working days, as they involve component-level diagnosis and careful rework. We'll give you a precise timeline during your assessment at our Hyde Park workshop.
+
+### Q: Do you offer warranty on repairs?
+
+Yes. All repairs come with up to a 3-year warranty, depending on the service. We stand behind our work. If a repaired component fails within warranty, we'll fix it at no additional cost.
+
+### Q: Can you recover data from a broken MacBook?
+
+Usually, yes. Even if the machine won't start, we can access the drive and recover your files. Data recovery runs R1,500 to R3,000 depending on the drive type and extent of damage. We'll assess it during your diagnostic appointment.
+
+### Q: What's the No Fix No Fee promise?
+
+If we diagnose a problem and attempt repair but can't resolve it, you don't pay for the repair labour. You pay only for the assessment. This protects you from paying for unsuccessful work. It's how we operate at ZA Support.
+
+### Q: Should I repair my MacBook or buy a new one?
+
+If the repair cost is under 40% of the machine's current value and the machine is less than 6 years old, repair usually makes sense. If repair exceeds 50% of replacement cost or your machine is over 7 years old with multiple problems, replacement is smarter. Get an assessment to decide with certainty. Message us on WhatsApp at 064 529 5863 or visit [zasupport.com/book](https://zasupport.com/book).
+
+---
+
+\`\`\`json
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if my MacBook can be repaired?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most MacBook problems are repairable. Logic board failure, water damage, screen cracks, keyboard issues, and battery degradation are all fixable. The real question is whether repair is cost-effective relative to replacement. Our assessment will tell you. Book a diagnostic from R599 at zasupport.com/book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the typical turnaround time for MacBook repair in Johannesburg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard repairs—battery, keyboard, screen replacement—take 2-3 working days. Logic board and water damage repairs require 5-7 working days, as they involve component-level diagnosis and careful rework. We'll give you a precise timeline during your assessment at our Hyde Park workshop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer warranty on repairs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All repairs come with up to a 3-year warranty, depending on the service. We stand behind our work. If a repaired component fails within warranty, we'll fix it at no additional cost."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you recover data from a broken MacBook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually, yes. Even if the machine won't start, we can access the drive and recover your files. Data recovery runs R1,500 to R3,000 depending on the drive type and extent of damage. We'll assess it during your diagnostic appointment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the No Fix No Fee promise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If we diagnose a problem and attempt repair but can't resolve it, you don't pay for the repair labour. You pay only for the assessment. This protects you from paying for unsuccessful work. It's how we operate at ZA Support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I repair my MacBook or buy a new one?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the repair cost is under 40% of the machine's current value and the machine is less than 6 years old, repair usually makes sense. If repair exceeds 50% of replacement cost or your machine is over 7 years old with multiple problems, replacement is smarter. Get an assessment to decide with certainty. Message us on WhatsApp at 064 529 5863 or visit zasupport.com/book."
+      }
+    }
+  ]
+}
+\`\`\`
+
+**Book your assessment today: [zasupport.com/book](https://zasupport.com/book) | WhatsApp: 064 529 5863**`,
+  },
 };
 
 export async function generateStaticParams() {
