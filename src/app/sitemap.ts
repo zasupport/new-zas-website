@@ -547,5 +547,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-screen-repair-cost-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-battery-replacement-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/repair-vs-replace-macbook-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-logic-board-repair-johannesburg-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+        { url: `${base}/blog/macbook-air-logic-board-repair-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+        { url: `${base}/blog/macbook-pro-m1-logic-board-fault-symptoms`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
+        { url: `${base}/blog/logic-board-repair-vs-replacement-macbook`, lastModified: now, changeFrequency: 'yearly', priority: 0.8 },
+        { url: `${base}/blog/macbook-pro-14-inch-logic-board-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+        { url: `${base}/blog/macbook-pro-16-inch-logic-board-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+        { url: `${base}/blog/macbook-air-m2-logic-board-sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+        { url: `${base}/blog/macbook-logic-board-repair-sandton-rosebank`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
   ];
 }
