@@ -6252,7 +6252,7 @@ Turnaround is typically 3–5 working days depending on component availability. 
 
 **Need help protecting your MacBook or dealing with existing water damage?** Contact ZA Support in Hyde Park, Johannesburg.
 
-[[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book) for your R599 assessment. We offer From R599 assessment guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book) for your R599 assessment. We offer From R599 assessment guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
   },
   'signs-of-water-damage-macbook-how-to-tell': {
     slug: 'signs-of-water-damage-macbook-how-to-tell',
@@ -17114,7 +17114,7 @@ A: Power off the device immediately (hold the power button for 10 seconds). Disc
 
 ---
 
-**Need help now?** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.`,
+**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.`,
   },
   'macbook-battery-draining-fast-johannesburg': {
     slug: 'macbook-battery-draining-fast-johannesburg',
@@ -18219,7 +18219,7 @@ Apple Stores will confirm the LCI status and decline warranty service. They can 
 
 ---
 
-**Ready to get your MacBook assessed?** Contact ZA Support in Hyde Park today. [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Our from R599 assessment includes full LCI inspection and logic board diagnostics. From R599 assessment guarantee—you'll know exactly what needs doing before you commit to repair.`,
+**Ready to get your MacBook assessed?** Contact ZA Support in Hyde Park today. [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Our from R599 assessment includes full LCI inspection and logic board diagnostics. From R599 assessment guarantee—you'll know exactly what needs doing before you commit to repair.`,
   },
   'imac-m3-repair-johannesburg': {
     slug: 'imac-m3-repair-johannesburg',
@@ -19325,7 +19325,7 @@ Perform these five checks yourself first. If you find storage below 15GB, temper
 
 Our Hyde Park workshop is open Monday–Saturday, 9 AM–6 PM. We diagnose faults the same day, often whilst you wait. Assessment starts from R599 and includes full data backup if hardware repair is needed.
 
-[[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We serve Johannesburg and surrounding suburbs: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We serve Johannesburg and surrounding suburbs: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 ---
 
@@ -22706,7 +22706,7 @@ We offer same-day diagnosis and same-day repair completion for most display cabl
 
 **Ready to fix your MacBook display?**
 
-[[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.`,
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.`,
   },
   'macbook-pmic-repair-johannesburg': {
     slug: 'macbook-pmic-repair-johannesburg',
@@ -26827,7 +26827,7 @@ We diagnose it at our Hyde Park workshop. If it's a hardware fault (logic board,
 
 **Need help with Mac onboarding in Johannesburg?**
 
-Message us on [[WhatsApp: **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863)
+Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)
 [Book an assessment at zasupport.com/book](https://zasupport.com/book)
 Visit us: ZA Support, Hyde Park, Johannesburg
 
@@ -34115,7 +34115,7 @@ Most standard laptop insurance policies in South Africa exclude accidental damag
 
 ---
 
-**Contact ZA Support now for your MacBook screen assessment.** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book).
+**Contact ZA Support now for your MacBook screen assessment.** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book).
 
 `,
   },
@@ -34628,7 +34628,7 @@ If anything fails the stability cycle, the board goes back for further work. The
 }
 \`\`\`
 
-**Need help now?** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.
+**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.
 `,
   },
   'liquid-damage-macbook-pro-randburg': {
@@ -34755,7 +34755,7 @@ We don't charge for the assessment if you decide not to proceed with the repair 
 }
 </script>
 
-**Need help now?** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Randburg and across Gauteng.
+**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Randburg and across Gauteng.
 `,
   },
   'spilled-water-macbook-air-johannesburg': {
@@ -35854,7 +35854,7 @@ We provide an up to 3-year warranty on the specific fault we repair. This is doc
 **Can you recover data from a MacBook Pro 14-inch with a dead logic board?**
 In many cases, yes. If the board is partially functional — for example, it powers on but will not boot — we can often extract the SSD content. If the board is completely dead, data recovery depends on the nature of the fault. We will advise you after the assessment.
 
-[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your assessment at our Hyde Park workshop.
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your assessment at our Hyde Park workshop.
 `,
   },
 
@@ -35934,7 +35934,7 @@ Typically three to five working days. We will confirm the timeline when we give 
 **What warranty do you offer?**
 An up to 3-year warranty on the specific fault repaired, provided in writing. This covers parts and labour for a repeat of the same fault within the warranty period.
 
-[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to discuss your fault, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your R599 assessment at our Hyde Park workshop.
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to discuss your fault, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your R599 assessment at our Hyde Park workshop.
 `,
   },
 
@@ -36010,7 +36010,7 @@ Yes. We have ongoing relationships with several GP and specialist practices in M
 **What warranty do you offer on M2 Air board repairs?**
 An up to 3-year warranty on the specific fault repaired. This is provided in writing and covers both parts and labour.
 
-[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.
 `,
   },
 
@@ -36094,7 +36094,7 @@ Yes. We offer a weekday courier collection service from Sandton, Rosebank, Morni
 **What warranty do I get on the repair?**
 An up to 3-year written warranty on the specific fault repaired, covering parts and labour. For corporate clients, we include warranty documentation suitable for IT asset records.
 
-[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to describe your fault and get an immediate response, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your assessment at our Hyde Park workshop.
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your fault and get an immediate response, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your assessment at our Hyde Park workshop.
 `,
   },
   'macbook-pro-logic-board-repair-johannesburg-2026': {
@@ -36171,7 +36171,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p><strong>Day 5–7: Testing and handover.</strong> The repaired board runs a 48-hour stress test before handover. We test every function — charging, display, Wi-Fi, Bluetooth, Thunderbolt ports, Touch ID, and keyboard. The machine leaves with a 3-year warranty on the repair work.</p>
 
-<p>You can <a href="/contact">contact us</a> to book an assessment, or [[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) for a quick chat about your symptoms before bringing the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve a time slot.</p>
+<p>You can <a href="/contact">contact us</a> to book an assessment, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a quick chat about your symptoms before bringing the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve a time slot.</p>
 
 <h2>Why MacBook Pro Logic Board Repairs Are Worth Doing in 2026</h2>
 
@@ -36262,7 +36262,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p>Clients from Midrand and Centurion regularly make the trip to our Hyde Park workshop for repairs at this price point — the saving versus Apple Store or board-swap pricing makes it easily worthwhile. We also collect from Randburg on arranged days.</p>
 
-<p>To get started, <a href="/contact">contact us</a> or [[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863). You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot. Our full <a href="/logic-board-repair">logic board repair service</a> page has more detail on what to expect.</p>
+<p>To get started, <a href="/contact">contact us</a> or [WhatsApp us on 064 529 5863](https://wa.me/27645295863). You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot. Our full <a href="/logic-board-repair">logic board repair service</a> page has more detail on what to expect.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -36349,7 +36349,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p>Do not wait for a failing MacBook Pro M1 to reach full failure. Power-on failures get more difficult to diagnose once corrosion has had time to spread. Random shutdowns risk data loss. Charging faults left untreated can result in a fully discharged battery that complicates the repair.</p>
 
-<p>[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to describe your symptoms before bringing the machine in — we can often tell you within a few messages what the likely cause is and what the repair will cost. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
+<p>[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your symptoms before bringing the machine in — we can often tell you within a few messages what the likely cause is and what the repair will cost. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
 
 <p>For more detail on the repair process itself, see our <a href="/logic-board-repair">MacBook logic board repair service page</a> and our guide on <a href="/liquid-damage">liquid damage recovery</a> if you suspect moisture is involved.</p>
 
@@ -36450,7 +36450,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p>Bring your MacBook to our Hyde Park, Johannesburg workshop for a from R599 assessment. We serve clients from across Gauteng, including Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Randburg. The assessment takes two to four hours, and you will have a complete picture of your options before committing to anything.</p>
 
-<p>[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to tell us about the symptoms you are seeing — we can often give you a preliminary sense of the likely repair category before you bring the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
+<p>[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to tell us about the symptoms you are seeing — we can often give you a preliminary sense of the likely repair category before you bring the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
 
 <p>If you want further context on what a logic board repair involves, see our <a href="/logic-board-repair">logic board repair service page</a> and our guide to <a href="/contact">contacting our workshop</a>. The <a href="https://www.ifixit.com/Guide/MacBook+Pro+Logic+Board+Repair/1" target="_blank" rel="noopener noreferrer">iFixit MacBook repair guide library</a> gives a good sense of the technical complexity involved in these repairs and why specialist tooling matters.</p>
 
