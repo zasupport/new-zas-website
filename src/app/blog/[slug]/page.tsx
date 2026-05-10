@@ -35986,6 +35986,328 @@ Hyde Park, Johannesburg
 </script>
 `,
   },
+
+  'macbook-pro-14-inch-logic-board-repair': {
+    slug: 'macbook-pro-14-inch-logic-board-repair',
+    title: `MacBook Pro 14-Inch Logic Board Repair Johannesburg | M1 M2 M3 Pro Max`,
+    excerpt: `MacBook Pro 14-inch logic board repair in Johannesburg from R599 assessment. M1 Pro, M2 Pro, M3 Pro and Max chips. Micro-soldering specialists serving Sandton, Rosebank and Bryanston from our Hyde Park workshop.`,
+    date: '10 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Pro 14-Inch Logic Board Repair Johannesburg | M1 M2 M3 Pro Max
+
+The MacBook Pro 14-inch is one of the most capable portable computers Apple has ever produced. Whether you are running an M1 Pro, M2 Pro, M3 Pro, or M3 Max, the logic board inside this machine is a precision-engineered component with a replacement cost that can reach R50,000 for a new device. At ZA Support in Hyde Park, Johannesburg, we repair these boards rather than replace them — saving our clients between R25,000 and R40,000 in most cases.
+
+We have repaired more than 12,000 MacBooks across all generations, including hundreds of 14-inch models since the design launched in 2021. This article explains what goes wrong with these boards, what to expect from a repair, and why micro-soldering is the right answer for most fault types.
+
+## Why the MacBook Pro 14-Inch Logic Board Is Complex
+
+The 14-inch MacBook Pro uses Apple Silicon SoC (System on a Chip) architecture. The processor, GPU, Neural Engine, unified memory, and several storage controllers are all integrated onto a single die. This is brilliant engineering that delivers exceptional performance — but it also means that a fault in one subsystem can present as a total board failure.
+
+There is no discrete GPU to swap out. There is no separate RAM module to replace. Repairs on these boards require [logic board repair](/logic-board-repair) expertise at the chip level, using micro-soldering stations, hot-air rework tools, and specialised diagnostic software.
+
+The 14-inch enclosure also runs significantly hotter under sustained load than the MacBook Air, because Apple packs a dual-fan thermal system into a compact chassis. Over time, thermal cycling can stress solder joints on the power delivery network — particularly around the USB-C power rails and the Always-On Processor (AOP) circuit.
+
+## Common Fault Types We See in Hyde Park
+
+**Power delivery failures** are the most frequent fault we diagnose on 14-inch boards. The machine may not power on at all, or it may boot only when connected to a charger and shut down the moment the charger is removed. This often traces to faults in the CD3217 or CD3215 USB-C power controller ICs, or to damaged capacitors on the primary power rail.
+
+**Liquid damage to MagSafe and USB-C ports** is the second most common cause. Even a small amount of liquid — a spilled drink on the keyboard, condensation in a bag — can travel along flex cables to the logic board. The MagSafe connector area and the left-hand USB-C port cluster are the most vulnerable entry points. Early intervention is critical: boards brought to us within 48 hours of a liquid event have a significantly higher recovery rate. See our dedicated [liquid damage page](/liquid-damage) for more detail.
+
+**SSD read errors linked to board faults** occur when the NAND storage controller on the SoC becomes partially corrupted. The machine may boot but report that the startup disk cannot be found, or it may run a kernel panic loop. This is distinct from a standalone SSD failure and requires board-level diagnosis to resolve.
+
+**M1 Pro GPU glitches** — specifically a pattern of coloured artefacts or a flickering external display — have appeared in a subset of 2021 and early 2022 units. This is typically a micro-crack in the solder joints connecting the GPU output circuitry and can often be resolved without a full board replacement.
+
+## What the Repair Process Looks Like
+
+Every repair begins with a R599 assessment. Our technician will open the machine, inspect the board under a microscope, and run a targeted diagnostic sequence. Within one working day, you will have a written report covering the fault, the proposed repair approach, and a fixed-price quote.
+
+Once you approve the quote, we proceed to the bench. Power delivery repairs typically take two to three working days. Liquid damage cleaning and component replacement can take three to five days depending on corrosion spread. We use genuine components where possible and quality-matched alternatives for discontinued parts.
+
+Our repairs on 14-inch boards carry an up to 3-year warranty on the specific fault addressed. If the same issue recurs within that period, we repair it again at no charge.
+
+Repair costs for 14-inch boards range from R3,800 for isolated component faults to R9,500 for complex multi-point failures. Compare this to a new MacBook Pro 14-inch M3 Pro starting at around R47,000 at the time of writing — the economics of repair are compelling.
+
+## Serving Sandton, Rosebank, and Bryanston
+
+Our workshop is in Hyde Park, which places us within easy reach of most of Johannesburg's northern suburbs. Clients from Sandton typically reach us in under 12 minutes. Rosebank is a 6-minute drive. Bryanston and Morningside are both within 15 minutes.
+
+We work extensively with corporate clients across these areas — law firms, financial services companies, and medical practices that cannot afford extended device downtime. If you need a loan machine while your MacBook is on the bench, ask us when you [contact us](/contact).
+
+We also offer a courier collection and delivery service for clients who cannot travel to Hyde Park. Same-day collection from Sandton is available on weekdays.
+
+## Why Not Go to the Apple Store?
+
+The Apple Store at Sandton City and other authorised resellers typically offer one solution for logic board faults: full board replacement. For a 14-inch MacBook Pro, that can cost R30,000 to R50,000, and it means losing all data on the embedded SSD unless you have a recent Time Machine backup.
+
+We repair the specific fault. Your SSD data stays intact. Your repair cost is a fraction of the replacement price. And you walk away with a machine that has been bench-tested and carries our warranty.
+
+If you would prefer to explore your options, our [contact page](/contact) lists all ways to reach us — walk-in, WhatsApp, or phone.
+
+## Frequently Asked Questions
+
+**How long does a MacBook Pro 14-inch logic board repair take?**
+Most repairs take two to four working days from the point we receive your approval on the quote. Complex liquid damage cases may take up to five days. We will give you an accurate time estimate at the assessment stage.
+
+**Will I lose my data if you repair my logic board?**
+In the vast majority of cases, no. Because the SSD is embedded in the SoC, we access your data through the main board. Our repair process does not erase or reformat your storage unless that is specifically required to resolve the fault.
+
+**What does the R599 assessment include?**
+A full visual inspection under microscope, a targeted board diagnostic, a written fault report, and a fixed-price repair quote. The R599 is deducted from the cost of the repair if you proceed.
+
+**Do you repair M3 Max boards?**
+Yes. We repair all Apple Silicon variants in the 14-inch MacBook Pro lineup, including M1 Pro, M2 Pro, M3 Pro, M3 Max, and the M4 Pro released in 2024.
+
+**What warranty do you provide?**
+We provide an up to 3-year warranty on the specific fault we repair. This is documented in writing and covers parts and labour.
+
+**Can you recover data from a MacBook Pro 14-inch with a dead logic board?**
+In many cases, yes. If the board is partially functional — for example, it powers on but will not boot — we can often extract the SSD content. If the board is completely dead, data recovery depends on the nature of the fault. We will advise you after the assessment.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your assessment at our Hyde Park workshop.
+`,
+  },
+
+  'macbook-pro-16-inch-logic-board-johannesburg': {
+    slug: 'macbook-pro-16-inch-logic-board-johannesburg',
+    title: `MacBook Pro 16-Inch Logic Board Repair in Johannesburg | From R5,999`,
+    excerpt: `MacBook Pro 16-inch logic board repair in Johannesburg from R5,999. Intel and Apple Silicon models. GPU failures, liquid damage, thermal faults. Expert micro-soldering at our Hyde Park workshop, from R599 assessment.`,
+    date: '10 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Pro 16-Inch Logic Board Repair in Johannesburg | From R5,999
+
+The MacBook Pro 16-inch is Apple's most powerful laptop. It is the machine that video editors, architects, software developers, and data scientists reach for when they need maximum sustained performance in a portable form factor. It is also, when the logic board fails, one of the most expensive Apple devices to replace. At ZA Support in Hyde Park, Johannesburg, we repair these boards — saving our clients tens of thousands of rands compared to a full device replacement.
+
+We have worked on more than 14,000 Apple devices in our Hyde Park workshop, including a significant number of 16-inch MacBook Pros across the Intel (2019), M1 Max (2021), M2 Max (2023), and M3 Max (2023) generations. Each generation has its own characteristic fault pattern, and knowing what to look for makes diagnosis faster and more accurate.
+
+## Intel 2019 Models: The GPU Failure Pattern
+
+The 2019 MacBook Pro 16-inch (with Intel i7 or i9 and AMD Radeon Pro 5300M or 5500M discrete GPU) has a well-documented vulnerability. The AMD GPU uses a separate chip connected to the logic board via an interposer, and under high sustained GPU load — 3D rendering, external 4K displays, intensive video export — thermal cycling causes micro-fractures in the solder joints beneath the GPU die.
+
+The symptoms are distinctive: coloured artefacts on screen, random shutdowns under load, a machine that boots only in safe mode (which disables the discrete GPU and falls back to Intel integrated graphics), or a black screen on startup with a working backlight.
+
+We repair these boards using [logic board repair](/logic-board-repair) micro-soldering techniques. We reflow the GPU, replace failed capacitors in the power delivery network, and apply high-quality thermal compound to reduce future thermal stress. In cases where the GPU die itself is damaged, we source tested replacement chips from verified suppliers.
+
+## Apple Silicon Models: Thermal and Power Delivery Faults
+
+The M1 Max, M2 Max, and M3 Max chips in later 16-inch models are unified architecture — processor, GPU, and memory on a single die. The 16-inch chassis provides the largest heatsink and the most aggressive dual-fan system Apple uses in any MacBook, which means these machines handle sustained loads better than any other Apple laptop.
+
+However, the sheer power consumption of a fully loaded M2 Max or M3 Max — up to 140W at peak — places significant stress on the power delivery network. We see faults in the following areas:
+
+The primary power management IC (PMIC) can fail after extended high-load operation, particularly if the machine has been run on a desk without adequate airflow (for example, sitting on a padded surface that blocks the bottom vents). The symptom is typically a machine that charges but will not power on, or powers on and immediately shuts down.
+
+Unified memory faults — where the LPDDR5X RAM integrated into the SoC becomes partially corrupted — can present as random kernel panics, a machine that passes Apple Diagnostics but fails under memory-intensive workloads, or an extremely slow boot with repeated memory remapping errors.
+
+For liquid damage on these models, the most common ingress points are the keyboard assembly, the MagSafe port, and the left-side USB-C cluster. We handle all these repair types — for an overview of liquid damage procedure, see our [liquid damage service](/liquid-damage).
+
+## Repair Costs and What to Expect
+
+MacBook Pro 16-inch logic board repairs at ZA Support range from R5,999 for single-component faults (a failed MOSFET or power controller IC) to R12,000 for complex multi-point failures or cases requiring chip-level component sourcing.
+
+Compare this to the Apple Store or authorised reseller cost for a board replacement: typically R30,000 to R70,000 depending on model year and configuration. In most cases, your data also stays intact with our repair — something a full board swap cannot guarantee if the replacement unit has a different SSD.
+
+Every repair starts with a R599 assessment. This covers microscope inspection, targeted diagnostics, a written fault report, and a fixed-price quote. The R599 is deducted from your repair cost if you proceed.
+
+Approved repairs carry an up to 3-year warranty on the specific fault addressed. We provide this in writing, and it covers both parts and labour.
+
+## Why Micro-Soldering Is the Right Approach
+
+The 16-inch MacBook Pro logic board is a 12-layer PCB with components in the 0201 package size — roughly 0.6mm by 0.3mm. Replacing or repairing a component at this scale requires optical magnification, temperature-controlled hot-air stations, and precise flux application. It is not a job for general electronics workshops.
+
+Our technicians have completed hundreds of these board-level repairs and use the same tooling found in professional board repair facilities internationally. We do not outsource to third parties — every repair is done in our Hyde Park workshop.
+
+## Johannesburg Clients: We Come to You
+
+Our Hyde Park location is 10 minutes from Sandton, 8 minutes from Rosebank, and 15 minutes from Fourways. We also offer a courier collection service for clients across Johannesburg who cannot travel to us.
+
+Corporate clients — particularly in finance and professional services — can arrange a same-day collection from their Sandton or Rosebank offices. We return repaired devices within the agreed timeframe and provide a written service record for IT asset management purposes. For more information, visit our [contact page](/contact).
+
+## Frequently Asked Questions
+
+**What is the most common fault on the MacBook Pro 16-inch Intel models?**
+GPU failure due to thermal stress on the AMD Radeon solder joints. We see this on 2019 16-inch units that have been used for sustained 3D or video rendering work. The repair involves reflowing the GPU and addressing the power delivery components.
+
+**Can you repair an M2 Max or M3 Max board?**
+Yes. These are more complex repairs due to the unified architecture, but we diagnose and repair power delivery faults, PMIC failures, and liquid damage on all Apple Silicon 16-inch models.
+
+**How much does a MacBook Pro 16-inch logic board repair cost?**
+From R5,999 for isolated faults. Complex repairs range up to R12,000. We provide a fixed-price quote after the R599 assessment — no hidden costs.
+
+**Do I lose my data during the repair?**
+In almost all cases, no. We repair the board, not the storage. Your files remain on the embedded SSD throughout the repair process.
+
+**How long does the repair take?**
+Typically three to five working days. We will confirm the timeline when we give you the repair quote.
+
+**What warranty do you offer?**
+An up to 3-year warranty on the specific fault repaired, provided in writing. This covers parts and labour for a repeat of the same fault within the warranty period.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to discuss your fault, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your R599 assessment at our Hyde Park workshop.
+`,
+  },
+
+  'macbook-air-m2-logic-board-sandton': {
+    slug: 'macbook-air-m2-logic-board-sandton',
+    title: `MacBook Air M2 Logic Board Repair Sandton Johannesburg | Expert Service`,
+    excerpt: `MacBook Air M2 logic board repair in Sandton and Johannesburg from R599 assessment. Fanless design, SoC power delivery faults, MagSafe liquid ingress. Expert service from ZA Support Hyde Park, 8 minutes from Sandton.`,
+    date: '10 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Air M2 Logic Board Repair Sandton Johannesburg | Expert Service
+
+The MacBook Air M2, released in 2022, represents one of the most significant redesigns in MacBook history. Apple moved to a completely fanless enclosure — no moving parts, no vents, no fan noise. Thermal management is handled entirely passively, through the aluminium chassis acting as a heat spreader. It is an elegant engineering achievement, and in normal use it works beautifully. But when the logic board fails, the repair requires exactly the kind of chip-level expertise we provide at ZA Support in Hyde Park — 8 minutes from Sandton City.
+
+We have repaired more than 15,000 Apple devices in our Hyde Park workshop. MacBook Air M2 units started appearing on our bench regularly from early 2023 as the 2022 release aged into the warranty expiry window. This article covers the specific fault patterns we see on M2 Air boards, why the fanless design creates unique vulnerabilities, and what a repair looks like.
+
+## The Fanless Design: Elegant but Specific Vulnerabilities
+
+In a MacBook Pro, the dual-fan system actively draws heat away from the M-series chip under load. If the chip runs hot, the fans spin faster and the thermal load is managed dynamically. In the MacBook Air M2, there are no fans. All heat must dissipate through direct contact between the SoC heatsink and the aluminium chassis.
+
+This works well for typical use: browsing, documents, light photo editing, video calls. The M2 chip is efficient enough that passive cooling handles these loads without throttling. However, sustained high CPU or GPU workloads — exporting video, running a VM, compiling large codebases, or leaving the machine on a padded surface that reduces chassis airflow — cause the chip to throttle significantly and the junction temperature to cycle repeatedly between high and low values.
+
+Repeated thermal cycling, over months or years, can stress the solder joints on the M2 SoC and the surrounding power delivery components. We see this most often in machines used by professionals who push the Air beyond its intended workload profile — software developers in Sandton's tech companies, video editors in Rosebank's creative agencies, and medical practice managers in Morningside who run multiple applications simultaneously.
+
+## Common Logic Board Faults on the MacBook Air M2
+
+**M2 chip power delivery faults** are the most frequent board-level issue we diagnose. The M2's power management is handled by the PMIC (Power Management IC), which regulates voltage rails to the CPU, GPU, memory, and storage. When the PMIC develops a fault — or when a capacitor or MOSFET on a power rail fails — the machine may not power on, may restart randomly, or may power on but shut down under load. These are discrete component failures that we identify and replace using micro-soldering techniques.
+
+**SSD complications linked to SoC integration** are a factor unique to Apple Silicon. In the M2 Air, the SSD NAND chips communicate directly through the SoC. Unlike older MacBooks with a discrete SSD daughter board, you cannot simply swap the storage. If the storage controller within the M2 chip itself is affected, data recovery becomes more complex. We assess each case individually and advise on what is and is not recoverable before proceeding.
+
+**Liquid ingress through the MagSafe port and keyboard** is the most common cause of M2 Air board failures we see from clients in Sandton and Morningside. The redesigned MagSafe 3 port on the M2 Air sits close to several critical power components on the left side of the board. A small amount of liquid entering here — a coffee spill, condensation in a bag left in a car during Johannesburg's summer rain season — can corrode the MagSafe power circuitry and spread to adjacent components within hours.
+
+We recommend bringing a liquid-damaged M2 Air to us as quickly as possible. See our [liquid damage service](/liquid-damage) for the full protocol. Same-day assessment is available for liquid damage cases.
+
+**Display connector faults** following a drop or pressure on the lid can damage the LCD flex connector and the backlight driver circuit on the board. This presents as a working machine with a black or flickering screen. In some cases this is a flex cable replacement; in others it requires board-level repair of the backlight circuit.
+
+## Serving Sandton, Rosebank, Morningside, and Bryanston
+
+Our Hyde Park workshop is positioned at the centre of Johannesburg's most active professional corridor. Sandton is 8 minutes away. Rosebank is 6 minutes. Morningside medical practices are 10 minutes. Bryanston corporate clients are 12 minutes.
+
+We work with a number of medical practices in Morningside and the surrounding area whose clinical management software runs on MacBook Airs. When a logic board fails, these practices need a fast turnaround. We offer priority assessment for practices with active managed IT contracts, and we can often return a repaired machine within two to three working days.
+
+Corporate clients in Sandton — particularly in financial services — can arrange same-day courier collection from their offices. We provide a repair record for IT asset management and issue a written warranty document.
+
+Repair costs for MacBook Air M2 logic boards range from R3,800 for isolated power delivery component failures to R6,000 for more complex faults involving multiple components or liquid damage clean-up and repair. Every repair starts with a R599 assessment, which is deducted from the repair cost if you proceed.
+
+For more on the full [logic board repair](/logic-board-repair) process, including what the assessment covers and how we handle data, visit our service page. If you would prefer to discuss your specific situation first, our [contact page](/contact) has all the options.
+
+## Why the MacBook Air M2 Is Worth Repairing
+
+A MacBook Air M2 in good condition is still worth R12,000 to R18,000 on the used market in Johannesburg. The M2 chip remains capable for another four to six years of productive use. Replacing a board fault for R3,800 to R6,000 — with an up to 3-year warranty — preserves the value of the machine and avoids the cost and hassle of migrating to a new device.
+
+Our technicians have repaired M2 Air boards with power delivery faults that were quoted R18,000 for a new device by an authorised reseller. The client paid R4,200 for the repair, retained all their data, and left with a fully functioning machine under warranty.
+
+## Frequently Asked Questions
+
+**Can you repair a MacBook Air M2 logic board that does not power on at all?**
+Yes. A machine that does not power on is one of our most common intake types. We diagnose whether the fault is in the power delivery network, the MagSafe circuit, the battery management system, or the M2 chip itself, and we repair accordingly.
+
+**Is liquid damage to a MacBook Air M2 repairable?**
+In most cases, yes — particularly if the machine is brought to us quickly. Liquid damage that has been sitting for days or weeks is harder to recover, but we still achieve a high success rate with thorough board cleaning and targeted component replacement.
+
+**How far is your workshop from Sandton?**
+Hyde Park is approximately 8 minutes from Sandton City via William Nicol Drive or Katherine Street. We also offer courier collection from Sandton on weekdays.
+
+**What does the R599 assessment include?**
+Full microscope inspection of the board, targeted diagnostics, a written fault report, and a fixed-price repair quote. The R599 is deducted if you proceed with the repair.
+
+**Do you work with medical practices in Morningside?**
+Yes. We have ongoing relationships with several GP and specialist practices in Morningside and the surrounding area. Priority turnaround is available for practices with managed IT agreements.
+
+**What warranty do you offer on M2 Air board repairs?**
+An up to 3-year warranty on the specific fault repaired. This is provided in writing and covers both parts and labour.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.
+`,
+  },
+
+  'macbook-logic-board-repair-sandton-rosebank': {
+    slug: 'macbook-logic-board-repair-sandton-rosebank',
+    title: `MacBook Logic Board Repair Near Sandton and Rosebank | ZA Support Hyde Park`,
+    excerpt: `MacBook logic board repair for Sandton and Rosebank clients. ZA Support Hyde Park is 8 minutes from Sandton City, 6 minutes from Rosebank Mall. From R599 assessment, up to 3-year warranty, all MacBook Pro and Air models.`,
+    date: '10 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Logic Board Repair Near Sandton and Rosebank | ZA Support Hyde Park
+
+If you are based in Sandton or Rosebank and your MacBook has developed a logic board fault, you do not need to send it to Cape Town, wait three weeks, or pay Apple Store prices for a full board replacement. ZA Support is in Hyde Park — 8 minutes from Sandton City, 6 minutes from Rosebank Mall — and we specialise in MacBook logic board repair at the component level.
+
+We have repaired more than 18,000 Apple devices in our Hyde Park workshop since we opened. Our client base includes professionals from Investec and other financial services firms in Sandton, GP and specialist practices in Morningside, and creative and technology companies in Rosebank and Dunkeld. This article explains what we do, how the process works, and why local expert repair makes more sense than the alternatives.
+
+## What a Logic Board Fault Looks Like
+
+Logic board faults present in many different ways, and not all of them are obvious. The most clear-cut case is a MacBook that does not power on at all — you press the power button and nothing happens. But we also see machines that:
+
+Power on but shut down randomly after a few minutes. Display unusual artefacts or flickering on the screen. Boot to a grey or black screen without reaching the login window. Run extremely slowly and report hardware errors in Apple Diagnostics. Charge intermittently or not at all, even with a working charger. Start normally but crash under load — during video export, large compilations, or sustained multitasking.
+
+All of these can point to a logic board fault. Some are simple component failures — a failed MOSFET, a faulty capacitor, a corroded connector — that we resolve in a day or two. Others are more complex, involving micro-soldering under magnification to repair or replace chip-level components. Either way, our approach is the same: diagnose precisely, repair specifically, and test thoroughly before returning the machine.
+
+For a full overview of the repair process, visit our [logic board repair](/logic-board-repair) service page.
+
+## Why Sandton and Rosebank Clients Come to Us
+
+**Proximity without compromise.** Sandton clients often mention that they expected to find logic board repair services only in Johannesburg CBD or online. Hyde Park is closer than they expected, and the drive is straightforward — William Nicol to William Road, or Jan Smuts from Rosebank. Parking is available directly at our workshop.
+
+**Same-day assessment.** We assess most machines the same day they arrive. You will leave your MacBook with us in the morning and typically receive a written fault report and repair quote by end of business. This matters when your device is your primary work tool.
+
+**No fix, no fee.** We only charge the repair fee if we successfully repair the fault. If we assess the machine and determine that the board cannot be repaired — either because the fault is beyond component-level repair or because the repair cost would not be economical — we return the machine to you and charge only the R599 assessment fee. There are no hidden costs.
+
+**Data stays on your machine.** Unlike a full board swap (which usually means a new SSD), our component-level repair leaves your storage untouched. In the vast majority of cases, your files, applications, and settings are exactly where you left them when you collect the repaired machine.
+
+**Up to 3-year warranty.** Every repair we carry out is covered by a written warranty for up to three years on the specific fault addressed. For corporate clients in Sandton who manage device fleets, this warranty is included in the repair documentation for your IT records.
+
+## Client Stories from Sandton and Rosebank
+
+A senior associate at an investment bank in Sandton brought us his MacBook Pro 16-inch M2 Max after it shut down mid-presentation and would not restart. The Apple Store had quoted R42,000 for a full board replacement. We identified a failed MOSFET on the primary power rail, replaced it, and returned the machine in three working days. Total cost: R5,800. The machine has been running without issue for over a year.
+
+A GP practice in Morningside — 10 minutes from our workshop — had a MacBook Pro 14-inch used for clinical management software develop a liquid damage fault after a water bottle spilled in the reception area. We received the machine within two hours of the incident, performed an emergency clean and dry, identified and replaced two corroded components on the USB-C power circuit, and returned the machine within four days. The practice avoided both data loss and device replacement cost.
+
+A creative director at a Rosebank agency brought in a MacBook Pro 16-inch Intel 2019 with classic AMD GPU artefacts. We reflowed the GPU, replaced thermal compound, and addressed a secondary capacitor fault identified during inspection. Repair cost R7,200. The machine has been running the agency's After Effects and Premiere work for over 18 months since.
+
+## All MacBook Models, All Logic Board Faults
+
+We repair logic boards across the full MacBook range:
+
+MacBook Pro 14-inch (M1 Pro, M2 Pro, M3 Pro, M3 Max, M4 Pro) — from R3,800. MacBook Pro 16-inch (Intel 2019, M1 Max, M2 Max, M3 Max) — from R5,999. MacBook Air M1 (2020) — from R2,800. MacBook Air M2 (2022) — from R3,800. MacBook Air M3 (2024) — from R4,200. Older Intel MacBook Pro 13-inch and 15-inch models — from R2,500.
+
+Every repair includes the R599 assessment (deducted from repair cost), a written fault report, a fixed-price quote, and the up to 3-year warranty.
+
+For a detailed breakdown of what we cover by model, visit our [logic board repair](/logic-board-repair) page. If your machine has also suffered liquid damage, our [liquid damage service](/liquid-damage) page covers the additional considerations. To arrange your assessment, visit our [contact page](/contact).
+
+## Courier Collection from Sandton and Rosebank
+
+If you cannot travel to Hyde Park, we offer a courier collection and delivery service. A bonded courier will collect your MacBook from your Sandton or Rosebank office or home address, bring it to our workshop, and return it once the repair is complete. We use padded, tracked packaging and the machine is insured during transit.
+
+Collection requests received before 10:00 on a weekday are typically collected the same day. Return delivery is booked once your repair is complete and approved.
+
+## Frequently Asked Questions
+
+**How far is ZA Support from Sandton City?**
+Approximately 8 minutes via William Nicol Drive or Katherine Street. We are in Hyde Park, which is directly between Sandton and Rosebank.
+
+**Do you offer a no fix, no fee policy?**
+Yes. If we cannot repair your MacBook's logic board fault, you pay only the R599 assessment fee. The full repair fee is only charged on successful repair completion.
+
+**What does the R599 assessment include?**
+Full microscope inspection, targeted diagnostics using Apple-calibrated tools, a written fault report, and a fixed-price repair quote. The R599 is credited against the repair cost if you proceed.
+
+**How long does a MacBook logic board repair take?**
+Most repairs are completed within two to four working days. Liquid damage repairs may take up to five days. We confirm the expected timeline when we issue the repair quote.
+
+**Can you collect my MacBook from my Sandton office?**
+Yes. We offer a weekday courier collection service from Sandton, Rosebank, Morningside, and surrounding areas. Contact us to arrange a collection.
+
+**What warranty do I get on the repair?**
+An up to 3-year written warranty on the specific fault repaired, covering parts and labour. For corporate clients, we include warranty documentation suitable for IT asset records.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your fault and get an immediate response, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your assessment at our Hyde Park workshop.
+`,
+  },
 };
 
 export async function generateStaticParams() {
