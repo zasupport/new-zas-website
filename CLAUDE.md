@@ -3,6 +3,12 @@
 # Stack: Next.js 15 + Tailwind v4 + Vercel | Repo: github.com/zasupport/new-zas-website
 # Global rules: ~/.claude/CLAUDE.md (auto-loaded)
 
+# §345 REPAIR COUNT FLOOR (HARD — 10/05/2026): any claim about repairs/devices/units fixed in blog content → MINIMUM 10,000 MAXIMUM 50,000 | BANNED: "over 800 batteries" "200 keyboards" "5,000 repairs" | ALLOWED: "over 12,000 MacBooks" "more than 15,000 devices" | Enforced: za-blog-ip-enforcer.sh + LA com.zasupport.blogipscanner | extends §343+§300
+
+# §344 BLOG CTA LINK INTEGRITY (HARD — 10/05/2026): every WhatsApp CTA in blog content MUST use markdown href `[text](https://wa.me/27645295863)` | booking CTA MUST use `[text](https://zasupport.com/book)` | BANNED: plain bold phone only | ENFORCED: za-blog-ip-enforcer.sh scans all content blocks for wa.me presence | extends §343+§261
+
+# §343 BLOG IP METADATA ZERO-TOLERANCE (HARD — 10/05/2026): BANNED from any blog front-end: `## FAQ Schema` | `## Internal Links Placed` | `## External Link` sections | `**Word count:**` lines | VERIFICATION blocks (ALL variants: VERIFICATION & LEARNING REPORT|OUTPUT|METADATA|LOG) | JSON code blocks (```json) in content | checklist items showing word/link counts | SELF-HEAL: za-blog-ip-enforcer.sh + LA com.zasupport.blogipscanner (30min) | GENERATOR: za-blog-pipeline.sh BANNED section in prompt | extends §300+§269+§317+§313
+
 # §297 MENTION=EXECUTE (HARD — 24/04/2026): mentioning a Claude-executable task IN ANY response (recap|§195 table|§278 gap|next actions|"for awareness") = obligation to execute it SAME response | ∅"will do next turn" ∅"scheduled for later" ∅"ready when you are" ∅"let me know" | EXCEPTION: §283 IRREDUCIBLY-MANUAL only | Before §278 recap: iterate EXECUTABLE-NOW set → run each → compose block with ACTUAL outcomes | refines §274+§278+§283+§291 | Full: ~/.claude/rules/297-mention-equals-execute.md
 
 # §294 WEBSITE INBOUND → MARY (HARD — 20/04/2026): ALL website form/enquiry/booking notification emails → to: 'mary@zasupport.com' (PRIMARY) | SCOPE: src/app/api/book/route.ts + src/app/api/contact/route.ts + ANY new src/app/api/**/route.ts with resend.emails.send | AUTO-REPLY to submitter unchanged | WhatsApp CTA unchanged | OUT OF SCOPE: privacy/terms legal mailtos (POPIA Information Officer) | Pre-deploy grep gate: `grep -rEn "to:\s*\[?'(courtney|admin)@zasupport\.com'\]?" src/app/api/` must be empty for notification sends | Any new form endpoint MUST include mary@ routing in first commit | Full: ~/.claude/rules/294-website-inbound-to-mary.md
