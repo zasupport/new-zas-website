@@ -3,6 +3,8 @@
 # Stack: Next.js 15 + Tailwind v4 + Vercel | Repo: github.com/zasupport/new-zas-website
 # Global rules: ~/.claude/CLAUDE.md (auto-loaded)
 
+# §346 BLOG PUBLICATION VERIFY (HARD — 10/05/2026): BEFORE marking any blog post published/complete, run 5 real-data checks: (1) HTTP 200 `curl -s -o /dev/null -w "%{http_code}" https://zasupport.com/blog/<slug>` (2) No IP metadata in HTML (3) wa.me link present ≥1 (4) Slug in sitemap.xml (5) Schema markup @type present | BATCH: bash ~/bin/za-blog-publication-verify.sh slug1 slug2 ... | SITEMAP IS STATIC — every new blog slug MUST be manually added to src/app/sitemap.ts in the same commit | auto-blog-insert.py handles this for pipeline-generated posts — manual inserts must do it explicitly | SELF-HEAL: 404→check slug in page.tsx→re-insert+redeploy | not in sitemap→add to sitemap.ts→redeploy | extends §343+§311+§262+§313+§316
+
 # §345 REPAIR COUNT FLOOR (HARD — 10/05/2026): any claim about repairs/devices/units fixed in blog content → MINIMUM 10,000 MAXIMUM 50,000 | BANNED: "over 800 batteries" "200 keyboards" "5,000 repairs" | ALLOWED: "over 12,000 MacBooks" "more than 15,000 devices" | Enforced: za-blog-ip-enforcer.sh + LA com.zasupport.blogipscanner | extends §343+§300
 
 # §344 BLOG CTA LINK INTEGRITY (HARD — 10/05/2026): every WhatsApp CTA in blog content MUST use markdown href `[text](https://wa.me/27645295863)` | booking CTA MUST use `[text](https://zasupport.com/book)` | BANNED: plain bold phone only | ENFORCED: za-blog-ip-enforcer.sh scans all content blocks for wa.me presence | extends §343+§261
