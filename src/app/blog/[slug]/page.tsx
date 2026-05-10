@@ -36105,93 +36105,93 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
     category: 'Repairs',
     readTime: '10 min read',
     author: 'courtney-bentley',
-    content: `<h1>MacBook Pro Logic Board Repair Johannesburg 2026 | From R4,499 | ZA Support</h1>
+    content: `MacBook Pro Logic Board Repair Johannesburg 2026 | From R4,499 | ZA Support
 
-<p>Every week our Hyde Park workshop receives MacBook Pros that other repairers have written off. The owner arrives with a quote from Mac Shack for R15,000 or more for a full board replacement, or a figure from the Apple Store somewhere between R20,000 and R70,000 for an out-of-warranty exchange. They are wondering whether to sell the machine for parts. In the majority of cases, we repair that board for between R4,499 and R8,500 — and the client walks out with a 3-year warranty and the same machine they have relied on for years.</p>
+Every week our Hyde Park workshop receives MacBook Pros that other repairers have written off. The owner arrives with a quote from Mac Shack for R15,000 or more for a full board replacement, or a figure from the Apple Store somewhere between R20,000 and R70,000 for an out-of-warranty exchange. They are wondering whether to sell the machine for parts. In the majority of cases, we repair that board for between R4,499 and R8,500 — and the client walks out with a 3-year warranty and the same machine they have relied on for years.
 
-<p>This post explains the entire MacBook Pro logic board repair process: what symptoms to look for, how we diagnose the fault, what it costs, and how to decide whether repair or replacement is the right call for your situation. We serve clients from Sandton, Rosebank, Bryanston, Fourways, and across Johannesburg from our Hyde Park workshop.</p>
+This post explains the entire MacBook Pro logic board repair process: what symptoms to look for, how we diagnose the fault, what it costs, and how to decide whether repair or replacement is the right call for your situation. We serve clients from Sandton, Rosebank, Bryanston, Fourways, and across Johannesburg from our Hyde Park workshop.
 
-<h2>What Is the MacBook Pro Logic Board?</h2>
+What Is the MacBook Pro Logic Board?
 
-<p>The logic board is the main circuit board of your MacBook Pro. It carries the processor, RAM, SSD storage, GPU, power management circuits, Thunderbolt controllers, and dozens of smaller components responsible for display output, Wi-Fi, Bluetooth, Touch ID, and the Touch Bar on older models. On M-series MacBook Pros, the Apple Silicon chip integrates the CPU, GPU, and Neural Engine into a single package soldered directly to the board.</p>
+The logic board is the main circuit board of your MacBook Pro. It carries the processor, RAM, SSD storage, GPU, power management circuits, Thunderbolt controllers, and dozens of smaller components responsible for display output, Wi-Fi, Bluetooth, Touch ID, and the Touch Bar on older models. On M-series MacBook Pros, the Apple Silicon chip integrates the CPU, GPU, and Neural Engine into a single package soldered directly to the board.
 
-<p>Because everything runs through the logic board, a single failed component can produce symptoms that look like a dead machine. A faulty power management IC can prevent charging. A failed GPU cluster can produce a black screen. A damaged backlight circuit can make the display appear blank when the Mac is actually running normally. These are board-level faults — not signs that the entire machine needs replacing.</p>
+Because everything runs through the logic board, a single failed component can produce symptoms that look like a dead machine. A faulty power management IC can prevent charging. A failed GPU cluster can produce a black screen. A damaged backlight circuit can make the display appear blank when the Mac is actually running normally. These are board-level faults — not signs that the entire machine needs replacing.
 
-<h2>Common MacBook Pro Logic Board Fault Symptoms</h2>
+Common MacBook Pro Logic Board Fault Symptoms
 
-<p>We have repaired over 14,000 MacBooks at ZA Support. The most frequently presenting MacBook Pro logic board symptoms are:</p>
+We have repaired over 14,000 MacBooks at ZA Support. The most frequently presenting MacBook Pro logic board symptoms are:
 
-<p><strong>No power at all.</strong> The machine does not respond to the power button, shows no charging LED behaviour, and produces no fan spin or startup chime. This is often a shorted capacitor or a failed power management chip — both are component-level repairs we perform daily.</p>
+**No power at all.** The machine does not respond to the power button, shows no charging LED behaviour, and produces no fan spin or startup chime. This is often a shorted capacitor or a failed power management chip — both are component-level repairs we perform daily.
 
-<p><strong>Kernel panics and random shutdowns.</strong> If your MacBook Pro shuts down without warning, especially under load or shortly after startup, the fault is frequently on the power delivery section of the board. Voltage regulation failures cause the system to lose stability under demand.</p>
+**Kernel panics and random shutdowns.** If your MacBook Pro shuts down without warning, especially under load or shortly after startup, the fault is frequently on the power delivery section of the board. Voltage regulation failures cause the system to lose stability under demand.
 
-<p><strong>Black screen with a running machine.</strong> If you can hear the fan, feel the chassis warm up, and see a charging indicator, but the display shows nothing, the fault is often in the backlight circuit, the display timing controller, or the GPU portion of the chip — not the display panel itself.</p>
+**Black screen with a running machine.** If you can hear the fan, feel the chassis warm up, and see a charging indicator, but the display shows nothing, the fault is often in the backlight circuit, the display timing controller, or the GPU portion of the chip — not the display panel itself.
 
-<p><strong>Boot loop.</strong> A MacBook Pro that reaches the Apple logo and then restarts again and again typically has a fault in the boot ROM, SSD controller, or a memory-related section of the board.</p>
+**Boot loop.** A MacBook Pro that reaches the Apple logo and then restarts again and again typically has a fault in the boot ROM, SSD controller, or a memory-related section of the board.
 
-<p><strong>No charging despite a known-good charger.</strong> USB-C charging controllers and their associated circuitry are a common failure point, particularly after power surges or connection with a damaged cable.</p>
+**No charging despite a known-good charger.** USB-C charging controllers and their associated circuitry are a common failure point, particularly after power surges or connection with a damaged cable.
 
-<p><strong>Liquid damage aftermath.</strong> Corrosion from liquid damage is one of the most common causes of logic board failure. We cover the full <a href="/liquid-damage">liquid damage repair process</a> separately, but in most cases the logic board takes the worst of the damage and requires micro-level component work to restore function.</p>
+**Liquid damage aftermath.** Corrosion from liquid damage is one of the most common causes of logic board failure. We cover the full [liquid damage repair process](/liquid-damage) separately, but in most cases the logic board takes the worst of the damage and requires micro-level component work to restore function.
 
-<h2>How We Diagnose MacBook Pro Logic Board Faults</h2>
+How We Diagnose MacBook Pro Logic Board Faults
 
-<p>Our assessment process starts at R599 and typically takes two to four hours. We do not guess. Every machine goes through a structured diagnostic sequence before we quote a repair.</p>
+Our assessment process starts at R599 and typically takes two to four hours. We do not guess. Every machine goes through a structured diagnostic sequence before we quote a repair.
 
-<p>We begin with Apple Diagnostics to identify any faults the system can report itself, then move to board-level testing with a DC power supply to measure current draw at startup. A healthy MacBook Pro draws a predictable current curve during boot. Deviations from that curve immediately narrow the fault to a specific section of the board.</p>
+We begin with Apple Diagnostics to identify any faults the system can report itself, then move to board-level testing with a DC power supply to measure current draw at startup. A healthy MacBook Pro draws a predictable current curve during boot. Deviations from that curve immediately narrow the fault to a specific section of the board.
 
-<p>We use thermal imaging to identify components drawing excessive current and short-circuit maps to trace the exact fault point. On M-series boards, we work under microscope magnification to inspect the BGA pads and surrounding SMD components. Once we have identified the fault — whether it is a single capacitor, a power management IC, a USB-C controller, or a section of the die — we can give you a firm repair quote and a realistic success probability.</p>
+We use thermal imaging to identify components drawing excessive current and short-circuit maps to trace the exact fault point. On M-series boards, we work under microscope magnification to inspect the BGA pads and surrounding SMD components. Once we have identified the fault — whether it is a single capacitor, a power management IC, a USB-C controller, or a section of the die — we can give you a firm repair quote and a realistic success probability.
 
-<h2>MacBook Pro Logic Board Repair Costs in 2026</h2>
+MacBook Pro Logic Board Repair Costs in 2026
 
-<p>Our repair pricing depends on the fault, not the model age. Typical cost ranges for MacBook Pro logic board repairs at our Hyde Park workshop:</p>
+Our repair pricing depends on the fault, not the model age. Typical cost ranges for MacBook Pro logic board repairs at our Hyde Park workshop:
 
-<p><strong>Single component fault (capacitor, diode, small IC):</strong> R4,499 – R5,500. These are the most satisfying repairs — a component worth a few rand causes a machine worth R30,000 to appear dead, and replacing it brings everything back to full function.</p>
+**Single component fault (capacitor, diode, small IC):** R4,499 – R5,500. These are the most satisfying repairs — a component worth a few rand causes a machine worth R30,000 to appear dead, and replacing it brings everything back to full function.
 
-<p><strong>Power management IC or USB-C controller replacement:</strong> R5,500 – R7,000. These are more complex chips requiring rework station work, reballing, and careful reinstallation. Success rate is high when the surrounding board has not been burned.</p>
+**Power management IC or USB-C controller replacement:** R5,500 – R7,000. These are more complex chips requiring rework station work, reballing, and careful reinstallation. Success rate is high when the surrounding board has not been burned.
 
-<p><strong>GPU or display circuit repair on Intel boards:</strong> R6,000 – R8,500. Older Intel MacBook Pros with discrete GPU failures require advanced rework. We achieve a reliable fix in the majority of cases.</p>
+**GPU or display circuit repair on Intel boards:** R6,000 – R8,500. Older Intel MacBook Pros with discrete GPU failures require advanced rework. We achieve a reliable fix in the majority of cases.
 
-<p>Compare this with the alternatives: Mac Shack charges R15,000 or more for a full logic board swap on a MacBook Pro, and Apple Store out-of-warranty service typically costs R20,000 to R70,000 depending on the model. Our clients regularly save R5,000 to R40,000 by choosing component-level repair over replacement.</p>
+Compare this with the alternatives: Mac Shack charges R15,000 or more for a full logic board swap on a MacBook Pro, and Apple Store out-of-warranty service typically costs R20,000 to R70,000 depending on the model. Our clients regularly save R5,000 to R40,000 by choosing component-level repair over replacement.
 
-<h2>Repair vs Replace: How to Decide</h2>
+Repair vs Replace: How to Decide
 
-<p>We discuss this honestly with every client. The factors that lean towards repair: the machine is less than six years old, the fault is a known single component, the client's data and workflow are on this specific machine, and the cost of repair is less than 40% of a comparable replacement.</p>
+We discuss this honestly with every client. The factors that lean towards repair: the machine is less than six years old, the fault is a known single component, the client's data and workflow are on this specific machine, and the cost of repair is less than 40% of a comparable replacement.
 
-<p>The factors that lean towards replacement: the board has multiple liquid damage sites with extensive corrosion, the machine is an Intel model from before 2018, the repair cost approaches the value of the machine, or the client is due for an upgrade anyway and a new M-series MacBook would serve them significantly better.</p>
+The factors that lean towards replacement: the board has multiple liquid damage sites with extensive corrosion, the machine is an Intel model from before 2018, the repair cost approaches the value of the machine, or the client is due for an upgrade anyway and a new M-series MacBook would serve them significantly better.
 
-<p>We always tell you which category you are in. We do not repair machines where repair is not in the client's interest. See our detailed guide on <a href="/logic-board-repair">logic board repair decision-making</a> for more on this.</p>
+We always tell you which category you are in. We do not repair machines where repair is not in the client's interest. See our detailed guide on [logic board repair decision-making](/logic-board-repair) for more on this.
 
-<h2>Our Hyde Park Workshop Process</h2>
+Our Hyde Park Workshop Process
 
-<p>Clients bring their MacBook Pro to our Hyde Park, Johannesburg workshop by appointment. We collect machines from Sandton, Rosebank, Bryanston, and Fourways on the same day for an additional fee. The process:</p>
+Clients bring their MacBook Pro to our Hyde Park, Johannesburg workshop by appointment. We collect machines from Sandton, Rosebank, Bryanston, and Fourways on the same day for an additional fee. The process:
 
-<p><strong>Day 1: Assessment.</strong> R599 assessment fee, credited to the repair if you proceed. We complete the full diagnostic and provide a written quote with a success probability and a turnaround estimate.</p>
+**Day 1: Assessment.** R599 assessment fee, credited to the repair if you proceed. We complete the full diagnostic and provide a written quote with a success probability and a turnaround estimate.
 
-<p><strong>Days 2–5: Repair.</strong> Component-level rework under microscope. We use quality replacement components and document every step. You receive photographic evidence of the fault and the repair.</p>
+**Days 2–5: Repair.** Component-level rework under microscope. We use quality replacement components and document every step. You receive photographic evidence of the fault and the repair.
 
-<p><strong>Day 5–7: Testing and handover.</strong> The repaired board runs a 48-hour stress test before handover. We test every function — charging, display, Wi-Fi, Bluetooth, Thunderbolt ports, Touch ID, and keyboard. The machine leaves with a 3-year warranty on the repair work.</p>
+**Day 5–7: Testing and handover.** The repaired board runs a 48-hour stress test before handover. We test every function — charging, display, Wi-Fi, Bluetooth, Thunderbolt ports, Touch ID, and keyboard. The machine leaves with a 3-year warranty on the repair work.
 
-<p>You can <a href="/contact">contact us</a> to book an assessment, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a quick chat about your symptoms before bringing the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve a time slot.</p>
+You can [contact us](/contact) to book an assessment, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a quick chat about your symptoms before bringing the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve a time slot.
 
-<h2>Why MacBook Pro Logic Board Repairs Are Worth Doing in 2026</h2>
+Why MacBook Pro Logic Board Repairs Are Worth Doing in 2026
 
-<p>Apple's repairability stance has improved with the Self Repair Programme, but logic board repair remains firmly in specialist territory. The tools, training, and component sourcing required to work at this level are not available at general repair shops or through Apple's consumer repair programmes. A genuine micro-soldering specialist with MacBook-specific experience and an Apple Diagnostics framework is what you need — and that is exactly what our Hyde Park team provides.</p>
+Apple's repairability stance has improved with the Self Repair Programme, but logic board repair remains firmly in specialist territory. The tools, training, and component sourcing required to work at this level are not available at general repair shops or through Apple's consumer repair programmes. A genuine micro-soldering specialist with MacBook-specific experience and an Apple Diagnostics framework is what you need — and that is exactly what our Hyde Park team provides.
 
-<p>The <a href="https://support.apple.com/en-za/mac/repair" target="_blank" rel="noopener noreferrer">Apple Support repair page</a> gives a useful starting point for understanding what Apple charges for out-of-warranty service. Our pricing is a fraction of those figures, with the same quality of outcome in the majority of cases.</p>
+The Apple Support repair page gives a useful starting point for understanding what Apple charges for out-of-warranty service. Our pricing is a fraction of those figures, with the same quality of outcome in the majority of cases.
 
-<h2>Frequently Asked Questions</h2>
+Frequently Asked Questions
 
-<p><strong>Q: How long does MacBook Pro logic board repair take?</strong><br>A: Assessment takes two to four hours. The repair itself typically takes three to five business days, depending on component availability and the complexity of the fault. We can sometimes complete simpler single-component repairs within 24 hours.</p>
+**Q: How long does MacBook Pro logic board repair take?**A: Assessment takes two to four hours. The repair itself typically takes three to five business days, depending on component availability and the complexity of the fault. We can sometimes complete simpler single-component repairs within 24 hours.
 
-<p><strong>Q: What is the warranty on your logic board repairs?</strong><br>A: We offer a 3-year warranty on all component-level logic board repairs. If the same fault recurs within the warranty period, we repair it at no charge.</p>
+**Q: What is the warranty on your logic board repairs?**A: We offer a 3-year warranty on all component-level logic board repairs. If the same fault recurs within the warranty period, we repair it at no charge.
 
-<p><strong>Q: Can you recover my data if the logic board is faulty?</strong><br>A: In most cases, yes. MacBook Pro SSDs are soldered to the board but the data is frequently intact. We recover data as part of the assessment process and can transfer it to a backup drive before proceeding with the repair.</p>
+**Q: Can you recover my data if the logic board is faulty?**A: In most cases, yes. MacBook Pro SSDs are soldered to the board but the data is frequently intact. We recover data as part of the assessment process and can transfer it to a backup drive before proceeding with the repair.
 
-<p><strong>Q: Do you repair M1, M2, and M3 MacBook Pro logic boards?</strong><br>A: Yes. We repair Apple Silicon MacBook Pro boards including M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, and M3 Max variants. The techniques differ from Intel-era repairs but our team has invested heavily in the tooling and training required.</p>
+**Q: Do you repair M1, M2, and M3 MacBook Pro logic boards?**A: Yes. We repair Apple Silicon MacBook Pro boards including M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, and M3 Max variants. The techniques differ from Intel-era repairs but our team has invested heavily in the tooling and training required.
 
-<p><strong>Q: Is it worth repairing an older Intel MacBook Pro?</strong><br>A: It depends on the age, the fault, and the cost. We routinely repair 2018–2021 Intel MacBook Pros where the repair cost is well below replacement cost. For 2016–2017 models, we are honest about the calculus and recommend replacement if repair cost exceeds 30% of a comparable second-hand M-series machine.</p>
+**Q: Is it worth repairing an older Intel MacBook Pro?**A: It depends on the age, the fault, and the cost. We routinely repair 2018–2021 Intel MacBook Pros where the repair cost is well below replacement cost. For 2016–2017 models, we are honest about the calculus and recommend replacement if repair cost exceeds 30% of a comparable second-hand M-series machine.
 
-<p><strong>Q: Do you offer collection from Sandton or Fourways?</strong><br>A: Yes. We collect from Sandton, Rosebank, Bryanston, Fourways, and other Johannesburg areas by arrangement. Contact us or [WhatsApp 064 529 5863](https://wa.me/27645295863) to arrange a collection time.</p>
+**Q: Do you offer collection from Sandton or Fourways?**A: Yes. We collect from Sandton, Rosebank, Bryanston, Fourways, and other Johannesburg areas by arrangement. Contact us or [WhatsApp 064 529 5863](https://wa.me/27645295863) to arrange a collection time.
 `,
   },
   'macbook-air-logic-board-repair-johannesburg': {
@@ -36202,81 +36202,81 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
     category: 'Repairs',
     readTime: '9 min read',
     author: 'courtney-bentley',
-    content: `<h1>MacBook Air Logic Board Repair Johannesburg | Expert M1 M2 Board Recovery</h1>
+    content: `MacBook Air Logic Board Repair Johannesburg | Expert M1 M2 Board Recovery
 
-<p>The MacBook Air is the machine most South Africans own. It is light, fast, and extraordinarily capable for its size. It is also more fragile than it looks. When a MacBook Air logic board fails — through liquid damage, a power surge, thermal stress, or a manufacturing defect — the owner faces a stark choice: accept a quote of R15,000 to R70,000 from Apple or a mainstream repair shop, or find someone who can actually fix the board rather than replace it.</p>
+The MacBook Air is the machine most South Africans own. It is light, fast, and extraordinarily capable for its size. It is also more fragile than it looks. When a MacBook Air logic board fails — through liquid damage, a power surge, thermal stress, or a manufacturing defect — the owner faces a stark choice: accept a quote of R15,000 to R70,000 from Apple or a mainstream repair shop, or find someone who can actually fix the board rather than replace it.
 
-<p>At our Hyde Park, Johannesburg workshop we have been doing exactly that for years. We repair MacBook Air logic boards — including M1 and M2 models — at costs ranging from R3,800 to R6,500, with a 3-year warranty on the work. We serve clients from Midrand, Centurion, Randburg, and across Gauteng.</p>
+At our Hyde Park, Johannesburg workshop we have been doing exactly that for years. We repair MacBook Air logic boards — including M1 and M2 models — at costs ranging from R3,800 to R6,500, with a 3-year warranty on the work. We serve clients from Midrand, Centurion, Randburg, and across Gauteng.
 
-<h2>Why MacBook Air Logic Boards Fail</h2>
+Why MacBook Air Logic Boards Fail
 
-<p>The MacBook Air's fanless design is what makes it so quiet and portable. It is also what makes the logic board more vulnerable to thermal stress than the MacBook Pro. Without active cooling, the M1 or M2 chip sustains higher temperatures during sustained workloads. Over time — particularly in machines that run demanding tasks continuously — thermal cycling causes micro-cracking in solder joints and accelerates component degradation.</p>
+The MacBook Air's fanless design is what makes it so quiet and portable. It is also what makes the logic board more vulnerable to thermal stress than the MacBook Pro. Without active cooling, the M1 or M2 chip sustains higher temperatures during sustained workloads. Over time — particularly in machines that run demanding tasks continuously — thermal cycling causes micro-cracking in solder joints and accelerates component degradation.
 
-<p>The most common failure modes we see at our workshop:</p>
+The most common failure modes we see at our workshop:
 
-<p><strong>Liquid damage corrosion.</strong> The MacBook Air's chassis design channels liquid directly toward the logic board when a spill occurs. The M1 and M2 chips sit very close to the keyboard membrane, and even a small amount of liquid can reach the board quickly. Corrosion is often well established before the owner suspects anything serious. Our full <a href="/liquid-damage">liquid damage recovery process</a> applies here, with logic board micro-cleaning and component replacement where needed.</p>
+**Liquid damage corrosion.** The MacBook Air's chassis design channels liquid directly toward the logic board when a spill occurs. The M1 and M2 chips sit very close to the keyboard membrane, and even a small amount of liquid can reach the board quickly. Corrosion is often well established before the owner suspects anything serious. Our full [liquid damage recovery process](/liquid-damage) applies here, with logic board micro-cleaning and component replacement where needed.
 
-<p><strong>Power delivery failure.</strong> USB-C charging controllers on MacBook Air boards operate under the same electrical stress as their Pro counterparts, in a chassis with far less thermal headroom. A damaged cable, a poor quality third-party charger, or a power surge can knock out the charging circuitry. The machine appears to work normally until the battery depletes — then nothing.</p>
+**Power delivery failure.** USB-C charging controllers on MacBook Air boards operate under the same electrical stress as their Pro counterparts, in a chassis with far less thermal headroom. A damaged cable, a poor quality third-party charger, or a power surge can knock out the charging circuitry. The machine appears to work normally until the battery depletes — then nothing.
 
-<p><strong>Thermal stress component failure.</strong> We have seen this pattern particularly in M1 MacBook Air models used for video editing or software compilation. Small ceramic capacitors near the main chip develop hairline cracks from repeated heat expansion and contraction. The machine passes Apple Diagnostics but produces random shutdowns under load. Only board-level testing with a DC power supply reveals the fault.</p>
+**Thermal stress component failure.** We have seen this pattern particularly in M1 MacBook Air models used for video editing or software compilation. Small ceramic capacitors near the main chip develop hairline cracks from repeated heat expansion and contraction. The machine passes Apple Diagnostics but produces random shutdowns under load. Only board-level testing with a DC power supply reveals the fault.
 
-<p><strong>SSD controller failure.</strong> The SSD on MacBook Air models is integrated into the logic board. An SSD controller failure means no startup — but it does not always mean the data is lost. We separate data recovery from board repair and address both systematically.</p>
+**SSD controller failure.** The SSD on MacBook Air models is integrated into the logic board. An SSD controller failure means no startup — but it does not always mean the data is lost. We separate data recovery from board repair and address both systematically.
 
-<h2>Why MacBook Air Boards Are Harder to Repair Than MacBook Pro</h2>
+Why MacBook Air Boards Are Harder to Repair Than MacBook Pro
 
-<p>Counterintuitively, the MacBook Air is harder to repair at board level than the MacBook Pro, for three reasons.</p>
+Counterintuitively, the MacBook Air is harder to repair at board level than the MacBook Pro, for three reasons.
 
-<p>First, the board is physically smaller and more densely packed. The same number of components are arranged in a more compressed space, leaving less room for rework tooling and reducing the margin for heat application during soldering.</p>
+First, the board is physically smaller and more densely packed. The same number of components are arranged in a more compressed space, leaving less room for rework tooling and reducing the margin for heat application during soldering.
 
-<p>Second, the M1 and M2 packages on Air boards are BGA (ball grid array) chips, meaning all connections run under the chip and are invisible from above. Any work near these chips requires precise thermal profiling to avoid reflowing adjacent solder joints unintentionally.</p>
+Second, the M1 and M2 packages on Air boards are BGA (ball grid array) chips, meaning all connections run under the chip and are invisible from above. Any work near these chips requires precise thermal profiling to avoid reflowing adjacent solder joints unintentionally.
 
-<p>Third, Apple does not sell individual components for the Air board. Every replacement part — capacitors, inductors, ICs — must be sourced from specialist suppliers or harvested from donor boards. This is a supply chain that only established specialist repairers maintain.</p>
+Third, Apple does not sell individual components for the Air board. Every replacement part — capacitors, inductors, ICs — must be sourced from specialist suppliers or harvested from donor boards. This is a supply chain that only established specialist repairers maintain.
 
-<h2>M1 MacBook Air Logic Board Repair: What We See</h2>
+M1 MacBook Air Logic Board Repair: What We See
 
-<p>The M1 MacBook Air launched in late 2020 and is now the most common MacBook Air model in our workshop. We have repaired well over 10,000 MacBooks at ZA Support, and M1 Air boards feature prominently. The most frequent faults on M1 Air boards:</p>
+The M1 MacBook Air launched in late 2020 and is now the most common MacBook Air model in our workshop. We have repaired well over 10,000 MacBooks at ZA Support, and M1 Air boards feature prominently. The most frequent faults on M1 Air boards:
 
-<p><strong>No charge, healthy battery.</strong> The CD3217 or CD3218 USB-C charging controller fails, often after use with a third-party charger. We replace the IC and related passives. Success rate is high.</p>
+**No charge, healthy battery.** The CD3217 or CD3218 USB-C charging controller fails, often after use with a third-party charger. We replace the IC and related passives. Success rate is high.
 
-<p><strong>Screen remains black, machine runs.</strong> The backlight circuit, driven by a dedicated LED driver chip, can fail independently of the rest of the board. The display appears dead but the machine is fully operational — you can hear startup chimes and connect to external displays. We replace the faulty driver and the machine is restored.</p>
+**Screen remains black, machine runs.** The backlight circuit, driven by a dedicated LED driver chip, can fail independently of the rest of the board. The display appears dead but the machine is fully operational — you can hear startup chimes and connect to external displays. We replace the faulty driver and the machine is restored.
 
-<p><strong>Immediate shutdown under load.</strong> Power delivery instability causes the processor to hit a thermal threshold and trigger shutdown. This is a capacitor or power rail fault, not a chip failure.</p>
+**Immediate shutdown under load.** Power delivery instability causes the processor to hit a thermal threshold and trigger shutdown. This is a capacitor or power rail fault, not a chip failure.
 
-<h2>M2 MacBook Air Logic Board Repair: What We See</h2>
+M2 MacBook Air Logic Board Repair: What We See
 
-<p>The M2 MacBook Air arrived in mid-2022 and brought a new chassis design with slightly better liquid routing but a more densely packed board. We have begun seeing M2 Air boards in quantity and the fault profile is different from M1.</p>
+The M2 MacBook Air arrived in mid-2022 and brought a new chassis design with slightly better liquid routing but a more densely packed board. We have begun seeing M2 Air boards in quantity and the fault profile is different from M1.
 
-<p><strong>Liquid ingress through the USB-C ports.</strong> The M2 Air's USB-C port placement makes it slightly more vulnerable to liquid entry from the side. We see more USB-C controller failures on M2 Air boards than M1 Air boards for this reason.</p>
+**Liquid ingress through the USB-C ports.** The M2 Air's USB-C port placement makes it slightly more vulnerable to liquid entry from the side. We see more USB-C controller failures on M2 Air boards than M1 Air boards for this reason.
 
-<p><strong>Random kernel panics after software updates.</strong> Some M2 Air machines develop kernel panic patterns after macOS updates that correlate with marginal power delivery components. The update increases the chip's power demand fractionally, and a marginal capacitor that was holding on tips over the edge.</p>
+**Random kernel panics after software updates.** Some M2 Air machines develop kernel panic patterns after macOS updates that correlate with marginal power delivery components. The update increases the chip's power demand fractionally, and a marginal capacitor that was holding on tips over the edge.
 
-<h2>Our Repair Process and Pricing</h2>
+Our Repair Process and Pricing
 
-<p>Assessment starts at R599. Our team completes board-level diagnostics and provides a written quote before any repair work begins. Typical MacBook Air logic board repair costs at our Hyde Park workshop:</p>
+Assessment starts at R599. Our team completes board-level diagnostics and provides a written quote before any repair work begins. Typical MacBook Air logic board repair costs at our Hyde Park workshop:
 
-<p><strong>Single component fault:</strong> R3,800 – R4,800. Capacitors, diodes, small ICs — the most common faults and the most satisfying outcomes.</p>
+**Single component fault:** R3,800 – R4,800. Capacitors, diodes, small ICs — the most common faults and the most satisfying outcomes.
 
-<p><strong>USB-C controller replacement:</strong> R4,500 – R5,500. A half-day job on the bench. Parts are sourced from verified suppliers.</p>
+**USB-C controller replacement:** R4,500 – R5,500. A half-day job on the bench. Parts are sourced from verified suppliers.
 
-<p><strong>Liquid damage board clean and component replacement:</strong> R4,800 – R6,500. Depends on the extent of corrosion and the number of components needing replacement.</p>
+**Liquid damage board clean and component replacement:** R4,800 – R6,500. Depends on the extent of corrosion and the number of components needing replacement.
 
-<p>Clients from Midrand and Centurion regularly make the trip to our Hyde Park workshop for repairs at this price point — the saving versus Apple Store or board-swap pricing makes it easily worthwhile. We also collect from Randburg on arranged days.</p>
+Clients from Midrand and Centurion regularly make the trip to our Hyde Park workshop for repairs at this price point — the saving versus Apple Store or board-swap pricing makes it easily worthwhile. We also collect from Randburg on arranged days.
 
-<p>To get started, <a href="/contact">contact us</a> or [WhatsApp us on 064 529 5863](https://wa.me/27645295863). You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot. Our full <a href="/logic-board-repair">logic board repair service</a> page has more detail on what to expect.</p>
+To get started, [contact us](/contact) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863). You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot. Our full [logic board repair service](/logic-board-repair) page has more detail on what to expect.
 
-<h2>Frequently Asked Questions</h2>
+Frequently Asked Questions
 
-<p><strong>Q: Can you repair a MacBook Air M1 logic board that shows no signs of life?</strong><br>A: Yes, in many cases. A completely unresponsive M1 Air often has a faulty power management circuit or a shorted component — both are repairable at the component level. We diagnose with a DC power supply before forming any conclusion.</p>
+**Q: Can you repair a MacBook Air M1 logic board that shows no signs of life?**A: Yes, in many cases. A completely unresponsive M1 Air often has a faulty power management circuit or a shorted component — both are repairable at the component level. We diagnose with a DC power supply before forming any conclusion.
 
-<p><strong>Q: My MacBook Air M2 is out of warranty. Is repair still viable?</strong><br>A: Absolutely. Out-of-warranty Apple service for an M2 MacBook Air typically costs R20,000 or more. Our repair costs are a fraction of that. We carry a 3-year warranty on our own work regardless of the machine's Apple warranty status.</p>
+**Q: My MacBook Air M2 is out of warranty. Is repair still viable?**A: Absolutely. Out-of-warranty Apple service for an M2 MacBook Air typically costs R20,000 or more. Our repair costs are a fraction of that. We carry a 3-year warranty on our own work regardless of the machine's Apple warranty status.
 
-<p><strong>Q: How long does MacBook Air logic board repair take?</strong><br>A: Assessment takes two to four hours. Repair typically takes three to five business days. Simple component replacements can sometimes be completed the same day or the next business day.</p>
+**Q: How long does MacBook Air logic board repair take?**A: Assessment takes two to four hours. Repair typically takes three to five business days. Simple component replacements can sometimes be completed the same day or the next business day.
 
-<p><strong>Q: Will my data be safe during a logic board repair?</strong><br>A: The SSD is part of the logic board, but in most cases the data storage chips themselves survive the board fault. We image and back up data before any repair work begins where technically possible.</p>
+**Q: Will my data be safe during a logic board repair?**A: The SSD is part of the logic board, but in most cases the data storage chips themselves survive the board fault. We image and back up data before any repair work begins where technically possible.
 
-<p><strong>Q: Do you service MacBook Air models from Midrand and Centurion?</strong><br>A: Yes. We are based in Hyde Park, Johannesburg, and clients from Midrand, Centurion, and Randburg bring machines to us regularly. We are also able to arrange collection by appointment.</p>
+**Q: Do you service MacBook Air models from Midrand and Centurion?**A: Yes. We are based in Hyde Park, Johannesburg, and clients from Midrand, Centurion, and Randburg bring machines to us regularly. We are also able to arrange collection by appointment.
 
-<p><strong>Q: What is the difference between a board repair and a board replacement?</strong><br>A: A board repair identifies and replaces only the faulty component on your existing board. A board replacement swaps the entire logic board for a new or refurbished one — at two to four times the cost of a component repair, and without the same warranty value because you are receiving a second-hand part.</p>
+**Q: What is the difference between a board repair and a board replacement?**A: A board repair identifies and replaces only the faulty component on your existing board. A board replacement swaps the entire logic board for a new or refurbished one — at two to four times the cost of a component repair, and without the same warranty value because you are receiving a second-hand part.
 `,
   },
   'macbook-pro-m1-logic-board-fault-symptoms': {
@@ -36287,87 +36287,87 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
     category: 'Repairs',
     readTime: '9 min read',
     author: 'courtney-bentley',
-    content: `<h1>MacBook Pro M1 Logic Board Fault Symptoms: What to Watch For in 2026</h1>
+    content: `MacBook Pro M1 Logic Board Fault Symptoms: What to Watch For in 2026
 
-<p>The MacBook Pro M1 is a genuinely remarkable machine. The chip design is tight, the performance per watt is outstanding, and in normal use the board should last well over a decade. But logic board faults do happen — and on an M1 MacBook Pro, the symptoms are not always what you expect.</p>
+The MacBook Pro M1 is a genuinely remarkable machine. The chip design is tight, the performance per watt is outstanding, and in normal use the board should last well over a decade. But logic board faults do happen — and on an M1 MacBook Pro, the symptoms are not always what you expect.
 
-<p>In our Hyde Park, Johannesburg workshop we have worked through thousands of M1 MacBook Pro diagnostics. The faults cluster into predictable patterns, and the symptom you see on the surface is often a clear indicator of what has gone wrong at the component level — if you know how to read the signs.</p>
+In our Hyde Park, Johannesburg workshop we have worked through thousands of M1 MacBook Pro diagnostics. The faults cluster into predictable patterns, and the symptom you see on the surface is often a clear indicator of what has gone wrong at the component level — if you know how to read the signs.
 
-<p>This post describes the main MacBook Pro M1 logic board fault symptoms in detail, explains what each one typically indicates, and tells you when to come in for a from R599 assessment rather than waiting to see if the problem resolves itself — it will not.</p>
+This post describes the main MacBook Pro M1 logic board fault symptoms in detail, explains what each one typically indicates, and tells you when to come in for a from R599 assessment rather than waiting to see if the problem resolves itself — it will not.
 
-<h2>Symptom 1: The Machine Will Not Power On</h2>
+Symptom 1: The Machine Will Not Power On
 
-<p>This is the symptom that sends people into a panic. You press the power button. Nothing happens. No fan spin, no startup chime, no Apple logo, no charging indicator light. The machine behaves as though it is completely dead.</p>
+This is the symptom that sends people into a panic. You press the power button. Nothing happens. No fan spin, no startup chime, no Apple logo, no charging indicator light. The machine behaves as though it is completely dead.
 
-<p>In our experience, a MacBook Pro M1 that shows absolutely no signs of life is not a write-off. The most common causes are a shorted capacitor on the main power rail, a failed power management IC, or a faulty USB-C charging controller. All three are component-level faults — meaning we replace the specific component, not the board.</p>
+In our experience, a MacBook Pro M1 that shows absolutely no signs of life is not a write-off. The most common causes are a shorted capacitor on the main power rail, a failed power management IC, or a faulty USB-C charging controller. All three are component-level faults — meaning we replace the specific component, not the board.
 
-<p>Before bringing the machine in, try a different Apple-certified USB-C cable and charger, and try each USB-C port separately. If none of this produces any response at all, the fault is almost certainly on the board rather than a charging cable or charger. <a href="/contact">Book an assessment</a> and bring the machine to us.</p>
+Before bringing the machine in, try a different Apple-certified USB-C cable and charger, and try each USB-C port separately. If none of this produces any response at all, the fault is almost certainly on the board rather than a charging cable or charger. [Book an assessment](/contact) and bring the machine to us.
 
-<h2>Symptom 2: Boot Loop — The Machine Restarts Before Fully Loading</h2>
+Symptom 2: Boot Loop — The Machine Restarts Before Fully Loading
 
-<p>A boot loop is when the MacBook Pro reaches the Apple logo or the loading bar and then restarts before you see the desktop. This cycle repeats indefinitely. The machine is clearly trying to start up but cannot complete the process.</p>
+A boot loop is when the MacBook Pro reaches the Apple logo or the loading bar and then restarts before you see the desktop. This cycle repeats indefinitely. The machine is clearly trying to start up but cannot complete the process.
 
-<p>On M1 MacBook Pros, persistent boot loops that are not resolved by an NVRAM reset or macOS recovery point to a hardware cause. The most common board-level causes we find: a fault in the SSD controller section of the board (preventing macOS from loading its kernel), a voltage rail instability that causes the chip to detect an error and reset, or a fault in the Secure Boot circuit.</p>
+On M1 MacBook Pros, persistent boot loops that are not resolved by an NVRAM reset or macOS recovery point to a hardware cause. The most common board-level causes we find: a fault in the SSD controller section of the board (preventing macOS from loading its kernel), a voltage rail instability that causes the chip to detect an error and reset, or a fault in the Secure Boot circuit.
 
-<p>The diagnostic for this starts with Apple Diagnostics — accessible by holding the power button — and moves to DC power supply current analysis if Diagnostics returns no clear result. We have seen M1 MacBook Pros in boot loops where the fix was a single passive component worth a fraction of the repair cost. The symptom looks catastrophic; the cause is often modest.</p>
+The diagnostic for this starts with Apple Diagnostics — accessible by holding the power button — and moves to DC power supply current analysis if Diagnostics returns no clear result. We have seen M1 MacBook Pros in boot loops where the fix was a single passive component worth a fraction of the repair cost. The symptom looks catastrophic; the cause is often modest.
 
-<h2>Symptom 3: Black Screen — The Machine Is Running But the Display Shows Nothing</h2>
+Symptom 3: Black Screen — The Machine Is Running But the Display Shows Nothing
 
-<p>This is one of the most misunderstood MacBook Pro M1 symptoms. The machine feels warm. The fan responds to load. You can connect to an external monitor and see a normal desktop. But the built-in screen shows nothing — completely black.</p>
+This is one of the most misunderstood MacBook Pro M1 symptoms. The machine feels warm. The fan responds to load. You can connect to an external monitor and see a normal desktop. But the built-in screen shows nothing — completely black.
 
-<p>In almost every case we see, this is a backlight circuit fault, not a dead display panel. The M1 MacBook Pro's backlight is driven by a dedicated LED driver chip on the logic board. When that chip or its associated components fail, the display panel receives no backlight voltage. The panel itself is often perfectly functional — there is no display to replace.</p>
+In almost every case we see, this is a backlight circuit fault, not a dead display panel. The M1 MacBook Pro's backlight is driven by a dedicated LED driver chip on the logic board. When that chip or its associated components fail, the display panel receives no backlight voltage. The panel itself is often perfectly functional — there is no display to replace.
 
-<p>We have seen clients quoted for display replacements — at R8,000 or more — for machines that needed a R4,500 board-level LED driver repair. If your M1 MacBook Pro has a black screen but the machine is clearly running, come in for our from R599 assessment before agreeing to any display replacement quote. It is also worth reading our <a href="/logic-board-repair">logic board repair page</a> for more context on how display circuit faults present.</p>
+We have seen clients quoted for display replacements — at R8,000 or more — for machines that needed a R4,500 board-level LED driver repair. If your M1 MacBook Pro has a black screen but the machine is clearly running, come in for our from R599 assessment before agreeing to any display replacement quote. It is also worth reading our [logic board repair page](/logic-board-repair) for more context on how display circuit faults present.
 
-<h2>Symptom 4: Random Shutdowns and Kernel Panics</h2>
+Symptom 4: Random Shutdowns and Kernel Panics
 
-<p>Your MacBook Pro M1 is running normally, then it shuts down without warning. When you restart, you may see a kernel panic log referencing a hardware fault, a memory error, or a power interruption. The shutdowns happen more frequently under load — during video exports, software compilation, or gaming — and less frequently during light tasks.</p>
+Your MacBook Pro M1 is running normally, then it shuts down without warning. When you restart, you may see a kernel panic log referencing a hardware fault, a memory error, or a power interruption. The shutdowns happen more frequently under load — during video exports, software compilation, or gaming — and less frequently during light tasks.
 
-<p>This pattern points almost certainly to a power delivery fault on the logic board. The M1 chip has tightly defined voltage requirements. When a capacitor or inductor on the main power rail degrades, the voltage sags under load. The chip's internal power monitoring detects the sag as a critical fault and forces an immediate shutdown rather than corrupting data.</p>
+This pattern points almost certainly to a power delivery fault on the logic board. The M1 chip has tightly defined voltage requirements. When a capacitor or inductor on the main power rail degrades, the voltage sags under load. The chip's internal power monitoring detects the sag as a critical fault and forces an immediate shutdown rather than corrupting data.
 
-<p>The good news: this is a highly identifiable fault with DC power supply testing, and it is repairable in the majority of cases. The bad news: leaving it untreated risks data loss because uncontrolled shutdowns can corrupt the file system. If your M1 MacBook Pro is shutting down randomly, back up immediately and bring it in for assessment.</p>
+The good news: this is a highly identifiable fault with DC power supply testing, and it is repairable in the majority of cases. The bad news: leaving it untreated risks data loss because uncontrolled shutdowns can corrupt the file system. If your M1 MacBook Pro is shutting down randomly, back up immediately and bring it in for assessment.
 
-<h2>Symptom 5: Not Charging Despite a Known-Good Charger</h2>
+Symptom 5: Not Charging Despite a Known-Good Charger
 
-<p>You connect a genuine Apple USB-C charger to your MacBook Pro M1 and nothing happens. The battery indicator shows no charging activity. Swapping ports makes no difference. The charger works fine on another device.</p>
+You connect a genuine Apple USB-C charger to your MacBook Pro M1 and nothing happens. The battery indicator shows no charging activity. Swapping ports makes no difference. The charger works fine on another device.
 
-<p>The USB-C charging subsystem on M1 MacBook Pros involves a charging controller IC, a set of protection components, and communication chips that negotiate the USB Power Delivery protocol with the charger. Any of these can fail. The most common cause we see is a failed CD3217 or CD3218 charging IC — a component-level repair that typically costs R4,800 to R5,500 at our workshop.</p>
+The USB-C charging subsystem on M1 MacBook Pros involves a charging controller IC, a set of protection components, and communication chips that negotiate the USB Power Delivery protocol with the charger. Any of these can fail. The most common cause we see is a failed CD3217 or CD3218 charging IC — a component-level repair that typically costs R4,800 to R5,500 at our workshop.
 
-<p>We also see this symptom after liquid ingress through the USB-C port. Even a small amount of corrosion on the charging controller pins can prevent the Power Delivery negotiation from completing. The charger connects physically but communication fails. In these cases, the repair is more involved because we need to address the corrosion and replace the affected components — but it is still a board-level repair, not a machine replacement.</p>
+We also see this symptom after liquid ingress through the USB-C port. Even a small amount of corrosion on the charging controller pins can prevent the Power Delivery negotiation from completing. The charger connects physically but communication fails. In these cases, the repair is more involved because we need to address the corrosion and replace the affected components — but it is still a board-level repair, not a machine replacement.
 
-<h2>Symptom 6: Corrupted or Distorted Display Output</h2>
+Symptom 6: Corrupted or Distorted Display Output
 
-<p>Vertical lines running through the display, patches of incorrect colour, flickering at certain brightness levels, or a display that looks normal at startup but degrades as the machine warms up — these are GPU-related symptoms. On M1 MacBook Pros, the GPU is integrated into the main chip package, so GPU faults are chip-level faults.</p>
+Vertical lines running through the display, patches of incorrect colour, flickering at certain brightness levels, or a display that looks normal at startup but degrades as the machine warms up — these are GPU-related symptoms. On M1 MacBook Pros, the GPU is integrated into the main chip package, so GPU faults are chip-level faults.
 
-<p>In the first instance, a corrupted display on M1 can be caused by a connection issue at the display cable rather than a board fault. We always check the physical connection first. If the cable is intact and correctly seated, the fault moves to the logic board — either the display output circuit on the board or, in more serious cases, the chip itself.</p>
+In the first instance, a corrupted display on M1 can be caused by a connection issue at the display cable rather than a board fault. We always check the physical connection first. If the cable is intact and correctly seated, the fault moves to the logic board — either the display output circuit on the board or, in more serious cases, the chip itself.
 
-<p>We are transparent about outcomes here: some display faults on M1 boards are not repairable at component level, and the honest answer in those cases is a board replacement or a machine upgrade. But we only say that after completing a full diagnostic — not before.</p>
+We are transparent about outcomes here: some display faults on M1 boards are not repairable at component level, and the honest answer in those cases is a board replacement or a machine upgrade. But we only say that after completing a full diagnostic — not before.
 
-<h2>When to Book an Assessment</h2>
+When to Book an Assessment
 
-<p>Any one of the symptoms above warrants a from R599 assessment at our Hyde Park workshop. The assessment fee is credited to the repair if you proceed. We diagnose the exact fault, give you a written quote, and tell you honestly whether repair is the right call or whether replacement makes better financial sense.</p>
+Any one of the symptoms above warrants a from R599 assessment at our Hyde Park workshop. The assessment fee is credited to the repair if you proceed. We diagnose the exact fault, give you a written quote, and tell you honestly whether repair is the right call or whether replacement makes better financial sense.
 
-<p>Do not wait for a failing MacBook Pro M1 to reach full failure. Power-on failures get more difficult to diagnose once corrosion has had time to spread. Random shutdowns risk data loss. Charging faults left untreated can result in a fully discharged battery that complicates the repair.</p>
+Do not wait for a failing MacBook Pro M1 to reach full failure. Power-on failures get more difficult to diagnose once corrosion has had time to spread. Random shutdowns risk data loss. Charging faults left untreated can result in a fully discharged battery that complicates the repair.
 
-<p>[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your symptoms before bringing the machine in — we can often tell you within a few messages what the likely cause is and what the repair will cost. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your symptoms before bringing the machine in — we can often tell you within a few messages what the likely cause is and what the repair will cost. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.
 
-<p>For more detail on the repair process itself, see our <a href="/logic-board-repair">MacBook logic board repair service page</a> and our guide on <a href="/liquid-damage">liquid damage recovery</a> if you suspect moisture is involved.</p>
+For more detail on the repair process itself, see our [MacBook logic board repair service page](/logic-board-repair) and our guide on [liquid damage recovery](/liquid-damage) if you suspect moisture is involved.
 
-<p>The <a href="https://support.apple.com/en-za/mac/repair" target="_blank" rel="noopener noreferrer">Apple Support Mac repair page</a> provides useful information on out-of-warranty Apple service costs — useful context when evaluating whether a specialist repair at our Hyde Park workshop makes financial sense.</p>
+The Apple Support Mac repair page provides useful information on out-of-warranty Apple service costs — useful context when evaluating whether a specialist repair at our Hyde Park workshop makes financial sense.
 
-<h2>Frequently Asked Questions</h2>
+Frequently Asked Questions
 
-<p><strong>Q: Can Apple Diagnostics detect all M1 logic board faults?</strong><br>A: No. Apple Diagnostics can identify some hardware faults but misses many component-level failures. A machine that passes Apple Diagnostics may still have a board fault that only appears under load or after DC power supply testing. We use Apple Diagnostics as a first step, not a conclusive one.</p>
+**Q: Can Apple Diagnostics detect all M1 logic board faults?**A: No. Apple Diagnostics can identify some hardware faults but misses many component-level failures. A machine that passes Apple Diagnostics may still have a board fault that only appears under load or after DC power supply testing. We use Apple Diagnostics as a first step, not a conclusive one.
 
-<p><strong>Q: My MacBook Pro M1 passes Apple Diagnostics but still shuts down randomly. Is it still a board fault?</strong><br>A: Quite possibly. Voltage rail instability and marginal power components often pass Diagnostics but fail under sustained load. If random shutdowns persist after a clean macOS reinstall, the fault is hardware — and likely on the board. Book an assessment.</p>
+**Q: My MacBook Pro M1 passes Apple Diagnostics but still shuts down randomly. Is it still a board fault?**A: Quite possibly. Voltage rail instability and marginal power components often pass Diagnostics but fail under sustained load. If random shutdowns persist after a clean macOS reinstall, the fault is hardware — and likely on the board. Book an assessment.
 
-<p><strong>Q: Is it safe to keep using a MacBook Pro M1 with a black screen?</strong><br>A: Yes, if you are using an external monitor. The machine itself is functional. But the board fault causing the black screen may worsen over time, so we recommend getting an assessment rather than running indefinitely on an external display.</p>
+**Q: Is it safe to keep using a MacBook Pro M1 with a black screen?**A: Yes, if you are using an external monitor. The machine itself is functional. But the board fault causing the black screen may worsen over time, so we recommend getting an assessment rather than running indefinitely on an external display.
 
-<p><strong>Q: How much does it cost to repair a MacBook Pro M1 logic board in Johannesburg?</strong><br>A: Our assessments start at R599 (credited to the repair if you proceed). Repairs typically range from R4,499 for single component faults to R8,500 for more complex work. We provide a fixed quote after assessment — no surprises.</p>
+**Q: How much does it cost to repair a MacBook Pro M1 logic board in Johannesburg?**A: Our assessments start at R599 (credited to the repair if you proceed). Repairs typically range from R4,499 for single component faults to R8,500 for more complex work. We provide a fixed quote after assessment — no surprises.
 
-<p><strong>Q: Can data be recovered from a MacBook Pro M1 with a logic board fault?</strong><br>A: In most cases, yes. The SSD data on M1 MacBook Pros is encrypted and tied to the Secure Enclave on the chip, which complicates some recovery scenarios. However, in the majority of board faults we handle, we are able to recover data or repair the board and restore normal access to the existing data.</p>
+**Q: Can data be recovered from a MacBook Pro M1 with a logic board fault?**A: In most cases, yes. The SSD data on M1 MacBook Pros is encrypted and tied to the Secure Enclave on the chip, which complicates some recovery scenarios. However, in the majority of board faults we handle, we are able to recover data or repair the board and restore normal access to the existing data.
 
-<p><strong>Q: What causes M1 MacBook Pro logic boards to fail in Johannesburg specifically?</strong><br>A: The two most common local factors are load-shedding power surges — if the machine is plugged in during a stage switch — and liquid damage from workplace spills. Johannesburg's dry season also creates static discharge risk in some office environments. We recommend a quality surge protector for any plugged-in Mac.</p>
+**Q: What causes M1 MacBook Pro logic boards to fail in Johannesburg specifically?**A: The two most common local factors are load-shedding power surges — if the machine is plugged in during a stage switch — and liquid damage from workplace spills. Johannesburg's dry season also creates static discharge risk in some office environments. We recommend a quality surge protector for any plugged-in Mac.
 `,
   },
   'logic-board-repair-vs-replacement-macbook': {
@@ -36378,95 +36378,95 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
     category: 'Repairs',
     readTime: '10 min read',
     author: 'courtney-bentley',
-    content: `<h1>Logic Board Repair vs Replacement MacBook: The Honest Johannesburg Guide</h1>
+    content: `Logic Board Repair vs Replacement MacBook: The Honest Johannesburg Guide
 
-<p>We have helped over 12,000 Johannesburg clients make the decision between repairing their MacBook's logic board and replacing the machine. It is a decision that involves real money — often the difference between spending R4,500 and spending R25,000 — and it deserves an honest framework rather than a sales pitch in either direction.</p>
+We have helped over 12,000 Johannesburg clients make the decision between repairing their MacBook's logic board and replacing the machine. It is a decision that involves real money — often the difference between spending R4,500 and spending R25,000 — and it deserves an honest framework rather than a sales pitch in either direction.
 
-<p>This guide gives you the framework we use at our Hyde Park workshop. We will walk through the factors that determine whether repair or replacement makes sense, share the cost comparisons that matter, and give you the honest answer about when we turn clients towards a new machine rather than a repair. See our <a href="/logic-board-repair">logic board repair service page</a> for the full technical detail on what we actually fix.</p>
+This guide gives you the framework we use at our Hyde Park workshop. We will walk through the factors that determine whether repair or replacement makes sense, share the cost comparisons that matter, and give you the honest answer about when we turn clients towards a new machine rather than a repair. See our [logic board repair service page](/logic-board-repair) for the full technical detail on what we actually fix.
 
-<h2>The Financial Case for Repair</h2>
+The Financial Case for Repair
 
-<p>MacBook logic board repair at a component level costs significantly less than any replacement path. Here is a realistic comparison for a Johannesburg client in 2026:</p>
+MacBook logic board repair at a component level costs significantly less than any replacement path. Here is a realistic comparison for a Johannesburg client in 2026:
 
-<p><strong>Logic board component repair at ZA Support (Hyde Park):</strong> R4,499 – R8,500, with a 3-year warranty on the repair work. Assessment starts at R599, credited to the repair if you proceed.</p>
+**Logic board component repair at ZA Support (Hyde Park):** R4,499 – R8,500, with a 3-year warranty on the repair work. Assessment starts at R599, credited to the repair if you proceed.
 
-<p><strong>Full logic board replacement at a mainstream repair shop:</strong> R12,000 – R18,000. You receive a second-hand or refurbished board of uncertain origin, typically with a three-month warranty.</p>
+**Full logic board replacement at a mainstream repair shop:** R12,000 – R18,000. You receive a second-hand or refurbished board of uncertain origin, typically with a three-month warranty.
 
-<p><strong>Apple Store out-of-warranty service:</strong> R20,000 – R70,000, depending on the model. Apple replaces the entire board at Apple retail pricing. The warranty is 90 days on the replaced part.</p>
+**Apple Store out-of-warranty service:** R20,000 – R70,000, depending on the model. Apple replaces the entire board at Apple retail pricing. The warranty is 90 days on the replaced part.
 
-<p><strong>New comparable MacBook:</strong> R22,000 – R55,000, depending on the model and configuration. AppleCare+ costs an additional R3,000–R6,000.</p>
+**New comparable MacBook:** R22,000 – R55,000, depending on the model and configuration. AppleCare+ costs an additional R3,000–R6,000.
 
-<p>In most cases, component-level repair is the financially rational choice. The exceptions are real, and we discuss them below — but for a MacBook that is four years old or younger with a single-component fault, repair is almost always the right call economically.</p>
+In most cases, component-level repair is the financially rational choice. The exceptions are real, and we discuss them below — but for a MacBook that is four years old or younger with a single-component fault, repair is almost always the right call economically.
 
-<h2>Factors That Favour Repair</h2>
+Factors That Favour Repair
 
-<p><strong>Machine age under six years.</strong> A MacBook Pro or Air that is less than six years old is worth repairing in the majority of fault scenarios. The machine itself still has years of productive life ahead. macOS support typically extends eight to ten years from launch, and Apple Silicon machines are likely to be supported even longer.</p>
+**Machine age under six years.** A MacBook Pro or Air that is less than six years old is worth repairing in the majority of fault scenarios. The machine itself still has years of productive life ahead. macOS support typically extends eight to ten years from launch, and Apple Silicon machines are likely to be supported even longer.
 
-<p><strong>Single or isolated fault.</strong> If our diagnostic identifies a single failed component — a capacitor, a charging IC, a backlight driver — the probability of a successful repair is high and the cost is low. The logic board is otherwise healthy and will continue to function well after the repair.</p>
+**Single or isolated fault.** If our diagnostic identifies a single failed component — a capacitor, a charging IC, a backlight driver — the probability of a successful repair is high and the cost is low. The logic board is otherwise healthy and will continue to function well after the repair.
 
-<p><strong>Repair cost under 40% of replacement cost.</strong> Our general benchmark: if the component repair costs less than 40% of a comparable new or refurbished machine, repair is the better financial decision. You preserve the machine, protect your workflow, and avoid the disruption of migration.</p>
+**Repair cost under 40% of replacement cost.** Our general benchmark: if the component repair costs less than 40% of a comparable new or refurbished machine, repair is the better financial decision. You preserve the machine, protect your workflow, and avoid the disruption of migration.
 
-<p><strong>Your data and workflow are on this machine.</strong> Migrating to a new Mac involves time, risk, and potential loss of legacy software. If the existing machine runs specific applications that require re-licensing or re-setup, the hidden cost of replacement is higher than the sticker price suggests.</p>
+**Your data and workflow are on this machine.** Migrating to a new Mac involves time, risk, and potential loss of legacy software. If the existing machine runs specific applications that require re-licensing or re-setup, the hidden cost of replacement is higher than the sticker price suggests.
 
-<p><strong>Environmental preference.</strong> Manufacturing a MacBook involves significant resource consumption. Repairing an existing machine and extending its life by three to five years is meaningfully better from an environmental standpoint than replacing it. We have seen clients in Johannesburg's corporate sector flag this as a factor in their decision, particularly given ESG reporting requirements.</p>
+**Environmental preference.** Manufacturing a MacBook involves significant resource consumption. Repairing an existing machine and extending its life by three to five years is meaningfully better from an environmental standpoint than replacing it. We have seen clients in Johannesburg's corporate sector flag this as a factor in their decision, particularly given ESG reporting requirements.
 
-<h2>Factors That Favour Replacement</h2>
+Factors That Favour Replacement
 
-<p><strong>Extensive liquid damage with multiple corrosion sites.</strong> When a MacBook has suffered significant liquid damage and the board has corrosion across multiple sections — not a single isolated spill site but widespread damage — the repair complexity increases substantially and the success probability decreases. We will always tell you when we are in this territory after the assessment. See our <a href="/liquid-damage">liquid damage repair page</a> for more detail on how we assess severity.</p>
+**Extensive liquid damage with multiple corrosion sites.** When a MacBook has suffered significant liquid damage and the board has corrosion across multiple sections — not a single isolated spill site but widespread damage — the repair complexity increases substantially and the success probability decreases. We will always tell you when we are in this territory after the assessment. See our [liquid damage repair page](/liquid-damage) for more detail on how we assess severity.
 
-<p><strong>Machine older than eight years on Intel architecture.</strong> An Intel MacBook from 2015 or 2016 is now outside Apple's macOS support window. Repairing the board restores the machine, but the machine itself cannot run a current version of macOS and is increasingly incompatible with modern software. The repair extends the life of an already-limited device.</p>
+**Machine older than eight years on Intel architecture.** An Intel MacBook from 2015 or 2016 is now outside Apple's macOS support window. Repairing the board restores the machine, but the machine itself cannot run a current version of macOS and is increasingly incompatible with modern software. The repair extends the life of an already-limited device.
 
-<p><strong>Repair cost approaches replacement cost.</strong> If the diagnostic reveals multiple failed components and the repair quote is R14,000 or more, the calculus shifts. At that point, a second-hand M-series MacBook with genuine reliability may be a better investment.</p>
+**Repair cost approaches replacement cost.** If the diagnostic reveals multiple failed components and the repair quote is R14,000 or more, the calculus shifts. At that point, a second-hand M-series MacBook with genuine reliability may be a better investment.
 
-<p><strong>The machine's performance is already limiting your work.</strong> If you were already finding the machine slow before the logic board failure, and a new M-series Mac would materially improve your productivity, the failure is a natural prompt for an upgrade. We will say so honestly during the assessment consultation.</p>
+**The machine's performance is already limiting your work.** If you were already finding the machine slow before the logic board failure, and a new M-series Mac would materially improve your productivity, the failure is a natural prompt for an upgrade. We will say so honestly during the assessment consultation.
 
-<h2>The Assessment Process: How We Help You Decide</h2>
+The Assessment Process: How We Help You Decide
 
-<p>Every client gets the same process. The R599 assessment fee covers a full diagnostic — Apple Diagnostics, DC power supply testing, visual inspection under microscope, and a written report. The report includes:</p>
+Every client gets the same process. The R599 assessment fee covers a full diagnostic — Apple Diagnostics, DC power supply testing, visual inspection under microscope, and a written report. The report includes:
 
-<p>The exact fault identified, with photographic evidence. The repair cost, broken down by component and labour. The estimated probability of a successful outcome. Our recommendation on repair versus replacement, with the specific reasoning for your machine and fault. If we recommend replacement, we lose the repair revenue — but we keep the trust. That is the model we have built our business on over years of serving Johannesburg's Mac-owning community.</p>
+The exact fault identified, with photographic evidence. The repair cost, broken down by component and labour. The estimated probability of a successful outcome. Our recommendation on repair versus replacement, with the specific reasoning for your machine and fault. If we recommend replacement, we lose the repair revenue — but we keep the trust. That is the model we have built our business on over years of serving Johannesburg's Mac-owning community.
 
-<h2>Real Examples From Our Hyde Park Workshop</h2>
+Real Examples From Our Hyde Park Workshop
 
-<p>A client from Sandton brought in a 2021 MacBook Pro 14-inch M1 Pro. Complete no-power symptom. The diagnostic found a shorted decoupling capacitor on the 3.3V rail. Repair cost: R4,999. The client saved approximately R38,000 compared to Apple Store exchange pricing for that model.</p>
+A client from Sandton brought in a 2021 MacBook Pro 14-inch M1 Pro. Complete no-power symptom. The diagnostic found a shorted decoupling capacitor on the 3.3V rail. Repair cost: R4,999. The client saved approximately R38,000 compared to Apple Store exchange pricing for that model.
 
-<p>A client from Fourways brought in a 2017 MacBook Pro 13-inch. Liquid damage with corrosion across the keyboard controller, USB-C charging section, and trackpad circuit. Repair cost estimate: R11,000. Machine age: seven years. macOS support: ended. Our recommendation: replacement with a second-hand M1 MacBook Air. The client purchased a refurbished M1 Air for R12,000 and was better served by the decision.</p>
+A client from Fourways brought in a 2017 MacBook Pro 13-inch. Liquid damage with corrosion across the keyboard controller, USB-C charging section, and trackpad circuit. Repair cost estimate: R11,000. Machine age: seven years. macOS support: ended. Our recommendation: replacement with a second-hand M1 MacBook Air. The client purchased a refurbished M1 Air for R12,000 and was better served by the decision.
 
-<p>A client from Randburg brought in a 2020 MacBook Air M1 that would not charge and showed no power. Single USB-C controller fault. Repair cost: R4,800. Client had the machine back in four days with a 3-year warranty.</p>
+A client from Randburg brought in a 2020 MacBook Air M1 that would not charge and showed no power. Single USB-C controller fault. Repair cost: R4,800. Client had the machine back in four days with a 3-year warranty.
 
-<h2>Cost Comparison Summary</h2>
+Cost Comparison Summary
 
-<p><strong>Component-level board repair (ZA Support):</strong> R4,499 – R8,500 | 3-year warranty | same machine | data intact</p>
+**Component-level board repair (ZA Support):** R4,499 – R8,500 | 3-year warranty | same machine | data intact
 
-<p><strong>Full board replacement (third party):</strong> R12,000 – R18,000 | 3-month warranty | second-hand board | data intact</p>
+**Full board replacement (third party):** R12,000 – R18,000 | 3-month warranty | second-hand board | data intact
 
-<p><strong>Apple Store out-of-warranty:</strong> R20,000 – R70,000 | 90-day warranty | new Apple board | data intact</p>
+**Apple Store out-of-warranty:** R20,000 – R70,000 | 90-day warranty | new Apple board | data intact
 
-<p><strong>New MacBook (entry M-series):</strong> R22,000 – R35,000 | 1-year AppleCare | new machine | migration required</p>
+**New MacBook (entry M-series):** R22,000 – R35,000 | 1-year AppleCare | new machine | migration required
 
-<p><strong>New MacBook Pro 14-inch M3 Pro:</strong> R40,000 – R55,000 | 1-year AppleCare | premium machine | migration required</p>
+**New MacBook Pro 14-inch M3 Pro:** R40,000 – R55,000 | 1-year AppleCare | premium machine | migration required
 
-<h2>How to Get Started</h2>
+How to Get Started
 
-<p>Bring your MacBook to our Hyde Park, Johannesburg workshop for a from R599 assessment. We serve clients from across Gauteng, including Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Randburg. The assessment takes two to four hours, and you will have a complete picture of your options before committing to anything.</p>
+Bring your MacBook to our Hyde Park, Johannesburg workshop for a from R599 assessment. We serve clients from across Gauteng, including Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Randburg. The assessment takes two to four hours, and you will have a complete picture of your options before committing to anything.
 
-<p>[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to tell us about the symptoms you are seeing — we can often give you a preliminary sense of the likely repair category before you bring the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to tell us about the symptoms you are seeing — we can often give you a preliminary sense of the likely repair category before you bring the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.
 
-<p>If you want further context on what a logic board repair involves, see our <a href="/logic-board-repair">logic board repair service page</a> and our guide to <a href="/contact">contacting our workshop</a>. The <a href="https://www.ifixit.com/Guide/MacBook+Pro+Logic+Board+Repair/1" target="_blank" rel="noopener noreferrer">iFixit MacBook repair guide library</a> gives a good sense of the technical complexity involved in these repairs and why specialist tooling matters.</p>
+If you want further context on what a logic board repair involves, see our [logic board repair service page](/logic-board-repair) and our guide to [contacting our workshop](/contact). The iFixit MacBook repair guide library gives a good sense of the technical complexity involved in these repairs and why specialist tooling matters.
 
-<h2>Frequently Asked Questions</h2>
+Frequently Asked Questions
 
-<p><strong>Q: How do I know if my MacBook needs a board repair or a full replacement?</strong><br>A: You need an assessment. Symptoms alone cannot tell you whether the fault is a single repairable component or something more extensive. Our from R599 assessment gives you a definitive answer with photographic evidence and a written quote.</p>
+**Q: How do I know if my MacBook needs a board repair or a full replacement?**A: You need an assessment. Symptoms alone cannot tell you whether the fault is a single repairable component or something more extensive. Our from R599 assessment gives you a definitive answer with photographic evidence and a written quote.
 
-<p><strong>Q: Is a repaired logic board as reliable as a new one?</strong><br>A: A board with a replaced faulty component and no other damage is highly reliable. We carry a 3-year warranty on our repair work. A fully replaced second-hand board from a third-party repairer typically carries a 3-month warranty on a component of unknown provenance — that is the relevant comparison.</p>
+**Q: Is a repaired logic board as reliable as a new one?**A: A board with a replaced faulty component and no other damage is highly reliable. We carry a 3-year warranty on our repair work. A fully replaced second-hand board from a third-party repairer typically carries a 3-month warranty on a component of unknown provenance — that is the relevant comparison.
 
-<p><strong>Q: What if I want a new MacBook but cannot afford one right now?</strong><br>A: A component repair at R4,499 – R8,500 extends the working life of your current machine by three to five years, giving you time to plan for a replacement without urgency. Many of our clients explicitly choose this path.</p>
+**Q: What if I want a new MacBook but cannot afford one right now?**A: A component repair at R4,499 – R8,500 extends the working life of your current machine by three to five years, giving you time to plan for a replacement without urgency. Many of our clients explicitly choose this path.
 
-<p><strong>Q: Do you buy MacBooks that are not worth repairing?</strong><br>A: Yes, in some cases we purchase machines for parts. If your MacBook has a fault we do not recommend repairing, we will let you know whether we are in a position to purchase it and what the offer would be.</p>
+**Q: Do you buy MacBooks that are not worth repairing?**A: Yes, in some cases we purchase machines for parts. If your MacBook has a fault we do not recommend repairing, we will let you know whether we are in a position to purchase it and what the offer would be.
 
-<p><strong>Q: How long does a component-level board repair last?</strong><br>A: The repaired component is new. The surrounding board has the same remaining lifespan it had before the fault. In practice, we see repaired machines running without issue five years after the repair. Our 3-year warranty covers the repair specifically.</p>
+**Q: How long does a component-level board repair last?**A: The repaired component is new. The surrounding board has the same remaining lifespan it had before the fault. In practice, we see repaired machines running without issue five years after the repair. Our 3-year warranty covers the repair specifically.
 
-<p><strong>Q: Can I get a same-day MacBook logic board repair in Johannesburg?</strong><br>A: For simple single-component faults, we can sometimes complete the repair on the same day or the following business day. More complex faults typically take three to five business days. We give you a realistic estimate after the assessment — not a rushed promise we cannot keep.</p>
+**Q: Can I get a same-day MacBook logic board repair in Johannesburg?**A: For simple single-component faults, we can sometimes complete the repair on the same day or the following business day. More complex faults typically take three to five business days. We give you a realistic estimate after the assessment — not a rushed promise we cannot keep.
 `,
   },
 };
@@ -37801,11 +37801,18 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
 
           <div className="mt-12 p-6 bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-2xl text-center">
-            <p className="text-[#E8F4F1] font-bold text-lg mb-2">Need a repair? Assessment: from R599.</p>
-            <p className="text-[#7A9E98] mb-4">Hyde Park, Johannesburg. Assessment: from R599 on all repairs.</p>
-            <a href="tel:0645295863" className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
-              Call 064 529 5863
-            </a>
+            <p className="text-[#E8F4F1] font-bold text-lg mb-2">Need a repair? Assessment from R599.</p>
+            <p className="text-[#7A9E98] mb-6">Hyde Park, Johannesburg. Same-day diagnostics available.</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="https://wa.me/27645295863" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.113.549 4.1 1.51 5.83L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 01-5.002-1.368l-.36-.214-3.715.97.99-3.614-.235-.372A9.808 9.808 0 012.182 12c0-5.417 4.401-9.818 9.818-9.818 5.417 0 9.818 4.401 9.818 9.818 0 5.417-4.401 9.818-9.818 9.818z"/></svg>
+                WhatsApp
+              </a>
+              <a href="/book" className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.4)] text-[#0FEA7A] px-8 py-3 rounded-xl font-bold hover:bg-[rgba(15,234,122,0.1)] transition-all">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                Book a Repair
+              </a>
+            </div>
           </div>
 
           <div className="mt-10">
