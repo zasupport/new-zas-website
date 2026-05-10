@@ -196,7 +196,7 @@ Not every iOS issue requires a repair. But if you notice these signs *after* upd
 ![ZA Support iPhone assessment — same-day diagnostics at our Hyde Park workshop](/gmb/20210112_88702b0c.webp)
 *Same-day iPhone assessments at ZA Support, Hyde Park — from R599.*
 
-**WhatsApp us on 064 529 5863 to book your diagnostic appointment.** We're based in Hyde Park, Johannesburg, and can usually see you within 24 hours.
+**[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to book your diagnostic appointment.** We're based in Hyde Park, Johannesburg, and can usually see you within 24 hours.
 
 ## The Bottom Line
 
@@ -923,7 +923,7 @@ Living in Johannesburg's climate—with occasional power surges and varying temp
 
 Beta software represents Apple's future, and staying informed about it is valuable. But there's a clear difference between healthy curiosity and unnecessary risk. If you do test betas, protect yourself with backups, avoid installing on critical devices, and know where to turn if hardware issues emerge.
 
-For Johannesburg and South African users concerned about repairs or device health, WhatsApp **064 529 5863** anytime. Whether you need a pre-beta Health Check, advice on beta compatibility, or repairs after a problem, that's what we're here for.
+For Johannesburg and South African users concerned about repairs or device health, [WhatsApp **064 529 5863**](https://wa.me/27645295863) anytime. Whether you need a pre-beta Health Check, advice on beta compatibility, or repairs after a problem, that's what we're here for.
 
 **Ready to test beta software safely?** Ensure your device is backed up, start with a Health Check if you're uncertain about your hardware, and reach out if you need support.`
 },
@@ -2423,7 +2423,7 @@ No. If you are running a current version of macOS, the update applied automatica
 
 **What if my Mac is too old to run the latest macOS?**
 
-You will not receive background security improvements. Intel Macs from 2015 onwards can typically run macOS Ventura. ZA Support can assess your specific Mac and handle the upgrade. Contact us on WhatsApp: 064 529 5863.
+You will not receive background security improvements. Intel Macs from 2015 onwards can typically run macOS Ventura. ZA Support can assess your specific Mac and handle the upgrade. Contact us on [WhatsApp: 064 529 5863](https://wa.me/27645295863).
 
 **Can I turn off background security updates?**
 
@@ -2500,7 +2500,7 @@ Our [Assessment: from R599](/no-fix-no-fee) guarantee applies fully to logic boa
 
 ## How to Book Your Logic Board Assessment
 
-The fastest way is to WhatsApp us on 064 529 5863 with your Mac model and the fault description. We will confirm a same-day or next-day appointment.
+The fastest way is to [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with your Mac model and the fault description. We will confirm a same-day or next-day appointment.
 
 You can also [book a repair online](/book) — fill in the form and we will respond within 2 hours.
 
@@ -2595,7 +2595,7 @@ If you have access to a compatible charger from a friend or colleague, try borro
 
 If your charging port has visible damage, corrosion that won't clean, or if your MacBook still refuses to charge after trying these steps, it's time to call in the experts. Port repairs or replacements typically cost between R1,500 and R3,000 depending on whether the port itself is damaged or just needs cleaning, and whether related components have been affected.
 
-**ZA Support in Hyde Park can help.** We diagnose charging issues for an assessment fee from R599, and we're honest about whether you're looking at a simple fix or a more substantial repair. If you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a collection service so you don't need to travel with your Mac. Get in touch via WhatsApp on 064 529 5863 and we'll take it from there.`,
+**ZA Support in Hyde Park can help.** We diagnose charging issues for an assessment fee from R599, and we're honest about whether you're looking at a simple fix or a more substantial repair. If you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a collection service so you don't need to travel with your Mac. Get in touch via [WhatsApp on 064 529 5863](https://wa.me/27645295863) and we'll take it from there.`,
   },
 
   'macbook-overheating-fix-johannesburg': {
@@ -2646,7 +2646,7 @@ Failed fans also require replacement. If your fan is running but your Mac is sti
 
 If your MacBook is overheating, don't ignore it. Heat damage compounds quickly and can permanently harm your machine. We're based in Hyde Park, Johannesburg, and we offer a hassle-free collection service if you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg.
 
-Get in touch via WhatsApp on 064 529 5863 to discuss what's happening with your Mac. We'll give you honest advice on whether it needs a repair or a simple clean, and we'll get you sorted quickly. Your MacBook shouldn't sound like a jet engine, and ours don't.`,
+Get in touch via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to discuss what's happening with your Mac. We'll give you honest advice on whether it needs a repair or a simple clean, and we'll get you sorted quickly. Your MacBook shouldn't sound like a jet engine, and ours don't.`,
   },
 
   'macbook-keyboard-not-working': {
@@ -2687,7 +2687,7 @@ If you're using a 2015 to 2019 MacBook, there's a strong chance your keyboard us
 
 ## Getting your MacBook repaired in Johannesburg
 
-When you're ready to sort out your keyboard, bring your MacBook to **ZA Support in Hyde Park** or use our convenient collection service. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg, so you don't need to travel if those areas are more convenient. Get in touch via WhatsApp on **064 529 5863** to arrange a collection time or book your appointment.
+When you're ready to sort out your keyboard, bring your MacBook to **ZA Support in Hyde Park** or use our convenient collection service. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg, so you don't need to travel if those areas are more convenient. Get in touch via [WhatsApp on **064 529 5863**](https://wa.me/27645295863) to arrange a collection time or book your appointment.
 
 We'll run diagnostics to pinpoint exactly what's causing your keyboard issues and provide you with repair options and pricing upfront. Most keyboard repairs can be completed within a few days, and we'll keep you updated throughout the process.
 
@@ -2738,7 +2738,7 @@ Calculate roughly what your phone is worth secondhand versus what the repair cos
 
 When you're ready to book a repair, get a proper assessment before committing to the cost. Many Johannesburg repair specialists, including ZA Support, charge a modest assessment from R599 that gives you an accurate quote based on your specific phone and damage. This removes guesswork from the process.
 
-ZA Support operates from Hyde Park and serves the broader Johannesburg area. You can reach them via WhatsApp on 064 529 5863 to discuss your situation, arrange collection from your location in Johannesburg's northern suburbs, or book an appointment. They'll give you honest advice about whether your phone is worth repairing and what the actual cost will be.
+ZA Support operates from Hyde Park and serves the broader Johannesburg area. You can reach them via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to discuss your situation, arrange collection from your location in Johannesburg's northern suburbs, or book an appointment. They'll give you honest advice about whether your phone is worth repairing and what the actual cost will be.
 
 The key is getting the repair done sooner rather than later. A cracked screen can worsen with daily use, and moisture can eventually damage internal components if the seal is broken. A quick assessment and repair will get your phone back to normal and prevent bigger problems down the line.`,
   },
@@ -2785,7 +2785,7 @@ The assessment fee is usually credited towards your final bill if you proceed wi
 
 ## Getting Professional Help in Johannesburg
 
-If you are in Johannesburg and need professional data recovery, **ZA Support** can help. We handle everything from accidental deletion to failed SSDs and water-damaged Macs. Based in Hyde Park, we also offer a collection service for clients across Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg, so you do not need to worry about transport. Simply get in touch via WhatsApp on **064 529 5863** to arrange an assessment. We will give you honest advice about whether your data can be recovered and what it will cost, so you can make an informed decision without stress.`,
+If you are in Johannesburg and need professional data recovery, **ZA Support** can help. We handle everything from accidental deletion to failed SSDs and water-damaged Macs. Based in Hyde Park, we also offer a collection service for clients across Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg, so you do not need to worry about transport. Simply get in touch via [WhatsApp on **064 529 5863**](https://wa.me/27645295863) to arrange an assessment. We will give you honest advice about whether your data can be recovered and what it will cost, so you can make an informed decision without stress.`,
   },
 
   'macbook-pro-m1-m2-repair-johannesburg': {
@@ -2832,7 +2832,7 @@ Parts availability for Apple Silicon machines is improving but can still be slow
 
 ## Get Your M1 or M2 Assessed
 
-If you're uncertain about what's wrong with your MacBook Pro, getting a professional assessment is the smart first step. ZA Support specialises in Apple Silicon repairs and can give you honest advice about whether your machine is worth fixing or whether replacement might be the better option. Contact us on WhatsApp at 064 529 5863 to arrange a collection or book your machine in at our Hyde Park location. We'll get you clear answers about what's happening with your M1 or M2.`,
+If you're uncertain about what's wrong with your MacBook Pro, getting a professional assessment is the smart first step. ZA Support specialises in Apple Silicon repairs and can give you honest advice about whether your machine is worth fixing or whether replacement might be the better option. Contact us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to arrange a collection or book your machine in at our Hyde Park location. We'll get you clear answers about what's happening with your M1 or M2.`,
   },
 
   'macbook-trackpad-not-clicking': {
@@ -2891,7 +2891,7 @@ If you've tried restarting, updating your software, and cleaning your trackpad w
 
 We serve Johannesburg and the surrounding areas, including Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. If you'd prefer not to bring your Mac in, we offer a collection service, so we can come to you.
 
-Most trackpad repairs are straightforward once properly diagnosed, and we can usually complete work quickly. Get in touch with us on WhatsApp at 064 529 5863 to discuss your issue and book an assessment.`,
+Most trackpad repairs are straightforward once properly diagnosed, and we can usually complete work quickly. Get in touch with us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to discuss your issue and book an assessment.`,
   },
 
   'apple-watch-screen-repair-johannesburg': {
@@ -2938,7 +2938,7 @@ When we complete a screen repair at ZA Support, we test the seal to ensure your 
 
 If you've got a cracked or damaged Apple Watch screen, ZA Support in Hyde Park is your local solution. We repair all Apple Watch models, from the original Series through to the latest Ultra. Our technicians work quickly without compromising quality, and we're upfront about pricing from the moment you contact us.
 
-To get started, **WhatsApp us on 064 529 5863** with a photo of your damaged screen and your watch model. We'll give you a repair estimate immediately. If you'd prefer a full assessment in person, book a time that suits you, or use our collection service if you're anywhere in northern Johannesburg. We're here to get your watch working again without the hassle or the long wait times.`,
+To get started, **[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** with a photo of your damaged screen and your watch model. We'll give you a repair estimate immediately. If you'd prefer a full assessment in person, book a time that suits you, or use our collection service if you're anywhere in northern Johannesburg. We're here to get your watch working again without the hassle or the long wait times.`,
   },
 
   'ipad-screen-repair-johannesburg-2026': {
@@ -2991,7 +2991,7 @@ If you're in Johannesburg and need your iPad screen repaired, **ZA Support** spe
 
 Our assessment process is transparent. We'll diagnose the damage, give you an honest quote, and explain what's involved in your specific repair. We source quality replacement screens and provide warranty coverage on completed work.
 
-Drop us a message on **WhatsApp at 064 529 5863** to discuss your iPad screen damage, get a quote, or arrange collection from your location. We'll get your iPad looking and functioning like new.`,
+Drop us a message on **[WhatsApp at 064 529 5863](https://wa.me/27645295863)** to discuss your iPad screen damage, get a quote, or arrange collection from your location. We'll get your iPad looking and functioning like new.`,
   },
 
   'mac-mini-repair-johannesburg': {
@@ -3040,7 +3040,7 @@ If you suspect a logic board problem, don't spend time troubleshooting on your o
 
 If your Mac Mini is experiencing any of these issues, start with a professional assessment. ZA Support is based in Hyde Park, Johannesburg, and offers diagnostics from R599 to identify exactly what's wrong. We serve the wider Johannesburg area, including Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg, and we offer a collection service if you'd prefer not to transport your Mac Mini yourself.
 
-Whether you need a simple RAM upgrade, SSD replacement, power supply fix, or logic board repair, we can guide you through your options and help you get back to productive work. Contact us via WhatsApp on 064 529 5863 to discuss your Mac Mini, or visit us in store for a hands-on look at what's needed.`,
+Whether you need a simple RAM upgrade, SSD replacement, power supply fix, or logic board repair, we can guide you through your options and help you get back to productive work. Contact us via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to discuss your Mac Mini, or visit us in store for a hands-on look at what's needed.`,
   },
 
   'how-to-check-macbook-battery-health': {
@@ -3093,7 +3093,7 @@ The difference between these two numbers grows naturally over time. Lithium batt
 
 If your condition shows **Replace Now** or **Service Recommended**, it's time to come in. You don't need to wait until your battery completely dies, and continuing to use a degraded battery can sometimes cause further issues.
 
-For readers in the Johannesburg area, **ZA Support** in Hyde Park can handle your battery replacement. We offer a full battery service for most MacBook models, with pricing from R599 for an assessment. If you're based in surrounding areas like Sandton, Rosebank, Fourways, or Midrand, we also offer a collection service, so you don't need to bring your machine to us. Just give us a WhatsApp on **064 529 5863** to arrange a time.
+For readers in the Johannesburg area, **ZA Support** in Hyde Park can handle your battery replacement. We offer a full battery service for most MacBook models, with pricing from R599 for an assessment. If you're based in surrounding areas like Sandton, Rosebank, Fourways, or Midrand, we also offer a collection service, so you don't need to bring your machine to us. Just give us a [WhatsApp on **064 529 5863**](https://wa.me/27645295863) to arrange a time.
 
 Battery replacement is one of the most common MacBook repairs, and it's usually straightforward. Our team can have your machine back to you with a fresh battery and performance to match.
 
@@ -3146,7 +3146,7 @@ If the screen remains black after trying the SMC and NVRAM resets, it's time to 
 
 The team at **ZA Support** in Hyde Park can run a complete diagnostic from just R599, which is often less than you'd pay for a replacement cable that might not even be the problem. We see this issue regularly and can usually identify the cause within a few minutes. If you're in Johannesburg or the surrounding areas, like Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we also offer a **collection service**, so you don't even need to bring your MacBook in yourself.
 
-A **black screen on startup** feels serious, but it often isn't. Start with the free resets at home, and if those don't work, get a professional opinion quickly. The longer you wait, the more you risk using a machine that might have minor damage that could worsen. Get in touch with ZA Support via WhatsApp on 064 529 5863 to arrange a diagnostic appointment today.`,
+A **black screen on startup** feels serious, but it often isn't. Start with the free resets at home, and if those don't work, get a professional opinion quickly. The longer you wait, the more you risk using a machine that might have minor damage that could worsen. Get in touch with ZA Support via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to arrange a diagnostic appointment today.`,
   },
 
   'liquid-damage-macbook-johannesburg-cost': {
@@ -3195,7 +3195,7 @@ If your MacBook has just been exposed to liquid, switch it off immediately if it
 
 If you're in the Johannesburg area and need an honest assessment of your liquid damage repair costs, ZA Support is here to help. We're based in Hyde Park and offer a collection service if you're in surrounding areas like Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, so you don't have to worry about getting your damaged MacBook to us.
 
-Contact us on WhatsApp at 064 529 5863 to arrange your assessment. We'll give you a clear picture of what's happened and exactly what the repair will cost before we proceed with any work.`,
+Contact us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to arrange your assessment. We'll give you a clear picture of what's happened and exactly what the repair will cost before we proceed with any work.`,
   },
 
   'when-to-replace-vs-repair-macbook': {
@@ -3250,7 +3250,7 @@ Also consider replacement if you find yourself frustrated with performance regul
 
 The decision between repair and replacement isn't always obvious, which is why getting professional advice matters. When you're in Johannesburg and facing this choice, bring your MacBook to ZA Support in Hyde Park for a proper assessment. We'll tell you exactly what's wrong and what it costs to fix, and we'll give you honest advice about whether repair or replacement makes sense for your situation.
 
-If you're in areas like Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a collection service, so you don't need to bring it in yourself. Get in touch on WhatsApp at 064 529 5863 to arrange a diagnostic appointment. Once you know the real costs and options, making the right decision becomes much easier.`,
+If you're in areas like Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a collection service, so you don't need to bring it in yourself. Get in touch on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to arrange a diagnostic appointment. Once you know the real costs and options, making the right decision becomes much easier.`,
   },
 
   'macbook-ssd-upgrade-johannesburg': {
@@ -3295,7 +3295,7 @@ Many people worry about losing their files during an upgrade. The good news is t
 
 If you've decided an SSD upgrade is right for your MacBook, ZA Support is here to help. We've installed hundreds of new drives in older MacBooks and can advise you on whether your specific model qualifies. If it does, we'll provide a fixed quote before proceeding, handle the installation professionally, and make sure your data is safe throughout the process.
 
-We offer collection and drop-off services too, so if you're based in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we can collect your MacBook at a time that suits you. Simply WhatsApp us on 064 529 5863 with your MacBook model and serial number, and we'll confirm whether an upgrade is possible and provide a quote. Our team in Hyde Park, Johannesburg is ready to get your Mac running like new again.`,
+We offer collection and drop-off services too, so if you're based in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we can collect your MacBook at a time that suits you. Simply [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with your MacBook model and serial number, and we'll confirm whether an upgrade is possible and provide a quote. Our team in Hyde Park, Johannesburg is ready to get your Mac running like new again.`,
   },
 
   'imac-repair-johannesburg': {
@@ -3350,7 +3350,7 @@ Here's the practical truth: if your iMac is under six years old and the repair c
 
 If you're in Johannesburg and unsure what's wrong with your iMac, an honest assessment is the first step. We charge from R599 for a full diagnosis, and we'll tell you exactly what's broken and whether repair or replacement makes sense for your situation.
 
-We're based in Hyde Park and we offer a collection service if you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg. Get in touch on WhatsApp at 064 529 5863 and we'll walk you through your options.`,
+We're based in Hyde Park and we offer a collection service if you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg. Get in touch on [WhatsApp at 064 529 5863](https://wa.me/27645295863) and we'll walk you through your options.`,
   },
 
   'macbook-speaker-not-working': {
@@ -3393,7 +3393,7 @@ If you've worked through all these steps and your MacBook speakers still aren't 
 
 At **ZA Support in Hyde Park**, we diagnose and repair MacBook audio problems regularly. Our assessment fee starts from **R599**, and we can often identify the exact issue within an hour. If you're across the wider Johannesburg area, we offer a **collection service** for clients in Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg, so you don't need to travel with your MacBook.
 
-If you've completed these troubleshooting steps without success, it's time to get professional eyes on your device. **WhatsApp us on 064 529 5863** to book an assessment or arrange a collection. We'll get you back to enjoying your MacBook with sound again.`,
+If you've completed these troubleshooting steps without success, it's time to get professional eyes on your device. **[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** to book an assessment or arrange a collection. We'll get you back to enjoying your MacBook with sound again.`,
   },
 
   'airpods-repair-johannesburg': {
@@ -3442,7 +3442,7 @@ If the case battery has failed, replacement is usually the most practical soluti
 
 Not every AirPods issue needs a professional, but knowing exactly what's wrong before you decide whether to repair or replace is sensible. ZA Support offers **AirPods assessments from R599**, which gives you a clear diagnosis and repair quote before you commit to anything.
 
-We're located in Hyde Park and serve the greater Johannesburg area. If you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a collection service, so you don't even need to make a trip. Get in touch via WhatsApp on 064 529 5863 to arrange a collection or book an appointment. Most AirPods repairs can be completed within 24 hours, so you'll be back to your music quickly.`,
+We're located in Hyde Park and serve the greater Johannesburg area. If you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a collection service, so you don't even need to make a trip. Get in touch via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to arrange a collection or book an appointment. Most AirPods repairs can be completed within 24 hours, so you'll be back to your music quickly.`,
   },
 
   'macbook-wifi-keeps-disconnecting': {
@@ -3497,7 +3497,7 @@ MacBook Wi-Fi cards cost between R1,500 and R3,500 depending on your model, plus
 
 If you've tried the software fixes above without success, the next step is a proper diagnosis. At **ZA Support in Hyde Park, Johannesburg**, we can run a full diagnostic on your MacBook to identify whether it's a software issue or a hardware problem like a failing Wi-Fi card. Our assessment fee starts from R599, and we'll give you honest advice about whether repair is worth it for your model.
 
-If you're based in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we also offer a collection service, so you don't have to bring your MacBook in yourself. Get in touch via WhatsApp on 064 529 5863 to arrange a time that suits you.
+If you're based in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we also offer a collection service, so you don't have to bring your MacBook in yourself. Get in touch via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to arrange a time that suits you.
 
 A MacBook that keeps disconnecting is annoying, but it's usually fixable. Whether it's a quick settings change or a Wi-Fi card replacement, we're here to help.`,
   },
@@ -3556,7 +3556,7 @@ Logic board repair is not a DIY task. You cannot fix a failed logic board at hom
 
 If you're in Johannesburg and your MacBook shows any of these warning signs, **ZA Support can help**. We offer **logic board diagnostics and repair** with an assessment fee starting from R599. We understand how frustrating this situation is, especially when you rely on your MacBook for work or study.
 
-Better yet, if you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a **collection service**. Simply WhatsApp us at **064 529 5863**, and we'll collect your MacBook, diagnose the issue, and get you a quote without the hassle of travelling to Hyde Park.
+Better yet, if you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a **collection service**. Simply [WhatsApp us at **064 529 5863**](https://wa.me/27645295863), and we'll collect your MacBook, diagnose the issue, and get you a quote without the hassle of travelling to Hyde Park.
 
 Don't wait until your logic board completely fails. If you're experiencing any of these warning signs, reach out to us today. Early diagnosis can sometimes make the difference between repair and replacement.`,
   },
@@ -3620,7 +3620,7 @@ Why haven't more people heard of us? Partly because we don't advertise heavily. 
 
 ## Getting Your Device Assessed
 
-Start with a WhatsApp message to 064 529 5863. Include your device model, what's happening (won't turn on, kernel panics, won't charge), and whether there's been any liquid exposure. We'll advise on next steps and book you a slot.
+Start with a [WhatsApp message to 064 529 5863](https://wa.me/27645295863). Include your device model, what's happening (won't turn on, kernel panics, won't charge), and whether there's been any liquid exposure. We'll advise on next steps and book you a slot.
 
 Alternatively, visit [zasupport.com/book](https://www.zasupport.com/book) to check our schedule directly. We're open Monday to Friday, 8am to 5pm, Saturday 9am to 1pm.
 
@@ -3797,7 +3797,7 @@ We guarantee diagnosis results within business hours of delivery. You'll receive
 
 For urgent situations—client presentations, work deadlines—we offer expedited repair from 6–18 hours on most common faults. Our Hyde Park workshop has redundant testing equipment and specialist technicians available for priority cases.
 
-**Contact us today via WhatsApp: 064 529 5863 or visit [our booking system](https://zasupport.com/book) to schedule your assessment.**
+**Contact us today via [WhatsApp: 064 529 5863](https://wa.me/27645295863) or visit [our booking system](https://zasupport.com/book) to schedule your assessment.**
 
 ## Frequently Asked Questions
 
@@ -3902,7 +3902,7 @@ When liquid enters your MacBook, it doesn't just sit on the logic board. It migr
 
 We've attended to MacBooks that owners left sitting for weeks, hoping the damage would resolve itself. The result? Irreversible corrosion that spreads like rust through a chain. Every hour of delay increases the likelihood of permanent failure.
 
-The moment water touches your device, stop what you're doing. Don't turn it on. Don't charge it. Don't attempt the rice trick. Instead, contact us immediately at 064 529 5863 via WhatsApp, or visit our booking page at zasupport.com/book. Our diagnostic assessment starts from just R599—and if we cannot repair your device, you pay nothing.
+The moment water touches your device, stop what you're doing. Don't turn it on. Don't charge it. Don't attempt the rice trick. Instead, contact us immediately at [064 529 5863](https://wa.me/27645295863) via WhatsApp, or visit our booking page at zasupport.com/book. Our diagnostic assessment starts from just R599—and if we cannot repair your device, you pay nothing.
 
 ## Professional Ultrasonic Cleaning: The Correct Approach
 
@@ -4256,7 +4256,7 @@ We're also realistic about load shedding constraints in Johannesburg. We've buil
 
 ## Get Your MacBook Fixed Today
 
-If your keyboard isn't working, **[book your R599 diagnostic today](https://zasupport.com/book)**. Alternatively, message us on WhatsApp at **064 529 5863**—we'll often chat through your issue and let you know what we suspect before you even visit the workshop.
+If your keyboard isn't working, **[book your R599 diagnostic today](https://zasupport.com/book)**. Alternatively, message us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863)—we'll often chat through your issue and let you know what we suspect before you even visit the workshop.
 
 Your MacBook keyboard failure is almost certainly fixable. Let's get you typing again.
 
@@ -4416,7 +4416,7 @@ However, if your screen shows:
 
 ## Booking Your MacBook Screen Replacement
 
-We're located in **Hyde Park, Johannesburg**, and you can book via [**zasupport.com/book**](https://zasupport.com/book) or WhatsApp **064 529 5863**. Include your MacBook model (find this under Apple menu > About This Mac) and a photo of the damage if possible.
+We're located in **Hyde Park, Johannesburg**, and you can book via [**zasupport.com/book**](https://zasupport.com/book) or [WhatsApp **064 529 5863**](https://wa.me/27645295863). Include your MacBook model (find this under Apple menu > About This Mac) and a photo of the damage if possible.
 
 Our opening hours accommodate load-shedding schedules—we maintain backup power to complete repairs even during Stage 6 cuts. Collection typically happens within 3–5 business days, sometimes sooner for in-stock panels.
 
@@ -4557,7 +4557,7 @@ If your battery is fine but your Mac is slow, the problem lies elsewhere. We off
 
 ## Getting Your Mac Battery Replaced Today
 
-Book your assessment online at [zasupport.com/book](https://zasupport.com/book) or WhatsApp us on 064 529 5863. We're based in Hyde Park, Johannesburg, and we serve clients across the northern suburbs.
+Book your assessment online at [zasupport.com/book](https://zasupport.com/book) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863). We're based in Hyde Park, Johannesburg, and we serve clients across the northern suburbs.
 
 Bring your power adapter and any passwords you use for your Mac. We'll run diagnostics, explain exactly what we've found, and quote you a fixed price before we touch anything. If you're worried about data, we can discuss backup options with you—we're POPIA compliant and your privacy is protected.
 
@@ -4650,7 +4650,7 @@ In most cases, yes. A failed battery won't erase your data—it just won't power
 }
 \`\`\`
 
-**Ready to restore your Mac? Book your battery assessment at [zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp: 064 529 5863. We're in Hyde Park, Johannesburg—serving you with genuine expertise and transparent pricing.**`,
+**Ready to restore your Mac? Book your battery assessment at [zasupport.com/book](https://zasupport.com/book) or message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863). We're in Hyde Park, Johannesburg—serving you with genuine expertise and transparent pricing.**`,
   },
   'iphone-screen-repair-johannesburg': {
     slug: 'iphone-screen-repair-johannesburg',
@@ -4733,7 +4733,7 @@ We can handle all three in one visit.
 Ready to get your phone fixed today?
 
 **Contact us now:**
-- **WhatsApp**: 064 529 5863 (fastest response)
+- [**WhatsApp**: 064 529 5863](https://wa.me/27645295863) (fastest response)
 - **Booking portal**: [zasupport.com/book](https://zasupport.com/book)
 - **Location**: ZA Support, Hyde Park, Johannesburg
 
@@ -4886,7 +4886,7 @@ The entire process is covered by our 12-month warranty, and we provide transpare
 
 If you don't have AppleCare+ and your device insurance doesn't cover the damage, you have clear options:
 
-**Option 1: Use ZA Support's From R599 assessment guarantee.** We assess your MacBook, provide a transparent quote, and only charge if we successfully repair it. Call us on 064 529 5863 or book online at zasupport.com/book.
+**Option 1: Use ZA Support's From R599 assessment guarantee.** We assess your MacBook, provide a transparent quote, and only charge if we successfully repair it. [Call us on 064 529 5863](https://wa.me/27645295863) or book online at zasupport.com/book.
 
 **Option 2: Contact Apple directly.** They may offer out-of-warranty repair, but expect to pay R15,000–R70,000 for board replacement or full device replacement costs.
 
@@ -5060,7 +5060,7 @@ Our team has invested in proper tools for this work: ultrasonic cleaners to remo
 
 If you take your MacBook to an Apple Store, they'll likely replace the entire logic board. That's effective but expensive—typically R15,000 to R70,000 depending on your model. We've had clients quote Apple Store prices and choose our service instead. We can often repair the existing board for significantly less, from R4,499 for straightforward corrosion cleanup to R8,500 for component replacement.
 
-We're located in Hyde Park, Johannesburg, and we offer convenient booking through [zasupport.com/book](https://zasupport.com/book) or WhatsApp: **064 529 5863**.
+We're located in Hyde Park, Johannesburg, and we offer convenient booking through [zasupport.com/book](https://zasupport.com/book) or [WhatsApp: **064 529 5863**](https://wa.me/27645295863).
 
 ## Real Repair Scenarios from Our Workshop
 
@@ -5169,7 +5169,7 @@ A: No. AppleCare+ and standard warranty don't cover accidental liquid damage. Th
 
 **Your MacBook's survival depends on what you do in the next 24 hours.** Don't gamble on a machine that seems fine. Book a [R599 assessment at ZA Support today](https://zasupport.com/contact).
 
-**Hyde Park Workshop | WhatsApp: 064 529 5863 | Book online: [zasupport.com/book](https://zasupport.com/book)**`,
+**Hyde Park Workshop | [WhatsApp: 064 529 5863](https://wa.me/27645295863) | Book online: [zasupport.com/book](https://zasupport.com/book)**`,
   },
   'laptop-water-damage-repair-vs-buy-new-south-africa': {
     slug: 'laptop-water-damage-repair-vs-buy-new-south-africa',
@@ -5247,7 +5247,7 @@ Visit our Hyde Park Johannesburg workshop or [book an assessment from R599 onlin
 
 The data says this clearly: 85 per cent of water-damaged laptops that reach us within 48 hours recover fully. Your device is likely repairable. The only question is whether repair costs justify the benefit—and with actual numbers from a professional diagnostic, you can answer that with confidence rather than assumption.
 
-**WhatsApp us:** 064 529 5863 | **Book your assessment:** zasupport.com/book
+[**WhatsApp us:** 064 529 5863](https://wa.me/27645295863) | **Book your assessment:** zasupport.com/book
 
 ---
 
@@ -5420,7 +5420,7 @@ For comparison, [Apple Support](https://support.apple.com) and authorised retail
 
 If your MacBook won't turn on, charges erratically, or was exposed to liquid, contact us for an assessment from R599:
 
-**WhatsApp: 064 529 5863**  
+[**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863)  
 **Book online: zasupport.com/book**  
 **Visit us: Hyde Park, Johannesburg**
 
@@ -5589,7 +5589,7 @@ If the logic board is beyond our scope but the SSD is intact, we'll refer you to
 
 The timeline varies. Simple power circuit repairs might take 2-3 working days. More complex microsoldering work takes 5-7 days. Specialist NAND recovery can take 1-2 weeks.
 
-We prioritise water-damaged devices because we understand the urgency. If you need faster turnaround, [contact us via WhatsApp on 064 529 5863](https://wa.me/27645295863) and we'll discuss options.
+We prioritise water-damaged devices because we understand the urgency. If you need faster turnaround, [contact us via [WhatsApp on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) and we'll discuss options.
 
 ## Next Steps After Water Damage
 
@@ -5788,7 +5788,7 @@ We had a client wait three weeks after water damage, hoping it would dry out. By
 
 Our assessment costs just R599 if you do decide to proceed with repairs, and we offer up to a 12-month warranty on [liquid damage repairs](/liquid-damage). We've successfully recovered data and restored functionality to machines other workshops said were beyond repair.
 
-If you're uncertain whether your MacBook has water damage, or if you've already attempted a DIY fix, contact us today on 064 529 5863 via WhatsApp or [book an appointment](https://zasupport.com/book).
+If you're uncertain whether your MacBook has water damage, or if you've already attempted a DIY fix, contact us today on [064 529 5863](https://wa.me/27645295863) via WhatsApp or [book an appointment](https://zasupport.com/book).
 
 ## Frequently Asked Questions
 
@@ -5877,7 +5877,7 @@ If we assess your MacBook and determine it can't be repaired, you don't pay. Our
 
 ---
 
-**Need urgent help with water damage?** Message us on WhatsApp: **064 529 5863** or [book your assessment](https://zasupport.com/book). We're open Monday to Saturday, Hyde Park Johannesburg.`,
+**Need urgent help with water damage?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or [book your assessment](https://zasupport.com/book). We're open Monday to Saturday, Hyde Park Johannesburg.`,
   },
   'macbook-water-damage-repair-cost-south-africa': {
     slug: 'macbook-water-damage-repair-cost-south-africa',
@@ -5940,7 +5940,7 @@ The first 48 hours matter more than anything else. If your MacBook has just been
 
 1. **Power off immediately.** Don't restart it. Don't check if it still works. Power down now.
 2. **Don't charge it.** Resist the urge. Electricity plus liquid equals component failure.
-3. **Contact us for urgent assessment.** We can often see you same-day in Hyde Park. Call or WhatsApp **064 529 5863** or book online at **zasupport.com/book**.
+3. **Contact us for urgent assessment.** We can often see you same-day in Hyde Park. Call or [WhatsApp **064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**.
 4. **Keep it dry.** Don't open the chassis yourself. Don't use a hair dryer (heat spreads liquid internally). Just leave it powered off.
 
 The faster we get it to our workbench, the better. We've had MacBooks sitting powered-off for weeks, then cleaned and repaired successfully because the liquid never had time to corrode the solder joints on critical components. We use isopropyl alcohol 99% to flush the logic board safely, then our ultrasonic cleaner for detailed work.
@@ -6060,7 +6060,7 @@ Yes. M-series logic boards are more complex, but we've invested in precision equ
 
 Stop worrying about water damage costs. Contact ZA Support in Hyde Park today.
 
-**WhatsApp us:** 064 529 5863  
+[**WhatsApp us:** 064 529 5863](https://wa.me/27645295863)  
 **Book online:** [zasupport.com/book](https://zasupport.com/book)  
 **Assessment from R599** with From R599 assessment guarantee.
 
@@ -6165,7 +6165,7 @@ At ZA Support in Hyde Park, we stand behind our work. Our standard repair warran
 
 This matters because water damage repairs are complex. We use specialist equipment—ultrasonic cleaners, flux, hot air rework stations, and isopropyl alcohol 99%—to remove corrosion without damaging micro-circuitry. An Apple Store may quote R15,000–R70,000 for board-level repair. We deliver the same results from R4,499, with quicker turnaround and local expertise specific to SA humidity and power issues.
 
-If your MacBook does suffer water damage, contact us via WhatsApp on 064 529 5863 or book an appointment at zasupport.com/book. We offer same-day diagnostics and can usually confirm repairability within 24 hours.
+If your MacBook does suffer water damage, contact us via [WhatsApp on 064 529 5863](https://wa.me/27645295863) or book an appointment at zasupport.com/book. We offer same-day diagnostics and can usually confirm repairability within 24 hours.
 
 ---
 
@@ -6252,7 +6252,7 @@ Turnaround is typically 3–5 working days depending on component availability. 
 
 **Need help protecting your MacBook or dealing with existing water damage?** Contact ZA Support in Hyde Park, Johannesburg.
 
-[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book) for your R599 assessment. We offer From R599 assessment guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
+[[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book) for your R599 assessment. We offer From R599 assessment guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
   },
   'signs-of-water-damage-macbook-how-to-tell': {
     slug: 'signs-of-water-damage-macbook-how-to-tell',
@@ -6368,7 +6368,7 @@ Indirectly, yes. If your MacBook suffered liquid damage and you haven't yet had 
 
 If you've identified any of these signs—a red Liquid Contact Indicator, discolouration around the keyboard, or unexplained performance issues—don't wait for failure. Contact ZA Support today.
 
-**Book your assessment:** zasupport.com/book or WhatsApp us on **064 529 5863**
+**Book your assessment:** zasupport.com/book or [WhatsApp us on **064 529 5863**](https://wa.me/27645295863)
 
 We're located in Hyde Park, Johannesburg. Our R599 comprehensive assessment covers LCI inspection, logic board examination, component testing, and a detailed repair quote. From there, you'll know exactly what's needed and how much it costs—no surprises, no pressure.
 
@@ -6547,7 +6547,7 @@ It sounds obvious, but keep liquids away from your workspace when your MacBook i
 
 Consider a separate coffee table or mug holder at arm's length from your desk, not immediately next to your keyboard. A spill is often a matter of millimetres of carelessness—an elbow bump, a moment's distraction.
 
-If you do spill something, remember: closed lid, power off, call us. We're in Hyde Park, and we can typically get you in for an assessment from R599 within 24 hours. WhatsApp us on 064 529 5863 or [book online at zasupport.com/book](https://zasupport.com/book).
+If you do spill something, remember: closed lid, power off, call us. We're in Hyde Park, and we can typically get you in for an assessment from R599 within 24 hours. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book).
 
 ---
 
@@ -6638,7 +6638,7 @@ We don't charge for diagnostics. If after a full assessment we determine your Ma
 
 ---
 
-**Your next steps:** Power off your MacBook, close the lid, and get it to us. WhatsApp **064 529 5863** or [book your assessment at zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, Johannesburg, and we'll give you honest feedback about whether your machine is salvageable—from R599 if we can't repair it.`,
+**Your next steps:** Power off your MacBook, close the lid, and get it to us. [WhatsApp **064 529 5863**](https://wa.me/27645295863) or [book your assessment at zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, Johannesburg, and we'll give you honest feedback about whether your machine is salvageable—from R599 if we can't repair it.`,
   },
   'can-water-damaged-macbook-be-repaired-south-africa': {
     slug: 'can-water-damaged-macbook-be-repaired-south-africa',
@@ -6691,7 +6691,7 @@ We've analysed our repair data across hundreds of cases. Here's what we actually
 
 This isn't scare mongering. It's chemistry. Copper oxidises continuously. Each day you wait, the damage compounds.
 
-If your MacBook has water damage, here's our recommendation: power it off immediately, don't attempt to dry it, and contact us today on WhatsApp at 064 529 5863. Even a conversation takes minutes but could save your machine.
+If your MacBook has water damage, here's our recommendation: power it off immediately, don't attempt to dry it, and contact us today on [WhatsApp at 064 529 5863](https://wa.me/27645295863). Even a conversation takes minutes but could save your machine.
 
 ## [Liquid Damage Repair](/liquid-damage): What's Actually Involved
 
@@ -6715,7 +6715,7 @@ The only sensible DIY step is: power off your machine immediately, don't plug it
 
 [Contact ZA Support](/contact) today for your R599 professional assessment. We're located in Hyde Park, Johannesburg, and we can often turnaround water-damaged repairs within 5–7 working days.
 
-You can book online at zasupport.com/book or message us directly on WhatsApp: 064 529 5863.
+You can book online at zasupport.com/book or message us directly on [WhatsApp: 064 529 5863](https://wa.me/27645295863).
 
 We handle all MacBook models from the last 10 years, and we source genuine parts where required. Every repair includes our standard warranty terms, and water damage assessments are non-obligatory—walk away without commitment if you'd prefer to pursue other options.
 
@@ -6856,7 +6856,7 @@ We're based in Hyde Park, accessible from Sandton, Rosebank, and across Johannes
 
 Our repairs come with warranties up to three years, depending on the work performed. We provide detailed documentation of what was replaced, cleaned, and tested. We're POPIA compliant, which means your device and data handling follows South African privacy law.
 
-If you need to contact us about water damage, WhatsApp us on 064 529 5863 or book a slot at [zasupport.com/book](https://zasupport.com/book). We usually have same-day assessment available for walk-ins.
+If you need to contact us about water damage, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or book a slot at [zasupport.com/book](https://zasupport.com/book). We usually have same-day assessment available for walk-ins.
 
 For more information on our broader [logic board repair services](/logic-board-repair), or if you'd like to understand more about [liquid damage specifically](/liquid-damage), those pages have additional detail.
 
@@ -7013,7 +7013,7 @@ The cost difference is significant. Apple's liquid damage repair quotes often ex
 
 Act fast. Every hour matters. Power down the device and disconnect all peripherals. Do not attempt to dry it with heat—this accelerates corrosion. Do not open the chassis yourself; you'll damage delicate components and void any repair option.
 
-Contact us for an assessment. WhatsApp 064 529 5863 or visit [zasupport.com/book](https://zasupport.com/book) to schedule a workshop visit. We're in Hyde Park, conveniently located for Johannesburg. Within two hours of inspection, we'll provide a full diagnostic, explain what the LCI shows, confirm whether corrosion is present, and quote a fixed repair cost. No surprises.
+Contact us for an assessment. [WhatsApp 064 529 5863](https://wa.me/27645295863) or visit [zasupport.com/book](https://zasupport.com/book) to schedule a workshop visit. We're in Hyde Park, conveniently located for Johannesburg. Within two hours of inspection, we'll provide a full diagnostic, explain what the LCI shows, confirm whether corrosion is present, and quote a fixed repair cost. No surprises.
 
 You can also review [Apple's official liquid damage guidelines](https://support.apple.com/en-za/HT201300) for additional technical details.
 
@@ -7163,7 +7163,7 @@ Load shedding is another issue. We maintain battery backup systems and comply wi
 
 ## How Our Hyde Park Location Serves Greater Johannesburg
 
-ZA Support is based in Hyde Park, making us accessible from Sandton, Midrand, Bryanston, Randburg, and the surrounding suburbs. Same-day assessment is available for walk-in appointments, and we offer **WhatsApp quotations** (064 529 5863) for clients who'd prefer an estimate before bringing their device in.
+ZA Support is based in Hyde Park, making us accessible from Sandton, Midrand, Bryanston, Randburg, and the surrounding suburbs. Same-day assessment is available for walk-in appointments, and we offer **WhatsApp quotations** ([064 529 5863](https://wa.me/27645295863)) for clients who'd prefer an estimate before bringing their device in.
 
 We also service corporate accounts in the Johannesburg CBD. Several law firms and accounting practices have standing agreements with us for urgent liquid damage repairs—because losing a MacBook Pro for a week impacts business operations.
 
@@ -7188,7 +7188,7 @@ A: AppleCare doesn't cover liquid damage regardless of LCI status, but the pink 
 
 ### Q: How long does coffee spill repair take at ZA Support?
 
-A: Assessment (R599) takes 45 minutes. Ultrasonic cleaning and component diagnosis takes 2 to 3 business days. Component replacement or logic board installation adds 1 to 2 days. Expedited service is available for an additional fee; contact us via WhatsApp (064 529 5863) for same-day turnaround options.
+A: Assessment (R599) takes 45 minutes. Ultrasonic cleaning and component diagnosis takes 2 to 3 business days. Component replacement or logic board installation adds 1 to 2 days. Expedited service is available for an additional fee; contact us via [WhatsApp (064 529 5863)](https://wa.me/27645295863) for same-day turnaround options.
 
 ### Q: Will you replace my logic board if ultrasonic cleaning doesn't work?
 
@@ -7230,7 +7230,7 @@ A: Contact us on **064 529 5863** for quotations and urgent repairs. Online book
       "name": "How long does coffee spill repair take at ZA Support?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Assessment (R599) takes 45 minutes. Ultrasonic cleaning and component diagnosis takes 2 to 3 business days. Component replacement or logic board installation adds 1 to 2 days. Expedited service is available for an additional fee; contact us via WhatsApp (064 529 5863) for same-day turnaround options."
+        "text": "Assessment (R599) takes 45 minutes. Ultrasonic cleaning and component diagnosis takes 2 to 3 business days. Component replacement or logic board installation adds 1 to 2 days. Expedited service is available for an additional fee; contact us via [WhatsApp (064 529 5863)](https://wa.me/27645295863) for same-day turnaround options."
       }
     },
     {
@@ -7345,7 +7345,7 @@ Most importantly: never eat or drink directly above your keyboard. This sounds o
 
 If your MacBook has been exposed to liquid, contact us today. The sooner we assess it, the better your chances of a full recovery with minimal cost.
 
-**WhatsApp us on 064 529 5863** with photos of the damage, or **book an appointment at zasupport.com/book** for a convenient time.
+**[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** with photos of the damage, or **book an appointment at zasupport.com/book** for a convenient time.
 
 We're located in Hyde Park, Johannesburg, and we've repaired water-damaged MacBooks from across Gauteng. Bring your device, your charger, and any relevant information about what liquid spilled and when. We'll take it from there.
 
@@ -7494,7 +7494,7 @@ A board-level repair, done properly once, is genuinely permanent. We use lead-fr
 
 ## How to Get Your MacBook Charging Port Repaired at ZA Support
 
-**Step one**: Contact us on WhatsApp at **064 529 5863** or visit **zasupport.com/book** to arrange an appointment in our Hyde Park workshop. We're open Monday to Friday, 8am–5pm.
+**Step one**: Contact us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to arrange an appointment in our Hyde Park workshop. We're open Monday to Friday, 8am–5pm.
 
 **Step two**: Bring your MacBook and power adapter. We'll perform a comprehensive R599 assessment including visual inspection, multimeter testing of the port, and a logic board check under magnification. You'll know exactly what you need and what it will cost before we start any work.
 
@@ -7589,7 +7589,7 @@ MagSafe failures are usually cable-based rather than port-based. We can replace 
 }
 \`\`\`
 
-**Ready to fix your MacBook's charging issue?** Contact ZA Support in Hyde Park, Johannesburg. Message us on **WhatsApp: 064 529 5863** or book online at **zasupport.com/book**. From R599 assessment. Professional diagnosis from R599.`,
+**Ready to fix your MacBook's charging issue?** Contact ZA Support in Hyde Park, Johannesburg. Message us on [**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863) or book online at **zasupport.com/book**. From R599 assessment. Professional diagnosis from R599.`,
   },
   'macbook-pro-m1-logic-board-repair': {
     slug: 'macbook-pro-m1-logic-board-repair',
@@ -7644,7 +7644,7 @@ Johannesburg's climate can be harsh on electronics. Heat, humidity in summer, an
 
 ## Booking Your M1 Logic Board Assessment
 
-Ready to get your MacBook Pro M1 running again? Start with our R599 comprehensive assessment. Visit our booking page at [zasupport.com/book](https://zasupport.com/book) to reserve your slot, or message us directly on WhatsApp at 064 529 5863. We typically diagnose and provide a quote within 24 hours.
+Ready to get your MacBook Pro M1 running again? Start with our R599 comprehensive assessment. Visit our booking page at [zasupport.com/book](https://zasupport.com/book) to reserve your slot, or message us directly on [WhatsApp at 064 529 5863](https://wa.me/27645295863). We typically diagnose and provide a quote within 24 hours.
 
 Our workshop is located in Hyde Park, Johannesburg, and we welcome appointments throughout the week. If you prefer, we can also arrange courier pickup for clients across South Africa—simply let us know when you contact us.
 
@@ -7795,7 +7795,7 @@ You can attempt basic troubleshooting yourself. Restart your MacBook. Run the la
 
 If these steps fail, contact us. Professional diagnosis clarifies whether the problem is software-based (fixable via remote support) or hardware-based (requiring in-workshop repair). Our technicians have access to service manuals, calibration tools, and replacement parts that simply aren't available to home users.
 
-We're located in Hyde Park, Johannesburg, and offer same-day appointments most weekdays. Booking takes sixty seconds via our website at [zasupport.com/book](https://zasupport.com/book), or ring 064 529 5863 on WhatsApp.
+We're located in Hyde Park, Johannesburg, and offer same-day appointments most weekdays. Booking takes sixty seconds via our website at [zasupport.com/book](https://zasupport.com/book), or ring [064 529 5863](https://wa.me/27645295863) on WhatsApp.
 
 Common related issues include [logic board repair](/logic-board-repair) when battery swelling has caused solder damage, and [keyboard replacement](/logic-board-repair) if liquid has affected both input devices. We handle all of these under one roof.
 
@@ -8017,7 +8017,7 @@ Yes. Apple and AASPs frequently decline liquid damage repairs or quote full-unit
 
 ### How much does a Mac assessment cost at ZA Support?
 
-Our diagnostic assessment is R599. This covers a full hardware inspection including logic board testing, battery health analysis, and identification of all faults. If you proceed with the repair, the R599 is deducted from your final bill. If we cannot repair the device, you only pay the assessment fee. Book yours at [064 529 5863](tel:+27645295863) or via [WhatsApp](https://wa.me/27645295863).
+Our diagnostic assessment is R599. This covers a full hardware inspection including logic board testing, battery health analysis, and identification of all faults. If you proceed with the repair, the R599 is deducted from your final bill. If we cannot repair the device, you only pay the assessment fee. Book yours at [064 529 5863](https://wa.me/27645295863) or via [WhatsApp](https://wa.me/27645295863).
 
 \`\`\`json
 {
@@ -8338,7 +8338,7 @@ From R599 assessment applies if we accept the repair and cannot complete it succ
 
 Every repair carries a minimum 12-month warranty on parts and labour. For logic board component work, we offer up to 3-year warranty on the specific components replaced. If the same fault recurs within the warranty period, we repair it at no additional cost.
 
-Book at zasupport.com/book or WhatsApp us on 064 529 5863. We collect from Dainfern and most Gauteng estates north of Johannesburg — contact us to confirm your area.
+Book at zasupport.com/book or [WhatsApp us on 064 529 5863](https://wa.me/27645295863). We collect from Dainfern and most Gauteng estates north of Johannesburg — contact us to confirm your area.
 
 ---
 
@@ -10030,7 +10030,7 @@ For everything else—[logic board repairs](/logic-board-repair), [liquid damage
 
 Contact us from R599 for a proper assessment. We'll tell you what's broken, what it costs to fix with us, and what you'd pay through Apple. You'll have genuine information to make a decision.
 
-WhatsApp us: **064 529 5863** | Book online: **zasupport.com/book**
+[WhatsApp us: **064 529 5863**](https://wa.me/27645295863) | Book online: **zasupport.com/book**
 
 We operate across Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. If you're in Pretoria, we can arrange collection. Same-day diagnostics, no Fix No Fee on assessment, and honest answers about whether repair makes sense for your device.
 
@@ -10184,7 +10184,7 @@ Johannesburg's climate doesn't help. Summer temperatures regularly exceed 30°C,
 
 ## Next Steps: Book Your Repair Today
 
-If your MacBook is making noise, don't delay. [Contact us today](/contact) or message us on WhatsApp at 064 529 5863 to describe your symptoms and book a time slot. You can also [book online at zasupport.com/book](https://zasupport.com/book).
+If your MacBook is making noise, don't delay. [Contact us today](/contact) or message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to describe your symptoms and book a time slot. You can also [book online at zasupport.com/book](https://zasupport.com/book).
 
 We're based in Hyde Park and serve the greater Johannesburg area including Sandton, Bryanston, Fourways, Midrand, and Centurion. Turnaround is fast, the diagnosis is thorough, and the fix is guaranteed.
 
@@ -10368,7 +10368,7 @@ If we run a full diagnostic and determine the repair is not possible or economic
 
 ---
 
-**Ready to fix your MacBook's WiFi?** WhatsApp us on **064 529 5863** or book your assessment at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+**Ready to fix your MacBook's WiFi?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book your assessment at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 ---
 
@@ -10507,7 +10507,7 @@ If you suspect your MacBook has a swollen battery, do this:
 1. Stop using the machine immediately.
 2. Unplug the charger and do not attempt to charge it further.
 3. Place it in a cool, well-ventilated area (not in a bag or near flammable materials).
-4. Contact us via WhatsApp on **064 529 5863** or visit **zasupport.com/book** to schedule an assessment.
+4. Contact us via [WhatsApp on **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to schedule an assessment.
 
 If you've already experienced [liquid damage](/liquid-damage) to your machine, a swollen battery repair often uncovers corrosion we can address in the same visit. Read our full liquid damage recovery guide for context.
 
@@ -10600,7 +10600,7 @@ We offer up to 3-year warranty on all replacement batteries, including parts and
 }
 \`\`\`
 
-**Get your swollen battery fixed safely.** WhatsApp us on **064 529 5863** or book your assessment at **zasupport.com/book**. We're in Hyde Park, serving Sandton, Bryanston, Fourways, Centurion, and Pretoria. From R599 assessment. From R599 assessment.`,
+**Get your swollen battery fixed safely.** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book your assessment at **zasupport.com/book**. We're in Hyde Park, serving Sandton, Bryanston, Fourways, Centurion, and Pretoria. From R599 assessment. From R599 assessment.`,
   },
   'logic-board-repair-cost-johannesburg': {
     slug: 'logic-board-repair-cost-johannesburg',
@@ -10751,7 +10751,7 @@ Our up to 3-year warranty covers the repaired component and labour. If that spec
 }
 \`\`\`
 
-**Ready to get your logic board repaired?** Message us on WhatsApp: **064 529 5863** or [book your appointment here](/book). We're in Hyde Park, Johannesburg, and we'll give you a fixed quote with no surprises.`,
+**Ready to get your logic board repaired?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or [book your appointment here](/book). We're in Hyde Park, Johannesburg, and we'll give you a fixed quote with no surprises.`,
   },
   'macbook-liquid-damage-recovery-johannesburg': {
     slug: 'macbook-liquid-damage-recovery-johannesburg',
@@ -10817,7 +10817,7 @@ Coffee spills remain the single most common cause. Keep drinks well clear of you
 
 If you're in a building vulnerable to water ingress during summer storms, position your MacBook on a desk, not the floor. And if you travel between suburbs with significant altitude differences (like moving between the southern suburbs and the north), give your device time to acclimatise before opening it—condensation inside is a slow leak.
 
-Most importantly: if a spill happens, don't hesitate. Contact us immediately at [064 529 5863](tel:064 529 5863) on WhatsApp, or [book an assessment online at zasupport.com/book](https://zasupport.com/book). The first hour is the difference between a R599 assessment leading to full recovery and a total loss.
+Most importantly: if a spill happens, don't hesitate. Contact us immediately at [064 529 5863](https://wa.me/27645295863) on WhatsApp, or [book an assessment online at zasupport.com/book](https://zasupport.com/book). The first hour is the difference between a R599 assessment leading to full recovery and a total loss.
 
 For more technical detail on how liquid damage spreads, Apple's official repair guidelines are available at [Apple Support's service resources](https://support.apple.com). We also recommend iFixit's teardown guides if you're curious about MacBook internals—they're detailed and honest about where water damage risks are highest.
 
@@ -10900,7 +10900,7 @@ AppleCare typically excludes accidental liquid damage unless you purchased Apple
 
 ---
 
-**Get your MacBook assessed today.** WhatsApp us on [064 529 5863](tel:064 529 5863) or [book online at zasupport.com/book](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and ready to recover your device.`,
+**Get your MacBook assessed today.** WhatsApp us on [064 529 5863](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and ready to recover your device.`,
   },
   'imac-not-turning-on-johannesburg': {
     slug: 'imac-not-turning-on-johannesburg',
@@ -10960,7 +10960,7 @@ Our repairs come with up to a 3-year warranty on parts and labour. If we can't r
 
 We're located in Hyde Park and serve customers across Johannesburg and surrounding areas. If your iMac won't turn on and you'd like professional help, reach out.
 
-Send us a message on WhatsApp: **064 529 5863**
+Send us a message on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)
 
 Or book a workshop appointment directly: **zasupport.com/book**
 
@@ -11101,7 +11101,7 @@ Our From R599 assessment guarantee applies to all diagnosis work. If we cannot r
 
 We stand behind every repair. All work carries a three-year warranty covering parts and labour. If a repaired component fails within that period, we replace it at from R599. This confidence reflects our experience: in two years of M2 repairs, we have replaced fewer than three per cent of components under warranty.
 
-Our booking system at [zasupport.com/book](https://zasupport.com/book) lets you schedule an appointment within forty-eight hours. Most clients in Hyde Park, Rosebank, and Sandton arrange drop-off at our workshop on a Tuesday or Thursday morning, collect by Friday afternoon. For urgent repairs, we offer same-day turnaround on select faults—contact us on WhatsApp at 064 529 5863 to discuss your timeline.
+Our booking system at [zasupport.com/book](https://zasupport.com/book) lets you schedule an appointment within forty-eight hours. Most clients in Hyde Park, Rosebank, and Sandton arrange drop-off at our workshop on a Tuesday or Thursday morning, collect by Friday afternoon. For urgent repairs, we offer same-day turnaround on select faults—contact us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to discuss your timeline.
 
 We accept all major card networks and offer payment plans through Wallets for repairs exceeding R5,000. Diagnostic fees (R599) apply toward repair costs if you proceed, ensuring you never pay twice.
 
@@ -11188,7 +11188,7 @@ Bring it to us for the R599 diagnostic. Most drop damage falls into one of three
 
 ---
 
-**Ready to get your M2 MacBook Air back in working order?** Contact ZA Support today. Book your diagnostic at [zasupport.com/book](https://zasupport.com/book) or WhatsApp us on **064 529 5863**. We're based in Hyde Park, Johannesburg, and we're here Monday to Friday, 09:00–17:00. From R599 assessment, From R599 assessment, up to three-year warranty—proper repair, no shortcuts.`,
+**Ready to get your M2 MacBook Air back in working order?** Contact ZA Support today. Book your diagnostic at [zasupport.com/book](https://zasupport.com/book) or [WhatsApp us on **064 529 5863**](https://wa.me/27645295863). We're based in Hyde Park, Johannesburg, and we're here Monday to Friday, 09:00–17:00. From R599 assessment, From R599 assessment, up to three-year warranty—proper repair, no shortcuts.`,
   },
   'mac-repair-morningside-johannesburg': {
     slug: 'mac-repair-morningside-johannesburg',
@@ -11250,7 +11250,7 @@ Medical practices, legal firms, and accountants in Morningside have learned that
 
 We're also POPIA-compliant. If your Mac contains confidential client data, you can trust us not to access it unnecessarily or share it. Morningside professionals rely on that confidence.
 
-Many Morningside clients also ask about managed IT support. We can help with that too—Mac backup solutions, security updates, and network setup. Ask about it when you [book your appointment](/contact) or message us on WhatsApp: **064 529 5863**.
+Many Morningside clients also ask about managed IT support. We can help with that too—Mac backup solutions, security updates, and network setup. Ask about it when you [book your appointment](/contact) or message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863).
 
 ## Getting Your Mac Repaired in Morningside
 
@@ -11259,7 +11259,7 @@ You have two options:
 - **Visit our Hyde Park workshop** – We're open Monday to Friday, 08:00 to 17:00. Drive from Morningside and you're there in 10 minutes. Parking is straightforward.
 - **Book online** – Use [zasupport.com/book](https://zasupport.com/book) to reserve a slot. We'll confirm the day before.
 
-If you prefer to talk first, WhatsApp **064 529 5863** and describe your Mac issue. We'll advise on next steps and likely repair costs.
+If you prefer to talk first, [WhatsApp **064 529 5863**](https://wa.me/27645295863) and describe your Mac issue. We'll advise on next steps and likely repair costs.
 
 ---
 
@@ -11375,7 +11375,7 @@ In our Hyde Park workshop, we've seen this across MacBook Air (2013–2017 model
 - **Battery health reads 1% or "Service Recommended"** in System Preferences
 - **The machine feels warm** even at rest
 
-If you see any of these, stop using your MacBook. Do not charge it further. Do not leave it plugged in. Contact us immediately on **WhatsApp: 064 529 5863** or book online at **zasupport.com/book**.
+If you see any of these, stop using your MacBook. Do not charge it further. Do not leave it plugged in. Contact us immediately on [**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863) or book online at **zasupport.com/book**.
 
 ## Our Swollen MacBook Battery Replacement Process
 
@@ -11586,14 +11586,14 @@ Finally, your repair is backed by up to 3 years of warranty on parts and labour.
 
 ## Booking Your MacBook Screen Repair in Fourways
 
-Getting started is straightforward. You can [book online at zasupport.com/book](https://zasupport.com/book) and select a time that suits your schedule. Alternatively, message us on WhatsApp at **064 529 5863** — include a photo of your screen damage and your MacBook model, and we'll confirm the assessment cost and timeline.
+Getting started is straightforward. You can [book online at zasupport.com/book](https://zasupport.com/book) and select a time that suits your schedule. Alternatively, message us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863) — include a photo of your screen damage and your MacBook model, and we'll confirm the assessment cost and timeline.
 
 Bring your charger and any account passwords you remember (in case we need to run diagnostics). Our Hyde Park workshop is in the heart of the area, about 15 minutes from Fourways by car.
 
 ## Frequently Asked Questions
 
 ### Q: How long does a MacBook screen replacement take?
-Most screens are replaced within 2–4 hours. If we keep your model in stock, same-day turnaround is common. Check our [contact page](/contact) or WhatsApp **064 529 5863** to confirm current wait times.
+Most screens are replaced within 2–4 hours. If we keep your model in stock, same-day turnaround is common. Check our [contact page](/contact) or [WhatsApp **064 529 5863**](https://wa.me/27645295863) to confirm current wait times.
 
 ### Q: Is my MacBook data safe during screen repair?
 Yes. We don't erase or access your drive unless you explicitly ask us to (e.g., for a separate data recovery issue). Screen replacement doesn't require a full backup, though we recommend one before any repair.
@@ -11620,7 +11620,7 @@ Yes. We repair Intel-era MacBooks extensively. Some older models require differe
       "name": "How long does a MacBook screen replacement take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most screens are replaced within 2–4 hours. If we keep your model in stock, same-day turnaround is common. Check our contact page or WhatsApp 064 529 5863 to confirm current wait times."
+        "text": "Most screens are replaced within 2–4 hours. If we keep your model in stock, same-day turnaround is common. Check our contact page or [WhatsApp 064 529 5863](https://wa.me/27645295863) to confirm current wait times."
       }
     },
     {
@@ -11667,7 +11667,7 @@ Yes. We repair Intel-era MacBooks extensively. Some older models require differe
 }
 \`\`\`
 
-**Ready to get your MacBook screen fixed? [Book now at zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp: 064 529 5863. From R599 assessment, no Fix No Fee.**`,
+**Ready to get your MacBook screen fixed? [Book now at zasupport.com/book](https://zasupport.com/book) or message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863). From R599 assessment, no Fix No Fee.**`,
   },
   'medical-practice-popia-it-provider-johannesburg': {
     slug: 'medical-practice-popia-it-provider-johannesburg',
@@ -11840,7 +11840,7 @@ Your compliance obligation as an HPCSA practitioner is non-delegable. You cannot
 
 Review your current IT support agreement this week. If it does not include a POPIA Section 21 operator clause, contact your provider and request one. If they cannot supply it, begin the process of finding a compliant alternative.
 
-If you're in Johannesburg or anywhere across Gauteng and need an assessment of your current compliance posture, [contact ZA Support](/contact). We offer a **from R599 assessment** covering your IT infrastructure, data security, and POPIA compliance. You can also reach us on WhatsApp at **064 529 5863**.
+If you're in Johannesburg or anywhere across Gauteng and need an assessment of your current compliance posture, [contact ZA Support](/contact). We offer a **from R599 assessment** covering your IT infrastructure, data security, and POPIA compliance. You can also reach us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863).
 
 Your patients trust you with their most sensitive information. Your regulator expects you to protect it. A compliant [managed IT](/managed-it) provider isn't optional. It's your primary obligation.`,
   },
@@ -11900,7 +11900,7 @@ We're based in Hyde Park, serving Sandton, Rosebank, Bryanston, Fourways, Mornin
 
 **Book now:** [zasupport.com/book](https://zasupport.com/book)
 
-**WhatsApp:** 064 529 5863 (reply within 2 hours, 08:00–17:00 Johannesburg time)
+[**WhatsApp:** 064 529 5863](https://wa.me/27645295863) (reply within 2 hours, 08:00–17:00 Johannesburg time)
 
 All repairs include:
 - R599 assessment fee (credited to repair cost)
@@ -12006,7 +12006,7 @@ Unprotected machines are at risk during power surges. A UPS (Uninterruptible Pow
 ---
 
 **Ready to repair? Book your Mac Studio assessment:**
-**[zasupport.com/book](https://zasupport.com/book) | WhatsApp: 064 529 5863**`,
+**[zasupport.com/book](https://zasupport.com/book) | [WhatsApp: 064 529 5863](https://wa.me/27645295863)**`,
   },
   'macbook-usb-c-port-not-working-johannesburg': {
     slug: 'macbook-usb-c-port-not-working-johannesburg',
@@ -12090,7 +12090,7 @@ Keep your MacBook in a cool environment. Avoid leaving it in cars or direct sunl
 
 ## What to Do Right Now
 
-If your MacBook's USB-C port isn't working, contact us on WhatsApp at 064 529 5863 or book a from R599 assessment at zasupport.com/book. We operate across Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+If your MacBook's USB-C port isn't working, contact us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book a from R599 assessment at zasupport.com/book. We operate across Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 If you've experienced liquid damage, read our [liquid damage repair guide](/liquid-damage) before attending. If you suspect the problem is deeper—affecting your logic board's power circuits—we can investigate with [logic board repair diagnostics](/logic-board-repair).
 
@@ -12183,7 +12183,7 @@ All repairs include up to a 3-year warranty on parts and labour, provided the da
 
 ---
 
-**Ready to fix your MacBook's USB-C port?** Message us on WhatsApp: **064 529 5863** or book your from R599 assessment at **zasupport.com/book**. We serve Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. From R599 assessment.
+**Ready to fix your MacBook's USB-C port?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or book your from R599 assessment at **zasupport.com/book**. We serve Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. From R599 assessment.
 
 ---
 
@@ -12297,7 +12297,7 @@ Additionally, POPIA compliance in Johannesburg intersects with National Health A
 
 At ZA Support in Hyde Park, we support medical practices with device repairs and data security audits. Our technicians follow strict protocols to ensure patient data is protected during repairs. If your MacBook displays sensitive patient information and requires screen or logic board replacement, we adhere to POPIA confidentiality standards. [Our logic board repair service](/logic-board-repair) includes secure data handling; we never access files unless explicitly authorised. Similarly, if a device has [liquid damage](/liquid-damage), we assess salvageability before recovery costs escalate. We offer a [comprehensive assessment from R599](/contact)—no hidden charges—and provide up to a 3-year warranty on repairs. Our From R599 assessment policy means you don't pay if we can't recover the device.
 
-For practices wanting formal IT compliance audits, we partner with POPIA-accredited consultants to review your IT infrastructure and vendor agreements. Contact us on WhatsApp at 064 529 5863 or book a consultation at zasupport.com/book.
+For practices wanting formal IT compliance audits, we partner with POPIA-accredited consultants to review your IT infrastructure and vendor agreements. Contact us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book a consultation at zasupport.com/book.
 
 ---
 
@@ -12388,7 +12388,7 @@ A: You can negotiate reasonable caps, but POPIA doesn't allow unlimited liabilit
 
 ---
 
-**Need compliance support or device repair?** Contact ZA Support in Hyde Park: WhatsApp 064 529 5863 or book at zasupport.com/book. We provide POPIA-compliant device repairs for medical practices across Sandton, Rosebank, Midrand, and surrounding suburbs.`,
+**Need compliance support or device repair?** Contact ZA Support in Hyde Park: [WhatsApp 064 529 5863](https://wa.me/27645295863) or book at zasupport.com/book. We provide POPIA-compliant device repairs for medical practices across Sandton, Rosebank, Midrand, and surrounding suburbs.`,
   },
   'ipad-screen-repair-johannesburg': {
     slug: 'ipad-screen-repair-johannesburg',
@@ -12459,7 +12459,7 @@ We use OEM-grade LCD and digitiser assemblies that meet Apple's component specif
 
 ## Booking Your iPad Screen Repair
 
-Hyde Park workshop: Monday–Saturday, 09:00–17:00. WhatsApp **064 529 5863** or visit **zasupport.com/book** to confirm availability. We operate across Johannesburg suburbs—Sandton, Rosebank, Bryanston, Fourways, Midrand—and offer collection/drop-off for devices in Centurion and Pretoria within 48 hours.
+Hyde Park workshop: Monday–Saturday, 09:00–17:00. [WhatsApp **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to confirm availability. We operate across Johannesburg suburbs—Sandton, Rosebank, Bryanston, Fourways, Midrand—and offer collection/drop-off for devices in Centurion and Pretoria within 48 hours.
 
 **From R599 assessment** covers diagnostics and repair plan. You'll know cost and timeline before we touch your device.
 
@@ -12545,7 +12545,7 @@ A professionally replaced screen is structurally identical to a factory original
 \`\`\`
 
 **Need your iPad screen repaired today?**
-WhatsApp **064 529 5863** or book online at **zasupport.com/book**. ZA Support, Hyde Park Johannesburg—serving Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Pretoria.`,
+[WhatsApp **064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**. ZA Support, Hyde Park Johannesburg—serving Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Pretoria.`,
   },
   'macbook-speaker-not-working-johannesburg': {
     slug: 'macbook-speaker-not-working-johannesburg',
@@ -12621,7 +12621,7 @@ We're located in Hyde Park, serving Sandton, Rosebank, Bryanston, Fourways, Morn
 
 **Warranty:** All repairs include up to 3 years parts warranty and 12 months labour warranty.
 
-**Contact us:** WhatsApp **064 529 5863** or visit **zasupport.com/book** to schedule your appointment.
+**Contact us:** [WhatsApp **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to schedule your appointment.
 
 For detailed Apple audio troubleshooting steps, see [Apple's official support page](https://support.apple.com/en-us/HT207364).
 
@@ -12768,7 +12768,7 @@ We offer a From R599 assessment guarantee on all diagnostic assessments. If we d
 
 Your data stays safe. We never require you to erase your Mac for Touch ID repair. We work at the hardware level, not the operating system level.
 
-**Book your assessment now.** WhatsApp us on 064 529 5863 or visit [zasupport.com/book](https://zasupport.com/book) to schedule an appointment at our Hyde Park workshop. We're open Monday to Friday, 08:00 to 17:30, and Saturday 09:00 to 14:00.
+**Book your assessment now.** [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or visit [zasupport.com/book](https://zasupport.com/book) to schedule an appointment at our Hyde Park workshop. We're open Monday to Friday, 08:00 to 17:30, and Saturday 09:00 to 14:00.
 
 ---
 
@@ -12954,7 +12954,7 @@ This is one reason component-level repair is so valuable in South Africa. A MacB
 
 Ready to get your device diagnosed properly?
 
-**WhatsApp us on 064 529 5863** or **book online at zasupport.com/book** to reserve a slot at our Hyde Park workshop. First assessment from R599. From R599 assessment guarantee.
+**[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** or **book online at zasupport.com/book** to reserve a slot at our Hyde Park workshop. First assessment from R599. From R599 assessment guarantee.
 
 If you're in Bryanston, Fourways, Morningside, Midrand, or Centurion, we service your area too.
 
@@ -13049,7 +13049,7 @@ We won't recommend it. Non-genuine parts—especially for logic board work, batt
 
 **Ready to get your Apple device repaired properly?**
 
-**WhatsApp: 064 529 5863** | **Book online: zasupport.com/book**
+[**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863) | **Book online: zasupport.com/book**
 
 ZA Support, Hyde Park, Johannesburg. Certified. Component-level. Honest.`,
   },
@@ -13208,7 +13208,7 @@ No. Remote wipe is permanent and irreversible—that's the security feature. Alw
 }
 \`\`\`
 
-**Need corporate Apple support in Johannesburg?** Message us on WhatsApp at 064 529 5863 or book an assessment at [zasupport.com/book](https://zasupport.com/book). We service Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
+**Need corporate Apple support in Johannesburg?** Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book an assessment at [zasupport.com/book](https://zasupport.com/book). We service Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
   },
   'macbook-air-m3-repair-johannesburg': {
     slug: 'macbook-air-m3-repair-johannesburg',
@@ -13294,7 +13294,7 @@ We're open Monday to Friday, 09:00–17:30 SAST, and Saturday 10:00–14:00. Our
 
 ## Booking and Next Steps
 
-To arrange an assessment for your M3 Air, use our online booking system at [zasupport.com/book](https://zasupport.com/book) or contact us directly via WhatsApp: **064 529 5863**.
+To arrange an assessment for your M3 Air, use our online booking system at [zasupport.com/book](https://zasupport.com/book) or contact us directly via [WhatsApp: **064 529 5863**](https://wa.me/27645295863).
 
 Describe your symptoms briefly—throttling, shutdowns, battery behaviour, or any other issue. We'll confirm availability and pricing. Most assessments happen same-day or next-day.
 
@@ -13391,7 +13391,7 @@ If we cannot diagnose the root cause of your issue or if repair is impossible (e
 
 **Contact ZA Support today.**
 
-WhatsApp: **064 529 5863**  
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **[zasupport.com/book](https://zasupport.com/book)**  
 Location: Hyde Park, Johannesburg (Gauteng)
 
@@ -13585,7 +13585,7 @@ Absolutely. In fact, most liquid-damaged MacBooks we see have already been left 
 }
 \`\`\`
 
-**Ready to get your MacBook fixed?** Contact ZA Support on **064 529 5863** (WhatsApp) or [book your appointment online](/book). We serve Midrand, Hyde Park, Sandton, and all surrounding Gauteng suburbs.`,
+**Ready to get your MacBook fixed?** Contact ZA Support on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book your appointment online](/book). We serve Midrand, Hyde Park, Sandton, and all surrounding Gauteng suburbs.`,
   },
   'macbook-water-damage-first-aid': {
     slug: 'macbook-water-damage-first-aid',
@@ -13824,7 +13824,7 @@ Our from R599 assessment determines the exact scope. Ultrasonic cleaning alone c
 }
 \`\`\`
 
-**Contact ZA Support** on **064 529 5863** (WhatsApp) or [book online](/book).
+**Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
 \`\`\``,
   },
   'macbook-water-damage-repair-cost-2026': {
@@ -14071,7 +14071,7 @@ We reassemble your MacBook and return it to you. You only pay the from R599 asse
 }
 \`\`\`
 
-**Contact ZA Support** on **064 529 5863** (WhatsApp) or [book online](/book).
+**Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
 \`\`\``,
   },
   'signs-of-water-damage-macbook': {
@@ -14305,7 +14305,7 @@ Our comprehensive assessment is from R599. This includes disassembly, LCI check,
 }
 \`\`\`
 
-**Contact ZA Support** on **064 529 5863** (WhatsApp) or [book online](/book).
+**Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
 \`\`\``,
   },
   'macbook-logic-board-repair-vs-replacement': {
@@ -14568,7 +14568,7 @@ Yes. Every from R599 assessment includes a detailed written report documenting L
 }
 \`\`\`
 
-**Contact ZA Support** on **064 529 5863** (WhatsApp) or [book online](/book).
+**Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
 \`\`\``,
   },
   'macbook-keyboard-repair-johannesburg': {
@@ -14643,7 +14643,7 @@ We've had customers in Midrand and Centurion return months later with a second k
 
 Our workshop is based in Hyde Park, Johannesburg. We serve Sandton, Rosebank, Bryanston, Fourways, Morningside, and Midrand directly—most customers are within 10 km. We also work with customers in Centurion and Pretoria via courier or mobile drop-off at selected collection points.
 
-If you're in Johannesburg, you can book a same-week appointment at **zasupport.com/book** or message us on WhatsApp: **064 529 5863**. Bring your MacBook, charger, and any recent service history if you have it. We'll run diagnostics while you wait (usually 30 minutes) and give you a repair quote before we open the machine.
+If you're in Johannesburg, you can book a same-week appointment at **zasupport.com/book** or message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863). Bring your MacBook, charger, and any recent service history if you have it. We'll run diagnostics while you wait (usually 30 minutes) and give you a repair quote before we open the machine.
 
 If you're outside Johannesburg or prefer not to visit in person, we accept courier shipments. Cover shipping costs (roughly R150–R250 depending on your suburb), and we'll quote repair and return shipping once we've assessed the machine.
 
@@ -14730,7 +14730,7 @@ Three years on parts and labour. This covers defects in the keyboard components 
 
 ---
 
-**Need your MacBook keyboard fixed today?** Message us on WhatsApp: **064 529 5863** or book at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg, Sandton, Bryanston, and Centurion. From R599 assessment—From R599 assessment.`,
+**Need your MacBook keyboard fixed today?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or book at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg, Sandton, Bryanston, and Centurion. From R599 assessment—From R599 assessment.`,
   },
   'macbook-pro-14-inch-repair-johannesburg': {
     slug: 'macbook-pro-14-inch-repair-johannesburg',
@@ -14816,7 +14816,7 @@ We operate in Hyde Park with service areas covering Sandton, Rosebank, Bryanston
 
 **Book online**: zasupport.com/book
 
-**WhatsApp**: 064 529 5863 (we respond within two hours during business days)
+[**WhatsApp**: 064 529 5863](https://wa.me/27645295863) (we respond within two hours during business days)
 
 **Walk in**: Hyde Park, Johannesburg (by appointment preferred)
 
@@ -14913,7 +14913,7 @@ Up to 3 years on logic board repairs, one year on display and component replacem
 
 ---
 
-**Still have questions?** [Contact us](/contact) or message us on WhatsApp: **064 529 5863**`,
+**Still have questions?** [Contact us](/contact) or message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)`,
   },
   'macbook-pro-m4-repair-johannesburg': {
     slug: 'macbook-pro-m4-repair-johannesburg',
@@ -14971,7 +14971,7 @@ All repairs come with a three-year warranty on the components we replace and the
 
 ## Next Steps: Getting Your M4 Evaluated
 
-If your M4 MacBook Pro is exhibiting any of the symptoms described above—unexpected shutdowns, kernel panics, failure to boot, graphical corruption, or charging issues—the next step is an assessment. You can [contact our Hyde Park workshop directly](/contact) or WhatsApp us on 064 529 5863. We can also arrange an appointment through [zasupport.com/book](https://zasupport.com/book).
+If your M4 MacBook Pro is exhibiting any of the symptoms described above—unexpected shutdowns, kernel panics, failure to boot, graphical corruption, or charging issues—the next step is an assessment. You can [contact our Hyde Park workshop directly](/contact) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863). We can also arrange an appointment through [zasupport.com/book](https://zasupport.com/book).
 
 We service the greater Johannesburg area including Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. For customers further afield—Pretoria, or even those willing to ship—we arrange courier collection and can provide remote diagnostics while your machine is in transit.
 
@@ -15062,7 +15062,7 @@ Apple's standard approach is logic board replacement; they rarely attempt compon
 
 ---
 
-**Ready to get your M4 evaluated?** WhatsApp us on **064 529 5863** or book an assessment at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and we service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
+**Ready to get your M4 evaluated?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book an assessment at **zasupport.com/book**. We're located in Hyde Park, Johannesburg, and we service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
   },
   'imac-logic-board-repair-johannesburg-2026': {
     slug: 'imac-logic-board-repair-johannesburg-2026',
@@ -15949,7 +15949,7 @@ Hinge failure sometimes indicates secondary damage. Bent hinges can stress the d
 
 If your MacBook has been near water or you've spilled on the lid area, the hinge region can corrode. See our guide on [liquid damage](/liquid-damage) for assessment options.
 
-Need to discuss your specific situation? [Contact us](/contact) or WhatsApp **064 529 5863** for a quick diagnostic chat. Booking: **zasupport.com/book**.
+Need to discuss your specific situation? [Contact us](/contact) or [WhatsApp **064 529 5863**](https://wa.me/27645295863) for a quick diagnostic chat. Booking: **zasupport.com/book**.
 
 ---
 
@@ -16042,7 +16042,7 @@ A: Yes. For repairs over R1,200, we offer free collection and delivery within Mi
 
 **Ready to book your MacBook hinge assessment?**
 
-WhatsApp us on **064 529 5863** or visit **zasupport.com/book** to schedule your from R599 assessment at our Hyde Park workshop. We'll diagnose the fault, quote an exact repair price, and have your MacBook back in working order within days.`,
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to schedule your from R599 assessment at our Hyde Park workshop. We'll diagnose the fault, quote an exact repair price, and have your MacBook back in working order within days.`,
   },
   'macbook-kernel-panic-fix-johannesburg': {
     slug: 'macbook-kernel-panic-fix-johannesburg',
@@ -16121,7 +16121,7 @@ Avoid cheap third-party RAM. Counterfeit memory modules are common in South Afri
 
 ## When to Book a Repair
 
-Book an appointment if you're seeing kernel panics more than once every two weeks, or if they're blocking your work. You can reach us on **WhatsApp 064 529 5863** or book online at **zasupport.com/book**. We're open Monday–Friday 08:00–17:30 in Hyde Park, with service available same-day for urgent diagnostics.
+Book an appointment if you're seeing kernel panics more than once every two weeks, or if they're blocking your work. You can reach us on **[WhatsApp 064 529 5863](https://wa.me/27645295863)** or book online at **zasupport.com/book**. We're open Monday–Friday 08:00–17:30 in Hyde Park, with service available same-day for urgent diagnostics.
 
 ---
 
@@ -16210,7 +16210,7 @@ RAM replacement is usually R1,200–R2,400. Kext troubleshooting is R399–R699.
 
 ---
 
-**Ready to fix your kernel panic?** Contact ZA Support today. Call or WhatsApp **064 529 5863**, or book your from R599 assessment online at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg, Sandton, Bryanston, Fourways, and Centurion.`,
+**Ready to fix your kernel panic?** Contact ZA Support today. Call or [WhatsApp **064 529 5863**](https://wa.me/27645295863), or book your from R599 assessment online at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg, Sandton, Bryanston, Fourways, and Centurion.`,
   },
   'medical-practice-it-security-johannesburg': {
     slug: 'medical-practice-it-security-johannesburg',
@@ -16395,7 +16395,7 @@ Many practices attempt DIY compliance and discover too late that their approach 
 
 **Next steps:**
 
-Ready to audit your practice's Apple device security? WhatsApp us on **064 529 5863** or book an assessment at **zasupport.com/book**. We'll identify your compliance gaps, build a remediation plan, and ensure your patient data meets POPIA requirements. From our Hyde Park workshop, we serve medical practices across Gauteng—Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+Ready to audit your practice's Apple device security? [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book an assessment at **zasupport.com/book**. We'll identify your compliance gaps, build a remediation plan, and ensure your patient data meets POPIA requirements. From our Hyde Park workshop, we serve medical practices across Gauteng—Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 Your patients' data security matters. Let's get it right.`,
   },
@@ -16453,7 +16453,7 @@ We're based in Hyde Park, Johannesburg, and serve the following areas:
 
 If you're in these areas, you can drop your Mac at our workshop or arrange home collection for liquid damage (we contain spills before transport). We also offer remote diagnostics over WhatsApp if you're unsure what's wrong.
 
-**Contact us on WhatsApp: 064 529 5863 or [book online at zasupport.com/book](https://zasupport.com/book)**
+**Contact us on [WhatsApp: 064 529 5863](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book)**
 
 ## Mac Repair Pricing and Warranty
 
@@ -16585,7 +16585,7 @@ Yes. We service every Mac model: MacBook Air, Pro, iMac, Mac mini, Mac Studio, a
 
 **Ready to get your Mac fixed? Contact ZA Support today.**
 
-**WhatsApp: 064 529 5863**  
+[**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863)  
 **Book online: [zasupport.com/book](https://zasupport.com/book)**  
 **Workshop: Hyde Park, Johannesburg**
 
@@ -16676,7 +16676,7 @@ We operate from our workshop in Hyde Park, and we serve clients across Sandton, 
 
 You can:
 
-- **WhatsApp us:** 064 529 5863 with photos of the issue
+- [**WhatsApp us:** 064 529 5863](https://wa.me/27645295863) with photos of the issue
 - **[Book an appointment online:](https://zasupport.com/book)** zasupport.com/book
 - **[Contact us directly:](/contact)** We respond within 2 hours on business days
 
@@ -16767,7 +16767,7 @@ Up to 3 years on any component we replace, including logic board sections, power
 
 **Ready to get your M3 Max assessed?**
 
-WhatsApp us on **064 529 5863** or [book online at zasupport.com/book](https://zasupport.com/book). From R599 assessment,. We're in Hyde Park, serving all surrounding Johannesburg and Pretoria suburbs.`,
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). From R599 assessment,. We're in Hyde Park, serving all surrounding Johannesburg and Pretoria suburbs.`,
   },
   'macbook-screen-flickering-johannesburg': {
     slug: 'macbook-screen-flickering-johannesburg',
@@ -16873,7 +16873,7 @@ You can troubleshoot (Safe Mode, temperature checks, external monitor test) with
 
 ### Q: How long does a display cable replacement take?
 
-In our workshop, display cable replacement typically takes 2–3 hours. We turn around most repairs the same day if you drop your MacBook off in the morning. Turnaround time depends on how busy we are, so WhatsApp us on **064 529 5863** to confirm availability before you visit.
+In our workshop, display cable replacement typically takes 2–3 hours. We turn around most repairs the same day if you drop your MacBook off in the morning. Turnaround time depends on how busy we are, so [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) to confirm availability before you visit.
 
 ### Q: Will I lose my data during repair?
 
@@ -16919,7 +16919,7 @@ Flexgate (display cable fault) causes flickering that worsens when you move the 
       "name": "How long does a display cable replacement take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In our workshop, display cable replacement typically takes 2–3 hours. We turn around most repairs the same day if you drop your MacBook off in the morning. Turnaround time depends on how busy we are, so WhatsApp us on 064 529 5863 to confirm availability before you visit."
+        "text": "In our workshop, display cable replacement typically takes 2–3 hours. We turn around most repairs the same day if you drop your MacBook off in the morning. Turnaround time depends on how busy we are, so [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to confirm availability before you visit."
       }
     },
     {
@@ -16946,7 +16946,7 @@ Flexgate (display cable fault) causes flickering that worsens when you move the 
 
 ## Next Steps
 
-Your MacBook's screen flickering is fixable. Most cases resolve within 24 hours at a cost far below Apple's pricing. Start with our troubleshooting steps above. If flickering persists, [book a from R599 assessment](/contact) at our Hyde Park workshop or WhatsApp us on **064 529 5863**. We'll diagnose the exact fault, provide a detailed quote, and get your MacBook back to perfect condition.
+Your MacBook's screen flickering is fixable. Most cases resolve within 24 hours at a cost far below Apple's pricing. Start with our troubleshooting steps above. If flickering persists, [book a from R599 assessment](/contact) at our Hyde Park workshop or [WhatsApp us on **064 529 5863**](https://wa.me/27645295863). We'll diagnose the exact fault, provide a detailed quote, and get your MacBook back to perfect condition.
 
 **From R599 assessment.** If we can't repair it, you pay nothing.
 
@@ -17025,7 +17025,7 @@ You won't lose your photos, documents, or project files because of liquid damage
 
 All liquid damage repairs carried out in our Hyde Park workshop come with a **from R599 assessment guarantee** and **up to a 3-year parts warranty** on replaced components. We service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion — with next-day collection and delivery available.
 
-If you'd like to book an assessment or discuss your specific damage, contact us on WhatsApp at **064 529 5863** or visit **zasupport.com/book** to schedule your appointment.
+If you'd like to book an assessment or discuss your specific damage, contact us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to schedule your appointment.
 
 For more detail on the technical side of logic board recovery, read our guide to [logic board repair](/logic-board-repair) and our comprehensive [liquid damage overview](/liquid-damage).
 
@@ -17114,7 +17114,7 @@ A: Power off the device immediately (hold the power button for 10 seconds). Disc
 
 ---
 
-**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.`,
+**Need help now?** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.`,
   },
   'macbook-battery-draining-fast-johannesburg': {
     slug: 'macbook-battery-draining-fast-johannesburg',
@@ -17298,7 +17298,7 @@ Sometimes, yes. Kernel_task spikes are often triggered by runaway apps, corrupte
 
 **Contact us today.**
 
-WhatsApp: **064 529 5863**
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863)
 
 Book online: [zasupport.com/book](https://zasupport.com/book)
 
@@ -17375,7 +17375,7 @@ Finally, keep macOS updated. Firmware updates patch security and stability issue
 
 If your MacBook screen has been black for more than a day, stop troubleshooting and book an assessment. Every day of delay risks secondary damage—condensation inside, component corrosion, or data loss if the drive is failing simultaneously. We've seen machines that would have cost R2,500 to fix become R8,000 repairs simply because the owner waited.
 
-Contact us via WhatsApp on 064 529 5863 or book online at zasupport.com/book. Tell us your MacBook model (you'll find it in About This Mac, or look at the bottom of the screen bezel) and when the screen went black. We'll schedule a convenient time, usually within two days in suburbs like Rosebank, Sandton, or Fourways.
+Contact us via [WhatsApp on 064 529 5863](https://wa.me/27645295863) or book online at zasupport.com/book. Tell us your MacBook model (you'll find it in About This Mac, or look at the bottom of the screen bezel) and when the screen went black. We'll schedule a convenient time, usually within two days in suburbs like Rosebank, Sandton, or Fourways.
 
 For remote areas like Pretoria, we can arrange courier collection. You'll have peace of mind with our From R599 assessment policy.
 
@@ -17468,7 +17468,7 @@ Up to 3 years on parts, depending on fault type. Logic board repairs: 3 years. D
 
 **Need help with your MacBook black screen?**
 
-WhatsApp us on **064 529 5863** or [book your R599 assessment now](https://zasupport.com/book). We serve Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book your R599 assessment now](https://zasupport.com/book). We serve Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 See also: [Logic Board Repair](/logic-board-repair) | [Liquid Damage Recovery](/liquid-damage) | [Contact ZA Support](/contact)
 
@@ -17568,7 +17568,7 @@ If your MacBook is running slow, don't wait. The longer you use a struggling mac
 
 Our from R599 assessment takes 45 minutes and comes with From R599 assessment guarantee—if we can't help, you pay nothing. We offer up to 3-year warranty on all repairs and can often have your MacBook running optimally within 24 hours.
 
-Message us on WhatsApp at **064 529 5863** or book online at **zasupport.com/book**. We'll get you back to productive work.
+Message us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**. We'll get you back to productive work.
 
 ---
 
@@ -17659,7 +17659,7 @@ This is rare, but it happens if a second issue was hidden (e.g., SSD was failing
 
 ---
 
-**Message us on WhatsApp: 064 529 5863 | Book online: zasupport.com/book**
+**Message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863) | Book online: zasupport.com/book**
 \`\`\`
 
 `,
@@ -17741,7 +17741,7 @@ Our technicians invest time in proper diagnosis. We run our diagnostic procedure
 
 ## What to Expect: Your iMac Repair Journey
 
-**Step one:** WhatsApp us on 064 529 5863 or book a time at zasupport.com/book. We offer appointment slots across our Hyde Park, Sandton, Bryanston, and Fourways locations.
+**Step one:** [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or book a time at zasupport.com/book. We offer appointment slots across our Hyde Park, Sandton, Bryanston, and Fourways locations.
 
 **Step two:** Bring your iMac to us, or arrange collection if you're in Midrand, Centurion, or northern Johannesburg suburbs. We handle transport carefully.
 
@@ -17774,7 +17774,7 @@ Backup regularly to an external drive or cloud service. This doesn't prevent har
 Stop guessing. Get professional diagnosis. Our technicians in Hyde Park are ready to investigate your iMac and provide honest feedback on what's needed.
 
 **Contact us:**
-- WhatsApp: 064 529 5863
+- [WhatsApp: 064 529 5863](https://wa.me/27645295863)
 - Book online: zasupport.com/book
 - We service Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria
 
@@ -17784,7 +17784,7 @@ Stop guessing. Get professional diagnosis. Our technicians in Hyde Park are read
 
 ### Q: How do I know if my iMac's power supply has failed?
 
-If your iMac won't turn on and there are no LED lights on the back, the power supply has likely failed. Additionally, if you smell a burnt smell near the power port or the back of the iMac, this confirms PSU failure. We diagnose this for R599 at our Hyde Park workshop. Bring your iMac in or WhatsApp 064 529 5863 for a collection appointment.
+If your iMac won't turn on and there are no LED lights on the back, the power supply has likely failed. Additionally, if you smell a burnt smell near the power port or the back of the iMac, this confirms PSU failure. We diagnose this for R599 at our Hyde Park workshop. Bring your iMac in or [WhatsApp 064 529 5863](https://wa.me/27645295863) for a collection appointment.
 
 ### Q: Can I repair my iMac's power supply myself?
 
@@ -17818,7 +17818,7 @@ Use a surge-protected power board rated for your iMac's wattage. Keep your iMac 
       "name": "How do I know if my iMac's power supply has failed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If your iMac won't turn on and there are no LED lights on the back, the power supply has likely failed. Additionally, if you smell a burnt smell near the power port or the back of the iMac, this confirms PSU failure. We diagnose this for R599 at our Hyde Park workshop. Bring your iMac in or WhatsApp 064 529 5863 for a collection appointment."
+        "text": "If your iMac won't turn on and there are no LED lights on the back, the power supply has likely failed. Additionally, if you smell a burnt smell near the power port or the back of the iMac, this confirms PSU failure. We diagnose this for R599 at our Hyde Park workshop. Bring your iMac in or [WhatsApp 064 529 5863](https://wa.me/27645295863) for a collection appointment."
       }
     },
     {
@@ -17951,7 +17951,7 @@ Same-day turnaround is available for most cable and cleaning jobs. If your MacBo
 
 **Book Online:** [zasupport.com/book](https://zasupport.com/book)
 
-**WhatsApp:** 064 529 5863 (Mon–Fri, 8am–5pm SAST)
+[**WhatsApp:** 064 529 5863](https://wa.me/27645295863) (Mon–Fri, 8am–5pm SAST)
 
 ## Related Resources
 
@@ -18130,7 +18130,7 @@ Don't wait if:
 - You've tried drying it yourself and want confirmation no damage has occurred
 - You're planning to claim on insurance and need professional documentation
 
-We're located in Hyde Park and serve Gauteng broadly: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Bring your MacBook in for assessment, or contact us via WhatsApp on 064 529 5863 to book a time slot. Our from R599 assessment includes LCI inspection, visual corrosion check, and logic board diagnostic testing.
+We're located in Hyde Park and serve Gauteng broadly: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Bring your MacBook in for assessment, or contact us via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to book a time slot. Our from R599 assessment includes LCI inspection, visual corrosion check, and logic board diagnostic testing.
 
 For more on liquid damage generally, see our [liquid damage guide](/liquid-damage).
 
@@ -18219,7 +18219,7 @@ Apple Stores will confirm the LCI status and decline warranty service. They can 
 
 ---
 
-**Ready to get your MacBook assessed?** Contact ZA Support in Hyde Park today. [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Our from R599 assessment includes full LCI inspection and logic board diagnostics. From R599 assessment guarantee—you'll know exactly what needs doing before you commit to repair.`,
+**Ready to get your MacBook assessed?** Contact ZA Support in Hyde Park today. [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Our from R599 assessment includes full LCI inspection and logic board diagnostics. From R599 assessment guarantee—you'll know exactly what needs doing before you commit to repair.`,
   },
   'imac-m3-repair-johannesburg': {
     slug: 'imac-m3-repair-johannesburg',
@@ -18287,7 +18287,7 @@ We're based in Hyde Park, minutes from Sandton, Rosebank, and Bryanston. We've i
 
 We're transparent about pricing. From R599 assessment, you know exactly what's broken and what repair costs before we proceed. No surprise invoices. No upselling.
 
-**Book your iMac M3 repair now.** Contact us via WhatsApp at 064 529 5863 or visit [zasupport.com/book](https://zasupport.com/book). We service Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+**Book your iMac M3 repair now.** Contact us via [WhatsApp at 064 529 5863](https://wa.me/27645295863) or visit [zasupport.com/book](https://zasupport.com/book). We service Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 ---
 
@@ -18309,7 +18309,7 @@ Yes. If we cannot repair your machine, you pay only the from R599 assessment fee
 Up to 3-year warranty on all parts and labour. You receive a written warranty certificate valid across ZA Support locations. Coverage includes defects in workmanship and component failure, excluding accidental damage.
 
 ### Q: Can I bring my iMac M3 in from Centurion or Midrand?
-Yes. We service the greater Johannesburg area including Centurion, Midrand, Fourways, Pretoria, and surrounding suburbs. Book your appointment at zasupport.com/book or WhatsApp 064 529 5863.
+Yes. We service the greater Johannesburg area including Centurion, Midrand, Fourways, Pretoria, and surrounding suburbs. Book your appointment at zasupport.com/book or [WhatsApp 064 529 5863](https://wa.me/27645295863).
 
 ---
 
@@ -18363,7 +18363,7 @@ Yes. We service the greater Johannesburg area including Centurion, Midrand, Four
       "name": "Can I bring my iMac M3 in from Centurion or Midrand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We service the greater Johannesburg area including Centurion, Midrand, Fourways, Pretoria, and surrounding suburbs. Book your appointment at zasupport.com/book or WhatsApp 064 529 5863."
+        "text": "Yes. We service the greater Johannesburg area including Centurion, Midrand, Fourways, Pretoria, and surrounding suburbs. Book your appointment at zasupport.com/book or [WhatsApp 064 529 5863](https://wa.me/27645295863)."
       }
     }
   ]
@@ -18418,7 +18418,7 @@ During diagnosis, we perform several checks. We power on your MacBook and listen
 
 For liquid-damaged machines, we use moisture sensors and visual inspection to map the extent of corrosion. We test individual circuits—power delivery, USB, charging, audio, and video—to isolate which sections have failed.
 
-This diagnosis takes two to three hours and requires your MacBook to be in our workshop. You do not need an appointment, though one speeds things up. Call us on 064 529 5863 or book online at zasupport.com/book.
+This diagnosis takes two to three hours and requires your MacBook to be in our workshop. You do not need an appointment, though one speeds things up. [Call us on 064 529 5863](https://wa.me/27645295863) or book online at zasupport.com/book.
 
 ## The Repair Process: What Happens Next
 
@@ -18458,7 +18458,7 @@ For most machines from the last five to seven years, repair is the smarter choic
 
 We are based in Hyde Park, Johannesburg, about 15 minutes from Bryanston and accessible from Sandton, Rosebank, Fourways, and Midrand. You can [contact us](/contact) by phone, WhatsApp, or online booking.
 
-WhatsApp: 064 529 5863  
+[WhatsApp: 064 529 5863](https://wa.me/27645295863)  
 Book online: zasupport.com/book
 
 Bring your MacBook, charger, and any relevant documentation. If you remember what caused the fault (a spill, a drop, a sudden shutdown), tell us—it helps diagnosis.
@@ -18661,7 +18661,7 @@ Once you've freed space, keep your Mac healthy with these habits.
 
 We serve Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. If you're in these Gauteng areas and your Mac's startup disk is full, bring it in. 
 
-**Contact us today:** WhatsApp 064 529 5863 or [book online at zasupport.com/book](https://zasupport.com/book)
+**Contact us today:** [WhatsApp 064 529 5863](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book)
 
 If you're concerned about data loss or liquid damage affecting your Mac's storage, see our guides on [liquid damage recovery](/liquid-damage) and [logic board repairs](/logic-board-repair).
 
@@ -18756,7 +18756,7 @@ A full disk is one cause of slowness, but not the only one. Malware, aging hardw
 
 **Still stuck? Let's fix it properly.**
 
-WhatsApp us on **064 529 5863** or [book your Mac assessment online](https://zasupport.com/book). We're in Hyde Park, open Monday–Saturday. From R599 assessment — if we can't solve it, you don't pay.
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book your Mac assessment online](https://zasupport.com/book). We're in Hyde Park, open Monday–Saturday. From R599 assessment — if we can't solve it, you don't pay.
 \`\`\`
 
 `,
@@ -18908,7 +18908,7 @@ Under our up to 3-year warranty, we'll diagnose and repair the fault from R599. 
 
 ---
 
-**Ready to decide?** Text **064 529 5863** on WhatsApp or [book your from R599 assessment now](https://zasupport.com/book). Our technicians in Hyde Park will test your device, explain exactly what's wrong, and help you choose the path that makes sense for your wallet and your workflow.
+**Ready to decide?** Text [**064 529 5863**](https://wa.me/27645295863) on WhatsApp or [book your from R599 assessment now](https://zasupport.com/book). Our technicians in Hyde Park will test your device, explain exactly what's wrong, and help you choose the path that makes sense for your wallet and your workflow.
 
 `,
   },
@@ -19148,7 +19148,7 @@ If your device suffered [liquid damage](/liquid-damage), logic board repair is o
 
 For devices beyond logic board repair, we offer full device replacement advice and can source genuine replacement parts from approved suppliers.
 
-To discuss your device and book an assessment, contact us via WhatsApp at **064 529 5863** or visit **zasupport.com/book** to schedule a time slot.
+To discuss your device and book an assessment, contact us via [WhatsApp at **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to schedule a time slot.
 
 ## Frequently Asked Questions
 
@@ -19170,7 +19170,7 @@ For MacBooks, logic board repair typically costs R1,800–R3,500, versus R8,000�
 
 ### Q: Do you repair all Apple device logic boards?
 
-We repair logic boards in MacBook Air, MacBook Pro, Mac mini, iPad Air, iPad Pro, iPad mini, iPhone 11 and newer, and iPhone SE models. Older devices may require parts sourcing. Contact us via WhatsApp on **064 529 5863** with your device model and fault description for a quick answer.
+We repair logic boards in MacBook Air, MacBook Pro, Mac mini, iPad Air, iPad Pro, iPad mini, iPhone 11 and newer, and iPhone SE models. Older devices may require parts sourcing. Contact us via [WhatsApp on **064 529 5863**](https://wa.me/27645295863) with your device model and fault description for a quick answer.
 
 ### Q: Will you back up my data before repair?
 
@@ -19241,7 +19241,7 @@ No. Our policy is zero data access. Your device is repaired and returned with no
 
 **Ready to repair your logic board?** Contact ZA Support today.
 
-WhatsApp: **064 529 5863**  
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **zasupport.com/book**  
 Location: Hyde Park, Johannesburg (serving Parkhurst, Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Pretoria)`,
   },
@@ -19325,7 +19325,7 @@ Perform these five checks yourself first. If you find storage below 15GB, temper
 
 Our Hyde Park workshop is open Monday–Saturday, 9 AM–6 PM. We diagnose faults the same day, often whilst you wait. Assessment starts from R599 and includes full data backup if hardware repair is needed.
 
-[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We serve Johannesburg and surrounding suburbs: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+[[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We serve Johannesburg and surrounding suburbs: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 ---
 
@@ -19410,7 +19410,7 @@ A drive with SMART health below 50% will fail within weeks or months. When it fa
 
 ---
 
-**Need help now?** WhatsApp **064 529 5863** or visit **zasupport.com/book** to schedule your diagnostic assessment in Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, or Pretoria. From R599 assessment. From R599 assessment.`,
+**Need help now?** [WhatsApp **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to schedule your diagnostic assessment in Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, or Pretoria. From R599 assessment. From R599 assessment.`,
   },
   'mac-migration-assistant-guide-johannesburg': {
     slug: 'mac-migration-assistant-guide-johannesburg',
@@ -19656,7 +19656,7 @@ We also understand Johannesburg's specific environment: load shedding patterns, 
 
 ## Getting Your Mac Assessed
 
-Financial services teams can [book an appointment online](/book) or message us on WhatsApp at 064 529 5863. We offer flexible hours—early morning appointments for pre-market checks, evening slots for end-of-day diagnostics. Bring your machine, your charger, and any external drives you use for backups.
+Financial services teams can [book an appointment online](/book) or message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863). We offer flexible hours—early morning appointments for pre-market checks, evening slots for end-of-day diagnostics. Bring your machine, your charger, and any external drives you use for backups.
 
 The assessment costs from R599 and takes 45 minutes. We'll run full diagnostics on storage, battery, thermal performance, and backup integrity. You'll get a written report with repair estimates and recommendations. just honest technical advice for financial services teams who can't afford guesswork.
 
@@ -19680,7 +19680,7 @@ A: All parts and labour come with up to a three-year warranty. If a component we
 A: Yes. We sign confidentiality agreements for every financial services client, maintain secure data handling protocols, and document every intervention. Your data doesn't leave our workshop without your explicit consent.
 
 ### Q: Can you service multiple Macs from our office at once?
-A: Yes. We can schedule staggered appointments, offer fleet discount pricing, and provide consolidated health reports for your IT manager. Message us on WhatsApp at 064 529 5863 to discuss your firm's needs.
+A: Yes. We can schedule staggered appointments, offer fleet discount pricing, and provide consolidated health reports for your IT manager. Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to discuss your firm's needs.
 
 ---
 
@@ -19734,7 +19734,7 @@ A: Yes. We can schedule staggered appointments, offer fleet discount pricing, an
       "name": "Can you service multiple Macs from our office at once?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. We can schedule staggered appointments, offer fleet discount pricing, and provide consolidated health reports for your IT manager. Message us on WhatsApp at 064 529 5863 to discuss your firm's needs."
+        "text": "Yes. We can schedule staggered appointments, offer fleet discount pricing, and provide consolidated health reports for your IT manager. Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) to discuss your firm's needs."
       }
     }
   ]
@@ -19743,7 +19743,7 @@ A: Yes. We can schedule staggered appointments, offer fleet discount pricing, an
 
 ---
 
-**Ready to protect your financial services Macs?** [Book a diagnostic assessment](/book) or message us on WhatsApp: **064 529 5863**. From R599, we'll give you honest advice on what's failing, what needs attention, and how to prevent costly downtime. We're based in Hyde Park and service the entire Johannesburg and Pretoria financial sector.`,
+**Ready to protect your financial services Macs?** [Book a diagnostic assessment](/book) or message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863). From R599, we'll give you honest advice on what's failing, what needs attention, and how to prevent costly downtime. We're based in Hyde Park and service the entire Johannesburg and Pretoria financial sector.`,
   },
   'mac-support-small-business-johannesburg': {
     slug: 'mac-support-small-business-johannesburg',
@@ -19904,7 +19904,7 @@ Yes. We work with small accounting firms, legal practices, and creative agencies
 
 ---
 
-**Need Mac support today?** Message us on WhatsApp: **064 529 5863** or book your assessment at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg and Pretoria.`,
+**Need Mac support today?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or book your assessment at **zasupport.com/book**. We're in Hyde Park, serving Johannesburg and Pretoria.`,
   },
   'macbook-backup-time-machine-johannesburg': {
     slug: 'macbook-backup-time-machine-johannesburg',
@@ -20013,7 +20013,7 @@ If Time Machine repeatedly fails, your external drive isn't recognised, or you s
 
 Our Hyde Park workshop serves Midrand, Centurion, Pretoria, Bryanston, Fourways, and Morningside. From R599 assessment, we identify the exact problem. From R599 assessment—if we can't resolve it, you pay nothing. And all repairs come with up to a 3-year warranty.
 
-WhatsApp us on 064 529 5863 or [book online](https://zasupport.com/book).
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) or [book online](https://zasupport.com/book).
 
 ## Professional Backup Redundancy: Going Beyond Time Machine
 
@@ -20107,7 +20107,7 @@ iCloud+ backs up system settings, photos, and documents—but not your entire Ma
 
 ---
 
-**Need expert backup setup or data recovery in Johannesburg?** Contact ZA Support today. WhatsApp **064 529 5863** or [book a consultation](https://zasupport.com/book). From R599 assessment. Up to 3-year warranty on all services.
+**Need expert backup setup or data recovery in Johannesburg?** Contact ZA Support today. [WhatsApp **064 529 5863**](https://wa.me/27645295863) or [book a consultation](https://zasupport.com/book). From R599 assessment. Up to 3-year warranty on all services.
 
 **Related Reading:**
 - [Logic Board Repair Johannesburg](https://zasupport.com/logic-board-repair)
@@ -20319,7 +20319,7 @@ If you don't have the recovery key and you forget your password, you can't acces
 
 ---
 
-**Ready to audit your Mac security?** Ring us on **064 529 5863** (WhatsApp), or [book online](/book). We're in Hyde Park, serving Johannesburg, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. From R599 assessment, from R599 if we find nothing you need to fix. Up to 3-year warranty on all security configuration work.`,
+**Ready to audit your Mac security?** Ring us on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp), or [book online](/book). We're in Hyde Park, serving Johannesburg, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. From R599 assessment, from R599 if we find nothing you need to fix. Up to 3-year warranty on all security configuration work.`,
   },
   'macbook-preventive-maintenance-johannesburg': {
     slug: 'macbook-preventive-maintenance-johannesburg',
@@ -20389,7 +20389,7 @@ This guarantee exists because preventive maintenance works. We're confident in t
 
 If your MacBook is over two years old, or if it's been more than six months since its last professional service, book an assessment from R599. We'll run diagnostics, check thermal performance under load, inspect the battery, and identify any emerging issues.
 
-Contact us via [**WhatsApp: 064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**. We serve Johannesburg's northern suburbs: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+Contact us via [[**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863)](https://wa.me/27645295863) or book online at **zasupport.com/book**. We serve Johannesburg's northern suburbs: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 If you're in one of these areas and your MacBook is running hot, the fans won't stop, or the battery drains quickly, we can help. Bring it in—From R599 assessment means you're not charged for the assessment if you decide not to proceed with repairs.
 
@@ -20617,7 +20617,7 @@ Yes. Time Machine retains hourly backups for 24 hours, daily for one month, and 
 
 ### Q: What's your backup recovery service if my Mac fails?
 
-If your Mac suffers [logic board failure](/logic-board-repair) or [liquid damage](/liquid-damage), we extract your internal drive in our Hyde Park workshop and verify your backups exist and are readable. We then restore to a replacement Mac or external drive. Service starts from R599 assessment. From R599 assessment applies—if we can't recover your data, you don't pay. Use WhatsApp 064 529 5863 to book or visit zasupport.com/book.
+If your Mac suffers [logic board failure](/logic-board-repair) or [liquid damage](/liquid-damage), we extract your internal drive in our Hyde Park workshop and verify your backups exist and are readable. We then restore to a replacement Mac or external drive. Service starts from R599 assessment. From R599 assessment applies—if we can't recover your data, you don't pay. Use [WhatsApp 064 529 5863](https://wa.me/27645295863) to book or visit zasupport.com/book.
 
 ---
 
@@ -20680,7 +20680,7 @@ If your Mac suffers [logic board failure](/logic-board-repair) or [liquid damage
 
 ---
 
-**Need help setting up HPCSA-compliant backups for your medical practice?** WhatsApp us on **064 529 5863** or book a consultation at **zasupport.com/book**. We're based in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. From R599 assessment. From R599 assessment.`,
+**Need help setting up HPCSA-compliant backups for your medical practice?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book a consultation at **zasupport.com/book**. We're based in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. From R599 assessment. From R599 assessment.`,
   },
   'mac-clean-install-macos-johannesburg': {
     slug: 'mac-clean-install-macos-johannesburg',
@@ -20873,7 +20873,7 @@ Install the latest stable version compatible with your Mac's year of manufacture
 
 **Need professional help with your Mac's clean install?** We're in Hyde Park, Johannesburg, and service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
-WhatsApp us on **064 529 5863** or [book online at zasupport.com/book](https://zasupport.com/book).`,
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book).`,
   },
   'macbook-cooling-pad-worth-it-johannesburg': {
     slug: 'macbook-cooling-pad-worth-it-johannesburg',
@@ -20972,7 +20972,7 @@ Here's the honest answer. If you're:
 - Throttling occasionally during summer heat, **no**—fix the environment or clean your vents first. Cost-effective and permanent.
 - Running an M-series MacBook at normal temperatures, **probably not**—thermal design is efficient enough that a cooling pad's benefit is marginal.
 
-Before you spend money on a cooling pad, [contact us for an assessment](/contact). We'll plug your MacBook into our diagnostic tools in our Hyde Park workshop and tell you whether cooling is genuinely your bottleneck. It's from R599, and we operate [From R599 assessment](/contact)—if there's no hardware issue, you'll know that a cooling pad is worth trying. WhatsApp us on 064 529 5863 or [book an appointment](/book).
+Before you spend money on a cooling pad, [contact us for an assessment](/contact). We'll plug your MacBook into our diagnostic tools in our Hyde Park workshop and tell you whether cooling is genuinely your bottleneck. It's from R599, and we operate [From R599 assessment](/contact)—if there's no hardware issue, you'll know that a cooling pad is worth trying. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or [book an appointment](/book).
 
 ---
 
@@ -20994,7 +20994,7 @@ It might mask the symptom temporarily, but it won't fix the underlying issue. If
 Both. Takealot, Incredible Connection, and PNA stock cooling pads locally, with prices typically R400–R950. Delivery is faster and avoids import duties. If you want a specific model (e.g., Twelve South or Nutstudio), check stock availability; some are imported and may take 1–2 weeks. We recommend visiting a local retailer to inspect build quality before purchasing.
 
 ### Q: How do I know if my MacBook needs a cooling pad or just a cleaning?
-The simplest way is a [from R599 assessment](/contact) at our Hyde Park workshop. We'll open the unit, check for dust, measure fan speed, and log thermal data. If the issue is dust or a blocked vent, we'll clean it (often included in the assessment fee). If the issue is environmental or workload-related, we'll recommend a cooling pad. WhatsApp 064 529 5863 to book.
+The simplest way is a [from R599 assessment](/contact) at our Hyde Park workshop. We'll open the unit, check for dust, measure fan speed, and log thermal data. If the issue is dust or a blocked vent, we'll clean it (often included in the assessment fee). If the issue is environmental or workload-related, we'll recommend a cooling pad. [WhatsApp 064 529 5863](https://wa.me/27645295863) to book.
 
 ---
 
@@ -21048,7 +21048,7 @@ The simplest way is a [from R599 assessment](/contact) at our Hyde Park workshop
       "name": "How do I know if my MacBook needs a cooling pad or just a cleaning?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Get a from R599 assessment at our Hyde Park workshop. We will open the unit, check for dust, measure fan speed, and log thermal data. If the issue is dust or a blocked vent, we will clean it. If the issue is environmental or workload-related, we will recommend a cooling pad. WhatsApp 064 529 5863 to book."
+        "text": "Get a from R599 assessment at our Hyde Park workshop. We will open the unit, check for dust, measure fan speed, and log thermal data. If the issue is dust or a blocked vent, we will clean it. If the issue is environmental or workload-related, we will recommend a cooling pad. [WhatsApp 064 529 5863](https://wa.me/27645295863) to book."
       }
     }
   ]
@@ -21057,7 +21057,7 @@ The simplest way is a [from R599 assessment](/contact) at our Hyde Park workshop
 
 ---
 
-**Still unsure?** WhatsApp us on **064 529 5863** or [book an appointment](/book) at zasupport.com. We're based in Hyde Park, Johannesburg, and we serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. **From R599 assessment** on diagnostics.`,
+**Still unsure?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book an appointment](/book) at zasupport.com. We're based in Hyde Park, Johannesburg, and we serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. **From R599 assessment** on diagnostics.`,
   },
   'goodx-mac-support-johannesburg': {
     slug: 'goodx-mac-support-johannesburg',
@@ -21121,7 +21121,7 @@ Our assessment process specifically tests power circuitry because of this. We al
 
 ## Booking Your Assessment
 
-Contact us via WhatsApp at 064 529 5863 for immediate response, or [book an assessment online at zasupport.com/book](https://zasupport.com/book). We're based in Hyde Park and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Drop-off is available if you're not local—we'll call you with findings.
+Contact us via [WhatsApp at 064 529 5863](https://wa.me/27645295863) for immediate response, or [book an assessment online at zasupport.com/book](https://zasupport.com/book). We're based in Hyde Park and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Drop-off is available if you're not local—we'll call you with findings.
 
 For detailed technical guidance, Apple's own [support documentation](https://support.apple.com) covers self-help steps, though we recommend a professional assessment if you've already tried basic troubleshooting.
 
@@ -21208,7 +21208,7 @@ Yes. Our warranty is attached to the machine, not to location. If you relocate o
 }
 \`\`\`
 
-**Ready to get your Mac fixed properly?** Contact us via WhatsApp: **064 529 5863** or [book your assessment now](https://zasupport.com/book). We're in Hyde Park, Johannesburg, serving all northern suburbs.`,
+**Ready to get your Mac fixed properly?** Contact us via [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or [book your assessment now](https://zasupport.com/book). We're in Hyde Park, Johannesburg, serving all northern suburbs.`,
   },
   'carepoint-mac-support-johannesburg': {
     slug: 'carepoint-mac-support-johannesburg',
@@ -21290,7 +21290,7 @@ That certification also means we have access to genuine Apple parts. Counterfeit
 
 If your MacBook isn't performing, won't start, or you've had liquid damage, contact us today.
 
-**WhatsApp us:** 064 529 5863  
+[**WhatsApp us:** 064 529 5863](https://wa.me/27645295863)  
 **Book an assessment:** [zasupport.com/book](https://zasupport.com/book)  
 **Email:** [contact](/contact)
 
@@ -21475,7 +21475,7 @@ These habits, combined with periodic professional assessments, keep infection ra
 
 You might handle minor slowdowns yourself (restart in Safe Mode, delete unused applications, clear cache). But if your Mac shows multiple warning signs simultaneously, or if you've attempted cleaning and symptoms persist, professional help is cost-effective.
 
-Costs in Johannesburg vary. Standard virus removal from R599 assessment (diagnostic only) to R1,200–R1,800 for multi-stage removal on complex infections. We offer From R599 assessment — if no malware is found during assessment, you pay nothing. [Book a consultation today](https://zasupport.com/book) or message us on WhatsApp: 064 529 5863.
+Costs in Johannesburg vary. Standard virus removal from R599 assessment (diagnostic only) to R1,200–R1,800 for multi-stage removal on complex infections. We offer From R599 assessment — if no malware is found during assessment, you pay nothing. [Book a consultation today](https://zasupport.com/book) or message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863).
 
 We serve Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and greater Pretoria. All repairs carry up to a 3-year warranty.
 
@@ -21638,7 +21638,7 @@ Based on that assessment, ongoing support options include:
 
 From R599 assessment applies to diagnostic work. If we identify an issue during assessment and you decide to repair elsewhere, you pay nothing.
 
-Pricing varies based on your setup. A single-Mac clinic in Rosebank runs differently from a five-Mac network in Centurion. That's why we book consultations at [zasupport.com/book](https://zasupport.com/book) or WhatsApp 064 529 5863—we need to understand your actual environment.
+Pricing varies based on your setup. A single-Mac clinic in Rosebank runs differently from a five-Mac network in Centurion. That's why we book consultations at [zasupport.com/book](https://zasupport.com/book) or [WhatsApp 064 529 5863](https://wa.me/27645295863)—we need to understand your actual environment.
 
 ## Common Mac EMR Issues We Solve
 
@@ -21927,7 +21927,7 @@ It's risky. You can't inspect a machine remotely, and sellers' descriptions are 
 
 ---
 
-**Ready to buy with confidence?** WhatsApp us on **064 529 5863** or book your second hand Mac check at **[zasupport.com/book](https://zasupport.com/book)**. We're in Hyde Park, serving Johannesburg and surrounding areas.`,
+**Ready to buy with confidence?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book your second hand Mac check at **[zasupport.com/book](https://zasupport.com/book)**. We're in Hyde Park, serving Johannesburg and surrounding areas.`,
   },
   'carepoint-macbook-support-johannesburg': {
     slug: 'carepoint-macbook-support-johannesburg',
@@ -22011,7 +22011,7 @@ Here's what you get when you repair with us:
 - **Free follow-up assessment** if anything feels wrong post-repair
 - **Honest advice** on whether a repair is genuinely cost-effective versus replacement
 
-You can reach us via WhatsApp on 064 529 5863 to describe your issue before bringing the machine in. This often helps us prepare for the assessment and set realistic expectations.
+You can reach us via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to describe your issue before bringing the machine in. This often helps us prepare for the assessment and set realistic expectations.
 
 To book an assessment appointment at our Hyde Park location (serving clients across Johannesburg, Sandton, Rosebank, Bryanston, Fourways, and surrounding suburbs), visit [zasupport.com/book](https://zasupport.com/book).
 
@@ -22112,7 +22112,7 @@ Every repair comes with a written warranty document detailing what's covered, fo
 
 **Ready to get your MacBook fixed?**
 
-WhatsApp us on 064 529 5863 or book your assessment at [zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, serving Johannesburg and surrounding suburbs from Sandton to Centurion.
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) or book your assessment at [zasupport.com/book](https://zasupport.com/book). We're in Hyde Park, serving Johannesburg and surrounding suburbs from Sandton to Centurion.
 
 From R599 assessment. Two-year warranty. From R599 assessment.`,
   },
@@ -22214,7 +22214,7 @@ We're Apple-certified technicians with 15+ years in Johannesburg. We've replaced
 We're also transparent about what we can and can't fix. If your iMac has a [logic board issue](/logic-board-repair) or [liquid damage](/liquid-damage), we'll tell you upfront and give you honest advice on repair versus replacement.
 
 **Book your Fusion Drive assessment today:**
-- **WhatsApp**: 064 529 5863
+- [**WhatsApp**: 064 529 5863](https://wa.me/27645295863)
 - **Online booking**: [zasupport.com/book](https://zasupport.com/book)
 - **Service areas**: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria
 
@@ -22438,7 +22438,7 @@ If your MacBook display is dim and you're in the Johannesburg area — Sandton, 
 
 We're located in Hyde Park and serve greater Gauteng. Our workshop is open Monday to Friday, 8:30 AM to 5 PM, Saturday 9 AM to 2 PM.
 
-**WhatsApp us:** 064 529 5863  
+[**WhatsApp us:** 064 529 5863](https://wa.me/27645295863)  
 **Book an assessment:** zasupport.com/book
 
 We also repair [logic board damage](/logic-board-repair) from liquid exposure, [water damage and corrosion](/liquid-damage), and most other MacBook faults. If your machine won't power on or shows kernel panics, logic board repair might be the answer.
@@ -22615,7 +22615,7 @@ Newer MacBook models (2020 onwards) use redesigned cable assemblies that are sig
 
 ## Getting Your MacBook Repaired in Johannesburg
 
-Our Hyde Park workshop is open Monday to Saturday, 08:00–17:00. To book a display cable assessment or repair, contact us via WhatsApp on **064 529 5863** or visit **zasupport.com/book** to reserve your appointment slot.
+Our Hyde Park workshop is open Monday to Saturday, 08:00–17:00. To book a display cable assessment or repair, contact us via [WhatsApp on **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to reserve your appointment slot.
 
 We're located within walking distance of the Hyundai dealership on Jan Smuts Avenue and offer complimentary parking for customers attending appointments. If you need to drop off your MacBook and collect later, we provide secure device storage and daily progress updates via email.
 
@@ -22706,7 +22706,7 @@ We offer same-day diagnosis and same-day repair completion for most display cabl
 
 **Ready to fix your MacBook display?**
 
-[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.`,
+[[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.`,
   },
   'macbook-pmic-repair-johannesburg': {
     slug: 'macbook-pmic-repair-johannesburg',
@@ -22793,7 +22793,7 @@ PMIC failure often accompanies [logic board damage](/logic-board-repair), especi
 
 Our workshop in Hyde Park handles all of these repairs. We've restored MacBooks that other technicians deemed unrepairable by addressing the root cause: a failed PMIC combined with localised corrosion on adjacent circuits.
 
-**Ready to get your MacBook fixed?** WhatsApp us on 064 529 5863 or book an appointment at [zasupport.com/book](https://zasupport.com/book). We service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Turnaround is typically 3–7 days depending on parts availability.
+**Ready to get your MacBook fixed?** [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or book an appointment at [zasupport.com/book](https://zasupport.com/book). We service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Turnaround is typically 3–7 days depending on parts availability.
 
 For more detail on how PMICs function, Apple's official guide is [here](https://support.apple.com/en-za/HT201642).
 
@@ -22886,7 +22886,7 @@ A: We do not recommend this. PMIC replacement requires a rework station (BGA/mic
 
 ---
 
-**WhatsApp us on 064 529 5863 or book your PMIC assessment at [zasupport.com/book](https://zasupport.com/book). We're open Monday–Saturday, Hyde Park Johannesburg.**
+**[WhatsApp us on 064 529 5863](https://wa.me/27645295863) or book your PMIC assessment at [zasupport.com/book](https://zasupport.com/book). We're open Monday–Saturday, Hyde Park Johannesburg.**
 \`\`\`
 `,
   },
@@ -23118,7 +23118,7 @@ Yes, though you want to avoid frequent switching because migration takes time an
 
 ---
 
-**Need managed IT support for your Morningside medical practice?** ZA Support serves Morningside, Bryanston, Sandton, and surrounding Gauteng areas with IT services designed specifically for healthcare. WhatsApp us on **064 529 5863** or [book a consultation](https://zasupport.com/book).
+**Need managed IT support for your Morningside medical practice?** ZA Support serves Morningside, Bryanston, Sandton, and surrounding Gauteng areas with IT services designed specifically for healthcare. [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book a consultation](https://zasupport.com/book).
 
 We also offer [device repairs and liquid damage recovery](https://zasupport.com/liquid-damage) for practice equipment. [Contact us](https://zasupport.com/contact) to discuss your practice's technology needs.
 
@@ -23194,7 +23194,7 @@ If you're charging to 100% multiple times per day to "stock up" for the next bla
 We operate by appointment in our Hyde Park location, with occasional satellite visits to Sandton and Rosebank. Turnaround time is typically same-day or next-business-day, depending on your model and current queue.
 
 **Contact us:**
-- **WhatsApp:** 064 529 5863 (fastest response)
+- [**WhatsApp:** 064 529 5863](https://wa.me/27645295863) (fastest response)
 - **Web booking:** [zasupport.com/book](https://zasupport.com/book)
 - **Email:** available through the booking portal
 
@@ -23298,7 +23298,7 @@ Avoid charging to 100% daily; aim for 20–80%. Use optimised battery charging i
 
 ---
 
-**Ready to restore your iPhone's battery health?** WhatsApp us on **064 529 5863** or book online at **[zasupport.com/book](https://zasupport.com/book)**. From R599 assessment,. From R599 assessment.`,
+**Ready to restore your iPhone's battery health?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book online at **[zasupport.com/book](https://zasupport.com/book)**. From R599 assessment,. From R599 assessment.`,
   },
   'liquid-damage-macbook-fourways': {
     slug: 'liquid-damage-macbook-fourways',
@@ -23412,7 +23412,7 @@ The assessment includes visual inspection under magnification, photographed docu
 
 ### Q: How long does liquid damage repair take?
 
-Typical turnaround is 5–7 working days. Complex cases involving multiple component replacements or micro-soldering may take longer. We provide daily updates via WhatsApp (064 529 5863) and email during the repair process.
+Typical turnaround is 5–7 working days. Complex cases involving multiple component replacements or micro-soldering may take longer. We provide daily updates via [WhatsApp (064 529 5863)](https://wa.me/27645295863) and email during the repair process.
 
 ### Q: Do you offer a warranty on liquid damage repairs?
 
@@ -23426,7 +23426,7 @@ Costs range from R2,800 (ultrasonic clean and minor trace repair) to R12,000+ (m
 
 If your MacBook has water damage, contact us now. Our Hyde Park workshop serves Fourways, Sandton, Rosebank, Bryanston, Midrand, Centurion, and surrounding areas across Gauteng.
 
-**Message us on WhatsApp: 064 529 5863**
+**Message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863)**
 
 **Book your assessment: zasupport.com/book**
 
@@ -23694,7 +23694,7 @@ We test restores monthly and provide you a report showing successful recovery. Y
 
 **Ready to protect your practice?**
 
-Message us on WhatsApp: **064 529 5863**  
+Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book your from R599 assessment: **[zasupport.com/book](https://zasupport.com/book)**
 
 ZA Support | Hyde Park, Johannesburg | Gauteng Medical IT Specialists`,
@@ -23795,7 +23795,7 @@ We offer **up to 3-year warranty** on managed IT contracts, meaning if our monit
 
 When something fails outside our scope, we offer **From R599 assessment** diagnostics from R599, meaning you only pay if we proceed with repairs.
 
-**Contact us** to discuss your practice's IT needs. Call us, WhatsApp 064 529 5863, or [book a time online](https://zasupport.com/book).
+**Contact us** to discuss your practice's IT needs. Call us, [WhatsApp 064 529 5863](https://wa.me/27645295863), or [book a time online](https://zasupport.com/book).
 
 ---
 
@@ -23880,7 +23880,7 @@ Yes. Managed IT includes emergency support weekdays 08:00–18:00 and on-call av
 
 ---
 
-**Ready to protect your practice?** WhatsApp us on 064 529 5863 or [book a consultation](https://zasupport.com/book). We'll assess your systems, discuss compliance gaps, and design a managed IT plan that fits your practice and budget.`,
+**Ready to protect your practice?** [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or [book a consultation](https://zasupport.com/book). We'll assess your systems, discuss compliance gaps, and design a managed IT plan that fits your practice and budget.`,
   },
   'imac-screen-replacement-johannesburg': {
     slug: 'imac-screen-replacement-johannesburg',
@@ -24038,7 +24038,7 @@ If this happens immediately after repair, contact us—it may be a loose connect
 }
 \`\`\`
 
-**Ready to get your iMac screen repaired? Message us on WhatsApp at 064 529 5863 or book your assessment at zasupport.com/book. We're in Hyde Park, Johannesburg, and we service all surrounding Gauteng suburbs.**`,
+**Ready to get your iMac screen repaired? Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book your assessment at zasupport.com/book. We're in Hyde Park, Johannesburg, and we service all surrounding Gauteng suburbs.**`,
   },
   'ipad-battery-replacement-johannesburg': {
     slug: 'ipad-battery-replacement-johannesburg',
@@ -24141,7 +24141,7 @@ Our standard turnaround is 24 hours from drop-off in our Hyde Park workshop. If 
 The warranty covers battery capacity below 80 per cent due to manufacturing defect or normal wear, adhesive failure causing the battery to shift, and charging circuit failures directly caused by the battery replacement work. It excludes physical damage (cracked casing, dropped devices), liquid damage, and loss of charge due to user behaviour like permanent heat exposure.
 
 ### Q: Do you fix iPads damaged by water or coffee spills?
-Yes, we handle liquid damage regularly. Corrosion on battery contacts or charging circuits is common in Johannesburg's humid summer months. Assessment and repair depend on damage extent. See our [liquid damage service page](/liquid-damage) for details, or WhatsApp 064 529 5863 with photos for a quick quote.
+Yes, we handle liquid damage regularly. Corrosion on battery contacts or charging circuits is common in Johannesburg's humid summer months. Assessment and repair depend on damage extent. See our [liquid damage service page](/liquid-damage) for details, or [WhatsApp 064 529 5863](https://wa.me/27645295863) with photos for a quick quote.
 
 ### Q: Why does my iPad still shut down at high percentages after you replaced the battery?
 This suggests logic board damage, usually to the charging circuit. A new battery won't resolve this. We'd diagnose the logic board during replacement and inform you if secondary repair is needed. If we found this issue before replacement, we'd explain it during assessment and give you the choice to proceed with both repairs or address the battery alone.
@@ -24190,7 +24190,7 @@ This suggests logic board damage, usually to the charging circuit. A new battery
       "name": "Do you fix iPads damaged by water or coffee spills?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we handle liquid damage regularly. Corrosion on battery contacts or charging circuits is common in Johannesburg's humid summer months. Assessment and repair depend on damage extent. See our liquid damage service page for details, or WhatsApp 064 529 5863 with photos for a quick quote."
+        "text": "Yes, we handle liquid damage regularly. Corrosion on battery contacts or charging circuits is common in Johannesburg's humid summer months. Assessment and repair depend on damage extent. See our liquid damage service page for details, or [WhatsApp 064 529 5863](https://wa.me/27645295863) with photos for a quick quote."
       }
     },
     {
@@ -24273,7 +24273,7 @@ If your MacBook has been exposed to spills or humidity—common in Johannesburg 
 
 ## Service Coverage in Gauteng
 
-We're based in Hyde Park, but we serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and as far as Centurion and Pretoria. If you're in these areas and your MacBook's battery is failing, you can [contact us](/contact) for an appointment or message us on WhatsApp at 064 529 5863. We also offer a booking system at zasupport.com/book if you prefer to schedule online.
+We're based in Hyde Park, but we serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and as far as Centurion and Pretoria. If you're in these areas and your MacBook's battery is failing, you can [contact us](/contact) for an appointment or message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863). We also offer a booking system at zasupport.com/book if you prefer to schedule online.
 
 Same-day appointments are available most weekdays. We'll have your MacBook ready to collect the same day if you bring it in before noon.
 
@@ -24295,7 +24295,7 @@ If your MacBook shuts down unexpectedly, drains rapidly even at high percentage,
 
 ### Q: How long does a MacBook battery replacement take?
 
-Most replacements take 2 to 3 hours at our Hyde Park workshop. If you drop your machine off before noon on a weekday, we can often have it ready the same day. For urgent cases, WhatsApp us on 064 529 5863 and we'll confirm availability.
+Most replacements take 2 to 3 hours at our Hyde Park workshop. If you drop your machine off before noon on a weekday, we can often have it ready the same day. For urgent cases, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) and we'll confirm availability.
 
 ### Q: What warranty do you offer on the new battery?
 
@@ -24333,7 +24333,7 @@ Not always. If your MacBook shows low cycle count but still drains quickly, or i
       "name": "How long does a MacBook battery replacement take?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most replacements take 2 to 3 hours at our Hyde Park workshop. If you drop your machine off before noon on a weekday, we can often have it ready the same day. For urgent cases, WhatsApp us on 064 529 5863 and we'll confirm availability."
+        "text": "Most replacements take 2 to 3 hours at our Hyde Park workshop. If you drop your machine off before noon on a weekday, we can often have it ready the same day. For urgent cases, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) and we'll confirm availability."
       }
     },
     {
@@ -24374,7 +24374,7 @@ Not always. If your MacBook shows low cycle count but still drains quickly, or i
 
 ---
 
-**Ready to fix your MacBook's battery?** Message us on WhatsApp: **064 529 5863** or book an appointment at **zasupport.com/book**. We're in Hyde Park, serving Sandton, Midrand, Bryanston, and across Gauteng. From R599 assessment, same-day service available.`,
+**Ready to fix your MacBook's battery?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or book an appointment at **zasupport.com/book**. We're in Hyde Park, serving Sandton, Midrand, Bryanston, and across Gauteng. From R599 assessment, same-day service available.`,
   },
   'macbook-charging-ic-repair-johannesburg': {
     slug: 'macbook-charging-ic-repair-johannesburg',
@@ -24456,7 +24456,7 @@ Complex issues? Your MacBook might also need [logic board repair](/logic-board-r
 
 We're based in Hyde Park, Johannesburg, and service the greater Gauteng area. 
 
-**WhatsApp us on 064 529 5863** to describe your charging issue. We'll advise whether you need a full assessment or can bring the machine in directly.
+**[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** to describe your charging issue. We'll advise whether you need a full assessment or can bring the machine in directly.
 
 **[Book an appointment online](/book)** if you prefer—assessment slots fill quickly, especially during load shedding season.
 
@@ -24545,7 +24545,7 @@ We guarantee every charging IC repair with a From R599 assessment promise (if th
 
 ---
 
-**Need your MacBook charging IC repaired?** WhatsApp **064 529 5863** or [book an assessment online](/book). We're in Hyde Park, Johannesburg, and we serve Sandton, Rosebank, Bryanston, Fourways, Centurion, and across Gauteng. From R599 assessment—credited toward repair if you proceed.
+**Need your MacBook charging IC repaired?** [WhatsApp **064 529 5863**](https://wa.me/27645295863) or [book an assessment online](/book). We're in Hyde Park, Johannesburg, and we serve Sandton, Rosebank, Bryanston, Fourways, Centurion, and across Gauteng. From R599 assessment—credited toward repair if you proceed.
 
 **[Contact ZA Support](/contact)** | **[Logic Board Repair](/logic-board-repair)** | **[Liquid Damage Recovery](/liquid-damage)** | **[Apple Support Reference](https://support.apple.com/en-za/guide/macbook-pro/)**`,
   },
@@ -24578,7 +24578,7 @@ In contrast, older MacBook Air models (2015–2017) have slightly more accessibl
 We offer same-day triage and pickup from Midrand locations including Centurion, Midrand proper, and neighbouring suburbs. Here's the process:
 
 **Step 1: Initial Contact & Triage Appointment**  
-Ring us on 064 529 5863 via WhatsApp, or book at zasupport.com/book. We'll ask: what liquid spilled, when, and whether the machine powered off naturally or you forced shutdown. This information helps us predict which components are at highest risk.
+Ring us on [064 529 5863](https://wa.me/27645295863) via WhatsApp, or book at zasupport.com/book. We'll ask: what liquid spilled, when, and whether the machine powered off naturally or you forced shutdown. This information helps us predict which components are at highest risk.
 
 **Step 2: Pickup or Drop-Off**  
 If you're in Midrand, we can often arrange same-day pickup. If you prefer, drop your MacBook at our Hyde Park workshop. Either way, we power it down in a controlled environment and begin assessment within two hours.
@@ -24629,7 +24629,7 @@ For more on liquid damage [see our detailed troubleshooting guide](/liquid-damag
 
 ## Book Your Same-Day Midrand Triage Today
 
-If your MacBook has taken on liquid, *every hour matters*. Ring us on **064 529 5863** (WhatsApp), or book at **zasupport.com/book** for same-day pickup in Midrand or drop-off at our Hyde Park workshop. Assessment starts at R599.
+If your MacBook has taken on liquid, *every hour matters*. Ring us on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp), or book at **zasupport.com/book** for same-day pickup in Midrand or drop-off at our Hyde Park workshop. Assessment starts at R599.
 
 We'll give you a transparent quote within two hours, and most repairs are completed within 24–48 hours. No Fix No Fee—if we can't save your machine, there's no charge.
 
@@ -24777,7 +24777,7 @@ All repairs include up to a 3-year warranty on parts and labour. If the same com
 
 **Step 1: Assessment (from R599).** You'll drop off your device or book an appointment online at zasupport.com/book. Our technician will power it on, run diagnostics, and use thermal imaging to check for liquid damage. We'll text you a detailed report within 2 hours.
 
-**Step 2: Quote and approval.** We send you a quote via WhatsApp (064 529 5863) or email. No Fix No Fee means if we can't repair it, you pay nothing. You approve by replying "yes" or call us to discuss options.
+**Step 2: Quote and approval.** We send you a quote via [WhatsApp (064 529 5863)](https://wa.me/27645295863) or email. No Fix No Fee means if we can't repair it, you pay nothing. You approve by replying "yes" or call us to discuss options.
 
 **Step 3: Component-level repair.** Our micro-soldering specialist removes the logic board, isolates the failed component under the microscope, applies flux and solder paste, and uses a hot air rework station to remove the old chip. A replacement component is cleaned, tested on a reference board, and installed. The board is then washed in isopropyl alcohol, dried, and reinstalled.
 
@@ -24892,7 +24892,7 @@ Yes. Post your device to us with a description of the fault. Include your contac
 
 ---
 
-**Ready to repair your logic board?** Book your from R599 assessment at **zasupport.com/book** or WhatsApp us on **064 529 5863**. We'll diagnose the fault, send you a no-obligation quote, and get your device working again—with up to 3 years' warranty and No Fix No Fee.
+**Ready to repair your logic board?** Book your from R599 assessment at **zasupport.com/book** or [WhatsApp us on **064 529 5863**](https://wa.me/27645295863). We'll diagnose the fault, send you a no-obligation quote, and get your device working again—with up to 3 years' warranty and No Fix No Fee.
 
 For more on liquid damage repair, see our guide on [liquid damage recovery](/liquid-damage). Learn about all [logic board repair services](/logic-board-repair) or [contact our Hyde Park workshop](/contact) with questions.
 
@@ -25042,7 +25042,7 @@ Not unconditionally. Slowness has many causes: worn SSD, failing storage, malwar
 
 ---
 
-**Ready to find out if your MacBook can be upgraded?** Book a from R599 assessment at our Hyde Park workshop or arrange mail-in service for anywhere in Johannesburg, Pretoria, Centurion, and beyond. Message us on WhatsApp at 064 529 5863 or visit [zasupport.com/book](https://zasupport.com/book).`,
+**Ready to find out if your MacBook can be upgraded?** Book a from R599 assessment at our Hyde Park workshop or arrange mail-in service for anywhere in Johannesburg, Pretoria, Centurion, and beyond. Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or visit [zasupport.com/book](https://zasupport.com/book).`,
   },
   'macbook-trackpad-ribbon-cable-johannesburg': {
     slug: 'macbook-trackpad-ribbon-cable-johannesburg',
@@ -25125,7 +25125,7 @@ Sometimes a failed trackpad ribbon cable is a warning sign. If your MacBook arri
 
 ## Book Your Trackpad Repair Today
 
-If your MacBook trackpad is unresponsive, frozen, or erratic, don't delay. Each day of use risks deeper logic board damage. [Contact ZA Support today](/contact) for a from R599 assessment, or message us on WhatsApp: **064 529 5863**. We serve Johannesburg's northern suburbs—Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside—plus Midrand and Centurion.
+If your MacBook trackpad is unresponsive, frozen, or erratic, don't delay. Each day of use risks deeper logic board damage. [Contact ZA Support today](/contact) for a from R599 assessment, or message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863). We serve Johannesburg's northern suburbs—Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside—plus Midrand and Centurion.
 
 [Book your repair online at zasupport.com/book](https://zasupport.com/book) and choose your preferred date. Most customers collect their MacBook within a week, trackpad working perfectly.
 
@@ -25222,7 +25222,7 @@ No. Each MacBook generation (Air, Pro, 13-inch, 15-inch, 16-inch) uses a unique 
 
 **Need Help Now?**
 
-Message us on WhatsApp: **064 529 5863** or [book your trackpad repair online](https://zasupport.com/book).
+Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or [book your trackpad repair online](https://zasupport.com/book).
 
 ZA Support | Hyde Park, Johannesburg | Apple Repair Specialists`,
   },
@@ -25524,7 +25524,7 @@ We'll be honest in our assessment. If we think replacement is your better option
 
 If your MacBook has taken on liquid, the absolute first step is power-down. Don't try to restart it. Don't leave it to dry. Don't take it to a general computer shop that doesn't specialise in Apple hardware.
 
-Contact ZA Support on WhatsApp at 064 529 5863 or visit our [booking page](https://zasupport.com/book) to arrange an assessment. We're based in Hyde Park, and we serve Bryanston, Sandton, Rosebank, Fourways, and the surrounding Gauteng area. We can often arrange same-day or next-day drop-off for urgent cases.
+Contact ZA Support on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or visit our [booking page](https://zasupport.com/book) to arrange an assessment. We're based in Hyde Park, and we serve Bryanston, Sandton, Rosebank, Fourways, and the surrounding Gauteng area. We can often arrange same-day or next-day drop-off for urgent cases.
 
 Your assessment will cost from R599. From there, we'll give you a clear repair quote with a timeline. You'll know exactly what you're paying and when your MacBook will be ready.
 
@@ -25615,7 +25615,7 @@ Yes. We recommend bringing it in as soon as possible after power-down. We often 
 
 **Ready to recover your MacBook? Contact ZA Support today.**
 
-WhatsApp: **064 529 5863**  
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **zasupport.com/book**  
 Located in Hyde Park, serving Bryanston and surrounding areas.`,
   },
@@ -25697,7 +25697,7 @@ Don't wait until your device won't power on. Early intervention saves both money
 
 Watch for: unexpected shutdowns, extreme heat from the base, freezing and performance drops, battery draining in minutes, no response to charger, unusual fan noise, or burnt smells. Any of these signals logic board stress.
 
-If you're in Houghton or nearby, contact us. WhatsApp 064 529 5863 for immediate response, or book via zasupport.com/book.
+If you're in Houghton or nearby, contact us. [WhatsApp 064 529 5863](https://wa.me/27645295863) for immediate response, or book via zasupport.com/book.
 
 For more on liquid damage — a common cause of logic board failure — see our guide on [liquid damage repair](/liquid-damage). If you need general information on [logic board repair](/logic-board-repair), we've written extensively on the subject.
 
@@ -25782,7 +25782,7 @@ We serve Hyde Park, Houghton, Sandton, Rosebank, Bryanston, Fourways, Morningsid
 
 ---
 
-**Need urgent help?** WhatsApp us on 064 529 5863 or book your assessment at **zasupport.com/book**. From R599 diagnosis, up to 3-year warranty, No Fix No Fee. We're in Hyde Park, serving all of Gauteng.`,
+**Need urgent help?** [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or book your assessment at **zasupport.com/book**. From R599 diagnosis, up to 3-year warranty, No Fix No Fee. We're in Hyde Park, serving all of Gauteng.`,
   },
   'mac-pro-2019-repair-johannesburg': {
     slug: 'mac-pro-2019-repair-johannesburg',
@@ -25850,7 +25850,7 @@ Assessment starts at R599 and includes hardware diagnostics, thermal baseline te
 
 ## Getting Your Mac Pro 2019 Serviced
 
-WhatsApp us on 064 529 5863 with your machine's serial number and observed symptoms. We'll discuss whether collection from your Johannesburg location is practical (we collect from Hyde Park, Sandton, Rosebank, Bryanston, and surrounding areas), or arrange drop-off at our workshop.
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) with your machine's serial number and observed symptoms. We'll discuss whether collection from your Johannesburg location is practical (we collect from Hyde Park, Sandton, Rosebank, Bryanston, and surrounding areas), or arrange drop-off at our workshop.
 
 You can also [book online at zasupport.com/book](https://zasupport.com/book) and select "Mac Pro 2019 Assessment" from the service menu.
 
@@ -25939,7 +25939,7 @@ We offer up to a 3-year warranty on parts and labour, provided the repair follow
 
 **Ready to get your Mac Pro 2019 assessed?**
 
-WhatsApp us: **064 529 5863** | Book online: **zasupport.com/book**
+[WhatsApp us: **064 529 5863**](https://wa.me/27645295863) | Book online: **zasupport.com/book**
 
 We're based in Hyde Park, Johannesburg, and service the entire Gauteng region including Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.`,
   },
@@ -26011,7 +26011,7 @@ We serve Rosebank, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion
 
 Our workshop operates Monday to Friday, 08:00 to 17:30, with urgent repairs often completed same-day for devices dropped before 10:00 am.
 
-Book your from R599 logic board assessment now: **zasupport.com/book** or message us on WhatsApp: **064 529 5863**.
+Book your from R599 logic board assessment now: **zasupport.com/book** or message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863).
 
 ---
 
@@ -26097,7 +26097,7 @@ Every repair includes a 12-month warranty on parts and labour. If the same compo
 ---
 
 **Book your assessment today.**
-WhatsApp: **064 529 5863**  
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Online: **zasupport.com/book**`,
   },
   'macbook-air-m2-board-repair-johannesburg': {
@@ -26126,7 +26126,7 @@ We have documented the most common M2 board failures across 340+ repairs in our 
 
 ## What Happens During a Logic Board Assessment
 
-When you contact us via WhatsApp at 064 529 5863 or book at zasupport.com/book, we schedule a from R599 assessment. This is not a generic checkout; it is a two-hour diagnostic session in our Hyde Park workshop where our senior technicians perform eight specific tests:
+When you contact us via [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book at zasupport.com/book, we schedule a from R599 assessment. This is not a generic checkout; it is a two-hour diagnostic session in our Hyde Park workshop where our senior technicians perform eight specific tests:
 
 First, we run the board through our thermal imaging camera to identify heat distribution anomalies. If a power stage is failing, it shows as a cold spot—the component is no longer consuming current because it has failed open-circuit.
 
@@ -26186,7 +26186,7 @@ We own the thermal imaging camera, the logic analyser, the precision multimeter,
 
 ## Next Steps: Book Your Assessment
 
-[Contact us](/contact) via WhatsApp at 064 529 5863 or book your from R599 assessment at zasupport.com/book. Bring your MacBook Air M2, any power adapter, and any history of the failure (when it started, what happened before, what you have already tried).
+[Contact us](/contact) via [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book your from R599 assessment at zasupport.com/book. Bring your MacBook Air M2, any power adapter, and any history of the failure (when it started, what happened before, what you have already tried).
 
 We will have a diagnostic report and repair estimate ready within two hours. Repair begins immediately if you approve, with expected completion in five working days.
 
@@ -26283,7 +26283,7 @@ Yes. All component-level repairs carry a three-year parts warranty and a six-mon
 
 **Ready to fix your M2? Contact ZA Support.**
 
-WhatsApp: 064 529 5863  
+[WhatsApp: 064 529 5863](https://wa.me/27645295863)  
 Book assessment: zasupport.com/book  
 Location: Hyde Park, Johannesburg (serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria)`,
   },
@@ -26389,7 +26389,7 @@ We've recovered several Macs in Rosebank and Fourways with minor liquid damage t
 
 Firmware restoration typically takes 2–3 hours in our Hyde Park workshop, though we often complete it the same day for appointments booked before 11 a.m. We include the restoration in our standard repair warranty: up to 3-year warranty on labour (terms apply), and our No Fix No Fee promise means if restoration doesn't resolve the issue, you're not charged.
 
-Booking is simple. Message us on WhatsApp at 064 529 5863 or book online at zasupport.com/book. We'll confirm your Mac's model and describe what we've found after the from R599 assessment.
+Booking is simple. Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book online at zasupport.com/book. We'll confirm your Mac's model and describe what we've found after the from R599 assessment.
 
 ## When Firmware Restoration Isn't Enough
 
@@ -26548,7 +26548,7 @@ If your WiFi issue stems from liquid exposure, you may need our [liquid damage r
 
 ## Booking Your WiFi Repair in Hyde Park
 
-We operate in the heart of Sandton, serving clients from Midrand to Centurion. Our workshop accommodates same-day drop-off and collection for most WiFi repairs. WhatsApp us on **064 529 5863** with your MacBook model and symptoms, or visit **zasupport.com/book** to reserve a time slot.
+We operate in the heart of Sandton, serving clients from Midrand to Centurion. Our workshop accommodates same-day drop-off and collection for most WiFi repairs. [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) with your MacBook model and symptoms, or visit **zasupport.com/book** to reserve a time slot.
 
 Your WiFi repair includes:
 - Full hardware diagnostic (from R599)
@@ -26638,7 +26638,7 @@ Rarely. A WiFi card replacement costs R1,500–R2,500 all-in. A used MacBook Air
 
 ---
 
-**Ready to restore your MacBook's WiFi?** Contact ZA Support in Hyde Park, Johannesburg. WhatsApp **064 529 5863** or book online at **zasupport.com/book**. We diagnose, repair, and test—all with No Fix No Fee.`,
+**Ready to restore your MacBook's WiFi?** Contact ZA Support in Hyde Park, Johannesburg. [WhatsApp **064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**. We diagnose, repair, and test—all with No Fix No Fee.`,
   },
   'corporate-mac-onboarding-johannesburg': {
     slug: 'corporate-mac-onboarding-johannesburg',
@@ -26736,7 +26736,7 @@ At our Hyde Park workshop, we support corporate Mac onboarding in several ways:
 
 Our service area covers Gauteng: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. Most corporate repairs are completed within 48 hours.
 
-For technical questions or to schedule a pre-deployment assessment, message us on WhatsApp: **064 529 5863**. Or visit our booking page: **zasupport.com/book**.
+For technical questions or to schedule a pre-deployment assessment, message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863). Or visit our booking page: **zasupport.com/book**.
 
 ## Frequently Asked Questions
 
@@ -26827,7 +26827,7 @@ We diagnose it at our Hyde Park workshop. If it's a hardware fault (logic board,
 
 **Need help with Mac onboarding in Johannesburg?**
 
-Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)
+Message us on [[WhatsApp: **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863)
 [Book an assessment at zasupport.com/book](https://zasupport.com/book)
 Visit us: ZA Support, Hyde Park, Johannesburg
 
@@ -27006,7 +27006,7 @@ It depends on corrosion severity and whether components need replacement. Your a
 
 If your MacBook has suffered liquid damage, the time to act is now. Contact ZA Support in Hyde Park today:
 
-**WhatsApp: 064 529 5863**  
+[**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863)  
 **Book your assessment: zasupport.com/book**
 
 We'll arrange a time convenient for you, usually within 24 hours. Your assessment from R599 includes a full diagnosis and a fixed repair quote—no hidden costs, no surprises. If we can't repair it, you don't pay for the attempt. No Fix No Fee.
@@ -27071,7 +27071,7 @@ Centurion customers who've attempted DIY logic board repair often find themselve
 
 ## The ZA Support Repair Process for Centurion Customers
 
-From your first contact until your device returns home, we follow a structured process designed for Centurion professionals and families. Contact us via WhatsApp at 064 529 5863 or book directly at zasupport.com/book.
+From your first contact until your device returns home, we follow a structured process designed for Centurion professionals and families. Contact us via [WhatsApp at 064 529 5863](https://wa.me/27645295863) or book directly at zasupport.com/book.
 
 We accept devices at our Hyde Park workshop or arrange collection from your Centurion office or home. Your device receives a from R599 professional assessment within 24 hours. We provide a detailed repair quote via WhatsApp, with photographs of the damage and explanation of recommended repairs.
 
@@ -27170,7 +27170,7 @@ Apple's warranty doesn't cover logic board damage anyway. Our repairs don't affe
 
 Your Apple device's logic board is repairable when you act quickly. We serve Centurion, Pretoria, Midrand, Bryanston, Sandton, Rosebank, and surrounding Gauteng suburbs from our Hyde Park workshop.
 
-Contact us via WhatsApp: **064 529 5863**  
+Contact us via [WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **zasupport.com/book**  
 From R599 assessment | No Fix No Fee | Up to 3-year warranty`,
   },
@@ -27425,7 +27425,7 @@ We accept bank transfer, card payment, and Mobicred financing. For repairs excee
 
 ## Getting Your Device Diagnosed in Fourways
 
-Visit our workshop at [location details on booking page](/book), or contact us via WhatsApp on **064 529 5863** to arrange a drop-off or on-site repair.
+Visit our workshop at [location details on booking page](/book), or contact us via [WhatsApp on **064 529 5863**](https://wa.me/27645295863) to arrange a drop-off or on-site repair.
 
 Our hours are Monday–Friday 08:00–18:00, Saturday 09:00–14:00. We're closed Sundays and public holidays.
 
@@ -27524,7 +27524,7 @@ Logic board repair requires specialised equipment (reflow ovens, thermal cameras
 
 **Ready to diagnose your logic board fault?**
 
-Contact ZA Support via WhatsApp: **064 529 5863** or book online at **zasupport.com/book**
+Contact ZA Support via [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**
 
 We're located in Hyde Park, serving Fourways, Sandton, Bryanston, Morningside, Midrand, and surrounding Gauteng suburbs.
 `,
@@ -27581,7 +27581,7 @@ You don't need to wait for total failure. Early warning signs include:
 
 Recent liquid damage is the most common trigger we see here in Gauteng. Our Midrand clients report spilled coffee in home offices during load shedding—devices sitting idle, power surges when electricity returns, then failure.
 
-If your device shows any of these signs, WhatsApp us on **064 529 5863** or book at **zasupport.com/book** for a full diagnostic assessment.
+If your device shows any of these signs, [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book at **zasupport.com/book** for a full diagnostic assessment.
 
 ## How Johannesburg's Power Environment Affects Logic Boards
 
@@ -27630,7 +27630,7 @@ We're based in **Hyde Park, Johannesburg**, and serve the entire Gauteng tech co
 - Pretoria
 
 **Contact us**:
-- WhatsApp: **064 529 5863** (fastest response)
+- [WhatsApp: **064 529 5863**](https://wa.me/27645295863) (fastest response)
 - Book online: **zasupport.com/book**
 - [Contact page](/contact)
 
@@ -27725,7 +27725,7 @@ Costs vary widely: iPhone logic board repair averages R1,500–R3,500; MacBook A
 
 ---
 
-**Need logic board diagnostics?** WhatsApp **064 529 5863** or book at **zasupport.com/book**. We're in Hyde Park, serving Midrand, Sandton, and all of Gauteng's tech corridor.
+**Need logic board diagnostics?** [WhatsApp **064 529 5863**](https://wa.me/27645295863) or book at **zasupport.com/book**. We're in Hyde Park, serving Midrand, Sandton, and all of Gauteng's tech corridor.
 `,
   },
   'logic-board-repair-rivonia': {
@@ -27799,7 +27799,7 @@ When you bring your Mac to ZA Support in Hyde Park (or visit [our booking page](
 
 **Handover:** We provide a printed repair receipt, warranty card, and backup of your system health report.
 
-For urgent repairs, we offer express diagnostics (same-day turnaround for assessment). Call us on 064 529 5863 or WhatsApp to check availability.
+For urgent repairs, we offer express diagnostics (same-day turnaround for assessment). [Call us on 064 529 5863](https://wa.me/27645295863) or WhatsApp to check availability.
 
 ## Preventing Logic Board Failure: Practical Steps for Rivonia and Sandton
 
@@ -27815,7 +27815,7 @@ Prevention is cheaper than repair. In our workshop, we advise Sandton, Rosebank,
 
 If your Mac is showing signs of trouble—unexpected shutdowns, battery drain, or kernel panics—don't wait. Our [liquid damage repair service](/liquid-damage) covers full board recovery, and our [general logic board repair page](/logic-board-repair) lists all board types we support (MacBook Air, MacBook Pro, Mac mini, iMac, Mac Studio).
 
-For urgent help, [contact us](https://zasupport.com/contact) or WhatsApp 064 529 5863.
+For urgent help, [contact us](https://zasupport.com/contact) or [WhatsApp 064 529 5863](https://wa.me/27645295863).
 
 ---
 
@@ -27906,7 +27906,7 @@ Load shedding causes power surges when electricity is restored. These surges ove
 
 ---
 
-**Need help now?** WhatsApp us on **064 529 5863** or [book your assessment online](https://zasupport.com/book). ZA Support is open Monday to Friday, 08:00–17:00, based in Hyde Park, Johannesburg. We serve Rivonia, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. **No Fix No Fee** on diagnostics—you only pay if you approve repair.
+**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book your assessment online](https://zasupport.com/book). ZA Support is open Monday to Friday, 08:00–17:00, based in Hyde Park, Johannesburg. We serve Rivonia, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. **No Fix No Fee** on diagnostics—you only pay if you approve repair.
 `,
   },
   'macbook-battery-replacement-rosebank': {
@@ -27996,7 +27996,7 @@ If your MacBook is still under Apple Care+, we can submit your claim directly. B
 
 **Book your same-day replacement:**
 
-WhatsApp **064 529 5863** or visit **zasupport.com/book** to secure your slot. We're based in Hyde Park, serving Rosebank, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. If you're in a surrounding suburb and prefer home collection, we arrange that—R299 collection fee within 15 km of Hyde Park.
+[WhatsApp **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to secure your slot. We're based in Hyde Park, serving Rosebank, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. If you're in a surrounding suburb and prefer home collection, we arrange that—R299 collection fee within 15 km of Hyde Park.
 
 ---
 
@@ -28089,7 +28089,7 @@ Yes. We calibrate the battery in-house (one full charge cycle), so it's ready fo
 
 **Ready to book your MacBook battery replacement in Rosebank?**
 
-WhatsApp us on **064 529 5863** or visit **zasupport.com/book**. Same-day service available. From R599 assessment—no guessing, no unnecessary parts.
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book**. Same-day service available. From R599 assessment—no guessing, no unnecessary parts.
 `,
   },
   'logic-board-repair-morningside': {
@@ -28154,7 +28154,7 @@ At our Hyde Park workshop, we've invested in professional-grade equipment: digit
 
 If you're in Morningside or anywhere across Gauteng and suspect logic board failure—your device won't power on, charges erratically, restarts randomly, or shows no response—contact us for assessment.
 
-**WhatsApp us on 064 529 5863** for quick enquiries, or **book your assessment at zasupport.com/book**. Assessments take 24–48 hours once received, and we'll contact you with findings and a fixed repair quote.
+**[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** for quick enquiries, or **book your assessment at zasupport.com/book**. Assessments take 24–48 hours once received, and we'll contact you with findings and a fixed repair quote.
 
 For detailed information on our broader repair services, visit our [logic board repair page](/logic-board-repair) or explore our [liquid damage repair service](/liquid-damage) if your device has experienced water exposure.
 
@@ -28247,7 +28247,7 @@ Yes. We offer up to a three-year warranty depending on repair type and device mo
 
 ---
 
-**Contact ZA Support today for logic board repair in Morningside and across Johannesburg. WhatsApp 064 529 5863 or book at zasupport.com/book. From R599 assessment. Up to three-year warranty. No Fix No Fee.**
+**Contact ZA Support today for logic board repair in Morningside and across Johannesburg. [WhatsApp 064 529 5863](https://wa.me/27645295863) or book at zasupport.com/book. From R599 assessment. Up to three-year warranty. No Fix No Fee.**
 `,
   },
   'macbook-clean-install-johannesburg': {
@@ -28328,7 +28328,7 @@ All our repair work, including clean installations, comes with up to a 3-year wa
 
 ## Getting Started: Contact ZA Support Johannesburg
 
-If you're in Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, or Pretoria, and your MacBook needs a clean install, reach out today. You can book online at **zasupport.com/book**, message us on WhatsApp at **064 529 5863**, or visit our workshop in Hyde Park in person. We'll schedule a time that suits you, perform a thorough assessment, and walk you through the entire process—answering any questions along the way.
+If you're in Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, or Pretoria, and your MacBook needs a clean install, reach out today. You can book online at **zasupport.com/book**, message us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863), or visit our workshop in Hyde Park in person. We'll schedule a time that suits you, perform a thorough assessment, and walk you through the entire process—answering any questions along the way.
 
 ---
 
@@ -28958,7 +28958,7 @@ We also offer preventative maintenance: cleaning the cooling system annually (R3
 
 Contact us three ways:
 
-1. **WhatsApp**: 064 529 5863 (fastest response)
+1. [**WhatsApp**: 064 529 5863](https://wa.me/27645295863) (fastest response)
 2. **Booking**: zasupport.com/book (pick your time slot)
 3. **Walk-in**: Hyde Park workshop, available Monday–Friday 08:00–18:00
 
@@ -29056,7 +29056,7 @@ Yes. Logic board repairs: up to 3-year warranty against component failure (not a
 
 **Need MacBook repair in Morningside? Contact ZA Support today.**
 
-WhatsApp: **064 529 5863** | Book online: **zasupport.com/book**
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863) | Book online: **zasupport.com/book**
 
 ---
 `,
@@ -29099,7 +29099,7 @@ Over a decade, we've identified patterns. Certain failures appear repeatedly acr
 
 ## How to Book Your MacBook Repair Near Milpark Hospital
 
-We keep appointments simple. WhatsApp us on **064 529 5863** with your MacBook model and fault description. We'll give you a rough timeline and cost estimate immediately.
+We keep appointments simple. [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) with your MacBook model and fault description. We'll give you a rough timeline and cost estimate immediately.
 
 For formal bookings, visit **zasupport.com/book** and select a time slot. Our calendar updates hourly. Most weekday slots fill 2–3 days ahead, so booking early is wise.
 
@@ -29239,7 +29239,7 @@ Our Hyde Park workshop is approximately 20 minutes' drive from Milpark Hospital,
 
 **Need your MacBook repaired today?**
 
-WhatsApp us: **064 529 5863**  
+[WhatsApp us: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **zasupport.com/book**
 
 We're open Monday–Friday, 8:30–17:00, and Saturday mornings by appointment. Milpark area residents, Bryanston, Rosebank, Midrand, and surrounding northern Johannesburg suburbs—we've got you covered.`,
@@ -29325,7 +29325,7 @@ No Fix No Fee: if a repaired device fails within warranty, we repair again at no
 
 ## How to Book Apple Support for Netcare Rosebank
 
-WhatsApp us: **064 529 5863**
+[WhatsApp us: **064 529 5863**](https://wa.me/27645295863)
 
 Online booking: **zasupport.com/book**
 
@@ -29357,7 +29357,7 @@ Yes. We enrol iPads into your Mobile Device Management system, push internal app
 
 ### Q: What's your response time for Netcare locations?
 
-For Netcare facilities in Rosebank or Sandton: next business day for on-site support. For urgent failures (EHR systems down, multiple devices affected), we provide same-day response if you call before 14:00. WhatsApp **064 529 5863** with photos of the issue and we'll prioritise.
+For Netcare facilities in Rosebank or Sandton: next business day for on-site support. For urgent failures (EHR systems down, multiple devices affected), we provide same-day response if you call before 14:00. [WhatsApp **064 529 5863**](https://wa.me/27645295863) with photos of the issue and we'll prioritise.
 
 ---
 
@@ -29411,7 +29411,7 @@ For Netcare facilities in Rosebank or Sandton: next business day for on-site sup
       "name": "What's your response time for Netcare locations?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "For Netcare facilities in Rosebank or Sandton: next business day for on-site support. For urgent failures (EHR systems down, multiple devices affected), we provide same-day response if you call before 14:00. WhatsApp 064 529 5863 with photos of the issue and we'll prioritise."
+        "text": "For Netcare facilities in Rosebank or Sandton: next business day for on-site support. For urgent failures (EHR systems down, multiple devices affected), we provide same-day response if you call before 14:00. [WhatsApp 064 529 5863](https://wa.me/27645295863) with photos of the issue and we'll prioritise."
       }
     }
   ]
@@ -29422,7 +29422,7 @@ For Netcare facilities in Rosebank or Sandton: next business day for on-site sup
 
 **Contact us today.**
 
-WhatsApp: **064 529 5863**  
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **zasupport.com/book**  
 Hyde Park, Johannesburg | Serving Rosebank, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion
 `,
@@ -29467,7 +29467,7 @@ Load shedding has been rough on Johannesburg businesses and home users. We've se
 
 ## The Assessment Process: What Happens When You Bring Your Mac In
 
-You call us or WhatsApp 064 529 5863 to book a time. We're open weekdays and some Saturdays. You drive to our Hyde Park location (it's convenient from Sunninghill, Bryanston, Morningside, and Fourways — most people are here in 15–20 minutes).
+You call us or [WhatsApp 064 529 5863](https://wa.me/27645295863) to book a time. We're open weekdays and some Saturdays. You drive to our Hyde Park location (it's convenient from Sunninghill, Bryanston, Morningside, and Fourways — most people are here in 15–20 minutes).
 
 We plug your Mac in. We run diagnostics. We check the logic board, the display, the battery, the storage, and the power management. Within 30 minutes to an hour, we know what's wrong and what it will cost to fix. The assessment is **from R599** — non-refundable if you proceed with the repair, credited in full if you don't.
 
@@ -29491,7 +29491,7 @@ We also handle POPIA compliance for any data we see. Your files stay private. We
 
 ## How to Book Your Mac Repair
 
-**WhatsApp:** 064 529 5863 (fastest response — usually within an hour)  
+[**WhatsApp:** 064 529 5863](https://wa.me/27645295863) (fastest response — usually within an hour)  
 **Website:** [zasupport.com/book](https://zasupport.com/book)  
 **Address:** Hyde Park, Johannesburg (postcode: 2196)
 
@@ -29521,7 +29521,7 @@ Absolutely. Speed is critical. If you spill liquid on your Mac, power it off imm
 
 ### Q: Are you open on weekends?
 
-We're open weekdays and select Saturdays. Check [zasupport.com/book](https://zasupport.com/book) for available slots or WhatsApp 064 529 5863 to confirm Saturday availability.
+We're open weekdays and select Saturdays. Check [zasupport.com/book](https://zasupport.com/book) for available slots or [WhatsApp 064 529 5863](https://wa.me/27645295863) to confirm Saturday availability.
 
 \`\`\`json
 {
@@ -29573,7 +29573,7 @@ We're open weekdays and select Saturdays. Check [zasupport.com/book](https://zas
       "name": "Are you open on weekends?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We're open weekdays and select Saturdays. Check zasupport.com/book for available slots or WhatsApp 064 529 5863 to confirm Saturday availability."
+        "text": "We're open weekdays and select Saturdays. Check zasupport.com/book for available slots or [WhatsApp 064 529 5863](https://wa.me/27645295863) to confirm Saturday availability."
       }
     }
   ]
@@ -29672,7 +29672,7 @@ We offer No Fix No Fee. If we can't repair it, you pay the assessment only. If y
 
 If your MacBook has failed and you need it working again—whether you're a GP in Sandton, a consultant in Rosebank, or a specialist working across Midrand—get in touch.
 
-Call or WhatsApp us on **064 529 5863**. Describe the fault. We'll tell you if we can fix it same-day, and we'll hold a slot for you.
+Call or [WhatsApp us on **064 529 5863**](https://wa.me/27645295863). Describe the fault. We'll tell you if we can fix it same-day, and we'll hold a slot for you.
 
 Or book online: **zasupport.com/book**. Choose your time, select "MacBook Repair," and we'll confirm within 2 hours.
 
@@ -29771,7 +29771,7 @@ We're based in Hyde Park but serve the greater Gauteng area including Centurion 
 
 **Need same-day MacBook repair in Johannesburg?**
 
-WhatsApp **064 529 5863** or book at **zasupport.com/book**.
+[WhatsApp **064 529 5863**](https://wa.me/27645295863) or book at **zasupport.com/book**.
 
 We're in Hyde Park. We fix it today.`,
   },
@@ -29801,7 +29801,7 @@ Our workshop in Hyde Park—just 15 minutes from Midstream Estate—stocks genui
 
 This is our most common repair request across Midstream Estate, Sandton, and Bryanston. Water, coffee, juice—it doesn't matter. Liquid seeps into the keyboard and trackpad assembly, then flows downward onto the logic board. The damage isn't always immediate. Sometimes a MacBook works for a few days after a spill, then suddenly shuts down or exhibits erratic behaviour.
 
-Our approach: we disassemble the machine fully, clean the logic board with specialist solvents, inspect for corrosion on power delivery circuits, and replace damaged components. We've recovered 87% of liquid-damaged MacBooks brought to us within 48 hours of the incident. The longer you wait, the more corrosion spreads. If your MacBook has suffered a spill, contact us immediately via WhatsApp: 064 529 5863.
+Our approach: we disassemble the machine fully, clean the logic board with specialist solvents, inspect for corrosion on power delivery circuits, and replace damaged components. We've recovered 87% of liquid-damaged MacBooks brought to us within 48 hours of the incident. The longer you wait, the more corrosion spreads. If your MacBook has suffered a spill, contact us immediately via [WhatsApp: 064 529 5863](https://wa.me/27645295863).
 
 Learn more: [Liquid Damage MacBook Repair](/liquid-damage)
 
@@ -29857,7 +29857,7 @@ Your MacBook leaves our workshop with up to a 3-year warranty on the repair. If 
 
 Ready to get your machine fixed? Contact us today:
 
-**WhatsApp:** 064 529 5863 (fastest response)  
+[**WhatsApp:** 064 529 5863](https://wa.me/27645295863) (fastest response)  
 **Book online:** zasupport.com/book  
 **Workshop:** Hyde Park, Johannesburg (serving Midstream Estate, Sandton, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria)
 
@@ -29962,7 +29962,7 @@ Contact Apple first through their official support. If Apple declines service or
 
 ---
 
-**Ready to book? WhatsApp 064 529 5863 or visit zasupport.com/book**`,
+**Ready to book? [WhatsApp 064 529 5863](https://wa.me/27645295863) or visit zasupport.com/book**`,
   },
   'jamf-implementation-sandton-johannesburg': {
     slug: 'jamf-implementation-sandton-johannesburg',
@@ -30155,7 +30155,7 @@ JAMF requires technical knowledge, which is why we exist. Most Sandton and Midra
 
 **Ready to implement JAMF securely across your Johannesburg business?**
 
-WhatsApp us: **064 529 5863**  
+[WhatsApp us: **064 529 5863**](https://wa.me/27645295863)  
 [Book a consultation at our Hyde Park workshop](https://zasupport.com/book)  
 [Contact ZA Support for more details](/contact)`,
   },
@@ -30323,7 +30323,7 @@ We're based in Hyde Park and service agencies across Johannesburg, including San
 
 ---
 
-**Ready to get your iMac running again?** Book your assessment now at **zasupport.com/book** or message us on **WhatsApp: 064 529 5863**. We'll get you back to work.`,
+**Ready to get your iMac running again?** Book your assessment now at **zasupport.com/book** or message us on [**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863). We'll get you back to work.`,
   },
   'tech-startup-jamf-setup-johannesburg': {
     slug: 'tech-startup-jamf-setup-johannesburg',
@@ -30399,14 +30399,14 @@ South Africa's Protection of Personal Information Act (POPIA) requires clear dat
 
 Once your JAMF environment is live, devices need ongoing care. In our Hyde Park workshop, we offer:
 
-- **JAMF Management Support:** Ongoing policy updates, troubleshooting enrollments, and app distribution management. We're on WhatsApp at 064 529 5863 for quick issues.
+- **JAMF Management Support:** Ongoing policy updates, troubleshooting enrollments, and app distribution management. We're on [WhatsApp at 064 529 5863](https://wa.me/27645295863) for quick issues.
 - **Device Hardware Support:** If a MacBook in your Bryanston office develops logic board issues or liquid damage, we diagnose and repair. See our [logic board repair](/logic-board-repair) and [liquid damage](/liquid-damage) services for details.
 - **Extended Warranty:** We offer up to 3-year warranties on hardware repairs, giving startups predictable costs as they scale.
 - **No Fix No Fee:** If we can't repair a device, you don't pay diagnosis—we absorb the cost.
 
 ## How to Get Started: JAMF Setup for Your Johannesburg Startup
 
-**Step 1:** Book a R599 technical assessment via WhatsApp (064 529 5863) or our [booking page](https://zasupport.com/book). We'll review your current setup, device inventory, and network.
+**Step 1:** Book a R599 technical assessment via [WhatsApp (064 529 5863)](https://wa.me/27645295863) or our [booking page](https://zasupport.com/book). We'll review your current setup, device inventory, and network.
 
 **Step 2:** We'll provide a quote for Apple Business Manager setup, JAMF Pro configuration, and rollout timeline.
 
@@ -30567,7 +30567,7 @@ Our Hyde Park workshop is centrally positioned to serve Sandton businesses, Rose
 - Loaner device provision
 - Comprehensive reporting on fleet health trends
 
-From R599 assessment onwards, we'll evaluate your current fleet, identify maintenance priorities, and establish sustainable management protocols for your Johannesburg operation. Contact us at 064 529 5863 via WhatsApp or [book directly online at zasupport.com/book](https://zasupport.com/book).
+From R599 assessment onwards, we'll evaluate your current fleet, identify maintenance priorities, and establish sustainable management protocols for your Johannesburg operation. Contact us at [064 529 5863](https://wa.me/27645295863) via WhatsApp or [book directly online at zasupport.com/book](https://zasupport.com/book).
 
 ## Frequently Asked Questions
 
@@ -30862,7 +30862,7 @@ POPIA doesn't require you to explicitly mention FileVault in privacy notices. Bu
 
 Contact ZA Support in Hyde Park. Assessment from R599. Up to 3-year warranty on repairs. No Fix No Fee.
 
-**WhatsApp us:** 064 529 5863  
+[**WhatsApp us:** 064 529 5863](https://wa.me/27645295863)  
 **Book online:** [zasupport.com/book](https://zasupport.com/book)
 
 For hardware failures affecting your data security, see our [logic board repair](/logic-board-repair) and [liquid damage recovery](/liquid-damage) services. Learn more at [Apple Support's FileVault documentation](https://support.apple.com/en-us/HT204837).
@@ -30909,7 +30909,7 @@ Hospitals are sterile environments, but offices near Charlotte Maxeke Hospital a
 
 Speed is critical. If you spill liquid on your Mac, power it off immediately. Don't try to dry it with heat (hair dryer, rice, sunlight). Bring it to us. We'll disassemble it fully, clean the affected components with isopropyl alcohol, dry them under controlled conditions, and test every circuit. Cost depends on severity. A minor spillage cleaned within hours might cost R1,200–R1,800. A major spill affecting the logic board could reach R5,000–R8,500.
 
-The key: liquid damage worsens hourly. The sooner you act, the lower the final bill. We're in Hyde Park. From Charlotte Maxeke Hospital, we're 10 minutes away by car. Text us a photo of the spill on WhatsApp (064 529 5863), and we'll advise immediately.
+The key: liquid damage worsens hourly. The sooner you act, the lower the final bill. We're in Hyde Park. From Charlotte Maxeke Hospital, we're 10 minutes away by car. Text us a photo of the spill on [WhatsApp (064 529 5863)](https://wa.me/27645295863), and we'll advise immediately.
 
 ## Storage, Battery & Performance Issues – The Everyday Fixes
 
@@ -30933,7 +30933,7 @@ Five competitors target "Apple repair near Charlotte Maxeke Hospital" on Google.
 
 **Genuine parts only.** We use Apple-certified components and iFixit-grade tools. No third-party batteries or refurbished boards without full disclosure and warranty.
 
-Booking is simple. Visit **[zasupport.com/book](https://zasupport.com/book)** to select your time slot, or text WhatsApp **064 529 5863** with your Mac model and issue. We'll respond within 2 hours.
+Booking is simple. Visit **[zasupport.com/book](https://zasupport.com/book)** to select your time slot, or text [WhatsApp **064 529 5863**](https://wa.me/27645295863) with your Mac model and issue. We'll respond within 2 hours.
 
 ## Service Area – We Cover Gauteng's North
 
@@ -30961,7 +30961,7 @@ Yes. If your storage is intact but your Mac won't boot, we extract the drive, co
 
 ### Q: What should I do if I spill liquid on my Mac?
 
-Power it off immediately. Don't plug it in or attempt to dry it yourself. Bring it to us or message WhatsApp 064 529 5863 with a photo. We'll clean and test it. Costs depend on damage, but early action dramatically reduces the bill. Most spills we see within 2 hours result in full recovery.
+Power it off immediately. Don't plug it in or attempt to dry it yourself. Bring it to us or message [WhatsApp 064 529 5863](https://wa.me/27645295863) with a photo. We'll clean and test it. Costs depend on damage, but early action dramatically reduces the bill. Most spills we see within 2 hours result in full recovery.
 
 ### Q: Why is your assessment R599 instead of free?
 
@@ -31011,7 +31011,7 @@ A proper diagnostic involves hardware testing, software scanning, thermal imagin
       "name": "What should I do if I spill liquid on my Mac?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Power it off immediately. Don't plug it in or attempt to dry it yourself. Bring it to us or message WhatsApp 064 529 5863 with a photo. We'll clean and test it. Costs depend on damage, but early action dramatically reduces the bill. Most spills we see within 2 hours result in full recovery."
+        "text": "Power it off immediately. Don't plug it in or attempt to dry it yourself. Bring it to us or message [WhatsApp 064 529 5863](https://wa.me/27645295863) with a photo. We'll clean and test it. Costs depend on damage, but early action dramatically reduces the bill. Most spills we see within 2 hours result in full recovery."
       }
     },
     {
@@ -31030,7 +31030,7 @@ A proper diagnostic involves hardware testing, software scanning, thermal imagin
 
 **Need a Mac repair near Charlotte Maxeke Hospital? Get started today.**
 
-Message us on WhatsApp: **064 529 5863**  
+Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **[zasupport.com/book](https://zasupport.com/book)**  
 We're in Hyde Park, Johannesburg. From Parktown, Braamfontein, or the hospital precinct, we're 10–15 minutes away.`,
   },
@@ -31112,7 +31112,7 @@ We also maintain internal guides for common scenarios — macOS network binding,
 If your team near Life Fourways Hospital needs Apple support, start with an assessment. From R599, we diagnose your device, identify the issue, and provide a clear repair recommendation with pricing and timeline. If we determine your warranty covers the work, there's no assessment fee.
 
 **Contact us:**
-- **WhatsApp:** 064 529 5863 (fastest response)
+- [**WhatsApp:** 064 529 5863](https://wa.me/27645295863) (fastest response)
 - **Book online:** [zasupport.com/book](https://zasupport.com/book)
 - **Email:** via our contact form
 
@@ -31144,7 +31144,7 @@ Yes. We configure iOS devices through Apple Business Manager, deploy your clinic
 
 ### Q: What if we need support urgently outside normal business hours?
 
-WhatsApp 064 529 5863 — we monitor this channel and respond to urgent requests the same day, often within hours. For critical device failures affecting patient care or operations, we can arrange emergency support. Costs for after-hours or emergency support are transparent and discussed before work begins.
+[WhatsApp 064 529 5863](https://wa.me/27645295863) — we monitor this channel and respond to urgent requests the same day, often within hours. For critical device failures affecting patient care or operations, we can arrange emergency support. Costs for after-hours or emergency support are transparent and discussed before work begins.
 
 ---
 
@@ -31198,7 +31198,7 @@ WhatsApp 064 529 5863 — we monitor this channel and respond to urgent requests
       "name": "What if we need support urgently outside normal business hours?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "WhatsApp 064 529 5863 — we monitor this channel and respond to urgent requests the same day, often within hours. For critical device failures affecting patient care or operations, we can arrange emergency support. Costs for after-hours or emergency support are transparent and discussed before work begins."
+        "text": "[WhatsApp 064 529 5863](https://wa.me/27645295863) — we monitor this channel and respond to urgent requests the same day, often within hours. For critical device failures affecting patient care or operations, we can arrange emergency support. Costs for after-hours or emergency support are transparent and discussed before work begins."
       }
     }
   ]
@@ -31496,7 +31496,7 @@ We have observed that standard MacBook-level cleaning protocols fail on iMac boa
 1. **Disconnect all peripherals** within 2 minutes of liquid contact
 2. **Do not open the enclosure** — the anti-reflective display coating will sustain permanent damage if exposed to air-dry cycles
 3. **Transport to ZA Support (Hyde Park) in a sealed, tilted bag** to prevent liquid redistribution
-4. **Contact our team on WhatsApp: 064 529 5863** for emergency triage
+4. **Contact our team on [WhatsApp: 064 529 5863](https://wa.me/27645295863)** for emergency triage
 
 Our R599 diagnostic assessment includes:
 
@@ -32298,7 +32298,7 @@ All repairs include 12-month parts warranty and are performed in-workshop across
 
 ## Contact ZA Support for Logic Board Diagnosis
 
-If your MacBook Pro is showing any of these seven signs, don't delay. Visit our [/logic-board-repair](/logic-board-repair) page for detailed repair information, or contact us immediately via WhatsApp: **064 529 5863**.
+If your MacBook Pro is showing any of these seven signs, don't delay. Visit our [/logic-board-repair](/logic-board-repair) page for detailed repair information, or contact us immediately via [WhatsApp: **064 529 5863**](https://wa.me/27645295863).
 
 We're open Monday–Friday, 9 AM–5 PM, and we service Sandton, Rosebank, Morningside, Bryanston, Parktown, Johannesburg, and surrounding northern suburbs.
 
@@ -32448,7 +32448,7 @@ Enable reduced motion and reduce screen brightness where practical—these decre
 
 ## Booking Your MacBook Battery Replacement
 
-**WhatsApp us on 064 529 5863** with your MacBook's year, model, and a photo of any visible damage or swelling. We'll provide an initial assessment and confirm appointment availability.
+**[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** with your MacBook's year, model, and a photo of any visible damage or swelling. We'll provide an initial assessment and confirm appointment availability.
 
 Our workshop is open Monday to Friday, 08:00–17:00 SAST. We accept walk-ins for assessments, though booking ahead ensures we have your model's battery in stock.
 
@@ -32488,7 +32488,7 @@ Every 6 months for daily-use MacBooks. Download coconutBattery (free, trusted by
 
 **Workshop Location**: Hyde Park, Johannesburg  
 **Service Area**: Fourways and Gauteng (≤60km from Hyde Park)  
-**WhatsApp**: 064 529 5863  
+[**WhatsApp**: 064 529 5863](https://wa.me/27645295863)  
 **Assessment Fee**: R599 (non-refundable, deducted from service)  
 **Warranty**: 12 months on all replacements
 
@@ -32674,7 +32674,7 @@ We're easily accessible from Randburg via the N1 toward Johannesburg CBD, then t
 
 **Contact us:**
 
-- **WhatsApp:** 064 529 5863 (fastest response)
+- [**WhatsApp:** 064 529 5863](https://wa.me/27645295863) (fastest response)
 - **Email:** [contact](/contact)
 - **Service area:** Gauteng only, ≤60km from Hyde Park (Randburg fully covered)
 
@@ -32964,7 +32964,7 @@ If repair cost is under 60% of replacement cost, it's usually worth it. A MacBoo
 
 **Ready for a no-obligation assessment?**
 
-Drop us a message on WhatsApp: **064 529 5863**  
+Drop us a message on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
 Book online: **[zasupport.com/book](https://zasupport.com/book)**
 
 We're based in Hyde Park, Johannesburg, and we service Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. All repair quotes include our **No Fix No Fee** promise — your R599 assessment applies as credit if you proceed.
@@ -33010,7 +33010,7 @@ We don't guess. Every Mac Pro gets:
 4. **Logic board electrical testing** — we use precision multimeters and oscilloscopes to check power rails, clock distribution, and GPU voltage.
 5. **Storage validation** — we test every drive with SMART data readout and (if needed) sector-level imaging to confirm failure mode.
 
-The assessment takes 45 minutes on average. We'll message you via WhatsApp on 064 529 5863 with findings and a fixed quote—no surprises, no "call for details."
+The assessment takes 45 minutes on average. We'll message you via [WhatsApp on 064 529 5863](https://wa.me/27645295863) with findings and a fixed quote—no surprises, no "call for details."
 
 Our **No Fix No Fee policy** means you don't pay labour if we can't repair the machine. If we diagnose a fault we can't fix (e.g. you need a logic board replacement and we lack the board in stock), we'll tell you upfront, charge only the R599 assessment, and point you to the next step.
 
@@ -33037,7 +33037,7 @@ A Mac Pro is a long-term investment. We've seen machines from 2008 still running
 
 We're not a chain repair centre. We're technicians who work on Macs every day in a workshop where we control the environment. We stock parts locally, so you're not waiting for courier delays from Cape Town. We understand the specific climate and power challenges of Johannesburg and Gauteng. And we back every repair with a no-nonsense warranty because we're confident in our work.
 
-[Contact us today to book your Mac Pro assessment](/contact), or message us on WhatsApp at 064 529 5863. From R599, you'll have a clear diagnosis and a path forward.
+[Contact us today to book your Mac Pro assessment](/contact), or message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863). From R599, you'll have a clear diagnosis and a path forward.
 
 ---
 
@@ -33128,7 +33128,7 @@ We diagnose the fault and charge only the R599 assessment fee. We'll explain you
 
 ---
 
-**Ready to get your Mac Pro fixed?** Message us on WhatsApp: **064 529 5863** | Book online: **zasupport.com/book**
+**Ready to get your Mac Pro fixed?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) | Book online: **zasupport.com/book**
 `,
   },
   'macbook-hdmi-not-working-johannesburg': {
@@ -33235,7 +33235,7 @@ A faulty USB-C to HDMI adapter costs R450–R800 and takes one hour to swap. Log
 
 **Assessment**: from R599 (redeemable against repair costs).
 
-**Booking**: [zasupport.com/book](https://zasupport.com/book) or WhatsApp 064 529 5863.
+**Booking**: [zasupport.com/book](https://zasupport.com/book) or [WhatsApp 064 529 5863](https://wa.me/27645295863).
 
 We service: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
@@ -33332,7 +33332,7 @@ This points to either port contact failure (most likely, requires professional c
 
 **Need HDMI repair in Johannesburg?**
 
-Book your assessment at [zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp: 064 529 5863.
+Book your assessment at [zasupport.com/book](https://zasupport.com/book) or message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863).
 
 From R599. No Fix No Fee. 3-year warranty.
 `,
@@ -33419,7 +33419,7 @@ Back up your data constantly. If a short does occur, your files remain safe on i
 
 If you're in Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, or Pretoria, and your MacBook shows any of the symptoms described above, contact us for an assessment.
 
-We offer flexible booking at **zasupport.com/book** or message us on **WhatsApp: 064 529 5863** for urgent cases. We aim to diagnose logic board shorts within 24 hours of your first contact.
+We offer flexible booking at **zasupport.com/book** or message us on [**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863) for urgent cases. We aim to diagnose logic board shorts within 24 hours of your first contact.
 
 Our workshop stocks common replacement components, so many repairs are completed within 3–5 working days. We provide a loaner MacBook (on request) if your repair takes longer, so you can stay productive.
 
@@ -33510,7 +33510,7 @@ A full diagnostic assessment costs from R599. This includes visual inspection, v
 
 ---
 
-**Ready to book?** Visit **zasupport.com/book** or message **WhatsApp: 064 529 5863** for same-day assessment in Hyde Park, Sandton, Midrand, or Pretoria.
+**Ready to book?** Visit **zasupport.com/book** or message [**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863) for same-day assessment in Hyde Park, Sandton, Midrand, or Pretoria.
 `,
   },
   'macbook-pro-2020-intel-repair-johannesburg': {
@@ -33574,7 +33574,7 @@ Keep your machine off the bed (blocks vents), avoid sudden temperature changes (
 
 ## Getting Your MacBook Pro 2020 Intel Repaired in Johannesburg
 
-Book your assessment at **zasupport.com/book** or message us on WhatsApp: **064 529 5863**. We're open Monday to Friday, 9am–6pm, and Saturday 10am–2pm at our Hyde Park workshop. We also service clients from Rosebank, Bryanston, Sandton, Morningside, Centurion, and Pretoria with courier collection options.
+Book your assessment at **zasupport.com/book** or message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863). We're open Monday to Friday, 9am–6pm, and Saturday 10am–2pm at our Hyde Park workshop. We also service clients from Rosebank, Bryanston, Sandton, Morningside, Centurion, and Pretoria with courier collection options.
 
 For urgent liquid damage situations, call us directly—we keep microscopes and soldering stations ready for emergency repairs that can't wait.
 
@@ -33663,7 +33663,7 @@ We repair all MacBook Pro 2020 Intel models regardless of where they were purcha
 
 **Ready to get your MacBook Pro 2020 Intel running like new?**
 
-Book your R599 assessment at **zasupport.com/book** or contact us on WhatsApp: **064 529 5863**. We're in Hyde Park, Johannesburg, and service all Gauteng suburbs including Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+Book your R599 assessment at **zasupport.com/book** or contact us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863). We're in Hyde Park, Johannesburg, and service all Gauteng suburbs including Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 No Fix No Fee. 12-month warranty standard. Up to 3-year warranty on logic board and thermal repairs.
 
@@ -33754,7 +33754,7 @@ We've noticed that Centurion customers often opt for courier because the 45-minu
 
 ## Booking Your Repair
 
-Visit [zasupport.com/book](https://zasupport.com/book) to check availability and reserve a time slot. We operate Monday to Friday, 08:00–17:30, and selected Saturdays. WhatsApp us on 064 529 5863 if you'd rather discuss your device first — most queries get a response within two hours.
+Visit [zasupport.com/book](https://zasupport.com/book) to check availability and reserve a time slot. We operate Monday to Friday, 08:00–17:30, and selected Saturdays. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) if you'd rather discuss your device first — most queries get a response within two hours.
 
 The R599 assessment is the next step. We'll connect your device to diagnostics tools, check the battery health, scan for logic board issues, and give you a written quote before we touch anything. No surprises, no hidden costs.
 
@@ -33847,7 +33847,7 @@ We can, but we'll void Apple's coverage. If your device is covered by AppleCare+
 
 ---
 
-**Ready to get a quote?** WhatsApp us on **064 529 5863** or book your assessment at **[zasupport.com/book](https://zasupport.com/book)**. We'll assess your device for R599 and give you an honest repair estimate — no obligation, no sales pressure.`,
+**Ready to get a quote?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or book your assessment at **[zasupport.com/book](https://zasupport.com/book)**. We'll assess your device for R599 and give you an honest repair estimate — no obligation, no sales pressure.`,
   },
   'logic-board-repair-price-guide-johannesburg': {
     slug: 'logic-board-repair-price-guide-johannesburg',
@@ -33919,7 +33919,7 @@ Our technicians have certified training from Apple and iFixit-level micro-solder
 
 A from R599 assessment takes 2–4 hours. We'll connect your device to our diagnostic rig, identify the fault, and give you a fixed quote before we do any work. No surprises. No "it might cost more once we open it up."
 
-Book online at [zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp at 064 529 5863. If you prefer to walk in, we're open Monday to Friday 08:00–17:00 and Saturday 09:00–14:00 at our Hyde Park workshop.
+Book online at [zasupport.com/book](https://zasupport.com/book) or message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863). If you prefer to walk in, we're open Monday to Friday 08:00–17:00 and Saturday 09:00–14:00 at our Hyde Park workshop.
 
 For urgent faults (device won't power on, complete failure), WhatsApp is fastest. We often fit emergency diagnostics between scheduled jobs.
 
@@ -34010,7 +34010,7 @@ Yes. Every logic board repair comes with up to three years' warranty depending o
 
 **Need a logic board repair in Johannesburg? Book your from R599 assessment today.**
 
-WhatsApp: **064 529 5863** | Online booking: **[zasupport.com/book](https://zasupport.com/book)**
+[WhatsApp: **064 529 5863**](https://wa.me/27645295863) | Online booking: **[zasupport.com/book](https://zasupport.com/book)**
 
 We're in Hyde Park, serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. Monday–Friday 08:00–17:00, Saturday 09:00–14:00.
 `,
@@ -34083,7 +34083,7 @@ Most customers get their machine back within 3–5 working days. If we discover 
 
 ## How to Book Your Repair in Johannesburg
 
-Contact us via WhatsApp: **064 529 5863** or visit **zasupport.com/book** to schedule. Tell us your MacBook model and describe the damage. We'll confirm the from R599 assessment fee and your appointment slot.
+Contact us via [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or visit **zasupport.com/book** to schedule. Tell us your MacBook model and describe the damage. We'll confirm the from R599 assessment fee and your appointment slot.
 
 We're based in Hyde Park but we serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. If you're outside this range, we can discuss collection and delivery options.
 
@@ -34115,7 +34115,7 @@ Most standard laptop insurance policies in South Africa exclude accidental damag
 
 ---
 
-**Contact ZA Support now for your MacBook screen assessment.** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book).
+**Contact ZA Support now for your MacBook screen assessment.** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book).
 
 `,
   },
@@ -34205,7 +34205,7 @@ We operate from our workshop at **Hyde Park, Johannesburg**. Service areas inclu
 
 **To book your assessment:**
 
-Message us on WhatsApp: **064 529 5863**
+Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)
 
 Or visit **zasupport.com/book** to choose a time slot.
 
@@ -34304,7 +34304,7 @@ Yes. When we remove your old battery, we store it safely and send it to an e-was
 
 **Your MacBook doesn't have to die at 40% charge. Get a proper diagnosis from R599, genuine parts, and same-day service in Hyde Park.**
 
-**Message us on WhatsApp: 064 529 5863 or book at zasupport.com/book**
+**Message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863) or book at zasupport.com/book**
 
 ---
 
@@ -34381,7 +34381,7 @@ This is why the assessment matters. At ZA Support, we charge from R599 for a com
 
 We offer up to a 3-year warranty on repairs, which means your investment is protected. Our No Fix No Fee promise means if we can't solve it, you don't pay. That's confidence built on workshop experience.
 
-We're based in Hyde Park, serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. You can book your assessment at [zasupport.com/book](https://zasupport.com/book) or message us on WhatsApp at 064 529 5863.
+We're based in Hyde Park, serving Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion. You can book your assessment at [zasupport.com/book](https://zasupport.com/book) or message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863).
 
 ## Making Your Decision
 
@@ -34415,7 +34415,7 @@ If we diagnose a problem and attempt repair but can't resolve it, you don't pay 
 
 ### Q: Should I repair my MacBook or buy a new one?
 
-If the repair cost is under 40% of the machine's current value and the machine is less than 6 years old, repair usually makes sense. If repair exceeds 50% of replacement cost or your machine is over 7 years old with multiple problems, replacement is smarter. Get an assessment to decide with certainty. Message us on WhatsApp at 064 529 5863 or visit [zasupport.com/book](https://zasupport.com/book).
+If the repair cost is under 40% of the machine's current value and the machine is less than 6 years old, repair usually makes sense. If repair exceeds 50% of replacement cost or your machine is over 7 years old with multiple problems, replacement is smarter. Get an assessment to decide with certainty. Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or visit [zasupport.com/book](https://zasupport.com/book).
 
 ---
 
@@ -34469,14 +34469,14 @@ If the repair cost is under 40% of the machine's current value and the machine i
       "name": "Should I repair my MacBook or buy a new one?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the repair cost is under 40% of the machine's current value and the machine is less than 6 years old, repair usually makes sense. If repair exceeds 50% of replacement cost or your machine is over 7 years old with multiple problems, replacement is smarter. Get an assessment to decide with certainty. Message us on WhatsApp at 064 529 5863 or visit zasupport.com/book."
+        "text": "If the repair cost is under 40% of the machine's current value and the machine is less than 6 years old, repair usually makes sense. If repair exceeds 50% of replacement cost or your machine is over 7 years old with multiple problems, replacement is smarter. Get an assessment to decide with certainty. Message us on [WhatsApp at 064 529 5863](https://wa.me/27645295863) or visit zasupport.com/book."
       }
     }
   ]
 }
 \`\`\`
 
-**Book your assessment today: [zasupport.com/book](https://zasupport.com/book) | WhatsApp: 064 529 5863**`,
+**Book your assessment today: [zasupport.com/book](https://zasupport.com/book) | [WhatsApp: 064 529 5863](https://wa.me/27645295863)**`,
   },
   'liquid-damage-macbook-air-johannesburg': {
     slug: 'liquid-damage-macbook-air-johannesburg',
@@ -34628,7 +34628,7 @@ If anything fails the stability cycle, the board goes back for further work. The
 }
 \`\`\`
 
-**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.
+**Need help now?** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.
 `,
   },
   'liquid-damage-macbook-pro-randburg': {
@@ -34740,7 +34740,7 @@ We don't charge for the assessment if you decide not to proceed with the repair 
       "name": "Do I need an appointment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We prefer a quick WhatsApp on 064 529 5863 before you drive through, mostly so we can let you know whether the workshop has capacity that day and whether the bench is clear for an intake. For liquid damage specifically we'll usually tell you to come straight in regardless of capacity because the time delay matters more than our schedule. For other repairs we'll give you a slot."
+        "text": "We prefer a quick [WhatsApp on 064 529 5863](https://wa.me/27645295863) before you drive through, mostly so we can let you know whether the workshop has capacity that day and whether the bench is clear for an intake. For liquid damage specifically we'll usually tell you to come straight in regardless of capacity because the time delay matters more than our schedule. For other repairs we'll give you a slot."
       }
     },
     {
@@ -34755,7 +34755,7 @@ We don't charge for the assessment if you decide not to proceed with the repair 
 }
 </script>
 
-**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Randburg and across Gauteng.
+**Need help now?** [[WhatsApp us on **064 529 5863**](https://wa.me/27645295863)](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Randburg and across Gauteng.
 `,
   },
   'spilled-water-macbook-air-johannesburg': {
@@ -35027,13 +35027,13 @@ For repairs, the range varies more than water damage because coffee residue remo
 
 We give you the number after the assessment, in writing, before we proceed. If the repair is not economical, we tell you. We do not surprise clients with invoices that have grown past the original quote.
 
-Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number. Contact ZA Support on 064 529 5863 with your model and serial number for a confirmed quote.
+Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number. Contact ZA Support on [064 529 5863](https://wa.me/27645295863) with your model and serial number for a confirmed quote.
 
 ## Bringing It In
 
 Our workshop is on Jan Smuts Avenue in Hyde Park. We see clients from Sandton, Rosebank, Bryanston, Fourways, Morningside, and across Johannesburg. Most coffee-damage drop-offs happen the same day. The triage scan is usually back to you within a few hours, and the assessment within 24 hours of receipt.
 
-If you cannot get to us, we collect from anywhere in Johannesburg. Call us on 064 529 5863 and we arrange the courier the same day. The clock is the most important variable in coffee damage, so the sooner we have the machine, the more we save.
+If you cannot get to us, we collect from anywhere in Johannesburg. [Call us on 064 529 5863](https://wa.me/27645295863) and we arrange the courier the same day. The clock is the most important variable in coffee damage, so the sooner we have the machine, the more we save.
 
 ## FAQ
 
@@ -35088,7 +35088,7 @@ Coffee damage is the most common spill we see, and the questions are the same we
 }
 </script>
 
-If your MacBook Pro has just had a coffee spill, the time to act is now. Call us on 064 529 5863. The Hyde Park workshop is open six days a week and we collect from anywhere in Johannesburg. The faster the machine reaches us, the more of it we save.
+If your MacBook Pro has just had a coffee spill, the time to act is now. [Call us on 064 529 5863](https://wa.me/27645295863). The Hyde Park workshop is open six days a week and we collect from anywhere in Johannesburg. The faster the machine reaches us, the more of it we save.
 `,
   },
   'macbook-liquid-damage-warning-signs-checklist': {
@@ -35240,7 +35240,7 @@ The machines we have rejected from buyers across Sandton and Rosebank in the las
 
 ## Frequently Asked Questions
 
-Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number. Contact ZA Support on 064 529 5863 with your model and serial number for a confirmed quote.
+Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number. Contact ZA Support on [064 529 5863](https://wa.me/27645295863) with your model and serial number for a confirmed quote.
 
 If you are reading this because something feels off about your MacBook, the next step is the easiest one. Phone us on **064 529 5863**, send us your model identifier and serial number on WhatsApp, and we will book you in at our Hyde Park workshop at a time that suits you. The R599 buys you certainty, and certainty is the cheapest part of any liquid damage story.
 
@@ -35394,7 +35394,7 @@ The recovery range itself sits between R1,800 and R6,500 depending on the severi
 
 If the logic board cannot be economically recovered, data-only recovery sits between R2,500 and R5,000 depending on the chip-off complexity and the volume of data to extract. We deliver the recovered data on an external drive that you keep, encrypted at rest if you want that.
 
-Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number. Contact ZA Support on 064 529 5863 with your model and serial number for a confirmed quote.
+Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number. Contact ZA Support on [064 529 5863](https://wa.me/27645295863) with your model and serial number for a confirmed quote.
 
 Turnaround for a standard recovery is three to seven working days, with the bulk of that being the seventy-two-hour soak test. Same-day data-only recovery is available for emergencies where the data is the priority and the device replacement is already in motion. We will tell you which path makes sense at the assessment stage rather than guessing.
 
@@ -35563,7 +35563,7 @@ The timeline depends on the recovery path. Workshop-bench recovery is usually th
 
 For medical and legal clients with active patient or matter obligations, we offer urgent prioritisation on workshop-bench recovery cases at no premium. We understand that a paediatric practice with a Monday deadline cannot wait two weeks. The standard timelines are honest defaults; the actual delivery depends on the case.
 
-Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number and completes the assessment. Contact ZA Support on 064 529 5863 with your model and serial number for a confirmed quote.
+Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number and completes the assessment. Contact ZA Support on [064 529 5863](https://wa.me/27645295863) with your model and serial number for a confirmed quote.
 
 ## Frequently Asked Questions
 
@@ -35854,7 +35854,7 @@ We provide an up to 3-year warranty on the specific fault we repair. This is doc
 **Can you recover data from a MacBook Pro 14-inch with a dead logic board?**
 In many cases, yes. If the board is partially functional — for example, it powers on but will not boot — we can often extract the SSD content. If the board is completely dead, data recovery depends on the nature of the fault. We will advise you after the assessment.
 
-[WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your assessment at our Hyde Park workshop.
+[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your assessment at our Hyde Park workshop.
 `,
   },
 
@@ -35934,7 +35934,7 @@ Typically three to five working days. We will confirm the timeline when we give 
 **What warranty do you offer?**
 An up to 3-year warranty on the specific fault repaired, provided in writing. This covers parts and labour for a repeat of the same fault within the warranty period.
 
-[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to discuss your fault, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your R599 assessment at our Hyde Park workshop.
+[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to discuss your fault, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your R599 assessment at our Hyde Park workshop.
 `,
   },
 
@@ -36010,7 +36010,7 @@ Yes. We have ongoing relationships with several GP and specialist practices in M
 **What warranty do you offer on M2 Air board repairs?**
 An up to 3-year warranty on the specific fault repaired. This is provided in writing and covers both parts and labour.
 
-[WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.
+[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) for a same-day response, or [book at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.
 `,
   },
 
@@ -36094,7 +36094,7 @@ Yes. We offer a weekday courier collection service from Sandton, Rosebank, Morni
 **What warranty do I get on the repair?**
 An up to 3-year written warranty on the specific fault repaired, covering parts and labour. For corporate clients, we include warranty documentation suitable for IT asset records.
 
-[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your fault and get an immediate response, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your assessment at our Hyde Park workshop.
+[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to describe your fault and get an immediate response, or [book at zasupport.com/book](https://zasupport.com/book) to arrange your assessment at our Hyde Park workshop.
 `,
   },
   'macbook-pro-logic-board-repair-johannesburg-2026': {
@@ -36171,7 +36171,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p><strong>Day 5–7: Testing and handover.</strong> The repaired board runs a 48-hour stress test before handover. We test every function — charging, display, Wi-Fi, Bluetooth, Thunderbolt ports, Touch ID, and keyboard. The machine leaves with a 3-year warranty on the repair work.</p>
 
-<p>You can <a href="/contact">contact us</a> to book an assessment, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a quick chat about your symptoms before bringing the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve a time slot.</p>
+<p>You can <a href="/contact">contact us</a> to book an assessment, or [[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) for a quick chat about your symptoms before bringing the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve a time slot.</p>
 
 <h2>Why MacBook Pro Logic Board Repairs Are Worth Doing in 2026</h2>
 
@@ -36191,7 +36191,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p><strong>Q: Is it worth repairing an older Intel MacBook Pro?</strong><br>A: It depends on the age, the fault, and the cost. We routinely repair 2018–2021 Intel MacBook Pros where the repair cost is well below replacement cost. For 2016–2017 models, we are honest about the calculus and recommend replacement if repair cost exceeds 30% of a comparable second-hand M-series machine.</p>
 
-<p><strong>Q: Do you offer collection from Sandton or Fourways?</strong><br>A: Yes. We collect from Sandton, Rosebank, Bryanston, Fourways, and other Johannesburg areas by arrangement. Contact us or WhatsApp 064 529 5863 to arrange a collection time.</p>
+<p><strong>Q: Do you offer collection from Sandton or Fourways?</strong><br>A: Yes. We collect from Sandton, Rosebank, Bryanston, Fourways, and other Johannesburg areas by arrangement. Contact us or [WhatsApp 064 529 5863](https://wa.me/27645295863) to arrange a collection time.</p>
 `,
   },
   'macbook-air-logic-board-repair-johannesburg': {
@@ -36262,7 +36262,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p>Clients from Midrand and Centurion regularly make the trip to our Hyde Park workshop for repairs at this price point — the saving versus Apple Store or board-swap pricing makes it easily worthwhile. We also collect from Randburg on arranged days.</p>
 
-<p>To get started, <a href="/contact">contact us</a> or [WhatsApp us on 064 529 5863](https://wa.me/27645295863). You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot. Our full <a href="/logic-board-repair">logic board repair service</a> page has more detail on what to expect.</p>
+<p>To get started, <a href="/contact">contact us</a> or [[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863). You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot. Our full <a href="/logic-board-repair">logic board repair service</a> page has more detail on what to expect.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -36349,7 +36349,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p>Do not wait for a failing MacBook Pro M1 to reach full failure. Power-on failures get more difficult to diagnose once corrosion has had time to spread. Random shutdowns risk data loss. Charging faults left untreated can result in a fully discharged battery that complicates the repair.</p>
 
-<p>[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your symptoms before bringing the machine in — we can often tell you within a few messages what the likely cause is and what the repair will cost. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
+<p>[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to describe your symptoms before bringing the machine in — we can often tell you within a few messages what the likely cause is and what the repair will cost. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
 
 <p>For more detail on the repair process itself, see our <a href="/logic-board-repair">MacBook logic board repair service page</a> and our guide on <a href="/liquid-damage">liquid damage recovery</a> if you suspect moisture is involved.</p>
 
@@ -36450,7 +36450,7 @@ An up to 3-year written warranty on the specific fault repaired, covering parts 
 
 <p>Bring your MacBook to our Hyde Park, Johannesburg workshop for a from R599 assessment. We serve clients from across Gauteng, including Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, and Randburg. The assessment takes two to four hours, and you will have a complete picture of your options before committing to anything.</p>
 
-<p>[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to tell us about the symptoms you are seeing — we can often give you a preliminary sense of the likely repair category before you bring the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
+<p>[[WhatsApp us on 064 529 5863](https://wa.me/27645295863)](https://wa.me/27645295863) to tell us about the symptoms you are seeing — we can often give you a preliminary sense of the likely repair category before you bring the machine in. You can also [book at zasupport.com/book](https://zasupport.com/book) to reserve your assessment slot.</p>
 
 <p>If you want further context on what a logic board repair involves, see our <a href="/logic-board-repair">logic board repair service page</a> and our guide to <a href="/contact">contacting our workshop</a>. The <a href="https://www.ifixit.com/Guide/MacBook+Pro+Logic+Board+Repair/1" target="_blank" rel="noopener noreferrer">iFixit MacBook repair guide library</a> gives a good sense of the technical complexity involved in these repairs and why specialist tooling matters.</p>
 
@@ -37309,7 +37309,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         { '@type': 'Question', name: 'How much does MacBook logic board repair cost in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'Component-level logic board repair at ZA Support starts from significantly less than the R4,499 charged for board swaps at Mac Shack and far less than the R15,000–R70,000 Apple charges for board replacement. Assessment: from R599 in Hyde Park, Johannesburg.' } },
         { '@type': 'Question', name: 'What causes MacBook logic board failure?', acceptedAnswer: { '@type': 'Answer', text: 'The most common causes are: liquid damage (corrosion burns traces and chips over days to weeks), power surges during load shedding (common in South Africa), manufacturing defects in specific batches, thermal damage from years of high-temperature operation, and physical damage from drops.' } },
         { '@type': 'Question', name: 'My MacBook was working and then just stopped — is this the logic board?', acceptedAnswer: { '@type': 'Answer', text: 'Sudden complete failure (working one moment, completely dead the next) with no prior warning is often a power management failure on the logic board, a catastrophic component failure, or a result of a power surge. Unlike mechanical failures that degrade gradually, electronic failures can be instantaneous. Assessment determines the specific component at fault.' } },
-        { '@type': 'Question', name: 'How do I get a MacBook logic board repaired in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'ZA Support performs MacBook logic board repair in Hyde Park, Johannesburg. Contact us via WhatsApp on 064 529 5863 or call us. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding areas. Assessment: from R599.' } },
+        { '@type': 'Question', name: 'How do I get a MacBook logic board repaired in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'ZA Support performs MacBook logic board repair in Hyde Park, Johannesburg. Contact us via [WhatsApp on 064 529 5863](https://wa.me/27645295863) or call us. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding areas. Assessment: from R599.' } },
       ],
     },
     'apple-prepping-ios-26-4-1-update-for-iphone-south-africa-2026': {
@@ -37647,7 +37647,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         { '@type': 'Question', name: 'What happens if a medical practice has a data breach in South Africa?', acceptedAnswer: { '@type': 'Answer', text: 'POPIA section 22 requires notification to the Information Regulator "as soon as reasonably possible" after becoming aware of a breach. Affected data subjects must also be notified. In practice the Regulator expects notification within 72 hours. A practice approaching the process from a position of documented corrective action — "these are the controls we had, this is what failed, this is what we have already fixed" — is in a materially stronger position than one scrambling to reconstruct evidence after the fact.' } },
         { '@type': 'Question', name: 'How much does POPIA-aligned managed IT cost for a Johannesburg medical practice?', acceptedAnswer: { '@type': 'Answer', text: 'Our medical-practice managed IT service is scoped per practice after a documented assessment from R599. Typical pricing for a solo practice with two to three staff starts from R4,999 monthly and covers monitoring, backups, patching, endpoint security, Microsoft 365 administration, and the signed operator agreement. Larger practices with multiple rooms and integrated medical software are scoped individually. We do not publish fixed per-user pricing because practice environments vary too much for a single rate to be honest.' } },
         { '@type': 'Question', name: 'Does ZA Support work with medical software like GoodX or MedEDI?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. We support practices running GoodX, MedEDI, Elixir, and Vericlaim as part of our managed IT service. We do not sell the medical software — the vendor handles the application itself — but we support the infrastructure it runs on: the workstations, the server or cloud environment, the network, the backups, and the security controls around the patient database. We maintain working relationships with the major vendors\' support teams so issues are resolved without the practice mediating.' } },
-        { '@type': 'Question', name: 'How do I start a POPIA compliance review of my practice\'s IT?', acceptedAnswer: { '@type': 'Answer', text: 'Email courtney@zasupport.com or WhatsApp 064 529 5863 with your practice name and location. We arrange a 30-minute site visit at 1 Hyde Park Lane or at the practice. The assessment (from R599) produces a written report covering: current technical controls, gaps against POPIA requirements, recommended remediation, indicative pricing, and a draft operator agreement.  — the report is yours regardless.' } },
+        { '@type': 'Question', name: 'How do I start a POPIA compliance review of my practice\'s IT?', acceptedAnswer: { '@type': 'Answer', text: 'Email courtney@zasupport.com or [WhatsApp 064 529 5863](https://wa.me/27645295863) with your practice name and location. We arrange a 30-minute site visit at 1 Hyde Park Lane or at the practice. The assessment (from R599) produces a written report covering: current technical controls, gaps against POPIA requirements, recommended remediation, indicative pricing, and a draft operator agreement.  — the report is yours regardless.' } },
       ],
     },
     'macbook-pro-m3-logic-board-repair-johannesburg': {
@@ -37661,7 +37661,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         { '@type': 'Question', name: 'How long does MacBook Pro M3 logic board repair take?', acceptedAnswer: { '@type': 'Answer', text: 'Five to seven working days. Day one is disassembly and detailed microscope inspection. Days two to four are for the actual microsoldering work — M3 components are extremely small and require careful thermal control. Days five to six are reassembly and 48-hour soak testing. Day seven allows a buffer for unexpected complications. We do not rush M3 repairs; the tolerance for solder reflow errors is very low on M-series boards.' } },
         { '@type': 'Question', name: 'Is component-level M3 logic board repair better than Apple board replacement?', acceptedAnswer: { '@type': 'Answer', text: 'For the majority of faults, yes — component repair costs a third to a fifth of Apple\'s replacement quote, retains the SSD with existing data, and preserves the original serial number. Apple\'s advantage is speed (5 to 10 working days turnaround for parts) and a like-new board. The trade-off is cost: a R4,999 component repair versus a R42,000 board swap. For a machine that is two to three years old, the economics of component repair are compelling.' } },
         { '@type': 'Question', name: 'Do you repair MacBook Pro M3 boards from outside Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. Our workshop at 1 Hyde Park Lane receives MacBook Pro M3 boards from Cape Town, Durban, Pretoria, and Bloemfontein regularly. We provide a courier-friendly packaging checklist and accept machines via The Courier Guy or Postnet overnight services. The assessment report and repair timeline are the same regardless of where the client is based. We return the repaired machine via the same courier service with insurance.' } },
-        { '@type': 'Question', name: 'How do I book a MacBook Pro M3 logic board repair?', acceptedAnswer: { '@type': 'Answer', text: 'WhatsApp 064 529 5863 or email courtney@zasupport.com with your M3 MacBook Pro model (14-inch or 16-inch, base M3 or M3 Pro or M3 Max), serial number, and a description of the symptom. We confirm a drop-off slot or courier address within 24 hours. Assessment is R599 and includes a written diagnosis plus fixed-price repair quote within two working days.' } },
+        { '@type': 'Question', name: 'How do I book a MacBook Pro M3 logic board repair?', acceptedAnswer: { '@type': 'Answer', text: '[WhatsApp 064 529 5863](https://wa.me/27645295863) or email courtney@zasupport.com with your M3 MacBook Pro model (14-inch or 16-inch, base M3 or M3 Pro or M3 Max), serial number, and a description of the symptom. We confirm a drop-off slot or courier address within 24 hours. Assessment is R599 and includes a written diagnosis plus fixed-price repair quote within two working days.' } },
       ],
     },
     'imac-logic-board-repair-johannesburg-2026': {
@@ -37675,7 +37675,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         { '@type': 'Question', name: 'Do I need to bring the iMac to your workshop, or can you collect it?', acceptedAnswer: { '@type': 'Answer', text: 'For clients in the Gauteng 60km service area (Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, Pretoria, and surrounds) we offer a paid collection-and-return service from R499 depending on distance. Clients outside Gauteng typically send iMacs via The Courier Guy Overnight Express — we provide the packaging guidance. Walk-in drop-off at 1 Hyde Park Lane is free. Assessment fee of R599 applies regardless of how the iMac reaches us.' } },
         { '@type': 'Question', name: 'Will my iMac data be safe during logic board repair?', acceptedAnswer: { '@type': 'Answer', text: 'Yes for Intel iMacs — the storage (SSD, HDD, or Fusion Drive) is a separate module that we remove before board work and reinstall afterwards. Data is preserved. For M1 and M3 iMacs the SSD is soldered to the board, so if the repair touches the storage section we discuss this at the quote stage. In all cases we recommend a verified Time Machine or iCloud backup before any board work — we verify this during the R599 assessment.' } },
         { '@type': 'Question', name: 'Is it worth repairing a 2015 or 2017 Intel iMac instead of buying a new M4?', acceptedAnswer: { '@type': 'Answer', text: 'For document work, web browsing, creative photography, video editing up to 1080p, and office productivity, a 2015 or 2017 iMac with a working logic board, 16 GB of RAM, and a 1 TB SSD is perfectly capable — and the upgrade costs roughly R7,500 total versus R35,000 for a base M4 iMac. For professional 4K video, Final Cut Pro, Logic Pro with large plugin chains, or code compilation on large projects, the M4 Intel jump is material. We give an honest recommendation during assessment.' } },
-        { '@type': 'Question', name: 'How do I book an iMac logic board repair assessment?', acceptedAnswer: { '@type': 'Answer', text: 'WhatsApp 064 529 5863 or email courtney@zasupport.com with your iMac model (size, year, processor), serial number from the back stand, and a description of the fault. We confirm a drop-off slot or arrange collection within 24 hours. Assessment is R599 and produces a written diagnosis plus fixed-price repair quote within two working days. From R599 assessment if the board is not economically repairable.' } },
+        { '@type': 'Question', name: 'How do I book an iMac logic board repair assessment?', acceptedAnswer: { '@type': 'Answer', text: '[WhatsApp 064 529 5863](https://wa.me/27645295863) or email courtney@zasupport.com with your iMac model (size, year, processor), serial number from the back stand, and a description of the fault. We confirm a drop-off slot or arrange collection within 24 hours. Assessment is R599 and produces a written diagnosis plus fixed-price repair quote within two working days. From R599 assessment if the board is not economically repairable.' } },
       ],
     },
     'iphone-fold-is-on-track-to-launch-this-september-per-ma-south-africa-2026': {
