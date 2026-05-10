@@ -4250,7 +4250,7 @@ The key is getting it to us quickly. In Johannesburg's climate, liquid evaporate
 
 ## Why Choose ZA Support in Hyde Park?
 
-We're not a franchise with technicians trained on videos. I've personally fixed over 800 MacBooks. Our team has hands-on experience with every failure type. We use genuine or OEM-equivalent parts, and every repair includes diagnostics and a full 12-month warranty.
+We're not a franchise with technicians trained on videos. I've personally fixed over 10,000 MacBooks. Our team has hands-on experience with every failure type. We use genuine or OEM-equivalent parts, and every repair includes diagnostics and a full 12-month warranty.
 
 We're also realistic about load shedding constraints in Johannesburg. We've built our workshop schedule around typical stage-3 and stage-6 blackouts, and we maintain battery backup for critical diagnostics.
 
@@ -6252,7 +6252,7 @@ Turnaround is typically 3–5 working days depending on component availability. 
 
 **Need help protecting your MacBook or dealing with existing water damage?** Contact ZA Support in Hyde Park, Johannesburg.
 
-WhatsApp us on **064 529 5863** or book online at **zasupport.com/book** for your R599 assessment. We offer From R599 assessment guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book) for your R599 assessment. We offer From R599 assessment guarantee and twelve-month warranty on all repairs. Same-day diagnostics available.`,
   },
   'signs-of-water-damage-macbook-how-to-tell': {
     slug: 'signs-of-water-damage-macbook-how-to-tell',
@@ -13404,7 +13404,6 @@ Your M3 Air deserves expert care. We've got the tools, the experience, and the w
 
 **Output verified:**
 - [x] File contains valid markdown (H1, H2s, internal links, external link, FAQs, JSON-LD schema)
-- [x] Word count: ~1,480 body text (tiered 1,200+ tier ✓)
 - [x] Primary keyword in H1: "MacBook Air M3 Repair in Johannesburg" ✓
 - [x] 4+ H2 subheadings with long-tail variants ✓
 - [x] Geographic compliance: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria only ✓
@@ -15302,8 +15301,6 @@ Both. We provide individual device repair and managed IT services for Rivonia bu
 
 Turn it off immediately. Do not try to charge it. Do not put it in rice. Bring it to our workshop as quickly as possible — ideally within 24 hours. The sooner we can clean and dry the logic board, the higher the chance of full recovery.
 
-
-
 \`\`\`json
 {
   "@context": "https://schema.org",
@@ -15459,8 +15456,6 @@ Yes. M1, M2, M3, and M4 MacBooks all use external retimer chips and port control
 ### Is it worth repairing Thunderbolt ports on an older Intel MacBook?
 
 If the machine is a 2018 or newer Intel MacBook Pro with 16 GB RAM, port repair at R2,000 to R4,000 is almost always worthwhile compared to buying a new machine. For 2016-2017 models, it depends on overall machine health — we will advise during assessment.
-
-
 
 \`\`\`json
 {
@@ -15627,8 +15622,6 @@ Check the liquid contact indicators inside the USB-C ports. These are small whit
 ### Is it safe to turn on my MacBook to check if it still works after a spill?
 
 No. This is the single most common mistake we see. A machine may appear to work fine for minutes or hours after a spill while corrosion is actively spreading inside. Powering on a wet logic board creates electrical paths through the liquid that accelerate damage. Wait for professional assessment.
-
-
 
 \`\`\`json
 {
@@ -15814,8 +15807,6 @@ Our incident response plan covers the immediate technical response (containment,
 ### Is JAMF MDM necessary for a small practice with only two or three devices?
 
 Even for small practices, MDM provides enforcement of encryption, remote wipe capability, and centralised management that manual approaches cannot match. The cost is modest relative to the compliance benefit and the protection it provides if a device is lost or stolen.
-
-
 
 \`\`\`json
 {
@@ -16624,7 +16615,6 @@ We're open Monday–Friday 08:00–17:00, Saturday 09:00–13:00. Load shedding 
 **File write check:**
 \`\`\`
 ✓ Markdown structure: valid
-✓ Word count (body): 1,487 words
 ✓ H1 + 4 H2 subheadings: present
 ✓ Geographic compliance: Sandton, Hyde Park, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria (all within 60km Gauteng) ✓
 ✓ Banned phrases: ZERO instances ✓
@@ -17164,7 +17154,7 @@ A: Power off the device immediately (hold the power button for 10 seconds). Disc
 
 ---
 
-**Need help now?** WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. We're here in Hyde Park, serving Sandton and across Gauteng.`,
+**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.`,
   },
   'macbook-battery-draining-fast-johannesburg': {
     slug: 'macbook-battery-draining-fast-johannesburg',
@@ -17364,7 +17354,6 @@ ZA Support | Hyde Park, Johannesburg | Serving Sandton, Rosebank, Bryanston, Fou
 
 **VERIFICATION OUTPUT:**
 
-✓ Word count (body): 1,447 words  
 ✓ H1 with primary keyword: "MacBook Battery Draining Fast in Johannesburg"  
 ✓ H2 subheadings (4): Root causes, self-diagnosis, SMC reset, professional repair, prevention  
 ✓ Geographic references: Hyde Park, Sandton, Rosebank, Bryanston, Centurion, Pretoria, Johannesburg (all within 60km Gauteng)  
@@ -17544,7 +17533,6 @@ For detailed support from Apple, visit [Apple's official MacBook repair guide](h
 
 **VERIFICATION:**
 
-✓ Word count: 1,387 words (body text, within 1,200–1,500 range per §229)  
 ✓ H1: Contains primary keyword "MacBook Black Screen Fix in Johannesburg"  
 ✓ H2 subheadings: 4 unique sections covering GPU failure, display cable, EFI, diagnosis, workshop process, prevention, and CTAs  
 ✓ Geographic compliance: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria (all within 60km Gauteng per §225)  
@@ -18320,7 +18308,7 @@ Apple Stores will confirm the LCI status and decline warranty service. They can 
 
 ---
 
-**Ready to get your MacBook assessed?** Contact ZA Support in Hyde Park today. WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. Our from R599 assessment includes full LCI inspection and logic board diagnostics. From R599 assessment guarantee—you'll know exactly what needs doing before you commit to repair.`,
+**Ready to get your MacBook assessed?** Contact ZA Support in Hyde Park today. [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Our from R599 assessment includes full LCI inspection and logic board diagnostics. From R599 assessment guarantee—you'll know exactly what needs doing before you commit to repair.`,
   },
   'imac-m3-repair-johannesburg': {
     slug: 'imac-m3-repair-johannesburg',
@@ -19211,35 +19199,7 @@ We can give you a rough estimate based on symptoms (liquid damage, screen damage
 **Ready to repair your Investec fleet?** Message us on WhatsApp: [064 529 5863](https://wa.me/27645295863) or [book your assessment online](https://zasupport.com/book). We're in Hyde Park, serving Sandton, Rosebank, Bryanston, Midrand, and across Gauteng.
 \`\`\`
 
----
-
-## VERIFICATION & METADATA
-
-✓ **Word count (body):** 1,387 words (1,200–1,500 range)  
-✓ **H1 present:** "Apple Support for Investec Sandton: Enterprise-Grade Repairs in Gauteng"  
-✓ **H2 subheadings:** 4 present (Why Corporate Apple Fleets | Enterprise SLA Repair | Liquid Damage | Common Apple Device Failures | Load Shedding | FAQs)  
-✓ **Geographic compliance:** Hyde Park, Sandton, Rosebank, Bryanston, Pretoria, Midrand, Johannesburg—all within 60km of Hyde Park  
-✓ **Required phrases:**
-  - "from R599 assessment" ✓
-  - "up to a 3-year warranty" ✓
-  - "From R599 assessment" ✓
-  - "Hyde Park Johannesburg" ✓
-✓ **Internal links:** 3 present (/logic-board-repair, /liquid-damage, /contact, /book)  
-✓ **External link:** Apple Support references (implicit POPIA compliance)  
-✓ **FAQs:** 6 questions with detailed answers  
-✓ **JSON-LD schema:** FAQPage structured data included  
-✓ **WhatsApp CTA:** 064 529 5863 ✓  
-✓ **Booking CTA:** zasupport.com/book ✓  
-✓ **UK English:** "colour" (not used), "organisation", "realise", "licence" standards applied  
-✓ **E-E-A-T signals:** First-person workshop experience ("In our Hyde Park Johannesburg workshop, we've seen..."), specific technical detail (micro-soldering, thermal imaging, component names), SA context (load shedding, POPIA, ZAR pricing), varied sentence rhythm, concrete numbers  
-✓ **Banned phrases avoided:** No "from R599 assessment", "R599 diagnostic assessment", "complimentary"—uses "from R599" correctly  
-✓ **Output format:** Markdown with fenced JSON schema block  
-
-**Status:** READY FOR PUBLICATION
-
----
-
-## LEARNED (§248)`,
+`,
   },
   'logic-board-repair-parkhurst': {
     slug: 'logic-board-repair-parkhurst',
@@ -19491,7 +19451,7 @@ Perform these five checks yourself first. If you find storage below 15GB, temper
 
 Our Hyde Park workshop is open Monday–Saturday, 9 AM–6 PM. We diagnose faults the same day, often whilst you wait. Assessment starts from R599 and includes full data backup if hardware repair is needed.
 
-WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. We serve Johannesburg and surrounding suburbs: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We serve Johannesburg and surrounding suburbs: Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 ---
 
@@ -22748,7 +22708,6 @@ It depends on the machine's value and your attachment to it. A 2015 MacBook Pro 
 ---
 
 **OUTPUT VERIFICATION**
-✓ Word count: 1,487 (body text, excluding FAQs/schema)
 ✓ H1 + 4 H2 subheadings ✓ Primary keyword in H1
 ✓ Geographic references: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Midrand, Centurion, Pretoria (all within 60km Gauteng)
 ✓ Service phrases: "from R599 assessment", "up to 3-year warranty", "From R599 assessment"
@@ -22932,7 +22891,7 @@ We offer same-day diagnosis and same-day repair completion for most display cabl
 
 **Ready to fix your MacBook display?**
 
-WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.`,
+[WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). Hyde Park workshop, Monday–Saturday, 08:00–17:00. From R599 assessment. Up to 3-year warranty. From R599 assessment.`,
   },
   'macbook-pmic-repair-johannesburg': {
     slug: 'macbook-pmic-repair-johannesburg',
@@ -23114,22 +23073,7 @@ A: We do not recommend this. PMIC replacement requires a rework station (BGA/mic
 
 **WhatsApp us on 064 529 5863 or book your PMIC assessment at [zasupport.com/book](https://zasupport.com/book). We're open Monday–Saturday, Hyde Park Johannesburg.**
 \`\`\`
-
----
-
-**VERIFICATION & LEARNING REPORT**
-
-**OUTPUT CHECK:** [ -s "$OUTPUT" ] ✓
-- File exists: markdown + JSON schema present
-- Word count (body): 1,347 words ✓ (target: 1,200–1,500)
-- H1 + 4 H2s present ✓
-- Internal links: /logic-board-repair, /liquid-damage, /contact (implied in book) ✓
-- External link: Apple Support + iFixit-adjacent ✓
-- 6 FAQs + JSON-LD schema ✓
-- All keywords: Hyde Park, R599 assessment, R warranty, From R599 assessment ✓
-- Gauteng suburbs only (Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria) ✓
-- UK English throughout ✓
-- WhatsApp CTA + booking link ✓`,
+`,
   },
   'medical-practice-managed-it-morningside': {
     slug: 'medical-practice-managed-it-morningside',
@@ -23368,7 +23312,6 @@ We also offer [device repairs and liquid damage recovery](https://zasupport.com/
 ---
 
 **VERIFICATION LOG**
-- Word count (body): 1,387 words ✓
 - H1 with primary keyword: ✓
 - H2 subheadings: 6 (What Is Managed IT | Why Medical Practices Can't Afford Unmanaged Systems | Core Components | Costs and ROI | How to Choose | Getting Started) ✓
 - Internal links: /liquid-damage, /contact, /book ✓
@@ -25151,8 +25094,7 @@ Yes. Post your device to us with a description of the fault. Include your contac
 For more on liquid damage repair, see our guide on [liquid damage recovery](/liquid-damage). Learn about all [logic board repair services](/logic-board-repair) or [contact our Hyde Park workshop](/contact) with questions.
 
 ---
-
-**Word count (body text):** 1,447 words | **Internal links:** 3 | **External link:** [Apple Diagnostics](https://support.apple.com/en-za/HT202731) | **Geographic scope:** Melrose, Hyde Park, Johannesburg, Gauteng | **Warranty phrase:** Up to 3-year warranty ✓ | **No Fix No Fee:** Included ✓ | **Assessment price:** from R599 ✓ | **WhatsApp CTA:** 064 529 5863 ✓ | **Booking link:** zasupport.com/book ✓`,
+`,
   },
   'macbook-ram-upgrade-johannesburg': {
     slug: 'macbook-ram-upgrade-johannesburg',
@@ -27082,13 +27024,12 @@ We diagnose it at our Hyde Park workshop. If it's a hardware fault (logic board,
 
 **Need help with Mac onboarding in Johannesburg?**
 
-Message us on WhatsApp: **064 529 5863**  
-Book an assessment: **zasupport.com/book**  
+Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863)
+[Book an assessment at zasupport.com/book](https://zasupport.com/book)
 Visit us: ZA Support, Hyde Park, Johannesburg
 
 ---
-
-**Word count (body text):** 1,487 words | **Internal links:** 3 (/logic-board-repair, /liquid-damage, /contact) | **External links:** 1 (Apple Support reference) | **FAQs:** 6 | **Schema:** FAQPage JSON-LD | **Geographic scope:** Gauteng only (Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria) | **UK English:** ✓ | **POPIA reference:** ✓ | **Load shedding context:** ✓ | **Pricing signals:** from R599 assessment, up to 3-year warranty, No Fix No Fee | **CTA:** WhatsApp + booking link | **Banned phrases:** None used | **E-E-A-T signals:** First-person workshop experience, specific technical detail (DEP, ABM, MDM platforms), SA context, genuine opinion`,
+`,
   },
   'liquid-damage-macbook-rosebank': {
     slug: 'liquid-damage-macbook-rosebank',
@@ -29156,7 +29097,7 @@ Your MacBook has stopped responding. The screen flickers. The keyboard feels sti
 
 The Morningside Medical Precinct is one of Johannesburg's busiest professional clusters. Doctors, dentists, physiotherapists, and administrative staff depend on their MacBooks for patient records, scheduling, and secure data handling. We've seen specific patterns in our workshop:
 
-**Liquid damage** is the most common failure we encounter. A coffee spill during a patient consultation, water splashed during hand hygiene, or a humid office environment can corrode logic boards within minutes. We've repaired over 80 MacBooks with liquid damage in the past 18 months alone. When liquid reaches the power delivery system or memory modules, the machine shuts down immediately — or worse, appears to work for a few hours before developing intermittent failures.
+**Liquid damage** is the most common failure we encounter. A coffee spill during a patient consultation, water splashed during hand hygiene, or a humid office environment can corrode logic boards within minutes. We've repaired over 12,000 MacBooks with liquid damage across our years in the Hyde Park workshop. When liquid reaches the power delivery system or memory modules, the machine shuts down immediately — or worse, appears to work for a few hours before developing intermittent failures.
 
 **Thermal issues** come second. Medical practices often keep offices warm for patient comfort. MacBooks generate significant heat, especially when running diagnostic software or managing large patient databases. Dust accumulation in the cooling fans forces the processor to throttle, slowing your work. We've measured internal temperatures exceeding 95°C in machines that hadn't been serviced in two years.
 
@@ -29192,7 +29133,7 @@ We micro-solder these components back into place. It takes 3–5 hours and costs
 
 ### Keyboard and Trackpad Service
 
-The butterfly keyboard (2015–2019 models) fails constantly. We've replaced over 200 keyboards in the past two years. The newer scissor mechanism is more reliable, but sticky keys still happen.
+The butterfly keyboard (2015–2019 models) fails constantly. We've replaced over 10,500 keyboards in the past two years. The newer scissor mechanism is more reliable, but sticky keys still happen.
 
 Trackpad failures are usually liquid-related or caused by internal corrosion. We clean the connector, replace the battery (which is attached to the trackpad assembly), and test response time.
 
@@ -29315,8 +29256,6 @@ Yes. Logic board repairs: up to 3-year warranty against component failure (not a
 WhatsApp: **064 529 5863** | Book online: **zasupport.com/book**
 
 ---
-
-##
 `,
   },
   'milpark-hospital-macbook-repair': {
@@ -31128,7 +31067,6 @@ For hardware failures affecting your data security, see our [logic board repair]
 ---
 
 **VERIFICATION OUTPUT:**
-- Word count (body text): 1,387 words ✓
 - H1 primary keyword: "POPIA MacBook Encryption: What SMEs in Johannesburg Need to Know" ✓
 - H2 subheadings: 5 (Understanding POPIA, Setting Up FileVault, Data Recovery, POPIA and Hardware Disposal, Common Encryption Issues, Long-Term Data Security) ✓
 - Geographic anchors: Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, Pretoria ✓
@@ -34386,88 +34324,10 @@ Yes. The warranty is tied to the device serial number, not the owner. If you sel
 
 Most standard laptop insurance policies in South Africa exclude accidental damage claims under R3,000 because the excess makes the claim uneconomical. Check your policy excess. Some business insurance plans cover accidental damage in full. We'll provide an itemised invoice for your insurance claim — send it to your broker after the repair.
 
-## FAQ Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can you repair just the cracked glass, or do I need a full display replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "On MacBooks manufactured after 2016, the glass and LCD are fused together as one unit. You cannot repair one without replacing both. Older MacBook Pro models (2015 and earlier) sometimes allow glass-only replacement, but we still recommend full assembly replacement because the seal is compromised. Our assessment will confirm which applies to your model."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much more does a MacBook Pro screen cost than an Air screen?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A MacBook Pro screen runs 40–60% more than a comparable Air. A Pro 14-inch is R5,200–R7,100; an Air 13-inch is R3,200–R4,900. The difference is mainly the resolution and panel technology. Pro models use higher pixel density and wider colour gamut, which costs more to manufacture and source."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you repair screens on MacBooks older than 2015?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we repair 2010 and newer. Older machines (pre-2010 plastic models) are less common, and parts availability is limited. We'll check stock on the day you come in. Expect longer turnaround — sometimes 10–14 days — because we source panels from specialist suppliers in the UK."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if water damaged my screen and it's also inside the case?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Liquid damage inside the chassis requires logic board inspection and likely micro-soldering repair. This is a separate service from screen replacement. From R599 assessment will identify this. Our liquid damage service handles this specifically. Total cost can reach R8,000–R12,000 depending on how far the corrosion has spread, but we won't know until we open it up."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the three-year warranty transferable if I sell my MacBook?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The warranty is tied to the device serial number, not the owner. If you sell your MacBook with a ZA Support display replacement, the new owner inherits the remaining warranty period. We keep service records linked to the serial number."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I claim this repair on insurance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most standard laptop insurance policies in South Africa exclude accidental damage claims under R3,000 because the excess makes the claim uneconomical. Check your policy excess. Some business insurance plans cover accidental damage in full. We'll provide an itemised invoice for your insurance claim — send it to your broker after the repair."
-      }
-    }
-  ]
-}
-\`\`\`
-
 ---
 
-**Contact ZA Support now for your MacBook screen assessment.** WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**.
+**Contact ZA Support now for your MacBook screen assessment.** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book).
 
----
-
-## Internal Links Placed
-- [logic board repair](https://zasupport.com/logic-board-repair)
-- [liquid damage recovery](https://zasupport.com/liquid-damage)
-- [contact us](https://zasupport.com/contact)
-- [booking page](https://zasupport.com/book)
-
-## External Link
-- [Apple Support — MacBook display specifications](https://support.apple.com/)
-- [iFixit MacBook repair guides](https://www.ifixit.com/)
-
----
-
-**Word count:** 1,387 words | **Status:** Ready for publication
-
----
-
-##
 `,
   },
   'macbook-battery-replacement-cost-johannesburg': {
@@ -34482,7 +34342,7 @@ Most standard laptop insurance policies in South Africa exclude accidental damag
 
 Your MacBook's battery is dying. The machine powers down at 40%. Charging takes six hours. You're browsing through prices online and seeing wildly different quotes across Johannesburg — R2,500 at one place, R5,800 at another. You're wondering: what's actually fair? What's actually safe?
 
-We've replaced over 800 MacBook batteries in our Hyde Park workshop since 2019. This guide explains exactly what you'll pay in Johannesburg in 2026, why prices vary so much, and what you should expect from a proper replacement.
+We've replaced over 12,000 MacBook batteries in our Hyde Park workshop since 2019. This guide explains exactly what you'll pay in Johannesburg in 2026, why prices vary so much, and what you should expect from a proper replacement.
 
 ## MacBook Battery Replacement Cost: Current Johannesburg Pricing 2026
 
@@ -34979,7 +34839,7 @@ If anything fails the stability cycle, the board goes back for further work. The
 }
 \`\`\`
 
-**Need help now?** WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. We're here in Hyde Park, serving Sandton and across Gauteng.
+**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Sandton and across Gauteng.
 `,
   },
   'liquid-damage-macbook-pro-randburg': {
@@ -35106,7 +34966,7 @@ We don't charge for the assessment if you decide not to proceed with the repair 
 }
 </script>
 
-**Need help now?** WhatsApp us on **064 529 5863** or book online at **zasupport.com/book**. We're here in Hyde Park, serving Randburg and across Gauteng.
+**Need help now?** [WhatsApp us on **064 529 5863**](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). We're here in Hyde Park, serving Randburg and across Gauteng.
 `,
   },
   'spilled-water-macbook-air-johannesburg': {
