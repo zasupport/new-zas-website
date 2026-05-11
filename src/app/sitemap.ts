@@ -555,5 +555,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-pro-16-inch-logic-board-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
         { url: `${base}/blog/macbook-air-m2-logic-board-sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
         { url: `${base}/blog/macbook-logic-board-repair-sandton-rosebank`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+        { url: `${base}/blog/macbook-repair-glenhazel-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/ipad-repair-norwood-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/macbook-air-repair-victory-park-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/macbook-pro-repair-waverley-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/apple-watch-repair-johannesburg-northern-suburbs`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/managed-it-services-jewish-schools-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/mac-repair-sandringham-sydenham-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/macbook-repair-highlands-north-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ];
 }
