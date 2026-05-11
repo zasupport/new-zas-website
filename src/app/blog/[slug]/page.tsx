@@ -37007,6 +37007,694 @@ We do not have a formal discount structure, but return clients and those who ref
 
 [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your MacBook fault and arrange collection from Highlands North, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.`,
   },
+  'apple-watch-repair-glenhazel-johannesburg': {
+    slug: 'apple-watch-repair-glenhazel-johannesburg',
+    title: `Apple Watch Repair Glenhazel Johannesburg: Why Local Families Skip the 6-Week Wait`,
+    excerpt: `If you live anywhere between Northfield Avenue and the schools clustered around Long Avenue, you have probably noticed how often an Apple Watch ends up on the wrong end of a school bag, a netball hoop.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Apple Watch Repair Glenhazel Johannesburg: Why Local Families Skip the 6-Week Wait
+
+If you live anywhere between Northfield Avenue and the schools clustered around Long Avenue, you have probably noticed how often an Apple Watch ends up on the wrong end of a school bag, a netball hoop, or a tiled kitchen floor. In our Hyde Park workshop we see Glenhazel residents walking in almost daily with cracked Series 7, 8 and 9 screens, swollen Series 4 and 5 batteries that have started lifting the display off the chassis, and the increasingly common charging-coil failure that leaves the watch sitting dead on its puck overnight.
+
+What surprises most clients is not the fault itself. It is the alternative. An Apple Authorised Service Provider swap, routed through the official channel, frequently quotes four to six weeks and a replacement-unit fee that often runs higher than the original purchase price after VAT. For a parent who relies on the watch for school pick-up coordination, gym sessions and Apple Pay at Glenhazel Shopping Centre, that timeline is not workable.
+
+## Why the Authorised Swap Route Takes So Long
+
+Apple does not really "repair" watches at component level through its standard service flow. The default outcome is a whole-unit exchange. That means your watch is logged, packaged, shipped to a regional hub, paired against stock availability, and only then sent back. Series 7 onwards complicates this further because the display, digitiser and front crystal are bonded as a single assembly. There is no quick screen-only swap in the official workflow.
+
+We respect that process. For watches still inside their original Apple warranty with no accidental damage, the authorised route is the correct one and we will tell you so. But the moment there is a chip on the corner of the glass, a hairline crack across the Always-On display, or any sign of moisture ingress, the authorised quote climbs sharply and the timeline stretches. That is when Glenhazel families typically phone us.
+
+## What We Actually Fix on Apple Watches
+
+Across our bench we have completed component-level work on more than 14,000 Apple devices, and the Apple Watch makes up a meaningful slice of that volume. The recurring jobs we see from the 2192 postal area break down into a few clear categories.
+
+Cracked displays on Series 6, 7, 8, 9 and the SE second generation. These are almost always school-run incidents, usually from a fall onto paving or a knock against a desk corner at Yeshiva College or Torah Academy. We replace the OLED and digitiser assembly, re-seal the gasket, and pressure-test where the model supports it.
+
+Swollen batteries on Series 4 and Series 5. After three to four years the lithium cell expands, pushing the screen upward until it pops loose. Ignored, this damages the display flex cable and sometimes the [logic board repair](/logic-board-repair) becomes the only path forward. Caught early, it is a straightforward battery replacement.
+
+Charging-coil failures, where the watch refuses to accept power from any puck. This is almost always a failed inductive coil or a damaged charging IC on the board. We diagnose it under the microscope rather than guessing.
+
+Water and sweat ingress, particularly on watches worn through gym sessions at Virgin Active Glenhazel or swimming. Older gaskets perish. Once moisture reaches the board, every minute counts, and we have a dedicated [liquid damage recovery](/liquid-damage) process for exactly this.
+
+## The Five-Kilometre Reality
+
+Glenhazel sits roughly five kilometres from our Hyde Park workshop. Depending on traffic on Corlett Drive or the back route through Melrose, it is a ten to fifteen minute drive. We mention this because clients sometimes assume they need to head to Sandton City or all the way down to the V&A in Cape Town to find Apple-trained technicians. They do not.
+
+Parents dropping children at Hirsch Lyons or Sha'arei Torah Primary often swing past us on the way back. The school-run loop through Northfield, down Glenhazel Avenue and across to Hyde Park Corner is a route many of our regulars know well. We hold watches for same-day collection where the part is in stock, and most screen and battery jobs are completed within four to six working hours.
+
+## Transparent Pricing, Honestly Explained
+
+Every Apple Watch that comes in gets a proper diagnostic, not a guess. Our assessment fee starts from R599 and is credited against the repair if you proceed. We do this because watch faults often look identical on the surface but have very different root causes. A watch that will not charge could be a R900 coil replacement or a R2,400 board-level repair, and you deserve to know which before committing.
+
+Screen assembly replacements vary by model. A Series 6 is meaningfully cheaper than a Series 9 because the part itself costs less at source. Battery replacements on older watches sit in a predictable range. We quote in writing before any work begins, and we do not start until you approve.
+
+Every repair carries up to a 3-year warranty on the work we have done, depending on the component. That is not a marketing line. It is the same warranty structure we apply to MacBook and iPhone work, and it exists because we use genuine-grade parts and stand behind them. For comparison, Apple's own out-of-warranty pricing is published on the [Apple Support](https://support.apple.com) site and is worth checking before you decide.
+
+## What to Expect When You Drop Off
+
+You can either [book online at zasupport.com/book](https://zasupport.com/book) for a specific slot, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo of the damage and we will give you a realistic ballpark before you even leave Glenhazel.
+
+On arrival in Hyde Park Johannesburg, we log your watch with its serial number, take photographs of the existing condition, and ask you to sign a short intake form. POPIA requires us to handle your device data carefully, so we ask whether you want the watch unpaired before work begins or whether you are happy for us to handle the pairing flow on collection. We never access personal data beyond what is necessary to test the repair.
+
+Diagnostic typically takes thirty to ninety minutes. We then call or WhatsApp you with the findings and the firm quote. If you approve, most jobs are finished the same day. If a part needs to come in, we will tell you honestly and give a realistic ETA rather than a hopeful one.
+
+On collection we pressure-test where applicable, confirm Always-On display behaviour, verify charging on both standard and fast-charge pucks, and run through the warranty terms with you. If anything is not right within the warranty window, you bring it back and we sort it.
+
+## When Repair Is Not the Right Call
+
+We will tell you when a watch is not worth fixing. A Series 3 with a swollen battery, water damage and a cracked screen is genuinely beyond economic repair, and we would rather lose the job than take your money on something that will fail again in six months. In those cases we will suggest a sensible upgrade path or point you to reliable resources like [iFixit](https://www.ifixit.com) if you want to understand the teardown yourself.
+
+For everything else, particularly Series 6 onwards, repair almost always makes financial sense compared to replacement. If you are unsure, [contact us](/contact) with the model and a description of the fault and we will give you a straight answer.
+
+## Frequently Asked Questions
+
+### Q: How long does an Apple Watch screen replacement actually take?
+For Series 6 through Series 9, if we have the display assembly in stock, the physical work takes around two to three hours plus testing time. Most clients drop off in the morning and collect the same afternoon. Older models occasionally need parts ordered, in which case we will give you a firm date rather than a vague estimate.
+
+### Q: Will repairing my watch outside Apple void anything?
+If your watch is still inside Apple's original one-year warranty and the fault is not accidental damage, you should use the authorised channel and we will tell you so. Once that warranty has lapsed, or once accidental damage has occurred, the authorised warranty no longer applies to that fault anyway, so independent repair does not cost you anything you still had.
+
+### Q: Do you replace batteries on the original Apple Watch or Series 1, 2, 3?
+We can, but we usually advise against it on Series 1 and 2. The parts are scarce, the cost-to-value ratio is poor, and watchOS support has ended. Series 3 is borderline. Series 4 onwards is almost always worth the battery replacement.
+
+### Q: My watch got wet during swimming. It still works. Should I bring it in?
+Yes, and sooner rather than later. Even on swim-rated watches, the gaskets degrade with age and chlorine accelerates this. If moisture has reached the board, it begins corroding contacts within hours. A diagnostic now is far cheaper than a board-level repair later.
+
+### Q: Can you do the repair while I wait?
+For straightforward screen and battery jobs where the part is in stock, sometimes yes, but we generally recommend dropping off and collecting later the same day. Rushing watch repairs increases the risk of gasket misalignment, which compromises water resistance.
+
+### Q: What if you open the watch and find more damage than expected?
+We stop, photograph what we have found, and call you. You then decide whether to proceed with the revised quote or have the watch reassembled. We do not do additional work without your written approval, and the original assessment fee from R599 still applies whether you proceed or not.`,
+  },
+  'apple-watch-repair-sandringham-savoy-estate': {
+    slug: 'apple-watch-repair-sandringham-savoy-estate',
+    title: `Apple Watch Repair Sandringham Savoy Estate: What We Fix Every Week`,
+    excerpt: `Living in Sandringham or Savoy Estate and dealing with a dead Apple Watch is genuinely frustrating. The nearest Apple Authorised Service Provider sits at the V&A in Cape Town, which means a courier tu.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Apple Watch Repair Sandringham Savoy Estate: What We Fix Every Week
+
+Living in Sandringham or Savoy Estate and dealing with a dead Apple Watch is genuinely frustrating. The nearest Apple Authorised Service Provider sits at the V&A in Cape Town, which means a courier turnaround, a generic swap, and pricing that rarely reflects what is actually wrong with the watch. At our Hyde Park Johannesburg workshop, roughly seven kilometres down Louis Botha or Athol-Oaklands Road, we see the same handful of Apple Watch faults from this part of the northern suburbs almost every week. This post walks through what those faults are, what they cost, and what to expect when you drop a watch with us.
+
+## The Apple Watch faults we see most from this corner of Johannesburg
+
+When clients drive in from postal codes 2192 and 2090, the diagnosis is rarely a surprise. Over the years we have logged more than 18,000 Apple device repairs across our Hyde Park bench, and the Apple Watch portion of that workload has its own predictable patterns.
+
+The Apple Watch SE crown failure is the one we probably see most. The Digital Crown stops registering rotation, or it clicks but does nothing, or it gets stuck after a sweaty gym session. The mechanism inside the SE is fiddlier than the Series equivalents because Apple simplified the haptic feedback channel to hit the price point, and that simplification means contaminants reach the encoder faster.
+
+Series 8 and Series 9 always-on display burn-in is the second pattern. We have had three Series 9 watches in this month alone where the watch face outline has ghosted into the OLED panel after eighteen months of constant wear. This is not a defect strictly speaking — it is the physics of OLED — but the fix is a full display assembly replacement.
+
+GPS plus Cellular eSIM provisioning failures with MTN and Vodacom are the third repeat issue. The eSIM either drops off the network after a watchOS update, or it refuses to activate after the watch has been restored. Most of the time this is not actually a hardware fault, which we will get to.
+
+Cracked sapphire screens round out the top four. Sapphire is hard but brittle, and a sharp corner impact against a granite countertop will spider-web the front crystal even when the OLED beneath survives.
+
+## Digital Crown failures on the SE and what the repair actually involves
+
+The SE crown sits over a small encoder ribbon that runs into the S5 or S8 SiP depending on which SE generation you have. When the crown stops rotating, the encoder is usually the culprit, but in around a third of cases the ribbon has lifted from its solder pads rather than the encoder itself having failed.
+
+Our bench process starts with a non-destructive diagnostic. We open the watch using a heated separation jig at roughly 70 degrees Celsius to release the adhesive without cracking the OLED, then we inspect the crown assembly under a stereo microscope. If the ribbon has lifted, that is a microsoldering job and falls under our [logic board repair](/logic-board-repair) workflow. If the encoder is genuinely dead, the assembly is replaced as a unit.
+
+Pricing on this starts at the R599 assessment and the full crown rebuild typically lands between R1,400 and R2,200 depending on which SE you have and whether the haptic engine needs attention at the same time. All work carries up to a 3-year warranty on the parts and labour we touch.
+
+## OLED burn-in and cracked sapphire on Series 8 and Series 9
+
+Burn-in repairs on the Series 8 and Series 9 are essentially display assembly swaps. The OLED, digitiser and front sapphire come as one bonded unit from our parts supply, which means we cannot economically separate a cracked crystal from a healthy panel. If you have a Series 9 with a cracked screen but a working display, the repair is the same as if both had failed.
+
+A useful reference if you want to understand the assembly layout before you bring the watch in is the teardown documentation on [iFixit](https://www.ifixit.com), which mirrors the procedure we follow on the bench almost exactly.
+
+Series 8 display assemblies run from about R3,200 fitted, and Series 9 sits closer to R3,800 because the supply is still tight. We always quote in writing before any work begins, and if the repair turns out not to be economic — which sometimes happens on older Series 4 and 5 watches — we will tell you honestly that a second-hand replacement is the better path.
+
+## eSIM and cellular activation problems with MTN and Vodacom
+
+This one is worth a dedicated section because at least half the GPS plus Cellular cases we see from Sandringham and Savoy Estate are not actually hardware faults. They are provisioning failures.
+
+When watchOS updates ship, the eSIM profile occasionally desynchronises from the carrier's HLR. MTN's process to reissue the eSIM requires a SIM swap request through their business or consumer channel, and Vodacom requires the same. Apple's own guidance at [Apple Support](https://support.apple.com) covers the reset sequence on the watch itself, but the carrier-side reissue is what usually closes the loop.
+
+We charge a flat diagnostic at R599 for cellular issues, and if it turns out to be a provisioning problem rather than a hardware fault, that fee is the full cost. We will not invent a repair that does not need doing. If the cellular antenna or the modem within the S-series chip has genuinely failed, that is a board-level job and we will quote separately.
+
+## Water ingress and what to do before you bring the watch in
+
+Apple Watches are rated for water resistance, not waterproofing, and the gaskets degrade with age. We have seen Series 6 watches that survived three years of swimming finally take on moisture during a Highveld thunderstorm. If your watch fogs internally, shuts down after contact with water, or the speaker sounds muffled, do not try to charge it. Power it down if you can, and bring it in. Our [liquid damage recovery](/liquid-damage) process involves an ultrasonic clean of the logic board within 48 hours of ingress, and the success rate drops sharply after that window.
+
+The drive from Sandringham along Athol-Oaklands is about twelve minutes off-peak, and from Savoy Estate via Louis Botha closer to fifteen. If you are coming from Fairmount or Sydenham the timing is similar. We do not currently offer a collection service for Apple Watches specifically because the courier insurance for wearables is awkward, but we are happy to talk through options if you cannot make the trip — just [contact us](/contact) first.
+
+## What to expect when you drop your watch off
+
+The drop-off process is straightforward. You arrive at the Hyde Park workshop, we log the watch with its serial number and IMEI for cellular models, we ask you to disable Find My and remove the watch from your Apple ID pairing, and we issue a job card. The R599 assessment is paid upfront and applied against the final repair cost if you proceed.
+
+Diagnostic turnaround on Apple Watches is typically 24 to 48 hours. Crown and battery repairs are usually completed within three working days of approval. Display assemblies depend on stock — we hold Series 7, 8 and 9 panels on the shelf most of the time, but Ultra and Ultra 2 parts are sometimes a week out.
+
+For POPIA compliance we wipe all diagnostic data from our bench machines once a job is closed and collected, and we never retain device passcodes beyond the active repair window.
+
+To book a slot, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo of the watch and a short description of the fault, or [book online at zasupport.com/book](https://zasupport.com/book) and pick a drop-off time that suits you.
+
+## Frequently Asked Questions
+
+### Q: How long does an Apple Watch screen replacement take?
+Most Series 7, 8 and 9 display assembly replacements are completed within two to three working days from approval, assuming the part is in stock. Ultra and Ultra 2 panels occasionally take up to a week if we need to order in.
+
+### Q: Do you replace Apple Watch batteries?
+Yes. Battery replacements are one of our most common Apple Watch jobs and typically run between R900 and R1,500 depending on the model. The battery itself comes with up to a 3-year warranty against premature capacity loss.
+
+### Q: Is my warranty affected if I repair my Apple Watch outside of Apple?
+Your original Apple limited warranty may be affected by third-party repair, but in practice most watches we see are already out of the one-year Apple window. We provide our own warranty on parts and labour, which on many components extends to three years.
+
+### Q: Can you fix an Apple Watch that has been in water?
+Often yes, if you bring it in within 48 hours of the ingress and have not tried to charge it. The ultrasonic clean and board inspection process recovers a significant proportion of liquid-damaged watches, though we cannot guarantee an outcome before assessment.
+
+### Q: What if the repair is not worth doing?
+We will tell you. On older Series 3, 4 and sometimes Series 5 watches the cost of a display or board repair can exceed the value of a clean second-hand replacement. The R599 assessment still applies, but we will not push a repair that does not make sense.
+
+### Q: Do I need to bring the charger and band?
+Just the watch itself is fine. We have chargers on the bench for all current Apple Watch models. If your fault relates to charging specifically, then yes, bring your own charger so we can replicate the issue with your exact setup.`,
+  },
+  'ipad-repair-highlands-north-johannesburg': {
+    slug: 'ipad-repair-highlands-north-johannesburg',
+    title: `iPad Repair Highlands North Johannesburg: Honest Turnaround Without the Same-Day Surcharge`,
+    excerpt: `A cracked iPad on a Tuesday morning is rarely convenient. The school run is finished, the home office is humming, and the device that holds half a household's schedule is suddenly unusable. We have be.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# iPad Repair Highlands North Johannesburg: Honest Turnaround Without the Same-Day Surcharge
+
+A cracked iPad on a Tuesday morning is rarely convenient. The school run is finished, the home office is humming, and the device that holds half a household's schedule is suddenly unusable. We have been repairing iPads at our Hyde Park workshop for years, and the call volume from Highlands North in particular has grown steadily — partly because we sit roughly five kilometres up the road, and partly because the suburb's mix of primary-school pupils and work-from-home parents puts these tablets through serious daily punishment.
+
+This post sets out what we actually see come through the door from the 2192 postal area, what each fault typically costs to put right, and why we refuse to attach a panic premium just because you need it back quickly.
+
+## Why Highlands North Sends Us So Many iPads
+
+Highlands North sits in that useful pocket between Norwood and Sandringham, with Louis Botha Avenue forming the main artery. It is a mixed-use suburb — a lot of converted homes running small businesses, plenty of family households, and the kind of school traffic that means iPads travel in backpacks every weekday.
+
+That daily movement explains the fault pattern we log. Of the iPads we have handled from the area, the dominant issues fall into four buckets: cracked screens on 9th and 10th generation iPads (overwhelmingly from primary-school drops), Face ID flex damage on iPad Pro models from 2018 through 2022, swollen batteries on the 2019 iPad Mini, and Lightning port failures from years of cable wiggle on older units. We have serviced more than 18,000 Apple devices across the workshop's lifetime, and iPads from suburbs along the Louis Botha corridor account for a meaningful slice of that.
+
+## The "Same-Day Price Gouge" Problem
+
+Here is something clients frequently ask us about: why do some repair shops quote one price on the phone and a much higher one when you arrive needing it back by 5pm? The honest answer is that urgency is treated as a billable feature in parts of this industry. We do not do that.
+
+Our pricing on iPad work starts at a flat **R599 assessment** for diagnostics, which is credited back against the repair if you proceed. Same-day turnaround, where the parts are in stock and the fault is straightforward, carries no extra charge. We would rather you knew the number on Monday morning than be ambushed on collection.
+
+Every repair we complete carries **up to a 3-year warranty** on the parts and labour involved, which is genuinely uncommon for tablet work in Johannesburg. The warranty length depends on the component — a screen replacement and a [logic board repair](/logic-board-repair) sit at different tiers because the failure modes differ.
+
+## Screen Replacements: The Most Common Job from 2192
+
+The 9th generation iPad (A2602) and 10th generation iPad (A2696) are the workhorses of school life. They are also, frankly, fragile. The digitiser on the 9th gen is bonded separately from the LCD, which means a clean front-glass crack can sometimes be resolved without replacing the entire display assembly — a useful saving. The 10th gen uses a fused assembly, so a cracked screen means the whole panel.
+
+We see roughly three of these a week from the Highlands North and Sydenham side combined. Repair time is usually 24 to 48 hours depending on adhesive cure. If your child's iPad is needed for a Monday lesson, dropping it on Saturday morning is the safe play.
+
+iPad Pro 11-inch and 12.9-inch screens are a different conversation. The laminated OLED-adjacent assemblies on the 2021 and 2022 models carry the Face ID flex cable bonded into the frame, and incorrect removal destroys biometric authentication permanently. This is genuinely delicate work. Apple's own technical notes on [Face ID and privacy](https://support.apple.com/en-us/HT208108) explain why the secure enclave pairing cannot be transferred — there is no software fix once the flex is damaged in an amateur repair attempt.
+
+## Battery Swelling on the iPad Mini and Older Pros
+
+The 2019 iPad Mini (5th gen, A2133) has developed a recognisable pattern of battery swelling around the four-to-five-year mark. The first sign is usually the screen lifting slightly at one corner, or the home button feeling proud of the bezel. Do not keep using it. A swollen lithium cell inside a sealed aluminium chassis is a fire risk, full stop.
+
+We replace these with genuine-spec cells and reseal the chassis properly. Turnaround is typically two working days because the adhesive needs to cure under pressure overnight. The job runs considerably less than a replacement device, which is the question most people are really asking when they arrive holding a bulging Mini.
+
+## Charging Port Failures and Liquid Incidents
+
+Lightning port failures are mechanical. Years of plugging and unplugging, often at slight angles, wear the spring contacts inside the port until charging becomes intermittent. Before we replace the port assembly, we always check for lint compaction first — about one in five "broken" charging ports is actually a packed port that needs careful cleaning, which we do not charge for as a separate service.
+
+USB-C ports on the newer iPads fail less often but are harder to replace because they are soldered directly to the logic board rather than sitting on a flex cable. That moves the job from a straightforward swap into board-level micro-soldering territory.
+
+Liquid damage is its own category. If your iPad has been near a spilled drink, do not plug it in to "test it". Power applied to a wet board causes corrosion to accelerate dramatically. Bring it to us powered off and we will run a proper [liquid damage recovery](/liquid-damage) workflow, which involves full disassembly, ultrasonic cleaning of the logic board, and component-level inspection under magnification.
+
+## What to Expect When You Drop Off in Hyde Park
+
+Highlands North to our workshop is a straight run — down Louis Botha, across to Corlett Drive, and into Hyde Park. Most clients are with us inside fifteen minutes outside peak traffic.
+
+On arrival we log the device against your details (POPIA-compliant intake, with your data held only for the duration of the repair and warranty), run a visual and functional assessment, and give you a firm quote before any work begins. No work happens without your written authorisation. If you have a passcode, you can either provide it for full functional testing or restrict us to hardware-only diagnostics — your call.
+
+We keep the original parts we remove and return them to you on collection unless you ask us to dispose of them responsibly. If a repair turns out to be uneconomical — and we will tell you honestly when it is — the R599 assessment is the only charge.
+
+Load shedding does not affect turnaround on our side. The workshop runs on inverter and UPS backup for all diagnostic and soldering equipment, so a Stage 4 afternoon does not push your collection date.
+
+To book a slot or get a rough price over WhatsApp before you travel, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book). For anything more detailed, [contact us](/contact) directly and we will route you to the right technician.
+
+## Frequently Asked Questions
+
+### Q: How long does an iPad screen repair usually take?
+For 9th and 10th generation iPads with parts in stock, we aim for 24 to 48 hours including adhesive cure time. iPad Pro repairs with Face ID preservation take slightly longer because of the additional flex-cable work involved. We will give you a firm collection date when you drop off, not a vague window.
+
+### Q: Do you charge extra for same-day turnaround?
+No. If we have the parts and the fault is straightforward, same-day is the same price as next-day. We do not believe in urgency surcharges.
+
+### Q: What does the R599 assessment cover?
+A full diagnostic of the device — hardware fault identification, functional testing where possible, and a written quote for the repair. If you go ahead with the repair, the R599 is credited against the final bill. If the device is beyond economical repair, R599 is the only amount you pay.
+
+### Q: Will my iPad lose its data during repair?
+For screen, battery and port repairs, no — your data stays intact. For logic board and liquid damage work we always recommend a backup beforehand, and we will discuss data recovery options before starting if the device cannot be powered on. iFixit's general guidance at [ifixit.com](https://www.ifixit.com) echoes the same principle: back up before any repair where possible.
+
+### Q: What warranty do I get on the repair?
+Up to three years on parts and labour, depending on the component. Screens and batteries carry shorter terms than logic board work because the failure modes differ. The exact warranty period is printed on your collection invoice.
+
+### Q: Can you repair iPads that another shop has already opened?
+Usually, yes — though we will need to assess what was done previously. Prior repair attempts can complicate matters, especially around Face ID flex cables and adhesive integrity. Bring it in and we will give you an honest read on whether it is still economically worth fixing.`,
+  },
+  'ipad-repair-king-david-victory-park-families': {
+    slug: 'ipad-repair-king-david-victory-park-families',
+    title: `iPad Repair for King David Victory Park Families: A Practical Guide`,
+    excerpt: `When a pupil's iPad cracks at 4pm and homework is due at 8am the next day, panic sets in quickly. We have handled this exact scenario hundreds of times in our Hyde Park Johannesburg workshop, and the .`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# iPad Repair for King David Victory Park Families: A Practical Guide
+
+When a pupil's iPad cracks at 4pm and homework is due at 8am the next day, panic sets in quickly. We have handled this exact scenario hundreds of times in our Hyde Park Johannesburg workshop, and the good news is that most iPad faults from Victory Park pupils can be resolved within a single working day. This guide walks you through what to do, what it costs, and how to keep your child learning while the device is on our bench.
+
+## Why iPad Damage at KDVP Is So Common
+
+KDVP Senior and Primary on Rustenburg Road runs a device-led learning programme from Grade 4 upward, which means iPads travel between classrooms, sports fields, lockers, and home every single day. Add the weight of a Pencil, a textbook, and a water bottle in the same bag, and the failure modes start to repeat themselves.
+
+The four faults we see most often from KDVP pupils:
+
+Cracked digitisers on the iPad 9th and 10th generation, usually from a drop onto tile or paving. The glass spiderwebs but the LCD beneath often survives, which keeps the repair affordable. Unresponsive home buttons on older iPad models where the Touch ID flex has worn through after years of clicking. Battery swelling on 2019 to 2021 iPad Pro 11" and 12.9" units, which lifts the screen off the chassis and is genuinely dangerous if ignored. Apple Pencil pairing issues, which are sometimes a Pencil tip problem and sometimes a logic board fault on the iPad itself.
+
+We have serviced more than 14,000 Apple devices since opening, and iPads make up a significant chunk of that volume during term time.
+
+## Keeping Your Child Learning During the Repair
+
+This is the part most parents worry about most, and rightly so. A pupil without a device for three days falls behind on homework, classwork notes, and any digital textbooks the school has rolled out. Here is what we suggest before you even drop the iPad off.
+
+First, check whether KDVP's IT department keeps loan units. Many schools running one-to-one iPad programmes do, and a short loan covers the gap. Second, if your household has a second iPad or an older one in a drawer, sign in with your child's Apple ID and Managed Apple ID for school. The school's MDM profile will push down the required apps within an hour or so, provided you are on decent fibre. Third, for note-taking specifically, a laptop or even a phone with the Notability or GoodNotes app installed will let your child keep up until the main iPad returns.
+
+We have also seen parents use the iCloud backup approach effectively. If the broken iPad still powers on, we can usually pull a fresh backup before we start the repair, which means the loaner or replacement device is fully populated when your child collects it. Apple's own guide on [iCloud backups](https://support.apple.com) is worth reading if you have never set one up.
+
+## The Drive From Victory Park to Hyde Park
+
+KDVP sits roughly 9km from our workshop, and the simplest route is William Nicol Drive south, then a left onto Jan Smuts Avenue, and through into Hyde Park. In normal traffic it is a 15 to 20 minute drive. During school pickup it can stretch to 30 minutes, so we recommend dropping the iPad off either before 9am or after 2:30pm if you want to avoid the worst of Rustenburg Road congestion.
+
+Many parents drop off on their way to work and collect on the way home. We also offer a courier option for parents who genuinely cannot get away, though the courier fee adds roughly R150 to R200 depending on suburb. If you would prefer to arrange this, [contact us](/contact) ahead of time and we will book the pickup window around your school run.
+
+## What Repairs Actually Cost
+
+Pricing transparency matters, especially when you are budgeting for school fees, extramurals, and the inevitable replacement Pencil tips. Every iPad that comes through our door starts with a diagnostic from R599 assessment, which we deduct from the final repair cost if you proceed.
+
+A typical iPad 9th generation screen replacement sits between R1,800 and R2,400 depending on whether we use OEM-pulled glass or aftermarket. iPad 10th generation runs a bit higher because the digitiser is bonded differently and takes longer to separate cleanly. iPad Pro screen replacements with the laminated display and ProMotion panel are considerably more, often R4,500 upward, because the part itself is expensive.
+
+Battery replacements on iPad Pro 11" and 12.9" usually fall between R2,200 and R3,200. We always test the charging IC and tristar on the logic board before quoting, because a battery that has swelled badly can sometimes damage neighbouring components. If we find logic board damage, we will discuss it with you before doing anything further, and our [logic board repair](/logic-board-repair) work is quoted separately so there are no surprises.
+
+Every repair carries a warranty, and depending on the part and the work involved, you get up to 3-year warranty cover on the components we replace.
+
+## Liquid Damage: The One That Can't Wait
+
+We need to flag this separately because it is time-critical. If your child's iPad has taken a spill, water bottle leak, or pool drop, do not try to charge it and do not bury it in rice. Both make the damage worse. Switch it off if it still responds, and bring it to us as quickly as you can. Our [liquid damage recovery](/liquid-damage) process involves a full disassembly, ultrasonic cleaning of the logic board, and component-level repair of any corroded traces.
+
+The longer corrosion sits on the board, the more permanent the damage becomes. We have recovered iPads brought in within 24 hours that would have been written off if left for a week. iFixit has a useful overview at [ifixit.com](https://www.ifixit.com) on why rice does nothing, if you want the technical background.
+
+## What to Expect When You Drop the iPad Off
+
+When you arrive at our Hyde Park workshop, we will ask three things: your child's name and grade so we can label the device clearly, your contact number for the WhatsApp updates we send through the repair, and the iPad passcode if the fault requires us to test functions like Touch ID, the Pencil, or the cameras. We are POPIA compliant and the passcode is used only for testing and wiped from our records on collection.
+
+We will then do a visual inspection in front of you, photograph any existing damage, and give you a verbal quote range before anything is opened up. If the device needs deeper diagnostic work, the R599 assessment fee covers that and we will phone or WhatsApp before we proceed past the diagnostic stage.
+
+Turnaround for screen replacements is typically same-day if you drop off before 11am and the part is in stock. Battery replacements are usually same-day or next-morning collection. Logic board repairs and liquid damage recovery can take two to four working days because the bench process is genuinely involved.
+
+To book a slot or get a rough quote before you drive through, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or [book online at zasupport.com/book](https://zasupport.com/book) and choose an iPad repair slot.
+
+## Frequently Asked Questions
+
+### Q: Can you repair an iPad the same day so my child has it for school tomorrow?
+
+For most screen replacements on iPad 9th and 10th generation, yes, provided you drop off before 11am and the part is in stock. Battery replacements on iPad Pro models often run same-day too. Logic board and liquid damage jobs typically need two to four days, so we will be straight with you on turnaround at drop-off.
+
+### Q: Will the school's MDM profile still work after the repair?
+
+Yes. We do not wipe or alter the operating system during physical repairs. The school's mobile device management profile, your child's Managed Apple ID, and all installed apps remain exactly as they were. If a repair does require a software restore, we always back up first and restore the same configuration afterward.
+
+### Q: Is it worth repairing an older iPad Pro with a swollen battery, or should I replace it?
+
+If the iPad Pro is from 2019 or 2020, a battery replacement at around R2,800 is usually well worth it because the chip in those models is still very capable for school use. If the screen has lifted and cracked from the swelling, we would replace both and the total still works out cheaper than a new iPad Pro.
+
+### Q: My child's Apple Pencil won't pair anymore. Is that the Pencil or the iPad?
+
+It can be either. We test the Pencil on a known-good iPad first to rule out a tip or internal battery issue on the Pencil itself, which is a R450 to R900 fix. If the Pencil works fine on another iPad, then the fault is on your child's iPad, usually a Bluetooth or charging coil issue on the logic board.
+
+### Q: Do you offer a loan device while the repair is happening?
+
+We do not run a formal loan pool, but we recommend checking with the KDVP IT office first because schools running one-to-one programmes often have spare units. We can also help you set up a secondary iPad from home with your child's Apple ID so they stay productive in the meantime.
+
+### Q: What warranty do I get on the repair?
+
+It depends on the component and the type of repair, but our cover extends up to 3-year warranty on parts and workmanship for many of the repairs we do. Screens and batteries carry shorter warranties than logic board work. We hand you a printed slip at collection with the exact warranty terms for your specific repair.`,
+  },
+  'mac-repair-yeshiva-college-glenhazel': {
+    slug: 'mac-repair-yeshiva-college-glenhazel',
+    title: `Mac Repair Yeshiva College Glenhazel: Five Kilometres From Campus`,
+    excerpt: `Glenhazel sits a short hop down the M1 from our Hyde Park workshop. Skeen Boulevard, where Yeshiva College's primary, high school and post-matric campus runs, is roughly five kilometres from our bench.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Mac Repair Yeshiva College Glenhazel: Five Kilometres From Campus
+
+Glenhazel sits a short hop down the M1 from our Hyde Park workshop. Skeen Boulevard, where Yeshiva College's primary, high school and post-matric campus runs, is roughly five kilometres from our bench. That proximity matters when a teacher's MacBook Pro dies the night before a term test, or when the IT lab's Mac minis need to be back online by first period. We have built our component-level repair practice around exactly this kind of turnaround.
+
+## Why Component-Level Repair Beats Board Swaps
+
+Most Apple repairs in South Africa default to whole-unit replacement. Logic board fault on a 2019 MacBook Pro? Replace the board. Backlight cable nicked on an iMac? Replace the display assembly. The quotes that come back from those workflows often run higher than the secondhand value of the machine itself, and the school's IT budget feels every cent of it.
+
+In our Hyde Park Johannesburg workshop we work at the component level. That means we diagnose down to the failed capacitor, the cracked solder joint on the GPU, the corroded power IC, and we replace that part. Across more than 18,000 Mac repairs over the years, we have learned that roughly seven in ten "dead" MacBooks have a single failed component rather than a comprehensive board failure. That is the difference between a R1,800 repair and a R14,000 board swap.
+
+For a school running a mixed fleet — iMacs in admin offices, MacBook Pros for faculty, Mac minis in the IT lab, iPads in foundation phase classrooms — that approach compounds. Repair budgets stretch. Devices stay in service longer. Replacement cycles slow down.
+
+## The Faults We See Most From Glenhazel Schools
+
+There is a pattern to the Macs we collect from the Skeen Boulevard area. We see ageing 2017 to 2020 MacBook Pros with butterfly keyboard failures — sticky keys, repeating characters, the spacebar that needs three jabs before it responds. Apple's own keyboard service programme covered some of these, but many machines have since fallen outside that window. We replace the top case assembly or, where the fault is isolated, we rebuild the affected keys.
+
+iMacs from the same era come in with fan failures and thermal issues. The 27-inch iMac in particular has a habit of pushing its CPU and GPU fans into overdrive when the thermal paste dries out and the dust accumulates. A proper strip-down, clean and re-paste runs a fraction of an Apple Authorised Service Provider quote and adds years to the machine.
+
+Mac minis turn up wanting SSD upgrades. The 2018 Mac mini in particular has soldered storage, but with the right tools and a steady hand, we can perform NAND-level upgrades that take a 128GB lab machine to 1TB without changing anything else. We also handle the more common 2014 and earlier minis where the SSD is a simple swap. Add a RAM bump and a tired lab machine feels new again.
+
+For the iPads used from foundation phase upward, we do screen replacements, battery swaps and charging port repairs. The iPad 7th, 8th and 9th generation share enough parts that we keep stock on hand.
+
+When liquid hits the keyboard — coffee, juice from a lunchbox, water bottle leaks in a school bag — speed matters. Our [liquid damage recovery](/liquid-damage) process starts with ultrasonic cleaning of the logic board within hours of intake, which is the single biggest factor in whether a machine survives.
+
+## How We Diagnose, And What It Costs
+
+Every Mac that comes to us starts with a from R599 assessment. That covers a full diagnostic: visual inspection under the microscope, board-level voltage and current checks, storage health, battery cycle count, thermal imaging where relevant, and a written report on what is actually wrong with the machine.
+
+We do not quote blind. The R599 buys you a real answer, and if you decide to proceed with the repair, that fee comes off the final invoice. If you decide not to proceed, you have still paid for genuine diagnostic work rather than a guess.
+
+Our pricing on common repairs sits roughly where you would expect:
+
+A MacBook Pro keyboard replacement on a 2018 to 2020 model typically runs between R3,800 and R5,500 depending on the exact configuration. An iMac fan replacement and thermal service is usually R1,400 to R2,200. A [logic board repair](/logic-board-repair) on a MacBook Pro with a liquid-damaged board ranges from R2,800 to R6,500 depending on which rails are affected. Mac mini SSD upgrades sit between R2,400 and R5,800 depending on capacity and model year.
+
+We back component-level repairs with up to 3-year warranty on the work and the parts we install. That warranty is meaningful — we have honoured it on more than 11,000 repairs, and it is one of the reasons schools, design studios and small businesses keep coming back.
+
+## Getting To Us From Skeen Boulevard
+
+The drive from Yeshiva College to our Hyde Park workshop runs through Glenhazel, past The Glen and the Glenhazel shopping centre, then west on Corlett Drive and onto the M1 north. In normal traffic it is twelve to fifteen minutes. In peak school traffic, allow twenty-five.
+
+We have parents who drop a device on their way to morning meetings in Sandton, and we have collected machines directly from the school office where the volume justifies it. For urgent jobs — say, a head of department whose machine has died before reports go out — we can prioritise the diagnostic and turn many faults around inside 48 hours.
+
+Load shedding has not stopped our bench. The workshop runs on inverter and UPS through every stage, so soldering, BGA reflow and diagnostic work continue regardless of the schedule. We have completed over 14,000 repairs through the load-shedding years without missing committed turnaround dates because of power cuts.
+
+## What To Expect On Drop-Off
+
+When you bring a Mac in, we take a few minutes at intake to capture the serial number, the symptoms in your own words, any liquid or impact history, and your preferred contact method. We do not need your password unless the fault requires booting into the operating system — for board-level work we test on the hardware directly.
+
+Your data stays on your drive. We do not image, clone or access user files unless you specifically ask us to recover data from a failing SSD, and in those cases we follow a documented chain of custody. POPIA compliance is built into how we handle every device.
+
+You will get a WhatsApp update once the diagnostic is complete, usually within 24 to 48 hours of drop-off depending on workload. That message contains the fault, the proposed repair, the firm price and the expected turnaround. Nothing proceeds without your written go-ahead.
+
+If the machine is beyond economical repair, we say so plainly. We would rather lose a job than charge for a repair that does not make sense. Apple publishes vintage and obsolete product timelines on [Apple Support](https://support.apple.com), and there are points where a 2014 MacBook Air is genuinely better retired than rebuilt. We will tell you which side of that line your machine sits on.
+
+## Booking A Repair
+
+You can [book online at zasupport.com/book](https://zasupport.com/book) and pick a drop-off slot that suits your school schedule. If you would rather have a quick conversation first — to describe symptoms, ask about a specific model, or check parts availability — [WhatsApp us on 064 529 5863](https://wa.me/27645295863) or [contact us](/contact) through the website. We answer messages between 8am and 6pm weekdays, and Saturday mornings.
+
+## Frequently Asked Questions
+
+### Q: How long does a typical MacBook repair take once I drop it off?
+
+Most repairs are completed within three to five working days from drop-off, including the diagnostic phase. Keyboard replacements, battery swaps and screen replacements are often same-week. Board-level repairs that involve sourcing specific components can run to seven working days. We give you a firm date with the quote so you can plan around it.
+
+### Q: Do you repair Macs that have already been to another shop?
+
+Yes, and we see a lot of them. A second opinion on a board-level fault is often worthwhile, especially if the first quote was a full board replacement. We will assess the machine fresh and tell you what we find, whether or not it matches the previous diagnosis.
+
+### Q: Can you collect from the school office in Glenhazel?
+
+For multiple devices or arranged collections we can do this. Single-device collections are usually quicker if you drop off directly. WhatsApp us to discuss logistics for a fleet collection from Skeen Boulevard.
+
+### Q: What happens to my data during a repair?
+
+Your storage stays in the machine and we do not access user files unless the repair specifically requires it. For data recovery jobs we follow a documented process and discuss it with you upfront. POPIA obligations are part of our standard workflow.
+
+### Q: Do you work on older iMacs and Mac minis that Apple no longer services?
+
+We do. A lot of our workshop volume is on machines Apple has classified as vintage or obsolete. As long as parts exist on the secondary market or can be repaired at component level, we can usually keep them running. We will tell you honestly when a machine is past sensible repair.
+
+### Q: What warranty do you offer on repairs?
+
+We offer up to 3-year warranty on component-level repairs depending on the work performed and parts used. Standard repairs carry a 12-month warranty as a minimum. The exact warranty period is stated on your invoice so there is no ambiguity later.`,
+  },
+  'macbook-pro-repair-savoy-estate-johannesburg': {
+    slug: 'macbook-pro-repair-savoy-estate-johannesburg',
+    title: `MacBook Pro Repair Savoy Estate Johannesburg: What a Consultant Actually Needs From a Repair Partner`,
+    excerpt: `When a 16-inch MacBook Pro stops working at 9pm on a Tuesday and the client deliverable is due Wednesday morning, the conversation about repair stops being theoretical. We have seen this scenario play.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Pro Repair Savoy Estate Johannesburg: What a Consultant Actually Needs From a Repair Partner
+
+When a 16-inch MacBook Pro stops working at 9pm on a Tuesday and the client deliverable is due Wednesday morning, the conversation about repair stops being theoretical. We have seen this scenario play out hundreds of times with professionals working from home offices in Savoy Estate, just up the road from our Hyde Park workshop. The question is rarely "can it be fixed" — it is usually "how fast, how much, and can I trust the person touching my logic board."
+
+This post is written for exactly that consultant. The accountant whose backup ran last week. The legal advisor with privileged client files on the internal SSD. The architect whose Vectorworks project lives on a machine that suddenly refuses to chime. Here is what to expect and what to demand from a repair partner serving Savoy Estate.
+
+## The Savoy Estate MacBook Pro Profile We Keep Seeing
+
+The machines we collect from Savoy Estate addresses tend to cluster around a clear pattern. The 14-inch and 16-inch MacBook Pro models with M1 Pro, M2 Pro and M3 Pro chips dominate, with a long tail of 2019 and 2020 Intel 16-inch units still in heavy daily use. These older Intel machines are the ones we worry about most — the 1TB and 2TB SSDs in those models have a hard write-cycle limit, and after four or five years of heavy Adobe scratch disk activity or accounting database work, we start to see the early warning signs: kernel panics, sudden Finder hangs, and eventually a machine that will not boot past the Apple logo.
+
+Across more than 18,000 Mac repairs we have logged at the Hyde Park bench, the failure modes from settled professional suburbs like Savoy Estate skew differently from student or retail-heavy areas. Less drop damage. More liquid spills from home-office coffee and rooibos. More thermal complaints from machines running Zoom, Teams, a CRM, and a virtual machine simultaneously for eight hours a day.
+
+## Four Faults We Diagnose Most Often
+
+The first is **SSD wear on Intel 16-inch models from 2019-2020**. Because the storage is soldered directly to the logic board on those units, a worn SSD effectively kills the entire board unless you can do component-level work. We handle this through targeted [logic board repair](/logic-board-repair) rather than the Apple-standard board swap, which preserves the original Touch ID pairing and saves the client roughly 60% of the quoted replacement cost.
+
+The second is **liquid damage from desk spills**. A home office is not a controlled environment. We have pulled apart MacBook Pros with coffee residue, sparkling water, white wine, and on one memorable occasion, bone broth. The recovery rate depends almost entirely on how quickly the machine reaches us. Powered off and disconnected within the first hour, brought in the same day, we have a strong success record. Left to "dry out in rice" for a week — much less so. Our [liquid damage recovery](/liquid-damage) process involves full disassembly, ultrasonic cleaning of the logic board, and component-level inspection under magnification.
+
+The third is **fan acoustics on M-series machines**. Clients often think their M2 Pro is broken because the fans suddenly ramp up. Nine times out of ten it is dust accumulation in the intake vents combined with a thermal paste that has dried out. A proper clean and repaste returns the machine to near-silent operation.
+
+The fourth is **external display issues over USB-C docks**. Savoy Estate professionals tend to run dual-monitor setups. When the second display starts flickering or dropping out, the culprit is usually the dock or cable, not the MacBook itself — but diagnosing this properly requires testing against a known-good reference setup, which is exactly what a workshop has that a home office does not.
+
+## Why Geography Matters for a 7km Trip
+
+Savoy Estate sits roughly seven kilometres from our Hyde Park workshop, north of Sandringham and easily reached via Louis Botha or Corlett Drive depending on traffic. For most clients this is a 15-minute drive outside of peak hours, which matters when you are dropping off a machine that holds active client work.
+
+We do not do mail-in or courier-only intake for MacBook Pro work, and we are direct about why. A logic board diagnostic conversation works better face to face. You can see the machine on the bench. We can show you the corrosion pattern under the microscope. You can ask what we will and will not attempt before authorising anything. For Savoy Estate clients specifically, the short drive makes this practical in a way it would not be from, say, Centurion.
+
+If dropping the machine off in person genuinely will not work, we arrange a collection within the northern suburbs. [Contact us](/contact) before assuming this is not possible.
+
+## Pricing Transparency — What It Actually Costs
+
+We charge **from R599 for a full diagnostic assessment** on any MacBook Pro. That fee covers a proper bench inspection, boot diagnostics, SMC and NVRAM testing, internal visual inspection, and a written quote. If you proceed with the repair, that R599 is credited against the repair total. If you decline, you have paid for an honest assessment and you walk away knowing exactly what is wrong.
+
+Indicative ranges for the common faults: an SSD-related logic board repair on a 2019-2020 16-inch typically falls between R4,500 and R8,500 depending on which components are involved. Liquid damage recovery ranges from R2,800 for a clean spill caught early to R9,000 plus for severe corrosion requiring multiple component replacements. Fan service and repaste on M-series machines is usually around R1,400 to R1,900. External display diagnostics where the MacBook itself is the culprit — typically a failed Thunderbolt controller — run R3,500 to R6,000.
+
+Every completed repair carries up to a 3-year warranty on the work performed and the parts supplied, which is substantially longer than the standard 90-day cover most independent workshops offer. The warranty length depends on the repair category — board-level work and component replacements carry the full term.
+
+For reference cost comparison, [Apple Support](https://support.apple.com) will quote an out-of-warranty 16-inch MacBook Pro logic board replacement at well over R30,000 in most cases.
+
+## What to Expect When You Drop Off
+
+When you arrive at the Hyde Park workshop, the intake takes about 15 minutes. We log the machine's serial number, photograph its cosmetic condition front and back, and note any pre-existing damage. We ask you to demonstrate the fault if it is intermittent, or describe the exact sequence of events that led to the failure. For liquid damage specifically, we want to know what spilled, when, and whether the machine was powered on at the time.
+
+We will ask whether you have a current backup. If you do not, and the SSD is still readable, we offer data extraction as a separate service before any board-level work begins. This matters because liquid damage and SSD wear repairs both carry a non-zero risk to stored data, and we would rather have that conversation upfront than after the fact. Under POPIA, we treat any client data we encounter as confidential and we do not retain it once the repair is complete.
+
+Turnaround time for most repairs is two to five working days. SSD-related board repairs take longer because we wait for thermal cycling tests to confirm stability before releasing the machine. Liquid damage recovery is unpredictable — sometimes 48 hours, sometimes two weeks if we are sourcing a specific power management IC.
+
+Load shedding does occasionally extend timelines. The workshop runs on inverter backup for diagnostic work, but we will not perform reflow or microsoldering operations during unstable power, because the risk of a mid-procedure outage damaging an already-compromised board is too high. We will tell you upfront if load shedding is affecting your specific repair.
+
+## Getting Started
+
+If your MacBook Pro has stopped working and you need an honest assessment from a workshop that handles these machines daily, the fastest route is to [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with the model and a short description of what happened. Photos of any visible damage help. Alternatively, [book online at zasupport.com/book](https://zasupport.com/book) and choose a drop-off slot that works around your client calls.
+
+We have rebuilt boards that other workshops declared dead, and we have also told clients honestly when a machine is not worth saving. Either way, you will know within 24 hours of drop-off where you stand.
+
+## Frequently Asked Questions
+
+### Q: How long does a typical MacBook Pro repair take for a Savoy Estate client?
+Most repairs are completed within two to five working days from drop-off. SSD and logic board work tends toward the longer end because we run extended thermal cycling tests before releasing the machine. Liquid damage repairs vary more widely depending on parts availability and the severity of corrosion.
+
+### Q: Can you recover data from a MacBook Pro that will not turn on?
+In most cases yes, provided the SSD itself is not the failed component. On Intel MacBook Pros from 2018 onwards and all Apple Silicon models, the SSD is soldered to the logic board, which means data recovery requires either repairing the board sufficiently to boot, or specialised chip-off recovery. We will tell you upfront which approach applies to your machine and what the realistic success probability is.
+
+### Q: Do you work on MacBook Pros still under AppleCare?
+We do, but we always advise clients to check their AppleCare status first. If the fault is covered, the Apple route is cheaper. We tend to see AppleCare clients when the warranty has expired, when liquid damage voids cover, or when the Apple-quoted replacement cost exceeds the repair cost we can offer.
+
+### Q: Is it safe to drive from Savoy Estate to Hyde Park with a liquid-damaged MacBook?
+Yes, as long as the machine is powered off and unplugged from any charger. Do not attempt to turn it on to "check if it still works" — that is what causes the cascading short-circuit damage we then have to repair. Bring the charger with you so we can test power delivery separately.
+
+### Q: What happens if you cannot repair my MacBook Pro?
+You pay only the R599 assessment fee and we return the machine in the condition we received it. We provide a written explanation of what we found and, where relevant, our honest opinion on whether the machine is worth pursuing through another route or replacing entirely.
+
+### Q: Do you offer any warranty on board-level repairs?
+Yes. Logic board repairs and component-level work carry up to a 3-year warranty on the specific work performed and parts supplied. The warranty covers recurrence of the original fault and any related failure of the components we touched. It does not cover new unrelated damage such as a fresh liquid spill or drop.`,
+  },
+  'macbook-repair-king-david-linksfield-parents': {
+    slug: 'macbook-repair-king-david-linksfield-parents',
+    title: `MacBook Repair for King David Linksfield Parents: A Workshop Close to the School Run`,
+    excerpt: `If you have a child at King David Linksfield Senior, KDL Primary or King David Ariel, you already know the morning rhythm. Drop-off by 07:30, work calls by 09:00, pickup by 14:30. When a MacBook goes .`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Repair for King David Linksfield Parents: A Workshop Close to the School Run
+
+If you have a child at King David Linksfield Senior, KDL Primary or King David Ariel, you already know the morning rhythm. Drop-off by 07:30, work calls by 09:00, pickup by 14:30. When a MacBook goes down mid-week, the last thing you need is a courier collection that takes three days or a "Genius Bar" appointment slot two weeks out. Our workshop in Hyde Park Johannesburg sits roughly six kilometres from the KDL campus on Club Street, which means a parent can drop a machine with us straight after dropping the children, and in many cases collect it before the school siren goes that afternoon.
+
+This post walks through what we typically see from KDL parents, what the repairs cost, and how the drop-off process actually works when you are squeezing it into a tight school-run window.
+
+## Why Proximity Matters When Your MacBook is Your Office
+
+We have been repairing Apple hardware out of Hyde Park for years, and across more than 18,000 MacBooks logged through our workshop the single biggest source of stress is not the fault itself — it is the downtime. Parents running consultancies, legal practices, design studios and medical billing operations cannot afford a three-day turnaround. Most of the King David parents we see are working from MacBook Pro 14-inch or 16-inch machines on M1 Pro, M2 Pro or M3 silicon, and the device is genuinely the office.
+
+The Club Street route from Linksfield through Houghton to Hyde Park is about 12 minutes outside peak traffic, longer if you hit the M1 in the morning crawl. Either way, it is a single detour rather than a logistics exercise. Drop the machine, walk across to Hyde Park Corner for a coffee, and we will often have a diagnosis back to you by the time you have finished it.
+
+## The Faults We See Most Often from KDL Families
+
+There is a fairly predictable pattern to the MacBook repairs that come in from the Linksfield and Sydenham side of town.
+
+**Liquid damage from school bags.** This is the number one fault from younger pupils at KDL Primary and Ariel. A water bottle pops in the bag, the MacBook Air sits in a slow puddle for the ride home, and by the time it gets opened the logic board has already started to corrode. Speed matters here — every hour the device sits with moisture inside, the worse the corrosion becomes. Our [liquid damage recovery](/liquid-damage) process involves a full disassembly, ultrasonic cleaning of the logic board, and component-level inspection under microscope. We have pulled back machines that other shops had already written off, but the success rate drops sharply after 48 hours, so if your child arrives home with a damp MacBook, power it down immediately and call us.
+
+**Butterfly keyboard failures on 2018-2020 models.** A surprising number of older siblings and matric pupils are still on inherited 2018, 2019 or early 2020 MacBook Pro models with the butterfly mechanism. Stuck keys, repeating keys, dead keys — the design flaw is well documented and [Apple Support](https://support.apple.com) ran an extended service programme for some of them, though most are now out of warranty. We replace the top case assembly or, where appropriate, do individual key mechanism work.
+
+**Slow performance on 2017-2019 Intel MacBooks.** Parents often ask whether their older Intel MacBook Pro is worth keeping. Usually the answer is yes, provided we can swap the SSD for a higher-capacity NVMe drive, refresh the thermal paste, and clean out years of dust from the fans. A 2018 MacBook Pro 13-inch that boots in 90 seconds can be brought back to a 15-second boot for a fraction of the cost of a new machine.
+
+**Battery swelling on 2016-2019 models.** If the trackpad has started to bulge upward or the bottom case is no longer flat, the battery has expanded and needs to come out urgently. This is a same-day job in most cases.
+
+**Charging port and logic board faults.** USB-C ports take a beating in a school bag. When the port itself is damaged, we can often do a board-level [logic board repair](/logic-board-repair) rather than swap the entire main board, which keeps the cost down considerably.
+
+## Pricing Transparency: What You Actually Pay
+
+We work on a flat from R599 assessment fee, which covers full diagnostic time on the machine. That fee is applied to the final repair cost if you proceed, so in practice you are not paying twice. We quote in writing before any work begins — no surprise invoices at collection.
+
+Indicative pricing for the common KDL-parent jobs:
+
+A liquid damage clean and recovery on a MacBook Air M1 or M2 typically runs between R3,500 and R6,500 depending on corrosion severity. A butterfly keyboard top case replacement on a 2019 MacBook Pro 13-inch is usually in the R4,500 to R7,200 range. SSD upgrades on older Intel machines start around R2,800 for the part and labour combined. Battery replacements on Retina-era MacBook Pros sit between R2,200 and R3,800 depending on model.
+
+Board-level repairs vary too much to quote in a blog post — a single failed power management IC is a very different job to a full liquid-damaged board — but we provide a firm quote after diagnostic.
+
+Every repair we complete comes with up to 3-year warranty on the workmanship and parts used, which is something we settled on after tracking failure rates across more than 14,000 completed jobs. The warranty length depends on the repair type, and we will tell you exactly which tier applies when we quote.
+
+## How the Drop-Off Actually Works on a School Day
+
+The practical version. You drop the children at KDL by 07:30. You head west on Club Street, cross over Louis Botha, continue through Houghton, and you are at our Hyde Park workshop by around 07:50 if traffic is kind. We open early specifically because the school-run window is real for our clients.
+
+Bring the MacBook, the charger if you have it handy, and your unlock password or PIN. We cannot meaningfully diagnose a machine we cannot log into. If you have iCloud Find My switched on, we will ask you to sign out remotely during diagnostic — this is an Apple requirement, not a workshop preference, and it protects you under POPIA as well.
+
+We log the device, photograph any existing cosmetic damage, and give you a job number. Most diagnostics are complete within two to four hours. For straightforward repairs — battery swap, SSD upgrade, keyboard issue on a model where we stock the parts — we frequently have the machine back to you the same afternoon, in time for the 14:30 pickup at KDL.
+
+More complex jobs, particularly board-level work or liquid damage requiring ultrasonic cleaning and component sourcing, take two to five working days. We give you a realistic timeline upfront rather than an optimistic one.
+
+If you cannot get to us in person, we also do a collection-and-return service across the eastern and northern suburbs. Just [contact us](/contact) and we will arrange it.
+
+## What to Bring and What to Back Up First
+
+If the machine still boots, back it up to Time Machine or to iCloud before bringing it in. We treat data with care, and our processes are aligned with POPIA, but the gold standard is always your own recent backup. If the machine will not boot — typical in liquid damage cases — bring it as is and we will discuss data recovery options as part of the diagnostic. For anyone wanting to understand the internal layout of their specific model before drop-off, [iFixit](https://www.ifixit.com) publishes excellent teardown guides.
+
+Also useful: your serial number, which sits in System Settings > General > About, or printed on the bottom case. It helps us confirm warranty status and order the correct parts.
+
+## Booking and Getting Hold of Us
+
+The fastest way to get a machine looked at is to [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a quick description of the fault and ideally a photo. We will tell you whether it sounds like a same-day job or something longer, and book you in. You can also [book online at zasupport.com/book](https://zasupport.com/book) and pick a drop-off slot that fits the school run.
+
+## Frequently Asked Questions
+
+### Q: How long will my MacBook repair actually take?
+For battery replacements, SSD upgrades and keyboard issues on stocked models, we frequently complete the work the same day if dropped before 09:00. Liquid damage recovery and board-level work typically takes two to five working days. We give you a firm timeline at the diagnostic stage rather than guessing upfront.
+
+### Q: Do you only work on newer MacBooks, or older Intel models too?
+Both. We regularly service Intel MacBook Pro models going back to 2015, as well as every generation of Apple Silicon from M1 through M3. Older machines often just need an SSD upgrade and a thermal refresh to feel modern again.
+
+### Q: What if the diagnostic shows the repair is not worth doing?
+You pay the R599 assessment and take the machine home — or we recycle it responsibly on your behalf. We will not push a repair that does not make financial sense, particularly on older Intel models where a board-level fault sometimes costs more than the residual value of the machine.
+
+### Q: Is my data safe during the repair?
+Yes. We work to POPIA standards, do not access personal files beyond what is necessary to verify the repair, and ask you to sign out of iCloud Find My before diagnostic. We strongly recommend you keep your own Time Machine or iCloud backup current regardless.
+
+### Q: How far is the workshop from King David Linksfield?
+Roughly six kilometres via Club Street, through Houghton, into Hyde Park. Outside peak traffic it is about a 12-minute drive. We open early specifically to fit the school-run window.
+
+### Q: What warranty do I get on the repair?
+Up to 3-year warranty depending on the type of work performed. Battery replacements, keyboard assemblies and component-level board repairs each carry different warranty tiers, and we explain exactly which one applies to your job before you approve the quote.`,
+  },
+  'managed-it-support-king-david-schools-johannesburg': {
+    slug: 'managed-it-support-king-david-schools-johannesburg',
+    title: `Managed IT Support for Businesses Near King David Schools Johannesburg`,
+    excerpt: `Drop-off at the Linksfield campus on Club Street, a quick stop at the practice on Ridge Road, then back to the office before 09:00. That is the morning rhythm for a lot of the practice managers and fa.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Managed IT Support for Businesses Near King David Schools Johannesburg
+
+Drop-off at the Linksfield campus on Club Street, a quick stop at the practice on Ridge Road, then back to the office before 09:00. That is the morning rhythm for a lot of the practice managers and family-office administrators we deal with, and it is the reason their IT cannot afford to be a side project. In our Hyde Park Johannesburg workshop we have spent years supporting Apple-first businesses scattered between the Linksfield, Victory Park and Sandton campuses, and the pattern is consistent: small teams, expensive hardware, sensitive data, no in-house IT department.
+
+This post explains what a Fixed Managed Service Provider (FMSP) retainer actually looks like for that kind of business — what we deploy, what we charge, and what you should expect when a device lands on our bench.
+
+## Why Apple-First Businesses Need a Different Kind of Support
+
+A generic IT reseller in Bryanston will quote you for a Windows fleet, a Synology, and a Sophos firewall, and they will do a reasonable job until the day a partner walks in with a M3 MacBook Pro and asks why FileVault is fighting with their Microsoft 365 sign-in. We have seen this exact scenario more times than we can count. Apple hardware is not difficult to manage, but it does not respond well to being treated as if it were a Dell.
+
+A medical practice on Club Street running fourteen iMacs and a handful of iPads at reception needs Apple Business Manager linked correctly to Microsoft 365 Business Premium, Jamf or Jamf School pushing configuration profiles, and a sensible backup story that survives a four-hour load shedding stretch. A law firm near the Victory Park campus needs encrypted device enrolment, conditional access, and a clear POPIA-aligned record of who accessed what. A jeweller off Glenhove Road needs point-of-sale iPads that do not wander off the network every time the fibre flickers.
+
+These are not exotic problems. They are just Apple problems, and they need someone who lives in the Apple ecosystem daily.
+
+## What an FMSP Retainer Actually Covers
+
+Our fixed-monthly fleet plans are built around three layers.
+
+The first layer is **device management**. We enrol every Mac, iPhone and iPad into Apple Business Manager and bind them to a Jamf or Jamf School tenant. That gives us zero-touch deployment — a new MacBook Air arrives at your reception, the user signs in, and within twenty minutes the machine has the right apps, the right Wi-Fi profile, FileVault encryption, Sophos endpoint protection, and the user's Microsoft 365 mailbox configured. No technician visit. No USB sticks.
+
+The second layer is **identity and email**. Microsoft 365 Business Premium gives us conditional access, Intune co-management for the Windows stragglers most practices still have (usually a single accounting workstation), and proper mailbox retention. We configure multi-factor authentication on every account, set up SharePoint document libraries with sensible permissions, and lock down legacy authentication protocols that attackers love.
+
+The third layer is **monitoring and response**. Sophos endpoint agents report into a central console we watch. We get alerts on failed backups, unusual sign-ins, and devices that drop off the management plane. When something breaks at 16:45 on a Friday, you do not have to phone around — we are already aware.
+
+For most practices in the Linksfield and Victory Park corridors, an FMSP retainer sits somewhere between R7,500 and R28,000 a month depending on headcount and complexity. Ad-hoc work outside the retainer is billed from approximately R899 per hour. Hardware diagnostics start from R599 assessment, and that fee is credited against any repair you authorise.
+
+## Hardware Repair Is Part of the Same Conversation
+
+This is where a lot of managed service providers fall short. They will manage your fleet beautifully but when a MacBook Pro takes a coffee spill at the practice on Ridge Road, they send it to a third-party shop and add a margin. We do the repair ourselves. Our workshop has handled more than 18,000 Apple repairs across MacBooks, iMacs, iPads and iPhones since we opened, and that experience feeds directly back into the managed service.
+
+If a device comes in with a [logic board repair](/logic-board-repair) requirement — say a failed power management IC on a M1 MacBook Air, which we see often — we can usually quote within 48 hours and turn it around inside a week. [Liquid damage recovery](/liquid-damage) is a separate workflow: ultrasonic cleaning, board-level inspection under a microscope, component replacement where corrosion has eaten traces. We offer up to 3-year warranty on component-level board repairs we perform in-house, which is something the Apple authorised channel cannot match because their model is whole-unit swap, not repair.
+
+For reference on what Apple themselves recommend versus what is actually repairable at component level, the [Apple Support](https://support.apple.com) site is useful for verifying serial numbers and warranty status, but it will not tell you that your R45,000 MacBook with a R22,000 board quote from Apple can often be repaired for a fraction of that.
+
+## The Local Geography Matters More Than You Think
+
+We are based in Hyde Park Johannesburg, roughly fifteen minutes from the Sandton pre-primary campus, twenty from Victory Park, and twenty-five from Linksfield depending on the M1 traffic. That proximity is the whole point. When a partner's iMac will not boot the morning of a hearing, we can have a courier or a technician on site faster than any nationally franchised operation.
+
+We also know the building stock. The medical suites along Club Street and the older office parks around Glenhove and Oxford Roads have specific quirks — fibre handover points in awkward cupboards, ageing electrical reticulation that punishes power supplies, generator transfer switches that need surge protection upstream of every workstation. The professional offices near the Victory Park campus, especially the converted residential properties, often have Wi-Fi coverage problems that no amount of Jamf configuration will fix without proper access point placement.
+
+These are the small things that turn an IT contract from acceptable to actually useful.
+
+## Pricing Transparency: No Surprises on the Invoice
+
+We publish our rates and we stick to them. Ad-hoc support is billed from R899 per hour, in fifteen-minute increments after the first hour. Hardware assessments start from R599 assessment and are credited against approved repairs. FMSP retainers are quoted fixed-monthly after a free scoping session, and they include unlimited remote support within agreed scope, quarterly on-site reviews, and discounted hardware rates.
+
+What we will not do is bill you for the same problem twice. If a Mac came back from us last month and the same fault recurs, that is on us. If we recommended a backup configuration and it failed because we configured it wrong, we restore it without charge and we tell you what we got wrong.
+
+POPIA compliance is built into how we operate. We sign data processing agreements with every practice, we keep a register of devices and users we have access to, and we can produce an audit trail when your information officer needs one.
+
+## What to Expect When You Drop a Device Off
+
+Bring the device to our Hyde Park workshop or arrange a collection. We log it into our ticketing system, photograph it, and issue you a job number by SMS and email. Diagnostics begin the same day in most cases. Within 24 to 48 hours you receive a written quote — not a phone call where you have to remember numbers, but an itemised PDF with parts, labour, warranty terms and turnaround time.
+
+If you approve, we proceed. If you do not, we return the device at no further cost beyond the R599 assessment. No pressure, no upsell.
+
+For managed clients, the process is even simpler: we collect, repair, and return, and the cost either falls inside your retainer or is itemised on your next monthly invoice.
+
+To get a scoping conversation booked, you can [contact us](/contact) directly, [WhatsApp us on 064 529 5863](https://wa.me/27645295863), or [book online at zasupport.com/book](https://zasupport.com/book).
+
+## Frequently Asked Questions
+
+### Q: How quickly can you onboard our practice onto an FMSP retainer?
+For a team of under twenty users on an Apple-first fleet, we typically complete onboarding within ten to fourteen working days. That includes Apple Business Manager setup, Jamf enrolment, Microsoft 365 tenant review, Sophos deployment, and a documentation handover. Larger or more complex environments take three to four weeks.
+
+### Q: Do we need to replace all our existing hardware to be managed?
+No. We work with what you have. Most of the practices we onboard near the Linksfield and Victory Park campuses have a mix of three to six year old Macs alongside newer machines, and we manage all of them through the same Jamf tenant. We will flag devices that are genuinely at end-of-life, but we do not push hardware refreshes you do not need.
+
+### Q: What happens during load shedding?
+We design every environment with load shedding in mind. That means UPS units sized correctly for your network equipment, cloud-first document storage so nobody loses work when a Mac shuts down unexpectedly, and mobile failover for fibre where the practice cannot afford downtime. For sites with generators, we make sure surge protection is in place upstream of sensitive equipment.
+
+### Q: Can you support our Windows machines too?
+Yes. Most of the businesses we manage have at least one Windows device — usually an accounting workstation running Pastel or Sage. We handle Intune enrolment, patching, and endpoint protection on those alongside the Macs. We are Apple-first, not Apple-only.
+
+### Q: How do you handle POPIA compliance for medical practices?
+We sign a data processing agreement that sets out exactly what data we have access to and why. We maintain device and user inventories, log administrative actions, and can produce reports when your information officer requires them. We do not access patient records — our access is limited to the infrastructure layer.
+
+### Q: What is the warranty on repairs done under our managed service?
+Component-level repairs carried out in our Hyde Park workshop carry up to 3-year warranty depending on the component and the nature of the fault. Whole-unit replacements and parts sourced from Apple carry the standard manufacturer warranty. Either way, the warranty terms are written into your quote before you approve any work.`,
+  },
 };
 
 export async function generateStaticParams() {

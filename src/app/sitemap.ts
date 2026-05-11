@@ -563,5 +563,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/managed-it-services-jewish-schools-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${base}/blog/mac-repair-sandringham-sydenham-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
         { url: `${base}/blog/macbook-repair-highlands-north-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+        { url: `${base}/blog/apple-watch-repair-glenhazel-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/apple-watch-repair-sandringham-savoy-estate`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/ipad-repair-highlands-north-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/ipad-repair-king-david-victory-park-families`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/mac-repair-yeshiva-college-glenhazel`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-repair-savoy-estate-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-repair-king-david-linksfield-parents`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/managed-it-support-king-david-schools-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
