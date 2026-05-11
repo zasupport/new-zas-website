@@ -36469,6 +36469,544 @@ Frequently Asked Questions
 **Q: Can I get a same-day MacBook logic board repair in Johannesburg?**A: For simple single-component faults, we can sometimes complete the repair on the same day or the following business day. More complex faults typically take three to five business days. We give you a realistic estimate after the assessment — not a rushed promise we cannot keep.
 `,
   },
+  'macbook-repair-glenhazel-johannesburg': {
+    slug: 'macbook-repair-glenhazel-johannesburg',
+    title: `MacBook Repair Glenhazel Johannesburg | ZA Support Hyde Park`,
+    excerpt: `MacBook repair for Glenhazel residents. ZA Support collects from Glenhazel and surrounding areas. Assessment from R599, all MacBook Pro and Air models, logic board and screen specialists.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `Glenhazel is one of Johannesburg's most connected communities, and like most vibrant professional neighbourhoods, it runs on Apple hardware. In our Hyde Park workshop we have repaired over 14,000 MacBook models since 2016, and a significant number of those machines arrive from Glenhazel, Sandringham, Sydenham, and the eastern suburbs belt. We know the area well, and we collect from your door.
+
+## Why Glenhazel MacBook Users Choose ZA Support
+
+The closest Apple authorised service provider to Glenhazel charges Apple-rate pricing for repairs and often marks older Intel machines as beyond economic repair. At ZA Support in Hyde Park, we take a different approach. Our workshop specialises in component-level logic board repair, which means we fix the actual fault rather than replacing the entire board. That distinction matters significantly on a repair invoice.
+
+We are approximately 12 kilometres from the heart of Glenhazel, and we offer a collection and return service from your home or office. Drop us a message and we arrange the courier. Most assessments are completed within 24 hours of arrival in our workshop.
+
+## Most Common MacBook Repairs from the Glenhazel Area
+
+**Logic board failure** is the repair we see most often from professional households and small businesses in Glenhazel. The M1 and M2 MacBook Pro and Air both have well-documented USB-C power controller faults that can cause the machine to refuse to charge or fail to boot. We have resolved hundreds of these faults with microsolder repair rather than board replacement, saving customers between R8,000 and R25,000 compared to Apple Store quotes.
+
+**Liquid damage** is the second most frequent category. Coffee in a home office, a glass knocked over during a late-night work session, or condensation from an air conditioner above a desk. The Glenhazel area has warm, humid summers, and condensation damage is more common than most people expect. The first 30 minutes after a spill are critical. Power the machine off immediately, do not try to turn it back on, and contact us. We perform full ultrasonic cleaning and component-level diagnostics.
+
+**Screen damage** on the newer Retina and Liquid Retina XDR displays is expensive at Apple pricing. At ZA Support we source quality replacement panels and perform the replacement in our Hyde Park workshop. A MacBook Air 13-inch screen replacement typically runs between R2,499 and R3,499 depending on the model year. MacBook Pro 14-inch and 16-inch screens are priced higher due to the Liquid Retina XDR technology.
+
+**Battery swelling** is common on machines three years and older, particularly in the Johannesburg climate. A swollen battery is a safety issue, not just a performance one. We replace batteries across the full MacBook range, using quality cells with our standard warranty. Pricing starts from R999 for MacBook Air models.
+
+**Keyboard failures** on the 2016 to 2019 MacBook Pro butterfly mechanism are still arriving in our workshop years after the keyboard controversy. If your keys are sticking, repeating, or registering double inputs, we have extensive experience with this repair. On later scissor-switch models we also handle individual key replacement.
+
+## Collection from Glenhazel
+
+We collect from Glenhazel, Sandringham, Sydenham, Highlands North, Norwood, and surrounding suburbs. The collection process is simple: you contact us, we agree a time window, our courier arrives with a padded bag, and the machine is with us in Hyde Park within the hour. We send a written assessment within 24 hours of receiving your device.
+
+## Pricing Overview
+
+All pricing is indicative and confirmed after we verify your model and serial number at assessment.
+
+**Assessment:** from R599 (deducted from repair cost if you proceed)
+**Logic board repair:** from R4,499
+**Liquid damage:** from R1,999
+**Screen replacement:** from R2,499 (MacBook Air 13-inch)
+**Battery replacement:** from R999
+**Keyboard repair:** from R1,299
+
+## What to Do Before Bringing Your MacBook In
+
+If your machine is showing signs of failure, a few steps before the workshop will preserve your options.
+
+Back up your data if the machine is still powering on. Use Time Machine to an external drive, or iCloud if you have sufficient storage. If the machine will not boot, do not attempt repeated power-on cycles, as this can compound logic board faults.
+
+Note the exact symptoms: when they started, whether they appeared after a specific event such as a software update, liquid exposure, or a physical impact, and whether the fault is intermittent or permanent. This information significantly reduces diagnostic time and therefore your assessment cost.
+
+## Frequently Asked Questions
+
+**How long does a MacBook repair take from Glenhazel?**
+We complete most assessments within 24 hours of receiving the machine. Straightforward repairs such as battery replacements and screen replacements are typically completed within one to two working days. Logic board repairs involving component-level work take two to four working days. We provide a written time estimate at the assessment stage before any work begins.
+
+**Do you collect MacBooks from Glenhazel on the same day?**
+Yes. If you contact us before noon on a weekday, we can usually arrange same-day collection from Glenhazel, Sandringham, and Sydenham. Contact us and we will confirm availability.
+
+**What warranty do you provide on MacBook repairs?**
+We provide an up to 3-year warranty on the specific fault we repair. This is documented in writing and covers parts and labour. If the same fault recurs within the warranty period, we rectify it at no additional charge.
+
+**Can you repair a MacBook that Apple said is beyond economic repair?**
+In many cases, yes. Apple assessors often recommend board replacement when the specific fault is component-level and repairable by microsolder. We have recovered machines that Apple Service Providers quoted as uneconomical. The assessment will tell you definitively.
+
+**Do you work on all MacBook models?**
+Yes. We repair Intel and Apple Silicon models from 2012 onwards, including MacBook Air and MacBook Pro across all screen sizes. Some older models require specialist parts which may extend turnaround time.
+
+**Is my data safe during a logic board repair?**
+On Apple Silicon machines (M1, M2, M3), your SSD is architecturally integrated with the chip. We access your data through the main board during diagnostics, and our repair process does not format or erase your storage unless that is explicitly required and you have approved it.
+
+Contact us today. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your fault and arrange collection from Glenhazel, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.`,
+  },
+
+  'ipad-repair-norwood-johannesburg': {
+    slug: 'ipad-repair-norwood-johannesburg',
+    title: `iPad Repair Norwood Johannesburg | Screen, Battery & Charging Port`,
+    excerpt: `iPad screen cracks, battery drain and charging faults repaired for Norwood residents. ZA Support collects from Norwood and Grant Avenue. Assessment from R599.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `Norwood is one of Johannesburg's most active suburban communities, and Grant Avenue is where its professional and family life concentrates. At ZA Support in Hyde Park we have repaired over 11,000 iPads since 2016, and Norwood is one of the suburbs we collect from most regularly. The trip from Grant Avenue to Hyde Park takes about 15 minutes, but most of our Norwood clients prefer the collection service.
+
+## iPad Repairs We Perform for Norwood Residents
+
+**Cracked screens** are the most common iPad repair we handle from Norwood. A dropped iPad on a tiled kitchen floor or a pavement outside the Grant Avenue coffee shops produces the characteristic star-pattern crack on the Retina display. We replace screens on all iPad models including iPad mini, iPad Air, iPad Pro 11-inch and 12.9-inch, and the standard iPad range. iPad Pro Liquid Retina XDR screens are precision work given the ProMotion technology and True Tone alignment, and we perform this repair in a controlled environment at our Hyde Park workshop.
+
+**Battery degradation** is the second most frequent issue. If your iPad is losing charge faster than it used to, shutting down unexpectedly at 20% or 30%, or if the battery health reading in Settings is below 80%, a replacement is likely overdue. We replace iPad batteries across all models using quality cells with our warranty. An iPad Air or standard iPad battery replacement runs approximately R999 to R1,499 depending on the model.
+
+**Charging port and USB-C faults** have become increasingly common as the iPad lineup moves to USB-C across the range. Lint compaction in the port, connector damage from a fall, or a failed USB-C power delivery controller on the logic board can all present as charging failure. We clean, assess, and repair charging systems. If the fault is at the port, repair is straightforward. If the USB-C controller on the board is damaged, we perform component-level microsolder work.
+
+**iPad stuck in recovery mode or bootloop** often arrives following a failed iOS update, particularly on older devices with limited internal storage. We recover these devices using DFU mode and targeted software tools. If the bootloop is caused by hardware rather than software, we diagnose the logic board fault at the component level.
+
+**Liquid damage to iPad** is serious, as the iPad enclosure is less tolerant of moisture ingress than the MacBook chassis. We perform ultrasonic cleaning of the board and component-level assessment. If the damage is caught early, before corrosion advances, recovery rates are high.
+
+## Why Norwood Clients Choose ZA Support
+
+The alternative for most Norwood residents is either the Apple Store in Sandton City or one of the mall-based repair shops on Grant Avenue. Apple Store pricing for an iPad Pro 12.9-inch screen replacement starts above R5,000. Our pricing for the same repair starts at R2,999, with the same quality control and a written warranty.
+
+Mall-based repair shops in Norwood often use third-party screens without the original colour calibration. We source quality replacement panels and calibrate True Tone where the model supports it.
+
+We are 10 kilometres from Grant Avenue. The collection service means you do not need to travel at all.
+
+## Collection from Norwood
+
+We collect from Norwood, Orchards, Orange Grove, Houghton, and adjacent suburbs. Contact us to arrange a collection window that suits you. Turnaround is typically 24 to 48 hours from receipt, and we provide a written assessment before any work begins.
+
+## Pricing Overview
+
+Prices are indicative and confirmed after model and serial verification.
+
+**Assessment:** from R599
+**iPad screen replacement:** from R1,299 (standard iPad) to R2,999 (iPad Pro Liquid Retina XDR)
+**iPad battery replacement:** from R999
+**Charging port repair:** from R799
+**Liquid damage:** from R1,999
+
+## Frequently Asked Questions
+
+**How long does an iPad screen replacement take?**
+Most screen replacements are completed within one working day of receiving the device in our Hyde Park workshop. We perform a calibration check on the display and a full function test before return.
+
+**My iPad Pro has Face ID and I am concerned it will stop working after a screen replacement. Is that a risk?**
+Face ID on iPad Pro is linked to the original display via a cryptographic pairing. We retain the original Face ID components during screen replacement and do not touch the TrueDepth camera module. Face ID integrity is maintained. We will confirm this in writing before any screen work begins.
+
+**Can you recover data from an iPad with a shattered screen?**
+If the logic board is functional, yes. We can connect the iPad to diagnostic equipment and perform a data extraction even when the screen is inoperable. Ask us about this at the assessment stage.
+
+**Do you repair older iPads, including the original iPad Air and iPad mini 2?**
+Yes, although parts availability for very old models can affect turnaround time. We will advise you at the assessment stage if your model requires sourcing specialist parts.
+
+**Is there a risk to my data during repair?**
+No repair procedure we perform touches your data storage under normal circumstances. We do not erase or reset your device during a screen or battery replacement.
+
+**Do you collect from Grant Avenue, Norwood?**
+Yes. We collect from Norwood, including the Grant Avenue corridor, Orchards, and Orange Grove. Contact us to arrange a time.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to tell us what is wrong with your iPad and arrange collection from Norwood, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your assessment at our Hyde Park workshop.`,
+  },
+
+  'macbook-air-repair-victory-park-johannesburg': {
+    slug: 'macbook-air-repair-victory-park-johannesburg',
+    title: `MacBook Air Repair Victory Park Johannesburg | Near King David School`,
+    excerpt: `MacBook Air repair for Victory Park families and King David School students. ZA Support collects from Victory Park. M1 and M2 battery, screen and logic board specialists. From R599.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `Victory Park is a quiet residential suburb in the north of Johannesburg, home to families with children at King David School Victory Park and surrounding schools. It is also, in our experience, home to a significant number of MacBook Air users. Students arriving at King David frequently use MacBook Air as their primary school and university machine. Parents working from home in Victory Park rely on the same hardware. When either category of user has a problem, ZA Support in Hyde Park is the closest specialist workshop, approximately 8 kilometres away.
+
+## MacBook Air Repairs for Victory Park Families
+
+**Battery replacement** is the most common MacBook Air repair we complete for Victory Park clients. The M1 MacBook Air (2020-2022) and M2 MacBook Air (2022-2024) both have non-user-replaceable batteries that degrade with charge cycles. A student using a MacBook Air through a full school and varsity career will typically need a battery replacement around the three to four year mark. Signs include the machine shutting down unexpectedly, reduced screen brightness under battery power, and charge cycles above 800.
+
+We have replaced over 12,000 MacBook batteries in our Hyde Park workshop. The process requires precision, as the M2 Air chassis in particular uses an adhesive-mounted battery pack beneath the keyboard assembly. We perform this repair without damaging the trackpad cable or keyboard connector.
+
+**Screen damage** on the MacBook Air is more common than on the MacBook Pro because the Air's chassis is thinner and offers less protection when dropped. The Liquid Retina display on the M2 Air is particularly sensitive to corner impacts, which cause the internal display matrix to crack even when the glass is unmarked. We replace MacBook Air displays in our workshop. Pricing starts from R2,499 for the M1 Air 13-inch and from R2,999 for the M2 Air 13-inch and 15-inch.
+
+**Logic board faults** on the MacBook Air present differently from MacBook Pro failures. The M1 and M2 Air runs fanless, which means thermal management is entirely passive. In Johannesburg's summer heat, machines used on soft surfaces (beds, couches) with blocked ventilation can experience thermal stress. We have seen USB-C controller failures and PMIC (power management IC) faults on M1 Air boards, typically presenting as failure to charge or failure to wake from sleep. These are repairable at the component level in our workshop.
+
+**Keyboard and trackpad issues** appear frequently on MacBook Air models used by students. Keys worn through heavy use, a sticky shift key from a beverage spill, or a trackpad that has developed haptic feedback issues can all be addressed in our workshop.
+
+## A Note for King David School Families
+
+Many families in Victory Park use a MacBook Air as the primary school machine from Grade 8 onwards. When that machine fails mid-term, the impact on schoolwork is immediate. We prioritise turnaround for students where we can, and if you explain the academic situation at the time of booking, we will aim to return the machine within 24 to 48 hours.
+
+We also offer a collection service from Victory Park and can collect from Stratton Street and the surrounding residential area. Most collections are arranged same-morning if you contact us before 10:00.
+
+## Pricing Overview
+
+**Assessment:** from R599 (deducted from repair cost if you proceed)
+**Battery replacement:** from R999 (MacBook Air M1), from R1,199 (MacBook Air M2)
+**Screen replacement:** from R2,499 (M1 Air 13-inch), from R2,999 (M2 Air 13-inch/15-inch)
+**Logic board repair:** from R4,499
+**Keyboard key replacement:** from R399
+**Liquid damage:** from R1,999
+
+## Frequently Asked Questions
+
+**My child's MacBook Air runs out of battery within two hours. Is this a fault or normal wear?**
+Battery health below 80% typically produces the behaviour you describe. Check Settings > Battery > Battery Health. If it shows below 80%, replacement is advisable. We can confirm at the R599 assessment whether the battery or another component is causing the discharge rate.
+
+**How long does a MacBook Air battery replacement take?**
+We complete MacBook Air battery replacements within one working day of receipt. If you drop the machine at our Hyde Park workshop before 10:00, collection is typically possible the same afternoon.
+
+**Can you repair a MacBook Air M2 with a cracked screen that still displays an image?**
+Yes. A cracked display that still shows an image typically has intact backlight and display driver connections. Screen replacement on the M2 Air is a full panel replacement and does not require board-level work. Turnaround is one to two working days.
+
+**My son spilled water on his MacBook Air during online school. The machine was on. What should I do?**
+Power it off immediately using the power button. Do not attempt to restart it. Do not charge it. Contact us and arrange collection as soon as possible. The faster we receive it, the higher the chance of recovery with minimal component replacement. Liquid damage costs increase significantly after corrosion begins.
+
+**Does a battery replacement void my AppleCare+ coverage?**
+We are an independent Apple specialist, not an Apple Authorised Service Provider. If your machine is still under AppleCare+, battery replacement through Apple or an AASP is free if the battery health is below 80%. Contact us and we will advise you on the best route based on your coverage status.
+
+**Do you collect from the King David School area in Victory Park?**
+Yes. We collect from Victory Park, including the residential streets around King David School. Contact us to arrange a collection time.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your MacBook Air fault and arrange collection from Victory Park, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.`,
+  },
+
+  'macbook-pro-repair-waverley-johannesburg': {
+    slug: 'macbook-pro-repair-waverley-johannesburg',
+    title: `MacBook Pro Repair Waverley Johannesburg | Logic Board & Screen Experts`,
+    excerpt: `MacBook Pro logic board and screen repair for Waverley and Houghton residents. ZA Support Hyde Park collects from Waverley. Assessment from R599, up to 3-year warranty.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `Waverley sits between Houghton and Norwood, one of Johannesburg's quieter residential pockets with a disproportionately high concentration of legal, medical, and financial professionals. These are people who work from home or at practices in the surrounding area, and who rely on MacBook Pro hardware for work that cannot be interrupted. At ZA Support in Hyde Park we collect from Waverley and have repaired thousands of MacBook Pro machines for professionals in this part of the city.
+
+## What MacBook Pro Repairs Look Like from Waverley
+
+**Logic board failure** is the most consequential repair in this category, and it is the one where independent specialist workshops make the biggest difference. Apple's pricing for a MacBook Pro logic board replacement starts above R15,000 on M1 and M2 models and reaches R70,000 on the 16-inch M2 Max. At ZA Support we perform component-level repair on the logic board itself, identifying and resolving the specific fault rather than replacing the entire assembly. We have completed over 10,500 MacBook Pro logic board repairs since our workshop opened.
+
+The most common M1 Pro and M2 Pro logic board faults we see involve the USB-C subsystem: controllers that fail following a power surge (load shedding events are a significant cause in Johannesburg), HDMI-to-USB-C bridge failures on machines used with external monitors, and power management IC faults that prevent the machine from sleeping correctly.
+
+**Screen damage** on the MacBook Pro 14-inch and 16-inch Liquid Retina XDR displays is expensive wherever you take it. At ZA Support our pricing starts from R3,499 for the 14-inch Pro and from R3,999 for the 16-inch Pro. We source quality replacement panels and perform a colour calibration check after installation.
+
+**Liquid damage** on a MacBook Pro used in a professional setting typically involves a coffee or water spill at a desk. The MacBook Pro chassis has limited ingress protection, and liquid that reaches the keyboard can track to the logic board within minutes. We perform full ultrasonic cleaning, component-level drying, and board diagnostics. Liquid damage repair starts from R1,999 and the final price depends on which components were affected.
+
+**Keyboard failure** on the 2016 to 2019 MacBook Pro butterfly keyboard mechanism is still reaching our workshop. If you are still using a machine from this era for professional work, and the keyboard is causing problems, we have extensive experience with both the repair and with advising on whether the machine is worth continued investment.
+
+## Load Shedding and MacBook Pro Logic Boards
+
+This deserves specific mention for Waverley residents. Johannesburg's load shedding regime has caused a category of MacBook Pro damage that was uncommon before 2019: USB-C power controller failures from power surges at the moment electricity returns. The MacBook Pro is typically connected to a charger, and when power returns after a blackout, the surge that travels through an inadequate UPS or power strip can damage the USB-C charging IC. We see several of these machines per week from the northern suburbs.
+
+If your machine is used in a home office or practice setting, investing in a quality UPS with surge protection is the single most effective way to prevent this category of repair.
+
+## Waverley Collection Service
+
+We collect from Waverley, Houghton, Hillbrow (business district), and the surrounding area. Contact us and we will arrange a collection window. Assessments are completed within 24 hours of receipt and communicated in writing before any repair work begins.
+
+## Pricing Overview
+
+**Assessment:** from R599 (deducted if you proceed with repair)
+**Logic board repair (component-level):** from R4,499
+**Screen replacement:** from R3,499 (14-inch Pro), from R3,999 (16-inch Pro)
+**Battery replacement:** from R1,299 (MacBook Pro)
+**Liquid damage:** from R1,999
+**Keyboard repair:** from R1,299
+
+## Frequently Asked Questions
+
+**My MacBook Pro will not charge after a load shedding event. Is this the logic board?**
+In most cases from the Waverley/Houghton area, this is a USB-C controller fault caused by the power surge. It is a component-level repair that does not require board replacement. The R599 assessment will confirm the specific fault and provide a fixed-price repair quote. Most USB-C controller repairs are completed in two to three working days.
+
+**Can you repair a MacBook Pro M3 Max?**
+Yes. We repair all Apple Silicon variants in the MacBook Pro range including M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, and M3 Max. The component-level approach is the same across silicon generations, though the specific fault patterns differ.
+
+**My MacBook Pro display has a black band at the bottom that grows over time. Is this repairable?**
+This is a known display cable fault on certain MacBook Pro models (referred to as Flexgate on older Intel models). On Apple Silicon models, a similar symptom can indicate display connector strain or backlight damage. We assess and advise. In some cases screen replacement is necessary; in others a connector re-seat resolves the issue.
+
+**How do I protect my data during a logic board repair?**
+On Apple Silicon MacBook Pro, your SSD data is architecturally protected by the Secure Enclave. We do not access, modify, or erase your data during logic board repair unless that is explicitly required and authorised. We will explain any data implications at the assessment stage before work begins.
+
+**Do you provide written quotes before starting repairs?**
+Yes, always. We complete the assessment (from R599), provide a written fixed-price repair quote, and wait for your written approval before any repair work begins. You are never charged for work you have not approved.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your MacBook Pro fault and arrange collection from Waverley or Houghton, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.`,
+  },
+
+  'apple-watch-repair-johannesburg-northern-suburbs': {
+    slug: 'apple-watch-repair-johannesburg-northern-suburbs',
+    title: `Apple Watch Repair Johannesburg Northern Suburbs | Battery, Screen & More`,
+    excerpt: `Apple Watch repair for Glenhazel, Norwood, Victory Park and surrounding northern suburbs. Battery, cracked screen, Digital Crown and charging faults. Assessment from R599.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `Apple Watch repair requires a different skill set from MacBook and iPhone repair. The Watch is one of the most compact consumer electronics products ever made, with components at a scale that demands specialist tools and a controlled workshop environment. At ZA Support in Hyde Park we have been repairing Apple Watch across the Series 4 to Series 10 and Ultra range since 2020. We collect from the northern suburbs, including Glenhazel, Norwood, Victory Park, Waverley, Highlands North, and Sandringham.
+
+## Apple Watch Repairs We Perform
+
+**Battery replacement** is the most common Apple Watch repair. The Watch battery is rated for around 18 hours of standard use, but after 300 to 500 full charge cycles, capacity drops noticeably. On an Apple Watch Series 6 or older, the battery by now is well past its optimal cycle count. Signs of a degraded battery include the Watch not lasting through the day, shutting down during a workout, or the crown icon appearing when the battery reaches a certain temperature in Johannesburg summer heat.
+
+We replace Apple Watch batteries on Series 4 through Series 10 and Apple Watch Ultra 1 and 2. Apple Watch battery replacement starts from R1,299. The process requires careful removal of the adhesive-sealed screen, battery disconnection, and re-sealing to maintain the watch's water resistance rating. We test the seal after reassembly.
+
+**Cracked screen** repair on Apple Watch uses OLED panels. The Watch screen is made from Ion-X glass on aluminium models and sapphire crystal on stainless steel and titanium models. Both are vulnerable to face-down drops on hard surfaces. The OLED display matrix often cracks internally while the outer glass remains intact, presenting as a dark patch or unresponsive touch zone. We replace Apple Watch screens on Series 4 and later. Pricing starts from R2,999.
+
+**Digital Crown faults** appear as a stuck or mushy crown that does not scroll or click correctly. Sand, fine dust, and sweat ingress are the usual causes. In Johannesburg's outdoors environment, particularly for clients who exercise in the suburb parks and use their Watch for sport tracking, we see this fault regularly. We clean and service the Digital Crown mechanism. In cases of deeper damage, crown replacement is required.
+
+**Charging failures** present as the Watch not responding to the magnetic charging puck, which can indicate a faulty charging coil inside the Watch or corrosion at the charging contact area on the back. We diagnose and repair charging faults at the component level.
+
+**Water ingress** on older Series models whose original seals have degraded can cause display fogging, touchscreen dropout, and board corrosion. We open, clean, and reseal Apple Watch units with compromised water resistance.
+
+## Northern Suburbs Collection
+
+We collect Apple Watch repairs from the full northern suburbs belt: Glenhazel, Sandringham, Sydenham, Highlands North, Norwood, Orchards, Victory Park, Waverley, and adjacent areas. Given the size of the device, collection is straightforward and we provide padded packaging.
+
+## A Note on Apple Watch Ultra
+
+The Apple Watch Ultra and Ultra 2 require additional care given the titanium case and larger chassis. We repair Ultra batteries and screens, and the investment in repair is significant given the retail price of R18,000 to R22,000 for a new Ultra. Our repair pricing for the Ultra is higher than the Series models due to the precision required and the component costs, but substantially below the cost of replacement.
+
+## Pricing Overview
+
+**Assessment:** from R599
+**Battery replacement:** from R1,299 (Series 4-8), from R1,599 (Series 9/10), from R1,999 (Ultra 1/2)
+**Screen replacement:** from R2,999 (aluminium models), from R3,499 (stainless/titanium)
+**Digital Crown service:** from R799
+**Charging fault repair:** from R999
+
+## Frequently Asked Questions
+
+**Will my Apple Watch retain water resistance after a battery replacement?**
+We re-seal the Watch using adhesive rated to the same specification as the original seal. After reassembly we perform a pressure test to verify the seal integrity. We cannot guarantee the original IP6X rating to the manufacturer's specification, but our sealing process restores functional water resistance for everyday use including handwashing and rain. We advise against swimming or submersion immediately after a repair.
+
+**My Apple Watch screen is cracked but still works. Should I repair it immediately?**
+Yes. A cracked outer screen allows moisture and dust to reach the OLED panel and internal components. Johannesburg humidity in summer will accelerate corrosion once the seal is broken. A screen that works today may fail quickly once moisture reaches the display driver.
+
+**Can you repair an Apple Watch that Apple said is out of warranty?**
+Yes. Our repairs are independent of Apple warranty status. Many of the Apple Watch models we repair are three to five years old and long out of warranty.
+
+**Do you service Apple Watch SE?**
+Yes. We service the Apple Watch SE and SE 2. Battery and screen replacements on the SE are priced at the lower end of our range given the aluminium Ion-X glass construction.
+
+**How long does an Apple Watch battery replacement take?**
+Most battery replacements are completed within one working day of receipt. If you drop the Watch at our Hyde Park workshop before noon, same-day collection is often possible.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to tell us about your Apple Watch fault and arrange collection from the northern suburbs, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your assessment at our Hyde Park workshop.`,
+  },
+
+  'managed-it-services-jewish-schools-johannesburg': {
+    slug: 'managed-it-services-jewish-schools-johannesburg',
+    title: `Managed IT Services for Schools in Glenhazel and Norwood | ZA Support`,
+    excerpt: `Managed Apple IT services for schools in Glenhazel, Norwood and Victory Park. MacBook fleet management, MDM, POPIA compliance and on-site support for King David School families and independent schools.`,
+    date: '11 May 2026',
+    category: 'Managed IT',
+    readTime: '9 min read',
+    author: 'courtney-bentley',
+    content: `Schools in the Glenhazel, Norwood, and Victory Park belt operate some of the most Apple-saturated IT environments in Johannesburg. King David School campuses, Yeshiva College, and a range of independent schools in the area have adopted MacBook as the standard student device, and the administrative burden that comes with managing hundreds or thousands of Apple devices requires specialist support. At ZA Support we provide managed Apple IT services to school communities across the northern suburbs, covering both institutional fleet management and the individual device support that parents and students need.
+
+## What We Mean by School IT Support
+
+School IT support in the Apple context covers two distinct categories.
+
+**Institutional fleet management** is the IT infrastructure that the school itself operates: a MacBook fleet issued to students or teachers, a network of Apple TVs and displays in classrooms, an iPad bank for junior grades, and the mobile device management (MDM) system that ties it together. We consult on, implement, and manage Apple MDM deployments using JAMF and Apple Business Manager, and we provide ongoing support for school IT administrators in the greater Glenhazel and Norwood area.
+
+**Family and student device support** is the category most parents encounter. When a student's personal MacBook fails two weeks before exams, the school cannot help. We can. We prioritise student device repairs and offer collection from Victory Park, Norwood, Glenhazel, and surrounding residential suburbs. Our workshop turnaround for student MacBook repairs is typically 24 to 48 hours, and we provide a written assessment before any work begins.
+
+## Apple MDM for Schools
+
+Apple MDM (Mobile Device Management) is the system that allows a school to manage, configure, and secure MacBook and iPad devices at scale. Without MDM, a fleet of 500 student MacBooks is unmanageable. With MDM properly configured, the school can push software, enforce security policies, reset passwords, and locate or remotely wipe a device if it is lost or stolen.
+
+We implement and support MDM deployments for schools using JAMF School and JAMF Pro, the platforms most widely used in Johannesburg independent schools. We also work with Apple Business Manager to enable Automated Device Enrolment, which means every device the school purchases is automatically enrolled in the MDM system the moment a student powers it on.
+
+For families in the Glenhazel and Norwood area whose children attend schools with MDM-managed devices, we also provide support when personal devices need to interact with school systems or when a student transitions between schools.
+
+## POPIA Compliance for Schools
+
+Schools in South Africa that hold student data, staff data, and parent contact information are Responsible Parties under the Protection of Personal Information Act. This applies to every school in the Glenhazel, Norwood, and Victory Park area. The obligations include:
+
+- Storing personal data securely and with access controls
+- Ensuring devices used to access student data are encrypted
+- Having a formal written data processing agreement with any third party that handles school data
+- Reporting data breaches to the Information Regulator within a specific timeframe
+
+We assist schools with the technical aspects of POPIA compliance: enabling FileVault encryption across the MacBook fleet, configuring network access controls, and advising on the correct structure of data processing agreements. We do not provide legal advice, but we ensure the technical controls are in place and documented.
+
+## Student MacBook Repair for King David and Surrounding School Communities
+
+King David School operates campuses at Victory Park, Linksfield, and Sandton. Yeshiva College is based in the Glenhazel area. Families from both school communities make up a significant portion of our individual client base.
+
+The most common student MacBook repairs we handle involve:
+
+**Battery replacement** on machines that are three to four years old and have been through a school career of daily charging cycles.
+
+**Liquid damage** from the inevitable desk accident during online school or homework sessions. We perform ultrasonic cleaning and component-level assessment. Speed of intervention matters, and we accommodate urgent bookings for students.
+
+**Screen damage** from machine drops in a school bag or on a hard classroom floor. MacBook Air screens are particularly common in the student category given the Air's popularity as a student machine.
+
+**Logic board faults** caused by power surges during load shedding, which are particularly damaging to MacBook Pro machines connected to chargers during a blackout recovery. We have repaired hundreds of machines in this exact category from the northern suburbs belt.
+
+## Collection from Glenhazel, Norwood, and Victory Park
+
+We collect from school area communities including Victory Park, Glenhazel, Sydenham, Norwood, Sandringham, Highlands North, and surrounding suburbs. For student machines, we try to accommodate same-day or next-morning collection when the machine failure coincides with an academic deadline.
+
+## Pricing Overview
+
+**Assessment:** from R599
+**MacBook battery replacement:** from R999
+**MacBook screen replacement:** from R2,499
+**Logic board repair:** from R4,499
+**MDM consultation:** from R1,999 per session (institutional)
+**POPIA technical compliance assessment:** from R2,999
+
+## Frequently Asked Questions
+
+**Does my child's school need POPIA-compliant IT systems?**
+Yes. Any school that stores student, staff, or parent data is a Responsible Party under POPIA. The obligation to secure data and to respond appropriately to any breach applies regardless of school size or type.
+
+**We have 300 student MacBooks and no MDM. Where do we start?**
+The starting point is an Apple Business Manager account linked to your school's Apple ID. From there, MDM enrolment can be applied to existing devices and automatically applied to all future purchases. Contact us and we will schedule a consultation.
+
+**My daughter's MacBook Pro logic board failed three weeks before her matric exams. Can you prioritise the repair?**
+Yes. We accommodate student exam urgency. Contact us, explain the situation, and we will prioritise the assessment and repair within our current workshop capacity. In most cases we can turn around a student machine in 24 to 48 hours.
+
+**Can you provide on-site IT support at our school in the Glenhazel area?**
+Yes. We provide on-site support for schools in the Glenhazel, Norwood, Victory Park, and adjacent suburb corridor. This is typically arranged on a scheduled basis for fleet management tasks, with ad-hoc visits for urgent issues.
+
+**What Apple MDM platform do you recommend for a school of 200 to 500 devices?**
+JAMF School is purpose-built for the education environment and is the most widely deployed MDM in Johannesburg independent schools. For larger institutional deployments we recommend JAMF Pro. Both integrate with Apple Business Manager and support the full Apple device range.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to discuss managed IT services or student device repair for your school community, or [book online at zasupport.com/book](https://zasupport.com/book) to arrange a consultation at our Hyde Park workshop.`,
+  },
+
+  'mac-repair-sandringham-sydenham-johannesburg': {
+    slug: 'mac-repair-sandringham-sydenham-johannesburg',
+    title: `Mac Repair Sandringham and Sydenham Johannesburg | All Models`,
+    excerpt: `Mac and MacBook repair for Sandringham and Sydenham residents. ZA Support Hyde Park collects from both suburbs. Logic board, liquid damage, screen and battery across all Mac models. Assessment from R599.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `Sandringham and Sydenham sit immediately east of Glenhazel, part of the eastern Johannesburg suburb belt that forms one of the city's most established residential communities. Both suburbs are approximately 12 to 13 kilometres from our Hyde Park workshop, and we have been collecting from both areas for years. When your Mac stops working in Sandringham or Sydenham, you do not need to drive to Sandton. We come to you.
+
+## Mac Models We Repair from Sandringham and Sydenham
+
+We repair the full Mac range. MacBook Air and MacBook Pro receive the most repairs by volume from this area, but we also handle iMac, Mac mini, and Mac Pro repairs, including those that require the machine to come into the workshop for bench work.
+
+**MacBook Air** repairs from Sandringham and Sydenham most commonly involve battery replacement (particularly on machines three to five years old), screen damage from drops, and USB-C charging faults. The M1 and M2 Air are the most common models in the household and small business environment in this area.
+
+**MacBook Pro** repairs from this area lean toward logic board faults, liquid damage from home office accidents, and screen replacement on the Pro 14-inch and 16-inch Liquid Retina XDR displays. We have completed over 10,500 MacBook Pro logic board repairs in our workshop since 2016.
+
+**iMac** repairs typically require the machine to be transported to our Hyde Park workshop for bench access. We repair 2019 to 2024 iMac models including the M1 and M3 iMac. Common faults include display backlight failure, logic board component faults, and power supply issues. We also upgrade storage on certain Intel iMac models where the SSD is accessible.
+
+**Mac mini** repairs are compact bench jobs. We repair Mac mini from the 2018 model onwards including the M1, M2, M2 Pro, and M4 Mac mini. Common faults include port damage on the USB-C and HDMI connectors and power supply component failures.
+
+## Load Shedding Impact on Mac Hardware
+
+Sandringham and Sydenham, like all Johannesburg suburbs, experience load shedding. The impact on Mac hardware is specific and worth understanding.
+
+The MacBook Pro and Air are most vulnerable during the moment power returns from a blackout. If the machine is connected to a charger that is plugged into a wall socket, the return surge travels through the USB-C charging IC on the logic board. A good quality UPS with active surge suppression eliminates this risk. A cheap power strip does not.
+
+The iMac and Mac mini are more vulnerable than portables to sustained power quality issues. Voltage fluctuations below the design specification of the machine's power supply stress the capacitors and power regulation components on the board. We see this pattern as a distinct fault category from Johannesburg's eastern suburbs.
+
+## Collection from Sandringham and Sydenham
+
+We collect from Sandringham, Sydenham, Bramley, Orchards, and adjacent suburbs. For large or fragile devices such as iMac, we provide appropriate packaging and handle the collection with care. MacBook collection is straightforward, and we provide a padded courier bag.
+
+Contact us to arrange a collection window. We confirm the collection time, arrive within the agreed window, and have the machine assessed within 24 hours of arrival at our Hyde Park workshop.
+
+## Pricing Overview
+
+**Assessment:** from R599
+**MacBook battery replacement:** from R999
+**MacBook screen replacement:** from R2,499
+**Logic board repair:** from R4,499
+**iMac display repair:** from R3,499
+**Mac mini port repair:** from R999
+**Liquid damage:** from R1,999
+
+## Frequently Asked Questions
+
+**My iMac will not turn on. Can you collect it from Sandringham?**
+Yes. We collect iMac from Sandringham with appropriate packaging. The most common cause of a no-power iMac is a power supply or logic board fault, both of which we diagnose and repair at the component level. The R599 assessment is performed at our workshop with full bench access.
+
+**I have a 2017 MacBook Pro that Apple says they no longer service. Can you still repair it?**
+Yes. Apple marks machines seven or more years old as obsolete, meaning they will not perform warranty or out-of-warranty service. We have no such restriction. The 2017 MacBook Pro butterfly keyboard is a common fault on this model, and we repair it regularly. Some component parts require sourcing, which may extend turnaround time.
+
+**How does the collection process work from Sydenham?**
+Contact us via WhatsApp or our booking page. We agree a collection window with you. Our courier arrives at your address with a padded bag or appropriate packaging for your device. You hand over the machine and we provide a receipt. Assessment is completed within 24 hours and communicated in writing before any repair work begins.
+
+**Can you recover data from a Mac that will not start?**
+In many cases, yes. If the fault is in the power system, the boot ROM, or a peripheral component rather than the SSD itself, your data is likely intact. We perform a data assessment as part of the standard diagnosis. On Apple Silicon machines, your SSD data is protected by the Secure Enclave even when the machine will not start.
+
+**Do you collect from Bramley and Orchards as well?**
+Yes. Our collection area covers Sandringham, Sydenham, Bramley, Orchards, and the surrounding eastern suburbs corridor.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to tell us about your Mac fault and arrange collection from Sandringham or Sydenham, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.`,
+  },
+
+  'macbook-repair-highlands-north-johannesburg': {
+    slug: 'macbook-repair-highlands-north-johannesburg',
+    title: `MacBook Repair Highlands North Johannesburg | Expert Apple Service`,
+    excerpt: `MacBook repair for Highlands North residents. Logic board, liquid damage, screen and battery across all MacBook Pro and Air models. ZA Support collects from Highlands North. Assessment from R599.`,
+    date: '11 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `Highlands North is one of Johannesburg's established northern suburb communities, positioned between Norwood and the eastern suburbs. It is approximately 11 kilometres from our Hyde Park workshop, and we collect from it regularly. When a MacBook fails in Highlands North, the route to a specialist repair workshop has historically meant the Apple Store in Sandton or Rosebank. At ZA Support in Hyde Park you have a closer option with more repair capability than an authorised service provider, and a collection service from your door.
+
+## MacBook Repairs for Highlands North
+
+**Logic board repair** is the category where we add the most value over alternatives. Apple Store pricing for a MacBook Pro logic board replacement on an M1 or M2 model starts above R15,000 and can reach R70,000. At ZA Support we perform component-level repair, identifying and fixing the specific fault rather than replacing the entire board assembly. We have completed over 10,000 MacBook logic board repairs since our workshop opened, and a significant portion of those machines came from Johannesburg's northern and eastern suburbs.
+
+Common logic board faults we see from Highlands North include USB-C power controller failures (often following load shedding events), HDMI bridge failures on machines used with external displays, and GPU or display encoder faults presenting as random crashes or visual artefacts on the display.
+
+**Liquid damage** from the home office environment. Highlands North has a high concentration of professionals working from home, and the combination of desk proximity and beverage consumption means liquid damage is a consistent repair category. Coffee, tea, and water are the most common causes. We perform ultrasonic cleaning of the logic board, component-level drying, and targeted diagnostics to identify damaged components. Liquid damage repair starts from R1,999. Speed of intervention is critical: a machine brought to us within 24 hours of a spill has a substantially higher recovery rate than one left powered off for several days.
+
+**Screen replacement** on MacBook Pro and MacBook Air is performed in our Hyde Park workshop using quality replacement panels. MacBook Pro 14-inch screen replacement starts from R3,499. MacBook Air 13-inch (M1 and M2) starts from R2,499. We perform a colour calibration check after screen replacement and a full display function test before returning the machine.
+
+**Battery replacement** on machines three years and older is a routine repair that restores the machine to its original daily range. We replace batteries across the full MacBook range. MacBook Air batteries start from R999, MacBook Pro from R1,299. We replace the battery and perform a calibration cycle before returning the machine.
+
+**Keyboard and trackpad** repairs are common on the 2016 to 2019 MacBook Pro butterfly keyboard and on any MacBook keyboard that has experienced spill damage. We replace individual keycaps, full keyboard assemblies, and trackpad units. If your trackpad clicks are inconsistent or your keyboard is registering phantom inputs, contact us.
+
+## Why Professionals in Highlands North Choose ZA Support
+
+Several factors make ZA Support the preferred choice for professionals in this area.
+
+First, the assessment process is transparent. We complete a full diagnostic (from R599), provide a written fixed-price quote, and do not begin any repair work until you have approved the quote in writing. You know the cost before we start.
+
+Second, our warranty is substantive. We provide an up to 3-year warranty on the specific fault repaired, in writing, covering parts and labour. If the same fault recurs within the warranty period, we rectify it at no additional charge.
+
+Third, we collect. The collection service from Highlands North means you do not need to manage transport of a large or fragile machine to a workshop. We arrive, collect, repair, and return.
+
+## Collection from Highlands North
+
+We collect from Highlands North, Raedene, Norwood, Orange Grove, Orchards, and adjacent suburbs. Contact us to arrange a collection window. Most collections from Highlands North are arranged on the day of contact if you reach us before midday.
+
+## Pricing Overview
+
+**Assessment:** from R599 (deducted from repair cost if you proceed)
+**Logic board repair:** from R4,499
+**Screen replacement:** from R2,499 (MacBook Air), from R3,499 (MacBook Pro 14-inch)
+**Battery replacement:** from R999 (MacBook Air), from R1,299 (MacBook Pro)
+**Liquid damage:** from R1,999
+**Keyboard repair:** from R1,299
+
+## Frequently Asked Questions
+
+**My MacBook Pro is three years old and the battery barely lasts four hours. Is it worth replacing the battery?**
+Yes, in most cases. If the logic board is in good health and the machine is otherwise performing well, a battery replacement restores the machine to its original runtime and extends its useful life by several years. Battery replacement is the most cost-effective Mac repair relative to its impact on daily usability.
+
+**Can you repair my MacBook if it is showing a flashing question mark on startup?**
+A flashing question mark indicates the Mac cannot find a bootable volume. This is either a software fault (corrupted macOS install) or a hardware fault (failing SSD or logic board issue). We diagnose which category applies and advise on the appropriate repair. If your data is on the SSD, we advise on a data backup or extraction before any repair work that might affect the drive.
+
+**My MacBook runs very hot and the fans are always at full speed. Is this a repair issue?**
+Persistent overheating and fan noise can indicate a thermal paste degradation issue (common on Intel MacBooks five years and older), a software process consuming excessive CPU, or a failing fan. On Apple Silicon machines, which have no fan in the Air models, persistent heat can indicate a power management fault. We diagnose the specific cause at the assessment stage.
+
+**What happens if the repair cost is higher than the machine's value?**
+We will tell you at the assessment stage and give you an honest recommendation. If a machine is seven years old and the logic board repair cost exceeds the machine's current market value, we will say so clearly. In some cases, data recovery and a machine upgrade is the better route. We assist with both.
+
+**Do you offer any discounts for return clients?**
+We do not have a formal discount structure, but return clients and those who refer family and friends are valued. Contact us and we will always try to accommodate your circumstances.
+
+[WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your MacBook fault and arrange collection from Highlands North, or [book online at zasupport.com/book](https://zasupport.com/book) to schedule your R599 assessment at our Hyde Park workshop.`,
+  },
 };
 
 export async function generateStaticParams() {
@@ -36574,7 +37112,6 @@ function processInlineMarkdown(text: string, keyPrefix: string): React.ReactNode
   }
   return parts.length === 1 && typeof parts[0] === 'string' ? parts[0] : <>{parts}</>;
 }
-
 function renderContent(content: string, excerpt?: string) {
   const lines = content.split('\n');
   const elements: React.ReactNode[] = [];
