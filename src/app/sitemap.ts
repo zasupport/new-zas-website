@@ -571,5 +571,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-pro-repair-savoy-estate-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-repair-king-david-linksfield-parents`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/managed-it-support-king-david-schools-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-liquid-damage-first-30-minutes-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-liquid-damage-recovery-protocol-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-logic-board-repair-vs-upgrade-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-water-damage-cost-process-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/managed-it-services-medical-practices-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-practice-it-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/popia-compliant-it-support-doctors-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/sme-it-support-johannesburg-apple`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }

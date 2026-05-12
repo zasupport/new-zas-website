@@ -37671,6 +37671,692 @@ We sign a data processing agreement that sets out exactly what data we have acce
 ### Q: What is the warranty on repairs done under our managed service?
 Component-level repairs carried out in our Hyde Park workshop carry up to 3-year warranty depending on the component and the nature of the fault. Whole-unit replacements and parts sourced from Apple carry the standard manufacturer warranty. Either way, the warranty terms are written into your quote before you approve any work.`,
   },
+  'macbook-liquid-damage-first-30-minutes-johannesburg': {
+    slug: 'macbook-liquid-damage-first-30-minutes-johannesburg',
+    title: `MacBook Liquid Damage: What To Do In The First 30 Minutes In Johannesburg`,
+    excerpt: `If you are reading this with a damp MacBook in front of you, breathe and keep scrolling. The next thirty minutes matter more than anything else you will do this week. In our Hyde Park Johannesburg wor.`,
+    date: '12 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Liquid Damage: What To Do In The First 30 Minutes In Johannesburg
+
+If you are reading this with a damp MacBook in front of you, breathe and keep scrolling. The next thirty minutes matter more than anything else you will do this week. In our Hyde Park Johannesburg workshop we have inspected well over 12,000 liquid-damaged Macs across more than a decade, and the pattern is brutally consistent: the machines that come back to life are the ones whose owners did the right five things quickly and avoided the five things that feel right but quietly destroy the logic board.
+
+This is the short version, written for someone holding a phone in one hand and a microfibre cloth in the other.
+
+## The First 60 Seconds: Kill The Power Properly
+
+Liquid plus electricity equals corrosion, and corrosion does not pause for you to finish your coffee. The single most important action is to cut power immediately. Press and hold the power button (top-right, or Touch ID on newer models) for ten full seconds until the screen goes black and stays black. Do not use the Apple menu shutdown. Do not wait for unsaved work. A forced power-off interrupts current to the logic board before liquid can bridge components that should never meet.
+
+Once the machine is off, unplug the MagSafe or USB-C charger, then remove any peripherals — dongles, drives, headphones, the lot. Each port is a potential pathway for liquid migration, and a connected cable acts as a small siphon.
+
+A common reaction we see from clients in Sandton, Rosebank and Killarney is to press the power button again, just to check it still boots. Please do not. We have seen MacBook Pros that survived a full glass of red wine in 2023 die two minutes later because the owner powered them on to "test" them. The board was wet. The board shorted. The repair bill tripled.
+
+## Minutes 2 To 10: Drain, Do Not Dry
+
+Open the display to roughly 90 degrees and invert the entire chassis so the keyboard faces the floor, like a small tent. This lets gravity pull liquid back out through the keyboard membrane and speaker grilles rather than down onto the logic board, which sits directly beneath the keyboard on every modern MacBook Air and Pro.
+
+Leave it inverted on a clean, dry towel. Use a microfibre cloth to dab — not wipe — any visible liquid on the exterior, ports and hinge area. Wiping pushes liquid sideways into seams. Dabbing lifts it out.
+
+If the spill was anything other than plain water — coffee, Coke, juice, wine, beer, soup — assume the worst. Sugars and salts are far more aggressive than the liquid itself. They leave a conductive residue that keeps eating copper traces for weeks after the device feels "dry" to the touch. This is why a MacBook can boot fine for three days after a juice spill and then fail on day four. The corrosion was always there; it just needed time to bloom.
+
+## Minutes 10 To 30: Five Moves That Will Destroy Your Data
+
+Here is where good intentions wreck machines. In no particular order, the five things we beg you not to do:
+
+Do not bury the MacBook in rice. Rice is a marketing myth from the early smartphone era. It introduces starch dust into the ports and speaker mesh, and it absorbs ambient moisture far slower than the corrosion reaction inside your machine progresses. We have opened MacBooks that spent a weekend in rice and found grains lodged in the fan assembly while the logic board was already green with oxidation.
+
+Do not aim a hairdryer at it. Heat drives remaining moisture deeper into the board's inner layers, where it is then trapped under components. Worse, the adhesive holding the display, trackpad and battery in place softens around 60°C. We have rebonded more than one display that warped because someone got creative with a hairdryer on full heat.
+
+Do not plug it in to charge "just to see". Power applied to a wet board is the single fastest way to turn a R4,500 repair into a R18,000 logic board replacement.
+
+Do not leave it overnight to "dry out on its own". Johannesburg humidity is lower than the coast, which feels reassuring, but the chemical reaction between liquid residue and the board's copper does not need humidity to progress. Every hour matters. Same-day assessment beats next-day assessment every single time.
+
+Do not disassemble it yourself based on a YouTube video. The pentalobe screws strip easily, the battery sits directly over the board on M1, M2 and M3 models, and puncturing a swollen lithium cell is genuinely dangerous. If you are curious about the internal layout, [iFixit](https://www.ifixit.com) has excellent teardowns, but reading and doing are different sports.
+
+## Getting It To Us: Transport Matters
+
+Place the MacBook in a soft bag, upright, with the hinge at the top — not flat. Upright transport keeps any remaining liquid pooled in the lower chassis rather than spreading across the board during a bumpy drive down Jan Smuts Avenue. If you have load shedding at home and cannot keep the device in a stable environment, get it to a specialist sooner rather than later. We have seen recovery rates drop noticeably once a machine sits unpowered for more than 24 hours after a sugary spill.
+
+Our workshop is in Hyde Park Johannesburg, and we accept walk-ins for liquid damage without an appointment because we know waiting is not an option. You can also [contact us](/contact) on [WhatsApp us on 064 529 5863](https://wa.me/27645295863) before you leave home so we can prep a bench for you.
+
+## What Happens When You Arrive: The Honest Cost Conversation
+
+Our liquid damage assessment starts from R599 and includes a full board-level inspection under a stereo microscope. We open the machine, photograph the contamination, document affected components, and give you a written quote before any work begins. No surprises, no "while we are in there" charges.
+
+Most spills fall into three bands. A clean water spill caught within thirty minutes and brought in same-day often needs only ultrasonic cleaning of the affected area and sits in the R1,800 to R3,500 range. A sugary or alcoholic spill with light corrosion typically requires component-level cleaning, trace repair and sometimes keyboard replacement, landing between R3,500 and R8,500. Severe cases needing [logic board repair](/logic-board-repair) — replacing damaged power management ICs, SMC chips or trace bridges — can run higher, but we will always tell you up front when a repair is uneconomical compared to a replacement machine.
+
+Every [liquid damage recovery](/liquid-damage) we complete carries up to a 3-year warranty on the work we have done, which is genuinely unusual in this trade and reflects how confident we are in our cleaning protocol. If you want Apple's own perspective on liquid damage and AppleCare coverage, [Apple Support](https://support.apple.com) is transparent that standard warranties exclude liquid incidents, which is exactly why third-party board repair exists.
+
+## Data First, Always
+
+If your MacBook holds work you cannot afford to lose — and most do — tell us the moment you walk in. Our process prioritises data recovery before any repair attempt that could risk the SSD. On Apple Silicon Macs the storage is soldered to the logic board, so a board that is too far gone makes data recovery genuinely difficult and expensive. The earlier we see it, the higher the odds. You can [book online at zasupport.com/book](https://zasupport.com/book) if you want to lock in a slot before driving over.
+
+## Frequently Asked Questions
+
+### Q: My MacBook still works after the spill — do I really need to bring it in?
+
+Yes, and the sooner the better. Corrosion from sugary or salty liquids continues for days or weeks beneath the surface. Machines that "seem fine" on day one routinely fail on day five or day fifteen. A R599 assessment now is cheaper than a logic board replacement later.
+
+### Q: How long does liquid damage repair take?
+
+For straightforward cases brought in within the first hour, we often turn machines around in two to four working days. More extensive board work can take a week, particularly if we need to order specific power management components. We give you a realistic timeline at the assessment stage, not a guess.
+
+### Q: Will my data survive?
+
+In most cases, yes — provided you did not power the machine on after the spill. If the SSD controller on the logic board is undamaged, recovery rates are high. On older Intel MacBooks with removable storage, recovery is almost always possible. On M1, M2 and M3 models, the storage is part of the board, which makes early intervention critical.
+
+### Q: Can you repair MacBooks that other shops have already opened?
+
+Yes, although it sometimes complicates things. We have rebuilt machines that arrived in pieces in a Ziploc bag. Tell us honestly what has been attempted so we can plan accordingly.
+
+### Q: Do you offer a warranty on liquid damage repairs?
+
+We offer up to a 3-year warranty on the components we repair or replace, which covers our workmanship. We cannot warranty against a second spill on the same machine, but the original repair is fully backed.
+
+### Q: I am not in Hyde Park — can I still use you?
+
+Absolutely. Clients drive in from across Johannesburg, Pretoria and as far as Rustenburg. If you cannot make it in person, message us on WhatsApp and we will discuss courier options that keep your machine safe and upright in transit.`,
+  },
+  'macbook-liquid-damage-recovery-protocol-johannesburg': {
+    slug: 'macbook-liquid-damage-recovery-protocol-johannesburg',
+    title: `MacBook Liquid Damage Recovery Protocol Johannesburg: The Five-Stage Workshop Process We Follow`,
+    excerpt: `A client walked into our Hyde Park workshop last Tuesday holding a 14-inch MacBook Pro inside a Woolworths shopping bag. The bag was damp. So was the MacBook. A full flat white, oat milk and all, had .`,
+    date: '12 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Liquid Damage Recovery Protocol Johannesburg: The Five-Stage Workshop Process We Follow
+
+A client walked into our Hyde Park workshop last Tuesday holding a 14-inch MacBook Pro inside a Woolworths shopping bag. The bag was damp. So was the MacBook. A full flat white, oat milk and all, had gone straight through the keyboard at a Rosebank coffee shop forty minutes earlier. She had done exactly the right thing: shut the lid, unplugged it, and driven straight to us. By Thursday afternoon, that machine was back in her hands, fully functional, with a 12-month warranty on the work.
+
+That outcome was not luck. It was protocol. After working on tens of thousands of Apple devices over the years, we have refined a five-stage workshop process that gives liquid-damaged MacBooks the best possible chance of full recovery. This is that process, in plain language, along with an honest account of what works, what does not, and why the rice trick your cousin swears by is quietly destroying logic boards across Johannesburg.
+
+## Why The First 24 Hours Decide Everything
+
+Liquid damage is not a single event. It is a chain reaction. The spill itself is rarely what kills the MacBook. What kills it is what happens next: electrolysis, corrosion, and trace bridging across the logic board while residual current is still flowing through wet circuitry.
+
+When sugary or acidic liquids (coffee, wine, juice, fizzy drinks) sit on a powered PCB, they act as an electrolyte. Tiny galvanic cells form between adjacent solder joints. Copper traces start dissolving within hours. By 72 hours, you are no longer dealing with liquid damage — you are dealing with metallurgical damage, and the recovery rate drops sharply. We have seen MacBooks brought in on day one come back to life completely. We have also seen identical spills brought in on day five where the power management IC has corroded beyond saving, requiring full [logic board repair](/logic-board-repair) at considerably higher cost.
+
+This is why the protocol below is sequenced the way it is. Every stage exists to halt that chain reaction.
+
+## Stage One: Isolate — What You Must Do Before You Reach Us
+
+The moment liquid contacts your MacBook, do this and only this:
+
+Close the lid immediately. Do not press the power button to check if it still works. Do not plug in the charger to "test" it. Do not run a diagnostic. Pressing the power button completes circuits that should remain open, and plugging in the charger feeds 60 to 140 watts directly into a wet board.
+
+If your MacBook is already on, hold the power button for ten seconds to force a hard shutdown. Then unplug everything: charger, USB-C accessories, external displays. Invert the chassis gently so liquid drains out of the keyboard rather than further into the board. Place it on a towel, lid open at roughly 90 degrees, in an inverted-V position.
+
+Then phone us. Do not wait until morning. Do not "see how it is tomorrow." Load shedding is not an excuse to delay — our workshop runs on backup power, and we keep emergency intake hours specifically for liquid damage cases. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) and we will guide you through the next steps in real time.
+
+## Stage Two: Decant And Disassemble
+
+Once the MacBook reaches our Hyde Park workshop, we begin the formal protocol. The first task is to disconnect the battery. On modern Retina and Apple Silicon MacBooks, the battery is glued in place and the connector sits directly beside the trackpad cable. Removing power from the board is non-negotiable. As long as the battery is connected, the logic board has voltage on it, and corrosion continues even with the machine "off."
+
+We then strip the chassis: bottom cover, speakers, fans, trackpad, keyboard ribbon, display assembly if liquid reached the hinge. Every component is inspected for liquid ingress and tagged. We photograph the board in its arrival condition for our records and for yours — this matters for insurance claims and for POPIA-compliant documentation of the work performed.
+
+## Stage Three: Deep-Clean In Ultrasonic
+
+This is the stage that separates a workshop repair from a home attempt. The logic board is removed entirely from the chassis and placed in an ultrasonic cleaner filled with 99% isopropyl alcohol, heated to 40°C. The cycle runs for 8 to 12 minutes depending on contamination severity. Ultrasonic agitation forces solvent into spaces no cotton bud can reach — under BGA chips, beneath shielding cans, into the gaps around the SMC.
+
+For comparison, Apple's own guidance via [Apple Support](https://support.apple.com) tells customers to power down and seek service. It does not, and cannot, recommend the home use of isopropyl alcohol because the substance is flammable and the procedure requires removed boards, controlled temperature, and ventilation. We have the equipment. Your kitchen does not.
+
+After ultrasonic, the board is air-dried, then placed in a low-temperature drying chamber for a further 30 minutes to drive off any residual moisture from porous areas.
+
+## Stage Four: Microscope Inspection
+
+The cleaned board goes under a stereo microscope at 20x to 40x magnification. We are looking for several specific failure patterns: green or blue corrosion crystals around capacitors, lifted pads where traces have separated from the substrate, discoloured solder joints, and any sign of bridging between adjacent legs of integrated circuits.
+
+We map every defect. If the U7000 power IC shows corrosion on its lower-left quadrant, that is noted. If a capacitor near the SSD power rail is missing entirely (yes, liquid can wash components clean off a board), that goes on the report. This inspection is what determines whether your MacBook needs a simple clean-and-reassemble — which is the best outcome — or whether we proceed to stage five.
+
+## Stage Five: Component-Level Repair
+
+If the inspection reveals damaged components, we move to micro-soldering. This means replacing individual ICs, capacitors, resistors, and occasionally reflowing or replacing BGA chips like the SMC or the Thunderbolt retimers. Trace damage is repaired by jumper-wiring under the microscope using 0.1mm enamelled copper.
+
+Common casualties on coffee and wine spills include the keyboard backlight driver, the trackpad power rail, the audio codec, and on Intel-era MacBooks, the ISL chips on the CPU power stage. Each component is sourced from verified suppliers — we do not use board-pull parts of unknown provenance, which is something many cheaper repair shops do and which leads to repeat failures three months later. Resources like [iFixit](https://www.ifixit.com) document many of these components publicly if you want to understand what sits where on your specific board.
+
+Every component-level [liquid damage recovery](/liquid-damage) we complete is backed by up to a 3-year warranty on the repair, depending on the scope of work involved.
+
+## The Rice Myth, And Why It Makes Things Worse
+
+Almost every client who arrives more than 48 hours after a spill has tried rice. Please do not put your MacBook in rice. Rice does not absorb moisture from a sealed aluminium chassis faster than air does. What it does do is shed starch dust into every ventilation slot, fan intake, and speaker grille. We have opened MacBooks where the fan bearings were seized solid with rice powder mixed with dried coffee. That contamination then has to be cleaned out before the actual liquid damage can even be assessed, which adds time and cost.
+
+Silica gel sachets are equally ineffective for the same reason: the moisture is not in the air inside the chassis, it is bonded to the surface of the board as a conductive film.
+
+## Pricing, Timeline, And What To Expect
+
+Our diagnostic assessment starts from R599, which is applied as credit against the repair if you proceed. For most liquid damage cases brought to us within 48 hours, the turnaround is two to four working days. Component-level repairs requiring sourced parts can take five to seven working days. We provide a written quotation before any work beyond the assessment begins — no surprises.
+
+To book your MacBook in, [contact us](/contact) directly or [book online at zasupport.com/book](https://zasupport.com/book). We are based in Hyde Park Johannesburg with secure parking, and we accept walk-ins during business hours.
+
+## Frequently Asked Questions
+
+### Q: My MacBook still works after the spill. Do I still need it checked?
+Yes, and urgently. Corrosion continues silently for days or weeks after a spill, often killing the machine long after you thought you had got away with it. A 24-hour preventative clean costs far less than a logic board repair three weeks later.
+
+### Q: How much does liquid damage repair typically cost?
+Assessment starts from R599. A clean-only recovery on a quickly-presented MacBook is usually between R2,500 and R4,500. Component-level repairs range from R4,500 to R12,000 depending on which ICs are affected. We quote firmly before proceeding.
+
+### Q: Will my data survive?
+In most cases, yes. On Apple Silicon MacBooks the SSD is soldered to the logic board, so data recovery depends on board recovery. On Intel models with removable SSDs, we can usually extract data even if the board is unsalvageable. We always prioritise data preservation in our protocol.
+
+### Q: Does Apple repair liquid damage?
+Apple's standard policy is to replace the entire logic board, which on a 16-inch MacBook Pro can exceed R30,000. Liquid damage is also not covered by the standard Apple warranty or by most AppleCare plans. Component-level repair through an independent workshop like ours is typically a fraction of that cost.
+
+### Q: What if I waited a week before bringing it in?
+We will still try. Recovery rates drop after 72 hours but are not zero — we have rescued machines presented two weeks after a spill. The honest answer is that we will not know until after the ultrasonic clean and microscope inspection, and we will tell you the realistic prognosis before any chargeable work begins.
+
+### Q: Do you offer a warranty on liquid damage repairs?
+Yes. Depending on the repair scope, we offer up to a 3-year warranty on the work performed. The warranty covers the components we replaced and the repairs we completed, though it cannot cover new damage from a subsequent spill.`,
+  },
+  'macbook-logic-board-repair-vs-upgrade-johannesburg': {
+    slug: 'macbook-logic-board-repair-vs-upgrade-johannesburg',
+    title: `MacBook Logic Board Repair vs Upgrade Johannesburg: An Honest Cost and Decision Framework`,
+    excerpt: `A client walked into our Hyde Park Johannesburg workshop last month carrying a 2021 M1 Pro 16-inch in a Woolworths bag. Apple had quoted her R52,000 for a board swap. Her machine had cost R44,000 new.`,
+    date: '12 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Logic Board Repair vs Upgrade Johannesburg: An Honest Cost and Decision Framework
+
+A client walked into our Hyde Park Johannesburg workshop last month carrying a 2021 M1 Pro 16-inch in a Woolworths bag. Apple had quoted her R52,000 for a board swap. Her machine had cost R44,000 new. She sat across the bench, looked at me and asked the question we hear at least twice a week: do I fix it or do I just buy a new one?
+
+There is no universal answer. But there is a proper framework, and after handling well over 22,000 Mac repairs across our years on the bench, we have learnt to walk clients through it without the sales theatre. This post is that framework.
+
+## Why the Repair-vs-Upgrade Decision Has Got Harder
+
+On Intel MacBooks the maths used to be simple. A logic board failure on a 2017 model often meant scrapping the machine because Apple's exchange price was absurd and component-level repair was viable for a handful of common faults. Then Apple Silicon arrived, and the rules changed.
+
+M1, M2 and M3 MacBook Pros are extraordinary machines. They hold their value. A 2021 M1 Max 16-inch with 32GB unified memory and a 1TB SSD still outperforms most new Windows laptops in 2024. So when one fails, you are not weighing a tired old laptop against a shiny new one. You are weighing a machine that probably still does everything you need against a R40,000-plus replacement.
+
+The other shift: Apple's repair model on Apple Silicon machines is almost exclusively whole-board exchange. The SSD is paired to the board via the Secure Enclave. The RAM is on the SoC. There is nothing modular left to swap. So when Apple quotes you, they are quoting the entire computational core of the laptop, plus labour, plus margin.
+
+## What Actually Fails on M1, M2 and M3 Logic Boards
+
+Clients frequently ask us what could possibly fail on a board with so few components. The honest answer is that the failure points have shifted, not disappeared.
+
+We see four recurring faults in our workshop. Liquid ingress through the keyboard or speaker grilles is the most common, particularly with coffee, Coke and the occasional glass of Pinotage. Power delivery faults around the USB-C charging circuitry are second, often triggered by dodgy third-party chargers or load shedding surges on unprotected outlets. Third, GPU-side failures on M1 Pro and M1 Max chips, which we suspect relate to thermal cycling on heavier workloads. Fourth, and increasingly, NAND controller faults that present as a machine that chimes, shows the Apple logo and then panics.
+
+In roughly 70 percent of the boards that come through our [logic board repair](/logic-board-repair) bench, the fault is component-level and economically repairable. The remaining 30 percent involve the SoC itself or extensive corrosion, and those are the cases where we will tell you honestly that an upgrade is the better call.
+
+## The Real Cost Comparison in Rands
+
+Let us put numbers on the table. At ZA Support our logic board repairs on 2019 to 2022 MacBook Pros typically land between R4,499 and R8,999 depending on the fault complexity, component cost and whether data recovery is part of the brief. That is inclusive of diagnostics, the repair itself, reflow or component-level work, and our standard warranty of up to 3 years on the specific repair performed.
+
+Apple's board exchange on the same machines runs from R15,000 on the entry 13-inch M1 up to R70,000 on a maxed-out 16-inch M1 Max or M2 Max. The variance comes from the SSD capacity and memory configuration baked into the board.
+
+For comparison on the upgrade side: an M4 MacBook Pro 14-inch starts at around R37,999 at iStore. Apple's refurbished store occasionally lists 16-inch models from around R39,000 if you watch it, though stock in South Africa is patchy. A like-for-like replacement for a 32GB/1TB 16-inch will sit closer to R55,000 to R65,000 new.
+
+So the rough decision shape is this: if your repair quote from us is under R9,000 and a replacement is over R37,000, repair wins on pure cost by a factor of four to seven. The interesting cases are the ones where other factors complicate the maths.
+
+## The Six Factors That Should Drive Your Decision
+
+The first is machine age. A 2019 Intel MacBook Pro is end-of-life territory. macOS Sequoia already dropped some of those models. Repair makes sense only if the machine is doing a specific job that does not require future OS updates. A 2022 M2 Pro, on the other hand, has at least five more years of mainstream OS support ahead of it.
+
+The second is current specification. If your failed machine has 32GB or 64GB of unified memory and a 2TB or 4TB SSD, replacing it like-for-like is brutally expensive. Repair becomes very attractive. If you bought the 8GB/256GB base model in 2020 and have been struggling with it ever since, the failure is an excuse to upgrade to something you would actually enjoy using.
+
+Third, software licence portability. Final Cut, Logic, the Adobe suite, Microsoft 365, your password manager, your development environment. Most of this transfers, but plug-ins, dongled audio software and older Avid licences sometimes do not. We have had clients quote us R20,000 in licence reactivation costs they had not budgeted for.
+
+Fourth, AppleCare status. If you are still inside AppleCare+, do not repair with us first. Take it to Apple, claim the cover, and let them swap the board for the excess fee. We will tell you that ourselves. AppleCare is worth using when you have it.
+
+Fifth, data recovery requirements. Apple's repair process gives you back a board with no data. Zero. The Secure Enclave pairing means your old SSD content is unrecoverable through normal means once they have swapped the board. Our [liquid damage recovery](/liquid-damage) process prioritises data preservation where the SSD silicon itself is intact. For clients with unbacked-up work, that alone justifies the repair route.
+
+Sixth, downtime tolerance. Our typical turnaround on a logic board repair is three to seven working days. Apple's exchange process in South Africa, with parts sourced from regional warehouses, can run two to three weeks. A new machine you can buy this afternoon and have running by tonight via Migration Assistant from your Time Machine backup, assuming you have one.
+
+## What to Expect When You Bring the Machine In
+
+We start every job with an assessment from R599, which is credited against the repair cost if you proceed with us. The assessment is not a guess. We open the machine, inspect the board under magnification, test the power delivery rails, check for liquid markers and corrosion, and run diagnostic boots where the board will accept them.
+
+You then get a written quote with a clear repair description, parts list, warranty terms and turnaround estimate. If we cannot economically repair the board, we tell you that and refund the difference, or we apply the assessment fee to data recovery only if that is what you need.
+
+We do not pressure upgrade decisions. We do not sell new MacBooks. Our incentive is to do honest work that earns repeat business and referrals, which is how we have built the practice. If your best move is to walk out and buy a new machine from iStore, we will say so. The published guidance from [Apple Support](https://support.apple.com) on service options is also worth a read before you decide.
+
+For an honest opinion on your specific machine, [contact us](/contact), [WhatsApp us on 064 529 5863](https://wa.me/27645295863), or [book online at zasupport.com/book](https://zasupport.com/book).
+
+## Frequently Asked Questions
+
+### Q: My MacBook will not turn on at all. Is the logic board definitely the problem?
+
+Not necessarily. We have seen plenty of cases that looked like dead boards turn out to be failed battery cells, faulty charge ports, or even just corroded keyboard flex connectors triggering a short. That is precisely why the R599 assessment exists. Roughly one in six no-boot machines we see does not need logic board work at all.
+
+### Q: Will I lose my data if you repair the board?
+
+In most component-level repairs, no. Because we work on the existing board rather than swapping it, the SSD pairing remains intact and your data is preserved. The exception is severe SSD controller damage, where we will discuss data recovery options before proceeding. Apple's whole-board exchange, by contrast, always results in total data loss.
+
+### Q: How does your warranty compare to Apple's?
+
+We offer up to 3 years on the specific repair performed, depending on the fault type and components involved. Apple's standard repair warranty is 90 days on the repair itself, extended only if your machine is still under original cover or AppleCare+.
+
+### Q: What if my MacBook was liquid-damaged?
+
+Liquid damage is one of our larger specialisations. The key is getting the machine to us quickly, ideally within 48 hours and without trying to power it on. Corrosion is progressive and the longer it sits, the more circuit traces it eats. We have recovered machines that other shops declared dead, but the success rate drops sharply after a week.
+
+### Q: Should I just claim from insurance and replace it?
+
+If your insurance covers accidental damage and your excess plus premium impact is less than the repair cost, yes, consider it. But ask your insurer what they do with the old machine. Some will let you keep it, in which case you may have a repairable unit to sell or use as a backup. Always read the policy.
+
+### Q: How long will an M1 or M2 MacBook Pro realistically last after repair?
+
+Assuming the repair is clean and the rest of the machine is in good condition, we would expect another four to six years of comfortable daily use. Apple typically supports each Apple Silicon generation with macOS updates for around seven years from release. A 2021 M1 Pro repaired today should see software support until roughly 2028, with security updates beyond that.`,
+  },
+  'macbook-water-damage-cost-process-johannesburg': {
+    slug: 'macbook-water-damage-cost-process-johannesburg',
+    title: `MacBook Water Damage Repair Cost and Process in Johannesburg: The Honest Breakdown`,
+    excerpt: `If you have spilled coffee, wine, water or anything else on your MacBook, the first question is almost always the same one we get on WhatsApp every single day: "How much is this going to cost me?" Fai.`,
+    date: '12 May 2026',
+    category: 'Pricing',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Water Damage Repair Cost and Process in Johannesburg: The Honest Breakdown
+
+If you have spilled coffee, wine, water or anything else on your MacBook, the first question is almost always the same one we get on WhatsApp every single day: "How much is this going to cost me?" Fair question. And one most repair shops in Johannesburg dodge until they have the machine on their bench.
+
+We do things differently. After working through more than 12,000 liquid-damage cases out of our Hyde Park Johannesburg workshop, we have learned that pricing follows a predictable pattern based on what the corrosion has actually destroyed. There are four clear tiers, and once you understand them, the rest of the conversation becomes simple.
+
+This post walks you through each tier, what triggers it, what timeline to expect, and where data recovery sits in the picture.
+
+## Why Water Damage Costs Vary So Much
+
+Liquid damage is not a single problem. It is a chain reaction. The moment a conductive fluid touches a powered logic board, electrolysis begins eating copper traces and lifting solder pads. Stop the damage early and you might walk away with a clean board and a R599 bill. Leave it for three weeks in a drawer, hoping rice will save it, and you are looking at a board rebuild or replacement.
+
+The variables that decide your tier are: the liquid type (clean water versus sugary cola versus saltwater), how long the machine ran with liquid inside, whether you tried to power it on afterwards, and which components took the hit. The CPU rail, the PMIC (power management IC), the SMC, the U7000 boost converter on Touch Bar models — each one has its own repair complexity and price.
+
+You can read more about how we approach [liquid damage recovery](/liquid-damage) on our dedicated service page, but the four tiers below cover what 95% of clients pay in practice.
+
+## Tier 1: The R599 Assessment — Always the Starting Point
+
+Every liquid-damage MacBook that comes through our door starts with the same step: a full assessment from R599. This is not a guess-and-quote. It includes a complete teardown, ultrasonic cleaning of the logic board in a heated isopropyl alcohol bath, microscope inspection of every affected area, and a written diagnostic report telling you exactly which components have failed.
+
+In roughly one in four cases, the ultrasonic clean alone is enough. The corrosion has not yet damaged active components, just left residue that was interfering with signals. You collect the machine, pay R599, and go home. We have seen this happen with around 3,200 of the units we have processed — usually clients who powered the device off immediately and brought it in within 48 hours.
+
+Turnaround for assessment is typically 24 to 72 hours depending on workshop load.
+
+## Tier 2: Component-Level Repair From R2,499
+
+If the diagnostic shows a single failed component — one blown MOSFET, a damaged filter, a corroded keyboard connector, a single power stage that needs rework — you are in component-repair territory. Pricing starts at R2,499 and rarely climbs above R3,500 in this tier.
+
+This tier covers things like backlight circuit repair (very common on 13-inch Pros after a small splash near the hinge), a single failed USB-C port controller, or a corroded trackpad flex that needs the connector reflowed and a new cable fitted. Turnaround is generally 2 to 5 working days, assuming the part is in stock locally. If we need to import a specific IC from our supplier in Shenzhen, add another 7 to 10 days.
+
+Every Tier 2 repair carries our standard warranty — up to 3-year warranty depending on the repair type and components used. Board-level work specifically is covered for 12 months as standard, with extended cover available.
+
+## Tier 3: Board-Level Rebuild — R4,499 to R8,999
+
+This is where most serious spills end up. The board boots intermittently, or not at all. The diagnostic reveals multiple failed ICs — typically the PMIC, the SMC, and one or two surrounding power stages. The keyboard might be dead. The display might not initialise. There is visible green corrosion under the shield cans.
+
+Rebuilds in this tier involve removing and replacing multiple BGA (ball grid array) chips, repairing lifted pads with micro-jumpers, and sometimes sourcing donor components from our parts inventory. It is precision work under a stereo microscope at 40x magnification, and it takes time. Expect 1 to 2 weeks turnaround.
+
+The price range exists because no two rebuilds are identical. A PMIC replacement plus three power stages on a 2019 Air sits around R4,499. A full power-section rebuild plus SMC replacement on a 16-inch 2019 Pro with the T2 chip in play can reach R8,999. We give you the exact figure in writing after the assessment, before any further work begins.
+
+This level of repair is the bread and butter of our [logic board repair](/logic-board-repair) service. Apple's own service channel does not offer it — they replace the entire board. Which brings us to Tier 4.
+
+## Tier 4: Full Board Replacement — R12,000 to R18,000
+
+When the damage is catastrophic — saltwater immersion, a full glass of wine that sat overnight, a board with lifted CPU pads or a destroyed Apple silicon SoC — replacement is the only viable path. We source genuine pull boards (tested logic boards harvested from non-damaged donor machines) and fit them to your chassis.
+
+Pricing sits between R12,000 and R18,000 depending on model and year. For comparison, the same repair through an Apple Authorised Service Provider typically runs 40 to 60% higher, and on certain Apple silicon models exceeds the value of a used replacement. We are transparent about this — sometimes the right advice is to recover your data and put the money towards a newer machine. We will tell you that.
+
+## Data Recovery: The Separate Cost Most People Forget
+
+Data recovery is priced independently of board repair, because it is a separate technical workflow. If your MacBook has a soldered SSD (every model from 2016 onwards, plus the T2 and Apple silicon machines), recovery requires either bringing the logic board back to a state where it can boot, or transferring the NAND chips to a working donor board. Neither is trivial.
+
+For most cases where the board can be revived enough to read the SSD, data recovery is included in the repair cost. For severe cases where we need to do chip-off recovery or work with the encrypted T2/Apple silicon Secure Enclave, costs are R1,800 to R3,200 additional. Apple themselves are clear that liquid-damaged Macs are not covered under standard warranty — their [official guidance](https://support.apple.com) confirms this — which makes independent specialists the only realistic option for most clients.
+
+## What to Expect From Drop-Off to Collection
+
+Bring the MacBook in powered off. Do not try to charge it. Do not put it in rice — it does nothing useful and the starch residue actually makes our ultrasonic cleaning harder.
+
+At drop-off in Hyde Park we log the device under POPIA-compliant intake, you sign the assessment authorisation, and we start within the same working day where possible. You receive a WhatsApp update with the diagnostic report and exact quote within 24 to 72 hours. Nothing proceeds without your written approval. If you decline the repair, you pay only the assessment fee and collect the machine.
+
+Want to start the process? [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with your model and a short description of what happened, or [book online at zasupport.com/book](https://zasupport.com/book). You can also [contact us](/contact) through the form on our site if you prefer email.
+
+## Frequently Asked Questions
+
+### Q: How quickly should I bring my MacBook in after a spill?
+
+Within 24 hours, ideally within the first few hours. Corrosion is time-dependent. Every day the residue sits on a powered or recently-powered board, more copper is etched away and more components fail. Same-day intake in Hyde Park almost always saves money.
+
+### Q: Will rice or a hairdryer help while I wait?
+
+No. Rice absorbs almost nothing useful and leaves starch dust inside the chassis. A hairdryer can drive liquid deeper under shield cans and cause thermal stress. The best home action is: power off immediately, hold any spill-side downward to let liquid drain, do not attempt to charge, and bring it in.
+
+### Q: Is the R599 assessment refunded if I go ahead with the repair?
+
+The R599 covers the diagnostic and ultrasonic clean as standalone work, so it is not deducted from larger repairs. However, if the clean alone resolves the fault, R599 is your total cost. We are upfront about this at intake so there are no surprises.
+
+### Q: Do you offer a warranty on water-damage repairs?
+
+Yes. Component and board-level repairs carry a 12-month standard warranty, and on certain repair types we extend cover up to 3-year warranty. Warranty covers the work we performed; it does not cover new liquid incidents on the same machine.
+
+### Q: Can you recover my data if the board is beyond repair?
+
+In most cases yes, though it depends on the SSD type and damage extent. For pre-2016 MacBooks with removable SSDs, recovery is straightforward and often included. For T2 and Apple silicon models with soldered, encrypted storage, advanced recovery costs R1,800 to R3,200 extra and success depends on the state of the NAND chips themselves.
+
+### Q: Why are your prices lower than Apple's quote?
+
+Because we repair at component and board level rather than swapping the whole logic board. Apple's repair model is module replacement — fast and standardised, but expensive. Our model is targeted repair using the same techniques outlined in detailed teardowns on resources like [iFixit](https://www.ifixit.com). Same outcome, often a fraction of the price, with the option to keep your original board and data intact.`,
+  },
+  'managed-it-services-medical-practices-johannesburg': {
+    slug: 'managed-it-services-medical-practices-johannesburg',
+    title: `Managed IT Services for Medical Practices in Johannesburg: A Six-Layer Defensible Stack`,
+    excerpt: `A GP partner in Parkhurst rang us last winter at 06:40. Reception had opened the doors, the receptionist could not log in, the scripting software refused to launch, and a queue was already forming out.`,
+    date: '12 May 2026',
+    category: 'Repairs',
+    readTime: '9 min read',
+    author: 'courtney-bentley',
+    content: `# Managed IT Services for Medical Practices in Johannesburg: A Six-Layer Defensible Stack
+
+A GP partner in Parkhurst rang us last winter at 06:40. Reception had opened the doors, the receptionist could not log in, the scripting software refused to launch, and a queue was already forming outside. The cause was mundane: a failed Hyper-V host that had not been patched in fourteen months and a backup job that had silently broken in September. The cost was not mundane. They lost a full morning of consultations, roughly forty patients had to be rebooked, and a hand-written script later triggered a medical aid query that took six weeks to unwind.
+
+That morning is why we keep telling practice managers across Hyde Park Johannesburg, Rosebank, Sandton and Parkmore the same thing: managed IT for a medical practice is not the same product as managed IT for an accounting firm. The regulatory load is heavier, the downtime tolerance is lower, and the data you hold is, in the eyes of the Information Regulator, special personal information under section 26 of POPIA. A generic reseller selling you Microsoft 365 Business Standard and an antivirus subscription is not buying you compliance. It is buying you a paper trail when something goes wrong.
+
+What follows is the six-layer stack we deploy and maintain for medical practices, and the specific failure each layer prevents. Read it as a checklist for whatever provider you are currently paying.
+
+## Why Medical IT Is a Different Discipline
+
+Two regulations shape everything. POPIA section 19 obliges you, as the responsible party, to secure the integrity and confidentiality of personal information through appropriate technical and organisational measures. HPCSA Booklet 9 then layers on record-retention rules — six years for adults, longer for minors and oncology — and demands that records remain legible and accessible for that period. Add the practical reality that a script printer, a claims gateway and a Vericlaim or GoodX session all share the same network, and a single unsegmented switch becomes a clinical risk rather than just an IT one.
+
+A generic managed service provider will rarely register your Information Officer with the Regulator, will not know that Discovery Health's claims endpoint sometimes blocks traffic from cloud-hosted VMs without a static IP, and will almost never have a written incident-response playbook that distinguishes a ransomware event from a hardware failure. We have rebuilt enough practice networks over the years — and serviced well over 18,000 devices through our Hyde Park workshop — to know where the cracks tend to open.
+
+## Layer One: Identity and Email — Microsoft 365 Business Premium, Not Standard
+
+The single most common mistake we see is a practice running Business Standard or, worse, a mix of personal Outlook accounts and a shared Gmail. Business Premium is the floor, not the ceiling. It gives you Conditional Access, so a doctor logging in from a holiday in Mauritius gets challenged for MFA, while the receptionist logging in from the practice IP does not. It gives you Defender for Office 365, which catches the spear-phishing emails that impersonate medical aids. It gives you Intune for mobile device management on the practice's phones and tablets, and it gives you BitLocker enforcement on every Windows endpoint.
+
+What it prevents: a stolen practice manager's laptop becoming a POPIA notifiable breach. With BitLocker enforced and Conditional Access in place, a lost device is a hardware loss, not a data loss. Without it, you are writing a letter to every patient on your books.
+
+## Layer Two: Endpoint Management for Apple Fleets
+
+Most practices we work with run a mix — Windows at reception for the practice management software, Macs and iPads for the doctors. Apple Business Manager paired with Jamf Pro (or Jamf School for smaller practices) lets us enrol every iPad and MacBook into a supervised state. We push the email profile, the VPN config, the Defender for Endpoint agent and the disk-encryption policy without the doctor ever touching a settings menu. If a device is lost, we wipe it remotely. If a doctor leaves the practice, their access dies at the identity layer and the device returns to the pool clean.
+
+What it prevents: the classic scenario where a retiring partner walks out with an iPad full of patient correspondence because nobody knows the Apple ID password. For practices that prefer to extend hardware life rather than replace, our [logic board repair](/logic-board-repair) service has kept a number of older MacBooks in clinical use well past their expected lifespan, and every device we touch carries up to 3-year warranty on the work performed. Apple's own guidance on supervised enrolment, available at [Apple Support](https://support.apple.com), is worth reading if you want to understand what the platform is capable of.
+
+## Layer Three: Network Segmentation with UniFi VLANs
+
+A flat network is a clinical hazard. In our standard medical deployment we run at minimum four VLANs on UniFi hardware: a clinical VLAN for the practice management server and scripting workstations, a staff VLAN for general administrative use, a guest VLAN for patient Wi-Fi in the waiting room, and an IoT VLAN for the printers, the EFTpos terminals and the access control. Inter-VLAN traffic is filtered, the guest VLAN cannot see anything else, and the clinical VLAN cannot reach the internet except through whitelisted destinations.
+
+What it prevents: a patient in the waiting room scanning the network and finding the unpatched Windows Server 2012 box that still runs the legacy radiology viewer. We have walked into practices where exactly that was possible.
+
+## Layer Four: Backup and Continuity — Veeam plus Synology, Offsite
+
+A backup that has not been tested in the last quarter is not a backup. We run Veeam Backup and Replication writing to an on-premises Synology, with a second copy replicated to an offsite Synology in a different suburb, and a third immutable copy in Backblaze B2. Recovery point objective for the practice database is one hour. Recovery time objective for a full server rebuild is four hours. We test restores monthly and document the result.
+
+What it prevents: the ransomware morning. We have recovered three practices from full encryption events in the last two years, and in every case the offsite immutable copy was what saved them. Load shedding aggravates everything here — a UPS that lets the server shut down cleanly is part of the same layer, not an afterthought. The same principle applies to physical hazards: a burst geyser above a server cupboard is depressingly common, and our [liquid damage recovery](/liquid-damage) work on individual machines has taught us to insist on raised server platforms in every practice we onboard.
+
+## Layer Five: POPIA Governance, Not Just POPIA Tech
+
+This is where almost every generic provider falls short. POPIA compliance is not a firewall setting. It is a registered Information Officer, a documented Personal Information Impact Assessment, a written incident-response plan with notification timelines, an operator agreement with every third party that touches patient data (including your IT provider), and a staff training record. We register your Information Officer with the Regulator as part of onboarding, we draft the PAIA manual, and we sit with the principal partner to walk through the impact assessment. None of that is technical work, but without it the technical work is window dressing.
+
+What it prevents: a Regulator enquiry following a complaint becoming an enforcement notice. The fine ceiling is R10 million; the reputational cost is higher.
+
+## Layer Six: Monitoring, Patching and Human Response
+
+The final layer is the boring one that actually keeps the other five working. We run RMM monitoring on every endpoint and server, with patching windows scheduled around clinical hours, vulnerability scans monthly, and a real human reviewing the alerts every morning. Practices on our managed plan get a named technician, a quarterly review with the practice manager, and a 24-hour response on critical tickets. Our after-hours number reaches a person, not a queue.
+
+## What This Costs, Honestly
+
+We charge a once-off onboarding assessment from R599 for a single-doctor practice, scaling with site complexity. Monthly managed fees run between roughly R450 and R900 per user depending on the layers you take, with hardware (UniFi, Synology, UPS) costed separately and transparently. We do not mark up Microsoft licences beyond what Microsoft charges us. We do not lock you into multi-year contracts. If you want to leave, we hand over the documentation and the admin credentials in writing, which is a clause we insist on putting in our own contract because we have seen what the alternative looks like.
+
+To start, [book online at zasupport.com/book](https://zasupport.com/book) or [contact us](/contact) for a site walk-through. You can also [WhatsApp us on 064 529 5863](https://wa.me/27645295863) and we will arrange a visit to your practice, usually within the same week.
+
+## Frequently Asked Questions
+
+### Q: Can we keep our current IT provider and just add the medical-specific layers?
+
+In principle yes, but in practice it rarely works. The layers are interdependent — Conditional Access policies must align with Jamf enrolment, VLAN rules must align with the backup network paths, and incident response must have a single owner. We have done co-managed arrangements where the existing provider handles day-to-day support and we own the compliance stack, but it requires a clear written split of responsibilities.
+
+### Q: How long does onboarding a medium-sized practice take?
+
+For a four-doctor, twelve-staff practice the typical timeline is six to eight weeks. Week one is assessment and documentation. Weeks two and three are identity migration and Microsoft 365 hardening. Weeks four and five are network re-cabling and VLAN deployment. Weeks six and seven are backup commissioning and restore testing. Week eight is POPIA documentation sign-off and staff training. We do not rush this, because shortcuts in onboarding are the cracks that open later.
+
+### Q: What happens during load shedding?
+
+Every server and network rack we install includes a UPS sized for graceful shutdown plus a window for stage-four shedding. Larger practices add an inverter and battery bank — typically lithium, sized for four to six hours — so reception can continue to book and bill. Cloud-hosted practice management software helps here too, because the doctors can keep working from a 4G hotspot even if the building has no power.
+
+### Q: Are Apple devices safe for clinical use, or should we standardise on Windows?
+
+Both work. We run mixed fleets in most practices. Apple devices with Jamf enrolment and FileVault are arguably easier to keep compliant than Windows endpoints, but the practice management software usually dictates the choice. iPads work well for clinical notes at the bedside. The decision should be driven by clinical workflow, not by IT preference.
+
+### Q: Who owns the data if we leave you?
+
+You do, always, and the contract says so explicitly. On exit we provide a full export of Microsoft 365 mailboxes and SharePoint sites, the last good Veeam backup of any on-premises servers, all Jamf and UniFi configurations, and the admin credentials for every system. We allow a thirty-day overlap with your incoming provider at no extra charge.
+
+### Q: Do you service the hardware as well, or only the software side?
+
+Both. Our Hyde Park workshop has handled more than 22,000 device repairs over the years, ranging from MacBook logic boards to iMac displays to iPad screen replacements. Practices on our managed plan get priority turnaround on hardware faults, loan devices where we have stock, and the same up to 3-year warranty on every repair. Keeping the same team responsible for software and hardware shortens the diagnostic loop when something odd happens.`,
+  },
+  'medical-practice-it-support-johannesburg': {
+    slug: 'medical-practice-it-support-johannesburg',
+    title: `Medical Practice IT Support Johannesburg: Six Things Every Contract Should Cover`,
+    excerpt: `We have been looking after Johannesburg medical practices for long enough now to spot a pattern. A practice manager rings us, usually a Tuesday morning, usually because GoodX has frozen on the recepti.`,
+    date: '12 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Medical Practice IT Support Johannesburg: Six Things Every Contract Should Cover
+
+We have been looking after Johannesburg medical practices for long enough now to spot a pattern. A practice manager rings us, usually a Tuesday morning, usually because GoodX has frozen on the reception iMac and the partner's MacBook will not see the network printer. By the time we have driven from our Hyde Park Johannesburg workshop to the rooms in Parktown or Sandton, we already know what we will find: an IT contract written for a generic SME, no Mac-fluency on the supplier's side, no POPIA register, and a backup that last completed in March.
+
+This post is the contract checklist we wish more practices had before they signed. Six things every medical practice IT support agreement in Johannesburg should cover — and the gaps we see most often when we take over from a previous provider.
+
+## 1. Mixed-Estate Competence (Mac, Windows, iPad — All in One Room)
+
+Almost every solo or small-group practice we support runs a hybrid estate. Consulting rooms have MacBook Pros or Airs because doctors like them. Reception runs an iMac or a Mac mini connected to a label printer and a card machine. Billing — Elixir, GoodX, MediSwitch, PMA — is Windows-only, so it sits inside a Parallels or VMware virtual machine on the Mac, or on a separate Windows mini-PC behind the desk. Partners carry iPads for ward rounds.
+
+Most IT contracts in Johannesburg are written by Windows shops who treat the Macs as "the doctor's personal device, not our problem." That is the first gap. Your contract must explicitly cover macOS, the Windows VM running on top of it, iPadOS, and the bridge between them. We have serviced well over 18,000 Apple devices through our Hyde Park workshop, and the Mac-side issues — kernel panics during a GoodX sync, T2 chip lockouts, Bluetooth conflicts with the dental loupes camera — are the ones generic providers cannot diagnose. If your contract does not name the platforms by version, push back.
+
+For our primary medical client, Pieterse-Hunt-Meyberg-Laher, the contract names every device class and every billing platform by version. That is the standard to aim for.
+
+## 2. POPIA and HPCSA Compliance — Written, Not Implied
+
+POPIA has been enforceable since July 2021 and the Information Regulator has now started issuing enforcement notices. HPCSA Booklet 9 sets out the confidentiality duties on top of that. A medical practice IT contract that does not mention either is, frankly, a contract written before 2021.
+
+What we put in writing for our practice clients: a documented data flow showing where patient identifiers live (Mac, VM, cloud, backup), full-disk encryption on every device with FileVault for Mac and BitLocker for the Windows side, mandatory two-factor authentication on every email account that touches patient correspondence, and a registered Information Officer named in the practice's POPIA manual. We also kill the habit of moving ICD-10 batches to Discovery, Bonitas or GEMS over plain FTP. SFTP or the medical aid's HTTPS portal, never anonymous FTP. We see it every month and it is the single biggest POPIA exposure in the average Johannesburg practice.
+
+If your provider cannot explain, in one paragraph, how your practice would respond to a Section 22 breach notification, you do not have a compliant contract.
+
+## 3. Backup That Actually Restores
+
+Every practice we onboard claims they have a backup. Roughly one in three of those backups actually restores cleanly when we test it on day one. The rest are either Time Machine drives that were unplugged eight months ago, OneDrive folders that only sync the doctor's desktop and not the GoodX data directory, or a single USB stick in the practice manager's handbag with last quarter's patient list on it. Unencrypted. That last one is a POPIA breach waiting to happen.
+
+A proper backup clause in a medical IT contract specifies three things. First, what is being backed up — and crucially, that includes the Windows VM image, not just the host Mac. Second, where it goes — on-site for fast restore, off-site for fire and theft, and encrypted in transit and at rest. Third, how often it is tested. We restore a sample file from every client's backup every month and document the result. Load shedding has made this harder, not easier: a UPS that keeps the router and NAS alive through a 2.5-hour Stage 6 slot is now part of the backup conversation, not separate from it.
+
+## 4. Hardware Repair and Replacement — In Writing, With Realistic Turnaround
+
+This is the clause that practices skip and regret. When the reception iMac dies at 07:40 on a Monday with a full day of bookings, "we will look into it" is not an answer. Your contract should name the swap-out path: a loan device delivered within a stated window, the failed unit assessed in workshop, and the repair quoted before any work begins.
+
+In our workshop we run our diagnostics from R599 assessment, which is credited against the repair if you proceed. For the deeper jobs — [logic board repair](/logic-board-repair) on a MacBook that has been carrying the practice's billing VM for four years, or [liquid damage recovery](/liquid-damage) after the inevitable coffee spill onto a consulting room keyboard — we offer up to 3-year warranty on the workmanship and the replaced components. That kind of cover is not standard in the Johannesburg market and it is worth asking your provider for it in writing. Apple's own official guidance at [Apple Support](https://support.apple.com) covers the warranty rules on new units, but out-of-warranty board-level work is where an independent specialist earns the contract.
+
+## 5. Transparent Pricing — Per Device, Per Month, Per Incident
+
+The medical practice IT market in Johannesburg has a bad habit of opaque retainers. R12,000 a month, "all-inclusive," with no breakdown of what triggers an extra invoice. Three months later there is a R7,400 line item for "after-hours emergency support" that nobody can decode.
+
+Insist on a contract that prices three things separately. A per-device monthly figure for monitoring, patching and antivirus. A per-incident or pooled-hours figure for remote and on-site support, with the after-hours multiplier stated upfront. And a project rate for anything outside business-as-usual — a new room fit-out, a Windows Server migration, a move from on-premise GoodX to GoodX Web. For a typical six-doctor practice in Rosebank or Hyde Park we would expect the monthly retainer to land somewhere between R6,500 and R14,000 depending on device count and whether the billing server is on-site or hosted. Anything dramatically below that is being subsidised by surprise invoices later.
+
+## 6. A Real Handover Plan When Things Change
+
+The last clause everyone forgets. What happens when a partner leaves the practice and their MacBook needs wiping without losing the shared calendar? What happens when you change billing software from PMA to GoodX and 11 years of patient files need migrating? What happens when your IT provider goes under or you simply want to move?
+
+Your contract should give you, in writing, ownership of your data, ownership of your Microsoft 365 or Google Workspace tenancy, the admin passwords held in escrow, and a 30-day cooperative handover obligation. We have onboarded practices where the previous provider held the domain registrar login hostage for six weeks. Do not let that be you.
+
+If you would like us to review your current contract against this six-point checklist, [contact us](/contact) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) and we will walk through it with your practice manager. You can also [book online at zasupport.com/book](https://zasupport.com/book) for an on-site assessment.
+
+## Frequently Asked Questions
+
+### Q: Do you support practices that use GoodX or Elixir on a Mac?
+Yes, this is the bulk of what we do. We set up Parallels or VMware Fusion on the MacBook or iMac, install the Windows licence, run the billing software inside it, and make sure the printer, card machine and ICD-10 export all behave. We have configured this stack across more than 11,000 client sessions over the years.
+
+### Q: How quickly can you respond to a practice down during clinic hours?
+For contracted clients in Johannesburg — Hyde Park, Sandton, Rosebank, Parktown, Houghton, Morningside, Bryanston — we aim for remote response within 15 minutes during business hours and on-site within 90 minutes for a practice-stopping incident. Out-of-hours response is covered if your contract includes it.
+
+### Q: What does a POPIA gap assessment for a medical practice cost?
+We run a focused POPIA and HPCSA readiness assessment from R599 per device for the technical side, plus a separate fixed fee for the policy and procedure work. Most solo practices complete the whole thing for under R15,000, which is considerably less than a single Information Regulator fine.
+
+### Q: Can you handle the hardware repair as well as the IT support?
+Yes, that is one of our differentiators. Most managed service providers outsource hardware. We do it in-house at our Hyde Park Johannesburg workshop, with up to 3-year warranty on logic board and liquid damage work. For deeper component-level reference, the teardowns at [iFixit](https://www.ifixit.com) are excellent, but the actual board work for South African clients happens with us.
+
+### Q: We are a two-doctor practice. Are we too small for a proper IT contract?
+No. We support solo GPs, biokineticists, audiologists and physios. The contract scales down — fewer devices, lighter retainer, same compliance backbone. POPIA does not have a small-practice exemption, so the controls need to be there regardless of size.
+
+### Q: What happens to our data if we end the contract?
+It remains yours, in full, in a format you can take to the next provider. Our standard agreement includes a 30-day handover obligation where we cooperate with the incoming IT team, transfer admin credentials, and provide documentation of the environment. No hostage-taking, ever.`,
+  },
+  'popia-compliant-it-support-doctors-johannesburg': {
+    slug: 'popia-compliant-it-support-doctors-johannesburg',
+    title: `POPIA Compliant IT Support for Doctors in Johannesburg: What the Regulator Actually Wants`,
+    excerpt: `In our Hyde Park workshop we have had three different practice managers walk in this year carrying a MacBook, asking the same question in slightly different words: "If the Information Regulator audits.`,
+    date: '12 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# POPIA Compliant IT Support for Doctors in Johannesburg: What the Regulator Actually Wants
+
+In our Hyde Park workshop we have had three different practice managers walk in this year carrying a MacBook, asking the same question in slightly different words: "If the Information Regulator audits us, will our IT setup actually pass?" One was a paediatrician in Rosebank. Another ran a small dental practice off Jan Smuts. The third managed a four-doctor GP rooms in Sandton. All three had heard whispers about increased enforcement in healthcare for 2026, and none of them were sure where their patient data actually lived, who could access it, or whether the antivirus their previous IT guy installed in 2019 was doing anything at all.
+
+This post is what I tell those practice owners when they sit down with a coffee and ask me to be straight with them. POPIA is not theoretical anymore. The Act has been in force since 1 July 2021, the Regulator has issued enforcement notices, and the fines run up to R10 million or ten years imprisonment for serious breaches. As the doctor or practice owner, you are the Responsible Party under the Act. The buck stops with you, not your receptionist and not your IT supplier.
+
+## What POPIA Actually Requires from a Medical Practice
+
+The Act itself is dense, but the practical compliance checklist for a small to medium practice is not unmanageable. You need to register an Information Officer with the Regulator (in most small practices this is the principal doctor, though it can be delegated). You need a Personal Information Impact Assessment on file, showing you have thought about where patient data flows, who touches it, and what the risks are. You need written processor agreements with every supplier who handles patient information — that includes your practice management software vendor, your medical aid switching house, your cloud backup provider, and yes, your IT support company.
+
+You need encryption at rest on every device that stores patient records. On a Mac that means FileVault is switched on. On a Windows machine that means BitLocker. On any external backup drive or NAS, AES-256 encryption is the minimum. You need encryption in transit, which in practical terms means TLS 1.3 for any web-facing service and SFTP rather than the ancient FTP that some pathology labs still insist on using.
+
+And you need a breach notification process that can get a notification to the Regulator and to affected patients within 72 hours of discovering a compromise. Not 72 working hours. Not "as soon as we figure out what happened". Seventy-two hours.
+
+## Where Most Johannesburg Practices Are Failing
+
+We have serviced more than 30,000 devices in our time, and a meaningful slice of those have been for medical and allied health practices across Johannesburg. The same gaps come up again and again.
+
+FileVault is off on the doctor's personal MacBook that gets carried between the practice and home. The reception iMac has a four-character password and automatic login enabled. Patient files are sitting in a shared Dropbox folder that the previous practice manager set up in 2018, still active, still accessible to a staff member who left eighteen months ago. The "backup" is an external hard drive plugged into the server, unencrypted, that nobody has tested a restore from in three years.
+
+These are not exotic failures. They are the ordinary state of a busy practice that has been focused on patients rather than infrastructure. The Regulator does not particularly care how busy you have been. If a laptop containing 800 patient records is stolen from a car in the Hyde Park Corner parking lot and FileVault was not enabled, that is a reportable breach and a defensible-or-not enforcement question.
+
+## What a POPIA-Aware IT Partner Actually Does
+
+When a new medical client engages us, we start with an assessment from R599 that covers every device touching patient data: workstations, laptops, the practice server if there is one, mobile phones that receive practice email, the router, and the backup target. We document the operating system, the encryption status, the patch level, the user accounts, and the network configuration. We check whether macOS or Windows is still receiving security updates — we still see practices running Mojave or Windows 8.1, both of which are well past their support windows and have no business storing patient data.
+
+From there the work splits into hardware and configuration. On the hardware side, we deal with the failing logic boards, the dying SSDs, the swollen batteries on five-year-old MacBooks that the doctor refuses to retire. Our [logic board repair](/logic-board-repair) work on medical-practice machines is up to three-year warranty backed, which matters because the last thing a practice needs is a repeat failure six months into a compliance programme. If a device has taken a coffee spill — and you would be amazed how often that happens at a reception desk — our [liquid damage recovery](/liquid-damage) service can often recover the data even where the machine itself is not economically repairable, which matters enormously when that data is the only copy of three weeks of consultation notes.
+
+On the configuration side, we enable FileVault or BitLocker on every device, set up proper user accounts with individual logins rather than a shared "Reception" account, configure automatic security updates, install a reputable endpoint protection product, and set up an encrypted backup that follows the 3-2-1 principle (three copies, two different media, one off-site). We document everything in a register that you can hand to the Regulator if they come knocking.
+
+We also write the processor agreement between your practice and us, which is itself a POPIA requirement that most IT companies in Johannesburg quietly ignore. Apple's own guidance on device encryption and security, which you can read at [Apple Support](https://support.apple.com), gives a good baseline for the Mac side of things, but the practice-level paperwork is what the Regulator will ask for first.
+
+## Being Honest About Cost and Load Shedding
+
+A small two-doctor practice can usually reach a defensible POPIA posture for somewhere between R8,000 and R25,000 in initial work, depending on how much of the existing hardware is salvageable and how many staff devices need attention. Ongoing monthly support that includes patch management, backup monitoring, and incident response sits in a range that depends on headcount, but it should not feel ruinous. If anyone quotes you R50,000 a month for a four-person practice, walk away.
+
+Load shedding deserves a mention because it is a genuine POPIA risk that nobody outside South Africa thinks about. Unexpected power loss corrupts databases, kills hard drives, and interrupts backup jobs mid-run. A UPS on the server and a tested generator or inverter setup is not luxury infrastructure for a medical practice — it is part of the "appropriate technical measures" the Act requires you to take.
+
+## What to Expect When You Engage Us
+
+You can [contact us](/contact) or [book online at zasupport.com/book](https://zasupport.com/book) for an initial site visit. We come to your rooms, we look at what is actually there, and we give you a written report that lists every gap against POPIA requirements with a priority rating. No upsell theatre. If your existing setup is largely fine and just needs three small fixes, we will tell you that. If it is a mess, we will tell you that too, with a costed plan to fix it.
+
+For urgent matters — a stolen laptop, a ransomware alert, a staff member who has clicked something they should not have — [WhatsApp us on 064 529 5863](https://wa.me/27645295863) and we will respond. Speed matters under POPIA because the 72-hour clock starts the moment you become aware of the breach, not the moment it is convenient to deal with it.
+
+## Frequently Asked Questions
+
+### Q: Do I have to register as an Information Officer with the Regulator?
+Yes. Every Responsible Party must register an Information Officer, and for most small practices that will be the principal doctor or practice owner. Registration is done through the Regulator's online portal and is free. We can help you complete the registration as part of an assessment.
+
+### Q: Is cloud storage allowed for patient records under POPIA?
+Yes, with conditions. The cloud provider must offer encryption at rest and in transit, you must have a written processor agreement with them, and you must be satisfied with their security posture. Many international cloud providers meet these requirements, but you need the paperwork to prove it during an audit.
+
+### Q: What happens if a staff member loses a laptop with patient data?
+If the laptop was properly encrypted with FileVault or BitLocker and the password was strong, the practical risk to patients is low and your defensibility is high. If it was not encrypted, you have a reportable breach and 72 hours to notify the Regulator and affected patients. This single configuration setting is the difference between a near-miss and a serious incident.
+
+### Q: How long does a POPIA assessment take?
+For a typical two-to-four doctor practice in Hyde Park or surrounding Johannesburg suburbs, the on-site assessment takes about two hours. The written report follows within three working days. Implementation of recommendations depends on scope but most practices can be brought to a defensible standard within two to three weeks.
+
+### Q: Do I need new hardware to be POPIA compliant?
+Usually not. Most Macs from 2017 onwards and Windows machines that can run Windows 11 are perfectly capable of meeting the technical requirements. Where we recommend replacement, it is normally because a device is out of vendor security support or has hardware faults that make it unreliable. Our repairs carry up to three-year warranty cover so we are not pushing replacement for its own sake.
+
+### Q: What is the difference between POPIA and HPCSA requirements for record keeping?
+HPCSA rules govern how long you must retain patient records and in what form. POPIA governs how you must protect those records while you hold them and how you must dispose of them when retention is no longer lawful. The two regimes overlap and a properly designed practice setup satisfies both at once, but they are distinct legal obligations and a compliance plan needs to address each on its own terms.`,
+  },
+  'sme-it-support-johannesburg-apple': {
+    slug: 'sme-it-support-johannesburg-apple',
+    title: `SME IT Support in Johannesburg for Apple-First Businesses: What a Real Partnership Looks Like`,
+    excerpt: `Most Johannesburg SMEs we meet in our Hyde Park workshop fall into the same awkward gap. They are too small for the big enterprise resellers — your Dimension Datas, your BCXs — who price for 500-seat .`,
+    date: '12 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# SME IT Support in Johannesburg for Apple-First Businesses: What a Real Partnership Looks Like
+
+Most Johannesburg SMEs we meet in our Hyde Park workshop fall into the same awkward gap. They are too small for the big enterprise resellers — your Dimension Datas, your BCXs — who price for 500-seat deployments and treat anything under R50,000 a month as a nuisance. But they are also far too dependent on their Macs, iPhones and iPads to keep relying on a friend's nephew who is "good with computers", or a generic reseller who quietly resents being asked anything Apple-related.
+
+If you run a creative agency in Rosebank, a law firm in Sandton, a property practice in Bryanston, or an investment boutique in Morningside, you have probably lived through all of it: the laptop that died the morning of a board pack, the email outage during load shedding, the staff member who left and took the business Apple ID with them. This post is for you. We want to set out, in plain English, what a proper Apple-first SME IT support partnership in Johannesburg should actually deliver.
+
+## Why Apple-First SMEs Need a Different Kind of IT Partner
+
+Apple environments are not simply "Windows but prettier". The toolchain is different, the management plane is different, and most importantly the failure modes are different. A reseller who lives in Microsoft 365 and Dell warranties will troubleshoot your MacBook Pro by Googling it in front of you.
+
+We have serviced well over 18,000 Apple devices since opening, and the patterns are consistent. SMEs running Macs need a partner who understands Apple Business Manager, who knows the difference between a managed Apple ID and a personal one, who can read a Mac diagnostic report without panicking, and who has actually opened the bottom case of an M2 MacBook Air to replace a swollen battery. That last one matters more than you think — when a device fails, you want the same partner who manages your fleet to also fix the hardware, not punt you to a third party.
+
+This is the core of the FMSP — Fully Managed Service Provider — model we run for Johannesburg SMEs. One team, one phone number, software and hardware under one roof.
+
+## The Concrete Deliverables of an Apple-First SME Partnership
+
+Let us be specific. When we onboard a 5-to-50 staff Apple-first business, here is what actually gets done in the first 60 days. No mystery, no consultancy-speak.
+
+**Device inventory and enrolment.** Every Mac, iPhone and iPad gets recorded with serial number, AppleCare status, assigned user, and warranty expiry. We enrol the fleet into a proper MDM — usually Jamf Now, Mosyle or Kandji depending on size and budget — so that lost devices can be wiped remotely, apps can be pushed centrally, and new starters get a fully configured laptop on day one instead of three days of fiddling.
+
+**Apple ID hygiene.** This is the single most common mess we untangle. Staff have been signing into work Macs with personal Apple IDs for years. Their iCloud Drive has both holiday photos and client contracts. When they resign, you have a legal problem. We migrate everyone to managed Apple IDs through Apple Business Manager, which also unlocks Volume Purchasing and proper device supervision.
+
+**Email and data disaster recovery.** Microsoft 365 and Google Workspace do not back themselves up the way most owners assume. We layer in a third-party backup — typically Afi or Synology Active Backup — so that a ransomware event, a malicious deletion, or a billing lapse does not erase six years of company email.
+
+**Endpoint backup.** Every Mac gets either Time Machine to a local NAS or a cloud endpoint backup tool. We have recovered files for clients who did not know they had backups running. That is the point.
+
+**POPIA basics.** Most SMEs we meet do not have a designated Information Officer registered with the Information Regulator. We help close that gap, document your processing activities, and put basic encryption and access controls in place. FileVault on, screen lock at 5 minutes, MDM-enforced.
+
+**Load shedding resilience.** Johannesburg reality. Your fibre router, ONT, switch and any on-site server need to be on a UPS that survives at least one stage 6 cycle. We size and supply them. POS terminals get their own protection. If your team works from home, we look at LTE failover so the WAN does not die when City Power does.
+
+## What It Actually Costs
+
+We are transparent about pricing because the industry generally is not.
+
+Ad-hoc support runs at **R899 per hour** during business hours. That is suitable for businesses with two or three Macs and a low incident rate. It works, but it is reactive — you only call when something is on fire.
+
+For 5-to-50 staff, the fixed monthly retainer model almost always works out cheaper and dramatically less stressful. Retainers are scoped on headcount, device count and complexity, and they include MDM licensing, monitoring, monthly health reports, and a defined number of support hours. Hardware repairs sit alongside this — many in-warranty repairs are covered by AppleCare or our [up to 3-year warranty](/contact) on qualifying out-of-warranty work, and we are upfront about what is covered and what is not.
+
+For a first-time engagement, we offer an onsite assessment **from R599** which covers a walk-through of your environment, a written gap analysis, and a fixed-fee proposal. No obligation to proceed. We would rather you see exactly what you are buying.
+
+When hardware fails — and it will — repair pricing is published. A [logic board repair](/logic-board-repair) on a MacBook Pro is typically a fraction of a replacement device. [Liquid damage recovery](/liquid-damage) on a spilled-coffee MacBook is something we do most weeks; the sooner it reaches us, the better the outcome. Apple's own guidance on what to do immediately after a spill is worth reading on [Apple Support](https://support.apple.com) before you do anything else.
+
+## What to Expect in the First Quarter
+
+The honest version. Month one is messy. We will find things you did not know were broken — expired SSL certificates, a NAS that has not backed up since 2022, a Wi-Fi network with the default admin password still set. We document everything and prioritise by risk.
+
+Month two is stabilisation. MDM is live, backups are verified by actually restoring a test file, Apple IDs are sorted, and your team has met whichever engineer will be their day-to-day contact. We do not rotate engineers like a call centre — the person who knows your environment is the person who answers your ticket.
+
+Month three is when the partnership starts to feel boring, which is the goal. Tickets drop. New starters get provisioned in 20 minutes. You stop thinking about IT, which means you can think about your business.
+
+## How to Start Without Committing to Anything
+
+If any of the above resonates, the next step is small. Book the **R599 assessment** and let us spend two hours in your office, or remotely if you prefer. You will leave with a written document you own — not a sales pitch.
+
+You can [book online at zasupport.com/book](https://zasupport.com/book), [contact us](/contact) through the form, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) if you prefer the quicker route. We are based in Hyde Park Johannesburg and cover the northern suburbs onsite, with remote support nationally.
+
+## Frequently Asked Questions
+
+### Q: We only have eight staff. Are we too small for a managed IT partner?
+No. Eight staff is exactly the size where the fixed-retainer model pays for itself. Below five staff we usually recommend ad-hoc support at R899 per hour, but at eight you are already losing more than that in productivity every month to unmanaged issues. The assessment will tell you honestly which model fits.
+
+### Q: We already have a guy who does our IT. Why would we switch?
+We are not anti-individual-contractors. Some are excellent. The risk is concentration — if your guy is on leave, ill, or moves on, you have no continuity, no documentation, and no escalation path. A proper partnership gives you a team, written runbooks, and 24-hour cover for critical incidents. Ask your current provider whether they could hand over your environment in a written document tomorrow. The answer tells you a lot.
+
+### Q: Do you support mixed environments, or is it Mac-only?
+Mac-first does not mean Mac-only. Most of our SME clients have a Synology NAS, a Windows machine in finance running Pastel, and a mix of iOS and the occasional Android. We support the whole stack. We just happen to be unusually strong on Apple, which most Johannesburg IT firms are not.
+
+### Q: How quickly can you respond if something breaks?
+For retainer clients during business hours, remote response is within the hour and usually within 15 minutes. Onsite in the northern suburbs is same-day for critical issues. Hardware repairs in our workshop are typically 24 to 72 hours depending on parts. We give you a realistic ETA upfront rather than a hopeful one.
+
+### Q: What happens to our data and accounts if we end the contract?
+You own everything. We document every system, password, licence and configuration in a handover pack that is yours from day one and updated continuously. If you leave, you leave with full administrative control of your Apple Business Manager, your Microsoft 365 or Google Workspace tenant, your MDM, and your domain. No hostage situations. This is a POPIA principle as much as an ethical one.
+
+### Q: Can you handle hardware repairs in-house, or do you send Macs to Apple?
+Both, depending on what is best for you. If your device is in AppleCare warranty, we coordinate the Apple-authorised path. Out of warranty, we repair in our Hyde Park workshop — board-level repairs, battery replacements, screen assemblies, liquid damage recovery — and back qualifying work with up to a 3-year warranty. Having repair capability in-house means a dead MacBook on a Tuesday morning is back with the user by Thursday, not in a queue at a service centre for two weeks.`,
+  },
 };
 
 export async function generateStaticParams() {
