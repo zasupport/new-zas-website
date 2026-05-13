@@ -38357,6 +38357,815 @@ You own everything. We document every system, password, licence and configuratio
 ### Q: Can you handle hardware repairs in-house, or do you send Macs to Apple?
 Both, depending on what is best for you. If your device is in AppleCare warranty, we coordinate the Apple-authorised path. Out of warranty, we repair in our Hyde Park workshop — board-level repairs, battery replacements, screen assemblies, liquid damage recovery — and back qualifying work with up to a 3-year warranty. Having repair capability in-house means a dead MacBook on a Tuesday morning is back with the user by Thursday, not in a queue at a service centre for two weeks.`,
   },
+  'apple-business-manager-setup-johannesburg-sme': {
+    slug: 'apple-business-manager-setup-johannesburg-sme',
+    title: `Apple Business Manager Setup for Johannesburg SMEs: The 2-3 Day Implementation That Pays for Itself by Device #6`,
+    excerpt: `Every fortnight, a Johannesburg business owner walks into our Hyde Park workshop with the same problem. They have eight, twelve, sometimes twenty Macs and iPhones scattered across the team. Each one w.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Apple Business Manager Setup for Johannesburg SMEs: The 2-3 Day Implementation That Pays for Itself by Device #6
+
+Every fortnight, a Johannesburg business owner walks into our Hyde Park workshop with the same problem. They have eight, twelve, sometimes twenty Macs and iPhones scattered across the team. Each one was set up by hand. Each Apple ID is tied to a personal email. When someone resigns, the device is bricked, locked to a personal iCloud account, and recovering it becomes a week-long ordeal involving proof of purchase and emails to Apple Support.
+
+This is the exact problem Apple Business Manager solves. Yet in our experience with hundreds of local SMEs, fewer than one in five have it configured properly. That gap is what this post is about.
+
+## What Apple Business Manager Actually Does
+
+Apple Business Manager (ABM) is Apple's free portal for organisations to buy, deploy and manage Apple devices at scale. It is not an MDM (Mobile Device Management) tool on its own — it is the layer that sits between Apple and your MDM (typically Jamf or Microsoft Intune), telling them which devices belong to your business.
+
+The practical benefits are concrete:
+
+- New MacBooks, iPads and iPhones arrive at your office, the staff member powers them on, connects to Wi-Fi, and the device automatically enrols itself. No technician required.
+- All apps and configurations push down within minutes.
+- When someone leaves, you remote-wipe the device from the MDM dashboard. It reappears clean and ready for the next person.
+- Devices are owned by the business, not by a personal Apple ID. This matters enormously for POPIA compliance, because business data never lives on an account you cannot control.
+
+We have processed somewhere north of 12,000 device interactions in our workshop over the years, and the pattern is consistent: businesses that adopt ABM early avoid the most painful recovery scenarios entirely.
+
+## Why Most Johannesburg SMEs Skip It
+
+The honest answer is that the setup is opaque. Apple's documentation assumes you already understand the moving parts. You need:
+
+1. A **DUNS number** for your registered business (free from Dun & Bradstreet, but the application is fiddly and can take a week).
+2. A dedicated **Managed Apple ID** for the organisation, separate from any personal account.
+3. Verification with Apple, which involves a callback to a director listed on your company registration.
+4. An **MDM platform** (Jamf Now, Jamf Pro, Microsoft Intune, Mosyle or Kandji) configured and connected via an MDM server token.
+5. **Automated Device Enrolment (ADE)** linking your reseller — whether that is iStore, Core Group, or Apple direct — so future purchases auto-populate.
+
+Each step has a place where it can fail silently. We have seen businesses get stuck for three weeks on the DUNS verification because the registered company address on CIPC did not match what was on the application. The official [Apple Support](https://support.apple.com) documentation is correct but assumes context most owners do not have.
+
+## The Maths: Why It Pays Off at Device Six
+
+Here is the calculation we walk clients through in Hyde Park Johannesburg.
+
+Manually onboarding a single Mac properly — meaning fresh install, business Apple ID configuration, app installation, security profile, FileVault setup, backup configuration — takes a competent technician about 90 minutes. At standard rates, that is roughly R1,200 per device, every time, including reinstalls.
+
+With ABM and a configured MDM, that same device onboards itself in under 15 minutes with zero technician time. The break-even sits at roughly device six. Beyond that, every new MacBook, every replacement after a [logic board repair](/logic-board-repair), every device returning from [liquid damage recovery](/liquid-damage) — they all re-enrol automatically.
+
+Our setup fee is **R6,999 one-time**, which covers the full ABM configuration, MDM selection and deployment (Jamf Now or Microsoft Intune, depending on whether you are Microsoft 365 or Google Workspace based), reseller linking, and onboarding the first batch of devices. Ongoing MDM licensing sits at **R80 to R150 per device per month**, depending on the platform and feature tier.
+
+For a 15-person company, that is roughly R1,500 to R2,250 monthly for complete device control, automated enrolment, remote wipe, app deployment and compliance reporting.
+
+## What the 2-3 Day Implementation Looks Like
+
+We do not believe in dragging this out. A clean ABM rollout for an SME follows this rhythm:
+
+**Day 1 — Discovery and DUNS.** We audit your current device list, serial numbers and existing Apple IDs. If you do not have a DUNS number, we submit the application that morning. We assess your existing fleet from R599 per device for the audit portion. This is also where we identify which devices have personal Apple IDs that need to be released before enrolment.
+
+**Day 2 — Portal setup.** Once Apple verifies the DUNS (this can happen same-day or take 48 hours), we create the ABM portal, configure your Managed Apple ID hierarchy, link your reseller, and stand up the MDM server. Configuration profiles for Wi-Fi, VPN, FileVault, Gatekeeper and app whitelisting all get built here.
+
+**Day 3 — Enrolment and handover.** Existing devices get enrolled either over-the-air (for supervised iPhones and iPads) or via a brief workshop visit for Macs that need to be wiped and re-enrolled. Staff training takes about 30 minutes. We hand over admin credentials and documentation.
+
+If load shedding interrupts a day — and it has, more than once — we shift to mobile hotspot and keep moving. We have built around Stage 4 enough times that it no longer derails us.
+
+## Choosing Between Jamf and Intune
+
+The MDM choice depends on your existing stack.
+
+If you are a Microsoft 365 shop with Azure AD/Entra ID already deployed, **Microsoft Intune** is usually the right answer. It is bundled with most Business Premium licences, meaning your incremental cost is near zero, and the integration with Conditional Access policies is excellent.
+
+If you are Google Workspace or platform-agnostic, **Jamf Now** is the lighter, cleaner option. The interface is built for Apple, the configuration logic is Apple-native, and the learning curve for an internal IT contact is shallow. Jamf Pro is overkill for fewer than 50 devices, in our view.
+
+We have deployed both repeatedly. Intune saves money for Microsoft houses. Jamf is faster to administer day-to-day. Either works.
+
+## What Happens to Devices Already in the Wild
+
+This is the question we get most often. The honest answer: existing Macs and iPhones can be brought into ABM, but they generally need to be wiped and re-enrolled to come under Automated Device Enrolment properly. For devices purchased through iStore or Core Group in the last few years, we can request retroactive enrolment using the proof of purchase and serial numbers. Apple has loosened the rules here, though it still requires a formal request.
+
+For devices bought second-hand or from overseas, manual enrolment via Apple Configurator 2 is the path. It is slower but functional.
+
+This is also a good moment to check warranty status. Devices purchased through authorised SA resellers carry the standard Apple warranty, and our own out-of-warranty repairs come with up to 3-year warranty on the work itself — useful context if you are planning a fleet refresh as part of the rollout.
+
+## Getting Started
+
+If you are running five or more Apple devices and still onboarding each one by hand, the maths is no longer in your favour. The setup is genuinely a 2-3 day exercise, not a multi-week project, provided someone who has done it before is running point.
+
+You can [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for a no-obligation scope conversation, or [book online at zasupport.com/book](https://zasupport.com/book) for an on-site assessment at your Johannesburg office. If you would prefer email, [contact us](/contact) through the website and we will come back to you the same working day.
+
+## Frequently Asked Questions
+
+### Q: Do I need a DUNS number even if my company is small?
+Yes. Apple requires a DUNS number for every organisation enrolling in Apple Business Manager, regardless of size. The good news is that the DUNS application is free, and we handle the submission as part of our setup process. Most South African registered companies receive their number within 3 to 7 business days.
+
+### Q: Can I use my personal Apple ID as the admin for ABM?
+No, and you should not want to. ABM requires a Managed Apple ID created specifically for the organisation, ideally tied to a shared mailbox like admin@yourcompany.co.za rather than a personal address. This protects the business if the original admin leaves.
+
+### Q: What happens to devices when an employee resigns?
+With ABM and MDM in place, you log into the dashboard and trigger a remote wipe. The device returns to factory state but remains enrolled to your organisation, so it auto-configures for the next employee on first boot. No Activation Lock drama, no Apple ID recovery requests, no waiting.
+
+### Q: Does ABM work with iPhones bought on a Vodacom or MTN contract?
+Yes, but only if the device was purchased through a reseller registered with Apple's Automated Device Enrolment programme. Most South African network carriers are not. Devices bought through carrier contracts usually need manual enrolment via Apple Configurator, which we can handle but takes longer per device.
+
+### Q: How much does the ongoing MDM licence actually cost?
+Between R80 and R150 per device per month, depending on the platform. Microsoft Intune is often already included in Microsoft 365 Business Premium, which makes it effectively free for clients already on that plan. Jamf Now sits at the lower end of the range. Jamf Pro and Kandji are higher but offer more advanced features that most SMEs do not need.
+
+### Q: Can ZA Support manage the MDM for us after setup, or do we need internal IT?
+We offer both. Many of our SME clients have us on a monthly co-management arrangement where we handle policy updates, new device enrolment, troubleshooting and audit reporting. Others prefer to take it in-house after we train their internal IT contact. The choice depends on how often your fleet changes and whether you have someone comfortable in the MDM console.`,
+  },
+  'apple-fleet-management-law-firms-johannesburg': {
+    slug: 'apple-fleet-management-law-firms-johannesburg',
+    title: `Apple Fleet Management for Law Firms in Johannesburg: What a Real Contract Looks Like`,
+    excerpt: `Sandton's legal corridor runs on Apple hardware. Walk into the partners' floor at any firm between Rivonia Road and Maude Street and you will count more MacBook Pros than ThinkPads, more iPads in hear.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Apple Fleet Management for Law Firms in Johannesburg: What a Real Contract Looks Like
+
+Sandton's legal corridor runs on Apple hardware. Walk into the partners' floor at any firm between Rivonia Road and Maude Street and you will count more MacBook Pros than ThinkPads, more iPads in hearing rooms than legal pads, and more iPhones syncing privileged correspondence than anyone wants to think about. The hardware choice makes sense — discretion, build quality, and a user experience that senior counsel actually tolerates. The management of that hardware is where firms get themselves into trouble.
+
+In our Hyde Park Johannesburg workshop we have spent years servicing fleets for legal practices ranging from boutique litigation outfits in Rosebank to the larger Sandton firms with offices on every floor of a Wierda Valley tower. What follows is a concrete, line-by-line picture of what an Apple-fleet managed IT contract should deliver for a small-to-mid Sandton firm — not the brochure version.
+
+## Why Generic Managed IT Fails Law Firms
+
+We have seen too many firms inherit an MSP contract written for an accounting practice. It treats a MacBook Pro M3 Max like a beige desktop. The engineers know Active Directory but cannot tell you the difference between a T2 chip and an Apple Silicon Secure Enclave. When a senior associate's machine refuses to decrypt FileVault the morning of an arbitration at the AFSA building, "we will log a ticket" is not an answer.
+
+Legal work has three properties that ordinary managed IT services do not respect. First, the data is privileged — a leak is not an inconvenience, it is a regulatory event under POPIA and a professional conduct issue under the Legal Practice Council rules. Second, the timing is non-negotiable — court rolls do not move because your MDM pushed a bad profile overnight. Third, the devices travel — into the High Court, into client boardrooms in Sandton Central, into homes in Hyde Park, Houghton and Bryanston during load shedding when the office is dark.
+
+An Apple-fluent fleet contract has to address all three from the first line.
+
+## Device Enrolment, MDM and the Zero-Touch Reality
+
+The spine of any modern Apple fleet is Mobile Device Management. For legal practices we typically deploy JAMF Pro or Microsoft Intune, depending on what the rest of the firm's identity stack looks like. Firms already deep into Microsoft 365 with Entra ID tend to go Intune. Firms that want best-of-breed Apple management — particularly those running mixed macOS and iPadOS workflows for litigation — go JAMF.
+
+What the contract should specify in writing:
+
+- Apple Business Manager enrolment for every device at purchase, so a new MacBook arrives at the partner's PA's desk already bound to the firm's tenant
+- Configuration profiles for FileVault 2 with escrowed recovery keys, Safari restrictions for certain user groups, and automatic Wi-Fi onboarding for the office network and the courthouse hotspots partners actually use
+- App deployment for Microsoft 365, the firm's document management system (iManage, NetDocuments, or LexisNexis ProLaw), Cisco Webex or Teams, and PDF Expert or PDFpen for redlining
+- Patch management with a two-week deferral window on macOS point releases — we have seen 14.4 break Citrix sessions, and you do not want that surprise on a Monday
+
+Without zero-touch enrolment, a lost MacBook in a Gautrain carriage becomes a six-hour reprovisioning job. With it, the replacement is signed in and pulling documents before the associate's coffee gets cold.
+
+## POPIA, ECTA and the Compliance Layer Most Firms Get Wrong
+
+Section 19 of POPIA requires "appropriate, reasonable technical and organisational measures" for personal information. The Electronic Communications and Transactions Act adds requirements around the integrity of electronic records, which matters enormously when you are submitting affidavits or producing discovery.
+
+In practice this means your fleet contract needs to deliver, in writing:
+
+1. Full-disk encryption on every device, with key escrow in a system the firm controls — not your MSP's personal admin account
+2. Encrypted mail at rest, not just in transit — S/MIME or a managed gateway like Mimecast configured with the right retention
+3. Audit logging for device access, app installation, and remote wipe events, retained for the period your information officer has documented
+4. A documented remote-wipe procedure for lost or stolen devices, with a defined SLA — ours is 30 minutes from confirmed loss report
+
+The Information Regulator has been active. Practice managers should not be discovering their MDM cannot produce an audit trail on the day a complaint lands. We help firms draft the technical sections of their POPIA manual to match what the fleet can actually evidence.
+
+## Hardware Support, Repair and the Spare Pool
+
+MDM is the easy part. The harder part is what happens when a partner's MacBook Pro display cable fails the night before a Constitutional Court matter. This is where managed IT contracts written by generalists tend to collapse.
+
+A serious Apple fleet contract for a Sandton firm should include:
+
+- A spare pool — typically one loaner for every ten production devices — pre-imaged, FileVault enabled, ready to ship across town
+- Direct workshop access for component-level repair. Replacing a logic board through Apple's official channel can take 7–14 working days. We have completed [logic board repair](/logic-board-repair) on M-series MacBook Pros inside 72 hours for retainer clients, including the diagnostic from R599 assessment
+- A documented escalation path for [liquid damage recovery](/liquid-damage) — coffee on a keyboard the morning before a hearing is not a hypothetical, it is a quarterly event in our experience
+- Hardware lifecycle planning. We track every device's AppleCare expiry and flag replacements 90 days out, with the option of extended cover providing up to 3-year warranty depending on the SKU
+
+Across our Hyde Park bench we have completed well over 18,000 Apple repairs since opening, and the patterns in legal fleets are predictable: keyboard ingress, dropped iPads with cracked digitisers, swollen batteries on machines that live permanently on AC power. Apple publishes useful guidance on battery health at [Apple Support](https://support.apple.com) but the operational answer is a preventative replacement cycle, not a reactive one.
+
+## Backup, Recovery and the Deposition Problem
+
+Time Machine is not a backup strategy for a law firm. We deploy tiered backup for legal clients: endpoint snapshot backup (typically Druva or Acronis) for the device itself, cloud backup for OneDrive or Google Drive contents, and a separate immutable copy of the document management system held outside the primary tenant.
+
+The test we apply is the deposition test. If a senior associate's MacBook is stolen from a vehicle at Sandton City parking on Friday evening, can the firm produce every document she was working on, with timestamps, by Monday morning? If the answer is "probably" then the backup is not good enough.
+
+For matters where chain-of-custody matters — forensic accounting evidence, electronic discovery for litigation — we configure additional logging and hash-verified archives. Few firms ask for this until they need it, and by then it is too late.
+
+## What This Costs and How We Structure It
+
+Our Fleet Managed Service Provider retainers for legal practices start at R8,500 per month for fleets of 10 to 25 devices. That covers MDM administration, monthly patching cycles, the spare device pool, unlimited remote support during business hours, on-site response in Sandton and surrounds within four hours for P1 incidents, and quarterly fleet health reporting that your information officer can actually use.
+
+Larger firms — 50 to 100 devices — typically run R18,000 to R32,000 per month depending on the depth of after-hours cover, whether we are also managing iPhones and iPads, and whether the contract includes the compliance documentation work.
+
+Component-level repair outside the retainer is billed at workshop rates, with the R599 assessment credited against any approved repair. Loaner devices during repair are included for retainer clients.
+
+## Getting Started
+
+If you are a practice manager evaluating Apple-fluent managed IT, the most useful thing we can do is a fleet audit. We catalogue every device, check warranty status, review your current MDM configuration against your POPIA documentation, and produce a written gap analysis. That conversation usually takes 90 minutes on site.
+
+[Contact us](/contact) to arrange that audit, send a WhatsApp directly via [WhatsApp us on 064 529 5863](https://wa.me/27645295863), or [book online at zasupport.com/book](https://zasupport.com/book).
+
+## Frequently Asked Questions
+
+### Q: Can you manage a mixed Apple and Windows fleet, or do we need separate contracts?
+Yes, we manage mixed environments routinely. Most Sandton firms have Windows on the support staff side and Apple on the partner and associate side. We co-administer with your existing Windows MSP or take on the whole fleet, depending on what makes sense. The MDM stack — typically Intune — covers both platforms.
+
+### Q: What happens to data on a lost MacBook before remote wipe completes?
+FileVault 2 full-disk encryption means the data is unreadable without the recovery key, even if the device is powered off and the drive is removed. Remote wipe is the belt-and-braces step. With escrowed keys and MDM in place, a lost device is a hardware loss, not a data breach under POPIA.
+
+### Q: Do you handle Apple device procurement, or do we buy through iStore?
+Both options work. We procure through Apple Authorised Resellers with Apple Business Manager enrolment built in, which is usually cleaner. If you have an existing iStore Business relationship we can integrate with that — we just need the devices added to your ABM tenant at point of sale.
+
+### Q: How do you handle support during load shedding when our office is offline?
+Our retainer includes documented continuity procedures: cellular failover configurations on partner devices, UPS sizing recommendations for the server room, and offline access to critical documents through the DMS sync client. During stage 4 and above we proactively monitor for device issues caused by unclean shutdowns.
+
+### Q: Can you support partners who travel internationally with their MacBooks?
+Yes. MDM cover does not stop at OR Tambo. We have remoted into partner devices in London, Mauritius, and Dubai. For hardware failure abroad we coordinate with local Apple Authorised Service Providers and arrange shipping of loaner devices where the timeline allows.
+
+### Q: What is the minimum contract term?
+Our standard retainer is a 12-month term with a 60-day notice period thereafter. We also offer a 90-day pilot for firms that want to evaluate the service before committing — typically scoped to one practice group or floor.`,
+  },
+  'ipad-pro-m4-screen-repair-johannesburg': {
+    slug: 'ipad-pro-m4-screen-repair-johannesburg',
+    title: `iPad Pro M4 Screen Repair Johannesburg: What Tandem OLED Means for Your Wallet`,
+    excerpt: `When Apple launched the iPad Pro M4 in May 2024, the headline feature was not the M4 chip. It was the display. Tandem OLED — two OLED panels stacked and driven together — landed on an iPad for the fir.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# iPad Pro M4 Screen Repair Johannesburg: What Tandem OLED Means for Your Wallet
+
+When Apple launched the iPad Pro M4 in May 2024, the headline feature was not the M4 chip. It was the display. Tandem OLED — two OLED panels stacked and driven together — landed on an iPad for the first time, and it changed everything about how these screens fail and how we repair them.
+
+In our Hyde Park Johannesburg workshop, we have already seen a steady stream of M4 owners walking in with cracked displays, most often after a desk-height drop onto tile or a pressure crack from a stuffed backpack. The conversation usually starts the same way: the client has called Apple, been quoted somewhere north of R22,000, and is now wondering whether the iPad is worth fixing at all. That is the question this post answers.
+
+## What Tandem OLED Actually Is
+
+Most iPad displays before the M4 used LCD with an LED backlight. The 2018 to 2022 Pro models added ProMotion 120Hz refresh, and the 12.9-inch 2021/2022 Pro briefly used mini-LED. All of those panels share a common trait: the glass, the touch digitiser, and the display panel were either separate or only partially laminated, which gave technicians some room to work with.
+
+The M4 ditches all of that. Apple stacks two OLED panels on top of each other, drives them in tandem to push peak brightness to 1,600 nits HDR, and laminates the whole sandwich — OLED stack, touch digitiser, cover glass — into a single assembly. The result is a display that is thinner, brighter, and far more demanding to replace. If you want the full technical breakdown, [iFixit's M4 teardown](https://www.ifixit.com) is worth a read.
+
+## Why a Cracked M4 Screen Cannot Be Polished or Reglassed
+
+Clients frequently ask us whether we can just replace the top glass and leave the OLED in place. On older iPads, with the right tools and a steady hand, that was sometimes viable. On the M4, it is not. Because the glass, digitiser, and tandem OLED are bonded as one optical stack, separating them cleanly without damaging the OLED layer underneath is — in practice — a coin toss with very expensive consequences.
+
+We tried it. Early in the M4's life, before the aftermarket caught up, we attempted glass-only separations on two units where the OLED itself was visibly intact. Both ended with micro-fractures in the OLED layer that produced dead lines within a week. We now quote full assembly replacement only, because it is the only repair we will warranty.
+
+## What the Repair Costs in Johannesburg
+
+Pricing on the M4 is genuinely better than people expect once they have seen the Apple swap quote. In our workshop:
+
+- 11-inch iPad Pro M4 screen assembly: from R6,999
+- 13-inch iPad Pro M4 screen assembly: from R8,499 to R9,999 depending on parts availability
+
+That is against an Apple out-of-warranty service fee that sits north of R22,000 for the 13-inch. The gap is not because we are cutting corners — it is because we source the assembly, do the labour in-house, and do not need to factor in a global logistics chain. Every M4 screen repair we complete comes with up to 3-year warranty on the assembly and our workmanship, which is longer than Apple's own out-of-warranty cover.
+
+Before any work begins, we run a from R599 assessment. That covers diagnostics on the touch layer, the Face ID array, the Apple Pencil hover sensors (which sit behind the OLED stack and are easy to disturb), and the logic board. If your iPad took a hard knock, the screen is rarely the only casualty — we have seen drops that cracked the glass and also fractured solder joints near the SoC, requiring [logic board repair](/logic-board-repair) before the new screen would even initialise.
+
+## Turnaround Time and Why It Varies
+
+A straightforward M4 screen replacement, with the part in stock, takes us between 4 and 24 hours from drop-off to collection. The variation depends on three things:
+
+**Parts inventory.** We hold both 11-inch and 13-inch assemblies in Hyde Park, but the 13-inch in the nano-texture variant is harder to source locally and occasionally adds 2 to 3 days while we get one in.
+
+**Face ID recalibration.** The TrueDepth camera array on the M4 sits in the landscape edge — a first for iPad — and its alignment relative to the new display has to be verified after assembly. We use Apple's diagnostic tools to confirm Face ID enrolment still works post-repair. Skipping this step is how non-specialist shops end up with clients whose Face ID stops working a week later.
+
+**Pencil hover sensors.** The Apple Pencil Pro relies on a magnetometer array and inductive coils behind the panel. Reseating these correctly takes time and a calibrated touch.
+
+Across our team we have completed well over 15,000 Apple device repairs since opening, and the M4 sits at the more demanding end of that catalogue. We do not rush these.
+
+## Drop Damage Versus Pressure Cracks
+
+Two failure patterns dominate what we see on the M4:
+
+**Desk-height drops.** The M4 is thinner than any iPad before it — 5.1mm on the 13-inch — and that thinness means less structural buffer. A drop from 80cm onto tile or polished concrete almost always cracks the cover glass, and roughly two-thirds of those drops also damage the OLED stack underneath, producing black blooms or vertical lines.
+
+**Pressure cracks in bags.** This is the silent killer. An M4 wedged into a laptop sleeve next to a MacBook charger or a hard-edged notebook can develop a spiderweb crack across the OLED with no visible impact event. The owner pulls it out of the bag and the screen is gone. We see this two or three times a month at our Hyde Park workbench.
+
+If your iPad was also exposed to liquid — coffee, rain through a leaking bag, a knocked-over water bottle — flag this when you bring it in. Liquid behind a damaged OLED stack is a different repair entirely, and our [liquid damage recovery](/liquid-damage) process needs to run before any screen work.
+
+## Load Shedding and Why It Matters for Repairs
+
+This is a Johannesburg-specific concern that Apple's official channels never mention. Our workshop runs on inverter and UPS backup, which is non-negotiable for OLED bonding work — the lamination press and the calibration software cannot tolerate a power cut mid-cycle. If you have been quoted an M4 repair by a shop without proper backup power, ask how they handle stage 4 load shedding. A half-bonded OLED assembly is a write-off.
+
+We have completed M4 screen repairs through stage 6 without a single botched job, because the workshop is built for it.
+
+## Before You Bring It In
+
+A few practical points:
+
+- Back up to iCloud or a Mac before drop-off. Even a successful screen repair carries a small risk, and POPIA-wise we never access client data, but having your own backup is sensible.
+- Disable Find My iPad temporarily if you can still interact with the screen. If the digitiser is dead, we can work around this, but it adds steps.
+- Bring the Apple Pencil if you have one. We test pairing and hover behaviour as part of the post-repair QA.
+- Note the serial number. You can find it in Settings or etched on the rear casing.
+
+For anything urgent, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo of the damage and we will give you a same-day estimate. You can also [book online at zasupport.com/book](https://zasupport.com/book) or [contact us](/contact) directly for a quote. Apple's official support documentation is at [support.apple.com](https://support.apple.com) if you want to cross-check anything we have written here.
+
+## Frequently Asked Questions
+
+### Q: Can you repair just the cracked glass on my iPad Pro M4?
+No, and we are upfront about this. The glass, touch digitiser, and tandem OLED panel are laminated together as a single assembly. Attempting to separate them almost always damages the OLED stack. We replace the full assembly, which is why our pricing starts at R6,999 rather than the R2,500 you might expect for older iPad glass-only repairs.
+
+### Q: How does your price compare to Apple's repair quote?
+Apple's out-of-warranty service for an M4 screen typically runs from R22,000 upward, particularly for the 13-inch. Our equivalent repair sits between R6,999 and R9,999 depending on size and finish, and includes up to 3-year warranty on parts and workmanship.
+
+### Q: Will Face ID still work after the screen replacement?
+Yes, when the repair is done correctly. The TrueDepth array on the M4 is in the landscape edge and needs to be carefully transferred and recalibrated against the new display. We verify Face ID enrolment as part of our QA before handing the device back.
+
+### Q: How long does the repair take?
+Most M4 screen replacements are completed within 4 to 24 hours of drop-off, assuming the part is in stock. The 13-inch nano-texture variant occasionally takes 2 to 3 days extra if we need to source the specific assembly.
+
+### Q: Is the replacement screen an original Apple panel?
+We use OEM-grade tandem OLED assemblies that match Apple's specifications for brightness, colour accuracy, and ProMotion 120Hz refresh. They are not pulled from official Apple service channels — those parts are not sold to third parties — but they are manufactured to the same standard, which is why we can offer the warranty length we do.
+
+### Q: What if there is more damage than just the screen?
+This is common with drop damage. Our from R599 assessment includes a full diagnostic on the logic board, battery, cameras, and ports. If we find additional issues, we quote them separately before doing any work — you decide whether to proceed. We never start repairs you have not approved.`,
+  },
+  'iphone-15-pro-water-damage-repair-johannesburg': {
+    slug: 'iphone-15-pro-water-damage-repair-johannesburg',
+    title: `iPhone 15 Pro Water Damage Repair Johannesburg: What IP68 Really Means After 18 Months`,
+    excerpt: `When Apple put the IP68 sticker on the iPhone 15 Pro and Pro Max in September 2023, the marketing suggested you could drop it in a swimming pool for half an hour and walk away. Two years later, our be.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# iPhone 15 Pro Water Damage Repair Johannesburg: What IP68 Really Means After 18 Months
+
+When Apple put the IP68 sticker on the iPhone 15 Pro and Pro Max in September 2023, the marketing suggested you could drop it in a swimming pool for half an hour and walk away. Two years later, our bench tells a different story. We have seen close to forty water-damaged 15 Pros come through our Hyde Park Johannesburg workshop in the last twelve months, and almost none of them were abused. Most were in pockets caught by a quick downpour on William Nicol, or near a kitchen sink, or — in three memorable cases — knocked into a toilet bowl.
+
+If your 15 Pro has taken a swim and is now glitching, freezing on the Apple logo, refusing to charge, or showing a green tint on the display, this article is for you.
+
+## What the IP68 Rating Actually Promises (and What It Doesn't)
+
+IP68 on the iPhone 15 Pro means the phone was tested to survive six metres of fresh water for thirty minutes — under laboratory conditions, on day one, with every seal intact. That last clause is the one Apple's marketing department prefers to whisper.
+
+The IP rating is a factory specification, not a lifetime warranty. Apple's own fine print confirms that liquid damage is not covered by the standard warranty, and the rating decreases over time as a result of normal wear. You can read Apple's exact wording on the topic at [Apple Support](https://support.apple.com/en-us/HT207043).
+
+Here is what we see in practice on phones eighteen months into their lives:
+
+- The SIM tray gasket has dried out and lost compression.
+- The charging port has accumulated lint, sand and beach dust that prevents the rubber bezel from sealing.
+- Micro-drops have flexed the chassis just enough to break the adhesive seam between the display and the frame.
+- The speaker grille mesh, which is meant to repel water by surface tension, is clogged with grime.
+
+Any one of these turns IP68 into IP-nothing. And once water gets in, it does not just sit there politely — it travels.
+
+## The Three Entry Points We See Most Often in Johannesburg
+
+Highveld conditions are not kind to phone seals. The dry winter air shrinks adhesives, then summer humidity and sudden storms hammer the gaskets. Combined with the dust that gets everywhere in Joburg, sealing components age faster here than in coastal cities.
+
+**The SIM tray.** This is the single most common entry point. The tiny rubber O-ring around the tray perishes, and water siphons straight onto the lower logic board.
+
+**The USB-C port.** New on the 15 Pro and a notable weak point. The port itself is not sealed — only the surrounding chassis is — and capillary action pulls liquid up the pin cavities and onto the U2 charging IC.
+
+**The bottom speaker grille.** The hydrophobic mesh works well at first but loses effectiveness once it traps fine particulate.
+
+## What Water Actually Does to a 15 Pro
+
+People imagine corrosion as a slow, weeks-long process. On a powered-on phone with a 3.7-volt battery applied to wet components, electrolysis begins within seconds. Here is the damage pattern we typically document during a [liquid damage recovery](/liquid-damage) assessment:
+
+**Face ID flex corrosion.** The dot projector flex runs along the top of the device and is one of the first casualties when liquid wicks upward through the earpiece. Once corroded, Face ID fails and — critically — Apple's parts pairing means you cannot simply swap the module without specialist programming.
+
+**U2 charging IC failure.** The U2 (officially the SN2611A1 on the 15 Pro) controls USB-C negotiation. When it shorts, the phone refuses to charge, charges intermittently, or charges only when warm. We replace this chip under a microscope.
+
+**Display driver short.** Symptoms include a pink or green tint, vertical lines, or backlight failure. Sometimes the panel itself is fine and only the driver circuitry on the board needs work.
+
+**Battery swelling.** Water trapped against the lithium pouch causes gas build-up over the following weeks. If your phone got wet two months ago and the back glass is now lifting, this is why.
+
+## What We Actually Do on the Bench
+
+The honest answer is that water damage repair is detective work, not parts-swapping. Every job in our workshop begins with a R599 assessment that includes:
+
+1. Full disassembly under magnification.
+2. Ultrasonic cleaning of the logic board in a medical-grade bath with 99.9% isopropyl alcohol.
+3. Microscope inspection of every IC, flex connector and via.
+4. Diode-mode testing on the major power rails.
+5. A written report telling you exactly what failed and what it costs.
+
+If the damage is limited to surface oxidation, the cleaning alone often restores function. If specific chips have failed, we do component-level [logic board repair](/logic-board-repair) starting from R2,499 — replacing individual ICs rather than throwing away the whole board.
+
+For comparison, Apple's policy on liquid-damaged 15 Pros is a full device swap at roughly R18,000 to R22,000 depending on storage. That figure assumes you still have AppleCare+ with the service fee discounted; without it, you are quoted out-of-warranty replacement pricing.
+
+We have completed somewhere north of 12,000 board-level repairs since opening, and water jobs make up about a quarter of that volume. The success rate on 15 Pros caught within 48 hours sits at around 85%. Past two weeks, it drops sharply as corrosion eats through trace lines that cannot be jumpered.
+
+## The First Hour Matters More Than Anything Else
+
+If your phone has just gone in the water, do the following before you do anything else:
+
+- Power it off. Do not press buttons to check if it still works.
+- Do not plug it in to charge. This is how U2 chips die.
+- Do not put it in rice. Rice does nothing useful and the starch dust gets into the ports.
+- Get it to a technician within 24 hours if you can.
+
+The single most damaging thing customers do is leave a wet phone switched on overnight "to see if it dries out." It does not dry out. It corrodes, silently, until the boot loop starts at 3am.
+
+If you cannot get to Hyde Park immediately, you can [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for talk-through advice and we will tell you whether it is worth a same-day courier.
+
+## Pricing, Warranty and What to Expect
+
+Our pricing on iPhone 15 Pro and 15 Pro Max water damage typically lands in these brackets:
+
+- Assessment and ultrasonic cleaning only: R599 (waived if you proceed with repair)
+- Component-level board repair: from R2,499
+- U2 charging IC replacement: around R2,800
+- Face ID flex recovery: from R3,200
+- Combined multi-fault repairs: quoted after diagnostics
+
+Every board-level repair carries our up to 3-year warranty on the work performed. That warranty covers the specific repair, not future water exposure — if you swim with it again, the clock resets.
+
+Turnaround is usually 3 to 5 working days for straightforward jobs, longer for complex Face ID or board damage where we need to source specific ICs. Load shedding occasionally adds a day to microscope work because we will not solder critical components on inverter power.
+
+To get started, you can [book online at zasupport.com/book](https://zasupport.com/book) or [contact us](/contact) directly with photos of the symptoms. We are honest about what is and is not worth saving — if your phone is beyond economical repair, we will tell you on day one rather than after a fortnight of false hope.
+
+## Frequently Asked Questions
+
+### Q: My iPhone 15 Pro still works after getting wet. Should I still bring it in?
+
+Yes, ideally within 48 hours. A phone that survives the initial dunking can still develop corrosion over the following weeks. A quick cleaning while everything still functions costs far less than a board repair after the damage spreads.
+
+### Q: Will Apple repair my water-damaged iPhone 15 Pro under warranty?
+
+No. Apple's standard warranty explicitly excludes liquid damage, and AppleCare+ requires a service fee. Even with AppleCare+, you typically receive a replacement device rather than a repair, which means losing the original phone.
+
+### Q: How do you tell if my iPhone 15 Pro has water damage?
+
+The Liquid Contact Indicator (LCI) inside the SIM tray slot turns red on contact with water. Under the microscope, we also look for white or green crystalline residue on the logic board, oxidation on connector pins, and characteristic etching on IC pads.
+
+### Q: Can you save the data from a water-damaged iPhone?
+
+Often yes, provided the NAND storage chip itself has not been damaged. Even if the phone will not power on, we can usually get it stable long enough to back up to iCloud or to a computer during the repair process.
+
+### Q: What if my Face ID stops working after water damage?
+
+Face ID failure after liquid exposure usually means the dot projector flex has corroded. We can clean and sometimes repair the flex itself. Full module replacement is more involved due to Apple's parts pairing, but it is possible with the right programming equipment.
+
+### Q: Do you offer collection in Johannesburg?
+
+Yes. We arrange courier collection across Sandton, Rosebank, Randburg, Fourways and the wider Joburg area, with insured transit. For urgent water damage cases we prioritise same-day pickup where possible — message us on WhatsApp and we will arrange it.`,
+  },
+  'logic-board-repair-warranty-johannesburg-explained': {
+    slug: 'logic-board-repair-warranty-johannesburg-explained',
+    title: `Logic Board Repair Warranty Johannesburg: Why Ours Runs to 36 Months`,
+    excerpt: `When clients walk into our Hyde Park Johannesburg workshop with a dead MacBook and three repair quotes in hand, the question we hear most often isn't about price. It's about warranty. Why does Apple o.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Logic Board Repair Warranty Johannesburg: Why Ours Runs to 36 Months
+
+When clients walk into our Hyde Park Johannesburg workshop with a dead MacBook and three repair quotes in hand, the question we hear most often isn't about price. It's about warranty. Why does Apple offer 90 days on a board repair? Why do most independents stop at 12 months? And why on earth do we put our name behind a logic board for up to 3-year warranty?
+
+The answer isn't marketing bravado. It's a structural difference in how the repair is done, and it's worth understanding before you hand over a R45,000 machine to anyone.
+
+## What a Logic Board Warranty Actually Covers
+
+A repair warranty is not the same as a product warranty. When Apple sells you a new MacBook Pro, the one-year limited warranty covers the entire device against manufacturing defects. A repair warranty is narrower. It guarantees that the specific fault that was repaired will not recur because of the workmanship or the components used.
+
+So when we issue a warranty on a [logic board repair](/logic-board-repair), we are warranting two things: the soldering and rework we performed, and the components we fitted. We are not warranting that the MacBook will never develop a different fault. If the SSD fails six months later for unrelated reasons, that is a separate repair. If you spill coffee on it next Tuesday, that is a separate repair (and a sad one).
+
+This distinction matters because it explains why warranty periods vary so wildly across the industry.
+
+## The 90-Day Apple Standard and Why It Exists
+
+Apple's own repair warranty, according to [Apple Support](https://support.apple.com), is 90 days or the remainder of your existing AppleCare cover, whichever is longer. That sounds stingy until you understand what Apple actually does during a logic board repair.
+
+Apple does not repair logic boards. Apple swaps them. If your MacBook Pro M2 has a failed power management IC, the Apple Authorised Service Provider removes your entire logic board and fits a replacement board pulled from Apple's refurbished stock. The old board goes back to a central facility, possibly in Singapore, possibly nowhere. You pay between R18,000 and R32,000 depending on the model.
+
+Apple's 90-day warranty makes sense in that context. They are warranting a refurbished assembly they did not personally rework. The liability ends quickly because they have no visibility into the long-term reliability of that swapped board.
+
+## Why Most Independents Stop at 6 to 12 Months
+
+Mac Shack, iStore-affiliated repairers, and most Johannesburg independents land somewhere between six and twelve months. This is the genuine industry standard for board-level work, and it is not unreasonable.
+
+A 12-month warranty reflects a few things. It reflects the typical "infant mortality" window of an electronic component: if a replacement IC was going to fail, it usually fails within the first few months of operation. It reflects the technician's confidence in their own soldering. And it reflects a commercial calculation about how many warranty claims a workshop can absorb before the maths stops working.
+
+We respect that approach. It is honest and defensible. But it is not what we do, and the reason comes down to method.
+
+## Component-Level Versus Board-Swap: The Real Difference
+
+In our Hyde Park workshop we work at component level. That means when a 2019 MacBook Pro 16-inch arrives with the well-known T2-related power fault, we do not order a replacement board for R22,000. We diagnose the specific failed component, often a U7000-series power IC or a damaged capacitor near the SMC, and we replace that single part using hot air rework at controlled temperatures.
+
+Across the tens of thousands of board repairs we have logged since opening, the pattern is consistent: roughly 80% of "dead" MacBook logic boards have a single root-cause failure. Find it, replace it, verify the rail voltages on a scope, and the board is genuinely repaired. Not patched. Repaired.
+
+This is why we can offer up to 3-year warranty. We know what we replaced, we know why it failed, and we have measured the board's behaviour after the repair against the schematics and board-view diagrams from sources like [iFixit](https://www.ifixit.com) and our own reference library. A board-swap repairer cannot offer this because they do not know the provenance of the board they fitted.
+
+## What Our 36-Month Warranty Does Not Cover
+
+Honesty matters here, so let us be clear about the boundaries.
+
+Our up to 3-year warranty covers the original fault recurring. If we replaced a backlight driver IC and twelve months later the backlight fails again from the same cause, that is on us. We will repair it at no charge.
+
+The warranty does not cover:
+
+- New liquid ingress. If you spill anything on the machine after collection, that is a new event and requires [liquid damage recovery](/liquid-damage) as a fresh job.
+- Physical damage. Drops, bent chassis, cracked screens.
+- Unrelated component failures. If we repaired the GPU and eighteen months later the Wi-Fi module fails, those are different parts of the board.
+- Repairs performed elsewhere after our work. If another workshop opens the machine, our warranty falls away.
+
+This is consistent with how any reputable workshop handles component-level warranty terms. We document the specific repair on the job card and the warranty attaches to that specific fault.
+
+## How Load Shedding Affects Logic Board Reliability
+
+Clients in Johannesburg ask us about this constantly, and it is a fair question. Stage 4 and 6 cycles put real stress on chargers and, by extension, on the power input circuitry of a MacBook. We have seen a measurable uptick in MagSafe and USB-C charge port failures since 2022, particularly on machines used without a decent surge-protected UPS.
+
+When we repair a charge-circuit fault under our 36-month warranty, we test the original Apple charger as well. If the charger is degraded, we tell you. A new charger costs around R1,400 and prevents the same failure mode from recurring. The warranty covers our repair, not the wall socket, and a compromised charger is a known reinfection vector.
+
+## What This Means for Your Repair Decision
+
+If you are comparing quotes, do not compare warranty periods in isolation. Ask the workshop three questions.
+
+First, do you repair at component level or do you swap boards? If they swap, the warranty is on a refurbished unit of unknown history. If they repair, ask them what diagnostic equipment they use and whether they can show you the failed component when you collect.
+
+Second, what specifically is warranted? A vague "12-month guarantee" with no scope is weaker than a clearly scoped 24 or 36-month warranty that names the repaired fault.
+
+Third, what is the assessment fee and is it refundable against the repair? Our diagnostics start from R599 assessment, and that amount is credited against the repair cost if you proceed. No surprises.
+
+## Booking and Next Steps
+
+If you have a MacBook with a suspected logic board fault, a no-display issue, a no-power state, or odd behaviour after a knock or spill, bring it in. Diagnostics take 24 to 72 hours depending on workshop load, and we send a written quote before any work begins. POPIA-compliant data handling is standard; we do not access your user data unless functional testing requires it, and we say so first.
+
+You can [book online at zasupport.com/book](https://zasupport.com/book), [WhatsApp us on 064 529 5863](https://wa.me/27645295863), or [contact us](/contact) through the website for a callback.
+
+## Frequently Asked Questions
+
+### Q: Does the 3-year warranty apply to every logic board repair?
+The warranty length depends on the specific repair and the condition of the board. Straightforward component replacements on otherwise clean boards typically receive the full up to 3-year warranty. Boards with prior liquid damage, prior third-party repair, or multiple repaired faults may receive a shorter warranty, which we state in writing on the job card before you approve the work.
+
+### Q: What happens if my MacBook develops a different fault during the warranty period?
+A different fault is treated as a separate repair. We will diagnose it at the standard from R599 assessment fee, and if the new fault is unrelated to our original repair, a fresh quote applies. If the new fault turns out to be linked to our original work, the warranty covers it.
+
+### Q: Is Apple's warranty void if you repair my MacBook?
+Any out-of-warranty third-party repair, including ours, generally ends Apple's eligibility to service that specific board. If your MacBook is still within Apple's standard warranty or AppleCare+, we will tell you and recommend going to Apple first. We do not take on work that costs you cover you have already paid for.
+
+### Q: Can you repair water-damaged logic boards under the 3-year warranty?
+We can repair liquid-damaged boards through our liquid damage recovery process, but the warranty on liquid-related repairs is shorter, typically 12 months. Liquid damage causes ongoing corrosion that can resurface unpredictably, and we will not warrant something we cannot fully control. We are honest about this upfront.
+
+### Q: Do I need to bring proof of the original repair to claim warranty?
+Your job card number is enough. We hold full records of every repair done in the workshop, including the specific components replaced, the technician who performed the work, and the post-repair test results. Bring the machine and quote your job number, or your name and contact number if the card is mislaid.
+
+### Q: How long does a logic board repair take in your Hyde Park workshop?
+Most component-level repairs are completed within 3 to 7 working days from approval of the quote. Complex multi-fault boards, or boards waiting on specific ICs sourced from overseas, can take 10 to 14 working days. We keep you updated by WhatsApp throughout and never start work without your written go-ahead.`,
+  },
+  'macbook-air-m3-keyboard-replacement-johannesburg': {
+    slug: 'macbook-air-m3-keyboard-replacement-johannesburg',
+    title: `MacBook Air M3 Keyboard Replacement Johannesburg: The Honest Cost (And Why Apple Quotes Double)`,
+    excerpt: `Last month a client walked into our Hyde Park workshop with an M3 MacBook Air, a quote from an Apple Authorised Service Provider for R11,400, and the look of someone who had just been told their car n.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Air M3 Keyboard Replacement Johannesburg: The Honest Cost (And Why Apple Quotes Double)
+
+Last month a client walked into our Hyde Park workshop with an M3 MacBook Air, a quote from an Apple Authorised Service Provider for R11,400, and the look of someone who had just been told their car needed a new engine. The fault? A sticky space bar and three dead keys after a coffee spill three weeks earlier. She had been told the entire top-case needed replacing — and on that part, the AASP was correct. On the price, they were not.
+
+If you have been quoted between R8,000 and R12,000 for an M3 Air keyboard repair, this post explains exactly what the job involves, why our pricing sits between R3,499 and R4,999, and what genuinely justifies the difference. No marketing fluff — just the technical reality.
+
+## Why the M3 MacBook Air Keyboard Cannot Be Repaired Key-By-Key
+
+The 2024 M3 MacBook Air uses what Apple calls a "monolithic" top-case assembly. The keyboard, trackpad, battery cells, speakers and the upper aluminium chassis are bonded together as one glued unit. There is no servicing the individual key mechanism — no swapping a single dome switch, no pulling a keycap and dropping in a replacement.
+
+When a key fails, the entire top-case comes out. Apple designed it this way to keep the chassis thin (the M3 Air is 11.3mm) and to simplify production. The trade-off is repair complexity. We have handled somewhere between 12,000 and 14,000 Mac repairs through our Hyde Park bench over the years, and this assembly approach has been standard on Air models since the M2 generation.
+
+If a technician tells you they can replace "just the bad keys" on an M3 Air, walk away. They are either inexperienced or they are about to do something destructive.
+
+## The Three Most Common M3 Air Keyboard Faults We See
+
+In our workshop, M3 keyboard jobs fall into three predictable categories:
+
+**Liquid ingress.** Coffee, water, juice, wine. The liquid seeps under the keycaps, dries, and leaves a crystallised residue on the membrane underneath. Keys feel sticky, register double presses, or stop responding entirely. If the liquid travelled further, you may also need [liquid damage recovery](/liquid-damage) work on the logic board itself.
+
+**Worn space bar or return key.** These two take the most abuse. After 18 to 24 months of heavy typing, the dome switch underneath loses tension and the key either feels mushy or stops registering reliably. We see this a lot on Air units used for writing, coding or academic work.
+
+**Backlight failure.** The LED strip that illuminates the keys is part of the top-case assembly. When it fails — usually a single row going dark first — there is no individual LED to replace. It is a top-case job again.
+
+## What the Repair Actually Involves
+
+Here is the honest workshop process. We start with a R599 assessment so you know exactly what you are dealing with before committing. That fee is credited against the repair if you proceed.
+
+The MacBook is opened from the bottom (pentalobe screws, then a careful release of the lower case clips). The battery is electrically isolated. Then comes the slow work: disconnecting the trackpad flex, the speaker connectors, the antenna routing, the display data cable, the Touch ID sensor cable (this one is paired to the logic board and must be transferred carefully), and the logic board itself.
+
+The logic board is then transplanted into the new top-case along with the speakers, antennas, and the original display assembly. Touch ID has to be re-paired using Apple's diagnostic process — skip this step and the fingerprint sensor will never work again. Apple's own [service documentation](https://support.apple.com) confirms this pairing requirement.
+
+Total bench time: between three and five hours depending on top-case sourcing condition and whether we encounter corrosion that needs addressing on the board side.
+
+## The Real Cost Breakdown — R3,499 to R4,999
+
+Our pricing on M3 Air keyboard replacement sits in three bands:
+
+- **R3,499** — when we can source a tested, pulled top-case from a donor unit (cosmetically good, fully functional, battery health above 90%)
+- **R3,999** — for a refurbished top-case with a new battery cell installed
+- **R4,999** — for a brand-new top-case assembly through our parts supply chain
+
+Compare that to the R8,000 to R12,000 range from AASPs. Where does the difference come from? Apple's authorised channel works on fixed parts pricing with a substantial mark-up, mandatory new-part-only policy, and labour rates structured around their warranty network. We carry none of that overhead. We source parts independently, we have direct relationships with parts suppliers in Asia, and we run a focused workshop rather than a retail floor.
+
+We back every keyboard replacement with up to a 3-year warranty on the workmanship and the part itself — longer than Apple's standard 90-day repair warranty.
+
+## When the Keyboard Isn't Actually the Problem
+
+This is worth flagging because we see it weekly. A client arrives convinced the keyboard is faulty when the real issue is the keyboard flex cable connector on the logic board, or in worse cases, liquid corrosion that has crept onto the board itself.
+
+We had an M3 Air in last week where the client had been quoted a full top-case swap by another shop. Our assessment showed the top-case was fine — the SPI connector on the logic board had corrosion from an earlier juice spill. That became a [logic board repair](/logic-board-repair) job at R2,800 instead of a R4,500 top-case swap. The client saved nearly two thousand rand because we tested properly before quoting.
+
+This is why the R599 assessment matters. Replacing parts that are not faulty is the most common way customers end up overpaying.
+
+## Load Shedding, Backups and Practical Logistics
+
+A few practical notes from running a Johannesburg workshop. During Stage 4 and above, we run on UPS and inverter power for diagnostics, but full board-level work happens during stable supply windows to avoid risk to sensitive components. This sometimes adds a day to turnaround during heavy load shedding weeks. We will tell you upfront if this is going to affect your repair window.
+
+Before bringing your MacBook in, back up to Time Machine or iCloud if the machine is still functional enough to do so. We do not access your data — POPIA compliance is built into our handling process — but a backup protects you regardless of who is working on the device. If the keyboard is too far gone to log in, we can often connect an external USB keyboard to complete a backup before starting work.
+
+Typical turnaround for an M3 Air keyboard replacement is two to four working days, depending on parts availability. Same-day is occasionally possible if we have the right top-case on the shelf — ask when you book.
+
+## Booking Your Repair
+
+If you are sitting with a quote from an AASP and the number feels wrong, get a second opinion before paying it. The [iFixit teardown documentation](https://www.ifixit.com) on the M3 Air confirms exactly what we have described here — it is a top-case assembly, and that part has a known wholesale cost. There is no technical reason for the repair to cost R12,000.
+
+Drop us a message on [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with your serial number and a description of the fault, or [book online at zasupport.com/book](https://zasupport.com/book) for an in-person assessment at our Hyde Park Johannesburg workshop. If you would prefer to discuss the repair over email first, [contact us](/contact) and we will get back to you the same working day.
+
+## Frequently Asked Questions
+
+### Q: Can you replace just one key on my M3 MacBook Air?
+No, and nobody legitimate can. The M3 Air uses a bonded top-case assembly where the keyboard is permanently integrated with the chassis and battery. Individual key replacement is not technically possible without destroying the assembly. Anyone offering single-key repair on this model is either misinformed or about to damage your machine.
+
+### Q: Why is your price half of what Apple quoted me?
+Three reasons: we source top-cases independently rather than through Apple's fixed-price authorised parts channel, we do not carry the retail and warranty network overhead of an AASP, and we offer refurbished and tested pulled parts as options alongside brand-new assemblies. Same repair, same quality of work, different supply chain.
+
+### Q: Will the replacement keyboard feel different from the original?
+No. The top-case we install is the identical part — same key travel, same backlight, same Touch ID hardware. Once Touch ID is re-paired during the repair, the machine behaves exactly as it did from the factory.
+
+### Q: How long does the repair take?
+Bench time is three to five hours. Total turnaround is usually two to four working days, accounting for parts confirmation and final testing. If we have the correct top-case in stock when you book, same-day completion is sometimes possible.
+
+### Q: What warranty do you offer on the repair?
+Up to three years on both the part and the workmanship, depending on which top-case option you choose. That is significantly longer than the standard 90-day warranty offered through Apple's repair network.
+
+### Q: My MacBook had a liquid spill. Will keyboard replacement fix everything?
+Not always. If liquid only affected the keyboard membrane, a top-case swap resolves it. If liquid travelled to the logic board, you may also need board-level cleaning or component repair. Our R599 assessment identifies exactly which scenario applies before any work is quoted, so you do not pay for a repair that does not solve the actual problem.`,
+  },
+  'macbook-pro-m4-logic-board-repair-johannesburg': {
+    slug: 'macbook-pro-m4-logic-board-repair-johannesburg',
+    title: `MacBook Pro M4 Logic Board Repair Johannesburg: What Nine Months of Failures Have Taught Us`,
+    excerpt: `When the M4 MacBook Pro landed in late 2024, we knew our bench would see new failure patterns within months. Apple silicon shifts every generation, and the M4 brought a denser SoC, faster unified memo.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Pro M4 Logic Board Repair Johannesburg: What Nine Months of Failures Have Taught Us
+
+When the M4 MacBook Pro landed in late 2024, we knew our bench would see new failure patterns within months. Apple silicon shifts every generation, and the M4 brought a denser SoC, faster unified memory, and Thunderbolt 5 — all packed into the same chassis footprint as the M3. In our Hyde Park Johannesburg workshop, the first M4 board arrived for diagnosis in February 2025. Since then, the pattern has become clear enough to write down.
+
+This post is for owners of late-2024 and 2025 M4 MacBook Pro machines whose logic boards have failed under conditions AppleCare will not cover: liquid contact, drops, surges from load shedding recovery, or third-party charger incidents. If that describes your situation, what follows is the technical reality we are seeing daily.
+
+## The Thermal Story Nobody Mentions in Apple's Keynote
+
+The M4 SoC runs noticeably hotter under sustained load than the M3 did in the same chassis. Our thermal probe readings on identical workloads — Final Cut export, Xcode compile, Blender render — show the M4 sitting roughly 10°C above its M3 predecessor at the heat-spreader. The chassis cooling design did not change meaningfully.
+
+Why does this matter for logic boards? Because the unified-memory fabric on the M4 die uses solder ball connections that fatigue under thermal cycling. Every time the machine ramps from idle to full load and back, the BGA joints flex by microscopic amounts. Over thousands of cycles, micro-cracks form. We have seen the first wave of these failures present as random kernel panics, GPU artefacting, or memory errors that pass Apple Diagnostics for the first ten minutes and then fail.
+
+This is not a defect we can sue Apple over — it is a consequence of pushing more performance through the same cooling envelope. But it does mean that M4 owners who run heavy workloads should expect logic board attention sooner than M2 or M3 owners did.
+
+## Thunderbolt 5 Controller Failures
+
+The second pattern we are tracking is Thunderbolt 5 controller death. The M4 Pro and M4 Max introduce TB5, which doubles the bandwidth ceiling. The controller silicon is more sensitive to ESD and surge events than TB4 was.
+
+Of the M4 boards we have worked on this year, a meaningful proportion presented with one or both TB5 ports dead while the rest of the system worked. The culprit is almost always the controller IC itself, sometimes the surrounding passives. Replacement at the component level is feasible if the pads survived the failure event.
+
+We have written about this kind of repair in detail on our [logic board repair](/logic-board-repair) page, but the short version: if your TB5 ports are dead and Apple has quoted you a full board swap at R65,000, there is usually a cheaper path.
+
+## SoC-to-PMIC Trace Damage from Short Circuits
+
+The third recurring failure mode is trace damage between the SoC and the PMIC (Power Management IC) caused by short circuits — almost always introduced by liquid contact or a third-party USB-C charger that delivered the wrong voltage.
+
+Load shedding has not helped here. We have seen at least a dozen M4 boards in our Hyde Park workshop where the owner plugged into a wall socket during the surge that follows a Stage 6 outage ending. The inrush damaged the PMIC, which then either cooked or failed open, leaving the SoC starved or over-fed. The board does not power on. The diagnosis takes us roughly 90 minutes on the bench with a thermal camera and a bench power supply.
+
+For liquid events specifically, our [liquid damage recovery](/liquid-damage) process applies the same ultrasonic cleaning protocol we developed for the M2 generation, with one M4-specific adjustment: the new board uses a slightly different conformal coating and we have had to recalibrate our solvent dwell times accordingly.
+
+## What Apple Charges Versus Component-Level Repair
+
+This is the conversation we have with every M4 client who walks through our door. Apple's official path for a logic board failure on an M4 MacBook Pro is a full board swap. The quotes we have seen from clients range from R55,000 on a base M4 14-inch up to R85,000 on a fully loaded M4 Max 16-inch. AppleCare+ would cover most of this for accidental damage, but if your incident falls outside AppleCare — surge, third-party charger, liquid older than the warranty period, or a machine bought second-hand without transferred cover — you are paying out of pocket.
+
+Component-level micro-soldering on the M4 board starts from R5,499 in our workshop, depending on what failed. A dead TB5 controller is typically in the R6,500 to R9,500 range. A PMIC replacement with associated trace repair sits around R7,500 to R12,000. Full liquid damage recovery including ultrasonic clean, corroded component replacement and board-level rework runs R8,500 to R15,000.
+
+Every job starts with a from R599 assessment fee, which we credit toward the repair if you proceed. The assessment is not a guess — it is a full diagnostic with thermal imaging, schematic review, and a written report.
+
+## The Reality of M4 Board-Level Repair Difficulty
+
+I will not pretend the M4 is easy. It is the hardest Apple silicon board we have worked on. The component density is the highest yet, the BGA pitch on the SoC is tighter than M3, and Apple has used more underfill in production, which makes rework around the SoC physically risky. Across the tens of thousands of Apple logic boards our team has touched over the years, the M4 sits at the top end of the difficulty curve.
+
+We have invested in new hot-air profiles, finer rework tooling, and a JBC nano-soldering station specifically for M4 work. Not every shop in Johannesburg has done this. If you are getting quotes from other repair outfits, ask them directly whether they have completed M4 board repairs and what their success rate is. The honest answer matters more than the price.
+
+For owners who want to read the official Apple guidance on what counts as accidental damage versus warranty, [Apple Support](https://support.apple.com) maintains a current breakdown that is worth reviewing before you decide which path to take.
+
+## Our Warranty and What It Actually Covers
+
+Every M4 logic board repair we complete carries up to 3-year warranty on the specific work performed. That means if we replaced your TB5 controller and that controller fails again within three years, we redo it at no charge. The warranty does not cover new damage from a new incident — a second liquid spill or a fresh drop is a new job. We are clear about this in writing on every job card, partly because POPIA requires us to be clear about the terms of service we provide.
+
+If you want to discuss your specific machine before bringing it in, [contact us](/contact) and we will give you an honest read on whether component-level repair makes sense for your situation. Sometimes the answer is that an Apple swap is genuinely the right call — usually when multiple subsystems have failed simultaneously or when the board has prior unsuccessful repair attempts on it.
+
+## How to Get Your M4 Looked At
+
+If your M4 MacBook Pro has failed and Apple has either rejected the claim or quoted a number you cannot justify, bring it to our Hyde Park workshop. We are open six days a week and most diagnostics complete within 24 to 48 hours. You can [book online at zasupport.com/book](https://zasupport.com/book) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with photos and a description of what happened.
+
+## Frequently Asked Questions
+
+### Q: How long does an M4 logic board repair take in your Johannesburg workshop?
+Most M4 board-level repairs complete within 5 to 10 working days from approval. Diagnostic and quotation take 24 to 48 hours. Complex liquid damage or multi-fault boards can run to 14 working days because we want the rework done correctly rather than quickly.
+
+### Q: Will Apple void my AppleCare if I let you repair the board?
+If your AppleCare claim has already been rejected for the failure in question, there is nothing left to void on that incident. For unrelated future issues, Apple may decline service on a board that shows third-party rework. We discuss this openly with every client before starting work so you can make an informed choice.
+
+### Q: My M4 was damaged by a surge after load shedding. Is that repairable?
+Usually yes. Surge damage typically hits the PMIC and the charging circuit first, often leaving the SoC and memory intact. Once we have the board on the bench we can tell you within an hour whether the SoC survived. If it did, the repair is straightforward component replacement.
+
+### Q: Can you recover my data if the board is dead?
+In most cases yes, because the M4 stores user data on soldered NAND tied to the SoC's Secure Enclave. If the SoC and NAND are intact and only the power or I/O circuitry failed, restoring board function restores data access. If the SoC itself is dead, data recovery is not possible on Apple silicon — this is by design and applies industry-wide.
+
+### Q: How does your pricing compare to Apple's authorised service providers?
+Component-level repair from R5,499 versus Apple's full board swap at R55,000 to R85,000 is the headline. The trade-off is that Apple gives you a brand-new board with full Apple warranty, while we repair the original board with our up to 3-year warranty on the specific work done. For most out-of-warranty clients, the maths makes the choice obvious.
+
+### Q: Do you work on M4, M4 Pro and M4 Max variants?
+Yes, all three. The M4 Max is the most demanding because of its larger die and higher thermal output, but the repair techniques are the same family. We have completed work on all three SKUs in both 14-inch and 16-inch chassis.`,
+  },
+  'macbook-water-damage-data-recovery-johannesburg': {
+    slug: 'macbook-water-damage-data-recovery-johannesburg',
+    title: `MacBook Water Damage Data Recovery in Johannesburg: Saving Your Files When the Machine Is Drowning`,
+    excerpt: `A spilt latte at a Rosebank café. A burst geyser overhead in Sandton. A toddler with a glass of juice in Parkhurst. We have seen all three this month in our Hyde Park Johannesburg workshop, and in eve.`,
+    date: '13 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Water Damage Data Recovery in Johannesburg: Saving Your Files When the Machine Is Drowning
+
+A spilt latte at a Rosebank café. A burst geyser overhead in Sandton. A toddler with a glass of juice in Parkhurst. We have seen all three this month in our Hyde Park Johannesburg workshop, and in every case the conversation went the same way: *the laptop can be replaced, but the data cannot*.
+
+If your MacBook has taken a swim and the files on it matter more than the aluminium shell around them, the path you need is data recovery — which is a different discipline to ordinary repair. This post walks through what that path actually looks like in 2025, what each option costs in rand, and where the realistic ceiling on success sits.
+
+## Repair and Recovery Are Not the Same Thing
+
+When a client phones us in a panic, we always ask the same first question: *do you have a recent backup?* If the answer is yes, we are talking about a repair job — fix the board, replace what corroded, hand the machine back. If the answer is no (and it usually is no), we are now in recovery territory, and the priorities shift.
+
+Repair-led thinking optimises for cost and turnaround. Recovery-led thinking optimises for preserving the storage medium and the data on it, even if it means slower diagnostic steps, more conservative cleaning, and sometimes leaving certain components alone that a pure repair job would have replaced. After 14,000-odd Apple repairs through our bench, we have learned that confusing the two leads to lost files.
+
+## Why M-Series MacBooks Changed the Game
+
+This is the part most clients do not know until we explain it. On Intel-era MacBooks (2017 and earlier in most lines), the SSD was either a removable stick or, on Touch Bar models, accessible enough that data could often be cloned off independently of the rest of the machine.
+
+On M1, M2, M3 and M4 MacBooks, the SSD is no longer a separate component. The NAND flash chips are soldered directly to the logic board, and they are paired cryptographically to the T2 or Apple Silicon security controller on that same board. You cannot pull the SSD out and read it in another Mac. You cannot bypass the encryption. The data lives and dies with the board it was born on.
+
+That single design decision — which Apple discusses in its [platform security documentation](https://support.apple.com) — is why water damage on a modern MacBook is so much more serious than it used to be. There is no Plan B of "we will just pull the drive". The board *is* the drive.
+
+## Path One: Board Restoration (The One We Prefer)
+
+The first and best route to your data is to bring the logic board back to a state where the MacBook boots, even briefly, so we can copy the files off via Migration Assistant or a Thunderbolt target disk session.
+
+In our Hyde Park workshop the process looks like this. The machine comes in for a from R599 assessment. Within the first hour we have it open, battery disconnected, and under the microscope. We document corrosion patterns, identify which power rails are affected, and pull a current draw reading on the main board. Then comes ultrasonic cleaning in a controlled isopropyl bath, drying, and component-level [logic board repair](/logic-board-repair) — typically replacing corroded inductors, PMIC components, or backlight circuitry, and reflowing connections that have lifted from the pads.
+
+Success rate here, based on the water-damaged MacBooks we have handled, sits at roughly **four out of five** — provided the machine reaches us within 48 hours of the spill and provided the client did not try to switch it on or charge it in the interim. Past that 48-hour window, corrosion eats traces under the BGA chips and the odds drop sharply.
+
+Cost varies with the damage, but board-level work plus successful data extraction generally lands between R3,500 and R8,500. Every repair we complete carries up to 3-year warranty cover on the components we replaced. Full details on the process sit on our [liquid damage recovery](/liquid-damage) page.
+
+## Path Two: Chip-Off SSD Recovery
+
+If the board cannot be brought back to life — for instance, the main SoC is corroded beyond saving, or the machine sat in salt water for a week before reaching us — there is one further option. The NAND chips themselves can be desoldered from the dead board, mounted onto a donor board or specialist reader, and the raw flash data extracted.
+
+We need to be honest about this path. Chip-off recovery on Apple Silicon MacBooks is genuinely difficult, and we partner with a specialist facility for the actual extraction. Pricing typically runs **R8,000 to R20,000** depending on the chip generation and how many NAND packages need to be handled.
+
+The harder truth is the success rate. Because the data on those chips is encrypted and keyed to the security controller on the original board, even a perfect read of the raw NAND only yields plaintext files about **one time in three**. The other two times we get an image full of encrypted blocks that no amount of computing power will unlock. iFixit has written usefully about this constraint on their [teardown coverage](https://www.ifixit.com) of recent MacBook models.
+
+This is why we always, always try board restoration first.
+
+## What To Do in the First Hour After a Spill
+
+The single biggest factor in whether your data comes back is what happens in the minutes after the liquid hits. From the cases we see in Johannesburg:
+
+1. **Power off immediately.** Hold the power button until the screen goes black. Do not try to save your work first.
+2. **Unplug the charger.** Power flowing through wet circuitry is what causes the worst corrosion.
+3. **Do not turn it on to "check if it still works".** Every boot attempt is another chance for a short circuit to kill a critical chip.
+4. **Do not put it in rice.** This is a myth. Rice does nothing useful and the dust gets into ports.
+5. **Open it flat, screen down on a towel, tented like a roof.** Let gravity drain the liquid away from the board.
+6. **Get it to a specialist within 48 hours.** Load shedding makes this trickier in Joburg — if you cannot drive that day, at least keep the machine powered off and dry.
+
+Then phone us, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863), and we will tell you whether to bring it in immediately or whether overnight drying first makes more sense for your specific situation.
+
+## Costs in Plain Rand Terms
+
+Here is the honest pricing landscape for water-damaged MacBook data recovery in Johannesburg:
+
+- **Initial diagnostic:** from R599, credited toward the repair if you proceed
+- **Board-level restoration with data recovery:** R3,500 to R8,500 typical range
+- **Chip-off SSD recovery (specialist partner):** R8,000 to R20,000
+- **Comparison — Apple's out-of-warranty water damage policy:** typically a full board swap at R18,000+ with **no data recovery attempted**, because Apple's process wipes or discards the original board
+
+The last point is what brings most clients to us in the first place. An authorised service centre will get you a working laptop back; they will not get you your photos, your thesis, or your client files.
+
+## When To Choose Recovery Over Replacement
+
+There is a calculation worth doing before you commit. If your data is fully backed up to iCloud, Time Machine, or Backblaze, a repair-or-replace decision is straightforward financial maths. If it is not — if there are years of family photos, an unsaved manuscript, accounting records, or anything subject to POPIA retention obligations on that machine — then the R3,500 to R8,500 for board restoration is almost always worth it before you consider any other path.
+
+Bring the machine to our Hyde Park workshop, or [contact us](/contact) first to talk through what happened. You can also [book online at zasupport.com/book](https://zasupport.com/book) and choose a same-day slot if the spill was recent.
+
+## Frequently Asked Questions
+
+### Q: How quickly do I need to get my water-damaged MacBook to you?
+Within 48 hours is the strong target. Our success rate on board restoration drops noticeably after that window because corrosion spreads under the chips where cleaning cannot reach. If you cannot get to Hyde Park immediately, keep the laptop powered off and tented open to dry, and bring it in as soon as you can.
+
+### Q: Can you recover data from an M1, M2, M3 or M4 MacBook with a dead board?
+Sometimes, but the odds are lower than most clients hope. Because the SSD is soldered and encryption-paired to the board, chip-off recovery yields readable data in roughly one case in three. Our preferred route is always to restore the board enough to boot once, then clone the files off — which works in about four cases out of five if we receive the machine quickly.
+
+### Q: What does the R599 assessment actually cover?
+A full diagnostic: microscope inspection, corrosion mapping, current draw testing on the main rails, and a written quote for the repair. If you choose to proceed, the R599 is credited against the repair cost. If you choose not to, you owe nothing further and we return the machine in the state we received it.
+
+### Q: Will Apple recover my data under their water damage service?
+No. Apple's water damage service replaces the logic board as a unit and does not attempt data recovery from the damaged board. If your data matters and is not backed up, you need a component-level specialist before the machine goes to Apple.
+
+### Q: Does the warranty cover the data recovery itself or just the repair?
+Our up to 3-year warranty covers the components we replace and the workmanship. Data, by its nature, cannot carry a warranty — once we have handed your files back to you, keeping them safe (with proper backups) is your responsibility. We will happily advise on a sensible backup setup before you leave.
+
+### Q: I tried switching it on after the spill and now it won't power up at all. Is it too late?
+Not necessarily, but it is harder. Powering on a wet MacBook usually causes additional damage through short circuits, which means more components need replacing and the diagnostic takes longer. We have still recovered data from machines in this state — bring it in, let us assess it properly, and we will tell you honestly where the odds sit before you commit to anything.`,
+  },
 };
 
 export async function generateStaticParams() {
@@ -38432,6 +39241,16 @@ function extractFaqsFromContent(content: string): { question: string; answer: st
 function getAuthorSlug(name: string): string {
   if (!name || name === 'ZA Support') return 'courtney-bentley';
   return name.toLowerCase().replace(/\s+/g, '-');
+}
+
+// §350 — auto-inject [REF:BLOG-<slug>] tracking into bare wa.me URLs in blog content
+// before rendering. Bare URL (no existing ?text=) gets rewritten; manual ?text= preserved.
+function injectWaTracking(content: string, slug: string): string {
+  const safeSlug = (slug || 'unknown').slice(0, 64).replace(/[^a-zA-Z0-9-]/g, '');
+  const ref = `BLOG-${safeSlug.toUpperCase()}`;
+  const tracked = `https://wa.me/27645295863?text=${encodeURIComponent(`Hi ZAS, I'm enquiring from the /blog/${safeSlug} page [REF:${ref}]`)}`;
+  // Replace bare URL (not followed by ? — already-tracked URLs are left alone)
+  return content.replace(/https:\/\/wa\.me\/27645295863(?!\?)/g, tracked);
 }
 
 function processInlineMarkdown(text: string, keyPrefix: string): React.ReactNode {
@@ -39682,7 +40501,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="glass-card p-8 lg:p-12">
             <article className="prose-custom">
-              {renderContent(post.content, post.excerpt)}
+              {renderContent(injectWaTracking(post.content, slug), post.excerpt)}
             </article>
             <AuthorBox authorSlug={getAuthorSlug(post.author)} />
           </div>
@@ -39691,7 +40510,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <p className="text-[#E8F4F1] font-bold text-lg mb-2">Need a repair? Assessment from R599.</p>
             <p className="text-[#7A9E98] mb-6">Hyde Park, Johannesburg. Same-day diagnostics available.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a href="https://wa.me/27645295863" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
+              <a href={`https://wa.me/27645295863?text=${encodeURIComponent(`Hi ZAS, I'm enquiring from the /blog/${slug} page [REF:BLOG-CTA-${slug.toUpperCase().replace(/[^A-Z0-9-]/g, '')}]`)}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-3 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.113.549 4.1 1.51 5.83L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.808 9.808 0 01-5.002-1.368l-.36-.214-3.715.97.99-3.614-.235-.372A9.808 9.808 0 012.182 12c0-5.417 4.401-9.818 9.818-9.818 5.417 0 9.818 4.401 9.818 9.818 0 5.417-4.401 9.818-9.818 9.818z"/></svg>
                 WhatsApp
               </a>
