@@ -4,7 +4,7 @@ import { Phone, ArrowRight, Shield, Lock, Monitor, Clock, Headphones, Server } f
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
@@ -157,7 +157,7 @@ export default function InvestecManagedServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/27790539964?text=Hi%2C%20I%27m%20an%20Investec%20client%20interested%20in%20managed%20IT%20services"
+                href={buildWhatsAppUrl('INVESTEC-HERO', 'managed-services', "Hi, I'm an Investec client interested in managed IT services")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -381,7 +381,7 @@ export default function InvestecManagedServicesPage() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/27790539964?text=Hi%2C%20I%27m%20interested%20in%20the%20Investec%20managed%20IT%20plan"
+                  href={buildWhatsAppUrl('INVESTEC-PLAN', 'managed-services', "Hi, I'm interested in the Investec managed IT plan")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-center bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.3)] text-[#0FEA7A] px-4 py-3 rounded-xl text-sm font-semibold hover:bg-[rgba(15,234,122,0.2)] transition-all"
@@ -518,7 +518,7 @@ export default function InvestecManagedServicesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27790539964?text=Hi%2C%20I%27m%20an%20Investec%20client%20and%20I%27d%20like%20a%20complimentary%20IT%20assessment"
+                href={buildWhatsAppUrl('INVESTEC-ASSESSMENT', 'managed-services', "Hi, I'm an Investec client and I'd like a complimentary IT assessment")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

@@ -4,7 +4,7 @@ import { Phone, ArrowRight, Shield, Wifi, Network, Lock, Activity, Building2 } f
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
@@ -159,7 +159,7 @@ export default function UniFiNetworkingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/27790539964?text=Hi%2C%20I%27m%20interested%20in%20a%20UniFi%20network%20assessment%20for%20my%20practice"
+                href={buildWhatsAppUrl('UNIFI-HERO', 'managed-services', "Hi, I'm interested in a UniFi network assessment for my practice")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -346,7 +346,7 @@ export default function UniFiNetworkingPage() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/27790539964?text=Hi%2C%20I%27m%20interested%20in%20the%20UniFi%20managed%20plan"
+                  href={buildWhatsAppUrl('UNIFI-PLAN', 'managed-services', "Hi, I'm interested in the UniFi managed plan")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-center bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.3)] text-[#0FEA7A] px-4 py-3 rounded-xl text-sm font-semibold hover:bg-[rgba(15,234,122,0.2)] transition-all"
@@ -505,7 +505,7 @@ export default function UniFiNetworkingPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27790539964?text=Hi%2C%20I%27d%20like%20to%20book%20a%20UniFi%20site%20assessment"
+                href={buildWhatsAppUrl('UNIFI-SITE-ASSESSMENT', 'managed-services', "Hi, I'd like to book a UniFi site assessment")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"

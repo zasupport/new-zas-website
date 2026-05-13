@@ -285,6 +285,28 @@ export default function ContactPage() {
                 </a>
               </div>
 
+              {/* §350 — Emergency WhatsApp-only backup line (Courtney personal) */}
+              <div className="rounded-2xl p-5 border-2 border-red-500/60 bg-red-500/10">
+                <div className="flex items-start gap-2 mb-2">
+                  <span className="text-red-400 text-xs font-bold tracking-wider uppercase">Emergency backup — WhatsApp only</span>
+                </div>
+                <p className="text-[#E8F4F1] text-sm leading-relaxed mb-3">
+                  If our main line (064 529 5863) is unreachable and your device situation is genuinely time-critical (e.g. recent liquid spill, data-loss risk in progress), you may WhatsApp Courtney directly on the emergency backup number.
+                </p>
+                <a
+                  href={`https://wa.me/27790539964?text=${encodeURIComponent("Hi Courtney — EMERGENCY: main ZAS line unreachable, this is genuinely time-critical. Brief description: [REF:CONTACT-EMERGENCY-BACKUP]")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-red-300 hover:text-red-200 font-semibold text-sm transition-colors"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  <span>WhatsApp 079 053 9964 (emergency only)</span>
+                </a>
+                <p className="text-[#7A9E98] text-xs mt-3 leading-snug">
+                  This is a WhatsApp-only line and is for emergency use only. Routine repair quotes, bookings and general queries must use 064 529 5863 — our standard channel is faster for non-emergencies.
+                </p>
+              </div>
+
               <div className="glass-card p-6">
                 <h3 className="text-[#E8F4F1] font-bold mb-4">Location</h3>
                 <div className="flex items-start gap-3 text-[#7A9E98] mb-4">

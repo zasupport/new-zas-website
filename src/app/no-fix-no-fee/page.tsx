@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Mac Assessment Process Johannesburg, How We Work | ZA Support',
   description:
-    'How ZA Support assessments work: from R599 assessment fee. Transparent quotes, no hidden charges. Hyde Park, Johannesburg. WhatsApp 079 053 9964.',
+    'How ZA Support assessments work: from R599 assessment fee. Transparent quotes, no hidden charges. Hyde Park, Johannesburg. WhatsApp 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/no-fix-no-fee' },
   keywords: [
     'Mac assessment Johannesburg',
@@ -41,7 +41,7 @@ const steps = [
     icon: MessageCircle,
     title: 'Book Your Assessment',
     detail:
-      'WhatsApp us on 079 053 9964 or book online. Tell us what your Mac is doing and we will confirm a time. We operate from Hyde Park, Johannesburg. No deposit required to book.',
+      'WhatsApp us on 064 529 5863 or book online. Tell us what your Mac is doing and we will confirm a time. We operate from Hyde Park, Johannesburg. No deposit required to book.',
   },
   {
     step: '2',
@@ -204,11 +204,11 @@ export default function AssessmentProcessPage() {
                 Book Assessment on WhatsApp
               </a>
               <a
-                href="tel:+27790539964"
+                href="tel:+27645295863"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-base transition-all hover:opacity-80"
                 style={{ background: 'rgba(255,255,255,0.06)', color: '#E8F4F1', border: '1px solid rgba(255,255,255,0.12)' }}>
                 <Phone className="w-5 h-5" />
-                079 053 9964
+                064 529 5863
               </a>
             </div>
 
@@ -514,8 +514,8 @@ export default function AssessmentProcessPage() {
                 <div className="mt-8 space-y-3">
                   {[
                     { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
-                    { label: 'Phone', value: '079 053 9964' },
-                    { label: 'WhatsApp', value: '079 053 9964' },
+                    { label: 'Phone', value: '064 529 5863' },
+                    { label: 'WhatsApp', value: '064 529 5863' },
                     { label: 'Hours', value: 'Mon–Thu 08:00–17:00 | Fri 08:00–16:30 | Closed Sat & Sun' },
                   ].map(({ label, value }) => (
                     <div key={label} className="flex gap-3">
@@ -545,11 +545,11 @@ export default function AssessmentProcessPage() {
                   Book Assessment on WhatsApp
                 </a>
                 <a
-                  href="tel:+27790539964"
+                  href="tel:+27645295863"
                   className="flex items-center justify-center gap-2 w-full py-3 mt-3 rounded-xl font-medium text-sm transition-all hover:opacity-80"
                   style={{ background: 'rgba(255,255,255,0.05)', color: '#E8F4F1', border: '1px solid rgba(255,255,255,0.1)' }}>
                   <Phone className="w-4 h-4" />
-                  Call 079 053 9964
+                  Call 064 529 5863
                 </a>
                 <div className="flex items-center justify-center gap-4 mt-4">
                   {[

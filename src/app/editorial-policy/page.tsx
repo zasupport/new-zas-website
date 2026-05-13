@@ -1,3 +1,4 @@
+import { buildWhatsAppUrl } from '@/lib/constants';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -133,7 +134,7 @@ export default function EditorialPolicyPage() {
                 </a>{' '}
                 or WhatsApp us on{' '}
                 <a
-                  href="https://wa.me/27645295863"
+                  href={buildWhatsAppUrl('EDITORIAL-POLICY', 'general')}
                   className="text-[#0FEA7A] hover:underline"
                 >
                   064 529 5863

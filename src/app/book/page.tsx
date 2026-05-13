@@ -212,7 +212,7 @@ export default function BookPage() {
                   </label>
                   <input
                     type="tel"
-                    placeholder="e.g. 079 053 9964"
+                    placeholder="e.g. 082 123 4567"
                     className="w-full bg-[rgba(255,255,255,0.04)] border border-[rgba(255,255,255,0.1)] rounded-xl px-4 py-3 text-[#E8F4F1] placeholder-[#4A6B65] focus:outline-none focus:border-[#0FEA7A] transition-colors text-sm"
                     {...register('phone', { required: 'Please enter your phone number' })}
                   />

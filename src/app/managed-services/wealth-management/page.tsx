@@ -4,7 +4,7 @@ import { Phone, ArrowRight, Shield, Laptop, Lock, Globe, Server, Smartphone, Bar
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT } from '@/lib/constants';
+import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
@@ -183,7 +183,7 @@ export default function WealthManagementPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/27790539964?text=Hi%2C%20I%20manage%20a%20wealth%20management%20firm%20and%20need%20IT%20support"
+                href={buildWhatsAppUrl('WEALTH-HERO', 'managed-services', "Hi, I manage a wealth management firm and need IT support")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
@@ -464,7 +464,7 @@ export default function WealthManagementPage() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/27790539964?text=Hi%2C%20I%27m%20interested%20in%20the%20wealth%20management%20IT%20plan"
+                  href={buildWhatsAppUrl('WEALTH-PLAN', 'managed-services', "Hi, I'm interested in the wealth management IT plan")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-center bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.3)] text-[#0FEA7A] px-4 py-3 rounded-xl text-sm font-semibold hover:bg-[rgba(15,234,122,0.2)] transition-all"
@@ -582,7 +582,7 @@ export default function WealthManagementPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/27790539964?text=Hi%2C%20I%27d%20like%20a%20complimentary%20IT%20assessment%20for%20my%20wealth%20management%20firm"
+                href={buildWhatsAppUrl('WEALTH-ASSESSMENT', 'managed-services', "Hi, I'd like a complimentary IT assessment for my wealth management firm")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all"
