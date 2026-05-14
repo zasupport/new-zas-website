@@ -39734,7 +39734,7 @@ Prevention: when Stage 5+ load-shedding is scheduled, don't force restart your i
 
 ## Booking Your Assessment
 
-If you've worked through these steps and Face ID still isn't working, [book online at zasupport.com/book](https://zasupport.com/book) or drop into our Hyde Park workshop. We'll run a free diagnostic (usually takes 20 minutes) and let you know exactly what's failed and what it costs to fix.
+If you've worked through these steps and Face ID still isn't working, [book online at zasupport.com/book](https://zasupport.com/book) or drop into our Hyde Park workshop. We'll run a R599 diagnostic assessment (usually takes 20 minutes) and let you know exactly what's failed and what it costs to fix.
 
 For urgent issues, [WhatsApp us on 064 529 5863](https://wa.me/27645295863)—we reply within the hour during business days.
 
