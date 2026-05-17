@@ -611,5 +611,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-port-not-charging-usbc-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-screen-image-retention-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/safari-keychain-corruption-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/apple-pencil-not-pairing-ipad-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/backup-to-synology-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/home-office-mac-network-storage-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-screen-pink-tint-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macos-sequoia-app-compatibility-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-imaging-workstation-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/office-365-migration-apple-fleet-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/sme-cybershield-bundle-explainer-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
