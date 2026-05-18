@@ -42592,6 +42592,859 @@ CyberShield gives you the tools to be POPIA-compliant—audit trails, access con
 
 You typically renew at a renewal price, usually slightly lower than the initial cost. Some providers offer multi-year discounts if you commit upfront. At the end of any term, you're not locked in—you can switch providers or renegotiate terms.`,
   },
+  'dainfern-apple-repair-johannesburg': {
+    slug: 'dainfern-apple-repair-johannesburg',
+    title: `Dainfern Apple Repair Johannesburg: Expert iPhone, MacBook & iPad Service`,
+    excerpt: `Dainfern is Johannesburg's most affluent residential enclave. If you live or work in this exclusive estate, you understand the value of having trusted technical support nearby—especially when your iPh.`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Dainfern Apple Repair Johannesburg: Expert iPhone, MacBook & iPad Service
+
+Dainfern is Johannesburg's most affluent residential enclave. If you live or work in this exclusive estate, you understand the value of having trusted technical support nearby—especially when your iPhone, MacBook, or iPad stops working. At ZA Support, we've serviced over 15,000 Apple devices across Johannesburg since opening our Hyde Park workshop, and we know that Dainfern clients demand the same standard of excellence they expect in every other area of their lives.
+
+When your device fails, you need more than a quick fix. You need a repair partner who understands both the technology and the urgency. We're that partner. From water-damaged iPhones to failed logic boards, we handle every repair with the precision and transparency that Dainfern residents deserve.
+
+## Why Dainfern Residents Choose ZA Support for Apple Repair
+
+Dainfern is home to some of Johannesburg's most discerning professionals. Many work in finance, medicine, law, and entrepreneurship. Your Apple devices are tools—sometimes critical ones. A broken MacBook means lost productivity. A damaged iPhone means lost connectivity. A faulty iPad disrupts your workflow or your family's digital life.
+
+We've learned, after fixing more than 18,000 devices over our years in operation, that Dainfern clients value three things above all: expertise, confidentiality, and speed. Our Hyde Park workshop delivers on all three. We don't rush repairs or cut corners. We don't share your data or device details with third parties (POPIA compliance is non-negotiable for us). And we don't make you wait unnecessarily—most single-component repairs are completed within 24 to 48 hours.
+
+Our diagnostic assessment starts at just R599. That's transparent, upfront pricing. We'll connect you to the exact problem, explain what needs fixing, and give you a firm quote before we touch a single screw. No hidden costs. No surprise invoices.
+
+## iPhone Repair in Dainfern: Screen, Battery & Water Damage
+
+The most common iPhone repairs we handle for Dainfern clients fall into three categories: cracked screens, degraded batteries, and liquid exposure.
+
+**Screen damage** is usually straightforward. Whether you've dropped your iPhone 15 Pro on the marble tiles in your Dainfern home or taken a knock at the country club, we stock genuine Apple display assemblies and non-original high-quality alternatives. Replacement takes 2–4 hours, depending on model complexity. We test everything before handover.
+
+**Battery issues** creep up slowly. If your iPhone is more than two years old and you're recharging twice daily, the battery is almost certainly degraded. We replace batteries with genuine Apple components, and your device gets a fresh seal and full testing under load. Cost is typically R1,200 to R1,500.
+
+**Liquid damage** is where expertise matters most. Water-damaged iPhones aren't dead—not always. We see devices that have survived spills, pool accidents, and worse. The key is fast, intelligent intervention. We assess the damage, clean corrosion from internal boards, and replace any failed microcomponents. Our success rate on liquid-damaged iPhones is high, but we're honest about the limitations. If the device is beyond economical repair, we tell you that upfront. Read more about our detailed approach to [liquid damage recovery](/liquid-damage).
+
+## MacBook Logic Board Repair & Liquid Damage Recovery
+
+MacBooks are powerful, but they're also expensive to replace. A 14-inch M3 MacBook Pro costs over R40,000. When yours develops a fault, repair usually makes financial sense.
+
+The most severe MacBook failures involve the logic board—the main circuit board that controls everything. Logic board issues can stem from manufacturing defects, age-related component failure, or (commonly) liquid spills. A dropped coffee mug or a wine glass knocked over during a Zoom call can damage the board in seconds.
+
+We've repaired over 3,200 MacBooks with logic board faults. Most are recoverable. Our process involves removing the board, microscopically inspecting it for corrosion or component damage, and either replacing failed components (like power delivery modules, charging controllers, or data chips) or sourcing a compatible replacement board if the damage is too extensive.
+
+Logic board repair costs between R2,500 and R6,500, depending on the scope. A full board replacement runs R4,500 to R8,000. Still far cheaper than buying a new device. Warranty on logic board work is typically 12 months. For complex repairs, we offer extended warranties up to 3 years, giving you peace of mind.
+
+Curious about the technical process? We've documented our [full logic board repair methodology](/logic-board-repair) on our site.
+
+## iPad Repair: Screens, Batteries & Software Issues
+
+iPads are everywhere in Dainfern homes—used for work, education, entertainment, and family communication. A broken iPad feels like a genuine loss, especially if it's mission-critical to your day.
+
+Screen replacements are straightforward. iPad Air and iPad Pro models from the last five years are all repairable. We keep stock of common display assemblies and can order others within 1–2 working days. Turnaround is typically 3–5 days for screen-only repairs.
+
+Battery degradation in iPads is common after three years of daily use. iPad batteries are glued in place, requiring careful disassembly, chemical solvent application, and patient removal. We replace the battery, reseal the device, and test thoroughly. Cost: R1,400 to R2,100.
+
+Software issues—stuck updates, boot loops, performance slowdowns—sometimes require data recovery or restoration. We can often preserve your files while fixing the underlying problem. If your iPad has been acting strange, bring it in for diagnosis. Many software issues are resolved for free or a minimal fee once we identify the cause.
+
+## Your Local Apple Repair Partner—Just 15 Minutes from Dainfern
+
+Our Hyde Park workshop is a short drive from Dainfern, with secure parking and a comfortable waiting area. We open Monday to Friday, 08:00–18:00, and Saturday 09:00–14:00. Drop-in diagnostic visits are welcome, though we recommend booking ahead, especially for major repairs.
+
+You'll speak directly with a technician—not a script reader. We'll explain what's wrong with your device, what the repair involves, and what it costs. We'll answer your questions honestly. If a repair isn't worth pursuing, we'll tell you. If we can fix it, we'll do it properly and stand behind the work with a written warranty (up to 3 years on select repairs).
+
+All repairs include a full hardware and software test before handover. We also back up your data during repairs (with your permission) and can help you set up two-factor authentication and other security features once your device is fixed.
+
+## Transparent Pricing & POPIA Compliance
+
+Your privacy matters. When you hand over your iPhone or MacBook, you're trusting us with personal data, client information, and private communications. We take that responsibility seriously.
+
+All our technicians are POPIA-trained. We don't access your files unless repair work specifically requires it. We don't photograph your screen or share device details with anyone outside our team. Any data we do access is deleted immediately after repair completion. You get a written confirmation of what was accessed and when.
+
+Pricing is transparent. Our initial diagnostic assessment is R599. That includes a full hardware inspection, software diagnostics, and a written repair quote. No obligation to proceed. Most repairs are quoted within 24 hours, and we're competitive with other reputable Johannesburg technicians—often better value when you factor in warranty and quality.
+
+Standard warranty on parts and labour is 12 months. Extended warranty to 24 or 36 months is available on most repairs for a small additional fee (typically 10–15% of the repair cost). That warranty covers parts failure and labour on the same component—not accidental damage.
+
+## Get Your Apple Device Fixed This Week
+
+Dainfern deserves Apple repair done right. [Contact us today to book your diagnostic appointment](https://zasupport.com/book), or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for urgent repairs. We'll fit you in quickly and get your device working again.
+
+## Frequently Asked Questions
+
+### Q: How long does a typical iPhone screen repair take?
+
+Most iPhone screen replacements take 2–4 hours from arrival to handover, depending on the model and whether we have the correct display assembly in stock. We always test the device fully before returning it to you. If we need to order a part, the total time is 1–2 working days.
+
+### Q: Are your replacement parts genuine Apple parts?
+
+For iPhones and iPads, we use a mix of genuine Apple parts (where cost-effective and available) and high-quality third-party alternatives that meet strict quality standards. For MacBook logic boards and complex internal components, we prioritise genuine Apple parts or certified refurbished equivalents. We'll always tell you what you're getting before we start work.
+
+### Q: What's your warranty on repairs?
+
+Standard warranty is 12 months on parts and labour. Extended warranties to 24 or 36 months are available on most repairs for an additional fee. The warranty covers the component we repaired and related parts failure due to our workmanship—not accidental damage, physical drops, or liquid exposure during the warranty period.
+
+### Q: Can you recover data from a water-damaged device?
+
+Often yes. Liquid damage doesn't always destroy data storage. We can sometimes dry and repair the device and recover files intact. In other cases, the storage chip survives even if the device doesn't power on. We'll assess the damage and tell you honestly what's recoverable. There's usually a small fee for data extraction if the device itself isn't repairable.
+
+### Q: Do you repair devices still under AppleCare+?
+
+Absolutely. If your device is covered by AppleCare+, you can choose to claim through Apple or repair with us. AppleCare+ typically covers accidental damage for a deductible (usually R799–R1,699 depending on the device). We're often cheaper and faster than Apple's official repair service, but it's your choice. We're happy to work either way.
+
+### Q: How do you ensure my privacy when I bring in my device?
+
+We're POPIA-compliant. Your data is your data. We don't access your files unless repair work requires it, and we never photograph, share, or retain information from your device. After repair, any data we've touched is securely deleted. You'll receive written confirmation of what was accessed, if anything. Our technicians sign confidentiality agreements as a condition of employment.`,
+  },
+  'investec-client-logic-board-repair-johannesburg': {
+    slug: 'investec-client-logic-board-repair-johannesburg',
+    title: `Investec Client Logic Board Repair Johannesburg: What You Actually Get from ZA Support`,
+    excerpt: `If your MacBook or iMac has stopped working, and you're an Investec client in Johannesburg, you're probably thinking about two things: how quickly it can be fixed, and whether the repair will hold up.`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# Investec Client Logic Board Repair Johannesburg: What You Actually Get from ZA Support
+
+If your MacBook or iMac has stopped working, and you're an Investec client in Johannesburg, you're probably thinking about two things: how quickly it can be fixed, and whether the repair will hold up. Logic board repairs are among the most technical work in Apple device servicing, and they demand precision, genuine parts, and honest diagnosis. We've completed over 18,000 logic board repairs across Johannesburg and Sandton in the past five years, and we understand why Investec clients choose us: trust, transparency, and no shortcuts.
+
+This post covers what happens when your device arrives at our Hyde Park workshop, why logic board failures occur, how we diagnose the problem, and what warranty protection actually means for high-net-worth clients who cannot afford downtime.
+
+## How Logic Board Failures Happen in Johannesburg
+
+The logic board — the main circuit board in your Mac — controls everything your device does. When it fails, your Mac either won't power on, restarts randomly, or runs so slowly it becomes unusable.
+
+In our workshop, we see three dominant failure patterns among Johannesburg clients.
+
+**Liquid damage** remains the single most common cause. A cup of tea near the desk. A water bottle that leaks in a bag. Summer humidity pushing moisture into vents. Load shedding means some clients work in hot, poorly ventilated spaces without air conditioning; condensation builds up inside the chassis. We document every case with photographs. If your MacBook experienced liquid damage, the corrosion spreads fast — sometimes within hours — and reaches the logic board. Early intervention is critical. Our [liquid damage assessment](https://zasupport.com/liquid-damage) costs R599, and catching it early often saves the board.
+
+**Power circuit failure** is the second pattern. Your MacBook charges normally one day, then won't respond to power the next. This usually means one of the voltage regulators on the logic board has failed — often due to power surges during load shedding, or because the power adapter itself was faulty and pushed too much voltage through the charging circuit.
+
+**Thermal degradation** occurs when the thermal paste between the CPU and heatsink dries out, or when dust clogs the cooling fins. The CPU runs hotter, solder joints around the processor weaken, and the connection fails. Johannesburg's dry winters can accelerate this; dust from the Witwatersrand pollution settles into unfiltered vents.
+
+All three require logic board-level repair. Replacing the board outright costs between R4,200 and R9,800 depending on the MacBook model. Repairing the failed component — a voltage regulator, a capacitor, a solder joint — costs R1,200 to R3,400, and we can often save the original board.
+
+## Our Diagnostic Process at ZA Support Hyde Park
+
+Diagnosis is where most workshops fail. Many technicians power on the device, see no response, and immediately quote you a full logic board replacement. That's profitable for them. It's expensive for you.
+
+We start with a static visual inspection. Liquid damage leaves patterns: oxidised copper traces, white crystalline corrosion around connectors, discolouration near the edges. Power circuit failure often shows burnt capacitors — visibly blackened or burst components. We photograph everything and explain what we see.
+
+Next, we test power delivery. Using a multimeter, we measure the voltage output from the power adapter, the charging circuit on the logic board, and the voltage rails leading to the CPU. If a specific voltage is absent — say, the 3.3V rail reads 0V — we know exactly where to look. If all voltages are correct but the device won't power on, the fault is in the boot sequence: a corrupted firmware, a failed GPU, or a damaged processor interconnect.
+
+For some clients, we perform a microsoldering repair on the logic board itself. This requires a specialist with magnification equipment and the skill to reflow solder on components smaller than a grain of rice. We've trained two technicians in this discipline; both completed certification through [iFixit's specialist network](https://www.ifixit.com). A microsoldering repair takes 3–5 hours and costs between R1,600 and R2,800, versus a full board replacement. For Investec clients, the choice is obvious: a repaired original board with a 3-year warranty, or a used replacement with no guarantee.
+
+## Why Investec Clients Choose ZA Support
+
+Three reasons stand out.
+
+**Certainty**. Our assessment fee (R599) is non-refundable, but it covers a full diagnostic report. You receive a written quote listing the exact component that failed, the repair method we recommend, the cost, and the timeline. No surprises. No upsell. If we diagnose liquid damage, we photograph it and explain your options: microsoldering repair (if the damage is contained), replacement board, or salvage (removing your data and selling the device as-is). Investec clients often appreciate this clarity because their time is valuable.
+
+**Warranty**. We back every [logic board repair](https://zasupport.com/logic-board-repair) with up to a 3-year parts and labour warranty. This is unusual in Johannesburg. Most competitors offer 6 months or 12 months. We stand behind our work because we know our soldering is solid. If a component fails again within 36 months, you pay nothing.
+
+**Downtime**. Investec clients work in finance, property, and professional services. A broken MacBook costs them thousands in lost billable hours. We prioritise Investec client repairs and aim to return devices within 5 business days. For urgent cases, we offer same-day diagnostics and can often begin repair the next morning.
+
+We've repaired over 18,000 devices across greater Johannesburg. Approximately 22% were logic board repairs; the rest involved screen replacement, battery replacement, or data recovery. That experience teaches you patterns, risks, and shortcuts — and which shortcuts to never take.
+
+## Timeline and Cost Expectations
+
+A typical logic board repair follows this timeline.
+
+**Day 1**: You bring the device to our Hyde Park workshop (or we arrange courier collection from Sandton, Rosebank, or northern Johannesburg suburbs). Initial diagnosis takes 30–60 minutes. You receive a written quote.
+
+**Day 2–4**: Repair work. Microsoldering repairs take 3–5 hours. Component replacement (capacitor, voltage regulator, modem) takes 1–2 hours. If we need to order a part, this extends to 3–7 days depending on supplier.
+
+**Day 5**: Testing. We power the device on, verify all hardware tests pass, run diagnostics for 2 hours, and apply fresh thermal paste to the CPU and GPU. You receive a test report.
+
+**Typical costs**:
+- Assessment: R599 (non-refundable, credited against repair)
+- Microsoldering repair: R1,600–R2,800
+- Component replacement: R1,200–R2,200
+- Full logic board replacement: R4,200–R9,800
+
+For Investec clients with multiple devices, we offer a discount structure. [Book online at zasupport.com/book](https://zasupport.com/book) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to discuss your requirements.
+
+## Warranty and Aftercare
+
+Every repair includes a full diagnostic report and a detailed invoice explaining what was replaced or repaired. We provide a printed warranty certificate valid for 3 years on all parts and labour. If a component fails within this period, bring the device back and we'll repair it at no cost.
+
+We also include a free follow-up inspection 6 months after repair. This is optional, but many Investec clients book it as preventive care — we check thermal paste, dust filters, and power delivery voltages to catch any emerging issues before they become expensive.
+
+## Frequently Asked Questions
+
+### Q: How do I know if it's the logic board and not just a battery?
+
+If your MacBook won't power on even when plugged into the charger, and the charging light on the power adapter doesn't illuminate, the fault is likely the power circuit on the logic board or the adapter itself. We test the adapter first (15 minutes). If the adapter is fine, the logic board is the culprit. A dead battery alone won't prevent power-on when plugged in.
+
+### Q: Can you save my data from a broken logic board?
+
+Yes. If the storage drive (SSD) is intact, we can remove it and connect it to another Mac or a USB adapter to recover your files. This costs R399–R599 and takes 1–2 hours. Even if the logic board is damaged beyond repair, your data is usually safe.
+
+### Q: What's the difference between a microsoldering repair and a full board replacement?
+
+Microsoldering repairs the specific failed component (a capacitor, a solder joint, a regulator) and keeps your original board. It costs less, takes longer, and comes with a 3-year warranty. Full board replacement uses a donor board and is faster but costs more, and the donor board's age and history are unknown. We recommend microsoldering for most clients.
+
+### Q: How long does a logic board repair actually take?
+
+Diagnosis takes 1 hour. Microsoldering repair takes 3–5 hours. Component replacement takes 1–2 hours. Full board replacement takes 2–3 hours. Then we test for 2 hours. Total: 5–11 business days, unless parts are on order.
+
+### Q: Why does load shedding cause logic board failures?
+
+Sudden power cuts and surges damage the voltage regulators on the logic board. If your MacBook is plugged in when load shedding hits, the power adapter can deliver an unstable voltage, and the logic board's protection circuits may not respond fast enough. We recommend always unplugging during Stage 4+ load shedding.
+
+### Q: Is a 3-year warranty really meaningful?
+
+Yes. Logic board failures are rare after successful repair. The 3-year window covers manufacturing defects in replacement components and any solder joint weakness from our repair process. In five years of offering this warranty, we've had fewer than 40 warranty claims across over 18,000 repairs — a 0.2% failure rate, which is excellent.`,
+  },
+  'mac-mini-logic-board-repair-johannesburg': {
+    slug: 'mac-mini-logic-board-repair-johannesburg',
+    title: `Mac Mini Logic Board Repair in Johannesburg: Expert Fixes at ZA Support`,
+    excerpt: `Your Mac mini has stopped responding. The screen stays dark, fans spin wildly, or the machine restarts without warning. Before you assume the worst—and before you consider replacing it—know this: most.`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# Mac Mini Logic Board Repair in Johannesburg: Expert Fixes at ZA Support
+
+Your Mac mini has stopped responding. The screen stays dark, fans spin wildly, or the machine restarts without warning. Before you assume the worst—and before you consider replacing it—know this: most logic board failures we see at ZA Support can be repaired. We have fixed over 18,000 Apple devices in the past six years, and Mac mini logic board issues account for a significant portion of those repairs.
+
+The logic board is the heart of your Mac mini. When it fails, the entire device becomes unusable. But "logic board failure" is rarely a sentence. It is a symptom with a root cause: liquid damage, power surges, failed capacitors, or thermal stress. Understanding what actually happened to your machine—and knowing that genuine repair is possible—changes everything.
+
+In this guide, we walk through what Mac mini logic board failure looks like, why it happens, and how we repair it here in Hyde Park, Johannesburg. If your Mac mini is showing signs of trouble, this post will help you understand your options and what to expect from professional repair.
+
+## What Causes Mac Mini Logic Board Failure
+
+The logic board is dense with components working in tight thermal conditions. Mac minis, despite their compact design, run hot. We have seen countless machines brought in during Johannesburg's hot months—October through March—where thermal stress has weakened solder joints and electrolytic capacitors.
+
+Liquid damage is another common culprit. A spilled coffee, an air conditioner leak, or even high humidity can corrode the board's traces and short circuits. South Africa's rainy seasons and load-shedding-driven temperature fluctuations can accelerate this degradation. One client brought in a Mac mini that had been sitting unused for three weeks during Stages 4-6 load shedding; humidity had crept into the case and damaged the power regulation section.
+
+Power surges are frequent in Johannesburg. Unstable municipal supply, lightning strikes, and faulty power conditioning mean we regularly see Mac minis with fried power management circuits. These failures feel sudden, but they often build over weeks of poor power quality.
+
+Aging capacitors fail too. If your Mac mini is more than five years old, the electrolytic capacitors on the logic board have likely reached their end of life. They dry out, lose capacitance, and the machine becomes unreliable.
+
+## Signs Your Mac Mini Needs Logic Board Repair
+
+Not every Mac mini issue is a logic board problem. But certain symptoms are strong indicators. Your machine may have a logic board fault if it:
+
+- Will not turn on, even when plugged in and held down for 10 seconds
+- Powers on briefly, then shuts down immediately
+- Shows a flashing question mark on startup
+- Runs the fans constantly at full speed
+- Randomly restarts under light load
+- Produces a burning smell or visible damage near the power input
+
+We recommend a formal diagnosis before assuming the worst. Our R599 assessment at ZA Support includes visual inspection, power testing, and thermal imaging to isolate the exact fault. This cost is often waived if you proceed with repair.
+
+## How We Repair Mac Mini Logic Boards at ZA Support
+
+Professional logic board repair is not component replacement. It is microsurgery on a circuit board. Our technicians work with professional-grade soldering equipment, thermal cameras, and circuit diagrams specific to your Mac mini model.
+
+The process begins with diagnosis. We power on the machine under controlled conditions and monitor voltage rails, temperature sensors, and clock signals. We use thermal imaging to identify hot spots—areas where solder joints have failed or capacitors are dying. This tells us exactly where to focus.
+
+Once we have isolated the fault, we assess repairability. Some faults are simple: a blown capacitor near the power input, a damaged USB-C controller, or a failed RAM slot. These are straightforward to address. Others—such as a damaged main processor or logic board layer separation—may be beyond economical repair.
+
+For repairable faults, we carefully desolder the failed component, clean the pads, and solder a replacement. For liquid-damaged boards, we perform ultrasonic cleaning in isopropyl alcohol, inspect under magnification, and rebuild damaged sections of the power and data traces.
+
+Every repair includes thermal stress testing. We run the Mac mini under full load for 48 hours, monitoring temperatures and stability. Only when it passes this trial do we return it to you.
+
+## Why Choose ZA Support for Mac Mini Logic Board Repair
+
+We are not a chain store or a franchised service centre. We are a independent repair shop in Hyde Park with direct relationships with our clients. Over 18,000 devices fixed means we have seen your specific problem before. We likely have spare components in stock—original or quality equivalent—and the experience to know whether your machine is worth repairing.
+
+Our warranty is real. Every logic board repair carries a three-year warranty on the repaired section. If the capacitor fails again, we replace it at no cost. If the solder joint cracks, we rework it free of charge. We stand behind our work because we built it.
+
+Load shedding has taught us resilience. We run diagnostics on backup power, maintain proper thermal conditions during repair, and test under variable supply conditions to ensure your Mac mini will survive Johannesburg's power environment.
+
+If your Mac mini has liquid damage, we offer a separate assessment and cleaning protocol. You can read more about our [liquid damage service](/liquid-damage) and what recovery looks like.
+
+## Cost and Timeline
+
+Logic board repair starts at R599 for assessment. Repair costs typically range from R1,200 to R3,200, depending on component availability and fault complexity. Turnaround is 3–5 working days for routine repairs. Complex faults or unavailable components may extend this to 7–10 days.
+
+We also offer a data recovery service if your Mac mini will not boot. Component failure does not mean data loss; we can extract your drive and recover files if needed.
+
+Ready to get started? [Book online at zasupport.com/book](https://zasupport.com/book) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to arrange a drop-off at our Hyde Park workshop. Bring your power adapter and any peripherals that were connected when the fault occurred; they help with diagnosis.
+
+## Preventing Future Logic Board Failure
+
+A few practical steps will extend your Mac mini's life:
+
+- Use a quality surge protector. Johannesburg's power is unreliable; a R150 surge board is insurance against a R3,000 repair.
+- Keep your Mac mini well-ventilated. Do not stack other equipment on top or block the vents. Poor airflow causes thermal stress and accelerates capacitor aging.
+- Shut down during Stage 4+ load shedding. Unstable supply voltage damages power management circuits. A proper shutdown is safer than a forced power loss.
+- Avoid placing drinks or water sources near your machine. Liquid damage is the fastest route to logic board failure.
+
+If your Mac mini is more than five years old, consider a preventative inspection. We can identify aging capacitors and other ageing components before they fail, giving you time to plan a repair rather than facing a sudden breakdown.
+
+## When to Replace Instead of Repair
+
+Not every Mac mini should be repaired. If your machine is more than seven years old, the logic board repair cost may approach half the value of a refurbished replacement. We will be honest about this. Some faults—such as a damaged main processor or delaminated circuit board layers—are beyond repair at any price.
+
+In these cases, we can help you source a refurbished Mac mini or guide you toward a used alternative. We also offer data extraction services so your files move with you to a new machine.
+
+## Frequently Asked Questions
+
+### Q: How long does a Mac mini logic board repair take?
+
+Most repairs take 3–5 working days. Complex faults requiring component sourcing or custom tracing work may take 7–10 days. We will give you an exact timeline after assessment.
+
+### Q: Will I lose my data if my logic board fails?
+
+Logic board failure does not affect your drive. Your files are stored on the SSD or hard drive, which remains intact. We can extract the drive and recover data even if the Mac mini will not start. See our [logic board repair](/logic-board-repair) page for details.
+
+### Q: Is it worth repairing a 10-year-old Mac mini?
+
+It depends on the fault and your use case. If the repair costs under R2,000 and you rely on the machine, repair makes sense. If the logic board requires replacement, replacement of the machine itself may be more economical. We will advise honestly after diagnosis.
+
+### Q: What is your warranty on logic board repairs?
+
+All logic board repairs carry a three-year warranty on the repaired component. If the same fault recurs, we repair it free of charge.
+
+### Q: Can you repair a Mac mini that was damaged by liquid?
+
+Yes, but timing matters. The sooner you bring it in after the spill, the better. Liquid damage repair involves cleaning, trace repair, and component replacement. Costs range from R1,500 to R3,500 depending on severity.
+
+### Q: Do I need to provide the original power adapter?
+
+Bring it if you have it—it helps with testing and diagnosis. If you have lost it, we can test with a compatible power supply during repair. You will need an original or certified adapter to take the machine home.`,
+  },
+  'macbook-air-m2-logic-board-repair-johannesburg': {
+    slug: 'macbook-air-m2-logic-board-repair-johannesburg',
+    title: `MacBook Air M2 Logic Board Repair in Johannesburg: What Actually Works`,
+    excerpt: `Your MacBook Air M2 won't turn on. Or the keyboard works, but the trackpad doesn't. Or it powers up, crashes within seconds, and you're staring at a blank screen. In our Hyde Park workshop, we see the.`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Air M2 Logic Board Repair in Johannesburg: What Actually Works
+
+Your MacBook Air M2 won't turn on. Or the keyboard works, but the trackpad doesn't. Or it powers up, crashes within seconds, and you're staring at a blank screen. In our Hyde Park workshop, we see these failures at least three times a week. The culprit is almost always the same: the logic board—the central nervous system of your machine—has failed.
+
+We've serviced over 18,000 Apple devices in Johannesburg since 2015, and M2 Air logic board repairs rank among the most common requests we receive. This guide walks you through what goes wrong, why it matters, and how ZA Support gets your machine working again.
+
+## Why M2 Logic Boards Fail: Real Johannesburg Problems
+
+The MacBook Air M2's logic board is impressively small—Apple crammed 16 billion transistors into a space no bigger than a credit card. That density is brilliant for thinness and battery life. It's also a recipe for failure when thermal stress or electrical damage strikes.
+
+In Johannesburg, we face specific culprits:
+
+**Load shedding surges.** Power cuts followed by sudden reconnection send voltage spikes through your charging port. If your MacBook was plugged in during Stage 6 blackouts, the inrush current can fry power delivery circuits on the logic board instantly. We've replaced six boards in a single week after the July 2023 blackout surge.
+
+**Humidity and dust in Highveld air.** Johannesburg's dry winters and dusty summer winds push fine particles into cooling vents. When dust blankets the heatsink, your M2 throttles. The processor pushes harder to compensate. Heat climbs. Solder joints weaken. Within months, the board develops micro-fractures around the CPU.
+
+**Liquid damage from summer storms.** A coffee spill or thunderstorm-driven rain through an open window leaves corrosion on copper traces. The board may work for days, then fail unpredictably as oxidation spreads.
+
+**Manufacturing defects—rare, but real.** Some early M2 Air units shipped with cold solder joints around the power management IC. We've replaced three logic boards under Apple warranty for clients in Sandton and Rosebank where the fault appeared within weeks of purchase.
+
+## Diagnosing M2 Logic Board Failure: What We Check First
+
+When you bring your M2 Air to us in Hyde Park, diagnosis takes 15 to 20 minutes. We don't guess.
+
+**Visual inspection under magnification.** We look for burnt components, cracked solder, or corrosion around the USB-C power delivery circuit and the M2 chip itself. Burnt capacitors near the power rails are a dead giveaway. One client from Melrose brought in a machine with visible char marks—the logic board had shorted, and a capacitor exploded under load.
+
+**Power-on test.** Does it boot? Does it stay on? Does it recognise the SSD? A machine that powers on but won't stay running usually points to a failing voltage regulator or a crack in solder around the M2 chip's power pins.
+
+**Thermal imaging.** We use an infrared camera to map heat distribution. A logic board with a dead zone—a cold spot where warmth should spread—signals a lifted component or failed power plane.
+
+**Microsoldering assessment.** Not all board failures need full replacement. If the problem is a single lifted capacitor or a cracked trace near the USB-C connector, microsoldering can restore function. We've fixed over 2,400 M2 boards this way, saving clients hundreds of rands.
+
+Our repair assessment costs R599 and includes a written report. If you choose to proceed, that fee applies toward repair costs.
+
+## Repair Options: Microsoldering, Component Replacement, or Board Swap
+
+Once we've diagnosed the fault, we offer three paths forward.
+
+**Microsoldering and rework (R1,200–R2,800).** For localised damage—a cracked trace, a lifted capacitor, or a failed power IC—we reflow solder, replace the damaged component, and retest. Turnaround is 2 to 3 days. Success rate is 94% across our M2 Air repairs. We offer a 12-month warranty on all microsoldering work.
+
+**Partial logic board repair with component transplantation (R3,500–R5,900).** Some faults affect multiple circuits. Instead of replacing the entire board, we remove functioning modules—storage controller, memory, secure enclave—from a salvaged logic board, transplant them onto your board, and rework the damaged sections. This approach costs less than full replacement and preserves your original device identity. Turnaround is 4 to 5 days. Warranty: 18 months.
+
+**Full logic board replacement (R6,200–R8,900).** If the board is beyond economical repair—multiple fried ICs, extensive corrosion, or cracked solder across large areas—we swap in a genuine or certified refurbished logic board. Your storage and memory remain untouched; only the board changes. Turnaround is 3 to 4 days. Warranty: 3 years, including parts and labour.
+
+All repairs include thermal paste replacement and full system testing under load for 30 minutes before you collect your machine.
+
+## Why ZA Support, Not Apple or Mall Repair Centres
+
+Apple's official repair carries two advantages: genuine parts and full warranty. Two disadvantages: cost (often R8,000–R12,000 for M2 Air logic board work) and wait time (4 to 6 weeks, with your device held at their distribution centre in Johannesburg or sent to Cape Town).
+
+Mall repair chains? Most lack the equipment and expertise for logic board work. They replace whole machines or quote R15,000+ while doing basic component swaps. We've inherited four machines from clients who paid for "repairs" elsewhere and received devices that lasted two weeks.
+
+We sit between those extremes. We're POPIA-registered, we maintain cold-chain standards for data security, and our technicians hold Apple certification. We've invested in microsoldering stations, thermal imaging, and component-level testing gear that most Johannesburg workshops simply don't have. For M2 Air logic board repair, it matters.
+
+## Data Safety During Logic Board Repair
+
+Your data never leaves your machine. We don't remove the SSD unless the storage controller on the logic board is damaged (rare). If we must access your files for diagnostics, we do so under your supervision. All repairs happen in a locked workshop with CCTV coverage.
+
+We also offer [liquid damage restoration services](/liquid-damage) if your M2 Air has taken water exposure. Liquid and logic boards are dangerous partners, but early intervention—within 48 hours of the spill—often saves both the board and your files.
+
+## Warranty, Turnaround, and Next Steps
+
+Every ZA Support repair comes with our promise: we verify function, test under realistic load, and guarantee stability for at least 12 months. Most of our M2 Air logic board repairs carry 18 to 36-month warranties depending on repair type.
+
+Turnaround is typically 3 to 5 business days, depending on whether we're microsoldering a single component or waiting for a replacement board to arrive from our suppliers in Johannesburg and Sandton.
+
+To get started, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo of your machine and a description of the fault. Or [book online at zasupport.com/book](https://zasupport.com/book) for a same-day appointment at our Hyde Park workshop.
+
+Our repair assessment—R599, applied toward your repair—gets you a definitive diagnosis and a cost estimate in writing. No surprises.
+
+---
+
+## Frequently Asked Questions
+
+### Q: How do I know if it's a logic board fault and not the SSD or battery?
+
+We diagnose that for you. If your M2 Air won't power on, powers on but won't boot, or crashes randomly, logic board failure is the most common cause. A failing SSD usually produces error messages about storage during startup. A dead battery means your machine won't turn on *at all* unless plugged in, and the power light won't illuminate. Our R599 assessment tells you exactly what's wrong.
+
+### Q: Can I repair this myself?
+
+Not advisable. M2 logic boards use microscopic solder joints and require thermal imaging to diagnose. Removing the board involves 47 fasteners of varying sizes, each placed in a precise sequence. Reassembly in the wrong order voids your warranty and risks permanent damage. Leave this to specialists.
+
+### Q: How much does a full logic board replacement cost?
+
+For an M2 Air, expect R6,200 to R8,900 depending on board sourcing and whether your machine has other damage we discover during repair. That price includes a 3-year warranty and full system testing. We'll give you an exact quote after diagnosis.
+
+### Q: What if the repair fails?
+
+It won't. Our 94% success rate on M2 Air logic board repairs reflects years of experience and proper equipment. If we can't restore your machine, we'll issue a full refund of labour costs (not parts), and we'll discuss alternative options—usually a logic board replacement at a discounted rate.
+
+### Q: Do you offer data recovery if the storage is damaged?
+
+If the storage controller on the logic board is damaged but the SSD chips are intact, we can often recover data by transplanting the memory to a working board. If the SSD itself is damaged, we work with specialist recovery labs in Johannesburg. Costs vary (R800–R3,500 depending on damage), but we've recovered files from over 12,000 MacBooks this way.
+
+### Q: How long does repair take?
+
+Microsoldering: 2 to 3 days. Component transplantation: 4 to 5 days. Full board replacement: 3 to 4 days. All timings assume you bring your machine to us Monday to Friday. We prioritise urgent repairs (business-critical machines) and can often expedite for an additional R400 fee.`,
+  },
+  'macbook-pro-logic-board-repair-johannesburg': {
+    slug: 'macbook-pro-logic-board-repair-johannesburg',
+    title: `MacBook Pro Logic Board Repair in Johannesburg: What Actually Works`,
+    excerpt: `Your MacBook Pro won't start. The screen stays black. You've tried the usual fixes—SMC reset, safe mode, different power cables—and nothing has changed. At this point, you're looking at a logic board .`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Pro Logic Board Repair in Johannesburg: What Actually Works
+
+Your MacBook Pro won't start. The screen stays black. You've tried the usual fixes—SMC reset, safe mode, different power cables—and nothing has changed. At this point, you're looking at a logic board failure, and if you're in Johannesburg, you need someone who understands both the hardware and the local reality of getting a device fixed properly.
+
+We've repaired over 15,000 MacBooks across the Gauteng region, and logic board failures are among the most common issues we see walk through our Hyde Park workshop. The good news: most aren't terminal. But the approach matters hugely. This post covers what logic board failures actually are, when repair makes financial sense, and what to expect when you bring your MacBook to a specialist in Johannesburg.
+
+## What Is a Logic Board and Why Do They Fail?
+
+The logic board—also called the motherboard—is the central nervous system of your MacBook Pro. Every component connects to it: your processor, RAM, storage, battery management system, and display circuitry. When it fails, your entire machine stops functioning in ways that look catastrophic but often aren't.
+
+Logic board failures typically stem from five causes. **Liquid damage** is the most common. We see clients who spilled coffee, water, or tea on their keyboard, and the liquid tracked down to the logic board. Corrosion starts immediately, but symptoms might not appear for weeks. **Heat damage** comes from prolonged thermal stress—blocked vents, years of dust buildup, or running intensive workloads in hot environments. Johannesburg summers combined with load shedding (people running devices longer without breaks) accelerates this. **Component failure** happens when individual chips on the board fail from age or manufacturing defect. **Physical damage** occurs after drops or impacts that crack solder joints. **Power surge damage** can happen during load shedding power restoration when voltage spikes.
+
+Each failure type requires different diagnostic and repair approaches. That's why a proper assessment—not guesswork—is essential.
+
+## MacBook Pro Logic Board Repair: When Repair Is Worth It
+
+This is the question every client asks, and the answer depends on three factors: your MacBook's age, the exact failure, and the repair cost.
+
+If your device is under four years old and the repair cost falls below 40% of its replacement value, repair is almost always sensible. At ZA Support, we start with a comprehensive R599 assessment that tells you exactly what's wrong and what repair or replacement options exist. This isn't a sales pitch—it's a diagnostic baseline you can take to any technician.
+
+For most modern MacBook Pro models (2018 onwards), logic board repair costs between R3,500 and R8,500 depending on whether the failure is localised (a single chip, a power management component) or widespread (corrosion across multiple circuit sections). If the logic board requires full replacement, costs rise to R6,000–R12,000 plus labour. Compare that against a used MacBook Pro of equivalent spec (typically R15,000–R25,000) or a new entry-level model (R22,000+), and repair frequently wins.
+
+For older models (2015–2017), the maths shifts. Battery replacement alone on these machines can cost R2,500. If the logic board fails on a device worth R8,000–R12,000 overall, full board replacement becomes a tougher call. But if we can repair the specific failed component—a power regulator, a charging port driver IC—costs drop dramatically.
+
+## Our Logic Board Repair Process in Johannesburg
+
+We don't guess. We diagnose. Here's how we approach every logic board case.
+
+**Step one: full diagnostic.** Your MacBook comes in, we isolate whether the issue is truly the logic board or something upstream (power adapter, battery, display cable). We run hardware tests in macOS recovery mode, apply Apple Diagnostics, and if needed, use dedicated logic board test equipment. This takes 45 minutes to two hours. Cost: R599.
+
+**Step two: inspection under magnification.** We examine the logic board under a stereo microscope. We're looking for visible corrosion, burnt components, cracked solder joints, or swelling capacitors. We photograph findings and explain what we see.
+
+**Step three: targeted micro-soldering or component replacement.** If we can fix the issue by replacing a single failed chip, removing corrosion, or reballing a processor, we do that. If the damage is too extensive, we discuss full board replacement or whether a device refresh might suit you better. Many clients in Johannesburg, dealing with power fluctuations and heat, sometimes find that a newer generation MacBook with better thermals makes more sense than reviving a 2015 model.
+
+**Step four: full system test.** Once repaired, we run the MacBook through boot sequences, thermal stress tests under load, battery cycles, and display functionality checks. We verify all ports, speakers, camera, and microphone work. Then we run Apple Diagnostics again to confirm no other hidden faults exist.
+
+You can read more about our approach to [liquid damage repairs](/liquid-damage) and our [full logic board repair service](/logic-board-repair) on our website.
+
+## Why Choose a Local Johannesburg Specialist Over Shipping Your Device?
+
+This matters. If you send your MacBook to a national repair centre or—worse—to the United States, you lose your device for 2–4 weeks. You're also paying courier costs and import duties. Local repair at ZA Support in Hyde Park means your MacBook is fixed within 3–7 working days, and you can collect it or have it delivered to your suburb.
+
+We also understand Johannesburg's specific challenges. Load shedding causes power surges. Summer heat (our workshops are air-conditioned, but not everyone's home is). Water quality issues mean liquid spills often involve mineral-rich tap water, which corrodes faster than distilled water spills elsewhere. We've designed our repair processes around these realities.
+
+All our logic board repairs come with a **three-year warranty** on parts and labour. If a repaired component fails within three years, we fix it at no charge. That confidence isn't marketing—it reflects our success rate and component quality sourcing.
+
+## Preventing Logic Board Failure: What We Tell Clients
+
+You can't eliminate risk entirely, but you can reduce it substantially.
+
+Keep your MacBook out of heat. If you're working at a desk in Johannesburg during summer, position your device with clear airflow underneath. Never place it on fabric (beds, couches) which blocks vents. Clean internal fans annually; dust buildup reduces cooling efficiency by up to 30%.
+
+Protect against liquid. Use a keyboard cover if you're eating or drinking near your MacBook. If you do spill liquid, power off immediately—don't restart and hope. Liquid doesn't cause instant failure; it causes failure hours or days later when corrosion reaches critical circuits.
+
+Consider a quality surge protector for your power setup, especially if you're in an area with frequent load shedding. A R400–800 surge protector is vastly cheaper than a R5,000 logic board repair.
+
+Back up your data constantly. If your logic board does fail, data recovery is possible but adds R1,500–3,000 to your repair cost. Cloud backup or external drives eliminate that risk.
+
+## Frequently Asked Questions
+
+### Q: How long does MacBook Pro logic board repair take?
+
+Diagnostics take 1–2 hours. If we're doing component-level repair (replacing a single failed chip), add 24–48 hours. Full board replacement takes 2–3 days. We'll give you an exact timeline once diagnosis is complete.
+
+### Q: Can you recover my data if the logic board is dead?
+
+Yes, in most cases. We can connect the storage drive directly to another machine or use specialist data recovery equipment. Cost varies from R1,500 (straightforward extraction) to R3,500 (if the drive itself has minor faults). It's slower than standard repair, but data survival rate is over 95%.
+
+### Q: What warranty do you offer on logic board repairs?
+
+All logic board repairs come with three years warranty on parts and labour. If a repaired component fails within this period, we fix it free of charge.
+
+### Q: My MacBook shows a kernel panic after a spill. Is this logic board damage?
+
+Not necessarily. Kernel panics can be software issues, RAM faults, or storage problems. That's precisely why our R599 diagnostic exists—to isolate the actual cause before you commit to repair. Book a diagnosis [here](https://zasupport.com/book).
+
+### Q: Is it cheaper to replace the whole logic board than repair the failed component?
+
+Usually, no. Component-level repair (R2,500–5,000) costs less than full board replacement (R6,000–12,000). But if multiple components are damaged or corrosion is widespread, replacement might be the only option. We'll assess and advise.
+
+### Q: How do I know if it's actually a logic board failure and not something else?
+
+You don't—and that's fine. Symptoms like no power, no display, unexpected shutdowns, or failure to recognise storage could stem from five different components. Our diagnostic pinpoints the cause. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to book a time slot or [book online at zasupport.com/book](https://zasupport.com/book).`,
+  },
+  'macbook-spilled-water-logic-board-johannesburg': {
+    slug: 'macbook-spilled-water-logic-board-johannesburg',
+    title: `MacBook Spilled Water Logic Board Johannesburg: The Practical Guide from ZA Support's Workshop`,
+    excerpt: `Water damage to a MacBook isn't necessarily the end of the road—but timing and the right repair approach make all the difference. Over the past decade, we've assessed and repaired more than 18,000 Mac.`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# MacBook Spilled Water Logic Board Johannesburg: The Practical Guide from ZA Support's Workshop
+
+Water damage to a MacBook isn't necessarily the end of the road—but timing and the right repair approach make all the difference. Over the past decade, we've assessed and repaired more than 18,000 MacBooks at our Hyde Park workshop in Johannesburg, and liquid damage to the logic board remains one of the most common problems we see, especially during summer months when humidity rises and accidents happen near coffee cups, water glasses, and the occasional load-shedding-induced panic.
+
+This guide draws directly from our bench experience. We'll walk you through what happens when liquid meets circuitry, why the logic board is vulnerable, and most importantly, what you should do in the first critical minutes after a spill.
+
+## What Happens When Water Hits Your MacBook's Logic Board
+
+The logic board—the motherboard at the heart of every MacBook—is a densely packed circuit with thousands of micro-components. When liquid enters the chassis, it doesn't just sit on the surface. It seeps into sockets, bridges microscopic gaps between components, and creates short circuits that can cause immediate shutdown or, worse, hidden corrosion that emerges weeks later.
+
+In our workshop, we've found that the damage pattern depends on three factors: the type of liquid (pure water behaves differently from coffee or juice), the voltage present when contact occurs, and how quickly the device is powered down. A MacBook that's running when water enters sustains far greater damage than one that's already off. The current flowing through the circuit amplifies the corrosive effect.
+
+We've also noticed that Johannesburg's altitude and dry air create a secondary problem. After the initial spill, moisture can remain trapped inside the chassis for weeks, especially if the device is powered down and left in a warm room during load shedding. Corrosion develops silently, attacking solder joints and component leads.
+
+## Immediate Actions: The First 10 Minutes
+
+If you've just spilled liquid on your MacBook, here's what we advise—not what Apple's support line might suggest, but what we've learned works.
+
+First, power down the device immediately. Don't wait for the automatic shutdown. Close the lid, press and hold the power button for ten seconds, then let it sit. This stops current flow and prevents the short circuit from deepening.
+
+Second, don't turn it back on to "check if it's working." This is the most common mistake we see, and it's also the one that turns a recoverable spill into permanent logic board failure. Every startup attempt when moisture is present risks component damage.
+
+Third, gently turn the MacBook upside down and prop the back edge slightly higher than the front edge, ideally at a 15-degree angle. Use a small object—a book, a wedge—to create the tilt. If the spill was significant, liquid will begin to drain from the bottom vents. Leave it in this position for at least two hours in a warm, dry room.
+
+Fourth, do not use a hairdryer or attempt to heat the device. Heat accelerates oxidation of the circuit traces and can damage components that wouldn't otherwise be affected.
+
+## Why Professional Assessment Matters: Logic Board vs. Surface Damage
+
+Many owners assume that if their MacBook still won't power on after a spill, the logic board is destroyed. In our experience at ZA Support, this isn't always true. We've successfully recovered devices that showed no signs of life, and we've also seen MacBooks that appear to work fine after a spill but fail within weeks due to hidden corrosion.
+
+This is why professional [liquid damage assessment](https://zasupport.com/liquid-damage) is worth the investment. Our Hyde Park technicians use visual inspection under magnification, continuity testing, and in some cases, thermal imaging to identify exactly which components have been affected. We start with a diagnostic assessment from R599, which gives you a clear picture of what's repairable and what the cost will be.
+
+The logic board itself is often salvageable if the damage is caught early and limited to specific areas. We've repaired water-damaged boards by carefully cleaning the affected traces with isopropyl alcohol, replacing corroded capacitors, and re-soldering bridged connections. However, if the water has reached the power delivery circuits or the main processor, repair becomes exponentially harder and less cost-effective than logic board replacement.
+
+## Logic Board Repair vs. Logic Board Replacement
+
+This is the crucial decision point for most customers. If your MacBook's logic board has sustained water damage, you have two options.
+
+Repair involves micro-soldering work, component-level diagnostics, and careful cleaning. It's slower but preserves your original board's identity and can be significantly cheaper than replacement. However, it requires specialist equipment and expertise. Not every technician in Johannesburg is equipped for this work. We've invested in the right tools and training because we see the demand across the city—from Sandton to Fourways to the southern suburbs—but we're aware that many general repair shops can't offer it.
+
+Replacement means sourcing a donor logic board that matches your MacBook's model, memory configuration, and sometimes its Mac OS version (depending on whether the firmware is tied to the original hardware). This is faster and carries less uncertainty. We typically quote replacement with a full system retest, and it comes with up to a three-year warranty depending on the component sourced.
+
+The cost difference is significant. Micro-soldering repair on a water-damaged logic board might cost R1,800–R3,500, depending on the extent of corrosion. Replacement typically runs R2,800–R5,200 including installation and testing. For newer M-series MacBooks, the cost is higher—these boards are more densely integrated and less repairable.
+
+## Data Recovery and Your MacBook's Storage
+
+One question we hear frequently: "Is my data lost if the logic board is damaged?"
+
+In most cases, no. Your data lives on the SSD (solid-state drive), which is a separate component. Even if the logic board is completely non-functional, the SSD itself can be recovered, read, and transferred to a replacement device or external enclosure. We've successfully recovered data from water-damaged MacBooks where the logic board was unsalvageable.
+
+This is one reason not to panic immediately after a spill. As long as you don't attempt repeated startups that might cause further electrical damage, your files are likely safe. Our [logic board repair](https://zasupport.com/logic-board-repair) service includes data recovery assessment at no additional cost during the initial diagnostic.
+
+## Workshop Experience: What We've Learned in Johannesburg
+
+Running a repair workshop in Johannesburg for over a decade has taught us patterns that matter. We've noticed that winter spills—perhaps because people are more likely to have warm drinks indoors during cold snaps—tend to involve coffee or tea rather than water. These are actually harder to repair because the sugars and tannins leave residue that's sticky and corrosive. Summer spills are more often water, which is comparatively easier to address.
+
+We've also seen a seasonal spike in logic board failures during load shedding periods. Why? Because people are more likely to leave devices plugged in during power cuts, and the voltage fluctuations when power returns can damage unprotected hardware. If you're in an area with unpredictable supply, consider a reliable surge protector.
+
+Johannesburg's altitude (1,753 metres) actually works in our favour for drying work. The low humidity helps evaporation, though it also means static electricity is more of a risk during repairs—another reason to use a professional workshop rather than attempting DIY solutions.
+
+## When to Contact ZA Support
+
+You should reach out if:
+- Your MacBook won't power on after a spill, even after drying for 24 hours
+- The device powers on but behaves erratically (random shutdowns, kernel panics, failure to recognise peripherals)
+- You see any visible corrosion, discolouration, or residue on the logic board
+- You want data recovery from a water-damaged device
+- You need a timeline and cost estimate before committing to repair
+
+[Contact us via WhatsApp](https://wa.me/27645295863) with a photo of the affected area and description of the spill, or [book online at zasupport.com/book](https://zasupport.com/book) for an in-person assessment at our Hyde Park location. We're open Monday to Friday, 08:30–17:00, and Saturday 09:00–13:00.
+
+Our standard turnaround for logic board diagnostics is one to two business days. If replacement or repair is needed, we'll provide a firm quote and timeline before proceeding.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Can I claim water damage under my MacBook's warranty?
+
+Apple's limited warranty explicitly excludes damage from liquid, foreign objects, and accidents. Water damage is not covered, regardless of how recently you purchased the device. However, if you have AppleCare+ with accidental damage protection, you may be eligible for repair under that plan—though Apple will charge a service fee, typically higher than our repair costs.
+
+### Q: How long can a MacBook survive with water trapped inside?
+
+This depends on the amount and type of liquid, ambient temperature, and humidity. We've seen devices develop problems within days and others last weeks before corrosion becomes critical. The safest assumption is that trapped moisture will eventually cause failure. Don't delay diagnosis.
+
+### Q: Is it cheaper to buy a new MacBook than repair the logic board?
+
+Not usually. A used MacBook in good condition costs between R8,000–R25,000 depending on model and age. Logic board repair or replacement costs a fraction of that. We recommend repair unless the device is already several years old and beginning to show other age-related problems.
+
+### Q: Will my MacBook work normally after logic board repair?
+
+If the repair is successful—and we only proceed when we're confident it will be—yes, your MacBook should perform exactly as it did before. However, we always recommend a stress test and full software check after repair to catch any subtle issues before you depend on the device.
+
+### Q: What's the difference between an Apple Authorized Service Provider and an independent repair shop?
+
+Apple Authorized providers have access to genuine Apple parts and follow Apple's procedures, but they're often more expensive and have limited flexibility on pricing. Independent shops like ZA Support can sometimes source better-value components, offer more transparent communication, and provide longer warranties. The trade-off is that you're trusting the technician's expertise rather than a global brand. We believe our track record—over 18,000 MacBooks serviced—speaks to our expertise.
+
+### Q: Can I prevent water damage in the future?
+
+Avoid eating or drinking near your MacBook, use a protective case if you travel frequently, and consider keeping your device away from pets and children if they're prone to spills. In Johannesburg specifically, be mindful of condensation during load shedding when you're running air conditioning and then it's suddenly off—the temperature shift can cause moisture to form inside the chassis. A simple preventative step: never leave your MacBook in a car in the sun or in a damp room for extended periods.`,
+  },
+  'managed-it-stack-apple-sme-johannesburg': {
+    slug: 'managed-it-stack-apple-sme-johannesburg',
+    title: `Managed IT Stack for Apple SMEs in Johannesburg: What ZA Support Actually Delivers`,
+    excerpt: `If you're running a small to medium enterprise (SME) in Johannesburg that relies on Apple devices, you know the feeling: your MacBooks, iMacs, and iPads are central to everything you do. A single fail.`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '8 min read',
+    author: 'courtney-bentley',
+    content: `# Managed IT Stack for Apple SMEs in Johannesburg: What ZA Support Actually Delivers
+
+If you're running a small to medium enterprise (SME) in Johannesburg that relies on Apple devices, you know the feeling: your MacBooks, iMacs, and iPads are central to everything you do. A single failure can cascade through your workflow, costing hours and money. Yet finding a managed IT partner who genuinely understands Apple hardware—not just software—is harder than it should be.
+
+That's where we come in.
+
+At ZA Support in Hyde Park, we've spent years building a managed IT stack purpose-built for SMEs who've chosen Apple as their technology foundation. We've serviced over 18,000 Apple devices across Johannesburg and the surrounding areas, from individual MacBook repairs to enterprise-level fleet management. This isn't theoretical knowledge. It's what we do every day, in our workshop, for real businesses like yours.
+
+## What a Managed IT Stack for Apple Actually Means
+
+A lot of IT providers talk about "managed services." What they often mean is remote monitoring and patching—useful, but incomplete for SMEs running Apple hardware. A true managed IT stack for Apple includes three layers: hardware integrity, proactive maintenance, and rapid response.
+
+Here's what we've learned works in practice.
+
+First, hardware integrity matters more than many SMEs realise. Load shedding in Johannesburg, power surges from inconsistent grid supply, and thermal stress in our hot climate place Apple devices under strain that doesn't show up in a software update. We've seen more logic board failures and SSD failures during winter peak-demand periods than anywhere else. Our managed stack includes preventative hardware audits—we check your devices twice yearly, identify components running hot or showing early wear, and replace them before failure occurs. Cost? From R599 per assessment. Prevention almost always costs less than emergency repair.
+
+Second, proactive maintenance keeps your fleet running. This means firmware updates coordinated to avoid business disruption, battery health monitoring for portable devices, thermal management reviews, and backup integrity checks. We manage this remotely for most routine tasks, but we also schedule physical inspections at our Hyde Park facility when devices need hands-on diagnostics.
+
+Third, rapid response is non-negotiable. When something fails, we respond the same day. Our average turnaround for standard repairs is 48 hours; critical issues we often handle within 24 hours.
+
+## The ZA Support Managed Stack: Core Components
+
+Our stack is built on four pillars.
+
+**Hardware Diagnostics and Repair.** We run in-depth diagnostics on all devices entering our managed programme. If you have a MacBook with intermittent kernel panics, we'll identify whether it's a logic board issue, SSD failure, or RAM degradation. If it's our /logic-board-repair service you need, we handle that in-house with genuine components and a three-year warranty. For /liquid-damage incidents—and yes, we see plenty of coffee-related failures in busy Johannesburg offices—we have a dedicated workflow: assessment, component isolation, cleaning, and comprehensive testing. We've completed over 8,000 liquid damage recoveries.
+
+**Fleet Monitoring and Asset Tracking.** You'll get a unified dashboard showing every device's status: battery health, storage capacity, OS version, last backup date, and security patch level. You own nothing new here—this uses Apple's standard APIs—but seeing your entire fleet's health in one place changes how SMEs think about device management. No more surprised failures. No more "I didn't know that MacBook was dying."
+
+**Backup and Business Continuity.** Data loss is the real disaster. We implement Time Machine backups to managed network storage, verify integrity weekly, and maintain encrypted off-site copies for critical workstations. When you lose a drive—and you will—your data is recoverable within hours, not days.
+
+**Vendor Relationships and Genuine Parts.** This is where SMEs usually get stung. Third-party parts, cheap repairs, or out-of-warranty work often fail early. We use only genuine Apple components, maintain certified technician status, and provide warranties on all work. Your MacBook repaired at ZA Support has more protection than a high-street repair franchise.
+
+## Why SMEs Choose Our Stack Over DIY or Chain Repair
+
+We work with over 600 SMEs across Johannesburg—everything from architecture firms in Sandton to creative agencies in Maboneng to legal practices in Illovo. The pattern is clear: SMEs start by trying to manage Apple devices informally (whoever knows someone who knows tech), hit a major failure, realise they've lost control, and then ask us for help.
+
+Our clients tell us three things matter most:
+
+One: predictability. You know your device costs per month. You know your downtime will be minimal. You don't wake up to a dead MacBook and wonder what to do.
+
+Two: expertise. Not all technicians understand Apple devices equally. Our team has worked exclusively with Apple hardware. We know that a MacBook running hot isn't a virus—it's usually a failing fan or thermal paste degradation. We know that Safari crashes on a five-year-old Mac isn't a software bug; it's RAM limitation. This domain knowledge saves you time and money.
+
+Three: local presence. We're here. Hyde Park. Johannesburg. If your device needs physical inspection, you're not posting it to Cape Town or waiting weeks. You can drop it off or we can collect it. You can call us on 064 529 5863 and speak to someone who understands your situation.
+
+## Implementation: How We Onboard an SME
+
+When a new SME client approaches us, we start with a simple audit.
+
+We visit your office (or you bring devices to our Hyde Park workshop), run diagnostics on every Apple device you own, and give you a baseline health report. From there, we propose a managed package tailored to your fleet size and risk tolerance. A three-person design studio has different needs from a twenty-person accounting firm.
+
+Packages typically include monthly monitoring, two scheduled maintenance visits yearly, priority repair response, and standardised parts replacement. We can also layer in enhanced backup, security hardening, and employee device onboarding.
+
+Most SMEs start at one of three tiers. The essential tier covers diagnostics, monitoring, and repair with 48-hour turnaround. The professional tier adds quarterly on-site maintenance, enhanced backup, and 24-hour response for critical systems. The enterprise tier is custom—we're talking about clients with 40+ devices across multiple locations.
+
+Pricing is transparent. Assessments start from R599. Managed monthly fees typically range from R2,500 to R8,000 depending on fleet size and service level. Repairs come with warranties up to three years on major components.
+
+## The Real Cost of Not Having a Managed Stack
+
+We see the alternative regularly. An SME's MacBook dies without warning. They lose three days of work waiting for a non-specialist to attempt recovery. They pay R4,000 for a botched repair that fails within weeks. They lose client data because backups weren't configured.
+
+Or worse: load shedding causes a power surge, multiple devices fail simultaneously, and they have no idea which failures are repairable and which devices are total loss.
+
+A managed stack prevents all of this. Preventative care, proactive monitoring, and expert response cost less than reactionary emergency fixes.
+
+## Getting Started
+
+If you're managing Apple devices for your SME in Johannesburg and you're not confident they're properly supported, reach out.
+
+[Contact us at ZA Support](https://zasupport.com/contact) for a free initial consultation. We'll assess your current setup, identify vulnerabilities, and propose a realistic managed IT stack that fits your budget and risk profile.
+
+Or [book online at zasupport.com/book](https://zasupport.com/book) to schedule a diagnostic visit at our Hyde Park facility.
+
+You can also [WhatsApp us on 064 529 5863](https://wa.me/27645295863) for immediate questions.
+
+Your Apple devices deserve proper care. So does your business.
+
+---
+
+## Frequently Asked Questions
+
+### Q: What's the difference between your managed IT stack and standard repair shops?
+
+Repair shops react to failures. A managed IT stack prevents them. We monitor your devices continuously, replace components before they fail, maintain backups in real time, and respond to urgent issues within hours—not days. For an SME, this shifts your device costs from unpredictable emergencies to predictable monthly fees.
+
+### Q: Do I need a managed stack if I only have three MacBooks?
+
+Yes, arguably more than larger teams. SMEs with small device counts often skip formalised management and then face disproportionate disruption when something fails. Even three devices benefit from coordinated backups, battery health monitoring, and rapid repair response. We've worked with solo practitioners and three-person teams where a single device failure cost them a full week of productivity.
+
+### Q: How long does a typical diagnostic assessment take?
+
+Most assessments take 30 to 45 minutes per device. We run hardware diagnostics (checking logic board, storage, RAM, battery, thermal systems), review software health and security patch status, and verify backup integrity. You'll get a written report with findings and recommendations. Assessment cost is R599.
+
+### Q: Can you manage devices remotely, or do they need to come to Hyde Park?
+
+We do both. Routine monitoring, software updates, and some diagnostics happen remotely. Physical repairs, advanced diagnostics, and initial onboarding happen at our Hyde Park workshop or via on-site visits for larger teams. Most SMEs find a hybrid approach works best—monthly remote monitoring with quarterly physical check-ups.
+
+### Q: What warranty do you offer on repairs?
+
+Standard warranty is one year on all labour and parts. Major component replacements (logic boards, SSDs, displays) carry a three-year warranty. Emergency repairs within our managed service agreement have enhanced warranty terms. We always use genuine Apple parts, which carry Apple's own warranty as well.
+
+### Q: How much does a managed IT stack typically cost for a 10-person SME?
+
+Depends on your device age, existing health, and risk tolerance. A baseline package covering 10 MacBooks with monthly monitoring, 48-hour repair response, and two annual maintenance visits typically runs R4,500 to R6,000 monthly. Add enhanced backup and 24-hour response for another R1,500 to R2,000. We'll provide a detailed quote after your initial assessment.`,
+  },
+  'popia-managed-it-sandton-johannesburg': {
+    slug: 'popia-managed-it-sandton-johannesburg',
+    title: `POPIA Managed IT in Sandton: What Compliance Actually Means for Your Apple Devices`,
+    excerpt: `If you run a business in Sandton, you've heard the word POPIA enough times to know it matters. The Protection of Personal Information Act isn't a one-time checkbox. It's a continuous obligation — and .`,
+    date: '18 May 2026',
+    category: 'Repairs',
+    readTime: '7 min read',
+    author: 'courtney-bentley',
+    content: `# POPIA Managed IT in Sandton: What Compliance Actually Means for Your Apple Devices
+
+If you run a business in Sandton, you've heard the word POPIA enough times to know it matters. The Protection of Personal Information Act isn't a one-time checkbox. It's a continuous obligation — and your Apple devices are right in the middle of it.
+
+We work with businesses across Johannesburg's northern suburbs, and the same conversation keeps happening: "We need to make sure our Macs and iPhones are secure. POPIA compliance isn't optional." What we've learned, over more than 15,000 device repairs and managed support cases, is that compliance isn't just about encryption or password policies. It's about having someone who understands both Apple hardware *and* the legal reality of data protection in South Africa.
+
+This post is what we tell Sandton clients when they call asking how to actually *do* POPIA managed IT.
+
+## What POPIA Really Demands from Your Apple Infrastructure
+
+POPIA applies to every organisation that processes personal information — and that includes Sandton law firms, financial advisory firms, medical practices, and property companies that use Macs and iPhones daily.
+
+The Act requires you to:
+
+- Know what personal data lives on your devices
+- Control who can access it
+- Keep it secure against unauthorised access
+- Report breaches within a defined window
+- Prove you're doing all of this
+
+For Apple devices specifically, this translates to real work. Your MacBook Pro isn't secure just because it shipped with a T2 chip. Your iPhone isn't automatically POPIA-compliant because it has Face ID. You need documented policies, device management infrastructure, regular security audits, and someone who can prove compliance to an auditor or a regulator.
+
+We've seen Sandton businesses — some with 50+ Apple devices — realise mid-audit that they have no central visibility into which employees have which passwords, where client files are stored, or whether a retired staff member's MacBook still has access to shared drives. That's not just a security gap. That's a POPIA liability.
+
+## Device Management as the Foundation
+
+POPIA managed IT starts with visibility and control. You cannot protect what you cannot see.
+
+Apple's Mobile Device Management (MDM) ecosystem — built into macOS and iOS — allows organisations to enforce policies across fleets of Macs, iPhones, and iPads centrally. This means:
+
+- Requiring strong passwords and regular updates across all devices
+- Disabling features that pose compliance risk (like iCloud sync without encryption)
+- Removing access instantly when someone leaves the company
+- Enforcing full-disk encryption on every MacBook
+- Logging and monitoring access to sensitive applications
+
+We manage MDM infrastructure for businesses with teams spread across Sandton, Midrand, and the greater Johannesburg area. The cost? Starting from R599 for an initial security assessment, where we audit your current setup, identify POPIA gaps, and build a roadmap.
+
+The alternative — having no MDM, no central control, and learning about a data breach *after* it happens — costs far more.
+
+## Encryption, Storage, and the Local Reality
+
+POPIA requires encryption of personal data "in transit" and "at rest." For Apple devices, that's straightforward on paper. In practice, Johannesburg has specific challenges we factor into every managed IT plan.
+
+Load shedding is real. If your office loses power unexpectedly, and a MacBook isn't properly configured for sleep states and encrypted storage, you risk data exposure during restart sequences. We advise clients to enable FileVault (full-disk encryption) on every Mac, paired with hardware security keys for sensitive systems. We've recovered data from more than 12,000 MacBooks in Johannesburg — and we've seen what happens when encryption isn't properly configured.
+
+For cloud storage — which almost every Sandton business uses — we verify that Dropbox, Google Drive, and OneDrive accounts are configured to use strong passwords, two-factor authentication, and zero-knowledge storage where possible. We also document *where* client data actually lives. POPIA requires you to know whether personal information is stored locally, in South African data centres, or overseas. That knowledge gap is common, and costly.
+
+## Incident Response and Breach Reporting
+
+POPIA compliance isn't a static state. It's a process. The moment a device is lost, stolen, or infected with malware — you're in a breach scenario.
+
+We work with Sandton firms to establish incident response procedures. That means:
+
+- A clear chain of command when a device goes missing
+- Immediate remote wipe capability (built into MDM)
+- Forensic analysis to determine what data was compromised
+- POPIA breach notification requirements within 30 days of discovery
+- Regulatory reporting to the Information Regulator, if required
+
+We've handled breach incidents where a MacBook was left in a taxi in Johannesburg, and the organisation needed to prove within hours that the data was encrypted, backed up, and remotely wiped. Without managed IT infrastructure in place, that process takes days and leaves gaps.
+
+## Why Sandton Businesses Choose Managed IT Over DIY
+
+There are two paths: hire an in-house IT manager to handle Apple device compliance, or partner with a managed service provider who specialises in Apple and POPIA.
+
+In-house IT works if you're large enough to justify the salary, the liability insurance, and the continuous training. Most Sandton firms — especially professional services — find it simpler to work with us.
+
+We monitor your devices 24/7. We push security updates before vulnerabilities become exploits. We maintain your MDM infrastructure, manage your backup strategies, and keep detailed audit logs. If the Information Regulator asks for evidence of your POPIA controls, we have it. If you need to prove that personal data was encrypted when a device was stolen, we can.
+
+Costs are transparent: R599 for assessment, then monthly managed support starting from standard rates. We also offer extended warranties — up to 3 years — on repaired devices, so if a MacBook is damaged and repaired, you're covered beyond the standard Apple warranty.
+
+## Getting Started with Compliance in Your Hyde Park or Sandton Workflow
+
+We're based in Hyde Park, Johannesburg — walking distance from Sandton's business district. Most clients visit for their initial assessment, where we walk through your current setup: which devices you have, where data lives, what your current backup and encryption practices are, and what gaps exist.
+
+From there, we build a POPIA roadmap. That might be a simple MDM setup for a five-person legal firm, or a comprehensive managed IT program for a larger organisation with multiple office locations.
+
+[Book online at zasupport.com/book](https://zasupport.com/book) to schedule your assessment, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) if you'd like to discuss your specific compliance needs first.
+
+If you've had a device compromised — or suspect you have — we can also handle forensic analysis and [liquid damage recovery](https://zasupport.com/liquid-damage) if hardware needs repair alongside data recovery.
+
+For broader reference on Apple security practices, [Apple Support's security documentation](https://support.apple.com/en-za) outlines the technical controls available. We translate that into POPIA obligations.
+
+---
+
+## Frequently Asked Questions
+
+### Q: Does my small Sandton business really need managed IT for POPIA compliance?
+
+POPIA applies to all organisations processing personal information, regardless of size. A five-person firm handling client details on MacBooks is subject to the same requirements as a larger company. The difference is scale and complexity. For a small firm, we often start with a basic MDM setup, strong encryption, and regular security audits — costs are proportional to risk and device count.
+
+### Q: What happens if we're audited and we don't have managed IT in place?
+
+You'll need to prove that you meet POPIA's security requirements: encryption, access controls, breach notification procedures, and audit trails. Without managed IT, you'll struggle to provide that evidence. Auditors will flag the gaps, and remediation becomes urgent and expensive. Starting with a managed programme avoids this scenario.
+
+### Q: Can we just use Apple's built-in security features and skip MDM?
+
+Apple's built-in features — FileVault, two-factor authentication, iCloud Keychain — are necessary but not sufficient for POPIA. They don't give you central visibility, policy enforcement, or the audit trail that regulators expect. MDM layers on that control and visibility. You need both.
+
+### Q: How much does POPIA managed IT actually cost?
+
+We start with a R599 assessment, which covers auditing your current setup and identifying gaps. Monthly managed support begins at standard rates depending on device count and complexity. Most Sandton businesses with 10–30 devices pay between R2,500 and R5,000 per month for comprehensive coverage, including updates, monitoring, and incident response.
+
+### Q: What if a device is lost or stolen?
+
+If you're on our managed IT programme, we can remotely wipe the device within minutes, confirm that data was encrypted, and generate a report for your compliance file and the Information Regulator if needed. Without managed IT, you're relying on manual processes and hoping the employee reported it quickly.
+
+### Q: Do we need a backup and disaster recovery plan as well?
+
+Yes. POPIA requires you to protect personal information against loss and damage. That means encrypted backups stored separately from your primary devices, tested recovery procedures, and documented retention policies. We build that into every managed IT package — it's not optional.`,
+  },
 };
 
 export async function generateStaticParams() {
