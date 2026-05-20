@@ -124,3 +124,34 @@ export function buildBreadcrumbSchema(
     })),
   };
 }
+
+// ─── LocalBusiness with embedded Reviews ──────────────────────────────────────
+// AggregateRating gives the star average; individual Review objects give AI
+// engines the actual customer voice to quote. Reviews are nested as the parent
+// LocalBusiness's `review` property — never as standalone blocks with their own
+// itemReviewed (that nesting is invalid and is stripped by Google).
+export function buildLocalBusinessReviewSchema(
+  reviews: ReadonlyArray<{ name: string; rating: number; text: string; service?: string }>,
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': ['LocalBusiness', 'ComputerRepairService'],
+    '@id': `${SITE.url}/#organization`,
+    name: SITE.name,
+    url: SITE.url,
+    telephone: CONTACT.phone,
+    aggregateRating: AGGREGATE_RATING,
+    review: reviews.map((r) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: r.name },
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: String(r.rating),
+        bestRating: '5',
+        worstRating: '1',
+      },
+      reviewBody: r.text,
+      ...(r.service ? { name: `${r.service} review` } : {}),
+    })),
+  };
+}

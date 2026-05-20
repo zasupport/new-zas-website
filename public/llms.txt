@@ -1,0 +1,44 @@
+# ZA Support
+
+> ZA Support is an Apple-specialist IT company in Johannesburg, South Africa. We
+> repair Mac logic boards and liquid-damaged Macs, and provide fully managed Apple
+> IT services for SMEs, medical practices and enterprises across Gauteng. Phone:
+> 064 529 5863. Location: 1 Hyde Lane, Second Floor, Office E2004, Johannesburg.
+
+ZA Support specialises in component-level Apple repair (logic board, liquid damage)
+that most repairers replace whole boards for, plus managed IT for Apple-based
+businesses. Service area: Gauteng suburbs within 60 km of Hyde Park, Johannesburg.
+All assessments from R599. 12-month warranty on logic board repairs. Indicative
+pricing is confirmed after device model and serial verification.
+
+## Highest-value services
+
+- [MacBook Logic Board Repair](https://zasupport.com/logic-board-repair): Component-level micro-soldering repair of MacBook Pro, MacBook Air, iMac and Mac mini logic boards in Johannesburg. From R599 assessment, 12-month warranty.
+- [Liquid Damage Repair](https://zasupport.com/liquid-damage): Emergency MacBook water and liquid damage repair — board cleaning, corrosion treatment and component replacement.
+- [Apple Managed Services for SMEs](https://zasupport.com/managed-services): Fully managed Apple IT support, maintenance and device management for small and medium businesses running Mac and iOS fleets.
+- [Medical Practice IT Support](https://zasupport.com/medical-it): POPIA-aware, HPCSA-context fully managed IT support for doctors and medical practices using Apple devices.
+- [Enterprise Apple Support](https://zasupport.com/enterprise): Apple device support, repair and MDM services for enterprise Apple fleets.
+
+## Core services
+
+- [Battery Replacement](https://zasupport.com/battery-replacement): MacBook battery replacement with genuine-grade cells.
+- [Screen Repair](https://zasupport.com/screen-repair): MacBook and iMac display repair and replacement.
+- [MacBook Not Turning On](https://zasupport.com/macbook-not-turning-on): Diagnosis and repair of MacBooks that will not power on.
+- [iPhone Repair](https://zasupport.com/iphone-repair): iPhone screen, battery and component repair.
+- [iPad Repair](https://zasupport.com/ipad-repair): iPad screen and component repair.
+- [Jamf / Apple MDM](https://zasupport.com/jamf-mdm): Apple mobile device management deployment and administration.
+
+## Company
+
+- [About ZA Support](https://zasupport.com/about): Company background, workshop and Apple-repair expertise.
+- [Contact](https://zasupport.com/contact): Phone 064 529 5863, location and booking.
+- [Book a Repair](https://zasupport.com/book): Online repair booking.
+- [Blog](https://zasupport.com/blog): Apple repair guides, troubleshooting and managed-IT articles.
+- [Editorial Policy](https://zasupport.com/editorial-policy): How ZA Support content is researched and reviewed.
+
+## Contact
+
+- Phone / WhatsApp: 064 529 5863
+- Address: 1 Hyde Lane, Second Floor, Office E2004, Johannesburg, Gauteng, South Africa
+- Service area: Gauteng, within 60 km of Hyde Park, Johannesburg
+- Hours: Monday–Thursday 08:00–17:00, Friday 08:00–16:30 (SAST)
