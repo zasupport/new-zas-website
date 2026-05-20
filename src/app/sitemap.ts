@@ -19,6 +19,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/apple-support`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
     { url: `${base}/macbook-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/book`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+
+    // Business hub
+    { url: `${base}/business`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+
+    // Answers Q&A hub
+    { url: `${base}/answers`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${base}/answers/logic-board-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/answers/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/answers/battery-and-screen`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${base}/answers/business-it-support`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/answers/medical-practice-it`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+
     { url: `${base}/macbook-air-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/macbook-pro-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/imac-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },

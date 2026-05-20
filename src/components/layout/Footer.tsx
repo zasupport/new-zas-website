@@ -8,7 +8,7 @@ const serviceLinks = [
   { label: 'iPhone Repair', href: '/iphone-repair' },
   { label: 'iPad Repair', href: '/ipad-repair' },
   { label: 'Apple Repair Hub', href: '/apple-repair' },
-  { label: 'JAMF MDM', href: '/jamf-mdm' },
+  { label: 'For Business', href: '/business' },
   { label: 'Managed Services', href: '/managed-services' },
 ];
 
@@ -17,6 +17,7 @@ const infoLinks = [
   { label: 'Services & Pricing', href: '/services' },
   { label: 'Contact Us', href: '/contact' },
   { label: 'Blog', href: '/blog' },
+  { label: 'Answers', href: '/answers' },
   { label: 'Apple Support', href: '/apple-support' },
 ];
 
