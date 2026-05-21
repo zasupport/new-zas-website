@@ -4,7 +4,7 @@ import { Phone, ArrowRight, Shield, BadgeCheck, Clock, Star, Headphones } from '
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
-import { CONTACT, SITE, REVIEWS } from '@/lib/constants';
+import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Apple Support Johannesburg | Same-Day Help for Mac, iPhone, iPad | ZA Support',
@@ -179,19 +179,15 @@ export default function AppleSupportPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10 text-center">
             {SITE.rating} on Google &mdash; {SITE.reviewCount} Reviews
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {REVIEWS.map((review) => (
-              <div key={review.name} className="p-6 rounded-2xl bg-[rgba(22,34,32,0.6)] border border-[rgba(15,234,122,0.12)]">
-                <div className="flex items-center gap-1 mb-3">
-                  {[1,2,3,4,5].map(i => <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />)}
-                </div>
-                <p className="text-[#E8F4F1] text-sm italic mb-4">&ldquo;{review.text}&rdquo;</p>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-[rgba(15,234,122,0.15)] rounded-full flex items-center justify-center text-[#0FEA7A] font-bold text-sm">{review.name[0]}</div>
-                  <span className="text-[#E8F4F1] font-semibold text-sm">{review.name}</span>
-                </div>
-              </div>
-            ))}
+          <div className="flex flex-col items-center gap-4">
+            <p className="text-[#7A9E98] text-center max-w-xl">
+              Every rating is a verified review from a real customer on our Google
+              Business Profile. Read them in full on Google.
+            </p>
+            <a href={SITE.googleMapsUrl} target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all text-sm">
+              Read all {SITE.reviewCount} reviews on Google
+            </a>
           </div>
         </div>
       </section>

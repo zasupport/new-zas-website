@@ -435,7 +435,7 @@ export default function iMacLogicBoardPage() {
                 desc: 'M1, M3, and M4 iMacs are increasingly common. Our engineers understand the Unified Memory Architecture, we do not guess with Apple Silicon repairs.',
               },
               {
-                title: '4.9★, 120+ Google Reviews',
+                title: '4.9★, 600+ Google Reviews',
                 desc: 'The strongest review authority for Apple repair in Johannesburg. Real clients, real names, real suburbs. Read our reviews on Google Maps.',
               },
               {
