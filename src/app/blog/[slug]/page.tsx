@@ -10275,8 +10275,7 @@ We guarantee that repair work is done correctly and components function as speci
 }
 \`\`\`
 \`\`\`
-
-**Word count: 1,042 | Body text verified | All requirements met.**`,
+`,
   },
   'macbook-wifi-not-working-johannesburg': {
     slug: 'macbook-wifi-not-working-johannesburg',
@@ -12184,24 +12183,7 @@ All repairs include up to a 3-year warranty on parts and labour, provided the da
 ---
 
 **Ready to fix your MacBook's USB-C port?** Message us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863) or book your from R599 assessment at **zasupport.com/book**. We serve Hyde Park, Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria. From R599 assessment.
-
----
-
-## LEARNED
-USB-C port failures are IC-level (thermal/surge damage) or connector-level (wear). South African context (load shedding, heat, cable quality) drives unique repair frequency.
-
-## BETTER
-Grounded pricing language ("from R599") and specific geographic service area (Hyde Park + 60km radius). Technical depth (5V/20V diagnostic voltages, 5mm IC dimensions) builds E-E-A-T.
-
-## WHY
-Competitive gap: most online guides ignore regional power infrastructure. First-person workshop voice + concrete diagnostics + warranty clarity outrank generic Apple support pages.
-
-## REPLICATE
-- Open with real workshop observation, not theory
-- Name specific components + their failure modes
-- Ground geography to Gauteng only; avoid provincial generalisation
-- Include assessment cost + warranty terms early
-- End with action CTA (WhatsApp + booking link)`,
+`,
   },
   'popia-it-provider-agreement-medical-practice': {
     slug: 'popia-it-provider-agreement-medical-practice',
@@ -13328,67 +13310,6 @@ If we cannot diagnose the root cause of your issue or if repair is impossible (e
 
 ---
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is my MacBook Air M3 still under Apple warranty, and does ZA Support honour it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We work alongside Apple warranty terms. If your device is within Apple's one-year limited warranty or covered under AppleCare+, we can perform covered repairs from R599—you'll pay only for out-of-warranty components. We're Apple-certified and authorised to service M3 Air units. For warranty status, bring your proof of purchase or serial number; we'll verify immediately."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does the R599 assessment include?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The assessment covers Apple Diagnostics, thermal monitoring, visual inspection under magnification, power rail measurement, and a written report identifying the fault and repair cost. You'll know exactly what's wrong and what fixing it costs before committing to labour. The assessment fee is waived if you proceed with repair; otherwise, it's a one-time R599 charge."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you fix thermal throttling without replacing the logic board?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Often, yes. We've resolved 60–70% of M3 Air throttling cases through heatspreader cleaning, thermal paste replacement, and SMC firmware reset. If diagnostics reveal a faulty voltage regulator or capacitor, board-level repair is possible in some cases; full replacement is the backup. We'll know after the initial assessment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does battery replacement take, and what's the warranty?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Battery replacement typically takes 24–48 hours. We source genuine Apple batteries and test them under load before installation. New batteries carry our 3-year warranty, which covers manufacturing defects and capacity loss beyond 20% within the warranty period. Normal wear—battery age, charge cycle count—is not covered."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "I'm in Centurion. Do you service my area?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Our service area covers all Gauteng suburbs within 60km of Hyde Park, including Centurion, Midrand, Pretoria (northern), Fourways, and surrounding areas. Bring your device to our Hyde Park workshop, or contact us to discuss remote diagnostics for preliminary assessment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's your From R599 assessment promise?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If we cannot diagnose the root cause of your issue or if repair is impossible (e.g., unrepairable logic board damage), you pay zero labour costs. You'll pay only for the initial R599 assessment. We stand by this because our diagnostic capability is high—we very rarely encounter cases we cannot resolve or clearly explain."
-      }
-    }
-  ]
-}
-\`\`\`
-
----
-
 **Contact ZA Support today.**
 
 [WhatsApp: **064 529 5863**](https://wa.me/27645295863)  
@@ -13397,7 +13318,6 @@ Location: Hyde Park, Johannesburg (Gauteng)
 
 Your M3 Air deserves expert care. We've got the tools, the experience, and the warranty to back it.
 \`\`\`
-
 `,
   },
   'macbook-repair-midrand': {
@@ -13749,83 +13669,9 @@ Significantly. Water has approximately a 70% recovery rate with prompt cleaning.
 
 Our from R599 assessment determines the exact scope. Ultrasonic cleaning alone costs R1,800–R2,400. Component-level [logic board repair](/logic-board-repair) ranges from R2,900 to R10,000+ depending on which components were damaged. Compare this to Apple’s R15,000–R54,000 for a full board replacement. See our [full pricing guide](/blog/macbook-water-damage-repair-cost-2026) for detailed breakdowns by model and timeline.
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I use a hairdryer on a low setting to dry my MacBook?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Even on a low setting, a hairdryer concentrates heat unevenly and can push moisture deeper into the chassis. Use the inverted-V gravity method and get it to a specialist within 4-6 hours."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long can I wait before bringing my MacBook in for repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The ideal window is 4-6 hours. Corrosion begins within 12 hours in Johannesburg humidity. The 72-hour drying advice is a myth."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does putting my MacBook in rice actually work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Rice cannot absorb moisture from inside a sealed aluminium enclosure. It sheds starch dust that adds contamination."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will Apple cover water damage under warranty?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Apple warranty and AppleCare+ do not cover liquid damage. Apple quotes R15,000-R54,000 for full board replacement. Independent component-level repair costs R1,800-R10,000."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is my data safe if my MacBook got wet?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In most cases, yes. Modern MacBook SSDs store data in flash memory resilient to liquid. Data recovery is often possible under POPIA-compliant protocols."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should I do if I already powered on my MacBook after a spill?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Turn it off immediately by holding the power button for 10 seconds. Then flip it inverted-V and bring it to a specialist as soon as possible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the type of liquid matter for MacBook damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Significantly. Water has ~70% recovery rate, coffee ~50%, rooibos tea ~30%, and soft drinks ~20%. Saltwater adds R300-R800 to repairs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does MacBook water damage repair cost in South Africa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Assessment from R599. Ultrasonic cleaning R1,800-R2,400. Component-level logic board repair R2,900-R10,000+. Compare to Apple R15,000-R54,000."
-      }
-    }
-  ]
-}
-\`\`\`
-
 **Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
-\`\`\``,
+\`\`\`
+`,
   },
   'macbook-water-damage-repair-cost-2026': {
     slug: 'macbook-water-damage-repair-cost-2026',
@@ -13996,83 +13842,9 @@ Contact us on 064 529 5863 to discuss options for larger repairs. We want to fin
 
 We reassemble your MacBook and return it to you. You only pay the from R599 assessment fee. We also provide our written assessment report detailing the damage.
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does the from R599 assessment get deducted from the MacBook repair cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. If you proceed with the repair, the R599 assessment fee is applied to the total cost. If you choose not to proceed, the assessment fee is all you pay."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the cheapest MacBook water damage repair can cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The minimum is approximately R1,800 for ultrasonic cleaning with no component replacement, for water-only spills brought in within 4-6 hours."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you repair MacBooks from other provinces in South Africa?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Contact 064 529 5863 for courier instructions. Workshop at 1 Hyde Park Lane, Johannesburg 2196."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does MacBook water damage repair take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ultrasonic cleaning: 1-2 business days. Component-level repair: 3-5 business days. Complex repairs: 5-7 business days. Load shedding can add 1-2 days."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it cheaper to buy a new MacBook than repair water damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If repair costs less than 40% of replacement value, repair almost always makes sense. A R4,500 repair on a R32,999 MacBook Pro (14%) is a clear win."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my MacBook had problems before the liquid spill?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pre-existing issues are identified separately during assessment. Warranty covers only liquid damage components replaced."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer payment plans for MacBook repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Contact ZA Support on 064 529 5863 to discuss payment options for larger repairs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if I decide not to go ahead with the MacBook repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The MacBook is reassembled and returned. You only pay the from R599 assessment fee. A written assessment report is provided."
-      }
-    }
-  ]
-}
-\`\`\`
-
 **Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
-\`\`\``,
+\`\`\`
+`,
   },
   'signs-of-water-damage-macbook': {
     slug: 'signs-of-water-damage-macbook',
@@ -14230,83 +14002,9 @@ Intermittent charging issues. The USB-C charging IC is one of the first componen
 
 Our comprehensive assessment is from R599. This includes disassembly, LCI check, stereo microscope examination, component-level diagnosis, and a detailed written quote. From R599 assessment applies to the repair itself.
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I check the Liquid Contact Indicators myself without opening my MacBook?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "On 2013-2015 Retina models, some LCIs are visible through bottom case vents. On 2016+ models, bottom case removal is required. Professional assessment from R599 recommended."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "My MacBook was splashed weeks ago but seems fine — should I get it checked?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Silent corrosion progresses for months then causes catastrophic failure. A from R599 assessment identifies hidden corrosion before it spreads."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can liquid damage be repaired if found months later?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, but costs increase significantly. Prompt treatment costs R1,800-R2,400. Delayed cases often require component-level repair at R4,500-R12,000."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does AppleCare+ cover MacBook liquid damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AppleCare+ covers accidental damage with approximately R1,299 excess, but Apple replaces the entire logic board. Independent component-level repair is often more cost-effective."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I tell if a second-hand MacBook has water damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use the 10-point checklist: smell keyboard, inspect ports, check screws, test keys, test USB-C ports, check battery, test speakers, verify Wi-Fi/Bluetooth, run Apple Diagnostics."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can humidity alone trigger Liquid Contact Indicators?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In extreme conditions, Johannesburg summer humidity can cause borderline triggering. Combined with physical signs, it reliably indicates liquid exposure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the most common sign of hidden water damage on a MacBook?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Intermittent charging issues. The USB-C charging IC corrodes first because it sits near the port where liquid enters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does it cost to diagnose MacBook water damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Comprehensive assessment from R599 includes disassembly, LCI check, stereo microscope examination, component-level diagnosis, and detailed written quote."
-      }
-    }
-  ]
-}
-\`\`\`
-
 **Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
-\`\`\``,
+\`\`\`
+`,
   },
   'macbook-logic-board-repair-vs-replacement': {
     slug: 'macbook-logic-board-repair-vs-replacement',
@@ -14493,83 +14191,9 @@ We use the 40% threshold. If repair cost exceeds 40% of replacement value, consi
 
 Yes. Every from R599 assessment includes a detailed written report documenting LCI status, corrosion location and extent, damaged components, recommended repair plan, and itemised cost breakdown.
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the success rate for MacBook logic board repair after water damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ZA Support maintains an 85% success rate. Failed cases involve extensive corrosion, CPU/SoC damage, or multi-layer trace damage. From R599 assessment applies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Apple repair individual components on a MacBook logic board?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Apple replaces the entire logic board, costing R15,000-R54,000. They do not offer component-level repair."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will I lose my data if the MacBook logic board is repaired?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Component-level repair preserves your existing board and soldered SSD with all data intact."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is reballing and when is it needed for MacBook repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reballing removes a BGA chip, cleans solder pads, applies new solder balls, and resolders it. Needed when corrosion compromises underneath connections. Cost: R2,000-R4,500."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are replacement components sourced for MacBook logic board repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "From known-good donor boards, new-old-stock suppliers, and quality electronic distributors. Every component tested before installation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is component-level repair as reliable as full board replacement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Following IPC-A-610 standards with proper equipment, it restores full functionality. Up to 12-month warranty provided."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should I buy a new MacBook instead of repairing water damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use the 40% threshold. If repair exceeds 40% of replacement value, consider replacing. Below 30%, repair is almost always better."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide a written damage report for MacBook liquid damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Every from R599 assessment includes LCI status, corrosion details, damaged components, repair plan, and itemised cost breakdown."
-      }
-    }
-  ]
-}
-\`\`\`
-
 **Contact ZA Support** on [**064 529 5863**](https://wa.me/27645295863) (WhatsApp) or [book online](/book).
-\`\`\``,
+\`\`\`
+`,
   },
   'macbook-keyboard-repair-johannesburg': {
     slug: 'macbook-keyboard-repair-johannesburg',
@@ -16522,67 +16146,6 @@ Yes. We service every Mac model: MacBook Air, Pro, iMac, Mac mini, Mac Studio, a
 
 ---
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a Mac repair usually take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most repairs—screen replacement, thermal cleaning, battery swap—complete in 3–5 working days. Logic board repairs and data recovery can take 1–3 weeks if parts need sourcing. We'll give you a timeline with your repair quote."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer a warranty on repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. All repairs include up to a 3-year warranty on parts and labour. If the same component fails again within that period, we repair it free. Read your repair receipt for full terms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you recover data from a dead Mac?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Often, yes—especially if the drive is physically intact. Even liquid-damaged machines can yield data if the drive hasn't corroded. Recovery costs from R1,500 to R8,000 depending on damage. We'll assess the drive free and quote recovery before proceeding."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between your service and an Apple Store?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Apple Stores replace components; we repair them. A broken MacBook screen at an Apple Store means buying a whole new display unit. With us, we fix individual sections if possible. We're also faster and cheaper. We don't require an Apple ID or proof of purchase for repairs. However, if your Mac is under AppleCare+, Apple's warranty terms apply—we'll advise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I get my Mac repaired the same day?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not usually, but sometimes. Simple fixes like battery replacement or RAM upgrade can finish in hours. Screen replacements take 4–6 hours if we have the part in stock. Logic board work requires overnight. WhatsApp us with your model and issue; we'll tell you realistic timelines."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you repair MacBook Airs, iMacs, and Mac minis?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We service every Mac model: MacBook Air, Pro, iMac, Mac mini, Mac Studio, and Mac Pro. Pricing and timeline vary by model, but our assessment process is the same for all."
-      }
-    }
-  ]
-}
-\`\`\`
-
----
-
 **Ready to get your Mac fixed? Contact ZA Support today.**
 
 [**[WhatsApp: 064 529 5863](https://wa.me/27645295863)**](https://wa.me/27645295863)  
@@ -16591,7 +16154,6 @@ Yes. We service every Mac model: MacBook Air, Pro, iMac, Mac mini, Mac Studio, a
 
 We're open Monday–Friday 08:00–17:00, Saturday 09:00–13:00. Load shedding can affect our hours; check our status on WhatsApp before visiting.
 \`\`\`
-
 `,
   },
   'macbook-pro-m3-max-repair-johannesburg': {
@@ -16883,65 +16445,6 @@ No. We never delete or reset your MacBook during repair unless you specifically 
 
 Flexgate (display cable fault) causes flickering that worsens when you move the screen or adjust the hinge. It's intermittent and often appears first thing in the morning. GPU failure usually shows coloured lines or pixelation in specific areas and often causes kernel panics or freezing. The external monitor test is the fastest way to tell: if the external display flickers too, it's GPU. If only your MacBook screen flickers, it's the cable. Our R599 assessment confirms this instantly with diagnostic software.
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Will my MacBook be covered by Apple warranty if I see screen flickering?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Apple's standard one-year limited warranty covers manufacturing defects, including Flexgate cable faults, provided there is no physical damage. If your MacBook is within the warranty period, contact Apple or visit an Apple Store in Johannesburg. However, Apple repair can take 2–3 weeks and costs are high if warranty has expired. Our team in Hyde Park often turns repairs around within 24 hours at a fraction of Apple's price. After repair with us, you'll have a up to 3-year warranty on the work."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is screen flickering dangerous for my data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Flickering is a display issue only—it doesn't corrupt your files or cause data loss. However, if flickering is accompanied by kernel panics, unexpected shutdowns, or strange sounds, your logic board may be failing. In that case, back up your data immediately before attempting any repairs. Contact us urgently if you notice these additional symptoms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I fix MacBook screen flickering at home?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can troubleshoot (Safe Mode, temperature checks, external monitor test) without risk. Actual repair—especially display cable replacement—requires precision tools and experience. Attempting microsoldering or opening your logic board without proper training will almost certainly cause permanent damage. For anything beyond troubleshooting, bring your machine to our workshop in Hyde Park or Sandton."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does a display cable replacement take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In our workshop, display cable replacement typically takes 2–3 hours. We turn around most repairs the same day if you drop your MacBook off in the morning. Turnaround time depends on how busy we are, so [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to confirm availability before you visit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will I lose my data during repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. We never delete or reset your MacBook during repair unless you specifically request it. Your files remain exactly as they were. We work on the hardware only. If your MacBook has a logic board fault and we need to replace the board, we can often recover your data from the old board and transfer it to the new one—ask us about this when you visit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between Flexgate and GPU failure, and how do I know which I have?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Flexgate (display cable fault) causes flickering that worsens when you move the screen or adjust the hinge. It's intermittent and often appears first thing in the morning. GPU failure usually shows coloured lines or pixelation in specific areas and often causes kernel panics or freezing. The external monitor test is the fastest way to tell: if the external display flickers too, it's GPU. If only your MacBook screen flickers, it's the cable. Our R599 assessment confirms this instantly with diagnostic software."
-      }
-    }
-  ]
-}
-\`\`\`
-
 ---
 
 ## Next Steps
@@ -16950,7 +16453,8 @@ Your MacBook's screen flickering is fixable. Most cases resolve within 24 hours 
 
 **From R599 assessment.** If we can't repair it, you pay nothing.
 
-[Visit our booking page: zasupport.com/book](https://zasupport.com/book)`,
+[Visit our booking page: zasupport.com/book](https://zasupport.com/book)
+`,
   },
   'liquid-damage-macbook-pro-sandton': {
     slug: 'liquid-damage-macbook-pro-sandton',
@@ -19519,68 +19023,10 @@ Yes. During setup, Migration Assistant will merge accounts and files. However, i
 
 Migration Assistant can restart from the same backup without data loss. The process is designed to be resumable. However, if your new Mac's storage is failing, repeated migration attempts can accelerate the failure. If migration fails three times, we recommend our From R599 initial assessment (from R599). If we diagnose a logic board or storage fault, we'll repair it under up to 3-year warranty.
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I migrate from an Intel Mac to an Apple Silicon M-series Mac?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Migration Assistant fully supports Intel-to-Apple Silicon transfers. The process is identical to Mac-to-Mac migration, though it may take 50% longer because your new Mac must translate Intel-compiled applications to Apple Silicon equivalents. Some older Intel-only applications won't run natively on M-series Macs—Migration Assistant will flag these and recommend alternatives."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does Migration Assistant take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This depends entirely on your data volume. For 100GB, expect 1–2 hours over Wi-Fi. For 500GB, expect 6–12 hours. For 1TB or more, allow 24 hours. If you're using a direct Mac-to-Mac connection with Thunderbolt cable, transfers are 2–3× faster than Wi-Fi. We recommend overnight transfers to avoid interruptions from load-shedding in Johannesburg."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my Time Machine backup is corrupted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You'll see a corruption warning during migration setup. Do not attempt to repair it yourself. Bring your external drive to our Hyde Park workshop for diagnosis from R599. We can recover data directly from the drive's storage chips if the drive hardware is intact."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will Migration Assistant transfer my Boot Camp partition (Windows)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Migration Assistant only handles macOS. If you're using Boot Camp or Parallels Desktop for Windows applications, you'll need to reinstall Windows and your applications on your new Mac separately. We can assist with this during a from R599 assessment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I migrate to a Mac that already has user accounts and data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. During setup, Migration Assistant will merge accounts and files. However, if your new Mac already has significant data, Migration Assistant might prompt you to erase it first to prevent conflicts. Always back up your new Mac's data before starting migration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if migration fails and I need to start over?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Migration Assistant can restart from the same backup without data loss. The process is designed to be resumable. However, if your new Mac's storage is failing, repeated migration attempts can accelerate the failure. If migration fails three times, we recommend our From R599 initial assessment (from R599). If we diagnose a logic board or storage fault, we'll repair it under up to 3-year warranty."
-      }
-    }
-  ]
-}
-\`\`\`
-
 ---
 
-**Need hands-on help with Mac migration?** WhatsApp us at 064 529 5863 or [book an appointment at ZA Support](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.`,
+**Need hands-on help with Mac migration?** WhatsApp us at 064 529 5863 or [book an appointment at ZA Support](https://zasupport.com/book). We're based in Hyde Park, Johannesburg, and serve Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, and Centurion.
+`,
   },
   'mac-support-financial-services-johannesburg': {
     slug: 'mac-support-financial-services-johannesburg',
@@ -20420,67 +19866,7 @@ Any part we replace during preventive maintenance—thermal paste, heatsink, bat
 ### Q: Is it worth paying for maintenance, or should I wait until something breaks?
 
 Preventive maintenance costs R599–R1,800 depending on the service level. Repair costs range from R600 (thermal paste) to R12,000+ (logic board replacement). A single prevented failure justifies years of maintenance. Beyond cost, preventive maintenance keeps your MacBook running reliably. We've had customers report that their devices feel faster and stay cooler after their first service. In Johannesburg's climate, waiting until failure happens is expensive.
-
----
-
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How often should I have my MacBook serviced in Johannesburg?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We recommend a professional assessment every four to six months, particularly if you live in areas with high dust exposure like Midrand or Fourways. Monthly at-home cleaning of vents and monthly battery health checks via System Report bridge the gap. If your MacBook is over three years old, increase to quarterly assessments. Johannesburg's heat and humidity accelerate wear compared to cooler climates."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between a thermal paste replacement and a full thermal system service?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Thermal paste replacement removes the bottom case, replaces the paste between the processor and heatsink, and reassembles the device. This costs around R600–R800 and typically drops temperatures by 3–5°C. A full thermal system service includes paste replacement, heatsink cleaning, fan bearing inspection, and conformal coating if corrosion is detected. This costs R1,200–R1,800 and delivers larger temperature improvements, often 8–12°C. We recommend the full service annually; paste replacement every 18–24 months if thermal performance has degraded."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I prevent liquid damage to my MacBook?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Partial prevention, yes. Never eat or drink near your MacBook. Use a protective case when travelling between Johannesburg suburbs. If liquid spills, power off immediately and bring the device to us within 12 hours. Early intervention prevents widespread failure. We've recovered MacBooks from coffee spills costing R400–R800; delayed response often requires R6,000–R12,000 in logic board repair."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why does my MacBook feel hot, and is it dangerous?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MacBooks are designed to run warm. If the bottom case is too hot to hold comfortably for more than a few seconds, something's restricting airflow. Common causes: dust in vents, thermal paste failure, or a runaway background process. Prolonged high temperature accelerates battery ageing and shortens component lifespan. Book an assessment from R599 to identify the cause. Solutions typically involve cleaning (R400–R600) or thermal paste replacement (R600–R800)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the warranty on preventive maintenance work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Any part we replace during preventive maintenance—thermal paste, heatsink, battery, or internal cleaning—is covered by up to a 3-year warranty. If a replaced component fails, we repair it at from R599. This applies to labour as well. We're confident in this guarantee because preventive maintenance prevents future failures. Parts replaced at our Hyde Park workshop are genuine or equivalent-quality components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it worth paying for maintenance, or should I wait until something breaks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Preventive maintenance costs R599–R1,800 depending on the service level. Repair costs range from R600 to R12,000+. A single prevented failure justifies years of maintenance. Preventive maintenance keeps your MacBook running reliably and feeling faster. In Johannesburg's climate, waiting until failure happens is expensive and risky."
-      }
-    }
-  ]
-}
-\`\`\``,
+`,
   },
   'hpcsa-records-mac-backup-johannesburg': {
     slug: 'hpcsa-records-mac-backup-johannesburg',
@@ -22308,36 +21694,7 @@ Three to five working days. Assessment takes one day; disassembly and SSD instal
 ---
 
 **Need help now? WhatsApp us: 064 529 5863 | Book online: [zasupport.com/book](https://zasupport.com/book)**
-
----
-
-## LEARNED
-- Fusion Drive failures are mechanical, not electrical—repair isn't viable, replacement is essential
-- E-E-A-T signals require specific model numbers (2013, 2015, 2017+), measurable timescales (3–5 days), and transparent pricing (R3,200–R5,800)
-- Load shedding context (Hyde Park, Midrand, Centurion) adds credibility in Gauteng market
-- FAQs must address DIY risk and warranty reassurance, not generic troubleshooting
-- 1,380 words + 6 FAQs + JSON-LD schema = comprehensive, rankable content
-
-## BETTER
-- Led with workshop experience ("hundreds repaired") before technical detail
-- Specific cable and bracket descriptions ground authority
-- Internal links contextualised (logic board, liquid damage) rather than inserted
-- "From R599 assessment" applied only to diagnostics, not repairs (compliance with §226)
-- Avoided "from R599 assessment"—replaced with "from R599 assessment"
-
-## WHY
-- Fusion Drive Johannesburg has low commercial intent—informational users need trust signals
-- 3-year warranty + UPS + Time Machine backup address anxiety about data loss during repair
-- Geographical specificity (load shedding, suburbs) differentiates from national competitors
-- JSON-LD FAQPage improves CTR on SERPs; 6 FAQs exceed minimum for featured snippet eligibility
-
-## REPLICATE
-1. Lead with counted workshop experience ("hundreds repaired")
-2. Name mechanics early (spinning platters, bearings wear)
-3. Price ranges transparent; no "call for quote"
-4. Internal links solve adjacent problems (logic board = why SSD-only is better)
-5. Warranty + backup process = trust anchors
-6. 1.5x target word count for competitive repair content; JSON-LD for every FAQ`,
+`,
   },
   'macbook-backlight-ic-repair-johannesburg': {
     slug: 'macbook-backlight-ic-repair-johannesburg',
@@ -26577,68 +25934,10 @@ If drops persist after a card replacement, the cause is usually antenna damage o
 ### Q: Is it cheaper to replace my MacBook than repair the WiFi card?
 Rarely. A WiFi card replacement costs R1,500–R2,500 all-in. A used MacBook Air costs R6,000–R12,000. Even if the card were R5,000, repair still saves money. The only exception is if your machine has multiple simultaneous failures (cracked screen, failed keyboard, dead battery, broken WiFi) making it economically unviable.
 
-## Schema Markup
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a MacBook WiFi card repair take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most repairs complete within 24 hours from drop-off. Same-day service is available if you bring your machine before 10:00 and the fault is confirmed as a simple card replacement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will my MacBook warranty be affected by third-party WiFi repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Apple's warranty covers manufacturing defects but not accidental damage or wear. Since your warranty has likely expired if the WiFi card is failing, third-party repair at ZA Support won't void anything. We provide our own up to 3-year warranty on replaced modules."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can a WiFi card be repaired or must it be replaced?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In 90% of cases, the card itself cannot be repaired—it must be replaced. However, if the fault is a loose antenna connector or a damaged flex cable, our technicians can sometimes repair or re-seat the existing card for a lower cost."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between a Broadcom and Atheros WiFi card?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both are wireless chipset manufacturers used by Apple. Broadcom modules appear in most modern MacBooks; older models used Atheros. The repair process is identical. We stock replacement modules for both types."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why does my WiFi drop every few minutes even after repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If drops persist after a card replacement, the cause is usually antenna damage or incorrect routing during reassembly. Our technicians photograph and test antenna connections to prevent this. If drops occur, return to us—we'll re-seat the antennas at no cost under warranty."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it cheaper to replace my MacBook than repair the WiFi card?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rarely. A WiFi card replacement costs R1,500–R2,500 all-in. A used MacBook Air costs R6,000–R12,000. Even if the card were R5,000, repair still saves money. The only exception is if your machine has multiple simultaneous failures making it economically unviable."
-      }
-    }
-  ]
-}
-\`\`\`
-
 ---
 
-**Ready to restore your MacBook's WiFi?** Contact ZA Support in Hyde Park, Johannesburg. [**WhatsApp 064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**. We diagnose, repair, and test—all with No Fix No Fee.`,
+**Ready to restore your MacBook's WiFi?** Contact ZA Support in Hyde Park, Johannesburg. [**WhatsApp 064 529 5863**](https://wa.me/27645295863) or book online at **zasupport.com/book**. We diagnose, repair, and test—all with No Fix No Fee.
+`,
   },
   'corporate-mac-onboarding-johannesburg': {
     slug: 'corporate-mac-onboarding-johannesburg',
@@ -30595,65 +29894,6 @@ Up to 3-year warranty on all labour and replacement components. This covers manu
 
 Load shedding creates thermal and power cycling stress that dramatically accelerates component failure. Machines experiencing 3–4 unplanned power cycles weekly degrade 40–60% faster than normally powered devices. We recommend UPS (uninterruptible power supply) units for critical fleet machines and quarterly thermal inspections specifically to monitor load shedding impact.
 
-## FAQPage Schema
-
-\`\`\`json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How often should a corporate MacBook fleet receive professional maintenance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Quarterly maintenance is the standard for active business fleets in Johannesburg's climate. This includes battery health checks, thermal system inspection, storage optimisation, and software updates. Load shedding and high ambient temperatures in Sandton make quarterly schedules essential rather than optional."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the typical cost difference between preventative maintenance and emergency repair?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Preventative battery replacement (R800–1,200) prevents a complete device failure that might cost R3,500–6,000 to repair. Thermal maintenance (R400–600 annually) prevents logic board damage that can exceed R5,000. For a 20-MacBook fleet, investing R8,000–12,000 annually in preventative maintenance typically saves R30,000–50,000 in emergency repairs annually."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you manage MacBooks across multiple Johannesburg offices simultaneously?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We provide multi-location fleet management for businesses with devices in Sandton, Rosebank, Midrand, Centurion, Pretoria, and surrounding suburbs within 60 kilometres of our Hyde Park workshop. We schedule maintenance rotations, handle inter-office device transport, and provide unified reporting across all locations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide loaner devices while MacBooks are being repaired?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For fleet clients with ongoing maintenance relationships, yes. We maintain loaner MacBook inventory to minimise team downtime during repairs. Loaner availability depends on repair duration and fleet size; contact us for specific arrangements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's your warranty commitment on fleet repairs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Up to 3-year warranty on all labour and replacement components. This covers manufacturing defects and component failure within the warranty period, giving fleet clients confidence in repair quality and eliminating repeat-failure costs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does load shedding affect MacBook fleet longevity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Load shedding creates thermal and power cycling stress that dramatically accelerates component failure. Machines experiencing 3–4 unplanned power cycles weekly degrade 40–60% faster than normally powered devices. We recommend UPS (uninterruptible power supply) units for critical fleet machines and quarterly thermal inspections specifically to monitor load shedding impact."
-      }
-    }
-  ]
-}
-\`\`\`
-
 ---
 
 **Contact ZA Support today:** 064 529 5863 (WhatsApp) or [book online at zasupport.com/book](https://zasupport.com/book)
@@ -33648,23 +32888,7 @@ We repair all MacBook Pro 2020 Intel models regardless of where they were purcha
 Book your R599 assessment at **zasupport.com/book** or contact us on [WhatsApp: **064 529 5863**](https://wa.me/27645295863). We're in Hyde Park, Johannesburg, and service all Gauteng suburbs including Sandton, Rosebank, Bryanston, Fourways, Morningside, Midrand, Centurion, and Pretoria.
 
 No Fix No Fee. 12-month warranty standard. Up to 3-year warranty on logic board and thermal repairs.
-
----
-
-## LEARNED
-[Task: 1,200–1,500 word SEO blog post on MacBook Pro 2020 Intel repair with E-E-A-T signals, pricing authenticity, local Johannesburg context, and FAQ schema.] Successfully structured around genuine workshop experience (340+ repairs, 82% liquid damage recovery rate), specific R-denominated pricing reflecting Hyde Park market, Gauteng-only geography compliance, and competitor differentiation via first-person detail and No Fix No Fee guarantee.
-
-## BETTER
-[For future repair-category posts]: Anchor price ranges on time-cost (e.g., "thermal paste replacement takes 1–2 days, costs R1,299–R1,699") rather than price-only; this contextualises value perception. Reference specific machine models within the 2020 line (13-inch, 16-inch, butterfly/scissor variants) to capture long-tail model-specific search intent. Include preventive maintenance as a standalone section—these posts generate secondary booking intent for annual plans, not just emergency repairs.
-
-## WHY
-[Success]: Keyword integration ("MacBook Pro 2020 Intel repair Johannesburg") is natural throughout, competitor gap is directly addressed (pricing + local expertise + warranty differentiation), and the post positions ZA Support as the local authority, not a generic repair shop. Warrant statement ("No Fix No Fee," "up to 3-year warranty") beats vague competitor claims. FAQ schema improves SERP snippet click-through for question-format searches ("how long does thermal paste replacement take").
-
-## REPLICATE
-- For all repair-category posts: Lead with repair volume (specific number) and documented success rate (percentage), not marketing claims.
-- Embed pricing comparisons (repair vs. replacement cost analysis) to capture cost-comparison search intent.
-- Dedicate a "Preventive Care" or "Maintenance" section to secondary booking opportunities and demonstrate ongoing customer value beyond emergency fixes.
-- Always close with WhatsApp + booking link + hours + service area list (3–4 suburbs minimum per Gauteng region).`,
+`,
   },
   'apple-repair-prices-johannesburg-2026': {
     slug: 'apple-repair-prices-johannesburg-2026',
@@ -34287,18 +33511,6 @@ Yes. When we remove your old battery, we store it safely and send it to an e-was
 **Your MacBook doesn't have to die at 40% charge. Get a proper diagnosis from R599, genuine parts, and same-day service in Hyde Park.**
 
 **Message us on [WhatsApp: 064 529 5863](https://wa.me/27645295863) or book at zasupport.com/book**
-
----
-
-**Internal links included:**
-- [/logic-board-repair](/logic-board-repair) — referenced in cost context
-- [/liquid-damage](/liquid-damage) — relevant to device health context
-- [/contact](/contact) — booking reference
-
-**External link included:**
-- [iFixit MacBook battery guides](https://ifixit.com) — DIY difficulty reference
-
-**Word count: 1,485 words (body text, excluding H1, FAQs, and JSON-LD)**
 `,
   },
   'repair-vs-replace-macbook-johannesburg': {
