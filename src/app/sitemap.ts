@@ -654,5 +654,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/managed-it-stack-accountant-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/managed-it-stack-sme-johannesburg-all-in-one`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/microsoft-365-apple-managed-it-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/apple-managed-it-services-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/istore-business-m365-premium-vs-za-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/istore-business-pricing-vs-za-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/jamf-mdm-alternative-small-business-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/mac-managed-it-services-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/managed-it-services-for-architects-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/managed-it-services-for-creative-agencies-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/managed-it-services-with-unifi-networking-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
