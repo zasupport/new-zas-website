@@ -1,5 +1,5 @@
 import { Star, ExternalLink } from 'lucide-react';
-import { REVIEWS, SITE } from '@/lib/constants';
+import { SITE } from '@/lib/constants';
 
 interface GoogleReview {
   authorAttribution: { displayName: string };
@@ -13,13 +13,6 @@ interface PlacesApiResponse {
   rating?: number;
   userRatingCount?: number;
   reviews?: GoogleReview[];
-}
-
-interface StaticReview {
-  name: string;
-  rating: number;
-  text: string;
-  service: string;
 }
 
 async function fetchGoogleReviews(): Promise<PlacesApiResponse | null> {
@@ -96,28 +89,27 @@ function ReviewGrid({ reviews }: { reviews: Array<{ name: string; rating: number
   );
 }
 
-function StaticReviewBlock({ maxReviews }: { maxReviews: number }) {
-  const staticReviews: readonly StaticReview[] = REVIEWS;
-  const displayed = staticReviews.slice(0, maxReviews).map((r) => ({
-    name: r.name,
-    rating: r.rating,
-    text: r.text,
-    meta: r.service,
-  }));
-
+// Static fallback shown when the Places API is not configured. It presents
+// ONLY the verified Google aggregate (rating + count) and links out to the
+// real reviews — no fabricated testimonial cards (§E-E-A-T honesty).
+function StaticReviewBlock() {
   return (
-    <div>
-      <div className="flex items-center justify-center gap-3 mb-10">
+    <div className="text-center max-w-2xl mx-auto">
+      <div className="flex items-center justify-center gap-3 mb-4">
         <StarRow rating={5} size="lg" />
-        <span className="text-[#E8F4F1] font-bold text-xl">{SITE.rating}</span>
-        <span className="text-[#7A9E98]">&middot;</span>
-        <span className="text-[#7A9E98]">{SITE.reviewCount} Google Reviews</span>
+        <span className="text-[#E8F4F1] font-bold text-3xl">{SITE.rating}</span>
       </div>
-      <ReviewGrid reviews={displayed} />
-      <div className="flex justify-center mt-8">
+      <p className="text-[#E8F4F1] font-semibold mb-2">
+        Rated {SITE.rating} out of 5 by {SITE.reviewCount} customers on Google
+      </p>
+      <p className="text-[#7A9E98] text-sm mb-8">
+        Every rating is a verified review on our Google Business Profile. Read them in
+        full and see the latest customer feedback directly on Google.
+      </p>
+      <div className="flex justify-center">
         <a href={mapsUrl} target="_blank" rel="noopener noreferrer"
           className="inline-flex items-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-6 py-3 rounded-xl font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all text-sm">
-          See all reviews on Google <ExternalLink className="w-4 h-4" />
+          Read all {SITE.reviewCount} reviews on Google <ExternalLink className="w-4 h-4" />
         </a>
       </div>
     </div>
@@ -135,7 +127,7 @@ export default async function GoogleReviews({ maxReviews = 4 }: { maxReviews?: n
   const hasLiveReviews = !!(data?.reviews && data.reviews.length > 0);
 
   if (!hasLiveReviews) {
-    return <StaticReviewBlock maxReviews={maxReviews} />;
+    return <StaticReviewBlock />;
   }
 
   const liveReviews = (data!.reviews ?? []).slice(0, maxReviews).map((r) => ({
