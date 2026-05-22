@@ -393,6 +393,22 @@ def main():
         return 1
     print("Syntax: OK")
 
+    # §386/§384 — HARD branch guard. `git push origin main` from a feature
+    # branch silently no-ops, so commits land on the wrong branch and never
+    # deploy. Refuse to commit blog posts unless HEAD is exactly `main`.
+    branch_result = subprocess.run(
+        ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+        cwd=WEBSITE_DIR, capture_output=True, text=True,
+    )
+    current_branch = branch_result.stdout.strip()
+    if current_branch != "main":
+        print(
+            f"❌ §386/§384: refusing to commit blog posts — HEAD is "
+            f"'{current_branch}', not main",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
     subprocess.run(
         ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],
         cwd=WEBSITE_DIR, check=True,

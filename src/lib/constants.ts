@@ -1,3 +1,8 @@
+// Google rating + review count are kept accurate by ~/bin/za-gbp-review-sync.sh
+// (daily GBP API pull → src/data/google-rating.json). Plain text only — never
+// AggregateRating schema (§166). Edit the JSON's source, not these lines.
+import googleRating from '@/data/google-rating.json';
+
 export const SITE = {
   name: 'ZA Support',
   alternateName: 'Apple Experts',
@@ -5,8 +10,8 @@ export const SITE = {
   url: 'https://zasupport.com',
   foundingDate: '2009',
   vat: '436-026-0014',
-  rating: '4.9',
-  reviewCount: '639',
+  rating: String(googleRating.rating),
+  reviewCount: String(googleRating.count),
   repairsCount: '50,000+',
   yearsExperience: '16',
   googleMapsUrl: 'https://maps.app.goo.gl/Mgk4Hx2PvbZ6D8T5A',
