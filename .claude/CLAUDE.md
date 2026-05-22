@@ -56,7 +56,7 @@ Every SERP-eligible page MUST have ALL applicable schema:
 - ServiceSchema (every service/suburb page)
 - FAQPage schema (every page with Q&A content)
 - BreadcrumbList (every page below homepage)
-- AggregateRating via layout LocalBusiness (do NOT duplicate on page level)
+- ∅ AggregateRating / Review schema for ZA Support's OWN reviews — Google rules self-serving review markup on LocalBusiness/Organization INELIGIBLE for star results AND a manual-action risk (§166 amended 22/05/2026 after Google-primary research). Display the rating as PLAIN TEXT only — "Rated 4.9 on Google · N reviews" — N sourced from the GBP API totalReviewCount data point. ∅ Review/AggregateRating JSON-LD for self-collected reviews anywhere on the site.
 - ArticleSchema (blog posts only)
 ∅ ship page missing applicable schema | check via Google Rich Results Test after deploy
 
