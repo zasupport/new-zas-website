@@ -97,13 +97,8 @@ export function BlogSchema({
         'https://www.youtube.com/@zasupport-applemacupgrader6746',
         'https://www.linkedin.com/in/bentleycourtney/',
       ],
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '4.9',
-        reviewCount: '632',
-        bestRating: '5',
-        worstRating: '1',
-      },
+      // §166 (22/05/2026): self-serving AggregateRating removed from publisher
+      // — ineligible + manual-action risk per Google.
     },
   }
 

@@ -92,12 +92,8 @@ export const LOCAL_BUSINESS_SCHEMA = {
     latitude: -26.1279,
     longitude: 28.0377,
   },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '632',
-    bestRating: '5',
-  },
+  // §166 (22/05/2026): self-serving AggregateRating removed — ineligible +
+  // manual-action risk per Google. Rating shown as plain text only.
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',

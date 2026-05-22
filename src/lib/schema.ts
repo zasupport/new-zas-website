@@ -1,16 +1,6 @@
 import { CONTACT, SITE } from '@/lib/constants';
 import type { SchemaOrg } from '@/types';
 
-// ─── Aggregate Rating ────────────────────────────────────────────────────────
-// Used on every service page — renders ★★★★★ in Google search results.
-export const AGGREGATE_RATING = {
-  '@type': 'AggregateRating',
-  ratingValue: SITE.rating,
-  reviewCount: '632',
-  bestRating: '5',
-  worstRating: '1',
-} as const;
-
 // ─── Local Business Provider ─────────────────────────────────────────────────
 // Reusable provider block embedded in Service schemas.
 export const LOCAL_BUSINESS_PROVIDER = {
@@ -82,7 +72,7 @@ export function buildFaqSchema(faqs: Array<{ question: string; answer: string }>
 }
 
 // ─── Service Schema Builder ───────────────────────────────────────────────────
-// Builds a full Service schema with AggregateRating embedded in provider.
+// Builds a full Service schema (provider = LocalBusiness, no review markup — §166).
 export function buildServiceSchema(params: {
   name: string;
   description: string;
@@ -125,33 +115,8 @@ export function buildBreadcrumbSchema(
   };
 }
 
-// ─── LocalBusiness with embedded Reviews ──────────────────────────────────────
-// AggregateRating gives the star average; individual Review objects give AI
-// engines the actual customer voice to quote. Reviews are nested as the parent
-// LocalBusiness's `review` property — never as standalone blocks with their own
-// itemReviewed (that nesting is invalid and is stripped by Google).
-export function buildLocalBusinessReviewSchema(
-  reviews: ReadonlyArray<{ name: string; rating: number; text: string; service?: string }>,
-) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': ['LocalBusiness', 'ComputerRepairService'],
-    '@id': `${SITE.url}/#organization`,
-    name: SITE.name,
-    url: SITE.url,
-    telephone: CONTACT.phone,
-    aggregateRating: AGGREGATE_RATING,
-    review: reviews.map((r) => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: r.name },
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: String(r.rating),
-        bestRating: '5',
-        worstRating: '1',
-      },
-      reviewBody: r.text,
-      ...(r.service ? { name: `${r.service} review` } : {}),
-    })),
-  };
-}
+// ─── §166: self-serving AggregateRating / Review schema removed (22/05/2026) ──
+// Google rules review markup about one's own LocalBusiness/Organization
+// INELIGIBLE for star results and a manual-action risk. The Google rating is
+// now shown as PLAIN TEXT only (GoogleReviews component), with the count
+// sourced from the GBP API. No self-serving review-schema builder remains.

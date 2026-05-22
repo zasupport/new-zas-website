@@ -85,13 +85,9 @@ export function SiteSchema() {
       'https://www.linkedin.com/in/bentleycourtney/',
       'https://www.linkedin.com/company/zasupport/',
     ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '632',
-      bestRating: '5',
-      worstRating: '1',
-    },
+    // §166 (22/05/2026): self-serving AggregateRating removed — Google rules
+    // own-business review markup ineligible + a manual-action risk. Rating is
+    // shown as plain text only.
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Apple Repair Services',
