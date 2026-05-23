@@ -678,5 +678,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/unifi-networking-business-johannesburg-installation`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/unifi-protect-cameras-johannesburg-business`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/wealth-manager-unifi-networking-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/unifi-installation-bryanston-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/unifi-installation-expert-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/unifi-installation-rosebank-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/unifi-installation-sandton-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
