@@ -339,41 +339,52 @@ Asking a question is non-blocking:
 **Date set:** 13 April 2026
 **Trigger:** Live blog page found rendering `LEARNED:`, `BETTER:`, `WHY SUCCESS:`, `REPLICATE:` as visible content
 
-### Rule
-Internal evaluation labels, prompt scaffolding, meta-commentary, and authoring metadata must NEVER appear in rendered blog content. This includes:
-- `LEARNED:`, `BETTER:`, `WHY SUCCESS:`, `REPLICATE:`, `SCORE:`, `RUBRIC:`
-- `EVALUATION:`, `OBSERVATION:`, `KEY INSIGHT:`, `[x] E-E-A-T signals`
-- `As an AI`, `I am Claude`, `<system>`, `<user>` tags
-- `{{variable}}`, `[INSERT NAME]`, `Lorem ipsum`, `TODO:`, `FIXME:`
+### The original incident — verbatim leaked content
 
-### Why this matters
-These labels expose ZA Support's proprietary content development workflow. A competitor reading them can reverse-engineer the entire content evaluation framework.
+The following text was found rendering as visible body content on a published blog post about M3 MacBook Air thermal management:
 
-### The original incident (13 April 2026)
-
-A live blog page at zasupport.com was found rendering this text as visible body content:
-
-> [x] E-E-A-T signals: "In our Hyde Park workshop", specific component names (Thermal Grizzly Kryonaut, 52.6Wh battery), exact procedures, genuine opinion ("60-70% of cases"), no hype
+> [x] E-E-A-T signals: "In our Hyde Park workshop", specific component names (Thermal Grizzly Kryonaut, 52.6Wh battery), exact procedures, genuine opinion ("60–70% of cases"), no hype ✓
 >
-> **LEARNED:** M3 Air thermal architecture requires non-generic approach; geographic context (load shedding, ambient temperature patterns by suburb) improves authenticity and relevance.
+> **LEARNED:** M3 Air thermal architecture requires non-generic approach; geographic context (load shedding, ambient temperature patterns by suburb) improves authenticity and relevance. Schema validation matters more than "should work" promises.
 >
-> **BETTER:** Integrated real-world Johannesburg environmental factors rather than generic repair guidance. This differentiates from national competitors.
+> **BETTER:** Integrated real-world Johannesburg environmental factors (load shedding, heat stress) rather than generic repair guidance. This differentiates from national competitors.
 >
-> **WHY SUCCESS:** Grounded in actual workshop patterns, specific model thermal design, compliance with all hard rules.
+> **WHY SUCCESS:** Grounded in actual workshop patterns, specific model thermal design, compliance with all hard rules (§225, §226), and verification before output.
 >
 > **REPLICATE:** Always anchor technical content to specific geographic environment, integrate verified service area limits early, include real warranty terms and pricing, validate JSON-LD syntax.
 
-This is internal Claude evaluation scaffolding. A competitor reading it could reverse-engineer the entire content evaluation framework. The auto-repair system would rewrite it as:
+This is internal Claude evaluation scaffolding — meta-commentary about how to write content, not content itself. It was meant to guide the AI's writing process and should never have been written into Sanity CMS as actual body text.
 
-> M3 MacBook Air thermal management is unlike any previous Apple Silicon design. The fanless chassis means the entire aluminium body acts as the heatsink, and Johannesburg's load shedding cycles create thermal stress patterns we don't see in Cape Town or Durban units. In our Hyde Park workshop, we apply Thermal Grizzly Kryonaut to the SoC during repaste work - it's the only compound we've tested that holds up under our local ambient temperature swings without pump-out after 18 months. The 52.6Wh battery in the M3 Air is sensitive to these thermal cycles too, which is why we always check both together rather than treating them as separate repairs.
+### Why this is critical
 
-The factual claims survive. The internal scaffolding is gone. The voice matches the rest of the site.
+These labels expose ZA Support's proprietary content development workflow. A competitor reading them can:
+- Reverse-engineer the entire content evaluation framework
+- Identify which signals ZA Support optimises for (E-E-A-T, schema validity, geographic specificity)
+- Replicate the same approach without the original investment
+- Use the leak as evidence of AI-generated content (which Google's March 2026 update penalises)
+
+### How the system would have repaired it
+
+The blog-page-wording-repair skill, given this content, produces:
+
+> M3 MacBook Air thermal management is unlike any previous Apple Silicon design. The fanless chassis means the entire aluminium body acts as the heatsink, and Johannesburg's load shedding cycles create thermal stress patterns we don't see in Cape Town or Durban units. In our Hyde Park workshop, we apply Thermal Grizzly Kryonaut to the SoC during repaste work — it's the only compound we've tested that holds up under our local ambient temperature swings without pump-out after 18 months. The 52.6Wh battery in the M3 Air is sensitive to these thermal cycles too, which is why we always check both together rather than treating them as separate repairs.
+
+The factual claims survive (Thermal Grizzly Kryonaut, 52.6Wh battery, load shedding context, Hyde Park workshop voice). The internal evaluation scaffolding is gone. The voice matches the rest of ZA Support's content.
+
+### Rule
+
+Internal evaluation labels, prompt scaffolding, meta-commentary, and authoring metadata must NEVER appear in rendered blog content. This includes:
+- `LEARNED:`, `BETTER:`, `WHY SUCCESS:`, `REPLICATE:`, `SCORE:`, `RUBRIC:`
+- `EVALUATION:`, `OBSERVATION:`, `KEY INSIGHT:`, `[x] E-E-A-T signals`
+- `As an AI`, `I am Claude`, `<s>`, `<user>` tags
+- `{{variable}}`, `[INSERT NAME]`, `Lorem ipsum`, `TODO:`, `FIXME:`
 
 ### Implementation
-- `config/banned-content-patterns.js` — 7 tiers of patterns (+ `<s>` tag added to banned list)
-- `sanity/leak-auto-fixer.ts` — strips on save
-- `scripts/scan-blog-leaks.js` — catches on production
-- `scripts/learning-loop.js` — generalises new variants permanently
+- `config/banned-content-patterns.js` — 7 tiers of patterns covering all known forms
+- `sanity/leak-auto-fixer.ts` — strips on save (transparent)
+- `scripts/scan-blog-leaks.js` — catches on production (daily 02:00 SAST)
+- `scripts/learning-loop.js` — generalises new variants permanently (daily 03:00 SAST)
+- Verified end-to-end on 13 April 2026: scanner catches all 5 leaks from the original screenshot (LEARNED:, BETTER:, WHY SUCCESS:, REPLICATE:, [x] E-E-A-T)
 
 ---
 
@@ -420,3 +431,49 @@ Every blog page must render correctly with full styling, even in failure modes. 
 *Perfect Blog Creator — Policies & Decisions v2.0*
 *ZA Support | zasupport.com | courtney@zasupport.com*
 *Last updated: 13 April 2026*
+
+## Verification-status table
+
+| Claim | Tag | Verify command |
+|---|---|---|
+| Banned-pattern registry contains all 7 leak-pattern tiers | [VERIFIED 2026-05-24] | `node -e "const p=require('./config/banned-content-patterns.js');console.log(Object.keys(p).length>=7?'PASS':'FAIL')"` |
+| POPIA-aligned content disclosures appear on every medical-practice page | [INFERRED] | scan-site-health.js --mode full --filter popia-disclosure |
+| All client-facing content uses South African English | [VERIFIED 2026-05-24] | grep -RnE '\b(color|behavior|organize|optimize|center)\b' app/ pages/ |
+| ZAR formatted as "R 4,499" not "R4499" or "ZAR 4499" | [VERIFIED 2026-05-24] | grep -RnE 'R[0-9]|ZAR ' app/ pages/ \| grep -v "R [0-9]" |
+| No US regulations (HIPAA, FAR, etc) referenced in client-facing content | [VERIFIED 2026-05-24] | grep -RnE '\b(HIPAA|FERPA|GLBA|CCPA)\b' app/ pages/ |
+
+## Safety net / rollback
+
+- **Policy file edits** — POLICIES.md is version-controlled. Every amendment is git committed. Rollback via `git revert` on the policy commit.
+- **Banned pattern addition** — when a new banned pattern is added to `config/banned-content-patterns.js`, the prior file is preserved in git history. If a false-positive blocks legitimate content, rollback via `git revert` on the registry commit and re-evaluate the pattern.
+- **Forbidden term enforcement** — the pre-commit hook can be bypassed with `git commit --no-verify` for emergency commits, but every bypass is logged to `reports/policy-bypasses.jsonl` and triggers an email to courtney@zasupport.com for review.
+- **Policy change propagation** — every policy amendment is propagated to: `~/.claude/skills/banned-phrases/SKILL.md`, `~/.claude/CLAUDE.md`, project-level `.claude/skills/`. Drift between these surfaces is detected by `scripts/verify-skill-propagation.sh` run nightly via cron.
+
+## Primary sources cited
+
+- POPIA Act 4 of 2013 — https://popia.co.za
+- HPCSA Ethical Rules of Conduct for Practitioners Registered Under the Health Professions Act — https://www.hpcsa.co.za
+- Google Search Central, "Helpful content update" — https://developers.google.com/search/blog/2022/08/helpful-content-update
+- Schema.org documentation — https://schema.org
+- South African English style — Concise Oxford English Dictionary (South African edition)
+
+## Recurring-failure-architecture awareness
+
+Policy violations recur not because the policy is unknown but because the cognitive load of remembering every banned phrase, every required disclosure, and every regulatory citation across every piece of content is unsustainable. The recurring-failure-architecture principle applies — every policy enforced cognitively must be paired with a mechanical enforcement layer.
+
+Mechanical layers active for each policy area:
+
+- Banned phrases → pre-commit hook + Sanity uploadHook.ts
+- ZAR formatting → eslint custom rule + scan-site-health.js
+- South African English → grep CI check
+- POPIA disclosures → schema validator + content audit cron
+- No US regulations → grep CI check
+
+## Per-task definition of done
+
+| Task | Definition of done |
+|---|---|
+| Policy amendment | POLICIES.md updated, git committed, propagated to all surfaces via `scripts/propagate-skill.sh`, verified via `scripts/verify-skill-propagation.sh` |
+| New banned phrase added | Phrase added to banned-content-patterns.js, pre-commit hook regenerated, propagated to ~/.claude/skills/banned-phrases/SKILL.md, scan-site-health.js confirms no existing content matches |
+| Policy bypass logged | Entry appended to reports/policy-bypasses.jsonl, email sent to courtney@zasupport.com, follow-up review scheduled |
+| Quarterly policy review | All policies re-validated against current regulations, primary sources re-cited with current URLs, any deprecated policies marked DEPRECATED with sunset date |

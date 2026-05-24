@@ -22,6 +22,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Business hub
     { url: `${base}/business`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/business/adobe-creative-cloud-support`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/business/microsoft-365-for-business`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${base}/business/unifi-network-services`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
 
     // Answers Q&A hub
     { url: `${base}/answers`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },

@@ -27,6 +27,7 @@ const BANNED_PATTERNS = {
       /^\s*BETTER\s*:/im,
       /^\s*WHY SUCCESS\s*:/im,
       /^\s*WHY SUCCEEDED\s*:/im,
+      /^\s*WHY\s*:/im,              // added 16/04/2026 — caught by MacBook flickering leak
       /^\s*REPLICATE\s*:/im,
       /^\s*WHY THIS WORKS\s*:/im,
       /^\s*KEY INSIGHT\s*:/im,
@@ -45,6 +46,8 @@ const BANNED_PATTERNS = {
       // Bracketed audit markers
       /\[\s*x\s*\][^.\n]*E-E-A-T/i,
       /\[\s*✓\s*\][^.\n]*signals/i,
+      // Schema-notation headings — added 16/04/2026 — caught by MacBook flickering leak
+      /^#{1,6}\s+(FAQPage|BlogPosting|Person|HowTo|Organization|BreadcrumbList|ProfilePage|AggregateRating)\s+Schema\s*$/im,
     ],
     description: 'Internal Claude evaluation/reasoning labels leaking into rendered content',
   },

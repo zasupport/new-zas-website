@@ -1,0 +1,66 @@
+{
+  "$schema": "./velocity-phase.schema.json",
+  "lastUpdated": "2026-05-24T18:45:00Z",
+  "updatedBy": "T3-execution-2026-05-24",
+  "hardCeiling": {
+    "totalPerDay": 30,
+    "rationale": "Google content-velocity penalty risk above 30 mixed-content events/day per site authority tier",
+    "source": "publishing-velocity-analysis.md §4 + velocity-ramp-update-2026-05-24.md"
+  },
+  "currentPhase": {
+    "id": "phase-1-rampup",
+    "startedOn": "2026-05-26",
+    "endsOn": "2026-06-08",
+    "rationale": "Ramp from 8/day baseline to 14/day. Mixes new blog (8) + leak fixes (4) + retrospective updates (2)",
+    "ceilings": {
+      "newBlogPerDay": 8,
+      "businessPagesPerDay": 1,
+      "retrospectiveUpdatesPerDay": 2,
+      "leakFixesPerDay": 4,
+      "totalPerDay": 14
+    }
+  },
+  "futurePhases": [
+    {
+      "id": "phase-2-ramp",
+      "startsOn": "2026-06-09",
+      "endsOn": "2026-06-22",
+      "ceilings": { "newBlogPerDay": 12, "businessPagesPerDay": 1, "retrospectiveUpdatesPerDay": 3, "leakFixesPerDay": 2, "totalPerDay": 18 }
+    },
+    {
+      "id": "phase-3-ramp",
+      "startsOn": "2026-06-23",
+      "endsOn": "2026-07-06",
+      "ceilings": { "newBlogPerDay": 16, "businessPagesPerDay": 1, "retrospectiveUpdatesPerDay": 3, "leakFixesPerDay": 0, "totalPerDay": 20 }
+    },
+    {
+      "id": "phase-4-steady",
+      "startsOn": "2026-07-07",
+      "endsOn": "indefinite",
+      "ceilings": { "newBlogPerDay": 20, "businessPagesPerDay": 0, "retrospectiveUpdatesPerDay": 4, "leakFixesPerDay": 0, "totalPerDay": 24 }
+    }
+  ],
+  "advanceConditions": {
+    "gscTrafficStable": "GSC 7-day rolling traffic must not have declined >10% vs prior 7 days",
+    "indexationRateMin": 0.75,
+    "leakScannerLastRunStatus": "PASS",
+    "siteHealthMonitorLastRunStatus": "PASS"
+  },
+  "rollbackConditions": {
+    "gscTrafficDeclinePercent": 10,
+    "gscPositionDropMin": 5,
+    "indexationFailureRate": 0.4,
+    "siteHealthCriticalCount": 1,
+    "action": "Revert to prior phase, pause publish, run scan-site-health.js --mode full, notify courtney@zasupport.com"
+  },
+  "auditLog": [
+    {
+      "timestamp": "2026-05-24T18:45:00Z",
+      "event": "INITIAL_CREATION",
+      "by": "T3-execution",
+      "fromPhase": null,
+      "toPhase": "phase-1-rampup",
+      "trigger": "user instruction T3 — increase pages per claude.ai recommended count"
+    }
+  ]
+}

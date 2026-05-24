@@ -114,6 +114,7 @@
 | Publish schedule | `config/publish-schedule.json` | Generated weekly, consumed hourly |
 | Sanity post scheduler | `scripts/schedule-sanity-posts.js` | Assigns drafts to slots, sets publishAt |
 | Cron installer | `scripts/install-cron-jobs.sh` | One-command setup for all 4 jobs |
+| MS Graph activator | `scripts/bootstrap-ms-graph.sh` | One-command activation: validates token, writes ~/.za-keys/active.env, sends test email |
 
 ### Detection layer
 | Component | File | Purpose |
@@ -252,7 +253,8 @@ zasupport-website/
 │   ├── learning-loop.js
 │   ├── gsc-traffic-analyser.js
 │   ├── schedule-sanity-posts.js
-│   └── install-cron-jobs.sh
+│   ├── install-cron-jobs.sh
+│   └── bootstrap-ms-graph.sh
 ├── config/
 │   ├── banned-content-patterns.js
 │   ├── learned-patterns.json          (auto-managed, do not edit)

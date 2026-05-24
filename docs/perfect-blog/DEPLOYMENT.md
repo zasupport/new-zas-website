@@ -682,15 +682,25 @@ tail -f logs/*.log
 
 The first hourly scheduler run will happen at the next :05. The first daily scanner run will happen at 02:00 SAST. The first GSC refresh will happen Sunday at 23:00 SAST.
 
-### 16.4 Configure MS Graph email notifications
-```bash
-# Load the Microsoft Graph credentials
-source ~/.za-keys-pending.env
+### 16.4 Activate MS Graph email notifications
 
-# Test notification sending
-node scripts/notify-leak-detected.js test
+The notification system needs the refresh token loaded into the active environment. Use the bootstrap script:
+
+```bash
+bash scripts/bootstrap-ms-graph.sh
 ```
-Expected: a test email arrives at admin@zasupport.com.
+
+This script:
+1. Reads credentials from `~/.za-keys-pending.env`
+2. Validates the refresh token against Microsoft's identity endpoint
+3. Writes `~/.za-keys/active.env` (mode 600, owner-only)
+4. Verifies the cron installer is wired correctly
+5. Sends an end-to-end test email to admin@zasupport.com
+6. Configures your shell rc to auto-load credentials in interactive sessions
+
+Expected output: green checkmarks for all 7 steps, plus a test email arrives at admin@zasupport.com within 30 seconds.
+
+**To rotate credentials in future:** update `~/.za-keys-pending.env` with new values and re-run `bash scripts/bootstrap-ms-graph.sh`. The script is idempotent.
 
 ### 16.5 Verify end-to-end
 1. Plant a test leak in a draft post (`LEARNED: test`)

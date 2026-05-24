@@ -1,0 +1,142 @@
+{
+  "_meta": {
+    "description": "Constraint → verified workaround mappings. Loaded by workaround-auto-builder skill. Future sessions hitting the same constraint look here first instead of re-identifying.",
+    "schema_version": "1.0",
+    "created": "2026-04-16",
+    "last_updated": "2026-05-21"
+  },
+
+  "constraints": [
+    {
+      "id": "sanity-write-from-chat-sandbox",
+      "constraint": "Cannot write to Sanity from claude.ai chat sandbox — no credentials in environment",
+      "first_encountered": "2026-04-16",
+      "workarounds": [
+        {
+          "type": "github-actions",
+          "artefact": ".github/workflows/auto-heal.yml",
+          "automation_level": "rung-4",
+          "setup_required": "Add SANITY_WRITE_TOKEN to GitHub repo secrets (one-time)",
+          "verified_working": true,
+          "verified_on": "2026-04-16"
+        },
+        {
+          "type": "vercel-cron",
+          "artefact": "app/api/cron/auto-heal/route.ts",
+          "automation_level": "rung-4",
+          "setup_required": "Add SANITY_WRITE_TOKEN to Vercel env vars (production)",
+          "verified_working": true,
+          "verified_on": "2026-04-16"
+        },
+        {
+          "type": "mcp-server",
+          "artefact": "scripts/fix-via-mcp.js",
+          "automation_level": "rung-4",
+          "setup_required": "Connect Sanity MCP server (https://mcp.sanity.io) in claude.ai Settings → Connectors",
+          "verified_working": false,
+          "verified_on": null,
+          "notes": "MCP server confirmed available; user has not yet connected"
+        }
+      ]
+    },
+
+    {
+      "id": "skill-propagation-to-claude-ai-sandbox",
+      "constraint": "Cannot push skills to /mnt/skills/user from outside the chat sandbox",
+      "first_encountered": "2026-04-16",
+      "workarounds": [
+        {
+          "type": "self-installer",
+          "artefact": "scripts/self-install-skills.sh",
+          "automation_level": "rung-3",
+          "setup_required": "Run once; installs Git post-merge hook for auto-update",
+          "verified_working": true,
+          "verified_on": "2026-04-16",
+          "notes": "Tested in sandbox — successfully wrote to /mnt/skills/user from claude.ai session"
+        }
+      ]
+    },
+
+    {
+      "id": "cron-install-without-ssh",
+      "constraint": "Cannot install cron jobs on the production server without SSH access",
+      "first_encountered": "2026-04-16",
+      "workarounds": [
+        {
+          "type": "github-actions-schedule",
+          "artefact": ".github/workflows/scheduled-scans.yml",
+          "automation_level": "rung-3",
+          "setup_required": "git push to main with workflow file",
+          "verified_working": true,
+          "verified_on": "2026-04-16"
+        },
+        {
+          "type": "vercel-cron",
+          "artefact": "vercel.json + app/api/cron/*",
+          "automation_level": "rung-3",
+          "setup_required": "vercel.json committed and deployed",
+          "verified_working": true,
+          "verified_on": "2026-04-16"
+        }
+      ]
+    },
+
+    {
+      "id": "schema-state-unverifiable-from-chat",
+      "constraint": "Cannot read the live Sanity Studio schema from a chat session",
+      "first_encountered": "2026-05-21",
+      "workarounds": [
+        {
+          "type": "verification-script",
+          "artefact": "scripts/verify-observations.sh",
+          "automation_level": "rung-2",
+          "setup_required": "User runs the script in their repo",
+          "verified_working": true,
+          "verified_on": "2026-05-21",
+          "notes": "Script classifies every claim about external state as CONFIRMED/REFUTED/PARTIAL/UNVERIFIABLE"
+        }
+      ]
+    },
+
+    {
+      "id": "vercel-env-state-unverifiable-from-chat",
+      "constraint": "Cannot read Vercel project environment variables from a chat session",
+      "first_encountered": "2026-04-16",
+      "workarounds": [
+        {
+          "type": "vercel-mcp",
+          "artefact": "Vercel MCP server (already connected in user's claude.ai)",
+          "automation_level": "rung-4",
+          "setup_required": "User approves the tool call when prompted",
+          "verified_working": false,
+          "verified_on": null,
+          "notes": "MCP connected but tool call approval pending"
+        },
+        {
+          "type": "verification-script-with-vercel-cli",
+          "artefact": "scripts/verify-observations.sh",
+          "automation_level": "rung-2",
+          "setup_required": "User runs script after `vercel login`",
+          "verified_working": true,
+          "verified_on": "2026-05-21"
+        }
+      ]
+    },
+
+    {
+      "id": "github-secrets-state-unverifiable-from-chat",
+      "constraint": "Cannot read GitHub repo secrets from a chat session",
+      "first_encountered": "2026-04-16",
+      "workarounds": [
+        {
+          "type": "verification-script-with-gh-cli",
+          "artefact": "scripts/verify-observations.sh",
+          "automation_level": "rung-2",
+          "setup_required": "User runs script after `gh auth login`",
+          "verified_working": true,
+          "verified_on": "2026-05-21"
+        }
+      ]
+    }
+  ]
+}

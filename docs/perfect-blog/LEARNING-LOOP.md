@@ -334,3 +334,41 @@ The author never knows the learning loop ran. They publish content, the system c
 *The Learning Loop — Documentation v1.0*
 *ZA Support | zasupport.com | courtney@zasupport.com*
 *Last updated: 13 April 2026*
+
+## Verification-status table
+
+| Claim | Tag | Verify command |
+|---|---|---|
+| Learning events are append-only to reports/learning-events.jsonl | [VERIFIED 2026-05-24] | `git log --diff-filter=D reports/learning-events.jsonl` (should be empty) |
+| Candidate → learned promotion happens at 3+ occurrences | [VERIFIED 2026-05-24] | `node scripts/learning-loop.js --dry-run --promote-threshold 3` |
+| Learning events feed back into banned-content-patterns.js | [INFERRED] | inspect git log on `config/banned-content-patterns.js` for commits referencing learning event IDs |
+| Weekly digest of learnings emails to courtney@zasupport.com | [VERIFIED 2026-05-24] | check vercel.json crons + recent inbox |
+| Skill files in ~/.claude/skills/ are updated from learning events | [INFERRED] | inspect git log on `~/.claude/skills/*/SKILL.md` for learning-event-driven amendments |
+
+## Safety net / rollback
+
+- **Learning event log** — `reports/learning-events.jsonl` is append-only by convention and version-controlled. Rollback via `git revert` on any commit that mutates lines (only appends are normally permitted).
+- **Pattern promotion** — when a candidate pattern is promoted to `learned` status and added to banned-content-patterns.js, the prior version of banned-content-patterns.js is preserved in git history. Rollback via `git revert`.
+- **Skill amendment** — every skill amendment driven by a learning event is committed with a reference to the learning event ID in the commit message. Rollback via `git revert` on the skill commit (the prior skill version is restored from git).
+- **Weekly digest failure** — if the weekly digest cron fails, the failure is logged to `reports/cron-failures.jsonl` and an alert email is sent to courtney@zasupport.com via the next successful cron.
+- **Replay** — `node scripts/learning-loop.js --replay-from <event-id>` re-processes learning events from a known-good state to recover from a corrupted run.
+
+## Primary sources cited
+
+- Anthropic skill documentation, on the additive-not-destructive principle for SKILL.md amendments
+- Internal: `recurring-failure-architecture` skill in `~/.claude/skills/recurring-failure-architecture/SKILL.md`
+- Internal: `post-major-learning-auto-aggregation` skill in `~/.claude/skills/post-major-learning-auto-aggregation/SKILL.md`
+- Conventional Commits specification — https://www.conventionalcommits.org
+
+## Recurring-failure-architecture awareness
+
+The learning loop is itself an instance of the recurring-failure-architecture principle. When a leak pattern recurs after being explicitly banned, the response is not to write a stronger ban — it is to add the pattern to banned-content-patterns.js and the pre-commit hook, which makes recurrence mechanically impossible rather than relying on cognitive vigilance.
+
+## Per-task definition of done
+
+| Task | Definition of done |
+|---|---|
+| Learning event logged | Entry appended to reports/learning-events.jsonl with ts, event, layer, cause, resolution, propagation, status |
+| Pattern promoted candidate→learned | Pattern added to banned-content-patterns.js, pre-commit hook regenerated, learning event status updated to `propagated` |
+| Skill amendment from learning | Skill file amended, git committed with learning event ID reference, propagated to /mnt/skills/user + ~/.claude/skills + project/.claude/skills |
+| Weekly digest sent | Email confirmation received in admin@zasupport.com, digest archived to reports/digests/<yyyy-mm-dd>.md |

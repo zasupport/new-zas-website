@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "description": "Patterns generalised by learning-loop.js from real leak incidents. Loaded by banned-content-patterns.js at scan time and merged with the static registry. Append-only — never delete; if a pattern becomes too broad, narrow it via regex modification, don't remove.",
+    "schema_version": "1.0",
+    "loop_runs": 0,
+    "last_run": null,
+    "learned_pattern_count": 0
+  },
+
+  "learned": [
+    {
+      "id": "L0001",
+      "added": "2026-04-16",
+      "trigger_incident": "MacBook screen flickering post — 15 April 2026",
+      "pattern_regex": "^#{1,6}\\s+(FAQPage|BlogPosting|Person|HowTo|Organization|BreadcrumbList|ProfilePage|AggregateRating)\\s+Schema\\s*$",
+      "severity": "critical",
+      "category": "schema-notation-as-heading",
+      "description": "JSON-LD schema type names rendered as H1-H6 headings instead of being embedded in <script type='application/ld+json'>",
+      "false_positive_rate": "low — schema names rarely appear in legitimate body content",
+      "promotion_to_registry": "Promoted to banned-content-patterns.js evaluationLabels on 16 April 2026"
+    },
+    {
+      "id": "L0002",
+      "added": "2026-04-16",
+      "trigger_incident": "MacBook screen flickering post — 15 April 2026",
+      "pattern_regex": "^\\s*WHY\\s*:",
+      "severity": "critical",
+      "category": "evaluation-label-short",
+      "description": "Bare 'WHY:' label without trailing 'SUCCESS' or 'SUCCEEDED' — shorter variant of WHY SUCCESS: that was missed by the original registry",
+      "false_positive_rate": "moderate — 'WHY:' could appear in legitimate FAQ content. Mitigation: only flag at start of line/paragraph.",
+      "promotion_to_registry": "Promoted to banned-content-patterns.js on 16 April 2026"
+    },
+    {
+      "id": "L0003",
+      "added": "2026-04-16",
+      "trigger_incident": "Multiple posts — 16 April 2026 full-site scan",
+      "pattern_regex": "\\[\\s*x\\s*\\][^.\\n]*E-E-A-T",
+      "severity": "critical",
+      "category": "audit-checklist-marker",
+      "description": "Bracketed audit checklist marker [x] followed by E-E-A-T text within the same line",
+      "false_positive_rate": "very low",
+      "promotion_to_registry": "Promoted to banned-content-patterns.js on 16 April 2026"
+    }
+  ],
+
+  "candidates": [
+    {
+      "id": "C0001",
+      "first_observed": "2026-05-21",
+      "occurrences": 0,
+      "pattern_regex_proposed": "\\bclassified as (high|medium|low) (risk|priority|severity)\\b",
+      "category": "evaluation-classification",
+      "description": "Risk/priority classification language that may indicate internal evaluation leaking — needs more occurrences before promotion to learned",
+      "promotion_threshold": "3 occurrences across 2+ different posts"
+    }
+  ]
+}

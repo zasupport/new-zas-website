@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "description": "Daily publish-hour schedule for zasupport.com blog. Publish hours derived from GSC click-through data. Refreshed weekly by gsc-traffic-analyser.js. Read by schedule-sanity-posts.js.",
+    "schema_version": "2.0",
+    "last_refreshed": "2026-05-24T18:00:00Z",
+    "data_source": "Recalibrated 24/05/2026 per docs/velocity-recalibration-2026-05-24.md after fix-28 + business-hub deployment",
+    "timezone": "Africa/Johannesburg",
+    "supersedes": "v1.0 (8/day baseline, 20/day ceiling)"
+  },
+
+  "ceilings": {
+    "sustained_posts_per_day": 28,
+    "burst_max_with_daily_monitoring": 40,
+    "absolute_do_not_exceed": 50,
+    "old_ceiling_v1": 20
+  },
+
+  "phase_schedule": {
+    "phase_0": { "weeks": [0], "posts_per_day": 0, "reason": "fix-28 priority; no new posts until leaked-post repair complete" },
+    "phase_1": { "weeks": [1], "posts_per_day": 8, "business_pages_launch": 6, "trigger_advance": "fix-28 complete + business hub live" },
+    "phase_2": { "weeks": [2, 3], "posts_per_day": 12, "trigger_advance": "GSC weekly impressions stable or rising" },
+    "phase_3": { "weeks": [4, 5], "posts_per_day": 16, "trigger_advance": "Average position holding or improving" },
+    "phase_4": { "weeks": [6, 7], "posts_per_day": 20, "trigger_advance": "Indexation rate <48h on Phase 3 posts" },
+    "phase_5": { "weeks": [8, 9, 10], "posts_per_day": 24, "trigger_advance": "No SpamBrain warning, no manual action" },
+    "phase_6": { "weeks": [11, 12, "ongoing"], "posts_per_day": 28, "trigger_advance": "monthly content audit clean, zero leaked" }
+  },
+
+  "publish_hours_local_at_8_per_day": [
+    "07:00", "09:00", "11:00", "13:00", "15:00", "17:00", "19:00", "21:00"
+  ],
+
+  "publish_hours_local_at_12_per_day": [
+    "07:00", "08:30", "10:00", "11:30", "13:00", "14:30", "16:00", "17:30", "19:00", "20:00", "21:00", "21:30"
+  ],
+
+  "publish_hours_local_at_16_per_day": [
+    "06:30", "07:30", "08:30", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "20:45", "21:30"
+  ],
+
+  "publish_hours_local_at_20_per_day": [
+    "06:00", "06:45", "07:30", "08:15", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "18:45", "19:30", "20:15", "21:00", "21:30", "22:00"
+  ],
+
+  "publish_hours_local_at_24_per_day": [
+    "06:00", "06:30", "07:00", "07:30", "08:00", "08:30", "09:30", "10:30", "11:30", "12:30", "13:30", "14:30", "15:30", "16:30", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30", "22:00"
+  ],
+
+  "publish_hours_local_at_28_per_day": [
+    "06:00", "06:20", "06:40", "07:00", "07:30", "08:00", "08:30", "09:00", "10:00", "11:00", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "16:00", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30"
+  ],
+
+  "rationale": {
+    "ceiling_change": "Ground-truth sitemap (322 posts) vs prior estimate (94 posts) means authority surface 3.4x larger than originally modelled. SpamBrain 10x trigger sits at 25-30/day not 15-20/day for this site.",
+    "phase_pacing": "GSC signal advance per phase, not calendar advance. If signal degrades, ramp pauses or reverses.",
+    "do_not_publish": "Public SA holidays, Stage 4+ load shedding for the publish hour"
+  },
+
+  "do_not_publish": {
+    "weekends": false,
+    "public_holidays_za": [
+      "2026-01-01", "2026-03-21", "2026-04-03", "2026-04-06", "2026-04-27",
+      "2026-05-01", "2026-06-16", "2026-08-09", "2026-09-24", "2026-12-16",
+      "2026-12-25", "2026-12-26"
+    ],
+    "load_shedding_stage_4_plus": "If Eskom announces Stage 4+ for an entire publish hour, defer to the next slot"
+  },
+
+  "monitoring": {
+    "phase_advance_check_cadence": "weekly",
+    "metrics_required": ["gsc_impressions_7d", "gsc_average_position", "gsc_clicks_7d", "indexation_rate_48h", "spambrain_warnings", "manual_actions"],
+    "abort_on_red": "Any red signal pauses ramp until investigated"
+  }
+}
+
