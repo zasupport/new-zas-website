@@ -37,38 +37,14 @@ const pricing = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks from Boksburg?',
-    answer: 'Yes. We offer a collection and return service for Boksburg clients. Your MacBook is collected from your home or office in Boksburg, repaired at our Hyde Park workshop approximately 35 minutes away, and returned once the repair is complete. Contact us on WhatsApp or by phone to arrange a collection time.',
-  },
-  {
-    question: 'How far is Boksburg from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Park Lane is approximately 35 km from Boksburg, roughly a 35-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
-  },
-  {
-    question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement.',
-  },
-  {
-    question: 'My MacBook shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC — a straightforward component-level repair. Bring it in or request a collection from Boksburg for an assessment.',
-  },
-  {
-    question: 'How long will the repair take?',
-    answer: 'Diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex faults can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
-  },
-  {
-    question: 'What is the assessment fee?',
-    answer: 'The assessment is from R599. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
-  },
-  {
-    question: 'Do you offer a From R599 assessment guarantee?',
-    answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Which MacBook models do you repair for Boksburg clients?',
-    answer: 'All MacBook Pro, MacBook Air, iMac, and Mac mini models across all generations — Intel and Apple Silicon (M1, M2, M3). We have schematics and components for every generation from 2012 to present.',
-  },
+  { question: 'Do you collect MacBooks from Boksburg?', answer: 'Yes. We collect from every part of Boksburg — Bardene, Parkdene, Beyers Park, Sunward Park, Atlasville, Bartlett, Cinderella and the areas around East Rand Mall and Lake Boksburg. Our driver routes via the R24 and we typically arrange collection within one to two working days. For businesses along Trichardts Road or the Jet Park industrial belt we can usually accommodate a specific time window so your operations are not disrupted.' },
+  { question: 'How far is Boksburg from your Hyde Park workshop?', answer: 'Boksburg is approximately 35 minutes from our Hyde Park workshop via the R24 in normal traffic, slightly longer during peak times on the M2 or if you are coming from the far side near Vosloorus. The distance is one of the reasons we offer collection — it saves you a round trip of well over an hour and the petrol that goes with it. You hand the machine to our driver in Boksburg and we take it from there.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement means swapping the entire logic board for a new or refurbished one — expensive, and on newer MacBooks it can mean losing the data on your soldered SSD because the storage controller is paired to the original board. Component-level repair, which is what we do at Hyde Park, means isolating the actual failed chip or capacitor or trace and replacing only that. For most Boksburg clients we have seen, component-level work comes in at a meaningful fraction of a board-swap quote and keeps their data intact.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. No-power symptoms usually trace back to the charging circuit, the SMC, a shorted rail, or a damaged power management IC — all repairable at component level. We have brought back plenty of dead-on-the-bench MacBooks from Boksburg clients who assumed the machine was a write-off. The only honest way to tell is a proper diagnostic on the bench under the microscope, which is what the From R599 assessment covers.' },
+  { question: 'How long will the repair take?', answer: 'For most Boksburg jobs the full cycle — collection, diagnostic, repair and return — runs three to seven working days. Straightforward charging IC or backlight repairs are often quicker, while liquid damage cases that need full board cleaning and multiple component replacements can take longer. We do not guess at timelines; once we have completed the diagnostic we give you a firm turnaround before any repair work begins.' },
+  { question: 'What is the assessment fee?', answer: 'Our assessment is from R599. That covers the proper diagnostic — visual inspection, microscope review, power-rail testing and fault isolation — not a five-minute look-over. If you decide to go ahead with the repair, the assessment fee is absorbed into the repair cost. If you choose not to proceed, the machine is returned to Boksburg in the condition we received it.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The From R599 assessment is a firm starting point for diagnostic work on any MacBook logic board. We will tell you up front if your specific case requires anything beyond standard assessment — for example, a severely liquid-damaged board needing extensive cleaning before fault-finding can even begin. Boksburg clients receive a written quote after assessment, and no repair work begins without your approval.' },
+  { question: 'Which MacBook models do you repair for Boksburg clients?', answer: 'All of them. MacBook Pro and MacBook Air from the Intel era through to current Apple Silicon M1, M2 and M3 machines, plus iMac and Mac mini boards. The repair approach changes with the generation — older Intel boards are more forgiving to work on, while the newer M-series logic boards demand finer rework technique and proper schematics — but the underlying component-level methodology is the same. If you are unsure whether your specific model is covered, send us the serial number on WhatsApp and we will confirm.' },
 ];
 
 const serviceSchema = {
@@ -114,7 +90,7 @@ export default function LogicBoardRepairBoksburgPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Boksburg&apos;s preferred MacBook logic board repair service. We collect from Boksburg and repair at our Hyde Park component-level workshop, approximately 35 minutes away. Assessment from R599.
+              Boksburg MacBook logic board repair, handled by a workshop that genuinely understands East Rand turnaround pressures. We collect from across Boksburg — from the homes near Cinderella Dam to the businesses along North Rand Road and the warehouses behind East Rand Mall — and repair at component level in our Hyde Park workshop, roughly 35 minutes up the R24. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -155,13 +131,13 @@ export default function LogicBoardRepairBoksburgPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have been repairing MacBook logic boards for East Rand residents and business owners in the Boksburg area for several years. When a logic board fails, the machine shows symptoms ranging from complete power loss to intermittent shutdowns, no display, USB-C charging failure, or erratic fan behaviour. These faults are almost always board-level and, in the majority of cases, repairable at component level without replacing the entire board.
+              Boksburg sits at an interesting crossroads for us. The suburb runs from established residential pockets around Lake Boksburg through to the heavy commercial activity along Trichardts Road and the industrial sprawl towards Jet Park, and the MacBook faults we see reflect that mix. Residents tend to bring us liquid-damage and intermittent shutdown cases on family machines, while small business owners operating near East Rand Mall and the N12 corridor usually arrive with no-power MacBook Pros that have been the workhorse of their accounting, design, or logistics operation. Logic board failure rarely announces itself politely — it usually shows up as a black screen on a Monday morning, a charger that no longer triggers any indicator, or a machine that runs for ninety seconds and then dies.
             </p>
             <p>
-              Our Hyde Park workshop is equipped with professional hot-air rework stations, precision soldering equipment, a high-magnification stereo microscope, and the diagnostic tools required to trace faults at chip level. Every repair begins with a structured diagnostic session. We identify the exact component failure before any soldering takes place.
+              Our Hyde Park bench is set up for the kind of work that swap-and-replace shops cannot offer. Hot-air rework stations, a Mantis stereo microscope, schematics and boardviews, and proper micro-soldering irons let us trace a fault down to the specific failed component — a shorted SMC chip, a blown U7000-series charging IC, a corroded PPBUS line — rather than quoting you for a whole board. For Boksburg clients that distinction matters, because component-level repair on a 16-inch MacBook Pro is routinely a fraction of an Apple board-swap quote, and it preserves your original SSD and the data on it.
             </p>
             <p>
-              For Boksburg clients, we offer a collection and return service. Your MacBook is collected from Boksburg, Vosloorus, and the East Rand industrial and residential belt, repaired at our Hyde Park workshop, and returned to you once the repair is complete and fully tested. Most repairs are completed within 48–72 hours.
+              Collections from Boksburg run via the R24 and M2, and we have done same-day pickups from Bardene, Parkdene, Beyers Park, Sunward Park, Atlasville and Bartlett when the timing works. One pattern we see consistently with Boksburg clients: machines damaged after a power surge during a Highveld thunderstorm, particularly in older homes where the wall sockets feed equipment without proper surge protection. We have repaired several of these where the MagSafe or USB-C charging circuit took the hit but the rest of the board was salvageable. If your MacBook Pro, Air, iMac or Mac mini is refusing to power on, dropping out under load, or showing display artefacts, send a WhatsApp to 064 529 5863 and we will arrange collection.
             </p>
             <p>
               We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.

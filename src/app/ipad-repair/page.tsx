@@ -8,6 +8,14 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanIpadRepairLinks = [
+  { title: 'iPad battery replacement', href: '/ipad-repair/battery', description: 'Battery health check and replacement for every iPad generation' },
+  { title: 'iPad charging port repair', href: '/ipad-repair/charging', description: 'Lightning and USB-C charging port repair for iPad' },
+  { title: 'iPad liquid damage repair', href: '/ipad-repair/liquid-damage', description: 'Board-level cleaning and component repair after liquid exposure' },
+  { title: 'iPad screen repair', href: '/ipad-repair/screen', description: 'Cracked glass and damaged display assembly replacement' },
+];
 
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
@@ -375,6 +383,15 @@ export default function iPadRepairPage() {
           </div>
         </div>
       </section>
+
+      {/* Orphan-link injection — iPad repair by fault type */}
+      <OrphanLinks
+        sectionTitle="iPad repair by fault type"
+        intro="Most iPad repairs we see fall into four categories — battery wear, charging port damage, liquid exposure and cracked screens. Pick the fault closest to what your iPad is showing to read what the assessment and replacement work looks like for that issue."
+        groups={[
+          { heading: 'By fault', links: orphanIpadRepairLinks },
+        ]}
+      />
 
       {/* FAQ */}
       <section className="py-12 sm:py-20 bg-[#111C1A]">

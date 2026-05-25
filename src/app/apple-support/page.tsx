@@ -5,6 +5,11 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanAppleSupportLinks = [
+  { title: 'Apple support for medical practices', href: '/apple-support/medical-practices', description: 'POPIA-aware, HPCSA-context Apple IT support tailored to doctors and practices' },
+];
 
 export const metadata: Metadata = {
   title: 'Apple Support Johannesburg | Same-Day Help for Mac, iPhone, iPad | ZA Support',
@@ -191,6 +196,14 @@ export default function AppleSupportPage() {
           </div>
         </div>
       </section>
+
+      <OrphanLinks
+        sectionTitle="Apple support tailored to your context"
+        intro="Some clients have specific compliance and operational requirements that shape what Apple support actually needs to look like — most notably medical practices working with patient data under POPIA and HPCSA guidance."
+        groups={[
+          { heading: 'By client context', links: orphanAppleSupportLinks },
+        ]}
+      />
 
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

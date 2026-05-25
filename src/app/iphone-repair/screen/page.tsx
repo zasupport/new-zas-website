@@ -7,6 +7,26 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanIphoneScreenSuburbLinks = [
+  { title: 'Bryanston', href: '/iphone-repair/screen/bryanston', description: 'iPhone screen repair in Bryanston' },
+  { title: 'Centurion', href: '/iphone-repair/screen/centurion', description: 'iPhone screen repair in Centurion' },
+  { title: 'Fourways', href: '/iphone-repair/screen/fourways', description: 'iPhone screen repair in Fourways' },
+  { title: 'Houghton', href: '/iphone-repair/screen/houghton', description: 'iPhone screen repair in Houghton' },
+  { title: 'Kempton Park', href: '/iphone-repair/screen/kempton-park', description: 'iPhone screen repair in Kempton Park' },
+  { title: 'Midrand', href: '/iphone-repair/screen/midrand', description: 'iPhone screen repair in Midrand' },
+  { title: 'Morningside', href: '/iphone-repair/screen/morningside', description: 'iPhone screen repair in Morningside' },
+  { title: 'Northcliff', href: '/iphone-repair/screen/northcliff', description: 'iPhone screen repair in Northcliff' },
+  { title: 'Parkhurst', href: '/iphone-repair/screen/parkhurst', description: 'iPhone screen repair in Parkhurst' },
+  { title: 'Paulshof', href: '/iphone-repair/screen/paulshof', description: 'iPhone screen repair in Paulshof' },
+  { title: 'Pretoria', href: '/iphone-repair/screen/pretoria', description: 'iPhone screen repair in Pretoria' },
+  { title: 'Randburg', href: '/iphone-repair/screen/randburg', description: 'iPhone screen repair in Randburg' },
+  { title: 'Rivonia', href: '/iphone-repair/screen/rivonia', description: 'iPhone screen repair in Rivonia' },
+  { title: 'Rosebank', href: '/iphone-repair/screen/rosebank', description: 'iPhone screen repair in Rosebank' },
+  { title: 'Sandton', href: '/iphone-repair/screen/sandton', description: 'iPhone screen repair in Sandton' },
+  { title: 'Sunninghill', href: '/iphone-repair/screen/sunninghill', description: 'iPhone screen repair in Sunninghill' },
+];
 
 export const metadata: Metadata = {
   title: 'iPhone Screen Repair Johannesburg | ZA Support',
@@ -412,6 +432,15 @@ export default function iPhoneScreenPage() {
           </div>
         </div>
       </section>
+
+      {/* ── Orphan-link injection — iPhone screen repair by suburb ─────── */}
+      <OrphanLinks
+        sectionTitle="iPhone screen repair across Gauteng"
+        intro="Most iPhone screen replacements come through our Hyde Park workshop, with collection across the wider Gauteng area. Pick the suburb closest to you to read what the OLED replacement, glass repair and same-day turnaround work looks like for that area."
+        groups={[
+          { heading: 'By Gauteng suburb', links: orphanIphoneScreenSuburbLinks },
+        ]}
+      />
 
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">

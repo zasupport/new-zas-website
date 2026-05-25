@@ -10,6 +10,54 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanScreenModelLinks = [
+  { title: 'iMac', href: '/screen-repair/imac', description: 'Screen repair for iMac' },
+  { title: 'iPhone', href: '/screen-repair/iphone', description: 'Screen repair for iPhone' },
+  { title: 'Mac mini', href: '/screen-repair/mac-mini', description: 'Screen repair for Mac mini' },
+  { title: 'MacBook Air', href: '/screen-repair/macbook-air', description: 'Screen repair for MacBook Air' },
+  { title: 'MacBook Air M1', href: '/screen-repair/macbook-air-m1', description: 'Screen repair for MacBook Air M1' },
+  { title: 'MacBook Air M2', href: '/screen-repair/macbook-air-m2', description: 'Screen repair for MacBook Air M2' },
+  { title: 'MacBook Air M3', href: '/screen-repair/macbook-air-m3', description: 'Screen repair for MacBook Air M3' },
+  { title: 'MacBook Pro', href: '/screen-repair/macbook-pro', description: 'Screen repair for MacBook Pro' },
+  { title: 'MacBook Pro 13-inch', href: '/screen-repair/macbook-pro-13-inch', description: 'Screen repair for MacBook Pro 13-inch' },
+  { title: 'MacBook Pro 14-inch', href: '/screen-repair/macbook-pro-14-inch', description: 'Screen repair for MacBook Pro 14-inch' },
+  { title: 'MacBook Pro 16-inch', href: '/screen-repair/macbook-pro-16-inch', description: 'Screen repair for MacBook Pro 16-inch' },
+  { title: 'MacBook Pro M1', href: '/screen-repair/macbook-pro-m1', description: 'Screen repair for MacBook Pro M1' },
+  { title: 'MacBook Pro M2', href: '/screen-repair/macbook-pro-m2', description: 'Screen repair for MacBook Pro M2' },
+  { title: 'MacBook Pro M3', href: '/screen-repair/macbook-pro-m3', description: 'Screen repair for MacBook Pro M3' },
+];
+const orphanScreenSuburbLinks = [
+  { title: 'Alberton', href: '/screen-repair/alberton', description: 'Screen repair in Alberton' },
+  { title: 'Bedfordview', href: '/screen-repair/bedfordview', description: 'Screen repair in Bedfordview' },
+  { title: 'Benoni', href: '/screen-repair/benoni', description: 'Screen repair in Benoni' },
+  { title: 'Boksburg', href: '/screen-repair/boksburg', description: 'Screen repair in Boksburg' },
+  { title: 'Centurion', href: '/screen-repair/centurion', description: 'Screen repair in Centurion' },
+  { title: 'Craighall', href: '/screen-repair/craighall', description: 'Screen repair in Craighall' },
+  { title: 'Edenvale', href: '/screen-repair/edenvale', description: 'Screen repair in Edenvale' },
+  { title: 'Emmarentia', href: '/screen-repair/emmarentia', description: 'Screen repair in Emmarentia' },
+  { title: 'Germiston', href: '/screen-repair/germiston', description: 'Screen repair in Germiston' },
+  { title: 'Greenside', href: '/screen-repair/greenside', description: 'Screen repair in Greenside' },
+  { title: 'Houghton', href: '/screen-repair/houghton', description: 'Screen repair in Houghton' },
+  { title: 'Illovo', href: '/screen-repair/illovo', description: 'Screen repair in Illovo' },
+  { title: 'Kempton Park', href: '/screen-repair/kempton-park', description: 'Screen repair in Kempton Park' },
+  { title: 'Kyalami', href: '/screen-repair/kyalami', description: 'Screen repair in Kyalami' },
+  { title: 'Linden', href: '/screen-repair/linden', description: 'Screen repair in Linden' },
+  { title: 'Melrose', href: '/screen-repair/melrose', description: 'Screen repair in Melrose' },
+  { title: 'Melville', href: '/screen-repair/melville', description: 'Screen repair in Melville' },
+  { title: 'Morningside', href: '/screen-repair/morningside', description: 'Screen repair in Morningside' },
+  { title: 'Northcliff', href: '/screen-repair/northcliff', description: 'Screen repair in Northcliff' },
+  { title: 'Parkhurst', href: '/screen-repair/parkhurst', description: 'Screen repair in Parkhurst' },
+  { title: 'Parktown North', href: '/screen-repair/parktown-north', description: 'Screen repair in Parktown North' },
+  { title: 'Paulshof', href: '/screen-repair/paulshof', description: 'Screen repair in Paulshof' },
+  { title: 'Pretoria', href: '/screen-repair/pretoria', description: 'Screen repair in Pretoria' },
+  { title: 'Randpark Ridge', href: '/screen-repair/randpark-ridge', description: 'Screen repair in Randpark Ridge' },
+  { title: 'Rivonia', href: '/screen-repair/rivonia', description: 'Screen repair in Rivonia' },
+  { title: 'Roodepoort', href: '/screen-repair/roodepoort', description: 'Screen repair in Roodepoort' },
+  { title: 'Sunninghill', href: '/screen-repair/sunninghill', description: 'Screen repair in Sunninghill' },
+  { title: 'Woodmead', href: '/screen-repair/woodmead', description: 'Screen repair in Woodmead' },
+];
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
@@ -570,6 +618,16 @@ export default function ScreenRepairPage() {
             </Suspense>
           </div>
         </section>
+
+        {/* ─── Orphan-link injection — per-model + per-suburb ────── */}
+        <OrphanLinks
+          sectionTitle="Screen repair across Gauteng and across devices"
+          intro="MacBook displays, iPhone glass, iMac panels and iPad screens all come through our Hyde Park workshop. Choose the model you have or the suburb closest to you to read what the screen repair, glass replacement and panel replacement work looks like for that device or that area."
+          groups={[
+            { heading: 'By device', links: orphanScreenModelLinks },
+            { heading: 'By Gauteng suburb', links: orphanScreenSuburbLinks },
+          ]}
+        />
 
         {/* ─── FAQ ACCORDION ─────────────────────────────────────── */}
         <section className="py-16">

@@ -7,6 +7,7 @@ import {
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
+import OrphanLinks from '@/components/ui/OrphanLinks';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
@@ -196,6 +197,27 @@ export default function BusinessHubPage() {
           </div>
         </div>
       </section>
+
+      {/* ── Software & infrastructure for business ────────────────────────── */}
+      <OrphanLinks
+        sectionTitle="Software & infrastructure for your business"
+        intro="ZA Support deploys, licenses and supports the everyday business software and network infrastructure that runs alongside your Apple fleet — from Microsoft 365 mailbox setup, through UniFi networks at your premises, to Adobe Creative Cloud for the design and marketing team."
+        groups={[
+          {
+            heading: 'Productivity & creative software',
+            links: [
+              { title: 'Microsoft 365 for Business', href: '/business/microsoft-365-for-business', description: 'Email, Teams, OneDrive and SharePoint set up and supported' },
+              { title: 'Adobe Creative Cloud support', href: '/business/adobe-creative-cloud-support', description: 'Licensing, deployment and support for design and marketing teams' },
+            ],
+          },
+          {
+            heading: 'Network infrastructure',
+            links: [
+              { title: 'UniFi network services', href: '/business/unifi-network-services', description: 'Business-grade Wi-Fi, switches and gateways designed and installed in Gauteng' },
+            ],
+          },
+        ]}
+      />
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <section className="py-16 bg-[#0F2522]">

@@ -7,6 +7,9 @@ const serviceLinks = [
   { label: 'Logic Board Repair', href: '/logic-board-repair' },
   { label: 'iPhone Repair', href: '/iphone-repair' },
   { label: 'iPad Repair', href: '/ipad-repair' },
+  { label: 'Mac mini Repair', href: '/mac-mini-repair' },
+  { label: 'AirPods Repair', href: '/airpods-repair' },
+  { label: 'Accessories Repair', href: '/accessories-repair' },
   { label: 'Apple Repair Hub', href: '/apple-repair' },
   { label: 'For Business', href: '/business' },
   { label: 'Managed Services', href: '/managed-services' },
@@ -17,8 +20,11 @@ const infoLinks = [
   { label: 'Services & Pricing', href: '/services' },
   { label: 'Contact Us', href: '/contact' },
   { label: 'Blog', href: '/blog' },
+  { label: 'Troubleshooting Guides', href: '/guides' },
   { label: 'Answers', href: '/answers' },
   { label: 'Apple Support', href: '/apple-support' },
+  { label: 'Privacy Policy', href: '/privacy' },
+  { label: 'Terms of Service', href: '/terms' },
 ];
 
 export default function Footer() {

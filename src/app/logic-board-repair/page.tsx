@@ -9,6 +9,49 @@ import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanLbrModelLinks = [
+  { title: 'MacBook Air M1', href: '/logic-board-repair/macbook-air-m1', description: 'Logic board repair for MacBook Air M1' },
+  { title: 'MacBook Air M2', href: '/logic-board-repair/macbook-air-m2', description: 'Logic board repair for MacBook Air M2' },
+  { title: 'MacBook Air M3', href: '/logic-board-repair/macbook-air-m3', description: 'Logic board repair for MacBook Air M3' },
+  { title: 'MacBook Pro 13-inch', href: '/logic-board-repair/macbook-pro-13-inch', description: 'Logic board repair for MacBook Pro 13-inch' },
+  { title: 'MacBook Pro 14-inch', href: '/logic-board-repair/macbook-pro-14-inch', description: 'Logic board repair for MacBook Pro 14-inch' },
+  { title: 'MacBook Pro 16-inch', href: '/logic-board-repair/macbook-pro-16-inch', description: 'Logic board repair for MacBook Pro 16-inch' },
+  { title: 'MacBook Pro M1', href: '/logic-board-repair/macbook-pro-m1', description: 'Logic board repair for MacBook Pro M1' },
+  { title: 'MacBook Pro M2', href: '/logic-board-repair/macbook-pro-m2', description: 'Logic board repair for MacBook Pro M2' },
+  { title: 'MacBook Pro M3', href: '/logic-board-repair/macbook-pro-m3', description: 'Logic board repair for MacBook Pro M3' },
+];
+const orphanLbrSuburbLinks = [
+  { title: 'Alberton', href: '/logic-board-repair/alberton', description: 'Logic board repair in Alberton' },
+  { title: 'Bedfordview', href: '/logic-board-repair/bedfordview', description: 'Logic board repair in Bedfordview' },
+  { title: 'Benoni', href: '/logic-board-repair/benoni', description: 'Logic board repair in Benoni' },
+  { title: 'Boksburg', href: '/logic-board-repair/boksburg', description: 'Logic board repair in Boksburg' },
+  { title: 'Centurion', href: '/logic-board-repair/centurion', description: 'Logic board repair in Centurion' },
+  { title: 'Craighall', href: '/logic-board-repair/craighall', description: 'Logic board repair in Craighall' },
+  { title: 'Edenvale', href: '/logic-board-repair/edenvale', description: 'Logic board repair in Edenvale' },
+  { title: 'Emmarentia', href: '/logic-board-repair/emmarentia', description: 'Logic board repair in Emmarentia' },
+  { title: 'Germiston', href: '/logic-board-repair/germiston', description: 'Logic board repair in Germiston' },
+  { title: 'Greenside', href: '/logic-board-repair/greenside', description: 'Logic board repair in Greenside' },
+  { title: 'Houghton', href: '/logic-board-repair/houghton', description: 'Logic board repair in Houghton' },
+  { title: 'Illovo', href: '/logic-board-repair/illovo', description: 'Logic board repair in Illovo' },
+  { title: 'Kempton Park', href: '/logic-board-repair/kempton-park', description: 'Logic board repair in Kempton Park' },
+  { title: 'Kyalami', href: '/logic-board-repair/kyalami', description: 'Logic board repair in Kyalami' },
+  { title: 'Linden', href: '/logic-board-repair/linden', description: 'Logic board repair in Linden' },
+  { title: 'Melrose', href: '/logic-board-repair/melrose', description: 'Logic board repair in Melrose' },
+  { title: 'Melville', href: '/logic-board-repair/melville', description: 'Logic board repair in Melville' },
+  { title: 'Morningside', href: '/logic-board-repair/morningside', description: 'Logic board repair in Morningside' },
+  { title: 'Northcliff', href: '/logic-board-repair/northcliff', description: 'Logic board repair in Northcliff' },
+  { title: 'Parkhurst', href: '/logic-board-repair/parkhurst', description: 'Logic board repair in Parkhurst' },
+  { title: 'Parktown North', href: '/logic-board-repair/parktown-north', description: 'Logic board repair in Parktown North' },
+  { title: 'Paulshof', href: '/logic-board-repair/paulshof', description: 'Logic board repair in Paulshof' },
+  { title: 'Pretoria', href: '/logic-board-repair/pretoria', description: 'Logic board repair in Pretoria' },
+  { title: 'Randpark Ridge', href: '/logic-board-repair/randpark-ridge', description: 'Logic board repair in Randpark Ridge' },
+  { title: 'Rivonia', href: '/logic-board-repair/rivonia', description: 'Logic board repair in Rivonia' },
+  { title: 'Roodepoort', href: '/logic-board-repair/roodepoort', description: 'Logic board repair in Roodepoort' },
+  { title: 'Sunninghill', href: '/logic-board-repair/sunninghill', description: 'Logic board repair in Sunninghill' },
+  { title: 'Woodmead', href: '/logic-board-repair/woodmead', description: 'Logic board repair in Woodmead' },
+];
 
 export const metadata: Metadata = {
   title: 'Logic Board Repair Johannesburg | ZA Support',
@@ -688,6 +731,16 @@ export default function LogicBoardRepairPage() {
           </div>
         </div>
       </section>
+
+      {/* ── Orphan-link injection — per-model + per-suburb ── */}
+      <OrphanLinks
+        sectionTitle="Logic board repair by model and area"
+        intro="Logic board work is what our Hyde Park workshop is built around — Apple Silicon, Intel-era MacBook Pro and MacBook Air, with collection across Gauteng. Pick the model you have or the suburb closest to you to read what the diagnostic, component-level repair and warranty work looks like for that machine or that area."
+        groups={[
+          { heading: 'By MacBook model', links: orphanLbrModelLinks },
+          { heading: 'By Gauteng suburb', links: orphanLbrSuburbLinks },
+        ]}
+      />
 
       {/* ── FAQ ── */}
       <section className="py-20 bg-[#111C1A]">

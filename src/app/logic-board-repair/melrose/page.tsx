@@ -37,38 +37,14 @@ const pricing = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks from Melrose?',
-    answer: 'Yes. We offer a collection and return service for Melrose clients. Your MacBook is collected from your home or office in Melrose, repaired at our Hyde Park workshop approximately 8 minutes away, and returned once the repair is complete. Contact us on WhatsApp or by phone to arrange a collection time.',
-  },
-  {
-    question: 'How far is Melrose from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Park Lane is approximately 6 km from Melrose, roughly a 8-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
-  },
-  {
-    question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement.',
-  },
-  {
-    question: 'My MacBook shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC — a straightforward component-level repair. Bring it in or request a collection from Melrose for an assessment.',
-  },
-  {
-    question: 'How long will the repair take?',
-    answer: 'Diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex faults can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
-  },
-  {
-    question: 'What is the assessment fee?',
-    answer: 'The assessment is from R599. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
-  },
-  {
-    question: 'Do you offer a From R599 assessment guarantee?',
-    answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Which MacBook models do you repair for Melrose clients?',
-    answer: 'All MacBook Pro, MacBook Air, iMac, and Mac mini models across all generations — Intel and Apple Silicon (M1, M2, M3). We have schematics and components for every generation from 2012 to present.',
-  },
+  { question: 'Do you collect MacBooks from Melrose?', answer: 'Yes. We collect across Melrose Arch, Melrose North, Melrose Estate, and the practices along Athol Street and Corlett Drive. Because the run from Hyde Park is short, we can usually arrange same-day collection if you call before midday on 064 529 5863.' },
+  { question: 'How far is Melrose from your Hyde Park workshop?', answer: 'Approximately 8 minutes by car, depending on which side of Melrose you are on. From Melrose Arch we take Corlett Drive and Glenhove Road; from Melrose North it is a short trip across Athol Oaklands. Traffic on the M1 rarely affects this route since we stay on suburban roads.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we isolate the specific failed part on the existing logic board — a power management IC, a MOSFET, a capacitor, a backlight fuse, or a Thunderbolt retimer — and replace only that component. A board replacement swaps the entire logic board for another unit, which is usually 4 to 8 times more expensive and ties your data and Touch ID to a different board. For most Melrose clients we recommend component-level repair where the fault allows it.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. A completely dead MacBook usually points to a short on one of the power rails or a failed PMIC, both of which we diagnose under the microscope and repair at component level. We have brought back several apparently dead machines from Melrose practices where the fault turned out to be a single shorted capacitor on the 3V3 line. Assessment from R599 confirms the fault before any repair is quoted.' },
+  { question: 'How long will the repair take?', answer: 'Most logic board repairs for Melrose clients are completed within 48 to 72 hours once the machine is on the bench. Straightforward power faults often turn around inside a day. More involved work — for example liquid damage that has spread across multiple rails, or a CPU/SoC reball — can take 4 to 7 working days because we test under load for an extended period before returning the machine.' },
+  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the full diagnostic process: visual inspection under the microscope, electrical testing of the power rails, schematic-level fault tracing, and a written quote for the repair. If you go ahead with the repair, the assessment fee is included in the repair cost rather than charged on top.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The R599 assessment is the entry point for every logic board job from Melrose. Before we touch anything, you receive a clear written quote with the diagnosed fault and the repair cost. If you decide not to proceed, you pay only the assessment fee and the machine is returned to you in the same condition we received it.' },
+  { question: 'Which MacBook models do you repair for Melrose clients?', answer: 'All current and recent MacBook models — MacBook Pro and MacBook Air from the Intel era (2015 onward) through to the Apple Silicon M1, M2, and M3 machines, plus iMac and Mac mini logic boards. We also handle Touch Bar Pros and the 16-inch Pros that are common with the creative studios in Melrose Arch. If you are unsure whether your model is supported, send the serial number via WhatsApp on wa.me/27645295863 and we will confirm before collection.' },
 ];
 
 const serviceSchema = {
@@ -114,7 +90,7 @@ export default function LogicBoardRepairMelrosePage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Melrose&apos;s preferred MacBook logic board repair service. We collect from Melrose and repair at our Hyde Park component-level workshop, approximately 8 minutes away. Assessment from R599.
+              Melrose sits roughly 8 minutes from our Hyde Park workshop along Athol Oaklands and Corlett Drive, which makes us the closest component-level MacBook logic board repair option for the precinct. We collect from Melrose Arch, Melrose North, and the medical and boutique strips along Athol Street, then return the machine once the board is properly tested. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -155,13 +131,13 @@ export default function LogicBoardRepairMelrosePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have been repairing MacBook logic boards for corporate professionals and residents in the Melrose Arch precinct for several years. When a logic board fails, the machine shows symptoms ranging from complete power loss to intermittent shutdowns, no display, USB-C charging failure, or erratic fan behaviour. These faults are almost always board-level and, in the majority of cases, repairable at component level without replacing the entire board.
+              Melrose has a distinct mix of clients that shapes the work we see — medical practices and specialist consulting rooms around the Melrose Medical Centre, boutique studios and design agencies in Melrose Arch, and a steady residential base in Melrose North and Birdhaven. The logic board faults that come through tend to follow that profile: MacBooks that have travelled between consulting rooms with charger swaps, machines from creative studios that run heavy thermal loads for hours at a time, and home-office Pros that have suffered a wine or coffee spill on a Sunday evening. Symptoms range from a completely dead machine that will not chime, to intermittent shutdowns under load, missing backlight, USB-C ports that refuse to negotiate charging, and erratic fan ramp on what should be an idle desktop.
             </p>
             <p>
-              Our Hyde Park workshop is equipped with professional hot-air rework stations, precision soldering equipment, a high-magnification stereo microscope, and the diagnostic tools required to trace faults at chip level. Every repair begins with a structured diagnostic session. We identify the exact component failure before any soldering takes place.
+              Everything diagnosed in Melrose is repaired at our Hyde Park bench, a short run down Glenhove Road. The workshop runs hot-air rework stations, a fine-tip soldering setup, a stereo microscope for chip-level inspection, and the schematics and boardviews required to trace a fault back to the specific failed component rather than guessing at a board swap. We tell Melrose clients up front whether the fault is a SMC line, a PPBUS short, a backlight circuit, a Thunderbolt retimer, or a CPU/SoC failure — and only the last category genuinely requires a board-level replacement. Most other faults are economically repairable.
             </p>
             <p>
-              For Melrose clients, we offer a collection and return service. Your MacBook is collected from Melrose Arch, Melrose North, and surrounding corporate precinct, repaired at our Hyde Park workshop, and returned to you once the repair is complete and fully tested. Most repairs are completed within 48–72 hours.
+              Collection from Melrose is straightforward: we can fetch from a reception desk at Melrose Arch during business hours, from a medical practice between patients, or from a residential address in Melrose North. The machine goes onto the bench the same day where possible, and most repairs are returned within 48 to 72 hours once the fault is isolated. For Melrose practitioners who need their MacBook back urgently for patient files or billing software, mention the urgency when you call on 064 529 5863 or WhatsApp wa.me/27645295863 and we will prioritise the diagnostic slot.
             </p>
             <p>
               We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.

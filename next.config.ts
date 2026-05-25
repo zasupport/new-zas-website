@@ -54,7 +54,7 @@ const nextConfig: NextConfig = {
       { source: '/apple-repair-johannesburg', destination: '/apple-repair', permanent: true },
 
       // Old blog slugs
-      { source: '/blog/liquid-damage', destination: '/blog/what-to-do-macbook-liquid-damage', permanent: true },
+      { source: '/blog/liquid-damage', destination: '/blog/macbook-water-damage-first-aid', permanent: true },
       { source: '/blog/rice-myth', destination: '/blog/why-rice-does-not-work', permanent: true },
 
       // Water damage cluster consolidation → pillar post

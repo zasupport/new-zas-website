@@ -37,38 +37,14 @@ const pricing = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks from Illovo?',
-    answer: 'Yes. We offer a collection and return service for Illovo clients. Your MacBook is collected from your home or office in Illovo, repaired at our Hyde Park workshop approximately 7 minutes away, and returned once the repair is complete. Contact us on WhatsApp or by phone to arrange a collection time.',
-  },
-  {
-    question: 'How far is Illovo from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Park Lane is approximately 5 km from Illovo, roughly a 7-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
-  },
-  {
-    question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement.',
-  },
-  {
-    question: 'My MacBook shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC — a straightforward component-level repair. Bring it in or request a collection from Illovo for an assessment.',
-  },
-  {
-    question: 'How long will the repair take?',
-    answer: 'Diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex faults can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
-  },
-  {
-    question: 'What is the assessment fee?',
-    answer: 'The assessment is from R599. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
-  },
-  {
-    question: 'Do you offer a From R599 assessment guarantee?',
-    answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Which MacBook models do you repair for Illovo clients?',
-    answer: 'All MacBook Pro, MacBook Air, iMac, and Mac mini models across all generations — Intel and Apple Silicon (M1, M2, M3). We have schematics and components for every generation from 2012 to present.',
-  },
+  { question: 'Do you collect MacBooks from Illovo?', answer: 'Yes, we collect from anywhere in Illovo at no additional charge — Fricker Road, Illovo Boulevard, Harries Road, Rudd Road, and the residential streets between Oxford Road and Corlett Drive. Because the workshop is only a few minutes away in Hyde Park, we can usually have a courier or one of our technicians on-site within an hour or two of your call. Send the address via WhatsApp on 064 529 5863 and we will confirm a time window.' },
+  { question: 'How far is Illovo from your Hyde Park workshop?', answer: 'Illovo is roughly seven minutes from our Hyde Park workshop in normal traffic — straight down Jan Smuts Avenue or via Oxford Road, depending on which end of the suburb you are in. The proximity is genuinely useful: we can do quick handovers at your office during business hours, and if a repair needs a second look after collection, we are not asking you to drive across town to bring it back.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement means swapping the entire logic board for a new or refurbished one — Apple\'s standard approach, and it typically runs into five figures. Component-level repair means we identify the single failed part on your existing board — often a power IC, a fuse, a capacitor, or a damaged trace — and replace only that. For most faults we see from Illovo clients, component-level work costs a fraction of a board swap and keeps your original board (and its serial-bound data) intact.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In the majority of cases, yes. "No power" usually traces back to one of a handful of culprits: a failed SMC, a blown input fuse on the USB-C side, a shorted power rail caused by liquid ingress, or a failed PPBUS power management chip. We measure the rails on the bench, isolate the short, and rework the affected component. The MacBooks we collect from Illovo with this symptom have a high success rate — the main exceptions are boards with extensive corrosion from prolonged liquid exposure, which we will tell you about upfront.' },
+  { question: 'How long will the repair take?', answer: 'Most logic board repairs for Illovo clients are completed within 48 to 72 hours of collection, including a full overnight stress test under load. Straightforward faults like a single failed charging IC can sometimes turn around in 24 hours. More involved jobs — heavy liquid damage, GPU reballing, or repairs that need a specific part to be sourced — can take a working week. We give you a realistic timeline once the diagnostic is complete, not before.' },
+  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the full diagnostic on the bench — visual inspection under the microscope, rail measurements, board-view tracing of the fault, and a written quote for the repair. If you go ahead with the repair, the assessment fee is absorbed into the repair cost. If the board is beyond economic repair, you have paid only the assessment and we return the machine to you in Illovo.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes — the R599 figure is the starting assessment fee and it is the price we quote upfront for a standard MacBook logic board diagnostic. For more complex cases (severe liquid damage requiring ultrasonic cleaning before diagnosis, for instance) we will let you know in advance if the assessment will run higher. There are no surprise additions: whatever we agree before collection from Illovo is what you pay at assessment stage.' },
+  { question: 'Which MacBook models do you repair for Illovo clients?', answer: 'We repair the full MacBook range: MacBook Pro 13", 14", 15", and 16" from the 2016 Touch Bar generation through to the current M3 Pro and M3 Max models; MacBook Air from the 2018 Retina onward, including the M1, M2, and M3 boards; iMac (both Intel and Apple Silicon); and Mac mini. Most of the machines we see from Illovo are M1/M2 Pro and Max MacBook Pros used by the professional services tenants, alongside a steady stream of older Intel 15" and 16" boards with GPU and charging faults.' },
 ];
 
 const serviceSchema = {
@@ -114,7 +90,7 @@ export default function LogicBoardRepairIllovoPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Illovo&apos;s preferred MacBook logic board repair service. We collect from Illovo and repair at our Hyde Park component-level workshop, approximately 7 minutes away. Assessment from R599.
+              Illovo sits a short hop from our Hyde Park workshop — roughly seven minutes up Oxford Road past the Wanderers and Inanda Club. We collect failed MacBooks from offices around Fricker Road, the Illovo Boulevard precinct, and the residential pockets off Harries Road, then carry out component-level logic board repair on-site. Assessment from R599, and most boards are diagnosed within 24 hours of arrival.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -155,13 +131,13 @@ export default function LogicBoardRepairIllovoPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have been repairing MacBook logic boards for legal and financial professionals along Oxford Road for several years. When a logic board fails, the machine shows symptoms ranging from complete power loss to intermittent shutdowns, no display, USB-C charging failure, or erratic fan behaviour. These faults are almost always board-level and, in the majority of cases, repairable at component level without replacing the entire board.
+              Illovo&apos;s tenant mix — boutique law firms, asset managers, and the medical suites clustered near Netcare Rosebank — means most of the MacBooks we collect here are heavily relied on for billable work. A dead logic board in this corner of Johannesburg is rarely just an inconvenience; it usually halts a deal room or a patient schedule. The faults we see most often from Illovo are USB-C charging circuits that have given up after years of daily plug cycles, GPU failures on the Intel-era 15" and 16" MacBook Pros that the consulting crowd favoured, and the classic no-power, no-fan-spin presentation that points to a failed power management IC or a shorted rail somewhere on the board.
             </p>
             <p>
-              Our Hyde Park workshop is equipped with professional hot-air rework stations, precision soldering equipment, a high-magnification stereo microscope, and the diagnostic tools required to trace faults at chip level. Every repair begins with a structured diagnostic session. We identify the exact component failure before any soldering takes place.
+              Every machine that comes in from Illovo goes onto the bench under a stereo microscope before we promise anything. We pull schematics and board-views for the specific model, measure the rails with a bench supply, and trace the fault back to the actual component — whether that is a backlight fuse, a Thunderbolt retimer, a SMC chip, or liquid-corroded traces under the keyboard connector. Only once we know exactly which part has failed do we quote. That matters in Illovo because we have repeatedly saved clients the cost of an Apple board swap on machines where a single R450 component was the entire problem.
             </p>
             <p>
-              For Illovo clients, we offer a collection and return service. Your MacBook is collected from Illovo, Craighall Park, and the Oxford Road commercial strip, repaired at our Hyde Park workshop, and returned to you once the repair is complete and fully tested. Most repairs are completed within 48–72 hours.
+              Collection from Illovo is straightforward — we will meet you at your offices on Fricker Road, at home off Rivonia Road, or at one of the coffee spots around Illovo Junction, whichever suits the day. Once the board is repaired and stress-tested under load for at least 24 hours, we return the machine to you with a written summary of what failed and what was replaced. If you are sitting with a MacBook that will not power on, will not charge, or shuts down under load, send us a WhatsApp on 064 529 5863 and we will arrange collection the same day where the diary allows.
             </p>
             <p>
               We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.

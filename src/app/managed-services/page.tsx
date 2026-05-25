@@ -6,6 +6,15 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import PricingNote from '@/components/PricingNote';
 import { CONTACT } from '@/lib/constants';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanManagedServicesLinks = [
+  { title: 'Apple-specialist managed IT', href: '/managed-services/apple-specialist', description: 'For organisations running Apple as the primary device platform' },
+  { title: 'Managed IT for Investec clients', href: '/managed-services/investec', description: 'IT support tuned to the Investec Private Clients and Business banking customer base' },
+  { title: 'Managed IT support', href: '/managed-services/it-support', description: 'Ongoing proactive IT support under a service level agreement' },
+  { title: 'UniFi networking under management', href: '/managed-services/unifi-networking', description: 'Designed, deployed and managed UniFi networks across Gauteng' },
+  { title: 'Managed IT for wealth management firms', href: '/managed-services/wealth-management', description: 'Compliance-aware managed IT for wealth managers and advisors' },
+];
 
 export const metadata: Metadata = {
   title: 'IT Managed Services Johannesburg, Mac & Windows MSP | ZA Support',
@@ -127,6 +136,14 @@ export default function ManagedServicesPage() {
           </div>
         </div>
       </section>
+
+      <OrphanLinks
+        sectionTitle="Managed services by client type and component"
+        intro="Managed IT looks different depending on whether you are a wealth management firm under HPCSA-aligned record-keeping obligations, an Apple-first creative business, or a private bank client who needs end-to-end IT taken care of. These pages explain how each engagement is shaped."
+        groups={[
+          { heading: 'Managed services in context', links: orphanManagedServicesLinks },
+        ]}
+      />
 
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

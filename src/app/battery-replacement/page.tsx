@@ -10,6 +10,48 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanBatteryModelLinks = [
+  { title: 'iMac', href: '/battery-replacement/imac', description: 'Battery replacement for iMac' },
+  { title: 'iPhone', href: '/battery-replacement/iphone', description: 'Battery replacement for iPhone' },
+  { title: 'Mac mini', href: '/battery-replacement/mac-mini', description: 'Battery replacement for Mac mini' },
+  { title: 'MacBook Air', href: '/battery-replacement/macbook-air', description: 'Battery replacement for MacBook Air' },
+  { title: 'MacBook Air M1', href: '/battery-replacement/macbook-air-m1', description: 'Battery replacement for MacBook Air M1' },
+  { title: 'MacBook Air M2', href: '/battery-replacement/macbook-air-m2', description: 'Battery replacement for MacBook Air M2' },
+  { title: 'MacBook Air M3', href: '/battery-replacement/macbook-air-m3', description: 'Battery replacement for MacBook Air M3' },
+  { title: 'MacBook Pro', href: '/battery-replacement/macbook-pro', description: 'Battery replacement for MacBook Pro' },
+  { title: 'MacBook Pro 13-inch', href: '/battery-replacement/macbook-pro-13-inch', description: 'Battery replacement for MacBook Pro 13-inch' },
+  { title: 'MacBook Pro 14-inch', href: '/battery-replacement/macbook-pro-14-inch', description: 'Battery replacement for MacBook Pro 14-inch' },
+  { title: 'MacBook Pro 16-inch', href: '/battery-replacement/macbook-pro-16-inch', description: 'Battery replacement for MacBook Pro 16-inch' },
+  { title: 'MacBook Pro M1', href: '/battery-replacement/macbook-pro-m1', description: 'Battery replacement for MacBook Pro M1' },
+  { title: 'MacBook Pro M2', href: '/battery-replacement/macbook-pro-m2', description: 'Battery replacement for MacBook Pro M2' },
+  { title: 'MacBook Pro M3', href: '/battery-replacement/macbook-pro-m3', description: 'Battery replacement for MacBook Pro M3' },
+];
+const orphanBatterySuburbLinks = [
+  { title: 'Alberton', href: '/battery-replacement/alberton', description: 'Battery replacement in Alberton' },
+  { title: 'Bedfordview', href: '/battery-replacement/bedfordview', description: 'Battery replacement in Bedfordview' },
+  { title: 'Benoni', href: '/battery-replacement/benoni', description: 'Battery replacement in Benoni' },
+  { title: 'Boksburg', href: '/battery-replacement/boksburg', description: 'Battery replacement in Boksburg' },
+  { title: 'Craighall', href: '/battery-replacement/craighall', description: 'Battery replacement in Craighall' },
+  { title: 'Edenvale', href: '/battery-replacement/edenvale', description: 'Battery replacement in Edenvale' },
+  { title: 'Emmarentia', href: '/battery-replacement/emmarentia', description: 'Battery replacement in Emmarentia' },
+  { title: 'Germiston', href: '/battery-replacement/germiston', description: 'Battery replacement in Germiston' },
+  { title: 'Greenside', href: '/battery-replacement/greenside', description: 'Battery replacement in Greenside' },
+  { title: 'Illovo', href: '/battery-replacement/illovo', description: 'Battery replacement in Illovo' },
+  { title: 'Kempton Park', href: '/battery-replacement/kempton-park', description: 'Battery replacement in Kempton Park' },
+  { title: 'Kyalami', href: '/battery-replacement/kyalami', description: 'Battery replacement in Kyalami' },
+  { title: 'Linden', href: '/battery-replacement/linden', description: 'Battery replacement in Linden' },
+  { title: 'Melrose', href: '/battery-replacement/melrose', description: 'Battery replacement in Melrose' },
+  { title: 'Melville', href: '/battery-replacement/melville', description: 'Battery replacement in Melville' },
+  { title: 'Northcliff', href: '/battery-replacement/northcliff', description: 'Battery replacement in Northcliff' },
+  { title: 'Parktown North', href: '/battery-replacement/parktown-north', description: 'Battery replacement in Parktown North' },
+  { title: 'Paulshof', href: '/battery-replacement/paulshof', description: 'Battery replacement in Paulshof' },
+  { title: 'Randpark Ridge', href: '/battery-replacement/randpark-ridge', description: 'Battery replacement in Randpark Ridge' },
+  { title: 'Roodepoort', href: '/battery-replacement/roodepoort', description: 'Battery replacement in Roodepoort' },
+  { title: 'Sunninghill', href: '/battery-replacement/sunninghill', description: 'Battery replacement in Sunninghill' },
+  { title: 'Woodmead', href: '/battery-replacement/woodmead', description: 'Battery replacement in Woodmead' },
+];
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg [2026] | From R1,499 | ZA Support',
@@ -501,6 +543,16 @@ export default function BatteryReplacementPage() {
             </Suspense>
           </div>
         </section>
+
+        {/* ── Orphan-link injection — per-device + per-suburb ───────────── */}
+        <OrphanLinks
+          sectionTitle="Battery replacement by device and area"
+          intro="Battery work spans every Apple device — MacBook Air and Pro, iPhone, iPad and iMac power assemblies. Pick the device or the suburb closest to you to read what the diagnostic, battery health check and replacement work looks like for that model or that area."
+          groups={[
+            { heading: 'By device', links: orphanBatteryModelLinks },
+            { heading: 'By Gauteng suburb', links: orphanBatterySuburbLinks },
+          ]}
+        />
 
         {/* ── FAQ Section ────────────────────────────────────────────────── */}
         <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">

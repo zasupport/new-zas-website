@@ -8,7 +8,57 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import PricingNote from '@/components/PricingNote';
+import OrphanLinks from '@/components/ui/OrphanLinks';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
+
+const orphanModelLinks = [
+  { title: 'Mac mini', href: '/liquid-damage/mac-mini', description: 'Liquid damage repair for Mac mini' },
+  { title: 'MacBook Air M1', href: '/liquid-damage/macbook-air-m1', description: 'Liquid damage repair for MacBook Air M1' },
+  { title: 'MacBook Air M2', href: '/liquid-damage/macbook-air-m2', description: 'Liquid damage repair for MacBook Air M2' },
+  { title: 'MacBook Air M3', href: '/liquid-damage/macbook-air-m3', description: 'Liquid damage repair for MacBook Air M3' },
+  { title: 'MacBook Pro 13-inch', href: '/liquid-damage/macbook-pro-13-inch', description: 'Liquid damage repair for MacBook Pro 13-inch' },
+  { title: 'MacBook Pro 14-inch', href: '/liquid-damage/macbook-pro-14-inch', description: 'Liquid damage repair for MacBook Pro 14-inch' },
+  { title: 'MacBook Pro 16-inch', href: '/liquid-damage/macbook-pro-16-inch', description: 'Liquid damage repair for MacBook Pro 16-inch' },
+  { title: 'MacBook Pro M1', href: '/liquid-damage/macbook-pro-m1', description: 'Liquid damage repair for MacBook Pro M1' },
+  { title: 'MacBook Pro M2', href: '/liquid-damage/macbook-pro-m2', description: 'Liquid damage repair for MacBook Pro M2' },
+  { title: 'MacBook Pro M3', href: '/liquid-damage/macbook-pro-m3', description: 'Liquid damage repair for MacBook Pro M3' },
+];
+const orphanSuburbLinks = [
+  { title: 'Alberton', href: '/liquid-damage/alberton', description: 'Liquid damage repair in Alberton' },
+  { title: 'Bedfordview', href: '/liquid-damage/bedfordview', description: 'Liquid damage repair in Bedfordview' },
+  { title: 'Benoni', href: '/liquid-damage/benoni', description: 'Liquid damage repair in Benoni' },
+  { title: 'Boksburg', href: '/liquid-damage/boksburg', description: 'Liquid damage repair in Boksburg' },
+  { title: 'Bryanston', href: '/liquid-damage/bryanston', description: 'Liquid damage repair in Bryanston' },
+  { title: 'Centurion', href: '/liquid-damage/centurion', description: 'Liquid damage repair in Centurion' },
+  { title: 'Craighall', href: '/liquid-damage/craighall', description: 'Liquid damage repair in Craighall' },
+  { title: 'Edenvale', href: '/liquid-damage/edenvale', description: 'Liquid damage repair in Edenvale' },
+  { title: 'Emmarentia', href: '/liquid-damage/emmarentia', description: 'Liquid damage repair in Emmarentia' },
+  { title: 'Fourways', href: '/liquid-damage/fourways', description: 'Liquid damage repair in Fourways' },
+  { title: 'Germiston', href: '/liquid-damage/germiston', description: 'Liquid damage repair in Germiston' },
+  { title: 'Greenside', href: '/liquid-damage/greenside', description: 'Liquid damage repair in Greenside' },
+  { title: 'Houghton', href: '/liquid-damage/houghton', description: 'Liquid damage repair in Houghton' },
+  { title: 'Illovo', href: '/liquid-damage/illovo', description: 'Liquid damage repair in Illovo' },
+  { title: 'Kempton Park', href: '/liquid-damage/kempton-park', description: 'Liquid damage repair in Kempton Park' },
+  { title: 'Kyalami', href: '/liquid-damage/kyalami', description: 'Liquid damage repair in Kyalami' },
+  { title: 'Linden', href: '/liquid-damage/linden', description: 'Liquid damage repair in Linden' },
+  { title: 'Melrose', href: '/liquid-damage/melrose', description: 'Liquid damage repair in Melrose' },
+  { title: 'Melville', href: '/liquid-damage/melville', description: 'Liquid damage repair in Melville' },
+  { title: 'Midrand', href: '/liquid-damage/midrand', description: 'Liquid damage repair in Midrand' },
+  { title: 'Morningside', href: '/liquid-damage/morningside', description: 'Liquid damage repair in Morningside' },
+  { title: 'Northcliff', href: '/liquid-damage/northcliff', description: 'Liquid damage repair in Northcliff' },
+  { title: 'Parkhurst', href: '/liquid-damage/parkhurst', description: 'Liquid damage repair in Parkhurst' },
+  { title: 'Parktown North', href: '/liquid-damage/parktown-north', description: 'Liquid damage repair in Parktown North' },
+  { title: 'Paulshof', href: '/liquid-damage/paulshof', description: 'Liquid damage repair in Paulshof' },
+  { title: 'Pretoria', href: '/liquid-damage/pretoria', description: 'Liquid damage repair in Pretoria' },
+  { title: 'Randburg', href: '/liquid-damage/randburg', description: 'Liquid damage repair in Randburg' },
+  { title: 'Randpark Ridge', href: '/liquid-damage/randpark-ridge', description: 'Liquid damage repair in Randpark Ridge' },
+  { title: 'Rivonia', href: '/liquid-damage/rivonia', description: 'Liquid damage repair in Rivonia' },
+  { title: 'Roodepoort', href: '/liquid-damage/roodepoort', description: 'Liquid damage repair in Roodepoort' },
+  { title: 'Rosebank', href: '/liquid-damage/rosebank', description: 'Liquid damage repair in Rosebank' },
+  { title: 'Sandton', href: '/liquid-damage/sandton', description: 'Liquid damage repair in Sandton' },
+  { title: 'Sunninghill', href: '/liquid-damage/sunninghill', description: 'Liquid damage repair in Sunninghill' },
+  { title: 'Woodmead', href: '/liquid-damage/woodmead', description: 'Liquid damage repair in Woodmead' },
+];
 
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',
@@ -110,45 +160,8 @@ const serviceSchema = {
   },
 };
 
-const howToSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'HowTo',
-  name: 'What to do if your MacBook gets water damage',
-  description: 'Immediate steps to take after liquid spills on your MacBook, to maximise the chance of a successful repair.',
-  totalTime: 'PT15M',
-  tool: [],
-  supply: [],
-  step: [
-    {
-      '@type': 'HowToStep',
-      position: 1,
-      name: 'Switch off immediately and do not turn it back on',
-      text: 'Hold the power button until the Mac shuts down. Do not try to restart it, powering on a wet board causes short circuits that accelerate damage and turn a repairable fault into permanent failure.',
-      url: 'https://zasupport.com/liquid-damage#step-switch-off',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 2,
-      name: 'Do not put it in rice',
-      text: 'Rice does not remove corrosion and does not dry the internals effectively. Rice wastes critical time. The window for successful repair narrows rapidly after liquid exposure.',
-      url: 'https://zasupport.com/liquid-damage#step-no-rice',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 3,
-      name: 'Remove all cables and accessories',
-      text: 'Unplug the charger, USB devices, and external monitors immediately. Tilt the Mac so any pooled liquid drains away from the logic board.',
-      url: 'https://zasupport.com/liquid-damage#step-unplug',
-    },
-    {
-      '@type': 'HowToStep',
-      position: 4,
-      name: 'Bring it to ZA Support within hours',
-      text: 'Every hour that passes allows corrosion to spread. Bring your MacBook to our Hyde Park workshop for a same-day assessment. Earlier treatment delivers a significantly better repair outcome.',
-      url: 'https://zasupport.com/liquid-damage#step-bring-in',
-    },
-  ],
-};
+// HowTo schema removed 25/05/2026 — Google deprecated HowTo rich results 14 Sep 2023.
+// Step content remains rendered visibly on the page; schema emission no longer adds SERP value.
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -168,7 +181,6 @@ export default function LiquidDamagePage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
-      <SchemaOrg schema={howToSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">
@@ -416,6 +428,16 @@ export default function LiquidDamagePage() {
           </div>
         </div>
       </section>
+
+      {/* Orphan-link injection — per-model + per-suburb */}
+      <OrphanLinks
+        sectionTitle="Liquid damage repair across Gauteng"
+        intro="Most liquid damage on Mac, MacBook and iMac comes through our Hyde Park workshop, with collection across the wider Gauteng area. Pick the model you have or the suburb closest to you to read what the assessment, cleaning and board-level repair work looks like for that device or that area."
+        groups={[
+          { heading: 'By Mac model', links: orphanModelLinks },
+          { heading: 'By Gauteng suburb', links: orphanSuburbLinks },
+        ]}
+      />
 
       {/* FAQ */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

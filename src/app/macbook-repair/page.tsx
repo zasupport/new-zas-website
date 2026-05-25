@@ -6,6 +6,14 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import OrphanLinks from '@/components/ui/OrphanLinks';
+
+const orphanMacbookRepairLinks = [
+  { title: 'Data recovery', href: '/macbook-repair/data-recovery', description: 'Recover documents, photos and projects from a failed Mac drive' },
+  { title: 'RAM upgrade', href: '/macbook-repair/ram-upgrade', description: 'RAM upgrade options and what is actually possible per MacBook model' },
+  { title: 'SSD upgrade', href: '/macbook-repair/ssd-upgrade', description: 'SSD upgrade options and what is possible per MacBook model' },
+  { title: 'Virus and malware removal', href: '/macbook-repair/virus-removal', description: 'Mac malware and adware diagnosis, removal and prevention' },
+];
 
 const REVIEWS = { rating: SITE.rating, count: SITE.reviewCount };
 
@@ -346,6 +354,15 @@ export default function MacBookRepairPage() {
           </div>
         </div>
       </section>
+
+      {/* Orphan-link injection — engineering services */}
+      <OrphanLinks
+        sectionTitle="Specialist MacBook services"
+        intro="Beyond core repair, our Hyde Park workshop handles MacBook data recovery, RAM and SSD upgrade evaluations, and trackpad replacements — each with an honest assessment of what is actually possible per model."
+        groups={[
+          { heading: 'Beyond core repair', links: orphanMacbookRepairLinks },
+        ]}
+      />
 
       {/* FAQ */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

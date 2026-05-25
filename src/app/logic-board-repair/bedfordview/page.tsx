@@ -37,38 +37,14 @@ const pricing = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks from Bedfordview?',
-    answer: 'Yes. We offer a collection and return service for Bedfordview clients. Your MacBook is collected from your home or office in Bedfordview, repaired at our Hyde Park workshop approximately 25 minutes away, and returned once the repair is complete. Contact us on WhatsApp or by phone to arrange a collection time.',
-  },
-  {
-    question: 'How far is Bedfordview from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Park Lane is approximately 22 km from Bedfordview, roughly a 25-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
-  },
-  {
-    question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement.',
-  },
-  {
-    question: 'My MacBook shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC — a straightforward component-level repair. Bring it in or request a collection from Bedfordview for an assessment.',
-  },
-  {
-    question: 'How long will the repair take?',
-    answer: 'Diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex faults can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
-  },
-  {
-    question: 'What is the assessment fee?',
-    answer: 'The assessment is from R599. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
-  },
-  {
-    question: 'Do you offer a From R599 assessment guarantee?',
-    answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Which MacBook models do you repair for Bedfordview clients?',
-    answer: 'All MacBook Pro, MacBook Air, iMac, and Mac mini models across all generations — Intel and Apple Silicon (M1, M2, M3). We have schematics and components for every generation from 2012 to present.',
-  },
+  { question: 'Do you collect MacBooks from Bedfordview?', answer: 'Yes. We collect from across Bedfordview — including residential streets off Van Buuren Road, the office parks along the Eastern Service Road, and the commercial belt around Bedford Centre and Bedford Square. Our driver routes via the M1 and N3, so collection windows in Bedfordview are usually within 30 minutes of a confirmed booking. Message us on wa.me/27645295863 with your address and we will schedule a pickup.' },
+  { question: 'How far is Bedfordview from your Hyde Park workshop?', answer: 'Roughly 20 to 25 minutes depending on traffic on the M1 south and the N3 split. Off-peak — mid-morning or after the school run — the trip is closer to 20 minutes. During Sandton\'s afternoon rush we plan for 30 to 35 minutes. We schedule Bedfordview collections around those windows so your MacBook reaches the bench the same day.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a new assembly, which on a modern MacBook can cost as much as a replacement laptop because the SSD, CPU and RAM are soldered to that board. Component-level repair, which is what we do at our Hyde Park workshop, identifies the specific failed component — a power IC, a charging chip, a resistor, a damaged trace — and replaces only that part. The board, the SSD and your data remain intact, and the repair cost typically lands at a fraction of an Apple board swap.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. No-power MacBooks from Bedfordview most commonly arrive after a storm-related surge or an undisclosed liquid event. On the bench we measure current draw on the DC supply, identify whether the fault is on the input rail, the SMC subsystem, or one of the downstream PMIC stages, and quote from there. The majority of no-power boards we receive can be brought back to life through targeted component replacement — we will only tell you a board is unrepairable once we have actually proven it.' },
+  { question: 'How long will the repair take?', answer: 'Most Bedfordview repairs are completed within 48 to 72 hours of the machine arriving in Hyde Park. Straightforward charging-port or power IC work can be returned the next business day. Liquid damage repairs, which need an ultrasonic clean, full board inspection under the microscope, and staged testing, generally take three to five working days. We will give you a realistic timeline as soon as the diagnostic is finished, before any soldering begins.' },
+  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers collection from Bedfordview, the structured diagnostic at our Hyde Park bench — visual inspection, current-draw analysis, signal tracing where required — and a written quote for the repair. If you proceed with the repair the assessment fee is credited against the final invoice. If you choose not to proceed, we return the MacBook in the condition it arrived.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The assessment for Bedfordview clients is from R599 and includes collection, diagnostic work and a written quote. We will not begin any soldering or component-level work until you have seen and approved the quote. The R599 is credited toward the repair cost if you go ahead, so in practice it functions as a deposit rather than an additional charge.' },
+  { question: 'Which MacBook models do you repair for Bedfordview clients?', answer: 'Every MacBook generation currently in circulation around Bedfordview\'s homes and offices — Intel-era MacBook Pro and MacBook Air from the 2015 Retina models through the Touch Bar generation, the T2 machines, and the Apple Silicon M1, M2 and M3 boards. We also repair iMac and Mac mini logic boards from Bedford Gardens-based design studios and medical practices. If you are unsure whether your model is covered, send the serial number through to wa.me/27645295863 and we will confirm before collection.' },
 ];
 
 const serviceSchema = {
@@ -114,7 +90,7 @@ export default function LogicBoardRepairBedfordviewPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Bedfordview&apos;s preferred MacBook logic board repair service. We collect from Bedfordview and repair at our Hyde Park component-level workshop, approximately 25 minutes away. Assessment from R599.
+              Bedfordview MacBook logic board repair, handled by our Hyde Park component-level workshop roughly 20 minutes west along the M1. We collect from homes off Van Buuren Road, offices around Bedford Centre, and businesses on the Eastern Service Road, then return your machine once every fault has been traced and tested. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -155,13 +131,13 @@ export default function LogicBoardRepairBedfordviewPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have been repairing MacBook logic boards for Bedfordview and Greenstone Hill residents and professionals for several years. When a logic board fails, the machine shows symptoms ranging from complete power loss to intermittent shutdowns, no display, USB-C charging failure, or erratic fan behaviour. These faults are almost always board-level and, in the majority of cases, repairable at component level without replacing the entire board.
+              Bedfordview sits on the ridge above the N3 and N12 interchange, and the pattern of MacBook faults we see here reflects that mix of hillside homes and busy commercial nodes around Bedford Centre and Eastgate. Logic board failures from this suburb tend to cluster around three symptoms: a MacBook that simply refuses to power on after a Highveld lightning storm rolled across the East Rand, charging ports that have stopped negotiating with USB-C cables, and intermittent shutdowns that began after a small liquid spill went unmentioned. We trace each of these at chip level rather than swapping the whole board, which is usually the difference between a workable repair quote and an Apple replacement figure that approaches the cost of a new machine.
             </p>
             <p>
-              Our Hyde Park workshop is equipped with professional hot-air rework stations, precision soldering equipment, a high-magnification stereo microscope, and the diagnostic tools required to trace faults at chip level. Every repair begins with a structured diagnostic session. We identify the exact component failure before any soldering takes place.
+              Our Hyde Park bench runs hot-air rework stations, a Mantis stereo microscope, programmable DC supplies for current-draw analysis, and the schematics and boardview files needed to follow signals across the PCB. For Bedfordview clients we have repaired MacBooks belonging to attorneys with offices near Bedford Square, medical practitioners working out of the consulting suites around Bedford Gardens Hospital, and a steady stream of residents from the townhouse complexes off Hawley Road and Boeing Road East. The consistent pattern we find in Bedfordview is corporate-owned machines that cannot wait a fortnight for an Apple service centre turnaround, which is why same-week return is the norm rather than the exception.
             </p>
             <p>
-              For Bedfordview clients, we offer a collection and return service. Your MacBook is collected from Bedfordview, Greenstone, and the east Rand residential belt, repaired at our Hyde Park workshop, and returned to you once the repair is complete and fully tested. Most repairs are completed within 48–72 hours.
+              Collection runs into Bedfordview leave Hyde Park most weekdays via the M1 south and the N3, and we can usually be at a Bedfordview address within 30 minutes of confirming a booking. Once the MacBook is on the bench we begin with a structured diagnostic — visual inspection under the microscope, then current-draw testing, then signal tracing — and we send through a written quote before any soldering work begins. If you are anywhere in Bedfordview, Bedford Gardens, Senderwood, or the slopes down toward Kensington and Cyrildene, reach us on 064 529 5863 or via wa.me/27645295863 to arrange collection.
             </p>
             <p>
               We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.

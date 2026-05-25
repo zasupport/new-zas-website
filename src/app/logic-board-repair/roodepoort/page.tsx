@@ -37,38 +37,14 @@ const pricing = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks from Roodepoort?',
-    answer: 'Yes. We offer a collection and return service for Roodepoort clients. Your MacBook is collected from your home or office in Roodepoort, repaired at our Hyde Park workshop approximately 32 minutes away, and returned once the repair is complete. Contact us on WhatsApp or by phone to arrange a collection time.',
-  },
-  {
-    question: 'How far is Roodepoort from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Park Lane is approximately 30 km from Roodepoort, roughly a 32-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
-  },
-  {
-    question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement.',
-  },
-  {
-    question: 'My MacBook shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC — a straightforward component-level repair. Bring it in or request a collection from Roodepoort for an assessment.',
-  },
-  {
-    question: 'How long will the repair take?',
-    answer: 'Diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex faults can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
-  },
-  {
-    question: 'What is the assessment fee?',
-    answer: 'The assessment is from R599. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
-  },
-  {
-    question: 'Do you offer a From R599 assessment guarantee?',
-    answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Which MacBook models do you repair for Roodepoort clients?',
-    answer: 'All MacBook Pro, MacBook Air, iMac, and Mac mini models across all generations — Intel and Apple Silicon (M1, M2, M3). We have schematics and components for every generation from 2012 to present.',
-  },
+  { question: 'Do you collect MacBooks from Roodepoort?', answer: 'Yes. We collect from every part of Roodepoort — Florida, Florida Hills, Constantia Kloof, Weltevredenpark, Little Falls, Wilropark, Ruimsig and the business strips along Hendrik Potgieter and Ontdekkers Road. The driver typically routes via the N1 and is at most Roodepoort addresses within 35 minutes of leaving Hyde Park. Book on 064 529 5863 or WhatsApp wa.me/27645295863 and we will confirm a collection window.' },
+  { question: 'How far is Roodepoort from your Hyde Park workshop?', answer: 'Roodepoort is approximately 32 minutes from our Hyde Park workshop, taking the N1 south and then Ontdekkers Road or Hendrik Potgieter into the suburb. Traffic on the N1 around the Beyers Naudé interchange can stretch that to 45 minutes during weekday peaks, which is why our Roodepoort collections usually run mid-morning or early afternoon rather than at rush hour.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a donor or new unit — fast for whoever is doing the work, but expensive, and on Apple Silicon machines it usually means the SSD (which is soldered to the board) is replaced too, so your data is gone. Component-level repair is what we do: we identify the single failed part on the board — a power management IC, a capacitor, a charging chip, a damaged trace — and replace only that part under the microscope. The original board, and your data, stays with the machine.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. No-power symptoms on MacBooks usually trace back to a fault on the charging rail, the SMC, a failed power IC, or damage from a surge or liquid event. We measure the board systematically to find where the power rail is collapsing. Out of the no-power machines we have collected from Roodepoort, the large majority have been repairable at component level — we will tell you honestly after diagnosis if a particular board is beyond economical repair before any work is invoiced.' },
+  { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours of the machine arriving at the workshop, assuming the fault is identified at diagnosis and the required components are in stock. Liquid damage jobs can take longer because they need ultrasonic cleaning and a recheck after each stage. For a Roodepoort client, the typical round trip — collection, diagnosis, repair, return — runs four to six working days.' },
+  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers collection from Roodepoort, structured diagnosis on the bench at Hyde Park, and a written fault report with a fixed repair quote. If you proceed with the repair, the assessment fee is absorbed into the repair cost. If you choose not to proceed, the assessment fee and a return delivery covers what has already been done.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The assessment starts from R599 and includes the bench diagnosis and a written quote before any repair work begins. We do not start soldering, ordering parts or invoicing for a repair until you have seen the fault report and approved the quote in writing or on WhatsApp. There are no surprise charges added after the fact.' },
+  { question: 'Which MacBook models do you repair for Roodepoort clients?', answer: 'We repair the full MacBook range collected from Roodepoort: MacBook Air and MacBook Pro from the Intel Core i5 and i7 era through to the current Apple Silicon M1, M2 and M3 machines, as well as iMac and Mac mini units. The most common Roodepoort jobs are MacBook Air no-power and USB-C charging faults, MacBook Pro liquid damage from kitchen and home-office spills, and shutdowns under load on Apple Silicon machines used for design and development work.' },
 ];
 
 const serviceSchema = {
@@ -114,7 +90,7 @@ export default function LogicBoardRepairRoodepoortPage() {
               <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Roodepoort&apos;s preferred MacBook logic board repair service. We collect from Roodepoort and repair at our Hyde Park component-level workshop, approximately 32 minutes away. Assessment from R599.
+              Roodepoort&apos;s trusted choice for component-level MacBook logic board repair. We collect from across Roodepoort — Florida, Constantia Kloof, Little Falls, Weltevredenpark and the Witpoortjie side — and diagnose at our Hyde Park workshop, roughly 32 minutes east via the N1 and Ontdekkers Road. Assessment from R599, with most logic board faults traced and quoted within two working days of collection.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -155,13 +131,13 @@ export default function LogicBoardRepairRoodepoortPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have been repairing MacBook logic boards for West Rand residents and business owners in Roodepoort and Florida for several years. When a logic board fails, the machine shows symptoms ranging from complete power loss to intermittent shutdowns, no display, USB-C charging failure, or erratic fan behaviour. These faults are almost always board-level and, in the majority of cases, repairable at component level without replacing the entire board.
+              Roodepoort sits on the western edge of Johannesburg, and the residents and small business owners we collect from there tend to fall into a few groups: home-based professionals working out of Constantia Kloof and Wilropark, retail and service businesses around Clearwater Mall and Westgate, and families in Florida and Florida Hills who rely on a single MacBook for school, design work or admin. Logic board failures we see on machines from this side of town often follow a familiar pattern — a sudden no-power event after a load-shedding switch-over, intermittent shutdowns that started weeks after a juice spill was ignored, or USB-C ports that have quietly stopped charging on one side. We work at chip level rather than swapping whole boards, which keeps Roodepoort clients away from the courier-to-Cape-Town board replacement quotes that have become common for Apple Silicon machines.
             </p>
             <p>
-              Our Hyde Park workshop is equipped with professional hot-air rework stations, precision soldering equipment, a high-magnification stereo microscope, and the diagnostic tools required to trace faults at chip level. Every repair begins with a structured diagnostic session. We identify the exact component failure before any soldering takes place.
+              Our Hyde Park bench is set up for the work properly: hot-air rework stations, lead-free soldering, a stereo microscope, schematics and boardview for the affected models, and the measurement tools needed to isolate a failed power rail or a shorted SMC line. A MacBook collected from a home in Weltevredenpark in the morning is typically on the diagnostic bench by early afternoon, and the client receives a written fault report — what failed, what it will cost, and what we cannot guarantee — before any soldering begins. That matters for the corporate users we collect from along Hendrik Potgieter Road who need to justify the spend before approving it.
             </p>
             <p>
-              For Roodepoort clients, we offer a collection and return service. Your MacBook is collected from Roodepoort, Florida, and the West Rand business corridor, repaired at our Hyde Park workshop, and returned to you once the repair is complete and fully tested. Most repairs are completed within 48–72 hours.
+              Collection from Roodepoort runs along the Ontdekkers and N1 corridor, and we will quote a return slot at the time of booking. We have driven out to Roodepoort for liquid-damaged MacBook Airs the morning after a weekend spill, retrieved a developer&apos;s M2 Pro from a townhouse near Ruimsig that wouldn&apos;t post after a power surge, and returned same-week-repaired machines to a small accounting practice off Christiaan de Wet. If your MacBook is showing no power, no image on the internal display, charging on only one port, or shutting down under load, send us a message on WhatsApp at wa.me/27645295863 or call 064 529 5863 and we will arrange a collection that fits your week.
             </p>
             <p>
               We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
