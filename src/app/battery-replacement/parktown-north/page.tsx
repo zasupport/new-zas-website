@@ -24,38 +24,17 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for battery replacement from Parktown North?',
-    answer: 'Yes. Parktown North is approximately 6 km from our Hyde Park workshop — roughly 10–12 minutes by car. We collect, replace the battery same-day, and return. WhatsApp 064 529 5863 to arrange.',
-  },
-  {
-    question: 'How much does MacBook battery replacement cost for Parktown North clients?',
-    answer: 'From R1,899 depending on the MacBook model. Apple charges R2,999–R5,499. We use genuine-spec batteries with written warranty. Written quote before any work proceeds.',
-  },
-  {
-    question: 'How long does MacBook battery replacement take?',
-    answer: 'Same-day for most models. Drop off in the morning, collect in the afternoon. The M1/M2/M3 Air and Pro models use adhesive pull-tabs making the replacement faster. Older glued-in models take slightly longer.',
-  },
-  {
-    question: 'Will replacing my battery erase my data?',
-    answer: 'No. Battery replacement does not touch the logic board, SSD, or any data-bearing component. Your files, applications, and settings are completely untouched.',
-  },
-  {
-    question: 'How do I check my MacBook battery health?',
-    answer: 'Apple menu > System Settings > Battery > Battery Health. It shows the condition and maximum capacity percentage. Below 80% means replacement is recommended. Cycle count is in System Information > Power.',
-  },
+  { question: 'Do you collect MacBooks for battery replacement from Parktown North?', answer: 'Yes — Parktown North is one of our quickest collection runs. From our Hyde Park workshop it is roughly 10 minutes via Jan Smuts Avenue, so we can usually be at a 7th Avenue studio or a home off Conrad Drive within the hour. We collect from residential addresses, from the agencies and architects along 6th and 7th, and from the commercial blocks near 4th Avenue. WhatsApp 064 529 5863 with your model and we will confirm a collection window.' },
+  { question: 'How much does MacBook battery replacement cost for Parktown North clients?', answer: 'Battery replacement starts from R1,899 for older Air and 13-inch Pro models. 15-inch and 16-inch Pros, and the M-series machines, sit higher because the cells are larger and the disassembly is more involved. We always quote against your specific model and serial before collection — no surprises at handover. Collection from Parktown North is included; the assessment fee is from R599 if you only want a diagnostic without proceeding to repair.' },
+  { question: 'How long does MacBook battery replacement take?', answer: 'For common models with stock on the shelf, it is usually a same-day turnaround — collected in the morning from Parktown North, returned by late afternoon. Less common Pro variants take two to three working days while the correct cell is sourced. Swollen batteries take a little longer because we need to remove the old cell carefully and check that the trackpad, speakers, and lower case have not been distorted by the swelling.' },
+  { question: 'Will replacing my battery erase my data?', answer: 'No. Battery replacement is a hardware-only job — your SSD, macOS install, files, and accounts are untouched. That said, we always recommend a current Time Machine backup before any repair, and if you do not have one we are happy to help you set one up. We do not log into your machine; if the work requires a power-on test we will ask you for your password and confirm with you before doing so.' },
+  { question: 'How do I check my MacBook battery health?', answer: 'Hold Option and click the Apple menu, then choose System Information and select Power in the sidebar — you will see cycle count and condition. On newer macOS you can also go to System Settings, Battery, then Battery Health. Anything reading Service Recommended, or a cycle count above 900–1,000 with noticeable drain issues, is worth replacing. Send us a screenshot on WhatsApp and we will tell you honestly whether it is urgent or whether you have another six months.' },
   {
     question: 'Does load shedding damage MacBook batteries?',
     answer: 'Not directly damage, but it accelerates degradation significantly. Each charge-discharge cycle during load shedding counts toward the battery\'s lifespan. MacBooks used through daily load shedding reach the replacement threshold much faster than those on stable power.',
   },
-  {
-    question: 'My trackpad feels stiff — could it be the battery?',
-    answer: 'Almost certainly yes. A swollen battery expands upward and pushes against the trackpad. This is a safety issue — stop using the machine and bring it in. We see this regularly from Parktown North and across Johannesburg.',
-  },
-  {
-    question: 'Do you offer warranty on battery replacements for Parktown North clients?',
-    answer: 'Yes. Every battery replacement includes a written warranty covering defects and premature capacity loss. The warranty applies equally to all clients regardless of location.',
-  },
+  { question: 'My trackpad feels stiff — could it be the battery?', answer: 'Almost certainly, yes. On every MacBook with a Force Touch trackpad, the battery sits directly beneath it. When a cell swells it pushes the trackpad up from underneath, and the click goes from crisp to stiff, uneven, or non-responsive. This is the single most common symptom we see from Parktown North callouts. Stop charging the machine, power it down, and get in touch — a swollen battery is a genuine fire risk and should not stay in service.' },
+  { question: 'Do you offer warranty on battery replacements for Parktown North clients?', answer: 'Yes. Every battery we fit carries a written warranty covering the cell itself and our workmanship. If the new battery fails to hold charge properly or shows abnormal behaviour within the warranty period, we collect from Parktown North again at no charge, diagnose, and resolve it. The warranty paperwork is handed over with the machine and emailed to you so you have a record.' },
 ];
 
 const serviceSchema = {
@@ -101,7 +80,7 @@ export default function BatteryReplacementParktownNorthPage() {
               <br /><span className="text-[#0FEA7A]">Parktown North</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Parktown North clients. Service Battery warning, swollen battery, rapid drain, and charging faults. From R1,899 with written warranty. Collection from Parktown North — approximately 6 km, 10–12 minutes from our Hyde Park workshop.
+              Same-day MacBook battery replacement for Parktown North residents and the design studios along 7th Avenue. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain, and charging faults — from R1,899 with a written warranty. Collection runs from Parktown North take roughly 10 minutes from our Hyde Park workshop, an easy hop down Jan Smuts Avenue.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
