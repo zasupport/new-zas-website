@@ -1,13 +1,20 @@
 // pages/author/[slug]/page.tsx
-// Dedicated author page with Person + ProfilePage schema
-// E-E-A-T: Full credentials, article list, social links, verifiable experience
+// Dynamic author template — renders Person + ProfilePage schema for any author
+// in the registry. Per §403 (25/05/2026) Courtney Bentley is the sole founder
+// and sole authoring identity going forward. The static page
+// src/app/author/courtney-bentley/page.tsx takes precedence over this dynamic
+// route by Next.js convention. Unknown slugs return notFound() (404).
 
+import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { authors } from '@/components/blog/AuthorBox'
 
+type AuthorEntry = (typeof authors)[keyof typeof authors]
+
 // Person + ProfilePage schema for author pages
-function AuthorPageSchema({ author, articles }: { author: typeof authors['courtney-bentley']; articles: { title: string; slug: string; date: string }[] }) {
+function AuthorPageSchema({ author, articles }: { author: AuthorEntry; articles: { title: string; slug: string; date: string }[] }) {
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
@@ -23,10 +30,6 @@ function AuthorPageSchema({ author, articles }: { author: typeof authors['courtn
       name: 'ZA Support',
       url: 'https://www.zasupport.com',
     },
-    alumniOf: author.slug === 'courtney-bentley' ? {
-      '@type': 'CollegeOrUniversity',
-      name: 'University of South Africa (UNISA)',
-    } : undefined,
     knowsAbout: [
       'Apple Mac repair',
       'MacBook logic board repair',
@@ -65,24 +68,32 @@ function AuthorPageSchema({ author, articles }: { author: typeof authors['courtn
   )
 }
 
+// Generate self-referential canonical for every author slug rendered by this
+// template — per HR §399 every URL must declare its own canonical, never inherit
+// from root layout. Unknown slugs return notFound() before metadata renders.
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const author = authors[params.slug]
+  if (!author) {
+    return {
+      title: 'Author Not Found | ZA Support',
+      robots: { index: false, follow: false },
+    }
+  }
+  return {
+    title: `${author.name}, ${author.role} | ZA Support`,
+    description: author.bio,
+    alternates: { canonical: `https://zasupport.com/author/${author.slug}` },
+    robots: { index: true, follow: true, 'max-image-preview': 'large' as const, 'max-snippet': -1, 'max-video-preview': -1 },
+  }
+}
+
 // Full author page component
 export default function AuthorPage({ params }: { params: { slug: string } }) {
   const author = authors[params.slug]
-  if (!author) return null // 404
+  if (!author) notFound()
 
   // In production, fetch from Sanity CMS
   const articles: { title: string; slug: string; date: string; category: string }[] = []
-
-  const courtneyCredentials = [
-    'Apple-certified technician since 2009',
-    'BSc Informatics, University of South Africa (UNISA)',
-    'Member of the Apple Developer Program',
-    'Over 25,000 Mac repairs completed',
-    'Specialist in component-level logic board repair',
-    'Certified in JAMF MDM enterprise deployment',
-    'BEE Level 1 certified business owner',
-    'Vizibiliti Intelligent Solutions (Pty) Ltd — Director',
-  ]
 
   return (
     <>
@@ -134,21 +145,6 @@ export default function AuthorPage({ params }: { params: { slug: string } }) {
             </div>
           </div>
         </div>
-
-        {/* Credentials (Courtney only) */}
-        {params.slug === 'courtney-bentley' && (
-          <section className="mb-12">
-            <h2 className="text-xl font-semibold text-zinc-900 mb-4">Credentials and Experience</h2>
-            <ul className="space-y-2">
-              {courtneyCredentials.map((cred, i) => (
-                <li key={i} className="flex items-start gap-3 text-zinc-600">
-                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
-                  {cred}
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
 
         {/* Articles list */}
         <section>

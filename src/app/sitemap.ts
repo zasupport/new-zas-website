@@ -57,8 +57,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/macbook-repair/keyboard`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/trackpad`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/charging-port`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/macbook-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/macbook-repair/logic-board`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    // §401 corrective 25/05/2026: removed /macbook-repair/liquid-damage + /macbook-repair/logic-board —
+    // both are redirect-only stubs (308 → /liquid-damage, /logic-board-repair). The redirects remain
+    // for user-typed/old-backlink URLs but the URLs must not be advertised in sitemap.
+
     { url: `${base}/macbook-repair/data-recovery`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/virus-removal`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
@@ -179,7 +181,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/iphone-repair/charging`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/iphone-repair/back-glass`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/iphone-repair/camera`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${base}/iphone-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    // §401 corrective 25/05/2026: removed /iphone-repair/liquid-damage — redirect-only stub (308 → /liquid-damage/iphone). Redirect retained for old URLs.
 
     // iPad repair sub-pages
     { url: `${base}/ipad-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -212,11 +214,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/managed-services/unifi-networking`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/managed-services/wealth-management`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/apple-support/medical-practices`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${base}/apple-support/business`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${base}/apple-support/enterprise`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    // §401 corrective 25/05/2026: removed /apple-support/business + /apple-support/enterprise —
+    // both are redirect-only stubs (308 → /managed-services, /jamf-mdm). Redirects retained.
 
-    // iPad repair — additional sub-page
-    { url: `${base}/ipad-repair/liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+
+    // §401 corrective 25/05/2026: removed /ipad-repair/liquid-damage — redirect-only stub (308 → /liquid-damage/ipad). Redirect retained.
 
     // Assessment Process — transparent pricing page
     { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
@@ -337,7 +339,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-screen-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/apple-mac-battery-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/iphone-screen-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
-        { url: `${base}/blog/does-macbook-warranty-cover-water-damage-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/how-long-macbook-survive-after-water-damage`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/laptop-water-damage-repair-vs-buy-new-south-africa`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-logic-board-repair-vs-replacement-water-damage`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },

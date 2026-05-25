@@ -253,13 +253,13 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
                   Courtney Bentley
                 </h2>
-                <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Technician · 16 Years Experience</p>
-                <p className="text-[#7A9E98] text-sm mb-4">BSc Informatics · Previous Apple Manager &amp; Solution Architect · Hyde Park, Johannesburg</p>
+                <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Expert Consultant · 17 Years Experience</p>
+                <p className="text-[#7A9E98] text-sm mb-4">Former Apple South Africa Manager · Forbes Africa 30 Under 30 (2019) · Hyde Park, Johannesburg</p>
                 <p className="text-[#7A9E98] leading-relaxed mb-4">
-                  David founded ZA Support in 2009 with a clear purpose: bring genuinely expert Apple repair
-                  to Johannesburg. With 16 years of hands-on Mac experience and component-level
-                  repair training, David leads every complex repair and manages Apple device deployments
-                  for medical practices and businesses across Gauteng.
+                  Courtney founded ZA Support in 2009 at age 19, after two years as an Apple South Africa
+                  Manager. Seventeen years and 25,000+ Mac repairs later, Courtney leads every complex
+                  component-level logic board repair and manages Apple device deployments for medical
+                  practices and businesses across Johannesburg and Gauteng.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {['Logic Board Repair', 'Apple MDM', 'macOS', 'Medical IT', 'Solution Architect'].map((badge) => (

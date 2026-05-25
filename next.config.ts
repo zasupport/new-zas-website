@@ -96,7 +96,10 @@ const nextConfig: NextConfig = {
       { source: '/apple-upgrades-johannesburg-south-africa', destination: '/macbook-repair/ssd-upgrade', permanent: true },
       { source: '/macbook-air-ssd-upgrades', destination: '/macbook-repair/ssd-upgrade', permanent: true },
 
-      // Author identity correction
+      // §403 (25/05/2026): Courtney Bentley is the sole founder and sole author of ZA Support, permanently.
+      // 'David Bentley' was a hallucination introduced by a prior Claude session (commit 7f971cb 29/03/2026)
+      // and has been removed per §374 anti-hallucination. Any external backlinks to /author/david-bentley
+      // are redirected to Courtney's profile (301 — final, consolidates link equity per Google primary docs).
       { source: '/author/david-bentley', destination: '/author/courtney-bentley', permanent: true },
     ];
   },
