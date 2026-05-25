@@ -24,38 +24,17 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for battery replacement from Emmarentia?',
-    answer: 'Yes. Emmarentia is approximately 6 km from our Hyde Park workshop — roughly 10–12 minutes by car. We collect, replace the battery same-day, and return. WhatsApp 064 529 5863 to arrange.',
-  },
-  {
-    question: 'How much does MacBook battery replacement cost for Emmarentia clients?',
-    answer: 'From R1,899 depending on the MacBook model. Apple charges R2,999–R5,499. We use genuine-spec batteries with written warranty. Written quote before any work proceeds.',
-  },
-  {
-    question: 'How long does MacBook battery replacement take?',
-    answer: 'Same-day for most models. Drop off in the morning, collect in the afternoon. The M1/M2/M3 Air and Pro models use adhesive pull-tabs making the replacement faster. Older glued-in models take slightly longer.',
-  },
-  {
-    question: 'Will replacing my battery erase my data?',
-    answer: 'No. Battery replacement does not touch the logic board, SSD, or any data-bearing component. Your files, applications, and settings are completely untouched.',
-  },
-  {
-    question: 'How do I check my MacBook battery health?',
-    answer: 'Apple menu > System Settings > Battery > Battery Health. It shows the condition and maximum capacity percentage. Below 80% means replacement is recommended. Cycle count is in System Information > Power.',
-  },
+  { question: 'Do you collect MacBooks for battery replacement from Emmarentia?', answer: 'Yes — collection from anywhere in Emmarentia is included at no extra cost. We cover the streets around the Botanical Gardens, the area near Emmarentia Dam, and the homes off Greenhill and Komatieland Roads. From our Hyde Park workshop the drive is about 6 km via Barry Hertzog Avenue, usually 10–12 minutes outside peak. Book a window on 064 529 5863 and we will confirm a one-hour slot that suits you.' },
+  { question: 'How much does MacBook battery replacement cost for Emmarentia clients?', answer: 'Battery replacement starts from R1,899 and the final price depends on your specific model — a 2017 MacBook Pro is different from an M2 Air. Collection from Emmarentia is included. Where the assessment uncovers a swollen battery that has damaged the trackpad or top case, we will quote those parts separately before proceeding. Every replacement carries a written warranty.' },
+  { question: 'How long does MacBook battery replacement take?', answer: 'Most Emmarentia jobs are completed within 24 to 48 hours from collection. The actual battery work takes a few hours, but we deliberately run a full charge-discharge calibration cycle afterwards to confirm the new cell is reporting correctly in macOS before we return the machine. Urgent same-day turnarounds can sometimes be arranged if you drop off in person at Hyde Park — phone first on 064 529 5863.' },
+  { question: 'Will replacing my battery erase my data?', answer: 'No. A battery replacement is a hardware swap that does not touch the SSD or your macOS installation. Your files, applications, and settings all remain exactly as they were. That said, we always recommend a current Time Machine backup before any repair — a habit worth keeping regardless. If you do not have a backup drive, we can help you set one up when we return the machine.' },
+  { question: 'How do I check my MacBook battery health?', answer: 'Hold Option and click the Apple menu, then choose System Information and look under Power — you will see Cycle Count and Condition. Apple considers most modern MacBook batteries consumable after around 1,000 cycles. If Condition reads Service Recommended, or your cycle count is high and runtime has dropped below an hour, replacement is worth considering. Send us a screenshot on WhatsApp (wa.me/27645295863) and we will give you an honest opinion before you commit.' },
   {
     question: 'Does load shedding damage MacBook batteries?',
     answer: 'Not directly damage, but it accelerates degradation significantly. Each charge-discharge cycle during load shedding counts toward the battery\'s lifespan. MacBooks used through daily load shedding reach the replacement threshold much faster than those on stable power.',
   },
-  {
-    question: 'My trackpad feels stiff — could it be the battery?',
-    answer: 'Almost certainly yes. A swollen battery expands upward and pushes against the trackpad. This is a safety issue — stop using the machine and bring it in. We see this regularly from Emmarentia and across Johannesburg.',
-  },
-  {
-    question: 'Do you offer warranty on battery replacements for Emmarentia clients?',
-    answer: 'Yes. Every battery replacement includes a written warranty covering defects and premature capacity loss. The warranty applies equally to all clients regardless of location.',
-  },
+  { question: 'My trackpad feels stiff — could it be the battery?', answer: 'Very likely, yes. A swollen battery sits directly underneath the trackpad on most MacBook models, and as the cells expand they push the trackpad upward, making clicks feel stiff or unresponsive. This is one of the more common faults we see from Emmarentia clients with older Retina MacBook Pros. It is also a safety issue — a swollen lithium cell should not be ignored. Stop charging the machine and arrange collection on 064 529 5863.' },
+  { question: 'Do you offer warranty on battery replacements for Emmarentia clients?', answer: 'Yes — every battery replacement comes with a written warranty covering the cell and the labour. If the battery develops a fault within the warranty period we replace it again at no charge, with collection from Emmarentia included. We keep records of every repair on file, so if you phone us with your serial number we can confirm cover immediately.' },
 ];
 
 const serviceSchema = {
@@ -101,7 +80,7 @@ export default function BatteryReplacementEmmarentiaPage() {
               <br /><span className="text-[#0FEA7A]">Emmarentia</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Emmarentia clients. Service Battery warning, swollen battery, rapid drain, and charging faults. From R1,899 with written warranty. Collection from Emmarentia — approximately 6 km, 10–12 minutes from our Hyde Park workshop.
+              Same-day MacBook battery replacement for Emmarentia residents working from home offices around the Botanical Gardens, Emmarentia Dam, and the leafy streets off Greenhill Road. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain, and charging faults — from R1,899 with written warranty. Collection takes 10–12 minutes from our Hyde Park workshop, roughly 6 km via Barry Hertzog Avenue.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

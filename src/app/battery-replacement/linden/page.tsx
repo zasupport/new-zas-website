@@ -24,38 +24,17 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for battery replacement from Linden?',
-    answer: 'Yes. Linden is approximately 7 km from our Hyde Park workshop — roughly 12–15 minutes by car. We collect, replace the battery same-day, and return. WhatsApp 064 529 5863 to arrange.',
-  },
-  {
-    question: 'How much does MacBook battery replacement cost for Linden clients?',
-    answer: 'From R1,899 depending on the MacBook model. Apple charges R2,999–R5,499. We use genuine-spec batteries with written warranty. Written quote before any work proceeds.',
-  },
-  {
-    question: 'How long does MacBook battery replacement take?',
-    answer: 'Same-day for most models. Drop off in the morning, collect in the afternoon. The M1/M2/M3 Air and Pro models use adhesive pull-tabs making the replacement faster. Older glued-in models take slightly longer.',
-  },
-  {
-    question: 'Will replacing my battery erase my data?',
-    answer: 'No. Battery replacement does not touch the logic board, SSD, or any data-bearing component. Your files, applications, and settings are completely untouched.',
-  },
-  {
-    question: 'How do I check my MacBook battery health?',
-    answer: 'Apple menu > System Settings > Battery > Battery Health. It shows the condition and maximum capacity percentage. Below 80% means replacement is recommended. Cycle count is in System Information > Power.',
-  },
+  { question: 'Do you collect MacBooks for battery replacement from Linden?', answer: 'Yes — Linden is one of our regular collection areas. We are roughly 7 km from the suburb and the run via Beyers Naudé Drive or Barry Hertzog Avenue takes 12–15 minutes outside of peak. We collect from homes along 4th Avenue and the side streets, from the businesses around 7th Street and Republic Road, and from the residential blocks closer to the Linden/Emmarentia border. Book on 064 529 5863 or wa.me/27645295863 and we will confirm a tight collection window.' },
+  { question: 'How much does MacBook battery replacement cost for Linden clients?', answer: 'Battery replacement starts from R1,899 and the final figure depends on the exact model — a 13-inch Air is at the lower end while the 15- and 16-inch Pro batteries cost more because the cell assembly is larger and the labour is longer. We quote in writing after inspection, so a Linden client knows the full cost before authorising the work. The R599-from assessment fee applies if you decide not to proceed; if you go ahead with the replacement it is absorbed into the repair.' },
+  { question: 'How long does MacBook battery replacement take?', answer: 'Most battery jobs are completed within the same working day once the MacBook is in our workshop. Morning collection from Linden usually means a finished machine ready for return that afternoon or first thing the next morning. Older Pro models with glued-in cells take longer because the adhesive has to be softened and removed cleanly — those occasionally need a second day, and we will tell you up front if yours falls into that category.' },
+  { question: 'Will replacing my battery erase my data?', answer: 'No. Battery replacement is purely a hardware swap — the SSD, your files, applications, and macOS settings are untouched. That said, we always recommend a Time Machine backup before handing any laptop over, regardless of the job. If you do not have an external drive set up, the Linden Spar centre and the shops on Republic Road stock them, or we can advise on a suitable one when we collect.' },
+  { question: 'How do I check my MacBook battery health?', answer: 'Hold Option and click the Apple menu, then choose System Information and look at Power. You will see cycle count and condition. Cycle counts above 1,000 on most modern MacBooks, or a condition reading of Service Recommended or Service Battery, mean replacement is due. If you are unsure what the numbers mean, send a screenshot via WhatsApp to wa.me/27645295863 and we will tell you honestly whether it is worth replacing or whether the battery still has useful life left.' },
   {
     question: 'Does load shedding damage MacBook batteries?',
     answer: 'Not directly damage, but it accelerates degradation significantly. Each charge-discharge cycle during load shedding counts toward the battery\'s lifespan. MacBooks used through daily load shedding reach the replacement threshold much faster than those on stable power.',
   },
-  {
-    question: 'My trackpad feels stiff — could it be the battery?',
-    answer: 'Almost certainly yes. A swollen battery expands upward and pushes against the trackpad. This is a safety issue — stop using the machine and bring it in. We see this regularly from Linden and across Johannesburg.',
-  },
-  {
-    question: 'Do you offer warranty on battery replacements for Linden clients?',
-    answer: 'Yes. Every battery replacement includes a written warranty covering defects and premature capacity loss. The warranty applies equally to all clients regardless of location.',
-  },
+  { question: 'My trackpad feels stiff — could it be the battery?', answer: 'Almost certainly yes. The battery sits directly beneath the trackpad on most MacBook models, and when a cell swells it pushes up against the underside of the trackpad and stiffens the click. This is one of the more common diagnoses we make for Linden machines — we have collected several from the 4th Avenue area where the owner thought the trackpad had failed when in fact it was a swollen battery underneath. Stop using the laptop and call us to collect; a swollen cell is a fire risk and should not be left running.' },
+  { question: 'Do you offer warranty on battery replacements for Linden clients?', answer: 'Yes — every battery replacement comes with a written warranty covering the battery itself and the workmanship. If the replacement battery fails within the warranty period under normal use, we collect from Linden, replace it, and return the MacBook at no further cost. The warranty document is emailed to you the same day the repair is completed so you have it on record.' },
 ];
 
 const serviceSchema = {
@@ -101,7 +80,7 @@ export default function BatteryReplacementLindenPage() {
               <br /><span className="text-[#0FEA7A]">Linden</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Linden clients. Service Battery warning, swollen battery, rapid drain, and charging faults. From R1,899 with written warranty. Collection from Linden — approximately 7 km, 12–15 minutes from our Hyde Park workshop.
+              Same-day MacBook battery replacement for Linden residents and small businesses. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain, and charging faults that leave you tethered to a wall socket. From R1,899 with a written warranty. Collection from Linden runs roughly 7 km from our Hyde Park workshop — typically 12–15 minutes via Beyers Naudé Drive or Barry Hertzog Avenue.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

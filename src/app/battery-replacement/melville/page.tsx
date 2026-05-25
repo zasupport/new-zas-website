@@ -24,38 +24,17 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for battery replacement from Melville?',
-    answer: 'Yes. Melville is approximately 8 km from our Hyde Park workshop — roughly 12–18 minutes by car. We collect, replace the battery same-day, and return. WhatsApp 064 529 5863 to arrange.',
-  },
-  {
-    question: 'How much does MacBook battery replacement cost for Melville clients?',
-    answer: 'From R1,899 depending on the MacBook model. Apple charges R2,999–R5,499. We use genuine-spec batteries with written warranty. Written quote before any work proceeds.',
-  },
-  {
-    question: 'How long does MacBook battery replacement take?',
-    answer: 'Same-day for most models. Drop off in the morning, collect in the afternoon. The M1/M2/M3 Air and Pro models use adhesive pull-tabs making the replacement faster. Older glued-in models take slightly longer.',
-  },
-  {
-    question: 'Will replacing my battery erase my data?',
-    answer: 'No. Battery replacement does not touch the logic board, SSD, or any data-bearing component. Your files, applications, and settings are completely untouched.',
-  },
-  {
-    question: 'How do I check my MacBook battery health?',
-    answer: 'Apple menu > System Settings > Battery > Battery Health. It shows the condition and maximum capacity percentage. Below 80% means replacement is recommended. Cycle count is in System Information > Power.',
-  },
+  { question: 'Do you collect MacBooks for battery replacement from Melville?', answer: 'Yes — collection from Melville is a short run for us. From our Hyde Park workshop it is roughly 8 km via Jan Smuts and Empire Road, typically 12–18 minutes outside of peak. We collect from homes on 1st through 4th Avenues, the guesthouse strip, and the cafés and offices along 7th Street. WhatsApp 064 529 5863 with your address and a window that suits you.' },
+  { question: 'How much does MacBook battery replacement cost for Melville clients?', answer: 'Battery replacement starts at R1,899 and varies by model — older 13-inch Airs sit at the lower end, while 16-inch Pros with the larger cell pack cost more. The price includes the battery, fitting, recalibration and a written warranty. Assessment is from R599 and is credited against the repair if you proceed. We quote firmly before any work begins, so there are no surprises.' },
+  { question: 'How long does MacBook battery replacement take?', answer: 'Most replacements are completed the same day or by the following morning. The physical work takes a few hours, but we run a full calibration cycle afterwards to make sure the battery management system reports accurate health and cycle count. For Melville clients we will often collect mid-morning and return the machine that evening if you are close to 7th Street or Auckland Park.' },
+  { question: 'Will replacing my battery erase my data?', answer: 'No — battery replacement is a hardware-only procedure and does not touch your SSD or operating system. Your files, applications and settings remain exactly as they were. That said, we always recommend a Time Machine backup or iCloud sync before any repair, simply as good practice. If you do not have a backup drive, we can advise on a suitable external SSD when we collect.' },
+  { question: 'How do I check my MacBook battery health?', answer: 'Hold Option and click the Apple menu, then go to System Information → Power. You will see Cycle Count and Condition. Apple rates most modern MacBook batteries for 1000 cycles before they drop to 80% of original capacity. If Condition reads Service Recommended or Service Battery, or if your cycle count is over 800 with noticeable drain, it is time. WhatsApp the screenshot to 064 529 5863 and we will confirm what your machine needs.' },
   {
     question: 'Does load shedding damage MacBook batteries?',
     answer: 'Not directly damage, but it accelerates degradation significantly. Each charge-discharge cycle during load shedding counts toward the battery\'s lifespan. MacBooks used through daily load shedding reach the replacement threshold much faster than those on stable power.',
   },
-  {
-    question: 'My trackpad feels stiff — could it be the battery?',
-    answer: 'Almost certainly yes. A swollen battery expands upward and pushes against the trackpad. This is a safety issue — stop using the machine and bring it in. We see this regularly from Melville and across Johannesburg.',
-  },
-  {
-    question: 'Do you offer warranty on battery replacements for Melville clients?',
-    answer: 'Yes. Every battery replacement includes a written warranty covering defects and premature capacity loss. The warranty applies equally to all clients regardless of location.',
-  },
+  { question: 'My trackpad feels stiff — could it be the battery?', answer: 'Almost certainly yes. The battery cells sit directly under the trackpad on most MacBook Pros and Airs, and when a cell swells it lifts the trackpad from below, making clicks feel stiff, uneven or unresponsive. This is the single most common warning sign we see from Melville clients on older machines. Stop using the laptop on charge, do not press hard on the trackpad, and arrange collection — swollen batteries are a fire risk and worth dealing with quickly.' },
+  { question: 'Do you offer warranty on battery replacements for Melville clients?', answer: 'Yes — every battery replacement comes with a written warranty covering the cell and the workmanship. If the battery fails to hold charge correctly or shows a fault within the warranty period, we collect from Melville again at no cost and resolve it. We keep records of every repair against your serial number, so there is no paperwork to dig up if you need to come back.' },
 ];
 
 const serviceSchema = {
@@ -101,7 +80,7 @@ export default function BatteryReplacementMelvillePage() {
               <br /><span className="text-[#0FEA7A]">Melville</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Melville clients. Service Battery warning, swollen battery, rapid drain, and charging faults. From R1,899 with written warranty. Collection from Melville — approximately 8 km, 12–18 minutes from our Hyde Park workshop.
+              Same-day MacBook battery replacement for Melville residents, students and the creative crowd working out of 7th Street cafés. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain and charging failures. From R1,899 with a written warranty. Collection from Melville is roughly 8 km and 12–18 minutes from our Hyde Park workshop, depending on Empire Road traffic.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

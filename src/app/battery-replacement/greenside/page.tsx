@@ -24,38 +24,17 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for battery replacement from Greenside?',
-    answer: 'Yes. Greenside is approximately 5 km from our Hyde Park workshop — roughly 8–12 minutes by car. We collect, replace the battery same-day, and return. WhatsApp 064 529 5863 to arrange.',
-  },
-  {
-    question: 'How much does MacBook battery replacement cost for Greenside clients?',
-    answer: 'From R1,899 depending on the MacBook model. Apple charges R2,999–R5,499. We use genuine-spec batteries with written warranty. Written quote before any work proceeds.',
-  },
-  {
-    question: 'How long does MacBook battery replacement take?',
-    answer: 'Same-day for most models. Drop off in the morning, collect in the afternoon. The M1/M2/M3 Air and Pro models use adhesive pull-tabs making the replacement faster. Older glued-in models take slightly longer.',
-  },
-  {
-    question: 'Will replacing my battery erase my data?',
-    answer: 'No. Battery replacement does not touch the logic board, SSD, or any data-bearing component. Your files, applications, and settings are completely untouched.',
-  },
-  {
-    question: 'How do I check my MacBook battery health?',
-    answer: 'Apple menu > System Settings > Battery > Battery Health. It shows the condition and maximum capacity percentage. Below 80% means replacement is recommended. Cycle count is in System Information > Power.',
-  },
+  { question: 'Do you collect MacBooks for battery replacement from Greenside?', answer: 'Yes, free collection across Greenside — Gleneagles Road, Greenway, Tyrone Avenue, Mowbray Road, the streets around Greenside Primary, and the residential pockets near Pirates Sports Club. From our Hyde Park workshop it is about 5 km down Barry Hertzog, usually 8 to 12 minutes. Book on 064 529 5863 or WhatsApp wa.me/27645295863 and we will agree a time that suits you.' },
+  { question: 'How much does MacBook battery replacement cost for Greenside clients?', answer: 'From R1,899 for older Retina MacBook Pro and Air models. M1, M2 and M3 MacBooks where the battery is bonded into the top case run between R2,899 and R3,499 depending on the exact model. Assessment is from R599 and is credited against the repair if you go ahead. We confirm the final figure in writing before any work starts — no surprises after collection.' },
+  { question: 'How long does MacBook battery replacement take?', answer: 'Most Greenside jobs are turned around within 24 to 48 hours from collection. If we have your specific battery in stock, same-day return is possible on collections made before 10am. The newer bonded-battery models can take an extra day because the adhesive cure needs to set properly before we hand the machine back. We send a WhatsApp update once diagnosis is done so you know the timeline upfront.' },
+  { question: 'Will replacing my battery erase my data?', answer: 'No. A battery replacement is a hardware swap — we do not touch the SSD, the user accounts, or any of your files. Your desktop, documents, browser tabs and applications are exactly where you left them. That said, we always recommend a Time Machine backup or an iCloud sync before any repair, just as general hygiene. If you need help setting that up before we collect, mention it when you book.' },
+  { question: 'How do I check my MacBook battery health?', answer: 'Hold the Option key and click the Apple menu in the top-left, then go to System Information and click Power in the sidebar. You will see Cycle Count and Condition. Anything over 1000 cycles, or a Condition reading of Service Battery or Service Recommended, means replacement is due. On newer macOS versions you can also go to System Settings, Battery, then click the small info icon next to Battery Health.' },
   {
     question: 'Does load shedding damage MacBook batteries?',
     answer: 'Not directly damage, but it accelerates degradation significantly. Each charge-discharge cycle during load shedding counts toward the battery\'s lifespan. MacBooks used through daily load shedding reach the replacement threshold much faster than those on stable power.',
   },
-  {
-    question: 'My trackpad feels stiff — could it be the battery?',
-    answer: 'Almost certainly yes. A swollen battery expands upward and pushes against the trackpad. This is a safety issue — stop using the machine and bring it in. We see this regularly from Greenside and across Johannesburg.',
-  },
-  {
-    question: 'Do you offer warranty on battery replacements for Greenside clients?',
-    answer: 'Yes. Every battery replacement includes a written warranty covering defects and premature capacity loss. The warranty applies equally to all clients regardless of location.',
-  },
+  { question: 'My trackpad feels stiff — could it be the battery?', answer: 'Almost certainly, yes. The battery sits directly underneath the trackpad on most MacBook models, and when a cell swells it pushes the trackpad up from below. The click feels firm, hollow, or refuses to register near the bottom edge. This is the single most common reason Greenside clients bring machines in. Stop using the laptop, do not charge it, and get it to us — a swollen cell can damage the screen or logic board if left.' },
+  { question: 'Do you offer warranty on battery replacements for Greenside clients?', answer: 'Six month written warranty on every battery we fit, covering both the cell and the workmanship. If the battery underperforms, swells, or fails to hold charge within that period, we replace it at no cost. We use quality cells with proper Battery Management System chips — not the cheap unbranded units that fail in three months. Keep the invoice we email after collection; that is your warranty record.' },
 ];
 
 const serviceSchema = {
@@ -101,7 +80,7 @@ export default function BatteryReplacementGreensidePage() {
               <br /><span className="text-[#0FEA7A]">Greenside</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Greenside clients. Service Battery warning, swollen battery, rapid drain, and charging faults. From R1,899 with written warranty. Collection from Greenside — approximately 5 km, 8–12 minutes from our Hyde Park workshop.
+              Same-day MacBook battery replacement for Greenside residents and the creative studios along Greenway and Gleneagles Road. We handle Service Battery warnings, swollen cells lifting the trackpad, and machines that drop from 80% to dead in an hour. From R1,899 with a written warranty. Collection from Greenside is roughly 5 km and 8–12 minutes from our Hyde Park workshop via Barry Hertzog Avenue.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
