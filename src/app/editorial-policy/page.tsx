@@ -7,7 +7,7 @@ import { buildBreadcrumbSchema } from '@/lib/schema';
 export const metadata: Metadata = {
   title: 'Editorial Policy | ZA Support',
   description:
-    'How ZA Support creates, reviews, and maintains technical content. All articles written or reviewed by Courtney Bentley, Apple Certified Expert Consultant with 17 years of experience.',
+    'How ZA Support creates, reviews, and maintains technical content. All articles written or reviewed by Courtney Bentley, CEO & Apple Certified Expert Consultant with 17 years of experience.',
   alternates: { canonical: 'https://zasupport.com/editorial-policy' },
 };
 
@@ -44,7 +44,7 @@ export default function EditorialPolicyPage() {
                 >
                   Courtney Bentley
                 </Link>
-                , founder of ZA Support, Apple Certified Expert Consultant with 17 years of
+                , founder &amp; CEO of ZA Support, Apple Certified Expert Consultant with 17 years of
                 hands-on Apple repair experience. Courtney personally oversees every piece of
                 technical content published on this site.
               </p>

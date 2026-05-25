@@ -113,7 +113,7 @@ const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: 'Courtney Bentley',
-  jobTitle: 'Apple Certified Expert Consultant',
+  jobTitle: 'CEO & Apple Certified Expert Consultant',
   worksFor: {
     '@type': 'Organization',
     name: 'ZA Support',
@@ -159,7 +159,7 @@ const organizationSchema = {
   founder: {
     '@type': 'Person',
     name: 'Courtney Bentley',
-    jobTitle: 'Apple Certified Expert Consultant',
+    jobTitle: 'CEO & Apple Certified Expert Consultant',
   },
   address: {
     '@type': 'PostalAddress',
@@ -253,13 +253,13 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
                   Courtney Bentley
                 </h2>
-                <p className="text-[#7A9E98] text-sm mb-1">Founder &amp; Apple Certified Expert Consultant · 17 Years Experience</p>
+                <p className="text-[#7A9E98] text-sm mb-1">Founder, CEO &amp; Apple Certified Expert Consultant · 17 Years Experience</p>
                 <p className="text-[#7A9E98] text-sm mb-4">Former Apple South Africa Manager · Forbes Africa 30 Under 30 (2019) · Hyde Park, Johannesburg</p>
                 <p className="text-[#7A9E98] leading-relaxed mb-4">
                   Courtney founded ZA Support in 2009 at age 19, after two years as an Apple South Africa
-                  Manager. Seventeen years and 25,000+ Mac repairs later, Courtney leads every complex
-                  component-level logic board repair and manages Apple device deployments for medical
-                  practices and businesses across Johannesburg and Gauteng.
+                  Manager. Seventeen years on, having overseen ZA Support&apos;s 25,000+ Mac repair operations,
+                  Courtney leads every complex component-level logic board repair and manages Apple device
+                  deployments for medical practices and businesses across Johannesburg and Gauteng.
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {['Logic Board Repair', 'Apple MDM', 'macOS', 'Medical IT', 'Solution Architect'].map((badge) => (

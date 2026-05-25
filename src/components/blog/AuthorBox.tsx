@@ -22,8 +22,8 @@ const authors: Record<string, AuthorProps> = {
   'courtney-bentley': {
     slug: 'courtney-bentley',
     name: 'Courtney Bentley',
-    role: 'Apple Certified Expert Consultant',
-    bio: 'Former Apple South Africa Manager (2007-2009). Founded ZA Support at age 19 in 2009. Forbes Africa 30 Under 30 (2019). Has personally overseen more than 25,000 Mac repairs at ZA Support\'s Hyde Park workshop. Specialises in component-level logic board repair, liquid damage recovery, and medical practice IT. BSc Informatics (UNISA). Member of the Apple Developer Program.',
+    role: 'CEO & Apple Certified Expert Consultant',
+    bio: 'Former Apple South Africa Manager (2007-2009). Founded ZA Support at age 19 in 2009. Forbes Africa 30 Under 30 (2019). Co-founder of Vizibiliti Insight Africa (2016). Has overseen ZA Support\'s 25,000+ Mac repair operations at the Hyde Park workshop. Specialises in component-level logic board repair, liquid damage recovery, and medical practice IT. UNISA Artificial Intelligence / Cognitive Computing (2017–ongoing). Member of the Apple Developer Program.',
     image: '/authors/courtney-bentley-author.webp',
     linkedin: 'https://www.linkedin.com/in/bentleycourtney/',
     tiktok: 'https://www.tiktok.com/@appleexpertza',

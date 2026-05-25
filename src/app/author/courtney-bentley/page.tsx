@@ -6,7 +6,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Courtney Bentley, Apple Certified Expert Consultant | ZA Support',
+  title: 'Courtney Bentley, CEO & Apple Certified Expert Consultant | ZA Support',
   description:
     'Courtney Bentley is the founder of ZA Support. Former Apple South Africa Manager. Forbes Africa 30 Under 30 (2019). 25,000+ Mac repairs. Component-level logic board repair specialist in Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/author/courtney-bentley' },
@@ -20,9 +20,9 @@ const profilePageSchema = {
     '@type': 'Person',
     '@id': 'https://zasupport.com/author/courtney-bentley',
     name: 'Courtney Bentley',
-    jobTitle: 'Apple Certified Expert Consultant',
+    jobTitle: 'CEO & Apple Certified Expert Consultant',
     description:
-      'Courtney Bentley is the founder of ZA Support and has been repairing Apple devices in Johannesburg since 2009. Former Apple South Africa Manager. Forbes Africa 30 Under 30 (2019). Specialising in component-level logic board repair, liquid damage recovery, and medical practice IT.',
+      'Courtney Bentley is the founder and CEO of ZA Support and has been repairing Apple devices in Johannesburg since 2009. Former Apple South Africa Manager. Forbes Africa 30 Under 30 (2019). Co-founder of Vizibiliti Insight Africa (2016). Has overseen ZA Support’s 25,000+ Mac repair operations. Specialising in component-level logic board repair, liquid damage recovery, and medical practice IT.',
     url: 'https://zasupport.com/author/courtney-bentley',
     image: 'https://zasupport.com/authors/courtney-bentley-author.webp',
     email: CONTACT.email,
@@ -47,7 +47,7 @@ const profilePageSchema = {
       },
     ],
     alumniOf: [
-      { '@type': 'EducationalOrganization', name: 'UNISA', department: 'BSc Informatics' },
+      { '@type': 'EducationalOrganization', name: 'UNISA', department: 'Artificial Intelligence / Cognitive Computing (2017–ongoing)' },
       { '@type': 'EducationalOrganization', name: 'St John\'s College' },
     ],
     award: [
@@ -78,9 +78,9 @@ const profilePageSchema = {
 const credentials = [
   { icon: Award, label: 'Forbes Africa 30 Under 30 (2019)', detail: 'Technology category — recognised for Apple repair innovation and Vizibiliti AI credit scoring' },
   { icon: Award, label: 'Former Apple South Africa Manager', detail: 'Apple retail and enterprise operations (2007-2009), founded ZA Support at age 19' },
-  { icon: Wrench, label: 'Component-Level Repair', detail: '25,000+ Mac repairs — logic board repair under microscope, chip-level diagnostics' },
+  { icon: Wrench, label: 'Component-Level Repair', detail: 'Has overseen ZA Support’s 25,000+ Mac repair operations — logic board under microscope, chip-level diagnostics' },
   { icon: Shield, label: 'Medical IT Specialist', detail: 'HPCSA-compliant IT for medical practices across Gauteng, POPIA compliance' },
-  { icon: CheckCircle, label: 'BSc Informatics (UNISA)', detail: 'Formal qualification in information systems and technology' },
+  { icon: CheckCircle, label: 'AI / Cognitive Computing (UNISA)', detail: 'UNISA, 2017–ongoing — Artificial Intelligence, deep structured learning, machine intelligence' },
   { icon: CheckCircle, label: 'BEE Level 1', detail: 'Broad-based black economic empowerment — qualifying supplier for enterprise and government' },
 ];
 
@@ -108,7 +108,7 @@ export default function CourtneyBentleyPage() {
           <div className="flex items-center gap-5 mb-6">
             <Image
               src="/authors/courtney-bentley-author.webp"
-              alt="Courtney Bentley, Apple Certified Expert Consultant at ZA Support"
+              alt="Courtney Bentley, CEO and Apple Certified Expert Consultant at ZA Support"
               width={96}
               height={96}
               className="rounded-full object-cover"
@@ -116,17 +116,17 @@ export default function CourtneyBentleyPage() {
             <div>
               <h1 className="text-4xl font-bold text-[#E8F4F1]">Courtney Bentley</h1>
               <p className="text-[#0FEA7A] font-semibold text-lg">
-                Apple Certified Expert Consultant, ZA Support
+                CEO &amp; Apple Certified Expert Consultant, ZA Support
               </p>
             </div>
           </div>
 
           <p className="text-[#7A9E98] text-lg leading-relaxed mb-4">
             Former Apple South Africa Manager (2007-2009). Founded ZA Support at age 19 in 2009.
-            Forbes Africa 30 Under 30 (2019). Has personally overseen more than 25,000 Mac repairs
-            at ZA Support&apos;s Hyde Park workshop. Specialises in component-level logic board repair,
-            liquid damage recovery, and medical practice IT. BSc Informatics (UNISA). Member of the
-            Apple Developer Program.
+            Forbes Africa 30 Under 30 (2019). Has overseen ZA Support&apos;s 25,000+ Mac repair
+            operations at the Hyde Park workshop. Specialises in component-level logic board repair,
+            liquid damage recovery, and medical practice IT. UNISA Artificial Intelligence /
+            Cognitive Computing (2017&ndash;ongoing). Member of the Apple Developer Program.
           </p>
 
           <p className="text-[#7A9E98] text-sm leading-relaxed mb-10">
