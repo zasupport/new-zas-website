@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Germiston?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Germiston, which is approximately 30 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Germiston after liquid damage?',
-    answer: 'Yes. We collect from Germiston, Bedfordview, and the OR Tambo gateway corridor. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Germiston?', answer: 'Immediately. Corrosion begins the moment liquid contacts the board and progresses rapidly over the first 48 to 72 hours. If you spill something on a MacBook in Germiston, power it down, do not plug in the charger, and call 064 529 5863 or WhatsApp wa.me/27645295863 straight away. We can usually arrange collection from the Germiston CBD, Lambton or Primrose within a few hours, and the M2 route into Hyde Park takes roughly 30 minutes outside peak.' },
+  { question: 'Do you collect MacBooks from Germiston after liquid damage?', answer: 'Yes, we collect across Germiston — Lambton, Primrose, Parkhill Gardens, Dinwiddie, the CBD around President Street, and the Wadeville and Knights industrial areas. We have collected from logistics offices near City Deep, medical practices off Lake Street and homes throughout the suburb. Collection happens via the M2 and N3, with the workshop roughly 30 minutes away in Hyde Park. Assessment from R599.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers the initial inspection, ultrasonic clean of the logic board and a full diagnostic so we can quote accurately on what is needed. For Germiston clients the assessment fee is the same regardless of suburb, and the collection from anywhere in the Germiston area is arranged when you book. You receive a written quote before any chargeable repair work begins.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and salty liquids are the worst — sweetened coffee, energy drinks, soft drinks and seawater leave conductive residue that keeps shorting traces long after the board looks dry. Plain water is more forgiving if cleaned quickly. In Germiston we see a lot of coffee and tea spills from CBD offices, and condensation damage from machines moved between warehouse floors and air-conditioned offices. Regardless of liquid type, the ultrasonic clean is what removes the residue properly.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and the sooner the better. A MacBook that still powers on after a spill often has active corrosion progressing inside that will fail the board days or weeks later. We have had Germiston clients drop off machines that were working fine after a spill, only for the ultrasonic stage to reveal heavy residue under the keyboard and around the CPU. Cleaning it now is far cheaper than a board-level repair once components have failed.' },
+  { question: 'Will you be able to save my data?', answer: 'In most cases yes. Even when a board is beyond economic repair, we can usually recover data from the SSD on Intel MacBooks. Apple Silicon machines are more involved because the SSD is paired to the logic board, but we have specific techniques for those too. If data is your priority, tell us when you book collection from Germiston and we will prioritise the recovery path before any other repair work.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The assessment is from R599 and includes the ultrasonic clean and full diagnostic. After that stage we provide a written quote for any repair work needed. You decide whether to proceed before any further charges apply. The same policy applies to every Germiston collection, whether the machine arrives from a Lambton home or a Wadeville office.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2 and M3 MacBooks can be repaired at the board level for most liquid damage scenarios. The Apple Silicon boards are more densely packed, which makes the work more delicate, but ultrasonic cleaning and component-level replacement remain effective. We have repaired Apple Silicon machines collected from Germiston offices and returned them fully functional within the same week. Data recovery is more involved on these models, so let us know upfront if that is the priority.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageGermistonPage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Germiston and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 30 minutes away. Assessment from R599.
+              Liquid damage is a race against corrosion, and Germiston sits roughly 30 minutes from our Hyde Park workshop via the N3 and M2. We collect from across Germiston — Lambton, Primrose, the CBD around President Street, and the industrial belt near Knights — and carry out ultrasonic cleaning and board-level repair the same day where possible. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageGermistonPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              Germiston&apos;s mix of heavy industry, the rail-yard corridor and busy CBD office blocks means we see a particular pattern of liquid damage callouts here. Coffee spills from logistics offices near the Germiston station precinct, water ingress on machines carried through summer thunderstorms along Voortrekker Street, and the slow creep of condensation damage on laptops kept in warehouse offices off Refinery Road. The physics is always the same: the initial short-circuit when liquid bridges live traces is one problem, but the corrosion that follows over the next 48 to 72 hours is what actually kills the logic board. Power the machine off, do not attempt to charge it, and get it to us before the residue dries into the board.
             </p>
             <p>
-              For Germiston and Bedfordview residents and logistics-sector professionals, same-day collection from Germiston, Bedfordview, and the OR Tambo gateway corridor makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              For Germiston residents and the freight, manufacturing and accounting professionals who work in the area, same-day collection from the CBD, Lambton, Primrose and the Wadeville industrial node keeps downtime to a minimum. We collect, transport via the M2 to our Hyde Park workshop, and begin the ultrasonic clean-down within hours. Our commercial ultrasonic bath removes sugar, salt and mineral residue from every layer of the board — the kind of contamination you cannot reach with isopropyl and a brush. Once the board is clean we test under load, identify any components that have failed, and replace them at the component level. We have collected MacBooks from clearing agents near City Deep, from medical rooms off Lake Street, and from family homes in Parkhill Gardens, often returning the repaired machine inside the same week.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              Not every liquid-damaged MacBook can be saved, but in Germiston the majority of the machines we collect do come back to full function. We have restored boards that arrived a fortnight after a spill, and we have salvaged data from machines that no longer power on at all. The diagnostic you receive after the ultrasonic stage is honest and specific to your board — what is repairable, what is not, and what it will cost — so you can decide before any further work is done. Call 064 529 5863 or WhatsApp wa.me/27645295863 to arrange collection from anywhere in Germiston.
             </p>
           </div>
         </div>

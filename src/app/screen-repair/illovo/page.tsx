@@ -26,38 +26,14 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for screen repair from Illovo?',
-    answer: 'Yes. We offer collection and return for Illovo clients. Your MacBook is collected from Illovo, Craighall Park, and the Oxford Road commercial strip, repaired at our Hyde Park workshop approximately 7 minutes away, and returned once complete.',
-  },
-  {
-    question: 'How long does a MacBook screen repair take?',
-    answer: 'Simple screen replacements are typically completed within 24–48 hours of assessment. Backlight component repairs or display cable faults may take 48–72 hours. You will receive a clear timeframe with your quote before work begins.',
-  },
-  {
-    question: 'What is the screen repair assessment fee?',
-    answer: 'Assessment from R599. This covers inspection, fault diagnosis, and a written quote with. Final repair cost depends on the model and fault type.',
-  },
-  {
-    question: 'Do you use genuine Apple screens?',
-    answer: 'We use Apple-spec display assemblies that meet OEM standards. For Retina and Liquid Retina displays we source panels that match the original brightness, colour gamut, and resolution specifications.',
-  },
-  {
-    question: 'My MacBook screen has lines but still works. Should I get it repaired?',
-    answer: 'Yes. Display faults are progressive — lines typically spread and worsen over time. A partial display fault is much cheaper to repair than a fully failed display. Book an assessment before the fault deteriorates further.',
-  },
-  {
-    question: 'Can you repair the screen on Apple Silicon MacBooks?',
-    answer: 'Yes. We repair displays on MacBook Air M1, M2, M3 and MacBook Pro M1, M2, M3 models. Apple Silicon models use different display assemblies to Intel models and we stock parts for current-generation machines.',
-  },
-  {
-    question: 'What is a From R599 assessment guarantee?',
-    answer: 'If we cannot repair your MacBook screen, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair a cracked outer glass without replacing the full display?',
-    answer: 'On some older models, the outer glass can be replaced without replacing the full LCD panel. On Retina models, the glass is fused to the panel and the full assembly is replaced. We will advise the most cost-effective approach for your specific model.',
-  },
+  { question: 'Do you collect MacBooks for screen repair from Illovo?', answer: 'Yes — Illovo is one of our closest collection suburbs. Our workshop is in Hyde Park, a few minutes up Oxford Road, so we collect from homes, apartments and offices across Illovo, including Illovo Boulevard, Fricker Road, Harries Road and the streets around Inanda Club. Book via WhatsApp on 064 529 5863 and we will agree a time that fits your day.' },
+  { question: 'How long does a MacBook screen repair take?', answer: 'For most Illovo collections we work to a three-to-five working day turnaround once the quote is approved and parts are confirmed. Newer Apple Silicon models (M1, M2, M3) can take a day or two longer because display assemblies are ordered in. We give you a firm expected return date with the written quote, not a vague window.' },
+  { question: 'What is the screen repair assessment fee?', answer: 'Assessment is from R599. That covers a full diagnostic at the Hyde Park workshop — we check the panel, backlight, display cable, logic board video output and lid sensors so the quote reflects the real fault, not just the visible damage. If you go ahead with the repair, the assessment fee is credited against the final invoice.' },
+  { question: 'Do you use genuine Apple screens?', answer: 'We use original Apple display assemblies sourced through our supply channels. For Retina and Apple Silicon MacBooks the display is a single bonded assembly — panel, glass, cables and lid all in one — so when we replace it, you get the same part Apple would fit. We do not fit aftermarket panels because the colour calibration and True Tone behaviour will not match.' },
+  { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Vertical or horizontal lines almost always get worse, not better. We see this often on MacBooks brought in from Illovo home offices — a thin line appears, then within weeks it spreads or the panel develops dead bands. It is usually a panel or display cable fault rather than a software issue. Bring it in for an assessment while it is still usable; replacing a partially working screen is the same job as replacing a dead one.' },
+  { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes. M1, M2 and M3 MacBook Air and Pro screen replacements are a routine job for us. The display assembly is more tightly integrated than on older Intel models, which is why we always run a full assessment first — to confirm the fault is in the panel and not in the logic board\'s display controller. Apple Silicon repairs are quoted on the same from-R599 basis.' },
+  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the diagnostic fee starts at R599 and you get a written quote before any repair work begins. No surprise charges, no work done without your sign-off. If the fault turns out to be more complex than a screen — say a logic board issue affecting the display — we tell you the full picture and you decide whether to proceed.' },
+  { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On modern Retina and Apple Silicon MacBooks, no — and we are honest about this upfront. The glass is laser-bonded to the LCD panel as a single assembly, and any workshop offering glass-only repair on these models is either fitting non-original parts or risking damage to the panel underneath. We replace the full display assembly so the result matches factory condition. Older pre-Retina MacBooks are a different case and we can discuss those individually.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function ScreenRepairIllovoPage() {
               <br /><span className="text-[#0FEA7A]">— Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Screen repairs for Illovo residents and businesses. Cracked displays, backlight failure, display lines, and LCD faults. We collect from Illovo and repair at our Hyde Park workshop. Assessment from R599.
+              MacBook screen repair for Illovo homes and offices, from Oxford Road through to Fricker Road and the office parks along Harries Road. We collect across Illovo and repair at our Hyde Park workshop, roughly five minutes up the road. Cracked panels, backlight failure, vertical lines, dead pixels and LCD bleed all handled. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Benoni?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Benoni, which is approximately 40 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Benoni after liquid damage?',
-    answer: 'Yes. We collect from Benoni, Lakefield, and the East Rand suburban corridor. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Benoni?', answer: 'Contact us immediately — ideally within the first few hours. Power the MacBook down, do not plug it in, and call us on 064 529 5863 or WhatsApp wa.me/27645295863. We can arrange collection from anywhere in Benoni, whether you are in Lakefield, Northmead, Rynfield or near the CBD, and the sooner the board reaches our ultrasonic bath the more components we can save from ongoing corrosion.' },
+  { question: 'Do you collect MacBooks from Benoni after liquid damage?', answer: 'Yes. Our courier collects from Benoni and the surrounding East Rand suburbs daily, covering Lakefield, Brentwood Park, Farrarmere, Crystal Park and the routes along Pretoria Road and Tom Jones Street. The drive to our Hyde Park workshop runs via the R21 and N3, around an hour each way depending on the time of day, so a morning collection typically means the board is on the bench by lunchtime.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers full disassembly, ultrasonic cleaning of the logic board, microscope inspection and a written report listing every fault we find with a fixed repair quote. You then decide whether to proceed. If you choose not to repair, the assessment fee is all you pay — there are no hidden charges added later.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary drinks and salt-containing liquids are the worst — cold drinks, energy drinks, sports drinks and seawater leave a conductive, corrosive residue that continues attacking the board for weeks. Coffee and wine are next because of their acidity and sugar content. Plain water is the least aggressive but still causes shorts and corrosion, particularly Benoni municipal water which contains dissolved minerals. Regardless of the liquid, the response is identical: power down and get the machine to us.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and the sooner the better. A MacBook that still boots after a spill is on borrowed time — the residue on the board is slowly corroding traces and component legs, and within days or weeks you may see random shutdowns, charging faults or a board that simply does not power on again. We have had Benoni clients delay for a month then arrive with a dead machine that could have been saved cheaply if cleaned earlier.' },
+  { question: 'Will you be able to save my data?', answer: 'In most cases yes. Modern MacBooks have the SSD soldered to the logic board, which means data recovery depends on whether the storage controller and NAND chips survived. If the board can be restored to a working state, your data comes back with it. If the board is beyond repair, we have board-level techniques to read the NAND directly in many cases. We will give you a clear answer after the diagnostic — no guesswork.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. Assessment starts from R599 and includes the full strip-down, ultrasonic cleaning and detailed report. Some severely damaged boards may require additional diagnostic time which we will discuss with you upfront before any extra charge. The base R599 covers the vast majority of Benoni liquid-damage cases we see.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair M1, M2 and M3 MacBooks with liquid damage regularly. Apple Silicon boards are more densely packed than older Intel boards, which makes the repair more delicate, but the principles are identical — ultrasonic clean, microscope inspection, replace corroded components and repair damaged traces. Our microscope and rework station are set up specifically for the fine-pitch work these newer boards demand.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageBenoniPage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Benoni and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 40 minutes away. Assessment from R599.
+              Liquid damage on a MacBook in Benoni needs urgent attention — every hour that passes while corrosion spreads across the logic board reduces what we can save. We collect from Benoni, Lakefield, Northmead and Rynfield, then run ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly an hour&apos;s drive via the R21 and N3. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageBenoniPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              Benoni sits in the heart of the East Rand and we handle liquid damage from across the suburb regularly — Homestead Lake spills from picnickers caught in a Highveld thunderstorm, coffee accidents from home-office workers around Lakefield, and the occasional poolside disaster from properties bordering Benoni Lake. The pattern we see consistently is that residents wait too long, hoping the MacBook will dry out on its own. It will not. Liquid leaves a conductive residue on the logic board, and that residue continues to corrode traces and component legs long after the device looks dry. Whether the spill was filtered water, a sugared cold drink from Lakeside Mall food court, or wine at a dinner near Crystal Park, the chemistry is the same: stop using the machine, do not attempt to charge it, and get it to us.
             </p>
             <p>
-              For East Rand residents and professionals based in Benoni and surrounds, same-day collection from Benoni, Lakefield, and the East Rand suburban corridor makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              Many of our Benoni clients are professionals running their own practices or working remotely for Johannesburg-based firms — accountants, attorneys near the Benoni Magistrate&apos;s Court, and small business owners along Tom Jones Street. For these clients we offer collection that fits around the working day so the MacBook spends the shortest possible time off the desk. Our courier covers Benoni, Brentwood Park, Farrarmere and the routes feeding into the R21, and we have collected from offices near Lakeside Mall during business hours and returned the repaired machine within the same week. Once the board reaches the workshop it goes through a full strip-down, ultrasonic bath to lift contaminants from beneath chips and connectors, microscope inspection, and then targeted board-level repair — replacing corroded power management ICs, repairing burnt traces, or rebuilding pads where needed.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              We cannot promise every liquid-damaged MacBook will come back to life, but we can promise an honest assessment after the diagnostic. We have recovered machines that arrived a fortnight after the spill with visible corrosion across the board, and we have also had to advise clients that a logic board was beyond economical repair. Either way you receive a clear written report, a fixed quote before any work begins, and the option to recover your data even if the board itself cannot be saved. For Benoni residents that means no surprises and no pressure — just a proper East Rand repair option that does not require driving into Sandton yourself.
             </p>
           </div>
         </div>

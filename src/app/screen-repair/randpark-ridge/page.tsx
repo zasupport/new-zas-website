@@ -26,38 +26,14 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for screen repair from Randpark Ridge?',
-    answer: 'Yes. We offer collection and return for Randpark Ridge clients. Your MacBook is collected from Randpark Ridge, Radiokop, and the north-western residential estates, repaired at our Hyde Park workshop approximately 20 minutes away, and returned once complete.',
-  },
-  {
-    question: 'How long does a MacBook screen repair take?',
-    answer: 'Simple screen replacements are typically completed within 24–48 hours of assessment. Backlight component repairs or display cable faults may take 48–72 hours. You will receive a clear timeframe with your quote before work begins.',
-  },
-  {
-    question: 'What is the screen repair assessment fee?',
-    answer: 'Assessment from R599. This covers inspection, fault diagnosis, and a written quote with. Final repair cost depends on the model and fault type.',
-  },
-  {
-    question: 'Do you use genuine Apple screens?',
-    answer: 'We use Apple-spec display assemblies that meet OEM standards. For Retina and Liquid Retina displays we source panels that match the original brightness, colour gamut, and resolution specifications.',
-  },
-  {
-    question: 'My MacBook screen has lines but still works. Should I get it repaired?',
-    answer: 'Yes. Display faults are progressive — lines typically spread and worsen over time. A partial display fault is much cheaper to repair than a fully failed display. Book an assessment before the fault deteriorates further.',
-  },
-  {
-    question: 'Can you repair the screen on Apple Silicon MacBooks?',
-    answer: 'Yes. We repair displays on MacBook Air M1, M2, M3 and MacBook Pro M1, M2, M3 models. Apple Silicon models use different display assemblies to Intel models and we stock parts for current-generation machines.',
-  },
-  {
-    question: 'What is a From R599 assessment guarantee?',
-    answer: 'If we cannot repair your MacBook screen, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair a cracked outer glass without replacing the full display?',
-    answer: 'On some older models, the outer glass can be replaced without replacing the full LCD panel. On Retina models, the glass is fused to the panel and the full assembly is replaced. We will advise the most cost-effective approach for your specific model.',
-  },
+  { question: 'Do you collect MacBooks for screen repair from Randpark Ridge?', answer: 'Yes, we collect across Randpark Ridge — from the streets off Pendulum Avenue, the area around Randpark Ridge Shopping Centre, and the residential roads bordering Randpark Golf Club. Collection runs from our Hyde Park workshop down Republic Road or via the N1, usually a 20-minute drive depending on traffic. Book on 064 529 5863 or WhatsApp wa.me/27645295863 and we will confirm a window.' },
+  { question: 'How long does a MacBook screen repair take?', answer: 'For most MacBook models in common use across Randpark Ridge, screen repairs complete within three to five working days from collection. Newer Apple Silicon models with full display assemblies can take a little longer depending on parts. We give a firm timeline once the machine is on the diagnostic bench and the exact fault is confirmed.' },
+  { question: 'What is the screen repair assessment fee?', answer: 'Assessment is from R599. That covers collection from Randpark Ridge, full diagnostic at the Hyde Park workshop, and a written quote covering parts, labour and return delivery. If you proceed with the repair, the assessment fee is credited against the final invoice. You decide whether to go ahead before any work starts.' },
+  { question: 'Do you use genuine Apple screens?', answer: 'We use high-grade replacement displays sourced through reliable trade channels. Genuine Apple panels are only supplied through Apple\'s own repair programme, so independent workshops like ours fit equivalent-grade aftermarket or pulled-original panels. We are upfront about which grade is going into your machine and what the warranty looks like before you approve the quote.' },
+  { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Lines on the display usually point to a failing LCD or a flex cable issue, and in our experience they spread rather than settle. We have seen Randpark Ridge clients try to live with a single faint line for months only to lose the full panel during a routine lid-close. If the machine is still under daily use, it is worth booking an assessment before the fault progresses.' },
+  { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes — M1, M2 and M3 MacBook Air and Pro screen replacements are part of our regular workload. These models use a full display assembly rather than a separate LCD, so the repair approach differs from older Intel machines and parts cost more. We confirm exact pricing once we have the serial number and have inspected the damage at the workshop.' },
+  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the diagnostic fee starts at R599 and you receive a full written quote before any repair work begins. If you decide not to proceed, you pay only the assessment and we return the MacBook to your Randpark Ridge address. If you proceed, the R599 comes off the final invoice. No surprise charges.' },
+  { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On older MacBook Pro Retina models, glass-only replacement was sometimes possible, but on every modern MacBook the glass is bonded to the LCD as a single unit. That means a cracked outer layer typically requires a full display assembly swap. We will confirm during assessment which approach applies to your specific model and give you the cost difference clearly.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function ScreenRepairRandparkRidgePage() {
               <br /><span className="text-[#0FEA7A]">— Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Screen repairs for Randpark Ridge residents and businesses. Cracked displays, backlight failure, display lines, and LCD faults. We collect from Randpark Ridge and repair at our Hyde Park workshop. Assessment from R599.
+              Screen repairs for Randpark Ridge homes and small businesses, from the quiet roads off Pendulum Avenue to the offices around Randpark Ridge Shopping Centre. We collect across the suburb, drive the unit back to our Hyde Park workshop, and handle cracked panels, backlight failure, vertical lines and LCD bruising. Assessment from R599 and a clear quote before any work begins.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

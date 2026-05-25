@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Bedfordview?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Bedfordview, which is approximately 25 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Bedfordview after liquid damage?',
-    answer: 'Yes. We collect from Bedfordview, Greenstone, and the east Rand residential belt. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Bedfordview?', answer: 'Immediately — ideally within the first hour. Power the MacBook off by holding the power button for 10 seconds, do not plug in the charger to test it, and phone 064 529 5863. Bedfordview is roughly 20 to 25 minutes from our Hyde Park workshop via the M1 and N3, so we can usually arrange same-day collection if you call before mid-afternoon. The window between the spill and the ultrasonic clean is the single biggest factor in whether the board survives.' },
+  { question: 'Do you collect MacBooks from Bedfordview after liquid damage?', answer: 'Yes. We collect from across Bedfordview including Bedford Park, Bedford Gardens, St Andrews, and the streets around Bedford Centre and Van Buuren Road. We have also collected from offices in Bedford Office Park and medical suites near the Linksfield ridge. The collection driver routes via the N3 and brings the machine directly to the Hyde Park workshop, where the diagnostic process begins the same day in most cases.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599 and includes the strip-down, ultrasonic clean of the logic board, and a written report covering what is repairable and what the component-level repair will cost. If you proceed with the repair, the assessment fee is credited against the final invoice. We will not start any work beyond the diagnostic without your written approval of the quote.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugar-bearing liquids are the most aggressive — wine, fizzy drinks, sweet coffee, and energy drinks leave a conductive residue that keeps corroding the board after the visible moisture has gone. Salt water and seawater are also extremely destructive. Plain still water is the least damaging if the machine is powered off immediately, but tap water still contains enough mineral content to corrode traces over time. We see all of these in Bedfordview, with coffee and wine being the most common in the home-office and entertaining contexts.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and the sooner the better. A MacBook that still boots after a spill is not in the clear — corrosion progresses over days and weeks, and the failure often happens after the residue has eaten through a key trace or component. We have had Bedfordview clients bring in machines that worked fine for a fortnight after a spill, only to die suddenly. An early ultrasonic clean is far cheaper than the board-level repair needed once corrosion has spread.' },
+  { question: 'Will you be able to save my data?', answer: 'In most cases yes, but it depends on the model. Older MacBooks with removable SSDs allow us to read the drive on a separate rig even if the logic board is unrecoverable. Apple Silicon machines and recent T2 models have the storage soldered to the board and encrypted to the secure enclave, which means data recovery is tied to repairing enough of the board to boot it once. We will tell you upfront in the diagnostic report exactly what the data prospects look like for your specific machine.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes — the assessment starts at R599 and covers the full diagnostic process including the ultrasonic clean of the board. You receive a written quote for the actual repair before any further work is carried out, and the R599 is credited against the repair total if you proceed. There are no hidden charges added during the diagnostic itself.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair liquid damage on M1, M2, and M3 MacBooks at component level, including the M2 and M3 Air models that are increasingly common with Bedfordview clients. Apple Silicon boards are more densely packed and the storage is bound to the secure enclave, which makes the repair more delicate and the data recovery more dependent on board-level success — but the work is well within the scope of our microscope bench, and we complete these repairs regularly.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageBedfordviewPage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Bedfordview and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 25 minutes away. Assessment from R599.
+              Liquid damage is time-critical, and Bedfordview&apos;s position alongside the N3 and Van Buuren Road means we can usually have a courier at your door within the hour. We collect from homes near Bedford Centre, offices around Bedford Gardens, and the medical suites on Smith Road, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop roughly 20 minutes west. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageBedfordviewPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              Bedfordview sits in a humidity pocket between the ridge and the N3, and we have noticed it produces a particular cluster of liquid damage cases — condensation build-up during load-shedding cycles, spills in home offices where the MacBook lives next to a coffee mug all day, and pool-side accidents in the Bedford Park and St Andrews residential streets. The pattern we see is the same regardless of the liquid: the initial short-circuit when the machine is powered, followed by progressive corrosion as moisture sits on copper traces. Sugar-bearing liquids — wine, energy drinks, sweetened coffee — leave a conductive residue that keeps damaging the board for days after the spill appears to have dried. The single most important thing you can do is press and hold the power button to force a shutdown, then phone us on 064 529 5863 before plugging in a charger to check.
             </p>
             <p>
-              For Bedfordview and Greenstone Hill residents and professionals, same-day collection from Bedfordview, Greenstone, and the east Rand residential belt makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              We have collected MacBooks from law firms in Bedford Gardens during lunch hours, from medical practices on Van Buuren Road between patient appointments, and from family homes around Bedford Centre and the Eastgate side of the suburb. The drive from our Hyde Park workshop down the M1 and across to the N3 takes about 20 to 25 minutes depending on the time of day, and avoiding the afternoon Gillooly&apos;s Interchange congestion is part of how we keep collections same-day. Once the machine is on the bench we strip it down, lift the logic board, and put it through a commercial ultrasonic bath to remove every trace of residue and contaminant. Only then do we apply heat under the microscope to deal with corroded traces, lifted pads, and any components that need to be replaced individually.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              Not every liquid-damaged MacBook can be saved, but the majority that reach us within the first week can be. We have brought boards back to full function for clients in Bedfordview who assumed their machine was finished — including one Bedford Park resident whose MacBook Pro sat in a drawer for three weeks after a wine spill and still recovered after a full clean and two component-level replacements. After your diagnostic you receive a written report covering exactly what is repairable, what the cost looks like, and what the data recovery prospects are. WhatsApp wa.me/27645295863 to arrange collection.
             </p>
           </div>
         </div>

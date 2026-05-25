@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Edenvale?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Edenvale, which is approximately 25 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Edenvale after liquid damage?',
-    answer: 'Yes. We collect from Edenvale, Bedfordview, and the OR Tambo east corridor. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Edenvale?', answer: 'Immediately. Power the MacBook off, do not try to charge it, and call 064 529 5863. The first 24 hours determine whether you need a clean and dry-out, or a full board-level repair. Edenvale is roughly 25 minutes from our Hyde Park workshop via the N3 and M1, so we can usually collect the same day if you call before midday.' },
+  { question: 'Do you collect MacBooks from Edenvale after liquid damage?', answer: 'Yes. We collect from anywhere in Edenvale — Hurlyvale, Eastleigh, Sebenza, Greenstone, and the streets around Van Riebeeck Avenue. Because liquid damage is time-critical, we treat Edenvale collections as priority and aim to have the MacBook on a workbench in Hyde Park within a few hours of your call. WhatsApp wa.me/27645295863 to arrange.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers full disassembly, ultrasonic cleaning of the board, microscope inspection, and a written report telling you exactly what is damaged, what it will cost to repair, and the realistic prognosis. If you choose to proceed with the repair, the assessment fee is credited toward the final bill.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst — wine, fizzy drinks, juice, and coffee with sugar all leave conductive residue that keeps corroding long after the MacBook dries. Plain water is the least aggressive, but tap water in Edenvale still contains enough mineral content to cause corrosion over days. Salt water and pool water are devastating because the chloride attacks copper traces aggressively.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes — please. A MacBook that still boots after a spill is on borrowed time. The corrosion happens silently underneath the board components, and the failure usually arrives one to three weeks later, often killing parts that were not damaged by the original spill. An ultrasonic clean now is much cheaper than a logic board replacement later. Drop it off or let us collect from Edenvale.' },
+  { question: 'Will you be able to save my data?', answer: 'In most cases yes. The SSD on modern MacBooks is soldered to the logic board, but the data itself is usually recoverable even when the board has significant damage — we can transplant the storage controller or read the chips directly in the worst cases. Our data recovery success rate on liquid-damaged Edenvale MacBooks has been strong, but no honest technician guarantees data recovery upfront.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The R599 assessment fee covers the diagnostic work itself — disassembly, ultrasonic cleaning, and inspection — because liquid damage assessment is genuinely labour-intensive work, not a quick visual check. Anyone offering free liquid damage assessment is either cutting corners or planning to overcharge on the repair to compensate. The R599 is credited toward your repair if you proceed.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes — we repair liquid-damaged M1, M2, and M3 MacBook Air and Pro models at board level. Apple Silicon boards are denser and more challenging than Intel boards, but the repair principles are the same: ultrasonic clean, identify corroded components, replace under microscope. We have completed dozens of Apple Silicon liquid repairs for Edenvale and East Rand clients.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageEdenvalePage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Edenvale and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 25 minutes away. Assessment from R599.
+              Liquid damage is a race against corrosion. We collect MacBooks from Edenvale homes near Van Riebeeck Avenue, businesses around Eastgate, and residents close to Bedford Centre, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop — roughly 25 minutes via the M2 or N3. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageEdenvalePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              Edenvale sits at a crossroads of the East Rand, with the N3 to the east, the R24 cutting south toward OR Tambo, and Van Riebeeck Avenue threading through the heart of the suburb. We collect from homes around Greenstone Hill, the older streets near Hurlyvale, and offices along Herman Road. The pattern we see consistently from Edenvale clients is coffee and tea spills on home-office setups — a knock-on effect of the hybrid working culture that took hold after 2020 — followed by water from baby bottles, pets knocking over glasses, and kitchen-counter splashes. Liquid on a logic board causes two distinct problems: the immediate short circuit, and the slow corrosion that follows. The second is what kills MacBooks that &apos;seemed fine&apos; for a week.
             </p>
             <p>
-              For east-Rand residents and business owners based near the N12, same-day collection from Edenvale, Bedfordview, and the OR Tambo east corridor makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              Because Edenvale is close to OR Tambo and the industrial belt around Isando and Sebenza, a meaningful share of the MacBooks we collect here belong to logistics managers, freight controllers, and small business owners running their operations from home offices. Downtime costs money, so we prioritise these collections — typically same-day if the call comes in before midday. Our workflow at the Hyde Park workshop starts with a full disassembly, an ultrasonic bath to lift sugar residue and corrosion salts off the board, microscope inspection of the affected components, and only then a board-level repair quote. No guessing, no logic board swap unless that is genuinely the only option.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              We have collected MacBooks from Edenvale clients where the spill happened on a Friday night and the machine arrived in our workshop on Saturday morning — those are the easy wins. We have also restored boards that sat untouched for a month after a wine spill, with corrosion green and crusty by the time we opened them. Both can succeed. The honest assessment we provide after diagnostic will tell you what is repairable, what it will cost, and whether the data is recoverable — call 064 529 5863 or WhatsApp wa.me/27645295863 to arrange collection.
             </p>
           </div>
         </div>

@@ -26,38 +26,14 @@ const faults = [
 ];
 
 const faqs = [
-  {
-    question: 'Do you collect MacBooks for screen repair from Woodmead?',
-    answer: 'Yes. We offer collection and return for Woodmead clients. Your MacBook is collected from Woodmead Office Park, Woodlands Boulevard, and surrounding business estate, repaired at our Hyde Park workshop approximately 18 minutes away, and returned once complete.',
-  },
-  {
-    question: 'How long does a MacBook screen repair take?',
-    answer: 'Simple screen replacements are typically completed within 24–48 hours of assessment. Backlight component repairs or display cable faults may take 48–72 hours. You will receive a clear timeframe with your quote before work begins.',
-  },
-  {
-    question: 'What is the screen repair assessment fee?',
-    answer: 'Assessment from R599. This covers inspection, fault diagnosis, and a written quote with. Final repair cost depends on the model and fault type.',
-  },
-  {
-    question: 'Do you use genuine Apple screens?',
-    answer: 'We use Apple-spec display assemblies that meet OEM standards. For Retina and Liquid Retina displays we source panels that match the original brightness, colour gamut, and resolution specifications.',
-  },
-  {
-    question: 'My MacBook screen has lines but still works. Should I get it repaired?',
-    answer: 'Yes. Display faults are progressive — lines typically spread and worsen over time. A partial display fault is much cheaper to repair than a fully failed display. Book an assessment before the fault deteriorates further.',
-  },
-  {
-    question: 'Can you repair the screen on Apple Silicon MacBooks?',
-    answer: 'Yes. We repair displays on MacBook Air M1, M2, M3 and MacBook Pro M1, M2, M3 models. Apple Silicon models use different display assemblies to Intel models and we stock parts for current-generation machines.',
-  },
-  {
-    question: 'What is a From R599 assessment guarantee?',
-    answer: 'If we cannot repair your MacBook screen, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair a cracked outer glass without replacing the full display?',
-    answer: 'On some older models, the outer glass can be replaced without replacing the full LCD panel. On Retina models, the glass is fused to the panel and the full assembly is replaced. We will advise the most cost-effective approach for your specific model.',
-  },
+  { question: 'Do you collect MacBooks for screen repair from Woodmead?', answer: 'Yes. We collect across Woodmead, including Waterfall Drive, the office parks along Western Service Road, Woodmead Estate, Country Club Estate, and the residential streets off Maxwell Drive. Pickup is arranged on 064 529 5863 or wa.me/27645295863 and the MacBook is taken to our Hyde Park workshop, usually around fifteen minutes south down the M1.' },
+  { question: 'How long does a MacBook screen repair take?', answer: 'For most models we collect from Woodmead, the screen repair is completed within three to five working days from pickup. Older Intel MacBook Pros where we can replace the panel alone tend to be quicker. Apple Silicon models where the full lid assembly is swapped take slightly longer due to part availability. We\'ll give you a realistic return date once the assessment is done, not before.' },
+  { question: 'What is the screen repair assessment fee?', answer: 'Assessment is from R599. That covers diagnostics to confirm whether the fault is the LCD panel, the display cable, the backlight, or something behind the logic board feeding the display. If you proceed with the repair, the assessment fee is credited against the repair cost. We won\'t quote blind off a photo — a cracked screen sometimes hides a second fault that only shows up once we open the unit.' },
+  { question: 'Do you use genuine Apple screens?', answer: 'We use original Apple panels pulled from grade-A donor units, or high-grade OEM equivalents where genuine stock is unavailable. For Woodmead corporate clients who need colour-accurate displays for design or finance work, we\'ll confirm the panel type before fitting. We don\'t fit the cheap aftermarket LCDs you\'ll find on some marketplace listings — they have visible colour shift and shorter lifespans.' },
+  { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Lines on a MacBook display usually point to a failing LCD panel or a damaged display cable, and in our experience they get worse rather than better. We\'ve had Woodmead clients leave it for months hoping it would settle, only for the screen to go fully black mid-meeting. If you rely on the machine for work — which most of the corporate users we collect from in Woodmead do — it\'s worth assessing now while you can still see what you\'re doing.' },
+  { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes. We repair displays on M1, M2, M3 and M4 MacBook Air and Pro models. On these machines Apple supplies the display as a full lid assembly rather than a separate panel, so the cost is higher than older Intel models. We\'ll give you the exact figure for your specific model after the assessment. Several Woodmead clients with newer M2 and M3 Pros have had successful display swaps done by us this year.' },
+  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the diagnostic fee starts at R599 and you know that number before we collect. There are no surprise add-ons during the assessment itself. If the unit needs deeper board-level inspection beyond a standard screen diagnostic, we\'ll tell you first and only proceed with your approval. Woodmead pickups are quoted upfront on WhatsApp before the driver leaves Hyde Park.' },
+  { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On most modern MacBooks the glass is bonded to the LCD as a single unit, so the honest answer is no — replacing just the glass isn\'t viable without risking the panel underneath. The exception is some older MacBook Pro models where the front glass was a separate piece. We\'ll confirm during assessment which category your machine falls into and quote accordingly. We won\'t sell you a glass-only repair on a model where it isn\'t a sound fix.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function ScreenRepairWoodmeadPage() {
               <br /><span className="text-[#0FEA7A]">— Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Screen repairs for Woodmead residents and businesses. Cracked displays, backlight failure, display lines, and LCD faults. We collect from Woodmead and repair at our Hyde Park workshop. Assessment from R599.
+              MacBook screen repairs for Woodmead homes and offices along Waterfall Drive, Western Service Road, and the corridor running past Woodmead Retail Park. We collect from estates like Woodmead Estate and Sunninghill Gardens, from offices in Country Club Estate, and from the business parks off the M1. Repairs are completed at our Hyde Park workshop and returned the same week in most cases. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
