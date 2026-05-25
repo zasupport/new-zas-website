@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Illovo?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Illovo, which is approximately 7 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Illovo after liquid damage?',
-    answer: 'Yes. We collect from Illovo, Craighall Park, and the Oxford Road commercial strip. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Illovo?', answer: 'Immediately — ideally within the first hour. Power the MacBook off, do not press any keys to test it, and call us on 064 529 5863. From Illovo we can usually have a driver with you within 30 minutes via Oxford Road or the M1, which gets the board into ultrasonic cleaning the same afternoon. The success rate drops noticeably after 24 hours and again after 72 hours as corrosion sets in.' },
+  { question: 'Do you collect MacBooks from Illovo after liquid damage?', answer: 'Yes — collection from anywhere in Illovo is included. We cover Illovo Boulevard, Oxford Road, Harries Road, the area around Illovo Junction and Thrupps Centre, and the residential streets towards Rudd Road and Glenhove. Hyde Park workshop is roughly 6 minutes away, so liquid-damage collections from Illovo are prioritised over routine jobs.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599 and includes full disassembly, ultrasonic cleaning of the logic board and a microscope inspection to identify damaged components. You then receive a written quote for the repair itself. If you choose not to proceed, the assessment fee is all you pay — the machine is reassembled and returned to you in Illovo.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary drinks and wine are the worst because they leave a conductive residue that keeps corroding the board long after the visible liquid has dried. Sparkling water is surprisingly aggressive for the same reason. Plain water is the gentlest, though still serious if the machine was powered when it hit the keyboard. Coffee — the most common spill we see from Illovo offices — sits in the middle: the sugar and milk leave residue, but it is manageable if we get the board into ultrasonic cleaning quickly.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still works after a spill is the best-case scenario for recovery, but the corrosion is already starting on the board. The longer you keep using it, the more components fail one at a time — usually starting with the keyboard backlight, then individual keys, then trackpad, then charging. Bring it in while it still works and the repair is far cheaper than waiting until it does not.' },
+  { question: 'Will you be able to save my data?', answer: 'In the great majority of liquid-damage cases, yes. Even when the logic board is beyond economic repair, we can usually recover data directly from the storage — on Intel MacBooks via the SSD, and on Apple Silicon models via the data-recovery port using Apple\'s documented procedure. We confirm data recoverability during the assessment so you know where you stand before committing to a board-level repair.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes — every liquid-damage job starts with the from R599 assessment. That covers collection from Illovo, disassembly, ultrasonic cleaning and a full diagnostic. You then receive a written quote for the actual repair work and decide whether to proceed. There are no hidden charges added later.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2 and M3 MacBooks need a different approach because the SSD is soldered to the board and the storage is tied to the secure enclave, but the underlying liquid-damage repair process is the same — ultrasonic cleaning, microscope inspection, component-level replacement. Several of the Apple Silicon machines we have recovered came from professional practices around Oxford Road, so the workflow is well established.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageIllovoPage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Illovo and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 7 minutes away. Assessment from R599.
+              Liquid damage in Illovo needs a fast response — every hour the corrosion spreads further across the logic board. We collect from homes along Harries Road, professional practices on Oxford Road, and the medical and legal suites near Illovo Junction, then run ultrasonic cleaning and board-level repair at our Hyde Park workshop roughly 6 minutes up the road. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageIllovoPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              The Illovo MacBooks that reach our Hyde Park bench tell a consistent story. Coffee spills from the cafés around Illovo Junction and Thrupps Centre are the most common, followed by water bottles tipped onto machines in the open-plan offices along Oxford Road, and the occasional wine spill from work-from-home setups in the older homes off Rudd Road. The pattern we see is straightforward: liquid on a logic board causes two distinct injuries — the immediate short-circuit when the machine is powered, and the slower corrosion that eats through traces and component legs in the days that follow. Pure water is the gentlest. Sugary drinks, sparkling water and wine are the worst because the sugars and minerals stay behind as a conductive film long after the visible liquid has dried.
             </p>
             <p>
-              For legal and financial professionals along Oxford Road, same-day collection from Illovo, Craighall Park, and the Oxford Road commercial strip makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              Illovo&apos;s mix of legal practices, financial advisers and creative agencies means the machines we collect here are usually in the middle of billable work, so turnaround matters as much as the repair itself. Same-day collection from Illovo Boulevard, the Oxford Road commercial strip and the residential streets between Glenhove and Rudd is usually possible if you call before midday — the M1 onramp at Glenhove gets us back to Hyde Park in well under ten minutes outside of peak. Once the board is on the bench it goes through a commercial ultrasonic bath to lift every trace of residue, then a full microscope inspection to find lifted pads, corroded traces and damaged components. Where individual chips have failed we replace them at component level rather than swapping the whole logic board, which keeps the cost realistic.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              Not every liquid-damaged MacBook can be brought back, but the majority can — including machines that have sat in a drawer for weeks after the spill because the owner assumed it was dead. We have returned MacBooks to advocates working from chambers near Oxford Road within the same week of collection, and recovered data from machines that would not power on at all. After the diagnostic you receive a clear written assessment of what is repairable, what it will cost, and what the realistic outcome looks like — call 064 529 5863 or WhatsApp wa.me/27645295863 to arrange collection from Illovo.
             </p>
           </div>
         </div>

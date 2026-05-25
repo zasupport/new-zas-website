@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Woodmead?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Woodmead, which is approximately 18 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Woodmead after liquid damage?',
-    answer: 'Yes. We collect from Woodmead Office Park, Woodlands Boulevard, and surrounding business estate. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Woodmead?', answer: 'Immediately. From Woodmead we can usually have a courier with you within 30 to 45 minutes depending on traffic on the N1 and Western Service Road. Power the MacBook off, do not attempt to charge it, and call 064 529 5863. Corrosion begins within minutes of liquid touching the logic board, so the gap between spill and ultrasonic cleaning is the single biggest predictor of whether the repair succeeds.' },
+  { question: 'Do you collect MacBooks from Woodmead after liquid damage?', answer: 'Yes. We collect from across Woodmead — Woodmead Office Park, Pinmill, Waterfall Edge side, Woodmead Estate, Sunninghill Gardens, and the residential streets off Maxwell Drive and Van Reenen Avenue. The drive from our Hyde Park workshop is approximately 18 minutes outside peak hours. For corporate clients we coordinate with building reception so collection can happen without you leaving a meeting.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers disassembly, inspection of the logic board under magnification, and a written report of what is needed to restore the machine. If you proceed with the repair the assessment fee is credited toward the total. We do not quote blind on liquid damage — every board tells a different story once it is opened.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst — fizzy drinks, energy drinks, wine, coffee with sugar. They leave conductive residue that keeps corroding tracks long after the liquid itself has evaporated. Plain water is the most forgiving but still serious. Salt water and pool water are aggressive on the copper traces. We see all of these regularly from Woodmead, with coffee spills being by far the most common from the office-park clients.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still boots after a spill is the most deceptive scenario we deal with. The liquid is already on the board, the corrosion is already starting, and in our experience the machine will typically fail somewhere between two days and three weeks later — often with damage that has spread well beyond the original spill point. Bring it in while it is still working and the repair is dramatically cheaper.' },
+  { question: 'Will you be able to save my data?', answer: 'In the majority of liquid damage cases the SSD survives even when the logic board does not, because the storage chips are on a separate area of the board and are often spared from the worst of the corrosion. On Apple Silicon machines this is more complex because the SSD is paired to the board, but we have data-recovery options for those cases too. Tell us during the call if data recovery is the priority and we will handle the disassembly accordingly.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes — assessment is from R599 and is credited toward the repair if you proceed. For liquid damage specifically the assessment is more involved than a normal diagnostic because the board needs to be disassembled and inspected under magnification before we can quote, which is why we charge for it. You receive a written report regardless of whether you go ahead with the repair.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2, and M3 MacBook Air and Pro models all come through our Hyde Park workshop regularly for liquid damage. The repair process is similar — ultrasonic cleaning, corrosion treatment, component-level work where tracks have been damaged — but the integration of the SSD with the main SoC means data recovery on Apple Silicon needs different handling. Tell us the model when you call and we will explain what is realistic for your specific machine.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageWoodmeadPage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Woodmead and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 18 minutes away. Assessment from R599.
+              Liquid damage on a MacBook is a race against corrosion, and Woodmead&apos;s position along the N1 and Western Service Road means we can have a courier at your office or estate in roughly 18 minutes from our Hyde Park workshop. We handle ultrasonic cleaning and board-level repair in-house. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageWoodmeadPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              Woodmead sits in an unusual pocket — corporate parks along Waterfall Edge and Woodmead Drive on one side, established residential estates like Woodmead Estate and Sunninghill Gardens on the other, and the constant traffic flow of the N1 and Witkoppen Road cutting through. The liquid damage cases we collect here reflect that mix. From the office parks we see coffee and energy drink spills on machines used in long meeting blocks, and from the residential side we see kitchen-counter accidents and the occasional pool-deck incident during weekends at homes near the Woodmead Country Club area. The underlying physics is identical regardless of the suburb, but the response window is what we keep emphasising to Woodmead clients: corrosion on a logic board begins within minutes, not hours, and powering the machine back on to check if it still works is the single most damaging thing someone can do.
             </p>
             <p>
-              For office-park businesses and corporate teams in Woodmead Estate, same-day collection from Woodmead Office Park, Woodlands Boulevard, and surrounding business estate makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              Because so many Woodmead clients work from corporate buildings around Woodmead Retail Park, Pinmill Office Park, and the cluster of buildings near the Woodmead Value Mart, we have built our collection pattern around business-hour pickups that do not require staff to leave their desks. A typical case last month involved a financial services team off Van Reenen Avenue whose MacBook Pro had taken a full glass of sparkling water during a video call. The machine was off our courier&apos;s vehicle within forty minutes of the call, in the ultrasonic bath the same afternoon, and back with the user three days later with all data intact. That window — fast collection, immediate disassembly, ultrasonic cleaning before residue dries — is what separates a repairable board from a write-off.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              If your MacBook has had a spill anywhere in Woodmead, whether at a desk in Woodmead Office Park or at home off Maxwell Drive, do not try to dry it with rice, do not power it on to test, and do not wait until morning. Phone us on 064 529 5863 or WhatsApp wa.me/27645295863 and we will arrange collection. The diagnostic is honest — you will be told exactly what the board needs and what it will cost before any repair work begins, and if the machine is genuinely beyond economical repair we will tell you that too rather than running up your bill.
             </p>
           </div>
         </div>

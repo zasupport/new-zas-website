@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Roodepoort?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Roodepoort, which is approximately 32 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Roodepoort after liquid damage?',
-    answer: 'Yes. We collect from Roodepoort, Florida, and the West Rand business corridor. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Roodepoort?', answer: 'Phone us the moment the spill happens. From the time liquid touches the logic board, corrosion begins forming on copper traces and component pads. Roodepoort to our Hyde Park workshop is roughly 32 minutes via the N1, and our collection driver can usually be at a Constantia Kloof office or a Florida home within an hour of your call. The single biggest factor in whether your board is fully recoverable is the gap between incident and ultrasonic cleaning. Switch the machine off, do not attempt to charge it, and call 064 529 5863.' },
+  { question: 'Do you collect MacBooks from Roodepoort after liquid damage?', answer: 'Yes — we collect across the full Roodepoort area including Florida, Constantia Kloof, Wilropark, Weltevreden Park, Allen\'s Nek, Little Falls, Wilgeheuwel, Northcliff-side, and the Westgate corridor. The N1 connection to Hyde Park makes the trip predictable, and for liquid damage we prioritise same-day collection because each hour matters. Message wa.me/27645295863 with your suburb and the nearest landmark and we will confirm a collection slot. We bring anti-static packaging so the MacBook is protected in transit.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers full disassembly at our Hyde Park workshop, microscope inspection of the logic board, identification of which components have failed, and a written quote with a fixed repair price before any work proceeds. If you decide not to repair, the assessment fee is all you pay. For Roodepoort clients we hold the assessment fee separate from the repair quote so there is no confusion about what you are committing to.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids cause the worst long-term damage — Coke, juice, wine and coffee with milk leave residues that keep corroding the board long after the initial spill dries. Plain water is the most forgiving but still causes shorting if power is applied. Salt water and pool water are particularly aggressive. The Roodepoort jobs we see most often involve coffee on closed lids in home offices and juice spills in family kitchens, both of which respond well to early ultrasonic cleaning.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still works after a spill is the most deceptive scenario — it tells you nothing about what is happening on the board. Corrosion continues to form for days and weeks under the surface, and a machine that booted fine on Monday can fail by the weekend with a far more expensive failure. We have seen Roodepoort clients delay because the machine seemed fine, only to bring it in a fortnight later with a dead power rail that was straightforward to clean in the first 24 hours.' },
+  { question: 'Will you be able to save my data?', answer: 'In the majority of cases, yes. Even when the logic board is beyond economical repair, we can usually recover data directly from the SSD. On older MacBooks the SSD is removable and reads easily on a recovery rig. On newer T2 and Apple Silicon machines the storage is soldered and encrypted to the board, so the route is to repair the board enough to boot and pull the data off. We tell Roodepoort clients honestly at assessment which path their specific machine needs.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The assessment fee starts from R599 and covers the full diagnostic and quote. We do not quote blind over the phone for liquid damage because the only way to know what is repairable is to open the machine, clean the board, and inspect under the microscope. Once that is done you receive a fixed price, and the choice to proceed is entirely yours.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair M1, M2 and M3 MacBook Air and Pro models at board level — replacing damaged power management ICs, resistors, capacitors and other discrete components. Apple\'s own route is full logic board replacement at substantial cost, and many Roodepoort clients come to us specifically after receiving that quote. Component-level rework on Apple Silicon is what we do daily, and it is consistently a fraction of the swap price.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageRoodepoortPage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Roodepoort and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 32 minutes away. Assessment from R599.
+              Liquid damage on a MacBook is a race against corrosion, and Roodepoort sits roughly 32 minutes from our Hyde Park workshop along the N1. We collect from homes near Northgate, businesses along Ontdekkers Road, and residents around Little Falls and Weltevreden Park, then carry out ultrasonic cleaning and board-level repair the same day. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageRoodepoortPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              Roodepoort has a mix we do not see in every suburb — Constantia Kloof corporate offices, Florida Lake residential pockets, retail traders around Westgate, and family homes throughout Wilropark and Little Falls. The liquid incidents reflect that mix. We collect MacBooks from kitchen counters in Florida where a kettle has tipped, from offices on Hendrik Potgieter Road where coffee has landed on a closed lid, and from students living near the University of Johannesburg&apos;s Doornfontein campus who commute in from the West Rand. The pattern is consistent: corrosion begins within minutes, and the gap between incident and ultrasonic cleaning determines what we can save.
             </p>
             <p>
-              For West Rand residents and business owners in Roodepoort and Florida, same-day collection from Roodepoort, Florida, and the West Rand business corridor makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              Distance matters less than people assume because the N1 from Roodepoort into Hyde Park is direct, and our driver can be at a Constantia Kloof office or a Wilgeheuwel home inside the hour during off-peak windows. Once a board reaches the workshop it goes through full disassembly, a commercial ultrasonic bath to lift sugar residue and corrosion salts, microscope inspection of every IC and trace, and targeted board-level rework where components have failed. For Apple Silicon machines we replace damaged power management ICs and resistors on the same boards Apple would replace wholesale, which is why our repair price is consistently a fraction of the swap quote.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              We have collected liquid-damaged MacBooks from medical practices near Flora Clinic, from a logistics business off Beyers Naudé Drive after a roof leak during a Highveld thunderstorm, and from a family in Allen&apos;s Nek whose toddler emptied a juice cup directly onto the keyboard. Each one tells us the same thing — the Roodepoort homes and offices we service want a clear diagnostic, an honest repair cost, and their data back. If your MacBook has taken liquid, switch it off, do not charge it, and phone 064 529 5863 or message wa.me/27645295863 so we can arrange collection before the corrosion progresses any further.
             </p>
           </div>
         </div>

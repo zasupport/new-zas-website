@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Kyalami?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Kyalami, which is approximately 22 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Kyalami after liquid damage?',
-    answer: 'Yes. We collect from Kyalami Estates, Kyalami Business Park, and the N1 north corridor. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Kyalami?', answer: 'Within the first few hours if at all possible. Power the MacBook down immediately, do not plug it in to test, and contact us on 064 529 5863. We can usually arrange a collection from Kyalami the same day, and from our Hyde Park workshop the drive is around 25 minutes via the M1, so the unit can be on the bench and disassembled the same afternoon. Every hour the liquid sits on the logic board increases corrosion.' },
+  { question: 'Do you collect MacBooks from Kyalami after liquid damage?', answer: 'Yes. We collect across Kyalami AH, Kyalami Estates, Kyalami Hills, and the business parks off Allandale Road and R55. The route from Hyde Park is roughly 25 minutes outside peak traffic. For liquid damage we prioritise these collections because the time-to-bench window directly affects what we can save. Call 064 529 5863 or WhatsApp wa.me/27645295863 to arrange a same-day pickup.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599 and includes full disassembly, ultrasonic cleaning of the logic board, microscopic inspection, and a written report with a fixed repair quote. If you proceed with the repair the assessment fee is absorbed into the final cost. We do not start any chargeable work without your written approval first.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst offenders — coffee with sugar, wine, energy drinks, and fruit juice all leave aggressive residue that continues corroding components long after the initial spill has dried. Plain water is more forgiving if the MacBook is powered down quickly. In Kyalami we also see condensation damage from units left in cold cars overnight after warm interiors, particularly during winter.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and ideally within a day or two. A MacBook that still boots after a spill is not safe — corrosion develops over days and weeks beneath the shielding, and we frequently see units fail completely two or three weeks after the original incident. An early ultrasonic clean is far cheaper than a full board-level repair later. It is one of the most worthwhile preventive jobs we do.' },
+  { question: 'Will you be able to save my data?', answer: 'In the majority of liquid damage cases, yes. On Apple Silicon MacBooks the storage is soldered to the logic board, which makes data recovery dependent on getting the board functional again — another reason early action matters. On older Intel MacBooks with removable SSDs, data recovery is often possible even when the board itself is beyond repair. We will tell you honestly at assessment what the data position looks like.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The assessment fee starts at R599 and covers the diagnostic work needed to give you a fixed quote — disassembly, ultrasonic cleaning, and board inspection under microscope. You then decide whether to proceed. If you do, the assessment fee is rolled into the repair cost. There are no surprise charges added later.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We carry out board-level repair on M1, M2, M3 and M4 MacBook Air and Pro models, including component-level replacement of damaged power management ICs, charging circuitry, and corroded passive components. Apple Silicon boards are denser and less forgiving than the older Intel designs, which makes early intervention even more important for Kyalami clients with newer machines.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageKyalamiPage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Kyalami and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 22 minutes away. Assessment from R599.
+              Liquid damage to a MacBook in Kyalami needs attention within hours, not days. We collect from Kyalami Estates, Kyalami Business Park and the broader Kyalami AH area, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly 25 minutes south via the M1. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageKyalamiPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              The Kyalami corridor brings us a particular mix of liquid damage cases. Equestrian estate residents with home offices, race-circuit hospitality staff, and the cluster of motorsport and engineering businesses around Kyalami Business Park all rely heavily on their MacBooks. We have seen coffee spills during weekend GP track events, water damage from estate pool areas, and the slow corrosion that follows a small spill someone tried to dry with a hairdryer two weeks earlier. The pattern is always the same — the longer corrosion sits on a logic board, the more aggressive the repair becomes. A unit brought to us within twenty-four hours of a spill has a substantially better prognosis than one switched on and used for a week afterwards.
             </p>
             <p>
-              For estate residents and business-park tenants in the Kyalami corridor, same-day collection from Kyalami Estates, Kyalami Business Park, and the N1 north corridor makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              Collection from Kyalami is straightforward for us. The run down the M1 or via Main Road and William Nicol takes us into the heart of Kyalami AH, the estates off R55 Kyalami Boulevard, and the office parks along Allandale Road. We have collected from law and accounting firms near the Kyalami Corner shopping centre during the working day and returned the repaired MacBook within the same week. Our process is the same regardless of where you are based: ultrasonic bath cleaning to lift residue from beneath shielding cans, microscopic inspection of the logic board, replacement of corroded components, and full functional testing before the machine goes back to you.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              Liquid damage is rarely a verdict — it is a diagnosis with options. We have brought MacBooks back from Kyalami that arrived a month after a wine spill, and we have also had to be honest with clients when a board is genuinely beyond economical repair. Either way, you receive a clear written assessment with a fixed quote before any chargeable work begins. If the repair is not viable, we can recover your data in most cases and advise on the best replacement path. For Kyalami clients who depend on their MacBook for race weekends, estate management, or running a small business from home, that clarity matters more than a vague promise.
             </p>
           </div>
         </div>

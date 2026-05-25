@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Melrose?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Melrose, which is approximately 8 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Melrose after liquid damage?',
-    answer: 'Yes. We collect from Melrose Arch, Melrose North, and surrounding corporate precinct. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Melrose?', answer: 'Immediately — the first two hours matter more than any other window. Melrose sits about seven minutes from our Hyde Park workshop via Athol Oaklands Road, so a call to 064 529 5863 typically results in collection within the hour during business times. Power the MacBook off, unplug any charger, do not press keys to test it, and leave it lid-open and angled downward until we arrive. Every hour the board sits with residue on it deepens the corrosion.' },
+  { question: 'Do you collect MacBooks from Melrose after liquid damage?', answer: 'Yes, free collection across Melrose Arch, Melrose North, Melrose Estate and Birdhaven. We regularly collect from the offices inside Melrose Arch itself, from medical and dental rooms around the precinct, and from homes off Glenhove and Corlett Drive. The short run back to Hyde Park means your machine is on a workbench and being stripped within twenty minutes of leaving you, which is exactly the speed liquid damage demands.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment from R599. That covers collection from Melrose, full teardown, ultrasonic cleaning of the logic board, and a microscope-level diagnostic report telling you exactly which components are corroded, what the repair will cost, and what the realistic prognosis is. If you choose to proceed with the repair the assessment fee is credited against the final quote. No surprises and no work done without your written approval.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and salty liquids are the worst — Coke, sweetened coffee, sports drinks, wine and seawater. The sugar and salt residue stays conductive long after the liquid has dried, which means corrosion continues silently inside the casing. Plain water is the most forgiving but still causes oxidation within hours. Around Melrose we see a lot of flat-white and cappuccino spills from the cafés along the High Street, and those milk-and-sugar combinations are particularly aggressive on logic board traces.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still boots after a spill is the most deceptive scenario we deal with. The residue is sitting on the board corroding traces and component legs every minute the machine remains assembled, and the failure typically arrives one to three weeks later — often as an intermittent keyboard, a dead trackpad, or a board that suddenly will not charge. Ultrasonic cleaning now, while the machine still functions, is dramatically cheaper than full board repair later.' },
+  { question: 'Will you be able to save my data?', answer: 'In the vast majority of cases, yes. Data recovery is treated as a separate priority from board repair — before we attempt any aggressive cleaning or component-level work, we image the SSD so your files are safe regardless of how the repair itself goes. For the Melrose practices and consultants we work with, this means patient records, case files, contracts and client correspondence come back even on machines that turn out to be uneconomical to repair at the board level.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The R599 assessment covers everything needed to give you an honest answer: collection from Melrose, full disassembly, ultrasonic cleaning, and a written diagnostic. You then decide whether to proceed. If you go ahead with the repair the R599 is credited against the final invoice, so in effect the assessment becomes free for clients who choose to repair. If the verdict is that the machine is not economically repairable, you have paid only R599 to know that with certainty.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes — M1, M2, M3 and M4 MacBooks are all repairable at component level in our Hyde Park workshop. Apple Silicon boards are more densely packed than the older Intel models, which makes microscope work essential, but the underlying repair principles are the same: clean off the residue, identify the corroded components, and replace them individually rather than swapping the entire logic board. Component-level repair on these machines typically lands at a fraction of Apple\'s whole-board replacement quote.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageMelrosePage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Melrose and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 8 minutes away. Assessment from R599.
+              Liquid damage in Melrose needs to be addressed within hours, not days. We collect from Melrose Arch, Melrose North, and Melrose Estate, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop — roughly a seven-minute drive down Athol Oaklands and Glenhove. Assessment from R599, with an honest verdict on what can realistically be saved.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageMelrosePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              The Melrose client base we deal with is a particular mix — medical and dental practices around Melrose Arch, boutique law and consulting firms tucked along Corlett Drive, and residential professionals in Melrose Estate and Birdhaven. The liquid damage pattern reflects that demographic: spilled flat whites from the cafés along the High Street, water bottles knocked over in consulting rooms, and a surprising number of pool-edge incidents in summer. What stays constant is the chemistry. The moment liquid touches a powered logic board you get electrolytic corrosion, and every hour that passes deepens the damage on the copper traces and component legs. Powering the machine back on to check if it still works is the single most common mistake — it almost always accelerates the failure.
             </p>
             <p>
-              For corporate professionals and residents in the Melrose Arch precinct, same-day collection from Melrose Arch, Melrose North, and surrounding corporate precinct makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              We have collected MacBooks from reception desks inside Melrose Arch during lunch hour and returned working machines to the same office before the end of the week. The workflow is built for that turnaround: collection within roughly an hour of your call, full disassembly on arrival, commercial ultrasonic bath to lift sugar, salt and chloride residue from beneath the chips, then board-level diagnostics under microscope. Where traces are lifted or components are corroded beyond cleaning, we replace at component level rather than swapping the whole logic board. For Melrose practices that bill by the hour, the data recovery side matters as much as the repair — we image the SSD before any aggressive work, so even on a write-off the patient notes, case files and client records come back.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              Honesty matters more than optimism on liquid damage. Some Melrose machines we have seen — particularly those left in a drawer for a fortnight before the owner admitted what happened — are genuinely unrecoverable at the board, and we will tell you that on day one rather than running up costs. The majority, though, come back. If your MacBook took a spill at the office on Corlett Drive or at home off Glenhove Road, call 064 529 5863 or message wa.me/27645295863 now. Power it down, do not attempt to charge it, and let us collect it the same day.
             </p>
           </div>
         </div>

@@ -26,38 +26,14 @@ const urgentSteps = [
 ];
 
 const faqs = [
-  {
-    question: 'How quickly should I contact you after liquid damage in Randpark Ridge?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Randpark Ridge, which is approximately 20 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
-  },
-  {
-    question: 'Do you collect MacBooks from Randpark Ridge after liquid damage?',
-    answer: 'Yes. We collect from Randpark Ridge, Radiokop, and the north-western residential estates. Contact us via WhatsApp and we will arrange the fastest possible collection.',
-  },
-  {
-    question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and a written quote. If the device is not economically repairable, we will tell you clearly. No further work proceeds without your approval.',
-  },
-  {
-    question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, bring the device in immediately.',
-  },
-  {
-    question: 'My MacBook got wet but still works. Should I bring it in?',
-    answer: 'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern is a MacBook that survived liquid exposure for weeks, then suddenly failed. Early intervention is dramatically cheaper and more successful.',
-  },
-  {
-    question: 'Will you be able to save my data?',
-    answer: 'In most cases, yes. The SSD is separate from the logic board and survives liquid damage in many cases. We assess data recoverability as part of our diagnostic. If the logic board cannot be repaired, we will advise on data recovery options.',
-  },
-  {
-    question: 'Is there a From R599 assessment policy for liquid damage?',
-    answer: 'Yes. If we cannot repair your MacBook after cleaning and diagnostics, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
-  },
-  {
-    question: 'Can you repair Apple Silicon MacBooks with liquid damage?',
-    answer: 'Yes. We repair M1, M2, and M3 MacBook Pro and MacBook Air models with liquid damage. Apple Silicon boards have different architecture to Intel boards but the cleaning and diagnostic process is the same.',
-  },
+  { question: 'How quickly should I contact you after liquid damage in Randpark Ridge?', answer: 'Immediately. Power the MacBook off, do not try to charge it, and call us on 064 529 5863. From Randpark Ridge we can usually have a courier collecting within two to three hours via Beyers Naudé Drive. Every hour that corrosion sits on the board makes the repair harder and more expensive, so even a same-day call beats waiting until the next morning.' },
+  { question: 'Do you collect MacBooks from Randpark Ridge after liquid damage?', answer: 'Yes. We collect from across Randpark Ridge, Radiokop, Boskruin, Northgate and Cresta, with the Hyde Park workshop roughly 20 minutes away depending on traffic on the N1 and Beyers Naudé. Liquid damage cases are prioritised on our collection list because the time pressure is real. WhatsApp wa.me/27645295863 with your address and we will confirm a window.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'From R599. That covers full disassembly, ultrasonic cleaning of the board where appropriate, microscope inspection and a written quote with the actual repair cost. If you go ahead with the repair it stays at R599 for the assessment portion. If you decide not to proceed the assessment fee still applies because the cleaning and diagnostic work has already been done.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'In order of severity from worst to least bad: salt water, sugary drinks (Coke, juice, wine), coffee and tea, and finally plain tap water. Sugar and salt are conductive and corrosive long after the liquid itself has dried, which is why a spilt cooldrink that seems fine on Monday can kill the board by Thursday. From Randpark Ridge homes we see coffee most often, followed by wine and pool water.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and stop using it now. A MacBook that still boots after a spill is the most common scenario we regret with clients, because corrosion on a live board accelerates dramatically. We have had Randpark Ridge clients whose machines worked fine for ten days then died, and by then the damage was three times what it would have cost on day one. Power it down and let us clean it properly.' },
+  { question: 'Will you be able to save my data?', answer: 'On Intel MacBooks the SSD is usually a separate module and we can almost always recover the data even if the logic board is dead. On M1, M2 and M3 MacBooks the storage is soldered to the board and tied to the Secure Enclave, so data recovery requires the board to be brought back to a working state. In Randpark Ridge cases without a recent Time Machine backup, we will tell you upfront how realistic recovery is before any work begins.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, our assessment fee starts from R599 for liquid damage cases. That includes collection from Randpark Ridge, full strip-down, ultrasonic cleaning where indicated, and a written diagnosis. More complex boards or extensive corrosion may require additional diagnostic time, which we will quote before doing — no surprise charges at the end.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair liquid damage on M1, M2 and M3 MacBook Air and Pro models at component level rather than swapping the whole board, which is what makes the repair economically viable. The challenge with Apple Silicon is the soldered storage, so saving the board is also the only path to saving the data. Bring it in early — Apple Silicon boards are less forgiving of delayed cleaning than the older Intel logic boards.' },
 ];
 
 const serviceSchema = {
@@ -103,7 +79,7 @@ export default function LiquidDamageRandparkRidgePage() {
               <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical. We collect from Randpark Ridge and carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, approximately 20 minutes away. Assessment from R599.
+              Liquid damage is time-critical, and Randpark Ridge sits roughly 20 minutes from our Hyde Park workshop via Beyers Naudé Drive and the N1, so we can usually collect within a couple of hours. We carry out ultrasonic board cleaning and component-level repair on site rather than swapping logic boards. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -158,13 +134,13 @@ export default function LiquidDamageRandparkRidgePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              We have seen every type of liquid damage in our Hyde Park workshop — coffee, water, wine, condensation from load-shedding humidity changes. The consistent finding is that time is the most critical variable. Liquid on a logic board causes two types of damage: the initial short-circuit when the machine was powered, and the ongoing corrosion that continues for days or weeks after the incident.
+              Randpark Ridge clients bring us a particular mix of liquid damage cases — coffee spills from work-from-home setups around the Randpark Golf Club estates, water damage from poolside use during summer, and the odd glass of wine knocked over during weekend entertaining. The pattern we see consistently is that the first 24 hours decide most outcomes. When liquid bridges traces on a logic board, two things happen in sequence: an initial short can take out power-management ICs or the SMC, and then corrosion begins quietly eating pads and vias for days or weeks afterwards. Powering the machine on to check if it still works is the single most common reason a repairable board becomes a write-off.
             </p>
             <p>
-              For Randpark Ridge, Radiokop, and Witkoppen corridor residents, same-day collection from Randpark Ridge, Radiokop, and the north-western residential estates makes a measurable difference to the success rate. We use a commercial ultrasonic bath to remove all residue and contaminants from the board, followed by a full board-level diagnostic to identify any components that were damaged by the exposure.
+              Because Randpark Ridge, Radiokop, Boskruin and the Northgate side of Beyers Naudé all sit on the same collection route, we can usually have a courier with you the same morning you call. We bring the MacBook back to Hyde Park, strip it down, and run the board through a commercial ultrasonic bath with the correct solvent — this is what actually removes sugar, salt and mineral residue from under chips where isopropyl wipes cannot reach. From there it goes onto the microscope bench for any trace repair, pad rebuilds or component-level replacement. We have done this for residents off Pendoring Road, small businesses in the Northgate area, and families closer to Cresta who needed data off a machine before deciding on the repair itself.
             </p>
             <p>
-              Not every liquid-damaged MacBook can be saved, but the majority can. We have repaired MacBooks that arrived weeks after the incident and still had the board restore to full function. The honest assessment you receive after our diagnostic will tell you exactly what is repairable and at what cost, with to proceed.
+              Most liquid-damaged MacBooks coming out of Randpark Ridge are recoverable, even ones that arrived a week or two after the spill. The MacBooks we cannot save are almost always the ones that were repeatedly powered on, or where someone tried rice or a hairdryer first. After the diagnostic you will get a clear written breakdown — what is damaged, what it costs to repair, and whether data recovery is realistic if the board itself is beyond economical repair. If you decide not to proceed, the R599 still covers the work done.
             </p>
           </div>
         </div>
