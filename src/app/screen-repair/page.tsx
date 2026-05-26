@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 import { Phone, ArrowRight, Monitor, AlertTriangle, CheckCircle, Shield, Clock, Star, Zap, Eye } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
-import GoogleReviews from '@/components/ui/GoogleReviews';
+import { GoogleReviews } from '@/components/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
@@ -614,7 +614,7 @@ export default function ScreenRepairPage() {
         <section className="py-16 bg-[#111C1A]">
           <div className="max-w-5xl mx-auto px-4">
             <Suspense fallback={<div className="h-40" />}>
-              <GoogleReviews />
+              <GoogleReviews count={6} />
             </Suspense>
           </div>
         </section>

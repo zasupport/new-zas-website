@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 import OrphanLinks from '@/components/ui/OrphanLinks';
+import { GoogleReviews } from '@/components/GoogleReviews';
 
 const orphanMacbookRepairLinks = [
   { title: 'Data recovery', href: '/macbook-repair/data-recovery', description: 'Recover documents, photos and projects from a failed Mac drive' },
@@ -370,6 +371,9 @@ export default function MacBookRepairPage() {
           <FAQAccordion items={faqs} title="MacBook Repair, FAQs" />
         </div>
       </section>
+
+      {/* Google Reviews — sourced from GBP */}
+      <GoogleReviews count={6} />
 
       {/* CTA */}
       <section className="py-8 sm:py-16 bg-[#0A1A18]">

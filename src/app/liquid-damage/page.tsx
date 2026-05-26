@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { Phone, AlertTriangle, CheckCircle, Clock, Shield, ArrowRight } from 'lucide-react';
-import GoogleReviews from '@/components/ui/GoogleReviews';
+import { GoogleReviews } from '@/components/GoogleReviews';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
@@ -228,7 +228,7 @@ export default function LiquidDamagePage() {
             <p className="text-[#7A9E98] mt-2">16 years of Apple expertise. Johannesburg&apos;s most reviewed Apple specialist.</p>
           </div>
           <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
-            <GoogleReviews maxReviews={4} />
+            <GoogleReviews count={6} />
           </Suspense>
         </div>
       </section>

@@ -10,6 +10,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import OrphanLinks from '@/components/ui/OrphanLinks';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
+import { GoogleReviews } from '@/components/GoogleReviews';
 
 export const metadata: Metadata = {
   title: 'Apple IT Support for Business Johannesburg | Managed Services | ZA Support',
@@ -218,6 +219,9 @@ export default function BusinessHubPage() {
           },
         ]}
       />
+
+      {/* ── Google Reviews — sourced from GBP ─────────────────────────────── */}
+      <GoogleReviews count={6} title="What our business clients say" />
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <section className="py-16 bg-[#0F2522]">
