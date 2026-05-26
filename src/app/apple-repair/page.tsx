@@ -561,6 +561,33 @@ export default function AppleRepairPage() {
           </div>
         </div>
       </section>
+
+      {/* §402a 26/05/2026: specialist Mac services — internal-link injection
+          for sub-pages previously orphaned behind /macbook-repair → /apple-repair 308 */}
+      <section className="bg-[#0F1F1D] py-16">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-[#E8F4F1] mb-2">Specialist Mac services</h2>
+          <p className="text-[#7A9E98] mb-8">Beyond standard repair — deeper interventions our Hyde Park workshop handles in-house.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <Link href="/macbook-repair/data-recovery" className="block p-5 rounded-xl border border-[#27504D]/40 bg-[#0A1A18] hover:border-[#0FEA7A]/40 transition-colors">
+              <h3 className="text-[#E8F4F1] font-semibold mb-2">Data recovery</h3>
+              <p className="text-[#7A9E98] text-sm">Recover documents, photos and projects from a failed Mac drive.</p>
+            </Link>
+            <Link href="/macbook-repair/ram-upgrade" className="block p-5 rounded-xl border border-[#27504D]/40 bg-[#0A1A18] hover:border-[#0FEA7A]/40 transition-colors">
+              <h3 className="text-[#E8F4F1] font-semibold mb-2">RAM upgrade</h3>
+              <p className="text-[#7A9E98] text-sm">RAM upgrade options and what is actually possible per MacBook model.</p>
+            </Link>
+            <Link href="/macbook-repair/ssd-upgrade" className="block p-5 rounded-xl border border-[#27504D]/40 bg-[#0A1A18] hover:border-[#0FEA7A]/40 transition-colors">
+              <h3 className="text-[#E8F4F1] font-semibold mb-2">SSD upgrade</h3>
+              <p className="text-[#7A9E98] text-sm">SSD upgrade options and what is possible per MacBook model.</p>
+            </Link>
+            <Link href="/macbook-repair/virus-removal" className="block p-5 rounded-xl border border-[#27504D]/40 bg-[#0A1A18] hover:border-[#0FEA7A]/40 transition-colors">
+              <h3 className="text-[#E8F4F1] font-semibold mb-2">Virus &amp; malware removal</h3>
+              <p className="text-[#7A9E98] text-sm">Mac malware and adware diagnosis, removal and prevention.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

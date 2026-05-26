@@ -17,6 +17,7 @@ const serviceLinks = [
 
 const infoLinks = [
   { label: 'About ZA Support', href: '/about' },
+  { label: 'Meet Mary — Client Communications', href: '/author/mary' },
   { label: 'Services & Pricing', href: '/services' },
   { label: 'Contact Us', href: '/contact' },
   { label: 'Blog', href: '/blog' },
