@@ -7,7 +7,9 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 import OrphanLinks from '@/components/ui/OrphanLinks';
-import { GoogleReviews } from '@/components/GoogleReviews';
+// NOTE: GoogleReviews wired on /apple-repair instead — /macbook-repair is 308-redirected
+// to /apple-repair via next.config.ts so this page never renders. Dead-code import removed
+// 26/05/2026 per Option A short-circuit fix.
 
 const orphanMacbookRepairLinks = [
   { title: 'Data recovery', href: '/macbook-repair/data-recovery', description: 'Recover documents, photos and projects from a failed Mac drive' },
@@ -372,8 +374,7 @@ export default function MacBookRepairPage() {
         </div>
       </section>
 
-      {/* Google Reviews — sourced from GBP */}
-      <GoogleReviews count={6} />
+      {/* GoogleReviews removed — see import-block note: /macbook-repair 308→/apple-repair */}
 
       {/* CTA */}
       <section className="py-8 sm:py-16 bg-[#0A1A18]">

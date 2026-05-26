@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Suspense } from 'react';
-import GoogleReviews from '@/components/ui/GoogleReviews';
+import { GoogleReviews } from '@/components/GoogleReviews';
 import {
   Phone,
   ArrowRight,
@@ -297,18 +296,8 @@ export default function AppleRepairPage() {
       </section>
 
       {/* Google Reviews */}
-      <section className="py-12 sm:py-16 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <p className="text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider mb-2">Verified Reviews</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]">4.9★ — Over 600 Google Reviews</h2>
-            <p className="text-[#7A9E98] mt-2">16 years of Apple expertise. Johannesburg&apos;s most reviewed Apple specialist.</p>
-          </div>
-          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
-            <GoogleReviews maxReviews={4} />
-          </Suspense>
-        </div>
-      </section>
+      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      <GoogleReviews count={6} />
 
       {/* ── TRUST BAR ── */}
       <section className="py-6 bg-[#111C1A] border-y border-[rgba(15,234,122,0.1)]">

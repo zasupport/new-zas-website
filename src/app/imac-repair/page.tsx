@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import { GoogleReviews } from '@/components/GoogleReviews';
 
 export const metadata: Metadata = {
   title: 'iMac Repair Johannesburg | Screen, RAM, SSD, Logic Board | ZA Support',
@@ -330,6 +331,9 @@ export default function IMacRepairPage() {
           <FAQAccordion items={faqs} />
         </div>
       </section>
+
+      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      <GoogleReviews count={6} />
 
       {/* CTA */}
       <section className="py-16 px-4 bg-slate-900 text-white">

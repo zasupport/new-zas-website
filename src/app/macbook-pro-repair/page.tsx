@@ -6,6 +6,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import { GoogleReviews } from '@/components/GoogleReviews';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
@@ -395,6 +396,9 @@ export default function MacBookProRepairPage() {
           <FAQAccordion items={faqs} title="MacBook Pro Repair, FAQs" />
         </div>
       </section>
+
+      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      <GoogleReviews count={6} />
 
       {/* CTA */}
       <section className="py-16 bg-[#111C1A]">

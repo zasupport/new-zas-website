@@ -6,6 +6,7 @@ import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 import OrphanLinks from '@/components/ui/OrphanLinks';
+import { GoogleReviews } from '@/components/GoogleReviews';
 
 const orphanAppleSupportLinks = [
   { title: 'Apple support for medical practices', href: '/apple-support/medical-practices', description: 'POPIA-aware, HPCSA-context Apple IT support tailored to doctors and practices' },
@@ -210,6 +211,9 @@ export default function AppleSupportPage() {
           <FAQAccordion items={faqs} title="Apple Support &mdash; Common Questions" />
         </div>
       </section>
+
+      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      <GoogleReviews count={6} />
 
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
