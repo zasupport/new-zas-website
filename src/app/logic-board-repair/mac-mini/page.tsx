@@ -116,26 +116,6 @@ const models = [
   { model: 'Mac mini M4 / M4 Pro (2024)', chip: 'Apple M4 / M4 Pro', notes: 'Diagnostic assessment required' },
 ];
 
-const reviews = [
-  {
-    name: 'Mark T.',
-    suburb: 'Sandton',
-    text: 'Mac mini M1 completely dead after a power surge. ZA Support diagnosed a blown power IC the same day and fixed it in two days. Saved me a significant amount on a new machine. up-to-3 year warranty in writing, that is what sealed it for me.',
-    rating: 5,
-  },
-  {
-    name: 'Lisa R.',
-    suburb: 'Fourways',
-    text: 'No HDMI output on my Mac mini M2, nothing on any display or cable. ZA Support identified the HDMI controller IC and replaced it. Back working within 48 hours. Very professional, no upselling.',
-    rating: 5,
-  },
-  {
-    name: 'James K.',
-    suburb: 'Midrand',
-    text: 'Mac mini 2018 Intel with all USB-C ports dead. I was quoted a full board replacement elsewhere. ZA Support fixed the Thunderbolt controller for a fraction of that price. These are the real Apple specialists in Joburg.',
-    rating: 5,
-  },
-];
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -453,28 +433,7 @@ export default function MacMiniLogicBoardPage() {
         </div>
       </section>
 
-      {/* Customer reviews */}
-      <section className="py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">
-            Mac mini Repair Reviews, Johannesburg
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div key={r.name} className="glass-card p-6">
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: r.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
-                <p className="text-[#E8F4F1] font-semibold text-sm">{r.name}</p>
-                <p className="text-[#7A9E98] text-xs">{r.suburb}, Johannesburg</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">

@@ -130,29 +130,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Lindi S.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Cracked camera lens on my iPhone 15 Pro was ruining every photo. ZA Support replaced the glass cover in under an hour. Camera quality is back to perfect, and my face ID still works.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Brendan H.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Front camera was completely black after a drop. ZA Support replaced the module in 90 minutes, Face ID still works, selfie camera is perfect. Brilliant service.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Ayesha M.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'iPhone 16 Pro rear camera showed green tint after a drop. Full camera system replaced, all three lenses working, ProRes video confirmed. up-to-3 year warranty. Very happy.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = buildServiceSchema({
@@ -299,68 +276,7 @@ export default function iPhoneCameraPage() {
         </div>
       </section>
 
-      {/* ── Why Choose ZA Support ─────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                Why Johannesburg iPhone Owners Choose ZA Support for Camera Repair
-              </h2>
-              <div className="space-y-5">
-                {[
-                  {
-                    icon: <Shield className="w-5 h-5" />,
-                    title: 'Up-to-3 Year Warranty',
-                    desc: 'Every camera repair carries a warranty on the replacement module and labour. If blurring or faults return within the warranty period, we fix it, from R599.',
-                  },
-                  {
-                    icon: <Clock className="w-5 h-5" />,
-                    title: 'Fast Turnaround',
-                    desc: 'Most camera repairs complete in 60–90 minutes. Lens cover replacements take under an hour. We confirm availability when you contact us.',
-                  },
-                  {
-                    icon: <Wrench className="w-5 h-5" />,
-                    title: 'All Lenses Tested Post-Repair',
-                    desc: 'After every camera repair we test all lenses, flash, OIS, video modes including ProRes and Cinematic, and the front camera before you collect.',
-                  },
-                  {
-                    icon: <CheckCircle className="w-5 h-5" />,
-                    title: 'Face ID Always Preserved',
-                    desc: 'We separate the Face ID TrueDepth sensor from the selfie camera during front camera replacement. Face ID, Memoji, and Attention Awareness are unaffected.',
-                  },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center text-[#0FEA7A] flex-shrink-0">
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="space-y-4">
-              {reviews.map((r) => (
-                <div key={r.name} className="glass-card p-6 border-l-2 border-[#0FEA7A]">
-                  <p className="text-[#7A9E98] text-sm italic mb-3">&ldquo;{r.text}&rdquo;</p>
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-0.5">
-                      {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
-                    </div>
-                    <span className="text-[#E8F4F1] text-xs font-semibold">{r.name}</span>
-                    <span className="text-[#7A9E98] text-xs">— {r.suburb}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

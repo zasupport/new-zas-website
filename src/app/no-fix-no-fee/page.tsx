@@ -118,26 +118,6 @@ const faqs = [
   },
 ];
 
-const testimonials = [
-  {
-    suburb: 'Sandton',
-    name: 'Priya N.',
-    text: 'My MacBook Pro died completely, no power at all. ZA Support diagnosed it, gave me a clear written quote, and had it back to me in three days. The assessment fee was included in the repair cost. Completely transparent.',
-    stars: 5,
-  },
-  {
-    suburb: 'Rosebank',
-    name: 'Michael T.',
-    text: 'After my MacBook Air got water damage I went to ZA Support. They assessed it, explained exactly what was damaged, and quoted me a fixed price. Once I approved, the assessment was part of the total cost. Honest, professional service.',
-    stars: 5,
-  },
-  {
-    suburb: 'Midrand',
-    name: 'Siphiwe M.',
-    text: 'The screen on my MacBook Pro cracked. ZA Support quoted me a fixed price after a thorough assessment and stuck to it exactly. The repair took two days. I will not go anywhere else for Mac repairs in Johannesburg.',
-    stars: 5,
-  },
-];
 
 const breadcrumbItems = [
   { label: 'Assessment Process', href: '/no-fix-no-fee' },
@@ -436,45 +416,7 @@ export default function AssessmentProcessPage() {
           </div>
         </section>
 
-        {/* Testimonials */}
-        <section className="py-12 sm:py-16 px-4" style={{ background: 'rgba(255,255,255,0.015)' }}>
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#E8F4F1' }}>
-                What Johannesburg Mac Owners Say
-              </h2>
-              <div className="flex items-center justify-center gap-2 mb-2">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5" style={{ color: '#0FEA7A', fill: '#0FEA7A' }} />
-                ))}
-                <span className="ml-2 font-semibold" style={{ color: '#E8F4F1' }}>4.9 / 5</span>
-              </div>
-              <p className="text-sm" style={{ color: '#7A9E98' }}>Based on 632 verified reviews</p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {testimonials.map(({ suburb, name, text, stars }) => (
-                <div
-                  key={name}
-                  className="rounded-2xl p-6"
-                  style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.08)' }}
-                >
-                  <div className="flex items-center gap-1 mb-3">
-                    {[...Array(stars)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4" style={{ color: '#0FEA7A', fill: '#0FEA7A' }} />
-                    ))}
-                  </div>
-                  <p className="text-sm leading-relaxed mb-4" style={{ color: '#7A9E98' }}>&ldquo;{text}&rdquo;</p>
-                  <div className="flex items-center gap-2" style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '12px' }}>
-                    <MapPin className="w-3.5 h-3.5" style={{ color: '#0FEA7A' }} />
-                    <span className="text-xs font-medium" style={{ color: '#E8F4F1' }}>{name}</span>
-                    <span className="text-xs" style={{ color: '#7A9E98' }}>&mdash; {suburb}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
         {/* FAQ */}
         <section className="py-12 sm:py-16 px-4">

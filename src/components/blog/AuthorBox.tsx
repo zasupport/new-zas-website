@@ -34,8 +34,8 @@ const authors: Record<string, AuthorProps> = {
   'mary-blount': {
     slug: 'mary-blount',
     name: 'Mary Blount',
-    role: 'Client Relations & Apple Support Specialist',
-    bio: 'Manages client communications and Apple device diagnostics at ZA Support. Trained in macOS troubleshooting, data recovery workflows, and POPIA-compliant device handling. Works directly with clients from initial assessment through to repair completion at the Hyde Park workshop.',
+    role: 'Client Communications & Operations Lead',
+    bio: 'Mary handles client communications, repair bookings, and follow-up correspondence at ZA Support. She receives all enquiries from zasupport.com. All technical articles are authored by Courtney Bentley.',
     image: '/authors/mary-blount-portrait.webp',
     linkedin: undefined,
     tiktok: 'https://www.tiktok.com/@appleexpertza',

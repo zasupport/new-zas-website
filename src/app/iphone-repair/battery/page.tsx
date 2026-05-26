@@ -132,29 +132,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Kevin M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'iPhone 14 Pro was shutting off at 30%. New battery from ZA Support and it lasts all day again. Under an hour, up-to-3 year warranty. Brilliant service.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Sarah P.',
-    suburb: 'Bryanston',
-    rating: 5,
-    text: 'Battery health was at 74% and my iPhone 15 was crawling. ZA Support replaced the battery same day, it is back to full speed. Very professional.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Deshlan N.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Swollen battery was pushing my screen out. ZA Support replaced it immediately, explained the safety risk clearly, and even checked the screen for damage. Excellent.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = buildServiceSchema({
@@ -301,68 +278,7 @@ export default function iPhoneBatteryPage() {
         </div>
       </section>
 
-      {/* ── Why Choose ZA Support ─────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                Why Choose ZA Support for iPhone Battery Replacement
-              </h2>
-              <div className="space-y-5">
-                {[
-                  {
-                    icon: <Shield className="w-5 h-5" />,
-                    title: 'Up-to-3 Year Warranty',
-                    desc: 'Every battery replacement carries a warranty on the battery and labour. If it fails or drains unusually fast, we replace it, from R599.',
-                  },
-                  {
-                    icon: <Clock className="w-5 h-5" />,
-                    title: 'Same-Day When in Stock',
-                    desc: 'We stock batteries for the most common iPhone models. Most battery replacements are complete within the hour. Call or WhatsApp to confirm stock.',
-                  },
-                  {
-                    icon: <Wrench className="w-5 h-5" />,
-                    title: 'Data Always Safe',
-                    desc: 'Battery replacement does not require your passcode and does not affect your data. We never access, copy, or view your personal data.',
-                  },
-                  {
-                    icon: <CheckCircle className="w-5 h-5" />,
-                    title: 'Swollen Battery Specialists',
-                    desc: 'We handle swollen batteries safely and promptly. If your screen is lifting or there is a visible bulge, bring it in immediately, we treat it as a priority.',
-                  },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center text-[#0FEA7A] flex-shrink-0">
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="space-y-4">
-              {reviews.map((r) => (
-                <div key={r.name} className="glass-card p-6 border-l-2 border-[#0FEA7A]">
-                  <p className="text-[#7A9E98] text-sm italic mb-3">&ldquo;{r.text}&rdquo;</p>
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-0.5">
-                      {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
-                    </div>
-                    <span className="text-[#E8F4F1] text-xs font-semibold">{r.name}</span>
-                    <span className="text-[#7A9E98] text-xs">— {r.suburb}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

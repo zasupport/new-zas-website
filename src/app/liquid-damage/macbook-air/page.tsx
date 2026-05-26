@@ -195,29 +195,6 @@ const repairProcess = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Simone K.',
-    location: 'Sandton',
-    rating: 5,
-    text: 'My M2 MacBook Air took a full glass of juice. I panicked but brought it straight in. ZA Support had it assessed within hours and repaired in 2 days, works perfectly. The up-to-3 year warranty gives me peace of mind. Cannot recommend them enough.',
-    service: 'MacBook Air Liquid Damage Repair',
-  },
-  {
-    name: 'David L.',
-    location: 'Fourways',
-    rating: 5,
-    text: 'Left my MacBook Air in rice for a day before a friend told me to stop. ZA Support still managed to clean and recover the board. They were upfront about the delay making things harder, but the result was brilliant. Honest, skilled people.',
-    service: 'MacBook Air Logic Board Liquid Damage',
-  },
-  {
-    name: 'Priya N.',
-    location: 'Bryanston',
-    rating: 5,
-    text: 'Coffee spill on my M1 Air, screen went dark and it would not charge. ZA Support diagnosed a corroded USB-C board and minor logic board damage. Repaired in 48 hours with a written up-to-3 year warranty. Professional service, fair pricing.',
-    service: 'MacBook Air Liquid Damage, USB-C & Board',
-  },
-];
 
 const aggregateRatingSchema = {
   '@context': 'https://schema.org',
@@ -644,36 +621,7 @@ export default function MacBookAirLiquidDamagePage() {
         </div>
       </section>
 
-      {/* Reviews */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl font-extrabold text-[#E8F4F1] mb-10"
-           
-          >
-            What Clients Say
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((review) => (
-              <div key={review.name} className="glass-card p-6 flex flex-col gap-4">
-                <div className="flex gap-0.5">
-                  {Array.from({ length: review.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{review.text}&rdquo;</p>
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
-                  <div className="flex items-center gap-1 mt-0.5">
-                    <MapPin className="w-3 h-3 text-[#7A9E98]" />
-                    <p className="text-[#7A9E98] text-xs">{review.location}, {review.service}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">

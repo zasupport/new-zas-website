@@ -125,29 +125,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Brendan H.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'iPad Air was dying at 40% every time. ZA Support replaced the battery same day and it now runs easily through a full day. Brilliant.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Nadia K.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Noticed my iPad mini back was slightly raised, ZA Support confirmed a swollen battery and replaced it within two hours. Safe again and charges perfectly.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Gareth S.',
-    suburb: 'Bryanston',
-    rating: 5,
-    text: 'iPad Pro 11" was shutting off randomly at 60%. Fixed in two hours, up-to-3 year warranty. Should have done this months ago.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = buildServiceSchema({
@@ -294,68 +271,7 @@ export default function iPadBatteryPage() {
         </div>
       </section>
 
-      {/* ── Why ZA Support ───────────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                Why Replace Your iPad Battery at ZA Support?
-              </h2>
-              <div className="space-y-5">
-                {[
-                  {
-                    icon: <Shield className="w-5 h-5" />,
-                    title: 'Up-to-3 Year Warranty',
-                    desc: 'Every battery replacement includes a warranty on the replacement cell and labour. Unexpected capacity loss or faults are covered from R599.',
-                  },
-                  {
-                    icon: <Clock className="w-5 h-5" />,
-                    title: 'Same-Day When in Stock',
-                    desc: 'We stock batteries for the most common iPad models. Same-day repair is available when your battery is in stock, confirmed when you bring it in.',
-                  },
-                  {
-                    icon: <Wrench className="w-5 h-5" />,
-                    title: 'Battery Health Test Included',
-                    desc: 'We test your iPad battery health before quoting. If the battery is fine and the fault is elsewhere, we diagnose that too, no unnecessary replacements.',
-                  },
-                  {
-                    icon: <CheckCircle className="w-5 h-5" />,
-                    title: 'OEM-Grade Replacement Cells',
-                    desc: 'We do not use cheap no-name batteries. Our replacement cells meet Apple capacity and cycle specifications and are tested before installation.',
-                  },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center text-[#0FEA7A] flex-shrink-0">
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="space-y-4">
-              {reviews.map((r) => (
-                <div key={r.name} className="glass-card p-6 border-l-2 border-[#0FEA7A]">
-                  <p className="text-[#7A9E98] text-sm italic mb-3">&ldquo;{r.text}&rdquo;</p>
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-0.5">
-                      {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
-                    </div>
-                    <span className="text-[#E8F4F1] text-xs font-semibold">{r.name}</span>
-                    <span className="text-[#7A9E98] text-xs">— {r.suburb}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

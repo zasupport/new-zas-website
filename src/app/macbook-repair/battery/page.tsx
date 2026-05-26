@@ -191,26 +191,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Tarryn M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'My MacBook Pro was shutting off at 35% battery. ZA Support replaced it the same afternoon. They showed me the new battery health reading, 100%, before I left. The warranty was a big plus. Would not go anywhere else.',
-  },
-  {
-    name: 'Jonathan K.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'The trackpad on my MacBook Air had been feeling strange for weeks. Turns out the battery had swollen. They treated it as urgent and had it done within 3 hours. Very professional, clear pricing, no surprises.',
-  },
-  {
-    name: 'Priya N.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Checked my battery health on coconutBattery after a friend mentioned it, 61% capacity and 890 cycles. Called ZA Support, dropped it off that morning, collected the same afternoon with 100% health. Incredibly fast and reasonably priced.',
-  },
-];
 
 const faqSchema = buildFaqSchema(faqs);
 
@@ -488,40 +468,7 @@ export default function MacBookBatteryPage() {
         </div>
       </section>
 
-      {/* ── Reviews ──────────────────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
-            What Clients Say
-          </h2>
-          <p className="text-[#7A9E98] text-center mb-12">
-            Rated 4.9 / 5 from 632 reviews across Johannesburg
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div key={r.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
-                <div className="flex gap-1">
-                  {Array.from({ length: r.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
-                <div className="flex items-center gap-2 pt-2 border-t border-[rgba(255,255,255,0.05)]">
-                  <div className="w-8 h-8 rounded-full bg-[rgba(15,234,122,0.15)] flex items-center justify-center text-[#0FEA7A] font-bold text-sm">
-                    {r.name[0]}
-                  </div>
-                  <div>
-                    <p className="text-[#E8F4F1] text-sm font-semibold">{r.name}</p>
-                    <div className="flex items-center gap-1 text-[#7A9E98] text-xs">
-                      <MapPin className="w-3 h-3" /> {r.suburb}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── FAQ ──────────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

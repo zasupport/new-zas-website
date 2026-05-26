@@ -128,29 +128,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Thabo M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'iPad Air refused to charge. ZA Support cleaned the port in 20 minutes, charges perfectly now. Should have brought it in sooner.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Karen W.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Bent pins in the Lightning port after a drop. ZA Support replaced the port same day. up-to-3 year warranty. Excellent service.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Pieter V.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'iPad Pro USB-C port had water damage. Fixed in two days, full board assessment, port replacement, cleaned, tested. Professional from start to finish.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = buildServiceSchema({
@@ -300,68 +277,7 @@ export default function iPadChargingPage() {
         </div>
       </section>
 
-      {/* ── Why ZA Support ───────────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                Why Bring Your iPad to ZA Support?
-              </h2>
-              <div className="space-y-5">
-                {[
-                  {
-                    icon: <Shield className="w-5 h-5" />,
-                    title: 'Up-to-3 Year Warranty',
-                    desc: 'Every charging repair includes a written up-to-3 year warranty. If the fault returns within the warranty period, we fix it at from R599.',
-                  },
-                  {
-                    icon: <Wrench className="w-5 h-5" />,
-                    title: 'Diagnose First, Always',
-                    desc: 'We identify the root cause before recommending any repair. Most charging faults are a simple port clean, we will not upsell you to a port replacement you do not need.',
-                  },
-                  {
-                    icon: <Clock className="w-5 h-5" />,
-                    title: 'Same-Day for Most Faults',
-                    desc: 'Port cleans are done during your visit. Physical port replacements typically take 1–3 hours. We confirm turnaround before starting.',
-                  },
-                  {
-                    icon: <CheckCircle className="w-5 h-5" />,
-                    title: 'Assessment: from R599',
-                    desc: 'Assessment: from R599. We diagnose the root cause before any repair work begins. Written quote provided before we start.',
-                  },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center text-[#0FEA7A] flex-shrink-0">
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="space-y-4">
-              {reviews.map((r) => (
-                <div key={r.name} className="glass-card p-6 border-l-2 border-[#0FEA7A]">
-                  <p className="text-[#7A9E98] text-sm italic mb-3">&ldquo;{r.text}&rdquo;</p>
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-0.5">
-                      {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
-                    </div>
-                    <span className="text-[#E8F4F1] text-xs font-semibold">{r.name}</span>
-                    <span className="text-[#7A9E98] text-xs">— {r.suburb}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

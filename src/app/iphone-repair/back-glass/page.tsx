@@ -132,29 +132,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Gareth L.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'iPhone 15 Pro back glass shattered after a drop. ZA Support replaced it perfectly, titanium chassis looks flawless, MagSafe snaps perfectly, up-to-3 year warranty. Fast and professional.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Preethi N.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Cracked back glass on my iPhone 14 Pro was cutting my hand. ZA Support replaced it in under two hours. Wireless charging works perfectly and the colour match is exact.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Sipho M.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Back glass was shattered for months, finally got it fixed before trading in. ZA Support repaired it same day and the trade-in value was significantly higher than with the cracked glass.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = buildServiceSchema({
@@ -300,68 +277,7 @@ export default function iPhoneBackGlassPage() {
         </div>
       </section>
 
-      {/* ── Why Choose ZA Support ─────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                Why Choose ZA Support for iPhone Back Glass Repair
-              </h2>
-              <div className="space-y-5">
-                {[
-                  {
-                    icon: <Shield className="w-5 h-5" />,
-                    title: 'Up-to-3 Year Warranty',
-                    desc: 'Every back glass repair carries a warranty on the replacement glass and labour. If it delaminates or fails, we fix it, from R599.',
-                  },
-                  {
-                    icon: <Clock className="w-5 h-5" />,
-                    title: '90-Minute Turnaround',
-                    desc: 'Most back glass repairs are complete within 90–120 minutes. We confirm stock and turnaround time when you contact us.',
-                  },
-                  {
-                    icon: <Wrench className="w-5 h-5" />,
-                    title: 'MagSafe and IP68 Restored',
-                    desc: 'We test MagSafe alignment and Qi wireless charging after every repair. We re-seal the chassis to restore IP68-class resistance.',
-                  },
-                  {
-                    icon: <CheckCircle className="w-5 h-5" />,
-                    title: 'OEM-Quality Glass',
-                    desc: 'We use high-quality replacement glass with the same colour tolerance and finish as the original. Colour-matched for most popular iPhone colour options.',
-                  },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center text-[#0FEA7A] flex-shrink-0">
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="space-y-4">
-              {reviews.map((r) => (
-                <div key={r.name} className="glass-card p-6 border-l-2 border-[#0FEA7A]">
-                  <p className="text-[#7A9E98] text-sm italic mb-3">&ldquo;{r.text}&rdquo;</p>
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-0.5">
-                      {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
-                    </div>
-                    <span className="text-[#E8F4F1] text-xs font-semibold">{r.name}</span>
-                    <span className="text-[#7A9E98] text-xs">— {r.suburb}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

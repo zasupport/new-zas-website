@@ -172,26 +172,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Taryn M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Brought my MacBook Pro in after the USB-C port stopped charging. ZA Support cleaned it out in 30 minutes, turned out to be compacted lint. I expected a big repair bill and walked out paying very little. Completely honest.',
-  },
-  {
-    name: 'David K.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'My MacBook Air MagSafe port had bent pins from a knock. They replaced the DC-in board same-day. Back to full charge. Really professional, they showed me exactly what was wrong before starting.',
-  },
-  {
-    name: 'Priya N.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Thought I needed a new logic board as my Mac wouldn\'t charge at all. ZA Support diagnosed it as the CD3217B12 charge IC and fixed just that component. Saved me a significant amount versus Apple\'s quote.',
-  },
-];
 
 // ─── Schema ──────────────────────────────────────────────────────────────────
 
@@ -484,53 +464,7 @@ export default function MacBookChargingPortPage() {
         </div>
       </section>
 
-      {/* ── Reviews ── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-2 mb-3">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 text-[#0FEA7A] fill-[#0FEA7A]" />
-              ))}
-              <span className="text-[#E8F4F1] font-bold ml-2">4.9 / 5</span>
-              <span className="text-[#7A9E98] text-sm ml-1">(632 reviews)</span>
-            </div>
-            <h2
-              className="text-3xl font-extrabold text-[#E8F4F1]"
-             
-            >
-              What Johannesburg Mac Owners Say
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div
-                key={r.name}
-                className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6"
-              >
-                <div className="flex items-center gap-1 mb-4">
-                  {[...Array(r.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 text-[#0FEA7A] fill-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-full bg-[rgba(15,234,122,0.1)] flex items-center justify-center">
-                    <span className="text-[#0FEA7A] font-bold text-sm">{r.name[0]}</span>
-                  </div>
-                  <div>
-                    <p className="text-[#E8F4F1] font-semibold text-sm">{r.name}</p>
-                    <div className="flex items-center gap-1">
-                      <MapPin className="w-3 h-3 text-[#7A9E98]" />
-                      <p className="text-[#7A9E98] text-xs">{r.suburb}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── FAQs ── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

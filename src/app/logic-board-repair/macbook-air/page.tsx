@@ -100,12 +100,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  { name: 'Sarah M.', location: 'Sandton', rating: 5, text: 'Best Apple repair experience I\'ve had in Johannesburg. The team clearly knows their stuff, they diagnosed a logic board issue other shops had missed.', service: 'Logic Board Repair' },
-  { name: 'Priya S.', location: 'Morningside', rating: 5, text: 'My MacBook Air M2 was completely dead after a coffee spill. ZA Support diagnosed it the same day, gave me a clear quote, and had it running again within 3 days. Incredible service.', service: 'Liquid Damage Repair' },
-  { name: 'James T.', location: 'Rosebank', rating: 5, text: 'No charging on either USB-C port. Dropped it off on Tuesday, collected on Thursday, works perfectly. They explained exactly what was wrong and why. Highly recommend.', service: 'USB-C Repair' },
-  { name: 'Kefilwe N.', location: 'Fourways', rating: 5, text: 'Was told by another shop my MacBook Air needed a new board. ZA Support repaired the actual fault for a fraction of that price. Two months later, still going strong.', service: 'Logic Board Repair' },
-];
 
 const serviceAreas = [
   'Johannesburg', 'Hyde Park', 'Sandton', 'Rosebank', 'Illovo',
@@ -487,30 +481,7 @@ export default function MacBookAirLogicBoardPage() {
         </div>
       </section>
 
-      {/* Reviews */}
-      <section className="py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-10">
-            What Our Clients Say
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {reviews.map((review) => (
-              <div key={review.name} className="glass-card p-5 flex flex-col">
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: review.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1 mb-4">&ldquo;{review.text}&rdquo;</p>
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
-                  <p className="text-[#7A9E98] text-xs">{review.location} · {review.service}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-20 bg-[#111C1A]">

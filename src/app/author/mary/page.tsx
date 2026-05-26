@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { MessageCircle, BookOpen, Users } from 'lucide-react';
+import { MessageCircle, Calendar, Phone } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Mary, Content & Client Communications | ZA Support',
+  title: 'Mary, Client Communications & Operations Lead | ZA Support',
   description:
-    'Mary is the content author and client communications lead at ZA Support. All educational guides, blog posts, and client-facing documentation are authored by Mary.',
+    'Mary is the client communications and operations lead at ZA Support. She handles all incoming client enquiries, repair bookings, and follow-up correspondence from zasupport.com. All technical content is authored by Courtney Bentley.',
   alternates: { canonical: 'https://zasupport.com/author/mary' },
 };
 
@@ -16,16 +16,16 @@ const personSchema = {
   '@type': 'Person',
   '@id': 'https://zasupport.com/author/mary',
   name: 'Mary',
-  jobTitle: 'Content Author & Client Communications, ZA Support',
+  jobTitle: 'Client Communications & Operations Lead, ZA Support',
   description:
-    'Mary is the content and communications specialist at ZA Support. All educational articles, repair guides, blog posts, and client-facing documentation published on zasupport.com are authored by Mary.',
+    'Mary is the client communications and operations lead at ZA Support. She handles all incoming client enquiries, repair bookings, and follow-up correspondence from zasupport.com. All technical content is authored by Courtney Bentley.',
   url: 'https://zasupport.com/author/mary',
   knowsAbout: [
-    'Apple device repair guides',
-    'MacBook troubleshooting',
-    'IT support content',
     'Client communications',
-    'Technical writing',
+    'Apple repair coordination',
+    'Service scheduling',
+    'Customer support',
+    'Repair status tracking',
   ],
   worksFor: {
     '@type': 'LocalBusiness',
@@ -36,9 +36,9 @@ const personSchema = {
 };
 
 const roles = [
-  { icon: BookOpen, label: 'Educational Content', detail: 'All how-to guides, repair articles, and FAQ content on zasupport.com' },
-  { icon: MessageCircle, label: 'Client Communications', detail: 'Client emails, assessment summaries, and follow-up correspondence' },
-  { icon: Users, label: 'Blog & Guides', detail: 'All blog posts, service pages, and structured educational content' },
+  { icon: MessageCircle, label: 'Client Enquiries', detail: 'Receives every enquiry submitted via the zasupport.com contact form' },
+  { icon: Calendar, label: 'Repair Bookings', detail: 'Coordinates booking, scheduling, and intake for every repair on zasupport.com/book' },
+  { icon: Phone, label: 'Follow-Up Correspondence', detail: 'Manages assessment summaries, status updates, and post-repair follow-up with clients' },
 ];
 
 export default function MaryPage() {
@@ -57,14 +57,26 @@ export default function MaryPage() {
 
           <h1 className="text-4xl font-bold text-[#E8F4F1] mb-2">Mary</h1>
           <p className="text-[#0FEA7A] font-semibold text-lg mb-6">
-            Content Author &amp; Client Communications, ZA Support
+            Client Communications &amp; Operations Lead, ZA Support
+          </p>
+
+          <p className="text-[#7A9E98] text-lg leading-relaxed mb-4">
+            Mary is the first point of contact for every client who reaches ZA Support through
+            zasupport.com. She receives all enquiries submitted via the contact form, all repair
+            bookings made through the booking page, and handles every follow-up communication
+            from initial assessment summary through to repair completion at the Hyde Park
+            workshop.
           </p>
 
           <p className="text-[#7A9E98] text-lg leading-relaxed mb-10">
-            Mary handles all content and client communications at ZA Support. Every educational guide,
-            repair blog post, how-to article, and client-facing document published on zasupport.com
-            is authored by Mary, ensuring clear, plain-language explanations of complex technical
-            topics for Mac owners across South Africa.
+            All technical articles, repair guides, and educational content on zasupport.com are
+            written by{' '}
+            <Link href="/author/courtney-bentley" className="text-[#0FEA7A] hover:underline">
+              Courtney Bentley
+            </Link>
+            , the founder and Apple Certified Expert Consultant. Mary&apos;s focus is making sure
+            every client who contacts ZA Support is responded to quickly, scheduled accurately,
+            and kept informed throughout the repair process.
           </p>
 
           <div className="grid gap-4 mb-12">
@@ -84,7 +96,7 @@ export default function MaryPage() {
 
           <div className="border-t border-[#27504D]/20 pt-8">
             <p className="text-sm text-[#7A9E98]">
-              Technical accuracy verified by{' '}
+              All technical content authored by{' '}
               <Link href="/author/courtney-bentley" className="text-[#0FEA7A] hover:underline">
                 Courtney Bentley
               </Link>

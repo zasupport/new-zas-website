@@ -152,29 +152,7 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Tayla R.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Dropped my iPhone 15 Pro and the screen shattered. ZA Support replaced it the same day, Face ID works perfectly and the ProMotion display is flawless. Best repair service in Joburg.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Marcus B.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Green line appeared on my iPhone 14 Pro screen out of nowhere. ZA Support diagnosed it immediately, replaced the OLED and it has been perfect for months. Very professional.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Nomsa K.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Ghost touch was making my iPhone 16 unusable. Fixed in under an hour, up-to-3 year warranty, and the technician explained everything clearly. Highly recommend.',
-    date: 'March 2026',
-  },
-];
+// §374 + TEST-1 26/05/2026: dead testimonial array removed (was unused; not rendered).
 
 
 const serviceSchema = buildServiceSchema({

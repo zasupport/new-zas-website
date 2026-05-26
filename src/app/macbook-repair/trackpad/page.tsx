@@ -119,29 +119,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Ayesha N.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'My MacBook Pro trackpad was raised and barely clicking. ZA Support diagnosed a swollen battery in minutes, replaced both the battery and realigned the trackpad in the same afternoon. Machine feels brand new. warranty on the repair too.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Greg T.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Cursor was jumping all over the screen on my MacBook Air M2. Turned out to be a faulty flex cable, not the trackpad itself. ZA Support saved me from paying for an unnecessary full replacement. Fixed in under two hours.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Priya M.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Force Touch on my MacBook Pro 14" M3 stopped feeling right after a knock. ZA Support ran a full diagnostic, recalibrated it via software, no parts needed. Trackpad is perfect again. Assessment: from R599 and honest diagnosis.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = {
@@ -422,36 +399,7 @@ export default function MacBookTrackpadPage() {
         </div>
       </section>
 
-      {/* REVIEWS */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
-              What Clients <span className="text-[#0FEA7A]">Say</span>
-            </h2>
-            <p className="text-[#7A9E98]">MacBook trackpad repairs across Johannesburg.</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div key={r.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
-                <div className="flex gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-[#E8F4F1] font-bold text-sm">{r.name}</p>
-                    <p className="text-[#7A9E98] text-xs">{r.suburb}</p>
-                  </div>
-                  <span className="text-[#7A9E98] text-xs">{r.date}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">

@@ -145,26 +145,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Michael B.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Butterfly keyboard on my 2017 MacBook Pro — space bar completely dead. ZA Support had the right top case in stock, fixed same day. up-to-3 year warranty, no issues since.',
-  },
-  {
-    name: 'Leigh A.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Coffee spill on my MacBook Pro keyboard. They assessed the damage, quoted clearly, and had it repaired within 48 hours. Data completely safe throughout.',
-  },
-  {
-    name: 'Sipho M.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Three keys on my 2018 MacBook Pro stopped working. ZA Support diagnosed it as butterfly failure immediately, no guesswork. Repaired quickly at a fair price.',
-  },
-];
 
 const faqSchema = buildFaqSchema(faqs);
 
@@ -332,40 +312,7 @@ export default function MacBookProKeyboardPage() {
         </div>
       </section>
 
-      {/* Reviews */}
-      <section className="py-12 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
-            What Clients Say
-          </h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">
-            Rated {SITE.rating} from {SITE.reviewCount} reviews across Johannesburg
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div key={r.name} className="glass-card p-6 rounded-2xl flex flex-col gap-4">
-                <div className="flex gap-1">
-                  {Array.from({ length: r.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
-                <div className="flex items-center gap-2 pt-2 border-t border-[rgba(255,255,255,0.05)]">
-                  <div className="w-8 h-8 rounded-full bg-[rgba(15,234,122,0.15)] flex items-center justify-center text-[#0FEA7A] font-bold text-sm">
-                    {r.name[0]}
-                  </div>
-                  <div>
-                    <p className="text-[#E8F4F1] text-sm font-semibold">{r.name}</p>
-                    <div className="flex items-center gap-1 text-[#7A9E98] text-xs">
-                      <MapPin className="w-3 h-3" /> {r.suburb}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-12 sm:py-20 bg-[#0A1A18]">

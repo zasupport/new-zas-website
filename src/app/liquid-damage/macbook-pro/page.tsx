@@ -193,29 +193,6 @@ const repairProcess = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Natalie H.',
-    location: 'Sandton',
-    rating: 5,
-    text: 'Spilled an entire glass of water on my MacBook Pro during a Zoom call. Brought it in within an hour and ZA Support saved it completely. Logic board cleaned and keyboard replaced, works perfectly. Could not be more relieved.',
-    service: 'Liquid Damage Repair',
-  },
-  {
-    name: 'Jason F.',
-    location: 'Rosebank',
-    rating: 5,
-    text: 'I made the mistake of leaving it in rice for two days before coming in. ZA Support still managed to recover the board. They were honest about the extra time the corrosion needed to address, but the result was worth it. Incredible work.',
-    service: 'Logic Board Liquid Damage',
-  },
-  {
-    name: 'Thandi M.',
-    location: 'Fourways',
-    rating: 5,
-    text: 'My M2 MacBook Pro had a coffee spill. The screen was dead and it would not charge. ZA Support replaced the display, cleaned the board, and had it back to me in 3 days. up-to-3 year warranty too, proper professional service.',
-    service: 'Liquid Damage, Display Replacement',
-  },
-];
 
 const aggregateRatingSchema = {
   '@context': 'https://schema.org',
@@ -599,36 +576,7 @@ export default function MacBookProLiquidDamagePage() {
         </div>
       </section>
 
-      {/* Reviews */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl font-extrabold text-[#E8F4F1] mb-10"
-           
-          >
-            What Clients Say
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((review) => (
-              <div key={review.name} className="glass-card p-6 flex flex-col gap-4">
-                <div className="flex gap-0.5">
-                  {Array.from({ length: review.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{review.text}&rdquo;</p>
-                <div>
-                  <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
-                  <div className="flex items-center gap-1 mt-0.5">
-                    <MapPin className="w-3 h-3 text-[#7A9E98]" />
-                    <p className="text-[#7A9E98] text-xs">{review.location}, {review.service}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">

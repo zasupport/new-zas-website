@@ -142,26 +142,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Sarah M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Flexgate on my 2017 MacBook Pro. ZA Support diagnosed it in 20 minutes, checked Apple programme eligibility, and had it fixed in 2 days. Outstanding service.',
-  },
-  {
-    name: 'James T.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Cracked Retina screen on my M2 Pro. Quoted clearly, repaired quickly, and the screen looks perfect. up-to-3 year warranty in writing. Highly recommend.',
-  },
-  {
-    name: 'Anita V.',
-    suburb: 'Hyde Park',
-    rating: 5,
-    text: 'Staingate on my 2015 MacBook Pro. They checked the Apple programme, it qualified, handled the whole process. Professional from start to finish.',
-  },
-];
 
 const faqSchema = buildFaqSchema(faqs);
 
@@ -323,40 +303,7 @@ export default function MacBookProScreenPage() {
         </div>
       </section>
 
-      {/* Reviews */}
-      <section className="py-12 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
-            What Clients Say
-          </h2>
-          <p className="text-[#7A9E98] text-center mb-12 text-sm">
-            Rated {SITE.rating} from {SITE.reviewCount} reviews across Johannesburg
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div key={r.name} className="glass-card p-6 rounded-2xl flex flex-col gap-4">
-                <div className="flex gap-1">
-                  {Array.from({ length: r.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{r.text}&rdquo;</p>
-                <div className="flex items-center gap-2 pt-2 border-t border-[rgba(255,255,255,0.05)]">
-                  <div className="w-8 h-8 rounded-full bg-[rgba(15,234,122,0.15)] flex items-center justify-center text-[#0FEA7A] font-bold text-sm">
-                    {r.name[0]}
-                  </div>
-                  <div>
-                    <p className="text-[#E8F4F1] text-sm font-semibold">{r.name}</p>
-                    <div className="flex items-center gap-1 text-[#7A9E98] text-xs">
-                      <MapPin className="w-3 h-3" /> {r.suburb}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-12 sm:py-20 bg-[#0A1A18]">

@@ -169,26 +169,6 @@ const practiceScales = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Dr K.P.',
-    suburb: 'Sandton',
-    text: 'We moved our entire practice to Apple devices with ZA Support managing the rollout. They configured every MacBook, set up our iPad check-in kiosk, and handled the GoodX migration. Zero downtime. The POPIA documentation they provided passed our HPCSA inspection without a single query.',
-    rating: 5,
-  },
-  {
-    name: 'Dr L.M.',
-    suburb: 'Rosebank',
-    text: 'Our iMac at reception failed on a Monday morning. ZA Support had a technician at our practice within 90 minutes with a loaner device. The original was repaired and returned by Wednesday. For a practice seeing 40 patients a day, that kind of response is not a luxury, it is essential.',
-    rating: 5,
-  },
-  {
-    name: 'Practice Manager, Multi-Doctor Clinic',
-    suburb: 'Fourways',
-    text: 'Managing 12 Apple devices across three consulting rooms and two reception areas was a nightmare before ZA Support. Their MDM setup means we can see every device, enforce encryption, and push updates without visiting each machine. Our backup has been tested and verified every single month.',
-    rating: 5,
-  },
-];
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -907,37 +887,7 @@ export default function MedicalITPage() {
         </div>
       </section>
 
-      {/* Reviews */}
-      <section className="py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">
-            What Medical Practices Say
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div key={r.name} className="glass-card p-6">
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: r.rating }).map((_, i) => (
-                    <Star
-                      key={i}
-                      className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]"
-                    />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">
-                  &ldquo;{r.text}&rdquo;
-                </p>
-                <p className="text-[#E8F4F1] font-semibold text-sm">
-                  {r.name}
-                </p>
-                <p className="text-[#7A9E98] text-xs">
-                  {r.suburb}, Johannesburg
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">

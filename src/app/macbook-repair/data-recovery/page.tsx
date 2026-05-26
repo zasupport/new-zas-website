@@ -90,29 +90,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Nkosi M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Accidentally emptied the Trash on my MacBook Pro with three years of client files. ZA Support recovered everything within five hours. I was prepared to lose it all. Cannot recommend them highly enough.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Anja V.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'My MacBook Air stopped booting after a macOS update. ZA Support diagnosed a corrupted APFS container, recovered all my data, and had a fresh OS installed the same day. No data lost.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Dr P. Dlamini',
-    suburb: 'Hyde Park',
-    rating: 5,
-    text: 'Spilled water on my MacBook in the practice. Brought it in within an hour. They recovered all patient records and practice files. POPIA-compliant handling throughout. Professional in every respect.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = {
@@ -415,35 +392,7 @@ export default function MacBookDataRecoveryPage() {
         </div>
       </section>
 
-      {/* REVIEWS */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
-              What Clients Say About <span className="text-[#0FEA7A]">Data Recovery</span>
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((review) => (
-              <div key={review.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
-                <div className="flex gap-1">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{review.text}&rdquo;</p>
-                <div className="flex justify-between items-end">
-                  <div>
-                    <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
-                    <p className="text-[#7A9E98] text-xs">{review.suburb}</p>
-                  </div>
-                  <span className="text-[#7A9E98] text-xs">{review.date}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">

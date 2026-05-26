@@ -148,29 +148,6 @@ const butterflyTimeline = [
 /* ─────────────────────────────────────────────────────────────
    SUBURB REVIEWS
 ───────────────────────────────────────────────────────────── */
-const reviews = [
-  {
-    name: 'Natasha B.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'My 2018 MacBook Pro was double-typing on every keystroke, a nightmare for writing. ZA Support explained the butterfly keyboard issue clearly, replaced the top case the same day and gave me a straight answer about why it carries no up-to-3 year warranty. Honest and fast.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Gareth O.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Spilled coffee on my MacBook Air M2 keyboard at 7am. Dropped it off at Hyde Park by 9am, picked it up at 2pm with a brand new scissor keyboard and up-to-3 year warranty. Incredible turnaround.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Priya S.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Three keys had completely stopped working on my 2019 MacBook Pro 15". ZA Support replaced the entire top case, explained the butterfly design flaw and offered the scissor-switch upgrade. No upsell pressure, just facts. Happy with the result.',
-    date: 'March 2026',
-  },
-];
 
 /* ─────────────────────────────────────────────────────────────
    FAQs
@@ -580,44 +557,7 @@ export default function MacBookKeyboardPage() {
         </div>
       </section>
 
-      {/* ── REVIEWS ──────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2
-              className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4"
-             
-            >
-              What Our Clients <span className="text-[#0FEA7A]">Say</span>
-            </h2>
-            <p className="text-[#7A9E98]">
-              MacBook keyboard repairs across Sandton, Fourways, Rosebank and surrounding suburbs.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((r) => (
-              <div
-                key={r.name}
-                className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6"
-              >
-                <div className="flex gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-[#E8F4F1] font-semibold text-sm">{r.name}</p>
-                    <p className="text-[#7A9E98] text-xs">{r.suburb}</p>
-                  </div>
-                  <span className="text-[#7A9E98] text-xs">{r.date}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── FAQ ──────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

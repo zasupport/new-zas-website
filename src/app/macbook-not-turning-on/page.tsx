@@ -226,32 +226,6 @@ const faqs = [
 ];
 
 // ─── Suburb Reviews ───────────────────────────────────────────────────────────
-const suburbReviews = [
-  {
-    name: 'Jason M.',
-    suburb: 'Sandton',
-    stars: 5,
-    review:
-      'My MacBook Pro completely died after load shedding. ZA Support diagnosed it the same day, blown USB-C chip. Fixed within 48 hours. Apple quoted significantly more for a full board replacement. I nearly threw the machine away. Cannot recommend them enough.',
-    service: 'Surge Damage Repair',
-  },
-  {
-    name: 'Priya N.',
-    suburb: 'Rosebank',
-    stars: 5,
-    review:
-      'MacBook Air wouldn\'t turn on at all, totally dead. I assumed the worst. Turned out to be the battery completely failing. They replaced it the same day. The machine works perfectly now. Assessment: from R599 meant there was no risk in bringing it in.',
-    service: 'Battery Replacement',
-  },
-  {
-    name: 'Shaun K.',
-    suburb: 'Fourways',
-    stars: 5,
-    review:
-      'Screen was black but I could hear the Mac starting up. ZA Support told me over the phone it sounded like a backlight fault. They were right, fixed in two days. Honest advice, no upselling, reasonable price. This is how all repair shops should operate.',
-    service: 'Backlight Repair',
-  },
-];
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 const serviceSchema = buildServiceSchema({
@@ -611,47 +585,7 @@ export default function MacBookNotTurningOnPage() {
           </div>
         </section>
 
-        {/* ── Reviews ── */}
-        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
-          <div className="mb-10">
-            <div className="inline-flex items-center gap-2 mb-4">
-              {[1, 2, 3, 4, 5].map((s) => (
-                <Star key={s} className="w-5 h-5 fill-amber-400 text-amber-400" />
-              ))}
-              <span className="text-[#E8F4F1] font-bold ml-2">4.9 / 5</span>
-              <span className="text-[#7A9E98] text-sm ml-1">— 632 verified reviews</span>
-            </div>
-            <h2
-              className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]"
-             
-            >
-              What Johannesburg Clients Say
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {suburbReviews.map((review) => (
-              <div key={review.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6">
-                <div className="flex items-center gap-1 mb-4">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-4 h-4 fill-amber-400 text-amber-400" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-5 italic">&ldquo;{review.review}&rdquo;</p>
-                <div className="pt-4 border-t border-[rgba(255,255,255,0.06)]">
-                  <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
-                  <div className="flex items-center justify-between mt-1">
-                    <span className="flex items-center gap-1 text-[#7A9E98] text-xs">
-                      <MapPin className="w-3 h-3" />
-                      {review.suburb}
-                    </span>
-                    <span className="text-[#0FEA7A] text-xs font-medium">{review.service}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
         {/* ── FAQ ── */}
         <section className="bg-[rgba(255,255,255,0.015)] border-y border-[rgba(255,255,255,0.06)]">

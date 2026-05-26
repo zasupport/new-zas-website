@@ -150,40 +150,6 @@ const processSteps = [
 ];
 
 // ─── Customer Reviews ─────────────────────────────────────────────────────────
-const customerReviews = [
-  {
-    name: 'James O.',
-    suburb: 'Sandton',
-    rating: 5,
-    date: '02/2026',
-    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. ZA Support diagnosed it within a few hours, corroded USB-C controller. Fixed quickly. A new board would have cost significantly more. Cannot recommend highly enough.',
-    service: 'Liquid Damage + Logic Board',
-  },
-  {
-    name: 'Priya M.',
-    suburb: 'Rosebank',
-    rating: 5,
-    date: '01/2026',
-    text: 'Screen was flickering on my 2015 MacBook Pro. I had been told it was unfixable or quoted heavily for a replacement board. ZA Support repaired the GPU with a up-to-3 year warranty. Six weeks later, perfect.',
-    service: 'Logic Board Repair',
-  },
-  {
-    name: 'Ryan T.',
-    suburb: 'Fourways',
-    rating: 5,
-    date: '03/2026',
-    text: 'MacBook Air M2 would not charge on either USB-C port. ZA Support found a failed charging controller chip and replaced it same day. Clear pricing upfront, no surprises. Will absolutely use again.',
-    service: 'Charging Port Repair',
-  },
-  {
-    name: 'Sarah M.',
-    suburb: 'Illovo',
-    rating: 5,
-    date: '03/2026',
-    text: 'Best Apple repair experience in Johannesburg. The team diagnosed a logic board fault that had been completely missed elsewhere. Honest, knowledgeable, and the warranty gave me real peace of mind.',
-    service: 'Logic Board Repair',
-  },
-];
 
 // ─── FAQs ─────────────────────────────────────────────────────────────────────
 const faqs = [
@@ -567,44 +533,7 @@ export default function AppleRepairPage() {
         </div>
       </section>
 
-      {/* ── REVIEWS ── */}
-      <section className="py-16 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-center gap-1 mb-4">
-            {[1, 2, 3, 4, 5].map((i) => (
-              <Star key={i} className="w-5 h-5 fill-[#0FEA7A] text-[#0FEA7A]" />
-            ))}
-          </div>
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
-            {SITE.rating} on Google, {SITE.reviewCount} Reviews
-          </h2>
-          <p className="text-[#7A9E98] text-center text-sm mb-10">Real clients. Real repairs. Verified on Google.</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {customerReviews.map((review) => (
-              <div key={review.name} className="glass-card p-6">
-                <div className="flex items-center gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-4 italic">&ldquo;{review.text}&rdquo;</p>
-                <div className="border-t border-[rgba(255,255,255,0.06)] pt-3 flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 bg-[rgba(15,234,122,0.15)] rounded-full flex items-center justify-center text-[#0FEA7A] font-bold text-sm">
-                      {review.name[0]}
-                    </div>
-                    <div>
-                      <p className="text-[#E8F4F1] text-xs font-bold">{review.name}</p>
-                      <p className="text-[#7A9E98] text-xs">{review.suburb} · {review.date}</p>
-                    </div>
-                  </div>
-                  <span className="text-[#7A9E98] text-xs">{review.service}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── FAQ ── */}
       <section className="py-16 sm:py-20 bg-[#0A1A18]">

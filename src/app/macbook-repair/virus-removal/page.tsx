@@ -119,29 +119,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Remi T.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'My MacBook Pro was throwing pop-up alerts and my browser kept redirecting to strange sites. ZA Support found Genieo and two adware variants I had never heard of. Clean in under three hours. Safari works perfectly again.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Lungelo D.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'My Mac was painfully slow and Activity Monitor showed a process using 80% CPU that I could not stop or identify. ZA Support diagnosed OSX.Shlayer and cleared everything, including three components it had downloaded. Runs like new.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Mia H.',
-    suburb: 'Bryanston',
-    rating: 5,
-    text: 'Downloaded a cracked app and ended up with Atomic Stealer on my machine. ZA Support removed it, did a full credential audit with me, and set up CyberShield. Have not had a single issue since. Genuinely grateful.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = {
@@ -480,35 +457,7 @@ export default function MacVirusRemovalPage() {
         </div>
       </section>
 
-      {/* REVIEWS */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
-              What Clients Say About <span className="text-[#0FEA7A]">Malware Removal</span>
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((review) => (
-              <div key={review.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
-                <div className="flex gap-1">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{review.text}&rdquo;</p>
-                <div className="flex justify-between items-end">
-                  <div>
-                    <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
-                    <p className="text-[#7A9E98] text-xs">{review.suburb}</p>
-                  </div>
-                  <span className="text-[#7A9E98] text-xs">{review.date}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* FAQ */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

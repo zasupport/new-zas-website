@@ -83,29 +83,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Tayla M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Dropped my MacBook Pro 14" M2 and completely shattered the screen. ZA Support had it repaired the same day. The new display looks perfect, True Tone works, brightness is correct. Worth every rand.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Sipho K.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'Had dead pixels spreading across my MacBook Air M1. The team diagnosed it in minutes, gave me a fixed price, and replaced the screen while I worked from their space. No data lost. up-to-3 year warranty. Genuinely impressed.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Liesl V.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'MacBook Pro 16" backlight failed completely, screen was black even though the machine was on. ZA Support identified the fault and had it done in two days. Professional from start to finish.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = {
@@ -398,35 +375,7 @@ export default function MacBookScreenPage() {
         </div>
       </section>
 
-      {/* REVIEWS */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
-              What Clients Say About Our <span className="text-[#0FEA7A]">Screen Replacements</span>
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {reviews.map((review) => (
-              <div key={review.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 flex flex-col gap-4">
-                <div className="flex gap-1">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-4 h-4 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed flex-1">&ldquo;{review.text}&rdquo;</p>
-                <div className="flex justify-between items-end">
-                  <div>
-                    <p className="text-[#E8F4F1] font-semibold text-sm">{review.name}</p>
-                    <p className="text-[#7A9E98] text-xs">{review.suburb}</p>
-                  </div>
-                  <span className="text-[#7A9E98] text-xs">{review.date}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* APPLE SILICON vs INTEL, MODEL CALLOUTS */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">

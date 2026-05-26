@@ -129,29 +129,6 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Thandeka M.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'My iPhone 15 Pro stopped charging completely. ZA Support cleaned out the lint in 20 minutes, no parts, no port replacement needed. Saved me a fortune. They were honest about what the problem was.',
-    date: 'February 2026',
-  },
-  {
-    name: 'Craig F.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'iPhone 14 charging port was loose and intermittent. Replaced the port in under an hour, charges perfectly and CarPlay works again. up-to-3 year warranty. Excellent service.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Yusuf A.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'iPhone fell in water and stopped charging after a day. ZA Support cleaned the corrosion and replaced the port. Back to normal charging speeds. Very knowledgeable team.',
-    date: 'March 2026',
-  },
-];
 
 
 const serviceSchema = buildServiceSchema({
@@ -298,68 +275,7 @@ export default function iPhoneChargingPage() {
         </div>
       </section>
 
-      {/* ── Why Choose ZA Support ─────────────────────────────────────────── */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                Why Choose ZA Support for iPhone Charging Repair
-              </h2>
-              <div className="space-y-5">
-                {[
-                  {
-                    icon: <Shield className="w-5 h-5" />,
-                    title: 'Up-to-3 Year Warranty',
-                    desc: 'Every charging port repair carries a warranty on the replacement port and labour. If the fault returns within the warranty period, we fix it, from R599.',
-                  },
-                  {
-                    icon: <Clock className="w-5 h-5" />,
-                    title: 'Diagnose First, No Guessing',
-                    desc: 'We test your cable, adapter, and battery before touching the port. Many charging faults are not the port, we find the actual cause and quote accordingly.',
-                  },
-                  {
-                    icon: <Wrench className="w-5 h-5" />,
-                    title: 'Fast Charging Verified',
-                    desc: 'After every port replacement we verify fast charging works at the correct wattage for your model (20W, 27W, or 45W), and test USB data sync and CarPlay.',
-                  },
-                  {
-                    icon: <CheckCircle className="w-5 h-5" />,
-                    title: 'Lightning and USB-C',
-                    desc: 'We repair both Lightning ports (iPhone 8 through 14) and USB-C ports (iPhone 15 and 16). We stock parts for all current iPhone generations.',
-                  },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.1)] flex items-center justify-center text-[#0FEA7A] flex-shrink-0">
-                      {item.icon}
-                    </div>
-                    <div>
-                      <h3 className="text-[#E8F4F1] font-semibold text-sm mb-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-[#7A9E98] text-sm leading-relaxed">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="space-y-4">
-              {reviews.map((r) => (
-                <div key={r.name} className="glass-card p-6 border-l-2 border-[#0FEA7A]">
-                  <p className="text-[#7A9E98] text-sm italic mb-3">&ldquo;{r.text}&rdquo;</p>
-                  <div className="flex items-center gap-2">
-                    <div className="flex gap-0.5">
-                      {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
-                    </div>
-                    <span className="text-[#E8F4F1] text-xs font-semibold">{r.name}</span>
-                    <span className="text-[#7A9E98] text-xs">— {r.suburb}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── Process ──────────────────────────────────────────────────────── */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">

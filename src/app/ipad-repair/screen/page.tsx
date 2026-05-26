@@ -126,29 +126,7 @@ const faqs = [
   },
 ];
 
-const reviews = [
-  {
-    name: 'Priya N.',
-    suburb: 'Sandton',
-    rating: 5,
-    text: 'Dropped my iPad Air and the screen shattered completely. ZA Support had it fixed the same day, the new display looks perfect and Apple Pencil works flawlessly. Brilliant service.',
-    date: 'February 2026',
-  },
-  {
-    name: 'James O.',
-    suburb: 'Rosebank',
-    rating: 5,
-    text: 'iPad Pro 11" screen had dead pixels spreading from the corner. Fixed in two hours, Touch ID still works, up-to-3 year warranty. Very professional team.',
-    date: 'January 2026',
-  },
-  {
-    name: 'Fatima D.',
-    suburb: 'Fourways',
-    rating: 5,
-    text: 'Ghost touch was driving me crazy, the screen was tapping itself constantly. ZA Support replaced the digitiser and it has been perfect ever since.',
-    date: 'March 2026',
-  },
-];
+// §374 + TEST-1 26/05/2026: dead testimonial array removed (was unused; not rendered).
 
 
 const serviceSchema = buildServiceSchema({

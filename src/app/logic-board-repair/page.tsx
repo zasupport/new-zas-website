@@ -194,29 +194,6 @@ const icFaults = [
   },
 ];
 
-const customerReviews = [
-  {
-    name: 'James O.',
-    suburb: 'Sandton',
-    rating: 5,
-    date: '02/2026',
-    text: 'My 2019 MacBook Pro was completely dead after a coffee spill. Brought it to ZA Support in Hyde Park and they had it diagnosed within a few hours. Turned out to be corrosion on the USB-C controller. Fixed for a fraction of the cost of a new logic board. Cannot recommend highly enough.',
-  },
-  {
-    name: 'Priya M.',
-    suburb: 'Rosebank',
-    rating: 5,
-    date: '01/2026',
-    text: 'Screen was showing strange lines and flickering on my MacBook Pro 2015. I had been told it was unfixable or quoted a high price for a replacement board. ZA Support diagnosed it as the GPU and repaired it at a fair price. up-to-3 year warranty included. Six weeks on and it is perfect.',
-  },
-  {
-    name: 'Ryan T.',
-    suburb: 'Fourways',
-    rating: 5,
-    date: '03/2026',
-    text: 'MacBook Air M2 would not charge on either USB-C port. ZA Support found a failed charging controller chip and replaced it same day. They were upfront about pricing, no surprises. Clear written quote before any work began. Will definitely use again.',
-  },
-];
 
 const serviceSchema = {
   '@context': 'https://schema.org',
@@ -636,36 +613,7 @@ export default function LogicBoardRepairPage() {
         </div>
       </section>
 
-      {/* ── CUSTOMER REVIEWS ── */}
-      <section className="py-20 bg-[#111C1A]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3 text-center">
-            What Our Customers Say
-          </h2>
-          <div className="flex items-center justify-center gap-2 mb-10">
-            {[1, 2, 3, 4, 5].map((s) => (
-              <Star key={s} className="w-5 h-5 fill-[#0FEA7A] text-[#0FEA7A]" />
-            ))}
-            <span className="text-[#7A9E98] text-sm ml-2">4.9 average · 632 Google reviews</span>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {customerReviews.map((review) => (
-              <div key={review.name} className="glass-card p-6">
-                <div className="flex items-center gap-1 mb-3">
-                  {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />
-                  ))}
-                </div>
-                <p className="text-[#7A9E98] text-sm leading-relaxed mb-4 italic">&ldquo;{review.text}&rdquo;</p>
-                <div className="border-t border-[rgba(255,255,255,0.06)] pt-3">
-                  <p className="text-[#E8F4F1] text-xs font-bold">{review.name}</p>
-                  <p className="text-[#7A9E98] text-xs">{review.suburb} · {review.date}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* §374 + TEST-1 26/05/2026: testimonials removed pending GBP review-importer (TEST-2). Real GBP reviews replace this section. */}
 
       {/* ── DEVICE SUB-PAGES ── */}
       <section className="py-16 bg-[#0A1A18]">
