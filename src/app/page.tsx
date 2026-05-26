@@ -9,7 +9,7 @@ import {
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
-import GoogleReviews from '@/components/ui/GoogleReviews';
+import { GoogleReviews } from '@/components/GoogleReviews';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
@@ -313,7 +313,7 @@ export default function HomePage() {
               ))}
             </div>
           }>
-            <GoogleReviews maxReviews={4} />
+            <GoogleReviews count={6} />
           </Suspense>
         </div>
       </section>
