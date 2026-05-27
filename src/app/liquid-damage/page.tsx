@@ -1,15 +1,19 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Suspense } from 'react';
-import { Phone, AlertTriangle, CheckCircle, Clock, Shield, ArrowRight } from 'lucide-react';
-import { GoogleReviews } from '@/components/GoogleReviews';
+import {
+  Phone, ArrowRight, Droplets, AlertTriangle, CheckCircle, Shield, Clock,
+  MapPin, Star, Microscope, Zap, Cpu,
+} from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import { buildFaqSchema, buildBreadcrumbSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import { GoogleReviews } from '@/components/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
+import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
+import PricingRange from '@/components/PricingRange';
 import OrphanLinks from '@/components/ui/OrphanLinks';
-import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 const orphanModelLinks = [
   { title: 'Mac mini', href: '/liquid-damage/mac-mini', description: 'Liquid damage repair for Mac mini' },
@@ -23,6 +27,7 @@ const orphanModelLinks = [
   { title: 'MacBook Pro M2', href: '/liquid-damage/macbook-pro-m2', description: 'Liquid damage repair for MacBook Pro M2' },
   { title: 'MacBook Pro M3', href: '/liquid-damage/macbook-pro-m3', description: 'Liquid damage repair for MacBook Pro M3' },
 ];
+
 const orphanSuburbLinks = [
   { title: 'Alberton', href: '/liquid-damage/alberton', description: 'Liquid damage repair in Alberton' },
   { title: 'Bedfordview', href: '/liquid-damage/bedfordview', description: 'Liquid damage repair in Bedfordview' },
@@ -61,73 +66,134 @@ const orphanSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: 'MacBook Liquid Damage Repair Johannesburg | ZA Support',
+  title: 'MacBook Liquid Damage Repair Johannesburg [2026] | From R1,500 | ZA Support',
   description:
-    'MacBook liquid damage repair in Johannesburg. Expert board-level cleaning, assessment fee (from R599) and same-day diagnosis. Assessment: from R599. Call 064 529 5863.',
+    'MacBook & iPhone liquid damage repair in Johannesburg. Component-level board cleaning, ultrasonic recovery, same-day assessment. From R1,500 repair, R599 assessment. 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },
 };
 
+/* ── Pricing Table ───────────────────────────────────────────────────────── */
+const pricingTiers = [
+  { device: 'MacBook Air liquid damage', from: 'R1,500', turnaround: '3–5 days', warranty: '12 months', popular: false },
+  { device: 'MacBook Pro 13″ liquid damage', from: 'R2,500', turnaround: '3–5 days', warranty: '12 months', popular: true },
+  { device: 'MacBook Pro 14″ / 16″ liquid damage', from: 'R3,500', turnaround: '5–7 days', warranty: '12 months', popular: false },
+  { device: 'iMac liquid damage', from: 'R2,800', turnaround: '5–7 days', warranty: '12 months', popular: false },
+  { device: 'iPhone liquid damage', from: 'R1,200', turnaround: '24–72 hours', warranty: '12 months', popular: false },
+  { device: 'iPad liquid damage', from: 'R1,800', turnaround: '3–5 days', warranty: '12 months', popular: false },
+];
+
+/* ── Process Steps ───────────────────────────────────────────────────────── */
+const processSteps = [
+  { step: 1, title: 'Same-Day Diagnosis', desc: 'WhatsApp us or walk into our Hyde Park workshop. We open the device within hours of receipt, photograph the corrosion, and identify which logic-board rails, chips and connectors have been affected. Assessment fee from R599.' },
+  { step: 2, title: 'Full Disassembly', desc: 'The logic board is removed from the chassis under ESD-safe conditions. Display, keyboard, trackpad, battery, speakers and antennas are isolated and inspected individually for liquid migration paths.' },
+  { step: 3, title: 'Ultrasonic Cleaning', desc: 'The bare logic board is submerged in a temperature-controlled ultrasonic bath with 99.9% isopropyl alcohol. The cavitation lifts conductive residue from beneath surface-mount chips, BGA pads and shielding cans where hand-cleaning cannot reach.' },
+  { step: 4, title: 'Component-Level Repair', desc: 'Under stereo microscope, our technician identifies failed components — power-management ICs, charging controllers, USB-C ports, audio amplifiers, fuses, capacitors — and replaces them individually using hot-air rework and precision soldering. We do not swap the whole board.' },
+  { step: 5, title: 'Bench Testing', desc: 'The board is powered on a DC bench supply outside the chassis and monitored for current draw on every rail. We verify display, charging, audio, Wi-Fi, Bluetooth, camera, microphone, keyboard, trackpad and every USB-C port before reassembly.' },
+  { step: 6, title: 'Reassembly + 12-Month Warranty', desc: 'The device is rebuilt, full functional test repeated, and returned to you with a written 12-month warranty on every component we repaired. If the same fault returns within 12 months, we repair it again at no labour cost.' },
+];
+
+/* ── What Component-Level Repair Means ───────────────────────────────────── */
+const componentRepairFeatures = [
+  { icon: Microscope, title: 'Microscope Component Repair', desc: 'Stereo microscope at 7×–45× magnification used for every liquid damage repair. We see corrosion in places dripping naked eye cannot.' },
+  { icon: Cpu, title: 'Component-Level — Not Board-Swap', desc: 'We replace the specific failed chip or component. Your original logic board, Touch ID pairing, and Apple Silicon SSD remain in place.' },
+  { icon: Zap, title: 'Bench Power Diagnostics', desc: 'The board is powered on a regulated DC supply before reassembly. Short circuits and abnormal current draws are isolated to specific rails.' },
+  { icon: Shield, title: '12-Month Workmanship Warranty', desc: 'Written warranty on every component we repair or replace. If the same fault returns within 12 months, we repair it again at no labour cost.' },
+];
+
+/* ── Suburb Service Area ─────────────────────────────────────────────────── */
+const suburbPages = [
+  { label: 'Sandton', href: '/liquid-damage/sandton', distance: '8 min' },
+  { label: 'Rosebank', href: '/liquid-damage/rosebank', distance: '5 min' },
+  { label: 'Midrand', href: '/liquid-damage/midrand', distance: '30 min' },
+  { label: 'Randburg', href: '/liquid-damage/randburg', distance: '15 min' },
+  { label: 'Fourways', href: '/liquid-damage/fourways', distance: '25 min' },
+  { label: 'Bryanston', href: '/liquid-damage/bryanston', distance: '10 min' },
+  { label: 'Morningside', href: '/liquid-damage/morningside', distance: '6 min' },
+  { label: 'Rivonia', href: '/liquid-damage/rivonia', distance: '12 min' },
+  { label: 'Houghton', href: '/liquid-damage/houghton', distance: '10 min' },
+  { label: 'Parkhurst', href: '/liquid-damage/parkhurst', distance: '12 min' },
+  { label: 'Pretoria', href: '/liquid-damage/pretoria', distance: '45 min' },
+  { label: 'Centurion', href: '/liquid-damage/centurion', distance: '35 min' },
+];
+
+/* ── Sub-Pages ───────────────────────────────────────────────────────────── */
+const subPages = [
+  { title: 'MacBook Pro liquid damage', href: '/liquid-damage/macbook-pro', desc: 'Pro 13", 14", 16" — Intel and Apple Silicon' },
+  { title: 'MacBook Air liquid damage', href: '/liquid-damage/macbook-air', desc: 'M1, M2, M3 — board cleaning and component repair' },
+  { title: 'iPhone liquid damage', href: '/liquid-damage/iphone', desc: 'iPhone 8 through iPhone 16 Pro Max water recovery' },
+  { title: 'iPad liquid damage', href: '/liquid-damage/ipad', desc: 'All iPad models including M4 iPad Pro' },
+  { title: 'Apple Watch liquid damage', href: '/liquid-damage/apple-watch', desc: 'Series 3 through Ultra 2 sealed-housing recovery' },
+  { title: 'iMac liquid damage', href: '/liquid-damage/imac', desc: '21.5", 24", 27" desktop board cleaning' },
+];
+
+/* ── FAQs (10 items) ─────────────────────────────────────────────────────── */
 const faqs = [
   {
-    question: 'How quickly should I bring in my device after liquid damage?',
+    question: 'How quickly should I bring my MacBook in after a spill?',
     answer:
-      'Immediately, within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. Rice does not help and wastes critical time. Switch your device off, do not attempt to charge it, and bring it to our Hyde Park workshop as soon as possible. We offer same-day assessment.',
+      'Immediately — within hours if possible. Corrosion on a wet logic board begins within minutes and spreads progressively. Switch the device off, do not attempt to charge it, do not turn it on to "check", and bring it to our Hyde Park workshop the same day. We have seen MacBooks recovered fully when brought in within hours, and the same machine declared uneconomic to repair when brought in three weeks later because the owner kept trying to charge it.',
   },
   {
-    question: 'Will you be able to tell me if my MacBook is repairable before I commit to a repair?',
+    question: 'Does rice work for a wet MacBook or iPhone?',
     answer:
-      'Yes. Our assessment is with. We will open the device, inspect the damage under magnification, and give you an honest prognosis and quote before any work begins. If it is not economically repairable, we will tell you, and help you with data recovery options.',
+      'No. Rice absorbs ambient humidity from the air — it does not draw liquid out of a sealed logic board. While the device sits in a bag of rice, mineral salts from the original spill are corroding copper traces and chip pads beneath the surface-mount components. By the time the device "feels dry", the damage is already done. The single most important step is professional ultrasonic cleaning to physically remove the conductive residue before it eats through traces.',
   },
   {
-    question: 'Does liquid damage repair fall under warranty?',
+    question: 'How much does MacBook liquid damage repair cost in Johannesburg?',
     answer:
-      'Liquid damage is not covered under Apple\'s standard warranty or AppleCare. However, ZA Support provides a warranty on all our liquid damage repairs, covering our workmanship and any components we replace.',
+      'MacBook Air liquid damage repair starts from R1,500, MacBook Pro 13″ from R2,500, and MacBook Pro 14″/16″ from R3,500 at our Hyde Park workshop. The exact price depends on which components were damaged — a simple board clean is at the lower end, while replacing a damaged power-management IC or USB-C controller adds component cost. We provide a written fixed-price quote after the assessment (from R599) and no work begins without your approval.',
+  },
+  {
+    question: 'How is component-level repair different from a logic-board swap?',
+    answer:
+      'A board swap replaces the entire logic board with a new or refurbished unit — typically R12,000 to R30,000 from the Apple Store, and on an Apple Silicon Mac you also lose your soldered SSD (and therefore all your data) plus your Touch ID pairing. Component-level repair identifies the specific failed chip or component on your existing board and replaces only that component under microscope. You keep your original board, your data, your Touch ID. We use component-level repair on roughly 90% of the liquid damage Macs that come into the workshop. Board replacement is a last resort.',
   },
   {
     question: 'What does the ultrasonic cleaning process involve?',
     answer:
-      'We disassemble your device completely, then submerge the logic board and affected components in an ultrasonic cleaning bath using IPA-based cleaning solution. The ultrasonic vibration dislodges corrosion, mineral deposits, and contaminants from component leads, pads, and traces that cannot be reached by hand cleaning alone. The board is then dried and inspected under magnification.',
+      'The logic board is removed from the chassis and submerged in a temperature-controlled ultrasonic tank filled with 99.9% isopropyl alcohol. High-frequency vibration causes the liquid to cavitate against every surface of the board, including underneath surface-mount chips, BGA solder balls, EMI shielding cans and connector pins that hand-cleaning cannot reach. The cycle runs at 40–60°C for 15–25 minutes. The board is then dried under heated air and inspected at 45× magnification before any further repair work begins.',
   },
   {
-    question: 'My MacBook got wet but still works, should I bring it in?',
+    question: 'My MacBook got wet but still works — should I bring it in anyway?',
     answer:
-      'Yes, absolutely. Liquid damage is progressive. Even if your MacBook appears to work normally after getting wet, corrosion continues to develop invisibly. The most common failure pattern we see is a MacBook that "survived" liquid exposure for weeks, then suddenly fails. Early intervention is dramatically cheaper and more successful than waiting.',
+      'Yes. Liquid damage is progressive. We see this every week in the workshop — a customer spilled coffee or wine on the MacBook two months ago, dried it off, and it kept working "fine" until one day it suddenly stopped charging, or the keyboard developed dead keys, or the Wi-Fi card failed. The corrosion was developing invisibly the entire time. Early intervention — ultrasonic cleaning while the board is still functional — is dramatically cheaper and far more successful than waiting for the failure cascade.',
   },
   {
-    question: 'What types of liquid cause the most damage?',
+    question: 'What types of liquid cause the worst damage?',
     answer:
-      'Coffee and sugary drinks cause the most damage because they leave conductive residues that accelerate corrosion and cause short circuits. Salt water causes rapid and severe corrosion. Pure water causes less immediate damage but still introduces moisture that leads to oxidation over time. Whatever liquid was involved, the repair process is the same, bring the device in immediately.',
+      'Sugary drinks (Coke, juice, energy drinks) and salt water are the most aggressive. They leave conductive residue that bridges adjacent chip pads and keeps causing short circuits long after the visible liquid has dried. Coffee is next — it is mildly acidic and leaves sticky residue. Pure water and tea are the gentlest, but still introduce moisture that triggers oxidation on copper traces over weeks. Sea water on iPhones is particularly destructive because chloride ions migrate through the case seals. Whatever the liquid, the cleaning protocol is the same — get it on the bench before the residue can react with the metals.',
+  },
+  {
+    question: 'Will my data be safe during liquid damage repair?',
+    answer:
+      'Yes — your storage stays with your device throughout the entire repair. On Intel MacBooks the SSD is a removable module that we leave in place. On Apple Silicon MacBooks the SSD is soldered to the logic board, and component-level repair preserves it. We do not reformat, reinstall macOS, or touch your data at any point unless you specifically request it. If we determine the SSD itself is damaged, we discuss recovery options with you before any further work.',
+  },
+  {
+    question: 'Does liquid damage repair come with a warranty?',
+    answer:
+      'Yes. Every liquid damage repair carries a written 12-month warranty on the components we repaired or replaced and on our workmanship. If the same fault returns within 12 months, we repair it again at no labour cost. The warranty does not cover further liquid exposure, drops, or unrelated faults — but it does cover the specific work we performed. The warranty document is handed to you at collection.',
+  },
+  {
+    question: 'Do you do liquid damage repair on iPhones and iPads?',
+    answer:
+      'Yes. iPhone liquid damage starts from R1,200 and iPad from R1,800. The process is similar — open the device, remove the logic board, ultrasonic clean, identify and replace failed components, full functional test. iPhone repairs typically complete in 24–72 hours, iPad in 3–5 days. We handle all iPhone models from iPhone 8 through iPhone 16 Pro Max, and all current iPads including the M4 iPad Pro.',
   },
 ];
 
-const subPages = [
-  { title: 'MacBook Pro', href: '/liquid-damage/macbook-pro' },
-  { title: 'MacBook Air', href: '/liquid-damage/macbook-air' },
-  { title: 'iPhone', href: '/liquid-damage/iphone' },
-  { title: 'iPad', href: '/liquid-damage/ipad' },
-  { title: 'Apple Watch', href: '/liquid-damage/apple-watch' },
-  { title: 'iMac', href: '/liquid-damage/imac' },
-];
-
-const steps = [
-  { title: 'Intake & Assessment', description: 'Assessment: from R599. We assess the extent of liquid exposure, identify affected areas, and provide an honest quote.' },
-  { title: 'Ultrasonic Cleaning', description: 'Full disassembly. Logic board and components cleaned in ultrasonic bath to remove corrosion and contaminants.' },
-  { title: 'Diagnostic', description: 'Post-clean diagnostic to identify damaged or failed components. Tested against known-good reference boards.' },
-  { title: 'Component Repair', description: 'Board-level component-level repair to replace failed chips, capacitors, resistors, and connector pins under magnification.' },
-  { title: 'Testing', description: 'Full functional test, display, keyboard, trackpad, ports, charging, Wi-Fi, camera, and all sensors.' },
-  { title: 'Return', description: 'Device returned clean, fully functional, with a ZA Support warranty on all repaired components.' },
-];
-
+/* ── Structured Data ─────────────────────────────────────────────────────── */
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook and Apple device liquid damage repair. Ultrasonic cleaning, board-level diagnostics, component repair. Hyde Park, Johannesburg.',
+  description:
+    'Professional MacBook, iPhone and iPad liquid damage repair in Johannesburg. Component-level board repair, ultrasonic cleaning, same-day assessment. From R1,500. 12-month warranty. Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
     { '@type': 'Neighborhood', name: 'Hyde Park' },
     { '@type': 'Neighborhood', name: 'Sandton' },
+    { '@type': 'Neighborhood', name: 'Rosebank' },
+    { '@type': 'Neighborhood', name: 'Bryanston' },
   ],
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
@@ -139,42 +205,31 @@ const serviceSchema = {
     itemListElement: [
       {
         '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'MacBook Liquid Damage Assessment',
-          description: 'Same-day assessment for MacBook liquid damage. Assessment: from R599.',
-        },
-        price: '0',
-        priceCurrency: 'ZAR',
+        itemOffered: { '@type': 'Service', name: 'MacBook Air Liquid Damage Repair', description: 'Component-level liquid damage repair for MacBook Air. From R1,500. 12-month warranty.' },
+        price: '1500', priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'MacBook Liquid Damage Repair, Ultrasonic Cleaning',
-          description: 'Full board disassembly, ultrasonic IPA cleaning, component-level repair. up-to-3 year warranty.',
-        },
-        priceCurrency: 'ZAR',
+        itemOffered: { '@type': 'Service', name: 'MacBook Pro Liquid Damage Repair', description: 'Component-level liquid damage repair for MacBook Pro 13/14/16-inch. From R2,500. 12-month warranty.' },
+        price: '2500', priceCurrency: 'ZAR',
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: { '@type': 'Service', name: 'iPhone Liquid Damage Repair', description: 'Component-level liquid damage repair for iPhone. From R1,200. 12-month warranty.' },
+        price: '1200', priceCurrency: 'ZAR',
       },
     ],
   },
 };
 
-// HowTo schema removed 25/05/2026 — Google deprecated HowTo rich results 14 Sep 2023.
-// Step content remains rendered visibly on the page; schema emission no longer adds SERP value.
-
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://zasupport.com' },
-    { '@type': 'ListItem', position: 2, name: 'Liquid Damage Repair', item: 'https://zasupport.com/liquid-damage' },
-  ],
-};
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Home', url: 'https://zasupport.com' },
+  { name: 'Liquid Damage Repair', url: 'https://zasupport.com/liquid-damage' },
+]);
 
 const faqSchema = buildFaqSchema(faqs);
 
-
+/* ── Page Component ──────────────────────────────────────────────────────── */
 export default function LiquidDamagePage() {
   return (
     <>
@@ -182,292 +237,420 @@ export default function LiquidDamagePage() {
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
-      {/* Hero */}
-      <section className="hero-gradient grid-overlay pt-32 pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Breadcrumb items={[{ label: 'Liquid Damage Repair' }]} />
-          <div className="mt-8 max-w-4xl">
-            <h1
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6"
-             
-            >
-              MacBook Liquid Damage
-              <br />
-              <span className="text-[#0FEA7A]">Repair in Johannesburg</span>
-            </h1>
-            <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Johannesburg&apos;s liquid damage specialists. Board-level cleaning, component repair, and same-day
-              assessment. Assessment: from R599. up-to-3 year warranty. Hyde Park.
+      <main className="bg-[#0A1A18] text-[#E8F4F1] min-h-screen">
+        {/* Breadcrumb */}
+        <div className="max-w-6xl mx-auto px-4 pt-4">
+          <Breadcrumb items={[
+            { label: 'Home', href: '/' },
+            { label: 'Liquid Damage Repair', href: '/liquid-damage' },
+          ]} />
+        </div>
+
+        {/* ── Hero Section ───────────────────────────────────────────────── */}
+        <section className="relative py-16 sm:py-24 px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="max-w-3xl">
+              <div className="flex items-center gap-2 text-[#0FEA7A] text-sm font-medium mb-4">
+                <Droplets className="w-4 h-4" />
+                <span>Component-Level Liquid Damage Specialists &bull; Hyde Park, Johannesburg</span>
+              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+                MacBook Liquid Damage<br />
+                <span className="text-[#0FEA7A]">Repair Johannesburg</span>
+              </h1>
+              <p className="text-lg sm:text-xl text-[#7A9E98] mb-4 speakable-summary">
+                Same-day assessment for spilled MacBooks, iPhones and iPads at our Hyde Park workshop.
+                Component-level board cleaning and chip-level repair from <strong className="text-[#E8F4F1]">R1,500</strong>,
+                with a written 12-month warranty. Assessment from R599.
+              </p>
+              <p className="text-[#7A9E98] mb-4">
+                We have been recovering liquid-damaged Apple devices from our Hyde Park workshop
+                for over {SITE.yearsExperience} years — more than 25,000 MacBook repair operations across
+                our specialist Apple workshop. We work at component level under microscope, not by
+                swapping the whole logic board, which keeps your original board, your data, and your
+                Touch ID pairing intact.
+              </p>
+              <p className="text-[#7A9E98] mb-8 text-sm italic">
+                By <Link href="/author/courtney-bentley" className="text-[#0FEA7A] underline hover:no-underline">Courtney Bentley</Link>,
+                Founder, CEO &amp; Apple Certified Expert Consultant
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href={buildWhatsAppUrl('LIQ-HERO', 'liquid-damage')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] font-bold px-8 py-4 rounded-lg hover:bg-[#0dcc6a] transition-colors text-lg"
+                >
+                  <Zap className="w-5 h-5" />
+                  WhatsApp Now
+                  <ArrowRight className="w-5 h-5" />
+                </a>
+                <a
+                  href={`tel:${CONTACT.phoneTel}`}
+                  className="inline-flex items-center justify-center gap-2 border border-[#27504D] text-[#E8F4F1] font-semibold px-8 py-4 rounded-lg hover:bg-[#27504D]/20 transition-colors text-lg"
+                >
+                  <Phone className="w-5 h-5" />
+                  {CONTACT.phone}
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Urgency Banner ─────────────────────────────────────────────── */}
+        <section className="bg-red-900/20 border-y border-red-500/30 py-6 px-4">
+          <div className="max-w-6xl mx-auto flex items-start gap-4">
+            <AlertTriangle className="w-6 h-6 text-red-400 flex-shrink-0 mt-0.5" />
+            <div>
+              <p className="text-white font-bold text-lg">
+                Wet MacBook? Act today. Corrosion spreads within hours — and rice does not help.
+              </p>
+              <p className="text-red-200 text-sm mt-1">
+                Switch the device off immediately. Do not attempt to charge it. Do not turn it on to &ldquo;check&rdquo;.
+                WhatsApp us a photo of the device and we will arrange same-day intake at our Hyde Park workshop.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Trust Badges ───────────────────────────────────────────────── */}
+        <section className="border-b border-[#27504D]/30 py-8 px-4">
+          <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+            {[
+              { icon: Shield, label: '12-Month Warranty' },
+              { icon: Clock, label: 'Same-Day Assessment' },
+              { icon: Star, label: `${SITE.rating}★ (${SITE.reviewCount} Reviews)` },
+              { icon: CheckCircle, label: 'Component-Level Repair' },
+            ].map(({ icon: Icon, label }) => (
+              <div key={label} className="flex flex-col items-center gap-2">
+                <Icon className="w-6 h-6 text-[#0FEA7A]" />
+                <span className="text-sm font-semibold text-[#E8F4F1]">{label}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ── What Happens Inside Your Device ──────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
+              What Happens Inside Your MacBook After a Spill
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-[#111C1A] rounded-xl p-6 border border-[#27504D]/20">
+                <div className="flex items-center gap-3 mb-4">
+                  <Droplets className="w-6 h-6 text-[#0FEA7A]" />
+                  <h3 className="text-xl font-bold">The First Few Minutes</h3>
+                </div>
+                <p className="text-[#7A9E98] leading-relaxed">
+                  The moment liquid penetrates the keyboard or chassis vents, it spreads across the logic board
+                  by capillary action — under the EMI shielding cans, between surface-mount chip leads, into
+                  connector contacts. Live power rails encounter conductive liquid and short-circuit. Tiny
+                  fuses (typically rated 3A, 5A or 10A) blow as designed to protect downstream chips. Power
+                  rails collapse, and your MacBook either shuts down immediately or continues running while
+                  damage cascades silently.
+                </p>
+              </div>
+              <div className="bg-[#111C1A] rounded-xl p-6 border border-[#27504D]/20">
+                <div className="flex items-center gap-3 mb-4">
+                  <AlertTriangle className="w-6 h-6 text-[#0FEA7A]" />
+                  <h3 className="text-xl font-bold">The Hours and Days After</h3>
+                </div>
+                <p className="text-[#7A9E98] leading-relaxed">
+                  As the liquid dries, the dissolved sugars, salts and acids stay behind as conductive residue
+                  on the board. Galvanic corrosion begins at every junction where dissimilar metals meet.
+                  Copper traces oxidise. BGA solder balls beneath chips corrode from the edges inward. The
+                  damage is invisible from above because everything happens under the chip packages. This is
+                  why ultrasonic cleaning is critical — it physically lifts the residue out from underneath
+                  the components before corrosion eats through the connections.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Our Process ────────────────────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Our 6-Step Liquid Damage Repair Process</h2>
+            <p className="text-[#7A9E98] mb-10 max-w-2xl">
+              The same process whether you bring in a wet MacBook Air or a flooded MacBook Pro 16-inch.
+              Workshop-only — no parts are shipped, no devices leave Johannesburg.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              {processSteps.map((s) => (
+                <div key={s.step} className="bg-[#0A1A18] rounded-xl p-6 border border-[#27504D]/20 relative">
+                  <div className="absolute -top-3 -left-3 w-10 h-10 rounded-full bg-[#0FEA7A] text-[#0A1A18] flex items-center justify-center font-extrabold text-lg">
+                    {s.step}
+                  </div>
+                  <h3 className="text-xl font-bold mt-4 mb-3">{s.title}</h3>
+                  <p className="text-[#7A9E98] leading-relaxed text-sm">{s.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Why Component-Level Repair ─────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
+              Why We Repair at Component Level — Not Board Swap
+            </h2>
+            <p className="text-[#7A9E98] mb-10 max-w-2xl">
+              Most Apple repair shops quote a full logic-board replacement for any liquid damage —
+              R12,000 to R30,000 at the Apple Store, and on Apple Silicon Macs you lose your data and
+              Touch ID pairing in the process. We do the opposite. We fix the specific failed components
+              under microscope and leave your original board in place.
+            </p>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              {componentRepairFeatures.map(({ icon: Icon, title, desc }) => (
+                <div key={title} className="bg-[#111C1A] rounded-xl p-6 border border-[#27504D]/20">
+                  <Icon className="w-7 h-7 text-[#0FEA7A] mb-3" />
+                  <h3 className="text-lg font-bold mb-2">{title}</h3>
+                  <p className="text-[#7A9E98] leading-relaxed text-sm">{desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Pricing Table ──────────────────────────────────────────────── */}
+        <section id="pricing" className="py-16 sm:py-20 px-4 bg-[#111C1A]">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Liquid Damage Repair Pricing</h2>
+            <p className="text-[#7A9E98] mb-10 max-w-2xl">
+              Component-level repair pricing. All prices include ultrasonic cleaning, component repair,
+              labour, full functional testing, and a written 12-month warranty. Compare with the Apple
+              Store, which quotes R12,000 to R30,000 for a full logic-board swap.
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left">
+                <thead>
+                  <tr className="border-b border-[#27504D]/40">
+                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">Device</th>
+                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">From</th>
+                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Turnaround</th>
+                    <th className="py-4 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Warranty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {pricingTiers.map((tier) => (
+                    <tr key={tier.device} className={`border-b border-[#27504D]/20 ${tier.popular ? 'bg-[#0FEA7A]/5' : ''}`}>
+                      <td className="py-4 pr-6 font-semibold">
+                        {tier.device}
+                        {tier.popular && <span className="ml-2 text-xs bg-[#0FEA7A] text-[#0A1A18] px-2 py-0.5 rounded-full font-bold">Most Common</span>}
+                      </td>
+                      <td className="py-4 pr-6 text-[#0FEA7A] font-bold text-lg">{tier.from}</td>
+                      <td className="py-4 pr-6 text-[#7A9E98] hidden sm:table-cell">{tier.turnaround}</td>
+                      <td className="py-4 text-[#7A9E98] hidden sm:table-cell">{tier.warranty}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-[#7A9E98] text-sm mt-6">
+              Assessment fee from R599 — covers full disassembly, inspection, and written fixed-price quote.
+              If you proceed with the repair, the assessment fee is included in the total. All prices in ZAR including VAT.
+            </p>
+            <PricingRange page="/liquid-damage" />
+            <PricingNote />
+          </div>
+        </section>
+
+        {/* ── Why ZA Support ─────────────────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-10">Why Johannesburg Trusts ZA Support With Liquid Damage</h2>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {[
+                {
+                  title: '17 Years In One Workshop',
+                  desc: `We have run the same Hyde Park workshop since 2009 — ${SITE.yearsExperience} years of Apple-only repair, including more than 25,000 individual repair operations across our specialist Apple workshop. Liquid damage is one of our highest-volume repair categories.`,
+                },
+                {
+                  title: 'Component-Level Specialists',
+                  desc: 'Most repair shops in Johannesburg quote a full board replacement for any liquid damage. We work at component level under microscope, replacing the specific failed chips — power-management ICs, charging controllers, USB-C ports, audio amplifiers — for a fraction of board-swap cost.',
+                },
+                {
+                  title: 'Workshop-Only — No Off-Site Shipping',
+                  desc: 'Your device stays at our Hyde Park workshop for the entire repair. We do not ship boards to a third-party microsolder shop. Every step — disassembly, ultrasonic cleaning, component repair, testing — happens in front of our own technicians in Johannesburg.',
+                },
+                {
+                  title: 'Written 12-Month Warranty',
+                  desc: 'Every liquid damage repair carries a written 12-month warranty on the components we repaired and our workmanship. Most Johannesburg shops offer 90 days. The Apple Store offers 90 days on out-of-warranty work. We offer 12 months.',
+                },
+                {
+                  title: 'Transparent Fixed-Price Quotes',
+                  desc: 'You receive a written, fixed-price quote after the assessment — and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. Assessment fee from R599, included in the repair cost if you proceed.',
+                },
+                {
+                  title: 'Forbes Africa 30 Under 30 (2019)',
+                  desc: 'Founder Courtney Bentley was named to the Forbes Africa 30 Under 30 list in 2019 for the work building ZA Support into one of Johannesburg\'s most-reviewed independent Apple specialists. We treat that recognition as a standard to maintain, not a credential to rest on.',
+                },
+              ].map((item) => (
+                <div key={item.title} className="bg-[#111C1A] rounded-xl p-6 border border-[#27504D]/20">
+                  <h3 className="text-lg font-bold mb-3">{item.title}</h3>
+                  <p className="text-[#7A9E98] leading-relaxed text-sm">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Sub-Pages Grid ─────────────────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Liquid Damage Repair by Device</h2>
+            <p className="text-[#7A9E98] mb-10 max-w-2xl">
+              Every Apple device has different liquid damage failure patterns. Select your model below for
+              device-specific information including common failure components, turnaround time, and price.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {subPages.map((page) => (
+                <Link
+                  key={page.href}
+                  href={page.href}
+                  className="bg-[#0A1A18] rounded-xl p-6 border border-[#27504D]/20 hover:border-[#0FEA7A]/40 transition-colors group"
+                >
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-[#0FEA7A] transition-colors">{page.title}</h3>
+                  <p className="text-sm text-[#7A9E98] mb-3">{page.desc}</p>
+                  <ArrowRight className="w-4 h-4 text-[#0FEA7A]" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Related Repairs ────────────────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-8">Related Apple Repair Services</h2>
+            <p className="text-[#7A9E98] mb-8 max-w-2xl">
+              Liquid damage frequently causes downstream faults. If your MacBook is not charging after a
+              spill, the cause could be a damaged USB-C controller (covered by our{' '}
+              <Link href="/logic-board-repair" className="text-[#0FEA7A] underline hover:no-underline">logic board repair</Link>{' '}
+              service), a damaged battery cell (
+              <Link href="/battery-replacement" className="text-[#0FEA7A] underline hover:no-underline">battery replacement</Link>),
+              or a failed display (
+              <Link href="/screen-repair" className="text-[#0FEA7A] underline hover:no-underline">screen repair</Link>).
+              Our assessment identifies the root cause before any repair is quoted.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {[
+                { title: 'Logic Board Repair', href: '/logic-board-repair', desc: 'Component-level board repair for no-power, no-display, USB-C faults' },
+                { title: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook and iPhone battery replacement with up-to-3 year warranty' },
+                { title: 'Screen Repair', href: '/screen-repair', desc: 'Cracked or flickering displays — MacBook, iMac, iPhone' },
+                { title: 'Contact Us', href: '/contact', desc: 'Book an assessment or get a WhatsApp quote' },
+              ].map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="bg-[#111C1A] rounded-xl p-6 border border-[#27504D]/20 hover:border-[#0FEA7A]/40 transition-colors group"
+                >
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-[#0FEA7A] transition-colors">{link.title}</h3>
+                  <p className="text-sm text-[#7A9E98]">{link.desc}</p>
+                  <ArrowRight className="w-4 h-4 text-[#0FEA7A] mt-3" />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Suburb Service Areas ───────────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Liquid Damage Repair Near You</h2>
+            <p className="text-[#7A9E98] mb-8">
+              We collect and service all suburbs within 60 km of our Hyde Park workshop, plus Pretoria and Centurion.
+              Click your area for local details.
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+              {suburbPages.map((s) => (
+                <Link
+                  key={s.href}
+                  href={s.href}
+                  className="flex items-center justify-between bg-[#0A1A18] rounded-lg px-4 py-3 border border-[#27504D]/20 hover:border-[#0FEA7A]/40 transition-colors group"
+                >
+                  <div className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-[#0FEA7A]" />
+                    <span className="font-semibold text-sm group-hover:text-[#0FEA7A] transition-colors">{s.label}</span>
+                  </div>
+                  <span className="text-xs text-[#7A9E98]">{s.distance}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Google Reviews ─────────────────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-2 text-center">What Our Customers Say</h2>
+            <p className="text-[#7A9E98] text-center mb-8">
+              {SITE.rating}★ across {SITE.reviewCount} Google reviews —
+              Johannesburg&apos;s most reviewed independent Apple specialist.
+            </p>
+            <Suspense fallback={<div className="h-48 bg-[#111C1A] rounded-xl animate-pulse" />}>
+              <GoogleReviews count={6} />
+            </Suspense>
+          </div>
+        </section>
+
+        {/* ── Orphan-link injection — per-model + per-suburb ─────────────── */}
+        <OrphanLinks
+          sectionTitle="Liquid damage repair across Gauteng"
+          intro="Most liquid damage on MacBook, iMac, iPhone and iPad comes through our Hyde Park workshop, with collection across the wider Gauteng area. Pick the model you have or the suburb closest to you to read what the assessment, ultrasonic cleaning and board-level repair work looks like for that device or that area."
+          groups={[
+            { heading: 'By Apple model', links: orphanModelLinks },
+            { heading: 'By Gauteng suburb', links: orphanSuburbLinks },
+          ]}
+        />
+
+        {/* ── FAQ Section ────────────────────────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
+          <div className="max-w-4xl mx-auto">
+            <FAQAccordion items={faqs} title="Liquid Damage Repair — Frequently Asked Questions" />
+          </div>
+        </section>
+
+        {/* ── Bottom CTA ─────────────────────────────────────────────────── */}
+        <section className="py-16 sm:py-24 px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">
+              Wet MacBook? WhatsApp Us Now
+            </h2>
+            <p className="text-lg text-[#7A9E98] mb-4 max-w-2xl mx-auto">
+              Send us a photo of your device and a short description of what was spilled. We will reply
+              with same-day intake details. Assessment from R599 with a written fixed-price quote before
+              any work begins.
+            </p>
+            <p className="text-[#7A9E98] mb-8">
+              <MapPin className="w-4 h-4 inline-block mr-1 text-[#0FEA7A]" />
+              {CONTACT.address.full} &bull; {CONTACT.hours.weekdays}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={buildWhatsAppUrl('LIQ-BOTTOM', 'liquid-damage')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] font-bold px-10 py-4 rounded-lg hover:bg-[#0dcc6a] transition-colors text-lg"
+              >
+                <Zap className="w-5 h-5" />
+                WhatsApp for Quote
+                <ArrowRight className="w-5 h-5" />
+              </a>
               <a
                 href={`tel:${CONTACT.phoneTel}`}
-                className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
+                className="inline-flex items-center justify-center gap-2 border border-[#27504D] text-[#E8F4F1] font-semibold px-10 py-4 rounded-lg hover:bg-[#27504D]/20 transition-colors text-lg"
+              >
                 <Phone className="w-5 h-5" />
                 Call {CONTACT.phone}
               </a>
-              <a
-                href="/api/wa?service=liquid-damage&page=/liquid-damage"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
-              >
-                WhatsApp for Quote <ArrowRight className="w-5 h-5" />
-              </a>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Google Reviews */}
-      <section className="py-12 sm:py-16 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
-            <p className="text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider mb-2">Verified Reviews</p>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]">4.9★ — Over 600 Google Reviews</h2>
-            <p className="text-[#7A9E98] mt-2">16 years of Apple expertise. Johannesburg&apos;s most reviewed Apple specialist.</p>
-          </div>
-          <Suspense fallback={<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">{[...Array(4)].map((_,i) => <div key={i} className="glass-card p-6 animate-pulse h-40 rounded-2xl" />)}</div>}>
-            <GoogleReviews count={6} />
-          </Suspense>
-        </div>
-      </section>
-
-      {/* Urgency Banner */}
-      <section className="bg-[#111C1A] py-6">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="urgency-banner flex items-start gap-4">
-            <AlertTriangle className="w-6 h-6 text-white flex-shrink-0 mt-0.5" />
-            <div>
-              <p className="text-white font-bold text-lg">
-                Water damage? Act immediately, oxidation spreads within hours. Do NOT use rice.
-              </p>
-              <p className="text-red-200 text-sm mt-1">
-                Every hour increases repair complexity. Switch off your device, do not charge it, and contact us now.
-                We offer same-day assessment in Hyde Park, Johannesburg.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What happens inside */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2
-                className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6"
-               
-              >
-                What Happens Inside Your Device After a Spill?
-              </h2>
-              <div className="space-y-5 text-[#7A9E98] leading-relaxed">
-                <p>
-                  The moment liquid enters your device, it bridges contacts on the logic board, causing short circuits and immediate component damage.
-                </p>
-                <p>
-                  Coffee, sugary drinks, and salt water are worst — they leave conductive residues that keep causing damage long after the liquid dries.
-                </p>
-                <p>
-                  Rice does nothing. By the time your device feels dry, corrosion has already eaten through copper traces and component pads.
-                </p>
-                <p>
-                  Ultrasonic cleaning physically removes those deposits — stopping the corrosion process before it becomes permanent.
-                </p>
-              </div>
-            </div>
-
-            {/* Devices We Repair */}
-            <div>
-              <h2
-                className="text-3xl font-extrabold text-[#E8F4F1] mb-6"
-               
-              >
-                Devices We Repair
-              </h2>
-              <div className="bg-[rgba(22,34,32,0.6)] border border-[rgba(15,234,122,0.15)] rounded-2xl overflow-hidden">
-                {[
-                  { device: 'MacBook Air', models: 'M1, M2, M3, Intel 2018–2020' },
-                  { device: 'MacBook Pro', models: '13", 14", 16", All M-series & Intel' },
-                  { device: 'iPhone', models: 'iPhone 8 through iPhone 16 Pro Max' },
-                  { device: 'iPad', models: 'All models including M4 iPad Pro' },
-                  { device: 'Apple Watch', models: 'Series 3 through Ultra 2' },
-                  { device: 'iMac', models: '21.5" & 27", M1, M3, Intel' },
-                ].map((item, i) => (
-                  <div
-                    key={item.device}
-                    className={`p-4 ${i < 5 ? 'border-b border-[rgba(255,255,255,0.05)]' : ''}`}
-                  >
-                    <p className="text-[#E8F4F1] font-semibold">{item.device}</p>
-                    <p className="text-[#7A9E98] text-xs mt-0.5">{item.models}</p>
-                  </div>
-                ))}
-              </div>
-              <p className="text-[#7A9E98] text-xs mt-3">
-                Assessment: from R599 on all liquid damage repairs.
-              </p>
-              <div className="mt-4">
-                <PricingNote variant="inline" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 6-Step Process */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-12 text-center"
-           
-          >
-            Our 6-Step Repair Process
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {steps.map((step, index) => (
-              <div key={step.title} className="glass-card p-6">
-                <div className="step-number mb-4">0{index + 1}</div>
-                <h3
-                  className="text-[#E8F4F1] font-bold text-lg mb-2"
-                 
-                >
-                  {step.title}
-                </h3>
-                <p className="text-[#7A9E98] text-sm leading-relaxed">{step.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Why Rice Doesn't Work */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[rgba(22,34,32,0.6)] border border-[rgba(255,165,0,0.2)] rounded-2xl p-8">
-            <h2
-              className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
-             
-            >
-              Why Rice Doesn&apos;t Work (And What to Do Instead)
-            </h2>
-            <div className="space-y-4 text-[#7A9E98] leading-relaxed">
-              <p>
-                Rice absorbs atmospheric moisture — not the corrosion already forming on your logic board. While your device sits in a bag, the damage spreads.
-              </p>
-              <p className="text-[#E8F4F1] font-semibold">
-                Switch off immediately. Do not charge it. Bring it to Hyde Park. Every hour matters.
-              </p>
-            </div>
-          </div>
-
-          {/* Logic Board damage section */}
-          <div className="mt-12">
-            <h2
-              className="text-3xl font-extrabold text-[#E8F4F1] mb-4"
-             
-            >
-              When Liquid Damage Affects the Logic Board
-            </h2>
-            <p className="text-[#7A9E98] leading-relaxed mb-4">
-              When corrosion reaches chips, capacitors, or copper traces, standard cleaning is not enough. We use microscope-guided component-level repair to replace individual components — far cheaper than a full board swap.
-            </p>
-            <p className="text-[#7A9E98] leading-relaxed mb-6">
-              No power, no display, USB-C not charging, keyboard dead — our{' '}
-              <Link href="/logic-board-repair" className="text-[#0FEA7A] hover:underline">
-                logic board repair service
-              </Link>{' '}
-              handles all of these.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Signals */}
-      <section className="py-12 bg-[#111C1A] border-y border-[rgba(15,234,122,0.1)]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {[
-              { icon: Shield, label: 'Assessment: from R599', sub: 'Zero risk to you' },
-              { icon: CheckCircle, label: 'Warranty', sub: 'On all repairs' },
-              { icon: Clock, label: 'Fastest Turnaround Times', sub: 'Most liquid damage cases' },
-              { icon: Phone, label: 'Same-Day Assessment', sub: 'Hyde Park, JHB' },
-            ].map(({ icon: Icon, label, sub }) => (
-              <div key={label} className="flex flex-col items-center gap-2 p-4">
-                <Icon className="w-7 h-7 text-[#0FEA7A]" />
-                <span className="text-[#E8F4F1] font-semibold text-sm">{label}</span>
-                <span className="text-[#7A9E98] text-xs">{sub}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Sub-pages grid */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl font-extrabold text-[#E8F4F1] mb-8"
-           
-          >
-            Liquid Damage Repair by Device
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {subPages.map((page) => (
-              <Link
-                key={page.href}
-                href={page.href}
-                className="glass-card p-5 flex items-center justify-between group"
-              >
-                <div>
-                  <h3 className="text-[#E8F4F1] font-bold mb-1">{page.title}</h3>
-                </div>
-                <ArrowRight className="w-5 h-5 text-[#7A9E98] group-hover:text-[#0FEA7A] transition-colors" />
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Orphan-link injection — per-model + per-suburb */}
-      <OrphanLinks
-        sectionTitle="Liquid damage repair across Gauteng"
-        intro="Most liquid damage on Mac, MacBook and iMac comes through our Hyde Park workshop, with collection across the wider Gauteng area. Pick the model you have or the suburb closest to you to read what the assessment, cleaning and board-level repair work looks like for that device or that area."
-        groups={[
-          { heading: 'By Mac model', links: orphanModelLinks },
-          { heading: 'By Gauteng suburb', links: orphanSuburbLinks },
-        ]}
-      />
-
-      {/* FAQ */}
-      <section className="py-10 sm:py-20 bg-[#111C1A]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Liquid Damage Repair, Common Questions" />
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-10 sm:py-20 bg-[#0A1A18]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2
-              className="text-3xl font-extrabold text-[#E8F4F1] mb-3"
-             
-            >
-              Book Assessment, We Respond Within 1 Hour
-            </h2>
-            <p className="text-[#7A9E98] mb-6">
-              Assessment: from R599. Honest prognosis. warranty on all work.
-            </p>
-            <a
-              href={`tel:${CONTACT.phoneTel}`}
-              className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
-              <Phone className="w-5 h-5" />
-              Call {CONTACT.phone}
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
+      </main>
     </>
   );
 }
