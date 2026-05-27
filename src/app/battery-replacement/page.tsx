@@ -554,6 +554,53 @@ export default function BatteryReplacementPage() {
           ]}
         />
 
+        {/* ── Related Mac Repair Services ──────────────────────────────── */}
+        <section className="py-16 sm:py-20 px-4 bg-[#0A1A18]">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3 text-center">
+              Related Mac repair services
+            </h2>
+            <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
+              Battery work is one of the most common jobs through our Hyde Park workshop, but it sits alongside three other repair lines that often surface during the same diagnostic. If your MacBook is showing more than a battery fault, start with the matching service below.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <Link
+                href="/liquid-damage"
+                className="block p-6 bg-[#111C1A] border border-[#27504D] rounded-xl hover:border-[#0FEA7A] hover:bg-[#152825] transition-colors group"
+              >
+                <h3 className="text-xl font-bold text-[#E8F4F1] mb-2 group-hover:text-[#0FEA7A]">
+                  MacBook liquid damage repair
+                </h3>
+                <p className="text-[#7A9E98] text-sm">
+                  Spill, splash or condensation reaching the logic board. Same-day stripdown, ultrasonic clean and component-level board work in our workshop.
+                </p>
+              </Link>
+              <Link
+                href="/logic-board-repair"
+                className="block p-6 bg-[#111C1A] border border-[#27504D] rounded-xl hover:border-[#0FEA7A] hover:bg-[#152825] transition-colors group"
+              >
+                <h3 className="text-xl font-bold text-[#E8F4F1] mb-2 group-hover:text-[#0FEA7A]">
+                  MacBook logic board repair
+                </h3>
+                <p className="text-[#7A9E98] text-sm">
+                  Component-level board repair for no-power, no-boot, GPU and PMIC faults — Apple Store and Mac Shack quotes typically R15,000+, our route is from R599 assessment.
+                </p>
+              </Link>
+              <Link
+                href="/macbook-repair"
+                className="block p-6 bg-[#111C1A] border border-[#27504D] rounded-xl hover:border-[#0FEA7A] hover:bg-[#152825] transition-colors group"
+              >
+                <h3 className="text-xl font-bold text-[#E8F4F1] mb-2 group-hover:text-[#0FEA7A]">
+                  MacBook repair hub
+                </h3>
+                <p className="text-[#7A9E98] text-sm">
+                  Every repair line we offer for MacBook Pro, MacBook Air, iMac and Mac mini — pick the model and the symptom to read the service that fits your machine.
+                </p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ Section ────────────────────────────────────────────────── */}
         <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
           <div className="max-w-4xl mx-auto">
