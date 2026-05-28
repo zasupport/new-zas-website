@@ -30,7 +30,7 @@ Social: linkedin.com/company/zasupport | linkedin.com/in/bentleycourtney/ | face
 | Instagram | CREDENTIAL SET | 60-day token exchanged (Terminal), User ID 17841447858894928 |
 | Facebook | CREDENTIAL SET | See ~/.za-support.env [REDACTED from git — rotate at developers.facebook.com] |
 | GBP API | BLOCKED | Case 2-6348000041138, 7-10 working days |
-| Anthropic API | CREDENTIAL SET | Console confirmed (sk-ant-api03-cf0) |
+| Anthropic API | CREDENTIAL SET | Console confirmed (REDACTED — Anthropic key stored only in chmod-600 config outside the repo) |
 | MS Graph | CREDENTIAL SET | Pre-existing (033c8fd5-10b5-4918-9030-5a336531066f) |
 
 ### Everything else: NOT INSTALLED / NOT DONE / NOT DEPLOYED
