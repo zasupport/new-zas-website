@@ -706,5 +706,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-keyboard-liquid-damage-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-liquid-damage-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pro-14-inch-m3-logic-board-liquid-damage-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-14-inch-m3-logic-board-data-recovery-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-14-inch-m3-logic-board-failure-diagnostics-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-14-inch-m3-logic-board-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-14-inch-m3-no-power-logic-board-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
