@@ -21,6 +21,14 @@ export const metadata: Metadata = {
 
 const services = [
   {
+    icon: Monitor,
+    title: 'MacBook Repair',
+    description: 'MacBook Air and Pro repair — screen, battery, keyboard, board-level faults. All M1/M2/M3/M4 and Intel models.',
+    href: '/macbook-repair',
+    accent: 'text-[#0FEA7A]',
+    whatsapp: buildWhatsAppUrl('HOME-MBR', 'macbook-repair'),
+  },
+  {
     icon: Cpu,
     title: 'Logic Board Repair',
     description: 'Expert component-level repair for no-power, no-display, USB-C failure, and GPU faults.',

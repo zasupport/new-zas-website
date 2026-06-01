@@ -48,7 +48,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Battery replacement (top-level)
     { url: `${base}/battery-replacement`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
-    // MacBook repair sub-pages
+    // MacBook repair hub + sub-pages
+    { url: `${base}/macbook-repair`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/macbook-repair/ssd-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/macbook-repair/ram-upgrade`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/battery`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },

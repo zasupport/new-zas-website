@@ -48,7 +48,7 @@ const nextConfig: NextConfig = {
 
       // Apple Repair hub aliases
       { source: '/apple-specialist', destination: '/apple-repair', permanent: true },
-      { source: '/macbook-repair', destination: '/apple-repair', permanent: true },
+      // /macbook-repair un-redirected 01/06/2026 — the dedicated 22KB page now serves "macbook repair" (387 imp, was pos 14.9 stuck on homepage). §410/§434/§401.
       { source: '/mac-repair', destination: '/apple-repair', permanent: true },
       { source: '/mac-repair-johannesburg', destination: '/apple-repair', permanent: true },
       { source: '/apple-repair-johannesburg', destination: '/apple-repair', permanent: true },
