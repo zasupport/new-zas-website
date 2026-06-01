@@ -3,6 +3,8 @@ import { Phone, Mail, MapPin, Zap, ExternalLink } from 'lucide-react';
 import { CONTACT, SITE, SOCIAL } from '@/lib/constants';
 
 const serviceLinks = [
+  { label: 'MacBook Repair', href: '/macbook-repair' },
+  { label: 'iMac Repair', href: '/imac-repair' },
   { label: 'Liquid Damage Repair', href: '/liquid-damage' },
   { label: 'Logic Board Repair', href: '/logic-board-repair' },
   { label: 'iPhone Repair', href: '/iphone-repair' },
