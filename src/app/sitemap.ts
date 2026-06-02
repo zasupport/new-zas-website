@@ -717,5 +717,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/apple-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/mac-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/apple-consultants-network-south-africa-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/exchange-online-to-m365-business-premium-migration-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/hnw-apple-vision-pro-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-practice-apple-watch-clinical-use-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/microsoft-365-business-premium-south-africa-pricing-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wont-turn-on-morningside`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wont-turn-on-northcliff`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wont-turn-on-parkhurst`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wont-turn-on-randburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wont-turn-on-rivonia`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wont-turn-on-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wont-turn-on-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
