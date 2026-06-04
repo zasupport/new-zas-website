@@ -28,6 +28,14 @@ npm run lint
 echo "→ Building..."
 npm run build
 
+# 3.5 RENDERED-HTML leak gate (§343/§377/§404 + §426 consumer-side) — fail-closed.
+# Scans the BUILT HTML (the true rendered surface) for BANNED content rendered as
+# VISIBLE body text (raw JSON-LD, ```fences, schema headings, Word-count metadata).
+# The source-side scan (step 0) cannot catch these: fence-toggle math / embedded
+# <script> blocks render schema as VISIBLE text on the live page (the recurring leak).
+echo "→ Scanning RENDERED HTML for visible banned-content leaks..."
+python3 scripts/scan-rendered-leaks.py || { echo "ERROR: rendered-leak gate FAILED — aborting deploy. Fix: python3 scripts/blog_content_sanitiser.py --apply"; exit 1; }
+
 # 4. Git push (triggers Vercel auto-deploy)
 echo "→ Pushing to GitHub..."
 # Stage tracked files and new source files only — never accidentally stage .env secrets
