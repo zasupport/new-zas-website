@@ -424,6 +424,16 @@ def main():
         )
         sys.exit(1)
 
+    # §343/§377 belt-and-braces: full-file sanitise sweep before the overnight push.
+    # The per-post insertion guard (build_post_entry) already strips each new post, but
+    # this idempotent, source-only sweep (no build, cannot abort) guarantees the WHOLE
+    # page.tsx that ships is leak-free — covering any manual edit or concurrent drift.
+    # The overnight path bypasses deploy.sh's rendered gate, so this is its clean-on-push
+    # guarantee. The §357 daily build+scan sweep is the ≤24h rendered backstop.
+    subprocess.run(
+        [sys.executable, str(Path(__file__).parent / "blog_content_sanitiser.py"), "--apply"],
+        cwd=WEBSITE_DIR, check=False,
+    )
     subprocess.run(
         ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],
         cwd=WEBSITE_DIR, check=True,
