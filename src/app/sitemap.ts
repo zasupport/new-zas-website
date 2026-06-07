@@ -787,5 +787,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/medical-practice-liquid-damage-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/wealth-manager-data-recovery-urgent-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/wealth-manager-liquid-damage-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/gpu-repair-bryanston`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-water-damage-repair-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-water-damage-repair-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-bryanston`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-fourways`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-houghton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-melrose`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-morningside`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-rivonia`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-rosebank`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-sandton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
