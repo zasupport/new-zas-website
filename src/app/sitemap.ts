@@ -784,5 +784,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/liquid-damage-repair-bryanston`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/liquid-damage-repair-fourways`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/liquid-damage-repair-houghton`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-practice-liquid-damage-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wealth-manager-data-recovery-urgent-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/wealth-manager-liquid-damage-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
