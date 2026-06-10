@@ -46,6 +46,17 @@ BANNED_LINE = [
     re.compile(r'^\s*\*{0,2}\s*External link used\s*:?\s*\*{0,2}\s*$', re.I),
     re.compile(r'^\s*\*{0,2}\s*Word count', re.I),
     re.compile(r'^\s*#{0,3}\s*VERIFICATION\s*(&|AND)?\s*(LEARNING|REPORT|OUTPUT)', re.I),
+    # §377 widen (10/06/2026): the overnight generator appends a bold-label
+    # authoring/eval trailer the older patterns missed (the IP-leak commit
+    # deadlock). Match by CLASS: an eval label or an authoring-metadata bold
+    # label, heading OR inline-bold, colon-terminated. These never appear in
+    # legitimate body copy (which uses ### Q: / ## headings, not **Label:**).
+    re.compile(r'^\s*\*{0,2}\s*(LEARNED|BETTER|WHY(\s+SUCCESS)?|REPLICATE|VERIFIED OUTPUT|KEY INSIGHT|OBSERVATION|TASK)\s*\*{0,2}\s*:', re.I),
+    # Authoring-summary trailer labels. The colon must follow the label word
+    # IMMEDIATELY (optional closing **) so legit reader headings like
+    # "**Internal links for further reading:**" are NOT matched — only the
+    # metadata shape "**Internal links:** 3 (...)" / "**Schema:** FAQPage JSON-LD".
+    re.compile(r'^\s*\*{2}\s*(Internal links?|External links?|Geographic scope|Banned phrases?|UK English|FAQs?|Schema|CTAs?|Reading time|Target audience|Primary keyword|Secondary keyword|Meta description|SEO score)\*{0,2}\s*:', re.I),
 ]
 LINK_LABEL = re.compile(r'^\s*\*{0,2}\s*(Internal|External) links?\s*(used|placed)?\s*:?\s*\*{0,2}\s*$', re.I)
 LIST_LINE = re.compile(r'^\s*[-*]\s|^\s*\[')
@@ -70,7 +81,7 @@ def sanitise(content: str, escaped: bool = False) -> str:
     drop_wrap = fne is not None and FENCE.match(lines[fne]) and FENCE.match(lines[fne]).group(1).lower() == 'markdown'
 
     # 3. walk: drop ```json blocks, drop banned metadata lines + their following lists
-    out = []; n = len(lines); k = 0
+    out = []; n = len(lines); k = 0; dropped_banned = False
     while k < n:
         l = lines[k]; fm = FENCE.match(l)
         if drop_wrap and k == fne:
@@ -80,6 +91,7 @@ def sanitise(content: str, escaped: bool = False) -> str:
             while k < n and not FENCE.match(lines[k]): k += 1
             k += 1; continue
         if any(p.match(l) for p in BANNED_LINE):
+            dropped_banned = True
             is_link_label = bool(LINK_LABEL.match(l))
             k += 1
             if is_link_label:  # also drop the following link list lines until a blank
@@ -98,6 +110,14 @@ def sanitise(content: str, escaped: bool = False) -> str:
 
     # 5. collapse 3+ blank lines left behind
     res = re.sub(r'\n{3,}', '\n\n', '\n'.join(out))
+    # 6. §206/§377: SURGICAL — only when this post actually carried a banned
+    #    trailer, trim the dangling horizontal-rule separators + blanks the
+    #    removed labels orphaned at the tail. Gated on dropped_banned so clean
+    #    posts (incl. pre-existing trailing `---`, a separate §206 cleanup) are
+    #    left byte-for-byte untouched — keeps the deadlock fix's diff surgical.
+    if dropped_banned:
+        res = re.sub(r'(?:\s*\n\s*-{3,}\s*)+\s*$', '\n', res)
+        res = res.rstrip() + '\n'
     return res
 
 # ---------------- CLI ----------------
@@ -150,12 +170,32 @@ def cmd_test():
     out = sanitise(leak, escaped=False)
     bad = [t for t in ['```json', '```markdown', '<script', 'JSON-LD FAQ Schema', 'Internal links used',
                        'Word count', '"@type"'] if t in out]
+    # §377 regression fixture — the real overnight trailer that deadlocked the
+    # commit on 10/06/2026 (bold-label eval + authoring metadata + orphan rules).
+    trailer = ('Last paragraph of real body copy ends here.\n\n---\n\n---\n\n'
+               '**Internal links:** 3 ([a](/a), [b](/b), [c](/c))  \n'
+               '**External link:** 1 (Apple Support)  \n'
+               '**Geographic scope:** Hyde Park, Sandton  \n'
+               '**Banned phrases:** ✓ Removed  \n'
+               '**UK English:** ✓ Verified  \n'
+               '**FAQs:** 6 questions with answers  \n'
+               '**Schema:** FAQPage JSON-LD included  \n'
+               '**CTAs:** WhatsApp + booking  \n\n---\n\n'
+               '**LEARNED:** [x] | **BETTER:** [y] | **WHY:** [z] | **REPLICATE:** [w]')
+    out3 = sanitise(trailer, escaped=False)
+    trailer_bad = [t for t in ['**LEARNED:**', '**BETTER:**', '**Internal links:**',
+                               '**External link:**', '**Geographic scope:**', '**Banned phrases:**',
+                               '**Schema:**', '**CTAs:**', '**FAQs:**', '**UK English:**'] if t in out3]
+    body_kept = 'Last paragraph of real body copy ends here.' in out3
+    no_orphan_rule = not out3.rstrip().endswith('---')
+
     keep = ('```markdown\n# Real\n```bash\nsudo x\n```\n## FAQ\n### Q: Why?\nReason.')
     out2 = sanitise(keep, escaped=False)
     bash_kept = '```bash' in out2 and 'sudo x' in out2
     faq_kept = '### Q: Why?' in out2 and 'Reason.' in out2
-    ok = not bad and bash_kept and faq_kept
+    ok = not bad and not trailer_bad and body_kept and no_orphan_rule and bash_kept and faq_kept
     print(f"positive control — banned removed: {'CLEAN' if not bad else 'LEFTOVER:'+str(bad)}")
+    print(f"trailer control  — trailer removed: {'CLEAN' if not trailer_bad else 'LEFTOVER:'+str(trailer_bad)}; body kept: {body_kept}; no orphan rule: {no_orphan_rule}")
     print(f"negative control — ```bash kept: {bash_kept}, FAQ kept: {faq_kept}")
     print("PASS §sanitiser" if ok else "FAIL §sanitiser")
     return 0 if ok else 1

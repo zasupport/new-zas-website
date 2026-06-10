@@ -439,7 +439,44 @@ def main():
         cwd=WEBSITE_DIR, check=True,
     )
     msg = f"feat: {len(newly_inserted)} blog posts auto-inserted (overnight Haiku batch)"
-    subprocess.run(["git", "commit", "-m", msg], cwd=WEBSITE_DIR, check=True)
+
+    # Bug A fix (10/06/2026): a pre-commit hook rejection (§300/§377 IP-leak gate)
+    # used to raise CalledProcessError here, leaving the batch STAGED but never
+    # committed — a silent orphan that re-failed every run (the IP-leak commit
+    # deadlock). New behaviour: commit; if the hook rejects, clean-the-leak ONCE
+    # (the widened sanitiser) and retry; if it STILL rejects, fail LOUD and
+    # un-stage so we never leave a silent staged orphan (a human/§357 resolves it).
+    # NOT a blunt `git checkout HEAD` — page.tsx is monolithic, so a revert would
+    # nuke the whole batch (good posts with the leaky one) and doom-loop.
+    def _commit_with_heal(message):
+        r = subprocess.run(["git", "commit", "-m", message],
+                           cwd=WEBSITE_DIR, capture_output=True, text=True)
+        if r.returncode == 0:
+            return True
+        print("⚠️  commit rejected (likely §300/§377 IP-leak hook) — one clean-the-leak "
+              f"heal attempt:\n{(r.stdout + r.stderr)[-800:]}", file=sys.stderr)
+        subprocess.run(
+            [sys.executable, str(Path(__file__).parent / "blog_content_sanitiser.py"), "--apply"],
+            cwd=WEBSITE_DIR, check=False,
+        )
+        subprocess.run(["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],
+                       cwd=WEBSITE_DIR, check=False)
+        r2 = subprocess.run(["git", "commit", "-m", message],
+                            cwd=WEBSITE_DIR, capture_output=True, text=True)
+        if r2.returncode == 0:
+            print("✅ commit succeeded after clean-the-leak heal")
+            return True
+        print("❌ §313 commit STILL rejected after heal — un-staging blog files so no "
+              f"silent staged orphan remains; manual review required:\n{(r2.stdout + r2.stderr)[-800:]}",
+              file=sys.stderr)
+        # Un-stage only (keep edits on disk so posts aren't lost); next run's
+        # sanitiser sweep gets another chance, and the failure is LOUD not silent.
+        subprocess.run(["git", "reset", "--", "src/app/blog/", "src/app/sitemap.ts"],
+                       cwd=WEBSITE_DIR, check=False)
+        return False
+
+    if not _commit_with_heal(msg):
+        return 1
     push_result = subprocess.run(
         ["git", "push", "origin", "main"], cwd=WEBSITE_DIR, capture_output=True, text=True,
     )
