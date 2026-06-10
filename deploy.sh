@@ -5,6 +5,15 @@
 
 set -e
 
+# §autodev overnight guard (10/06/2026): while the unattended overnight autodev loop is
+# active, ALL deploys to live main are STRUCTURALLY disabled — overnight work stages on a
+# branch for morning review only (advisor: no unattended production deploys). Remove flag to re-enable.
+if [ -f "$HOME/.za-overnight-ACTIVE" ]; then
+  echo "⛔ Overnight autodev active (~/.za-overnight-ACTIVE) — live deploys disabled until morning review."
+  echo "   Work is staged on the autodev branch. Remove the flag to deploy manually."
+  exit 9
+fi
+
 echo "=== ZA Support Website Deploy ==="
 echo "$(date '+%d/%m/%Y %H:%M')"
 
