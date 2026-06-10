@@ -47,7 +47,7 @@ const serviceCards = [
     title: 'Logic Board Repair',
     description: 'Component-level repair specialists. We repair the specific faulty component — saving you up to 80% versus full board replacement. No-power, no-display, USB-C failure, GPU faults.',
     href: '/logic-board-repair',
-    tag: 'Most popular',
+    tag: 'Specialist service',
     accent: 'text-orange-400',
   },
   {

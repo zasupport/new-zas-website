@@ -30,13 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'MacBook Pro Keyboard Repair Johannesburg',
-  description: 'Professional MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, liquid damage. All models. up-to-3 year warranty.',
-  brand: { '@type': 'Brand', name: 'ZA Support' },
-};
 
 const serviceSchema = {
   '@context': 'https://schema.org',

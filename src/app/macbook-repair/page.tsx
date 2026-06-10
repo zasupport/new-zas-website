@@ -21,13 +21,13 @@ const orphanMacbookRepairLinks = [
 const REVIEWS = { rating: SITE.rating, count: SITE.reviewCount };
 
 export const metadata: Metadata = {
-  title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
+  title: 'MacBook Repair Johannesburg 2026 | ZA Support | All Models Fixed',
   description:
     'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board component-level repair. All M-series and Intel models. Assessment: from R599. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair' },
   keywords: ['macbook repair johannesburg', 'mac repair near me johannesburg', 'macbook repair sandton', 'apple repair johannesburg', 'macbook battery replacement johannesburg', 'macbook screen repair johannesburg'],
   openGraph: {
-    title: 'MacBook Repair Johannesburg | ZA Support | All Models Fixed',
+    title: 'MacBook Repair Johannesburg 2026 | ZA Support | All Models Fixed',
     description: 'MacBook repair in Johannesburg. Battery, screen, keyboard, liquid damage, logic board component-level repair. Assessment: from R599.',
     url: 'https://zasupport.com/macbook-repair',
     siteName: 'ZA Support',

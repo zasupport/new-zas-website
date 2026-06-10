@@ -109,12 +109,6 @@ const serviceAreas = [
   'Morningside', 'Sandhurst', 'Parkhurst', 'Edenvale', 'Greenside', 'Linden',
 ];
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://zasupport.com/#organization',
-  name: 'ZA Support',
-};
 
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({

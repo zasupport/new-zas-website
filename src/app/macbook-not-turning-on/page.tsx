@@ -239,11 +239,6 @@ const serviceSchema = buildServiceSchema({
 const faqSchema = buildFaqSchema(faqs);
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  name: SITE.name,
-};
 
 // HowTo schema removed 25/05/2026 — Google deprecated HowTo rich results 14 Sep 2023.
 // Step content remains rendered visibly on the page; schema emission no longer adds SERP value.

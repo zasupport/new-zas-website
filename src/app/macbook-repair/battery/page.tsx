@@ -27,13 +27,6 @@ export const metadata: Metadata = {
 
 // ─── Schemas ────────────────────────────────────────────────────────────────
 
-const aggregateRatingSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Product',
-  name: 'MacBook Battery Replacement Johannesburg',
-  description: 'Professional MacBook battery replacement service in Johannesburg. All models covered. up-to-3 year warranty.',
-  brand: { '@type': 'Brand', name: 'ZA Support' },
-};
 
 const serviceSchema = {
   '@context': 'https://schema.org',
