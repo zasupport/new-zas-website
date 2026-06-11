@@ -82,12 +82,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/logic-board-repair/macbook-pro-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-pro-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/macbook-pro-m4`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/macbook-pro-m5`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-pro-14-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-pro-13-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-air-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-air-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/logic-board-repair/macbook-air-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/macbook-air-m4`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/logic-board-repair/macbook-air-m5`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
     // Logic board suburb pages
     { url: `${base}/logic-board-repair/sandton`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },

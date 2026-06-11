@@ -19,12 +19,16 @@ const orphanLbrModelLinks = [
   { title: 'MacBook Air M1', href: '/logic-board-repair/macbook-air-m1', description: 'Logic board repair for MacBook Air M1' },
   { title: 'MacBook Air M2', href: '/logic-board-repair/macbook-air-m2', description: 'Logic board repair for MacBook Air M2' },
   { title: 'MacBook Air M3', href: '/logic-board-repair/macbook-air-m3', description: 'Logic board repair for MacBook Air M3' },
+  { title: 'MacBook Air M4', href: '/logic-board-repair/macbook-air-m4', description: 'Logic board repair for MacBook Air M4' },
+  { title: 'MacBook Air M5', href: '/logic-board-repair/macbook-air-m5', description: 'Logic board repair for MacBook Air M5' },
   { title: 'MacBook Pro 13-inch', href: '/logic-board-repair/macbook-pro-13-inch', description: 'Logic board repair for MacBook Pro 13-inch' },
   { title: 'MacBook Pro 14-inch', href: '/logic-board-repair/macbook-pro-14-inch', description: 'Logic board repair for MacBook Pro 14-inch' },
   { title: 'MacBook Pro 16-inch', href: '/logic-board-repair/macbook-pro-16-inch', description: 'Logic board repair for MacBook Pro 16-inch' },
   { title: 'MacBook Pro M1', href: '/logic-board-repair/macbook-pro-m1', description: 'Logic board repair for MacBook Pro M1' },
   { title: 'MacBook Pro M2', href: '/logic-board-repair/macbook-pro-m2', description: 'Logic board repair for MacBook Pro M2' },
   { title: 'MacBook Pro M3', href: '/logic-board-repair/macbook-pro-m3', description: 'Logic board repair for MacBook Pro M3' },
+  { title: 'MacBook Pro M4', href: '/logic-board-repair/macbook-pro-m4', description: 'Logic board repair for MacBook Pro M4, M4 Pro, M4 Max' },
+  { title: 'MacBook Pro M5', href: '/logic-board-repair/macbook-pro-m5', description: 'Logic board repair for MacBook Pro M5, M5 Pro, M5 Max' },
 ];
 
 const orphanLbrSuburbLinks = [
