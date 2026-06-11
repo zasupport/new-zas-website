@@ -143,12 +143,38 @@ def read_time(content: str) -> str:
 # §529 doorway detection — Gauteng suburb tokens (§169) that, when permuted with a
 # service term into a /blog slug, create a doorway page. Named-entity tokens (§194) are
 # high-value and exempt (kept live in the 10/06 prune).
-DOORWAY_SUBURBS = {
+# Static floor (suburbs that may not yet have a /service dir). The live set below
+# UNIONS this with the real /logic-board-repair/ service dirs so the guard can never
+# drift out of sync (§529 root-cause 11/06/2026: static-only set silently missed
+# melville/craighall/emmarentia/greenside/linden/parktown-north → doorway posts slipped through).
+_DOORWAY_SUBURBS_FLOOR = {
     'sandton', 'rosebank', 'bryanston', 'fourways', 'morningside', 'rivonia', 'houghton',
     'melrose', 'illovo', 'parkhurst', 'northcliff', 'randburg', 'sunninghill', 'paulshof',
     'woodmead', 'kyalami', 'edenvale', 'bedfordview', 'midrand', 'kempton-park', 'centurion',
     'pretoria', 'roodepoort', 'boksburg', 'benoni', 'alberton', 'germiston', 'randpark-ridge',
 }
+# device/model dirs under /logic-board-repair/ that are NOT suburbs (must not be flagged)
+_NON_SUBURB_DIRS = {'imac', 'mac-mini', 'mac-studio', 'mac-pro'}
+
+def _service_suburbs():
+    """Derive the live suburb set from the /logic-board-repair/ service dirs (the SoT).
+    Excludes model/device dirs and files. Fails safe to the static floor on any error."""
+    import os
+    base = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        '..', 'src', 'app', 'logic-board-repair')
+    out = set()
+    try:
+        for d in os.listdir(base):
+            if not os.path.isdir(os.path.join(base, d)):
+                continue
+            if d.startswith('macbook') or d in _NON_SUBURB_DIRS:
+                continue  # model/device dir, not a suburb
+            out.add(d)
+    except OSError:
+        pass
+    return out
+
+DOORWAY_SUBURBS = _DOORWAY_SUBURBS_FLOOR | _service_suburbs()
 NAMED_ENTITY_TOKENS = {
     'investec', 'hospital', 'clinic', 'jamf', 'netcare', 'medical', 'wealth', 'law',
     'practice', 'practices', 'mediclinic', 'specialist',
