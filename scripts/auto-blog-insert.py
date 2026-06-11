@@ -140,6 +140,30 @@ def read_time(content: str) -> str:
     return f"{mins} min read"
 
 
+# §529 doorway detection — Gauteng suburb tokens (§169) that, when permuted with a
+# service term into a /blog slug, create a doorway page. Named-entity tokens (§194) are
+# high-value and exempt (kept live in the 10/06 prune).
+DOORWAY_SUBURBS = {
+    'sandton', 'rosebank', 'bryanston', 'fourways', 'morningside', 'rivonia', 'houghton',
+    'melrose', 'illovo', 'parkhurst', 'northcliff', 'randburg', 'sunninghill', 'paulshof',
+    'woodmead', 'kyalami', 'edenvale', 'bedfordview', 'midrand', 'kempton-park', 'centurion',
+    'pretoria', 'roodepoort', 'boksburg', 'benoni', 'alberton', 'germiston', 'randpark-ridge',
+}
+NAMED_ENTITY_TOKENS = {
+    'investec', 'hospital', 'clinic', 'jamf', 'netcare', 'medical', 'wealth', 'law',
+    'practice', 'practices', 'mediclinic', 'specialist',
+}
+
+
+def is_doorway_slug(slug: str) -> bool:
+    """§529: True if slug is a service×suburb permutation with no high-value named-entity
+    token. These belong on /service/<suburb> pages, not /blog — block at insert time."""
+    s = slug.lower()
+    if any(tok in s for tok in NAMED_ENTITY_TOKENS):
+        return False  # §194 high-value — keep
+    return any(re.search(rf'(^|-){sub}(-|$)', s) for sub in DOORWAY_SUBURBS)
+
+
 def category_from_slug(slug: str) -> str:
     """Infer category from slug."""
     if any(k in slug for k in ['cost', 'price', 'how-much']):
@@ -333,6 +357,14 @@ def main():
 
         if slug in inserted:
             print(f"  SKIP (already inserted): {slug}")
+            continue
+
+        # §529 DATA-DRIVEN DOORWAY GUARD (root-cause fix for recurring doorway posts):
+        # a /blog slug that is a service×suburb permutation belongs on a /service/<suburb>
+        # page, NOT in the blog — it dilutes the cluster and gets pruned/301'd anyway.
+        # Block it at insert time UNLESS it carries a high-value named-entity token (§194).
+        if is_doorway_slug(slug):
+            print(f"  SKIP (§529 doorway suburb-permutation — belongs on /service, not /blog): {slug}")
             continue
 
         # iCloud advisory locks can raise EDEADLK (errno 11) on read_text().
