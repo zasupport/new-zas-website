@@ -110,6 +110,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/macbook-pro-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-pro-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-pro-m4`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-pro-m5`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-pro-13-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-pro-14-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
@@ -117,6 +118,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/macbook-air-m2`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-air-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/macbook-air-m4`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/liquid-damage/macbook-air-m5`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/mac-mini`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
     // Battery replacement model pages
