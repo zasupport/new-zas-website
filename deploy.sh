@@ -33,6 +33,13 @@ npx tsc --noEmit
 echo "→ Linting..."
 npm run lint
 
+# 2.5 §529/§401/§399 redirect↔sitemap consistency gate (Fable audit step 5, 11/06/2026) —
+# fail-closed. A redirected slug must NEVER appear in sitemap.ts (sitemap advertising a
+# 308 URL orphans it + confuses Google's canonical). §377 positive control:
+# scripts/test runs the gate against an injected collision and expects exit 1.
+echo "→ Checking redirect↔sitemap consistency..."
+node scripts/check-redirect-sitemap-consistency.mjs || { echo "ERROR: redirect↔sitemap consistency gate FAILED — a redirected slug is still in sitemap.ts. Remove it from src/app/sitemap.ts."; exit 1; }
+
 # 3. Build
 echo "→ Building..."
 npm run build
