@@ -208,6 +208,26 @@ const nextConfig: NextConfig = {
       { source: '/blog/wont-turn-on-rivonia', destination: '/macbook-repair', permanent: true },
       { source: '/blog/wont-turn-on-rosebank', destination: '/macbook-repair', permanent: true },
       { source: '/blog/wont-turn-on-sandton', destination: '/macbook-repair', permanent: true },
+
+      // §529 doorway prune wave-2 (11/06): 18 overnight-generated thin permutations → hub
+      { source: '/blog/macbook-pro-m3-water-damage-repair-bryanston', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-water-damage-repair-fourways', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-water-damage-repair-houghton', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-water-damage-repair-melrose', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-water-damage-repair-morningside', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-water-damage-repair-rivonia', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-water-damage-repair-rosebank', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-water-damage-repair-sandton', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-bryanston', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-fourways', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-houghton', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-melrose', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-morningside', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-rivonia', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-rosebank', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m3-wont-turn-on-sandton', destination: '/macbook-not-turning-on', permanent: true },
+      { source: '/blog/macbook-pro-m4-data-recovery-bryanston', destination: '/macbook-repair/data-recovery', permanent: true },
+      { source: '/blog/macbook-pro-m4-data-recovery-fourways', destination: '/macbook-repair/data-recovery', permanent: true },
     ];
   },
 };
