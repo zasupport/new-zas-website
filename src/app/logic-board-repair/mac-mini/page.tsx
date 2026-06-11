@@ -9,7 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'Mac Mini Logic Board Repair Johannesburg | ZA Support',
+  title: 'Mac Mini Logic Board Repair Johannesburg',
   description:
     'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment: from R599, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },

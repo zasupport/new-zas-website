@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M2 Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
+  title: 'MacBook Air M2 Liquid Damage Repair Johannesburg [2026] | From R599',
   description:
     'MacBook Air M2 liquid damage repair Johannesburg. Thinnest Air ever at 11.3mm — liquid hits the board in seconds. MagSafe 3 corrosion specialist. Assessment from R599. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air-m2' },

@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iMac Water Damage Repair Johannesburg | ZA Support',
+  title: 'iMac Water Damage Repair Johannesburg',
   description:
     'iMac water damage repair in Johannesburg. 21.5" and 27" models, M1, M3, and Intel. Assessment: from R599. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/imac' },

@@ -63,7 +63,7 @@ const orphanLbrSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: 'MacBook Logic Board Repair Johannesburg [2026] | From R2,500 | ZA Support',
+  title: 'MacBook Logic Board Repair Johannesburg [2026] | From R2,500',
   description:
     'MacBook logic board repair in Johannesburg. Component-level repair for no-power, no-display, USB-C failure, GPU faults. From R2,500. R599 assessment. 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair' },

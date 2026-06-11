@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M1 Liquid Damage Repair Johannesburg | ZA Support',
+  title: 'MacBook Pro M1 Liquid Damage Repair Johannesburg',
   description:
     'MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture means spills affect CPU, GPU and RAM simultaneously. Ultrasonic cleaning, component-level repair. Assessment from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m1' },

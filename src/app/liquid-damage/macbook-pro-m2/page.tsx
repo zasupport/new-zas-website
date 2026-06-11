@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M2 Liquid Damage Repair Johannesburg | ZA Support',
+  title: 'MacBook Pro M2 Liquid Damage Repair Johannesburg',
   description:
     'MacBook Pro M2 liquid damage repair in Johannesburg. M2 NAND controller vulnerability, keyboard deck spill recovery, ultrasonic cleaning. Assessment from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m2' },

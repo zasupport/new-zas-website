@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air Logic Board Repair | ZA Support',
+  title: 'MacBook Air Logic Board Repair',
   description:
     'MacBook Air logic board repair in Johannesburg. Assessment: from R599, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air' },

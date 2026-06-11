@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 13 Inch Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
+  title: 'MacBook Pro 13 Inch Liquid Damage Repair Johannesburg [2026] | From R599',
   description:
     'MacBook Pro 13-inch liquid damage repair Johannesburg. M1, M2 & Intel models. Touch Bar corrosion, USB-C controller recovery. Assessment from R599. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-13-inch' },

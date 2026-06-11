@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M3 Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
+  title: 'MacBook Pro M3 Liquid Damage Repair Johannesburg [2026] | From R599',
   description:
     'MacBook Pro M3 liquid damage repair Johannesburg. 3nm chip, MagSafe 3 port corrosion, NAND recovery. Assessment from R599. From R599 assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m3' },

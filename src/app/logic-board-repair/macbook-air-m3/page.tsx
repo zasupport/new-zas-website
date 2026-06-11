@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M3 Logic Board Repair 2026 | ZA Support',
+  title: 'MacBook Air M3 Logic Board Repair 2026',
   description:
     'Expert MacBook Air M3 logic board repair in Johannesburg. Component-level diagnosis of M3 chip, MagSafe 3, USB-C and backlight failures. From R599 assessment. Assessment from R599.',
   alternates: {

@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M1 Logic Board Repair Johannesburg | ZA Support',
+  title: 'MacBook Air M1 Logic Board Repair Johannesburg',
   description: 'MacBook Air M1 logic board repair in Johannesburg. No power, USB-C charging faults, black screen, liquid damage. Fanless design means no active cooling failures. Assessment from R599.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m1' },
 };

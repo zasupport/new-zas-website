@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air Liquid Damage Repair | ZA Support',
+  title: 'MacBook Air Liquid Damage Repair',
   description:
     'MacBook Air liquid damage repair in Johannesburg. Emergency guide, Assessment: from R599, up-to-3 year warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air' },

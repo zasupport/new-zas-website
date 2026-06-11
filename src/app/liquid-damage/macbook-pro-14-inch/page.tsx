@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
+  title: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg [2026] | From R599',
   description:
     'MacBook Pro 14-inch liquid damage repair Johannesburg. HDMI port, SD slot, MagSafe 3 corrosion specialists. Assessment from R599. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-14-inch' },

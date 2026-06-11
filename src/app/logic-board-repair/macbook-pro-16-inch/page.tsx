@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 16-inch Logic Board Repair Johannesburg | ZA Support',
+  title: 'MacBook Pro 16-inch Logic Board Repair Johannesburg',
   description: 'MacBook Pro 16-inch logic board repair in Johannesburg. Intel 2019-2021, M1 Pro/Max 2021, M2 Pro/Max 2023, M3 Pro/Max 2023. No power, GPU, display, liquid damage. Assessment from R599.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-16-inch' },
 };

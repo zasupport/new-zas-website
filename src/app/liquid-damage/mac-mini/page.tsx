@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'Mac Mini Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
+  title: 'Mac Mini Liquid Damage Repair Johannesburg [2026] | From R599',
   description:
     'Mac Mini liquid damage repair Johannesburg. M1, M2, M2 Pro, M4 models. Internal PSU corrosion, port contamination. Assessment from R599. From R599 assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/mac-mini' },

@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro Liquid Damage Repair | ZA Support',
+  title: 'MacBook Pro Liquid Damage Repair',
   description:
     'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment: from R599, up-to-3 year warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro' },

@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M2 Logic Board Repair Johannesburg | ZA Support',
+  title: 'MacBook Air M2 Logic Board Repair Johannesburg',
   description: 'MacBook Air M2 logic board repair in Johannesburg. No power, MagSafe 2 charging, USB-C, black screen, liquid damage. New chassis design. Component-level repair. Assessment from R599.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m2' },
 };

@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Apple Watch Water Damage Repair Johannesburg | ZA Support',
+  title: 'Apple Watch Water Damage Repair Johannesburg',
   description:
     'Apple Watch water damage repair in Johannesburg. Series 3 through Ultra 2. Assessment: from R599. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/apple-watch' },

@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg [2026] | From R599 | ZA Support',
+  title: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg [2026] | From R599',
   description:
     'MacBook Pro 16-inch liquid damage repair Johannesburg. M1 Max, M2 Max, M3 Max specialists. 140W MagSafe 3, HDMI, SD slot corrosion repair. Assessment from R599. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-16-inch' },

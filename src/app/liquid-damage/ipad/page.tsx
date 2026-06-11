@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iPad Liquid Damage Repair Johannesburg | ZA Support',
+  title: 'iPad Liquid Damage Repair Johannesburg',
   description:
     'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Assessment: from R599, up-to-3 year warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/ipad' },

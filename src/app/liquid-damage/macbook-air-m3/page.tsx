@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M3 Liquid Damage Repair Johannesburg 2026 | ZA Support',
+  title: 'MacBook Air M3 Liquid Damage Repair Johannesburg 2026',
   description: 'MacBook Air M3 liquid damage repair in Johannesburg. Coffee spills, water damage, condensation. Ultrasonic cleaning and component-level board repair. Assessment from R599. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air-m3' },
 };

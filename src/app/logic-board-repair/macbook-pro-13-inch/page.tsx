@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 13-inch Logic Board Repair Johannesburg | ZA Support',
+  title: 'MacBook Pro 13-inch Logic Board Repair Johannesburg',
   description: 'MacBook Pro 13-inch logic board repair in Johannesburg. Intel 2016-2020, M1 2020, M2 2022. Butterfly keyboard, USB-C faults, no power, T2 chip, liquid damage. Assessment from R599.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-13-inch' },
 };

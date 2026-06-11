@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'iPhone Liquid Damage Repair Johannesburg | ZA Support',
+  title: 'iPhone Liquid Damage Repair Johannesburg',
   description:
     'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Assessment: from R599. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/iphone' },

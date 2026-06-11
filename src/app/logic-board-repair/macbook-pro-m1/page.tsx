@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M1 Logic Board Repair Johannesburg | ZA Support',
+  title: 'MacBook Pro M1 Logic Board Repair Johannesburg',
   description: 'MacBook Pro M1 logic board repair in Johannesburg. Charging faults, no power, black screen, USB-C failures, liquid damage. Component-level repair. Assessment from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-m1' },
 };

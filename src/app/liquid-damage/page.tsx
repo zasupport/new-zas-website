@@ -66,7 +66,7 @@ const orphanSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: 'MacBook Liquid Damage Repair Johannesburg [2026] | From R1,500 | ZA Support',
+  title: 'MacBook Liquid Damage Repair Johannesburg [2026] | From R1,500',
   description:
     'MacBook & iPhone liquid damage repair in Johannesburg. Component-level board cleaning, ultrasonic recovery, same-day assessment. From R1,500 repair, R599 assessment. 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },

@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M1 Liquid Damage Repair Johannesburg | ZA Support',
+  title: 'MacBook Air M1 Liquid Damage Repair Johannesburg',
   description:
     'MacBook Air M1 liquid damage repair in Johannesburg. Fanless design means liquid pools on the board instead of spreading. Thinner chassis concentrates damage. Assessment from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air-m1' },
