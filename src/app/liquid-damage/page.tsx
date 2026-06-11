@@ -20,11 +20,13 @@ const orphanModelLinks = [
   { title: 'MacBook Air M1', href: '/liquid-damage/macbook-air-m1', description: 'Liquid damage repair for MacBook Air M1' },
   { title: 'MacBook Air M2', href: '/liquid-damage/macbook-air-m2', description: 'Liquid damage repair for MacBook Air M2' },
   { title: 'MacBook Air M3', href: '/liquid-damage/macbook-air-m3', description: 'Liquid damage repair for MacBook Air M3' },
+  { title: 'MacBook Air M4', href: '/liquid-damage/macbook-air-m4', description: 'Liquid damage repair for MacBook Air M4' },
   { title: 'MacBook Pro 13-inch', href: '/liquid-damage/macbook-pro-13-inch', description: 'Liquid damage repair for MacBook Pro 13-inch' },
   { title: 'MacBook Pro 14-inch', href: '/liquid-damage/macbook-pro-14-inch', description: 'Liquid damage repair for MacBook Pro 14-inch' },
   { title: 'MacBook Pro 16-inch', href: '/liquid-damage/macbook-pro-16-inch', description: 'Liquid damage repair for MacBook Pro 16-inch' },
   { title: 'MacBook Pro M1', href: '/liquid-damage/macbook-pro-m1', description: 'Liquid damage repair for MacBook Pro M1' },
   { title: 'MacBook Pro M2', href: '/liquid-damage/macbook-pro-m2', description: 'Liquid damage repair for MacBook Pro M2' },
+  { title: 'MacBook Pro M4', href: '/liquid-damage/macbook-pro-m4', description: 'Liquid damage repair for MacBook Pro M4, M4 Pro, M4 Max' },
   { title: 'MacBook Pro M3', href: '/liquid-damage/macbook-pro-m3', description: 'Liquid damage repair for MacBook Pro M3' },
 ];
 
