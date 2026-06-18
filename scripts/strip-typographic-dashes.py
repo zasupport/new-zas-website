@@ -24,7 +24,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from dash_normalizer import normalize_dashes, has_typographic_dash, count_dashes  # noqa: E402
 
 EXCLUDE_RE = re.compile(r"\.(bak|orig)$|\.pre-|\.backup|backup|~$|\.swp$")
-INCLUDE_EXT = {".tsx", ".ts", ".jsx", ".js", ".mdx"}
+# Includes rendered DATA files (.json/.md/.mdx) — e.g. src/data/google-reviews.json
+# renders real review text on the homepage; scanning only .tsx gave a false green.
+INCLUDE_EXT = {".tsx", ".ts", ".jsx", ".js", ".mdx", ".md", ".json"}
 
 
 def live_files():
