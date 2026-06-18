@@ -773,5 +773,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/signs-macbook-has-liquid-damage`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
         { url: `${base}/blog/signs-of-water-damage-macbook`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
         { url: `${base}/blog/spilled-water-macbook-air-johannesburg`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+        { url: `${base}/blog/imac-vertical-lines-on-screen-gpu`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-flexgate-display-cable-failure`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-kernel-panic-causes-and-fixes`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-liquid-damage-first-24-hours`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m4-wont-turn-on-diagnosis`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-stage-light-effect-explained`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-swollen-battery-warning-signs`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-t2-security-chip-failure-symptoms`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-usb-c-not-charging-troubleshooting`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-water-damage-corrosion-repair-process`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/no-power-vs-no-display-macbook-difference`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/thunderbolt-port-not-working-macbook`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
