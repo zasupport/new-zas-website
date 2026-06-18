@@ -785,5 +785,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-water-damage-corrosion-repair-process`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/no-power-vs-no-display-macbook-difference`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/thunderbolt-port-not-working-macbook`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-backlight-failure-dim-screen`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-fan-running-loud-causes`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-not-detecting-ssd-data-recovery`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-shuts-down-randomly-causes`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-three-beeps-on-startup-ram`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/spilled-coffee-on-macbook-what-to-do`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
