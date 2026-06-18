@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'How long does MacBook Air liquid damage repair take?',
     answer:
-      'The assessment is completed within 24 hours. Simple repairs, keyboard replacement, minor board cleaning, are typically done within 24–48 hours. Logic board cleaning and component repair takes 48–72 hours. Complex multi-site corrosion with IC replacement takes 3–5 business days. We confirm the exact timeline before work begins.',
+      'The assessment is completed within 24 hours. Simple repairs, keyboard replacement, minor board cleaning, are typically done within 24-48 hours. Logic board cleaning and component repair takes 48-72 hours. Complex multi-site corrosion with IC replacement takes 3-5 business days. We confirm the exact timeline before work begins.',
   },
   {
     question: 'What happens if I do not repair the liquid damage?',
@@ -98,7 +98,7 @@ const emergencySteps = [
   {
     step: '3',
     title: 'Tilt to drain, keyboard side down',
-    detail: 'Turn the MacBook Air upside down with the keyboard facing down. Because the Air has no fan to obstruct liquid flow, gravity will pull liquid away from the logic board more effectively than in other models. Hold this position for 2–3 minutes over a towel.',
+    detail: 'Turn the MacBook Air upside down with the keyboard facing down. Because the Air has no fan to obstruct liquid flow, gravity will pull liquid away from the logic board more effectively than in other models. Hold this position for 2-3 minutes over a towel.',
     urgent: false,
   },
   {
@@ -121,7 +121,7 @@ const severityTiers = [
     detail: 'Liquid reached the keyboard and possibly the trackpad but did not penetrate to the logic board. Common in small spills. The MacBook Air keyboard layout provides some protection for the board beneath.',
     repair: 'Keyboard and/or trackpad replacement',
     recovery: 'Excellent',
-    timeframe: '24–48 hours',
+    timeframe: '24-48 hours',
     colour: 'green' as const,
   },
   {
@@ -129,7 +129,7 @@ const severityTiers = [
     detail: 'Liquid reached the logic board but corrosion is localised. More urgent on MacBook Air than Pro due to the fanless design allowing liquid to pool. Ultrasonic cleaning and targeted IC repair restores full function.',
     repair: 'Professional board cleaning, IC cleaning, trace repair',
     recovery: 'Very good',
-    timeframe: '48–72 hours',
+    timeframe: '48-72 hours',
     colour: 'yellow' as const,
   },
   {
@@ -137,7 +137,7 @@ const severityTiers = [
     detail: 'Extensive corrosion across multiple board areas. On M-series MacBook Airs this is especially significant as RAM, storage, and CPU are on a single integrated component. Multiple ICs affected requiring full board cleaning plus component replacement.',
     repair: 'Full component repair, multiple IC replacements',
     recovery: 'Case dependent',
-    timeframe: '3–5 business days',
+    timeframe: '3-5 business days',
     colour: 'orange' as const,
   },
   {
@@ -145,7 +145,7 @@ const severityTiers = [
     detail: 'Liquid entered the display assembly causing dead pixels, backlight failure, or full blackout. The display assembly on the MacBook Air is replaced independently of the logic board.',
     repair: 'Display assembly replacement',
     recovery: 'Excellent',
-    timeframe: '24–48 hours',
+    timeframe: '24-48 hours',
     colour: 'green' as const,
   },
 ];
@@ -239,7 +239,7 @@ export default function MacBookAirLiquidDamagePage() {
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Shield, label: 'Assessment: from R599' },
-                { icon: Clock, label: '24–72hr Turnaround' },
+                { icon: Clock, label: '24-72hr Turnaround' },
                 { icon: Zap, label: 'Assessment: from R599' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
@@ -445,7 +445,7 @@ export default function MacBookAirLiquidDamagePage() {
               </ul>
               <p>
                 What actually works: professional board cleaning with a specialist PCB solution, followed
-                by microscope inspection and targeted component replacement. This is what we do at ZA Support —
+                by microscope inspection and targeted component replacement. This is what we do at ZA Support, 
                 and it is why our liquid damage recovery rate is significantly higher than &ldquo;let it dry&rdquo; approaches.
               </p>
             </div>
@@ -498,7 +498,7 @@ export default function MacBookAirLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All prices are confirmed before any work begins. Our Assessment: from R599 policy applies to every case —
+              All prices are confirmed before any work begins. Our Assessment: from R599 policy applies to every case, 
               if we cannot repair your MacBook Air, an assessment fee of from R599 applies and the machine is returned exactly
               as received. up-to-3 year warranty on all repairs.
             </p>
@@ -547,7 +547,7 @@ export default function MacBookAirLiquidDamagePage() {
                 MacBook Air Models We Repair
               </h2>
               <p className="text-[#7A9E98] leading-relaxed mb-6">
-                We repair all MacBook Air models for liquid damage, from the slim Intel models of 2018–2020
+                We repair all MacBook Air models for liquid damage, from the slim Intel models of 2018-2020
                 through to the current M3 in both 13&rdquo; and 15&rdquo; configurations. Our engineers know
                 the specific board layout and failure modes of every revision.
               </p>

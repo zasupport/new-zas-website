@@ -8,7 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Apple IT Specialist Johannesburg — Apple Managed Services | ZA Support',
+  title: 'Apple IT Specialist Johannesburg: Apple Managed Services | ZA Support',
   description:
     'Apple IT specialist in Johannesburg. JAMF MDM, Apple Business Manager, M-series Mac fleet management, Monterey/Ventura/Sonoma. Apple-only MSP for businesses and medical practices. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/managed-services/apple-specialist' },
@@ -18,22 +18,22 @@ const faqs = [
   {
     question: 'What is an Apple IT specialist and why does it matter?',
     answer:
-      'An Apple IT specialist is an MSP that manages exclusively or primarily Apple devices — Macs, iPhones, iPads — using Apple-native tools such as JAMF MDM, Apple Business Manager, and Apple School Manager. A generalist IT company manages Windows first and treats Apple as an edge case. For businesses running Apple fleets, this means slower support, misconfigured MDM, and missed macOS-specific security vulnerabilities. ZA Support has specialised in Apple since 2009.',
+      'An Apple IT specialist is an MSP that manages exclusively or primarily Apple devices, Macs, iPhones, iPads, using Apple-native tools such as JAMF MDM, Apple Business Manager, and Apple School Manager. A generalist IT company manages Windows first and treats Apple as an edge case. For businesses running Apple fleets, this means slower support, misconfigured MDM, and missed macOS-specific security vulnerabilities. ZA Support has specialised in Apple since 2009.',
   },
   {
     question: 'What is JAMF MDM and do I need it?',
     answer:
-      'JAMF is the industry-standard mobile device management platform for Apple fleets. It allows centralised configuration of every Mac, iPhone, and iPad in your business — pushing settings, enforcing security policies, deploying software silently, and remotely wiping a lost device. If you have more than three Apple devices in a business context, JAMF MDM removes manual setup work and closes security gaps that manual configuration misses.',
+      'JAMF is the industry-standard mobile device management platform for Apple fleets. It allows centralised configuration of every Mac, iPhone, and iPad in your business, pushing settings, enforcing security policies, deploying software silently, and remotely wiping a lost device. If you have more than three Apple devices in a business context, JAMF MDM removes manual setup work and closes security gaps that manual configuration misses.',
   },
   {
     question: 'What is Apple Business Manager?',
     answer:
-      'Apple Business Manager (ABM) is Apple\'s free portal for businesses to manage Apple device purchasing, deployment, and app distribution. When a new Mac is purchased through ABM, it automatically enrols into your MDM profile the moment it is switched on — zero-touch provisioning. ZA Support sets up and manages ABM for our clients, linking it to JAMF for seamless fleet deployment.',
+      'Apple Business Manager (ABM) is Apple\'s free portal for businesses to manage Apple device purchasing, deployment, and app distribution. When a new Mac is purchased through ABM, it automatically enrols into your MDM profile the moment it is switched on, zero-touch provisioning. ZA Support sets up and manages ABM for our clients, linking it to JAMF for seamless fleet deployment.',
   },
   {
     question: 'Do you support M-series Apple Silicon Macs?',
     answer:
-      'Yes. All Apple Silicon Macs (M1, M2, M3, M4) are fully supported — including the unique security architecture, Secure Enclave, and the Activation Lock behaviour that differs from Intel Macs. JAMF MDM works natively with Apple Silicon. Our monitoring agent (Health Check) is a universal binary running natively on both architectures.',
+      'Yes. All Apple Silicon Macs (M1, M2, M3, M4) are fully supported, including the unique security architecture, Secure Enclave, and the Activation Lock behaviour that differs from Intel Macs. JAMF MDM works natively with Apple Silicon. Our monitoring agent (Health Check) is a universal binary running natively on both architectures.',
   },
   {
     question: 'Which macOS versions do you manage?',
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: 'How does ZA Support differ from MacRoots or other Johannesburg Apple MSPs?',
     answer:
-      'ZA Support is based in Hyde Park and has been operating since 2009 — longer than most Johannesburg Apple MSPs. We offer component-level logic board repair in our own workshop, JAMF MDM, and Apple Business Manager setup as a bundled service. We do not outsource repairs and we do not resell another company\'s monitoring platform — our Health Check monitoring is built internally.',
+      'ZA Support is based in Hyde Park and has been operating since 2009, longer than most Johannesburg Apple MSPs. We offer component-level logic board repair in our own workshop, JAMF MDM, and Apple Business Manager setup as a bundled service. We do not outsource repairs and we do not resell another company\'s monitoring platform, our Health Check monitoring is built internally.',
   },
 ];
 
@@ -91,7 +91,7 @@ const capabilities = [
   {
     icon: Phone,
     title: 'Health Check Monitoring',
-    desc: 'Real-time monitoring agent on every device. Battery, storage, SMART, security posture — proactively resolved.',
+    desc: 'Real-time monitoring agent on every device. Battery, storage, SMART, security posture, proactively resolved.',
   },
 ];
 
@@ -99,7 +99,7 @@ const comparisons = [
   {
     topic: 'MDM Platform',
     generalist: 'Windows Intune, often forced onto Macs',
-    specialist: 'JAMF Pro — built for Apple, certified',
+    specialist: 'JAMF Pro, built for Apple, certified',
   },
   {
     topic: 'macOS Updates',
@@ -142,7 +142,7 @@ const breadcrumbSchema = {
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'Apple IT Specialist — Johannesburg Managed Services',
+  name: 'Apple IT Specialist, Johannesburg Managed Services',
   provider: {
     '@type': 'LocalBusiness',
     name: 'ZA Support',
@@ -180,10 +180,10 @@ export default function AppleSpecialistPage() {
               <span className="text-[#0FEA7A] text-sm font-semibold">JAMF MDM · Apple Business Manager · Hyde Park, Johannesburg</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
-              Apple IT Specialist —<br /><span className="text-[#0FEA7A]">Johannesburg Managed Services</span>
+              Apple IT Specialist, <br /><span className="text-[#0FEA7A]">Johannesburg Managed Services</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              Apple-first managed IT for Johannesburg businesses. JAMF MDM, Apple Business Manager, M-series Mac fleet management, and ProApps support — from an MSP that has specialised in Apple since 2009.
+              Apple-first managed IT for Johannesburg businesses. JAMF MDM, Apple Business Manager, M-series Mac fleet management, and ProApps support, from an MSP that has specialised in Apple since 2009.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-8">
@@ -232,7 +232,7 @@ export default function AppleSpecialistPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Apple IT Specialist Capabilities</h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
-            Every service built around Apple&apos;s ecosystem — not retrofitted from a Windows-first platform.
+            Every service built around Apple&apos;s ecosystem, not retrofitted from a Windows-first platform.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {capabilities.map(({ icon: Icon, title, desc }) => (
@@ -263,7 +263,7 @@ export default function AppleSpecialistPage() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)]">
                   <th className="text-left py-3 px-4 text-[#7A9E98] text-sm font-semibold">Topic</th>
                   <th className="text-left py-3 px-4 text-[#7A9E98] text-sm font-semibold">Generalist IT Company</th>
-                  <th className="text-left py-3 px-4 text-[#0FEA7A] text-sm font-semibold">ZA Support — Apple Specialist</th>
+                  <th className="text-left py-3 px-4 text-[#0FEA7A] text-sm font-semibold">ZA Support, Apple Specialist</th>
                 </tr>
               </thead>
               <tbody>
@@ -300,11 +300,11 @@ export default function AppleSpecialistPage() {
                   },
                   {
                     title: 'Device ownership is clear',
-                    desc: 'ABM-enrolled devices are permanently associated with your organisation. If an employee leaves, the device can be remotely wiped and reassigned — the MDM profile cannot be removed by the user.',
+                    desc: 'ABM-enrolled devices are permanently associated with your organisation. If an employee leaves, the device can be remotely wiped and reassigned, the MDM profile cannot be removed by the user.',
                   },
                   {
                     title: 'Activation Lock management',
-                    desc: 'Apple Business Manager provides Activation Lock bypass for enrolled devices. For IT teams, this is critical — a departing employee cannot lock a corporate Mac to their personal Apple ID.',
+                    desc: 'Apple Business Manager provides Activation Lock bypass for enrolled devices. For IT teams, this is critical, a departing employee cannot lock a corporate Mac to their personal Apple ID.',
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -319,7 +319,7 @@ export default function AppleSpecialistPage() {
             </div>
             <div className="space-y-4">
               <div className="glass-card p-6 border-l-4 border-[#0FEA7A]">
-                <p className="text-[#E8F4F1] font-bold mb-2">M-series Apple Silicon — what changes</p>
+                <p className="text-[#E8F4F1] font-bold mb-2">M-series Apple Silicon, what changes</p>
                 <p className="text-[#7A9E98] text-sm">Apple Silicon Macs use a different MDM bootstrap token process. FileVault recovery key escrow requires the correct MDM authorisation flow. Incorrect setup means encrypted Macs that cannot be recovered. ZA Support handles this correctly from initial enrolment.</p>
               </div>
               <div className="glass-card p-6">
@@ -347,7 +347,7 @@ export default function AppleSpecialistPage() {
       <section className="py-12 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
-            ProApps Support — Final Cut Pro, Logic Pro, and More
+            ProApps Support, Final Cut Pro, Logic Pro, and More
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             Creative and media businesses require Apple-native expertise. We manage ProApps licences, performance configuration, and macOS update compatibility for the full Apple ProApps suite.
@@ -360,7 +360,7 @@ export default function AppleSpecialistPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm max-w-3xl">
-            ProApps are distributed via Apple Business Manager with volume purchase licences — no individual App Store accounts required on corporate Macs. Performance profiles are configured per workstation based on GPU, RAM, and storage characteristics.
+            ProApps are distributed via Apple Business Manager with volume purchase licences, no individual App Store accounts required on corporate Macs. Performance profiles are configured per workstation based on GPU, RAM, and storage characteristics.
           </p>
         </div>
       </section>
@@ -381,7 +381,7 @@ export default function AppleSpecialistPage() {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {[
               { label: 'Managed IT Services', href: '/managed-services' },
-              { label: 'Mac IT Support — SME', href: '/managed-services/it-support' },
+              { label: 'Mac IT Support, SME', href: '/managed-services/it-support' },
               { label: 'JAMF MDM Johannesburg', href: '/jamf-mdm' },
               { label: 'Medical Practice IT', href: '/apple-support/medical-practices' },
               { label: 'Logic Board Repair', href: '/logic-board-repair' },

@@ -1,5 +1,5 @@
 // pages/author/[slug]/page.tsx
-// Dynamic author template — renders Person + ProfilePage schema for any author
+// Dynamic author template, renders Person + ProfilePage schema for any author
 // in the registry. Per §403 (25/05/2026) Courtney Bentley is the sole founder
 // and sole authoring identity going forward. The static page
 // src/app/author/courtney-bentley/page.tsx takes precedence over this dynamic
@@ -53,7 +53,7 @@ function AuthorPageSchema({ author, articles }: { author: AuthorEntry; articles:
     '@context': 'https://schema.org',
     '@type': 'ProfilePage',
     '@id': `https://www.zasupport.com/author/${author.slug}`,
-    name: `${author.name} — ${author.role}`,
+    name: `${author.name}, ${author.role}`,
     description: author.bio,
     mainEntity: {
       '@id': `https://www.zasupport.com/author/${author.slug}#person`,
@@ -69,7 +69,7 @@ function AuthorPageSchema({ author, articles }: { author: AuthorEntry; articles:
 }
 
 // Generate self-referential canonical for every author slug rendered by this
-// template — per HR §399 every URL must declare its own canonical, never inherit
+// template, per HR §399 every URL must declare its own canonical, never inherit
 // from root layout. Unknown slugs return notFound() before metadata renders.
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const author = authors[params.slug]

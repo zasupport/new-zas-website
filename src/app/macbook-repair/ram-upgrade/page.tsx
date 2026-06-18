@@ -14,16 +14,16 @@ export const metadata: Metadata = {
 };
 
 const supportedModels = [
-  { model: 'MacBook Pro 13" 2012–2015', note: 'SO-DIMM slots — upgradeable' },
-  { model: 'MacBook Pro 15" 2012–2019', note: 'SO-DIMM slots — upgradeable' },
-  { model: 'MacBook Pro 16" 2019', note: 'SO-DIMM slots — upgradeable' },
+  { model: 'MacBook Pro 13" 2012-2015', note: 'SO-DIMM slots, upgradeable' },
+  { model: 'MacBook Pro 15" 2012-2019', note: 'SO-DIMM slots, upgradeable' },
+  { model: 'MacBook Pro 16" 2019', note: 'SO-DIMM slots, upgradeable' },
 ];
 
 const notSupported = [
-  'MacBook Air (all models — RAM soldered)',
-  'Apple Silicon MacBooks (M1/M2/M3/M4 — unified memory)',
+  'MacBook Air (all models, RAM soldered)',
+  'Apple Silicon MacBooks (M1/M2/M3/M4, unified memory)',
   'MacBook Pro 2020 and later (RAM soldered)',
-  'MacBook Pro 13" 2016–2019 (RAM soldered)',
+  'MacBook Pro 13" 2016-2019 (RAM soldered)',
 ];
 
 const symptoms = [
@@ -36,9 +36,9 @@ const symptoms = [
 ];
 
 const benefits = [
-  { task: 'Multitasking', before: '8 GB — apps fight for memory', after: '16 GB — plenty of headroom' },
+  { task: 'Multitasking', before: '8 GB, apps fight for memory', after: '16 GB, plenty of headroom' },
   { task: 'Browser tabs', before: 'Tabs crash and reload', after: 'All tabs stay loaded' },
-  { task: 'Video export', before: 'Slow — relies on disk swap', after: 'Significantly faster' },
+  { task: 'Video export', before: 'Slow, relies on disk swap', after: 'Significantly faster' },
   { task: 'Design work', before: 'Photoshop/Figma lag', after: 'Smooth with large files' },
   { task: 'Responsiveness', before: 'Constant beachball', after: 'Fluid switching' },
 ];
@@ -57,7 +57,7 @@ const steps = [
   {
     step: '3',
     title: 'Upgrade',
-    desc: 'Old RAM modules removed. New modules installed and seated correctly. No data migration needed — RAM upgrade does not affect your files.',
+    desc: 'Old RAM modules removed. New modules installed and seated correctly. No data migration needed, RAM upgrade does not affect your files.',
   },
   {
     step: '4',
@@ -70,7 +70,7 @@ const faqs = [
   {
     question: 'Which MacBook models support a RAM upgrade?',
     answer:
-      'Only Intel MacBook Pro models with removable SO-DIMM slots support RAM upgrades. These are MacBook Pro 13" (2012–2015), MacBook Pro 15" (2012–2019), and MacBook Pro 16" (2019). MacBook Air models (all years) have RAM soldered to the logic board. Apple Silicon MacBooks (M1/M2/M3/M4) use unified memory integrated into the chip — not upgradeable.',
+      'Only Intel MacBook Pro models with removable SO-DIMM slots support RAM upgrades. These are MacBook Pro 13" (2012-2015), MacBook Pro 15" (2012-2019), and MacBook Pro 16" (2019). MacBook Air models (all years) have RAM soldered to the logic board. Apple Silicon MacBooks (M1/M2/M3/M4) use unified memory integrated into the chip, not upgradeable.',
   },
   {
     question: 'What is the assessment fee policy?',
@@ -80,7 +80,7 @@ const faqs = [
   {
     question: 'How long does a RAM upgrade take?',
     answer:
-      'MacBook Pro RAM upgrades are typically completed in 1–2 hours. The SO-DIMM slots are accessible through the bottom panel — no display removal required. We test the machine before you collect it.',
+      'MacBook Pro RAM upgrades are typically completed in 1-2 hours. The SO-DIMM slots are accessible through the bottom panel, no display removal required. We test the machine before you collect it.',
   },
   {
     question: 'Can I upgrade RAM on an Apple Silicon MacBook?',
@@ -98,7 +98,7 @@ const faqs = [
       'We will advise on the right amount after the assessment based on your usage. For most users upgrading from 8 GB, 16 GB is a significant improvement. Power users running video editing or virtual machines benefit from the maximum supported by their model. We will confirm the maximum before quoting.',
   },
   {
-    question: 'My MacBook Pro is from 2017 — can I upgrade the RAM?',
+    question: 'My MacBook Pro is from 2017, can I upgrade the RAM?',
     answer:
       'It depends on the model. The MacBook Pro 15" 2017 has SO-DIMM slots and can be upgraded. The MacBook Pro 13" 2017 has RAM soldered to the logic board and cannot be upgraded. Bring your machine in or call us with your serial number and we can confirm in seconds.',
   },
@@ -168,7 +168,7 @@ export default function MacBookRAMUpgradePage() {
           <div className="inline-flex items-start gap-3 bg-amber-900/30 border border-amber-700/40 text-amber-300 px-5 py-4 rounded-xl text-sm text-left max-w-2xl mx-auto mb-8">
             <AlertTriangle className="w-5 h-5 shrink-0 mt-0.5" />
             <p>
-              RAM upgrades are only possible on Intel MacBook Pro models with removable SO-DIMM slots (2012–2019). Apple Silicon (M1/M2/M3/M4) and most MacBook Air models have RAM soldered to the chip.
+              RAM upgrades are only possible on Intel MacBook Pro models with removable SO-DIMM slots (2012-2019). Apple Silicon (M1/M2/M3/M4) and most MacBook Air models have RAM soldered to the chip.
             </p>
           </div>
 
@@ -269,7 +269,7 @@ export default function MacBookRAMUpgradePage() {
       {/* Before / After */}
       <section className="py-12 sm:py-20 px-4 bg-[#111C1A]">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-2 text-center">8 GB vs 16 GB — Real Difference</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-2 text-center">8 GB vs 16 GB, Real Difference</h2>
           <p className="text-[#7A9E98] text-center mb-8">Impact of a RAM upgrade on everyday tasks.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-[#27504D]/40 rounded-xl overflow-hidden">

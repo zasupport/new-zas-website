@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-// Vercel Cron handler — delegates to main SEO report endpoint
+// Vercel Cron handler, delegates to main SEO report endpoint
 // Schedule: "0 7 * * *" in vercel.json (07:00 UTC = 09:00 SAST)
 // Auth: Vercel injects Authorization: Bearer ${CRON_SECRET} automatically when CRON_SECRET env var is set.
-// Middleware also guards this route — double protection.
+// Middleware also guards this route, double protection.
 export async function GET(request: NextRequest) {
   // Verify Vercel cron token (middleware handles this too, belt-and-suspenders)
   const cronSecret = process.env.CRON_SECRET;

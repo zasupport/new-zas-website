@@ -31,6 +31,12 @@ CLI:
 """
 import re, sys, os
 
+# §547 — em/en-dash removal at the INSERTION path (advisor 18/06/2026: fix the
+# generator, not just the deploy gate). Shares the ONE canonical transform so the
+# gate and the sanitiser can never diverge.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from dash_normalizer import normalize_dashes  # noqa: E402
+
 PAGE = 'src/app/blog/[slug]/page.tsx'
 
 def _fence_re(escaped: bool):
@@ -118,6 +124,9 @@ def sanitise(content: str, escaped: bool = False) -> str:
     if dropped_banned:
         res = re.sub(r'(?:\s*\n\s*-{3,}\s*)+\s*$', '\n', res)
         res = res.rstrip() + '\n'
+    # 7. §547 — strip em/en-dashes (—/–) so no AI-tell glyph reaches production.
+    #    Runs in both modes (the — byte is identical escaped/unescaped).
+    res = normalize_dashes(res)
     return res
 
 # ---------------- CLI ----------------

@@ -84,15 +84,15 @@ const breadcrumbSchema = {
 
 const pricing = [
   { group: 'MacBook Air', model: 'MacBook Air M1 (2020)' },
-  { group: 'MacBook Air', model: 'MacBook Air M2 (2022–2023)' },
+  { group: 'MacBook Air', model: 'MacBook Air M2 (2022-2023)' },
   { group: 'MacBook Air', model: 'MacBook Air M3 (2024)' },
-  { group: 'MacBook Air', model: 'MacBook Air 13" Intel (2015–2020)' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 13" (2016–2022 Intel/M1/M2)' },
+  { group: 'MacBook Air', model: 'MacBook Air 13" Intel (2015-2020)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 13" (2016-2022 Intel/M1/M2)' },
   { group: 'MacBook Pro', model: 'MacBook Pro 14" M1 Pro/Max (2021)' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 14" M2/M3 Pro/Max (2023–2024)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 14" M2/M3 Pro/Max (2023-2024)' },
   { group: 'MacBook Pro', model: 'MacBook Pro 16" M1 Pro/Max (2021)' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 16" M2/M3 Pro/Max (2023–2024)' },
-  { group: 'MacBook Pro', model: 'MacBook Pro 15" Intel (2015–2019)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 16" M2/M3 Pro/Max (2023-2024)' },
+  { group: 'MacBook Pro', model: 'MacBook Pro 15" Intel (2015-2019)' },
 ];
 
 const signs = [
@@ -117,7 +117,7 @@ const signs = [
   {
     icon: <Clock className="w-5 h-5 text-[#0FEA7A]" />,
     title: 'Battery drains in under 2 hours',
-    detail: 'A healthy MacBook Air should give 10–18 hours. MacBook Pro 8–15 hours. Under 2 hours of real-world use means the battery has degraded significantly.',
+    detail: 'A healthy MacBook Air should give 10-18 hours. MacBook Pro 8-15 hours. Under 2 hours of real-world use means the battery has degraded significantly.',
     urgent: false,
   },
   {
@@ -135,9 +135,9 @@ const signs = [
 ];
 
 const healthGuide = [
-  { threshold: '95 – 100%', label: 'Excellent', colour: '#0FEA7A', action: 'Normal. No action needed.' },
-  { threshold: '85 – 94%', label: 'Good', colour: '#7FC97F', action: 'Monitor annually. Still performing well.' },
-  { threshold: '80 – 84%', label: 'Fair', colour: '#F5A623', action: 'Apple "Service Recommended" threshold approaching. Plan replacement.' },
+  { threshold: '95 - 100%', label: 'Excellent', colour: '#0FEA7A', action: 'Normal. No action needed.' },
+  { threshold: '85 - 94%', label: 'Good', colour: '#7FC97F', action: 'Monitor annually. Still performing well.' },
+  { threshold: '80 - 84%', label: 'Fair', colour: '#F5A623', action: 'Apple "Service Recommended" threshold approaching. Plan replacement.' },
   { threshold: 'Below 80%', label: 'Replace', colour: '#F56565', action: 'Apple classifies as consumed. Replace for reliable performance.' },
 ];
 
@@ -150,7 +150,7 @@ const faqs = [
   {
     question: 'How long does MacBook battery replacement take?',
     answer:
-      'Most MacBook battery replacements take 2–4 hours. Intel MacBook models are generally 60–90 minutes. M-series MacBooks (M1, M2, M3) use a glued-down battery assembly and take 90–180 minutes. Same-day service is available if you drop your MacBook off in the morning. Call ahead to confirm availability for your specific model.',
+      'Most MacBook battery replacements take 2-4 hours. Intel MacBook models are generally 60-90 minutes. M-series MacBooks (M1, M2, M3) use a glued-down battery assembly and take 90-180 minutes. Same-day service is available if you drop your MacBook off in the morning. Call ahead to confirm availability for your specific model.',
   },
   {
     question: 'Do you use genuine Apple batteries?',
@@ -361,12 +361,12 @@ export default function MacBookBatteryPage() {
                 One battery cycle equals using 100% of your battery capacity, not necessarily in a single charge. Using 50% today and 50% tomorrow counts as one cycle.
               </p>
               <p className="text-[#7A9E98] text-sm mb-4 leading-relaxed">
-                Apple rates most modern MacBook batteries at 1,000 cycles before they drop below 80% capacity. Older Intel models were rated at 500–1,000 cycles.
+                Apple rates most modern MacBook batteries at 1,000 cycles before they drop below 80% capacity. Older Intel models were rated at 500-1,000 cycles.
               </p>
               <div className="bg-[rgba(15,234,122,0.07)] border border-[rgba(15,234,122,0.15)] rounded-xl p-4">
                 <p className="text-[#0FEA7A] text-sm font-semibold mb-1">Replace at 500+ cycles on Intel models</p>
                 <p className="text-[#7A9E98] text-xs">
-                  On Intel MacBooks with the 500-cycle rating, 500+ cycles typically correlates with 75–85% remaining capacity. Replace before performance degrades further.
+                  On Intel MacBooks with the 500-cycle rating, 500+ cycles typically correlates with 75-85% remaining capacity. Replace before performance degrades further.
                 </p>
               </div>
               <p className="text-[#7A9E98] text-sm mt-4 leading-relaxed">
@@ -435,8 +435,8 @@ export default function MacBookBatteryPage() {
               },
               {
                 step: '04',
-                title: 'Battery Replaced in 2–4 Hours',
-                desc: 'We remove the old battery, clean adhesive residue, install the new cell, and reseal the enclosure correctly. All case screws are torqued to spec. The trackpad is re-seated and tested. On M-series MacBooks this process takes 90–180 minutes due to the glued assembly design.',
+                title: 'Battery Replaced in 2-4 Hours',
+                desc: 'We remove the old battery, clean adhesive residue, install the new cell, and reseal the enclosure correctly. All case screws are torqued to spec. The trackpad is re-seated and tested. On M-series MacBooks this process takes 90-180 minutes due to the glued assembly design.',
               },
               {
                 step: '05',
@@ -504,7 +504,7 @@ export default function MacBookBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 2–4 hours. up-to-3 year warranty. Assessment: from R599.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 2-4 hours. up-to-3 year warranty. Assessment: from R599.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, drop in, no appointment needed.
             </p>

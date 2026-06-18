@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const urgentSteps = [
-  { step: '01', title: 'Switch Off Immediately', desc: 'Do not attempt to use or charge the MacBook. Power it off and leave it off — powering a wet board causes short-circuit damage.' },
+  { step: '01', title: 'Switch Off Immediately', desc: 'Do not attempt to use or charge the MacBook. Power it off and leave it off, powering a wet board causes short-circuit damage.' },
   { step: '02', title: 'Do Not Use Rice', desc: 'Rice does not remove corrosion or clean contaminated contacts. It wastes critical intervention time while corrosion spreads.' },
   { step: '03', title: 'Contact Us Now', desc: 'WhatsApp or call us immediately. Every hour increases corrosion spread. We arrange same-day collection from Edenvale.' },
   { step: '04', title: 'Ultrasonic Cleaning', desc: 'Full disassembly. Logic board cleaned in ultrasonic bath to remove corrosion and contaminants at component level.' },
@@ -27,13 +27,13 @@ const urgentSteps = [
 
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Edenvale?', answer: 'Immediately. Power the MacBook off, do not try to charge it, and call 064 529 5863. The first 24 hours determine whether you need a clean and dry-out, or a full board-level repair. Edenvale is roughly 25 minutes from our Hyde Park workshop via the N3 and M1, so we can usually collect the same day if you call before midday.' },
-  { question: 'Do you collect MacBooks from Edenvale after liquid damage?', answer: 'Yes. We collect from anywhere in Edenvale — Hurlyvale, Eastleigh, Sebenza, Greenstone, and the streets around Van Riebeeck Avenue. Because liquid damage is time-critical, we treat Edenvale collections as priority and aim to have the MacBook on a workbench in Hyde Park within a few hours of your call. WhatsApp wa.me/27645295863 to arrange.' },
+  { question: 'Do you collect MacBooks from Edenvale after liquid damage?', answer: 'Yes. We collect from anywhere in Edenvale, Hurlyvale, Eastleigh, Sebenza, Greenstone, and the streets around Van Riebeeck Avenue. Because liquid damage is time-critical, we treat Edenvale collections as priority and aim to have the MacBook on a workbench in Hyde Park within a few hours of your call. WhatsApp wa.me/27645295863 to arrange.' },
   { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers full disassembly, ultrasonic cleaning of the board, microscope inspection, and a written report telling you exactly what is damaged, what it will cost to repair, and the realistic prognosis. If you choose to proceed with the repair, the assessment fee is credited toward the final bill.' },
-  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst — wine, fizzy drinks, juice, and coffee with sugar all leave conductive residue that keeps corroding long after the MacBook dries. Plain water is the least aggressive, but tap water in Edenvale still contains enough mineral content to cause corrosion over days. Salt water and pool water are devastating because the chloride attacks copper traces aggressively.' },
-  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes — please. A MacBook that still boots after a spill is on borrowed time. The corrosion happens silently underneath the board components, and the failure usually arrives one to three weeks later, often killing parts that were not damaged by the original spill. An ultrasonic clean now is much cheaper than a logic board replacement later. Drop it off or let us collect from Edenvale.' },
-  { question: 'Will you be able to save my data?', answer: 'In most cases yes. The SSD on modern MacBooks is soldered to the logic board, but the data itself is usually recoverable even when the board has significant damage — we can transplant the storage controller or read the chips directly in the worst cases. Our data recovery success rate on liquid-damaged Edenvale MacBooks has been strong, but no honest technician guarantees data recovery upfront.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The R599 assessment fee covers the diagnostic work itself — disassembly, ultrasonic cleaning, and inspection — because liquid damage assessment is genuinely labour-intensive work, not a quick visual check. Anyone offering free liquid damage assessment is either cutting corners or planning to overcharge on the repair to compensate. The R599 is credited toward your repair if you proceed.' },
-  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes — we repair liquid-damaged M1, M2, and M3 MacBook Air and Pro models at board level. Apple Silicon boards are denser and more challenging than Intel boards, but the repair principles are the same: ultrasonic clean, identify corroded components, replace under microscope. We have completed dozens of Apple Silicon liquid repairs for Edenvale and East Rand clients.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst, wine, fizzy drinks, juice, and coffee with sugar all leave conductive residue that keeps corroding long after the MacBook dries. Plain water is the least aggressive, but tap water in Edenvale still contains enough mineral content to cause corrosion over days. Salt water and pool water are devastating because the chloride attacks copper traces aggressively.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, please. A MacBook that still boots after a spill is on borrowed time. The corrosion happens silently underneath the board components, and the failure usually arrives one to three weeks later, often killing parts that were not damaged by the original spill. An ultrasonic clean now is much cheaper than a logic board replacement later. Drop it off or let us collect from Edenvale.' },
+  { question: 'Will you be able to save my data?', answer: 'In most cases yes. The SSD on modern MacBooks is soldered to the logic board, but the data itself is usually recoverable even when the board has significant damage, we can transplant the storage controller or read the chips directly in the worst cases. Our data recovery success rate on liquid-damaged Edenvale MacBooks has been strong, but no honest technician guarantees data recovery upfront.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The R599 assessment fee covers the diagnostic work itself, disassembly, ultrasonic cleaning, and inspection, because liquid damage assessment is genuinely labour-intensive work, not a quick visual check. Anyone offering free liquid damage assessment is either cutting corners or planning to overcharge on the repair to compensate. The R599 is credited toward your repair if you proceed.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes, we repair liquid-damaged M1, M2, and M3 MacBook Air and Pro models at board level. Apple Silicon boards are denser and more challenging than Intel boards, but the repair principles are the same: ultrasonic clean, identify corroded components, replace under microscope. We have completed dozens of Apple Silicon liquid repairs for Edenvale and East Rand clients.' },
 ];
 
 const serviceSchema = {
@@ -76,14 +76,14 @@ export default function LiquidDamageEdenvalePage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Liquid Damage Repair Edenvale
-              <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
+              <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is a race against corrosion. We collect MacBooks from Edenvale homes near Van Riebeeck Avenue, businesses around Eastgate, and residents close to Bedford Centre, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop — roughly 25 minutes via the M2 or N3. Assessment from R599.
+              Liquid damage is a race against corrosion. We collect MacBooks from Edenvale homes near Van Riebeeck Avenue, businesses around Eastgate, and residents close to Bedford Centre, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly 25 minutes via the M2 or N3. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Same-day collection from Edenvale — contact us immediately after liquid exposure</span>
+              <span>Same-day collection from Edenvale, contact us immediately after liquid exposure</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -100,7 +100,7 @@ export default function LiquidDamageEdenvalePage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={buildWhatsAppUrl('LDR-EDENVALE', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
-                💬 WhatsApp — Act Now
+                💬 WhatsApp, Act Now
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -134,13 +134,13 @@ export default function LiquidDamageEdenvalePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Edenvale sits at a crossroads of the East Rand, with the N3 to the east, the R24 cutting south toward OR Tambo, and Van Riebeeck Avenue threading through the heart of the suburb. We collect from homes around Greenstone Hill, the older streets near Hurlyvale, and offices along Herman Road. The pattern we see consistently from Edenvale clients is coffee and tea spills on home-office setups — a knock-on effect of the hybrid working culture that took hold after 2020 — followed by water from baby bottles, pets knocking over glasses, and kitchen-counter splashes. Liquid on a logic board causes two distinct problems: the immediate short circuit, and the slow corrosion that follows. The second is what kills MacBooks that &apos;seemed fine&apos; for a week.
+              Edenvale sits at a crossroads of the East Rand, with the N3 to the east, the R24 cutting south toward OR Tambo, and Van Riebeeck Avenue threading through the heart of the suburb. We collect from homes around Greenstone Hill, the older streets near Hurlyvale, and offices along Herman Road. The pattern we see consistently from Edenvale clients is coffee and tea spills on home-office setups, a knock-on effect of the hybrid working culture that took hold after 2020, followed by water from baby bottles, pets knocking over glasses, and kitchen-counter splashes. Liquid on a logic board causes two distinct problems: the immediate short circuit, and the slow corrosion that follows. The second is what kills MacBooks that &apos;seemed fine&apos; for a week.
             </p>
             <p>
-              Because Edenvale is close to OR Tambo and the industrial belt around Isando and Sebenza, a meaningful share of the MacBooks we collect here belong to logistics managers, freight controllers, and small business owners running their operations from home offices. Downtime costs money, so we prioritise these collections — typically same-day if the call comes in before midday. Our workflow at the Hyde Park workshop starts with a full disassembly, an ultrasonic bath to lift sugar residue and corrosion salts off the board, microscope inspection of the affected components, and only then a board-level repair quote. No guessing, no logic board swap unless that is genuinely the only option.
+              Because Edenvale is close to OR Tambo and the industrial belt around Isando and Sebenza, a meaningful share of the MacBooks we collect here belong to logistics managers, freight controllers, and small business owners running their operations from home offices. Downtime costs money, so we prioritise these collections, typically same-day if the call comes in before midday. Our workflow at the Hyde Park workshop starts with a full disassembly, an ultrasonic bath to lift sugar residue and corrosion salts off the board, microscope inspection of the affected components, and only then a board-level repair quote. No guessing, no logic board swap unless that is genuinely the only option.
             </p>
             <p>
-              We have collected MacBooks from Edenvale clients where the spill happened on a Friday night and the machine arrived in our workshop on Saturday morning — those are the easy wins. We have also restored boards that sat untouched for a month after a wine spill, with corrosion green and crusty by the time we opened them. Both can succeed. The honest assessment we provide after diagnostic will tell you what is repairable, what it will cost, and whether the data is recoverable — call 064 529 5863 or WhatsApp wa.me/27645295863 to arrange collection.
+              We have collected MacBooks from Edenvale clients where the spill happened on a Friday night and the machine arrived in our workshop on Saturday morning, those are the easy wins. We have also restored boards that sat untouched for a month after a wine spill, with corrosion green and crusty by the time we opened them. Both can succeed. The honest assessment we provide after diagnostic will tell you what is repairable, what it will cost, and whether the data is recoverable, call 064 529 5863 or WhatsApp wa.me/27645295863 to arrange collection.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function LiquidDamageEdenvalePage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Liquid Damage Repair Edenvale — Common Questions" />
+          <FAQAccordion items={faqs} title="Liquid Damage Repair Edenvale, Common Questions" />
         </div>
       </section>
 
@@ -176,7 +176,7 @@ export default function LiquidDamageEdenvalePage() {
             <p className="text-[#7A9E98] mb-6">Same-day collection from Edenvale. Assessment from R599. From R599 assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-EDENVALE', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
-                💬 WhatsApp — Act Now
+                💬 WhatsApp, Act Now
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

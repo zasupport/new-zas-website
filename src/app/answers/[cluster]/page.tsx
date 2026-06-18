@@ -86,7 +86,7 @@ export default async function AnswerClusterPage({
       {/* ── Q&A ────────────────────────────────────────────────────────────── */}
       <section className="py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={cluster.faqs} title={`${cluster.shortTitle} — questions answered`} />
+          <FAQAccordion items={cluster.faqs} title={`${cluster.shortTitle}, questions answered`} />
 
           {/* Related service + CTA */}
           <div className="mt-12 rounded-2xl border border-[rgba(15,234,122,0.18)] bg-[#0F2522] p-7">
@@ -98,7 +98,7 @@ export default async function AnswerClusterPage({
               <Link href={cluster.relatedService.href} className="text-[#0FEA7A] font-semibold">
                 {cluster.relatedService.label.toLowerCase()}
               </Link>
-              , or speak to a technician directly.
+, or speak to a technician directly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

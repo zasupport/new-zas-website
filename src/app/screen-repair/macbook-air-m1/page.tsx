@@ -60,46 +60,46 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Air M1 (A2337, Late 2020)', panel: 'IPS LCD Liquid Retina 2560×1600 True Tone', from: 'R2,499', turnaround: '24–48 hrs' },
-  { model: 'MacBook Air M1 — display cable replacement', panel: 'Flex cable only (no panel swap)', from: 'R1,499', turnaround: '24 hrs' },
-  { model: 'MacBook Air M1 — anti-reflective coating', panel: 'AR coating delamination', from: 'R2,499', turnaround: '24–48 hrs' },
+  { model: 'MacBook Air M1 (A2337, Late 2020)', panel: 'IPS LCD Liquid Retina 2560×1600 True Tone', from: 'R2,499', turnaround: '24-48 hrs' },
+  { model: 'MacBook Air M1, display cable replacement', panel: 'Flex cable only (no panel swap)', from: 'R1,499', turnaround: '24 hrs' },
+  { model: 'MacBook Air M1, anti-reflective coating', panel: 'AR coating delamination', from: 'R2,499', turnaround: '24-48 hrs' },
 ];
 
 const faultTypes = [
   {
     title: 'Anti-Reflective Coating Delamination',
     icon: Eye,
-    desc: 'This is the most common screen complaint we see on MacBook Air M1 machines in our Hyde Park workshop. The anti-reflective coating on the 2020 MacBook Air M1 Liquid Retina display can delaminate — creating a blotchy, smeared, or cloudy appearance across the glass surface. The display itself is functioning perfectly; the coating has simply separated from the glass. This happens through contact with cleaning products containing alcohol or acetone, microfibre cloths that are slightly rough, or even prolonged contact with the keyboard (closing the lid causes the keyboard keys to touch the screen). Display assembly replacement is required.',
+    desc: 'This is the most common screen complaint we see on MacBook Air M1 machines in our Hyde Park workshop. The anti-reflective coating on the 2020 MacBook Air M1 Liquid Retina display can delaminate, creating a blotchy, smeared, or cloudy appearance across the glass surface. The display itself is functioning perfectly; the coating has simply separated from the glass. This happens through contact with cleaning products containing alcohol or acetone, microfibre cloths that are slightly rough, or even prolonged contact with the keyboard (closing the lid causes the keyboard keys to touch the screen). Display assembly replacement is required.',
     severity: 'high',
   },
   {
-    title: 'Backlight Failure — Fanless Thermal Profile',
+    title: 'Backlight Failure: Fanless Thermal Profile',
     icon: Zap,
-    desc: 'The MacBook Air M1 is a fully fanless machine. Under sustained load, the chassis temperature rises higher and faster than a MacBook Pro, and the display backlight circuit on the logic board is exposed to this elevated thermal environment. Load shedding voltage surges are the primary external cause of backlight failure — but sustained thermal stress is a secondary contributing factor on the M1 Air in South Africa, where ambient temperatures are high and load shedding means the Mac is regularly pushed hard on battery during power outages. A black screen with faint desktop visible under torchlight indicates backlight failure. This is typically a logic board component repair.',
+    desc: 'The MacBook Air M1 is a fully fanless machine. Under sustained load, the chassis temperature rises higher and faster than a MacBook Pro, and the display backlight circuit on the logic board is exposed to this elevated thermal environment. Load shedding voltage surges are the primary external cause of backlight failure, but sustained thermal stress is a secondary contributing factor on the M1 Air in South Africa, where ambient temperatures are high and load shedding means the Mac is regularly pushed hard on battery during power outages. A black screen with faint desktop visible under torchlight indicates backlight failure. This is typically a logic board component repair.',
     severity: 'high',
   },
   {
     title: 'Cracked Liquid Retina Panel',
     icon: AlertTriangle,
-    desc: 'The MacBook Air M1 uses a thinner, lighter chassis than any MacBook Pro, which makes it more susceptible to lid flex damage from bag pressure. A single point of pressure — a hard object in a bag resting on the closed lid — can crack the Liquid Retina panel without any visible external impact on the outer lid surface. The crack may be invisible from the back of the machine but clearly visible on the display. Panel replacement requires the full display assembly to be replaced as a bonded unit.',
+    desc: 'The MacBook Air M1 uses a thinner, lighter chassis than any MacBook Pro, which makes it more susceptible to lid flex damage from bag pressure. A single point of pressure, a hard object in a bag resting on the closed lid, can crack the Liquid Retina panel without any visible external impact on the outer lid surface. The crack may be invisible from the back of the machine but clearly visible on the display. Panel replacement requires the full display assembly to be replaced as a bonded unit.',
     severity: 'high',
   },
   {
     title: 'True Tone Disabled After Previous Repair',
     icon: Monitor,
-    desc: 'The MacBook Air M1 includes True Tone, which adjusts the display\'s colour temperature to match ambient lighting. True Tone calibration data is stored in the display assembly. An incorrect replacement that does not carry this data across leaves True Tone permanently showing "Not Available" in System Settings. At ZA Support, we migrate True Tone calibration data during every display replacement on the M1 Air — it is a standard step in our process, not an optional extra.',
+    desc: 'The MacBook Air M1 includes True Tone, which adjusts the display\'s colour temperature to match ambient lighting. True Tone calibration data is stored in the display assembly. An incorrect replacement that does not carry this data across leaves True Tone permanently showing "Not Available" in System Settings. At ZA Support, we migrate True Tone calibration data during every display replacement on the M1 Air, it is a standard step in our process, not an optional extra.',
     severity: 'low',
   },
   {
     title: 'Display Flex Cable Fault',
     icon: Cpu,
-    desc: 'The MacBook Air M1 display flex cable routes through a hinge assembly that Apple redesigned from the Intel Air models. The cable is more flexible, but it remains a single point of failure — micro-fractures can develop from repeated opening and closing, or from a physical impact to the hinge area. Flickering that correlates with lid angle, or a display that cuts out when opened past a certain point, strongly suggests a cable fault. We always test the cable before recommending a full display assembly replacement, as a cable-only repair is significantly less expensive.',
+    desc: 'The MacBook Air M1 display flex cable routes through a hinge assembly that Apple redesigned from the Intel Air models. The cable is more flexible, but it remains a single point of failure, micro-fractures can develop from repeated opening and closing, or from a physical impact to the hinge area. Flickering that correlates with lid angle, or a display that cuts out when opened past a certain point, strongly suggests a cable fault. We always test the cable before recommending a full display assembly replacement, as a cable-only repair is significantly less expensive.',
     severity: 'medium',
   },
   {
-    title: 'GPU Output Fault — Black Screen on Startup',
+    title: 'GPU Output Fault: Black Screen on Startup',
     icon: AlertTriangle,
-    desc: 'Unlike Intel MacBook Airs, the M1 does not have a discrete GPU that can fail independently. However, the unified memory architecture means that a logic board fault affecting the GPU cores can produce a black screen on startup — similar to a backlight fault in symptom. We distinguish these by the torch test: if the desktop is visible under torchlight, the backlight circuit has failed and the logic board is otherwise healthy. If nothing is visible under torchlight, the GPU output itself may be at fault — a more complex logic board repair.',
+    desc: 'Unlike Intel MacBook Airs, the M1 does not have a discrete GPU that can fail independently. However, the unified memory architecture means that a logic board fault affecting the GPU cores can produce a black screen on startup, similar to a backlight fault in symptom. We distinguish these by the torch test: if the desktop is visible under torchlight, the backlight circuit has failed and the logic board is otherwise healthy. If nothing is visible under torchlight, the GPU output itself may be at fault, a more complex logic board repair.',
     severity: 'medium',
   },
 ];
@@ -126,27 +126,27 @@ const faqs = [
   {
     question: 'How much does MacBook Air M1 screen repair cost in Johannesburg?',
     answer:
-      'MacBook Air M1 screen repair starts from R2,499 for a full display assembly replacement (A2337). If the fault is isolated to the display flex cable, the repair starts from R1,499. Anti-reflective coating delamination — where the display functions correctly but the coating has failed — also starts from R2,499. Apple Store charges R6,000 to R9,000 for the same repair. We provide a written fixed-price quote before any work begins.',
+      'MacBook Air M1 screen repair starts from R2,499 for a full display assembly replacement (A2337). If the fault is isolated to the display flex cable, the repair starts from R1,499. Anti-reflective coating delamination, where the display functions correctly but the coating has failed, also starts from R2,499. Apple Store charges R6,000 to R9,000 for the same repair. We provide a written fixed-price quote before any work begins.',
   },
   {
-    question: 'My MacBook Air M1 screen looks smeared or cloudy — is this repairable?',
+    question: 'My MacBook Air M1 screen looks smeared or cloudy, is this repairable?',
     answer:
-      'Yes. This is anti-reflective coating delamination — one of the most common MacBook Air M1 screen complaints we see. The coating on the 2020 Liquid Retina display is relatively fragile and can delaminate through contact with cleaning agents, rough cloths, or even keyboard-to-screen contact when the lid is closed with something between them. The display itself is functioning perfectly. The fix is a display assembly replacement; we cannot re-apply the AR coating to the existing glass. Starting from R2,499.',
+      'Yes. This is anti-reflective coating delamination, one of the most common MacBook Air M1 screen complaints we see. The coating on the 2020 Liquid Retina display is relatively fragile and can delaminate through contact with cleaning agents, rough cloths, or even keyboard-to-screen contact when the lid is closed with something between them. The display itself is functioning perfectly. The fix is a display assembly replacement; we cannot re-apply the AR coating to the existing glass. Starting from R2,499.',
   },
   {
     question: 'Does the MacBook Air M1 have the flexgate problem?',
     answer:
-      'No. Flexgate was specific to the 2016 and 2017 MacBook Pro 13-inch and 15-inch models. The MacBook Air M1 uses a different hinge and display cable design that does not repeat the flexgate fault pattern. However, the display flex cable on the M1 Air can still develop faults — particularly micro-fractures from sustained physical stress or hinge impact. The symptom is intermittent display cutout or flickering at certain lid angles, which we resolve with cable replacement.',
+      'No. Flexgate was specific to the 2016 and 2017 MacBook Pro 13-inch and 15-inch models. The MacBook Air M1 uses a different hinge and display cable design that does not repeat the flexgate fault pattern. However, the display flex cable on the M1 Air can still develop faults, particularly micro-fractures from sustained physical stress or hinge impact. The symptom is intermittent display cutout or flickering at certain lid angles, which we resolve with cable replacement.',
   },
   {
-    question: 'My MacBook Air M1 screen is black but it is still running — what is wrong?',
+    question: 'My MacBook Air M1 screen is black but it is still running, what is wrong?',
     answer:
-      'Hold a torch up to the display at an angle. If you can faintly see your desktop, the Mac is running normally but the backlight has failed. The MacBook Air M1 backlight circuit sits on the logic board — this is a component-level repair. The M1 Air is fanless, so the logic board runs hotter than a MacBook Pro under sustained load, and the backlight driver can be affected by both load shedding voltage surges and prolonged thermal stress. If the torch test shows nothing, the fault may be in the display panel or the GPU cores on the M1 chip — we diagnose this at assessment.',
+      'Hold a torch up to the display at an angle. If you can faintly see your desktop, the Mac is running normally but the backlight has failed. The MacBook Air M1 backlight circuit sits on the logic board, this is a component-level repair. The M1 Air is fanless, so the logic board runs hotter than a MacBook Pro under sustained load, and the backlight driver can be affected by both load shedding voltage surges and prolonged thermal stress. If the torch test shows nothing, the fault may be in the display panel or the GPU cores on the M1 chip, we diagnose this at assessment.',
   },
   {
     question: 'Will True Tone work after MacBook Air M1 screen repair?',
     answer:
-      'Yes. We migrate True Tone calibration data to the replacement display assembly as a standard part of every M1 Air screen repair. Your MacBook Air M1 will show True Tone as active in System Settings after the repair — it will not show "Not Available". This is something many budget repairers skip, leaving the Mac permanently unable to adapt to ambient lighting.',
+      'Yes. We migrate True Tone calibration data to the replacement display assembly as a standard part of every M1 Air screen repair. Your MacBook Air M1 will show True Tone as active in System Settings after the repair, it will not show "Not Available". This is something many budget repairers skip, leaving the Mac permanently unable to adapt to ambient lighting.',
   },
   {
     question: 'How long does MacBook Air M1 screen repair take?',
@@ -164,19 +164,19 @@ const faqs = [
       'Yes. The MacBook Air M1 has two Thunderbolt / USB 4 ports that support external display output. You can connect a monitor, close the lid, and operate the Mac in clamshell mode while waiting for the screen repair. At ZA Support, we confirm external display output is functioning before you leave the workshop if you bring the machine in with a cracked or dead screen.',
   },
   {
-    question: 'My MacBook Air M1 has lines or discolouration on the screen — what causes this?',
+    question: 'My MacBook Air M1 has lines or discolouration on the screen, what causes this?',
     answer:
-      'Horizontal or vertical lines on the MacBook Air M1 display indicate a signal fault in the display chain. Most commonly, this is the display flex cable — a partially fractured cable produces incorrect row or column addressing on the LCD matrix. We connect an external display to confirm whether the GPU output is clean before attributing the fault to the cable or panel. If the external display is clean, the fault is isolated to the display assembly or cable.',
+      'Horizontal or vertical lines on the MacBook Air M1 display indicate a signal fault in the display chain. Most commonly, this is the display flex cable, a partially fractured cable produces incorrect row or column addressing on the LCD matrix. We connect an external display to confirm whether the GPU output is clean before attributing the fault to the cable or panel. If the external display is clean, the fault is isolated to the display assembly or cable.',
   },
   {
     question: 'Is it worth repairing a MacBook Air M1 screen?',
     answer:
-      'Almost always yes. The MacBook Air M1 is an exceptionally capable machine that holds its value well — the M1 chip is still among the most efficient processors available. A screen repair at R2,499 to R3,499 restores the machine to full function, compared to the cost of a replacement M2 or M3 Air. Many of our clients in Sandton, Rosebank, and Fourways have repaired M1 Airs that are 3 to 4 years old and plan to keep using them for several more years.',
+      'Almost always yes. The MacBook Air M1 is an exceptionally capable machine that holds its value well, the M1 chip is still among the most efficient processors available. A screen repair at R2,499 to R3,499 restores the machine to full function, compared to the cost of a replacement M2 or M3 Air. Many of our clients in Sandton, Rosebank, and Fourways have repaired M1 Airs that are 3 to 4 years old and plan to keep using them for several more years.',
   },
   {
     question: 'What cleaning products should I avoid on my MacBook Air M1 screen?',
     answer:
-      'Avoid any product containing alcohol, acetone, or other solvents — including most household glass cleaners, hand sanitiser, and cleaning wipes not specifically designed for displays. Apple recommends a dry lint-free cloth or a cloth slightly dampened with water only. Even Apple-branded polishing cloths should be used with minimal pressure. The AR coating on the MacBook Air M1 Liquid Retina display is more fragile than it appears and will delaminate with repeated chemical exposure.',
+      'Avoid any product containing alcohol, acetone, or other solvents, including most household glass cleaners, hand sanitiser, and cleaning wipes not specifically designed for displays. Apple recommends a dry lint-free cloth or a cloth slightly dampened with water only. Even Apple-branded polishing cloths should be used with minimal pressure. The AR coating on the MacBook Air M1 Liquid Retina display is more fragile than it appears and will delaminate with repeated chemical exposure.',
   },
 ];
 
@@ -202,11 +202,11 @@ export default function ScreenRepairMacBookAirM1Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The first Apple Silicon MacBook Air — and one of the most common screens we repair in our Hyde Park workshop. AR coating delamination, backlight failure, cracked Liquid Retina panels. True Tone preserved on every repair. Assessment from R599.
+              The first Apple Silicon MacBook Air, and one of the most common screens we repair in our Hyde Park workshop. AR coating delamination, backlight failure, cracked Liquid Retina panels. True Tone preserved on every repair. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Air M1 screen from R2,499 | 24–48 hr turnaround</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Air M1 screen from R2,499 | 24-48 hr turnaround</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -291,7 +291,7 @@ export default function ScreenRepairMacBookAirM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -300,19 +300,19 @@ export default function ScreenRepairMacBookAirM1Page() {
       {/* Technical Expertise */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M1 Display — The First Apple Silicon Air</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M1 Display, The First Apple Silicon Air</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Air M1 (A2337, late 2020) was the first Apple Silicon Mac available to the public. It uses the same IPS LCD Liquid Retina display as the final Intel Air models — 2560×1600 at 227 ppi — but with a new logic board layout and fanless thermal design that changes how we approach display-adjacent repairs.
+              The MacBook Air M1 (A2337, late 2020) was the first Apple Silicon Mac available to the public. It uses the same IPS LCD Liquid Retina display as the final Intel Air models, 2560×1600 at 227 ppi, but with a new logic board layout and fanless thermal design that changes how we approach display-adjacent repairs.
             </p>
             <p>
-              In our Hyde Park workshop, the MacBook Air M1 is the most frequently repaired Air model we see. The primary fault pattern is anti-reflective coating delamination. Apple used a relatively thin AR coating on the M1 Air display that is easily damaged by cleaning products, alcohol-based wipes, or sustained contact with the keyboard when the lid is closed. We see this fault weekly — more so than cracked panels or backlight failures. The fix is a full display assembly replacement.
+              In our Hyde Park workshop, the MacBook Air M1 is the most frequently repaired Air model we see. The primary fault pattern is anti-reflective coating delamination. Apple used a relatively thin AR coating on the M1 Air display that is easily damaged by cleaning products, alcohol-based wipes, or sustained contact with the keyboard when the lid is closed. We see this fault weekly, more so than cracked panels or backlight failures. The fix is a full display assembly replacement.
             </p>
             <p>
-              The fanless design of the M1 Air creates a unique thermal environment for the display backlight circuit. Without active cooling, the logic board reaches higher temperatures under load than any MacBook Pro equivalent. Combined with South Africa's load shedding patterns — where the Mac is pushed hard on battery during outages, then immediately subjected to a voltage surge on grid restoration — backlight driver IC failures on M1 Airs are a regular occurrence in our workshop.
+              The fanless design of the M1 Air creates a unique thermal environment for the display backlight circuit. Without active cooling, the logic board reaches higher temperatures under load than any MacBook Pro equivalent. Combined with South Africa's load shedding patterns, where the Mac is pushed hard on battery during outages, then immediately subjected to a voltage surge on grid restoration, backlight driver IC failures on M1 Airs are a regular occurrence in our workshop.
             </p>
             <p>
-              True Tone on the M1 Air works identically to the MacBook Pro — calibration data is stored in the display assembly and must be migrated during replacement. We do this as a standard step. What surprises many clients is how visible the difference is: a MacBook Air M1 with True Tone working correctly adapts its white point naturally to the ambient light in your office or home, reducing eye strain significantly over a full workday.
+              True Tone on the M1 Air works identically to the MacBook Pro, calibration data is stored in the display assembly and must be migrated during replacement. We do this as a standard step. What surprises many clients is how visible the difference is: a MacBook Air M1 with True Tone working correctly adapts its white point naturally to the ambient light in your office or home, reducing eye strain significantly over a full workday.
             </p>
             <p>
               For context on the M1 Air's repairability, iFixit's teardown provides a useful overview of the assembly architecture. The M1 Air's display assembly is more accessible than the Intel models in some respects, but the unified memory logic board design means any logic board repair alongside a screen repair requires careful handling of the SoC thermal management.
@@ -357,7 +357,7 @@ export default function ScreenRepairMacBookAirM1Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee — if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -368,15 +368,15 @@ export default function ScreenRepairMacBookAirM1Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple iStore vs ZA Support: MacBook Air M1 Screen Repair</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple replaces the full display assembly and charges R6,000 to R9,000. We diagnose the specific fault and charge significantly less — with a warranty that is often longer than any remaining AppleCare+.
+            Apple replaces the full display assembly and charges R6,000 to R9,000. We diagnose the specific fault and charge significantly less, with a warranty that is often longer than any remaining AppleCare+.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Display assembly replacement — R6,000 to R9,000+</li>
+                <li>Display assembly replacement, R6,000 to R9,000+</li>
                 <li>AR coating damage not covered by standard warranty</li>
-                <li>Turnaround 5–10 business days via Apple depot</li>
+                <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>True Tone requires Apple Configurator re-pair</li>
                 <li>No flex cable diagnosis before assembly swap</li>
                 <li>Full assembly replaced even for cable-only faults</li>
@@ -388,7 +388,7 @@ export default function ScreenRepairMacBookAirM1Page() {
                 <li>MacBook Air M1 screen from R2,499</li>
                 <li>Cable-only repair from R1,499 where appropriate</li>
                 <li>True Tone data migrated as standard</li>
-                <li>Turnaround 24–48 hours from drop-off</li>
+                <li>Turnaround 24-48 hours from drop-off</li>
                 <li>Flex cable diagnosed before assembly replacement</li>
                 <li>Up-to-3 year warranty on all completed repairs</li>
               </ul>
@@ -400,9 +400,9 @@ export default function ScreenRepairMacBookAirM1Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M1 Screen Repair — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M1 Screen Repair, Johannesburg Service Area</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            Our Hyde Park workshop is 10–20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton.
+            Our Hyde Park workshop is 10-20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
@@ -432,7 +432,7 @@ export default function ScreenRepairMacBookAirM1Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Air M1 Screen Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Air M1 Screen Repair, Common Questions" />
         </div>
       </section>
 
@@ -446,9 +446,9 @@ export default function ScreenRepairMacBookAirM1Page() {
               { label: 'MacBook Air Screen Repair', href: '/screen-repair/macbook-air' },
               { label: 'MacBook Air M2 Screen', href: '/screen-repair/macbook-air-m2' },
               { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
-              { label: 'Logic Board — MacBook Air M1', href: '/logic-board-repair/macbook-air-m1' },
+              { label: 'Logic Board, MacBook Air M1', href: '/logic-board-repair/macbook-air-m1' },
               { label: 'MacBook Air Liquid Damage', href: '/liquid-damage' },
-              { label: 'Screen Repair — Sandton', href: '/screen-repair/sandton' },
+              { label: 'Screen Repair, Sandton', href: '/screen-repair/sandton' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="glass-card p-4 text-center group">

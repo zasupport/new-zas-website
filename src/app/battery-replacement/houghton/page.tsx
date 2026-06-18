@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 
 const symptoms = [
   { title: 'Battery Not Charging', desc: 'MacBook plugged in but battery percentage does not increase. Faulty battery cell, charging IC, or port issue diagnosed and resolved.' },
-  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. Safety issue — replace immediately. We remove and dispose of swollen cells safely.' },
+  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. Safety issue, replace immediately. We remove and dispose of swollen cells safely.' },
   { title: 'Short Battery Life', desc: 'MacBook running for 2 hours or less on a full charge. Worn cells lose capacity. A new battery restores full runtime.' },
-  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now". Confirmed degradation — replacement advised.' },
-  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20–40% battery. Failing cells cannot deliver consistent voltage under load.' },
+  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now". Confirmed degradation, replacement advised.' },
+  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20-40% battery. Failing cells cannot deliver consistent voltage under load.' },
   { title: 'Battery Health Below 80%', desc: 'Apple considers batteries below 80% health to be at end of useful life. Replacement restores full capacity.' },
 ];
 
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: 'How far is Houghton from your Hyde Park workshop?',
-    answer: 'Approximately 7 km — roughly 10–15 minutes by car. Houghton is one of our closest collection areas — approximately 7 km from Hyde Park.',
+    answer: 'Approximately 7 km, roughly 10-15 minutes by car. Houghton is one of our closest collection areas, approximately 7 km from Hyde Park.',
   },
   {
     question: 'How long does a MacBook battery replacement take?',
@@ -40,16 +40,16 @@ const faqs = [
     answer: 'Apple-specification replacement batteries meeting or exceeding OEM specifications for cycle life and capacity. Every replacement includes a written warranty.',
   },
   {
-    question: 'My MacBook battery is swollen — is it safe to use?',
+    question: 'My MacBook battery is swollen, is it safe to use?',
     answer: 'No. A swollen battery is a safety hazard. Do not use the Mac until the battery is replaced. Contact us for same-day collection from Houghton.',
   },
   {
     question: 'How do I know if my battery needs replacing?',
-    answer: 'Check System Information > Power > Cycle Count. Above 800–1000 cycles (model dependent) indicates a worn battery. macOS also shows "Service Recommended" when health drops below Apple\'s threshold.',
+    answer: 'Check System Information > Power > Cycle Count. Above 800-1000 cycles (model dependent) indicates a worn battery. macOS also shows "Service Recommended" when health drops below Apple\'s threshold.',
   },
   {
     question: 'How much does MacBook battery replacement cost for Houghton clients?',
-    answer: 'Cost varies by model. Contact us via WhatsApp for a quote — pricing is confirmed before any work proceeds. Assessment from R599 if a full diagnostic is also needed.',
+    answer: 'Cost varies by model. Contact us via WhatsApp for a quote, pricing is confirmed before any work proceeds. Assessment from R599 if a full diagnostic is also needed.',
   },
   {
     question: 'Do you offer a warranty on battery replacements?',
@@ -100,7 +100,7 @@ export default function BatteryReplacementHoughtonPage() {
               <br /><span className="text-[#0FEA7A]">Houghton</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook battery replacement for Houghton clients. Apple-spec batteries, written warranty, same-day or next-day turnaround. Collection from Houghton — approx 10–15 minutes to Hyde Park.
+              MacBook battery replacement for Houghton clients. Apple-spec batteries, written warranty, same-day or next-day turnaround. Collection from Houghton, approx 10-15 minutes to Hyde Park.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -132,7 +132,7 @@ export default function BatteryReplacementHoughtonPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Battery Symptoms We Fix for Houghton Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Houghton is one of our closest collection areas — approximately 7 km from Hyde Park. We service all MacBook Air and MacBook Pro models from 2015 onwards, Intel and Apple Silicon.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Houghton is one of our closest collection areas, approximately 7 km from Hyde Park. We service all MacBook Air and MacBook Pro models from 2015 onwards, Intel and Apple Silicon.</p>
           <div className="space-y-4">
             {symptoms.map((f) => (
               <div key={f.title} className="glass-card p-5">
@@ -146,7 +146,7 @@ export default function BatteryReplacementHoughtonPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title={`MacBook Battery Replacement Houghton — Common Questions`} />
+          <FAQAccordion items={faqs} title={`MacBook Battery Replacement Houghton, Common Questions`} />
         </div>
       </section>
 

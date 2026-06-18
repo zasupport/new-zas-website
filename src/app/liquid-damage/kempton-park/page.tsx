@@ -26,7 +26,7 @@ const urgentSteps = [
 const faqs = [
   {
     question: 'Do you collect liquid-damaged MacBooks from Kempton Park?',
-    answer: 'Yes. We collect from homes, offices, and logistics parks throughout Kempton Park, Edenvale, Norkem Park, and Birch Acres. Kempton Park is approximately 35–40 minutes from our Hyde Park workshop. Liquid damage is time-critical — contact us via WhatsApp immediately.',
+    answer: 'Yes. We collect from homes, offices, and logistics parks throughout Kempton Park, Edenvale, Norkem Park, and Birch Acres. Kempton Park is approximately 35-40 minutes from our Hyde Park workshop. Liquid damage is time-critical, contact us via WhatsApp immediately.',
   },
   {
     question: 'What does the liquid damage assessment cost?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'How long does the liquid damage repair take?',
-    answer: 'Assessment and cleaning are typically completed within 24–48 hours. Complex board-level repairs may take longer depending on the components affected. We provide a specific turnaround time after assessment.',
+    answer: 'Assessment and cleaning are typically completed within 24-48 hours. Complex board-level repairs may take longer depending on the components affected. We provide a specific turnaround time after assessment.',
   },
 ];
 
@@ -90,11 +90,11 @@ export default function LiquidDamageKemptonParkPage() {
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 px-4 py-2 rounded-full mb-6">
               <AlertTriangle className="w-4 h-4 text-red-400" />
-              <span className="text-red-400 text-sm font-semibold">Act immediately — every hour matters</span>
+              <span className="text-red-400 text-sm font-semibold">Act immediately, every hour matters</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Liquid Damage Repair Kempton Park
-              <br /><span className="text-[#0FEA7A]">— We Collect, We Repair</span>
+              <br /><span className="text-[#0FEA7A]">, We Collect, We Repair</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook exposed to liquid in Kempton Park? Switch it off now. We collect from Kempton Park and Edenvale. Ultrasonic cleaning, board-level repair. Assessment from R599.
@@ -118,7 +118,7 @@ export default function LiquidDamageKemptonParkPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={buildWhatsAppUrl('LIQ-KEMPTONPARK', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all" >
-                WhatsApp Now — Urgent
+                WhatsApp Now, Urgent
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -150,7 +150,7 @@ export default function LiquidDamageKemptonParkPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Liquid Damage Repair Kempton Park — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Liquid Damage Repair Kempton Park, Common Questions" />
         </div>
       </section>
 
@@ -175,11 +175,11 @@ export default function LiquidDamageKemptonParkPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Kempton Park MacBook Liquid Damage — Act Now.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Kempton Park MacBook Liquid Damage, Act Now.</h2>
             <p className="text-[#7A9E98] mb-6">Assessment from R599. Collection from Kempton Park and Edenvale. Switch it off and call us.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LIQ-KEMPTONPARK', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
-                WhatsApp Now — Urgent
+                WhatsApp Now, Urgent
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

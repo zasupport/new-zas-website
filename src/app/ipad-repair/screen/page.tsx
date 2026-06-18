@@ -78,7 +78,7 @@ const symptoms = [
 const processSteps = [
   { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPad in or WhatsApp us a photo. We inspect the display and give you a written fixed-price quote, no surprises.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct replacement assembly is in stock for your specific model before committing to a repair date.' },
-  { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the display assembly. Most iPad screen repairs take 1–3 hours.' },
+  { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the display assembly. Most iPad screen repairs take 1-3 hours.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy across the full panel, check brightness uniformity, verify Apple Pencil compatibility, and confirm Face ID or Touch ID still functions.' },
   { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPad with a up-to-3 year warranty on the replacement screen and our labour. Assessment: from R599 applies.' },
 ];
@@ -92,7 +92,7 @@ const faqs = [
   {
     question: 'How long does iPad screen replacement take?',
     answer:
-      'Most iPad screen replacements take 1–3 hours. If we have your specific display assembly in stock, same-day repair is often available. iPad Pro 11" and 12.9" repairs may take 2–4 hours due to the adhesive bonding process. We confirm the turnaround time when you bring it in.',
+      'Most iPad screen replacements take 1-3 hours. If we have your specific display assembly in stock, same-day repair is often available. iPad Pro 11" and 12.9" repairs may take 2-4 hours due to the adhesive bonding process. We confirm the turnaround time when you bring it in.',
   },
   {
     question: 'Will Apple Pencil still work after screen repair?',
@@ -328,7 +328,7 @@ export default function iPadScreenPage() {
                     {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
                   </div>
                   <span className="text-[#E8F4F1] text-xs font-semibold">Priya N.</span>
-                  <span className="text-[#7A9E98] text-xs">— Sandton</span>
+                  <span className="text-[#7A9E98] text-xs">, Sandton</span>
                 </div>
               </div>
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
@@ -341,7 +341,7 @@ export default function iPadScreenPage() {
                     {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
                   </div>
                   <span className="text-[#E8F4F1] text-xs font-semibold">James O.</span>
-                  <span className="text-[#7A9E98] text-xs">— Rosebank</span>
+                  <span className="text-[#7A9E98] text-xs">, Rosebank</span>
                 </div>
               </div>
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
@@ -354,7 +354,7 @@ export default function iPadScreenPage() {
                     {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
                   </div>
                   <span className="text-[#E8F4F1] text-xs font-semibold">Fatima D.</span>
-                  <span className="text-[#7A9E98] text-xs">— Fourways</span>
+                  <span className="text-[#7A9E98] text-xs">, Fourways</span>
                 </div>
               </div>
             </div>

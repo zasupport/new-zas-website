@@ -44,12 +44,12 @@ const repairProcess = [
   { step: '3', title: 'Your Approval', detail: 'Work begins only after you approve the quote. If you decline for any reason, the machine is returned exactly as received, from R599.' },
   { step: '4', title: 'Component-Level Repair', detail: 'Using a stereo microscope, professional hot-air rework station, and precision soldering station, we replace the specific failed component, whether a fuse, capacitor, controller IC, or damaged trace.' },
   { step: '5', title: 'Multi-Stage Testing', detail: 'Post-repair verification: power-on and charge cycle test, display output (internal + external), USB-C device enumeration, thermal monitoring, and T2/SMC validation on applicable models.' },
-  { step: '6', title: 'Collection or Delivery', detail: 'Collect from our Hyde Park workshop or arrange secure courier return across Johannesburg. Most MacBook Air logic board repairs are completed within 3–5 business days from approval.' },
+  { step: '6', title: 'Collection or Delivery', detail: 'Collect from our Hyde Park workshop or arrange secure courier return across Johannesburg. Most MacBook Air logic board repairs are completed within 3-5 business days from approval.' },
 ];
 
 const modelCompatibility = [
-  { year: '2015–2017', model: 'MacBook Air 11" & 13"', chip: 'Intel Core i5/i7', repairable: 'Full component repair, power, USB-A/C, display circuits' },
-  { year: '2018–2019', model: 'MacBook Air 13" (USB-C)', chip: 'Intel Core i5', repairable: 'Full component repair, USB-C, backlight, power rail' },
+  { year: '2015-2017', model: 'MacBook Air 11" & 13"', chip: 'Intel Core i5/i7', repairable: 'Full component repair, power, USB-A/C, display circuits' },
+  { year: '2018-2019', model: 'MacBook Air 13" (USB-C)', chip: 'Intel Core i5', repairable: 'Full component repair, USB-C, backlight, power rail' },
   { year: '2020', model: 'MacBook Air 13" (Intel)', chip: 'Intel Core i3/i5/i7', repairable: 'Full repair, Touch ID board, USB-C controller, backlight' },
   { year: '2020', model: 'MacBook Air 13" (M1)', chip: 'Apple M1', repairable: 'Surrounding components, USB-C IC, power management, backlight' },
   { year: '2022', model: 'MacBook Air 13" (M2)', chip: 'Apple M2', repairable: 'Power delivery, USB-C controllers, display path, all repairable' },
@@ -60,7 +60,7 @@ const modelCompatibility = [
 const faqs = [
   {
     question: 'How long does MacBook Air logic board repair take?',
-    answer: 'The diagnostic is completed within 24 hours of drop-off. Simple repairs, USB-C controller, backlight circuit, power fuse, are typically done within 48–72 hours. More complex work such as multi-component liquid damage takes 3–5 business days. We confirm the timeframe in your written quote before any repair begins.',
+    answer: 'The diagnostic is completed within 24 hours of drop-off. Simple repairs, USB-C controller, backlight circuit, power fuse, are typically done within 48-72 hours. More complex work such as multi-component liquid damage takes 3-5 business days. We confirm the timeframe in your written quote before any repair begins.',
   },
   {
     question: 'Do you offer a warranty on MacBook Air logic board repairs?',
@@ -209,17 +209,17 @@ export default function MacBookAirLogicBoardPage() {
           </h2>
           <div className="space-y-5 text-[#7A9E98] leading-relaxed">
             <p>
-              The logic board is the central circuit board inside your MacBook Air — the processor, unified memory,
+              The logic board is the central circuit board inside your MacBook Air, the processor, unified memory,
               USB-C ports, display output, and battery management all run through it. When it develops a fault,
               symptoms range from a completely dead machine to a port that stopped charging or a screen that stays black.
             </p>
             <p>
-              Most MacBook Air logic board failures are caused by a single failed component — one fuse, one controller
+              Most MacBook Air logic board failures are caused by a single failed component, one fuse, one controller
               chip, one corroded trace. A component-level repair targets only that component under a stereo microscope,
               leaving the rest of the board untouched and your data exactly where it is.
             </p>
             <p>
-              Apple replaces the entire logic board — component-level repair is not available at Apple or most
+              Apple replaces the entire logic board, component-level repair is not available at Apple or most
               third-party shops in Johannesburg. It requires a microscope, specialist equipment, and the training
               to use it. We have all three.
             </p>
@@ -318,8 +318,8 @@ export default function MacBookAirLogicBoardPage() {
           <div className="mt-10 p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl max-w-2xl">
             <p className="text-[#E8F4F1] font-semibold mb-1">Typical turnaround</p>
             <p className="text-[#7A9E98] text-sm">
-              Most MacBook Air logic board repairs are completed within <strong className="text-[#E8F4F1]">3–5 business days</strong> from
-              approval. Simple, isolated faults (USB-C, backlight fuse, power fuse) are often done in 48–72 hours.
+              Most MacBook Air logic board repairs are completed within <strong className="text-[#E8F4F1]">3-5 business days</strong> from
+              approval. Simple, isolated faults (USB-C, backlight fuse, power fuse) are often done in 48-72 hours.
               Complex liquid damage or multi-component failures are quoted with a specific completion date.
             </p>
           </div>
@@ -383,7 +383,7 @@ export default function MacBookAirLogicBoardPage() {
           </p>
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
-              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. From R599,.' },
+              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. From R599.' },
               { item: 'USB-C / Charging Repair', note: 'USB-C controller IC or charging path component-level repair' },
               { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or display connector fault' },
               { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC' },
@@ -466,7 +466,7 @@ export default function MacBookAirLogicBoardPage() {
               The majority of repair shops in Johannesburg offer one option for a logic board fault: replace the entire
               board. This is expensive and almost always unnecessary. ZA Support performs component-level
               component-level repair, we identify the specific failed chip, fuse, or trace, and replace only that. Your data
-              stays on the device throughout. Your Touch ID pairing is preserved. And the repair costs 60–80% less than
+              stays on the device throughout. Your Touch ID pairing is preserved. And the repair costs 60-80% less than
               a full board swap. This is the repair approach that requires a microscope, proper training, and
               specialist equipment. We have all of them, and we apply them to every MacBook Air model from
               2015 through to the M3 generation.
@@ -539,7 +539,7 @@ export default function MacBookAirLogicBoardPage() {
               MacBook Air Logic Board Fault?
             </h2>
             <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Mon–Thu 08:00–17:00 · Fri 08:00–16:30 · Closed Weekends</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Mon-Thu 08:00-17:00 · Fri 08:00-16:30 · Closed Weekends</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('LBR-MBA', 'logic-board')}

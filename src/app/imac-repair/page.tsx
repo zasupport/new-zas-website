@@ -70,10 +70,10 @@ const models = [
   { name: 'iMac 24" M3 (2023)', note: 'Apple Silicon' },
   { name: 'iMac 24" M1 (2021)', note: 'Apple Silicon' },
   { name: 'iMac Pro 27" (2017)', note: 'Intel Xeon' },
-  { name: 'iMac 27" Retina 5K (2014–2020)', note: 'Intel, RAM upgradeable' },
-  { name: 'iMac 21.5" Retina 4K (2017–2019)', note: 'Intel' },
-  { name: 'iMac 21.5" (2012–2017)', note: 'Intel' },
-  { name: 'iMac 27" (2012–2013)', note: 'Intel, PCIe SSD slot' },
+  { name: 'iMac 27" Retina 5K (2014-2020)', note: 'Intel, RAM upgradeable' },
+  { name: 'iMac 21.5" Retina 4K (2017-2019)', note: 'Intel' },
+  { name: 'iMac 21.5" (2012-2017)', note: 'Intel' },
+  { name: 'iMac 27" (2012-2013)', note: 'Intel, PCIe SSD slot' },
   { name: 'All Retina iMac models', note: 'From 2014 onwards' },
 ];
 
@@ -86,12 +86,12 @@ const faqs = [
   {
     question: 'Can I upgrade the RAM in my iMac?',
     answer:
-      'It depends on the model. The iMac 27-inch (Intel, 2012–2020) has user-accessible RAM slots, you can upgrade to 32 GB or 64 GB without opening the machine. The iMac 21.5-inch (Intel) has soldered RAM after 2012. The iMac M1 and M3 (24-inch) have unified memory soldered to the chip, no upgrade is possible. We confirm upgradability before quoting.',
+      'It depends on the model. The iMac 27-inch (Intel, 2012-2020) has user-accessible RAM slots, you can upgrade to 32 GB or 64 GB without opening the machine. The iMac 21.5-inch (Intel) has soldered RAM after 2012. The iMac M1 and M3 (24-inch) have unified memory soldered to the chip, no upgrade is possible. We confirm upgradability before quoting.',
   },
   {
     question: 'Is it worth repairing an old iMac?',
     answer:
-      'For Intel iMac 27-inch models (2015–2020), yes, an SSD upgrade and RAM upgrade can double or triple performance, compared to the cost of a new M3 iMac. For models older than 2012, repair costs often exceed the machine value. We will always present you with a repair vs replace comparison before proceeding.',
+      'For Intel iMac 27-inch models (2015-2020), yes, an SSD upgrade and RAM upgrade can double or triple performance, compared to the cost of a new M3 iMac. For models older than 2012, repair costs often exceed the machine value. We will always present you with a repair vs replace comparison before proceeding.',
   },
   {
     question: 'My iMac screen has gone dark or has lines through it, what is wrong?',
@@ -101,7 +101,7 @@ const faqs = [
   {
     question: 'How long does iMac repair take?',
     answer:
-      'Screen replacement typically takes 2–4 hours. RAM and SSD upgrades are often same-day (30–60 minutes). Logic board repair takes 3–7 business days. We give you a completion estimate when we receive your machine.',
+      'Screen replacement typically takes 2-4 hours. RAM and SSD upgrades are often same-day (30-60 minutes). Logic board repair takes 3-7 business days. We give you a completion estimate when we receive your machine.',
   },
   {
     question: 'Do you repair iMac 21.5" and 27" models?',
@@ -291,7 +291,7 @@ export default function IMacRepairPage() {
               <tbody className="divide-y divide-slate-100">
                 {[
                   {
-                    scenario: 'iMac 27" Intel (2015–2020) running slowly',
+                    scenario: 'iMac 27" Intel (2015-2020) running slowly',
                     rec: 'SSD + RAM upgrade, excellent value',
                   },
                   {
@@ -299,7 +299,7 @@ export default function IMacRepairPage() {
                     rec: 'Screen replacement, cost-effective',
                   },
                   {
-                    scenario: 'iMac 2012–2014 running slowly',
+                    scenario: 'iMac 2012-2014 running slowly',
                     rec: 'SSD upgrade, still worthwhile',
                   },
                   {
@@ -307,7 +307,7 @@ export default function IMacRepairPage() {
                     rec: 'Repair, modern machine, worth fixing',
                   },
                   {
-                    scenario: 'iMac 2009–2011 any fault',
+                    scenario: 'iMac 2009-2011 any fault',
                     rec: 'Replace, repair cost exceeds value',
                   },
                 ].map((row) => (
@@ -332,7 +332,7 @@ export default function IMacRepairPage() {
         </div>
       </section>
 
-      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      {/* Google Reviews, sourced from GBP (TEST-2 importer, 26/05/2026) */}
       <GoogleReviews count={6} />
 
       {/* CTA */}
@@ -359,7 +359,7 @@ export default function IMacRepairPage() {
             </Link>
           </div>
           <p className="text-slate-500 text-sm mt-6">
-            1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg · Mon–Fri 8am–6pm
+            1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg · Mon-Fri 8am-6pm
           </p>
         </div>
       </section>

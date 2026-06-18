@@ -47,15 +47,15 @@ const profilePageSchema = {
       },
     ],
     alumniOf: [
-      { '@type': 'EducationalOrganization', name: 'UNISA', department: 'Artificial Intelligence / Cognitive Computing (2017–ongoing)' },
+      { '@type': 'EducationalOrganization', name: 'UNISA', department: 'Artificial Intelligence / Cognitive Computing (2017-ongoing)' },
       { '@type': 'EducationalOrganization', name: 'St John\'s College' },
     ],
     award: [
-      'Forbes Africa 30 Under 30 — Technology (2019)',
+      'Forbes Africa 30 Under 30, Technology (2019)',
       'Mercedes-Benz Predictive Manufacturing Award Winner (2017)',
       'Attacq Commercial Real Estate Innovation Award Winner (2017)',
       'Knife Capital Grindstone Venture Capital Program (2018)',
-      'VivaTech Paris — Verizon Alternative Credit Scoring Award (2018)',
+      'VivaTech Paris, Verizon Alternative Credit Scoring Award (2018)',
     ],
     worksFor: {
       '@type': 'LocalBusiness',
@@ -76,19 +76,19 @@ const profilePageSchema = {
 };
 
 const credentials = [
-  { icon: Award, label: 'Forbes Africa 30 Under 30 (2019)', detail: 'Technology category — recognised for Apple repair innovation and Vizibiliti AI credit scoring' },
+  { icon: Award, label: 'Forbes Africa 30 Under 30 (2019)', detail: 'Technology category, recognised for Apple repair innovation and Vizibiliti AI credit scoring' },
   { icon: Award, label: 'Former Apple South Africa Manager', detail: 'Apple retail and enterprise operations (2007-2009), founded ZA Support at age 19' },
-  { icon: Wrench, label: 'Component-Level Repair', detail: 'Has overseen ZA Support’s 25,000+ Mac repair operations — logic board under microscope, chip-level diagnostics' },
+  { icon: Wrench, label: 'Component-Level Repair', detail: 'Has overseen ZA Support’s 25,000+ Mac repair operations, logic board under microscope, chip-level diagnostics' },
   { icon: Shield, label: 'Medical IT Specialist', detail: 'HPCSA-compliant IT for medical practices across Gauteng, POPIA compliance' },
-  { icon: CheckCircle, label: 'AI / Cognitive Computing (UNISA)', detail: 'UNISA, 2017–ongoing — Artificial Intelligence, deep structured learning, machine intelligence' },
-  { icon: CheckCircle, label: 'BEE Level 1', detail: 'Broad-based black economic empowerment — qualifying supplier for enterprise and government' },
+  { icon: CheckCircle, label: 'AI / Cognitive Computing (UNISA)', detail: 'UNISA, 2017-ongoing, Artificial Intelligence, deep structured learning, machine intelligence' },
+  { icon: CheckCircle, label: 'BEE Level 1', detail: 'Broad-based black economic empowerment, qualifying supplier for enterprise and government' },
 ];
 
 const mediaLinks = [
   { label: 'Forbes Africa 30 Under 30', url: 'https://bit.ly/2YrcW8q' },
   { label: 'Gadget.co.za', url: 'https://gadget.co.za/sas-vizibiliti-conquers-us/' },
   { label: 'Good Things Guy', url: 'https://bit.ly/2uAZq0W' },
-  { label: 'YouTube — Mercedes-Benz Award', url: 'https://www.youtube.com/watch?v=A4Km_OonG80' },
+  { label: 'YouTube, Mercedes-Benz Award', url: 'https://www.youtube.com/watch?v=A4Km_OonG80' },
 ];
 
 export default function CourtneyBentleyPage() {
@@ -130,7 +130,7 @@ export default function CourtneyBentleyPage() {
           </p>
 
           <p className="text-[#7A9E98] text-sm leading-relaxed mb-10">
-            Also co-founded Vizibiliti Insight Africa in 2016 — an AI alternative credit scoring platform
+            Also co-founded Vizibiliti Insight Africa in 2016, an AI alternative credit scoring platform
             that worked with Mercedes-Benz Financial Services, Capitec Bank, and Old Mutual. Winner of the
             Mercedes-Benz Predictive Manufacturing Award (2017) and VivaTech Paris Verizon Alternative
             Credit Scoring Award (2018).

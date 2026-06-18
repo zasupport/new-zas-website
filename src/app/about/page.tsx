@@ -297,7 +297,7 @@ export default function AboutPage() {
                   Founded in 2009 in Hyde Park, we chose board-level component-level repair when other shops were replacing whole boards. Clients keep their original hardware, pay significantly less, and get a up-to-3 year warranty on every repair.
                 </p>
                 <p>
-                  Today we serve medical practices, businesses, and professionals across Johannesburg — combining Apple repair, JAMF MDM, and managed IT from our Hyde Park workshop at 1 Hyde Lane, Second Floor, Office E2004.
+                  Today we serve medical practices, businesses, and professionals across Johannesburg, combining Apple repair, JAMF MDM, and managed IT from our Hyde Park workshop at 1 Hyde Lane, Second Floor, Office E2004.
                 </p>
               </div>
             </div>

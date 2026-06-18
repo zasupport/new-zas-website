@@ -56,7 +56,7 @@ const faqs = [
   {
     question: 'How long does liquid damage repair take?',
     answer:
-      'The assessment is completed within 24 hours. Simple repairs, keyboard replacement, USB-C board swap, minor cleaning, are typically done within 24–48 hours. Logic board cleaning and component repair takes 48–72 hours. Complex multi-site corrosion with IC replacement takes 3–5 business days. We confirm the exact timeline before work begins.',
+      'The assessment is completed within 24 hours. Simple repairs, keyboard replacement, USB-C board swap, minor cleaning, are typically done within 24-48 hours. Logic board cleaning and component repair takes 48-72 hours. Complex multi-site corrosion with IC replacement takes 3-5 business days. We confirm the exact timeline before work begins.',
   },
   {
     question: 'What happens if I do not repair liquid damage?',
@@ -96,7 +96,7 @@ const emergencySteps = [
   {
     step: '3',
     title: 'Tilt to drain, keyboard side down',
-    detail: 'Turn the MacBook Pro upside down with the keyboard facing down. This allows gravity to pull liquid away from the logic board. Hold this position for 2–3 minutes over a towel.',
+    detail: 'Turn the MacBook Pro upside down with the keyboard facing down. This allows gravity to pull liquid away from the logic board. Hold this position for 2-3 minutes over a towel.',
     urgent: false,
   },
   {
@@ -119,7 +119,7 @@ const severityTiers = [
     detail: 'Liquid reached the keyboard and possibly the trackpad but did not penetrate to the logic board. The most common and most recoverable scenario.',
     repair: 'Keyboard and/or trackpad replacement',
     recovery: 'Excellent',
-    timeframe: '24–48 hours',
+    timeframe: '24-48 hours',
     colour: 'green' as const,
   },
   {
@@ -127,7 +127,7 @@ const severityTiers = [
     detail: 'Liquid reached the main logic board but corrosion is localised. Component cleaning under ultrasonic bath, trace repair, and targeted IC replacement restores full function.',
     repair: 'Ultrasonic cleaning, IC cleaning, trace repair',
     recovery: 'Very good',
-    timeframe: '48–72 hours',
+    timeframe: '48-72 hours',
     colour: 'yellow' as const,
   },
   {
@@ -135,7 +135,7 @@ const severityTiers = [
     detail: 'Extensive corrosion across multiple board areas. Multiple ICs affected, traces damaged, and multiple failed components. Requires full board cleaning plus targeted component replacement.',
     repair: 'Full component repair, multiple IC replacements',
     recovery: 'Case dependent',
-    timeframe: '3–5 business days',
+    timeframe: '3-5 business days',
     colour: 'orange' as const,
   },
   {
@@ -143,7 +143,7 @@ const severityTiers = [
     detail: 'Liquid entered the display assembly causing dead pixels, backlight failure, or full screen blackout. The display assembly is replaced independently of the logic board.',
     repair: 'Display assembly replacement',
     recovery: 'Excellent',
-    timeframe: '24–48 hours',
+    timeframe: '24-48 hours',
     colour: 'green' as const,
   },
 ];
@@ -231,13 +231,13 @@ export default function MacBookProLiquidDamagePage() {
               Assessment: from R599. written up-to-3 year warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Every hour matters after a liquid spill. Corrosion starts within minutes of contact —
+              Every hour matters after a liquid spill. Corrosion starts within minutes of contact, 
               the sooner you bring your MacBook Pro in, the better the outcome.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Shield, label: 'Assessment: from R599' },
-                { icon: Clock, label: '24–72hr Turnaround' },
+                { icon: Clock, label: '24-72hr Turnaround' },
                 { icon: Zap, label: 'Assessment: from R599' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Droplets, label: '500+ Recoveries' },
@@ -397,7 +397,7 @@ export default function MacBookProLiquidDamagePage() {
               </ul>
               <p>
                 What actually works: professional ultrasonic cleaning with a specialist PCB solution, followed
-                by microscope inspection and targeted component replacement. This is what we do at ZA Support —
+                by microscope inspection and targeted component replacement. This is what we do at ZA Support, 
                 and it is why our liquid damage recovery rate is significantly higher than &ldquo;let it dry out&rdquo; approaches.
               </p>
             </div>
@@ -449,7 +449,7 @@ export default function MacBookProLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All prices are confirmed before any work begins. Our Assessment: from R599 policy applies to every case —
+              All prices are confirmed before any work begins. Our Assessment: from R599 policy applies to every case, 
               if we cannot repair your MacBook Pro, an assessment fee of from R599 applies and the machine is returned exactly
               as received. up-to-3 year warranty on all repairs.
             </p>
@@ -504,9 +504,9 @@ export default function MacBookProLiquidDamagePage() {
               </p>
               <div className="space-y-2.5">
                 {[
-                  'MacBook Pro 13" (A1706, A1708), 2016–2017',
-                  'MacBook Pro 15" (A1707), 2016–2017',
-                  'MacBook Pro 13" (A1989, A1990), 2018–2019',
+                  'MacBook Pro 13" (A1706, A1708), 2016-2017',
+                  'MacBook Pro 15" (A1707), 2016-2017',
+                  'MacBook Pro 13" (A1989, A1990), 2018-2019',
                   'MacBook Pro 16" (A2141), 2019',
                   'MacBook Pro 13" (A2251, A2289, A2338), 2020',
                   'MacBook Pro 14" M1 Pro/Max (A2442), 2021',
@@ -514,8 +514,8 @@ export default function MacBookProLiquidDamagePage() {
                   'MacBook Pro 13" M2 (A2338), 2022',
                   'MacBook Pro 14" M2 Pro/Max (A2779), 2023',
                   'MacBook Pro 16" M2 Pro/Max (A2780), 2023',
-                  'MacBook Pro 14" M3 Pro/Max (A2992), 2023–2024',
-                  'MacBook Pro 16" M3 Pro/Max (A2991), 2023–2024',
+                  'MacBook Pro 14" M3 Pro/Max (A2992), 2023-2024',
+                  'MacBook Pro 16" M3 Pro/Max (A2991), 2023-2024',
                 ].map((model) => (
                   <div key={model} className="flex items-center gap-3">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
@@ -548,7 +548,7 @@ export default function MacBookProLiquidDamagePage() {
                   },
                   {
                     title: 'Touch Bar &amp; Touch ID',
-                    desc: 'The Touch Bar flex cable and BRDG controller chip are vulnerable on 2016–2021 Touch Bar models.',
+                    desc: 'The Touch Bar flex cable and BRDG controller chip are vulnerable on 2016-2021 Touch Bar models.',
                   },
                   {
                     title: 'Display &amp; Backlight Circuit',

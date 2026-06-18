@@ -17,7 +17,7 @@ export default function GoogleMap({ height = '320px' }: GoogleMapProps) {
       style={{ height }}
     >
       <iframe
-        title="ZA Support — Hyde Park, Johannesburg"
+        title="ZA Support, Hyde Park, Johannesburg"
         src={src}
         width="100%"
         height="100%"

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or display connector fault.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on movement. Often a loose display cable on Intel-era MacBook Pros, or a GPU fault. Diagnosed before repair.' },
@@ -42,19 +42,19 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook screen replacement take from Fourways?',
-    answer: 'Most screen replacements are completed within 24–48 hours of collection. We carry display assemblies for the most common MacBook models in stock at our Hyde Park workshop. For less common configurations we will confirm parts availability and turnaround time when you contact us. Given the distance from Fourways, we typically schedule both collection and return in one planned day to keep disruption minimal.',
+    answer: 'Most screen replacements are completed within 24-48 hours of collection. We carry display assemblies for the most common MacBook models in stock at our Hyde Park workshop. For less common configurations we will confirm parts availability and turnaround time when you contact us. Given the distance from Fourways, we typically schedule both collection and return in one planned day to keep disruption minimal.',
   },
   {
     question: 'My MacBook screen cracked but it still works. Should I repair it now?',
-    answer: 'Yes. A cracked display is a progressive fault. Moisture ingress through the crack can damage the backlight independently of the panel — meaning a crack that is left for weeks can turn a simple display replacement into a more costly combined repair. Acting early means a lower cost and a faster turnaround. This is one of the most consistent patterns we see in our Hyde Park workshop.',
+    answer: 'Yes. A cracked display is a progressive fault. Moisture ingress through the crack can damage the backlight independently of the panel, meaning a crack that is left for weeks can turn a simple display replacement into a more costly combined repair. Acting early means a lower cost and a faster turnaround. This is one of the most consistent patterns we see in our Hyde Park workshop.',
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement involves fitting a complete new display assembly — LCD panel, backlight, and outer glass as one unit. This is the standard approach for cracked screens. Screen repair refers to component-level diagnosis for faults such as backlight failure, flickering, or black screen where the LCD panel itself may be undamaged. We always diagnose the exact fault before any replacement is recommended.',
+    answer: 'Display replacement involves fitting a complete new display assembly, LCD panel, backlight, and outer glass as one unit. This is the standard approach for cracked screens. Screen repair refers to component-level diagnosis for faults such as backlight failure, flickering, or black screen where the LCD panel itself may be undamaged. We always diagnose the exact fault before any replacement is recommended.',
   },
   {
     question: 'My MacBook Pro screen flickers when I move the lid. Is that fixable?',
-    answer: 'Yes. Lid-movement flickering is a well-documented fault on Intel MacBook Pro models, particularly the 13-inch 2016–2019 Touch Bar range. The display cable passes through the hinge and develops micro-fractures over time with the stress of daily opening and closing. This is a targeted cable repair — it does not require a full display replacement and resolves the flickering permanently.',
+    answer: 'Yes. Lid-movement flickering is a well-documented fault on Intel MacBook Pro models, particularly the 13-inch 2016-2019 Touch Bar range. The display cable passes through the hinge and develops micro-fractures over time with the stress of daily opening and closing. This is a targeted cable repair, it does not require a full display replacement and resolves the flickering permanently.',
   },
   {
     question: 'Does screen replacement affect Face ID or Touch ID?',
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: 'I work in the Fourways tech corridor. Can you fit repairs around my schedule?',
-    answer: 'Yes. We are used to working around busy professional schedules. When you contact us via WhatsApp, let us know your preferred collection window — morning, lunchtime, or end of day — and we will do our best to accommodate it. For Fourways clients, we typically plan collection and return on the same day to minimise the round trip.',
+    answer: 'Yes. We are used to working around busy professional schedules. When you contact us via WhatsApp, let us know your preferred collection window, morning, lunchtime, or end of day, and we will do our best to accommodate it. For Fourways clients, we typically plan collection and return on the same day to minimise the round trip.',
   },
   {
     question: 'What warranty do I receive on a MacBook screen replacement?',
@@ -110,7 +110,7 @@ export default function ScreenRepairFourwaysPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Fourways
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook screen repair and display replacement for Fourways clients. We collect from Fourways and carry out the repair at our Hyde Park workshop, approximately 12 kilometres south via William Nicol Drive.
@@ -122,7 +122,7 @@ export default function ScreenRepairFourwaysPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Fourways' },
               ].map(({ icon: Icon, label }) => (
@@ -155,16 +155,16 @@ export default function ScreenRepairFourwaysPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Fourways has grown into one of Johannesburg's most active tech and business hubs — Fourways Mall, Monte Casino, and a growing corridor of office parks along William Nicol Drive and Witkoppen Road host a large population of MacBook users who depend on their machines for daily professional work. When a screen fails in that environment, the impact is immediate.
+              Fourways has grown into one of Johannesburg's most active tech and business hubs, Fourways Mall, Monte Casino, and a growing corridor of office parks along William Nicol Drive and Witkoppen Road host a large population of MacBook users who depend on their machines for daily professional work. When a screen fails in that environment, the impact is immediate.
             </p>
             <p>
-              We collect from Fourways regularly. At approximately 12 kilometres north of our Hyde Park workshop via William Nicol Drive, it sits comfortably within our service area. We collect your MacBook from your home or office, carry out the display repair or replacement at our workshop, and return it to you — typically within 24–48 hours. For Fourways clients, we coordinate both legs of the journey on the same planned day where possible to keep disruption minimal.
+              We collect from Fourways regularly. At approximately 12 kilometres north of our Hyde Park workshop via William Nicol Drive, it sits comfortably within our service area. We collect your MacBook from your home or office, carry out the display repair or replacement at our workshop, and return it to you, typically within 24-48 hours. For Fourways clients, we coordinate both legs of the journey on the same planned day where possible to keep disruption minimal.
             </p>
             <p>
-              We repair and replace displays on all MacBook models — MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, both Intel and M-series). Every job uses quality-matched panels and is covered by a written warranty.
+              We repair and replace displays on all MacBook models, MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, both Intel and M-series). Every job uses quality-matched panels and is covered by a written warranty.
             </p>
             <p>
-              Not every display fault is physical damage. In our workshop we see a high proportion of backlight and display cable faults from Fourways clients — faults that present as black screens or flickering but do not require a full panel replacement. Component-level diagnosis is always the first step, and it frequently results in a lower repair cost than a full display assembly.
+              Not every display fault is physical damage. In our workshop we see a high proportion of backlight and display cable faults from Fourways clients, faults that present as black screens or flickering but do not require a full panel replacement. Component-level diagnosis is always the first step, and it frequently results in a lower repair cost than a full display assembly.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function ScreenRepairFourwaysPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Fourways', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your Fourways home or office — approximately 12 kilometres from our Hyde Park workshop via William Nicol Drive.' },
+              { step: '01', title: 'Collection from Fourways', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your Fourways home or office, approximately 12 kilometres from our Hyde Park workshop via William Nicol Drive.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify whether the fault is a physical panel, backlight, cable, or board-level issue. This determines the correct repair approach and cost.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering the fault, repair method, and timeframe. No work starts until you approve in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where possible, full display replacement where necessary. Quality-matched panel fitted by our technician.' },
@@ -260,7 +260,7 @@ export default function ScreenRepairFourwaysPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Fourways MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-FOURWAYS-HERO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp for Quote

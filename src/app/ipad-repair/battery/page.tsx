@@ -45,7 +45,7 @@ const symptoms = [
   {
     icon: <Battery className="w-5 h-5" />,
     title: 'Barely Lasts Half a Day',
-    desc: 'An iPad that used to run all day now needs charging by noon. Battery capacity degrades after 500–800 charge cycles. Replacement restores full-day battery life.',
+    desc: 'An iPad that used to run all day now needs charging by noon. Battery capacity degrades after 500-800 charge cycles. Replacement restores full-day battery life.',
   },
   {
     icon: <Clock className="w-5 h-5" />,
@@ -77,7 +77,7 @@ const symptoms = [
 const processSteps = [
   { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPad in or WhatsApp us a photo. We test the battery and provide a written fixed-price quote.' },
   { step: '2', title: 'Battery Sourced', desc: 'We confirm the correct OEM-grade replacement battery is available for your model before booking the repair.' },
-  { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery. Most iPad battery replacements take 1–2 hours.' },
+  { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery. Most iPad battery replacements take 1-2 hours.' },
   { step: '4', title: 'Full Calibration', desc: 'We run a charge-discharge cycle to calibrate the new battery and verify accurate charge reporting.' },
   { step: '5', title: 'Collect with Warranty', desc: 'You collect with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599.' },
 ];
@@ -91,7 +91,7 @@ const faqs = [
   {
     question: 'How do I know if my iPad battery needs replacing?',
     answer:
-      'Key signs are: iPad dying at 40–50% charge; noticeable bulging or raised back cover; barely lasting half a day; shutting off randomly; only working when plugged in. Any of these symptoms means your battery is degraded. We test battery health and give you an accurate capacity reading.',
+      'Key signs are: iPad dying at 40-50% charge; noticeable bulging or raised back cover; barely lasting half a day; shutting off randomly; only working when plugged in. Any of these symptoms means your battery is degraded. We test battery health and give you an accurate capacity reading.',
   },
   {
     question: 'Is a swollen iPad battery dangerous?',
@@ -101,7 +101,7 @@ const faqs = [
   {
     question: 'How long does iPad battery replacement take?',
     answer:
-      'Most iPad battery replacements take 1–2 hours. iPad Pro models with additional adhesive bonding may take 2–3 hours. If we have your battery in stock, same-day repair is available. We confirm turnaround time when you bring it in.',
+      'Most iPad battery replacements take 1-2 hours. iPad Pro models with additional adhesive bonding may take 2-3 hours. If we have your battery in stock, same-day repair is available. We confirm turnaround time when you bring it in.',
   },
   {
     question: 'Will data be lost during an iPad battery replacement?',
@@ -116,7 +116,7 @@ const faqs = [
   {
     question: 'How many charge cycles before an iPad battery needs replacing?',
     answer:
-      'Apple rates most iPad batteries for 1,000 charge cycles to 80% capacity. In practice, batteries start degrading noticeably around 500–700 cycles. If your iPad is 3–4 years old and used daily, battery replacement will likely restore full-day battery life noticeably.',
+      'Apple rates most iPad batteries for 1,000 charge cycles to 80% capacity. In practice, batteries start degrading noticeably around 500-700 cycles. If your iPad is 3-4 years old and used daily, battery replacement will likely restore full-day battery life noticeably.',
   },
   {
     question: 'Do you offer a warranty on iPad battery replacements?',

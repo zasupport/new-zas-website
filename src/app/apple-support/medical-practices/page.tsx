@@ -24,7 +24,7 @@ const faqs = [
   {
     question: 'My practice uses a MacBook for appointments and patient records. What happens if it fails?',
     answer:
-      'A MacBook failure during practice hours is a clinical disruption. ZA Support offers same-day or next-day collection from your practice, priority repair turnaround (typically 24–48 hours), and a loaner MacBook option for clients on our Managed IT plan. For practices on a monthly SLA, we carry spare stock specifically to avoid single-point-of-failure outages.',
+      'A MacBook failure during practice hours is a clinical disruption. ZA Support offers same-day or next-day collection from your practice, priority repair turnaround (typically 24-48 hours), and a loaner MacBook option for clients on our Managed IT plan. For practices on a monthly SLA, we carry spare stock specifically to avoid single-point-of-failure outages.',
   },
   {
     question: 'Do you support GoodX, Healthbridge, MedEDI, or other practice management software?',
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: 'Can you repair a MacBook logic board at the practice to avoid downtime?',
     answer:
-      'Logic board repair requires our workshop equipment, microscope, reflow station, DC power supply, oscilloscope. We cannot do this on-site. However, we collect from your practice, typically repair within 24–48 hours, and return the device. For Managed IT clients, we provide a replacement MacBook while yours is in repair.',
+      'Logic board repair requires our workshop equipment, microscope, reflow station, DC power supply, oscilloscope. We cannot do this on-site. However, we collect from your practice, typically repair within 24-48 hours, and return the device. For Managed IT clients, we provide a replacement MacBook while yours is in repair.',
   },
   {
     question: 'What is included in the Managed IT plan for medical practices?',

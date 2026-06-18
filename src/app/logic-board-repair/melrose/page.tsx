@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -39,12 +39,12 @@ const pricing = [
 const faqs = [
   { question: 'Do you collect MacBooks from Melrose?', answer: 'Yes. We collect across Melrose Arch, Melrose North, Melrose Estate, and the practices along Athol Street and Corlett Drive. Because the run from Hyde Park is short, we can usually arrange same-day collection if you call before midday on 064 529 5863.' },
   { question: 'How far is Melrose from your Hyde Park workshop?', answer: 'Approximately 8 minutes by car, depending on which side of Melrose you are on. From Melrose Arch we take Corlett Drive and Glenhove Road; from Melrose North it is a short trip across Athol Oaklands. Traffic on the M1 rarely affects this route since we stay on suburban roads.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we isolate the specific failed part on the existing logic board — a power management IC, a MOSFET, a capacitor, a backlight fuse, or a Thunderbolt retimer — and replace only that component. A board replacement swaps the entire logic board for another unit, which is usually 4 to 8 times more expensive and ties your data and Touch ID to a different board. For most Melrose clients we recommend component-level repair where the fault allows it.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we isolate the specific failed part on the existing logic board, a power management IC, a MOSFET, a capacitor, a backlight fuse, or a Thunderbolt retimer, and replace only that component. A board replacement swaps the entire logic board for another unit, which is usually 4 to 8 times more expensive and ties your data and Touch ID to a different board. For most Melrose clients we recommend component-level repair where the fault allows it.' },
   { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. A completely dead MacBook usually points to a short on one of the power rails or a failed PMIC, both of which we diagnose under the microscope and repair at component level. We have brought back several apparently dead machines from Melrose practices where the fault turned out to be a single shorted capacitor on the 3V3 line. Assessment from R599 confirms the fault before any repair is quoted.' },
-  { question: 'How long will the repair take?', answer: 'Most logic board repairs for Melrose clients are completed within 48 to 72 hours once the machine is on the bench. Straightforward power faults often turn around inside a day. More involved work — for example liquid damage that has spread across multiple rails, or a CPU/SoC reball — can take 4 to 7 working days because we test under load for an extended period before returning the machine.' },
+  { question: 'How long will the repair take?', answer: 'Most logic board repairs for Melrose clients are completed within 48 to 72 hours once the machine is on the bench. Straightforward power faults often turn around inside a day. More involved work, for example liquid damage that has spread across multiple rails, or a CPU/SoC reball, can take 4 to 7 working days because we test under load for an extended period before returning the machine.' },
   { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the full diagnostic process: visual inspection under the microscope, electrical testing of the power rails, schematic-level fault tracing, and a written quote for the repair. If you go ahead with the repair, the assessment fee is included in the repair cost rather than charged on top.' },
   { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The R599 assessment is the entry point for every logic board job from Melrose. Before we touch anything, you receive a clear written quote with the diagnosed fault and the repair cost. If you decide not to proceed, you pay only the assessment fee and the machine is returned to you in the same condition we received it.' },
-  { question: 'Which MacBook models do you repair for Melrose clients?', answer: 'All current and recent MacBook models — MacBook Pro and MacBook Air from the Intel era (2015 onward) through to the Apple Silicon M1, M2, and M3 machines, plus iMac and Mac mini logic boards. We also handle Touch Bar Pros and the 16-inch Pros that are common with the creative studios in Melrose Arch. If you are unsure whether your model is supported, send the serial number via WhatsApp on wa.me/27645295863 and we will confirm before collection.' },
+  { question: 'Which MacBook models do you repair for Melrose clients?', answer: 'All current and recent MacBook models, MacBook Pro and MacBook Air from the Intel era (2015 onward) through to the Apple Silicon M1, M2, and M3 machines, plus iMac and Mac mini logic boards. We also handle Touch Bar Pros and the 16-inch Pros that are common with the creative studios in Melrose Arch. If you are unsure whether your model is supported, send the serial number via WhatsApp on wa.me/27645295863 and we will confirm before collection.' },
 ];
 
 const serviceSchema = {
@@ -87,7 +87,7 @@ export default function LogicBoardRepairMelrosePage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Melrose, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Melrose sits roughly 8 minutes from our Hyde Park workshop along Athol Oaklands and Corlett Drive, which makes us the closest component-level MacBook logic board repair option for the precinct. We collect from Melrose Arch, Melrose North, and the medical and boutique strips along Athol Street, then return the machine once the board is properly tested. Assessment from R599.
@@ -131,16 +131,16 @@ export default function LogicBoardRepairMelrosePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Melrose has a distinct mix of clients that shapes the work we see — medical practices and specialist consulting rooms around the Melrose Medical Centre, boutique studios and design agencies in Melrose Arch, and a steady residential base in Melrose North and Birdhaven. The logic board faults that come through tend to follow that profile: MacBooks that have travelled between consulting rooms with charger swaps, machines from creative studios that run heavy thermal loads for hours at a time, and home-office Pros that have suffered a wine or coffee spill on a Sunday evening. Symptoms range from a completely dead machine that will not chime, to intermittent shutdowns under load, missing backlight, USB-C ports that refuse to negotiate charging, and erratic fan ramp on what should be an idle desktop.
+              Melrose has a distinct mix of clients that shapes the work we see, medical practices and specialist consulting rooms around the Melrose Medical Centre, boutique studios and design agencies in Melrose Arch, and a steady residential base in Melrose North and Birdhaven. The logic board faults that come through tend to follow that profile: MacBooks that have travelled between consulting rooms with charger swaps, machines from creative studios that run heavy thermal loads for hours at a time, and home-office Pros that have suffered a wine or coffee spill on a Sunday evening. Symptoms range from a completely dead machine that will not chime, to intermittent shutdowns under load, missing backlight, USB-C ports that refuse to negotiate charging, and erratic fan ramp on what should be an idle desktop.
             </p>
             <p>
-              Everything diagnosed in Melrose is repaired at our Hyde Park bench, a short run down Glenhove Road. The workshop runs hot-air rework stations, a fine-tip soldering setup, a stereo microscope for chip-level inspection, and the schematics and boardviews required to trace a fault back to the specific failed component rather than guessing at a board swap. We tell Melrose clients up front whether the fault is a SMC line, a PPBUS short, a backlight circuit, a Thunderbolt retimer, or a CPU/SoC failure — and only the last category genuinely requires a board-level replacement. Most other faults are economically repairable.
+              Everything diagnosed in Melrose is repaired at our Hyde Park bench, a short run down Glenhove Road. The workshop runs hot-air rework stations, a fine-tip soldering setup, a stereo microscope for chip-level inspection, and the schematics and boardviews required to trace a fault back to the specific failed component rather than guessing at a board swap. We tell Melrose clients up front whether the fault is a SMC line, a PPBUS short, a backlight circuit, a Thunderbolt retimer, or a CPU/SoC failure, and only the last category genuinely requires a board-level replacement. Most other faults are economically repairable.
             </p>
             <p>
               Collection from Melrose is straightforward: we can fetch from a reception desk at Melrose Arch during business hours, from a medical practice between patients, or from a residential address in Melrose North. The machine goes onto the bench the same day where possible, and most repairs are returned within 48 to 72 hours once the fault is isolated. For Melrose practitioners who need their MacBook back urgently for patient files or billing software, mention the urgency when you call on 064 529 5863 or WhatsApp wa.me/27645295863 and we will prioritise the diagnostic slot.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairMelrosePage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairMelrosePage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairMelrosePage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Melrose — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Melrose, Common Questions" />
         </div>
       </section>
 

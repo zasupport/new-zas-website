@@ -63,14 +63,14 @@ const faults = [
   { title: 'Dead pixels or black spots', detail: 'Individual pixels fail or clusters of pixels go black. Screen replacement restores a full, clean image.' },
   { title: 'Display flicker or colour shift', detail: 'Screen flickers, shifts colour, or shows horizontal lines. Can indicate a cable fault, display fault, or GPU issue.' },
   { title: 'Water damage to screen', detail: 'Liquid ingress causes display corruption, backlight failure, or permanent lines. Assessment determines repairability.' },
-  { title: 'External display works but built-in screen blank', detail: 'External display confirming GPU is functional points to a display cable or backlight driver fault — often repairable without full screen replacement.' },
+  { title: 'External display works but built-in screen blank', detail: 'External display confirming GPU is functional points to a display cable or backlight driver fault, often repairable without full screen replacement.' },
 ];
 
 const knownIssues = [
   {
     name: 'Flexgate',
     models: '2016-2019 13" and 15" MacBook Pro',
-    description: 'A design fault in the display cable causes a stage-light pattern at the bottom of the screen, worsening as the lid opens. Apple extended the repair programme — we check coverage first before quoting.',
+    description: 'A design fault in the display cable causes a stage-light pattern at the bottom of the screen, worsening as the lid opens. Apple extended the repair programme, we check coverage first before quoting.',
   },
   {
     name: 'Staingate',
@@ -85,9 +85,9 @@ const knownIssues = [
 ];
 
 const models = [
-  { name: 'MacBook Pro 13" 2013–2022 (Intel / M1 / M2)', note: 'All variants' },
+  { name: 'MacBook Pro 13" 2013-2022 (Intel / M1 / M2)', note: 'All variants' },
   { name: 'MacBook Pro 14" M1 Pro/Max, M2 Pro/Max, M3 Pro/Max (2021-2024)', note: 'Apple Silicon' },
-  { name: 'MacBook Pro 15" 2013–2019 (Intel)', note: 'Intel, Flexgate risk' },
+  { name: 'MacBook Pro 15" 2013-2019 (Intel)', note: 'Intel, Flexgate risk' },
   { name: 'MacBook Pro 16" M1 Pro/Max, M2 Pro/Max, M3 Pro/Max (2021-2024)', note: 'Apple Silicon' },
   { name: 'MacBook Pro 16" Intel (2019)', note: 'Intel' },
   { name: 'MacBook Pro M4 Pro/Max 14" & 16" (2024)', note: 'Latest' },
@@ -103,7 +103,7 @@ const process = [
 const faqs = [
   {
     question: 'What is Flexgate on MacBook Pro?',
-    answer: 'Flexgate is a design defect in 2016-2019 MacBook Pro models where the display backlight cable is too short. It creates a stage-light pattern at the bottom of the screen that worsens as the lid opens wider. Apple has an extended repair programme for some serial numbers — we check this before quoting.',
+    answer: 'Flexgate is a design defect in 2016-2019 MacBook Pro models where the display backlight cable is too short. It creates a stage-light pattern at the bottom of the screen that worsens as the lid opens wider. Apple has an extended repair programme for some serial numbers, we check this before quoting.',
   },
   {
     question: 'What is Staingate on MacBook Pro?',
@@ -214,7 +214,7 @@ export default function MacBookProScreenPage() {
             Screen Issues We Fix
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Assessment: from R599 — we diagnose the exact fault and provide a fixed quote before any work begins.
+            Assessment: from R599, we diagnose the exact fault and provide a fixed quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {faults.map((f) => (

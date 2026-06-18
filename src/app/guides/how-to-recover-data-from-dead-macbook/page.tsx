@@ -298,9 +298,9 @@ export default function DataRecoveryGuidePage() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
               {[
-                { model: 'MacBook Pro Retina 2012–2015', connector: 'Apple 12+16 pin', adapter: 'Sintech or OWC Envoy' },
-                { model: 'MacBook Air 2013–2017', connector: 'Apple 12+16 pin', adapter: 'Sintech or OWC Envoy' },
-                { model: 'MacBook Pro 2016–2017', connector: 'Apple proprietary', adapter: 'Limited adapter availability' },
+                { model: 'MacBook Pro Retina 2012-2015', connector: 'Apple 12+16 pin', adapter: 'Sintech or OWC Envoy' },
+                { model: 'MacBook Air 2013-2017', connector: 'Apple 12+16 pin', adapter: 'Sintech or OWC Envoy' },
+                { model: 'MacBook Pro 2016-2017', connector: 'Apple proprietary', adapter: 'Limited adapter availability' },
               ].map((item) => (
                 <div key={item.model} className="glass-card p-4">
                   <p className="text-[#E8F4F1] font-semibold text-sm">{item.model}</p>
@@ -545,12 +545,12 @@ export default function DataRecoveryGuidePage() {
               <tbody>
                 {[
                   { method: 'Initial Assessment', price: 'From R599', time: 'Same day', applies: 'All MacBooks' },
-                  { method: 'Target Disk Mode / Share Disk', price: 'R599 – R1,500', time: 'Same day', applies: 'MacBooks that partially boot' },
-                  { method: 'SSD Removal + Adapter', price: 'R899 – R1,500', time: 'Same day', applies: '2012–2017 models only' },
-                  { method: 'DFU Firmware Restore', price: 'R899 – R1,500', time: '1–2 days', applies: 'T2 Macs (software fault)' },
-                  { method: 'Board-Level Repair + Extraction', price: 'R2,500 – R8,000', time: '2–5 days', applies: 'T2 and Apple Silicon' },
-                  { method: 'Chip-Off NAND Recovery', price: 'From R12,000', time: '5–10 days', applies: 'Pre-T2 only (last resort)' },
-                  { method: 'Clean Room HDD Recovery', price: 'From R8,000', time: '5–10 days', applies: 'Mechanical drives (older iMacs)' },
+                  { method: 'Target Disk Mode / Share Disk', price: 'R599 - R1,500', time: 'Same day', applies: 'MacBooks that partially boot' },
+                  { method: 'SSD Removal + Adapter', price: 'R899 - R1,500', time: 'Same day', applies: '2012-2017 models only' },
+                  { method: 'DFU Firmware Restore', price: 'R899 - R1,500', time: '1-2 days', applies: 'T2 Macs (software fault)' },
+                  { method: 'Board-Level Repair + Extraction', price: 'R2,500 - R8,000', time: '2-5 days', applies: 'T2 and Apple Silicon' },
+                  { method: 'Chip-Off NAND Recovery', price: 'From R12,000', time: '5-10 days', applies: 'Pre-T2 only (last resort)' },
+                  { method: 'Clean Room HDD Recovery', price: 'From R8,000', time: '5-10 days', applies: 'Mechanical drives (older iMacs)' },
                 ].map((row, i, arr) => (
                   <tr key={row.method} className={`${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.04)]' : ''}`}>
                     <td className="text-[#E8F4F1] py-3 pr-6 font-medium">{row.method}</td>
@@ -565,11 +565,11 @@ export default function DataRecoveryGuidePage() {
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
               <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">From R599 assessment</span> — Pricing confirmed after diagnosis on every recovery job.</p>
+              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">From R599 assessment</span>, Pricing confirmed after diagnosis on every recovery job.</p>
             </div>
             <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
               <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">12-Month Warranty</span> — On all board repairs performed during data recovery.</p>
+              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">12-Month Warranty</span>, On all board repairs performed during data recovery.</p>
             </div>
           </div>
           <PricingNote />
@@ -596,7 +596,7 @@ export default function DataRecoveryGuidePage() {
               We work with several medical practices and professional services firms in Sandton, Rosebank, and
               Hyde Park. Our data recovery service is designed for urgency: same-day assessment, transparent
               quoting, and a clear timeline. We understand that when a practice&apos;s MacBook dies, it is not just
-              an IT problem — it is a business continuity event. If you need a{' '}
+              an IT problem, it is a business continuity event. If you need a{' '}
               <Link href="/battery-replacement" className="text-[#0FEA7A] underline">battery replacement</Link> or
               other preventative maintenance, we recommend proactive servicing to avoid these situations entirely.
             </p>
@@ -607,7 +607,7 @@ export default function DataRecoveryGuidePage() {
       {/* FAQ */}
       <section className="py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Data Recovery — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="MacBook Data Recovery, Frequently Asked Questions" />
         </div>
       </section>
 

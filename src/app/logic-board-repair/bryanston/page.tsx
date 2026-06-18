@@ -38,11 +38,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Bryanston to collect my MacBook?',
-    answer: 'Yes. Bryanston is one of our closest service areas, approximately 8–12 km from our Hyde Park workshop, or about 10 to 15 minutes drive. We collect from your home or office in Bryanston, complete the repair at Hyde Park, and return your MacBook to you. Contact us on WhatsApp or by phone to arrange a collection time.',
+    answer: 'Yes. Bryanston is one of our closest service areas, approximately 8-12 km from our Hyde Park workshop, or about 10 to 15 minutes drive. We collect from your home or office in Bryanston, complete the repair at Hyde Park, and return your MacBook to you. Contact us on WhatsApp or by phone to arrange a collection time.',
   },
   {
     question: 'How close is Bryanston to your Hyde Park workshop?',
-    answer: 'Bryanston is very close, approximately 8–12 km via Winnie Mandela Drive or William Nicol Drive, which is a 10 to 15-minute drive in normal traffic. It is one of the easiest areas for us to serve, and many Bryanston clients choose to drop off and collect directly at our Hyde Park workshop during a trip to the area.',
+    answer: 'Bryanston is very close, approximately 8-12 km via Winnie Mandela Drive or William Nicol Drive, which is a 10 to 15-minute drive in normal traffic. It is one of the easiest areas for us to serve, and many Bryanston clients choose to drop off and collect directly at our Hyde Park workshop during a trip to the area.',
   },
   {
     question: 'My MacBook Pro 2020 shows no power after a liquid spill. What do you recommend?',
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: 'How long does the repair take from Bryanston?',
-    answer: 'From the day of collection: the diagnostic is completed within 24 hours. Once you approve the quote, most repairs are done within 48–72 hours. Complex jobs (GPU, multi-component component-level repair, severe liquid damage) may take 3–5 business days. Total from collection to return is typically 3–5 business days for standard repairs.',
+    answer: 'From the day of collection: the diagnostic is completed within 24 hours. Once you approve the quote, most repairs are done within 48-72 hours. Complex jobs (GPU, multi-component component-level repair, severe liquid damage) may take 3-5 business days. Total from collection to return is typically 3-5 business days for standard repairs.',
   },
 ];
 
@@ -102,14 +102,14 @@ export default function LogicBoardRepairBryanstonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Bryanston, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Bryanston is 10 minutes from our Hyde Park workshop. We collect your MacBook, diagnose the board fault at component level, and repair it, without replacing the whole board unless absolutely necessary.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Bryanston and repair at our Hyde Park workshop, approx. 10–15 min drive (8–12 km)</span>
+              <span>We collect from Bryanston and repair at our Hyde Park workshop, approx. 10-15 min drive (8-12 km)</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -153,10 +153,10 @@ export default function LogicBoardRepairBryanstonPage() {
               The challenge most Bryanston Mac owners face when a logic board fault develops is finding a shop that will actually diagnose and repair the board rather than immediately quoting for a full replacement. Board swaps are easier for general repair shops, they require no specialised equipment. But they cost substantially more, and they are unnecessary in the majority of cases.
             </p>
             <p>
-              ZA Support&apos;s approach is to identify the specific failed component first. That requires a stereo microscope, board-level diagnostic tools, and access to Apple schematics, all of which we have at our Hyde Park workshop. The repair itself is component-level repair: the damaged chip, capacitor, or trace is addressed directly, leaving the rest of your original board intact. The cost saving over board replacement is typically 60–80%.
+              ZA Support&apos;s approach is to identify the specific failed component first. That requires a stereo microscope, board-level diagnostic tools, and access to Apple schematics, all of which we have at our Hyde Park workshop. The repair itself is component-level repair: the damaged chip, capacitor, or trace is addressed directly, leaving the rest of your original board intact. The cost saving over board replacement is typically 60-80%.
             </p>
             <p>
-              We offer collection from Bryanston. The drive is 10–15 minutes, less than the time spent on hold with most repair centres. Once collected, your MacBook receives a board-level diagnostic within 24 hours, a written quote before any work begins, and a warranty on every completed repair.
+              We offer collection from Bryanston. The drive is 10-15 minutes, less than the time spent on hold with most repair centres. Once collected, your MacBook receives a board-level diagnostic within 24 hours, a written quote before any work begins, and a warranty on every completed repair.
             </p>
           </div>
         </div>
@@ -191,7 +191,7 @@ export default function LogicBoardRepairBryanstonPage() {
               { step: '02', title: 'Diagnostic Assessment', desc: 'Board inspected within 24 hours of collection. Fault identified to component level, schematic, microscope, and power diagnostics used.' },
               { step: '03', title: 'Written Quote and Sign-Off', desc: 'You receive a written quote: fault description, repair method, cost, and timeframe. No repair proceeds without your approval.' },
               { step: '04', title: 'Component-level repair Repair', desc: 'The specific failed component is replaced under a stereo microscope. Your original board is preserved. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support up-to-3 year warranty. Standard turnaround 48–72 hours from approval.' },
+              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support up-to-3 year warranty. Standard turnaround 48-72 hours from approval.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
@@ -218,10 +218,10 @@ export default function LogicBoardRepairBryanstonPage() {
                 {[
                   'Repairs the exact failed component',
                   'Original board, data remains on device',
-                  '60–80% cheaper than board replacement',
+                  '60-80% cheaper than board replacement',
                   'Touch ID and Secure Enclave remain intact',
                   'ZA Support warranty',
-                  'Turnaround typically 48–72 hours',
+                  'Turnaround typically 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -242,7 +242,7 @@ export default function LogicBoardRepairBryanstonPage() {
                   'Necessary for: burn damage, multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}

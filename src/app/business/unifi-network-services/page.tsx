@@ -44,7 +44,7 @@ const faqs = [
   {
     question: 'Do you provide ongoing support after the initial engagement?',
     answer:
-      'Yes. Most of our business customers move to a monthly managed service after the initial deployment, which covers user support, license management, security monitoring, and proactive maintenance. The managed service is optional — some customers prefer to call us only when they need us, which is fine too.',
+      'Yes. Most of our business customers move to a monthly managed service after the initial deployment, which covers user support, license management, security monitoring, and proactive maintenance. The managed service is optional, some customers prefer to call us only when they need us, which is fine too.',
   },
   {
     question: 'Are you Apple, Microsoft, and Ubiquiti certified?',
@@ -85,7 +85,7 @@ export default function UniFiNetworkServicesPage() {
   const waCta = buildWhatsAppUrl('UNIFI-BUSINESS', 'UniFi Network Services');
 
   const serviceSchema = buildServiceSchema({
-    name: 'UniFi Network Services — Design, Install, Manage',
+    name: 'UniFi Network Services, Design, Install, Manage',
     description:
       'UniFi network design, supply, install, and monitor from a Ubiquiti partner with over 1,100 installations since 2014. Johannesburg, Sandton, Hyde Park, broader Gauteng.',
     lowPrice: '18500',
@@ -380,7 +380,7 @@ export default function UniFiNetworkServicesPage() {
             </h2>
             <p className="text-[#7A9E98] leading-relaxed mb-4">
               This page is part of our business services suite. Related pages cover our
-              other specialist areas — Microsoft 365 deployment, managed IT services,
+              other specialist areas, Microsoft 365 deployment, managed IT services,
               medical practice IT, and Apple device management. We commonly engage
               across multiple areas for a single customer, and where we do the
               engagements are coordinated under a single account manager.
@@ -466,7 +466,7 @@ export default function UniFiNetworkServicesPage() {
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <section className="py-16 bg-[#0F2522]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="UniFi Network Services — frequently asked questions" />
+          <FAQAccordion items={faqs} title="UniFi Network Services, frequently asked questions" />
           <p className="mt-6 text-[#7A9E98] text-sm">
             The questions we hear most often from prospective customers are above. If
             yours is not here, the fastest way to get an answer is to call us on{' '}

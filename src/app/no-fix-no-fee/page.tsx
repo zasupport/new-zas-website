@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Mac Assessment Process Johannesburg | How We Work | ZA Support',
-    description: 'from R599 assessment fee,. Transparent fixed-price quotes before any work begins.',
+    description: 'from R599 assessment fee. Transparent fixed-price quotes before any work begins.',
     url: 'https://zasupport.com/no-fix-no-fee',
     siteName: 'ZA Support',
     locale: 'en_ZA',
@@ -458,7 +458,7 @@ export default function AssessmentProcessPage() {
                     { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
                     { label: 'Phone', value: '064 529 5863' },
                     { label: 'WhatsApp', value: '064 529 5863' },
-                    { label: 'Hours', value: 'Mon–Thu 08:00–17:00 | Fri 08:00–16:30 | Closed Sat & Sun' },
+                    { label: 'Hours', value: 'Mon-Thu 08:00-17:00 | Fri 08:00-16:30 | Closed Sat & Sun' },
                   ].map(({ label, value }) => (
                     <div key={label} className="flex gap-3">
                       <span className="text-sm font-semibold w-20 flex-shrink-0" style={{ color: '#0FEA7A' }}>{label}</span>

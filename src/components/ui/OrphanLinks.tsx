@@ -2,13 +2,13 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
 /**
- * OrphanLinks — internal-link injection block for hub pages.
+ * OrphanLinks, internal-link injection block for hub pages.
  *
  * Renders categorised internal links so every orphan sitemap URL has at least
  * one inbound internal link path from a reachable hub. Per §402 / §402a
  * (internal-link path enforcement) and Google E-E-A-T crawl-depth guidance.
  *
- * USE A `<Link>` (next/link) and NOT `<a target="_blank">` — internal links
+ * USE A `<Link>` (next/link) and NOT `<a target="_blank">`, internal links
  * MUST stay in-flow for crawl depth + PageRank distribution.
  */
 

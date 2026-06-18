@@ -29,23 +29,23 @@ const faqs = [
   },
   {
     question: 'How far is Houghton from your Hyde Park workshop?',
-    answer: 'Approximately 7 km from Houghton to our workshop at 1 Hyde Lane, Second Floor, Office E2004 — roughly 10–15 minutes by car. Houghton is one of our closest collection areas — approximately 7 km from Hyde Park.',
+    answer: 'Approximately 7 km from Houghton to our workshop at 1 Hyde Lane, Second Floor, Office E2004, roughly 10-15 minutes by car. Houghton is one of our closest collection areas, approximately 7 km from Hyde Park.',
   },
   {
     question: 'What does MacBook logic board repair cost for Houghton clients?',
-    answer: 'Assessment from R599. Repair cost depends on the specific fault — quoted in writing before any work proceeds. No Fix No Fee applies to all Houghton clients.',
+    answer: 'Assessment from R599. Repair cost depends on the specific fault, quoted in writing before any work proceeds. No Fix No Fee applies to all Houghton clients.',
   },
   {
     question: 'Can a MacBook logic board be repaired or does it need replacing?',
-    answer: 'In most cases repaired. Component-level repair replaces only the failed IC, capacitor, or connector — not the entire board. This costs 60–80% less than a board replacement and preserves your data.',
+    answer: 'In most cases repaired. Component-level repair replaces only the failed IC, capacitor, or connector, not the entire board. This costs 60-80% less than a board replacement and preserves your data.',
   },
   {
-    question: 'My MacBook was damaged by a load shedding power surge — is it repairable?',
-    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller — a discrete, repairable IC. The R599 assessment confirms the specific fault before any commitment.',
+    question: 'My MacBook was damaged by a load shedding power surge, is it repairable?',
+    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller, a discrete, repairable IC. The R599 assessment confirms the specific fault before any commitment.',
   },
   {
     question: 'How long does MacBook logic board repair take?',
-    answer: 'After the R599 assessment and written approval, most repairs complete within 3–5 business days. We provide a specific timeline in the written quote.',
+    answer: 'After the R599 assessment and written approval, most repairs complete within 3-5 business days. We provide a specific timeline in the written quote.',
   },
   {
     question: 'Is my data safe during logic board repair?',
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: 'Do you offer No Fix No Fee for Houghton clients?',
-    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the R599 assessment fee — not the full repair cost. This applies to all clients regardless of location.',
+    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the R599 assessment fee, not the full repair cost. This applies to all clients regardless of location.',
   },
 ];
 
@@ -104,7 +104,7 @@ export default function LogicBoardRepairHoughtonPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Houghton — approx 10–15 min drive</span>
+              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Houghton, approx 10-15 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
@@ -132,7 +132,7 @@ export default function LogicBoardRepairHoughtonPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Logic Board Faults We Repair for Houghton Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Houghton is one of our closest collection areas — approximately 7 km from Hyde Park. All MacBook models from 2015 onwards are covered — Intel and Apple Silicon. Faults assessed at component level. Written quote before any repair proceeds.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Houghton is one of our closest collection areas, approximately 7 km from Hyde Park. All MacBook models from 2015 onwards are covered, Intel and Apple Silicon. Faults assessed at component level. Written quote before any repair proceeds.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.title} className="glass-card p-5">
@@ -146,7 +146,7 @@ export default function LogicBoardRepairHoughtonPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title={`MacBook Logic Board Repair Houghton — Common Questions`} />
+          <FAQAccordion items={faqs} title={`MacBook Logic Board Repair Houghton, Common Questions`} />
         </div>
       </section>
 

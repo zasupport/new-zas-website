@@ -91,7 +91,7 @@ function ReviewGrid({ reviews }: { reviews: Array<{ name: string; rating: number
 
 // Static fallback shown when the Places API is not configured. It presents
 // ONLY the verified Google aggregate (rating + count) and links out to the
-// real reviews — no fabricated testimonial cards (§E-E-A-T honesty).
+// real reviews, no fabricated testimonial cards (§E-E-A-T honesty).
 function StaticReviewBlock() {
   return (
     <div className="text-center max-w-2xl mx-auto">

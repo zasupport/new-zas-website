@@ -618,7 +618,7 @@ export default function MacBookRunningSlowGuidePage() {
                 </p>
                 <p>
                   <strong className="text-[#E8F4F1]">
-                    Apple Silicon (M1 and later) — no upgrades possible:
+                    Apple Silicon (M1 and later), no upgrades possible:
                   </strong>{' '}
                   Unified memory and storage are part of the chip package. If your M1, M2, M3, or M4
                   MacBook is slow, the issue is software-related or a hardware fault, not a capacity
@@ -642,7 +642,7 @@ export default function MacBookRunningSlowGuidePage() {
       {/* FAQ Section */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Running Slow — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Running Slow, Common Questions" />
         </div>
       </section>
 

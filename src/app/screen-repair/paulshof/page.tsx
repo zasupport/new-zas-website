@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or display connector fault.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on movement. Often a loose display cable on Intel-era MacBook Pros, or a GPU fault. Diagnosed before repair.' },
@@ -38,11 +38,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you collect MacBooks from Paulshof for screen repairs?',
-    answer: 'Yes. We collect from Paulshof — whether from a residential address or from the Country Club area — and bring your MacBook to our Hyde Park workshop, approximately 9km to the west. We return the machine once the repair is fully complete and tested. WhatsApp or call us to arrange a collection time that suits your schedule.',
+    answer: 'Yes. We collect from Paulshof, whether from a residential address or from the Country Club area, and bring your MacBook to our Hyde Park workshop, approximately 9km to the west. We return the machine once the repair is fully complete and tested. WhatsApp or call us to arrange a collection time that suits your schedule.',
   },
   {
     question: 'How long does a MacBook screen replacement take?',
-    answer: 'Most screen replacements are completed within 24–48 hours. We stock display assemblies for the most common MacBook Air and MacBook Pro models. For less common configurations — such as a 16-inch M3 Max or an older mid-2012 model — we confirm parts availability and a turnaround time when you contact us.',
+    answer: 'Most screen replacements are completed within 24-48 hours. We stock display assemblies for the most common MacBook Air and MacBook Pro models. For less common configurations, such as a 16-inch M3 Max or an older mid-2012 model, we confirm parts availability and a turnaround time when you contact us.',
   },
   {
     question: 'My MacBook screen cracked but it still turns on. Is it urgent?',
@@ -50,23 +50,23 @@ const faqs = [
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement means fitting a complete new display assembly — LCD panel, backlight, and outer glass — as a single unit. This is the correct approach for physical damage and cracked screens. Screen repair refers to targeted component-level work for electronic faults: backlight failure, flickering caused by a fraying display cable, or GPU-related display issues. We diagnose the fault before recommending any approach.',
+    answer: 'Display replacement means fitting a complete new display assembly, LCD panel, backlight, and outer glass, as a single unit. This is the correct approach for physical damage and cracked screens. Screen repair refers to targeted component-level work for electronic faults: backlight failure, flickering caused by a fraying display cable, or GPU-related display issues. We diagnose the fault before recommending any approach.',
   },
   {
     question: 'My screen flickers when I move the lid. What causes that?',
-    answer: 'Lid-movement flickering on Intel MacBook Pro models — especially the 13-inch 2016–2019 Touch Bar generation — is almost always caused by a failing display cable. The cable runs through the hinge and develops stress fractures under normal use over time. This is a documented Apple quality issue. In most cases it is a cable repair, not a full display replacement, which keeps the repair cost lower.',
+    answer: 'Lid-movement flickering on Intel MacBook Pro models, especially the 13-inch 2016-2019 Touch Bar generation, is almost always caused by a failing display cable. The cable runs through the hinge and develops stress fractures under normal use over time. This is a documented Apple quality issue. In most cases it is a cable repair, not a full display replacement, which keeps the repair cost lower.',
   },
   {
     question: 'Does screen replacement affect Touch ID or any biometrics?',
-    answer: 'No. Touch ID on MacBook models is integrated into the keyboard or the power button — not the display assembly. Replacing the screen does not touch the Touch ID sensor or its secure enclave pairing. Everything continues to work exactly as before.',
+    answer: 'No. Touch ID on MacBook models is integrated into the keyboard or the power button, not the display assembly. Replacing the screen does not touch the Touch ID sensor or its secure enclave pairing. Everything continues to work exactly as before.',
   },
   {
     question: 'Do you repair Apple Silicon MacBook screens from Paulshof?',
-    answer: 'Yes. We repair and replace displays on all Apple Silicon MacBook models — MacBook Air M1, M2, M3 and MacBook Pro M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, and M3 Max. Apple Silicon display assemblies differ from Intel-era parts, and we source quality-matched panels appropriate to each generation. Every repair carries a written warranty.',
+    answer: 'Yes. We repair and replace displays on all Apple Silicon MacBook models, MacBook Air M1, M2, M3 and MacBook Pro M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, and M3 Max. Apple Silicon display assemblies differ from Intel-era parts, and we source quality-matched panels appropriate to each generation. Every repair carries a written warranty.',
   },
   {
     question: 'How do I get started with a collection from Paulshof?',
-    answer: 'Send us a WhatsApp message or call 064 529 5863. We will agree a collection time — from your home near the Paulshof Country Club or anywhere in the suburb. We collect, carry out the repair or diagnostic at our Hyde Park workshop, and return your MacBook to you. The written quote comes before any work begins, so there are no surprises.',
+    answer: 'Send us a WhatsApp message or call 064 529 5863. We will agree a collection time, from your home near the Paulshof Country Club or anywhere in the suburb. We collect, carry out the repair or diagnostic at our Hyde Park workshop, and return your MacBook to you. The written quote comes before any work begins, so there are no surprises.',
   },
 ];
 
@@ -110,10 +110,10 @@ export default function ScreenRepairPaulshofPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Paulshof
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook screen repair and display replacement for Paulshof clients. We collect from Paulshof — including the Country Club area and residential streets near Woodmead — and repair at our Hyde Park workshop approximately 9km to the west.
+              MacBook screen repair and display replacement for Paulshof clients. We collect from Paulshof, including the Country Club area and residential streets near Woodmead, and repair at our Hyde Park workshop approximately 9km to the west.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -122,7 +122,7 @@ export default function ScreenRepairPaulshofPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Paulshof' },
               ].map(({ icon: Icon, label }) => (
@@ -155,16 +155,16 @@ export default function ScreenRepairPaulshofPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Paulshof is a quiet, well-established residential suburb on the north-east edge of Sandton, close to Woodmead and bordered by the natural ridge running through this part of Johannesburg. MacBook owners in Paulshof tend to work remotely or from home offices — and when a screen fails, there is no convenient walk-in option nearby. That is exactly why we offer a collection service from Paulshof directly to our Hyde Park workshop.
+              Paulshof is a quiet, well-established residential suburb on the north-east edge of Sandton, close to Woodmead and bordered by the natural ridge running through this part of Johannesburg. MacBook owners in Paulshof tend to work remotely or from home offices, and when a screen fails, there is no convenient walk-in option nearby. That is exactly why we offer a collection service from Paulshof directly to our Hyde Park workshop.
             </p>
             <p>
-              Whether your MacBook Air took a knock and the display cracked, your MacBook Pro develops the characteristic grey lines and pressure marks from an aging LCD panel, or your screen simply went dark on boot, we diagnose the fault before recommending any repair. Most display faults we see from Paulshof clients fall into one of three categories: physical panel damage, backlight failure, or a fraying display cable — and not all of them require a full assembly replacement.
+              Whether your MacBook Air took a knock and the display cracked, your MacBook Pro develops the characteristic grey lines and pressure marks from an aging LCD panel, or your screen simply went dark on boot, we diagnose the fault before recommending any repair. Most display faults we see from Paulshof clients fall into one of three categories: physical panel damage, backlight failure, or a fraying display cable, and not all of them require a full assembly replacement.
             </p>
             <p>
               We cover all MacBook models: MacBook Air (all Intel and Apple Silicon generations, 11-inch through 15-inch) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, across both Intel and M-series). Every repair comes with a written ZA Support warranty so you have documented cover if a fault recurs.
             </p>
             <p>
-              The collection process is straightforward. You contact us by WhatsApp or phone, we agree a time at your Paulshof address — near the Country Club, on the Woodmead border, or anywhere in between — and we handle the rest. No need to carry your MacBook across to a mall or a repair centre. We collect, repair, and return.
+              The collection process is straightforward. You contact us by WhatsApp or phone, we agree a time at your Paulshof address, near the Country Club, on the Woodmead border, or anywhere in between, and we handle the rest. No need to carry your MacBook across to a mall or a repair centre. We collect, repair, and return.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function ScreenRepairPaulshofPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Paulshof', desc: 'Contact us via WhatsApp or phone. We arrange collection from your Paulshof address — home, home office, or anywhere in the suburb — at a time that suits your schedule.' },
+              { step: '01', title: 'Collection from Paulshof', desc: 'Contact us via WhatsApp or phone. We arrange collection from your Paulshof address, home, home office, or anywhere in the suburb, at a time that suits your schedule.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify the exact fault: physical panel damage, backlight component, display cable, or board-level issue. This determines the correct repair and cost.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering fault, repair method, and turnaround. No work begins until you have approved it in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where the fault allows, full display replacement where the panel is physically damaged. Quality-matched parts throughout.' },
@@ -260,7 +260,7 @@ export default function ScreenRepairPaulshofPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Paulshof MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-PAULSHOF-HERO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

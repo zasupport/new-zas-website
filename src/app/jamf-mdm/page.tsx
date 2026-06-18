@@ -29,7 +29,7 @@ const features = [
 
 const tiers = [
   { name: 'Starter', devices: 'Up to 25 devices', features: ['JAMF Now implementation', 'Apple Business Manager setup', 'Device enrollment (all devices)', 'Basic policy configuration', 'Remote wipe capability', 'Monthly health report'] },
-  { name: 'Business', devices: '25–100 devices', features: ['JAMF Pro implementation', 'Full policy and script management', 'Smart groups and targeting', 'App catalog and licensing', 'Azure AD / Active Directory integration', 'Weekly reporting and monitoring', 'Priority support response'] },
+  { name: 'Business', devices: '25-100 devices', features: ['JAMF Pro implementation', 'Full policy and script management', 'Smart groups and targeting', 'App catalog and licensing', 'Azure AD / Active Directory integration', 'Weekly reporting and monitoring', 'Priority support response'] },
   { name: 'Enterprise', devices: '100+ devices', features: ['Full JAMF Pro enterprise deployment', 'Custom scripting and automation', 'Integration with existing ITSM tools', 'Dedicated account manager', 'SLA-backed support', '24/7 escalation path'] },
 ];
 

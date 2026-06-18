@@ -1,5 +1,5 @@
 // components/SiteSchema.tsx
-// Site-wide structured data — renders in root layout.tsx
+// Site-wide structured data, renders in root layout.tsx
 // Organization + LocalBusiness + Person (Courtney Bentley entity)
 
 export function SiteSchema() {
@@ -54,7 +54,7 @@ export function SiteSchema() {
         closes: '16:30',
       },
     ],
-    priceRange: 'R599–R15000',
+    priceRange: 'R599-R15000',
     currenciesAccepted: 'ZAR',
     paymentAccepted: 'Cash, Credit Card, EFT',
     areaServed: [
@@ -85,7 +85,7 @@ export function SiteSchema() {
       'https://www.linkedin.com/in/bentleycourtney/',
       'https://www.linkedin.com/company/zasupport/',
     ],
-    // §166 (22/05/2026): self-serving AggregateRating removed — Google rules
+    // §166 (22/05/2026): self-serving AggregateRating removed, Google rules
     // own-business review markup ineligible + a manual-action risk. Rating is
     // shown as plain text only.
     hasOfferCatalog: {

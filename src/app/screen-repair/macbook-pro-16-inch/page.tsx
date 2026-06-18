@@ -60,35 +60,35 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Pro 16″ M1 Pro / M1 Max (A2485, 2021)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R4,999', turnaround: '48–72 hrs' },
-  { model: 'MacBook Pro 16″ M2 Pro / M2 Max (A2780, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R5,999', turnaround: '48–72 hrs' },
-  { model: 'MacBook Pro 16″ M3 Pro / M3 Max (A2991, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R6,999', turnaround: '48–72 hrs' },
-  { model: 'MacBook Pro 16″ M4 Pro / M4 Max (A2993, 2024)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R7,499', turnaround: '48–72 hrs' },
+  { model: 'MacBook Pro 16″ M1 Pro / M1 Max (A2485, 2021)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R4,999', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ M2 Pro / M2 Max (A2780, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R5,999', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ M3 Pro / M3 Max (A2991, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R6,999', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ M4 Pro / M4 Max (A2993, 2024)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R7,499', turnaround: '48-72 hrs' },
 ];
 
 const faultTypes = [
   {
-    title: 'Mini-LED Backlight Zone Failure — 16-Inch Specific',
+    title: 'Mini-LED Backlight Zone Failure: 16-Inch Specific',
     icon: Zap,
-    desc: 'The 16-inch MacBook Pro houses the largest Liquid Retina XDR panel Apple produces, with over 10,000 mini-LEDs across its 3456×2160 display surface. Zone failures present as dark rectangular patches — typically in a corner or along one edge — on an otherwise functional display. The 16-inch assembly has more dimming zones than the 14-inch (proportional to its larger surface area), so partial failures can be subtle at first. We have seen zone failure triggered by load shedding voltage events on several 16-inch models in Johannesburg. The display assembly must be replaced; mini-LED zones are not individually serviceable.',
+    desc: 'The 16-inch MacBook Pro houses the largest Liquid Retina XDR panel Apple produces, with over 10,000 mini-LEDs across its 3456×2160 display surface. Zone failures present as dark rectangular patches, typically in a corner or along one edge, on an otherwise functional display. The 16-inch assembly has more dimming zones than the 14-inch (proportional to its larger surface area), so partial failures can be subtle at first. We have seen zone failure triggered by load shedding voltage events on several 16-inch models in Johannesburg. The display assembly must be replaced; mini-LED zones are not individually serviceable.',
     severity: 'high',
   },
   {
     title: 'Liquid Retina XDR Delamination',
     icon: Eye,
-    desc: 'Liquid entry into the 16-inch display assembly causes the bonding layer between the mini-LED backlight and the IPS panel to break down. Delamination typically starts at the bottom edge — where liquid pools — and spreads inward as grey or iridescent patches. The screen glass may be perfectly intact, leading some clients to assume the fault is internal software. It is not. We confirm delamination versus panel damage versus GPU fault during assessment before recommending the appropriate repair. Apple charges R18,000 to R25,000 for a 16-inch display assembly replacement; we charge significantly less.',
+    desc: 'Liquid entry into the 16-inch display assembly causes the bonding layer between the mini-LED backlight and the IPS panel to break down. Delamination typically starts at the bottom edge, where liquid pools, and spreads inward as grey or iridescent patches. The screen glass may be perfectly intact, leading some clients to assume the fault is internal software. It is not. We confirm delamination versus panel damage versus GPU fault during assessment before recommending the appropriate repair. Apple charges R18,000 to R25,000 for a 16-inch display assembly replacement; we charge significantly less.',
     severity: 'high',
   },
   {
-    title: 'Display Cable Strain — Heavy Lid',
+    title: 'Display Cable Strain: Heavy Lid',
     icon: AlertTriangle,
-    desc: 'The 16-inch MacBook Pro is Apple\'s heaviest laptop in current production — 2.14 kg. The lid itself is substantially heavier than the 14-inch equivalent. This places greater mechanical stress on the display flex cable as it passes through the hinge assembly, particularly in machines that are opened and closed frequently throughout the day. We see intermittent display faults on 16-inch models — flickering at certain lid angles, display going black and recovering — that are cable strain faults rather than panel faults. Cable replacement resolves these cases without the cost of a full display assembly.',
+    desc: 'The 16-inch MacBook Pro is Apple\'s heaviest laptop in current production, 2.14 kg. The lid itself is substantially heavier than the 14-inch equivalent. This places greater mechanical stress on the display flex cable as it passes through the hinge assembly, particularly in machines that are opened and closed frequently throughout the day. We see intermittent display faults on 16-inch models, flickering at certain lid angles, display going black and recovering, that are cable strain faults rather than panel faults. Cable replacement resolves these cases without the cost of a full display assembly.',
     severity: 'medium',
   },
   {
     title: 'ProMotion Downgrade After Incorrect Repair',
     icon: Monitor,
-    desc: 'The 16-inch MacBook Pro ProMotion display runs between 24Hz and 120Hz adaptively. A non-compatible replacement panel — or a panel installed without testing the display protocol — will lock the display at 60Hz. This is difficult to notice unless you are familiar with the buttery-smooth cursor movement that 120Hz ProMotion delivers. We test adaptive refresh rate explicitly after every 16-inch display replacement, using both cursor movement tests and dedicated refresh rate detection tools. Every repair leaves our workshop with ProMotion confirmed active.',
+    desc: 'The 16-inch MacBook Pro ProMotion display runs between 24Hz and 120Hz adaptively. A non-compatible replacement panel, or a panel installed without testing the display protocol, will lock the display at 60Hz. This is difficult to notice unless you are familiar with the buttery-smooth cursor movement that 120Hz ProMotion delivers. We test adaptive refresh rate explicitly after every 16-inch display replacement, using both cursor movement tests and dedicated refresh rate detection tools. Every repair leaves our workshop with ProMotion confirmed active.',
     severity: 'medium',
   },
   {
@@ -100,7 +100,7 @@ const faultTypes = [
   {
     title: 'Cracked Liquid Retina XDR Panel',
     icon: AlertTriangle,
-    desc: 'A direct impact to the 16-inch lid — a corner drop, lid closure on a hard object — can crack the Liquid Retina XDR panel. This is the most expensive MacBook Pro screen repair we perform, simply because the 16-inch display assembly is the largest and most costly to source. We always provide a written fixed-price quote before beginning work. Despite the higher cost, repairing the screen at ZA Support typically costs 60–70% less than the Apple Store equivalent for 16-inch models.',
+    desc: 'A direct impact to the 16-inch lid, a corner drop, lid closure on a hard object, can crack the Liquid Retina XDR panel. This is the most expensive MacBook Pro screen repair we perform, simply because the 16-inch display assembly is the largest and most costly to source. We always provide a written fixed-price quote before beginning work. Despite the higher cost, repairing the screen at ZA Support typically costs 60-70% less than the Apple Store equivalent for 16-inch models.',
     severity: 'high',
   },
 ];
@@ -127,22 +127,22 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 16-inch screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro 16-inch screen repair starts from R4,999 for the M1 Pro/Max model (A2485, 2021) and from R5,999 to R7,499 for later chip generations. The 16-inch display is the largest and most expensive Apple panel to source, which is reflected in the price. Apple Store charges R18,000 to R25,000 for the same repair. We provide a written fixed-price quote before any work begins — the price we quote is the price you pay.',
+      'MacBook Pro 16-inch screen repair starts from R4,999 for the M1 Pro/Max model (A2485, 2021) and from R5,999 to R7,499 for later chip generations. The 16-inch display is the largest and most expensive Apple panel to source, which is reflected in the price. Apple Store charges R18,000 to R25,000 for the same repair. We provide a written fixed-price quote before any work begins, the price we quote is the price you pay.',
   },
   {
     question: 'What is the display specification on the MacBook Pro 16-inch?',
     answer:
-      'The MacBook Pro 16-inch (2021 onwards) uses a Liquid Retina XDR display with a resolution of 3456×2160 at 254 ppi. It employs a mini-LED backlight with over 10,000 individual LEDs across more than 2,500 local dimming zones, delivering 1,600 nits peak HDR brightness. The display supports ProMotion adaptive refresh rate (24–120Hz), P3 wide colour gamut, True Tone, and an anti-reflective nano-texture option on certain configurations.',
+      'The MacBook Pro 16-inch (2021 onwards) uses a Liquid Retina XDR display with a resolution of 3456×2160 at 254 ppi. It employs a mini-LED backlight with over 10,000 individual LEDs across more than 2,500 local dimming zones, delivering 1,600 nits peak HDR brightness. The display supports ProMotion adaptive refresh rate (24-120Hz), P3 wide colour gamut, True Tone, and an anti-reflective nano-texture option on certain configurations.',
   },
   {
     question: 'Can you repair dark patches on a MacBook Pro 16-inch screen?',
     answer:
-      'Yes. Dark patches on the 16-inch MacBook Pro typically indicate mini-LED backlight zone failure or delamination of the panel bonding layer. We confirm which condition is present during assessment — in some cases what appears to be a dark zone is a display cable fault producing a localised signal dropout, which is a significantly cheaper repair. We never recommend a full display assembly replacement without first excluding the cable as the cause.',
+      'Yes. Dark patches on the 16-inch MacBook Pro typically indicate mini-LED backlight zone failure or delamination of the panel bonding layer. We confirm which condition is present during assessment, in some cases what appears to be a dark zone is a display cable fault producing a localised signal dropout, which is a significantly cheaper repair. We never recommend a full display assembly replacement without first excluding the cable as the cause.',
   },
   {
     question: 'Why is MacBook Pro 16-inch screen repair more expensive than the 14-inch?',
     answer:
-      'The 16-inch display assembly is physically larger and costs more to source than the 14-inch equivalent. The assembly also weighs more, which means the hinge and flex cable experience more mechanical stress — leading to slightly more complex removal and installation procedures. Despite this, our 16-inch repair prices are consistently 60–70% below Apple Store pricing for the same repair.',
+      'The 16-inch display assembly is physically larger and costs more to source than the 14-inch equivalent. The assembly also weighs more, which means the hinge and flex cable experience more mechanical stress, leading to slightly more complex removal and installation procedures. Despite this, our 16-inch repair prices are consistently 60-70% below Apple Store pricing for the same repair.',
   },
   {
     question: 'How long does MacBook Pro 16-inch screen repair take?',
@@ -152,7 +152,7 @@ const faqs = [
   {
     question: 'Will ProMotion work after my MacBook Pro 16-inch screen is repaired?',
     answer:
-      'Yes — we verify ProMotion is active after every 16-inch display replacement. ProMotion requires a display assembly that supports Apple\'s adaptive sync protocol. We source assemblies that are fully protocol-compatible and confirm adaptive refresh rate (24–120Hz) before the machine leaves the workshop. If you have previously had a repair elsewhere that disabled ProMotion, we can assess whether a replacement assembly resolves the issue.',
+      'Yes, we verify ProMotion is active after every 16-inch display replacement. ProMotion requires a display assembly that supports Apple\'s adaptive sync protocol. We source assemblies that are fully protocol-compatible and confirm adaptive refresh rate (24-120Hz) before the machine leaves the workshop. If you have previously had a repair elsewhere that disabled ProMotion, we can assess whether a replacement assembly resolves the issue.',
   },
   {
     question: 'Does the MacBook Pro 16-inch have the notch like the 14-inch?',
@@ -160,7 +160,7 @@ const faqs = [
       'Yes. The MacBook Pro 16-inch (2021 onwards) includes the same display notch as the 14-inch, housing the FaceTime camera, TrueTone sensor, and ambient light sensor. The camera module connects via the display flex cable. Incorrect installation of the display assembly can disable the camera. We confirm camera function after every display replacement before the machine is returned.',
   },
   {
-    question: 'My MacBook Pro 16-inch screen is flickering — is this serious?',
+    question: 'My MacBook Pro 16-inch screen is flickering, is this serious?',
     answer:
       'Flickering on the 16-inch MacBook Pro can range from a minor display cable issue to early mini-LED zone instability. If the flicker correlates with lid angle, the display flex cable is the most likely cause. If the flicker is random and visible at all lid angles, it may indicate a panel fault or a logic board display output issue. We run an external display test during assessment to determine whether the fault is isolated to the screen or originates from the GPU.',
   },
@@ -177,7 +177,7 @@ const faqs = [
   {
     question: 'What should I do immediately after cracking my MacBook Pro 16-inch screen?',
     answer:
-      'Stop using the Mac if liquid was involved in the damage — switch it off and bring it to us immediately. If it was a dry impact with no liquid, the Mac can continue to be used until the repair appointment. Contact us on WhatsApp with your model number and a photo of the damage — we will confirm parts availability and give you a quote and estimated turnaround before you make the trip to Hyde Park.',
+      'Stop using the Mac if liquid was involved in the damage, switch it off and bring it to us immediately. If it was a dry impact with no liquid, the Mac can continue to be used until the repair appointment. Contact us on WhatsApp with your model number and a photo of the damage, we will confirm parts availability and give you a quote and estimated turnaround before you make the trip to Hyde Park.',
   },
 ];
 
@@ -203,11 +203,11 @@ export default function ScreenRepairMacBookPro16Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Apple's largest MacBook Pro display — and the most complex to repair. We service every 16-inch Liquid Retina XDR generation from M1 Pro/Max through to M4 Pro/Max at our Hyde Park workshop. Dark zones, delamination, ProMotion faults, cracked panels. Written quote before any work begins.
+              Apple's largest MacBook Pro display, and the most complex to repair. We service every 16-inch Liquid Retina XDR generation from M1 Pro/Max through to M4 Pro/Max at our Hyde Park workshop. Dark zones, delamination, ProMotion faults, cracked panels. Written quote before any work begins.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16″ from R4,999 | 48–72 hr turnaround</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16″ from R4,999 | 48-72 hr turnaround</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -292,7 +292,7 @@ export default function ScreenRepairMacBookPro16Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -304,10 +304,10 @@ export default function ScreenRepairMacBookPro16Page() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Why the 16-Inch Is the Most Demanding MacBook Pro Screen Repair</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Pro 16-inch Liquid Retina XDR is the largest display Apple has ever installed in a MacBook — and it is the most complex screen repair we perform in our Hyde Park workshop. The assembly measures 3456×2160 pixels at 254 ppi, with a mini-LED backlight of over 10,000 individual LEDs. Every repair step takes longer, every connector is under more mechanical stress, and the cost of a mistake is proportionally higher.
+              The MacBook Pro 16-inch Liquid Retina XDR is the largest display Apple has ever installed in a MacBook, and it is the most complex screen repair we perform in our Hyde Park workshop. The assembly measures 3456×2160 pixels at 254 ppi, with a mini-LED backlight of over 10,000 individual LEDs. Every repair step takes longer, every connector is under more mechanical stress, and the cost of a mistake is proportionally higher.
             </p>
             <p>
-              We work on 16-inch MacBook Pros exclusively on our ESD-protected bench with grounded tooling throughout. The display assembly is heavy — one person holds the lid open at a precise angle while the other works the ZIF connectors. There is no shortcut in the procedure. The most common mistake we see from previous repairs is damage to the display cable ZIF latch at the logic board end, caused by forcing the connector rather than using the correct release tool.
+              We work on 16-inch MacBook Pros exclusively on our ESD-protected bench with grounded tooling throughout. The display assembly is heavy, one person holds the lid open at a precise angle while the other works the ZIF connectors. There is no shortcut in the procedure. The most common mistake we see from previous repairs is damage to the display cable ZIF latch at the logic board end, caused by forcing the connector rather than using the correct release tool.
             </p>
             <p>
               Load shedding in Johannesburg has a specific relevance to the 16-inch MacBook Pro. Several clients have brought us 16-inch machines with mini-LED zone failure that developed within days of a Stage 6 load shedding period. The voltage surge characteristics on grid restoration appear to stress the backlight driver circuitry more on these larger, higher-power displays. A quality surge protector or UPS is a worthwhile investment if you own a 16-inch MacBook Pro in South Africa.
@@ -334,7 +334,7 @@ export default function ScreenRepairMacBookPro16Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-Inch Display Faults We Repair</h2>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed">
-            The 16-inch has its own fault profile distinct from the 14-inch — the larger panel, heavier lid, and higher-power backlight create different failure modes. We diagnose the precise cause before recommending any part replacement.
+            The 16-inch has its own fault profile distinct from the 14-inch, the larger panel, heavier lid, and higher-power backlight create different failure modes. We diagnose the precise cause before recommending any part replacement.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {faultTypes.map((fault) => (
@@ -355,7 +355,7 @@ export default function ScreenRepairMacBookPro16Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee — if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -366,15 +366,15 @@ export default function ScreenRepairMacBookPro16Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple iStore vs ZA Support: MacBook Pro 16-Inch Screen Repair</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            The 16-inch MacBook Pro screen is the most expensive laptop display repair Apple charges for. Our prices are 60–70% lower — with a comparable warranty and faster turnaround.
+            The 16-inch MacBook Pro screen is the most expensive laptop display repair Apple charges for. Our prices are 60-70% lower, with a comparable warranty and faster turnaround.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>16-inch Liquid Retina XDR replacement — R18,000 to R25,000+</li>
+                <li>16-inch Liquid Retina XDR replacement, R18,000 to R25,000+</li>
                 <li>Accidental damage not covered by standard warranty</li>
-                <li>Turnaround 5–10 business days via Apple depot</li>
+                <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>No component-level diagnosis before part swap</li>
                 <li>Display cable faults resolved by full assembly replacement</li>
                 <li>ProMotion and True Tone verified using Apple Configurator</li>
@@ -386,7 +386,7 @@ export default function ScreenRepairMacBookPro16Page() {
                 <li>MacBook Pro 16″ screen repair from R4,999</li>
                 <li>Full component-level diagnosis before quoting</li>
                 <li>ProMotion + True Tone + P3 gamut verified post-repair</li>
-                <li>Turnaround 48–72 hours from drop-off</li>
+                <li>Turnaround 48-72 hours from drop-off</li>
                 <li>Display cable faults diagnosed before assembly swap</li>
                 <li>Up-to-3 year warranty on all completed repairs</li>
               </ul>
@@ -398,9 +398,9 @@ export default function ScreenRepairMacBookPro16Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-Inch Screen Repair — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-Inch Screen Repair, Johannesburg Service Area</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            Our Hyde Park workshop is 10–20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton.
+            Our Hyde Park workshop is 10-20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
@@ -430,7 +430,7 @@ export default function ScreenRepairMacBookPro16Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro 16-Inch Screen Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro 16-Inch Screen Repair, Common Questions" />
         </div>
       </section>
 
@@ -444,9 +444,9 @@ export default function ScreenRepairMacBookPro16Page() {
               { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
               { label: 'MacBook Pro 14-Inch Screen', href: '/screen-repair/macbook-pro-14-inch' },
               { label: 'MacBook Pro 13-Inch Screen', href: '/screen-repair/macbook-pro-13-inch' },
-              { label: 'Logic Board — MacBook Pro 16″', href: '/logic-board-repair/macbook-pro-16-inch' },
+              { label: 'Logic Board, MacBook Pro 16″', href: '/logic-board-repair/macbook-pro-16-inch' },
               { label: 'MacBook Pro Liquid Damage', href: '/liquid-damage' },
-              { label: 'Screen Repair — Sandton', href: '/screen-repair/sandton' },
+              { label: 'Screen Repair, Sandton', href: '/screen-repair/sandton' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="glass-card p-4 text-center group">

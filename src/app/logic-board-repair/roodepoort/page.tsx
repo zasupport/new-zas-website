@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -37,11 +37,11 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Roodepoort?', answer: 'Yes. We collect from every part of Roodepoort — Florida, Florida Hills, Constantia Kloof, Weltevredenpark, Little Falls, Wilropark, Ruimsig and the business strips along Hendrik Potgieter and Ontdekkers Road. The driver typically routes via the N1 and is at most Roodepoort addresses within 35 minutes of leaving Hyde Park. Book on 064 529 5863 or WhatsApp wa.me/27645295863 and we will confirm a collection window.' },
+  { question: 'Do you collect MacBooks from Roodepoort?', answer: 'Yes. We collect from every part of Roodepoort, Florida, Florida Hills, Constantia Kloof, Weltevredenpark, Little Falls, Wilropark, Ruimsig and the business strips along Hendrik Potgieter and Ontdekkers Road. The driver typically routes via the N1 and is at most Roodepoort addresses within 35 minutes of leaving Hyde Park. Book on 064 529 5863 or WhatsApp wa.me/27645295863 and we will confirm a collection window.' },
   { question: 'How far is Roodepoort from your Hyde Park workshop?', answer: 'Roodepoort is approximately 32 minutes from our Hyde Park workshop, taking the N1 south and then Ontdekkers Road or Hendrik Potgieter into the suburb. Traffic on the N1 around the Beyers Naudé interchange can stretch that to 45 minutes during weekday peaks, which is why our Roodepoort collections usually run mid-morning or early afternoon rather than at rush hour.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a donor or new unit — fast for whoever is doing the work, but expensive, and on Apple Silicon machines it usually means the SSD (which is soldered to the board) is replaced too, so your data is gone. Component-level repair is what we do: we identify the single failed part on the board — a power management IC, a capacitor, a charging chip, a damaged trace — and replace only that part under the microscope. The original board, and your data, stays with the machine.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. No-power symptoms on MacBooks usually trace back to a fault on the charging rail, the SMC, a failed power IC, or damage from a surge or liquid event. We measure the board systematically to find where the power rail is collapsing. Out of the no-power machines we have collected from Roodepoort, the large majority have been repairable at component level — we will tell you honestly after diagnosis if a particular board is beyond economical repair before any work is invoiced.' },
-  { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours of the machine arriving at the workshop, assuming the fault is identified at diagnosis and the required components are in stock. Liquid damage jobs can take longer because they need ultrasonic cleaning and a recheck after each stage. For a Roodepoort client, the typical round trip — collection, diagnosis, repair, return — runs four to six working days.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a donor or new unit, fast for whoever is doing the work, but expensive, and on Apple Silicon machines it usually means the SSD (which is soldered to the board) is replaced too, so your data is gone. Component-level repair is what we do: we identify the single failed part on the board, a power management IC, a capacitor, a charging chip, a damaged trace, and replace only that part under the microscope. The original board, and your data, stays with the machine.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. No-power symptoms on MacBooks usually trace back to a fault on the charging rail, the SMC, a failed power IC, or damage from a surge or liquid event. We measure the board systematically to find where the power rail is collapsing. Out of the no-power machines we have collected from Roodepoort, the large majority have been repairable at component level, we will tell you honestly after diagnosis if a particular board is beyond economical repair before any work is invoiced.' },
+  { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours of the machine arriving at the workshop, assuming the fault is identified at diagnosis and the required components are in stock. Liquid damage jobs can take longer because they need ultrasonic cleaning and a recheck after each stage. For a Roodepoort client, the typical round trip, collection, diagnosis, repair, return, runs four to six working days.' },
   { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers collection from Roodepoort, structured diagnosis on the bench at Hyde Park, and a written fault report with a fixed repair quote. If you proceed with the repair, the assessment fee is absorbed into the repair cost. If you choose not to proceed, the assessment fee and a return delivery covers what has already been done.' },
   { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The assessment starts from R599 and includes the bench diagnosis and a written quote before any repair work begins. We do not start soldering, ordering parts or invoicing for a repair until you have seen the fault report and approved the quote in writing or on WhatsApp. There are no surprise charges added after the fact.' },
   { question: 'Which MacBook models do you repair for Roodepoort clients?', answer: 'We repair the full MacBook range collected from Roodepoort: MacBook Air and MacBook Pro from the Intel Core i5 and i7 era through to the current Apple Silicon M1, M2 and M3 machines, as well as iMac and Mac mini units. The most common Roodepoort jobs are MacBook Air no-power and USB-C charging faults, MacBook Pro liquid damage from kitchen and home-office spills, and shutdowns under load on Apple Silicon machines used for design and development work.' },
@@ -87,10 +87,10 @@ export default function LogicBoardRepairRoodepoortPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Roodepoort, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Roodepoort&apos;s trusted choice for component-level MacBook logic board repair. We collect from across Roodepoort — Florida, Constantia Kloof, Little Falls, Weltevredenpark and the Witpoortjie side — and diagnose at our Hyde Park workshop, roughly 32 minutes east via the N1 and Ontdekkers Road. Assessment from R599, with most logic board faults traced and quoted within two working days of collection.
+              Roodepoort&apos;s trusted choice for component-level MacBook logic board repair. We collect from across Roodepoort, Florida, Constantia Kloof, Little Falls, Weltevredenpark and the Witpoortjie side, and diagnose at our Hyde Park workshop, roughly 32 minutes east via the N1 and Ontdekkers Road. Assessment from R599, with most logic board faults traced and quoted within two working days of collection.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -131,16 +131,16 @@ export default function LogicBoardRepairRoodepoortPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Roodepoort sits on the western edge of Johannesburg, and the residents and small business owners we collect from there tend to fall into a few groups: home-based professionals working out of Constantia Kloof and Wilropark, retail and service businesses around Clearwater Mall and Westgate, and families in Florida and Florida Hills who rely on a single MacBook for school, design work or admin. Logic board failures we see on machines from this side of town often follow a familiar pattern — a sudden no-power event after a load-shedding switch-over, intermittent shutdowns that started weeks after a juice spill was ignored, or USB-C ports that have quietly stopped charging on one side. We work at chip level rather than swapping whole boards, which keeps Roodepoort clients away from the courier-to-Cape-Town board replacement quotes that have become common for Apple Silicon machines.
+              Roodepoort sits on the western edge of Johannesburg, and the residents and small business owners we collect from there tend to fall into a few groups: home-based professionals working out of Constantia Kloof and Wilropark, retail and service businesses around Clearwater Mall and Westgate, and families in Florida and Florida Hills who rely on a single MacBook for school, design work or admin. Logic board failures we see on machines from this side of town often follow a familiar pattern, a sudden no-power event after a load-shedding switch-over, intermittent shutdowns that started weeks after a juice spill was ignored, or USB-C ports that have quietly stopped charging on one side. We work at chip level rather than swapping whole boards, which keeps Roodepoort clients away from the courier-to-Cape-Town board replacement quotes that have become common for Apple Silicon machines.
             </p>
             <p>
-              Our Hyde Park bench is set up for the work properly: hot-air rework stations, lead-free soldering, a stereo microscope, schematics and boardview for the affected models, and the measurement tools needed to isolate a failed power rail or a shorted SMC line. A MacBook collected from a home in Weltevredenpark in the morning is typically on the diagnostic bench by early afternoon, and the client receives a written fault report — what failed, what it will cost, and what we cannot guarantee — before any soldering begins. That matters for the corporate users we collect from along Hendrik Potgieter Road who need to justify the spend before approving it.
+              Our Hyde Park bench is set up for the work properly: hot-air rework stations, lead-free soldering, a stereo microscope, schematics and boardview for the affected models, and the measurement tools needed to isolate a failed power rail or a shorted SMC line. A MacBook collected from a home in Weltevredenpark in the morning is typically on the diagnostic bench by early afternoon, and the client receives a written fault report, what failed, what it will cost, and what we cannot guarantee, before any soldering begins. That matters for the corporate users we collect from along Hendrik Potgieter Road who need to justify the spend before approving it.
             </p>
             <p>
               Collection from Roodepoort runs along the Ontdekkers and N1 corridor, and we will quote a return slot at the time of booking. We have driven out to Roodepoort for liquid-damaged MacBook Airs the morning after a weekend spill, retrieved a developer&apos;s M2 Pro from a townhouse near Ruimsig that wouldn&apos;t post after a power surge, and returned same-week-repaired machines to a small accounting practice off Christiaan de Wet. If your MacBook is showing no power, no image on the internal display, charging on only one port, or shutting down under load, send us a message on WhatsApp at wa.me/27645295863 or call 064 529 5863 and we will arrange a collection that fits your week.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairRoodepoortPage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairRoodepoortPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairRoodepoortPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Roodepoort — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Roodepoort, Common Questions" />
         </div>
       </section>
 

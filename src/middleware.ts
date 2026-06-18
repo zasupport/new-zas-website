@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // ─── Rate Limiting ──────────────────────────────────────────────────────────
 // In-memory sliding window per IP. Vercel edge functions are stateless so this
-// resets per cold start — sufficient to throttle bursts, not persistent DDoS.
+// resets per cold start, sufficient to throttle bursts, not persistent DDoS.
 
 interface RateEntry {
   count: number;
@@ -75,10 +75,10 @@ function isMaliciousBot(ua: string | null): boolean {
 }
 
 // ─── Security Headers ───────────────────────────────────────────────────────
-// Single source of truth — replaces both next.config.ts headers() and vercel.json headers.
+// Single source of truth, replaces both next.config.ts headers() and vercel.json headers.
 
 function buildCsp(): string {
-  // No nonce — Next.js App Router injects inline scripts without nonce attributes.
+  // No nonce, Next.js App Router injects inline scripts without nonce attributes.
   // Per CSP Level 2+, if a nonce is present browsers IGNORE 'unsafe-inline',
   // which breaks React hydration and all interactive components (menus, dropdowns).
   return [
@@ -108,7 +108,7 @@ function applySecurityHeaders(response: NextResponse): void {
   response.headers.set('Content-Security-Policy', buildCsp());
 
   // Strip framework-identifying headers (Vercel/Next.js fingerprints).
-  // Note: server + x-vercel-id are injected AFTER middleware by Vercel's edge — strip those via Cloudflare Transform Rules.
+  // Note: server + x-vercel-id are injected AFTER middleware by Vercel's edge, strip those via Cloudflare Transform Rules.
   response.headers.delete('x-powered-by');
   response.headers.delete('x-nextjs-prerender');
   response.headers.delete('x-nextjs-stale-time');
@@ -136,7 +136,7 @@ function isValidOrigin(request: NextRequest): boolean {
   if (origin) return allowed.some((a) => origin.startsWith(a));
   if (referer) return allowed.some((a) => referer.startsWith(a));
 
-  // No origin/referer — could be a direct API call (curl, Postman). Allow GET, block POST.
+  // No origin/referer, could be a direct API call (curl, Postman). Allow GET, block POST.
   return request.method === 'GET';
 }
 
@@ -156,7 +156,7 @@ export function middleware(request: NextRequest) {
     return new NextResponse('Forbidden', { status: 403 });
   }
 
-  // Protect cron endpoint — Vercel injects Authorization header automatically when CRON_SECRET is set
+  // Protect cron endpoint, Vercel injects Authorization header automatically when CRON_SECRET is set
   if (pathname === '/api/seo-report/cron') {
     if (!isCronAuthorised(request)) {
       return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
@@ -164,7 +164,7 @@ export function middleware(request: NextRequest) {
   }
 
   // CSRF origin check on POST routes
-  // Exempt /api/csp-report — browsers POST violation reports without a matching Origin header
+  // Exempt /api/csp-report, browsers POST violation reports without a matching Origin header
   if (request.method === 'POST' && pathname.startsWith('/api/') && pathname !== '/api/csp-report') {
     if (!isValidOrigin(request)) {
       return NextResponse.json({ error: 'Invalid origin' }, { status: 403 });
@@ -175,7 +175,7 @@ export function middleware(request: NextRequest) {
   if (pathname.startsWith('/api/')) {
     if (!checkRateLimit(ip, pathname)) {
       return NextResponse.json(
-        { error: 'Too many requests — please wait before trying again.' },
+        { error: 'Too many requests, please wait before trying again.' },
         {
           status: 429,
           headers: { 'Retry-After': '60' },

@@ -3,7 +3,7 @@
 import { CONTACT } from '@/lib/constants';
 
 /**
- * Floating WhatsApp button — fixed to bottom-right corner on all pages.
+ * Floating WhatsApp button, fixed to bottom-right corner on all pages.
  * Links to the ZA Support WhatsApp Business number.
  * Visible on all screen sizes, positioned above the fold.
  */

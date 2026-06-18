@@ -88,12 +88,12 @@ const faqs = [
   {
     question: 'How much does a MacBook Air M2 battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Air M2 battery replacement at our Hyde Park workshop starts from R1,999. This includes the 52.6 Wh replacement cell, all labour, adhesive removal, post-installation calibration, and a written 12-month warranty. Apple charges R3,200 to R5,000 for the same repair — often replacing the entire top case assembly including the keyboard. Our assessment fee starts from R599, which is applied toward the repair cost if you proceed.',
+      'MacBook Air M2 battery replacement at our Hyde Park workshop starts from R1,999. This includes the 52.6 Wh replacement cell, all labour, adhesive removal, post-installation calibration, and a written 12-month warranty. Apple charges R3,200 to R5,000 for the same repair, often replacing the entire top case assembly including the keyboard. Our assessment fee starts from R599, which is applied toward the repair cost if you proceed.',
   },
   {
     question: 'Is the MacBook Air M2 battery different from the M1 model?',
     answer:
-      'Yes, completely different. The MacBook Air M2 (2022) uses a 52.6 Wh cell in a new flat-body chassis design — a departure from the tapered wedge shape of the M1 Air. The battery footprint, adhesive layout, and connector position are all different. The cells are not interchangeable between M1 and M2 models. The M2 also introduced MagSafe 3 charging, which is integrated alongside the battery and must be verified after replacement.',
+      'Yes, completely different. The MacBook Air M2 (2022) uses a 52.6 Wh cell in a new flat-body chassis design, a departure from the tapered wedge shape of the M1 Air. The battery footprint, adhesive layout, and connector position are all different. The cells are not interchangeable between M1 and M2 models. The M2 also introduced MagSafe 3 charging, which is integrated alongside the battery and must be verified after replacement.',
   },
   {
     question: 'How long does a MacBook Air M2 battery replacement take?',
@@ -103,22 +103,22 @@ const faqs = [
   {
     question: 'What is the MacBook Air M2 battery capacity and cycle count limit?',
     answer:
-      'The MacBook Air M2 ships with a 52.6 Wh lithium-polymer battery — approximately 5% larger than the M1 Air 49.9 Wh cell. Apple rates it for 1,000 charge cycles before maximum capacity drops below 80%. The M2 chip is slightly less power-efficient than the M1 under heavy workloads due to the additional GPU cores, which means the M2 Air can cycle through its battery marginally faster during sustained use.',
+      'The MacBook Air M2 ships with a 52.6 Wh lithium-polymer battery, approximately 5% larger than the M1 Air 49.9 Wh cell. Apple rates it for 1,000 charge cycles before maximum capacity drops below 80%. The M2 chip is slightly less power-efficient than the M1 under heavy workloads due to the additional GPU cores, which means the M2 Air can cycle through its battery marginally faster during sustained use.',
   },
   {
     question: 'Does the MacBook Air M2 have a fan that affects battery replacement?',
     answer:
-      'No. Like the M1 Air, the MacBook Air M2 is fanless — passively cooled through the aluminium chassis. This simplifies the battery replacement process: there are no fan cables, heat pipes, or thermal ducting to navigate. However, the M2 Air does have a slightly more complex speaker assembly layout compared to the M1, and the MagSafe 3 board is positioned closer to the battery. We disconnect both before beginning adhesive work.',
+      'No. Like the M1 Air, the MacBook Air M2 is fanless, passively cooled through the aluminium chassis. This simplifies the battery replacement process: there are no fan cables, heat pipes, or thermal ducting to navigate. However, the M2 Air does have a slightly more complex speaker assembly layout compared to the M1, and the MagSafe 3 board is positioned closer to the battery. We disconnect both before beginning adhesive work.',
   },
   {
     question: 'Does load shedding affect the MacBook Air M2 battery?',
     answer:
-      'Significantly. The MacBook Air M2, like the M1, has become a primary load shedding workhorse in South African households and offices. Its 18-hour rated battery life makes it ideal for working through power outages — but this means constant switching between AC and battery power. On a Stage 4 schedule in Johannesburg, that translates to 8 to 12 additional partial charge cycles daily. We see M2 Air machines arriving with cycle counts of 800 to 1,000 at just 18 to 24 months of age.',
+      'Significantly. The MacBook Air M2, like the M1, has become a primary load shedding workhorse in South African households and offices. Its 18-hour rated battery life makes it ideal for working through power outages, but this means constant switching between AC and battery power. On a Stage 4 schedule in Johannesburg, that translates to 8 to 12 additional partial charge cycles daily. We see M2 Air machines arriving with cycle counts of 800 to 1,000 at just 18 to 24 months of age.',
   },
   {
-    question: 'My MacBook Air M2 trackpad feels stiff — could it be the battery?',
+    question: 'My MacBook Air M2 trackpad feels stiff, could it be the battery?',
     answer:
-      'Very likely. The MacBook Air M2 flat-body design positions the battery directly beneath the trackpad. When the lithium-polymer cells begin to swell — even by 1 to 2 millimetres — the trackpad mechanism loses its actuation gap. You may notice increased click resistance initially, followed by a completely unresponsive trackpad if the swelling progresses. The flat chassis of the M2 means bottom-case deformation is also visible earlier than on Pro models. Bring it in immediately — swollen batteries are a safety concern.',
+      'Very likely. The MacBook Air M2 flat-body design positions the battery directly beneath the trackpad. When the lithium-polymer cells begin to swell, even by 1 to 2 millimetres, the trackpad mechanism loses its actuation gap. You may notice increased click resistance initially, followed by a completely unresponsive trackpad if the swelling progresses. The flat chassis of the M2 means bottom-case deformation is also visible earlier than on Pro models. Bring it in immediately, swollen batteries are a safety concern.',
   },
   {
     question: 'Can I replace the MacBook Air M2 battery myself?',
@@ -126,19 +126,19 @@ const faqs = [
       'We advise against it. The MacBook Air M2 battery is secured with five adhesive sections that require precise temperature control and correct pull angles to release without cell puncture. The MagSafe 3 board sits adjacent to the battery and can be damaged during removal. Apple does not sell replacement cells to consumers, and aftermarket cell quality varies significantly. Professional replacement ensures the correct cell, proper adhesive technique, and calibration.',
   },
   {
-    question: 'What about the MacBook Air M2 15-inch — do you replace that battery too?',
+    question: 'What about the MacBook Air M2 15-inch, do you replace that battery too?',
     answer:
-      'Yes. The MacBook Air M2 15-inch (2023) uses a 66.5 Wh cell — substantially larger than the 13.6-inch M2 Air 52.6 Wh cell. The 15-inch model has six adhesive sections instead of five due to the wider battery footprint. Pricing for the 15-inch M2 Air battery replacement starts from R2,299. Contact us for a specific quote for your model.',
+      'Yes. The MacBook Air M2 15-inch (2023) uses a 66.5 Wh cell, substantially larger than the 13.6-inch M2 Air 52.6 Wh cell. The 15-inch model has six adhesive sections instead of five due to the wider battery footprint. Pricing for the 15-inch M2 Air battery replacement starts from R2,299. Contact us for a specific quote for your model.',
   },
   {
     question: 'What warranty do you offer on MacBook Air M2 battery replacement?',
     answer:
-      'All MacBook Air M2 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity below 80% of new, swelling, shutdowns, or electrical fault — we replace it at from R599. From R599 assessment applies: if the battery is not the issue, you pay only the assessment fee from R599.',
+      'All MacBook Air M2 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months, capacity below 80% of new, swelling, shutdowns, or electrical fault, we replace it at from R599. From R599 assessment applies: if the battery is not the issue, you pay only the assessment fee from R599.',
   },
   {
     question: 'Do you offer collection for MacBook Air M2 battery replacement in Johannesburg?',
     answer:
-      'Yes. Collection and return from all suburbs within 25 km of our Hyde Park workshop — Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. Same-day collection for urgent swollen battery cases. WhatsApp us or call 064 529 5863 to arrange. Pretoria and Centurion available by arrangement.',
+      'Yes. Collection and return from all suburbs within 25 km of our Hyde Park workshop, Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. Same-day collection for urgent swollen battery cases. WhatsApp us or call 064 529 5863 to arrange. Pretoria and Centurion available by arrangement.',
   },
 ];
 
@@ -166,7 +166,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Apple&apos;s redesigned MacBook Air M2 brought a new flat-body chassis, MagSafe 3 charging, and a 52.6 Wh battery with five adhesive sections. When that battery degrades or swells, the repair demands precision knowledge of this specific design. From R1,999 at our Hyde Park workshop — same-day service, 12-month warranty, From R599 assessment.
+              Apple&apos;s redesigned MacBook Air M2 brought a new flat-body chassis, MagSafe 3 charging, and a 52.6 Wh battery with five adhesive sections. When that battery degrades or swells, the repair demands precision knowledge of this specific design. From R1,999 at our Hyde Park workshop, same-day service, 12-month warranty, From R599 assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -231,16 +231,16 @@ export default function BatteryReplacementMacBookAirM2Page() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">The MacBook Air M2 Battery: New Chassis, New Challenges</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Air M2, released in July 2022, was a complete redesign. Gone was the tapered wedge that defined the Air since 2010 — replaced with a flat-body aluminium chassis inspired by the MacBook Pro 14-inch and 16-inch. This redesign changed everything about the battery replacement process. The 52.6 Wh lithium-polymer cell is wider and flatter than the M1 Air&apos;s 49.9 Wh cell, and it is secured with five adhesive pull-tab sections instead of four. The battery connector position moved, and MagSafe 3 was introduced alongside it.
+              The MacBook Air M2, released in July 2022, was a complete redesign. Gone was the tapered wedge that defined the Air since 2010, replaced with a flat-body aluminium chassis inspired by the MacBook Pro 14-inch and 16-inch. This redesign changed everything about the battery replacement process. The 52.6 Wh lithium-polymer cell is wider and flatter than the M1 Air&apos;s 49.9 Wh cell, and it is secured with five adhesive pull-tab sections instead of four. The battery connector position moved, and MagSafe 3 was introduced alongside it.
             </p>
             <p>
-              In our Hyde Park workshop, we noticed the design differences immediately when the first M2 Air machines arrived for battery work. The adhesive pattern is more similar to the MacBook Pro 14-inch than to the M1 Air — Apple clearly borrowed from the Pro&apos;s adhesive engineering. The fifth adhesive section sits at the front edge of the battery, directly beneath the trackpad. This section is the most difficult to release because there is almost no clearance between the cell and the trackpad mechanism. We use a thin nylon card rather than a spudger for this section, applying solvent from the sides to soften the bond before sliding the card through.
+              In our Hyde Park workshop, we noticed the design differences immediately when the first M2 Air machines arrived for battery work. The adhesive pattern is more similar to the MacBook Pro 14-inch than to the M1 Air, Apple clearly borrowed from the Pro&apos;s adhesive engineering. The fifth adhesive section sits at the front edge of the battery, directly beneath the trackpad. This section is the most difficult to release because there is almost no clearance between the cell and the trackpad mechanism. We use a thin nylon card rather than a spudger for this section, applying solvent from the sides to soften the bond before sliding the card through.
             </p>
             <p>
-              The MagSafe 3 integration is the other significant change. On the M1 Air, all charging came through the two USB-C/Thunderbolt ports — there was no dedicated charging connector. The M2 Air reintroduced MagSafe as a dedicated charging port, with the MagSafe board positioned along the left edge of the chassis, adjacent to the battery. The flex cable connecting the MagSafe board to the logic board routes alongside the battery and must be disconnected before any adhesive work begins. We have seen third-party repairers damage this cable during battery removal, resulting in a MagSafe port that no longer charges — a repair that costs more than the battery itself.
+              The MagSafe 3 integration is the other significant change. On the M1 Air, all charging came through the two USB-C/Thunderbolt ports, there was no dedicated charging connector. The M2 Air reintroduced MagSafe as a dedicated charging port, with the MagSafe board positioned along the left edge of the chassis, adjacent to the battery. The flex cable connecting the MagSafe board to the logic board routes alongside the battery and must be disconnected before any adhesive work begins. We have seen third-party repairers damage this cable during battery removal, resulting in a MagSafe port that no longer charges, a repair that costs more than the battery itself.
             </p>
             <p>
-              Johannesburg&apos;s load shedding has pushed many M2 Air batteries past their intended cycle limits in under two years. The M2 chip, while excellent, draws slightly more power than the M1 under sustained workloads due to its additional GPU cores and higher memory bandwidth. This means the M2 Air cycles its battery marginally faster during intensive work — video editing, large spreadsheets, or virtual meetings with screen sharing. Combined with load shedding partial cycles, we are seeing M2 Air machines arrive with cycle counts of 800 to 1,000 at 18 to 22 months of age.
+              Johannesburg&apos;s load shedding has pushed many M2 Air batteries past their intended cycle limits in under two years. The M2 chip, while excellent, draws slightly more power than the M1 under sustained workloads due to its additional GPU cores and higher memory bandwidth. This means the M2 Air cycles its battery marginally faster during intensive work, video editing, large spreadsheets, or virtual meetings with screen sharing. Combined with load shedding partial cycles, we are seeing M2 Air machines arrive with cycle counts of 800 to 1,000 at 18 to 22 months of age.
             </p>
             <p>
               Our calibration process for the M2 Air accounts for its unique battery management firmware. The M2&apos;s BMU includes optimised charging, which learns your daily charging patterns and delays charging past 80% until shortly before you typically unplug. A new battery resets this learned profile. We run a controlled charge-discharge-charge sequence that gives the BMU sufficient data to re-establish accurate state-of-charge estimation. We verify 52.6 Wh design capacity, 100% maximum capacity, and a cycle count of 0 or 1 in System Settings before returning your machine.
@@ -279,7 +279,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
               <tbody>
                 {[
                   { model: 'MacBook Air M2 13.6" (2022)', battery: '52.6 Wh', from: 'R1,999', turnaround: '2-4 hrs' },
-                  { model: 'MacBook Air M2 13.6" (2022) — Swollen', battery: '52.6 Wh', from: 'R1,999', turnaround: '2-4 hrs' },
+                  { model: 'MacBook Air M2 13.6" (2022), Swollen', battery: '52.6 Wh', from: 'R1,999', turnaround: '2-4 hrs' },
                   { model: 'MacBook Air M2 15.3" (2023)', battery: '66.5 Wh', from: 'R2,299', turnaround: '3-5 hrs' },
                 ].map((row, i) => (
                   <tr key={row.model} className={`border-b border-[rgba(255,255,255,0.04)] ${i % 2 === 0 ? 'bg-[#0A1A18]' : 'bg-[#111C1A]'}`}>
@@ -293,7 +293,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost. From R599 assessment.
+            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599, applied toward repair cost. From R599 assessment.
           </p>
           <PricingRange page="/battery-replacement/macbook-air-m2" />
           <PricingNote variant="inline" />
@@ -383,7 +383,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area — MacBook Air M2 Battery Replacement</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area, MacBook Air M2 Battery Replacement</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
             Our Hyde Park workshop is centrally located for all northern Johannesburg suburbs. Collection and return available. Same-day collection for urgent swollen battery cases.
           </p>
@@ -417,7 +417,7 @@ export default function BatteryReplacementMacBookAirM2Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Air M2 Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Air M2 Battery Replacement, Common Questions" />
         </div>
       </section>
 

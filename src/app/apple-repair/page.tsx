@@ -45,7 +45,7 @@ const serviceCards = [
   {
     icon: Cpu,
     title: 'Logic Board Repair',
-    description: 'Component-level repair specialists. We repair the specific faulty component — saving you up to 80% versus full board replacement. No-power, no-display, USB-C failure, GPU faults.',
+    description: 'Component-level repair specialists. We repair the specific faulty component, saving you up to 80% versus full board replacement. No-power, no-display, USB-C failure, GPU faults.',
     href: '/logic-board-repair',
     tag: 'Specialist service',
     accent: 'text-orange-400',
@@ -112,7 +112,7 @@ const serviceCards = [
 const allServices = [
   { title: 'MacBook Repair', href: '/macbook-repair', sub: 'Battery, screen, keyboard, logic board' },
   { title: 'MacBook Air Repair', href: '/macbook-air-repair', sub: 'M1, M2, M3 and Intel, all models' },
-  { title: 'MacBook Pro Repair', href: '/macbook-pro-repair', sub: 'M1–M3 Pro/Max and Intel, all models' },
+  { title: 'MacBook Pro Repair', href: '/macbook-pro-repair', sub: 'M1-M3 Pro/Max and Intel, all models' },
   { title: 'iMac Repair', href: '/imac-repair', sub: 'Screen, RAM, SSD, logic board, all models' },
   { title: 'Logic Board Repair', href: '/logic-board-repair', sub: 'Component-level repair specialists' },
   { title: 'Liquid Damage Repair', href: '/liquid-damage', sub: 'MacBook, iMac, iPhone, iPad, Apple Watch' },
@@ -139,7 +139,7 @@ const processSteps = [
   {
     step: '03',
     title: 'Expert Repair',
-    body: 'Our technicians work at component level where possible. Most repairs are completed within 24–72 hours. Complex logic board work: 3–5 days.',
+    body: 'Our technicians work at component level where possible. Most repairs are completed within 24-72 hours. Complex logic board work: 3-5 days.',
   },
   {
     step: '04',
@@ -175,7 +175,7 @@ const faqs = [
   {
     question: 'How long does repair take?',
     answer:
-      'Battery and screen replacements are typically completed within 24 hours, often same-day. Logic board component-level repair: 24–72 hours. Complex liquid damage or multi-component board faults: 3–5 business days. We will give you a specific timeframe after the assessment.',
+      'Battery and screen replacements are typically completed within 24 hours, often same-day. Logic board component-level repair: 24-72 hours. Complex liquid damage or multi-component board faults: 3-5 business days. We will give you a specific timeframe after the assessment.',
   },
   {
     question: 'Where are you located?',
@@ -245,7 +245,7 @@ export default function AppleRepairPage() {
               <br /><span className="text-[#0FEA7A]">Every Device. Every Problem.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              Logic board component-level repair, battery, screen, keyboard, liquid damage, trackpad, and charging port — all Mac and iOS devices. Assessment: from R599.
+              Logic board component-level repair, battery, screen, keyboard, liquid damage, trackpad, and charging port, all Mac and iOS devices. Assessment: from R599.
             </p>
             <div className="flex flex-wrap gap-6 mb-8">
               {[
@@ -296,7 +296,7 @@ export default function AppleRepairPage() {
       </section>
 
       {/* Google Reviews */}
-      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      {/* Google Reviews, sourced from GBP (TEST-2 importer, 26/05/2026) */}
       <GoogleReviews count={6} />
 
       {/* ── TRUST BAR ── */}
@@ -458,7 +458,7 @@ export default function AppleRepairPage() {
               {
                 icon: Clock,
                 title: 'Fast Turnaround',
-                body: 'Most battery, screen and keyboard repairs: same day or next day. Logic board component-level repair: 24–72 hours. We know your Mac is critical to your work, we do not hold jobs unnecessarily.',
+                body: 'Most battery, screen and keyboard repairs: same day or next day. Logic board component-level repair: 24-72 hours. We know your Mac is critical to your work, we do not hold jobs unnecessarily.',
               },
               {
                 icon: CheckCircle,
@@ -562,12 +562,12 @@ export default function AppleRepairPage() {
         </div>
       </section>
 
-      {/* §402a 26/05/2026: specialist Mac services — internal-link injection
+      {/* §402a 26/05/2026: specialist Mac services, internal-link injection
           for sub-pages previously orphaned behind /macbook-repair → /apple-repair 308 */}
       <section className="bg-[#0F1F1D] py-16">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-[#E8F4F1] mb-2">Specialist Mac services</h2>
-          <p className="text-[#7A9E98] mb-8">Beyond standard repair — deeper interventions our Hyde Park workshop handles in-house.</p>
+          <p className="text-[#7A9E98] mb-8">Beyond standard repair, deeper interventions our Hyde Park workshop handles in-house.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             <Link href="/macbook-repair/data-recovery" className="block p-5 rounded-xl border border-[#27504D]/40 bg-[#0A1A18] hover:border-[#0FEA7A]/40 transition-colors">
               <h3 className="text-[#E8F4F1] font-semibold mb-2">Data recovery</h3>

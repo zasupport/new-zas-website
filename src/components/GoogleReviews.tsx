@@ -1,9 +1,9 @@
-// GoogleReviews — TEST-2 sourced GBP reviews component (Y-approved 26/05/2026)
+// GoogleReviews, TEST-2 sourced GBP reviews component (Y-approved 26/05/2026)
 //
 // Replaces the 86 fabricated testimonials stripped by TEST-1. Reads
 // src/data/google-reviews.json (populated daily by ~/bin/za-gbp-review-importer.sh
 // → LaunchAgent com.zasupport.gbpReviewImporter 04:45 SAST). Renders ONLY real
-// reviews — if the file is empty or missing displayName, the component renders
+// reviews, if the file is empty or missing displayName, the component renders
 // nothing rather than fabricate.
 //
 // §374 anti-hallucination | §357 ledger: gbp-review-importer-test2
@@ -158,7 +158,7 @@ export function GoogleReviews({
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#7A9E98] text-xs hover:text-[#0FEA7A] transition-colors"
-                    aria-label="Verified Google review — view on Google Maps"
+                    aria-label="Verified Google review, view on Google Maps"
                   >
                     Verified Google review
                   </Link>

@@ -44,25 +44,25 @@ const repairProcess = [
   { step: '3', title: 'Your Approval', detail: 'We begin work only after you approve the quote. If you decline, you walk away paying nothing. The machine is returned exactly as received.' },
   { step: '4', title: 'Component-Level Repair', detail: 'Our technician uses a professional hot-air rework station, stereo microscope, and precision soldering station to replace the specific failed component. We reflow solder, replace ICs, and repair traces as needed.' },
   { step: '5', title: 'Multi-Stage Testing', detail: 'Before closing the machine: power-on test, full charge cycle, display output check, USB-C port enumeration, thermal monitoring under load, and SMC/T2 validation on applicable models.' },
-  { step: '6', title: 'Collection or Delivery', detail: 'You collect from Hyde Park or we arrange secure courier delivery across Johannesburg. Most repairs completed within 3–5 business days from approval.' },
+  { step: '6', title: 'Collection or Delivery', detail: 'You collect from Hyde Park or we arrange secure courier delivery across Johannesburg. Most repairs completed within 3-5 business days from approval.' },
 ];
 
 const modelCompatibility = [
-  { year: '2015–2017', model: 'MacBook Pro 13" & 15"', chip: 'Intel Core i5/i7', repairable: 'Full component repair, most faults repairable' },
-  { year: '2016–2019', model: 'MacBook Pro 13" & 15" (Touch Bar)', chip: 'Intel Core i5/i7/i9', repairable: 'Full repair, Touch Bar, GPU, USB-C, power circuits' },
-  { year: '2019–2020', model: 'MacBook Pro 13" (Intel)', chip: 'Intel Core i5/i7', repairable: 'Full component repair' },
-  { year: '2019–2020', model: 'MacBook Pro 16" (Intel)', chip: 'Intel Core i7/i9', repairable: 'Full repair, discrete AMD GPU reballable' },
+  { year: '2015-2017', model: 'MacBook Pro 13" & 15"', chip: 'Intel Core i5/i7', repairable: 'Full component repair, most faults repairable' },
+  { year: '2016-2019', model: 'MacBook Pro 13" & 15" (Touch Bar)', chip: 'Intel Core i5/i7/i9', repairable: 'Full repair, Touch Bar, GPU, USB-C, power circuits' },
+  { year: '2019-2020', model: 'MacBook Pro 13" (Intel)', chip: 'Intel Core i5/i7', repairable: 'Full component repair' },
+  { year: '2019-2020', model: 'MacBook Pro 16" (Intel)', chip: 'Intel Core i7/i9', repairable: 'Full repair, discrete AMD GPU reballable' },
   { year: '2020', model: 'MacBook Pro 13" (M1)', chip: 'Apple M1', repairable: 'Surrounding components repaired, SoC cannot be replaced' },
   { year: '2021', model: 'MacBook Pro 14" & 16" (M1 Pro/Max)', chip: 'Apple M1 Pro / M1 Max', repairable: 'Power management, USB-C controllers, display circuits repairable' },
   { year: '2022', model: 'MacBook Pro 13" (M2)', chip: 'Apple M2', repairable: 'Surrounding components repaired, SoC cannot be replaced' },
   { year: '2023', model: 'MacBook Pro 14" & 16" (M2 Pro/Max)', chip: 'Apple M2 Pro / M2 Max', repairable: 'Board-level repair for surrounding components' },
-  { year: '2023–2024', model: 'MacBook Pro 14" & 16" (M3 / M3 Pro / M3 Max)', chip: 'Apple M3 family', repairable: 'Power delivery, USB-C IC, display path, all repairable' },
+  { year: '2023-2024', model: 'MacBook Pro 14" & 16" (M3 / M3 Pro / M3 Max)', chip: 'Apple M3 family', repairable: 'Power delivery, USB-C IC, display path, all repairable' },
 ];
 
 const faqs = [
   {
     question: 'How long does MacBook Pro logic board repair take?',
-    answer: 'The diagnostic is completed within 24 hours. Simple repairs, USB-C controllers, backlight circuits, power fuse, are typically done within 48–72 hours. Complex component-level repair jobs such as multi-component liquid damage or GPU reball take 3–5 business days. We confirm the timeframe at the assessment stage before any work begins.',
+    answer: 'The diagnostic is completed within 24 hours. Simple repairs, USB-C controllers, backlight circuits, power fuse, are typically done within 48-72 hours. Complex component-level repair jobs such as multi-component liquid damage or GPU reball take 3-5 business days. We confirm the timeframe at the assessment stage before any work begins.',
   },
   {
     question: 'Do you offer a warranty on logic board repairs?',
@@ -94,7 +94,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro 15" Intel shows GPU artifacts and flickering. What is happening?',
-    answer: 'This is almost certainly a discrete GPU failure, specifically, solder joint failure between the AMD Radeon GPU package and the logic board. This is a known issue on 2011–2019 Intel MacBook Pros with discrete GPUs. The repair involves reballing (removing the chip, cleaning the pads, applying fresh solder balls, and reflowing) or component-level repair of the GPU package. It is a definitive fix, not a temporary workaround, and is covered by our up-to-3 year warranty.',
+    answer: 'This is almost certainly a discrete GPU failure, specifically, solder joint failure between the AMD Radeon GPU package and the logic board. This is a known issue on 2011-2019 Intel MacBook Pros with discrete GPUs. The repair involves reballing (removing the chip, cleaning the pads, applying fresh solder balls, and reflowing) or component-level repair of the GPU package. It is a definitive fix, not a temporary workaround, and is covered by our up-to-3 year warranty.',
   },
   {
     question: 'My MacBook Pro stopped working after the USB-C port was damaged. What is the repair path?',
@@ -211,12 +211,12 @@ export default function MacBookProLogicBoardPage() {
           </h2>
           <div className="space-y-5 text-[#7A9E98] leading-relaxed">
             <p>
-              The logic board is the main circuit board inside your MacBook Pro — the processor, memory, storage,
+              The logic board is the main circuit board inside your MacBook Pro, the processor, memory, storage,
               display, USB-C ports, battery, and keyboard all connect through it. When it fails, the effects range
               from a completely dead machine to subtler problems like random shutdowns or a port that stopped working.
             </p>
             <p>
-              Most logic board failures are caused by a single failed component — one chip, one capacitor, one damaged
+              Most logic board failures are caused by a single failed component, one chip, one capacitor, one damaged
               trace. A component-level repair replaces only that component under a stereo microscope, restoring the
               board to full function at a fraction of the cost of a full replacement.
             </p>
@@ -318,8 +318,8 @@ export default function MacBookProLogicBoardPage() {
           <div className="mt-10 p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl max-w-2xl">
             <p className="text-[#E8F4F1] font-semibold mb-1">Typical turnaround</p>
             <p className="text-[#7A9E98] text-sm">
-              Most MacBook Pro logic board repairs are completed within <strong className="text-[#E8F4F1]">3–5 business days</strong> from
-              the point of approval. Simple repairs (USB-C, backlight, power fuse) are often completed in 48–72 hours.
+              Most MacBook Pro logic board repairs are completed within <strong className="text-[#E8F4F1]">3-5 business days</strong> from
+              the point of approval. Simple repairs (USB-C, backlight, power fuse) are often completed in 48-72 hours.
               Complex jobs such as multi-component liquid damage are quoted with a specific timeline.
             </p>
           </div>
@@ -383,7 +383,7 @@ export default function MacBookProLogicBoardPage() {
           </p>
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
-              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. From R599,.' },
+              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. From R599.' },
               { item: 'USB-C / I/O Board Repair', note: 'Port board replacement or USB-C controller IC component-level repair' },
               { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or eDP connector fault' },
               { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC replacement' },
@@ -466,7 +466,7 @@ export default function MacBookProLogicBoardPage() {
               Most repair shops in Johannesburg only offer board replacement, they swap the entire logic board for a new
               or refurbished one. This is expensive and often unnecessary. ZA Support performs component-level
               component-level repair: we identify and replace the specific failed chip or component on your existing board. Your
-              data stays put, your Touch ID pairing is preserved, and you get your machine back at 60–80% less than a
+              data stays put, your Touch ID pairing is preserved, and you get your machine back at 60-80% less than a
               board replacement would cost. We have the equipment, the training, and the track record to do this on
               every MacBook Pro model from 2015 to 2024.
             </p>
@@ -538,7 +538,7 @@ export default function MacBookProLogicBoardPage() {
               MacBook Pro Logic Board Fault?
             </h2>
             <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Mon–Thu 08:00–17:00 · Fri 08:00–16:30 · Closed Weekends</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Mon-Thu 08:00-17:00 · Fri 08:00-16:30 · Closed Weekends</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('LBR-MBP', 'logic-board')}

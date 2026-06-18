@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or display connector fault.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on movement. Often a loose display cable on Intel-era MacBook Pros, or a GPU fault. Diagnosed before repair.' },
@@ -38,23 +38,23 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you collect MacBooks from Northcliff for screen repairs?',
-    answer: 'Yes. We collect from Northcliff — including the Ridge, Northcliff Hill, and the streets around Northcliff Corner — and bring your MacBook to our Hyde Park workshop, approximately 12km to the east. We return the machine once the repair is complete and tested. Contact us on WhatsApp or by phone to arrange a suitable time.',
+    answer: 'Yes. We collect from Northcliff, including the Ridge, Northcliff Hill, and the streets around Northcliff Corner, and bring your MacBook to our Hyde Park workshop, approximately 12km to the east. We return the machine once the repair is complete and tested. Contact us on WhatsApp or by phone to arrange a suitable time.',
   },
   {
     question: 'How long does a MacBook screen replacement take?',
-    answer: 'Most screen replacements are completed within 24–48 hours. We keep display assemblies for the most common MacBook Air and MacBook Pro models in stock. For less common configurations we confirm parts availability and a specific turnaround when you get in touch. Northcliff clients typically have their MacBook back within the same working week.',
+    answer: 'Most screen replacements are completed within 24-48 hours. We keep display assemblies for the most common MacBook Air and MacBook Pro models in stock. For less common configurations we confirm parts availability and a specific turnaround when you get in touch. Northcliff clients typically have their MacBook back within the same working week.',
   },
   {
     question: 'Is a cracked MacBook screen an urgent repair?',
-    answer: 'Yes. A cracked display is not cosmetic — it is a structural and moisture risk. The LCD seal breaks at the crack line, allowing humidity to enter the backlight layer during Johannesburg summer rains. We have replaced panels where a small crack in one corner has progressed to full backlight failure because the repair was delayed by a few weeks. Acting early is always cheaper.',
+    answer: 'Yes. A cracked display is not cosmetic, it is a structural and moisture risk. The LCD seal breaks at the crack line, allowing humidity to enter the backlight layer during Johannesburg summer rains. We have replaced panels where a small crack in one corner has progressed to full backlight failure because the repair was delayed by a few weeks. Acting early is always cheaper.',
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement fits a complete new assembly — LCD panel, backlight, and outer glass — as a single unit. This is the appropriate approach for cracked panels and physical damage. Screen repair refers to targeted component-level work for electronic faults: backlight driver failure, flickering from a fraying display cable, or GPU-related display issues where the panel is intact. We diagnose the fault precisely before recommending either approach.',
+    answer: 'Display replacement fits a complete new assembly, LCD panel, backlight, and outer glass, as a single unit. This is the appropriate approach for cracked panels and physical damage. Screen repair refers to targeted component-level work for electronic faults: backlight driver failure, flickering from a fraying display cable, or GPU-related display issues where the panel is intact. We diagnose the fault precisely before recommending either approach.',
   },
   {
-    question: 'My screen flickers intermittently — is that serious?',
-    answer: 'Yes, especially on Intel MacBook Pro models. Intermittent flickering — particularly flickering that worsens on lid movement — is typically a failing display cable running through the hinge. Left unrepaired, the cable fractures fully and the screen goes dark permanently. We have seen this progression many times in our Hyde Park workshop. Early cable repair is substantially cheaper than replacing the cable after the display has gone completely dark.',
+    question: 'My screen flickers intermittently, is that serious?',
+    answer: 'Yes, especially on Intel MacBook Pro models. Intermittent flickering, particularly flickering that worsens on lid movement, is typically a failing display cable running through the hinge. Left unrepaired, the cable fractures fully and the screen goes dark permanently. We have seen this progression many times in our Hyde Park workshop. Early cable repair is substantially cheaper than replacing the cable after the display has gone completely dark.',
   },
   {
     question: 'Does screen replacement affect Touch ID on my MacBook?',
@@ -62,11 +62,11 @@ const faqs = [
   },
   {
     question: 'Do you repair Apple Silicon MacBook screens from Northcliff?',
-    answer: 'Yes. We repair and replace displays on all Apple Silicon models — MacBook Air M1, M2, M3 and MacBook Pro M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, and M3 Max. Apple Silicon display assemblies use different components from Intel-era panels, and we source quality-matched parts for each generation. All repairs carry a written ZA Support warranty.',
+    answer: 'Yes. We repair and replace displays on all Apple Silicon models, MacBook Air M1, M2, M3 and MacBook Pro M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, and M3 Max. Apple Silicon display assemblies use different components from Intel-era panels, and we source quality-matched parts for each generation. All repairs carry a written ZA Support warranty.',
   },
   {
     question: 'How do I arrange a MacBook collection from Northcliff?',
-    answer: 'Send us a WhatsApp message or call 064 529 5863. We will agree a collection time at your Northcliff address — on the Ridge, near Northcliff Corner, or anywhere in the suburb. We collect, carry out the repair at our Hyde Park workshop, and return your MacBook to you. The written quote is provided before any work starts.',
+    answer: 'Send us a WhatsApp message or call 064 529 5863. We will agree a collection time at your Northcliff address, on the Ridge, near Northcliff Corner, or anywhere in the suburb. We collect, carry out the repair at our Hyde Park workshop, and return your MacBook to you. The written quote is provided before any work starts.',
   },
 ];
 
@@ -110,7 +110,7 @@ export default function ScreenRepairNorthcliffPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Northcliff
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook screen repair and display replacement for Northcliff clients. We collect from Northcliff Ridge, Northcliff Hill, and the Northcliff Corner area, and carry out the repair at our Hyde Park workshop approximately 12km to the east.
@@ -122,7 +122,7 @@ export default function ScreenRepairNorthcliffPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Northcliff' },
               ].map(({ icon: Icon, label }) => (
@@ -155,16 +155,16 @@ export default function ScreenRepairNorthcliffPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Northcliff sits on a ridge to the west of Johannesburg, a well-established residential area with a mix of creative professionals, families, and small businesses operating from home offices. It is not a suburb with a convenient Apple reseller or specialist repair centre nearby — which is why our collection service from Northcliff to our Hyde Park workshop matters to clients here.
+              Northcliff sits on a ridge to the west of Johannesburg, a well-established residential area with a mix of creative professionals, families, and small businesses operating from home offices. It is not a suburb with a convenient Apple reseller or specialist repair centre nearby, which is why our collection service from Northcliff to our Hyde Park workshop matters to clients here.
             </p>
             <p>
-              We collect from across Northcliff — the Ridge, Northcliff Hill, the streets around Northcliff Corner shopping centre — and carry the MacBook across to our workshop on Hyde Park Lane, roughly 12km to the east. Most screen repairs and display replacements are completed within 24–48 hours, with the machine returned to your Northcliff address once we have confirmed the display is performing correctly.
+              We collect from across Northcliff, the Ridge, Northcliff Hill, the streets around Northcliff Corner shopping centre, and carry the MacBook across to our workshop on Hyde Park Lane, roughly 12km to the east. Most screen repairs and display replacements are completed within 24-48 hours, with the machine returned to your Northcliff address once we have confirmed the display is performing correctly.
             </p>
             <p>
-              The most common display faults we handle for Northcliff clients are: cracked LCD panels (usually from a drop or compression in a bag), backlight failure (screen dark, faint image visible under torchlight), and intermittent flickering from a failing display cable — a documented fault on Intel MacBook Pro 13-inch models from 2016 to 2019. All three are repairable, and we diagnose before quoting to ensure you only pay for what the fault actually requires.
+              The most common display faults we handle for Northcliff clients are: cracked LCD panels (usually from a drop or compression in a bag), backlight failure (screen dark, faint image visible under torchlight), and intermittent flickering from a failing display cable, a documented fault on Intel MacBook Pro 13-inch models from 2016 to 2019. All three are repairable, and we diagnose before quoting to ensure you only pay for what the fault actually requires.
             </p>
             <p>
-              We repair and replace displays on all MacBook models. MacBook Air — 11-inch, 13-inch, 15-inch, all Intel and Apple Silicon generations. MacBook Pro — 13-inch, 14-inch, 15-inch, and 16-inch, Intel and M-series. Every repair carries a written warranty. Final price is quoted after the diagnostic and confirmed before any work begins.
+              We repair and replace displays on all MacBook models. MacBook Air, 11-inch, 13-inch, 15-inch, all Intel and Apple Silicon generations. MacBook Pro, 13-inch, 14-inch, 15-inch, and 16-inch, Intel and M-series. Every repair carries a written warranty. Final price is quoted after the diagnostic and confirmed before any work begins.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function ScreenRepairNorthcliffPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Northcliff', desc: 'Contact us via WhatsApp or phone. We arrange a collection at your Northcliff address — Ridge, Hill, or near Northcliff Corner — at a time that works for you.' },
+              { step: '01', title: 'Collection from Northcliff', desc: 'Contact us via WhatsApp or phone. We arrange a collection at your Northcliff address, Ridge, Hill, or near Northcliff Corner, at a time that works for you.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify the exact fault: physical panel damage, backlight component, display cable, or board-level issue. This shapes the correct repair approach and cost estimate.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering fault, repair method, and turnaround time. No work starts until you approve it in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where possible, full display replacement where the panel is damaged. Quality-matched parts fitted at our Hyde Park workshop.' },
@@ -260,7 +260,7 @@ export default function ScreenRepairNorthcliffPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Northcliff MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-NORTHCLIFF-HERO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

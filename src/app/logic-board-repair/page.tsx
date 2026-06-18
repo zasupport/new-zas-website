@@ -71,13 +71,13 @@ export const metadata: Metadata = {
 
 /* ── Common faults ──────────────────────────────────────────────────────── */
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no LED. Typically a failed power-management IC, blown fuse, or damaged charging controller. Component-level diagnosis and repair.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no LED. Typically a failed power-management IC, blown fuse, or damaged charging controller. Component-level diagnosis and repair.' },
   { title: 'No Display / Black Screen', desc: 'Mac boots (you hear fans / chime) but screen stays black. Backlight driver IC failure, LP8550 fault, or display flex cable damage. Often a sub-R3,000 component-level repair.' },
   { title: 'Liquid Damage Corrosion', desc: 'Spill, splash, or humidity exposure leaves conductive residue on traces. Professional ultrasonic cleaning followed by component-level chip replacement.' },
   { title: 'Overheating / Random Shutdown', desc: 'Thermal runaway, failing voltage regulator, or blocked power rail. We trace current draw on each rail at component level to identify the root cause.' },
-  { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no external display, or no data on one or both USB-C ports. CD3217B12 controller failure is the most common cause on 2016–2020 MacBook Pro and MacBook Air.' },
+  { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no external display, or no data on one or both USB-C ports. CD3217B12 controller failure is the most common cause on 2016-2020 MacBook Pro and MacBook Air.' },
   { title: 'Fan Error / Loud Fan', desc: 'SMC fault, fan controller IC failure, or failed thermal sensor causing fans to run at maximum speed continuously.' },
-  { title: 'GPU Failure (Artifacts)', desc: 'Screen artifacts, garbled display, external display dead. Discrete GPU solder-joint failure on Intel MBP 2011–2013 — GPU reball / replacement.' },
+  { title: 'GPU Failure (Artifacts)', desc: 'Screen artifacts, garbled display, external display dead. Discrete GPU solder-joint failure on Intel MBP 2011-2013, GPU reball / replacement.' },
   { title: 'Kernel Panic / Crash Loop', desc: 'Persistent kernel panics traced to failing RAM module, storage controller, or specific logic board component fault under load.' },
 ];
 
@@ -86,8 +86,8 @@ const repairTypes = [
   { item: 'USB-C / Thunderbolt Controller Repair', note: 'CD3217B12 / port board replacement' },
   { item: 'Power Circuit Repair', note: 'No-power diagnosis, PMIC / fuse replacement' },
   { item: 'Component-Level Chip Repair', note: 'Specific IC replacement under microscope' },
-  { item: 'Discrete GPU Repair', note: 'Intel MBP 2011–2013 — reball or chip swap' },
-  { item: 'Board Replacement', note: 'Last resort — when component repair is not viable' },
+  { item: 'Discrete GPU Repair', note: 'Intel MBP 2011-2013, reball or chip swap' },
+  { item: 'Board Replacement', note: 'Last resort, when component repair is not viable' },
 ];
 
 /* ── Extended FAQ set ───────────────────────────────────────────────────── */
@@ -95,7 +95,7 @@ const faqs = [
   {
     question: 'How much does MacBook logic board repair cost in Johannesburg?',
     answer:
-      'Component-level logic board repair at ZA Support starts from R2,500 for most MacBook Air and MacBook Pro 13-inch faults, and from R3,500 for MacBook Pro 14-inch and 16-inch models. This is significantly cheaper than a full board replacement — the Apple Store typically quotes R15,000 to R30,000 for the equivalent fix. We provide a written fixed-price quote after the R599 assessment, before any work begins. Final price depends on which specific component has failed.',
+      'Component-level logic board repair at ZA Support starts from R2,500 for most MacBook Air and MacBook Pro 13-inch faults, and from R3,500 for MacBook Pro 14-inch and 16-inch models. This is significantly cheaper than a full board replacement, the Apple Store typically quotes R15,000 to R30,000 for the equivalent fix. We provide a written fixed-price quote after the R599 assessment, before any work begins. Final price depends on which specific component has failed.',
   },
   {
     question: 'What is your assessment fee policy?',
@@ -105,58 +105,58 @@ const faqs = [
   {
     question: 'How long does logic board repair take?',
     answer:
-      'Most logic board repairs are completed within 24 to 72 hours at our Hyde Park workshop. Simple faults — USB-C controller replacement, blown fuses, single PMIC failure — are typically done in 24 hours. More complex component-level work — GPU reball, multi-component faults, post-liquid corrosion — takes 3 to 5 business days. We confirm the exact turnaround as part of the written quote after assessment.',
+      'Most logic board repairs are completed within 24 to 72 hours at our Hyde Park workshop. Simple faults, USB-C controller replacement, blown fuses, single PMIC failure, are typically done in 24 hours. More complex component-level work, GPU reball, multi-component faults, post-liquid corrosion, takes 3 to 5 business days. We confirm the exact turnaround as part of the written quote after assessment.',
   },
   {
     question: 'What MacBook models do you repair?',
     answer:
-      'We repair all MacBook Pro, MacBook Air, iMac, and Mac mini models from 2010 through the current M4 generation. This covers Intel-based models 2010–2020 (including the 2011–2013 discrete GPU faults) and Apple Silicon M1, M2, M3, and M4 models. For Intel boards we replace GPU chips, power management ICs, USB-C controllers, and memory. For Apple Silicon boards we service the surrounding components — power management, USB-C controllers, board traces, fuses — but the SoC itself (CPU+GPU+RAM integrated) is not chip-level replaceable on any Mac.',
+      'We repair all MacBook Pro, MacBook Air, iMac, and Mac mini models from 2010 through the current M4 generation. This covers Intel-based models 2010-2020 (including the 2011-2013 discrete GPU faults) and Apple Silicon M1, M2, M3, and M4 models. For Intel boards we replace GPU chips, power management ICs, USB-C controllers, and memory. For Apple Silicon boards we service the surrounding components, power management, USB-C controllers, board traces, fuses, but the SoC itself (CPU+GPU+RAM integrated) is not chip-level replaceable on any Mac.',
   },
   {
     question: 'Can you recover data from a dead MacBook logic board?',
     answer:
-      'Yes, in most cases. On Intel MacBooks the SSD is a separate module — we can read it on another machine even if your logic board is dead. On Apple Silicon Macs the SSD is soldered to the logic board, and data recovery depends on whether the storage chip itself survived the fault. If the storage chips are intact, we can often recover data even from a board we cannot fully repair. We discuss data recoverability as part of the initial assessment.',
+      'Yes, in most cases. On Intel MacBooks the SSD is a separate module, we can read it on another machine even if your logic board is dead. On Apple Silicon Macs the SSD is soldered to the logic board, and data recovery depends on whether the storage chip itself survived the fault. If the storage chips are intact, we can often recover data even from a board we cannot fully repair. We discuss data recoverability as part of the initial assessment.',
   },
   {
     question: 'Do you provide a warranty on logic board repairs?',
     answer:
-      'Yes. Every logic board repair carries a written 12-month warranty covering the specific component or fault we repaired, and our workmanship. If the same fault returns within 12 months, we repair it again at no labour cost. The warranty is provided in writing at collection. It covers parts and labour for the work we performed — it does not cover unrelated subsequent damage (e.g. a new liquid spill, or a drop).',
+      'Yes. Every logic board repair carries a written 12-month warranty covering the specific component or fault we repaired, and our workmanship. If the same fault returns within 12 months, we repair it again at no labour cost. The warranty is provided in writing at collection. It covers parts and labour for the work we performed, it does not cover unrelated subsequent damage (e.g. a new liquid spill, or a drop).',
   },
   {
     question: 'Can you fix a water-damaged MacBook logic board?',
     answer:
-      'Yes. Liquid damage is one of our highest-volume repair categories. The process is: full disassembly, ultrasonic cleaning of the bare board in 99.9% isopropyl alcohol to remove conductive residue, micro-inspection at 45× magnification to identify failed components, then targeted component replacement. The earlier the device comes in, the higher the success rate — corrosion is progressive. See our dedicated liquid damage page at zasupport.com/liquid-damage for the full repair process.',
+      'Yes. Liquid damage is one of our highest-volume repair categories. The process is: full disassembly, ultrasonic cleaning of the bare board in 99.9% isopropyl alcohol to remove conductive residue, micro-inspection at 45× magnification to identify failed components, then targeted component replacement. The earlier the device comes in, the higher the success rate, corrosion is progressive. See our dedicated liquid damage page at zasupport.com/liquid-damage for the full repair process.',
   },
   {
     question: "What's the most common MacBook logic board fault you see?",
     answer:
-      'Three faults dominate our workshop volume: (1) USB-C charging controller failure (CD3217B12) on MacBook Pro and MacBook Air 2016–2020 — the chip fails and stops charging on one or both sides. (2) Backlight driver IC (LP8550) failure on MacBook Pro 13" 2012–2017 — screen goes black but you can faintly see the desktop with a torch. (3) Power-management IC (TPS51980) failure on MacBook Pro 2013–2016 — no power, fan briefly spins, then nothing. All three are standard component-level repairs for us — usually under R3,500.',
+      'Three faults dominate our workshop volume: (1) USB-C charging controller failure (CD3217B12) on MacBook Pro and MacBook Air 2016-2020, the chip fails and stops charging on one or both sides. (2) Backlight driver IC (LP8550) failure on MacBook Pro 13" 2012-2017, screen goes black but you can faintly see the desktop with a torch. (3) Power-management IC (TPS51980) failure on MacBook Pro 2013-2016, no power, fan briefly spins, then nothing. All three are standard component-level repairs for us, usually under R3,500.',
   },
   {
     question: 'What is the difference between component-level repair and board replacement?',
     answer:
-      'Component-level repair fixes the specific failed component on your existing logic board — replacing a single chip, capacitor, resistor, or damaged trace under microscope. Board replacement swaps the entire logic board for a new or refurbished unit. Component-level repair is typically 60–80% cheaper, preserves your original board (and therefore your data, your Touch ID pairing, and your Apple Silicon SSD), and is finished in 24–72 hours instead of the week-plus that a board replacement requires. It is our strongly preferred approach and the one we use in the vast majority of cases.',
+      'Component-level repair fixes the specific failed component on your existing logic board, replacing a single chip, capacitor, resistor, or damaged trace under microscope. Board replacement swaps the entire logic board for a new or refurbished unit. Component-level repair is typically 60-80% cheaper, preserves your original board (and therefore your data, your Touch ID pairing, and your Apple Silicon SSD), and is finished in 24-72 hours instead of the week-plus that a board replacement requires. It is our strongly preferred approach and the one we use in the vast majority of cases.',
   },
   {
     question: 'My MacBook shows no signs of life. Is it worth bringing in?',
     answer:
-      'Yes. A completely dead MacBook is one of the most common faults we successfully repair. "No power" faults are very often caused by a single failed component on the power rail — a blown fuse, failed MOSFET, or damaged charging IC. These are component-level repairs that cost a fraction of a new machine — typically R2,500 to R4,500 versus R30,000+ for a replacement MacBook Pro. Book a R599 assessment and we will tell you exactly what failed and what it will cost to fix.',
+      'Yes. A completely dead MacBook is one of the most common faults we successfully repair. "No power" faults are very often caused by a single failed component on the power rail, a blown fuse, failed MOSFET, or damaged charging IC. These are component-level repairs that cost a fraction of a new machine, typically R2,500 to R4,500 versus R30,000+ for a replacement MacBook Pro. Book a R599 assessment and we will tell you exactly what failed and what it will cost to fix.',
   },
   {
     question: 'Can you repair M1, M2, M3, and M4 MacBook logic boards?',
     answer:
-      'Yes — with some differences from Intel models. Apple Silicon boards have the CPU, GPU, RAM, and Neural Engine integrated into a single SoC package, which cannot be replaced at chip level by anyone (including Apple). However, the surrounding components — power management ICs, USB-C controllers, storage chips, board traces, fuses — are fully serviceable through component-level repair. The most common Apple Silicon faults we see are USB-C controller failure, charging-circuit damage, and post-liquid corrosion — all of which are component-level repairs.',
+      'Yes, with some differences from Intel models. Apple Silicon boards have the CPU, GPU, RAM, and Neural Engine integrated into a single SoC package, which cannot be replaced at chip level by anyone (including Apple). However, the surrounding components, power management ICs, USB-C controllers, storage chips, board traces, fuses, are fully serviceable through component-level repair. The most common Apple Silicon faults we see are USB-C controller failure, charging-circuit damage, and post-liquid corrosion, all of which are component-level repairs.',
   },
   {
     question: 'Is my data safe during a logic board repair?',
     answer:
-      'Yes. Your storage stays in the device throughout the repair. We do not reformat, reinstall macOS, or touch your data unless you specifically ask us to. If a full board replacement is the only option and you have an Apple Silicon Mac, we will discuss the data situation with you up front — on Apple Silicon the SSD is soldered to the board, which complicates board replacement. In nearly all cases we can preserve your original board (and therefore your data) through component-level repair instead.',
+      'Yes. Your storage stays in the device throughout the repair. We do not reformat, reinstall macOS, or touch your data unless you specifically ask us to. If a full board replacement is the only option and you have an Apple Silicon Mac, we will discuss the data situation with you up front, on Apple Silicon the SSD is soldered to the board, which complicates board replacement. In nearly all cases we can preserve your original board (and therefore your data) through component-level repair instead.',
   },
 ];
 
 const subPages = [
-  { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', desc: '13", 14", 16" — Intel and Apple Silicon component-level repair' },
-  { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', desc: 'M1, M2, M3 — USB-C, charging, power-circuit repair' },
+  { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', desc: '13", 14", 16", Intel and Apple Silicon component-level repair' },
+  { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', desc: 'M1, M2, M3, USB-C, charging, power-circuit repair' },
   { title: 'iMac Logic Board', href: '/logic-board-repair/imac', desc: '21.5", 24", 27" desktop board component repair' },
   { title: 'Mac mini Logic Board', href: '/logic-board-repair/mac-mini', desc: 'Intel and M-series Mac mini board diagnostics' },
 ];
@@ -178,22 +178,22 @@ const suburbPages = [
 
 /* ── Pricing table ───────────────────────────────────────────────────────── */
 const pricingTable = [
-  { device: 'MacBook Air logic board (M1/M2/M3, Intel)', from: 'R2,500', turnaround: '24–72 hrs', warranty: '12 months' },
-  { device: 'MacBook Pro 13″ logic board', from: 'R2,800', turnaround: '24–72 hrs', warranty: '12 months' },
-  { device: 'MacBook Pro 14″ / 16″ logic board', from: 'R3,500', turnaround: '48–96 hrs', warranty: '12 months' },
-  { device: 'iMac logic board', from: 'R3,200', turnaround: '3–5 days', warranty: '12 months' },
-  { device: 'Mac mini logic board', from: 'R2,500', turnaround: '24–72 hrs', warranty: '12 months' },
-  { device: 'USB-C controller only (CD3217B12)', from: 'R2,200', turnaround: '24–48 hrs', warranty: '12 months' },
-  { device: 'Backlight driver IC only (LP8550)', from: 'R1,800', turnaround: '24–48 hrs', warranty: '12 months' },
+  { device: 'MacBook Air logic board (M1/M2/M3, Intel)', from: 'R2,500', turnaround: '24-72 hrs', warranty: '12 months' },
+  { device: 'MacBook Pro 13″ logic board', from: 'R2,800', turnaround: '24-72 hrs', warranty: '12 months' },
+  { device: 'MacBook Pro 14″ / 16″ logic board', from: 'R3,500', turnaround: '48-96 hrs', warranty: '12 months' },
+  { device: 'iMac logic board', from: 'R3,200', turnaround: '3-5 days', warranty: '12 months' },
+  { device: 'Mac mini logic board', from: 'R2,500', turnaround: '24-72 hrs', warranty: '12 months' },
+  { device: 'USB-C controller only (CD3217B12)', from: 'R2,200', turnaround: '24-48 hrs', warranty: '12 months' },
+  { device: 'Backlight driver IC only (LP8550)', from: 'R1,800', turnaround: '24-48 hrs', warranty: '12 months' },
 ];
 
 /* ── IC fault reference table ───────────────────────────────────────────── */
 const icFaults = [
-  { chip: 'AMD GPU (MXM)', models: 'MBP 2011–2013', symptom: 'Screen artifacts, no video, garbled display', repair: 'GPU reball or replacement', risk: 'High' },
-  { chip: 'CD3217B12', models: 'MBP / MBA 2016–2020', symptom: 'No charging, USB-C dead on one or both sides', repair: 'Controller chip replacement', risk: 'Medium' },
-  { chip: 'TPS51980', models: 'MBP 2013–2016', symptom: 'No power, fan spin then shutdown, 0V on PPBUS_G3H', repair: 'Power management IC replacement', risk: 'High' },
-  { chip: 'LP8550', models: 'MBP / MBA 2012–2017', symptom: 'No backlight, faint display visible with torch', repair: 'Backlight driver IC replacement', risk: 'Medium' },
-  { chip: 'Thunderbolt Controller', models: 'MBP 2011–2014', symptom: 'No Thunderbolt, kernel panic on attach, port dead', repair: 'Thunderbolt IC replacement', risk: 'Medium' },
+  { chip: 'AMD GPU (MXM)', models: 'MBP 2011-2013', symptom: 'Screen artifacts, no video, garbled display', repair: 'GPU reball or replacement', risk: 'High' },
+  { chip: 'CD3217B12', models: 'MBP / MBA 2016-2020', symptom: 'No charging, USB-C dead on one or both sides', repair: 'Controller chip replacement', risk: 'Medium' },
+  { chip: 'TPS51980', models: 'MBP 2013-2016', symptom: 'No power, fan spin then shutdown, 0V on PPBUS_G3H', repair: 'Power management IC replacement', risk: 'High' },
+  { chip: 'LP8550', models: 'MBP / MBA 2012-2017', symptom: 'No backlight, faint display visible with torch', repair: 'Backlight driver IC replacement', risk: 'Medium' },
+  { chip: 'Thunderbolt Controller', models: 'MBP 2011-2014', symptom: 'No Thunderbolt, kernel panic on attach, port dead', repair: 'Thunderbolt IC replacement', risk: 'Medium' },
   { chip: 'T2 / SMC support', models: 'MBP 2018+, MBA 2020+', symptom: 'Loop boot, DFU required, USB-C only powers with specific cable', repair: 'Adjacent component service, DFU restore', risk: 'High' },
 ];
 
@@ -258,7 +258,7 @@ const speakableSchema = {
   },
 };
 
-// HowTo schema removed 27/05/2026 per T4 Google-primary research — Google deprecated
+// HowTo schema removed 27/05/2026 per T4 Google-primary research, Google deprecated
 // HowTo rich results 14 Sep 2023; schema emission no longer adds SERP value.
 
 export default function LogicBoardRepairPage() {
@@ -292,11 +292,11 @@ export default function LogicBoardRepairPage() {
               </h1>
               <p className="text-lg sm:text-xl text-[#7A9E98] mb-4 speakable-summary">
                 Component-level MacBook logic board repair from <strong className="text-[#E8F4F1]">R2,500</strong>{' '}
-                at our Hyde Park workshop. We replace the specific failed chip under microscope —
+                at our Hyde Park workshop. We replace the specific failed chip under microscope, 
                 we do not swap the whole board. 12-month warranty. R599 assessment.
               </p>
               <p className="text-[#7A9E98] mb-4">
-                We have been repairing MacBook logic boards from our Hyde Park workshop since 2009 —
+                We have been repairing MacBook logic boards from our Hyde Park workshop since 2009, 
                 more than {SITE.yearsExperience} years and over 25,000 individual repair operations
                 across our specialist Apple workshop. Logic board work is what our workshop is
                 built around: Apple Silicon, Intel-era MacBook Pro, MacBook Air, iMac and Mac mini.
@@ -364,7 +364,7 @@ export default function LogicBoardRepairPage() {
           <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {[
               { icon: Shield, label: '12-Month Warranty' },
-              { icon: Clock, label: '24–72 hr Turnaround' },
+              { icon: Clock, label: '24-72 hr Turnaround' },
               { icon: Star, label: `${SITE.rating}★ (${SITE.reviewCount} Reviews)` },
               { icon: CheckCircle, label: 'Component-Level Repair' },
             ].map(({ icon: Icon, label }) => (
@@ -384,7 +384,7 @@ export default function LogicBoardRepairPage() {
             </h2>
             <p className="text-[#7A9E98] mb-10 max-w-3xl">
               Most Apple repair shops in Johannesburg quote a full logic board replacement for any
-              significant board fault — R15,000 to R30,000 at the Apple Store. We work at component
+              significant board fault, R15,000 to R30,000 at the Apple Store. We work at component
               level under microscope and replace the specific failed chip. The math is dramatic.
             </p>
             <div className="grid md:grid-cols-3 gap-6">
@@ -401,7 +401,7 @@ export default function LogicBoardRepairPage() {
                 },
                 {
                   icon: Clock,
-                  title: '60–80% cheaper, days not weeks',
+                  title: '60-80% cheaper, days not weeks',
                   body: 'Component-level repair is typically R2,500 to R5,000 versus R15,000 to R30,000 for a board replacement at Apple. Most repairs are finished in 24 to 72 hours instead of the week-plus that board replacement requires.',
                 },
               ].map(({ icon: Icon, title, body }) => (
@@ -440,7 +440,7 @@ export default function LogicBoardRepairPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Logic Board Repair Pricing</h2>
             <p className="text-[#7A9E98] mb-10 max-w-2xl">
               Component-level repair pricing. All prices include diagnosis, chip-level repair, full
-              functional testing, and a written 12-month warranty. Compare with the Apple Store —
+              functional testing, and a written 12-month warranty. Compare with the Apple Store, 
               R15,000 to R30,000 for a full board replacement.
             </p>
             <div className="overflow-x-auto">
@@ -466,7 +466,7 @@ export default function LogicBoardRepairPage() {
               </table>
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
-              Assessment fee from R599 — covers full board diagnostic under microscope and written
+              Assessment fee from R599, covers full board diagnostic under microscope and written
               fixed-price quote. Included in the repair cost if you proceed. All prices in ZAR including VAT.
             </p>
             <PricingRange page="/logic-board-repair" />
@@ -478,7 +478,7 @@ export default function LogicBoardRepairPage() {
         <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
-              IC Fault Reference — Chips We Replace at Component Level
+              IC Fault Reference, Chips We Replace at Component Level
             </h2>
             <p className="text-[#7A9E98] text-sm mb-10 max-w-2xl">
               Our technicians work at component level under stereo microscope. Below are the most common
@@ -570,15 +570,15 @@ export default function LogicBoardRepairPage() {
               {[
                 {
                   title: '17 Years In One Workshop',
-                  desc: `We have run the same Hyde Park workshop since 2009 — ${SITE.yearsExperience} years of Apple-only repair, including more than 25,000 individual repair operations across our specialist Apple workshop. Component-level logic board repair is what we do every day.`,
+                  desc: `We have run the same Hyde Park workshop since 2009, ${SITE.yearsExperience} years of Apple-only repair, including more than 25,000 individual repair operations across our specialist Apple workshop. Component-level logic board repair is what we do every day.`,
                 },
                 {
                   title: 'Component-Level Specialists',
-                  desc: 'Most repair shops in Johannesburg quote a full board replacement for any logic board fault. We work at component level under microscope, replacing the specific failed chip — saving you 60–80% versus board replacement and preserving your data and Touch ID pairing.',
+                  desc: 'Most repair shops in Johannesburg quote a full board replacement for any logic board fault. We work at component level under microscope, replacing the specific failed chip, saving you 60-80% versus board replacement and preserving your data and Touch ID pairing.',
                 },
                 {
-                  title: 'Workshop-Only — No Off-Site Shipping',
-                  desc: 'Your device stays at our Hyde Park workshop for the entire repair. We do not send boards off-site to a third-party microsolder shop. Every step — diagnosis, chip replacement, testing — happens in front of our own technicians in Johannesburg.',
+                  title: 'Workshop-Only: No Off-Site Shipping',
+                  desc: 'Your device stays at our Hyde Park workshop for the entire repair. We do not send boards off-site to a third-party microsolder shop. Every step, diagnosis, chip replacement, testing, happens in front of our own technicians in Johannesburg.',
                 },
                 {
                   title: 'Written 12-Month Warranty',
@@ -586,7 +586,7 @@ export default function LogicBoardRepairPage() {
                 },
                 {
                   title: 'Transparent Fixed-Price Quotes',
-                  desc: 'You receive a written, fixed-price quote after the R599 assessment — and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. The R599 is included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote after the R599 assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. The R599 is included in the repair cost if you proceed.',
                 },
                 {
                   title: 'Forbes Africa 30 Under 30 (2019)',
@@ -690,7 +690,7 @@ export default function LogicBoardRepairPage() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-2 text-center">What Our Customers Say</h2>
             <p className="text-[#7A9E98] text-center mb-8">
-              {SITE.rating}★ across {SITE.reviewCount} Google reviews — Johannesburg&apos;s most
+              {SITE.rating}★ across {SITE.reviewCount} Google reviews, Johannesburg&apos;s most
               reviewed independent Apple specialist.
             </p>
             <Suspense fallback={<div className="h-48 bg-[#0A1A18] rounded-xl animate-pulse" />}>
@@ -699,10 +699,10 @@ export default function LogicBoardRepairPage() {
           </div>
         </section>
 
-        {/* ── Orphan-link injection — per-model + per-suburb ─────────────── */}
+        {/* ── Orphan-link injection, per-model + per-suburb ─────────────── */}
         <OrphanLinks
           sectionTitle="Logic board repair by model and area"
-          intro="Logic board work is what our Hyde Park workshop is built around — Apple Silicon, Intel-era MacBook Pro and MacBook Air, with collection across Gauteng. Pick the model you have or the suburb closest to you to read what the diagnostic, component-level repair and warranty work looks like for that machine or that area."
+          intro="Logic board work is what our Hyde Park workshop is built around, Apple Silicon, Intel-era MacBook Pro and MacBook Air, with collection across Gauteng. Pick the model you have or the suburb closest to you to read what the diagnostic, component-level repair and warranty work looks like for that machine or that area."
           groups={[
             { heading: 'By MacBook model', links: orphanLbrModelLinks },
             { heading: 'By Gauteng suburb', links: orphanLbrSuburbLinks },
@@ -712,7 +712,7 @@ export default function LogicBoardRepairPage() {
         {/* ── FAQ Section ────────────────────────────────────────────────── */}
         <section className="py-16 sm:py-20 px-4">
           <div className="max-w-4xl mx-auto">
-            <FAQAccordion items={faqs} title="Logic Board Repair — Frequently Asked Questions" />
+            <FAQAccordion items={faqs} title="Logic Board Repair, Frequently Asked Questions" />
           </div>
         </section>
 

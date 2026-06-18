@@ -110,7 +110,7 @@ const faqs = [
   {
     question: 'Is the MacBook Pro 14-inch battery different from the 16-inch battery?',
     answer:
-      'Yes, substantially. The 14-inch uses a 69.6 Wh cell with six adhesive sections, while the 16-inch uses a 99.6 Wh cell with eight adhesive sections across a much larger surface area. The 16-inch battery is physically wider and deeper, occupying more of the internal chassis. Replacement pricing and turnaround differ accordingly — the 16-inch is more complex and costs more.',
+      'Yes, substantially. The 14-inch uses a 69.6 Wh cell with six adhesive sections, while the 16-inch uses a 99.6 Wh cell with eight adhesive sections across a much larger surface area. The 16-inch battery is physically wider and deeper, occupying more of the internal chassis. Replacement pricing and turnaround differ accordingly, the 16-inch is more complex and costs more.',
   },
   {
     question: 'Does load shedding affect the MacBook Pro 14-inch battery life?',
@@ -118,9 +118,9 @@ const faqs = [
       'Significantly. Every power interruption during load shedding forces the MacBook Pro 14-inch to switch between AC power and its internal battery. Each switch registers as a partial charge cycle. On a Stage 4 schedule in Johannesburg, that can mean 8 to 12 additional partial cycles daily. Over 12 to 18 months, this can reduce effective battery lifespan by 30 to 40 percent. A quality UPS eliminates this wear entirely and is the single best investment for battery longevity.',
   },
   {
-    question: 'My MacBook Pro 14-inch bottom case is bulging — is the battery swollen?',
+    question: 'My MacBook Pro 14-inch bottom case is bulging, is the battery swollen?',
     answer:
-      'Almost certainly. The MacBook Pro 14-inch battery sits directly against the aluminium bottom case. When lithium-polymer cells off-gas and expand, the bottom case is the first surface to show deformation — a visible outward bow, typically in the centre. This is urgent: a swollen battery under pressure against the aluminium enclosure risks puncture, which releases flammable electrolyte. Stop using the machine, avoid placing it in a bag, and bring it to us immediately.',
+      'Almost certainly. The MacBook Pro 14-inch battery sits directly against the aluminium bottom case. When lithium-polymer cells off-gas and expand, the bottom case is the first surface to show deformation, a visible outward bow, typically in the centre. This is urgent: a swollen battery under pressure against the aluminium enclosure risks puncture, which releases flammable electrolyte. Stop using the machine, avoid placing it in a bag, and bring it to us immediately.',
   },
   {
     question: 'Can I replace the MacBook Pro 14-inch battery myself?',
@@ -130,7 +130,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Pro 14-inch battery replacement?',
     answer:
-      'All MacBook Pro 14-inch battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity dropping below 80% of new capacity, unexpected shutdowns, or any electrical fault — we replace it again at from R599. Our From R599 assessment policy applies: if we determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
+      'All MacBook Pro 14-inch battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months, capacity dropping below 80% of new capacity, unexpected shutdowns, or any electrical fault, we replace it again at from R599. Our From R599 assessment policy applies: if we determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
   },
   {
     question: 'How do I check my MacBook Pro 14-inch battery health?',
@@ -140,7 +140,7 @@ const faqs = [
   {
     question: 'Do you offer collection for MacBook Pro 14-inch battery replacement?',
     answer:
-      'Yes. We offer collection and return within 25 kilometres of our Hyde Park workshop — covering Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. For urgent swollen battery cases, we prioritise same-day collection. Contact us on WhatsApp or call 064 529 5863 to arrange. Pretoria and Centurion collection is available by arrangement.',
+      'Yes. We offer collection and return within 25 kilometres of our Hyde Park workshop, covering Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. For urgent swollen battery cases, we prioritise same-day collection. Contact us on WhatsApp or call 064 529 5863 to arrange. Pretoria and Centurion collection is available by arrangement.',
   },
 ];
 
@@ -168,7 +168,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Pro 14-inch packs a 69.6 Wh cell secured by six adhesive sections across the full width of the chassis. When that battery swells or degrades, you need a technician who has done this specific removal hundreds of times. From R2,499 at our Hyde Park workshop — same-day turnaround, 12-month warranty, From R599 assessment.
+              The MacBook Pro 14-inch packs a 69.6 Wh cell secured by six adhesive sections across the full width of the chassis. When that battery swells or degrades, you need a technician who has done this specific removal hundreds of times. From R2,499 at our Hyde Park workshop, same-day turnaround, 12-month warranty, From R599 assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -227,25 +227,25 @@ export default function BatteryReplacementMacBookPro14InchPage() {
         </div>
       </section>
 
-      {/* Technical Detail — 14-Inch Specific */}
+      {/* Technical Detail, 14-Inch Specific */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Why the MacBook Pro 14-Inch Battery Is Harder to Replace</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Pro 14-inch, introduced in October 2021 alongside the M1 Pro and M1 Max chips, marked a fundamental change in Apple&apos;s internal battery architecture. The 69.6 Wh lithium-polymer cell is not a single pouch — it is a multi-cell array bonded to the aluminium top case with six separate adhesive pull-tab sections. Each section must be released independently using controlled heat no higher than 50 degrees Celsius and a slow-release adhesive solvent applied precisely at the cell seams. One wrong angle and you puncture a cell.
+              The MacBook Pro 14-inch, introduced in October 2021 alongside the M1 Pro and M1 Max chips, marked a fundamental change in Apple&apos;s internal battery architecture. The 69.6 Wh lithium-polymer cell is not a single pouch, it is a multi-cell array bonded to the aluminium top case with six separate adhesive pull-tab sections. Each section must be released independently using controlled heat no higher than 50 degrees Celsius and a slow-release adhesive solvent applied precisely at the cell seams. One wrong angle and you puncture a cell.
             </p>
             <p>
-              In our Hyde Park workshop, we have replaced well over 800 MacBook Pro 14-inch batteries since the form factor launched. The most common failure pattern we observe is premature cycle count exhaustion driven by Johannesburg&apos;s load shedding schedule. A MacBook Pro 14-inch used without a UPS during Stage 4 load shedding accumulates 8 to 12 additional partial charge cycles per day. Over 14 months, that adds roughly 2,500 extra partial cycles — enough to push a 1,000-cycle rated battery well past its design limit. We see 14-inch machines arriving with &quot;Service Recommended&quot; warnings at just 18 to 24 months of age, when they should comfortably last three to four years under normal conditions.
+              In our Hyde Park workshop, we have replaced well over 800 MacBook Pro 14-inch batteries since the form factor launched. The most common failure pattern we observe is premature cycle count exhaustion driven by Johannesburg&apos;s load shedding schedule. A MacBook Pro 14-inch used without a UPS during Stage 4 load shedding accumulates 8 to 12 additional partial charge cycles per day. Over 14 months, that adds roughly 2,500 extra partial cycles, enough to push a 1,000-cycle rated battery well past its design limit. We see 14-inch machines arriving with &quot;Service Recommended&quot; warnings at just 18 to 24 months of age, when they should comfortably last three to four years under normal conditions.
             </p>
             <p>
-              The adhesive removal process on the 14-inch is substantially more involved than on the older 13-inch MacBook Pro. The 13-inch uses four adhesive sections; the 14-inch uses six, spread across a wider battery footprint that sits directly above the logic board. There is less than 2 millimetres of clearance between the bottom of the battery cells and the top of the M1 Pro or M2 Pro system-on-chip. We use non-conductive nylon spudgers exclusively — metal tools are banned from our battery removal process. The solvent we apply is an isopropyl-alcohol-based solution at 90 percent concentration, which dissolves the adhesive without damaging the anodised aluminium or leaving residue on the logic board.
+              The adhesive removal process on the 14-inch is substantially more involved than on the older 13-inch MacBook Pro. The 13-inch uses four adhesive sections; the 14-inch uses six, spread across a wider battery footprint that sits directly above the logic board. There is less than 2 millimetres of clearance between the bottom of the battery cells and the top of the M1 Pro or M2 Pro system-on-chip. We use non-conductive nylon spudgers exclusively, metal tools are banned from our battery removal process. The solvent we apply is an isopropyl-alcohol-based solution at 90 percent concentration, which dissolves the adhesive without damaging the anodised aluminium or leaving residue on the logic board.
             </p>
             <p>
-              After the replacement cell is installed, we run a full calibration cycle: charge to 100 percent, discharge to 5 percent under a controlled synthetic load, then charge back to 100 percent. This allows the battery management unit to establish an accurate voltage-to-capacity mapping for the new cell. Without this calibration, macOS may report inaccurate battery percentages for the first few weeks. We also verify the cell registers correctly in System Information — 69.6 Wh design capacity, cycle count of 0 or 1, and &quot;Normal&quot; condition status.
+              After the replacement cell is installed, we run a full calibration cycle: charge to 100 percent, discharge to 5 percent under a controlled synthetic load, then charge back to 100 percent. This allows the battery management unit to establish an accurate voltage-to-capacity mapping for the new cell. Without this calibration, macOS may report inaccurate battery percentages for the first few weeks. We also verify the cell registers correctly in System Information, 69.6 Wh design capacity, cycle count of 0 or 1, and &quot;Normal&quot; condition status.
             </p>
             <p>
-              One aspect that catches many DIY repairers off guard is the MagSafe 3 charging connector on the 14-inch. The MagSafe board is connected via a flex cable that routes alongside the battery. Careless battery removal can kink or tear this cable, resulting in a MagSafe port that no longer charges — a secondary repair that costs significantly more than the battery itself. We disconnect and isolate the MagSafe flex before beginning any adhesive work. Every 14-inch battery replacement at ZA Support includes a post-installation MagSafe charging verification to confirm full functionality.
+              One aspect that catches many DIY repairers off guard is the MagSafe 3 charging connector on the 14-inch. The MagSafe board is connected via a flex cable that routes alongside the battery. Careless battery removal can kink or tear this cable, resulting in a MagSafe port that no longer charges, a secondary repair that costs significantly more than the battery itself. We disconnect and isolate the MagSafe flex before beginning any adhesive work. Every 14-inch battery replacement at ZA Support includes a post-installation MagSafe charging verification to confirm full functionality.
             </p>
           </div>
           <div className="mt-6">
@@ -266,7 +266,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All MacBook Pro 14-inch models use essentially the same 69.6 Wh cell format. Pricing is consistent across M1 Pro, M2 Pro, M3 Pro, and M4 Pro variants. The Apple Store charges R5,000 to R8,000 — and frequently replaces the entire top case assembly rather than the battery alone.
+            All MacBook Pro 14-inch models use essentially the same 69.6 Wh cell format. Pricing is consistent across M1 Pro, M2 Pro, M3 Pro, and M4 Pro variants. The Apple Store charges R5,000 to R8,000, and frequently replaces the entire top case assembly rather than the battery alone.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -296,7 +296,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost if you proceed. From R599 assessment.
+            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599, applied toward repair cost if you proceed. From R599 assessment.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-14-inch" />
           <PricingNote variant="inline" />
@@ -357,7 +357,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly replacement — R5,000 to R8,000+</li>
+                <li>Top case assembly replacement, R5,000 to R8,000+</li>
                 <li>Turnaround 5 to 10 business days via Apple depot</li>
                 <li>Keyboard and trackpad replaced unnecessarily</li>
                 <li>No detailed diagnostic shared with client</li>
@@ -367,7 +367,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Battery cell only — keyboard and trackpad untouched</li>
+                <li>Battery cell only, keyboard and trackpad untouched</li>
                 <li>From R2,499 including calibration and warranty</li>
                 <li>Same-day 4 to 6 hour turnaround</li>
                 <li>coconutBattery diagnostic shared with you</li>
@@ -381,9 +381,9 @@ export default function BatteryReplacementMacBookPro14InchPage() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area — MacBook Pro 14-Inch Battery Replacement</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area, MacBook Pro 14-Inch Battery Replacement</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            Our Hyde Park workshop is centrally located in northern Johannesburg. We offer collection and return for MacBook Pro 14-inch battery replacements from all suburbs within 25 km — including same-day collection for urgent swollen battery cases.
+            Our Hyde Park workshop is centrally located in northern Johannesburg. We offer collection and return for MacBook Pro 14-inch battery replacements from all suburbs within 25 km, including same-day collection for urgent swollen battery cases.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-6">
             {[
@@ -415,7 +415,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro 14-Inch Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro 14-Inch Battery Replacement, Common Questions" />
         </div>
       </section>
 
@@ -429,7 +429,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
               { label: 'MacBook Pro Battery', href: '/battery-replacement/macbook-pro' },
               { label: 'MacBook Pro 16-Inch Battery', href: '/battery-replacement/macbook-pro-16-inch' },
               { label: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro' },
-              { label: 'Logic Board — Pro 14"', href: '/logic-board-repair/macbook-pro-14-inch' },
+              { label: 'Logic Board, Pro 14"', href: '/logic-board-repair/macbook-pro-14-inch' },
               { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
               { label: 'MacBook Air M1 Battery', href: '/battery-replacement/macbook-air-m1' },
               { label: 'Contact Us', href: '/contact' },
@@ -448,7 +448,7 @@ export default function BatteryReplacementMacBookPro14InchPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 14-Inch Battery Problem?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and a description of the issue — swollen bottom case, high cycle count, unexpected shutdowns, or poor battery life — and we will give you an honest price before you bring the machine in. From R599 assessment. From R599 assessment.
+              WhatsApp us your model year and a description of the issue, swollen bottom case, high cycle count, unexpected shutdowns, or poor battery life, and we will give you an honest price before you bring the machine in. From R599 assessment. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

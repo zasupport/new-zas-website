@@ -67,11 +67,11 @@ export const metadata: Metadata = {
 };
 
 const pricingTable = [
-  { device: 'MacBook Air', from: 'R2,499', note: 'All models incl. M1–M3', turnaround: '24–48 hrs' },
-  { device: 'MacBook Pro 13″', from: 'R3,499', note: 'Retina 2012–2024, M1–M4', turnaround: '24–72 hrs' },
-  { device: 'MacBook Pro 14″ / 16″', from: 'R4,999', note: 'M1 Pro/Max – M4 Pro/Max, Liquid Retina XDR', turnaround: '48–72 hrs' },
-  { device: 'iMac', from: 'R3,999', note: '21.5″, 24″ and 27″ models', turnaround: '3–5 days' },
-  { device: 'iPhone', from: 'R1,299', note: 'iPhone 8 – iPhone 16 Pro Max', turnaround: 'Same day' },
+  { device: 'MacBook Air', from: 'R2,499', note: 'All models incl. M1-M3', turnaround: '24-48 hrs' },
+  { device: 'MacBook Pro 13″', from: 'R3,499', note: 'Retina 2012-2024, M1-M4', turnaround: '24-72 hrs' },
+  { device: 'MacBook Pro 14″ / 16″', from: 'R4,999', note: 'M1 Pro/Max - M4 Pro/Max, Liquid Retina XDR', turnaround: '48-72 hrs' },
+  { device: 'iMac', from: 'R3,999', note: '21.5″, 24″ and 27″ models', turnaround: '3-5 days' },
+  { device: 'iPhone', from: 'R1,299', note: 'iPhone 8 - iPhone 16 Pro Max', turnaround: 'Same day' },
 ];
 
 const damageTypes = [
@@ -111,12 +111,12 @@ const processSteps = [
 ];
 
 const compatibleDevices = [
-  { category: 'MacBook Air', models: 'M1 (2020), M2 (2022), M3 (2024), Intel 2017–2020, 11″ and 13″ 2012–2017' },
-  { category: 'MacBook Pro 13″', models: 'M1 (2020), M2 (2022–2023), Retina 2012–2020, Touch Bar 2016–2020' },
+  { category: 'MacBook Air', models: 'M1 (2020), M2 (2022), M3 (2024), Intel 2017-2020, 11″ and 13″ 2012-2017' },
+  { category: 'MacBook Pro 13″', models: 'M1 (2020), M2 (2022-2023), Retina 2012-2020, Touch Bar 2016-2020' },
   { category: 'MacBook Pro 14″', models: 'M1 Pro/Max (2021), M2 Pro/Max (2023), M3 Pro/Max (2023), M4 Pro/Max (2024)' },
   { category: 'MacBook Pro 16″', models: 'M1 Pro/Max (2021), M2 Pro/Max (2023), M3 Pro/Max (2023), M4 Pro/Max (2024), Intel 2019' },
-  { category: 'iMac', models: '24″ M1/M3/M4, 21.5″ 2012–2019, 27″ Retina 5K 2014–2020, iMac Pro' },
-  { category: 'iPhone', models: 'iPhone 8 through iPhone 16 Pro Max — LCD and OLED panels' },
+  { category: 'iMac', models: '24″ M1/M3/M4, 21.5″ 2012-2019, 27″ Retina 5K 2014-2020, iMac Pro' },
+  { category: 'iPhone', models: 'iPhone 8 through iPhone 16 Pro Max, LCD and OLED panels' },
 ];
 
 const faqs = [
@@ -130,7 +130,7 @@ const faqs = [
   },
   {
     question: 'Do you use genuine Apple screens?',
-    answer: 'We use OEM-grade display assemblies that match Apple\'s specifications for colour accuracy, brightness, and resolution. For iPhone repairs, we retain True Tone calibration so your display continues to adjust colour temperature automatically. We do not use cheap aftermarket panels — every screen we fit is tested against Apple\'s display standards before installation.',
+    answer: 'We use OEM-grade display assemblies that match Apple\'s specifications for colour accuracy, brightness, and resolution. For iPhone repairs, we retain True Tone calibration so your display continues to adjust colour temperature automatically. We do not use cheap aftermarket panels, every screen we fit is tested against Apple\'s display standards before installation.',
   },
   {
     question: 'Will True Tone still work after a screen replacement?',
@@ -142,11 +142,11 @@ const faqs = [
   },
   {
     question: 'How does your pricing compare to the Apple Store?',
-    answer: 'Apple\'s official screen replacement pricing in South Africa ranges from approximately R6,000 to R15,000 depending on the model. Our pricing starts from R2,499 for a MacBook Air, saving you 50–70% compared to Apple\'s pricing. We use equivalent-grade panels with the same resolution, brightness, and colour accuracy, and we include an up-to-3 year warranty compared to Apple\'s 90-day repair warranty.',
+    answer: 'Apple\'s official screen replacement pricing in South Africa ranges from approximately R6,000 to R15,000 depending on the model. Our pricing starts from R2,499 for a MacBook Air, saving you 50-70% compared to Apple\'s pricing. We use equivalent-grade panels with the same resolution, brightness, and colour accuracy, and we include an up-to-3 year warranty compared to Apple\'s 90-day repair warranty.',
   },
   {
     question: 'Can you repair a MacBook screen with lines running through it?',
-    answer: 'Yes. Horizontal or vertical lines on a MacBook display are one of the most common repairs we handle. The cause is usually a failing LCD panel, a damaged display flex cable at the hinge point, or in some cases a GPU fault on older Intel models. We diagnose the exact cause during assessment and replace only what is needed — sometimes a flex cable repair is sufficient, avoiding the cost of a full panel replacement.',
+    answer: 'Yes. Horizontal or vertical lines on a MacBook display are one of the most common repairs we handle. The cause is usually a failing LCD panel, a damaged display flex cable at the hinge point, or in some cases a GPU fault on older Intel models. We diagnose the exact cause during assessment and replace only what is needed, sometimes a flex cable repair is sufficient, avoiding the cost of a full panel replacement.',
   },
   {
     question: 'Do you repair cracked iPhone screens?',
@@ -154,11 +154,11 @@ const faqs = [
   },
   {
     question: 'Is it worth repairing an older MacBook screen?',
-    answer: 'It depends on the model. For MacBooks from 2017 onwards, screen repair is almost always worthwhile — the machines have years of useful life remaining and repair costs are a fraction of replacement. For pre-2015 models, we will give you an honest assessment of whether the repair makes economic sense relative to the machine\'s current value. We never push unnecessary repairs.',
+    answer: 'It depends on the model. For MacBooks from 2017 onwards, screen repair is almost always worthwhile, the machines have years of useful life remaining and repair costs are a fraction of replacement. For pre-2015 models, we will give you an honest assessment of whether the repair makes economic sense relative to the machine\'s current value. We never push unnecessary repairs.',
   },
   {
     question: 'What warranty do you offer on screen repairs?',
-    answer: 'Every screen repair carried out by ZA Support includes an up-to-3 year warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period — dead pixels, backlight failure, colour shift — we repair or replace it at from R599. The warranty is provided in writing and covers parts and labour.',
+    answer: 'Every screen repair carried out by ZA Support includes an up-to-3 year warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period, dead pixels, backlight failure, colour shift, we repair or replace it at from R599. The warranty is provided in writing and covers parts and labour.',
   },
 ];
 
@@ -285,7 +285,7 @@ export default function ScreenRepairPage() {
               <p className="text-lg sm:text-xl text-[#7A9E98] leading-relaxed mb-8 max-w-2xl">
                 Cracked screen, flickering display, or dead pixels? We repair MacBook, iMac, and iPhone screens from our
                 Hyde Park workshop. OEM-grade panels, True Tone calibration retained, and an up-to-3 year warranty on
-                every repair. From <strong className="text-[#E8F4F1]">R2,499</strong> — that is 50–70% less than the Apple Store.
+                every repair. From <strong className="text-[#E8F4F1]">R2,499</strong>, that is 50-70% less than the Apple Store.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -334,12 +334,12 @@ export default function ScreenRepairPage() {
             <p>
               We have been repairing Apple screens from our Hyde Park workshop for over {SITE.yearsExperience} years.
               In that time, we have handled thousands of cracked MacBook displays, shattered iPhone screens, and
-              everything in between — from hairline cracks that slowly spread to completely smashed Liquid Retina XDR
+              everything in between, from hairline cracks that slowly spread to completely smashed Liquid Retina XDR
               panels on the latest MacBook Pro 16-inch models.
             </p>
             <p>
               What sets our screen repair service apart is precision. Every MacBook display we fit is a complete
-              assembly — the LCD or OLED panel, backlight layer, glass cover, and aluminium housing — not a loose panel
+              assembly, the LCD or OLED panel, backlight layer, glass cover, and aluminium housing, not a loose panel
               glued into your existing lid. This matters because a properly seated display assembly eliminates backlight
               bleed, ensures uniform brightness across the panel, and maintains the tight tolerances Apple designs for.
             </p>
@@ -353,7 +353,7 @@ export default function ScreenRepairPage() {
               Our pricing is transparent. A MacBook Air screen replacement starts from R2,499 and a MacBook Pro 13-inch
               from R3,499. Compare that to Apple&rsquo;s official pricing of R6,000 to R15,000 depending on the model.
               We use equivalent-grade panels with the same resolution, P3 wide colour gamut, and brightness specifications
-              — the difference is you save 50–70% and get a longer warranty.
+, the difference is you save 50-70% and get a longer warranty.
             </p>
             <p>
               Every screen repair includes a full quality test: brightness uniformity, dead pixel inspection, colour
@@ -399,7 +399,7 @@ export default function ScreenRepairPage() {
 
             <p className="text-xs text-[#7A9E98] mt-6 text-center">
               All prices in ZAR and include parts, labour, and up-to-3 year warranty. Exact price depends on model year and panel type.
-              Apple Store comparison: R6,000–R15,000 for the same repairs.
+              Apple Store comparison: R6,000-R15,000 for the same repairs.
             </p>
             <PricingRange page="/screen-repair" />
             <PricingNote />
@@ -413,7 +413,7 @@ export default function ScreenRepairPage() {
               Types of Screen Damage We Repair
             </h2>
             <p className="text-center text-[#7A9E98] mb-12 max-w-2xl mx-auto">
-              From hairline cracks to complete backlight failure — we have seen and fixed them all in our Hyde Park workshop.
+              From hairline cracks to complete backlight failure, we have seen and fixed them all in our Hyde Park workshop.
             </p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -535,7 +535,7 @@ export default function ScreenRepairPage() {
               <div className="bg-[#111C1A] border border-[#27504D] rounded-xl p-6">
                 <h3 className="text-[#0FEA7A] font-bold text-lg mb-3">LCD / Retina (LED-backlit IPS)</h3>
                 <p className="text-[#7A9E98] text-sm leading-relaxed mb-3">
-                  Used in most MacBook Air models, MacBook Pro 13-inch (2012–2023), iMac 21.5-inch and 27-inch, and
+                  Used in most MacBook Air models, MacBook Pro 13-inch (2012-2023), iMac 21.5-inch and 27-inch, and
                   iPhones up to iPhone 11 (excluding iPhone X/XS). The display uses a backlight behind the LCD panel.
                 </p>
                 <p className="text-[#7A9E98] text-sm leading-relaxed">
@@ -547,7 +547,7 @@ export default function ScreenRepairPage() {
                 <h3 className="text-[#0FEA7A] font-bold text-lg mb-3">OLED / Liquid Retina XDR</h3>
                 <p className="text-[#7A9E98] text-sm leading-relaxed mb-3">
                   Used in MacBook Pro 14-inch and 16-inch (2021 onwards), iPhone X and later (excluding SE models).
-                  Each pixel produces its own light — no backlight layer. Deeper blacks, higher contrast, thinner panels.
+                  Each pixel produces its own light, no backlight layer. Deeper blacks, higher contrast, thinner panels.
                 </p>
                 <p className="text-[#7A9E98] text-sm leading-relaxed">
                   <strong className="text-[#E8F4F1]">Repair implication:</strong> More expensive to replace due to panel cost, but
@@ -593,7 +593,7 @@ export default function ScreenRepairPage() {
                 { label: 'Logic Board Repair', href: '/logic-board-repair', desc: 'Component-level board repair from R599 assessment' },
                 { label: 'Liquid Damage Repair', href: '/liquid-damage', desc: 'Ultrasonic cleaning and board-level restoration' },
                 { label: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook and iPhone battery replacement' },
-                { label: 'MacBook Repair', href: '/macbook-repair', desc: 'All MacBook faults — power, display, keyboard' },
+                { label: 'MacBook Repair', href: '/macbook-repair', desc: 'All MacBook faults, power, display, keyboard' },
               ].map((item) => (
                 <Link
                   key={item.href}
@@ -619,7 +619,7 @@ export default function ScreenRepairPage() {
           </div>
         </section>
 
-        {/* ─── Orphan-link injection — per-model + per-suburb ────── */}
+        {/* ─── Orphan-link injection, per-model + per-suburb ────── */}
         <OrphanLinks
           sectionTitle="Screen repair across Gauteng and across devices"
           intro="MacBook displays, iPhone glass, iMac panels and iPad screens all come through our Hyde Park workshop. Choose the model you have or the suburb closest to you to read what the screen repair, glass replacement and panel replacement work looks like for that device or that area."
@@ -658,7 +658,7 @@ export default function ScreenRepairPage() {
                   MacBook logic board repair
                 </h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Component-level board repair for no-power, no-boot, GPU and PMIC faults — Apple Store and Mac Shack quotes typically R15,000+, our route is from R599 assessment.
+                  Component-level board repair for no-power, no-boot, GPU and PMIC faults, Apple Store and Mac Shack quotes typically R15,000+, our route is from R599 assessment.
                 </p>
               </Link>
               <Link
@@ -669,7 +669,7 @@ export default function ScreenRepairPage() {
                   MacBook repair hub
                 </h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Every repair line we offer for MacBook Pro, MacBook Air, iMac and Mac mini — pick the model and the symptom to read the service that fits your machine.
+                  Every repair line we offer for MacBook Pro, MacBook Air, iMac and Mac mini, pick the model and the symptom to read the service that fits your machine.
                 </p>
               </Link>
             </div>
@@ -679,7 +679,7 @@ export default function ScreenRepairPage() {
         {/* ─── FAQ ACCORDION ─────────────────────────────────────── */}
         <section className="py-16">
           <div className="max-w-4xl mx-auto px-4">
-            <FAQAccordion items={faqs} title="Screen Repair — Frequently Asked Questions" />
+            <FAQAccordion items={faqs} title="Screen Repair, Frequently Asked Questions" />
           </div>
         </section>
 
@@ -690,7 +690,7 @@ export default function ScreenRepairPage() {
               Cracked Screen? Get a Quote in Minutes
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
-              WhatsApp us a photo of the damage and we will reply with a fixed-price quote — usually within 30 minutes
+              WhatsApp us a photo of the damage and we will reply with a fixed-price quote, usually within 30 minutes
               during business hours. Assessment from R599. From R599 assessment.
             </p>
 

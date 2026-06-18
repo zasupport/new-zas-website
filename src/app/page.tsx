@@ -23,7 +23,7 @@ const services = [
   {
     icon: Monitor,
     title: 'MacBook Repair',
-    description: 'MacBook Air and Pro repair — screen, battery, keyboard, board-level faults. All M1/M2/M3/M4 and Intel models.',
+    description: 'MacBook Air and Pro repair, screen, battery, keyboard, board-level faults. All M1/M2/M3/M4 and Intel models.',
     href: '/macbook-repair',
     accent: 'text-[#0FEA7A]',
     whatsapp: buildWhatsAppUrl('HOME-MBR', 'macbook-repair'),
@@ -135,7 +135,7 @@ const homepageFaqs = [
   {
     question: 'Where is ZA Support located in Johannesburg?',
     answer:
-      'ZA Support is located at 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30. Closed weekends and public holidays. Hyde Park is conveniently accessible from Sandton, Rosebank, Illovo, Bryanston, and Fourways.',
+      'ZA Support is located at 1 Hyde Lane, Second Floor, Office E2004, Hyde Park, Johannesburg, 2196. We are open Monday to Thursday 08:00-17:00 and Friday 08:00-16:30. Closed weekends and public holidays. Hyde Park is conveniently accessible from Sandton, Rosebank, Illovo, Bryanston, and Fourways.',
   },
   {
     question: 'What Apple devices do you repair?',
@@ -160,7 +160,7 @@ const homepageFaqs = [
   {
     question: 'How long does Mac repair take?',
     answer:
-      'Battery replacements, SSD upgrades, and RAM upgrades are often same-day. Screen replacements typically take 1–3 days. Logic board and liquid damage repairs take 3–7 business days depending on the fault and parts availability. We give you an estimated completion time when your device is booked in.',
+      'Battery replacements, SSD upgrades, and RAM upgrades are often same-day. Screen replacements typically take 1-3 days. Logic board and liquid damage repairs take 3-7 business days depending on the fault and parts availability. We give you an estimated completion time when your device is booked in.',
   },
   {
     question: 'Do you repair Apple Silicon (M1, M2, M3, M4) MacBooks?',
@@ -247,7 +247,7 @@ export default function HomePage() {
             </div>
 
             <p className="mt-4 text-[#7A9E98] text-sm">
-              Mon–Thu: 08:00–17:00 · Fri: 08:00–16:30 · Closed Sat & Sun · Hyde Park, Johannesburg
+              Mon-Thu: 08:00-17:00 · Fri: 08:00-16:30 · Closed Sat & Sun · Hyde Park, Johannesburg
             </p>
           </div>
         </div>
@@ -294,7 +294,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Google Reviews — near top for social proof */}
+      {/* Google Reviews, near top for social proof */}
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -455,7 +455,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="mt-6 text-[#7A9E98] text-sm">
-              1 Hyde Lane, Hyde Park, Johannesburg · Mon–Thu 08:00–17:00 · Fri 08:00–16:30 · Closed Sat & Sun
+              1 Hyde Lane, Hyde Park, Johannesburg · Mon-Thu 08:00-17:00 · Fri 08:00-16:30 · Closed Sat & Sun
             </p>
           </div>
         </div>

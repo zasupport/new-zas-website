@@ -14,38 +14,38 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life. We trace the power rail from the charging port through to the SoC power domain. The most common cause we see from Greenside clients is USB-C controller or power management IC damage from load shedding surges — South Africa\'s grid instability accounts for roughly 35% of the no-power boards that arrive at our Hyde Park workshop.' },
-  { title: 'No Display / Black Screen', desc: 'The machine boots — you can hear the startup chime or feel the trackpad click — but the screen stays black. In our experience this is usually a backlight fuse, display driver IC, or on older Intel models a GPU fault. We diagnose the exact failed component before quoting.' },
-  { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes progressive corrosion on the logic board. We have seen boards from Greenside where a small spill two weeks earlier quietly corroded a power rail. Ultrasonic cleaning followed by targeted component replacement at board level. Time-critical — the sooner the board reaches us, the better the outcome.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life. We trace the power rail from the charging port through to the SoC power domain. The most common cause we see from Greenside clients is USB-C controller or power management IC damage from load shedding surges, South Africa\'s grid instability accounts for roughly 35% of the no-power boards that arrive at our Hyde Park workshop.' },
+  { title: 'No Display / Black Screen', desc: 'The machine boots, you can hear the startup chime or feel the trackpad click, but the screen stays black. In our experience this is usually a backlight fuse, display driver IC, or on older Intel models a GPU fault. We diagnose the exact failed component before quoting.' },
+  { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes progressive corrosion on the logic board. We have seen boards from Greenside where a small spill two weeks earlier quietly corroded a power rail. Ultrasonic cleaning followed by targeted component replacement at board level. Time-critical, the sooner the board reaches us, the better the outcome.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data transfer, or no external display output on one or both USB-C ports. The CD3217 or similar controller IC is a discrete, replaceable component. We see this fault frequently after third-party charger use or load shedding events.' },
-  { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns under load traced to failed voltage regulators, shorted capacitors, or thermal sensor faults on the logic board. Not a fan or thermal paste issue — a board-level electrical fault that requires component-level diagnosis.' },
-  { title: 'Fan Running at Full Speed', desc: 'Continuous full-speed fan operation even at idle. This is an SMC or thermal sensor fault on the logic board — not dust buildup. The specific failed sensor or SMC component is identified and replaced. We repair this at component level rather than replacing the entire board.' },
+  { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns under load traced to failed voltage regulators, shorted capacitors, or thermal sensor faults on the logic board. Not a fan or thermal paste issue, a board-level electrical fault that requires component-level diagnosis.' },
+  { title: 'Fan Running at Full Speed', desc: 'Continuous full-speed fan operation even at idle. This is an SMC or thermal sensor fault on the logic board, not dust buildup. The specific failed sensor or SMC component is identified and replaced. We repair this at component level rather than replacing the entire board.' },
 ];
 
 const faqs = [
   {
     question: 'Do you collect MacBooks for logic board repair from Greenside?',
-    answer: 'Yes. We collect from Greenside and the surrounding Johannesburg North area. Greenside is approximately 5 km from our Hyde Park workshop — roughly 8–12 minutes by car. We collect, repair at our workshop at 1 Hyde Park Lane, and return once complete. WhatsApp 064 529 5863 to arrange same-day collection.',
+    answer: 'Yes. We collect from Greenside and the surrounding Johannesburg North area. Greenside is approximately 5 km from our Hyde Park workshop, roughly 8-12 minutes by car. We collect, repair at our workshop at 1 Hyde Park Lane, and return once complete. WhatsApp 064 529 5863 to arrange same-day collection.',
   },
   {
     question: 'How far is Greenside from your Hyde Park workshop?',
-    answer: 'Approximately 5 km — roughly 8–12 minutes by car depending on traffic. Greenside is one of our regular collection areas in Johannesburg North.',
+    answer: 'Approximately 5 km, roughly 8-12 minutes by car depending on traffic. Greenside is one of our regular collection areas in Johannesburg North.',
   },
   {
     question: 'What does MacBook logic board repair cost for Greenside clients?',
-    answer: 'Assessment from R599. The repair cost depends on the specific fault — a written quote with the exact price is provided before any work proceeds. Component-level repair typically costs 60–80% less than Apple\'s full board replacement. No Fix No Fee applies to all Greenside clients.',
+    answer: 'Assessment from R599. The repair cost depends on the specific fault, a written quote with the exact price is provided before any work proceeds. Component-level repair typically costs 60-80% less than Apple\'s full board replacement. No Fix No Fee applies to all Greenside clients.',
   },
   {
     question: 'Can a MacBook logic board be repaired or does it need replacing?',
-    answer: 'In most cases repaired. Component-level repair replaces only the failed IC, capacitor, or connector — not the entire board. Apple charges R15,000–R70,000 for a board replacement. We repair the specific failed component at a fraction of that cost, and your data stays intact.',
+    answer: 'In most cases repaired. Component-level repair replaces only the failed IC, capacitor, or connector, not the entire board. Apple charges R15,000-R70,000 for a board replacement. We repair the specific failed component at a fraction of that cost, and your data stays intact.',
   },
   {
-    question: 'My MacBook was damaged by a load shedding power surge — is it repairable?',
-    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller — a discrete, repairable IC. South African load shedding is the single most common cause of logic board faults we see. The R599 assessment confirms the specific damaged component before any commitment.',
+    question: 'My MacBook was damaged by a load shedding power surge, is it repairable?',
+    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller, a discrete, repairable IC. South African load shedding is the single most common cause of logic board faults we see. The R599 assessment confirms the specific damaged component before any commitment.',
   },
   {
     question: 'How long does MacBook logic board repair take?',
-    answer: 'After the R599 assessment and your written approval, most repairs complete within 3–5 business days. Liquid damage cases requiring ultrasonic cleaning may take slightly longer. We provide a specific timeline in the written quote.',
+    answer: 'After the R599 assessment and your written approval, most repairs complete within 3-5 business days. Liquid damage cases requiring ultrasonic cleaning may take slightly longer. We provide a specific timeline in the written quote.',
   },
   {
     question: 'Is my data safe during logic board repair?',
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: 'Do you offer No Fix No Fee for Greenside clients?',
-    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the R599 assessment fee — not the full repair cost. This applies to all clients regardless of location. Collection from Greenside is included.',
+    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the R599 assessment fee, not the full repair cost. This applies to all clients regardless of location. Collection from Greenside is included.',
   },
 ];
 
@@ -100,11 +100,11 @@ export default function LogicBoardRepairGreensidePage() {
               <br /><span className="text-[#0FEA7A]">Greenside</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Component-level MacBook logic board repair for Greenside clients. No power, charging faults, liquid damage, display failures, and USB-C faults repaired at our Hyde Park workshop. Collection from Greenside — approximately 5 km, 8–12 minutes by car.
+              Component-level MacBook logic board repair for Greenside clients. No power, charging faults, liquid damage, display failures, and USB-C faults repaired at our Hyde Park workshop. Collection from Greenside, approximately 5 km, 8-12 minutes by car.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Greenside — approx 8–12 min drive</span>
+              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Greenside, approx 8-12 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
@@ -132,7 +132,7 @@ export default function LogicBoardRepairGreensidePage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Logic Board Faults We Repair for Greenside Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Greenside is approximately 5 km from our Hyde Park workshop — one of our regular collection areas in Johannesburg North. All MacBook models from 2015 onwards are covered — Intel and Apple Silicon. Every fault is assessed at component level with a written quote before any repair proceeds.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Greenside is approximately 5 km from our Hyde Park workshop, one of our regular collection areas in Johannesburg North. All MacBook models from 2015 onwards are covered, Intel and Apple Silicon. Every fault is assessed at component level with a written quote before any repair proceeds.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.title} className="glass-card p-5">
@@ -146,7 +146,7 @@ export default function LogicBoardRepairGreensidePage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title={`MacBook Logic Board Repair Greenside — Common Questions`} />
+          <FAQAccordion items={faqs} title={`MacBook Logic Board Repair Greenside, Common Questions`} />
         </div>
       </section>
 

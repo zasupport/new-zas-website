@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 
 const symptoms = [
   { title: 'Battery Not Charging', desc: 'MacBook plugged in but battery percentage does not increase. Faulty battery cell, charging IC, or MagSafe/USB-C port issue diagnosed and resolved.' },
-  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue — replace immediately. We remove and dispose of swollen cells safely.' },
+  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue, replace immediately. We remove and dispose of swollen cells safely.' },
   { title: 'Short Battery Life', desc: 'MacBook running for 2 hours or less on a full charge. Worn cells lose capacity over time. A new battery restores full runtime.' },
-  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" in the battery status menu. Confirmed degradation — replacement advised.' },
-  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20–40% battery. Failing cells cannot deliver consistent voltage under load. Battery replacement resolves this.' },
+  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" in the battery status menu. Confirmed degradation, replacement advised.' },
+  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20-40% battery. Failing cells cannot deliver consistent voltage under load. Battery replacement resolves this.' },
   { title: 'Battery Health Below 80%', desc: 'Apple considers batteries with health below 80% to be at end of useful life. Replacement restores full capacity and performance.' },
 ];
 
@@ -52,11 +52,11 @@ const faqs = [
   },
   {
     question: 'Is Bryanston close to your workshop?',
-    answer: 'Yes, Bryanston is one of the closest suburbs to our Hyde Park workshop — approximately 10–12 minutes by road via Bryanston Drive and Jan Smuts Avenue. We can typically collect and return your MacBook on the same day.',
+    answer: 'Yes, Bryanston is one of the closest suburbs to our Hyde Park workshop, approximately 10-12 minutes by road via Bryanston Drive and Jan Smuts Avenue. We can typically collect and return your MacBook on the same day.',
   },
   {
     question: 'How many cycles should a MacBook battery last?',
-    answer: 'Apple rates MacBook batteries for 1,000 charge cycles before capacity drops below 80%. In practice, daily users reach this in 3–4 years. Once you are above 1,000 cycles or below 80% health, a replacement is the most cost-effective way to restore your Mac to full performance.',
+    answer: 'Apple rates MacBook batteries for 1,000 charge cycles before capacity drops below 80%. In practice, daily users reach this in 3-4 years. Once you are above 1,000 cycles or below 80% health, a replacement is the most cost-effective way to restore your Mac to full performance.',
   },
 ];
 
@@ -100,10 +100,10 @@ export default function BatteryReplacementBryanstonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Battery Replacement Bryanston
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Battery replacement for Bryanston MacBook users. We collect from Bryanston — just 12 minutes from our Hyde Park workshop. Same-day service available.
+              Battery replacement for Bryanston MacBook users. We collect from Bryanston, just 12 minutes from our Hyde Park workshop. Same-day service available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -147,7 +147,7 @@ export default function BatteryReplacementBryanstonPage() {
               Bryanston is a sought-after residential and corporate suburb in northern Johannesburg, home to professionals in the Bryanston Corporate Park and along William Nicol Drive. When your MacBook battery can no longer hold a charge through a working day, the impact on your productivity is immediate.
             </p>
             <p>
-              ZA Support offers Bryanston clients a fast collection and return service for MacBook battery replacements. Bryanston is one of the closest suburbs to our Hyde Park workshop — approximately 10–12 minutes by road via Jan Smuts Avenue. We collect from your home or office, replace the battery, and return your Mac the same day in most cases.
+              ZA Support offers Bryanston clients a fast collection and return service for MacBook battery replacements. Bryanston is one of the closest suburbs to our Hyde Park workshop, approximately 10-12 minutes by road via Jan Smuts Avenue. We collect from your home or office, replace the battery, and return your Mac the same day in most cases.
             </p>
             <p>
               We replace batteries in all MacBook Air and MacBook Pro models, from Intel-era machines through to the latest M-series. Every battery replacement uses Apple-specification cells and is backed by a written ZA Support warranty.
@@ -219,7 +219,7 @@ export default function BatteryReplacementBryanstonPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Battery Replacement Bryanston — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Battery Replacement Bryanston, Common Questions" />
         </div>
       </section>
 

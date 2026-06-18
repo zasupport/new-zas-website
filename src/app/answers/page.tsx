@@ -10,7 +10,7 @@ import { ANSWER_CLUSTERS } from './answers-data';
 export const metadata: Metadata = {
   title: 'Apple Repair & IT Questions Answered | ZA Support Johannesburg',
   description:
-    'Straight answers to the questions Johannesburg Mac owners and businesses ask most — logic board repair, liquid damage, batteries, screens, and managed Apple IT. Call 064 529 5863.',
+    'Straight answers to the questions Johannesburg Mac owners and businesses ask most, logic board repair, liquid damage, batteries, screens, and managed Apple IT. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/answers' },
 };
 
@@ -42,14 +42,14 @@ export default function AnswersHubPage() {
               <span className="text-[#0FEA7A]">questions, answered</span>
             </h1>
             <p className="text-xl text-[#7A9E98] leading-relaxed max-w-3xl mb-8">
-              Plain, honest answers to what Johannesburg Mac owners and businesses ask us most —
+              Plain, honest answers to what Johannesburg Mac owners and businesses ask us most, 
               before they book a repair or call us about Apple IT support. Pick a topic below.
             </p>
             <a
               href={`tel:${CONTACT.phoneTel}`}
               className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all"
             >
-              <Phone className="w-5 h-5" /> Speak to a technician — {CONTACT.phone}
+              <Phone className="w-5 h-5" /> Speak to a technician, {CONTACT.phone}
             </a>
           </div>
         </div>

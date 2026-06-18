@@ -263,7 +263,7 @@ export default function MacBookOverheatingFixPage() {
         </div>
       </section>
 
-      {/* 8 Fixes — HowTo Steps */}
+      {/* 8 Fixes, HowTo Steps */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">
@@ -465,7 +465,7 @@ export default function MacBookOverheatingFixPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion
             items={faqs}
-            title="MacBook Overheating — Frequently Asked Questions"
+            title="MacBook Overheating, Frequently Asked Questions"
           />
         </div>
       </section>

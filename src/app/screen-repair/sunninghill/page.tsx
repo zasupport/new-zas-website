@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or display connector fault.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on movement. Often a loose display cable on Intel-era MacBook Pros, or a GPU fault. Diagnosed before repair.' },
@@ -38,23 +38,23 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you collect MacBooks from Sunninghill for screen repairs?',
-    answer: 'Yes. We collect from Sunninghill — including Sunninghill Village and the tech office precinct along Leeuwkop Road — and bring your MacBook to our Hyde Park workshop, roughly 10km to the south-west. We return the machine once the repair is complete. Contact us on WhatsApp or by phone to arrange a convenient time.',
+    answer: 'Yes. We collect from Sunninghill, including Sunninghill Village and the tech office precinct along Leeuwkop Road, and bring your MacBook to our Hyde Park workshop, roughly 10km to the south-west. We return the machine once the repair is complete. Contact us on WhatsApp or by phone to arrange a convenient time.',
   },
   {
     question: 'How long does a MacBook screen replacement take from Sunninghill?',
-    answer: 'Most screen replacements are completed within 24–48 hours. We carry display assemblies for the most common MacBook models. For less common configurations, we will confirm parts availability and a specific turnaround when you contact us. Sunninghill clients working from home or from the nearby technology parks benefit from our same-week turnaround.',
+    answer: 'Most screen replacements are completed within 24-48 hours. We carry display assemblies for the most common MacBook models. For less common configurations, we will confirm parts availability and a specific turnaround when you contact us. Sunninghill clients working from home or from the nearby technology parks benefit from our same-week turnaround.',
   },
   {
     question: 'My MacBook screen cracked but the machine still works. Do I need to act now?',
-    answer: 'Yes, the sooner the better. A cracked panel is a progressive fault — small cracks spread with heat cycles and light pressure, and a crack that breaks the seal on the display allows moisture in. Moisture ingress leads to backlight damage, dead pixels, and pressure marks. A straightforward display replacement now costs significantly less than repairing a screen that has also suffered liquid damage inside the panel.',
+    answer: 'Yes, the sooner the better. A cracked panel is a progressive fault, small cracks spread with heat cycles and light pressure, and a crack that breaks the seal on the display allows moisture in. Moisture ingress leads to backlight damage, dead pixels, and pressure marks. A straightforward display replacement now costs significantly less than repairing a screen that has also suffered liquid damage inside the panel.',
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement fits a complete new assembly: LCD panel, backlight, and outer glass as a single unit. This is the standard approach for cracked screens and physical damage. Screen repair refers to targeted component-level fault diagnosis for issues such as backlight failure, flickering, or black screen — where the panel itself may be undamaged. We always diagnose the exact fault before recommending a replacement.',
+    answer: 'Display replacement fits a complete new assembly: LCD panel, backlight, and outer glass as a single unit. This is the standard approach for cracked screens and physical damage. Screen repair refers to targeted component-level fault diagnosis for issues such as backlight failure, flickering, or black screen, where the panel itself may be undamaged. We always diagnose the exact fault before recommending a replacement.',
   },
   {
     question: 'My MacBook Pro screen flickers when I move the lid. Can you fix that?',
-    answer: 'Yes. Flickering on lid movement is a well-known symptom of a failing display cable on Intel MacBook Pro models — particularly the 13-inch 2016–2019 Touch Bar range. The cable runs through the hinge and develops stress fractures over time. In most cases this is a targeted cable repair, not a full display replacement. We diagnose the fault first so you are not paying for parts you do not need.',
+    answer: 'Yes. Flickering on lid movement is a well-known symptom of a failing display cable on Intel MacBook Pro models, particularly the 13-inch 2016-2019 Touch Bar range. The cable runs through the hinge and develops stress fractures over time. In most cases this is a targeted cable repair, not a full display replacement. We diagnose the fault first so you are not paying for parts you do not need.',
   },
   {
     question: 'Does a screen replacement affect Touch ID on my MacBook?',
@@ -62,11 +62,11 @@ const faqs = [
   },
   {
     question: 'Do you repair screens on Apple Silicon MacBooks from Sunninghill?',
-    answer: 'Yes. We repair and replace displays on all Apple Silicon MacBook models — MacBook Air M1, M2, M3 and MacBook Pro M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max. Apple Silicon display assemblies are different from Intel-era parts and we source quality-matched panels for each generation. All repairs carry a written ZA Support warranty.',
+    answer: 'Yes. We repair and replace displays on all Apple Silicon MacBook models, MacBook Air M1, M2, M3 and MacBook Pro M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max. Apple Silicon display assemblies are different from Intel-era parts and we source quality-matched panels for each generation. All repairs carry a written ZA Support warranty.',
   },
   {
     question: 'How do I arrange a collection from Sunninghill?',
-    answer: 'Send us a WhatsApp message or call 064 529 5863. We will confirm a collection time at your home or office — Sunninghill Village, the tech parks near Leeuwkop Road, or anywhere nearby. We collect, repair at our Hyde Park workshop, and return your MacBook to your Sunninghill address. No need to travel to a repair centre.',
+    answer: 'Send us a WhatsApp message or call 064 529 5863. We will confirm a collection time at your home or office, Sunninghill Village, the tech parks near Leeuwkop Road, or anywhere nearby. We collect, repair at our Hyde Park workshop, and return your MacBook to your Sunninghill address. No need to travel to a repair centre.',
   },
 ];
 
@@ -110,7 +110,7 @@ export default function ScreenRepairSunninghillPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Sunninghill
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook screen repair and display replacement for Sunninghill clients. We collect from Sunninghill Village and the surrounding tech offices, and repair at our Hyde Park workshop approximately 10km to the south-west.
@@ -122,7 +122,7 @@ export default function ScreenRepairSunninghillPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Sunninghill' },
               ].map(({ icon: Icon, label }) => (
@@ -158,13 +158,13 @@ export default function ScreenRepairSunninghillPage() {
               A cracked or failed MacBook display is one of the most common repairs we carry out for Sunninghill clients. Whether your screen was damaged in transit, developed a flickering fault from a fraying display cable, or simply went dark overnight, ZA Support offers a collection service from Sunninghill and a fast, professional repair at our Hyde Park workshop.
             </p>
             <p>
-              Sunninghill is home to a large concentration of technology companies, software consultancies, and remote workers — many of them operating MacBook Pros as their primary workstation. A failed display in that context is not merely inconvenient; it halts client work, coding sessions, and video calls completely. We have seen this enough times to keep display assemblies for the most common MacBook models in stock so we can turn repairs around within 24–48 hours.
+              Sunninghill is home to a large concentration of technology companies, software consultancies, and remote workers, many of them operating MacBook Pros as their primary workstation. A failed display in that context is not merely inconvenient; it halts client work, coding sessions, and video calls completely. We have seen this enough times to keep display assemblies for the most common MacBook models in stock so we can turn repairs around within 24-48 hours.
             </p>
             <p>
-              We collect from Sunninghill Village, the tech office parks along Leeuwkop Road, and surrounding residential streets. Your MacBook travels to our Hyde Park workshop — roughly 10km south-west — and returns once the repair is complete and fully tested. Most Sunninghill clients are back at full capacity within the same working week.
+              We collect from Sunninghill Village, the tech office parks along Leeuwkop Road, and surrounding residential streets. Your MacBook travels to our Hyde Park workshop, roughly 10km south-west, and returns once the repair is complete and fully tested. Most Sunninghill clients are back at full capacity within the same working week.
             </p>
             <p>
-              We repair and replace displays on all MacBook models including MacBook Air (M1, M2, M3 and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, Intel and M-series). Not every display fault requires a full panel replacement — backlight failures, flickering from a failing display cable, and board-level faults are repaired at component level where possible, keeping costs as low as the fault allows.
+              We repair and replace displays on all MacBook models including MacBook Air (M1, M2, M3 and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, Intel and M-series). Not every display fault requires a full panel replacement, backlight failures, flickering from a failing display cable, and board-level faults are repaired at component level where possible, keeping costs as low as the fault allows.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function ScreenRepairSunninghillPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Sunninghill', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Sunninghill — Village, Leeuwkop Road tech parks, or surrounding streets — at a time that suits you.' },
+              { step: '01', title: 'Collection from Sunninghill', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Sunninghill, Village, Leeuwkop Road tech parks, or surrounding streets, at a time that suits you.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify whether the fault is a physical panel, backlight, cable, or board-level issue. This determines the correct repair approach and cost before any work begins.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering the fault, repair method, and turnaround time. No work starts until you approve in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where possible, full display replacement where necessary. Quality-matched panel fitted by our technician at our Hyde Park workshop.' },
@@ -260,7 +260,7 @@ export default function ScreenRepairSunninghillPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Sunninghill MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-SUNNINGHILL-HERO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

@@ -44,7 +44,7 @@ const faqs = [
   {
     question: 'How long does iMac logic board repair take?',
     answer:
-      'Diagnostic is same-day for most faults. Simple component replacements (USB-C controller, power management IC) are typically 1–3 business days. More complex repairs such as GPU restoration or trace reconstruction after liquid damage are 3–5 business days. We will give you a written turnaround estimate before work begins.',
+      'Diagnostic is same-day for most faults. Simple component replacements (USB-C controller, power management IC) are typically 1-3 business days. More complex repairs such as GPU restoration or trace reconstruction after liquid damage are 3-5 business days. We will give you a written turnaround estimate before work begins.',
   },
   {
     question: 'My iMac fans run at maximum speed constantly. Is this a logic board fault?',
@@ -108,8 +108,8 @@ const icFaults = [
 ];
 
 const models = [
-  { model: 'iMac 21.5" 2015–2019 (Intel)', chip: 'Intel Core i5/i7', notes: 'Display controller, USB-C, backlight' },
-  { model: 'iMac 27" 2015–2020 (Intel)', chip: 'Intel Core i5/i7/i9', notes: 'GPU restoration most common, 27"' },
+  { model: 'iMac 21.5" 2015-2019 (Intel)', chip: 'Intel Core i5/i7', notes: 'Display controller, USB-C, backlight' },
+  { model: 'iMac 27" 2015-2020 (Intel)', chip: 'Intel Core i5/i7/i9', notes: 'GPU restoration most common, 27"' },
   { model: 'iMac 24" M1 (2021)', chip: 'Apple M1', notes: 'Power management, USB-C circuits' },
   { model: 'iMac 24" M3 (2023)', chip: 'Apple M3', notes: 'Power ICs, display controller, ports' },
   { model: 'iMac 24" M4 (2024)', chip: 'Apple M4', notes: 'Diagnostic assessment required' },
@@ -290,7 +290,7 @@ export default function iMacLogicBoardPage() {
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Turnaround</span>, Same-day diagnostic. Repairs typically 1–5 business days.</p>
+                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Turnaround</span>, Same-day diagnostic. Repairs typically 1-5 business days.</p>
                 </div>
               </div>
             </div>

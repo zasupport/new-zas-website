@@ -28,18 +28,18 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { fault: 'Cracked Liquid Retina Display', desc: 'The MacBook Air M3 uses a single laminated display assembly — the LCD panel, backlight, and front glass are bonded as one unit. A crack from a drop or pressure impact means the entire assembly requires replacement. We source quality-matched Liquid Retina panels and verify True Tone calibration, P3 wide colour accuracy, and 500-nit brightness uniformity before returning the machine.' },
-  { fault: 'Pressure Marks and Dead Pixel Clusters', desc: 'Pressure damage appears as dark or discoloured patches on the Liquid Retina panel, typically from objects pressing against the closed lid during transport. We see this regularly on MacBook Air M3 machines carried in bags without a padded sleeve — a pen, charger brick, or even a set of keys left on the keyboard is enough. The panel must be replaced; pressure marks cannot be repaired in isolation.' },
+  { fault: 'Cracked Liquid Retina Display', desc: 'The MacBook Air M3 uses a single laminated display assembly, the LCD panel, backlight, and front glass are bonded as one unit. A crack from a drop or pressure impact means the entire assembly requires replacement. We source quality-matched Liquid Retina panels and verify True Tone calibration, P3 wide colour accuracy, and 500-nit brightness uniformity before returning the machine.' },
+  { fault: 'Pressure Marks and Dead Pixel Clusters', desc: 'Pressure damage appears as dark or discoloured patches on the Liquid Retina panel, typically from objects pressing against the closed lid during transport. We see this regularly on MacBook Air M3 machines carried in bags without a padded sleeve, a pen, charger brick, or even a set of keys left on the keyboard is enough. The panel must be replaced; pressure marks cannot be repaired in isolation.' },
   { fault: 'Display Coating Delamination', desc: 'The anti-reflective coating on the MacBook Air M3 can develop visible wear patterns, particularly in humid South African conditions. Johannesburg summers with 70-80% humidity accelerate this process. The coating lifts or appears smudged in ways that cleaning cannot resolve. Full display replacement is the permanent fix.' },
-  { fault: 'Backlight Failure — Screen Dark but Machine Boots', desc: 'The MacBook Air M3 boots normally — you hear the startup tone, keyboard illuminates, and an external display works via USB-C — but the built-in screen stays completely dark. This points to a backlight circuit failure on the logic board or a damaged display cable. We diagnose at component level first, which can save thousands compared to a full display swap.' },
-  { fault: 'Flexgate-Style Display Cable Fault', desc: 'While the M3 Air has a more reliable display cable design than the notorious 2016-2019 Intel MacBook Pros, we have still seen cable failures — particularly on machines that have been opened and closed thousands of times in daily use. Symptoms include a flickering display at certain lid angles or a display that works only when the lid is at exactly 90 degrees.' },
+  { fault: 'Backlight Failure, Screen Dark but Machine Boots', desc: 'The MacBook Air M3 boots normally, you hear the startup tone, keyboard illuminates, and an external display works via USB-C, but the built-in screen stays completely dark. This points to a backlight circuit failure on the logic board or a damaged display cable. We diagnose at component level first, which can save thousands compared to a full display swap.' },
+  { fault: 'Flexgate-Style Display Cable Fault', desc: 'While the M3 Air has a more reliable display cable design than the notorious 2016-2019 Intel MacBook Pros, we have still seen cable failures, particularly on machines that have been opened and closed thousands of times in daily use. Symptoms include a flickering display at certain lid angles or a display that works only when the lid is at exactly 90 degrees.' },
   { fault: 'Colour Accuracy Drift or Yellow Tint', desc: 'Some MacBook Air M3 displays develop a persistent warm yellow tint that True Tone adjustment cannot correct, or visible colour banding in gradients. This is a panel-level defect rather than a software calibration issue. We test replacement panels across the full P3 colour gamut before fitting.' },
 ];
 
 const faqs = [
   {
     question: 'How much does a MacBook Air M3 screen replacement cost in Johannesburg?',
-    answer: 'MacBook Air M3 screen replacement starts from R4,299 for the 13.6-inch model and from R5,499 for the 15.3-inch model at our Hyde Park workshop. The final price depends on the specific fault — a backlight circuit repair at component level can be significantly less than a full display assembly replacement. We provide a written quote after diagnostic, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.',
+    answer: 'MacBook Air M3 screen replacement starts from R4,299 for the 13.6-inch model and from R5,499 for the 15.3-inch model at our Hyde Park workshop. The final price depends on the specific fault, a backlight circuit repair at component level can be significantly less than a full display assembly replacement. We provide a written quote after diagnostic, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.',
   },
   {
     question: 'Is the MacBook Air M3 13-inch screen different from the 15-inch?',
@@ -47,11 +47,11 @@ const faqs = [
   },
   {
     question: 'Does the MacBook Air M3 have the same screen technology as the MacBook Pro M3?',
-    answer: 'No. The MacBook Air M3 uses a Liquid Retina IPS LCD display — a single backlight layer behind the panel. The MacBook Pro M3 uses Liquid Retina XDR with mini-LED backlighting, ProMotion 120 Hz adaptive refresh, and significantly higher peak brightness (1,600 nits versus 500 nits). The Air panel is simpler and generally less expensive to replace, but it still requires specialist handling to preserve True Tone pairing.',
+    answer: 'No. The MacBook Air M3 uses a Liquid Retina IPS LCD display, a single backlight layer behind the panel. The MacBook Pro M3 uses Liquid Retina XDR with mini-LED backlighting, ProMotion 120 Hz adaptive refresh, and significantly higher peak brightness (1,600 nits versus 500 nits). The Air panel is simpler and generally less expensive to replace, but it still requires specialist handling to preserve True Tone pairing.',
   },
   {
     question: 'Can you repair a MacBook Air M3 screen without replacing the whole display?',
-    answer: 'It depends on the fault. Backlight failures caused by a blown fuse or driver IC on the logic board can be repaired at component level without touching the display assembly at all — this is the most cost-effective outcome. Physical cracks, pressure marks, and coating delamination require full assembly replacement because the panel, backlight, and glass are laminated together as a single unit.',
+    answer: 'It depends on the fault. Backlight failures caused by a blown fuse or driver IC on the logic board can be repaired at component level without touching the display assembly at all, this is the most cost-effective outcome. Physical cracks, pressure marks, and coating delamination require full assembly replacement because the panel, backlight, and glass are laminated together as a single unit.',
   },
   {
     question: 'Will True Tone still work after a MacBook Air M3 screen replacement?',
@@ -59,15 +59,15 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook Air M3 screen repair take?',
-    answer: 'Most MacBook Air M3 screen replacements are completed within 24 to 48 hours at our Hyde Park workshop. Component-level backlight repairs can sometimes be completed same-day. We confirm exact turnaround when you book, and we prioritise urgent cases — particularly for clients who rely on the machine for work.',
+    answer: 'Most MacBook Air M3 screen replacements are completed within 24 to 48 hours at our Hyde Park workshop. Component-level backlight repairs can sometimes be completed same-day. We confirm exact turnaround when you book, and we prioritise urgent cases, particularly for clients who rely on the machine for work.',
   },
   {
     question: 'Is the MacBook Air M3 screen covered by Apple warranty?',
-    answer: 'If your MacBook Air M3 is still within Apple one-year warranty or covered by AppleCare+, accidental damage may be covered with an excess fee. However, Apple charges significantly more for out-of-warranty screen replacement — typically R8,000 to R12,000 depending on the model. Our pricing starts from R4,299, and we use quality-matched panels with a written warranty.',
+    answer: 'If your MacBook Air M3 is still within Apple one-year warranty or covered by AppleCare+, accidental damage may be covered with an excess fee. However, Apple charges significantly more for out-of-warranty screen replacement, typically R8,000 to R12,000 depending on the model. Our pricing starts from R4,299, and we use quality-matched panels with a written warranty.',
   },
   {
     question: 'Can load shedding damage a MacBook Air M3 screen?',
-    answer: 'Not the panel directly, but load shedding power surges absolutely damage the backlight driver circuitry. We see this frequently in Johannesburg — the MacBook Air M3 is left plugged in, Eskom restores power after a stage 4 or 6 outage, and the voltage spike travels through the USB-C charger to the backlight power rail. The result is a dark screen on an otherwise functional machine. A quality surge protector or UPS is the best prevention. We repair the backlight driver IC at component level.',
+    answer: 'Not the panel directly, but load shedding power surges absolutely damage the backlight driver circuitry. We see this frequently in Johannesburg, the MacBook Air M3 is left plugged in, Eskom restores power after a stage 4 or 6 outage, and the voltage spike travels through the USB-C charger to the backlight power rail. The result is a dark screen on an otherwise functional machine. A quality surge protector or UPS is the best prevention. We repair the backlight driver IC at component level.',
   },
 ];
 
@@ -130,7 +130,7 @@ export default function MacBookAirM3ScreenRepairPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Air M3 Screen Repair
-              <br /><span className="text-[#0FEA7A]">Johannesburg — From R4,299</span>
+              <br /><span className="text-[#0FEA7A]">Johannesburg, From R4,299</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Liquid Retina display replacement, cracked screen repair, backlight fault diagnosis, and pressure mark resolution for the MacBook Air M3 (March 2024). Both the 13.6-inch and 15.3-inch models serviced at our Hyde Park workshop.
@@ -167,13 +167,13 @@ export default function MacBookAirM3ScreenRepairPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Apple released the MacBook Air M3 in March 2024, and we started seeing these machines in our Hyde Park workshop within weeks of the South African launch. The M3 Air keeps the same external chassis design as the M2 generation, but internally there are meaningful differences that affect screen repair — particularly the display cable routing and the revised backlight driver circuitry on the logic board.
+              Apple released the MacBook Air M3 in March 2024, and we started seeing these machines in our Hyde Park workshop within weeks of the South African launch. The M3 Air keeps the same external chassis design as the M2 generation, but internally there are meaningful differences that affect screen repair, particularly the display cable routing and the revised backlight driver circuitry on the logic board.
             </p>
             <p>
-              Both the 13.6-inch (2560 x 1664) and 15.3-inch (2880 x 1864) models use a Liquid Retina IPS LCD panel rated at 500 nits sustained brightness with P3 wide colour gamut and True Tone adaptive white-point adjustment. This is not a mini-LED display — there is a single backlight layer rather than the zoned mini-LED array found in the MacBook Pro M3. The practical difference for repair is that backlight failures on the Air tend to affect the entire screen uniformly rather than producing localised dark patches.
+              Both the 13.6-inch (2560 x 1664) and 15.3-inch (2880 x 1864) models use a Liquid Retina IPS LCD panel rated at 500 nits sustained brightness with P3 wide colour gamut and True Tone adaptive white-point adjustment. This is not a mini-LED display, there is a single backlight layer rather than the zoned mini-LED array found in the MacBook Pro M3. The practical difference for repair is that backlight failures on the Air tend to affect the entire screen uniformly rather than producing localised dark patches.
             </p>
             <p>
-              In our experience, the most common screen fault on the MacBook Air M3 in Johannesburg is physical cracking from bag-related impacts — the M3 Air is thinner and lighter than any previous Air generation at just 1.13 kg (13-inch) or 1.51 kg (15-inch), and many owners carry it without adequate padding. The second most common fault is backlight failure from load shedding power surges, which we see across all MacBook models but particularly frequently in suburbs like Sandton, Rosebank, and Midrand where machines are left plugged in at desks overnight.
+              In our experience, the most common screen fault on the MacBook Air M3 in Johannesburg is physical cracking from bag-related impacts, the M3 Air is thinner and lighter than any previous Air generation at just 1.13 kg (13-inch) or 1.51 kg (15-inch), and many owners carry it without adequate padding. The second most common fault is backlight failure from load shedding power surges, which we see across all MacBook models but particularly frequently in suburbs like Sandton, Rosebank, and Midrand where machines are left plugged in at desks overnight.
             </p>
             <p>
               We carry Liquid Retina display assemblies for both MacBook Air M3 configurations. Every replacement includes True Tone sensor calibration transfer, P3 colour gamut verification, and a comprehensive brightness uniformity check at 100%, 50%, and minimum brightness levels. Our assessment starts from R599, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.
@@ -206,8 +206,8 @@ export default function MacBookAirM3ScreenRepairPage() {
           <div className="space-y-6">
             {[
               { step: '01', title: 'Book and Drop Off or Arrange Collection', desc: 'WhatsApp us with the code SR-MACBOOKAIRM3 or call to book. Drop off at our Hyde Park workshop (1 Hyde Park Lane) or arrange collection from anywhere within 25 km.' },
-              { step: '02', title: 'Display Diagnostic — from R599', desc: 'We determine whether the fault is the panel itself, the backlight circuit, the display cable, or a logic board issue. This targeted approach means you only pay for what actually needs replacing.' },
-              { step: '03', title: 'Written Quote — No Fix No Fee', desc: 'You receive a clear, written quote with the exact fault, repair method, parts used, and turnaround time. If we cannot fix it, you pay nothing beyond the assessment fee.' },
+              { step: '02', title: 'Display Diagnostic: from R599', desc: 'We determine whether the fault is the panel itself, the backlight circuit, the display cable, or a logic board issue. This targeted approach means you only pay for what actually needs replacing.' },
+              { step: '03', title: 'Written Quote: No Fix No Fee', desc: 'You receive a clear, written quote with the exact fault, repair method, parts used, and turnaround time. If we cannot fix it, you pay nothing beyond the assessment fee.' },
               { step: '04', title: 'Repair and Calibration', desc: 'Display assembly replacement or component-level repair, followed by True Tone calibration transfer, P3 colour verification, and brightness uniformity testing at multiple levels.' },
               { step: '05', title: 'Quality Check and Collection', desc: 'We run the repaired MacBook Air M3 through our 12-point display checklist before release. Written warranty provided covering both parts and workmanship.' },
             ].map(({ step, title, desc }) => (
@@ -230,7 +230,7 @@ export default function MacBookAirM3ScreenRepairPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Having worked on every MacBook Air generation since the original unibody design, I can say confidently that the M3 Air is the most repair-friendly of the Apple Silicon generation — but only if you know the specific quirks. The display cable connector has moved slightly compared to the M2 Air, and the adhesive pattern holding the display assembly to the chassis is different. Using M2 repair procedures on an M3 risks damaging the antenna cables that run alongside the display hinge.
+              Having worked on every MacBook Air generation since the original unibody design, I can say confidently that the M3 Air is the most repair-friendly of the Apple Silicon generation, but only if you know the specific quirks. The display cable connector has moved slightly compared to the M2 Air, and the adhesive pattern holding the display assembly to the chassis is different. Using M2 repair procedures on an M3 risks damaging the antenna cables that run alongside the display hinge.
             </p>
             <p>
               The good news for M3 Air owners is that the display itself is more resilient than the M1 Air panel. Apple upgraded the glass composition, and we have seen fewer spontaneous coating failures on the M3 compared to the M1 and M2 generations. The bad news is that the M3 Air display assembly is slightly more expensive to source because it shares fewer components with other models in the current lineup.
@@ -244,7 +244,7 @@ export default function MacBookAirM3ScreenRepairPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Air M3 Screen Repair — Frequently Asked Questions" />
+          <FAQAccordion items={faqs} title="MacBook Air M3 Screen Repair, Frequently Asked Questions" />
         </div>
       </section>
 

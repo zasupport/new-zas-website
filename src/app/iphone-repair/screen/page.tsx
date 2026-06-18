@@ -102,9 +102,9 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote, no surprises,.' },
+  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote, no surprises.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct OLED assembly is in stock for your exact model before committing to a repair date. Same-day is available for most models.' },
-  { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the OLED display assembly. iPhone screen repairs typically take 60–90 minutes.' },
+  { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the OLED display assembly. iPhone screen repairs typically take 60-90 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy, Face ID, True Tone, brightness, and colour uniformity across the full panel before returning your device.' },
   { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement screen and our labour. Assessment: from R599 applies, assessment fee of from R599 applies if we cannot fix it.' },
 ];
@@ -123,7 +123,7 @@ const faqs = [
   {
     question: 'How long does iPhone screen replacement take?',
     answer:
-      'Most iPhone screen replacements take 60–90 minutes. If we have your specific OLED assembly in stock, same-day repair is often available. We confirm turnaround time when you bring the phone in or when you WhatsApp us your model.',
+      'Most iPhone screen replacements take 60-90 minutes. If we have your specific OLED assembly in stock, same-day repair is often available. We confirm turnaround time when you bring the phone in or when you WhatsApp us your model.',
   },
   {
     question: 'Do you use genuine Apple screens?',
@@ -355,7 +355,7 @@ export default function iPhoneScreenPage() {
                     {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
                   </div>
                   <span className="text-[#E8F4F1] text-xs font-semibold">Tayla R.</span>
-                  <span className="text-[#7A9E98] text-xs">— Sandton</span>
+                  <span className="text-[#7A9E98] text-xs">, Sandton</span>
                 </div>
               </div>
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
@@ -368,7 +368,7 @@ export default function iPhoneScreenPage() {
                     {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
                   </div>
                   <span className="text-[#E8F4F1] text-xs font-semibold">Marcus B.</span>
-                  <span className="text-[#7A9E98] text-xs">— Rosebank</span>
+                  <span className="text-[#7A9E98] text-xs">, Rosebank</span>
                 </div>
               </div>
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
@@ -381,7 +381,7 @@ export default function iPhoneScreenPage() {
                     {[1,2,3,4,5].map((s) => <Star key={s} className="w-3.5 h-3.5 fill-[#0FEA7A] text-[#0FEA7A]" />)}
                   </div>
                   <span className="text-[#E8F4F1] text-xs font-semibold">Nomsa K.</span>
-                  <span className="text-[#7A9E98] text-xs">— Fourways</span>
+                  <span className="text-[#7A9E98] text-xs">, Fourways</span>
                 </div>
               </div>
             </div>
@@ -411,7 +411,7 @@ export default function iPhoneScreenPage() {
         </div>
       </section>
 
-      {/* ── Orphan-link injection — iPhone screen repair by suburb ─────── */}
+      {/* ── Orphan-link injection, iPhone screen repair by suburb ─────── */}
       <OrphanLinks
         sectionTitle="iPhone screen repair across Gauteng"
         intro="Most iPhone screen replacements come through our Hyde Park workshop, with collection across the wider Gauteng area. Pick the suburb closest to you to read what the OLED replacement, glass repair and same-day turnaround work looks like for that area."

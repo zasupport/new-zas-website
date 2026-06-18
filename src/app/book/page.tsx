@@ -358,7 +358,7 @@ export default function BookPage() {
               <Phone className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
               <div>
                 <p className="text-[#E8F4F1] text-sm font-semibold">064 529 5863</p>
-                <p className="text-[#7A9E98] text-xs">Mon–Thu 08:00–17:00 · Fri 08:00–16:30</p>
+                <p className="text-[#7A9E98] text-xs">Mon-Thu 08:00-17:00 · Fri 08:00-16:30</p>
               </div>
             </a>
           </div>

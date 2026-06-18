@@ -1,17 +1,17 @@
 /**
- * GA4 event tracking utility — ZA Support
+ * GA4 event tracking utility, ZA Support
  * Uses window.gtag injected by @next/third-parties/google GoogleAnalytics component
  *
  * Conversion events:
- *   whatsapp_click   — any WhatsApp CTA tapped
- *   phone_tap        — any tel: link tapped
- *   book_form_submit — /book form successfully submitted
- *   book_form_start  — user starts filling /book form
+ *   whatsapp_click, any WhatsApp CTA tapped
+ *   phone_tap, any tel: link tapped
+ *   book_form_submit, /book form successfully submitted
+ *   book_form_start, user starts filling /book form
  *
  * Custom dimensions (register in GA4 Admin → Custom definitions):
- *   service_type  — e.g. "logic-board-repair", "liquid-damage"
- *   suburb        — e.g. "sandton", "rosebank"
- *   device_model  — e.g. "MacBook Pro M1", "iPhone 14"
+ *   service_type, e.g. "logic-board-repair", "liquid-damage"
+ *   suburb, e.g. "sandton", "rosebank"
+ *   device_model, e.g. "MacBook Pro M1", "iPhone 14"
  */
 
 declare global {

@@ -40,12 +40,12 @@ export async function POST(request: NextRequest) {
     _ts?: number;
   };
 
-  // Honeypot — bots fill hidden fields, humans don't
+  // Honeypot, bots fill hidden fields, humans don't
   if (_hp) {
     return NextResponse.json({ success: true, whatsappUrl: `https://wa.me/${ZA_PHONE}` });
   }
 
-  // Time gate — legitimate users take >3 seconds to fill a form
+  // Time gate, legitimate users take >3 seconds to fill a form
   if (_ts && typeof _ts === 'number' && Date.now() - _ts < 3000) {
     return NextResponse.json({ success: true, whatsappUrl: `https://wa.me/${ZA_PHONE}` });
   }
@@ -97,7 +97,7 @@ export async function POST(request: NextRequest) {
     await resend.emails.send({
       from: 'ZA Support Bookings <admin@zasupport.com>',
       to: 'mary@zasupport.com',
-      subject: `New Repair Booking — ${safeName} — ${safeDeviceType}`,
+      subject: `New Repair Booking, ${safeName}, ${safeDeviceType}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #0A1A18; color: #E8F4F1; padding: 24px; border-radius: 12px;">
           <div style="background: #0FEA7A; color: #0A1A18; padding: 12px 20px; border-radius: 8px; margin-bottom: 24px; font-weight: bold; font-size: 18px;">

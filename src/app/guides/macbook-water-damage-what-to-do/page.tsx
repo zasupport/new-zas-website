@@ -60,7 +60,7 @@ const faqs = [
       'Corrosion begins within minutes on a powered board. Within 24 hours, visible green oxidation forms on copper traces. By 48 hours, corrosion can bridge adjacent traces and short-circuit components like the PP3V42_G3H power rail. After 72 hours, component-level damage to ICs like the U8000 chip becomes likely. After one week, damage is often irreversible. This is why we urge clients to bring machines in within 24 hours.',
   },
   {
-    question: 'My MacBook got wet but still works — do I need to get it repaired?',
+    question: 'My MacBook got wet but still works, do I need to get it repaired?',
     answer:
       'Yes, absolutely. A MacBook that works after a spill is the most dangerous scenario. The liquid is still inside, and corrosion is progressing silently beneath chips and along traces. We see clients weekly whose MacBooks worked for days after a spill then suddenly died as corrosion bridged a critical power rail. Professional cleaning within 24 hours halts corrosion before it causes permanent damage.',
   },
@@ -72,7 +72,7 @@ const faqs = [
   {
     question: 'What liquid causes the most damage to MacBooks?',
     answer:
-      'Sugary and acidic liquids cause the most severe damage. Coffee with sugar and milk is the worst offender — the sugar creates a conductive, corrosive residue that accelerates electrolytic corrosion dramatically. Wine and soft drinks are similarly destructive due to their acidity and sugar content. Plain water causes the least severe damage but still corrodes copper traces within hours if not cleaned professionally.',
+      'Sugary and acidic liquids cause the most severe damage. Coffee with sugar and milk is the worst offender, the sugar creates a conductive, corrosive residue that accelerates electrolytic corrosion dramatically. Wine and soft drinks are similarly destructive due to their acidity and sugar content. Plain water causes the least severe damage but still corrodes copper traces within hours if not cleaned professionally.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook?',
@@ -87,12 +87,12 @@ const faqs = [
   {
     question: 'Is it worth repairing a water-damaged MacBook or should I buy a new one?',
     answer:
-      'In most cases, repair is significantly cheaper. A new MacBook costs R20,000 to R80,000 depending on the model. Our component-level repairs cost a fraction of that amount and preserve your existing data on the same machine. We provide an honest assessment — if repair cost exceeds 60% of replacement value, we recommend replacement and offer data recovery from the damaged machine instead.',
+      'In most cases, repair is significantly cheaper. A new MacBook costs R20,000 to R80,000 depending on the model. Our component-level repairs cost a fraction of that amount and preserve your existing data on the same machine. We provide an honest assessment, if repair cost exceeds 60% of replacement value, we recommend replacement and offer data recovery from the damaged machine instead.',
   },
   {
     question: 'Does AppleCare cover liquid damage on MacBooks?',
     answer:
-      'Standard AppleCare does not cover liquid damage — Apple classifies it as accidental damage. AppleCare+ includes accidental damage coverage but charges an excess of R4,299 per incident, and Apple replaces the entire logic board rather than repairing individual components. ZA Support component-level repair is often more cost-effective than the AppleCare+ excess, and we preserve your data on the original board.',
+      'Standard AppleCare does not cover liquid damage, Apple classifies it as accidental damage. AppleCare+ includes accidental damage coverage but charges an excess of R4,299 per incident, and Apple replaces the entire logic board rather than repairing individual components. ZA Support component-level repair is often more cost-effective than the AppleCare+ excess, and we preserve your data on the original board.',
   },
   {
     question: 'How quickly should I bring my wet MacBook in for repair?',
@@ -111,7 +111,7 @@ const corrosionTimeline = [
   {
     time: '24 Hours',
     title: 'Visible Oxidation on Copper Traces',
-    detail: 'Green copper oxide and white tin oxide deposits become visible on the logic board surface. Flux residue from the original manufacturing process traps moisture and accelerates localised corrosion. Board-level repair at this stage is straightforward with ultrasonic cleaning — most machines brought in within 24 hours are fully recoverable.',
+    detail: 'Green copper oxide and white tin oxide deposits become visible on the logic board surface. Flux residue from the original manufacturing process traps moisture and accelerates localised corrosion. Board-level repair at this stage is straightforward with ultrasonic cleaning, most machines brought in within 24 hours are fully recoverable.',
     severity: 'warning',
   },
   {
@@ -123,13 +123,13 @@ const corrosionTimeline = [
   {
     time: '72 Hours',
     title: 'Component-Level IC Damage',
-    detail: 'Corrosion penetrates beneath BGA (ball grid array) solder connections under IC chips. Once corrosion reaches the solder balls connecting a chip to the board, the chip itself fails. Replacing failed ICs requires micro-soldering under a microscope — possible, but significantly more expensive than the ultrasonic cleaning that would have prevented it.',
+    detail: 'Corrosion penetrates beneath BGA (ball grid array) solder connections under IC chips. Once corrosion reaches the solder balls connecting a chip to the board, the chip itself fails. Replacing failed ICs requires micro-soldering under a microscope, possible, but significantly more expensive than the ultrasonic cleaning that would have prevented it.',
     severity: 'danger',
   },
   {
     time: '1 Week+',
     title: 'Irreversible Board Damage',
-    detail: 'After a week of unchecked corrosion, multiple ICs are compromised, PCB layers are penetrated, and trace integrity is destroyed. Repair at this stage requires replacing numerous components and sometimes repairing or re-routing traces on the PCB itself. Some boards become economically unrepairable at this point — but data recovery is still usually possible.',
+    detail: 'After a week of unchecked corrosion, multiple ICs are compromised, PCB layers are penetrated, and trace integrity is destroyed. Repair at this stage requires replacing numerous components and sometimes repairing or re-routing traces on the PCB itself. Some boards become economically unrepairable at this point, but data recovery is still usually possible.',
     severity: 'critical',
   },
 ];
@@ -182,13 +182,13 @@ const howToSchema = {
     {
       '@type': 'HowToStep',
       name: 'Tilt and drain',
-      text: 'Flip the MacBook keyboard-down onto a dry towel at a slight angle. The logic board sits beneath the keyboard — gravity drains liquid away from the board rather than letting it pool on critical components.',
+      text: 'Flip the MacBook keyboard-down onto a dry towel at a slight angle. The logic board sits beneath the keyboard, gravity drains liquid away from the board rather than letting it pool on critical components.',
       position: 3,
     },
     {
       '@type': 'HowToStep',
       name: 'Blot visible liquid',
-      text: 'Use a lint-free cloth or paper towel to gently blot any visible liquid from the keyboard, ports, and vents. Do not shake the MacBook — this can spread liquid to areas it has not yet reached.',
+      text: 'Use a lint-free cloth or paper towel to gently blot any visible liquid from the keyboard, ports, and vents. Do not shake the MacBook, this can spread liquid to areas it has not yet reached.',
       position: 4,
     },
     {

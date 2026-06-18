@@ -15,16 +15,16 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iMac 21.5" (2012–2019), HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
-  { model: 'iMac 21.5" (2012–2019), HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019), HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019), HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
-  { model: 'iMac 27" (2012–2019), Fusion Drive', storage: '1 TB SSD (replace both)', note: 'Removes Fusion, full SSD' },
-  { model: 'iMac 27" (2017–2020), add SSD blade', storage: '512 GB NVMe blade', note: 'PCIe slot, no screen removal' },
+  { model: 'iMac 21.5" (2012-2019), HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
+  { model: 'iMac 21.5" (2012-2019), HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012-2019), HDD to SSD', storage: '500 GB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012-2019), HDD to SSD', storage: '1 TB SSD', note: 'Data migration included' },
+  { model: 'iMac 27" (2012-2019), Fusion Drive', storage: '1 TB SSD (replace both)', note: 'Removes Fusion, full SSD' },
+  { model: 'iMac 27" (2017-2020), add SSD blade', storage: '512 GB NVMe blade', note: 'PCIe slot, no screen removal' },
 ];
 
 const symptoms = [
-  'Boot takes 2–5 minutes',
+  'Boot takes 2-5 minutes',
   'Apps take 30+ seconds to open',
   'Spinning beachball appears constantly',
   'macOS updates take hours to install',
@@ -33,10 +33,10 @@ const symptoms = [
 ];
 
 const benefits = [
-  { before: '3–5 minute boot', after: 'Under 20 seconds' },
-  { before: 'Apps open in 30+ seconds', after: 'Apps open in 2–3 seconds' },
+  { before: '3-5 minute boot', after: 'Under 20 seconds' },
+  { before: 'Apps open in 30+ seconds', after: 'Apps open in 2-3 seconds' },
   { before: 'Constant beachball', after: 'Fluid, responsive feel' },
-  { before: 'Slow file transfers', after: '5–10x faster read/write' },
+  { before: 'Slow file transfers', after: '5-10x faster read/write' },
   { before: 'Noisy spinning drive', after: 'Completely silent' },
 ];
 
@@ -44,12 +44,12 @@ const faqs = [
   {
     question: 'Which iMac models can have an SSD upgrade?',
     answer:
-      'All Intel iMac models from 2012 onwards can have their internal storage replaced or upgraded with an SSD. The 2012–2019 iMac 21.5" and 27" models use a 3.5" SATA drive bay. The iMac 27" 2017–2020 also has a PCIe NVMe blade slot that can be upgraded without opening the display. The iMac M1 and M3 (24-inch, 2021+) have storage soldered to the chip, no upgrade is possible on these models.',
+      'All Intel iMac models from 2012 onwards can have their internal storage replaced or upgraded with an SSD. The 2012-2019 iMac 21.5" and 27" models use a 3.5" SATA drive bay. The iMac 27" 2017-2020 also has a PCIe NVMe blade slot that can be upgraded without opening the display. The iMac M1 and M3 (24-inch, 2021+) have storage soldered to the chip, no upgrade is possible on these models.',
   },
   {
     question: 'What is a Fusion Drive and is it worth replacing?',
     answer:
-      'A Fusion Drive combines a spinning hard drive (1–2 TB) with a small SSD cache (24–128 GB). macOS automatically moves frequently-used files to the SSD portion. In practice, Fusion Drives are significantly slower than pure SSDs, and as they age, the management software can cause data loss. We recommend replacing a Fusion Drive with a single pure SSD, the performance improvement is substantial and you eliminate the Fusion complexity.',
+      'A Fusion Drive combines a spinning hard drive (1-2 TB) with a small SSD cache (24-128 GB). macOS automatically moves frequently-used files to the SSD portion. In practice, Fusion Drives are significantly slower than pure SSDs, and as they age, the management software can cause data loss. We recommend replacing a Fusion Drive with a single pure SSD, the performance improvement is substantial and you eliminate the Fusion complexity.',
   },
   {
     question: 'Will you migrate my data to the new SSD?',
@@ -59,17 +59,17 @@ const faqs = [
   {
     question: 'How long does an iMac SSD upgrade take?',
     answer:
-      'Opening the iMac 21.5" or 27" display takes 30–45 minutes. The SSD installation takes another 15–30 minutes. Data migration takes 1–4 hours depending on the amount of data (we use high-speed cloning). Total: most upgrades are completed same day or next morning. We give a time estimate when we receive the machine.',
+      'Opening the iMac 21.5" or 27" display takes 30-45 minutes. The SSD installation takes another 15-30 minutes. Data migration takes 1-4 hours depending on the amount of data (we use high-speed cloning). Total: most upgrades are completed same day or next morning. We give a time estimate when we receive the machine.',
   },
   {
     question: 'How do you open an iMac to replace the SSD?',
     answer:
-      'iMac displays from 2012–2014 use a suction cup to remove the glass panel. From 2015 onwards, the display is sealed with adhesive strips. We use professional tools to separate the display without damaging it, then reseal it with new adhesive after the upgrade. The result is identical to the factory seal.',
+      'iMac displays from 2012-2014 use a suction cup to remove the glass panel. From 2015 onwards, the display is sealed with adhesive strips. We use professional tools to separate the display without damaging it, then reseal it with new adhesive after the upgrade. The result is identical to the factory seal.',
   },
   {
     question: 'My iMac 27" already has a small SSD, can I get a faster or larger one?',
     answer:
-      'Yes. The iMac 27" 2017–2020 has a dedicated PCIe NVMe slot separate from the main hard drive bay. You can add a blade SSD here without any display removal (accessed through the RAM door). Alternatively, we can replace the internal spinning drive with a larger SSD during a full upgrade.',
+      'Yes. The iMac 27" 2017-2020 has a dedicated PCIe NVMe slot separate from the main hard drive bay. You can add a blade SSD here without any display removal (accessed through the RAM door). Alternatively, we can replace the internal spinning drive with a larger SSD during a full upgrade.',
   },
 ];
 
@@ -221,7 +221,7 @@ export default function IMacSSDUpgradePage() {
               { step: '2', title: 'Drive cloned or migrated', desc: 'We clone your existing drive to the new SSD using professional tools. Your files, apps, and settings transfer exactly.' },
               { step: '3', title: 'Display removed and drive replaced', desc: 'For most iMac models, the display is carefully separated, the drive replaced with the SSD, and the display resealed with new adhesive.' },
               { step: '4', title: 'macOS verified and tested', desc: 'We boot from the new SSD, verify all data transferred correctly, run a full system check, and time the boot.' },
-              { step: '5', title: 'Collect same day or next morning', desc: 'Most upgrades are completed within 4–6 hours. We call when ready.' },
+              { step: '5', title: 'Collect same day or next morning', desc: 'Most upgrades are completed within 4-6 hours. We call when ready.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
                 <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">

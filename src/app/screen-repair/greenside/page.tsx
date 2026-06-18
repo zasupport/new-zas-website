@@ -14,46 +14,46 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'Cracked Screen', desc: 'Impact cracks from drops, pressure, or objects placed on the closed lid. The Liquid Retina and Retina displays used in modern MacBooks are bonded to the front glass — a crack in the glass means the entire display assembly needs replacement. We carry stock for most models and replace same-day where possible.' },
-  { title: 'Pressure Marks / Dead Pixels', desc: 'Dark spots or coloured patches caused by pressure on the display — often from something resting on the keyboard when the lid was closed. These are permanent LCD damage and require display replacement. We see this frequently from bags and backpacks where weight compressed the closed MacBook.' },
-  { title: 'Flickering Display', desc: 'The screen flickers, strobes, or cuts in and out. This can be a display cable fault (flexgate on older models), a backlight driver IC failure on the logic board, or a failing display panel. Diagnosis determines the exact cause — cable and IC repairs are significantly cheaper than full display replacement.' },
+  { title: 'Cracked Screen', desc: 'Impact cracks from drops, pressure, or objects placed on the closed lid. The Liquid Retina and Retina displays used in modern MacBooks are bonded to the front glass, a crack in the glass means the entire display assembly needs replacement. We carry stock for most models and replace same-day where possible.' },
+  { title: 'Pressure Marks / Dead Pixels', desc: 'Dark spots or coloured patches caused by pressure on the display, often from something resting on the keyboard when the lid was closed. These are permanent LCD damage and require display replacement. We see this frequently from bags and backpacks where weight compressed the closed MacBook.' },
+  { title: 'Flickering Display', desc: 'The screen flickers, strobes, or cuts in and out. This can be a display cable fault (flexgate on older models), a backlight driver IC failure on the logic board, or a failing display panel. Diagnosis determines the exact cause, cable and IC repairs are significantly cheaper than full display replacement.' },
   { title: 'Display Coating Wear', desc: 'The anti-reflective coating on Retina MacBook displays degrades over time, leaving uneven patches that look like stains. Apple ran a quality programme for certain models but it has expired. We replace the full display assembly with correct coating intact.' },
-  { title: 'Backlight Failure', desc: 'The screen appears completely black but you can faintly see the desktop under bright light. The backlight circuit has failed — either a blown fuse, a failed backlight driver IC, or a damaged LED strip. On many models this is a board-level repair (R599 assessment) rather than a full display replacement, saving significant cost.' },
-  { title: 'External Monitor Works, Built-in Does Not', desc: 'The MacBook drives an external display perfectly but the built-in screen is blank, flickering, or showing artefacts. This confirms the GPU and logic board are functional — the fault is in the display assembly, display cable, or display connector on the board. Targeted repair rather than board replacement.' },
+  { title: 'Backlight Failure', desc: 'The screen appears completely black but you can faintly see the desktop under bright light. The backlight circuit has failed, either a blown fuse, a failed backlight driver IC, or a damaged LED strip. On many models this is a board-level repair (R599 assessment) rather than a full display replacement, saving significant cost.' },
+  { title: 'External Monitor Works, Built-in Does Not', desc: 'The MacBook drives an external display perfectly but the built-in screen is blank, flickering, or showing artefacts. This confirms the GPU and logic board are functional, the fault is in the display assembly, display cable, or display connector on the board. Targeted repair rather than board replacement.' },
 ];
 
 const faqs = [
   {
     question: 'Do you collect MacBooks for screen repair from Greenside?',
-    answer: 'Yes. Greenside is approximately 5 km from our Hyde Park workshop — roughly 8–12 minutes by car. We collect, assess the display fault, and provide a written quote before proceeding. WhatsApp 064 529 5863 to arrange.',
+    answer: 'Yes. Greenside is approximately 5 km from our Hyde Park workshop, roughly 8-12 minutes by car. We collect, assess the display fault, and provide a written quote before proceeding. WhatsApp 064 529 5863 to arrange.',
   },
   {
     question: 'How much does MacBook screen repair cost for Greenside clients?',
-    answer: 'Assessment from R599. Screen replacement cost depends on the model — MacBook Air displays are less expensive than MacBook Pro Retina or Liquid Retina XDR. Apple charges R8,000–R25,000 for display replacement. Our pricing is significantly lower with the same quality result. Written quote before any work.',
+    answer: 'Assessment from R599. Screen replacement cost depends on the model, MacBook Air displays are less expensive than MacBook Pro Retina or Liquid Retina XDR. Apple charges R8,000-R25,000 for display replacement. Our pricing is significantly lower with the same quality result. Written quote before any work.',
   },
   {
     question: 'How long does MacBook screen repair take?',
-    answer: 'Same-day for common models where we carry stock (MacBook Air M1/M2/M3, MacBook Pro 13/14/16-inch). Less common models may take 2–3 business days if a display needs to be sourced. Specific timeline provided in the written quote.',
+    answer: 'Same-day for common models where we carry stock (MacBook Air M1/M2/M3, MacBook Pro 13/14/16-inch). Less common models may take 2-3 business days if a display needs to be sourced. Specific timeline provided in the written quote.',
   },
   {
     question: 'Will screen repair erase my data?',
-    answer: 'No. Screen replacement is a physical display swap — the logic board, SSD, and all data-bearing components are not touched. Your files and applications are completely safe.',
+    answer: 'No. Screen replacement is a physical display swap, the logic board, SSD, and all data-bearing components are not touched. Your files and applications are completely safe.',
   },
   {
-    question: 'My screen is cracked but still displays — do I need to replace it?',
-    answer: 'A cracked screen will continue to deteriorate — cracks spread over time, especially with temperature changes. Liquid can also enter through cracks and damage the display further. We recommend replacement before secondary damage occurs, but the machine remains usable in the interim.',
+    question: 'My screen is cracked but still displays, do I need to replace it?',
+    answer: 'A cracked screen will continue to deteriorate, cracks spread over time, especially with temperature changes. Liquid can also enter through cracks and damage the display further. We recommend replacement before secondary damage occurs, but the machine remains usable in the interim.',
   },
   {
     question: 'Can you repair the backlight without replacing the entire screen?',
-    answer: 'In many cases yes. If the backlight failure is caused by a blown fuse or failed driver IC on the logic board, we repair at component level — much cheaper than full display replacement. The R599 assessment determines whether it is a board fault or a display fault.',
+    answer: 'In many cases yes. If the backlight failure is caused by a blown fuse or failed driver IC on the logic board, we repair at component level, much cheaper than full display replacement. The R599 assessment determines whether it is a board fault or a display fault.',
   },
   {
     question: 'What is flexgate?',
-    answer: 'Flexgate affected MacBook Pro 2016–2018 models where the display cable wore through from repeated opening and closing. It causes a backlight that only works at certain angles or a stage-light effect at the bottom of the screen. We repair with a revised cable design that prevents recurrence.',
+    answer: 'Flexgate affected MacBook Pro 2016-2018 models where the display cable wore through from repeated opening and closing. It causes a backlight that only works at certain angles or a stage-light effect at the bottom of the screen. We repair with a revised cable design that prevents recurrence.',
   },
   {
     question: 'Do you use genuine Apple screens?',
-    answer: 'We use genuine-spec replacement displays — same resolution, colour gamut (P3), brightness, and True Tone compatibility. On newer models with True Tone, calibration is performed post-replacement to restore automatic colour temperature adjustment.',
+    answer: 'We use genuine-spec replacement displays, same resolution, colour gamut (P3), brightness, and True Tone compatibility. On newer models with True Tone, calibration is performed post-replacement to restore automatic colour temperature adjustment.',
   },
 ];
 
@@ -100,11 +100,11 @@ export default function ScreenRepairGreensidePage() {
               <br /><span className="text-[#0FEA7A]">Greenside</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook screen repair for Greenside clients. Cracked display, pressure marks, flickering, backlight failure, and display coating damage. Assessment from R599 at our Hyde Park workshop. Collection from Greenside — approximately 5 km, 8–12 minutes by car.
+              MacBook screen repair for Greenside clients. Cracked display, pressure marks, flickering, backlight failure, and display coating damage. Assessment from R599 at our Hyde Park workshop. Collection from Greenside, approximately 5 km, 8-12 minutes by car.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Greenside — approx 8–12 min drive</span>
+              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Greenside, approx 8-12 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {['Same-Day Available', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
@@ -132,7 +132,7 @@ export default function ScreenRepairGreensidePage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Screen Faults We Repair for Greenside Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Greenside is approximately 5 km from our Hyde Park workshop. All MacBook models from 2015 onwards are covered — Retina, Liquid Retina, and Liquid Retina XDR displays. Every fault is assessed before quoting, and many display issues can be resolved at board level without replacing the full screen assembly.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Greenside is approximately 5 km from our Hyde Park workshop. All MacBook models from 2015 onwards are covered, Retina, Liquid Retina, and Liquid Retina XDR displays. Every fault is assessed before quoting, and many display issues can be resolved at board level without replacing the full screen assembly.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.title} className="glass-card p-5">
@@ -146,7 +146,7 @@ export default function ScreenRepairGreensidePage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title={`MacBook Screen Repair Greenside — Common Questions`} />
+          <FAQAccordion items={faqs} title={`MacBook Screen Repair Greenside, Common Questions`} />
         </div>
       </section>
 

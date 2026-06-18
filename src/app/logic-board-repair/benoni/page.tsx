@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -37,12 +37,12 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Benoni?', answer: 'Yes — we collect from across Benoni, including Northmead, Rynfield, Lakefield, Farrarmere, and Crystal Park. The drive from Hyde Park runs via the M1 and R21, and our courier handles the East Rand route on a regular schedule. Message us on WhatsApp at 064 529 5863 to arrange a pickup window that suits you.' },
+  { question: 'Do you collect MacBooks from Benoni?', answer: 'Yes, we collect from across Benoni, including Northmead, Rynfield, Lakefield, Farrarmere, and Crystal Park. The drive from Hyde Park runs via the M1 and R21, and our courier handles the East Rand route on a regular schedule. Message us on WhatsApp at 064 529 5863 to arrange a pickup window that suits you.' },
   { question: 'How far is Benoni from your Hyde Park workshop?', answer: 'Benoni is approximately 40 minutes from our Hyde Park workshop, depending on the time of day and traffic on the R21 and N3 East. We have built our collection schedule around East Rand suburbs, so Benoni, Boksburg, and Kempton Park typically run on the same route day.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we diagnose the exact failed part on the logic board — a power IC, a capacitor, a shorted MOSFET, or a damaged trace — and replace only that component under the microscope. Board replacement swaps the entire logic board for another unit, which on modern MacBooks is often impossible (Apple Silicon boards are paired to the chassis) and on older machines costs many times more than the component repair itself.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. A completely dead MacBook usually points to a failure on the charging circuit — the USB-C controller, the SMC, a blown protection fuse, or a shorted capacitor on a power rail. We test for current draw the moment the charger is connected, which immediately tells us whether the board is shorted, open, or partially functional. The majority of no-power machines we see from Benoni clients are recoverable.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we diagnose the exact failed part on the logic board, a power IC, a capacitor, a shorted MOSFET, or a damaged trace, and replace only that component under the microscope. Board replacement swaps the entire logic board for another unit, which on modern MacBooks is often impossible (Apple Silicon boards are paired to the chassis) and on older machines costs many times more than the component repair itself.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. A completely dead MacBook usually points to a failure on the charging circuit, the USB-C controller, the SMC, a blown protection fuse, or a shorted capacitor on a power rail. We test for current draw the moment the charger is connected, which immediately tells us whether the board is shorted, open, or partially functional. The majority of no-power machines we see from Benoni clients are recoverable.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours of approval. Straightforward power IC or charging port repairs can sometimes turn around faster. Liquid damage cases, where corrosion needs careful cleaning before any rework can begin, occasionally take longer. We give you a realistic timeframe once the diagnostic is complete, rather than at booking.' },
-  { question: 'What is the assessment fee?', answer: 'Our assessment fee is from R599. This covers the full electrical diagnostic on the logic board — current draw analysis, rail testing, and visual inspection under the microscope. If you go ahead with the repair, the assessment fee forms part of the total quoted price. If the board is genuinely beyond economical repair, you only pay the assessment fee and we return the machine.' },
+  { question: 'What is the assessment fee?', answer: 'Our assessment fee is from R599. This covers the full electrical diagnostic on the logic board, current draw analysis, rail testing, and visual inspection under the microscope. If you go ahead with the repair, the assessment fee forms part of the total quoted price. If the board is genuinely beyond economical repair, you only pay the assessment fee and we return the machine.' },
   { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The assessment fee starts from R599 and covers the diagnostic time and bench testing required to identify the fault. We do not quote blindly or charge for parts before knowing what is actually wrong. Once we have isolated the failed component, you receive a fixed repair quote before any soldering work begins.' },
   { question: 'Which MacBook models do you repair for Benoni clients?', answer: 'We repair MacBook Pro and MacBook Air from the Intel Core i5 and i7 generations right through to Apple Silicon M1, M2, and M3 boards. We also handle iMac and Mac mini logic boards. If you are unsure whether your specific model and year is something we tool for, send us the serial number on WhatsApp and we will confirm before you arrange collection from Benoni.' },
 ];
@@ -87,10 +87,10 @@ export default function LogicBoardRepairBenoniPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Benoni, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Benoni MacBook owners — from Lakefield professionals to small business operators near Lakeside Mall — rely on our logic board repair service when their machines stop powering up. We collect from Benoni and repair at our Hyde Park component-level workshop, roughly 40 minutes away via the R21 and N3. Assessment from R599.
+              Benoni MacBook owners, from Lakefield professionals to small business operators near Lakeside Mall, rely on our logic board repair service when their machines stop powering up. We collect from Benoni and repair at our Hyde Park component-level workshop, roughly 40 minutes away via the R21 and N3. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -131,16 +131,16 @@ export default function LogicBoardRepairBenoniPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Benoni sits at the heart of the East Rand, and we have been collecting failed MacBooks from residents around Northmead, Rynfield, Lakefield, and Crystal Park for several years now. The pattern we see consistently from this corridor is a mix of older Intel-era machines that have served families and home offices well past their warranty, alongside newer M1 and M2 units belonging to professionals who commute into Sandton or Bedfordview daily. Logic board failures present in many shapes — no power on the press of the power button, a backlight that flickers and dies, USB-C ports that refuse to charge, kernel panics on wake, or fans that spin at full speed with nothing on screen. Each of these traces back to a specific component on the board, and that is what our diagnostic process is built to isolate.
+              Benoni sits at the heart of the East Rand, and we have been collecting failed MacBooks from residents around Northmead, Rynfield, Lakefield, and Crystal Park for several years now. The pattern we see consistently from this corridor is a mix of older Intel-era machines that have served families and home offices well past their warranty, alongside newer M1 and M2 units belonging to professionals who commute into Sandton or Bedfordview daily. Logic board failures present in many shapes, no power on the press of the power button, a backlight that flickers and dies, USB-C ports that refuse to charge, kernel panics on wake, or fans that spin at full speed with nothing on screen. Each of these traces back to a specific component on the board, and that is what our diagnostic process is built to isolate.
             </p>
             <p>
-              Our Hyde Park workshop runs hot-air rework stations, precision soldering irons, stereo microscopes with sufficient magnification to read chip markings, and the schematic and boardview references needed to follow signal paths chip to chip. When a Benoni client&apos;s MacBook arrives, we begin with a structured electrical assessment — current draw on the charging line, voltage rails across the SMC and PMIC, and continuity checks on the suspect circuit. This tells us whether the fault sits at a power IC, a shorted capacitor, a failed SSD controller, or further along the board. Quoting only happens once we know exactly what the repair entails — no guesswork, no swapping parts in hope.
+              Our Hyde Park workshop runs hot-air rework stations, precision soldering irons, stereo microscopes with sufficient magnification to read chip markings, and the schematic and boardview references needed to follow signal paths chip to chip. When a Benoni client&apos;s MacBook arrives, we begin with a structured electrical assessment, current draw on the charging line, voltage rails across the SMC and PMIC, and continuity checks on the suspect circuit. This tells us whether the fault sits at a power IC, a shorted capacitor, a failed SSD controller, or further along the board. Quoting only happens once we know exactly what the repair entails, no guesswork, no swapping parts in hope.
             </p>
             <p>
-              For Benoni residents and businesses, the collection and return service runs along the East Rand route — we have picked up from homes in Farrarmere, offices off Tom Jones Street, and even from clients near Benoni Lake. The MacBook is logged, brought to Hyde Park, diagnosed, repaired, stress-tested under load, and returned once we are satisfied the fault will not return. Most board-level repairs finish within 48 to 72 hours from the point of approval, although liquid damage and severe corrosion cases sometimes need a few extra days. We repair MacBook Pro, MacBook Air, iMac, and Mac mini across every generation we have tooling for — Intel Core i5 and i7 boards through to Apple Silicon M1, M2, and M3. If your machine is dead on the desk, message us on WhatsApp at 064 529 5863 or call to arrange collection from Benoni.
+              For Benoni residents and businesses, the collection and return service runs along the East Rand route, we have picked up from homes in Farrarmere, offices off Tom Jones Street, and even from clients near Benoni Lake. The MacBook is logged, brought to Hyde Park, diagnosed, repaired, stress-tested under load, and returned once we are satisfied the fault will not return. Most board-level repairs finish within 48 to 72 hours from the point of approval, although liquid damage and severe corrosion cases sometimes need a few extra days. We repair MacBook Pro, MacBook Air, iMac, and Mac mini across every generation we have tooling for, Intel Core i5 and i7 boards through to Apple Silicon M1, M2, and M3. If your machine is dead on the desk, message us on WhatsApp at 064 529 5863 or call to arrange collection from Benoni.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairBenoniPage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairBenoniPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairBenoniPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Benoni — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Benoni, Common Questions" />
         </div>
       </section>
 

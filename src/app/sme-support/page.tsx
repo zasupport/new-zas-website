@@ -65,7 +65,7 @@ const SME_FAQS = [
   {
     question: 'Are you a BEE-accredited IT provider?',
     answer:
-      'Yes. Vizibiliti Intelligent Solutions (Pty) Ltd, trading as ZA Support, is a BEE Level 1 services provider. This means procurement from us maximises your BEE scorecard points — particularly valuable for businesses tendering or working with government and corporate clients in South Africa.',
+      'Yes. Vizibiliti Intelligent Solutions (Pty) Ltd, trading as ZA Support, is a BEE Level 1 services provider. This means procurement from us maximises your BEE scorecard points, particularly valuable for businesses tendering or working with government and corporate clients in South Africa.',
   },
   {
     question: 'Do you offer business finance for Apple hardware purchases?',
@@ -75,7 +75,7 @@ const SME_FAQS = [
   {
     question: 'What does your dedicated account manager service include?',
     answer:
-      'Every SME client on a managed SLA receives a dedicated account manager who knows your business, your devices, and your team. They handle proactive monitoring, quarterly reviews, procurement planning, warranty tracking, and act as your single point of contact for all IT matters. No call centres, no ticket queues — direct access to someone who understands your environment.',
+      'Every SME client on a managed SLA receives a dedicated account manager who knows your business, your devices, and your team. They handle proactive monitoring, quarterly reviews, procurement planning, warranty tracking, and act as your single point of contact for all IT matters. No call centres, no ticket queues, direct access to someone who understands your environment.',
   },
   {
     question: 'Can you handle Apple software development for our business?',
@@ -85,12 +85,12 @@ const SME_FAQS = [
   {
     question: 'How fast is your turnaround for business repairs?',
     answer:
-      'SME clients on an SLA receive priority turnaround — most MacBook and iMac repairs are completed within 24 to 72 hours. We carry dedicated spare parts for common business models (MacBook Pro 14-inch, MacBook Air M2/M3, iMac 24-inch), which means we do not wait weeks for parts to arrive. Walk-in assessments take 30 to 60 minutes.',
+      'SME clients on an SLA receive priority turnaround, most MacBook and iMac repairs are completed within 24 to 72 hours. We carry dedicated spare parts for common business models (MacBook Pro 14-inch, MacBook Air M2/M3, iMac 24-inch), which means we do not wait weeks for parts to arrive. Walk-in assessments take 30 to 60 minutes.',
   },
   {
     question: 'Do you provide networking and infrastructure for SMEs?',
     answer:
-      'Absolutely. We design, deploy, and manage specialist networking solutions including UniFi access points and switches, Meraki cloud-managed networks, structured cabling, VPN configuration, and VLAN segmentation. We have seen too many small businesses running consumer-grade routers — proper business networking eliminates dropouts, improves security, and scales as your team grows.',
+      'Absolutely. We design, deploy, and manage specialist networking solutions including UniFi access points and switches, Meraki cloud-managed networks, structured cabling, VPN configuration, and VLAN segmentation. We have seen too many small businesses running consumer-grade routers, proper business networking eliminates dropouts, improves security, and scales as your team grows.',
   },
 ];
 
@@ -115,7 +115,7 @@ const SME_SERVICES = [
   {
     icon: Users,
     title: 'Dedicated Account Manager',
-    desc: 'One person who knows your business, your devices, and your team. Direct contact — no call centres, no ticket queues.',
+    desc: 'One person who knows your business, your devices, and your team. Direct contact, no call centres, no ticket queues.',
   },
   {
     icon: Network,
@@ -148,7 +148,7 @@ const GROWTH_FEATURES = [
   {
     icon: Zap,
     title: 'Fastest Turnaround in Johannesburg',
-    desc: 'SLA clients get priority repairs — most completed in 24 to 72 hours. We carry parts for common business models so nothing waits on shipping.',
+    desc: 'SLA clients get priority repairs, most completed in 24 to 72 hours. We carry parts for common business models so nothing waits on shipping.',
   },
   {
     icon: Headphones,
@@ -158,7 +158,7 @@ const GROWTH_FEATURES = [
   {
     icon: Building2,
     title: 'Full IT Ecosystem',
-    desc: 'Devices, networking, software, security, procurement, and ongoing support — all from one provider. No finger-pointing between vendors.',
+    desc: 'Devices, networking, software, security, procurement, and ongoing support, all from one provider. No finger-pointing between vendors.',
   },
   {
     icon: Settings,
@@ -189,7 +189,7 @@ export default function SMESupportPage() {
             <p className="text-xl text-[#7A9E98] leading-relaxed max-w-3xl mb-8">
               Your business runs on Apple. We make sure it never stops. ZA Support delivers managed IT
               services, priority repairs, specialist networking, and Apple software development for SMEs
-              across Johannesburg — backed by 16 years of expertise and a dedicated account manager for
+              across Johannesburg, backed by 16 years of expertise and a dedicated account manager for
               every client.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -241,7 +241,7 @@ export default function SMESupportPage() {
             <p className="text-[#7A9E98] max-w-2xl mx-auto leading-relaxed">
               We have worked with small and medium businesses in Johannesburg since 2009. The most common
               mistake we see is companies treating IT as an afterthought until something breaks. Our approach
-              is different — proactive support that prevents downtime and scales as you grow.
+              is different, proactive support that prevents downtime and scales as you grow.
             </p>
           </div>
 
@@ -273,7 +273,7 @@ export default function SMESupportPage() {
             </h2>
             <p className="text-[#7A9E98] max-w-2xl mx-auto leading-relaxed">
               From a single MacBook repair to a full fleet deployment with networking, software, and ongoing
-              managed support. In our Hyde Park workshop, we handle everything under one roof — and we come
+              managed support. In our Hyde Park workshop, we handle everything under one roof, and we come
               to your office when you need us on-site.
             </p>
           </div>
@@ -308,7 +308,7 @@ export default function SMESupportPage() {
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
                   Most IT providers in Johannesburg are geared towards either individual consumers or
-                  large corporates. The gap in the middle — businesses with 3 to 50 Apple devices — is
+                  large corporates. The gap in the middle, businesses with 3 to 50 Apple devices, is
                   exactly where ZA Support thrives. We have been filling that gap since 2009 from our
                   workshop at 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196.
                 </p>
@@ -326,7 +326,7 @@ export default function SMESupportPage() {
                   <Link href="/logic-board-repair" className="text-[#0FEA7A] hover:underline">
                     logic board repair
                   </Link>{' '}
-                  capability means we fix boards that other shops replace — saving you 40 to 70 percent
+                  capability means we fix boards that other shops replace, saving you 40 to 70 percent
                   compared to a full board swap. That difference compounds across a fleet.
                 </p>
                 <p>
@@ -345,8 +345,8 @@ export default function SMESupportPage() {
                 <p>
                   Vizibiliti Intelligent Solutions (Pty) Ltd, trading as ZA Support, is a verified
                   BEE Level 1 services provider. For South African businesses that need to meet BEE
-                  procurement targets — particularly those tendering for government or corporate
-                  contracts — every rand spent with us counts at the maximum recognition level on
+                  procurement targets, particularly those tendering for government or corporate
+                  contracts, every rand spent with us counts at the maximum recognition level on
                   your scorecard.
                 </p>
                 <p>
@@ -361,7 +361,7 @@ export default function SMESupportPage() {
                   SMEs. Whether you need a custom internal tool built on macOS, a client-facing iPad
                   application, or workflow automations that connect your Apple fleet to existing
                   business systems, we handle the full development lifecycle. We build, deploy, and
-                  support — no third-party handoffs.
+                  support, no third-party handoffs.
                 </p>
                 <p>
                   The assessment fee starts from R599, and our standard rate is R899 per hour. For{' '}
@@ -373,7 +373,7 @@ export default function SMESupportPage() {
                     managed service agreements
                   </Link>{' '}
                   with fixed monthly pricing, quarterly business reviews, and guaranteed response
-                  times. Every engagement starts with a transparent written quote — no surprises.
+                  times. Every engagement starts with a transparent written quote, no surprises.
                 </p>
               </div>
             </div>
@@ -392,7 +392,7 @@ export default function SMESupportPage() {
               {
                 step: '01',
                 title: 'Assessment',
-                desc: 'We audit your current Apple environment — devices, networking, software, security. Assessment from R599.',
+                desc: 'We audit your current Apple environment, devices, networking, software, security. Assessment from R599.',
               },
               {
                 step: '02',
@@ -479,7 +479,7 @@ export default function SMESupportPage() {
       {/* ── FAQ Section ──────────────────────────────────────────────────────── */}
       <section className="py-16 sm:py-24 bg-[#111C1A]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={SME_FAQS} title="SME Apple Support — Frequently Asked Questions" />
+          <FAQAccordion items={SME_FAQS} title="SME Apple Support, Frequently Asked Questions" />
         </div>
       </section>
 

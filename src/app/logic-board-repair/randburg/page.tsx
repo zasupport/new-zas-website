@@ -38,11 +38,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Randburg to collect my MacBook?',
-    answer: 'Yes. We collect from Randburg and carry out all logic board repairs at our Hyde Park workshop. Randburg is approximately 10–15 km from Hyde Park, a 15 to 20-minute drive. Contact us on WhatsApp or by phone to arrange a convenient collection time at your home or office in Randburg.',
+    answer: 'Yes. We collect from Randburg and carry out all logic board repairs at our Hyde Park workshop. Randburg is approximately 10-15 km from Hyde Park, a 15 to 20-minute drive. Contact us on WhatsApp or by phone to arrange a convenient collection time at your home or office in Randburg.',
   },
   {
     question: 'How far is Randburg from your Hyde Park workshop?',
-    answer: 'Our Hyde Park workshop at 1 Hyde Lane is approximately 10–15 km from Randburg central, roughly 15 to 20 minutes by car, depending on the route and traffic. It is a very manageable distance and we also offer collection from Randburg directly.',
+    answer: 'Our Hyde Park workshop at 1 Hyde Lane is approximately 10-15 km from Randburg central, roughly 15 to 20 minutes by car, depending on the route and traffic. It is a very manageable distance and we also offer collection from Randburg directly.',
   },
   {
     question: 'What types of MacBook do you repair for Randburg clients?',
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro 2019 shows screen artefacts. Is that a GPU fault?',
-    answer: 'It is a strong indicator of GPU failure, particularly on 15-inch and 16-inch Intel MacBook Pro models from 2016–2019 which had known GPU instability. Our diagnostic confirms whether it is the discrete AMD GPU, the display signal path, or the TCON board. GPU reballing on these models is a known fix we carry out regularly.',
+    answer: 'It is a strong indicator of GPU failure, particularly on 15-inch and 16-inch Intel MacBook Pro models from 2016-2019 which had known GPU instability. Our diagnostic confirms whether it is the discrete AMD GPU, the display signal path, or the TCON board. GPU reballing on these models is a known fix we carry out regularly.',
   },
   {
     question: 'Can you repair a MacBook that has been water damaged for some time?',
@@ -102,14 +102,14 @@ export default function LogicBoardRepairRandburgPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Randburg, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook logic board component-level repair for Randburg residents and businesses. We collect from Randburg and repair at our Hyde Park workshop, no board-swap guesswork, component-level repair only.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Randburg and repair at our Hyde Park workshop, approx. 15–20 min drive</span>
+              <span>We collect from Randburg and repair at our Hyde Park workshop, approx. 15-20 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -191,7 +191,7 @@ export default function LogicBoardRepairRandburgPage() {
               { step: '02', title: 'Board Diagnostic', desc: 'Assessment completed within 24 hours. Fault identified at component level using schematics, microscope, and power-supply tools.' },
               { step: '03', title: 'Quote with Approval', desc: 'Written quote sent to you. Fault description, repair method, cost, and delivery timeline, clear and specific. No hidden costs.' },
               { step: '04', title: 'Precision Repair', desc: 'Specific failed component replaced under a Swift 100X microscope. Your board stays original. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Randburg', desc: 'Tested under load and returned to your Randburg address with a written up-to-3 year warranty. Typically 48–72 hours from collection.' },
+              { step: '05', title: 'Return to Randburg', desc: 'Tested under load and returned to your Randburg address with a written up-to-3 year warranty. Typically 48-72 hours from collection.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>

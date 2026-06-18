@@ -77,69 +77,69 @@ const pricingRows = [
     model: 'MacBook Pro 13″ M2 (A2338, 2022)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi), True Tone',
     from: 'R3,999',
-    turnaround: '48–72 hrs',
+    turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 13″ M1 (A2338, 2020)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi), True Tone',
     from: 'R3,999',
-    turnaround: '48–72 hrs',
+    turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 13″ Intel (A2289/A2251, 2020)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi), Touch Bar',
     from: 'R3,499',
-    turnaround: '48–72 hrs',
+    turnaround: '48-72 hrs',
   },
   {
-    model: 'MacBook Pro 13″ Intel (A1989/A1706, 2016–2019)',
+    model: 'MacBook Pro 13″ Intel (A1989/A1706, 2016-2019)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi)',
     from: 'R3,499',
-    turnaround: '48–72 hrs',
+    turnaround: '48-72 hrs',
   },
   {
-    model: 'MacBook Pro 13″ — display cable / backlight IC only',
+    model: 'MacBook Pro 13″, display cable / backlight IC only',
     panel: 'Component-level backlight driver or flex cable repair',
     from: 'R1,499',
-    turnaround: '24–48 hrs',
+    turnaround: '24-48 hrs',
   },
 ];
 
 const faultTypes = [
   {
-    title: 'Backlight Driver IC Failure — Load Shedding Surge Damage',
+    title: 'Backlight Driver IC Failure: Load Shedding Surge Damage',
     icon: Zap,
-    desc: 'Load shedding is the leading cause of MacBook Pro 13-inch backlight failure we see across Johannesburg. The 13-inch models from the M1 and M2 generation use a 61 W USB-C power adapter, and clients in Sandton, Fourways, Bryanston, and Midrand frequently leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike travels through the USB-C charger onto the backlight power rail. The backlight driver IC — a small surface-mounted component on the logic board — absorbs the surge and fails. The result is a MacBook Pro 13 that boots normally, with keyboard backlight and external display working correctly, but with a completely dark built-in screen. We repair the backlight driver IC at component level from R1,499 — no logic board replacement required.',
+    desc: 'Load shedding is the leading cause of MacBook Pro 13-inch backlight failure we see across Johannesburg. The 13-inch models from the M1 and M2 generation use a 61 W USB-C power adapter, and clients in Sandton, Fourways, Bryanston, and Midrand frequently leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike travels through the USB-C charger onto the backlight power rail. The backlight driver IC, a small surface-mounted component on the logic board, absorbs the surge and fails. The result is a MacBook Pro 13 that boots normally, with keyboard backlight and external display working correctly, but with a completely dark built-in screen. We repair the backlight driver IC at component level from R1,499, no logic board replacement required.',
     severity: 'high',
   },
   {
-    title: 'Cracked Retina IPS LCD Panel — Physical Impact',
+    title: 'Cracked Retina IPS LCD Panel: Physical Impact',
     icon: AlertTriangle,
-    desc: 'The MacBook Pro 13-inch display assembly is a laminated unit — the glass, IPS LCD panel, and backlight diffuser are bonded together without a separately replaceable outer glass layer. A corner drop onto concrete or tile, a hard object caught between the keyboard and screen when the lid is closed, or a direct impact against the display face is enough to crack the panel. We have seen cracked 13-inch screens from clients in Rosebank, Northcliff, Pretoria, and Centurion — typically laptops carried without a padded sleeve. The full display assembly must be sourced and replaced as a unit. We verify colour accuracy, brightness uniformity, and True Tone operation before returning the machine from our Hyde Park workshop.',
+    desc: 'The MacBook Pro 13-inch display assembly is a laminated unit, the glass, IPS LCD panel, and backlight diffuser are bonded together without a separately replaceable outer glass layer. A corner drop onto concrete or tile, a hard object caught between the keyboard and screen when the lid is closed, or a direct impact against the display face is enough to crack the panel. We have seen cracked 13-inch screens from clients in Rosebank, Northcliff, Pretoria, and Centurion, typically laptops carried without a padded sleeve. The full display assembly must be sourced and replaced as a unit. We verify colour accuracy, brightness uniformity, and True Tone operation before returning the machine from our Hyde Park workshop.',
     severity: 'high',
   },
   {
-    title: 'Display Flex Cable Failure — Hinge Wear',
+    title: 'Display Flex Cable Failure: Hinge Wear',
     icon: Monitor,
-    desc: 'The MacBook Pro 13-inch display flex cable routes through the hinge assembly between the logic board and the display panel. In machines used on a desk where the lid is opened and closed frequently — medical practices, legal firms, and accountancy offices in Sandton and Rosebank are common examples — the cable develops micro-fractures from repeated flexing at the hinge. The symptom is a display that flickers or goes dark at specific hinge angles but works correctly when held still. The diagnostic is simple: slowly open and close the lid while watching the screen. If the symptom tracks with hinge position, the cable is the likely cause. A cable-only repair costs significantly less than a full display assembly and is our first recommendation when the panel is otherwise undamaged.',
+    desc: 'The MacBook Pro 13-inch display flex cable routes through the hinge assembly between the logic board and the display panel. In machines used on a desk where the lid is opened and closed frequently, medical practices, legal firms, and accountancy offices in Sandton and Rosebank are common examples, the cable develops micro-fractures from repeated flexing at the hinge. The symptom is a display that flickers or goes dark at specific hinge angles but works correctly when held still. The diagnostic is simple: slowly open and close the lid while watching the screen. If the symptom tracks with hinge position, the cable is the likely cause. A cable-only repair costs significantly less than a full display assembly and is our first recommendation when the panel is otherwise undamaged.',
     severity: 'high',
   },
   {
-    title: 'Stage-Light Flexgate Effect — Flex Cable Delamination',
+    title: 'Stage-Light Flexgate Effect: Flex Cable Delamination',
     icon: AlertTriangle,
-    desc: 'A known failure mode on MacBook Pro 13-inch Intel models from 2016 to 2019 — in particular the A1706 and A1989 — is the so-called Flexgate fault. The display backlight flex cable on these machines is unusually short and subject to stress fatigue near the hinge pivot point. In our Hyde Park workshop we have seen this manifest as a narrow strip of light at the bottom of the display when the lid is near-closed — a visual effect described as a stage spotlight or torch beam along the bottom edge — or as a full backlight failure. This is a design-specific fault, not the result of misuse, and it affects some machines that have never been dropped. The repair involves replacing the display cable assembly; we quote the exact cost after confirming the model year and serial number.',
+    desc: 'A known failure mode on MacBook Pro 13-inch Intel models from 2016 to 2019, in particular the A1706 and A1989, is the so-called Flexgate fault. The display backlight flex cable on these machines is unusually short and subject to stress fatigue near the hinge pivot point. In our Hyde Park workshop we have seen this manifest as a narrow strip of light at the bottom of the display when the lid is near-closed, a visual effect described as a stage spotlight or torch beam along the bottom edge, or as a full backlight failure. This is a design-specific fault, not the result of misuse, and it affects some machines that have never been dropped. The repair involves replacing the display cable assembly; we quote the exact cost after confirming the model year and serial number.',
     severity: 'medium',
   },
   {
     title: 'True Tone Loss After Incorrect Replacement (M1 and M2)',
     icon: Eye,
-    desc: 'MacBook Pro 13-inch models with the M1 and M2 chip store True Tone calibration data within the display assembly, matched to that specific panel at the factory. When a screen replacement is performed without transferring this calibration data — which requires specific tooling and procedural knowledge — True Tone becomes permanently unavailable, appearing as greyed out in System Settings. We include True Tone calibration data transfer in every M1 and M2 13-inch display replacement as standard practice. Clients who have had the repair done elsewhere and are now missing True Tone can bring the machine in; in most cases we can restore the feature if the serial number is still intact in the display assembly.',
+    desc: 'MacBook Pro 13-inch models with the M1 and M2 chip store True Tone calibration data within the display assembly, matched to that specific panel at the factory. When a screen replacement is performed without transferring this calibration data, which requires specific tooling and procedural knowledge, True Tone becomes permanently unavailable, appearing as greyed out in System Settings. We include True Tone calibration data transfer in every M1 and M2 13-inch display replacement as standard practice. Clients who have had the repair done elsewhere and are now missing True Tone can bring the machine in; in most cases we can restore the feature if the serial number is still intact in the display assembly.',
     severity: 'medium',
   },
   {
-    title: 'Discolouration and Staining — Liquid Ingress Through Keyboard',
+    title: 'Discolouration and Staining: Liquid Ingress Through Keyboard',
     icon: Monitor,
-    desc: 'MacBook Pro 13-inch models — including the A2338 M1 and M2 variants — route ventilation and keyboard openings in a way that allows liquid to reach the display assembly if a drink is spilled onto the keyboard. We have seen clients in Bryanston and Morningside present MacBook Pro 13-inch machines where coffee, tea, or water has migrated to the display cable connectors or reached the edge of the display panel, causing yellow or brown staining in the lower corner of the screen. Depending on severity, this may be repairable at component level (cable cleaning and connector inspection) or may require a full display assembly replacement. Our assessment identifies the extent of contamination before we quote.',
+    desc: 'MacBook Pro 13-inch models, including the A2338 M1 and M2 variants, route ventilation and keyboard openings in a way that allows liquid to reach the display assembly if a drink is spilled onto the keyboard. We have seen clients in Bryanston and Morningside present MacBook Pro 13-inch machines where coffee, tea, or water has migrated to the display cable connectors or reached the edge of the display panel, causing yellow or brown staining in the lower corner of the screen. Depending on severity, this may be repairable at component level (cable cleaning and connector inspection) or may require a full display assembly replacement. Our assessment identifies the extent of contamination before we quote.',
     severity: 'medium',
   },
 ];
@@ -166,32 +166,32 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 13-inch screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro 13-inch screen repair at ZA Support starts from R3,999 for M1 and M2 models (A2338) and from R3,499 for Intel models (A2289, A2251, A1989, A1706). Component-level repairs — backlight driver IC or display cable — start from R1,499. The Apple Store and iStore charge R8,000 to R14,000 for MacBook Pro 13-inch display swaps. We carry out a component-level diagnostic first to avoid recommending a full assembly replacement when only a cable or IC is at fault. A written fixed-price quote is provided after the assessment before any work begins.',
+      'MacBook Pro 13-inch screen repair at ZA Support starts from R3,999 for M1 and M2 models (A2338) and from R3,499 for Intel models (A2289, A2251, A1989, A1706). Component-level repairs, backlight driver IC or display cable, start from R1,499. The Apple Store and iStore charge R8,000 to R14,000 for MacBook Pro 13-inch display swaps. We carry out a component-level diagnostic first to avoid recommending a full assembly replacement when only a cable or IC is at fault. A written fixed-price quote is provided after the assessment before any work begins.',
   },
   {
     question: 'My MacBook Pro 13-inch screen is black but the Mac is on. What is the cause?',
     answer:
-      'The most likely cause is backlight driver IC failure. To confirm: in a dark room, hold a torch against the display at a low angle. If you can faintly see the desktop or menu bar, the M1, M2, or Intel chip is functioning normally — only the backlight circuit has failed. In Johannesburg, the most common trigger is a load shedding voltage surge through the USB-C charger damaging the backlight IC on the logic board. We repair this at component level from R1,499 — no display assembly replacement required. If you see nothing under torchlight, the fault may be in the panel, the display cable, or deeper in the logic board — our assessment identifies the exact cause.',
+      'The most likely cause is backlight driver IC failure. To confirm: in a dark room, hold a torch against the display at a low angle. If you can faintly see the desktop or menu bar, the M1, M2, or Intel chip is functioning normally, only the backlight circuit has failed. In Johannesburg, the most common trigger is a load shedding voltage surge through the USB-C charger damaging the backlight IC on the logic board. We repair this at component level from R1,499, no display assembly replacement required. If you see nothing under torchlight, the fault may be in the panel, the display cable, or deeper in the logic board, our assessment identifies the exact cause.',
   },
   {
     question: 'What is the Flexgate fault on MacBook Pro 13-inch and do you repair it?',
     answer:
-      'Flexgate refers to a display cable failure found primarily in MacBook Pro 13-inch Intel models from 2016 to 2019 (A1706 and A1989). The display backlight flex cable on these machines is too short and cracks near the hinge pivot after repeated lid opening and closing. The visual symptom is a narrow band of light along the bottom edge of the screen when the lid is partially closed, or a full backlight failure. Yes, we repair this fault — we replace the display cable assembly. Bring your machine in or contact us on WhatsApp with your serial number and we will confirm the exact repair cost.',
+      'Flexgate refers to a display cable failure found primarily in MacBook Pro 13-inch Intel models from 2016 to 2019 (A1706 and A1989). The display backlight flex cable on these machines is too short and cracks near the hinge pivot after repeated lid opening and closing. The visual symptom is a narrow band of light along the bottom edge of the screen when the lid is partially closed, or a full backlight failure. Yes, we repair this fault, we replace the display cable assembly. Bring your machine in or contact us on WhatsApp with your serial number and we will confirm the exact repair cost.',
   },
   {
     question: 'Does MacBook Pro 13-inch M1 and M2 screen replacement preserve True Tone?',
     answer:
-      'Only if the replacement is performed with the correct procedure. True Tone on M1 and M2 MacBook Pro 13-inch models stores calibration data inside the display assembly, matched to that panel at the factory. Replacing the display without transferring this data permanently disables True Tone — it will show greyed out in System Settings. At ZA Support, True Tone calibration data transfer is included as standard in every M1 and M2 13-inch display replacement. Your machine will show True Tone as active and functioning after leaving our Hyde Park workshop.',
+      'Only if the replacement is performed with the correct procedure. True Tone on M1 and M2 MacBook Pro 13-inch models stores calibration data inside the display assembly, matched to that panel at the factory. Replacing the display without transferring this data permanently disables True Tone, it will show greyed out in System Settings. At ZA Support, True Tone calibration data transfer is included as standard in every M1 and M2 13-inch display replacement. Your machine will show True Tone as active and functioning after leaving our Hyde Park workshop.',
   },
   {
     question: 'How long does MacBook Pro 13-inch screen repair take?',
     answer:
-      'MacBook Pro 13-inch screen repairs typically take 48 to 72 hours from drop-off, accounting for parts sourcing, the replacement procedure, and post-repair calibration checks. Component-level repairs — backlight IC or display cable — are usually complete within 24 to 48 hours. We confirm the exact turnaround at assessment. Collection and return is available for clients in Sandton, Rosebank, Bryanston, Fourways, Midrand, and Randburg.',
+      'MacBook Pro 13-inch screen repairs typically take 48 to 72 hours from drop-off, accounting for parts sourcing, the replacement procedure, and post-repair calibration checks. Component-level repairs, backlight IC or display cable, are usually complete within 24 to 48 hours. We confirm the exact turnaround at assessment. Collection and return is available for clients in Sandton, Rosebank, Bryanston, Fourways, Midrand, and Randburg.',
   },
   {
     question: 'Is it worth repairing a cracked MacBook Pro 13-inch M1 or M2 screen?',
     answer:
-      'In the majority of cases, yes. MacBook Pro 13-inch M1 and M2 machines still receive full macOS feature updates and will do so for several more years. A MacBook Pro M2 13-inch in good condition sells for R16,000 to R24,000 on the South African used market. Our display assembly replacement starts from R3,999 — roughly 17 to 25% of replacement value. We will tell you honestly at assessment if the repair cost does not make financial sense, but this is uncommon. Intel models from 2019 onwards also retain strong resale value and are worth repairing over purchasing new.',
+      'In the majority of cases, yes. MacBook Pro 13-inch M1 and M2 machines still receive full macOS feature updates and will do so for several more years. A MacBook Pro M2 13-inch in good condition sells for R16,000 to R24,000 on the South African used market. Our display assembly replacement starts from R3,999, roughly 17 to 25% of replacement value. We will tell you honestly at assessment if the repair cost does not make financial sense, but this is uncommon. Intel models from 2019 onwards also retain strong resale value and are worth repairing over purchasing new.',
   },
   {
     question: 'Can load shedding damage the MacBook Pro 13-inch screen?',
@@ -201,7 +201,7 @@ const faqs = [
   {
     question: 'My MacBook Pro 13-inch screen flickers when I open the lid. Is it the cable or the panel?',
     answer:
-      'Flickering that correlates with the hinge angle — worse at certain lid positions, fine at others — almost always indicates a display flex cable fault rather than a panel failure. This is especially common in A1706 and A1989 Intel models where the original cable is too short. Flickering that is random and does not track with hinge position is more likely the backlight driver circuit or the display panel itself. We diagnose both scenarios during the assessment before recommending a repair path.',
+      'Flickering that correlates with the hinge angle, worse at certain lid positions, fine at others, almost always indicates a display flex cable fault rather than a panel failure. This is especially common in A1706 and A1989 Intel models where the original cable is too short. Flickering that is random and does not track with hinge position is more likely the backlight driver circuit or the display panel itself. We diagnose both scenarios during the assessment before recommending a repair path.',
   },
   {
     question: 'Do you repair MacBook Pro 13-inch Intel Touch Bar screens?',
@@ -211,7 +211,7 @@ const faqs = [
   {
     question: 'Does ZA Support repair MacBook Pro 13-inch screens for insurance claims?',
     answer:
-      'Yes. We issue a detailed repair quote and job card describing the fault, parts replaced, and labour performed — all the documentation your insurer requires. We are a VAT-registered business and can provide a formal tax invoice. We have completed insurance claim repairs for clients with Discovery Insure, Outsurance, and Momentum in Johannesburg, Sandton, and Pretoria. Contact us on WhatsApp with your claim reference number and serial number and we will coordinate throughout the process.',
+      'Yes. We issue a detailed repair quote and job card describing the fault, parts replaced, and labour performed, all the documentation your insurer requires. We are a VAT-registered business and can provide a formal tax invoice. We have completed insurance claim repairs for clients with Discovery Insure, Outsurance, and Momentum in Johannesburg, Sandton, and Pretoria. Contact us on WhatsApp with your claim reference number and serial number and we will coordinate throughout the process.',
   },
   {
     question: 'What is the difference between the MacBook Pro 13-inch M1 and M2 display?',
@@ -242,7 +242,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              We repair MacBook Pro 13-inch Retina displays across all generations — M1, M2, and Intel. Cracked panels, backlight driver IC damage from load shedding, display cable faults, and the Flexgate flex cable failure on 2016–2019 Intel models. Assessment from R599, repairs from R1,499, from our Hyde Park workshop.
+              We repair MacBook Pro 13-inch Retina displays across all generations, M1, M2, and Intel. Cracked panels, backlight driver IC damage from load shedding, display cable faults, and the Flexgate flex cable failure on 2016-2019 Intel models. Assessment from R599, repairs from R1,499, from our Hyde Park workshop.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -306,7 +306,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 13 Inch Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge R8,000 to R14,000 for MacBook Pro 13-inch display swaps — we perform a component-level diagnostic first to avoid unnecessary part replacements and reduce the cost wherever possible.
+            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge R8,000 to R14,000 for MacBook Pro 13-inch display swaps, we perform a component-level diagnostic first to avoid unnecessary part replacements and reduce the cost wherever possible.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -331,7 +331,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -343,13 +343,13 @@ export default function ScreenRepairMacBookPro13InchPage() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">What Makes MacBook Pro 13 Inch Screen Repair Distinct</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Pro 13-inch occupies a specific and important position in Apple&apos;s history: it was the last form factor to use a traditional IPS LCD Retina display before Apple retired the 13-inch MagSafe MacBook Pro entirely with the M3 generation in October 2023. Every MacBook Pro 13-inch — from the 2016 Touch Bar Intel models through to the 2022 M2 (A2338) — uses a 2560 × 1600 Retina IPS LCD display at 227 ppi with 500 nits brightness and P3 wide colour. In our Hyde Park workshop we work across all of these generations. The distinction matters for parts compatibility: the A2338 chassis used for both M1 and M2 shares a display assembly, while the Intel models across A1706, A1989, A2289, and A2251 each have slightly different chassis tolerances that affect sourcing.
+              The MacBook Pro 13-inch occupies a specific and important position in Apple&apos;s history: it was the last form factor to use a traditional IPS LCD Retina display before Apple retired the 13-inch MagSafe MacBook Pro entirely with the M3 generation in October 2023. Every MacBook Pro 13-inch, from the 2016 Touch Bar Intel models through to the 2022 M2 (A2338), uses a 2560 × 1600 Retina IPS LCD display at 227 ppi with 500 nits brightness and P3 wide colour. In our Hyde Park workshop we work across all of these generations. The distinction matters for parts compatibility: the A2338 chassis used for both M1 and M2 shares a display assembly, while the Intel models across A1706, A1989, A2289, and A2251 each have slightly different chassis tolerances that affect sourcing.
             </p>
             <p>
-              Unlike the MacBook Pro M3 — which uses a Liquid Retina XDR mini-LED display — the 13-inch Retina IPS LCD uses a traditional edge-lit LED backlight array. This means the backlight driver architecture differs substantially, and the failure modes differ accordingly. The backlight driver IC on the 13-inch logic board is a discrete component that we can repair at component level in the majority of load-shedding surge cases. We have seen consistent patterns in M1 and M2 13-inch machines from Sandton and Midrand where stage-6 outages in late 2023 and early 2024 caused widespread backlight IC damage through USB-C power adapters left plugged in overnight.
+              Unlike the MacBook Pro M3, which uses a Liquid Retina XDR mini-LED display, the 13-inch Retina IPS LCD uses a traditional edge-lit LED backlight array. This means the backlight driver architecture differs substantially, and the failure modes differ accordingly. The backlight driver IC on the 13-inch logic board is a discrete component that we can repair at component level in the majority of load-shedding surge cases. We have seen consistent patterns in M1 and M2 13-inch machines from Sandton and Midrand where stage-6 outages in late 2023 and early 2024 caused widespread backlight IC damage through USB-C power adapters left plugged in overnight.
             </p>
             <p>
-              The display flex cable routing is a significant point of differentiation between Intel generations. Apple engineers shortened the display cable on the 2016–2019 MacBook Pro models — A1706 and A1989 — to the point where the cable experiences mechanical stress fatigue after several hundred hinge cycles. This produced the well-documented Flexgate fault: a stage-light effect visible as a bright strip at the bottom of the screen when the lid is held near-closed, or in more advanced cases, a total backlight failure. Apple extended the warranty coverage for affected machines, but that coverage has now expired for most of the affected population. We repair this fault at cable level in our workshop, and we see several cases per month from clients across Johannesburg who were unaware that a documented design issue is the cause.
+              The display flex cable routing is a significant point of differentiation between Intel generations. Apple engineers shortened the display cable on the 2016-2019 MacBook Pro models, A1706 and A1989, to the point where the cable experiences mechanical stress fatigue after several hundred hinge cycles. This produced the well-documented Flexgate fault: a stage-light effect visible as a bright strip at the bottom of the screen when the lid is held near-closed, or in more advanced cases, a total backlight failure. Apple extended the warranty coverage for affected machines, but that coverage has now expired for most of the affected population. We repair this fault at cable level in our workshop, and we see several cases per month from clients across Johannesburg who were unaware that a documented design issue is the cause.
             </p>
             <p>
               True Tone on the MacBook Pro 13-inch M1 and M2 stores calibration data within the display assembly, tied to that specific panel at the factory. According to{' '}
@@ -361,10 +361,10 @@ export default function ScreenRepairMacBookPro13InchPage() {
               >
                 Apple&apos;s display service documentation
               </a>
-              , transferring this calibration data during a screen replacement is a mandatory step for preserving True Tone after a repair. It is also one of the most commonly skipped steps in workshops without the correct tooling. At ZA Support, we perform this transfer as standard on every M1 and M2 13-inch display replacement — your machine will show True Tone as active in System Settings after the repair.
+, transferring this calibration data during a screen replacement is a mandatory step for preserving True Tone after a repair. It is also one of the most commonly skipped steps in workshops without the correct tooling. At ZA Support, we perform this transfer as standard on every M1 and M2 13-inch display replacement, your machine will show True Tone as active in System Settings after the repair.
             </p>
             <p>
-              Load shedding remains the single largest preventable cause of MacBook Pro 13-inch screen repairs we handle in Johannesburg. The 61 W USB-C power adapter provides a direct conductive path from the mains supply to the backlight driver IC on the logic board. When Eskom restores power after an outage, the brief inrush voltage spike — which a quality UPS with true sine wave output absorbs silently — travels onto the backlight rail and can destroy the IC in under a millisecond. The machine appears to boot normally in every other respect. We have repaired this fault on machines as new as four months old from clients who had no idea load shedding could damage a plugged-in laptop screen. A UPS with a true sine wave inverter, not a standby surge protector, eliminates this risk entirely.
+              Load shedding remains the single largest preventable cause of MacBook Pro 13-inch screen repairs we handle in Johannesburg. The 61 W USB-C power adapter provides a direct conductive path from the mains supply to the backlight driver IC on the logic board. When Eskom restores power after an outage, the brief inrush voltage spike, which a quality UPS with true sine wave output absorbs silently, travels onto the backlight rail and can destroy the IC in under a millisecond. The machine appears to boot normally in every other respect. We have repaired this fault on machines as new as four months old from clients who had no idea load shedding could damage a plugged-in laptop screen. A UPS with a true sine wave inverter, not a standby surge protector, eliminates this risk entirely.
             </p>
           </div>
         </div>
@@ -414,18 +414,18 @@ export default function ScreenRepairMacBookPro13InchPage() {
             {[
               {
                 step: '01',
-                title: 'Assessment (30–60 minutes)',
+                title: 'Assessment (30-60 minutes)',
                 desc: 'We open the MacBook Pro 13-inch and systematically isolate the fault across the display assembly, display flex cable, backlight driver IC, and display connector on the logic board. We use a thermal camera to identify components running outside specification. For Intel models, we check for Flexgate cable fatigue at the hinge pivot point. The assessment costs from R599 and is applied toward the repair if you proceed.',
               },
               {
                 step: '02',
                 title: 'Fixed-Price Written Quote',
-                desc: 'After assessment we provide a written fixed-price quote by WhatsApp and email. The quote includes parts, labour, and the warranty period — no hidden costs. We explain precisely what we found, what we will replace or repair, and why. If the repair is not economically viable for your machine and fault combination, we say so clearly at this stage.',
+                desc: 'After assessment we provide a written fixed-price quote by WhatsApp and email. The quote includes parts, labour, and the warranty period, no hidden costs. We explain precisely what we found, what we will replace or repair, and why. If the repair is not economically viable for your machine and fault combination, we say so clearly at this stage.',
               },
               {
                 step: '03',
                 title: 'Component-Level Repair or Assembly Replacement',
-                desc: 'Where possible we repair at component level — backlight driver IC, display cable, or Flexgate cable replacement — to avoid sourcing a full display assembly unnecessarily. Where the panel is cracked or the assembly is beyond component repair, we source a matched replacement assembly for your exact model number and confirm chip generation before placing the order.',
+                desc: 'Where possible we repair at component level, backlight driver IC, display cable, or Flexgate cable replacement, to avoid sourcing a full display assembly unnecessarily. Where the panel is cracked or the assembly is beyond component repair, we source a matched replacement assembly for your exact model number and confirm chip generation before placing the order.',
               },
               {
                 step: '04',
@@ -491,7 +491,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
       {/* FAQ */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-8">MacBook Pro 13 Inch Screen Repair — Frequently Asked Questions</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-8">MacBook Pro 13 Inch Screen Repair, Frequently Asked Questions</h2>
           <FAQAccordion items={faqs} />
         </div>
       </section>
@@ -503,7 +503,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
             MacBook Pro 13 Inch Screen Cracked or Dark?
           </h2>
           <p className="text-[#7A9E98] text-lg mb-8 leading-relaxed">
-            Send us your serial number on WhatsApp for a same-day quote. Assessment from R599 — applied toward repair if you proceed. No Fix No Fee on every job.
+            Send us your serial number on WhatsApp for a same-day quote. Assessment from R599, applied toward repair if you proceed. No Fix No Fee on every job.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

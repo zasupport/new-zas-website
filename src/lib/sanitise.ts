@@ -1,5 +1,5 @@
 /**
- * HTML entity escaping — prevents XSS when user input is interpolated into HTML email templates.
+ * HTML entity escaping, prevents XSS when user input is interpolated into HTML email templates.
  * Call escapeHtml() on EVERY user-supplied value before placing it in HTML strings.
  */
 export function escapeHtml(str: unknown): string {

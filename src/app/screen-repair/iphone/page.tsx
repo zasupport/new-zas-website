@@ -89,57 +89,57 @@ const pricingTiers = [
     price: 'From R2,199',
     panel: 'ProMotion Always-On OLED',
     note: 'Dynamic Island; 120 Hz ProMotion',
-    turnaround: '24–48 hrs',
+    turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 15, 15 Plus',
     price: 'From R2,499',
     panel: 'Super Retina XDR OLED',
     note: 'USB-C; titanium frame on Pro',
-    turnaround: '24–48 hrs',
+    turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 15 Pro, 15 Pro Max',
     price: 'From R2,799',
     panel: 'ProMotion Always-On OLED',
     note: 'Action button; titanium chassis',
-    turnaround: '24–48 hrs',
+    turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 16, 16 Plus',
     price: 'From R2,499',
     panel: 'Super Retina XDR OLED',
     note: 'Camera Control button; Apple Intelligence',
-    turnaround: '24–48 hrs',
+    turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 16 Pro, 16 Pro Max',
     price: 'From R2,999',
     panel: 'ProMotion Always-On OLED',
-    note: 'Largest display Apple has made — 6.9″',
-    turnaround: '24–48 hrs',
+    note: 'Largest display Apple has made, 6.9″',
+    turnaround: '24-48 hrs',
   },
 ];
 
 const technicalPoints = [
   {
-    title: 'OLED vs LCD — Why It Matters for Your Repair',
+    title: 'OLED vs LCD: Why It Matters for Your Repair',
     body: 'From iPhone X onwards, Apple moved to OLED panels on most models. OLED produces deeper blacks, higher contrast ratios, and more accurate colours than the LCD panels used in iPhone 8, SE, and iPhone 11. During a repair, this distinction matters practically: OLED panels must be handled differently to avoid burn-in during testing, and calibration is performed against different brightness targets. We treat every panel type correctly.',
     icon: Eye,
   },
   {
     title: 'True Tone Calibration After Screen Replacement',
-    body: 'Apple\'s True Tone technology reads ambient light colour temperature and adjusts the display accordingly. The calibration data is stored on a small chip bonded to the original display. When we fit a new panel, we transfer this data to the replacement using specialist equipment. Without this step, True Tone either fails silently or shows a "unable to verify" prompt in Settings. We complete this transfer on every eligible iPhone — from iPhone 8 through to iPhone 16 Pro Max.',
+    body: 'Apple\'s True Tone technology reads ambient light colour temperature and adjusts the display accordingly. The calibration data is stored on a small chip bonded to the original display. When we fit a new panel, we transfer this data to the replacement using specialist equipment. Without this step, True Tone either fails silently or shows a "unable to verify" prompt in Settings. We complete this transfer on every eligible iPhone, from iPhone 8 through to iPhone 16 Pro Max.',
     icon: Zap,
   },
   {
     title: 'Face ID and the Dot Projector Flex Cable',
-    body: 'Face ID on iPhone X and later relies on a dot projector module housed in the TrueDepth camera assembly. This module is connected via a dedicated flex cable that routes along the top of the display bezel. During a screen replacement, this flex cable must be carefully disconnected and reconnected — a torn or incorrectly seated flex cable will permanently disable Face ID. Apple has made it cryptographically paired to the Secure Enclave on your specific device, so it cannot be replaced from another iPhone. We handle this cable with particular care on every Face ID model.',
+    body: 'Face ID on iPhone X and later relies on a dot projector module housed in the TrueDepth camera assembly. This module is connected via a dedicated flex cable that routes along the top of the display bezel. During a screen replacement, this flex cable must be carefully disconnected and reconnected, a torn or incorrectly seated flex cable will permanently disable Face ID. Apple has made it cryptographically paired to the Secure Enclave on your specific device, so it cannot be replaced from another iPhone. We handle this cable with particular care on every Face ID model.',
     icon: Shield,
   },
   {
     title: 'IP68 Re-sealing After Repair',
-    body: 'iPhones from iPhone 7 onwards carry an IP rating for water and dust resistance. This seal is broken during any screen replacement. We re-seal the display assembly with fresh adhesive gasket material rated to the same specification as the original Apple seal. We cannot guarantee the same official IP rating as Apple — no third-party repairer can — but our re-seal provides practical protection against splashes and brief water contact. We are transparent about this limitation.',
+    body: 'iPhones from iPhone 7 onwards carry an IP rating for water and dust resistance. This seal is broken during any screen replacement. We re-seal the display assembly with fresh adhesive gasket material rated to the same specification as the original Apple seal. We cannot guarantee the same official IP rating as Apple, no third-party repairer can, but our re-seal provides practical protection against splashes and brief water contact. We are transparent about this limitation.',
     icon: CheckCircle,
   },
 ];
@@ -153,52 +153,52 @@ const faqs = [
   {
     question: 'Does iPhone screen repair affect Face ID?',
     answer:
-      'No — when done correctly. Face ID is paired to the TrueDepth camera module and the Secure Enclave on your iPhone, not to the display glass itself. During a proper screen replacement, the dot projector flex cable is carefully disconnected and reconnected without damaging the module. In our Hyde Park workshop, we have never had a Face ID failure caused by a screen replacement when the procedure is performed correctly. The risk arises only if the flex cable is torn or forced — which does not happen in our workshop.',
+      'No, when done correctly. Face ID is paired to the TrueDepth camera module and the Secure Enclave on your iPhone, not to the display glass itself. During a proper screen replacement, the dot projector flex cable is carefully disconnected and reconnected without damaging the module. In our Hyde Park workshop, we have never had a Face ID failure caused by a screen replacement when the procedure is performed correctly. The risk arises only if the flex cable is torn or forced, which does not happen in our workshop.',
   },
   {
     question: 'What is the difference between an LCD and an OLED iPhone screen?',
     answer:
-      'iPhone 8, SE (2nd and 3rd generation), and iPhone 11 use LCD panels (Liquid Retina on iPhone 11). From iPhone X onwards, Apple uses OLED panels branded as Super Retina XDR, with ProMotion OLED on Pro models from iPhone 13 Pro. OLED panels offer higher contrast, true blacks, and wider colour gamut. From a repair standpoint, OLED panels are more expensive to source and require different handling — they must not be folded or pressed during installation, as this causes internal damage. We stock OEM-grade panels for both technologies.',
+      'iPhone 8, SE (2nd and 3rd generation), and iPhone 11 use LCD panels (Liquid Retina on iPhone 11). From iPhone X onwards, Apple uses OLED panels branded as Super Retina XDR, with ProMotion OLED on Pro models from iPhone 13 Pro. OLED panels offer higher contrast, true blacks, and wider colour gamut. From a repair standpoint, OLED panels are more expensive to source and require different handling, they must not be folded or pressed during installation, as this causes internal damage. We stock OEM-grade panels for both technologies.',
   },
   {
     question: 'Will True Tone still work after my iPhone screen is replaced?',
     answer:
-      'Yes, if the calibration data is transferred correctly. True Tone data is stored on a microchip bonded to the original display assembly. When fitting a new panel, this chip must be moved to the replacement display. We perform this transfer on every iPhone model that supports True Tone. Without it, you will either lose True Tone functionality or see a "unable to verify genuine Apple component" notice in Settings. We complete this step as standard — it is not an optional add-on.',
+      'Yes, if the calibration data is transferred correctly. True Tone data is stored on a microchip bonded to the original display assembly. When fitting a new panel, this chip must be moved to the replacement display. We perform this transfer on every iPhone model that supports True Tone. Without it, you will either lose True Tone functionality or see a "unable to verify genuine Apple component" notice in Settings. We complete this step as standard, it is not an optional add-on.',
   },
   {
     question: 'How long does iPhone screen repair take?',
     answer:
-      'Most iPhone screen repairs are completed same day at our Hyde Park workshop. For iPhone 8 through to iPhone 14 Pro Max, bring your phone in by noon and it is typically ready by early afternoon. iPhone 15 and 16 Pro Max repairs that require part sourcing may take 24 to 48 hours. We will confirm the exact turnaround time when you contact us — we never hold a phone overnight without giving you a specific collection time.',
+      'Most iPhone screen repairs are completed same day at our Hyde Park workshop. For iPhone 8 through to iPhone 14 Pro Max, bring your phone in by noon and it is typically ready by early afternoon. iPhone 15 and 16 Pro Max repairs that require part sourcing may take 24 to 48 hours. We will confirm the exact turnaround time when you contact us, we never hold a phone overnight without giving you a specific collection time.',
   },
   {
     question: 'Is it worth repairing an older iPhone screen or should I just upgrade?',
     answer:
-      'For iPhone 12 and newer, screen repair is almost always more cost-effective than upgrading. These are capable devices with years of support ahead. For iPhone 8 and SE, the calculus depends on the phone\'s condition — if the battery is also degraded, we would suggest combining a screen repair and battery replacement in one visit to maximise the device\'s useful life. We will give you an honest recommendation based on the device\'s actual condition, not a sales pitch.',
+      'For iPhone 12 and newer, screen repair is almost always more cost-effective than upgrading. These are capable devices with years of support ahead. For iPhone 8 and SE, the calculus depends on the phone\'s condition, if the battery is also degraded, we would suggest combining a screen repair and battery replacement in one visit to maximise the device\'s useful life. We will give you an honest recommendation based on the device\'s actual condition, not a sales pitch.',
   },
   {
     question: 'Do you repair iPhones with cracked back glass as well as the screen?',
     answer:
-      'Yes. We repair both front screen (display assembly) damage and back glass damage as separate services. Back glass repair on iPhone 8 through iPhone 13 is a significant undertaking — the glass is bonded with strong adhesive, and the frame must be carefully heated to separate it. From iPhone 14 onwards, Apple redesigned the chassis to allow easier back glass removal. We offer both repairs and can quote for combining them in a single visit to save time.',
+      'Yes. We repair both front screen (display assembly) damage and back glass damage as separate services. Back glass repair on iPhone 8 through iPhone 13 is a significant undertaking, the glass is bonded with strong adhesive, and the frame must be carefully heated to separate it. From iPhone 14 onwards, Apple redesigned the chassis to allow easier back glass removal. We offer both repairs and can quote for combining them in a single visit to save time.',
   },
   {
     question: 'My iPhone shows a "genuine Apple component" warning after a previous repair. Can you fix this?',
     answer:
-      'Apple\'s iOS shows a "unable to verify this iPhone has a genuine Apple display" notice when the True Tone calibration chip was not transferred during a repair. In some cases, we can resolve this by transferring the calibration data correctly during a re-repair. However, if the original chip was damaged or discarded during the previous repair, the notice will remain — Apple has tied this notification to hardware pairing that cannot be bypassed by third-party repairers. We will inspect the current state and give you an honest prognosis before doing any work.',
+      'Apple\'s iOS shows a "unable to verify this iPhone has a genuine Apple display" notice when the True Tone calibration chip was not transferred during a repair. In some cases, we can resolve this by transferring the calibration data correctly during a re-repair. However, if the original chip was damaged or discarded during the previous repair, the notice will remain, Apple has tied this notification to hardware pairing that cannot be bypassed by third-party repairers. We will inspect the current state and give you an honest prognosis before doing any work.',
   },
   {
     question: 'Does iPhone screen repair affect my insurance excess or warranty?',
     answer:
-      'Third-party repairs do void Apple\'s remaining warranty on the display assembly, but they do not void cover on other components under South African Consumer Protection Act rules. For short-term insurance claims, the excess on iPhone screen damage is often R1,500 to R2,500 depending on the policy — in many cases, paying for a repair directly rather than claiming is more cost-effective for lower-tier iPhones. We do not bill insurers directly, but we can provide a written quote that meets most insurer requirements for a managed repair.',
+      'Third-party repairs do void Apple\'s remaining warranty on the display assembly, but they do not void cover on other components under South African Consumer Protection Act rules. For short-term insurance claims, the excess on iPhone screen damage is often R1,500 to R2,500 depending on the policy, in many cases, paying for a repair directly rather than claiming is more cost-effective for lower-tier iPhones. We do not bill insurers directly, but we can provide a written quote that meets most insurer requirements for a managed repair.',
   },
   {
     question: 'Do you offer a warranty on iPhone screen replacements?',
     answer:
-      'Yes. Every iPhone screen repair at ZA Support includes an up-to-3 year warranty covering the display panel and our workmanship. If the replacement display develops a fault — dead pixels, touch issues, backlight failure, or colour shift — within the warranty period, we repair or replace it at from R599. The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
+      'Yes. Every iPhone screen repair at ZA Support includes an up-to-3 year warranty covering the display panel and our workmanship. If the replacement display develops a fault, dead pixels, touch issues, backlight failure, or colour shift, within the warranty period, we repair or replace it at from R599. The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
   },
   {
     question: 'Do you repair iPhone screens in Sandton or do I need to come to Hyde Park?',
     answer:
-      'Our workshop is based at Hyde Park, which is approximately 8 minutes from Sandton\'s central business area. We also offer a collection and return service for clients across Johannesburg — including Sandton, Rosebank, Bryanston, Fourways, and Midrand. Contact us on WhatsApp or by phone to arrange a same-day or next-day collection. We also have a dedicated screen repair page for Sandton at zasupport.com/screen-repair/sandton.',
+      'Our workshop is based at Hyde Park, which is approximately 8 minutes from Sandton\'s central business area. We also offer a collection and return service for clients across Johannesburg, including Sandton, Rosebank, Bryanston, Fourways, and Midrand. Contact us on WhatsApp or by phone to arrange a same-day or next-day collection. We also have a dedicated screen repair page for Sandton at zasupport.com/screen-repair/sandton.',
   },
 ];
 
@@ -251,7 +251,7 @@ export default function ScreenRepairIphonePage() {
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The most common iPhone screen repair we do at our Hyde Park workshop is cracked OLED glass on the 12 and 13 series — typically from a hip-height drop onto tiled floors, which is unforgiving to any glass panel. We carry stock for every iPhone from 8 through to 16 Pro Max, and most repairs are completed same day.
+              The most common iPhone screen repair we do at our Hyde Park workshop is cracked OLED glass on the 12 and 13 series, typically from a hip-height drop onto tiled floors, which is unforgiving to any glass panel. We carry stock for every iPhone from 8 through to 16 Pro Max, and most repairs are completed same day.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed text-base">
               From R1,299. True Tone calibration transferred as standard. Face ID preserved. IP68 re-sealed. Up-to-3 year warranty. Assessment from R599 if we need to diagnose before quoting.
@@ -319,10 +319,10 @@ export default function ScreenRepairIphonePage() {
             iPhone Screen Repair Pricing
           </h2>
           <p className="text-[#7A9E98] mb-3 max-w-3xl leading-relaxed">
-            All prices include the display assembly, True Tone calibration transfer where supported, IP68 re-seal, and our up-to-3 year warranty. The Apple Store charges R3,500 to R9,000 for the same models — our pricing represents a saving of 50–70% on every repair.
+            All prices include the display assembly, True Tone calibration transfer where supported, IP68 re-seal, and our up-to-3 year warranty. The Apple Store charges R3,500 to R9,000 for the same models, our pricing represents a saving of 50-70% on every repair.
           </p>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed text-sm">
-            For South African short-term insurance holders: many policies carry an excess of R1,500 to R2,500 on accidental screen damage. On iPhone 12 and below, claiming on insurance for a screen repair is often not economical compared to paying for the repair directly — speak to us and we will help you make the right call.
+            For South African short-term insurance holders: many policies carry an excess of R1,500 to R2,500 on accidental screen damage. On iPhone 12 and below, claiming on insurance for a screen repair is often not economical compared to paying for the repair directly, speak to us and we will help you make the right call.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(15,234,122,0.12)]">
             <table className="w-full text-sm">
@@ -387,7 +387,7 @@ export default function ScreenRepairIphonePage() {
         </div>
       </section>
 
-      {/* Body Copy — Process & Context */}
+      {/* Body Copy, Process & Context */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">
@@ -395,25 +395,25 @@ export default function ScreenRepairIphonePage() {
           </h2>
           <div className="space-y-5 text-[#7A9E98] leading-relaxed">
             <p>
-              In our Hyde Park workshop, iPhone screen repairs make up a significant portion of our daily volume. The most frequent models we see are the iPhone 12 and 13 series — the OLED panels on these devices are beautiful but they shatter on impact more readily than the older LCD panels. The Ceramic Shield glass Apple introduced on iPhone 12 reduces surface scratching, but it does not prevent the OLED layer beneath from cracking when the phone is dropped at the wrong angle.
+              In our Hyde Park workshop, iPhone screen repairs make up a significant portion of our daily volume. The most frequent models we see are the iPhone 12 and 13 series, the OLED panels on these devices are beautiful but they shatter on impact more readily than the older LCD panels. The Ceramic Shield glass Apple introduced on iPhone 12 reduces surface scratching, but it does not prevent the OLED layer beneath from cracking when the phone is dropped at the wrong angle.
             </p>
             <p>
-              We stock replacement panels for the full range from iPhone 8 through to iPhone 16 Pro Max. For the more common models — iPhone 12, 13, 14 — we typically have parts in-house and can complete the repair in two to three hours. For the 15 and 16 Pro Max, which use the newest OLED technology and carry the highest part costs, we may need 24 to 48 hours depending on availability. We will tell you this upfront when you contact us.
+              We stock replacement panels for the full range from iPhone 8 through to iPhone 16 Pro Max. For the more common models, iPhone 12, 13, 14, we typically have parts in-house and can complete the repair in two to three hours. For the 15 and 16 Pro Max, which use the newest OLED technology and carry the highest part costs, we may need 24 to 48 hours depending on availability. We will tell you this upfront when you contact us.
             </p>
             <p>
-              The repair itself is methodical. We first run a diagnostic to confirm the display is the only fault — we have seen iPhones come in with a cracked screen that also had a partially bent frame from the same drop, which needs to be straightened before a new screen is fitted or the seal will not close properly. Once we confirm the scope of work, we quote in writing. The phone is powered down, the display assembly is carefully opened using a hot plate and suction tool, the Face ID flex cable is disconnected first (it sits at the top of the assembly and must be released before the display is lifted), and the new panel is fitted and calibrated.
+              The repair itself is methodical. We first run a diagnostic to confirm the display is the only fault, we have seen iPhones come in with a cracked screen that also had a partially bent frame from the same drop, which needs to be straightened before a new screen is fitted or the seal will not close properly. Once we confirm the scope of work, we quote in writing. The phone is powered down, the display assembly is carefully opened using a hot plate and suction tool, the Face ID flex cable is disconnected first (it sits at the top of the assembly and must be released before the display is lifted), and the new panel is fitted and calibrated.
             </p>
             <p>
               True Tone calibration is completed before the phone is sealed. We then run a full function test: touch responsiveness across the full panel, Face ID (verified by enrolling a face scan), front and rear cameras, earpiece, and proximity sensor. Only once every function is confirmed do we seal the display with fresh adhesive gasket and return the phone.
             </p>
             <p>
-              If you are based in Sandton, Rosebank, Bryanston, or Fourways and cannot get to Hyde Park, contact us on WhatsApp to arrange a collection. We collect daily across Johannesburg and can usually collect and return within the same business day for the common iPhone models. For clients further afield — Pretoria, Centurion, Midrand — next-day collection and return is standard.
+              If you are based in Sandton, Rosebank, Bryanston, or Fourways and cannot get to Hyde Park, contact us on WhatsApp to arrange a collection. We collect daily across Johannesburg and can usually collect and return within the same business day for the common iPhone models. For clients further afield, Pretoria, Centurion, Midrand, next-day collection and return is standard.
             </p>
             <p>
               One thing we are upfront about: since iPhones from iOS 15.2 onwards log unverified repairs in Settings under General &gt; About, a notice that reads &ldquo;Unable to verify this iPhone has a genuine Apple display&rdquo; may appear for a period after fitting a non-Apple sourced panel. This is a software flag, not a hardware fault, and it does not affect the function of the display or any feature including True Tone and Face ID. It typically clears after a software update. We explain this to every customer before starting work.
             </p>
             <p>
-              For an authoritative overview of iPhone display technologies, Apple&rsquo;s own <a href="https://support.apple.com/en-gb/111901" target="_blank" rel="noopener noreferrer" className="text-[#0FEA7A] hover:underline">iPhone display comparison guide</a> details the panel specifications for every model — useful context if you are deciding between repair and upgrade.
+              For an authoritative overview of iPhone display technologies, Apple&rsquo;s own <a href="https://support.apple.com/en-gb/111901" target="_blank" rel="noopener noreferrer" className="text-[#0FEA7A] hover:underline">iPhone display comparison guide</a> details the panel specifications for every model, useful context if you are deciding between repair and upgrade.
             </p>
           </div>
         </div>
@@ -429,9 +429,9 @@ export default function ScreenRepairIphonePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iPhone 15 screen: R5,500–R9,000 out of warranty</li>
-                <li>iPhone 12: R3,500–R5,000 out of warranty</li>
-                <li>Turnaround: 2–5 business days via depot</li>
+                <li>iPhone 15 screen: R5,500-R9,000 out of warranty</li>
+                <li>iPhone 12: R3,500-R5,000 out of warranty</li>
+                <li>Turnaround: 2-5 business days via depot</li>
                 <li>AppleCare+ required for reduced pricing</li>
                 <li>Walk-in availability varies; appointments often 48 hrs out</li>
               </ul>
@@ -443,14 +443,14 @@ export default function ScreenRepairIphonePage() {
                 <li>Same-day repair for most models</li>
                 <li>Up-to-3 year warranty on display and workmanship</li>
                 <li>True Tone transferred | Face ID preserved</li>
-                <li>Collection across Johannesburg — no travel needed</li>
+                <li>Collection across Johannesburg, no travel needed</li>
               </ul>
             </div>
           </div>
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <AlertTriangle className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              From R599 assessment applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay the R599 diagnostic fee and receive your phone back exactly as presented. We quote in writing before every repair — there are no surprises.
+              From R599 assessment applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay the R599 diagnostic fee and receive your phone back exactly as presented. We quote in writing before every repair, there are no surprises.
             </p>
           </div>
         </div>
@@ -468,7 +468,7 @@ export default function ScreenRepairIphonePage() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Screen Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="iPhone Screen Repair, Common Questions" />
         </div>
       </section>
 

@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const issues = [
-  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly — glass, OLED, and touch digitiser.' },
+  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly, glass, OLED, and touch digitiser.' },
   { title: 'Touch Not Responding', desc: 'Part of the screen stops registering touch or becomes fully unresponsive. Full display assembly replacement resolves this.' },
   { title: 'Dead Pixels or Dark Blotches', desc: 'Permanent dark patches spreading after a drop. OLED cell failure caused by internal impact stress.' },
-  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display — classic OLED panel damage or a loose display connector.' },
-  { title: 'Green Line Down the Side', desc: 'Thin green vertical line — a known OLED failure mode. Screen replacement resolves it completely.' },
+  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display, classic OLED panel damage or a loose display connector.' },
+  { title: 'Green Line Down the Side', desc: 'Thin green vertical line, a known OLED failure mode. Screen replacement resolves it completely.' },
   { title: 'Ghost Touch', desc: 'iPhone appears to tap and swipe on its own. Digitiser fault from a cracked panel creating phantom capacitive signals.' },
 ];
 
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'How long does an iPhone screen repair take?',
-    answer: 'Most iPhone screen replacements are completed within 1–2 hours. Same-day repair and return is the standard for Bryanston clients.',
+    answer: 'Most iPhone screen replacements are completed within 1-2 hours. Same-day repair and return is the standard for Bryanston clients.',
   },
   {
     question: 'Which iPhone models do you repair?',
@@ -92,18 +92,18 @@ export default function IPhoneScreenRepairBryanstonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iPhone Screen Repair Bryanston
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Cracked iPhone screen in Bryanston? We collect from your home or office — just 12 minutes from our Hyde Park workshop. Same-day repair available.
+              Cracked iPhone screen in Bryanston? We collect from your home or office, just 12 minutes from our Hyde Park workshop. Same-day repair available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Bryanston — approx. 12 min from our Hyde Park workshop</span>
+              <span>We collect from Bryanston, approx. 12 min from our Hyde Park workshop</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: CheckCircle, label: 'iPhone 12–16 Pro Max' },
+                { icon: CheckCircle, label: 'iPhone 12-16 Pro Max' },
                 { icon: Zap, label: 'Same-day Repair' },
                 { icon: Shield, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Bryanston' },
@@ -134,7 +134,7 @@ export default function IPhoneScreenRepairBryanstonPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">iPhone Screen Repair for Bryanston Clients</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Bryanston is a sought-after residential and corporate suburb in northern Johannesburg. Our Hyde Park workshop at 1 Hyde Lane is approximately 10–12 minutes from central Bryanston via Jan Smuts Avenue — making it one of the fastest suburbs for same-day iPhone screen collection and repair.
+              Bryanston is a sought-after residential and corporate suburb in northern Johannesburg. Our Hyde Park workshop at 1 Hyde Lane is approximately 10-12 minutes from central Bryanston via Jan Smuts Avenue, making it one of the fastest suburbs for same-day iPhone screen collection and repair.
             </p>
             <p>
               We collect iPhones from homes, offices, and the Bryanston Corporate Park, complete the screen repair at our workshop, and return the device the same day. We repair all current iPhone OLED models from iPhone 12 through to the 16 Pro Max.
@@ -162,7 +162,7 @@ export default function IPhoneScreenRepairBryanstonPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Screen Repair Bryanston — Common Questions" />
+          <FAQAccordion items={faqs} title="iPhone Screen Repair Bryanston, Common Questions" />
         </div>
       </section>
 

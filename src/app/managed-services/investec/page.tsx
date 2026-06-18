@@ -191,7 +191,7 @@ export default function InvestecManagedServicesPage() {
               {
                 icon: Shield,
                 title: 'Hardware-Level Security',
-                desc: 'Apple Silicon chips include a dedicated Secure Enclave that protects encryption keys, biometric data, and system integrity. FileVault full-disk encryption activates with a single click. For wealth managers handling R100M+ portfolios, this is not optional — it is the baseline.',
+                desc: 'Apple Silicon chips include a dedicated Secure Enclave that protects encryption keys, biometric data, and system integrity. FileVault full-disk encryption activates with a single click. For wealth managers handling R100M+ portfolios, this is not optional, it is the baseline.',
               },
               {
                 icon: Lock,
@@ -206,12 +206,12 @@ export default function InvestecManagedServicesPage() {
               {
                 icon: Clock,
                 title: 'Seamless Ecosystem Integration',
-                desc: 'iPhone, iPad, MacBook, and Apple Watch work together through Handoff, AirDrop, and Universal Clipboard. A private banker can review a portfolio on their MacBook in Sandton, approve it on their iPhone at OR Tambo, and present it on their iPad at a client meeting — all with end-to-end encryption.',
+                desc: 'iPhone, iPad, MacBook, and Apple Watch work together through Handoff, AirDrop, and Universal Clipboard. A private banker can review a portfolio on their MacBook in Sandton, approve it on their iPhone at OR Tambo, and present it on their iPad at a client meeting, all with end-to-end encryption.',
               },
               {
                 icon: Server,
                 title: 'Enterprise-Grade Manageability',
-                desc: 'JAMF MDM gives us centralised control over every Apple device in your practice. We push security policies, deploy applications, enforce updates, and maintain compliance — all without touching the physical device. For multi-site Investec practices, this is essential.',
+                desc: 'JAMF MDM gives us centralised control over every Apple device in your practice. We push security policies, deploy applications, enforce updates, and maintain compliance, all without touching the physical device. For multi-site Investec practices, this is essential.',
               },
               {
                 icon: Headphones,
@@ -246,9 +246,9 @@ export default function InvestecManagedServicesPage() {
               requiring demonstrable technical measures to safeguard personal data.
             </p>
             <p>
-              For Investec-connected practices — whether you are an independent wealth manager, a private
+              For Investec-connected practices, whether you are an independent wealth manager, a private
               banker operating your own advisory, or a financial planning firm that works closely with
-              Investec products — these are not abstract regulatory concerns. They are practical, daily
+              Investec products, these are not abstract regulatory concerns. They are practical, daily
               obligations. Your devices must be encrypted. Your backups must be verified. Your software
               must be current. And you must be able to prove all of this on demand.
             </p>
@@ -258,7 +258,7 @@ export default function InvestecManagedServicesPage() {
               Firewall policies are deployed automatically. Software updates are tested in our environment
               before being pushed to yours, ensuring stability without compromising security. Monthly
               compliance reports document the state of every device, every policy, and every security
-              measure — ready for auditors, ready for regulators.
+              measure, ready for auditors, ready for regulators.
             </p>
             <p>
               The most common mistake we see with Investec professionals managing their own IT is the
@@ -291,7 +291,7 @@ export default function InvestecManagedServicesPage() {
               with a guaranteed 1-hour response.
             </p>
             <p>
-              For sensitive operations — portfolio rebalancing, client onboarding, regulatory submissions —
+              For sensitive operations, portfolio rebalancing, client onboarding, regulatory submissions, 
               we never interrupt active work sessions. Our monitoring detects issues proactively and
               schedules fixes for optimal times. If your MacBook Pro shows early signs of an SSD failure
               (we monitor SMART data continuously), we replace the drive before it fails, not after you
@@ -331,15 +331,15 @@ export default function InvestecManagedServicesPage() {
             <p>
               For practices with 10 or more devices, we implement tiered update rings. Critical security
               patches deploy within 48 hours. Feature updates are tested on a staging device first, then
-              rolled out in waves — ensuring that if an update causes an application compatibility issue
+              rolled out in waves, ensuring that if an update causes an application compatibility issue
               (rare, but it happens with financial software like Bloomberg Terminal or Morningstar), we
               catch it before it affects your entire team.
             </p>
             <p>
               Device lifecycle management includes quarterly hardware health audits. We track battery
               cycle counts, SSD wear levels, thermal throttling patterns, and RAM utilisation trends.
-              When a device approaches the end of its optimal life — typically 5 years for MacBook Pro
-              and 7 years for iMac — we flag it 6 months in advance, giving you time to budget for
+              When a device approaches the end of its optimal life, typically 5 years for MacBook Pro
+              and 7 years for iMac, we flag it 6 months in advance, giving you time to budget for
               replacement without emergency purchases.
             </p>
           </div>
@@ -404,8 +404,8 @@ export default function InvestecManagedServicesPage() {
           <div className="space-y-6 text-[#7A9E98] leading-relaxed">
             <p>
               Investec maintains robust enterprise security standards. If your practice accesses
-              Investec systems — whether through Investec Online, the Global Banking platform, or
-              proprietary advisory tools — your devices must meet specific security baselines. We
+              Investec systems, whether through Investec Online, the Global Banking platform, or
+              proprietary advisory tools, your devices must meet specific security baselines. We
               ensure every managed device exceeds those baselines.
             </p>
             <p>
@@ -497,7 +497,7 @@ export default function InvestecManagedServicesPage() {
       {/* FAQ Section */}
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Managed IT for Investec Clients — Common Questions" />
+          <FAQAccordion items={faqs} title="Managed IT for Investec Clients, Common Questions" />
         </div>
       </section>
 
@@ -514,7 +514,7 @@ export default function InvestecManagedServicesPage() {
               your devices, evaluate your compliance posture, and recommend the right plan.
             </p>
             <p className="text-[#7A9E98] text-sm mb-6">
-              Based at 1 Hyde Park Lane, Hyde Park — 8 minutes from Investec Place, Sandton.
+              Based at 1 Hyde Park Lane, Hyde Park, 8 minutes from Investec Place, Sandton.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

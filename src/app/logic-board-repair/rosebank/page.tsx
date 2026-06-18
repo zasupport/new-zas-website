@@ -38,11 +38,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Rosebank to collect my MacBook?',
-    answer: 'Yes. We offer a dedicated collection and return service for Rosebank clients. Our Hyde Park workshop is approximately 2–3 km from Rosebank, a 9-minute drive. We collect from your home, office, or a convenient spot in Rosebank, complete the repair, and return your MacBook. WhatsApp or call us to arrange a time.',
+    answer: 'Yes. We offer a dedicated collection and return service for Rosebank clients. Our Hyde Park workshop is approximately 2-3 km from Rosebank, a 9-minute drive. We collect from your home, office, or a convenient spot in Rosebank, complete the repair, and return your MacBook. WhatsApp or call us to arrange a time.',
   },
   {
     question: 'How close are you to Rosebank?',
-    answer: 'Very close. Our workshop at 1 Hyde Lane, Hyde Park sits approximately 2–3 km from Rosebank, five minutes by car. Rosebank clients often drop their MacBook in on the way to the Zone or the Rosebank Mall and collect later the same day for simple repairs, or within 48–72 hours for board-level work.',
+    answer: 'Very close. Our workshop at 1 Hyde Lane, Hyde Park sits approximately 2-3 km from Rosebank, five minutes by car. Rosebank clients often drop their MacBook in on the way to the Zone or the Rosebank Mall and collect later the same day for simple repairs, or within 48-72 hours for board-level work.',
   },
   {
     question: 'What MacBook models do you repair?',
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     question: 'My MacBook is liquid damaged. Can it be saved?',
-    answer: 'Usually yes, if it reaches us promptly. The priority with liquid-damaged Macs is to stop using the machine immediately, not attempt to charge it or turn it on, and get it to us as quickly as possible. We ultrasonically clean the board, assess the extent of the corrosion, and repair affected traces and components. Boards brought in within 24–48 hours of exposure have the highest recovery rates.',
+    answer: 'Usually yes, if it reaches us promptly. The priority with liquid-damaged Macs is to stop using the machine immediately, not attempt to charge it or turn it on, and get it to us as quickly as possible. We ultrasonically clean the board, assess the extent of the corrosion, and repair affected traces and components. Boards brought in within 24-48 hours of exposure have the highest recovery rates.',
   },
   {
     question: 'What does the assessment involve?',
@@ -102,14 +102,14 @@ export default function LogicBoardRepairRosebankPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Rosebank, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Rosebank is 5 minutes from our Hyde Park workshop. We collect from Rosebank and repair MacBook logic boards at component level, component-level repair, not board swaps.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Rosebank and repair at our Hyde Park workshop, approx. 5 min drive (2–3 km)</span>
+              <span>We collect from Rosebank and repair at our Hyde Park workshop, approx. 5 min drive (2-3 km)</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -147,10 +147,10 @@ export default function LogicBoardRepairRosebankPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Rosebank has a high concentration of creative professionals, media businesses, and corporate offices where Macs are central to the working day. A failed logic board in that environment is not just inconvenient, it can halt client deliverables and affect revenue. ZA Support offers Rosebank clients a collection service combined with rapid board-level repair at our Hyde Park workshop, just 2–3 km up Jan Smuts Avenue.
+              Rosebank has a high concentration of creative professionals, media businesses, and corporate offices where Macs are central to the working day. A failed logic board in that environment is not just inconvenient, it can halt client deliverables and affect revenue. ZA Support offers Rosebank clients a collection service combined with rapid board-level repair at our Hyde Park workshop, just 2-3 km up Jan Smuts Avenue.
             </p>
             <p>
-              Logic board faults are diagnosed at component level, we use schematics, oscilloscopes, and microscopy to identify exactly what has failed. Rather than quoting a full board replacement immediately, we determine whether the fault is repairable at the chip or component level first. In most cases it is, and the cost saving is substantial: component-level repair typically costs 60–80% less than a new board.
+              Logic board faults are diagnosed at component level, we use schematics, oscilloscopes, and microscopy to identify exactly what has failed. Rather than quoting a full board replacement immediately, we determine whether the fault is repairable at the chip or component level first. In most cases it is, and the cost saving is substantial: component-level repair typically costs 60-80% less than a new board.
             </p>
             <p>
               We work on all MacBook generations including M1 MacBook Air, M2 MacBook Pro, M3 MacBook Air, and all Intel-era MacBook Pro 13-inch, 15-inch, and 16-inch models. iMac and Mac mini logic boards are handled with the same component-level approach.
@@ -191,7 +191,7 @@ export default function LogicBoardRepairRosebankPage() {
               { step: '02', title: 'Diagnostic Assessment', desc: 'Board-level assessment within 24 hours using schematics and microscopy. Exact fault identified, no guesswork.' },
               { step: '03', title: 'Written Quote', desc: 'Clear breakdown: fault, repair method, cost, and timeframe. No work starts until you approve in writing.' },
               { step: '04', title: 'Precision Repair', desc: 'Component-level repair under a high-magnification stereo microscope. Only the failed component is touched, your board remains original.' },
-              { step: '05', title: 'Return to Rosebank', desc: 'Tested under load and returned to your door with a written up-to-3 year warranty. Turnaround typically 48–72 hours.' },
+              { step: '05', title: 'Return to Rosebank', desc: 'Tested under load and returned to your door with a written up-to-3 year warranty. Turnaround typically 48-72 hours.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
@@ -218,10 +218,10 @@ export default function LogicBoardRepairRosebankPage() {
                 {[
                   'Repairs only the failed component',
                   'Original board, your data is never at risk',
-                  '60–80% cheaper than board replacement',
+                  '60-80% cheaper than board replacement',
                   'Touch ID and Secure Enclave remain paired',
                   'ZA Support warranty included',
-                  'Most repairs completed within 48–72 hours',
+                  'Most repairs completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -242,7 +242,7 @@ export default function LogicBoardRepairRosebankPage() {
                   'Applied to: severe burn, multi-chip failure',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}

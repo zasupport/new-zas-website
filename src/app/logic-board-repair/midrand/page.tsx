@@ -38,11 +38,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you come to Midrand to collect my MacBook?',
-    answer: 'Yes. We offer a collection and return service for Midrand clients. Our Hyde Park workshop is approximately 25–30 km from central Midrand, around 25 to 35 minutes depending on N1 traffic. We coordinate a collection time that works for you, carry out the repair at Hyde Park, and return your MacBook once it is tested and ready.',
+    answer: 'Yes. We offer a collection and return service for Midrand clients. Our Hyde Park workshop is approximately 25-30 km from central Midrand, around 25 to 35 minutes depending on N1 traffic. We coordinate a collection time that works for you, carry out the repair at Hyde Park, and return your MacBook once it is tested and ready.',
   },
   {
     question: 'How far is Midrand from your workshop?',
-    answer: 'Our Hyde Park workshop is approximately 25–30 km from central Midrand via the N1. Journey time is typically 25–35 minutes during off-peak hours and longer during morning and evening commute times. Many Midrand clients find it convenient to drop their MacBook off on a trip to Sandton and collect at the end of the week.',
+    answer: 'Our Hyde Park workshop is approximately 25-30 km from central Midrand via the N1. Journey time is typically 25-35 minutes during off-peak hours and longer during morning and evening commute times. Many Midrand clients find it convenient to drop their MacBook off on a trip to Sandton and collect at the end of the week.',
   },
   {
     question: 'Can you repair M1 and M2 MacBook logic boards?',
@@ -102,14 +102,14 @@ export default function LogicBoardRepairMidrandPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Midrand, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Serving Midrand with MacBook logic board component-level repair and component-level repair. We collect from Midrand and carry out all repairs at our Hyde Park workshop.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Midrand and repair at our Hyde Park workshop, approx. 25–35 min via N1</span>
+              <span>We collect from Midrand and repair at our Hyde Park workshop, approx. 25-35 min via N1</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -150,10 +150,10 @@ export default function LogicBoardRepairMidrandPage() {
               Midrand has grown into one of Gauteng&apos;s most significant technology and business nodes, from the Waterfall City development to the Kyalami area and the commercial parks along the N1. The area hosts a large population of tech workers, remote professionals, and SME business owners, many of whom rely on MacBooks as their primary work machine.
             </p>
             <p>
-              When a logic board fault strikes, the challenge for Midrand residents is finding a repair service with genuine component-level capability rather than one that simply swaps the entire board and charges accordingly. ZA Support&apos;s Hyde Park workshop is equipped for component-level repair, we identify the specific failed component, repair it using professional equipment, and return your original board to service. The cost saving over board replacement is typically 60–80%.
+              When a logic board fault strikes, the challenge for Midrand residents is finding a repair service with genuine component-level capability rather than one that simply swaps the entire board and charges accordingly. ZA Support&apos;s Hyde Park workshop is equipped for component-level repair, we identify the specific failed component, repair it using professional equipment, and return your original board to service. The cost saving over board replacement is typically 60-80%.
             </p>
             <p>
-              We offer a full collection and return service for Midrand clients. The drive from central Midrand to Hyde Park via the N1 is approximately 25–35 minutes. We coordinate collection times to suit your schedule and provide you with a assessment report and written quote before any repair is authorised.
+              We offer a full collection and return service for Midrand clients. The drive from central Midrand to Hyde Park via the N1 is approximately 25-35 minutes. We coordinate collection times to suit your schedule and provide you with a assessment report and written quote before any repair is authorised.
             </p>
             <p>
               Common logic board faults we resolve for Midrand clients include no-power MacBooks (often a single blown component on the power rail), USB-C charging failures on the 13-inch MacBook Pro, and liquid damage from the morning coffee routine. Each fault starts with a diagnostic session, charged at nothing, that confirms the cause before any repair work is quoted.

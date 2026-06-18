@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Air Repair Johannesburg | Screen, Battery & More | ZA Support',
   description:
-    'MacBook Air repair Johannesburg, battery replacement, screen repair, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018–2020. Intel battery under 400 cycles = replace now. Assessment: from R599. Hyde Park.',
+    'MacBook Air repair Johannesburg, battery replacement, screen repair, hinge repair, keyboard. M1, M2, M3, M4 Air and Intel 2018-2020. Intel battery under 400 cycles = replace now. Assessment: from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-air-repair' },
   keywords: [
     'macbook air repair johannesburg',
@@ -49,7 +49,7 @@ const services = [
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure on Intel 2018–2019 models, sticky keys, broken switches. Magic Keyboard (M-series) key cap and switch repair. Full assembly replacement with up-to-3 year warranty.',
+    description: 'Butterfly keyboard failure on Intel 2018-2019 models, sticky keys, broken switches. Magic Keyboard (M-series) key cap and switch repair. Full assembly replacement with up-to-3 year warranty.',
     href: '/macbook-repair/keyboard',
     price: 'Contact for pricing',
   },
@@ -96,8 +96,8 @@ const models = [
   { name: 'MacBook Air M2 13" (2022)', note: 'Popular' },
   { name: 'MacBook Air M2 15" (2023)', note: 'Popular' },
   { name: 'MacBook Air M1 13" (2020)', note: 'Popular' },
-  { name: 'MacBook Air Intel 13" (2018–2020)', note: 'Intel, butterfly kbd risk' },
-  { name: 'MacBook Air Intel 13" (2013–2017)', note: 'Intel' },
+  { name: 'MacBook Air Intel 13" (2018-2020)', note: 'Intel, butterfly kbd risk' },
+  { name: 'MacBook Air Intel 13" (2013-2017)', note: 'Intel' },
   { name: 'MacBook Air 11" (all years)', note: 'Intel' },
 ];
 
@@ -106,21 +106,21 @@ const batteryGuide = [
     model: 'MacBook Air M1/M2/M3/M4',
     warning: 500,
     replace: 700,
-    years: '7–8 years typical lifespan',
+    years: '7-8 years typical lifespan',
     note: 'Apple Silicon Air batteries are more durable than Intel but still degrade. At 500 cycles and below 80% capacity, performance will throttle.',
   },
   {
-    model: 'MacBook Air Intel (2018–2020)',
+    model: 'MacBook Air Intel (2018-2020)',
     warning: 300,
     replace: 400,
-    years: '4–6 years typical lifespan',
+    years: '4-6 years typical lifespan',
     note: 'Intel Air batteries degrade faster under load. Below 80% capacity on an Intel Air results in noticeable performance loss, especially under video or multitasking.',
   },
   {
-    model: 'MacBook Air Intel (2013–2017)',
+    model: 'MacBook Air Intel (2013-2017)',
     warning: 250,
     replace: 350,
-    years: '5–7 years typical lifespan',
+    years: '5-7 years typical lifespan',
     note: 'Older Intel Air models show battery-related shutdowns and unreliable runtime above 300 cycles. A fresh battery often restores the machine to full usability.',
   },
 ];
@@ -128,7 +128,7 @@ const batteryGuide = [
 const knownIssues = [
   {
     name: 'Butterfly Keyboard Failure',
-    models: 'MacBook Air 2018–2019 (Intel)',
+    models: 'MacBook Air 2018-2019 (Intel)',
     icon: AlertTriangle,
     description: 'Apple\'s butterfly keyboard mechanism was used in the 2018 and 2019 MacBook Air Intel models. It is prone to key bounce, stuck keys, and complete switch failure from minor debris. Apple\'s repair programme has ended. We replace the full top-case assembly, keyboard, battery bracket, and surrounding chassis, with a up-to-3 year warranty.',
   },
@@ -140,9 +140,9 @@ const knownIssues = [
   },
   {
     name: 'Hinge Cracking (Corner Fractures)',
-    models: 'MacBook Air 2018–2020 Intel',
+    models: 'MacBook Air 2018-2020 Intel',
     icon: Wrench,
-    description: 'The 2018–2020 MacBook Air hinge design places stress on the aluminium corners at the hinge point, which can develop cracks or fractures, particularly on machines that are frequently opened and closed. We replace the hinge assembly and repair cosmetic corner damage to restore full lid stability.',
+    description: 'The 2018-2020 MacBook Air hinge design places stress on the aluminium corners at the hinge point, which can develop cracks or fractures, particularly on machines that are frequently opened and closed. We replace the hinge assembly and repair cosmetic corner damage to restore full lid stability.',
   },
 ];
 
@@ -153,7 +153,7 @@ const faqs = [
   },
   {
     question: 'When should I replace my MacBook Air battery?',
-    answer: 'For Intel MacBook Air models, battery replacement is typically worthwhile at around 300–400 cycle count or when health drops below 80%. For Apple Silicon M1/M2/M3/M4 Air models, the threshold is around 500 cycles. Below 80% health, macOS will throttle performance under load to protect the battery. A battery replacement restores full performance and runtime and is one of the best-value repairs for any MacBook Air. Contact us for a quote.',
+    answer: 'For Intel MacBook Air models, battery replacement is typically worthwhile at around 300-400 cycle count or when health drops below 80%. For Apple Silicon M1/M2/M3/M4 Air models, the threshold is around 500 cycles. Below 80% health, macOS will throttle performance under load to protect the battery. A battery replacement restores full performance and runtime and is one of the best-value repairs for any MacBook Air. Contact us for a quote.',
   },
   {
     question: 'Can M1, M2, M3, and M4 MacBook Air models be repaired?',
@@ -177,7 +177,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Air hinge is too stiff or the screen wobbles. Can this be fixed without replacing the entire display?',
-    answer: 'Often yes. Hinge tension can be adjusted by accessing the hinge assembly. If the hinge mechanism itself is intact but too tight or too loose, we adjust the tension without replacing the display. If the hinge is cracked, bent, or has broken mounting points, common on 2018–2020 models with corner fractures, we replace the hinge assembly. In most cases the display does not need to be replaced.',
+    answer: 'Often yes. Hinge tension can be adjusted by accessing the hinge assembly. If the hinge mechanism itself is intact but too tight or too loose, we adjust the tension without replacing the display. If the hinge is cracked, bent, or has broken mounting points, common on 2018-2020 models with corner fractures, we replace the hinge assembly. In most cases the display does not need to be replaced.',
   },
   {
     question: 'Does ZA Support offer a warranty on MacBook Air repairs?',

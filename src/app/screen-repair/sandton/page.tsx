@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or display connector fault.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on movement. Often a loose display cable on Intel-era MacBook Pros, or a GPU fault. Diagnosed before repair.' },
@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook screen replacement take?',
-    answer: 'Most screen replacements are completed within 24–48 hours. We carry display assemblies for the most common MacBook models. For less common configurations such as 16-inch M3 Pro or older models, we will confirm availability and a specific turnaround time when you contact us.',
+    answer: 'Most screen replacements are completed within 24-48 hours. We carry display assemblies for the most common MacBook models. For less common configurations such as 16-inch M3 Pro or older models, we will confirm availability and a specific turnaround time when you contact us.',
   },
   {
     question: 'My MacBook screen cracked but it still works. Should I repair it now?',
-    answer: 'Yes, sooner is better. A cracked display is a progressive fault — moisture ingress through the crack can cause backlight damage, and a crack that starts small can spread with heat cycles or light pressure. The longer it is left, the higher the risk of needing a more expensive repair. A display replacement now is significantly cheaper than replacing a display that has also suffered liquid ingress.',
+    answer: 'Yes, sooner is better. A cracked display is a progressive fault, moisture ingress through the crack can cause backlight damage, and a crack that starts small can spread with heat cycles or light pressure. The longer it is left, the higher the risk of needing a more expensive repair. A display replacement now is significantly cheaper than replacing a display that has also suffered liquid ingress.',
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro screen flickers when I move the lid. Is that fixable?',
-    answer: 'Yes. Flickering on lid movement is a classic symptom of a loose or failing display cable on Intel MacBook Pro models, particularly the 13-inch 2016–2019 Touch Bar models. This is a known fault pattern. The cable runs through the hinge and can develop stress fractures over time. It is a repairable fault that does not require a full display replacement in most cases.',
+    answer: 'Yes. Flickering on lid movement is a classic symptom of a loose or failing display cable on Intel MacBook Pro models, particularly the 13-inch 2016-2019 Touch Bar models. This is a known fault pattern. The cable runs through the hinge and can develop stress fractures over time. It is a repairable fault that does not require a full display replacement in most cases.',
   },
   {
     question: 'Does screen replacement affect Face ID or Touch ID?',
@@ -102,7 +102,7 @@ export default function ScreenRepairSandtonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Sandton
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook screen repair and display replacement for Sandton clients. We collect from Sandton and carry out the repair at our Hyde Park workshop, approximately 15 minutes away.
@@ -114,7 +114,7 @@ export default function ScreenRepairSandtonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Sandton' },
               ].map(({ icon: Icon, label }) => (
@@ -150,7 +150,7 @@ export default function ScreenRepairSandtonPage() {
               A cracked or failed MacBook display is one of the most common repairs we handle for Sandton clients. Whether your screen was damaged in a bag, developed a flickering fault, or simply stopped showing an image, ZA Support offers a collection service from Sandton and a fast, professional repair at our Hyde Park workshop.
             </p>
             <p>
-              Sandton is home to a large number of corporate and professional MacBook users working from Sandown, Morningside, and the greater Sandton City area. A display failure in that environment is not just inconvenient — it can make the machine unusable for client presentations, video calls, and document work. Our 24–48 hour turnaround means most Sandton clients are back to full productivity within the same working week.
+              Sandton is home to a large number of corporate and professional MacBook users working from Sandown, Morningside, and the greater Sandton City area. A display failure in that environment is not just inconvenient, it can make the machine unusable for client presentations, video calls, and document work. Our 24-48 hour turnaround means most Sandton clients are back to full productivity within the same working week.
             </p>
             <p>
               We repair and replace displays on all MacBook models including MacBook Air (M1, M2, M3 and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, Intel and M-series). Every display replacement uses quality-matched panels and is backed by a written ZA Support warranty.
@@ -252,7 +252,7 @@ export default function ScreenRepairSandtonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Sandton MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-SANDTON', 'screen')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp for Quote

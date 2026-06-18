@@ -27,7 +27,7 @@ const faqs = [
   {
     question: 'Why do wealth management firms need specialist IT support?',
     answer:
-      'Wealth management firms handle extremely sensitive client financial data — portfolio valuations, tax returns, estate plans, and banking details. A single data breach can destroy decades of client trust and trigger FSCA sanctions. Specialist IT support ensures your infrastructure meets the encryption, access control, and audit trail requirements that generic IT providers overlook. We have seen firms in Sandton lose clients after a ransomware incident because their IT provider had no financial-sector experience.',
+      'Wealth management firms handle extremely sensitive client financial data, portfolio valuations, tax returns, estate plans, and banking details. A single data breach can destroy decades of client trust and trigger FSCA sanctions. Specialist IT support ensures your infrastructure meets the encryption, access control, and audit trail requirements that generic IT providers overlook. We have seen firms in Sandton lose clients after a ransomware incident because their IT provider had no financial-sector experience.',
   },
   {
     question: 'How does ZA Support handle FSCA compliance for IT systems?',
@@ -42,12 +42,12 @@ const faqs = [
   {
     question: 'What is zero-trust network architecture and why does my firm need it?',
     answer:
-      'Zero-trust means no device or user is automatically trusted, even inside your office network. Every access request is verified against identity, device health, and context. For wealth management firms, this prevents lateral movement if a single device is compromised — an attacker who breaches one endpoint cannot reach your portfolio management system or client records without passing additional authentication checks. We deploy this using a combination of Cloudflare Access, device certificates, and conditional access policies.',
+      'Zero-trust means no device or user is automatically trusted, even inside your office network. Every access request is verified against identity, device health, and context. For wealth management firms, this prevents lateral movement if a single device is compromised, an attacker who breaches one endpoint cannot reach your portfolio management system or client records without passing additional authentication checks. We deploy this using a combination of Cloudflare Access, device certificates, and conditional access policies.',
   },
   {
     question: 'How much does managed IT cost for a solo financial advisor?',
     answer:
-      'Our Solo Advisor plan starts from R4,499 per month. This covers full device management for up to three Apple devices (typically a MacBook Pro, iPhone, and iPad), encrypted backup, security monitoring, FSCA-aligned compliance controls, and unlimited remote support during business hours. There are no hidden costs — the monthly fee is all-inclusive.',
+      'Our Solo Advisor plan starts from R4,499 per month. This covers full device management for up to three Apple devices (typically a MacBook Pro, iPhone, and iPad), encrypted backup, security monitoring, FSCA-aligned compliance controls, and unlimited remote support during business hours. There are no hidden costs, the monthly fee is all-inclusive.',
   },
   {
     question: 'Can you integrate with Bloomberg Terminal and other financial platforms?',
@@ -57,7 +57,7 @@ const faqs = [
   {
     question: 'What happens if our firm is targeted by ransomware?',
     answer:
-      'Our business continuity plan for financial firms includes three layers: prevention (endpoint detection, email filtering, zero-trust access), immutable backups (Time Machine + encrypted off-site to a South African data centre), and a tested recovery procedure. In a worst-case scenario, we can restore your entire environment — including client records, email, and financial applications — within four hours. We test this recovery process quarterly with every managed services client.',
+      'Our business continuity plan for financial firms includes three layers: prevention (endpoint detection, email filtering, zero-trust access), immutable backups (Time Machine + encrypted off-site to a South African data centre), and a tested recovery procedure. In a worst-case scenario, we can restore your entire environment, including client records, email, and financial applications, within four hours. We test this recovery process quarterly with every managed services client.',
   },
   {
     question: 'How do you handle POPIA compliance for client financial data?',
@@ -67,17 +67,17 @@ const faqs = [
   {
     question: 'Do you provide secure remote access for advisors working from home or travelling?',
     answer:
-      'Absolutely. We deploy enterprise-grade VPN connections with split tunnelling disabled for financial data, ensuring all traffic to your firm systems is encrypted. For advisors on the move, we configure always-on VPN profiles on MacBook, iPhone, and iPad so the connection is seamless. Multi-factor authentication is mandatory — we typically use hardware security keys (YubiKey) combined with biometric verification on Apple devices.',
+      'Absolutely. We deploy enterprise-grade VPN connections with split tunnelling disabled for financial data, ensuring all traffic to your firm systems is encrypted. For advisors on the move, we configure always-on VPN profiles on MacBook, iPhone, and iPad so the connection is seamless. Multi-factor authentication is mandatory, we typically use hardware security keys (YubiKey) combined with biometric verification on Apple devices.',
   },
   {
     question: 'Why is Apple hardware preferred in wealth management?',
     answer:
-      'Apple devices offer hardware-level encryption via the Secure Enclave, a significantly lower malware attack surface compared to Windows, seamless cross-device workflows between MacBook, iPhone, and iPad, and enterprise manageability through Apple Business Manager and JAMF. For financial advisors who move between client meetings, the integration between devices — Handoff, Universal Clipboard, AirDrop with managed restrictions — provides productivity advantages that Windows ecosystems cannot match.',
+      'Apple devices offer hardware-level encryption via the Secure Enclave, a significantly lower malware attack surface compared to Windows, seamless cross-device workflows between MacBook, iPhone, and iPad, and enterprise manageability through Apple Business Manager and JAMF. For financial advisors who move between client meetings, the integration between devices, Handoff, Universal Clipboard, AirDrop with managed restrictions, provides productivity advantages that Windows ecosystems cannot match.',
   },
   {
     question: 'How quickly can you respond to an IT emergency at our firm?',
     answer:
-      'Our wealth management clients receive priority SLA terms: 30-minute remote response for critical issues (system down, security breach, data access failure) and 4-hour on-site response for hardware failures. Our office at 1 Hyde Park Lane is minutes from the Sandton financial district, so on-site visits are rapid. After hours, our monitoring systems detect issues proactively — most problems are resolved before your team arrives in the morning.',
+      'Our wealth management clients receive priority SLA terms: 30-minute remote response for critical issues (system down, security breach, data access failure) and 4-hour on-site response for hardware failures. Our office at 1 Hyde Park Lane is minutes from the Sandton financial district, so on-site visits are rapid. After hours, our monitoring systems detect issues proactively, most problems are resolved before your team arrives in the morning.',
   },
 ];
 
@@ -98,7 +98,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 const faqSchema = buildFaqSchema(faqs);
 
 const capabilities = [
-  { icon: Laptop, title: 'Apple Fleet Management', desc: 'MacBook Pro, iPhone, iPad — provisioned, monitored, and secured for every advisor in your firm.' },
+  { icon: Laptop, title: 'Apple Fleet Management', desc: 'MacBook Pro, iPhone, iPad, provisioned, monitored, and secured for every advisor in your firm.' },
   { icon: Shield, title: 'FSCA Compliance Controls', desc: 'Encryption, audit trails, seven-year retention, and access controls aligned to FAIS requirements.' },
   { icon: Lock, title: 'POPIA Data Protection', desc: 'Classification, secure deletion, breach notification workflows, and tamper-proof access logs.' },
   { icon: Globe, title: 'Zero-Trust Networking', desc: 'No implicit trust. Every connection verified by identity, device health, and conditional access policies.' },
@@ -125,7 +125,7 @@ const plans = [
   {
     name: 'Small Firm',
     price: 'From R5,499/month',
-    ideal: 'Ideal for: Advisory firms with 2–5 users, boutique wealth managers',
+    ideal: 'Ideal for: Advisory firms with 2-5 users, boutique wealth managers',
     features: [
       'Everything in Solo Advisor',
       'Up to 15 devices (Mac + Windows)',
@@ -178,7 +178,7 @@ export default function WealthManagementPage() {
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Specialist Apple IT management for financial advisors, private banking teams, and
               boutique wealth managers. FSCA compliance, POPIA data protection, encrypted
-              communications, and zero-trust security — from our office in Hyde Park, minutes from
+              communications, and zero-trust security, from our office in Hyde Park, minutes from
               the Sandton financial district.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -212,7 +212,7 @@ export default function WealthManagementPage() {
               We have worked with financial advisory firms across Sandton and the greater
               Johannesburg area since 2009, and one pattern is consistent: generic IT providers
               do not understand the regulatory and operational demands of wealth management. The
-              consequences are severe — FSCA sanctions, POPIA breach notifications to the
+              consequences are severe, FSCA sanctions, POPIA breach notifications to the
               Information Regulator, and most critically, the loss of client trust that took years
               to build.
             </p>
@@ -226,8 +226,8 @@ export default function WealthManagementPage() {
               financial services.
             </p>
             <p>
-              From our office at 1 Hyde Park Lane — a seven-minute drive from the Sandton
-              financial district — we provide IT managed services built specifically for this
+              From our office at 1 Hyde Park Lane, a seven-minute drive from the Sandton
+              financial district, we provide IT managed services built specifically for this
               environment. Not adapted from a generic template, but designed from the ground up
               for firms regulated by the Financial Sector Conduct Authority and subject to the
               Protection of Personal Information Act.
@@ -260,7 +260,7 @@ export default function WealthManagementPage() {
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-            FSCA Compliance — What Your IT Infrastructure Must Deliver
+            FSCA Compliance, What Your IT Infrastructure Must Deliver
           </h2>
           <div className="prose prose-invert max-w-none text-[#7A9E98] space-y-4 leading-relaxed">
             <p>
@@ -299,7 +299,7 @@ export default function WealthManagementPage() {
           </h2>
           <div className="prose prose-invert max-w-none text-[#7A9E98] space-y-4 leading-relaxed">
             <p>
-              Financial advisors exchange sensitive documents daily — investment mandates, tax
+              Financial advisors exchange sensitive documents daily, investment mandates, tax
               returns, identity documents, and portfolio statements. Sending these as unencrypted
               email attachments is a POPIA violation waiting to happen. We deploy Microsoft 365
               with Information Rights Management (IRM), ensuring that sensitive documents can only
@@ -348,8 +348,8 @@ export default function WealthManagementPage() {
               that even if a single device is compromised, the blast radius is contained.
             </p>
             <p>
-              For advisors who work remotely — whether from home, from a client site, or while
-              travelling — we configure always-on VPN profiles across MacBook, iPhone, and iPad.
+              For advisors who work remotely, whether from home, from a client site, or while
+              travelling, we configure always-on VPN profiles across MacBook, iPhone, and iPad.
               Split tunnelling is disabled for all connections to firm resources, ensuring that
               sensitive data never traverses an unprotected network path. Multi-factor
               authentication is enforced at every access point, combining hardware security keys
@@ -368,7 +368,7 @@ export default function WealthManagementPage() {
           </h2>
           <div className="prose prose-invert max-w-none text-[#7A9E98] space-y-4 leading-relaxed">
             <p>
-              South African financial firms are increasingly targeted by ransomware groups — the
+              South African financial firms are increasingly targeted by ransomware groups, the
               combination of sensitive client data and regulatory pressure to restore services
               quickly makes wealth management firms attractive targets. In 2024 and 2025, several
               Johannesburg-based financial service providers experienced significant operational
@@ -384,7 +384,7 @@ export default function WealthManagementPage() {
               backups stored in a format that cannot be modified or deleted by ransomware. Third,
               a tested recovery procedure: we conduct quarterly disaster recovery drills with
               every managed services client, verifying that we can restore the complete environment
-              — macOS devices, email, financial applications, client data — within four hours.
+, macOS devices, email, financial applications, client data, within four hours.
             </p>
             <p>
               Load shedding adds another dimension to business continuity planning in South Africa.
@@ -415,8 +415,8 @@ export default function WealthManagementPage() {
               For South African wealth management firms, we also integrate with PSG Wealth
               platform, Allan Gray Adviser Services, Ninety One portfolio management tools,
               Glacier by Sanlam, and Momentum Wealth. These platforms often have specific
-              network requirements — particular ports, proxy configurations, or certificate
-              trusts — that generic IT providers struggle with. We document every integration
+              network requirements, particular ports, proxy configurations, or certificate
+              trusts, that generic IT providers struggle with. We document every integration
               and maintain runbooks so that support is consistent even when your primary
               technician is unavailable.
             </p>
@@ -424,7 +424,7 @@ export default function WealthManagementPage() {
               Multi-device workflows are critical for modern financial advisors. We configure
               Apple Handoff and Continuity features so an advisor can start reviewing a portfolio
               report on their MacBook Pro, continue reading on their iPad during a client meeting,
-              and take notes on their iPhone while travelling — all with enterprise security
+              and take notes on their iPhone while travelling, all with enterprise security
               policies applied consistently across every device through JAMF Pro and Apple
               Business Manager.
             </p>
@@ -482,14 +482,14 @@ export default function WealthManagementPage() {
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-            Hyde Park — Minutes from the Sandton Financial District
+            Hyde Park, Minutes from the Sandton Financial District
           </h2>
           <div className="prose prose-invert max-w-none text-[#7A9E98] space-y-4 leading-relaxed">
             <p>
               Our office at 1 Hyde Park Lane sits at the edge of Johannesburg&apos;s financial
               heartland. Sandton City, the Johannesburg Stock Exchange, and the offices of every
               major asset manager and private bank in South Africa are within a seven-minute
-              drive. When your systems go down, we are on-site fast — not dispatching a
+              drive. When your systems go down, we are on-site fast, not dispatching a
               technician from the other side of Johannesburg.
             </p>
             <p>
@@ -497,7 +497,7 @@ export default function WealthManagementPage() {
               Rivonia, Morningside, Sunninghill, Fourways, and Midrand. For firms in Pretoria
               and Centurion, we provide remote-first support with scheduled on-site visits. Our
               proximity to the financial district means we understand the operational rhythms of
-              wealth management — early morning market opens, quarter-end reporting deadlines,
+              wealth management, early morning market opens, quarter-end reporting deadlines,
               and the reality that a system failure at 08:30 on a Monday can cost your firm
               significantly more than a failure on a Friday afternoon.
             </p>
@@ -560,7 +560,7 @@ export default function WealthManagementPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion
             items={faqs}
-            title="Wealth Management IT Support — Frequently Asked Questions"
+            title="Wealth Management IT Support, Frequently Asked Questions"
           />
         </div>
       </section>
@@ -574,11 +574,11 @@ export default function WealthManagementPage() {
             </h2>
             <p className="text-[#7A9E98] mb-2">
               New wealth management clients receive a{' '}
-              <strong className="text-[#E8F4F1]">complimentary IT security assessment</strong> —
+              <strong className="text-[#E8F4F1]">complimentary IT security assessment</strong>, 
               we audit your devices, network, backup, and compliance posture 
             </p>
             <p className="text-[#7A9E98] text-sm mb-6">
-              1 Hyde Park Lane, Hyde Park, Johannesburg — minutes from Sandton.
+              1 Hyde Park Lane, Hyde Park, Johannesburg, minutes from Sandton.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

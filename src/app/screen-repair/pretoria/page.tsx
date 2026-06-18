@@ -11,13 +11,13 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Pretoria | ZA Support Hyde Park',
   description:
-    'MacBook screen repair for Pretoria clients — Hatfield, Brooklyn, and surrounds. Cracked displays, backlight faults, and LCD damage repaired at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook screen repair for Pretoria clients, Hatfield, Brooklyn, and surrounds. Cracked displays, backlight faults, and LCD damage repaired at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/pretoria' },
 };
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your MacBook to a pristine, like-new condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but the display stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but the display stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired at component level.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or a display connector that has pulled loose.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on lid movement. Often a loose display cable on Intel-era MacBook Pros. Diagnosed before any repair work begins.' },
@@ -42,23 +42,23 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook screen repair take for Pretoria clients?',
-    answer: 'Most screen replacements are completed within 24–48 hours. Because we carry display assemblies for the most common MacBook models in stock, Pretoria clients can expect their machine back within one to two working days from collection. For less common configurations, we will confirm parts availability and a specific turnaround time when you contact us.',
+    answer: 'Most screen replacements are completed within 24-48 hours. Because we carry display assemblies for the most common MacBook models in stock, Pretoria clients can expect their machine back within one to two working days from collection. For less common configurations, we will confirm parts availability and a specific turnaround time when you contact us.',
   },
   {
     question: 'My MacBook screen cracked but it still works. Should I repair it now?',
-    answer: 'Yes. A cracked display is a progressive fault — moisture ingress through the crack can damage the backlight, and a crack that starts small can spread under heat or light pressure. The longer it is left, the higher the risk of a more expensive repair. A display replacement now is significantly cheaper than replacing a display that has also suffered liquid ingress. We see this often from Pretoria clients who waited and ended up with a panel that needed full replacement due to moisture damage.',
+    answer: 'Yes. A cracked display is a progressive fault, moisture ingress through the crack can damage the backlight, and a crack that starts small can spread under heat or light pressure. The longer it is left, the higher the risk of a more expensive repair. A display replacement now is significantly cheaper than replacing a display that has also suffered liquid ingress. We see this often from Pretoria clients who waited and ended up with a panel that needed full replacement due to moisture damage.',
   },
   {
     question: 'Are there any MacBook repairers closer to Pretoria or Hatfield?',
-    answer: 'There are a handful of repair shops in the Pretoria area, but the standard of Mac-specific repair varies widely. Most do not carry out component-level repairs — they simply replace the full display assembly for every fault, whether it needs it or not. We diagnose first and only replace what is actually faulty. Our collection service means the distance to Hyde Park is not a barrier for Pretoria clients.',
+    answer: 'There are a handful of repair shops in the Pretoria area, but the standard of Mac-specific repair varies widely. Most do not carry out component-level repairs, they simply replace the full display assembly for every fault, whether it needs it or not. We diagnose first and only replace what is actually faulty. Our collection service means the distance to Hyde Park is not a barrier for Pretoria clients.',
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement means fitting a complete new display assembly — LCD panel, backlight, and outer glass — as a single unit. This is the standard approach for cracked screens. Screen repair refers to targeted component-level fault diagnosis for issues such as backlight failure or flickering, where the panel itself may be undamaged. We always diagnose the exact fault before recommending a replacement.',
+    answer: 'Display replacement means fitting a complete new display assembly, LCD panel, backlight, and outer glass, as a single unit. This is the standard approach for cracked screens. Screen repair refers to targeted component-level fault diagnosis for issues such as backlight failure or flickering, where the panel itself may be undamaged. We always diagnose the exact fault before recommending a replacement.',
   },
   {
     question: 'My MacBook Pro screen flickers when I move the lid. Is that fixable?',
-    answer: 'Yes. Flickering on lid movement is a classic symptom of a loose or failing display cable on Intel MacBook Pro models, particularly the 13-inch 2016–2019 Touch Bar models. The cable runs through the hinge and develops stress fractures over time. It is a well-documented fault and does not require a full display replacement in most cases. We repair the cable and confirm the fault is resolved before returning the machine.',
+    answer: 'Yes. Flickering on lid movement is a classic symptom of a loose or failing display cable on Intel MacBook Pro models, particularly the 13-inch 2016-2019 Touch Bar models. The cable runs through the hinge and develops stress fractures over time. It is a well-documented fault and does not require a full display replacement in most cases. We repair the cable and confirm the fault is resolved before returning the machine.',
   },
   {
     question: 'I am a student at the University of Pretoria. Can you collect from the UP campus?',
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     question: 'Does screen replacement affect Touch ID or any biometric features?',
-    answer: 'No. Touch ID on MacBook models is built into the keyboard or the power button — not the display. A screen or display replacement does not affect Touch ID in any way, and your biometric pairing remains intact after the repair.',
+    answer: 'No. Touch ID on MacBook models is built into the keyboard or the power button, not the display. A screen or display replacement does not affect Touch ID in any way, and your biometric pairing remains intact after the repair.',
   },
 ];
 
@@ -74,7 +74,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Screen Repair Pretoria',
-  description: 'MacBook screen repair and display replacement for Pretoria clients — Hatfield, Brooklyn, Menlyn, and surrounds. Collection from Pretoria, repair at Hyde Park workshop. Cracked screens, backlight, and display faults.',
+  description: 'MacBook screen repair and display replacement for Pretoria clients, Hatfield, Brooklyn, Menlyn, and surrounds. Collection from Pretoria, repair at Hyde Park workshop. Cracked screens, backlight, and display faults.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Pretoria' },
@@ -111,7 +111,7 @@ export default function ScreenRepairPretoriaPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Pretoria
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook screen repair and display replacement for Pretoria clients. We collect from Hatfield, Brooklyn, Menlyn, and surrounding areas and carry out the repair at our Hyde Park workshop, approximately 55 minutes north.
@@ -123,7 +123,7 @@ export default function ScreenRepairPretoriaPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Pretoria' },
               ].map(({ icon: Icon, label }) => (
@@ -156,19 +156,19 @@ export default function ScreenRepairPretoriaPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Pretoria has a dense population of MacBook users — students at the University of Pretoria, professionals in the Hatfield and Brooklyn business nodes, and government-sector workers throughout the city. A cracked or failed MacBook display in that environment means lost lectures, missed deadlines, and interrupted client work. We collect from Pretoria and have the machine repaired and returned within 24–48 hours.
+              Pretoria has a dense population of MacBook users, students at the University of Pretoria, professionals in the Hatfield and Brooklyn business nodes, and government-sector workers throughout the city. A cracked or failed MacBook display in that environment means lost lectures, missed deadlines, and interrupted client work. We collect from Pretoria and have the machine repaired and returned within 24-48 hours.
             </p>
             <p>
-              We collect from all Pretoria suburbs including Hatfield, Brooklyn, Lynnwood, Menlyn, Arcadia, Centurion North, and surrounding areas. Collections are arranged at a time that suits you — we understand that Pretoria clients cannot always plan around variable traffic on the N1. Our collection service removes that entirely.
+              We collect from all Pretoria suburbs including Hatfield, Brooklyn, Lynnwood, Menlyn, Arcadia, Centurion North, and surrounding areas. Collections are arranged at a time that suits you, we understand that Pretoria clients cannot always plan around variable traffic on the N1. Our collection service removes that entirely.
             </p>
             <p>
-              In our Hyde Park workshop we repair and replace displays on every MacBook model: MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch). The most common screen faults we see from Pretoria clients are impact cracks — often from laptops knocked in bags or dropped on tiled floors — and backlight failures on older Intel MacBook Pros that have been running hard for three or more years.
+              In our Hyde Park workshop we repair and replace displays on every MacBook model: MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch). The most common screen faults we see from Pretoria clients are impact cracks, often from laptops knocked in bags or dropped on tiled floors, and backlight failures on older Intel MacBook Pros that have been running hard for three or more years.
             </p>
             <p>
-              Not every display fault requires a full panel replacement. We see a significant number of MacBooks from Pretoria where the fault is a failing backlight fuse or a frayed display cable — both repairable at component level for a fraction of the cost of a new display assembly. We always diagnose before we quote, and we never start work without written approval.
+              Not every display fault requires a full panel replacement. We see a significant number of MacBooks from Pretoria where the fault is a failing backlight fuse or a frayed display cable, both repairable at component level for a fraction of the cost of a new display assembly. We always diagnose before we quote, and we never start work without written approval.
             </p>
             <p>
-              Every repair is backed by a written ZA Support warranty. For Pretoria clients in professional roles — legal, medical, or academic — we know that your MacBook is not just a device. We treat the repair accordingly.
+              Every repair is backed by a written ZA Support warranty. For Pretoria clients in professional roles, legal, medical, or academic, we know that your MacBook is not just a device. We treat the repair accordingly.
             </p>
           </div>
         </div>
@@ -199,7 +199,7 @@ export default function ScreenRepairPretoriaPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Pretoria', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your Pretoria address — Hatfield, Brooklyn, Menlyn, Lynnwood, or elsewhere — at a time that suits your schedule.' },
+              { step: '01', title: 'Collection from Pretoria', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your Pretoria address, Hatfield, Brooklyn, Menlyn, Lynnwood, or elsewhere, at a time that suits your schedule.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify whether the fault is a physical panel, backlight, cable, or board-level issue. This determines the correct repair approach and cost.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering the fault, repair method, and timeframe. No work starts until you approve in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where possible, full display replacement where necessary. Quality-matched panel fitted by our technician.' },
@@ -264,7 +264,7 @@ export default function ScreenRepairPretoriaPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Pretoria MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-PRETORIA-HERO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

@@ -61,13 +61,13 @@ const symptoms = [
   { title: 'Sticky or unresponsive keys', detail: 'Keys feel stiff, require extra force, or occasionally miss keypresses entirely.' },
   { title: 'Space bar or return key failure', detail: 'The two highest-use keys are also the most prone to butterfly mechanism failure.' },
   { title: 'Liquid spill damage', detail: 'Liquid under the keyboard causes corrosion on the key contacts and switches. Assessment determines repairability.' },
-  { title: 'Keys physically broken or missing', detail: 'Keycaps snapped off or lost. Butterfly keys cannot be replaced individually — full top case assembly is required.' },
+  { title: 'Keys physically broken or missing', detail: 'Keycaps snapped off or lost. Butterfly keys cannot be replaced individually, full top case assembly is required.' },
 ];
 
 const keyboardTypes = [
   {
     name: 'Butterfly Keyboard',
-    models: '2016–2019 MacBook Pro (all sizes)',
+    models: '2016-2019 MacBook Pro (all sizes)',
     description: 'Apple\'s butterfly mechanism is prone to dust ingress, key bounce, and complete switch failure. Apple\'s repair programme has ended. The fix involves replacing the full top case assembly, including the keyboard, battery bracket, and chassis. We carry top cases for most affected models with a up-to-3 year warranty.',
     warning: true,
   },
@@ -79,16 +79,16 @@ const keyboardTypes = [
   },
   {
     name: 'Classic Scissor Keyboard',
-    models: '2013–2015 MacBook Pro',
+    models: '2013-2015 MacBook Pro',
     description: 'Earlier Intel MacBook Pro models used a traditional scissor mechanism. More robust than butterfly. Failures are usually caused by liquid damage or heavy wear. Top case replacement restores full keyboard functionality with warranty.',
     warning: false,
   },
 ];
 
 const models = [
-  { name: 'MacBook Pro 13" 2013–2015 (Classic scissor keyboard)', note: 'Intel' },
-  { name: 'MacBook Pro 13" 2016–2019 (Butterfly keyboard)', note: 'Intel, butterfly risk' },
-  { name: 'MacBook Pro 15" 2016–2019 (Butterfly keyboard)', note: 'Intel, butterfly risk' },
+  { name: 'MacBook Pro 13" 2013-2015 (Classic scissor keyboard)', note: 'Intel' },
+  { name: 'MacBook Pro 13" 2016-2019 (Butterfly keyboard)', note: 'Intel, butterfly risk' },
+  { name: 'MacBook Pro 15" 2016-2019 (Butterfly keyboard)', note: 'Intel, butterfly risk' },
   { name: 'MacBook Pro 16" 2019 (Butterfly keyboard)', note: 'Intel, butterfly risk' },
   { name: 'MacBook Pro 13" 2020 (Magic keyboard)', note: 'Intel' },
   { name: 'MacBook Pro 13" M1, M2 (Magic keyboard)', note: 'Apple Silicon' },
@@ -122,7 +122,7 @@ const faqs = [
   },
   {
     question: 'Can individual butterfly keys be replaced?',
-    answer: 'No. The butterfly mechanism does not support individual key replacement. If one key fails, the full top case assembly must be replaced. This includes the keyboard, battery connector bracket, and surrounding chassis. This is why Apple\'s repair was so costly — it is unavoidable with this design.',
+    answer: 'No. The butterfly mechanism does not support individual key replacement. If one key fails, the full top case assembly must be replaced. This includes the keyboard, battery connector bracket, and surrounding chassis. This is why Apple\'s repair was so costly, it is unavoidable with this design.',
   },
   {
     question: 'What if liquid got into the keyboard?',
@@ -223,7 +223,7 @@ export default function MacBookProKeyboardPage() {
             Keyboard Issues We Fix
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Assessment: from R599 — we diagnose the exact fault and provide a fixed quote before any work begins.
+            Assessment: from R599, we diagnose the exact fault and provide a fixed quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {symptoms.map((s) => (

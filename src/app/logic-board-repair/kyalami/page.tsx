@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -43,19 +43,19 @@ const faqs = [
   },
   {
     question: 'How far is Kyalami from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Park Lane is approximately 22 km from Kyalami, roughly a 22-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
+    answer: 'Our workshop at 1 Hyde Park Lane is approximately 22 km from Kyalami, roughly a 22-minute drive. Many clients drop their MacBook in on their way through and collect once the repair is complete. We are open Monday to Thursday 08:00-17:00 and Friday 08:00-16:30.',
   },
   {
     question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement.',
+    answer: 'Component-level repair targets the specific failed component on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60-80% less than a full board replacement.',
   },
   {
     question: 'My MacBook shows no power at all. Is that repairable?',
-    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC — a straightforward component-level repair. Bring it in or request a collection from Kyalami for an assessment.',
+    answer: 'In the majority of cases, yes. A completely unresponsive MacBook is one of the most common repairs we handle. The fault is very often a single blown fuse, failed MOSFET, or damaged charging IC, a straightforward component-level repair. Bring it in or request a collection from Kyalami for an assessment.',
   },
   {
     question: 'How long will the repair take?',
-    answer: 'Diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex faults can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
+    answer: 'Diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48-72 hours. Complex faults can take 3-5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
   },
   {
     question: 'What is the assessment fee?',
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     question: 'Which MacBook models do you repair for Kyalami clients?',
-    answer: 'All MacBook Pro, MacBook Air, iMac, and Mac mini models across all generations — Intel and Apple Silicon (M1, M2, M3). We have schematics and components for every generation from 2012 to present.',
+    answer: 'All MacBook Pro, MacBook Air, iMac, and Mac mini models across all generations, Intel and Apple Silicon (M1, M2, M3). We have schematics and components for every generation from 2012 to present.',
   },
 ];
 
@@ -111,7 +111,7 @@ export default function LogicBoardRepairKyalamiPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Kyalami, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Kyalami&apos;s preferred MacBook logic board repair service. We collect from Kyalami and repair at our Hyde Park component-level workshop, approximately 22 minutes away. Assessment from R599.
@@ -161,10 +161,10 @@ export default function LogicBoardRepairKyalamiPage() {
               Our Hyde Park workshop is equipped with professional hot-air rework stations, precision soldering equipment, a high-magnification stereo microscope, and the diagnostic tools required to trace faults at chip level. Every repair begins with a structured diagnostic session. We identify the exact component failure before any soldering takes place.
             </p>
             <p>
-              For Kyalami clients, we offer a collection and return service. Your MacBook is collected from Kyalami Estates, Kyalami Business Park, and the N1 north corridor, repaired at our Hyde Park workshop, and returned to you once the repair is complete and fully tested. Most repairs are completed within 48–72 hours.
+              For Kyalami clients, we offer a collection and return service. Your MacBook is collected from Kyalami Estates, Kyalami Business Park, and the N1 north corridor, repaired at our Hyde Park workshop, and returned to you once the repair is complete and fully tested. Most repairs are completed within 48-72 hours.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -222,11 +222,11 @@ export default function LogicBoardRepairKyalamiPage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -240,14 +240,14 @@ export default function LogicBoardRepairKyalamiPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -276,7 +276,7 @@ export default function LogicBoardRepairKyalamiPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Kyalami — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Kyalami, Common Questions" />
         </div>
       </section>
 

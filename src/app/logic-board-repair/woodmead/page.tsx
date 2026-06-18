@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -37,13 +37,13 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Woodmead?', answer: 'Yes. We collect from offices along Woodmead Drive, Waterfall Edge, Western Service Road, and homes in Woodmead Estate. Most collections from Woodmead are arranged within one working day — WhatsApp 064 529 5863 with the building name and a contact number and we will confirm a slot.' },
+  { question: 'Do you collect MacBooks from Woodmead?', answer: 'Yes. We collect from offices along Woodmead Drive, Waterfall Edge, Western Service Road, and homes in Woodmead Estate. Most collections from Woodmead are arranged within one working day, WhatsApp 064 529 5863 with the building name and a contact number and we will confirm a slot.' },
   { question: 'How far is Woodmead from your Hyde Park workshop?', answer: 'Woodmead is roughly 18 minutes from our Hyde Park workshop via the M1 south, depending on traffic around the Marlboro and Grayston interchanges. Our driver runs the route daily, so collection and return slots tend to fit easily into a morning or afternoon round.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we trace the actual failed part on the logic board — a power IC, a capacitor, a blown filter, a damaged USB-C port — and replace only that component under the microscope. Board replacement means swapping the entire logic board for a new or reclaimed unit, which Apple typically does and which carries the price of the whole assembly. For Woodmead corporate clients with out-of-warranty machines, component-level work is almost always the lower-cost and faster route.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. Complete no-power on Apple Silicon and Intel MacBooks usually traces back to a shorted power rail, a failed SMC or PMIC, or a damaged USB-C power delivery circuit — all of which are recoverable at component level. We see this regularly on machines from Woodmead offices that have been hit by a power surge or a faulty third-party charger. Assessment from R599 confirms whether the board is economically repairable before any work is committed.' },
-  { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 3 to 5 working days from collection, including the 24-hour burn-in test we run before returning the machine. Liquid damage and multi-fault boards can take longer if specialist components need to be ordered. For Woodmead clients on tight deadlines we can prioritise urgent corporate work — let us know on collection and we will flag it on the bench.' },
-  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the structured diagnostic — power-rail measurement, thermal imaging, schematic-level fault tracing — and a written quote for the repair before any work proceeds. If you choose to go ahead, the assessment fee is included in the repair quote.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. We charge from R599 for the diagnostic and provide a clear written quote before any repair work starts. You decide whether to proceed once you have the quote — there is no obligation to repair if the cost does not make sense for the machine\'s age or value.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we trace the actual failed part on the logic board, a power IC, a capacitor, a blown filter, a damaged USB-C port, and replace only that component under the microscope. Board replacement means swapping the entire logic board for a new or reclaimed unit, which Apple typically does and which carries the price of the whole assembly. For Woodmead corporate clients with out-of-warranty machines, component-level work is almost always the lower-cost and faster route.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. Complete no-power on Apple Silicon and Intel MacBooks usually traces back to a shorted power rail, a failed SMC or PMIC, or a damaged USB-C power delivery circuit, all of which are recoverable at component level. We see this regularly on machines from Woodmead offices that have been hit by a power surge or a faulty third-party charger. Assessment from R599 confirms whether the board is economically repairable before any work is committed.' },
+  { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 3 to 5 working days from collection, including the 24-hour burn-in test we run before returning the machine. Liquid damage and multi-fault boards can take longer if specialist components need to be ordered. For Woodmead clients on tight deadlines we can prioritise urgent corporate work, let us know on collection and we will flag it on the bench.' },
+  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the structured diagnostic, power-rail measurement, thermal imaging, schematic-level fault tracing, and a written quote for the repair before any work proceeds. If you choose to go ahead, the assessment fee is included in the repair quote.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. We charge from R599 for the diagnostic and provide a clear written quote before any repair work starts. You decide whether to proceed once you have the quote, there is no obligation to repair if the cost does not make sense for the machine\'s age or value.' },
   { question: 'Which MacBook models do you repair for Woodmead clients?', answer: 'We repair the full MacBook Pro and MacBook Air range from Intel Core i5 and i7 generations through to Apple Silicon M1, M2, and M3 variants, as well as iMac and Mac mini boards. The 13-inch and 16-inch MacBook Pro models we see most often from Woodmead corporate users are well within our regular workload.' },
 ];
 
@@ -87,7 +87,7 @@ export default function LogicBoardRepairWoodmeadPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Woodmead, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Woodmead sits at the junction of the N1 and N3, and we collect MacBooks from the office parks along Waterfall Edge, Woodmead Drive, and Western Service Road for component-level logic board repair at our Hyde Park workshop, roughly 18 minutes south down the M1. Assessment from R599, with most board-level diagnostics completed within 48 hours of collection.
@@ -131,16 +131,16 @@ export default function LogicBoardRepairWoodmeadPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Woodmead&apos;s commercial fabric is heavily weighted towards corporate head offices, IT consultancies, and the cluster of businesses around Woodmead Retail Park and Woodmead Office Park on Waterfall Edge. The MacBooks we collect from this suburb tend to belong to finance teams, software developers, and account managers — machines that travel between home offices in Sunninghill, client sites in Sandton, and the Woodmead boardroom several times a week. That kind of duty cycle stresses the logic board in specific ways: repeated thermal cycling fatigues solder joints around the SMC and PMIC, USB-C ports loosen from constant docking and undocking, and dust ingress from cars, coffee shops, and home offices coats the board&apos;s power rails. By the time a machine reaches us, the symptoms are rarely random — they fit patterns we have catalogued over thousands of repairs.
+              Woodmead&apos;s commercial fabric is heavily weighted towards corporate head offices, IT consultancies, and the cluster of businesses around Woodmead Retail Park and Woodmead Office Park on Waterfall Edge. The MacBooks we collect from this suburb tend to belong to finance teams, software developers, and account managers, machines that travel between home offices in Sunninghill, client sites in Sandton, and the Woodmead boardroom several times a week. That kind of duty cycle stresses the logic board in specific ways: repeated thermal cycling fatigues solder joints around the SMC and PMIC, USB-C ports loosen from constant docking and undocking, and dust ingress from cars, coffee shops, and home offices coats the board&apos;s power rails. By the time a machine reaches us, the symptoms are rarely random, they fit patterns we have catalogued over thousands of repairs.
             </p>
             <p>
-              At our Hyde Park bench we work under a stereo microscope at up to 45x magnification, using hot-air rework stations calibrated for Apple&apos;s lead-free solder profiles and a thermal camera to find shorted rails before any component is removed. A Woodmead client recently brought in a 16-inch MacBook Pro M1 Max that had been left charging overnight during a Joburg thunderstorm — the surge had taken out the USB-C power delivery IC and a downstream capacitor on the 3.3V rail. We isolated the fault to two components, replaced both, verified the rails on the schematic, and returned the machine within four working days. That kind of targeted repair typically lands well below the cost of a full board swap from Apple, which is the only realistic option once a machine is out of warranty.
+              At our Hyde Park bench we work under a stereo microscope at up to 45x magnification, using hot-air rework stations calibrated for Apple&apos;s lead-free solder profiles and a thermal camera to find shorted rails before any component is removed. A Woodmead client recently brought in a 16-inch MacBook Pro M1 Max that had been left charging overnight during a Joburg thunderstorm, the surge had taken out the USB-C power delivery IC and a downstream capacitor on the 3.3V rail. We isolated the fault to two components, replaced both, verified the rails on the schematic, and returned the machine within four working days. That kind of targeted repair typically lands well below the cost of a full board swap from Apple, which is the only realistic option once a machine is out of warranty.
             </p>
             <p>
-              Collection from Woodmead is straightforward — we drive up the M1 to the Woodmead off-ramp and can usually be at your reception within the hour for urgent jobs, or scheduled around a convenient slot for routine collections. We have collected from buildings on Woodlands Drive, the Waterfall Edge Office Park, and homes in Woodmead Estate itself. Once the repair is done and the machine has been on burn-in test for at least 24 hours, we return it the same way. For any MacBook Pro, MacBook Air, iMac, or Mac mini from Intel-era through M3 that has gone dark, refuses to charge, or shuts down under load, send a WhatsApp to 064 529 5863 and we will arrange collection from Woodmead the next working day.
+              Collection from Woodmead is straightforward, we drive up the M1 to the Woodmead off-ramp and can usually be at your reception within the hour for urgent jobs, or scheduled around a convenient slot for routine collections. We have collected from buildings on Woodlands Drive, the Waterfall Edge Office Park, and homes in Woodmead Estate itself. Once the repair is done and the machine has been on burn-in test for at least 24 hours, we return it the same way. For any MacBook Pro, MacBook Air, iMac, or Mac mini from Intel-era through M3 that has gone dark, refuses to charge, or shuts down under load, send a WhatsApp to 064 529 5863 and we will arrange collection from Woodmead the next working day.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairWoodmeadPage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairWoodmeadPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairWoodmeadPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Woodmead — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Woodmead, Common Questions" />
         </div>
       </section>
 

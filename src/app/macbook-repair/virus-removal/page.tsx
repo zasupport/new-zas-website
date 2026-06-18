@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     question: 'How long does Mac malware removal take?',
-    answer: 'Most standard adware and browser hijacker removals are completed within 2–3 hours. More complex infections involving persistent LaunchAgents, modified system extensions, or rootkit-level components may require 4–6 hours. If a full macOS reinstall is the safest path (which we recommend for info stealers), we factor in data backup time and the reinstall itself, typically a same-day service.',
+    answer: 'Most standard adware and browser hijacker removals are completed within 2-3 hours. More complex infections involving persistent LaunchAgents, modified system extensions, or rootkit-level components may require 4-6 hours. If a full macOS reinstall is the safest path (which we recommend for info stealers), we factor in data backup time and the reinstall itself, typically a same-day service.',
   },
   {
     question: 'I removed the app, why is the problem still there?',
@@ -438,7 +438,7 @@ export default function MacVirusRemovalPage() {
               },
               {
                 title: 'Same-Day for Most Cases',
-                desc: 'Standard adware and hijacker removal is typically done within 2–3 hours. We tell you realistic timing upfront.',
+                desc: 'Standard adware and hijacker removal is typically done within 2-3 hours. We tell you realistic timing upfront.',
               },
               {
                 title: 'Hyde Park, Johannesburg',

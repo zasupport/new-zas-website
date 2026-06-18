@@ -82,7 +82,7 @@ const symptoms = [
 const processSteps = [
   { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a sample photo. We identify whether the fault is the lens, the module, or a software issue before quoting.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct camera module is in stock for your specific model. We stock modules for all current iPhone generations.' },
-  { step: '3', title: 'Camera Replaced', desc: 'A certified technician replaces the camera module or lens cover. Camera repairs typically take 60–90 minutes.' },
+  { step: '3', title: 'Camera Replaced', desc: 'A certified technician replaces the camera module or lens cover. Camera repairs typically take 60-90 minutes.' },
   { step: '4', title: 'Full Camera Test', desc: 'We test all lenses (wide, ultra-wide, telephoto), the flash, front camera, video OIS, and Portrait Mode before returning your iPhone.' },
   { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the repair and our labour. Assessment: from R599 applies.' },
 ];
@@ -111,7 +111,7 @@ const faqs = [
   {
     question: 'How long does iPhone camera repair take?',
     answer:
-      'Camera repairs typically take 60–90 minutes. A lens cover replacement can be done in under an hour. Full rear camera system replacements on Pro models take closer to 90 minutes. We confirm availability and turnaround when you contact us.',
+      'Camera repairs typically take 60-90 minutes. A lens cover replacement can be done in under an hour. Full rear camera system replacements on Pro models take closer to 90 minutes. We confirm availability and turnaround when you contact us.',
   },
   {
     question: 'Can you repair the rear camera without removing the screen?',

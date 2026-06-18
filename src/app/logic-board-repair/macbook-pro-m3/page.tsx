@@ -23,12 +23,12 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can a MacBook Pro M3 logic board be repaired?', answer: 'Yes. The M3, M3 Pro, and M3 Max chips are fully integrated on the logic board and cannot be replaced individually — but the surrounding circuits are repairable. USB-C controllers, Thunderbolt 5 controllers, power management ICs, backlight drivers, and charging circuits are all discrete components we diagnose and repair at component level. ZA Support in Hyde Park, Johannesburg offers assessment from R599.' },
+  { question: 'Can a MacBook Pro M3 logic board be repaired?', answer: 'Yes. The M3, M3 Pro, and M3 Max chips are fully integrated on the logic board and cannot be replaced individually, but the surrounding circuits are repairable. USB-C controllers, Thunderbolt 5 controllers, power management ICs, backlight drivers, and charging circuits are all discrete components we diagnose and repair at component level. ZA Support in Hyde Park, Johannesburg offers assessment from R599.' },
   { question: 'Is the M3 MacBook Pro harder to repair than M1 or M2?', answer: 'The M3 generation introduces Thunderbolt 5 on M3 Max models and a more capable power delivery system. The fundamental component-level repair approach is the same as M1 and M2. The additional Thunderbolt 5 controller is a discrete IC and is individually repairable. Repairability is comparable to prior generations.' },
-  { question: 'My M3 MacBook Pro was damaged in a load shedding surge — is it repairable?', answer: 'In most cases yes. Voltage spikes from South African load shedding events typically damage the USB-C power controller or power management IC rather than the M3 die itself. These are discrete, repairable components. The R599 assessment determines which specific circuit was damaged and confirms whether repair is viable.' },
+  { question: 'My M3 MacBook Pro was damaged in a load shedding surge, is it repairable?', answer: 'In most cases yes. Voltage spikes from South African load shedding events typically damage the USB-C power controller or power management IC rather than the M3 die itself. These are discrete, repairable components. The R599 assessment determines which specific circuit was damaged and confirms whether repair is viable.' },
   { question: 'Will my data be safe during M3 MacBook Pro board repair?', answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. We repair the specific circuit fault while the storage remains on the board untouched. If the board is completely non-functional, SSD readability is assessed as part of the R599 diagnostic.' },
-  { question: 'How much does MacBook Pro M3 logic board repair cost?', answer: 'Apple charges R22,000–R55,000 for M3 MacBook Pro logic board replacement as they replace the entire board. ZA Support repairs only the failed component on the existing board, which is significantly less expensive. We provide a written quote after the R599 assessment confirming the specific fault and cost.' },
-  { question: 'How long does M3 MacBook Pro logic board repair take?', answer: 'Following the R599 assessment and written approval, most M3 MacBook Pro logic board repairs complete within 3–5 business days. Complex liquid damage cases involving multiple circuit areas may require additional time. We provide a specific timeline in the written quote before proceeding.' },
+  { question: 'How much does MacBook Pro M3 logic board repair cost?', answer: 'Apple charges R22,000-R55,000 for M3 MacBook Pro logic board replacement as they replace the entire board. ZA Support repairs only the failed component on the existing board, which is significantly less expensive. We provide a written quote after the R599 assessment confirming the specific fault and cost.' },
+  { question: 'How long does M3 MacBook Pro logic board repair take?', answer: 'Following the R599 assessment and written approval, most M3 MacBook Pro logic board repairs complete within 3-5 business days. Complex liquid damage cases involving multiple circuit areas may require additional time. We provide a specific timeline in the written quote before proceeding.' },
   { question: 'Does ZA Support repair Thunderbolt 5 faults on M3 MacBook Pro?', answer: 'Yes. The Thunderbolt 5 controller on M3 Max models is a discrete IC on the logic board. A failed controller preventing docking stations, external monitors, or high-speed storage from being detected is a component-level repair. Assessment from R599 confirms the fault and repair viability.' },
   { question: 'Does ZA Support collect M3 MacBook Pro for repair?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
@@ -107,7 +107,7 @@ export default function MacBookProM3LogicBoardPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M3 Logic Board Faults We Repair</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">The M3 generation MacBook Pros represent the current peak of Apple Silicon performance. The M3 die, RAM, and Neural Engine are fully integrated and cannot be individually replaced — but the power management system, Thunderbolt 5 controllers, USB-C charging circuits, and display backlight drivers are all discrete components we can diagnose and repair at component level in Johannesburg.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">The M3 generation MacBook Pros represent the current peak of Apple Silicon performance. The M3 die, RAM, and Neural Engine are fully integrated and cannot be individually replaced, but the power management system, Thunderbolt 5 controllers, USB-C charging circuits, and display backlight drivers are all discrete components we can diagnose and repair at component level in Johannesburg.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.fault} className="glass-card p-5">
@@ -121,7 +121,7 @@ export default function MacBookProM3LogicBoardPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro M3 Logic Board Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro M3 Logic Board Repair, Common Questions" />
         </div>
       </section>
 

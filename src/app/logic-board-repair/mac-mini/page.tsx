@@ -54,7 +54,7 @@ const faqs = [
   {
     question: 'How long does Mac mini logic board repair take?',
     answer:
-      'Diagnostic is same-day. Simple repairs (HDMI controller, USB-C IC, power rail) are typically 1–3 business days. Complex repairs (trace reconstruction, liquid damage, multi-IC failure) are 3–7 business days. We give you a written turnaround estimate before work begins.',
+      'Diagnostic is same-day. Simple repairs (HDMI controller, USB-C IC, power rail) are typically 1-3 business days. Complex repairs (trace reconstruction, liquid damage, multi-IC failure) are 3-7 business days. We give you a written turnaround estimate before work begins.',
   },
   {
     question: 'Do you offer Mac mini collection and delivery in Johannesburg?',
@@ -291,7 +291,7 @@ export default function MacMiniLogicBoardPage() {
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Turnaround</span>, Same-day diagnostic. Repairs 1–5 business days.</p>
+                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Turnaround</span>, Same-day diagnostic. Repairs 1-5 business days.</p>
                 </div>
               </div>
             </div>

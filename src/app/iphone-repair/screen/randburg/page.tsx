@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const issues = [
-  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly — glass, OLED, and touch digitiser.' },
+  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly, glass, OLED, and touch digitiser.' },
   { title: 'Touch Not Responding', desc: 'Part of the screen stops registering touch or becomes fully unresponsive. Full display assembly replacement resolves this.' },
   { title: 'Dead Pixels or Dark Blotches', desc: 'Permanent dark patches spreading after a drop. OLED cell failure caused by internal impact stress.' },
-  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display — classic OLED panel damage or a loose display connector.' },
-  { title: 'Green Line Down the Side', desc: 'Thin green vertical line — a known OLED failure mode. Screen replacement resolves it completely.' },
+  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display, classic OLED panel damage or a loose display connector.' },
+  { title: 'Green Line Down the Side', desc: 'Thin green vertical line, a known OLED failure mode. Screen replacement resolves it completely.' },
   { title: 'Ghost Touch', desc: 'iPhone appears to tap and swipe on its own. Digitiser fault from a cracked panel creating phantom capacitive signals.' },
 ];
 
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'How long does an iPhone screen repair take?',
-    answer: 'Most iPhone screen replacements are completed within 1–2 hours. Same-day repair and return is the standard for Randburg clients.',
+    answer: 'Most iPhone screen replacements are completed within 1-2 hours. Same-day repair and return is the standard for Randburg clients.',
   },
   {
     question: 'Which iPhone models do you repair?',
@@ -92,10 +92,10 @@ export default function IPhoneScreenRepairRandburgPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iPhone Screen Repair Randburg
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Cracked iPhone screen in Randburg? We collect from your home or office — 15 minutes from our Hyde Park workshop. Same-day repair available.
+              Cracked iPhone screen in Randburg? We collect from your home or office, 15 minutes from our Hyde Park workshop. Same-day repair available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -103,7 +103,7 @@ export default function IPhoneScreenRepairRandburgPage() {
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: CheckCircle, label: 'iPhone 12–16 Pro Max' },
+                { icon: CheckCircle, label: 'iPhone 12-16 Pro Max' },
                 { icon: Zap, label: 'Same-day Repair' },
                 { icon: Shield, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Randburg' },
@@ -134,7 +134,7 @@ export default function IPhoneScreenRepairRandburgPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">iPhone Screen Repair for Randburg Clients</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Randburg is a large residential and commercial suburb in north-western Johannesburg, covering Ferndale, Bordeaux, Robindale, and the Randburg CBD. Our Hyde Park workshop at 1 Hyde Lane is approximately 12–15 km from central Randburg — around 15 minutes via Beyers Naudé Drive or Jan Smuts Avenue.
+              Randburg is a large residential and commercial suburb in north-western Johannesburg, covering Ferndale, Bordeaux, Robindale, and the Randburg CBD. Our Hyde Park workshop at 1 Hyde Lane is approximately 12-15 km from central Randburg, around 15 minutes via Beyers Naudé Drive or Jan Smuts Avenue.
             </p>
             <p>
               We collect iPhones from Randburg clients, repair the screen at our workshop, and return the device the same day. We repair all current iPhone OLED models from iPhone 12 through to the 16 Pro Max. Every screen replacement is covered by a written ZA Support warranty.
@@ -159,7 +159,7 @@ export default function IPhoneScreenRepairRandburgPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Screen Repair Randburg — Common Questions" />
+          <FAQAccordion items={faqs} title="iPhone Screen Repair Randburg, Common Questions" />
         </div>
       </section>
 

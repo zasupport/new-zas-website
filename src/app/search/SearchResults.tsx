@@ -26,13 +26,13 @@ function getIntentCTA(query: string): IntentCTA | null {
     secondary: { label: '💬 WhatsApp for Quote', href: buildWhatsAppUrl('SEARCH', 'general') },
   };
   if (isHealthCheck) return {
-    heading: 'Mac Health Check — Know Exactly What\'s Wrong',
+    heading: 'Mac Health Check, Know Exactly What\'s Wrong',
     body: 'Our diagnostic tool checks 120+ data points: battery health, security risks, software conflicts and more.',
     primary: { label: 'Learn About Health Check', href: '/services' },
     secondary: { label: '💬 Book a Diagnostic', href: buildWhatsAppUrl('SEARCH', 'general') },
   };
   if (isPrice || isRepair) return {
-    heading: 'No-Obligation Diagnostic — From R599 assessment',
+    heading: 'No-Obligation Diagnostic, From R599 assessment',
     body: 'We assess your Mac at from R599. No fix = no invoice. Logic board repairs from R2,499 with a 12-month warranty.',
     primary: { label: '💬 Get a WhatsApp Quote', href: buildWhatsAppUrl('SEARCH', 'general') },
     secondary: { label: 'Book a Repair', href: '/book' },

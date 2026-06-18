@@ -130,11 +130,11 @@ const GOV_SERVICES = [
 ];
 
 const BEE_HIGHLIGHTS = [
-  'BEE Level 1 contributor — maximum preferential procurement points',
+  'BEE Level 1 contributor, maximum preferential procurement points',
   'Youth employment and skills development programmes',
   'Women empowerment through technology training initiatives',
   'Enterprise and supplier development for emerging IT businesses',
-  'CSD registered — details available on request',
+  'CSD registered, details available on request',
   'Compliant with Preferential Procurement Policy Framework Act',
 ];
 
@@ -386,7 +386,7 @@ export default function GovernmentPage() {
       {/* FAQ Section */}
       <section className="py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={GOV_FAQS} title="Government IT Services — Frequently Asked Questions" />
+          <FAQAccordion items={GOV_FAQS} title="Government IT Services, Frequently Asked Questions" />
         </div>
       </section>
 

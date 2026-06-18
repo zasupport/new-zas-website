@@ -1,5 +1,5 @@
 // components/blog/Breadcrumbs.tsx
-// Visual breadcrumbs for blog posts — schema is handled by BlogSchema.tsx
+// Visual breadcrumbs for blog posts, schema is handled by BlogSchema.tsx
 
 import Link from 'next/link'
 
@@ -34,7 +34,7 @@ export function Breadcrumbs({ category, title }: BreadcrumbProps) {
 
 
 // components/blog/TableOfContents.tsx
-// Sticky table of contents with anchor jump links — featured snippet targeting
+// Sticky table of contents with anchor jump links, featured snippet targeting
 
 interface TOCItem {
   id: string
@@ -79,7 +79,7 @@ export function TableOfContents({ items }: TOCProps) {
 
 
 // components/blog/LastUpdated.tsx
-// Displays dateModified prominently — freshness signal for Google
+// Displays dateModified prominently, freshness signal for Google
 
 interface LastUpdatedProps {
   datePublished: string   // e.g. "29 March 2026"
@@ -102,7 +102,7 @@ export function LastUpdated({ datePublished, dateModified }: LastUpdatedProps) {
 
 
 // components/blog/KeyTakeaways.tsx
-// AI-ready summary block in first 200 words — GEO optimisation for RAG citation
+// AI-ready summary block in first 200 words, GEO optimisation for RAG citation
 
 interface KeyTakeawaysProps {
   points: string[]

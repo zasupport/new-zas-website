@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // CSP violation report receiver.
 // Browsers POST here when a Content-Security-Policy rule is violated.
-// Violations are logged to Vercel's log drain — no DB write needed.
+// Violations are logged to Vercel's log drain, no DB write needed.
 // Content-Type: application/csp-report (old spec) or application/reports+json (Reporting API v1)
 
 export async function POST(request: NextRequest) {

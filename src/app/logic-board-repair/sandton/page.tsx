@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     question: 'How far is Sandton from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 9.5 km from central Sandton, roughly a 15-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30 and Closed Saturdays.',
+    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 9.5 km from central Sandton, roughly a 15-minute drive depending on traffic. Many Sandton clients drop their MacBook in on their way to the office in the morning and collect on the way home. We are open Monday to Thursday 08:00-17:00 and Friday 08:00-16:30 and Closed Saturdays.',
   },
   {
     question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component, a chip, capacitor, resistor, or damaged trace, on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
+    answer: 'Component-level repair targets the specific failed component, a chip, capacitor, resistor, or damaged trace, on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60-80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
   },
   {
     question: 'My MacBook Pro shows no power at all. Is that repairable?',
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'How long will the repair take?',
-    answer: 'We complete the diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex component-level repair jobs, GPU, multi-component faults, or severe liquid damage, can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
+    answer: 'We complete the diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48-72 hours. Complex component-level repair jobs, GPU, multi-component faults, or severe liquid damage, can take 3-5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
   },
   {
     question: 'What if the board cannot be repaired?',
@@ -102,7 +102,7 @@ export default function LogicBoardRepairSandtonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Sandton, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Sandton&apos;s preferred MacBook logic board repair service. We collect from Sandton and repair at our Hyde Park component-level repair workshop, just 15 minutes away. Assessment: from R599.
@@ -147,7 +147,7 @@ export default function LogicBoardRepairSandtonPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Sandton is Johannesburg&apos;s financial and commercial hub, and when a MacBook logic board fails in the middle of a working day, every hour of downtime costs. ZA Support offers Sandton clients a dedicated collection and return service. We come to your home or office in Sandton, collect your MacBook, and carry out the repair at our Hyde Park component-level repair workshop approximately 4–6 kilometres away. Most clients are back up and running within 48–72 hours.
+              Sandton is Johannesburg&apos;s financial and commercial hub, and when a MacBook logic board fails in the middle of a working day, every hour of downtime costs. ZA Support offers Sandton clients a dedicated collection and return service. We come to your home or office in Sandton, collect your MacBook, and carry out the repair at our Hyde Park component-level repair workshop approximately 4-6 kilometres away. Most clients are back up and running within 48-72 hours.
             </p>
             <p>
               Our workshop is equipped with professional hot-air rework stations, professional soldering stations, a high-magnification stereo microscope, and the diagnostic tools needed to trace faults at board level. We do not guess, every repair starts with a structured diagnostic session that identifies the exact component failure before any soldering takes place.
@@ -218,10 +218,10 @@ export default function LogicBoardRepairSandtonPage() {
                 {[
                   'Targets only the specific failed component',
                   'Your original board, data stays put',
-                  '60–80% cheaper than board replacement',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -242,7 +242,7 @@ export default function LogicBoardRepairSandtonPage() {
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}

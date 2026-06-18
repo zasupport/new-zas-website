@@ -93,12 +93,12 @@ const faqs = [
   {
     question: 'How long does a MacBook Air M1 battery replacement take?',
     answer:
-      'The MacBook Air M1 battery replacement is typically completed within 2 to 3 hours. The M1 Air has a simpler internal layout than the MacBook Pro — four adhesive sections instead of six or eight — and the fanless design means fewer cables to route around. We include a full charge-discharge calibration cycle in the turnaround. Same-day service is available for all bookings confirmed before 14:00.',
+      'The MacBook Air M1 battery replacement is typically completed within 2 to 3 hours. The M1 Air has a simpler internal layout than the MacBook Pro, four adhesive sections instead of six or eight, and the fanless design means fewer cables to route around. We include a full charge-discharge calibration cycle in the turnaround. Same-day service is available for all bookings confirmed before 14:00.',
   },
   {
     question: 'What is the MacBook Air M1 battery capacity and cycle count rating?',
     answer:
-      'The MacBook Air M1 ships with a 49.9 Wh lithium-polymer battery. Apple rates it for 1,000 charge cycles before maximum capacity drops below 80%. The M1 chip is extraordinarily power-efficient, which means the 49.9 Wh cell delivers up to 18 hours of video playback — but this efficiency also means the battery undergoes fewer deep discharge cycles under normal use, potentially extending its calendar lifespan. Load shedding in Johannesburg disrupts this advantage.',
+      'The MacBook Air M1 ships with a 49.9 Wh lithium-polymer battery. Apple rates it for 1,000 charge cycles before maximum capacity drops below 80%. The M1 chip is extraordinarily power-efficient, which means the 49.9 Wh cell delivers up to 18 hours of video playback, but this efficiency also means the battery undergoes fewer deep discharge cycles under normal use, potentially extending its calendar lifespan. Load shedding in Johannesburg disrupts this advantage.',
   },
   {
     question: 'Does the MacBook Air M1 fanless design affect battery replacement?',
@@ -106,14 +106,14 @@ const faqs = [
       'Yes, in a positive way for the repair process. The MacBook Air M1 has no fan, no heat pipe, and no thermal management ducting inside the chassis. This means fewer cables, fewer connectors, and a cleaner path to the battery. However, the fanless design also means the M1 chip relies on the aluminium chassis for passive heat dissipation. We take particular care not to leave any adhesive residue on the top case that could impede thermal transfer after reassembly.',
   },
   {
-    question: 'My MacBook Air M1 battery health shows 78% — should I replace it?',
+    question: 'My MacBook Air M1 battery health shows 78%, should I replace it?',
     answer:
-      'At 78%, your battery is below the 80% threshold that Apple considers end-of-life. You will likely notice reduced battery life — perhaps 10 to 12 hours instead of the original 15 to 18 hours. macOS may also display a Service Recommended message. We recommend replacement at this point, as further degradation is non-linear — the battery will lose capacity faster from here. Our diagnostic confirms the exact state before we quote.',
+      'At 78%, your battery is below the 80% threshold that Apple considers end-of-life. You will likely notice reduced battery life, perhaps 10 to 12 hours instead of the original 15 to 18 hours. macOS may also display a Service Recommended message. We recommend replacement at this point, as further degradation is non-linear, the battery will lose capacity faster from here. Our diagnostic confirms the exact state before we quote.',
   },
   {
     question: 'Does load shedding damage the MacBook Air M1 battery?',
     answer:
-      'Yes. Every power interruption during load shedding forces the MacBook Air M1 to switch between AC power and its internal battery, counting as a partial charge cycle. The M1 Air is particularly affected because many owners use it as a primary machine during load shedding — relying on its long battery life to work through outages. This constant charge-discharge cycling during Stages 2 through 6 can add 1,500 to 2,500 extra partial cycles annually. A UPS eliminates this wear.',
+      'Yes. Every power interruption during load shedding forces the MacBook Air M1 to switch between AC power and its internal battery, counting as a partial charge cycle. The M1 Air is particularly affected because many owners use it as a primary machine during load shedding, relying on its long battery life to work through outages. This constant charge-discharge cycling during Stages 2 through 6 can add 1,500 to 2,500 extra partial cycles annually. A UPS eliminates this wear.',
   },
   {
     question: 'Is the MacBook Air M1 battery the same as the MacBook Air M2?',
@@ -128,7 +128,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Air M1 battery replacement?',
     answer:
-      'All MacBook Air M1 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months — capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault — we replace it again at from R599. From R599 assessment applies: if we assess your machine and determine the battery is not the issue, you pay only the assessment fee from R599.',
+      'All MacBook Air M1 battery replacements at ZA Support carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months, capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault, we replace it again at from R599. From R599 assessment applies: if we assess your machine and determine the battery is not the issue, you pay only the assessment fee from R599.',
   },
   {
     question: 'How do I check my MacBook Air M1 battery health?',
@@ -138,7 +138,7 @@ const faqs = [
   {
     question: 'Do you offer collection for MacBook Air M1 battery replacement?',
     answer:
-      'Yes. We collect and return from all suburbs within 25 km of our Hyde Park workshop — Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. Same-day collection is available for urgent swollen battery cases. WhatsApp us or call 064 529 5863 to arrange. Pretoria and Centurion collection is available by arrangement.',
+      'Yes. We collect and return from all suburbs within 25 km of our Hyde Park workshop, Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Houghton, and Parkhurst. Same-day collection is available for urgent swollen battery cases. WhatsApp us or call 064 529 5863 to arrange. Pretoria and Centurion collection is available by arrangement.',
   },
 ];
 
@@ -166,7 +166,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Air M1 redefined battery life — 18 hours from a 49.9 Wh cell. But Johannesburg&apos;s load shedding has pushed many of these machines to their cycle limit years ahead of schedule. We replace the battery in 2 to 3 hours at our Hyde Park workshop. From R1,899 with a 12-month warranty and From R599 assessment guarantee.
+              The MacBook Air M1 redefined battery life, 18 hours from a 49.9 Wh cell. But Johannesburg&apos;s load shedding has pushed many of these machines to their cycle limit years ahead of schedule. We replace the battery in 2 to 3 hours at our Hyde Park workshop. From R1,899 with a 12-month warranty and From R599 assessment guarantee.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -231,19 +231,19 @@ export default function BatteryReplacementMacBookAirM1Page() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Understanding the MacBook Air M1 Battery</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Air M1, released in November 2020, was the first Mac laptop to use Apple&apos;s own silicon. The M1 chip&apos;s 5-nanometre architecture draws so little power that Apple eliminated the internal fan entirely — making the Air M1 a passively cooled machine with a 49.9 Wh lithium-polymer battery rated for 18 hours of video playback. That efficiency is why the Air M1 became the best-selling Mac of all time. It is also why so many of them are now arriving at our Hyde Park workshop with degraded batteries.
+              The MacBook Air M1, released in November 2020, was the first Mac laptop to use Apple&apos;s own silicon. The M1 chip&apos;s 5-nanometre architecture draws so little power that Apple eliminated the internal fan entirely, making the Air M1 a passively cooled machine with a 49.9 Wh lithium-polymer battery rated for 18 hours of video playback. That efficiency is why the Air M1 became the best-selling Mac of all time. It is also why so many of them are now arriving at our Hyde Park workshop with degraded batteries.
             </p>
             <p>
-              The irony is that the M1 Air&apos;s extraordinary efficiency makes it the machine of choice during load shedding. Johannesburg professionals pull it off the charger when Eskom cuts power and rely on its long battery life to work through 2.5 or 4.5-hour outage windows. This is exactly the use pattern that accelerates battery degradation. Every transition from AC to battery counts as a partial charge cycle. On a Stage 4 schedule, that is 8 to 12 extra partial cycles daily. We have documented Air M1 machines arriving with cycle counts exceeding 1,100 at just 30 months of age — well past Apple&apos;s 1,000-cycle rating.
+              The irony is that the M1 Air&apos;s extraordinary efficiency makes it the machine of choice during load shedding. Johannesburg professionals pull it off the charger when Eskom cuts power and rely on its long battery life to work through 2.5 or 4.5-hour outage windows. This is exactly the use pattern that accelerates battery degradation. Every transition from AC to battery counts as a partial charge cycle. On a Stage 4 schedule, that is 8 to 12 extra partial cycles daily. We have documented Air M1 machines arriving with cycle counts exceeding 1,100 at just 30 months of age, well past Apple&apos;s 1,000-cycle rating.
             </p>
             <p>
-              Internally, the Air M1 battery is secured with four adhesive pull-tab sections — simpler than the six sections on the 14-inch Pro or eight sections on the 16-inch Pro. The fanless design means there are no thermal ducting or fan cables to route around, giving us a cleaner path to the battery. However, the Air M1&apos;s thinner chassis means there is less tolerance for swelling. A battery that expands by even 1.5 millimetres can push against the trackpad mechanism, causing stiff or unresponsive clicks, or in severe cases, crack the trackpad glass entirely.
+              Internally, the Air M1 battery is secured with four adhesive pull-tab sections, simpler than the six sections on the 14-inch Pro or eight sections on the 16-inch Pro. The fanless design means there are no thermal ducting or fan cables to route around, giving us a cleaner path to the battery. However, the Air M1&apos;s thinner chassis means there is less tolerance for swelling. A battery that expands by even 1.5 millimetres can push against the trackpad mechanism, causing stiff or unresponsive clicks, or in severe cases, crack the trackpad glass entirely.
             </p>
             <p>
-              Our replacement process for the Air M1 begins with a comprehensive diagnostic using coconutBattery: cycle count, maximum capacity as a percentage of the 49.9 Wh design capacity, individual cell voltage balance, and charging circuit health. We then remove the bottom case — secured by pentalobe screws, the same as the MacBook Pro — disconnect the battery ribbon cable, and release the four adhesive sections using controlled heat at a maximum of 50 degrees Celsius and 90% isopropyl solvent. The replacement cell is pre-tested for voltage and capacity before installation.
+              Our replacement process for the Air M1 begins with a comprehensive diagnostic using coconutBattery: cycle count, maximum capacity as a percentage of the 49.9 Wh design capacity, individual cell voltage balance, and charging circuit health. We then remove the bottom case, secured by pentalobe screws, the same as the MacBook Pro, disconnect the battery ribbon cable, and release the four adhesive sections using controlled heat at a maximum of 50 degrees Celsius and 90% isopropyl solvent. The replacement cell is pre-tested for voltage and capacity before installation.
             </p>
             <p>
-              After installation, we run a calibration cycle unique to the Apple Silicon platform. The M1&apos;s battery management unit uses machine learning to optimise charging patterns over time. A fresh battery resets this learned profile, so we run a full charge-discharge-charge sequence to give the BMU initial calibration data. We verify the battery registers 49.9 Wh design capacity and 100% maximum capacity in System Settings before the machine leaves our workshop. The entire process — diagnostic through to collection — is typically completed within 2 to 3 hours.
+              After installation, we run a calibration cycle unique to the Apple Silicon platform. The M1&apos;s battery management unit uses machine learning to optimise charging patterns over time. A fresh battery resets this learned profile, so we run a full charge-discharge-charge sequence to give the BMU initial calibration data. We verify the battery registers 49.9 Wh design capacity and 100% maximum capacity in System Settings before the machine leaves our workshop. The entire process, diagnostic through to collection, is typically completed within 2 to 3 hours.
             </p>
           </div>
           <div className="mt-6">
@@ -279,7 +279,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
               <tbody>
                 {[
                   { model: 'MacBook Air M1 13.3" (Late 2020)', battery: '49.9 Wh', from: 'R1,899', turnaround: '2-3 hrs' },
-                  { model: 'MacBook Air M1 13.3" (2020) — Swollen', battery: '49.9 Wh', from: 'R1,899', turnaround: '2-3 hrs' },
+                  { model: 'MacBook Air M1 13.3" (2020), Swollen', battery: '49.9 Wh', from: 'R1,899', turnaround: '2-3 hrs' },
                 ].map((row, i) => (
                   <tr key={row.model} className={`border-b border-[rgba(255,255,255,0.04)] ${i % 2 === 0 ? 'bg-[#0A1A18]' : 'bg-[#111C1A]'}`}>
                     <td className="text-[#E8F4F1] px-5 py-4 font-medium">{row.model}</td>
@@ -292,7 +292,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Price includes the 49.9 Wh replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599 — applied toward repair cost. From R599 assessment.
+            Price includes the 49.9 Wh replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599, applied toward repair cost. From R599 assessment.
           </p>
           <PricingRange page="/battery-replacement/macbook-air-m1" />
           <PricingNote variant="inline" />
@@ -305,10 +305,10 @@ export default function BatteryReplacementMacBookAirM1Page() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Load Shedding and Your MacBook Air M1 Battery</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Air M1 became South Africa&apos;s unofficial load shedding workhorse. Its combination of long battery life, silent operation, and lightweight portability made it the natural choice for working through power outages. But this reliance has a hidden cost. We have replaced more Air M1 batteries in the past 12 months than any other single Mac model — and the overwhelming majority show cycle counts consistent with heavy load shedding usage.
+              The MacBook Air M1 became South Africa&apos;s unofficial load shedding workhorse. Its combination of long battery life, silent operation, and lightweight portability made it the natural choice for working through power outages. But this reliance has a hidden cost. We have replaced more Air M1 batteries in the past 12 months than any other single Mac model, and the overwhelming majority show cycle counts consistent with heavy load shedding usage.
             </p>
             <p>
-              The pattern is consistent. A MacBook Air M1 purchased in early 2021 should, under normal usage without load shedding, reach 1,000 cycles by mid-to-late 2025. Instead, we are seeing machines from that era arriving in 2024 and early 2025 with cycle counts of 1,100 to 1,400 — driven by the constant partial cycling of Stages 2 through 6. The most effective protection is a quality UPS that maintains clean AC power during outages, preventing the Mac from switching to battery at all. For machines already past the threshold, the only remedy is a battery replacement.
+              The pattern is consistent. A MacBook Air M1 purchased in early 2021 should, under normal usage without load shedding, reach 1,000 cycles by mid-to-late 2025. Instead, we are seeing machines from that era arriving in 2024 and early 2025 with cycle counts of 1,100 to 1,400, driven by the constant partial cycling of Stages 2 through 6. The most effective protection is a quality UPS that maintains clean AC power during outages, preventing the Mac from switching to battery at all. For machines already past the threshold, the only remedy is a battery replacement.
             </p>
           </div>
         </div>
@@ -328,7 +328,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
               {
                 step: 2,
                 title: 'Bottom Case & Battery Disconnect',
-                desc: 'Ten pentalobe screws secure the bottom case. Once removed, the battery ribbon cable is disconnected from the logic board. The fanless M1 design means no fan cables or thermal ducting to manage — a clean, unobstructed path to the battery.',
+                desc: 'Ten pentalobe screws secure the bottom case. Once removed, the battery ribbon cable is disconnected from the logic board. The fanless M1 design means no fan cables or thermal ducting to manage, a clean, unobstructed path to the battery.',
               },
               {
                 step: 3,
@@ -338,7 +338,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
               {
                 step: 4,
                 title: 'Cell Verification & Installation',
-                desc: 'The replacement 49.9 Wh cell is tested for open-circuit voltage, capacity, and balance. New adhesive applied, cell seated, connector engaged. Bottom case torqued to specification. No adhesive residue left on the chassis — critical for the M1 passive thermal path.',
+                desc: 'The replacement 49.9 Wh cell is tested for open-circuit voltage, capacity, and balance. New adhesive applied, cell seated, connector engaged. Bottom case torqued to specification. No adhesive residue left on the chassis, critical for the M1 passive thermal path.',
               },
               {
                 step: 5,
@@ -368,7 +368,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly replacement — R2,800 to R4,500</li>
+                <li>Top case assembly replacement, R2,800 to R4,500</li>
                 <li>Turnaround 5 to 7 business days via depot</li>
                 <li>Keyboard and trackpad replaced unnecessarily</li>
                 <li>No coconutBattery diagnostic shared</li>
@@ -378,10 +378,10 @@ export default function BatteryReplacementMacBookAirM1Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Battery cell only — R1,899 all-inclusive</li>
+                <li>Battery cell only, R1,899 all-inclusive</li>
                 <li>Same-day 2 to 3 hour turnaround</li>
                 <li>coconutBattery diagnostic shared with you</li>
-                <li>From R599 assessment — pay only R599 assessment if not repairable</li>
+                <li>From R599 assessment, pay only R599 assessment if not repairable</li>
                 <li>Written 12-month warranty on cell and workmanship</li>
               </ul>
             </div>
@@ -392,7 +392,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area — MacBook Air M1 Battery Replacement</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Service Area, MacBook Air M1 Battery Replacement</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
             Walk in to our Hyde Park workshop or arrange collection. We serve all northern Johannesburg suburbs and offer same-day collection for urgent swollen battery cases.
           </p>
@@ -426,7 +426,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Air M1 Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Air M1 Battery Replacement, Common Questions" />
         </div>
       </section>
 
@@ -459,7 +459,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M1 Battery Dying?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your cycle count and maximum capacity percentage — or just describe the problem — and we will give you an honest assessment and price. From R599 assessment. 2 to 3 hour turnaround. From R599 assessment.
+              WhatsApp us your cycle count and maximum capacity percentage, or just describe the problem, and we will give you an honest assessment and price. From R599 assessment. 2 to 3 hour turnaround. From R599 assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

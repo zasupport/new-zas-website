@@ -67,7 +67,7 @@ export default function PricingRange({ page, variant = 'card' }: Props) {
         className="text-white/80 text-xs sm:text-sm mt-3 leading-snug"
       >
         <span className="font-semibold text-white">From {fmt(entry.from)}.</span>{' '}
-        Most customers pay {fmt(entry.typical_low)}–{fmt(entry.typical_high)}.{' '}
+        Most customers pay {fmt(entry.typical_low)}-{fmt(entry.typical_high)}.{' '}
         Complex cases up to {fmt(entry.high)}.
       </p>
     );
@@ -86,7 +86,7 @@ export default function PricingRange({ page, variant = 'card' }: Props) {
         <div>
           <p className="text-white/60 text-xs uppercase tracking-wide">Most customers pay</p>
           <p className="text-white font-bold text-lg sm:text-xl mt-1">
-            {fmt(entry.typical_low)}–{fmt(entry.typical_high)}
+            {fmt(entry.typical_low)}-{fmt(entry.typical_high)}
           </p>
         </div>
         <div>

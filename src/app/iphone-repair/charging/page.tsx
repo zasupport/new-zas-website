@@ -100,7 +100,7 @@ const faqs = [
   {
     question: 'How long does iPhone charging port repair take?',
     answer:
-      'A lint cleaning takes 15–30 minutes. A port replacement typically takes 60 minutes. We confirm parts availability and turnaround time when you contact us, same-day service is available for most models.',
+      'A lint cleaning takes 15-30 minutes. A port replacement typically takes 60 minutes. We confirm parts availability and turnaround time when you contact us, same-day service is available for most models.',
   },
   {
     question: 'Can you repair a Lightning port on older iPhones?',

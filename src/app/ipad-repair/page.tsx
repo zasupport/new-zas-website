@@ -48,7 +48,7 @@ const faqs = [
   {
     question: 'How long does iPad repair take?',
     answer:
-      'iPad mini, Air, and standard iPad screen repairs typically take 2–4 hours. iPad Pro repairs take 4–8 hours depending on the model. Battery replacements take 1–2 hours for most models. Charging port repairs take 2–3 hours. We will confirm the exact timeframe when you bring it in.',
+      'iPad mini, Air, and standard iPad screen repairs typically take 2-4 hours. iPad Pro repairs take 4-8 hours depending on the model. Battery replacements take 1-2 hours for most models. Charging port repairs take 2-3 hours. We will confirm the exact timeframe when you bring it in.',
   },
   {
     question: 'Will Apple Pencil compatibility be affected after screen repair?',
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'My iPad screen is shattered but the display underneath still works. Can you fix just the glass?',
     answer:
-      'On older iPad models (iPad 6th–9th generation, some mini models), we can sometimes replace just the digitiser glass rather than the full assembly, which reduces cost. On iPad Air, iPad mini 6, and iPad Pro, the display is fully laminated so the full assembly must be replaced. We assess this at intake to recommend the most cost-effective approach.',
+      'On older iPad models (iPad 6th-9th generation, some mini models), we can sometimes replace just the digitiser glass rather than the full assembly, which reduces cost. On iPad Air, iPad mini 6, and iPad Pro, the display is fully laminated so the full assembly must be replaced. We assess this at intake to recommend the most cost-effective approach.',
   },
   {
     question: 'Can you fix an iPad that will not charge?',
@@ -251,10 +251,10 @@ export default function iPadRepairPage() {
               A Honest Word on iPad Pro M4 and M2 Repairs
             </h2>
             <p className="text-[#7A9E98] mb-4 leading-relaxed">
-              Apple Silicon iPad Pros are genuinely harder to repair. The display is fully laminated — glass, digitiser, and LCD are fused — meaning the entire assembly must be replaced even for a cracked outer glass.
+              Apple Silicon iPad Pros are genuinely harder to repair. The display is fully laminated, glass, digitiser, and LCD are fused, meaning the entire assembly must be replaced even for a cracked outer glass.
             </p>
             <p className="text-[#7A9E98] leading-relaxed">
-              M4 and M2 iPad Pro repairs require a full assessment before we commit to a price. Standard iPad, iPad mini, and older Air models are straightforward — 2–4 hours in most cases.
+              M4 and M2 iPad Pro repairs require a full assessment before we commit to a price. Standard iPad, iPad mini, and older Air models are straightforward, 2-4 hours in most cases.
             </p>
           </div>
         </div>
@@ -384,10 +384,10 @@ export default function iPadRepairPage() {
         </div>
       </section>
 
-      {/* Orphan-link injection — iPad repair by fault type */}
+      {/* Orphan-link injection, iPad repair by fault type */}
       <OrphanLinks
         sectionTitle="iPad repair by fault type"
-        intro="Most iPad repairs we see fall into four categories — battery wear, charging port damage, liquid exposure and cracked screens. Pick the fault closest to what your iPad is showing to read what the assessment and replacement work looks like for that issue."
+        intro="Most iPad repairs we see fall into four categories, battery wear, charging port damage, liquid exposure and cracked screens. Pick the fault closest to what your iPad is showing to read what the assessment and replacement work looks like for that issue."
         groups={[
           { heading: 'By fault', links: orphanIpadRepairLinks },
         ]}

@@ -87,31 +87,31 @@ const serviceSchema = {
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingRows = [
-  { model: 'MacBook Pro 13″ M1 (Late 2020)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2–4 hrs' },
-  { model: 'MacBook Pro 14″ M1 Pro (2021)', battery: '69.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ M1 Max (2021)', battery: '69.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M1 Pro (2021)', battery: '99.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M1 Max (2021)', battery: '99.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
+  { model: 'MacBook Pro 13″ M1 (Late 2020)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 14″ M1 Pro (2021)', battery: '69.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 14″ M1 Max (2021)', battery: '69.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ M1 Pro (2021)', battery: '99.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ M1 Max (2021)', battery: '99.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
 ];
 
 /* ── Fault Types ─────────────────────────────────────────────────────────── */
 const faultTypes = [
   {
-    title: 'Cycle Count Exceeded — First Apple Silicon Generation',
+    title: 'Cycle Count Exceeded: First Apple Silicon Generation',
     icon: Battery,
-    desc: 'The MacBook Pro M1 was released in November 2020, which means the earliest units are now five-plus years old and many are well past 700 charge cycles. Apple rates the M1 battery for 1,000 cycles before capacity is expected to drop below 80% of design capacity. We see M1 MacBook Pros in our Hyde Park workshop arriving with capacity readings of 72–78% — still functional, but noticeably shorter runtime and increasingly unreliable discharge curves. If your M1 reports "Service Recommended" or your battery health in System Settings is below 80%, replacement is the correct course of action.',
+    desc: 'The MacBook Pro M1 was released in November 2020, which means the earliest units are now five-plus years old and many are well past 700 charge cycles. Apple rates the M1 battery for 1,000 cycles before capacity is expected to drop below 80% of design capacity. We see M1 MacBook Pros in our Hyde Park workshop arriving with capacity readings of 72-78%, still functional, but noticeably shorter runtime and increasingly unreliable discharge curves. If your M1 reports "Service Recommended" or your battery health in System Settings is below 80%, replacement is the correct course of action.',
     severity: 'medium',
   },
   {
-    title: 'Swollen Battery — Adhesive Bond Failure',
+    title: 'Swollen Battery: Adhesive Bond Failure',
     icon: AlertTriangle,
-    desc: 'MacBook Pro M1 13-inch units use a dual-cell 58.2 Wh battery array mounted with stretch-release adhesive pull-tabs beneath the trackpad. When these cells begin to off-gas at end-of-life, the trackpad is the first component affected — the swelling pushes upward and increases click resistance until the trackpad eventually stops clicking. In our workshop we handle M1 swollen battery removals regularly, and the procedure requires controlled heat application and adhesive solvent to release the cells safely without puncturing the lithium-polymer pouch. This is an urgent fault and should not be ignored.',
+    desc: 'MacBook Pro M1 13-inch units use a dual-cell 58.2 Wh battery array mounted with stretch-release adhesive pull-tabs beneath the trackpad. When these cells begin to off-gas at end-of-life, the trackpad is the first component affected, the swelling pushes upward and increases click resistance until the trackpad eventually stops clicking. In our workshop we handle M1 swollen battery removals regularly, and the procedure requires controlled heat application and adhesive solvent to release the cells safely without puncturing the lithium-polymer pouch. This is an urgent fault and should not be ignored.',
     severity: 'high',
   },
   {
-    title: 'Unexpected Shutdown — BMU Calibration Drift',
+    title: 'Unexpected Shutdown: BMU Calibration Drift',
     icon: Zap,
-    desc: 'Some MacBook Pro M1 units exhibit sudden shutdowns at 15–30% displayed charge. The battery management unit (BMU) on Apple Silicon Macs relies on voltage curve tables to estimate remaining capacity. As cells age unevenly, the actual voltage at a given charge level diverges from the stored calibration, triggering a protective shutdown to prevent over-discharge damage to the logic board. The machine restarts immediately when plugged in, which is the clearest sign this is a battery issue rather than a logic board fault. We run a full discharge and recharge profile to confirm before quoting.',
+    desc: 'Some MacBook Pro M1 units exhibit sudden shutdowns at 15-30% displayed charge. The battery management unit (BMU) on Apple Silicon Macs relies on voltage curve tables to estimate remaining capacity. As cells age unevenly, the actual voltage at a given charge level diverges from the stored calibration, triggering a protective shutdown to prevent over-discharge damage to the logic board. The machine restarts immediately when plugged in, which is the clearest sign this is a battery issue rather than a logic board fault. We run a full discharge and recharge profile to confirm before quoting.',
     severity: 'medium',
   },
   {
@@ -123,13 +123,13 @@ const faultTypes = [
   {
     title: 'Load Shedding Micro-Cycle Accumulation',
     icon: BatteryWarning,
-    desc: 'South African M1 MacBook Pro users face an accelerated battery degradation problem that does not affect users in countries without load shedding. During Stage 4 load shedding, a Johannesburg household experiences up to 12 power interruptions per day. Each interruption forces the MacBook Pro to switch from AC to battery and back — each transition counts as a partial charge cycle. We have tracked M1 units in Johannesburg reaching 1,000 cycles 12 to 18 months ahead of typical global lifecycle data. A quality UPS is the most effective mitigation.',
+    desc: 'South African M1 MacBook Pro users face an accelerated battery degradation problem that does not affect users in countries without load shedding. During Stage 4 load shedding, a Johannesburg household experiences up to 12 power interruptions per day. Each interruption forces the MacBook Pro to switch from AC to battery and back, each transition counts as a partial charge cycle. We have tracked M1 units in Johannesburg reaching 1,000 cycles 12 to 18 months ahead of typical global lifecycle data. A quality UPS is the most effective mitigation.',
     severity: 'low',
   },
   {
-    title: 'Reduced Runtime — Efficiency Gap',
+    title: 'Reduced Runtime: Efficiency Gap',
     icon: Cpu,
-    desc: 'One of the defining features of the M1 chip was its exceptional battery life — Apple quoted 17 to 20 hours for the M1 MacBook Pro 13-inch under controlled conditions. If your machine is now only achieving 4 to 6 hours of productive work, the battery capacity has almost certainly degraded to the point where replacement is warranted. A capacity reading below 80% in coconutBattery explains the runtime reduction directly. We confirm this diagnosis before quoting and provide a written capacity report at collection.',
+    desc: 'One of the defining features of the M1 chip was its exceptional battery life, Apple quoted 17 to 20 hours for the M1 MacBook Pro 13-inch under controlled conditions. If your machine is now only achieving 4 to 6 hours of productive work, the battery capacity has almost certainly degraded to the point where replacement is warranted. A capacity reading below 80% in coconutBattery explains the runtime reduction directly. We confirm this diagnosis before quoting and provide a written capacity report at collection.',
     severity: 'low',
   },
 ];
@@ -162,37 +162,37 @@ const faqs = [
   {
     question: 'How do I check my MacBook Pro M1 battery health?',
     answer:
-      'Open System Settings, go to Battery, and check the battery health percentage. If it shows below 80%, macOS will display a "Service Recommended" notice. For more detail, hold Option, click the Apple menu, select System Information, and navigate to Power — you will see cycle count and maximum capacity listed. Alternatively, download coconutBattery (free) which shows cell voltage, temperature history, and a comparison against the original design capacity. If your M1 is showing below 80% capacity or above 800 cycles, bring it in for an assessment.',
+      'Open System Settings, go to Battery, and check the battery health percentage. If it shows below 80%, macOS will display a "Service Recommended" notice. For more detail, hold Option, click the Apple menu, select System Information, and navigate to Power, you will see cycle count and maximum capacity listed. Alternatively, download coconutBattery (free) which shows cell voltage, temperature history, and a comparison against the original design capacity. If your M1 is showing below 80% capacity or above 800 cycles, bring it in for an assessment.',
   },
   {
     question: 'What is the battery capacity of the MacBook Pro M1?',
     answer:
-      'The MacBook Pro 13-inch M1 (Late 2020) uses a 58.2 Wh lithium-polymer battery rated for 1,000 charge cycles. The MacBook Pro 14-inch M1 Pro and M1 Max (2021) use a 69.6 Wh cell, also rated for 1,000 cycles. The MacBook Pro 16-inch M1 Pro and M1 Max (2021) use a 99.6 Wh cell — this is at the aviation carry-on limit of 100 Wh per cell and is the largest battery Apple fitted in any MacBook Pro at that time. We stock replacement cells for all three capacity variants.',
+      'The MacBook Pro 13-inch M1 (Late 2020) uses a 58.2 Wh lithium-polymer battery rated for 1,000 charge cycles. The MacBook Pro 14-inch M1 Pro and M1 Max (2021) use a 69.6 Wh cell, also rated for 1,000 cycles. The MacBook Pro 16-inch M1 Pro and M1 Max (2021) use a 99.6 Wh cell, this is at the aviation carry-on limit of 100 Wh per cell and is the largest battery Apple fitted in any MacBook Pro at that time. We stock replacement cells for all three capacity variants.',
   },
   {
-    question: 'My MacBook Pro M1 battery drains faster than it used to — is replacement needed?',
+    question: 'My MacBook Pro M1 battery drains faster than it used to, is replacement needed?',
     answer:
-      'Not always — but usually yes if the machine is over three years old and sees daily use. First, check the cycle count in System Information. If your cycle count exceeds 700 and your maximum capacity has dropped below 85%, replacement is likely worthwhile. You will recover the original runtime Apple quoted for the M1: 17–20 hours for the 13-inch under light workloads, and 14–17 hours for the 14-inch M1 Pro. If the cycle count is below 400 and the capacity is still above 90%, the issue may be a software or power-hungry app rather than the battery itself — we will diagnose this before quoting.',
+      'Not always, but usually yes if the machine is over three years old and sees daily use. First, check the cycle count in System Information. If your cycle count exceeds 700 and your maximum capacity has dropped below 85%, replacement is likely worthwhile. You will recover the original runtime Apple quoted for the M1: 17-20 hours for the 13-inch under light workloads, and 14-17 hours for the 14-inch M1 Pro. If the cycle count is below 400 and the capacity is still above 90%, the issue may be a software or power-hungry app rather than the battery itself, we will diagnose this before quoting.',
   },
   {
     question: 'Does load shedding affect MacBook Pro M1 battery life?',
     answer:
-      'Yes, and we see it daily. Each time power cuts and restores, your MacBook Pro M1 transitions between battery and AC power — a partial charge cycle each way. During Stage 4 load shedding in Johannesburg, this can add 8 to 12 partial cycles per day on top of normal use. Over 12 to 18 months, M1 units used without a UPS in South Africa consistently reach end-of-life battery cycles earlier than the same models in countries without power interruptions. A quality UPS with automatic voltage regulation is the single best investment you can make for your MacBook Pro battery longevity.',
+      'Yes, and we see it daily. Each time power cuts and restores, your MacBook Pro M1 transitions between battery and AC power, a partial charge cycle each way. During Stage 4 load shedding in Johannesburg, this can add 8 to 12 partial cycles per day on top of normal use. Over 12 to 18 months, M1 units used without a UPS in South Africa consistently reach end-of-life battery cycles earlier than the same models in countries without power interruptions. A quality UPS with automatic voltage regulation is the single best investment you can make for your MacBook Pro battery longevity.',
   },
   {
     question: 'How long does MacBook Pro M1 battery replacement take?',
     answer:
-      'The MacBook Pro M1 13-inch takes 2 to 4 hours including diagnostic, adhesive removal, cell installation, and calibration. The M1 Pro and M1 Max 14-inch and 16-inch models take 4 to 6 hours — the larger battery array spans more adhesive sections and requires more careful removal. Same-day service is available for all M1 models when booked before 14:00. Contact us on WhatsApp to confirm slot availability and get a same-day quote before bringing the machine in.',
+      'The MacBook Pro M1 13-inch takes 2 to 4 hours including diagnostic, adhesive removal, cell installation, and calibration. The M1 Pro and M1 Max 14-inch and 16-inch models take 4 to 6 hours, the larger battery array spans more adhesive sections and requires more careful removal. Same-day service is available for all M1 models when booked before 14:00. Contact us on WhatsApp to confirm slot availability and get a same-day quote before bringing the machine in.',
   },
   {
     question: 'Is the MacBook Pro M1 battery soldered in or removable?',
     answer:
-      'The battery is not soldered to the logic board — it connects via a flex cable and battery management connector. However, it is adhesive-mounted to the top case using stretch-release pull-tabs. The cells themselves are bonded in place and require controlled heat and adhesive solvent to release cleanly. This is substantially more involved than a battery swap on a removable-battery laptop, but far less invasive than Apple\'s approach of replacing the entire top case assembly. Our process takes 2 to 6 hours depending on the model.',
+      'The battery is not soldered to the logic board, it connects via a flex cable and battery management connector. However, it is adhesive-mounted to the top case using stretch-release pull-tabs. The cells themselves are bonded in place and require controlled heat and adhesive solvent to release cleanly. This is substantially more involved than a battery swap on a removable-battery laptop, but far less invasive than Apple\'s approach of replacing the entire top case assembly. Our process takes 2 to 6 hours depending on the model.',
   },
   {
     question: 'Will replacing the battery affect my MacBook Pro M1 performance?',
     answer:
-      'No — battery replacement on an M1 MacBook Pro does not affect the M1 chip performance, memory, or storage. macOS may apply CPU throttling when a battery is severely degraded (below 70% capacity) to prevent unexpected shutdowns. After a new battery is fitted and calibrated, the throttling is removed and the machine performs at full rated M1 speed again. You will also regain the full rated battery runtime — typically 17 to 20 hours for the 13-inch M1 under light workloads.',
+      'No, battery replacement on an M1 MacBook Pro does not affect the M1 chip performance, memory, or storage. macOS may apply CPU throttling when a battery is severely degraded (below 70% capacity) to prevent unexpected shutdowns. After a new battery is fitted and calibrated, the throttling is removed and the machine performs at full rated M1 speed again. You will also regain the full rated battery runtime, typically 17 to 20 hours for the 13-inch M1 under light workloads.',
   },
   {
     question: 'Do you offer a warranty on MacBook Pro M1 battery replacements?',
@@ -202,7 +202,7 @@ const faqs = [
   {
     question: 'Can you also replace the battery in M1 Pro and M1 Max models?',
     answer:
-      'Yes, we replace batteries across the full first-generation Apple Silicon MacBook Pro range: M1 (13-inch Late 2020), M1 Pro 14-inch, M1 Pro 16-inch, M1 Max 14-inch, and M1 Max 16-inch. The chip variant (M1, M1 Pro, or M1 Max) does not affect the battery replacement procedure — the cell capacities are 69.6 Wh (14-inch) and 99.6 Wh (16-inch) regardless of whether the machine has the Pro or Max chip configuration.',
+      'Yes, we replace batteries across the full first-generation Apple Silicon MacBook Pro range: M1 (13-inch Late 2020), M1 Pro 14-inch, M1 Pro 16-inch, M1 Max 14-inch, and M1 Max 16-inch. The chip variant (M1, M1 Pro, or M1 Max) does not affect the battery replacement procedure, the cell capacities are 69.6 Wh (14-inch) and 99.6 Wh (16-inch) regardless of whether the machine has the Pro or Max chip configuration.',
   },
 ];
 
@@ -230,7 +230,7 @@ export default function BatteryReplacementMacBookProM1Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              First Apple Silicon — 58.2 Wh (13&quot;) or 69.6 Wh/99.6 Wh (14&quot;/16&quot;) cell replacement at our Hyde Park workshop. Load shedding micro-cycles accumulate fast on M1 MacBook Pros. Pro 13&quot; from R1,799. Pro 14&quot;/16&quot; from R2,299. Same-day service available.
+              First Apple Silicon, 58.2 Wh (13&quot;) or 69.6 Wh/99.6 Wh (14&quot;/16&quot;) cell replacement at our Hyde Park workshop. Load shedding micro-cycles accumulate fast on M1 MacBook Pros. Pro 13&quot; from R1,799. Pro 14&quot;/16&quot; from R2,299. Same-day service available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -294,7 +294,7 @@ export default function BatteryReplacementMacBookProM1Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M1 Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the replacement cell, labour, calibration, and our written warranty. The Apple Store charges R3,500 to R8,000 for the same service — and on newer models they sometimes replace the entire top case assembly rather than the battery alone. We replace the battery cells only.
+            Prices below are starting prices including the replacement cell, labour, calibration, and our written warranty. The Apple Store charges R3,500 to R8,000 for the same service, and on newer models they sometimes replace the entire top case assembly rather than the battery alone. We replace the battery cells only.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -319,7 +319,7 @@ export default function BatteryReplacementMacBookProM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-m1" />
           <PricingNote variant="inline" />
@@ -329,16 +329,16 @@ export default function BatteryReplacementMacBookProM1Page() {
       {/* Technical Detail */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M1 Battery — What You Need to Know</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M1 Battery, What You Need to Know</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Pro M1 marked a watershed moment for Apple laptop battery life. The 13-inch M1, released in November 2020, carried a 58.2 Wh cell and Apple quoted up to 20 hours of video playback. The M1 Pro and M1 Max 14-inch and 16-inch models, launched in October 2021, stepped up to 69.6 Wh and 99.6 Wh respectively — with Apple quoting 17 hours for the 14-inch and 21 hours for the 16-inch. These were not marketing numbers — we verified them in our workshop across multiple client machines. The M1 genuinely extended how long a MacBook Pro could run on a single charge.
+              The MacBook Pro M1 marked a watershed moment for Apple laptop battery life. The 13-inch M1, released in November 2020, carried a 58.2 Wh cell and Apple quoted up to 20 hours of video playback. The M1 Pro and M1 Max 14-inch and 16-inch models, launched in October 2021, stepped up to 69.6 Wh and 99.6 Wh respectively, with Apple quoting 17 hours for the 14-inch and 21 hours for the 16-inch. These were not marketing numbers, we verified them in our workshop across multiple client machines. The M1 genuinely extended how long a MacBook Pro could run on a single charge.
             </p>
             <p>
-              The problem is that after three to five years of daily use in South Africa, many M1 MacBook Pros are now presenting at our Hyde Park workshop with significant battery degradation. The 1,000-cycle rating Apple advertises is an average — in Johannesburg, where load shedding adds 8 to 12 partial charge cycles per day during Stage 4 schedules, we see M1 batteries reaching 1,000 cycles 12 to 18 months ahead of global averages. A battery sitting at 72% maximum capacity recovers perhaps 72% of the original runtime. On an M1 13-inch that once lasted 17 hours, this means roughly 12 hours — noticeable but still functional. At 60% capacity, you are at 10 hours and the machine will begin unexpected shutdowns at low charge levels.
+              The problem is that after three to five years of daily use in South Africa, many M1 MacBook Pros are now presenting at our Hyde Park workshop with significant battery degradation. The 1,000-cycle rating Apple advertises is an average, in Johannesburg, where load shedding adds 8 to 12 partial charge cycles per day during Stage 4 schedules, we see M1 batteries reaching 1,000 cycles 12 to 18 months ahead of global averages. A battery sitting at 72% maximum capacity recovers perhaps 72% of the original runtime. On an M1 13-inch that once lasted 17 hours, this means roughly 12 hours, noticeable but still functional. At 60% capacity, you are at 10 hours and the machine will begin unexpected shutdowns at low charge levels.
             </p>
             <p>
-              The M1 battery adhesive system is identical to the Intel generation that preceded it — stretch-release pull-tabs bonded with a pressure-sensitive adhesive. On the 13-inch M1, there are four adhesive tabs beneath the dual-cell array. They pull cleanly on an early-generation machine that has never had a swollen battery. On a machine that has been running warm for months due to battery degradation, the adhesive can become brittle and break mid-pull, leaving the cell partially bonded. We handle this with a graduated application of isopropyl alcohol-based adhesive solvent at the seams, which releases the bond without requiring excessive mechanical force.
+              The M1 battery adhesive system is identical to the Intel generation that preceded it, stretch-release pull-tabs bonded with a pressure-sensitive adhesive. On the 13-inch M1, there are four adhesive tabs beneath the dual-cell array. They pull cleanly on an early-generation machine that has never had a swollen battery. On a machine that has been running warm for months due to battery degradation, the adhesive can become brittle and break mid-pull, leaving the cell partially bonded. We handle this with a graduated application of isopropyl alcohol-based adhesive solvent at the seams, which releases the bond without requiring excessive mechanical force.
             </p>
             <p>
               One detail worth noting for M1 Pro and M1 Max 14-inch owners: the bottom case on this model is secured with five pentalobe screws at the base and uses a different case design from the 13-inch M1. The battery connector sits near the left speaker grille and requires careful speaker flex cable routing during removal. We have a documented checklist for M1 Pro/Max battery replacements specifically, built from our experience with these models, and the 4 to 6 hour turnaround reflects the additional care required.
@@ -365,7 +365,7 @@ export default function BatteryReplacementMacBookProM1Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M1 Battery Fault Patterns We Repair</h2>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed">
-            The first Apple Silicon generation is now old enough that battery faults are a daily occurrence in our workshop. Each fault below is diagnosable before quoting — we confirm the battery is the actual cause before any work begins.
+            The first Apple Silicon generation is now old enough that battery faults are a daily occurrence in our workshop. Each fault below is diagnosable before quoting, we confirm the battery is the actual cause before any work begins.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {faultTypes.map((fault) => (
@@ -397,14 +397,14 @@ export default function BatteryReplacementMacBookProM1Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro M1 Battery</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple&apos;s service pathway often replaces the entire top case — keyboard, trackpad, and battery as one assembly — rather than just the battery cells. We replace the battery only, at a fraction of the cost.
+            Apple&apos;s service pathway often replaces the entire top case, keyboard, trackpad, and battery as one assembly, rather than just the battery cells. We replace the battery only, at a fraction of the cost.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly on some models — R3,500 to R8,000+</li>
-                <li>Turnaround 5–10 business days via Apple depot</li>
+                <li>Top case assembly on some models, R3,500 to R8,000+</li>
+                <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>No M1-specific battery cycle diagnostics shared with client</li>
                 <li>AppleCare+ required for any cost reduction</li>
                 <li>Keyboard and trackpad replaced unnecessarily</li>
@@ -414,10 +414,10 @@ export default function BatteryReplacementMacBookProM1Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Battery cells only — top case, keyboard, trackpad untouched</li>
+                <li>Battery cells only, top case, keyboard, trackpad untouched</li>
                 <li>M1 13″ from R1,799 | M1 14″/16″ from R2,299</li>
-                <li>coconutBattery diagnostic before and after — results shared</li>
-                <li>Turnaround 2–6 hours same day</li>
+                <li>coconutBattery diagnostic before and after, results shared</li>
+                <li>Turnaround 2-6 hours same day</li>
                 <li>System Information screenshot included at collection</li>
                 <li>Up-to-3 year warranty on the replacement cell</li>
               </ul>
@@ -475,7 +475,7 @@ export default function BatteryReplacementMacBookProM1Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M1 Battery Replacement — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M1 Battery Replacement, Johannesburg Service Area</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
             Our Hyde Park workshop is 10 to 20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, and Houghton. Same-day collection is available for urgent swollen battery cases.
           </p>
@@ -512,7 +512,7 @@ export default function BatteryReplacementMacBookProM1Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro M1 Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro M1 Battery Replacement, Common Questions" />
         </div>
       </section>
 
@@ -545,7 +545,7 @@ export default function BatteryReplacementMacBookProM1Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M1 Battery Issue? Book a Diagnostic.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a description of the fault — reduced runtime, unexpected shutdowns, swollen battery, or a trackpad that no longer clicks — and we will give you an honest price range before you bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a description of the fault, reduced runtime, unexpected shutdowns, swollen battery, or a trackpad that no longer clicks, and we will give you an honest price range before you bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

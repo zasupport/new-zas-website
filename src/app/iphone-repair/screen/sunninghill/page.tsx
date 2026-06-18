@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     question: 'How far is Sunninghill from your Hyde Park workshop?',
-    answer: 'Approximately 18 km — roughly 20–25 minutes by car. Sunninghill sits between Sandton and Fourways — both areas we collect from daily.',
+    answer: 'Approximately 18 km, roughly 20-25 minutes by car. Sunninghill sits between Sandton and Fourways, both areas we collect from daily.',
   },
   {
     question: 'How long does iPhone screen repair take?',
-    answer: 'Most iPhone screen repairs are completed within 1–2 hours of arrival at our Hyde Park workshop. We carry stock of common iPhone screen sizes. If collection is arranged from Sunninghill, same-day return is typically available.',
+    answer: 'Most iPhone screen repairs are completed within 1-2 hours of arrival at our Hyde Park workshop. We carry stock of common iPhone screen sizes. If collection is arranged from Sunninghill, same-day return is typically available.',
   },
   {
     question: 'Do you use genuine Apple screens?',
@@ -45,10 +45,10 @@ const faqs = [
   },
   {
     question: 'How much does iPhone screen repair cost for Sunninghill clients?',
-    answer: 'Cost varies by model. iPhone 11/XR screens are the most affordable; iPhone 15 Pro Max OLED screens are at the higher end. WhatsApp us for a model-specific quote — pricing confirmed before any work proceeds.',
+    answer: 'Cost varies by model. iPhone 11/XR screens are the most affordable; iPhone 15 Pro Max OLED screens are at the higher end. WhatsApp us for a model-specific quote, pricing confirmed before any work proceeds.',
   },
   {
-    question: 'My iPhone screen works but is cracked — do I need to repair it?',
+    question: 'My iPhone screen works but is cracked, do I need to repair it?',
     answer: 'Cracked glass can allow liquid to enter, worsen over time, and cause touch failures. We recommend repair before the crack spreads to the OLED layer below, which significantly increases repair cost.',
   },
   {
@@ -102,7 +102,7 @@ export default function IPhoneScreenRepairSunninghillPage() {
               <br /><span className="text-[#0FEA7A]">Sunninghill</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              iPhone screen repair for Sunninghill clients. All models from iPhone SE to iPhone 15 Pro Max. OLED and LCD screens. Collection from Sunninghill — approx 20–25 minutes to Hyde Park.
+              iPhone screen repair for Sunninghill clients. All models from iPhone SE to iPhone 15 Pro Max. OLED and LCD screens. Collection from Sunninghill, approx 20-25 minutes to Hyde Park.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -134,7 +134,7 @@ export default function IPhoneScreenRepairSunninghillPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">iPhone Models We Repair for Sunninghill Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Sunninghill sits between Sandton and Fourways — both areas we collect from daily. We carry stock of common screen sizes. Less common models are ordered and typically available within 1–2 business days.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Sunninghill sits between Sandton and Fourways, both areas we collect from daily. We carry stock of common screen sizes. Less common models are ordered and typically available within 1-2 business days.</p>
           <div className="space-y-4">
             {models.map((m) => (
               <div key={m.model} className="glass-card p-5">
@@ -148,7 +148,7 @@ export default function IPhoneScreenRepairSunninghillPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title={`iPhone Screen Repair Sunninghill — Common Questions`} />
+          <FAQAccordion items={faqs} title={`iPhone Screen Repair Sunninghill, Common Questions`} />
         </div>
       </section>
 

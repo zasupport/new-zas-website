@@ -16,10 +16,10 @@ export const metadata: Metadata = {
 
 const symptoms = [
   { title: 'Battery Not Charging', desc: 'MacBook plugged in but battery percentage does not increase. Faulty battery cell, charging IC, or MagSafe/USB-C port issue diagnosed and resolved.' },
-  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue — replace immediately. We remove and dispose of swollen cells safely.' },
+  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue, replace immediately. We remove and dispose of swollen cells safely.' },
   { title: 'Short Battery Life', desc: 'MacBook running for 2 hours or less on a full charge. Worn cells lose capacity over time. A new battery restores full runtime.' },
-  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" in the battery status menu. Confirmed degradation — replacement advised.' },
-  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20–40% battery. Failing cells cannot deliver consistent voltage under load. Battery replacement resolves this.' },
+  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" in the battery status menu. Confirmed degradation, replacement advised.' },
+  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20-40% battery. Failing cells cannot deliver consistent voltage under load. Battery replacement resolves this.' },
   { title: 'Battery Health Below 80%', desc: 'Apple considers batteries with health below 80% to be at end of useful life. Replacement restores full capacity and performance.' },
 ];
 
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     question: 'How far is Randburg from your Hyde Park workshop?',
-    answer: 'Randburg is approximately 12–15 km from our Hyde Park workshop via Beyers Naudé Drive or Jan Smuts Avenue — around 15 minutes by road. We regularly collect from Randburg and Ferndale and can complete same-day battery replacements for Randburg clients in most cases.',
+    answer: 'Randburg is approximately 12-15 km from our Hyde Park workshop via Beyers Naudé Drive or Jan Smuts Avenue, around 15 minutes by road. We regularly collect from Randburg and Ferndale and can complete same-day battery replacements for Randburg clients in most cases.',
   },
   {
     question: 'How many cycles should a MacBook battery last?',
@@ -98,10 +98,10 @@ export default function BatteryReplacementRandburgPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Battery Replacement Randburg
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Battery replacement for Randburg MacBook users. We collect from Randburg — just 15 minutes from our Hyde Park workshop. Same-day service available.
+              Battery replacement for Randburg MacBook users. We collect from Randburg, just 15 minutes from our Hyde Park workshop. Same-day service available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -145,7 +145,7 @@ export default function BatteryReplacementRandburgPage() {
               Randburg is a densely populated commercial and residential area in north-western Johannesburg, serving professionals and families throughout Ferndale, Bordeaux, and Robindale. When your MacBook battery deteriorates to the point where you are permanently tethered to a wall socket, productivity suffers.
             </p>
             <p>
-              ZA Support offers Randburg clients a collection and return service for MacBook battery replacements. Randburg is approximately 12–15 km from our Hyde Park workshop via Beyers Naudé Drive or Jan Smuts Avenue — around 15 minutes by road. We collect your MacBook, replace the battery at our workshop, and return it the same day in most cases.
+              ZA Support offers Randburg clients a collection and return service for MacBook battery replacements. Randburg is approximately 12-15 km from our Hyde Park workshop via Beyers Naudé Drive or Jan Smuts Avenue, around 15 minutes by road. We collect your MacBook, replace the battery at our workshop, and return it the same day in most cases.
             </p>
             <p>
               We replace batteries in all MacBook Air and MacBook Pro models, from Intel-era machines through to the latest M-series. Every battery replacement uses Apple-specification cells and is backed by a written ZA Support warranty.
@@ -170,7 +170,7 @@ export default function BatteryReplacementRandburgPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Battery Replacement Randburg — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Battery Replacement Randburg, Common Questions" />
         </div>
       </section>
 

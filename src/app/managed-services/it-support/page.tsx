@@ -9,7 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'Mac IT Support Johannesburg — Business & SME | ZA Support',
+  title: 'Mac IT Support Johannesburg: Business & SME | ZA Support',
   description:
     'Mac IT support for Johannesburg businesses and SMEs. On-site and remote support for MacBook, iMac, and Mac mini fleets. Sandton, Rosebank, Midrand, Fourways, Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/managed-services/it-support' },
@@ -34,7 +34,7 @@ const faqs = [
   {
     question: 'How quickly do you respond to Mac support requests?',
     answer:
-      'Our Business plan includes a 4-hour remote response SLA during business hours. For critical issues — device failure, data access loss, security incident — we treat these as emergencies regardless of time. On-site response for Sandton and surrounding areas is typically same day or next morning depending on the time of the request.',
+      'Our Business plan includes a 4-hour remote response SLA during business hours. For critical issues, device failure, data access loss, security incident, we treat these as emergencies regardless of time. On-site response for Sandton and surrounding areas is typically same day or next morning depending on the time of the request.',
   },
   {
     question: 'Can you support a mixed Mac and Windows environment?',
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: 'Do you support Mac IT for a single person or a very small team?',
     answer:
-      'Yes. Our Starter plan is designed for solo professionals and small teams of up to 5 devices. It includes monitoring, patch management, backup monitoring, and email support. Many of our solo practitioner clients — doctors, architects, accountants — find that monitoring alone prevents the one annual incident that would otherwise cost more than a year of the plan.',
+      'Yes. Our Starter plan is designed for solo professionals and small teams of up to 5 devices. It includes monitoring, patch management, backup monitoring, and email support. Many of our solo practitioner clients, doctors, architects, accountants, find that monitoring alone prevents the one annual incident that would otherwise cost more than a year of the plan.',
   },
   {
     question: 'What areas of Johannesburg do you cover for on-site Mac IT support?',
@@ -59,7 +59,7 @@ const faqs = [
   {
     question: 'How is ZA Support different from a general Johannesburg IT company for Mac support?',
     answer:
-      'ZA Support has specialised in Apple Mac IT support since 2009. We use Apple-native tools — JAMF MDM, Apple Business Manager — rather than forcing Windows-centric management platforms onto Macs. Our monitoring platform (Health Check) is built specifically for macOS diagnostics. We also repair hardware in-house at component level, which most IT companies cannot do.',
+      'ZA Support has specialised in Apple Mac IT support since 2009. We use Apple-native tools, JAMF MDM, Apple Business Manager, rather than forcing Windows-centric management platforms onto Macs. Our monitoring platform (Health Check) is built specifically for macOS diagnostics. We also repair hardware in-house at component level, which most IT companies cannot do.',
   },
 ];
 
@@ -126,7 +126,7 @@ const tiers = [
   },
   {
     name: 'Business',
-    ideal: 'SMEs and practices — 5 to 20 devices',
+    ideal: 'SMEs and practices, 5 to 20 devices',
     features: [
       'Everything in Starter',
       'Unlimited remote support',
@@ -141,7 +141,7 @@ const tiers = [
   },
   {
     name: 'Enterprise',
-    ideal: 'Multi-site businesses — 20+ devices',
+    ideal: 'Multi-site businesses, 20+ devices',
     features: [
       'Everything in Business',
       'Full Mac and Windows fleet management',
@@ -167,7 +167,7 @@ const breadcrumbSchema = {
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
-  name: 'Mac IT Support — Johannesburg Business and SME',
+  name: 'Mac IT Support, Johannesburg Business and SME',
   provider: {
     '@type': 'LocalBusiness',
     name: 'ZA Support',
@@ -212,10 +212,10 @@ export default function ITSupportPage() {
               <span className="text-[#0FEA7A] text-sm font-semibold">On-Site + Remote · Sandton · Rosebank · Midrand · Fourways · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
-              Mac IT Support —<br /><span className="text-[#0FEA7A]">Johannesburg Business &amp; SME</span>
+              Mac IT Support, <br /><span className="text-[#0FEA7A]">Johannesburg Business &amp; SME</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              On-site and remote Mac IT support for Johannesburg businesses. Break-fix callouts and fully managed services. Apple-specialist since 2009 — we do not treat Mac as an afterthought.
+              On-site and remote Mac IT support for Johannesburg businesses. Break-fix callouts and fully managed services. Apple-specialist since 2009, we do not treat Mac as an afterthought.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-8">
@@ -264,7 +264,7 @@ export default function ITSupportPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">What Mac IT Support Covers</h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
-            From a single MacBook to a 50-device fleet — on-site, remote, and everything in between.
+            From a single MacBook to a 50-device fleet, on-site, remote, and everything in between.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map(({ icon: Icon, title, desc }) => (
@@ -286,7 +286,7 @@ export default function ITSupportPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">
-                Break-Fix vs Managed — What Is the Right Choice?
+                Break-Fix vs Managed, What Is the Right Choice?
               </h2>
               <p className="text-[#7A9E98] text-sm leading-relaxed mb-5">
                 Break-fix IT is the right choice if your business has a low volume of devices, issues are genuinely infrequent, and you can absorb the cost and productivity impact of an unplanned incident.
@@ -301,11 +301,11 @@ export default function ITSupportPage() {
                 <p className="text-[#E8F4F1] font-semibold text-sm mb-3">What proactive monitoring catches before it becomes a problem:</p>
                 <ul className="space-y-2">
                   {[
-                    'SSD SMART failure warning — replaced before data loss',
-                    'Battery health below 80% — before a dead machine mid-day',
-                    'Backup not running — before you need it and it is not there',
-                    'macOS security vulnerability — patched before exploitation',
-                    'Storage above 90% full — before performance collapses',
+                    'SSD SMART failure warning, replaced before data loss',
+                    'Battery health below 80%, before a dead machine mid-day',
+                    'Backup not running, before you need it and it is not there',
+                    'macOS security vulnerability, patched before exploitation',
+                    'Storage above 90% full, before performance collapses',
                   ].map((item) => (
                     <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                       <Shield className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -349,7 +349,7 @@ export default function ITSupportPage() {
       <section className="py-12 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
-            Mac IT Support — Johannesburg Service Areas
+            Mac IT Support, Johannesburg Service Areas
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             On-site Mac IT support across the greater Johannesburg area. Remote support available nationally.
@@ -366,7 +366,7 @@ export default function ITSupportPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm mt-6">
-            Clients outside listed areas — <Link href="/contact" className="text-[#0FEA7A] hover:underline">contact us</Link> to confirm on-site availability. Remote support is available nationally for all managed services clients.
+            Clients outside listed areas, <Link href="/contact" className="text-[#0FEA7A] hover:underline">contact us</Link> to confirm on-site availability. Remote support is available nationally for all managed services clients.
           </p>
         </div>
       </section>
@@ -412,7 +412,7 @@ export default function ITSupportPage() {
               Initial consultation included. Month-to-month plans. No lock-in contracts.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">
-              Sandton, Rosebank, Midrand, Fourways, Randburg, Hyde Park — and remote nationally.
+              Sandton, Rosebank, Midrand, Fourways, Randburg, Hyde Park, and remote nationally.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

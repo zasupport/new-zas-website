@@ -78,25 +78,25 @@ const pricingRows = [
     model: 'MacBook Pro 13″ M2 (A2686, 2022)',
     panel: 'IPS LCD Retina (2560 × 1600, 227 ppi)',
     from: 'R4,199',
-    turnaround: '24–48 hrs',
+    turnaround: '24-48 hrs',
   },
   {
     model: 'MacBook Pro 14″ M2 Pro / M2 Max (A2779, 2023)',
     panel: 'Liquid Retina XDR mini-LED (3024 × 1964, 254 ppi)',
     from: 'R5,499',
-    turnaround: '48–72 hrs',
+    turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 16″ M2 Pro / M2 Max (A2780, 2023)',
     panel: 'Liquid Retina XDR mini-LED (3456 × 2234, 254 ppi)',
     from: 'R6,999',
-    turnaround: '48–72 hrs',
+    turnaround: '48-72 hrs',
   },
   {
-    model: 'MacBook Pro M2 — display cable / backlight IC only',
+    model: 'MacBook Pro M2, display cable / backlight IC only',
     panel: 'Component-level backlight driver or cable repair',
     from: 'R1,799',
-    turnaround: '24–48 hrs',
+    turnaround: '24-48 hrs',
   },
 ];
 
@@ -104,37 +104,37 @@ const faultTypes = [
   {
     title: 'Liquid Retina XDR Mini-LED Local Dimming Failure',
     icon: Monitor,
-    desc: 'The MacBook Pro 14-inch and 16-inch M2 models use mini-LED backlights with over 10,000 individual LEDs arranged in local dimming zones — a completely different architecture from the single-zone IPS displays in the 13-inch. In our Hyde Park workshop we have seen mini-LED zone failures that produce small dark patches or uneven brightness in high-contrast content. This is distinct from a cracked panel and in some cases can be addressed at component level. We assess which dimming zones are affected before recommending a full display assembly replacement, which can save significant cost on a repair that would otherwise be quoted as a straight panel swap.',
+    desc: 'The MacBook Pro 14-inch and 16-inch M2 models use mini-LED backlights with over 10,000 individual LEDs arranged in local dimming zones, a completely different architecture from the single-zone IPS displays in the 13-inch. In our Hyde Park workshop we have seen mini-LED zone failures that produce small dark patches or uneven brightness in high-contrast content. This is distinct from a cracked panel and in some cases can be addressed at component level. We assess which dimming zones are affected before recommending a full display assembly replacement, which can save significant cost on a repair that would otherwise be quoted as a straight panel swap.',
     severity: 'high',
   },
   {
-    title: 'Backlight Driver IC Failure — Load Shedding Surge Damage',
+    title: 'Backlight Driver IC Failure: Load Shedding Surge Damage',
     icon: Zap,
-    desc: 'Load shedding remains the leading cause of MacBook Pro backlight failure in Johannesburg. The MacBook Pro M2 — particularly the 13-inch A2686 — uses a USB-C charger that many clients leave connected overnight. When Eskom power restores after a stage-6 outage in Sandton, Bryanston, or Randburg, the inrush voltage on the backlight rail can destroy the backlight driver IC on the logic board. The symptom is an otherwise functional machine with a completely dark display — hold a torch against the screen at a low angle and you will faintly see the desktop. We repair the backlight driver IC at component level from R1,799, without replacing the logic board.',
+    desc: 'Load shedding remains the leading cause of MacBook Pro backlight failure in Johannesburg. The MacBook Pro M2, particularly the 13-inch A2686, uses a USB-C charger that many clients leave connected overnight. When Eskom power restores after a stage-6 outage in Sandton, Bryanston, or Randburg, the inrush voltage on the backlight rail can destroy the backlight driver IC on the logic board. The symptom is an otherwise functional machine with a completely dark display, hold a torch against the screen at a low angle and you will faintly see the desktop. We repair the backlight driver IC at component level from R1,799, without replacing the logic board.',
     severity: 'high',
   },
   {
-    title: 'Cracked Retina or XDR Panel — Physical Impact',
+    title: 'Cracked Retina or XDR Panel: Physical Impact',
     icon: AlertTriangle,
-    desc: 'Both the 13-inch IPS Retina and the 14/16-inch Liquid Retina XDR panels are laminated directly to the display housing — there is no separate protective glass layer that can be replaced independently. A single corner impact or a hard object on the keyboard when the lid closes is sufficient to shatter the panel. The full display assembly must be sourced and replaced as a unit: panel, backlight array, bezels, and hinge covers. We test every replacement assembly across five calibration targets before the machine leaves our workshop, and we verify ProMotion adaptive refresh rate on 14 and 16-inch models after every replacement.',
+    desc: 'Both the 13-inch IPS Retina and the 14/16-inch Liquid Retina XDR panels are laminated directly to the display housing, there is no separate protective glass layer that can be replaced independently. A single corner impact or a hard object on the keyboard when the lid closes is sufficient to shatter the panel. The full display assembly must be sourced and replaced as a unit: panel, backlight array, bezels, and hinge covers. We test every replacement assembly across five calibration targets before the machine leaves our workshop, and we verify ProMotion adaptive refresh rate on 14 and 16-inch models after every replacement.',
     severity: 'high',
   },
   {
     title: 'ProMotion 120 Hz Adaptive Refresh Not Functioning',
     icon: Cpu,
-    desc: 'The MacBook Pro 14-inch and 16-inch M2 models include ProMotion — Apple\'s adaptive refresh rate technology that scales between 24 Hz and 120 Hz depending on the content being displayed. After a screen replacement performed without the correct calibration procedure, ProMotion can become non-functional or locked to a fixed refresh rate. We see this frequently in machines that have been through a previous repair elsewhere. At ZA Support, every 14 and 16-inch M2 display replacement includes ProMotion verification as part of our post-repair quality check.',
+    desc: 'The MacBook Pro 14-inch and 16-inch M2 models include ProMotion, Apple\'s adaptive refresh rate technology that scales between 24 Hz and 120 Hz depending on the content being displayed. After a screen replacement performed without the correct calibration procedure, ProMotion can become non-functional or locked to a fixed refresh rate. We see this frequently in machines that have been through a previous repair elsewhere. At ZA Support, every 14 and 16-inch M2 display replacement includes ProMotion verification as part of our post-repair quality check.',
     severity: 'medium',
   },
   {
     title: 'True Tone Calibration Loss After Incorrect Replacement',
     icon: Eye,
-    desc: 'MacBook Pro M2 models store True Tone calibration data within the display assembly itself. This data encodes the factory-measured output of the specific panel, allowing the ambient light sensor to adjust the white point accurately. When a display is replaced without transferring this calibration data — a step that requires specific Apple tooling and knowledge — True Tone becomes permanently unavailable. We include True Tone data transfer in every M2 display replacement as standard. Your MacBook Pro M2 will show True Tone as active in System Settings after the repair, not greyed out.',
+    desc: 'MacBook Pro M2 models store True Tone calibration data within the display assembly itself. This data encodes the factory-measured output of the specific panel, allowing the ambient light sensor to adjust the white point accurately. When a display is replaced without transferring this calibration data, a step that requires specific Apple tooling and knowledge, True Tone becomes permanently unavailable. We include True Tone data transfer in every M2 display replacement as standard. Your MacBook Pro M2 will show True Tone as active in System Settings after the repair, not greyed out.',
     severity: 'medium',
   },
   {
-    title: 'Display Flex Cable Failure — Hinge Routing Damage',
+    title: 'Display Flex Cable Failure: Hinge Routing Damage',
     icon: AlertTriangle,
-    desc: 'The MacBook Pro M2 13-inch (A2686) routes the display flex cable through the left hinge in a similar path to the M1 predecessor. Cable wear from repeated opening and closing over two to three years — particularly in machines that are opened and closed many times daily — can cause intermittent display flickering or a complete display blackout at certain hinge angles. Reproducing the fault by slowly opening and closing the lid while watching the display is a reliable diagnostic. A cable replacement typically costs significantly less than a full display assembly swap and is our first recommendation when the panel itself is undamaged.',
+    desc: 'The MacBook Pro M2 13-inch (A2686) routes the display flex cable through the left hinge in a similar path to the M1 predecessor. Cable wear from repeated opening and closing over two to three years, particularly in machines that are opened and closed many times daily, can cause intermittent display flickering or a complete display blackout at certain hinge angles. Reproducing the fault by slowly opening and closing the lid while watching the display is a reliable diagnostic. A cable replacement typically costs significantly less than a full display assembly swap and is our first recommendation when the panel itself is undamaged.',
     severity: 'medium',
   },
 ];
@@ -161,22 +161,22 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M2 screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro M2 screen repair at ZA Support starts from R4,199 for the 13-inch (A2686) IPS Retina display assembly, R5,499 for the 14-inch Liquid Retina XDR (A2779), and R6,999 for the 16-inch Liquid Retina XDR (A2780). Component-level repairs — display cable or backlight driver IC — start from R1,799 and are always assessed before recommending a full assembly replacement. The Apple Store and iStore charge R8,000 to R18,000 for the same display swaps. We provide a written fixed-price quote after diagnosis before any work begins.',
+      'MacBook Pro M2 screen repair at ZA Support starts from R4,199 for the 13-inch (A2686) IPS Retina display assembly, R5,499 for the 14-inch Liquid Retina XDR (A2779), and R6,999 for the 16-inch Liquid Retina XDR (A2780). Component-level repairs, display cable or backlight driver IC, start from R1,799 and are always assessed before recommending a full assembly replacement. The Apple Store and iStore charge R8,000 to R18,000 for the same display swaps. We provide a written fixed-price quote after diagnosis before any work begins.',
   },
   {
     question: 'My MacBook Pro M2 screen is completely black but the Mac appears to be running. What is wrong?',
     answer:
-      'The most likely cause is backlight failure. To confirm: hold a torch against the display at a low angle in a dark room. If you can faintly make out the desktop, your M2 chip and GPU are working normally — the backlight circuit has failed. In Johannesburg this is very frequently caused by a load shedding voltage surge reaching the backlight driver IC via the USB-C charger. We repair this at component level from R1,799. If there is nothing visible under torchlight, the fault may be in the display panel, the display cable, or the GPU — our assessment identifies the exact cause.',
+      'The most likely cause is backlight failure. To confirm: hold a torch against the display at a low angle in a dark room. If you can faintly make out the desktop, your M2 chip and GPU are working normally, the backlight circuit has failed. In Johannesburg this is very frequently caused by a load shedding voltage surge reaching the backlight driver IC via the USB-C charger. We repair this at component level from R1,799. If there is nothing visible under torchlight, the fault may be in the display panel, the display cable, or the GPU, our assessment identifies the exact cause.',
   },
   {
     question: 'Does MacBook Pro M2 screen replacement preserve ProMotion and True Tone?',
     answer:
-      'Only if the replacement is done correctly. The 14-inch and 16-inch MacBook Pro M2 models include ProMotion adaptive refresh — 24 Hz to 120 Hz — which must be verified to function after a display swap. True Tone calibration data is stored in the display assembly and must be transferred to the replacement panel. At ZA Support we perform both checks on every M2 14 and 16-inch display replacement as part of our standard post-repair quality process. Your machine will show ProMotion and True Tone as active in System Settings after leaving our workshop.',
+      'Only if the replacement is done correctly. The 14-inch and 16-inch MacBook Pro M2 models include ProMotion adaptive refresh, 24 Hz to 120 Hz, which must be verified to function after a display swap. True Tone calibration data is stored in the display assembly and must be transferred to the replacement panel. At ZA Support we perform both checks on every M2 14 and 16-inch display replacement as part of our standard post-repair quality process. Your machine will show ProMotion and True Tone as active in System Settings after leaving our workshop.',
   },
   {
     question: 'What is the difference between the MacBook Pro M2 13-inch and 14-inch displays?',
     answer:
-      'The MacBook Pro M2 13-inch (A2686) uses a traditional IPS LCD Retina display — a single-zone LED backlight at 2560 × 1600 pixels. The MacBook Pro M2 14-inch (A2779) uses the Liquid Retina XDR display — a mini-LED array with over 10,000 LEDs in local dimming zones, delivering 1,000 nits sustained brightness and 1,600 nits peak. The two displays are completely different in construction, cost, and repair complexity. The 14-inch XDR display assembly is more expensive to source and more involved to replace. We repair both in our Hyde Park workshop, and the assessment will confirm which specific fault is present before we quote.',
+      'The MacBook Pro M2 13-inch (A2686) uses a traditional IPS LCD Retina display, a single-zone LED backlight at 2560 × 1600 pixels. The MacBook Pro M2 14-inch (A2779) uses the Liquid Retina XDR display, a mini-LED array with over 10,000 LEDs in local dimming zones, delivering 1,000 nits sustained brightness and 1,600 nits peak. The two displays are completely different in construction, cost, and repair complexity. The 14-inch XDR display assembly is more expensive to source and more involved to replace. We repair both in our Hyde Park workshop, and the assessment will confirm which specific fault is present before we quote.',
   },
   {
     question: 'How long does MacBook Pro M2 screen repair take in Johannesburg?',
@@ -186,12 +186,12 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked MacBook Pro M2 screen?',
     answer:
-      'In almost every case, yes. The M2 chip itself is highly reliable and continues to receive macOS updates for many years. A MacBook Pro M2 14-inch in good condition sells for R22,000 to R35,000 on the South African used market. Our display assembly replacement starts from R5,499 — roughly 15 to 25% of replacement cost. We will tell you honestly if the repair cost does not stack up for your specific machine and fault combination, but this is uncommon. The screen is a replaceable component; the M2 chip is not.',
+      'In almost every case, yes. The M2 chip itself is highly reliable and continues to receive macOS updates for many years. A MacBook Pro M2 14-inch in good condition sells for R22,000 to R35,000 on the South African used market. Our display assembly replacement starts from R5,499, roughly 15 to 25% of replacement cost. We will tell you honestly if the repair cost does not stack up for your specific machine and fault combination, but this is uncommon. The screen is a replaceable component; the M2 chip is not.',
   },
   {
     question: 'Can load shedding damage the MacBook Pro M2 screen?',
     answer:
-      'Yes, and we see this regularly in Johannesburg. The MacBook Pro M2 is typically used with a USB-C charger that many clients leave plugged in. When Eskom power restores after an outage — especially stage 4 to 6 — the voltage surge travels through the charger onto the backlight power rail and can destroy the backlight driver IC. The symptom is a fully dark screen on an otherwise working machine. This is a component-level repair from R1,799. We strongly recommend using a quality UPS with the MacBook Pro M2 rather than a basic surge bar, which does not protect against inrush voltage from power restoration.',
+      'Yes, and we see this regularly in Johannesburg. The MacBook Pro M2 is typically used with a USB-C charger that many clients leave plugged in. When Eskom power restores after an outage, especially stage 4 to 6, the voltage surge travels through the charger onto the backlight power rail and can destroy the backlight driver IC. The symptom is a fully dark screen on an otherwise working machine. This is a component-level repair from R1,799. We strongly recommend using a quality UPS with the MacBook Pro M2 rather than a basic surge bar, which does not protect against inrush voltage from power restoration.',
   },
   {
     question: 'Do you repair MacBook Pro M2 screens damaged by a previous repair attempt?',
@@ -201,17 +201,17 @@ const faqs = [
   {
     question: 'My MacBook Pro M2 screen is flickering. Is that the display or the M2 chip?',
     answer:
-      'Flickering on a MacBook Pro M2 is almost always a hardware fault in the display assembly or display cable, not the M2 chip itself. The most reliable diagnostic is to open and close the lid slowly while watching the screen — if the flickering correlates with hinge angle, the display cable is the likely cause. If the flicker is random and does not track with lid position, the fault is more likely in the backlight driver circuit or the display panel. The M2 GPU producing display artefacts is very rare and would typically also affect an external display connected via USB-C. We diagnose all three scenarios before recommending any repair.',
+      'Flickering on a MacBook Pro M2 is almost always a hardware fault in the display assembly or display cable, not the M2 chip itself. The most reliable diagnostic is to open and close the lid slowly while watching the screen, if the flickering correlates with hinge angle, the display cable is the likely cause. If the flicker is random and does not track with lid position, the fault is more likely in the backlight driver circuit or the display panel. The M2 GPU producing display artefacts is very rare and would typically also affect an external display connected via USB-C. We diagnose all three scenarios before recommending any repair.',
   },
   {
     question: 'Does ZA Support repair MacBook Pro M2 screens for insurance claims?',
     answer:
-      'Yes. We issue a detailed repair quote and a job card describing the fault, the parts replaced, and the labour performed — all the documentation your insurer requires. We are a VAT-registered business and can provide a formal tax invoice. We have completed insurance repairs for clients with Discovery Insure, Outsurance, and Momentum across Johannesburg and Sandton. Contact us with your claim reference number and we will coordinate with you directly throughout the process.',
+      'Yes. We issue a detailed repair quote and a job card describing the fault, the parts replaced, and the labour performed, all the documentation your insurer requires. We are a VAT-registered business and can provide a formal tax invoice. We have completed insurance repairs for clients with Discovery Insure, Outsurance, and Momentum across Johannesburg and Sandton. Contact us with your claim reference number and we will coordinate with you directly throughout the process.',
   },
   {
     question: 'Can the MacBook Pro M2 screen be repaired the same day?',
     answer:
-      'Same-day repair is possible for the MacBook Pro M2 13-inch if we have the display assembly in stock and the machine arrives before 10:00. For the 14-inch and 16-inch Liquid Retina XDR models, same-day is less likely due to parts lead time and the extended post-repair calibration process, though we can sometimes accommodate urgent cases. Contact us on WhatsApp with your serial number — we can confirm stock and schedule a same-day slot before you travel. The assessment itself takes 30 to 60 minutes; the repair typically takes a further 60 to 120 minutes.',
+      'Same-day repair is possible for the MacBook Pro M2 13-inch if we have the display assembly in stock and the machine arrives before 10:00. For the 14-inch and 16-inch Liquid Retina XDR models, same-day is less likely due to parts lead time and the extended post-repair calibration process, though we can sometimes accommodate urgent cases. Contact us on WhatsApp with your serial number, we can confirm stock and schedule a same-day slot before you travel. The assessment itself takes 30 to 60 minutes; the repair typically takes a further 60 to 120 minutes.',
   },
 ];
 
@@ -237,7 +237,7 @@ export default function ScreenRepairMacBookProM2Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Pro M2 family spans three distinct display technologies — IPS Retina (13-inch A2686) and Liquid Retina XDR mini-LED (14-inch A2779 and 16-inch A2780). We repair cracked panels, display cable faults, backlight driver IC damage from load shedding, and ProMotion and True Tone calibration loss — from our Hyde Park workshop, typically within 24 to 72 hours.
+              The MacBook Pro M2 family spans three distinct display technologies, IPS Retina (13-inch A2686) and Liquid Retina XDR mini-LED (14-inch A2779 and 16-inch A2780). We repair cracked panels, display cable faults, backlight driver IC damage from load shedding, and ProMotion and True Tone calibration loss, from our Hyde Park workshop, typically within 24 to 72 hours.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -301,7 +301,7 @@ export default function ScreenRepairMacBookProM2Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge R8,000 to R18,000 for MacBook Pro M2 display swaps — we perform a component-level diagnosis first to avoid unnecessary part replacements and keep costs down where possible.
+            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge R8,000 to R18,000 for MacBook Pro M2 display swaps, we perform a component-level diagnosis first to avoid unnecessary part replacements and keep costs down where possible.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -326,7 +326,7 @@ export default function ScreenRepairMacBookProM2Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
           <PricingRange page="/screen-repair/macbook-pro-m2" />
           <PricingNote variant="inline" />
@@ -339,16 +339,16 @@ export default function ScreenRepairMacBookProM2Page() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">What Makes MacBook Pro M2 Screen Repair Distinct</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Pro M2 generation covers three distinct configurations released across 2022 and 2023. The 13-inch M2 (A2686, released June 2022) retains the same form factor and IPS Retina display as its M1 predecessor. The 14-inch M2 Pro and M2 Max (A2779) and the 16-inch M2 Pro and M2 Max (A2780) — both released January 2023 — use the Liquid Retina XDR mini-LED display that Apple introduced with the 2021 MacBook Pro redesign. These are fundamentally different display technologies with different fault patterns, different repair procedures, and different price points.
+              The MacBook Pro M2 generation covers three distinct configurations released across 2022 and 2023. The 13-inch M2 (A2686, released June 2022) retains the same form factor and IPS Retina display as its M1 predecessor. The 14-inch M2 Pro and M2 Max (A2779) and the 16-inch M2 Pro and M2 Max (A2780), both released January 2023, use the Liquid Retina XDR mini-LED display that Apple introduced with the 2021 MacBook Pro redesign. These are fundamentally different display technologies with different fault patterns, different repair procedures, and different price points.
             </p>
             <p>
-              The Liquid Retina XDR display in the 14 and 16-inch M2 models uses a mini-LED backlight array with over 10,000 individual LEDs organised into local dimming zones. This architecture delivers 1,000 nits sustained brightness and 1,600 nits peak — roughly three times the brightness of the 13-inch IPS panel — along with significantly higher contrast. The trade-off is repair complexity. The mini-LED backlight is part of the display assembly and cannot be serviced independently from the panel. In our Hyde Park workshop we have developed a systematic fault isolation process to determine whether a reported symptom is caused by the panel, the backlight array, the display controller, or the display cable before we commit to sourcing a replacement assembly.
+              The Liquid Retina XDR display in the 14 and 16-inch M2 models uses a mini-LED backlight array with over 10,000 individual LEDs organised into local dimming zones. This architecture delivers 1,000 nits sustained brightness and 1,600 nits peak, roughly three times the brightness of the 13-inch IPS panel, along with significantly higher contrast. The trade-off is repair complexity. The mini-LED backlight is part of the display assembly and cannot be serviced independently from the panel. In our Hyde Park workshop we have developed a systematic fault isolation process to determine whether a reported symptom is caused by the panel, the backlight array, the display controller, or the display cable before we commit to sourcing a replacement assembly.
             </p>
             <p>
-              ProMotion is the second significant display feature that can be lost during an incorrect screen replacement on the 14 and 16-inch M2 models. Apple&apos;s adaptive refresh technology adjusts the display between 24 Hz and 120 Hz depending on content — a smooth scroll through a document, a 24 fps film, or a 120 Hz game are all handled differently by the display controller. After a replacement performed without proper calibration, ProMotion can lock at a fixed rate or fail to engage the higher refresh rates entirely. We verify ProMotion function as part of every 14 and 16-inch M2 screen replacement in our workshop.
+              ProMotion is the second significant display feature that can be lost during an incorrect screen replacement on the 14 and 16-inch M2 models. Apple&apos;s adaptive refresh technology adjusts the display between 24 Hz and 120 Hz depending on content, a smooth scroll through a document, a 24 fps film, or a 120 Hz game are all handled differently by the display controller. After a replacement performed without proper calibration, ProMotion can lock at a fixed rate or fail to engage the higher refresh rates entirely. We verify ProMotion function as part of every 14 and 16-inch M2 screen replacement in our workshop.
             </p>
             <p>
-              Load shedding continues to drive a significant proportion of the MacBook Pro M2 backlight repairs we see from Johannesburg clients. Sandton, Fourways, Bryanston, Randburg, and Midrand have all experienced extended stage-4 and stage-6 schedules since these machines were released. The MacBook Pro M2 ships with a 67 W or 96 W USB-C power adapter — both of which provide a path for surge voltage to reach the backlight driver IC when Eskom power restores. We have seen this fault in MacBook Pro M2 machines that are as little as six months old. A UPS with true sine wave output prevents it entirely.
+              Load shedding continues to drive a significant proportion of the MacBook Pro M2 backlight repairs we see from Johannesburg clients. Sandton, Fourways, Bryanston, Randburg, and Midrand have all experienced extended stage-4 and stage-6 schedules since these machines were released. The MacBook Pro M2 ships with a 67 W or 96 W USB-C power adapter, both of which provide a path for surge voltage to reach the backlight driver IC when Eskom power restores. We have seen this fault in MacBook Pro M2 machines that are as little as six months old. A UPS with true sine wave output prevents it entirely.
             </p>
             <p>
               For an independent reference on the internal layout of these machines, the iFixit MacBook Pro 14-inch M2 Pro teardown documents the display assembly routing and the mini-LED backlight structure in detail.
@@ -372,7 +372,7 @@ export default function ScreenRepairMacBookProM2Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Display Faults We Repair</h2>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed">
-            We have documented the most common MacBook Pro M2 display faults across all A2686, A2779, and A2780 configurations. Every fault below is a repairable condition — we diagnose the precise cause before recommending any part replacement.
+            We have documented the most common MacBook Pro M2 display faults across all A2686, A2779, and A2780 configurations. Every fault below is a repairable condition, we diagnose the precise cause before recommending any part replacement.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {faultTypes.map((fault) => (
@@ -404,16 +404,16 @@ export default function ScreenRepairMacBookProM2Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple iStore vs ZA Support: MacBook Pro M2 Screen Repair</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple and iStore technicians replace the entire display assembly as a unit and charge accordingly. We diagnose the specific fault first — cable, driver IC, or panel — and replace only what is necessary.
+            Apple and iStore technicians replace the entire display assembly as a unit and charge accordingly. We diagnose the specific fault first, cable, driver IC, or panel, and replace only what is necessary.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Full display assembly replacement — R8,000 to R18,000+</li>
+                <li>Full display assembly replacement, R8,000 to R18,000+</li>
                 <li>Accidental damage not covered by standard warranty</li>
                 <li>ProMotion and True Tone recalibration requires Apple Configurator</li>
-                <li>Turnaround 5–10 business days via Apple depot</li>
+                <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>No component-level backlight driver repair</li>
                 <li>No distinction between cable fault, IC fault, and panel fault</li>
               </ul>
@@ -421,11 +421,11 @@ export default function ScreenRepairMacBookProM2Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Component-level diagnosis — only failed parts replaced</li>
+                <li>Component-level diagnosis, only failed parts replaced</li>
                 <li>13-inch from R4,199 | 14-inch from R5,499 | 16-inch from R6,999</li>
                 <li>ProMotion verified and True Tone data preserved on every replacement</li>
-                <li>Turnaround 24–72 hours for most M2 screen repairs</li>
-                <li>Backlight driver IC repair — no full logic board replacement</li>
+                <li>Turnaround 24-72 hours for most M2 screen repairs</li>
+                <li>Backlight driver IC repair, no full logic board replacement</li>
                 <li>Up-to-3 year warranty on all completed repairs</li>
               </ul>
             </div>
@@ -436,9 +436,9 @@ export default function ScreenRepairMacBookProM2Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Screen Repair — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Screen Repair, Johannesburg Service Area</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            Our Hyde Park workshop is 10–20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton. Same-day collection is available for urgent cases — contact us on WhatsApp or by phone to arrange a time.
+            Our Hyde Park workshop is 10-20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton. Same-day collection is available for urgent cases, contact us on WhatsApp or by phone to arrange a time.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
@@ -468,7 +468,7 @@ export default function ScreenRepairMacBookProM2Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro M2 Screen Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro M2 Screen Repair, Common Questions" />
         </div>
       </section>
 
@@ -481,9 +481,9 @@ export default function ScreenRepairMacBookProM2Page() {
               { label: 'All Screen Repairs', href: '/screen-repair' },
               { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
               { label: 'MacBook Pro M1 Screen Repair', href: '/screen-repair/macbook-pro-m1' },
-              { label: 'Screen Repair — Sandton', href: '/screen-repair/sandton' },
+              { label: 'Screen Repair, Sandton', href: '/screen-repair/sandton' },
               { label: 'MacBook Air Screen Repair', href: '/screen-repair/macbook-air' },
-              { label: 'Logic Board — MacBook Pro M2', href: '/logic-board-repair/macbook-pro-m2' },
+              { label: 'Logic Board, MacBook Pro M2', href: '/logic-board-repair/macbook-pro-m2' },
               { label: 'MacBook Pro Liquid Damage', href: '/liquid-damage' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
@@ -501,7 +501,7 @@ export default function ScreenRepairMacBookProM2Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M2 Screen Fault? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a photo of the fault — we will give you an honest assessment and a price range before you even bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a photo of the fault, we will give you an honest assessment and a price range before you even bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

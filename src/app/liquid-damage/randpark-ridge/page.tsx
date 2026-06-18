@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const urgentSteps = [
-  { step: '01', title: 'Switch Off Immediately', desc: 'Do not attempt to use or charge the MacBook. Power it off and leave it off — powering a wet board causes short-circuit damage.' },
+  { step: '01', title: 'Switch Off Immediately', desc: 'Do not attempt to use or charge the MacBook. Power it off and leave it off, powering a wet board causes short-circuit damage.' },
   { step: '02', title: 'Do Not Use Rice', desc: 'Rice does not remove corrosion or clean contaminated contacts. It wastes critical intervention time while corrosion spreads.' },
   { step: '03', title: 'Contact Us Now', desc: 'WhatsApp or call us immediately. Every hour increases corrosion spread. We arrange same-day collection from Randpark Ridge.' },
   { step: '04', title: 'Ultrasonic Cleaning', desc: 'Full disassembly. Logic board cleaned in ultrasonic bath to remove corrosion and contaminants at component level.' },
@@ -32,8 +32,8 @@ const faqs = [
   { question: 'What types of liquid cause the most damage?', answer: 'In order of severity from worst to least bad: salt water, sugary drinks (Coke, juice, wine), coffee and tea, and finally plain tap water. Sugar and salt are conductive and corrosive long after the liquid itself has dried, which is why a spilt cooldrink that seems fine on Monday can kill the board by Thursday. From Randpark Ridge homes we see coffee most often, followed by wine and pool water.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and stop using it now. A MacBook that still boots after a spill is the most common scenario we regret with clients, because corrosion on a live board accelerates dramatically. We have had Randpark Ridge clients whose machines worked fine for ten days then died, and by then the damage was three times what it would have cost on day one. Power it down and let us clean it properly.' },
   { question: 'Will you be able to save my data?', answer: 'On Intel MacBooks the SSD is usually a separate module and we can almost always recover the data even if the logic board is dead. On M1, M2 and M3 MacBooks the storage is soldered to the board and tied to the Secure Enclave, so data recovery requires the board to be brought back to a working state. In Randpark Ridge cases without a recent Time Machine backup, we will tell you upfront how realistic recovery is before any work begins.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, our assessment fee starts from R599 for liquid damage cases. That includes collection from Randpark Ridge, full strip-down, ultrasonic cleaning where indicated, and a written diagnosis. More complex boards or extensive corrosion may require additional diagnostic time, which we will quote before doing — no surprise charges at the end.' },
-  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair liquid damage on M1, M2 and M3 MacBook Air and Pro models at component level rather than swapping the whole board, which is what makes the repair economically viable. The challenge with Apple Silicon is the soldered storage, so saving the board is also the only path to saving the data. Bring it in early — Apple Silicon boards are less forgiving of delayed cleaning than the older Intel logic boards.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, our assessment fee starts from R599 for liquid damage cases. That includes collection from Randpark Ridge, full strip-down, ultrasonic cleaning where indicated, and a written diagnosis. More complex boards or extensive corrosion may require additional diagnostic time, which we will quote before doing, no surprise charges at the end.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair liquid damage on M1, M2 and M3 MacBook Air and Pro models at component level rather than swapping the whole board, which is what makes the repair economically viable. The challenge with Apple Silicon is the soldered storage, so saving the board is also the only path to saving the data. Bring it in early, Apple Silicon boards are less forgiving of delayed cleaning than the older Intel logic boards.' },
 ];
 
 const serviceSchema = {
@@ -76,14 +76,14 @@ export default function LiquidDamageRandparkRidgePage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Liquid Damage Repair Randpark Ridge
-              <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
+              <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Liquid damage is time-critical, and Randpark Ridge sits roughly 20 minutes from our Hyde Park workshop via Beyers Naudé Drive and the N1, so we can usually collect within a couple of hours. We carry out ultrasonic board cleaning and component-level repair on site rather than swapping logic boards. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Same-day collection from Randpark Ridge — contact us immediately after liquid exposure</span>
+              <span>Same-day collection from Randpark Ridge, contact us immediately after liquid exposure</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -100,7 +100,7 @@ export default function LiquidDamageRandparkRidgePage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={buildWhatsAppUrl('LDR-RANDPARK', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
-                💬 WhatsApp — Act Now
+                💬 WhatsApp, Act Now
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -134,13 +134,13 @@ export default function LiquidDamageRandparkRidgePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Randpark Ridge clients bring us a particular mix of liquid damage cases — coffee spills from work-from-home setups around the Randpark Golf Club estates, water damage from poolside use during summer, and the odd glass of wine knocked over during weekend entertaining. The pattern we see consistently is that the first 24 hours decide most outcomes. When liquid bridges traces on a logic board, two things happen in sequence: an initial short can take out power-management ICs or the SMC, and then corrosion begins quietly eating pads and vias for days or weeks afterwards. Powering the machine on to check if it still works is the single most common reason a repairable board becomes a write-off.
+              Randpark Ridge clients bring us a particular mix of liquid damage cases, coffee spills from work-from-home setups around the Randpark Golf Club estates, water damage from poolside use during summer, and the odd glass of wine knocked over during weekend entertaining. The pattern we see consistently is that the first 24 hours decide most outcomes. When liquid bridges traces on a logic board, two things happen in sequence: an initial short can take out power-management ICs or the SMC, and then corrosion begins quietly eating pads and vias for days or weeks afterwards. Powering the machine on to check if it still works is the single most common reason a repairable board becomes a write-off.
             </p>
             <p>
-              Because Randpark Ridge, Radiokop, Boskruin and the Northgate side of Beyers Naudé all sit on the same collection route, we can usually have a courier with you the same morning you call. We bring the MacBook back to Hyde Park, strip it down, and run the board through a commercial ultrasonic bath with the correct solvent — this is what actually removes sugar, salt and mineral residue from under chips where isopropyl wipes cannot reach. From there it goes onto the microscope bench for any trace repair, pad rebuilds or component-level replacement. We have done this for residents off Pendoring Road, small businesses in the Northgate area, and families closer to Cresta who needed data off a machine before deciding on the repair itself.
+              Because Randpark Ridge, Radiokop, Boskruin and the Northgate side of Beyers Naudé all sit on the same collection route, we can usually have a courier with you the same morning you call. We bring the MacBook back to Hyde Park, strip it down, and run the board through a commercial ultrasonic bath with the correct solvent, this is what actually removes sugar, salt and mineral residue from under chips where isopropyl wipes cannot reach. From there it goes onto the microscope bench for any trace repair, pad rebuilds or component-level replacement. We have done this for residents off Pendoring Road, small businesses in the Northgate area, and families closer to Cresta who needed data off a machine before deciding on the repair itself.
             </p>
             <p>
-              Most liquid-damaged MacBooks coming out of Randpark Ridge are recoverable, even ones that arrived a week or two after the spill. The MacBooks we cannot save are almost always the ones that were repeatedly powered on, or where someone tried rice or a hairdryer first. After the diagnostic you will get a clear written breakdown — what is damaged, what it costs to repair, and whether data recovery is realistic if the board itself is beyond economical repair. If you decide not to proceed, the R599 still covers the work done.
+              Most liquid-damaged MacBooks coming out of Randpark Ridge are recoverable, even ones that arrived a week or two after the spill. The MacBooks we cannot save are almost always the ones that were repeatedly powered on, or where someone tried rice or a hairdryer first. After the diagnostic you will get a clear written breakdown, what is damaged, what it costs to repair, and whether data recovery is realistic if the board itself is beyond economical repair. If you decide not to proceed, the R599 still covers the work done.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function LiquidDamageRandparkRidgePage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Liquid Damage Repair Randpark Ridge — Common Questions" />
+          <FAQAccordion items={faqs} title="Liquid Damage Repair Randpark Ridge, Common Questions" />
         </div>
       </section>
 
@@ -176,7 +176,7 @@ export default function LiquidDamageRandparkRidgePage() {
             <p className="text-[#7A9E98] mb-6">Same-day collection from Randpark Ridge. Assessment from R599. From R599 assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-RANDPARK', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
-                💬 WhatsApp — Act Now
+                💬 WhatsApp, Act Now
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

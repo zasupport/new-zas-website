@@ -72,7 +72,7 @@ export function buildFaqSchema(faqs: Array<{ question: string; answer: string }>
 }
 
 // ─── Service Schema Builder ───────────────────────────────────────────────────
-// Builds a full Service schema (provider = LocalBusiness, no review markup — §166).
+// Builds a full Service schema (provider = LocalBusiness, no review markup, §166).
 export function buildServiceSchema(params: {
   name: string;
   description: string;

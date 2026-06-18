@@ -25,7 +25,7 @@ const urgentSteps = [
 const faqs = [
   {
     question: 'How quickly should I contact you after liquid damage in Centurion?',
-    answer: 'Immediately — within hours if possible. Every hour allows corrosion to spread further. We offer same-day collection from Centurion, approximately 30–40 minutes from our Hyde Park workshop. Speed is the single most important factor in liquid damage recovery.',
+    answer: 'Immediately, within hours if possible. Every hour allows corrosion to spread further. We offer same-day collection from Centurion, approximately 30-40 minutes from our Hyde Park workshop. Speed is the single most important factor in liquid damage recovery.',
   },
   {
     question: 'Do you collect MacBooks for liquid damage repair from Centurion?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'What is the success rate for MacBook liquid damage repair?',
-    answer: 'Success rate depends heavily on time elapsed and liquid type. Water damage caught within 24 hours has approximately 80% success. Coffee or sugary liquids are more aggressive — corrosion spreads faster. Machines brought in within a few hours have the best outcomes.',
+    answer: 'Success rate depends heavily on time elapsed and liquid type. Water damage caught within 24 hours has approximately 80% success. Coffee or sugary liquids are more aggressive, corrosion spreads faster. Machines brought in within a few hours have the best outcomes.',
   },
   {
     question: 'Why not use rice to dry my MacBook?',
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     question: 'How long does liquid damage repair take?',
-    answer: 'Ultrasonic cleaning takes 2–4 hours. Post-clean diagnostic and component repair typically adds 2–5 business days depending on the extent of damage. We provide a timeline in the written quote after assessment.',
+    answer: 'Ultrasonic cleaning takes 2-4 hours. Post-clean diagnostic and component repair typically adds 2-5 business days depending on the extent of damage. We provide a timeline in the written quote after assessment.',
   },
   {
     question: 'Do you repair iPhones and iPads with liquid damage from Centurion?',
@@ -100,11 +100,11 @@ export default function LiquidDamageCenturionPage() {
               <br /><span className="text-[#0FEA7A]">Centurion</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Emergency MacBook liquid damage repair for Centurion clients. Same-day collection. Ultrasonic cleaning and component-level board repair at our Hyde Park workshop — approx 30–40 minutes from Centurion.
+              Emergency MacBook liquid damage repair for Centurion clients. Same-day collection. Ultrasonic cleaning and component-level board repair at our Hyde Park workshop, approx 30-40 minutes from Centurion.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <AlertTriangle className="w-4 h-4 text-amber-400" />
-              <span className="text-amber-400 font-medium">Act immediately — every hour increases corrosion spread.</span>
+              <span className="text-amber-400 font-medium">Act immediately, every hour increases corrosion spread.</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {['Same-Day Collection', 'Ultrasonic Cleaning', 'No Fix No Fee', 'Assessment from R599'].map((l) => (
@@ -116,7 +116,7 @@ export default function LiquidDamageCenturionPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={buildWhatsAppUrl('LIQ-CENTURION', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all" >
-                WhatsApp — Emergency Collection
+                WhatsApp, Emergency Collection
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -128,7 +128,7 @@ export default function LiquidDamageCenturionPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">What To Do After a Spill — Centurion Clients</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">What To Do After a Spill, Centurion Clients</h2>
           <div className="space-y-4">
             {urgentSteps.map((s) => (
               <div key={s.step} className="glass-card p-5 flex gap-4">
@@ -145,7 +145,7 @@ export default function LiquidDamageCenturionPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title={`MacBook Liquid Damage Repair Centurion — Common Questions`} />
+          <FAQAccordion items={faqs} title={`MacBook Liquid Damage Repair Centurion, Common Questions`} />
         </div>
       </section>
 
@@ -156,7 +156,7 @@ export default function LiquidDamageCenturionPage() {
             <p className="text-[#7A9E98] mb-6">We collect from Centurion including Irene, Lyttelton, Hennopspark, and Highveld.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LIQ-CENTURION', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
-                WhatsApp — Emergency Collection
+                WhatsApp, Emergency Collection
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

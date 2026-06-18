@@ -84,7 +84,7 @@ const symptoms = [
 const processSteps = [
   { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a photo of the damage. We quote a fixed price for parts and labour before any work begins.' },
   { step: '2', title: 'Glass Confirmed', desc: 'We confirm the correct rear glass is in stock for your specific model and colour. We stock glass for all current iPhone models in the main colour options.' },
-  { step: '3', title: 'Glass Replaced', desc: 'A certified technician uses controlled heat to remove the shattered glass and bonds OEM-quality replacement glass using UV adhesive. The process takes 90–120 minutes.' },
+  { step: '3', title: 'Glass Replaced', desc: 'A certified technician uses controlled heat to remove the shattered glass and bonds OEM-quality replacement glass using UV adhesive. The process takes 90-120 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test wireless charging, MagSafe alignment, the rear camera system, and re-seal the chassis to restore IP68-class water resistance.' },
   { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the replacement glass and our labour. Assessment: from R599, assessment fee of from R599 applies if we cannot complete the repair.' },
 ];
@@ -98,7 +98,7 @@ const faqs = [
   {
     question: 'How long does iPhone back glass replacement take?',
     answer:
-      'iPhone back glass replacement takes 90–120 minutes. The rear glass is bonded with UV adhesive and requires heat to remove safely. We confirm availability and turnaround when you contact us.',
+      'iPhone back glass replacement takes 90-120 minutes. The rear glass is bonded with UV adhesive and requires heat to remove safely. We confirm availability and turnaround when you contact us.',
   },
   {
     question: 'Is cracked iPhone back glass just cosmetic, do I need to repair it?',

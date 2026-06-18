@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -37,13 +37,13 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Germiston?', answer: 'Yes. We collect from across Germiston — including the CBD around President Street, Lambton, Primrose, Klippoortje, Wadeville, and the industrial belt near Refinery Road and Heidelberg Road. Collection is arranged via WhatsApp on 064 529 5863, usually for the next working day. The courier brings packaging if required and the machine is taken directly to our Hyde Park workshop.' },
-  { question: 'How far is Germiston from your Hyde Park workshop?', answer: 'Germiston sits roughly 30 minutes from Hyde Park outside peak traffic, travelling up the M2 and across to the M1 north. During morning peak it can stretch to 45 minutes, which is why we schedule most collections mid-morning or early afternoon. The distance does not affect repair turnaround — once the board is on the bench, the diagnostic and repair timeline is the same as for a walk-in client.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a new one, which is expensive and means you lose anything stored on the soldered SSD. Component-level repair identifies the single failed part — often a power IC, a charging chip, a blown filter, or a corroded trace — and replaces only that component. For Germiston clients the cost difference is significant, and the original SSD with all your data stays in place.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases yes. Complete no-power faults usually trace back to a damaged power management IC, a shorted capacitor on the main power rail, or a failed SMC. We see this pattern often from Germiston clients whose machines were exposed to a power surge — common on the older industrial grid around Wadeville and Knights. The board comes in, we diagnose under microscope, and we quote before any repair work begins.' },
+  { question: 'Do you collect MacBooks from Germiston?', answer: 'Yes. We collect from across Germiston, including the CBD around President Street, Lambton, Primrose, Klippoortje, Wadeville, and the industrial belt near Refinery Road and Heidelberg Road. Collection is arranged via WhatsApp on 064 529 5863, usually for the next working day. The courier brings packaging if required and the machine is taken directly to our Hyde Park workshop.' },
+  { question: 'How far is Germiston from your Hyde Park workshop?', answer: 'Germiston sits roughly 30 minutes from Hyde Park outside peak traffic, travelling up the M2 and across to the M1 north. During morning peak it can stretch to 45 minutes, which is why we schedule most collections mid-morning or early afternoon. The distance does not affect repair turnaround, once the board is on the bench, the diagnostic and repair timeline is the same as for a walk-in client.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a new one, which is expensive and means you lose anything stored on the soldered SSD. Component-level repair identifies the single failed part, often a power IC, a charging chip, a blown filter, or a corroded trace, and replaces only that component. For Germiston clients the cost difference is significant, and the original SSD with all your data stays in place.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases yes. Complete no-power faults usually trace back to a damaged power management IC, a shorted capacitor on the main power rail, or a failed SMC. We see this pattern often from Germiston clients whose machines were exposed to a power surge, common on the older industrial grid around Wadeville and Knights. The board comes in, we diagnose under microscope, and we quote before any repair work begins.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours from when the board reaches our Hyde Park workshop. Complex faults involving multiple damaged components, or repairs that require waiting for a specific IC to arrive, can take 5 to 7 working days. We give Germiston clients a realistic timeline at the point of quotation, not an optimistic guess.' },
   { question: 'What is the assessment fee?', answer: 'Assessment is from R599. This covers the structured diagnostic under microscope, voltage rail testing, and a written quotation explaining exactly which component has failed and what the repair will cost. If you approve the repair, the assessment fee is applied toward the total. If you decline, the assessment fee covers the diagnostic work already completed.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. Assessment starts from R599 and includes a proper component-level diagnostic, not a surface check. For Germiston clients this means you receive a clear written explanation of the fault before committing to any repair spend. More involved diagnostics — particularly on machines with multiple symptoms or liquid damage — may carry a higher assessment fee, which we confirm before starting.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. Assessment starts from R599 and includes a proper component-level diagnostic, not a surface check. For Germiston clients this means you receive a clear written explanation of the fault before committing to any repair spend. More involved diagnostics, particularly on machines with multiple symptoms or liquid damage, may carry a higher assessment fee, which we confirm before starting.' },
   { question: 'Which MacBook models do you repair for Germiston clients?', answer: 'We repair the full MacBook Pro and MacBook Air range from 2012 onwards, including all Intel models and the Apple Silicon M1, M2, and M3 generations. We also handle iMac and Mac mini logic boards. Whether you are running an older Intel machine in a Lambton home office or a newer M2 Air used across Wadeville warehouse sites, the board can come to Hyde Park for assessment.' },
 ];
 
@@ -87,10 +87,10 @@ export default function LogicBoardRepairGermistonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Germiston, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Germiston is one of Gauteng&apos;s busiest industrial and logistics hubs, and we collect failed MacBooks from across the area — from the CBD around President Street through to Lambton, Primrose, and the warehousing corridors near Heidelberg Road. Our Hyde Park component-level workshop sits roughly 30 minutes north up the M2 and M1. Logic board assessment from R599.
+              Germiston is one of Gauteng&apos;s busiest industrial and logistics hubs, and we collect failed MacBooks from across the area, from the CBD around President Street through to Lambton, Primrose, and the warehousing corridors near Heidelberg Road. Our Hyde Park component-level workshop sits roughly 30 minutes north up the M2 and M1. Logic board assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -131,16 +131,16 @@ export default function LogicBoardRepairGermistonPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Germiston has a distinctive client mix — logistics operators near City Deep and the rail yards, manufacturing managers around Wadeville and Knights, small accounting and legal practices along Meyer Street, and residents in Lambton, Klippoortje, and Primrose who run MacBooks for everything from school admin to remote contracting. The fault patterns we see here are shaped by that mix. Logistics and warehouse clients often bring in MacBooks that have travelled extensively in vehicles, exposed to vibration and the occasional spilled coffee in a truck cab. The result is usually USB-C charging port failure, intermittent boot, or a board that simply will not respond to the power button. We have also collected machines from Germiston Lake-side homes where a power surge took out the SMC controller, and from offices off Refinery Road where ageing battery cells leaked and damaged the surrounding ICs.
+              Germiston has a distinctive client mix, logistics operators near City Deep and the rail yards, manufacturing managers around Wadeville and Knights, small accounting and legal practices along Meyer Street, and residents in Lambton, Klippoortje, and Primrose who run MacBooks for everything from school admin to remote contracting. The fault patterns we see here are shaped by that mix. Logistics and warehouse clients often bring in MacBooks that have travelled extensively in vehicles, exposed to vibration and the occasional spilled coffee in a truck cab. The result is usually USB-C charging port failure, intermittent boot, or a board that simply will not respond to the power button. We have also collected machines from Germiston Lake-side homes where a power surge took out the SMC controller, and from offices off Refinery Road where ageing battery cells leaked and damaged the surrounding ICs.
             </p>
             <p>
-              Every Germiston logic board that reaches our Hyde Park bench is examined under a stereo microscope before any work begins. We measure voltage rails, check for short circuits on the PPBUS line, inspect the U-series power management ICs, and trace the fault to a specific component rather than guessing. Component-level repair means we can replace a single damaged chip, re-flow a charging IC, or rebuild a corroded section of the board — without the cost of a full board swap. For Germiston-based small businesses and accounting practices that cannot afford a week of downtime, this matters. We have returned MacBooks to clients off Driehoek and the N3 service road inside 72 hours, with the original SSD and data intact.
+              Every Germiston logic board that reaches our Hyde Park bench is examined under a stereo microscope before any work begins. We measure voltage rails, check for short circuits on the PPBUS line, inspect the U-series power management ICs, and trace the fault to a specific component rather than guessing. Component-level repair means we can replace a single damaged chip, re-flow a charging IC, or rebuild a corroded section of the board, without the cost of a full board swap. For Germiston-based small businesses and accounting practices that cannot afford a week of downtime, this matters. We have returned MacBooks to clients off Driehoek and the N3 service road inside 72 hours, with the original SSD and data intact.
             </p>
             <p>
-              Collection from Germiston runs along the M2 corridor and we coordinate timing so the courier arrives during your working day, whether you are at a Wadeville warehouse, a Bedfordview-border office, or a home in Lambton. Once the repair is complete and the board has passed a full burn-in test, the machine is returned to the same address. If you are unsure whether your symptom is a logic board fault or something simpler like a battery or display issue, send us a WhatsApp on 064 529 5863 with a short description and we will tell you honestly — sometimes the fix is not a board repair at all.
+              Collection from Germiston runs along the M2 corridor and we coordinate timing so the courier arrives during your working day, whether you are at a Wadeville warehouse, a Bedfordview-border office, or a home in Lambton. Once the repair is complete and the board has passed a full burn-in test, the machine is returned to the same address. If you are unsure whether your symptom is a logic board fault or something simpler like a battery or display issue, send us a WhatsApp on 064 529 5863 with a short description and we will tell you honestly, sometimes the fix is not a board repair at all.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairGermistonPage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairGermistonPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairGermistonPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Germiston — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Germiston, Common Questions" />
         </div>
       </section>
 

@@ -23,19 +23,19 @@ const symptoms = [
 ];
 
 const benefits = [
-  { task: 'Boot time', before: '3–5 minute boot', after: 'Under 20 seconds' },
-  { task: 'App launch', before: '30s app launch', after: '2–3 seconds' },
+  { task: 'Boot time', before: '3-5 minute boot', after: 'Under 20 seconds' },
+  { task: 'App launch', before: '30s app launch', after: '2-3 seconds' },
   { task: 'Responsiveness', before: 'Constant beachball', after: 'Smooth and responsive' },
   { task: 'Noise', before: 'Noisy spinning drive', after: 'Completely silent' },
-  { task: 'Backups', before: 'Slow Time Machine', after: '5–10x faster' },
+  { task: 'Backups', before: 'Slow Time Machine', after: '5-10x faster' },
 ];
 
 const supportedModels = [
-  { model: 'MacBook Air 2017–2020 (Intel)', note: 'PCIe SSD upgrade' },
-  { model: 'MacBook Pro 13" 2015–2020 (Intel)', note: 'PCIe SSD upgrade' },
-  { model: 'MacBook Pro 15" 2015–2019 (Intel)', note: 'PCIe SSD upgrade' },
+  { model: 'MacBook Air 2017-2020 (Intel)', note: 'PCIe SSD upgrade' },
+  { model: 'MacBook Pro 13" 2015-2020 (Intel)', note: 'PCIe SSD upgrade' },
+  { model: 'MacBook Pro 15" 2015-2019 (Intel)', note: 'PCIe SSD upgrade' },
   { model: 'MacBook Pro 16" 2019 (Intel)', note: 'PCIe SSD upgrade' },
-  { model: 'MacBook Air 13" 2013–2017 (Intel)', note: 'PCIe SSD upgrade' },
+  { model: 'MacBook Air 13" 2013-2017 (Intel)', note: 'PCIe SSD upgrade' },
 ];
 
 const steps = [
@@ -65,7 +65,7 @@ const faqs = [
   {
     question: 'Which MacBook models can have SSD upgraded?',
     answer:
-      'Intel MacBook Air (2013–2020) and Intel MacBook Pro (2013–2020) can have their internal SSD upgraded. Apple Silicon models (M1, M2, M3, M4) have storage soldered to the SoC chip and cannot be upgraded. If your MacBook has an Apple Silicon chip, the storage installed at purchase is permanent.',
+      'Intel MacBook Air (2013-2020) and Intel MacBook Pro (2013-2020) can have their internal SSD upgraded. Apple Silicon models (M1, M2, M3, M4) have storage soldered to the SoC chip and cannot be upgraded. If your MacBook has an Apple Silicon chip, the storage installed at purchase is permanent.',
   },
   {
     question: 'What is the assessment fee policy?',
@@ -75,7 +75,7 @@ const faqs = [
   {
     question: 'How long does an SSD upgrade take?',
     answer:
-      'Most MacBook SSD upgrades are completed same day, typically 2–4 hours. Data migration from the old drive is included and adds 1–3 hours depending on storage size.',
+      'Most MacBook SSD upgrades are completed same day, typically 2-4 hours. Data migration from the old drive is included and adds 1-3 hours depending on storage size.',
   },
   {
     question: 'Will my data be safe during the upgrade?',
@@ -95,7 +95,7 @@ const faqs = [
   {
     question: 'Is it worth upgrading an older MacBook with an SSD?',
     answer:
-      'Often yes. An Intel MacBook Air or Pro with an SSD typically feels 3–5x faster for everyday tasks. If the machine is otherwise in good condition, an SSD upgrade can add 3–5 years of usable life. We will assess the machine and give you an honest recommendation.',
+      'Often yes. An Intel MacBook Air or Pro with an SSD typically feels 3-5x faster for everyday tasks. If the machine is otherwise in good condition, an SSD upgrade can add 3-5 years of usable life. We will assess the machine and give you an honest recommendation.',
   },
   {
     question: 'What warranty do you provide on SSD upgrades?',
@@ -256,7 +256,7 @@ export default function MacBookSSDUpgradePage() {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold text-[#E8F4F1] mb-2 text-center">Supported MacBook Models</h2>
           <p className="text-[#7A9E98] text-center mb-2">
-            Apple Silicon (M1/M2/M3/M4) MacBooks have storage soldered to the chip — not upgradeable.
+            Apple Silicon (M1/M2/M3/M4) MacBooks have storage soldered to the chip, not upgradeable.
           </p>
           <p className="text-[#7A9E98] text-center mb-8 text-sm">Intel models only.</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -272,7 +272,7 @@ export default function MacBookSSDUpgradePage() {
             <a href={`tel:${CONTACT.phoneTel}`} className="text-[#0FEA7A] hover:underline">
               Call us
             </a>{' '}
-            — we will check it in under a minute.
+, we will check it in under a minute.
           </p>
         </div>
       </section>

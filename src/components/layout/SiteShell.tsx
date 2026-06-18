@@ -12,7 +12,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const bare = SHELL_FREE.some((p) => pathname.startsWith(p));
 
-  // Website hardening — disable right-click and common copy shortcuts
+  // Website hardening, disable right-click and common copy shortcuts
   useEffect(() => {
     const blockContextMenu = (e: MouseEvent) => {
       e.preventDefault();

@@ -62,30 +62,30 @@ export const metadata: Metadata = {
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingTiers = [
-  { device: 'MacBook Air (all models)', from: 'R1,499', turnaround: '2–4 hours', warranty: 'Up to 3 years', popular: false },
-  { device: 'MacBook Pro 13″', from: 'R1,799', turnaround: '2–4 hours', warranty: 'Up to 3 years', popular: true },
-  { device: 'MacBook Pro 14″ / 16″', from: 'R2,299', turnaround: '4–6 hours', warranty: 'Up to 3 years', popular: false },
-  { device: 'iPhone (all models)', from: 'R899', turnaround: '30–60 min', warranty: 'Up to 12 months', popular: false },
-  { device: 'iPad (all models)', from: 'R1,299', turnaround: '4–6 hours', warranty: 'Up to 12 months', popular: false },
+  { device: 'MacBook Air (all models)', from: 'R1,499', turnaround: '2-4 hours', warranty: 'Up to 3 years', popular: false },
+  { device: 'MacBook Pro 13″', from: 'R1,799', turnaround: '2-4 hours', warranty: 'Up to 3 years', popular: true },
+  { device: 'MacBook Pro 14″ / 16″', from: 'R2,299', turnaround: '4-6 hours', warranty: 'Up to 3 years', popular: false },
+  { device: 'iPhone (all models)', from: 'R899', turnaround: '30-60 min', warranty: 'Up to 12 months', popular: false },
+  { device: 'iPad (all models)', from: 'R1,299', turnaround: '4-6 hours', warranty: 'Up to 12 months', popular: false },
 ];
 
 /* ── Process Steps ───────────────────────────────────────────────────────── */
 const processSteps = [
-  { step: 1, title: 'Book & Drop Off', desc: 'WhatsApp us or walk in to our Hyde Park workshop. We will run a battery health diagnostic on the spot — no appointment necessary.' },
+  { step: 1, title: 'Book & Drop Off', desc: 'WhatsApp us or walk in to our Hyde Park workshop. We will run a battery health diagnostic on the spot, no appointment necessary.' },
   { step: 2, title: 'Assessment & Quote', desc: 'We test your battery cycle count, maximum capacity, and charging circuitry. You receive a written, fixed-price quote before any work begins. Assessment from R599.' },
   { step: 3, title: 'Battery Replacement', desc: 'Our technicians remove the old battery using precision tools and adhesive solvents. The replacement cell is tested for voltage, capacity, and thermal stability before installation.' },
   { step: 4, title: 'Calibration & QA', desc: 'Full charge-discharge calibration cycle. We verify the battery reports correctly in macOS System Information, confirm MagSafe / USB-C charging, and run a thermal stress test.' },
-  { step: 5, title: 'Collect with Warranty', desc: 'You collect your device with a written warranty — up to 3 years on MacBook batteries, up to 12 months on iPhone and iPad. If the battery fails within the warranty period, we replace it at from R599.' },
+  { step: 5, title: 'Collect with Warranty', desc: 'You collect your device with a written warranty, up to 3 years on MacBook batteries, up to 12 months on iPhone and iPad. If the battery fails within the warranty period, we replace it at from R599.' },
 ];
 
 /* ── Device Compatibility Grid ───────────────────────────────────────────── */
 const compatibilityGrid = [
-  { category: 'MacBook Air', models: 'M1 (2020), M2 (2022), M3 (2024), 2017–2019 Retina, 2015 & earlier', notes: 'All models serviceable. M-series use adhesive cells — specialist removal required.' },
-  { category: 'MacBook Pro 13″', models: 'M1/M2/M3, 2016–2020 Touch Bar, 2012–2015 Retina', notes: 'Touch Bar models require careful flex cable routing. We test Touch Bar function post-install.' },
-  { category: 'MacBook Pro 14″/16″', models: 'M1 Pro/Max, M2 Pro/Max, M3 Pro/Max, M4 Pro/Max', notes: 'Larger cells, higher wattage. Turnaround 4–6 hours due to adhesive complexity.' },
-  { category: 'MacBook Pro 15″', models: '2012–2019 (Retina)', notes: 'Includes top case battery on 2016+ models. We replace the battery without replacing the entire top case.' },
+  { category: 'MacBook Air', models: 'M1 (2020), M2 (2022), M3 (2024), 2017-2019 Retina, 2015 & earlier', notes: 'All models serviceable. M-series use adhesive cells, specialist removal required.' },
+  { category: 'MacBook Pro 13″', models: 'M1/M2/M3, 2016-2020 Touch Bar, 2012-2015 Retina', notes: 'Touch Bar models require careful flex cable routing. We test Touch Bar function post-install.' },
+  { category: 'MacBook Pro 14″/16″', models: 'M1 Pro/Max, M2 Pro/Max, M3 Pro/Max, M4 Pro/Max', notes: 'Larger cells, higher wattage. Turnaround 4-6 hours due to adhesive complexity.' },
+  { category: 'MacBook Pro 15″', models: '2012-2019 (Retina)', notes: 'Includes top case battery on 2016+ models. We replace the battery without replacing the entire top case.' },
   { category: 'iPhone', models: 'iPhone 8 through iPhone 16 Pro Max', notes: 'Genuine-equivalent cells. Battery health reporting preserved on iOS 15.2+.' },
-  { category: 'iPad', models: 'iPad Air, iPad Pro, iPad mini (2017+)', notes: 'Adhesive-mounted cells. Screen removal required — performed in dust-controlled environment.' },
+  { category: 'iPad', models: 'iPad Air, iPad Pro, iPad mini (2017+)', notes: 'Adhesive-mounted cells. Screen removal required, performed in dust-controlled environment.' },
 ];
 
 /* ── Suburb Service Area ─────────────────────────────────────────────────── */
@@ -132,7 +132,7 @@ const faqs = [
   },
   {
     question: 'What is your warranty on battery replacements?',
-    answer: 'MacBook battery replacements carry a written warranty of up to 3 years covering the battery cell and our workmanship. iPhone and iPad battery replacements carry a warranty of up to 12 months. If the replacement battery fails within the warranty period — capacity drops below 80% or the battery develops a fault — we replace it again at from R599. The warranty is provided in writing at collection.',
+    answer: 'MacBook battery replacements carry a written warranty of up to 3 years covering the battery cell and our workmanship. iPhone and iPad battery replacements carry a warranty of up to 12 months. If the replacement battery fails within the warranty period, capacity drops below 80% or the battery develops a fault, we replace it again at from R599. The warranty is provided in writing at collection.',
   },
   {
     question: 'Can you replace the battery in a MacBook with a swollen battery?',
@@ -144,7 +144,7 @@ const faqs = [
   },
   {
     question: 'Do you offer a From R599 assessment policy on battery replacements?',
-    answer: 'Yes. If we assess your device and determine that a battery replacement will not resolve your issue — for example, if the problem is actually a logic board fault causing incorrect battery readings — you pay nothing beyond the assessment fee (from R599). We will never replace a battery that does not need replacing. If the battery is the confirmed issue, the assessment fee is included in the replacement cost.',
+    answer: 'Yes. If we assess your device and determine that a battery replacement will not resolve your issue, for example, if the problem is actually a logic board fault causing incorrect battery readings, you pay nothing beyond the assessment fee (from R599). We will never replace a battery that does not need replacing. If the battery is the confirmed issue, the assessment fee is included in the replacement cost.',
   },
 ];
 
@@ -183,7 +183,7 @@ const serviceSchema = {
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'iPhone Battery Replacement', description: 'iPhone battery replacement in 30–60 minutes. From R899. Up-to-12 month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'iPhone Battery Replacement', description: 'iPhone battery replacement in 30-60 minutes. From R899. Up-to-12 month warranty.' },
         price: '899',
         priceCurrency: 'ZAR',
       },
@@ -234,7 +234,7 @@ export default function BatteryReplacementPage() {
               </p>
               <p className="text-[#7A9E98] mb-8">
                 The Apple Store charges R3,500 to R8,000 for the same replacement. We fit premium-grade cells
-                that match OEM specifications — at a fraction of the price.
+                that match OEM specifications, at a fraction of the price.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
@@ -275,7 +275,7 @@ export default function BatteryReplacementPage() {
           </div>
         </section>
 
-        {/* ── Why Batteries Fail — SA Context ────────────────────────────── */}
+        {/* ── Why Batteries Fail, SA Context ────────────────────────────── */}
         <section className="py-16 sm:py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-6">Why MacBook Batteries Fail Faster in South Africa</h2>
@@ -287,9 +287,9 @@ export default function BatteryReplacementPage() {
                 </div>
                 <p className="text-[#7A9E98] leading-relaxed">
                   In our Hyde Park workshop, we have replaced more MacBook batteries in the last two years than in
-                  the previous five — and load shedding is the primary driver. Every time Eskom cuts power, your MacBook
-                  switches from mains to battery. When power returns, it charges back up. This constant cycling — sometimes
-                  four or five times per day during Stage 4 and above — burns through charge cycles at three to four times
+                  the previous five, and load shedding is the primary driver. Every time Eskom cuts power, your MacBook
+                  switches from mains to battery. When power returns, it charges back up. This constant cycling, sometimes
+                  four or five times per day during Stage 4 and above, burns through charge cycles at three to four times
                   the normal rate. A battery rated for 1,000 cycles can hit that threshold in 18 months instead of four years.
                   We consistently see MacBooks from Johannesburg, Sandton, and Midrand arriving with cycle counts of 800+
                   on machines that are barely two years old.
@@ -304,7 +304,7 @@ export default function BatteryReplacementPage() {
                   Johannesburg summers regularly push ambient temperatures above 30°C, and a MacBook under load can
                   reach internal temperatures of 95°C or more. Sustained heat accelerates lithium-ion degradation,
                   reducing maximum capacity and increasing the risk of cell swelling. A swollen battery pushes upward
-                  against the trackpad — you will notice the trackpad becoming stiff or unresponsive, or the bottom case
+                  against the trackpad, you will notice the trackpad becoming stiff or unresponsive, or the bottom case
                   no longer sitting flat. This is a safety issue. If your trackpad feels different, bring your MacBook in
                   immediately. We handle swollen battery removals daily, using specialist tools to prevent cell puncture
                   during extraction.
@@ -405,11 +405,11 @@ export default function BatteryReplacementPage() {
               </div>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">MacBook — Up to 3 Years</h3>
+                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">MacBook, Up to 3 Years</h3>
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     Every MacBook battery replacement includes a written warranty of up to 3 years. This covers the
                     battery cell and our workmanship. If your replacement battery drops below 80% maximum capacity or
-                    develops any fault within the warranty period, we replace it again at from R599 — parts and labour
+                    develops any fault within the warranty period, we replace it again at from R599, parts and labour
                     included.
                   </p>
                   <p className="text-[#7A9E98] leading-relaxed">
@@ -419,7 +419,7 @@ export default function BatteryReplacementPage() {
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">iPhone & iPad — Up to 12 Months</h3>
+                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">iPhone & iPad, Up to 12 Months</h3>
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     iPhone and iPad battery replacements carry a written warranty of up to 12 months. The same principle
                     applies: if the battery fails within the warranty period, we replace it at from R599. We test every
@@ -427,9 +427,9 @@ export default function BatteryReplacementPage() {
                   </p>
                   <h3 className="text-xl font-bold mb-3 mt-6 text-[#0FEA7A]">From R599 assessment</h3>
                   <p className="text-[#7A9E98] leading-relaxed">
-                    If we determine that your battery is not the issue — for instance, if a{' '}
+                    If we determine that your battery is not the issue, for instance, if a{' '}
                     <Link href="/logic-board-repair" className="text-[#0FEA7A] underline hover:no-underline">logic board fault</Link>{' '}
-                    is causing incorrect battery readings — you pay nothing beyond the assessment fee. We will never
+                    is causing incorrect battery readings, you pay nothing beyond the assessment fee. We will never
                     replace a component that does not need replacing.
                   </p>
                 </div>
@@ -445,8 +445,8 @@ export default function BatteryReplacementPage() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  title: 'Apple Store: R3,500–R8,000',
-                  desc: 'The Apple Store in Sandton City charges R3,500 for a MacBook Air battery and up to R8,000 for a MacBook Pro 16-inch. They also replace the entire top case on most models, adding unnecessary cost. We replace only the battery cells — same result, fraction of the price.',
+                  title: 'Apple Store: R3,500-R8,000',
+                  desc: 'The Apple Store in Sandton City charges R3,500 for a MacBook Air battery and up to R8,000 for a MacBook Pro 16-inch. They also replace the entire top case on most models, adding unnecessary cost. We replace only the battery cells, same result, fraction of the price.',
                 },
                 {
                   title: '16 Years of Experience',
@@ -462,7 +462,7 @@ export default function BatteryReplacementPage() {
                 },
                 {
                   title: 'Transparent Pricing',
-                  desc: 'You receive a written, fixed-price quote before any work begins. The quote is the final price — no surprises, no hidden charges, no "we found something else" upsells. Assessment from R599, included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote before any work begins. The quote is the final price, no surprises, no hidden charges, no "we found something else" upsells. Assessment from R599, included in the repair cost if you proceed.',
                 },
                 {
                   title: 'Central Location',
@@ -492,7 +492,7 @@ export default function BatteryReplacementPage() {
               {[
                 { title: 'Logic Board Repair', href: '/logic-board-repair', desc: 'Component-level board repair for no-power, no-display, USB-C faults' },
                 { title: 'Liquid Damage Repair', href: '/liquid-damage', desc: 'Ultrasonic cleaning and board-level component replacement' },
-                { title: 'MacBook Repair', href: '/macbook-repair', desc: 'All MacBook repairs — keyboard, screen, SSD, RAM upgrades' },
+                { title: 'MacBook Repair', href: '/macbook-repair', desc: 'All MacBook repairs, keyboard, screen, SSD, RAM upgrades' },
                 { title: 'Contact Us', href: '/contact', desc: 'Book an assessment or get a quote for any Apple device' },
               ].map((link) => (
                 <Link
@@ -544,10 +544,10 @@ export default function BatteryReplacementPage() {
           </div>
         </section>
 
-        {/* ── Orphan-link injection — per-device + per-suburb ───────────── */}
+        {/* ── Orphan-link injection, per-device + per-suburb ───────────── */}
         <OrphanLinks
           sectionTitle="Battery replacement by device and area"
-          intro="Battery work spans every Apple device — MacBook Air and Pro, iPhone, iPad and iMac power assemblies. Pick the device or the suburb closest to you to read what the diagnostic, battery health check and replacement work looks like for that model or that area."
+          intro="Battery work spans every Apple device, MacBook Air and Pro, iPhone, iPad and iMac power assemblies. Pick the device or the suburb closest to you to read what the diagnostic, battery health check and replacement work looks like for that model or that area."
           groups={[
             { heading: 'By device', links: orphanBatteryModelLinks },
             { heading: 'By Gauteng suburb', links: orphanBatterySuburbLinks },
@@ -583,7 +583,7 @@ export default function BatteryReplacementPage() {
                   MacBook logic board repair
                 </h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Component-level board repair for no-power, no-boot, GPU and PMIC faults — Apple Store and Mac Shack quotes typically R15,000+, our route is from R599 assessment.
+                  Component-level board repair for no-power, no-boot, GPU and PMIC faults, Apple Store and Mac Shack quotes typically R15,000+, our route is from R599 assessment.
                 </p>
               </Link>
               <Link
@@ -594,7 +594,7 @@ export default function BatteryReplacementPage() {
                   MacBook repair hub
                 </h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Every repair line we offer for MacBook Pro, MacBook Air, iMac and Mac mini — pick the model and the symptom to read the service that fits your machine.
+                  Every repair line we offer for MacBook Pro, MacBook Air, iMac and Mac mini, pick the model and the symptom to read the service that fits your machine.
                 </p>
               </Link>
             </div>
@@ -604,7 +604,7 @@ export default function BatteryReplacementPage() {
         {/* ── FAQ Section ────────────────────────────────────────────────── */}
         <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
           <div className="max-w-4xl mx-auto">
-            <FAQAccordion items={faqs} title="Battery Replacement — Frequently Asked Questions" />
+            <FAQAccordion items={faqs} title="Battery Replacement, Frequently Asked Questions" />
           </div>
         </section>
 

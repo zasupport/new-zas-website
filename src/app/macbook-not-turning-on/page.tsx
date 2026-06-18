@@ -95,7 +95,7 @@ const causes = [
     description:
       'The most common cause. MacBook batteries degrade over charge cycles. A battery at 0% or below minimum voltage will not allow the MacBook to power on at all, even when plugged in, if the charging IC is also struggling.',
     symptoms: ['No response to power button', 'MagSafe light green but no startup', 'Powers on only when plugged in'],
-    repairTime: '2–4 hours',
+    repairTime: '2-4 hours',
     fixable: true,
     colour: 'emerald',
   },
@@ -105,7 +105,7 @@ const causes = [
     description:
       'South Africa\'s load shedding cycle creates voltage spikes when power returns. A single surge can destroy the USB-C controller, blow a polyfuse, or fry the power management IC, leaving the MacBook completely unresponsive.',
     symptoms: ['Dead after load shedding', 'No charging light', 'Smells faintly burnt', 'Screen permanently black'],
-    repairTime: '1–3 business days',
+    repairTime: '1-3 business days',
     fixable: true,
     colour: 'amber',
   },
@@ -115,7 +115,7 @@ const causes = [
     description:
       'Water, coffee, wine, any liquid reaching the logic board causes electrolytic corrosion that eats through copper traces and corrodes component pads. The damage often appears days after the spill as oxidation spreads. Earlier treatment = better outcome.',
     symptoms: ['Stopped working after liquid exposure', 'Intermittent power then nothing', 'Keyboard/trackpad unresponsive before death'],
-    repairTime: '2–5 business days',
+    repairTime: '2-5 business days',
     fixable: true,
     colour: 'blue',
   },
@@ -125,7 +125,7 @@ const causes = [
     description:
       'The logic board is the central nervous system of your MacBook. Failed capacitors, damaged power rails, shorted MOSFETs or a failed SoC (Apple Silicon) can all result in a Mac that will not start. Component-level repair is possible on most faults.',
     symptoms: ['Fan spins but no screen', 'Boots then immediately shuts off', 'No response at all, completely silent'],
-    repairTime: '1–4 business days',
+    repairTime: '1-4 business days',
     fixable: true,
     colour: 'purple',
   },
@@ -135,7 +135,7 @@ const causes = [
     description:
       'The USB-C Power Delivery controller chip (CD3217B12 on many Intel models) negotiates the charging voltage with your adapter. When this chip fails, the MacBook draws no power, the battery drains to zero, and the Mac appears completely dead.',
     symptoms: ['No charging from any cable', 'Battery percentage stuck at 0%', 'Previously worked, then stopped overnight'],
-    repairTime: '2–3 business days',
+    repairTime: '2-3 business days',
     fixable: true,
     colour: 'teal',
   },
@@ -145,7 +145,7 @@ const causes = [
     description:
       'MacBooks with a T2 security chip or Apple Silicon can become unbootable due to corrupted firmware, often after a failed macOS update or third-party SSD replacement. The Mac may show a black screen or blink an error code. Firmware can be restored without data loss in most cases.',
     symptoms: ['Stuck on Apple logo', 'Blinking folder with question mark', 'Black screen after macOS update'],
-    repairTime: '24–48 hours',
+    repairTime: '24-48 hours',
     fixable: true,
     colour: 'orange',
   },
@@ -155,7 +155,7 @@ const causes = [
     description:
       'A blown backlight fuse or failed backlight driver IC means the MacBook IS on, you just cannot see the screen. Test: shine a torch at the Apple logo area in a dark room. If you can faintly see the desktop, this is a backlight fault, not a power fault.',
     symptoms: ['Screen completely black but fan/keyboard lit', 'Faint image visible with torch', 'Connected to external monitor works fine'],
-    repairTime: '1–2 business days',
+    repairTime: '1-2 business days',
     fixable: true,
     colour: 'indigo',
   },
@@ -216,7 +216,7 @@ const faqs = [
   {
     question: 'How long does MacBook repair take?',
     answer:
-      'Assessment: from R599: completed within 24 hours of drop-off. Battery replacement: same day or next day. Firmware restore: 24–48 hours. Charging IC repair: 2–3 business days. Logic board component repair: 1–4 business days depending on complexity. Liquid damage with corrosion: 2–5 business days. We confirm the exact timeframe at the diagnostic stage and update you at each step. No machine sits waiting without communication.',
+      'Assessment: from R599: completed within 24 hours of drop-off. Battery replacement: same day or next day. Firmware restore: 24-48 hours. Charging IC repair: 2-3 business days. Logic board component repair: 1-4 business days depending on complexity. Liquid damage with corrosion: 2-5 business days. We confirm the exact timeframe at the diagnostic stage and update you at each step. No machine sits waiting without communication.',
   },
   {
     question: 'What warranty do you offer on MacBook repairs?',
@@ -240,7 +240,7 @@ const faqSchema = buildFaqSchema(faqs);
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
 
-// HowTo schema removed 25/05/2026 — Google deprecated HowTo rich results 14 Sep 2023.
+// HowTo schema removed 25/05/2026, Google deprecated HowTo rich results 14 Sep 2023.
 // Step content remains rendered visibly on the page; schema emission no longer adds SERP value.
 
 // ─── Colour map ───────────────────────────────────────────────────────────────
@@ -549,7 +549,7 @@ export default function MacBookNotTurningOnPage() {
                 {
                   step: '4',
                   title: 'Component Repair',
-                  detail: 'professional hot-air rework station, stereo microscope, precision soldering station. We target the specific faulty component — full board replacement is also available when needed.',
+                  detail: 'professional hot-air rework station, stereo microscope, precision soldering station. We target the specific faulty component, full board replacement is also available when needed.',
                   icon: <Cpu className="w-5 h-5" />,
                 },
                 {
@@ -561,7 +561,7 @@ export default function MacBookNotTurningOnPage() {
                 {
                   step: '6',
                   title: 'Collection',
-                  detail: 'Collect from Hyde Park or courier delivery across Johannesburg. up-to-3 year warranty issued. Most repairs complete within 24–72 hours.',
+                  detail: 'Collect from Hyde Park or courier delivery across Johannesburg. up-to-3 year warranty issued. Most repairs complete within 24-72 hours.',
                   icon: <MapPin className="w-5 h-5" />,
                 },
               ].map((item) => (
@@ -661,7 +661,7 @@ export default function MacBookNotTurningOnPage() {
             {/* Address */}
             <div className="inline-flex items-center gap-2 text-[#7A9E98] text-sm">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Second Floor, Hyde Park, Johannesburg · Mon–Thu 08:00–17:00 · Fri 08:00–16:30</span>
+              <span>1 Hyde Lane, Second Floor, Hyde Park, Johannesburg · Mon-Thu 08:00-17:00 · Fri 08:00-16:30</span>
             </div>
           </div>
         </section>

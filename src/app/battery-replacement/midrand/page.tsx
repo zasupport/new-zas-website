@@ -16,10 +16,10 @@ export const metadata: Metadata = {
 
 const symptoms = [
   { title: 'Battery Not Charging', desc: 'MacBook plugged in but battery percentage does not increase. Faulty battery cell, charging IC, or MagSafe/USB-C port issue diagnosed and resolved.' },
-  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue — replace immediately. We remove and dispose of swollen cells safely.' },
+  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue, replace immediately. We remove and dispose of swollen cells safely.' },
   { title: 'Short Battery Life', desc: 'MacBook running for 2 hours or less on a full charge. Worn cells lose capacity over time. A new battery restores full runtime.' },
-  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" in the battery status menu. Confirmed degradation — replacement advised.' },
-  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20–40% battery. Failing cells cannot deliver consistent voltage under load. Battery replacement resolves this.' },
+  { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" in the battery status menu. Confirmed degradation, replacement advised.' },
+  { title: 'Sudden Shutdowns', desc: 'MacBook shuts down unexpectedly at 20-40% battery. Failing cells cannot deliver consistent voltage under load. Battery replacement resolves this.' },
   { title: 'Battery Health Below 80%', desc: 'Apple considers batteries with health below 80% to be at end of useful life. Replacement restores full capacity and performance.' },
 ];
 
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'How many cycles should a MacBook battery last?',
-    answer: 'Apple rates MacBook batteries for 1,000 charge cycles before capacity drops below 80%. In practice, daily users reach this in 3–4 years. Once you are above 1,000 cycles or below 80% health, a replacement is the most cost-effective way to restore your Mac to full performance.',
+    answer: 'Apple rates MacBook batteries for 1,000 charge cycles before capacity drops below 80%. In practice, daily users reach this in 3-4 years. Once you are above 1,000 cycles or below 80% health, a replacement is the most cost-effective way to restore your Mac to full performance.',
   },
 ];
 
@@ -98,7 +98,7 @@ export default function BatteryReplacementMidrandPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Battery Replacement Midrand
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Battery replacement for Midrand MacBook users. We collect from Midrand and replace your battery at our Hyde Park workshop. Same-day service available.
@@ -142,7 +142,7 @@ export default function BatteryReplacementMidrandPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Midrand sits at the centre of the Johannesburg–Pretoria corridor, home to major corporate campuses, data centres, and residential estates along the N1 and N14. Professionals working from Kyalami, Grand Central, and the Midrand Business Park depend on their MacBooks running through back-to-back meetings and long working days.
+              Midrand sits at the centre of the Johannesburg-Pretoria corridor, home to major corporate campuses, data centres, and residential estates along the N1 and N14. Professionals working from Kyalami, Grand Central, and the Midrand Business Park depend on their MacBooks running through back-to-back meetings and long working days.
             </p>
             <p>
               ZA Support offers Midrand clients a reliable collection and return service for MacBook battery replacements. We collect from your home or office in Midrand, replace the battery at our Hyde Park workshop, and return your Mac the same day or next day. Our Hyde Park workshop is approximately 30 km from central Midrand via the N1.
@@ -170,7 +170,7 @@ export default function BatteryReplacementMidrandPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Battery Replacement Midrand — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Battery Replacement Midrand, Common Questions" />
         </div>
       </section>
 

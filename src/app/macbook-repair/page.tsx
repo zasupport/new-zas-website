@@ -7,7 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 import OrphanLinks from '@/components/ui/OrphanLinks';
-// NOTE: GoogleReviews wired on /apple-repair instead — /macbook-repair is 308-redirected
+// NOTE: GoogleReviews wired on /apple-repair instead, /macbook-repair is 308-redirected
 // to /apple-repair via next.config.ts so this page never renders. Dead-code import removed
 // 26/05/2026 per Option A short-circuit fix.
 
@@ -96,13 +96,13 @@ const services = [
 
 const models = [
   { name: 'MacBook Air M3 (2024)', tag: 'Latest' },
-  { name: 'MacBook Air M2 (2022–2023)', tag: 'Popular' },
-  { name: 'MacBook Air M1 (2020–2021)', tag: 'Popular' },
+  { name: 'MacBook Air M2 (2022-2023)', tag: 'Popular' },
+  { name: 'MacBook Air M1 (2020-2021)', tag: 'Popular' },
   { name: 'MacBook Pro M3 Pro / Max (2023)', tag: 'Pro' },
   { name: 'MacBook Pro M2 Pro / Max (2022)', tag: 'Pro' },
   { name: 'MacBook Pro M1 Pro / Max (2021)', tag: 'Pro' },
-  { name: 'MacBook Pro Intel (2015–2019)', tag: 'Intel' },
-  { name: 'MacBook Air Intel (2017–2020)', tag: 'Intel' },
+  { name: 'MacBook Pro Intel (2015-2019)', tag: 'Intel' },
+  { name: 'MacBook Air Intel (2017-2020)', tag: 'Intel' },
 ];
 
 const faqs = [
@@ -116,7 +116,7 @@ const faqs = [
   },
   {
     question: 'How long does MacBook repair take?',
-    answer: 'Battery replacement: 60–90 minutes. Screen replacement: 2–4 hours depending on model. Keyboard replacement: 2–3 hours. Logic board and liquid damage repairs typically take 3–5 business days as they involve component-level diagnosis and component-level repair.',
+    answer: 'Battery replacement: 60-90 minutes. Screen replacement: 2-4 hours depending on model. Keyboard replacement: 2-3 hours. Logic board and liquid damage repairs typically take 3-5 business days as they involve component-level diagnosis and component-level repair.',
   },
   {
     question: 'Is there a Assessment: from R599 policy?',
@@ -132,7 +132,7 @@ const faqs = [
   },
   {
     question: 'Where are you located in Johannesburg?',
-    answer: 'We are based at 1 Hyde Lane, Hyde Park, Johannesburg, 2196. Hyde Park is centrally located and easily accessible from Sandton, Rosebank, Illovo, Bryanston, and Parktown. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30. Closed weekends. Free parking is available on site.',
+    answer: 'We are based at 1 Hyde Lane, Hyde Park, Johannesburg, 2196. Hyde Park is centrally located and easily accessible from Sandton, Rosebank, Illovo, Bryanston, and Parktown. We are open Monday to Thursday 08:00-17:00 and Friday 08:00-16:30. Closed weekends. Free parking is available on site.',
   },
   {
     question: 'Do you repair MacBooks that other shops have refused?',
@@ -263,14 +263,14 @@ export default function MacBookRepairPage() {
               </thead>
               <tbody className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {[
-                  { repair: 'Battery Replacement', models: 'MacBook Air & Pro', time: '60–90 min' },
-                  { repair: 'Screen / Display', models: 'MacBook Air & Pro', time: '2–4 hrs' },
-                  { repair: 'Keyboard Replacement', models: 'MacBook Air & Pro', time: '2–3 hrs' },
-                  { repair: 'Liquid Damage', models: 'MacBook Air & Pro', time: '2–5 days' },
-                  { repair: 'Logic Board Repair', models: 'MacBook Air & Pro', time: '2–5 days' },
-                  { repair: 'Charging / Port', models: 'MacBook Air & Pro', time: '1–2 hrs' },
-                  { repair: 'Trackpad Repair', models: 'MacBook Air & Pro', time: '2–4 hrs' },
-                  { repair: 'Data Recovery', models: 'MacBook Air & Pro', time: '1–3 days' },
+                  { repair: 'Battery Replacement', models: 'MacBook Air & Pro', time: '60-90 min' },
+                  { repair: 'Screen / Display', models: 'MacBook Air & Pro', time: '2-4 hrs' },
+                  { repair: 'Keyboard Replacement', models: 'MacBook Air & Pro', time: '2-3 hrs' },
+                  { repair: 'Liquid Damage', models: 'MacBook Air & Pro', time: '2-5 days' },
+                  { repair: 'Logic Board Repair', models: 'MacBook Air & Pro', time: '2-5 days' },
+                  { repair: 'Charging / Port', models: 'MacBook Air & Pro', time: '1-2 hrs' },
+                  { repair: 'Trackpad Repair', models: 'MacBook Air & Pro', time: '2-4 hrs' },
+                  { repair: 'Data Recovery', models: 'MacBook Air & Pro', time: '1-3 days' },
                 ].map((row) => (
                   <tr key={row.repair} className="hover:bg-[rgba(15,234,122,0.03)] transition-colors">
                     <td className="text-[#E8F4F1] font-medium py-3 pr-6">{row.repair}</td>
@@ -331,7 +331,7 @@ export default function MacBookRepairPage() {
             <Link href="/macbook-pro-repair" className="glass-card p-6 flex items-center justify-between group hover:border-[rgba(15,234,122,0.35)] transition-all">
               <div>
                 <div className="text-[#E8F4F1] font-bold group-hover:text-[#0FEA7A] transition-colors">MacBook Pro Repair</div>
-                <div className="text-[#7A9E98] text-xs mt-1">M1–M3 Pro/Max and Intel, all years</div>
+                <div className="text-[#7A9E98] text-xs mt-1">M1-M3 Pro/Max and Intel, all years</div>
               </div>
               <ArrowRight className="w-5 h-5 text-[#0FEA7A] opacity-0 group-hover:opacity-100 transition-opacity" />
             </Link>
@@ -358,10 +358,10 @@ export default function MacBookRepairPage() {
         </div>
       </section>
 
-      {/* Orphan-link injection — engineering services */}
+      {/* Orphan-link injection, engineering services */}
       <OrphanLinks
         sectionTitle="Specialist MacBook services"
-        intro="Beyond core repair, our Hyde Park workshop handles MacBook data recovery, RAM and SSD upgrade evaluations, and trackpad replacements — each with an honest assessment of what is actually possible per model."
+        intro="Beyond core repair, our Hyde Park workshop handles MacBook data recovery, RAM and SSD upgrade evaluations, and trackpad replacements, each with an honest assessment of what is actually possible per model."
         groups={[
           { heading: 'Beyond core repair', links: orphanMacbookRepairLinks },
         ]}
@@ -374,7 +374,7 @@ export default function MacBookRepairPage() {
         </div>
       </section>
 
-      {/* GoogleReviews removed — see import-block note: /macbook-repair 308→/apple-repair */}
+      {/* GoogleReviews removed, see import-block note: /macbook-repair 308→/apple-repair */}
 
       {/* CTA */}
       <section className="py-8 sm:py-16 bg-[#0A1A18]">

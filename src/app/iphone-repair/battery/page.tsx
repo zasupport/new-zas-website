@@ -84,7 +84,7 @@ const symptoms = [
 const processSteps = [
   { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
   { step: '2', title: 'Battery Confirmed', desc: 'We confirm the correct replacement battery is in stock for your model. Same-day replacement is available for most models.' },
-  { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery under controlled conditions. iPhone battery replacement takes approximately 45–60 minutes.' },
+  { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery under controlled conditions. iPhone battery replacement takes approximately 45-60 minutes.' },
   { step: '4', title: 'Quality Check', desc: 'We verify the new battery charges correctly, confirm battery health reads 100%, and test for unexpected shutdowns before returning your iPhone.' },
   { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599 applies if anything goes wrong.' },
 ];
@@ -103,7 +103,7 @@ const faqs = [
   {
     question: 'How long does iPhone battery replacement take?',
     answer:
-      'iPhone battery replacement typically takes 45–60 minutes. If we have your model in stock, same-day service is available. We confirm availability when you WhatsApp or call us.',
+      'iPhone battery replacement typically takes 45-60 minutes. If we have your model in stock, same-day service is available. We confirm availability when you WhatsApp or call us.',
   },
   {
     question: 'Will iPhone battery replacement remove my data?',

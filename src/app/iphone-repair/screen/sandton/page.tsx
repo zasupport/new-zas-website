@@ -10,16 +10,16 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'iPhone Screen Repair Sandton | ZA Support Hyde Park',
   description:
-    'iPhone screen repair for Sandton clients. Cracked OLED, dead touch, lines on display. iPhone 12 to 16 Pro Max. We collect from Sandton — 15 min from our workshop. Call 064 529 5863.',
+    'iPhone screen repair for Sandton clients. Cracked OLED, dead touch, lines on display. iPhone 12 to 16 Pro Max. We collect from Sandton, 15 min from our workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/screen/sandton' },
 };
 
 const issues = [
-  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly — glass, OLED, and touch digitiser.' },
+  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly, glass, OLED, and touch digitiser.' },
   { title: 'Touch Not Responding', desc: 'Part of the screen stops registering touch or becomes fully unresponsive. Full display assembly replacement resolves this.' },
   { title: 'Dead Pixels or Dark Blotches', desc: 'Permanent dark patches spreading after a drop. OLED cell failure caused by internal impact stress.' },
-  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display — classic OLED panel damage or a loose display connector.' },
-  { title: 'Green Line Down the Side', desc: 'Thin green vertical line — a known OLED failure mode. Screen replacement resolves it completely.' },
+  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display, classic OLED panel damage or a loose display connector.' },
+  { title: 'Green Line Down the Side', desc: 'Thin green vertical line, a known OLED failure mode. Screen replacement resolves it completely.' },
   { title: 'Ghost Touch', desc: 'iPhone appears to tap and swipe on its own. Digitiser fault from a cracked panel creating phantom capacitive signals.' },
 ];
 
@@ -30,11 +30,11 @@ const faqs = [
   },
   {
     question: 'How long does an iPhone screen repair take?',
-    answer: 'Most iPhone screen replacements are completed within 1–2 hours. For Sandton clients, we can typically collect, repair, and return your iPhone on the same day.',
+    answer: 'Most iPhone screen replacements are completed within 1-2 hours. For Sandton clients, we can typically collect, repair, and return your iPhone on the same day.',
   },
   {
     question: 'Which iPhone models do you repair?',
-    answer: 'We repair iPhone 12, 12 mini, 12 Pro, 12 Pro Max, 13 series, 14 series, 15 series, and 16 series including all Pro and Pro Max variants. Contact us if you have an older model — we service earlier iPhones too.',
+    answer: 'We repair iPhone 12, 12 mini, 12 Pro, 12 Pro Max, 13 series, 14 series, 15 series, and 16 series including all Pro and Pro Max variants. Contact us if you have an older model, we service earlier iPhones too.',
   },
   {
     question: 'What screens do you use?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'My iPhone screen is cracked but still works. Should I repair it?',
-    answer: 'Yes. A cracked screen will worsen over time — small cracks spread under daily pressure and temperature changes. The cracked glass also exposes the OLED panel to dust and moisture. Repairing a lightly cracked screen is significantly cheaper than replacing a screen that has developed dark blotches from deferred repairs.',
+    answer: 'Yes. A cracked screen will worsen over time, small cracks spread under daily pressure and temperature changes. The cracked glass also exposes the OLED panel to dust and moisture. Repairing a lightly cracked screen is significantly cheaper than replacing a screen that has developed dark blotches from deferred repairs.',
   },
 ];
 
@@ -92,10 +92,10 @@ export default function IPhoneScreenRepairSandtonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iPhone Screen Repair Sandton
-              <br /><span className="text-[#0FEA7A]">— 15 Min from Hyde Park</span>
+              <br /><span className="text-[#0FEA7A]">, 15 Min from Hyde Park</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Cracked iPhone screen in Sandton? We collect from Sandton — approximately 15 minutes from our Hyde Park workshop. Same-day screen repair for most iPhone models. Written warranty on every repair.
+              Cracked iPhone screen in Sandton? We collect from Sandton, approximately 15 minutes from our Hyde Park workshop. Same-day screen repair for most iPhone models. Written warranty on every repair.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -103,7 +103,7 @@ export default function IPhoneScreenRepairSandtonPage() {
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: CheckCircle, label: 'iPhone 12–16 Pro Max' },
+                { icon: CheckCircle, label: 'iPhone 12-16 Pro Max' },
                 { icon: Zap, label: 'Same-day Repair' },
                 { icon: Shield, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Sandton' },
@@ -134,10 +134,10 @@ export default function IPhoneScreenRepairSandtonPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">iPhone Screen Repair for Sandton Clients</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Sandton is Johannesburg&apos;s financial capital, home to corporate headquarters, major hotels, and some of the city&apos;s busiest retail centres. A cracked iPhone screen in Sandton does not need to mean a trip across the city — our Hyde Park workshop at 1 Hyde Lane is approximately 15 minutes via William Nicol Drive or Rivonia Road.
+              Sandton is Johannesburg&apos;s financial capital, home to corporate headquarters, major hotels, and some of the city&apos;s busiest retail centres. A cracked iPhone screen in Sandton does not need to mean a trip across the city, our Hyde Park workshop at 1 Hyde Lane is approximately 15 minutes via William Nicol Drive or Rivonia Road.
             </p>
             <p>
-              We collect iPhones from Sandton City, Morningside, Bruma, and the Sandton CBD, complete the screen repair at our workshop, and return the device — same day in most cases. We repair the full iPhone 12 through 16 Pro Max range.
+              We collect iPhones from Sandton City, Morningside, Bruma, and the Sandton CBD, complete the screen repair at our workshop, and return the device, same day in most cases. We repair the full iPhone 12 through 16 Pro Max range.
             </p>
             <p>
               Every screen replacement uses a high-quality OLED assembly matched to your iPhone model, and is covered by a written ZA Support warranty. Face ID continues to function normally after our repairs.
@@ -162,7 +162,7 @@ export default function IPhoneScreenRepairSandtonPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Screen Repair Sandton — Common Questions" />
+          <FAQAccordion items={faqs} title="iPhone Screen Repair Sandton, Common Questions" />
         </div>
       </section>
 

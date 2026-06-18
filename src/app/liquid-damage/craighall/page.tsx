@@ -14,26 +14,26 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'Coffee or Tea Spill', desc: 'The most common liquid damage we see from Craighall clients. Coffee contains acids and sugars that accelerate corrosion on the logic board far faster than clean water. Immediate assessment gives the best repair outcome — corrosion spreads hourly once the liquid dries.' },
+  { title: 'Coffee or Tea Spill', desc: 'The most common liquid damage we see from Craighall clients. Coffee contains acids and sugars that accelerate corrosion on the logic board far faster than clean water. Immediate assessment gives the best repair outcome, corrosion spreads hourly once the liquid dries.' },
   { title: 'Rain or Humidity Damage', desc: 'Johannesburg\'s afternoon thunderstorms and summer humidity cause a pattern of damage we see frequently. Rain through an open bag or condensation from rapid temperature changes between air-conditioned offices and outdoor heat in Craighall. The damage is progressive and often invisible until symptoms appear days later.' },
-  { title: 'Liquid Through Keyboard', desc: 'The keyboard is the primary liquid entry point on any MacBook. Liquid passes through the key mechanisms and reaches the logic board within seconds. On newer Apple Silicon Macs, the most vulnerable components — charge controllers and power management ICs — sit directly below the keyboard area.' },
-  { title: 'USB-C Port Exposure', desc: 'Liquid entering through USB-C ports damages the charge controller IC. We see this after spills that pool on the left edge of the MacBook. Port-specific charging failure is a clear sign. The controller is a discrete, replaceable component — not a reason to replace the entire board.' },
-  { title: 'Delayed Corrosion', desc: 'A small spill seems fine — the Mac keeps working. But trapped moisture under chips and shielding corrodes solder joints over days or weeks. Sudden failure two weeks after a spill is the most expensive scenario we encounter. We always recommend assessment within 48 hours of any liquid contact, even if everything appears normal.' },
-  { title: 'Secondary Component Failure', desc: 'After an initial liquid damage event, other components can fail weeks or months later as corrosion continues to spread. We see Craighall clients return after an apparently successful home dry-out only to find additional circuits failing. Professional ultrasonic cleaning removes all corrosion — preventing the cascading failure pattern.' },
+  { title: 'Liquid Through Keyboard', desc: 'The keyboard is the primary liquid entry point on any MacBook. Liquid passes through the key mechanisms and reaches the logic board within seconds. On newer Apple Silicon Macs, the most vulnerable components, charge controllers and power management ICs, sit directly below the keyboard area.' },
+  { title: 'USB-C Port Exposure', desc: 'Liquid entering through USB-C ports damages the charge controller IC. We see this after spills that pool on the left edge of the MacBook. Port-specific charging failure is a clear sign. The controller is a discrete, replaceable component, not a reason to replace the entire board.' },
+  { title: 'Delayed Corrosion', desc: 'A small spill seems fine, the Mac keeps working. But trapped moisture under chips and shielding corrodes solder joints over days or weeks. Sudden failure two weeks after a spill is the most expensive scenario we encounter. We always recommend assessment within 48 hours of any liquid contact, even if everything appears normal.' },
+  { title: 'Secondary Component Failure', desc: 'After an initial liquid damage event, other components can fail weeks or months later as corrosion continues to spread. We see Craighall clients return after an apparently successful home dry-out only to find additional circuits failing. Professional ultrasonic cleaning removes all corrosion, preventing the cascading failure pattern.' },
 ];
 
 const faqs = [
   {
     question: 'Do you collect liquid-damaged MacBooks from Craighall?',
-    answer: 'Yes — same-day collection from Craighall. For liquid damage, speed matters. Craighall is approximately 3 km from our Hyde Park workshop, roughly 5–8 minutes by car. WhatsApp 064 529 5863 to arrange immediate collection.',
+    answer: 'Yes, same-day collection from Craighall. For liquid damage, speed matters. Craighall is approximately 3 km from our Hyde Park workshop, roughly 5-8 minutes by car. WhatsApp 064 529 5863 to arrange immediate collection.',
   },
   {
     question: 'How much does MacBook liquid damage repair cost for Craighall clients?',
-    answer: 'Assessment from R599 determines the extent of damage. Repair cost depends on which components have been damaged by the liquid. Apple charges R15,000–R70,000 for board replacement after liquid damage. We repair only the affected components at a fraction of that cost. Written quote before any work.',
+    answer: 'Assessment from R599 determines the extent of damage. Repair cost depends on which components have been damaged by the liquid. Apple charges R15,000-R70,000 for board replacement after liquid damage. We repair only the affected components at a fraction of that cost. Written quote before any work.',
   },
   {
-    question: 'My MacBook got wet but still works — do I need to bring it in?',
-    answer: 'Yes, as soon as possible. Liquid damage is progressive — corrosion continues even after drying. Ultrasonic cleaning within 48 hours prevents long-term component failure. Waiting until the machine stops working always costs more.',
+    question: 'My MacBook got wet but still works, do I need to bring it in?',
+    answer: 'Yes, as soon as possible. Liquid damage is progressive, corrosion continues even after drying. Ultrasonic cleaning within 48 hours prevents long-term component failure. Waiting until the machine stops working always costs more.',
   },
   {
     question: 'What is ultrasonic cleaning?',
@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: 'Should I put my wet MacBook in rice?',
-    answer: 'No. Rice does not remove corrosion — it only absorbs surface moisture while corrosion continues spreading on the logic board. Rice dust can also enter ports and cause additional problems. The correct response is to power off immediately, do not charge, and bring to our workshop for professional ultrasonic cleaning.',
+    answer: 'No. Rice does not remove corrosion, it only absorbs surface moisture while corrosion continues spreading on the logic board. Rice dust can also enter ports and cause additional problems. The correct response is to power off immediately, do not charge, and bring to our workshop for professional ultrasonic cleaning.',
   },
   {
     question: 'Is my data safe after liquid damage?',
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     question: 'How long does liquid damage repair take?',
-    answer: 'Ultrasonic cleaning takes 24 hours including drying time. Component-level repair adds 2–5 business days depending on the extent of corrosion. Typical total turnaround is 3–5 business days. We provide a timeline with the written quote.',
+    answer: 'Ultrasonic cleaning takes 24 hours including drying time. Component-level repair adds 2-5 business days depending on the extent of corrosion. Typical total turnaround is 3-5 business days. We provide a timeline with the written quote.',
   },
   {
     question: 'Do you offer No Fix No Fee for liquid damage from Craighall?',
@@ -100,7 +100,7 @@ export default function LiquidDamageCraighallPage() {
               <br /><span className="text-[#0FEA7A]">Craighall</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Ultrasonic cleaning and component-level board repair for liquid-damaged MacBooks from Craighall. Coffee, water, rain, condensation — all assessed and repaired at our Hyde Park workshop. Collection from Craighall — approximately 3 km, 5–8 minutes by car.
+              Ultrasonic cleaning and component-level board repair for liquid-damaged MacBooks from Craighall. Coffee, water, rain, condensation, all assessed and repaired at our Hyde Park workshop. Collection from Craighall, approximately 3 km, 5-8 minutes by car.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -132,7 +132,7 @@ export default function LiquidDamageCraighallPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Liquid Damage Scenarios We Repair for Craighall Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Craighall is approximately 3 km from our Hyde Park workshop. For liquid damage, proximity matters — the sooner the board reaches us, the better the repair outcome. All MacBook models from 2015 onwards are covered. Ultrasonic cleaning and component-level board repair, not board replacement.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Craighall is approximately 3 km from our Hyde Park workshop. For liquid damage, proximity matters, the sooner the board reaches us, the better the repair outcome. All MacBook models from 2015 onwards are covered. Ultrasonic cleaning and component-level board repair, not board replacement.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.title} className="glass-card p-5">
@@ -146,7 +146,7 @@ export default function LiquidDamageCraighallPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title={`MacBook Liquid Damage Repair Craighall — Common Questions`} />
+          <FAQAccordion items={faqs} title={`MacBook Liquid Damage Repair Craighall, Common Questions`} />
         </div>
       </section>
 

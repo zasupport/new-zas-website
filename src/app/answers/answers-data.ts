@@ -1,4 +1,4 @@
-// /answers — Q&A hub data.
+// /answers, Q&A hub data.
 // Genuinely useful customer questions, answered plainly. Calibrated to the
 // conversational queries people ask AI engines and search. Value/process-led,
 // not price-led (§287 disclaimer governs any pricing). No competitor names.
@@ -18,10 +18,10 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
   {
     slug: 'logic-board-repair',
     shortTitle: 'Logic Board Repair',
-    title: 'MacBook Logic Board Repair — Your Questions Answered',
+    title: 'MacBook Logic Board Repair: Your Questions Answered',
     metaTitle: 'MacBook Logic Board Repair Questions Answered | ZA Support Johannesburg',
     metaDescription:
-      'Clear answers to common MacBook logic board repair questions — faults, repair vs replace, turnaround and data safety. Hyde Park, Johannesburg. Call 064 529 5863.',
+      'Clear answers to common MacBook logic board repair questions, faults, repair vs replace, turnaround and data safety. Hyde Park, Johannesburg. Call 064 529 5863.',
     intro:
       'Component-level logic board repair is what ZA Support is known for. These are the questions Johannesburg Mac owners ask us most often before booking a logic board assessment.',
     relatedService: { label: 'Logic Board Repair service', href: '/logic-board-repair' },
@@ -29,32 +29,32 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'What is a MacBook logic board and what does it do?',
         answer:
-          'The logic board is the main circuit board of a MacBook — it holds the processor, memory, power management and every connection between components. If the logic board fails, the MacBook will not start, charge or run correctly, regardless of how healthy the other parts are.',
+          'The logic board is the main circuit board of a MacBook, it holds the processor, memory, power management and every connection between components. If the logic board fails, the MacBook will not start, charge or run correctly, regardless of how healthy the other parts are.',
       },
       {
         question: 'How do I know if my MacBook has a logic board fault?',
         answer:
-          'Common signs are a MacBook that will not power on, no charging light, random shutdowns, no display despite power, or USB and Thunderbolt ports that have stopped working. A proper diagnostic is the only way to confirm it — many of these symptoms can also come from a battery or charger fault.',
+          'Common signs are a MacBook that will not power on, no charging light, random shutdowns, no display despite power, or USB and Thunderbolt ports that have stopped working. A proper diagnostic is the only way to confirm it, many of these symptoms can also come from a battery or charger fault.',
       },
       {
         question: 'Can a MacBook logic board be repaired, or does it have to be replaced?',
         answer:
-          'In most cases it can be repaired. ZA Support works at component level — replacing the specific failed chip, capacitor or connector under a microscope — rather than swapping the entire board. Component-level repair is usually faster and far less expensive than a full board replacement.',
+          'In most cases it can be repaired. ZA Support works at component level, replacing the specific failed chip, capacitor or connector under a microscope, rather than swapping the entire board. Component-level repair is usually faster and far less expensive than a full board replacement.',
       },
       {
         question: 'How long does a logic board repair take in Johannesburg?',
         answer:
-          'A logic board assessment is typically completed within one to two business days. The repair itself depends on the fault — straightforward component repairs are often done within a few days, while complex faults needing parts can take longer. You receive a written quote and timeline before any work begins.',
+          'A logic board assessment is typically completed within one to two business days. The repair itself depends on the fault, straightforward component repairs are often done within a few days, while complex faults needing parts can take longer. You receive a written quote and timeline before any work begins.',
       },
       {
         question: 'Is it worth repairing a MacBook logic board or should I buy a new one?',
         answer:
-          'For most MacBooks from the last several years, a component-level repair costs a fraction of a replacement machine and restores the device fully. We give you an honest assessment first — if a repair is not economical for your specific model, we will tell you so before you commit.',
+          'For most MacBooks from the last several years, a component-level repair costs a fraction of a replacement machine and restores the device fully. We give you an honest assessment first, if a repair is not economical for your specific model, we will tell you so before you commit.',
       },
       {
         question: 'What causes MacBook logic board failure?',
         answer:
-          'The most common causes are liquid contact, power surges or faulty chargers, physical impact, and component wear over time. Liquid damage is the single biggest cause we see in our Hyde Park workshop — and the faster it is treated, the more boards we save.',
+          'The most common causes are liquid contact, power surges or faulty chargers, physical impact, and component wear over time. Liquid damage is the single biggest cause we see in our Hyde Park workshop, and the faster it is treated, the more boards we save.',
       },
       {
         question: 'Will I lose my data during a logic board repair?',
@@ -76,10 +76,10 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
   {
     slug: 'liquid-damage',
     shortTitle: 'Liquid Damage',
-    title: 'MacBook Liquid Damage — Your Questions Answered',
+    title: 'MacBook Liquid Damage: Your Questions Answered',
     metaTitle: 'MacBook Liquid Damage Repair Questions Answered | ZA Support Johannesburg',
     metaDescription:
-      'What to do after a MacBook spill — immediate steps, whether it can be saved, and how liquid damage repair works. Hyde Park, Johannesburg. Call 064 529 5863.',
+      'What to do after a MacBook spill, immediate steps, whether it can be saved, and how liquid damage repair works. Hyde Park, Johannesburg. Call 064 529 5863.',
     intro:
       'Liquid damage is time-sensitive. These answers cover what to do in the first minutes after a spill and how professional liquid damage repair recovers a MacBook.',
     relatedService: { label: 'Liquid Damage Repair service', href: '/liquid-damage' },
@@ -92,7 +92,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'Can a MacBook be saved after liquid damage?',
         answer:
-          'Often, yes — especially if it is brought in quickly and not powered on. The damage liquid causes is mostly from corrosion that develops over hours and days. Early professional cleaning of the board stops that corrosion and gives the best chance of full recovery.',
+          'Often, yes, especially if it is brought in quickly and not powered on. The damage liquid causes is mostly from corrosion that develops over hours and days. Early professional cleaning of the board stops that corrosion and gives the best chance of full recovery.',
       },
       {
         question: 'Why should I not turn on a MacBook after a liquid spill?',
@@ -107,7 +107,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'How long do I have to get a liquid-damaged MacBook to a repairer?',
         answer:
-          'The sooner the better — ideally the same day. Corrosion begins within hours. A MacBook brought in quickly and left switched off has a much higher recovery rate than one that sat for several days or was powered on repeatedly.',
+          'The sooner the better, ideally the same day. Corrosion begins within hours. A MacBook brought in quickly and left switched off has a much higher recovery rate than one that sat for several days or was powered on repeatedly.',
       },
       {
         question: 'What does liquid damage repair involve?',
@@ -122,14 +122,14 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'Does an Apple warranty cover liquid damage?',
         answer:
-          'Standard Apple warranties generally do not cover accidental liquid damage. That is one reason independent component-level repair is worth considering — it can restore a liquid-damaged MacBook that would otherwise be quoted as a costly full replacement.',
+          'Standard Apple warranties generally do not cover accidental liquid damage. That is one reason independent component-level repair is worth considering, it can restore a liquid-damaged MacBook that would otherwise be quoted as a costly full replacement.',
       },
     ],
   },
   {
     slug: 'battery-and-screen',
     shortTitle: 'Battery & Screen',
-    title: 'MacBook Battery & Screen — Your Questions Answered',
+    title: 'MacBook Battery & Screen: Your Questions Answered',
     metaTitle: 'MacBook Battery & Screen Repair Questions Answered | ZA Support Johannesburg',
     metaDescription:
       'Answers on MacBook battery health, swollen batteries, screen repair and turnaround. Hyde Park, Johannesburg. Call 064 529 5863.',
@@ -140,7 +140,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'How do I know my MacBook battery needs replacing?',
         answer:
-          'macOS will often show "Service Recommended" or "Replace Soon" in the battery menu. Other signs are sharply reduced runtime, unexpected shutdowns, slow performance when unplugged, or a trackpad that no longer clicks evenly — which can indicate a swelling battery underneath.',
+          'macOS will often show "Service Recommended" or "Replace Soon" in the battery menu. Other signs are sharply reduced runtime, unexpected shutdowns, slow performance when unplugged, or a trackpad that no longer clicks evenly, which can indicate a swelling battery underneath.',
       },
       {
         question: 'What is a healthy MacBook battery cycle count?',
@@ -150,7 +150,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'Is a swollen MacBook battery dangerous?',
         answer:
-          'A swollen battery should be treated as urgent. The swelling puts physical pressure on the trackpad, chassis and logic board, and a swollen cell is unstable. Stop charging the MacBook, stop using it, and bring it in for assessment — continuing to use it risks both injury and board damage.',
+          'A swollen battery should be treated as urgent. The swelling puts physical pressure on the trackpad, chassis and logic board, and a swollen cell is unstable. Stop charging the MacBook, stop using it, and bring it in for assessment, continuing to use it risks both injury and board damage.',
       },
       {
         question: 'How long does a MacBook battery replacement take?',
@@ -160,7 +160,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'Can a cracked MacBook screen be repaired without replacing the whole lid?',
         answer:
-          'On many models, yes. Where the glass or panel can be replaced independently we do that rather than swap the entire display assembly, which keeps the repair more affordable. The right approach depends on your specific model — the assessment confirms it.',
+          'On many models, yes. Where the glass or panel can be replaced independently we do that rather than swap the entire display assembly, which keeps the repair more affordable. The right approach depends on your specific model, the assessment confirms it.',
       },
       {
         question: 'Do you replace iPhone and iPad batteries and screens too?',
@@ -170,17 +170,17 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'How long will a new MacBook battery last?',
         answer:
-          'A correctly fitted replacement battery should give years of normal use, similar to the original. Lifespan depends on how the MacBook is used — heavy daily charging and high-temperature environments shorten any battery’s life. We calibrate every new battery before you collect the device.',
+          'A correctly fitted replacement battery should give years of normal use, similar to the original. Lifespan depends on how the MacBook is used, heavy daily charging and high-temperature environments shorten any battery’s life. We calibrate every new battery before you collect the device.',
       },
     ],
   },
   {
     slug: 'business-it-support',
     shortTitle: 'Business & Managed IT',
-    title: 'Apple Business & Managed IT Support — Your Questions Answered',
+    title: 'Apple Business & Managed IT Support: Your Questions Answered',
     metaTitle: 'Apple Business IT Support Questions Answered | ZA Support Johannesburg',
     metaDescription:
-      'How managed Apple IT support, SLAs and device management work for businesses in Johannesburg. ZA Support — Apple specialists. Call 064 529 5863.',
+      'How managed Apple IT support, SLAs and device management work for businesses in Johannesburg. ZA Support, Apple specialists. Call 064 529 5863.',
     intro:
       'For businesses running on Apple, ongoing managed support is very different from a once-off repair. These answers explain how ZA Support supports SMEs and enterprises.',
     relatedService: { label: 'Managed Services', href: '/managed-services' },
@@ -188,7 +188,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'What does Apple managed IT support include for a business?',
         answer:
-          'Managed support covers your Apple devices on an ongoing basis — proactive monitoring, software and security updates, priority repairs, device management, user support and advice on new hardware. The aim is to keep the business running smoothly rather than only reacting once something breaks.',
+          'Managed support covers your Apple devices on an ongoing basis, proactive monitoring, software and security updates, priority repairs, device management, user support and advice on new hardware. The aim is to keep the business running smoothly rather than only reacting once something breaks.',
       },
       {
         question: 'Do you offer service level agreements (SLAs) for business clients?',
@@ -198,17 +198,17 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'Can you support a mixed fleet of Macs, iPhones and iPads?',
         answer:
-          'Yes. Most businesses run a mix of Macs, iPhones and iPads, and ZA Support manages the whole fleet as one — consistent setup, security and updates across every device, with a single point of contact for the business.',
+          'Yes. Most businesses run a mix of Macs, iPhones and iPads, and ZA Support manages the whole fleet as one, consistent setup, security and updates across every device, with a single point of contact for the business.',
       },
       {
         question: 'What is Apple device management (MDM) and does my business need it?',
         answer:
-          'Mobile device management lets a business configure, secure and update its Apple devices centrally instead of one at a time. It is valuable once a business has more than a handful of devices, staff turnover, or data that must be protected — we advise whether it is worthwhile for your situation.',
+          'Mobile device management lets a business configure, secure and update its Apple devices centrally instead of one at a time. It is valuable once a business has more than a handful of devices, staff turnover, or data that must be protected, we advise whether it is worthwhile for your situation.',
       },
       {
         question: 'How do you handle IT support for a small business with no IT staff?',
         answer:
-          'Many of our SME clients have no in-house IT person — ZA Support effectively becomes their IT department. The business gets a dedicated account manager, a clear support channel for staff, and proactive management, without the cost of a full-time hire.',
+          'Many of our SME clients have no in-house IT person, ZA Support effectively becomes their IT department. The business gets a dedicated account manager, a clear support channel for staff, and proactive management, without the cost of a full-time hire.',
       },
       {
         question: 'Do you support businesses outside central Johannesburg?',
@@ -218,24 +218,24 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'How does ongoing managed IT support differ from once-off repairs?',
         answer:
-          'A once-off repair fixes a problem after it has happened. Managed support works to prevent problems — keeping devices updated, secure and monitored — and gives priority service when something does need attention. For a business, that means less downtime and predictable monthly cost.',
+          'A once-off repair fixes a problem after it has happened. Managed support works to prevent problems, keeping devices updated, secure and monitored, and gives priority service when something does need attention. For a business, that means less downtime and predictable monthly cost.',
       },
       {
         question: 'Can you help a business deploy or migrate new Apple devices?',
         answer:
-          'Yes. ZA Support handles Apple device deployments and migrations — setting up new Macs, iPhones and iPads, transferring data, applying business settings and security, and getting staff productive quickly, whether it is a few devices or a full rollout.',
+          'Yes. ZA Support handles Apple device deployments and migrations, setting up new Macs, iPhones and iPads, transferring data, applying business settings and security, and getting staff productive quickly, whether it is a few devices or a full rollout.',
       },
     ],
   },
   {
     slug: 'medical-practice-it',
     shortTitle: 'Medical Practice IT',
-    title: 'Medical Practice IT Support — Your Questions Answered',
+    title: 'Medical Practice IT Support: Your Questions Answered',
     metaTitle: 'Medical Practice IT Support Questions Answered | ZA Support Johannesburg',
     metaDescription:
-      'How managed IT support works for doctors and medical practices in Johannesburg — POPIA-aware, practice software, backups. ZA Support. Call 064 529 5863.',
+      'How managed IT support works for doctors and medical practices in Johannesburg, POPIA-aware, practice software, backups. ZA Support. Call 064 529 5863.',
     intro:
-      'Medical practices have specific IT needs — patient data protection, practice software and minimal downtime. These answers explain how ZA Support supports doctors and practices.',
+      'Medical practices have specific IT needs, patient data protection, practice software and minimal downtime. These answers explain how ZA Support supports doctors and practices.',
     relatedService: { label: 'Medical Practice IT', href: '/medical-it' },
     faqs: [
       {
@@ -246,7 +246,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'How do you keep a medical practice’s patient data POPIA-aware?',
         answer:
-          'We help a practice handle patient information in line with POPIA expectations — secure device configuration, controlled access, encrypted backups and clear data handling. The practice remains the responsible party; ZA Support configures and manages the IT so it supports compliance rather than working against it.',
+          'We help a practice handle patient information in line with POPIA expectations, secure device configuration, controlled access, encrypted backups and clear data handling. The practice remains the responsible party; ZA Support configures and manages the IT so it supports compliance rather than working against it.',
       },
       {
         question: 'Can you support practice management software on Apple devices?',
@@ -256,7 +256,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'Do you provide managed IT for doctors with no in-house IT team?',
         answer:
-          'Most practices do not have IT staff, and that is exactly who our managed service is built for. ZA Support becomes the practice’s IT support — a clear channel for the team, proactive management of devices and backups, and a dedicated account manager.',
+          'Most practices do not have IT staff, and that is exactly who our managed service is built for. ZA Support becomes the practice’s IT support, a clear channel for the team, proactive management of devices and backups, and a dedicated account manager.',
       },
       {
         question: 'What happens if our practice systems go down during consulting hours?',
@@ -266,7 +266,7 @@ export const ANSWER_CLUSTERS: AnswerCluster[] = [
       {
         question: 'Can you set up secure backups for a medical practice?',
         answer:
-          'Yes. Reliable, secure backups of patient and practice data are a core part of how we support medical practices — configured so that data can be recovered quickly if a device fails, is lost, or is affected by an incident.',
+          'Yes. Reliable, secure backups of patient and practice data are a core part of how we support medical practices, configured so that data can be recovered quickly if a device fails, is lost, or is affected by an incident.',
       },
       {
         question: 'Do you support both Apple and Windows in a medical practice?',

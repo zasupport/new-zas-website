@@ -81,7 +81,7 @@ const processSteps = [
   { step: '1', title: 'Assessment: from R599', desc: 'We test the port, cable, battery, and charging circuit. Most charging faults are diagnosed in under 30 minutes.' },
   { step: '2', title: 'Root Cause Identified', desc: 'We confirm whether the fault is debris, a damaged port, a charging IC fault, or the battery, before quoting.' },
   { step: '3', title: 'Fixed Price Quote', desc: 'You receive a written fixed-price quote. No surprises. From R599 if you decline the repair.' },
-  { step: '4', title: 'Repair Completed', desc: 'A certified technician carries out the repair. Port clean: same visit. Port replacement: 1–3 hours. Board repair: 1–2 days.' },
+  { step: '4', title: 'Repair Completed', desc: 'A certified technician carries out the repair. Port clean: same visit. Port replacement: 1-3 hours. Board repair: 1-2 days.' },
   { step: '5', title: 'Collect with Warranty', desc: 'up-to-3 year warranty on parts and labour. Assessment: from R599 applies to every repair.' },
 ];
 
@@ -114,7 +114,7 @@ const faqs = [
   {
     question: 'How long does iPad charging port repair take?',
     answer:
-      'A port clean is done during your visit, typically 20–30 minutes. Physical port replacement takes 1–3 hours depending on model. Logic board-level charging IC repair takes 1–2 days. We confirm the turnaround time before starting any work.',
+      'A port clean is done during your visit, typically 20-30 minutes. Physical port replacement takes 1-3 hours depending on model. Logic board-level charging IC repair takes 1-2 days. We confirm the turnaround time before starting any work.',
   },
   {
     question: 'Can you repair water-damaged iPad charging ports?',
@@ -256,7 +256,7 @@ export default function iPadChargingPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             There are eight common causes of iPad charging failure. The most common, and cheapest to fix
-           , is a blocked port. We identify the actual cause before recommending any repair.
+, is a blocked port. We identify the actual cause before recommending any repair.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {causes.map((c) => (

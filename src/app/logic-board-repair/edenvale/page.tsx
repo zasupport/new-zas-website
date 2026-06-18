@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -37,14 +37,14 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Edenvale?', answer: 'Yes. We collect from across Edenvale — Hurlyvale, Eastleigh, Dowerglen, Sebenza, and the Greenstone Hill side — and bring the machine back to our Hyde Park workshop along the R24. Pickups are usually arranged for the next working day once you message us with your address and a short description of the fault.' },
+  { question: 'Do you collect MacBooks from Edenvale?', answer: 'Yes. We collect from across Edenvale, Hurlyvale, Eastleigh, Dowerglen, Sebenza, and the Greenstone Hill side, and bring the machine back to our Hyde Park workshop along the R24. Pickups are usually arranged for the next working day once you message us with your address and a short description of the fault.' },
   { question: 'How far is Edenvale from your Hyde Park workshop?', answer: 'Roughly 25 minutes outside of peak traffic via the R24 and M1, give or take depending on whether you are closer to Bedfordview or further out toward Greenstone. We factor that into our collection runs so your MacBook is not sitting in a vehicle for half the day.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement means swapping the entire logic board for a donor or new unit — expensive on modern MacBooks and often more than the laptop is worth. Component-level repair, which is what we do at our Hyde Park bench, identifies the actual failed component on your existing board (a charging IC, a blown capacitor, a corroded line) and replaces only that part. Your original board, your original serial, your original storage all stay with the machine.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. Total no-power is one of the most common faults we see from Edenvale clients and it usually traces back to a failed SMC circuit, a damaged charging IC, or a short on one of the power rails — all of which are repairable under the microscope. We confirm whether it is economically worth doing during the assessment before any work starts.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement means swapping the entire logic board for a donor or new unit, expensive on modern MacBooks and often more than the laptop is worth. Component-level repair, which is what we do at our Hyde Park bench, identifies the actual failed component on your existing board (a charging IC, a blown capacitor, a corroded line) and replaces only that part. Your original board, your original serial, your original storage all stay with the machine.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. Total no-power is one of the most common faults we see from Edenvale clients and it usually traces back to a failed SMC circuit, a damaged charging IC, or a short on one of the power rails, all of which are repairable under the microscope. We confirm whether it is economically worth doing during the assessment before any work starts.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours from the time the board lands on our bench. Liquid damage jobs sometimes take a day or two longer because we need to ultrasonic-clean the board and let corrosion-treatment work before we power anything up. We tell you up front which bracket your job falls into.' },
-  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the full diagnostic — microscope inspection, power-rail testing, and a written quote with the failed component identified. If you go ahead with the repair, that fee is included in the repair quote rather than charged on top.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The assessment is from R599 and you receive a clear written diagnosis with the actual fault identified before any repair work begins. You decide whether to proceed once you have the quote — there is no pressure and no work done without your sign-off.' },
-  { question: 'Which MacBook models do you repair for Edenvale clients?', answer: 'All of them — MacBook Air and MacBook Pro from the Intel era through to Apple Silicon M1, M2, and M3 boards, plus iMac and Mac mini logic boards. The repair approach changes with the generation (Apple Silicon boards are denser and need finer rework), but the diagnostic and component-level workflow is the same.' },
+  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the full diagnostic, microscope inspection, power-rail testing, and a written quote with the failed component identified. If you go ahead with the repair, that fee is included in the repair quote rather than charged on top.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The assessment is from R599 and you receive a clear written diagnosis with the actual fault identified before any repair work begins. You decide whether to proceed once you have the quote, there is no pressure and no work done without your sign-off.' },
+  { question: 'Which MacBook models do you repair for Edenvale clients?', answer: 'All of them, MacBook Air and MacBook Pro from the Intel era through to Apple Silicon M1, M2, and M3 boards, plus iMac and Mac mini logic boards. The repair approach changes with the generation (Apple Silicon boards are denser and need finer rework), but the diagnostic and component-level workflow is the same.' },
 ];
 
 const serviceSchema = {
@@ -87,7 +87,7 @@ export default function LogicBoardRepairEdenvalePage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Edenvale, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Edenvale MacBook logic board repair, handled at component level by our Hyde Park workshop roughly 25 minutes west via the R24. We collect from homes off Van Riebeeck Avenue, businesses around Greenstone Hill, and residents near the Edenvale Lake precinct. Assessment from R599, and the same technician who diagnoses your board does the rework.
@@ -131,16 +131,16 @@ export default function LogicBoardRepairEdenvalePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Edenvale sits in a useful spot for us — close enough to OR Tambo that we see a lot of travel-related liquid spills (coffee in the lounge, water bottles in cabin luggage that did not survive the flight), and dense enough with small businesses around Greenstone Shopping Centre and the Van Riebeeck Avenue corridor that we collect several machines a week from this area. The logic board failures we see in Edenvale skew toward two patterns: charging-circuit damage on the USB-C side (often after a power surge during one of the Ekurhuleni outages) and water-ingress corrosion on the SMC and PMIC area where liquid has tracked under the keyboard.
+              Edenvale sits in a useful spot for us, close enough to OR Tambo that we see a lot of travel-related liquid spills (coffee in the lounge, water bottles in cabin luggage that did not survive the flight), and dense enough with small businesses around Greenstone Shopping Centre and the Van Riebeeck Avenue corridor that we collect several machines a week from this area. The logic board failures we see in Edenvale skew toward two patterns: charging-circuit damage on the USB-C side (often after a power surge during one of the Ekurhuleni outages) and water-ingress corrosion on the SMC and PMIC area where liquid has tracked under the keyboard.
             </p>
             <p>
               Our Hyde Park bench runs proper hot-air rework stations, a stereo microscope at 7x to 45x, and the schematics and boardview files needed to trace a fault down to the failing component rather than swapping the whole board. We have rebuilt boards for an accounting practice off 4th Avenue after their MacBook Pro 16-inch took a knock and stopped charging, and for a resident near Modderfontein Reserve whose M2 Air shut down mid-presentation because of a failed SMC line. Each job starts with a written diagnosis, a quoted price before we lift a soldering iron, and an honest call on whether the board is economically worth repairing or whether a data-recovery-and-replace path makes more sense.
             </p>
             <p>
-              Collection from Edenvale runs along the R24 and through Bedfordview, so if you are based near Eastleigh, Hurlyvale, or the Edenvale Hospital area we can usually book a pickup for the next working day. Most logic board repairs are back with the client inside 48 to 72 hours from the moment the board lands on the bench. If you are reading this with a MacBook that will not power on, will not charge past 1%, or shuts down the moment you unplug it — message us on 064 529 5863 or wa.me/27645295863 with the model and a description of what happened, and we will tell you honestly whether it is a board-level job.
+              Collection from Edenvale runs along the R24 and through Bedfordview, so if you are based near Eastleigh, Hurlyvale, or the Edenvale Hospital area we can usually book a pickup for the next working day. Most logic board repairs are back with the client inside 48 to 72 hours from the moment the board lands on the bench. If you are reading this with a MacBook that will not power on, will not charge past 1%, or shuts down the moment you unplug it, message us on 064 529 5863 or wa.me/27645295863 with the model and a description of what happened, and we will tell you honestly whether it is a board-level job.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairEdenvalePage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairEdenvalePage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairEdenvalePage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Edenvale — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Edenvale, Common Questions" />
         </div>
       </section>
 

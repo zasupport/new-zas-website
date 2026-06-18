@@ -19,7 +19,7 @@ const serviceLinks = [
 
 const infoLinks = [
   { label: 'About ZA Support', href: '/about' },
-  { label: 'Meet Mary — Client Communications', href: '/author/mary' },
+  { label: 'Meet Mary, Client Communications', href: '/author/mary' },
   { label: 'Services & Pricing', href: '/services' },
   { label: 'Contact Us', href: '/contact' },
   { label: 'Blog', href: '/blog' },
@@ -141,7 +141,7 @@ export default function Footer() {
                   <Phone className="w-4 h-4 text-[#0FEA7A] mt-0.5 flex-shrink-0 group-hover:scale-110 transition-transform" />
                   <div>
                     <span className="text-sm block">{CONTACT.phone}</span>
-                    <span className="text-xs text-[#7A9E98]/80">Mon–Fri</span>
+                    <span className="text-xs text-[#7A9E98]/80">Mon-Fri</span>
                   </div>
                 </a>
               </li>
@@ -171,8 +171,8 @@ export default function Footer() {
               </li>
               <li className="text-[#7A9E98] text-sm">
                 <span className="text-[#E8F4F1] font-medium block mb-1">Hours</span>
-                <span className="block">Mon–Thu: 08:00 – 17:00</span>
-                <span className="block">Fri: 08:00 – 16:30</span>
+                <span className="block">Mon-Thu: 08:00 - 17:00</span>
+                <span className="block">Fri: 08:00 - 16:30</span>
                 <span className="block">Closed Saturdays</span>
                 <span className="block text-[#7A9E98]/80">Closed Sundays</span>
               </li>

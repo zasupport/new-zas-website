@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const urgentSteps = [
-  { step: '01', title: 'Switch Off Immediately', desc: 'Do not attempt to use or charge the MacBook. Power it off and leave it off — powering a wet board causes short-circuit damage.' },
+  { step: '01', title: 'Switch Off Immediately', desc: 'Do not attempt to use or charge the MacBook. Power it off and leave it off, powering a wet board causes short-circuit damage.' },
   { step: '02', title: 'Do Not Use Rice', desc: 'Rice does not remove corrosion or clean contaminated contacts. It wastes critical intervention time while corrosion spreads.' },
   { step: '03', title: 'Contact Us Now', desc: 'WhatsApp or call us immediately. Every hour increases corrosion spread. We arrange same-day collection from Woodmead.' },
   { step: '04', title: 'Ultrasonic Cleaning', desc: 'Full disassembly. Logic board cleaned in ultrasonic bath to remove corrosion and contaminants at component level.' },
@@ -27,13 +27,13 @@ const urgentSteps = [
 
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Woodmead?', answer: 'Immediately. From Woodmead we can usually have a courier with you within 30 to 45 minutes depending on traffic on the N1 and Western Service Road. Power the MacBook off, do not attempt to charge it, and call 064 529 5863. Corrosion begins within minutes of liquid touching the logic board, so the gap between spill and ultrasonic cleaning is the single biggest predictor of whether the repair succeeds.' },
-  { question: 'Do you collect MacBooks from Woodmead after liquid damage?', answer: 'Yes. We collect from across Woodmead — Woodmead Office Park, Pinmill, Waterfall Edge side, Woodmead Estate, Sunninghill Gardens, and the residential streets off Maxwell Drive and Van Reenen Avenue. The drive from our Hyde Park workshop is approximately 18 minutes outside peak hours. For corporate clients we coordinate with building reception so collection can happen without you leaving a meeting.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers disassembly, inspection of the logic board under magnification, and a written report of what is needed to restore the machine. If you proceed with the repair the assessment fee is credited toward the total. We do not quote blind on liquid damage — every board tells a different story once it is opened.' },
-  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst — fizzy drinks, energy drinks, wine, coffee with sugar. They leave conductive residue that keeps corroding tracks long after the liquid itself has evaporated. Plain water is the most forgiving but still serious. Salt water and pool water are aggressive on the copper traces. We see all of these regularly from Woodmead, with coffee spills being by far the most common from the office-park clients.' },
-  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still boots after a spill is the most deceptive scenario we deal with. The liquid is already on the board, the corrosion is already starting, and in our experience the machine will typically fail somewhere between two days and three weeks later — often with damage that has spread well beyond the original spill point. Bring it in while it is still working and the repair is dramatically cheaper.' },
+  { question: 'Do you collect MacBooks from Woodmead after liquid damage?', answer: 'Yes. We collect from across Woodmead, Woodmead Office Park, Pinmill, Waterfall Edge side, Woodmead Estate, Sunninghill Gardens, and the residential streets off Maxwell Drive and Van Reenen Avenue. The drive from our Hyde Park workshop is approximately 18 minutes outside peak hours. For corporate clients we coordinate with building reception so collection can happen without you leaving a meeting.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers disassembly, inspection of the logic board under magnification, and a written report of what is needed to restore the machine. If you proceed with the repair the assessment fee is credited toward the total. We do not quote blind on liquid damage, every board tells a different story once it is opened.' },
+  { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst, fizzy drinks, energy drinks, wine, coffee with sugar. They leave conductive residue that keeps corroding tracks long after the liquid itself has evaporated. Plain water is the most forgiving but still serious. Salt water and pool water are aggressive on the copper traces. We see all of these regularly from Woodmead, with coffee spills being by far the most common from the office-park clients.' },
+  { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still boots after a spill is the most deceptive scenario we deal with. The liquid is already on the board, the corrosion is already starting, and in our experience the machine will typically fail somewhere between two days and three weeks later, often with damage that has spread well beyond the original spill point. Bring it in while it is still working and the repair is dramatically cheaper.' },
   { question: 'Will you be able to save my data?', answer: 'In the majority of liquid damage cases the SSD survives even when the logic board does not, because the storage chips are on a separate area of the board and are often spared from the worst of the corrosion. On Apple Silicon machines this is more complex because the SSD is paired to the board, but we have data-recovery options for those cases too. Tell us during the call if data recovery is the priority and we will handle the disassembly accordingly.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes — assessment is from R599 and is credited toward the repair if you proceed. For liquid damage specifically the assessment is more involved than a normal diagnostic because the board needs to be disassembled and inspected under magnification before we can quote, which is why we charge for it. You receive a written report regardless of whether you go ahead with the repair.' },
-  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2, and M3 MacBook Air and Pro models all come through our Hyde Park workshop regularly for liquid damage. The repair process is similar — ultrasonic cleaning, corrosion treatment, component-level work where tracks have been damaged — but the integration of the SSD with the main SoC means data recovery on Apple Silicon needs different handling. Tell us the model when you call and we will explain what is realistic for your specific machine.' },
+  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, assessment is from R599 and is credited toward the repair if you proceed. For liquid damage specifically the assessment is more involved than a normal diagnostic because the board needs to be disassembled and inspected under magnification before we can quote, which is why we charge for it. You receive a written report regardless of whether you go ahead with the repair.' },
+  { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2, and M3 MacBook Air and Pro models all come through our Hyde Park workshop regularly for liquid damage. The repair process is similar, ultrasonic cleaning, corrosion treatment, component-level work where tracks have been damaged, but the integration of the SSD with the main SoC means data recovery on Apple Silicon needs different handling. Tell us the model when you call and we will explain what is realistic for your specific machine.' },
 ];
 
 const serviceSchema = {
@@ -76,14 +76,14 @@ export default function LiquidDamageWoodmeadPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Liquid Damage Repair Woodmead
-              <br /><span className="text-[#0FEA7A]">— Act Fast, Save Your Mac</span>
+              <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Liquid damage on a MacBook is a race against corrosion, and Woodmead&apos;s position along the N1 and Western Service Road means we can have a courier at your office or estate in roughly 18 minutes from our Hyde Park workshop. We handle ultrasonic cleaning and board-level repair in-house. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Same-day collection from Woodmead — contact us immediately after liquid exposure</span>
+              <span>Same-day collection from Woodmead, contact us immediately after liquid exposure</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -100,7 +100,7 @@ export default function LiquidDamageWoodmeadPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={buildWhatsAppUrl('LDR-WOODMEAD', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
-                💬 WhatsApp — Act Now
+                💬 WhatsApp, Act Now
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -134,13 +134,13 @@ export default function LiquidDamageWoodmeadPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Woodmead sits in an unusual pocket — corporate parks along Waterfall Edge and Woodmead Drive on one side, established residential estates like Woodmead Estate and Sunninghill Gardens on the other, and the constant traffic flow of the N1 and Witkoppen Road cutting through. The liquid damage cases we collect here reflect that mix. From the office parks we see coffee and energy drink spills on machines used in long meeting blocks, and from the residential side we see kitchen-counter accidents and the occasional pool-deck incident during weekends at homes near the Woodmead Country Club area. The underlying physics is identical regardless of the suburb, but the response window is what we keep emphasising to Woodmead clients: corrosion on a logic board begins within minutes, not hours, and powering the machine back on to check if it still works is the single most damaging thing someone can do.
+              Woodmead sits in an unusual pocket, corporate parks along Waterfall Edge and Woodmead Drive on one side, established residential estates like Woodmead Estate and Sunninghill Gardens on the other, and the constant traffic flow of the N1 and Witkoppen Road cutting through. The liquid damage cases we collect here reflect that mix. From the office parks we see coffee and energy drink spills on machines used in long meeting blocks, and from the residential side we see kitchen-counter accidents and the occasional pool-deck incident during weekends at homes near the Woodmead Country Club area. The underlying physics is identical regardless of the suburb, but the response window is what we keep emphasising to Woodmead clients: corrosion on a logic board begins within minutes, not hours, and powering the machine back on to check if it still works is the single most damaging thing someone can do.
             </p>
             <p>
-              Because so many Woodmead clients work from corporate buildings around Woodmead Retail Park, Pinmill Office Park, and the cluster of buildings near the Woodmead Value Mart, we have built our collection pattern around business-hour pickups that do not require staff to leave their desks. A typical case last month involved a financial services team off Van Reenen Avenue whose MacBook Pro had taken a full glass of sparkling water during a video call. The machine was off our courier&apos;s vehicle within forty minutes of the call, in the ultrasonic bath the same afternoon, and back with the user three days later with all data intact. That window — fast collection, immediate disassembly, ultrasonic cleaning before residue dries — is what separates a repairable board from a write-off.
+              Because so many Woodmead clients work from corporate buildings around Woodmead Retail Park, Pinmill Office Park, and the cluster of buildings near the Woodmead Value Mart, we have built our collection pattern around business-hour pickups that do not require staff to leave their desks. A typical case last month involved a financial services team off Van Reenen Avenue whose MacBook Pro had taken a full glass of sparkling water during a video call. The machine was off our courier&apos;s vehicle within forty minutes of the call, in the ultrasonic bath the same afternoon, and back with the user three days later with all data intact. That window, fast collection, immediate disassembly, ultrasonic cleaning before residue dries, is what separates a repairable board from a write-off.
             </p>
             <p>
-              If your MacBook has had a spill anywhere in Woodmead, whether at a desk in Woodmead Office Park or at home off Maxwell Drive, do not try to dry it with rice, do not power it on to test, and do not wait until morning. Phone us on 064 529 5863 or WhatsApp wa.me/27645295863 and we will arrange collection. The diagnostic is honest — you will be told exactly what the board needs and what it will cost before any repair work begins, and if the machine is genuinely beyond economical repair we will tell you that too rather than running up your bill.
+              If your MacBook has had a spill anywhere in Woodmead, whether at a desk in Woodmead Office Park or at home off Maxwell Drive, do not try to dry it with rice, do not power it on to test, and do not wait until morning. Phone us on 064 529 5863 or WhatsApp wa.me/27645295863 and we will arrange collection. The diagnostic is honest, you will be told exactly what the board needs and what it will cost before any repair work begins, and if the machine is genuinely beyond economical repair we will tell you that too rather than running up your bill.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function LiquidDamageWoodmeadPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Liquid Damage Repair Woodmead — Common Questions" />
+          <FAQAccordion items={faqs} title="Liquid Damage Repair Woodmead, Common Questions" />
         </div>
       </section>
 
@@ -176,7 +176,7 @@ export default function LiquidDamageWoodmeadPage() {
             <p className="text-[#7A9E98] mb-6">Same-day collection from Woodmead. Assessment from R599. From R599 assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-WOODMEAD', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
-                💬 WhatsApp — Act Now
+                💬 WhatsApp, Act Now
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or display connector fault.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on movement. Often a loose display cable on Intel-era MacBook Pros, or a GPU fault. Diagnosed before repair.' },
@@ -42,19 +42,19 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook screen replacement take?',
-    answer: 'Most screen replacements are completed within 24–48 hours of collection. We carry display assemblies for the most common MacBook models at our Hyde Park workshop. For less common configurations we confirm parts availability and turnaround time when you contact us. Randburg is well within our regular route, so collection and return can usually be arranged on consecutive days.',
+    answer: 'Most screen replacements are completed within 24-48 hours of collection. We carry display assemblies for the most common MacBook models at our Hyde Park workshop. For less common configurations we confirm parts availability and turnaround time when you contact us. Randburg is well within our regular route, so collection and return can usually be arranged on consecutive days.',
   },
   {
     question: 'My MacBook screen cracked but it still works. Should I repair it now?',
-    answer: 'Yes. A cracked display is a progressive fault — the crack allows moisture ingress that independently damages the backlight, and the crack itself can spread with heat cycles. The most consistent pattern we see in our workshop is clients who wait weeks, then need a combined panel and backlight repair that costs more than the original crack would have. Early repair is always the lower-cost outcome.',
+    answer: 'Yes. A cracked display is a progressive fault, the crack allows moisture ingress that independently damages the backlight, and the crack itself can spread with heat cycles. The most consistent pattern we see in our workshop is clients who wait weeks, then need a combined panel and backlight repair that costs more than the original crack would have. Early repair is always the lower-cost outcome.',
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement means fitting a complete new display assembly — LCD panel, backlight, and outer glass as a single unit — which is the standard approach for cracked screens. Screen repair refers to targeted component-level diagnosis for faults such as backlight failure, flickering, or a black screen where the LCD panel may be intact. We always diagnose the exact fault before recommending any repair path.',
+    answer: 'Display replacement means fitting a complete new display assembly, LCD panel, backlight, and outer glass as a single unit, which is the standard approach for cracked screens. Screen repair refers to targeted component-level diagnosis for faults such as backlight failure, flickering, or a black screen where the LCD panel may be intact. We always diagnose the exact fault before recommending any repair path.',
   },
   {
     question: 'My MacBook Pro screen flickers when I move the lid. Is that fixable?',
-    answer: 'Yes. This is a well-documented fault on the Intel 13-inch MacBook Pro 2016–2019 Touch Bar range. The display cable runs through the hinge and develops micro-fractures from repeated use. It is a targeted cable repair that does not require a full display assembly — and it resolves the flickering permanently. We see this fault regularly from Randburg clients.',
+    answer: 'Yes. This is a well-documented fault on the Intel 13-inch MacBook Pro 2016-2019 Touch Bar range. The display cable runs through the hinge and develops micro-fractures from repeated use. It is a targeted cable repair that does not require a full display assembly, and it resolves the flickering permanently. We see this fault regularly from Randburg clients.',
   },
   {
     question: 'Does screen replacement affect Face ID or Touch ID?',
@@ -110,7 +110,7 @@ export default function ScreenRepairRandburgPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Randburg
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook screen repair and display replacement for Randburg clients. We collect from Randburg and carry out the repair at our Hyde Park workshop, approximately 10 kilometres east via Beyers Naudé Drive.
@@ -122,7 +122,7 @@ export default function ScreenRepairRandburgPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Randburg' },
               ].map(({ icon: Icon, label }) => (
@@ -155,16 +155,16 @@ export default function ScreenRepairRandburgPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Randburg is one of Johannesburg's largest residential areas — a broad suburb stretching from Ferndale in the north to the Randburg Square area in the south, with a dense population of home-office workers, freelancers, and small business owners who depend on their MacBooks daily. When a screen fails, there is no convenient Apple Store or Mac specialist nearby. That is where we come in.
+              Randburg is one of Johannesburg's largest residential areas, a broad suburb stretching from Ferndale in the north to the Randburg Square area in the south, with a dense population of home-office workers, freelancers, and small business owners who depend on their MacBooks daily. When a screen fails, there is no convenient Apple Store or Mac specialist nearby. That is where we come in.
             </p>
             <p>
-              We collect from Randburg regularly. At approximately 10 kilometres west of our Hyde Park workshop via Beyers Naudé Drive, it is one of our most accessible collection areas. We come to you — home or office — at a time that suits your schedule, carry out the repair at our Hyde Park workshop, and return the machine to you. Most MacBook screen repairs are completed within 24–48 hours.
+              We collect from Randburg regularly. At approximately 10 kilometres west of our Hyde Park workshop via Beyers Naudé Drive, it is one of our most accessible collection areas. We come to you, home or office, at a time that suits your schedule, carry out the repair at our Hyde Park workshop, and return the machine to you. Most MacBook screen repairs are completed within 24-48 hours.
             </p>
             <p>
-              We repair and replace displays on all MacBook models — MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, both Intel and M-series). Every repair is backed by a written warranty and uses quality-matched panels.
+              We repair and replace displays on all MacBook models, MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, both Intel and M-series). Every repair is backed by a written warranty and uses quality-matched panels.
             </p>
             <p>
-              Randburg clients bring us a full range of display faults: cracked panels from bags and drops, backlight failures on older MacBook Pros, flickering from display cable degradation, and the occasional water-damaged screen. Our approach is always diagnosis first. In our Hyde Park workshop, we have repaired hundreds of displays and we identify the exact fault before ordering any parts — which often means the final cost is lower than the client expected.
+              Randburg clients bring us a full range of display faults: cracked panels from bags and drops, backlight failures on older MacBook Pros, flickering from display cable degradation, and the occasional water-damaged screen. Our approach is always diagnosis first. In our Hyde Park workshop, we have repaired hundreds of displays and we identify the exact fault before ordering any parts, which often means the final cost is lower than the client expected.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function ScreenRepairRandburgPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Randburg', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Randburg — approximately 10 kilometres from our Hyde Park workshop via Beyers Naudé Drive.' },
+              { step: '01', title: 'Collection from Randburg', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Randburg, approximately 10 kilometres from our Hyde Park workshop via Beyers Naudé Drive.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify whether the fault is a physical panel, backlight, cable, or board-level issue. This determines the correct repair approach and cost.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering the fault, repair method, and timeframe. No work starts until you approve in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where possible, full display replacement where necessary. Quality-matched panel fitted by our technician.' },
@@ -260,7 +260,7 @@ export default function ScreenRepairRandburgPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop, 10 km away.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop, 10 km away.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-RANDBURG-HERO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp for Quote

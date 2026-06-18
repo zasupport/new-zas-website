@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 ───────────────────────────────────────────────────────────── */
 const pricingRows = [
   {
-    model: 'Butterfly keyboard replacement (2016–2019)',
+    model: 'Butterfly keyboard replacement (2016-2019)',
     warranty: 'No up-to-3 year warranty, design defect',
     noWarranty: true,
     note: 'See butterfly explainer below',
@@ -161,7 +161,7 @@ const faqs = [
   {
     question: 'Why does the butterfly keyboard carry no warranty?',
     answer:
-      'Apple\'s butterfly keyboard (used on MacBook Pro 2016–2019 and MacBook Air 2018–2019) has a fundamental design flaw: the mechanism is so thin that a single particle of dust or debris can cause it to fail. Apple itself acknowledged this by replacing the entire keyboard design in 2019 and running a silent Keyboard Service Programme for affected models. Because the failure is inherent to the design rather than a workmanship issue, we cannot warrant a like-for-like replacement, it will very likely fail again. We are transparent about this upfront rather than replacing it, collecting the warranty claim, and repeating the cycle.',
+      'Apple\'s butterfly keyboard (used on MacBook Pro 2016-2019 and MacBook Air 2018-2019) has a fundamental design flaw: the mechanism is so thin that a single particle of dust or debris can cause it to fail. Apple itself acknowledged this by replacing the entire keyboard design in 2019 and running a silent Keyboard Service Programme for affected models. Because the failure is inherent to the design rather than a workmanship issue, we cannot warrant a like-for-like replacement, it will very likely fail again. We are transparent about this upfront rather than replacing it, collecting the warranty claim, and repeating the cycle.',
   },
   {
     question: 'Can you replace my butterfly keyboard with the newer scissor-switch design?',
@@ -171,7 +171,7 @@ const faqs = [
   {
     question: 'How long does MacBook keyboard replacement take?',
     answer:
-      'Keyboard cleaning and single keycap replacements typically take 1–2 hours. A full keyboard replacement takes 2–4 hours. On butterfly keyboard models (2016–2019), the keyboard is riveted to the top case, so the entire top case must be replaced, this takes 3–4 hours. We will confirm turnaround time when you drop your MacBook off.',
+      'Keyboard cleaning and single keycap replacements typically take 1-2 hours. A full keyboard replacement takes 2-4 hours. On butterfly keyboard models (2016-2019), the keyboard is riveted to the top case, so the entire top case must be replaced, this takes 3-4 hours. We will confirm turnaround time when you drop your MacBook off.',
   },
   {
     question: 'My MacBook keyboard was damaged by a liquid spill. Can it be fixed?',
@@ -181,7 +181,7 @@ const faqs = [
   {
     question: 'Will keyboard replacement affect my Touch Bar?',
     answer:
-      'On MacBook Pro models with a Touch Bar (2016–2021), the Touch Bar is part of the top case assembly. When we replace the keyboard on those models, the Touch Bar is replaced as part of the same unit. Touch ID calibration to your Apple ID and biometric data remains unaffected.',
+      'On MacBook Pro models with a Touch Bar (2016-2021), the Touch Bar is part of the top case assembly. When we replace the keyboard on those models, the Touch Bar is replaced as part of the same unit. Touch ID calibration to your Apple ID and biometric data remains unaffected.',
   },
   {
     question: 'Do you repair MacBook Pro 14" and 16" M-series keyboards?',
@@ -387,7 +387,7 @@ export default function MacBookKeyboardPage() {
             <AlertTriangle className="w-6 h-6 text-orange-400 flex-shrink-0 mt-0.5" />
             <div>
               <h3 className="text-orange-400 font-bold text-base mb-2">
-                Butterfly Keyboard (2016–2019), No Warranty Policy
+                Butterfly Keyboard (2016-2019), No Warranty Policy
               </h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed mb-3">
                 ZA Support does not offer a warranty on like-for-like butterfly keyboard replacements because the design itself is the cause of failure. Replacing one butterfly keyboard with another butterfly keyboard will very likely produce the same fault. We are transparent about this before you decide to proceed.
@@ -411,7 +411,7 @@ export default function MacBookKeyboardPage() {
               The Butterfly Keyboard <span className="text-[#0FEA7A]">Story</span>
             </h2>
             <p className="text-[#7A9E98] max-w-2xl mx-auto">
-              Why Apple&apos;s 2016–2019 MacBook keyboards fail, what Apple did about it, and what your options are today.
+              Why Apple&apos;s 2016-2019 MacBook keyboards fail, what Apple did about it, and what your options are today.
             </p>
           </div>
 
@@ -444,7 +444,7 @@ export default function MacBookKeyboardPage() {
               {
                 icon: <Shield className="w-5 h-5" />,
                 title: 'Apple\'s Service Programme',
-                body: 'Apple ran a silent Keyboard Service Programme covering most 2015–2019 MacBook models. The programme has ended, but ZA Support can still replace your keyboard, we just cannot warrant the result.',
+                body: 'Apple ran a silent Keyboard Service Programme covering most 2015-2019 MacBook models. The programme has ended, but ZA Support can still replace your keyboard, we just cannot warrant the result.',
               },
               {
                 icon: <CheckCircle className="w-5 h-5" />,
@@ -476,7 +476,7 @@ export default function MacBookKeyboardPage() {
               Signs You Need <span className="text-[#0FEA7A]">Keyboard Repair</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Any of these symptoms warrants a assessment fee (from R599). We diagnose before we quote,.
+              Any of these symptoms warrants a assessment fee (from R599). We diagnose before we quote.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">

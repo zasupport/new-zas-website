@@ -21,7 +21,7 @@ const symptoms = [
   { title: 'Swollen Battery', desc: 'Lifting trackpad or case separation indicates dangerous cell swelling. We remove swollen batteries safely and dispose of them correctly.' },
   { title: 'Short Runtime', desc: 'Battery depletes in 2 hours or less. Cell degradation reduces maximum charge capacity. Replacement restores your Mac to full daily runtime.' },
   { title: 'Service Battery Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" confirms the battery has reached end of useful life. Straightforward replacement at our Hyde Park workshop.' },
-  { title: 'Shutdowns at Part Charge', desc: 'MacBook shuts off at 20–40% charge under load. Worn cells cannot maintain stable voltage. Battery replacement resolves this reliably.' },
+  { title: 'Shutdowns at Part Charge', desc: 'MacBook shuts off at 20-40% charge under load. Worn cells cannot maintain stable voltage. Battery replacement resolves this reliably.' },
   { title: 'Battery Health Below 80%', desc: 'Below 80% health, Apple considers the battery due for replacement. New battery restores full capacity, runtime, and macOS performance.' },
 ];
 
@@ -36,11 +36,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you collect from Rosebank for battery replacements?',
-    answer: 'Yes. Our Hyde Park workshop is approximately 2–3 km from Rosebank, a 5-minute drive up Jan Smuts Avenue. We collect from your home, office, or a convenient spot in Rosebank, replace the battery, and return your MacBook the same day for most models. Contact us on WhatsApp or by phone to arrange a collection.',
+    answer: 'Yes. Our Hyde Park workshop is approximately 2-3 km from Rosebank, a 5-minute drive up Jan Smuts Avenue. We collect from your home, office, or a convenient spot in Rosebank, replace the battery, and return your MacBook the same day for most models. Contact us on WhatsApp or by phone to arrange a collection.',
   },
   {
     question: 'How close are you to Rosebank?',
-    answer: 'Very close. Our workshop at 1 Hyde Lane, Hyde Park is about 2–3 km from Rosebank. Many Rosebank clients drop their MacBook in at the start of the day on their way to the Rosebank Mall or the Zone and collect it the same afternoon.',
+    answer: 'Very close. Our workshop at 1 Hyde Lane, Hyde Park is about 2-3 km from Rosebank. Many Rosebank clients drop their MacBook in at the start of the day on their way to the Rosebank Mall or the Zone and collect it the same afternoon.',
   },
   {
     question: 'How long does a battery replacement take?',
@@ -100,14 +100,14 @@ export default function BatteryReplacementRosebankPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Battery Replacement Rosebank
-              <br /><span className="text-[#0FEA7A]">— 5 Minutes from Hyde Park</span>
+              <br /><span className="text-[#0FEA7A]">, 5 Minutes from Hyde Park</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Rosebank is 5 minutes from our Hyde Park workshop. Drop in or let us collect — we replace MacBook batteries with Apple-specification cells and return your Mac the same day.
+              Rosebank is 5 minutes from our Hyde Park workshop. Drop in or let us collect, we replace MacBook batteries with Apple-specification cells and return your Mac the same day.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Rosebank and repair at our Hyde Park workshop, approx. 5 min drive (2–3 km)</span>
+              <span>We collect from Rosebank and repair at our Hyde Park workshop, approx. 5 min drive (2-3 km)</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -148,7 +148,7 @@ export default function BatteryReplacementRosebankPage() {
               Rosebank is home to a concentration of creative agencies, media businesses, and professionals who depend on their MacBooks throughout the working day. When a degraded battery starts cutting sessions short or triggering unexpected shutdowns, it disrupts client work and erodes confidence in the machine. A battery replacement is a fast, straightforward fix that restores full runtime.
             </p>
             <p>
-              Our Hyde Park workshop at 1 Hyde Lane is approximately 2–3 km from Rosebank, up Jan Smuts Avenue. Rosebank clients can drop their MacBook in on the way to the office, leave it with us during the working day, and collect a fully tested Mac with a fresh battery on the way home. For clients who prefer it, we also collect and return.
+              Our Hyde Park workshop at 1 Hyde Lane is approximately 2-3 km from Rosebank, up Jan Smuts Avenue. Rosebank clients can drop their MacBook in on the way to the office, leave it with us during the working day, and collect a fully tested Mac with a fresh battery on the way home. For clients who prefer it, we also collect and return.
             </p>
             <p>
               We replace batteries in all MacBook models: MacBook Air (all Intel and M-series), MacBook Pro 13-inch, 14-inch, 15-inch, and 16-inch. Every battery is Apple-specification grade, matched to your model&apos;s capacity and cycle ratings. The old battery is removed and disposed of correctly.
@@ -181,7 +181,7 @@ export default function BatteryReplacementRosebankPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-8">
-            From Rosebank to Hyde Park and Back — Same Day
+            From Rosebank to Hyde Park and Back, Same Day
           </h2>
           <div className="space-y-6">
             {[

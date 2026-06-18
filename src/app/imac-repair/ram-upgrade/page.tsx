@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iMac 27" (2019–2020)', config: '16 GB → 32 GB (add 2× 8 GB)', price: 'Contact for pricing', note: 'No display removal needed' },
-  { model: 'iMac 27" (2017–2020)', config: '8 GB → 32 GB (replace all)', price: 'Contact for pricing', note: 'No display removal needed' },
-  { model: 'iMac 27" (2015–2020)', config: 'Upgrade to 64 GB', price: 'Contact for pricing', note: '4× 16 GB DDR4 SO-DIMMs' },
-  { model: 'iMac 27" (2017–2020)', config: 'Upgrade to 128 GB', price: 'Contact for pricing', note: '4× 32 GB, maximum config' },
-  { model: 'iMac 21.5" (2012–2015)', config: '8 GB → 16 GB', price: 'Contact for pricing', note: 'Requires display removal' },
-  { model: 'iMac 21.5" (2019–2020 Intel)', config: 'RAM soldered, no upgrade', price: 'N/A', note: 'Cannot be upgraded' },
+  { model: 'iMac 27" (2019-2020)', config: '16 GB → 32 GB (add 2× 8 GB)', price: 'Contact for pricing', note: 'No display removal needed' },
+  { model: 'iMac 27" (2017-2020)', config: '8 GB → 32 GB (replace all)', price: 'Contact for pricing', note: 'No display removal needed' },
+  { model: 'iMac 27" (2015-2020)', config: 'Upgrade to 64 GB', price: 'Contact for pricing', note: '4× 16 GB DDR4 SO-DIMMs' },
+  { model: 'iMac 27" (2017-2020)', config: 'Upgrade to 128 GB', price: 'Contact for pricing', note: '4× 32 GB, maximum config' },
+  { model: 'iMac 21.5" (2012-2015)', config: '8 GB → 16 GB', price: 'Contact for pricing', note: 'Requires display removal' },
+  { model: 'iMac 21.5" (2019-2020 Intel)', config: 'RAM soldered, no upgrade', price: 'N/A', note: 'Cannot be upgraded' },
 ];
 
 const symptoms = [
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: 'Which iMac models support a RAM upgrade?',
     answer:
-      'The iMac 27" from 2012 through 2020 (Intel) has user-accessible RAM via a panel on the back, no tools required. These models support up to 64 GB (2012–2014 DDR3) or 128 GB (2015–2020 DDR4). The iMac 21.5" models from 2012–2015 can be upgraded but require full display removal (panel is not accessible from outside). The iMac 21.5" 2019 and 2020 (Intel) and all iMac M1, M3, and M4 models have RAM soldered to the logic board, no upgrade is possible.',
+      'The iMac 27" from 2012 through 2020 (Intel) has user-accessible RAM via a panel on the back, no tools required. These models support up to 64 GB (2012-2014 DDR3) or 128 GB (2015-2020 DDR4). The iMac 21.5" models from 2012-2015 can be upgraded but require full display removal (panel is not accessible from outside). The iMac 21.5" 2019 and 2020 (Intel) and all iMac M1, M3, and M4 models have RAM soldered to the logic board, no upgrade is possible.',
   },
   {
     question: 'How much RAM does my iMac actually need?',
@@ -59,7 +59,7 @@ const faqs = [
   {
     question: 'What type of RAM does my iMac use?',
     answer:
-      'iMac 27" 2012–2014 models use DDR3 SO-DIMMs (1600 MHz). The 2015–2019 models use DDR4 SO-DIMMs (2133–2666 MHz). The 2020 model uses DDR4 (2666 MHz). The number of slots is always 4, arranged in pairs, for best performance, install RAM in matched pairs (2 sticks of equal size). We source compatible, tested modules for your specific model.',
+      'iMac 27" 2012-2014 models use DDR3 SO-DIMMs (1600 MHz). The 2015-2019 models use DDR4 SO-DIMMs (2133-2666 MHz). The 2020 model uses DDR4 (2666 MHz). The number of slots is always 4, arranged in pairs, for best performance, install RAM in matched pairs (2 sticks of equal size). We source compatible, tested modules for your specific model.',
   },
   {
     question: 'Can I add RAM to my existing sticks or must I replace them all?',
@@ -69,7 +69,7 @@ const faqs = [
   {
     question: 'How long does a RAM upgrade take?',
     answer:
-      'For the iMac 27", the RAM panel door opens in seconds and the sticks swap in under 5 minutes. Including testing and verification, most 27" RAM upgrades are completed within 30–45 minutes. If the iMac 21.5" requires display removal (older models), allow 60–90 minutes total.',
+      'For the iMac 27", the RAM panel door opens in seconds and the sticks swap in under 5 minutes. Including testing and verification, most 27" RAM upgrades are completed within 30-45 minutes. If the iMac 21.5" requires display removal (older models), allow 60-90 minutes total.',
   },
 ];
 
@@ -137,19 +137,19 @@ export default function IMacRAMUpgradePage() {
         <div className="max-w-3xl mx-auto">
           <div className="flex flex-col sm:flex-row gap-6 justify-around text-center">
             <div>
-              <p className="font-bold text-slate-900 text-lg">iMac 27" 2012–2020</p>
+              <p className="font-bold text-slate-900 text-lg">iMac 27" 2012-2020</p>
               <p className="text-green-700 text-sm font-medium">Tool-free via rear panel</p>
-              <p className="text-slate-500 text-xs mt-1">Up to 64 GB (2012–2014) or 128 GB (2015–2020)</p>
+              <p className="text-slate-500 text-xs mt-1">Up to 64 GB (2012-2014) or 128 GB (2015-2020)</p>
             </div>
             <div className="hidden sm:block w-px bg-green-200" />
             <div>
-              <p className="font-bold text-slate-900 text-lg">iMac 21.5" 2012–2015</p>
+              <p className="font-bold text-slate-900 text-lg">iMac 21.5" 2012-2015</p>
               <p className="text-amber-700 text-sm font-medium">Display removal required</p>
               <p className="text-slate-500 text-xs mt-1">Up to 16 GB, check model first</p>
             </div>
             <div className="hidden sm:block w-px bg-green-200" />
             <div>
-              <p className="font-bold text-slate-900 text-lg">iMac 21.5" 2019–2020, M1, M3, M4</p>
+              <p className="font-bold text-slate-900 text-lg">iMac 21.5" 2019-2020, M1, M3, M4</p>
               <p className="text-red-600 text-sm font-medium">Not upgradeable</p>
               <p className="text-slate-500 text-xs mt-1">RAM soldered to logic board</p>
             </div>

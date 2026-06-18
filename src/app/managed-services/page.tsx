@@ -27,7 +27,7 @@ const faqs = [
   { question: 'What is included in a managed services contract?', answer: 'Depends on the tier. Starter includes monitoring, patch management, health reporting, and email support. Business adds unlimited remote support, JAMF MDM, Microsoft 365 management, and on-site visits. Enterprise is fully custom, we scope it to your exact requirements.' },
   { question: 'Do you only manage Apple devices?', answer: 'We specialise in Apple. However, we also manage Windows workstations, network equipment (UniFi, Ubiquiti, Cisco), printers, and servers in environments that include Apple devices. We do not exclusively limit to Apple if your business has a mixed environment.' },
   { question: 'What does "proactive monitoring" mean?', answer: 'We monitor your devices continuously for: low storage, battery degradation, failing drives (SMART warnings), outdated software, backup failures, and network issues, before they cause downtime. Most clients never experience an issue because we resolve it silently in the background first.' },
-  { question: 'Is managed services suitable for a small business with 5 Macs?', answer: 'Yes, our Starter tier is designed exactly for small teams of 5–15 devices. The monitoring and reporting alone typically prevent at least one major incident per year, making the investment cost-effective.' },
+  { question: 'Is managed services suitable for a small business with 5 Macs?', answer: 'Yes, our Starter tier is designed exactly for small teams of 5-15 devices. The monitoring and reporting alone typically prevent at least one major incident per year, making the investment cost-effective.' },
   { question: 'Do you service clients outside Hyde Park / Johannesburg?', answer: 'We service clients across the greater Johannesburg area including Sandton, Rosebank, Midrand, Randburg, and Fourways. Remote support is available nationally. On-site visits are scoped per location for clients outside Johannesburg.' },
 ];
 
@@ -37,7 +37,7 @@ const tiers = [
     features: ['Continuous device monitoring', 'Monthly health reports', 'Patch management (macOS + iOS)', 'Backup monitoring and alerts', 'Email support (business hours)', '24-hour response SLA'],
   },
   {
-    name: 'Business', ideal: 'Ideal for: SMEs, medical practices (5–20 devices)',
+    name: 'Business', ideal: 'Ideal for: SMEs, medical practices (5-20 devices)',
     features: ['Everything in Starter', 'Windows device support', 'JAMF MDM device management', 'Unlimited remote support', 'Monthly on-site visit (included)', 'Microsoft 365 management', 'Priority 4-hour response SLA', 'Network monitoring', 'Annual security review'],
   },
   {
@@ -71,7 +71,7 @@ export default function ManagedServicesPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg, Mac &amp; Windows</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
-              Proactive IT management for medical practices, SMEs, and professionals — Apple-first, fully capable in mixed Mac and Windows environments.
+              Proactive IT management for medical practices, SMEs, and professionals, Apple-first, fully capable in mixed Mac and Windows environments.
               Monitoring, support, JAMF MDM, and Microsoft 365 from Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

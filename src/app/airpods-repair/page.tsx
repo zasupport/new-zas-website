@@ -49,7 +49,7 @@ const faqs = [
   {
     question: 'How long does AirPods repair take?',
     answer:
-      'Deep cleaning takes 2–4 hours and is done same day. Battery replacement takes 1–2 days depending on parts availability. Charging case assessment and contact cleaning is typically same day. Case replacement (if we have stock) takes 1–2 days. We confirm timeline at assessment.',
+      'Deep cleaning takes 2-4 hours and is done same day. Battery replacement takes 1-2 days depending on parts availability. Charging case assessment and contact cleaning is typically same day. Case replacement (if we have stock) takes 1-2 days. We confirm timeline at assessment.',
   },
   {
     question: 'My AirPods keep disconnecting. Is that a repair issue?',
@@ -86,8 +86,8 @@ const modelSupport = [
   { model: 'AirPods Gen 2 (2019)', battery: 'Available', note: 'Standard' },
   { model: 'AirPods Gen 3 (2021)', battery: 'Available', note: 'Standard' },
   { model: 'AirPods Pro Gen 1 (2019)', battery: 'Available', note: 'Standard' },
-  { model: 'AirPods Pro Gen 2 (2022–2024)', battery: 'Assessment only', note: 'Very high complexity, honest limitations apply' },
-  { model: 'AirPods Max', battery: '—', note: 'Cleaning only, battery not currently offered' },
+  { model: 'AirPods Pro Gen 2 (2022-2024)', battery: 'Assessment only', note: 'Very high complexity, honest limitations apply' },
+  { model: 'AirPods Max', battery: ', ', note: 'Cleaning only, battery not currently offered' },
 ];
 
 const serviceSchema = {
@@ -264,7 +264,7 @@ export default function AirPodsRepairPage() {
                     className={`border-b border-[rgba(255,255,255,0.04)] ${i % 2 === 0 ? '' : 'bg-[rgba(15,234,122,0.02)]'}`}
                   >
                     <td className="text-[#E8F4F1] py-3 pr-4 font-medium">{row.model}</td>
-                    <td className={`py-3 pr-4 font-semibold ${row.battery === '—' || row.battery === 'Assessment only' ? 'text-[#7A9E98]' : 'text-[#0FEA7A]'}`}>
+                    <td className={`py-3 pr-4 font-semibold ${row.battery === ', ' || row.battery === 'Assessment only' ? 'text-[#7A9E98]' : 'text-[#0FEA7A]'}`}>
                       {row.battery}
                     </td>
                     <td className="text-[#7A9E98] py-3 text-xs">{row.note}</td>
@@ -303,7 +303,7 @@ export default function AirPodsRepairPage() {
               },
               {
                 symptom: 'Battery draining in under 2 hours',
-                fix: 'Battery replacement, AirPods batteries degrade to under 80% capacity within 1–2 years of heavy use',
+                fix: 'Battery replacement, AirPods batteries degrade to under 80% capacity within 1-2 years of heavy use',
               },
               {
                 symptom: 'Muffled or distorted audio',
@@ -367,7 +367,7 @@ export default function AirPodsRepairPage() {
               },
               {
                 title: 'Same-Day Cleaning',
-                desc: 'Deep clean service is done same day in most cases. Battery service takes 1–2 days.',
+                desc: 'Deep clean service is done same day in most cases. Battery service takes 1-2 days.',
               },
               {
                 title: 'Hyde Park, Johannesburg',

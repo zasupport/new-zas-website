@@ -87,11 +87,11 @@ const serviceSchema = {
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingRows = [
-  { model: 'MacBook Pro 13″ M2 (2022)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2–4 hrs' },
-  { model: 'MacBook Pro 14″ M2 Pro (2023)', battery: '70 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ M2 Max (2023)', battery: '70 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M2 Pro (2023)', battery: '100 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ M2 Max (2023)', battery: '100 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
+  { model: 'MacBook Pro 13″ M2 (2022)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 14″ M2 Pro (2023)', battery: '70 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 14″ M2 Max (2023)', battery: '70 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ M2 Pro (2023)', battery: '100 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ M2 Max (2023)', battery: '100 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
 ];
 
 /* ── Fault Types ─────────────────────────────────────────────────────────── */
@@ -99,37 +99,37 @@ const faultTypes = [
   {
     title: 'Reduced Runtime Despite Full Charge',
     icon: Battery,
-    desc: 'The M2 chip brought genuine efficiency improvements over M1 — the MacBook Pro M2 13-inch was rated for up to 20 hours of video playback, matching the M1 despite an identical 58.2 Wh cell. If your M2 is now managing only 6 to 8 hours of productive work, the battery capacity has likely degraded below 80%. The M2 is efficient enough that even a 75% capacity cell still delivers acceptable runtime — but once it drops below 70%, the experience becomes noticeably worse. We confirm capacity with coconutBattery before quoting and provide a written readout at collection.',
+    desc: 'The M2 chip brought genuine efficiency improvements over M1, the MacBook Pro M2 13-inch was rated for up to 20 hours of video playback, matching the M1 despite an identical 58.2 Wh cell. If your M2 is now managing only 6 to 8 hours of productive work, the battery capacity has likely degraded below 80%. The M2 is efficient enough that even a 75% capacity cell still delivers acceptable runtime, but once it drops below 70%, the experience becomes noticeably worse. We confirm capacity with coconutBattery before quoting and provide a written readout at collection.',
     severity: 'medium',
   },
   {
-    title: 'Swollen Battery — Trackpad Bulge (13-inch)',
+    title: 'Swollen Battery: Trackpad Bulge (13-inch)',
     icon: AlertTriangle,
-    desc: 'The M2 13-inch MacBook Pro uses the same physical chassis as the M1 13-inch and the same dual-cell 58.2 Wh battery arrangement beneath the trackpad. Swelling presents identically: increased trackpad click resistance progressing to a completely stiff trackpad, with the bottom case sometimes bowing visibly when viewed from the side. South African summer temperatures above 35°C in Johannesburg accelerate the off-gassing process. This is an urgent repair — do not continue using a MacBook Pro with a swollen battery or store it in a confined bag.',
+    desc: 'The M2 13-inch MacBook Pro uses the same physical chassis as the M1 13-inch and the same dual-cell 58.2 Wh battery arrangement beneath the trackpad. Swelling presents identically: increased trackpad click resistance progressing to a completely stiff trackpad, with the bottom case sometimes bowing visibly when viewed from the side. South African summer temperatures above 35°C in Johannesburg accelerate the off-gassing process. This is an urgent repair, do not continue using a MacBook Pro with a swollen battery or store it in a confined bag.',
     severity: 'high',
   },
   {
     title: 'Unexpected Shutdown at Low Charge',
     icon: Zap,
-    desc: 'MacBook Pro M2 machines that shut down at 10–25% displayed charge have a battery management unit (BMU) calibration problem. As the lithium-polymer cells age, the discharge voltage curve at a given charge level diverges from the factory-stored calibration. The BMU triggers a protective shutdown to prevent deep discharge damage to the logic board. The machine typically restarts immediately when plugged in. We run a full discharge profile test to distinguish this from a software issue, a corrupted SMC state, or a logic board power rail fault before quoting.',
+    desc: 'MacBook Pro M2 machines that shut down at 10-25% displayed charge have a battery management unit (BMU) calibration problem. As the lithium-polymer cells age, the discharge voltage curve at a given charge level diverges from the factory-stored calibration. The BMU triggers a protective shutdown to prevent deep discharge damage to the logic board. The machine typically restarts immediately when plugged in. We run a full discharge profile test to distinguish this from a software issue, a corrupted SMC state, or a logic board power rail fault before quoting.',
     severity: 'medium',
   },
   {
     title: 'MagSafe Charging Interrupted',
     icon: Activity,
-    desc: 'A degraded M2 battery with uneven cell voltages can cause USB-C power delivery negotiation failures. You will see the MagSafe LED flickering amber, the charge percentage not advancing, or the charger disconnecting and reconnecting audibly every few seconds. This is a battery-side fault in the majority of M2 cases we see — not a faulty charger. We verify this by running the machine on USB-C from a known-good charger and monitoring the power delivery log. After battery replacement, we run MagSafe and both USB-C ports through a charging verification cycle.',
+    desc: 'A degraded M2 battery with uneven cell voltages can cause USB-C power delivery negotiation failures. You will see the MagSafe LED flickering amber, the charge percentage not advancing, or the charger disconnecting and reconnecting audibly every few seconds. This is a battery-side fault in the majority of M2 cases we see, not a faulty charger. We verify this by running the machine on USB-C from a known-good charger and monitoring the power delivery log. After battery replacement, we run MagSafe and both USB-C ports through a charging verification cycle.',
     severity: 'medium',
   },
   {
     title: 'Load Shedding Cycle Accumulation',
     icon: BatteryWarning,
-    desc: 'The M2 MacBook Pro was released in 2022 and 2023 — machines that were purchased during some of South Africa\'s heaviest load shedding periods. Stage 6 shedding in 2023 delivered up to 12 power interruptions per day for extended periods. Each interruption added partial charge cycles. We see M2 units in our workshop that were purchased in early 2023 and are already past 600 cycles due to this factor alone. A quality UPS is the only effective mitigation, and we recommend one for any Mac owner in Johannesburg who uses their machine on mains power daily.',
+    desc: 'The M2 MacBook Pro was released in 2022 and 2023, machines that were purchased during some of South Africa\'s heaviest load shedding periods. Stage 6 shedding in 2023 delivered up to 12 power interruptions per day for extended periods. Each interruption added partial charge cycles. We see M2 units in our workshop that were purchased in early 2023 and are already past 600 cycles due to this factor alone. A quality UPS is the only effective mitigation, and we recommend one for any Mac owner in Johannesburg who uses their machine on mains power daily.',
     severity: 'low',
   },
   {
-    title: 'Adhesive Failure — Loose Battery',
+    title: 'Adhesive Failure: Loose Battery',
     icon: Wrench,
-    desc: 'Apple uses the same adhesive pull-tab system on the M2 as on all MacBook Pros from 2015 onwards. In a small percentage of M2 machines, the adhesive bond between the battery cell and the top case loses strength — particularly in machines that have run hot consistently. A loose battery creates a faint rattle when the machine is moved, or intermittent disconnection under vibration. We re-secure loose batteries using approved adhesive and verify connector continuity before reassembly. This is a minor fault but worth addressing to prevent intermittent shutdowns.',
+    desc: 'Apple uses the same adhesive pull-tab system on the M2 as on all MacBook Pros from 2015 onwards. In a small percentage of M2 machines, the adhesive bond between the battery cell and the top case loses strength, particularly in machines that have run hot consistently. A loose battery creates a faint rattle when the machine is moved, or intermittent disconnection under vibration. We re-secure loose batteries using approved adhesive and verify connector continuity before reassembly. This is a minor fault but worth addressing to prevent intermittent shutdowns.',
     severity: 'low',
   },
 ];
@@ -162,27 +162,27 @@ const faqs = [
   {
     question: 'What is the battery capacity of the MacBook Pro M2?',
     answer:
-      'The MacBook Pro 13-inch M2 (2022) uses a 58.2 Wh lithium-polymer battery — identical capacity to the M1 13-inch. The MacBook Pro 14-inch M2 Pro and M2 Max (2023) use a 70 Wh cell, a small increase from the M1 Pro/Max 14-inch (69.6 Wh). The MacBook Pro 16-inch M2 Pro and M2 Max (2023) use a 100 Wh cell — at the aviation limit and the largest standard battery in any MacBook Pro. All three variants are in stock at our Hyde Park workshop.',
+      'The MacBook Pro 13-inch M2 (2022) uses a 58.2 Wh lithium-polymer battery, identical capacity to the M1 13-inch. The MacBook Pro 14-inch M2 Pro and M2 Max (2023) use a 70 Wh cell, a small increase from the M1 Pro/Max 14-inch (69.6 Wh). The MacBook Pro 16-inch M2 Pro and M2 Max (2023) use a 100 Wh cell, at the aviation limit and the largest standard battery in any MacBook Pro. All three variants are in stock at our Hyde Park workshop.',
   },
   {
     question: 'Is the M2 MacBook Pro battery better than the M1?',
     answer:
-      'The M2 chip is more efficient than M1, meaning it extracts more runtime from the same cell capacity. The 13-inch M2 uses the same 58.2 Wh cell as the M1 but delivers slightly longer runtime due to the chip efficiency improvement. The 14-inch M2 Pro moved from 69.6 Wh to 70 Wh — a minor increase. The 16-inch M2 stepped up to exactly 100 Wh from 99.6 Wh. In terms of physical construction — adhesive system, cell chemistry, and removal procedure — the M2 battery is effectively the same as the M1 battery and presents the same replacement considerations.',
+      'The M2 chip is more efficient than M1, meaning it extracts more runtime from the same cell capacity. The 13-inch M2 uses the same 58.2 Wh cell as the M1 but delivers slightly longer runtime due to the chip efficiency improvement. The 14-inch M2 Pro moved from 69.6 Wh to 70 Wh, a minor increase. The 16-inch M2 stepped up to exactly 100 Wh from 99.6 Wh. In terms of physical construction, adhesive system, cell chemistry, and removal procedure, the M2 battery is effectively the same as the M1 battery and presents the same replacement considerations.',
   },
   {
-    question: 'My MacBook Pro M2 shows "Service Recommended" — what does this mean?',
+    question: 'My MacBook Pro M2 shows "Service Recommended", what does this mean?',
     answer:
-      'macOS displays "Service Recommended" in the battery menu bar icon when the battery capacity has dropped below 80% of its original design capacity. On an M2 MacBook Pro, this threshold represents a genuine reduction in runtime and reliability. At 80% capacity, an M2 13-inch that originally lasted 20 hours now delivers approximately 16 hours. Below 70%, you are at 14 hours and unexpected shutdowns at low charge levels become common. "Service Recommended" is macOS telling you the battery has reached end-of-service — replacement is the correct action.',
+      'macOS displays "Service Recommended" in the battery menu bar icon when the battery capacity has dropped below 80% of its original design capacity. On an M2 MacBook Pro, this threshold represents a genuine reduction in runtime and reliability. At 80% capacity, an M2 13-inch that originally lasted 20 hours now delivers approximately 16 hours. Below 70%, you are at 14 hours and unexpected shutdowns at low charge levels become common. "Service Recommended" is macOS telling you the battery has reached end-of-service, replacement is the correct action.',
   },
   {
     question: 'Does load shedding affect MacBook Pro M2 battery health in South Africa?',
     answer:
-      'Yes, and M2 owners who purchased their machines in 2022 or 2023 — during South Africa\'s worst load shedding periods — are particularly affected. Stage 6 shedding in 2023 added up to 12 partial charge cycles per day. We see M2 MacBook Pros in our workshop with 500–700 cycles already, purchased less than two years ago, purely because of power interruptions. A quality UPS maintains clean AC power during shedding and eliminates these additional cycles entirely. This is the most cost-effective way to protect your M2 investment.',
+      'Yes, and M2 owners who purchased their machines in 2022 or 2023, during South Africa\'s worst load shedding periods, are particularly affected. Stage 6 shedding in 2023 added up to 12 partial charge cycles per day. We see M2 MacBook Pros in our workshop with 500-700 cycles already, purchased less than two years ago, purely because of power interruptions. A quality UPS maintains clean AC power during shedding and eliminates these additional cycles entirely. This is the most cost-effective way to protect your M2 investment.',
   },
   {
     question: 'How long does MacBook Pro M2 battery replacement take?',
     answer:
-      'MacBook Pro M2 13-inch takes 2 to 4 hours. The M2 Pro and M2 Max 14-inch and 16-inch models take 4 to 6 hours — the larger adhesive surface area requires more careful removal. Same-day service is available for all M2 models when booked before 14:00. WhatsApp us to confirm slot availability and get a price before bringing the machine in.',
+      'MacBook Pro M2 13-inch takes 2 to 4 hours. The M2 Pro and M2 Max 14-inch and 16-inch models take 4 to 6 hours, the larger adhesive surface area requires more careful removal. Same-day service is available for all M2 models when booked before 14:00. WhatsApp us to confirm slot availability and get a price before bringing the machine in.',
   },
   {
     question: 'Will battery replacement on an M2 MacBook Pro reset the cycle count?',
@@ -202,7 +202,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on M2 MacBook Pro battery replacement?',
     answer:
-      'MacBook Pro M2 battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period — dropping below 80% capacity or developing any electrical fault — we replace it again at from R599. The warranty is issued in writing at collection. From R599 assessment: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
+      'MacBook Pro M2 battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period, dropping below 80% capacity or developing any electrical fault, we replace it again at from R599. The warranty is issued in writing at collection. From R599 assessment: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
   },
 ];
 
@@ -230,7 +230,7 @@ export default function BatteryReplacementMacBookProM2Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Second-generation Apple Silicon — 58.2 Wh (13&quot;), 70 Wh (14&quot;), or 100 Wh (16&quot;) cell replacement at our Hyde Park workshop. M2 efficiency + load shedding micro-cycles = faster battery wear than most owners expect. Pro 13&quot; from R1,799. Pro 14&quot;/16&quot; from R2,299.
+              Second-generation Apple Silicon, 58.2 Wh (13&quot;), 70 Wh (14&quot;), or 100 Wh (16&quot;) cell replacement at our Hyde Park workshop. M2 efficiency + load shedding micro-cycles = faster battery wear than most owners expect. Pro 13&quot; from R1,799. Pro 14&quot;/16&quot; from R2,299.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -294,7 +294,7 @@ export default function BatteryReplacementMacBookProM2Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Starting prices include the replacement cell, labour, calibration, and our written warranty. Apple charges R3,500 to R8,000 for the equivalent service — and sometimes replaces the entire top case assembly rather than the battery alone. We replace the battery cells only.
+            Starting prices include the replacement cell, labour, calibration, and our written warranty. Apple charges R3,500 to R8,000 for the equivalent service, and sometimes replaces the entire top case assembly rather than the battery alone. We replace the battery cells only.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -319,7 +319,7 @@ export default function BatteryReplacementMacBookProM2Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-m2" />
           <PricingNote variant="inline" />
@@ -329,22 +329,22 @@ export default function BatteryReplacementMacBookProM2Page() {
       {/* Technical Detail */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Battery — Technical Overview</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Battery, Technical Overview</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Pro M2 arrived in June 2022 (13-inch) and January 2023 (14-inch and 16-inch). Apple made no changes to the physical battery capacity for the 13-inch — it retained the 58.2 Wh cell from the M1 — but the M2 chip&apos;s improved energy efficiency extended the rated runtime. The 14-inch moved from 69.6 Wh to 70 Wh, a marginal increase. The 16-inch stepped up from 99.6 Wh to exactly 100 Wh, placing it precisely at the ICAO aviation carry-on limit for lithium batteries.
+              The MacBook Pro M2 arrived in June 2022 (13-inch) and January 2023 (14-inch and 16-inch). Apple made no changes to the physical battery capacity for the 13-inch, it retained the 58.2 Wh cell from the M1, but the M2 chip&apos;s improved energy efficiency extended the rated runtime. The 14-inch moved from 69.6 Wh to 70 Wh, a marginal increase. The 16-inch stepped up from 99.6 Wh to exactly 100 Wh, placing it precisely at the ICAO aviation carry-on limit for lithium batteries.
             </p>
             <p>
-              From a service perspective, the M2 battery mounting system is identical to the M1. Apple did not change the adhesive pull-tab layout, the battery connector design, or the bottom case fastener count between generations on the same chassis. This means the removal procedure we developed for M1 Pro and M1 Max models applies directly to M2 Pro and M2 Max. For clients with the M2 13-inch, the procedure is identical to the M1 13-inch — a dual-cell array beneath the trackpad, four adhesive pull-tabs, and a single battery connector.
+              From a service perspective, the M2 battery mounting system is identical to the M1. Apple did not change the adhesive pull-tab layout, the battery connector design, or the bottom case fastener count between generations on the same chassis. This means the removal procedure we developed for M1 Pro and M1 Max models applies directly to M2 Pro and M2 Max. For clients with the M2 13-inch, the procedure is identical to the M1 13-inch, a dual-cell array beneath the trackpad, four adhesive pull-tabs, and a single battery connector.
             </p>
             <p>
-              What is genuinely different about M2 MacBook Pro battery service in South Africa is the timing. M2 machines were purchased primarily during 2022 and 2023 — a period when Eskom load shedding reached Stage 6 for extended intervals in Johannesburg. During Stage 6, households experienced up to 12 power interruptions per day. Each interruption added partial charge cycles. We have tracked M2 units purchased in early 2023 that already show 500 to 700 cycles by early 2026. A machine rated for 1,000 cycles at 15 to 18 months into its life, depending on usage patterns during Stage 6, could realistically reach end-of-battery within three years of purchase.
+              What is genuinely different about M2 MacBook Pro battery service in South Africa is the timing. M2 machines were purchased primarily during 2022 and 2023, a period when Eskom load shedding reached Stage 6 for extended intervals in Johannesburg. During Stage 6, households experienced up to 12 power interruptions per day. Each interruption added partial charge cycles. We have tracked M2 units purchased in early 2023 that already show 500 to 700 cycles by early 2026. A machine rated for 1,000 cycles at 15 to 18 months into its life, depending on usage patterns during Stage 6, could realistically reach end-of-battery within three years of purchase.
             </p>
             <p>
-              In our Hyde Park workshop, we diagnose M2 battery condition using coconutBattery before every replacement. We capture the current capacity, cycle count, charge temperature history, and cell voltage balance. This data goes into our repair record and the client receives a copy. After replacement, we run the same diagnostic to confirm the new cell registers correctly — typically 99 to 100% maximum capacity and a cycle count between 0 and 3 depending on the calibration cycle run time.
+              In our Hyde Park workshop, we diagnose M2 battery condition using coconutBattery before every replacement. We capture the current capacity, cycle count, charge temperature history, and cell voltage balance. This data goes into our repair record and the client receives a copy. After replacement, we run the same diagnostic to confirm the new cell registers correctly, typically 99 to 100% maximum capacity and a cycle count between 0 and 3 depending on the calibration cycle run time.
             </p>
             <p>
-              The most common presenting fault on M2 MacBook Pros we see is not swelling — it is reduced runtime accompanied by "Service Recommended" in the battery menu bar. M2 owners often tolerate degraded runtime for many months before acting, partly because the M2 is efficient enough that a 75% capacity cell still delivers reasonable day-to-day performance. Our recommendation is to replace the battery when you see consistent readings below 80% capacity, rather than waiting for swelling or unexpected shutdowns to occur.
+              The most common presenting fault on M2 MacBook Pros we see is not swelling, it is reduced runtime accompanied by "Service Recommended" in the battery menu bar. M2 owners often tolerate degraded runtime for many months before acting, partly because the M2 is efficient enough that a 75% capacity cell still delivers reasonable day-to-day performance. Our recommendation is to replace the battery when you see consistent readings below 80% capacity, rather than waiting for swelling or unexpected shutdowns to occur.
             </p>
           </div>
           <div className="mt-6">
@@ -397,14 +397,14 @@ export default function BatteryReplacementMacBookProM2Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro M2 Battery</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple&apos;s service approach on M2 Pro and M2 Max models sometimes involves replacing the entire top case assembly — keyboard, trackpad, and battery as one unit — rather than the battery cells alone. We replace the battery only.
+            Apple&apos;s service approach on M2 Pro and M2 Max models sometimes involves replacing the entire top case assembly, keyboard, trackpad, and battery as one unit, rather than the battery cells alone. We replace the battery only.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly on some models — R3,500 to R8,000+</li>
-                <li>Turnaround 5–10 business days via Apple depot</li>
+                <li>Top case assembly on some models, R3,500 to R8,000+</li>
+                <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>No M2-specific capacity report shared with client</li>
                 <li>AppleCare+ required for reduced pricing</li>
                 <li>Keyboard and trackpad replaced unnecessarily</li>
@@ -414,10 +414,10 @@ export default function BatteryReplacementMacBookProM2Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Battery cells only — keyboard and trackpad untouched</li>
+                <li>Battery cells only, keyboard and trackpad untouched</li>
                 <li>M2 13″ from R1,799 | M2 14″/16″ from R2,299</li>
-                <li>coconutBattery diagnostic — capacity report included</li>
-                <li>Turnaround 2–6 hours same day</li>
+                <li>coconutBattery diagnostic, capacity report included</li>
+                <li>Turnaround 2-6 hours same day</li>
                 <li>UPS advice for load shedding battery protection</li>
                 <li>Up-to-3 year warranty on the replacement cell</li>
               </ul>
@@ -435,12 +435,12 @@ export default function BatteryReplacementMacBookProM2Page() {
               {
                 step: 1,
                 title: 'Drop Off & Diagnostic',
-                desc: 'Walk in to our Hyde Park workshop — no appointment needed. We run a full M2 battery diagnostic: cycle count, maximum capacity, cell voltage balance, charging circuit health via coconutBattery and System Information. Written quote within 20 minutes.',
+                desc: 'Walk in to our Hyde Park workshop, no appointment needed. We run a full M2 battery diagnostic: cycle count, maximum capacity, cell voltage balance, charging circuit health via coconutBattery and System Information. Written quote within 20 minutes.',
               },
               {
                 step: 2,
                 title: 'Bottom Case Removal & Adhesive Release',
-                desc: 'We remove the pentalobe bottom case screws, disconnect the battery connector, and release the adhesive pull-tabs using controlled heat (max 50°C) and adhesive solvent at the cell seams. Non-conductive plastic pry tools only — no metal near the battery pouch.',
+                desc: 'We remove the pentalobe bottom case screws, disconnect the battery connector, and release the adhesive pull-tabs using controlled heat (max 50°C) and adhesive solvent at the cell seams. Non-conductive plastic pry tools only, no metal near the battery pouch.',
               },
               {
                 step: 3,
@@ -450,7 +450,7 @@ export default function BatteryReplacementMacBookProM2Page() {
               {
                 step: 4,
                 title: 'Calibration & Charging Verification',
-                desc: 'Full charge-discharge cycle with macOS open. Battery health confirmed at 100% in System Settings. Cycle count at 0–1. MagSafe and both USB-C ports verified for clean power acceptance. Thermal monitoring throughout.',
+                desc: 'Full charge-discharge cycle with macOS open. Battery health confirmed at 100% in System Settings. Cycle count at 0-1. MagSafe and both USB-C ports verified for clean power acceptance. Thermal monitoring throughout.',
               },
               {
                 step: 5,
@@ -475,7 +475,7 @@ export default function BatteryReplacementMacBookProM2Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Battery — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Battery, Johannesburg Service Area</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
             Our Hyde Park workshop is 10 to 20 minutes from most northern Johannesburg suburbs. Collection and return available from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, and Rivonia.
           </p>
@@ -512,7 +512,7 @@ export default function BatteryReplacementMacBookProM2Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro M2 Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro M2 Battery Replacement, Common Questions" />
         </div>
       </section>
 
@@ -545,7 +545,7 @@ export default function BatteryReplacementMacBookProM2Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M2 Battery Issue? Book a Diagnostic.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a description of the fault — reduced runtime, unexpected shutdowns, swollen battery, or "Service Recommended" — and we will give you an honest price range before you bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a description of the fault, reduced runtime, unexpected shutdowns, swollen battery, or "Service Recommended", and we will give you an honest price range before you bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

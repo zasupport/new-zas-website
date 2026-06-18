@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     question: 'Which iMac models do you repair?',
-    answer: 'iMac 21.5" (2017–2019 Intel), iMac 27" (2017–2020 Intel), iMac 24" M1 (A2438, 2021), and iMac 24" M3 (A2873, 2023). We also repair older Intel iMacs from 2014–2016 where parts availability allows.',
+    answer: 'iMac 21.5" (2017-2019 Intel), iMac 27" (2017-2020 Intel), iMac 24" M1 (A2438, 2021), and iMac 24" M3 (A2873, 2023). We also repair older Intel iMacs from 2014-2016 where parts availability allows.',
   },
   {
     question: 'Is iMac liquid damage repair cost-effective?',
@@ -94,8 +94,8 @@ export default function iMacWaterDamagePage() {
               </p>
               <div className="space-y-3">
                 {[
-                  { model: 'iMac 21.5" (2017–2019)', desc: 'Intel Core i5/i7. Logic board, power supply, RAM, SSD/Fusion Drive all accessible.' },
-                  { model: 'iMac 27" (2017–2020)', desc: 'Intel Core i5/i7/i9. Includes Radeon graphics. Larger logic board surface area.' },
+                  { model: 'iMac 21.5" (2017-2019)', desc: 'Intel Core i5/i7. Logic board, power supply, RAM, SSD/Fusion Drive all accessible.' },
+                  { model: 'iMac 27" (2017-2020)', desc: 'Intel Core i5/i7/i9. Includes Radeon graphics. Larger logic board surface area.' },
                   { model: 'iMac 24" M1 (2021)', desc: 'Apple Silicon. Compact redesign. Logic board contains CPU, GPU, RAM, SSD.' },
                   { model: 'iMac 24" M3 (2023)', desc: 'Latest generation. Most cost-effective to repair given high replacement cost.' },
                 ].map((item) => (

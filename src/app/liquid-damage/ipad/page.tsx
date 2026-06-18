@@ -81,12 +81,12 @@ export default function iPadLiquidDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">iPad Models We Repair</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {[
-                  'iPad (5th–10th Gen)', 'iPad mini (4th–6th Gen)',
+                  'iPad (5th-10th Gen)', 'iPad mini (4th-6th Gen)',
                   'iPad Air 3rd Gen (A2152)', 'iPad Air 4th Gen (A2316)',
                   'iPad Air M1 (A2588)', 'iPad Air M2 (A2902)',
                   'iPad Pro 11" 1st Gen', 'iPad Pro 11" 2nd Gen',
                   'iPad Pro 11" 3rd Gen', 'iPad Pro 11" M4 (A2837)',
-                  'iPad Pro 12.9" 2nd–4th Gen', 'iPad Pro 12.9" 5th–6th Gen',
+                  'iPad Pro 12.9" 2nd-4th Gen', 'iPad Pro 12.9" 5th-6th Gen',
                   'iPad Pro 13" M4 (A2925)',
                 ].map((model) => (
                   <div key={model} className="flex items-center gap-2 text-[#7A9E98] text-sm py-1.5 border-b border-[rgba(255,255,255,0.04)]">

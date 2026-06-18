@@ -151,7 +151,7 @@ export default function Navbar() {
       </nav>
     </header>
 
-      {/* Mobile Menu — rendered OUTSIDE header to avoid stacking context trap */}
+      {/* Mobile Menu, rendered OUTSIDE header to avoid stacking context trap */}
       {mobileOpen && (
         <div className="lg:hidden fixed inset-0 top-16 bg-[rgba(10,26,24,0.98)] backdrop-blur-xl z-[60] overflow-y-auto">
           <div className="flex flex-col p-6 gap-2">
@@ -254,7 +254,7 @@ export default function Navbar() {
                 Call {logoVariant.phone}
               </a>
               <p className="text-center text-[#7A9E98] text-sm">
-                Mon–Thu 08:00–17:00 | Fri 08:00–16:30 | Closed Sat & Sun
+                Mon-Thu 08:00-17:00 | Fri 08:00-16:30 | Closed Sat & Sun
               </p>
             </div>
           </div>

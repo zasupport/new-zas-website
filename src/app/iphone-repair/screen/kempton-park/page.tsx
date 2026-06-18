@@ -15,26 +15,26 @@ export const metadata: Metadata = {
 };
 
 const issues = [
-  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly — glass, OLED, and touch digitiser.' },
+  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly, glass, OLED, and touch digitiser.' },
   { title: 'Touch Not Responding', desc: 'Part of the screen stops registering touch or becomes fully unresponsive. Full display assembly replacement resolves this.' },
   { title: 'Dead Pixels or Dark Blotches', desc: 'Permanent dark patches spreading after a drop. OLED cell failure caused by internal impact stress.' },
-  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display — classic OLED panel damage or a loose display connector.' },
-  { title: 'Green Line Down the Side', desc: 'Thin green vertical line — a known OLED failure mode. Screen replacement resolves it completely.' },
+  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display, classic OLED panel damage or a loose display connector.' },
+  { title: 'Green Line Down the Side', desc: 'Thin green vertical line, a known OLED failure mode. Screen replacement resolves it completely.' },
   { title: 'Ghost Touch', desc: 'iPhone appears to tap and swipe on its own. Digitiser fault from a cracked panel creating phantom capacitive signals.' },
 ];
 
 const faqs = [
   {
     question: 'Do you collect iPhones for screen repair from Kempton Park?',
-    answer: 'Yes. Kempton Park is approximately 35–40 minutes from our Hyde Park workshop. We collect from Kempton Park, Edenvale, Norkem Park, Birch Acres, and the areas surrounding OR Tambo International Airport. Contact us via WhatsApp to arrange a same-day collection.',
+    answer: 'Yes. Kempton Park is approximately 35-40 minutes from our Hyde Park workshop. We collect from Kempton Park, Edenvale, Norkem Park, Birch Acres, and the areas surrounding OR Tambo International Airport. Contact us via WhatsApp to arrange a same-day collection.',
   },
   {
     question: 'How long does an iPhone screen repair take?',
-    answer: 'Most iPhone screen replacements are completed within 1–2 hours at our Hyde Park workshop. We can typically collect from Kempton Park, repair, and return your iPhone on the same day.',
+    answer: 'Most iPhone screen replacements are completed within 1-2 hours at our Hyde Park workshop. We can typically collect from Kempton Park, repair, and return your iPhone on the same day.',
   },
   {
     question: 'Which iPhone models do you repair?',
-    answer: 'We repair iPhone 12, 12 mini, 12 Pro, 12 Pro Max, 13 series, 14 series, 15 series, and 16 series including all Pro and Pro Max variants. Contact us if you have an older model — we service earlier iPhones too.',
+    answer: 'We repair iPhone 12, 12 mini, 12 Pro, 12 Pro Max, 13 series, 14 series, 15 series, and 16 series including all Pro and Pro Max variants. Contact us if you have an older model, we service earlier iPhones too.',
   },
   {
     question: 'What screens do you use?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'My iPhone screen is cracked but still works. Should I repair it?',
-    answer: 'Yes. A cracked screen will worsen over time — small cracks spread under daily pressure and temperature changes. Repairing a lightly cracked screen is significantly cheaper than replacing a screen that has developed dark blotches from deferred repairs.',
+    answer: 'Yes. A cracked screen will worsen over time, small cracks spread under daily pressure and temperature changes. Repairing a lightly cracked screen is significantly cheaper than replacing a screen that has developed dark blotches from deferred repairs.',
   },
 ];
 
@@ -92,7 +92,7 @@ export default function IPhoneScreenRepairKemptonParkPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iPhone Screen Repair Kempton Park
-              <br /><span className="text-[#0FEA7A]">— We Collect, We Return</span>
+              <br /><span className="text-[#0FEA7A]">, We Collect, We Return</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Cracked iPhone screen in Kempton Park or Edenvale? We collect from your home or office and repair at our Hyde Park workshop. Same-day repair for most iPhone models. Written warranty on every screen replacement.
@@ -103,7 +103,7 @@ export default function IPhoneScreenRepairKemptonParkPage() {
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: CheckCircle, label: 'iPhone 12–16 Pro Max' },
+                { icon: CheckCircle, label: 'iPhone 12-16 Pro Max' },
                 { icon: Zap, label: 'Same-day Repair' },
                 { icon: Shield, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Kempton Park' },
@@ -137,7 +137,7 @@ export default function IPhoneScreenRepairKemptonParkPage() {
               Kempton Park and Edenvale sit on the eastern edge of greater Johannesburg, just minutes from OR Tambo International Airport. Whether you work in one of the logistics or corporate parks in the area, or live in Norkem Park or Birch Acres, we collect directly from your door.
             </p>
             <p>
-              We collect your cracked iPhone, carry out the screen replacement at our Hyde Park workshop, and return it to you — usually on the same day. We repair the full range of OLED iPhones from iPhone 12 through 16 Pro Max.
+              We collect your cracked iPhone, carry out the screen replacement at our Hyde Park workshop, and return it to you, usually on the same day. We repair the full range of OLED iPhones from iPhone 12 through 16 Pro Max.
             </p>
             <p>
               Every repair uses a high-quality OLED screen assembly matched to your model. Face ID is unaffected by our screen repairs. All work carries a written ZA Support warranty.
@@ -162,7 +162,7 @@ export default function IPhoneScreenRepairKemptonParkPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Screen Repair Kempton Park — Common Questions" />
+          <FAQAccordion items={faqs} title="iPhone Screen Repair Kempton Park, Common Questions" />
         </div>
       </section>
 

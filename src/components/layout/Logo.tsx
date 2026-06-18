@@ -38,7 +38,7 @@ export default function Logo() {
     <Link href="/" className="flex items-center gap-1.5 group select-none">
       <Image
         src={config.logo}
-        alt={`ZA Support — ${config.label}`}
+        alt={`ZA Support, ${config.label}`}
         width={160}
         height={44}
         className="h-10 w-auto group-hover:drop-shadow-[0_0_8px_rgba(15,234,122,0.5)] transition-all duration-200"

@@ -21,27 +21,27 @@ export const metadata: Metadata = {
 const faults = [
   {
     fault: 'No Power / Dead MacBook Air M3',
-    desc: 'The M3 Air uses the same MagSafe 3 charging architecture as its M2 predecessor, but the 3nm M3 silicon introduces a revised power management IC layout. We regularly trace failures to the CD3217 USB-C controller and the MagSafe 3 charging path — a single corroded pad beneath the connector can prevent the machine from drawing any current at all. Our Hyde Park workshop carries replacement ICs for same-week turnaround.',
+    desc: 'The M3 Air uses the same MagSafe 3 charging architecture as its M2 predecessor, but the 3nm M3 silicon introduces a revised power management IC layout. We regularly trace failures to the CD3217 USB-C controller and the MagSafe 3 charging path, a single corroded pad beneath the connector can prevent the machine from drawing any current at all. Our Hyde Park workshop carries replacement ICs for same-week turnaround.',
   },
   {
     fault: 'MagSafe 3 Charging Not Working',
-    desc: 'Amber light but from R599, or no LED at all — both point to the MagSafe 3 sense circuit on the logic board rather than the cable itself. The M3 Air shares the same connector footprint as the M2, so the weak point is identical: the four outermost pads that carry the charge negotiation signal. We reflow or replace the gate driver and test at full 67 W input before returning the machine.',
+    desc: 'Amber light but from R599, or no LED at all, both point to the MagSafe 3 sense circuit on the logic board rather than the cable itself. The M3 Air shares the same connector footprint as the M2, so the weak point is identical: the four outermost pads that carry the charge negotiation signal. We reflow or replace the gate driver and test at full 67 W input before returning the machine.',
   },
   {
     fault: 'USB-C / Thunderbolt Port Failure',
-    desc: 'Apple gave the M3 Air two USB-C Thunderbolt 3 ports (not Thunderbolt 4 — a distinction that matters for data throughput). When one port stops recognising peripherals or drops connection under load, the retimer chip is usually at fault. We desolder the failed IC under controlled hot-air reflow and replace it with a tested pull from a donor board, preserving full 40 Gbps capability.',
+    desc: 'Apple gave the M3 Air two USB-C Thunderbolt 3 ports (not Thunderbolt 4, a distinction that matters for data throughput). When one port stops recognising peripherals or drops connection under load, the retimer chip is usually at fault. We desolder the failed IC under controlled hot-air reflow and replace it with a tested pull from a donor board, preserving full 40 Gbps capability.',
   },
   {
     fault: 'Black Screen / Backlight IC Failure',
-    desc: 'The Liquid Retina display on the M3 Air is driven by a dedicated backlight boost converter. If the screen appears completely black but you can faintly see the desktop with a torch, the backlight IC or its inductor has failed. This is a common repair in our workshop — we replace the LP8550 equivalent driver and recalibrate brightness levels through DFU diagnostics.',
+    desc: 'The Liquid Retina display on the M3 Air is driven by a dedicated backlight boost converter. If the screen appears completely black but you can faintly see the desktop with a torch, the backlight IC or its inductor has failed. This is a common repair in our workshop, we replace the LP8550 equivalent driver and recalibrate brightness levels through DFU diagnostics.',
   },
   {
     fault: 'Liquid Damage Recovery',
-    desc: 'The M3 Air inherited the wedge-shaped unibody from the M2 redesign, which means liquid enters through the same keyboard deck channels and pools around the logic board in the same places. We have seen dozens of these since the M3 launched in March 2024. Ultrasonic cleaning within 48 hours gives the best prognosis — after that, corrosion spreads to the BGA pads beneath the M3 package and the repair becomes significantly more involved.',
+    desc: 'The M3 Air inherited the wedge-shaped unibody from the M2 redesign, which means liquid enters through the same keyboard deck channels and pools around the logic board in the same places. We have seen dozens of these since the M3 launched in March 2024. Ultrasonic cleaning within 48 hours gives the best prognosis, after that, corrosion spreads to the BGA pads beneath the M3 package and the repair becomes significantly more involved.',
   },
   {
     fault: 'Wi-Fi 6E Module Fault',
-    desc: 'Apple upgraded the M3 Air to Wi-Fi 6E with 6 GHz band support, but the module is soldered directly to the logic board rather than socketed. When clients report intermittent disconnections or the inability to see 6 GHz networks, we inspect the RF filter components and antenna trace. In roughly 40 percent of cases the issue is a cracked solder joint on the shielding can rather than a dead module — a repair that costs a fraction of a full board replacement.',
+    desc: 'Apple upgraded the M3 Air to Wi-Fi 6E with 6 GHz band support, but the module is soldered directly to the logic board rather than socketed. When clients report intermittent disconnections or the inability to see 6 GHz networks, we inspect the RF filter components and antenna trace. In roughly 40 percent of cases the issue is a cracked solder joint on the shielding can rather than a dead module, a repair that costs a fraction of a full board replacement.',
   },
 ];
 
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: 'How much does a MacBook Air M3 logic board repair cost in South Africa?',
     answer:
-      'Our assessment fee starts at R599 and is deducted from the final repair cost if you proceed. Component-level repairs on the M3 Air typically range from R2,500 to R6,500 depending on the fault — far less than Apple\'s flat-rate board replacement of R12,000 or more. We provide an exact quote before any work begins.',
+      'Our assessment fee starts at R599 and is deducted from the final repair cost if you proceed. Component-level repairs on the M3 Air typically range from R2,500 to R6,500 depending on the fault, far less than Apple\'s flat-rate board replacement of R12,000 or more. We provide an exact quote before any work begins.',
   },
   {
     question: 'Is the MacBook Air M3 logic board repairable at component level?',
@@ -64,7 +64,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on logic board repairs?',
     answer:
-      'Every component-level repair carries a written warranty. The specific duration depends on the nature of the fault — typically 90 days for standard IC replacements and 30 days for liquid damage recovery work, given the unpredictable nature of corrosion progression.',
+      'Every component-level repair carries a written warranty. The specific duration depends on the nature of the fault, typically 90 days for standard IC replacements and 30 days for liquid damage recovery work, given the unpredictable nature of corrosion progression.',
   },
   {
     question: 'Can you recover data from a dead MacBook Air M3?',
@@ -79,12 +79,12 @@ const faqs = [
   {
     question: 'What is your From R599 assessment policy?',
     answer:
-      'If we cannot resolve the fault after diagnosis, you pay nothing beyond the initial R599 assessment fee. The assessment covers a full component-level inspection with thermal imaging and board-level testing — you receive a detailed report regardless of whether you proceed with the repair.',
+      'If we cannot resolve the fault after diagnosis, you pay nothing beyond the initial R599 assessment fee. The assessment covers a full component-level inspection with thermal imaging and board-level testing, you receive a detailed report regardless of whether you proceed with the repair.',
   },
   {
     question: 'How do I get my MacBook Air M3 to your workshop?',
     answer:
-      'Our workshop is at 1 Hyde Park Lane, Hyde Park, Johannesburg. You can drop off in person during business hours or arrange a secure courier collection through our WhatsApp line. We also offer a collect-and-return service for clients in the greater Johannesburg area — just message us on 064 529 5863 to arrange a time.',
+      'Our workshop is at 1 Hyde Park Lane, Hyde Park, Johannesburg. You can drop off in person during business hours or arrange a secure courier collection through our WhatsApp line. We also offer a collect-and-return service for clients in the greater Johannesburg area, just message us on 064 529 5863 to arrange a time.',
   },
 ];
 
@@ -138,7 +138,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </h1>
           <p className="mt-4 text-lg text-[#7A9E98] max-w-2xl mx-auto">
             Component-level micro-soldering for the 2024 MacBook Air with Apple&apos;s 3nm M3 chip.
-            From R599 assessment — assessment from R599 with a written warranty on every repair.
+            From R599 assessment, assessment from R599 with a written warranty on every repair.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -167,7 +167,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </h2>
           <div className="text-[#7A9E98] space-y-4 leading-relaxed">
             <p>
-              Apple released the MacBook Air M3 in March 2024, bringing the 3nm M3 chip to its thinnest laptop. The performance jump is real — we have benchmarked the M3 Air against the M2 in our workshop and the sustained workload improvement is roughly 20 percent before thermal throttling kicks in. But the chassis is physically identical to the M2 Air redesign from 2022, which means it inherits every vulnerability we already know well.
+              Apple released the MacBook Air M3 in March 2024, bringing the 3nm M3 chip to its thinnest laptop. The performance jump is real, we have benchmarked the M3 Air against the M2 in our workshop and the sustained workload improvement is roughly 20 percent before thermal throttling kicks in. But the chassis is physically identical to the M2 Air redesign from 2022, which means it inherits every vulnerability we already know well.
             </p>
             <p>
               The MagSafe 3 connector sits in the same recessed pocket. The two USB-C Thunderbolt 3 ports use the same retimer topology. The fanless thermal design still relies on a passive heatsink bonded to the aluminium shell. In our experience, the most common logic board failures on the M3 Air mirror those on the M2: power delivery faults from MagSafe corrosion, USB-C controller damage from cheap docks, and liquid ingress through the keyboard deck.
@@ -204,7 +204,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </h2>
           <div className="text-[#7A9E98] space-y-4 leading-relaxed">
             <p>
-              Every MacBook Air M3 that arrives at our workshop goes through the same structured diagnostic. We start with a visual inspection under magnification, checking the MagSafe port, USB-C connectors, and keyboard deck for signs of liquid or physical damage. Then we connect the board to a bench power supply and measure current draw at each voltage rail — the M3 Air has five primary rails, and the draw pattern tells us immediately which subsystem has failed.
+              Every MacBook Air M3 that arrives at our workshop goes through the same structured diagnostic. We start with a visual inspection under magnification, checking the MagSafe port, USB-C connectors, and keyboard deck for signs of liquid or physical damage. Then we connect the board to a bench power supply and measure current draw at each voltage rail, the M3 Air has five primary rails, and the draw pattern tells us immediately which subsystem has failed.
             </p>
             <p>
               If the fault points to a specific IC, we use thermal imaging to confirm the component is drawing excessive current or no current at all. From there, the repair is precise: desolder the failed component, clean the pads, place a tested replacement, and reflow under controlled temperature. We verify the repair by running a full hardware diagnostic in Apple&apos;s DFU mode and then a sustained stress test to confirm stability under load.
@@ -234,7 +234,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           <h2 className="text-3xl font-bold text-[#E8F4F1] mb-8">
             MacBook Air M3 Repair FAQs
           </h2>
-          <FAQAccordion items={faqs} title="MacBook Air M3 Logic Board Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Air M3 Logic Board Repair, Common Questions" />
         </div>
       </section>
 
@@ -272,7 +272,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-xl mx-auto">
             Send us a WhatsApp with your fault description and we will respond with an
-            estimated cost and turnaround time — usually within the hour.
+            estimated cost and turnaround time, usually within the hour.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

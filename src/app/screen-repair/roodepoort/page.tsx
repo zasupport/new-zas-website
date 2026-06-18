@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Display Lines or Artefacts', desc: 'Vertical or horizontal lines, colour banding, or flickering on the display. Display cable damage or LCD panel fault diagnosed at component level.' },
   { title: 'Flickering Display', desc: 'Intermittent flickering or display that goes black under certain angles. Flex cable damage or GPU driver fault identified and resolved.' },
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook screen repair take?',
-    answer: 'Simple screen replacements are typically completed within 24–48 hours of assessment. Backlight component repairs or display cable faults may take 48–72 hours. You will receive a clear timeframe with your quote before work begins.',
+    answer: 'Simple screen replacements are typically completed within 24-48 hours of assessment. Backlight component repairs or display cable faults may take 48-72 hours. You will receive a clear timeframe with your quote before work begins.',
   },
   {
     question: 'What is the screen repair assessment fee?',
@@ -44,7 +44,7 @@ const faqs = [
   },
   {
     question: 'My MacBook screen has lines but still works. Should I get it repaired?',
-    answer: 'Yes. Display faults are progressive — lines typically spread and worsen over time. A partial display fault is much cheaper to repair than a fully failed display. Book an assessment before the fault deteriorates further.',
+    answer: 'Yes. Display faults are progressive, lines typically spread and worsen over time. A partial display fault is much cheaper to repair than a fully failed display. Book an assessment before the fault deteriorates further.',
   },
   {
     question: 'Can you repair the screen on Apple Silicon MacBooks?',
@@ -100,14 +100,14 @@ export default function ScreenRepairRoodepoortPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Roodepoort
-              <br /><span className="text-[#0FEA7A]">— Display Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Screen repairs for Roodepoort residents and businesses. Cracked displays, backlight failure, display lines, and LCD faults. We collect from Roodepoort and repair at our Hyde Park workshop. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Collection from Roodepoort — approx. 32 min to our Hyde Park workshop</span>
+              <span>Collection from Roodepoort, approx. 32 min to our Hyde Park workshop</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -155,7 +155,7 @@ export default function ScreenRepairRoodepoortPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Screen Repair Roodepoort — Common Questions" />
+          <FAQAccordion items={faqs} title="Screen Repair Roodepoort, Common Questions" />
         </div>
       </section>
 

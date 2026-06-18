@@ -11,7 +11,7 @@ import { GoogleReviews } from '@/components/GoogleReviews';
 export const metadata: Metadata = {
   title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
   description:
-    'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. M1–M4 Pro/Max and Intel 2015–2019. Assessment: from R599. Hyde Park.',
+    'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. M1-M4 Pro/Max and Intel 2015-2019. Assessment: from R599. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair' },
   keywords: [
     'macbook pro repair johannesburg',
@@ -36,14 +36,14 @@ const services = [
   {
     icon: Monitor,
     title: 'Screen Replacement',
-    description: 'Cracked Retina or Liquid Retina XDR, Flexgate backlight failure (2016–2019), dead pixels, Staingate delamination. Genuine-quality panels for all MacBook Pro sizes.',
+    description: 'Cracked Retina or Liquid Retina XDR, Flexgate backlight failure (2016-2019), dead pixels, Staingate delamination. Genuine-quality panels for all MacBook Pro sizes.',
     href: '/macbook-pro-repair/screen',
     price: 'Quoted on assessment',
   },
   {
     icon: Keyboard,
     title: 'Keyboard Replacement',
-    description: 'Butterfly keyboard failure (2016–2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with up-to-3 year warranty.',
+    description: 'Butterfly keyboard failure (2016-2019 models), sticky or non-registering keys, Magic Keyboard damage. Full top-case assembly replacement with up-to-3 year warranty.',
     href: '/macbook-pro-repair/keyboard',
     price: 'Quoted on assessment',
   },
@@ -97,17 +97,17 @@ const models = [
   { name: 'MacBook Pro M2 Pro / Max 14" & 16" (2023)', note: 'Popular' },
   { name: 'MacBook Pro M1 Pro / Max 14" & 16" (2021)', note: 'Popular' },
   { name: 'MacBook Pro Intel 16" (2019)', note: 'Intel' },
-  { name: 'MacBook Pro Intel 15" (2016–2019)', note: 'Intel, Flexgate risk' },
+  { name: 'MacBook Pro Intel 15" (2016-2019)', note: 'Intel, Flexgate risk' },
   { name: 'MacBook Pro Intel 15" (2015)', note: 'Intel' },
-  { name: 'MacBook Pro Intel 13" (2016–2020)', note: 'Intel, butterfly kbd' },
-  { name: 'MacBook Pro Intel 13" (2011–2015)', note: 'Intel' },
+  { name: 'MacBook Pro Intel 13" (2016-2020)', note: 'Intel, butterfly kbd' },
+  { name: 'MacBook Pro Intel 13" (2011-2015)', note: 'Intel' },
   { name: 'MacBook Pro Retina (all years)', note: 'Staingate risk' },
 ];
 
 const knownIssues = [
   {
     name: 'Flexgate',
-    models: '2016–2019 MacBook Pro',
+    models: '2016-2019 MacBook Pro',
     icon: AlertTriangle,
     description: 'A design fault in the display flex cable causes backlight failure. Early symptoms include a bright horizontal line at the bottom of the screen and a stage-light effect when the lid is opened to a wide angle. Eventually the backlight fails completely. We replace the display assembly to resolve this permanently.',
   },
@@ -119,7 +119,7 @@ const knownIssues = [
   },
   {
     name: 'Butterfly Keyboard',
-    models: '2016–2019 MacBook Pro',
+    models: '2016-2019 MacBook Pro',
     icon: Keyboard,
     description: 'Apple\'s butterfly mechanism keyboard is susceptible to dust ingress, key bounce, and complete switch failure. Apple ran a repair programme that has since ended. We replace the entire top case assembly, keyboard, battery bracket, and all, with a working unit carrying a up-to-3 year warranty.',
   },
@@ -150,7 +150,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro has a black screen but the fans spin on startup. What is wrong?',
-    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016–2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first, if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Assessment: from R599 before any quote.',
+    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016-2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first, if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Assessment: from R599 before any quote.',
   },
   {
     question: 'What is logic board component-level repair and when does a MacBook Pro need it?',
@@ -182,7 +182,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair, liquid damage. M1–M4 Pro/Max and Intel models. Assessment: from R599.',
+    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair, liquid damage. M1-M4 Pro/Max and Intel models. Assessment: from R599.',
   offers: {
     '@type': 'AggregateOffer',
   },
@@ -321,16 +321,16 @@ export default function MacBookProRepairPage() {
               </thead>
               <tbody className="divide-y divide-[rgba(255,255,255,0.05)]">
                 {[
-                  { repair: 'Screen Replacement (Retina / Liquid Retina XDR)', time: '2–4 hrs' },
-                  { repair: 'Keyboard Replacement (butterfly / Magic)', time: '2–4 hrs' },
-                  { repair: 'Battery Replacement (13")', time: '1.5–2.5 hrs' },
-                  { repair: 'Battery Replacement (14" / 16")', time: '2–3 hrs' },
-                  { repair: 'Logic Board Component-level repair', time: '3–5 days' },
-                  { repair: 'Liquid Damage (ultrasonic + component repair)', time: '2–5 days' },
-                  { repair: 'Charging Port / USB-C Repair', time: '1–2 hrs' },
-                  { repair: 'Trackpad Repair', time: '2–4 hrs' },
-                  { repair: 'Thermal Paste + Heatsink Service', time: '1–2 hrs' },
-                  { repair: 'Data Recovery', time: '1–3 days' },
+                  { repair: 'Screen Replacement (Retina / Liquid Retina XDR)', time: '2-4 hrs' },
+                  { repair: 'Keyboard Replacement (butterfly / Magic)', time: '2-4 hrs' },
+                  { repair: 'Battery Replacement (13")', time: '1.5-2.5 hrs' },
+                  { repair: 'Battery Replacement (14" / 16")', time: '2-3 hrs' },
+                  { repair: 'Logic Board Component-level repair', time: '3-5 days' },
+                  { repair: 'Liquid Damage (ultrasonic + component repair)', time: '2-5 days' },
+                  { repair: 'Charging Port / USB-C Repair', time: '1-2 hrs' },
+                  { repair: 'Trackpad Repair', time: '2-4 hrs' },
+                  { repair: 'Thermal Paste + Heatsink Service', time: '1-2 hrs' },
+                  { repair: 'Data Recovery', time: '1-3 days' },
                 ].map((row) => (
                   <tr key={row.repair} className="hover:bg-[rgba(15,234,122,0.03)] transition-colors">
                     <td className="text-[#E8F4F1] font-medium py-3 pr-6">{row.repair}</td>
@@ -392,7 +392,7 @@ export default function MacBookProRepairPage() {
         </div>
       </section>
 
-      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      {/* Google Reviews, sourced from GBP (TEST-2 importer, 26/05/2026) */}
       <GoogleReviews count={6} />
 
       {/* CTA */}

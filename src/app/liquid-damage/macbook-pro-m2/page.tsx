@@ -51,7 +51,7 @@ const faqs = [
       'The M2 chip has a more sensitive NAND flash controller compared to the M1. Liquid near the storage controller can corrupt the SSD firmware, causing the machine to fail to boot even after the board is cleaned. We have developed specific recovery procedures for M2 NAND controller issues that go beyond standard ultrasonic cleaning.',
   },
   {
-    question: 'My MacBook Pro M2 keyboard got wet — is the logic board damaged?',
+    question: 'My MacBook Pro M2 keyboard got wet, is the logic board damaged?',
     answer:
       'Possibly. On the M2 MacBook Pro 13-inch, the keyboard ribbon cables route directly over the logic board. Liquid seeping through the keyboard mechanism follows these cables down to the board. Even a small keyboard spill can reach critical components within minutes. We recommend a full assessment regardless of whether the machine appears to work after drying.',
   },
@@ -78,19 +78,19 @@ const faqs = [
   {
     question: 'Is a liquid-damaged M2 MacBook Pro worth repairing?',
     answer:
-      'Almost always, yes. A new MacBook Pro M2 costs R22,000-R55,000 depending on specification. Our component-level repairs typically cost a fraction of replacement. We preserve your data, your settings, and your machine. If repair is genuinely not economical, we tell you honestly during the assessment — beyond the R599 fee.',
+      'Almost always, yes. A new MacBook Pro M2 costs R22,000-R55,000 depending on specification. Our component-level repairs typically cost a fraction of replacement. We preserve your data, your settings, and your machine. If repair is genuinely not economical, we tell you honestly during the assessment, beyond the R599 fee.',
   },
   {
     question: 'Do you collect M2 MacBook Pros from across Johannesburg?',
     answer:
-      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and all surrounding Johannesburg suburbs. For liquid damage, speed is critical — call 064 529 5863 for same-day collection.',
+      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and all surrounding Johannesburg suburbs. For liquid damage, speed is critical, call 064 529 5863 for same-day collection.',
   },
 ];
 
 const m2FailurePoints = [
   {
     title: 'Keyboard Deck Spills via Ribbon Cables',
-    desc: 'The most common M2 liquid damage scenario we encounter. Coffee or tea spills on the keyboard seep through the scissor mechanism and wick along the keyboard ribbon cable directly onto the logic board. On the M2 MacBook Pro 13-inch, this cable passes over the NAND controller area — a uniquely vulnerable path that we see exploited in roughly 40% of M2 liquid damage cases.',
+    desc: 'The most common M2 liquid damage scenario we encounter. Coffee or tea spills on the keyboard seep through the scissor mechanism and wick along the keyboard ribbon cable directly onto the logic board. On the M2 MacBook Pro 13-inch, this cable passes over the NAND controller area, a uniquely vulnerable path that we see exploited in roughly 40% of M2 liquid damage cases.',
     severity: 'high',
   },
   {
@@ -100,7 +100,7 @@ const m2FailurePoints = [
   },
   {
     title: 'USB-C Controller Corrosion',
-    desc: 'Like the M1, the M2 MacBook Pro uses CD3217/CD3218 USB-C controller ICs. Liquid entering via the USB-C ports corrodes these controllers, disabling charging and data transfer. We replace these controllers individually — a targeted repair that restores full USB-C function without replacing the entire board.',
+    desc: 'Like the M1, the M2 MacBook Pro uses CD3217/CD3218 USB-C controller ICs. Liquid entering via the USB-C ports corrodes these controllers, disabling charging and data transfer. We replace these controllers individually, a targeted repair that restores full USB-C function without replacing the entire board.',
     severity: 'medium',
   },
   {
@@ -110,7 +110,7 @@ const m2FailurePoints = [
   },
   {
     title: 'Audio Codec and Speaker Assembly',
-    desc: 'Liquid frequently saturates the speaker assemblies, particularly after a large spill. The audio codec IC on the M2 board is positioned near the left speaker — corrosion here causes crackling, distortion, or complete audio failure. Both the speakers and codec IC are individually replaceable components.',
+    desc: 'Liquid frequently saturates the speaker assemblies, particularly after a large spill. The audio codec IC on the M2 board is positioned near the left speaker, corrosion here causes crackling, distortion, or complete audio failure. Both the speakers and codec IC are individually replaceable components.',
     severity: 'low',
   },
   {
@@ -219,9 +219,9 @@ export default function MacBookProM2LiquidDamagePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Why M2 Liquid Damage Requires Specialist Repair</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed mb-8">
-            <p>The M2 MacBook Pro represented Apple&apos;s second generation of Apple Silicon, and it introduced subtle but significant changes to the board layout that affect how liquid damage manifests. In our Hyde Park workshop, we have observed patterns on M2 boards that do not appear on M1 boards — and vice versa.</p>
+            <p>The M2 MacBook Pro represented Apple&apos;s second generation of Apple Silicon, and it introduced subtle but significant changes to the board layout that affect how liquid damage manifests. In our Hyde Park workshop, we have observed patterns on M2 boards that do not appear on M1 boards, and vice versa.</p>
             <p>The most critical difference is the NAND flash controller. Apple redesigned the storage interface on the M2 to achieve faster read/write speeds with lower power consumption. The tighter voltage tolerances that enable this efficiency also make the controller more vulnerable to corruption from liquid-induced voltage fluctuations. We have seen M2 boards where the SoC, USB-C controllers, and power management circuits all survived a spill, but the NAND controller entered an unrecoverable error state because a contaminated power rail delivered 3.35V instead of 3.3V for a fraction of a second.</p>
-            <p>The second pattern unique to the M2 is keyboard ribbon cable migration. On the M2 MacBook Pro 13-inch (A2338), the keyboard and trackpad ribbon cables route directly over the NAND controller area of the logic board. When liquid seeps through the keyboard, it follows these cables by capillary action and drips onto the most sensitive area of the board. We estimate that roughly 40% of the M2 keyboard spills we see result in NAND controller involvement — compared to approximately 15% on the M1.</p>
+            <p>The second pattern unique to the M2 is keyboard ribbon cable migration. On the M2 MacBook Pro 13-inch (A2338), the keyboard and trackpad ribbon cables route directly over the NAND controller area of the logic board. When liquid seeps through the keyboard, it follows these cables by capillary action and drips onto the most sensitive area of the board. We estimate that roughly 40% of the M2 keyboard spills we see result in NAND controller involvement, compared to approximately 15% on the M1.</p>
             <p>The good news: every peripheral component on the M2 board is individually repairable. USB-C controllers, power management ICs, audio codecs, backlight drivers, and even the NAND controller in many cases can be repaired or replaced at the component level. The key is getting the machine to us before corrosion spreads beyond repairable circuits.</p>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default function MacBookProM2LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. From R599 assessment on every case — if we cannot repair your M2 MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
+              All repairs are quoted before work begins. From R599 assessment on every case, if we cannot repair your M2 MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -264,7 +264,7 @@ export default function MacBookProM2LiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement — R22,000 to R55,000</li>
+                <li>Full logic board replacement, R22,000 to R55,000</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
                 <li>AppleCare+ incident fee approximately R4,500</li>
                 <li>Data may not survive board replacement</li>
@@ -274,7 +274,7 @@ export default function MacBookProM2LiquidDamagePage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Component-level repair — only failed parts replaced</li>
+                <li>Component-level repair, only failed parts replaced</li>
                 <li>Assessment from R599, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>NAND controller recovery available</li>
@@ -294,15 +294,15 @@ export default function MacBookProM2LiquidDamagePage() {
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Spilled Liquid on Your M2 MacBook Pro?</h2>
           <p className="text-[#7A9E98] leading-relaxed mb-10">
-            The M2&apos;s sensitive NAND controller makes speed critical. Follow these steps immediately — they apply to the M2 MacBook Pro 13-inch (A2338), 14-inch M2 Pro/Max (A2779), and 16-inch M2 Pro/Max (A2780).
+            The M2&apos;s sensitive NAND controller makes speed critical. Follow these steps immediately, they apply to the M2 MacBook Pro 13-inch (A2338), 14-inch M2 Pro/Max (A2779), and 16-inch M2 Pro/Max (A2780).
           </p>
           <div className="space-y-5">
             {[
-              { step: '1', title: 'Force power off — hold Touch ID for 10 seconds', detail: 'Do not wait for a normal shutdown. The M2 SoC draws power continuously in sleep mode, and the NAND controller remains active. Power off removes voltage from corroding traces immediately.', urgent: true },
+              { step: '1', title: 'Force power off: hold Touch ID for 10 seconds', detail: 'Do not wait for a normal shutdown. The M2 SoC draws power continuously in sleep mode, and the NAND controller remains active. Power off removes voltage from corroding traces immediately.', urgent: true },
               { step: '2', title: 'Remove all USB-C cables immediately', detail: 'Any USB-C connection provides power to the board. Even a connected external drive can supply enough voltage to accelerate electrolytic corrosion on the USB-C controller and surrounding circuits.', urgent: true },
               { step: '3', title: 'Flip keyboard-down and let it drain', detail: 'The M2 MacBook Pro logic board sits below the keyboard deck. Flipping the machine ensures liquid drains away from the board rather than pooling on the NAND controller and SoC areas.', urgent: false },
-              { step: '4', title: 'Skip the rice, skip the hairdryer — both cause more harm', detail: 'Rice does nothing to remove corrosive residue from PCB traces. A hairdryer drives moisture deeper into BGA connections and can warp the thin M2 MacBook Pro chassis. Neither addresses the actual problem: active corrosion.', urgent: true },
-              { step: '5', title: 'Contact ZA Support within 24 hours — 064 529 5863', detail: 'The M2 NAND controller is particularly time-sensitive after liquid exposure. In our experience, boards brought in within 24 hours have a dramatically higher recovery rate than those left for several days. We offer same-day collection across Johannesburg.', urgent: false },
+              { step: '4', title: 'Skip the rice, skip the hairdryer: both cause more harm', detail: 'Rice does nothing to remove corrosive residue from PCB traces. A hairdryer drives moisture deeper into BGA connections and can warp the thin M2 MacBook Pro chassis. Neither addresses the actual problem: active corrosion.', urgent: true },
+              { step: '5', title: 'Contact ZA Support within 24 hours: 064 529 5863', detail: 'The M2 NAND controller is particularly time-sensitive after liquid exposure. In our experience, boards brought in within 24 hours have a dramatically higher recovery rate than those left for several days. We offer same-day collection across Johannesburg.', urgent: false },
             ].map((item) => (
               <div key={item.step} className={`flex gap-5 p-6 rounded-2xl border ${item.urgent ? 'border-[rgba(245,87,54,0.25)] bg-[rgba(245,87,54,0.04)]' : 'border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.03)]'}`}>
                 <div className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm font-extrabold ${item.urgent ? 'bg-[rgba(245,87,54,0.15)] text-[#F55736]' : 'bg-[rgba(15,234,122,0.12)] text-[#0FEA7A]'}`}>
@@ -321,7 +321,7 @@ export default function MacBookProM2LiquidDamagePage() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro M2 Liquid Damage — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro M2 Liquid Damage, Common Questions" />
         </div>
       </section>
 

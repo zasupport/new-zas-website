@@ -44,7 +44,7 @@ const faqs = [
   {
     question: 'How long does Apple Watch repair take?',
     answer:
-      'Screen replacements typically take 2–4 hours for Series 3 through 6. Series 7 and later take 4–6 hours. Battery replacements take 1–2 hours for most models. Crown and button repairs vary depending on the issue, from 1 hour to a full day for complex cases.',
+      'Screen replacements typically take 2-4 hours for Series 3 through 6. Series 7 and later take 4-6 hours. Battery replacements take 1-2 hours for most models. Crown and button repairs vary depending on the issue, from 1 hour to a full day for complex cases.',
   },
   {
     question: 'Can Apple Watch water resistance be restored after screen repair?',
@@ -90,7 +90,7 @@ const seriesSupport = [
   { series: 'Series 8 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'More complex, assessment required' },
   { series: 'Series 9 (41mm / 45mm)', screen: 'Assessment required', battery: 'Available', note: 'Assessment required' },
   { series: 'Apple Watch SE (1st & 2nd Gen)', screen: 'Available', battery: 'Available', note: 'Standard' },
-  { series: 'Apple Watch Ultra / Ultra 2', screen: '—', battery: '—', note: 'Not offered, Apple Service only' },
+  { series: 'Apple Watch Ultra / Ultra 2', screen: ', ', battery: ', ', note: 'Not offered, Apple Service only' },
 ];
 
 const serviceSchema = {
@@ -115,7 +115,7 @@ const serviceSchema = {
   },
   areaServed: 'Johannesburg',
   offers: [
-    { '@type': 'Offer', name: 'Apple Watch Screen Replacement (Series 3–6)' },
+    { '@type': 'Offer', name: 'Apple Watch Screen Replacement (Series 3-6)' },
     { '@type': 'Offer', name: 'Apple Watch Screen Replacement (Series 7+)' },
     { '@type': 'Offer', name: 'Apple Watch Battery Replacement' },
     { '@type': 'Offer', name: 'Apple Watch Crown Repair' },
@@ -267,10 +267,10 @@ export default function AppleWatchRepairPage() {
                     className={`border-b border-[rgba(255,255,255,0.04)] ${i % 2 === 0 ? '' : 'bg-[rgba(15,234,122,0.02)]'}`}
                   >
                     <td className="text-[#E8F4F1] py-3 pr-4 font-medium">{row.series}</td>
-                    <td className={`py-3 pr-4 font-semibold ${row.screen === '—' ? 'text-[#7A9E98]' : 'text-[#0FEA7A]'}`}>
+                    <td className={`py-3 pr-4 font-semibold ${row.screen === ', ' ? 'text-[#7A9E98]' : 'text-[#0FEA7A]'}`}>
                       {row.screen}
                     </td>
-                    <td className={`py-3 pr-4 font-semibold ${row.battery === '—' ? 'text-[#7A9E98]' : 'text-[#0FEA7A]'}`}>
+                    <td className={`py-3 pr-4 font-semibold ${row.battery === ', ' ? 'text-[#7A9E98]' : 'text-[#0FEA7A]'}`}>
                       {row.battery}
                     </td>
                     <td className="text-[#7A9E98] py-3 text-xs">{row.note}</td>
@@ -301,7 +301,7 @@ export default function AppleWatchRepairPage() {
             </p>
             <p className="text-[#7A9E98] mb-4 leading-relaxed">
               We repair Series 7, 8, and 9, but we require a full assessment first and turnaround is typically
-              4–6 hours rather than 2. Battery replacements on these models are straightforward and
+              4-6 hours rather than 2. Battery replacements on these models are straightforward and
               unaffected by the screen design change.
             </p>
             <p className="text-[#7A9E98] leading-relaxed">

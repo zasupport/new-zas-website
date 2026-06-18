@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or display connector fault.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on movement. Often a loose display cable on Intel-era MacBook Pros, or a GPU fault. Diagnosed before repair.' },
@@ -38,11 +38,11 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you collect MacBooks from Bryanston for screen repairs?',
-    answer: 'Yes. We collect from Bryanston regularly — it is approximately 6 kilometres north-west of our Hyde Park workshop. Whether you are based near Bryanston Shopping Centre, Nicolway, or in the residential areas off Grosvenor Road and Sloane Street, we arrange a collection from your home or office at a time that suits your schedule.',
+    answer: 'Yes. We collect from Bryanston regularly, it is approximately 6 kilometres north-west of our Hyde Park workshop. Whether you are based near Bryanston Shopping Centre, Nicolway, or in the residential areas off Grosvenor Road and Sloane Street, we arrange a collection from your home or office at a time that suits your schedule.',
   },
   {
     question: 'How long does a MacBook screen replacement take?',
-    answer: 'Most screen replacements are completed within 24–48 hours. We carry display assemblies for the most common MacBook models. For less common configurations, we will confirm parts availability and a specific turnaround time when you contact us. Bryanston clients with urgent deadlines should mention this when booking — we prioritise where we can.',
+    answer: 'Most screen replacements are completed within 24-48 hours. We carry display assemblies for the most common MacBook models. For less common configurations, we will confirm parts availability and a specific turnaround time when you contact us. Bryanston clients with urgent deadlines should mention this when booking, we prioritise where we can.',
   },
   {
     question: 'My MacBook screen cracked but it still works. Should I repair it now?',
@@ -50,11 +50,11 @@ const faqs = [
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement means fitting a complete new display assembly — LCD panel, backlight, and outer glass as a single unit — which is the standard approach for physical cracks. Screen repair refers to targeted component-level diagnosis for faults such as backlight failure, flickering, or black screen where the panel itself may still be intact. We always diagnose the exact fault before recommending any replacement.',
+    answer: 'Display replacement means fitting a complete new display assembly, LCD panel, backlight, and outer glass as a single unit, which is the standard approach for physical cracks. Screen repair refers to targeted component-level diagnosis for faults such as backlight failure, flickering, or black screen where the panel itself may still be intact. We always diagnose the exact fault before recommending any replacement.',
   },
   {
     question: 'My MacBook Pro screen flickers when I move the lid. Is that fixable?',
-    answer: 'Yes. Flickering on lid movement is a well-known fault on Intel MacBook Pro models, particularly the 13-inch 2016–2019 Touch Bar range. The display cable runs through the hinge and develops stress fractures with repeated opening and closing. This is a targeted repair — it does not require a full display assembly replacement in most cases, and the outcome is a completely stable display.',
+    answer: 'Yes. Flickering on lid movement is a well-known fault on Intel MacBook Pro models, particularly the 13-inch 2016-2019 Touch Bar range. The display cable runs through the hinge and develops stress fractures with repeated opening and closing. This is a targeted repair, it does not require a full display assembly replacement in most cases, and the outcome is a completely stable display.',
   },
   {
     question: 'Does screen replacement affect Face ID or Touch ID?',
@@ -110,7 +110,7 @@ export default function ScreenRepairBryanstonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Bryanston
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook screen repair and display replacement for Bryanston clients. We collect from Bryanston and carry out the repair at our Hyde Park workshop, approximately 6 kilometres away.
@@ -122,7 +122,7 @@ export default function ScreenRepairBryanstonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Display Replacement' },
-                { icon: Zap, label: '24–48 Hour Turnaround' },
+                { icon: Zap, label: '24-48 Hour Turnaround' },
                 { icon: CheckCircle, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Bryanston' },
               ].map(({ icon: Icon, label }) => (
@@ -155,16 +155,16 @@ export default function ScreenRepairBryanstonPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Bryanston is one of the northern suburbs we collect from most regularly, sitting approximately 6 kilometres north-west of our Hyde Park workshop. It is a predominantly residential area with a strong home-office and small-business presence, and the MacBook is the machine of choice for the majority of clients we see from there — often MacBook Pros used daily for design work, financial modelling, or remote client calls.
+              Bryanston is one of the northern suburbs we collect from most regularly, sitting approximately 6 kilometres north-west of our Hyde Park workshop. It is a predominantly residential area with a strong home-office and small-business presence, and the MacBook is the machine of choice for the majority of clients we see from there, often MacBook Pros used daily for design work, financial modelling, or remote client calls.
             </p>
             <p>
-              A screen fault in that environment brings work to a halt immediately. Whether the display cracked in transit between Nicolway and a client meeting, developed flickering after a software update, or simply stopped showing an image after years of daily use, ZA Support provides a collection service from Bryanston and a fast turnaround at our Hyde Park workshop. Most repairs are completed within 24–48 hours.
+              A screen fault in that environment brings work to a halt immediately. Whether the display cracked in transit between Nicolway and a client meeting, developed flickering after a software update, or simply stopped showing an image after years of daily use, ZA Support provides a collection service from Bryanston and a fast turnaround at our Hyde Park workshop. Most repairs are completed within 24-48 hours.
             </p>
             <p>
-              We repair and replace displays on all MacBook models — MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch across Intel and M-series). Every repair uses quality-matched panels and is backed by a written warranty.
+              We repair and replace displays on all MacBook models, MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch across Intel and M-series). Every repair uses quality-matched panels and is backed by a written warranty.
             </p>
             <p>
-              Not every display fault is a cracked panel. The most common fault we diagnose on Bryanston clients' machines is a failing display cable — particularly on the 2016–2019 Intel MacBook Pro range — which causes intermittent flickering and can be repaired without replacing the entire display assembly. We diagnose the exact cause before any parts are ordered.
+              Not every display fault is a cracked panel. The most common fault we diagnose on Bryanston clients' machines is a failing display cable, particularly on the 2016-2019 Intel MacBook Pro range, which causes intermittent flickering and can be repaired without replacing the entire display assembly. We diagnose the exact cause before any parts are ordered.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function ScreenRepairBryanstonPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Bryanston', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Bryanston — approximately 6 kilometres from our Hyde Park workshop.' },
+              { step: '01', title: 'Collection from Bryanston', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Bryanston, approximately 6 kilometres from our Hyde Park workshop.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify whether the fault is a physical panel, backlight, cable, or board-level issue. This determines the correct repair approach and cost.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering the fault, repair method, and timeframe. No work starts until you approve in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where possible, full display replacement where necessary. Quality-matched panel fitted by our technician.' },
@@ -260,7 +260,7 @@ export default function ScreenRepairBryanstonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Bryanston MacBook Screen Issue? We Collect.</h2>
-            <p className="text-[#7A9E98] mb-6">24–48 hour turnaround. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">24-48 hour turnaround. Written warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-BRYANSTON-HERO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp for Quote

@@ -60,47 +60,47 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Pro 14″ M1 Pro / M1 Max (A2442, 2021)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R4,999', turnaround: '48–72 hrs' },
-  { model: 'MacBook Pro 14″ M2 Pro / M2 Max (A2779, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R5,499', turnaround: '48–72 hrs' },
-  { model: 'MacBook Pro 14″ M3 / M3 Pro / M3 Max (A2918, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R5,999', turnaround: '48–72 hrs' },
-  { model: 'MacBook Pro 14″ M4 / M4 Pro / M4 Max (A2992, 2024)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R6,499', turnaround: '48–72 hrs' },
+  { model: 'MacBook Pro 14″ M1 Pro / M1 Max (A2442, 2021)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R4,999', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ M2 Pro / M2 Max (A2779, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R5,499', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ M3 / M3 Pro / M3 Max (A2918, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R5,999', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ M4 / M4 Pro / M4 Max (A2992, 2024)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R6,499', turnaround: '48-72 hrs' },
 ];
 
 const faultTypes = [
   {
     title: 'Mini-LED Backlight Zone Failure',
     icon: Zap,
-    desc: 'The MacBook Pro 14-inch Liquid Retina XDR display uses a backlight array of over 10,000 individual mini-LEDs arranged in local dimming zones. When one or more zones fail, the affected area of the screen displays as a dark patch — distinct from a cracked panel because the glass is intact. This fault can develop gradually (the dark area grows over weeks) or suddenly after a voltage event. Load shedding restoration surges have caused this fault on several 14-inch MacBook Pros we have seen in Johannesburg. The display assembly must be replaced; the mini-LED array is not field-serviceable at zone level.',
+    desc: 'The MacBook Pro 14-inch Liquid Retina XDR display uses a backlight array of over 10,000 individual mini-LEDs arranged in local dimming zones. When one or more zones fail, the affected area of the screen displays as a dark patch, distinct from a cracked panel because the glass is intact. This fault can develop gradually (the dark area grows over weeks) or suddenly after a voltage event. Load shedding restoration surges have caused this fault on several 14-inch MacBook Pros we have seen in Johannesburg. The display assembly must be replaced; the mini-LED array is not field-serviceable at zone level.',
     severity: 'high',
   },
   {
     title: 'Liquid Retina XDR Delamination',
     icon: Eye,
-    desc: 'Liquid entry into the display assembly causes the bonding adhesive between the mini-LED backlight and the IPS panel to break down. The result is spreading grey or iridescent patches — usually starting from the edges and moving inward. The display glass may appear completely intact. This delamination fault is not reversible; the full display assembly must be replaced. Apple charges R15,000 to R20,000 for this repair on the 14-inch models. We provide a written fixed-price quote before any work begins — typically R4,999 to R6,499 depending on the chip generation.',
+    desc: 'Liquid entry into the display assembly causes the bonding adhesive between the mini-LED backlight and the IPS panel to break down. The result is spreading grey or iridescent patches, usually starting from the edges and moving inward. The display glass may appear completely intact. This delamination fault is not reversible; the full display assembly must be replaced. Apple charges R15,000 to R20,000 for this repair on the 14-inch models. We provide a written fixed-price quote before any work begins, typically R4,999 to R6,499 depending on the chip generation.',
     severity: 'high',
   },
   {
     title: 'ProMotion Refresh Rate Fault',
     icon: Monitor,
-    desc: 'The 14-inch MacBook Pro ProMotion display dynamically adjusts its refresh rate between 24Hz and 120Hz depending on the content on screen. When the display cable develops a fault or the ZIF connector at the logic board end is partially unseated, ProMotion can lose its dynamic range — the display either locks at 60Hz or stutters between rates. This manifests as video that looks slightly motion-blurred when it should be smooth, or a flickering effect during cursor movement. We diagnose this by testing the display cable continuity before recommending a replacement.',
+    desc: 'The 14-inch MacBook Pro ProMotion display dynamically adjusts its refresh rate between 24Hz and 120Hz depending on the content on screen. When the display cable develops a fault or the ZIF connector at the logic board end is partially unseated, ProMotion can lose its dynamic range, the display either locks at 60Hz or stutters between rates. This manifests as video that looks slightly motion-blurred when it should be smooth, or a flickering effect during cursor movement. We diagnose this by testing the display cable continuity before recommending a replacement.',
     severity: 'medium',
   },
   {
     title: 'Notch Camera and Sensor Failure',
     icon: Cpu,
-    desc: 'The MacBook Pro 14-inch (2021 onwards) introduced a display notch housing the FaceTime camera, TrueTone sensor, and ambient light sensor. The camera and sensor array connect to the display flex cable; damage to the cable — from a hinge collision or partial delamination — can disable the camera independently of the main display. A black display with working camera, or a working display with dead camera, helps us narrow the fault to a specific section of the assembly before disassembly.',
+    desc: 'The MacBook Pro 14-inch (2021 onwards) introduced a display notch housing the FaceTime camera, TrueTone sensor, and ambient light sensor. The camera and sensor array connect to the display flex cable; damage to the cable, from a hinge collision or partial delamination, can disable the camera independently of the main display. A black display with working camera, or a working display with dead camera, helps us narrow the fault to a specific section of the assembly before disassembly.',
     severity: 'medium',
   },
   {
     title: 'Display Cable Damage at ZIF Connector',
     icon: AlertTriangle,
-    desc: 'The 14-inch MacBook Pro uses a wider eDP display cable with a ZIF (zero insertion force) connector at the logic board end. This connector has a locking latch that, if forced during a previous repair or a significant fall, can crack or partially disengage. The symptom is display output that works intermittently — fine when closed but flickering or absent when opened to certain angles. We always inspect the ZIF connector and latch during assessment before attributing the fault to the panel.',
+    desc: 'The 14-inch MacBook Pro uses a wider eDP display cable with a ZIF (zero insertion force) connector at the logic board end. This connector has a locking latch that, if forced during a previous repair or a significant fall, can crack or partially disengage. The symptom is display output that works intermittently, fine when closed but flickering or absent when opened to certain angles. We always inspect the ZIF connector and latch during assessment before attributing the fault to the panel.',
     severity: 'medium',
   },
   {
     title: 'Cracked Liquid Retina XDR Panel',
     icon: AlertTriangle,
-    desc: 'A direct impact to the 14-inch MacBook Pro lid — a corner drop, a bag closure on a hard object — can crack the Liquid Retina XDR panel. Because the panel is bonded to the housing assembly, the full display unit must be replaced. Unlike the older 13-inch MacBook Pros where a cracked panel is a relatively affordable fix, the 14-inch Liquid Retina XDR assembly is more expensive to source and replace. We test every replacement assembly across five display test patterns including ProMotion, True Tone, and wide colour gamut before the machine leaves our workshop.',
+    desc: 'A direct impact to the 14-inch MacBook Pro lid, a corner drop, a bag closure on a hard object, can crack the Liquid Retina XDR panel. Because the panel is bonded to the housing assembly, the full display unit must be replaced. Unlike the older 13-inch MacBook Pros where a cracked panel is a relatively affordable fix, the 14-inch Liquid Retina XDR assembly is more expensive to source and replace. We test every replacement assembly across five display test patterns including ProMotion, True Tone, and wide colour gamut before the machine leaves our workshop.',
     severity: 'high',
   },
 ];
@@ -132,47 +132,47 @@ const faqs = [
   {
     question: 'What makes the MacBook Pro 14-inch display different from the 13-inch?',
     answer:
-      'The 14-inch MacBook Pro (2021 onwards) uses a Liquid Retina XDR display — a fundamentally different technology from the IPS LCD used in the 13-inch. The XDR display has a mini-LED backlight with over 10,000 individual LEDs in local dimming zones, delivering 1,600 nits peak brightness and a 1,000,000:1 contrast ratio. It also supports ProMotion adaptive refresh rate (24–120Hz) and ships with the display notch. The assembly is thicker, heavier, and more expensive to replace than the 13-inch panel.',
+      'The 14-inch MacBook Pro (2021 onwards) uses a Liquid Retina XDR display, a fundamentally different technology from the IPS LCD used in the 13-inch. The XDR display has a mini-LED backlight with over 10,000 individual LEDs in local dimming zones, delivering 1,600 nits peak brightness and a 1,000,000:1 contrast ratio. It also supports ProMotion adaptive refresh rate (24-120Hz) and ships with the display notch. The assembly is thicker, heavier, and more expensive to replace than the 13-inch panel.',
   },
   {
     question: 'Can you repair a MacBook Pro 14-inch screen that has dark patches but no cracks?',
     answer:
-      'Yes. Dark patches without visible cracks on a 14-inch MacBook Pro typically indicate mini-LED backlight zone failure or delamination of the bonding layer between the backlight and the IPS panel. Both conditions require display assembly replacement. We confirm the diagnosis before quoting — in some cases, what appears to be a dead zone is actually a display cable fault producing a localised signal loss, which is a different (and cheaper) repair.',
+      'Yes. Dark patches without visible cracks on a 14-inch MacBook Pro typically indicate mini-LED backlight zone failure or delamination of the bonding layer between the backlight and the IPS panel. Both conditions require display assembly replacement. We confirm the diagnosis before quoting, in some cases, what appears to be a dead zone is actually a display cable fault producing a localised signal loss, which is a different (and cheaper) repair.',
   },
   {
     question: 'Will ProMotion still work after a MacBook Pro 14-inch screen repair?',
     answer:
-      'Yes, if you use a genuine-equivalent assembly. ProMotion requires a display assembly that supports the adaptive sync protocol used by the Apple Silicon GPU. We source display assemblies that are fully compatible with ProMotion and test adaptive refresh rate after every repair. A non-compatible panel will lock at 60Hz — something we verify before the machine leaves the workshop.',
+      'Yes, if you use a genuine-equivalent assembly. ProMotion requires a display assembly that supports the adaptive sync protocol used by the Apple Silicon GPU. We source display assemblies that are fully compatible with ProMotion and test adaptive refresh rate after every repair. A non-compatible panel will lock at 60Hz, something we verify before the machine leaves the workshop.',
   },
   {
-    question: 'My MacBook Pro 14-inch camera stopped working after a display repair elsewhere — can you fix this?',
+    question: 'My MacBook Pro 14-inch camera stopped working after a display repair elsewhere, can you fix this?',
     answer:
-      'This is a known consequence of incorrect display assembly installation on the 14-inch MacBook Pro. The FaceTime camera and TrueTone sensor sit in the display notch and connect via the display flex cable. If the cable was not seated correctly or the previous repairer used an assembly with a different camera module, the camera will be disabled. Bring the machine in — we assess the cable routing, connector seating, and camera module compatibility to determine the fix.',
+      'This is a known consequence of incorrect display assembly installation on the 14-inch MacBook Pro. The FaceTime camera and TrueTone sensor sit in the display notch and connect via the display flex cable. If the cable was not seated correctly or the previous repairer used an assembly with a different camera module, the camera will be disabled. Bring the machine in, we assess the cable routing, connector seating, and camera module compatibility to determine the fix.',
   },
   {
     question: 'How long does MacBook Pro 14-inch screen repair take?',
     answer:
-      'MacBook Pro 14-inch screen repairs typically take 48 to 72 hours. The Liquid Retina XDR assembly requires careful installation — the mini-LED array is sensitive to static and the ZIF connectors require precise handling. After installation, we run a minimum 2-hour burn-in test covering brightness uniformity, ProMotion response, and True Tone calibration before the machine is returned. We will give you a confirmed ready time when you drop the machine off.',
+      'MacBook Pro 14-inch screen repairs typically take 48 to 72 hours. The Liquid Retina XDR assembly requires careful installation, the mini-LED array is sensitive to static and the ZIF connectors require precise handling. After installation, we run a minimum 2-hour burn-in test covering brightness uniformity, ProMotion response, and True Tone calibration before the machine is returned. We will give you a confirmed ready time when you drop the machine off.',
   },
   {
     question: 'Does True Tone work after MacBook Pro 14-inch screen replacement?',
     answer:
-      'Yes. True Tone calibration data on the 14-inch MacBook Pro is stored in the display assembly. We transfer this data to the replacement assembly during every repair. After the repair, True Tone shows as active in System Settings — it does not display "Not Available". This is a step that inexperienced repairers frequently miss, permanently disabling True Tone.',
+      'Yes. True Tone calibration data on the 14-inch MacBook Pro is stored in the display assembly. We transfer this data to the replacement assembly during every repair. After the repair, True Tone shows as active in System Settings, it does not display "Not Available". This is a step that inexperienced repairers frequently miss, permanently disabling True Tone.',
   },
   {
     question: 'Is MacBook Pro 14-inch screen repair covered by AppleCare+?',
     answer:
-      'AppleCare+ covers accidental damage with an excess payment — currently around R1,499 to R2,999 per incident for the MacBook Pro 14-inch. If your Mac is within the AppleCare+ coverage period and the damage qualifies, this may be the most cost-effective route. If your Mac is out of AppleCare+, ZA Support typically charges 60–75% less than the Apple Store for the same repair, with a comparable or longer warranty.',
+      'AppleCare+ covers accidental damage with an excess payment, currently around R1,499 to R2,999 per incident for the MacBook Pro 14-inch. If your Mac is within the AppleCare+ coverage period and the damage qualifies, this may be the most cost-effective route. If your Mac is out of AppleCare+, ZA Support typically charges 60-75% less than the Apple Store for the same repair, with a comparable or longer warranty.',
   },
   {
-    question: 'My MacBook Pro 14-inch screen flickers when the lid is at certain angles — what is causing this?',
+    question: 'My MacBook Pro 14-inch screen flickers when the lid is at certain angles, what is causing this?',
     answer:
       'Flickering that correlates with lid angle on the 14-inch MacBook Pro is almost always a display cable fault. The eDP cable connecting the Liquid Retina XDR assembly to the logic board passes through the hinge assembly. If the cable is partially fractured or the ZIF connector at the logic board end is partially unseated, the display signal becomes intermittent at certain cable bend angles. We test this by slowly opening and closing the lid while monitoring the display during assessment.',
   },
   {
     question: 'What is the difference between M1 Pro, M2 Pro, M3 Pro, and M4 Pro screen repairs?',
     answer:
-      'The display assembly specification is identical across all 14-inch generations — 3024×1964 Liquid Retina XDR mini-LED. However, each chip generation uses a different A-series model number (A2442, A2779, A2918, A2992) and the display connector routing changed slightly between generations. We stock or source assemblies specific to each model number. Repair prices increase with each generation primarily because newer-generation assemblies cost more to source.',
+      'The display assembly specification is identical across all 14-inch generations, 3024×1964 Liquid Retina XDR mini-LED. However, each chip generation uses a different A-series model number (A2442, A2779, A2918, A2992) and the display connector routing changed slightly between generations. We stock or source assemblies specific to each model number. Repair prices increase with each generation primarily because newer-generation assemblies cost more to source.',
   },
   {
     question: 'Can a MacBook Pro 14-inch with a cracked screen still be used with an external display?',
@@ -203,11 +203,11 @@ export default function ScreenRepairMacBookPro14Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid Retina XDR mini-LED repair across all 14-inch MacBook Pro generations — M1 Pro/Max through to M4 Pro/Max. Dark patches, ProMotion faults, delamination, cracked panels. Written quote before any work. Assessment from R599.
+              Liquid Retina XDR mini-LED repair across all 14-inch MacBook Pro generations, M1 Pro/Max through to M4 Pro/Max. Dark patches, ProMotion faults, delamination, cracked panels. Written quote before any work. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 14″ from R4,999 | 48–72 hr turnaround</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 14″ from R4,999 | 48-72 hr turnaround</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -292,7 +292,7 @@ export default function ScreenRepairMacBookPro14Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -301,22 +301,22 @@ export default function ScreenRepairMacBookPro14Page() {
       {/* Technical Expertise */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Liquid Retina XDR — Our Approach</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Liquid Retina XDR, Our Approach</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              The MacBook Pro 14-inch (2021 onwards) introduced the most significant display technology change in the MacBook Pro's history. The Liquid Retina XDR panel uses a mini-LED backlight with 10,000+ individually controlled LEDs arranged across 2,500 local dimming zones — a stark contrast to the single-zone LED backlight used in all previous MacBook Pro models.
+              The MacBook Pro 14-inch (2021 onwards) introduced the most significant display technology change in the MacBook Pro's history. The Liquid Retina XDR panel uses a mini-LED backlight with 10,000+ individually controlled LEDs arranged across 2,500 local dimming zones, a stark contrast to the single-zone LED backlight used in all previous MacBook Pro models.
             </p>
             <p>
-              In our Hyde Park workshop, we treat every 14-inch display repair with a different protocol from the 13-inch repairs. The mini-LED assembly is sensitive to electrostatic discharge — we work on an ESD mat with grounded wrist straps throughout. The ZIF connector on the Liquid Retina XDR cable is wider than on the 13-inch and requires a different release tool. Post-installation, we run a minimum 2-hour burn-in including a grid test, full-white, full-black, and HDR video to confirm backlight zone uniformity.
+              In our Hyde Park workshop, we treat every 14-inch display repair with a different protocol from the 13-inch repairs. The mini-LED assembly is sensitive to electrostatic discharge, we work on an ESD mat with grounded wrist straps throughout. The ZIF connector on the Liquid Retina XDR cable is wider than on the 13-inch and requires a different release tool. Post-installation, we run a minimum 2-hour burn-in including a grid test, full-white, full-black, and HDR video to confirm backlight zone uniformity.
             </p>
             <p>
-              ProMotion is a feature that many repairers do not test after installation. The 14-inch MacBook Pro dynamically adjusts between 24Hz and 120Hz based on content — you will notice this as the cursor gliding exceptionally smoothly on the desktop. A non-compatible replacement assembly or a misrouted cable can disable ProMotion entirely, leaving the display locked at 60Hz. We test adaptive refresh rate explicitly before every machine leaves the workshop.
+              ProMotion is a feature that many repairers do not test after installation. The 14-inch MacBook Pro dynamically adjusts between 24Hz and 120Hz based on content, you will notice this as the cursor gliding exceptionally smoothly on the desktop. A non-compatible replacement assembly or a misrouted cable can disable ProMotion entirely, leaving the display locked at 60Hz. We test adaptive refresh rate explicitly before every machine leaves the workshop.
             </p>
             <p>
-              Load shedding events in Johannesburg have caused mini-LED zone failure on several 14-inch MacBook Pros we have assessed. The voltage characteristics of South Africa's grid restoration events appear to stress the backlight driver circuitry on these models more than the Intel Retina MacBook Pros. We advise clients to use a quality UPS or surge protector — particularly during Stage 4 and above load shedding.
+              Load shedding events in Johannesburg have caused mini-LED zone failure on several 14-inch MacBook Pros we have assessed. The voltage characteristics of South Africa's grid restoration events appear to stress the backlight driver circuitry on these models more than the Intel Retina MacBook Pros. We advise clients to use a quality UPS or surge protector, particularly during Stage 4 and above load shedding.
             </p>
             <p>
-              For the most up-to-date repairability information on the MacBook Pro 14-inch, the iFixit teardown provides useful context on the assembly architecture — though the component-level detail on ProMotion and mini-LED servicing requires hands-on experience we have built over hundreds of repairs.
+              For the most up-to-date repairability information on the MacBook Pro 14-inch, the iFixit teardown provides useful context on the assembly architecture, though the component-level detail on ProMotion and mini-LED servicing requires hands-on experience we have built over hundreds of repairs.
             </p>
           </div>
           <div className="mt-6">
@@ -358,7 +358,7 @@ export default function ScreenRepairMacBookPro14Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee applies — if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. No Fix No Fee applies, if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -369,15 +369,15 @@ export default function ScreenRepairMacBookPro14Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple iStore vs ZA Support: MacBook Pro 14-Inch Screen Repair</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple charges between R15,000 and R20,000 for a MacBook Pro 14-inch display assembly replacement. We charge a fraction of that — with the same or better warranty.
+            Apple charges between R15,000 and R20,000 for a MacBook Pro 14-inch display assembly replacement. We charge a fraction of that, with the same or better warranty.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Liquid Retina XDR replacement — R15,000 to R20,000+</li>
+                <li>Liquid Retina XDR replacement, R15,000 to R20,000+</li>
                 <li>Accidental damage not covered by standard warranty</li>
-                <li>Turnaround 5–10 business days via Apple depot</li>
+                <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>ProMotion verified but True Tone requires Apple Configurator</li>
                 <li>No camera module compatibility check offered</li>
                 <li>No component-level backlight repair available</li>
@@ -389,7 +389,7 @@ export default function ScreenRepairMacBookPro14Page() {
                 <li>MacBook Pro 14″ screen repair from R4,999</li>
                 <li>Full diagnostic before any part replacement</li>
                 <li>True Tone + ProMotion verified after every repair</li>
-                <li>Turnaround 48–72 hours from drop-off</li>
+                <li>Turnaround 48-72 hours from drop-off</li>
                 <li>Camera module compatibility confirmed before install</li>
                 <li>Up-to-3 year warranty on completed repairs</li>
               </ul>
@@ -401,9 +401,9 @@ export default function ScreenRepairMacBookPro14Page() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Screen Repair — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Screen Repair, Johannesburg Service Area</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            Our Hyde Park workshop is 10–20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton.
+            Our Hyde Park workshop is 10-20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, Sunninghill, and Houghton.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
@@ -433,7 +433,7 @@ export default function ScreenRepairMacBookPro14Page() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro 14-Inch Screen Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro 14-Inch Screen Repair, Common Questions" />
         </div>
       </section>
 
@@ -447,9 +447,9 @@ export default function ScreenRepairMacBookPro14Page() {
               { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
               { label: 'MacBook Pro 13-Inch Screen', href: '/screen-repair/macbook-pro-13-inch' },
               { label: 'MacBook Pro 16-Inch Screen', href: '/screen-repair/macbook-pro-16-inch' },
-              { label: 'Logic Board — MacBook Pro 14″', href: '/logic-board-repair/macbook-pro-14-inch' },
+              { label: 'Logic Board, MacBook Pro 14″', href: '/logic-board-repair/macbook-pro-14-inch' },
               { label: 'MacBook Pro Liquid Damage', href: '/liquid-damage' },
-              { label: 'Screen Repair — Sandton', href: '/screen-repair/sandton' },
+              { label: 'Screen Repair, Sandton', href: '/screen-repair/sandton' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="glass-card p-4 text-center group">

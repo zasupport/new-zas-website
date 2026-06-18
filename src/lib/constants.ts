@@ -1,5 +1,5 @@
 // Google rating + review count are kept accurate by ~/bin/za-gbp-review-sync.sh
-// (daily GBP API pull → src/data/google-rating.json). Plain text only — never
+// (daily GBP API pull → src/data/google-rating.json). Plain text only, never
 // AggregateRating schema (§166). Edit the JSON's source, not these lines.
 import googleRating from '@/data/google-rating.json';
 
@@ -37,7 +37,7 @@ export const CONTACT = {
     full: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg, 2196',
   },
   hours: {
-    weekdays: 'Mon–Thu: 08:00 – 17:00, Fri: 08:00 – 16:30',
+    weekdays: 'Mon-Thu: 08:00 - 17:00, Fri: 08:00 - 16:30',
     saturday: 'Closed Saturdays',
     sunday: 'Closed Sundays & Public Holidays',
   },
@@ -79,8 +79,8 @@ export const NAV_LINKS: NavLink[] = [
     label: 'Mac Models',
     href: '/apple-repair',
     children: [
-      { label: 'MacBook Pro Repair', href: '/macbook-pro-repair', desc: 'All models inc M1–M4' },
-      { label: 'MacBook Air Repair', href: '/macbook-air-repair', desc: 'All models inc M1–M3' },
+      { label: 'MacBook Pro Repair', href: '/macbook-pro-repair', desc: 'All models inc M1-M4' },
+      { label: 'MacBook Air Repair', href: '/macbook-air-repair', desc: 'All models inc M1-M3' },
       { label: 'iMac Repair', href: '/imac-repair', desc: 'iMac logic board & display' },
       { label: 'Mac Mini Repair', href: '/mac-mini-repair', desc: 'Mac Mini all generations' },
       { label: 'MacBook Not Turning On', href: '/macbook-not-turning-on', desc: 'Startup fault diagnosis' },

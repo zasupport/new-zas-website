@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'How much does Apple Support cost?',
     answer:
-      'Contact us for a quote, most single-issue sessions take 1–2 hours. Setup and migration is quoted at a flat rate depending on data size and complexity. Business support and managed services are charged monthly, see our Managed Services page.',
+      'Contact us for a quote, most single-issue sessions take 1-2 hours. Setup and migration is quoted at a flat rate depending on data size and complexity. Business support and managed services are charged monthly, see our Managed Services page.',
   },
 ];
 
@@ -200,7 +200,7 @@ export default function AppleSupportPage() {
 
       <OrphanLinks
         sectionTitle="Apple support tailored to your context"
-        intro="Some clients have specific compliance and operational requirements that shape what Apple support actually needs to look like — most notably medical practices working with patient data under POPIA and HPCSA guidance."
+        intro="Some clients have specific compliance and operational requirements that shape what Apple support actually needs to look like, most notably medical practices working with patient data under POPIA and HPCSA guidance."
         groups={[
           { heading: 'By client context', links: orphanAppleSupportLinks },
         ]}
@@ -212,7 +212,7 @@ export default function AppleSupportPage() {
         </div>
       </section>
 
-      {/* Google Reviews — sourced from GBP (TEST-2 importer, 26/05/2026) */}
+      {/* Google Reviews, sourced from GBP (TEST-2 importer, 26/05/2026) */}
       <GoogleReviews count={6} />
 
       <section className="py-16 bg-[#111C1A]">

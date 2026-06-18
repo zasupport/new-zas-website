@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-// WhatsApp tracking redirect — logs clicks, redirects to wa.me URL.
+// WhatsApp tracking redirect, logs clicks, redirects to wa.me URL.
 // wa.me does not support UTM params, so clicks are tracked server-side.
 
 const SERVICE_MAP: Record<string, string> = {
@@ -21,9 +21,9 @@ export async function GET(request: NextRequest) {
   const rawService = searchParams.get('service') ?? 'general';
   const rawPage = searchParams.get('page') ?? '/';
 
-  // Whitelist service values — reject anything not in the map
+  // Whitelist service values, reject anything not in the map
   const service = SERVICE_MAP[rawService] ? rawService : 'general';
-  // Sanitise page param — only allow alphanumeric, hyphens, slashes
+  // Sanitise page param, only allow alphanumeric, hyphens, slashes
   const page = /^[a-zA-Z0-9\-\/]+$/.test(rawPage) ? rawPage : '/';
 
   // Build ref code from service + page for tracking
@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
   const textParam = `${SERVICE_MAP[service]} [REF:${ref}]`;
   const waUrl = `${BASE_WA}?text=${encodeURIComponent(textParam)}`;
 
-  // Log click via structured console.log (captured by Vercel log drain — no filesystem)
+  // Log click via structured console.log (captured by Vercel log drain, no filesystem)
   console.log(JSON.stringify({
     event: 'wa_click',
     ts: new Date().toISOString(),
@@ -46,7 +46,7 @@ export async function GET(request: NextRequest) {
 
   const response = NextResponse.redirect(waUrl, { status: 302 });
 
-  // Track returning visitors — 30 day expiry, secure + httpOnly
+  // Track returning visitors, 30 day expiry, secure + httpOnly
   response.cookies.set('za_wa_click', '1', {
     maxAge: 60 * 60 * 24 * 30,
     path: '/',

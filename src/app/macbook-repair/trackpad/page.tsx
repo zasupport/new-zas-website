@@ -28,12 +28,12 @@ export const metadata: Metadata = {
 
 const pricingRows = [
   { model: 'MacBook Air M1 / M2 / M3', note: 'Flex cable or full replacement' },
-  { model: 'MacBook Air 13" Intel (2018–2020)', note: '' },
+  { model: 'MacBook Air 13" Intel (2018-2020)', note: '' },
   { model: 'MacBook Pro 13" M1 / M2', note: '' },
   { model: 'MacBook Pro 14" M2 / M3 / M4', note: '' },
   { model: 'MacBook Pro 16" M2 / M3 / M4', note: '' },
-  { model: 'MacBook Pro Intel 13" (2016–2020)', note: '' },
-  { model: 'MacBook Pro Intel 15" (2016–2019)', note: '' },
+  { model: 'MacBook Pro Intel 13" (2016-2020)', note: '' },
+  { model: 'MacBook Pro Intel 15" (2016-2019)', note: '' },
   { model: 'Battery replacement (if cause)', note: 'Combined with trackpad job' },
   { model: 'Flex cable only', note: 'Where cable is the sole fault' },
 ];
@@ -103,7 +103,7 @@ const faqs = [
   },
   {
     question: 'Can you fix a MacBook trackpad without replacing the whole top case?',
-    answer: 'Yes. On all current MacBook models the trackpad is a separate replaceable component and does not require a full top case replacement. The butterfly-era MacBook Pros (2016–2019) had the keyboard riveted to the top case, but the trackpad was always separate. Apple charges for a full top case replacement in these situations, we do not. We replace only what is faulty.',
+    answer: 'Yes. On all current MacBook models the trackpad is a separate replaceable component and does not require a full top case replacement. The butterfly-era MacBook Pros (2016-2019) had the keyboard riveted to the top case, but the trackpad was always separate. Apple charges for a full top case replacement in these situations, we do not. We replace only what is faulty.',
   },
   {
     question: 'Is the MacBook trackpad covered under the Apple warranty?',

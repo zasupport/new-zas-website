@@ -57,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/macbook-repair/keyboard`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/trackpad`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-repair/charging-port`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    // §401 corrective 25/05/2026: removed /macbook-repair/liquid-damage + /macbook-repair/logic-board —
+    // §401 corrective 25/05/2026: removed /macbook-repair/liquid-damage + /macbook-repair/logic-board, 
     // both are redirect-only stubs (308 → /liquid-damage, /logic-board-repair). The redirects remain
     // for user-typed/old-backlink URLs but the URLs must not be advertised in sitemap.
 
@@ -189,7 +189,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/iphone-repair/charging`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/iphone-repair/back-glass`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${base}/iphone-repair/camera`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    // §401 corrective 25/05/2026: removed /iphone-repair/liquid-damage — redirect-only stub (308 → /liquid-damage/iphone). Redirect retained for old URLs.
+    // §401 corrective 25/05/2026: removed /iphone-repair/liquid-damage, redirect-only stub (308 → /liquid-damage/iphone). Redirect retained for old URLs.
 
     // iPad repair sub-pages
     { url: `${base}/ipad-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -209,7 +209,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Mac Mini repair
     { url: `${base}/mac-mini-repair`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
 
-    // Business services — sector pages
+    // Business services, sector pages
     { url: `${base}/enterprise`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/sme-support`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/medical-it`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
@@ -222,13 +222,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/managed-services/unifi-networking`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/managed-services/wealth-management`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/apple-support/medical-practices`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
-    // §401 corrective 25/05/2026: removed /apple-support/business + /apple-support/enterprise —
+    // §401 corrective 25/05/2026: removed /apple-support/business + /apple-support/enterprise, 
     // both are redirect-only stubs (308 → /managed-services, /jamf-mdm). Redirects retained.
 
 
-    // §401 corrective 25/05/2026: removed /ipad-repair/liquid-damage — redirect-only stub (308 → /liquid-damage/ipad). Redirect retained.
+    // §401 corrective 25/05/2026: removed /ipad-repair/liquid-damage, redirect-only stub (308 → /liquid-damage/ipad). Redirect retained.
 
-    // Assessment Process — transparent pricing page
+    // Assessment Process, transparent pricing page
     { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
 
     // Author pages
@@ -244,7 +244,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Blog
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
-    // §346/§402 reconciliation 10/06/2026 — live-200 posts that were absent from sitemap (3-way slug set-diff vs blog data)
+    // §346/§402 reconciliation 10/06/2026, live-200 posts that were absent from sitemap (3-way slug set-diff vs blog data)
     { url: `${base}/blog/mac-repair-rivonia-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-liquid-damage-repair-bryanston`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/managed-it-medical-practice-morningside-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
@@ -279,7 +279,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/macbook-wifi-keeps-disconnecting`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-logic-board-symptoms-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.75 },
 
-    // Auto-generated suburb pages — overnight batch
+    // Auto-generated suburb pages, overnight batch
     { url: `${base}/logic-board-repair/pretoria`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/battery-replacement/pretoria`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/pretoria`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
@@ -353,7 +353,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-pro-m1-logic-board-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-trackpad-not-clicking-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
 
-    // Complete service/suburb/model pages — auto-synced 30/03/2026
+    // Complete service/suburb/model pages, auto-synced 30/03/2026
     { url: `${base}/battery-replacement/macbook-pro-13-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/macbook-pro-14-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/macbook-pro-m1`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
@@ -370,7 +370,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/battery-replacement/macbook-air-m3`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/battery-replacement/macbook-pro-16-inch`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
 
-    // Troubleshooting guides (HowTo schema — featured snippet targets)
+    // Troubleshooting guides (HowTo schema, featured snippet targets)
     { url: `${base}/guides`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${base}/guides/macbook-not-turning-on`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/guides/macbook-water-damage-what-to-do`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
@@ -384,7 +384,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-repair-dainfern-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/managed-it-law-firm-apple-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
 
-    // §194/§223 New suburb pages — TIER 1 ≤20km and TIER 2 20-60km from Hyde Park
+    // §194/§223 New suburb pages, TIER 1 ≤20km and TIER 2 20-60km from Hyde Park
     { url: `${base}/logic-board-repair/melrose`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/liquid-damage/melrose`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/screen-repair/melrose`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },

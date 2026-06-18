@@ -23,7 +23,7 @@ function buildClientReplyUrl(name: string, phone: string, issue: string): string
 
 // ─── IP-based rate limiting ────────────────────────────────────────────────
 // 5 requests per IP per 60 seconds. Module-level store persists within a warm
-// Lambda instance. Cold-start resets are acceptable — provides meaningful
+// Lambda instance. Cold-start resets are acceptable, provides meaningful
 // protection against rapid-fire bot bursts within the same request window.
 const rateLimitStore = new Map<string, { count: number; resetAt: number }>();
 const RATE_LIMIT_MAX = 5;
@@ -65,7 +65,7 @@ function looksLikeBot(name: string, email: string, issue: string): boolean {
 
 export async function POST(request: NextRequest) {
   try {
-    // ── Rate limit check — first, before any other processing ────────────────
+    // ── Rate limit check, first, before any other processing ────────────────
     const ip =
       request.headers.get('x-forwarded-for')?.split(',')[0].trim() ||
       request.headers.get('x-real-ip') ||
@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
     const { limited, remaining } = checkRateLimit(ip);
     if (limited) {
       return NextResponse.json(
-        { error: 'Too many requests — please wait before trying again.' },
+        { error: 'Too many requests, please wait before trying again.' },
         {
           status: 429,
           headers: {
@@ -88,12 +88,12 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { name, email, phone, device, issue, urgency, _hp, _ts } = body;
 
-    // Honeypot — bots fill hidden fields, humans don't
+    // Honeypot, bots fill hidden fields, humans don't
     if (_hp) {
-      return NextResponse.json({ success: true }); // Silent discard — 200 so bots think it worked
+      return NextResponse.json({ success: true }); // Silent discard, 200 so bots think it worked
     }
 
-    // Time gate — legitimate users take >3 seconds to fill a form
+    // Time gate, legitimate users take >3 seconds to fill a form
     if (_ts && typeof _ts === 'number' && Date.now() - _ts < 3000) {
       return NextResponse.json({ success: true }); // Silent discard
     }
@@ -103,7 +103,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
 
-    // Content-based bot detection — silently discard, return 200 so bot doesn't retry
+    // Content-based bot detection, silently discard, return 200 so bot doesn't retry
     if (looksLikeBot(String(name), String(email), String(issue))) {
       console.log(`[contact] bot-filtered: name="${String(name).slice(0, 20)}" email="${String(email).slice(0, 30)}"`);
       return NextResponse.json({ success: true });
@@ -156,7 +156,7 @@ export async function POST(request: NextRequest) {
     await resend.emails.send({
       from: 'ZA Support Website <admin@zasupport.com>',
       to: ['mary@zasupport.com'],
-      subject: `[${safeUrgency}] New Enquiry — ${safeDevice || 'Unknown device'} — ${safeName}`,
+      subject: `[${safeUrgency}] New Enquiry, ${safeDevice || 'Unknown device'}, ${safeName}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #0FEA7A; border-bottom: 2px solid #0FEA7A; padding-bottom: 8px;">New Website Enquiry</h2>
@@ -184,7 +184,7 @@ export async function POST(request: NextRequest) {
     await resend.emails.send({
       from: 'ZA Support <admin@zasupport.com>',
       to: [emailStr],
-      subject: "Your ZA Support Enquiry — We'll Be in Touch",
+      subject: "Your ZA Support Enquiry, We'll Be in Touch",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #0FEA7A;">Thank you, ${safeName}.</h2>
@@ -197,7 +197,7 @@ export async function POST(request: NextRequest) {
           <hr style="border: 1px solid #eee; margin: 24px 0;" />
           <p style="color: #666; font-size: 14px;">
             ZA Support | 1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg<br/>
-            Mon–Thu: 08:00–17:00 · Fri: 08:00–16:30 · Closed Weekends
+            Mon-Thu: 08:00-17:00 · Fri: 08:00-16:30 · Closed Weekends
           </p>
         </div>
       `,

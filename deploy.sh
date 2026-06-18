@@ -52,6 +52,13 @@ npm run build
 echo "→ Scanning RENDERED HTML for visible banned-content leaks..."
 python3 scripts/scan-rendered-leaks.py || { echo "ERROR: rendered-leak gate FAILED — aborting deploy. Fix: python3 scripts/blog_content_sanitiser.py --apply"; exit 1; }
 
+# 3.6 §547 TYPOGRAPHIC-DASH gate (em-dash/en-dash AI-tell) — fail-closed.
+# Banned by Courtney repeatedly; never enforced (§206 was prose-only, no test = §404).
+# AI generators emit — / – by default; this is the backstop (insertion sanitiser is
+# the prevention). Range-safe transform: en-dash -> hyphen, em-dash -> comma/colon.
+echo "→ Scanning live src for banned em/en-dashes (§547)..."
+python3 scripts/strip-typographic-dashes.py --scan || { echo "ERROR: §547 dash gate FAILED — aborting deploy. Fix: python3 scripts/strip-typographic-dashes.py --apply"; exit 1; }
+
 # 4. Git push (triggers Vercel auto-deploy)
 echo "→ Pushing to GitHub..."
 # Stage tracked files and new source files only — never accidentally stage .env secrets

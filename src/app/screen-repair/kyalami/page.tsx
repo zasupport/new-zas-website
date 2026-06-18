@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your Mac to a pristine condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but screen stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired.' },
   { title: 'Display Lines or Artefacts', desc: 'Vertical or horizontal lines, colour banding, or flickering on the display. Display cable damage or LCD panel fault diagnosed at component level.' },
   { title: 'Flickering Display', desc: 'Intermittent flickering or display that goes black under certain angles. Flex cable damage or GPU driver fault identified and resolved.' },
@@ -26,14 +26,14 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks for screen repair from Kyalami?', answer: 'Yes. We collect across Kyalami — Kyalami Estates, Kyalami Hills, Crowthorne, and the businesses around Kyalami Corner and Main Road. The drive from our Hyde Park workshop is about 25 minutes via the M1 and N1, so we usually offer a same-day or next-morning collection window. We pre-register driver details for estate visitor systems so gate access is smooth. Call or WhatsApp 064 529 5863 to book.' },
+  { question: 'Do you collect MacBooks for screen repair from Kyalami?', answer: 'Yes. We collect across Kyalami, Kyalami Estates, Kyalami Hills, Crowthorne, and the businesses around Kyalami Corner and Main Road. The drive from our Hyde Park workshop is about 25 minutes via the M1 and N1, so we usually offer a same-day or next-morning collection window. We pre-register driver details for estate visitor systems so gate access is smooth. Call or WhatsApp 064 529 5863 to book.' },
   { question: 'How long does a MacBook screen repair take?', answer: 'Most MacBook screen repairs are completed within three to five working days from collection in Kyalami. Straightforward Retina panel swaps on standard models can be quicker; Apple Silicon machines with full display assembly replacement sometimes need an extra day or two if a specific part has to be ordered. We give you a realistic timeline with the written quote so you can plan around it.' },
   { question: 'What is the screen repair assessment fee?', answer: 'Assessment is from R599. That covers collection from your Kyalami address, a full diagnostic at the Hyde Park workshop, and a written quote covering parts, labour and turnaround. If you proceed with the repair, the assessment fee is credited against the final invoice. If you decide not to proceed, we return the MacBook to Kyalami in its original condition.' },
   { question: 'Do you use genuine Apple screens?', answer: 'We use genuine-grade replacement displays sourced through established trade channels. For most Retina models we can offer either an original-pull tested panel or a high-quality equivalent, and we explain the difference, warranty terms, and price for each option in the written quote. Kyalami clients generally choose based on whether the MacBook is a daily work machine or a longer-term resale asset.' },
-  { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Vertical or horizontal lines almost always get worse, not better. What starts as a thin line across the display usually progresses to flickering, then full panel failure, often within a few weeks. We have seen this pattern repeatedly on Kyalami machines brought in late. Bringing it in while the screen still works lets us diagnose whether the fault is the panel, the flex cable, or the logic board — and the earlier diagnosis is usually the cheaper repair.' },
+  { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Vertical or horizontal lines almost always get worse, not better. What starts as a thin line across the display usually progresses to flickering, then full panel failure, often within a few weeks. We have seen this pattern repeatedly on Kyalami machines brought in late. Bringing it in while the screen still works lets us diagnose whether the fault is the panel, the flex cable, or the logic board, and the earlier diagnosis is usually the cheaper repair.' },
   { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes. We repair displays on M1, M2, and M3 MacBook Air and Pro models. The Apple Silicon display assembly is more integrated than older Retina designs, so the repair typically involves a full lid assembly rather than just the panel, and pricing reflects that. We confirm exact part availability and cost in the written quote before proceeding.' },
-  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the assessment cost starts at R599 and is fixed before we collect — there are no surprise add-ons to the diagnostic itself. After assessment you get a written quote for the repair, and you decide whether to proceed. If you go ahead, the R599 is credited towards the repair invoice. If not, we return the MacBook to your Kyalami address with a clear explanation of what we found.' },
-  { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On most modern MacBooks the glass is bonded to the LCD as a single unit, so a glass-only repair is not viable — replacing the assembly is the reliable fix. On a few older models a glass separation repair is technically possible, but we rarely recommend it because the long-term result is inconsistent. We assess your specific model and tell you honestly which approach makes sense, rather than quoting the cheapest option on paper.' },
+  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the assessment cost starts at R599 and is fixed before we collect, there are no surprise add-ons to the diagnostic itself. After assessment you get a written quote for the repair, and you decide whether to proceed. If you go ahead, the R599 is credited towards the repair invoice. If not, we return the MacBook to your Kyalami address with a clear explanation of what we found.' },
+  { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On most modern MacBooks the glass is bonded to the LCD as a single unit, so a glass-only repair is not viable, replacing the assembly is the reliable fix. On a few older models a glass separation repair is technically possible, but we rarely recommend it because the long-term result is inconsistent. We assess your specific model and tell you honestly which approach makes sense, rather than quoting the cheapest option on paper.' },
 ];
 
 const serviceSchema = {
@@ -76,14 +76,14 @@ export default function ScreenRepairKyalamiPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Kyalami
-              <br /><span className="text-[#0FEA7A]">— Display Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Screen repairs for Kyalami homes, equestrian estates, and the businesses around the Kyalami Corner shopping centre. Cracked panels, backlight failure, vertical lines, and LCD damage handled at our Hyde Park workshop. We collect along Main Road and from the estates off Maple Road, with assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Collection from Kyalami — approx. 22 min to our Hyde Park workshop</span>
+              <span>Collection from Kyalami, approx. 22 min to our Hyde Park workshop</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -131,7 +131,7 @@ export default function ScreenRepairKyalamiPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Screen Repair Kyalami — Common Questions" />
+          <FAQAccordion items={faqs} title="Screen Repair Kyalami, Common Questions" />
         </div>
       </section>
 

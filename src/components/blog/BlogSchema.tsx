@@ -98,7 +98,7 @@ export function BlogSchema({
         'https://www.linkedin.com/in/bentleycourtney/',
       ],
       // §166 (22/05/2026): self-serving AggregateRating removed from publisher
-      // — ineligible + manual-action risk per Google.
+      //, ineligible + manual-action risk per Google.
     },
   }
 
@@ -144,7 +144,7 @@ export function BlogSchema({
       }
     : null
 
-  // Standalone Person schema — strengthens E-E-A-T author entity per §168
+  // Standalone Person schema, strengthens E-E-A-T author entity per §168
   const personSchema = author
     ? {
         '@context': 'https://schema.org',

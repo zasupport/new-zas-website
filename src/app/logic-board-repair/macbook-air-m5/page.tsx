@@ -9,26 +9,26 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M5 Logic Board Repair Johannesburg',
-  description: 'MacBook Air M5 (13-inch & 15-inch, 2026) logic board repair in Johannesburg. Surge, liquid and accidental damage Apple’s warranty won’t cover — charging, Thunderbolt 4, N1 Wi-Fi 7, component-level. Assessment from R599.',
+  description: 'MacBook Air M5 (13-inch & 15-inch, 2026) logic board repair in Johannesburg. Surge, liquid and accidental damage Apple’s warranty won’t cover, charging, Thunderbolt 4, N1 Wi-Fi 7, component-level. Assessment from R599.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m5' },
 };
 
 const faults = [
-  { fault: 'No Power After a Load-Shedding Surge', desc: 'The fanless M5 MacBook Air (13-inch and 15-inch, 2026) is new, so the boards we see are almost all surge or spill damage — neither covered by Apple’s warranty. A spike through MagSafe 3 or USB-C usually kills the power-delivery controller or power-management IC while the M5 SoC survives, leaving the Air dead but repairable at component level.' },
-  { fault: 'Liquid Damage (Out of Warranty)', desc: 'Liquid damage voids the standard warranty, so a spilled M5 Air means a full out-of-pocket replacement at Apple — or a component-level repair with us. On the slim fanless chassis the board sits close under the keyboard, so spills reach the power and I/O circuitry fast; ultrasonic cleaning within 24 hours gives the best recovery odds.' },
+  { fault: 'No Power After a Load-Shedding Surge', desc: 'The fanless M5 MacBook Air (13-inch and 15-inch, 2026) is new, so the boards we see are almost all surge or spill damage, neither covered by Apple’s warranty. A spike through MagSafe 3 or USB-C usually kills the power-delivery controller or power-management IC while the M5 SoC survives, leaving the Air dead but repairable at component level.' },
+  { fault: 'Liquid Damage (Out of Warranty)', desc: 'Liquid damage voids the standard warranty, so a spilled M5 Air means a full out-of-pocket replacement at Apple, or a component-level repair with us. On the slim fanless chassis the board sits close under the keyboard, so spills reach the power and I/O circuitry fast; ultrasonic cleaning within 24 hours gives the best recovery odds.' },
   { fault: 'Charging Failure (MagSafe 3 / USB-C)', desc: 'The M5 Air charges over MagSafe 3 or its two Thunderbolt 4 USB-C ports, all sharing one power-management layer. Charging that stops on every input at once is a shared-circuit fault, not a port fault, and is repaired at component level.' },
-  { fault: 'Wi-Fi / Bluetooth Failure (N1 Wireless Chip)', desc: 'The M5 Air is among the first Macs to use Apple’s N1 wireless chip for Wi-Fi 7 and Bluetooth 6. When Wi-Fi or Bluetooth drops out or disappears entirely after liquid or impact damage, the fault is on the board around the N1 and its antenna circuitry — diagnosed and repaired at component level rather than replacing the whole board.' },
+  { fault: 'Wi-Fi / Bluetooth Failure (N1 Wireless Chip)', desc: 'The M5 Air is among the first Macs to use Apple’s N1 wireless chip for Wi-Fi 7 and Bluetooth 6. When Wi-Fi or Bluetooth drops out or disappears entirely after liquid or impact damage, the fault is on the board around the N1 and its antenna circuitry, diagnosed and repaired at component level rather than replacing the whole board.' },
   { fault: 'Thunderbolt 4 / USB-C Port Failure', desc: 'With only two USB-C ports, a single failed Thunderbolt 4 controller can take out both data and charging on one side of the M5 Air. ESD and liquid ingress are the usual causes; the controller is a discrete IC we replace on the board.' },
-  { fault: 'Overheating / Thermal Throttling (no fan)', desc: 'The M5 Air cools passively through a heat spreader. Persistent throttling, heat-related shutdowns or instability usually point to a thermal-sensor or power-circuit fault on the board rather than the SoC, and are diagnosed at component level — there is no fan to replace.' },
+  { fault: 'Overheating / Thermal Throttling (no fan)', desc: 'The M5 Air cools passively through a heat spreader. Persistent throttling, heat-related shutdowns or instability usually point to a thermal-sensor or power-circuit fault on the board rather than the SoC, and are diagnosed at component level, there is no fan to replace.' },
 ];
 
 const faqs = [
-  { question: 'My M5 Air is new — why not just use the Apple warranty?', answer: 'Apple’s warranty covers manufacturing defects, not accidental damage. Surge, liquid and drop damage — the faults we see on new M5 Airs — are excluded, so Apple quotes a full out-of-pocket board replacement. We repair the specific failed component on your existing board for significantly less. Assessment from R599, with an honest opinion if a fault looks like a covered defect Apple should handle.' },
-  { question: 'How much does MacBook Air M5 logic board repair cost?', answer: 'Apple replaces the whole board, which costs far more than a component-level repair. ZA Support repairs only the part that failed — component-level MacBook Air repairs start from R2,500 depending on the fault. After the R599 assessment we give a written, fixed-price quote before any work begins.' },
+  { question: 'My M5 Air is new, why not just use the Apple warranty?', answer: 'Apple’s warranty covers manufacturing defects, not accidental damage. Surge, liquid and drop damage, the faults we see on new M5 Airs, are excluded, so Apple quotes a full out-of-pocket board replacement. We repair the specific failed component on your existing board for significantly less. Assessment from R599, with an honest opinion if a fault looks like a covered defect Apple should handle.' },
+  { question: 'How much does MacBook Air M5 logic board repair cost?', answer: 'Apple replaces the whole board, which costs far more than a component-level repair. ZA Support repairs only the part that failed, component-level MacBook Air repairs start from R2,500 depending on the fault. After the R599 assessment we give a written, fixed-price quote before any work begins.' },
   { question: 'Can a brand-new M5 Air logic board be repaired?', answer: 'Yes. The M5 SoC is sealed and not chip-level replaceable, but the surrounding circuits are: USB-C / Thunderbolt 4 controllers, the MagSafe 3 charging circuit, power-management ICs, the N1 wireless circuitry and the display backlight driver are all discrete components we repair at board level in our Hyde Park workshop.' },
-  { question: 'My M5 Air lost Wi-Fi after a knock — is that the board?', answer: 'Often, yes. The M5 Air uses Apple’s N1 chip for Wi-Fi 7 and Bluetooth, soldered to the logic board. After impact or liquid, wireless faults usually sit in the N1 or antenna circuitry on the board, which we diagnose and repair at component level rather than replacing the entire board. The R599 assessment confirms it.' },
-  { question: 'Will my data be safe during M5 Air board repair?', answer: 'Yes. Component-level repair does not remove or erase the soldered SSD — your data stays on the board while we fix the specific fault. If the board is completely dead, SSD readability is assessed in the R599 diagnostic.' },
-  { question: 'How long does M5 Air logic board repair take?', answer: 'After the R599 assessment and your written approval, most M5 Air board repairs complete within 24–72 hours for common power and charging faults. Liquid-damage cases can take longer; the written quote states the timeline before we start.' },
+  { question: 'My M5 Air lost Wi-Fi after a knock, is that the board?', answer: 'Often, yes. The M5 Air uses Apple’s N1 chip for Wi-Fi 7 and Bluetooth, soldered to the logic board. After impact or liquid, wireless faults usually sit in the N1 or antenna circuitry on the board, which we diagnose and repair at component level rather than replacing the entire board. The R599 assessment confirms it.' },
+  { question: 'Will my data be safe during M5 Air board repair?', answer: 'Yes. Component-level repair does not remove or erase the soldered SSD, your data stays on the board while we fix the specific fault. If the board is completely dead, SSD readability is assessed in the R599 diagnostic.' },
+  { question: 'How long does M5 Air logic board repair take?', answer: 'After the R599 assessment and your written approval, most M5 Air board repairs complete within 24-72 hours for common power and charging faults. Liquid-damage cases can take longer; the written quote states the timeline before we start.' },
   { question: 'Do you collect an M5 MacBook Air for repair?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
 
@@ -74,7 +74,7 @@ export default function MacBookAirM5LogicBoardPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook Air M5 logic board repair in Johannesburg costs from R599 to assess, with component-level repairs from R2,500 and most common faults turned around in 24–72 hours. The 13-inch and 15-inch M5 Air (2026) is new, so the faults we see — surge, liquid and accidental damage — are the ones Apple’s warranty does not cover. We repair them at board level in our Hyde Park workshop.
+              MacBook Air M5 logic board repair in Johannesburg costs from R599 to assess, with component-level repairs from R2,500 and most common faults turned around in 24-72 hours. The 13-inch and 15-inch M5 Air (2026) is new, so the faults we see, surge, liquid and accidental damage, are the ones Apple’s warranty does not cover. We repair them at board level in our Hyde Park workshop.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -106,7 +106,7 @@ export default function MacBookAirM5LogicBoardPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M5 Logic Board Faults We Repair</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">As the newest MacBook Air, the M5 reaches our Hyde Park bench almost entirely as accidental damage — the faults a manufacturer warranty excludes. The M5 SoC is sealed and not chip-level replaceable, but the power-management system, USB-C / Thunderbolt 4 controllers, MagSafe 3 charging circuit, the new N1 wireless circuitry and the display backlight driver are discrete components we repair at board level.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">As the newest MacBook Air, the M5 reaches our Hyde Park bench almost entirely as accidental damage, the faults a manufacturer warranty excludes. The M5 SoC is sealed and not chip-level replaceable, but the power-management system, USB-C / Thunderbolt 4 controllers, MagSafe 3 charging circuit, the new N1 wireless circuitry and the display backlight driver are discrete components we repair at board level.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.fault} className="glass-card p-5">
@@ -120,7 +120,7 @@ export default function MacBookAirM5LogicBoardPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Air M5 Logic Board Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Air M5 Logic Board Repair, Common Questions" />
         </div>
       </section>
 

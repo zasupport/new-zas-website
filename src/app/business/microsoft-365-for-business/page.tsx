@@ -37,7 +37,7 @@ const faqs = [
   {
     question: 'Do you provide ongoing support after the initial engagement?',
     answer:
-      'Yes. Most of our business customers move to a monthly managed service after the initial deployment, which covers user support, licence management, security monitoring, and proactive maintenance. The managed service is optional — some customers prefer to call us only when they need us, which is fine too.',
+      'Yes. Most of our business customers move to a monthly managed service after the initial deployment, which covers user support, licence management, security monitoring, and proactive maintenance. The managed service is optional, some customers prefer to call us only when they need us, which is fine too.',
   },
   {
     question: 'Are you Apple, Microsoft and Ubiquiti certified?',
@@ -96,7 +96,7 @@ export default function Microsoft365ForBusinessPage() {
               Microsoft 365 · Deployment &amp; Management · South Africa
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
-              Microsoft 365 for Business —{' '}
+              Microsoft 365 for Business, {' '}
               <span className="text-[#0FEA7A]">deployment and management in South Africa</span>
             </h1>
             <p className="text-xl text-[#7A9E98] leading-relaxed max-w-3xl mb-8">
@@ -210,7 +210,7 @@ export default function Microsoft365ForBusinessPage() {
               <ShieldCheck className="w-8 h-8 text-[#0FEA7A] mb-4" />
               <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">Apple-first Microsoft</h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                Apple Authorised IT Specialist and Microsoft Partner under one roof — Mac,
+                Apple Authorised IT Specialist and Microsoft Partner under one roof, Mac,
                 iPhone and iPad treated as primary platforms, not afterthoughts.
               </p>
             </div>
@@ -227,7 +227,7 @@ export default function Microsoft365ForBusinessPage() {
               <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">Direct partner relationships</h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
                 Microsoft Cloud Solution Provider, Apple Authorised IT Specialist and
-                Ubiquiti partner — licensing, procurement and escalation paths held directly.
+                Ubiquiti partner, licensing, procurement and escalation paths held directly.
               </p>
             </div>
           </div>
@@ -262,7 +262,7 @@ export default function Microsoft365ForBusinessPage() {
           <p className="text-[#7A9E98] leading-relaxed">
             Configuration profiles for Wi-Fi, certificates, FileVault encryption with recovery
             key escrow, firewall and system extensions. Platform SSO with the Microsoft
-            Enterprise SSO extension — native Entra ID sign-in at the macOS login window from
+            Enterprise SSO extension, native Entra ID sign-in at the macOS login window from
             Ventura onwards. Compliance policies covering FileVault, password, System
             Integrity Protection, Gatekeeper and OS version, with Conditional Access
             enforcement. Microsoft Edge enterprise policy and Microsoft Cloud PKI Wi-Fi and
@@ -272,7 +272,7 @@ export default function Microsoft365ForBusinessPage() {
             On iPhone and iPad: the full Microsoft 365 app suite, Microsoft Authenticator,
             Intune supervised enrolment via Apple Business Manager, App Protection Policies
             for BYOD without device enrolment, Microsoft Defender for Endpoint mobile and the
-            Microsoft Enterprise SSO plug-in for single sign-on across Microsoft 365 apps —
+            Microsoft Enterprise SSO plug-in for single sign-on across Microsoft 365 apps, 
             the same Entra ID identity, Conditional Access and Defender protection a Mac or
             Windows endpoint enjoys, on the phone in the user&apos;s pocket.
           </p>
@@ -340,8 +340,8 @@ export default function Microsoft365ForBusinessPage() {
           </p>
           <p className="text-[#7A9E98] leading-relaxed">
             Where the engagement is best structured as a fixed-price project, we quote it
-            that way. Where it is better structured as a monthly managed service — most
-            ongoing IT support, security monitoring and licence management — we quote it on a
+            that way. Where it is better structured as a monthly managed service, most
+            ongoing IT support, security monitoring and licence management, we quote it on a
             per-user or per-device basis with a written service level. Where it is genuinely
             time-and-materials work (recovery from an incident, complex migration with unknown
             scope), we are honest about that and we keep you informed of accruing time so
@@ -403,7 +403,7 @@ export default function Microsoft365ForBusinessPage() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1]">Related services</h2>
           <p className="text-[#7A9E98] leading-relaxed text-base sm:text-lg">
             This page is part of our business services suite. Related pages cover our other
-            specialist areas — UniFi networking, Adobe Creative Cloud support, Apple device
+            specialist areas, UniFi networking, Adobe Creative Cloud support, Apple device
             management, Architecture and CAD IT, and Creative and Media Production IT. We
             commonly engage across multiple areas for a single customer, and where we do the
             engagements are coordinated under a single account manager.
@@ -435,7 +435,7 @@ export default function Microsoft365ForBusinessPage() {
               className="block rounded-xl border border-[rgba(15,234,122,0.18)] p-5 hover:border-[#0FEA7A]/50 transition-all bg-[#0A1A18]"
             >
               <h3 className="text-base font-bold text-[#E8F4F1] mb-1">UniFi networking</h3>
-              <p className="text-[#7A9E98] text-sm">Specialist UniFi design, installation and ongoing management — over 1,100 sites since 2014.</p>
+              <p className="text-[#7A9E98] text-sm">Specialist UniFi design, installation and ongoing management, over 1,100 sites since 2014.</p>
             </Link>
             <Link
               href="/medical-it"

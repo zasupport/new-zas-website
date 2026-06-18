@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -37,14 +37,14 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Boksburg?', answer: 'Yes. We collect from every part of Boksburg — Bardene, Parkdene, Beyers Park, Sunward Park, Atlasville, Bartlett, Cinderella and the areas around East Rand Mall and Lake Boksburg. Our driver routes via the R24 and we typically arrange collection within one to two working days. For businesses along Trichardts Road or the Jet Park industrial belt we can usually accommodate a specific time window so your operations are not disrupted.' },
-  { question: 'How far is Boksburg from your Hyde Park workshop?', answer: 'Boksburg is approximately 35 minutes from our Hyde Park workshop via the R24 in normal traffic, slightly longer during peak times on the M2 or if you are coming from the far side near Vosloorus. The distance is one of the reasons we offer collection — it saves you a round trip of well over an hour and the petrol that goes with it. You hand the machine to our driver in Boksburg and we take it from there.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement means swapping the entire logic board for a new or refurbished one — expensive, and on newer MacBooks it can mean losing the data on your soldered SSD because the storage controller is paired to the original board. Component-level repair, which is what we do at Hyde Park, means isolating the actual failed chip or capacitor or trace and replacing only that. For most Boksburg clients we have seen, component-level work comes in at a meaningful fraction of a board-swap quote and keeps their data intact.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. No-power symptoms usually trace back to the charging circuit, the SMC, a shorted rail, or a damaged power management IC — all repairable at component level. We have brought back plenty of dead-on-the-bench MacBooks from Boksburg clients who assumed the machine was a write-off. The only honest way to tell is a proper diagnostic on the bench under the microscope, which is what the From R599 assessment covers.' },
-  { question: 'How long will the repair take?', answer: 'For most Boksburg jobs the full cycle — collection, diagnostic, repair and return — runs three to seven working days. Straightforward charging IC or backlight repairs are often quicker, while liquid damage cases that need full board cleaning and multiple component replacements can take longer. We do not guess at timelines; once we have completed the diagnostic we give you a firm turnaround before any repair work begins.' },
-  { question: 'What is the assessment fee?', answer: 'Our assessment is from R599. That covers the proper diagnostic — visual inspection, microscope review, power-rail testing and fault isolation — not a five-minute look-over. If you decide to go ahead with the repair, the assessment fee is absorbed into the repair cost. If you choose not to proceed, the machine is returned to Boksburg in the condition we received it.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The From R599 assessment is a firm starting point for diagnostic work on any MacBook logic board. We will tell you up front if your specific case requires anything beyond standard assessment — for example, a severely liquid-damaged board needing extensive cleaning before fault-finding can even begin. Boksburg clients receive a written quote after assessment, and no repair work begins without your approval.' },
-  { question: 'Which MacBook models do you repair for Boksburg clients?', answer: 'All of them. MacBook Pro and MacBook Air from the Intel era through to current Apple Silicon M1, M2 and M3 machines, plus iMac and Mac mini boards. The repair approach changes with the generation — older Intel boards are more forgiving to work on, while the newer M-series logic boards demand finer rework technique and proper schematics — but the underlying component-level methodology is the same. If you are unsure whether your specific model is covered, send us the serial number on WhatsApp and we will confirm.' },
+  { question: 'Do you collect MacBooks from Boksburg?', answer: 'Yes. We collect from every part of Boksburg, Bardene, Parkdene, Beyers Park, Sunward Park, Atlasville, Bartlett, Cinderella and the areas around East Rand Mall and Lake Boksburg. Our driver routes via the R24 and we typically arrange collection within one to two working days. For businesses along Trichardts Road or the Jet Park industrial belt we can usually accommodate a specific time window so your operations are not disrupted.' },
+  { question: 'How far is Boksburg from your Hyde Park workshop?', answer: 'Boksburg is approximately 35 minutes from our Hyde Park workshop via the R24 in normal traffic, slightly longer during peak times on the M2 or if you are coming from the far side near Vosloorus. The distance is one of the reasons we offer collection, it saves you a round trip of well over an hour and the petrol that goes with it. You hand the machine to our driver in Boksburg and we take it from there.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement means swapping the entire logic board for a new or refurbished one, expensive, and on newer MacBooks it can mean losing the data on your soldered SSD because the storage controller is paired to the original board. Component-level repair, which is what we do at Hyde Park, means isolating the actual failed chip or capacitor or trace and replacing only that. For most Boksburg clients we have seen, component-level work comes in at a meaningful fraction of a board-swap quote and keeps their data intact.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. No-power symptoms usually trace back to the charging circuit, the SMC, a shorted rail, or a damaged power management IC, all repairable at component level. We have brought back plenty of dead-on-the-bench MacBooks from Boksburg clients who assumed the machine was a write-off. The only honest way to tell is a proper diagnostic on the bench under the microscope, which is what the From R599 assessment covers.' },
+  { question: 'How long will the repair take?', answer: 'For most Boksburg jobs the full cycle, collection, diagnostic, repair and return, runs three to seven working days. Straightforward charging IC or backlight repairs are often quicker, while liquid damage cases that need full board cleaning and multiple component replacements can take longer. We do not guess at timelines; once we have completed the diagnostic we give you a firm turnaround before any repair work begins.' },
+  { question: 'What is the assessment fee?', answer: 'Our assessment is from R599. That covers the proper diagnostic, visual inspection, microscope review, power-rail testing and fault isolation, not a five-minute look-over. If you decide to go ahead with the repair, the assessment fee is absorbed into the repair cost. If you choose not to proceed, the machine is returned to Boksburg in the condition we received it.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The From R599 assessment is a firm starting point for diagnostic work on any MacBook logic board. We will tell you up front if your specific case requires anything beyond standard assessment, for example, a severely liquid-damaged board needing extensive cleaning before fault-finding can even begin. Boksburg clients receive a written quote after assessment, and no repair work begins without your approval.' },
+  { question: 'Which MacBook models do you repair for Boksburg clients?', answer: 'All of them. MacBook Pro and MacBook Air from the Intel era through to current Apple Silicon M1, M2 and M3 machines, plus iMac and Mac mini boards. The repair approach changes with the generation, older Intel boards are more forgiving to work on, while the newer M-series logic boards demand finer rework technique and proper schematics, but the underlying component-level methodology is the same. If you are unsure whether your specific model is covered, send us the serial number on WhatsApp and we will confirm.' },
 ];
 
 const serviceSchema = {
@@ -87,10 +87,10 @@ export default function LogicBoardRepairBoksburgPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Boksburg, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Boksburg MacBook logic board repair, handled by a workshop that genuinely understands East Rand turnaround pressures. We collect from across Boksburg — from the homes near Cinderella Dam to the businesses along North Rand Road and the warehouses behind East Rand Mall — and repair at component level in our Hyde Park workshop, roughly 35 minutes up the R24. Assessment from R599.
+              Boksburg MacBook logic board repair, handled by a workshop that genuinely understands East Rand turnaround pressures. We collect from across Boksburg, from the homes near Cinderella Dam to the businesses along North Rand Road and the warehouses behind East Rand Mall, and repair at component level in our Hyde Park workshop, roughly 35 minutes up the R24. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -131,16 +131,16 @@ export default function LogicBoardRepairBoksburgPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Boksburg sits at an interesting crossroads for us. The suburb runs from established residential pockets around Lake Boksburg through to the heavy commercial activity along Trichardts Road and the industrial sprawl towards Jet Park, and the MacBook faults we see reflect that mix. Residents tend to bring us liquid-damage and intermittent shutdown cases on family machines, while small business owners operating near East Rand Mall and the N12 corridor usually arrive with no-power MacBook Pros that have been the workhorse of their accounting, design, or logistics operation. Logic board failure rarely announces itself politely — it usually shows up as a black screen on a Monday morning, a charger that no longer triggers any indicator, or a machine that runs for ninety seconds and then dies.
+              Boksburg sits at an interesting crossroads for us. The suburb runs from established residential pockets around Lake Boksburg through to the heavy commercial activity along Trichardts Road and the industrial sprawl towards Jet Park, and the MacBook faults we see reflect that mix. Residents tend to bring us liquid-damage and intermittent shutdown cases on family machines, while small business owners operating near East Rand Mall and the N12 corridor usually arrive with no-power MacBook Pros that have been the workhorse of their accounting, design, or logistics operation. Logic board failure rarely announces itself politely, it usually shows up as a black screen on a Monday morning, a charger that no longer triggers any indicator, or a machine that runs for ninety seconds and then dies.
             </p>
             <p>
-              Our Hyde Park bench is set up for the kind of work that swap-and-replace shops cannot offer. Hot-air rework stations, a Mantis stereo microscope, schematics and boardviews, and proper micro-soldering irons let us trace a fault down to the specific failed component — a shorted SMC chip, a blown U7000-series charging IC, a corroded PPBUS line — rather than quoting you for a whole board. For Boksburg clients that distinction matters, because component-level repair on a 16-inch MacBook Pro is routinely a fraction of an Apple board-swap quote, and it preserves your original SSD and the data on it.
+              Our Hyde Park bench is set up for the kind of work that swap-and-replace shops cannot offer. Hot-air rework stations, a Mantis stereo microscope, schematics and boardviews, and proper micro-soldering irons let us trace a fault down to the specific failed component, a shorted SMC chip, a blown U7000-series charging IC, a corroded PPBUS line, rather than quoting you for a whole board. For Boksburg clients that distinction matters, because component-level repair on a 16-inch MacBook Pro is routinely a fraction of an Apple board-swap quote, and it preserves your original SSD and the data on it.
             </p>
             <p>
               Collections from Boksburg run via the R24 and M2, and we have done same-day pickups from Bardene, Parkdene, Beyers Park, Sunward Park, Atlasville and Bartlett when the timing works. One pattern we see consistently with Boksburg clients: machines damaged after a power surge during a Highveld thunderstorm, particularly in older homes where the wall sockets feed equipment without proper surge protection. We have repaired several of these where the MagSafe or USB-C charging circuit took the hit but the rest of the board was salvageable. If your MacBook Pro, Air, iMac or Mac mini is refusing to power on, dropping out under load, or showing display artefacts, send a WhatsApp to 064 529 5863 and we will arrange collection.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairBoksburgPage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairBoksburgPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairBoksburgPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Boksburg — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Boksburg, Common Questions" />
         </div>
       </section>
 

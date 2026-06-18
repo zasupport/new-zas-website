@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     'Contact ZA Support in Hyde Park, Johannesburg. MacBook, iPhone and iPad repair. Assessment: from R599. Response within 1 hour. Call 064 529 5863 or WhatsApp.',
   alternates: { canonical: 'https://zasupport.com/contact' },
   openGraph: {
-    title: 'Contact ZA Support — Apple Repair Johannesburg',
+    title: 'Contact ZA Support: Apple Repair Johannesburg',
     description: 'MacBook, iPhone and iPad repair in Hyde Park. Assessment: from R599. Call 064 529 5863.',
     url: 'https://zasupport.com/contact',
     images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }],

@@ -15,7 +15,7 @@ import { GoogleReviews } from '@/components/GoogleReviews';
 export const metadata: Metadata = {
   title: 'Apple IT Support for Business Johannesburg | Managed Services | ZA Support',
   description:
-    'ZA Support is the Apple IT partner for Johannesburg businesses — managed services, SLAs, device management and priority support for SMEs, enterprises and medical practices. Call 064 529 5863.',
+    'ZA Support is the Apple IT partner for Johannesburg businesses, managed services, SLAs, device management and priority support for SMEs, enterprises and medical practices. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/business' },
 };
 
@@ -23,13 +23,13 @@ const offerings = [
   {
     icon: Users,
     title: 'Managed IT Services',
-    desc: 'Ongoing, proactive management of your Apple environment — monitoring, updates, security and support under one agreement.',
+    desc: 'Ongoing, proactive management of your Apple environment, monitoring, updates, security and support under one agreement.',
     href: '/managed-services',
   },
   {
     icon: Building2,
     title: 'SME Apple Support',
-    desc: 'For growing businesses that run on Apple — a dedicated account manager, priority repairs and IT support without a full-time hire.',
+    desc: 'For growing businesses that run on Apple, a dedicated account manager, priority repairs and IT support without a full-time hire.',
     href: '/sme-support',
   },
   {
@@ -41,7 +41,7 @@ const offerings = [
   {
     icon: Stethoscope,
     title: 'Medical Practice IT',
-    desc: 'POPIA-aware, HPCSA-context managed IT for doctors and practices — secure patient data, practice software and minimal downtime.',
+    desc: 'POPIA-aware, HPCSA-context managed IT for doctors and practices, secure patient data, practice software and minimal downtime.',
     href: '/medical-it',
   },
   {
@@ -59,7 +59,7 @@ const offerings = [
 ];
 
 const whyPoints = [
-  { icon: ShieldCheck, title: 'Apple specialists, not generalists', desc: '16 years focused on Apple — the hardware, the software and the way Apple devices run in a business.' },
+  { icon: ShieldCheck, title: 'Apple specialists, not generalists', desc: '16 years focused on Apple, the hardware, the software and the way Apple devices run in a business.' },
   { icon: Clock, title: 'Service level agreements', desc: 'Defined response times and clear scope, so support is predictable rather than ad-hoc.' },
   { icon: Users, title: 'A dedicated account manager', desc: 'One point of contact who knows your business, your devices and your people.' },
 ];
@@ -68,12 +68,12 @@ const faqs = [
   {
     question: 'Why choose a specialist Apple IT partner for my business?',
     answer:
-      'A specialist understands how Apple devices behave in a business setting — deployment, management, security and repair — rather than treating Apple as an afterthought. For a business running on Macs, iPhones and iPads, that focus means fewer problems and faster resolution.',
+      'A specialist understands how Apple devices behave in a business setting, deployment, management, security and repair, rather than treating Apple as an afterthought. For a business running on Macs, iPhones and iPads, that focus means fewer problems and faster resolution.',
   },
   {
     question: 'What size businesses does ZA Support work with?',
     answer:
-      'We support businesses from small practices and growing SMEs through to enterprises with large Apple fleets. The service is scaled to the business — a small firm gets an outsourced IT department, while a larger organisation gets fleet management and deployment support.',
+      'We support businesses from small practices and growing SMEs through to enterprises with large Apple fleets. The service is scaled to the business, a small firm gets an outsourced IT department, while a larger organisation gets fleet management and deployment support.',
   },
   {
     question: 'Do you support businesses across Gauteng?',
@@ -88,7 +88,7 @@ const faqs = [
   {
     question: 'Do you offer service level agreements for business clients?',
     answer:
-      'Yes. Business clients are supported under a service level agreement that sets out response times, scope and how support is delivered — giving the business a predictable, committed level of IT support.',
+      'Yes. Business clients are supported under a service level agreement that sets out response times, scope and how support is delivered, giving the business a predictable, committed level of IT support.',
   },
   {
     question: 'How does a business start working with ZA Support?',
@@ -133,7 +133,7 @@ export default function BusinessHubPage() {
             <p className="text-xl text-[#7A9E98] leading-relaxed max-w-3xl mb-8">
               When a business runs on Apple, IT cannot be an afterthought. ZA Support is the
               specialist Apple IT partner for SMEs, enterprises and medical practices across
-              Johannesburg — managed services, device management, priority support and a
+              Johannesburg, managed services, device management, priority support and a
               service level agreement, backed by 16 years of Apple expertise.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -176,7 +176,7 @@ export default function BusinessHubPage() {
             How we support your business
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
-            Every business is different. Start with the area closest to your need — we will
+            Every business is different. Start with the area closest to your need, we will
             shape the right support around it.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -202,7 +202,7 @@ export default function BusinessHubPage() {
       {/* ── Software & infrastructure for business ────────────────────────── */}
       <OrphanLinks
         sectionTitle="Software & infrastructure for your business"
-        intro="ZA Support deploys, licenses and supports the everyday business software and network infrastructure that runs alongside your Apple fleet — from Microsoft 365 mailbox setup, through UniFi networks at your premises, to Adobe Creative Cloud for the design and marketing team."
+        intro="ZA Support deploys, licenses and supports the everyday business software and network infrastructure that runs alongside your Apple fleet, from Microsoft 365 mailbox setup, through UniFi networks at your premises, to Adobe Creative Cloud for the design and marketing team."
         groups={[
           {
             heading: 'Productivity & creative software',
@@ -220,13 +220,13 @@ export default function BusinessHubPage() {
         ]}
       />
 
-      {/* ── Google Reviews — sourced from GBP ─────────────────────────────── */}
+      {/* ── Google Reviews, sourced from GBP ─────────────────────────────── */}
       <GoogleReviews count={6} title="What our business clients say" />
 
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <section className="py-16 bg-[#0F2522]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Business Apple IT — common questions" />
+          <FAQAccordion items={faqs} title="Business Apple IT, common questions" />
           <div className="mt-10">
             <a
               href={`tel:${CONTACT.phoneTel}`}

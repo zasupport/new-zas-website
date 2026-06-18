@@ -41,13 +41,13 @@ const services = [
     icon: Cpu,
     title: 'RAM Upgrade (Intel)',
     description:
-      'Intel Mac Mini (2010–2018) has user-accessible RAM slots. Upgrade from 4 GB to 16 GB or 32 GB (2018 model) for a significant performance boost. Apple Silicon models have soldered unified memory.',
+      'Intel Mac Mini (2010-2018) has user-accessible RAM slots. Upgrade from 4 GB to 16 GB or 32 GB (2018 model) for a significant performance boost. Apple Silicon models have soldered unified memory.',
   },
   {
     icon: Thermometer,
     title: 'Overheating & Fan Repair',
     description:
-      'Mac Mini running hot, fan constantly at full speed, or thermal throttling causing slowdowns. Thermal paste replacement and fan cleaning. Common on Mac Mini 2011–2014 models.',
+      'Mac Mini running hot, fan constantly at full speed, or thermal throttling causing slowdowns. Thermal paste replacement and fan cleaning. Common on Mac Mini 2011-2014 models.',
   },
   {
     icon: Zap,
@@ -77,7 +77,7 @@ const models = [
   { name: 'Mac Mini (2014)', note: 'Intel, SSD + RAM upgradeable' },
   { name: 'Mac Mini (2012)', note: 'Intel, SSD + RAM upgradeable' },
   { name: 'Mac Mini (2011)', note: 'Intel, SSD + RAM upgradeable' },
-  { name: 'Mac Mini Server (2011–2012)', note: 'Intel, dual drive bay' },
+  { name: 'Mac Mini Server (2011-2012)', note: 'Intel, dual drive bay' },
 ];
 
 const faqs = [
@@ -89,7 +89,7 @@ const faqs = [
   {
     question: 'Can I upgrade the RAM in my Mac Mini?',
     answer:
-      'It depends on the model. Intel Mac Mini models (2010–2018) have accessible RAM slots, most can be upgraded to 16 GB, and the 2018 model supports up to 64 GB. The Mac Mini M1, M2, and M2 Pro (2020–2023) have unified memory soldered directly to the chip, no upgrade is possible. We confirm your model before quoting to avoid any surprises.',
+      'It depends on the model. Intel Mac Mini models (2010-2018) have accessible RAM slots, most can be upgraded to 16 GB, and the 2018 model supports up to 64 GB. The Mac Mini M1, M2, and M2 Pro (2020-2023) have unified memory soldered directly to the chip, no upgrade is possible. We confirm your model before quoting to avoid any surprises.',
   },
   {
     question: 'My Mac Mini is very slow, what can I do?',
@@ -99,12 +99,12 @@ const faqs = [
   {
     question: 'My Mac Mini is overheating or the fan is always loud, is that repairable?',
     answer:
-      'Yes, in most cases. The most common cause on older Intel Mac Mini models is dried-out thermal paste between the processor and heatsink. Replacing the thermal paste and cleaning the heatsink typically reduces idle temperatures by 10–20°C and brings fan noise back to normal. This service takes 1–2 hours.',
+      'Yes, in most cases. The most common cause on older Intel Mac Mini models is dried-out thermal paste between the processor and heatsink. Replacing the thermal paste and cleaning the heatsink typically reduces idle temperatures by 10-20°C and brings fan noise back to normal. This service takes 1-2 hours.',
   },
   {
     question: 'My Mac Mini won\'t turn on at all, what could be wrong?',
     answer:
-      'The most common causes of a Mac Mini not turning on are: (1) power supply failure, the internal power converter fails over time, especially on 2010–2014 models; (2) a logic board fault, component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting, from R599 assessment applies.',
+      'The most common causes of a Mac Mini not turning on are: (1) power supply failure, the internal power converter fails over time, especially on 2010-2014 models; (2) a logic board fault, component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting, from R599 assessment applies.',
   },
   {
     question: 'Is it worth upgrading an older Mac Mini instead of buying a new one?',
@@ -119,7 +119,7 @@ const faqs = [
   {
     question: 'How long does Mac Mini repair or upgrade take?',
     answer:
-      'SSD and RAM upgrades on Intel models are typically same-day, 1 to 2 hours once the machine is with us. Thermal paste replacement takes 1–2 hours. Logic board and power supply repair takes 2–5 business days depending on component availability. We give you an estimated completion time when your machine is booked in.',
+      'SSD and RAM upgrades on Intel models are typically same-day, 1 to 2 hours once the machine is with us. Thermal paste replacement takes 1-2 hours. Logic board and power supply repair takes 2-5 business days depending on component availability. We give you an estimated completion time when your machine is booked in.',
   },
 ];
 
@@ -266,7 +266,7 @@ export default function MacMiniRepairPage() {
             RAM upgrade: Intel models only
           </h2>
           <p className="text-slate-600 mb-4">
-            Intel Mac Mini models (2010–2018) have removable RAM slots you can upgrade. The 2012 and 2014 models
+            Intel Mac Mini models (2010-2018) have removable RAM slots you can upgrade. The 2012 and 2014 models
             support up to 16 GB; the 2018 model supports up to 64 GB.
           </p>
           <p className="text-slate-600 mb-4">
@@ -319,7 +319,7 @@ export default function MacMiniRepairPage() {
               <tbody className="divide-y divide-slate-100">
                 {[
                   {
-                    scenario: 'Mac Mini 2012–2014 running slowly',
+                    scenario: 'Mac Mini 2012-2014 running slowly',
                     rec: 'SSD + RAM upgrade, excellent value',
                     cost: 'Quoted on assessment',
                   },
@@ -339,7 +339,7 @@ export default function MacMiniRepairPage() {
                     cost: 'Quoted on assessment',
                   },
                   {
-                    scenario: 'Mac Mini 2009–2010 any fault',
+                    scenario: 'Mac Mini 2009-2010 any fault',
                     rec: 'Replace, repair cost exceeds value',
                     cost: 'Quoted on assessment',
                   },
@@ -432,7 +432,7 @@ export default function MacMiniRepairPage() {
             </a>
           </div>
           <p className="text-slate-500 text-sm mt-6">
-            1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg · Mon–Fri 8am–6pm
+            1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg · Mon-Fri 8am-6pm
           </p>
         </div>
       </section>

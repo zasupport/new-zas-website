@@ -38,7 +38,7 @@ const faqs = [
   {
     question: 'How long does iPhone liquid damage repair take?',
     answer:
-      'Most iPhone liquid damage repairs are completed within 24–48 hours. The process involves disassembly, ultrasonic cleaning, drying, diagnostic, and component repair if needed. We will give you a realistic timeframe after the initial assessment.',
+      'Most iPhone liquid damage repairs are completed within 24-48 hours. The process involves disassembly, ultrasonic cleaning, drying, diagnostic, and component repair if needed. We will give you a realistic timeframe after the initial assessment.',
   },
 ];
 
@@ -106,7 +106,7 @@ export default function iPhoneLiquidDamagePage() {
               <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">What IP67/IP68 Actually Means</h2>
               <p className="text-[#7A9E98] leading-relaxed mb-4">
                 Apple rates modern iPhones at IP67 (iPhone 8 through 11) and IP68 (iPhone 12 and later). These ratings
-                mean the device was tested to resist submersion in controlled laboratory conditions, typically 1–4 metres
+                mean the device was tested to resist submersion in controlled laboratory conditions, typically 1-4 metres
                 of still, fresh water for up to 30 minutes.
               </p>
               <p className="text-[#7A9E98] leading-relaxed mb-4">

@@ -26,7 +26,7 @@ const urgentSteps = [
 const faqs = [
   {
     question: 'How quickly should I contact you after liquid damage in Sandton?',
-    answer: 'Immediately — within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Sandton, which is approximately 15 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
+    answer: 'Immediately, within hours if possible. Every hour that passes allows corrosion to spread further across the logic board. We offer same-day collection from Sandton, which is approximately 15 minutes from our Hyde Park workshop. The faster we can get to the board, the higher the success rate.',
   },
   {
     question: 'Do you collect MacBooks from Sandton after liquid damage?',
@@ -34,11 +34,11 @@ const faqs = [
   },
   {
     question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and an honest quote. If the device is not economically repairable, we will tell you — and help with data recovery options. No further work proceeds without your approval.',
+    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and an honest quote. If the device is not economically repairable, we will tell you, and help with data recovery options. No further work proceeds without your approval.',
   },
   {
     question: 'What types of liquid cause the most damage?',
-    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, the process is the same — bring the device in immediately.',
+    answer: 'Coffee and sugary drinks cause the most damage because they leave conductive residue that accelerates corrosion. Salt water causes rapid severe corrosion. Even pure water causes oxidation over time. Whatever liquid was involved, the process is the same, bring the device in immediately.',
   },
   {
     question: 'My MacBook got wet but still works. Should I bring it in?',
@@ -90,18 +90,18 @@ export default function LiquidDamageSandtonPage() {
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 px-4 py-2 rounded-full mb-6">
               <AlertTriangle className="w-4 h-4 text-red-400" />
-              <span className="text-red-400 text-sm font-semibold">Act immediately — every hour matters</span>
+              <span className="text-red-400 text-sm font-semibold">Act immediately, every hour matters</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Liquid Damage Repair Sandton
-              <br /><span className="text-[#0FEA7A]">— Same-day Collection</span>
+              <br /><span className="text-[#0FEA7A]">, Same-day Collection</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook exposed to liquid in Sandton? Switch it off now and contact us. We collect from Sandton immediately. Ultrasonic cleaning, board-level repair. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Sandton is approx. 15 min from our Hyde Park workshop — we prioritise liquid damage collections</span>
+              <span>Sandton is approx. 15 min from our Hyde Park workshop, we prioritise liquid damage collections</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -118,7 +118,7 @@ export default function LiquidDamageSandtonPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={buildWhatsAppUrl('LIQ-SANDTON', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all" >
-                WhatsApp Now — Urgent
+                WhatsApp Now, Urgent
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -139,7 +139,7 @@ export default function LiquidDamageSandtonPage() {
               Sandton is Johannesburg&apos;s commercial heart, and professionals in Sandton City, Morningside, and Katherine Street work under time pressure where a MacBook failure is a serious business interruption. Liquid damage is one of the most time-sensitive repairs we handle.
             </p>
             <p>
-              ZA Support offers Sandton clients same-day emergency collection for liquid-damaged MacBooks. Our Hyde Park workshop at 1 Hyde Lane is approximately 9.5 km from central Sandton — a 15-minute drive. We collect from your office, meeting room, or home, and begin the cleaning and diagnostic process the same day.
+              ZA Support offers Sandton clients same-day emergency collection for liquid-damaged MacBooks. Our Hyde Park workshop at 1 Hyde Lane is approximately 9.5 km from central Sandton, a 15-minute drive. We collect from your office, meeting room, or home, and begin the cleaning and diagnostic process the same day.
             </p>
             <p>
               Our process includes full disassembly, ultrasonic cleaning of the logic board in an IPA-based bath to remove corrosion and contaminants, a post-clean diagnostic under magnification, and board-level component repair where required. Every repair is covered by a ZA Support warranty.
@@ -170,7 +170,7 @@ export default function LiquidDamageSandtonPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Liquid Damage Repair Sandton — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Liquid Damage Repair Sandton, Common Questions" />
         </div>
       </section>
 
@@ -195,11 +195,11 @@ export default function LiquidDamageSandtonPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Sandton MacBook Liquid Damage — Act Now.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Sandton MacBook Liquid Damage, Act Now.</h2>
             <p className="text-[#7A9E98] mb-6">Assessment from R599. Same-day collection from Sandton. Switch it off and call us.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LIQ-SANDTON', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
-                WhatsApp Now — Urgent
+                WhatsApp Now, Urgent
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

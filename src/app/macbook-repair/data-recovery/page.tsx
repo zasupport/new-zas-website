@@ -41,7 +41,7 @@ const whatWeRecover = [
   { icon: <AlertTriangle className="w-5 h-5" />, title: 'Accounting & Financial Data', desc: 'QuickBooks, Sage, and Xero local databases. Payroll files. Invoicing records. We prioritise these as time-sensitive recoveries.' },
   { icon: <FileSearch className="w-5 h-5" />, title: 'Medical & Practice Records', desc: 'Patient record exports, GoodX backups, diagnostic imaging. We follow POPIA-compliant handling for all medical practice data recoveries.' },
   { icon: <Database className="w-5 h-5" />, title: 'Creative Projects', desc: 'Adobe Premiere, Photoshop, InDesign, Illustrator project files. Logic Pro and GarageBand sessions. Recovered from failed internal SSDs.' },
-  { icon: <HardDrive className="w-5 h-5" />, title: 'Business Applications', desc: 'Custom database files, legacy application data, backup archives (.zip, .dmg, .sparsebundle), including Time Machine sparse bundles from failed drives.' },
+  { icon: <HardDrive className="w-5 h-5" />, title: 'Business Applications', desc: 'Custom database files, legacy application data, backup archives (.zip.dmg.sparsebundle), including Time Machine sparse bundles from failed drives.' },
 ];
 
 const faultTypes = [
@@ -62,11 +62,11 @@ const faqs = [
   },
   {
     question: 'What is the success rate for MacBook data recovery?',
-    answer: 'For logical recovery (deleted files, accidental format, OS corruption), our success rate is approximately 95%. For physical SSD failure where the controller is damaged, success depends on the extent of chip damage, we achieve recovery in roughly 70–80% of physical cases. We will give you an honest assessment after our diagnostic. We do not quote recovery jobs we cannot deliver.',
+    answer: 'For logical recovery (deleted files, accidental format, OS corruption), our success rate is approximately 95%. For physical SSD failure where the controller is damaged, success depends on the extent of chip damage, we achieve recovery in roughly 70-80% of physical cases. We will give you an honest assessment after our diagnostic. We do not quote recovery jobs we cannot deliver.',
   },
   {
     question: 'How long does data recovery take?',
-    answer: 'Logical recovery for standard volumes (up to 500 GB) typically takes 4–8 hours. Physical SSD recovery requiring chip-level work can take 1–3 business days. If you need emergency same-day recovery, contact us before bringing the machine in, subject to capacity. We will give you a realistic timeline at assessment.',
+    answer: 'Logical recovery for standard volumes (up to 500 GB) typically takes 4-8 hours. Physical SSD recovery requiring chip-level work can take 1-3 business days. If you need emergency same-day recovery, contact us before bringing the machine in, subject to capacity. We will give you a realistic timeline at assessment.',
   },
   {
     question: 'Can you recover data from a MacBook that will not turn on?',

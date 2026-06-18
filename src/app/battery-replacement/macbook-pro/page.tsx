@@ -85,46 +85,46 @@ const serviceSchema = {
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingRows = [
-  { model: 'MacBook Pro 13″ (Retina 2012–2015)', battery: '74.9 Wh', from: 'R1,799', turnaround: '2–4 hrs' },
-  { model: 'MacBook Pro 13″ (Touch Bar 2016–2020)', battery: '58.2–61.4 Wh', from: 'R1,799', turnaround: '2–4 hrs' },
-  { model: 'MacBook Pro 13″ (M1/M2 2020–2022)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2–4 hrs' },
-  { model: 'MacBook Pro 14″ (M1 Pro/Max 2021)', battery: '69.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 14″ (M2/M3/M4 Pro/Max)', battery: '69.6–70 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 15″ (Intel 2013–2019)', battery: '77.9–99.5 Wh', from: 'R1,999', turnaround: '2–4 hrs' },
-  { model: 'MacBook Pro 16″ (M1 Pro/Max 2021)', battery: '99.6 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
-  { model: 'MacBook Pro 16″ (M2/M3/M4 Pro/Max)', battery: '99.6–100 Wh', from: 'R2,299', turnaround: '4–6 hrs' },
+  { model: 'MacBook Pro 13″ (Retina 2012-2015)', battery: '74.9 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ (Touch Bar 2016-2020)', battery: '58.2-61.4 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ (M1/M2 2020-2022)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 14″ (M1 Pro/Max 2021)', battery: '69.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 14″ (M2/M3/M4 Pro/Max)', battery: '69.6-70 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 15″ (Intel 2013-2019)', battery: '77.9-99.5 Wh', from: 'R1,999', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 16″ (M1 Pro/Max 2021)', battery: '99.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ (M2/M3/M4 Pro/Max)', battery: '99.6-100 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
 ];
 
 /* ── Fault Types ─────────────────────────────────────────────────────────── */
 const faultTypes = [
   {
-    title: 'Swollen Battery — Trackpad Bulge',
+    title: 'Swollen Battery: Trackpad Bulge',
     icon: AlertTriangle,
-    desc: 'The most common MacBook Pro battery fault we see in our Hyde Park workshop. Lithium-polymer cells begin to off-gas when they reach end-of-life or suffer internal damage, causing the pouch to expand. On 13-inch MacBook Pros, the battery sits directly beneath the trackpad — swelling pushes upward and causes the trackpad to click with increasing resistance or stop clicking altogether. On 14-inch and 16-inch models, severe swelling can bow the aluminium bottom case. This is an urgent repair: continued use with a swollen battery increases the risk of the pouch rupturing, which releases flammable electrolyte. We handle swollen battery removals daily using controlled depressurisation and adhesive release techniques.',
+    desc: 'The most common MacBook Pro battery fault we see in our Hyde Park workshop. Lithium-polymer cells begin to off-gas when they reach end-of-life or suffer internal damage, causing the pouch to expand. On 13-inch MacBook Pros, the battery sits directly beneath the trackpad, swelling pushes upward and causes the trackpad to click with increasing resistance or stop clicking altogether. On 14-inch and 16-inch models, severe swelling can bow the aluminium bottom case. This is an urgent repair: continued use with a swollen battery increases the risk of the pouch rupturing, which releases flammable electrolyte. We handle swollen battery removals daily using controlled depressurisation and adhesive release techniques.',
     severity: 'high',
   },
   {
-    title: 'End-of-Life — Cycle Count Exceeded',
+    title: 'End-of-Life: Cycle Count Exceeded',
     icon: Battery,
-    desc: 'Apple rates MacBook Pro batteries for 1,000 charge cycles before capacity drops below 80% of design capacity. Once your cycle count passes this threshold, macOS displays a "Service Recommended" message in the battery menu bar icon. In practice, we see many MacBook Pros in Johannesburg hitting this threshold far earlier than expected — 12 to 18 months ahead of a normal lifecycle — because load shedding forces constant micro-cycles between battery and mains power. We diagnose cycle count and maximum capacity using coconutBattery and Apple System Information before quoting. If your capacity reads below 80%, replacement is typically warranted.',
+    desc: 'Apple rates MacBook Pro batteries for 1,000 charge cycles before capacity drops below 80% of design capacity. Once your cycle count passes this threshold, macOS displays a "Service Recommended" message in the battery menu bar icon. In practice, we see many MacBook Pros in Johannesburg hitting this threshold far earlier than expected, 12 to 18 months ahead of a normal lifecycle, because load shedding forces constant micro-cycles between battery and mains power. We diagnose cycle count and maximum capacity using coconutBattery and Apple System Information before quoting. If your capacity reads below 80%, replacement is typically warranted.',
     severity: 'medium',
   },
   {
-    title: 'Sudden Shutdown — Inaccurate State of Charge',
+    title: 'Sudden Shutdown: Inaccurate State of Charge',
     icon: Zap,
-    desc: 'MacBook Pros that shut down unexpectedly at 15–40% displayed charge are suffering from a battery management fault. The battery management unit (BMU) uses voltage curves to estimate remaining capacity. When cells degrade unevenly, the voltage drop at a given charge level no longer matches the stored calibration table, and the BMU triggers a forced shutdown to protect the logic board. The machine typically restarts immediately, but the experience is identical to a logic board fault. We run a discharge test to distinguish battery degradation from BMU firmware corruption or a logic board power rail fault.',
+    desc: 'MacBook Pros that shut down unexpectedly at 15-40% displayed charge are suffering from a battery management fault. The battery management unit (BMU) uses voltage curves to estimate remaining capacity. When cells degrade unevenly, the voltage drop at a given charge level no longer matches the stored calibration table, and the BMU triggers a forced shutdown to protect the logic board. The machine typically restarts immediately, but the experience is identical to a logic board fault. We run a discharge test to distinguish battery degradation from BMU firmware corruption or a logic board power rail fault.',
     severity: 'medium',
   },
   {
-    title: 'Touch Bar Battery — Secondary Cell Fault',
+    title: 'Touch Bar Battery: Secondary Cell Fault',
     icon: Cpu,
     desc: 'MacBook Pro models from 2016 to 2021 with a Touch Bar include a secondary battery cell dedicated to the Touch Bar and embedded T2/T1 security chip. In rare cases, this secondary cell develops a fault independently of the main battery array. Symptoms include the Touch Bar flickering, going blank, or the machine failing to sleep correctly. Replacing the main battery array addresses the secondary cell simultaneously, as they share the same physical battery unit on most Touch Bar models. We test Touch Bar function thoroughly after every battery replacement on these models.',
     severity: 'low',
   },
   {
-    title: 'Adhesive Failure — Battery Movement',
+    title: 'Adhesive Failure: Battery Movement',
     icon: Wrench,
-    desc: 'Apple uses adhesive pull-tabs to secure the battery cells to the top case on MacBook Pro models from 2015 onwards. Over time — and particularly in the South African summer heat, which regularly exceeds 35°C in Johannesburg — these adhesive strips can lose their bond. A loose battery shifts inside the case, creating a faint rattling sound when the machine is moved, or causes intermittent disconnection under vibration. We re-secure loose batteries using approved adhesive and verify continuity across the battery connector before reassembly.',
+    desc: 'Apple uses adhesive pull-tabs to secure the battery cells to the top case on MacBook Pro models from 2015 onwards. Over time, and particularly in the South African summer heat, which regularly exceeds 35°C in Johannesburg, these adhesive strips can lose their bond. A loose battery shifts inside the case, creating a faint rattling sound when the machine is moved, or causes intermittent disconnection under vibration. We re-secure loose batteries using approved adhesive and verify continuity across the battery connector before reassembly.',
     severity: 'low',
   },
   {
@@ -166,24 +166,24 @@ const faqs = [
       'Open the Apple menu, hold Option, click System Information, then select Power from the left panel. You will see your cycle count and maximum capacity listed under Battery Information. Apple rates MacBook Pro batteries for 1,000 cycles before capacity is expected to drop below 80%. If your cycle count exceeds 900 or your maximum capacity is below 80%, we recommend a battery assessment. You can also download coconutBattery (free) for a more detailed readout, including cell voltage and temperature history.',
   },
   {
-    question: 'My MacBook Pro trackpad is hard to click or feels raised — what is causing this?',
+    question: 'My MacBook Pro trackpad is hard to click or feels raised, what is causing this?',
     answer:
-      'This is almost certainly a swollen battery. On 13-inch MacBook Pros, the battery cells sit immediately beneath the trackpad. As the cells off-gas and expand, they push the trackpad upward, increasing click resistance and eventually making the trackpad stiff or completely unresponsive. This is an urgent fault — a swollen lithium-polymer battery is a fire risk if the pouch is punctured. Bring your machine to our Hyde Park workshop as soon as possible. We remove swollen batteries daily and the repair is typically completed within 2 to 4 hours.',
+      'This is almost certainly a swollen battery. On 13-inch MacBook Pros, the battery cells sit immediately beneath the trackpad. As the cells off-gas and expand, they push the trackpad upward, increasing click resistance and eventually making the trackpad stiff or completely unresponsive. This is an urgent fault, a swollen lithium-polymer battery is a fire risk if the pouch is punctured. Bring your machine to our Hyde Park workshop as soon as possible. We remove swollen batteries daily and the repair is typically completed within 2 to 4 hours.',
   },
   {
     question: 'Is a swollen MacBook Pro battery dangerous?',
     answer:
-      'Yes, it carries a genuine risk if left unaddressed. Lithium-polymer batteries that are off-gassing contain flammable electrolyte under pressure. If the battery pouch is punctured — for example by the pressure of the swelling forcing it against an internal screw boss — the electrolyte can ignite. The risk is low with normal use, but increases with heat, compression, or continued charging. We strongly advise against using a MacBook with a visibly swollen battery. Do not place it in a bag or on soft surfaces that could trap heat. Contact us immediately.',
+      'Yes, it carries a genuine risk if left unaddressed. Lithium-polymer batteries that are off-gassing contain flammable electrolyte under pressure. If the battery pouch is punctured, for example by the pressure of the swelling forcing it against an internal screw boss, the electrolyte can ignite. The risk is low with normal use, but increases with heat, compression, or continued charging. We strongly advise against using a MacBook with a visibly swollen battery. Do not place it in a bag or on soft surfaces that could trap heat. Contact us immediately.',
   },
   {
     question: 'Does load shedding damage my MacBook Pro battery?',
     answer:
-      'Yes, measurably so. When mains power cuts and restores during a load shedding cycle, your MacBook Pro switches between battery and AC power. Each transition counts as a partial charge cycle. During a typical Stage 4 schedule, Johannesburg residents experience 8 to 12 power interruptions per day — that is 8 to 12 additional partial cycles on top of normal use. Over 12 to 18 months, we see this translate into batteries reaching end-of-life significantly earlier than their rated 1,000-cycle lifespan. A UPS that maintains clean AC power during shedding eliminates this additional wear entirely.',
+      'Yes, measurably so. When mains power cuts and restores during a load shedding cycle, your MacBook Pro switches between battery and AC power. Each transition counts as a partial charge cycle. During a typical Stage 4 schedule, Johannesburg residents experience 8 to 12 power interruptions per day, that is 8 to 12 additional partial cycles on top of normal use. Over 12 to 18 months, we see this translate into batteries reaching end-of-life significantly earlier than their rated 1,000-cycle lifespan. A UPS that maintains clean AC power during shedding eliminates this additional wear entirely.',
   },
   {
     question: 'How long does a MacBook Pro battery replacement take?',
     answer:
-      'MacBook Pro 13-inch battery replacements are typically completed within 2 to 4 hours, including our post-replacement calibration cycle. MacBook Pro 14-inch and 16-inch models take 4 to 6 hours — the larger adhesive surface area requires more careful removal to avoid damaging the top case. We offer same-day service for all MacBook Pro battery replacements booked before 14:00. If you need your machine the same morning, contact us on WhatsApp to confirm slot availability.',
+      'MacBook Pro 13-inch battery replacements are typically completed within 2 to 4 hours, including our post-replacement calibration cycle. MacBook Pro 14-inch and 16-inch models take 4 to 6 hours, the larger adhesive surface area requires more careful removal to avoid damaging the top case. We offer same-day service for all MacBook Pro battery replacements booked before 14:00. If you need your machine the same morning, contact us on WhatsApp to confirm slot availability.',
   },
   {
     question: 'What is involved in the MacBook Pro battery replacement process?',
@@ -193,12 +193,12 @@ const faqs = [
   {
     question: 'Will my MacBook Pro battery health percentage reset after replacement?',
     answer:
-      'Yes. After a professional battery replacement on an Apple Silicon MacBook Pro (M1 through M4), the battery health percentage in System Settings resets to 100% and the cycle count resets to zero or near-zero. On Intel MacBook Pros, macOS reads the health percentage from the battery management unit — a new battery will report 100% maximum capacity. You should see the "Normal" battery condition in System Information within a few hours of normal use after the initial calibration cycle.',
+      'Yes. After a professional battery replacement on an Apple Silicon MacBook Pro (M1 through M4), the battery health percentage in System Settings resets to 100% and the cycle count resets to zero or near-zero. On Intel MacBook Pros, macOS reads the health percentage from the battery management unit, a new battery will report 100% maximum capacity. You should see the "Normal" battery condition in System Information within a few hours of normal use after the initial calibration cycle.',
   },
   {
     question: 'Do you replace the battery on M1, M2, M3, and M4 MacBook Pro models?',
     answer:
-      'Yes, we replace batteries on all Apple Silicon MacBook Pro generations including M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, M3 Max, M4, M4 Pro, and M4 Max. These models use adhesive-mounted lithium-polymer cells that require specialist removal tooling. The 14-inch and 16-inch models use a 69.6 Wh and 99.6 Wh cell respectively — significantly larger than the 13-inch cells, which is reflected in our pricing from R2,299.',
+      'Yes, we replace batteries on all Apple Silicon MacBook Pro generations including M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, M3 Max, M4, M4 Pro, and M4 Max. These models use adhesive-mounted lithium-polymer cells that require specialist removal tooling. The 14-inch and 16-inch models use a 69.6 Wh and 99.6 Wh cell respectively, significantly larger than the 13-inch cells, which is reflected in our pricing from R2,299.',
   },
   {
     question: 'Can you replace the battery on a MacBook Pro with a Touch Bar?',
@@ -208,7 +208,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Pro battery replacements?',
     answer:
-      'MacBook Pro battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement battery cell and our workmanship. If the battery fails within the warranty period — defined as maximum capacity dropping below 80% of new capacity, or the battery developing any electrical fault — we replace it again at from R599. The warranty document is provided in writing at collection. From R599 assessment applies: if we assess your machine and determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
+      'MacBook Pro battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement battery cell and our workmanship. If the battery fails within the warranty period, defined as maximum capacity dropping below 80% of new capacity, or the battery developing any electrical fault, we replace it again at from R599. The warranty document is provided in writing at collection. From R599 assessment applies: if we assess your machine and determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
   },
 ];
 
@@ -236,7 +236,7 @@ export default function BatteryReplacementMacBookProPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              From swollen batteries pushing against the trackpad to end-of-life cells with high cycle counts — we replace MacBook Pro batteries across all generations in our Hyde Park workshop. Pro 13&quot; from R1,799. Pro 14&quot;/16&quot; from R2,299. Same-day service available.
+              From swollen batteries pushing against the trackpad to end-of-life cells with high cycle counts, we replace MacBook Pro batteries across all generations in our Hyde Park workshop. Pro 13&quot; from R1,799. Pro 14&quot;/16&quot; from R2,299. Same-day service available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -300,7 +300,7 @@ export default function BatteryReplacementMacBookProPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the replacement cell, labour, calibration, and our written warranty. The Apple Store charges R3,500 to R8,000 for the same replacement — and in some cases replaces the entire top case assembly rather than the battery alone. We replace only the battery.
+            Prices below are starting prices including the replacement cell, labour, calibration, and our written warranty. The Apple Store charges R3,500 to R8,000 for the same replacement, and in some cases replaces the entire top case assembly rather than the battery alone. We replace only the battery.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -325,7 +325,7 @@ export default function BatteryReplacementMacBookProPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599 — applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro" />
           <PricingNote variant="inline" />
@@ -338,7 +338,7 @@ export default function BatteryReplacementMacBookProPage() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">What Makes MacBook Pro Battery Replacement Different</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              MacBook Pro battery replacement is not a simple swap. From the 2015 MacBook Pro onwards, Apple moved to adhesive-mounted lithium-polymer cells — held in place by stretch-release adhesive pull-tabs routed beneath the cells. On older models, the tabs pull cleanly away if you know the correct angle and apply steady tension. On newer 14-inch and 16-inch MacBook Pros, there are up to eight separate adhesive sections across a battery pack that spans the full width of the lower case. Get it wrong and you puncture a cell.
+              MacBook Pro battery replacement is not a simple swap. From the 2015 MacBook Pro onwards, Apple moved to adhesive-mounted lithium-polymer cells, held in place by stretch-release adhesive pull-tabs routed beneath the cells. On older models, the tabs pull cleanly away if you know the correct angle and apply steady tension. On newer 14-inch and 16-inch MacBook Pros, there are up to eight separate adhesive sections across a battery pack that spans the full width of the lower case. Get it wrong and you puncture a cell.
             </p>
             <p>
               In our Hyde Park workshop, we have replaced MacBook Pro batteries on every generation from the 2012 non-Retina through to the current M4 Pro and M4 Max models. We use a combination of controlled heat (no higher than 50°C to avoid thermal stress to the cells), slow-release adhesive solvent applied at the seams, and non-conductive plastic pry tools. We never use metal blades near the battery pouch. This approach adds time to the procedure but eliminates the risk of a punctured cell, which would turn a routine replacement into a hazardous materials situation.
@@ -347,10 +347,10 @@ export default function BatteryReplacementMacBookProPage() {
               Load shedding is a genuine battery health risk in South Africa that we see the consequences of daily. Johannesburg households on a Stage 4 schedule experience up to 12 power interruptions per day. Each interruption forces the MacBook Pro to transition between battery power and AC power, counting as a partial charge cycle. Our observation across hundreds of client machines is that MacBook Pros used in Johannesburg without a UPS are reaching 1,000 cycles 12 to 18 months sooner than the same models used in cities without load shedding. The most cost-effective long-term solution is a quality UPS for your workspace, combined with replacing the battery once it drops below 80% capacity.
             </p>
             <p>
-              The most common sign we see of an imminent battery failure on the 13-inch MacBook Pro is a raised or stiff trackpad. The click mechanism on these models relies on the physical gap between the trackpad and the chassis. When the battery swells — even by 1 to 2 mm — it closes that gap. Clients often report that the trackpad &quot;feels different&quot; for weeks before they notice the click becoming difficult. If you experience this, the battery is likely already in an advanced state of swelling and should be replaced as a matter of urgency.
+              The most common sign we see of an imminent battery failure on the 13-inch MacBook Pro is a raised or stiff trackpad. The click mechanism on these models relies on the physical gap between the trackpad and the chassis. When the battery swells, even by 1 to 2 mm, it closes that gap. Clients often report that the trackpad &quot;feels different&quot; for weeks before they notice the click becoming difficult. If you experience this, the battery is likely already in an advanced state of swelling and should be replaced as a matter of urgency.
             </p>
             <p>
-              Apple&apos;s own battery replacement documentation, available through the iFixit MacBook Pro battery guide, covers the mechanical procedure at a high level. What it does not capture is the nuance of adhesive removal on a battery that has partially swollen, the correct solvent concentration to use without damaging the top case anodising, or the post-replacement calibration steps required to ensure the battery management unit reports accurately in macOS. These are skills that come from volume — we perform multiple MacBook Pro battery replacements every week.
+              Apple&apos;s own battery replacement documentation, available through the iFixit MacBook Pro battery guide, covers the mechanical procedure at a high level. What it does not capture is the nuance of adhesive removal on a battery that has partially swollen, the correct solvent concentration to use without damaging the top case anodising, or the post-replacement calibration steps required to ensure the battery management unit reports accurately in macOS. These are skills that come from volume, we perform multiple MacBook Pro battery replacements every week.
             </p>
           </div>
           <div className="mt-6">
@@ -371,7 +371,7 @@ export default function BatteryReplacementMacBookProPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro Battery Fault Patterns We Repair</h2>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed">
-            We have documented the most common MacBook Pro battery failure modes across every generation. Each fault below is diagnosable before quoting — we confirm the battery is the actual cause before proceeding.
+            We have documented the most common MacBook Pro battery failure modes across every generation. Each fault below is diagnosable before quoting, we confirm the battery is the actual cause before proceeding.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {faultTypes.map((fault) => (
@@ -403,16 +403,16 @@ export default function BatteryReplacementMacBookProPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro Battery Replacement</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple often replaces the entire top case assembly — keyboard, trackpad, and battery as one unit — rather than the battery alone. This dramatically inflates the cost. We replace only the battery cells.
+            Apple often replaces the entire top case assembly, keyboard, trackpad, and battery as one unit, rather than the battery alone. This dramatically inflates the cost. We replace only the battery cells.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly replacement on many Pro models — R3,500 to R8,000+</li>
-                <li>Turnaround 5–10 business days via Apple depot</li>
+                <li>Top case assembly replacement on many Pro models, R3,500 to R8,000+</li>
+                <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>Keyboard and trackpad replaced unnecessarily on top-case models</li>
-                <li>No diagnosis of underlying cause — battery swapped regardless</li>
+                <li>No diagnosis of underlying cause, battery swapped regardless</li>
                 <li>AppleCare+ required for reduced cost on out-of-warranty machines</li>
                 <li>Limited transparency on specific cell specifications used</li>
               </ul>
@@ -420,11 +420,11 @@ export default function BatteryReplacementMacBookProPage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Battery cells only — keyboard and trackpad are never touched</li>
+                <li>Battery cells only, keyboard and trackpad are never touched</li>
                 <li>MacBook Pro 13″ from R1,799 | 14″/16″ from R2,299</li>
                 <li>Cycle count and capacity confirmed before quoting</li>
-                <li>Turnaround 2–6 hours same day</li>
-                <li>coconutBattery diagnostic included — results shared with client</li>
+                <li>Turnaround 2-6 hours same day</li>
+                <li>coconutBattery diagnostic included, results shared with client</li>
                 <li>Up-to-3 year warranty on the replacement cell</li>
               </ul>
             </div>
@@ -441,12 +441,12 @@ export default function BatteryReplacementMacBookProPage() {
               {
                 step: 1,
                 title: 'Drop Off & Initial Diagnostic',
-                desc: 'Walk in to our Hyde Park workshop — no appointment needed. We run a battery diagnostic immediately: cycle count, maximum capacity, cell voltage balance, and charging circuit health using coconutBattery and Apple System Information. You will have a written quote within 20 minutes.',
+                desc: 'Walk in to our Hyde Park workshop, no appointment needed. We run a battery diagnostic immediately: cycle count, maximum capacity, cell voltage balance, and charging circuit health using coconutBattery and Apple System Information. You will have a written quote within 20 minutes.',
               },
               {
                 step: 2,
                 title: 'Battery Removal',
-                desc: 'Our technician removes the bottom case, disconnects the battery connector, and releases the adhesive pull-tabs using controlled heat (max 50°C) and adhesive solvent applied at the cell seams. Non-conductive plastic tools only — no metal near the battery pouch. On swollen batteries, we use a controlled depressurisation technique before extraction.',
+                desc: 'Our technician removes the bottom case, disconnects the battery connector, and releases the adhesive pull-tabs using controlled heat (max 50°C) and adhesive solvent applied at the cell seams. Non-conductive plastic tools only, no metal near the battery pouch. On swollen batteries, we use a controlled depressurisation technique before extraction.',
               },
               {
                 step: 3,
@@ -481,9 +481,9 @@ export default function BatteryReplacementMacBookProPage() {
       {/* Service Area */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro Battery Replacement — Johannesburg Service Area</h2>
+          <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro Battery Replacement, Johannesburg Service Area</h2>
           <p className="text-[#7A9E98] mb-6 leading-relaxed">
-            Our Hyde Park workshop is 10 to 20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, and Houghton. Same-day collection is available for urgent swollen battery cases — contact us on WhatsApp or by phone to arrange.
+            Our Hyde Park workshop is 10 to 20 minutes from most northern Johannesburg suburbs. We offer collection and return from Sandton, Rosebank, Bryanston, Fourways, Midrand, Randburg, Morningside, Rivonia, and Houghton. Same-day collection is available for urgent swollen battery cases, contact us on WhatsApp or by phone to arrange.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 mb-6">
             {[
@@ -518,7 +518,7 @@ export default function BatteryReplacementMacBookProPage() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro Battery Replacement — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro Battery Replacement, Common Questions" />
         </div>
       </section>
 
@@ -529,12 +529,12 @@ export default function BatteryReplacementMacBookProPage() {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {[
               { label: 'All Battery Replacements', href: '/battery-replacement' },
-              { label: 'Battery Replacement — Sandton', href: '/battery-replacement/sandton' },
+              { label: 'Battery Replacement, Sandton', href: '/battery-replacement/sandton' },
               { label: 'MacBook Pro Screen Repair', href: '/screen-repair/macbook-pro' },
               { label: 'Logic Board Repair', href: '/logic-board-repair' },
               { label: 'MacBook Pro Logic Board Repair', href: '/logic-board-repair/macbook-pro' },
-              { label: 'Logic Board — MacBook Pro 14″', href: '/logic-board-repair/macbook-pro-14-inch' },
-              { label: 'Logic Board — MacBook Pro 16″', href: '/logic-board-repair/macbook-pro-16-inch' },
+              { label: 'Logic Board, MacBook Pro 14″', href: '/logic-board-repair/macbook-pro-14-inch' },
+              { label: 'Logic Board, MacBook Pro 16″', href: '/logic-board-repair/macbook-pro-16-inch' },
               { label: 'Contact Us', href: '/contact' },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="glass-card p-4 text-center group">
@@ -551,7 +551,7 @@ export default function BatteryReplacementMacBookProPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro Battery Issue? Book a Diagnostic.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a description of the fault — swollen battery, unexpected shutdowns, high cycle count, or a trackpad that no longer clicks properly — and we will give you an honest price range before you bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a description of the fault, swollen battery, unexpected shutdowns, high cycle count, or a trackpad that no longer clicks properly, and we will give you an honest price range before you bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

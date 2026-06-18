@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How long does iPhone screen repair take?',
-    answer: 'Most iPhone screen replacements are completed within 1–2 hours, depending on the model. We stock screens for all current models. Call ahead to confirm stock availability for your specific model.',
+    answer: 'Most iPhone screen replacements are completed within 1-2 hours, depending on the model. We stock screens for all current models. Call ahead to confirm stock availability for your specific model.',
   },
   {
     question: 'Do you use genuine Apple screens or aftermarket?',

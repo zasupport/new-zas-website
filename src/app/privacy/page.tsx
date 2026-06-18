@@ -4,7 +4,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | ZA Support — POPIA Compliant',
+  title: 'Privacy Policy | ZA Support: POPIA Compliant',
   description:
     'ZA Support privacy policy. POPIA-compliant data protection for Apple repair, managed IT, and medical practice clients in Johannesburg. Learn how we collect, use, and protect your personal information.',
   alternates: { canonical: 'https://zasupport.com/privacy' },

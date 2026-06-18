@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power delivery circuit diagnosed and repaired at component level.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power delivery circuit diagnosed and repaired at component level.' },
   { title: 'Black Screen', desc: 'Machine starts but the display stays dark. Backlight driver IC, GPU fault, or display signal path identified and repaired under microscope.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and component pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdowns', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'How far is Kempton Park from your Hyde Park workshop?',
-    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 30–35 km from central Kempton Park, around 30–40 minutes by road depending on traffic. Many Kempton Park clients travelling for work or connecting through OR Tambo drop their MacBook with us on route. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30.',
+    answer: 'Our workshop at 1 Hyde Lane, Hyde Park is approximately 30-35 km from central Kempton Park, around 30-40 minutes by road depending on traffic. Many Kempton Park clients travelling for work or connecting through OR Tambo drop their MacBook with us on route. We are open Monday to Thursday 08:00-17:00 and Friday 08:00-16:30.',
   },
   {
     question: 'My MacBook was in my luggage and stopped working after a flight. Can you help?',
@@ -50,11 +50,11 @@ const faqs = [
   },
   {
     question: 'What is the difference between component-level repair and a board replacement?',
-    answer: 'Component-level repair targets the specific failed component — a chip, capacitor, resistor, or damaged trace — on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60–80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
+    answer: 'Component-level repair targets the specific failed component, a chip, capacitor, resistor, or damaged trace, on your existing board using a microscope and precision soldering station. Board replacement swaps the entire logic board. Component-level repair preserves your original board, keeps your data in place, and typically costs 60-80% less than a full board replacement. It is our preferred approach whenever the fault is repairable at component level.',
   },
   {
     question: 'How long will the repair take?',
-    answer: 'We complete the diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48–72 hours. Complex component-level repair jobs — GPU, multi-component faults, or severe liquid damage — can take 3–5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
+    answer: 'We complete the diagnostic assessment within 24 hours. Simple repairs such as USB-C ports and power circuit faults are typically done within 48-72 hours. Complex component-level repair jobs, GPU, multi-component faults, or severe liquid damage, can take 3-5 business days. You will receive a clear timeframe with your repair quote before any work begins.',
   },
   {
     question: 'What if the board cannot be repaired?',
@@ -102,14 +102,14 @@ export default function LogicBoardRepairKemptonParkPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Kempton Park, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook logic board repair for Kempton Park and OR Tambo area clients. We collect from Kempton Park and carry out component-level repair at our Hyde Park workshop. Assessment: from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Kempton Park and repair at our Hyde Park workshop, approx. 30–40 min drive</span>
+              <span>We collect from Kempton Park and repair at our Hyde Park workshop, approx. 30-40 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -150,13 +150,13 @@ export default function LogicBoardRepairKemptonParkPage() {
               Kempton Park sits in Ekurhuleni, east of Johannesburg, and is home to a busy mix of logistics businesses, freight companies, and residential clients connected to OR Tambo International Airport. When a MacBook logic board fails in that environment, whether you are a business owner on Atlas Road or a professional living in Birchleigh, every hour without a working machine costs. ZA Support offers Kempton Park clients a dedicated collection and return service, coming to you and returning your repaired MacBook to your door.
             </p>
             <p>
-              Our Hyde Park workshop is equipped with professional hot-air rework stations, a high-magnification stereo microscope, and the diagnostic tools needed to trace faults at board level. We do not guess — every repair starts with a structured diagnostic session that identifies the exact component failure before any soldering takes place.
+              Our Hyde Park workshop is equipped with professional hot-air rework stations, a high-magnification stereo microscope, and the diagnostic tools needed to trace faults at board level. We do not guess, every repair starts with a structured diagnostic session that identifies the exact component failure before any soldering takes place.
             </p>
             <p>
               We repair MacBook Pro, MacBook Air, iMac, and Mac mini logic boards across all generations, Intel and Apple Silicon alike. Whether you are dealing with a no-power fault on a 2019 MacBook Pro or a USB-C charging failure on an M2 MacBook Air, the process is the same: assess first, quote second, repair only with your approval.
             </p>
             <p>
-              Component-level repair is our default approach, targeting the specific failed chip or component rather than replacing the entire logic board. This saves Kempton Park clients 60–80% compared to a full board swap, and your original board, data, Touch ID pairing, and Secure Enclave are all preserved.
+              Component-level repair is our default approach, targeting the specific failed chip or component rather than replacing the entire logic board. This saves Kempton Park clients 60-80% compared to a full board swap, and your original board, data, Touch ID pairing, and Secure Enclave are all preserved.
             </p>
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function LogicBoardRepairKemptonParkPage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Collection from Kempton Park', desc: 'Contact us via WhatsApp or phone. We arrange a collection time that suits your schedule — home, office, or a convenient Kempton Park location near OR Tambo or central Kempton.' },
+              { step: '01', title: 'Collection from Kempton Park', desc: 'Contact us via WhatsApp or phone. We arrange a collection time that suits your schedule, home, office, or a convenient Kempton Park location near OR Tambo or central Kempton.' },
               { step: '02', title: 'Diagnostic Assessment', desc: 'Your MacBook is assessed at board level within 24 hours. We trace the exact fault using diagnostic tools, schematics, and a stereo microscope.' },
               { step: '03', title: 'Written Quote, No Obligation', desc: 'You receive a clear quote detailing the fault, the repair approach, the cost, and the expected timeframe. No work begins until you approve.' },
               { step: '04', title: 'Component-level Repair', desc: 'Our technician carries out the repair under microscope, replacing the specific failed component while leaving everything else on your board untouched.' },
@@ -218,10 +218,10 @@ export default function LogicBoardRepairKemptonParkPage() {
                 {[
                   'Targets only the specific failed component',
                   'Your original board, data stays put',
-                  '60–80% cheaper than board replacement',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -242,7 +242,7 @@ export default function LogicBoardRepairKemptonParkPage() {
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}

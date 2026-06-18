@@ -59,14 +59,14 @@ const symptoms = [
   { title: 'Battery drains in under 2 hours', detail: 'A healthy MacBook Pro should give 8-18 hours depending on model. Under 2 hours of real use means significant cell degradation.' },
   { title: 'MacBook shuts off before reaching 0%', detail: 'Powers off at 20-30% or higher. Classic sign of cells that can no longer hold charge under load.' },
   { title: 'Battery health below 80% in System Info', detail: 'Apple classifies anything below 80% maximum capacity as consumed. macOS will show "Service Recommended" at this point.' },
-  { title: 'Swollen or bulging battery', detail: 'Trackpad feels raised or pops. Bring in immediately — a swollen battery is a fire risk and should not be charged.', urgent: true },
+  { title: 'Swollen or bulging battery', detail: 'Trackpad feels raised or pops. Bring in immediately, a swollen battery is a fire risk and should not be charged.', urgent: true },
   { title: '"Service Recommended" or "Replace Now" in macOS', detail: 'Apple flags degraded batteries directly in Battery Settings. This message confirms replacement is needed.' },
   { title: 'Won\'t hold charge even when plugged in', detail: 'The battery has failed completely. The Mac will only run on AC power with no portability remaining.' },
 ];
 
 const models = [
-  { name: 'MacBook Pro 13" 2015–2020 (Intel)', note: 'Intel' },
-  { name: 'MacBook Pro 15" 2015–2019 (Intel)', note: 'Intel' },
+  { name: 'MacBook Pro 13" 2015-2020 (Intel)', note: 'Intel' },
+  { name: 'MacBook Pro 15" 2015-2019 (Intel)', note: 'Intel' },
   { name: 'MacBook Pro 16" 2019 (Intel)', note: 'Intel' },
   { name: 'MacBook Pro 13" M1, M2 (Apple Silicon)', note: 'Apple Silicon' },
   { name: 'MacBook Pro 14" M1 Pro/Max, M2 Pro/Max, M3 Pro/Max', note: 'Apple Silicon' },
@@ -75,7 +75,7 @@ const models = [
 
 const process = [
   { step: '01', title: 'Drop In for Assessment', desc: 'Bring your MacBook Pro to our Hyde Park workshop. No appointment required, though calling ahead confirms stock for same-day service.' },
-  { step: '02', title: 'Written Quote', desc: 'We check battery health, cycle count, and cell condition. You receive a fixed quote before any work begins — no surprises.' },
+  { step: '02', title: 'Written Quote', desc: 'We check battery health, cycle count, and cell condition. You receive a fixed quote before any work begins, no surprises.' },
   { step: '03', title: 'Battery Replacement (Data Untouched)', desc: 'We replace the battery only. Your storage, apps, and data are completely unaffected. No reinstall or erase required.' },
   { step: '04', title: 'Full Test and Return', desc: 'Battery health confirmed at 100% in macOS before collection. up-to-3 year warranty issued on parts and labour.' },
 ];
@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook Pro battery replacement take?',
-    answer: 'Most MacBook Pro battery replacements are completed within 1-3 hours. We aim for same-day service where possible. M-series models with glued assemblies take slightly longer — typically 2-3 hours.',
+    answer: 'Most MacBook Pro battery replacements are completed within 1-3 hours. We aim for same-day service where possible. M-series models with glued assemblies take slightly longer, typically 2-3 hours.',
   },
   {
     question: 'Is my data safe during a battery replacement?',
@@ -194,7 +194,7 @@ export default function MacBookProBatteryPage() {
             Signs You Need a Battery Replacement
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Recognise any of these? Assessment: from R599 — we diagnose and quote before any work begins.
+            Recognise any of these? Assessment: from R599, we diagnose and quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {symptoms.map((s) => (

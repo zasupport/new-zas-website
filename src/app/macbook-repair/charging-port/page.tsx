@@ -72,7 +72,7 @@ const causes = [
     icon: '🧲',
     title: 'Dead MagSafe DC-in Board',
     description:
-      'On MagSafe-equipped MacBooks (Air 2018–2021 via USB-C, and older models with MagSafe 1/2), the DC-in board is a separate component that can be replaced without touching the logic board. Bent pins, liquid damage, or a burned connector are all fixable.',
+      'On MagSafe-equipped MacBooks (Air 2018-2021 via USB-C, and older models with MagSafe 1/2), the DC-in board is a separate component that can be replaced without touching the logic board. Bent pins, liquid damage, or a burned connector are all fixable.',
     severity: 'medium',
     cost: 'MagSafe DC-in replacement, contact for pricing',
   },
@@ -80,12 +80,12 @@ const causes = [
 
 const pricing = [
   { service: 'Port cleaning (USB-C or MagSafe)', note: 'Same-day' },
-  { service: 'MagSafe DC-in board (Air, MagSafe 1/2)', note: '1–3 hours' },
-  { service: 'USB-C I/O board replacement (Air)', note: '1–3 hours' },
-  { service: 'USB-C I/O board replacement (Pro 13")', note: '1–3 hours' },
-  { service: 'USB-C I/O board replacement (Pro 14"/16")', note: '2–4 hours' },
-  { service: 'USB-C controller IC (logic board component)', note: '2–5 days' },
-  { service: 'Charge IC (CD3217B12, logic board)', note: '2–5 days' },
+  { service: 'MagSafe DC-in board (Air, MagSafe 1/2)', note: '1-3 hours' },
+  { service: 'USB-C I/O board replacement (Air)', note: '1-3 hours' },
+  { service: 'USB-C I/O board replacement (Pro 13")', note: '1-3 hours' },
+  { service: 'USB-C I/O board replacement (Pro 14"/16")', note: '2-4 hours' },
+  { service: 'USB-C controller IC (logic board component)', note: '2-5 days' },
+  { service: 'Charge IC (CD3217B12, logic board)', note: '2-5 days' },
 ];
 
 const diagnosisSteps = [
@@ -143,12 +143,12 @@ const faqs = [
   {
     question: 'How do I know if it\'s the charging port or the logic board?',
     answer:
-      'You cannot tell from symptoms alone, and neither can most repair shops without proper testing. We use a DC bench power supply to test the incoming power rail, then trace the fault to either the I/O board or the logic board. The assessment fee (from R599) takes 30–60 minutes and gives you a definitive answer with a written quote. Many cases that appear to be logic board faults turn out to be simple I/O board replacements.',
+      'You cannot tell from symptoms alone, and neither can most repair shops without proper testing. We use a DC bench power supply to test the incoming power rail, then trace the fault to either the I/O board or the logic board. The assessment fee (from R599) takes 30-60 minutes and gives you a definitive answer with a written quote. Many cases that appear to be logic board faults turn out to be simple I/O board replacements.',
   },
   {
     question: 'Can you repair a broken MagSafe port?',
     answer:
-      'Yes. On older MacBook Air and MacBook Pro models with MagSafe 1 or MagSafe 2 connectors, the DC-in board is a separate component that we replace as a unit. On newer MacBook Air models (2018–2022) that charge via USB-C but have the MagSafe 3 port added in 2022 models, the MagSafe board is also replaceable independently. Contact us for a quote.',
+      'Yes. On older MacBook Air and MacBook Pro models with MagSafe 1 or MagSafe 2 connectors, the DC-in board is a separate component that we replace as a unit. On newer MacBook Air models (2018-2022) that charge via USB-C but have the MagSafe 3 port added in 2022 models, the MagSafe board is also replaceable independently. Contact us for a quote.',
   },
   {
     question: 'My USB-C port is loose, can it be fixed without replacing the whole machine?',
@@ -158,7 +158,7 @@ const faqs = [
   {
     question: 'How long does MacBook charging port repair take?',
     answer:
-      'Port cleaning and simple MagSafe pin straightening: 30–60 minutes, often same-day. I/O board replacement (USB-C or MagSafe DC-in board): 1–3 hours, typically ready same day. Logic board component repair (USB-C controller IC or charge IC): 2–5 business days, as this involves microscope-level component-level repair. We confirm the exact turnaround when you drop off the machine.',
+      'Port cleaning and simple MagSafe pin straightening: 30-60 minutes, often same-day. I/O board replacement (USB-C or MagSafe DC-in board): 1-3 hours, typically ready same day. Logic board component repair (USB-C controller IC or charge IC): 2-5 business days, as this involves microscope-level component-level repair. We confirm the exact turnaround when you drop off the machine.',
   },
   {
     question: 'Do I need to replace the entire logic board if the USB-C port doesn\'t work?',
@@ -457,7 +457,7 @@ export default function MacBookChargingPortPage() {
               <Shield className="w-8 h-8 text-[#0FEA7A] mx-auto mb-3" />
               <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Assessment: from R599</h3>
               <p className="text-[#7A9E98] text-sm">
-                If we cannot repair the fault, assessment fee of from R599 applies. The assessment is unconditional,, no catch.
+                If we cannot repair the fault, assessment fee of from R599 applies. The assessment is unconditional,  no catch.
               </p>
             </div>
           </div>

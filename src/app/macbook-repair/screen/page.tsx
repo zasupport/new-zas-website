@@ -30,11 +30,11 @@ const pricingRows = [
   { model: 'MacBook Air 13" M1 / M2', note: 'Most popular repair' },
   { model: 'MacBook Air 15" M2 / M3', note: '' },
   { model: 'MacBook Air 13" M3', note: '' },
-  { model: 'MacBook Pro 13" (2016–2022)', note: 'Intel + M-series' },
+  { model: 'MacBook Pro 13" (2016-2022)', note: 'Intel + M-series' },
   { model: 'MacBook Pro 14" M1 / M2 / M3 / M4', note: '' },
   { model: 'MacBook Pro 16" M1 / M2 / M3 / M4', note: '' },
-  { model: 'MacBook Air Intel 13" (2017–2020)', note: '' },
-  { model: 'MacBook Pro Intel 15" (2016–2019)', note: '' },
+  { model: 'MacBook Air Intel 13" (2017-2020)', note: '' },
+  { model: 'MacBook Pro Intel 15" (2016-2019)', note: '' },
 ];
 
 const symptoms = [
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: 'How long does MacBook screen replacement take?',
-    answer: 'Most MacBook screen replacements take 2–4 hours. We will confirm turnaround time when you bring it in. For newer M4 Pro and M4 Max models, we may need 24–48 hours.',
+    answer: 'Most MacBook screen replacements take 2-4 hours. We will confirm turnaround time when you bring it in. For newer M4 Pro and M4 Max models, we may need 24-48 hours.',
   },
   {
     question: 'Do you use genuine Apple screens?',
@@ -394,7 +394,7 @@ export default function MacBookScreenPage() {
                 <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.12)] flex items-center justify-center">
                   <Zap className="w-5 h-5 text-[#0FEA7A]" />
                 </div>
-                <h3 className="text-[#E8F4F1] font-bold text-lg">Apple Silicon (M1 – M4)</h3>
+                <h3 className="text-[#E8F4F1] font-bold text-lg">Apple Silicon (M1 - M4)</h3>
               </div>
               <ul className="space-y-3">
                 {[
@@ -417,13 +417,13 @@ export default function MacBookScreenPage() {
                 <div className="w-10 h-10 rounded-xl bg-[rgba(15,234,122,0.08)] flex items-center justify-center">
                   <Monitor className="w-5 h-5 text-[#7A9E98]" />
                 </div>
-                <h3 className="text-[#E8F4F1] font-bold text-lg">Intel Models (2016–2020)</h3>
+                <h3 className="text-[#E8F4F1] font-bold text-lg">Intel Models (2016-2020)</h3>
               </div>
               <ul className="space-y-3">
                 {[
-                  'MacBook Air 13" 2017–2020 (non-Retina and Retina)',
-                  'MacBook Pro 13" 2016–2020',
-                  'MacBook Pro 15" 2016–2019',
+                  'MacBook Air 13" 2017-2020 (non-Retina and Retina)',
+                  'MacBook Pro 13" 2016-2020',
+                  'MacBook Pro 15" 2016-2019',
                   'MacBook Pro 16" 2019',
                   'Older models: display cable is common failure point',
                   'Lower price point, parts more widely available',
@@ -453,7 +453,7 @@ export default function MacBookScreenPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mt-4">
             {[
-              { title: 'Assessment: from R599', body: 'We diagnose the fault before you commit. From R599,.' },
+              { title: 'Assessment: from R599', body: 'We diagnose the fault before you commit. From R599.' },
               { title: 'Assessment: from R599', body: 'If we cannot repair it, assessment fee of from R599 applies. Simple as that.' },
               { title: 'Up-to-3 Year Warranty', body: 'Every screen replacement carries a up-to-3 year warranty on parts and labour.' },
             ].map(({ title, body }) => (

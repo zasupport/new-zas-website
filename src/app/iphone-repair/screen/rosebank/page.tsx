@@ -15,26 +15,26 @@ export const metadata: Metadata = {
 };
 
 const issues = [
-  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly — glass, OLED, and touch digitiser.' },
+  { title: 'Cracked OLED Screen', desc: 'Shattered glass or cracked OLED panel from a drop. We replace the full display assembly, glass, OLED, and touch digitiser.' },
   { title: 'Touch Not Responding', desc: 'Part of the screen stops registering touch or becomes fully unresponsive. Full display assembly replacement resolves this.' },
   { title: 'Dead Pixels or Dark Blotches', desc: 'Permanent dark patches spreading after a drop. OLED cell failure caused by internal impact stress.' },
-  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display — classic OLED panel damage or a loose display connector.' },
-  { title: 'Green Line Down the Side', desc: 'Thin green vertical line — a known OLED failure mode. Screen replacement resolves it completely.' },
+  { title: 'Lines Across the Screen', desc: 'Horizontal or vertical lines on an iPhone display, classic OLED panel damage or a loose display connector.' },
+  { title: 'Green Line Down the Side', desc: 'Thin green vertical line, a known OLED failure mode. Screen replacement resolves it completely.' },
   { title: 'Ghost Touch', desc: 'iPhone appears to tap and swipe on its own. Digitiser fault from a cracked panel creating phantom capacitive signals.' },
 ];
 
 const faqs = [
   {
     question: 'Do you collect iPhones for screen repair from Rosebank?',
-    answer: 'Yes. Rosebank is approximately 2 km from our Hyde Park workshop — one of our closest collection suburbs. We collect from Rosebank Mall, The Zone, and surrounding offices and apartments. Same-day screen repair and return is typically possible for Rosebank clients.',
+    answer: 'Yes. Rosebank is approximately 2 km from our Hyde Park workshop, one of our closest collection suburbs. We collect from Rosebank Mall, The Zone, and surrounding offices and apartments. Same-day screen repair and return is typically possible for Rosebank clients.',
   },
   {
     question: 'How long does an iPhone screen repair take?',
-    answer: 'Most iPhone screen replacements are completed within 1–2 hours. For Rosebank clients, we can often collect, repair, and return your iPhone on the same day.',
+    answer: 'Most iPhone screen replacements are completed within 1-2 hours. For Rosebank clients, we can often collect, repair, and return your iPhone on the same day.',
   },
   {
     question: 'Which iPhone models do you repair?',
-    answer: 'We repair iPhone 12, 12 mini, 12 Pro, 12 Pro Max, 13 series, 14 series, 15 series, and 16 series including all Pro and Pro Max variants. Contact us if you have an older model — we service earlier iPhones too.',
+    answer: 'We repair iPhone 12, 12 mini, 12 Pro, 12 Pro Max, 13 series, 14 series, 15 series, and 16 series including all Pro and Pro Max variants. Contact us if you have an older model, we service earlier iPhones too.',
   },
   {
     question: 'What screens do you use?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'My iPhone screen is cracked but still works. Should I repair it?',
-    answer: 'Yes. A cracked screen will worsen over time — small cracks spread under daily pressure and temperature changes. The cracked glass also exposes the OLED panel to dust and moisture. Repairing a lightly cracked screen is significantly cheaper than replacing a screen that has developed dark blotches from deferred repairs.',
+    answer: 'Yes. A cracked screen will worsen over time, small cracks spread under daily pressure and temperature changes. The cracked glass also exposes the OLED panel to dust and moisture. Repairing a lightly cracked screen is significantly cheaper than replacing a screen that has developed dark blotches from deferred repairs.',
   },
 ];
 
@@ -92,18 +92,18 @@ export default function IPhoneScreenRepairRosebankPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               iPhone Screen Repair Rosebank
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Cracked iPhone screen? We collect from Rosebank — just 2 km from our Hyde Park workshop. Same-day repair for most iPhone models.
+              Cracked iPhone screen? We collect from Rosebank, just 2 km from our Hyde Park workshop. Same-day repair for most iPhone models.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Rosebank is 2 km from our Hyde Park workshop — fastest collection suburb</span>
+              <span>Rosebank is 2 km from our Hyde Park workshop, fastest collection suburb</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { icon: CheckCircle, label: 'iPhone 12–16 Pro Max' },
+                { icon: CheckCircle, label: 'iPhone 12-16 Pro Max' },
                 { icon: Zap, label: 'Same-day Repair' },
                 { icon: Shield, label: 'Written Warranty' },
                 { icon: MapPin, label: 'Collect from Rosebank' },
@@ -134,10 +134,10 @@ export default function IPhoneScreenRepairRosebankPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-6">iPhone Screen Repair for Rosebank Clients</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Rosebank is one of Johannesburg&apos;s most active retail and commercial hubs, and home to some of the city&apos;s densest residential apartment complexes. A cracked iPhone screen in Rosebank is minutes away from a solution — our Hyde Park workshop at 1 Hyde Lane is approximately 2 km from Rosebank Mall and The Zone.
+              Rosebank is one of Johannesburg&apos;s most active retail and commercial hubs, and home to some of the city&apos;s densest residential apartment complexes. A cracked iPhone screen in Rosebank is minutes away from a solution, our Hyde Park workshop at 1 Hyde Lane is approximately 2 km from Rosebank Mall and The Zone.
             </p>
             <p>
-              We collect iPhones from Rosebank, complete the screen repair at our workshop, and return the device — often on the same day. We repair all current iPhone OLED models including the iPhone 12 through 16 Pro Max range.
+              We collect iPhones from Rosebank, complete the screen repair at our workshop, and return the device, often on the same day. We repair all current iPhone OLED models including the iPhone 12 through 16 Pro Max range.
             </p>
             <p>
               Every screen replacement uses a high-quality OLED assembly matched to your iPhone model, and is covered by a written ZA Support warranty. Face ID continues to function normally after our repairs.
@@ -162,7 +162,7 @@ export default function IPhoneScreenRepairRosebankPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="iPhone Screen Repair Rosebank — Common Questions" />
+          <FAQAccordion items={faqs} title="iPhone Screen Repair Rosebank, Common Questions" />
         </div>
       </section>
 

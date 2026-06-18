@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: 'How far is Fourways from your workshop?',
-    answer: 'Fourways is approximately 13 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Thursday 08:00–17:00 and Friday 08:00–16:30 and Closed Saturdays.',
+    answer: 'Fourways is approximately 13 km from our Hyde Park workshop at 1 Hyde Lane, around 20 to 30 minutes via William Nicol Drive or the N14. Many Fourways clients who commute through Sandton or Rosebank find it convenient to drop their MacBook off at our workshop directly. We are open Monday to Thursday 08:00-17:00 and Friday 08:00-16:30 and Closed Saturdays.',
   },
   {
     question: 'My MacBook Air M2 will not turn on. Is that repairable?',
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'What is the turnaround time for a Fourways collection job?',
-    answer: 'From collection to return, most repairs are completed within 3–5 business days including the collection day, diagnostic (24 hours), the repair itself (48–72 hours for most faults), and return. Complex component-level repair jobs may take 5–7 business days. We confirm the timeline with you before work begins.',
+    answer: 'From collection to return, most repairs are completed within 3-5 business days including the collection day, diagnostic (24 hours), the repair itself (48-72 hours for most faults), and return. Complex component-level repair jobs may take 5-7 business days. We confirm the timeline with you before work begins.',
   },
   {
     question: 'Is my data at risk during a logic board repair?',
@@ -102,14 +102,14 @@ export default function LogicBoardRepairFourwaysPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Fourways, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Fourways MacBook logic board repair with collection from your door. We specialise in component-level repair, fixing the actual failed component, not just replacing the whole board at premium cost.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>We collect from Fourways and repair at our Hyde Park workshop, approx. 20–30 min via William Nicol Drive</span>
+              <span>We collect from Fourways and repair at our Hyde Park workshop, approx. 20-30 min via William Nicol Drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -153,7 +153,7 @@ export default function LogicBoardRepairFourwaysPage() {
               When a logic board fault develops, and they do, on every generation of Mac, the question is whether the shop you take it to has the equipment and skill to repair it at component level. Most general repair shops in the Fourways area do not. They quote a full board replacement when the actual fault is a single blown fuse or a failed charging IC worth a fraction of that. ZA Support is different.
             </p>
             <p>
-              Our Hyde Park workshop is approximately 20–30 minutes from Fourways via William Nicol Drive. We are equipped for component-level repair, a stereo microscope, precision rework stations, and the diagnostic tools needed to trace a fault to a specific millimetre on the board. We offer collection from Fourways so you can stay home or at work while we handle the rest.
+              Our Hyde Park workshop is approximately 20-30 minutes from Fourways via William Nicol Drive. We are equipped for component-level repair, a stereo microscope, precision rework stations, and the diagnostic tools needed to trace a fault to a specific millimetre on the board. We offer collection from Fourways so you can stay home or at work while we handle the rest.
             </p>
             <p>
               We see a consistent pattern of faults from Fourways clients: MacBook Airs with failed USB-C charging, Intel MacBook Pro 15-inch models with GPU failure, and liquid-damaged MacBooks from the home office environment. All are handled with the same structured approach, diagnostic first, quote second, repair only on approval.

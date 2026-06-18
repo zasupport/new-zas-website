@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const faults = [
   { title: 'Cracked Screen', desc: 'Physical impact cracks the LCD panel or outer glass. Full display assembly replacement restores your MacBook to a pristine, like-new condition.' },
-  { title: 'Black Screen on Boot', desc: 'MacBook starts — fan runs, keyboard lights — but the display stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
+  { title: 'Black Screen on Boot', desc: 'MacBook starts, fan runs, keyboard lights, but the display stays dark. Backlight failure, display cable fault, or GPU issue diagnosed before any part is ordered.' },
   { title: 'Backlight Failure', desc: 'Display shows a faint image visible with a torch but no backlight. Backlight fuse, driver board, or LED strip fault identified and repaired at component level.' },
   { title: 'Horizontal or Vertical Lines', desc: 'Coloured lines or bars across the display indicate a damaged LCD panel, failed T-Con board, or a display connector that has pulled loose.' },
   { title: 'Flickering Display', desc: 'Screen flickers intermittently or on lid movement. Often a loose display cable on Intel-era MacBook Pros. Diagnosed before any repair work begins.' },
@@ -38,7 +38,7 @@ const pricing = [
 const faqs = [
   {
     question: 'Do you collect MacBooks from Morningside for screen repairs?',
-    answer: 'Yes. Morningside is approximately 3km from our Hyde Park workshop — one of the closest suburbs we serve. We offer a same-day collection and return service for Morningside clients. Your MacBook is collected from your home, medical practice, or office near Morningside Shopping Centre and returned once the repair is complete. Contact us on WhatsApp to arrange collection.',
+    answer: 'Yes. Morningside is approximately 3km from our Hyde Park workshop, one of the closest suburbs we serve. We offer a same-day collection and return service for Morningside clients. Your MacBook is collected from your home, medical practice, or office near Morningside Shopping Centre and returned once the repair is complete. Contact us on WhatsApp to arrange collection.',
   },
   {
     question: 'How quickly can you repair a MacBook screen for a Morningside client?',
@@ -54,15 +54,15 @@ const faqs = [
   },
   {
     question: 'What is the difference between a display replacement and a screen repair?',
-    answer: 'Display replacement means fitting a complete new display assembly — LCD panel, backlight, and outer glass — as a single unit. This is the standard approach for cracked screens and physical damage. Screen repair refers to targeted component-level fault diagnosis for issues such as backlight failure or flickering, where the panel may be undamaged. We always diagnose the exact fault first and never replace more than is necessary.',
+    answer: 'Display replacement means fitting a complete new display assembly, LCD panel, backlight, and outer glass, as a single unit. This is the standard approach for cracked screens and physical damage. Screen repair refers to targeted component-level fault diagnosis for issues such as backlight failure or flickering, where the panel may be undamaged. We always diagnose the exact fault first and never replace more than is necessary.',
   },
   {
     question: 'My MacBook Pro screen flickers when I open the lid. Is that a display cable fault?',
-    answer: 'Very likely, yes. Flickering on lid movement is a classic symptom of a loose or failing display cable on Intel MacBook Pro models — particularly the 13-inch 2016–2019 Touch Bar models. The cable runs through the hinge and develops stress fractures over time. It is a repairable fault that typically does not require a full display replacement, which saves a significant amount compared to fitting a new assembly.',
+    answer: 'Very likely, yes. Flickering on lid movement is a classic symptom of a loose or failing display cable on Intel MacBook Pro models, particularly the 13-inch 2016-2019 Touch Bar models. The cable runs through the hinge and develops stress fractures over time. It is a repairable fault that typically does not require a full display replacement, which saves a significant amount compared to fitting a new assembly.',
   },
   {
     question: 'Can I drop my MacBook off at your Hyde Park workshop instead of a collection?',
-    answer: 'Yes. If it is more convenient for you to drop off and collect — and many Morningside clients do, given how close we are — you are welcome to bring the machine directly to our Hyde Park workshop at 1 Hyde Park Lane. Contact us first via WhatsApp to confirm availability and arrange a drop-off time.',
+    answer: 'Yes. If it is more convenient for you to drop off and collect, and many Morningside clients do, given how close we are, you are welcome to bring the machine directly to our Hyde Park workshop at 1 Hyde Park Lane. Contact us first via WhatsApp to confirm availability and arrange a drop-off time.',
   },
   {
     question: 'Does screen replacement void my AppleCare warranty?',
@@ -110,14 +110,14 @@ export default function ScreenRepairMorningsidePage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Repair Morningside
-              <br /><span className="text-[#0FEA7A]">— Hyde Park Workshop</span>
+              <br /><span className="text-[#0FEA7A]">, Hyde Park Workshop</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook screen repair and display replacement for Morningside clients. Our Hyde Park workshop is just 3km from Morningside Shopping Centre — same-day collection available.
+              MacBook screen repair and display replacement for Morningside clients. Our Hyde Park workshop is just 3km from Morningside Shopping Centre, same-day collection available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Only 3km from Morningside Shopping Centre — same-day collection available</span>
+              <span>Only 3km from Morningside Shopping Centre, same-day collection available</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -155,19 +155,19 @@ export default function ScreenRepairMorningsidePage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Morningside is one of our closest service areas — just 3km east of Hyde Park along William Nicol Drive and Rivonia Road. For Morningside clients with a failed MacBook display, the combination of our proximity and same-day collection service means there is genuinely no disruption to your day. We collect in the morning, repair the screen at our Hyde Park workshop, and return the machine the following morning.
+              Morningside is one of our closest service areas, just 3km east of Hyde Park along William Nicol Drive and Rivonia Road. For Morningside clients with a failed MacBook display, the combination of our proximity and same-day collection service means there is genuinely no disruption to your day. We collect in the morning, repair the screen at our Hyde Park workshop, and return the machine the following morning.
             </p>
             <p>
-              We serve both residential clients in the Morningside estate and cluster-home areas, and professionals working from the Morningside Shopping Centre precinct and surrounding medical practices. A cracked screen or a sudden backlight failure should not mean days without your machine — and with Morningside this close, it does not have to.
+              We serve both residential clients in the Morningside estate and cluster-home areas, and professionals working from the Morningside Shopping Centre precinct and surrounding medical practices. A cracked screen or a sudden backlight failure should not mean days without your machine, and with Morningside this close, it does not have to.
             </p>
             <p>
               In our Hyde Park workshop we repair and replace displays on every MacBook model: MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch). We carry display assemblies for the most common models in stock, which is why same-day collection and next-day return is realistic for Morningside clients.
             </p>
             <p>
-              We do not replace every fault with a new display assembly. The most common screen repair we do for Morningside clients is a component-level backlight repair — often a failed backlight fuse that any shop will tell you requires a full panel replacement. We diagnose at component level, quote accurately, and only replace what is actually broken. Every repair is backed by a written ZA Support warranty.
+              We do not replace every fault with a new display assembly. The most common screen repair we do for Morningside clients is a component-level backlight repair, often a failed backlight fuse that any shop will tell you requires a full panel replacement. We diagnose at component level, quote accurately, and only replace what is actually broken. Every repair is backed by a written ZA Support warranty.
             </p>
             <p>
-              If your MacBook display has cracked, developed lines, gone dark, or started flickering — whether you are in Morningside, Dunkeld West, or Sandown — contact us on WhatsApp and we will sort a collection that works for you.
+              If your MacBook display has cracked, developed lines, gone dark, or started flickering, whether you are in Morningside, Dunkeld West, or Sandown, contact us on WhatsApp and we will sort a collection that works for you.
             </p>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function ScreenRepairMorningsidePage() {
           </h2>
           <div className="space-y-6">
             {[
-              { step: '01', title: 'Same-Day Collection from Morningside', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your Morningside home, practice, or office — usually same-day given how close we are.' },
+              { step: '01', title: 'Same-Day Collection from Morningside', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your Morningside home, practice, or office, usually same-day given how close we are.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We identify whether the fault is a physical panel, backlight, cable, or board-level issue. This determines the correct repair approach and cost.' },
               { step: '03', title: 'Written Quote', desc: 'Clear fixed-price quote covering the fault, repair method, and timeframe. No work starts until you approve in writing.' },
               { step: '04', title: 'Repair or Replacement', desc: 'Component-level repair where possible, full display replacement where necessary. Quality-matched panel fitted at our Hyde Park workshop.' },

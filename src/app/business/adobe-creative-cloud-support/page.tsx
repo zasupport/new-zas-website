@@ -32,7 +32,7 @@ const faqs = [
   {
     question: 'Do you provide ongoing support after the initial engagement?',
     answer:
-      'Yes. Most of our business customers move to a monthly managed service after the initial deployment, which covers user support, licence management, security monitoring, and proactive maintenance. The managed service is optional — some customers prefer to call us only when they need us, which is fine too.',
+      'Yes. Most of our business customers move to a monthly managed service after the initial deployment, which covers user support, licence management, security monitoring, and proactive maintenance. The managed service is optional, some customers prefer to call us only when they need us, which is fine too.',
   },
   {
     question: 'Are you Apple, Microsoft, and Ubiquiti certified?',
@@ -52,7 +52,7 @@ const faqs = [
   {
     question: 'Do you support Adobe in a managed and MDM-deployed way across a business fleet?',
     answer:
-      'Yes. We package Adobe Creative Cloud for deployment via Microsoft Intune (Windows and macOS) and Jamf Pro (macOS and iOS). Centralised licence assignment runs through the Adobe Admin Console with SCIM provisioning from Microsoft Entra ID. Update channels are managed per workload — latest release for non-production users, prior release for production stability where workflow continuity matters. AVX2 compatibility is enforced (pre-2014 Intel Macs flagged for Creative Cloud 2024 and earlier). Silent install, silent update, and silent uninstall are configured per machine. Reporting flows through the Adobe Admin Console and Microsoft Intune compliance state, with quarterly licence optimisation reviews to right-size All Apps versus single-app subscriptions.',
+      'Yes. We package Adobe Creative Cloud for deployment via Microsoft Intune (Windows and macOS) and Jamf Pro (macOS and iOS). Centralised licence assignment runs through the Adobe Admin Console with SCIM provisioning from Microsoft Entra ID. Update channels are managed per workload, latest release for non-production users, prior release for production stability where workflow continuity matters. AVX2 compatibility is enforced (pre-2014 Intel Macs flagged for Creative Cloud 2024 and earlier). Silent install, silent update, and silent uninstall are configured per machine. Reporting flows through the Adobe Admin Console and Microsoft Intune compliance state, with quarterly licence optimisation reviews to right-size All Apps versus single-app subscriptions.',
   },
   {
     question: 'Which Adobe apps do business clients most need help with?',
@@ -65,7 +65,7 @@ const offerings = [
   {
     icon: Package,
     title: 'Licence supply and reseller fulfilment',
-    desc: 'Single-app, All Apps, business, education, government, Adobe Stock, and Firefly credits — supplied direct or via Adobe VIP.',
+    desc: 'Single-app, All Apps, business, education, government, Adobe Stock, and Firefly credits, supplied direct or via Adobe VIP.',
   },
   {
     icon: Settings,
@@ -75,7 +75,7 @@ const offerings = [
   {
     icon: Server,
     title: 'MDM deployment',
-    desc: 'Adobe Creative Cloud Packager builds delivered via Microsoft Intune (Windows and macOS) and Jamf Pro (macOS and iOS) — silent install, licence assignment, update ring control.',
+    desc: 'Adobe Creative Cloud Packager builds delivered via Microsoft Intune (Windows and macOS) and Jamf Pro (macOS and iOS), silent install, licence assignment, update ring control.',
   },
   {
     icon: Wrench,
@@ -133,7 +133,7 @@ export default function AdobeCreativeCloudSupportPage() {
               Adobe Solutions Partner · Johannesburg &amp; South Africa
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
-              Adobe Creative Cloud Support —
+              Adobe Creative Cloud Support, 
               <br />
               <span className="text-[#0FEA7A]">Licensing, Deployment, Management</span>
             </h1>
@@ -215,7 +215,7 @@ export default function AdobeCreativeCloudSupportPage() {
             <p>
               Deployment is handled through Microsoft Intune (Windows and macOS) and Jamf
               Pro (macOS and iOS). Each Adobe Creative Cloud package is built, signed, and
-              tested before it is pushed — silent install, licence assignment, and update
+              tested before it is pushed, silent install, licence assignment, and update
               channel management are all configured per device group. Managed updates run
               through the Adobe Update Manager with update rings scheduled so production
               teams stay on the prior-release stability channel while non-production users
@@ -295,7 +295,7 @@ export default function AdobeCreativeCloudSupportPage() {
               a handful of users. We package Adobe Creative Cloud for Microsoft Intune
               (Windows and macOS) and Jamf Pro (macOS and iOS), with centralised licence
               assignment via the Adobe Admin Console and SCIM provisioning from Microsoft
-              Entra ID. Update channels are managed per workload — latest release for
+              Entra ID. Update channels are managed per workload, latest release for
               non-production users, prior release for production stability where workflow
               continuity matters.
             </p>
@@ -433,7 +433,7 @@ export default function AdobeCreativeCloudSupportPage() {
           </h2>
           <p className="text-[#7A9E98] leading-relaxed mb-8">
             This page is part of our business services suite. Related pages cover our other
-            specialist areas — UniFi networking, Microsoft 365 deployment, managed IT for
+            specialist areas, UniFi networking, Microsoft 365 deployment, managed IT for
             practices, and medical IT. We commonly engage across multiple areas for a
             single customer, and where we do the engagements are coordinated under a single
             account manager.
@@ -455,7 +455,7 @@ export default function AdobeCreativeCloudSupportPage() {
             >
               <h3 className="text-[#E8F4F1] font-bold mb-2">Managed IT Services</h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                Monthly managed service for Apple and mixed estates — proactive monitoring,
+                Monthly managed service for Apple and mixed estates, proactive monitoring,
                 patching, and a dedicated account manager.
               </p>
             </Link>
@@ -465,7 +465,7 @@ export default function AdobeCreativeCloudSupportPage() {
             >
               <h3 className="text-[#E8F4F1] font-bold mb-2">Business IT</h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                Our full business services hub — SME, enterprise, government, medical, and
+                Our full business services hub, SME, enterprise, government, medical, and
                 managed Apple support.
               </p>
             </Link>
@@ -478,7 +478,7 @@ export default function AdobeCreativeCloudSupportPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FAQAccordion
             items={faqs}
-            title="Adobe Creative Cloud Support — frequently asked questions"
+            title="Adobe Creative Cloud Support, frequently asked questions"
           />
           <p className="text-[#7A9E98] leading-relaxed mt-8">
             If your question is not here, the fastest way to get an answer is to call us

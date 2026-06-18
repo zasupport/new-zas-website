@@ -23,13 +23,13 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can a MacBook Pro M2 logic board be repaired?', answer: 'Yes. The M2, M2 Pro, and M2 Max chips are integrated on the logic board and cannot be replaced individually — but the surrounding circuits are fully repairable. Power management, USB-C controllers, display backlight, audio circuits, and charging paths are all component-level repairable at ZA Support in Hyde Park, Johannesburg. Assessment from R599.' },
+  { question: 'Can a MacBook Pro M2 logic board be repaired?', answer: 'Yes. The M2, M2 Pro, and M2 Max chips are integrated on the logic board and cannot be replaced individually, but the surrounding circuits are fully repairable. Power management, USB-C controllers, display backlight, audio circuits, and charging paths are all component-level repairable at ZA Support in Hyde Park, Johannesburg. Assessment from R599.' },
   { question: 'Is the MacBook Pro M2 more difficult to repair than M1?', answer: 'The M2 generation uses a similar architecture to M1 for repairability purposes. The 14-inch and 16-inch M2 Pro/Max models have additional Thunderbolt 4 controllers and a more complex power delivery system, but the same component-level repair approach applies. Repairability is comparable.' },
-  { question: 'My MacBook Pro M2 was damaged by a power surge — is it worth repairing?', answer: 'In most cases yes. Load shedding power surges are a common cause of M2 MacBook Pro faults in South Africa. Surges typically damage the USB-C controller or power management IC, which are repairable. The M2 die itself is rarely the damaged component. Assessment from R599 confirms the specific fault.' },
+  { question: 'My MacBook Pro M2 was damaged by a power surge, is it worth repairing?', answer: 'In most cases yes. Load shedding power surges are a common cause of M2 MacBook Pro faults in South Africa. Surges typically damage the USB-C controller or power management IC, which are repairable. The M2 die itself is rarely the damaged component. Assessment from R599 confirms the specific fault.' },
   { question: 'Will my data be safe during M2 MacBook Pro logic board repair?', answer: 'Yes. We do not erase or reformat anything during component-level board repair. The SSD is not removed or erased. If the board is completely dead, we assess SSD readability as part of the R599 diagnostic.' },
-  { question: 'How much does MacBook Pro M2 logic board repair cost compared to Apple?', answer: 'Apple charges R20,000–R50,000 for logic board replacement on M2 MacBook Pro models. ZA Support\'s component-level repair — replacing only the failed component — is significantly less expensive. We quote your specific repair after the R599 assessment.' },
-  { question: 'How long does MacBook Pro M2 logic board repair take?', answer: 'After the R599 assessment and your written approval, most M2 MacBook Pro logic board repairs are completed within 3–5 business days. We provide a specific timeline in the written quote.' },
-  { question: 'Do you repair MacBook Pro M2 liquid damage in Johannesburg?', answer: 'Yes. We perform ultrasonic cleaning and component-level repair for M2 MacBook Pro liquid damage. Act quickly — corrosion progresses within hours. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.' },
+  { question: 'How much does MacBook Pro M2 logic board repair cost compared to Apple?', answer: 'Apple charges R20,000-R50,000 for logic board replacement on M2 MacBook Pro models. ZA Support\'s component-level repair, replacing only the failed component, is significantly less expensive. We quote your specific repair after the R599 assessment.' },
+  { question: 'How long does MacBook Pro M2 logic board repair take?', answer: 'After the R599 assessment and your written approval, most M2 MacBook Pro logic board repairs are completed within 3-5 business days. We provide a specific timeline in the written quote.' },
+  { question: 'Do you repair MacBook Pro M2 liquid damage in Johannesburg?', answer: 'Yes. We perform ultrasonic cleaning and component-level repair for M2 MacBook Pro liquid damage. Act quickly, corrosion progresses within hours. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.' },
   { question: 'Does ZA Support collect MacBook Pro M2 for repair?', answer: 'Yes. ZA Support collects from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
 
@@ -107,7 +107,7 @@ export default function MacBookProM2LogicBoardPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Logic Board Faults We Repair</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">The M2 generation MacBook Pros brought significant performance improvements but the same fundamental logic board repairability as M1. The M2 die, RAM, and Neural Engine are integrated and cannot be replaced — but the charging controllers, USB-C management ICs, display drivers, and power circuits are all discrete components we can diagnose and repair individually.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">The M2 generation MacBook Pros brought significant performance improvements but the same fundamental logic board repairability as M1. The M2 die, RAM, and Neural Engine are integrated and cannot be replaced, but the charging controllers, USB-C management ICs, display drivers, and power circuits are all discrete components we can diagnose and repair individually.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.fault} className="glass-card p-5">
@@ -121,7 +121,7 @@ export default function MacBookProM2LogicBoardPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Pro M2 Logic Board Repair — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Pro M2 Logic Board Repair, Common Questions" />
         </div>
       </section>
 

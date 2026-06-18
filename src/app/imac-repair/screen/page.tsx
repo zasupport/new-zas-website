@@ -15,10 +15,10 @@ export const metadata: Metadata = {
 };
 
 const pricingRows = [
-  { model: 'iMac 21.5" (2012–2014)', issue: 'Glass + LCD panel', note: 'Front glass separate from panel' },
-  { model: 'iMac 21.5" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD, full assembly' },
-  { model: 'iMac 27" (2012–2014)', issue: 'Glass + LCD panel', note: 'Glass separate, careful removal needed' },
-  { model: 'iMac 27" (2015–2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD, full assembly' },
+  { model: 'iMac 21.5" (2012-2014)', issue: 'Glass + LCD panel', note: 'Front glass separate from panel' },
+  { model: 'iMac 21.5" (2015-2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD, full assembly' },
+  { model: 'iMac 27" (2012-2014)', issue: 'Glass + LCD panel', note: 'Glass separate, careful removal needed' },
+  { model: 'iMac 27" (2015-2019)', issue: 'Laminated display assembly', note: 'Glass fused to LCD, full assembly' },
   { model: 'iMac 27" (2020)', issue: 'Nano-texture display', note: 'Call for quote, nano-texture variant' },
   { model: 'Backlight failure (any model)', issue: 'Backlight board or TCON', note: 'Board repair, panel may be reused' },
 ];
@@ -36,7 +36,7 @@ const faqs = [
   {
     question: 'What is the difference between the glass panel and the LCD panel?',
     answer:
-      'Older iMac models (2012–2014) have a separate front glass held in by magnets, and a separate LCD panel behind it. If only the glass is cracked (no visible damage to the image), replacing just the glass is cheaper. From 2015 onwards, Apple fused (laminated) the glass directly to the LCD, they are one unit and must be replaced together, which increases the cost.',
+      'Older iMac models (2012-2014) have a separate front glass held in by magnets, and a separate LCD panel behind it. If only the glass is cracked (no visible damage to the image), replacing just the glass is cheaper. From 2015 onwards, Apple fused (laminated) the glass directly to the LCD, they are one unit and must be replaced together, which increases the cost.',
   },
   {
     question: 'My iMac screen is dark but I can hear it running, is that the display or the logic board?',
@@ -46,17 +46,17 @@ const faqs = [
   {
     question: 'Can you repair just the cracked glass on an older iMac without replacing the LCD?',
     answer:
-      'On 2012–2014 iMac models, yes, if the LCD itself is undamaged (no dead pixels, no lines, no cracks visible in the image), replacing just the front glass is possible and less expensive than a full panel replacement. We assess the LCD condition before quoting.',
+      'On 2012-2014 iMac models, yes, if the LCD itself is undamaged (no dead pixels, no lines, no cracks visible in the image), replacing just the front glass is possible and less expensive than a full panel replacement. We assess the LCD condition before quoting.',
   },
   {
     question: 'How do you open an iMac to replace the screen?',
     answer:
-      'On 2012–2014 models, the front glass is held by magnets and lifts off with suction cups. From 2015 onwards, the glass is glued to the frame with adhesive strips. We use professional iMac display separation tools to cut the adhesive without cracking the glass or LCD, then reseal with fresh adhesive after the repair. The result looks factory-original.',
+      'On 2012-2014 models, the front glass is held by magnets and lifts off with suction cups. From 2015 onwards, the glass is glued to the frame with adhesive strips. We use professional iMac display separation tools to cut the adhesive without cracking the glass or LCD, then reseal with fresh adhesive after the repair. The result looks factory-original.',
   },
   {
     question: 'How long does an iMac screen replacement take?',
     answer:
-      'Display removal and panel replacement takes 2–3 hours. Most repairs are completed same day or the following morning. We confirm the timeline when you bring the machine in.',
+      'Display removal and panel replacement takes 2-3 hours. Most repairs are completed same day or the following morning. We confirm the timeline when you bring the machine in.',
   },
   {
     question: 'What causes iMac screens to fail?',

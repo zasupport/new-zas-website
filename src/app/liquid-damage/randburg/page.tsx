@@ -10,14 +10,14 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Randburg | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Randburg clients. Ultrasonic cleaning, board-level diagnostics. We collect from Randburg — 15 min from our workshop. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Randburg clients. Ultrasonic cleaning, board-level diagnostics. We collect from Randburg, 15 min from our workshop. Assessment from R599. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/randburg' },
 };
 
 const urgentSteps = [
   { step: '01', title: 'Switch Off Immediately', desc: 'Do not attempt to use or charge the MacBook. Power it off using the power button and leave it off.' },
   { step: '02', title: 'Do Not Use Rice', desc: 'Rice does not remove corrosion or clean contaminated contacts. It wastes critical intervention time.' },
-  { step: '03', title: 'Contact Us Now', desc: 'WhatsApp or call us immediately. Randburg is 15 minutes from our workshop — we can collect quickly.' },
+  { step: '03', title: 'Contact Us Now', desc: 'WhatsApp or call us immediately. Randburg is 15 minutes from our workshop, we can collect quickly.' },
   { step: '04', title: 'Ultrasonic Cleaning', desc: 'Full disassembly. Logic board cleaned in ultrasonic bath to remove corrosion and contaminants at component level.' },
   { step: '05', title: 'Diagnostic and Repair', desc: 'Post-clean diagnostic to identify damaged components. Board-level repair under magnification.' },
   { step: '06', title: 'Return to Randburg', desc: 'Your device returned clean, fully tested, with a ZA Support warranty on all repaired components.' },
@@ -26,7 +26,7 @@ const urgentSteps = [
 const faqs = [
   {
     question: 'Do you collect liquid-damaged MacBooks from Randburg?',
-    answer: 'Yes. Randburg is approximately 15 minutes from our Hyde Park workshop via Beyers Naudé Drive. We collect from homes and offices throughout Randburg, Ferndale, and Bordeaux. Contact us via WhatsApp immediately — liquid damage is time-critical.',
+    answer: 'Yes. Randburg is approximately 15 minutes from our Hyde Park workshop via Beyers Naudé Drive. We collect from homes and offices throughout Randburg, Ferndale, and Bordeaux. Contact us via WhatsApp immediately, liquid damage is time-critical.',
   },
   {
     question: 'What does the liquid damage assessment cost?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'How long does the liquid damage repair take?',
-    answer: 'Assessment and cleaning are typically completed within 24–48 hours. Complex board-level repairs may take longer depending on the components affected. We provide a specific turnaround time after assessment.',
+    answer: 'Assessment and cleaning are typically completed within 24-48 hours. Complex board-level repairs may take longer depending on the components affected. We provide a specific turnaround time after assessment.',
   },
 ];
 
@@ -90,18 +90,18 @@ export default function LiquidDamageRandburgPage() {
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 px-4 py-2 rounded-full mb-6">
               <AlertTriangle className="w-4 h-4 text-red-400" />
-              <span className="text-red-400 text-sm font-semibold">Act immediately — every hour matters</span>
+              <span className="text-red-400 text-sm font-semibold">Act immediately, every hour matters</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Liquid Damage Repair Randburg
-              <br /><span className="text-[#0FEA7A]">— 15 Min Away, We Collect Fast</span>
+              <br /><span className="text-[#0FEA7A]">, 15 Min Away, We Collect Fast</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               MacBook exposed to liquid in Randburg? Switch it off now. We are 15 minutes away. Same-day collection. Ultrasonic cleaning, board-level repair. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Randburg is approx. 15 min from our Hyde Park workshop — fast collection</span>
+              <span>Randburg is approx. 15 min from our Hyde Park workshop, fast collection</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -118,7 +118,7 @@ export default function LiquidDamageRandburgPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={buildWhatsAppUrl('LIQ-RANDBURG', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all" >
-                WhatsApp Now — Urgent
+                WhatsApp Now, Urgent
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}
@@ -150,7 +150,7 @@ export default function LiquidDamageRandburgPage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="MacBook Liquid Damage Repair Randburg — Common Questions" />
+          <FAQAccordion items={faqs} title="MacBook Liquid Damage Repair Randburg, Common Questions" />
         </div>
       </section>
 
@@ -175,11 +175,11 @@ export default function LiquidDamageRandburgPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Liquid Damage — Act Now.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Liquid Damage, Act Now.</h2>
             <p className="text-[#7A9E98] mb-6">Assessment from R599. 15 minutes away. Same-day collection. Switch it off and call us.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LIQ-RANDBURG', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
-                WhatsApp Now — Urgent
+                WhatsApp Now, Urgent
               </a>
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

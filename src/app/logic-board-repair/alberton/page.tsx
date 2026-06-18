@@ -17,14 +17,14 @@ export const metadata: Metadata = {
 };
 
 const faults = [
-  { title: 'No Power', desc: 'MacBook shows no signs of life — no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
+  { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no charging LED. Power rail diagnosis and component-level repair under microscope.' },
   { title: 'No Display', desc: 'Machine boots but screen stays black or shows artefacts. GPU failure, backlight fuse, or display driver chip identified and replaced.' },
   { title: 'Liquid Damage', desc: 'Coffee, water, or condensation causes corrosion on board traces and pads. Ultrasonic cleaning followed by targeted component replacement.' },
   { title: 'Overheating / Shutdown', desc: 'Unexpected shutdowns traced to failed voltage regulators, blocked power rails, or thermal sensor faults on the logic board.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no data, or no external display on USB-C ports. Retimer chip or port board replaced at component level.' },
   { title: 'Fan Running at Full Speed', desc: 'SMC fault or failed thermal sensor causes fans to run continuously at maximum. Board-level diagnosis and SMC component repair.' },
   { title: 'GPU / Display Artefacts', desc: 'Garbled lines, flickering, or partial display failure. Discrete GPU reballing or replacement on affected Intel models.' },
-  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults — failing RAM pads, storage controller, or power management ICs identified and repaired.' },
+  { title: 'Persistent Kernel Panics', desc: 'Crash logs pointing to logic board faults, failing RAM pads, storage controller, or power management ICs identified and repaired.' },
 ];
 
 const pricing = [
@@ -37,13 +37,13 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Alberton?', answer: 'Yes — we collect across Alberton including New Redruth, Brackenhurst, Randhart, Mayberry Park, Meyersdal and Meyersdal Eco Estate. The courier route runs via the N12 and M2 into Hyde Park. Collection is arranged by WhatsApp on 064 529 5863 and your MacBook is tracked door-to-door.' },
+  { question: 'Do you collect MacBooks from Alberton?', answer: 'Yes, we collect across Alberton including New Redruth, Brackenhurst, Randhart, Mayberry Park, Meyersdal and Meyersdal Eco Estate. The courier route runs via the N12 and M2 into Hyde Park. Collection is arranged by WhatsApp on 064 529 5863 and your MacBook is tracked door-to-door.' },
   { question: 'How far is Alberton from your Hyde Park workshop?', answer: 'Roughly 35 minutes by road in normal traffic, taking the N12 west and then the M1 north into Hyde Park. From Meyersdal Eco Estate the route is a little quicker via the N3, and from Brackenhurst slightly longer. The collection courier handles the drive so you do not need to make the trip yourself.' },
-  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a new one — this is what Apple and most service centres do, and on current models it routinely runs into tens of thousands of rand. Component-level repair, which is what we do at Hyde Park, identifies the specific failed chip, capacitor, resistor or IC on your existing board and replaces only that part under a microscope. For an Alberton client whose MacBook has a single failed charging IC, the difference is often the price of a coffee versus the price of a new machine.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In the majority of cases, yes. No-power faults usually trace back to a failed power management chip, a shorted capacitor on the main power rail, or a damaged charging IC — all of which are component-level repairs. We see this often from Alberton given the area\'s exposure to surges and brown-outs. The only way to know for certain is a proper diagnostic on the bench, which is what the R599 assessment covers.' },
+  { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a new one, this is what Apple and most service centres do, and on current models it routinely runs into tens of thousands of rand. Component-level repair, which is what we do at Hyde Park, identifies the specific failed chip, capacitor, resistor or IC on your existing board and replaces only that part under a microscope. For an Alberton client whose MacBook has a single failed charging IC, the difference is often the price of a coffee versus the price of a new machine.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In the majority of cases, yes. No-power faults usually trace back to a failed power management chip, a shorted capacitor on the main power rail, or a damaged charging IC, all of which are component-level repairs. We see this often from Alberton given the area\'s exposure to surges and brown-outs. The only way to know for certain is a proper diagnostic on the bench, which is what the R599 assessment covers.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 96 hours of the MacBook arriving at the Hyde Park workshop. Diagnostics are typically done on day one, parts ordered or pulled from stock on day two, and the repair plus a 24-hour load test follow. For Alberton clients the total turnaround including courier collection and return is generally four to six working days.' },
-  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That fee covers the full bench diagnostic — power sequencing checks, thermal imaging where relevant, microscope inspection and a written report telling you exactly which component has failed and what the repair will cost. If you choose to proceed, the assessment fee is credited against the repair cost.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The R599 fee is the starting point and covers the diagnostic work itself. You receive a written quote before any chargeable repair work begins, so Alberton clients always know the full cost upfront. There are no hidden charges added afterwards — if the repair turns out to be uneconomical, you are told that plainly and only the assessment fee applies.' },
+  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That fee covers the full bench diagnostic, power sequencing checks, thermal imaging where relevant, microscope inspection and a written report telling you exactly which component has failed and what the repair will cost. If you choose to proceed, the assessment fee is credited against the repair cost.' },
+  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The R599 fee is the starting point and covers the diagnostic work itself. You receive a written quote before any chargeable repair work begins, so Alberton clients always know the full cost upfront. There are no hidden charges added afterwards, if the repair turns out to be uneconomical, you are told that plainly and only the assessment fee applies.' },
   { question: 'Which MacBook models do you repair for Alberton clients?', answer: 'Every MacBook Pro and MacBook Air generation from the Intel-era Core i5 and i7 models through to the Apple Silicon M1, M2 and M3 machines. We also handle iMac and Mac mini board repairs. If you are unsure whether your model is repairable at component level, send a photo of the bottom case label via WhatsApp to 064 529 5863 and we will confirm before you commit to collection.' },
 ];
 
@@ -87,10 +87,10 @@ export default function LogicBoardRepairAlbertonPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Logic Board Repair Alberton, Johannesburg
-              <br /><span className="text-[#0FEA7A]">— MacBook Specialists</span>
+              <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Alberton MacBook owners — from New Redruth and Brackenhurst through to Meyersdal Eco Estate and Mayberry Park — rely on our Hyde Park component-level workshop for logic board repair. We collect along the N12 and N3 corridors, roughly 35 minutes from Hyde Park, and return your machine fully tested. Assessment from R599.
+              Alberton MacBook owners, from New Redruth and Brackenhurst through to Meyersdal Eco Estate and Mayberry Park, rely on our Hyde Park component-level workshop for logic board repair. We collect along the N12 and N3 corridors, roughly 35 minutes from Hyde Park, and return your machine fully tested. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -131,16 +131,16 @@ export default function LogicBoardRepairAlbertonPage() {
           </h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>
-              Alberton has a particular mix of MacBook users we have come to know well: home-based professionals in Brackenhurst and Randhart, small business owners trading along Voortrekker Road and through the Alberton City precinct, and a steady cluster of medical, legal and accounting practices near Clinix Bedford Gardens just over the boundary. The logic board failures we see from this catchment tend to fall into a recognisable set — complete no-power events after a power surge, intermittent shutdowns under load, USB-C ports that have stopped charging, no-display faults where the backlight is alive but nothing renders, and erratic fan ramps that point to a failed sensor line on the board. Each of these is a component-level problem, not a software one, which is why a reinstall or SMC reset never resolves them.
+              Alberton has a particular mix of MacBook users we have come to know well: home-based professionals in Brackenhurst and Randhart, small business owners trading along Voortrekker Road and through the Alberton City precinct, and a steady cluster of medical, legal and accounting practices near Clinix Bedford Gardens just over the boundary. The logic board failures we see from this catchment tend to fall into a recognisable set, complete no-power events after a power surge, intermittent shutdowns under load, USB-C ports that have stopped charging, no-display faults where the backlight is alive but nothing renders, and erratic fan ramps that point to a failed sensor line on the board. Each of these is a component-level problem, not a software one, which is why a reinstall or SMC reset never resolves them.
             </p>
             <p>
-              Our Hyde Park bench is set up specifically for board-level work — hot-air rework, micro-soldering under a stereo microscope, thermal imaging to trace short circuits, and schematic-driven diagnostics so we can isolate the failed component rather than guess. For Alberton clients this matters because the alternative most people are offered locally is a full board swap, which can cost more than the machine is worth on older Intel models. We have repaired MacBooks collected from a dental practice off Michelle Avenue where the board had taken a knock from a spilled coffee, and recovered a Meyersdal client&apos;s M1 Pro that had stopped charging after a lightning storm took out half the suburb&apos;s electronics. The consistent pattern we find in Alberton is surge-related damage — the area&apos;s power quality is not gentle on charging circuitry.
+              Our Hyde Park bench is set up specifically for board-level work, hot-air rework, micro-soldering under a stereo microscope, thermal imaging to trace short circuits, and schematic-driven diagnostics so we can isolate the failed component rather than guess. For Alberton clients this matters because the alternative most people are offered locally is a full board swap, which can cost more than the machine is worth on older Intel models. We have repaired MacBooks collected from a dental practice off Michelle Avenue where the board had taken a knock from a spilled coffee, and recovered a Meyersdal client&apos;s M1 Pro that had stopped charging after a lightning storm took out half the suburb&apos;s electronics. The consistent pattern we find in Alberton is surge-related damage, the area&apos;s power quality is not gentle on charging circuitry.
             </p>
             <p>
               Collection works simply: we arrange a courier window that suits you, the MacBook is sealed and tracked from your address in Alberton, Meyersdal, Brackenhurst or Randhart through to our Hyde Park workshop via the M2 and M1, and you receive a written diagnostic before any chargeable work begins. Most board repairs are completed within 48 to 96 hours of the machine arriving on the bench, and the unit comes back to you tested under load for at least 24 hours so we can confirm the fault is genuinely cleared. Call or WhatsApp 064 529 5863 to arrange collection or to talk through symptoms before you commit to anything.
             </p>
             <p>
-              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations — from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
+              We repair MacBook Pro, MacBook Air, iMac, and Mac mini across all generations, from Intel Core i5 models to the latest Apple Silicon M3 machines. If your machine is showing no power, no display, USB-C failure, or persistent shutdowns, contact us via WhatsApp or phone to arrange an assessment.
             </p>
           </div>
         </div>
@@ -198,11 +198,11 @@ export default function LogicBoardRepairAlbertonPage() {
               <ul className="space-y-3">
                 {[
                   'Targets only the specific failed component',
-                  'Your original board — data stays put',
-                  '60–80% cheaper than board replacement',
+                  'Your original board, data stays put',
+                  '60-80% cheaper than board replacement',
                   'Preserves Touch ID and Secure Enclave pairing',
                   'Backed by ZA Support warranty',
-                  'Typically completed within 48–72 hours',
+                  'Typically completed within 48-72 hours',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
                     <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
@@ -216,14 +216,14 @@ export default function LogicBoardRepairAlbertonPage() {
               <ul className="space-y-3">
                 {[
                   'Required only when repair is not technically viable',
-                  'Higher cost — full board plus installation',
+                  'Higher cost, full board plus installation',
                   'Touch ID pairing may be affected',
                   'Data migration required if SSD changes',
                   'Still backed by ZA Support warranty',
                   'Used for severe burn damage or multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
-                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">–</span>
+                    <span className="w-4 h-4 text-[#7A9E98] flex-shrink-0 mt-0.5">-</span>
                     {item}
                   </li>
                 ))}
@@ -252,7 +252,7 @@ export default function LogicBoardRepairAlbertonPage() {
 
       <section className="py-10 sm:py-20 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Logic Board Repair Alberton — Common Questions" />
+          <FAQAccordion items={faqs} title="Logic Board Repair Alberton, Common Questions" />
         </div>
       </section>
 

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 const symptoms = [
   { title: 'Battery Not Charging', desc: 'MacBook plugged in but battery percentage does not increase. Faulty battery cell, charging IC, or MagSafe/USB-C port issue diagnosed and resolved.' },
-  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue — replace immediately. We remove and dispose of swollen cells safely.' },
+  { title: 'Swollen Battery', desc: 'Trackpad lifting or case separating indicates a swollen battery. This is a safety issue, replace immediately. We remove and dispose of swollen cells safely.' },
   { title: 'Short Battery Life', desc: 'MacBook running for 2 hours or less on a full charge. Worn cells lose capacity over time. A new battery restores full runtime.' },
   { title: 'Battery Service Warning', desc: 'macOS showing "Service Recommended" or "Replace Now" in the battery menu. We replace before the cell fails completely.' },
   { title: 'MacBook Dies at 20%', desc: 'Sudden shutdown at partial charge indicates degraded cells that can no longer deliver consistent voltage under load.' },
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'How long does a MacBook battery replacement take?',
-    answer: 'Most MacBook battery replacements are completed within 24–48 hours of collection. Same-day turnaround is available for common models with stock in workshop. You will receive a confirmed timeframe with your quote.',
+    answer: 'Most MacBook battery replacements are completed within 24-48 hours of collection. Same-day turnaround is available for common models with stock in workshop. You will receive a confirmed timeframe with your quote.',
   },
   {
     question: 'What batteries do you use?',
@@ -38,11 +38,11 @@ const faqs = [
   },
   {
     question: 'How do I know if my MacBook battery needs replacing?',
-    answer: 'Key signs: battery life under 3 hours on a full charge, macOS showing Service Recommended, sudden shutdowns at partial charge, swollen trackpad, or battery not charging. Run System Information > Power to check cycle count — over 800–1000 cycles typically means replacement is due.',
+    answer: 'Key signs: battery life under 3 hours on a full charge, macOS showing Service Recommended, sudden shutdowns at partial charge, swollen trackpad, or battery not charging. Run System Information > Power to check cycle count, over 800-1000 cycles typically means replacement is due.',
   },
   {
     question: 'My MacBook trackpad is stiff or raised. Is that a battery issue?',
-    answer: 'Yes — a raised or stiff trackpad almost always indicates a swollen battery. Do not continue using the machine. A swollen lithium battery is a fire risk. Contact us immediately for an urgent collection from Melrose.',
+    answer: 'Yes, a raised or stiff trackpad almost always indicates a swollen battery. Do not continue using the machine. A swollen lithium battery is a fire risk. Contact us immediately for an urgent collection from Melrose.',
   },
   {
     question: 'What is the assessment fee for a battery replacement?',
@@ -98,14 +98,14 @@ export default function BatteryReplacementMelrosePage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Battery Replacement Melrose
-              <br /><span className="text-[#0FEA7A]">— Restore Full Runtime</span>
+              <br /><span className="text-[#0FEA7A]">, Restore Full Runtime</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Battery replacement for Melrose residents and businesses. Apple-spec batteries, fast turnaround. We collect from Melrose and carry out the replacement at our Hyde Park workshop. Assessment from R599.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Collection from Melrose — approx. 8 min to our Hyde Park workshop</span>
+              <span>Collection from Melrose, approx. 8 min to our Hyde Park workshop</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
@@ -153,7 +153,7 @@ export default function BatteryReplacementMelrosePage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <FAQAccordion items={faqs} title="Battery Replacement Melrose — Common Questions" />
+          <FAQAccordion items={faqs} title="Battery Replacement Melrose, Common Questions" />
         </div>
       </section>
 

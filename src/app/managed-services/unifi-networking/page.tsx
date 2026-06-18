@@ -19,7 +19,7 @@ const faqs = [
   {
     question: 'Why UniFi rather than a consumer router for a business practice?',
     answer:
-      'Consumer routers from MTN, Vodacom, or Vumatel kits are built for a single household with fewer than 10 devices. A medical practice or financial advisory with 8 staff, 2 printers, a guest WiFi, and a payment terminal easily exceeds 25 devices. Consumer hardware runs out of DHCP leases, drops connections during backup windows, and offers no way to isolate guest traffic from your practice network. UniFi is designed for exactly this load — we routinely run 40-60 devices on a single UniFi Dream Machine Pro without performance degradation.',
+      'Consumer routers from MTN, Vodacom, or Vumatel kits are built for a single household with fewer than 10 devices. A medical practice or financial advisory with 8 staff, 2 printers, a guest WiFi, and a payment terminal easily exceeds 25 devices. Consumer hardware runs out of DHCP leases, drops connections during backup windows, and offers no way to isolate guest traffic from your practice network. UniFi is designed for exactly this load, we routinely run 40-60 devices on a single UniFi Dream Machine Pro without performance degradation.',
   },
   {
     question: 'How does VLAN segmentation help with POPIA compliance?',
@@ -29,7 +29,7 @@ const faqs = [
   {
     question: 'What does a typical UniFi installation cost in Johannesburg?',
     answer:
-      'Every site is different, but typical ranges for a small to medium practice are: single-floor office (up to 8 staff) — R18,000 to R28,000 including Dream Machine Pro, 2 WiFi 6 access points, a 24-port switch, and installation. Dual-floor or larger practice — R32,000 to R55,000 including additional access points, PoE cameras, and structured cabling. These are once-off hardware and installation costs. Monthly managed support starts from R1,799 per month including monitoring, firmware updates, and priority on-site response.',
+      'Every site is different, but typical ranges for a small to medium practice are: single-floor office (up to 8 staff), R18,000 to R28,000 including Dream Machine Pro, 2 WiFi 6 access points, a 24-port switch, and installation. Dual-floor or larger practice, R32,000 to R55,000 including additional access points, PoE cameras, and structured cabling. These are once-off hardware and installation costs. Monthly managed support starts from R1,799 per month including monitoring, firmware updates, and priority on-site response.',
   },
   {
     question: 'Do you service practices in Sandton, Bryanston, Rosebank, and Morningside?',
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: 'Can UniFi replace my existing Vumatel or Openserve router?',
     answer:
-      'Yes, in almost every case. We keep the fibre connection from Vumatel, Openserve, Metrofibre, or your ISP exactly as it is, and replace the supplied router with a UniFi Dream Machine. The ISP handoff is a standard ethernet connection — the UniFi device handles PPPoE authentication, NAT, firewalling, and WiFi. You retain the same fibre package and speed, but gain enterprise-grade routing, segmentation, and visibility.',
+      'Yes, in almost every case. We keep the fibre connection from Vumatel, Openserve, Metrofibre, or your ISP exactly as it is, and replace the supplied router with a UniFi Dream Machine. The ISP handoff is a standard ethernet connection, the UniFi device handles PPPoE authentication, NAT, firewalling, and WiFi. You retain the same fibre package and speed, but gain enterprise-grade routing, segmentation, and visibility.',
   },
   {
     question: 'How do you handle load shedding and power continuity?',
@@ -59,7 +59,7 @@ const faqs = [
   {
     question: 'Can I add cameras and door access to the same UniFi system?',
     answer:
-      'Yes. UniFi Protect (cameras) and UniFi Access (door readers) integrate into the same console as the networking equipment. For a medical practice in Morningside, we have deployed G4 Bullet cameras covering the reception, waiting area, and dispensary, with footage stored on a UniFi Network Video Recorder in the server room. Access control on the treatment rooms uses UniFi Access Hub with card readers. Everything runs over the same PoE switches and reports into the same dashboard — no separate vendor, no separate cabling, no separate monthly fees.',
+      'Yes. UniFi Protect (cameras) and UniFi Access (door readers) integrate into the same console as the networking equipment. For a medical practice in Morningside, we have deployed G4 Bullet cameras covering the reception, waiting area, and dispensary, with footage stored on a UniFi Network Video Recorder in the server room. Access control on the treatment rooms uses UniFi Access Hub with card readers. Everything runs over the same PoE switches and reports into the same dashboard, no separate vendor, no separate cabling, no separate monthly fees.',
   },
   {
     question: 'What is included in the R599 site assessment?',
@@ -301,8 +301,8 @@ export default function UniFiNetworkingPage() {
               will deliver.
             </p>
             <p>
-              For practices where WiFi is business-critical — video consultations, telehealth,
-              cloud-hosted practice management, or large file transfers to medical aids — we
+              For practices where WiFi is business-critical, video consultations, telehealth,
+              cloud-hosted practice management, or large file transfers to medical aids, we
               deploy WiFi 6 access points with dedicated 5GHz radios and reserve the 2.4GHz
               band for IoT devices. This separation alone typically doubles effective
               throughput compared to a single consumer access point trying to serve both.
