@@ -40,20 +40,28 @@ EN = "–"  # –
 
 
 def _strip_em_in_titles(text: str) -> str:
-    """Within every  title: '...'  value, first em-dash -> ': ', rest -> ', '."""
-    title_re = re.compile(r"(title:\s*')([^']*)(')")
+    """Within every title-like field value (title/metaTitle/seoTitle/ogTitle/
+    heading), in single-quote OR backtick form, first em-dash -> ': ', rest -> ', '.
+    Backtick form is how the blog [slug] Record stores titles; the [^...] class
+    forbids the delimiter so a title backtick can never swallow the big multiline
+    `content:` block below it."""
+    keys = r"(?:title|metaTitle|seoTitle|ogTitle|heading)"
+
+    def _make(quote):
+        return re.compile(r"(" + keys + r":\s*" + quote + r")([^" + quote + r"]*)(" + quote + r")")
 
     def repl(m):
         pre, val, post = m.group(1), m.group(2), m.group(3)
         if EM not in val:
             return m.group(0)
-        # first em-dash -> colon, subsequent -> comma
         first, _, rest = val.partition(EM)
         rest = rest.replace(EM, ", ")
         new = first.rstrip() + ": " + rest.lstrip()
         return pre + new + post
 
-    return title_re.sub(repl, text)
+    text = _make("'").sub(repl, text)   # single-quote titles (blog index)
+    text = _make("`").sub(repl, text)   # backtick titles (blog [slug] Record)
+    return text
 
 
 def normalize_dashes(text: str) -> str:
@@ -114,10 +122,17 @@ def _test() -> int:
     checks.append(("em nospace", normalize_dashes("display—somewhere") == "display, somewhere"))
     checks.append(("em spaced", normalize_dashes("Johannesburg — iPhone") == "Johannesburg, iPhone"))
 
-    # 3. em-dash in title field -> colon
+    # 3. em-dash in title field -> colon (single-quote AND backtick forms)
     t_in = "title: 'Spilled Coffee on a MacBook — What to Do'"
     t_out = "title: 'Spilled Coffee on a MacBook: What to Do'"
     checks.append(("em title colon", normalize_dashes(t_in) == t_out))
+    bt_in = "title: `Spilled Coffee on a MacBook — What to Do`"
+    bt_out = "title: `Spilled Coffee on a MacBook: What to Do`"
+    checks.append(("em title backtick colon", normalize_dashes(bt_in) == bt_out))
+    # content: backtick (multiline) must NOT be colon-ised — stays comma
+    c_in = "content: `# Heading\nbody text—more text`"
+    checks.append(("content body comma not colon",
+                   normalize_dashes(c_in) == "content: `# Heading\nbody text, more text`"))
 
     # 4. em-dash digit range -> hyphen
     checks.append(("em digit range", normalize_dashes("R599—R2000") == "R599-R2000"))
