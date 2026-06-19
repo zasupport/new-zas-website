@@ -357,7 +357,7 @@ export default function UniFiNetworkingPage() {
             ))}
           </div>
           <PricingRange page="/managed-services/unifi-networking" />
-          <PricingNote />
+          <PricingNote repair={false} />
         </div>
       </section>
 

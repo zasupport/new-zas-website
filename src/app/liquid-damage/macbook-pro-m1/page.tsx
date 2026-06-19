@@ -4,6 +4,7 @@ import { Phone, CheckCircle, ArrowRight, Shield, MapPin, Droplets, AlertTriangle
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildServiceSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
@@ -317,6 +318,7 @@ export default function MacBookProM1LiquidDamagePage() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PricingNote />
           <FAQAccordion items={faqs} title="MacBook Pro M1 Liquid Damage, Common Questions" />
         </div>
       </section>

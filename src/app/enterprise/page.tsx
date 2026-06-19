@@ -469,7 +469,7 @@ export default function EnterprisePage() {
                 We integrate fully with your internal IT infrastructure. Active Directory, Azure AD, Google Workspace, your existing ticketing system, your VPN: we plug into all of it. For many of our clients, particularly medical practices and SMEs, we effectively become their outsourced IT department. For larger organisations, we augment your internal team with Apple-specific expertise they may lack.
               </p>
             </div>
-            <PricingNote />
+            <PricingNote repair={false} />
           </div>
         </div>
       </section>

@@ -4,6 +4,7 @@ import { Phone, MessageCircle, Network, Wifi, Shield, Activity } from 'lucide-re
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
@@ -466,6 +467,7 @@ export default function UniFiNetworkServicesPage() {
       {/* ── FAQ ───────────────────────────────────────────────────────────── */}
       <section className="py-16 bg-[#0F2522]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PricingNote repair={false} />
           <FAQAccordion items={faqs} title="UniFi Network Services, frequently asked questions" />
           <p className="mt-6 text-[#7A9E98] text-sm">
             The questions we hear most often from prospective customers are above. If

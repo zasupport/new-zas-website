@@ -355,7 +355,7 @@ export default function MedicalPracticesPage() {
           <p className="text-[#7A9E98] text-sm mt-6">
             All plans are month-to-month with 30-day notice. No long-term contracts. <Link href="/contact" className="text-[#0FEA7A] hover:underline">Book a consultation</Link> to discuss your practice&apos;s specific needs.
           </p>
-          <PricingNote />
+          <PricingNote repair={false} />
         </div>
       </section>
 

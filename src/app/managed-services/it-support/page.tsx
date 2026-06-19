@@ -339,7 +339,7 @@ export default function ITSupportPage() {
                   </div>
                 ))}
               </div>
-              <PricingNote />
+              <PricingNote repair={false} />
             </div>
           </div>
         </div>

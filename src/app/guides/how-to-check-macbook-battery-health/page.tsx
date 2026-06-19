@@ -20,6 +20,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
@@ -478,6 +479,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
       {/* FAQs */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PricingNote />
           <FAQAccordion items={faqs} title="MacBook Battery Health, Common Questions" />
         </div>
       </section>

@@ -293,7 +293,7 @@ export default function SMESupportPage() {
             ))}
           </div>
           <PricingRange page="/sme-support" />
-          <PricingNote />
+          <PricingNote repair={false} />
         </div>
       </section>
 

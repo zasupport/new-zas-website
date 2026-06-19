@@ -4,6 +4,7 @@ import { Phone, MessageCircleQuestion, ShieldCheck, Briefcase } from 'lucide-rea
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
@@ -470,6 +471,7 @@ export default function Microsoft365ForBusinessPage() {
             </a>
             .
           </p>
+          <PricingNote repair={false} />
           <FAQAccordion items={faqs} title="Frequently asked questions" />
         </div>
       </section>

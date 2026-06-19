@@ -391,7 +391,7 @@ export default function InvestecManagedServicesPage() {
               </div>
             ))}
           </div>
-          <PricingNote />
+          <PricingNote repair={false} />
         </div>
       </section>
 

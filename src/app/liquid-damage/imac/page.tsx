@@ -4,6 +4,7 @@ import { Phone, ArrowRight, Shield } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
@@ -120,6 +121,7 @@ export default function iMacWaterDamagePage() {
 
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PricingNote />
           <FAQAccordion items={faqs} title="iMac Water Damage, FAQs" />
         </div>
       </section>

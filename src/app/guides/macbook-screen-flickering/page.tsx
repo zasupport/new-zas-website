@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema } from '@/lib/schema';
 import GoogleReviews from '@/components/ui/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
@@ -451,6 +452,7 @@ export default function MacBookScreenFlickeringGuidePage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-8">MacBook Screen Flickering, Frequently Asked Questions</h2>
+          <PricingNote />
           <FAQAccordion items={faqs} />
         </div>
       </section>

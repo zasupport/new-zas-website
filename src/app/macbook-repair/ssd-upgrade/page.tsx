@@ -4,6 +4,7 @@ import { Phone, ArrowRight, HardDrive, Zap, Shield, CheckCircle } from 'lucide-r
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -300,6 +301,7 @@ export default function MacBookSSDUpgradePage() {
       {/* FAQ */}
       <section className="py-12 sm:py-20 px-4 bg-[#111C1A]">
         <div className="max-w-3xl mx-auto">
+          <PricingNote />
           <FAQAccordion items={faqs} title="MacBook SSD Upgrade Questions" />
         </div>
       </section>

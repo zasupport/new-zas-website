@@ -59,6 +59,13 @@ python3 scripts/scan-rendered-leaks.py || { echo "ERROR: rendered-leak gate FAIL
 echo "→ Scanning live src for banned em/en-dashes (§547)..."
 python3 scripts/strip-typographic-dashes.py --scan || { echo "ERROR: §547 dash gate FAILED — aborting deploy. Fix: python3 scripts/strip-typographic-dashes.py --apply"; exit 1; }
 
+# 3.7 §287-T TURNAROUND / LEAD-TIME CLAUSE gate — fail-closed.
+# Every device-repair page showing a price or turnaround MUST render the
+# machine-dependent processing/lead-time clause (PricingNote, repair default true).
+# Managed-services / business / contract pages must opt out (repair={false}).
+echo "→ Verifying machine-dependent lead-time clause on price/turnaround pages (§287-T)..."
+python3 scripts/check-turnaround-clause.py || { echo "ERROR: §287-T lead-time clause gate FAILED — aborting deploy. Add <PricingNote /> to the flagged page(s) or <PricingNote repair={false} /> on contract pages."; exit 1; }
+
 # 4. Git push (triggers Vercel auto-deploy)
 echo "→ Pushing to GitHub..."
 # Stage tracked files and new source files only — never accidentally stage .env secrets

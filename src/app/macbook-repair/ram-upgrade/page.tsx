@@ -4,6 +4,7 @@ import { Phone, ArrowRight, Cpu, Zap, Shield, CheckCircle, AlertTriangle } from 
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, buildBreadcrumbSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
@@ -317,6 +318,7 @@ export default function MacBookRAMUpgradePage() {
       {/* FAQ */}
       <section className="py-12 sm:py-20 px-4 bg-[#111C1A]">
         <div className="max-w-3xl mx-auto">
+          <PricingNote />
           <FAQAccordion items={faqs} title="MacBook RAM Upgrade Questions" />
         </div>
       </section>

@@ -474,7 +474,7 @@ export default function WealthManagementPage() {
               </div>
             ))}
           </div>
-          <PricingNote />
+          <PricingNote repair={false} />
         </div>
       </section>
 

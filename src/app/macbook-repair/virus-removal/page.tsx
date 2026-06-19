@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Phone, ArrowRight, CheckCircle, Star, MessageCircle, Shield, Wrench, AlertTriangle, Zap, Bug, Lock } from 'lucide-react';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import FAQAccordion from '@/components/ui/FAQ';
+import PricingNote from '@/components/PricingNote';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
@@ -462,6 +463,7 @@ export default function MacVirusRemovalPage() {
       {/* FAQ */}
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <PricingNote />
           <FAQAccordion items={faqs} title="Mac Virus & Malware Removal, Frequently Asked Questions" />
         </div>
       </section>

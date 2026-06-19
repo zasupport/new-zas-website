@@ -132,7 +132,7 @@ export default function ManagedServicesPage() {
             ))}
           </div>
           <div className="mt-10">
-            <PricingNote />
+            <PricingNote repair={false} />
           </div>
         </div>
       </section>

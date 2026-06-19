@@ -684,7 +684,7 @@ export default function MedicalITPage() {
             </Link>{' '}
             to discuss your practice&apos;s specific requirements.
           </p>
-          <PricingNote />
+          <PricingNote repair={false} />
         </div>
       </section>
 

@@ -287,7 +287,7 @@ export default function GovernmentPage() {
               ))}
             </div>
             <PricingRange page="/government" />
-            <PricingNote />
+            <PricingNote repair={false} />
           </div>
 
           {/* Security Section */}
