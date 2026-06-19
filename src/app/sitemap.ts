@@ -809,5 +809,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-startup-chime-no-display`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-wifi-bluetooth-not-working-board`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/why-apple-declines-liquid-damage-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/jamf-pro-vs-intune-mac-management`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-stuck-on-apple-logo`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-thermal-paste-replacement`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
