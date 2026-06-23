@@ -1,9 +1,29 @@
 {
-  "ts": "2026-06-22T02:45:04Z",
+  "ts": "2026-06-23T02:45:05Z",
   "source": "gbp_v4",
-  "total_count": 641,
+  "total_count": 643,
   "rating": 4.9,
   "reviews": [
+    {
+      "id": "AbFvOqkSR9iJkHGwTbXniR-SxkrTI1VJ-_ct7Rc9lb_21FyYFSfsrL1jo1P3jWZhOcH_BftRD9Zc4Q",
+      "displayName": "Huguette Botima",
+      "comment": "",
+      "starRating": 5,
+      "createTime": "2026-06-22T11:59:14.809706Z",
+      "updateTime": "2026-06-22T11:59:14.809706Z",
+      "language": "en",
+      "reply": null
+    },
+    {
+      "id": "AbFvOqnFpprO-oFHapSKuNBKH3IJzetchOj72XKBozh57svUHMmBDuSDzmTS-QpzfHbpsfLRkUKOtg",
+      "displayName": "Jason Campbell",
+      "comment": "",
+      "starRating": 5,
+      "createTime": "2026-06-22T05:02:08.613617Z",
+      "updateTime": "2026-06-22T05:02:08.613617Z",
+      "language": "en",
+      "reply": null
+    },
     {
       "id": "AbFvOqkihRkb5siMWmdtFL0DK5aoiyuOyCi-z0CS6HqBxqY_9AE4LQ7IP7TqCvv-l6VaY5aWk3VTgA",
       "displayName": "Francis Ezekiel",
@@ -597,32 +617,6 @@
       "reply": {
         "comment": "Thank you so much.That is very kind of you. We'll certainly let the team know, and if there's anything you need just let us know ;).",
         "updateTime": "2025-10-20T08:34:45.911336Z"
-      }
-    },
-    {
-      "id": "AbFvOqmSKcs_BOwjs7NCdg6gEC8S694ZpUlX9N1gBONo92OfJIZgS-34QeLjg1uKCsoC1pQtVylaNQ",
-      "displayName": "Owen Mthembo",
-      "comment": "Amazing service 👏",
-      "starRating": 5,
-      "createTime": "2025-10-10T17:23:52.510302Z",
-      "updateTime": "2025-10-10T17:23:52.510302Z",
-      "language": "en",
-      "reply": {
-        "comment": "Thanks so much.",
-        "updateTime": "2025-10-11T11:59:26.801887Z"
-      }
-    },
-    {
-      "id": "AbFvOqkd9oECkm0NAhXfifSejbogMgWK9XGPRW7v-Urt2_9i6bdRUwMvnVQhFEBHX1cfa6o1bsnCXA",
-      "displayName": "Warren Rovelli",
-      "comment": "Dealing with Kim and Mary has truly been an incredible experience. The professionalism and efficiency is next level. They have communicated with me the entire time they had my phone to change the battery and run diagnostics and quality checks, so I always knew what was happening. And to top it off, they have been so friendly. A real client centric culture. Thank you ladies and to ZA Support. I will certainly be recommending your services to anyone I know who needs assistance with their iPhones. Regards. Warren Rovelli",
-      "starRating": 5,
-      "createTime": "2025-10-10T13:40:14.890967Z",
-      "updateTime": "2025-10-10T13:40:14.890967Z",
-      "language": "en",
-      "reply": {
-        "comment": "It is our greatest pleasure. We look forward to assisting you with anything else you may require, and it means a lot to the team that what we’re doing daily makes a difference to our partners and most importantly that we’re here for you.",
-        "updateTime": "2025-10-10T15:54:41.069881Z"
       }
     },
     {

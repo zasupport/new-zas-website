@@ -820,5 +820,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-condensation-damage-logic-board-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-screen-repair-johannesburg-cost`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/popia-compliance-medical-practice-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/bace-discovery-integration-apple-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/goodx-support-apple-mac-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/healthbridge-mac-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-warranty-sa-out-of-warranty-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/medical-aid-mac-device-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/vericlaim-apple-mac-integration-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
