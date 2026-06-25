@@ -1,9 +1,19 @@
 {
-  "ts": "2026-06-24T02:45:08Z",
+  "ts": "2026-06-25T02:45:13Z",
   "source": "gbp_v4",
-  "total_count": 643,
+  "total_count": 644,
   "rating": 4.9,
   "reviews": [
+    {
+      "id": "AbFvOqknlHbJRMlOwM5Fvst8atK5JBgAXZaJUzvGzT0FbQByQbGHpT3OvnxcE6aTMzpUN_zamZ-u9w",
+      "displayName": "Delwyn Catley",
+      "comment": "",
+      "starRating": 5,
+      "createTime": "2026-06-24T21:22:42.382518Z",
+      "updateTime": "2026-06-24T21:22:42.382518Z",
+      "language": "en",
+      "reply": null
+    },
     {
       "id": "AbFvOqkSR9iJkHGwTbXniR-SxkrTI1VJ-_ct7Rc9lb_21FyYFSfsrL1jo1P3jWZhOcH_BftRD9Zc4Q",
       "displayName": "Huguette Botima",
@@ -604,19 +614,6 @@
       "reply": {
         "comment": "Really appreciate the message and feedback. Thanks so much!",
         "updateTime": "2025-10-22T16:19:58.178891Z"
-      }
-    },
-    {
-      "id": "AbFvOqmH_9yaFPhjRz5SqewkRv6-hCIUBLSPtRNnzVUlDLpkeKmVyc11Ja0YMOaOE0cnZ0iiJyL7Mw",
-      "displayName": "Reverand Fidèle kambala",
-      "comment": "Outstanding Apple expertise",
-      "starRating": 5,
-      "createTime": "2025-10-20T06:33:16.457405Z",
-      "updateTime": "2025-10-20T06:33:16.457405Z",
-      "language": "en",
-      "reply": {
-        "comment": "Thank you so much.That is very kind of you. We'll certainly let the team know, and if there's anything you need just let us know ;).",
-        "updateTime": "2025-10-20T08:34:45.911336Z"
       }
     },
     {
