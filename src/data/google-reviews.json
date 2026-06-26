@@ -1,5 +1,5 @@
 {
-  "ts": "2026-06-25T02:45:13Z",
+  "ts": "2026-06-26T02:45:06Z",
   "source": "gbp_v4",
   "total_count": 644,
   "rating": 4.9,
@@ -12,7 +12,10 @@
       "createTime": "2026-06-24T21:22:42.382518Z",
       "updateTime": "2026-06-24T21:22:42.382518Z",
       "language": "en",
-      "reply": null
+      "reply": {
+        "comment": "Hi Delwyn,\n\nThank you so much for your support. It means a lot to our business.\n\nIf you have anything technology related that you would like to get assistance with please don't hesitate to reach out.\n\nZA Support Technical Team",
+        "updateTime": "2026-06-25T13:35:48.454574Z"
+      }
     },
     {
       "id": "AbFvOqkSR9iJkHGwTbXniR-SxkrTI1VJ-_ct7Rc9lb_21FyYFSfsrL1jo1P3jWZhOcH_BftRD9Zc4Q",
@@ -22,7 +25,10 @@
       "createTime": "2026-06-22T11:59:14.809706Z",
       "updateTime": "2026-06-22T11:59:14.809706Z",
       "language": "en",
-      "reply": null
+      "reply": {
+        "comment": "Hi Huguette,\n\nThank you so much for taking the time to rate our business.\n\nThe team really appreciates the feedback. Whenever you have any technology related query we are here to help ;).",
+        "updateTime": "2026-06-25T13:38:32.083091Z"
+      }
     },
     {
       "id": "AbFvOqnFpprO-oFHapSKuNBKH3IJzetchOj72XKBozh57svUHMmBDuSDzmTS-QpzfHbpsfLRkUKOtg",
@@ -32,7 +38,10 @@
       "createTime": "2026-06-22T05:02:08.613617Z",
       "updateTime": "2026-06-22T05:02:08.613617Z",
       "language": "en",
-      "reply": null
+      "reply": {
+        "comment": "Hi Jason,\n\nThank you very much for the review.\n\nIt has been shared with the team, and we are most grateful for your feedback. \n\nWe look forward to seeing you again, and as always let us know if there's anything we can help with.\n\nZA Support Operations Team",
+        "updateTime": "2026-06-25T13:39:46.662116Z"
+      }
     },
     {
       "id": "AbFvOqkihRkb5siMWmdtFL0DK5aoiyuOyCi-z0CS6HqBxqY_9AE4LQ7IP7TqCvv-l6VaY5aWk3VTgA",
@@ -42,7 +51,10 @@
       "createTime": "2026-06-13T13:45:51.501649Z",
       "updateTime": "2026-06-13T13:45:51.501649Z",
       "language": "en",
-      "reply": null
+      "reply": {
+        "comment": "Hi Francis,\n\nThank you for this. It means a lot coming from someone who travels as much as you do.\n\nThe MacBook Pro 15 is an older model, but there was no reason it couldn't be brought back to full health. We're glad we could sort the keyboard, the mouse and the battery in one visit. Looking after the battery the way we showed you will keep it going for a good while yet.\n\nSafe travels on your next trip to South Africa, and you know where we are if you ever need us.\n\nWe appreciate the special mention.\n\nKind regards,\nZA Support Technical Desk",
+        "updateTime": "2026-06-25T13:45:44.642571Z"
+      }
     },
     {
       "id": "AbFvOqlW_FLQ4NVHQXsbpP0JNq-ALVkp1i9EKlZ2m23kMxjlnI_KILApp3mVhqhU2K3BynzGyZtUVQ",
