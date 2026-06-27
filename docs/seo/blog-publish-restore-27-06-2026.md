@@ -43,3 +43,10 @@ All 10 added to `blog/page.tsx` + `[slug]/page.tsx` + `sitemap.ts` (working tree
 ## Held constraints
 - Do NOT build a 20-posts/day quota engine (unconfirmed, pending Courtney). Brief §HARD.
 - §190 surface deploy; §613 gate every feed (0 doorway); §35/§573 backups; real-data proof on every "done".
+
+## UPDATE — priced posts shipped (27/06 17:21)
+Courtney supplied confirmed repair anchors (from R___): liquid-clean R800-R2,000 · liquid-component from R3,000 · board-component from R3,000 · board-full from R3,500 · GPU from R3,000 · charging-port from R1,200 · MacBook-battery from R2,500 · data-recovery from R2,999 · rush from R599 · iPad/iPhone-battery from R1,200.
+- Built `scripts/check-blog-price-allowlist.py` (§489 gate, only 9 confirmed anchors survive; negative-control tested; trailing-comma bug fixed §619).
+- **2/10 SHIPPED LIVE** (commit 15e2648): `no-power-repair-cost-johannesburg` + `liquid-damage-repair-cost-johannesburg`. Both: confirmed anchors as "from R___", competitor/market/accessory figures made qualitative, fabricated success-stats + IP68 factual error fixed (§374), §287 caveat added, author block. §346 5/5 live, 0 unconfirmed prices live, novelty 0.005/0.008.
+- §424 budget: proof post + these 2 = 3 net-new today (at ceiling).
+- REMAINING 8 held: data-recovery-cost (ship next), gpu-repair-cost, 4x macbook-pro-m1-*; CONSOLIDATE wont-turn-on-cost->no-power, water-damage-cost->liquid (near-dup §400, don't publish as standalone).
