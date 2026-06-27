@@ -27,6 +27,19 @@ except Exception:
     def _sanitise_body(c, escaped=False):  # fail-open is unacceptable; fail-loud
         raise RuntimeError("blog_content_sanitiser.sanitise unavailable — refusing to insert un-sanitised content (§343)")
 
+# §547 — em/en-dash normalisation at the INSERTION path. The body is dash-stripped
+# inside _sanitise_body, but title / excerpt / FAQ text are extracted separately and
+# bypassed normalisation (root cause 27/06/2026: 8 em-dashes landed in titles+listing
+# excerpts → pre-commit §547 gate rejected the commit → _commit_with_heal's sanitiser
+# only cleans [slug]/page.tsx body, never blog/page.tsx listing → posts stranded
+# uncommitted every run). Normalise at the extract chokepoint so EVERY text field
+# (Record title/excerpt, listing entry, FAQ schema) is dash-clean before it lands.
+try:
+    from dash_normalizer import normalize_dashes as _normalize_dashes
+except Exception:
+    def _normalize_dashes(c):  # fail-loud — never let a raw glyph reach production (§547)
+        raise RuntimeError("dash_normalizer.normalize_dashes unavailable — refusing to insert un-normalised content (§547)")
+
 WEBSITE_DIR = Path(__file__).parent.parent
 BLOG_PAGE = WEBSITE_DIR / "src" / "app" / "blog" / "[slug]" / "page.tsx"
 BLOG_LISTING = WEBSITE_DIR / "src" / "app" / "blog" / "page.tsx"
@@ -66,9 +79,10 @@ def slug_from_filename(fname: str) -> str:
 
 
 def extract_title(content: str) -> str:
-    """Extract H1 title from markdown."""
+    """Extract H1 title from markdown. §547: dash-normalised at source so every
+    consumer (Record entry + listing entry) gets a dash-clean title."""
     m = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
-    return m.group(1).strip() if m else "Untitled"
+    return _normalize_dashes(m.group(1).strip()) if m else "Untitled"
 
 
 def extract_excerpt(content: str) -> str:
@@ -77,7 +91,7 @@ def extract_excerpt(content: str) -> str:
     for line in lines:
         line = line.strip()
         if line and not line.startswith('#') and not line.startswith('```') and len(line) > 40:
-            return line[:200].rstrip('.')+'.'
+            return _normalize_dashes(line[:200].rstrip('.')+'.')  # §547 dash-clean at source
     return "ZA Support Apple repair specialists in Hyde Park, Johannesburg."
 
 
@@ -233,8 +247,8 @@ def build_faq_schema_entry(slug: str, faqs: list[dict]) -> str:
 
     entities = []
     for faq in faqs:
-        q = escape_ts(faq["question"])
-        a = escape_ts(faq["answer"])
+        q = escape_ts(_normalize_dashes(faq["question"]))  # §547 dash-clean
+        a = escape_ts(_normalize_dashes(faq["answer"]))    # §547 dash-clean
         entities.append(
             f"      {{ '@type': 'Question', name: `{q}`, acceptedAnswer: {{ '@type': 'Answer', text: `{a}` }} }},"
         )
