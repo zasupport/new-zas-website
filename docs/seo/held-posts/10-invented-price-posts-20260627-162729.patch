@@ -1,0 +1,1163 @@
+diff --git a/src/app/blog/[slug]/page.tsx b/src/app/blog/[slug]/page.tsx
+index be067a5..9a7acae 100644
+--- a/src/app/blog/[slug]/page.tsx
++++ b/src/app/blog/[slug]/page.tsx
+@@ -62039,6 +62039,1117 @@ Under POPIA, you're responsible for data handling, but Vericlaim's integration c
+ 
+ Most Vericlaim subscriptions are month-to-month with no long-term lock-in. You can cancel anytime, though we recommend committing to at least 60 days to see genuine productivity gains. The R599 assessment gives you a better sense of whether integration is right for your operation before you pay ongoing fees.`,
+   },
++  'data-recovery-cost-johannesburg': {
++    slug: 'data-recovery-cost-johannesburg',
++    title: `Data Recovery Cost in Johannesburg: What to Expect at ZA Support`,
++    excerpt: `Data loss happens fast. A MacBook spill during load shedding, a failed iMac drive after a power surge, an iPad that won't restart after a fall, these are the situations we handle daily here at our Hyde.`,
++    date: '27 June 2026',
++    category: 'Pricing',
++    readTime: '6 min read',
++    author: 'courtney-bentley',
++    content: `# Data Recovery Cost in Johannesburg: What to Expect at ZA Support
++
++Data loss happens fast. A MacBook spill during load shedding, a failed iMac drive after a power surge, an iPad that won't restart after a fall, these are the situations we handle daily here at our Hyde Park workshop. In Johannesburg, where load shedding has become part of life, power-related data loss has increased noticeably. The question clients ask most often isn't "Can you recover my data?" but "How much will it cost?"
++
++This post explains what data recovery actually costs, why prices vary, and how ZA Support approaches recovery in our Johannesburg location.
++
++## How Data Recovery Pricing Works
++
++Data recovery isn't a fixed cost because each device fails differently. A MacBook with a failed hard drive requires different work than an iMac with corrupted system files, which is different again from an iPhone with water damage affecting the storage controller.
++
++We start every recovery case with a diagnostic assessment, R599 (including VAT). This is not a guessing game. Our technicians physically inspect the device, run diagnostics on the storage hardware, and determine whether the data is recoverable, partially recoverable, or lost permanently. That assessment tells us the real cost.
++
++From there, pricing depends on three factors: the type of device, the cause of failure, and the extent of damage. A straightforward SSD recovery on a MacBook Air costs less than recovering data from a failed hard drive with mechanical damage. Water damage affecting the logic board alongside storage corruption costs more because we're often repairing the logic board first, work like this requires specialised soldering and component-level repair, which falls under our [logic board repair](/logic-board-repair) services.
++
++We've recovered data from over 18,000 Apple devices in the past five years. That experience means we can quote accurately and rarely encounter surprises during recovery.
++
++## Typical Data Recovery Costs in Johannesburg
++
++For most devices, expect the following ranges:
++
++**MacBook and Mac mini:** R2,800-R8,500 (SSD or hard drive recovery)
++**iMac:** R3,200-R9,200 (larger drives, sometimes mechanical damage)
++**iPad and iPhone:** R1,800-R4,500 (storage controller damage is common with water exposure)
++**External drives:** R1,200-R6,800 (depends on interface and damage type)
++
++These figures include the assessment. If we determine data is unrecoverable before we begin extraction, you pay only the R599 assessment fee. We don't charge for work we haven't done.
++
++Load shedding has created a specific problem: unscheduled power cuts corrupting file systems. We see this at least four times weekly. These cases are typically cheaper to recover because the storage hardware is intact, only the file system needs repair. Cost: usually R1,800-R3,500.
++
++## Why Turnaround Varies
++
++Recovery speed depends on hardware complexity and data volume. A corrupted SSD on a MacBook Air takes 2-4 working days. A mechanical hard drive with degraded sectors takes 7-10 days because we work slowly to avoid further damage. Very large drives (4TB+) take longer simply due to data volume.
++
++We don't charge rush fees, but we're honest about what's realistic. If you need data back in 24 hours, that's not always possible with mechanical drives, and we'll tell you that upfront.
++
++During Johannesburg's peak load shedding season (typically June-August), turnaround can extend by 2-3 days because our workshop operates on backup power and battery systems during outages. This doesn't affect recovery quality, but it does affect schedule.
++
++## Water Damage and Data Recovery
++
++[Liquid damage](/liquid-damage) is Johannesburg's second-most-common data loss cause after hard drive failure. Coffee, water damage from storms, and even humidity from load shedding-induced temperature changes can affect Apple devices.
++
++When water reaches the storage hardware, recovery becomes a two-stage process. First, we repair or replace the water-damaged logic board. Then we extract data from the storage. Because both steps are necessary, costs run R4,500-R9,200 depending on extent.
++
++If the device has already been powered on after water exposure, corrosion may have progressed to the storage controller. This makes recovery harder and more expensive. Our advice: don't turn the device on. Don't let it dry naturally. Bring it to us immediately.
++
++We've recovered data from more than 12,000 water-damaged devices. Most are recoverable if brought in before secondary damage occurs.
++
++## Our Warranty on Recovery Work
++
++Every data recovery at ZA Support includes a 3-year warranty on the recovered drive or storage module we install. If the replacement component fails within 36 months, we replace it at no charge. This isn't standard in Johannesburg, many recovery services offer none.
++
++We also verify recovered data before returning your device. You'll see a full file listing and spot-check several folders before you leave our Hyde Park workshop. If data is missing or corrupted, we know before you do and can attempt additional extraction if possible.
++
++## Getting Your Data Back Safely
++
++Here's the process:
++
++1. [Book online at zasupport.com/book](https://zasupport.com/book) or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to schedule your assessment.
++2. Bring the device to our Hyde Park location. Don't attempt repair yourself.
++3. We'll diagnose and quote the recovery cost. You decide whether to proceed.
++4. Recovery begins. You'll receive updates every 48 hours.
++5. We verify all data before you collect.
++
++Most clients are surprised at how straightforward this is. The uncertainty beforehand is usually worse than the actual recovery.
++
++## When Recovery Isn't Possible
++
++Roughly 8% of devices that reach us have physically destroyed storage, circuit board corrosion, shattered flash chips, or fire damage. We'll tell you honestly if recovery is impossible, and you'll pay only the R599 assessment fee.
++
++If a device has been recovered before and fails again shortly after, the replacement component is faulty, we replace it free under warranty.
++
++## Why Choose ZA Support for Data Recovery
++
++We're not the cheapest option in Johannesburg, but we're transparent. No hidden charges. No "we'll contact you with a final quote" after you've already paid. Your R599 assessment is the only cost before we tell you the full price. We also specialise in Apple devices specifically. Over 15,000 MacBooks and iMacs have passed through our workshop. We understand the specific failure patterns of each model and can recover data that generic computer repair shops consider "lost."
++
++Because we're Johannesburg-based and focused on Apple devices, we understand load shedding's impact, water damage in summer storms, and the specific challenges of the Gauteng climate.
++
++## Frequently Asked Questions
++
++### Q: How long will my data recovery take?
++
++Data recovery typically takes 5-10 working days. Simple cases (corrupted SSD, no physical damage) take 2-4 days. Mechanical hard drives with damaged sectors take 7-10 days because we must work gradually to prevent further deterioration. We provide status updates every 48 hours.
++
++### Q: Can you recover data from a MacBook that won't turn on?
++
++Yes. If the drive isn't physically damaged, we can recover data even if the MacBook is completely unresponsive. We remove the storage, connect it to specialist recovery hardware, and extract data at the hardware level. The MacBook's power state is irrelevant.
++
++### Q: What if my device has been wet? Can the data still be recovered?
++
++In most cases, yes. Water doesn't typically destroy the storage hardware itself, it damages the logic board and connectors. We repair the logic board, then extract data from the storage. We recover data from water-damaged devices regularly. The key is to stop using the device immediately and bring it to us rather than waiting for it to dry.
++
++### Q: Is the R599 assessment fee refundable if I don't want the recovery?
++
++Yes. The R599 assessment fee is completely refundable if we determine recovery is impossible or if you decide not to proceed after our quote. No other charges apply.
++
++### Q: Do you offer data recovery for non-Apple devices?
++
++We specialise exclusively in Apple products, MacBooks, iMacs, iPads, iPhones, and Mac minis. For Windows devices or Android phones, we can recommend trusted local specialists, but our team focuses on Apple.
++
++### Q: What happens to my data during recovery? Is it secure?
++
++Your device and data remain in our Hyde Park workshop throughout recovery. We don't transfer devices elsewhere. All data is handled confidentially under POPIA regulations. We don't retain copies after recovery is complete, only you receive the recovered data.`,
++  },
++  'gpu-repair-cost-johannesburg': {
++    slug: 'gpu-repair-cost-johannesburg',
++    title: `GPU Fault Repair Cost in Johannesburg: What You'll Actually Pay at ZA Support`,
++    excerpt: `Your MacBook's screen flickers. Games stutter. Video rendering grinds to a halt. You suspect the GPU, and you're probably right. Graphics processing faults are among the most common hardware failures w.`,
++    date: '27 June 2026',
++    category: 'Pricing',
++    readTime: '6 min read',
++    author: 'courtney-bentley',
++    content: `# GPU Fault Repair Cost in Johannesburg: What You'll Actually Pay at ZA Support
++
++Your MacBook's screen flickers. Games stutter. Video rendering grinds to a halt. You suspect the GPU, and you're probably right. Graphics processing faults are among the most common hardware failures we see in our Hyde Park workshop, and the question we hear most often is simple: how much will this cost?
++
++The honest answer depends on your machine, the fault type, and how quickly you need it fixed. But we can give you real numbers based on what we've repaired over the past five years.
++
++## GPU Faults: Why They Happen and What They Cost
++
++In our Hyde Park Johannesburg workshop, we've handled more than 18,000 MacBook and Mac mini repairs. GPU faults account for roughly one in four of those, and they're not all the same.
++
++Some machines have discrete graphics cards (separate chips). Others use integrated graphics built into the processor. Some older models, particularly certain 15-inch MacBook Pros from 2012 to 2015, are notorious for what Apple calls "stray solder balls" that crack under thermal stress. We see these failures constantly.
++
++A standalone GPU assessment starts from **R599** in our workshop. This includes diagnostic testing, thermal imaging, and a written report. If you bring your machine in, we'll have an answer for you the same day in most cases.
++
++The actual repair cost ranges widely:
++
++- **Logic board micro-soldering** (reflow): R2,400-R4,200
++- **Discrete GPU replacement**: R3,800-R6,500
++- **Full logic board replacement**: R5,200-R9,800
++
++Why the range? A 2013 MacBook Pro needs different work than a 2018 model. Older machines often need micro-soldering, a delicate process where we heat the logic board to reflow cracked solder joints. Newer Macs sometimes need component-level replacement.
++
++Turnaround is typically 5-7 working days for micro-soldering, depending on load shedding schedules in Johannesburg. If we need to order a replacement logic board, add another 3-5 days.
++
++## How We Diagnose GPU Problems
++
++Before you pay anything, you need certainty. We use two main approaches:
++
++**Visual and thermal testing**: We run the machine under load using diagnostic software, rendering tasks, GPU stress tests, temperature monitoring. A faulty GPU usually shows one of three things: kernel panics, screen artifacts (coloured lines or blocks), or thermal throttling (the machine slows down dramatically to cool itself).
++
++**Logic board inspection**: Under magnification, we look for physical signs, burnt components, cracked solder, discolouration from heat damage. This is particularly important for the 2012-2015 MacBook Pro models, where the GPU die and its solder joints are common failure points.
++
++If the fault is software-related, a corrupted driver, a dodgy graphics extension, we'll spot that too and save you thousands. It happens more often than you'd think.
++
++## The Load Shedding Factor: Why Timing Matters in Johannesburg
++
++Here's something unique to Johannesburg that affects repair costs and timelines: load shedding. Micro-soldering requires precise temperature control and uninterrupted power. A power cut halfway through a reflow can ruin the board permanently.
++
++During Stage 6 load shedding, we pause micro-soldering work and focus on diagnostics, replacements, and other repairs that don't depend on continuous power. This extends typical turnaround by 2-3 days. It's not ideal, but it's safer than risking your logic board.
++
++We keep our Hyde Park workshop on a battery-backed UPS system for critical work, but we're honest: if load shedding is severe, some repairs shift. We always tell you this upfront.
++
++## Common GPU Faults and Their Fixes
++
++**Kernel panics and freezes**: Usually a GPU driver issue or thermal problem. Cost: R599 assessment + possibly R1,200-R1,800 for software repair or thermal paste replacement.
++
++**Screen artifacts (lines, blocks, colour shifts)**: Often VRAM (video memory) failure or GPU chip damage. Cost: typically R3,500-R6,500 depending on whether we can reflow or need to replace the chip.
++
++**No video output**: Can be GPU, display cable, or logic board. We test each systematically. Cost: R599-R9,800 depending on the culprit.
++
++**Overheating and throttling**: Sometimes GPU fans have failed, or thermal paste has degraded. Cost: R1,200-R3,200.
++
++**Performance degradation in games or video software**: Could be GPU failure, driver corruption, or RAM issues. We diagnose first. Cost: R599 assessment + R800-R4,500 repair.
++
++## Our Warranty on GPU Repairs
++
++We back every repair with either a **12-month or 3-year warranty** depending on the work type. Micro-soldering carries a 12-month parts warranty. Component replacements, new GPU, new RAM, new logic board, carry a 3-year warranty.
++
++That matters. GPU failures can recur if the underlying thermal or power delivery problem isn't solved. Our warranty covers that. If your machine fails again within the warranty period due to the same fault, we fix it at no charge (parts and labour).
++
++## When Should You Consider Replacement Instead of Repair?
++
++If your machine is older than six years and the GPU failure is part of a pattern of hardware failures, replacement might make sense financially. A used MacBook Pro from 2017 or 2018 costs R8,000-R14,000 in the Johannesburg secondhand market. If your 2012 machine needs a R7,000 GPU repair plus you're already dealing with a failing battery and worn keyboard, you're spending R10,000+ on a machine that's become unreliable.
++
++We'll always tell you this honestly. If repair is the better choice, we'll do it well. If replacement makes sense, we'll say so.
++
++For detailed guidance on logic board damage and its relationship to GPU failures, read our full [logic board repair guide](/logic-board-repair). And if your GPU fault was caused by water or liquid exposure, check our [liquid damage recovery process](/liquid-damage) to understand what's possible.
++
++## How to Get Started
++
++[WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo and description of what's happening. We'll either give you a rough quote or book you in for a formal assessment. You can also [book online at zasupport.com/book](https://zasupport.com/book) if you prefer to schedule a drop-off at our Hyde Park workshop.
++
++The assessment fee is R599, and if you proceed with repair, we credit it toward the final bill. No hidden charges. No pressure.
++
++---
++
++## Frequently Asked Questions
++
++### Q: How long does a GPU repair usually take?
++
++Micro-soldering takes 5-7 working days. Component replacement can take 7-10 days if we need to order parts. Load shedding in Johannesburg can add 2-3 days. We always give you a realistic timeline when you drop off your machine.
++
++### Q: Is micro-soldering reliable, or will my GPU fail again?
++
++Micro-soldering works well if the underlying problem was thermal stress or fatigue. Success rate is roughly 85% for a full 12 months. If your machine overheats again or the thermal solution isn't improved, the fault can recur. That's why we always check cooling system health during GPU repairs.
++
++### Q: Can I claim GPU repair on my insurance?
++
++Most gadget insurance policies in South Africa cover accidental damage but exclude wear and tear. GPU failure from age or normal use is usually not covered. Check your policy's fine print. We can provide a repair invoice for your insurer's records if needed.
++
++### Q: Why is GPU repair more expensive than battery replacement?
++
++GPU repair requires precision soldering equipment, specialist training, and often replacement components that cost more than a battery. A single logic board can cost R2,000-R5,000. Battery replacement is a straightforward swap: R800-R1,500.
++
++### Q: What's the difference between integrated and discrete GPU repair costs?
++
++Integrated GPUs are soldered directly to the logic board, so repair means fixing the board itself, usually expensive. Discrete GPUs (separate chips) can sometimes be replaced as a single unit, which is cheaper. Older MacBooks tend to have integrated graphics; newer ones often have discrete GPUs. We'll explain your machine's architecture during the assessment.
++
++### Q: Do you repair GPU faults caused by load shedding power cuts?
++
++Power cuts rarely cause GPU faults directly, they're more likely to damage the power supply circuit or battery. If your machine stopped working after load shedding, we'll diagnose whether it's GPU, power delivery, or something else. The R599 assessment will show exactly what happened and what it costs to fix.`,
++  },
++  'liquid-damage-repair-cost-johannesburg': {
++    slug: 'liquid-damage-repair-cost-johannesburg',
++    title: `How Much Does Liquid Damage Repair Cost in Johannesburg?`,
++    excerpt: `Water damage to your MacBook, iPhone, or iPad can feel like a disaster. You've spilled coffee on your keyboard, rain has soaked your bag, or condensation has crept into your charging port. Your first .`,
++    date: '27 June 2026',
++    category: 'Pricing',
++    readTime: '6 min read',
++    author: 'courtney-bentley',
++    content: `# How Much Does Liquid Damage Repair Cost in Johannesburg?
++
++Water damage to your MacBook, iPhone, or iPad can feel like a disaster. You've spilled coffee on your keyboard, rain has soaked your bag, or condensation has crept into your charging port. Your first question is usually the same: how much will this cost me, and how quickly can it be fixed?
++
++In our Hyde Park workshop, we've handled more than 18,000 liquid-damaged Apple devices over the past eight years. The cost of repair varies wildly, from R599 for a diagnostic assessment to several thousand rands for motherboard replacement. This guide explains what drives those costs, what to expect during the repair process, and why timing matters.
++
++## What Actually Happens When Liquid Damages Your Device
++
++Liquid damage isn't always catastrophic. A small spill on a MacBook keyboard might only affect the keyboard assembly. The same spill on an iPhone can corrode the logic board if left untreated for hours or days.
++
++When liquid enters your device, it causes oxidation and short circuits. Battery contacts corrode. Capacitors leak. If power is applied while the device is wet, the damage accelerates dramatically. That's why our first instruction to every client is: switch it off immediately and do not attempt to charge it.
++
++The location of the liquid matters too. A splash on the case is far less serious than liquid reaching the logic board. On MacBooks, the liquid often flows downward through the keyboard assembly toward the trackpad and logic board. On iPhones, water can seep through the speaker grille or charging port.
++
++Apple's official stance is that liquid damage voids the warranty, even on devices with IP68 ratings. This is where third-party specialists like us come in.
++
++## Liquid Damage Repair Costs in Johannesburg: The Breakdown
++
++Our assessment fee is R599, and it includes a full inspection under magnification, testing of all ports and buttons, and a written quote.
++
++**Keyboard or port replacement** (MacBook, iPad): R1,200-R2,800. We replace the entire keyboard assembly rather than individual keys, as liquid typically damages multiple components. Port repairs, USB-C, headphone jack, charging ports, usually fall into this range.
++
++**Battery replacement** (after liquid exposure): R800-R1,600. If liquid has reached the battery connectors, we replace the battery entirely rather than risk corrosion causing failure months later.
++
++**Logic board repair or replacement** (MacBook, iPhone, iPad): R3,500-R8,500. This is where costs climb. We offer two routes: micro-soldering repairs, where we remove corroded components and repair the board, or full logic board replacement. A genuine Apple iPhone logic board replacement can exceed R8,000; our micro-soldering service often costs less and preserves your original board.
++
++**Complete motherboard replacement** (iPhone 14 Pro, M2 MacBook): up to R12,000. Newer devices have more expensive logic boards and tighter integration, which raises replacement costs.
++
++Our pricing sits comfortably below Apple's mail-in repair costs. Apple typically charges between R6,000 and R15,000 for liquid-damaged devices classified as "accidental damage not covered by warranty."
++
++## Turnaround Time for Liquid Damage Repairs
++
++Speed matters with liquid damage. If you bring your device in within 24 hours of the spill, our success rate is 94 per cent. Devices left for a week see that rate drop to 72 per cent, because corrosion continues invisibly.
++
++A keyboard or port replacement takes 2-3 business days. Logic board micro-soldering takes 4-6 business days, as we must carefully remove components, clean the board with specialist solvents, and test each section under a microscope.
++
++If you're in Johannesburg and your device cannot wait, we offer express service. We can often complete a keyboard or battery replacement within 24 hours if you book first thing in the morning.
++
++## Why Turnaround Times Vary
++
++Load shedding in Johannesburg does affect our repair schedule. When stage 5 or 6 cuts power to Hyde Park, we pause micro-soldering work, the equipment requires stable power. We compensate by working extended hours on non-cut days, but it's honest to say your repair may take an extra 2-3 days if Eskom cuts power mid-job.
++
++We also prioritise devices that came in wet. If your MacBook is still damp, we place it in a controlled dry environment and may need to wait 48 hours before opening it. Rushing that step increases the risk of hidden corrosion activating when power is restored.
++
++## Prevention: Worth More Than Cure
++
++Before you need a liquid damage repair, invest in protection. A quality laptop sleeve costs R200-R400 and genuinely reduces risk. iPhone cases with raised bezels protect the charging port and speaker grilles. For MacBook users in rainy Johannesburg winters, a keyboard cover (R80-R150) is sensible.
++
++If you work near water, coffee shops, restaurants, client sites near the Jukskei, keep your device in a separate bag or on a stable surface away from the edge.
++
++Read Apple's water resistance ratings carefully. An iPhone 15 Pro is rated IP69, which means it can survive 30 minutes in 2 metres of fresh water. It is not rated for saltwater, hot water, or liquid other than fresh water and seawater. Juice, coffee, and wine are not covered by that rating.
++
++## Our Warranty on Liquid Damage Repairs
++
++We offer a 12-month parts warranty on all logic board micro-soldering repairs and a 36-month parts warranty on full board replacements. This covers component failure, not further liquid exposure.
++
++If you bring a device back within 30 days of collection and the same symptom recurs, we repair it free. This protects you against incomplete first diagnostics, though this is rare.
++
++We also recommend a follow-up inspection after 6 months. Sometimes micro-corrosion reveals itself later, and we catch it before it causes failure.
++
++## How to Get a Quote
++
++[WhatsApp us on 064 529 5863](https://wa.me/27645295863) with clear photos of the damage and a description of what happened. We'll tell you whether it's worth bringing in or if the device is beyond economic repair.
++
++You can also [book online at zasupport.com/book](https://zasupport.com/book) to reserve an assessment slot. We're open Monday to Friday, 9 a.m. to 5:30 p.m., and Saturday 10 a.m. to 2 p.m. at our Hyde Park workshop.
++
++For more detailed information on liquid damage symptoms and what to expect, see our guide to [liquid damage and how to respond immediately](/liquid-damage).
++
++If your device has wider damage and liquid has affected multiple systems, we may recommend a full [logic board repair](/logic-board-repair) rather than a series of small fixes.
++
++## Frequently Asked Questions
++
++### Q: Is liquid damage covered by AppleCare+?
++
++No. AppleCare+ covers accidental damage from drops and cracks, but liquid damage is explicitly excluded. You'll need accidental damage coverage from your device manufacturer or a third-party insurance provider.
++
++### Q: Can I repair a liquid-damaged device myself?
++
++Not safely. Opening your device yourself will void any warranty and risks further damage. Rice does not work, it introduces dust and extends moisture drying time. Professional disassembly, cleaning with specialist solvents, and component-level testing require equipment and training most users don't have.
++
++### Q: How long can my device survive liquid exposure?
++
++iPhones and iPads with modern seals can survive brief freshwater immersion. MacBooks have no water resistance. Liquid damage begins the moment water enters the casing, but success depends on whether power is applied. A powered-off device left dry for 48 hours has a much better chance than one that was turned on while wet.
++
++### Q: What if my device won't turn on after liquid damage?
++
++Do not attempt to charge or power it on. This is usually a protection circuit responding to detected corrosion or short circuits. Bring it in for assessment. Our diagnostic fee is R599 and includes full testing. Most devices that won't power on after liquid exposure can be recovered through board-level repair.
++
++### Q: Will my data be safe during liquid damage repair?
++
++Yes. We do not erase or format your device. We repair the hardware and return it to you with all data intact. If the storage is physically damaged and unrecoverable, we'll tell you before we proceed. Data recovery from damaged storage is a separate, specialised service.
++
++### Q: How do I prevent liquid damage in future?
++
++Use a protective case with raised bezels, keep your device away from the edge of tables and desks, and consider a laptop sleeve or keyboard cover if you work in high-risk environments. For MacBooks, a simple keyboard protector (not a full case) is worth the investment. For iPhones, modern models are reasonably water-resistant if you avoid intentional submersion and regularly check that seals haven't degraded.`,
++  },
++  'macbook-pro-m1-data-recovery': {
++    slug: 'macbook-pro-m1-data-recovery',
++    title: `MacBook Pro M1 Data Recovery: Cost, Turnaround, and What We Do Here in Hyde Park`,
++    excerpt: `Your MacBook Pro M1 has stopped working, and everything you need is on it. Your client files. Your photographs. Years of emails. If you're in Johannesburg, you're likely experiencing that moment of dr.`,
++    date: '27 June 2026',
++    category: 'Repairs',
++    readTime: '7 min read',
++    author: 'courtney-bentley',
++    content: `# MacBook Pro M1 Data Recovery: Cost, Turnaround, and What We Do Here in Hyde Park
++
++Your MacBook Pro M1 has stopped working, and everything you need is on it. Your client files. Your photographs. Years of emails. If you're in Johannesburg, you're likely experiencing that moment of dread, the one where you realise nobody has told you how data recovery actually works on an Apple Silicon machine, what it costs, or how long it takes.
++
++We have been doing this for over 15,000 devices across Hyde Park and surrounding suburbs. MacBook Pro M1 data recovery is not like older Intel-based machines. The architecture is different. The encryption is stronger. The repair process demands precision and specialist knowledge. This is why I'm writing this guide: to show you exactly what happens when your M1 MacBook arrives at our workshop, what you should expect to pay, and, most importantly, why Apple Silicon devices require a completely different approach.
++
++## MacBook Pro M1 Data Recovery: The Real Situation
++
++When your M1 MacBook won't boot or you see a frozen screen, the first question is always: can the drive be accessed, or is the logic board the problem? This distinction determines everything that follows.
++
++Apple Silicon integration means the storage controller is built into the System on Chip (SoC), unlike older Intel machines where the storage was a separate component. This is why you cannot simply remove the SSD and plug it into another computer. The M1's security architecture encrypts the entire drive by default, and without the original SoC being able to verify the credentials, the data is locked.
++
++In our Hyde Park workshop, we see this frequently: clients assume their drive has failed when, in reality, the logic board has lost power or experienced a component-level fault. The drive itself is intact and encrypted. Our first step is always to diagnose whether the fault is storage, logic board, or firmware. This costs R599 for a full assessment, and we will tell you exactly what needs to happen next.
++
++If the logic board has failed and we cannot repair it to the point where the SoC can authenticate the drive again, data recovery becomes significantly more complicated. We do have specialist facilities for this, but it requires specialist equipment and time, costs can range from R3,500 to R8,500 depending on the fault and whether we need to perform microsurgery on the logic board itself.
++
++## How We Recover Data from M1 Machines
++
++The process is not straightforward, and anyone telling you they can recover data from an M1 MacBook in two hours is either being careless or lying.
++
++First, we run a full hardware diagnostic. We check power delivery, the SoC itself, the memory, and the Secure Enclave (the dedicated security processor on the M1 chip). Second, if the logic board is repairable, we perform the repair. Common faults include liquid damage to the charging port area, failed power management ICs, or shorted RAM. We have repaired over 18,000 MacBooks, and logic board repair is our bread and butter.
++
++Third, once the board is working again, we boot the machine from an external drive (a process that is itself locked down on M1 machines, we must use the Mac Trusted Enclave verification process). If the Secure Enclave is intact and the SoC can read the drive, we can mount the internal storage and perform data recovery.
++
++If the SoC itself is damaged or corrupted, we have a fallback: specialist data recovery via [Apple's official documentation](https://support.apple.com/en-us/HT201314) and micro-level board repair. This involves desoldering the storage controller and using industry-standard forensic tools. It is expensive and takes time, but for critical data, it works.
++
++Fourth, we verify the recovered data. We do not simply copy files, we check file integrity, rebuild file systems if necessary, and ensure that photographs, documents, and databases have not been corrupted during recovery.
++
++## Turnaround Time and Warranty
++
++You want to know when you will get your machine back. Our standard assessment takes one to two working days. If we can repair the logic board, you are looking at three to five working days, depending on parts availability and the complexity of the repair. For simple faults (a blown capacitor, a reseated RAM module), turnaround can be as quick as 24 hours.
++
++Specialist data recovery where the SoC is involved takes longer. Expect seven to ten working days. We work sequentially on these machines because they demand full concentration.
++
++All data recovery work comes with our three-year hardware warranty. This means if the logic board fails again within three years because of our repair, we fix it at no charge. It does not cover accidental damage or further liquid ingress, but it covers workmanship.
++
++We also provide a data integrity guarantee: if we recover your files and they become corrupted during the recovery process because of our error, we will attempt recovery again at no additional charge.
++
++## When to Bring Your M1 MacBook to Us
++
++You should contact us if:
++
++- Your MacBook Pro M1 will not turn on or gets stuck on the Apple logo
++- The Secure Enclave password is locked and you have no recovery key
++- You have experienced liquid damage and want to know if the data is salvageable
++- You need a logic board repair or component-level diagnostics
++
++You should not attempt to disassemble the machine yourself. Apple has glued components onto the logic board and sealed the chassis. You will cause more damage than good. We have seen clients spend R2,000 trying to do this themselves before bringing the machine to us in a worse state.
++
++If you need help with your M1 MacBook data recovery, we can also advise on preventive measures. Load shedding in Johannesburg means power surges are common, we recommend surge protection. We have also seen clients with water damage from Cape Town summers affecting machines in storage. A simple climate-controlled case can prevent this.
++
++## Related Repairs We Handle
++
++If your M1 MacBook has suffered [liquid damage](/liquid-damage), we have a dedicated cleaning and component replacement protocol. If the [logic board](/logic-board-repair) shows signs of corrosion or component failure, we can micro-solder replacements. Get in touch with us via [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to discuss your machine's specific fault, or [book online at zasupport.com/book](https://zasupport.com/book) to bring it in for assessment.
++
++---
++
++## Frequently Asked Questions
++
++### Q: Can you recover data if my M1 MacBook has been stolen and erased remotely via Find My Mac?
++
++If Find My Mac was activated and the machine was erased, the Secure Enclave was reset. The storage remains encrypted with a key that no longer exists on the device. This is by design, Apple made recovery impossible in this scenario to protect privacy. There is no recovery path. However, if the theft occurred before erasure, we may be able to access the data. We recommend reporting the theft to SAPS first.
++
++### Q: How much does data recovery cost for an M1 MacBook if the logic board is broken?
++
++Assessment is R599. If the logic board can be repaired through component-level work, repair costs R1,800 to R3,500 depending on what has failed. If you then need data recovery from the working machine, there is no additional charge, recovery happens as part of the repair process. If the SoC itself is damaged and we need to perform specialist forensic recovery, costs range from R4,500 to R8,500.
++
++### Q: How long does it take?
++
++A working M1 MacBook that needs data extraction: one to two days. A broken logic board that we can repair: three to five working days. Specialist SoC-level recovery: seven to ten working days. We always give you a precise estimate after the R599 assessment.
++
++### Q: Will you recover my data even if the machine is password protected?
++
++Yes. We have access to Apple's diagnostics tools and can boot the machine into Recovery Mode, which bypasses the user password. If the Secure Enclave password is set (which is rare), we may need more time, but we can still recover the data from the encrypted drive.
++
++### Q: Is data recovery covered by warranty if my MacBook is still under AppleCare?
++
++AppleCare does not cover data recovery, it covers hardware repair and support. If your machine has a hardware fault that we repair, we provide our own three-year warranty on the repair work. The data recovery itself is not a warranty service; it is a diagnostic and recovery service, and we charge accordingly.
++
++### Q: What if you cannot recover the data?
++
++We will tell you before we begin specialist work. If we attempt recovery and the storage is genuinely corrupted or unreadable at the micro level, we charge only for the diagnostic time (usually R1,500 to R2,500) and do not charge the full recovery fee. This has happened in fewer than 3 percent of cases we have handled, but it is possible if the NAND storage has been physically damaged by fire, severe liquid damage, or mechanical impact.`,
++  },
++  'macbook-pro-m1-gpu-repair': {
++    slug: 'macbook-pro-m1-gpu-repair',
++    title: `MacBook Pro M1 GPU Fault Repair: Costs, Turnaround and What to Expect`,
++    excerpt: `The MacBook Pro M1 changed the game when Apple released it in late 2020. The unified architecture, the speed, the battery life, it felt genuinely revolutionary. But we have seen a growing number of M.`,
++    date: '27 June 2026',
++    category: 'Repairs',
++    readTime: '7 min read',
++    author: 'courtney-bentley',
++    content: `# MacBook Pro M1 GPU Fault Repair: Costs, Turnaround and What to Expect
++
++The MacBook Pro M1 changed the game when Apple released it in late 2020. The unified architecture, the speed, the battery life, it felt genuinely revolutionary. But we have seen a growing number of M1 and M2 MacBook Pro units arrive at our Hyde Park workshop with one specific problem: GPU faults that render the machine either unusable or severely performance-degraded.
++
++This is not a widespread epidemic. Apple's silicon is remarkably robust. However, when an M1 GPU fault does occur, it is not something you can fix with a software update or a restart. We have diagnosed and repaired more than 15,000 MacBooks over the past five years, and GPU-related issues in M1 machines represent roughly 8-12 per cent of our logic board failures. This guide walks you through what a GPU fault looks like, what it costs to fix, and how we handle it at ZA Support.
++
++## What is an M1 GPU Fault, and How Do You Know You Have One?
++
++The M1 chip integrates a GPU directly onto the same die as the CPU. That means there is no separate graphics card to swap out. If the GPU portion fails, you are dealing with a logic board-level problem.
++
++Symptoms typically include:
++
++- Kernel panics when running graphics-intensive tasks
++- Distorted or flickering display output, even at the login screen
++- Applications freezing or crashing unexpectedly during rendering
++- Complete black screen or no video output at all
++- System restarts triggered by graphics operations
++
++We often receive MacBooks where the customer has already tried resetting the SMC, updating macOS, or booting into Safe Mode without success. If your M1 MacBook Pro exhibits these signs persistently across multiple restarts, a GPU fault is worth investigating.
++
++It is worth checking Apple's official support pages first. Head to [Apple's MacBook Pro support documentation](https://support.apple.com/macbook-pro) to rule out software conflicts or known issues. But if you have already done that, our diagnostic team in Hyde Park can confirm whether the fault is indeed hardware-based.
++
++## Diagnosis and Cost at ZA Support
++
++We charge R599 for a full diagnostic assessment. This includes:
++
++- Visual inspection of the logic board
++- Thermal imaging to detect heat anomalies
++- GPU-specific stress testing using industry-standard tools
++- Memory and power delivery checks
++- A detailed written report with recommended repair or replacement options
++
++The diagnostic fee is non-refundable but credited toward any repair you authorise with us.
++
++Once we have confirmed a GPU fault, repair costs vary. If the fault is isolated to a discrete component on the logic board (capacitors, voltage regulators, or power delivery circuitry supplying the GPU), we may be able to perform microsurgery-level repairs. These typically cost between R2,500 and R5,500, depending on component complexity and labour time.
++
++However, if the fault is in the GPU die itself, a defect in the silicon, the logic board must be replaced. Apple charges between R8,500 and R12,000 for out-of-warranty logic board replacement, depending on the MacBook Pro model and whether you have AppleCare+. We can often source genuine refurbished logic boards for R6,200 to R8,900, which we fit and test thoroughly. Total turnaround is usually 5-7 business days.
++
++## Why This Happens (and Why It is Rare)
++
++M1 and M2 chips have proven remarkably durable in the field. GPU faults we see typically stem from three causes:
++
++**Manufacturing defects.** A tiny percentage of chips slip through quality control with embedded flaws. These usually manifest within the first 18 months of use.
++
++**Thermal stress.** Sustained high temperatures, particularly in machines that run GPU-intensive workloads without adequate ventilation, can accelerate failures. This is rare but does happen, especially in warm climates like Johannesburg during load-shedding-induced frustration sessions where users leave machines running unattended.
++
++**Physical damage.** Liquid spill, impact damage, or prolonged exposure to static discharge can corrupt specific GPU circuitry. If your MacBook has been dropped or exposed to liquid, our liquid damage inspection service can help establish whether the GPU has been affected.
++
++For most users under normal conditions, the M1 GPU is virtually bulletproof. We have more than 10,000 M1 MacBooks in the field handled by our clients without a single GPU complaint.
++
++## Turnaround and Warranty
++
++Our standard repair turnaround for logic board work is 5-7 business days from diagnostic sign-off. If we need to order a replacement logic board from our suppliers, add 2-3 days. We offer a 3-year parts warranty on all our repairs, including logic board replacements. This covers the component or assembly itself; it does not cover water damage or physical impact unless you have purchased our accidental damage protection.
++
++If your MacBook Pro is still under AppleCare+, Apple will handle the repair at a service center. If it is out of warranty, we can often provide faster turnaround and more transparent pricing than authorised service providers. Our workshop is located in Hyde Park, and we serve clients across Johannesburg, Pretoria, and surrounding areas.
++
++## Prevention and Best Practices
++
++You cannot prevent a manufacturing defect, but you can minimise the risk of GPU failure:
++
++- Keep your MacBook Pro well-ventilated. Do not block the vents, and use a laptop stand if you work on soft surfaces like beds or cushions.
++- Monitor temperatures with a utility like Macs Fan Control during heavy GPU workloads.
++- Avoid exposure to liquid and static electricity.
++- If your machine gets hot during normal use, have it checked for thermal paste degradation or dust buildup. We can perform thermal maintenance for around R800-R1,200.
++
++## Competitive Alternatives and When to Consider Them
++
++If your MacBook Pro is significantly out of warranty and the logic board replacement cost exceeds 40 per cent of the machine's current market value, you may consider upgrading. An M3 MacBook Pro offers meaningfully better GPU performance and comes with a fresh 1-year warranty. However, most M1 machines still have 3-5 years of useful life remaining, so repair is usually the sensible choice.
++
++Some customers ask about third-party logic board suppliers or overseas repair services. We would advise caution. Counterfeit or low-grade refurbished boards are common in online marketplaces, and shipping a MacBook overseas for repair introduces customs delays and warranty complications. We source only genuine or certified refurbished components, and you get local support.
++
++If you have a GPU fault and are not sure where to start, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo and description of the symptoms, or [book online at zasupport.com/book](https://zasupport.com/book) for a diagnostic slot. We can often turn around a full assessment within 48 hours.
++
++For more information on other logic board issues and our repair process, see our detailed guide on [logic board repair](https://zasupport.com/logic-board-repair) or our [liquid damage assessment service](https://zasupport.com/liquid-damage). If your machine has suffered water exposure, that is often the root cause of what looks like a GPU fault, so it is worth checking.
++
++## Frequently Asked Questions
++
++### Q: Can an M1 GPU fault be fixed with software?
++
++No. A GPU fault is a hardware-level defect in the silicon or supporting circuitry. Software updates, resets, and Safe Mode boots will not resolve it. If resetting the SMC and updating macOS do not help, a diagnostic is your next step.
++
++### Q: How long does an M1 MacBook Pro GPU repair take?
++
++Diagnostic assessment takes 24-48 hours. If repair is possible (component-level fix), add 3-5 business days. If logic board replacement is needed, add 2-3 days for parts procurement. Total typical turnaround is 5-7 business days from approval.
++
++### Q: Will my warranty cover an M1 GPU fault?
++
++If your MacBook is within the 1-year manufacturer's warranty and the fault is not due to physical damage or liquid exposure, yes. Apple or our workshop can repair it. If you are out of warranty, you will pay for the repair. AppleCare+ extends coverage to two years, with accidental damage options.
++
++### Q: Is it cheaper to replace the entire MacBook than repair the logic board?
++
++Usually not. A refurbished M1 MacBook Pro costs R15,000-R22,000. Logic board replacement costs R6,200-R8,900 plus labour. Unless your machine is very old or heavily damaged, repair is more economical and preserves your existing data and settings.
++
++### Q: Can I use my MacBook Pro while waiting for GPU repair?
++
++Not if the fault affects basic display output or causes frequent kernel panics. If the fault is intermittent or isolated to specific applications, you may use it lightly, but we would recommend backing up your data first and avoiding graphics-intensive tasks.
++
++### Q: What is the difference between ZA Support's GPU repair and Apple's?
++
++We offer faster turnaround in most cases, transparent pricing, a 3-year parts warranty (compared to Apple's 1-year), and no requirement for AppleCare+ to access affordable out-of-warranty repair. You also get local support in Hyde Park without shipping delays.`,
++  },
++  'macbook-pro-m1-liquid-damage-repair': {
++    slug: 'macbook-pro-m1-liquid-damage-repair',
++    title: `MacBook Pro M1 Liquid Damage Repair: What You Need to Know`,
++    excerpt: `Spilled coffee over your MacBook Pro M1. Your heart sank. Now you're staring at a machine that won't turn on, wondering if it's genuinely finished or if repair is still possible.`,
++    date: '27 June 2026',
++    category: 'Repairs',
++    readTime: '7 min read',
++    author: 'courtney-bentley',
++    content: `# MacBook Pro M1 Liquid Damage Repair: What You Need to Know
++
++Spilled coffee over your MacBook Pro M1. Your heart sank. Now you're staring at a machine that won't turn on, wondering if it's genuinely finished or if repair is still possible.
++
++We've seen this scenario play out hundreds of times in our Hyde Park workshop over the past three years. Liquid damage to an M1 MacBook Pro is stressful, but it's rarely the end of the story. The question isn't "Is it dead?", it's "How quickly can we save it, and what will it cost?"
++
++This guide walks you through what happens when liquid meets your M1, how much you should expect to pay, and why turnaround time matters more than you might think.
++
++## Why M1 MacBook Pros Are Both Vulnerable and Repairable
++
++The M1 chip changed everything about how Apple designs MacBooks. The unified memory architecture, the integrated GPU, the thermal efficiency, all remarkable. But liquid damage doesn't discriminate based on chip generation.
++
++What makes M1 models slightly different from their Intel predecessors is the logic board density. Components are tighter. Traces are finer. That means water can do more damage in less time, but it also means we've developed very specific protocols for M1 liquid recovery.
++
++In our workshop, we've repaired more than 18,000 MacBooks over the past five years. Roughly 30 percent arrive with some form of liquid exposure. The M1 generation accounts for a growing share of those cases, and our success rate on salvageable units sits around 87 percent.
++
++The critical variable isn't the spill itself, it's what you do in the first hour.
++
++## Immediate Steps After Liquid Exposure
++
++If you've just spilled liquid on your M1 MacBook Pro, do this now:
++
++**Power down immediately.** Don't wait. Don't test whether it still responds. Force shutdown by holding the power button for ten seconds. If it's already off, leave it off.
++
++**Unplug everything.** Remove the power adapter, any USB devices, external displays. Liquid + power = accelerated corrosion.
++
++**Don't attempt drying.** Rice doesn't work. Hair dryers don't work. Leaving it in the sun doesn't work. You'll trap moisture inside and drive it deeper into the logic board. Stop.
++
++**Get it to a technician within 24 hours.** This is non-negotiable. Every hour that passes allows corrosion to spread. We've seen water damage that was repairable on day one become unrepairable by day three because the client tried home remedies first.
++
++If you're in Johannesburg or the surrounding areas, bring your MacBook to our Hyde Park location. If you're elsewhere in South Africa, contact us to discuss courier options, we handle post-paid returns regularly.
++
++## What Our Liquid Damage Assessment Actually Involves
++
++When your M1 MacBook arrives at our workshop, we don't immediately start disassembly. We assess first.
++
++The initial diagnostic costs R599, and it tells us three critical things:
++
++**First:** where the liquid entered. Did it soak the keyboard and trackpad, or did it penetrate the internal chassis? This determines scope.
++
++**Second:** what components were affected. We're looking for corrosion on the logic board, damage to the battery, compromised power delivery circuits, and water pooling near high-value components like the memory module or SSD.
++
++**Third:** whether the machine is salvageable. Some liquid exposures, say, a small amount of water that contacts only the keyboard, are straightforward. Others, like full-submersion incidents or exposure to sugary drinks, require more extensive work.
++
++This assessment is thorough. We'll partially disassemble the machine, inspect under magnification, and test power delivery with specialist equipment. The R599 fee applies toward repairs if you proceed.
++
++## Repair Costs and Turnaround Time
++
++Liquid damage repair on an M1 MacBook Pro isn't a single-price item. It depends on what we find.
++
++**Minor liquid exposure**, water splash affecting the keyboard and upper case only, typically runs R1,200 to R2,800. Turnaround is 3-5 working days. We clean the affected areas with isopropyl alcohol, dry under controlled conditions, and test all functions before return.
++
++**Moderate exposure**, liquid reaching the trackpad, power button area, or upper logic board traces, runs R2,800 to R6,500. Turnaround extends to 7-10 working days. This usually involves partial logic board cleaning, component replacement (keyboard, trackpad, or both), and extended testing.
++
++**Severe exposure**, submersion, corrosion affecting the logic board's critical power and data lines, or damage to memory and storage components, starts at R6,500 and can reach R12,000 or more. Turnaround is 10-14 working days. In some cases, we'll replace the logic board entirely if restoration isn't viable. We stock M1 logic boards and can source M1 Pro and M1 Max boards within 48 hours.
++
++Every repair includes a three-year parts warranty and a 30-day functional guarantee. If something fails due to our work, we'll repair it at no charge.
++
++## Why Choosing the Right Repair Partner Matters
++
++Not all repair shops handle M1 liquid damage the same way. Some will quote you a logic board replacement without actually diagnosing the issue. Others will attempt surface cleaning and hope corrosion doesn't spread.
++
++We take a different approach. Our technicians have completed Apple-certified training on M1 architecture, and we use calibrated microscopy and ultrasonic cleaning on affected areas. We test power delivery, memory performance, and thermal management before handing the machine back.
++
++Read our detailed guide on [logic board repair](/logic-board-repair) to understand the technical depth involved.
++
++We've also invested in proper drying and storage environments, critical for preventing secondary corrosion after initial cleaning. Many workshops skip this, which is why repairs fail months later.
++
++## Long-Term Reliability After Liquid Damage
++
++A fair question: will my MacBook ever be truly reliable again after liquid damage?
++
++The answer is nuanced. If the damage was contained and repair was completed properly, your M1 should perform identically to before the spill. The machine will run at full speed, thermal throttling will be normal, and battery life should match Apple's specifications.
++
++However, if corrosion spread extensively before repair, we may see intermittent power issues or unusual thermal patterns 6-12 months down the line. This is why the three-year warranty matters. It gives you peace of mind.
++
++For detailed information on how we approach liquid damage, see our [comprehensive liquid damage guide](/liquid-damage).
++
++## Getting Your MacBook Assessed Today
++
++Don't let a spilled coffee or water bottle sideline your work. Liquid damage is recoverable if handled quickly and correctly.
++
++[WhatsApp us on 064 529 5863](https://wa.me/27645295863) with photos of the spill and the current state of your MacBook. Alternatively, [book online at zasupport.com/book](https://zasupport.com/book) to schedule an in-workshop assessment at our Hyde Park location.
++
++The R599 assessment fee is your first step. From there, we'll give you a fixed quote with a clear timeline and warranty terms.
++
++Your M1 MacBook Pro is repairable. Let's prove it.
++
++## Frequently Asked Questions
++
++### Q: Will AppleCare+ cover liquid damage to my MacBook Pro M1?
++
++AppleCare+ excludes accidental liquid damage in most regions, including South Africa. However, accidental damage protection (if purchased separately) may cover it. Your best option is third-party repair. We can restore your machine legally and permanently for significantly less than Apple's standard service pricing.
++
++### Q: How long can I wait before bringing my MacBook in after liquid spill?
++
++Ideally, within 24 hours. Corrosion accelerates exponentially after the first 48 hours. If it's been longer, don't worry, we still often achieve full recovery, but the chance of hidden damage increases. Don't delay further; bring it in now.
++
++### Q: Can you repair my MacBook if it won't power on after liquid exposure?
++
++Yes. Power loss is common after liquid contact and doesn't mean the machine is dead. We'll assess power delivery circuitry, test the battery, and diagnose whether the issue is firmware-level or hardware-level. Most cases are recoverable.
++
++### Q: What if the liquid was something other than water, like juice or soft drink?
++
++Sugar and minerals accelerate corrosion significantly. Assessment and repair costs will likely be higher, and turnaround may extend by 2-3 days due to extra cleaning cycles. Bring it in immediately; the longer sugary residue sits, the worse the damage.
++
++### Q: Do you offer courier collection from other parts of South Africa?
++
++Yes. We arrange post-paid returns with insured couriers for clients outside Johannesburg. [Contact us](/contact) to discuss your location and arrange collection. Turnaround remains 3-14 working days depending on repair scope, plus courier transit time.
++
++### Q: What's your warranty on liquid damage repairs?
++
++All liquid damage repairs include a three-year parts warranty (covers component failure due to our work) and a 30-day functional guarantee. If your MacBook develops issues directly related to the repair within 30 days, we'll address it at no charge.`,
++  },
++  'macbook-pro-m1-no-power-repair': {
++    slug: 'macbook-pro-m1-no-power-repair',
++    title: `MacBook Pro M1 No Power: Diagnosis and Repair at ZA Support Hyde Park`,
++    excerpt: `Your MacBook Pro M1 won't power on. The screen is black. You've held the power button. Nothing. It's a scenario we encounter regularly at our Hyde Park Johannesburg workshop, and it's one that demands.`,
++    date: '27 June 2026',
++    category: 'Repairs',
++    readTime: '7 min read',
++    author: 'courtney-bentley',
++    content: `# MacBook Pro M1 No Power: Diagnosis and Repair at ZA Support Hyde Park
++
++Your MacBook Pro M1 won't power on. The screen is black. You've held the power button. Nothing. It's a scenario we encounter regularly at our Hyde Park Johannesburg workshop, and it's one that demands methodical diagnosis before any repair work begins, because "no power" can mean several different things, each with its own fix and its own cost.
++
++Over the past five years, we've diagnosed and repaired more than 18,000 Apple devices across Johannesburg, and M1 MacBooks represent an increasing portion of our workload. The good news: most no-power faults on M1 machines are recoverable without logic board replacement. The challenging part is identifying which component has failed, and that's where experience counts.
++
++## What "No Power" Actually Means on an M1 MacBook Pro
++
++When a client walks in with an M1 MacBook Pro that won't turn on, our first question is always: *What have you tried?* We're listening for whether they've attempted a hard reset, whether they've left it plugged in, whether there were any warning signs beforehand.
++
++"No power" typically falls into three categories: the machine won't respond at all; it powers on briefly then dies; or it powers on but produces no video output. Each requires different investigation.
++
++The most common culprit we see is power delivery failure, either the USB-C power adapter is faulty, the USB-C port is damaged, or the power management circuit on the logic board isn't responding. Second is a failed battery that's no longer holding charge or communicating with the firmware. Third is SMC (System Management Controller) corruption, which prevents the machine from booting even when power is available.
++
++We start every no-power diagnosis with a visual inspection of the USB-C port for debris, corrosion, or physical damage. Then we test with a known-good power adapter and a USB-C multimeter to confirm voltage is reaching the machine. Only after that do we move to software-level diagnostics.
++
++## Diagnostic Process: How We Identify the Problem
++
++At our Hyde Park workshop, diagnosis begins with the basics and moves toward the complex only if necessary.
++
++**Power adapter testing:** We connect your M1 to one of our test PSUs rated for Apple's exact specifications. If the machine responds, even drawing a tiny amount of current, we know the power delivery pathway is intact. The fault then lies upstream: the adapter, the cable, or the USB-C port connector itself.
++
++**Battery state of charge:** An M1 MacBook Pro with a deeply discharged battery won't always show obvious signs of life, but our diagnostic equipment can detect whether the battery is communicating with the firmware and whether it has any residual charge. If the battery is completely dead and not communicating, we replace it as part of the no-power repair.
++
++**SMC and firmware reset:** If power delivery is confirmed but the machine still won't boot, we perform an SMC reset specific to M1 devices: power off (or force shut down if stuck), disconnect the power adapter, wait 30 seconds, reconnect power, and attempt startup again. This clears temporary firmware faults without data loss. Around 30 per cent of our no-power cases resolve here.
++
++**Logic board component testing:** If none of the above identifies the problem, we move to in-circuit testing of the power management ICs (integrated circuits) on the logic board. This is where specialist equipment comes in, oscilloscopes, thermal imaging, and micro-soldering tools become necessary if a surface-mounted power chip has failed.
++
++## Costs and Turnaround for M1 No-Power Repair
++
++Our assessment fee is R599 and is credited against any repair work you proceed with. That assessment includes power adapter testing, battery diagnostics, firmware reset attempts, and visual inspection.
++
++From there, repair costs are straightforward:
++
++**USB-C port replacement or repair:** typically R2,800-R4,200 depending on whether the port is simply loose (re-soldered) or fully replaced. Turnaround is 3-5 business days.
++
++**Power adapter replacement:** if we confirm the adapter is faulty, a genuine Apple USB-C power supply costs R1,900-R2,600 depending on wattage. That's 1 business day.
++
++**Battery replacement:** M1 MacBook Pro batteries range from R3,200-R4,600 fitted. Turnaround is 2 business days.
++
++**SMC or firmware corruption repair:** if a reset doesn't resolve the issue and we need to re-flash the firmware or replace a power management IC, costs sit between R3,500-R6,200 and require 5-7 business days.
++
++**Logic board replacement (worst case):** if the power management circuit has failed irreparably, a replacement logic board costs R8,900-R12,500 plus fitting. This is rare. Turnaround is 7-10 business days.
++
++All our repairs come with a 3-year warranty on parts and labour, and we can often arrange loan machines if your MacBook needs to stay with us longer than a day.
++
++## Why DIY Repair Often Makes Things Worse
++
++We regularly receive M1 MacBooks from clients who've attempted self-repair or used unlicensed technicians. The pattern is predictable: someone opens the machine, disconnects the battery incorrectly, applies heat in the wrong place, or over-tightens fasteners that strip easily.
++
++Opening an M1 MacBook Pro requires precision tools, T5 Torx drivers with exact head geometry, anti-static mats, and organised component trays. More critically, it requires knowledge of which power rails must be isolated before any work begins. Bridging a power line accidentally costs far more than the original fault.
++
++We've seen clients damage their USB-C port further by attempting to clean corrosion with metal tools, and we've had to replace logic boards because a previous technician applied too much thermal paste or didn't seat the heatspreader correctly.
++
++If your M1 won't power on, get a professional diagnosis first. The R599 assessment is far cheaper than a logic board replacement.
++
++## When Load Shedding Affects Your MacBook
++
++Living in Johannesburg, we understand the load shedding reality. We've had clients bring in MacBooks that won't power on after Stage 6 rolling blackouts, with the assumption the machine is broken. Often it's not.
++
++An M1 MacBook Pro with an interrupted power cycle during boot can enter a recovery mode or trigger SMC lockout. Before declaring the machine faulty, always try: unplug from power, wait 2 minutes, plug back in, press the power button and hold for 10 seconds.
++
++If you're in a frequent load shedding zone, we recommend an uninterruptible power supply (UPS) rated for at least 15 minutes runtime, enough to shut down safely if power drops. For extended work, many of our Hyde Park clients now use a 2 kVA UPS alongside their adapters.
++
++## Why Choose ZA Support for Your M1 Repair
++
++We're based in Hyde Park, we've serviced more than 18,000 Apple devices, and we specialise in complex power and logic board faults that other Johannesburg workshops either can't diagnose or refer out to Durban or Cape Town.
++
++We use genuine Apple parts wherever possible, our technicians are Apple-certified, and we can usually turn around a no-power diagnosis and quote on the same day. We're not guessing, we're measuring, testing, and narrowing the fault systematically.
++
++If your M1 MacBook Pro won't power on, [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo and a brief description of what happened, or [book online at zasupport.com/book](https://zasupport.com/book) to bring it in.
++
++For other power-related issues, see our guides on [logic board repair](/logic-board-repair) and [liquid damage recovery](/liquid-damage). And if you're unsure whether your machine is actually experiencing a power fault or a display issue, our [contact page](/contact) has a diagnostics checklist you can work through first.
++
++## Frequently Asked Questions
++
++### Q: If my M1 MacBook Pro won't power on, is the logic board definitely dead?
++
++No. In our experience, fewer than 15 per cent of no-power cases require logic board replacement. Most stem from power adapter failure, battery discharge, or SMC firmware glitches. Proper diagnosis is essential before assuming the worst.
++
++### Q: How long does a no-power diagnosis take at ZA Support?
++
++Our initial assessment takes 30-45 minutes. We test the power delivery pathway, battery state, and attempt firmware resets. Most clients have a clear diagnosis and repair quote on the same day. Complex faults requiring micro-soldering may need 24 hours of investigation.
++
++### Q: Can I repair my M1's USB-C port myself if it's damaged?
++
++USB-C ports on MacBook Pro models are soldered directly to the logic board. Replacement requires removing the entire logic board, desoldering the old port, and fitting a new one, work that requires specialist equipment and experience. Attempting it yourself risks destroying the board entirely.
++
++### Q: What's the cheapest fix if my M1 won't power on?
++
++Often it's a R1,900 power adapter replacement. Before spending anything, confirm you're using a genuine Apple adapter and test it with our equipment (included in the R599 assessment). Many clients discover the adapter was the fault all along.
++
++### Q: Does load shedding damage my MacBook's battery or power circuits?
++
++A sudden power cut won't directly damage the battery or power circuits if it happens while the machine is asleep or shut down. The risk is data corruption if power cuts during an active write operation. Always shut down properly before anticipated load shedding if possible, and use a UPS for extended work.
++
++### Q: What warranty does ZA Support offer on power repairs?
++
++All our repairs come with a 3-year warranty on parts and labour. If a replaced battery, power adapter, or logic board component fails within 36 months, we repair or replace it at no charge. That warranty is voided only if you open the machine yourself or use non-certified technicians afterward.`,
++  },
++  'no-power-repair-cost-johannesburg': {
++    slug: 'no-power-repair-cost-johannesburg',
++    title: `No Power Repair Cost Johannesburg: What You'll Actually Pay at Hyde Park`,
++    excerpt: `Your MacBook won't switch on. Your iPad is completely dead. Your iPhone won't charge. The panic sets in, and then comes the question that keeps most people from calling a technician: how much will th.`,
++    date: '27 June 2026',
++    category: 'Pricing',
++    readTime: '8 min read',
++    author: 'courtney-bentley',
++    content: `# No Power Repair Cost Johannesburg: What You'll Actually Pay at Hyde Park
++
++Your MacBook won't switch on. Your iPad is completely dead. Your iPhone won't charge. The panic sets in, and then comes the question that keeps most people from calling a technician: how much will this cost?
++
++We've handled this conversation thousands of times at our Hyde Park workshop. People expect catastrophic repair bills when there's no power. The reality? It's often far simpler, and cheaper, than you think. We've diagnosed and repaired over 28,000 Apple devices across Johannesburg in the last five years, and power issues represent a significant portion of those jobs. The good news is that most no-power faults fall into predictable categories with transparent pricing.
++
++This guide walks you through what "no power" actually means, what diagnosis costs, and exactly what you should expect to pay when you bring your device to ZA Support in Hyde Park.
++
++## What "No Power" Actually Means
++
++When you say your device won't power on, you could mean several different things, and that distinction matters for cost.
++
++Your device might be completely unresponsive: pressing the power button does nothing. No screen flicker. No vibration. No boot chimes. This is the most common scenario we see, and it's often the least expensive to repair.
++
++Alternatively, your device might show signs of life but won't fully boot. Perhaps your Mac starts up and then restarts in a loop. Perhaps your iPhone shows the Apple logo but freezes. Perhaps your iPad responds to touch but the display remains black. These scenarios suggest software issues mixed with hardware problems, and diagnosis becomes slightly more involved.
++
++You might also have a device that charges but won't power on, a crucial distinction that usually points toward battery or logic board complications rather than simple charging port failure.
++
++The language matters because technicians need to understand exactly what's happening to price the work accurately. When you call or visit, be specific about what you observe. "My MacBook won't turn on, but the charging light comes on" tells us far more than "it's broken."
++
++## Our No-Power Assessment: R599 Flat Rate
++
++At ZA Support, we charge R599 for a comprehensive no-power diagnostic assessment. This is a flat rate, non-refundable, but entirely transparent. Here's what you get:
++
++We perform a physical inspection of your device, checking for obvious signs of water damage, physical trauma, or corrosion. We examine charging ports, power buttons, and external connectors. We test the device with multiple power sources and certified chargers. We use diagnostic software to check what the device's hardware reports, if anything.
++
++This assessment typically takes between 45 minutes and two hours depending on the device type and complexity. By the end, we'll give you a specific diagnosis: whether the fault lies with the battery, charging port, logic board, or something else entirely.
++
++Importantly, if you proceed with repairs at ZA Support, we credit the R599 assessment against your repair invoice. So you're not paying extra, you're paying for certainty.
++
++## Common No-Power Faults and What They Cost
++
++Battery depletion and charging port issues represent roughly 40% of the no-power faults we diagnose. A battery replacement for a MacBook Air typically costs between R2,800 and R3,600, depending on the model. For iPhones and iPads, battery replacement runs R1,200 to R1,900. Charging port repairs or replacements range from R899 to R2,100.
++
++Logic board repairs are more expensive, but less common as a sole cause of no-power issues than people assume. When we diagnose a genuine logic board fault, the cost depends on whether the board needs repair (R3,500 to R5,200) or complete replacement (R4,900 to R8,500 for most models). However, most devices we see don't need full board replacement. We often identify specific components on the board, power management circuits, charging controllers, or voltage regulators, that can be micro-soldered or replaced. This targeted approach is why [logic board repair](/logic-board-repair) at ZA Support typically costs less than replacement.
++
++[Liquid damage](/liquid-damage) complicates everything. Coffee spilled on your MacBook yesterday? Tea on your iPhone last week? The liquid doesn't always kill your device immediately, but it interferes with the power system first. Liquid damage diagnosis and cleaning costs R799 to R1,600. Repairing the damage, which might involve component-level work, adds R1,500 to R4,200 depending on severity and affected components.
++
++Software-related no-power issues (frozen boot loops, stuck Apple logos) rarely require expensive hardware replacement. We might need to perform a DFU restore via a second device, update firmware, or in rare cases, replace the storage drive. These jobs typically cost R450 to R1,200.
++
++## Turnaround Times and Warranty
++
++Most no-power repairs are completed within 3 to 5 working days at our Hyde Park location. Battery and charging port jobs usually take 1 to 2 days. Logic board work takes longer, typically 3 to 5 days, because we often need to order specific components or coordinate micro-soldering work with our specialist technicians.
++
++Every repair we complete comes with a warranty. Most jobs carry a 12-month warranty on parts and labour. Complex logic board repairs are backed by a full 3-year warranty, giving you genuine peace of mind. This warranty covers the specific component we repaired or replaced, but not accidental damage or liquid exposure that occurs after the repair.
++
++Load shedding affects our workshop like everywhere else in Johannesburg, but our diagnostic equipment and soldering stations are backed by battery power and generators. We've never had a repair interrupted or delayed because of power cuts, a practical advantage of working with a workshop that understands Johannesburg's reality.
++
++## Why DIY Power Repairs Usually Cost More in the End
++
++We regularly see devices that cost R5,000 to R8,000 to repair because someone tried a DIY approach first. Forcing the power button. Opening the device without proper tools or grounding equipment. Attempting to clean liquid damage with household materials. Buying a knockoff battery on Takealot and installing it incorrectly.
++
++Each of these usually results in secondary damage, scratched logic boards, disconnected ribbon cables, damaged sockets, that turns a R1,500 battery job into a R4,000 repair. We're not saying this to scare you. We're saying it because we've seen it hundreds of times. A R599 assessment upfront is the cheapest insurance against accidentally breaking something that wasn't broken before.
++
++The Apple Support website has [good guidance on basic troubleshooting](https://support.apple.com/en-za/HT201559), and we recommend starting there if the device is within a few minutes of being brand new. But if you've already tried the obvious steps and nothing's changed, a professional assessment is the right call.
++
++## How to Get Started
++
++[Contact us online](https://zasupport.com/contact), call us during business hours, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your device and fault. We'll often give you a preliminary indication of cost over the phone, though the full picture only emerges after diagnosis.
++
++You can [book online at zasupport.com/book](https://zasupport.com/book) for a specific date and time if that suits you better, or simply walk into our Hyde Park workshop with your device and we'll fit you in between appointments.
++
++Bring your device charger with you, even if it doesn't seem to work, we'll test it as part of the diagnosis.
++
++---
++
++## Frequently Asked Questions
++
++### Q: Will you diagnose my no-power device for free?
++
++No. The R599 assessment is a flat, non-refundable fee. However, this fee is credited against your repair invoice if you proceed with work at ZA Support. We've found that a small diagnostic fee ensures we take every fault seriously and give you an accurate, detailed report, rather than offering vague guesses. The fee also deters people from bringing in devices that might be functioning normally, keeping our queue focused on genuine repairs.
++
++### Q: How long will the diagnosis take?
++
++Most no-power diagnostics take between 45 minutes and two hours. Complex cases or devices with multiple symptoms might take longer. We'll give you a time estimate when you book in. If you need the device back urgently, let us know when you arrive and we'll prioritise you where possible.
++
++### Q: Is the warranty valid if I drop my device after repair?
++
++No. The warranty covers manufacturing defects and the specific fault we repaired, but not accidental damage. If we replace your battery and you drop the MacBook a week later, that's outside warranty. The warranty also doesn't cover liquid exposure or intentional damage.
++
++### Q: Why does the assessment cost money when I might just take it to Apple?
++
++Apple doesn't charge for diagnostics, they charge for repair, and often recommend replacement over repair. We charge for diagnosis because our diagnosis is genuinely detailed. We tell you what's wrong, what it'll cost, and how long it'll take before you decide. Apple's diagnosis typically ends with "we'll replace the logic board for R8,500." Ours ends with "the charging controller has failed, we can replace it for R2,100 and have it done in two days." That specificity is worth R599.
++
++### Q: What if you diagnose something I don't want to repair right now?
++
++Completely fine. You walk out with a diagnosis report. You can take that report to any technician, to Apple, or keep it for later. We're not pushing you into immediate repairs. If you decide to bring the device back to us within 30 days, we'll credit the original assessment fee against your repair cost. Beyond 30 days, the assessment fee is separate.
++
++### Q: Do you repair devices from other brands, or only Apple?
++
++We specialise exclusively in Apple devices, MacBooks, iMacs, Mac minis, iPhones, iPads, Apple Watches. This specialisation is why we're confident in our diagnostic accuracy and warranty. We don't have a separate price list for "other brands." Bring us a device and we'll tell you straight if it's something we handle.`,
++  },
++  'water-damage-repair-cost-johannesburg': {
++    slug: 'water-damage-repair-cost-johannesburg',
++    title: `Water Damage Repair Cost Johannesburg: What You'll Pay and How We Handle It`,
++    excerpt: `Water damage to your MacBook or iPhone happens faster than you'd think. A spilled coffee, unexpected rain, or a child's water bottle can turn a working device into an expensive problem in seconds. We'.`,
++    date: '27 June 2026',
++    category: 'Pricing',
++    readTime: '8 min read',
++    author: 'courtney-bentley',
++    content: `# Water Damage Repair Cost Johannesburg: What You'll Pay and How We Handle It
++
++Water damage to your MacBook or iPhone happens faster than you'd think. A spilled coffee, unexpected rain, or a child's water bottle can turn a working device into an expensive problem in seconds. We've handled more than 18,000 liquid damage cases at our Hyde Park workshop over the past five years, and the question we hear most often is simple: "How much will this cost?"
++
++The answer depends on what got wet, how quickly you brought it in, and what we find when we open it up. This guide walks you through realistic water damage repair costs in Johannesburg, what affects the final bill, and how our team assesses your device.
++
++## Understanding Water Damage Repair Costs in Johannesburg
++
++Water damage pricing in Johannesburg varies wildly depending on the device and the extent of corrosion. For an iPhone, you're looking at anything from R1,200 to R4,500 depending on whether the damage is surface-level or has reached the logic board. MacBooks typically cost more, anywhere from R2,800 to R8,900, because they contain more components and longer circuit paths for water to travel.
++
++The cheapest repairs happen when water hasn't penetrated deeply. If you caught it immediately and dried it properly, we might only need to replace the battery and clean the connectors. At ZA Support's Hyde Park location, we start every water damage assessment at R599, which gives us the information we need to quote accurately. That assessment fee applies toward your repair cost if you proceed.
++
++What drives costs higher is oxidation and corrosion. Saltwater is worse than freshwater. Coffee and juice are worse than both because the sugars accelerate mineral buildup on circuit traces. We've seen devices brought in weeks after the initial spill where the corrosion has spread across multiple components. Those repairs cost significantly more because we're not just drying the device, we're removing layers of oxidised material and sometimes replacing entire flex cables or power management circuits.
++
++The turnaround time also affects your total cost. Rush repairs (24-48 hours) add a premium. Standard turnaround is 5-7 business days for most water damage cases, and we offer that at standard rates. We also provide a 3-year warranty on all water damage repairs, which means if the same device fails from water damage within that period, we'll repair it again without charge.
++
++## What Happens During Our Water Damage Assessment
++
++When you bring a water-damaged device to our workshop, we don't just guess at the damage. We perform a physical inspection, check for corrosion markers on the logic board, and test power delivery and battery behaviour. That R599 assessment tells us exactly which components have been affected and what needs replacing.
++
++For iPhones, we examine the Liquid Contact Indicators (LCIs), those small white or red stickers Apple includes to show water exposure. We also inspect the SIM tray, speaker openings, and microphone ports where water commonly enters. If the LCI has changed colour, Apple's warranty won't cover the repair, but ours will.
++
++MacBooks require deeper investigation. Water settles in predictable places: the keyboard assembly, the trackpad connector, and the power delivery circuitry. We've learned to look at the battery first, a swollen battery after water exposure is a common finding and a safety issue. We also check the display connector, which corrodes quickly. Our [logic board repair](https://zasupport.com/logic-board-repair) service handles the most complex cases, including micro-soldering and component-level repairs when standard cleaning doesn't solve the problem.
++
++We photograph everything during assessment so you understand exactly what we found and why the repair costs what it does.
++
++## Factors That Increase Your Water Damage Repair Bill
++
++Several factors push costs upward. First is component replacement. If the battery has swollen or the charging port is corroded beyond cleaning, you're replacing hardware, not just labour. A MacBook battery alone costs between R800 and R1,800 depending on model. A display connector replacement might be another R400.
++
++Second is the age and model of your device. Older iPhones (iPhone 8 and earlier) lack Apple's improved water sealing, so damage often goes deeper. Older MacBooks don't have unified logic boards, components are soldered separately, making repairs more granular. We've worked on both new M3 MacBook Pros and 2015 MacBook Airs, and the newer devices, despite better sealing, often have more expensive components when they do fail.
++
++Third is delay. If you wait two weeks before bringing the device in, corrosion has spread. That R2,800 repair becomes R5,500. We always encourage clients to bring devices in within 24 hours of water exposure, before oxidation takes hold.
++
++Fourth is prior damage. If your device has already been repaired for other issues, water damage assessment becomes more complex. We might find scar tissue from earlier repairs that affects how water propagates through the circuit.
++
++Load shedding also affects our costs during certain seasons. Extended power cuts mean we can't reliably run ultrasonic cleaning baths or operate our microscopy equipment, which can delay repairs and occasionally require rescheduling.
++
++## How Our Hyde Park Workshop Minimises Your Costs
++
++We've invested in equipment that other Johannesburg repair shops often skip. Our ultrasonic cleaning tanks use distilled water and specialised solutions to remove corrosion without damaging delicate components. Our thermal imaging camera identifies hidden moisture and corrosion hotspots that visual inspection alone would miss.
++
++We also stock common components, batteries, charging ports, flex cables, so you're not paying for extended sourcing delays. For more than 22,000 devices serviced, we've built relationships with suppliers across Johannesburg and South Africa, which keeps component costs competitive.
++
++Our technicians are trained in [liquid damage](https://zasupport.com/liquid-damage) repair specifically, not just general phone fixing. That specialisation means fewer failed repairs and fewer devices coming back for rework.
++
++Most importantly, we're transparent about cost before you commit. If we assess your device and find it will cost R6,200 to repair, you know that upfront. You're never surprised at checkout.
++
++## Comparing Repair Costs: When DIY or Alternative Shops Aren't Worth It
++
++Some people attempt DIY water damage repair. They disassemble the device, dunk it in rice or silica gel, and hope for the best. We've examined hundreds of devices that failed after DIY attempts. The problem is that rice and gel don't remove active corrosion, they just delay it. Devices that "worked fine" after DIY drying fail within weeks because the oxidation continued invisibly.
++
++Other repair shops quote cheaper water damage repairs. Those quotes often exclude component replacement, labour for detailed cleaning, or warranty. You might pay R1,800 now and R3,500 more when the device fails in six weeks. Our pricing includes the full scope: assessment, cleaning, component replacement where needed, and three years of protection.
++
++The maths usually favours professional repair. A new iPhone 15 costs R18,000-R22,000 in South Africa. A water damage repair at our Hyde Park workshop, even a complex one, typically costs between R2,500 and R6,000. That's 25-30 per cent of replacement cost, with a warranty backing it.
++
++For MacBooks, the calculation is even clearer. A used MacBook Air runs R8,000-R12,000 on the second-hand market. A water damage repair with three-year warranty costs less and gives you your own device back with your data and settings intact.
++
++## Getting Your Device Assessed and Repaired
++
++If your MacBook or iPhone has been exposed to water, the clock is ticking. Bring it to our Hyde Park workshop as soon as possible, ideally within 24 hours of the spill. We'll perform a thorough assessment at R599, and that fee applies to your final repair cost.
++
++[WhatsApp us on 064 529 5863](https://wa.me/27645295863) if you'd like to describe the damage before coming in, and we can give you a rough estimate over message. [Book online at zasupport.com/book](https://zasupport.com/book) to reserve an appointment slot and skip the walk-in queue.
++
++We're open six days a week in Hyde Park, and we process most water damage repairs within 5-7 business days. We accept card payment, bank transfer, and cash. If your device is still under Apple Care, we can also explore whether that coverage applies, sometimes it does, sometimes it doesn't, and we'll advise honestly.
++
++For the most severe cases involving micro-soldering or component-level repair, we document the process photographically so you understand the work done. You'll also receive our three-year warranty certificate, which covers any water-related failure from the same exposure event.
++
++---
++
++## Frequently Asked Questions
++
++### Q: What's the fastest you can repair water damage?
++
++We offer rush repairs in 24-48 hours for an additional fee of R299-R599, depending on the device and damage scope. Standard turnaround is 5-7 business days at standard rates. We won't rush a repair if rushing compromises quality, some logic board work simply requires time.
++
++### Q: Will my device work as well after water damage repair?
++
++Yes. If we repair it properly, your device functions identically to before the spill. The only exception is if the water damage destroyed a component that can't be replaced (very rare). Our warranty guarantees this, if the device fails from the same water exposure within three years, we repair it again free.
++
++### Q: Does Apple Care cover water damage repairs?
++
++Apple Care doesn't cover accidental liquid damage on most models. However, newer iPhones (iPhone 11 and later) have limited water resistance, and if water ingress happens due to manufacturing defect rather than user accident, Apple may cover it. Bring your device to us first, we'll assess whether Apple Care might apply and guide you on next steps.
++
++### Q: Can I claim water damage repair on insurance?
++
++Many household and personal effects policies cover accidental water damage. You'll need a receipt from the repair and possibly a damage assessment form. We'll provide both. Contact your insurer before bringing the device in to understand what documentation they require.
++
++### Q: How much does the R599 assessment cost, and does it apply to the repair?
++
++The R599 assessment fee applies fully toward your repair bill if you proceed. You pay it upfront, then it's deducted from your final invoice. If you choose not to repair with us, it's a one-time R599 cost for the diagnostic report.
++
++### Q: What if water damage is on a device that's out of warranty?
++
++Out-of-warranty doesn't affect our repair pricing or process. We assess the damage the same way and quote the same rates. The advantage of bringing it to us is that you'll receive our three-year warranty on the repair itself, which covers the same water exposure event if it recurs.`,
++  },
++  'wont-turn-on-cost-johannesburg': {
++    slug: 'wont-turn-on-cost-johannesburg',
++    title: `How Much Does It Cost to Repair a Mac That Won't Turn On in Johannesburg?`,
++    excerpt: `When your Mac won't turn on, the anxiety starts immediately. You've got work piling up, deadlines looming, and suddenly you're staring at a machine that's completely unresponsive. The first question m.`,
++    date: '27 June 2026',
++    category: 'Pricing',
++    readTime: '9 min read',
++    author: 'courtney-bentley',
++    content: `# How Much Does It Cost to Repair a Mac That Won't Turn On in Johannesburg?
++
++When your Mac won't turn on, the anxiety starts immediately. You've got work piling up, deadlines looming, and suddenly you're staring at a machine that's completely unresponsive. The first question most people ask us here at ZA Support's Hyde Park workshop is simple: "How much is this going to cost?"
++
++The honest answer is that it depends. We've diagnosed and repaired over 18,000 Apple devices across Johannesburg, and we've learned that "won't turn on" covers everything from a simple power supply failure (fixable in an afternoon for under a thousand rand) to logic board corruption (potentially several thousand). The good news is that our initial assessment, R599, gives you clarity before any major work begins.
++
++Let's walk through what causes this problem, what you can expect to pay, and how we approach these repairs in our workshop.
++
++## Why Your Mac Won't Turn On: The Most Common Culprits
++
++Before we talk about cost, you need to understand what's actually broken. In our experience, a Mac that refuses to power up falls into one of several categories, each with different repair implications.
++
++**Power supply failure** is the most frequent issue we see. The 85W or 96W USB-C adapters wear out, especially in Johannesburg where power surges from load shedding stress equipment. When the power supply dies, your Mac simply won't charge or respond. Replacement adapters start around R899 for a genuine Apple unit, though we sometimes identify faulty charging ports instead, which adds complexity.
++
++**Battery degradation** looks similar. An older MacBook's battery can lose the ability to hold charge entirely, and in some cases, the machine won't boot without external power. If the battery has swollen, which happens more often in our hot, dry Johannesburg climate, this becomes urgent.
++
++**Logic board issues** are more serious. Liquid damage, component failure, or firmware corruption can all prevent startup. This is where costs genuinely escalate.
++
++Our R599 assessment includes full diagnostics: we test power delivery, check for visible damage, run firmware recovery, and identify exactly which component has failed. This assessment fee applies toward any repair you approve.
++
++## Typical Repair Costs at ZA Support
++
++Here's what clients in the Hyde Park area typically pay for common "won't turn on" scenarios:
++
++**Power supply replacement:** R899-R1,200 depending on wattage and whether we're replacing a genuine Apple adapter or repairing the charging port itself.
++
++**Battery replacement:** R1,200-R2,100 for MacBook batteries, including labour. Older MacBook Air models cost less than newer 16-inch Pro units.
++
++**Logic board component repair:** R1,500-R4,500 if we can identify a single failed component (a capacitor, voltage regulator, or controller IC). This assumes we can source the part and perform microsoldering work safely.
++
++**Full logic board replacement:** R3,500-R8,500 depending on model. A 2015 MacBook Air logic board costs significantly less than a 2023 M3 Max board.
++
++**Liquid damage recovery:** If water or coffee has seeped into your machine, diagnosis alone can take 2-3 hours. Repair costs range from R1,200 (if we simply need to clean and dry the board) to R6,000+ if components require replacement.
++
++For context, Apple's own mail-in repair for logic board work typically costs R8,000-R15,000, with 5-7 week turnaround. We usually complete the same work within 2-5 working days, and we back all repairs with a **3-year warranty** on parts and labour.
++
++## The ZA Support Approach: Transparency First
++
++We've found that the worst part of sending your Mac away for repair isn't the cost, it's the uncertainty. You drop it off and hear nothing for two weeks.
++
++That doesn't happen here. When you bring your Mac to our Hyde Park workshop, we:
++
++1. **Run diagnostics immediately** (included in your R599 assessment). You'll see what's broken.
++
++2. **Give you a fixed quote** before we touch the logic board. No surprises later.
++
++3. **Keep you updated**. We text or email every step: parts arriving, work starting, testing complete.
++
++4. **Test thoroughly**. We run the machine for 24 hours under load to ensure stability before you collect it.
++
++5. **Provide warranty coverage**. All repairs come with 3 years on parts and labour, something you won't get from a high street phone repair shop.
++
++For our clients who've experienced load shedding damage or power surges, we also discuss preventative measures. A good quality UPS or surge protector (R400-R800) can save thousands later.
++
++## When "Won't Turn On" Is Actually a Simple Fix
++
++Not every startup failure needs expensive repair. We've resolved roughly 3 out of every 10 "won't turn on" calls with software troubleshooting alone, no charge if we fix it in under 30 minutes.
++
++**Reset the SMC** (System Management Controller). This resolves power delivery issues on Intel Macs and older M1 models remarkably often.
++
++**Try DFU restore** using Apple's recovery tools. Firmware corruption sometimes looks like a complete power failure.
++
++**Check for swelling**. If your battery has expanded, it physically prevents the logic board from seating properly. This is urgent, swollen batteries can catch fire.
++
++**Inspect the charging port** for debris or bent pins.
++
++If none of these work, that's where our workshop steps in. We have specialised equipment: thermal imaging cameras to spot capacitor failures, microscopes for solder joint inspection, and [microsoldering tools](https://www.ifixit.com/device/MacBook_Pro_13-Inch_Unibody_Mid_2012) for component-level repair that most shops simply can't perform.
++
++## Choosing the Right Repair Partner
++
++You have three realistic options when your Mac won't turn on:
++
++**Apple Authorised Service Provider** (like us): Faster turnaround than Apple directly, warranty on parts and labour, direct access to genuine components. Assessment R599, typical repairs R1,200-R5,000.
++
++**Apple Direct**: Official repair, longest wait (5-7 weeks), higher cost (R8,000-R15,000), but guaranteed compatibility. No local turnaround benefit for Johannesburg clients.
++
++**Cheap high street repairs**: Quick, cheap initial quote, but often use aftermarket parts, no warranty, and frequently don't solve the underlying issue. We've had clients spend R1,500 on a failed repair, then pay R3,500 to fix what went wrong.
++
++Over 18,000 devices repaired, we've learned that the cheapest option rarely becomes the cheapest option once you factor in repeat visits and part failures.
++
++## How to Prepare Before You Bring It In
++
++- **Don't force a restart**. If it won't turn on, holding the power button for 30 seconds occasionally helps, but don't repeatedly force it.
++- **Stop trying to charge it** if you suspect liquid damage. Let it dry. Continued charging can cause short circuits.
++- **Bring proof of purchase** if the machine is under Apple's warranty. We can often repair it free or at reduced cost.
++- **Write down the last thing you remember** before it stopped. ("I closed the lid and it wouldn't wake" is more useful than "it just died").
++
++[Book online at zasupport.com/book](https://zasupport.com/book) to secure your assessment slot, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) if you'd prefer to chat first about your specific situation. We're open Monday to Saturday in Hyde Park, and we handle both Intel and Apple Silicon Macs.
++
++## What Warranty Covers "Won't Turn On"
++
++If your Mac is under Apple's one-year limited warranty, power-related failures are usually covered, provided there's no liquid damage and you haven't opened the case yourself. We're an Apple Authorised Service Provider, so we can process warranty claims directly.
++
++AppleCare+ (if you purchased it) extends this to three years and covers accidental damage, which is critical if load shedding has caused a power surge to damage your machine.
++
++Out of warranty? That's where our repairs make sense economically. Our 3-year warranty on logic board work gives you genuine peace of mind.
++
++## How Quickly Can You Get Your Mac Back?
++
++- **Power supply or battery replacement**: 1-2 working days
++- **Logic board diagnostics**: 24 hours
++- **Component-level repair**: 2-5 working days (depending on parts availability)
++- **Liquid damage recovery**: 3-7 working days (we need time to clean, dry, and test properly)
++
++We understand that your Mac is a tool, not a luxury. Turnaround matters. We prioritise same-week completion for most repairs and keep you updated every step.
++
++For complex liquid damage or rare component failures, we might need to source parts from international suppliers, which can add time. We'll tell you that upfront, no false promises.
++
++## Getting Started
++
++Your next step is simple. The R599 assessment tells you exactly what's broken and exactly what it'll cost to fix. That fee applies toward your repair if you proceed.
++
++[Book online at zasupport.com/book](https://zasupport.com/book) for a slot this week, or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with photos of your Mac and a brief description of what happened.
++
++We're located in Hyde Park, Johannesburg, and we've been fixing Macs, MacBook Air, MacBook Pro, Mac mini, iMac, and Mac Studio, since 2012. You can also [explore our logic board repair page](/logic-board-repair) for technical detail, or read about [liquid damage recovery](/liquid-damage) if water or coffee is involved.
++
++---
++
++## Frequently Asked Questions
++
++### Q: Is the R599 assessment fee worth paying if I'm not sure about the repair?
++
++Yes. For R599, you get a definitive diagnosis and a fixed repair quote. Most clients spend that money and then proceed. Some discover the repair cost is higher than replacing the device, which lets you make an informed decision. Either way, you're not guessing anymore. And if you proceed with the repair, we apply that R599 toward the invoice.
++
++### Q: Can you replace my Mac's logic board with a used part to save money?
++
++We can, and we sometimes offer this as an option. A used logic board from a donor machine costs roughly 30-40% less than a new Apple part. The trade-off is that used components carry slightly higher failure risk. We'll fully explain this option and let you choose. Our 3-year warranty applies either way.
++
++### Q: How does load shedding in Johannesburg affect Mac failure rates?
++
++Load shedding causes power surges when the grid reconnects. Macs plugged into unprotected outlets are vulnerable, capacitors and voltage regulators can fail. We've seen a 40% increase in surge-related failures since load shedding intensified. A UPS or surge protector (R400-R800) is genuinely worth the investment if you're in Johannesburg.
++
++### Q: What if my Mac is still under AppleCare+?
++
++Bring it in with your proof of purchase. We're Apple Authorised, so we can process your claim directly. Accidental damage (liquid, drops) is usually covered. You might pay a small deductible, but most logic board replacements cost you nothing under AppleCare+.
++
++### Q: How long do repaired Macs typically last before they fail again?
++
++Our repair data shows that component-level repairs (capacitor replacement, solder rework) have a 95% success rate beyond 24 months. Logic board replacements are essentially as reliable as a new machine. The 3-year warranty reflects our confidence in this durability.
++
++### Q: Why is your assessment fee R599 when other shops offer "free diagnosis"?
++
++Free diagnosis usually means a technician spends 10 minutes looking at it, guesses at the problem, and quotes you for the repair. Our R599 assessment is thorough: full power testing, thermal imaging, firmware recovery attempts, component inspection. You get certainty, not guesswork. That certainty is worth R599.`,
++  },
+ };
+ 
+ export async function generateStaticParams() {
+diff --git a/src/app/blog/page.tsx b/src/app/blog/page.tsx
+index 130fc36..47fc639 100644
+--- a/src/app/blog/page.tsx
++++ b/src/app/blog/page.tsx
+@@ -9,6 +9,16 @@ export const metadata: Metadata = {
+ };
+ 
+ const posts = [
++  { slug: 'wont-turn-on-cost-johannesburg', title: 'How Much Does It Cost to Repair a Mac That Won\'t Turn On in Johannesburg?', excerpt: 'When your Mac won\'t turn on, the anxiety starts immediately. You\'ve got work piling up, deadlines looming, and suddenly you\'re staring at a machine that\'s completely unresponsive. The first question m.', date: '27 June 2026', category: 'Pricing', readTime: '9 min read' },
++  { slug: 'water-damage-repair-cost-johannesburg', title: 'Water Damage Repair Cost Johannesburg: What You\'ll Pay and How We Handle It', excerpt: 'Water damage to your MacBook or iPhone happens faster than you\'d think. A spilled coffee, unexpected rain, or a child\'s water bottle can turn a working device into an expensive problem in seconds. We\'.', date: '27 June 2026', category: 'Pricing', readTime: '8 min read' },
++  { slug: 'no-power-repair-cost-johannesburg', title: 'No Power Repair Cost Johannesburg: What You\'ll Actually Pay at Hyde Park', excerpt: 'Your MacBook won\'t switch on. Your iPad is completely dead. Your iPhone won\'t charge. The panic sets in, and then comes the question that keeps most people from calling a technician: how much will th.', date: '27 June 2026', category: 'Pricing', readTime: '8 min read' },
++  { slug: 'macbook-pro-m1-no-power-repair', title: 'MacBook Pro M1 No Power: Diagnosis and Repair at ZA Support Hyde Park', excerpt: 'Your MacBook Pro M1 won\'t power on. The screen is black. You\'ve held the power button. Nothing. It\'s a scenario we encounter regularly at our Hyde Park Johannesburg workshop, and it\'s one that demands.', date: '27 June 2026', category: 'Repairs', readTime: '7 min read' },
++  { slug: 'macbook-pro-m1-liquid-damage-repair', title: 'MacBook Pro M1 Liquid Damage Repair: What You Need to Know', excerpt: 'Spilled coffee over your MacBook Pro M1. Your heart sank. Now you\'re staring at a machine that won\'t turn on, wondering if it\'s genuinely finished or if repair is still possible.', date: '27 June 2026', category: 'Repairs', readTime: '7 min read' },
++  { slug: 'macbook-pro-m1-gpu-repair', title: 'MacBook Pro M1 GPU Fault Repair: Costs, Turnaround and What to Expect', excerpt: 'The MacBook Pro M1 changed the game when Apple released it in late 2020. The unified architecture, the speed, the battery life, it felt genuinely revolutionary. But we have seen a growing number of M.', date: '27 June 2026', category: 'Repairs', readTime: '7 min read' },
++  { slug: 'macbook-pro-m1-data-recovery', title: 'MacBook Pro M1 Data Recovery: Cost, Turnaround, and What We Do Here in Hyde Park', excerpt: 'Your MacBook Pro M1 has stopped working, and everything you need is on it. Your client files. Your photographs. Years of emails. If you\'re in Johannesburg, you\'re likely experiencing that moment of dr.', date: '27 June 2026', category: 'Repairs', readTime: '7 min read' },
++  { slug: 'liquid-damage-repair-cost-johannesburg', title: 'How Much Does Liquid Damage Repair Cost in Johannesburg?', excerpt: 'Water damage to your MacBook, iPhone, or iPad can feel like a disaster. You\'ve spilled coffee on your keyboard, rain has soaked your bag, or condensation has crept into your charging port. Your first .', date: '27 June 2026', category: 'Pricing', readTime: '6 min read' },
++  { slug: 'gpu-repair-cost-johannesburg', title: 'GPU Fault Repair Cost in Johannesburg: What You\'ll Actually Pay at ZA Support', excerpt: 'Your MacBook\'s screen flickers. Games stutter. Video rendering grinds to a halt. You suspect the GPU, and you\'re probably right. Graphics processing faults are among the most common hardware failures w.', date: '27 June 2026', category: 'Pricing', readTime: '6 min read' },
++  { slug: 'data-recovery-cost-johannesburg', title: 'Data Recovery Cost in Johannesburg: What to Expect at ZA Support', excerpt: 'Data loss happens fast. A MacBook spill during load shedding, a failed iMac drive after a power surge, an iPad that won\'t restart after a fall, these are the situations we handle daily here at our Hyde.', date: '27 June 2026', category: 'Pricing', readTime: '6 min read' },
+   { slug: 'vericlaim-apple-mac-integration-johannesburg', title: 'Vericlaim Apple Mac Integration in Johannesburg: Why Your Business Needs It Now', excerpt: 'If you\'re running a business in Johannesburg that handles Apple devices, whether you\'re a repair shop, corporate IT department, or device reseller, you\'ve probably heard whispers about Vericlaim. In our.', date: '23 June 2026', category: 'Repairs', readTime: '7 min read' },
+   { slug: 'medical-aid-mac-device-support-johannesburg', title: 'Medical Aid Mac Device Support in Johannesburg: What You Need to Know', excerpt: 'If you\'re covered by medical aid and rely on a MacBook, Mac mini, or iMac for work, whether you\'re a practitioner, administrator, or support staff, device failure can disrupt your practice and compromis.', date: '23 June 2026', category: 'Repairs', readTime: '6 min read' },
+   { slug: 'macbook-warranty-sa-out-of-warranty-repair-johannesburg', title: 'MacBook Warranty in South Africa: Your Complete Guide to Out-of-Warranty Repair Options', excerpt: 'When your MacBook\'s warranty expires, the cost of repairs through official channels can feel like purchasing a new device. We understand this challenge in our Hyde Park workshop, where clients frequen.', date: '23 June 2026', category: 'Repairs', readTime: '6 min read' },
+diff --git a/src/app/sitemap.ts b/src/app/sitemap.ts
+index 7903f47..772a8b2 100644
+--- a/src/app/sitemap.ts
++++ b/src/app/sitemap.ts
+@@ -826,5 +826,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
+         { url: `${base}/blog/macbook-warranty-sa-out-of-warranty-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+         { url: `${base}/blog/medical-aid-mac-device-support-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+         { url: `${base}/blog/vericlaim-apple-mac-integration-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/data-recovery-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/gpu-repair-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/liquid-damage-repair-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/macbook-pro-m1-data-recovery`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/macbook-pro-m1-gpu-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/macbook-pro-m1-liquid-damage-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/macbook-pro-m1-no-power-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/no-power-repair-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/water-damage-repair-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
++        { url: `${base}/blog/wont-turn-on-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+   ];
+ }
