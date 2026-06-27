@@ -1,7 +1,7 @@
 {
-  "ts": "2026-06-26T02:45:06Z",
+  "ts": "2026-06-27T02:45:05Z",
   "source": "gbp_v4",
-  "total_count": 644,
+  "total_count": 643,
   "rating": 4.9,
   "reviews": [
     {
@@ -629,6 +629,19 @@
       }
     },
     {
+      "id": "AbFvOqmH_9yaFPhjRz5SqewkRv6-hCIUBLSPtRNnzVUlDLpkeKmVyc11Ja0YMOaOE0cnZ0iiJyL7Mw",
+      "displayName": "Reverand Fidèle kambala",
+      "comment": "Outstanding Apple expertise",
+      "starRating": 5,
+      "createTime": "2025-10-20T06:33:16.457405Z",
+      "updateTime": "2025-10-20T06:33:16.457405Z",
+      "language": "en",
+      "reply": {
+        "comment": "Thank you so much.That is very kind of you. We'll certainly let the team know, and if there's anything you need just let us know ;).",
+        "updateTime": "2025-10-20T08:34:45.911336Z"
+      }
+    },
+    {
       "id": "AbFvOqkkgpdOffaVsTGXaSIjvbYHapuNGdMraW0K7sYN9_JL6hXUKDwdSwz5DH7OEP30M_LKKBQ5",
       "displayName": "Johannes Tshuma",
       "comment": "Best service around, if you haven't tried them do it. Had my Mac logic board fixed. Excellent service thanks Mary 😊",
@@ -639,19 +652,6 @@
       "reply": {
         "comment": "Hi Johannes, that’s a very kind review. The team really tries to meet the standards set for us so, it is so nice to hear we are achieving them!",
         "updateTime": "2026-03-08T08:56:30.164415Z"
-      }
-    },
-    {
-      "id": "AbFvOqmru8y8E_ToKvCVeYkKGH6SGbpzxfq0SgpLSYigV3WoUPEgwVRpaWGo_sP7w0NWK56fql-O",
-      "displayName": "Gillian Godsell",
-      "comment": "So grateful for the world-class service from Mary and the ZA Support crew. My M4 MacBook Pro was in my laptop bag, and I had an Energade bottle on the outside of my bag. During the flight the bottle must have opened. The laptop of was covered in Energade, I took it to a few 'Apple' stores, they just told me to replace the machine. I got hold of ZA Support and from the very first interaction it was outstanding. I got a booking within 30-minutes and they fixed my Mac board. Saved me at least 60 grand in buying a new one. If you want excellent service from a company who really knows Mac, I strongly recommend you try them. I'll be recommending them to all Mac colleagues.",
-      "starRating": 5,
-      "createTime": "2023-11-20T14:54:53.132800Z",
-      "updateTime": "2026-02-27T14:35:07.286575Z",
-      "language": "en",
-      "reply": {
-        "comment": "Thanks very much.",
-        "updateTime": "2023-11-21T05:20:11.113495Z"
       }
     }
   ]

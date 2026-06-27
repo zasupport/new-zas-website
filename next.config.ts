@@ -228,6 +228,21 @@ const nextConfig: NextConfig = {
       { source: '/blog/macbook-pro-m3-wont-turn-on-sandton', destination: '/macbook-not-turning-on', permanent: true },
       { source: '/blog/macbook-pro-m4-data-recovery-bryanston', destination: '/macbook-repair/data-recovery', permanent: true },
       { source: '/blog/macbook-pro-m4-data-recovery-fourways', destination: '/macbook-repair/data-recovery', permanent: true },
+      // §529 doorway prune 27/06/2026 (GSC-bucketed: 0 clicks AND <=5 impr, generic suburb, no named-entity)
+      { source: '/blog/gpu-repair-parkhurst', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/gpu-repair-northcliff', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/gpu-repair-illovo', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/logic-board-repair-northcliff', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/logic-board-repair-illovo', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/no-power-repair-parkhurst', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/no-power-repair-northcliff', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/no-power-repair-illovo', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/wont-turn-on-illovo', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/wont-turn-on-parkhurst', destination: '/logic-board-repair', permanent: true },
+      { source: '/blog/liquid-damage-repair-northcliff', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/liquid-damage-repair-illovo', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/water-damage-repair-northcliff', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/water-damage-repair-illovo', destination: '/liquid-damage', permanent: true },
     ];
   },
 };
