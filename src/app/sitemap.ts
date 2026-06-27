@@ -245,6 +245,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Blog
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
     // §346/§402 reconciliation 10/06/2026, live-200 posts that were absent from sitemap (3-way slug set-diff vs blog data)
+    { url: `${base}/blog/how-to-backup-mac-that-wont-turn-on-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/mac-repair-rivonia-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-liquid-damage-repair-bryanston`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/managed-it-medical-practice-morningside-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
