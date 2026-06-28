@@ -43,7 +43,7 @@ Revenue priority: Logic board repair #1 | Liquid damage #2 | iPhone/iPad #3 (org
 - ServiceSchema on every service page
 - FAQPage schema: minimum 8 FAQs per page
 - Title format: "[Service] Johannesburg [Year] | From R[Price] | ZA Support"
-- Competitor price anchors: Mac Shack=R4,499 board replacement | Apple Store=R15k-R70k
+- Competitor/Apple price references: QUALITATIVE ONLY in new content (§489, 28/06/2026) — e.g. "a fraction of Apple's replacement quote", "far less than a new Mac". ∅ specific Rand figures for competitor/Apple/new-device prices: triage 28/06 proved they sprawl across unverified values (§374/§559) and R4,499 is misused as ZA's OWN price. The strict §489 pre-commit gate enforces this. Confirmed range (Apple ~R15k-R70k) is internal context only, never written as a specific figure in posts.
 
 ## §165 FAQ MANDATE (PERMANENT — HARD — 22/03/2026)
 EVERY page (service|suburb|blog|landing) MUST have:

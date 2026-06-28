@@ -1,0 +1,436 @@
+# §489 Remediation WORKLIST (READ-ONLY) — 28/06/2026
+
+Advisor-shaped: review tags before editing. ∅ auto-rewrite. Apply top batch only, dry-run + §190.
+
+## SEGMENT 1 — DOORWAY → 301 candidates (162 posts): redirect, do NOT scrub
+- `logic-board-repair-bryanston-johannesburg` (ZA-INVENTED:26) → 301 to service hub (§529)
+- `unifi-installation-rosebank-johannesburg` (ZA-INVENTED:26) → 301 to service hub (§529)
+- `imac-logic-board-repair-sandton` (ZA-INVENTED:24) → 301 to service hub (§529)
+- `wont-turn-on-morningside` (ZA-INVENTED:22) → 301 to service hub (§529)
+- `macbook-pro-m4-wont-turn-on-fourways` (ZA-INVENTED:18) → 301 to service hub (§529)
+- `macbook-pro-m3-wont-turn-on-bryanston` (ZA-INVENTED:18) → 301 to service hub (§529)
+- `no-power-repair-sandton` (ZA-INVENTED:17) → 301 to service hub (§529)
+- `macbook-pro-m4-wont-turn-on-morningside` (ZA-INVENTED:17) → 301 to service hub (§529)
+- `imac-fusion-drive-replacement-sandton` (ZA-INVENTED:16) → 301 to service hub (§529)
+- `unifi-installation-bryanston-johannesburg` (ZA-INVENTED:15) → 301 to service hub (§529)
+- `water-damage-repair-morningside` (ZA-INVENTED:15) → 301 to service hub (§529)
+- `gpu-repair-rivonia` (ZA-INVENTED:15) → 301 to service hub (§529)
+- `macbook-pro-m4-liquid-damage-repair-rivonia` (ZA-INVENTED:15) → 301 to service hub (§529)
+- `logic-board-repair-parkhurst` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `logic-board-repair-melrose` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `no-power-repair-fourways` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `no-power-repair-rosebank` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `water-damage-repair-fourways` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `gpu-repair-morningside` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `macbook-pro-m3-water-damage-repair-morningside` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `macbook-pro-m3-wont-turn-on-melrose` (ZA-INVENTED:14) → 301 to service hub (§529)
+- `no-power-repair-northcliff` (ZA-INVENTED:13) → 301 to service hub (§529)
+- `gpu-repair-bryanston` (ZA-INVENTED:13) → 301 to service hub (§529)
+- `logic-board-repair-midrand` (ZA-INVENTED:12) → 301 to service hub (§529)
+- `wont-turn-on-fourways` (ZA-INVENTED:12) → 301 to service hub (§529)
+- `macbook-pro-m4-water-damage-repair-sandton` (ZA-INVENTED:12) → 301 to service hub (§529)
+- `macbook-pro-m4-logic-board-repair-rosebank` (ZA-INVENTED:12) → 301 to service hub (§529)
+- `logic-board-repair-fourways` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `wont-turn-on-houghton` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `no-power-repair-randburg` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `gpu-repair-randburg` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `liquid-damage-repair-bryanston` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `macbook-pro-m4-wont-turn-on-sandton` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `macbook-pro-m4-logic-board-repair-bryanston` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `macbook-pro-m3-wont-turn-on-rivonia` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `macbook-pro-m3-water-damage-repair-sandton` (ZA-INVENTED:11) → 301 to service hub (§529)
+- `macbook-liquid-damage-repair-bryanston` (ZA-INVENTED:10) → 301 to service hub (§529)
+- `logic-board-repair-randburg` (ZA-INVENTED:10) → 301 to service hub (§529)
+- `wont-turn-on-rivonia` (ZA-INVENTED:10) → 301 to service hub (§529)
+- `water-damage-repair-rivonia` (ZA-INVENTED:10) → 301 to service hub (§529)
+
+## SEGMENT 2 — KEEP → scrub candidates (412 posts), ranked by invented-count
+- `ssd-upgrade-vs-replacement-johannesburg` — ZA-INVENTED:150 competitor:69 ambiguous:0
+- `macbook-water-damage-repair-cost-2026` — ZA-INVENTED:42 competitor:6 ambiguous:0
+- `how-much-macbook-repair-johannesburg-2026` — ZA-INVENTED:40 competitor:2 ambiguous:0
+- `macbook-battery-replacement-cost-johannesburg` — ZA-INVENTED:36 competitor:2 ambiguous:0
+- `apple-repair-prices-johannesburg-2026` — ZA-INVENTED:33 competitor:6 ambiguous:0
+- `logic-board-repair-price-guide-johannesburg` — ZA-INVENTED:33 competitor:1 ambiguous:0
+- `macbook-pro-screen-replacement-cost-johannesburg-2026` — ZA-INVENTED:32 competitor:0 ambiguous:0
+- `mac-studio-repair-johannesburg` — ZA-INVENTED:31 competitor:0 ambiguous:0
+- `macbook-water-damage-first-aid` — ZA-INVENTED:27 competitor:4 ambiguous:0
+- `macbook-logic-board-repair-vs-replacement` — ZA-INVENTED:26 competitor:11 ambiguous:0
+- `macbook-cooling-pad-worth-it-johannesburg` — ZA-INVENTED:24 competitor:0 ambiguous:0
+- `sunninghill-hospital-mac-repair` — ZA-INVENTED:23 competitor:0 ambiguous:0
+- `mac-mini-server-vs-cloud-johannesburg` — ZA-INVENTED:23 competitor:0 ambiguous:0
+- `mac-repair-vs-apple-store-johannesburg-2026` — ZA-INVENTED:22 competitor:4 ambiguous:0
+- `repair-vs-replace-macbook-johannesburg` — ZA-INVENTED:22 competitor:2 ambiguous:0
+- `macbook-ssd-upgrade-johannesburg-worth-it-2026` — ZA-INVENTED:21 competitor:1 ambiguous:0
+- `apple-repair-vs-replacement-guide-johannesburg` — ZA-INVENTED:21 competitor:0 ambiguous:0
+- `how-much-does-unifi-installation-cost-in-johannesburg` — ZA-INVENTED:21 competitor:0 ambiguous:0
+- `water-damage-repair-how-much-johannesburg` — ZA-INVENTED:21 competitor:0 ambiguous:0
+- `these-are-my-favorite-macbook-neo-accessories-after-one-south-africa-2026` — ZA-INVENTED:20 competitor:6 ambiguous:0
+- `macbook-pro-m3-logic-board-repair-johannesburg` — ZA-INVENTED:20 competitor:7 ambiguous:0
+- `imac-logic-board-repair-johannesburg-2026` — ZA-INVENTED:20 competitor:10 ambiguous:0
+- `macbook-ram-upgrade-johannesburg` — ZA-INVENTED:20 competitor:0 ambiguous:0
+- `macbook-water-damage-repair-cost-south-africa` — ZA-INVENTED:19 competitor:14 ambiguous:2
+- `macbook-liquid-damage-repair-cost-south-africa-2026` — ZA-INVENTED:19 competitor:13 ambiguous:0
+- `imac-liquid-damage-repair-johannesburg` — ZA-INVENTED:19 competitor:0 ambiguous:0
+- `macbook-screen-repair-cost-2026` — ZA-INVENTED:19 competitor:0 ambiguous:0
+- `logic-board-repair-vs-replacement-macbook` — ZA-INVENTED:19 competitor:10 ambiguous:0
+- `mac-studio-data-recovery` — ZA-INVENTED:19 competitor:0 ambiguous:0
+- `ram-upgrade-cost-johannesburg` — ZA-INVENTED:19 competitor:0 ambiguous:0
+- `macbook-camera-not-working-johannesburg` — ZA-INVENTED:18 competitor:0 ambiguous:0
+- `logic-board-repair-vs-replacement-cost` — ZA-INVENTED:18 competitor:4 ambiguous:0
+- `charging-port-repair-cost-johannesburg` — ZA-INVENTED:18 competitor:0 ambiguous:0
+- `macbook-battery-health-below-80-percent` — ZA-INVENTED:17 competitor:1 ambiguous:0
+- `macbook-preventive-maintenance-johannesburg` — ZA-INVENTED:17 competitor:0 ambiguous:0
+- `macbook-pro-m4-wont-turn-on-diagnosis` — ZA-INVENTED:17 competitor:0 ambiguous:0
+- `macbook-screen-repair-johannesburg-cost` — ZA-INVENTED:17 competitor:0 ambiguous:0
+- `gpu-repair-cost-johannesburg` — ZA-INVENTED:17 competitor:0 ambiguous:0
+- `prevent-macbook-water-damage-protection-tips` — ZA-INVENTED:16 competitor:4 ambiguous:0
+- `apple-logic-board-repair-johannesburg-cost` — ZA-INVENTED:16 competitor:0 ambiguous:0
+- `ram-upgrade-price-johannesburg` — ZA-INVENTED:16 competitor:3 ambiguous:0
+- `macbook-pro-2020-intel-repair-johannesburg` — ZA-INVENTED:15 competitor:8 ambiguous:0
+- `imac-2024-display-flickering-repair-johannesburg` — ZA-INVENTED:15 competitor:0 ambiguous:0
+- `water-damage-repair-cost-johannesburg` — ZA-INVENTED:15 competitor:0 ambiguous:0
+- `macbook-keyboard-repair-johannesburg` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `macbook-pmic-repair-johannesburg` — ZA-INVENTED:14 competitor:1 ambiguous:0
+- `macbook-pro-m2-board-repair-johannesburg` — ZA-INVENTED:14 competitor:6 ambiguous:2
+- `macbook-pro-logic-board-repair-johannesburg-2026` — ZA-INVENTED:14 competitor:8 ambiguous:0
+- `macbook-repair-highlands-north-johannesburg` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `macbook-air-m3-keyboard-replacement-johannesburg` — ZA-INVENTED:14 competitor:2 ambiguous:0
+- `macbook-pro-m4-max-purchase-guide-johannesburg` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `microsoft-365-business-premium-south-africa-pricing-johannesburg` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `macbook-keyboard-keys-not-working` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `macbook-pro-16-inch-liquid-damage-repair` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `no-power-repair-how-much-johannesburg` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `gpu-repair-specialist-johannesburg` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `intel-macbook-pro-ssd-upgrade` — ZA-INVENTED:14 competitor:0 ambiguous:0
+- `logic-board-repair-cost-johannesburg-2026` — ZA-INVENTED:13 competitor:4 ambiguous:0
+- `macbook-pro-14-inch-repair-johannesburg` — ZA-INVENTED:13 competitor:0 ambiguous:0
+- `managed-it-services-medical-practice-gauteng` — ZA-INVENTED:13 competitor:0 ambiguous:0
+
+## TOP 12 KEEP-SCRUB — sentence-level review (catch misclassifications HERE)
+
+### `ssd-upgrade-vs-replacement-johannesburg`  (ZA-INVENTED:150)
+- [ZA-INVENTED] Adding a 512GB or 1TB SSD runs between R1,200 and R2,100 depending on your MacBook model and the drive we source.
+- [ZA-INVENTED] Replacement costs R1,400-R2,800 for the part, plus labour.
+- [ZA-INVENTED] That's more expensive (R800-R1,500) and slower (5-7 days), but it's better than loss.
+- [ZA-INVENTED] A 512GB upgrade for R1,400-R1,700 is cheaper than buying a new MacBook.
+- [ZA-INVENTED] Reset the SMC on Intel models to clear power state issues.' } },         { '@type': 'Question', name: 'Can I upgrade the RAM in my Mac Mini?', acceptedAnswer: { '@type': 'Answer', text: 'Only the 2018 Intel Mac Mini has user-upgradeable RAM
+- [COMPETITOR-ANCHOR] New MacBook Pros start from R25,000.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Component-level repair replaces only what is broken, at a fraction of the cost of board replacement.' } },         { '@type': 'Question', name: 'How much does MacBook logic board repair cost in Johannesburg?', acceptedAnswer: { '@type': 'An
+- [ZA-INVENTED] This assessment helps catch issues before they become expensive hardware repairs.' } },         { '@type': 'Question', name: 'How much does iPhone logic board repair cost in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'At ZA 
+- [COMPETITOR-ANCHOR] By comparison, Apple Store repairs can run R15,000 to R70,000 depending on severity, and Mac Shack charges R4,499 and upwards.
+- [ZA-INVENTED] If your iPhone has suffered damage from power surges, contact ZA Support on 064 529 5863.' } },       ],     },     'these-are-my-favorite-macbook-neo-accessories-after-one-south-africa-2026': {       '@context': 'https://schema.org',      
+- [ZA-INVENTED] Total investment is approximately R2,250, less than one emergency repair.' } },         { '@type': 'Question', name: 'Why is a cooling pad important for MacBooks in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'South Africa su
+- [ZA-INVENTED] Quality cooling pads range from R250 to R800 and the investment pays for itself in performance stability and longevity.' } },         { '@type': 'Question', name: 'How does load shedding affect MacBook hardware?', acceptedAnswer: { '@type':
+- [ZA-INVENTED] A USB-C power bank (R400-R900) prevents data loss during unexpected shutdowns.
+- [ZA-INVENTED] Unlike screen replacements (often R1,999+ at competitors) or logic board repairs (R2,499 at ZA Support), a power bank is a preventative investment.' } },         { '@type': 'Question', name: 'How much does MacBook liquid damage repair cost?
+- [ZA-INVENTED] A quality protective sleeve costs R300-R700 and provides moisture resistance and shock absorption, making prevention significantly more economical than repair.' } },         { '@type': 'Question', name: 'What is included in a ZA Support Mac
+- [ZA-INVENTED] This diagnostic helps catch problems before they become expensive, especially for MacBook Neo users in Johannesburg climate conditions.' } },         { '@type': 'Question', name: 'Is the MacBook Neo worth buying in South Africa?', acceptedA
+- [ZA-INVENTED] If issues arise, ZA Support offers logic board repairs at R2,499 and liquid damage assessment from R1,999.' } },       ],     },     'discounted-ipad-pro-hits-apple-refurb-store-with-last-g-south-africa-2026': {       '@context': 'https://s
+- [ZA-INVENTED] A logic board repair at R2,499 is drastically cheaper than replacing a MacBook Pro that costs R25,000 to R45,000 new.
+- [COMPETITOR-ANCHOR] Many Johannesburg users discover their Mac just needs cleaning or optimisation rather than replacement.' } },         { '@type': 'Question', name: 'What is the difference between Apple Store and ZA Support repair costs?', acceptedAnswer: { 
+- [COMPETITOR-ANCHOR] Mac Shack charges R4,499 to R12,000 for common repairs.
+- [ZA-INVENTED] ZA Support offers targeted transparent pricing: R599 Health Check, R1,999 liquid damage repair, and R2,499 logic board repair, with same-day or next-day turnaround for most jobs.' } },         { '@type': 'Question', name: 'Are Apple refurbi
+- [ZA-INVENTED] ZA Support offers liquid damage repair starting from R1,999 in our Hyde Park workshop.
+- [COMPETITOR-ANCHOR] Apple Store repairs in South Africa can reach R15,000 to R70,000 depending on the issue.
+- [COMPETITOR-ANCHOR] Mac Shack charges R4,499 and upwards for comparable fixes.
+- [ZA-INVENTED] ZA Support offers Health Checks from R599, liquid damage repair from R1,999, and logic board repair from R2,499 with honest pricing and expert diagnostics.' } },         { '@type': 'Question', name: 'How can I protect my new iPhone 18 from 
+- [ZA-INVENTED] We offer logic board repair from R2,499 and liquid damage remediation from R1,999, extending device life and preserving your investment long after official support ends.' } },         { '@type': 'Question', name: 'How much do repairs cost f
+- [COMPETITOR-ANCHOR] Mac Shack charges R4,499 and upward for repairs.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Apple Store repairs on unsupported devices can exceed R15,000 to R70,000.
+- [ZA-INVENTED] ZA Support offers transparent pricing with a Health Check from R599 to diagnose issues, logic board repair from R2,499, and liquid damage repair from R1,999.' } },         { '@type': 'Question', name: 'Should I repair or replace my obsolete
+- [ZA-INVENTED] Use a UPS (uninterruptible power supply) costing R800 to R1,500 to protect expensive Macs, this investment saves you R25,000 in potential repairs.
+- [COMPETITOR-ANCHOR] Mac Shack charges R4,499 and upwards for logic board work.
+- [ZA-INVENTED] ZA Support is local, fast (48 hours in the Johannesburg area), affordable (from R2,499 for logic board repair), and provides written 12-month warranties.
+- [ZA-INVENTED] The M5 MacBook Air (13-inch base model) costs roughly R13,500 to R16,000 locally and delivers 15+ hours of battery life with performance that handles video editing, design work, and heavy multitasking.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] These issues are exacerbated by Johannesburg climate conditions.' } },         { '@type': 'Question', name: 'How much does M5 MacBook Air logic board repair cost?', acceptedAnswer: { '@type': 'Answer', text: 'ZA Support charges R2,499 for l
+- [ZA-INVENTED] The cost difference between choosing the right repair partner can save you R12,000 to R17,000 on a single repair.' } },         { '@type': 'Question', name: 'How can I protect my M5 MacBook Air from liquid damage?', acceptedAnswer: { '@type
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Liquid damage repair costs R1,999 compared to R20,000 at Apple for a board replacement.' } },         { '@type': 'Question', name: 'What does a Health Check include for the MacBook Air M5?', acceptedAnswer: { '@type': 'Answer', text: 'A R59
+- [ZA-INVENTED] Power surges can damage logic boards and power management circuits, leading to repairs costing R2,499 or more.' } },       ],     },     'first-ios-26-5-macos-26-5-developer-betas-now-available-south-africa-2026': {       '@context': 'https
+- [ZA-INVENTED] A Health Check (R599) from ZA Support tells you if your machine is ready for beta testing.' } },         { '@type': 'Question', name: 'How much does it cost to fix a Mac damaged by beta software?', acceptedAnswer: { '@type': 'Answer', text:
+- [ZA-INVENTED] At R2,499 at ZA Support, logic board repair is a fraction of replacement cost.
+- [ZA-INVENTED] Repair beats replacement across Sandton, Rosebank, Midrand, Randburg, Fourways, and Bryanston.' } },         { '@type': 'Question', name: 'What about liquid damage on a Mac?', acceptedAnswer: { '@type': 'Answer', text: 'Liquid damage repair
+- [ZA-INVENTED] If hardware problems emerge, ZA Support offers logic board repair from R2,499 and liquid damage repair from R1,999.' } },         { '@type': 'Question', name: 'Can beta software cause hardware damage to my Apple devices?', acceptedAnswer: {
+- [COMPETITOR-ANCHOR] Apps may crash due to software bugs but also due to failing storage, overheating components, or battery problems that beta software aggravates.' } },         { '@type': 'Question', name: 'How much does iPad repair cost in Johannesburg?', ac
+- [COMPETITOR-ANCHOR] Apple Store repairs range from R15,000 to R70,000 depending on the issue.
+- [ZA-INVENTED] ZA Support offers logic board repair from R2,499 and liquid damage repair from R1,999, significantly less than high-street alternatives.
+- [ZA-INVENTED] Ultrasonic cleaning without component replacement starts from R2,800.
+- [ZA-INVENTED] Component-level repairs range from R3,500 to R8,000 depending on the damage.
+- [ZA-INVENTED] Both are repairable at component level, typically for R1,800 to R2,800.' } },         { '@type': 'Question', name: 'What does it mean when my MacBook Pro fans spin but the screen stays black?', acceptedAnswer: { '@type': 'Answer', text: 'Fa
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Clients in Sandton, Bryanston, and Fourways are a 10 to 15 minute drive from our Hyde Park workshop.' } },       ],     },     'imac-logic-board-repair-sandton': {       '@context': 'https://schema.org',       '@type': 'FAQPage',       main
+- [COMPETITOR-ANCHOR/ZA-INVENTED] PMIC and power regulation repairs cost R2,499 to R3,800 versus Apple\'s R12,000 to R18,000.
+- [ZA-INVENTED] On a 2019 27-inch iMac with a GPU fault, the saving is over R13,000.' } },         { '@type': 'Question', name: 'How do I know if my iMac has a power supply issue or a logic board issue?', acceptedAnswer: { '@type': 'Answer', text: 'A power
+- [ZA-INVENTED] The repair costs R3,200 to R4,800 and includes a stress-tested warranty.
+- [COMPETITOR-ANCHOR] Apple\'s repair programme for these models ended years ago, and Apple now quotes R12,000 to R18,000 for a board replacement.' } },         { '@type': 'Question', name: 'Do you offer collection and delivery for iMac repairs in Sandton?', acc
+- [ZA-INVENTED] AppleCare+ covers accidental damage including liquid spills, but with an excess fee of approximately R1,299 per incident, and Apple replaces the entire board rather than repairing it.
+- [ZA-INVENTED] Ultrasonic cleaning without component replacement costs R2,800 to R3,500.
+- [ZA-INVENTED] If components need replacement, costs range from R3,500 to R6,500 depending on damage.
+- [COMPETITOR-ANCHOR] Apple quotes R18,000 to R25,000 because they replace the entire board and top case.
+- [ZA-INVENTED] We are at 1 Hyde Park Lane, Hyde Park, Johannesburg.' } },       ],     },     'macbook-liquid-damage-repair-cost-south-africa-2026': {       '@context': 'https://schema.org',       '@type': 'FAQPage',       mainEntity: [         { '@type':
+- [ZA-INVENTED] Moderate damage with 1 to 3 component replacements costs R3,500 to R5,500.
+- [ZA-INVENTED] Heavy damage with 4 or more component replacements costs R5,500 to R8,000.
+- [ZA-INVENTED] Severe board-level damage with trace repair costs R8,000 to R12,000.
+- [ZA-INVENTED] A single corroded capacitor that costs R50 in parts does not require a R20,000 board replacement.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Our approach saves you money and preserves your data on the soldered SSD.' } },         { '@type': 'Question', name: 'How much does Apple charge for MacBook liquid damage repair in 2026?', acceptedAnswer: { '@type': 'Answer', text: 'Apple c
+- [ZA-INVENTED] A preventive ultrasonic cleaning from R2,800 is significantly cheaper than a component repair costing R4,500 to R8,000 that becomes necessary weeks later.
+- [ZA-INVENTED] POPIA fines reach up to R10 million for non-compliance.' } },         { '@type': 'Question', name: 'How much does managed IT cost for a medical practice in Sandton?', acceptedAnswer: { '@type': 'Answer', text: 'Solo practices with 1 to 3 de
+- [ZA-INVENTED] Group practices with 4 to 10 devices start from R4,999 per month including on-site visits and priority support.
+- [ZA-INVENTED] Multi-location practices with 11 or more devices start from R8,999 per month with a dedicated account manager.
+- [ZA-INVENTED] POPIA fines reach up to R10 million for non-compliance.' } },         { '@type': 'Question', name: 'How much does Apple device management cost for a law firm in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'Sole practitioners 
+- [ZA-INVENTED] Small firms with 4 to 10 devices start from R4,999 per month.
+- [ZA-INVENTED] Mid-size firms with 11 to 30 devices start from R8,999 per month.
+- [ZA-INVENTED] MacBook Pro 13-inch 2016 to 2020: R3,800 to R5,200.
+- [ZA-INVENTED] MacBook Pro 15-inch 2016 to 2019: R4,500 to R6,000.
+- [ZA-INVENTED] MacBook Pro 14-inch M1 or M2 Pro: R5,500 to R7,500.
+- [ZA-INVENTED] MacBook Pro 14-inch M3 Pro or Max: R6,000 to R8,500.
+- [ZA-INVENTED] MacBook Pro 16-inch M1, M2, or M3: R7,000 to R10,000.
+- [ZA-INVENTED] We replace the display cable for R1,200 to R1,800, which is far less than a full screen replacement.' } },         { '@type': 'Question', name: 'Is a third-party MacBook Pro screen as good as the original Apple screen?', acceptedAnswer: { '
+- [ZA-INVENTED] Performance may be throttled to prevent unexpected shutdowns, and runtime is significantly reduced.' } },         { '@type': 'Question', name: 'How much does a MacBook battery replacement cost in South Africa?', acceptedAnswer: { '@type': '
+- [ZA-INVENTED] MacBook Air M1, M2, or M3: R1,699 to R2,099.
+- [ZA-INVENTED] MacBook Pro 13-inch 2016 to 2020: R1,699 to R2,099.
+- [ZA-INVENTED] MacBook Pro 14-inch M1, M2, or M3: R1,899 to R2,499.
+- [ZA-INVENTED] MacBook Pro 16-inch M1, M2, or M3: R2,099 to R2,699.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Logic board component-level repair: R2,499 to R6,500 versus Apple\'s R18,000 to R32,000, saving up to 85%.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Screen replacement: R3,800 to R10,000 versus Apple\'s R8,500 to R24,000, saving up to 60%.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Battery replacement: R1,499 to R2,699 versus Apple\'s R2,799 to R4,399, saving up to 45%.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Liquid damage recovery: R2,800 to R8,000 versus Apple\'s R18,000 to R35,000, saving up to 85%.' } },         { '@type': 'Question', name: 'When should I choose Apple over an independent repairer?', acceptedAnswer: { '@type': 'Answer', text:
+- [ZA-INVENTED] The typical cost for a full thermal service including cleaning, thermal paste replacement, and fan check is R999 to R1,499 depending on the model.
+- [ZA-INVENTED] If the M-series SoC is physically destroyed, recovery is not possible with current technology.' } },         { '@type': 'Question', name: 'How much does data recovery from a dead MacBook cost in Johannesburg?', acceptedAnswer: { '@type': 'A
+- [ZA-INVENTED] Liquid damage clean plus board repair plus data access costs R3,500 to R7,000.
+- [ZA-INVENTED] SSD removal and external reading on pre-2018 Intel Macs costs R1,200 to R1,800.
+- [ZA-INVENTED] Complex board repair for data access only costs R4,500 to R8,000.
+- [ZA-INVENTED] If you need more storage on an M-series MacBook, your options are an external USB-C SSD or purchasing a new MacBook with a larger storage configuration.' } },         { '@type': 'Question', name: 'How much does a MacBook SSD upgrade cost in
+- [ZA-INVENTED] MacBook Air 128 GB to 1 TB costs R3,499 to R3,999.
+- [ZA-INVENTED] MacBook Pro 2013 to 2015 256 GB to 1 TB costs R3,499 to R3,999.
+- [ZA-INVENTED] MacBook Pro 2016 to 2017 256 GB to 1 TB costs R2,999 to R3,999.
+- [ZA-INVENTED] iMac HDD to 1 TB SSD costs R2,499 to R3,499.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Adding a 1 TB SSD for R3,499 is far less than the R17,000 minimum for a new MacBook Air.
+- [ZA-INVENTED] Typical pricing for a solo practice with two to three staff starts from R4,999 monthly and covers monitoring, backups, patching, endpoint security, Microsoft 365 administration, and the signed operator agreement.
+- [ZA-INVENTED] We identify this during the R599 assessment before quoting.' } },         { '@type': 'Question', name: 'How much does MacBook Pro M3 logic board repair cost in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'Component-level M3 b
+- [ZA-INVENTED] Charging IC repair is R3,499 to R4,499.
+- [ZA-INVENTED] USB-C port replacement is R3,999 to R4,999.
+- [ZA-INVENTED] Backlight circuit repair is R4,499 to R5,499.
+- [ZA-INVENTED] Liquid-damage reconstruction is R4,999 to R6,499.
+- [COMPETITOR-ANCHOR] Apple\'s M3 board replacement quote is typically R32,000 to R55,000 because Apple swaps the entire board including the SoC.
+- [ZA-INVENTED] The trade-off is cost: a R4,999 component repair versus a R42,000 board swap.
+- [ZA-INVENTED] Assessment is R599 and includes a written diagnosis plus fixed-price repair quote within two working days.' } },       ],     },     'imac-logic-board-repair-johannesburg-2026': {       '@context': 'https://schema.org',       '@type': 'FAQP
+- [ZA-INVENTED] Power supply or backlight repair on 21.5" and 27" Intel iMacs (2012 to 2020) is R2,999 to R3,999.
+- [ZA-INVENTED] GPU resolder or power management IC repair is R3,999 to R4,999.
+- [ZA-INVENTED] M1 and M3 iMac board repairs are R4,499 to R6,499 due to component density.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Apple\'s equivalent board replacement ranges from R18,000 to R35,000.
+- [ZA-INVENTED] Out of roughly 200 no-power iMacs we have assessed over the past three years, approximately 85 percent were economically repairable.' } },         { '@type': 'Question', name: 'Do I need to bring the iMac to your workshop, or can you collec
+- [AMBIGUOUS/ZA-INVENTED] In all cases we recommend a verified Time Machine or iCloud backup before any board work, we verify this during the R599 assessment.' } },         { '@type': 'Question', name: 'Is it worth repairing a 2015 or 2017 Intel iMac instead of buyi
+- [ZA-INVENTED] Translated to South African pricing after VAT, exchange rate, and local margin, a reasonable projection is R45,000 to R55,000 for the base configuration.
+
+### `macbook-water-damage-repair-cost-2026`  (ZA-INVENTED:42)
+- [ZA-INVENTED] The difference between bringing your MacBook in within 4 hours versus waiting 72 hours can be the difference between a R1,800 ultrasonic clean and a R14,000 board-level rebuild.
+- [ZA-INVENTED] Typical cost: **R1,800-R2,400**.
+- [ZA-INVENTED] Typical cost: **R2,900-R4,200**.
+- [ZA-INVENTED] Typical cost: **R9,700-R14,000**.
+- [ZA-INVENTED] **Intel MacBook Air (2018-2020):** Board-level repair range: **R1,800-R4,500**.
+- [ZA-INVENTED] **Intel MacBook Pro 13-inch (2016-2020):** Board-level repair range: **R2,200-R6,500**.
+- [ZA-INVENTED] **Intel MacBook Pro 15/16-inch (2016-2019):** Board-level repair range: **R3,500-R8,500**.
+- [ZA-INVENTED] **M1 MacBook Air/Pro (2020-2022):** Board-level repair range: **R2,400-R7,500**.
+- [ZA-INVENTED] **M2/M3 MacBook Air/Pro (2022-2025):** Board-level repair range: **R3,200-R10,000**.
+- [ZA-INVENTED] **M4 MacBook Pro (2024-present):** Board-level repair range: **R4,500-R12,000**.
+- [ZA-INVENTED] Adds approximately **R500-R800** to the base cost.
+- [ZA-INVENTED] Adds approximately **R800-R1,500**.
+- [ZA-INVENTED] Adds approximately **R1,000-R2,000**.
+- [ZA-INVENTED] Adds approximately **R1,500-R3,000**.
+- [ZA-INVENTED] Adds **R300-R800**.
+- [ZA-INVENTED] Total: **R4,200** including the from R599 assessment.
+- [COMPETITOR-ANCHOR] **Apple’s quote:** R18,500 for a full logic board replacement.
+- [COMPETITOR-ANCHOR] **New MacBook 16-inch:** R54,000 at the time.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] The R4,200 repair saved her R14,300 compared to Apple and R49,800 compared to buying new.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] ## Three-Provider Cost Comparison  **Apple Store / Authorised Service Provider:** - Assessment: R0 (but 5-10 business day wait) - Repair: R15,000-R54,000 (full board replacement only) - Warranty: 90 days | Data: Typically wiped  **General I
+- [ZA-INVENTED] A R4,500 repair on a MacBook worth R25,000 is an excellent investment.
+- [ZA-INVENTED] Current new MacBook prices in South Africa (April 2026): - MacBook Air M3 13-inch: from R22,999 - MacBook Air M3 15-inch: from R27,999 - MacBook Pro M4 14-inch: from R32,999 - MacBook Pro M4 Pro 14-inch: from R42,999 - MacBook Pro M4 Max 16
+- [ZA-INVENTED] The minimum repair cost for a straightforward ultrasonic clean with no component replacement is approximately R1,800.
+- [ZA-INVENTED] A R4,500 repair on a R32,999 MacBook Pro (14%) is a clear win.
+
+### `how-much-macbook-repair-johannesburg-2026`  (ZA-INVENTED:40)
+- [ZA-INVENTED] You might see quotes ranging from R599 for a diagnostic assessment to R8,500 for logic board repair, and anywhere .`,     date: '29 April 2026',     category: 'Pricing',     readTime: '9 min read',     author: 'courtney-bentley',     conten
+- [ZA-INVENTED] You might see quotes ranging from R599 for a diagnostic assessment to R8,500 for logic board repair, and anywhere in between.
+- [ZA-INVENTED] **Screen Replacement** A cracked MacBook Air M1 screen in 2026 runs between R3,200-R4,100.
+- [ZA-INVENTED] If you have a MacBook Pro 16-inch with Liquid Retina XDR, you're looking at R5,800-R7,200.
+- [ZA-INVENTED] Replacement costs R1,899-R2,499 depending on model.
+- [ZA-INVENTED] Yes, you can buy third-party batteries for R600 online, but they're unreliable and void any remaining Apple warranty coverage.
+- [ZA-INVENTED] If the damage is contained to the keyboard assembly, R1,200-R1,899.
+- [ZA-INVENTED] If it's touched the logic board, you're entering [logic board repair](/logic-board-repair) territory, which starts at R4,500.
+- [ZA-INVENTED] Replacement is R2,100-R2,800.
+- [ZA-INVENTED] Trackpad replacement alone runs R1,600-R2,200.
+- [ZA-INVENTED] Microsoldering specialists can repair specific failures, GPU failure, power delivery failure, liquid corrosion, for R4,500-R7,800.
+- [ZA-INVENTED] Full logic board replacement (you're buying a used board from eBay or parts specialists) costs R6,200-R9,400 depending on MacBook generation.
+- [ZA-INVENTED] "Replacement" means microsoldering a new NAND chip onto the existing board, R2,200-R3,600, or replacing the entire logic board.
+- [ZA-INVENTED] ---  ## Common MacBook Repair Scenarios: Real Pricing  **Scenario 1: MacBook Air M1, cracked screen, no other damage** - Screen replacement: R3,800 - Diagnostics: R599 (credited) - Labour: included - **Total: R4,399 | Timeline: same day**  
+- [ZA-INVENTED] We've seen independent technicians in Fourways offer logic board repair for R3,200.
+- [ZA-INVENTED] You're paying for: - **Genuine parts** vs counterfeit components that fail in 6 months - **Warranty protection** that covers you if the repair fails - **Data security** under POPIA compliance (no client data leaves our workshop) - **Experti
+- [ZA-INVENTED] When it fails at month 8 and you've got no recourse, that R400 was expensive.
+- [ZA-INVENTED] A R599 assessment saves you from a R6,000 logic board failure caused by improper handling.
+- [ZA-INVENTED] A working 2019 MacBook Air might credit R4,500-R5,500 toward a new screen replacement.
+- [ZA-INVENTED] A MacBook Pro 14-inch costs R18,500-R21,000 new.
+- [ZA-INVENTED] A R4,500 logic board repair makes sense.
+- [ZA-INVENTED] A R8,500 repair on a 2015 MacBook Air worth R6,000 doesn't.
+
+### `macbook-battery-replacement-cost-johannesburg`  (ZA-INVENTED:36)
+- [ZA-INVENTED] You're browsing through prices online and seeing wildly different quotes across Johannesburg, R2,500 at one place, R5,800 at another.
+- [ZA-INVENTED] A genuine battery replacement for a MacBook Air runs **R3,200 to R4,100**.
+- [ZA-INVENTED] A MacBook Pro battery typically costs **R4,500 to R6,200**, depending on the model year and capacity.
+- [ZA-INVENTED] So you're looking at a total: **R4,000 to R7,400** for a complete, warrantied replacement.
+- [ZA-INVENTED] You need to know your battery's actual cycle count and health percentage before committing R6,000.
+- [ZA-INVENTED] third-party batteries.** Aftermarket batteries cost R1,500 to R2,200.
+- [ZA-INVENTED] We've seen swollen third-party batteries require logic board repairs (an additional R3,800 to R6,500).
+- [ZA-INVENTED] A R1,500 "MacBook battery replacement" almost always means a cheap aftermarket battery fitted in 20 minutes with no testing and no warranty.
+- [ZA-INVENTED] ## MacBook Models and Their Specific Battery Costs  Here's a breakdown of current battery prices we're sourcing in Hyde Park:  **MacBook Air M1/M2/M3 (2020-2025).** 52Wh battery, R3,200 parts + R900 labour = R4,100 total.
+- [ZA-INVENTED] **MacBook Air Intel (2013-2019).** 45Wh to 50Wh, R2,800 parts + R750 labour = R3,550 total.
+- [ZA-INVENTED] **MacBook Pro 13-inch M2/M3 (2022-2024).** 52Wh battery, R4,100 parts + R1,100 labour = R5,200 total.
+- [ZA-INVENTED] **MacBook Pro 14-inch M3 Pro/Max (2023-2025).** 72Wh battery, R5,800 parts + R1,400 labour = R7,200 total.
+- [ZA-INVENTED] **MacBook Pro 16-inch M3 Pro/Max (2023-2025).** 99.5Wh battery, R6,200 parts + R1,500 labour = R7,700 total.
+- [ZA-INVENTED] **MacBook Pro Intel 15-inch (2013-2019).** 95Wh battery, R4,500 parts + R1,200 labour = R5,700 total.
+- [ZA-INVENTED] The real risks: static discharge damaging the logic board (R3,800+ repair), cracking the case (R600+ replacement), or accidentally damaging the trackpad ribbon cable during reassembly.
+- [ZA-INVENTED] The battery costs R3,200.
+- [ZA-INVENTED] If your DIY attempt damages the logic board, you're looking at R3,800 extra.
+- [COMPETITOR-ANCHOR] Apple will replace a battery for R2,400 to R4,100 depending on your machine.
+- [ZA-INVENTED] We're R4,000 to R7,200 total, same-day service, and you keep your data locally.
+
+### `apple-repair-prices-johannesburg-2026`  (ZA-INVENTED:33)
+- [ZA-INVENTED] A cracked display on a current-generation iPhone 15 will cost between R3,500 and R4,200 at ZA Support, depending on whether it's just the glass or the full OLED panel.
+- [ZA-INVENTED] An iPhone 14 or iPhone 13 runs R2,800 to R3,600.
+- [ZA-INVENTED] Older models, iPhone 12 or earlier, drop to R1,800 to R2,400.
+- [ZA-INVENTED] At Apple's official service centres in Johannesburg, you're looking at R4,500 to R5,800 for the same repair, plus a two-week turnaround during peak periods.
+- [ZA-INVENTED] Authorised resellers in Sandton and Rosebank sit somewhere in the middle, typically R3,800 to R4,500, but often with three to five business day repairs.
+- [ZA-INVENTED] A 10.9-inch iPad Air display runs R2,400 to R3,200 at our workshop.
+- [ZA-INVENTED] iPad Pro models, 11-inch or 12.9-inch, require specialist panels and push to R3,600 to R4,800.
+- [ZA-INVENTED] A logic board replacement on an M3 MacBook Air, not uncommon after liquid spill or thermal failure, costs R8,500 to R11,200 depending on the exact failure mode.
+- [ZA-INVENTED] If it's a simpler fix like a keyboard or trackpad replacement, you're at R1,200 to R2,100.
+- [ZA-INVENTED] SSD upgrades or replacements run R1,800 to R3,500 for 512GB to 1TB storage increases.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] A full MacBook Air screen replacement costs R4,500 to R6,200 at our workshop, versus R6,800 to R8,500 through Apple's authorised channel.
+- [ZA-INVENTED] You need to know whether a device is worth repairing before committing R8,000+ to parts and labour.
+- [ZA-INVENTED] Cost: R1,200 to R2,100, plus R599 diagnostic.
+- [ZA-INVENTED] Wait a week, and corrosion spreads to the logic board, now you're facing R3,800 to R5,500 for full restoration, or potentially a logic board replacement at R6,500+.
+- [ZA-INVENTED] If you're in Centurion or Pretoria, we can arrange courier collection and delivery, that adds R350 to either direction, but saves you the drive to Hyde Park.
+- [ZA-INVENTED] If your iPhone screen costs R3,500 to replace and the device is a five-year-old model worth R4,200 on the secondhand market, repair only makes sense if you plan to keep the device.
+- [ZA-INVENTED] Battery replacement is almost always worth it, a new battery costs R1,100 to R1,600 and extends a device's life by two to three years.
+- [ZA-INVENTED] A 2019 Intel MacBook with a failed logic board might cost R8,500 to repair.
+- [ZA-INVENTED] That device sells secondhand for R15,000 to R19,000.
+- [ZA-INVENTED] Parts and labour might be R9,000, but the device trades for R8,000 to R12,000.
+- [ZA-INVENTED] We've seen iPhone screens that looked minor cost R1,500 to repair immediately but required a R5,500 logic board replacement six months later.
+- [ZA-INVENTED] Costs range from R800 to R1,600 depending on the drive and damage extent.
+
+### `logic-board-repair-price-guide-johannesburg`  (ZA-INVENTED:33)
+- [ZA-INVENTED] A logic board repair in Johannesburg ranges from R2,800 to R8,500 depending on the device, the fault, and what's failed within that board.
+- [ZA-INVENTED] A MacBook Air charging issue might be a failed USB-C power management IC, a R3,200 repair.
+- [ZA-INVENTED] The same MacBook with liquid damage could involve cleaning, component replacement, and re-testing, pushing cost to R6,500.
+- [ZA-INVENTED] An iPhone 14 Pro with a baseband processor fault sits at R5,800.
+- [ZA-INVENTED] An iPhone 11 with the same fault costs R3,400 because the component is cheaper.
+- [COMPETITOR-ANCHOR] Newer MacBook Pro models with custom Apple silicon are at the other extreme, a full logic board replacement might be R12,000 because Apple restricts component availability.
+- [ZA-INVENTED] **Fault type is the biggest price lever.** A cold joint, a solder connection that's cracked but still mostly intact, is R2,800 to R3,600.
+- [ZA-INVENTED] A blown charging port controller IC is R3,200 to R4,100.
+- [ZA-INVENTED] Liquid damage with corrosion across multiple layers of the board can hit R6,500 to R8,500 if capacitors, resistors, and ICs all need replacement.
+- [ZA-INVENTED] Total: R7,200.
+- [ZA-INVENTED] Our current pricing in Hyde Park reflects the real cost of the tools, components, and bench time:  - **iPhone 11, 12, 13 (standard):** R3,400-R4,800 for most faults - **iPhone 14, 15 (standard):** R4,200-R5,600 - **iPhone Pro models (11 Pro
+- [ZA-INVENTED] The repair came to R6,100, and it took 12 hours.
+- [ZA-INVENTED] A MacBook Air M1 with a failed charging controller costs R3,800.
+- [ZA-INVENTED] A 16-inch MacBook Pro with a failed GPU section can cost R8,500 or more.
+- [ZA-INVENTED] Many repairs fall in the R4,200-R6,800 range.
+- [ZA-INVENTED] This isn't theoretical, last week a customer in Bryanston brought in a MacBook, we diagnosed a R5,600 GPU failure, they decided to replace the device, and we charged nothing.
+- [ZA-INVENTED] **Replacement and micro-soldering** (R2,800-R8,500): replace burnt components, re-solder damaged traces, validate each repair stage.
+- [ZA-INVENTED] Every hour of delay increases the repair cost by an average of R400.
+- [ZA-INVENTED] Other shops might waive it on all diagnostics, which sounds better until you realise they're charging R1,500+ upfront and hoping you'll repair anyway.
+- [ZA-INVENTED] iMac repairs are priced similarly to MacBook (R3,800-R8,500 range) depending on the fault and model year.
+
+### `macbook-pro-screen-replacement-cost-johannesburg-2026`  (ZA-INVENTED:32)
+- [ZA-INVENTED] ## Complete Pricing Table - ZA Support vs Apple Store  | Model | ZA Support Price | Apple Store Price | |---|---|---| | MacBook Pro 13-inch (2016-2020, A1706/A1989/A2338) | R3,800 - R5,200 | R8,500 - R12,000 | | MacBook Pro 15-inch (2016-20
+- [ZA-INVENTED] We replace the display cable for R1,200 to R1,800, which is far less than a full screen replacement.
+- [ZA-INVENTED] This is a logic board repair, not a screen replacement, and typically costs R1,500 to R2,500.
+- [ZA-INVENTED] ## When to Replace vs When to Repair  Not every screen issue needs a full screen replacement:  - **Backlight failure only:** Logic board repair (R1,500 - R2,500) is sufficient.
+- [ZA-INVENTED] - **Flexgate (2016-2017):** Cable replacement (R1,200 - R1,800) resolves the issue.
+
+### `mac-studio-repair-johannesburg`  (ZA-INVENTED:31)
+- [ZA-INVENTED] Unlike iMacs or Mac minis, the Mac Studio's compact chassis means logic board replacement requires complete disassembly, a R4,200-R6,800 job depending on damage scope.
+- [ZA-INVENTED] Replacement costs R1,500-R2,100 depending on wattage (400W or 600W models).
+- [ZA-INVENTED] Expect R2,400-R4,100 depending on corrosion scope.
+- [ZA-INVENTED] Cost range: R2,800-R7,200.
+- [ZA-INVENTED] Single-port replacement: R649.
+- [ZA-INVENTED] Full port bank replacement: R1,400-R1,900.
+- [ZA-INVENTED] Often it's a R89 cable, not a R6,000 repair.
+- [ZA-INVENTED] A PSU replacement at R1,800 beats a new base M-series (R28,000+).
+- [ZA-INVENTED] We're honest about this, a catastrophic M-series chip failure might run R7,200 in repair versus R28,000 new, but if labour and parts hit R17,000, we'll say so.
+- [ZA-INVENTED] Urgent repairs available: same-day diagnostics, next-day turnaround for R650 expedite fee.
+- [ZA-INVENTED] Cost: R2,400-R4,500.
+- [ZA-INVENTED] Actual repair ranges R899 (thermal paste reapply) to R7,200 (logic board micro-soldering).
+- [ZA-INVENTED] Power supply replacement: R1,500-R2,100.
+- [ZA-INVENTED] Base M-series Studio costs R28,000 new; if your repair is under R14,000, fix it.
+- [ZA-INVENTED] Urgent service (next-day completion) available for R650 expedite fee.
+- [ZA-INVENTED] They're fast (near-internal speeds) and cost R1,800-R4,200 depending on capacity.
+- [ZA-INVENTED] Cost: R2,400-R4,500.
+
+### `macbook-water-damage-first-aid`  (ZA-INVENTED:27)
+- [ZA-INVENTED] What to do immediately, 7 costly mistakes to avoid, and when to get professional help in Johannesburg.',     date: '12 April 2026',     category: 'Repairs',     readTime: '9 min read',     author: 'courtney-bentley',     content: `# MacBook
+- [ZA-INVENTED] We have seen cases in our workshop where a MacBook that would have needed a R1,800 ultrasonic clean turned into an R11,500 board-level repair because the owner powered it on "just to check."  Leave it off.
+- [ZA-INVENTED] What would have been a R4,499 ultrasonic clean and component replacement became an R8,999 full reballing job.
+- [ZA-INVENTED] Final repair cost: R11,500.
+- [ZA-INVENTED] Had she brought it in unpowered, the ultrasonic clean alone (R1,800-R2,400) would likely have saved the board.
+- [ZA-INVENTED] Shaking can send liquid up to this connector, adding a R2,200-R3,500 display cable replacement to what was previously just a keyboard-level spill.
+- [ZA-INVENTED] Typical repair: R1,800-R2,400 ultrasonic clean.
+- [ZA-INVENTED] Typical repair: R2,400-R4,200.
+- [ZA-INVENTED] Typical repair: R3,500-R6,500.
+- [ZA-INVENTED] Typical repair: R4,500-R10,000+.
+- [ZA-INVENTED] **Saltwater (pool water, sea water):** Add R300-R800 to any repair estimate.
+- [ZA-INVENTED] In our workshop, we have repaired MacBooks where hairdryer use turned a R4,499 clean into an R8,999 reballing job.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] Apple’s typical quote for liquid damage ranges from R15,000 to R54,000 (full logic board replacement).
+- [ZA-INVENTED] Our [component-level repairs](/logic-board-repair) typically cost R1,800-R10,000 depending on severity.
+- [ZA-INVENTED] Saltwater adds R300-R800 to any repair due to accelerated galvanic corrosion.
+- [ZA-INVENTED] Ultrasonic cleaning alone costs R1,800-R2,400.
+- [ZA-INVENTED] Component-level [logic board repair](/logic-board-repair) ranges from R2,900 to R10,000+ depending on which components were damaged.
+- [COMPETITOR-ANCHOR] Compare this to Apple’s R15,000-R54,000 for a full board replacement.
+
+### `macbook-logic-board-repair-vs-replacement`  (ZA-INVENTED:26)
+- [ZA-INVENTED] 85% success rate data, component-level repair explained, cost comparison, and decision framework.',     date: '12 April 2026',     category: 'Repairs',     readTime: '10 min read',     author: 'courtney-bentley',     content: `# MacBook Log
+- [ZA-INVENTED] Replacement cost: R600-R1,800.
+- [ZA-INVENTED] Replacement cost: R400-R1,200.
+- [ZA-INVENTED] Replacement cost: R800-R2,200.
+- [ZA-INVENTED] Replacement cost per component: R50-R200 (5-15 may be affected).
+- [ZA-INVENTED] Replacement cost: R400-R1,500.
+- [ZA-INVENTED] Replacement cost: R600-R2,000.
+- [ZA-INVENTED] Cost: R2,000-R4,500.
+- [COMPETITOR-ANCHOR/ZA-INVENTED] ## Cost Comparison: Repair vs Apple vs New  For a 2022 MacBook Pro 14-inch M2 Pro with moderate coffee spill damage (brought in within 24 hours):  **ZA Support Component-Level Repair:** - Assessment: R599 (applied to total) | Ultrasonic cle
+- [ZA-INVENTED] ## The Decision Framework  ### Repair Makes Strong Financial Sense When:  - Repair cost is below 30% of replacement value (e.g., R4,500 on a R42,999 MacBook = 10.5%) - The machine is less than 4 years old - Data preservation is critical, co
+- [COMPETITOR-ANCHOR] **Repair: R5,200.** Apple quote: R24,000.
+- [ZA-INVENTED] **Repair: R9,800.** If brought in within 6 hours, ultrasonic clean alone (R1,800) would likely have saved it.
+- [COMPETITOR-ANCHOR] Apple quote: R18,500.
+- [COMPETITOR-ANCHOR] **Repair: R12,500.** Apple quote: R31,000.
+- [ZA-INVENTED] New 16-inch: R54,000+.
+- [ZA-INVENTED] **Use a keyboard cover**, thin silicone covers are available for R150-R350 on Takealot.
+- [ZA-INVENTED] Apple’s repair programme replaces the entire logic board assembly, costing R15,000-R54,000.
+- [ZA-INVENTED] Cost: R2,000-R4,500.
+- [ZA-INVENTED] Below 30% (e.g., R4,500 on a R42,999 machine = 10.5%), repair is almost always the better option.
+
+### `macbook-cooling-pad-worth-it-johannesburg`  (ZA-INVENTED:24)
+- [ZA-INVENTED] An effective cooling pad, Elago, Nutstudio, or Twelve South, costs between R450 and R950 on local retailers.
+- [ZA-INVENTED] **Passive cooling pads** (R400-R600) are metal bases with no electricity.
+- [ZA-INVENTED] **Active cooling pads** (R700-R950) have small fans.
+- [ZA-INVENTED] **Laptop stands with airflow** (R300-R500) are a cheaper alternative.
+- [ZA-INVENTED] ## Real MacBook Cooling Pad Testing: What We've Seen  Our workshop has tested four popular models under sustained load (sustained processing, room temp 26°C):  **Elago L4 Stand** (passive, ~R600): Reduced sustained temperature by 6°C.
+- [ZA-INVENTED] **Nutstudio Cooling Pad** (active, ~R850): Reduced temperature by 13°C under sustained load.
+- [ZA-INVENTED] **Twelve South BookArc** (passive stand, ~R500): Primarily a stand.
+- [ZA-INVENTED] **Generic USB-powered cooling pad** (R250-R400): Variable quality.
+- [ZA-INVENTED] Replacement costs R600-R1,000 and dramatically improves cooling.
+- [ZA-INVENTED] If you're:  - Rendering video, compiling code, or running sustained CPU tasks daily, **yes**, an active cooling pad (R700-R950) pays for itself in reduced fan noise and slightly faster completion times.
+- [ZA-INVENTED] - Working in a hot office with no air conditioning, **maybe**, a passive pad (R400-R600) is cheap enough to try.
+- [ZA-INVENTED] If your MacBook is old and thermal paste has dried, replacement is necessary and costs R600-R1,000.
+- [ZA-INVENTED] We've seen customers spend R800 on a pad when the real problem required a R1,500 logic board repair.
+- [ZA-INVENTED] Takealot, Incredible Connection, and PNA stock cooling pads locally, with prices typically R400-R950.
+
+### `sunninghill-hospital-mac-repair`  (ZA-INVENTED:23)
+- [ZA-INVENTED] From R599, we'll give you a proper assessment; most logic board repairs run R2,500-R6,500 depending on the fault.
+- [ZA-INVENTED] Our liquid damage assessment starts from R599, and repairs typically range R1,800-R4,200.
+- [ZA-INVENTED] We replace batteries (R950-R1,800) and screens (R1,500-R3,800) to original or equivalent quality.
+- [ZA-INVENTED] Pricing is from R1,200-R2,800 plus data recovery costs if required.
+- [ZA-INVENTED] We also repair USB-C ports (R800-R1,600), thermal management issues (R400-R1,200), and macOS software problems (from R399).
+- [ZA-INVENTED] They'll quote you R8,000 when the actual fix is R2,200.
+- [ZA-INVENTED] Keyboard replacement is R1,400-R2,200.
+- [ZA-INVENTED] Display flexgate repair or replacement is R1,800-R3,200.
+- [ZA-INVENTED] iMac power supply replacement: R1,600-R2,400.
+- [ZA-INVENTED] Display backlight repair: R800-R1,400.
+- [ZA-INVENTED] From R400 for cleaning; R800-R1,200 for full thermal service.
+- [ZA-INVENTED] Data recovery costs range from R600-R2,400 depending on the damage and drive type.
