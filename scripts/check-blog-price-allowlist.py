@@ -33,6 +33,8 @@ ALLOWED = {
     "R2,500",  # MacBook battery (from)
     "R2,999",  # data recovery (from)
     "R899",    # labour rate / genuine adapter (standing)
+    "R1,900",  # phone (iPhone/iPad/Samsung) screen repair (from) — confirmed Courtney 28/06
+    "R5,500",  # MacBook/laptop screen repair (from) — confirmed Courtney 28/06
 }
 
 TOKEN_RE = re.compile(r"R\s?\d[\d,]*")

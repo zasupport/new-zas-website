@@ -872,6 +872,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/screen-repair-vs-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/ssd-upgrade-cost-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/ssd-upgrade-price-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/screen-repair-how-much-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/ssd-upgrade-how-much-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/ssd-upgrade-vs-replacement-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/battery-replacement-price-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
