@@ -344,6 +344,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/liquid-damage/melville`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/screen-repair/melville`, lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
 
+        { url: `${base}/blog/macbook-pro-m2-logic-board-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m2-gpu-repair`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-pro-m2-data-recovery`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/logic-board-repair-cost-johannesburg-2026`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-not-turning-on-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-water-damage-repair-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
