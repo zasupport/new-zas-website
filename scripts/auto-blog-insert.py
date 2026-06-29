@@ -402,8 +402,23 @@ def main():
         print("No blog drafts found to insert.")
         return 0
 
+    # ZA_BLOG_ONLY (comma-sep slugs): scope this run to specific drafts — used by the approval
+    # tool (za-blog-review.sh --approve <slug>) to publish exactly the approved post(s).
+    _only = set(s for s in os.environ.get("ZA_BLOG_ONLY", "").split(",") if s)
+    if _only:
+        drafts = [d for d in drafts if any(s in d.name for s in _only)]
+        print(f"ZA_BLOG_ONLY active → {len(drafts)} draft(s) scoped to: {', '.join(sorted(_only))}")
+
     inserted = load_inserted()
     newly_inserted = []
+    # REVIEW-QUEUE POSTURE (§190 human-review-before-publish; fail-safe DEFAULT §627):
+    # auto-publish ONLY when ZA_BLOG_AUTOPUBLISH=1 is explicitly set. Otherwise gate-passed
+    # drafts are QUEUED for human approval (za-blog-review.sh), never auto-inserted/pushed.
+    # So the canonical pipeline can NEVER silently auto-publish if someone forgets the flag.
+    _AUTOPUBLISH = os.environ.get("ZA_BLOG_AUTOPUBLISH") == "1"
+    queued = []
+    if not _AUTOPUBLISH:
+        print("📋 REVIEW MODE (default-safe): gate-passed drafts will be QUEUED for human approval, NOT published. (ZA_BLOG_AUTOPUBLISH=1 to publish)")
 
     print(f"Found {len(drafts)} drafts. Already inserted: {len(inserted)}")
     print("=" * 60)
@@ -464,6 +479,22 @@ def main():
                 pass
             continue
 
+        # REVIEW-QUEUE DIVERT (§190/a): unless explicitly auto-publishing, a draft that has passed
+        # EVERY gate (doorway/length/§489 price) is QUEUED for human review — copied to the queue +
+        # manifest — and NOT inserted/committed/pushed. The §167 "first-hand value" check is the
+        # human's job here (deterministic detection proven impossible: n-gram sim ~0, prose varied).
+        if not _AUTOPUBLISH:
+            import shutil as _sh, json as _json, time as _time
+            _q = Path.home() / ".za-blog-review-queue"; _q.mkdir(exist_ok=True)
+            _sh.copy(str(draft_path), str(_q / f"{slug}.md"))
+            with open(Path.home() / ".za-blog-review-manifest.jsonl", "a") as _f:
+                _f.write(_json.dumps({"ts": _time.strftime("%Y-%m-%dT%H:%M:%S"), "slug": slug,
+                                      "status": "pending", "queued": str(_q / f"{slug}.md"),
+                                      "words": word_count}) + "\n")
+            queued.append(slug)
+            print(f"  📋 QUEUED for review (NOT published): {slug} — approve: za-blog-review.sh --approve {slug}")
+            continue
+
         print(f"  Processing: {slug}")
         faqs = extract_faqs_from_content(content)
         post_entry = build_post_entry(slug, content)
@@ -484,6 +515,10 @@ def main():
         else:
             print(f"  ⚠️  Skipped: {slug}")
 
+    if queued and not newly_inserted:
+        print(f"\n📋 {len(queued)} draft(s) QUEUED for human review (not published): {', '.join(queued)}")
+        print("   Review/approve: za-blog-review.sh --list | --approve <slug> | --reject <slug>")
+        return 0
     if not newly_inserted:
         print("No new posts inserted.")
         return 0
