@@ -40,6 +40,22 @@ except Exception:
     def _normalize_dashes(c):  # fail-loud — never let a raw glyph reach production (§547)
         raise RuntimeError("dash_normalizer.normalize_dashes unavailable — refusing to insert un-normalised content (§547)")
 
+# §489 PRE-INSERT PRICE FILTER (29/06/2026): Haiku disobeys the prompt price-guard and emits
+# invented Rand prices, which the pre-commit §489 gate then rejects -> the whole commit strands
+# (recurring 23->35 stranded-post mess). Fix per advisor: do NOT auto-scrub prices (no correct
+# transform — pricing is human-gated); instead REFUSE to insert a draft that carries unconfirmed
+# prices. Nothing bad enters the file -> no strand, gate stays the protective wall. Reuses the
+# §489 gate's own offenders() as SoT (§354 no-fork).
+try:
+    import importlib.util as _ilu
+    _spec = _ilu.spec_from_file_location("_price_gate", str(Path(__file__).parent / "check-blog-price-allowlist.py"))
+    _pg = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_pg)
+    def _unconfirmed_prices(text):
+        return _pg.offenders(text)   # [] if clean, else [(token, ctx), ...]
+except Exception:
+    def _unconfirmed_prices(text):   # fail-loud — never silently insert unverified prices (§489/§374)
+        raise RuntimeError("check-blog-price-allowlist.offenders unavailable — refusing to insert price-unverified content (§489)")
+
 WEBSITE_DIR = Path(__file__).parent.parent
 BLOG_PAGE = WEBSITE_DIR / "src" / "app" / "blog" / "[slug]" / "page.tsx"
 BLOG_LISTING = WEBSITE_DIR / "src" / "app" / "blog" / "page.tsx"
@@ -431,6 +447,21 @@ def main():
             min_words = 800  # accept 800 for now; 1500+ is target but Haiku caps output
         if word_count < min_words:
             print(f"  SKIP (too short): {slug} ({word_count} words, min {min_words} for {cat})")
+            continue
+
+        # §489 PRE-INSERT PRICE FILTER: refuse drafts with unconfirmed/invented Rand prices.
+        # Never insert -> never strand. Escalate so the skip is loud, not silent (§621/§313/§374).
+        _bad = _unconfirmed_prices(content)
+        if _bad:
+            toks = ", ".join(sorted({t for t, _ in _bad}))
+            print(f"  SKIP (§489 invented price): {slug} — {len(_bad)} unconfirmed Rand figure(s): {toks}")
+            try:
+                import json as _json, time as _time
+                with open(Path.home() / ".za-blog-price-reject.jsonl", "a") as _f:
+                    _f.write(_json.dumps({"ts": _time.strftime("%Y-%m-%dT%H:%M:%S"), "slug": slug,
+                                          "count": len(_bad), "tokens": sorted({t for t, _ in _bad})}) + "\n")
+            except Exception:
+                pass
             continue
 
         print(f"  Processing: {slug}")
