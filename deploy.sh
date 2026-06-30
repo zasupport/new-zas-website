@@ -66,11 +66,11 @@ python3 scripts/strip-typographic-dashes.py --scan || { echo "ERROR: §547 dash 
 echo "→ Verifying machine-dependent lead-time clause on price/turnaround pages (§287-T)..."
 python3 scripts/check-turnaround-clause.py || { echo "ERROR: §287-T lead-time clause gate FAILED — aborting deploy. Add <PricingNote /> to the flagged page(s) or <PricingNote repair={false} /> on contract pages."; exit 1; }
 
-# 3.8 §666 BLOG SITEMAP-RECONCILE gate — fail-closed. A blog slug in page.tsx must be
+# 3.8 §671 BLOG SITEMAP-RECONCILE gate — fail-closed. A blog slug in page.tsx must be
 # in sitemap.ts (discoverable) OR 301'd in next.config.ts (§529). Orphans = live but
 # undiscoverable (the recurring §346/§402 failure). Kills the class manual reconciles kept missing.
-echo "→ Verifying every blog post is discoverable or redirected (§666 reconcile)..."
-python3 scripts/check-blog-sitemap-reconcile.py || { echo "ERROR: §666 reconcile gate FAILED — a blog post is live but absent from sitemap. Add it to src/app/sitemap.ts OR 301 it in next.config.ts (§529)."; exit 1; }
+echo "→ Verifying every blog post is discoverable or redirected (§671 reconcile)..."
+python3 scripts/check-blog-sitemap-reconcile.py || { echo "ERROR: §671 reconcile gate FAILED — a blog post is live but absent from sitemap. Add it to src/app/sitemap.ts OR 301 it in next.config.ts (§529)."; exit 1; }
 
 # 4. Git push (triggers Vercel auto-deploy)
 echo "→ Pushing to GitHub..."
