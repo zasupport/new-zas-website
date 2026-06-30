@@ -908,5 +908,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-pro-m4-ram-upgrade`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-pro-m4-ssd-upgrade`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/screen-repair-near-me-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/keyboard-repair-specialist-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
