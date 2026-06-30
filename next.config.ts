@@ -243,6 +243,7 @@ const nextConfig: NextConfig = {
       { source: '/blog/liquid-damage-repair-illovo', destination: '/liquid-damage', permanent: true },
       { source: '/blog/water-damage-repair-northcliff', destination: '/liquid-damage', permanent: true },
       { source: '/blog/water-damage-repair-illovo', destination: '/liquid-damage', permanent: true },
+      { source: '/blog/managed-it-medical-practices-sandton-2026', destination: '/apple-support/medical-practices', permanent: true }, // §529 doorway prune 30/06 (0-traffic, §671 orphan)
     ];
   },
 };
