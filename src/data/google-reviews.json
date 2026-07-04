@@ -1,9 +1,19 @@
 {
-  "ts": "2026-07-02T02:45:09Z",
+  "ts": "2026-07-04T02:45:04Z",
   "source": "gbp_v4",
-  "total_count": 643,
+  "total_count": 644,
   "rating": 4.9,
   "reviews": [
+    {
+      "id": "AbFvOql3R9UoFH71eBls5DCJ1WmfaJnHHJ62qUtfGvbROUT4CTwfdJXBNuE5W25nC8LjKrq3b6pDLA",
+      "displayName": "Marty Epstein",
+      "comment": "Very efficient change of battery for an older iPhone model. Turned in phone before 930 and got it back at the end of the day. Prices are competitive and service excellent",
+      "starRating": 5,
+      "createTime": "2026-07-03T06:15:36.890001Z",
+      "updateTime": "2026-07-03T06:16:03.098929Z",
+      "language": "en",
+      "reply": null
+    },
     {
       "id": "AbFvOqknlHbJRMlOwM5Fvst8atK5JBgAXZaJUzvGzT0FbQByQbGHpT3OvnxcE6aTMzpUN_zamZ-u9w",
       "displayName": "Delwyn Catley",
@@ -613,19 +623,6 @@
       "reply": {
         "comment": "Of course that’s what we are here for ;)",
         "updateTime": "2025-10-24T11:28:13.509856Z"
-      }
-    },
-    {
-      "id": "AbFvOqllGE4gV-FL-Odsa0z7HbIcMpNUkp51mqTkf763r4O8bQVtGRcDxtZGyz3RietbeOYKyrgh5A",
-      "displayName": "Promise",
-      "comment": "Thank you so much great service",
-      "starRating": 5,
-      "createTime": "2025-10-21T19:50:53.886322Z",
-      "updateTime": "2025-10-21T19:50:53.886322Z",
-      "language": "en",
-      "reply": {
-        "comment": "Really appreciate the message and feedback. Thanks so much!",
-        "updateTime": "2025-10-22T16:19:58.178891Z"
       }
     },
     {

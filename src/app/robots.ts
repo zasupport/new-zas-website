@@ -19,7 +19,12 @@ const AI_CRAWLERS = [
 ];
 
 export default function robots(): MetadataRoute.Robots {
-  const disallow = ['/api/', '/admin/', '/studio/', '/_next/'];
+  // NOTE: /_next/ MUST stay crawlable. Googlebot fetches /_next/static/ JS+CSS
+  // to render pages; blocking it causes "Indexed, though blocked by robots.txt"
+  // warnings on chunk URLs (GSC WNC-20237597, 04/07/2026) and risks under-
+  // rendering real pages. Google-confirmed: do not block render resources.
+  // Gate scripts/check-robots-next-static.py enforces this against drift.
+  const disallow = ['/api/', '/admin/', '/studio/'];
   return {
     rules: [
       {

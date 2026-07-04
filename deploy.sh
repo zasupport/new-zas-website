@@ -66,6 +66,12 @@ python3 scripts/strip-typographic-dashes.py --scan || { echo "ERROR: §547 dash 
 echo "→ Verifying machine-dependent lead-time clause on price/turnaround pages (§287-T)..."
 python3 scripts/check-turnaround-clause.py || { echo "ERROR: §287-T lead-time clause gate FAILED — aborting deploy. Add <PricingNote /> to the flagged page(s) or <PricingNote repair={false} /> on contract pages."; exit 1; }
 
+# 3.75 ROBOTS RENDER-RESOURCE gate — fail-closed (GSC WNC-20237597, 04/07/2026).
+# robots.ts must keep /_next/static/ + /_next/image/ crawlable — blocking them
+# causes "Indexed, though blocked by robots.txt" warnings + under-rendering.
+echo "→ Verifying robots.txt keeps Next render resources crawlable..."
+python3 scripts/check-robots-next-static.py || { echo "ERROR: robots render-resource gate FAILED — aborting deploy. Remove /_next/ from the disallow array in src/app/robots.ts."; exit 1; }
+
 # 3.8 §671 BLOG SITEMAP-RECONCILE gate — fail-closed. A blog slug in page.tsx must be
 # in sitemap.ts (discoverable) OR 301'd in next.config.ts (§529). Orphans = live but
 # undiscoverable (the recurring §346/§402 failure). Kills the class manual reconciles kept missing.
