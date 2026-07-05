@@ -920,5 +920,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/water-damage-repair-price-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-fan-always-loud-fix-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-keeps-restarting-fix-johannesburg`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/flexgate-and-display-cable-faults-on-macbooks-explained`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-keyboard-keys-repeating-or-dead-what-it-means`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/macbook-runs-hot-and-fans-loud-what-we-check-first`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+        { url: `${base}/blog/what-a-macbook-liquid-damage-assessment-involves`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
   ];
 }
