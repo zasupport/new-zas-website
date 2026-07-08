@@ -16,3 +16,5 @@ docs/seo/*CREDENTIALS*.md
 docs/seo/*API*KEYS*.md
 *SETUP*GUIDE*.md
 *.env.secret
+docs/seo/.advisor-gap-inbox.jsonl
+docs/seo/advisor-gap-inbox.md
