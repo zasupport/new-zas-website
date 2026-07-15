@@ -25,9 +25,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 13-inch Battery Replacement Johannesburg [2026] | From R1,799 | ZA Support',
+  title: 'MacBook Pro 13-inch Battery Replacement Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro 13-inch battery replacement Johannesburg from R1,799. All models 2012-2024. Touch Bar dual-cell covered. Adhesive removal specialists. From R599 assessment. Hyde Park.',
+    'MacBook Pro 13-inch battery replacement Johannesburg. All models 2012-2024. Touch Bar dual-cell covered. Adhesive removal specialists. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-13-inch' },
   keywords: [
     'MacBook Pro 13 inch battery replacement Johannesburg',
@@ -63,7 +63,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 13-inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 13-inch battery replacement in Johannesburg. All models 2012 through 2024. Touch Bar dual-cell models covered. Adhesive removal specialists. From R1,799. From R599 assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro 13-inch battery replacement in Johannesburg. All models 2012 through 2024. Touch Bar dual-cell models covered. Adhesive removal specialists. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -87,12 +87,12 @@ const serviceSchema = {
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingRows = [
-  { model: 'MacBook Pro 13″ Retina (2012-2014)', battery: '74.9 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 13″ Retina (2015)', battery: '74.9 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 13″ Touch Bar (2016-2019)', battery: '49.2-58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 13″ Touch Bar (2020 Intel)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 13″ M1 (Late 2020)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 13″ M2 (2022)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ Retina (2012-2014)', battery: '74.9 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ Retina (2015)', battery: '74.9 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ Touch Bar (2016-2019)', battery: '49.2-58.2 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ Touch Bar (2020 Intel)', battery: '58.2 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ M1 (Late 2020)', battery: '58.2 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ M2 (2022)', battery: '58.2 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
 ];
 
 /* ── Fault Types ─────────────────────────────────────────────────────────── */
@@ -158,7 +158,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 13-inch battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Pro 13-inch battery replacement starts from R1,799 at our Hyde Park workshop, covering all models from 2012 through to the M2 (2022). The Apple Store charges R3,500 to R6,000 for the same service, and on some Touch Bar models replaces the entire top case assembly rather than the battery alone. Our price includes the replacement cell, all labour, calibration, and a written warranty of up to 3 years. The assessment fee (from R599) is applied toward the repair cost if you proceed.',
+      'MacBook Pro 13-inch battery replacement is an affordable service at our Hyde Park workshop, covering all models from 2012 through to the M2 (2022). The Apple Store charges many times more for the same service, and on some Touch Bar models replaces the entire top case assembly rather than the battery alone. Our price includes the replacement cell, all labour, calibration, and a written warranty of up to 3 years. The assessment fee is applied toward the repair cost if you proceed.',
   },
   {
     question: 'Which MacBook Pro 13-inch models do you replace batteries for?',
@@ -203,7 +203,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Pro 13-inch battery replacements?',
     answer:
-      'MacBook Pro 13-inch battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period, dropping below 80% capacity or developing any electrical fault, we replace it again at from R599. The warranty document is issued in writing at collection. From R599 assessment: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
+      'MacBook Pro 13-inch battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period, dropping below 80% capacity or developing any electrical fault, we replace it again at our assessment fee. The warranty document is issued in writing at collection. Assessment: if our assessment determines the battery is not the cause of your fault, you pay only the assessment fee and your machine is returned unchanged.',
   },
 ];
 
@@ -231,17 +231,17 @@ export default function BatteryReplacementMacBookPro13InchPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              All 13-inch models 2012 to 2024, Retina, Touch Bar, M1, M2. Swollen batteries, high cycle counts, and Touch Bar secondary cells. Adhesive evolution specialists. From R1,799. Same-day service available.
+              All 13-inch models 2012 to 2024, Retina, Touch Bar, M1, M2. Swollen batteries, high cycle counts, and Touch Bar secondary cells. Adhesive evolution specialists. Same-day service available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ from R1,799</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Same-day service</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Battery, label: 'All 13″ Models 2012-2024' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
@@ -284,7 +284,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 13-inch Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Starting prices include the replacement cell, labour, calibration, and our written warranty. Apple charges R3,500 to R6,000+ for this service. We replace the battery cells only, not the entire top case assembly.
+            Starting prices include the replacement cell, labour, calibration, and our written warranty. Apple charges many times more for this service. We replace the battery cells only, not the entire top case assembly.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -292,7 +292,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Battery Capacity</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -309,7 +309,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-13-inch" />
           <PricingNote variant="inline" />
@@ -334,7 +334,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
               For M1 and M2 13-inch owners: these models share the same chassis dimensions as the 2020 Intel Touch Bar 13-inch. The battery capacity is identical at 58.2 Wh, and the adhesive system is the same. However, the battery management unit firmware on Apple Silicon models communicates differently with macOS than Intel models. After replacement on an M1 or M2, the battery health percentage resets to 100% in System Settings and the "Service Recommended" notice clears, provided the calibration cycle is completed correctly before the machine is handed back to the client.
             </p>
             <p>
-              Load shedding is a disproportionate problem for MacBook Pro 13-inch owners in South Africa because this model is most commonly used as a home office machine, precisely the machine that is plugged in and unplugged repeatedly during load shedding events. We estimate that Johannesburg-based 13-inch MacBook Pro owners without a UPS are reaching battery end-of-life 12 to 18 months earlier than the global average for the same model. We recommend a battery assessment from R599 for any 2019 or earlier 13-inch MacBook Pro used in Johannesburg, and for any 2020 or later model showing reduced runtime.
+              Load shedding is a disproportionate problem for MacBook Pro 13-inch owners in South Africa because this model is most commonly used as a home office machine, precisely the machine that is plugged in and unplugged repeatedly during load shedding events. We estimate that Johannesburg-based 13-inch MacBook Pro owners without a UPS are reaching battery end-of-life 12 to 18 months earlier than the global average for the same model. We recommend a battery assessment for any 2019 or earlier 13-inch MacBook Pro used in Johannesburg, and for any 2020 or later model showing reduced runtime.
             </p>
           </div>
           <div className="mt-6">
@@ -371,7 +371,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our From R599 assessment policy means that if we assess your MacBook Pro 13-inch and determine a battery replacement will not resolve your issue, an assessment fee of R599 applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro 13-inch and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
             </p>
           </div>
         </div>
@@ -385,7 +385,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly on Touch Bar models, R3,500 to R6,000+</li>
+                <li>Top case assembly on Touch Bar models, many times more</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>No cycle count or capacity report shared with client</li>
                 <li>AppleCare+ required for reduced pricing</li>
@@ -397,7 +397,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Battery cells only, all 13″ generations 2012-2024</li>
-                <li>From R1,799 including labour and warranty</li>
+                <li>Contact for pricing, including labour and warranty</li>
                 <li>coconutBattery capacity report at collection</li>
                 <li>Turnaround 2-4 hours same day</li>
                 <li>Touch Bar function verified on all Touch Bar models</li>
@@ -499,7 +499,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 13-inch Battery Issue? Book a Diagnostic.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your MacBook Pro 13-inch model year and the fault description, swollen battery, reduced runtime, Touch Bar issues, or unexpected shutdowns, and we will confirm pricing before you come in. Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us your MacBook Pro 13-inch model year and the fault description, swollen battery, reduced runtime, Touch Bar issues, or unexpected shutdowns, and we will confirm pricing before you come in. Assessment, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
@@ -510,7 +510,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ from R1,799 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ battery replacement | Up-to-3 year warranty
             </p>
           </div>
         </div>

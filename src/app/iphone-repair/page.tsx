@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'iPhone Repair Johannesburg, All Models, All Damage Types | ZA Support',
   description:
-    'iPhone repair in Johannesburg. Screen, battery, charging, liquid damage, back glass, camera. All models iPhone 6 through 16 Pro Max. Assessment: from R599. Call 064 529 5863.',
+    'iPhone repair in Johannesburg. Screen, battery, charging, liquid damage, back glass, camera. All models iPhone 6 through 16 Pro Max. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair' },
 };
 
@@ -67,7 +67,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'iPhone Repair Johannesburg',
-  description: 'iPhone screen, battery, charging port, liquid damage and back glass repair in Johannesburg. All models iPhone 6 through 16 Pro Max. Assessment from R599.',
+  description: 'iPhone screen, battery, charging port, liquid damage and back glass repair in Johannesburg. All models iPhone 6 through 16 Pro Max. Assessment.',
   provider: {
     '@type': 'LocalBusiness',
     name: 'ZA Support',
@@ -104,7 +104,7 @@ export default function iPhoneRepairPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Professional iPhone repair in Johannesburg. Screen, battery, liquid damage, charging, back glass, camera.
-              iPhone 8 through iPhone 16 Pro Max. Assessment: from R599. Hyde Park.
+              iPhone 8 through iPhone 16 Pro Max. Assessment. Hyde Park.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
@@ -161,7 +161,7 @@ export default function iPhoneRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">iPhone Damaged? We Can Fix It.</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment: from R599. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment. Hyde Park, Johannesburg.</p>
             <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
               <Phone className="w-5 h-5" /> Call {CONTACT.phone}
             </a>

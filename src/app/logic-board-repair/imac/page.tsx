@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'iMac Logic Board Repair Johannesburg',
   description:
-    'iMac logic board repair Johannesburg. 21.5", 24" and 27" models, M1, M3, M4, and Intel. We fix the chip, not the board. Assessment: from R599, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
+    'iMac logic board repair Johannesburg. 21.5", 24" and 27" models, M1, M3, M4, and Intel. We fix the chip, not the board. Assessment, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/imac' },
 };
 
@@ -59,7 +59,7 @@ const faqs = [
   {
     question: 'What warranty do you give on iMac logic board repair?',
     answer:
-      'All iMac logic board repairs carry a warranty on the specific component repaired. This is a written up-to-3 year warranty, no hidden clauses. If the repaired component fails within the warranty period, we fix it at from R599.',
+      'All iMac logic board repairs carry a warranty on the specific component repaired. This is a written up-to-3 year warranty, no hidden clauses. If the repaired component fails within the warranty period, we fix it at our assessment fee.',
   },
   {
     question: 'Can you repair the iMac 27" Late 2015 with AMD Radeon R9 GPU failure?',
@@ -144,10 +144,10 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'iMac logic board repair. Assessment: from R599. up-to-3 year warranty.',
+  description: 'iMac logic board repair. Assessment. up-to-3 year warranty.',
   offers: {
     '@type': 'Offer',
-    description: 'iMac logic board repair. Assessment: from R599.',
+    description: 'iMac logic board repair. Assessment.',
   },
 };
 
@@ -166,14 +166,14 @@ export default function iMacLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'iMac' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: from R599 · Up-to-3 Year Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment · Up-to-3 Year Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               iMac Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               iMac logic board repair. 21.5&quot;, 24&quot; and 27&quot; models, M1, M3, M4, and Intel.
-              We repair the chip. Authorised service replaces the board. Assessment: from R599.
+              We repair the chip. Authorised service replaces the board. Assessment.
             </p>
 
             {/* Stats bar */}
@@ -209,7 +209,7 @@ export default function iMacLogicBoardPage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.2)] text-[#7A9E98] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.05)] transition-all"
               >
-                Diagnostic: from R599 <ArrowRight className="w-5 h-5" />
+                Diagnostic <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -286,7 +286,7 @@ export default function iMacLogicBoardPage() {
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <CheckCircle className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Assessment: from R599</span>, If we cannot repair it, assessment fee of from R599 applies.</p>
+                  <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Assessment</span>, If we cannot repair it, assessment fee applies.</p>
                 </div>
                 <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
                   <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
@@ -376,7 +376,7 @@ export default function iMacLogicBoardPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { step: '01', title: 'Drop-Off or Collection', desc: 'Bring your iMac to our Hyde Park workshop or arrange collection. We cover Sandton, Rosebank, Randburg, Fourways, and surrounds.' },
-              { step: '02', title: 'Diagnostic: from R599', desc: 'Same-day board-level diagnostic. We identify the exact component or circuit at fault, not a guess. You receive a written quote before any work begins.' },
+              { step: '02', title: 'Diagnostic', desc: 'Same-day board-level diagnostic. We identify the exact component or circuit at fault, not a guess. You receive a written quote before any work begins.' },
               { step: '03', title: 'Component-Level Repair', desc: 'Under a stereo microscope with temperature-controlled soldering equipment, we replace only the failed IC, not the whole board.' },
               { step: '04', title: 'Full Test + Warranty', desc: 'Post-repair stress test: power cycling, display output, port function, thermal sensors. Up-to-3 year warranty issued on collection.' },
             ].map((s) => (
@@ -404,11 +404,11 @@ export default function iMacLogicBoardPage() {
               },
               {
                 title: 'Up-to-3 Year Warranty',
-                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within the warranty period, we fix it at from R599.',
+                desc: 'We put it in writing. No 90-day fine print like competitors. No exceptions. If the repaired component fails within the warranty period, we fix it at our assessment fee.',
               },
               {
-                title: 'Assessment: from R599',
-                desc: 'If we cannot repair your iMac, assessment fee of from R599 applies, including the diagnostic. No shop in Johannesburg offers this combination with our repair depth.',
+                title: 'Assessment',
+                desc: 'If we cannot repair your iMac, assessment fee applies, including the diagnostic. No shop in Johannesburg offers this combination with our repair depth.',
               },
               {
                 title: 'Apple Silicon Specialists',
@@ -447,9 +447,9 @@ export default function iMacLogicBoardPage() {
           <h2 className="text-2xl font-extrabold text-[#E8F4F1] mb-6">Related Repairs</h2>
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {[
-              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment: from R599' },
-              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: from R599' },
-              { title: 'Mac mini Logic Board', href: '/logic-board-repair/mac-mini', label: 'Assessment: from R599' },
+              { title: 'MacBook Pro Logic Board', href: '/logic-board-repair/macbook-pro', label: 'Assessment' },
+              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment' },
+              { title: 'Mac mini Logic Board', href: '/logic-board-repair/mac-mini', label: 'Assessment' },
               { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
@@ -471,7 +471,7 @@ export default function iMacLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               iMac Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Get a second opinion before committing to a board replacement, it costs you nothing.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

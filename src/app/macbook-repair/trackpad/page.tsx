@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Trackpad Repair Johannesburg | ZA Support',
   description:
-    'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Assessment: from R599. Hyde Park, Johannesburg.',
+    'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Assessment. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/trackpad' },
   keywords: [
     'MacBook trackpad repair Johannesburg',
@@ -87,7 +87,7 @@ const symptoms = [
 const faqs = [
   {
     question: 'How much does MacBook trackpad repair cost in Johannesburg?',
-    answer: 'MacBook trackpad repair cost depends on your model and what is causing the fault. If a swollen battery is pushing the trackpad up, we replace both in the same visit and provide a combined quote. We provide a assessment fee (from R599) and written fixed quote before any work begins.',
+    answer: 'MacBook trackpad repair cost depends on your model and what is causing the fault. If a swollen battery is pushing the trackpad up, we replace both in the same visit and provide a combined quote. We provide an assessment fee and written fixed quote before any work begins.',
   },
   {
     question: 'My MacBook trackpad is raised and hard to click. What is causing this?',
@@ -107,11 +107,11 @@ const faqs = [
   },
   {
     question: 'Is the MacBook trackpad covered under the Apple warranty?',
-    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a up-to-3 year warranty on all our trackpad repairs, if the same fault recurs within the warranty period, we fix it from R599.',
+    answer: 'Swollen battery damage, physical damage, and liquid-related trackpad faults are not covered by Apple\'s standard warranty or AppleCare. Manufacturing defects in the trackpad mechanism may be covered if your machine is within its warranty period. We offer a up-to-3 year warranty on all our trackpad repairs, if the same fault recurs within the warranty period, we fix it under the warranty.',
   },
   {
     question: 'My MacBook trackpad clicks but the cursor does not move. What is wrong?',
-    answer: 'This specific fault, clicking works but no pointer movement, usually indicates a failed trackpad sensor or a damaged flex cable that is passing the click signal but not the position data. It can also happen if the trackpad driver has corrupted; we try a software reset first before opening the machine. Bring it in for a assessment and we will identify whether this is a hardware or software fix.',
+    answer: 'This specific fault, clicking works but no pointer movement, usually indicates a failed trackpad sensor or a damaged flex cable that is passing the click signal but not the position data. It can also happen if the trackpad driver has corrupted; we try a software reset first before opening the machine. Bring it in for an assessment and we will identify whether this is a hardware or software fix.',
   },
   {
     question: 'Can a Force Touch trackpad be repaired?',
@@ -167,14 +167,14 @@ export default function MacBookTrackpadPage() {
           />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Assessment: from R599 · Up-to-3 Year Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Assessment · Up-to-3 Year Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Trackpad Repair<br />
               <span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Trackpad not clicking, cursor jumping, raised trackpad from swollen battery, Force Touch not working. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment: from R599.
+              Trackpad not clicking, cursor jumping, raised trackpad from swollen battery, Force Touch not working. All MacBook Air and Pro models, Apple Silicon and Intel. Assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -263,7 +263,7 @@ export default function MacBookTrackpadPage() {
               MacBook Trackpad Repair, <span className="text-[#0FEA7A]">Models We Service</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Assessment: from R599 before any work begins. Written fixed quote, no hidden costs.
+              Assessment before any work begins. Written fixed quote, no hidden costs.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -352,7 +352,7 @@ export default function MacBookTrackpadPage() {
                   {
                     step: '01',
                     icon: <Wrench className="w-5 h-5" />,
-                    title: 'Assessment: from R599',
+                    title: 'Assessment',
                     desc: 'We inspect the trackpad, check for battery swelling, test the flex cable, and probe the trackpad controller on the logic board. We identify the root cause before quoting.',
                   },
                   {
@@ -377,7 +377,7 @@ export default function MacBookTrackpadPage() {
                     step: '05',
                     icon: <Clock className="w-5 h-5" />,
                     title: 'Warranty',
-                    desc: 'Every trackpad repair comes with a written up-to-3 year warranty. If the same fault recurs within the warranty period, we fix it from R599.',
+                    desc: 'Every trackpad repair comes with a written up-to-3 year warranty. If the same fault recurs within the warranty period, we fix it under the warranty.',
                   },
                 ].map((step) => (
                   <div key={step.step} className="flex gap-4">
@@ -416,7 +416,7 @@ export default function MacBookTrackpadPage() {
               MacBook Trackpad Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-8">
-              Assessment: from R599. Hyde Park, Johannesburg.
+              Assessment. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

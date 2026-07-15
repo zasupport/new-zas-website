@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     question: 'How much does MacBook battery replacement cost for Pretoria clients?',
-    answer: 'Cost varies by model. Contact us via WhatsApp for a quote, pricing is confirmed before any work proceeds. Assessment from R599 if a full diagnostic is also needed.',
+    answer: 'Cost varies by model. Contact us via WhatsApp for a quote, pricing is confirmed before any work proceeds. Assessment if a full diagnostic is also needed.',
   },
   {
     question: 'Do you offer a warranty on battery replacements?',

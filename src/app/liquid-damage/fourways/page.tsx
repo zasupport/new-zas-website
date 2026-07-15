@@ -11,7 +11,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Fourways | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Fourways clients. Ultrasonic cleaning, board-level diagnostics. We collect from Fourways. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Fourways clients. Ultrasonic cleaning, board-level diagnostics. We collect from Fourways. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/fourways' },
 };
 
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and an honest quote. No work proceeds without your written approval.',
+    answer: 'The assessment applies. This covers full disassembly, inspection under magnification, and an honest quote. No work proceeds without your written approval.',
   },
   {
     question: 'What types of liquid cause the most damage?',
@@ -98,7 +98,7 @@ export default function LiquidDamageFourwaysPage() {
               <br /><span className="text-[#0FEA7A]">, Same-day Collection</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook exposed to liquid in Fourways? Switch it off now and contact us. We collect from Fourways same day. Ultrasonic cleaning, board-level repair. Assessment from R599.
+              MacBook exposed to liquid in Fourways? Switch it off now and contact us. We collect from Fourways same day. Ultrasonic cleaning, board-level repair. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -178,7 +178,7 @@ export default function LiquidDamageFourwaysPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Fourways MacBook Liquid Damage, Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment from R599. Same-day collection from Fourways. Switch it off and call us.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment. Same-day collection from Fourways. Switch it off and call us.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LIQ-FOURWAYS', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp Now, Urgent

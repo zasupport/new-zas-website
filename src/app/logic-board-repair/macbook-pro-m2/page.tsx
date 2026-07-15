@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M2 Logic Board Repair Johannesburg',
-  description: 'MacBook Pro M2, M2 Pro, M2 Max logic board repair in Johannesburg. Charging, no power, display, USB-C, liquid damage. Component-level repair. Assessment from R599.',
+  description: 'MacBook Pro M2, M2 Pro, M2 Max logic board repair in Johannesburg. Charging, no power, display, USB-C, liquid damage. Component-level repair. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-m2' },
 };
 
@@ -24,12 +24,12 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can a MacBook Pro M2 logic board be repaired?', answer: 'Yes. The M2, M2 Pro, and M2 Max chips are integrated on the logic board and cannot be replaced individually, but the surrounding circuits are fully repairable. Power management, USB-C controllers, display backlight, audio circuits, and charging paths are all component-level repairable at ZA Support in Hyde Park, Johannesburg. Assessment from R599.' },
+  { question: 'Can a MacBook Pro M2 logic board be repaired?', answer: 'Yes. The M2, M2 Pro, and M2 Max chips are integrated on the logic board and cannot be replaced individually, but the surrounding circuits are fully repairable. Power management, USB-C controllers, display backlight, audio circuits, and charging paths are all component-level repairable at ZA Support in Hyde Park, Johannesburg. Assessment.' },
   { question: 'Is the MacBook Pro M2 more difficult to repair than M1?', answer: 'The M2 generation uses a similar architecture to M1 for repairability purposes. The 14-inch and 16-inch M2 Pro/Max models have additional Thunderbolt 4 controllers and a more complex power delivery system, but the same component-level repair approach applies. Repairability is comparable.' },
-  { question: 'My MacBook Pro M2 was damaged by a power surge, is it worth repairing?', answer: 'In most cases yes. Load shedding power surges are a common cause of M2 MacBook Pro faults in South Africa. Surges typically damage the USB-C controller or power management IC, which are repairable. The M2 die itself is rarely the damaged component. Assessment from R599 confirms the specific fault.' },
-  { question: 'Will my data be safe during M2 MacBook Pro logic board repair?', answer: 'Yes. We do not erase or reformat anything during component-level board repair. The SSD is not removed or erased. If the board is completely dead, we assess SSD readability as part of the R599 diagnostic.' },
-  { question: 'How much does MacBook Pro M2 logic board repair cost compared to Apple?', answer: 'Apple charges R20,000-R50,000 for logic board replacement on M2 MacBook Pro models. ZA Support\'s component-level repair, replacing only the failed component, is significantly less expensive. We quote your specific repair after the R599 assessment.' },
-  { question: 'How long does MacBook Pro M2 logic board repair take?', answer: 'After the R599 assessment and your written approval, most M2 MacBook Pro logic board repairs are completed within 3-5 business days. We provide a specific timeline in the written quote.' },
+  { question: 'My MacBook Pro M2 was damaged by a power surge, is it worth repairing?', answer: 'In most cases yes. Load shedding power surges are a common cause of M2 MacBook Pro faults in South Africa. Surges typically damage the USB-C controller or power management IC, which are repairable. The M2 die itself is rarely the damaged component. Assessment confirms the specific fault.' },
+  { question: 'Will my data be safe during M2 MacBook Pro logic board repair?', answer: 'Yes. We do not erase or reformat anything during component-level board repair. The SSD is not removed or erased. If the board is completely dead, we assess SSD readability as part of the diagnostic.' },
+  { question: 'How much does MacBook Pro M2 logic board repair cost compared to Apple?', answer: 'Apple charges many times more for logic board replacement on M2 MacBook Pro models. ZA Support\'s component-level repair, replacing only the failed component, is significantly less expensive. We quote your specific repair after the assessment.' },
+  { question: 'How long does MacBook Pro M2 logic board repair take?', answer: 'After the assessment and your written approval, most M2 MacBook Pro logic board repairs are completed within 3-5 business days. We provide a specific timeline in the written quote.' },
   { question: 'Do you repair MacBook Pro M2 liquid damage in Johannesburg?', answer: 'Yes. We perform ultrasonic cleaning and component-level repair for M2 MacBook Pro liquid damage. Act quickly, corrosion progresses within hours. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.' },
   { question: 'Does ZA Support collect MacBook Pro M2 for repair?', answer: 'Yes. ZA Support collects from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Pro M2 Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Pro M2, M2 Pro, M2 Max logic board repair in Johannesburg. Assessment from R599.',
+  description: 'Component-level MacBook Pro M2, M2 Pro, M2 Max logic board repair in Johannesburg. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -80,10 +80,10 @@ export default function MacBookProM2LogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -152,7 +152,7 @@ export default function MacBookProM2LogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M2 Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M2 Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKPROM2', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

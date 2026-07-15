@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Illovo | ZA Support Hyde Park',
   description:
-    'MacBook screen repair for Illovo clients. Cracked displays, backlight failure, LCD faults. We collect from Illovo and repair at our Hyde Park workshop. Assessment from R599. Call 064 529 5863.',
+    'MacBook screen repair for Illovo clients. Cracked displays, backlight failure, LCD faults. We collect from Illovo and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/illovo' },
 };
 
@@ -28,11 +28,11 @@ const faults = [
 const faqs = [
   { question: 'Do you collect MacBooks for screen repair from Illovo?', answer: 'Yes, Illovo is one of our closest collection suburbs. Our workshop is in Hyde Park, a few minutes up Oxford Road, so we collect from homes, apartments and offices across Illovo, including Illovo Boulevard, Fricker Road, Harries Road and the streets around Inanda Club. Book via WhatsApp on 064 529 5863 and we will agree a time that fits your day.' },
   { question: 'How long does a MacBook screen repair take?', answer: 'For most Illovo collections we work to a three-to-five working day turnaround once the quote is approved and parts are confirmed. Newer Apple Silicon models (M1, M2, M3) can take a day or two longer because display assemblies are ordered in. We give you a firm expected return date with the written quote, not a vague window.' },
-  { question: 'What is the screen repair assessment fee?', answer: 'Assessment is from R599. That covers a full diagnostic at the Hyde Park workshop, we check the panel, backlight, display cable, logic board video output and lid sensors so the quote reflects the real fault, not just the visible damage. If you go ahead with the repair, the assessment fee is credited against the final invoice.' },
+  { question: 'What is the screen repair assessment fee?', answer: 'Our assessment fee applies. That covers a full diagnostic at the Hyde Park workshop, we check the panel, backlight, display cable, logic board video output and lid sensors so the quote reflects the real fault, not just the visible damage. If you go ahead with the repair, the assessment fee is credited against the final invoice.' },
   { question: 'Do you use genuine Apple screens?', answer: 'We use original Apple display assemblies sourced through our supply channels. For Retina and Apple Silicon MacBooks the display is a single bonded assembly, panel, glass, cables and lid all in one, so when we replace it, you get the same part Apple would fit. We do not fit aftermarket panels because the colour calibration and True Tone behaviour will not match.' },
   { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Vertical or horizontal lines almost always get worse, not better. We see this often on MacBooks brought in from Illovo home offices, a thin line appears, then within weeks it spreads or the panel develops dead bands. It is usually a panel or display cable fault rather than a software issue. Bring it in for an assessment while it is still usable; replacing a partially working screen is the same job as replacing a dead one.' },
-  { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes. M1, M2 and M3 MacBook Air and Pro screen replacements are a routine job for us. The display assembly is more tightly integrated than on older Intel models, which is why we always run a full assessment first, to confirm the fault is in the panel and not in the logic board\'s display controller. Apple Silicon repairs are quoted on the same from-R599 basis.' },
-  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the diagnostic fee starts at R599 and you get a written quote before any repair work begins. No surprise charges, no work done without your sign-off. If the fault turns out to be more complex than a screen, say a logic board issue affecting the display, we tell you the full picture and you decide whether to proceed.' },
+  { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes. M1, M2 and M3 MacBook Air and Pro screen replacements are a routine job for us. The display assembly is more tightly integrated than on older Intel models, which is why we always run a full assessment first, to confirm the fault is in the panel and not in the logic board\'s display controller. Apple Silicon repairs are quoted on the same assessment basis.' },
+  { question: 'What is an Assessment guarantee?', answer: 'It means an assessment fee applies and you get a written quote before any repair work begins. No surprise charges, no work done without your sign-off. If the fault turns out to be more complex than a screen, say a logic board issue affecting the display, we tell you the full picture and you decide whether to proceed.' },
   { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On modern Retina and Apple Silicon MacBooks, no, and we are honest about this upfront. The glass is laser-bonded to the LCD panel as a single assembly, and any workshop offering glass-only repair on these models is either fitting non-original parts or risking damage to the panel underneath. We replace the full display assembly so the result matches factory condition. Older pre-Retina MacBooks are a different case and we can discuss those individually.' },
 ];
 
@@ -79,7 +79,7 @@ export default function ScreenRepairIllovoPage() {
               <br /><span className="text-[#0FEA7A]">, Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook screen repair for Illovo homes and offices, from Oxford Road through to Fricker Road and the office parks along Harries Road. We collect across Illovo and repair at our Hyde Park workshop, roughly five minutes up the road. Cracked panels, backlight failure, vertical lines, dead pixels and LCD bleed all handled. Assessment from R599.
+              MacBook screen repair for Illovo homes and offices, from Oxford Road through to Fricker Road and the office parks along Harries Road. We collect across Illovo and repair at our Hyde Park workshop, roughly five minutes up the road. Cracked panels, backlight failure, vertical lines, dead pixels and LCD bleed all handled. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -88,8 +88,8 @@ export default function ScreenRepairIllovoPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Retina Display Repairs' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -155,8 +155,8 @@ export default function ScreenRepairIllovoPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Illovo? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Illovo. Assessment from R599. From R599 assessment. 12-month warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Illovo? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Illovo. Assessment. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-ILLOVO', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

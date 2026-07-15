@@ -10,9 +10,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg [2026] | From R599',
+  title: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook Pro 14-inch liquid damage repair Johannesburg. HDMI port, SD slot, MagSafe 3 corrosion specialists. Assessment from R599. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro 14-inch liquid damage repair Johannesburg. HDMI port, SD slot, MagSafe 3 corrosion specialists. Assessment. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-14-inch' },
   keywords: [
     'MacBook Pro 14 inch liquid damage repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Pro 14 fix',
     'MacBook Pro 14 inch HDMI port water damage',
     'MacBook Pro 14 SD card slot liquid damage Johannesburg',
-    'MacBook Pro 14 inch liquid damage assessment from R599',
+    'MacBook Pro 14 inch liquid damage assessment',
     'MacBook Pro 14 M1 Pro liquid damage',
     'MacBook Pro 14 M3 Max liquid damage repair',
   ],
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro 14-inch be repaired?',
     answer:
-      'Yes, in most cases. The MacBook Pro 14-inch, across the 2021 M1 Pro/Max (A2442), 2023 M2 Pro/Max (A2779), and 2023 M3/M3 Pro/M3 Max (A2918/A2992) generations, uses Apple Silicon chips with discrete support ICs for USB-C, MagSafe 3, HDMI, and SD card connectivity. These peripheral controllers are individually replaceable, meaning a full logic board replacement is rarely necessary. We have repaired all three generations of 14-inch MacBook Pro at our Hyde Park workshop. Assessment from R599, No Fix No Fee.',
+      'Yes, in most cases. The MacBook Pro 14-inch, across the 2021 M1 Pro/Max (A2442), 2023 M2 Pro/Max (A2779), and 2023 M3/M3 Pro/M3 Max (A2918/A2992) generations, uses Apple Silicon chips with discrete support ICs for USB-C, MagSafe 3, HDMI, and SD card connectivity. These peripheral controllers are individually replaceable, meaning a full logic board replacement is rarely necessary. We have repaired all three generations of 14-inch MacBook Pro at our Hyde Park workshop. Assessment, No Fix No Fee.',
   },
   {
     question: 'Why is the MacBook Pro 14-inch particularly vulnerable to liquid damage?',
@@ -55,17 +55,17 @@ const faqs = [
   {
     question: 'My MacBook Pro 14-inch will not charge after a spill, is it repairable?',
     answer:
-      'Very likely yes. A no-charge condition on the 14-inch MacBook Pro after liquid exposure almost always points to the U6900 MagSafe charging controller or the USB-C charging IC, not the Apple Silicon SoC. The SoC sits in a protected central position on the board and is one of the last components to fail. Our R599 assessment uses oscilloscope and thermal camera to identify exactly which charging circuit is affected before we commit to any repair work.',
+      'Very likely yes. A no-charge condition on the 14-inch MacBook Pro after liquid exposure almost always points to the U6900 MagSafe charging controller or the USB-C charging IC, not the Apple Silicon SoC. The SoC sits in a protected central position on the board and is one of the last components to fail. Our assessment uses oscilloscope and thermal camera to identify exactly which charging circuit is affected before we commit to any repair work.',
   },
   {
     question: 'How much does MacBook Pro 14-inch liquid damage repair cost?',
     answer:
-      'Cost depends on which generation (M1 Pro, M2 Pro, M3) and which circuits are affected. A MagSafe or USB-C controller replacement is at the lower end. HDMI controller corrosion or multi-channel memory bus damage on an M1 Max or M3 Max board requires more work and extends repair time. All repairs are quoted in writing after the R599 assessment, before any work begins. No Fix No Fee applies to every case.',
+      'Cost depends on which generation (M1 Pro, M2 Pro, M3) and which circuits are affected. A MagSafe or USB-C controller replacement is at the lower end. HDMI controller corrosion or multi-channel memory bus damage on an M1 Max or M3 Max board requires more work and extends repair time. All repairs are quoted in writing after the assessment, before any work begins. No Fix No Fee applies to every case.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro 14-inch?',
     answer:
-      'Yes, in most cases. All MacBook Pro 14-inch models store data on Apple-proprietary NAND flash with a custom NVMe controller. Even when the logic board is beyond economic repair, we can read the NAND modules directly in many cases. The main risk is the NAND controller IC itself, if electrolytic corrosion has penetrated the controller firmware registers (most common on boards left unpowered for more than 72 hours), recovery becomes more complex. We assess data recovery potential during the R599 diagnostic at no extra charge.',
+      'Yes, in most cases. All MacBook Pro 14-inch models store data on Apple-proprietary NAND flash with a custom NVMe controller. Even when the logic board is beyond economic repair, we can read the NAND modules directly in many cases. The main risk is the NAND controller IC itself, if electrolytic corrosion has penetrated the controller firmware registers (most common on boards left unpowered for more than 72 hours), recovery becomes more complex. We assess data recovery potential during the diagnostic at no extra charge.',
   },
   {
     question: 'How long does MacBook Pro 14-inch liquid damage repair take?',
@@ -75,7 +75,7 @@ const faqs = [
   {
     question: 'What is the Apple Store cost for a 14-inch MacBook Pro logic board replacement?',
     answer:
-      'Apple treats liquid damage as accidental damage. Without AppleCare+, a 14-inch MacBook Pro logic board replacement costs between R28,000 and R70,000 depending on configuration, approaching the price of a new machine. With AppleCare+, an accidental damage incident fee of approximately R4,500 applies, but Apple replaces the entire logic board rather than the failed component, and data recovery is not guaranteed. ZA Support repairs only what has actually failed, at a fraction of that cost.',
+      'Apple treats liquid damage as accidental damage. Without AppleCare+, a 14-inch MacBook Pro logic board replacement costs many times our price depending on configuration, approaching the price of a new machine. With AppleCare+, an accidental damage incident fee applies, but Apple replaces the entire logic board rather than the failed component, and data recovery is not guaranteed. ZA Support repairs only what has actually failed, at a fraction of that cost.',
   },
   {
     question: 'Does the HDMI port on the MacBook Pro 14-inch get damaged by liquid?',
@@ -154,7 +154,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 14-Inch Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro 14-inch liquid damage repair in Johannesburg. HDMI, SD card, MagSafe 3, and Thunderbolt 4 port specialists. Ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro 14-inch liquid damage repair in Johannesburg. HDMI, SD card, MagSafe 3, and Thunderbolt 4 port specialists. Ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
   lowPrice: '4900',
   highPrice: '17150',
 });
@@ -183,7 +183,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -191,7 +191,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / M3 Pro & Max' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -300,7 +300,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every 14-inch case, if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. No Fix No Fee on every 14-inch case, if we cannot repair your MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -316,9 +316,9 @@ export default function MacBookPro14InchLiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R28,000 to R70,000</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
-                <li>AppleCare+ incident fee approximately R4,500</li>
+                <li>AppleCare+ incident fee applies</li>
                 <li>Data may not survive board replacement</li>
                 <li>5-10 business days via Apple depot repair</li>
                 <li>HDMI / SD port faults not individually diagnosable</li>
@@ -328,7 +328,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed ICs replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>HDMI, SD card, MagSafe, Thunderbolt individually repaired</li>
                 <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
@@ -360,7 +360,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
               {
                 step: '1',
                 title: 'Force power off immediately: hold Touch ID for 10 seconds',
-                detail: 'Do not attempt a normal shutdown. Apple Silicon MacBook Pros continue drawing power in sleep mode across all controllers, HDMI, Thunderbolt, SD, MagSafe. Force power-off removes voltage from every trace simultaneously. This is the most important action in the first 60 seconds and can be the difference between a R1,500 clean and a R15,000 board repair.',
+                detail: 'Do not attempt a normal shutdown. Apple Silicon MacBook Pros continue drawing power in sleep mode across all controllers, HDMI, Thunderbolt, SD, MagSafe. Force power-off removes voltage from every trace simultaneously. This is the most important action in the first 60 seconds and can be the difference between a straightforward clean and a major board repair.',
                 urgent: true,
               },
               {
@@ -459,7 +459,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
               MacBook Pro 14-Inch Liquid Damage? Every Hour Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 14-inch&apos;s five liquid ingress points and Apple Silicon voltage tolerances make speed more critical than most people realise. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. No Fix No Fee.
+              The 14-inch&apos;s five liquid ingress points and Apple Silicon voltage tolerances make speed more critical than most people realise. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -478,7 +478,7 @@ export default function MacBookPro14InchLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

@@ -111,7 +111,7 @@ const signs = [
   {
     icon: <Zap className="w-5 h-5 text-[#0FEA7A]" />,
     title: 'Will not charge, or stops at 80%',
-    detail: 'Charging stops early, fluctuates between percentages, or the MacBook does not charge at all. Could be the battery, charging IC, or cable. Assessment: from R599.',
+    detail: 'Charging stops early, fluctuates between percentages, or the MacBook does not charge at all. Could be the battery, charging IC, or cable. Assessment.',
     urgent: false,
   },
   {
@@ -180,7 +180,7 @@ const faqs = [
   {
     question: 'What warranty do I get on a MacBook battery replacement?',
     answer:
-      'Every MacBook battery replacement at ZA Support carries a up-to-3 year warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at from R599. We put this in writing. You will receive a job card with the warranty terms when you collect your MacBook.',
+      'Every MacBook battery replacement at ZA Support carries a up-to-3 year warranty on both the battery (parts) and the replacement labour. If the battery fails, loses capacity below 80%, or shows any defect within the warranty period, we replace it at our assessment fee. We put this in writing. You will receive a job card with the warranty terms when you collect your MacBook.',
   },
 ];
 
@@ -269,7 +269,7 @@ export default function MacBookBatteryPage() {
             Signs Your MacBook Needs a New Battery
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto">
-            Recognise any of these? Book a assessment fee (from R599), we diagnose before we quote.
+            Recognise any of these? Book an assessment fee, we diagnose before we quote.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {signs.map((s) => (
@@ -335,7 +335,7 @@ export default function MacBookBatteryPage() {
             </div>
           </div>
           <p className="text-[#7A9E98] text-xs mt-6 text-center">
-            Exact quote confirmed after assessment fee (from R599). Contact us for a fixed price on your model.
+            Exact quote confirmed after assessment fee. Contact us for a fixed price on your model.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -504,7 +504,7 @@ export default function MacBookBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 2-4 hours. up-to-3 year warranty. Assessment: from R599.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 2-4 hours. up-to-3 year warranty. Assessment.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, drop in, no appointment needed.
             </p>

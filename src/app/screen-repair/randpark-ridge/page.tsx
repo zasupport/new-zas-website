@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Randpark Ridge | ZA Support Hyde Park',
   description:
-    'MacBook screen repair for Randpark Ridge clients. Cracked displays, backlight failure, LCD faults. We collect from Randpark Ridge and repair at our Hyde Park workshop. Assessment from R599. Call 064 529 5863.',
+    'MacBook screen repair for Randpark Ridge clients. Cracked displays, backlight failure, LCD faults. We collect from Randpark Ridge and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/randpark-ridge' },
 };
 
@@ -28,11 +28,11 @@ const faults = [
 const faqs = [
   { question: 'Do you collect MacBooks for screen repair from Randpark Ridge?', answer: 'Yes, we collect across Randpark Ridge, from the streets off Pendulum Avenue, the area around Randpark Ridge Shopping Centre, and the residential roads bordering Randpark Golf Club. Collection runs from our Hyde Park workshop down Republic Road or via the N1, usually a 20-minute drive depending on traffic. Book on 064 529 5863 or WhatsApp wa.me/27645295863 and we will confirm a window.' },
   { question: 'How long does a MacBook screen repair take?', answer: 'For most MacBook models in common use across Randpark Ridge, screen repairs complete within three to five working days from collection. Newer Apple Silicon models with full display assemblies can take a little longer depending on parts. We give a firm timeline once the machine is on the diagnostic bench and the exact fault is confirmed.' },
-  { question: 'What is the screen repair assessment fee?', answer: 'Assessment is from R599. That covers collection from Randpark Ridge, full diagnostic at the Hyde Park workshop, and a written quote covering parts, labour and return delivery. If you proceed with the repair, the assessment fee is credited against the final invoice. You decide whether to go ahead before any work starts.' },
+  { question: 'What is the screen repair assessment fee?', answer: 'An assessment fee applies. That covers collection from Randpark Ridge, full diagnostic at the Hyde Park workshop, and a written quote covering parts, labour and return delivery. If you proceed with the repair, the assessment fee is credited against the final invoice. You decide whether to go ahead before any work starts.' },
   { question: 'Do you use genuine Apple screens?', answer: 'We use high-grade replacement displays sourced through reliable trade channels. Genuine Apple panels are only supplied through Apple\'s own repair programme, so independent workshops like ours fit equivalent-grade aftermarket or pulled-original panels. We are upfront about which grade is going into your machine and what the warranty looks like before you approve the quote.' },
   { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Lines on the display usually point to a failing LCD or a flex cable issue, and in our experience they spread rather than settle. We have seen Randpark Ridge clients try to live with a single faint line for months only to lose the full panel during a routine lid-close. If the machine is still under daily use, it is worth booking an assessment before the fault progresses.' },
   { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes, M1, M2 and M3 MacBook Air and Pro screen replacements are part of our regular workload. These models use a full display assembly rather than a separate LCD, so the repair approach differs from older Intel machines and parts cost more. We confirm exact pricing once we have the serial number and have inspected the damage at the workshop.' },
-  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the diagnostic fee starts at R599 and you receive a full written quote before any repair work begins. If you decide not to proceed, you pay only the assessment and we return the MacBook to your Randpark Ridge address. If you proceed, the R599 comes off the final invoice. No surprise charges.' },
+  { question: 'What is an Assessment guarantee?', answer: 'It means you pay a set diagnostic fee and receive a full written quote before any repair work begins. If you decide not to proceed, you pay only the assessment and we return the MacBook to your Randpark Ridge address. If you proceed, the assessment fee comes off the final invoice. No surprise charges.' },
   { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On older MacBook Pro Retina models, glass-only replacement was sometimes possible, but on every modern MacBook the glass is bonded to the LCD as a single unit. That means a cracked outer layer typically requires a full display assembly swap. We will confirm during assessment which approach applies to your specific model and give you the cost difference clearly.' },
 ];
 
@@ -79,7 +79,7 @@ export default function ScreenRepairRandparkRidgePage() {
               <br /><span className="text-[#0FEA7A]">, Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Screen repairs for Randpark Ridge homes and small businesses, from the quiet roads off Pendulum Avenue to the offices around Randpark Ridge Shopping Centre. We collect across the suburb, drive the unit back to our Hyde Park workshop, and handle cracked panels, backlight failure, vertical lines and LCD bruising. Assessment from R599 and a clear quote before any work begins.
+              Screen repairs for Randpark Ridge homes and small businesses, from the quiet roads off Pendulum Avenue to the offices around Randpark Ridge Shopping Centre. We collect across the suburb, drive the unit back to our Hyde Park workshop, and handle cracked panels, backlight failure, vertical lines and LCD bruising. Assessment and a clear quote before any work begins.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -88,8 +88,8 @@ export default function ScreenRepairRandparkRidgePage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Retina Display Repairs' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -155,8 +155,8 @@ export default function ScreenRepairRandparkRidgePage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Randpark Ridge? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Randpark Ridge. Assessment from R599. From R599 assessment. 12-month warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Randpark Ridge? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Randpark Ridge. Assessment. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-RANDPARK', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Managed IT Services for Investec Clients Johannesburg 2026 | ZA Support',
   description:
-    'Managed IT and Apple specialist support for Investec clients in Johannesburg. FSCA-compliant, POPIA-ready Mac fleet management for private bankers and wealth managers. From R4,499/month.',
+    'Managed IT and Apple specialist support for Investec clients in Johannesburg. FSCA-compliant, POPIA-ready Mac fleet management for private bankers and wealth managers. Contact for pricing.',
   alternates: { canonical: 'https://zasupport.com/managed-services/investec' },
 };
 
@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: 'How is pricing structured for multi-user practices?',
-    answer: 'We offer three tiers: R4,499/month for a solo practitioner (1 user, up to 3 devices), R5,499/month for small teams (2-3 users, up to 10 devices), and R5,999/month for larger practices (4+ users, up to 20 devices). Enterprise pricing is available for practices with more than 20 users. Every tier includes monitoring, JAMF MDM, M365 management, compliance reporting, and priority support.',
+    answer: 'We offer three tiers: a solo practitioner plan (1 user, up to 3 devices), a small team plan (2-3 users, up to 10 devices), and a larger practice plan (4+ users, up to 20 devices). Contact us for current pricing. Enterprise pricing is available for practices with more than 20 users. Every tier includes monitoring, JAMF MDM, M365 management, compliance reporting, and priority support.',
   },
   {
     question: 'Why choose ZA Support over a generic MSP?',
@@ -64,7 +64,7 @@ const faqs = [
 const tiers = [
   {
     name: 'Solo Practitioner',
-    price: 'R4,499',
+    price: 'Contact for pricing',
     period: '/month',
     ideal: '1 user, up to 3 Apple devices',
     features: [
@@ -81,7 +81,7 @@ const tiers = [
   },
   {
     name: 'Small Team',
-    price: 'R5,499',
+    price: 'Contact for pricing',
     period: '/month',
     ideal: '2-3 users, up to 10 devices',
     features: [
@@ -98,7 +98,7 @@ const tiers = [
   },
   {
     name: 'Practice',
-    price: 'R5,999',
+    price: 'Contact for pricing',
     period: '/month',
     ideal: '4+ users, up to 20 devices',
     features: [
@@ -191,7 +191,7 @@ export default function InvestecManagedServicesPage() {
               {
                 icon: Shield,
                 title: 'Hardware-Level Security',
-                desc: 'Apple Silicon chips include a dedicated Secure Enclave that protects encryption keys, biometric data, and system integrity. FileVault full-disk encryption activates with a single click. For wealth managers handling R100M+ portfolios, this is not optional, it is the baseline.',
+                desc: 'Apple Silicon chips include a dedicated Secure Enclave that protects encryption keys, biometric data, and system integrity. FileVault full-disk encryption activates with a single click. For wealth managers handling very large client portfolios, this is not optional, it is the baseline.',
               },
               {
                 icon: Lock,
@@ -509,8 +509,8 @@ export default function InvestecManagedServicesPage() {
               Ready to Secure Your Practice&rsquo;s IT?
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              New Investec-plan clients receive a{' '}
-              <strong className="text-[#E8F4F1]">R599 IT security assessment</strong>. We audit
+              New Investec-plan clients receive an{' '}
+              <strong className="text-[#E8F4F1]">IT security assessment</strong>. We audit
               your devices, evaluate your compliance posture, and recommend the right plan.
             </p>
             <p className="text-[#7A9E98] text-sm mb-6">

@@ -107,7 +107,7 @@ export const TRUST_BADGES = [
   { label: 'Up-to-3 Year Warranty', icon: 'shield' },
   { label: 'Fastest Turnaround Times', icon: 'clock' },
   { label: '16 Years Experience', icon: 'badge-check' },
-  { label: 'Assessment: from R599', icon: 'search' },
+  { label: 'Assessment', icon: 'search' },
   { label: 'Hyde Park', icon: 'map-pin' },
 ] as const;
 

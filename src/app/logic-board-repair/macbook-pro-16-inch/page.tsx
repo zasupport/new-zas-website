@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro 16-inch Logic Board Repair Johannesburg',
-  description: 'MacBook Pro 16-inch logic board repair in Johannesburg. Intel 2019-2021, M1 Pro/Max 2021, M2 Pro/Max 2023, M3 Pro/Max 2023. No power, GPU, display, liquid damage. Assessment from R599.',
+  description: 'MacBook Pro 16-inch logic board repair in Johannesburg. Intel 2019-2021, M1 Pro/Max 2021, M2 Pro/Max 2023, M3 Pro/Max 2023. No power, GPU, display, liquid damage. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-16-inch' },
 };
 
@@ -24,13 +24,13 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can a MacBook Pro 16-inch logic board be repaired?', answer: 'Yes. All MacBook Pro 16-inch generations are repairable at component level. On Intel models (2019-2021), the discrete AMD GPU, Thunderbolt 3 controllers, and Intel power management circuits are individually addressable. On M-series models (M1 Pro/Max 2021, M2 Pro/Max 2023, M3 Pro/Max 2023), the Apple Silicon SoC is integrated but all surrounding power, display, and I/O circuits are discrete. ZA Support in Hyde Park, Johannesburg assesses from R599.' },
+  { question: 'Can a MacBook Pro 16-inch logic board be repaired?', answer: 'Yes. All MacBook Pro 16-inch generations are repairable at component level. On Intel models (2019-2021), the discrete AMD GPU, Thunderbolt 3 controllers, and Intel power management circuits are individually addressable. On M-series models (M1 Pro/Max 2021, M2 Pro/Max 2023, M3 Pro/Max 2023), the Apple Silicon SoC is integrated but all surrounding power, display, and I/O circuits are discrete. ZA Support in Hyde Park, Johannesburg carries out the assessment.' },
   { question: 'Is the Intel 16-inch MacBook Pro harder to repair than M-series?', answer: 'Intel 16-inch MacBook Pros have additional complexity from the discrete AMD GPU, Thunderbolt 3 controller, and Intel power management IC layer. GPU faults are unique to Intel models. However, the broader power delivery and I/O circuits follow similar repair approaches across generations. Both are component-level repairable at ZA Support.' },
-  { question: 'Can you repair the AMD GPU in the 2019 MacBook Pro 16-inch?', answer: 'Yes. GPU faults on the Intel 16-inch MacBook Pro, including display artifacts, random shutdowns under GPU load, failure to switch to discrete graphics, and kernel panics, are addressable at component level. The AMD vRAM ICs and GPU power delivery circuits are discrete components on the logic board. Assessment from R599 confirms the specific GPU fault and repair viability.' },
-  { question: 'My 16-inch MacBook Pro was damaged in a load shedding surge, what are the chances of repair?', answer: 'High. Load shedding power surges in South Africa are one of the most common causes of 16-inch MacBook Pro logic board faults we see in our Hyde Park workshop. Surges typically damage the USB-C or MagSafe 3 power controller rather than the SoC or GPU die. These are discrete, repairable ICs. The R599 assessment confirms the fault and repair likelihood before any commitment.' },
-  { question: 'How much does 16-inch MacBook Pro logic board repair cost?', answer: 'Apple charges R25,000-R70,000 for a logic board replacement on 16-inch MacBook Pro models. ZA Support replaces only the failed component on the existing board at a fraction of that cost. A written quote is provided after the R599 assessment with the exact repair cost before any work proceeds.' },
-  { question: 'How long does 16-inch MacBook Pro logic board repair take?', answer: 'After the R599 assessment and your written approval, most 16-inch MacBook Pro logic board repairs complete within 3-5 business days. GPU repairs on Intel models and complex liquid damage cases may require additional time. We provide a specific timeline in the written quote.' },
-  { question: 'Will my data be safe during 16-inch MacBook Pro board repair?', answer: 'Yes. Component-level board repair does not require touching the SSD. On Apple Silicon models, the SSD remains on the board throughout. On Intel models, the SSD is a replaceable module that stays installed during board repair. If the board is completely dead, SSD readability is assessed as part of the R599 diagnostic.' },
+  { question: 'Can you repair the AMD GPU in the 2019 MacBook Pro 16-inch?', answer: 'Yes. GPU faults on the Intel 16-inch MacBook Pro, including display artifacts, random shutdowns under GPU load, failure to switch to discrete graphics, and kernel panics, are addressable at component level. The AMD vRAM ICs and GPU power delivery circuits are discrete components on the logic board. Assessment confirms the specific GPU fault and repair viability.' },
+  { question: 'My 16-inch MacBook Pro was damaged in a load shedding surge, what are the chances of repair?', answer: 'High. Load shedding power surges in South Africa are one of the most common causes of 16-inch MacBook Pro logic board faults we see in our Hyde Park workshop. Surges typically damage the USB-C or MagSafe 3 power controller rather than the SoC or GPU die. These are discrete, repairable ICs. The assessment confirms the fault and repair likelihood before any commitment.' },
+  { question: 'How much does 16-inch MacBook Pro logic board repair cost?', answer: 'Apple charges many times more for a logic board replacement on 16-inch MacBook Pro models. ZA Support replaces only the failed component on the existing board at a fraction of that cost. A written quote is provided after the assessment with the exact repair cost before any work proceeds.' },
+  { question: 'How long does 16-inch MacBook Pro logic board repair take?', answer: 'After the assessment and your written approval, most 16-inch MacBook Pro logic board repairs complete within 3-5 business days. GPU repairs on Intel models and complex liquid damage cases may require additional time. We provide a specific timeline in the written quote.' },
+  { question: 'Will my data be safe during 16-inch MacBook Pro board repair?', answer: 'Yes. Component-level board repair does not require touching the SSD. On Apple Silicon models, the SSD remains on the board throughout. On Intel models, the SSD is a replaceable module that stays installed during board repair. If the board is completely dead, SSD readability is assessed as part of the diagnostic.' },
   { question: 'Does ZA Support collect 16-inch MacBook Pro for repair in Johannesburg?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection. We handle the 16-inch chassis carefully given its size and weight.' },
 ];
 
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Pro 16-inch Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Pro 16-inch logic board repair in Johannesburg. Intel, M1 Pro/Max, M2 Pro/Max, M3 Pro/Max. Assessment from R599.',
+  description: 'Component-level MacBook Pro 16-inch logic board repair in Johannesburg. Intel, M1 Pro/Max, M2 Pro/Max, M3 Pro/Max. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -80,10 +80,10 @@ export default function MacBookPro16InchLogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -152,7 +152,7 @@ export default function MacBookPro16InchLogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 16-inch Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 16-inch Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKPRO16INCH', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

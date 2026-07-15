@@ -11,7 +11,7 @@ import { GoogleReviews } from '@/components/GoogleReviews';
 export const metadata: Metadata = {
   title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
   description:
-    'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. M1-M4 Pro/Max and Intel 2015-2019. Assessment: from R599. Hyde Park.',
+    'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. M1-M4 Pro/Max and Intel 2015-2019. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair' },
   keywords: [
     'macbook pro repair johannesburg',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Repair Johannesburg | All Models | ZA Support',
-    description: 'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. Assessment: from R599.',
+    description: 'MacBook Pro repair Johannesburg, Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair. Assessment.',
     url: 'https://zasupport.com/macbook-pro-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -134,7 +134,7 @@ const knownIssues = [
 const faqs = [
   {
     question: 'How much does MacBook Pro repair cost in Johannesburg?',
-    answer: 'MacBook Pro repair pricing depends on the model and fault. Liquid damage assessment: from R599, with a fixed quote before any work begins. We never start work without written approval.',
+    answer: 'MacBook Pro repair pricing depends on the model and fault. An assessment fee applies for liquid damage, with a fixed quote before any work begins. We never start work without written approval.',
   },
   {
     question: 'What is Flexgate and can it be fixed?',
@@ -150,7 +150,7 @@ const faqs = [
   },
   {
     question: 'My MacBook Pro has a black screen but the fans spin on startup. What is wrong?',
-    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016-2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first, if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Assessment: from R599 before any quote.',
+    answer: 'Fans spinning with no display typically points to one of three causes: a display cable or backlight failure (Flexgate on 2016-2019 models), a GPU fault on the logic board, or a failed T2 or Secure Enclave chip. We connect an external display first, if that works, the fault is in the screen assembly. If the external also fails, we investigate the logic board. Assessment before any quote.',
   },
   {
     question: 'What is logic board component-level repair and when does a MacBook Pro need it?',
@@ -182,7 +182,7 @@ const serviceSchema = {
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   description:
-    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair, liquid damage. M1-M4 Pro/Max and Intel models. Assessment: from R599.',
+    'MacBook Pro repair in Johannesburg. Flexgate, Staingate, butterfly keyboard, thermal throttling, logic board component-level repair, liquid damage. M1-M4 Pro/Max and Intel models. Assessment.',
   offers: {
     '@type': 'AggregateOffer',
   },
@@ -224,7 +224,7 @@ export default function MacBookProRepairPage() {
               Specialists in MacBook Pro faults, Flexgate backlight failure, Staingate screen delamination, butterfly keyboard, thermal throttling, and logic board component-level repair. All models from M4 Pro/Max back to 2011 Intel.
             </p>
             <p className="text-[#7A9E98] mb-8">
-              Hyde Park, Johannesburg. Assessment: from R599.
+              Hyde Park, Johannesburg. Assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -241,7 +241,7 @@ export default function MacBookProRepairPage() {
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
               <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty</span>
-              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment: from R599</span>
+              <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
           </div>
@@ -310,7 +310,7 @@ export default function MacBookProRepairPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4 text-center">
             MacBook Pro <span className="text-[#0FEA7A]">Repair Services</span>
           </h2>
-          <p className="text-[#7A9E98] text-center mb-10 text-sm">All costs are confirmed in writing after a assessment fee (from R599). No hidden costs.</p>
+          <p className="text-[#7A9E98] text-center mb-10 text-sm">All costs are confirmed in writing after an assessment fee. No hidden costs.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm text-left">
               <thead>
@@ -340,7 +340,7 @@ export default function MacBookProRepairPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee (from R599). All repairs include up-to-3 year warranty.</p>
+          <p className="text-[#7A9E98] text-xs text-center mt-6">Final cost confirmed after assessment fee. All repairs include up-to-3 year warranty.</p>
           <PricingNote />
         </div>
       </section>
@@ -401,7 +401,7 @@ export default function MacBookProRepairPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro Needs a Repair?</h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment: from R599. Fixed pricing. Assessment: from R599. Hyde Park, Johannesburg.<br />
+              Assessment. Fixed pricing. Assessment. Hyde Park, Johannesburg.<br />
               WhatsApp for the fastest response, typically within 30 minutes during business hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

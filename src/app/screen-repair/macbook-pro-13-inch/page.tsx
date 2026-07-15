@@ -10,9 +10,9 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 13 Inch Screen Repair Johannesburg [2026] | From R3,499 | ZA Support',
+  title: 'MacBook Pro 13 Inch Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro 13-inch screen repair in Johannesburg from R3,499. Retina IPS LCD specialists. M1, M2, Intel. Backlight IC, display cable. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 13-inch screen repair in Johannesburg. Retina IPS LCD specialists. M1, M2, Intel. Backlight IC, display cable. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-13-inch' },
   keywords: [
     'MacBook Pro 13 inch screen repair Johannesburg',
@@ -48,7 +48,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 13 Inch Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro 13-inch screen repair in Johannesburg. Retina IPS LCD display replacement for M1, M2, and Intel models. Display cable fault, backlight driver IC repair, True Tone preservation. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro 13-inch screen repair in Johannesburg. Retina IPS LCD display replacement for M1, M2, and Intel models. Display cable fault, backlight driver IC repair, True Tone preservation. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -76,31 +76,31 @@ const pricingRows = [
   {
     model: 'MacBook Pro 13″ M2 (A2338, 2022)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi), True Tone',
-    from: 'R3,999',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 13″ M1 (A2338, 2020)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi), True Tone',
-    from: 'R3,999',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 13″ Intel (A2289/A2251, 2020)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi), Touch Bar',
-    from: 'R3,499',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 13″ Intel (A1989/A1706, 2016-2019)',
     panel: 'Retina IPS LCD (2560 × 1600, 227 ppi)',
-    from: 'R3,499',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 13″, display cable / backlight IC only',
     panel: 'Component-level backlight driver or flex cable repair',
-    from: 'R1,499',
+    from: 'Contact for pricing',
     turnaround: '24-48 hrs',
   },
 ];
@@ -109,7 +109,7 @@ const faultTypes = [
   {
     title: 'Backlight Driver IC Failure: Load Shedding Surge Damage',
     icon: Zap,
-    desc: 'Load shedding is the leading cause of MacBook Pro 13-inch backlight failure we see across Johannesburg. The 13-inch models from the M1 and M2 generation use a 61 W USB-C power adapter, and clients in Sandton, Fourways, Bryanston, and Midrand frequently leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike travels through the USB-C charger onto the backlight power rail. The backlight driver IC, a small surface-mounted component on the logic board, absorbs the surge and fails. The result is a MacBook Pro 13 that boots normally, with keyboard backlight and external display working correctly, but with a completely dark built-in screen. We repair the backlight driver IC at component level from R1,499, no logic board replacement required.',
+    desc: 'Load shedding is the leading cause of MacBook Pro 13-inch backlight failure we see across Johannesburg. The 13-inch models from the M1 and M2 generation use a 61 W USB-C power adapter, and clients in Sandton, Fourways, Bryanston, and Midrand frequently leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike travels through the USB-C charger onto the backlight power rail. The backlight driver IC, a small surface-mounted component on the logic board, absorbs the surge and fails. The result is a MacBook Pro 13 that boots normally, with keyboard backlight and external display working correctly, but with a completely dark built-in screen. We repair the backlight driver IC at component level, no logic board replacement required.',
     severity: 'high',
   },
   {
@@ -166,12 +166,12 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 13-inch screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro 13-inch screen repair at ZA Support starts from R3,999 for M1 and M2 models (A2338) and from R3,499 for Intel models (A2289, A2251, A1989, A1706). Component-level repairs, backlight driver IC or display cable, start from R1,499. The Apple Store and iStore charge R8,000 to R14,000 for MacBook Pro 13-inch display swaps. We carry out a component-level diagnostic first to avoid recommending a full assembly replacement when only a cable or IC is at fault. A written fixed-price quote is provided after the assessment before any work begins.',
+      'MacBook Pro 13-inch screen repair at ZA Support is quoted per model, with M1 and M2 models (A2338) and Intel models (A2289, A2251, A1989, A1706) each priced individually. Component-level repairs, backlight driver IC or display cable, cost less than a full display assembly. The Apple Store and iStore charge many times our price for MacBook Pro 13-inch display swaps. We carry out a component-level diagnostic first to avoid recommending a full assembly replacement when only a cable or IC is at fault. A written fixed-price quote is provided after the assessment before any work begins.',
   },
   {
     question: 'My MacBook Pro 13-inch screen is black but the Mac is on. What is the cause?',
     answer:
-      'The most likely cause is backlight driver IC failure. To confirm: in a dark room, hold a torch against the display at a low angle. If you can faintly see the desktop or menu bar, the M1, M2, or Intel chip is functioning normally, only the backlight circuit has failed. In Johannesburg, the most common trigger is a load shedding voltage surge through the USB-C charger damaging the backlight IC on the logic board. We repair this at component level from R1,499, no display assembly replacement required. If you see nothing under torchlight, the fault may be in the panel, the display cable, or deeper in the logic board, our assessment identifies the exact cause.',
+      'The most likely cause is backlight driver IC failure. To confirm: in a dark room, hold a torch against the display at a low angle. If you can faintly see the desktop or menu bar, the M1, M2, or Intel chip is functioning normally, only the backlight circuit has failed. In Johannesburg, the most common trigger is a load shedding voltage surge through the USB-C charger damaging the backlight IC on the logic board. We repair this at component level, no display assembly replacement required. If you see nothing under torchlight, the fault may be in the panel, the display cable, or deeper in the logic board, our assessment identifies the exact cause.',
   },
   {
     question: 'What is the Flexgate fault on MacBook Pro 13-inch and do you repair it?',
@@ -191,12 +191,12 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked MacBook Pro 13-inch M1 or M2 screen?',
     answer:
-      'In the majority of cases, yes. MacBook Pro 13-inch M1 and M2 machines still receive full macOS feature updates and will do so for several more years. A MacBook Pro M2 13-inch in good condition sells for R16,000 to R24,000 on the South African used market. Our display assembly replacement starts from R3,999, roughly 17 to 25% of replacement value. We will tell you honestly at assessment if the repair cost does not make financial sense, but this is uncommon. Intel models from 2019 onwards also retain strong resale value and are worth repairing over purchasing new.',
+      'In the majority of cases, yes. MacBook Pro 13-inch M1 and M2 machines still receive full macOS feature updates and will do so for several more years. A MacBook Pro M2 13-inch in good condition still holds strong resale value on the South African used market. Our display assembly replacement costs only a fraction of that value. We will tell you honestly at assessment if the repair cost does not make financial sense, but this is uncommon. Intel models from 2019 onwards also retain strong resale value and are worth repairing over purchasing new.',
   },
   {
     question: 'Can load shedding damage the MacBook Pro 13-inch screen?',
     answer:
-      'Yes, and we see this regularly in Johannesburg. MacBook Pro 13-inch models use a 61 W USB-C power adapter, and many clients in Sandton, Fourways, and Bryanston leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike reaches the backlight driver IC on the logic board through the USB-C charger. The symptom is a completely dark built-in display on a machine that otherwise works normally, including keyboard backlight and external display output. We repair this at component level from R1,499. A quality UPS with true sine wave output prevents this fault entirely.',
+      'Yes, and we see this regularly in Johannesburg. MacBook Pro 13-inch models use a 61 W USB-C power adapter, and many clients in Sandton, Fourways, and Bryanston leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike reaches the backlight driver IC on the logic board through the USB-C charger. The symptom is a completely dark built-in display on a machine that otherwise works normally, including keyboard backlight and external display output. We repair this at component level. A quality UPS with true sine wave output prevents this fault entirely.',
   },
   {
     question: 'My MacBook Pro 13-inch screen flickers when I open the lid. Is it the cable or the panel?',
@@ -242,11 +242,11 @@ export default function ScreenRepairMacBookPro13InchPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              We repair MacBook Pro 13-inch Retina displays across all generations, M1, M2, and Intel. Cracked panels, backlight driver IC damage from load shedding, display cable faults, and the Flexgate flex cable failure on 2016-2019 Intel models. Assessment from R599, repairs from R1,499, from our Hyde Park workshop.
+              We repair MacBook Pro 13-inch Retina displays across all generations, M1, M2, and Intel. Cracked panels, backlight driver IC damage from load shedding, display cable faults, and the Flexgate flex cable failure on 2016-2019 Intel models. Assessment at our Hyde Park workshop.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | M1/M2 from R3,999 | Intel from R3,499</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | M1, M2 and Intel models serviced</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -254,7 +254,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
                 { icon: Cpu, label: 'M1, M2 & Intel Specialists' },
                 { icon: Eye, label: 'True Tone Preserved (M1/M2)' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -306,7 +306,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 13 Inch Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge R8,000 to R14,000 for MacBook Pro 13-inch display swaps, we perform a component-level diagnostic first to avoid unnecessary part replacements and reduce the cost wherever possible.
+            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge many times our price for MacBook Pro 13-inch display swaps, we perform a component-level diagnostic first to avoid unnecessary part replacements and reduce the cost wherever possible.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -314,7 +314,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Repair Type</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Component</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -331,7 +331,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -415,7 +415,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
               {
                 step: '01',
                 title: 'Assessment (30-60 minutes)',
-                desc: 'We open the MacBook Pro 13-inch and systematically isolate the fault across the display assembly, display flex cable, backlight driver IC, and display connector on the logic board. We use a thermal camera to identify components running outside specification. For Intel models, we check for Flexgate cable fatigue at the hinge pivot point. The assessment costs from R599 and is applied toward the repair if you proceed.',
+                desc: 'We open the MacBook Pro 13-inch and systematically isolate the fault across the display assembly, display flex cable, backlight driver IC, and display connector on the logic board. We use a thermal camera to identify components running outside specification. For Intel models, we check for Flexgate cable fatigue at the hinge pivot point. The assessment applies and is applied toward the repair if you proceed.',
               },
               {
                 step: '02',
@@ -503,7 +503,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
             MacBook Pro 13 Inch Screen Cracked or Dark?
           </h2>
           <p className="text-[#7A9E98] text-lg mb-8 leading-relaxed">
-            Send us your serial number on WhatsApp for a same-day quote. Assessment from R599, applied toward repair if you proceed. No Fix No Fee on every job.
+            Send us your serial number on WhatsApp for a same-day quote. Assessment, applied toward repair if you proceed. No Fix No Fee on every job.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

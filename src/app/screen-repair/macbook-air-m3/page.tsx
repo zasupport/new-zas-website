@@ -9,9 +9,9 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M3 Screen Repair Johannesburg [2026] | From R4,299 | ZA Support',
+  title: 'MacBook Air M3 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air M3 screen repair in Johannesburg from R4,299. Liquid Retina display specialists. Cracked screen, pressure marks, backlight fault. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Air M3 screen repair in Johannesburg. Liquid Retina display specialists. Cracked screen, pressure marks, backlight fault. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-air-m3' },
   keywords: [
     'MacBook Air M3 screen repair Johannesburg',
@@ -39,7 +39,7 @@ const faults = [
 const faqs = [
   {
     question: 'How much does a MacBook Air M3 screen replacement cost in Johannesburg?',
-    answer: 'MacBook Air M3 screen replacement starts from R4,299 for the 13.6-inch model and from R5,499 for the 15.3-inch model at our Hyde Park workshop. The final price depends on the specific fault, a backlight circuit repair at component level can be significantly less than a full display assembly replacement. We provide a written quote after diagnostic, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.',
+    answer: 'MacBook Air M3 screen replacement pricing depends on whether you have the 13.6-inch or 15.3-inch model, quoted individually at our Hyde Park workshop. The final price depends on the specific fault, a backlight circuit repair at component level can be significantly less than a full display assembly replacement. We provide a written quote after diagnostic, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.',
   },
   {
     question: 'Is the MacBook Air M3 13-inch screen different from the 15-inch?',
@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     question: 'Is the MacBook Air M3 screen covered by Apple warranty?',
-    answer: 'If your MacBook Air M3 is still within Apple one-year warranty or covered by AppleCare+, accidental damage may be covered with an excess fee. However, Apple charges significantly more for out-of-warranty screen replacement, typically R8,000 to R12,000 depending on the model. Our pricing starts from R4,299, and we use quality-matched panels with a written warranty.',
+    answer: 'If your MacBook Air M3 is still within Apple one-year warranty or covered by AppleCare+, accidental damage may be covered with an excess fee. However, Apple charges significantly more for out-of-warranty screen replacement. Our pricing is a fraction of Apple\'s quote, and we use quality-matched panels with a written warranty.',
   },
   {
     question: 'Can load shedding damage a MacBook Air M3 screen?',
@@ -76,7 +76,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air M3 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Air M3 screen repair in Johannesburg. Liquid Retina display replacement, cracked screen, backlight fault, pressure marks. 13.6-inch and 15.3-inch models. Assessment from R599. Written warranty.',
+    'Professional MacBook Air M3 screen repair in Johannesburg. Liquid Retina display replacement, cracked screen, backlight fault, pressure marks. 13.6-inch and 15.3-inch models. Assessment. Written warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -130,7 +130,7 @@ export default function MacBookAirM3ScreenRepairPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Air M3 Screen Repair
-              <br /><span className="text-[#0FEA7A]">Johannesburg, From R4,299</span>
+              <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Liquid Retina display replacement, cracked screen repair, backlight fault diagnosis, and pressure mark resolution for the MacBook Air M3 (March 2024). Both the 13.6-inch and 15.3-inch models serviced at our Hyde Park workshop.
@@ -138,7 +138,7 @@ export default function MacBookAirM3ScreenRepairPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { label: 'No Fix No Fee' },
-                { label: 'Assessment from R599' },
+                { label: 'Assessment' },
                 { label: 'Written Warranty' },
                 { label: 'True Tone Preserved' },
               ].map(({ label }) => (
@@ -176,7 +176,7 @@ export default function MacBookAirM3ScreenRepairPage() {
               In our experience, the most common screen fault on the MacBook Air M3 in Johannesburg is physical cracking from bag-related impacts, the M3 Air is thinner and lighter than any previous Air generation at just 1.13 kg (13-inch) or 1.51 kg (15-inch), and many owners carry it without adequate padding. The second most common fault is backlight failure from load shedding power surges, which we see across all MacBook models but particularly frequently in suburbs like Sandton, Rosebank, and Midrand where machines are left plugged in at desks overnight.
             </p>
             <p>
-              We carry Liquid Retina display assemblies for both MacBook Air M3 configurations. Every replacement includes True Tone sensor calibration transfer, P3 colour gamut verification, and a comprehensive brightness uniformity check at 100%, 50%, and minimum brightness levels. Our assessment starts from R599, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.
+              We carry Liquid Retina display assemblies for both MacBook Air M3 configurations. Every replacement includes True Tone sensor calibration transfer, P3 colour gamut verification, and a comprehensive brightness uniformity check at 100%, 50%, and minimum brightness levels. Our assessment applies, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.
             </p>
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function MacBookAirM3ScreenRepairPage() {
           <div className="space-y-6">
             {[
               { step: '01', title: 'Book and Drop Off or Arrange Collection', desc: 'WhatsApp us with the code SR-MACBOOKAIRM3 or call to book. Drop off at our Hyde Park workshop (1 Hyde Park Lane) or arrange collection from anywhere within 25 km.' },
-              { step: '02', title: 'Display Diagnostic: from R599', desc: 'We determine whether the fault is the panel itself, the backlight circuit, the display cable, or a logic board issue. This targeted approach means you only pay for what actually needs replacing.' },
+              { step: '02', title: 'Display Diagnostic', desc: 'We determine whether the fault is the panel itself, the backlight circuit, the display cable, or a logic board issue. This targeted approach means you only pay for what actually needs replacing.' },
               { step: '03', title: 'Written Quote: No Fix No Fee', desc: 'You receive a clear, written quote with the exact fault, repair method, parts used, and turnaround time. If we cannot fix it, you pay nothing beyond the assessment fee.' },
               { step: '04', title: 'Repair and Calibration', desc: 'Display assembly replacement or component-level repair, followed by True Tone calibration transfer, P3 colour verification, and brightness uniformity testing at multiple levels.' },
               { step: '05', title: 'Quality Check and Collection', desc: 'We run the repaired MacBook Air M3 through our 12-point display checklist before release. Written warranty provided covering both parts and workmanship.' },
@@ -236,7 +236,7 @@ export default function MacBookAirM3ScreenRepairPage() {
               The good news for M3 Air owners is that the display itself is more resilient than the M1 Air panel. Apple upgraded the glass composition, and we have seen fewer spontaneous coating failures on the M3 compared to the M1 and M2 generations. The bad news is that the M3 Air display assembly is slightly more expensive to source because it shares fewer components with other models in the current lineup.
             </p>
             <p>
-              For clients in Johannesburg weighing up repair versus replacement: a new MacBook Air M3 13-inch starts from R19,999 at the Apple Store iStore. Our screen replacement from R4,299 restores the display to full functionality with a written warranty, at roughly 20% of the cost of a new machine. That is the calculation most of our clients make, and it is the one I would make myself.
+              For clients in Johannesburg weighing up repair versus replacement: a new MacBook Air M3 costs far more than a screen repair. Our screen replacement restores the display to full functionality with a written warranty, at a fraction of the cost of a new machine. That is the calculation most of our clients make, and it is the one I would make myself.
             </p>
           </div>
         </div>
@@ -274,7 +274,7 @@ export default function MacBookAirM3ScreenRepairPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M3 Screen Broken?</h2>
-            <p className="text-[#7A9E98] mb-6">From R4,299. Written warranty. Hyde Park workshop.</p>
+            <p className="text-[#7A9E98] mb-6">Written warranty. Hyde Park workshop.</p>
             <PricingNote variant="inline" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
               <a href={buildWhatsAppUrl('SR-MACBOOKAIRM3', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">

@@ -54,7 +54,7 @@ const faqs = [
   {
     question: 'My AirPods keep disconnecting. Is that a repair issue?',
     answer:
-      'Intermittent connection dropout is usually a software or firmware issue first, try unpairing from all devices, resetting the AirPods by holding the case button for 15 seconds until the LED flashes amber, then re-pairing. If dropout continues after a full reset, it may indicate a degraded battery (low voltage causes Bluetooth instability), a dirty charging case causing incomplete charges, or hardware failure in the Bluetooth antenna. Bring them in, we diagnose at from R599 before quoting.',
+      'Intermittent connection dropout is usually a software or firmware issue first, try unpairing from all devices, resetting the AirPods by holding the case button for 15 seconds until the LED flashes amber, then re-pairing. If dropout continues after a full reset, it may indicate a degraded battery (low voltage causes Bluetooth instability), a dirty charging case causing incomplete charges, or hardware failure in the Bluetooth antenna. Bring them in, we diagnose at our assessment fee before quoting.',
   },
 ];
 
@@ -154,10 +154,10 @@ export default function AirPodsRepairPage() {
               <span className="text-[#0FEA7A]">Battery, Case & Cleaning.</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              One AirPod dead, case not charging, or sound muffled by earwax? Battery service, charging case replacement, and deep cleaning, assessment fee (from R599) before any work.
+              One AirPod dead, case not charging, or sound muffled by earwax? Battery service, charging case replacement, and deep cleaning, assessment fee before any work.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment: from R599. Hyde Park, Johannesburg.
+              Assessment. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -188,7 +188,7 @@ export default function AirPodsRepairPage() {
             AirPods Repair Services
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
-            Starting prices for the most common AirPods faults. Exact quote after assessment fee (from R599).
+            Starting prices for the most common AirPods faults. Exact quote after assessment fee.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {repairServices.map((service) => (
@@ -246,7 +246,7 @@ export default function AirPodsRepairPage() {
             Prices by Model
           </h2>
           <p className="text-[#7A9E98] mb-8">
-            Starting prices. Final quote confirmed at assessment fee (from R599).
+            Starting prices. Final quote confirmed at assessment fee.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -350,8 +350,8 @@ export default function AirPodsRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Assessment: from R599',
-                desc: 'Cannot fix it? Assessment fee of from R599 applies. No assessment fee, no call-out charge.',
+                title: 'Assessment',
+                desc: 'Cannot fix it? Our assessment fee applies. No call-out charge.',
               },
               {
                 title: 'Honest About Complexity',
@@ -362,8 +362,8 @@ export default function AirPodsRepairPage() {
                 desc: 'Every battery service includes a full clean of the mesh grilles and charging contacts. Most faults are cleaning faults.',
               },
               {
-                title: 'Assessment: from R599',
-                desc: 'Bring them in. We inspect, test battery health, and quote. From R599 if you decide not to proceed.',
+                title: 'Assessment',
+                desc: 'Bring them in. We inspect, test battery health, and quote. An assessment fee applies if you decide not to proceed.',
               },
               {
                 title: 'Same-Day Cleaning',
@@ -408,7 +408,7 @@ export default function AirPodsRepairPage() {
             <p className="text-[#7A9E98] mb-2">
               Battery service &nbsp;|&nbsp; Case replacement &nbsp;|&nbsp; Deep clean
             </p>
-            <p className="text-[#7A9E98] mb-8">Assessment: from R599. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('AIRPOD', 'airpods')}

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: '%s | ZA Support',
   },
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. Assessment: from R599. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. Assessment. Call 064 529 5863.",
   keywords: [
     'Apple repair Johannesburg',
     'MacBook repair Johannesburg',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: 'ZA Support',
     title: 'Apple Repair Johannesburg | ZA Support',
     description:
-      "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. Assessment: from R599.",
+      "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. Assessment.",
     images: [
       {
         url: 'https://zasupport.com/og-image.jpg',
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'ZA Support, Apple Repair Johannesburg',
-    description: "Johannesburg's Apple repair specialists. Assessment: from R599. Call 064 529 5863.",
+    description: "Johannesburg's Apple repair specialists. Assessment. Call 064 529 5863.",
     images: ['https://zasupport.com/og-image.jpg'],
   },
   robots: {

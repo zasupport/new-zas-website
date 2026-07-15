@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Woodmead | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Woodmead clients. Ultrasonic cleaning, board-level diagnostics. We collect from Woodmead. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Woodmead clients. Ultrasonic cleaning, board-level diagnostics. We collect from Woodmead. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/woodmead' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Woodmead?', answer: 'Immediately. From Woodmead we can usually have a courier with you within 30 to 45 minutes depending on traffic on the N1 and Western Service Road. Power the MacBook off, do not attempt to charge it, and call 064 529 5863. Corrosion begins within minutes of liquid touching the logic board, so the gap between spill and ultrasonic cleaning is the single biggest predictor of whether the repair succeeds.' },
   { question: 'Do you collect MacBooks from Woodmead after liquid damage?', answer: 'Yes. We collect from across Woodmead, Woodmead Office Park, Pinmill, Waterfall Edge side, Woodmead Estate, Sunninghill Gardens, and the residential streets off Maxwell Drive and Van Reenen Avenue. The drive from our Hyde Park workshop is approximately 18 minutes outside peak hours. For corporate clients we coordinate with building reception so collection can happen without you leaving a meeting.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers disassembly, inspection of the logic board under magnification, and a written report of what is needed to restore the machine. If you proceed with the repair the assessment fee is credited toward the total. We do not quote blind on liquid damage, every board tells a different story once it is opened.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment fee applies. That covers disassembly, inspection of the logic board under magnification, and a written report of what is needed to restore the machine. If you proceed with the repair the assessment fee is credited toward the total. We do not quote blind on liquid damage, every board tells a different story once it is opened.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst, fizzy drinks, energy drinks, wine, coffee with sugar. They leave conductive residue that keeps corroding tracks long after the liquid itself has evaporated. Plain water is the most forgiving but still serious. Salt water and pool water are aggressive on the copper traces. We see all of these regularly from Woodmead, with coffee spills being by far the most common from the office-park clients.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still boots after a spill is the most deceptive scenario we deal with. The liquid is already on the board, the corrosion is already starting, and in our experience the machine will typically fail somewhere between two days and three weeks later, often with damage that has spread well beyond the original spill point. Bring it in while it is still working and the repair is dramatically cheaper.' },
   { question: 'Will you be able to save my data?', answer: 'In the majority of liquid damage cases the SSD survives even when the logic board does not, because the storage chips are on a separate area of the board and are often spared from the worst of the corrosion. On Apple Silicon machines this is more complex because the SSD is paired to the board, but we have data-recovery options for those cases too. Tell us during the call if data recovery is the priority and we will handle the disassembly accordingly.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, assessment is from R599 and is credited toward the repair if you proceed. For liquid damage specifically the assessment is more involved than a normal diagnostic because the board needs to be disassembled and inspected under magnification before we can quote, which is why we charge for it. You receive a written report regardless of whether you go ahead with the repair.' },
+  { question: 'Is there an Assessment policy for liquid damage?', answer: 'Yes, assessment applies and is credited toward the repair if you proceed. For liquid damage specifically the assessment is more involved than a normal diagnostic because the board needs to be disassembled and inspected under magnification before we can quote, which is why we charge for it. You receive a written report regardless of whether you go ahead with the repair.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2, and M3 MacBook Air and Pro models all come through our Hyde Park workshop regularly for liquid damage. The repair process is similar, ultrasonic cleaning, corrosion treatment, component-level work where tracks have been damaged, but the integration of the SSD with the main SoC means data recovery on Apple Silicon needs different handling. Tell us the model when you call and we will explain what is realistic for your specific machine.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageWoodmeadPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage on a MacBook is a race against corrosion, and Woodmead&apos;s position along the N1 and Western Service Road means we can have a courier at your office or estate in roughly 18 minutes from our Hyde Park workshop. We handle ultrasonic cleaning and board-level repair in-house. Assessment from R599.
+              Liquid damage on a MacBook is a race against corrosion, and Woodmead&apos;s position along the N1 and Western Service Road means we can have a courier at your office or estate in roughly 18 minutes from our Hyde Park workshop. We handle ultrasonic cleaning and board-level repair in-house. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageWoodmeadPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Woodmead' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageWoodmeadPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Woodmead? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Woodmead. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Woodmead. Assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-WOODMEAD', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

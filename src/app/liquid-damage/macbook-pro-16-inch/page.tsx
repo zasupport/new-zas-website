@@ -10,9 +10,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg [2026] | From R599',
+  title: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook Pro 16-inch liquid damage repair Johannesburg. M1 Max, M2 Max, M3 Max specialists. 140W MagSafe 3, HDMI, SD slot corrosion repair. Assessment from R599. No Fix No Fee.',
+    'MacBook Pro 16-inch liquid damage repair Johannesburg. M1 Max, M2 Max, M3 Max specialists. 140W MagSafe 3, HDMI, SD slot corrosion repair. Assessment. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-16-inch' },
   keywords: [
     'MacBook Pro 16 inch liquid damage repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Pro 16 fix',
     'MacBook Pro 16 inch HDMI port water damage',
     'MacBook Pro 16 SD card slot liquid damage Johannesburg',
-    'MacBook Pro 16 inch liquid damage assessment from R599',
+    'MacBook Pro 16 inch liquid damage assessment',
     'MacBook Pro 16 M1 Max liquid damage',
     'MacBook Pro 16 M3 Max liquid damage repair',
   ],
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro 16-inch be repaired?',
     answer:
-      'Yes, in most cases. The MacBook Pro 16-inch, across the 2021 M1 Pro/Max (A2485), 2023 M2 Pro/Max (A2780), and 2023 M3 Pro/M3 Max (A2991) generations, uses Apple Silicon chips alongside discrete peripheral controller ICs for USB-C, MagSafe 3, HDMI 2.1, and SD card connectivity. These controllers are individually replaceable at component level. A full logic board replacement is rarely necessary and is never our first recommendation. We have repaired all three 16-inch generations at our Hyde Park workshop. Assessment from R599, No Fix No Fee on every case.',
+      'Yes, in most cases. The MacBook Pro 16-inch, across the 2021 M1 Pro/Max (A2485), 2023 M2 Pro/Max (A2780), and 2023 M3 Pro/M3 Max (A2991) generations, uses Apple Silicon chips alongside discrete peripheral controller ICs for USB-C, MagSafe 3, HDMI 2.1, and SD card connectivity. These controllers are individually replaceable at component level. A full logic board replacement is rarely necessary and is never our first recommendation. We have repaired all three 16-inch generations at our Hyde Park workshop. Assessment, No Fix No Fee on every case.',
   },
   {
     question: 'Why is the MacBook Pro 16-inch higher-risk during a liquid event than smaller MacBooks?',
@@ -55,17 +55,17 @@ const faqs = [
   {
     question: 'My MacBook Pro 16-inch will not charge after a spill, is it repairable?',
     answer:
-      'Almost certainly yes. A no-charge condition after liquid exposure on the 16-inch typically points to the MagSafe 3 charging controller or a USB-C charging IC, not the Apple Silicon SoC. The 16-inch MagSafe 3 connector supports 140W on all models, the charging IC and the traces feeding it are sized for higher current than on the 14-inch, but this also means liquid-induced oxidation on those traces can produce a no-charge fault even when only a small surface area is affected. Our R599 assessment uses a thermal camera and oscilloscope to pinpoint exactly which charging circuit is the fault source before any repair is quoted.',
+      'Almost certainly yes. A no-charge condition after liquid exposure on the 16-inch typically points to the MagSafe 3 charging controller or a USB-C charging IC, not the Apple Silicon SoC. The 16-inch MagSafe 3 connector supports 140W on all models, the charging IC and the traces feeding it are sized for higher current than on the 14-inch, but this also means liquid-induced oxidation on those traces can produce a no-charge fault even when only a small surface area is affected. Our assessment uses a thermal camera and oscilloscope to pinpoint exactly which charging circuit is the fault source before any repair is quoted.',
   },
   {
     question: 'How much does MacBook Pro 16-inch liquid damage repair cost in Johannesburg?',
     answer:
-      'Cost depends on which generation (M1 Pro/Max, M2 Pro/Max, M3 Pro/Max) and which circuits the liquid reached. A MagSafe or USB-C controller replacement is at the lower end of the range. HDMI controller corrosion, multi-channel memory bus contamination on an M1 Max or M3 Max board, or SSD controller trace damage on a high-capacity configuration requires more targeted work. Every repair is quoted in writing after the R599 assessment, you know the cost before we start. No Fix No Fee means if we cannot repair the machine, you only pay the assessment fee.',
+      'Cost depends on which generation (M1 Pro/Max, M2 Pro/Max, M3 Pro/Max) and which circuits the liquid reached. A MagSafe or USB-C controller replacement is at the lower end of the range. HDMI controller corrosion, multi-channel memory bus contamination on an M1 Max or M3 Max board, or SSD controller trace damage on a high-capacity configuration requires more targeted work. Every repair is quoted in writing after the assessment, you know the cost before we start. No Fix No Fee means if we cannot repair the machine, you only pay the assessment fee.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro 16-inch?',
     answer:
-      'Yes, in most cases. All MacBook Pro 16-inch models store data on Apple-proprietary NAND flash with a custom NVMe controller soldered to the logic board. Even when the board itself is beyond economic repair, we can access the NAND directly in many cases. The main risk is corrosion penetrating the NVMe controller registers, most common when the machine was powered on or left without repair for more than 72 hours after the liquid event. Data recovery potential is assessed during the R599 diagnostic at no additional charge. The 16-inch can be configured with up to 8 TB of internal SSD, and we have successfully recovered data from M2 Max boards with severe right-side corrosion.',
+      'Yes, in most cases. All MacBook Pro 16-inch models store data on Apple-proprietary NAND flash with a custom NVMe controller soldered to the logic board. Even when the board itself is beyond economic repair, we can access the NAND directly in many cases. The main risk is corrosion penetrating the NVMe controller registers, most common when the machine was powered on or left without repair for more than 72 hours after the liquid event. Data recovery potential is assessed during the diagnostic at no additional charge. The 16-inch can be configured with up to 8 TB of internal SSD, and we have successfully recovered data from M2 Max boards with severe right-side corrosion.',
   },
   {
     question: 'How long does MacBook Pro 16-inch liquid damage repair take?',
@@ -75,7 +75,7 @@ const faqs = [
   {
     question: 'What does Apple charge for a 16-inch MacBook Pro liquid damage repair?',
     answer:
-      'Apple classifies liquid damage as accidental damage. Without AppleCare+, a 16-inch MacBook Pro logic board replacement through Apple or an Apple Authorised Service Provider costs between R32,000 and R80,000 depending on configuration, with M3 Max 48 GB or 128 GB memory options at the higher end. With AppleCare+, an accidental damage incident fee of approximately R4,500 applies, but Apple replaces the entire logic board and data recovery is not guaranteed. ZA Support replaces only the failed component, preserves your data, and repairs at a fraction of the Apple price.',
+      'Apple classifies liquid damage as accidental damage. Without AppleCare+, a 16-inch MacBook Pro logic board replacement through Apple or an Apple Authorised Service Provider costs many times our price depending on configuration, with M3 Max 48 GB or 128 GB memory options at the higher end. With AppleCare+, an accidental damage incident fee applies, but Apple replaces the entire logic board and data recovery is not guaranteed. ZA Support replaces only the failed component, preserves your data, and repairs at a fraction of the Apple price.',
   },
   {
     question: 'Does the HDMI 2.1 port on the MacBook Pro 16-inch get damaged by liquid?',
@@ -159,7 +159,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro 16-inch liquid damage repair in Johannesburg. M1 Max, M2 Max, M3 Max specialists. HDMI 2.1, SD card, MagSafe 3 140W, and Thunderbolt 4 corrosion repair. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro 16-inch liquid damage repair in Johannesburg. M1 Max, M2 Max, M3 Max specialists. HDMI 2.1, SD card, MagSafe 3 140W, and Thunderbolt 4 corrosion repair. Assessment. Up-to-3 year warranty.',
   lowPrice: '5700',
   highPrice: '19950',
 });
@@ -188,7 +188,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -196,7 +196,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / M3 Pro & Max' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -263,7 +263,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
               The M3 Max generation (A2991, late 2023) introduces an additional complexity. Built on TSMC&apos;s 3nm process with up to 92 GPU cores and 128 GB of unified LPDDR5X memory across four separate dies, the M3 Max has voltage tolerances narrower than the M1 Max or M2 Max. Contaminated power rails that the M1 Max board might tolerate without immediate failure can trigger PMIC faults and kernel panics on the M3 Max within minutes of power-on. We treat every 16-inch M3 Max liquid damage call as an emergency regardless of how minor the spill appears.
             </p>
             <p>
-              The good news is that the Apple Silicon SoC itself, the M1 Pro, M2 Max, M3 Max die, almost never fails directly from liquid damage in our experience. The peripheral controller ICs corrode first: the MagSafe charging IC, the HDMI controller, the SD controller, the Thunderbolt ICs. Every one of these is individually replaceable. A 16-inch MacBook Pro that appears completely dead after a spill can, in many cases, be returned to full function without replacing any core component. The assessment from R599 confirms exactly what has failed before we commit to any repair work.
+              The good news is that the Apple Silicon SoC itself, the M1 Pro, M2 Max, M3 Max die, almost never fails directly from liquid damage in our experience. The peripheral controller ICs corrode first: the MagSafe charging IC, the HDMI controller, the SD controller, the Thunderbolt ICs. Every one of these is individually replaceable. A 16-inch MacBook Pro that appears completely dead after a spill can, in many cases, be returned to full function without replacing any core component. The assessment confirms exactly what has failed before we commit to any repair work.
             </p>
             <p>
               One more Johannesburg-specific factor: the 16-inch is commonly used by video editors, developers, and architects who cannot afford machine downtime. We prioritise 16-inch liquid damage assessments for exactly this reason. Same-day collection is available across Johannesburg, call 064 529 5863 immediately.
@@ -305,7 +305,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every 16-inch case, if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. No Fix No Fee on every 16-inch case, if we cannot repair your MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -321,9 +321,9 @@ export default function MacBookPro16InchLiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R32,000 to R80,000</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
-                <li>AppleCare+ incident fee approximately R4,500</li>
+                <li>AppleCare+ incident fee applies</li>
                 <li>Data may not survive board replacement</li>
                 <li>5-10 business days via Apple depot repair</li>
                 <li>Component-level diagnosis not available</li>
@@ -333,7 +333,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed ICs replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>HDMI, SD card, MagSafe, Thunderbolt individually repaired</li>
                 <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
@@ -464,7 +464,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
               MacBook Pro 16-Inch Liquid Damage? Every Hour Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 16-inch&apos;s 140W charging architecture and Max-tier logic boards make liquid damage more time-critical than any other MacBook. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. No Fix No Fee.
+              The 16-inch&apos;s 140W charging architecture and Max-tier logic boards make liquid damage more time-critical than any other MacBook. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment. No Fix No Fee.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -483,7 +483,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Benoni | ZA Support Hyde Park',
   description:
-    'MacBook screen repair for Benoni clients. Cracked displays, backlight failure, LCD faults. We collect from Benoni and repair at our Hyde Park workshop. Assessment from R599. Call 064 529 5863.',
+    'MacBook screen repair for Benoni clients. Cracked displays, backlight failure, LCD faults. We collect from Benoni and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/benoni' },
 };
 
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: 'What is the screen repair assessment fee?',
-    answer: 'Assessment from R599. This covers inspection, fault diagnosis, and a written quote with. Final repair cost depends on the model and fault type.',
+    answer: 'Assessment. This covers inspection, fault diagnosis, and a written quote with. Final repair cost depends on the model and fault type.',
   },
   {
     question: 'Do you use genuine Apple screens?',
@@ -51,7 +51,7 @@ const faqs = [
     answer: 'Yes. We repair displays on MacBook Air M1, M2, M3 and MacBook Pro M1, M2, M3 models. Apple Silicon models use different display assemblies to Intel models and we stock parts for current-generation machines.',
   },
   {
-    question: 'What is a From R599 assessment guarantee?',
+    question: 'What is an Assessment guarantee?',
     answer: 'If we cannot repair your MacBook screen, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
   },
   {
@@ -103,7 +103,7 @@ export default function ScreenRepairBenoniPage() {
               <br /><span className="text-[#0FEA7A]">, Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Screen repairs for Benoni residents and businesses. Cracked displays, backlight failure, display lines, and LCD faults. We collect from Benoni and repair at our Hyde Park workshop. Assessment from R599.
+              Screen repairs for Benoni residents and businesses. Cracked displays, backlight failure, display lines, and LCD faults. We collect from Benoni and repair at our Hyde Park workshop. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -112,8 +112,8 @@ export default function ScreenRepairBenoniPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Retina Display Repairs' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -179,8 +179,8 @@ export default function ScreenRepairBenoniPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Benoni? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Benoni. Assessment from R599. From R599 assessment. 12-month warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Benoni? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Benoni. Assessment. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-BENONI', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

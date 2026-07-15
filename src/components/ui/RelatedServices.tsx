@@ -15,9 +15,9 @@ interface RelatedServicesProps {
 // Predefined service sets for common page types
 export const RELATED_LOGIC_BOARD: ServiceLink[] = [
   { title: 'Liquid Damage Repair', href: '/liquid-damage', description: 'Board-level professional cleaning' },
-  { title: 'MacBook Not Turning On', href: '/macbook-not-turning-on', description: 'Same-day assessment: from R599' },
+  { title: 'MacBook Not Turning On', href: '/macbook-not-turning-on', description: 'Same-day assessment available' },
   { title: 'MacBook Repair', href: '/macbook-repair', description: 'All models, all faults' },
-  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment: from R599' },
+  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment' },
   { title: 'About ZA Support', href: '/about', description: '16 years, 50,000+ repairs' },
 ];
 
@@ -26,7 +26,7 @@ export const RELATED_MACBOOK_REPAIR: ServiceLink[] = [
   { title: 'Liquid Damage', href: '/liquid-damage', description: 'Professional board cleaning' },
   { title: 'Battery Replacement', href: '/macbook-repair/battery', description: 'All models, same-day' },
   { title: 'Screen Replacement', href: '/macbook-repair/screen', description: 'Retina display repair' },
-  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment: from R599' },
+  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment' },
 ];
 
 export const RELATED_LIQUID_DAMAGE: ServiceLink[] = [
@@ -34,7 +34,7 @@ export const RELATED_LIQUID_DAMAGE: ServiceLink[] = [
   { title: 'MacBook Not Turning On', href: '/macbook-not-turning-on', description: 'Power fault diagnosis' },
   { title: 'iPhone Repair', href: '/iphone-repair', description: 'All iPhone models' },
   { title: 'iPad Repair', href: '/ipad-repair', description: 'Screen, battery, liquid' },
-  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment: from R599' },
+  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment' },
 ];
 
 export const RELATED_IPHONE: ServiceLink[] = [
@@ -42,7 +42,7 @@ export const RELATED_IPHONE: ServiceLink[] = [
   { title: 'MacBook Repair', href: '/macbook-repair', description: 'Battery, screen, logic board' },
   { title: 'Liquid Damage Repair', href: '/liquid-damage', description: 'Board-level cleaning' },
   { title: 'Apple Support', href: '/apple-support', description: 'AppleCare alternatives' },
-  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment: from R599' },
+  { title: 'Pricing & Assessment', href: '/no-fix-no-fee', description: 'Assessment' },
 ];
 
 export default function RelatedServices({ heading = 'Related Services', services }: RelatedServicesProps) {

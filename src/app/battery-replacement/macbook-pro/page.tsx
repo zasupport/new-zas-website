@@ -25,9 +25,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro Battery Replacement Johannesburg [2026] | From R1,799 | ZA Support',
+  title: 'MacBook Pro Battery Replacement Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro battery replacement Johannesburg from R1,799. Swollen battery, cycle count monitoring, adhesive removal. From R599 assessment. Hyde Park workshop.',
+    'MacBook Pro battery replacement Johannesburg. Swollen battery, cycle count monitoring, adhesive removal. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro' },
   keywords: [
     'MacBook Pro battery replacement Johannesburg',
@@ -61,7 +61,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro battery replacement in Johannesburg. Swollen battery removal, adhesive strip extraction, cycle count diagnostics. From R1,799. From R599 assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro battery replacement in Johannesburg. Swollen battery removal, adhesive strip extraction, cycle count diagnostics. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -85,14 +85,14 @@ const serviceSchema = {
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingRows = [
-  { model: 'MacBook Pro 13″ (Retina 2012-2015)', battery: '74.9 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 13″ (Touch Bar 2016-2020)', battery: '58.2-61.4 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 13″ (M1/M2 2020-2022)', battery: '58.2 Wh', from: 'R1,799', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 14″ (M1 Pro/Max 2021)', battery: '69.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
-  { model: 'MacBook Pro 14″ (M2/M3/M4 Pro/Max)', battery: '69.6-70 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
-  { model: 'MacBook Pro 15″ (Intel 2013-2019)', battery: '77.9-99.5 Wh', from: 'R1,999', turnaround: '2-4 hrs' },
-  { model: 'MacBook Pro 16″ (M1 Pro/Max 2021)', battery: '99.6 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
-  { model: 'MacBook Pro 16″ (M2/M3/M4 Pro/Max)', battery: '99.6-100 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 13″ (Retina 2012-2015)', battery: '74.9 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ (Touch Bar 2016-2020)', battery: '58.2-61.4 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 13″ (M1/M2 2020-2022)', battery: '58.2 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 14″ (M1 Pro/Max 2021)', battery: '69.6 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 14″ (M2/M3/M4 Pro/Max)', battery: '69.6-70 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 15″ (Intel 2013-2019)', battery: '77.9-99.5 Wh', from: 'Contact for pricing', turnaround: '2-4 hrs' },
+  { model: 'MacBook Pro 16″ (M1 Pro/Max 2021)', battery: '99.6 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ (M2/M3/M4 Pro/Max)', battery: '99.6-100 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
 ];
 
 /* ── Fault Types ─────────────────────────────────────────────────────────── */
@@ -158,7 +158,7 @@ const faqs = [
   {
     question: 'How much does a MacBook Pro battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Pro 13-inch battery replacement starts from R1,799 at our Hyde Park workshop. MacBook Pro 14-inch and 16-inch models start from R2,299 due to the larger cells and additional adhesive complexity. The Apple Store charges R3,500 to R8,000 for the same replacement, and sometimes more for current M3 and M4 Pro/Max models. Our price includes the battery, all labour, calibration, and a written warranty of up to 3 years. The assessment fee (from R599) is applied toward the repair cost if you proceed.',
+      'MacBook Pro 13-inch battery replacement is carried out at our Hyde Park workshop. MacBook Pro 14-inch and 16-inch models cost more due to the larger cells and additional adhesive complexity. The Apple Store charges many times more for the same replacement, and more still for current M3 and M4 Pro/Max models. Our price includes the battery, all labour, calibration, and a written warranty of up to 3 years. The assessment fee is applied toward the repair cost if you proceed.',
   },
   {
     question: 'How do I check my MacBook Pro battery cycle count?',
@@ -198,7 +198,7 @@ const faqs = [
   {
     question: 'Do you replace the battery on M1, M2, M3, and M4 MacBook Pro models?',
     answer:
-      'Yes, we replace batteries on all Apple Silicon MacBook Pro generations including M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, M3 Max, M4, M4 Pro, and M4 Max. These models use adhesive-mounted lithium-polymer cells that require specialist removal tooling. The 14-inch and 16-inch models use a 69.6 Wh and 99.6 Wh cell respectively, significantly larger than the 13-inch cells, which is reflected in our pricing from R2,299.',
+      'Yes, we replace batteries on all Apple Silicon MacBook Pro generations including M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, M3 Max, M4, M4 Pro, and M4 Max. These models use adhesive-mounted lithium-polymer cells that require specialist removal tooling. The 14-inch and 16-inch models use a 69.6 Wh and 99.6 Wh cell respectively, significantly larger than the 13-inch cells, which is reflected in our pricing.',
   },
   {
     question: 'Can you replace the battery on a MacBook Pro with a Touch Bar?',
@@ -208,7 +208,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook Pro battery replacements?',
     answer:
-      'MacBook Pro battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement battery cell and our workmanship. If the battery fails within the warranty period, defined as maximum capacity dropping below 80% of new capacity, or the battery developing any electrical fault, we replace it again at from R599. The warranty document is provided in writing at collection. From R599 assessment applies: if we assess your machine and determine a battery replacement will not resolve your issue, you pay only the assessment fee from R599.',
+      'MacBook Pro battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement battery cell and our workmanship. If the battery fails within the warranty period, defined as maximum capacity dropping below 80% of new capacity, or the battery developing any electrical fault, we replace it again at our assessment fee. The warranty document is provided in writing at collection. Assessment applies: if we assess your machine and determine a battery replacement will not resolve your issue, you pay only the assessment fee.',
   },
 ];
 
@@ -236,17 +236,17 @@ export default function BatteryReplacementMacBookProPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              From swollen batteries pushing against the trackpad to end-of-life cells with high cycle counts, we replace MacBook Pro batteries across all generations in our Hyde Park workshop. Pro 13&quot; from R1,799. Pro 14&quot;/16&quot; from R2,299. Same-day service available.
+              From swollen batteries pushing against the trackpad to end-of-life cells with high cycle counts, we replace MacBook Pro batteries across all generations in our Hyde Park workshop. Same-day service available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Pro 13″ from R1,799 | Pro 14″/16″ from R2,299</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Battery, label: 'All MacBook Pro Models' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
@@ -300,7 +300,7 @@ export default function BatteryReplacementMacBookProPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the replacement cell, labour, calibration, and our written warranty. The Apple Store charges R3,500 to R8,000 for the same replacement, and in some cases replaces the entire top case assembly rather than the battery alone. We replace only the battery.
+            Pricing includes the replacement cell, labour, calibration, and our written warranty. The Apple Store charges many times more for the same replacement, and in some cases replaces the entire top case assembly rather than the battery alone. We replace only the battery.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -308,7 +308,7 @@ export default function BatteryReplacementMacBookProPage() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Battery Capacity</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -325,7 +325,7 @@ export default function BatteryReplacementMacBookProPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All pricing includes the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment fee applies, credited toward the repair cost if you proceed.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro" />
           <PricingNote variant="inline" />
@@ -392,7 +392,7 @@ export default function BatteryReplacementMacBookProPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our From R599 assessment policy means that if we assess your MacBook Pro and determine a battery replacement will not resolve your issue, an assessment fee of R599 applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed battery replacements.
             </p>
           </div>
         </div>
@@ -409,7 +409,7 @@ export default function BatteryReplacementMacBookProPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly replacement on many Pro models, R3,500 to R8,000+</li>
+                <li>Top case assembly replacement on many Pro models (many times our price)</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>Keyboard and trackpad replaced unnecessarily on top-case models</li>
                 <li>No diagnosis of underlying cause, battery swapped regardless</li>
@@ -421,7 +421,7 @@ export default function BatteryReplacementMacBookProPage() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Battery cells only, keyboard and trackpad are never touched</li>
-                <li>MacBook Pro 13″ from R1,799 | 14″/16″ from R2,299</li>
+                <li>Battery cells only, keyboard and trackpad never touched</li>
                 <li>Cycle count and capacity confirmed before quoting</li>
                 <li>Turnaround 2-6 hours same day</li>
                 <li>coconutBattery diagnostic included, results shared with client</li>
@@ -461,7 +461,7 @@ export default function BatteryReplacementMacBookProPage() {
               {
                 step: 5,
                 title: 'Collect With Warranty',
-                desc: 'You collect your MacBook Pro with a written warranty of up to 3 years, a System Information screenshot confirming battery health, and the assessment fee included in the total cost. If the battery fails within the warranty period, we replace it again at from R599.',
+                desc: 'You collect your MacBook Pro with a written warranty of up to 3 years, a System Information screenshot confirming battery health, and the assessment fee included in the total cost. If the battery fails within the warranty period, we replace it again at our assessment fee.',
               },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
@@ -551,7 +551,7 @@ export default function BatteryReplacementMacBookProPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro Battery Issue? Book a Diagnostic.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a description of the fault, swollen battery, unexpected shutdowns, high cycle count, or a trackpad that no longer clicks properly, and we will give you an honest price range before you bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a description of the fault, swollen battery, unexpected shutdowns, high cycle count, or a trackpad that no longer clicks properly, and we will give you an honest price range before you bring the machine in.  Assessment, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -570,7 +570,7 @@ export default function BatteryReplacementMacBookProPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ from R1,799 | 14″/16″ from R2,299 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Up-to-3 year warranty
             </p>
           </div>
         </div>

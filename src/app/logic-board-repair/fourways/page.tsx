@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Fourways | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Fourways clients. Component-level repair specialists, we collect from Fourways and repair at our Hyde Park workshop. Assessment: from R599. Call 064 529 5863.',
+    'MacBook logic board repair for Fourways clients. Component-level repair specialists, we collect from Fourways and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/fourways' },
 };
 
@@ -27,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Full board-level inspection, from R599,' },
+  { item: 'Diagnostic Assessment', note: 'Full board-level inspection' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board replacement' },
   { item: 'Power Circuit Repair', note: 'No-power fault and charging failure repair' },
   { item: 'Component-level repair Repair', note: 'Component-level repair under microscope' },
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Fourways',
-  description: 'MacBook logic board component-level repair for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Assessment: from R599. up-to-3 year warranty.',
+  description: 'MacBook logic board component-level repair for Fourways clients. Collection from Fourways, repair at Hyde Park workshop. Assessment. up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -114,8 +114,8 @@ export default function LogicBoardRepairFourwaysPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Diagnostic: from R599' },
-                { icon: CheckCircle, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Diagnostic' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -252,8 +252,8 @@ export default function LogicBoardRepairFourwaysPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Fourways MacBook Fault? Diagnostic: from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Fourways. Assessment: from R599. up-to-3 year warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Fourways MacBook Fault? Diagnostic.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Fourways. Assessment. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-FOURWAYS', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 💬 WhatsApp for Quote

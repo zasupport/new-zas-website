@@ -83,7 +83,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-2xl font-bold text-[#E8F4F1] mb-4">3. Pricing and Assessment</h2>
               <p>
-                An assessment fee applies from <strong className="text-[#E8F4F1]">R599</strong> (inclusive of VAT),
+                An <strong className="text-[#E8F4F1]">assessment fee</strong> applies (inclusive of VAT),
                 depending on the device and fault. The assessment fee covers diagnostic time and is payable regardless
                 of whether you proceed with the repair.
               </p>

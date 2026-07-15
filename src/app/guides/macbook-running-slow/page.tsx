@@ -11,7 +11,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Running Slow? 12 Proven Fixes for 2026 | ZA Support',
   description:
-    'MacBook running slow? 12 step-by-step fixes from Activity Monitor to SSD upgrades. South Africa pricing, load shedding tips. Assessment from R599.',
+    'MacBook running slow? 12 step-by-step fixes from Activity Monitor to SSD upgrades. South Africa pricing, load shedding tips. Assessment.',
   alternates: { canonical: 'https://zasupport.com/guides/macbook-running-slow' },
 };
 
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: 'How do I check if my MacBook SSD is failing?',
     answer:
-      'Open Disk Utility and check the S.M.A.R.T. status. It should read "Verified". If it reads "Failing" or is absent, your SSD has hardware issues that no software fix will resolve. At ZA Support we run deeper diagnostics that check read/write speeds and error rates. Assessment from R599.',
+      'Open Disk Utility and check the S.M.A.R.T. status. It should read "Verified". If it reads "Failing" or is absent, your SSD has hardware issues that no software fix will resolve. At ZA Support we run deeper diagnostics that check read/write speeds and error rates. Assessment.',
   },
   {
     question: 'Should I reset SMC and NVRAM to fix a slow MacBook?',
@@ -54,17 +54,17 @@ const faqs = [
   {
     question: 'Is it worth upgrading the SSD in my MacBook?',
     answer:
-      'For MacBook Pro and MacBook Air models from 2013 to 2017 with 128 GB or 256 GB SSDs, an upgrade to 512 GB or 1 TB is one of the best value upgrades available. Expect to pay R2,500 to R5,500 depending on capacity. Apple Silicon models (M1 onwards) have soldered storage and cannot be upgraded after purchase.',
+      'For MacBook Pro and MacBook Air models from 2013 to 2017 with 128 GB or 256 GB SSDs, an upgrade to 512 GB or 1 TB is one of the best value upgrades available. Pricing depends on capacity. Apple Silicon models (M1 onwards) have soldered storage and cannot be upgraded after purchase.',
   },
   {
     question: 'When should I consider replacing my MacBook instead of fixing it?',
     answer:
-      'If your MacBook is an Intel model from 2015 or earlier, it cannot run the latest macOS and will receive no further security updates. Combined with 8 GB RAM and a small SSD, the cost of upgrades approaches the price of a refurbished Apple Silicon MacBook Air. We provide honest assessments at R599 and will tell you when repair is not the best investment.',
+      'If your MacBook is an Intel model from 2015 or earlier, it cannot run the latest macOS and will receive no further security updates. Combined with 8 GB RAM and a small SSD, the cost of upgrades approaches the price of a refurbished Apple Silicon MacBook Air. We provide honest assessments and will tell you when repair is not the best investment.',
   },
   {
     question: 'How long does a MacBook diagnostic assessment take at ZA Support?',
     answer:
-      'A standard diagnostic takes 24 to 48 hours and covers CPU performance, SSD health, RAM usage under load, battery condition, and thermal performance. You receive a written report with our findings and a quote for any recommended work. Assessment from R599, and if you proceed with repairs, the fee is deducted from the final invoice.',
+      'A standard diagnostic takes 24 to 48 hours and covers CPU performance, SSD health, RAM usage under load, battery condition, and thermal performance. You receive a written report with our findings and a quote for any recommended work. Assessment, and if you proceed with repairs, the fee is deducted from the final invoice.',
   },
   {
     question: 'Does ZA Support collect MacBooks for assessment in Johannesburg?',
@@ -174,7 +174,7 @@ const howToSchema = {
       '@type': 'HowToStep',
       position: 12,
       name: 'Get a professional diagnostic assessment',
-      text: 'If software fixes have not resolved the issue, book a diagnostic assessment at ZA Support from R599. We test SSD health, RAM performance, thermal behaviour, and battery condition. No Fix No Fee. WhatsApp 064 529 5863.',
+      text: 'If software fixes have not resolved the issue, book a diagnostic assessment at ZA Support. We test SSD health, RAM performance, thermal behaviour, and battery condition. No Fix No Fee. WhatsApp 064 529 5863.',
     },
   ],
   provider: LOCAL_BUSINESS_PROVIDER,
@@ -208,12 +208,12 @@ export default function MacBookRunningSlowGuidePage() {
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
               <span>
-                Hyde Park, Johannesburg | Assessment from R599 | No Fix No Fee | 12-Month
+                Hyde Park, Johannesburg | Assessment | No Fix No Fee | 12-Month
                 Warranty
               </span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['12 Proven Fixes', 'No Fix No Fee', 'Assessment from R599', 'Same-Day Collection'].map(
+              {['12 Proven Fixes', 'No Fix No Fee', 'Assessment', 'Same-Day Collection'].map(
                 (l) => (
                   <div
                     key={l}
@@ -262,7 +262,7 @@ export default function MacBookRunningSlowGuidePage() {
               This guide walks you through the same 12 checks our technicians run, starting with the
               easiest free fixes and progressing to hardware-level diagnostics. Most MacBooks can be
               restored to full speed without spending a cent. When hardware is the culprit, we
-              provide honest assessments from R599 with a No Fix No Fee guarantee.
+              provide honest assessments with a No Fix No Fee guarantee.
             </p>
             <p>
               In South Africa specifically, load shedding complicates things. Repeated hard shutdowns
@@ -606,15 +606,15 @@ export default function MacBookRunningSlowGuidePage() {
                 <p>
                   <strong className="text-[#E8F4F1]">SSD upgrades (2013 to 2017 MacBooks):</strong>{' '}
                   Replacing a 128 GB or 256 GB SSD with a 512 GB or 1 TB NVMe drive is the single
-                  best upgrade for older MacBooks. In South Africa, expect to pay R2,500 to R5,500
-                  including parts and labour, depending on the capacity. Import costs on quality
+                  best upgrade for older MacBooks. In South Africa, pricing depends on the capacity
+                  and includes parts and labour. Import costs on quality
                   NVMe drives from overseas add roughly 20% compared to US pricing, but the
                   performance gain is transformational.
                 </p>
                 <p>
                   <strong className="text-[#E8F4F1]">RAM upgrades (2012 and earlier):</strong>{' '}
                   MacBook Pros from 2012 and earlier have user-upgradeable RAM slots. Upgrading from
-                  4 GB to 8 GB or from 8 GB to 16 GB costs R800 to R2,200 for the modules. From
+                  4 GB to 8 GB or from 8 GB to 16 GB is priced according to the modules required. From
                   2013 onwards, RAM is soldered and cannot be upgraded.
                 </p>
                 <p>
@@ -623,15 +623,15 @@ export default function MacBookRunningSlowGuidePage() {
                   </strong>{' '}
                   Unified memory and storage are part of the chip package. If your M1, M2, M3, or M4
                   MacBook is slow, the issue is software-related or a hardware fault, not a capacity
-                  problem you can upgrade your way out of. This is where a professional diagnostic at
-                  R599 identifies the exact cause.
+                  problem you can upgrade your way out of. This is where a professional diagnostic
+                  identifies the exact cause.
                 </p>
                 <p>
                   <strong className="text-[#E8F4F1]">When to buy new:</strong> If your MacBook is
                   Intel, has 8 GB soldered RAM, a 128 GB SSD, and cannot run macOS Ventura, the
                   combined cost of an SSD upgrade and the machine&apos;s age mean a refurbished M1
-                  MacBook Air (from around R12,000 to R15,000 in South Africa) is often the better
-                  investment. We will tell you honestly at your R599 assessment if repair or
+                  MacBook Air is often the better
+                  investment. We will tell you honestly at your assessment if repair or
                   replacement makes more financial sense.
                 </p>
               </div>
@@ -682,7 +682,7 @@ export default function MacBookRunningSlowGuidePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
-              Still Slow? Get a Professional Diagnostic from R599.
+              Still Slow? Get a Professional Diagnostic.
             </h2>
             <p className="text-[#7A9E98] mb-6">
               We test SSD health, RAM performance, thermals, and battery condition. Collection from

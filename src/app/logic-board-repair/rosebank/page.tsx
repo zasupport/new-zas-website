@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Rosebank | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Rosebank clients. Component-level repair specialists 9 minutes from Rosebank. Assessment: from R599, up-to-3 year warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Rosebank clients. Component-level repair specialists 9 minutes from Rosebank. Assessment, up-to-3 year warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/rosebank' },
 };
 
@@ -54,11 +54,11 @@ const faqs = [
   },
   {
     question: 'What does the assessment involve?',
-    answer: 'We inspect the logic board using schematics, a microscope, and power-supply diagnostic tools. We identify the specific failed component, test the surrounding circuitry, and assess whether the fault is repairable at component level or requires a board replacement. Assessment: from R599.',
+    answer: 'We inspect the logic board using schematics, a microscope, and power-supply diagnostic tools. We identify the specific failed component, test the surrounding circuitry, and assess whether the fault is repairable at component level or requires a board replacement. Assessment.',
   },
   {
     question: 'What warranty do you provide?',
-    answer: 'Every logic board repair carries a ZA Support warranty covering the specific fault repaired and any directly related board failure. If the same fault recurs within the warranty period, we repair it at from R599. Warranty is provided in writing with every completed repair.',
+    answer: 'Every logic board repair carries a ZA Support warranty covering the specific fault repaired and any directly related board failure. If the same fault recurs within the warranty period, we repair it at our assessment fee. Warranty is provided in writing with every completed repair.',
   },
 ];
 
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Rosebank',
-  description: 'MacBook logic board component-level repair for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment: from R599. up-to-3 year warranty.',
+  description: 'MacBook logic board component-level repair for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment. up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -114,8 +114,8 @@ export default function LogicBoardRepairRosebankPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Diagnostic: from R599' },
-                { icon: CheckCircle, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Diagnostic' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -156,7 +156,7 @@ export default function LogicBoardRepairRosebankPage() {
               We work on all MacBook generations including M1 MacBook Air, M2 MacBook Pro, M3 MacBook Air, and all Intel-era MacBook Pro 13-inch, 15-inch, and 16-inch models. iMac and Mac mini logic boards are handled with the same component-level approach.
             </p>
             <p>
-              The most common faults we see from Rosebank clients are liquid damage from the daily coffee shop session, USB-C charging failures on well-used 13-inch MacBook Pros, and no-power faults on older Intel models. All are repairable. All start with a assessment that confirms the fault before any quote is given.
+              The most common faults we see from Rosebank clients are liquid damage from the daily coffee shop session, USB-C charging failures on well-used 13-inch MacBook Pros, and no-power faults on older Intel models. All are repairable. All start with an assessment that confirms the fault before any quote is given.
             </p>
           </div>
         </div>
@@ -299,8 +299,8 @@ export default function LogicBoardRepairRosebankPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Rosebank MacBook Fault? Diagnostic: from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">9 minutes from Rosebank. Assessment: from R599. up-to-3 year warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Rosebank MacBook Fault? Diagnostic.</h2>
+            <p className="text-[#7A9E98] mb-6">9 minutes from Rosebank. Assessment. up-to-3 year warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-ROSEBANK', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 💬 WhatsApp for Quote

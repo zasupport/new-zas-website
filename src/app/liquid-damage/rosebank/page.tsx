@@ -11,7 +11,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Rosebank | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Rosebank clients. Ultrasonic cleaning, board-level diagnostics. We collect from Rosebank, 2 km from our workshop. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Rosebank clients. Ultrasonic cleaning, board-level diagnostics. We collect from Rosebank, 2 km from our workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/rosebank' },
 };
 
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: 'What does the liquid damage assessment cost?',
-    answer: 'The assessment is from R599. This covers full disassembly, inspection under magnification, and an honest quote. If the device is not economically repairable, we will tell you, and help with data recovery options. No further work proceeds without your approval.',
+    answer: 'The assessment applies. This covers full disassembly, inspection under magnification, and an honest quote. If the device is not economically repairable, we will tell you, and help with data recovery options. No further work proceeds without your approval.',
   },
   {
     question: 'My MacBook got wet in a Rosebank coffee shop. What should I do?',
@@ -98,7 +98,7 @@ export default function LiquidDamageRosebankPage() {
               <br /><span className="text-[#0FEA7A]">, 2 km Away, We Collect Fast</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook exposed to liquid in Rosebank? Switch it off now. We are 2 km away and can collect within minutes. Ultrasonic cleaning, board-level repair. Assessment from R599.
+              MacBook exposed to liquid in Rosebank? Switch it off now. We are 2 km away and can collect within minutes. Ultrasonic cleaning, board-level repair. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -143,7 +143,7 @@ export default function LiquidDamageRosebankPage() {
               Our Hyde Park workshop at 1 Hyde Lane is approximately 2 km from Rosebank Mall and The Zone, the closest collection point of any MacBook repair service in Johannesburg. When you call us after a liquid damage incident in Rosebank, we can collect within 15-30 minutes in many cases.
             </p>
             <p>
-              Our process includes full disassembly, ultrasonic cleaning of the logic board, a post-clean diagnostic under magnification, and board-level component repair where required. Assessment from R599. Every repair is covered by a ZA Support warranty.
+              Our process includes full disassembly, ultrasonic cleaning of the logic board, a post-clean diagnostic under magnification, and board-level component repair where required. Assessment. Every repair is covered by a ZA Support warranty.
             </p>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function LiquidDamageRosebankPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Rosebank MacBook Liquid Damage, Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment from R599. 2 km away. We collect immediately. Switch it off and call us.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment. 2 km away. We collect immediately. Switch it off and call us.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LIQ-ROSEBANK', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp Now, Urgent

@@ -186,7 +186,7 @@ export default function BatteryReplacementRosebankPage() {
           <div className="space-y-6">
             {[
               { step: '01', title: 'Drop In or Request Collection', desc: 'Drop your MacBook at our Hyde Park workshop (5 min from Rosebank), or message us and we will arrange a Rosebank collection.' },
-              { step: '02', title: 'Battery Health Check', desc: 'We confirm cycle count, health percentage, and the correct replacement battery for your model. From R599 for this check.' },
+              { step: '02', title: 'Battery Health Check', desc: 'We confirm cycle count, health percentage, and the correct replacement battery for your model. An assessment fee applies for this check.' },
               { step: '03', title: 'Written Quote', desc: 'Fixed price confirmed in writing before any work begins. No surprises.' },
               { step: '04', title: 'Battery Replacement', desc: 'Apple-specification battery fitted by our technician. Old battery removed and disposed of correctly.' },
               { step: '05', title: 'Same-day Return', desc: 'MacBook tested under load and ready for collection or returned to your Rosebank address. Written warranty included.' },

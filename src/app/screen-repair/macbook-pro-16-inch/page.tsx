@@ -10,9 +10,9 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 16-Inch Screen Repair Johannesburg [2026] | From R4,999 | ZA Support',
+  title: 'MacBook Pro 16-Inch Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro 16-inch Liquid Retina XDR screen repair Johannesburg from R4,999. M1 Pro/Max to M4 Pro/Max. Largest mini-LED panel, ProMotion 120Hz. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 16-inch Liquid Retina XDR screen repair Johannesburg. M1 Pro/Max to M4 Pro/Max. Largest mini-LED panel, ProMotion 120Hz. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-16-inch' },
   keywords: [
     'MacBook Pro 16 inch screen repair Johannesburg',
@@ -46,7 +46,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 16-Inch Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro 16-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Largest mini-LED Apple panel, ProMotion 120Hz, True Tone. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro 16-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Largest mini-LED Apple panel, ProMotion 120Hz, True Tone. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -60,10 +60,10 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Pro 16″ M1 Pro / M1 Max (A2485, 2021)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R4,999', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 16″ M2 Pro / M2 Max (A2780, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R5,999', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 16″ M3 Pro / M3 Max (A2991, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R6,999', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 16″ M4 Pro / M4 Max (A2993, 2024)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'R7,499', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ M1 Pro / M1 Max (A2485, 2021)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ M2 Pro / M2 Max (A2780, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ M3 Pro / M3 Max (A2991, 2023)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ M4 Pro / M4 Max (A2993, 2024)', panel: 'Liquid Retina XDR mini-LED 3456×2160', from: 'Contact for pricing', turnaround: '48-72 hrs' },
 ];
 
 const faultTypes = [
@@ -76,7 +76,7 @@ const faultTypes = [
   {
     title: 'Liquid Retina XDR Delamination',
     icon: Eye,
-    desc: 'Liquid entry into the 16-inch display assembly causes the bonding layer between the mini-LED backlight and the IPS panel to break down. Delamination typically starts at the bottom edge, where liquid pools, and spreads inward as grey or iridescent patches. The screen glass may be perfectly intact, leading some clients to assume the fault is internal software. It is not. We confirm delamination versus panel damage versus GPU fault during assessment before recommending the appropriate repair. Apple charges R18,000 to R25,000 for a 16-inch display assembly replacement; we charge significantly less.',
+    desc: 'Liquid entry into the 16-inch display assembly causes the bonding layer between the mini-LED backlight and the IPS panel to break down. Delamination typically starts at the bottom edge, where liquid pools, and spreads inward as grey or iridescent patches. The screen glass may be perfectly intact, leading some clients to assume the fault is internal software. It is not. We confirm delamination versus panel damage versus GPU fault during assessment before recommending the appropriate repair. Apple charges many times our price for a 16-inch display assembly replacement; we charge significantly less.',
     severity: 'high',
   },
   {
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 16-inch screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro 16-inch screen repair starts from R4,999 for the M1 Pro/Max model (A2485, 2021) and from R5,999 to R7,499 for later chip generations. The 16-inch display is the largest and most expensive Apple panel to source, which is reflected in the price. Apple Store charges R18,000 to R25,000 for the same repair. We provide a written fixed-price quote before any work begins, the price we quote is the price you pay.',
+      'MacBook Pro 16-inch screen repair is quoted per model, with the M1 Pro/Max (A2485, 2021) and later chip generations each priced individually. The 16-inch display is the largest and most expensive Apple panel to source, which is reflected in the price. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins, the price we quote is the price you pay.',
   },
   {
     question: 'What is the display specification on the MacBook Pro 16-inch?',
@@ -207,7 +207,7 @@ export default function ScreenRepairMacBookPro16Page() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16″ from R4,999 | 48-72 hr turnaround</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16″ screen repair | 48-72 hr turnaround</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -215,7 +215,7 @@ export default function ScreenRepairMacBookPro16Page() {
                 { icon: Monitor, label: 'Largest Apple Panel' },
                 { icon: Cpu, label: 'M1 to M4 Pro/Max' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -267,7 +267,7 @@ export default function ScreenRepairMacBookPro16Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-Inch Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include the full Liquid Retina XDR display assembly, labour, and our up-to-3 year warranty. Apple Store charges R18,000 to R25,000 for the same repair on 16-inch models. Our written fixed-price quote is valid for 7 days.
+            All prices include the full Liquid Retina XDR display assembly, labour, and our up-to-3 year warranty. Apple Store charges many times our price for the same repair on 16-inch models. Our written fixed-price quote is valid for 7 days.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -275,7 +275,7 @@ export default function ScreenRepairMacBookPro16Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Panel Type</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -292,7 +292,7 @@ export default function ScreenRepairMacBookPro16Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -355,7 +355,7 @@ export default function ScreenRepairMacBookPro16Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -372,7 +372,7 @@ export default function ScreenRepairMacBookPro16Page() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>16-inch Liquid Retina XDR replacement, R18,000 to R25,000+</li>
+                <li>16-inch Liquid Retina XDR replacement, many times our price</li>
                 <li>Accidental damage not covered by standard warranty</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>No component-level diagnosis before part swap</li>
@@ -383,7 +383,7 @@ export default function ScreenRepairMacBookPro16Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>MacBook Pro 16″ screen repair from R4,999</li>
+                <li>MacBook Pro 16″ screen repair</li>
                 <li>Full component-level diagnosis before quoting</li>
                 <li>ProMotion + True Tone + P3 gamut verified post-repair</li>
                 <li>Turnaround 48-72 hours from drop-off</li>

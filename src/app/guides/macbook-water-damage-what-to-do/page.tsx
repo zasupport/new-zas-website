@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Spilled Water on MacBook? Do This Immediately | 2026 Guide | ZA Support',
   description:
-    'Spilled water on your MacBook? Power off NOW. Expert guide: what to do, what NOT to do, and when to get professional repair. Assessment from R599.',
+    'Spilled water on your MacBook? Power off NOW. Expert guide: what to do, what NOT to do, and when to get professional repair. Assessment.',
   alternates: { canonical: 'https://zasupport.com/guides/macbook-water-damage-what-to-do' },
   keywords: [
     'spilled water on MacBook what to do',
@@ -67,7 +67,7 @@ const faqs = [
   {
     question: 'How much does MacBook water damage repair cost in South Africa?',
     answer:
-      'Assessment is R599 at ZA Support in Hyde Park, Johannesburg. Minor spills requiring only ultrasonic cleaning typically cost R1,500 to R3,500. Moderate damage with one or two failed ICs ranges from R3,500 to R6,500. Severe multi-component corrosion with power management IC replacement can range from R6,500 to R12,000. All costs are confirmed in a written quote before any work begins. From R599 assessment policy applies.',
+      'We start with an assessment at ZA Support in Hyde Park, Johannesburg. Costs then depend on the severity of the damage, from minor spills requiring only ultrasonic cleaning, through moderate damage with one or two failed ICs, up to severe multi-component corrosion with power management IC replacement. All costs are confirmed in a written quote before any work begins. Contact us for current pricing. Assessment policy applies.',
   },
   {
     question: 'What liquid causes the most damage to MacBooks?',
@@ -77,7 +77,7 @@ const faqs = [
   {
     question: 'Can you recover data from a water-damaged MacBook?',
     answer:
-      'In the vast majority of cases, yes. MacBook SSDs are separate components from the logic board processor. Even if the logic board is beyond repair, we can typically recover data by reading the NAND flash storage directly. On Apple Silicon Macs (M1, M2, M3, M4), the SSD controller is integrated into the SoC, but we have specialised techniques for these models. Data recovery is included in our R599 assessment.',
+      'In the vast majority of cases, yes. MacBook SSDs are separate components from the logic board processor. Even if the logic board is beyond repair, we can typically recover data by reading the NAND flash storage directly. On Apple Silicon Macs (M1, M2, M3, M4), the SSD controller is integrated into the SoC, but we have specialised techniques for these models. Data recovery is included in our assessment.',
   },
   {
     question: 'What does professional ultrasonic cleaning involve?',
@@ -87,17 +87,17 @@ const faqs = [
   {
     question: 'Is it worth repairing a water-damaged MacBook or should I buy a new one?',
     answer:
-      'In most cases, repair is significantly cheaper. A new MacBook costs R20,000 to R80,000 depending on the model. Our component-level repairs cost a fraction of that amount and preserve your existing data on the same machine. We provide an honest assessment, if repair cost exceeds 60% of replacement value, we recommend replacement and offer data recovery from the damaged machine instead.',
+      'In most cases, repair is significantly cheaper. A new MacBook costs many times the price of a component-level repair. Our repairs cost a fraction of a replacement and preserve your existing data on the same machine. We provide an honest assessment, if repair cost exceeds 60% of replacement value, we recommend replacement and offer data recovery from the damaged machine instead.',
   },
   {
     question: 'Does AppleCare cover liquid damage on MacBooks?',
     answer:
-      'Standard AppleCare does not cover liquid damage, Apple classifies it as accidental damage. AppleCare+ includes accidental damage coverage but charges an excess of R4,299 per incident, and Apple replaces the entire logic board rather than repairing individual components. ZA Support component-level repair is often more cost-effective than the AppleCare+ excess, and we preserve your data on the original board.',
+      'Standard AppleCare does not cover liquid damage, Apple classifies it as accidental damage. AppleCare+ includes accidental damage coverage but charges a substantial excess per incident, and Apple replaces the entire logic board rather than repairing individual components. ZA Support component-level repair is often more cost-effective than the AppleCare+ excess, and we preserve your data on the original board.',
   },
   {
     question: 'How quickly should I bring my wet MacBook in for repair?',
     answer:
-      'Within 24 hours is critical. The difference between a R2,000 clean and an R8,000 multi-component repair is often 24-48 hours of unchecked corrosion. We offer same-day collection across Johannesburg including Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. Call 064 529 5863 immediately for collection or bring it directly to our Hyde Park workshop.',
+      'Within 24 hours is critical. The difference between a simple clean and a costly multi-component repair is often 24-48 hours of unchecked corrosion. We offer same-day collection across Johannesburg including Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. Call 064 529 5863 immediately for collection or bring it directly to our Hyde Park workshop.',
   },
 ];
 
@@ -233,15 +233,15 @@ export default function MacBookWaterDamageGuidePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Same-day collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Same-day collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Clock, label: 'Same-Day Assessment' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -402,11 +402,11 @@ export default function MacBookWaterDamageGuidePage() {
 
           <div className="space-y-4 mb-8">
             {[
-              { level: 'Assessment', price: 'R599', desc: 'Full diagnostic, written quote, and repair recommendation. Applied to repair cost if you proceed.', colour: 'border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.03)]' },
-              { level: 'Minor (Ultrasonic Clean Only)', price: 'R1,500 - R3,500', desc: 'Board brought in within 24 hours. No failed components. Ultrasonic cleaning halts corrosion and restores full function. Most common outcome when clients act quickly.', colour: 'border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.03)]' },
-              { level: 'Moderate (Clean + 1-2 IC Replacements)', price: 'R3,500 - R6,500', desc: 'Corrosion has damaged one or two ICs. Typically USB-C controller, audio codec, or backlight driver. Ultrasonic clean plus micro-soldering replacement of failed components.', colour: 'border-[rgba(245,166,35,0.15)] bg-[rgba(245,166,35,0.03)]' },
-              { level: 'Severe (Multi-Component)', price: 'R6,500 - R12,000', desc: 'Extensive corrosion across multiple board areas. Power management IC replacement, multiple controller replacements, possible trace repair. Usually machines left more than 72 hours before professional treatment.', colour: 'border-[rgba(245,87,54,0.15)] bg-[rgba(245,87,54,0.03)]' },
-              { level: 'Apple Store / iStore', price: 'R18,000 - R48,000', desc: 'Full logic board replacement. Does not attempt component-level repair. Data may not be preserved. For comparison only.', colour: 'border-[rgba(200,30,30,0.15)] bg-[rgba(200,30,30,0.03)]' },
+              { level: 'Assessment', price: 'Contact for pricing', desc: 'Full diagnostic, written quote, and repair recommendation. Applied to repair cost if you proceed.', colour: 'border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.03)]' },
+              { level: 'Minor (Ultrasonic Clean Only)', price: 'Contact for pricing', desc: 'Board brought in within 24 hours. No failed components. Ultrasonic cleaning halts corrosion and restores full function. Most common outcome when clients act quickly.', colour: 'border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.03)]' },
+              { level: 'Moderate (Clean + 1-2 IC Replacements)', price: 'Contact for pricing', desc: 'Corrosion has damaged one or two ICs. Typically USB-C controller, audio codec, or backlight driver. Ultrasonic clean plus micro-soldering replacement of failed components.', colour: 'border-[rgba(245,166,35,0.15)] bg-[rgba(245,166,35,0.03)]' },
+              { level: 'Severe (Multi-Component)', price: 'Contact for pricing', desc: 'Extensive corrosion across multiple board areas. Power management IC replacement, multiple controller replacements, possible trace repair. Usually machines left more than 72 hours before professional treatment.', colour: 'border-[rgba(245,87,54,0.15)] bg-[rgba(245,87,54,0.03)]' },
+              { level: 'Apple Store / iStore', price: 'Many times our price', desc: 'Full logic board replacement. Does not attempt component-level repair. Data may not be preserved. For comparison only.', colour: 'border-[rgba(200,30,30,0.15)] bg-[rgba(200,30,30,0.03)]' },
             ].map((tier) => (
               <div key={tier.level} className={`rounded-xl border p-5 ${tier.colour}`}>
                 <div className="flex items-center justify-between mb-2">
@@ -421,7 +421,7 @@ export default function MacBookWaterDamageGuidePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              <strong className="text-[#E8F4F1]">From R599 assessment.</strong> If we cannot repair your MacBook, the R599 assessment fee applies and the machine is returned exactly as received. All repair pricing confirmed in a written quote before any work begins. Up-to-3 year warranty on all completed repairs.
+              <strong className="text-[#E8F4F1]">Assessment.</strong> If we cannot repair your MacBook, the assessment fee applies and the machine is returned exactly as received. All repair pricing confirmed in a written quote before any work begins. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
           <PricingNote />
@@ -434,16 +434,16 @@ export default function MacBookWaterDamageGuidePage() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Why Choose ZA Support for Liquid Damage Repair</h2>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed mb-8">
             <p>We have been repairing liquid-damaged Macs in Johannesburg since 2009. In 16 years, we have built the tooling, techniques, and component inventory to handle everything from a minor water splash to a catastrophic red wine flood across an entire keyboard deck.</p>
-            <p>Unlike Apple and iStore, who replace the entire logic board at R18,000 to R48,000, we repair at the component level. This means we only replace what is actually broken. A failed USB-C controller does not require a new logic board. A corroded audio IC does not mean replacing the CPU. Component-level repair saves you thousands of rands and preserves your data on the original machine.</p>
-            <p>We are honest about prognosis. If your MacBook is beyond economic repair, we tell you upfront and offer data recovery instead. We do not upsell unnecessary repairs or hold machines hostage. Our From R599 assessment policy means you only pay R599 for the assessment if we cannot fix it.</p>
+            <p>Unlike Apple and iStore, who replace the entire logic board at many times our price, we repair at the component level. This means we only replace what is actually broken. A failed USB-C controller does not require a new logic board. A corroded audio IC does not mean replacing the CPU. Component-level repair saves you thousands of rands and preserves your data on the original machine.</p>
+            <p>We are honest about prognosis. If your MacBook is beyond economic repair, we tell you upfront and offer data recovery instead. We do not upsell unnecessary repairs or hold machines hostage. Our Assessment policy means you only pay the assessment fee if we cannot fix it.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
               { title: 'Component-Level Repair', desc: 'We replace individual failed ICs, not entire boards. This costs a fraction of Apple\'s board-swap approach and preserves your data.' },
               { title: 'Same-Day Collection', desc: 'We collect liquid-damaged MacBooks from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg and all Johannesburg suburbs. Time is critical.' },
-              { title: 'Up-to-3 Year Warranty', desc: 'Every completed repair includes our warranty. If the same component fails, we repair it again at from R599.' },
-              { title: 'Transparent Pricing', desc: 'Written quote before any work begins. Transparent R599+ pricing. Assessment from R599. From R599 assessment on every case.' },
+              { title: 'Up-to-3 Year Warranty', desc: 'Every completed repair includes our warranty. If the same component fails, we repair it again at our assessment fee.' },
+              { title: 'Transparent Pricing', desc: 'Written quote before any work begins. Transparent pricing confirmed after assessment on every case.' },
             ].map((item) => (
               <div key={item.title} className="glass-card p-5 border border-[rgba(15,234,122,0.15)]">
                 <h3 className="text-[#E8F4F1] font-bold mb-2">{item.title}</h3>
@@ -501,7 +501,7 @@ export default function MacBookWaterDamageGuidePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | From R599 assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

@@ -46,7 +46,7 @@ export default function PricingNote({
           Indicative pricing only. Final pricing is confirmed once ZA Support verifies your device model and serial number.
         </p>
         <p className="text-[#E8A5A5] text-xs sm:text-sm mt-1 leading-snug">
-          All prices shown are starting points and subject to device-specific assessment. Contact ZA Support on{' '}
+          Pricing is confirmed on assessment and depends on your specific device. Contact ZA Support on{' '}
           <span className="whitespace-nowrap font-semibold">064 529 5863</span> with your model and serial number for a confirmed quote.
         </p>
         {repair && (

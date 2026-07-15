@@ -131,7 +131,7 @@ const faqs = [
   {
     question: 'What does Service Recommended mean on MacBook battery?',
     answer:
-      'Service Recommended means macOS has detected that your battery has degraded significantly, typically below 80% of its original capacity or exhibiting abnormal behaviour such as unexpected shutdowns. This is not an emergency, but it means the battery should be replaced soon. At ZA Support, we assess the exact state with coconutBattery and quote from R1,299 depending on the model. Our assessment fee starts from R599, applied toward the repair.',
+      'Service Recommended means macOS has detected that your battery has degraded significantly, typically below 80% of its original capacity or exhibiting abnormal behaviour such as unexpected shutdowns. This is not an emergency, but it means the battery should be replaced soon. At ZA Support, we assess the exact state with coconutBattery and quote depending on the model. Our assessment fee applies and is credited toward the repair.',
   },
   {
     question: 'What is the difference between NominalChargeCapacity and DesignCapacity?',
@@ -161,7 +161,7 @@ const faqs = [
   {
     question: 'How much does MacBook battery replacement cost in South Africa?',
     answer:
-      'At ZA Support in Johannesburg, MacBook battery replacement starts from R1,299 for older MacBook Air models and ranges up to R2,899 for MacBook Pro 16-inch models. Apple charges R2,800 to R7,500 depending on the model. Our price includes the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599, applied toward the repair. No Fix No Fee.',
+      'At ZA Support in Johannesburg, MacBook battery replacement pricing depends on the model, from older MacBook Air models up to MacBook Pro 16-inch models. Apple charges many times more depending on the model. Our price includes the replacement cell, labour, calibration, and a 12-month warranty. Assessment, applied toward the repair. No Fix No Fee.',
   },
   {
     question: 'Can I check MacBook battery health from Terminal?',
@@ -171,7 +171,7 @@ const faqs = [
   {
     question: 'When should I replace my MacBook battery?',
     answer:
-      'Replace your MacBook battery when: maximum capacity drops below 80% of the original design capacity, cycle count exceeds 1,000 (modern Macs), macOS shows Service Recommended or Replace Now, the battery is physically swelling (trackpad lifting, bottom case bulging), or you experience random shutdowns. At ZA Support, we assess and replace same-day from R1,299 with a 12-month warranty.',
+      'Replace your MacBook battery when: maximum capacity drops below 80% of the original design capacity, cycle count exceeds 1,000 (modern Macs), macOS shows Service Recommended or Replace Now, the battery is physically swelling (trackpad lifting, bottom case bulging), or you experience random shutdowns. At ZA Support, we assess and replace same-day with a 12-month warranty.',
   },
 ];
 
@@ -181,16 +181,16 @@ const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
 /* -- Replacement Cost Table Data ------------------------------------------- */
 const replacementCosts = [
-  { model: 'MacBook Air 13" (2017-2019)', from: 'R1,299', cycles: '1,000' },
-  { model: 'MacBook Air M1 (2020)', from: 'R1,899', cycles: '1,000' },
-  { model: 'MacBook Air M2 (2022)', from: 'R1,999', cycles: '1,000' },
-  { model: 'MacBook Pro 13" (2016-2019)', from: 'R1,499', cycles: '1,000' },
-  { model: 'MacBook Pro 13" M1/M2 (2020-2022)', from: 'R1,899', cycles: '1,000' },
-  { model: 'MacBook Pro 14" M1 Pro/Max (2021)', from: 'R2,499', cycles: '1,000' },
-  { model: 'MacBook Pro 16" (2019)', from: 'R2,499', cycles: '1,000' },
-  { model: 'MacBook Pro 16" M1 Pro/Max (2021)', from: 'R2,899', cycles: '1,000' },
-  { model: 'MacBook Pro 15" (2012-2015, Retina)', from: 'R1,499', cycles: '1,000' },
-  { model: 'MacBook Pro/Air (pre-2010)', from: 'R999', cycles: '300' },
+  { model: 'MacBook Air 13" (2017-2019)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Air M1 (2020)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Air M2 (2022)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Pro 13" (2016-2019)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Pro 13" M1/M2 (2020-2022)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Pro 14" M1 Pro/Max (2021)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Pro 16" (2019)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Pro 16" M1 Pro/Max (2021)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Pro 15" (2012-2015, Retina)', from: 'Contact for pricing', cycles: '1,000' },
+  { model: 'MacBook Pro/Air (pre-2010)', from: 'Contact for pricing', cycles: '300' },
 ];
 
 /* -- Page Component -------------------------------------------------------- */
@@ -217,7 +217,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -380,7 +380,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
               What makes coconutBattery superior to the built-in tools is its historical tracking. You can see how your battery has degraded over weeks and months, not just the current snapshot. For clients we manage under SLA, we take a coconutBattery reading at every visit and compare against the previous baseline. This is how we catch batteries that are degrading faster than expected, often a sign of load shedding damage or a faulty charging circuit.
             </p>
             <p>
-              <a href="https://bjango.com/mac/istatmenus/" target="_blank" rel="noopener noreferrer" className="text-[#0FEA7A] hover:underline font-semibold">iStat Menus</a> by Bjango is another excellent option, though it is a paid application (around R300). It sits in your menu bar and provides real-time battery health, temperature, discharge rate, and time remaining. The most useful feature for battery monitoring is the notification system, iStat Menus can alert you when capacity drops below a threshold you set.
+              <a href="https://bjango.com/mac/istatmenus/" target="_blank" rel="noopener noreferrer" className="text-[#0FEA7A] hover:underline font-semibold">iStat Menus</a> by Bjango is another excellent option, though it is a paid application. It sits in your menu bar and provides real-time battery health, temperature, discharge rate, and time remaining. The most useful feature for battery monitoring is the notification system, iStat Menus can alert you when capacity drops below a threshold you set.
             </p>
           </div>
         </div>
@@ -446,7 +446,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
               <thead>
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Cycle Rating</th>
                 </tr>
               </thead>
@@ -462,7 +462,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Assessment from R599, applied toward the repair cost if you proceed. Prices subject to model and availability. <Link href="/battery-replacement" className="text-[#0FEA7A] hover:underline">View full battery replacement pricing</Link>.
+            Assessment, applied toward the repair cost if you proceed. Prices subject to model and availability. <Link href="/battery-replacement" className="text-[#0FEA7A] hover:underline">View full battery replacement pricing</Link>.
           </p>
         </div>
       </section>
@@ -513,7 +513,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Battery Health Looking Poor?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your cycle count and maximum capacity percentage, we will tell you honestly whether you need a replacement. Assessment from R599 at our Hyde Park workshop. Same-day turnaround. No Fix No Fee. 12-month warranty on every battery we fit.
+              WhatsApp us your cycle count and maximum capacity percentage, we will tell you honestly whether you need a replacement. Assessment at our Hyde Park workshop. Same-day turnaround. No Fix No Fee. 12-month warranty on every battery we fit.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -532,7 +532,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | 12-month warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

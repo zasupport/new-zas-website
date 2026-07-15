@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Illovo | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Illovo residents. Component-level repair, board diagnostics, assessment from R599. We collect from Illovo and repair at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook logic board repair for Illovo residents. Component-level repair, board diagnostics, assessment. We collect from Illovo and repair at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/illovo' },
 };
 
@@ -42,8 +42,8 @@ const faqs = [
   { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement means swapping the entire logic board for a new or refurbished one, Apple\'s standard approach, and it typically runs into five figures. Component-level repair means we identify the single failed part on your existing board, often a power IC, a fuse, a capacitor, or a damaged trace, and replace only that. For most faults we see from Illovo clients, component-level work costs a fraction of a board swap and keeps your original board (and its serial-bound data) intact.' },
   { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In the majority of cases, yes. "No power" usually traces back to one of a handful of culprits: a failed SMC, a blown input fuse on the USB-C side, a shorted power rail caused by liquid ingress, or a failed PPBUS power management chip. We measure the rails on the bench, isolate the short, and rework the affected component. The MacBooks we collect from Illovo with this symptom have a high success rate, the main exceptions are boards with extensive corrosion from prolonged liquid exposure, which we will tell you about upfront.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs for Illovo clients are completed within 48 to 72 hours of collection, including a full overnight stress test under load. Straightforward faults like a single failed charging IC can sometimes turn around in 24 hours. More involved jobs, heavy liquid damage, GPU reballing, or repairs that need a specific part to be sourced, can take a working week. We give you a realistic timeline once the diagnostic is complete, not before.' },
-  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the full diagnostic on the bench, visual inspection under the microscope, rail measurements, board-view tracing of the fault, and a written quote for the repair. If you go ahead with the repair, the assessment fee is absorbed into the repair cost. If the board is beyond economic repair, you have paid only the assessment and we return the machine to you in Illovo.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes, the R599 figure is the starting assessment fee and it is the price we quote upfront for a standard MacBook logic board diagnostic. For more complex cases (severe liquid damage requiring ultrasonic cleaning before diagnosis, for instance) we will let you know in advance if the assessment will run higher. There are no surprise additions: whatever we agree before collection from Illovo is what you pay at assessment stage.' },
+  { question: 'What is the assessment fee?', answer: 'We charge an assessment fee. That covers the full diagnostic on the bench, visual inspection under the microscope, rail measurements, board-view tracing of the fault, and a written quote for the repair. If you go ahead with the repair, the assessment fee is absorbed into the repair cost. If the board is beyond economic repair, you have paid only the assessment and we return the machine to you in Illovo.' },
+  { question: 'Do you offer an Assessment guarantee?', answer: 'Yes, our assessment fee is the price we quote upfront for a standard MacBook logic board diagnostic. For more complex cases (severe liquid damage requiring ultrasonic cleaning before diagnosis, for instance) we will let you know in advance if the assessment will run higher. There are no surprise additions: whatever we agree before collection from Illovo is what you pay at assessment stage.' },
   { question: 'Which MacBook models do you repair for Illovo clients?', answer: 'We repair the full MacBook range: MacBook Pro 13", 14", 15", and 16" from the 2016 Touch Bar generation through to the current M3 Pro and M3 Max models; MacBook Air from the 2018 Retina onward, including the M1, M2, and M3 boards; iMac (both Intel and Apple Silicon); and Mac mini. Most of the machines we see from Illovo are M1/M2 Pro and Max MacBook Pros used by the professional services tenants, alongside a steady stream of older Intel 15" and 16" boards with GPU and charging faults.' },
 ];
 
@@ -51,7 +51,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Illovo',
-  description: 'Expert MacBook logic board repair and component-level repair for Illovo clients. Collection from Illovo, repair at Hyde Park workshop. Assessment from R599.',
+  description: 'Expert MacBook logic board repair and component-level repair for Illovo clients. Collection from Illovo, repair at Hyde Park workshop. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -90,7 +90,7 @@ export default function LogicBoardRepairIllovoPage() {
               <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Illovo sits a short hop from our Hyde Park workshop, roughly seven minutes up Oxford Road past the Wanderers and Inanda Club. We collect failed MacBooks from offices around Fricker Road, the Illovo Boulevard precinct, and the residential pockets off Harries Road, then carry out component-level logic board repair on-site. Assessment from R599, and most boards are diagnosed within 24 hours of arrival.
+              Illovo sits a short hop from our Hyde Park workshop, roughly seven minutes up Oxford Road past the Wanderers and Inanda Club. We collect failed MacBooks from offices around Fricker Road, the Illovo Boulevard precinct, and the residential pockets off Harries Road, then carry out component-level logic board repair on-site. Assessment, and most boards are diagnosed within 24 hours of arrival.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -99,8 +99,8 @@ export default function LogicBoardRepairIllovoPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level Repair' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -134,7 +134,7 @@ export default function LogicBoardRepairIllovoPage() {
               Illovo&apos;s tenant mix, boutique law firms, asset managers, and the medical suites clustered near Netcare Rosebank, means most of the MacBooks we collect here are heavily relied on for billable work. A dead logic board in this corner of Johannesburg is rarely just an inconvenience; it usually halts a deal room or a patient schedule. The faults we see most often from Illovo are USB-C charging circuits that have given up after years of daily plug cycles, GPU failures on the Intel-era 15" and 16" MacBook Pros that the consulting crowd favoured, and the classic no-power, no-fan-spin presentation that points to a failed power management IC or a shorted rail somewhere on the board.
             </p>
             <p>
-              Every machine that comes in from Illovo goes onto the bench under a stereo microscope before we promise anything. We pull schematics and board-views for the specific model, measure the rails with a bench supply, and trace the fault back to the actual component, whether that is a backlight fuse, a Thunderbolt retimer, a SMC chip, or liquid-corroded traces under the keyboard connector. Only once we know exactly which part has failed do we quote. That matters in Illovo because we have repeatedly saved clients the cost of an Apple board swap on machines where a single R450 component was the entire problem.
+              Every machine that comes in from Illovo goes onto the bench under a stereo microscope before we promise anything. We pull schematics and board-views for the specific model, measure the rails with a bench supply, and trace the fault back to the actual component, whether that is a backlight fuse, a Thunderbolt retimer, a SMC chip, or liquid-corroded traces under the keyboard connector. Only once we know exactly which part has failed do we quote. That matters in Illovo because we have repeatedly saved clients the cost of an Apple board swap on machines where a single inexpensive component was the entire problem.
             </p>
             <p>
               Collection from Illovo is straightforward, we will meet you at your offices on Fricker Road, at home off Rivonia Road, or at one of the coffee spots around Illovo Junction, whichever suits the day. Once the board is repaired and stress-tested under load for at least 24 hours, we return the machine to you with a written summary of what failed and what was replaced. If you are sitting with a MacBook that will not power on, will not charge, or shuts down under load, send us a WhatsApp on 064 529 5863 and we will arrange collection the same day where the diary allows.
@@ -244,7 +244,7 @@ export default function LogicBoardRepairIllovoPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment with to proceed.</p>
           <PricingRange page="/logic-board-repair/illovo" />
           <PricingNote variant="inline" />
         </div>
@@ -276,8 +276,8 @@ export default function LogicBoardRepairIllovoPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Illovo MacBook Fault? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Illovo. Assessment from R599. 12-month warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Illovo MacBook Fault? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Illovo. Assessment. 12-month warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-ILLOVO', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

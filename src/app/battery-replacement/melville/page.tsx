@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Melville | ZA Support Hyde Park',
-  description: 'MacBook battery replacement for Melville clients. Same-day service, from R1,899. Collection from Melville. Written warranty. Call 064 529 5863.',
+  description: 'MacBook battery replacement for Melville clients. Same-day service, collection from Melville. Written warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/melville' },
 };
 
@@ -25,7 +25,7 @@ const faults = [
 
 const faqs = [
   { question: 'Do you collect MacBooks for battery replacement from Melville?', answer: 'Yes, collection from Melville is a short run for us. From our Hyde Park workshop it is roughly 8 km via Jan Smuts and Empire Road, typically 12-18 minutes outside of peak. We collect from homes on 1st through 4th Avenues, the guesthouse strip, and the cafés and offices along 7th Street. WhatsApp 064 529 5863 with your address and a window that suits you.' },
-  { question: 'How much does MacBook battery replacement cost for Melville clients?', answer: 'Battery replacement starts at R1,899 and varies by model, older 13-inch Airs sit at the lower end, while 16-inch Pros with the larger cell pack cost more. The price includes the battery, fitting, recalibration and a written warranty. Assessment is from R599 and is credited against the repair if you proceed. We quote firmly before any work begins, so there are no surprises.' },
+  { question: 'How much does MacBook battery replacement cost for Melville clients?', answer: 'Battery replacement varies by model, older 13-inch Airs sit at the lower end, while 16-inch Pros with the larger cell pack cost more. The price includes the battery, fitting, recalibration and a written warranty. An assessment fee applies and is credited against the repair if you proceed. We quote firmly before any work begins, so there are no surprises.' },
   { question: 'How long does MacBook battery replacement take?', answer: 'Most replacements are completed the same day or by the following morning. The physical work takes a few hours, but we run a full calibration cycle afterwards to make sure the battery management system reports accurate health and cycle count. For Melville clients we will often collect mid-morning and return the machine that evening if you are close to 7th Street or Auckland Park.' },
   { question: 'Will replacing my battery erase my data?', answer: 'No, battery replacement is a hardware-only procedure and does not touch your SSD or operating system. Your files, applications and settings remain exactly as they were. That said, we always recommend a Time Machine backup or iCloud sync before any repair, simply as good practice. If you do not have a backup drive, we can advise on a suitable external SSD when we collect.' },
   { question: 'How do I check my MacBook battery health?', answer: 'Hold Option and click the Apple menu, then go to System Information → Power. You will see Cycle Count and Condition. Apple rates most modern MacBook batteries for 1000 cycles before they drop to 80% of original capacity. If Condition reads Service Recommended or Service Battery, or if your cycle count is over 800 with noticeable drain, it is time. WhatsApp the screenshot to 064 529 5863 and we will confirm what your machine needs.' },
@@ -41,7 +41,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Battery Replacement Melville',
-  description: 'Same-day MacBook battery replacement for Melville clients. From R1,899. Collection included.',
+  description: 'Same-day MacBook battery replacement for Melville clients. Collection included.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -80,14 +80,14 @@ export default function BatteryReplacementMelvillePage() {
               <br /><span className="text-[#0FEA7A]">Melville</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Melville residents, students and the creative crowd working out of 7th Street cafés. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain and charging failures. From R1,899 with a written warranty. Collection from Melville is roughly 8 km and 12-18 minutes from our Hyde Park workshop, depending on Empire Road traffic.
+              Same-day MacBook battery replacement for Melville residents, students and the creative crowd working out of 7th Street cafés. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain and charging failures, with a written warranty. Collection from Melville is roughly 8 km and 12-18 minutes from our Hyde Park workshop, depending on Empire Road traffic.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | From R1,899 | Same-day service | Collecting from Melville</span>
+              <span>Hyde Park, Johannesburg | Same-day service | Collecting from Melville</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'From R1,899'].map((l) => (
+              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'Contact for pricing'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -155,7 +155,7 @@ export default function BatteryReplacementMelvillePage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Failing? From R1,899.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Failing?</h2>
             <p className="text-[#7A9E98] mb-6">Same-day replacement. Collecting from Melville. Written warranty.</p>
             <PricingNote variant="inline" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">

@@ -102,18 +102,18 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote, no surprises.' },
+  { step: '1', title: 'Assessment', desc: 'Bring your iPhone in or WhatsApp us a photo. We inspect the display and provide a written fixed-price quote, no surprises.' },
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct OLED assembly is in stock for your exact model before committing to a repair date. Same-day is available for most models.' },
   { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the OLED display assembly. iPhone screen repairs typically take 60-90 minutes.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy, Face ID, True Tone, brightness, and colour uniformity across the full panel before returning your device.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement screen and our labour. Assessment: from R599 applies, assessment fee of from R599 applies if we cannot fix it.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement screen and our labour. Assessment applies, assessment fee applies if we cannot fix it.' },
 ];
 
 const faqs = [
   {
     question: 'How much does iPhone screen repair cost in Johannesburg?',
     answer:
-      'The exact price depends on your model and generation. We provide a assessment fee (from R599) and written fixed-price quote before starting, no surprises.',
+      'The exact price depends on your model and generation. We provide an assessment fee and written fixed-price quote before starting, no surprises.',
   },
   {
     question: 'Will Face ID still work after iPhone screen repair?',
@@ -148,7 +148,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on iPhone screen repairs?',
     answer:
-      'All iPhone screen repairs at ZA Support come with a up-to-3 year warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at from R599.',
+      'All iPhone screen repairs at ZA Support come with a up-to-3 year warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at our assessment fee.',
   },
 ];
 
@@ -205,7 +205,7 @@ export default function iPhoneScreenPage() {
               iPhone 12 through 16 Pro Max, same-day available, up-to-3 year warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599', 'Assessment: from R599', 'Up-to-3 Year Warranty', 'Face ID preserved', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment', 'Assessment', 'Up-to-3 Year Warranty', 'Face ID preserved', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -263,8 +263,8 @@ export default function iPhoneScreenPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599. Face ID and True Tone preserved.
-            Assessment: from R599, from R599 if we cannot repair your device.
+            All repairs include written up-to-3 year warranty. Assessment. Face ID and True Tone preserved.
+            Assessment fee applies if we cannot repair your device.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -278,7 +278,7 @@ export default function iPhoneScreenPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we repair daily. If you are unsure whether your
-            fault is the screen or something deeper, we diagnose first, from R599.
+            fault is the screen or something deeper, we diagnose first.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -312,7 +312,7 @@ export default function iPhoneScreenPage() {
                   {
                     icon: <Shield className="w-5 h-5" />,
                     title: 'Up-to-3 Year Warranty',
-                    desc: 'Every iPhone screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments, from R599.',
+                    desc: 'Every iPhone screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments.',
                   },
                   {
                     icon: <Clock className="w-5 h-5" />,
@@ -321,8 +321,8 @@ export default function iPhoneScreenPage() {
                   },
                   {
                     icon: <Wrench className="w-5 h-5" />,
-                    title: 'Assessment: from R599',
-                    desc: 'If we cannot fix your iPhone screen, assessment fee of from R599 applies. We give you an honest assessment and fixed price before we start.',
+                    title: 'Assessment',
+                    desc: 'If we cannot fix your iPhone screen, assessment fee applies. We give you an honest assessment and fixed price before we start.',
                   },
                   {
                     icon: <CheckCircle className="w-5 h-5" />,
@@ -435,9 +435,9 @@ export default function iPhoneScreenPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Assessment: from R599' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: from R599' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: from R599' },
+              { title: 'iPhone Battery Replacement', href: '/iphone-repair/battery', label: 'Assessment' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -461,7 +461,7 @@ export default function iPhoneScreenPage() {
             >
               Cracked iPhone Screen?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. up-to-3 year warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

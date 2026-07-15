@@ -10,9 +10,9 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M2 Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
+  title: 'MacBook Air M2 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air M2 screen repair Johannesburg from R2,499. Redesigned notch display, MagSafe, Liquid Retina. AR coating, backlight, cracked panel repair. No Fix No Fee. Hyde Park.',
+    'MacBook Air M2 screen repair Johannesburg. Redesigned notch display, MagSafe, Liquid Retina. AR coating, backlight, cracked panel repair. No Fix No Fee. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-air-m2' },
   keywords: [
     'MacBook Air M2 screen repair Johannesburg',
@@ -46,7 +46,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air M2 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Air M2 screen repair in Johannesburg. Redesigned chassis, notch display, Liquid Retina 2560×1664 (13-inch) and 2880×1864 (15-inch). True Tone preserved. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Air M2 screen repair in Johannesburg. Redesigned chassis, notch display, Liquid Retina 2560×1664 (13-inch) and 2880×1864 (15-inch). True Tone preserved. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -60,10 +60,10 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Air 13″ M2 (A2681, 2022)', panel: 'Liquid Retina 2560×1664 True Tone P3', from: 'R2,499', turnaround: '24-48 hrs' },
-  { model: 'MacBook Air 15″ M2 (A2941, 2023)', panel: 'Liquid Retina 2880×1864 True Tone P3', from: 'R2,999', turnaround: '24-48 hrs' },
-  { model: 'MacBook Air 13″ M3 (A3113, 2024)', panel: 'Liquid Retina 2560×1664 True Tone P3', from: 'R2,799', turnaround: '24-48 hrs' },
-  { model: 'MacBook Air 15″ M3 (A3114, 2024)', panel: 'Liquid Retina 2880×1864 True Tone P3', from: 'R3,199', turnaround: '24-48 hrs' },
+  { model: 'MacBook Air 13″ M2 (A2681, 2022)', panel: 'Liquid Retina 2560×1664 True Tone P3', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'MacBook Air 15″ M2 (A2941, 2023)', panel: 'Liquid Retina 2880×1864 True Tone P3', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'MacBook Air 13″ M3 (A3113, 2024)', panel: 'Liquid Retina 2560×1664 True Tone P3', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'MacBook Air 15″ M3 (A3114, 2024)', panel: 'Liquid Retina 2880×1864 True Tone P3', from: 'Contact for pricing', turnaround: '24-48 hrs' },
 ];
 
 const faultTypes = [
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'How much does MacBook Air M2 screen repair cost in Johannesburg?',
     answer:
-      'MacBook Air M2 screen repair starts from R2,499 for the 13-inch model (A2681, 2022) and from R2,999 for the 15-inch model (A2941, 2023). M3 variants are R2,799 and R3,199 respectively. Apple Store charges R7,000 to R11,000 for the same repair. We provide a written fixed-price quote before any work begins, the price we quote is the price you pay.',
+      'MacBook Air M2 screen repair pricing depends on the model and panel, with the 13-inch, 15-inch, and M3 variants each quoted individually. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins, the price we quote is the price you pay.',
   },
   {
     question: 'What is different about the MacBook Air M2 display compared to the M1?',
@@ -137,7 +137,7 @@ const faqs = [
   {
     question: 'Can you repair the MacBook Air M2 screen if the anti-reflective coating is damaged?',
     answer:
-      'Yes. Anti-reflective coating delamination is one of the most common M2 Air screen faults we see in our Hyde Park workshop. The coating appears as smeared, cloudy, or mottled patches on the display surface, the screen itself is functioning correctly. The fix is a full display assembly replacement. We cannot re-apply the coating to the existing glass. Starting from R2,499 for the 13-inch model.',
+      'Yes. Anti-reflective coating delamination is one of the most common M2 Air screen faults we see in our Hyde Park workshop. The coating appears as smeared, cloudy, or mottled patches on the display surface, the screen itself is functioning correctly. The fix is a full display assembly replacement. We cannot re-apply the coating to the existing glass. Contact us for the price on your model.',
   },
   {
     question: 'Does the MacBook Air M2 notch require special attention during screen repair?',
@@ -203,11 +203,11 @@ export default function ScreenRepairMacBookAirM2Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The redesigned Air with notch display, MagSafe, and a flat-sided chassis, repaired at our Hyde Park workshop. 13-inch and 15-inch M2 and M3 Air models. AR coating, cracked panels, backlight faults, True Tone preserved. Assessment from R599.
+              The redesigned Air with notch display, MagSafe, and a flat-sided chassis, repaired at our Hyde Park workshop. 13-inch and 15-inch M2 and M3 Air models. AR coating, cracked panels, backlight faults, True Tone preserved. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Air M2 screen from R2,499 | 24-48 hr turnaround</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Air M2 screen repair | 24-48 hr turnaround</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -215,7 +215,7 @@ export default function ScreenRepairMacBookAirM2Page() {
                 { icon: Monitor, label: '13″ + 15″ M2/M3 Air' },
                 { icon: Cpu, label: 'Notch Camera Verified' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -267,7 +267,7 @@ export default function ScreenRepairMacBookAirM2Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M2 Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include the display assembly, labour, and our up-to-3 year warranty. Apple Store charges R7,000 to R11,000 for the same repair. We provide a written fixed-price quote before any work begins.
+            All prices include the display assembly, labour, and our up-to-3 year warranty. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -275,7 +275,7 @@ export default function ScreenRepairMacBookAirM2Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Panel Type</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -292,7 +292,7 @@ export default function ScreenRepairMacBookAirM2Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -355,7 +355,7 @@ export default function ScreenRepairMacBookAirM2Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -366,13 +366,13 @@ export default function ScreenRepairMacBookAirM2Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple iStore vs ZA Support: MacBook Air M2 Screen Repair</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple charges R7,000 to R11,000 for MacBook Air M2 screen repair. We charge a fraction of that, with the same or better warranty and faster turnaround.
+            Apple charges many times more for MacBook Air M2 screen repair. We charge a fraction of that, with the same or better warranty and faster turnaround.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Display assembly replacement, R7,000 to R11,000+</li>
+                <li>Display assembly replacement, many times our price</li>
                 <li>AR coating damage not covered by standard warranty</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>True Tone requires Apple Configurator re-pair</li>
@@ -383,7 +383,7 @@ export default function ScreenRepairMacBookAirM2Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>MacBook Air M2 screen from R2,499</li>
+                <li>MacBook Air M2 screen repair</li>
                 <li>True Tone data migrated as standard</li>
                 <li>Camera and notch sensors tested post-repair</li>
                 <li>Turnaround 24-48 hours from drop-off</li>

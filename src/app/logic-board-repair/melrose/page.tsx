@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Melrose | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Melrose residents. Component-level repair, board diagnostics, assessment from R599. We collect from Melrose and repair at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook logic board repair for Melrose residents. Component-level repair, board diagnostics, assessment. We collect from Melrose and repair at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/melrose' },
 };
 
@@ -40,10 +40,10 @@ const faqs = [
   { question: 'Do you collect MacBooks from Melrose?', answer: 'Yes. We collect across Melrose Arch, Melrose North, Melrose Estate, and the practices along Athol Street and Corlett Drive. Because the run from Hyde Park is short, we can usually arrange same-day collection if you call before midday on 064 529 5863.' },
   { question: 'How far is Melrose from your Hyde Park workshop?', answer: 'Approximately 8 minutes by car, depending on which side of Melrose you are on. From Melrose Arch we take Corlett Drive and Glenhove Road; from Melrose North it is a short trip across Athol Oaklands. Traffic on the M1 rarely affects this route since we stay on suburban roads.' },
   { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we isolate the specific failed part on the existing logic board, a power management IC, a MOSFET, a capacitor, a backlight fuse, or a Thunderbolt retimer, and replace only that component. A board replacement swaps the entire logic board for another unit, which is usually 4 to 8 times more expensive and ties your data and Touch ID to a different board. For most Melrose clients we recommend component-level repair where the fault allows it.' },
-  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. A completely dead MacBook usually points to a short on one of the power rails or a failed PMIC, both of which we diagnose under the microscope and repair at component level. We have brought back several apparently dead machines from Melrose practices where the fault turned out to be a single shorted capacitor on the 3V3 line. Assessment from R599 confirms the fault before any repair is quoted.' },
+  { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. A completely dead MacBook usually points to a short on one of the power rails or a failed PMIC, both of which we diagnose under the microscope and repair at component level. We have brought back several apparently dead machines from Melrose practices where the fault turned out to be a single shorted capacitor on the 3V3 line. Assessment confirms the fault before any repair is quoted.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs for Melrose clients are completed within 48 to 72 hours once the machine is on the bench. Straightforward power faults often turn around inside a day. More involved work, for example liquid damage that has spread across multiple rails, or a CPU/SoC reball, can take 4 to 7 working days because we test under load for an extended period before returning the machine.' },
-  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. That covers the full diagnostic process: visual inspection under the microscope, electrical testing of the power rails, schematic-level fault tracing, and a written quote for the repair. If you go ahead with the repair, the assessment fee is included in the repair cost rather than charged on top.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The R599 assessment is the entry point for every logic board job from Melrose. Before we touch anything, you receive a clear written quote with the diagnosed fault and the repair cost. If you decide not to proceed, you pay only the assessment fee and the machine is returned to you in the same condition we received it.' },
+  { question: 'What is the assessment fee?', answer: 'An assessment fee applies. That covers the full diagnostic process: visual inspection under the microscope, electrical testing of the power rails, schematic-level fault tracing, and a written quote for the repair. If you go ahead with the repair, the assessment fee is included in the repair cost rather than charged on top.' },
+  { question: 'Do you offer an Assessment guarantee?', answer: 'Yes. The assessment is the entry point for every logic board job from Melrose. Before we touch anything, you receive a clear written quote with the diagnosed fault and the repair cost. If you decide not to proceed, you pay only the assessment fee and the machine is returned to you in the same condition we received it.' },
   { question: 'Which MacBook models do you repair for Melrose clients?', answer: 'All current and recent MacBook models, MacBook Pro and MacBook Air from the Intel era (2015 onward) through to the Apple Silicon M1, M2, and M3 machines, plus iMac and Mac mini logic boards. We also handle Touch Bar Pros and the 16-inch Pros that are common with the creative studios in Melrose Arch. If you are unsure whether your model is supported, send the serial number via WhatsApp on wa.me/27645295863 and we will confirm before collection.' },
 ];
 
@@ -51,7 +51,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Melrose',
-  description: 'Expert MacBook logic board repair and component-level repair for Melrose clients. Collection from Melrose, repair at Hyde Park workshop. Assessment from R599.',
+  description: 'Expert MacBook logic board repair and component-level repair for Melrose clients. Collection from Melrose, repair at Hyde Park workshop. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -90,7 +90,7 @@ export default function LogicBoardRepairMelrosePage() {
               <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Melrose sits roughly 8 minutes from our Hyde Park workshop along Athol Oaklands and Corlett Drive, which makes us the closest component-level MacBook logic board repair option for the precinct. We collect from Melrose Arch, Melrose North, and the medical and boutique strips along Athol Street, then return the machine once the board is properly tested. Assessment from R599.
+              Melrose sits roughly 8 minutes from our Hyde Park workshop along Athol Oaklands and Corlett Drive, which makes us the closest component-level MacBook logic board repair option for the precinct. We collect from Melrose Arch, Melrose North, and the medical and boutique strips along Athol Street, then return the machine once the board is properly tested. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -99,8 +99,8 @@ export default function LogicBoardRepairMelrosePage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level Repair' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -244,7 +244,7 @@ export default function LogicBoardRepairMelrosePage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment with to proceed.</p>
           <PricingRange page="/logic-board-repair/melrose" />
           <PricingNote variant="inline" />
         </div>
@@ -276,8 +276,8 @@ export default function LogicBoardRepairMelrosePage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Melrose MacBook Fault? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Melrose. Assessment from R599. 12-month warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Melrose MacBook Fault? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Melrose. Assessment. 12-month warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MELROSE', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

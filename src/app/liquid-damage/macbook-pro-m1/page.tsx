@@ -11,7 +11,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Pro M1 Liquid Damage Repair Johannesburg',
   description:
-    'MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture means spills affect CPU, GPU and RAM simultaneously. Ultrasonic cleaning, component-level repair. Assessment from R599. Hyde Park.',
+    'MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture means spills affect CPU, GPU and RAM simultaneously. Ultrasonic cleaning, component-level repair. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m1' },
   keywords: [
     'MacBook Pro M1 liquid damage repair Johannesburg',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Pro M1 fix',
     'MacBook Pro M1 USB-C corrosion repair',
     'M1 MacBook Pro coffee spill repair Johannesburg',
-    'MacBook Pro M1 liquid damage assessment from R599',
+    'MacBook Pro M1 liquid damage assessment',
   ],
 };
 
@@ -42,7 +42,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro M1 be repaired?',
     answer:
-      'Yes, in most cases. The M1 chip itself is remarkably resilient, we find that liquid damage on M1 MacBook Pros typically destroys peripheral circuits first: USB-C controllers, power management ICs, and audio amplifiers. These are all individually repairable components. At ZA Support in Hyde Park, we have successfully recovered M1 MacBook Pros even after significant spills. Assessment from R599.',
+      'Yes, in most cases. The M1 chip itself is remarkably resilient, we find that liquid damage on M1 MacBook Pros typically destroys peripheral circuits first: USB-C controllers, power management ICs, and audio amplifiers. These are all individually repairable components. At ZA Support in Hyde Park, we have successfully recovered M1 MacBook Pros even after significant spills. Assessment.',
   },
   {
     question: 'Why is M1 liquid damage different from Intel MacBook Pro liquid damage?',
@@ -52,7 +52,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M1 liquid damage repair cost?',
     answer:
-      'The cost depends entirely on the severity and location of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. USB-C board corrosion requiring controller replacement costs more. Severe logic board corrosion with multiple IC failures is the most complex case. We confirm the exact cost before any work begins. Assessment from R599. No Fix No Fee.',
+      'The cost depends entirely on the severity and location of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. USB-C board corrosion requiring controller replacement costs more. Severe logic board corrosion with multiple IC failures is the most complex case. We confirm the exact cost before any work begins. Assessment. No Fix No Fee.',
   },
   {
     question: 'My M1 MacBook Pro got wet but still works, do I need repair?',
@@ -62,7 +62,7 @@ const faqs = [
   {
     question: 'Can you recover data from a water-damaged MacBook Pro M1?',
     answer:
-      'In most cases, yes. On M1 MacBook Pros, the NAND flash storage is a separate component from the M1 die. Even if the logic board is beyond repair, we can usually recover data by reading the storage chips directly. Data recovery is assessed as part of our R599 diagnostic.',
+      'In most cases, yes. On M1 MacBook Pros, the NAND flash storage is a separate component from the M1 die. Even if the logic board is beyond repair, we can usually recover data by reading the storage chips directly. Data recovery is assessed as part of our diagnostic.',
   },
   {
     question: 'How long does M1 MacBook Pro liquid damage repair take?',
@@ -77,7 +77,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a liquid-damaged M1 MacBook Pro or should I buy new?',
     answer:
-      'In the vast majority of cases, repair is significantly more cost-effective. A new MacBook Pro M1 replacement costs R20,000-R50,000 depending on specification. Our component-level repairs cost a fraction of this, and we preserve your existing data on the same machine. We provide an honest assessment, if repair is not economical, we tell you upfront.',
+      'In the vast majority of cases, repair is significantly more cost-effective. A new MacBook Pro M1 replacement costs many times our repair price depending on specification. Our component-level repairs cost a fraction of this, and we preserve your existing data on the same machine. We provide an honest assessment, if repair is not economical, we tell you upfront.',
   },
   {
     question: 'Do you collect liquid-damaged MacBook Pros from across Johannesburg?',
@@ -140,7 +140,7 @@ const severityLabels: Record<string, string> = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M1 Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture specialist. Ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+  description: 'Professional MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture specialist. Ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -167,7 +167,7 @@ export default function MacBookProM1LiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -175,7 +175,7 @@ export default function MacBookProM1LiquidDamagePage() {
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 Specialist' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -247,7 +247,7 @@ export default function MacBookProM1LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs quoted before work begins. No Fix No Fee on every case, if we cannot repair your M1 MacBook Pro, an assessment fee of R599 applies and the machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              All repairs quoted before work begins. No Fix No Fee on every case, if we cannot repair your M1 MacBook Pro, an assessment fee applies and the machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -261,7 +261,7 @@ export default function MacBookProM1LiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Entire logic board replacement, R18,000 to R48,000</li>
+                <li>Entire logic board replacement, many times our price</li>
                 <li>Liquid damage not covered by standard AppleCare</li>
                 <li>Data may not be preserved during board swap</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
@@ -272,7 +272,7 @@ export default function MacBookProM1LiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed parts replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>Turnaround 24-72 hours for most cases</li>
                 <li>Up-to-3 year warranty on all repairs</li>
@@ -299,7 +299,7 @@ export default function MacBookProM1LiquidDamagePage() {
               { step: '2', title: 'Disconnect everything: charger, peripherals, all USB-C cables', detail: 'Any connected USB-C cable provides a power path that accelerates electrolytic corrosion on the USB-C controller and M1 die traces. Remove every cable immediately.', urgent: true },
               { step: '3', title: 'Flip it keyboard-down onto a towel', detail: 'Gravity is your ally. The M1 MacBook Pro logic board sits below the keyboard, flipping the machine drains liquid away from the board rather than pooling on it.', urgent: false },
               { step: '4', title: 'Do NOT put it in rice, use a hairdryer, or attempt to charge it', detail: 'Rice does nothing for corrosion. Heat drives moisture deeper into BGA connections. Charging energises corroded traces. All three actions make the damage worse, not better.', urgent: true },
-              { step: '5', title: 'Bring it to ZA Support within 24 hours', detail: 'In our experience with M1 boards, the difference between a R2,000 repair and an unrepairable board is often 24-48 hours of unchecked corrosion. Call us on 064 529 5863 for same-day collection.', urgent: false },
+              { step: '5', title: 'Bring it to ZA Support within 24 hours', detail: 'In our experience with M1 boards, the difference between a straightforward repair and an unrepairable board is often 24-48 hours of unchecked corrosion. Call us on 064 529 5863 for same-day collection.', urgent: false },
             ].map((item) => (
               <div key={item.step} className={`flex gap-5 p-6 rounded-2xl border ${item.urgent ? 'border-[rgba(245,87,54,0.25)] bg-[rgba(245,87,54,0.04)]' : 'border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.03)]'}`}>
                 <div className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm font-extrabold ${item.urgent ? 'bg-[rgba(245,87,54,0.15)] text-[#F55736]' : 'bg-[rgba(15,234,122,0.12)] text-[#0FEA7A]'}`}>
@@ -363,7 +363,7 @@ export default function MacBookProM1LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

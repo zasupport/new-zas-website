@@ -14,7 +14,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Enterprise Apple Support Johannesburg | Fleet Management & MDM | ZA Support',
   description:
-    'Enterprise Apple fleet management, MDM implementation, and dedicated IT support for businesses in Johannesburg. BEE Level 1 provider. Assessment from R599. R899/hr. Call 064 529 5863.',
+    'Enterprise Apple fleet management, MDM implementation, and dedicated IT support for businesses in Johannesburg. BEE Level 1 provider. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/enterprise' },
   keywords: [
     'enterprise apple support johannesburg',
@@ -77,7 +77,7 @@ const enterpriseFaqs = [
   {
     question: 'How does your enterprise pricing work?',
     answer:
-      'Enterprise engagements begin with a comprehensive IT assessment from R599. Our standard hourly rate is R899/hr for ad-hoc work. For ongoing support, we offer monthly SLA packages tailored to your fleet size, response time requirements, and scope of services. SLA clients receive priority queuing, dedicated spare parts inventory, and discounted hourly rates. Contact us for a custom proposal.',
+      'Enterprise engagements begin with a comprehensive IT assessment. Our standard hourly rate applies to ad-hoc work. For ongoing support, we offer monthly SLA packages tailored to your fleet size, response time requirements, and scope of services. SLA clients receive priority queuing, dedicated spare parts inventory, and discounted hourly rates. Contact us for a custom proposal.',
   },
   {
     question: 'Do you support field teams with iPad and iPhone deployments?',
@@ -203,7 +203,7 @@ export default function EnterprisePage() {
             </h1>
 
             <p className="text-base sm:text-lg text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
-              We have managed Apple fleets for medical practices, architecture firms, and corporate offices across Johannesburg since 2009. From 5 devices to 500+, our in-house team handles procurement, MDM, repairs, and ongoing IT support under one SLA. Assessment from R599. R899/hr.
+              We have managed Apple fleets for medical practices, architecture firms, and corporate offices across Johannesburg since 2009. From 5 devices to 500+, our in-house team handles procurement, MDM, repairs, and ongoing IT support under one SLA. Assessment fee applies.
             </p>
 
             {/* Stats */}
@@ -457,13 +457,13 @@ export default function EnterprisePage() {
             <h3 className="text-2xl font-extrabold text-[#E8F4F1] mb-4">How We Work With Enterprise Clients</h3>
             <div className="space-y-4 text-[#7A9E98] leading-relaxed">
               <p>
-                Every enterprise engagement begins with a comprehensive IT assessment. We audit your current Apple fleet, network infrastructure, security posture, and software licensing. This is not a generic checklist. We sit with your team, understand your workflows, and identify the specific gaps that are costing you time and money. The assessment fee starts from R599 and is credited against your first SLA invoice.
+                Every enterprise engagement begins with a comprehensive IT assessment. We audit your current Apple fleet, network infrastructure, security posture, and software licensing. This is not a generic checklist. We sit with your team, understand your workflows, and identify the specific gaps that are costing you time and money. The assessment fee applies and is credited against your first SLA invoice.
               </p>
               <p>
                 From there, we build a tailored support plan. The most common mistake we see with corporate Apple deployments in Johannesburg is organisations treating Macs like Windows machines, applying the wrong management tools, missing macOS-specific security settings, and ignoring the Apple ecosystem integrations that make the platform productive. We fix that from day one.
               </p>
               <p>
-                Our standard rate is R899/hr for ad-hoc work, but most enterprise clients opt for a monthly SLA that includes proactive monitoring, priority response, dedicated spare parts, and a fixed monthly cost. Whether you are a 10-person architecture firm running Archicad on MacBook Pro or a 200-seat corporate office with iPads for your field sales team, we scale our service to your requirements.
+                Our standard hourly rate applies to ad-hoc work, but most enterprise clients opt for a monthly SLA that includes proactive monitoring, priority response, dedicated spare parts, and a fixed monthly cost. Whether you are a 10-person architecture firm running Archicad on MacBook Pro or a 200-seat corporate office with iPads for your field sales team, we scale our service to your requirements.
               </p>
               <p>
                 We integrate fully with your internal IT infrastructure. Active Directory, Azure AD, Google Workspace, your existing ticketing system, your VPN: we plug into all of it. For many of our clients, particularly medical practices and SMEs, we effectively become their outsourced IT department. For larger organisations, we augment your internal team with Apple-specific expertise they may lack.
@@ -520,7 +520,7 @@ export default function EnterprisePage() {
               Ready to Scale Your Apple IT?
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
-              Book an enterprise IT assessment from R599. We will audit your fleet, identify gaps, and deliver a tailored support proposal within 48 hours. BEE Level 1 certified. R899/hr standard rate.
+              Book an enterprise IT assessment. We will audit your fleet, identify gaps, and deliver a tailored support proposal within 48 hours. BEE Level 1 certified. Standard hourly rate applies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

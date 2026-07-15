@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   title:
     'Medical Practice IT Management Johannesburg | Apple MDM for Doctors | ZA Support',
   description:
-    'Medical practice IT management in Johannesburg. HPCSA-compliant Apple device management, POPIA patient data security, MDM for doctors. Assessment from R599. BEE Level 1. Call 064 529 5863.',
+    'Medical practice IT management in Johannesburg. HPCSA-compliant Apple device management, POPIA patient data security, MDM for doctors. Assessment. BEE Level 1. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/medical-it' },
   keywords: [
     'medical practice IT management johannesburg',
@@ -50,7 +50,7 @@ const faqs = [
     question:
       'What does medical practice IT management include at ZA Support?',
     answer:
-      'Our medical practice IT management covers the full technology lifecycle for your practice: Apple device procurement and setup, MDM (Mobile Device Management) enrolment, POPIA-compliant patient data configuration, practice management software support (GoodX, Healthbridge, MedEDI, Elixir), network segmentation between clinical and patient WiFi, encrypted backup with monthly restore verification, iPad kiosk configuration for patient check-in, and ongoing remote monitoring of every device. We operate at R899 per hour for ad-hoc work, with monthly SLA plans available for practices wanting all-inclusive coverage.',
+      'Our medical practice IT management covers the full technology lifecycle for your practice: Apple device procurement and setup, MDM (Mobile Device Management) enrolment, POPIA-compliant patient data configuration, practice management software support (GoodX, Healthbridge, MedEDI, Elixir), network segmentation between clinical and patient WiFi, encrypted backup with monthly restore verification, iPad kiosk configuration for patient check-in, and ongoing remote monitoring of every device. We operate at our standard hourly rate for ad-hoc work, with monthly SLA plans available for practices wanting all-inclusive coverage.',
   },
   {
     question:
@@ -74,7 +74,7 @@ const faqs = [
     question:
       'How quickly can you respond if our practice experiences a Mac failure during consulting hours?',
     answer:
-      'For practices on our Managed IT plan, we offer same-day collection from anywhere in greater Johannesburg, typically within 2 hours of your call. We carry loaner MacBooks configured to connect to your practice management system, so your consulting room is never offline for more than the time it takes us to arrive. Logic board repairs are completed in our workshop within 24 to 48 hours. For ad-hoc clients, our assessment starts from R599 with priority turnaround available.',
+      'For practices on our Managed IT plan, we offer same-day collection from anywhere in greater Johannesburg, typically within 2 hours of your call. We carry loaner MacBooks configured to connect to your practice management system, so your consulting room is never offline for more than the time it takes us to arrive. Logic board repairs are completed in our workshop within 24 to 48 hours. For ad-hoc clients, our assessment applies with priority turnaround available.',
   },
   {
     question:
@@ -86,7 +86,7 @@ const faqs = [
     question:
       'What is the cost of setting up iPad check-in kiosks for patient registration?',
     answer:
-      'iPad kiosk setup includes the device configuration, MDM enrolment, guided access mode (locking the iPad to your check-in application), a secure mounting bracket, and network configuration on your clinical WiFi. Setup is charged at our standard rate of R899 per hour, with most single-kiosk installations completed within 2 hours. The iPad hardware itself is quoted separately based on the model your practice requires. For practices on a monthly SLA, kiosk support and troubleshooting is included.',
+      'iPad kiosk setup includes the device configuration, MDM enrolment, guided access mode (locking the iPad to your check-in application), a secure mounting bracket, and network configuration on your clinical WiFi. Setup is charged at our standard hourly rate, with most single-kiosk installations completed within 2 hours. The iPad hardware itself is quoted separately based on the model your practice requires. For practices on a monthly SLA, kiosk support and troubleshooting is included.',
   },
   {
     question:
@@ -347,7 +347,7 @@ export default function MedicalITPage() {
                 'HPCSA audit documentation',
                 'iPad check-in kiosks',
                 'BEE Level 1 certified',
-                'Assessment from R599',
+                'Assessment',
               ].map((item) => (
                 <div
                   key={item}
@@ -414,7 +414,7 @@ export default function MedicalITPage() {
                   },
                   {
                     title: 'Downtime costs more than repair',
-                    desc: 'A solo practitioner billing R2,500 per consultation loses R20,000 in a single day of downtime. Our Managed IT clients get same-day response with loaner devices to eliminate that risk entirely.',
+                    desc: 'A solo practitioner loses a full day of billing during a single day of downtime. Our Managed IT clients get same-day response with loaner devices to eliminate that risk entirely.',
                   },
                   {
                     title:
@@ -450,8 +450,8 @@ export default function MedicalITPage() {
                   For a Managed IT client, we dispatched a technician
                   with a loaner iMac within 90 minutes. The practice
                   continued seeing patients without interruption. The
-                  original device was repaired (failing SSD, component
-                  cost R1,800) and returned within 48 hours. Total
+                  original device was repaired (failing SSD) and
+                  returned within 48 hours. Total
                   downtime for the practice: zero.
                 </p>
               </div>
@@ -611,7 +611,7 @@ export default function MedicalITPage() {
                     <strong className="text-[#E8F4F1]">
                       Setup time:
                     </strong>{' '}
-                    Approximately 2 hours at R899/hr
+                    Approximately 2 hours at our standard hourly rate
                   </p>
                 </div>
               </div>
@@ -674,8 +674,8 @@ export default function MedicalITPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-sm mt-6">
-            Ad-hoc support available at R899 per hour. Assessment from
-            R599.{' '}
+            Ad-hoc support available at our standard hourly rate.
+            Assessment fee applies.{' '}
             <Link
               href="/contact"
               className="text-[#0FEA7A] hover:underline"
@@ -941,8 +941,8 @@ export default function MedicalITPage() {
               IT Management for Your Medical Practice
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Assessment from R599. R899 per hour ad-hoc. Monthly SLA
-              plans available.
+              Assessment. Standard hourly rate for ad-hoc work.
+              Monthly SLA plans available.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">
               BEE Level 1 &middot; POPIA-compliant &middot;

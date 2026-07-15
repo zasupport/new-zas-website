@@ -12,9 +12,9 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'iPhone Screen Repair Johannesburg [2026] | From R1,299 | ZA Support',
+  title: 'iPhone Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'iPhone screen repair in Johannesburg from R1,299. OLED & LCD panels, True Tone calibration, Face ID preserved. Same-day repair at Hyde Park. Call 064 529 5863.',
+    'iPhone screen repair in Johannesburg. OLED & LCD panels, True Tone calibration, Face ID preserved. Same-day repair at Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/iphone' },
   keywords: [
     'iPhone screen repair Johannesburg',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'iPhone 15 screen repair Johannesburg',
     'iPhone 16 Pro Max screen repair',
     'iPhone True Tone screen replacement',
-    'broken iPhone screen repair from R1299',
+    'broken iPhone screen repair Johannesburg',
     'iPhone screen repair same day Johannesburg',
     'iPhone Face ID screen repair Johannesburg',
   ],
@@ -44,77 +44,77 @@ const breadcrumbSchemaItems = [
 const pricingTiers = [
   {
     range: 'iPhone 8, SE (2nd & 3rd gen)',
-    price: 'From R1,299',
+    price: 'Contact for pricing',
     panel: 'LCD (IPS Retina)',
     note: 'True Tone not supported on these models',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone X, XS, XS Max',
-    price: 'From R1,499',
+    price: 'Contact for pricing',
     panel: 'Super Retina OLED',
     note: 'True Tone + wide colour (P3)',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 11',
-    price: 'From R1,399',
+    price: 'Contact for pricing',
     panel: 'Liquid Retina LCD',
     note: 'True Tone, Haptic Touch',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 12, 12 Mini, 12 Pro',
-    price: 'From R1,799',
+    price: 'Contact for pricing',
     panel: 'Super Retina XDR OLED',
     note: 'Ceramic Shield glass, True Tone, P3',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 13, 13 Mini, 13 Pro',
-    price: 'From R1,799',
+    price: 'Contact for pricing',
     panel: 'Super Retina XDR OLED',
     note: 'ProMotion 120 Hz on Pro models',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 14, 14 Plus',
-    price: 'From R1,999',
+    price: 'Contact for pricing',
     panel: 'Super Retina XDR OLED',
     note: 'Emergency SOS via satellite (unaffected by repair)',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 14 Pro, 14 Pro Max',
-    price: 'From R2,199',
+    price: 'Contact for pricing',
     panel: 'ProMotion Always-On OLED',
     note: 'Dynamic Island; 120 Hz ProMotion',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 15, 15 Plus',
-    price: 'From R2,499',
+    price: 'Contact for pricing',
     panel: 'Super Retina XDR OLED',
     note: 'USB-C; titanium frame on Pro',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 15 Pro, 15 Pro Max',
-    price: 'From R2,799',
+    price: 'Contact for pricing',
     panel: 'ProMotion Always-On OLED',
     note: 'Action button; titanium chassis',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 16, 16 Plus',
-    price: 'From R2,499',
+    price: 'Contact for pricing',
     panel: 'Super Retina XDR OLED',
     note: 'Camera Control button; Apple Intelligence',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 16 Pro, 16 Pro Max',
-    price: 'From R2,999',
+    price: 'Contact for pricing',
     panel: 'ProMotion Always-On OLED',
     note: 'Largest display Apple has made, 6.9″',
     turnaround: '24-48 hrs',
@@ -148,7 +148,7 @@ const faqs = [
   {
     question: 'How much does iPhone screen repair cost in Johannesburg?',
     answer:
-      'iPhone screen repair at ZA Support starts from R1,299 for iPhone 8 and SE models with LCD panels. iPhone 12 to 14 series repairs start from R1,799. iPhone 15 and 16 Pro Max repairs start from R2,499 to R2,999 depending on the model. All prices include labour, the display assembly, True Tone calibration transfer where applicable, and our up-to-3 year warranty. Compare this to the Apple Store, where iPhone screen replacements run between R3,500 and R9,000 depending on model.',
+      'iPhone screen repair pricing at ZA Support depends on the model, with the iPhone 8 and SE LCD panels at the lower end and the iPhone 15 and 16 Pro Max at the upper end. All prices include labour, the display assembly, True Tone calibration transfer where applicable, and our up-to-3 year warranty. Compare this to the Apple Store, which charges many times our price depending on model.',
   },
   {
     question: 'Does iPhone screen repair affect Face ID?',
@@ -188,12 +188,12 @@ const faqs = [
   {
     question: 'Does iPhone screen repair affect my insurance excess or warranty?',
     answer:
-      'Third-party repairs do void Apple\'s remaining warranty on the display assembly, but they do not void cover on other components under South African Consumer Protection Act rules. For short-term insurance claims, the excess on iPhone screen damage is often R1,500 to R2,500 depending on the policy, in many cases, paying for a repair directly rather than claiming is more cost-effective for lower-tier iPhones. We do not bill insurers directly, but we can provide a written quote that meets most insurer requirements for a managed repair.',
+      'Third-party repairs do void Apple\'s remaining warranty on the display assembly, but they do not void cover on other components under South African Consumer Protection Act rules. For short-term insurance claims, the excess on iPhone screen damage is often significant depending on the policy, in many cases, paying for a repair directly rather than claiming is more cost-effective for lower-tier iPhones. We do not bill insurers directly, but we can provide a written quote that meets most insurer requirements for a managed repair.',
   },
   {
     question: 'Do you offer a warranty on iPhone screen replacements?',
     answer:
-      'Yes. Every iPhone screen repair at ZA Support includes an up-to-3 year warranty covering the display panel and our workmanship. If the replacement display develops a fault, dead pixels, touch issues, backlight failure, or colour shift, within the warranty period, we repair or replace it at from R599. The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
+      'Yes. Every iPhone screen repair at ZA Support includes an up-to-3 year warranty covering the display panel and our workmanship. If the replacement display develops a fault, dead pixels, touch issues, backlight failure, or colour shift, within the warranty period, we repair or replace it at our assessment fee. The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
   },
   {
     question: 'Do you repair iPhone screens in Sandton or do I need to come to Hyde Park?',
@@ -209,7 +209,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'iPhone Screen Repair Johannesburg',
   description:
-    'Professional iPhone screen repair in Johannesburg. OLED and LCD panel replacement, True Tone calibration transfer, Face ID preserved. Same-day repair from R1,299 at Hyde Park workshop.',
+    'Professional iPhone screen repair in Johannesburg. OLED and LCD panel replacement, True Tone calibration transfer, Face ID preserved. Same-day repair at Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -254,11 +254,11 @@ export default function ScreenRepairIphonePage() {
               The most common iPhone screen repair we do at our Hyde Park workshop is cracked OLED glass on the 12 and 13 series, typically from a hip-height drop onto tiled floors, which is unforgiving to any glass panel. We carry stock for every iPhone from 8 through to 16 Pro Max, and most repairs are completed same day.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed text-base">
-              From R1,299. True Tone calibration transferred as standard. Face ID preserved. IP68 re-sealed. Up-to-3 year warranty. Assessment from R599 if we need to diagnose before quoting.
+              Contact for pricing. True Tone calibration transferred as standard. Face ID preserved. IP68 re-sealed. Up-to-3 year warranty. Assessment if we need to diagnose before quoting.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: CheckCircle, label: 'True Tone Calibrated' },
                 { icon: Smartphone, label: 'Face ID Preserved' },
                 { icon: Zap, label: 'Same-Day Repair' },
@@ -319,10 +319,10 @@ export default function ScreenRepairIphonePage() {
             iPhone Screen Repair Pricing
           </h2>
           <p className="text-[#7A9E98] mb-3 max-w-3xl leading-relaxed">
-            All prices include the display assembly, True Tone calibration transfer where supported, IP68 re-seal, and our up-to-3 year warranty. The Apple Store charges R3,500 to R9,000 for the same models, our pricing represents a saving of 50-70% on every repair.
+            All prices include the display assembly, True Tone calibration transfer where supported, IP68 re-seal, and our up-to-3 year warranty. The Apple Store charges many times our price for the same models, our pricing represents a saving of 50-70% on every repair.
           </p>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed text-sm">
-            For South African short-term insurance holders: many policies carry an excess of R1,500 to R2,500 on accidental screen damage. On iPhone 12 and below, claiming on insurance for a screen repair is often not economical compared to paying for the repair directly, speak to us and we will help you make the right call.
+            For South African short-term insurance holders: many policies carry a significant excess on accidental screen damage. On iPhone 12 and below, claiming on insurance for a screen repair is often not economical compared to paying for the repair directly, speak to us and we will help you make the right call.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(15,234,122,0.12)]">
             <table className="w-full text-sm">
@@ -352,7 +352,7 @@ export default function ScreenRepairIphonePage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Prices are indicative and confirmed in writing before any work begins. Assessment from R599 applies where diagnosis is required before a quote can be given.
+            Prices are indicative and confirmed in writing before any work begins. Assessment applies where diagnosis is required before a quote can be given.
           </p>
           <PricingRange page="/screen-repair/iphone" />
           <PricingNote variant="inline" />
@@ -429,8 +429,8 @@ export default function ScreenRepairIphonePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iPhone 15 screen: R5,500-R9,000 out of warranty</li>
-                <li>iPhone 12: R3,500-R5,000 out of warranty</li>
+                <li>iPhone 15 screen: many times our price out of warranty</li>
+                <li>iPhone 12: many times our price out of warranty</li>
                 <li>Turnaround: 2-5 business days via depot</li>
                 <li>AppleCare+ required for reduced pricing</li>
                 <li>Walk-in availability varies; appointments often 48 hrs out</li>
@@ -439,7 +439,7 @@ export default function ScreenRepairIphonePage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iPhone 15 from R2,499 | iPhone 12 from R1,799</li>
+                <li>iPhone 15 and iPhone 12 screen repair, contact for pricing</li>
                 <li>Same-day repair for most models</li>
                 <li>Up-to-3 year warranty on display and workmanship</li>
                 <li>True Tone transferred | Face ID preserved</li>
@@ -450,7 +450,7 @@ export default function ScreenRepairIphonePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <AlertTriangle className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              From R599 assessment applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay the R599 diagnostic fee and receive your phone back exactly as presented. We quote in writing before every repair, there are no surprises.
+              Assessment applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay the diagnostic fee and receive your phone back exactly as presented. We quote in writing before every repair, there are no surprises.
             </p>
           </div>
         </div>
@@ -528,7 +528,7 @@ export default function ScreenRepairIphonePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | From R1,299 | Up-to-3 year warranty | Assessment from R599
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Up-to-3 year warranty | Assessment
             </p>
           </div>
         </div>

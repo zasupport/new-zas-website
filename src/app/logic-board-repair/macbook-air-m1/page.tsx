@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M1 Logic Board Repair Johannesburg',
-  description: 'MacBook Air M1 logic board repair in Johannesburg. No power, USB-C charging faults, black screen, liquid damage. Fanless design means no active cooling failures. Assessment from R599.',
+  description: 'MacBook Air M1 logic board repair in Johannesburg. No power, USB-C charging faults, black screen, liquid damage. Fanless design means no active cooling failures. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m1' },
 };
 
@@ -24,12 +24,12 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can the MacBook Air M1 logic board be repaired?', answer: 'Yes. The M1 chip is integrated on the MacBook Air M1 logic board and cannot be replaced individually, but the surrounding circuits are entirely repairable. USB-C charge controllers, Thunderbolt 3 controllers, display backlight drivers, audio codecs, and power management ICs are all discrete components we diagnose and repair at component level. ZA Support in Hyde Park, Johannesburg offers assessment from R599.' },
+  { question: 'Can the MacBook Air M1 logic board be repaired?', answer: 'Yes. The M1 chip is integrated on the MacBook Air M1 logic board and cannot be replaced individually, but the surrounding circuits are entirely repairable. USB-C charge controllers, Thunderbolt 3 controllers, display backlight drivers, audio codecs, and power management ICs are all discrete components we diagnose and repair at component level. ZA Support in Hyde Park, Johannesburg offers assessment.' },
   { question: 'Is the MacBook Air M1 easier to repair than MacBook Pro M1?', answer: 'The MacBook Air M1 and MacBook Pro M1 share a similar chip architecture and many of the same logic board components. The Air\'s fanless design removes one failure mode (fan controller) but the core power delivery, USB-C, and display circuits are comparable. Neither is significantly harder than the other at component level. Repairability is similar.' },
-  { question: 'My MacBook Air M1 has no power after a load shedding surge, can it be repaired?', answer: 'In most cases yes. Load shedding power surges are one of the most frequent causes of MacBook Air M1 faults we see in Johannesburg. The surge typically damages the CD3217 USB-C controller, a discrete IC, rather than the M1 die. The R599 assessment identifies the specific damaged component and confirms repair viability before any work begins.' },
-  { question: 'Will my data survive MacBook Air M1 logic board repair?', answer: 'Yes. Component-level board repair does not involve erasing or removing the SSD. The storage remains on the M1 Air board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the R599 diagnostic and reported before any decision is made.' },
-  { question: 'How much does MacBook Air M1 logic board repair cost compared to Apple?', answer: 'Apple charges R15,000-R35,000 for logic board replacement on the MacBook Air M1, as they replace the entire board assembly. ZA Support replaces only the specific failed component, which is significantly less expensive. A written quote with the exact repair cost is provided after the R599 assessment.' },
-  { question: 'How long does MacBook Air M1 logic board repair take?', answer: 'After the R599 assessment and your written approval, most MacBook Air M1 logic board repairs are completed within 3-5 business days. Liquid damage cases requiring ultrasonic cleaning and multi-circuit assessment may take slightly longer. We provide a specific timeline in the written quote.' },
+  { question: 'My MacBook Air M1 has no power after a load shedding surge, can it be repaired?', answer: 'In most cases yes. Load shedding power surges are one of the most frequent causes of MacBook Air M1 faults we see in Johannesburg. The surge typically damages the CD3217 USB-C controller, a discrete IC, rather than the M1 die. The assessment identifies the specific damaged component and confirms repair viability before any work begins.' },
+  { question: 'Will my data survive MacBook Air M1 logic board repair?', answer: 'Yes. Component-level board repair does not involve erasing or removing the SSD. The storage remains on the M1 Air board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic and reported before any decision is made.' },
+  { question: 'How much does MacBook Air M1 logic board repair cost compared to Apple?', answer: 'Apple charges many times more for logic board replacement on the MacBook Air M1, as they replace the entire board assembly. ZA Support replaces only the specific failed component, which is significantly less expensive. A written quote with the exact repair cost is provided after the assessment.' },
+  { question: 'How long does MacBook Air M1 logic board repair take?', answer: 'After the assessment and your written approval, most MacBook Air M1 logic board repairs are completed within 3-5 business days. Liquid damage cases requiring ultrasonic cleaning and multi-circuit assessment may take slightly longer. We provide a specific timeline in the written quote.' },
   { question: 'Does the fanless design of the M1 MacBook Air affect repairability?', answer: 'The fanless design of the MacBook Air M1 removes the fan controller failure mode found in MacBook Pro models. However, the passive thermal management relies on the chassis itself, sustained heavy workloads can lead to thermal stress on the M1 and surrounding power delivery components over time. The logic board\'s core repairability is unaffected by the fanless design.' },
   { question: 'Does ZA Support collect MacBook Air M1 for repair in Johannesburg?', answer: 'Yes. ZA Support collects from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Air M1 Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Air M1 logic board repair in Johannesburg. Assessment from R599.',
+  description: 'Component-level MacBook Air M1 logic board repair in Johannesburg. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -80,10 +80,10 @@ export default function MacBookAirM1LogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -152,7 +152,7 @@ export default function MacBookAirM1LogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M1 Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M1 Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKAIRM1', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

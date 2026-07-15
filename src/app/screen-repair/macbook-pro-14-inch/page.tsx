@@ -10,9 +10,9 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 14-Inch Screen Repair Johannesburg [2026] | From R4,999 | ZA Support',
+  title: 'MacBook Pro 14-Inch Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg from R4,999. M1 Pro/Max through M4 Pro/Max. Mini-LED, ProMotion 120Hz. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED, ProMotion 120Hz. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-14-inch' },
   keywords: [
     'MacBook Pro 14 inch screen repair Johannesburg',
@@ -46,7 +46,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 14-Inch Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED backlight, ProMotion 120Hz, True Tone preserved. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED backlight, ProMotion 120Hz, True Tone preserved. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -60,10 +60,10 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Pro 14″ M1 Pro / M1 Max (A2442, 2021)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R4,999', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 14″ M2 Pro / M2 Max (A2779, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R5,499', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 14″ M3 / M3 Pro / M3 Max (A2918, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R5,999', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 14″ M4 / M4 Pro / M4 Max (A2992, 2024)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'R6,499', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ M1 Pro / M1 Max (A2442, 2021)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ M2 Pro / M2 Max (A2779, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ M3 / M3 Pro / M3 Max (A2918, 2023)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ M4 / M4 Pro / M4 Max (A2992, 2024)', panel: 'Liquid Retina XDR mini-LED 3024×1964', from: 'Contact for pricing', turnaround: '48-72 hrs' },
 ];
 
 const faultTypes = [
@@ -76,7 +76,7 @@ const faultTypes = [
   {
     title: 'Liquid Retina XDR Delamination',
     icon: Eye,
-    desc: 'Liquid entry into the display assembly causes the bonding adhesive between the mini-LED backlight and the IPS panel to break down. The result is spreading grey or iridescent patches, usually starting from the edges and moving inward. The display glass may appear completely intact. This delamination fault is not reversible; the full display assembly must be replaced. Apple charges R15,000 to R20,000 for this repair on the 14-inch models. We provide a written fixed-price quote before any work begins, typically R4,999 to R6,499 depending on the chip generation.',
+    desc: 'Liquid entry into the display assembly causes the bonding adhesive between the mini-LED backlight and the IPS panel to break down. The result is spreading grey or iridescent patches, usually starting from the edges and moving inward. The display glass may appear completely intact. This delamination fault is not reversible; the full display assembly must be replaced. Apple charges many times our price for this repair on the 14-inch models. We provide a written fixed-price quote before any work begins, with the price depending on the chip generation.',
     severity: 'high',
   },
   {
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 14-inch screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro 14-inch screen repair starts from R4,999 for the M1 Pro/Max model (A2442, 2021) and from R5,499 to R6,499 for later chip generations. The exact price depends on your model number and the availability of the Liquid Retina XDR display assembly. Apple Store charges R15,000 to R20,000 for the same repair. We provide a written fixed-price quote before any work begins, and we do not charge for the assessment if you proceed with the repair.',
+      'MacBook Pro 14-inch screen repair is quoted per model, with the M1 Pro/Max (A2442, 2021) and later chip generations each priced individually. The exact price depends on your model number and the availability of the Liquid Retina XDR display assembly. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins, and we do not charge for the assessment if you proceed with the repair.',
   },
   {
     question: 'What makes the MacBook Pro 14-inch display different from the 13-inch?',
@@ -162,7 +162,7 @@ const faqs = [
   {
     question: 'Is MacBook Pro 14-inch screen repair covered by AppleCare+?',
     answer:
-      'AppleCare+ covers accidental damage with an excess payment, currently around R1,499 to R2,999 per incident for the MacBook Pro 14-inch. If your Mac is within the AppleCare+ coverage period and the damage qualifies, this may be the most cost-effective route. If your Mac is out of AppleCare+, ZA Support typically charges 60-75% less than the Apple Store for the same repair, with a comparable or longer warranty.',
+      'AppleCare+ covers accidental damage with an excess payment per incident for the MacBook Pro 14-inch. If your Mac is within the AppleCare+ coverage period and the damage qualifies, this may be the most cost-effective route. If your Mac is out of AppleCare+, ZA Support typically charges 60-75% less than the Apple Store for the same repair, with a comparable or longer warranty.',
   },
   {
     question: 'My MacBook Pro 14-inch screen flickers when the lid is at certain angles, what is causing this?',
@@ -203,11 +203,11 @@ export default function ScreenRepairMacBookPro14Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid Retina XDR mini-LED repair across all 14-inch MacBook Pro generations, M1 Pro/Max through to M4 Pro/Max. Dark patches, ProMotion faults, delamination, cracked panels. Written quote before any work. Assessment from R599.
+              Liquid Retina XDR mini-LED repair across all 14-inch MacBook Pro generations, M1 Pro/Max through to M4 Pro/Max. Dark patches, ProMotion faults, delamination, cracked panels. Written quote before any work. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 14″ from R4,999 | 48-72 hr turnaround</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 14″ screen repair | 48-72 hr turnaround</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -215,7 +215,7 @@ export default function ScreenRepairMacBookPro14Page() {
                 { icon: Monitor, label: 'Liquid Retina XDR Specialist' },
                 { icon: Cpu, label: 'M1 to M4 Pro/Max' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -267,7 +267,7 @@ export default function ScreenRepairMacBookPro14Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include the full Liquid Retina XDR display assembly, labour, and our up-to-3 year warranty. Apple Store charges R15,000 to R20,000 for the same repair. We provide a written fixed-price quote before any work begins.
+            All prices include the full Liquid Retina XDR display assembly, labour, and our up-to-3 year warranty. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -275,7 +275,7 @@ export default function ScreenRepairMacBookPro14Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Panel Type</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -292,7 +292,7 @@ export default function ScreenRepairMacBookPro14Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -358,7 +358,7 @@ export default function ScreenRepairMacBookPro14Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee applies, if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. No Fix No Fee applies, if we cannot resolve the fault, assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -369,13 +369,13 @@ export default function ScreenRepairMacBookPro14Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple iStore vs ZA Support: MacBook Pro 14-Inch Screen Repair</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple charges between R15,000 and R20,000 for a MacBook Pro 14-inch display assembly replacement. We charge a fraction of that, with the same or better warranty.
+            Apple charges many times more for a MacBook Pro 14-inch display assembly replacement. We charge a fraction of that, with the same or better warranty.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Liquid Retina XDR replacement, R15,000 to R20,000+</li>
+                <li>Liquid Retina XDR replacement, many times our price</li>
                 <li>Accidental damage not covered by standard warranty</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>ProMotion verified but True Tone requires Apple Configurator</li>
@@ -386,7 +386,7 @@ export default function ScreenRepairMacBookPro14Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>MacBook Pro 14″ screen repair from R4,999</li>
+                <li>MacBook Pro 14″ screen repair</li>
                 <li>Full diagnostic before any part replacement</li>
                 <li>True Tone + ProMotion verified after every repair</li>
                 <li>Turnaround 48-72 hours from drop-off</li>

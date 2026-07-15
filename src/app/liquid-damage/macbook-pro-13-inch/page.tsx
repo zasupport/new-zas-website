@@ -10,9 +10,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 13 Inch Liquid Damage Repair Johannesburg [2026] | From R599',
+  title: 'MacBook Pro 13 Inch Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook Pro 13-inch liquid damage repair Johannesburg. M1, M2 & Intel models. Touch Bar corrosion, USB-C controller recovery. Assessment from R599. From R599 assessment. Hyde Park.',
+    'MacBook Pro 13-inch liquid damage repair Johannesburg. M1, M2 & Intel models. Touch Bar corrosion, USB-C controller recovery. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-13-inch' },
   keywords: [
     'MacBook Pro 13 inch liquid damage repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Pro 13 fix',
     'MacBook Pro 13 Touch Bar liquid damage',
     'MacBook Pro 13 coffee spill repair Johannesburg',
-    'MacBook Pro 13 liquid damage assessment from R599',
+    'MacBook Pro 13 liquid damage assessment',
     'MacBook Pro 13 M2 liquid damage repair',
     'MacBook Pro 13 Intel liquid damage Johannesburg',
   ],
@@ -45,12 +45,12 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro 13-inch be repaired?',
     answer:
-      'Yes, in most cases. The MacBook Pro 13-inch, covering Intel models (2016 to 2020), the M1 (2020), and the M2 (2022), uses a compact logic board layout that concentrates components tightly. This makes liquid damage more acute than on the larger 14-inch or 16-inch models, but it does not make the machine unrepairable. At our Hyde Park workshop we have recovered many 13-inch MacBook Pros from full keyboard spills, coffee, and water ingress. Assessment from R599, From R599 assessment.',
+      'Yes, in most cases. The MacBook Pro 13-inch, covering Intel models (2016 to 2020), the M1 (2020), and the M2 (2022), uses a compact logic board layout that concentrates components tightly. This makes liquid damage more acute than on the larger 14-inch or 16-inch models, but it does not make the machine unrepairable. At our Hyde Park workshop we have recovered many 13-inch MacBook Pros from full keyboard spills, coffee, and water ingress. Assessment, Assessment.',
   },
   {
     question: 'My MacBook Pro 13-inch will not turn on after a spill, is it repairable?',
     answer:
-      'Very likely yes. No-power conditions on the 13-inch MacBook Pro after liquid exposure almost always point to the SMC power management IC or the USB-C charging controllers, not the CPU or Apple Silicon SoC, which are the most physically protected components on the board. The M1 and M2 models use a pair of USB-C controllers on the left side that we see fail first. Our R599 assessment identifies exactly which IC or trace is responsible before we quote anything.',
+      'Very likely yes. No-power conditions on the 13-inch MacBook Pro after liquid exposure almost always point to the SMC power management IC or the USB-C charging controllers, not the CPU or Apple Silicon SoC, which are the most physically protected components on the board. The M1 and M2 models use a pair of USB-C controllers on the left side that we see fail first. Our assessment identifies exactly which IC or trace is responsible before we quote anything.',
   },
   {
     question: 'How does liquid damage differ between the M2, M1, and Intel MacBook Pro 13-inch?',
@@ -65,7 +65,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 13-inch liquid damage repair cost?',
     answer:
-      'Cost varies by model generation and extent of damage. A USB-C controller replacement on an M1 or M2 13-inch is one of the more contained repairs. Intel models with T2 corrosion or multiple IC failures require more diagnostic time. M2 models with NAND controller contamination take longer still. All repairs are quoted in writing before work starts. Assessment from R599. From R599 assessment applies across all 13-inch MacBook Pro generations.',
+      'Cost varies by model generation and extent of damage. A USB-C controller replacement on an M1 or M2 13-inch is one of the more contained repairs. Intel models with T2 corrosion or multiple IC failures require more diagnostic time. M2 models with NAND controller contamination take longer still. All repairs are quoted in writing before work starts. Assessment applies across all 13-inch MacBook Pro generations.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro 13-inch?',
@@ -85,7 +85,7 @@ const faqs = [
   {
     question: 'Does AppleCare+ cover liquid damage on the MacBook Pro 13-inch?',
     answer:
-      'Standard AppleCare does not cover liquid damage. AppleCare+ includes up to two accidental damage claims per year with an incident fee of approximately R2,500 to R4,500 for a MacBook Pro. Apple replaces the entire logic board, not just the affected components. A replacement M2 MacBook Pro 13-inch logic board from Apple costs between R20,000 and R35,000. ZA Support repairs only the failed components, preserving your data and your machine\'s original serial number.',
+      'Standard AppleCare does not cover liquid damage. AppleCare+ includes up to two accidental damage claims per year with an incident fee for a MacBook Pro. Apple replaces the entire logic board, not just the affected components. A replacement M2 MacBook Pro 13-inch logic board from Apple costs many times our price. ZA Support repairs only the failed components, preserving your data and your machine\'s original serial number.',
   },
   {
     question: 'Do you collect MacBook Pro 13-inch machines from across Johannesburg?',
@@ -95,7 +95,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a liquid-damaged MacBook Pro 13-inch?',
     answer:
-      'In nearly every case, yes. A new MacBook Pro 13-inch M2 retails from R22,000 to R30,000 in South Africa. Our component-level repairs are a fraction of that cost, and you keep your data, your installed software, and your machine\'s serial number, none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment with beyond the R599 fee.',
+      'In nearly every case, yes. A new MacBook Pro 13-inch M2 costs many times our component-level repair in South Africa. Our component-level repairs are a fraction of that cost, and you keep your data, your installed software, and your machine\'s serial number, none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment, beyond the assessment fee.',
   },
 ];
 
@@ -154,7 +154,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 13-Inch Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro 13-inch liquid damage repair in Johannesburg. M1, M2 and Intel models. Touch Bar corrosion recovery, USB-C controller replacement, T2 security chip diagnosis, ultrasonic cleaning. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro 13-inch liquid damage repair in Johannesburg. M1, M2 and Intel models. Touch Bar corrosion recovery, USB-C controller replacement, T2 security chip diagnosis, ultrasonic cleaning. Assessment. Up-to-3 year warranty.',
   lowPrice: '4900',
   highPrice: '17150',
 });
@@ -183,15 +183,15 @@ export default function MacBookPro13InchLiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / Intel' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -297,7 +297,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. From R599 assessment on every 13-inch case, if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. Assessment on every 13-inch case, if we cannot repair your MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -313,9 +313,9 @@ export default function MacBookPro13InchLiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R20,000 to R35,000</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
-                <li>AppleCare+ incident fee approximately R2,500 to R4,500</li>
+                <li>AppleCare+ incident fee applies</li>
                 <li>Data may not survive board replacement</li>
                 <li>5-10 business days via Apple depot repair</li>
                 <li>Intel models may be deemed out of repair scope</li>
@@ -325,7 +325,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed parts replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>M1, M2, and Intel 13-inch all supported</li>
                 <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
@@ -450,7 +450,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
               MacBook Pro 13-Inch Liquid Damage? Every Minute Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 13-inch chassis gives liquid the fastest path to the logic board of any MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. M1, M2, and Intel models. Assessment from R599. From R599 assessment.
+              The 13-inch chassis gives liquid the fastest path to the logic board of any MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. M1, M2, and Intel models. Assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -469,7 +469,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

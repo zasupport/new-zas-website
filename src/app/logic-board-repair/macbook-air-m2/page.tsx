@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M2 Logic Board Repair Johannesburg',
-  description: 'MacBook Air M2 logic board repair in Johannesburg. No power, MagSafe 2 charging, USB-C, black screen, liquid damage. New chassis design. Component-level repair. Assessment from R599.',
+  description: 'MacBook Air M2 logic board repair in Johannesburg. No power, MagSafe 2 charging, USB-C, black screen, liquid damage. New chassis design. Component-level repair. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m2' },
 };
 
@@ -24,13 +24,13 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can the MacBook Air M2 logic board be repaired?', answer: 'Yes. The M2 chip is integrated on the MacBook Air M2 logic board and cannot be replaced as an individual part, but all surrounding circuits are component-level repairable. MagSafe 2 charge controllers, USB-C Thunderbolt 3 controllers, power management ICs, display backlight drivers, and audio circuits are all discrete components we diagnose and repair at ZA Support in Hyde Park, Johannesburg. Assessment from R599.' },
+  { question: 'Can the MacBook Air M2 logic board be repaired?', answer: 'Yes. The M2 chip is integrated on the MacBook Air M2 logic board and cannot be replaced as an individual part, but all surrounding circuits are component-level repairable. MagSafe 2 charge controllers, USB-C Thunderbolt 3 controllers, power management ICs, display backlight drivers, and audio circuits are all discrete components we diagnose and repair at ZA Support in Hyde Park, Johannesburg. Assessment.' },
   { question: 'Does the new M2 MacBook Air chassis make repair harder?', answer: 'The MacBook Air M2 introduced a completely new chassis design in 2022, distinct from the M1 Air. The logic board layout, cable routing, and connector placements differ from prior generations. Our workshop has been trained on the M2 Air chassis specifically. The core component-level repair approach is the same, the chassis change does not affect repairability, it simply requires generation-specific knowledge.' },
-  { question: 'My MacBook Air M2 MagSafe is not working, can it be repaired?', answer: 'Yes. MagSafe 2 charging failure on the MacBook Air M2 is typically a controller IC fault rather than a physical port failure. The MagSafe 2 circuit is discrete and repairable. If USB-C charging continues to function while MagSafe is dead, the fault is isolated to the MagSafe-specific charge path. Assessment from R599 confirms the exact fault before any repair.' },
-  { question: 'My MacBook Air M2 was damaged by a load shedding power surge, is it repairable?', answer: 'In most cases yes. Power surges from South African load shedding events typically damage the charge controller IC (MagSafe 2 or USB-C) rather than the M2 die itself. The R599 assessment identifies the specific damaged component. Given the M2 Air\'s dual-path charging (MagSafe 2 and USB-C), surges entering via the USB-C port and surges entering via the MagSafe 2 cable have different damage profiles, both are assessable and typically repairable.' },
-  { question: 'How much does MacBook Air M2 logic board repair cost?', answer: 'Apple charges R18,000-R40,000 for logic board replacement on the MacBook Air M2 as they replace the entire board assembly. ZA Support repairs only the specific failed component at a fraction of that cost. A written quote with the exact repair cost is provided after the R599 assessment confirming the fault.' },
-  { question: 'How long does MacBook Air M2 logic board repair take?', answer: 'After the R599 assessment and your written approval, most MacBook Air M2 logic board repairs are completed within 3-5 business days. Liquid damage cases requiring ultrasonic cleaning may take slightly longer depending on the extent of corrosion. We provide a specific timeline in the written quote.' },
-  { question: 'Will my data be safe during M2 MacBook Air board repair?', answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. The storage remains on the M2 Air board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the R599 diagnostic and confirmed before any repair proceeds.' },
+  { question: 'My MacBook Air M2 MagSafe is not working, can it be repaired?', answer: 'Yes. MagSafe 2 charging failure on the MacBook Air M2 is typically a controller IC fault rather than a physical port failure. The MagSafe 2 circuit is discrete and repairable. If USB-C charging continues to function while MagSafe is dead, the fault is isolated to the MagSafe-specific charge path. Assessment confirms the exact fault before any repair.' },
+  { question: 'My MacBook Air M2 was damaged by a load shedding power surge, is it repairable?', answer: 'In most cases yes. Power surges from South African load shedding events typically damage the charge controller IC (MagSafe 2 or USB-C) rather than the M2 die itself. The assessment identifies the specific damaged component. Given the M2 Air\'s dual-path charging (MagSafe 2 and USB-C), surges entering via the USB-C port and surges entering via the MagSafe 2 cable have different damage profiles, both are assessable and typically repairable.' },
+  { question: 'How much does MacBook Air M2 logic board repair cost?', answer: 'Apple charges many times more for logic board replacement on the MacBook Air M2 as they replace the entire board assembly. ZA Support repairs only the specific failed component at a fraction of that cost. A written quote with the exact repair cost is provided after the assessment confirming the fault.' },
+  { question: 'How long does MacBook Air M2 logic board repair take?', answer: 'After the assessment and your written approval, most MacBook Air M2 logic board repairs are completed within 3-5 business days. Liquid damage cases requiring ultrasonic cleaning may take slightly longer depending on the extent of corrosion. We provide a specific timeline in the written quote.' },
+  { question: 'Will my data be safe during M2 MacBook Air board repair?', answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. The storage remains on the M2 Air board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic and confirmed before any repair proceeds.' },
   { question: 'Does ZA Support collect MacBook Air M2 for repair in Johannesburg?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
 
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Air M2 Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Air M2 logic board repair in Johannesburg. MagSafe 2, USB-C, display faults. Assessment from R599.',
+  description: 'Component-level MacBook Air M2 logic board repair in Johannesburg. MagSafe 2, USB-C, display faults. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -80,10 +80,10 @@ export default function MacBookAirM2LogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -152,7 +152,7 @@ export default function MacBookAirM2LogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M2 Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M2 Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKAIRM2', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

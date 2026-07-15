@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Melrose | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Melrose clients. Ultrasonic cleaning, board-level diagnostics. We collect from Melrose. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Melrose clients. Ultrasonic cleaning, board-level diagnostics. We collect from Melrose. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/melrose' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Melrose?', answer: 'Immediately, the first two hours matter more than any other window. Melrose sits about seven minutes from our Hyde Park workshop via Athol Oaklands Road, so a call to 064 529 5863 typically results in collection within the hour during business times. Power the MacBook off, unplug any charger, do not press keys to test it, and leave it lid-open and angled downward until we arrive. Every hour the board sits with residue on it deepens the corrosion.' },
   { question: 'Do you collect MacBooks from Melrose after liquid damage?', answer: 'Yes, free collection across Melrose Arch, Melrose North, Melrose Estate and Birdhaven. We regularly collect from the offices inside Melrose Arch itself, from medical and dental rooms around the precinct, and from homes off Glenhove and Corlett Drive. The short run back to Hyde Park means your machine is on a workbench and being stripped within twenty minutes of leaving you, which is exactly the speed liquid damage demands.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment from R599. That covers collection from Melrose, full teardown, ultrasonic cleaning of the logic board, and a microscope-level diagnostic report telling you exactly which components are corroded, what the repair will cost, and what the realistic prognosis is. If you choose to proceed with the repair the assessment fee is credited against the final quote. No surprises and no work done without your written approval.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment. That covers collection from Melrose, full teardown, ultrasonic cleaning of the logic board, and a microscope-level diagnostic report telling you exactly which components are corroded, what the repair will cost, and what the realistic prognosis is. If you choose to proceed with the repair the assessment fee is credited against the final quote. No surprises and no work done without your written approval.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary and salty liquids are the worst, Coke, sweetened coffee, sports drinks, wine and seawater. The sugar and salt residue stays conductive long after the liquid has dried, which means corrosion continues silently inside the casing. Plain water is the most forgiving but still causes oxidation within hours. Around Melrose we see a lot of flat-white and cappuccino spills from the cafés along the High Street, and those milk-and-sugar combinations are particularly aggressive on logic board traces.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still boots after a spill is the most deceptive scenario we deal with. The residue is sitting on the board corroding traces and component legs every minute the machine remains assembled, and the failure typically arrives one to three weeks later, often as an intermittent keyboard, a dead trackpad, or a board that suddenly will not charge. Ultrasonic cleaning now, while the machine still functions, is dramatically cheaper than full board repair later.' },
   { question: 'Will you be able to save my data?', answer: 'In the vast majority of cases, yes. Data recovery is treated as a separate priority from board repair, before we attempt any aggressive cleaning or component-level work, we image the SSD so your files are safe regardless of how the repair itself goes. For the Melrose practices and consultants we work with, this means patient records, case files, contracts and client correspondence come back even on machines that turn out to be uneconomical to repair at the board level.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The R599 assessment covers everything needed to give you an honest answer: collection from Melrose, full disassembly, ultrasonic cleaning, and a written diagnostic. You then decide whether to proceed. If you go ahead with the repair the R599 is credited against the final invoice, so in effect the assessment becomes free for clients who choose to repair. If the verdict is that the machine is not economically repairable, you have paid only R599 to know that with certainty.' },
+  { question: 'Is there an Assessment policy for liquid damage?', answer: 'Yes. The assessment covers everything needed to give you an honest answer: collection from Melrose, full disassembly, ultrasonic cleaning, and a written diagnostic. You then decide whether to proceed. If you go ahead with the repair the assessment fee is credited against the final invoice. If the verdict is that the machine is not economically repairable, you have paid only the assessment fee to know that with certainty.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes, M1, M2, M3 and M4 MacBooks are all repairable at component level in our Hyde Park workshop. Apple Silicon boards are more densely packed than the older Intel models, which makes microscope work essential, but the underlying repair principles are the same: clean off the residue, identify the corroded components, and replace them individually rather than swapping the entire logic board. Component-level repair on these machines typically lands at a fraction of Apple\'s whole-board replacement quote.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageMelrosePage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage in Melrose needs to be addressed within hours, not days. We collect from Melrose Arch, Melrose North, and Melrose Estate, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly a seven-minute drive down Athol Oaklands and Glenhove. Assessment from R599, with an honest verdict on what can realistically be saved.
+              Liquid damage in Melrose needs to be addressed within hours, not days. We collect from Melrose Arch, Melrose North, and Melrose Estate, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly a seven-minute drive down Athol Oaklands and Glenhove. Assessment, with an honest verdict on what can realistically be saved.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageMelrosePage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Melrose' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageMelrosePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Melrose? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Melrose. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Melrose. Assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-MELROSE', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

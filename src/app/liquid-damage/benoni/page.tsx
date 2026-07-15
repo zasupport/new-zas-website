@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Benoni | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Benoni clients. Ultrasonic cleaning, board-level diagnostics. We collect from Benoni. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Benoni clients. Ultrasonic cleaning, board-level diagnostics. We collect from Benoni. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/benoni' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Benoni?', answer: 'Contact us immediately, ideally within the first few hours. Power the MacBook down, do not plug it in, and call us on 064 529 5863 or WhatsApp wa.me/27645295863. We can arrange collection from anywhere in Benoni, whether you are in Lakefield, Northmead, Rynfield or near the CBD, and the sooner the board reaches our ultrasonic bath the more components we can save from ongoing corrosion.' },
   { question: 'Do you collect MacBooks from Benoni after liquid damage?', answer: 'Yes. Our courier collects from Benoni and the surrounding East Rand suburbs daily, covering Lakefield, Brentwood Park, Farrarmere, Crystal Park and the routes along Pretoria Road and Tom Jones Street. The drive to our Hyde Park workshop runs via the R21 and N3, around an hour each way depending on the time of day, so a morning collection typically means the board is on the bench by lunchtime.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers full disassembly, ultrasonic cleaning of the logic board, microscope inspection and a written report listing every fault we find with a fixed repair quote. You then decide whether to proceed. If you choose not to repair, the assessment fee is all you pay, there are no hidden charges added later.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment covers full disassembly, ultrasonic cleaning of the logic board, microscope inspection and a written report listing every fault we find with a fixed repair quote. You then decide whether to proceed. If you choose not to repair, the assessment fee is all you pay, there are no hidden charges added later.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary drinks and salt-containing liquids are the worst, cold drinks, energy drinks, sports drinks and seawater leave a conductive, corrosive residue that continues attacking the board for weeks. Coffee and wine are next because of their acidity and sugar content. Plain water is the least aggressive but still causes shorts and corrosion, particularly Benoni municipal water which contains dissolved minerals. Regardless of the liquid, the response is identical: power down and get the machine to us.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and the sooner the better. A MacBook that still boots after a spill is on borrowed time, the residue on the board is slowly corroding traces and component legs, and within days or weeks you may see random shutdowns, charging faults or a board that simply does not power on again. We have had Benoni clients delay for a month then arrive with a dead machine that could have been saved cheaply if cleaned earlier.' },
   { question: 'Will you be able to save my data?', answer: 'In most cases yes. Modern MacBooks have the SSD soldered to the logic board, which means data recovery depends on whether the storage controller and NAND chips survived. If the board can be restored to a working state, your data comes back with it. If the board is beyond repair, we have board-level techniques to read the NAND directly in many cases. We will give you a clear answer after the diagnostic, no guesswork.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. Assessment starts from R599 and includes the full strip-down, ultrasonic cleaning and detailed report. Some severely damaged boards may require additional diagnostic time which we will discuss with you upfront before any extra charge. The base R599 covers the vast majority of Benoni liquid-damage cases we see.' },
+  { question: 'Is there an assessment policy for liquid damage?', answer: 'Yes. The assessment includes the full strip-down, ultrasonic cleaning and detailed report. Some severely damaged boards may require additional diagnostic time which we will discuss with you upfront before any extra charge. The assessment covers the vast majority of Benoni liquid-damage cases we see.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair M1, M2 and M3 MacBooks with liquid damage regularly. Apple Silicon boards are more densely packed than older Intel boards, which makes the repair more delicate, but the principles are identical, ultrasonic clean, microscope inspection, replace corroded components and repair damaged traces. Our microscope and rework station are set up specifically for the fine-pitch work these newer boards demand.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageBenoniPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage on a MacBook in Benoni needs urgent attention, every hour that passes while corrosion spreads across the logic board reduces what we can save. We collect from Benoni, Lakefield, Northmead and Rynfield, then run ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly an hour&apos;s drive via the R21 and N3. Assessment from R599.
+              Liquid damage on a MacBook in Benoni needs urgent attention, every hour that passes while corrosion spreads across the logic board reduces what we can save. We collect from Benoni, Lakefield, Northmead and Rynfield, then run ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly an hour&apos;s drive via the R21 and N3. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageBenoniPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Benoni' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageBenoniPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Benoni? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Benoni. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Benoni. Assessment available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-BENONI', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

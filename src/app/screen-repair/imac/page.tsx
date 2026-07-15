@@ -12,9 +12,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'iMac Screen Repair Johannesburg [2026] | From R3,999 | ZA Support',
+  title: 'iMac Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'iMac screen repair in Johannesburg. 21.5″, 24″ M1/M3/M4 and 27″ Retina 5K specialists. Adhesive removal, 5K calibration. From R3,999. Hyde Park. Book now.',
+    'iMac screen repair in Johannesburg. 21.5″, 24″ M1/M3/M4 and 27″ Retina 5K specialists. Adhesive removal, 5K calibration. Contact for pricing. Hyde Park. Book now.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/imac' },
   keywords: [
     'iMac screen repair Johannesburg',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'iMac cracked screen repair Hyde Park',
     'iMac screen repair cost South Africa',
     'iMac display repair near me Johannesburg',
-    'iMac screen repair from R3999',
+    'iMac screen repair pricing Johannesburg',
   ],
 };
 
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'How much does iMac screen repair cost in Johannesburg?',
     answer:
-      'iMac screen repair starts from R3,999 at ZA Support, depending on the model. The 21.5-inch models are the most straightforward and sit at the lower end of the range. The 24-inch M1, M3, and M4 iMacs require specialised adhesive strips and panel calibration, which places them mid-range. The 27-inch Retina 5K display is the most complex repair, parts are larger and 5K calibration is required. Apple stores and iStores charge R8,000 to R18,000 for the same job. We provide a written fixed-price quote before any work begins.',
+      'iMac screen repair pricing at ZA Support depends on the model. The 21.5-inch models are the most straightforward and sit at the lower end of the range. The 24-inch M1, M3, and M4 iMacs require specialised adhesive strips and panel calibration, which places them mid-range. The 27-inch Retina 5K display is the most complex repair, parts are larger and 5K calibration is required. Apple stores and iStores charge many times our price for the same job. We provide a written fixed-price quote before any work begins.',
   },
   {
     question: 'How do you open an iMac to replace the screen?',
@@ -53,17 +53,17 @@ const faqs = [
   {
     question: 'Can you repair the 27-inch iMac Retina 5K display?',
     answer:
-      'Yes. The 27-inch Retina 5K display (models A1419, A2115) uses a 5120 × 2880 LCD panel with a wide colour (P3) gamut. After fitting a replacement panel we run a full 5K calibration sequence, brightness uniformity, P3 colour accuracy, and dead pixel sweep across all five test screens. We have completed this repair for clients in Sandton, Rosebank, Bryanston, and across Johannesburg. Assessment from R599. Up-to-3 year warranty included.',
+      'Yes. The 27-inch Retina 5K display (models A1419, A2115) uses a 5120 × 2880 LCD panel with a wide colour (P3) gamut. After fitting a replacement panel we run a full 5K calibration sequence, brightness uniformity, P3 colour accuracy, and dead pixel sweep across all five test screens. We have completed this repair for clients in Sandton, Rosebank, Bryanston, and across Johannesburg. Assessment. Up-to-3 year warranty included.',
   },
   {
     question: 'My iMac 24-inch M1 screen is cracked. Is it worth repairing?',
     answer:
-      'Almost always, yes. A replacement iMac 24-inch M1 currently costs R22,000 to R38,000 depending on specification. Our screen repair starts from R3,999, a fraction of replacement cost. The M1 logic board is completely separate from the display assembly on the 24-inch iMac, so a cracked screen is purely a display repair with no risk to your data or processing hardware. We retain True Tone calibration after the repair.',
+      'Almost always, yes. A replacement iMac 24-inch M1 costs many times more than a screen repair. Our screen repair is a fraction of replacement cost. The M1 logic board is completely separate from the display assembly on the 24-inch iMac, so a cracked screen is purely a display repair with no risk to your data or processing hardware. We retain True Tone calibration after the repair.',
   },
   {
     question: 'Does the iMac display replacement include a warranty?',
     answer:
-      'Yes. Every iMac screen repair at ZA Support includes an up-to-3 year warranty covering the display panel, backlight circuit, and our workmanship. If the replacement panel develops dead pixels, backlight failure, or colour drift within the warranty period, we repair or replace it at from R599. The warranty is issued in writing at the time of collection.',
+      'Yes. Every iMac screen repair at ZA Support includes an up-to-3 year warranty covering the display panel, backlight circuit, and our workmanship. If the replacement panel develops dead pixels, backlight failure, or colour drift within the warranty period, we repair or replace it at our assessment fee. The warranty is issued in writing at the time of collection.',
   },
   {
     question: 'What is the TCON board, and can you repair it?',
@@ -131,19 +131,19 @@ const repairHighlights = [
 ];
 
 const modelPricing = [
-  { model: 'iMac 21.5″ (2012-2019)', panel: 'LCD / Retina 4K (2015+)', from: 'R3,999', turnaround: '3-4 days' },
-  { model: 'iMac 24″ M1 (2021)', panel: 'Retina 4.5K (4480 × 2520)', from: 'R4,499', turnaround: '3-5 days' },
-  { model: 'iMac 24″ M3 (2023)', panel: 'Retina 4.5K (4480 × 2520)', from: 'R4,499', turnaround: '3-5 days' },
-  { model: 'iMac 24″ M4 (2024)', panel: 'Retina 4.5K (4480 × 2520)', from: 'R4,499', turnaround: '3-5 days' },
-  { model: 'iMac 27″ Retina 5K (2014-2020)', panel: '5K LCD (5120 × 2880, P3)', from: 'R5,999', turnaround: '4-5 days' },
-  { model: 'iMac Pro 27″ (2017)', panel: '5K LCD (5120 × 2880, P3)', from: 'R5,999', turnaround: '4-6 days' },
+  { model: 'iMac 21.5″ (2012-2019)', panel: 'LCD / Retina 4K (2015+)', from: 'Contact for pricing', turnaround: '3-4 days' },
+  { model: 'iMac 24″ M1 (2021)', panel: 'Retina 4.5K (4480 × 2520)', from: 'Contact for pricing', turnaround: '3-5 days' },
+  { model: 'iMac 24″ M3 (2023)', panel: 'Retina 4.5K (4480 × 2520)', from: 'Contact for pricing', turnaround: '3-5 days' },
+  { model: 'iMac 24″ M4 (2024)', panel: 'Retina 4.5K (4480 × 2520)', from: 'Contact for pricing', turnaround: '3-5 days' },
+  { model: 'iMac 27″ Retina 5K (2014-2020)', panel: '5K LCD (5120 × 2880, P3)', from: 'Contact for pricing', turnaround: '4-5 days' },
+  { model: 'iMac Pro 27″ (2017)', panel: '5K LCD (5120 × 2880, P3)', from: 'Contact for pricing', turnaround: '4-6 days' },
 ];
 
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'iMac Screen Repair Johannesburg',
-  description: 'Professional iMac screen repair in Johannesburg. 21.5-inch, 24-inch M1/M3/M4, and 27-inch Retina 5K models. Adhesive removal, 5K calibration, TCON board diagnosis. From R3,999. Up-to-3 year warranty.',
+  description: 'Professional iMac screen repair in Johannesburg. 21.5-inch, 24-inch M1/M3/M4, and 27-inch Retina 5K models. Adhesive removal, 5K calibration, TCON board diagnosis. Contact for pricing. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -163,19 +163,19 @@ const serviceSchema = {
     itemListElement: [
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'iMac 21.5-inch Screen Replacement', description: 'LCD and Retina 4K display assembly replacement. From R3,999.' },
+        itemOffered: { '@type': 'Service', name: 'iMac 21.5-inch Screen Replacement', description: 'LCD and Retina 4K display assembly replacement.' },
         price: '3999',
         priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'iMac 24-inch M1/M3/M4 Screen Replacement', description: 'Retina 4.5K display assembly replacement with calibration. From R4,499.' },
+        itemOffered: { '@type': 'Service', name: 'iMac 24-inch M1/M3/M4 Screen Replacement', description: 'Retina 4.5K display assembly replacement with calibration.' },
         price: '4499',
         priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'iMac 27-inch Retina 5K Screen Replacement', description: '5K P3 display assembly replacement with full calibration. From R5,999.' },
+        itemOffered: { '@type': 'Service', name: 'iMac 27-inch Retina 5K Screen Replacement', description: '5K P3 display assembly replacement with full calibration.' },
         price: '5999',
         priceCurrency: 'ZAR',
       },
@@ -209,14 +209,14 @@ export default function ScreenRepairImacPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Monitor className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | From R3,999 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Monitor, label: 'All iMac Models' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: Clock, label: '3-5 Day Turnaround' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -282,7 +282,7 @@ export default function ScreenRepairImacPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">iMac Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include the display assembly, adhesive strips, calibration, labour, and our up-to-3 year warranty. Assessment from R599. From R599 assessment applies to all models. For comparison, the Apple Store charges R8,000 to R18,000 for the same repair.
+            All prices include the display assembly, adhesive strips, calibration, labour, and our up-to-3 year warranty. Assessment applies to all models. For comparison, the Apple Store charges many times our price for the same repair.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(15,234,122,0.12)]">
             <table className="w-full text-sm">
@@ -290,7 +290,7 @@ export default function ScreenRepairImacPage() {
                 <tr className="bg-[rgba(15,234,122,0.06)] border-b border-[rgba(15,234,122,0.12)]">
                   <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">Model</th>
                   <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">Panel</th>
-                  <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">From</th>
+                  <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">Pricing</th>
                   <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">Turnaround</th>
                 </tr>
               </thead>
@@ -306,7 +306,7 @@ export default function ScreenRepairImacPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-[#7A9E98] text-xs mt-4">Prices are indicative. Exact quote provided in writing before work begins. Assessment fee from R599 applies if repair is declined after diagnosis.</p>
+          <p className="text-[#7A9E98] text-xs mt-4">Prices are indicative. Exact quote provided in writing before work begins. An assessment fee applies if repair is declined after diagnosis.</p>
           <PricingRange page="/screen-repair/imac" />
           <PricingNote variant="inline" />
         </div>
@@ -366,7 +366,7 @@ export default function ScreenRepairImacPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Display replacement: R8,000 to R18,000 depending on model</li>
+                <li>Display replacement: many times our price depending on model</li>
                 <li>Out-of-warranty repair, no coverage for accidental damage</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>No component-level T-Con or backlight diagnosis</li>
@@ -377,7 +377,7 @@ export default function ScreenRepairImacPage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iMac screen repair from R3,999-50-75% below Apple pricing</li>
+                <li>iMac screen repair, 50-75% below Apple pricing</li>
                 <li>Written fixed-price quote before any work begins</li>
                 <li>3-5 day turnaround, all work done in our Hyde Park workshop</li>
                 <li>T-Con board and backlight circuit diagnosed separately, saves you money</li>
@@ -389,7 +389,7 @@ export default function ScreenRepairImacPage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              From R599 assessment on every iMac screen repair. If we assess the machine and cannot repair the display to your satisfaction, the assessment fee of R599 applies and the iMac is returned exactly as received. No hidden charges.
+              Assessment on every iMac screen repair. If we assess the machine and cannot repair the display to your satisfaction, the assessment fee applies and the iMac is returned exactly as received. No hidden charges.
             </p>
           </div>
         </div>
@@ -441,7 +441,7 @@ export default function ScreenRepairImacPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">iMac Screen Damaged? Get a Fixed-Price Quote Today.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              From R3,999, with an up-to-3 year warranty and From R599 assessment. WhatsApp us a photo of the damage and we will give you an indicative price within the hour,  no call centre.
+              Contact for pricing, with an up-to-3 year warranty and Assessment. WhatsApp us a photo of the damage and we will give you an indicative price within the hour,  no call centre.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -460,7 +460,7 @@ export default function ScreenRepairImacPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty | From R599 assessment
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty assessment
             </p>
           </div>
         </div>

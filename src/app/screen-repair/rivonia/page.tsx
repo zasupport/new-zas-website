@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     question: 'Does a screen replacement come with a warranty?',
-    answer: 'Yes. Every display replacement at ZA Support comes with a written warranty. The warranty covers the panel, the replacement work, and any associated components that were repaired or replaced. If any fault related to the repair work arises within the warranty period, we resolve it at from R599.',
+    answer: 'Yes. Every display replacement at ZA Support comes with a written warranty. The warranty covers the panel, the replacement work, and any associated components that were repaired or replaced. If any fault related to the repair work arises within the warranty period, we resolve it at our assessment fee.',
   },
 ];
 

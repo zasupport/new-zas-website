@@ -201,7 +201,7 @@ export default function GuidesPage() {
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-3 border-2 border-[#27504D] text-[#27504D] font-semibold rounded-lg hover:bg-[#27504D] hover:text-white transition-colors"
             >
-              Book Assessment from R599
+              Book Assessment
             </Link>
           </div>
           <p className="text-sm text-gray-500 mt-4">

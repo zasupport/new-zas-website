@@ -153,7 +153,7 @@ export default function BatteryReplacementBryanstonPage() {
               We replace batteries in all MacBook Air and MacBook Pro models, from Intel-era machines through to the latest M-series. Every battery replacement uses Apple-specification cells and is backed by a written ZA Support warranty.
             </p>
             <p>
-              If you are unsure whether your battery needs replacing, we check the cycle count and health percentage before proceeding. There is from R599 for the health check.
+              If you are unsure whether your battery needs replacing, we check the cycle count and health percentage before proceeding. An assessment fee applies for the health check.
             </p>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function BatteryReplacementBryanstonPage() {
           <div className="space-y-6">
             {[
               { step: '01', title: 'Collection from Bryanston', desc: 'Contact us via WhatsApp or phone. We arrange a collection from your home or office in Bryanston at a time that suits you.' },
-              { step: '02', title: 'Battery Health Check', desc: 'We confirm the cycle count, health percentage, and whether replacement is the right fix. From R599 for the health check.' },
+              { step: '02', title: 'Battery Health Check', desc: 'We confirm the cycle count, health percentage, and whether replacement is the right fix. An assessment fee applies for the health check.' },
               { step: '03', title: 'Written Quote', desc: 'Clear pricing confirmed before any work begins. No hidden costs.' },
               { step: '04', title: 'Battery Replacement', desc: 'Apple-specification battery fitted by our technician at the Hyde Park workshop. Old battery disposed of safely.' },
               { step: '05', title: 'Return to Bryanston', desc: 'Your MacBook is tested and returned to your Bryanston address with a written ZA Support warranty on the battery and installation.' },

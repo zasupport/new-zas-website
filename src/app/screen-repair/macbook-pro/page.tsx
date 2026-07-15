@@ -11,9 +11,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro Screen Repair Johannesburg [2026] | From R3,499 | ZA Support',
+  title: 'MacBook Pro Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro screen repair in Johannesburg from R3,499. Retina, Touch Bar, Liquid Retina XDR. Flexgate fix, backlight IC repair. From R599 assessment. Hyde Park workshop.',
+    'MacBook Pro screen repair in Johannesburg. Retina, Touch Bar, Liquid Retina XDR. Flexgate fix, backlight IC repair. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro' },
   keywords: [
     'MacBook Pro screen repair Johannesburg',
@@ -45,7 +45,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro screen repair in Johannesburg. Retina, Touch Bar, Liquid Retina XDR panels. Flexgate cable repair, LP8550 backlight IC, T-Con board. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro screen repair in Johannesburg. Retina, Touch Bar, Liquid Retina XDR panels. Flexgate cable repair, LP8550 backlight IC, T-Con board. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -59,14 +59,14 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Pro 13″ (Retina 2012-2015)', panel: 'IPS LCD Retina', from: 'R3,499', turnaround: '24-48 hrs' },
-  { model: 'MacBook Pro 13″ (Touch Bar 2016-2020)', panel: 'IPS LCD Retina', from: 'R3,999', turnaround: '24-48 hrs' },
-  { model: 'MacBook Pro 13″ (M1/M2 2020-2022)', panel: 'IPS LCD Retina', from: 'R3,999', turnaround: '24-48 hrs' },
-  { model: 'MacBook Pro 14″ (M1 Pro/Max 2021)', panel: 'Liquid Retina XDR (mini-LED)', from: 'R4,999', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 14″ (M2/M3/M4 Pro/Max)', panel: 'Liquid Retina XDR (mini-LED)', from: 'R5,499', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 15″ (Intel 2013-2019)', panel: 'IPS LCD Retina', from: 'R4,499', turnaround: '24-72 hrs' },
-  { model: 'MacBook Pro 16″ (M1 Pro/Max 2021)', panel: 'Liquid Retina XDR (mini-LED)', from: 'R4,999', turnaround: '48-72 hrs' },
-  { model: 'MacBook Pro 16″ (M2/M3/M4 Pro/Max)', panel: 'Liquid Retina XDR (mini-LED)', from: 'R5,499', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 13″ (Retina 2012-2015)', panel: 'IPS LCD Retina', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'MacBook Pro 13″ (Touch Bar 2016-2020)', panel: 'IPS LCD Retina', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'MacBook Pro 13″ (M1/M2 2020-2022)', panel: 'IPS LCD Retina', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'MacBook Pro 14″ (M1 Pro/Max 2021)', panel: 'Liquid Retina XDR (mini-LED)', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 14″ (M2/M3/M4 Pro/Max)', panel: 'Liquid Retina XDR (mini-LED)', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 15″ (Intel 2013-2019)', panel: 'IPS LCD Retina', from: 'Contact for pricing', turnaround: '24-72 hrs' },
+  { model: 'MacBook Pro 16″ (M1 Pro/Max 2021)', panel: 'Liquid Retina XDR (mini-LED)', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'MacBook Pro 16″ (M2/M3/M4 Pro/Max)', panel: 'Liquid Retina XDR (mini-LED)', from: 'Contact for pricing', turnaround: '48-72 hrs' },
 ];
 
 const faultTypes = [
@@ -91,7 +91,7 @@ const faultTypes = [
   {
     title: 'Liquid Retina XDR Delamination',
     icon: Eye,
-    desc: 'The 14-inch and 16-inch MacBook Pro (2021 and later) use a Liquid Retina XDR display with a mini-LED backlight array behind an IPS panel. When liquid reaches the display assembly, the bonding layer between the glass and LCD can delaminate, creating large grey or rainbow patches that spread from the edges inward. This is distinct from a cracked screen, the glass is intact but the panel is failing from within. Full display assembly replacement is required. Apple charges R15,000 or more; we provide a written quote before any work begins.',
+    desc: 'The 14-inch and 16-inch MacBook Pro (2021 and later) use a Liquid Retina XDR display with a mini-LED backlight array behind an IPS panel. When liquid reaches the display assembly, the bonding layer between the glass and LCD can delaminate, creating large grey or rainbow patches that spread from the edges inward. This is distinct from a cracked screen, the glass is intact but the panel is failing from within. Full display assembly replacement is required. Apple charges many times our price; we provide a written quote before any work begins.',
     severity: 'medium',
   },
   {
@@ -130,12 +130,12 @@ const faqs = [
   {
     question: 'How much does MacBook Pro screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro screen repair starts from R3,499 for the 13-inch Retina models and from R4,999 for the 14-inch or 16-inch models with Liquid Retina XDR displays. The final price depends on your specific model number (A1xxx/A2xxx), the panel generation, and whether additional components such as the display cable require replacement. Apple Store or iStore typically charges R6,000 to R15,000 for a display assembly, and often higher for M-series models. We provide a written fixed-price quote before starting any work, and the price we quote is the price you pay.',
+      'MacBook Pro screen repair is quoted per model, with the 13-inch Retina models and the 14-inch or 16-inch models with Liquid Retina XDR displays each priced individually. The final price depends on your specific model number (A1xxx/A2xxx), the panel generation, and whether additional components such as the display cable require replacement. Apple Store or iStore typically charges many times our price for a display assembly, and often higher for M-series models. We provide a written fixed-price quote before starting any work, and the price we quote is the price you pay.',
   },
   {
     question: 'What is flexgate and can you fix it?',
     answer:
-      'Flexgate is a display cable fault specific to MacBook Pro models from 2016 and 2017. Apple used an unusually short, thin flex cable routed through the hinge. After hundreds of open-and-close cycles, the cable develops micro-fractures near the display backlight connector. The characteristic symptom is a bright horizontal bar at the bottom of the screen when the lid is opened to a low angle, with the display going completely dark at wider angles. We have repaired this fault on hundreds of MacBook Pros in our Hyde Park workshop. Replacement of the display cable resolves the issue permanently. Assessment from R599.',
+      'Flexgate is a display cable fault specific to MacBook Pro models from 2016 and 2017. Apple used an unusually short, thin flex cable routed through the hinge. After hundreds of open-and-close cycles, the cable develops micro-fractures near the display backlight connector. The characteristic symptom is a bright horizontal bar at the bottom of the screen when the lid is opened to a low angle, with the display going completely dark at wider angles. We have repaired this fault on hundreds of MacBook Pros in our Hyde Park workshop. Replacement of the display cable resolves the issue permanently. Assessment.',
   },
   {
     question: 'My MacBook Pro screen has horizontal lines, what causes this?',
@@ -210,15 +210,15 @@ export default function ScreenRepairMacBookProPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ from R3,499 | 14″/16″ from R4,999</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″, 14″ and 16″ serviced</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Monitor, label: 'All MacBook Pro Models' },
                 { icon: Cpu, label: 'Flexgate Specialist' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -270,7 +270,7 @@ export default function ScreenRepairMacBookProPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including display assembly, labour, and our warranty. The Apple Store charges R6,000 to R15,000 for the same repair, and up to R20,000 for M3/M4 Pro and Max models. We provide a written fixed-price quote before any work begins.
+            Prices below are starting prices including display assembly, labour, and our warranty. The Apple Store charges many times our price for the same repair, and even more for M3/M4 Pro and Max models. We provide a written fixed-price quote before any work begins.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -278,7 +278,7 @@ export default function ScreenRepairMacBookProPage() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Panel Type</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -295,7 +295,7 @@ export default function ScreenRepairMacBookProPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
           </p>
           <PricingRange page="/screen-repair/macbook-pro" />
           <PricingNote variant="inline" />
@@ -362,7 +362,7 @@ export default function ScreenRepairMacBookProPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our From R599 assessment policy means that if we cannot resolve your MacBook Pro screen fault, an assessment fee of R599 applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
+              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your MacBook Pro screen fault, an assessment fee applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
             </p>
           </div>
         </div>
@@ -379,7 +379,7 @@ export default function ScreenRepairMacBookProPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Full display assembly replacement, R6,000 to R15,000+</li>
+                <li>Full display assembly replacement, many times our price</li>
                 <li>Accidental damage not covered by standard warranty</li>
                 <li>True Tone calibration may require Apple configurator</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
@@ -391,7 +391,7 @@ export default function ScreenRepairMacBookProPage() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Component-level diagnosis, only failed parts replaced</li>
-                <li>MacBook Pro 13″ from R3,499 | 14″/16″ from R4,999</li>
+                <li>MacBook Pro 13″, 14″ and 16″ models serviced</li>
                 <li>True Tone data preserved on all 2018+ models</li>
                 <li>Turnaround 24-72 hours for most models</li>
                 <li>LP8550 backlight IC repair, no full board replacement</li>
@@ -470,7 +470,7 @@ export default function ScreenRepairMacBookProPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro Screen Fault? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a photo of the fault, we will give you an honest assessment and a price range before you even bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a photo of the fault, we will give you an honest assessment and a price range before you even bring the machine in.  Assessment, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -489,7 +489,7 @@ export default function ScreenRepairMacBookProPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ from R3,499 | 14″/16″ from R4,999 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″, 14″ and 16″ serviced | Up-to-3 year warranty
             </p>
           </div>
         </div>

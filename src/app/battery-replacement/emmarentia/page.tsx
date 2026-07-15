@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Emmarentia | ZA Support Hyde Park',
-  description: 'MacBook battery replacement for Emmarentia clients. Same-day service, from R1,899. Collection from Emmarentia. Written warranty. Call 064 529 5863.',
+  description: 'MacBook battery replacement for Emmarentia clients. Same-day service. Collection from Emmarentia. Written warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/emmarentia' },
 };
 
@@ -25,7 +25,7 @@ const faults = [
 
 const faqs = [
   { question: 'Do you collect MacBooks for battery replacement from Emmarentia?', answer: 'Yes, collection from anywhere in Emmarentia is included at no extra cost. We cover the streets around the Botanical Gardens, the area near Emmarentia Dam, and the homes off Greenhill and Komatieland Roads. From our Hyde Park workshop the drive is about 6 km via Barry Hertzog Avenue, usually 10-12 minutes outside peak. Book a window on 064 529 5863 and we will confirm a one-hour slot that suits you.' },
-  { question: 'How much does MacBook battery replacement cost for Emmarentia clients?', answer: 'Battery replacement starts from R1,899 and the final price depends on your specific model, a 2017 MacBook Pro is different from an M2 Air. Collection from Emmarentia is included. Where the assessment uncovers a swollen battery that has damaged the trackpad or top case, we will quote those parts separately before proceeding. Every replacement carries a written warranty.' },
+  { question: 'How much does MacBook battery replacement cost for Emmarentia clients?', answer: 'Battery replacement pricing depends on your specific model, a 2017 MacBook Pro is different from an M2 Air. Collection from Emmarentia is included. Where the assessment uncovers a swollen battery that has damaged the trackpad or top case, we will quote those parts separately before proceeding. Every replacement carries a written warranty.' },
   { question: 'How long does MacBook battery replacement take?', answer: 'Most Emmarentia jobs are completed within 24 to 48 hours from collection. The actual battery work takes a few hours, but we deliberately run a full charge-discharge calibration cycle afterwards to confirm the new cell is reporting correctly in macOS before we return the machine. Urgent same-day turnarounds can sometimes be arranged if you drop off in person at Hyde Park, phone first on 064 529 5863.' },
   { question: 'Will replacing my battery erase my data?', answer: 'No. A battery replacement is a hardware swap that does not touch the SSD or your macOS installation. Your files, applications, and settings all remain exactly as they were. That said, we always recommend a current Time Machine backup before any repair, a habit worth keeping regardless. If you do not have a backup drive, we can help you set one up when we return the machine.' },
   { question: 'How do I check my MacBook battery health?', answer: 'Hold Option and click the Apple menu, then choose System Information and look under Power, you will see Cycle Count and Condition. Apple considers most modern MacBook batteries consumable after around 1,000 cycles. If Condition reads Service Recommended, or your cycle count is high and runtime has dropped below an hour, replacement is worth considering. Send us a screenshot on WhatsApp (wa.me/27645295863) and we will give you an honest opinion before you commit.' },
@@ -41,7 +41,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Battery Replacement Emmarentia',
-  description: 'Same-day MacBook battery replacement for Emmarentia clients. From R1,899. Collection included.',
+  description: 'Same-day MacBook battery replacement for Emmarentia clients. Collection included.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -80,14 +80,14 @@ export default function BatteryReplacementEmmarentiaPage() {
               <br /><span className="text-[#0FEA7A]">Emmarentia</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Emmarentia residents working from home offices around the Botanical Gardens, Emmarentia Dam, and the leafy streets off Greenhill Road. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain, and charging faults, from R1,899 with written warranty. Collection takes 10-12 minutes from our Hyde Park workshop, roughly 6 km via Barry Hertzog Avenue.
+              Same-day MacBook battery replacement for Emmarentia residents working from home offices around the Botanical Gardens, Emmarentia Dam, and the leafy streets off Greenhill Road. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain, and charging faults, all backed by a written warranty. Collection takes 10-12 minutes from our Hyde Park workshop, roughly 6 km via Barry Hertzog Avenue.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | From R1,899 | Same-day service | Collecting from Emmarentia</span>
+              <span>Hyde Park, Johannesburg | Same-day service | Collecting from Emmarentia</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'From R1,899'].map((l) => (
+              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'Contact for pricing'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -155,7 +155,7 @@ export default function BatteryReplacementEmmarentiaPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Failing? From R1,899.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Failing? We Collect.</h2>
             <p className="text-[#7A9E98] mb-6">Same-day replacement. Collecting from Emmarentia. Written warranty.</p>
             <PricingNote variant="inline" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">

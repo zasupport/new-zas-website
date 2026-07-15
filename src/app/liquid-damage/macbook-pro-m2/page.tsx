@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Pro M2 Liquid Damage Repair Johannesburg',
   description:
-    'MacBook Pro M2 liquid damage repair in Johannesburg. M2 NAND controller vulnerability, keyboard deck spill recovery, ultrasonic cleaning. Assessment from R599. Hyde Park.',
+    'MacBook Pro M2 liquid damage repair in Johannesburg. M2 NAND controller vulnerability, keyboard deck spill recovery, ultrasonic cleaning. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m2' },
   keywords: [
     'MacBook Pro M2 liquid damage repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Pro M2 fix',
     'MacBook Pro M2 keyboard spill repair',
     'M2 MacBook Pro coffee spill repair Johannesburg',
-    'MacBook Pro M2 liquid damage assessment from R599',
+    'MacBook Pro M2 liquid damage assessment',
   ],
 };
 
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro M2 be repaired?',
     answer:
-      'Yes, in most cases. The M2 MacBook Pro uses the same unified architecture as the M1 but with improved power efficiency circuits that introduce different failure patterns after liquid exposure. We have repaired hundreds of M2 MacBook Pros with liquid damage in our Hyde Park workshop. Assessment from R599.',
+      'Yes, in most cases. The M2 MacBook Pro uses the same unified architecture as the M1 but with improved power efficiency circuits that introduce different failure patterns after liquid exposure. We have repaired hundreds of M2 MacBook Pros with liquid damage in our Hyde Park workshop. Assessment.',
   },
   {
     question: 'How does M2 liquid damage differ from M1 liquid damage?',
@@ -58,12 +58,12 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M2 liquid damage repair cost?',
     answer:
-      'Costs depend on the extent of damage. A keyboard-only replacement where no liquid reached the logic board is the most affordable. USB-C controller or NAND controller repair is moderately priced. Full board cleaning with multiple IC replacements is the most complex case. All repairs are quoted upfront. Assessment from R599. From R599 assessment.',
+      'Costs depend on the extent of damage. A keyboard-only replacement where no liquid reached the logic board is the most affordable. USB-C controller or NAND controller repair is moderately priced. Full board cleaning with multiple IC replacements is the most complex case. All repairs are quoted upfront. Assessment.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro M2?',
     answer:
-      'Yes, in most cases. The M2 MacBook Pro stores data on dedicated NAND flash chips. Even when the logic board is beyond economic repair, we can usually recover data by reading the NAND chips directly. However, if the NAND controller itself was damaged by liquid, recovery is more complex and requires specialised tools. We assess this during the R599 diagnostic.',
+      'Yes, in most cases. The M2 MacBook Pro stores data on dedicated NAND flash chips. Even when the logic board is beyond economic repair, we can usually recover data by reading the NAND chips directly. However, if the NAND controller itself was damaged by liquid, recovery is more complex and requires specialised tools. We assess this during the diagnostic.',
   },
   {
     question: 'How long does M2 MacBook Pro liquid damage repair take?',
@@ -73,12 +73,12 @@ const faqs = [
   {
     question: 'Does AppleCare+ cover liquid damage on the M2 MacBook Pro?',
     answer:
-      'Standard AppleCare does not cover liquid damage. AppleCare+ covers up to two incidents of accidental damage per year, but each incident incurs a service fee of approximately R4,500 for a MacBook Pro, and Apple replaces the entire logic board rather than repairing at component level. ZA Support repairs only the affected components at a fraction of the cost.',
+      'Standard AppleCare does not cover liquid damage. AppleCare+ covers up to two incidents of accidental damage per year, but each incident incurs a service fee for a MacBook Pro, and Apple replaces the entire logic board rather than repairing at component level. ZA Support repairs only the affected components at a fraction of the cost.',
   },
   {
     question: 'Is a liquid-damaged M2 MacBook Pro worth repairing?',
     answer:
-      'Almost always, yes. A new MacBook Pro M2 costs R22,000-R55,000 depending on specification. Our component-level repairs typically cost a fraction of replacement. We preserve your data, your settings, and your machine. If repair is genuinely not economical, we tell you honestly during the assessment, beyond the R599 fee.',
+      'Almost always, yes. A new MacBook Pro M2 costs many times our repair price depending on specification. Our component-level repairs typically cost a fraction of replacement. We preserve your data, your settings, and your machine. If repair is genuinely not economical, we tell you honestly during the assessment, beyond the assessment fee.',
   },
   {
     question: 'Do you collect M2 MacBook Pros from across Johannesburg?',
@@ -141,7 +141,7 @@ const severityLabels: Record<string, string> = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M2 Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro M2 liquid damage repair in Johannesburg. NAND controller specialist. Ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+  description: 'Professional MacBook Pro M2 liquid damage repair in Johannesburg. NAND controller specialist. Ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
   lowPrice: '5700',
   highPrice: '19950',
 });
@@ -170,15 +170,15 @@ export default function MacBookProM2LiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M2 Specialist' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -250,7 +250,7 @@ export default function MacBookProM2LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. From R599 assessment on every case, if we cannot repair your M2 MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
+              All repairs are quoted before work begins. Assessment on every case, if we cannot repair your M2 MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -264,9 +264,9 @@ export default function MacBookProM2LiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R22,000 to R55,000</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
-                <li>AppleCare+ incident fee approximately R4,500</li>
+                <li>AppleCare+ incident fee applies</li>
                 <li>Data may not survive board replacement</li>
                 <li>5-10 business days via Apple depot repair</li>
               </ul>
@@ -275,7 +275,7 @@ export default function MacBookProM2LiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed parts replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>NAND controller recovery available</li>
                 <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
@@ -365,7 +365,7 @@ export default function MacBookProM2LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

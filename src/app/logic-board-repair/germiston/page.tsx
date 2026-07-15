@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Germiston | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Germiston residents. Component-level repair, board diagnostics, assessment from R599. We collect from Germiston and repair at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook logic board repair for Germiston residents. Component-level repair, board diagnostics, assessment. We collect from Germiston and repair at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/germiston' },
 };
 
@@ -42,8 +42,8 @@ const faqs = [
   { question: 'What is the difference between component-level repair and a board replacement?', answer: 'A board replacement swaps the entire logic board for a new one, which is expensive and means you lose anything stored on the soldered SSD. Component-level repair identifies the single failed part, often a power IC, a charging chip, a blown filter, or a corroded trace, and replaces only that component. For Germiston clients the cost difference is significant, and the original SSD with all your data stays in place.' },
   { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases yes. Complete no-power faults usually trace back to a damaged power management IC, a shorted capacitor on the main power rail, or a failed SMC. We see this pattern often from Germiston clients whose machines were exposed to a power surge, common on the older industrial grid around Wadeville and Knights. The board comes in, we diagnose under microscope, and we quote before any repair work begins.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours from when the board reaches our Hyde Park workshop. Complex faults involving multiple damaged components, or repairs that require waiting for a specific IC to arrive, can take 5 to 7 working days. We give Germiston clients a realistic timeline at the point of quotation, not an optimistic guess.' },
-  { question: 'What is the assessment fee?', answer: 'Assessment is from R599. This covers the structured diagnostic under microscope, voltage rail testing, and a written quotation explaining exactly which component has failed and what the repair will cost. If you approve the repair, the assessment fee is applied toward the total. If you decline, the assessment fee covers the diagnostic work already completed.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. Assessment starts from R599 and includes a proper component-level diagnostic, not a surface check. For Germiston clients this means you receive a clear written explanation of the fault before committing to any repair spend. More involved diagnostics, particularly on machines with multiple symptoms or liquid damage, may carry a higher assessment fee, which we confirm before starting.' },
+  { question: 'What is the assessment fee?', answer: 'We charge an assessment fee. This covers the structured diagnostic under microscope, voltage rail testing, and a written quotation explaining exactly which component has failed and what the repair will cost. If you approve the repair, the assessment fee is applied toward the total. If you decline, the assessment fee covers the diagnostic work already completed.' },
+  { question: 'Do you offer an Assessment guarantee?', answer: 'Yes. Our assessment fee includes a proper component-level diagnostic, not a surface check. For Germiston clients this means you receive a clear written explanation of the fault before committing to any repair spend. More involved diagnostics, particularly on machines with multiple symptoms or liquid damage, may carry a higher assessment fee, which we confirm before starting.' },
   { question: 'Which MacBook models do you repair for Germiston clients?', answer: 'We repair the full MacBook Pro and MacBook Air range from 2012 onwards, including all Intel models and the Apple Silicon M1, M2, and M3 generations. We also handle iMac and Mac mini logic boards. Whether you are running an older Intel machine in a Lambton home office or a newer M2 Air used across Wadeville warehouse sites, the board can come to Hyde Park for assessment.' },
 ];
 
@@ -51,7 +51,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Germiston',
-  description: 'Expert MacBook logic board repair and component-level repair for Germiston clients. Collection from Germiston, repair at Hyde Park workshop. Assessment from R599.',
+  description: 'Expert MacBook logic board repair and component-level repair for Germiston clients. Collection from Germiston, repair at Hyde Park workshop. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -90,7 +90,7 @@ export default function LogicBoardRepairGermistonPage() {
               <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Germiston is one of Gauteng&apos;s busiest industrial and logistics hubs, and we collect failed MacBooks from across the area, from the CBD around President Street through to Lambton, Primrose, and the warehousing corridors near Heidelberg Road. Our Hyde Park component-level workshop sits roughly 30 minutes north up the M2 and M1. Logic board assessment from R599.
+              Germiston is one of Gauteng&apos;s busiest industrial and logistics hubs, and we collect failed MacBooks from across the area, from the CBD around President Street through to Lambton, Primrose, and the warehousing corridors near Heidelberg Road. Our Hyde Park component-level workshop sits roughly 30 minutes north up the M2 and M1. Logic board assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -99,8 +99,8 @@ export default function LogicBoardRepairGermistonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level Repair' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -244,7 +244,7 @@ export default function LogicBoardRepairGermistonPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment with to proceed.</p>
           <PricingRange page="/logic-board-repair/germiston" />
           <PricingNote variant="inline" />
         </div>
@@ -276,8 +276,8 @@ export default function LogicBoardRepairGermistonPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Germiston MacBook Fault? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Germiston. Assessment from R599. 12-month warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Germiston MacBook Fault? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Germiston. Assessment. 12-month warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-GERMISTO', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

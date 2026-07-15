@@ -20,7 +20,7 @@ const orphanIpadRepairLinks = [
 export const metadata: Metadata = {
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
   description:
-    'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. Assessment: from R599. Hyde Park.',
+    'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. Assessment. Hyde Park.',
   keywords: [
     'ipad repair johannesburg',
     'ipad screen repair johannesburg',
@@ -73,7 +73,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad repairs?',
     answer:
-      'Yes. All iPad repairs carry a warranty on parts and labour. If the same fault recurs within the warranty period, we fix it at from R599. This excludes physical damage or liquid damage after the repair.',
+      'Yes. All iPad repairs carry a warranty on parts and labour. If the same fault recurs within the warranty period, we fix it at our assessment fee. This excludes physical damage or liquid damage after the repair.',
   },
 ];
 
@@ -90,7 +90,7 @@ const repairServices = [
     desc: 'Restore full battery capacity and eliminate unexpected shutdowns.',
     priceStandard: 'Contact for pricing',
     pricePro: '',
-    note: 'Battery health check included at from R599.',
+    note: 'Battery health check included at our assessment fee.',
   },
   {
     title: 'Charging Port Repair',
@@ -104,7 +104,7 @@ const repairServices = [
     desc: 'Ultrasonic board clean, component-level diagnosis, and board repair.',
     priceStandard: 'Contact for pricing',
     pricePro: '',
-    note: 'Assessment: from R599 applies, from R599 if repair is not possible.',
+    note: 'Assessment fee applies if repair is not possible.',
   },
 ];
 
@@ -178,7 +178,7 @@ export default function iPadRepairPage() {
               Professional iPad repair in Johannesburg. Screen, battery, and charging port repairs for all iPad models including M4 iPad Pro, Air M2, and mini 6.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment: from R599. warranty on all repairs. Assessment: from R599, from R599 if we cannot fix it.
+              Warranty on all repairs. Assessment fee applies if we cannot fix it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -209,7 +209,7 @@ export default function iPadRepairPage() {
             iPad Repair Prices, Johannesburg
           </h2>
           <p className="text-[#7A9E98] text-center mb-10 max-w-2xl mx-auto">
-            Starting prices for common repairs. Exact quotes provided after assessment fee (from R599).
+            Starting prices for common repairs. Exact quotes provided after assessment fee.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {repairServices.map((service) => (
@@ -295,15 +295,15 @@ export default function iPadRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Assessment: from R599',
-                desc: 'If we cannot repair your iPad, assessment fee of from R599 applies. No diagnostic fee, no call-out charge.',
+                title: 'Assessment',
+                desc: 'If we cannot repair your iPad, assessment fee applies. No diagnostic fee, no call-out charge.',
               },
               {
                 title: 'Warranty',
                 desc: 'All parts and labour carry a up-to-3 year warranty. Same fault within the warranty period, we fix it free.',
               },
               {
-                title: 'Assessment: from R599',
+                title: 'Assessment',
                 desc: 'We inspect your iPad and give you a full quote before starting any work. You decide.',
               },
               {
@@ -352,12 +352,12 @@ export default function iPadRepairPage() {
               {
                 step: '2',
                 title: 'Book Your Assessment',
-                desc: 'Drop off your iPad at our Hyde Park office. We inspect it thoroughly, check screen, battery health, charging port, and any water damage. Assessment: from R599.',
+                desc: 'Drop off your iPad at our Hyde Park office. We inspect it thoroughly, check screen, battery health, charging port, and any water damage. Assessment.',
               },
               {
                 step: '3',
                 title: 'Quote, You Decide',
-                desc: 'We give you a fixed quote for the repair. No surprises. You decide whether to go ahead. From R599 if you decline.',
+                desc: 'We give you a fixed quote for the repair. No surprises. You decide whether to go ahead.',
               },
               {
                 step: '4',
@@ -411,7 +411,7 @@ export default function iPadRepairPage() {
               iPad Damaged? Let Us Fix It.
             </h2>
             <p className="text-[#7A9E98] mb-2">Screen repair &nbsp;|&nbsp; Battery replacement &nbsp;|&nbsp; Charging port repair</p>
-            <p className="text-[#7A9E98] mb-8">Assessment: from R599. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('IPAD', 'ipad-repair')}

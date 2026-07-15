@@ -274,7 +274,7 @@ export default function AboutPage() {
                   { icon: Award, text: 'Apple fleet management for businesses and medical practices' },
                   { icon: Cpu, text: 'Component-level MacBook logic board repair since 2009' },
                   { icon: Star, text: '4.9★ Google rating across 632+ verified client reviews' },
-                  { icon: Shield, text: 'Assessment: from R599, transparent pricing, up-to-3 year warranty on all repairs' },
+                  { icon: Shield, text: 'Assessment, transparent pricing, up-to-3 year warranty on all repairs' },
                   { icon: CheckCircle, text: '50,000+ Apple devices repaired across Johannesburg and Gauteng' },
                 ].map(({ icon: Icon, text }) => (
                   <div key={text} className="flex gap-3 items-start">
@@ -308,7 +308,7 @@ export default function AboutPage() {
                   { icon: Cpu, title: 'Microscope-Level Component-level repair', desc: 'We repair components others replace. Our board-level repair capability saves clients thousands over full board replacements.' },
                   { icon: Award, title: 'Apple MDM Specialists', desc: 'We implement and manage Apple device fleets for organisations across Gauteng using industry-leading MDM solutions.' },
                   { icon: Star, title: '4.9★ on Google, 632+ Reviews', desc: 'Our rating is built on consistent delivery. Read our reviews, the themes are honesty, transparency, and results.' },
-                  { icon: Shield, title: 'Transparent Pricing, Always', desc: 'Assessment fee of from R599 applies. Written quote before any work begins. up-to-3 year warranty on all repairs. No surprises.' },
+                  { icon: Shield, title: 'Transparent Pricing, Always', desc: 'An assessment fee applies. Written quote before any work begins. up-to-3 year warranty on all repairs. No surprises.' },
                 ].map(({ icon: Icon, title, desc }) => (
                   <div key={title} className="flex gap-4 p-4 bg-[rgba(22,34,32,0.5)] rounded-xl border border-[rgba(15,234,122,0.08)]">
                     <div className="w-10 h-10 bg-[rgba(15,234,122,0.1)] rounded-xl flex items-center justify-center flex-shrink-0">
@@ -382,7 +382,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Work With Us</h2>
-            <p className="text-[#7A9E98] mb-6">Assessment: from R599. Hyde Park, Johannesburg, serving Sandton, Rosebank &amp; Gauteng.</p>
+            <p className="text-[#7A9E98] mb-6">Assessment. Hyde Park, Johannesburg, serving Sandton, Rosebank &amp; Gauteng.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={`tel:${CONTACT.phoneTel}`} className="inline-flex items-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 <Phone className="w-5 h-5" /> Call {CONTACT.phone}

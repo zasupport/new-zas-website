@@ -63,16 +63,16 @@ const orphanLbrSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: 'MacBook Logic Board Repair Johannesburg [2026] | From R2,500',
+  title: 'MacBook Logic Board Repair Johannesburg [2026]',
   description:
-    'MacBook logic board repair in Johannesburg. Component-level repair for no-power, no-display, USB-C failure, GPU faults. From R2,500. R599 assessment. 12-month warranty. Call 064 529 5863.',
+    'MacBook logic board repair in Johannesburg. Component-level repair for no-power, no-display, USB-C failure, GPU faults. Assessment. 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair' },
 };
 
 /* ── Common faults ──────────────────────────────────────────────────────── */
 const faults = [
   { title: 'No Power', desc: 'MacBook shows no signs of life, no fans, no display, no LED. Typically a failed power-management IC, blown fuse, or damaged charging controller. Component-level diagnosis and repair.' },
-  { title: 'No Display / Black Screen', desc: 'Mac boots (you hear fans / chime) but screen stays black. Backlight driver IC failure, LP8550 fault, or display flex cable damage. Often a sub-R3,000 component-level repair.' },
+  { title: 'No Display / Black Screen', desc: 'Mac boots (you hear fans / chime) but screen stays black. Backlight driver IC failure, LP8550 fault, or display flex cable damage. Often a straightforward component-level repair.' },
   { title: 'Liquid Damage Corrosion', desc: 'Spill, splash, or humidity exposure leaves conductive residue on traces. Professional ultrasonic cleaning followed by component-level chip replacement.' },
   { title: 'Overheating / Random Shutdown', desc: 'Thermal runaway, failing voltage regulator, or blocked power rail. We trace current draw on each rail at component level to identify the root cause.' },
   { title: 'USB-C / Thunderbolt Failure', desc: 'No charging, no external display, or no data on one or both USB-C ports. CD3217B12 controller failure is the most common cause on 2016-2020 MacBook Pro and MacBook Air.' },
@@ -82,7 +82,7 @@ const faults = [
 ];
 
 const repairTypes = [
-  { item: 'Component-Level Diagnostic Assessment', note: 'Full board inspection under microscope (from R599)' },
+  { item: 'Component-Level Diagnostic Assessment', note: 'Full board inspection under microscope' },
   { item: 'USB-C / Thunderbolt Controller Repair', note: 'CD3217B12 / port board replacement' },
   { item: 'Power Circuit Repair', note: 'No-power diagnosis, PMIC / fuse replacement' },
   { item: 'Component-Level Chip Repair', note: 'Specific IC replacement under microscope' },
@@ -95,12 +95,12 @@ const faqs = [
   {
     question: 'How much does MacBook logic board repair cost in Johannesburg?',
     answer:
-      'Component-level logic board repair at ZA Support starts from R2,500 for most MacBook Air and MacBook Pro 13-inch faults, and from R3,500 for MacBook Pro 14-inch and 16-inch models. This is significantly cheaper than a full board replacement, the Apple Store typically quotes R15,000 to R30,000 for the equivalent fix. We provide a written fixed-price quote after the R599 assessment, before any work begins. Final price depends on which specific component has failed.',
+      'Component-level logic board repair at ZA Support is significantly cheaper than a full board replacement, the Apple Store typically quotes many times more for the equivalent fix. We provide a written fixed-price quote after the assessment, before any work begins. Final price depends on which specific component has failed.',
   },
   {
     question: 'What is your assessment fee policy?',
     answer:
-      'Our assessment fee is from R599. This covers a full board-level diagnostic under microscope and a written fixed-price quote. If you proceed with the repair, the R599 is included in the total repair cost. If you decide not to proceed, the R599 is payable for the diagnostic work completed. We never start a repair without your explicit written approval of the fixed-price quote.',
+      'Our assessment fee applies. This covers a full board-level diagnostic under microscope and a written fixed-price quote. If you proceed with the repair, the assessment fee is included in the total repair cost. If you decide not to proceed, the assessment fee is payable for the diagnostic work completed. We never start a repair without your explicit written approval of the fixed-price quote.',
   },
   {
     question: 'How long does logic board repair take?',
@@ -130,7 +130,7 @@ const faqs = [
   {
     question: "What's the most common MacBook logic board fault you see?",
     answer:
-      'Three faults dominate our workshop volume: (1) USB-C charging controller failure (CD3217B12) on MacBook Pro and MacBook Air 2016-2020, the chip fails and stops charging on one or both sides. (2) Backlight driver IC (LP8550) failure on MacBook Pro 13" 2012-2017, screen goes black but you can faintly see the desktop with a torch. (3) Power-management IC (TPS51980) failure on MacBook Pro 2013-2016, no power, fan briefly spins, then nothing. All three are standard component-level repairs for us, usually under R3,500.',
+      'Three faults dominate our workshop volume: (1) USB-C charging controller failure (CD3217B12) on MacBook Pro and MacBook Air 2016-2020, the chip fails and stops charging on one or both sides. (2) Backlight driver IC (LP8550) failure on MacBook Pro 13" 2012-2017, screen goes black but you can faintly see the desktop with a torch. (3) Power-management IC (TPS51980) failure on MacBook Pro 2013-2016, no power, fan briefly spins, then nothing. All three are standard component-level repairs for us.',
   },
   {
     question: 'What is the difference between component-level repair and board replacement?',
@@ -140,7 +140,7 @@ const faqs = [
   {
     question: 'My MacBook shows no signs of life. Is it worth bringing in?',
     answer:
-      'Yes. A completely dead MacBook is one of the most common faults we successfully repair. "No power" faults are very often caused by a single failed component on the power rail, a blown fuse, failed MOSFET, or damaged charging IC. These are component-level repairs that cost a fraction of a new machine, typically R2,500 to R4,500 versus R30,000+ for a replacement MacBook Pro. Book a R599 assessment and we will tell you exactly what failed and what it will cost to fix.',
+      'Yes. A completely dead MacBook is one of the most common faults we successfully repair. "No power" faults are very often caused by a single failed component on the power rail, a blown fuse, failed MOSFET, or damaged charging IC. These are component-level repairs that cost a fraction of a new machine, far less than a replacement MacBook Pro. Book an assessment and we will tell you exactly what failed and what it will cost to fix.',
   },
   {
     question: 'Can you repair M1, M2, M3, and M4 MacBook logic boards?',
@@ -178,13 +178,13 @@ const suburbPages = [
 
 /* ── Pricing table ───────────────────────────────────────────────────────── */
 const pricingTable = [
-  { device: 'MacBook Air logic board (M1/M2/M3, Intel)', from: 'R2,500', turnaround: '24-72 hrs', warranty: '12 months' },
-  { device: 'MacBook Pro 13″ logic board', from: 'R2,800', turnaround: '24-72 hrs', warranty: '12 months' },
-  { device: 'MacBook Pro 14″ / 16″ logic board', from: 'R3,500', turnaround: '48-96 hrs', warranty: '12 months' },
-  { device: 'iMac logic board', from: 'R3,200', turnaround: '3-5 days', warranty: '12 months' },
-  { device: 'Mac mini logic board', from: 'R2,500', turnaround: '24-72 hrs', warranty: '12 months' },
-  { device: 'USB-C controller only (CD3217B12)', from: 'R2,200', turnaround: '24-48 hrs', warranty: '12 months' },
-  { device: 'Backlight driver IC only (LP8550)', from: 'R1,800', turnaround: '24-48 hrs', warranty: '12 months' },
+  { device: 'MacBook Air logic board (M1/M2/M3, Intel)', from: 'Contact for pricing', turnaround: '24-72 hrs', warranty: '12 months' },
+  { device: 'MacBook Pro 13″ logic board', from: 'Contact for pricing', turnaround: '24-72 hrs', warranty: '12 months' },
+  { device: 'MacBook Pro 14″ / 16″ logic board', from: 'Contact for pricing', turnaround: '48-96 hrs', warranty: '12 months' },
+  { device: 'iMac logic board', from: 'Contact for pricing', turnaround: '3-5 days', warranty: '12 months' },
+  { device: 'Mac mini logic board', from: 'Contact for pricing', turnaround: '24-72 hrs', warranty: '12 months' },
+  { device: 'USB-C controller only (CD3217B12)', from: 'Contact for pricing', turnaround: '24-48 hrs', warranty: '12 months' },
+  { device: 'Backlight driver IC only (LP8550)', from: 'Contact for pricing', turnaround: '24-48 hrs', warranty: '12 months' },
 ];
 
 /* ── IC fault reference table ───────────────────────────────────────────── */
@@ -203,7 +203,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Johannesburg',
   description:
-    'Professional MacBook logic board repair and component-level chip replacement in Johannesburg. From R2,500. R599 assessment. 12-month warranty. Hyde Park workshop.',
+    'Professional MacBook logic board repair and component-level chip replacement in Johannesburg. Assessment. 12-month warranty. Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -222,17 +222,17 @@ const serviceSchema = {
     itemListElement: [
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Air Logic Board Repair', description: 'Component-level repair for MacBook Air logic boards. From R2,500. 12-month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Air Logic Board Repair', description: 'Component-level repair for MacBook Air logic boards. 12-month warranty.' },
         price: '2500', priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Pro Logic Board Repair', description: 'Component-level repair for MacBook Pro 13/14/16-inch logic boards. From R2,800. 12-month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Pro Logic Board Repair', description: 'Component-level repair for MacBook Pro 13/14/16-inch logic boards. 12-month warranty.' },
         price: '2800', priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'USB-C Controller Replacement', description: 'CD3217B12 USB-C controller chip replacement. From R2,200. 12-month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'USB-C Controller Replacement', description: 'CD3217B12 USB-C controller chip replacement. 12-month warranty.' },
         price: '2200', priceCurrency: 'ZAR',
       },
     ],
@@ -291,9 +291,9 @@ export default function LogicBoardRepairPage() {
                 <span className="text-[#0FEA7A]">Repair Johannesburg</span>
               </h1>
               <p className="text-lg sm:text-xl text-[#7A9E98] mb-4 speakable-summary">
-                Component-level MacBook logic board repair from <strong className="text-[#E8F4F1]">R2,500</strong>{' '}
-                at our Hyde Park workshop. We replace the specific failed chip under microscope, 
-                we do not swap the whole board. 12-month warranty. R599 assessment.
+                Component-level MacBook logic board repair
+                at our Hyde Park workshop. We replace the specific failed chip under microscope,
+                we do not swap the whole board. 12-month warranty. assessment.
               </p>
               <p className="text-[#7A9E98] mb-4">
                 We have been repairing MacBook logic boards from our Hyde Park workshop since 2009, 
@@ -309,7 +309,7 @@ export default function LogicBoardRepairPage() {
               <div className="flex flex-wrap gap-3 mb-8">
                 {[
                   { icon: Microscope, label: 'Microscope Component Repair' },
-                  { icon: Zap, label: 'R599 Assessment' },
+                  { icon: Zap, label: 'Assessment' },
                   { icon: CheckCircle, label: '12-Month Warranty' },
                   { icon: AlertTriangle, label: 'Written Quote First' },
                 ].map(({ icon: Icon, label }) => (
@@ -346,7 +346,7 @@ export default function LogicBoardRepairPage() {
                   { value: 'Over 25,000', label: 'Workshop Repair Operations' },
                   { value: `${SITE.yearsExperience} Years`, label: 'Hyde Park Workshop Since 2009' },
                   { value: '12 Months', label: 'Written Warranty' },
-                  { value: 'From R599', label: 'Assessment Fee' },
+                  { value: 'Contact for pricing', label: 'Assessment Fee' },
                   { value: `${SITE.rating}★`, label: `${SITE.reviewCount} Google Reviews` },
                 ].map(({ value, label }) => (
                   <div key={label}>
@@ -384,7 +384,7 @@ export default function LogicBoardRepairPage() {
             </h2>
             <p className="text-[#7A9E98] mb-10 max-w-3xl">
               Most Apple repair shops in Johannesburg quote a full logic board replacement for any
-              significant board fault, R15,000 to R30,000 at the Apple Store. We work at component
+              significant board fault, at many times our price. We work at component
               level under microscope and replace the specific failed chip. The math is dramatic.
             </p>
             <div className="grid md:grid-cols-3 gap-6">
@@ -402,7 +402,7 @@ export default function LogicBoardRepairPage() {
                 {
                   icon: Clock,
                   title: '60-80% cheaper, days not weeks',
-                  body: 'Component-level repair is typically R2,500 to R5,000 versus R15,000 to R30,000 for a board replacement at Apple. Most repairs are finished in 24 to 72 hours instead of the week-plus that board replacement requires.',
+                  body: 'Component-level repair is typically a small fraction of the cost of a board replacement at Apple. Most repairs are finished in 24 to 72 hours instead of the week-plus that board replacement requires.',
                 },
               ].map(({ icon: Icon, title, body }) => (
                 <div key={title} className="bg-[#111C1A] rounded-xl p-6 border border-[#27504D]/20">
@@ -440,15 +440,15 @@ export default function LogicBoardRepairPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Logic Board Repair Pricing</h2>
             <p className="text-[#7A9E98] mb-10 max-w-2xl">
               Component-level repair pricing. All prices include diagnosis, chip-level repair, full
-              functional testing, and a written 12-month warranty. Compare with the Apple Store, 
-              R15,000 to R30,000 for a full board replacement.
+              functional testing, and a written 12-month warranty. Compare with the Apple Store,
+              many times more for a full board replacement.
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
                   <tr className="border-b border-[#27504D]/40">
                     <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">Repair</th>
-                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">From</th>
+                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">Pricing</th>
                     <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Turnaround</th>
                     <th className="py-4 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Warranty</th>
                   </tr>
@@ -466,7 +466,7 @@ export default function LogicBoardRepairPage() {
               </table>
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
-              Assessment fee from R599, covers full board diagnostic under microscope and written
+              Assessment fee applies, covers full board diagnostic under microscope and written
               fixed-price quote. Included in the repair cost if you proceed. All prices in ZAR including VAT.
             </p>
             <PricingRange page="/logic-board-repair" />
@@ -516,8 +516,8 @@ export default function LogicBoardRepairPage() {
               </table>
             </div>
             <p className="text-[#7A9E98] text-xs mt-4">
-              Risk rating indicates complexity of the repair, not likelihood of success. Assessment fee
-              from R599. 12-month warranty on all component-level repairs.
+              Risk rating indicates complexity of the repair, not likelihood of success. An assessment fee
+              applies. 12-month warranty on all component-level repairs.
             </p>
           </div>
         </section>
@@ -528,7 +528,7 @@ export default function LogicBoardRepairPage() {
             <h2 className="text-3xl font-extrabold mb-4">Repair Services</h2>
             <p className="text-[#7A9E98] text-sm mb-8 max-w-2xl">
               All repairs are component-level under microscope. Final cost is confirmed in writing after
-              the R599 assessment.
+              the assessment.
             </p>
             <div className="bg-[#111C1A] border border-[#27504D]/20 rounded-xl overflow-hidden">
               {repairTypes.map((item, i) => (
@@ -586,7 +586,7 @@ export default function LogicBoardRepairPage() {
                 },
                 {
                   title: 'Transparent Fixed-Price Quotes',
-                  desc: 'You receive a written, fixed-price quote after the R599 assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. The R599 is included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote after the assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. The assessment fee is included in the repair cost if you proceed.',
                 },
                 {
                   title: 'Forbes Africa 30 Under 30 (2019)',
@@ -619,7 +619,7 @@ export default function LogicBoardRepairPage() {
                 >
                   <h3 className="text-[#E8F4F1] font-bold text-sm mb-2 group-hover:text-[#0FEA7A] transition-colors">{page.title}</h3>
                   <p className="text-[#7A9E98] text-xs leading-relaxed mb-3">{page.desc}</p>
-                  <p className="text-[#0FEA7A] text-xs font-semibold">Assessment from R599</p>
+                  <p className="text-[#0FEA7A] text-xs font-semibold">Assessment</p>
                 </Link>
               ))}
             </div>
@@ -724,7 +724,7 @@ export default function LogicBoardRepairPage() {
             </h2>
             <p className="text-lg text-[#7A9E98] mb-4 max-w-2xl mx-auto">
               WhatsApp us your MacBook model and a description of the fault and we will reply with
-              same-day intake details. R599 assessment with a written fixed-price quote before any
+              same-day intake details. assessment with a written fixed-price quote before any
               work begins.
             </p>
             <p className="text-[#7A9E98] mb-8">

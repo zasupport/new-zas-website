@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Pro Battery Replacement Johannesburg | All Models | ZA Support',
   description:
-    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. Genuine replacement batteries, data safe, up-to-3 year warranty. Assessment: from R599. Hyde Park.',
+    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. Genuine replacement batteries, data safe, up-to-3 year warranty. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair/battery' },
   keywords: [
     'MacBook Pro battery replacement Johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Battery Replacement Johannesburg | All Models | ZA Support',
-    description: 'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. up-to-3 year warranty. Assessment: from R599.',
+    description: 'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. up-to-3 year warranty. Assessment.',
     url: 'https://zasupport.com/macbook-pro-repair/battery',
     siteName: 'ZA Support',
     type: 'website',
@@ -42,7 +42,7 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
   description:
-    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models covered. Assessment from R599. up-to-3 year warranty on parts and labour.',
+    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models covered. Assessment. up-to-3 year warranty on parts and labour.',
 };
 
 const breadcrumbSchema = {
@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'from R599 covers a full diagnostic and written quote. If you proceed with the repair, the assessment fee applies. It is payable only if you decline the quote.',
+    answer: 'An assessment fee covers a full diagnostic and written quote. If you proceed with the repair, the assessment fee applies. It is payable only if you decline the quote.',
   },
   {
     question: 'How long does a MacBook Pro battery replacement take?',
@@ -107,7 +107,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on battery replacements?',
-    answer: 'up-to-3 year warranty on the battery and labour. If the battery fails or shows the same fault within the warranty period, we replace it at from R599. Extended warranty is also available on request.',
+    answer: 'up-to-3 year warranty on the battery and labour. If the battery fails or shows the same fault within the warranty period, we replace it at our assessment fee. Extended warranty is also available on request.',
   },
   {
     question: 'What cycle count is considered high for a MacBook Pro battery?',
@@ -153,7 +153,7 @@ export default function MacBookProBatteryPage() {
               {[
                 { icon: Battery, label: 'Battery Replacement' },
                 { icon: Shield, label: 'Up-to-3 Year Warranty' },
-                { icon: Zap, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'Data Safe' },
               ].map(({ icon: Icon, label }) => (
                 <span key={label} className="inline-flex items-center gap-1.5 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] text-[#7A9E98] text-xs px-3 py-1.5 rounded-full">
@@ -194,7 +194,7 @@ export default function MacBookProBatteryPage() {
             Signs You Need a Battery Replacement
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Recognise any of these? Assessment: from R599, we diagnose and quote before any work begins.
+            Recognise any of these? Assessment, we diagnose and quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {symptoms.map((s) => (
@@ -317,7 +317,7 @@ export default function MacBookProBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 1-3 hours. up-to-3 year warranty. Assessment: from R599.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 1-3 hours. up-to-3 year warranty. Assessment.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

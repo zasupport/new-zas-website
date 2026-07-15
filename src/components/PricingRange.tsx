@@ -37,7 +37,41 @@ function fmt(n: number): string {
   return 'R' + n.toLocaleString('en-ZA');
 }
 
+// TEMP price hide (2026-07-15): while prices are being updated, on-page numeric
+// ranges are withheld and a contact-for-pricing message is shown instead. Set
+// this back to false to restore the numeric ranges once new pricing is live.
+const HIDE_PRICING = true;
+
 export default function PricingRange({ page, variant = 'card' }: Props) {
+  if (HIDE_PRICING) {
+    if (variant === 'inline') {
+      return (
+        <p
+          data-pricing-range="hidden"
+          className="text-white/80 text-xs sm:text-sm mt-3 leading-snug"
+        >
+          Contact ZA Support on{' '}
+          <span className="whitespace-nowrap font-semibold text-white">064 529 5863</span>{' '}
+          with your model and serial number for current pricing.
+        </p>
+      );
+    }
+    return (
+      <div
+        data-pricing-range="hidden"
+        className="mt-6 rounded-xl border border-white/10 bg-white/5 px-4 py-4 sm:px-5 sm:py-5"
+      >
+        <p className="text-white font-semibold text-sm sm:text-base">
+          Contact us for current pricing.
+        </p>
+        <p className="text-white/70 text-xs sm:text-sm mt-1 leading-snug">
+          Contact ZA Support on{' '}
+          <span className="whitespace-nowrap font-semibold text-white">064 529 5863</span>{' '}
+          with your model and serial number for a current quote.
+        </p>
+      </div>
+    );
+  }
   const unavailable = data.unavailable.find((u) => u.page === page);
   if (unavailable) {
     return (

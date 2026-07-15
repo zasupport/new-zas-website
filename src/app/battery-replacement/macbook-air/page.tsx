@@ -25,9 +25,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air Battery Replacement Johannesburg [2026] | From R1,499 | ZA Support',
+  title: 'MacBook Air Battery Replacement Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air battery replacement in Johannesburg from R1,499. M1, M2, M3 & Intel Air. Swollen battery, adhesive removal, cycle count checks. From R599 assessment. Hyde Park.',
+    'MacBook Air battery replacement in Johannesburg. M1, M2, M3 & Intel Air. Swollen battery, adhesive removal, cycle count checks. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air' },
   keywords: [
     'MacBook Air battery replacement Johannesburg',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     'MacBook Air M3 battery replacement',
     'MacBook Air swollen battery Johannesburg',
     'MacBook Air battery cycle count',
-    'MacBook Air battery from R1499',
+    'MacBook Air battery replacement cost',
     'MacBook Air battery repair Sandton',
     'MacBook Air glued battery removal Johannesburg',
   ],
@@ -174,7 +174,7 @@ const processSteps = [
   {
     step: 3,
     title: 'Written Fixed-Price Quote',
-    desc: 'You receive a written quote before any work begins. Assessment from R599, included in the replacement cost if you proceed. The quote is the final price. No surprises.',
+    desc: 'You receive a written quote before any work begins. Assessment, included in the replacement cost if you proceed. The quote is the final price. No surprises.',
   },
   {
     step: 4,
@@ -189,7 +189,7 @@ const processSteps = [
   {
     step: 6,
     title: 'Collect with Written Warranty',
-    desc: 'You leave with a written warranty of up to 3 years on the battery and our workmanship. If the replacement battery drops below 80% capacity within the warranty period, we replace it again at from R599, parts and labour included.',
+    desc: 'You leave with a written warranty of up to 3 years on the battery and our workmanship. If the replacement battery drops below 80% capacity within the warranty period, we replace it again at our assessment fee, parts and labour included.',
   },
 ];
 
@@ -198,7 +198,7 @@ const faqs = [
   {
     question: 'How much does MacBook Air battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Air battery replacement starts from R1,499 at our Hyde Park workshop. This covers all MacBook Air models, M1, M2, M3, Intel Retina (2018-2020), non-Retina (2012-2017), and 11-inch models. The price includes the battery cell, labour, adhesive, calibration, and a written warranty of up to 3 years. For context, the Apple Store charges R2,500 to R5,500 for the same service, and frequently quotes longer turnaround times due to depot shipping.',
+      'MacBook Air battery replacement is an affordable service at our Hyde Park workshop. This covers all MacBook Air models, M1, M2, M3, Intel Retina (2018-2020), non-Retina (2012-2017), and 11-inch models. The price includes the battery cell, labour, adhesive, calibration, and a written warranty of up to 3 years. For context, the Apple Store charges many times more for the same service, and frequently quotes longer turnaround times due to depot shipping.',
   },
   {
     question: 'What cycle count should prompt a MacBook Air battery replacement?',
@@ -228,7 +228,7 @@ const faqs = [
   {
     question: 'Can you check my MacBook Air battery health without replacing it?',
     answer:
-      'Yes. Our battery diagnostic is part of the assessment service (from R599). We will tell you your cycle count, maximum capacity percentage, battery condition flag, and charging circuit status. If the battery does not need replacing yet, we will tell you that, and give you a realistic estimate of how many months you have left at your current usage pattern. We would rather give you an honest assessment than replace a battery unnecessarily. If you proceed with a replacement, the assessment fee is included in the total cost.',
+      'Yes. Our battery diagnostic is part of the assessment service. We will tell you your cycle count, maximum capacity percentage, battery condition flag, and charging circuit status. If the battery does not need replacing yet, we will tell you that, and give you a realistic estimate of how many months you have left at your current usage pattern. We would rather give you an honest assessment than replace a battery unnecessarily. If you proceed with a replacement, the assessment fee is included in the total cost.',
   },
   {
     question: 'How long does MacBook Air battery replacement take?',
@@ -246,9 +246,9 @@ const faqs = [
       'No. A battery replacement on the MacBook Air does not touch the SSD, logic board, or Secure Enclave. Your data, applications, activation state, and Apple ID association are completely unaffected. The T2 chip on Intel Retina Air models and the M-series Secure Enclave on M1/M2/M3 models operate independently of the battery. We have never seen a battery replacement trigger an activation issue on any MacBook Air model.',
   },
   {
-    question: 'Does the From R599 assessment policy apply to MacBook Air battery repairs?',
+    question: 'Does the Assessment policy apply to MacBook Air battery repairs?',
     answer:
-      'Yes. If we assess your MacBook Air and conclude that the problem is not the battery, for instance, a charging IC fault on the logic board, a damaged MagSafe or USB-C board, or a software issue causing incorrect readings, you pay only the assessment fee (from R599) and your machine is returned exactly as received. We will never replace a battery that does not need replacing. If the battery is confirmed as the fault and you choose to proceed, the assessment fee is included in the replacement total.',
+      'Yes. If we assess your MacBook Air and conclude that the problem is not the battery, for instance, a charging IC fault on the logic board, a damaged MagSafe or USB-C board, or a software issue causing incorrect readings, you pay only the assessment fee and your machine is returned exactly as received. We will never replace a battery that does not need replacing. If the battery is confirmed as the fault and you choose to proceed, the assessment fee is included in the replacement total.',
   },
 ];
 
@@ -260,7 +260,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Air battery replacement in Johannesburg from R1,499. All models including M1, M2, M3, and Intel Retina Air. Swollen battery removal, adhesive cell extraction, cycle count diagnostics. Hyde Park workshop. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Air battery replacement in Johannesburg. All models including M1, M2, M3, and Intel Retina Air. Swollen battery removal, adhesive cell extraction, cycle count diagnostics. Hyde Park workshop. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -322,14 +322,14 @@ export default function BatteryReplacementMacBookAirPage() {
                 <span className="text-[#0FEA7A]">Replacement Johannesburg</span>
               </h1>
               <p className="text-lg sm:text-xl text-[#7A9E98] mb-4 speakable-summary">
-                MacBook Air battery replacement from{' '}
-                <strong className="text-[#E8F4F1]">R1,499</strong> at our Hyde Park workshop. We
+                MacBook Air battery replacement at our Hyde Park workshop. We
                 service every Air model, M1, M2, M3, and Intel, including adhesive-mounted cells, swollen
-                batteries, and cycle-count-triggered replacements. The Apple Store charges{' '}
-                <strong className="text-[#E8F4F1]">R2,500 to R5,500</strong> for the same service.
+                batteries, and cycle-count-triggered replacements, at{' '}
+                <strong className="text-[#E8F4F1]">a fraction of Apple pricing</strong>. The Apple Store charges{' '}
+                <strong className="text-[#E8F4F1]">many times more</strong> for the same service.
               </p>
               <p className="text-[#7A9E98] mb-8">
-                Assessment from R599. From R599 assessment. Written warranty of up to 3 years. Same-day service
+                Assessment. Written warranty of up to 3 years. Same-day service
                 available for all M-series and Intel Retina Air models.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -353,7 +353,7 @@ export default function BatteryReplacementMacBookAirPage() {
               </div>
               <div className="flex flex-wrap gap-6 mt-8 pt-6 border-t border-[rgba(255,255,255,0.06)]">
                 {[
-                  { value: 'R1,499', label: 'Starting Price' },
+                  { value: 'Contact for pricing', label: 'Starting Price' },
                   { value: '2-4 hrs', label: 'Typical Turnaround' },
                   { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
                   { value: 'Up to 3 Yrs', label: 'Written Warranty' },
@@ -374,7 +374,7 @@ export default function BatteryReplacementMacBookAirPage() {
             {[
               { icon: Shield, label: 'Up-to-3 Year Warranty' },
               { icon: Clock, label: 'Same-Day Service' },
-              { icon: CheckCircle, label: 'From R599 assessment' },
+              { icon: CheckCircle, label: 'Assessment' },
               { icon: MapPin, label: 'Hyde Park Workshop' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center gap-2">
@@ -578,13 +578,13 @@ export default function BatteryReplacementMacBookAirPage() {
           </div>
         </section>
 
-        {/* ─── Warranty & From R599 assessment ────────────────────────────────────── */}
+        {/* ─── Warranty & Assessment ────────────────────────────────────── */}
         <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
           <div className="max-w-6xl mx-auto">
             <div className="bg-[#0A1A18] rounded-2xl p-8 sm:p-12 border border-[#27504D]/20">
               <div className="flex items-center gap-3 mb-6">
                 <Shield className="w-8 h-8 text-[#0FEA7A]" />
-                <h2 className="text-3xl sm:text-4xl font-extrabold">Warranty & From R599 assessment</h2>
+                <h2 className="text-3xl sm:text-4xl font-extrabold">Warranty & Assessment</h2>
               </div>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -593,7 +593,7 @@ export default function BatteryReplacementMacBookAirPage() {
                     Every MacBook Air battery replacement at ZA Support includes a written warranty of up to 3 years.
                     This covers the battery cell and our workmanship. If your replacement battery drops below 80%
                     maximum capacity within the warranty period, or develops any other fault, we replace it again at
-                    from R599, parts and labour included.
+                    our assessment fee, parts and labour included.
                   </p>
                   <p className="text-[#7A9E98] leading-relaxed">
                     Most third-party repair shops in Sandton and Rosebank offer 90 days. The Apple Store offers
@@ -602,19 +602,19 @@ export default function BatteryReplacementMacBookAirPage() {
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">From R599 assessment, How It Works</h3>
+                  <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">Assessment, How It Works</h3>
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     If we assess your MacBook Air and the problem is not the battery, for example, a faulty USB-C
                     charging board, a damaged MagSafe connector, or a{' '}
                     <Link href="/logic-board-repair" className="text-[#0FEA7A] underline hover:no-underline">
                       logic board fault
                     </Link>{' '}
-                    causing incorrect SMC battery readings, you pay only the assessment fee (from R599) and your
+                    causing incorrect SMC battery readings, you pay only the assessment fee and your
                     machine is returned untouched.
                   </p>
                   <p className="text-[#7A9E98] leading-relaxed">
                     We diagnose the root cause before recommending any repair. If we confirm the battery is the issue
-                    and you choose to proceed, the R599 assessment is included in the replacement cost, you do not
+                    and you choose to proceed, the assessment is included in the replacement cost, you do not
                     pay it twice.
                   </p>
                 </div>
@@ -664,8 +664,8 @@ export default function BatteryReplacementMacBookAirPage() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  title: 'Apple Store Charges R2,500-R5,500',
-                  desc: 'An Apple Store or iStore MacBook Air battery replacement costs R2,500 on older models and up to R5,500 on current M-series machines. They also frequently quote two to five working days due to depot logistics. We start from R1,499 and complete most replacements the same day.',
+                  title: 'Apple Store Charges Many Times More',
+                  desc: 'An Apple Store or iStore MacBook Air battery replacement costs many times more, on both older models and current M-series machines. They also frequently quote two to five working days due to depot logistics. We complete most replacements the same day.',
                 },
                 {
                   title: `${SITE.yearsExperience}+ Years Repairing Macs`,
@@ -677,7 +677,7 @@ export default function BatteryReplacementMacBookAirPage() {
                 },
                 {
                   title: 'Honest Battery Assessments',
-                  desc: 'We will tell you if your battery does not need replacing yet. We see machines arrive where the owner was told by another shop that the battery needed replacement, and it did not. We would rather retain your trust with an honest assessment than take R1,499 for an unnecessary repair.',
+                  desc: 'We will tell you if your battery does not need replacing yet. We see machines arrive where the owner was told by another shop that the battery needed replacement, and it did not. We would rather retain your trust with an honest assessment than take payment for an unnecessary repair.',
                 },
                 {
                   title: 'Load Shedding Aftercare Advice',
@@ -753,7 +753,7 @@ export default function BatteryReplacementMacBookAirPage() {
             </h2>
             <p className="text-[#7A9E98] mb-8 text-lg leading-relaxed">
               Walk in to our Hyde Park workshop, or WhatsApp us now for a quote. Same-day service available for M1,
-              M2, M3, and Intel Retina MacBook Air. Assessment from R599. From R599 assessment. Up-to-3 year warranty.
+              M2, M3, and Intel Retina MacBook Air. Assessment. Up-to-3 year warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -775,7 +775,7 @@ export default function BatteryReplacementMacBookAirPage() {
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
               <MapPin className="w-4 h-4 inline-block text-[#0FEA7A] mr-1" />
-              {CONTACT.address.full} | Battery replacement from R1,499 | Collection across Johannesburg
+              {CONTACT.address.full} | Battery replacement | Collection across Johannesburg
             </p>
           </div>
         </section>

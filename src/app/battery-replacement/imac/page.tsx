@@ -12,9 +12,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'iMac Battery & Power Supply Repair Johannesburg [2026] | From R899 | ZA Support',
+  title: 'iMac Battery & Power Supply Repair Johannesburg [2026] | ZA Support',
   description:
-    'iMac CMOS battery & PSU repair in Johannesburg. Clock resets, boot failures, kernel panics, voltage spike damage. No Fix No Fee. Assessment from R599. Call 064 529 5863.',
+    'iMac CMOS battery & PSU repair in Johannesburg. Clock resets, boot failures, kernel panics, voltage spike damage. No Fix No Fee. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/imac' },
   keywords: [
     'iMac CMOS battery replacement Johannesburg',
@@ -55,12 +55,12 @@ const faqs = [
   {
     question: 'How much does iMac CMOS battery replacement cost?',
     answer:
-      'CMOS battery replacement on an Intel iMac starts from R899 at ZA Support. The CR2032 cell itself is inexpensive, the cost reflects the labour required to open the bonded display, locate the battery on the logic board, replace it, and reseal the machine. Apple does not offer CMOS battery replacement as a standalone service, they typically quote a logic board replacement at R4,000 to R12,000. Assessment from R599 applies if you decide not to proceed with the repair.',
+      'CMOS battery replacement on an Intel iMac is an affordable, component-level service at ZA Support. The CR2032 cell itself is inexpensive, the cost reflects the labour required to open the bonded display, locate the battery on the logic board, replace it, and reseal the machine. Apple does not offer CMOS battery replacement as a standalone service, they typically quote a full logic board replacement at many times the price. Assessment applies if you decide not to proceed with the repair. WhatsApp us for a current quote.',
   },
   {
     question: 'How much does iMac power supply repair cost?',
     answer:
-      'PSU repair on an iMac starts from R1,999 depending on the extent of the damage. A blown fuse or failed capacitor is at the lower end; a PSU that has sustained multiple component failures from a serious voltage spike sits higher. Apple and iStores typically quote R4,000 to R12,000 for a PSU replacement, sometimes more on the 27-inch models. We always attempt a component-level repair before sourcing a replacement PSU, which keeps costs down considerably.',
+      'PSU repair on an iMac depends on the extent of the damage. A blown fuse or failed capacitor is at the lower end; a PSU that has sustained multiple component failures from a serious voltage spike sits higher. Apple and iStores typically quote many times more for a PSU replacement, sometimes more again on the 27-inch models. We always attempt a component-level repair before sourcing a replacement PSU, which keeps costs down considerably. WhatsApp us for a current quote.',
   },
   {
     question: 'Can load shedding damage an iMac power supply?',
@@ -135,12 +135,12 @@ const repairHighlights = [
 
 /* ── Pricing ─────────────────────────────────────────────────────────────── */
 const pricingRows = [
-  { service: 'CMOS Battery Replacement (21.5″ Intel)', from: 'R899', turnaround: '1-2 days', apple: 'N/A, Apple quotes LB replacement' },
-  { service: 'CMOS Battery Replacement (27″ Intel)', from: 'R999', turnaround: '1-2 days', apple: 'N/A, Apple quotes LB replacement' },
-  { service: 'PSU Capacitor Repair (21.5″)', from: 'R1,999', turnaround: '2-4 days', apple: 'R4,000-R8,000' },
-  { service: 'PSU Capacitor Repair (27″)', from: 'R2,499', turnaround: '2-4 days', apple: 'R6,000-R12,000' },
-  { service: 'PSU Board Replacement (21.5″)', from: 'R3,499', turnaround: '3-5 days', apple: 'R4,000-R8,000' },
-  { service: 'PSU Board Replacement (27″)', from: 'R3,999', turnaround: '3-5 days', apple: 'R6,000-R12,000' },
+  { service: 'CMOS Battery Replacement (21.5″ Intel)', from: 'Contact for pricing', turnaround: '1-2 days', apple: 'N/A, Apple quotes LB replacement' },
+  { service: 'CMOS Battery Replacement (27″ Intel)', from: 'Contact for pricing', turnaround: '1-2 days', apple: 'N/A, Apple quotes LB replacement' },
+  { service: 'PSU Capacitor Repair (21.5″)', from: 'Contact for pricing', turnaround: '2-4 days', apple: 'Many times more' },
+  { service: 'PSU Capacitor Repair (27″)', from: 'Contact for pricing', turnaround: '2-4 days', apple: 'Many times more' },
+  { service: 'PSU Board Replacement (21.5″)', from: 'Contact for pricing', turnaround: '3-5 days', apple: 'Many times more' },
+  { service: 'PSU Board Replacement (27″)', from: 'Contact for pricing', turnaround: '3-5 days', apple: 'Many times more' },
 ];
 
 /* ── Schema ──────────────────────────────────────────────────────────────── */
@@ -149,7 +149,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'iMac Battery & Power Supply Repair Johannesburg',
   description:
-    'iMac CMOS battery replacement and power supply repair in Johannesburg. Intel iMac CR2032 replacement from R899. PSU capacitor repair from R1,999. Load shedding damage specialists. Hyde Park workshop.',
+    'iMac CMOS battery replacement and power supply repair in Johannesburg. Intel iMac CR2032 replacement and PSU capacitor repair. Load shedding damage specialists. Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -172,7 +172,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'iMac CMOS Battery Replacement',
-          description: 'Intel iMac CR2032 CMOS/PRAM battery replacement. Resolves clock resets, boot delays, kernel panics. From R899.',
+          description: 'Intel iMac CR2032 CMOS/PRAM battery replacement. Resolves clock resets, boot delays, kernel panics.',
         },
         price: '899',
         priceCurrency: 'ZAR',
@@ -182,7 +182,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'iMac PSU Capacitor Repair',
-          description: 'Component-level iMac power supply repair targeting failed capacitors from voltage spikes. From R1,999.',
+          description: 'Component-level iMac power supply repair targeting failed capacitors from voltage spikes.',
         },
         price: '1999',
         priceCurrency: 'ZAR',
@@ -192,7 +192,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'iMac PSU Board Replacement',
-          description: 'Full iMac power supply board replacement where component-level repair is not viable. From R3,499.',
+          description: 'Full iMac power supply board replacement where component-level repair is not viable.',
         },
         price: '3499',
         priceCurrency: 'ZAR',
@@ -230,19 +230,19 @@ export default function BatteryReplacementImacPage() {
                 <span className="text-[#0FEA7A]">Supply Repair</span>
               </h1>
               <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed speakable-summary">
-                The iMac has no main battery, but your Intel iMac does have a CR2032 CMOS cell that dies after 5 to 8 years, and a power supply that load shedding systematically destroys. CMOS replacement from{' '}
-                <strong className="text-[#E8F4F1]">R899</strong>. PSU repair from{' '}
-                <strong className="text-[#E8F4F1]">R1,999</strong>. Apple Store charges R4,000 to R12,000, and that is if they will even attempt it.
+                The iMac has no main battery, but your Intel iMac does have a CR2032 CMOS cell that dies after 5 to 8 years, and a power supply that load shedding systematically destroys. We repair both, from{' '}
+                <strong className="text-[#E8F4F1]">CMOS cell swaps</strong> to{' '}
+                <strong className="text-[#E8F4F1]">full PSU work</strong>. Apple Store charges many times more, and that is if they will even attempt it.
               </p>
               <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
                 <Monitor className="w-4 h-4 text-[#0FEA7A]" />
-                <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+                <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
               </div>
               <div className="flex flex-wrap gap-3 mb-8">
                 {[
                   { icon: Shield, label: 'No Fix No Fee' },
-                  { icon: Battery, label: 'CMOS from R899' },
-                  { icon: Zap, label: 'PSU from R1,999' },
+                  { icon: Battery, label: 'CMOS Repair' },
+                  { icon: Zap, label: 'PSU Repair' },
                   { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
                   { icon: Clock, label: '1-5 Day Turnaround' },
                 ].map(({ icon: Icon, label }) => (
@@ -315,14 +315,14 @@ export default function BatteryReplacementImacPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">iMac Power Repair Pricing</h2>
             <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-              All prices include parts, labour, SMC reset, and an up-to-3 year warranty. Assessment from R599, waived if you proceed with the repair. Compare with Apple Store pricing, where both CMOS and PSU faults are typically handled as a logic board replacement at R4,000 to R12,000.
+              All prices include parts, labour, SMC reset, and an up-to-3 year warranty. Assessment, waived if you proceed with the repair. Compare with Apple Store pricing, where both CMOS and PSU faults are typically handled as a logic board replacement at many times the cost.
             </p>
             <div className="overflow-x-auto rounded-2xl border border-[rgba(15,234,122,0.12)]">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="bg-[rgba(15,234,122,0.06)] border-b border-[rgba(15,234,122,0.12)]">
                     <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">Service</th>
-                    <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">From</th>
+                    <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold">Pricing</th>
                     <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold hidden sm:table-cell">Turnaround</th>
                     <th className="text-left px-5 py-4 text-[#E8F4F1] font-bold hidden md:table-cell">Apple / iStore</th>
                   </tr>
@@ -343,7 +343,7 @@ export default function BatteryReplacementImacPage() {
               </table>
             </div>
             <p className="text-[#7A9E98] text-xs mt-4">
-              Prices are indicative. A written fixed-price quote is provided before any work begins. Assessment fee from R599 applies if the repair is declined after diagnosis.
+              Prices are indicative. A written fixed-price quote is provided before any work begins. An assessment fee applies if the repair is declined after diagnosis.
             </p>
             <PricingRange page="/battery-replacement/imac" />
             <PricingNote variant="inline" />
@@ -415,7 +415,7 @@ export default function BatteryReplacementImacPage() {
                 <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
                 <ul className="text-[#7A9E98] text-sm space-y-2">
                   <li>CMOS battery not offered as standalone service, quoted as logic board replacement</li>
-                  <li>PSU fault often quoted as full logic board replacement: R4,000 to R12,000</li>
+                  <li>PSU fault often quoted as full logic board replacement at many times the cost</li>
                   <li>No component-level capacitor testing, board replaced rather than repaired</li>
                   <li>Machine shipped to central depot, turnaround 5 to 10 business days</li>
                   <li>Standard 90-day repair warranty</li>
@@ -425,8 +425,8 @@ export default function BatteryReplacementImacPage() {
               <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
                 <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
                 <ul className="text-[#7A9E98] text-sm space-y-2">
-                  <li>CMOS battery replacement from R899, not quoted as a board replacement</li>
-                  <li>PSU capacitor repair from R1,999, component-level, not board-swap by default</li>
+                  <li>CMOS battery replacement, not quoted as a board replacement</li>
+                  <li>PSU capacitor repair, component-level, not board-swap by default</li>
                   <li>ESR testing on every capacitor before quoting</li>
                   <li>All work in our Hyde Park workshop, your machine never leaves our hands</li>
                   <li>Up-to-3 year warranty on parts and labour</li>
@@ -437,7 +437,7 @@ export default function BatteryReplacementImacPage() {
             <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
               <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                No Fix No Fee applies to every iMac power repair. If we complete the full assessment and the fault is beyond economic repair, you pay the assessment fee of R599 and the machine is returned exactly as received. We will tell you honestly if replacement makes more sense than repair.
+                No Fix No Fee applies to every iMac power repair. If we complete the full assessment and the fault is beyond economic repair, you pay the assessment fee and the machine is returned exactly as received. We will tell you honestly if replacement makes more sense than repair.
               </p>
             </div>
           </div>
@@ -491,7 +491,7 @@ export default function BatteryReplacementImacPage() {
                 iMac Not Starting After Load Shedding? Get a Diagnosis Today.
               </h2>
               <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-                CMOS battery from R899. PSU repair from R1,999. Assessment from R599, waived if you proceed. No Fix No Fee. WhatsApp us a description of the fault and we will give you an indicative price within the hour.
+                CMOS and PSU repairs at our Hyde Park workshop. Assessment, waived if you proceed. No Fix No Fee. WhatsApp us a description of the fault and we will give you an indicative price within the hour.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a

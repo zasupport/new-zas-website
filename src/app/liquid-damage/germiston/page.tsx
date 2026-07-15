@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Germiston | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Germiston clients. Ultrasonic cleaning, board-level diagnostics. We collect from Germiston. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Germiston clients. Ultrasonic cleaning, board-level diagnostics. We collect from Germiston. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/germiston' },
 };
 
@@ -27,12 +27,12 @@ const urgentSteps = [
 
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Germiston?', answer: 'Immediately. Corrosion begins the moment liquid contacts the board and progresses rapidly over the first 48 to 72 hours. If you spill something on a MacBook in Germiston, power it down, do not plug in the charger, and call 064 529 5863 or WhatsApp wa.me/27645295863 straight away. We can usually arrange collection from the Germiston CBD, Lambton or Primrose within a few hours, and the M2 route into Hyde Park takes roughly 30 minutes outside peak.' },
-  { question: 'Do you collect MacBooks from Germiston after liquid damage?', answer: 'Yes, we collect across Germiston, Lambton, Primrose, Parkhill Gardens, Dinwiddie, the CBD around President Street, and the Wadeville and Knights industrial areas. We have collected from logistics offices near City Deep, medical practices off Lake Street and homes throughout the suburb. Collection happens via the M2 and N3, with the workshop roughly 30 minutes away in Hyde Park. Assessment from R599.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers the initial inspection, ultrasonic clean of the logic board and a full diagnostic so we can quote accurately on what is needed. For Germiston clients the assessment fee is the same regardless of suburb, and the collection from anywhere in the Germiston area is arranged when you book. You receive a written quote before any chargeable repair work begins.' },
+  { question: 'Do you collect MacBooks from Germiston after liquid damage?', answer: 'Yes, we collect across Germiston, Lambton, Primrose, Parkhill Gardens, Dinwiddie, the CBD around President Street, and the Wadeville and Knights industrial areas. We have collected from logistics offices near City Deep, medical practices off Lake Street and homes throughout the suburb. Collection happens via the M2 and N3, with the workshop roughly 30 minutes away in Hyde Park. Assessment.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment covers the initial inspection, ultrasonic clean of the logic board and a full diagnostic so we can quote accurately on what is needed. For Germiston clients the assessment fee is the same regardless of suburb, and the collection from anywhere in the Germiston area is arranged when you book. You receive a written quote before any chargeable repair work begins.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary and salty liquids are the worst, sweetened coffee, energy drinks, soft drinks and seawater leave conductive residue that keeps shorting traces long after the board looks dry. Plain water is more forgiving if cleaned quickly. In Germiston we see a lot of coffee and tea spills from CBD offices, and condensation damage from machines moved between warehouse floors and air-conditioned offices. Regardless of liquid type, the ultrasonic clean is what removes the residue properly.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and the sooner the better. A MacBook that still powers on after a spill often has active corrosion progressing inside that will fail the board days or weeks later. We have had Germiston clients drop off machines that were working fine after a spill, only for the ultrasonic stage to reveal heavy residue under the keyboard and around the CPU. Cleaning it now is far cheaper than a board-level repair once components have failed.' },
   { question: 'Will you be able to save my data?', answer: 'In most cases yes. Even when a board is beyond economic repair, we can usually recover data from the SSD on Intel MacBooks. Apple Silicon machines are more involved because the SSD is paired to the logic board, but we have specific techniques for those too. If data is your priority, tell us when you book collection from Germiston and we will prioritise the recovery path before any other repair work.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The assessment is from R599 and includes the ultrasonic clean and full diagnostic. After that stage we provide a written quote for any repair work needed. You decide whether to proceed before any further charges apply. The same policy applies to every Germiston collection, whether the machine arrives from a Lambton home or a Wadeville office.' },
+  { question: 'Is there an assessment policy for liquid damage?', answer: 'Yes. The assessment applies and includes the ultrasonic clean and full diagnostic. After that stage we provide a written quote for any repair work needed. You decide whether to proceed before any further charges apply. The same policy applies to every Germiston collection, whether the machine arrives from a Lambton home or a Wadeville office.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2 and M3 MacBooks can be repaired at the board level for most liquid damage scenarios. The Apple Silicon boards are more densely packed, which makes the work more delicate, but ultrasonic cleaning and component-level replacement remain effective. We have repaired Apple Silicon machines collected from Germiston offices and returned them fully functional within the same week. Data recovery is more involved on these models, so let us know upfront if that is the priority.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageGermistonPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is a race against corrosion, and Germiston sits roughly 30 minutes from our Hyde Park workshop via the N3 and M2. We collect from across Germiston, Lambton, Primrose, the CBD around President Street, and the industrial belt near Knights, and carry out ultrasonic cleaning and board-level repair the same day where possible. Assessment from R599.
+              Liquid damage is a race against corrosion, and Germiston sits roughly 30 minutes from our Hyde Park workshop via the N3 and M2. We collect from across Germiston, Lambton, Primrose, the CBD around President Street, and the industrial belt near Knights, and carry out ultrasonic cleaning and board-level repair the same day where possible. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageGermistonPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Germiston' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageGermistonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Germiston? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Germiston. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Germiston. Assessment available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-GERMISTO', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

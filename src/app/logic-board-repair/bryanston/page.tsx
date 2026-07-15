@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Bryanston | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Bryanston clients. Expert component-level repair, 10 minutes from Bryanston to Hyde Park. Assessment: from R599, up-to-3 year warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Bryanston clients. Expert component-level repair, 10 minutes from Bryanston to Hyde Park. Assessment, up-to-3 year warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/bryanston' },
 };
 
@@ -27,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Board-level inspection, from R599, no commitment' },
+  { item: 'Diagnostic Assessment', note: 'Board-level inspection, no commitment' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Controller chip or port board' },
   { item: 'Power Circuit Repair', note: 'No-power fault, power rail diagnosis and fix' },
   { item: 'Component-level repair Repair', note: 'Precision microscope-level board repair' },
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'What happens if my MacBook cannot be repaired?',
-    answer: 'We tell you honestly, explain what we found in the diagnostic, and outline your options. You can proceed with a board replacement, sell the device for parts, or pursue data recovery from the storage. An assessment fee of from R599 applies. We never charge for repair work that does not happen.',
+    answer: 'We tell you honestly, explain what we found in the diagnostic, and outline your options. You can proceed with a board replacement, sell the device for parts, or pursue data recovery from the storage. An assessment fee applies. We never charge for repair work that does not happen.',
   },
   {
     question: 'How long does the repair take from Bryanston?',
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Bryanston',
-  description: 'MacBook logic board component-level repair for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Assessment: from R599. up-to-3 year warranty.',
+  description: 'MacBook logic board component-level repair for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Assessment. up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -114,8 +114,8 @@ export default function LogicBoardRepairBryanstonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Diagnostic: from R599' },
-                { icon: CheckCircle, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Diagnostic' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -299,8 +299,8 @@ export default function LogicBoardRepairBryanstonPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Bryanston MacBook Fault? Diagnostic: from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. Assessment: from R599. up-to-3 year warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Bryanston MacBook Fault? Diagnostic.</h2>
+            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. Assessment. up-to-3 year warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-BRYANSTON', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 💬 WhatsApp for Quote

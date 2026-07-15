@@ -19,7 +19,7 @@ const faqs = [
   {
     question: 'Why is my MacBook overheating for no reason?',
     answer:
-      'There is always a reason. The most common causes are runaway processes (check Activity Monitor), dust-blocked vents, degraded thermal paste on 2015-2019 models, or a failing fan. In Johannesburg, ambient temperatures above 30\u00b0C during summer make thermal management harder. If your MacBook is hot to touch at idle, something is wrong. Assessment from R599 at ZA Support in Hyde Park.',
+      'There is always a reason. The most common causes are runaway processes (check Activity Monitor), dust-blocked vents, degraded thermal paste on 2015-2019 models, or a failing fan. In Johannesburg, ambient temperatures above 30\u00b0C during summer make thermal management harder. If your MacBook is hot to touch at idle, something is wrong. Assessment at ZA Support in Hyde Park.',
   },
   {
     question: 'How do I check if my MacBook fan is working?',
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: 'How much does MacBook thermal repair cost at ZA Support?',
     answer:
-      'Assessment starts from R599 with our No Fix No Fee guarantee. Fan replacement typically costs R1,200-R2,500 depending on the model. Thermal paste replacement is R800-R1,500. Logic board thermal sensor repair is quoted after assessment. We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196.',
+      'Assessment applies with our No Fix No Fee guarantee. Fan replacement pricing depends on the model. Thermal paste replacement and logic board thermal sensor repair are quoted after assessment. We are based at 1 Hyde Park Lane, Hyde Park, Johannesburg 2196.',
   },
   {
     question: 'Can load shedding cause MacBook overheating?',
@@ -64,12 +64,12 @@ const faqs = [
   {
     question: 'Should I use a laptop stand to prevent overheating?',
     answer:
-      'Absolutely. Elevating the MacBook by even 2-3 cm improves airflow dramatically. The intake vents on MacBook Pros are along the hinge area, and a flat desk restricts airflow. A simple aluminium stand (R300-R600 from Takealot) can reduce temperatures by 5-8\u00b0C. Avoid laptop cooling pads with built-in fans \u2014 they push dust into the MacBook\u2019s own vents.',
+      'Absolutely. Elevating the MacBook by even 2-3 cm improves airflow dramatically. The intake vents on MacBook Pros are along the hinge area, and a flat desk restricts airflow. A simple aluminium stand (widely available from Takealot) can reduce temperatures by 5-8\u00b0C. Avoid laptop cooling pads with built-in fans \u2014 they push dust into the MacBook\u2019s own vents.',
   },
   {
     question: 'Does ZA Support collect MacBooks for thermal repair?',
     answer:
-      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection. Assessment from R599 with No Fix No Fee.',
+      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection. Assessment with No Fix No Fee.',
   },
 ];
 
@@ -84,7 +84,7 @@ const howToSteps = [
   },
   {
     name: 'Clean fans and air vents',
-    text: 'Dust is the most common physical cause of overheating. Use compressed air (available at most electronics shops in South Africa for R80-R150) to blow out the vents along the hinge of the MacBook. Hold the can upright, use short bursts, and keep the nozzle 5-10 cm from the vents. For thorough cleaning, the bottom case can be removed with a Pentalobe P5 screwdriver. Never use a vacuum cleaner directly on the logic board \u2014 static discharge can damage components.',
+    text: 'Dust is the most common physical cause of overheating. Use compressed air (available at most electronics shops in South Africa) to blow out the vents along the hinge of the MacBook. Hold the can upright, use short bursts, and keep the nozzle 5-10 cm from the vents. For thorough cleaning, the bottom case can be removed with a Pentalobe P5 screwdriver. Never use a vacuum cleaner directly on the logic board \u2014 static discharge can damage components.',
   },
   {
     name: 'Check and replace thermal paste',
@@ -104,7 +104,7 @@ const howToSteps = [
   },
   {
     name: 'Seek professional thermal service',
-    text: 'If you have tried the above steps and your MacBook still overheats, book an assessment at ZA Support. We use thermal imaging cameras to identify hot spots on the logic board, measure fan RPM with tachometer readings, and test thermal paste conductivity. Assessment from R599 with No Fix No Fee guarantee. We are at 1 Hyde Park Lane, Hyde Park, Johannesburg. WhatsApp 064 529 5863 for same-day collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.',
+    text: 'If you have tried the above steps and your MacBook still overheats, book an assessment at ZA Support. We use thermal imaging cameras to identify hot spots on the logic board, measure fan RPM with tachometer readings, and test thermal paste conductivity. Assessment with No Fix No Fee guarantee. We are at 1 Hyde Park Lane, Hyde Park, Johannesburg. WhatsApp 064 529 5863 for same-day collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.',
   },
 ];
 
@@ -176,12 +176,12 @@ export default function MacBookOverheatingFixPage() {
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
               <span>
-                1 Hyde Park Lane, Hyde Park, Johannesburg 2196 | Assessment from R599 | No Fix No
+                1 Hyde Park Lane, Hyde Park, Johannesburg 2196 | Assessment | No Fix No
                 Fee
               </span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['No Fix No Fee', '12-Month Warranty', 'Assessment from R599', 'Same-Day Collection'].map((l) => (
+              {['No Fix No Fee', '12-Month Warranty', 'Assessment', 'Same-Day Collection'].map((l) => (
                 <div
                   key={l}
                   className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full"
@@ -509,7 +509,7 @@ export default function MacBookOverheatingFixPage() {
               MacBook Still Overheating? We Can Fix It.
             </h2>
             <p className="text-[#7A9E98] mb-6">
-              Professional thermal diagnosis with thermal imaging cameras. Assessment from R599.
+              Professional thermal diagnosis with thermal imaging cameras. Assessment.
               No Fix No Fee. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand,
               and Randburg.
             </p>

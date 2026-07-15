@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M1 Logic Board Repair Johannesburg',
-  description: 'MacBook Pro M1 logic board repair in Johannesburg. Charging faults, no power, black screen, USB-C failures, liquid damage. Component-level repair. Assessment from R599. Hyde Park.',
+  description: 'MacBook Pro M1 logic board repair in Johannesburg. Charging faults, no power, black screen, USB-C failures, liquid damage. Component-level repair. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-m1' },
 };
 
@@ -24,13 +24,13 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can a MacBook Pro M1 logic board be repaired?', answer: 'Yes. While the M1 processor itself is soldered and cannot be replaced, the surrounding circuits are repairable. Power management ICs, USB-C controllers, charging circuits, display backlight drivers, and audio circuits are all component-level repairable. ZA Support performs M1 MacBook Pro board repairs in Hyde Park, Johannesburg. Assessment from R599.' },
-  { question: 'Is data recoverable from a dead MacBook Pro M1?', answer: 'In most cases, yes. On M1 MacBook Pros, the SSD storage is separate from the M1 die and survives most logic board faults. If the board is completely dead, we can read the SSD via direct access in most cases. Data recovery is assessed as part of our R599 diagnostic.' },
+  { question: 'Can a MacBook Pro M1 logic board be repaired?', answer: 'Yes. While the M1 processor itself is soldered and cannot be replaced, the surrounding circuits are repairable. Power management ICs, USB-C controllers, charging circuits, display backlight drivers, and audio circuits are all component-level repairable. ZA Support performs M1 MacBook Pro board repairs in Hyde Park, Johannesburg. Assessment.' },
+  { question: 'Is data recoverable from a dead MacBook Pro M1?', answer: 'In most cases, yes. On M1 MacBook Pros, the SSD storage is separate from the M1 die and survives most logic board faults. If the board is completely dead, we can read the SSD via direct access in most cases. Data recovery is assessed as part of our diagnostic.' },
   { question: 'How is M1 MacBook Pro repair different from Intel repair?', answer: 'The M1 MacBook Pro has unified memory, RAM and CPU are on one die and cannot be upgraded. However, the peripheral circuits (USB-C, charging, display backlight, audio) are separately repairable components on the board. The diagnosis approach differs but the repair capability is comparable for non-SoC faults.' },
   { question: 'My MacBook Pro M1 was damaged by a power surge during load shedding, is it repairable?', answer: 'Yes, frequently. Load shedding power surges in South Africa are a significant cause of MacBook Pro M1 failures. The surge typically damages the USB-C controller or power management circuit rather than the M1 die itself. We see this scenario weekly in our Hyde Park workshop. Early diagnosis determines repairability.' },
-  { question: 'How long does MacBook Pro M1 logic board repair take?', answer: 'After the R599 assessment and your written approval, most M1 MacBook Pro logic board repairs are completed within 3-5 business days. We provide a specific timeline in the written quote.' },
+  { question: 'How long does MacBook Pro M1 logic board repair take?', answer: 'After the assessment and your written approval, most M1 MacBook Pro logic board repairs are completed within 3-5 business days. We provide a specific timeline in the written quote.' },
   { question: 'Do you collect MacBook Pro M1 for repair from across Johannesburg?', answer: 'Yes. ZA Support collects from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. Contact us via WhatsApp on 064 529 5863 to arrange collection.' },
-  { question: 'What does MacBook Pro M1 logic board repair cost compared to Apple?', answer: 'Apple charges R15,000-R45,000 for logic board replacement on MacBook Pro M1 models. ZA Support\'s component-level repair, replacing only the failed component, costs a fraction of this. Assessment from R599.' },
+  { question: 'What does MacBook Pro M1 logic board repair cost compared to Apple?', answer: 'Apple charges many times more for logic board replacement on MacBook Pro M1 models. ZA Support\'s component-level repair, replacing only the failed component, costs a fraction of this. Assessment.' },
   { question: 'Can you repair a water-damaged MacBook Pro M1?', answer: 'Yes. Liquid damage on M1 MacBook Pros is repaired through full disassembly, ultrasonic cleaning of the logic board, and component-level repair of any damaged chips. Bring it in immediately, corrosion progresses within hours.' },
 ];
 
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Pro M1 Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Pro M1 logic board repair in Johannesburg. Power faults, charging, display, liquid damage. Assessment from R599.',
+  description: 'Component-level MacBook Pro M1 logic board repair in Johannesburg. Power faults, charging, display, liquid damage. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   offers: { '@type': 'Offer', priceSpecification: { '@type': 'PriceSpecification', price: '599', priceCurrency: 'ZAR', description: 'Assessment fee from R599' } },
@@ -81,10 +81,10 @@ export default function MacBookProM1LogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -135,7 +135,7 @@ export default function MacBookProM1LogicBoardPage() {
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Logic board replacement (entire board swapped)</li>
-                <li>R15,000 - R45,000 depending on model</li>
+                <li>Many times the cost of a component-level repair</li>
                 <li>Data may not be preserved</li>
                 <li>Standard 90-day warranty on replaced part</li>
               </ul>
@@ -144,7 +144,7 @@ export default function MacBookProM1LogicBoardPage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed part replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on same logic board</li>
                 <li>Written warranty on repaired components</li>
               </ul>
@@ -185,7 +185,7 @@ export default function MacBookProM1LogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M1 Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M1 Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee on all repairs.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKPROM1', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

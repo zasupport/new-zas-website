@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'Apple Accessories Repair Johannesburg | Keyboard, Mouse & Trackpad | ZA Support',
   description:
-    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable repair. Hyde Park. Assessment: from R599.',
+    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable repair. Hyde Park. Assessment.',
   keywords: [
     'magic keyboard repair johannesburg',
     'mac accessories repair',
@@ -42,9 +42,9 @@ const faqs = [
       'Apple placed the Lightning charging port on the underside of Magic Mouse 2, making it impossible to use while charging, a well-known design choice. If the port is physically damaged or bent, we can assess and attempt a port repair or replacement. This is a board-level repair and success depends on how much the port has deformed. We quote after inspection.',
   },
   {
-    question: 'Is my MagSafe cable covered under the Assessment: from R599 policy?',
+    question: 'Is my MagSafe cable covered under the Assessment policy?',
     answer:
-      'Yes. If we cannot determine whether the fault is with the cable, the adapter, or the MacBook charging circuit, or if the cable cannot be repaired, assessment fee of from R599 applies. Assessment: from R599 applies. In many cases we can identify whether the fault is in the cable, the brick, or the Mac itself, which saves you from replacing the wrong part.',
+      'Yes. If we cannot determine whether the fault is with the cable, the adapter, or the MacBook charging circuit, or if the cable cannot be repaired, assessment fee applies. Assessment applies. In many cases we can identify whether the fault is in the cable, the brick, or the Mac itself, which saves you from replacing the wrong part.',
   },
   {
     question: 'Can you repair a Thunderbolt display or external monitor port?',
@@ -77,7 +77,7 @@ const repairServices = [
   {
     title: 'MagSafe Cable, Assessment',
     models: 'MagSafe, MagSafe 2, USB-C MagSafe 3',
-    note: 'Fault isolation: cable vs brick vs Mac. From R599 if unfixable.',
+    note: 'Fault isolation: cable vs brick vs Mac. Assessment fee applies if unfixable.',
   },
   {
     title: 'External Display Port Repair',
@@ -91,7 +91,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Apple Accessories Repair Johannesburg',
   description:
-    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable assessment. Hyde Park. Assessment: from R599.',
+    'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable assessment. Hyde Park. Assessment.',
   provider: {
     '@type': 'LocalBusiness',
     name: SITE.name,
@@ -147,7 +147,7 @@ export default function AccessoriesRepairPage() {
               Magic Keyboard sticky keys, Magic Mouse not clicking, MagSafe not charging? Fault isolation included in assessment, we diagnose before quoting any repair.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl">
-              Assessment: from R599. Fault isolation included. Hyde Park, Johannesburg.
+              Assessment. Fault isolation included. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -281,8 +281,8 @@ export default function AccessoriesRepairPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Assessment: from R599',
-                desc: 'Cannot fix it? Assessment fee of from R599 applies. Applies to keyboards, mice, trackpads, and MagSafe assessments.',
+                title: 'Assessment',
+                desc: 'Cannot fix it? Our assessment fee applies. Applies to keyboards, mice, trackpads, and MagSafe assessments.',
               },
               {
                 title: 'Fault Isolation Included',
@@ -337,7 +337,7 @@ export default function AccessoriesRepairPage() {
               Accessory Not Working? Bring It In.
             </h2>
 
-            <p className="text-[#7A9E98] mb-8">Assessment: from R599. Fault isolation included. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-8">Assessment. Fault isolation included. Hyde Park, Johannesburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('ACC', 'accessories')}

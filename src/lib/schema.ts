@@ -73,6 +73,13 @@ export function buildFaqSchema(faqs: Array<{ question: string; answer: string }>
 
 // ─── Service Schema Builder ───────────────────────────────────────────────────
 // Builds a full Service schema (provider = LocalBusiness, no review markup, §166).
+// TEMP price hide (2026-07-15): while prices are being updated, schema Offer
+// prices are withheld to stay in parity with the hidden on-page prices
+// (Google: do not mark up content not visible to users). Set back to false to
+// restore schema Offer prices once new pricing is live. Callers may keep
+// passing lowPrice/highPrice; they are ignored while this is true.
+const HIDE_SCHEMA_PRICING = true;
+
 export function buildServiceSchema(params: {
   name: string;
   description: string;
@@ -87,7 +94,7 @@ export function buildServiceSchema(params: {
     provider: LOCAL_BUSINESS_PROVIDER,
     areaServed: { '@type': 'City', name: 'Johannesburg' },
   };
-  if (params.lowPrice && params.highPrice) {
+  if (!HIDE_SCHEMA_PRICING && params.lowPrice && params.highPrice) {
     base.offers = {
       '@type': 'AggregateOffer',
       lowPrice: params.lowPrice,

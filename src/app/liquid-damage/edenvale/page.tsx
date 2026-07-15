@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Edenvale | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Edenvale clients. Ultrasonic cleaning, board-level diagnostics. We collect from Edenvale. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Edenvale clients. Ultrasonic cleaning, board-level diagnostics. We collect from Edenvale. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/edenvale' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Edenvale?', answer: 'Immediately. Power the MacBook off, do not try to charge it, and call 064 529 5863. The first 24 hours determine whether you need a clean and dry-out, or a full board-level repair. Edenvale is roughly 25 minutes from our Hyde Park workshop via the N3 and M1, so we can usually collect the same day if you call before midday.' },
   { question: 'Do you collect MacBooks from Edenvale after liquid damage?', answer: 'Yes. We collect from anywhere in Edenvale, Hurlyvale, Eastleigh, Sebenza, Greenstone, and the streets around Van Riebeeck Avenue. Because liquid damage is time-critical, we treat Edenvale collections as priority and aim to have the MacBook on a workbench in Hyde Park within a few hours of your call. WhatsApp wa.me/27645295863 to arrange.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers full disassembly, ultrasonic cleaning of the board, microscope inspection, and a written report telling you exactly what is damaged, what it will cost to repair, and the realistic prognosis. If you choose to proceed with the repair, the assessment fee is credited toward the final bill.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment covers full disassembly, ultrasonic cleaning of the board, microscope inspection, and a written report telling you exactly what is damaged, what it will cost to repair, and the realistic prognosis. If you choose to proceed with the repair, the assessment fee is credited toward the final bill.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst, wine, fizzy drinks, juice, and coffee with sugar all leave conductive residue that keeps corroding long after the MacBook dries. Plain water is the least aggressive, but tap water in Edenvale still contains enough mineral content to cause corrosion over days. Salt water and pool water are devastating because the chloride attacks copper traces aggressively.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, please. A MacBook that still boots after a spill is on borrowed time. The corrosion happens silently underneath the board components, and the failure usually arrives one to three weeks later, often killing parts that were not damaged by the original spill. An ultrasonic clean now is much cheaper than a logic board replacement later. Drop it off or let us collect from Edenvale.' },
   { question: 'Will you be able to save my data?', answer: 'In most cases yes. The SSD on modern MacBooks is soldered to the logic board, but the data itself is usually recoverable even when the board has significant damage, we can transplant the storage controller or read the chips directly in the worst cases. Our data recovery success rate on liquid-damaged Edenvale MacBooks has been strong, but no honest technician guarantees data recovery upfront.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The R599 assessment fee covers the diagnostic work itself, disassembly, ultrasonic cleaning, and inspection, because liquid damage assessment is genuinely labour-intensive work, not a quick visual check. Anyone offering free liquid damage assessment is either cutting corners or planning to overcharge on the repair to compensate. The R599 is credited toward your repair if you proceed.' },
+  { question: 'Is there an assessment policy for liquid damage?', answer: 'Yes. The assessment fee covers the diagnostic work itself, disassembly, ultrasonic cleaning, and inspection, because liquid damage assessment is genuinely labour-intensive work, not a quick visual check. Anyone offering free liquid damage assessment is either cutting corners or planning to overcharge on the repair to compensate. The assessment fee is credited toward your repair if you proceed.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes, we repair liquid-damaged M1, M2, and M3 MacBook Air and Pro models at board level. Apple Silicon boards are denser and more challenging than Intel boards, but the repair principles are the same: ultrasonic clean, identify corroded components, replace under microscope. We have completed dozens of Apple Silicon liquid repairs for Edenvale and East Rand clients.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageEdenvalePage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is a race against corrosion. We collect MacBooks from Edenvale homes near Van Riebeeck Avenue, businesses around Eastgate, and residents close to Bedford Centre, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly 25 minutes via the M2 or N3. Assessment from R599.
+              Liquid damage is a race against corrosion. We collect MacBooks from Edenvale homes near Van Riebeeck Avenue, businesses around Eastgate, and residents close to Bedford Centre, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly 25 minutes via the M2 or N3. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageEdenvalePage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Edenvale' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageEdenvalePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Edenvale? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Edenvale. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Edenvale. Assessment available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-EDENVALE', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

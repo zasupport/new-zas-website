@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'IT Support for Wealth Management Firms Johannesburg 2026 | ZA Support',
   description:
-    'IT support for wealth management firms and private banking advisors in Johannesburg. Apple specialist, FSCA compliance, POPIA, encrypted communications, zero-trust networks. From R4,499/month.',
+    'IT support for wealth management firms and private banking advisors in Johannesburg. Apple specialist, FSCA compliance, POPIA, encrypted communications, zero-trust networks. Contact for pricing.',
   alternates: { canonical: 'https://zasupport.com/managed-services/wealth-management' },
   keywords: [
     'wealth management IT support',
@@ -47,7 +47,7 @@ const faqs = [
   {
     question: 'How much does managed IT cost for a solo financial advisor?',
     answer:
-      'Our Solo Advisor plan starts from R4,499 per month. This covers full device management for up to three Apple devices (typically a MacBook Pro, iPhone, and iPad), encrypted backup, security monitoring, FSCA-aligned compliance controls, and unlimited remote support during business hours. There are no hidden costs, the monthly fee is all-inclusive.',
+      'Our Solo Advisor plan covers full device management for up to three Apple devices (typically a MacBook Pro, iPhone, and iPad), encrypted backup, security monitoring, FSCA-aligned compliance controls, and unlimited remote support during business hours. Contact us for current pricing. There are no hidden costs, the monthly fee is all-inclusive.',
   },
   {
     question: 'Can you integrate with Bloomberg Terminal and other financial platforms?',
@@ -109,7 +109,7 @@ const capabilities = [
 const plans = [
   {
     name: 'Solo Advisor',
-    price: 'From R4,499/month',
+    price: 'Contact for pricing',
     ideal: 'Ideal for: Independent financial advisors, one-person practices',
     features: [
       'Up to 3 Apple devices managed',
@@ -124,7 +124,7 @@ const plans = [
   },
   {
     name: 'Small Firm',
-    price: 'From R5,499/month',
+    price: 'Contact for pricing',
     ideal: 'Ideal for: Advisory firms with 2-5 users, boutique wealth managers',
     features: [
       'Everything in Solo Advisor',

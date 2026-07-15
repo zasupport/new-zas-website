@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M5 Logic Board Repair Johannesburg',
-  description: 'MacBook Pro M5, M5 Pro, M5 Max (14-inch & 16-inch, 2026) logic board repair in Johannesburg. Surge, liquid and accidental damage Apple’s warranty won’t cover, Thunderbolt 5, MagSafe 3, XDR display, component-level. Assessment from R599.',
+  description: 'MacBook Pro M5, M5 Pro, M5 Max (14-inch & 16-inch, 2026) logic board repair in Johannesburg. Surge, liquid and accidental damage Apple’s warranty won’t cover, Thunderbolt 5, MagSafe 3, XDR display, component-level. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-m5' },
 };
 
@@ -20,16 +20,16 @@ const faults = [
   { fault: 'Thunderbolt 5 Port Failure (M5 Pro / M5 Max)', desc: 'The M5 Pro and M5 Max carry Thunderbolt 5 controllers as discrete ICs on the board. Physical port damage or an ESD event can disable one or more high-speed ports while the rest of the machine runs normally, a board-level repair rather than a full replacement.' },
   { fault: 'Charging Failure (MagSafe 3 / USB-C)', desc: 'The M5 Pro and M5 Max draw up to 140W across MagSafe 3 and USB-C, sharing a single power-management layer. Charging that fails on every input at once points to that shared circuit, not the ports, repaired at component level.' },
   { fault: 'Black Screen / Liquid Retina XDR Backlight', desc: 'The M5 MacBook Pro keeps the mini-LED Liquid Retina XDR display with ProMotion. A blown backlight fuse or TCON fault leaves the M5 running with a black screen, confirmed by an external-monitor test. The backlight driver is a board-level part repaired without replacing the panel.' },
-  { fault: 'Physical / Drop Damage to the Board', desc: 'Drops can crack board traces or shear components near the I/O cluster even when the screen survives, and accidental damage is not covered by the standard warranty. We assess trace and component damage under magnification as part of the R599 diagnostic and repair at board level where viable.' },
+  { fault: 'Physical / Drop Damage to the Board', desc: 'Drops can crack board traces or shear components near the I/O cluster even when the screen survives, and accidental damage is not covered by the standard warranty. We assess trace and component damage under magnification as part of the diagnostic and repair at board level where viable.' },
 ];
 
 const faqs = [
-  { question: 'My M5 MacBook Pro is new, why not just use the Apple warranty?', answer: 'Apple’s warranty covers manufacturing defects, not accidental damage. Surge, liquid and drop damage, the faults we see on new M5 MacBook Pros, are excluded, so Apple quotes a full out-of-pocket board replacement, which is far more expensive. We repair the specific failed component on your existing board for significantly less. Assessment from R599.' },
+  { question: 'My M5 MacBook Pro is new, why not just use the Apple warranty?', answer: 'Apple’s warranty covers manufacturing defects, not accidental damage. Surge, liquid and drop damage, the faults we see on new M5 MacBook Pros, are excluded, so Apple quotes a full out-of-pocket board replacement, which is far more expensive. We repair the specific failed component on your existing board for significantly less. Assessment.' },
   { question: 'Can a brand-new M5 MacBook Pro logic board be repaired?', answer: 'Yes. The M5, M5 Pro and M5 Max are sealed SoCs that cannot be replaced at chip level, but the power-management ICs, Thunderbolt 5 and USB-C controllers, MagSafe 3 charging circuit and XDR backlight driver are discrete components we diagnose and repair at board level in our Hyde Park workshop.' },
-  { question: 'How much does M5 MacBook Pro logic board repair cost?', answer: 'Apple replaces the whole board, which costs far more than a component-level repair. We repair only the part that failed on your existing board, so the cost is significantly lower. After the R599 assessment we provide a written, fixed-price quote before any work begins.' },
-  { question: 'Will using ZA Support affect my remaining Apple warranty?', answer: 'Component-level repair of accidental damage (surge, liquid, drops) addresses faults the warranty already excludes. We will always tell you honestly at the R599 assessment if a fault looks like a covered manufacturing defect that Apple should handle under warranty instead.' },
-  { question: 'Will my data be safe during M5 MacBook Pro board repair?', answer: 'Yes. Component-level repair does not remove or erase the soldered SSD, your storage stays on the board untouched while we repair the specific fault. If the board is completely dead, SSD readability is assessed in the R599 diagnostic.' },
-  { question: 'How long does M5 MacBook Pro logic board repair take?', answer: 'After the R599 assessment and your written approval, most M5 MacBook Pro board repairs finish within 3-5 business days. Multi-area liquid damage can take longer; the written quote states the timeline before we start.' },
+  { question: 'How much does M5 MacBook Pro logic board repair cost?', answer: 'Apple replaces the whole board, which costs far more than a component-level repair. We repair only the part that failed on your existing board, so the cost is significantly lower. After the assessment we provide a written, fixed-price quote before any work begins.' },
+  { question: 'Will using ZA Support affect my remaining Apple warranty?', answer: 'Component-level repair of accidental damage (surge, liquid, drops) addresses faults the warranty already excludes. We will always tell you honestly at the assessment if a fault looks like a covered manufacturing defect that Apple should handle under warranty instead.' },
+  { question: 'Will my data be safe during M5 MacBook Pro board repair?', answer: 'Yes. Component-level repair does not remove or erase the soldered SSD, your storage stays on the board untouched while we repair the specific fault. If the board is completely dead, SSD readability is assessed in the diagnostic.' },
+  { question: 'How long does M5 MacBook Pro logic board repair take?', answer: 'After the assessment and your written approval, most M5 MacBook Pro board repairs finish within 3-5 business days. Multi-area liquid damage can take longer; the written quote states the timeline before we start.' },
   { question: 'Do you collect an M5 MacBook Pro for repair?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
 
@@ -37,7 +37,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Pro M5 Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Pro M5, M5 Pro, M5 Max logic board repair in Johannesburg. Assessment from R599.',
+  description: 'Component-level MacBook Pro M5, M5 Pro, M5 Max logic board repair in Johannesburg. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -75,11 +75,11 @@ export default function MacBookProM5LogicBoardPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook Pro M5 logic board repair in Johannesburg costs from R599 to assess and most repairs complete in 3-5 business days. The M5, M5 Pro and M5 Max (14-inch and 16-inch, 2026) are new, so the faults we see are accidental surge, liquid and drop damage that Apple’s warranty does not cover. We repair these at component level in our Hyde Park workshop, for far less than a full-board replacement.
+              MacBook Pro M5 logic board repair in Johannesburg starts with an assessment and most repairs complete in 3-5 business days. The M5, M5 Pro and M5 Max (14-inch and 16-inch, 2026) are new, so the faults we see are accidental surge, liquid and drop damage that Apple’s warranty does not cover. We repair these at component level in our Hyde Park workshop, for far less than a full-board replacement.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {['Component-Level Repair', 'No Fix No Fee', '12-Month Warranty', 'Assessment Fee May Apply'].map((l) => (
@@ -151,7 +151,7 @@ export default function MacBookProM5LogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">M5 MacBook Pro Surge or Spill? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">M5 MacBook Pro Surge or Spill? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Accidental damage Apple won’t cover, repaired at component level with a 12-month written warranty. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand and Randburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKPROM5', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

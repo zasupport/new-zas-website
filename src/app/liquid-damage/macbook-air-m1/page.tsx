@@ -11,7 +11,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Air M1 Liquid Damage Repair Johannesburg',
   description:
-    'MacBook Air M1 liquid damage repair in Johannesburg. Fanless design means liquid pools on the board instead of spreading. Thinner chassis concentrates damage. Assessment from R599. Hyde Park.',
+    'MacBook Air M1 liquid damage repair in Johannesburg. Fanless design means liquid pools on the board instead of spreading. Thinner chassis concentrates damage. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air-m1' },
   keywords: [
     'MacBook Air M1 liquid damage repair Johannesburg',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Air M1 fix',
     'MacBook Air M1 coffee spill repair Johannesburg',
     'fanless MacBook Air liquid damage repair',
-    'MacBook Air M1 liquid damage assessment from R599',
+    'MacBook Air M1 liquid damage assessment',
   ],
 };
 
@@ -40,7 +40,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Air M1 be repaired?',
     answer:
-      'Yes, in the majority of cases. The MacBook Air M1 has a simpler board layout than the MacBook Pro, with fewer peripheral chips, which often works in its favour for liquid damage recovery. The main risk is the fanless design, without airflow to distribute liquid, spills concentrate on a smaller area of the board. At ZA Support in Hyde Park, we have successfully recovered MacBook Air M1 units even after significant spills. Assessment from R599.',
+      'Yes, in the majority of cases. The MacBook Air M1 has a simpler board layout than the MacBook Pro, with fewer peripheral chips, which often works in its favour for liquid damage recovery. The main risk is the fanless design, without airflow to distribute liquid, spills concentrate on a smaller area of the board. At ZA Support in Hyde Park, we have successfully recovered MacBook Air M1 units even after significant spills. Assessment.',
   },
   {
     question: 'Why is liquid damage worse on a fanless MacBook Air M1?',
@@ -50,7 +50,7 @@ const faqs = [
   {
     question: 'How much does MacBook Air M1 liquid damage repair cost?',
     answer:
-      'Repair cost depends on the extent of damage. A keyboard-only replacement where no liquid reached the logic board is the most affordable option. Minor board corrosion requiring ultrasonic cleaning and targeted component repair costs more. Extensive corrosion with multiple IC replacements is the most complex case. All repairs are quoted upfront before we proceed. Assessment from R599. No Fix No Fee.',
+      'Repair cost depends on the extent of damage. A keyboard-only replacement where no liquid reached the logic board is the most affordable option. Minor board corrosion requiring ultrasonic cleaning and targeted component repair costs more. Extensive corrosion with multiple IC replacements is the most complex case. All repairs are quoted upfront before we proceed. Assessment. No Fix No Fee.',
   },
   {
     question: 'My MacBook Air M1 got wet but seems fine, should I still get it checked?',
@@ -60,7 +60,7 @@ const faqs = [
   {
     question: 'Can you recover data from a water-damaged MacBook Air M1?',
     answer:
-      'Yes, in most cases. The MacBook Air M1 stores data on NAND flash chips that are separate from the M1 die. Even if the logic board cannot be economically repaired, we can usually extract your data by reading the storage chips directly. Data recovery is assessed as part of our R599 diagnostic.',
+      'Yes, in most cases. The MacBook Air M1 stores data on NAND flash chips that are separate from the M1 die. Even if the logic board cannot be economically repaired, we can usually extract your data by reading the storage chips directly. Data recovery is assessed as part of our diagnostic.',
   },
   {
     question: 'How long does MacBook Air M1 liquid damage repair take?',
@@ -70,7 +70,7 @@ const faqs = [
   {
     question: 'Is a liquid-damaged MacBook Air M1 worth repairing?',
     answer:
-      'In most cases, absolutely. A new MacBook Air M1 replacement costs R15,000-R25,000 depending on specification, and the M1 model is no longer sold new by Apple. Our component-level repairs cost a fraction of replacement price, preserve all your data, and come with up-to-3 year warranty. If repair is not economical, we tell you honestly during the assessment.',
+      'In most cases, absolutely. A new MacBook Air M1 replacement costs many times more depending on specification, and the M1 model is no longer sold new by Apple. Our component-level repairs cost a fraction of replacement price, preserve all your data, and come with up-to-3 year warranty. If repair is not economical, we tell you honestly during the assessment.',
   },
   {
     question: 'Does the MacBook Air M1 have liquid contact indicators?',
@@ -138,7 +138,7 @@ const severityLabels: Record<string, string> = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air M1 Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Air M1 liquid damage repair in Johannesburg. Fanless design specialist. Ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+  description: 'Professional MacBook Air M1 liquid damage repair in Johannesburg. Fanless design specialist. Ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -165,7 +165,7 @@ export default function MacBookAirM1LiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -173,7 +173,7 @@ export default function MacBookAirM1LiquidDamagePage() {
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Wind, label: 'Fanless Design Specialist' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -246,7 +246,7 @@ export default function MacBookAirM1LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every case, if we cannot repair your MacBook Air M1, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
+              All repairs are quoted before work begins. No Fix No Fee on every case, if we cannot repair your MacBook Air M1, an assessment fee applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -260,7 +260,7 @@ export default function MacBookAirM1LiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R12,000 to R28,000</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
                 <li>MacBook Air M1 no longer sold new, parts limited</li>
                 <li>Data may not survive board replacement</li>
@@ -271,7 +271,7 @@ export default function MacBookAirM1LiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed parts replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>Fanless design expertise, adapted cleaning protocol</li>
                 <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
@@ -362,7 +362,7 @@ export default function MacBookAirM1LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

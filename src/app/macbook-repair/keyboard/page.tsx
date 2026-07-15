@@ -156,7 +156,7 @@ const faqs = [
   {
     question: 'How much does MacBook keyboard repair cost in Johannesburg?',
     answer:
-      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a up-to-3 year warranty. We provide a assessment fee (from R599) and a fixed written quote before starting any work.',
+      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a up-to-3 year warranty. We provide an assessment fee and a fixed written quote before starting any work.',
   },
   {
     question: 'Why does the butterfly keyboard carry no warranty?',
@@ -249,7 +249,7 @@ export default function MacBookKeyboardPage() {
 
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Assessment: from R599.
+              MacBook butterfly keyboard repair Johannesburg, scissor keyboard replacement, stuck keys, broken keycaps, liquid spill recovery. All MacBook Air and Pro models. Assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -336,7 +336,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Repair <span className="text-[#0FEA7A]">Models</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Assessment: from R599 before any work begins. Written fixed quote, no hidden costs.
+              Assessment before any work begins. Written fixed quote, no hidden costs.
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -476,7 +476,7 @@ export default function MacBookKeyboardPage() {
               Signs You Need <span className="text-[#0FEA7A]">Keyboard Repair</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Any of these symptoms warrants a assessment fee (from R599). We diagnose before we quote.
+              Any of these symptoms warrants an assessment fee. We diagnose before we quote.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -511,7 +511,7 @@ export default function MacBookKeyboardPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Assessment: from R599',
+                title: 'Assessment',
                 desc: 'We test every key, check for liquid ingress, and inspect the top case. For butterfly keyboard models we advise you on whether the scissor-switch upgrade is available for your specific machine before quoting.',
               },
               {
@@ -577,7 +577,7 @@ export default function MacBookKeyboardPage() {
               MacBook Keyboard Not Working?
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto">
-              Assessment: from R599. Hyde Park, Johannesburg. WhatsApp for fastest response.
+              Assessment. Hyde Park, Johannesburg. WhatsApp for fastest response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

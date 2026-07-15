@@ -82,11 +82,11 @@ const symptoms = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
+  { step: '1', title: 'Assessment', desc: 'Bring your iPhone in or WhatsApp us. We check battery health in Settings and give you a written fixed-price quote.' },
   { step: '2', title: 'Battery Confirmed', desc: 'We confirm the correct replacement battery is in stock for your model. Same-day replacement is available for most models.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery under controlled conditions. iPhone battery replacement takes approximately 45-60 minutes.' },
   { step: '4', title: 'Quality Check', desc: 'We verify the new battery charges correctly, confirm battery health reads 100%, and test for unexpected shutdowns before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement battery and our labour. Assessment: from R599 applies if anything goes wrong.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement battery and our labour. Assessment applies if anything goes wrong.' },
 ];
 
 const faqs = [
@@ -128,7 +128,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on iPhone battery replacements?',
     answer:
-      'All iPhone battery replacements at ZA Support come with a up-to-3 year warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at from R599.',
+      'All iPhone battery replacements at ZA Support come with a up-to-3 year warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at our assessment fee.',
   },
 ];
 
@@ -184,7 +184,7 @@ export default function iPhoneBatteryPage() {
               iPhone 12 through 16 Pro Max, same-day available, up-to-3 year warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599', 'Assessment: from R599', 'Up-to-3 Year Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment', 'Assessment', 'Up-to-3 Year Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -242,8 +242,8 @@ export default function iPhoneBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599. Data is never accessed or affected.
-            Battery health check included. Assessment: from R599.
+            All repairs include written up-to-3 year warranty. Assessment. Data is never accessed or affected.
+            Battery health check included. Assessment.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -257,7 +257,7 @@ export default function iPhoneBatteryPage() {
           </h2>
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every symptom listed below is something we see and fix every day.
-            If you are not sure whether your issue is the battery or something else, we diagnose first, from R599.
+            If you are not sure whether your issue is the battery or something else, we diagnose first.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {symptoms.map((s) => (
@@ -317,9 +317,9 @@ export default function iPhoneBatteryPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment: from R599' },
-              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment: from R599' },
-              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment: from R599' },
+              { title: 'iPhone Screen Repair', href: '/iphone-repair/screen', label: 'Assessment' },
+              { title: 'iPhone Camera Repair', href: '/iphone-repair/camera', label: 'Assessment' },
+              { title: 'iPhone Charging Port Repair', href: '/iphone-repair/charging', label: 'Assessment' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -343,7 +343,7 @@ export default function iPhoneBatteryPage() {
             >
               iPhone Battery Draining Fast?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Battery health check included. Assessment: from R599. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Battery health check included. Assessment. up-to-3 year warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Illovo | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Illovo clients. Ultrasonic cleaning, board-level diagnostics. We collect from Illovo. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Illovo clients. Ultrasonic cleaning, board-level diagnostics. We collect from Illovo. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/illovo' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Illovo?', answer: 'Immediately, ideally within the first hour. Power the MacBook off, do not press any keys to test it, and call us on 064 529 5863. From Illovo we can usually have a driver with you within 30 minutes via Oxford Road or the M1, which gets the board into ultrasonic cleaning the same afternoon. The success rate drops noticeably after 24 hours and again after 72 hours as corrosion sets in.' },
   { question: 'Do you collect MacBooks from Illovo after liquid damage?', answer: 'Yes, collection from anywhere in Illovo is included. We cover Illovo Boulevard, Oxford Road, Harries Road, the area around Illovo Junction and Thrupps Centre, and the residential streets towards Rudd Road and Glenhove. Hyde Park workshop is roughly 6 minutes away, so liquid-damage collections from Illovo are prioritised over routine jobs.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599 and includes full disassembly, ultrasonic cleaning of the logic board and a microscope inspection to identify damaged components. You then receive a written quote for the repair itself. If you choose not to proceed, the assessment fee is all you pay, the machine is reassembled and returned to you in Illovo.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment includes full disassembly, ultrasonic cleaning of the logic board and a microscope inspection to identify damaged components. You then receive a written quote for the repair itself. If you choose not to proceed, the assessment fee is all you pay, the machine is reassembled and returned to you in Illovo.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary drinks and wine are the worst because they leave a conductive residue that keeps corroding the board long after the visible liquid has dried. Sparkling water is surprisingly aggressive for the same reason. Plain water is the gentlest, though still serious if the machine was powered when it hit the keyboard. Coffee, the most common spill we see from Illovo offices, sits in the middle: the sugar and milk leave residue, but it is manageable if we get the board into ultrasonic cleaning quickly.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still works after a spill is the best-case scenario for recovery, but the corrosion is already starting on the board. The longer you keep using it, the more components fail one at a time, usually starting with the keyboard backlight, then individual keys, then trackpad, then charging. Bring it in while it still works and the repair is far cheaper than waiting until it does not.' },
   { question: 'Will you be able to save my data?', answer: 'In the great majority of liquid-damage cases, yes. Even when the logic board is beyond economic repair, we can usually recover data directly from the storage, on Intel MacBooks via the SSD, and on Apple Silicon models via the data-recovery port using Apple\'s documented procedure. We confirm data recoverability during the assessment so you know where you stand before committing to a board-level repair.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, every liquid-damage job starts with the from R599 assessment. That covers collection from Illovo, disassembly, ultrasonic cleaning and a full diagnostic. You then receive a written quote for the actual repair work and decide whether to proceed. There are no hidden charges added later.' },
+  { question: 'Is there an assessment policy for liquid damage?', answer: 'Yes, every liquid-damage job starts with the assessment. That covers collection from Illovo, disassembly, ultrasonic cleaning and a full diagnostic. You then receive a written quote for the actual repair work and decide whether to proceed. There are no hidden charges added later.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. M1, M2 and M3 MacBooks need a different approach because the SSD is soldered to the board and the storage is tied to the secure enclave, but the underlying liquid-damage repair process is the same, ultrasonic cleaning, microscope inspection, component-level replacement. Several of the Apple Silicon machines we have recovered came from professional practices around Oxford Road, so the workflow is well established.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageIllovoPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage in Illovo needs a fast response, every hour the corrosion spreads further across the logic board. We collect from homes along Harries Road, professional practices on Oxford Road, and the medical and legal suites near Illovo Junction, then run ultrasonic cleaning and board-level repair at our Hyde Park workshop roughly 6 minutes up the road. Assessment from R599.
+              Liquid damage in Illovo needs a fast response, every hour the corrosion spreads further across the logic board. We collect from homes along Harries Road, professional practices on Oxford Road, and the medical and legal suites near Illovo Junction, then run ultrasonic cleaning and board-level repair at our Hyde Park workshop roughly 6 minutes up the road. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageIllovoPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Illovo' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageIllovoPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Illovo? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Illovo. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Illovo. Assessment available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-ILLOVO', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

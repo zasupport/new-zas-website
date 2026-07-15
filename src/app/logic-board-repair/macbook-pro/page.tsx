@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Pro Logic Board Repair',
   description:
-    'MacBook Pro logic board repair in Johannesburg. Assessment: from R599, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
+    'MacBook Pro logic board repair in Johannesburg. Assessment, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro' },
   keywords: [
     'MacBook Pro logic board repair Johannesburg',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'component-level repair MacBook Pro',
     'MacBook Pro GPU repair Johannesburg',
     'MacBook Pro liquid damage board repair',
-    'assessment: from R599 MacBook Pro',
+    'assessment MacBook Pro',
   ],
 };
 
@@ -39,7 +39,7 @@ const faultTable = [
 ];
 
 const repairProcess = [
-  { step: '1', title: 'Diagnostic: from R599', detail: 'We inspect the board under microscope. Power rail testing, short-circuit mapping, and component identification. Completed within 24 hours.' },
+  { step: '1', title: 'Diagnostic', detail: 'We inspect the board under microscope. Power rail testing, short-circuit mapping, and component identification. Completed within 24 hours.' },
   { step: '2', title: 'Written Quote', detail: 'You receive a clear quote covering the specific fault, parts needed, labour, and a completion estimate. No ambiguous "from" pricing at this stage, it is a fixed quote.' },
   { step: '3', title: 'Your Approval', detail: 'We begin work only after you approve the quote. If you decline, you walk away paying nothing. The machine is returned exactly as received.' },
   { step: '4', title: 'Component-Level Repair', detail: 'Our technician uses a professional hot-air rework station, stereo microscope, and precision soldering station to replace the specific failed component. We reflow solder, replace ICs, and repair traces as needed.' },
@@ -66,11 +66,11 @@ const faqs = [
   },
   {
     question: 'Do you offer a warranty on logic board repairs?',
-    answer: 'Yes, all ZA Support logic board repairs carry a warranty on the repaired component and any parts replaced. This is significantly longer than the industry standard in Johannesburg. If the same fault returns within the warranty period, we repair it at from R599.',
+    answer: 'Yes, all ZA Support logic board repairs carry a warranty on the repaired component and any parts replaced. This is significantly longer than the industry standard in Johannesburg. If the same fault returns within the warranty period, we repair it at our assessment fee.',
   },
   {
     question: 'What if my MacBook Pro cannot be fixed?',
-    answer: 'An assessment fee of from R599 applies. If we cannot repair the fault, the machine is returned to you exactly as it was received. We will give you an honest assessment of your options: board replacement pricing, data recovery, or part-out value.',
+    answer: 'An assessment fee applies. If we cannot repair the fault, the machine is returned to you exactly as it was received. We will give you an honest assessment of your options: board replacement pricing, data recovery, or part-out value.',
   },
   {
     question: 'Is it worth repairing a MacBook Pro versus buying a new one?',
@@ -113,7 +113,7 @@ const serviceAreas = [
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro Logic Board Repair Johannesburg',
-  description: 'Expert MacBook Pro logic board repair and component-level repair in Johannesburg. All Intel and Apple Silicon models. Assessment: from R599. up-to-3 year warranty.',
+  description: 'Expert MacBook Pro logic board repair and component-level repair in Johannesburg. All Intel and Apple Silicon models. Assessment. up-to-3 year warranty.',
   lowPrice: '5500',
   highPrice: '22000',
 });
@@ -140,20 +140,20 @@ export default function MacBookProLogicBoardPage() {
           <div className="mt-8 max-w-4xl">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Pro Logic Board Repair
-              <br /><span className="text-[#0FEA7A]">Johannesburg, Assessment: from R599</span>
+              <br /><span className="text-[#0FEA7A]">Johannesburg, Assessment</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Component-level repair for MacBook Pro logic board faults.
-              All Intel and Apple Silicon models. Assessment: from R599 with.
+              All Intel and Apple Silicon models. Assessment with.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               We repair the board, we do not just replace it. Component-level repair is a fraction of the cost of a full board replacement. Hyde Park, Johannesburg.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'Assessment: from R599' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Clock, label: 'Fastest Turnaround Times' },
-                { icon: Zap, label: 'Diagnostic: from R599' },
+                { icon: Zap, label: 'Diagnostic' },
                 { icon: CheckCircle, label: 'Warranty' },
                 { icon: Cpu, label: 'Microscope Component-level repair' },
               ].map(({ icon: Icon, label }) => (
@@ -247,7 +247,7 @@ export default function MacBookProLogicBoardPage() {
             </ul>
             <p className="mt-4">
               If your MacBook Pro is showing any of these symptoms, bring it in or send us a WhatsApp message. The
-              diagnostic starts from R599.
+              diagnostic starts with our assessment.
             </p>
           </div>
         </div>
@@ -383,7 +383,7 @@ export default function MacBookProLogicBoardPage() {
           </p>
           <div className="glass-card overflow-hidden p-0 mb-6">
             {[
-              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope. From R599.' },
+              { item: 'Diagnostic Assessment', note: 'Full board inspection under microscope.' },
               { item: 'USB-C / I/O Board Repair', note: 'Port board replacement or USB-C controller IC component-level repair' },
               { item: 'Backlight / Display Circuit Repair', note: 'Backlight fuse, driver IC, or eDP connector fault' },
               { item: 'Power Circuit Repair', note: 'No-power diagnosis, fuse, MOSFET, or charging IC replacement' },
@@ -403,14 +403,14 @@ export default function MacBookProLogicBoardPage() {
               <p className="text-[#7A9E98] text-sm">Apple replaces the entire logic board, we repair the specific failed component. Same result, your machine works again, at a fraction of the cost.</p>
             </div>
             <div className="p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-2xl">
-              <p className="text-[#E8F4F1] font-bold mb-2">Assessment: from R599, guaranteed</p>
-              <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Pro logic board, assessment fee of from R599 applies.
-                Assessment fee of from R599 applies. Zero obligation beyond the assessment fee, zero risk to you.</p>
+              <p className="text-[#E8F4F1] font-bold mb-2">Assessment, guaranteed</p>
+              <p className="text-[#7A9E98] text-sm">If we cannot repair your MacBook Pro logic board, our assessment fee applies.
+                Zero obligation beyond the assessment fee, zero risk to you.</p>
             </div>
           </div>
           <div className="rounded-xl border border-[#0FEA7A]/30 bg-[#0FEA7A]/5 p-5 mt-6">
             <p className="text-sm text-[#7A9E98]">
-              💡 <strong className="text-[#E8F4F1]">Assessment: from R599, always.</strong> We assess your MacBook Pro at from R599 with. Written quote before any work begins.
+              💡 <strong className="text-[#E8F4F1]">Assessment, always.</strong> We assess your MacBook Pro at our assessment fee with. Written quote before any work begins.
             </p>
           </div>
         </div>
@@ -445,8 +445,8 @@ export default function MacBookProLogicBoardPage() {
               },
               {
                 icon: Shield,
-                title: 'Assessment: from R599, No Exceptions',
-                body: 'If we cannot fix it, assessment fee of from R599 applies. We are one of the only repair specialists in Johannesburg offering this unconditionally on logic board repairs.',
+                title: 'Assessment, No Exceptions',
+                body: 'If we cannot fix it, assessment fee applies. We are one of the only repair specialists in Johannesburg offering this unconditionally on logic board repairs.',
               },
             ].map(({ icon: Icon, title, body }) => (
               <div key={title} className="glass-card p-6">
@@ -514,9 +514,9 @@ export default function MacBookProLogicBoardPage() {
           <h2 className="text-lg font-bold text-[#E8F4F1] mb-5">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment: from R599' },
+              { title: 'MacBook Air Logic Board', href: '/logic-board-repair/macbook-air', label: 'Assessment' },
               { title: 'Logic Board Repair Hub', href: '/logic-board-repair', label: 'All Devices' },
-              { title: 'Liquid Damage Repair', href: '/liquid-damage', label: 'Assessment: from R599' },
+              { title: 'Liquid Damage Repair', href: '/liquid-damage', label: 'Assessment' },
             ].map((item) => (
               <Link key={item.href} href={item.href} className="glass-card p-4 flex items-center justify-between group">
                 <div>
@@ -537,7 +537,7 @@ export default function MacBookProLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: from R599. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Mon-Thu 08:00-17:00 · Fri 08:00-16:30 · Closed Weekends</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

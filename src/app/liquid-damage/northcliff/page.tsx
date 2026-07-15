@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Northcliff | ZA Support Hyde Park',
-  description: 'MacBook liquid damage repair for Northcliff clients. Ultrasonic cleaning, board-level diagnostics, same-day collection from Northcliff. Assessment from R599. Call 064 529 5863.',
+  description: 'MacBook liquid damage repair for Northcliff clients. Ultrasonic cleaning, board-level diagnostics, same-day collection from Northcliff. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/northcliff' },
 };
 
@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     question: 'Will my data be recovered after liquid damage?',
-    answer: 'In most cases yes. The SSD in modern MacBooks is separate from the main liquid damage path. If the logic board is repairable, your data is intact. If the board cannot be recovered, SSD readability is assessed as part of the R599 diagnostic.',
+    answer: 'In most cases yes. The SSD in modern MacBooks is separate from the main liquid damage path. If the logic board is repairable, your data is intact. If the board cannot be recovered, SSD readability is assessed as part of the diagnostic.',
   },
   {
     question: 'How much does MacBook liquid damage repair cost for Northcliff clients?',
-    answer: 'Assessment from R599. Repair cost depends on the extent of damage confirmed during the ultrasonic cleaning and diagnostic process. Written quote provided before any repair proceeds. No Fix No Fee applies.',
+    answer: 'Assessment. Repair cost depends on the extent of damage confirmed during the ultrasonic cleaning and diagnostic process. Written quote provided before any repair proceeds. No Fix No Fee applies.',
   },
   {
     question: 'How long does liquid damage repair take?',
@@ -62,7 +62,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Liquid Damage Repair Northcliff',
-  description: 'MacBook liquid damage repair for Northcliff clients. Ultrasonic cleaning, component-level repair. Assessment from R599.',
+  description: 'MacBook liquid damage repair for Northcliff clients. Ultrasonic cleaning, component-level repair. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -108,7 +108,7 @@ export default function LiquidDamageNorthcliffPage() {
               <span className="text-amber-400 font-medium">Act immediately, every hour increases corrosion spread.</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Collection', 'Ultrasonic Cleaning', 'No Fix No Fee', 'Assessment from R599'].map((l) => (
+              {['Same-Day Collection', 'Ultrasonic Cleaning', 'No Fix No Fee', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>

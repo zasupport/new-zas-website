@@ -60,18 +60,18 @@ const orphanScreenSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: 'MacBook Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
+  title: 'MacBook Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook & iPhone screen repair in Johannesburg. Cracked display, flickering, dead pixels fixed. From R2,499. Up-to-3 year warranty. Call 064 529 5863.',
+    'MacBook & iPhone screen repair in Johannesburg. Cracked display, flickering, dead pixels fixed. Up-to-3 year warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair' },
 };
 
 const pricingTable = [
-  { device: 'MacBook Air', from: 'R2,499', note: 'All models incl. M1-M3', turnaround: '24-48 hrs' },
-  { device: 'MacBook Pro 13″', from: 'R3,499', note: 'Retina 2012-2024, M1-M4', turnaround: '24-72 hrs' },
-  { device: 'MacBook Pro 14″ / 16″', from: 'R4,999', note: 'M1 Pro/Max - M4 Pro/Max, Liquid Retina XDR', turnaround: '48-72 hrs' },
-  { device: 'iMac', from: 'R3,999', note: '21.5″, 24″ and 27″ models', turnaround: '3-5 days' },
-  { device: 'iPhone', from: 'R1,299', note: 'iPhone 8 - iPhone 16 Pro Max', turnaround: 'Same day' },
+  { device: 'MacBook Air', from: 'Contact for pricing', note: 'All models incl. M1-M3', turnaround: '24-48 hrs' },
+  { device: 'MacBook Pro 13″', from: 'Contact for pricing', note: 'Retina 2012-2024, M1-M4', turnaround: '24-72 hrs' },
+  { device: 'MacBook Pro 14″ / 16″', from: 'Contact for pricing', note: 'M1 Pro/Max - M4 Pro/Max, Liquid Retina XDR', turnaround: '48-72 hrs' },
+  { device: 'iMac', from: 'Contact for pricing', note: '21.5″, 24″ and 27″ models', turnaround: '3-5 days' },
+  { device: 'iPhone', from: 'Contact for pricing', note: 'iPhone 8 - iPhone 16 Pro Max', turnaround: 'Same day' },
 ];
 
 const damageTypes = [
@@ -103,7 +103,7 @@ const damageTypes = [
 ];
 
 const processSteps = [
-  { step: 1, title: 'Assessment', desc: 'Bring your device to our Hyde Park workshop. We inspect the damage, identify the panel type (LCD, Retina, OLED, Liquid Retina XDR), and provide a written fixed-price quote. Assessment from R599.' },
+  { step: 1, title: 'Assessment', desc: 'Bring your device to our Hyde Park workshop. We inspect the damage, identify the panel type (LCD, Retina, OLED, Liquid Retina XDR), and provide a written fixed-price quote. Assessment.' },
   { step: 2, title: 'Part Sourcing', desc: 'We source genuine-equivalent or original display assemblies. For MacBooks, this includes the LCD panel, backlight, and display housing. For iPhones, we use OEM-grade OLED or LCD panels with True Tone calibration retained.' },
   { step: 3, title: 'Repair', desc: 'The damaged display is carefully removed and the new panel installed. On MacBooks, this includes recalibrating the display connector, testing the backlight circuit, and verifying True Tone sensor alignment.' },
   { step: 4, title: 'Quality Testing', desc: 'Full display test: colour accuracy, brightness uniformity, touch responsiveness (iPhone/iPad), backlight bleed, and dead pixel inspection across a pure white, black, red, green, and blue test screen.' },
@@ -122,7 +122,7 @@ const compatibleDevices = [
 const faqs = [
   {
     question: 'How much does MacBook screen repair cost in Johannesburg?',
-    answer: 'MacBook Air screen repair starts from R2,499, MacBook Pro 13″ from R3,499, and MacBook Pro 14″ or 16″ from R4,999. These prices include the display assembly, labour, and our up-to-3 year warranty. The exact price depends on your specific model and the type of panel (LCD, Retina, OLED, or Liquid Retina XDR). We provide a written quote before starting any work.',
+    answer: 'Screen repair pricing depends on your specific model and the type of panel (LCD, Retina, OLED, or Liquid Retina XDR). Every quote includes the display assembly, labour, and our up-to-3 year warranty. Contact us for pricing and we provide a written quote before starting any work.',
   },
   {
     question: 'How long does a MacBook screen replacement take?',
@@ -138,11 +138,11 @@ const faqs = [
   },
   {
     question: 'My MacBook screen is black but I can hear it running. Is the screen broken?',
-    answer: 'Not necessarily. A black screen with audible fans or a startup chime often indicates a backlight failure rather than a broken panel. The backlight circuit on MacBooks uses a fuse and driver IC (LP8550 on many models) that can fail, particularly after liquid exposure or a power surge. We diagnose this during our assessment (from R599) and repair at component level where possible, which is significantly cheaper than a full screen replacement.',
+    answer: 'Not necessarily. A black screen with audible fans or a startup chime often indicates a backlight failure rather than a broken panel. The backlight circuit on MacBooks uses a fuse and driver IC (LP8550 on many models) that can fail, particularly after liquid exposure or a power surge. We diagnose this during our assessment and repair at component level where possible, which is significantly cheaper than a full screen replacement.',
   },
   {
     question: 'How does your pricing compare to the Apple Store?',
-    answer: 'Apple\'s official screen replacement pricing in South Africa ranges from approximately R6,000 to R15,000 depending on the model. Our pricing starts from R2,499 for a MacBook Air, saving you 50-70% compared to Apple\'s pricing. We use equivalent-grade panels with the same resolution, brightness, and colour accuracy, and we include an up-to-3 year warranty compared to Apple\'s 90-day repair warranty.',
+    answer: 'Apple\'s official screen replacement pricing in South Africa is much higher than ours, often many times more depending on the model. Our pricing is a fraction of Apple\'s. We use equivalent-grade panels with the same resolution, brightness, and colour accuracy, and we include an up-to-3 year warranty compared to Apple\'s 90-day repair warranty.',
   },
   {
     question: 'Can you repair a MacBook screen with lines running through it?',
@@ -150,7 +150,7 @@ const faqs = [
   },
   {
     question: 'Do you repair cracked iPhone screens?',
-    answer: 'Yes. We repair cracked screens on all iPhone models from iPhone 8 through to iPhone 16 Pro Max. Pricing starts from R1,299 and includes an OEM-grade OLED or LCD panel (model dependent), True Tone calibration transfer, and our warranty. Most iPhone screen repairs are completed same day at our Hyde Park workshop.',
+    answer: 'Yes. We repair cracked screens on all iPhone models from iPhone 8 through to iPhone 16 Pro Max. Every repair includes an OEM-grade OLED or LCD panel (model dependent), True Tone calibration transfer, and our warranty. Contact us for pricing. Most iPhone screen repairs are completed same day at our Hyde Park workshop.',
   },
   {
     question: 'Is it worth repairing an older MacBook screen?',
@@ -158,7 +158,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you offer on screen repairs?',
-    answer: 'Every screen repair carried out by ZA Support includes an up-to-3 year warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period, dead pixels, backlight failure, colour shift, we repair or replace it at from R599. The warranty is provided in writing and covers parts and labour.',
+    answer: 'Every screen repair carried out by ZA Support includes an up-to-3 year warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period, dead pixels, backlight failure, colour shift, we repair or replace it at our assessment fee. The warranty is provided in writing and covers parts and labour.',
   },
 ];
 
@@ -175,7 +175,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook & iPhone Screen Repair Johannesburg',
-  description: 'Professional MacBook and iPhone screen repair in Johannesburg. Cracked screens, flickering displays, dead pixels, backlight failure. From R2,499. Up-to-3 year warranty.',
+  description: 'Professional MacBook and iPhone screen repair in Johannesburg. Cracked screens, flickering displays, dead pixels, backlight failure. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -196,7 +196,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Air Screen Replacement',
-          description: 'Full display assembly replacement for all MacBook Air models. From R2,499.',
+          description: 'Full display assembly replacement for all MacBook Air models.',
         },
         price: '2499',
         priceCurrency: 'ZAR',
@@ -206,7 +206,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Pro 13″ Screen Replacement',
-          description: 'Retina display replacement for MacBook Pro 13-inch. From R3,499.',
+          description: 'Retina display replacement for MacBook Pro 13-inch.',
         },
         price: '3499',
         priceCurrency: 'ZAR',
@@ -216,7 +216,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'MacBook Pro 14″/16″ Screen Replacement',
-          description: 'Liquid Retina XDR display replacement. From R4,999.',
+          description: 'Liquid Retina XDR display replacement.',
         },
         price: '4999',
         priceCurrency: 'ZAR',
@@ -226,7 +226,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'iMac Screen Replacement',
-          description: 'iMac display panel replacement for 21.5″, 24″, and 27″ models. From R3,999.',
+          description: 'iMac display panel replacement for 21.5″, 24″, and 27″ models.',
         },
         price: '3999',
         priceCurrency: 'ZAR',
@@ -236,7 +236,7 @@ const serviceSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'iPhone Screen Repair',
-          description: 'iPhone screen replacement with True Tone calibration. From R1,299.',
+          description: 'iPhone screen replacement with True Tone calibration.',
         },
         price: '1299',
         priceCurrency: 'ZAR',
@@ -285,7 +285,7 @@ export default function ScreenRepairPage() {
               <p className="text-lg sm:text-xl text-[#7A9E98] leading-relaxed mb-8 max-w-2xl">
                 Cracked screen, flickering display, or dead pixels? We repair MacBook, iMac, and iPhone screens from our
                 Hyde Park workshop. OEM-grade panels, True Tone calibration retained, and an up-to-3 year warranty on
-                every repair. From <strong className="text-[#E8F4F1]">R2,499</strong>, that is 50-70% less than the Apple Store.
+                every repair, at a fraction of the Apple Store&rsquo;s pricing.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -312,7 +312,7 @@ export default function ScreenRepairPage() {
                   <Shield className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty
                 </span>
                 <span className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-[#0FEA7A]" /> From R599 assessment
+                  <CheckCircle className="w-4 h-4 text-[#0FEA7A]" /> Assessment
                 </span>
                 <span className="flex items-center gap-2">
                   <Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-Day iPhone Repairs
@@ -350,10 +350,10 @@ export default function ScreenRepairPage() {
               &ldquo;cold&rdquo; or bluish displays after third-party iPhone screen replacements.
             </p>
             <p>
-              Our pricing is transparent. A MacBook Air screen replacement starts from R2,499 and a MacBook Pro 13-inch
-              from R3,499. Compare that to Apple&rsquo;s official pricing of R6,000 to R15,000 depending on the model.
+              Our pricing is transparent. A MacBook screen replacement with us costs a fraction of Apple&rsquo;s official
+              pricing, which runs many times higher depending on the model. Contact us for a quote on your specific model.
               We use equivalent-grade panels with the same resolution, P3 wide colour gamut, and brightness specifications
-, the difference is you save 50-70% and get a longer warranty.
+, the difference is you save a great deal and get a longer warranty.
             </p>
             <p>
               Every screen repair includes a full quality test: brightness uniformity, dead pixel inspection, colour
@@ -371,7 +371,7 @@ export default function ScreenRepairPage() {
               Screen Repair Pricing
             </h2>
             <p className="text-center text-[#7A9E98] mb-10 max-w-2xl mx-auto">
-              Fixed pricing. Written quote before any work begins. Assessment from R599.
+              Fixed pricing. Written quote before any work begins. Assessment.
             </p>
 
             <div className="overflow-x-auto">
@@ -379,7 +379,7 @@ export default function ScreenRepairPage() {
                 <thead>
                   <tr className="border-b border-[#27504D]">
                     <th className="py-4 px-4 text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider">Device</th>
-                    <th className="py-4 px-4 text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider">From</th>
+                    <th className="py-4 px-4 text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider">Pricing</th>
                     <th className="py-4 px-4 text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Models Covered</th>
                     <th className="py-4 px-4 text-[#0FEA7A] font-semibold text-sm uppercase tracking-wider hidden md:table-cell">Turnaround</th>
                   </tr>
@@ -398,8 +398,8 @@ export default function ScreenRepairPage() {
             </div>
 
             <p className="text-xs text-[#7A9E98] mt-6 text-center">
-              All prices in ZAR and include parts, labour, and up-to-3 year warranty. Exact price depends on model year and panel type.
-              Apple Store comparison: R6,000-R15,000 for the same repairs.
+              All quotes include parts, labour, and up-to-3 year warranty. Exact price depends on model year and panel type.
+              The Apple Store charges many times more for the same repairs.
             </p>
             <PricingRange page="/screen-repair" />
             <PricingNote />
@@ -503,7 +503,7 @@ export default function ScreenRepairPage() {
               </div>
               <div className="text-center p-6">
                 <CheckCircle className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">From R599 assessment</h3>
+                <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">Assessment</h3>
                 <p className="text-[#7A9E98] text-sm">
                   If we cannot repair your screen or source the correct panel for your model, you pay nothing beyond the
                   assessment fee. No surprises.
@@ -590,7 +590,7 @@ export default function ScreenRepairPage() {
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { label: 'Logic Board Repair', href: '/logic-board-repair', desc: 'Component-level board repair from R599 assessment' },
+                { label: 'Logic Board Repair', href: '/logic-board-repair', desc: 'Component-level board repair assessment' },
                 { label: 'Liquid Damage Repair', href: '/liquid-damage', desc: 'Ultrasonic cleaning and board-level restoration' },
                 { label: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook and iPhone battery replacement' },
                 { label: 'MacBook Repair', href: '/macbook-repair', desc: 'All MacBook faults, power, display, keyboard' },
@@ -658,7 +658,7 @@ export default function ScreenRepairPage() {
                   MacBook logic board repair
                 </h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Component-level board repair for no-power, no-boot, GPU and PMIC faults, Apple Store and Mac Shack quotes typically R15,000+, our route is from R599 assessment.
+                  Component-level board repair for no-power, no-boot, GPU and PMIC faults, where Apple Store and Mac Shack quotes run many times higher, our route starts with an assessment.
                 </p>
               </Link>
               <Link
@@ -691,7 +691,7 @@ export default function ScreenRepairPage() {
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
               WhatsApp us a photo of the damage and we will reply with a fixed-price quote, usually within 30 minutes
-              during business hours. Assessment from R599. From R599 assessment.
+              during business hours. Assessment.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

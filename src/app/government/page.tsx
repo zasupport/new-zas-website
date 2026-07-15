@@ -11,7 +11,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'Government IT Services South Africa | BEE Level 1 Apple Specialist | ZA Support',
   description:
-    'BEE Level 1 government IT services provider. CSD registered Apple specialist for GCIS, Treasury, Presidency & departments. Secure fleet management, POPIA compliance. From R599.',
+    'BEE Level 1 government IT services provider. CSD registered Apple specialist for GCIS, Treasury, Presidency & departments. Secure fleet management, POPIA compliance.',
   alternates: { canonical: 'https://zasupport.com/government' },
   keywords: [
     'government IT services south africa',
@@ -63,7 +63,7 @@ const GOV_FAQS = [
   },
   {
     question: 'What does your government IT assessment include?',
-    answer: 'Our government IT assessment starts from R599 and covers a comprehensive audit of your current Apple infrastructure. This includes device inventory and lifecycle analysis, security posture evaluation, POPIA compliance gap analysis, network security review, and recommendations for fleet standardisation. A detailed written report with costed recommendations is provided within 5 business days.',
+    answer: 'Our government IT assessment applies and covers a comprehensive audit of your current Apple infrastructure. This includes device inventory and lifecycle analysis, security posture evaluation, POPIA compliance gap analysis, network security review, and recommendations for fleet standardisation. A detailed written report with costed recommendations is provided within 5 business days.',
   },
   {
     question: 'Do you provide POPIA compliance support for government departments?',
@@ -272,8 +272,8 @@ export default function GovernmentPage() {
             <p className="text-[#7A9E98] text-center max-w-3xl mx-auto mb-10 leading-relaxed">
               Every service we deliver to government clients is built on the understanding that public
               sector IT operates under unique constraints: strict procurement rules, heightened security
-              requirements, POPIA obligations, and public accountability. Our rate is R899 per hour,
-              with assessments starting from R599.
+              requirements, POPIA obligations, and public accountability. Our standard hourly rate
+              applies, with an assessment fee.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {GOV_SERVICES.map(({ icon: Icon, title, desc }) => (
@@ -396,7 +396,7 @@ export default function GovernmentPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Ready to Secure Your Government Apple Estate?</h2>
             <p className="text-[#7A9E98] mb-6">
-              BEE Level 1 · CSD registered · Assessment from R599 · R899/hr · 063 529 5863
+              BEE Level 1 · CSD registered · Assessment · 063 529 5863
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

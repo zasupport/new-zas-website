@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Alberton | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Alberton clients. Ultrasonic cleaning, board-level diagnostics. We collect from Alberton. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Alberton clients. Ultrasonic cleaning, board-level diagnostics. We collect from Alberton. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/alberton' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Alberton?', answer: 'Within the first 24 hours if at all possible. Corrosion begins almost immediately once liquid contacts a powered logic board, and every hour the machine sits with residue inside reduces the repair odds. Alberton is around 35 minutes from our Hyde Park workshop on a clear run up the N3, so once you message us on 064 529 5863 we can usually have a courier collect the same day. Power the MacBook off, do not attempt to charge it, and leave it closed until we have it.' },
   { question: 'Do you collect MacBooks from Alberton after liquid damage?', answer: 'Yes, and we treat liquid damage collections as priority. We cover all of Alberton, New Redruth, Brackenhurst, Randhart, Meyersdal, Mayberry Park and the Alberton North side, and routinely pick up from homes, the offices around Alberton City, and medical practices near Netcare Alberton Hospital. WhatsApp wa.me/27645295863 with your address and we will confirm an ETA. The collection itself does not delay diagnostic work; the technician begins disassembly the same afternoon the unit arrives.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Liquid damage assessments are from R599. That covers full disassembly, microscope inspection of the logic board, identification of affected components and a written quote for the repair before any further work proceeds. If you choose to go ahead with the repair the assessment fee is absorbed into the final invoice. If the board is beyond economic repair we will tell you so honestly and discuss data recovery options instead.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Contact us for the current assessment fee. That covers full disassembly, microscope inspection of the logic board, identification of affected components and a written quote for the repair before any further work proceeds. If you choose to go ahead with the repair the assessment fee is absorbed into the final invoice. If the board is beyond economic repair we will tell you so honestly and discuss data recovery options instead.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst, coffee with sugar, wine, fruit juice and energy drinks leave conductive residue that keeps causing shorts long after the visible liquid has dried. Salt water and pool water are also aggressive. Plain tap water is the most forgiving but still corrodes copper traces given enough time. We see all of these from Alberton households, but coffee spills from home offices in Meyersdal and Brackenhurst are by far the most common arrival in our workshop.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and the sooner the better. A MacBook that still boots after a spill is the best-case scenario for repair, because we can clean the board before corrosion eats through traces. The danger is leaving it: in two to six weeks you may suddenly lose the keyboard, trackpad, a USB-C port, or the machine may stop charging entirely. We would rather strip and ultrasonically clean a working board today than rebuild a failed one next month.' },
   { question: 'Will you be able to save my data?', answer: 'In most cases yes, even when the MacBook itself cannot be revived. On older Intel MacBooks the SSD is usually removable and we can read it directly. On Apple Silicon machines the storage is soldered and tied to the T2 or Apple Silicon security chip, which means data recovery requires the logic board to be brought back to a working state, something we do regularly. We discuss the data-recovery path during the diagnostic so you know what is possible before committing.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. Liquid damage assessments start from R599 and that fee gives you a full board-level inspection plus a written repair quote. We do not work on a free-diagnostic basis because ultrasonic cleaning and microscope inspection take real workshop time, but the fee is credited against the repair if you proceed. You receive the quote before any chargeable repair work begins, so there are no surprises on collection day in Alberton.' },
+  { question: 'Is there an Assessment policy for liquid damage?', answer: 'Yes. Liquid damage assessments carry a fee that gives you a full board-level inspection plus a written repair quote. We do not work on a free-diagnostic basis because ultrasonic cleaning and microscope inspection take real workshop time, but the fee is credited against the repair if you proceed. You receive the quote before any chargeable repair work begins, so there are no surprises on collection day in Alberton.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair liquid-damaged M1, M2, M3 and M4 MacBook Air and Pro models at board level. Apple Silicon boards are denser and more challenging than the older Intel designs, and the soldered storage means data preservation depends on board recovery, but the underlying repair process, ultrasonic clean, component-level diagnosis, micro-soldering, is the same. We have returned plenty of Apple Silicon MacBooks to Alberton clients after spills that Apple itself had declared whole-unit replacements.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageAlbertonPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage on a MacBook is a race against corrosion, and Alberton sits roughly 35 minutes from our Hyde Park workshop via the N3 and M2. We collect from New Redruth, Brackenhurst, Meyersdal and the Alberton North industrial belt, then carry out ultrasonic cleaning and board-level repair the same day where possible. Assessment from R599.
+              Liquid damage on a MacBook is a race against corrosion, and Alberton sits roughly 35 minutes from our Hyde Park workshop via the N3 and M2. We collect from New Redruth, Brackenhurst, Meyersdal and the Alberton North industrial belt, then carry out ultrasonic cleaning and board-level repair the same day where possible. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageAlbertonPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Alberton' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageAlbertonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Alberton? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Alberton. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Alberton. Assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-ALBERTON', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

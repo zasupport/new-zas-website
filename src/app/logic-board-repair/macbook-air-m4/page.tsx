@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M4 Logic Board Repair Johannesburg',
-  description: 'MacBook Air M4 (13-inch & 15-inch, 2025) logic board repair in Johannesburg. No power, MagSafe 3 and USB-C charging, Thunderbolt 4, display and liquid damage, component-level. Assessment from R599.',
+  description: 'MacBook Air M4 (13-inch & 15-inch, 2025) logic board repair in Johannesburg. No power, MagSafe 3 and USB-C charging, Thunderbolt 4, display and liquid damage, component-level. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m4' },
 };
 
@@ -19,16 +19,16 @@ const faults = [
   { fault: 'Charging Failure (MagSafe 3 / USB-C)', desc: 'The M4 Air charges over MagSafe 3 or either of its two USB-C ports, all sharing one power-management layer. When charging stops on every input at once, the fault is in that shared circuit, not the individual ports, repaired at component level rather than replacing the board.' },
   { fault: 'Thunderbolt 4 / USB-C Port Failure', desc: 'The M4 Air has two Thunderbolt 4 (USB-C) ports, there is no Thunderbolt 5 on the Air. Because there are only two ports, a single failed USB-C controller can knock out both data and charging on one side. ESD and liquid ingress are the usual causes; the controller is a discrete IC we replace on the board.' },
   { fault: 'Black Screen / Liquid Retina Display Fault', desc: 'The M4 Air uses a standard Liquid Retina LED-backlit display (not the mini-LED XDR of the Pro). A blown backlight fuse or backlight-driver fault leaves the Air running with a black screen, confirmed by an external monitor. The backlight driver is a board-level component repaired without replacing the panel.' },
-  { fault: 'Liquid Damage', desc: 'On the fanless Air the keyboard is the main liquid entry point, and because the board sits close under the top case, spills reach the power and I/O circuitry quickly. Early ultrasonic cleaning, ideally within 24 hours, gives the best recovery odds. Corrosion spread is assessed in the R599 diagnostic.' },
+  { fault: 'Liquid Damage', desc: 'On the fanless Air the keyboard is the main liquid entry point, and because the board sits close under the top case, spills reach the power and I/O circuitry quickly. Early ultrasonic cleaning, ideally within 24 hours, gives the best recovery odds. Corrosion spread is assessed in the diagnostic.' },
   { fault: 'Overheating / Thermal Throttling (no fan)', desc: 'The M4 Air has no fan, it cools through a heat spreader against the chassis. Persistent throttling, sudden shutdowns or heat-related instability often trace to a thermal-sensor fault or a power-circuit problem on the board rather than the SoC, and are diagnosed at component level.' },
 ];
 
 const faqs = [
-  { question: 'How much does MacBook Air M4 logic board repair cost in Johannesburg?', answer: 'Apple replaces the whole board, which costs far more than a component-level repair. ZA Support repairs only the part that failed, component-level MacBook Air repairs start from R2,500 depending on the fault. After the R599 assessment we give a written, fixed-price quote before any work begins.' },
-  { question: 'Can a MacBook Air M4 logic board be repaired?', answer: 'Yes. The M4 chip is a sealed SoC that cannot be replaced at chip level, but the surrounding circuits can. USB-C / Thunderbolt 4 controllers, the MagSafe 3 charging circuit, power-management ICs and the display backlight driver are all discrete components we repair at board level in our Hyde Park workshop. Assessment from R599.' },
-  { question: 'My M4 Air died after a power surge, is it fixable?', answer: 'Usually, yes. Surges typically damage the USB-C power controller or power-management IC, not the M4 die, both are discrete repairable parts. The R599 assessment confirms exactly which circuit failed and whether repair is viable before you commit.' },
-  { question: 'Will my data be safe during M4 Air board repair?', answer: 'Yes. Component-level repair does not remove or erase the soldered SSD, your data stays on the board while we fix the specific fault. If the board is completely dead, SSD readability is assessed in the R599 diagnostic.' },
-  { question: 'How long does M4 Air logic board repair take?', answer: 'After the R599 assessment and your written approval, most M4 Air board repairs complete within 24-72 hours for common power and charging faults. Liquid-damage cases can take longer; the written quote states the timeline before we start.' },
+  { question: 'How much does MacBook Air M4 logic board repair cost in Johannesburg?', answer: 'Apple replaces the whole board, which costs far more than a component-level repair. ZA Support repairs only the part that failed, so a component-level repair costs far less depending on the fault. After the assessment we give a written, fixed-price quote before any work begins.' },
+  { question: 'Can a MacBook Air M4 logic board be repaired?', answer: 'Yes. The M4 chip is a sealed SoC that cannot be replaced at chip level, but the surrounding circuits can. USB-C / Thunderbolt 4 controllers, the MagSafe 3 charging circuit, power-management ICs and the display backlight driver are all discrete components we repair at board level in our Hyde Park workshop. Assessment.' },
+  { question: 'My M4 Air died after a power surge, is it fixable?', answer: 'Usually, yes. Surges typically damage the USB-C power controller or power-management IC, not the M4 die, both are discrete repairable parts. The assessment confirms exactly which circuit failed and whether repair is viable before you commit.' },
+  { question: 'Will my data be safe during M4 Air board repair?', answer: 'Yes. Component-level repair does not remove or erase the soldered SSD, your data stays on the board while we fix the specific fault. If the board is completely dead, SSD readability is assessed in the diagnostic.' },
+  { question: 'How long does M4 Air logic board repair take?', answer: 'After the assessment and your written approval, most M4 Air board repairs complete within 24-72 hours for common power and charging faults. Liquid-damage cases can take longer; the written quote states the timeline before we start.' },
   { question: 'The M4 Air has no fan, does that change repairs?', answer: 'It changes the symptoms, not the method. With no fan, heat-related faults usually point to a thermal sensor or power circuit on the board rather than a cooling part. We diagnose the actual failed component and repair it; there is no fan to replace.' },
   { question: 'Do you collect an M4 MacBook Air for repair?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
@@ -37,7 +37,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Air M4 Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Air M4 logic board repair in Johannesburg. Assessment from R599.',
+  description: 'Component-level MacBook Air M4 logic board repair in Johannesburg. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -75,11 +75,11 @@ export default function MacBookAirM4LogicBoardPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook Air M4 logic board repair in Johannesburg costs from R599 to assess, with component-level repairs from R2,500 and most common faults turned around in 24-72 hours, far less than Apple’s full-board replacement. We repair the 13-inch and 15-inch M4 Air (2025) at board level: no power, MagSafe 3 and USB-C charging, Thunderbolt 4 and liquid damage, in our Hyde Park workshop.
+              MacBook Air M4 logic board repair in Johannesburg begins with an assessment, and most common faults are turned around in 24-72 hours at a fraction of Apple’s full-board replacement. We repair the 13-inch and 15-inch M4 Air (2025) at board level: no power, MagSafe 3 and USB-C charging, Thunderbolt 4 and liquid damage, in our Hyde Park workshop.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {['Component-Level Repair', 'No Fix No Fee', '12-Month Warranty', 'Assessment Fee May Apply'].map((l) => (
@@ -151,8 +151,8 @@ export default function MacBookAirM4LogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M4 Fault? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">Component-level repair from R2,500 with a 12-month written warranty. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand and Randburg.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M4 Fault? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">Component-level repair with a 12-month written warranty. Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand and Randburg.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKAIRM4', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp for Quote

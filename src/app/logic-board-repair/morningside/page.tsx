@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Morningside | ZA Support Hyde Park',
-  description: 'MacBook logic board repair for Morningside clients. Component-level repair, assessment from R599. We collect from Morningside. No Fix No Fee. Call 064 529 5863.',
+  description: 'MacBook logic board repair for Morningside clients. Component-level repair, assessment. We collect from Morningside. No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/morningside' },
 };
 
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'What does MacBook logic board repair cost for Morningside clients?',
-    answer: 'Assessment from R599. Repair cost depends on the specific fault, quoted in writing before any work proceeds. No Fix No Fee applies to all Morningside clients.',
+    answer: 'Assessment. Repair cost depends on the specific fault, quoted in writing before any work proceeds. No Fix No Fee applies to all Morningside clients.',
   },
   {
     question: 'Can a MacBook logic board be repaired or does it need replacing?',
@@ -42,19 +42,19 @@ const faqs = [
   },
   {
     question: 'My MacBook was damaged by a load shedding power surge, is it repairable?',
-    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller, a discrete, repairable IC. The R599 assessment confirms the specific fault before any commitment.',
+    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller, a discrete, repairable IC. The assessment confirms the specific fault before any commitment.',
   },
   {
     question: 'How long does MacBook logic board repair take?',
-    answer: 'After the R599 assessment and written approval, most repairs complete within 3-5 business days. We provide a specific timeline in the written quote.',
+    answer: 'After the assessment and written approval, most repairs complete within 3-5 business days. We provide a specific timeline in the written quote.',
   },
   {
     question: 'Is my data safe during logic board repair?',
-    answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. If the board is completely non-functional, SSD readability is assessed as part of the R599 diagnostic.',
+    answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic.',
   },
   {
     question: 'Do you offer No Fix No Fee for Morningside clients?',
-    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the R599 assessment fee, not the full repair cost. This applies to all clients regardless of location.',
+    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the assessment fee, not the full repair cost. This applies to all clients regardless of location.',
   },
 ];
 
@@ -62,7 +62,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Morningside',
-  description: 'Component-level MacBook logic board repair for Morningside clients. Assessment from R599.',
+  description: 'Component-level MacBook logic board repair for Morningside clients. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -105,10 +105,10 @@ export default function LogicBoardRepairMorningsidePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Morningside, approx 10-15 min drive</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collecting from Morningside, approx 10-15 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -177,7 +177,7 @@ export default function LogicBoardRepairMorningsidePage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Logic Board Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Logic Board Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collecting from Morningside. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MORNINGSIDE', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

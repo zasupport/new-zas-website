@@ -10,9 +10,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M3 Liquid Damage Repair Johannesburg [2026] | From R599',
+  title: 'MacBook Pro M3 Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook Pro M3 liquid damage repair Johannesburg. 3nm chip, MagSafe 3 port corrosion, NAND recovery. Assessment from R599. From R599 assessment. Hyde Park workshop.',
+    'MacBook Pro M3 liquid damage repair Johannesburg. 3nm chip, MagSafe 3 port corrosion, NAND recovery. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m3' },
   keywords: [
     'MacBook Pro M3 liquid damage repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Pro M3 fix',
     'MacBook Pro M3 keyboard spill repair',
     'M3 MacBook Pro coffee spill repair Johannesburg',
-    'MacBook Pro M3 liquid damage assessment from R599',
+    'MacBook Pro M3 liquid damage assessment',
     'MacBook Pro M3 Pro liquid damage',
     'MacBook Pro M3 Max liquid damage repair',
   ],
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro M3 be repaired?',
     answer:
-      'Yes, in most cases. The M3 MacBook Pro uses Apple\'s 3nm chip architecture, the densest consumer silicon ever produced. While this makes component-level work more exacting, it also means peripheral circuits such as USB-C controllers, power management ICs, and MagSafe charging rails remain individually replaceable. We have repaired MacBook Pro M3, M3 Pro, and M3 Max machines with liquid damage at our Hyde Park workshop. Assessment from R599, From R599 assessment.',
+      'Yes, in most cases. The M3 MacBook Pro uses Apple\'s 3nm chip architecture, the densest consumer silicon ever produced. While this makes component-level work more exacting, it also means peripheral circuits such as USB-C controllers, power management ICs, and MagSafe charging rails remain individually replaceable. We have repaired MacBook Pro M3, M3 Pro, and M3 Max machines with liquid damage at our Hyde Park workshop. Assessment, Assessment.',
   },
   {
     question: 'How does M3 liquid damage differ from M2 and M1?',
@@ -55,17 +55,17 @@ const faqs = [
   {
     question: 'My MacBook Pro M3 will not turn on after a spill, is it repairable?',
     answer:
-      'Very likely yes. A no-power condition after liquid exposure on the M3 MacBook Pro usually points to the U9200 power management IC or the MagSafe/USB-C charging controllers rather than the M3 SoC itself. The SoC is one of the most protected components on the board due to its central placement and underfill. We see the SoC survive the vast majority of spills. Our R599 assessment identifies exactly which circuits are affected before we quote repair.',
+      'Very likely yes. A no-power condition after liquid exposure on the M3 MacBook Pro usually points to the U9200 power management IC or the MagSafe/USB-C charging controllers rather than the M3 SoC itself. The SoC is one of the most protected components on the board due to its central placement and underfill. We see the SoC survive the vast majority of spills. Our assessment identifies exactly which circuits are affected before we quote repair.',
   },
   {
     question: 'How much does MacBook Pro M3 liquid damage repair cost?',
     answer:
-      'Costs vary by extent of damage. A MagSafe port cleaning or USB-C controller replacement on an M3 base model is the most straightforward case. M3 Pro boards with NAND or power management IC involvement require more work. M3 Max boards carry additional memory channels and a second media engine, which extends diagnostic time. All repairs are quoted in writing upfront. Assessment from R599. From R599 assessment applies to every case.',
+      'Costs vary by extent of damage. A MagSafe port cleaning or USB-C controller replacement on an M3 base model is the most straightforward case. M3 Pro boards with NAND or power management IC involvement require more work. M3 Max boards carry additional memory channels and a second media engine, which extends diagnostic time. All repairs are quoted in writing upfront. Assessment applies to every case.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro M3?',
     answer:
-      'Yes, in most cases. The M3 MacBook Pro stores data on dedicated NAND flash modules with an Apple custom controller. Even when the logic board is beyond economic repair, we can often recover data by reading the NAND directly. If the NAND controller IC itself was damaged by electrolytic corrosion, which we see more on M3 boards left untreated for several days, recovery becomes more complex but is still possible in many cases. We assess data recovery potential during the R599 diagnostic.',
+      'Yes, in most cases. The M3 MacBook Pro stores data on dedicated NAND flash modules with an Apple custom controller. Even when the logic board is beyond economic repair, we can often recover data by reading the NAND directly. If the NAND controller IC itself was damaged by electrolytic corrosion, which we see more on M3 boards left untreated for several days, recovery becomes more complex but is still possible in many cases. We assess data recovery potential during the diagnostic.',
   },
   {
     question: 'How long does MacBook Pro M3 liquid damage repair take?',
@@ -75,12 +75,12 @@ const faqs = [
   {
     question: 'Does AppleCare+ cover liquid damage on the MacBook Pro M3?',
     answer:
-      'Standard AppleCare does not cover liquid damage. AppleCare+ covers up to two accidental damage incidents per year, but Apple charges an incident fee of approximately R4,500 for a MacBook Pro and replaces the entire logic board, not just the affected components. A new MacBook Pro M3 logic board at Apple costs between R25,000 and R65,000 depending on the configuration. ZA Support repairs only the failed components, preserving your data and costing a fraction of Apple\'s approach.',
+      'Standard AppleCare does not cover liquid damage. AppleCare+ covers up to two accidental damage incidents per year, but Apple charges an incident fee for a MacBook Pro and replaces the entire logic board, not just the affected components. A new MacBook Pro M3 logic board at Apple costs many times our price depending on the configuration. ZA Support repairs only the failed components, preserving your data and costing a fraction of Apple\'s approach.',
   },
   {
     question: 'Is it worth repairing a liquid-damaged MacBook Pro M3?',
     answer:
-      'In nearly every case, yes. A new MacBook Pro M3 retails from R28,000 to R75,000 in South Africa depending on specification. Our component-level repairs typically cost significantly less than replacement. We also preserve your original data, your installed software, and your machine\'s serial number, none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment with beyond the R599 fee.',
+      'In nearly every case, yes. A new MacBook Pro M3 costs many times our repair price in South Africa depending on specification. Our component-level repairs typically cost significantly less than replacement. We also preserve your original data, your installed software, and your machine\'s serial number, none of which survive an Apple board swap. If repair genuinely is not economical, we tell you honestly during the assessment, beyond the assessment fee.',
   },
   {
     question: 'What makes MagSafe 3 liquid damage different on the M3?',
@@ -149,7 +149,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M3 Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro M3 liquid damage repair in Johannesburg. 3nm chip specialist, MagSafe 3 corrosion recovery, ultrasonic cleaning, component-level repair. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro M3 liquid damage repair in Johannesburg. 3nm chip specialist, MagSafe 3 corrosion recovery, ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
   lowPrice: '5700',
   highPrice: '19950',
 });
@@ -178,15 +178,15 @@ export default function MacBookProM3LiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M3 / M3 Pro / M3 Max' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -292,7 +292,7 @@ export default function MacBookProM3LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. From R599 assessment on every M3 case, if we cannot repair your MacBook Pro, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. Assessment on every M3 case, if we cannot repair your MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -308,19 +308,19 @@ export default function MacBookProM3LiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R25,000 to R65,000</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
-                <li>AppleCare+ incident fee approximately R4,500</li>
+                <li>AppleCare+ incident fee applies</li>
                 <li>Data may not survive board replacement</li>
                 <li>5-10 business days via Apple depot repair</li>
-                <li>M3 Pro/Max configurations can exceed R75,000 new</li>
+                <li>M3 Pro/Max configurations cost far more new</li>
               </ul>
             </div>
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed parts replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>M3 Pro and M3 Max multi-die memory repair available</li>
                 <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
@@ -445,7 +445,7 @@ export default function MacBookProM3LiquidDamagePage() {
               M3 MacBook Pro Liquid Damage? Every Hour Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 3nm M3 chip&apos;s tight tolerances make speed more critical than any previous MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. From R599 assessment.
+              The 3nm M3 chip&apos;s tight tolerances make speed more critical than any previous MacBook Pro. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -464,7 +464,7 @@ export default function MacBookProM3LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

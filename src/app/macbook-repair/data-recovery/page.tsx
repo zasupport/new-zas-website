@@ -58,7 +58,7 @@ const faultTypes = [
 const faqs = [
   {
     question: 'How much does MacBook data recovery cost in Johannesburg?',
-    answer: 'MacBook data recovery cost depends on the fault type and the volume of data. We provide a assessment fee (from R599) and a written fixed quote before any work begins, if we cannot recover your data, you do not pay.',
+    answer: 'MacBook data recovery cost depends on the fault type and the volume of data. We provide an assessment fee and a written fixed quote before any work begins, if we cannot recover your data, you do not pay.',
   },
   {
     question: 'What is the success rate for MacBook data recovery?',
@@ -141,7 +141,7 @@ export default function MacBookDataRecoveryPage() {
 
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Deleted files, failed SSD, accidental format, liquid damage, macOS corruption. If your data is on the drive, we will find it. Assessment: from R599. If we cannot recover your data, assessment fee of from R599 applies.
+              Deleted files, failed SSD, accidental format, liquid damage, macOS corruption. If your data is on the drive, we will find it. Assessment. If we cannot recover your data, assessment fee applies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -174,7 +174,7 @@ export default function MacBookDataRecoveryPage() {
               { stat: '95%', label: 'Logical Recovery Success Rate' },
               { stat: 'No Data', label: 'No Fee, Zero Risk' },
               { stat: 'POPIA', label: 'Compliant Handling' },
-              { stat: 'R599', label: 'Assessment, from' },
+              { stat: 'Contact for pricing', label: 'Assessment, from' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
                 <span className="text-2xl font-extrabold text-[#0FEA7A]">{item.stat}</span>
@@ -215,7 +215,7 @@ export default function MacBookDataRecoveryPage() {
               Data Recovery <span className="text-[#0FEA7A]">Types</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Assessment: from R599 first. Written fixed quote before any work begins. If we cannot recover your data, assessment fee of from R599 applies, no exceptions.
+              Assessment first. Written fixed quote before any work begins. If we cannot recover your data, assessment fee applies, no exceptions.
             </p>
           </div>
           <div className="max-w-3xl mx-auto">
@@ -235,7 +235,7 @@ export default function MacBookDataRecoveryPage() {
               ))}
             </div>
             <p className="text-[#7A9E98] text-xs mt-4 text-center">
-              Assessment, recovery labour, and transfer to your storage media included. Transparent R599+ pricing.
+              Assessment, recovery labour, and transfer to your storage media included. Transparent pricing.
             </p>
             <PricingNote variant="inline" />
           </div>
@@ -273,7 +273,7 @@ export default function MacBookDataRecoveryPage() {
               Data Loss Situations <span className="text-[#0FEA7A]">We Handle</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              Recognise your situation? Bring the machine in for a assessment fee (from R599). The sooner you act, the higher the recovery rate.
+              Recognise your situation? Bring the machine in for an assessment fee. The sooner you act, the higher the recovery rate.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -302,7 +302,7 @@ export default function MacBookDataRecoveryPage() {
               {
                 step: '01',
                 icon: <Wrench className="w-5 h-5" />,
-                title: 'Assessment: from R599',
+                title: 'Assessment',
                 desc: 'We image the drive sector-by-sector to a recovery volume before any attempt begins, this protects the original data. We then assess the fault type, determine recovery approach, and confirm what data is visible.',
               },
               {
@@ -357,7 +357,7 @@ export default function MacBookDataRecoveryPage() {
             {[
               {
                 title: 'No Data, No Fee',
-                desc: 'If we cannot recover your data, assessment fee of from R599 applies. We absorb the diagnostic and imaging costs. Zero financial risk to you.',
+                desc: 'If we cannot recover your data, assessment fee applies. We absorb the diagnostic and imaging costs. Zero financial risk to you.',
               },
               {
                 title: 'POPIA-Compliant',
@@ -454,7 +454,7 @@ export default function MacBookDataRecoveryPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Lost Data on Your MacBook?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered, from R599.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">95% success rate. No data recovered, no recovery fee.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · POPIA-compliant · Stop using the machine and contact us now</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

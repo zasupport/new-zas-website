@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Not Turning On? 10 Fixes to Try in 2026 | ZA Support',
-  description: 'MacBook not turning on? Try these 10 proven fixes before booking a repair. Step-by-step guide from Johannesburg Apple repair specialists. Assessment from R599.',
+  description: 'MacBook not turning on? Try these 10 proven fixes before booking a repair. Step-by-step guide from Johannesburg Apple repair specialists. Assessment.',
   alternates: { canonical: 'https://zasupport.com/guides/macbook-not-turning-on' },
 };
 
@@ -19,13 +19,13 @@ const faqs = [
   { question: 'How do I force restart a MacBook that won\'t turn on?', answer: 'Hold the power button for 10 full seconds, release, wait 5 seconds, then press once. On MacBook Pro 16-inch (2019+) and all Apple Silicon models, the power button is the Touch ID sensor in the top-right corner. If the Mac had a kernel panic, this hard reset clears the hang state. If the Mac is truly dead (no power at all), a force restart will not help, the issue is hardware.' },
   { question: 'Can load shedding damage my MacBook?', answer: 'Yes. In South Africa, the power surge when Eskom restores supply is the single most common cause of sudden MacBook death we see in our Hyde Park workshop. The surge enters via the USB-C charger and damages the charging IC (CD3217 on Intel, integrated controller on M-series). A quality surge protector rated for SA conditions (min 1,000 joules) prevents this. If your Mac died during or after load shedding, it is almost certainly a board-level fault, not a software issue.' },
   { question: 'My MacBook charges but won\'t turn on, what does that mean?', answer: 'If the MagSafe LED lights up (or the USB-C charger shows power draw) but the Mac does not boot, the charging circuit works but the power-on sequence is failing. On Intel Macs, this points to a failed SMC or corrupted EFI firmware. On Apple Silicon, it suggests the boot ROM or SSD controller has a fault. This narrows the repair scope significantly and is usually repairable at the component level.' },
-  { question: 'Does a black screen mean my MacBook logic board is dead?', answer: 'Not necessarily. A black screen with fan noise means the Mac is running but the display path has failed. This could be a backlight fuse (costs under R500 to repair), a failed display cable, or a GPU/display controller fault. Connect an external monitor via HDMI or USB-C, if you get a picture, the logic board is fine and the issue is the display circuit or screen itself.' },
-  { question: 'How much does it cost to fix a MacBook that won\'t turn on?', answer: 'At ZA Support, the diagnostic assessment starts from R599. Repair cost depends on the fault: a blown fuse or single IC replacement can be under R2,000; a complex power management circuit repair ranges from R2,500 to R6,000. Apple charges R15,000 to R45,000 for full logic board replacement. Our From R599 assessment policy means you only pay the assessment fee if we cannot repair it.' },
+  { question: 'Does a black screen mean my MacBook logic board is dead?', answer: 'Not necessarily. A black screen with fan noise means the Mac is running but the display path has failed. This could be a backlight fuse (an inexpensive repair), a failed display cable, or a GPU/display controller fault. Connect an external monitor via HDMI or USB-C, if you get a picture, the logic board is fine and the issue is the display circuit or screen itself.' },
+  { question: 'How much does it cost to fix a MacBook that won\'t turn on?', answer: 'At ZA Support, the diagnostic assessment applies. Repair cost depends on the fault: a blown fuse or single IC replacement is at the lower end; a complex power management circuit repair costs more. Apple charges many times more for full logic board replacement. Our Assessment policy means you only pay the assessment fee if we cannot repair it.' },
   { question: 'Can I fix a MacBook logic board myself?', answer: 'Board-level repair requires micro-soldering equipment (hot air rework station, microscope, BGA reballing tools) and schematic-level knowledge of Apple logic boards. Replacing a capacitor or fuse is possible with soldering experience, but IC-level work (power management, USB-C controllers) requires professional equipment. We strongly advise against DIY attempts on the logic board, a misplaced probe can cause irreversible damage to surrounding circuits.' },
   { question: 'What is the PPBUS_G3H rail and why does it matter?', answer: 'PPBUS_G3H is the main power rail on Intel MacBook logic boards. It carries 12.56V from the charger to the entire board. Every other voltage rail derives from PPBUS_G3H. If this rail reads 0V, nothing on the board receives power and the Mac is completely dead. Measuring PPBUS_G3H is the first diagnostic step in any no-power MacBook repair, it tells us immediately whether the fault is in the charging circuit or downstream.' },
-  { question: 'Is it worth repairing an old MacBook that won\'t turn on?', answer: 'It depends on the model. A 2015 MacBook Pro with a blown charging IC costs R2,000 to R3,000 to repair and still runs macOS Ventura, absolutely worth it. A 2012 MacBook Pro with a failed GPU (known AMD defect) is not economically viable. During our R599 assessment, we provide a written quote with our honest recommendation on whether repair makes financial sense for your specific model.' },
+  { question: 'Is it worth repairing an old MacBook that won\'t turn on?', answer: 'It depends on the model. A 2015 MacBook Pro with a blown charging IC is inexpensive to repair and still runs macOS Ventura, absolutely worth it. A 2012 MacBook Pro with a failed GPU (known AMD defect) is not economically viable. During our assessment, we provide a written quote with our honest recommendation on whether repair makes financial sense for your specific model.' },
   { question: 'How long does MacBook no-power diagnosis take?', answer: 'Our initial assessment takes 1 to 2 business days. We measure voltage rails, inspect for liquid damage under microscope, and test individual power stages. You receive a written diagnosis with photos, a fixed-price quote, and our recommendation. If you approve the repair, most no-power faults are completed within 3 to 5 business days.' },
-  { question: 'Do you offer a warranty on MacBook power repairs?', answer: 'Yes. All logic board repairs at ZA Support carry a 12-month warranty on the repaired component. If the same fault recurs within 12 months, we repair it again at from R599. This applies to all component-level repairs including power management ICs, charging circuits, and USB-C controllers.' },
+  { question: 'Do you offer a warranty on MacBook power repairs?', answer: 'Yes. All logic board repairs at ZA Support carry a 12-month warranty on the repaired component. If the same fault recurs within 12 months, we repair it again at our assessment fee. This applies to all component-level repairs including power management ICs, charging circuits, and USB-C controllers.' },
 ];
 
 const howToSteps = [
@@ -99,10 +99,10 @@ export default function MacBookNotTurningOnGuidePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Park Lane, Hyde Park, Johannesburg 2196 | Assessment from R599 | From R599 assessment</span>
+              <span>1 Hyde Park Lane, Hyde Park, Johannesburg 2196 | Assessment</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['10 Step Guide', 'Intel + Apple Silicon', 'From R599 assessment', '12-Month Warranty'].map((l) => (
+              {['10 Step Guide', 'Intel + Apple Silicon', 'Assessment', '12-Month Warranty'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -164,7 +164,7 @@ export default function MacBookNotTurningOnGuidePage() {
               { title: 'USB-C Controller Damage', desc: 'The CD3217/CD3218 controller on Intel or Cypress CCG6 on older models has shorted. No power negotiation, no charging.' },
               { title: 'Liquid Damage Corrosion', desc: 'Microscopic corrosion on power circuit traces. Often invisible to the naked eye. Progresses over days to weeks after the spill.' },
               { title: 'SMC Failure (Intel Only)', desc: 'The SMC ARM chip itself has failed. The power-on sequence never initiates. Requires micro-soldering replacement.' },
-              { title: 'Blown Fuse or Capacitor', desc: 'A single protective fuse or decoupling capacitor has failed. Often the cheapest repair, under R1,500 in parts and labour.' },
+              { title: 'Blown Fuse or Capacitor', desc: 'A single protective fuse or decoupling capacitor has failed. Often the cheapest repair in parts and labour.' },
               { title: 'EFI / Firmware Corruption', desc: 'The boot firmware is corrupted but the board has power. DFU restore may fix this; if not, the SPI flash chip can be reflashed.' },
             ].map((f) => (
               <div key={f.title} className="glass-card p-5">
@@ -180,7 +180,7 @@ export default function MacBookNotTurningOnGuidePage() {
           </div>
 
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
-            <p>Every one of these faults is repairable at the component level. We do not replace the entire logic board, we diagnose which specific component has failed and replace that component using micro-soldering. This preserves your data (it stays on the same board), costs a fraction of Apple&apos;s R15,000 to R45,000 board replacement, and carries a 12-month warranty from ZA Support.</p>
+            <p>Every one of these faults is repairable at the component level. We do not replace the entire logic board, we diagnose which specific component has failed and replace that component using micro-soldering. This preserves your data (it stays on the same board), costs a fraction of Apple&apos;s board replacement, and carries a 12-month warranty from ZA Support.</p>
             <p>If you are in Johannesburg, we collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding suburbs. Send us a WhatsApp on <a href={`tel:${CONTACT.phoneTel}`} className="text-[#0FEA7A] hover:underline">{CONTACT.phone}</a> with your MacBook model and what happened, and we will arrange collection the same day where possible.</p>
           </div>
         </div>
@@ -192,7 +192,7 @@ export default function MacBookNotTurningOnGuidePage() {
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
             <p>This deserves its own section because it is the single most common cause of sudden MacBook death in South Africa. When Eskom restores power after a load shedding cycle, the voltage spike can exceed 300V for a fraction of a second. Your MacBook&apos;s USB-C charger passes this spike straight to the logic board&apos;s power delivery circuit.</p>
             <p>The damage is not always immediate. We have seen MacBooks survive the initial surge but fail two to three days later as a weakened component degrades. If your MacBook stopped working within a week of a load shedding event, the surge is the probable cause, even if it seemed fine at first.</p>
-            <p>Prevention is straightforward: use a quality surge protector rated at minimum 1,000 joules with USB-C passthrough, or unplug your charger during scheduled load shedding. An uninterruptible power supply (UPS) offers the best protection, R1,500 to R3,000 for a unit that protects a single MacBook. Given that the alternative is a R2,000 to R6,000 board repair, the maths is simple.</p>
+            <p>Prevention is straightforward: use a quality surge protector rated at minimum 1,000 joules with USB-C passthrough, or unplug your charger during scheduled load shedding. An uninterruptible power supply (UPS) offers the best protection for a unit that protects a single MacBook. Given that the alternative is a board repair, the maths is simple.</p>
           </div>
         </div>
       </section>
@@ -202,9 +202,9 @@ export default function MacBookNotTurningOnGuidePage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Why Choose ZA Support for MacBook Power Repairs</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             {[
-              { icon: Zap, title: 'Component-Level Repair', desc: 'We replace the failed IC or component, not the entire R30,000 logic board. Your data stays on the same board.' },
-              { icon: CheckCircle, title: 'From R599 assessment', desc: 'If we cannot repair it, you pay only the R599 assessment fee. No hidden charges, no surprises.' },
-              { icon: Shield, title: '12-Month Warranty', desc: 'Every board repair carries a written 12-month warranty. If the same fault returns, we fix it at from R599.' },
+              { icon: Zap, title: 'Component-Level Repair', desc: 'We replace the failed IC or component, not the entire logic board. Your data stays on the same board.' },
+              { icon: CheckCircle, title: 'Assessment', desc: 'If we cannot repair it, you pay only the assessment fee. No hidden charges, no surprises.' },
+              { icon: Shield, title: '12-Month Warranty', desc: 'Every board repair carries a written 12-month warranty. If the same fault returns, we fix it at our assessment fee.' },
               { icon: MapPin, title: 'Johannesburg Collection', desc: 'We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and all suburbs within 25km of Hyde Park.' },
             ].map((item) => (
               <div key={item.title} className="glass-card p-6">
@@ -215,7 +215,7 @@ export default function MacBookNotTurningOnGuidePage() {
             ))}
           </div>
           <div className="space-y-4 text-[#7A9E98] leading-relaxed">
-            <p>ZA Support has been repairing Apple logic boards in Johannesburg since 2009. We have the micro-soldering equipment, board schematics, and component-level diagnostic tools that general repair shops do not carry. The most common mistake we see is MacBook owners paying R4,000 to R6,000 at a general repair shop for a &quot;motherboard replacement&quot; that uses a refurbished board with no warranty, when the original fault was a R800 component.</p>
+            <p>ZA Support has been repairing Apple logic boards in Johannesburg since 2009. We have the micro-soldering equipment, board schematics, and component-level diagnostic tools that general repair shops do not carry. The most common mistake we see is MacBook owners paying far more at a general repair shop for a &quot;motherboard replacement&quot; that uses a refurbished board with no warranty, when the original fault was a single inexpensive component.</p>
             <p>We diagnose first, quote second, and repair only with your written approval. Every repair includes before-and-after photos, a detailed fault report, and our 12-month written warranty.</p>
           </div>
         </div>
@@ -252,8 +252,8 @@ export default function MacBookNotTurningOnGuidePage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Tried Everything? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">Send us a WhatsApp with your MacBook model and symptoms. We collect from across Johannesburg. From R599 assessment on all board repairs. 12-month warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Tried Everything? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">Send us a WhatsApp with your MacBook model and symptoms. We collect from across Johannesburg. Assessment on all board repairs. 12-month warranty.</p>
             <PricingNote variant="inline" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
               <a href={buildWhatsAppUrl('GUIDE-NOPOWER', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

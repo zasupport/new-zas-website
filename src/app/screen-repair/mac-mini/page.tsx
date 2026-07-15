@@ -11,9 +11,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'Mac Mini Screen & Display Repair Johannesburg 2026 | From R899 | ZA Support',
+  title: 'Mac Mini Screen & Display Repair Johannesburg 2026 | ZA Support',
   description:
-    'Mac Mini display repair in Johannesburg from R899. HDMI, Thunderbolt, GPU faults, external monitor issues. M1, M2, M4. From R599 assessment. Hyde Park workshop.',
+    'Mac Mini display repair in Johannesburg. HDMI, Thunderbolt, GPU faults, external monitor issues. M1, M2, M4. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/mac-mini' },
   keywords: [
     'Mac Mini display repair Johannesburg',
@@ -45,20 +45,20 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'Mac Mini Screen & Display Repair Johannesburg',
   description:
-    'Professional Mac Mini display output diagnosis and repair in Johannesburg. HDMI controller IC, Thunderbolt 3/4 port faults, GPU output failure, T-CON board issues, external monitor troubleshooting. All Mac Mini generations from 2012 to M4 Pro. Assessment from R899. 12-month warranty.',
+    'Professional Mac Mini display output diagnosis and repair in Johannesburg. HDMI controller IC, Thunderbolt 3/4 port faults, GPU output failure, T-CON board issues, external monitor troubleshooting. All Mac Mini generations from 2012 to M4 Pro. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen & Display Repair',
 };
 
 const pricingRows = [
-  { model: 'Mac Mini (Late 2012 - Late 2014)', port: 'HDMI 1.4 + Thunderbolt 2', from: 'R899', turnaround: '24-48 hrs' },
-  { model: 'Mac Mini (Late 2014 - Intel 2018)', port: 'HDMI 2.0 + Thunderbolt 2/3', from: 'R1,199', turnaround: '24-48 hrs' },
-  { model: 'Mac Mini M1 (2020)', port: 'HDMI 2.0 + Thunderbolt 3 (×2)', from: 'R1,499', turnaround: '24-72 hrs' },
-  { model: 'Mac Mini M2 (2023)', port: 'HDMI 2.0 + Thunderbolt 4 (×2)', from: 'R1,499', turnaround: '24-72 hrs' },
-  { model: 'Mac Mini M2 Pro (2023)', port: 'HDMI 2.1 + Thunderbolt 4 (×3)', from: 'R1,999', turnaround: '48-72 hrs' },
-  { model: 'Mac Mini M4 (2024)', port: 'HDMI 2.1 + Thunderbolt 4 (×3)', from: 'R1,999', turnaround: '48-72 hrs' },
-  { model: 'Mac Mini M4 Pro (2024)', port: 'HDMI 2.1 + Thunderbolt 5 (×3)', from: 'R2,499', turnaround: '48-72 hrs' },
+  { model: 'Mac Mini (Late 2012 - Late 2014)', port: 'HDMI 1.4 + Thunderbolt 2', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'Mac Mini (Late 2014 - Intel 2018)', port: 'HDMI 2.0 + Thunderbolt 2/3', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'Mac Mini M1 (2020)', port: 'HDMI 2.0 + Thunderbolt 3 (×2)', from: 'Contact for pricing', turnaround: '24-72 hrs' },
+  { model: 'Mac Mini M2 (2023)', port: 'HDMI 2.0 + Thunderbolt 4 (×2)', from: 'Contact for pricing', turnaround: '24-72 hrs' },
+  { model: 'Mac Mini M2 Pro (2023)', port: 'HDMI 2.1 + Thunderbolt 4 (×3)', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'Mac Mini M4 (2024)', port: 'HDMI 2.1 + Thunderbolt 4 (×3)', from: 'Contact for pricing', turnaround: '48-72 hrs' },
+  { model: 'Mac Mini M4 Pro (2024)', port: 'HDMI 2.1 + Thunderbolt 5 (×3)', from: 'Contact for pricing', turnaround: '48-72 hrs' },
 ];
 
 const faultTypes = [
@@ -95,7 +95,7 @@ const faultTypes = [
   {
     title: 'Load Shedding Surge: Display Output Destroyed',
     icon: AlertTriangle,
-    desc: 'South Africa\'s load shedding schedule creates a uniquely destructive pattern for Mac Mini display hardware. When Eskom power returns after an outage, the voltage spike can propagate through the power supply unit and reach the HDMI or Thunderbolt controller ICs before the internal voltage regulator stabilises. We see this fault weekly in Johannesburg, a Mac Mini that was working perfectly before a scheduled outage now produces no display output at all. The logic board is otherwise fine. We replace the damaged controller IC or retimer chip at component level, typically for under R2,000. A UPS with surge protection is the single best investment for any Mac Mini owner in South Africa.',
+    desc: 'South Africa\'s load shedding schedule creates a uniquely destructive pattern for Mac Mini display hardware. When Eskom power returns after an outage, the voltage spike can propagate through the power supply unit and reach the HDMI or Thunderbolt controller ICs before the internal voltage regulator stabilises. We see this fault weekly in Johannesburg, a Mac Mini that was working perfectly before a scheduled outage now produces no display output at all. The logic board is otherwise fine. We replace the damaged controller IC or retimer chip at component level, far cheaper than a full logic board replacement. A UPS with surge protection is the single best investment for any Mac Mini owner in South Africa.',
     severity: 'high',
   },
 ];
@@ -122,17 +122,17 @@ const faqs = [
   {
     question: 'How much does Mac Mini display repair cost in Johannesburg?',
     answer:
-      'Mac Mini display repair starts from R899 for older Intel models (2012-2018) and from R1,499 for Apple Silicon models (M1, M2). The M2 Pro and M4 Pro models start from R1,999 due to the more complex display controller architecture. The final price depends on whether the fault is in the HDMI controller IC, a Thunderbolt retimer chip, the GPU output path, or the port hardware itself. Apple charges R4,500 to R9,000 for a logic board replacement on a Mac Mini, we diagnose the specific fault and repair only what is necessary. Written fixed-price quote before any work begins.',
+      'Mac Mini display repair pricing depends on the model, with older Intel models (2012-2018) at the lower end and the M2 Pro and M4 Pro models at the upper end due to the more complex display controller architecture. The final price depends on whether the fault is in the HDMI controller IC, a Thunderbolt retimer chip, the GPU output path, or the port hardware itself. Apple charges many times our price for a logic board replacement on a Mac Mini, we diagnose the specific fault and repair only what is necessary. Written fixed-price quote before any work begins.',
   },
   {
     question: 'My Mac Mini has no display output after load shedding, can you fix it?',
     answer:
-      'Yes, this is one of the most common Mac Mini faults we repair in Johannesburg. When Eskom power returns after a load shedding outage, the voltage surge can damage the HDMI controller IC or Thunderbolt retimer chip on the logic board. The Mac Mini boots normally, you may hear the startup chime and feel the fan, but produces no video output. We repair this at component level, replacing only the damaged IC. The cost is typically under R2,000, compared to R4,500 or more for a full logic board replacement at the Apple Store. We strongly recommend a UPS with surge protection for all Mac Mini users in South Africa.',
+      'Yes, this is one of the most common Mac Mini faults we repair in Johannesburg. When Eskom power returns after a load shedding outage, the voltage surge can damage the HDMI controller IC or Thunderbolt retimer chip on the logic board. The Mac Mini boots normally, you may hear the startup chime and feel the fan, but produces no video output. We repair this at component level, replacing only the damaged IC. The cost is a fraction of a full logic board replacement at the Apple Store. We strongly recommend a UPS with surge protection for all Mac Mini users in South Africa.',
   },
   {
     question: 'My Mac Mini shows a garbled or artefacted display, is this a GPU fault?',
     answer:
-      'Most likely. Visual artefacts, colour blocks, horizontal tearing, or a display that freezes shortly after booting, indicate a GPU output fault. On Intel Mac Minis, the GPU is integrated into the CPU package. On Apple Silicon Mac Minis, the GPU is part of the M-series SoC. We test with external displays connected via both HDMI and Thunderbolt to isolate whether the fault is in the GPU core, a specific display controller lane, or the port itself. Diagnosis determines whether a component-level repair or a logic board replacement is the appropriate path. Assessment from R899.',
+      'Most likely. Visual artefacts, colour blocks, horizontal tearing, or a display that freezes shortly after booting, indicate a GPU output fault. On Intel Mac Minis, the GPU is integrated into the CPU package. On Apple Silicon Mac Minis, the GPU is part of the M-series SoC. We test with external displays connected via both HDMI and Thunderbolt to isolate whether the fault is in the GPU core, a specific display controller lane, or the port itself. Diagnosis determines whether a component-level repair or a logic board replacement is the appropriate path. Assessment.',
   },
   {
     question: 'Can you repair a damaged HDMI or Thunderbolt port on a Mac Mini?',
@@ -147,12 +147,12 @@ const faqs = [
   {
     question: 'How do I know if my Mac Mini display problem is a hardware fault or a software issue?',
     answer:
-      'The quickest test is to boot into macOS Recovery (hold Command+R on Intel, or hold the power button on Apple Silicon). If the display works normally in Recovery mode, the fault is software, a driver conflict, display configuration error, or corrupted NVRAM. If the display fault persists in Recovery, or there is no display output at all, the fault is hardware. You can also try a different cable and a different monitor. If neither resolves it, bring the Mac Mini to our Hyde Park workshop for a full hardware diagnostic. Assessment from R899, applied toward the repair if you proceed.',
+      'The quickest test is to boot into macOS Recovery (hold Command+R on Intel, or hold the power button on Apple Silicon). If the display works normally in Recovery mode, the fault is software, a driver conflict, display configuration error, or corrupted NVRAM. If the display fault persists in Recovery, or there is no display output at all, the fault is hardware. You can also try a different cable and a different monitor. If neither resolves it, bring the Mac Mini to our Hyde Park workshop for a full hardware diagnostic. Assessment, applied toward the repair if you proceed.',
   },
   {
     question: 'Does Mac Mini display repair come with a warranty?',
     answer:
-      'Every Mac Mini display repair we complete carries a 12-month warranty covering both the replacement component and our labour. If the same fault recurs within the warranty period, we repair it again at from R599. Our From R599 assessment policy also applies, if we cannot resolve your Mac Mini display fault, an assessment fee of R899 applies and your machine is returned exactly as we received it.',
+      'Every Mac Mini display repair we complete carries a 12-month warranty covering both the replacement component and our labour. If the same fault recurs within the warranty period, we repair it again at our assessment fee. Our Assessment policy also applies, if we cannot resolve your Mac Mini display fault, an assessment fee applies and your machine is returned exactly as we received it.',
   },
   {
     question: 'How long does Mac Mini display repair take?',
@@ -172,7 +172,7 @@ const faqs = [
   {
     question: 'Is it worth repairing an older Intel Mac Mini display fault or should I buy a new one?',
     answer:
-      'For Intel Mac Minis from 2014 onwards, a display output repair starting from R899 to R1,199 is almost always more cost-effective than buying a new Mac Mini (from R9,999). If the Mac Mini is otherwise performing well for your workload, a targeted repair extends its useful life by years. We are honest about this, if the Mac Mini has multiple faults or is too slow for your needs, we will tell you. But a single failed HDMI controller IC on an otherwise healthy 2018 Mac Mini is absolutely worth fixing.',
+      'For Intel Mac Minis from 2014 onwards, a display output repair is almost always more cost-effective than buying a new Mac Mini. If the Mac Mini is otherwise performing well for your workload, a targeted repair extends its useful life by years. We are honest about this, if the Mac Mini has multiple faults or is too slow for your needs, we will tell you. But a single failed HDMI controller IC on an otherwise healthy 2018 Mac Mini is absolutely worth fixing.',
   },
   {
     question: 'Do you offer Mac Mini display repair in Sandton and surrounding areas?',
@@ -207,15 +207,15 @@ export default function ScreenRepairMacMiniPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Display repair from R899 | All Mac Mini models</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Display repair | All Mac Mini models</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Monitor, label: 'All Mac Mini Models' },
                 { icon: Cpu, label: 'HDMI & Thunderbolt Specialist' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
-                { icon: Zap, label: 'R599 Assessment' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -267,7 +267,7 @@ export default function ScreenRepairMacMiniPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">Mac Mini Display Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices for display output diagnosis and component-level repair, including parts, labour, and our 12-month warranty. Apple charges R4,500 to R9,000 for a logic board replacement, the only option they offer. Mac Shack quotes R3,500 or more for the same board swap. We repair the specific failed component.
+            Prices below are starting prices for display output diagnosis and component-level repair, including parts, labour, and our 12-month warranty. Apple charges many times our price for a logic board replacement, the only option they offer. Mac Shack quotes many times our price for the same board swap. We repair the specific failed component.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -275,7 +275,7 @@ export default function ScreenRepairMacMiniPage() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Display Ports</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -292,7 +292,7 @@ export default function ScreenRepairMacMiniPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our 12-month warranty. Assessment from R599 on all Mac Mini display faults. From R599 assessment applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment on all Mac Mini display faults. Assessment applies on all cases.
           </p>
           <PricingRange page="/screen-repair/mac-mini" />
           <PricingNote variant="inline" />
@@ -314,10 +314,10 @@ export default function ScreenRepairMacMiniPage() {
               Apple Silicon changed the architecture entirely. The M1 Mac Mini integrates the display controller into the SoC itself, with external retimer chips managing signal integrity to the physical Thunderbolt 3 and HDMI 2.0 ports. The M2 Pro added a third Thunderbolt 4 port and native support for three external displays. The 2024 M4 Pro model introduces Thunderbolt 5, which carries display and data at up to 120 Gbps, a new connector standard that requires new diagnostic equipment. We have invested in the tooling for each generation.
             </p>
             <p>
-              Load shedding is the single most destructive factor for Mac Mini display hardware in South Africa. A surge on power restoration can propagate through the internal power supply and reach the HDMI controller or Thunderbolt retimer before the onboard voltage regulator clamps the spike. The result is a Mac Mini that boots, runs, and responds to network traffic, but produces absolutely no display output. We see this pattern multiple times every month in Johannesburg. The repair is component-level, typically under R2,000, and dramatically cheaper than Apple&apos;s logic board replacement.
+              Load shedding is the single most destructive factor for Mac Mini display hardware in South Africa. A surge on power restoration can propagate through the internal power supply and reach the HDMI controller or Thunderbolt retimer before the onboard voltage regulator clamps the spike. The result is a Mac Mini that boots, runs, and responds to network traffic, but produces absolutely no display output. We see this pattern multiple times every month in Johannesburg. The repair is component-level and dramatically cheaper than Apple&apos;s logic board replacement.
             </p>
             <p>
-              The most common misdiagnosis we encounter is clients replacing their monitor or cable when the fault is actually inside the Mac Mini. A simple test separates the two: connect a different device to the same monitor and cable. If the monitor works, the Mac Mini output is the problem. Bring it to us for an assessment from R599, we will identify the exact failed component before you spend anything.
+              The most common misdiagnosis we encounter is clients replacing their monitor or cable when the fault is actually inside the Mac Mini. A simple test separates the two: connect a different device to the same monitor and cable. If the monitor works, the Mac Mini output is the problem. Bring it to us for an assessment, we will identify the exact failed component before you spend anything.
             </p>
           </div>
           <div className="mt-6">
@@ -359,7 +359,7 @@ export default function ScreenRepairMacMiniPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our From R599 assessment policy means that if we cannot resolve your Mac Mini display fault, you pay nothing and your machine is returned exactly as we received it. 12-month warranty on all completed display repairs.
+              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your Mac Mini display fault, you pay nothing and your machine is returned exactly as we received it. 12-month warranty on all completed display repairs.
             </p>
           </div>
         </div>
@@ -376,10 +376,10 @@ export default function ScreenRepairMacMiniPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / Mac Shack</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Full logic board replacement, R4,500 to R9,000+</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>No component-level HDMI or Thunderbolt repair</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
-                <li>Mac Shack: R3,500+ for board swap, no micro-soldering</li>
+                <li>Mac Shack: board swap at many times our price, no micro-soldering</li>
                 <li>Out-of-warranty Mac Minis often deemed uneconomical to repair</li>
                 <li>No load shedding surge-specific diagnosis</li>
               </ul>
@@ -388,7 +388,7 @@ export default function ScreenRepairMacMiniPage() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Component-level diagnosis, only failed IC/port replaced</li>
-                <li>Intel Mac Mini from R899 | Apple Silicon from R1,499</li>
+                <li>Intel and Apple Silicon Mac Mini repair, contact for pricing</li>
                 <li>HDMI controller IC and Thunderbolt retimer repair</li>
                 <li>Turnaround 24-72 hours for most models</li>
                 <li>Load shedding surge diagnosis, a Johannesburg speciality</li>
@@ -467,7 +467,7 @@ export default function ScreenRepairMacMiniPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Mac Mini Not Displaying? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us with a description of the fault, which port, which monitor, what you see (or don&apos;t see). We will give you an honest assessment and a price range before you bring the machine in. From R599 assessment. From R599 assessment. 12-month warranty on all repairs.
+              WhatsApp us with a description of the fault, which port, which monitor, what you see (or don&apos;t see). We will give you an honest assessment and a price range before you bring the machine in. Assessment. 12-month warranty on all repairs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -486,7 +486,7 @@ export default function ScreenRepairMacMiniPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Mac Mini display repair from R899 | 12-month warranty | From R599 assessment
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Mac Mini display repair | 12-month warranty assessment
             </p>
           </div>
         </div>

@@ -48,7 +48,7 @@ const steps = [
   {
     step: '2',
     title: 'Quote',
-    desc: 'Assessment fee is from R599. No surprises.',
+    desc: 'The assessment fee applies. No surprises.',
   },
   {
     step: '3',
@@ -71,7 +71,7 @@ const faqs = [
   {
     question: 'What is the assessment fee policy?',
     answer:
-      'The assessment fee is from R599. It covers a full diagnostic and a written fixed-price quote. The fee is with the upgrade.',
+      'The assessment fee applies. It covers a full diagnostic and a written fixed-price quote. The fee is with the upgrade.',
   },
   {
     question: 'How long does an SSD upgrade take?',
@@ -101,7 +101,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on SSD upgrades?',
     answer:
-      'All SSD upgrades carry a up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at from R599.',
+      'All SSD upgrades carry a up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at our assessment fee.',
   },
 ];
 
@@ -161,7 +161,7 @@ export default function MacBookSSDUpgradePage() {
             Slow MacBook? The drive is usually the problem. We replace Intel MacBook storage with fast SSD. Data migration included. up-to-3 year warranty.
           </p>
           <p className="text-lg font-semibold text-[#0FEA7A] mb-8">
-            Assessment: from R599 · Fixed quote before we start
+            Assessment · Fixed quote before we start
           </p>
 
           {/* Badges */}
@@ -330,7 +330,7 @@ export default function MacBookSSDUpgradePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#E8F4F1] mb-4">Book Your MacBook SSD Upgrade</h2>
           <p className="text-[#7A9E98] mb-8">
-            Assessment: from R599. Fixed quote. Same-day turnaround for most Intel models. Hyde Park, Johannesburg.
+            Assessment. Fixed quote. Same-day turnaround for most Intel models. Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

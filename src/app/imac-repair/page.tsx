@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'How much does iMac repair cost in Johannesburg?',
     answer:
-      'iMac repair pricing depends on the model and fault. We provide a assessment and fixed quote before starting. Contact us to get a quote for screen replacement, RAM upgrades, SSD upgrades, logic board repair, or liquid damage assessment.',
+      'iMac repair pricing depends on the model and fault. We provide an assessment and fixed quote before starting. Contact us to get a quote for screen replacement, RAM upgrades, SSD upgrades, logic board repair, or liquid damage assessment.',
   },
   {
     question: 'Can I upgrade the RAM in my iMac?',
@@ -169,11 +169,11 @@ export default function IMacRepairPage() {
       {/* Trust bar */}
       <section className="bg-slate-800 border-y border-slate-700 py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-slate-300">
-          <span>Assessment: from R599</span>
+          <span>Assessment</span>
           <span className="text-slate-500">|</span>
           <span>Same-Day RAM &amp; SSD Upgrades</span>
           <span className="text-slate-500">|</span>
-          <span>Assessment: from R599</span>
+          <span>Assessment</span>
           <span className="text-slate-500">|</span>
           <span>All iMac Models</span>
           <span className="text-slate-500">|</span>
@@ -340,7 +340,7 @@ export default function IMacRepairPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Bring Your iMac In</h2>
           <p className="text-slate-300 mb-8">
-            Assessment: from R599. Fixed quote. Hyde Park, Johannesburg.
+            Assessment. Fixed quote. Hyde Park, Johannesburg.
             Most upgrades completed same day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Pro Screen Repair Johannesburg | Flexgate, Staingate, Crack | ZA Support',
   description:
-    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All Intel and M-series models. Assessment: from R599. Hyde Park.',
+    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All Intel and M-series models. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair/screen' },
   keywords: [
     'MacBook Pro screen repair Johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Screen Repair Johannesburg | Flexgate, Staingate, Crack | ZA Support',
-    description: 'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All models. Assessment: from R599.',
+    description: 'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure. All models. Assessment.',
     url: 'https://zasupport.com/macbook-pro-repair/screen',
     siteName: 'ZA Support',
     type: 'website',
@@ -42,7 +42,7 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
   description:
-    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure, dead pixels. All Intel and M-series models. Assessment from R599.',
+    'MacBook Pro screen repair in Johannesburg. Flexgate, Staingate, cracked display, backlight failure, dead pixels. All Intel and M-series models. Assessment.',
 };
 
 const breadcrumbSchema = {
@@ -80,7 +80,7 @@ const knownIssues = [
   {
     name: 'Standard Screen Damage',
     models: 'All MacBook Pro models',
-    description: 'Cracks, dead pixels, backlight failure, and water damage on any model. Assessment: from R599, fixed quote provided before any work begins.',
+    description: 'Cracks, dead pixels, backlight failure, and water damage on any model. Assessment, fixed quote provided before any work begins.',
   },
 ];
 
@@ -111,7 +111,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'from R599. Includes full screen diagnostic and written fixed-price quote. The fee is, and payable only if you decline.',
+    answer: 'An assessment fee applies. It includes a full screen diagnostic and a written fixed-price quote.',
   },
   {
     question: 'How long does MacBook Pro screen repair take?',
@@ -131,7 +131,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on screen repairs?',
-    answer: 'up-to-3 year warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at from R599. Extended warranty is also available on request.',
+    answer: 'up-to-3 year warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at our assessment fee. Extended warranty is also available on request.',
   },
 ];
 
@@ -173,7 +173,7 @@ export default function MacBookProScreenPage() {
               {[
                 { icon: Monitor, label: 'Screen Repair' },
                 { icon: Shield, label: 'Up-to-3 Year Warranty' },
-                { icon: Zap, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Flexgate Specialists' },
               ].map(({ icon: Icon, label }) => (
                 <span key={label} className="inline-flex items-center gap-1.5 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] text-[#7A9E98] text-xs px-3 py-1.5 rounded-full">
@@ -214,7 +214,7 @@ export default function MacBookProScreenPage() {
             Screen Issues We Fix
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Assessment: from R599, we diagnose the exact fault and provide a fixed quote before any work begins.
+            Assessment, we diagnose the exact fault and provide a fixed quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {faults.map((f) => (
@@ -336,7 +336,7 @@ export default function MacBookProScreenPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Screen Needs Repair?
             </h2>
-            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment: from R599. Fixed quote before any work begins.</p>
+            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment. Fixed quote before any work begins.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

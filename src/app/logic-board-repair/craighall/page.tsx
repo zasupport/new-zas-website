@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Craighall | ZA Support Hyde Park',
-  description: 'MacBook logic board repair for Craighall clients. Component-level repair, assessment from R599. We collect from Craighall. No Fix No Fee. Call 064 529 5863.',
+  description: 'MacBook logic board repair for Craighall clients. Component-level repair, assessment. We collect from Craighall. No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/craighall' },
 };
 
@@ -34,27 +34,27 @@ const faqs = [
   },
   {
     question: 'What does MacBook logic board repair cost for Craighall clients?',
-    answer: 'Assessment from R599. The repair cost depends on the specific fault, a written quote with the exact price is provided before any work proceeds. Component-level repair typically costs 60-80% less than Apple\'s full board replacement. No Fix No Fee applies to all Craighall clients.',
+    answer: 'Assessment. The repair cost depends on the specific fault, a written quote with the exact price is provided before any work proceeds. Component-level repair typically costs 60-80% less than Apple\'s full board replacement. No Fix No Fee applies to all Craighall clients.',
   },
   {
     question: 'Can a MacBook logic board be repaired or does it need replacing?',
-    answer: 'In most cases repaired. Component-level repair replaces only the failed IC, capacitor, or connector, not the entire board. Apple charges R15,000-R70,000 for a board replacement. We repair the specific failed component at a fraction of that cost, and your data stays intact.',
+    answer: 'In most cases repaired. Component-level repair replaces only the failed IC, capacitor, or connector, not the entire board. Apple charges many times more for a board replacement. We repair the specific failed component at a fraction of that cost, and your data stays intact.',
   },
   {
     question: 'My MacBook was damaged by a load shedding power surge, is it repairable?',
-    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller, a discrete, repairable IC. South African load shedding is the single most common cause of logic board faults we see. The R599 assessment confirms the specific damaged component before any commitment.',
+    answer: 'Yes, in most cases. Power surges typically damage the USB-C charge controller, a discrete, repairable IC. South African load shedding is the single most common cause of logic board faults we see. The assessment confirms the specific damaged component before any commitment.',
   },
   {
     question: 'How long does MacBook logic board repair take?',
-    answer: 'After the R599 assessment and your written approval, most repairs complete within 3-5 business days. Liquid damage cases requiring ultrasonic cleaning may take slightly longer. We provide a specific timeline in the written quote.',
+    answer: 'After the assessment and your written approval, most repairs complete within 3-5 business days. Liquid damage cases requiring ultrasonic cleaning may take slightly longer. We provide a specific timeline in the written quote.',
   },
   {
     question: 'Is my data safe during logic board repair?',
-    answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. Your data remains on the board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the R599 diagnostic.',
+    answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. Your data remains on the board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic.',
   },
   {
     question: 'Do you offer No Fix No Fee for Craighall clients?',
-    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the R599 assessment fee, not the full repair cost. This applies to all clients regardless of location. Collection from Craighall is included.',
+    answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the assessment fee, not the full repair cost. This applies to all clients regardless of location. Collection from Craighall is included.',
   },
 ];
 
@@ -62,7 +62,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Craighall',
-  description: 'Component-level MacBook logic board repair for Craighall clients. Assessment from R599. Collection included.',
+  description: 'Component-level MacBook logic board repair for Craighall clients. Assessment. Collection included.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -105,10 +105,10 @@ export default function LogicBoardRepairCraighallPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Craighall, approx 5-8 min drive</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collecting from Craighall, approx 5-8 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -177,7 +177,7 @@ export default function LogicBoardRepairCraighallPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Logic Board Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Logic Board Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collecting from Craighall. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-CRAIGHALL', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Pro Keyboard Repair Johannesburg | Butterfly Keyboard Fix | ZA Support',
   description:
-    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, no key response. All models. Assessment: from R599. Hyde Park.',
+    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, no key response. All models. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair/keyboard' },
   keywords: [
     'MacBook Pro keyboard repair Johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Keyboard Repair Johannesburg | Butterfly Keyboard Fix | ZA Support',
-    description: 'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, no key response. All models. Assessment: from R599.',
+    description: 'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, no key response. All models. Assessment.',
     url: 'https://zasupport.com/macbook-pro-repair/keyboard',
     siteName: 'ZA Support',
     type: 'website',
@@ -42,7 +42,7 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
   description:
-    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, liquid damage. All models. Assessment from R599.',
+    'MacBook Pro keyboard repair in Johannesburg. Butterfly keyboard failure, sticky keys, repeating keys, liquid damage. All models. Assessment.',
 };
 
 const breadcrumbSchema = {
@@ -118,7 +118,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee policy?',
-    answer: 'from R599 covers a full keyboard diagnostic and written fixed-price quote. The assessment fee of from R599 is payable on confirmation.',
+    answer: 'An assessment fee covers a full keyboard diagnostic and written fixed-price quote. The assessment fee is payable on confirmation.',
   },
   {
     question: 'Can individual butterfly keys be replaced?',
@@ -126,11 +126,11 @@ const faqs = [
   },
   {
     question: 'What if liquid got into the keyboard?',
-    answer: 'Liquid damage to the keyboard requires assessment. We check whether the corrosion is limited to the top case or has reached the logic board. If only the top case is affected, replacement resolves the issue. Logic board corrosion requires additional component-level repair. Assessment: from R599 before any quote.',
+    answer: 'Liquid damage to the keyboard requires assessment. We check whether the corrosion is limited to the top case or has reached the logic board. If only the top case is affected, replacement resolves the issue. Logic board corrosion requires additional component-level repair. Assessment before any quote.',
   },
   {
     question: 'What warranty do you provide on keyboard repairs?',
-    answer: 'up-to-3 year warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at from R599. Extended warranty is also available on request.',
+    answer: 'up-to-3 year warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at our assessment fee. Extended warranty is also available on request.',
   },
   {
     question: 'Are MacBook Pro 2020 and later keyboards more reliable?',
@@ -182,7 +182,7 @@ export default function MacBookProKeyboardPage() {
               {[
                 { icon: Keyboard, label: 'Keyboard Repair' },
                 { icon: Shield, label: 'Up-to-3 Year Warranty' },
-                { icon: Zap, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'Data Safe' },
               ].map(({ icon: Icon, label }) => (
                 <span key={label} className="inline-flex items-center gap-1.5 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] text-[#7A9E98] text-xs px-3 py-1.5 rounded-full">
@@ -223,7 +223,7 @@ export default function MacBookProKeyboardPage() {
             Keyboard Issues We Fix
           </h2>
           <p className="text-[#7A9E98] text-center mb-12 max-w-2xl mx-auto text-sm">
-            Assessment: from R599, we diagnose the exact fault and provide a fixed quote before any work begins.
+            Assessment, we diagnose the exact fault and provide a fixed quote before any work begins.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {symptoms.map((s) => (
@@ -345,7 +345,7 @@ export default function MacBookProKeyboardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Keyboard Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment: from R599. Fixed quote before any work begins.</p>
+            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment. Fixed quote before any work begins.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

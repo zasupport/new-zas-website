@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Randpark Ridge | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Randpark Ridge clients. Ultrasonic cleaning, board-level diagnostics. We collect from Randpark Ridge. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Randpark Ridge clients. Ultrasonic cleaning, board-level diagnostics. We collect from Randpark Ridge. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/randpark-ridge' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Randpark Ridge?', answer: 'Immediately. Power the MacBook off, do not try to charge it, and call us on 064 529 5863. From Randpark Ridge we can usually have a courier collecting within two to three hours via Beyers Naudé Drive. Every hour that corrosion sits on the board makes the repair harder and more expensive, so even a same-day call beats waiting until the next morning.' },
   { question: 'Do you collect MacBooks from Randpark Ridge after liquid damage?', answer: 'Yes. We collect from across Randpark Ridge, Radiokop, Boskruin, Northgate and Cresta, with the Hyde Park workshop roughly 20 minutes away depending on traffic on the N1 and Beyers Naudé. Liquid damage cases are prioritised on our collection list because the time pressure is real. WhatsApp wa.me/27645295863 with your address and we will confirm a window.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'From R599. That covers full disassembly, ultrasonic cleaning of the board where appropriate, microscope inspection and a written quote with the actual repair cost. If you go ahead with the repair it stays at R599 for the assessment portion. If you decide not to proceed the assessment fee still applies because the cleaning and diagnostic work has already been done.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment fee applies. That covers full disassembly, ultrasonic cleaning of the board where appropriate, microscope inspection and a written quote with the actual repair cost. If you go ahead with the repair the assessment fee covers that portion. If you decide not to proceed the assessment fee still applies because the cleaning and diagnostic work has already been done.' },
   { question: 'What types of liquid cause the most damage?', answer: 'In order of severity from worst to least bad: salt water, sugary drinks (Coke, juice, wine), coffee and tea, and finally plain tap water. Sugar and salt are conductive and corrosive long after the liquid itself has dried, which is why a spilt cooldrink that seems fine on Monday can kill the board by Thursday. From Randpark Ridge homes we see coffee most often, followed by wine and pool water.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and stop using it now. A MacBook that still boots after a spill is the most common scenario we regret with clients, because corrosion on a live board accelerates dramatically. We have had Randpark Ridge clients whose machines worked fine for ten days then died, and by then the damage was three times what it would have cost on day one. Power it down and let us clean it properly.' },
   { question: 'Will you be able to save my data?', answer: 'On Intel MacBooks the SSD is usually a separate module and we can almost always recover the data even if the logic board is dead. On M1, M2 and M3 MacBooks the storage is soldered to the board and tied to the Secure Enclave, so data recovery requires the board to be brought back to a working state. In Randpark Ridge cases without a recent Time Machine backup, we will tell you upfront how realistic recovery is before any work begins.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, our assessment fee starts from R599 for liquid damage cases. That includes collection from Randpark Ridge, full strip-down, ultrasonic cleaning where indicated, and a written diagnosis. More complex boards or extensive corrosion may require additional diagnostic time, which we will quote before doing, no surprise charges at the end.' },
+  { question: 'Is there an Assessment policy for liquid damage?', answer: 'Yes, our assessment fee applies for liquid damage cases. That includes collection from Randpark Ridge, full strip-down, ultrasonic cleaning where indicated, and a written diagnosis. More complex boards or extensive corrosion may require additional diagnostic time, which we will quote before doing, no surprise charges at the end.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair liquid damage on M1, M2 and M3 MacBook Air and Pro models at component level rather than swapping the whole board, which is what makes the repair economically viable. The challenge with Apple Silicon is the soldered storage, so saving the board is also the only path to saving the data. Bring it in early, Apple Silicon boards are less forgiving of delayed cleaning than the older Intel logic boards.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageRandparkRidgePage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical, and Randpark Ridge sits roughly 20 minutes from our Hyde Park workshop via Beyers Naudé Drive and the N1, so we can usually collect within a couple of hours. We carry out ultrasonic board cleaning and component-level repair on site rather than swapping logic boards. Assessment from R599.
+              Liquid damage is time-critical, and Randpark Ridge sits roughly 20 minutes from our Hyde Park workshop via Beyers Naudé Drive and the N1, so we can usually collect within a couple of hours. We carry out ultrasonic board cleaning and component-level repair on site rather than swapping logic boards. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageRandparkRidgePage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Randpark Ridge' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -140,7 +140,7 @@ export default function LiquidDamageRandparkRidgePage() {
               Because Randpark Ridge, Radiokop, Boskruin and the Northgate side of Beyers Naudé all sit on the same collection route, we can usually have a courier with you the same morning you call. We bring the MacBook back to Hyde Park, strip it down, and run the board through a commercial ultrasonic bath with the correct solvent, this is what actually removes sugar, salt and mineral residue from under chips where isopropyl wipes cannot reach. From there it goes onto the microscope bench for any trace repair, pad rebuilds or component-level replacement. We have done this for residents off Pendoring Road, small businesses in the Northgate area, and families closer to Cresta who needed data off a machine before deciding on the repair itself.
             </p>
             <p>
-              Most liquid-damaged MacBooks coming out of Randpark Ridge are recoverable, even ones that arrived a week or two after the spill. The MacBooks we cannot save are almost always the ones that were repeatedly powered on, or where someone tried rice or a hairdryer first. After the diagnostic you will get a clear written breakdown, what is damaged, what it costs to repair, and whether data recovery is realistic if the board itself is beyond economical repair. If you decide not to proceed, the R599 still covers the work done.
+              Most liquid-damaged MacBooks coming out of Randpark Ridge are recoverable, even ones that arrived a week or two after the spill. The MacBooks we cannot save are almost always the ones that were repeatedly powered on, or where someone tried rice or a hairdryer first. After the diagnostic you will get a clear written breakdown, what is damaged, what it costs to repair, and whether data recovery is realistic if the board itself is beyond economical repair. If you decide not to proceed, the assessment fee still covers the work done.
             </p>
           </div>
         </div>
@@ -173,7 +173,7 @@ export default function LiquidDamageRandparkRidgePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Randpark Ridge? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Randpark Ridge. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Randpark Ridge. Assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-RANDPARK', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

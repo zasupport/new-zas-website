@@ -10,9 +10,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M2 Liquid Damage Repair Johannesburg [2026] | From R599',
+  title: 'MacBook Air M2 Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook Air M2 liquid damage repair Johannesburg. Thinnest Air ever at 11.3mm, liquid hits the board in seconds. MagSafe 3 corrosion specialist. Assessment from R599. Hyde Park workshop.',
+    'MacBook Air M2 liquid damage repair Johannesburg. Thinnest Air ever at 11.3mm, liquid hits the board in seconds. MagSafe 3 corrosion specialist. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air-m2' },
   keywords: [
     'MacBook Air M2 liquid damage repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'liquid damaged MacBook Air M2 fix',
     'MacBook Air M2 coffee spill repair Johannesburg',
     'MacBook Air M2 MagSafe corrosion repair',
-    'MacBook Air M2 liquid damage assessment from R599',
+    'MacBook Air M2 liquid damage assessment',
   ],
 };
 
@@ -41,7 +41,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Air M2 be repaired?',
     answer:
-      'Yes, in the majority of cases. The MacBook Air M2 (A2681) shares the M1\'s fanless design but introduces a completely flat chassis only 11.3mm thick, the thinnest MacBook Air ever made at launch. That thinness means liquid reaches the logic board almost instantly, but our component-level repair process addresses exactly these concentrated damage patterns. At ZA Support in Hyde Park, we have successfully recovered MacBook Air M2 units after serious spills including coffee, wine, and water. Assessment from R599.',
+      'Yes, in the majority of cases. The MacBook Air M2 (A2681) shares the M1\'s fanless design but introduces a completely flat chassis only 11.3mm thick, the thinnest MacBook Air ever made at launch. That thinness means liquid reaches the logic board almost instantly, but our component-level repair process addresses exactly these concentrated damage patterns. At ZA Support in Hyde Park, we have successfully recovered MacBook Air M2 units after serious spills including coffee, wine, and water. Assessment.',
   },
   {
     question: 'How does the M2 chip design affect liquid damage outcomes?',
@@ -51,7 +51,7 @@ const faqs = [
   {
     question: 'How much does MacBook Air M2 liquid damage repair cost?',
     answer:
-      'Repair cost depends entirely on the extent of damage confirmed during assessment. Keyboard or trackpad replacement where no liquid reached the logic board is the most affordable outcome. Minor board corrosion requiring ultrasonic cleaning and targeted component rework costs more. Extensive multi-IC corrosion, particularly around the MagSafe 3 controller or the USB 4 interface chips, represents the most complex cases. We quote everything upfront before a single repair action. Assessment from R599. No Fix No Fee on every case.',
+      'Repair cost depends entirely on the extent of damage confirmed during assessment. Keyboard or trackpad replacement where no liquid reached the logic board is the most affordable outcome. Minor board corrosion requiring ultrasonic cleaning and targeted component rework costs more. Extensive multi-IC corrosion, particularly around the MagSafe 3 controller or the USB 4 interface chips, represents the most complex cases. We quote everything upfront before a single repair action. Assessment. No Fix No Fee on every case.',
   },
   {
     question: 'My MacBook Air M2 got wet but is still working, should I be worried?',
@@ -71,7 +71,7 @@ const faqs = [
   {
     question: 'Can you recover data from a liquid-damaged MacBook Air M2?',
     answer:
-      'Yes, in most cases. The MacBook Air M2 stores data on NAND flash chips that are separate from the M2 die. Even if the logic board cannot be economically repaired, we can extract your data by reading the storage chips directly. The M2 architecture stores data on a dedicated NAND package separate from the SoC, which often survives liquid damage even when the surrounding circuits do not. Data recovery assessment is included in the R599 diagnostic fee.',
+      'Yes, in most cases. The MacBook Air M2 stores data on NAND flash chips that are separate from the M2 die. Even if the logic board cannot be economically repaired, we can extract your data by reading the storage chips directly. The M2 architecture stores data on a dedicated NAND package separate from the SoC, which often survives liquid damage even when the surrounding circuits do not. Data recovery assessment is included in the diagnostic fee.',
   },
   {
     question: 'How long does MacBook Air M2 liquid damage repair take?',
@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'Is repairing a liquid-damaged MacBook Air M2 worth the cost?',
     answer:
-      'In most cases, absolutely. A new MacBook Air M2 replacement costs R18,000-R28,000 depending on specification. Our component-level repairs typically cost 15-40% of replacement price, preserve all your data on the original board, and come with up-to-3 year warranty on completed work. If the damage genuinely makes repair uneconomical, we will tell you that clearly during the assessment rather than proceeding with expensive work on an irrecoverable board.',
+      'In most cases, absolutely. A new MacBook Air M2 replacement costs many times more depending on specification. Our component-level repairs typically cost a fraction of replacement price, preserve all your data on the original board, and come with up-to-3 year warranty on completed work. If the damage genuinely makes repair uneconomical, we will tell you that clearly during the assessment rather than proceeding with expensive work on an irrecoverable board.',
   },
   {
     question: 'Does the MacBook Air M2 have liquid contact indicators?',
@@ -150,7 +150,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air M2 Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Air M2 liquid damage repair in Johannesburg. Thinnest-chassis specialist. MagSafe 3 corrosion repair. Ultrasonic cleaning, component-level IC replacement. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Air M2 liquid damage repair in Johannesburg. Thinnest-chassis specialist. MagSafe 3 corrosion repair. Ultrasonic cleaning, component-level IC replacement. Assessment. Up-to-3 year warranty.',
   lowPrice: '4900',
   highPrice: '17150',
 });
@@ -181,7 +181,7 @@ export default function MacBookAirM2LiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -189,7 +189,7 @@ export default function MacBookAirM2LiquidDamagePage() {
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Wind, label: 'M2 Fanless Specialist' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -379,7 +379,7 @@ export default function MacBookAirM2LiquidDamagePage() {
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               All repairs are quoted before work begins. No Fix No Fee on every case, if we cannot repair your
-              MacBook Air M2, an assessment fee of R599 applies and the machine is returned as received.
+              MacBook Air M2, an assessment fee applies and the machine is returned as received.
               Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
@@ -396,9 +396,9 @@ export default function MacBookAirM2LiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R15,000 to R32,000</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare+</li>
-                <li>AppleCare+ accidental damage covers one incident at R2,999 excess, limited</li>
+                <li>AppleCare+ accidental damage covers one incident with an excess fee, limited</li>
                 <li>Board replacement may not preserve data</li>
                 <li>5-10 business day turnaround via depot repair</li>
               </ul>
@@ -407,7 +407,7 @@ export default function MacBookAirM2LiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only damaged parts replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the original logic board</li>
                 <li>M2 4nm power delivery expertise, current-limited testing protocol</li>
                 <li>24-72 hour turnaround, up-to-3 year warranty</li>
@@ -417,7 +417,7 @@ export default function MacBookAirM2LiquidDamagePage() {
           <div className="p-5 rounded-xl border border-[rgba(245,166,35,0.2)] bg-[rgba(245,166,35,0.04)]">
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               <span className="text-[#F5A623] font-semibold">Mac Shack comparison:</span>{' '}
-              Mac Shack in Johannesburg typically quotes R4,499 for a logic board replacement swap on liquid-damaged
+              Mac Shack in Johannesburg typically quotes a flat fee for a logic board replacement swap on liquid-damaged
               MacBooks, a wholesale board swap, not a repair. ZA Support&apos;s component-level approach repairs the
               existing board, costs significantly less in most cases, and preserves all your data. If you have already
               received a Mac Shack quote, bring the machine to us for a second opinion before committing.
@@ -557,7 +557,7 @@ export default function MacBookAirM2LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

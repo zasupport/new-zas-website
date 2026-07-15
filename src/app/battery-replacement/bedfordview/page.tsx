@@ -11,7 +11,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Bedfordview | ZA Support Hyde Park',
   description:
-    'MacBook battery replacement for Bedfordview clients. Genuine Apple-spec batteries, fast turnaround. We collect from Bedfordview and replace at our Hyde Park workshop. Assessment from R599. Call 064 529 5863.',
+    'MacBook battery replacement for Bedfordview clients. Genuine Apple-spec batteries, fast turnaround. We collect from Bedfordview and replace at our Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/bedfordview' },
 };
 
@@ -47,7 +47,7 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee for a battery replacement?',
-    answer: 'Assessment from R599. This covers inspection of the battery, charging circuit, and any related faults. If a straight battery replacement is confirmed, the assessment fee is applied to the repair cost.',
+    answer: 'Assessment. This covers inspection of the battery, charging circuit, and any related faults. If a straight battery replacement is confirmed, the assessment fee is applied to the repair cost.',
   },
   {
     question: 'Do you replace batteries in Apple Silicon MacBooks?',
@@ -102,7 +102,7 @@ export default function BatteryReplacementBedfordviewPage() {
               <br /><span className="text-[#0FEA7A]">, Restore Full Runtime</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Battery replacement for Bedfordview residents and businesses. Apple-spec batteries, fast turnaround. We collect from Bedfordview and carry out the replacement at our Hyde Park workshop. Assessment from R599.
+              Battery replacement for Bedfordview residents and businesses. Apple-spec batteries, fast turnaround. We collect from Bedfordview and carry out the replacement at our Hyde Park workshop. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -111,7 +111,7 @@ export default function BatteryReplacementBedfordviewPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Battery, label: 'Apple-spec Batteries' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'No Fix No Fee' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
@@ -179,8 +179,8 @@ export default function BatteryReplacementBedfordviewPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Issue in Bedfordview? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Bedfordview. Assessment from R599. No Fix No Fee. 12-month warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Issue in Bedfordview? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Bedfordview. Assessment. No Fix No Fee. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('BAT-BEDFORDV', 'battery')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

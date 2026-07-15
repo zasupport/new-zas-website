@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Bedfordview | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Bedfordview clients. Ultrasonic cleaning, board-level diagnostics. We collect from Bedfordview. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Bedfordview clients. Ultrasonic cleaning, board-level diagnostics. We collect from Bedfordview. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/bedfordview' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Bedfordview?', answer: 'Immediately, ideally within the first hour. Power the MacBook off by holding the power button for 10 seconds, do not plug in the charger to test it, and phone 064 529 5863. Bedfordview is roughly 20 to 25 minutes from our Hyde Park workshop via the M1 and N3, so we can usually arrange same-day collection if you call before mid-afternoon. The window between the spill and the ultrasonic clean is the single biggest factor in whether the board survives.' },
   { question: 'Do you collect MacBooks from Bedfordview after liquid damage?', answer: 'Yes. We collect from across Bedfordview including Bedford Park, Bedford Gardens, St Andrews, and the streets around Bedford Centre and Van Buuren Road. We have also collected from offices in Bedford Office Park and medical suites near the Linksfield ridge. The collection driver routes via the N3 and brings the machine directly to the Hyde Park workshop, where the diagnostic process begins the same day in most cases.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599 and includes the strip-down, ultrasonic clean of the logic board, and a written report covering what is repairable and what the component-level repair will cost. If you proceed with the repair, the assessment fee is credited against the final invoice. We will not start any work beyond the diagnostic without your written approval of the quote.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Contact us for the current assessment fee. It includes the strip-down, ultrasonic clean of the logic board, and a written report covering what is repairable and what the component-level repair will cost. If you proceed with the repair, the assessment fee is credited against the final invoice. We will not start any work beyond the diagnostic without your written approval of the quote.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugar-bearing liquids are the most aggressive, wine, fizzy drinks, sweet coffee, and energy drinks leave a conductive residue that keeps corroding the board after the visible moisture has gone. Salt water and seawater are also extremely destructive. Plain still water is the least damaging if the machine is powered off immediately, but tap water still contains enough mineral content to corrode traces over time. We see all of these in Bedfordview, with coffee and wine being the most common in the home-office and entertaining contexts.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and the sooner the better. A MacBook that still boots after a spill is not in the clear, corrosion progresses over days and weeks, and the failure often happens after the residue has eaten through a key trace or component. We have had Bedfordview clients bring in machines that worked fine for a fortnight after a spill, only to die suddenly. An early ultrasonic clean is far cheaper than the board-level repair needed once corrosion has spread.' },
   { question: 'Will you be able to save my data?', answer: 'In most cases yes, but it depends on the model. Older MacBooks with removable SSDs allow us to read the drive on a separate rig even if the logic board is unrecoverable. Apple Silicon machines and recent T2 models have the storage soldered to the board and encrypted to the secure enclave, which means data recovery is tied to repairing enough of the board to boot it once. We will tell you upfront in the diagnostic report exactly what the data prospects look like for your specific machine.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes, the assessment starts at R599 and covers the full diagnostic process including the ultrasonic clean of the board. You receive a written quote for the actual repair before any further work is carried out, and the R599 is credited against the repair total if you proceed. There are no hidden charges added during the diagnostic itself.' },
+  { question: 'Is there an Assessment policy for liquid damage?', answer: 'Yes, the assessment carries a fee and covers the full diagnostic process including the ultrasonic clean of the board. You receive a written quote for the actual repair before any further work is carried out, and the assessment fee is credited against the repair total if you proceed. There are no hidden charges added during the diagnostic itself.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair liquid damage on M1, M2, and M3 MacBooks at component level, including the M2 and M3 Air models that are increasingly common with Bedfordview clients. Apple Silicon boards are more densely packed and the storage is bound to the secure enclave, which makes the repair more delicate and the data recovery more dependent on board-level success, but the work is well within the scope of our microscope bench, and we complete these repairs regularly.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageBedfordviewPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage is time-critical, and Bedfordview&apos;s position alongside the N3 and Van Buuren Road means we can usually have a courier at your door within the hour. We collect from homes near Bedford Centre, offices around Bedford Gardens, and the medical suites on Smith Road, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop roughly 20 minutes west. Assessment from R599.
+              Liquid damage is time-critical, and Bedfordview&apos;s position alongside the N3 and Van Buuren Road means we can usually have a courier at your door within the hour. We collect from homes near Bedford Centre, offices around Bedford Gardens, and the medical suites on Smith Road, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop roughly 20 minutes west. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageBedfordviewPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Bedfordview' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageBedfordviewPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Bedfordview? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Bedfordview. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Bedfordview. Assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-BEDFORDV', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

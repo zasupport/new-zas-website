@@ -180,7 +180,7 @@ export default function CourtneyBentleyPage() {
           <div className="border-t border-[#27504D]/20 pt-8 mb-10">
             <h2 className="text-xl font-bold text-[#E8F4F1] mb-4">Services</h2>
             <div className="flex flex-wrap gap-3">
-              {['Logic Board Repair', 'Liquid Damage', 'Apple MDM', 'MacBook Repair', 'Medical Practice IT', 'Assessment from R599'].map((s) => (
+              {['Logic Board Repair', 'Liquid Damage', 'Apple MDM', 'MacBook Repair', 'Medical Practice IT', 'Assessment'].map((s) => (
                 <span key={s} className="text-sm px-3 py-1 rounded-full border border-[#27504D]/40 text-[#7A9E98]">
                   {s}
                 </span>

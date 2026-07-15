@@ -25,9 +25,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M3 Battery Replacement Johannesburg [2026] | From R2,299 | ZA Support',
+  title: 'MacBook Pro M3 Battery Replacement Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro M3 battery replacement Johannesburg from R2,299. 72.4Wh (14") / 100Wh (16") latest-gen cells. Longest rated life. From R599 assessment. Hyde Park workshop.',
+    'MacBook Pro M3 battery replacement Johannesburg. 72.4Wh (14") / 100Wh (16") latest-gen cells. Longest rated life. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-m3' },
   keywords: [
     'MacBook Pro M3 battery replacement Johannesburg',
@@ -63,7 +63,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M3 Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro M3 battery replacement in Johannesburg. 72.4Wh (14-inch) and 100Wh (16-inch) latest-generation cell replacement. From R2,299. From R599 assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro M3 battery replacement in Johannesburg. 72.4Wh (14-inch) and 100Wh (16-inch) latest-generation cell replacement. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -87,11 +87,11 @@ const serviceSchema = {
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingRows = [
-  { model: 'MacBook Pro 14″ M3 (Late 2023)', battery: '72.4 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
-  { model: 'MacBook Pro 14″ M3 Pro (Late 2023)', battery: '72.4 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
-  { model: 'MacBook Pro 14″ M3 Max (Late 2023)', battery: '72.4 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
-  { model: 'MacBook Pro 16″ M3 Pro (Late 2023)', battery: '100 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
-  { model: 'MacBook Pro 16″ M3 Max (Late 2023)', battery: '100 Wh', from: 'R2,299', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 14″ M3 (Late 2023)', battery: '72.4 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 14″ M3 Pro (Late 2023)', battery: '72.4 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 14″ M3 Max (Late 2023)', battery: '72.4 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ M3 Pro (Late 2023)', battery: '100 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
+  { model: 'MacBook Pro 16″ M3 Max (Late 2023)', battery: '100 Wh', from: 'Contact for pricing', turnaround: '4-6 hrs' },
 ];
 
 /* ── Fault Types ─────────────────────────────────────────────────────────── */
@@ -117,7 +117,7 @@ const faultTypes = [
   {
     title: 'MagSafe Charging Not Detected',
     icon: Activity,
-    desc: 'A small number of M3 MacBook Pro users report MagSafe not charging, the LED does not light or shows amber with from R599 progress. In the majority of cases we investigate, the fault is with the USB-C port or MagSafe connector rather than the battery. However, a severely degraded battery drawing excessive current at low state of charge can also manifest as a charging detection fault. We test both the MagSafe connector and the battery independently before attributing a cause. If the battery is degraded, replacement resolves the charging fault in most cases.',
+    desc: 'A small number of M3 MacBook Pro users report MagSafe not charging, the LED does not light or shows amber with no progress. In the majority of cases we investigate, the fault is with the USB-C port or MagSafe connector rather than the battery. However, a severely degraded battery drawing excessive current at low state of charge can also manifest as a charging detection fault. We test both the MagSafe connector and the battery independently before attributing a cause. If the battery is degraded, replacement resolves the charging fault in most cases.',
     severity: 'medium',
   },
   {
@@ -157,7 +157,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M3 battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Pro M3 battery replacement starts from R2,299 at our Hyde Park workshop. The M3, M3 Pro, and M3 Max all use the same cell per chassis size: 72.4 Wh in the 14-inch and 100 Wh in the 16-inch. The Apple Store charges R4,000 to R8,000 for M3 battery replacement, and given how new these models are, may only service them under AppleCare+. Our R2,299 price includes the replacement cell, all labour, calibration, and a written warranty of up to 3 years. Assessment from R599, applied toward the repair cost if you proceed.',
+      'MacBook Pro M3 battery replacement is carried out at our Hyde Park workshop. The M3, M3 Pro, and M3 Max all use the same cell per chassis size: 72.4 Wh in the 14-inch and 100 Wh in the 16-inch. The Apple Store charges many times more for M3 battery replacement, and given how new these models are, may only service them under AppleCare+. Our price includes the replacement cell, all labour, calibration, and a written warranty of up to 3 years. Assessment fee applies, credited toward the repair cost if you proceed.',
   },
   {
     question: 'What is the battery capacity of the MacBook Pro M3?',
@@ -167,7 +167,7 @@ const faqs = [
   {
     question: 'My MacBook Pro M3 is only two years old, can the battery already need replacement?',
     answer:
-      'It is uncommon but not impossible. At two years of daily use, a well-maintained M3 MacBook Pro in a stable power environment should have 300 to 500 cycles and 90%+ capacity. However, if your machine was used through South Africa\'s Stage 4 or Stage 6 load shedding in 2023 without a UPS, you may have accumulated additional partial cycles. If you are noticing reduced runtime compared to purchase, check your cycle count in System Information. Above 400 cycles with capacity below 88% is worth investigating. We offer a battery assessment from R599 that confirms whether replacement is warranted.',
+      'It is uncommon but not impossible. At two years of daily use, a well-maintained M3 MacBook Pro in a stable power environment should have 300 to 500 cycles and 90%+ capacity. However, if your machine was used through South Africa\'s Stage 4 or Stage 6 load shedding in 2023 without a UPS, you may have accumulated additional partial cycles. If you are noticing reduced runtime compared to purchase, check your cycle count in System Information. Above 400 cycles with capacity below 88% is worth investigating. We offer a battery assessment that confirms whether replacement is warranted.',
   },
   {
     question: 'Is the M3 battery different from the M2 battery in the same chassis?',
@@ -202,7 +202,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on M3 MacBook Pro battery replacements?',
     answer:
-      'MacBook Pro M3 battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period, dropping below 80% capacity or developing any electrical fault, we replace it again at from R599. From R599 assessment: if our assessment determines the battery is not the cause of your fault, you pay only R599 and your machine is returned unchanged.',
+      'MacBook Pro M3 battery replacements at ZA Support carry a written warranty of up to 3 years. The warranty covers the replacement cell and our workmanship. If the battery fails within the warranty period, dropping below 80% capacity or developing any electrical fault, we replace it again at our assessment fee. Assessment: if our assessment determines the battery is not the cause of your fault, you pay only the assessment fee and your machine is returned unchanged.',
   },
 ];
 
@@ -230,17 +230,17 @@ export default function BatteryReplacementMacBookProM3Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Third-generation Apple Silicon, 72.4 Wh (14&quot;) and 100 Wh (16&quot;) latest-generation cell replacement at our Hyde Park workshop. M3 Pro and M3 Max models covered. From R2,299. Same-day service available.
+              Third-generation Apple Silicon, 72.4 Wh (14&quot;) and 100 Wh (16&quot;) latest-generation cell replacement at our Hyde Park workshop. M3 Pro and M3 Max models covered. Same-day service available.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | M3 14″/16″ from R2,299</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Battery, label: 'All M3 Models' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
@@ -294,7 +294,7 @@ export default function BatteryReplacementMacBookProM3Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M3 Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Starting prices include the replacement cell, labour, calibration, and our written warranty. Apple charges R4,000 to R8,000+ for M3 battery service. We replace the battery cells only, not the entire top case assembly.
+            Pricing includes the replacement cell, labour, calibration, and our written warranty. Apple charges many times more for M3 battery service. We replace the battery cells only, not the entire top case assembly.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -302,7 +302,7 @@ export default function BatteryReplacementMacBookProM3Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Battery Capacity</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -319,7 +319,7 @@ export default function BatteryReplacementMacBookProM3Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All pricing includes the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment fee applies, credited toward the repair cost if you proceed.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-m3" />
           <PricingNote variant="inline" />
@@ -386,7 +386,7 @@ export default function BatteryReplacementMacBookProM3Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our From R599 assessment policy means that if we assess your MacBook Pro M3 and determine a battery replacement will not resolve your issue, an assessment fee of R599 applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro M3 and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
             </p>
           </div>
         </div>
@@ -397,13 +397,13 @@ export default function BatteryReplacementMacBookProM3Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple Store vs ZA Support: MacBook Pro M3 Battery</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            M3 machines are recent enough that Apple may only service them through official depot channels, with costs of R4,000 to R8,000+. We service M3 batteries directly at our Hyde Park workshop.
+            M3 machines are recent enough that Apple may only service them through official depot channels, at many times our price. We service M3 batteries directly at our Hyde Park workshop.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Depot service, R4,000 to R8,000+ for M3 models</li>
+                <li>Depot service, many times our price for M3 models</li>
                 <li>Turnaround 5-10 business days</li>
                 <li>May replace top case assembly unnecessarily</li>
                 <li>AppleCare+ required for reduced pricing</li>
@@ -415,7 +415,7 @@ export default function BatteryReplacementMacBookProM3Page() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Battery cells only, top case untouched</li>
-                <li>M3 14″ and 16″ from R2,299</li>
+                <li>Battery cells only, top case untouched, same day</li>
                 <li>coconutBattery diagnostic before and after</li>
                 <li>Turnaround 4-6 hours same day</li>
                 <li>System Information screenshot at collection</li>
@@ -517,7 +517,7 @@ export default function BatteryReplacementMacBookProM3Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M3 Battery Issue? Book a Diagnostic.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a description of the fault, reduced runtime, unexpected shutdowns, swollen battery, or bottom case bowing, and we will give you an honest price range before you bring the machine in. Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a description of the fault, reduced runtime, unexpected shutdowns, swollen battery, or bottom case bowing, and we will give you an honest price range before you bring the machine in. Assessment, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 hover:shadow-[0_0_32px_rgba(15,234,122,0.4)] transition-all">
@@ -528,7 +528,7 @@ export default function BatteryReplacementMacBookProM3Page() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | M3 14″/16″ from R2,299 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Up-to-3 year warranty
             </p>
           </div>
         </div>

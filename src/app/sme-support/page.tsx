@@ -29,7 +29,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'SME Apple Support Johannesburg | Business IT Solutions | ZA Support',
   description:
-    'SME Apple support and business IT solutions in Johannesburg. Managed services, dedicated account manager, specialist networking, Apple repairs and software development. BEE Level 1. Assessment from R599.',
+    'SME Apple support and business IT solutions in Johannesburg. Managed services, dedicated account manager, specialist networking, Apple repairs and software development. BEE Level 1. Assessment.',
   alternates: { canonical: 'https://zasupport.com/sme-support' },
   keywords: [
     'sme apple support johannesburg',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 const serviceSchema = buildServiceSchema({
   name: 'SME Apple Support & Business IT Solutions',
   description:
-    'Comprehensive Apple support, managed IT services, repairs, networking and software development for small and medium enterprises in Johannesburg. BEE Level 1 provider. Assessment from R599, R899/hr.',
+    'Comprehensive Apple support, managed IT services, repairs, networking and software development for small and medium enterprises in Johannesburg. BEE Level 1 provider. Contact for pricing.',
   lowPrice: '599',
   highPrice: '1100',
 });
@@ -60,7 +60,7 @@ const SME_FAQS = [
   {
     question: 'How much does SME IT support cost?',
     answer:
-      'Our assessment starts from R599, and our standard rate is R899/hr. For ongoing managed support, we offer monthly SLA packages tailored to your team size and device count. We also provide business finance options for larger deployments, so you can spread the cost of hardware and setup over 12 to 36 months. Contact us for a bespoke quote.',
+      'Our assessment applies, and we charge our standard hourly rate. For ongoing managed support, we offer monthly SLA packages tailored to your team size and device count. We also provide business finance options for larger deployments, so you can spread the cost of hardware and setup over 12 to 36 months. Contact us for a bespoke quote.',
   },
   {
     question: 'Are you a BEE-accredited IT provider?',
@@ -130,7 +130,7 @@ const SME_SERVICES = [
   {
     icon: Shield,
     title: 'Industry-Leading Warranties',
-    desc: 'Up-to-3 year warranty on all repairs. Written quotes before work begins. From R599 assessment on diagnostics.',
+    desc: 'Up-to-3 year warranty on all repairs. Written quotes before work begins. Assessment on diagnostics.',
   },
   {
     icon: Package,
@@ -220,7 +220,7 @@ export default function SMESupportPage() {
               { value: '16 Years', label: 'Apple Expertise' },
               { value: 'BEE Level 1', label: 'Accredited Provider' },
               { value: SITE.rating + '\u2605', label: 'Google Rating' },
-              { value: 'R899/hr', label: 'Transparent Pricing' },
+              { value: 'Transparent', label: 'Pricing' },
             ].map((stat) => (
               <div key={stat.label} className="glass-card p-6 text-center">
                 <span className="block text-3xl font-extrabold text-[#0FEA7A] mb-1">{stat.value}</span>
@@ -320,7 +320,7 @@ export default function SMESupportPage() {
                   most issues within 24 hours.
                 </p>
                 <p>
-                  We have seen businesses lose R20,000 or more per day in productivity because a
+                  We have seen businesses lose thousands of rands per day in productivity because a
                   critical Mac was sent to the Apple Store and sat in a queue for two weeks. Our
                   component-level{' '}
                   <Link href="/logic-board-repair" className="text-[#0FEA7A] hover:underline">
@@ -364,7 +364,7 @@ export default function SMESupportPage() {
                   support, no third-party handoffs.
                 </p>
                 <p>
-                  The assessment fee starts from R599, and our standard rate is R899 per hour. For{' '}
+                  The assessment fee applies, and we charge our standard hourly rate. For{' '}
                   <Link href="/enterprise" className="text-[#0FEA7A] hover:underline">
                     enterprise clients
                   </Link>{' '}
@@ -392,7 +392,7 @@ export default function SMESupportPage() {
               {
                 step: '01',
                 title: 'Assessment',
-                desc: 'We audit your current Apple environment, devices, networking, software, security. Assessment from R599.',
+                desc: 'We audit your current Apple environment, devices, networking, software, security. Assessment.',
               },
               {
                 step: '02',
@@ -534,7 +534,7 @@ export default function SMESupportPage() {
               Ready to Upgrade Your Business IT?
             </h2>
             <p className="text-[#7A9E98] mb-6">
-              Assessment from R599. BEE Level 1 provider. 1 Hyde Lane, Hyde Park, Johannesburg 2196.
+              Assessment. BEE Level 1 provider. 1 Hyde Lane, Hyde Park, Johannesburg 2196.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

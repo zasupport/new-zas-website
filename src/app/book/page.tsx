@@ -33,7 +33,7 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   name: 'ZA Support, Apple Repair Specialists',
-  description: 'Book a Mac repair assessment in Hyde Park, Johannesburg. Assessment fee: from R599.',
+  description: 'Book a Mac repair assessment in Hyde Park, Johannesburg. Assessment fee applies.',
   url: 'https://zasupport.com/book',
   telephone: '+27645295863',
   address: {
@@ -45,7 +45,7 @@ const localBusinessSchema = {
     addressCountry: 'ZA',
   },
   openingHours: 'Mo-Th 08:00-17:00 Fr 08:00-16:30',
-  priceRange: 'from R599 assessment',
+  priceRange: 'assessment',
 };
 
 export default function BookPage() {
@@ -99,7 +99,7 @@ export default function BookPage() {
               <Calendar className="w-4 h-4 text-[#0A1A18]" />
             </div>
             <span className="text-[#0FEA7A] text-sm font-semibold tracking-widest uppercase">
-              Assessment: from R599, No Deposit to Book
+              Assessment, No Deposit to Book
             </span>
           </div>
           <h1
@@ -112,7 +112,7 @@ export default function BookPage() {
           </h1>
           <p className="text-lg text-[#7A9E98] max-w-xl leading-relaxed">
             Fill in the form below and we will contact you within 2 hours to confirm your booking.
-            Assessment fee: from R599. up-to-3 year warranty on all repairs.
+            Assessment fee applies. up-to-3 year warranty on all repairs.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function BookPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             {[
-              ['Assessment: from R599', 'Absorbed into repair if you proceed'],
+              ['Assessment', 'Absorbed into repair if you proceed'],
               ['Up-to-3 Year Warranty', 'On all parts and labour'],
               ['2-Hour Response', 'We call you back fast'],
               ['4.9★ Reviews', '120+ happy clients'],
@@ -332,7 +332,7 @@ export default function BookPage() {
 
                 <p className="text-center text-[#7A9E98] text-xs leading-relaxed">
                   By submitting this form you agree to be contacted by ZA Support regarding your repair.
-                  We never share your details. Assessment: from R599.
+                  We never share your details. Assessment.
                 </p>
               </form>
             </div>

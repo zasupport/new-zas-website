@@ -11,9 +11,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M1 Screen Repair Johannesburg [2026] | From R3,999 | ZA Support',
+  title: 'MacBook Pro M1 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro M1 screen repair in Johannesburg from R3,999. IPS Retina display specialists. Backlight IC, display cable, True Tone. From R599 assessment. Hyde Park workshop.',
+    'MacBook Pro M1 screen repair in Johannesburg. IPS Retina display specialists. Backlight IC, display cable, True Tone. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-m1' },
   keywords: [
     'MacBook Pro M1 screen repair Johannesburg',
@@ -47,7 +47,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M1 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro M1 screen repair in Johannesburg. IPS Retina display replacement, display cable fault, backlight driver IC repair, True Tone preservation. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro M1 screen repair in Johannesburg. IPS Retina display replacement, display cable fault, backlight driver IC repair, True Tone preservation. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -75,19 +75,19 @@ const pricingRows = [
   {
     model: 'MacBook Pro 13″ M1 (A2338, Late 2020)',
     panel: 'IPS LCD Retina (2560 × 1600, 227 ppi)',
-    from: 'R3,999',
+    from: 'Contact for pricing',
     turnaround: '24-48 hrs',
   },
   {
     model: 'MacBook Pro 13″ M1 (A2338), display cable only',
     panel: 'Display cable / backlight fuse repair',
-    from: 'R1,499',
+    from: 'Contact for pricing',
     turnaround: '24 hrs',
   },
   {
     model: 'MacBook Pro 13″ M1, backlight IC repair',
     panel: 'Component-level backlight driver repair',
-    from: 'R2,499',
+    from: 'Contact for pricing',
     turnaround: '24-48 hrs',
   },
 ];
@@ -153,7 +153,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M1 screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro M1 (A2338, 13-inch) screen repair starts from R3,999 at ZA Support for a full display assembly replacement. If the fault is limited to the display cable or backlight driver IC rather than the panel itself, the repair can be significantly cheaper, cable repair from R1,499 and backlight IC repair from R2,499. The Apple Store charges R6,000 to R10,000 for the same display assembly swap. We provide a written fixed-price quote after diagnosis before any work begins, so there are no surprises.',
+      'MacBook Pro M1 (A2338, 13-inch) screen repair is quoted individually at ZA Support for a full display assembly replacement. If the fault is limited to the display cable or backlight driver IC rather than the panel itself, the repair can be significantly cheaper than a full assembly. The Apple Store charges many times our price for the same display assembly swap. We provide a written fixed-price quote after diagnosis before any work begins, so there are no surprises.',
   },
   {
     question: 'My MacBook Pro M1 screen is black but the Mac is still running. What is wrong?',
@@ -168,7 +168,7 @@ const faqs = [
   {
     question: 'Can you repair the MacBook Pro M1 screen caused by load shedding damage?',
     answer:
-      'Yes. Load shedding surge damage to the MacBook Pro M1 backlight circuit is one of the most common repair requests we see in our Hyde Park workshop, especially after prolonged Eskom outage schedules in Sandton, Fourways, Bryanston, and Randburg. The repair involves replacing the backlight driver IC on the logic board at component level. This typically costs R2,499, far less than the R3,999+ for a new display assembly. We always recommend connecting your MacBook Pro to a UPS rather than directly to the wall or even a basic surge bar.',
+      'Yes. Load shedding surge damage to the MacBook Pro M1 backlight circuit is one of the most common repair requests we see in our Hyde Park workshop, especially after prolonged Eskom outage schedules in Sandton, Fourways, Bryanston, and Randburg. The repair involves replacing the backlight driver IC on the logic board at component level. This typically costs far less than a new display assembly. We always recommend connecting your MacBook Pro to a UPS rather than directly to the wall or even a basic surge bar.',
   },
   {
     question: 'How long does MacBook Pro M1 screen repair take?',
@@ -178,7 +178,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked MacBook Pro M1 screen?',
     answer:
-      'Almost always yes. A MacBook Pro M1 13-inch in good condition sells for R14,000 to R20,000 on the used market in South Africa. Our screen repair starts from R3,999, roughly 20% of replacement cost. The M1 chip itself is extremely reliable and continues to receive macOS updates for many years to come. The screen is the only part that has physically failed. A replacement display assembly restores the machine to full working order. We will tell you if the cost of repair does not stack up in your specific case, but this is rare.',
+      'Almost always yes. A MacBook Pro M1 13-inch in good condition still holds strong resale value on the used market in South Africa. Our screen repair costs only a fraction of that. The M1 chip itself is extremely reliable and continues to receive macOS updates for many years to come. The screen is the only part that has physically failed. A replacement display assembly restores the machine to full working order. We will tell you if the cost of repair does not stack up in your specific case, but this is rare.',
   },
   {
     question: 'Does ZA Support repair MacBook Pro M1 screens covered under insurance?',
@@ -198,7 +198,7 @@ const faqs = [
   {
     question: 'What is the difference between the MacBook Pro M1 display and the MacBook Pro 14-inch M1 Pro display?',
     answer:
-      'The MacBook Pro M1 (13-inch, A2338, 2020) uses an IPS LCD Retina display at 2560 × 1600 pixels with a conventional LED backlight. The MacBook Pro 14-inch M1 Pro (A2442, 2021) uses the Liquid Retina XDR display, a mini-LED backlight with over 10,000 LEDs in local dimming zones, delivering significantly higher peak brightness and contrast. The two displays are completely different components and are not interchangeable. The 14-inch Liquid Retina XDR repair is more complex and starts from R4,999 rather than R3,999. We repair both models in our Hyde Park workshop.',
+      'The MacBook Pro M1 (13-inch, A2338, 2020) uses an IPS LCD Retina display at 2560 × 1600 pixels with a conventional LED backlight. The MacBook Pro 14-inch M1 Pro (A2442, 2021) uses the Liquid Retina XDR display, a mini-LED backlight with over 10,000 LEDs in local dimming zones, delivering significantly higher peak brightness and contrast. The two displays are completely different components and are not interchangeable. The 14-inch Liquid Retina XDR repair is more complex and costs more than the 13-inch M1 repair. We repair both models in our Hyde Park workshop.',
   },
   {
     question: 'Can the MacBook Pro M1 screen repair be done same day?',
@@ -233,15 +233,15 @@ export default function ScreenRepairMacBookProM1Page() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Full display assembly from R3,999 | Cable repair from R1,499</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Full display assembly and cable repair</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Cpu, label: 'M1 Chip Specialists' },
                 { icon: Eye, label: 'True Tone Preserved' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -293,7 +293,7 @@ export default function ScreenRepairMacBookProM1Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M1 Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including display assembly or component repair, labour, and our warranty. The Apple Store charges R6,000 to R10,000 for a MacBook Pro M1 display assembly swap, we provide a component-level diagnosis first to avoid unnecessary part replacements.
+            Prices below are starting prices including display assembly or component repair, labour, and our warranty. The Apple Store charges many times our price for a MacBook Pro M1 display assembly swap, we provide a component-level diagnosis first to avoid unnecessary part replacements.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -301,7 +301,7 @@ export default function ScreenRepairMacBookProM1Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Repair Type</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Component</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -318,7 +318,7 @@ export default function ScreenRepairMacBookProM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
           </p>
           <PricingRange page="/screen-repair/macbook-pro-m1" />
           <PricingNote variant="inline" />
@@ -385,7 +385,7 @@ export default function ScreenRepairMacBookProM1Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our From R599 assessment policy means that if we cannot resolve your MacBook Pro M1 screen fault, an assessment fee of R599 applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
+              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your MacBook Pro M1 screen fault, an assessment fee applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
             </p>
           </div>
         </div>
@@ -402,7 +402,7 @@ export default function ScreenRepairMacBookProM1Page() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Full display assembly replacement, R6,000 to R10,000+</li>
+                <li>Full display assembly replacement, many times our price</li>
                 <li>Accidental damage not covered by standard warranty</li>
                 <li>True Tone recalibration requires Apple Configurator</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
@@ -414,7 +414,7 @@ export default function ScreenRepairMacBookProM1Page() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Component-level diagnosis, only failed parts replaced</li>
-                <li>MacBook Pro M1 screen from R3,999 | cable from R1,499</li>
+                <li>MacBook Pro M1 screen and cable repair</li>
                 <li>True Tone data preserved on every display replacement</li>
                 <li>Turnaround 24-48 hours for most M1 screen repairs</li>
                 <li>Backlight driver IC repair, no full logic board replacement</li>
@@ -493,7 +493,7 @@ export default function ScreenRepairMacBookProM1Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M1 Screen Fault? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a photo of the fault, we will give you an honest assessment and a price range before you even bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a photo of the fault, we will give you an honest assessment and a price range before you even bring the machine in.  Assessment, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -512,7 +512,7 @@ export default function ScreenRepairMacBookProM1Page() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro M1 screen from R3,999 | Cable repair from R1,499 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro M1 screen and cable repair | Up-to-3 year warranty
             </p>
           </div>
         </div>

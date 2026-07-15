@@ -24,7 +24,7 @@ const faqs = [
   {
     question: 'How much does MacBook data recovery cost in South Africa?',
     answer:
-      'At ZA Support, data recovery assessment starts from R599. Simple recoveries using Target Disk Mode or Share Disk cost R599 to R1,500. Recoveries requiring logic board repair range from R2,500 to R8,000 depending on the fault. Chip-off NAND recovery, which is a last resort, starts from R12,000. We always quote before proceeding, and our No Fix No Fee policy means you only pay if we successfully recover your data.',
+      'At ZA Support, data recovery assessment applies. Simple recoveries using Target Disk Mode or Share Disk are the most affordable option. Recoveries requiring logic board repair cost more depending on the fault. Chip-off NAND recovery, which is a last resort, is the most involved. We always quote before proceeding, and our No Fix No Fee policy means you only pay if we successfully recover your data.',
   },
   {
     question: 'Can I recover data from a MacBook that got water damage?',
@@ -69,7 +69,7 @@ const faqs = [
   {
     question: 'Does ZA Support offer a No Fix No Fee guarantee on data recovery?',
     answer:
-      'Yes. If we cannot recover your data, you only pay the assessment fee starting from R599. The assessment covers the full diagnostic, including opening the MacBook, inspecting the board under microscope, and determining the exact fault. If we determine recovery is possible and quote a repair, you only pay the full amount once your data is successfully extracted and verified.',
+      'Yes. If we cannot recover your data, you only pay the assessment fee. The assessment covers the full diagnostic, including opening the MacBook, inspecting the board under microscope, and determining the exact fault. If we determine recovery is possible and quote a repair, you only pay the full amount once your data is successfully extracted and verified.',
   },
 ];
 
@@ -141,7 +141,7 @@ export default function DataRecoveryGuidePage() {
           <Breadcrumb items={[{ label: 'Guides', href: '/guides' }, { label: 'Recover Data from Dead MacBook' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Data Recovery Guide · Assessment from R599 · No Fix No Fee</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Data Recovery Guide · Assessment · No Fix No Fee</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               How to Recover Data from<br /><span className="text-[#0FEA7A]">a Dead MacBook</span>
@@ -446,19 +446,19 @@ export default function DataRecoveryGuidePage() {
               {
                 title: 'Board-Level Repair',
                 desc: 'The most common professional method. We diagnose the specific failed component on the logic board, whether it is a power management IC, USB-C controller, or corroded trace, and repair it. Once the board functions enough to access the SSD, we extract the data. This works for T2 and Apple Silicon Macs where the SSD cannot be removed.',
-                price: 'R2,500 to R8,000',
+                price: 'Contact for pricing',
                 success: '70% success rate',
               },
               {
                 title: 'Chip-Off NAND Recovery',
                 desc: 'A last-resort technique for pre-T2 Macs (2017 and older). The NAND flash memory chips are carefully desoldered from the logic board and read using specialised NAND readers. The raw data is then reconstructed. This does not work on T2 or Apple Silicon Macs due to hardware encryption.',
-                price: 'From R12,000',
+                price: 'Contact for pricing',
                 success: 'Pre-T2 only',
               },
               {
                 title: 'Clean Room Recovery',
                 desc: 'For older iMacs and Mac Pros with mechanical hard drives (pre-2012). Platters are removed in a dust-free environment and read on donor drive hardware. This is rare in 2026 as most Macs now use SSDs, but we still see the occasional 2011 iMac or Mac mini with a failing HDD.',
-                price: 'From R8,000',
+                price: 'Contact for pricing',
                 success: 'Mechanical drives only',
               },
             ].map((item) => (
@@ -544,13 +544,13 @@ export default function DataRecoveryGuidePage() {
               </thead>
               <tbody>
                 {[
-                  { method: 'Initial Assessment', price: 'From R599', time: 'Same day', applies: 'All MacBooks' },
-                  { method: 'Target Disk Mode / Share Disk', price: 'R599 - R1,500', time: 'Same day', applies: 'MacBooks that partially boot' },
-                  { method: 'SSD Removal + Adapter', price: 'R899 - R1,500', time: 'Same day', applies: '2012-2017 models only' },
-                  { method: 'DFU Firmware Restore', price: 'R899 - R1,500', time: '1-2 days', applies: 'T2 Macs (software fault)' },
-                  { method: 'Board-Level Repair + Extraction', price: 'R2,500 - R8,000', time: '2-5 days', applies: 'T2 and Apple Silicon' },
-                  { method: 'Chip-Off NAND Recovery', price: 'From R12,000', time: '5-10 days', applies: 'Pre-T2 only (last resort)' },
-                  { method: 'Clean Room HDD Recovery', price: 'From R8,000', time: '5-10 days', applies: 'Mechanical drives (older iMacs)' },
+                  { method: 'Initial Assessment', price: 'Contact for pricing', time: 'Same day', applies: 'All MacBooks' },
+                  { method: 'Target Disk Mode / Share Disk', price: 'Contact for pricing', time: 'Same day', applies: 'MacBooks that partially boot' },
+                  { method: 'SSD Removal + Adapter', price: 'Contact for pricing', time: 'Same day', applies: '2012-2017 models only' },
+                  { method: 'DFU Firmware Restore', price: 'Contact for pricing', time: '1-2 days', applies: 'T2 Macs (software fault)' },
+                  { method: 'Board-Level Repair + Extraction', price: 'Contact for pricing', time: '2-5 days', applies: 'T2 and Apple Silicon' },
+                  { method: 'Chip-Off NAND Recovery', price: 'Contact for pricing', time: '5-10 days', applies: 'Pre-T2 only (last resort)' },
+                  { method: 'Clean Room HDD Recovery', price: 'Contact for pricing', time: '5-10 days', applies: 'Mechanical drives (older iMacs)' },
                 ].map((row, i, arr) => (
                   <tr key={row.method} className={`${i < arr.length - 1 ? 'border-b border-[rgba(255,255,255,0.04)]' : ''}`}>
                     <td className="text-[#E8F4F1] py-3 pr-6 font-medium">{row.method}</td>
@@ -565,7 +565,7 @@ export default function DataRecoveryGuidePage() {
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
               <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
-              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">From R599 assessment</span>, Pricing confirmed after diagnosis on every recovery job.</p>
+              <p className="text-[#7A9E98] text-sm"><span className="text-[#E8F4F1] font-semibold">Assessment</span>, Pricing confirmed after diagnosis on every recovery job.</p>
             </div>
             <div className="flex items-center gap-3 p-3 bg-[rgba(15,234,122,0.05)] rounded-lg border border-[rgba(15,234,122,0.1)]">
               <Clock className="w-5 h-5 text-[#0FEA7A] flex-shrink-0" />
@@ -641,7 +641,7 @@ export default function DataRecoveryGuidePage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Dead MacBook? We Can Recover Your Data.
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment from R599. No Fix No Fee. 12-month warranty on all board repairs.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. No Fix No Fee. 12-month warranty on all board repairs.</p>
             <p className="text-[#7A9E98] text-sm mb-8">1 Hyde Park Lane, Hyde Park, Johannesburg 2196. Same-day diagnostic available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

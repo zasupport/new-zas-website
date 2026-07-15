@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Randburg | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Randburg clients. Expert component-level repair, collect from Randburg, repair at Hyde Park workshop. Assessment: from R599. Call 064 529 5863.',
+    'MacBook logic board repair for Randburg clients. Expert component-level repair, collect from Randburg, repair at Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/randburg' },
 };
 
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Randburg',
-  description: 'MacBook logic board component-level repair for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Assessment: from R599. up-to-3 year warranty.',
+  description: 'MacBook logic board component-level repair for Randburg clients. Collection from Randburg, repair at Hyde Park workshop. Assessment. up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -114,8 +114,8 @@ export default function LogicBoardRepairRandburgPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Diagnostic: from R599' },
-                { icon: CheckCircle, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Diagnostic' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -156,7 +156,7 @@ export default function LogicBoardRepairRandburgPage() {
               ZA Support diagnoses and repairs at component level. Our Hyde Park workshop, approximately 15 minutes from central Randburg, has the equipment to trace a fault to a specific chip, capacitor, or trace, repair it under a stereo microscope, and return your original board to service. We offer a collection service from Randburg so you do not need to make the trip.
             </p>
             <p>
-              The Randburg faults we see most often are no-power MacBook Pros (usually a blown fuse or charging IC), USB-C charging issues on newer models, and liquid damage from the home office coffee mug. All are common, all are repairable, and all start with a assessment that gives you the facts before any money is committed.
+              The Randburg faults we see most often are no-power MacBook Pros (usually a blown fuse or charging IC), USB-C charging issues on newer models, and liquid damage from the home office coffee mug. All are common, all are repairable, and all start with an assessment that gives you the facts before any money is committed.
             </p>
           </div>
         </div>
@@ -252,8 +252,8 @@ export default function LogicBoardRepairRandburgPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Fault? Diagnostic: from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Randburg. Assessment: from R599. up-to-3 year warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Randburg MacBook Fault? Diagnostic.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Randburg. Assessment. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-RANDBURG', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 💬 WhatsApp for Quote

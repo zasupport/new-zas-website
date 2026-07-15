@@ -164,7 +164,7 @@ export default function ScreenRepairKemptonParkPage() {
               We repair and replace displays on all MacBook models, MacBook Air (M1, M2, M3, and all Intel generations) and MacBook Pro (13-inch, 14-inch, 15-inch, and 16-inch, across Intel and M-series). In our Hyde Park workshop we have seen every screen fault pattern from blunt impact cracks to backlight driver failures that most shops simply misdiagnose. Every display replacement uses quality-matched panels and is backed by a written ZA Support warranty.
             </p>
             <p>
-              Not every display fault requires a full panel replacement. Backlight failures, flickering caused by a failing display cable, and board-level faults are repaired at component level where possible. The most common mistake we see is a client who has been quoted for a full display assembly when the actual fault was a R600 backlight fuse. We diagnose first, quote second, and never start work without written approval.
+              Not every display fault requires a full panel replacement. Backlight failures, flickering caused by a failing display cable, and board-level faults are repaired at component level where possible. The most common mistake we see is a client who has been quoted for a full display assembly when the actual fault was a minor backlight fuse. We diagnose first, quote second, and never start work without written approval.
             </p>
             <p>
               If your MacBook screen was damaged travelling to or from OR Tambo, or damaged at your Kempton Park office, contact us on WhatsApp and we will arrange a collection the same day or next morning.

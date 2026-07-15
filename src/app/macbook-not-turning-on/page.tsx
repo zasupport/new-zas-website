@@ -23,9 +23,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Not Turning On Johannesburg | Assessment: from R599',
+  title: 'MacBook Not Turning On Johannesburg | Assessment',
   description:
-    'MacBook won\'t turn on? Same-day assessment in Johannesburg. 8 out of 10 Macs that won\'t power on are repairable. Assessment: from R599. Hyde Park. Call 064 529 5863.',
+    'MacBook won\'t turn on? Same-day assessment in Johannesburg. 8 out of 10 Macs that won\'t power on are repairable. Assessment. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/macbook-not-turning-on' },
   keywords: [
     'MacBook not turning on Johannesburg',
@@ -176,12 +176,12 @@ const faqs = [
   {
     question: 'My MacBook won\'t turn on after load shedding, what happened?',
     answer:
-      'Load shedding voltage surges are the leading cause of sudden MacBook death in South Africa. When Eskom power returns after an outage, the surge can destroy the USB-C Power Delivery controller chip, blow a protection fuse on the logic board, or damage the power management IC. The MacBook appears completely dead, no charging light, no response to the power button. This is repairable in the majority of cases. Assessment: from R599 at our Hyde Park workshop, call 064 529 5863.',
+      'Load shedding voltage surges are the leading cause of sudden MacBook death in South Africa. When Eskom power returns after an outage, the surge can destroy the USB-C Power Delivery controller chip, blow a protection fuse on the logic board, or damage the power management IC. The MacBook appears completely dead, no charging light, no response to the power button. This is repairable in the majority of cases. Assessment at our Hyde Park workshop, call 064 529 5863.',
   },
   {
     question: 'How do I know if it\'s the battery or the logic board?',
     answer:
-      'You generally cannot tell from home, and neither can most repair shops without proper testing equipment. The symptoms are nearly identical: no response to power button, black screen, no charging indicator. Our assessment fee (from R599) takes approximately 30 minutes. We use a bench power supply to eliminate the battery as a variable, then use a multimeter and oscilloscope to map the logic board\'s power rails. We will tell you exactly what is wrong and what it will cost before touching anything.',
+      'You generally cannot tell from home, and neither can most repair shops without proper testing equipment. The symptoms are nearly identical: no response to power button, black screen, no charging indicator. Our assessment fee takes approximately 30 minutes. We use a bench power supply to eliminate the battery as a variable, then use a multimeter and oscilloscope to map the logic board\'s power rails. We will tell you exactly what is wrong and what it will cost before touching anything.',
   },
   {
     question: 'My MacBook screen is black but I can hear it starting, is it broken?',
@@ -201,27 +201,27 @@ const faqs = [
   {
     question: 'Is it worth repairing a 7-year-old MacBook that won\'t turn on?',
     answer:
-      'It depends on the fault, the model, and what the machine is worth to you. Our assessment fee (from R599) will tell you exactly what is wrong and what repair costs. A 2017 MacBook Pro with a failed battery is almost always worth fixing, it has years of usable life remaining. A 2012 MacBook Pro with serious liquid damage may not be worth the repair cost. We will always give you our honest recommendation, including whether a used replacement makes more financial sense.',
+      'It depends on the fault, the model, and what the machine is worth to you. Our assessment fee will tell you exactly what is wrong and what repair costs. A 2017 MacBook Pro with a failed battery is almost always worth fixing, it has years of usable life remaining. A 2012 MacBook Pro with serious liquid damage may not be worth the repair cost. We will always give you our honest recommendation, including whether a used replacement makes more financial sense.',
   },
   {
     question: 'My MacBook shows a flashing folder with a question mark on startup, what does that mean?',
     answer:
-      'A flashing folder with a question mark means your MacBook cannot find a bootable operating system. Common causes: failed or corrupted SSD, macOS installation damaged, or storage controller fault on the logic board. In many cases the SSD itself is fine and macOS just needs to be reinstalled via Recovery Mode. If the SSD has failed, data recovery is often still possible. This is diagnosed during the assessment fee (from R599).',
+      'A flashing folder with a question mark means your MacBook cannot find a bootable operating system. Common causes: failed or corrupted SSD, macOS installation damaged, or storage controller fault on the logic board. In many cases the SSD itself is fine and macOS just needs to be reinstalled via Recovery Mode. If the SSD has failed, data recovery is often still possible. This is diagnosed during the assessment fee.',
   },
   {
     question: 'My MacBook gets to the Apple logo then shuts off, what\'s wrong?',
     answer:
-      'A Mac that reaches the Apple logo then powers off is typically experiencing a fault in one of three areas: the logic board power delivery circuit (a component failing under load), the Power Management IC struggling to maintain stable voltage during boot, or a firmware/T2 chip issue on newer models. Less commonly it can be a failing SSD or a kernel extension conflict (software). This requires board-level diagnosis, bring it in for a assessment fee (from R599).',
+      'A Mac that reaches the Apple logo then powers off is typically experiencing a fault in one of three areas: the logic board power delivery circuit (a component failing under load), the Power Management IC struggling to maintain stable voltage during boot, or a firmware/T2 chip issue on newer models. Less commonly it can be a failing SSD or a kernel extension conflict (software). This requires board-level diagnosis, bring it in for an assessment fee.',
   },
   {
     question: 'How long does MacBook repair take?',
     answer:
-      'Assessment: from R599: completed within 24 hours of drop-off. Battery replacement: same day or next day. Firmware restore: 24-48 hours. Charging IC repair: 2-3 business days. Logic board component repair: 1-4 business days depending on complexity. Liquid damage with corrosion: 2-5 business days. We confirm the exact timeframe at the diagnostic stage and update you at each step. No machine sits waiting without communication.',
+      'Assessment: completed within 24 hours of drop-off. Battery replacement: same day or next day. Firmware restore: 24-48 hours. Charging IC repair: 2-3 business days. Logic board component repair: 1-4 business days depending on complexity. Liquid damage with corrosion: 2-5 business days. We confirm the exact timeframe at the diagnostic stage and update you at each step. No machine sits waiting without communication.',
   },
   {
     question: 'What warranty do you offer on MacBook repairs?',
     answer:
-      'All ZA Support repairs carry a up-to-3 year warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within the warranty period, we fix it at from R599. The warranty is transferable if you sell the device.',
+      'All ZA Support repairs carry a up-to-3 year warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within the warranty period, we fix it at our assessment fee. The warranty is transferable if you sell the device.',
   },
 ];
 
@@ -231,7 +231,7 @@ const faqs = [
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Not Turning On, Repair & Diagnosis, Johannesburg',
   description:
-    'Same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. Assessment: from R599. up-to-3 year warranty.',
+    'Same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. Assessment. up-to-3 year warranty.',
   lowPrice: '1599',
   highPrice: '16000',
 });
@@ -315,7 +315,7 @@ export default function MacBookNotTurningOnPage() {
 
             <p className="text-xl sm:text-2xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Don&apos;t panic. <strong className="text-[#E8F4F1]">8 out of 10 MacBooks</strong> that won&apos;t turn on can be repaired.
-              Assessment: from R599, Assessment fee: from R599.
+              Assessment fee applies.
             </p>
 
             <p className="text-[#7A9E98] text-base mb-10 max-w-2xl">
@@ -344,7 +344,7 @@ export default function MacBookNotTurningOnPage() {
 
             {/* Trust row */}
             <div className="flex flex-wrap gap-3">
-              {['Assessment: from R599', 'Assessment: from R599', 'Warranty', 'Same-Day Available', 'Hyde Park, JHB'].map((badge) => (
+              {['Assessment', 'Assessment', 'Warranty', 'Same-Day Available', 'Hyde Park, JHB'].map((badge) => (
                 <span
                   key={badge}
                   className="inline-flex items-center gap-1.5 bg-[rgba(255,255,255,0.04)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] text-sm px-3 py-1.5 rounded-full"
@@ -363,7 +363,7 @@ export default function MacBookNotTurningOnPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
               {[
                 { value: '50,000+', label: 'MacBooks Recovered' },
-                { value: 'R599', label: 'Assessment, from' },
+                { value: 'Contact for pricing', label: 'Assessment, from' },
                 { value: 'No Fix', label: 'No Fee, Zero Risk' },
                 { value: 'Same Day', label: 'Available' },
               ].map((stat) => (
@@ -392,7 +392,7 @@ export default function MacBookNotTurningOnPage() {
             </h2>
             <p className="text-[#7A9E98] text-lg max-w-2xl">
               Before anything else, try these steps. They cost nothing and fix a significant percentage of MacBooks that appear dead.
-              If none of these work, bring it to us. Assessment: from R599.
+              If none of these work, bring it to us. Assessment.
             </p>
           </div>
 
@@ -422,7 +422,7 @@ export default function MacBookNotTurningOnPage() {
           <div className="mt-8 bg-[rgba(15,234,122,0.05)] border border-[#0FEA7A]/20 rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-[#E8F4F1] font-semibold text-lg mb-1">None of these worked?</p>
-              <p className="text-[#7A9E98]">Assessment: from R599 at our Hyde Park workshop. Takes 30 minutes. From R599 regardless of outcome.</p>
+              <p className="text-[#7A9E98]">Assessment at our Hyde Park workshop. Takes 30 minutes.</p>
             </div>
             <a
               href={buildWhatsAppUrl('MBNTO', 'macbook-not-turning-on')}
@@ -503,7 +503,7 @@ export default function MacBookNotTurningOnPage() {
 
             <p className="mt-8 text-[#7A9E98] text-sm text-center">
               Prices confirmed in writing before work begins.{' '}
-              <strong className="text-[#E8F4F1]">Assessment: from R599</strong> applies to all repairs.
+              <strong className="text-[#E8F4F1]">Assessment</strong> applies to all repairs.
             </p>
           </div>
         </section>
@@ -530,8 +530,8 @@ export default function MacBookNotTurningOnPage() {
               {[
                 {
                   step: '1',
-                  title: 'Assessment: from R599',
-                  detail: 'Drop off at Hyde Park or arrange collection. We test the power circuit, battery, logic board rails, and charging path. Completed within 24 hours. Assessment fee of from R599 applies at this stage.',
+                  title: 'Assessment',
+                  detail: 'Drop off at Hyde Park or arrange collection. We test the power circuit, battery, logic board rails, and charging path. Completed within 24 hours. Assessment fee applies at this stage.',
                   icon: <Wrench className="w-5 h-5" />,
                 },
                 {
@@ -625,7 +625,7 @@ export default function MacBookNotTurningOnPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20 text-center">
             <div className="inline-flex items-center gap-2 bg-[#0FEA7A]/10 border border-[#0FEA7A]/20 rounded-full px-4 py-2 mb-6">
               <div className="w-2 h-2 rounded-full bg-[#0FEA7A] animate-pulse" />
-              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment: from R599</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment</span>
             </div>
 
             <h2
@@ -636,7 +636,7 @@ export default function MacBookNotTurningOnPage() {
             </h2>
 
             <p className="text-[#7A9E98] text-lg mb-10 max-w-2xl mx-auto">
-              Assessment: from R599. Written quote. Assessment: from R599. up-to-3 year warranty.
+              Assessment. Written quote. Assessment. up-to-3 year warranty.
               Based in Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways and all surrounding suburbs.
             </p>
 

@@ -54,28 +54,28 @@ const orphanBatterySuburbLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: 'MacBook Battery Replacement Johannesburg [2026] | From R1,499 | ZA Support',
+  title: 'MacBook Battery Replacement Johannesburg [2026] | ZA Support',
   description:
-    'MacBook & iPhone battery replacement in Johannesburg from R1,499. Same-day service, up-to-3 year warranty. From R599 assessment. Assessment from R599. Call 064 529 5863.',
+    'MacBook & iPhone battery replacement in Johannesburg. Same-day service, up-to-3 year warranty. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement' },
 };
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingTiers = [
-  { device: 'MacBook Air (all models)', from: 'R1,499', turnaround: '2-4 hours', warranty: 'Up to 3 years', popular: false },
-  { device: 'MacBook Pro 13″', from: 'R1,799', turnaround: '2-4 hours', warranty: 'Up to 3 years', popular: true },
-  { device: 'MacBook Pro 14″ / 16″', from: 'R2,299', turnaround: '4-6 hours', warranty: 'Up to 3 years', popular: false },
-  { device: 'iPhone (all models)', from: 'R899', turnaround: '30-60 min', warranty: 'Up to 12 months', popular: false },
-  { device: 'iPad (all models)', from: 'R1,299', turnaround: '4-6 hours', warranty: 'Up to 12 months', popular: false },
+  { device: 'MacBook Air (all models)', from: 'Contact for pricing', turnaround: '2-4 hours', warranty: 'Up to 3 years', popular: false },
+  { device: 'MacBook Pro 13″', from: 'Contact for pricing', turnaround: '2-4 hours', warranty: 'Up to 3 years', popular: true },
+  { device: 'MacBook Pro 14″ / 16″', from: 'Contact for pricing', turnaround: '4-6 hours', warranty: 'Up to 3 years', popular: false },
+  { device: 'iPhone (all models)', from: 'Contact for pricing', turnaround: '30-60 min', warranty: 'Up to 12 months', popular: false },
+  { device: 'iPad (all models)', from: 'Contact for pricing', turnaround: '4-6 hours', warranty: 'Up to 12 months', popular: false },
 ];
 
 /* ── Process Steps ───────────────────────────────────────────────────────── */
 const processSteps = [
   { step: 1, title: 'Book & Drop Off', desc: 'WhatsApp us or walk in to our Hyde Park workshop. We will run a battery health diagnostic on the spot, no appointment necessary.' },
-  { step: 2, title: 'Assessment & Quote', desc: 'We test your battery cycle count, maximum capacity, and charging circuitry. You receive a written, fixed-price quote before any work begins. Assessment from R599.' },
+  { step: 2, title: 'Assessment & Quote', desc: 'We test your battery cycle count, maximum capacity, and charging circuitry. You receive a written, fixed-price quote before any work begins. Assessment.' },
   { step: 3, title: 'Battery Replacement', desc: 'Our technicians remove the old battery using precision tools and adhesive solvents. The replacement cell is tested for voltage, capacity, and thermal stability before installation.' },
   { step: 4, title: 'Calibration & QA', desc: 'Full charge-discharge calibration cycle. We verify the battery reports correctly in macOS System Information, confirm MagSafe / USB-C charging, and run a thermal stress test.' },
-  { step: 5, title: 'Collect with Warranty', desc: 'You collect your device with a written warranty, up to 3 years on MacBook batteries, up to 12 months on iPhone and iPad. If the battery fails within the warranty period, we replace it at from R599.' },
+  { step: 5, title: 'Collect with Warranty', desc: 'You collect your device with a written warranty, up to 3 years on MacBook batteries, up to 12 months on iPhone and iPad. If the battery fails within the warranty period, we replace it at our assessment fee.' },
 ];
 
 /* ── Device Compatibility Grid ───────────────────────────────────────────── */
@@ -108,7 +108,7 @@ const suburbPages = [
 const faqs = [
   {
     question: 'How much does a MacBook battery replacement cost in Johannesburg?',
-    answer: 'MacBook Air battery replacement starts from R1,499 and MacBook Pro from R1,799 at our Hyde Park workshop. This is significantly less than the Apple Store, which typically charges R3,500 to R8,000 depending on the model. Our price includes the battery, labour, calibration, and a written warranty of up to 3 years.',
+    answer: 'MacBook Air and MacBook Pro battery replacement is carried out at our Hyde Park workshop. This is significantly less than the Apple Store, which typically charges many times more depending on the model. Our price includes the battery, labour, calibration, and a written warranty of up to 3 years.',
   },
   {
     question: 'How long does a MacBook battery replacement take?',
@@ -132,7 +132,7 @@ const faqs = [
   },
   {
     question: 'What is your warranty on battery replacements?',
-    answer: 'MacBook battery replacements carry a written warranty of up to 3 years covering the battery cell and our workmanship. iPhone and iPad battery replacements carry a warranty of up to 12 months. If the replacement battery fails within the warranty period, capacity drops below 80% or the battery develops a fault, we replace it again at from R599. The warranty is provided in writing at collection.',
+    answer: 'MacBook battery replacements carry a written warranty of up to 3 years covering the battery cell and our workmanship. iPhone and iPad battery replacements carry a warranty of up to 12 months. If the replacement battery fails within the warranty period, capacity drops below 80% or the battery develops a fault, we replace it again at our assessment fee. The warranty is provided in writing at collection.',
   },
   {
     question: 'Can you replace the battery in a MacBook with a swollen battery?',
@@ -143,8 +143,8 @@ const faqs = [
     answer: 'Apple charges a premium that includes their retail overhead, logistics, and the fact that they often replace additional components unnecessarily. For example, Apple replaces the entire top case assembly on many MacBook Pro models rather than just the battery. We replace only the battery cells themselves, which reduces parts cost substantially. Our Hyde Park workshop has lower overheads than a Sandton City retail unit, and we pass those savings directly to you.',
   },
   {
-    question: 'Do you offer a From R599 assessment policy on battery replacements?',
-    answer: 'Yes. If we assess your device and determine that a battery replacement will not resolve your issue, for example, if the problem is actually a logic board fault causing incorrect battery readings, you pay nothing beyond the assessment fee (from R599). We will never replace a battery that does not need replacing. If the battery is the confirmed issue, the assessment fee is included in the replacement cost.',
+    question: 'Do you offer an Assessment policy on battery replacements?',
+    answer: 'Yes. If we assess your device and determine that a battery replacement will not resolve your issue, for example, if the problem is actually a logic board fault causing incorrect battery readings, you pay nothing beyond the assessment fee. We will never replace a battery that does not need replacing. If the battery is the confirmed issue, the assessment fee is included in the replacement cost.',
   },
 ];
 
@@ -153,7 +153,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Battery Replacement Johannesburg',
-  description: 'Professional MacBook, iPhone, and iPad battery replacement in Johannesburg. Same-day service from R1,499. Up-to-3 year warranty. Hyde Park workshop.',
+  description: 'Professional MacBook, iPhone, and iPad battery replacement in Johannesburg. Same-day service. Up-to-3 year warranty. Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -171,19 +171,19 @@ const serviceSchema = {
     itemListElement: [
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Air Battery Replacement', description: 'Same-day MacBook Air battery replacement. From R1,499. Up-to-3 year warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Air Battery Replacement', description: 'Same-day MacBook Air battery replacement. Up-to-3 year warranty.' },
         price: '1499',
         priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Pro Battery Replacement', description: 'Same-day MacBook Pro battery replacement. From R1,799. Up-to-3 year warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Pro Battery Replacement', description: 'Same-day MacBook Pro battery replacement. Up-to-3 year warranty.' },
         price: '1799',
         priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'iPhone Battery Replacement', description: 'iPhone battery replacement in 30-60 minutes. From R899. Up-to-12 month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'iPhone Battery Replacement', description: 'iPhone battery replacement in 30-60 minutes. Up-to-12 month warranty.' },
         price: '899',
         priceCurrency: 'ZAR',
       },
@@ -228,12 +228,12 @@ export default function BatteryReplacementPage() {
                 <span className="text-[#0FEA7A]">Johannesburg</span>
               </h1>
               <p className="text-lg sm:text-xl text-[#7A9E98] mb-4 speakable-summary">
-                Same-day MacBook battery replacement from <strong className="text-[#E8F4F1]">R1,499</strong> at our
-                Hyde Park workshop. iPhone batteries from <strong className="text-[#E8F4F1]">R899</strong>. Up-to-3 year
-                warranty on all MacBook battery replacements. From R599 assessment.
+                Same-day MacBook and iPhone battery replacement at our
+                Hyde Park workshop. Up-to-3 year
+                warranty on all MacBook battery replacements. Assessment.
               </p>
               <p className="text-[#7A9E98] mb-8">
-                The Apple Store charges R3,500 to R8,000 for the same replacement. We fit premium-grade cells
+                The Apple Store charges many times more for the same replacement. We fit premium-grade cells
                 that match OEM specifications, at a fraction of the price.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -265,7 +265,7 @@ export default function BatteryReplacementPage() {
               { icon: Shield, label: 'Up-to-3 Year Warranty' },
               { icon: Clock, label: 'Same-Day Service' },
               { icon: Star, label: `${SITE.rating}★ (${SITE.reviewCount} Reviews)` },
-              { icon: CheckCircle, label: 'From R599 assessment' },
+              { icon: CheckCircle, label: 'Assessment' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex flex-col items-center gap-2">
                 <Icon className="w-6 h-6 text-[#0FEA7A]" />
@@ -319,15 +319,15 @@ export default function BatteryReplacementPage() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">Battery Replacement Pricing</h2>
             <p className="text-[#7A9E98] mb-10 max-w-2xl">
-              All prices include the battery, labour, calibration, and a written warranty. No hidden costs. Compare with
-              the Apple Store, which charges R3,500 to R8,000 for the same service.
+              All pricing includes the battery, labour, calibration, and a written warranty. No hidden costs. Compare with
+              the Apple Store, which charges many times more for the same service.
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
                   <tr className="border-b border-[#27504D]/40">
                     <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">Device</th>
-                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">From</th>
+                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">Pricing</th>
                     <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Turnaround</th>
                     <th className="py-4 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Warranty</th>
                   </tr>
@@ -348,8 +348,8 @@ export default function BatteryReplacementPage() {
               </table>
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
-              Assessment fee from R599. If you proceed with the replacement, the assessment fee is included in the total cost.
-              All prices are in ZAR and include VAT.
+              An assessment fee applies. If you proceed with the replacement, the assessment fee is included in the total cost.
+              All pricing is in ZAR and includes VAT.
             </p>
             <PricingRange page="/battery-replacement" />
             <PricingNote />
@@ -409,7 +409,7 @@ export default function BatteryReplacementPage() {
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     Every MacBook battery replacement includes a written warranty of up to 3 years. This covers the
                     battery cell and our workmanship. If your replacement battery drops below 80% maximum capacity or
-                    develops any fault within the warranty period, we replace it again at from R599, parts and labour
+                    develops any fault within the warranty period, we replace it again at our assessment fee, parts and labour
                     included.
                   </p>
                   <p className="text-[#7A9E98] leading-relaxed">
@@ -422,10 +422,10 @@ export default function BatteryReplacementPage() {
                   <h3 className="text-xl font-bold mb-3 text-[#0FEA7A]">iPhone & iPad, Up to 12 Months</h3>
                   <p className="text-[#7A9E98] leading-relaxed mb-4">
                     iPhone and iPad battery replacements carry a written warranty of up to 12 months. The same principle
-                    applies: if the battery fails within the warranty period, we replace it at from R599. We test every
+                    applies: if the battery fails within the warranty period, we replace it at our assessment fee. We test every
                     iPhone battery for capacity and thermal stability before fitting it.
                   </p>
-                  <h3 className="text-xl font-bold mb-3 mt-6 text-[#0FEA7A]">From R599 assessment</h3>
+                  <h3 className="text-xl font-bold mb-3 mt-6 text-[#0FEA7A]">Assessment</h3>
                   <p className="text-[#7A9E98] leading-relaxed">
                     If we determine that your battery is not the issue, for instance, if a{' '}
                     <Link href="/logic-board-repair" className="text-[#0FEA7A] underline hover:no-underline">logic board fault</Link>{' '}
@@ -445,8 +445,8 @@ export default function BatteryReplacementPage() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  title: 'Apple Store: R3,500-R8,000',
-                  desc: 'The Apple Store in Sandton City charges R3,500 for a MacBook Air battery and up to R8,000 for a MacBook Pro 16-inch. They also replace the entire top case on most models, adding unnecessary cost. We replace only the battery cells, same result, fraction of the price.',
+                  title: 'Apple Store Charges Far More',
+                  desc: 'The Apple Store in Sandton City charges many times more for a MacBook Air or MacBook Pro 16-inch battery. They also replace the entire top case on most models, adding unnecessary cost. We replace only the battery cells, same result, fraction of the price.',
                 },
                 {
                   title: '16 Years of Experience',
@@ -462,7 +462,7 @@ export default function BatteryReplacementPage() {
                 },
                 {
                   title: 'Transparent Pricing',
-                  desc: 'You receive a written, fixed-price quote before any work begins. The quote is the final price, no surprises, no hidden charges, no "we found something else" upsells. Assessment from R599, included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote before any work begins. The quote is the final price, no surprises, no hidden charges, no "we found something else" upsells. Assessment, included in the repair cost if you proceed.',
                 },
                 {
                   title: 'Central Location',
@@ -583,7 +583,7 @@ export default function BatteryReplacementPage() {
                   MacBook logic board repair
                 </h3>
                 <p className="text-[#7A9E98] text-sm">
-                  Component-level board repair for no-power, no-boot, GPU and PMIC faults, Apple Store and Mac Shack quotes typically R15,000+, our route is from R599 assessment.
+                  Component-level board repair for no-power, no-boot, GPU and PMIC faults, a fraction of Apple Store and Mac Shack quotes, our route starts with an assessment.
                 </p>
               </Link>
               <Link

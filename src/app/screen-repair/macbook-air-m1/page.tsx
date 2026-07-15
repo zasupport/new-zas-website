@@ -10,9 +10,9 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air M1 Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
+  title: 'MacBook Air M1 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air M1 screen repair Johannesburg from R2,499. Liquid Retina display, fanless design, True Tone. Backlight repair, cracked panel, anti-reflective coating. No Fix No Fee.',
+    'MacBook Air M1 screen repair Johannesburg. Liquid Retina display, fanless design, True Tone. Backlight repair, cracked panel, anti-reflective coating. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-air-m1' },
   keywords: [
     'MacBook Air M1 screen repair Johannesburg',
@@ -46,7 +46,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air M1 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Air M1 screen repair in Johannesburg. Liquid Retina 2560×1600, True Tone, P3 wide colour. Fanless design considerations. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Air M1 screen repair in Johannesburg. Liquid Retina 2560×1600, True Tone, P3 wide colour. Fanless design considerations. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -60,9 +60,9 @@ const serviceSchema = {
 };
 
 const pricingRows = [
-  { model: 'MacBook Air M1 (A2337, Late 2020)', panel: 'IPS LCD Liquid Retina 2560×1600 True Tone', from: 'R2,499', turnaround: '24-48 hrs' },
-  { model: 'MacBook Air M1, display cable replacement', panel: 'Flex cable only (no panel swap)', from: 'R1,499', turnaround: '24 hrs' },
-  { model: 'MacBook Air M1, anti-reflective coating', panel: 'AR coating delamination', from: 'R2,499', turnaround: '24-48 hrs' },
+  { model: 'MacBook Air M1 (A2337, Late 2020)', panel: 'IPS LCD Liquid Retina 2560×1600 True Tone', from: 'Contact for pricing', turnaround: '24-48 hrs' },
+  { model: 'MacBook Air M1, display cable replacement', panel: 'Flex cable only (no panel swap)', from: 'Contact for pricing', turnaround: '24 hrs' },
+  { model: 'MacBook Air M1, anti-reflective coating', panel: 'AR coating delamination', from: 'Contact for pricing', turnaround: '24-48 hrs' },
 ];
 
 const faultTypes = [
@@ -126,12 +126,12 @@ const faqs = [
   {
     question: 'How much does MacBook Air M1 screen repair cost in Johannesburg?',
     answer:
-      'MacBook Air M1 screen repair starts from R2,499 for a full display assembly replacement (A2337). If the fault is isolated to the display flex cable, the repair starts from R1,499. Anti-reflective coating delamination, where the display functions correctly but the coating has failed, also starts from R2,499. Apple Store charges R6,000 to R9,000 for the same repair. We provide a written fixed-price quote before any work begins.',
+      'MacBook Air M1 screen repair pricing depends on the fault. A full display assembly replacement (A2337) is at the upper end, while a repair isolated to the display flex cable is more affordable. Anti-reflective coating delamination, where the display functions correctly but the coating has failed, is priced as a display assembly replacement. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.',
   },
   {
     question: 'My MacBook Air M1 screen looks smeared or cloudy, is this repairable?',
     answer:
-      'Yes. This is anti-reflective coating delamination, one of the most common MacBook Air M1 screen complaints we see. The coating on the 2020 Liquid Retina display is relatively fragile and can delaminate through contact with cleaning agents, rough cloths, or even keyboard-to-screen contact when the lid is closed with something between them. The display itself is functioning perfectly. The fix is a display assembly replacement; we cannot re-apply the AR coating to the existing glass. Starting from R2,499.',
+      'Yes. This is anti-reflective coating delamination, one of the most common MacBook Air M1 screen complaints we see. The coating on the 2020 Liquid Retina display is relatively fragile and can delaminate through contact with cleaning agents, rough cloths, or even keyboard-to-screen contact when the lid is closed with something between them. The display itself is functioning perfectly. The fix is a display assembly replacement; we cannot re-apply the AR coating to the existing glass. Contact us for pricing.',
   },
   {
     question: 'Does the MacBook Air M1 have the flexgate problem?',
@@ -171,7 +171,7 @@ const faqs = [
   {
     question: 'Is it worth repairing a MacBook Air M1 screen?',
     answer:
-      'Almost always yes. The MacBook Air M1 is an exceptionally capable machine that holds its value well, the M1 chip is still among the most efficient processors available. A screen repair at R2,499 to R3,499 restores the machine to full function, compared to the cost of a replacement M2 or M3 Air. Many of our clients in Sandton, Rosebank, and Fourways have repaired M1 Airs that are 3 to 4 years old and plan to keep using them for several more years.',
+      'Almost always yes. The MacBook Air M1 is an exceptionally capable machine that holds its value well, the M1 chip is still among the most efficient processors available. A screen repair restores the machine to full function, at a fraction of the cost of a replacement M2 or M3 Air. Many of our clients in Sandton, Rosebank, and Fourways have repaired M1 Airs that are 3 to 4 years old and plan to keep using them for several more years.',
   },
   {
     question: 'What cleaning products should I avoid on my MacBook Air M1 screen?',
@@ -202,11 +202,11 @@ export default function ScreenRepairMacBookAirM1Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The first Apple Silicon MacBook Air, and one of the most common screens we repair in our Hyde Park workshop. AR coating delamination, backlight failure, cracked Liquid Retina panels. True Tone preserved on every repair. Assessment from R599.
+              The first Apple Silicon MacBook Air, and one of the most common screens we repair in our Hyde Park workshop. AR coating delamination, backlight failure, cracked Liquid Retina panels. True Tone preserved on every repair. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Air M1 screen from R2,499 | 24-48 hr turnaround</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Air M1 screen repair | 24-48 hr turnaround</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -214,7 +214,7 @@ export default function ScreenRepairMacBookAirM1Page() {
                 { icon: Monitor, label: 'All M1 Air Faults' },
                 { icon: Cpu, label: 'True Tone Preserved' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -266,7 +266,7 @@ export default function ScreenRepairMacBookAirM1Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M1 Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include parts, labour, and our up-to-3 year warranty. Apple Store charges R6,000 to R9,000 for the same repair. We provide a written fixed-price quote before any work begins.
+            All prices include parts, labour, and our up-to-3 year warranty. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -274,7 +274,7 @@ export default function ScreenRepairMacBookAirM1Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Panel Type</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -291,7 +291,7 @@ export default function ScreenRepairMacBookAirM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -357,7 +357,7 @@ export default function ScreenRepairMacBookAirM1Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, R599 assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -368,13 +368,13 @@ export default function ScreenRepairMacBookAirM1Page() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Apple iStore vs ZA Support: MacBook Air M1 Screen Repair</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            Apple replaces the full display assembly and charges R6,000 to R9,000. We diagnose the specific fault and charge significantly less, with a warranty that is often longer than any remaining AppleCare+.
+            Apple replaces the full display assembly and charges many times our price. We diagnose the specific fault and charge significantly less, with a warranty that is often longer than any remaining AppleCare+.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Display assembly replacement, R6,000 to R9,000+</li>
+                <li>Display assembly replacement, many times our price</li>
                 <li>AR coating damage not covered by standard warranty</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
                 <li>True Tone requires Apple Configurator re-pair</li>
@@ -385,8 +385,8 @@ export default function ScreenRepairMacBookAirM1Page() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>MacBook Air M1 screen from R2,499</li>
-                <li>Cable-only repair from R1,499 where appropriate</li>
+                <li>MacBook Air M1 screen repair, contact for pricing</li>
+                <li>Cable-only repair where appropriate</li>
                 <li>True Tone data migrated as standard</li>
                 <li>Turnaround 24-48 hours from drop-off</li>
                 <li>Flex cable diagnosed before assembly replacement</li>

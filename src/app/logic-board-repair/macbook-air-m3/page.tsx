@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Air M3 Logic Board Repair 2026',
   description:
-    'Expert MacBook Air M3 logic board repair in Johannesburg. Component-level diagnosis of M3 chip, MagSafe 3, USB-C and backlight failures. From R599 assessment. Assessment from R599.',
+    'Expert MacBook Air M3 logic board repair in Johannesburg. Component-level diagnosis of M3 chip, MagSafe 3, USB-C and backlight failures. Assessment.',
   alternates: {
     canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m3',
   },
@@ -25,7 +25,7 @@ const faults = [
   },
   {
     fault: 'MagSafe 3 Charging Not Working',
-    desc: 'Amber light but from R599, or no LED at all, both point to the MagSafe 3 sense circuit on the logic board rather than the cable itself. The M3 Air shares the same connector footprint as the M2, so the weak point is identical: the four outermost pads that carry the charge negotiation signal. We reflow or replace the gate driver and test at full 67 W input before returning the machine.',
+    desc: 'Amber light, or no LED at all, both point to the MagSafe 3 sense circuit on the logic board rather than the cable itself. The M3 Air shares the same connector footprint as the M2, so the weak point is identical: the four outermost pads that carry the charge negotiation signal. We reflow or replace the gate driver and test at full 67 W input before returning the machine.',
   },
   {
     fault: 'USB-C / Thunderbolt Port Failure',
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: 'How much does a MacBook Air M3 logic board repair cost in South Africa?',
     answer:
-      'Our assessment fee starts at R599 and is deducted from the final repair cost if you proceed. Component-level repairs on the M3 Air typically range from R2,500 to R6,500 depending on the fault, far less than Apple\'s flat-rate board replacement of R12,000 or more. We provide an exact quote before any work begins.',
+      'Our assessment fee is deducted from the final repair cost if you proceed. Component-level repairs on the M3 Air cost far less than Apple\'s flat-rate board replacement. We provide an exact quote before any work begins.',
   },
   {
     question: 'Is the MacBook Air M3 logic board repairable at component level?',
@@ -77,9 +77,9 @@ const faqs = [
       'We repair both variants. The 13-inch (model A3113) and 15-inch (model A3114) share the same M3 chip and nearly identical power delivery circuitry. The 15-inch model has a slightly larger battery and an additional speaker, but the logic board layout and common failure points are the same.',
   },
   {
-    question: 'What is your From R599 assessment policy?',
+    question: 'What is your Assessment policy?',
     answer:
-      'If we cannot resolve the fault after diagnosis, you pay nothing beyond the initial R599 assessment fee. The assessment covers a full component-level inspection with thermal imaging and board-level testing, you receive a detailed report regardless of whether you proceed with the repair.',
+      'If we cannot resolve the fault after diagnosis, you pay nothing beyond the initial assessment fee. The assessment covers a full component-level inspection with thermal imaging and board-level testing, you receive a detailed report regardless of whether you proceed with the repair.',
   },
   {
     question: 'How do I get my MacBook Air M3 to your workshop?',
@@ -138,7 +138,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </h1>
           <p className="mt-4 text-lg text-[#7A9E98] max-w-2xl mx-auto">
             Component-level micro-soldering for the 2024 MacBook Air with Apple&apos;s 3nm M3 chip.
-            From R599 assessment, assessment from R599 with a written warranty on every repair.
+            Assessment, assessment with a written warranty on every repair.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -212,8 +212,8 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </div>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
-              'From R599 assessment guarantee',
-              'Assessment from R599',
+              'Assessment guarantee',
+              'Assessment',
               'Written warranty included',
               'Genuine and tested parts',
               '3-5 day typical turnaround',

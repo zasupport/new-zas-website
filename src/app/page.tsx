@@ -145,12 +145,12 @@ const homepageFaqs = [
   {
     question: 'What is your assessment fee?',
     answer:
-      'ZA Support charges an assessment fee of from R599. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a up-to-3 year warranty on parts and labour.',
+      'ZA Support charges an assessment fee. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a up-to-3 year warranty on parts and labour.',
   },
   {
     question: 'How much does Mac repair cost in Johannesburg?',
     answer:
-      'Mac repair cost depends on the device and fault. An assessment fee of from R599 applies, we diagnose and provide a fixed quote before starting any work. Extended warranty is available on request.',
+      'Mac repair cost depends on the device and fault. An assessment fee applies, we diagnose and provide a fixed quote before starting any work. Extended warranty is available on request.',
   },
   {
     question: 'Do you repair MacBook liquid damage?',
@@ -205,7 +205,7 @@ export default function HomePage() {
             </h1>
 
             <p className="speakable-summary text-base sm:text-lg text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
-              MacBook liquid damage, logic board component-level repair, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment: from R599. up-to-3 year warranty.
+              MacBook liquid damage, logic board component-level repair, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment. up-to-3 year warranty.
             </p>
 
             {/* Stats */}
@@ -241,7 +241,7 @@ export default function HomePage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
-                Book Assessment: from R599
+                Book Assessment
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
@@ -261,7 +261,7 @@ export default function HomePage() {
               { icon: Shield, label: 'Up-to-3 Year Warranty' },
               { icon: BadgeCheck, label: '16 Years Experience' },
               { icon: Clock, label: 'Fastest Turnaround Times' },
-              { icon: Search, label: 'Assessment: from R599' },
+              { icon: Search, label: 'Assessment' },
               { icon: MapPin, label: 'Hyde Park, JHB' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2 text-[#E8F4F1]">
@@ -435,7 +435,7 @@ export default function HomePage() {
               Book Your Assessment
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
-              Bring your device in. We&apos;ll assess it (from R599), give you a clear quote,
+              Bring your device in. We&apos;ll assess it, give you a clear quote,
               and fix it fast, backed by a up-to-3 year warranty. Extended warranty available on request.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -11,9 +11,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M2 Screen Repair Johannesburg [2026] | From R4,199 | ZA Support',
+  title: 'MacBook Pro M2 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro M2 screen repair in Johannesburg from R4,199. Liquid Retina & XDR display specialists. Backlight IC, display cable, True Tone. From R599 assessment. Hyde Park workshop.',
+    'MacBook Pro M2 screen repair in Johannesburg. Liquid Retina & XDR display specialists. Backlight IC, display cable, True Tone. Assessment. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-m2' },
   keywords: [
     'MacBook Pro M2 screen repair Johannesburg',
@@ -49,7 +49,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M2 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro M2 screen repair in Johannesburg. Liquid Retina XDR display replacement, display cable fault, backlight driver IC repair, True Tone preservation, ProMotion 120 Hz. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro M2 screen repair in Johannesburg. Liquid Retina XDR display replacement, display cable fault, backlight driver IC repair, True Tone preservation, ProMotion 120 Hz. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -77,25 +77,25 @@ const pricingRows = [
   {
     model: 'MacBook Pro 13″ M2 (A2686, 2022)',
     panel: 'IPS LCD Retina (2560 × 1600, 227 ppi)',
-    from: 'R4,199',
+    from: 'Contact for pricing',
     turnaround: '24-48 hrs',
   },
   {
     model: 'MacBook Pro 14″ M2 Pro / M2 Max (A2779, 2023)',
     panel: 'Liquid Retina XDR mini-LED (3024 × 1964, 254 ppi)',
-    from: 'R5,499',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 16″ M2 Pro / M2 Max (A2780, 2023)',
     panel: 'Liquid Retina XDR mini-LED (3456 × 2234, 254 ppi)',
-    from: 'R6,999',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro M2, display cable / backlight IC only',
     panel: 'Component-level backlight driver or cable repair',
-    from: 'R1,799',
+    from: 'Contact for pricing',
     turnaround: '24-48 hrs',
   },
 ];
@@ -110,7 +110,7 @@ const faultTypes = [
   {
     title: 'Backlight Driver IC Failure: Load Shedding Surge Damage',
     icon: Zap,
-    desc: 'Load shedding remains the leading cause of MacBook Pro backlight failure in Johannesburg. The MacBook Pro M2, particularly the 13-inch A2686, uses a USB-C charger that many clients leave connected overnight. When Eskom power restores after a stage-6 outage in Sandton, Bryanston, or Randburg, the inrush voltage on the backlight rail can destroy the backlight driver IC on the logic board. The symptom is an otherwise functional machine with a completely dark display, hold a torch against the screen at a low angle and you will faintly see the desktop. We repair the backlight driver IC at component level from R1,799, without replacing the logic board.',
+    desc: 'Load shedding remains the leading cause of MacBook Pro backlight failure in Johannesburg. The MacBook Pro M2, particularly the 13-inch A2686, uses a USB-C charger that many clients leave connected overnight. When Eskom power restores after a stage-6 outage in Sandton, Bryanston, or Randburg, the inrush voltage on the backlight rail can destroy the backlight driver IC on the logic board. The symptom is an otherwise functional machine with a completely dark display, hold a torch against the screen at a low angle and you will faintly see the desktop. We repair the backlight driver IC at component level, without replacing the logic board.',
     severity: 'high',
   },
   {
@@ -161,12 +161,12 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M2 screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro M2 screen repair at ZA Support starts from R4,199 for the 13-inch (A2686) IPS Retina display assembly, R5,499 for the 14-inch Liquid Retina XDR (A2779), and R6,999 for the 16-inch Liquid Retina XDR (A2780). Component-level repairs, display cable or backlight driver IC, start from R1,799 and are always assessed before recommending a full assembly replacement. The Apple Store and iStore charge R8,000 to R18,000 for the same display swaps. We provide a written fixed-price quote after diagnosis before any work begins.',
+      'MacBook Pro M2 screen repair at ZA Support is quoted per model, with the 13-inch (A2686) IPS Retina, the 14-inch Liquid Retina XDR (A2779), and the 16-inch Liquid Retina XDR (A2780) each priced individually. Component-level repairs, display cable or backlight driver IC, cost less than a full assembly and are always assessed before recommending a full assembly replacement. The Apple Store and iStore charge many times our price for the same display swaps. We provide a written fixed-price quote after diagnosis before any work begins.',
   },
   {
     question: 'My MacBook Pro M2 screen is completely black but the Mac appears to be running. What is wrong?',
     answer:
-      'The most likely cause is backlight failure. To confirm: hold a torch against the display at a low angle in a dark room. If you can faintly make out the desktop, your M2 chip and GPU are working normally, the backlight circuit has failed. In Johannesburg this is very frequently caused by a load shedding voltage surge reaching the backlight driver IC via the USB-C charger. We repair this at component level from R1,799. If there is nothing visible under torchlight, the fault may be in the display panel, the display cable, or the GPU, our assessment identifies the exact cause.',
+      'The most likely cause is backlight failure. To confirm: hold a torch against the display at a low angle in a dark room. If you can faintly make out the desktop, your M2 chip and GPU are working normally, the backlight circuit has failed. In Johannesburg this is very frequently caused by a load shedding voltage surge reaching the backlight driver IC via the USB-C charger. We repair this at component level. If there is nothing visible under torchlight, the fault may be in the display panel, the display cable, or the GPU, our assessment identifies the exact cause.',
   },
   {
     question: 'Does MacBook Pro M2 screen replacement preserve ProMotion and True Tone?',
@@ -186,12 +186,12 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked MacBook Pro M2 screen?',
     answer:
-      'In almost every case, yes. The M2 chip itself is highly reliable and continues to receive macOS updates for many years. A MacBook Pro M2 14-inch in good condition sells for R22,000 to R35,000 on the South African used market. Our display assembly replacement starts from R5,499, roughly 15 to 25% of replacement cost. We will tell you honestly if the repair cost does not stack up for your specific machine and fault combination, but this is uncommon. The screen is a replaceable component; the M2 chip is not.',
+      'In almost every case, yes. The M2 chip itself is highly reliable and continues to receive macOS updates for many years. A MacBook Pro M2 14-inch in good condition still holds strong resale value on the South African used market. Our display assembly replacement costs only a fraction of that. We will tell you honestly if the repair cost does not stack up for your specific machine and fault combination, but this is uncommon. The screen is a replaceable component; the M2 chip is not.',
   },
   {
     question: 'Can load shedding damage the MacBook Pro M2 screen?',
     answer:
-      'Yes, and we see this regularly in Johannesburg. The MacBook Pro M2 is typically used with a USB-C charger that many clients leave plugged in. When Eskom power restores after an outage, especially stage 4 to 6, the voltage surge travels through the charger onto the backlight power rail and can destroy the backlight driver IC. The symptom is a fully dark screen on an otherwise working machine. This is a component-level repair from R1,799. We strongly recommend using a quality UPS with the MacBook Pro M2 rather than a basic surge bar, which does not protect against inrush voltage from power restoration.',
+      'Yes, and we see this regularly in Johannesburg. The MacBook Pro M2 is typically used with a USB-C charger that many clients leave plugged in. When Eskom power restores after an outage, especially stage 4 to 6, the voltage surge travels through the charger onto the backlight power rail and can destroy the backlight driver IC. The symptom is a fully dark screen on an otherwise working machine. This is a component-level repair. We strongly recommend using a quality UPS with the MacBook Pro M2 rather than a basic surge bar, which does not protect against inrush voltage from power restoration.',
   },
   {
     question: 'Do you repair MacBook Pro M2 screens damaged by a previous repair attempt?',
@@ -241,15 +241,15 @@ export default function ScreenRepairMacBookProM2Page() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 13-inch from R4,199 | 14-inch from R5,499 | 16-inch from R6,999</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 13-inch, 14-inch and 16-inch serviced</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Cpu, label: 'M2 Chip Specialists' },
                 { icon: Eye, label: 'True Tone & ProMotion Preserved' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -301,7 +301,7 @@ export default function ScreenRepairMacBookProM2Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M2 Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge R8,000 to R18,000 for MacBook Pro M2 display swaps, we perform a component-level diagnosis first to avoid unnecessary part replacements and keep costs down where possible.
+            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge many times our price for MacBook Pro M2 display swaps, we perform a component-level diagnosis first to avoid unnecessary part replacements and keep costs down where possible.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -309,7 +309,7 @@ export default function ScreenRepairMacBookProM2Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Repair Type</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Component</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -326,7 +326,7 @@ export default function ScreenRepairMacBookProM2Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. From R599 assessment applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
           </p>
           <PricingRange page="/screen-repair/macbook-pro-m2" />
           <PricingNote variant="inline" />
@@ -393,7 +393,7 @@ export default function ScreenRepairMacBookProM2Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our From R599 assessment policy means that if we cannot resolve your MacBook Pro M2 screen fault, an assessment fee of R599 applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
+              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your MacBook Pro M2 screen fault, an assessment fee applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
             </p>
           </div>
         </div>
@@ -410,7 +410,7 @@ export default function ScreenRepairMacBookProM2Page() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Full display assembly replacement, R8,000 to R18,000+</li>
+                <li>Full display assembly replacement, many times our price</li>
                 <li>Accidental damage not covered by standard warranty</li>
                 <li>ProMotion and True Tone recalibration requires Apple Configurator</li>
                 <li>Turnaround 5-10 business days via Apple depot</li>
@@ -422,7 +422,7 @@ export default function ScreenRepairMacBookProM2Page() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Component-level diagnosis, only failed parts replaced</li>
-                <li>13-inch from R4,199 | 14-inch from R5,499 | 16-inch from R6,999</li>
+                <li>13-inch, 14-inch and 16-inch models serviced</li>
                 <li>ProMotion verified and True Tone data preserved on every replacement</li>
                 <li>Turnaround 24-72 hours for most M2 screen repairs</li>
                 <li>Backlight driver IC repair, no full logic board replacement</li>
@@ -501,7 +501,7 @@ export default function ScreenRepairMacBookProM2Page() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M2 Screen Fault? Let Us Diagnose It.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us a photo of the fault, we will give you an honest assessment and a price range before you even bring the machine in.  Assessment from R599, applied toward the repair if you proceed.
+              WhatsApp us a photo of the fault, we will give you an honest assessment and a price range before you even bring the machine in.  Assessment, applied toward the repair if you proceed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

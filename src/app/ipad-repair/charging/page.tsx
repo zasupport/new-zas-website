@@ -31,7 +31,7 @@ const pricingRows = [
   { service: 'Lightning port repair / replacement', price: 'Contact for pricing', note: 'Older iPad models' },
   { service: 'USB-C port repair / replacement', price: 'Contact for pricing', note: 'iPad Air, Pro, mini 6+' },
   { service: 'Charging IC / logic board repair', price: 'Contact for pricing', note: 'Board-level diagnosis first' },
-  { service: 'Assessment', price: 'From R599', note: 'Assessment: from R599' },
+  { service: 'Assessment', price: 'Contact for pricing', note: 'Assessment' },
 ];
 
 const causes = [
@@ -78,23 +78,23 @@ const causes = [
 ];
 
 const processSteps = [
-  { step: '1', title: 'Assessment: from R599', desc: 'We test the port, cable, battery, and charging circuit. Most charging faults are diagnosed in under 30 minutes.' },
+  { step: '1', title: 'Assessment', desc: 'We test the port, cable, battery, and charging circuit. Most charging faults are diagnosed in under 30 minutes.' },
   { step: '2', title: 'Root Cause Identified', desc: 'We confirm whether the fault is debris, a damaged port, a charging IC fault, or the battery, before quoting.' },
-  { step: '3', title: 'Fixed Price Quote', desc: 'You receive a written fixed-price quote. No surprises. From R599 if you decline the repair.' },
+  { step: '3', title: 'Fixed Price Quote', desc: 'You receive a written fixed-price quote. No surprises.' },
   { step: '4', title: 'Repair Completed', desc: 'A certified technician carries out the repair. Port clean: same visit. Port replacement: 1-3 hours. Board repair: 1-2 days.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'up-to-3 year warranty on parts and labour. Assessment: from R599 applies to every repair.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'up-to-3 year warranty on parts and labour. Assessment applies to every repair.' },
 ];
 
 const faqs = [
   {
     question: 'Why is my iPad not charging?',
     answer:
-      'The most common cause is a blocked charging port, lint and pocket debris compact over time and prevent the cable making contact. Other causes include a faulty cable, a damaged port, a failed charging IC on the logic board, or a critically degraded battery. We diagnose all four in a assessment fee (from R599). Contact us for a quote.',
+      'The most common cause is a blocked charging port, lint and pocket debris compact over time and prevent the cable making contact. Other causes include a faulty cable, a damaged port, a failed charging IC on the logic board, or a critically degraded battery. We diagnose all four in an assessment fee. Contact us for a quote.',
   },
   {
     question: 'How much does iPad charging port repair cost in Johannesburg?',
     answer:
-      'A charging port clean resolves most cases. If the port needs replacement, we carry out Lightning or USB-C port repair as needed. Logic board charging IC faults require board-level diagnosis. All repairs include an initial assessment from R599. Contact us for a quote.',
+      'A charging port clean resolves most cases. If the port needs replacement, we carry out Lightning or USB-C port repair as needed. Logic board charging IC faults require board-level diagnosis. All repairs include an initial assessment. Contact us for a quote.',
   },
   {
     question: 'Can a dirty charging port stop an iPad from charging completely?',
@@ -104,7 +104,7 @@ const faqs = [
   {
     question: 'My iPad charges slowly, is that a port problem?',
     answer:
-      'Slow charging can be caused by a partially blocked port, a low-wattage charger, a faulty cable, or a degraded battery. iPad Pro models require at least a 20W USB-C charger to charge at full speed. We test all these factors in the assessment fee (from R599) before recommending any repair.',
+      'Slow charging can be caused by a partially blocked port, a low-wattage charger, a faulty cable, or a degraded battery. iPad Pro models require at least a 20W USB-C charger to charge at full speed. We test all these factors in the assessment fee before recommending any repair.',
   },
   {
     question: 'Is it worth repairing an iPad charging port?',
@@ -124,7 +124,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad charging repairs?',
     answer:
-      'Yes. All iPad charging repairs at ZA Support include a up-to-3 year warranty on parts and labour. If the port or related component fails within the warranty period, we fix it at from R599. This applies to port cleans, port replacements, and logic board charging repairs.',
+      'Yes. All iPad charging repairs at ZA Support include a up-to-3 year warranty on parts and labour. If the port or related component fails within the warranty period, we fix it at our assessment fee. This applies to port cleans, port replacements, and logic board charging repairs.',
   },
 ];
 
@@ -177,11 +177,11 @@ export default function iPadChargingPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Dirty port, damaged pins, charging IC fault, or dead battery, we diagnose iPad charging
-              problems. Assessment: from R599. All models, Lightning and USB-C.
+              problems. Assessment. All models, Lightning and USB-C.
               up-to-3 year warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment: from R599', 'Up-to-3 Year Warranty', 'Assessment: from R599', 'Same-day for most faults'].map((item) => (
+              {['Assessment', 'Up-to-3 Year Warranty', 'Assessment', 'Same-day for most faults'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -241,7 +241,7 @@ export default function iPadChargingPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment: from R599.
+            All repairs include written up-to-3 year warranty. Assessment.
           </p>
           <PricingRange page="/ipad-repair/charging" />
           <PricingNote variant="inline" />
@@ -318,7 +318,7 @@ export default function iPadChargingPage() {
             >
               iPad Not Charging?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment: from R599.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

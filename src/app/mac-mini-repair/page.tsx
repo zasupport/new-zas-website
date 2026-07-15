@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
   description:
-    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Assessment: from R599.',
+    'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), thermal paste, overheating, no-power, and logic board repair. Hyde Park. Assessment.',
   alternates: { canonical: 'https://zasupport.com/mac-mini-repair' },
   keywords: [
     'mac mini repair johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Mac Mini Repair & Upgrade Johannesburg | SSD & RAM | ZA Support',
     description:
-      'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), overheating repair. Hyde Park. Assessment: from R599.',
+      'Mac Mini repair and upgrade in Johannesburg. SSD upgrade, RAM upgrade (Intel models), overheating repair. Hyde Park. Assessment.',
     url: 'https://zasupport.com/mac-mini-repair',
     siteName: 'ZA Support',
     type: 'website',
@@ -84,7 +84,7 @@ const faqs = [
   {
     question: 'How much does Mac Mini repair cost in Johannesburg?',
     answer:
-      'Mac Mini repair pricing depends on the model and fault. We provide a assessment and a fixed quote before starting any work. Contact us to discuss your specific machine and issue.',
+      'Mac Mini repair pricing depends on the model and fault. We provide an assessment and a fixed quote before starting any work. Contact us to discuss your specific machine and issue.',
   },
   {
     question: 'Can I upgrade the RAM in my Mac Mini?',
@@ -104,7 +104,7 @@ const faqs = [
   {
     question: 'My Mac Mini won\'t turn on at all, what could be wrong?',
     answer:
-      'The most common causes of a Mac Mini not turning on are: (1) power supply failure, the internal power converter fails over time, especially on 2010-2014 models; (2) a logic board fault, component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting, from R599 assessment applies.',
+      'The most common causes of a Mac Mini not turning on are: (1) power supply failure, the internal power converter fails over time, especially on 2010-2014 models; (2) a logic board fault, component failure preventing startup; and (3) a loose internal connector after a previous repair. We diagnose the root cause before quoting, assessment applies.',
   },
   {
     question: 'Is it worth upgrading an older Mac Mini instead of buying a new one?',
@@ -164,7 +164,7 @@ export default function MacMiniRepairPage() {
           </p>
           <p className="text-slate-400 mb-8 max-w-2xl mx-auto">
             A Mac Mini SSD upgrade is the single best investment you can make in an older machine.
-            Boot in under 20 seconds. Assessment: from R599, fixed quote before we start.
+            Boot in under 20 seconds. Assessment, fixed quote before we start.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -189,11 +189,11 @@ export default function MacMiniRepairPage() {
       {/* Trust bar */}
       <section className="bg-slate-800 border-y border-slate-700 py-4 px-4">
         <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-slate-300">
-          <span>Assessment: from R599</span>
+          <span>Assessment</span>
           <span className="text-slate-500">|</span>
           <span>Same-Day SSD &amp; RAM Upgrades</span>
           <span className="text-slate-500">|</span>
-          <span>Assessment: from R599</span>
+          <span>Assessment</span>
           <span className="text-slate-500">|</span>
           <span>{SITE.rating}★ {SITE.reviewCount} Reviews</span>
           <span className="text-slate-500">|</span>
@@ -363,12 +363,12 @@ export default function MacMiniRepairPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                title: 'Assessment: from R599',
-                desc: 'If we cannot fix your Mac Mini, assessment fee of from R599 applies. We diagnose first, quote second, repair third.',
+                title: 'Assessment',
+                desc: 'If we cannot fix your Mac Mini, assessment fee applies. We diagnose first, quote second, repair third.',
               },
               {
-                title: 'Assessment: from R599',
-                desc: 'We assess your Mac Mini at from R599. You get a written quote with to proceed.',
+                title: 'Assessment',
+                desc: 'We assess your Mac Mini at our assessment fee. You get a written quote with to proceed.',
               },
               {
                 title: 'Component-Level Repair',
@@ -376,7 +376,7 @@ export default function MacMiniRepairPage() {
               },
               {
                 title: 'Warranty',
-                desc: 'All repairs carry a warranty on parts and labour. If the same fault returns within the warranty period, we fix it at from R599.',
+                desc: 'All repairs carry a warranty on parts and labour. If the same fault returns within the warranty period, we fix it at our assessment fee.',
               },
               {
                 title: '16 Years of Apple Experience',
@@ -411,7 +411,7 @@ export default function MacMiniRepairPage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Get Your Mac Mini Running Fast Again</h2>
           <p className="text-slate-300 mb-8">
-            Assessment: from R599. Fixed quote. Assessment: from R599. Hyde Park, Johannesburg.
+            Assessment. Fixed quote. Assessment. Hyde Park, Johannesburg.
             SSD and RAM upgrades completed same day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Linden | ZA Support Hyde Park',
-  description: 'MacBook screen repair for Linden clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Linden. Assessment from R599.',
+  description: 'MacBook screen repair for Linden clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Linden. Assessment.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/linden' },
 };
 
@@ -19,7 +19,7 @@ const faults = [
   { title: 'Pressure Marks / Dead Pixels', desc: 'Dark spots or coloured patches caused by pressure on the display, often from something resting on the keyboard when the lid was closed. These are permanent LCD damage and require display replacement. We see this frequently from bags and backpacks where weight compressed the closed MacBook.' },
   { title: 'Flickering Display', desc: 'The screen flickers, strobes, or cuts in and out. This can be a display cable fault (flexgate on older models), a backlight driver IC failure on the logic board, or a failing display panel. Diagnosis determines the exact cause, cable and IC repairs are significantly cheaper than full display replacement.' },
   { title: 'Display Coating Wear', desc: 'The anti-reflective coating on Retina MacBook displays degrades over time, leaving uneven patches that look like stains. Apple ran a quality programme for certain models but it has expired. We replace the full display assembly with correct coating intact.' },
-  { title: 'Backlight Failure', desc: 'The screen appears completely black but you can faintly see the desktop under bright light. The backlight circuit has failed, either a blown fuse, a failed backlight driver IC, or a damaged LED strip. On many models this is a board-level repair (R599 assessment) rather than a full display replacement, saving significant cost.' },
+  { title: 'Backlight Failure', desc: 'The screen appears completely black but you can faintly see the desktop under bright light. The backlight circuit has failed, either a blown fuse, a failed backlight driver IC, or a damaged LED strip. On many models this is a board-level repair (assessment) rather than a full display replacement, saving significant cost.' },
   { title: 'External Monitor Works, Built-in Does Not', desc: 'The MacBook drives an external display perfectly but the built-in screen is blank, flickering, or showing artefacts. This confirms the GPU and logic board are functional, the fault is in the display assembly, display cable, or display connector on the board. Targeted repair rather than board replacement.' },
 ];
 
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'How much does MacBook screen repair cost for Linden clients?',
-    answer: 'Assessment from R599. Screen replacement cost depends on the model, MacBook Air displays are less expensive than MacBook Pro Retina or Liquid Retina XDR. Apple charges R8,000-R25,000 for display replacement. Our pricing is significantly lower with the same quality result. Written quote before any work.',
+    answer: 'Assessment. Screen replacement cost depends on the model, MacBook Air displays are less expensive than MacBook Pro Retina or Liquid Retina XDR. Apple charges many times more for display replacement. Our pricing is significantly lower with the same quality result. Written quote before any work.',
   },
   {
     question: 'How long does MacBook screen repair take?',
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     question: 'Can you repair the backlight without replacing the entire screen?',
-    answer: 'In many cases yes. If the backlight failure is caused by a blown fuse or failed driver IC on the logic board, we repair at component level, much cheaper than full display replacement. The R599 assessment determines whether it is a board fault or a display fault.',
+    answer: 'In many cases yes. If the backlight failure is caused by a blown fuse or failed driver IC on the logic board, we repair at component level, much cheaper than full display replacement. The assessment determines whether it is a board fault or a display fault.',
   },
   {
     question: 'What is flexgate?',
@@ -62,7 +62,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Screen Repair Linden',
-  description: 'MacBook screen repair for Linden clients. Cracked display, pressure marks, backlight failure. Assessment from R599.',
+  description: 'MacBook screen repair for Linden clients. Cracked display, pressure marks, backlight failure. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -101,14 +101,14 @@ export default function ScreenRepairLindenPage() {
               <br /><span className="text-[#0FEA7A]">Linden</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook screen repair for Linden clients. Cracked display, pressure marks, flickering, backlight failure, and display coating damage. Assessment from R599 at our Hyde Park workshop. Collection from Linden, approximately 7 km, 12-15 minutes by car.
+              MacBook screen repair for Linden clients. Cracked display, pressure marks, flickering, backlight failure, and display coating damage. Assessment at our Hyde Park workshop. Collection from Linden, approximately 7 km, 12-15 minutes by car.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collecting from Linden, approx 12-15 min drive</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collecting from Linden, approx 12-15 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Available', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Same-Day Available', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -177,7 +177,7 @@ export default function ScreenRepairLindenPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Screen Damaged? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Screen Damaged? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collecting from Linden. Same-day available. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SR-LINDEN', 'screen')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">

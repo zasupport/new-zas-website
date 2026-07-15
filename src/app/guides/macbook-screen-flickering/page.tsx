@@ -109,7 +109,7 @@ const howToSchema = {
     {
       '@type': 'HowToStep',
       name: 'Seek professional board-level diagnosis',
-      text: 'If software steps do not resolve the flicker, the fault is hardware: Flexgate cable (2016-2019 models), backlight IC, GPU BGA solder failure, or T-Con board (iMac). Contact ZA Support for a component-level diagnostic from R599.',
+      text: 'If software steps do not resolve the flicker, the fault is hardware: Flexgate cable (2016-2019 models), backlight IC, GPU BGA solder failure, or T-Con board (iMac). Contact ZA Support for a component-level diagnostic.',
       position: 9,
     },
   ],
@@ -139,7 +139,7 @@ const faqs = [
   {
     question: 'Can load shedding cause MacBook screen flickering in South Africa?',
     answer:
-      'Absolutely. Load shedding is the single most common preventable cause of MacBook backlight failure we see in Johannesburg. When Eskom restores power after a stage 4 or stage 6 outage, the inrush voltage spike travels through the USB-C charger onto the backlight power rail and damages the backlight driver IC on the logic board. The symptom is a dim or flickering backlight, or a completely dark screen on a machine that otherwise works normally. A true sine wave UPS prevents this entirely. We repair backlight IC damage at component level from R1,499.',
+      'Absolutely. Load shedding is the single most common preventable cause of MacBook backlight failure we see in Johannesburg. When Eskom restores power after a stage 4 or stage 6 outage, the inrush voltage spike travels through the USB-C charger onto the backlight power rail and damages the backlight driver IC on the logic board. The symptom is a dim or flickering backlight, or a completely dark screen on a machine that otherwise works normally. A true sine wave UPS prevents this entirely. We repair backlight IC damage at component level.',
   },
   {
     question: 'What does MacBook GPU failure look like?',
@@ -149,7 +149,7 @@ const faqs = [
   {
     question: 'How much does it cost to fix MacBook screen flickering in Johannesburg?',
     answer:
-      'The cost depends on the root cause. Software fixes (NVRAM reset, macOS update, Safe Mode isolation) cost nothing. Display cable or Flexgate repair starts from R1,499. Backlight IC repair on the logic board starts from R1,499. Full display assembly replacement starts from R3,499 for Intel models and R3,999 for M1 and M2 models. GPU or logic board repair starts from R2,499. Our assessment fee is R599, which is applied toward the repair cost if you proceed. No Fix No Fee on every job.',
+      'The cost depends on the root cause. Software fixes (NVRAM reset, macOS update, Safe Mode isolation) cost nothing. Display cable or Flexgate repair, backlight IC repair on the logic board, full display assembly replacement, and GPU or logic board repair are each priced according to the model and fault. Our assessment fee applies and is credited toward the repair cost if you proceed. No Fix No Fee on every job.',
   },
   {
     question: 'My MacBook screen flickers only at certain lid angles. What is wrong?',
@@ -159,7 +159,7 @@ const faqs = [
   {
     question: 'What is a backlight IC and can it cause screen flickering?',
     answer:
-      'The backlight IC (integrated circuit) is a small surface-mounted chip on the logic board that controls power delivery to the LED backlight array behind the LCD panel. When it partially fails, the backlight flickers, dims unevenly, or cuts out intermittently. A full failure produces a completely dark screen, the torch test confirms this: shine a torch at a low angle against the display and if you can faintly see the desktop image, the backlight IC is the cause. We repair this at component level in our Hyde Park workshop from R1,499.',
+      'The backlight IC (integrated circuit) is a small surface-mounted chip on the logic board that controls power delivery to the LED backlight array behind the LCD panel. When it partially fails, the backlight flickers, dims unevenly, or cuts out intermittently. A full failure produces a completely dark screen, the torch test confirms this: shine a torch at a low angle against the display and if you can faintly see the desktop image, the backlight IC is the cause. We repair this at component level in our Hyde Park workshop.',
   },
   {
     question: 'Can an iMac screen flicker? What causes it?',
@@ -204,14 +204,14 @@ export default function MacBookScreenFlickeringGuidePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Park Lane, Hyde Park, JHB 2196 | Assessment from R599 | No Fix No Fee</span>
+              <span>1 Hyde Park Lane, Hyde Park, JHB 2196 | Assessment | No Fix No Fee</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Shield, label: 'No Fix No Fee' },
                 { icon: Cpu, label: 'Board-Level Specialists' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -349,7 +349,7 @@ export default function MacBookScreenFlickeringGuidePage() {
                 title: 'Backlight IC Failure: Dim or Flickering Backlight',
                 icon: Zap,
                 severity: 'high' as const,
-                desc: 'The backlight driver IC is a surface-mounted chip on the logic board that regulates power to the LED backlight array behind the LCD panel. Partial failure causes the backlight to flicker, pulse, or dim unevenly. Complete failure produces a dark screen that passes the torch test, shine a torch at a low angle and you will see the desktop image faintly, confirming the LCD panel and GPU are working but the backlight is dead. In Johannesburg, load shedding voltage surges through USB-C chargers are the leading cause. Clients in Fourways, Bryanston, and Midrand who leave their MacBook plugged in during outages are particularly affected. We repair the backlight IC at component level from R1,499, no logic board swap needed.',
+                desc: 'The backlight driver IC is a surface-mounted chip on the logic board that regulates power to the LED backlight array behind the LCD panel. Partial failure causes the backlight to flicker, pulse, or dim unevenly. Complete failure produces a dark screen that passes the torch test, shine a torch at a low angle and you will see the desktop image faintly, confirming the LCD panel and GPU are working but the backlight is dead. In Johannesburg, load shedding voltage surges through USB-C chargers are the leading cause. Clients in Fourways, Bryanston, and Midrand who leave their MacBook plugged in during outages are particularly affected. We repair the backlight IC at component level, no logic board swap needed.',
               },
               {
                 title: 'T-Con Board Failure (iMac)',
@@ -406,7 +406,7 @@ export default function MacBookScreenFlickeringGuidePage() {
               When Eskom restores power after a stage 4 or stage 6 outage, the inrush voltage spike travels through your USB-C or MagSafe charger directly onto the logic board power rails. The backlight driver IC, a component smaller than your fingernail, absorbs this surge. Partial damage causes intermittent flickering that worsens over weeks. Complete failure causes a dark screen. The machine boots normally in every other respect: keyboard backlight works, external display works, you can hear the startup chime.
             </p>
             <p>
-              The fix is a <strong className="text-[#E8F4F1]">true sine wave UPS</strong>, not a standard surge protector, which does not filter the waveform distortion that accompanies power restoration. Clients in Sandton, Fourways, Bryanston, and Midrand who invested R2,000 to R3,500 in a quality UPS have never brought a load shedding-damaged MacBook to us. Those who relied on multi-plug surge protectors have. We have repaired backlight IC damage on machines as new as three months old from clients who did not realise load shedding could damage a laptop that was plugged in.
+              The fix is a <strong className="text-[#E8F4F1]">true sine wave UPS</strong>, not a standard surge protector, which does not filter the waveform distortion that accompanies power restoration. Clients in Sandton, Fourways, Bryanston, and Midrand who invested in a quality UPS have never brought a load shedding-damaged MacBook to us. Those who relied on multi-plug surge protectors have. We have repaired backlight IC damage on machines as new as three months old from clients who did not realise load shedding could damage a laptop that was plugged in.
             </p>
           </div>
         </div>
@@ -464,7 +464,7 @@ export default function MacBookScreenFlickeringGuidePage() {
             Still Flickering? We Will Find the Cause.
           </h2>
           <p className="text-[#7A9E98] text-lg mb-8 leading-relaxed">
-            Send us your MacBook serial number on WhatsApp and describe the flicker. We will tell you the most likely cause before you even come in. Assessment from R599, applied toward repair if you proceed. No Fix No Fee.
+            Send us your MacBook serial number on WhatsApp and describe the flicker. We will tell you the most likely cause before you even come in. Assessment, applied toward repair if you proceed. No Fix No Fee.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

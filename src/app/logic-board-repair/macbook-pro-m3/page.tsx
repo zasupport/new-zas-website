@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M3 Logic Board Repair Johannesburg',
-  description: 'MacBook Pro M3, M3 Pro, M3 Max logic board repair in Johannesburg. Charging, no power, display, USB-C, Thunderbolt 5, liquid damage. Component-level repair. Assessment from R599.',
+  description: 'MacBook Pro M3, M3 Pro, M3 Max logic board repair in Johannesburg. Charging, no power, display, USB-C, Thunderbolt 5, liquid damage. Component-level repair. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-m3' },
 };
 
@@ -24,13 +24,13 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can a MacBook Pro M3 logic board be repaired?', answer: 'Yes. The M3, M3 Pro, and M3 Max chips are fully integrated on the logic board and cannot be replaced individually, but the surrounding circuits are repairable. USB-C controllers, Thunderbolt 5 controllers, power management ICs, backlight drivers, and charging circuits are all discrete components we diagnose and repair at component level. ZA Support in Hyde Park, Johannesburg offers assessment from R599.' },
+  { question: 'Can a MacBook Pro M3 logic board be repaired?', answer: 'Yes. The M3, M3 Pro, and M3 Max chips are fully integrated on the logic board and cannot be replaced individually, but the surrounding circuits are repairable. USB-C controllers, Thunderbolt 5 controllers, power management ICs, backlight drivers, and charging circuits are all discrete components we diagnose and repair at component level. ZA Support in Hyde Park, Johannesburg offers assessment.' },
   { question: 'Is the M3 MacBook Pro harder to repair than M1 or M2?', answer: 'The M3 generation introduces Thunderbolt 5 on M3 Max models and a more capable power delivery system. The fundamental component-level repair approach is the same as M1 and M2. The additional Thunderbolt 5 controller is a discrete IC and is individually repairable. Repairability is comparable to prior generations.' },
-  { question: 'My M3 MacBook Pro was damaged in a load shedding surge, is it repairable?', answer: 'In most cases yes. Voltage spikes from South African load shedding events typically damage the USB-C power controller or power management IC rather than the M3 die itself. These are discrete, repairable components. The R599 assessment determines which specific circuit was damaged and confirms whether repair is viable.' },
-  { question: 'Will my data be safe during M3 MacBook Pro board repair?', answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. We repair the specific circuit fault while the storage remains on the board untouched. If the board is completely non-functional, SSD readability is assessed as part of the R599 diagnostic.' },
-  { question: 'How much does MacBook Pro M3 logic board repair cost?', answer: 'Apple charges R22,000-R55,000 for M3 MacBook Pro logic board replacement as they replace the entire board. ZA Support repairs only the failed component on the existing board, which is significantly less expensive. We provide a written quote after the R599 assessment confirming the specific fault and cost.' },
-  { question: 'How long does M3 MacBook Pro logic board repair take?', answer: 'Following the R599 assessment and written approval, most M3 MacBook Pro logic board repairs complete within 3-5 business days. Complex liquid damage cases involving multiple circuit areas may require additional time. We provide a specific timeline in the written quote before proceeding.' },
-  { question: 'Does ZA Support repair Thunderbolt 5 faults on M3 MacBook Pro?', answer: 'Yes. The Thunderbolt 5 controller on M3 Max models is a discrete IC on the logic board. A failed controller preventing docking stations, external monitors, or high-speed storage from being detected is a component-level repair. Assessment from R599 confirms the fault and repair viability.' },
+  { question: 'My M3 MacBook Pro was damaged in a load shedding surge, is it repairable?', answer: 'In most cases yes. Voltage spikes from South African load shedding events typically damage the USB-C power controller or power management IC rather than the M3 die itself. These are discrete, repairable components. The assessment determines which specific circuit was damaged and confirms whether repair is viable.' },
+  { question: 'Will my data be safe during M3 MacBook Pro board repair?', answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. We repair the specific circuit fault while the storage remains on the board untouched. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic.' },
+  { question: 'How much does MacBook Pro M3 logic board repair cost?', answer: 'Apple charges many times more for M3 MacBook Pro logic board replacement as they replace the entire board. ZA Support repairs only the failed component on the existing board, which is significantly less expensive. We provide a written quote after the assessment confirming the specific fault and cost.' },
+  { question: 'How long does M3 MacBook Pro logic board repair take?', answer: 'Following the assessment and written approval, most M3 MacBook Pro logic board repairs complete within 3-5 business days. Complex liquid damage cases involving multiple circuit areas may require additional time. We provide a specific timeline in the written quote before proceeding.' },
+  { question: 'Does ZA Support repair Thunderbolt 5 faults on M3 MacBook Pro?', answer: 'Yes. The Thunderbolt 5 controller on M3 Max models is a discrete IC on the logic board. A failed controller preventing docking stations, external monitors, or high-speed storage from being detected is a component-level repair. Assessment confirms the fault and repair viability.' },
   { question: 'Does ZA Support collect M3 MacBook Pro for repair?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
 
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Pro M3 Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Pro M3, M3 Pro, M3 Max logic board repair in Johannesburg. Assessment from R599.',
+  description: 'Component-level MacBook Pro M3, M3 Pro, M3 Max logic board repair in Johannesburg. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -80,10 +80,10 @@ export default function MacBookProM3LogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -152,7 +152,7 @@ export default function MacBookProM3LogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M3 Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro M3 Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKPROM3', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Midrand | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Midrand clients. Component-level repair specialists, collect from Midrand, repair at Hyde Park workshop. Assessment: from R599. Call 064 529 5863.',
+    'MacBook logic board repair for Midrand clients. Component-level repair specialists, collect from Midrand, repair at Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/midrand' },
 };
 
@@ -27,7 +27,7 @@ const faults = [
 ];
 
 const pricing = [
-  { item: 'Diagnostic Assessment', note: 'Component-level board inspection with from R599' },
+  { item: 'Diagnostic Assessment', note: 'Component-level board inspection' },
   { item: 'USB-C / Thunderbolt Repair', note: 'Port board or controller chip, Midrand collection available' },
   { item: 'Power Circuit Repair', note: 'No-power and charging circuit fault repair' },
   { item: 'Component-level repair Repair', note: 'Precision chip and component-level repair' },
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Midrand',
-  description: 'MacBook logic board repair and component-level repair for Midrand clients. Collection from Midrand, repair at Hyde Park workshop. Assessment: from R599.',
+  description: 'MacBook logic board repair and component-level repair for Midrand clients. Collection from Midrand, repair at Hyde Park workshop. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -114,8 +114,8 @@ export default function LogicBoardRepairMidrandPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level repair' },
-                { icon: Zap, label: 'Diagnostic: from R599' },
-                { icon: CheckCircle, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Diagnostic' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -153,7 +153,7 @@ export default function LogicBoardRepairMidrandPage() {
               When a logic board fault strikes, the challenge for Midrand residents is finding a repair service with genuine component-level capability rather than one that simply swaps the entire board and charges accordingly. ZA Support&apos;s Hyde Park workshop is equipped for component-level repair, we identify the specific failed component, repair it using professional equipment, and return your original board to service. The cost saving over board replacement is typically 60-80%.
             </p>
             <p>
-              We offer a full collection and return service for Midrand clients. The drive from central Midrand to Hyde Park via the N1 is approximately 25-35 minutes. We coordinate collection times to suit your schedule and provide you with a assessment report and written quote before any repair is authorised.
+              We offer a full collection and return service for Midrand clients. The drive from central Midrand to Hyde Park via the N1 is approximately 25-35 minutes. We coordinate collection times to suit your schedule and provide you with an assessment report and written quote before any repair is authorised.
             </p>
             <p>
               Common logic board faults we resolve for Midrand clients include no-power MacBooks (often a single blown component on the power rail), USB-C charging failures on the 13-inch MacBook Pro, and liquid damage from the morning coffee routine. Each fault starts with a diagnostic session, charged at nothing, that confirms the cause before any repair work is quoted.
@@ -252,8 +252,8 @@ export default function LogicBoardRepairMidrandPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Midrand MacBook Problem? Diagnostic: from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Midrand. Assessment: from R599. up-to-3 year warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Midrand MacBook Problem? Diagnostic.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Midrand. Assessment. up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MIDRAND', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 💬 WhatsApp for Quote

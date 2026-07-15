@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Roodepoort | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Roodepoort clients. Ultrasonic cleaning, board-level diagnostics. We collect from Roodepoort. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Roodepoort clients. Ultrasonic cleaning, board-level diagnostics. We collect from Roodepoort. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/roodepoort' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Roodepoort?', answer: 'Phone us the moment the spill happens. From the time liquid touches the logic board, corrosion begins forming on copper traces and component pads. Roodepoort to our Hyde Park workshop is roughly 32 minutes via the N1, and our collection driver can usually be at a Constantia Kloof office or a Florida home within an hour of your call. The single biggest factor in whether your board is fully recoverable is the gap between incident and ultrasonic cleaning. Switch the machine off, do not attempt to charge it, and call 064 529 5863.' },
   { question: 'Do you collect MacBooks from Roodepoort after liquid damage?', answer: 'Yes, we collect across the full Roodepoort area including Florida, Constantia Kloof, Wilropark, Weltevreden Park, Allen\'s Nek, Little Falls, Wilgeheuwel, Northcliff-side, and the Westgate corridor. The N1 connection to Hyde Park makes the trip predictable, and for liquid damage we prioritise same-day collection because each hour matters. Message wa.me/27645295863 with your suburb and the nearest landmark and we will confirm a collection slot. We bring anti-static packaging so the MacBook is protected in transit.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599. That covers full disassembly at our Hyde Park workshop, microscope inspection of the logic board, identification of which components have failed, and a written quote with a fixed repair price before any work proceeds. If you decide not to repair, the assessment fee is all you pay. For Roodepoort clients we hold the assessment fee separate from the repair quote so there is no confusion about what you are committing to.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment fee applies. That covers full disassembly at our Hyde Park workshop, microscope inspection of the logic board, identification of which components have failed, and a written quote with a fixed repair price before any work proceeds. If you decide not to repair, the assessment fee is all you pay. For Roodepoort clients we hold the assessment fee separate from the repair quote so there is no confusion about what you are committing to.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids cause the worst long-term damage, Coke, juice, wine and coffee with milk leave residues that keep corroding the board long after the initial spill dries. Plain water is the most forgiving but still causes shorting if power is applied. Salt water and pool water are particularly aggressive. The Roodepoort jobs we see most often involve coffee on closed lids in home offices and juice spills in family kitchens, both of which respond well to early ultrasonic cleaning.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, urgently. A MacBook that still works after a spill is the most deceptive scenario, it tells you nothing about what is happening on the board. Corrosion continues to form for days and weeks under the surface, and a machine that booted fine on Monday can fail by the weekend with a far more expensive failure. We have seen Roodepoort clients delay because the machine seemed fine, only to bring it in a fortnight later with a dead power rail that was straightforward to clean in the first 24 hours.' },
   { question: 'Will you be able to save my data?', answer: 'In the majority of cases, yes. Even when the logic board is beyond economical repair, we can usually recover data directly from the SSD. On older MacBooks the SSD is removable and reads easily on a recovery rig. On newer T2 and Apple Silicon machines the storage is soldered and encrypted to the board, so the route is to repair the board enough to boot and pull the data off. We tell Roodepoort clients honestly at assessment which path their specific machine needs.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The assessment fee starts from R599 and covers the full diagnostic and quote. We do not quote blind over the phone for liquid damage because the only way to know what is repairable is to open the machine, clean the board, and inspect under the microscope. Once that is done you receive a fixed price, and the choice to proceed is entirely yours.' },
+  { question: 'Is there an Assessment policy for liquid damage?', answer: 'Yes. The assessment fee applies and covers the full diagnostic and quote. We do not quote blind over the phone for liquid damage because the only way to know what is repairable is to open the machine, clean the board, and inspect under the microscope. Once that is done you receive a fixed price, and the choice to proceed is entirely yours.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We repair M1, M2 and M3 MacBook Air and Pro models at board level, replacing damaged power management ICs, resistors, capacitors and other discrete components. Apple\'s own route is full logic board replacement at substantial cost, and many Roodepoort clients come to us specifically after receiving that quote. Component-level rework on Apple Silicon is what we do daily, and it is consistently a fraction of the swap price.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageRoodepoortPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage on a MacBook is a race against corrosion, and Roodepoort sits roughly 32 minutes from our Hyde Park workshop along the N1. We collect from homes near Northgate, businesses along Ontdekkers Road, and residents around Little Falls and Weltevreden Park, then carry out ultrasonic cleaning and board-level repair the same day. Assessment from R599.
+              Liquid damage on a MacBook is a race against corrosion, and Roodepoort sits roughly 32 minutes from our Hyde Park workshop along the N1. We collect from homes near Northgate, businesses along Ontdekkers Road, and residents around Little Falls and Weltevreden Park, then carry out ultrasonic cleaning and board-level repair the same day. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageRoodepoortPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Roodepoort' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageRoodepoortPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Roodepoort? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Roodepoort. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Roodepoort. Assessment.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-ROODEPOO', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now

@@ -25,9 +25,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro 16-Inch Battery Replacement Johannesburg 2026 | From R2,999 | ZA Support',
+  title: 'MacBook Pro 16-Inch Battery Replacement Johannesburg 2026 | ZA Support',
   description:
-    'MacBook Pro 16-inch battery replacement Johannesburg from R2,999. 99.6 Wh cell, eight adhesive sections, full calibration. From R599 assessment. From R599 assessment. Hyde Park.',
+    'MacBook Pro 16-inch battery replacement Johannesburg. 99.6 Wh cell, eight adhesive sections, full calibration. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-pro-16-inch' },
   keywords: [
     'MacBook Pro 16 inch battery replacement Johannesburg',
@@ -63,7 +63,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 16-Inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 16-inch battery replacement in Johannesburg. 99.6 Wh lithium-polymer cell, eight adhesive sections, full calibration. From R2,999. From R599 assessment. 12-month warranty.',
+    'Professional MacBook Pro 16-inch battery replacement in Johannesburg. 99.6 Wh lithium-polymer cell, eight adhesive sections, full calibration. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -90,7 +90,7 @@ const faqs = [
   {
     question: 'How much does a MacBook Pro 16-inch battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Pro 16-inch battery replacement at our Hyde Park workshop starts from R2,999. The higher price compared to smaller MacBook Pro models reflects the 99.6 Wh cell, nearly 50% larger than the 14-inch, and the eight separate adhesive sections that must be individually released. Apple charges R6,000 to R9,000 for the same repair, often replacing the entire top case assembly. Our price includes the cell, labour, calibration, and a written 12-month warranty.',
+      'MacBook Pro 16-inch battery replacement is carried out at our Hyde Park workshop. The higher cost compared to smaller MacBook Pro models reflects the 99.6 Wh cell, nearly 50% larger than the 14-inch, and the eight separate adhesive sections that must be individually released. Apple charges many times more for the same repair, often replacing the entire top case assembly. Our price includes the cell, labour, calibration, and a written 12-month warranty, confirmed on assessment.',
   },
   {
     question: 'Why is the MacBook Pro 16-inch battery replacement more expensive than the 14-inch?',
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on the MacBook Pro 16-inch battery replacement?',
     answer:
-      'All MacBook Pro 16-inch battery replacements carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months, maximum capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault, we replace it again at from R599. The warranty document is provided at collection.',
+      'All MacBook Pro 16-inch battery replacements carry a written 12-month warranty covering the replacement cell and our workmanship. If the battery develops any fault within 12 months, maximum capacity dropping below 80% of new capacity, swelling, unexpected shutdowns, or any electrical fault, we replace it again at our assessment fee. The warranty document is provided at collection.',
   },
   {
     question: 'Do you offer collection for MacBook Pro 16-inch battery replacement in Johannesburg?',
@@ -168,17 +168,17 @@ export default function BatteryReplacementMacBookPro16InchPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Pro 16-inch carries Apple&apos;s largest laptop battery, a 99.6 Wh cell secured by eight adhesive sections. Replacing it requires precision tooling, controlled heat, and experience with the specific adhesive configuration. From R2,999 at our Hyde Park workshop. Same-day service. 12-month warranty. From R599 assessment.
+              The MacBook Pro 16-inch carries Apple&apos;s largest laptop battery, a 99.6 Wh cell secured by eight adhesive sections. Replacing it requires precision tooling, controlled heat, and experience with the specific adhesive configuration. Carried out at our Hyde Park workshop. Same-day service. 12-month warranty. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Pro 16&quot; from R2,999</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Battery, label: '99.6 Wh Cell' },
-                { icon: Zap, label: 'R599 Assessment' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Urgent' },
               ].map(({ icon: Icon, label }) => (
@@ -266,7 +266,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 16-Inch Battery Replacement Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            The 16-inch commands a premium over smaller models due to the larger cell, additional adhesive complexity, and longer turnaround. Apple charges R6,000 to R9,000 and frequently replaces the entire top case assembly. We replace only the battery.
+            The 16-inch commands a premium over smaller models due to the larger cell, additional adhesive complexity, and longer turnaround. Apple charges many times more and frequently replaces the entire top case assembly. We replace only the battery.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -274,17 +274,17 @@ export default function BatteryReplacementMacBookPro16InchPage() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Model</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Battery Capacity</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { model: 'MacBook Pro 16" (Intel 2019)', battery: '99.8 Wh', from: 'R2,999', turnaround: '5-7 hrs' },
-                  { model: 'MacBook Pro 16" (M1 Pro/Max 2021)', battery: '99.6 Wh', from: 'R2,999', turnaround: '5-7 hrs' },
-                  { model: 'MacBook Pro 16" (M2 Pro/Max 2023)', battery: '99.6 Wh', from: 'R2,999', turnaround: '5-7 hrs' },
-                  { model: 'MacBook Pro 16" (M3 Pro/Max 2023)', battery: '99.6 Wh', from: 'R3,199', turnaround: '5-7 hrs' },
-                  { model: 'MacBook Pro 16" (M4 Pro/Max 2024)', battery: '100 Wh', from: 'R3,499', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (Intel 2019)', battery: '99.8 Wh', from: 'Contact for pricing', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M1 Pro/Max 2021)', battery: '99.6 Wh', from: 'Contact for pricing', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M2 Pro/Max 2023)', battery: '99.6 Wh', from: 'Contact for pricing', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M3 Pro/Max 2023)', battery: '99.6 Wh', from: 'Contact for pricing', turnaround: '5-7 hrs' },
+                  { model: 'MacBook Pro 16" (M4 Pro/Max 2024)', battery: '100 Wh', from: 'Contact for pricing', turnaround: '5-7 hrs' },
                 ].map((row, i) => (
                   <tr key={row.model} className={`border-b border-[rgba(255,255,255,0.04)] ${i % 2 === 0 ? 'bg-[#0A1A18]' : 'bg-[#111C1A]'}`}>
                     <td className="text-[#E8F4F1] px-5 py-4 font-medium">{row.model}</td>
@@ -297,7 +297,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and a 12-month warranty. Assessment from R599. From R599 assessment.
+            All pricing includes the replacement cell, labour, calibration, and a 12-month warranty. Assessment fee applies, credited to the repair.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-16-inch" />
           <PricingNote variant="inline" />
@@ -358,7 +358,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-4">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
-                <li>Top case assembly replacement, R6,000 to R9,000+</li>
+                <li>Top case assembly replacement (many times our price)</li>
                 <li>Turnaround 7 to 14 business days via Apple depot</li>
                 <li>Keyboard, trackpad, and speakers replaced unnecessarily</li>
                 <li>No detailed diagnostic shared before or after</li>
@@ -369,7 +369,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
               <h3 className="text-[#0FEA7A] font-bold mb-4">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2.5">
                 <li>Battery cell only, keyboard, trackpad, speakers untouched</li>
-                <li>From R2,999 including calibration and warranty</li>
+                <li>Battery cell only, including calibration and warranty</li>
                 <li>Same-day 5 to 7 hour turnaround</li>
                 <li>coconutBattery diagnostic and results shared</li>
                 <li>Written 12-month warranty on cell and workmanship</li>
@@ -449,7 +449,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 16-Inch Battery Failing?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your model year and the symptoms, poor battery life, swollen bottom case, unexpected shutdowns, or service warning, and we will provide an honest assessment and price before you bring the machine in. From R599 assessment. From R599 assessment.
+              WhatsApp us your model year and the symptoms, poor battery life, swollen bottom case, unexpected shutdowns, or service warning, and we will provide an honest assessment and price before you bring the machine in. Assessment fee applies, credited to the repair.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -468,7 +468,7 @@ export default function BatteryReplacementMacBookPro16InchPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 16&quot; from R2,999 | 12-month warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 12-month warranty
             </p>
           </div>
         </div>

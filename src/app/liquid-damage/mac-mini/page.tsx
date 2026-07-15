@@ -10,9 +10,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'Mac Mini Liquid Damage Repair Johannesburg [2026] | From R599',
+  title: 'Mac Mini Liquid Damage Repair Johannesburg [2026]',
   description:
-    'Mac Mini liquid damage repair Johannesburg. M1, M2, M2 Pro, M4 models. Internal PSU corrosion, port contamination. Assessment from R599. From R599 assessment. Hyde Park.',
+    'Mac Mini liquid damage repair Johannesburg. M1, M2, M2 Pro, M4 models. Internal PSU corrosion, port contamination. Assessment available. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/mac-mini' },
   keywords: [
     'Mac Mini liquid damage repair Johannesburg',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'Mac Mini M2 water damage Johannesburg',
     'Mac Mini M4 liquid damage repair Hyde Park',
     'Mac Mini power supply corrosion repair',
-    'Mac Mini liquid damage assessment from R599',
+    'Mac Mini liquid damage assessment',
     'Mac Mini M2 Pro liquid damage',
     'Mac Mini USB-C port corrosion repair Johannesburg',
   ],
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged Mac Mini be repaired?',
     answer:
-      'Yes, in most cases. The Mac Mini houses its logic board, internal power supply, and all I/O controllers in a compact horizontal chassis. Liquid that enters the Mac Mini, typically through rear USB-A, USB-C, HDMI, or Ethernet ports, or directly through the ventilation slots, causes electrolytic corrosion on specific circuits rather than catastrophic board failure. We have repaired M1, M2, M2 Pro, and M4 Mac Mini units with liquid damage at our Hyde Park workshop. Assessment from R599, From R599 assessment.',
+      'Yes, in most cases. The Mac Mini houses its logic board, internal power supply, and all I/O controllers in a compact horizontal chassis. Liquid that enters the Mac Mini, typically through rear USB-A, USB-C, HDMI, or Ethernet ports, or directly through the ventilation slots, causes electrolytic corrosion on specific circuits rather than catastrophic board failure. We have repaired M1, M2, M2 Pro, and M4 Mac Mini units with liquid damage at our Hyde Park workshop.',
   },
   {
     question: 'How does liquid typically enter a Mac Mini?',
@@ -58,17 +58,17 @@ const faqs = [
   {
     question: 'My Mac Mini will not power on after liquid exposure, is the internal PSU damaged?',
     answer:
-      'Possibly, but not always the PSU itself. The Mac Mini contains an internal power supply board that is separate from the logic board. Liquid reaching the PSU causes corrosion on the AC input filter, PFC controller, or secondary output rails before it reaches the logic board. However, the most common no-power condition we see after Mac Mini liquid exposure is the U3 power management IC on the logic board, which sits in the path of liquid flowing from the rear ports, rather than a destroyed PSU. Our R599 assessment identifies exactly which stage failed before we quote repair.',
+      'Possibly, but not always the PSU itself. The Mac Mini contains an internal power supply board that is separate from the logic board. Liquid reaching the PSU causes corrosion on the AC input filter, PFC controller, or secondary output rails before it reaches the logic board. However, the most common no-power condition we see after Mac Mini liquid exposure is the U3 power management IC on the logic board, which sits in the path of liquid flowing from the rear ports, rather than a destroyed PSU. Our assessment identifies exactly which stage failed before we quote repair.',
   },
   {
     question: 'How much does Mac Mini liquid damage repair cost?',
     answer:
-      'Cost depends on which components were affected. A single port controller or Ethernet PHY replacement on an M2 Mac Mini is a relatively contained repair. M2 Pro logic boards carry additional memory channels and a dedicated media engine, which extends diagnostic time. M4 boards require the same 3nm-precision approach we use on M3 MacBook Pros, tighter tolerance work with bench PSU testing before power-on. The internal power supply board, if affected, is assessed separately. All repairs are quoted in writing upfront. Assessment from R599. From R599 assessment applies to every case.',
+      'Cost depends on which components were affected. A single port controller or Ethernet PHY replacement on an M2 Mac Mini is a relatively contained repair. M2 Pro logic boards carry additional memory channels and a dedicated media engine, which extends diagnostic time. M4 boards require the same 3nm-precision approach we use on M3 MacBook Pros, tighter tolerance work with bench PSU testing before power-on. The internal power supply board, if affected, is assessed separately. All repairs are quoted in writing upfront. An assessment applies to every case.',
   },
   {
     question: 'Can you recover data from a water-damaged Mac Mini?',
     answer:
-      'Yes, in most cases. M1, M2, and M4 Mac Mini models store data on dedicated NAND flash modules with an Apple custom controller, separate from the SoC. Even when the logic board is beyond economic repair, we can often recover data by reading the NAND directly. If the NAND controller IC was damaged by electrolytic corrosion, which we see more frequently on units left running after liquid exposure, recovery becomes more complex but is still achievable in many cases. We assess NAND integrity during the R599 diagnostic and advise before any work begins.',
+      'Yes, in most cases. M1, M2, and M4 Mac Mini models store data on dedicated NAND flash modules with an Apple custom controller, separate from the SoC. Even when the logic board is beyond economic repair, we can often recover data by reading the NAND directly. If the NAND controller IC was damaged by electrolytic corrosion, which we see more frequently on units left running after liquid exposure, recovery becomes more complex but is still achievable in many cases. We assess NAND integrity during the diagnostic and advise before any work begins.',
   },
   {
     question: 'How long does Mac Mini liquid damage repair take?',
@@ -78,12 +78,12 @@ const faqs = [
   {
     question: 'Does AppleCare+ cover liquid damage on the Mac Mini?',
     answer:
-      'Standard AppleCare does not cover liquid damage. AppleCare+ covers up to two accidental damage incidents per year, but Apple charges an incident fee and replaces the entire logic board rather than repairing the affected components. A new Mac Mini M2 Pro costs approximately R16,000-R22,000 at retail in South Africa; the M4 model starts at R14,999. Apple\'s board replacement approach is far more expensive than ZA Support\'s component-level repair and does not always preserve your data, serial number, or installed software configuration.',
+      'Standard AppleCare does not cover liquid damage. AppleCare+ covers up to two accidental damage incidents per year, but Apple charges an incident fee and replaces the entire logic board rather than repairing the affected components. A new Mac Mini costs many times more than a component-level repair at retail in South Africa. Apple\'s board replacement approach is far more expensive than ZA Support\'s component-level repair and does not always preserve your data, serial number, or installed software configuration.',
   },
   {
     question: 'Is it worth repairing a liquid-damaged Mac Mini?',
     answer:
-      'In nearly every case, yes. New Mac Mini M4 units start at approximately R14,999 in South Africa; the M4 Pro starts from R25,999. Our component-level repairs typically cost a fraction of replacement and preserve your original data, installed applications, and serial number. The Mac Mini is also commonly used as a server, home lab, or media centre, configurations that take significant time to rebuild from scratch. If repair genuinely is not economical, we tell you honestly during the assessment with beyond the R599 fee.',
+      'In nearly every case, yes. A new Mac Mini costs many times what a component-level repair does in South Africa. Our component-level repairs typically cost a fraction of replacement and preserve your original data, installed applications, and serial number. The Mac Mini is also commonly used as a server, home lab, or media centre, configurations that take significant time to rebuild from scratch. If repair genuinely is not economical, we tell you honestly during the assessment and you pay only the assessment fee.',
   },
   {
     question: 'Do you collect Mac Minis from across Johannesburg?',
@@ -152,7 +152,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'Mac Mini Liquid Damage Repair Johannesburg',
   description:
-    'Professional Mac Mini liquid damage repair in Johannesburg. M1, M2, M2 Pro, and M4 models. Internal PSU corrosion, port controller replacement, NAND recovery. Assessment from R599. Up-to-3 year warranty.',
+    'Professional Mac Mini liquid damage repair in Johannesburg. M1, M2, M2 Pro, and M4 models. Internal PSU corrosion, port controller replacement, NAND recovery. Assessment. Up-to-3 year warranty.',
   lowPrice: '4500',
   highPrice: '15750',
 });
@@ -181,15 +181,15 @@ export default function MacMiniLiquidDamagePage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Collection across Johannesburg</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Collection across Johannesburg</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'From R599 assessment' },
+                { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / M2 Pro / M4' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -292,7 +292,7 @@ export default function MacMiniLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. From R599 assessment on every Mac Mini case, if we cannot repair your unit, an assessment fee of R599 applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. Assessment on every Mac Mini case, if we cannot repair your unit, an assessment fee applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -308,7 +308,7 @@ export default function MacMiniLiquidDamagePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Full logic board replacement, R8,000 to R22,000+</li>
+                <li>Full logic board replacement, many times our price</li>
                 <li>Liquid damage excluded from standard AppleCare</li>
                 <li>AppleCare+ incident fee applies on top</li>
                 <li>PSU board assessed separately, additional cost</li>
@@ -320,7 +320,7 @@ export default function MacMiniLiquidDamagePage() {
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
                 <li>Component-level repair, only failed parts replaced</li>
-                <li>Assessment from R599, repair quoted individually</li>
+                <li>Assessment, repair quoted individually</li>
                 <li>PSU board and logic board assessed together</li>
                 <li>Data preserved on the same logic board</li>
                 <li>M4 3nm precision diagnostics available</li>
@@ -445,7 +445,7 @@ export default function MacMiniLiquidDamagePage() {
               Mac Mini Liquid Damage? Unplug It Now.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The Mac Mini&apos;s internal mains PSU makes liquid damage an urgent situation. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment from R599. From R599 assessment.
+              The Mac Mini&apos;s internal mains PSU makes liquid damage an urgent situation. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -464,7 +464,7 @@ export default function MacMiniLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment from R599 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
             </p>
           </div>
         </div>

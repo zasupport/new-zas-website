@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro 14-inch Logic Board Repair Johannesburg',
-  description: 'MacBook Pro 14-inch logic board repair in Johannesburg. M1 Pro/Max (2021), M2 Pro/Max (2023), M3 Pro/Max (2023). No power, charging, display, Thunderbolt faults. Assessment from R599.',
+  description: 'MacBook Pro 14-inch logic board repair in Johannesburg. M1 Pro/Max (2021), M2 Pro/Max (2023), M3 Pro/Max (2023). No power, charging, display, Thunderbolt faults. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-14-inch' },
 };
 
@@ -24,12 +24,12 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can the MacBook Pro 14-inch logic board be repaired?', answer: 'Yes. The 14-inch MacBook Pro uses Apple Silicon SoCs (M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max) that are integrated on the logic board and cannot be individually replaced. However, all surrounding circuits, power management, USB-C controllers, Thunderbolt 4/5 controllers, display backlight driver, SD card controller, and audio circuits, are discrete components we repair at component level at ZA Support in Hyde Park, Johannesburg. Assessment from R599.' },
+  { question: 'Can the MacBook Pro 14-inch logic board be repaired?', answer: 'Yes. The 14-inch MacBook Pro uses Apple Silicon SoCs (M1 Pro, M1 Max, M2 Pro, M2 Max, M3 Pro, M3 Max) that are integrated on the logic board and cannot be individually replaced. However, all surrounding circuits, power management, USB-C controllers, Thunderbolt 4/5 controllers, display backlight driver, SD card controller, and audio circuits, are discrete components we repair at component level at ZA Support in Hyde Park, Johannesburg. Assessment.' },
   { question: 'Which MacBook Pro 14-inch generations do you repair?', answer: 'We repair all MacBook Pro 14-inch generations: M1 Pro and M1 Max (2021), M2 Pro and M2 Max (2023, January release), and M3 Pro and M3 Max (2023, November release). All three generations share a similar form factor but have progressively different logic board layouts and connector configurations. Our component-level diagnosis applies to all three.' },
-  { question: 'My 14-inch MacBook Pro has no power after a load shedding surge, is it repairable?', answer: 'In the majority of cases yes. Load shedding power surges in South Africa are a leading cause of 14-inch MacBook Pro logic board faults. The surge typically damages the USB-C power controller or the power management IC rather than the Apple Silicon die. These are discrete, repairable components. The R599 assessment confirms the specific damaged circuit and repair viability.' },
-  { question: 'How much does MacBook Pro 14-inch logic board repair cost?', answer: 'Apple charges R22,000-R55,000 for logic board replacement on M-series 14-inch MacBook Pros as they replace the entire assembly. ZA Support repairs only the failed component on the existing board, which is a fraction of the Apple Store cost. A written quote is provided after the R599 assessment confirming the exact fault and repair cost.' },
-  { question: 'How long does 14-inch MacBook Pro logic board repair take?', answer: 'Following the R599 assessment and your written approval, most 14-inch MacBook Pro logic board repairs are completed within 3-5 business days. We provide a specific timeline in the written quote. Complex liquid damage cases requiring ultrasonic cleaning and component-level assessment may take slightly longer.' },
-  { question: 'Will my data be safe during logic board repair?', answer: 'Yes. Component-level board repair does not require erasing, removing, or reformatting the SSD. The storage remains on the board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the R599 diagnostic and reported before any repair work begins.' },
+  { question: 'My 14-inch MacBook Pro has no power after a load shedding surge, is it repairable?', answer: 'In the majority of cases yes. Load shedding power surges in South Africa are a leading cause of 14-inch MacBook Pro logic board faults. The surge typically damages the USB-C power controller or the power management IC rather than the Apple Silicon die. These are discrete, repairable components. The assessment confirms the specific damaged circuit and repair viability.' },
+  { question: 'How much does MacBook Pro 14-inch logic board repair cost?', answer: 'Apple charges many times more for logic board replacement on M-series 14-inch MacBook Pros as they replace the entire assembly. ZA Support repairs only the failed component on the existing board, which is a fraction of the Apple Store cost. A written quote is provided after the assessment confirming the exact fault and repair cost.' },
+  { question: 'How long does 14-inch MacBook Pro logic board repair take?', answer: 'Following the assessment and your written approval, most 14-inch MacBook Pro logic board repairs are completed within 3-5 business days. We provide a specific timeline in the written quote. Complex liquid damage cases requiring ultrasonic cleaning and component-level assessment may take slightly longer.' },
+  { question: 'Will my data be safe during logic board repair?', answer: 'Yes. Component-level board repair does not require erasing, removing, or reformatting the SSD. The storage remains on the board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic and reported before any repair work begins.' },
   { question: 'Can you repair a 14-inch MacBook Pro with a faulty Thunderbolt port?', answer: 'Yes. Thunderbolt 4 and Thunderbolt 5 controllers on the 14-inch MacBook Pro are discrete ICs on the logic board. A port that fails to detect docking stations, external monitors, or high-speed storage is typically a controller IC failure, not physical port damage. Component-level repair resolves most cases without board replacement.' },
   { question: 'Does ZA Support collect MacBook Pro 14-inch for repair in Johannesburg?', answer: 'Yes. ZA Support collects from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection.' },
 ];
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Pro 14-inch Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Pro 14-inch logic board repair in Johannesburg. M1 Pro/Max, M2 Pro/Max, M3 Pro/Max. Assessment from R599.',
+  description: 'Component-level MacBook Pro 14-inch logic board repair in Johannesburg. M1 Pro/Max, M2 Pro/Max, M3 Pro/Max. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -80,10 +80,10 @@ export default function MacBookPro14InchLogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -152,7 +152,7 @@ export default function MacBookPro14InchLogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 14-inch Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 14-inch Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKPRO14INCH', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

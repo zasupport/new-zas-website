@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Mac Assessment Process Johannesburg, How We Work | ZA Support',
   description:
-    'How ZA Support assessments work: from R599 assessment fee. Transparent quotes, no hidden charges. Hyde Park, Johannesburg. WhatsApp 064 529 5863.',
+    'How ZA Support assessments work: assessment fee. Transparent quotes, no hidden charges. Hyde Park, Johannesburg. WhatsApp 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/no-fix-no-fee' },
   keywords: [
     'Mac assessment Johannesburg',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Mac Assessment Process Johannesburg | How We Work | ZA Support',
-    description: 'from R599 assessment fee. Transparent fixed-price quotes before any work begins.',
+    description: 'assessment fee. Transparent fixed-price quotes before any work begins.',
     url: 'https://zasupport.com/no-fix-no-fee',
     siteName: 'ZA Support',
     locale: 'en_ZA',
@@ -46,9 +46,9 @@ const steps = [
   {
     step: '2',
     icon: Search,
-    title: 'We Diagnose, from R599 Assessment Fee',
+    title: 'We Diagnose, Assessment Fee Applies',
     detail:
-      'Our technician inspects your Mac using professional diagnostic tools and board-level testing equipment. We identify the exact fault. The assessment fee is from R599. This covers the full diagnostic, regardless of complexity.',
+      'Our technician inspects your Mac using professional diagnostic tools and board-level testing equipment. We identify the exact fault. The assessment fee applies. This covers the full diagnostic, regardless of complexity.',
   },
   {
     step: '3',
@@ -62,7 +62,7 @@ const steps = [
     icon: CheckCircle,
     title: 'Proceed or Decline, Your Choice',
     detail:
-      'If you approve the quote and we proceed with the repair, the from R599 assessment fee applies. If you decline the repair after assessment, the from R599 assessment fee is payable for the diagnostic work completed.',
+      'If you approve the quote and we proceed with the repair, the assessment fee applies. If you decline the repair after assessment, the assessment fee is payable for the diagnostic work completed.',
   },
 ];
 
@@ -79,22 +79,22 @@ const faqs = [
   {
     question: 'How much does the Mac assessment cost?',
     answer:
-      'The assessment fee is from R599. This covers the full diagnostic inspection of your Mac, board-level testing, fault identification, and a written quote. If you proceed with the repair, this fee applies and you do not pay it separately.',
+      'The assessment fee applies. This covers the full diagnostic inspection of your Mac, board-level testing, fault identification, and a written quote. If you proceed with the repair, this fee applies and you do not pay it separately.',
   },
   {
     question: 'What happens if I proceed with the repair?',
     answer:
-      'If you approve the quote and we carry out the repair, the from R599 assessment fee applies. You pay the repair price quoted, the assessment fee is not charged on top of that.',
+      'If you approve the quote and we carry out the repair, the assessment fee applies. You pay the repair price quoted, the assessment fee is not charged on top of that.',
   },
   {
     question: 'What happens if I decline the repair after assessment?',
     answer:
-      'If you decline the repair after receiving the written quote, the from R599 assessment fee is payable. This covers the time and equipment used to diagnose your Mac and provide the detailed fault report and quote.',
+      'If you decline the repair after receiving the written quote, the assessment fee is payable. This covers the time and equipment used to diagnose your Mac and provide the detailed fault report and quote.',
   },
   {
     question: 'Do I need to pay a deposit to book an assessment?',
     answer:
-      'No deposit is required to book. You book via WhatsApp or online, bring your Mac in, and the from R599 assessment fee is settled after the diagnostic is complete. Payment for the repair is only required once you have approved the written quote.',
+      'No deposit is required to book. You book via WhatsApp or online, bring your Mac in, and the assessment fee is settled after the diagnostic is complete. Payment for the repair is only required once you have approved the written quote.',
   },
   {
     question: 'How long does the assessment take?',
@@ -134,7 +134,7 @@ export default function AssessmentProcessPage() {
   const serviceSchema = buildServiceSchema({
     name: 'Mac Assessment and Repair Process, Johannesburg',
     description:
-      'from R599 assessment fee for Mac diagnostic and fault identification in Johannesburg. Assessment fee payable on confirmation if client proceeds. Covers logic board repair, liquid damage, screen replacement, battery, keyboard, and charging port.',
+      'assessment fee for Mac diagnostic and fault identification in Johannesburg. Assessment fee payable on confirmation if client proceeds. Covers logic board repair, liquid damage, screen replacement, battery, keyboard, and charging port.',
   });
 
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
@@ -165,7 +165,7 @@ export default function AssessmentProcessPage() {
             </h1>
 
             <p className="text-xl md:text-2xl mb-4 max-w-2xl mx-auto leading-relaxed" style={{ color: '#7A9E98' }}>
-              from R599 assessment fee &mdash; <strong style={{ color: '#E8F4F1' }}>payable on confirmation</strong> if you proceed.
+              assessment fee &mdash; <strong style={{ color: '#E8F4F1' }}>payable on confirmation</strong> if you proceed.
             </p>
 
             <p className="text-base mb-10 max-w-xl mx-auto" style={{ color: '#7A9E98' }}>
@@ -195,8 +195,8 @@ export default function AssessmentProcessPage() {
             {/* Trust bar */}
             <div className="flex flex-wrap justify-center gap-6 mt-12">
               {[
-                { label: 'from R599 assessment fee', icon: '✓' },
-                { label: 'Assessment fee from R599', icon: '✓' },
+                { label: 'assessment fee', icon: '✓' },
+                { label: 'Written quote before work', icon: '✓' },
                 { label: '16 years experience', icon: '✓' },
                 { label: 'Warranty on all repairs', icon: '✓' },
                 { label: 'Hyde Park workshop', icon: '✓' },
@@ -233,8 +233,8 @@ export default function AssessmentProcessPage() {
                   </div>
                   <ul className="space-y-3">
                     {[
-                      'Assessment fee: from R599',
-                      'Assessment fee from R599',
+                      'Assessment fee applies',
+                      'Assessment fee credited to your repair',
                       'You pay the quoted repair price only',
                       'Written fixed-price quote provided',
                       'No deposit required to book',
@@ -258,7 +258,7 @@ export default function AssessmentProcessPage() {
                   </div>
                   <ul className="space-y-3">
                     {[
-                      'Assessment fee: from R599 payable',
+                      'Assessment fee payable',
                       'Covers full diagnostic completed',
                       'Written fault report provided',
                       'Your Mac returned as received',
@@ -331,13 +331,13 @@ export default function AssessmentProcessPage() {
 
             <div className="space-y-6 text-base leading-relaxed" style={{ color: '#7A9E98' }}>
               <p>
-                ZA Support charges a from R599 assessment fee to inspect and diagnose your Mac. This covers the time and equipment required to identify the exact fault, test the board at component level, and produce a written fixed-price quote.
+                ZA Support charges an assessment fee to inspect and diagnose your Mac. This covers the time and equipment required to identify the exact fault, test the board at component level, and produce a written fixed-price quote.
               </p>
               <p>
                 When you bring your Mac to our Hyde Park workshop, we assess it using professional board-level diagnostic equipment. We identify the specific fault and provide you with a written fixed-price quote. The quote includes the exact fault, the component or parts required, the total cost including labour, and a realistic turnaround time.
               </p>
               <p>
-                At that point, you have a choice. You approve the quote and we proceed &mdash; the from R599 assessment fee applies, so you pay the quoted repair price and nothing more. Or you decline the quote &mdash; in which case the from R599 assessment fee is payable for the diagnostic work completed, and we return your Mac exactly as received.
+                At that point, you have a choice. You approve the quote and we proceed &mdash; the assessment fee applies, so you pay the quoted repair price and nothing more. Or you decline the quote &mdash; in which case the assessment fee is payable for the diagnostic work completed, and we return your Mac exactly as received.
               </p>
               <p>
                 This policy applies to all Mac repairs: logic board component-level repair, liquid damage restoration, screen replacement, battery replacement, keyboard repair, and charging port repair.
@@ -351,7 +351,7 @@ export default function AssessmentProcessPage() {
                   <AlertCircle className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: '#0FEA7A' }} />
                   <div>
                     <p className="font-semibold mb-2" style={{ color: '#E8F4F1' }}>
-                      What is always included in the from R599 assessment:
+                      What is always included in the assessment:
                     </p>
                     <ul className="space-y-2">
                       {[
@@ -407,7 +407,7 @@ export default function AssessmentProcessPage() {
                   <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
                     <span className="text-xs flex items-center gap-1" style={{ color: '#0FEA7A' }}>
                       <CheckCircle className="w-3 h-3" />
-                      Assessment fee from R599
+                      Assessment fee applies
                     </span>
                   </div>
                 </Link>
@@ -496,8 +496,8 @@ export default function AssessmentProcessPage() {
                 <div className="flex items-center justify-center gap-4 mt-4">
                   {[
                     'No deposit to book',
-                    'from R599 fee',
-                    'Assessment fee from R599',
+                    'assessment fee',
+                    'Written quote before work',
                   ].map((item) => (
                     <span key={item} className="text-xs flex items-center gap-1" style={{ color: '#7A9E98' }}>
                       <CheckCircle className="w-3 h-3" style={{ color: '#0FEA7A' }} />
@@ -578,7 +578,7 @@ export default function AssessmentProcessPage() {
               <span style={{ color: '#0FEA7A' }}>Today.</span>
             </h2>
             <p className="text-lg mb-10" style={{ color: '#7A9E98' }}>
-              from R599 assessment fee. Absorbed into your repair cost if you proceed. A straight answer about what is wrong and what it will cost to fix.
+              assessment fee. Absorbed into your repair cost if you proceed. A straight answer about what is wrong and what it will cost to fix.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

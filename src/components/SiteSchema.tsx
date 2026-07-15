@@ -54,7 +54,7 @@ export function SiteSchema() {
         closes: '16:30',
       },
     ],
-    priceRange: 'R599-R15000',
+    priceRange: '$$',
     currenciesAccepted: 'ZAR',
     paymentAccepted: 'Cash, Credit Card, EFT',
     areaServed: [

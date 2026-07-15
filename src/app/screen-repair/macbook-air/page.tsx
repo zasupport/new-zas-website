@@ -10,9 +10,9 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Air Screen Repair Johannesburg [2026] | From R2,499 | ZA Support',
+  title: 'MacBook Air Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air screen repair in Johannesburg from R2,499. Cracked Liquid Retina, dead pixels, backlight failure. No Fix No Fee. Hyde Park workshop. Book today.',
+    'MacBook Air screen repair in Johannesburg. Cracked Liquid Retina, dead pixels, backlight failure. No Fix No Fee. Hyde Park workshop. Book today.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-air' },
   keywords: [
     'MacBook Air screen repair Johannesburg',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'MacBook Air Liquid Retina repair Hyde Park',
     'MacBook Air backlight repair Johannesburg',
     'MacBook Air dead pixels repair',
-    'MacBook Air screen repair from R2499',
+    'MacBook Air screen repair cost Johannesburg',
   ],
 };
 
@@ -43,7 +43,7 @@ const faqs = [
   {
     question: 'How much does MacBook Air screen repair cost in Johannesburg?',
     answer:
-      'MacBook Air screen repair starts from R2,499 at ZA Support in Hyde Park. This covers all MacBook Air models including M1 (2020), M2 (2022), M3 (2024), and older Intel 11-inch and 13-inch models. The exact price depends on your model and the type of panel, older non-Retina 11-inch and 13-inch Air models (pre-2018) use a different LCD assembly to the Liquid Retina panels in M-series machines. We provide a written fixed-price quote after a R599 assessment before any repair begins. For comparison, Apple Store or iStore screen replacement for a MacBook Air typically costs R4,500 to R8,000 and often involves depot shipping.',
+      'MacBook Air screen repair is quoted per model at ZA Support in Hyde Park. This covers all MacBook Air models including M1 (2020), M2 (2022), M3 (2024), and older Intel 11-inch and 13-inch models. The exact price depends on your model and the type of panel, older non-Retina 11-inch and 13-inch Air models (pre-2018) use a different LCD assembly to the Liquid Retina panels in M-series machines. We provide a written fixed-price quote after an assessment before any repair begins. For comparison, Apple Store or iStore screen replacement for a MacBook Air typically costs many times our price and often involves depot shipping.',
   },
   {
     question: 'What is the difference between the Liquid Retina screen on M1/M2/M3 MacBook Air and older panels?',
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: 'Can you repair MacBook Air screen flickering and lines?',
     answer:
-      'Yes, in most cases. Flickering on a MacBook Air is most commonly caused by one of three things: a failing display flex cable at the hinge, a fault in the backlight driver circuit on the logic board, or, on older Intel models, a GPU-related issue. Horizontal or vertical lines usually point to a damaged LCD panel, a partially failed backlight, or a loose display connector. We diagnose the root cause before ordering any parts, there is no point replacing a display assembly if the fault is actually a repairable flex cable. Assessment from R599.',
+      'Yes, in most cases. Flickering on a MacBook Air is most commonly caused by one of three things: a failing display flex cable at the hinge, a fault in the backlight driver circuit on the logic board, or, on older Intel models, a GPU-related issue. Horizontal or vertical lines usually point to a damaged LCD panel, a partially failed backlight, or a loose display connector. We diagnose the root cause before ordering any parts, there is no point replacing a display assembly if the fault is actually a repairable flex cable. Assessment.',
   },
   {
     question: 'How long does MacBook Air screen replacement take?',
@@ -88,7 +88,7 @@ const faqs = [
   {
     question: 'Does the No Fix No Fee policy apply to MacBook Air screen repairs?',
     answer:
-      'Yes. If we assess your MacBook Air and cannot repair the screen fault, or if the repair cost is not economical for your situation, an assessment fee of R599 applies and your machine is returned exactly as received. We will never proceed with a repair without your written approval on a fixed-price quote. There are no hidden charges. Up-to-3 year warranty applies to all completed screen repairs.',
+      'Yes. If we assess your MacBook Air and cannot repair the screen fault, or if the repair cost is not economical for your situation, an assessment fee applies and your machine is returned exactly as received. We will never proceed with a repair without your written approval on a fixed-price quote. There are no hidden charges. Up-to-3 year warranty applies to all completed screen repairs.',
   },
   {
     question: 'Do you collect MacBook Airs for screen repair from across Johannesburg?',
@@ -199,7 +199,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air Screen Repair Johannesburg',
   description:
-    'Professional MacBook Air screen repair in Johannesburg. Cracked Liquid Retina panels, backlight failure, display flex cable faults, dead pixels. All models from 11-inch non-Retina to M3. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Air screen repair in Johannesburg. Cracked Liquid Retina panels, backlight failure, display flex cable faults, dead pixels. All models from 11-inch non-Retina to M3. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -237,13 +237,13 @@ export default function ScreenRepairMacBookAirPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               From a cracked Liquid Retina panel on an M2 Air to a stressed flex cable on a 2015 non-Retina 11-inch, 
-              we repair every MacBook Air display at our Hyde Park workshop. Assessment from R599. Apple Store charges
-              R4,500 to R8,000 for the same repair.
+              we repair every MacBook Air display at our Hyde Park workshop. Assessment. Apple Store charges
+              many times more for the same repair.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
               <span>
-                1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Screen repair from R2,499 | Collection across
+                1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Screen repair | Collection across
                 Johannesburg
               </span>
             </div>
@@ -252,7 +252,7 @@ export default function ScreenRepairMacBookAirPage() {
                 { icon: Shield, label: 'No Fix No Fee' },
                 { icon: Monitor, label: 'All Air Models' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
                 { icon: ArrowRight, label: '24-48 hr Turnaround' },
               ].map(({ icon: Icon, label }) => (
                 <div
@@ -291,7 +291,7 @@ export default function ScreenRepairMacBookAirPage() {
                 { value: '800+', label: 'MacBook Screens Replaced' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'R2,499', label: 'Starting Price' },
+                { value: 'Contact for pricing', label: 'Starting Price' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -377,8 +377,8 @@ export default function ScreenRepairMacBookAirPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted in writing before any work begins. No Fix No Fee on every case, assessment fee of
-              R599 applies if we cannot repair your MacBook Air screen. Up-to-3 year warranty on all completed repairs.
+              All repairs are quoted in writing before any work begins. No Fix No Fee on every case, an assessment fee
+              applies if we cannot repair your MacBook Air screen. Up-to-3 year warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -446,7 +446,7 @@ export default function ScreenRepairMacBookAirPage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>R4,500 to R8,000 for display assembly replacement</li>
+                <li>Full display assembly replacement, many times our price</li>
                 <li>Accidental damage excluded from standard warranty</li>
                 <li>Depot repair, 5 to 10 business day turnaround</li>
                 <li>No component-level diagnosis, full assembly swapped</li>
@@ -456,7 +456,7 @@ export default function ScreenRepairMacBookAirPage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>Screen repair from R2,499, all Air models</li>
+                <li>Screen repair for all Air models</li>
                 <li>Component-level diagnosis, flex cable vs panel vs circuit</li>
                 <li>24 to 48 hour turnaround at Hyde Park workshop</li>
                 <li>No Fix No Fee | written quote before work begins</li>
@@ -466,7 +466,7 @@ export default function ScreenRepairMacBookAirPage() {
           </div>
           <p className="text-[#7A9E98] text-sm leading-relaxed">
             The Apple Store approach is to replace the entire display assembly regardless of the root cause. If your
-            screen fault is actually a R800 flex cable, they will still charge you for a full R6,000 display
+            screen fault is actually an inexpensive flex cable, they will still charge you for a full display
             replacement. At ZA Support we diagnose first, you only pay for what is actually broken.
           </p>
         </div>
@@ -477,44 +477,44 @@ export default function ScreenRepairMacBookAirPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
-            All prices below are starting prices. The exact cost is confirmed in a written quote after our R599
+            All prices below are starting prices. The exact cost is confirmed in a written quote after our
             assessment. Prices include labour, parts, and our up-to-3 year warranty.
           </p>
           <div className="space-y-4">
             {[
               {
                 item: 'MacBook Air M1 / M2 / M3 Display Assembly',
-                from: 'R3,499',
+                from: 'Contact for pricing',
                 note: 'Laminated Liquid Retina, full assembly replacement',
               },
               {
                 item: 'MacBook Air Intel 13″ Retina (2018-2020)',
-                from: 'R2,999',
+                from: 'Contact for pricing',
                 note: 'Includes True Tone sensor retention',
               },
               {
                 item: 'MacBook Air Intel 13″ non-Retina (2012-2017)',
-                from: 'R2,499',
+                from: 'Contact for pricing',
                 note: 'TN/IPS panel, subject to parts availability',
               },
               {
                 item: 'MacBook Air 11″ (2011-2015)',
-                from: 'R2,499',
+                from: 'Contact for pricing',
                 note: 'Parts sourced on request, confirm before booking',
               },
               {
                 item: 'Display Flex Cable Replacement',
-                from: 'R1,199',
+                from: 'Contact for pricing',
                 note: 'For flickering / lines caused by hinge cable stress',
               },
               {
                 item: 'Backlight Circuit Repair',
-                from: 'R1,499',
+                from: 'Contact for pricing',
                 note: 'Component-level, fuse, driver IC, or backlight strip',
               },
               {
                 item: 'Screen Assessment',
-                from: 'R599',
+                from: 'Contact for pricing',
                 note: 'Credited toward repair cost if you proceed',
               },
             ].map((row) => (
@@ -531,7 +531,7 @@ export default function ScreenRepairMacBookAirPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-6 leading-relaxed">
-            All prices in ZAR. Assessment fee of R599 applies if no repair is undertaken. Up-to-3 year parts and labour
+            All prices in ZAR. An assessment fee applies if no repair is undertaken. Up-to-3 year parts and labour
             warranty on all completed screen repairs.
           </p>
           <PricingNote variant="inline" />
@@ -550,7 +550,7 @@ export default function ScreenRepairMacBookAirPage() {
                 step: '1',
                 title: 'Assessment at Hyde Park Workshop',
                 detail:
-                  'We inspect the display under calibrated lighting, run a software display diagnostic, and check the backlight circuit and flex cable before touching any hardware. This tells us whether you need a new panel or a cheaper cable repair. Assessment from R599, credited toward the repair.',
+                  'We inspect the display under calibrated lighting, run a software display diagnostic, and check the backlight circuit and flex cable before touching any hardware. This tells us whether you need a new panel or a cheaper cable repair. Assessment, credited toward the repair.',
               },
               {
                 step: '2',
@@ -665,7 +665,7 @@ export default function ScreenRepairMacBookAirPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Screen repair from R2,499 | Up-to-3 year warranty |
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Screen repair | Up-to-3 year warranty |
               Collection across Johannesburg
             </p>
           </div>

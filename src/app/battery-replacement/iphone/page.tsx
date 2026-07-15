@@ -12,9 +12,9 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'iPhone Battery Replacement Johannesburg [2026] | From R899 | ZA Support',
+  title: 'iPhone Battery Replacement Johannesburg [2026] | ZA Support',
   description:
-    'iPhone battery replacement in Johannesburg from R899. Same-day service, IP68 re-sealed, battery health restored. Hyde Park workshop. Call 064 529 5863.',
+    'iPhone battery replacement in Johannesburg. Same-day service, IP68 re-sealed, battery health restored. Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/iphone' },
   keywords: [
     'iPhone battery replacement Johannesburg',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     'iPhone battery health below 80 repair',
     'iPhone throttling slow battery fix Johannesburg',
     'same day iPhone battery replacement Johannesburg',
-    'iPhone battery replacement from R899',
+    'iPhone battery replacement price Johannesburg',
   ],
 };
 
@@ -44,77 +44,77 @@ const breadcrumbSchemaItems = [
 const pricingTiers = [
   {
     range: 'iPhone 8, SE (2nd & 3rd gen)',
-    price: 'From R899',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 1,821-2,018 mAh',
     note: 'Adhesive pull tabs; straightforward access',
     turnaround: '30-60 min',
   },
   {
     range: 'iPhone X, XS, XS Max',
-    price: 'From R999',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 2,658-3,174 mAh',
     note: 'OLED display removal required; Face ID flex handled with care',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 11, 11 Pro, 11 Pro Max',
-    price: 'From R1,099',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 3,110-3,969 mAh',
     note: 'Triple camera cable routing; gasket re-sealed post-install',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 12, 12 Mini, 12 Pro, 12 Pro Max',
-    price: 'From R1,099',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 2,227-3,687 mAh',
     note: 'MagSafe alignment verified post-install',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 13, 13 Mini, 13 Pro, 13 Pro Max',
-    price: 'From R1,099',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 2,438-4,352 mAh',
     note: 'Larger cells than iPhone 12; adhesive tabs extend under logic board',
     turnaround: '90 min',
   },
   {
     range: 'iPhone 14, 14 Plus',
-    price: 'From R1,099',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 3,279-4,323 mAh',
     note: 'Easier rear-access design; faster disassembly',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 14 Pro, 14 Pro Max',
-    price: 'From R1,299',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 3,200-4,323 mAh',
     note: 'Dynamic Island flex cable routing; Always-On display re-verified',
     turnaround: '90 min',
   },
   {
     range: 'iPhone 15, 15 Plus',
-    price: 'From R1,499',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 3,349-4,383 mAh',
     note: 'USB-C connector; titanium frame requires adjusted tooling',
     turnaround: '90-120 min',
   },
   {
     range: 'iPhone 15 Pro, 15 Pro Max',
-    price: 'From R1,499',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 3,274-4,422 mAh',
     note: 'Action button cable routing; titanium chassis',
     turnaround: '90-120 min',
   },
   {
     range: 'iPhone 16, 16 Plus',
-    price: 'From R1,499',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 3,561-4,685 mAh',
     note: 'Camera Control button; Apple Intelligence unaffected',
     turnaround: '90-120 min',
   },
   {
     range: 'iPhone 16 Pro, 16 Pro Max',
-    price: 'From R1,499',
+    price: 'Contact for pricing',
     chemistry: 'Li-Ion 3,582-4,685 mAh',
     note: 'Latest teardown complexity; precision adhesive routing',
     turnaround: '120 min',
@@ -148,7 +148,7 @@ const faqs = [
   {
     question: 'How much does iPhone battery replacement cost in Johannesburg?',
     answer:
-      'iPhone battery replacement at ZA Support starts from R899 for iPhone 8 and SE models. iPhone 12 to 14 series replacements start from R1,099. iPhone 15 and 16 Pro Max replacements start from R1,499. All prices include the battery cell, labour, IP68 gasket re-seal, and our 12-month warranty. Compare this to the Apple Store, which charges between R1,799 and R3,500 for the same models depending on whether you hold AppleCare+.',
+      'iPhone battery replacement at ZA Support is priced by model, with iPhone 8 and SE at the lower end and the iPhone 15 and 16 Pro Max at the upper end. All prices include the battery cell, labour, IP68 gasket re-seal, and our 12-month warranty, and are a fraction of what the Apple Store charges for the same models. WhatsApp us your model for a current quote.',
   },
   {
     question: 'How do I know if my iPhone battery needs replacing?',
@@ -178,7 +178,7 @@ const faqs = [
   {
     question: 'Is the iPhone battery replacement covered by a warranty?',
     answer:
-      'Yes. Every iPhone battery replacement at ZA Support includes a 12-month written warranty covering the battery cell and our workmanship. If the replacement battery develops a fault, capacity drops below 80% within the warranty period, charging irregularities, or a manufacturing defect, we replace it again at from R599. The warranty is provided in writing at the time of collection. It covers parts and labour and does not cover subsequent physical damage or liquid ingress.',
+      'Yes. Every iPhone battery replacement at ZA Support includes a 12-month written warranty covering the battery cell and our workmanship. If the replacement battery develops a fault, capacity drops below 80% within the warranty period, charging irregularities, or a manufacturing defect, we replace it again at our assessment fee. The warranty is provided in writing at the time of collection. It covers parts and labour and does not cover subsequent physical damage or liquid ingress.',
   },
   {
     question: 'Does battery replacement void my iPhone warranty with Apple?',
@@ -193,7 +193,7 @@ const faqs = [
   {
     question: 'Is it worth replacing the battery on an older iPhone?',
     answer:
-      'For iPhone 12 and newer, almost always yes. These devices receive iOS updates for several more years, the cameras remain competitive, and a R1,099 battery replacement can extend the device\'s useful life by two to three years. For iPhone 8 and SE, it depends on the device condition. If the screen and logic board are in good shape, a R899 battery replacement is a sound investment. We will give you an honest assessment of the device\'s overall condition before quoting, we will not recommend a replacement on a phone that has other hardware problems that would make the repair uneconomical.',
+      'For iPhone 12 and newer, almost always yes. These devices receive iOS updates for several more years, the cameras remain competitive, and a battery replacement can extend the device\'s useful life by two to three years. For iPhone 8 and SE, it depends on the device condition. If the screen and logic board are in good shape, a battery replacement is a sound investment. We will give you an honest assessment of the device\'s overall condition before quoting, we will not recommend a replacement on a phone that has other hardware problems that would make the repair uneconomical.',
   },
   {
     question: 'Do you repair iPhone batteries at Sandton or do I need to visit Hyde Park?',
@@ -209,7 +209,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'iPhone Battery Replacement Johannesburg',
   description:
-    'Professional iPhone battery replacement in Johannesburg. Lithium-ion cell replacement for iPhone 8 through 16 Pro Max. IP68 re-sealed, battery health restored. Same-day repair from R899 at Hyde Park workshop.',
+    'Professional iPhone battery replacement in Johannesburg. Lithium-ion cell replacement for iPhone 8 through 16 Pro Max. IP68 re-sealed, battery health restored. Same-day repair at Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -255,11 +255,11 @@ export default function BatteryReplacementIphonePage() {
               We replace more iPhone batteries than any other repair in our Hyde Park workshop. The most common trigger is a phone that has started throttling, the owner notices it feels slower, checks Battery Health, and finds 74% or below. A new lithium-ion cell removes the throttle entirely and restores full performance within two charge cycles.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed text-base">
-              From R899. iPhone 8 through 16 Pro Max covered. Same-day service. IP68 gasket replaced as standard. 12-month written warranty. No appointment necessary, walk in to Hyde Park or WhatsApp us first.
+              iPhone 8 through 16 Pro Max covered. Same-day service. IP68 gasket replaced as standard. 12-month written warranty. No appointment necessary, walk in to Hyde Park or WhatsApp us first.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Battery, label: 'From R899' },
+                { icon: Battery, label: 'Contact for pricing' },
                 { icon: CheckCircle, label: 'IP68 Re-Sealed' },
                 { icon: Smartphone, label: 'iPhone 8-16 Pro Max' },
                 { icon: Clock, label: '30-120 Min Service' },
@@ -320,7 +320,7 @@ export default function BatteryReplacementIphonePage() {
             iPhone Battery Replacement Pricing
           </h2>
           <p className="text-[#7A9E98] mb-3 max-w-3xl leading-relaxed">
-            All prices include the replacement lithium-ion cell, labour, IP68 adhesive gasket re-seal, and our 12-month written warranty. The Apple Store charges R1,799 to R3,500 for the same models without AppleCare+, our pricing represents a saving of 40-60% on every replacement.
+            All prices include the replacement lithium-ion cell, labour, IP68 adhesive gasket re-seal, and our 12-month written warranty. The Apple Store charges many times more for the same models without AppleCare+, our pricing represents a significant saving on every replacement.
           </p>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed text-sm">
             For South African short-term insurance holders: battery degradation is typically excluded from accidental damage cover. Paying for the repair directly is the only practical route, and at these prices, it is by far the most economical option compared to an upgrade.
@@ -353,7 +353,7 @@ export default function BatteryReplacementIphonePage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Prices are indicative and confirmed in writing before any work begins. Assessment from R599 applies where diagnosis is required before a quote can be given.
+            Prices are indicative and confirmed in writing before any work begins. Assessment applies where diagnosis is required before a quote can be given.
           </p>
           <PricingRange page="/battery-replacement/iphone" />
           <PricingNote variant="inline" />
@@ -442,8 +442,8 @@ export default function BatteryReplacementIphonePage() {
             <div className="glass-card p-6 border border-red-500/20">
               <h3 className="text-red-400 font-bold mb-3">Apple Store / iStore</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iPhone 15 Pro battery: R3,500 out of warranty</li>
-                <li>iPhone 12: R1,799 out of warranty</li>
+                <li>iPhone 15 Pro battery: many times more out of warranty</li>
+                <li>iPhone 12: many times more out of warranty</li>
                 <li>Turnaround: 1-3 business days in most cases</li>
                 <li>AppleCare+ required for reduced pricing</li>
                 <li>Walk-in availability varies; appointments often 48 hrs out</li>
@@ -452,7 +452,7 @@ export default function BatteryReplacementIphonePage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iPhone 15 Pro from R1,499 | iPhone 12 from R1,099</li>
+                <li>iPhone 15 Pro and iPhone 12 covered, contact us for pricing</li>
                 <li>Same-day repair for all models</li>
                 <li>12-month written warranty on battery and workmanship</li>
                 <li>IP68 gasket replaced | Battery health recalibrated</li>
@@ -463,7 +463,7 @@ export default function BatteryReplacementIphonePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <AlertTriangle className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              From R599 assessment applies to every iPhone battery replacement. If we assess your device and determine the fault lies elsewhere, such as a logic board charging circuit issue rather than the battery cell, you pay the R599 diagnostic fee and receive your phone back exactly as presented. We never replace a battery that does not need replacing.
+              Assessment applies to every iPhone battery replacement. If we assess your device and determine the fault lies elsewhere, such as a logic board charging circuit issue rather than the battery cell, you pay the diagnostic fee and receive your phone back exactly as presented. We never replace a battery that does not need replacing.
             </p>
           </div>
         </div>
@@ -541,7 +541,7 @@ export default function BatteryReplacementIphonePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | From R899 | 12-month warranty | Assessment from R599
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 12-month warranty | Assessment
             </p>
           </div>
         </div>

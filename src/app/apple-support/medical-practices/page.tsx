@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Apple Mac Support Medical Practices Johannesburg',
   description:
-    'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Assessment: from R599. Call 064 529 5863.',
+    'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/apple-support/medical-practices' },
 };
 
@@ -450,7 +450,7 @@ export default function MedicalPracticesPage() {
               { label: 'Managed IT Services', href: '/managed-services' },
               { label: 'Logic Board Repair', href: '/logic-board-repair' },
               { label: 'MacBook Pro Repair', href: '/macbook-pro-repair' },
-              { label: 'Assessment: from R599', href: '/no-fix-no-fee' },
+              { label: 'Assessment', href: '/no-fix-no-fee' },
             ].map(link => (
               <Link key={link.href} href={link.href} className="block p-3 rounded-lg bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] text-[#7A9E98] hover:text-[#0FEA7A] hover:border-[#0FEA7A] text-sm transition-colors">
                 {link.label} →

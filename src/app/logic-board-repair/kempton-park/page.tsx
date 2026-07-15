@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Kempton Park | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Kempton Park and OR Tambo area clients. Component-level repair specialists. Assessment: from R599, up-to-3 year warranty. We collect from Kempton Park. Call 064 529 5863.',
+    'MacBook logic board repair for Kempton Park and OR Tambo area clients. Component-level repair specialists. Assessment, up-to-3 year warranty. We collect from Kempton Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/kempton-park' },
 };
 
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: 'What if the board cannot be repaired?',
-    answer: 'We will tell you clearly what we found, explain why repair is not viable, and walk through your options: board replacement, data recovery, or selling the device for parts. An assessment fee of from R599 applies.',
+    answer: 'We will tell you clearly what we found, explain why repair is not viable, and walk through your options: board replacement, data recovery, or selling the device for parts. An assessment fee applies.',
   },
 ];
 
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Kempton Park',
-  description: 'Expert MacBook logic board repair and component-level repair for Kempton Park clients. Collection from Kempton Park and OR Tambo area, repair at Hyde Park workshop. Assessment: from R599.',
+  description: 'Expert MacBook logic board repair and component-level repair for Kempton Park clients. Collection from Kempton Park and OR Tambo area, repair at Hyde Park workshop. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -105,7 +105,7 @@ export default function LogicBoardRepairKemptonParkPage() {
               <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              MacBook logic board repair for Kempton Park and OR Tambo area clients. We collect from Kempton Park and carry out component-level repair at our Hyde Park workshop. Assessment: from R599.
+              MacBook logic board repair for Kempton Park and OR Tambo area clients. We collect from Kempton Park and carry out component-level repair at our Hyde Park workshop. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -114,8 +114,8 @@ export default function LogicBoardRepairKemptonParkPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level Repair' },
-                { icon: Zap, label: 'Diagnostic: from R599' },
-                { icon: CheckCircle, label: 'Assessment: from R599' },
+                { icon: Zap, label: 'Diagnostic' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -264,7 +264,7 @@ export default function LogicBoardRepairKemptonParkPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment: from R599 with to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment with to proceed.</p>
           <PricingNote variant="inline" />
         </div>
       </section>
@@ -299,8 +299,8 @@ export default function LogicBoardRepairKemptonParkPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Kempton Park MacBook Fault? Diagnostic: from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Kempton Park. Assessment: from R599. Up-to-3 year warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Kempton Park MacBook Fault? Diagnostic.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Kempton Park. Assessment. Up-to-3 year warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-KEMPTONPARK', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp for Quote

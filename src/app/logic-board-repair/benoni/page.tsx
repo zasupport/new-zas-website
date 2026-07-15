@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Benoni | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Benoni residents. Component-level repair, board diagnostics, assessment from R599. We collect from Benoni and repair at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook logic board repair for Benoni residents. Component-level repair, board diagnostics, assessment. We collect from Benoni and repair at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/benoni' },
 };
 
@@ -37,13 +37,13 @@ const pricing = [
 ];
 
 const faqs = [
-  { question: 'Do you collect MacBooks from Benoni?', answer: 'Yes, we collect from across Benoni, including Northmead, Rynfield, Lakefield, Farrarmere, and Crystal Park. The drive from Hyde Park runs via the M1 and R21, and our courier handles the East Rand route on a regular schedule. Message us on WhatsApp at 064 529 5863 to arrange a pickup window that suits you.' },
-  { question: 'How far is Benoni from your Hyde Park workshop?', answer: 'Benoni is approximately 40 minutes from our Hyde Park workshop, depending on the time of day and traffic on the R21 and N3 East. We have built our collection schedule around East Rand suburbs, so Benoni, Boksburg, and Kempton Park typically run on the same route day.' },
+  { question: 'Do you collect MacBooks from Benoni?', answer: 'Yes, we collect from across Benoni, including Northmead, Rynfield, Lakefield, Farrarmere, and Crystal Park. The drive from Hyde Park runs via the M1, and our courier handles the East Rand route on a regular schedule. Message us on WhatsApp at 064 529 5863 to arrange a pickup window that suits you.' },
+  { question: 'How far is Benoni from your Hyde Park workshop?', answer: 'Benoni is approximately 40 minutes from our Hyde Park workshop, depending on the time of day and traffic on the N3 East. We have built our collection schedule around East Rand suburbs, so Benoni, Boksburg, and Kempton Park typically run on the same route day.' },
   { question: 'What is the difference between component-level repair and a board replacement?', answer: 'Component-level repair means we diagnose the exact failed part on the logic board, a power IC, a capacitor, a shorted MOSFET, or a damaged trace, and replace only that component under the microscope. Board replacement swaps the entire logic board for another unit, which on modern MacBooks is often impossible (Apple Silicon boards are paired to the chassis) and on older machines costs many times more than the component repair itself.' },
   { question: 'My MacBook shows no power at all. Is that repairable?', answer: 'In most cases, yes. A completely dead MacBook usually points to a failure on the charging circuit, the USB-C controller, the SMC, a blown protection fuse, or a shorted capacitor on a power rail. We test for current draw the moment the charger is connected, which immediately tells us whether the board is shorted, open, or partially functional. The majority of no-power machines we see from Benoni clients are recoverable.' },
   { question: 'How long will the repair take?', answer: 'Most logic board repairs are completed within 48 to 72 hours of approval. Straightforward power IC or charging port repairs can sometimes turn around faster. Liquid damage cases, where corrosion needs careful cleaning before any rework can begin, occasionally take longer. We give you a realistic timeframe once the diagnostic is complete, rather than at booking.' },
-  { question: 'What is the assessment fee?', answer: 'Our assessment fee is from R599. This covers the full electrical diagnostic on the logic board, current draw analysis, rail testing, and visual inspection under the microscope. If you go ahead with the repair, the assessment fee forms part of the total quoted price. If the board is genuinely beyond economical repair, you only pay the assessment fee and we return the machine.' },
-  { question: 'Do you offer a From R599 assessment guarantee?', answer: 'Yes. The assessment fee starts from R599 and covers the diagnostic time and bench testing required to identify the fault. We do not quote blindly or charge for parts before knowing what is actually wrong. Once we have isolated the failed component, you receive a fixed repair quote before any soldering work begins.' },
+  { question: 'What is the assessment fee?', answer: 'Our assessment fee applies. This covers the full electrical diagnostic on the logic board, current draw analysis, rail testing, and visual inspection under the microscope. If you go ahead with the repair, the assessment fee forms part of the total quoted price. If the board is genuinely beyond economical repair, you only pay the assessment fee and we return the machine.' },
+  { question: 'Do you offer an Assessment guarantee?', answer: 'Yes. The assessment fee applies and covers the diagnostic time and bench testing required to identify the fault. We do not quote blindly or charge for parts before knowing what is actually wrong. Once we have isolated the failed component, you receive a fixed repair quote before any soldering work begins.' },
   { question: 'Which MacBook models do you repair for Benoni clients?', answer: 'We repair MacBook Pro and MacBook Air from the Intel Core i5 and i7 generations right through to Apple Silicon M1, M2, and M3 boards. We also handle iMac and Mac mini logic boards. If you are unsure whether your specific model and year is something we tool for, send us the serial number on WhatsApp and we will confirm before you arrange collection from Benoni.' },
 ];
 
@@ -51,7 +51,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Benoni',
-  description: 'Expert MacBook logic board repair and component-level repair for Benoni clients. Collection from Benoni, repair at Hyde Park workshop. Assessment from R599.',
+  description: 'Expert MacBook logic board repair and component-level repair for Benoni clients. Collection from Benoni, repair at Hyde Park workshop. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -90,7 +90,7 @@ export default function LogicBoardRepairBenoniPage() {
               <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Benoni MacBook owners, from Lakefield professionals to small business operators near Lakeside Mall, rely on our logic board repair service when their machines stop powering up. We collect from Benoni and repair at our Hyde Park component-level workshop, roughly 40 minutes away via the R21 and N3. Assessment from R599.
+              Benoni MacBook owners, from Lakefield professionals to small business operators near Lakeside Mall, rely on our logic board repair service when their machines stop powering up. We collect from Benoni and repair at our Hyde Park component-level workshop, roughly 40 minutes away via the N3. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -99,8 +99,8 @@ export default function LogicBoardRepairBenoniPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level Repair' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -244,7 +244,7 @@ export default function LogicBoardRepairBenoniPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. You choose whether to proceed once you have the quote.</p>
           <PricingRange page="/logic-board-repair/benoni" />
           <PricingNote variant="inline" />
         </div>
@@ -276,8 +276,8 @@ export default function LogicBoardRepairBenoniPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Benoni MacBook Fault? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Benoni. Assessment from R599. 12-month warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Benoni MacBook Fault? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Benoni. Assessment. 12-month warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-BENONI', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

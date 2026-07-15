@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Craighall | ZA Support Hyde Park',
-  description: 'MacBook battery replacement for Craighall clients. Same-day service, from R1,899. Collection from Craighall. Written warranty. Call 064 529 5863.',
+  description: 'MacBook battery replacement for Craighall clients. Same-day service. Collection from Craighall. Written warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/craighall' },
 };
 
@@ -25,7 +25,7 @@ const faults = [
 
 const faqs = [
   { question: 'Do you collect MacBooks for battery replacement from Craighall?', answer: 'Yes, Craighall is one of our quickest collections. From our Hyde Park workshop it is roughly 3 km down Jan Smuts Avenue or through Federation Road, usually 5 to 8 minutes outside peak hours. We cover Craighall, Craighall Park and the adjoining stretch along Republic Road. Book on 064 529 5863 or wa.me/27645295863 and we will agree a window that suits you.' },
-  { question: 'How much does MacBook battery replacement cost for Craighall clients?', answer: 'Battery replacement starts from R1,899 for MacBook Air models and rises depending on the exact model and year, Touch Bar Pros and 16-inch units sit higher because the battery is bonded into the top case. Assessment is from R599 and is credited against the repair if you go ahead. We give Craighall clients a firm written quote before any work starts, so there are no surprises.' },
+  { question: 'How much does MacBook battery replacement cost for Craighall clients?', answer: 'Battery replacement pricing depends on the exact model and year, Touch Bar Pros and 16-inch units sit higher because the battery is bonded into the top case. The assessment fee is credited against the repair if you go ahead. We give Craighall clients a firm written quote before any work starts, so there are no surprises.' },
   { question: 'How long does MacBook battery replacement take?', answer: 'For most MacBook Air and current Pro models collected from Craighall in the morning, we can return the machine the same afternoon or next working day. Older Retina and Touch Bar Pros that require a full top-case swap typically take one to two working days because the battery is glued in and the keyboard, trackpad and speakers have to be transferred across. We confirm the timeline once we have seen the model.' },
   { question: 'Will replacing my battery erase my data?', answer: 'No. A battery replacement is a hardware-only procedure, we do not touch the SSD or macOS installation, so your files, apps and settings remain exactly as they were. That said, we always recommend a Time Machine backup before sending any machine in, regardless of the repair. If you need help setting one up before collection from Craighall, mention it when you book and we will walk you through it.' },
   { question: 'How do I check my MacBook battery health?', answer: 'Hold the Option key and click the Apple menu, then choose System Information and look under Power. You will see cycle count and condition. Anything reporting Service Battery, Service Recommended, or a cycle count over 1,000 is a strong candidate for replacement. If you would prefer, send us a screenshot on WhatsApp and we will tell you whether it is worth replacing now or whether you have another year in it.' },
@@ -41,7 +41,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Battery Replacement Craighall',
-  description: 'Same-day MacBook battery replacement for Craighall clients. From R1,899. Collection included.',
+  description: 'Same-day MacBook battery replacement for Craighall clients. Collection included.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -80,14 +80,14 @@ export default function BatteryReplacementCraighallPage() {
               <br /><span className="text-[#0FEA7A]">Craighall</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook battery replacement for Craighall residents and businesses along Jan Smuts Avenue. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain, and charging faults from R1,899 with a written warranty. Collection across Craighall and Craighall Park is roughly 3 km from our Hyde Park workshop, typically 5 to 8 minutes via Jan Smuts or Federation Road.
+              Same-day MacBook battery replacement for Craighall residents and businesses along Jan Smuts Avenue. We handle Service Battery warnings, swollen cells lifting the trackpad, rapid drain, and charging faults, all backed by a written warranty. Collection across Craighall and Craighall Park is roughly 3 km from our Hyde Park workshop, typically 5 to 8 minutes via Jan Smuts or Federation Road.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | From R1,899 | Same-day service | Collecting from Craighall</span>
+              <span>Hyde Park, Johannesburg | Same-day service | Collecting from Craighall</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'From R1,899'].map((l) => (
+              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'Contact for pricing'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -155,7 +155,7 @@ export default function BatteryReplacementCraighallPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Failing? From R1,899.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Failing? We Collect.</h2>
             <p className="text-[#7A9E98] mb-6">Same-day replacement. Collecting from Craighall. Written warranty.</p>
             <PricingNote variant="inline" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">

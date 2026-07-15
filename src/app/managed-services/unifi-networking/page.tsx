@@ -9,9 +9,9 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'UniFi Business Networking Johannesburg 2026 | From R599 Assessment | ZA Support',
+  title: 'UniFi Business Networking Johannesburg 2026 Assessment | ZA Support',
   description:
-    'UniFi business networking for practices in Sandton, Bryanston, Morningside and Hyde Park. Segmented WiFi for POPIA, guest isolation, VPN, and managed support. R599 site assessment.',
+    'UniFi business networking for practices in Sandton, Bryanston, Morningside and Hyde Park. Segmented WiFi for POPIA, guest isolation, VPN, and managed support. Site assessment available.',
   alternates: { canonical: 'https://zasupport.com/managed-services/unifi-networking' },
 };
 
@@ -29,7 +29,7 @@ const faqs = [
   {
     question: 'What does a typical UniFi installation cost in Johannesburg?',
     answer:
-      'Every site is different, but typical ranges for a small to medium practice are: single-floor office (up to 8 staff), R18,000 to R28,000 including Dream Machine Pro, 2 WiFi 6 access points, a 24-port switch, and installation. Dual-floor or larger practice, R32,000 to R55,000 including additional access points, PoE cameras, and structured cabling. These are once-off hardware and installation costs. Monthly managed support starts from R1,799 per month including monitoring, firmware updates, and priority on-site response.',
+      'Every site is different. For a small to medium practice, a single-floor office (up to 8 staff) typically includes a Dream Machine Pro, 2 WiFi 6 access points, a 24-port switch, and installation. A dual-floor or larger practice adds further access points, PoE cameras, and structured cabling. These are once-off hardware and installation costs. Monthly managed support is billed separately and includes monitoring, firmware updates, and priority on-site response. Contact us for a quote.',
   },
   {
     question: 'Do you service practices in Sandton, Bryanston, Rosebank, and Morningside?',
@@ -62,16 +62,16 @@ const faqs = [
       'Yes. UniFi Protect (cameras) and UniFi Access (door readers) integrate into the same console as the networking equipment. For a medical practice in Morningside, we have deployed G4 Bullet cameras covering the reception, waiting area, and dispensary, with footage stored on a UniFi Network Video Recorder in the server room. Access control on the treatment rooms uses UniFi Access Hub with card readers. Everything runs over the same PoE switches and reports into the same dashboard, no separate vendor, no separate cabling, no separate monthly fees.',
   },
   {
-    question: 'What is included in the R599 site assessment?',
+    question: 'What is included in the site assessment?',
     answer:
-      'The R599 assessment covers: an on-site survey of your existing network and cabling, a WiFi heat map of the premises using professional survey tools to identify dead zones, a device inventory with recommended VLAN assignment, a cabling gap analysis, a written proposal with hardware and installation quotation, and a compliance review against POPIA requirements where applicable. The assessment fee is credited against installation if you proceed within 60 days.',
+      'The assessment covers: an on-site survey of your existing network and cabling, a WiFi heat map of the premises using professional survey tools to identify dead zones, a device inventory with recommended VLAN assignment, a cabling gap analysis, a written proposal with hardware and installation quotation, and a compliance review against POPIA requirements where applicable. The assessment fee is credited against installation if you proceed within 60 days.',
   },
 ];
 
 const tiers = [
   {
     name: 'Essential',
-    price: 'R1,799',
+    price: 'Contact for pricing',
     period: '/month',
     ideal: 'Small practice, up to 15 devices',
     features: [
@@ -87,7 +87,7 @@ const tiers = [
   },
   {
     name: 'Professional',
-    price: 'R2,899',
+    price: 'Contact for pricing',
     period: '/month',
     ideal: 'Medium practice, up to 40 devices',
     features: [
@@ -103,7 +103,7 @@ const tiers = [
   },
   {
     name: 'Practice Plus',
-    price: 'R4,499',
+    price: 'Contact for pricing',
     period: '/month',
     ideal: 'Multi-site or 40+ devices',
     features: [
@@ -154,8 +154,8 @@ export default function UniFiNetworkingPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-6 max-w-3xl leading-relaxed">
               Properly segmented, monitored, and POPIA-aligned networking for practices in Sandton,
-              Bryanston, Rosebank, Morningside, and the greater Johannesburg area. Installation from
-              R18,000. Managed support from R1,799 per month. Site assessment R599.
+              Bryanston, Rosebank, Morningside, and the greater Johannesburg area. Installation and
+              managed support quoted per site. Contact us for a site assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -170,7 +170,7 @@ export default function UniFiNetworkingPage() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 border border-[rgba(15,234,122,0.35)] text-[#0FEA7A] px-8 py-4 rounded-xl text-lg font-semibold hover:bg-[rgba(15,234,122,0.08)] transition-all"
               >
-                Book R599 Assessment <ArrowRight className="w-5 h-5" />
+                Book a Site Assessment <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -373,7 +373,7 @@ export default function UniFiNetworkingPage() {
               over hundreds of practice installations across Johannesburg.
             </p>
             <p>
-              <strong className="text-[#E8F4F1]">Stage one is the R599 site assessment.</strong>{' '}
+              <strong className="text-[#E8F4F1]">Stage one is the site assessment.</strong>{' '}
               We walk the premises, survey WiFi coverage, inspect cabling, inventory devices,
               and interview staff about pain points. We leave with a clear picture of what
               hardware is needed and where each component will be placed.
@@ -492,11 +492,11 @@ export default function UniFiNetworkingPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
-              Book Your R599 Network Assessment
+              Book Your Network Assessment
             </h2>
             <p className="text-[#7A9E98] mb-2">
               We walk your premises, survey WiFi coverage, review your cabling, and deliver a
-              written proposal within 48 hours. The R599 fee is credited against installation
+              written proposal within 48 hours. The assessment fee is credited against installation
               if you proceed within 60 days.
             </p>
             <p className="text-[#7A9E98] text-sm mb-6">

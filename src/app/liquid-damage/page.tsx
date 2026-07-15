@@ -70,25 +70,25 @@ const orphanSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
-  title: 'MacBook Liquid Damage Repair Johannesburg [2026] | From R1,500',
+  title: 'MacBook Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook & iPhone liquid damage repair in Johannesburg. Component-level board cleaning, ultrasonic recovery, same-day assessment. From R1,500 repair, R599 assessment. 12-month warranty. Call 064 529 5863.',
+    'MacBook & iPhone liquid damage repair in Johannesburg. Component-level board cleaning, ultrasonic recovery, same-day assessment. 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage' },
 };
 
 /* ── Pricing Table ───────────────────────────────────────────────────────── */
 const pricingTiers = [
-  { device: 'MacBook Air liquid damage', from: 'R1,500', turnaround: '3-5 days', warranty: '12 months', popular: false },
-  { device: 'MacBook Pro 13″ liquid damage', from: 'R2,500', turnaround: '3-5 days', warranty: '12 months', popular: true },
-  { device: 'MacBook Pro 14″ / 16″ liquid damage', from: 'R3,500', turnaround: '5-7 days', warranty: '12 months', popular: false },
-  { device: 'iMac liquid damage', from: 'R2,800', turnaround: '5-7 days', warranty: '12 months', popular: false },
-  { device: 'iPhone liquid damage', from: 'R1,200', turnaround: '24-72 hours', warranty: '12 months', popular: false },
-  { device: 'iPad liquid damage', from: 'R1,800', turnaround: '3-5 days', warranty: '12 months', popular: false },
+  { device: 'MacBook Air liquid damage', from: 'Contact for pricing', turnaround: '3-5 days', warranty: '12 months', popular: false },
+  { device: 'MacBook Pro 13″ liquid damage', from: 'Contact for pricing', turnaround: '3-5 days', warranty: '12 months', popular: true },
+  { device: 'MacBook Pro 14″ / 16″ liquid damage', from: 'Contact for pricing', turnaround: '5-7 days', warranty: '12 months', popular: false },
+  { device: 'iMac liquid damage', from: 'Contact for pricing', turnaround: '5-7 days', warranty: '12 months', popular: false },
+  { device: 'iPhone liquid damage', from: 'Contact for pricing', turnaround: '24-72 hours', warranty: '12 months', popular: false },
+  { device: 'iPad liquid damage', from: 'Contact for pricing', turnaround: '3-5 days', warranty: '12 months', popular: false },
 ];
 
 /* ── Process Steps ───────────────────────────────────────────────────────── */
 const processSteps = [
-  { step: 1, title: 'Same-Day Diagnosis', desc: 'WhatsApp us or walk into our Hyde Park workshop. We open the device within hours of receipt, photograph the corrosion, and identify which logic-board rails, chips and connectors have been affected. Assessment fee from R599.' },
+  { step: 1, title: 'Same-Day Diagnosis', desc: 'WhatsApp us or walk into our Hyde Park workshop. We open the device within hours of receipt, photograph the corrosion, and identify which logic-board rails, chips and connectors have been affected. Assessment fee applies.' },
   { step: 2, title: 'Full Disassembly', desc: 'The logic board is removed from the chassis under ESD-safe conditions. Display, keyboard, trackpad, battery, speakers and antennas are isolated and inspected individually for liquid migration paths.' },
   { step: 3, title: 'Ultrasonic Cleaning', desc: 'The bare logic board is submerged in a temperature-controlled ultrasonic bath with 99.9% isopropyl alcohol. The cavitation lifts conductive residue from beneath surface-mount chips, BGA pads and shielding cans where hand-cleaning cannot reach.' },
   { step: 4, title: 'Component-Level Repair', desc: 'Under stereo microscope, our technician identifies failed components, power-management ICs, charging controllers, USB-C ports, audio amplifiers, fuses, capacitors, and replaces them individually using hot-air rework and precision soldering. We do not swap the whole board.' },
@@ -145,12 +145,12 @@ const faqs = [
   {
     question: 'How much does MacBook liquid damage repair cost in Johannesburg?',
     answer:
-      'MacBook Air liquid damage repair starts from R1,500, MacBook Pro 13″ from R2,500, and MacBook Pro 14″/16″ from R3,500 at our Hyde Park workshop. The exact price depends on which components were damaged, a simple board clean is at the lower end, while replacing a damaged power-management IC or USB-C controller adds component cost. We provide a written fixed-price quote after the assessment (from R599) and no work begins without your approval.',
+      'MacBook liquid damage repair pricing depends on the model and which components were damaged. A simple board clean is at the lower end, while replacing a damaged power-management IC or USB-C controller adds component cost. We provide a written fixed-price quote after the assessment and no work begins without your approval. Contact us for pricing.',
   },
   {
     question: 'How is component-level repair different from a logic-board swap?',
     answer:
-      'A board swap replaces the entire logic board with a new or refurbished unit, typically R12,000 to R30,000 from the Apple Store, and on an Apple Silicon Mac you also lose your soldered SSD (and therefore all your data) plus your Touch ID pairing. Component-level repair identifies the specific failed chip or component on your existing board and replaces only that component under microscope. You keep your original board, your data, your Touch ID. We use component-level repair on roughly 90% of the liquid damage Macs that come into the workshop. Board replacement is a last resort.',
+      'A board swap replaces the entire logic board with a new or refurbished unit, typically many times the cost of a component-level repair from the Apple Store, and on an Apple Silicon Mac you also lose your soldered SSD (and therefore all your data) plus your Touch ID pairing. Component-level repair identifies the specific failed chip or component on your existing board and replaces only that component under microscope. You keep your original board, your data, your Touch ID. We use component-level repair on roughly 90% of the liquid damage Macs that come into the workshop. Board replacement is a last resort.',
   },
   {
     question: 'What does the ultrasonic cleaning process involve?',
@@ -180,7 +180,7 @@ const faqs = [
   {
     question: 'Do you do liquid damage repair on iPhones and iPads?',
     answer:
-      'Yes. iPhone liquid damage starts from R1,200 and iPad from R1,800. The process is similar, open the device, remove the logic board, ultrasonic clean, identify and replace failed components, full functional test. iPhone repairs typically complete in 24-72 hours, iPad in 3-5 days. We handle all iPhone models from iPhone 8 through iPhone 16 Pro Max, and all current iPads including the M4 iPad Pro.',
+      'Yes. The process is similar, open the device, remove the logic board, ultrasonic clean, identify and replace failed components, full functional test. iPhone repairs typically complete in 24-72 hours, iPad in 3-5 days. We handle all iPhone models from iPhone 8 through iPhone 16 Pro Max, and all current iPads including the M4 iPad Pro.',
   },
 ];
 
@@ -190,7 +190,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook, iPhone and iPad liquid damage repair in Johannesburg. Component-level board repair, ultrasonic cleaning, same-day assessment. From R1,500. 12-month warranty. Hyde Park workshop.',
+    'Professional MacBook, iPhone and iPad liquid damage repair in Johannesburg. Component-level board repair, ultrasonic cleaning, same-day assessment. 12-month warranty. Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -209,17 +209,17 @@ const serviceSchema = {
     itemListElement: [
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Air Liquid Damage Repair', description: 'Component-level liquid damage repair for MacBook Air. From R1,500. 12-month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Air Liquid Damage Repair', description: 'Component-level liquid damage repair for MacBook Air. 12-month warranty.' },
         price: '1500', priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Pro Liquid Damage Repair', description: 'Component-level liquid damage repair for MacBook Pro 13/14/16-inch. From R2,500. 12-month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Pro Liquid Damage Repair', description: 'Component-level liquid damage repair for MacBook Pro 13/14/16-inch. 12-month warranty.' },
         price: '2500', priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'iPhone Liquid Damage Repair', description: 'Component-level liquid damage repair for iPhone. From R1,200. 12-month warranty.' },
+        itemOffered: { '@type': 'Service', name: 'iPhone Liquid Damage Repair', description: 'Component-level liquid damage repair for iPhone. 12-month warranty.' },
         price: '1200', priceCurrency: 'ZAR',
       },
     ],
@@ -264,8 +264,8 @@ export default function LiquidDamagePage() {
               </h1>
               <p className="text-lg sm:text-xl text-[#7A9E98] mb-4 speakable-summary">
                 Same-day assessment for spilled MacBooks, iPhones and iPads at our Hyde Park workshop.
-                Component-level board cleaning and chip-level repair from <strong className="text-[#E8F4F1]">R1,500</strong>,
-                with a written 12-month warranty. Assessment from R599.
+                Component-level board cleaning and chip-level repair,
+                with a written 12-month warranty. Assessment fee applies.
               </p>
               <p className="text-[#7A9E98] mb-4">
                 We have been recovering liquid-damaged Apple devices from our Hyde Park workshop
@@ -402,8 +402,8 @@ export default function LiquidDamagePage() {
               Why We Repair at Component Level, Not Board Swap
             </h2>
             <p className="text-[#7A9E98] mb-10 max-w-2xl">
-              Most Apple repair shops quote a full logic-board replacement for any liquid damage, 
-              R12,000 to R30,000 at the Apple Store, and on Apple Silicon Macs you lose your data and
+              Most Apple repair shops quote a full logic-board replacement for any liquid damage,
+              many times the cost of a component-level repair at the Apple Store, and on Apple Silicon Macs you lose your data and
               Touch ID pairing in the process. We do the opposite. We fix the specific failed components
               under microscope and leave your original board in place.
             </p>
@@ -426,14 +426,14 @@ export default function LiquidDamagePage() {
             <p className="text-[#7A9E98] mb-10 max-w-2xl">
               Component-level repair pricing. All prices include ultrasonic cleaning, component repair,
               labour, full functional testing, and a written 12-month warranty. Compare with the Apple
-              Store, which quotes R12,000 to R30,000 for a full logic-board swap.
+              Store, which quotes many times our price for a full logic-board swap.
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
                   <tr className="border-b border-[#27504D]/40">
                     <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">Device</th>
-                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">From</th>
+                    <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider">Pricing</th>
                     <th className="py-4 pr-6 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Turnaround</th>
                     <th className="py-4 text-[#7A9E98] font-semibold text-sm uppercase tracking-wider hidden sm:table-cell">Warranty</th>
                   </tr>
@@ -454,7 +454,7 @@ export default function LiquidDamagePage() {
               </table>
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
-              Assessment fee from R599, covers full disassembly, inspection, and written fixed-price quote.
+              Assessment fee covers full disassembly, inspection, and written fixed-price quote.
               If you proceed with the repair, the assessment fee is included in the total. All prices in ZAR including VAT.
             </p>
             <PricingRange page="/liquid-damage" />
@@ -486,7 +486,7 @@ export default function LiquidDamagePage() {
                 },
                 {
                   title: 'Transparent Fixed-Price Quotes',
-                  desc: 'You receive a written, fixed-price quote after the assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. Assessment fee from R599, included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote after the assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. Assessment fee included in the repair cost if you proceed.',
                 },
                 {
                   title: 'Forbes Africa 30 Under 30 (2019)',
@@ -626,7 +626,7 @@ export default function LiquidDamagePage() {
             </h2>
             <p className="text-lg text-[#7A9E98] mb-4 max-w-2xl mx-auto">
               Send us a photo of your device and a short description of what was spilled. We will reply
-              with same-day intake details. Assessment from R599 with a written fixed-price quote before
+              with same-day intake details. Assessment with a written fixed-price quote before
               any work begins.
             </p>
             <p className="text-[#7A9E98] mb-8">

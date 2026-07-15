@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Kyalami | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Kyalami residents. Component-level repair, board diagnostics, assessment from R599. We collect from Kyalami and repair at our Hyde Park workshop. Call 064 529 5863.',
+    'MacBook logic board repair for Kyalami residents. Component-level repair, board diagnostics, assessment. We collect from Kyalami and repair at our Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/kyalami' },
 };
 
@@ -59,10 +59,10 @@ const faqs = [
   },
   {
     question: 'What is the assessment fee?',
-    answer: 'The assessment is from R599. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
+    answer: 'The assessment applies. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
   },
   {
-    question: 'Do you offer a From R599 assessment guarantee?',
+    question: 'Do you offer an Assessment guarantee?',
     answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
   },
   {
@@ -75,7 +75,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Kyalami',
-  description: 'Expert MacBook logic board repair and component-level repair for Kyalami clients. Collection from Kyalami, repair at Hyde Park workshop. Assessment from R599.',
+  description: 'Expert MacBook logic board repair and component-level repair for Kyalami clients. Collection from Kyalami, repair at Hyde Park workshop. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -114,7 +114,7 @@ export default function LogicBoardRepairKyalamiPage() {
               <br /><span className="text-[#0FEA7A]">, MacBook Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Kyalami&apos;s preferred MacBook logic board repair service. We collect from Kyalami and repair at our Hyde Park component-level workshop, approximately 22 minutes away. Assessment from R599.
+              Kyalami&apos;s preferred MacBook logic board repair service. We collect from Kyalami and repair at our Hyde Park component-level workshop, approximately 22 minutes away. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -123,8 +123,8 @@ export default function LogicBoardRepairKyalamiPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Cpu, label: 'Microscope Component-level Repair' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: AlertTriangle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -268,7 +268,7 @@ export default function LogicBoardRepairKyalamiPage() {
               </div>
             ))}
           </div>
-          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment from R599 with to proceed.</p>
+          <p className="text-[#7A9E98] text-xs mt-3">Final price confirmed at diagnostic. Assessment with to proceed.</p>
           <PricingRange page="/logic-board-repair/kyalami" />
           <PricingNote variant="inline" />
         </div>
@@ -300,8 +300,8 @@ export default function LogicBoardRepairKyalamiPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Kyalami MacBook Fault? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Kyalami. Assessment from R599. 12-month warranty. Hyde Park workshop.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Kyalami MacBook Fault? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Kyalami. Assessment. 12-month warranty. Hyde Park workshop.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-KYALAMI', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

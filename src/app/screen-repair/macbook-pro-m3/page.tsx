@@ -10,9 +10,9 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
-  title: 'MacBook Pro M3 Screen Repair Johannesburg [2026] | From R5,799 | ZA Support',
+  title: 'MacBook Pro M3 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro M3 screen repair in Johannesburg from R5,799. Liquid Retina XDR mini-LED specialists. ProMotion, True Tone, backlight IC. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro M3 screen repair in Johannesburg. Liquid Retina XDR mini-LED specialists. ProMotion, True Tone, backlight IC. No Fix No Fee. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-m3' },
   keywords: [
     'MacBook Pro M3 screen repair Johannesburg',
@@ -48,7 +48,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M3 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro M3 screen repair in Johannesburg. Liquid Retina XDR mini-LED display replacement, display cable fault, backlight driver IC repair, True Tone preservation, ProMotion 120 Hz. Assessment from R599. Up-to-3 year warranty.',
+    'Professional MacBook Pro M3 screen repair in Johannesburg. Liquid Retina XDR mini-LED display replacement, display cable fault, backlight driver IC repair, True Tone preservation, ProMotion 120 Hz. Assessment. Up-to-3 year warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -76,25 +76,25 @@ const pricingRows = [
   {
     model: 'MacBook Pro 14″ M3 (A2992, 2023)',
     panel: 'Liquid Retina XDR mini-LED (3024 × 1964, 254 ppi)',
-    from: 'R5,799',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 14″ M3 Pro / M3 Max (A2991, 2023)',
     panel: 'Liquid Retina XDR mini-LED (3024 × 1964, 254 ppi)',
-    from: 'R5,799',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro 16″ M3 Pro / M3 Max (A2991, 2023)',
     panel: 'Liquid Retina XDR mini-LED (3456 × 2234, 254 ppi)',
-    from: 'R7,499',
+    from: 'Contact for pricing',
     turnaround: '48-72 hrs',
   },
   {
     model: 'MacBook Pro M3, display cable / backlight IC only',
     panel: 'Component-level backlight driver or cable repair',
-    from: 'R1,999',
+    from: 'Contact for pricing',
     turnaround: '24-48 hrs',
   },
 ];
@@ -109,7 +109,7 @@ const faultTypes = [
   {
     title: 'Backlight Driver IC Failure: Load Shedding Surge Damage',
     icon: Zap,
-    desc: 'Load shedding continues to be the leading cause of MacBook Pro M3 backlight failure in Johannesburg. The MacBook Pro M3 ships with a 70 W or 140 W USB-C power adapter, and many clients in Sandton, Fourways, Bryanston, and Midrand leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike travels through the charger and onto the backlight power rail, where it can destroy the backlight driver IC on the logic board. The result is a MacBook Pro M3 that boots normally, you can hear the chime, the fans may spin, and an external display works, but the built-in screen is completely dark. We repair the backlight driver IC at component level from R1,999, without replacing the logic board or the display assembly.',
+    desc: 'Load shedding continues to be the leading cause of MacBook Pro M3 backlight failure in Johannesburg. The MacBook Pro M3 ships with a 70 W or 140 W USB-C power adapter, and many clients in Sandton, Fourways, Bryanston, and Midrand leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage, the inrush voltage spike travels through the charger and onto the backlight power rail, where it can destroy the backlight driver IC on the logic board. The result is a MacBook Pro M3 that boots normally, you can hear the chime, the fans may spin, and an external display works, but the built-in screen is completely dark. We repair the backlight driver IC at component level, without replacing the logic board or the display assembly.',
     severity: 'high',
   },
   {
@@ -160,12 +160,12 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M3 screen repair cost in Johannesburg?',
     answer:
-      'MacBook Pro M3 screen repair at ZA Support starts from R5,799 for both the 14-inch M3 (A2992) and M3 Pro/M3 Max (A2991) Liquid Retina XDR display assemblies, and from R7,499 for the 16-inch M3 Pro and M3 Max. Component-level repairs, display cable or backlight driver IC, start from R1,999 and are assessed before recommending a full assembly replacement. The Apple Store and iStore charge R10,000 to R22,000 for M3 display swaps. We provide a written fixed-price quote after the diagnostic assessment before any work begins.',
+      'MacBook Pro M3 screen repair at ZA Support is quoted per model, with the 14-inch M3 (A2992) and M3 Pro/M3 Max (A2991) Liquid Retina XDR display assemblies, and the 16-inch M3 Pro and M3 Max, each priced individually. Component-level repairs, display cable or backlight driver IC, cost less than a full assembly and are assessed before recommending a full assembly replacement. The Apple Store and iStore charge many times our price for M3 display swaps. We provide a written fixed-price quote after the diagnostic assessment before any work begins.',
   },
   {
     question: 'My MacBook Pro M3 screen is completely black but the Mac appears to be on. What is wrong?',
     answer:
-      'The most likely cause is backlight failure. To confirm: hold a torch against the display at a low angle in a dark room. If you can faintly see the desktop or menu bar, the M3 chip and GPU are functioning normally, the backlight circuit has failed. In Johannesburg, this fault is very frequently triggered by a load shedding voltage surge reaching the backlight driver IC through the USB-C or MagSafe charger. We repair the backlight driver IC at component level from R1,999. If there is nothing visible under torchlight, the fault may be in the display panel, the display cable, or a GPU-level issue, our assessment identifies the exact cause before we quote.',
+      'The most likely cause is backlight failure. To confirm: hold a torch against the display at a low angle in a dark room. If you can faintly see the desktop or menu bar, the M3 chip and GPU are functioning normally, the backlight circuit has failed. In Johannesburg, this fault is very frequently triggered by a load shedding voltage surge reaching the backlight driver IC through the USB-C or MagSafe charger. We repair the backlight driver IC at component level. If there is nothing visible under torchlight, the fault may be in the display panel, the display cable, or a GPU-level issue, our assessment identifies the exact cause before we quote.',
   },
   {
     question: 'Does MacBook Pro M3 screen replacement preserve ProMotion and True Tone?',
@@ -185,12 +185,12 @@ const faqs = [
   {
     question: 'Is it worth repairing a cracked MacBook Pro M3 screen?',
     answer:
-      'In almost every case, yes. MacBook Pro M3 machines will receive macOS security and feature updates for many years. A MacBook Pro M3 14-inch in good condition sells for R28,000 to R42,000 on the South African used market. Our display assembly replacement starts from R5,799, roughly 14 to 21% of replacement value. We will tell you honestly at assessment if the repair cost does not make financial sense for your specific combination of fault and machine condition, but this is uncommon. The screen is a replaceable component; the M3 chip is not.',
+      'In almost every case, yes. MacBook Pro M3 machines will receive macOS security and feature updates for many years. A MacBook Pro M3 14-inch in good condition still holds strong resale value on the South African used market. Our display assembly replacement costs only a fraction of that. We will tell you honestly at assessment if the repair cost does not make financial sense for your specific combination of fault and machine condition, but this is uncommon. The screen is a replaceable component; the M3 chip is not.',
   },
   {
     question: 'Can load shedding damage the MacBook Pro M3 screen?',
     answer:
-      'Yes, and we see this regularly across Johannesburg. The MacBook Pro M3 ships with a 70 W or 140 W USB-C power adapter, and many clients leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage in areas like Sandton, Fourways, or Bryanston, the inrush voltage spike travels through the charger onto the backlight power rail and can destroy the backlight driver IC. The symptom is a completely dark built-in display on a machine that otherwise boots and works normally. We repair this at component level from R1,999. A quality UPS with true sine wave output prevents this fault entirely.',
+      'Yes, and we see this regularly across Johannesburg. The MacBook Pro M3 ships with a 70 W or 140 W USB-C power adapter, and many clients leave the machine plugged in overnight. When Eskom restores power after a stage-4 or stage-6 outage in areas like Sandton, Fourways, or Bryanston, the inrush voltage spike travels through the charger onto the backlight power rail and can destroy the backlight driver IC. The symptom is a completely dark built-in display on a machine that otherwise boots and works normally. We repair this at component level. A quality UPS with true sine wave output prevents this fault entirely.',
   },
   {
     question: 'Do you repair MacBook Pro M3 screens damaged by a previous repair attempt?',
@@ -240,7 +240,7 @@ export default function ScreenRepairMacBookProM3Page() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 14-inch from R5,799 | 16-inch from R7,499</span>
+              <span>1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 14-inch and 16-inch serviced</span>
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
@@ -248,7 +248,7 @@ export default function ScreenRepairMacBookProM3Page() {
                 { icon: Cpu, label: 'M3 Chip Specialists' },
                 { icon: Eye, label: 'True Tone & ProMotion Preserved' },
                 { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
-                { icon: Zap, label: 'Assessment from R599' },
+                { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -300,7 +300,7 @@ export default function ScreenRepairMacBookProM3Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro M3 Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge R10,000 to R22,000 for MacBook Pro M3 display swaps, we perform a component-level diagnosis first to avoid unnecessary part replacements and keep costs down where possible.
+            Prices below are starting prices including the display assembly or component repair, labour, and our warranty. The Apple Store and iStore charge many times our price for MacBook Pro M3 display swaps, we perform a component-level diagnosis first to avoid unnecessary part replacements and keep costs down where possible.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -308,7 +308,7 @@ export default function ScreenRepairMacBookProM3Page() {
                 <tr className="border-b border-[rgba(255,255,255,0.08)] bg-[rgba(15,234,122,0.06)]">
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Repair Type</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Component</th>
-                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">From</th>
+                  <th className="text-left text-[#0FEA7A] font-semibold px-5 py-4">Pricing</th>
                   <th className="text-left text-[#E8F4F1] font-semibold px-5 py-4">Turnaround</th>
                 </tr>
               </thead>
@@ -325,7 +325,7 @@ export default function ScreenRepairMacBookProM3Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment from R599, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -409,7 +409,7 @@ export default function ScreenRepairMacBookProM3Page() {
               {
                 step: '01',
                 title: 'Assessment (30-60 minutes)',
-                desc: 'We open the MacBook Pro M3 and carry out a systematic fault isolation of the display assembly, display cable, backlight driver circuit, and display connector on the logic board. We use a thermal camera to identify components running outside specification and a high-speed camera to map ProMotion behaviour before the repair. The assessment costs from R599 and is applied toward the repair if you proceed.',
+                desc: 'We open the MacBook Pro M3 and carry out a systematic fault isolation of the display assembly, display cable, backlight driver circuit, and display connector on the logic board. We use a thermal camera to identify components running outside specification and a high-speed camera to map ProMotion behaviour before the repair. The assessment applies and is applied toward the repair if you proceed.',
               },
               {
                 step: '02',
@@ -497,7 +497,7 @@ export default function ScreenRepairMacBookProM3Page() {
             MacBook Pro M3 Screen Repair, Johannesburg
           </h2>
           <p className="text-[#7A9E98] mb-8 text-lg leading-relaxed">
-            Assessment from R599 · No Fix No Fee · Up to 3 Year Warranty · Hyde Park Workshop · WhatsApp for a same-day quote
+            Assessment · No Fix No Fee · Up to 3 Year Warranty · Hyde Park Workshop · WhatsApp for a same-day quote
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

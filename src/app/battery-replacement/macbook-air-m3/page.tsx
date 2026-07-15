@@ -10,7 +10,7 @@ import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
   title: 'MacBook Air M3 Battery Replacement Johannesburg 2026 | ZA Support',
-  description: 'MacBook Air M3 battery replacement in Johannesburg. Service Battery warning, swollen battery, rapid drain. Same-day replacement. From R1,899. No Fix No Fee.',
+  description: 'MacBook Air M3 battery replacement in Johannesburg. Service Battery warning, swollen battery, rapid drain. Same-day replacement. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air-m3' },
 };
 
@@ -18,13 +18,13 @@ const faults = [
   { fault: 'Service Battery Warning', desc: 'macOS displays "Service Recommended" in the battery menu when the MacBook Air M3 battery health drops below 80% or the cycle count exceeds Apple\'s threshold. The M3 Air uses a 52.6 Wh battery (13-inch) or 66.5 Wh (15-inch) with adhesive pull-tabs. We replace same-day at our Hyde Park workshop with a genuine-spec replacement that restores full health reporting in macOS.' },
   { fault: 'Rapid Battery Drain', desc: 'The MacBook Air M3 is rated for 18 hours of battery life. If yours lasts under 4 hours on light tasks, web browsing, email, documents, the cells are degraded. We see this most commonly after 500+ charge cycles or after extended use during load shedding where the battery was constantly cycled between charge and discharge. Replacement restores the original 18-hour capability.' },
   { fault: 'Swollen / Expanding Battery', desc: 'A swollen battery in the MacBook Air M3 pushes against the trackpad (causing phantom clicks or stiffness) and can warp the bottom case. This is a safety issue, a swollen lithium battery should not be charged or used. We handle swollen battery replacement with proper disposal protocols. Do not ignore trackpad stiffness in an M3 Air, it is almost always a swelling battery.' },
-  { fault: 'Not Charging via MagSafe 3', desc: 'The MacBook Air M3 charges via MagSafe 3 and USB-C. If MagSafe 3 charging stops while USB-C still works, the fault is likely the MagSafe charge controller on the logic board, not the battery. If neither charges, the battery\'s charge circuit may have failed. Our R599 assessment distinguishes between battery fault and board fault before any replacement.' },
+  { fault: 'Not Charging via MagSafe 3', desc: 'The MacBook Air M3 charges via MagSafe 3 and USB-C. If MagSafe 3 charging stops while USB-C still works, the fault is likely the MagSafe charge controller on the logic board, not the battery. If neither charges, the battery\'s charge circuit may have failed. Our assessment distinguishes between battery fault and board fault before any replacement.' },
   { fault: 'Not Charging via USB-C', desc: 'Both USB-C Thunderbolt 3 ports on the M3 Air can charge the machine. Failure to charge via USB-C while MagSafe works points to a USB-C controller fault, not battery. If the battery is not accepting charge from either source, the battery\'s internal protection circuit may have tripped. Diagnosis determines the exact cause before quoting.' },
   { fault: 'Reduced Runtime After macOS Update', desc: 'A macOS update can temporarily increase battery drain as Spotlight re-indexes and background processes run. If poor battery life persists beyond 48 hours after an update, the battery cells themselves may be degraded and the update merely exposed it. We test actual cell capacity, not just the percentage macOS reports, to confirm whether replacement is needed.' },
 ];
 
 const faqs = [
-  { question: 'How much does MacBook Air M3 battery replacement cost?', answer: 'Battery replacement for the MacBook Air M3 starts from R1,899 at our Hyde Park workshop. Apple charges R2,999-R3,499 through their official service. We use genuine-spec batteries that restore full macOS health reporting. Written quote before any work.' },
+  { question: 'How much does MacBook Air M3 battery replacement cost?', answer: 'Battery replacement for the MacBook Air M3 is an affordable, same-day service at our Hyde Park workshop. Apple charges many times more through their official service. We use genuine-spec batteries that restore full macOS health reporting. Written quote before any work.' },
   { question: 'How long does MacBook Air M3 battery replacement take?', answer: 'Same-day replacement in most cases. The MacBook Air M3 uses adhesive pull-tabs (not glued) which makes the replacement cleaner and faster than older glued-in designs. Drop off in the morning, collect in the afternoon, or we collect and return from Johannesburg suburbs.' },
   { question: 'Will my data be affected by battery replacement?', answer: 'No. Battery replacement does not touch the logic board, SSD, or any data-bearing component. Your files, apps, and settings are untouched. No backup needed, though we always recommend keeping a Time Machine backup.' },
   { question: 'How do I check my MacBook Air M3 battery health?', answer: 'Click the Apple menu > System Settings > Battery > Battery Health. It shows the condition (Normal or Service Recommended) and the maximum capacity percentage. Anything below 80% typically means the battery should be replaced. You can also check cycle count in System Information > Power.' },
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Air M3 Battery Replacement Johannesburg',
-  description: 'MacBook Air M3 battery replacement in Johannesburg. Same-day service. From R1,899. Genuine-spec batteries.',
+  description: 'MacBook Air M3 battery replacement in Johannesburg. Same-day service. Genuine-spec batteries.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -76,14 +76,14 @@ export default function MacBookAirM3BatteryPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Same-day MacBook Air M3 battery replacement at our Hyde Park workshop. Service Battery warning, swollen battery, rapid drain, and charging faults. The M3 Air uses adhesive pull-tab batteries, a clean, fast replacement. From R1,899 with written warranty.
+              Same-day MacBook Air M3 battery replacement at our Hyde Park workshop. Service Battery warning, swollen battery, rapid drain, and charging faults. The M3 Air uses adhesive pull-tab batteries, a clean, fast replacement, backed by a written warranty.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | From R1,899 | Same-day replacement | Collection from Sandton, Rosebank, Fourways</span>
+              <span>Hyde Park, Johannesburg | Same-day replacement | Collection from Sandton, Rosebank, Fourways</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'From R1,899'].map((l) => (
+              {['Same-Day Replacement', 'Genuine-Spec Battery', 'Written Warranty', 'Contact for pricing'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -151,7 +151,7 @@ export default function MacBookAirM3BatteryPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M3 Battery Failing? From R1,899.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Air M3 Battery Failing?</h2>
             <p className="text-[#7A9E98] mb-6">Same-day replacement. Written warranty. Collection from Johannesburg suburbs.</p>
             <PricingNote variant="inline" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">

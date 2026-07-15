@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Kyalami | ZA Support Hyde Park',
   description:
-    'MacBook screen repair for Kyalami clients. Cracked displays, backlight failure, LCD faults. We collect from Kyalami and repair at our Hyde Park workshop. Assessment from R599. Call 064 529 5863.',
+    'MacBook screen repair for Kyalami clients. Cracked displays, backlight failure, LCD faults. We collect from Kyalami and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/kyalami' },
 };
 
@@ -28,11 +28,11 @@ const faults = [
 const faqs = [
   { question: 'Do you collect MacBooks for screen repair from Kyalami?', answer: 'Yes. We collect across Kyalami, Kyalami Estates, Kyalami Hills, Crowthorne, and the businesses around Kyalami Corner and Main Road. The drive from our Hyde Park workshop is about 25 minutes via the M1 and N1, so we usually offer a same-day or next-morning collection window. We pre-register driver details for estate visitor systems so gate access is smooth. Call or WhatsApp 064 529 5863 to book.' },
   { question: 'How long does a MacBook screen repair take?', answer: 'Most MacBook screen repairs are completed within three to five working days from collection in Kyalami. Straightforward Retina panel swaps on standard models can be quicker; Apple Silicon machines with full display assembly replacement sometimes need an extra day or two if a specific part has to be ordered. We give you a realistic timeline with the written quote so you can plan around it.' },
-  { question: 'What is the screen repair assessment fee?', answer: 'Assessment is from R599. That covers collection from your Kyalami address, a full diagnostic at the Hyde Park workshop, and a written quote covering parts, labour and turnaround. If you proceed with the repair, the assessment fee is credited against the final invoice. If you decide not to proceed, we return the MacBook to Kyalami in its original condition.' },
+  { question: 'What is the screen repair assessment fee?', answer: 'Our assessment fee applies. That covers collection from your Kyalami address, a full diagnostic at the Hyde Park workshop, and a written quote covering parts, labour and turnaround. If you proceed with the repair, the assessment fee is credited against the final invoice. If you decide not to proceed, we return the MacBook to Kyalami in its original condition.' },
   { question: 'Do you use genuine Apple screens?', answer: 'We use genuine-grade replacement displays sourced through established trade channels. For most Retina models we can offer either an original-pull tested panel or a high-quality equivalent, and we explain the difference, warranty terms, and price for each option in the written quote. Kyalami clients generally choose based on whether the MacBook is a daily work machine or a longer-term resale asset.' },
   { question: 'My MacBook screen has lines but still works. Should I get it repaired?', answer: 'Vertical or horizontal lines almost always get worse, not better. What starts as a thin line across the display usually progresses to flickering, then full panel failure, often within a few weeks. We have seen this pattern repeatedly on Kyalami machines brought in late. Bringing it in while the screen still works lets us diagnose whether the fault is the panel, the flex cable, or the logic board, and the earlier diagnosis is usually the cheaper repair.' },
   { question: 'Can you repair the screen on Apple Silicon MacBooks?', answer: 'Yes. We repair displays on M1, M2, and M3 MacBook Air and Pro models. The Apple Silicon display assembly is more integrated than older Retina designs, so the repair typically involves a full lid assembly rather than just the panel, and pricing reflects that. We confirm exact part availability and cost in the written quote before proceeding.' },
-  { question: 'What is a From R599 assessment guarantee?', answer: 'It means the assessment cost starts at R599 and is fixed before we collect, there are no surprise add-ons to the diagnostic itself. After assessment you get a written quote for the repair, and you decide whether to proceed. If you go ahead, the R599 is credited towards the repair invoice. If not, we return the MacBook to your Kyalami address with a clear explanation of what we found.' },
+  { question: 'What is an Assessment guarantee?', answer: 'It means the assessment fee is fixed before we collect, there are no surprise add-ons to the diagnostic itself. After assessment you get a written quote for the repair, and you decide whether to proceed. If you go ahead, the assessment fee is credited towards the repair invoice. If not, we return the MacBook to your Kyalami address with a clear explanation of what we found.' },
   { question: 'Can you repair a cracked outer glass without replacing the full display?', answer: 'On most modern MacBooks the glass is bonded to the LCD as a single unit, so a glass-only repair is not viable, replacing the assembly is the reliable fix. On a few older models a glass separation repair is technically possible, but we rarely recommend it because the long-term result is inconsistent. We assess your specific model and tell you honestly which approach makes sense, rather than quoting the cheapest option on paper.' },
 ];
 
@@ -79,7 +79,7 @@ export default function ScreenRepairKyalamiPage() {
               <br /><span className="text-[#0FEA7A]">, Display Specialists</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Screen repairs for Kyalami homes, equestrian estates, and the businesses around the Kyalami Corner shopping centre. Cracked panels, backlight failure, vertical lines, and LCD damage handled at our Hyde Park workshop. We collect along Main Road and from the estates off Maple Road, with assessment from R599.
+              Screen repairs for Kyalami homes, equestrian estates, and the businesses around the Kyalami Corner shopping centre. Cracked panels, backlight failure, vertical lines, and LCD damage handled at our Hyde Park workshop. We collect along Main Road and from the estates off Maple Road, with assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -88,8 +88,8 @@ export default function ScreenRepairKyalamiPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               {[
                 { icon: Monitor, label: 'Retina Display Repairs' },
-                { icon: Zap, label: 'Assessment from R599' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: Zap, label: 'Assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -155,8 +155,8 @@ export default function ScreenRepairKyalamiPage() {
       <section className="py-8 sm:py-16 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Kyalami? Assessment from R599.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Kyalami. Assessment from R599. From R599 assessment. 12-month warranty.</p>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Cracked Screen in Kyalami? Assessment.</h2>
+            <p className="text-[#7A9E98] mb-6">We collect from Kyalami. Assessment. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('SCR-KYALAMI', 'screen-repair')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

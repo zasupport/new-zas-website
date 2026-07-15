@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Emmarentia | ZA Support Hyde Park',
-  description: 'MacBook liquid damage repair for Emmarentia clients. Ultrasonic cleaning, component-level board repair. Assessment from R599. Collection from Emmarentia. No Fix No Fee.',
+  description: 'MacBook liquid damage repair for Emmarentia clients. Ultrasonic cleaning, component-level board repair. Assessment. Collection from Emmarentia. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/emmarentia' },
 };
 
@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'How much does MacBook liquid damage repair cost for Emmarentia clients?',
-    answer: 'Assessment from R599 determines the extent of damage. Repair cost depends on which components have been damaged by the liquid. Apple charges R15,000-R70,000 for board replacement after liquid damage. We repair only the affected components at a fraction of that cost. Written quote before any work.',
+    answer: 'Assessment determines the extent of damage. Repair cost depends on which components have been damaged by the liquid. Apple charges many times more for board replacement after liquid damage. We repair only the affected components at a fraction of that cost. Written quote before any work.',
   },
   {
     question: 'My MacBook got wet but still works, do I need to bring it in?',
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'Do you offer No Fix No Fee for liquid damage from Emmarentia?',
-    answer: 'Yes. If we cannot repair the board after assessment, you pay only the R599 assessment fee. No Fix No Fee applies to all Emmarentia clients. Collection is included.',
+    answer: 'Yes. If we cannot repair the board after assessment, you pay only the assessment fee. No Fix No Fee applies to all Emmarentia clients. Collection is included.',
   },
 ];
 
@@ -62,7 +62,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Liquid Damage Repair Emmarentia',
-  description: 'Ultrasonic cleaning and component-level MacBook liquid damage repair for Emmarentia clients. Assessment from R599.',
+  description: 'Ultrasonic cleaning and component-level MacBook liquid damage repair for Emmarentia clients. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -105,10 +105,10 @@ export default function LiquidDamageEmmarentiaPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Same-day collection from Emmarentia</span>
+              <span>Hyde Park, Johannesburg | Assessment | Same-day collection from Emmarentia</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Ultrasonic Cleaning', 'Component-Level Repair', 'No Fix No Fee', 'Assessment from R599'].map((l) => (
+              {['Ultrasonic Cleaning', 'Component-Level Repair', 'No Fix No Fee', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -178,7 +178,7 @@ export default function LiquidDamageEmmarentiaPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Liquid Damage? Time matters.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Emmarentia. Ultrasonic cleaning. Assessment from R599. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Emmarentia. Ultrasonic cleaning. Assessment. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LD-EMMARENTIA', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

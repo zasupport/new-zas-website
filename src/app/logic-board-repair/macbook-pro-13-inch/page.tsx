@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro 13-inch Logic Board Repair Johannesburg',
-  description: 'MacBook Pro 13-inch logic board repair in Johannesburg. Intel 2016-2020, M1 2020, M2 2022. Butterfly keyboard, USB-C faults, no power, T2 chip, liquid damage. Assessment from R599.',
+  description: 'MacBook Pro 13-inch logic board repair in Johannesburg. Intel 2016-2020, M1 2020, M2 2022. Butterfly keyboard, USB-C faults, no power, T2 chip, liquid damage. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-13-inch' },
 };
 
@@ -24,13 +24,13 @@ const faults = [
 ];
 
 const faqs = [
-  { question: 'Can the MacBook Pro 13-inch logic board be repaired?', answer: 'Yes. All MacBook Pro 13-inch generations are repairable at component level. On Intel models (2016-2020), the T2 chip, charge controllers, Thunderbolt controllers, and USB-C power delivery circuits are discrete components. On Apple Silicon models (M1 2020, M2 2022), the SoC is integrated but surrounding power, display, and I/O circuits are all individually diagnosable and repairable. ZA Support in Hyde Park, Johannesburg assesses from R599.' },
+  { question: 'Can the MacBook Pro 13-inch logic board be repaired?', answer: 'Yes. All MacBook Pro 13-inch generations are repairable at component level. On Intel models (2016-2020), the T2 chip, charge controllers, Thunderbolt controllers, and USB-C power delivery circuits are discrete components. On Apple Silicon models (M1 2020, M2 2022), the SoC is integrated but surrounding power, display, and I/O circuits are all individually diagnosable and repairable. ZA Support in Hyde Park, Johannesburg carries out the assessment.' },
   { question: 'Which MacBook Pro 13-inch models do you repair?', answer: 'We repair all MacBook Pro 13-inch generations: Intel 2016, 2017, 2018, 2019, and 2020 (including Touch Bar and non-Touch Bar variants), M1 (late 2020), and M2 (mid 2022). Each has a distinct logic board layout, so our assessment identifies the specific generation and component fault before any repair proceeds.' },
-  { question: 'Can you repair T2 chip faults on Intel MacBook Pro 13-inch?', answer: 'Yes. T2 chip faults on the 2019 and 2020 Intel MacBook Pro 13-inch, including Touch ID failure, boot failures, and encrypted storage issues, are addressable at component level in most cases. The T2 is a discrete Apple-designed IC on the logic board. Assessment from R599 determines the specific T2 fault mode and repair viability.' },
-  { question: 'My MacBook Pro 13-inch has a no-charge fault after a load shedding surge, is it repairable?', answer: 'Yes, in most cases. Load shedding power surges are a common cause of USB-C charging failures on 13-inch MacBook Pros in South Africa. The surge typically damages the charge controller IC rather than the logic board\'s core circuits. The R599 assessment identifies the specific failed component and confirms repair viability before any commitment.' },
-  { question: 'How much does MacBook Pro 13-inch logic board repair cost?', answer: 'Apple charges R15,000-R40,000 for logic board replacement on 13-inch MacBook Pro models depending on generation and configuration. ZA Support repairs only the specific failed component at a fraction of that cost. A written quote is provided after the R599 assessment with the exact repair cost.' },
-  { question: 'How long does 13-inch MacBook Pro logic board repair take?', answer: 'After the R599 assessment and your written approval, most 13-inch MacBook Pro logic board repairs complete within 3-5 business days. Liquid damage cases on Intel models with T2 chips may require additional assessment time. We provide a specific timeline in the written quote before starting.' },
-  { question: 'Is it worth repairing an older Intel MacBook Pro 13-inch?', answer: 'For 2018-2020 Intel models with T2 chips, repair is generally worthwhile as these machines run macOS Ventura and Sequoia and have substantial performance remaining. For 2016-2017 models, repair viability depends on the fault type and repair cost relative to the machine\'s current value. The R599 assessment helps you make this decision with accurate information.' },
+  { question: 'Can you repair T2 chip faults on Intel MacBook Pro 13-inch?', answer: 'Yes. T2 chip faults on the 2019 and 2020 Intel MacBook Pro 13-inch, including Touch ID failure, boot failures, and encrypted storage issues, are addressable at component level in most cases. The T2 is a discrete Apple-designed IC on the logic board. Assessment determines the specific T2 fault mode and repair viability.' },
+  { question: 'My MacBook Pro 13-inch has a no-charge fault after a load shedding surge, is it repairable?', answer: 'Yes, in most cases. Load shedding power surges are a common cause of USB-C charging failures on 13-inch MacBook Pros in South Africa. The surge typically damages the charge controller IC rather than the logic board\'s core circuits. The assessment identifies the specific failed component and confirms repair viability before any commitment.' },
+  { question: 'How much does MacBook Pro 13-inch logic board repair cost?', answer: 'Apple charges many times more for logic board replacement on 13-inch MacBook Pro models depending on generation and configuration. ZA Support repairs only the specific failed component at a fraction of that cost. A written quote is provided after the assessment with the exact repair cost.' },
+  { question: 'How long does 13-inch MacBook Pro logic board repair take?', answer: 'After the assessment and your written approval, most 13-inch MacBook Pro logic board repairs complete within 3-5 business days. Liquid damage cases on Intel models with T2 chips may require additional assessment time. We provide a specific timeline in the written quote before starting.' },
+  { question: 'Is it worth repairing an older Intel MacBook Pro 13-inch?', answer: 'For 2018-2020 Intel models with T2 chips, repair is generally worthwhile as these machines run macOS Ventura and Sequoia and have substantial performance remaining. For 2016-2017 models, repair viability depends on the fault type and repair cost relative to the machine\'s current value. The assessment helps you make this decision with accurate information.' },
   { question: 'Does ZA Support collect MacBook Pro 13-inch for repair in Johannesburg?', answer: 'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange collection.' },
 ];
 
@@ -38,7 +38,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Pro 13-inch Logic Board Repair Johannesburg',
-  description: 'Component-level MacBook Pro 13-inch logic board repair in Johannesburg. Intel 2016-2020, M1, M2. Assessment from R599.',
+  description: 'Component-level MacBook Pro 13-inch logic board repair in Johannesburg. Intel 2016-2020, M1, M2. Assessment.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
 };
@@ -80,10 +80,10 @@ export default function MacBookPro13InchLogicBoardPage() {
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
-              <span>Hyde Park, Johannesburg | Assessment from R599 | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
+              <span>Hyde Park, Johannesburg | Assessment | Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment from R599'].map((l) => (
+              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -152,7 +152,7 @@ export default function MacBookPro13InchLogicBoardPage() {
       <section className="py-8 sm:py-16 bg-[#0A1A18]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
-            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 13-inch Fault? Assessment from R599.</h2>
+            <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Pro 13-inch Fault? Assessment.</h2>
             <p className="text-[#7A9E98] mb-6">Collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MACBOOKPRO13INCH', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >

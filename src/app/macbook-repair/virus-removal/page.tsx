@@ -11,7 +11,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Mac Virus & Malware Removal Johannesburg | No-Obligation Diagnostic | ZA Support',
   description:
-    'Mac virus and malware removal in Johannesburg. Assessment: from R599. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',
+    'Mac virus and malware removal in Johannesburg. Assessment. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/virus-removal' },
   keywords: [
     'mac virus removal johannesburg',
@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     question: 'How much does Mac virus removal cost in Johannesburg?',
-    answer: 'Mac virus and malware removal at ZA Support starts with a assessment. We give you a fixed written quote after the diagnostic, no surprises.',
+    answer: 'Mac virus and malware removal at ZA Support starts with an assessment. We give you a fixed written quote after the diagnostic, no surprises.',
   },
   {
     question: 'How long does Mac malware removal take?',
@@ -135,7 +135,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'Mac virus and malware removal in Johannesburg. Assessment: from R599. Remove Genieo, SearchMine, adware, spyware, trojans. Ongoing protection available via CyberShield.',
+  description: 'Mac virus and malware removal in Johannesburg. Assessment. Remove Genieo, SearchMine, adware, spyware, trojans. Ongoing protection available via CyberShield.',
 
 };
 
@@ -178,7 +178,7 @@ export default function MacVirusRemovalPage() {
               <span className="text-[#7A9E98] text-3xl sm:text-4xl"> | No-Obligation Diagnostic</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Adware, browser hijackers, spyware, trojans, and info stealers, we diagnose and remove all known Mac threats. If your Mac is slow, showing pop-ups, or redirecting your browser, bring it in. Assessment: from R599.
+              Adware, browser hijackers, spyware, trojans, and info stealers, we diagnose and remove all known Mac threats. If your Mac is slow, showing pop-ups, or redirecting your browser, bring it in. Assessment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -208,7 +208,7 @@ export default function MacVirusRemovalPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { stat: 'R599', label: 'Diagnostic, from' },
+              { stat: 'Contact for pricing', label: 'Diagnostic, from' },
               { stat: 'Same-Day', label: 'Removal for Most Infections' },
               { stat: '100%', label: 'Mac-Specialist Technicians' },
               { stat: 'CyberShield', label: 'Ongoing Protection Available' },
@@ -252,7 +252,7 @@ export default function MacVirusRemovalPage() {
               Signs Your Mac May Be <span className="text-[#0FEA7A]">Infected</span>
             </h2>
             <p className="text-[#7A9E98] max-w-xl mx-auto">
-              These symptoms do not always mean malware, but they warrant investigation. Assessment: from R599.
+              These symptoms do not always mean malware, but they warrant investigation. Assessment.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -422,7 +422,7 @@ export default function MacVirusRemovalPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {[
               {
-                title: 'Diagnostic: from R599',
+                title: 'Diagnostic',
                 desc: 'We scan and identify the infection. You only pay for removal, and only after seeing a written fixed quote.',
               },
               {
@@ -521,7 +521,7 @@ export default function MacVirusRemovalPage() {
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
               Think Your Mac Has a Virus?
             </h2>
-            <p className="text-[#7A9E98] mb-2 text-lg">Assessment: from R599. Same-day removal. No fix.</p>
+            <p className="text-[#7A9E98] mb-2 text-lg">Assessment. Same-day removal. No fix.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 100% Mac specialists · CyberShield protection available</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Kyalami | ZA Support Hyde Park',
   description:
-    'MacBook liquid damage repair for Kyalami clients. Ultrasonic cleaning, board-level diagnostics. We collect from Kyalami. Assessment from R599. Call 064 529 5863.',
+    'MacBook liquid damage repair for Kyalami clients. Ultrasonic cleaning, board-level diagnostics. We collect from Kyalami. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/kyalami' },
 };
 
@@ -28,11 +28,11 @@ const urgentSteps = [
 const faqs = [
   { question: 'How quickly should I contact you after liquid damage in Kyalami?', answer: 'Within the first few hours if at all possible. Power the MacBook down immediately, do not plug it in to test, and contact us on 064 529 5863. We can usually arrange a collection from Kyalami the same day, and from our Hyde Park workshop the drive is around 25 minutes via the M1, so the unit can be on the bench and disassembled the same afternoon. Every hour the liquid sits on the logic board increases corrosion.' },
   { question: 'Do you collect MacBooks from Kyalami after liquid damage?', answer: 'Yes. We collect across Kyalami AH, Kyalami Estates, Kyalami Hills, and the business parks off Allandale Road and R55. The route from Hyde Park is roughly 25 minutes outside peak traffic. For liquid damage we prioritise these collections because the time-to-bench window directly affects what we can save. Call 064 529 5863 or WhatsApp wa.me/27645295863 to arrange a same-day pickup.' },
-  { question: 'What does the liquid damage assessment cost?', answer: 'Assessment is from R599 and includes full disassembly, ultrasonic cleaning of the logic board, microscopic inspection, and a written report with a fixed repair quote. If you proceed with the repair the assessment fee is absorbed into the final cost. We do not start any chargeable work without your written approval first.' },
+  { question: 'What does the liquid damage assessment cost?', answer: 'Our assessment includes full disassembly, ultrasonic cleaning of the logic board, microscopic inspection, and a written report with a fixed repair quote. If you proceed with the repair the assessment fee is absorbed into the final cost. We do not start any chargeable work without your written approval first.' },
   { question: 'What types of liquid cause the most damage?', answer: 'Sugary and acidic liquids are the worst offenders, coffee with sugar, wine, energy drinks, and fruit juice all leave aggressive residue that continues corroding components long after the initial spill has dried. Plain water is more forgiving if the MacBook is powered down quickly. In Kyalami we also see condensation damage from units left in cold cars overnight after warm interiors, particularly during winter.' },
   { question: 'My MacBook got wet but still works. Should I bring it in?', answer: 'Yes, and ideally within a day or two. A MacBook that still boots after a spill is not safe, corrosion develops over days and weeks beneath the shielding, and we frequently see units fail completely two or three weeks after the original incident. An early ultrasonic clean is far cheaper than a full board-level repair later. It is one of the most worthwhile preventive jobs we do.' },
   { question: 'Will you be able to save my data?', answer: 'In the majority of liquid damage cases, yes. On Apple Silicon MacBooks the storage is soldered to the logic board, which makes data recovery dependent on getting the board functional again, another reason early action matters. On older Intel MacBooks with removable SSDs, data recovery is often possible even when the board itself is beyond repair. We will tell you honestly at assessment what the data position looks like.' },
-  { question: 'Is there a From R599 assessment policy for liquid damage?', answer: 'Yes. The assessment fee starts at R599 and covers the diagnostic work needed to give you a fixed quote, disassembly, ultrasonic cleaning, and board inspection under microscope. You then decide whether to proceed. If you do, the assessment fee is rolled into the repair cost. There are no surprise charges added later.' },
+  { question: 'Is there an assessment policy for liquid damage?', answer: 'Yes. The assessment fee covers the diagnostic work needed to give you a fixed quote, disassembly, ultrasonic cleaning, and board inspection under microscope. You then decide whether to proceed. If you do, the assessment fee is rolled into the repair cost. There are no surprise charges added later.' },
   { question: 'Can you repair Apple Silicon MacBooks with liquid damage?', answer: 'Yes. We carry out board-level repair on M1, M2, M3 and M4 MacBook Air and Pro models, including component-level replacement of damaged power management ICs, charging circuitry, and corroded passive components. Apple Silicon boards are denser and less forgiving than the older Intel designs, which makes early intervention even more important for Kyalami clients with newer machines.' },
 ];
 
@@ -79,7 +79,7 @@ export default function LiquidDamageKyalamiPage() {
               <br /><span className="text-[#0FEA7A]">, Act Fast, Save Your Mac</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              Liquid damage to a MacBook in Kyalami needs attention within hours, not days. We collect from Kyalami Estates, Kyalami Business Park and the broader Kyalami AH area, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly 25 minutes south via the M1. Assessment from R599.
+              Liquid damage to a MacBook in Kyalami needs attention within hours, not days. We collect from Kyalami Estates, Kyalami Business Park and the broader Kyalami AH area, then carry out ultrasonic cleaning and board-level repair at our Hyde Park workshop, roughly 25 minutes south via the M1. Assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <Clock className="w-4 h-4 text-[#0FEA7A]" />
@@ -90,7 +90,7 @@ export default function LiquidDamageKyalamiPage() {
                 { icon: AlertTriangle, label: 'Act Within Hours' },
                 { icon: CheckCircle, label: 'Ultrasonic Cleaning' },
                 { icon: MapPin, label: 'Collect from Kyalami' },
-                { icon: CheckCircle, label: 'From R599 assessment' },
+                { icon: CheckCircle, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -173,7 +173,7 @@ export default function LiquidDamageKyalamiPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Liquid Damage in Kyalami? Act Now.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Kyalami. Assessment from R599. From R599 assessment.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Kyalami. Assessment available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LDR-KYALAMI', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp, Act Now
