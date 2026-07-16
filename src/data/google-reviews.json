@@ -1,9 +1,22 @@
 {
-  "ts": "2026-07-15T02:45:06Z",
+  "ts": "2026-07-16T02:45:07Z",
   "source": "gbp_v4",
-  "total_count": 642,
+  "total_count": 643,
   "rating": 4.9,
   "reviews": [
+    {
+      "id": "AbFvOqkvF_Ljnyvs53YMn4jUSr4fksr6PM9NV2QBxHu4Lpi4qqSO4inSCkKpc-Gj126voVVLlSTFag",
+      "displayName": "GP Umlimi",
+      "comment": "On the website, it quotes an iPhone 14 Pro screen replacement as R2199. Went there and they quoted R6500..",
+      "starRating": 1,
+      "createTime": "2026-07-15T06:42:04.914368Z",
+      "updateTime": "2026-07-15T06:42:04.914368Z",
+      "language": "en",
+      "reply": {
+        "comment": "Hi GP,\n\nThank you for bringing this to our attention. We apologise for the confusion.  \n\nAll pricing is subject to specific checks on any model. Parts can differ significantly from model to model even within the same vintage.\n\nPrices quoted are set at a best-case scenario that is subject to change based on a customers specific problems at the time of quoting.\n\nWe apologise for the misunderstanding, we have made adjustments in our communications accordingly.\n\nKind regards,\nZA Support Team",
+        "updateTime": "2026-07-15T08:48:31.015117Z"
+      }
+    },
     {
       "id": "AbFvOql3R9UoFH71eBls5DCJ1WmfaJnHHJ62qUtfGvbROUT4CTwfdJXBNuE5W25nC8LjKrq3b6pDLA",
       "displayName": "Marty Epstein",
@@ -12,7 +25,10 @@
       "createTime": "2026-07-03T06:15:36.890001Z",
       "updateTime": "2026-07-03T06:16:03.098929Z",
       "language": "en",
-      "reply": null
+      "reply": {
+        "comment": "Thank you so much Marty we really appreciate it ;)",
+        "updateTime": "2026-07-15T08:48:57.271825Z"
+      }
     },
     {
       "id": "AbFvOqknlHbJRMlOwM5Fvst8atK5JBgAXZaJUzvGzT0FbQByQbGHpT3OvnxcE6aTMzpUN_zamZ-u9w",
@@ -610,19 +626,6 @@
       "reply": {
         "comment": "Thanks very much for taking the time out to give us this feedback. We appreciate it.",
         "updateTime": "2025-10-24T11:27:44.493896Z"
-      }
-    },
-    {
-      "id": "AbFvOql83WRwhlgPgU0wp1cgnnlXBG8NZM9SCDRX6DG9BP2hgd0bX72yjBV780-NIUXiSXdSN5TeoA",
-      "displayName": "Jones Mwalwimba",
-      "comment": "Thanks for the help",
-      "starRating": 5,
-      "createTime": "2025-10-22T19:08:33.934764Z",
-      "updateTime": "2025-10-22T19:08:33.934764Z",
-      "language": "en",
-      "reply": {
-        "comment": "Of course that’s what we are here for ;)",
-        "updateTime": "2025-10-24T11:28:13.509856Z"
       }
     },
     {
