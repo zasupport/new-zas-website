@@ -37,7 +37,8 @@ def _norm(tok: str):
     """Normalise a raw price token to canonical 'R#,###' or None if not a plain Rand amount.
     Handles 'R2800'->'R2,800', 'R2,800', '2,800 rand', 'R3k'/'3 grand'->'R3,000'."""
     t = tok.lower().replace(" ", "")
-    t = t.replace("rand", "").replace("grand", "").replace("r", "")
+    # "zar" must be stripped BEFORE the bare "r", or "zar15000" -> "za15000" -> unparseable.
+    t = t.replace("zar", "").replace("rand", "").replace("grand", "").replace("r", "")
     kmul = 1
     if t.endswith("k"):
         kmul = 1000; t = t[:-1]
@@ -82,9 +83,16 @@ ALLOWED = registry_allowed()
 # Literal uppercase 'R' (currency), NOT mid-word (so "over 15,000" / "for 3 years"
 # never match); case-insensitivity is scoped to the rand/grand branch only.
 TOKEN_RE = re.compile(
-    r"(?<![A-Za-z])R\s?\d[\d,]*\.?\d*[kK]?"               # R2,800 | R2800 | R3k | R2.8k
+    r"(?i:\bZAR\s?\d[\d,]*\.?\d*[kK]?)"                   # ZAR 15,000 | ZAR15000  (see note)
+    r"|(?i:\b\d[\d,]*\.?\d*\s?[kK]?\s?ZAR\b)"             # 15,000 ZAR | 2800 ZAR
+    r"|(?<![A-Za-z])R\s?\d[\d,]*\.?\d*[kK]?"              # R2,800 | R2800 | R3k | R2.8k
     r"|(?i:\b\d[\d,]*\.?\d*\s?[kK]?\s?(?:rand|grand)\b)"  # 2,800 rand | 3 grand
 )
+# ZAR added 19/07/2026 after an adversarial review found a LIVE violation: the R-branch's
+# (?<![A-Za-z]) lookbehind — correct for stopping "ove(r) 15,000" — also blocked "ZA(R) 15,000",
+# so every ZAR-denominated figure was invisible. "replacement logic boards exceed ZAR 15,000"
+# was already published and passed the gate. ZAR occurs 59x in the corpus. The ZAR branches are
+# listed FIRST so they win before the R-branch can match a partial.
 # Competitor / Apple / new-device price (Gap 2). DIRECTIONAL to avoid false positives:
 # a confirmed anchor value is fine for OUR OWN repair ("we charge R599", "logic board from
 # R3,500") but NOT as a competitor/new-device price. This only fires when a competitor SUBJECT
@@ -95,9 +103,13 @@ TOKEN_RE = re.compile(
 _COMPETITOR_PRICE_RE = re.compile(
     r"(?:apple|istore|genius bar|authoris\w+ service provider|"
     r"(?:a |the )?new (?:mac|device|machine|laptop|imac|macbook)|retail|\brrp\b)"
-    r"[^.\n]{0,25}?"
-    r"(?:charge|quote|cost|bill|price|runs?|asks?|at|from|of|around|about|start)\w*\s+"
-    r"[^.\n]{0,15}?"
+    r"[^.\n]{0,45}?"
+    # Verbs widened 19/07 after adversarial review: "will set you back R3,500", "wanted R3,500",
+    # "'s replacement is R3,500" all evaded the original list, and a >25-char gap
+    # ("Apple, according to their published rate card, charges R3,500") slipped the window.
+    r"(?:charge|quote|cost|bill|price|runs?|asks?|want(?:s|ed)?|set(?:s|ting)? you back"
+    r"|is|was|be|at|from|of|around|about|start)\w*\s+"
+    r"[^.\n]{0,20}?"
     r"(R\s?\d[\d,]*\.?\d*[kK]?)",
     re.IGNORECASE,
 )
@@ -140,16 +152,26 @@ def gate(text: str, label="content") -> int:
     return 0
 
 
-def staged_added_blog_text() -> str:
-    """Return ONLY the lines a staged commit ADDS under src/app/blog/** .
-    Diff-scoped: legacy corpus + unrelated edits are never examined (§384)."""
+# Sentinel: the staged state could NOT be determined. This is NOT the same as "nothing staged".
+# Conflating the two is what made this gate print PASS while blind (Fable D12, 19/07/2026):
+# git missing from the hook's PATH, wrong CWD, or a mid-rebase repo -> "" -> "no staged blog
+# additions" -> exit 0 -> every invented price sails through the pre-commit §489 gate.
+_BLIND = object()
+
+
+def staged_added_blog_text():
+    """Return ONLY the lines a staged commit ADDS under src/app/blog/**, or _BLIND if the
+    staged state could not be read. Diff-scoped: legacy corpus + unrelated edits are never
+    examined (§384). A gate that cannot SEE must never PASS (§704 absence control)."""
     try:
         out = subprocess.run(
             ["git", "diff", "--cached", "--unified=0", "--", "src/app/blog"],
             capture_output=True, text=True, check=True,
         ).stdout
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        return ""
+    except (subprocess.CalledProcessError, FileNotFoundError, OSError) as e:
+        print(f"UNKNOWN [--cached] — cannot read staged state "
+              f"({e.__class__.__name__}: {e}). Failing CLOSED: blind is never a pass.")
+        return _BLIND
     added = []
     for ln in out.splitlines():
         # added content lines start with '+' but not the '+++ ' file header
@@ -160,6 +182,10 @@ def staged_added_blog_text() -> str:
 
 def gate_cached() -> int:
     text = staged_added_blog_text()
+    if text is _BLIND:
+        # Fail CLOSED and exit >=2: a pre-commit hook blocks on non-zero, and a daily runner
+        # counts rc>=2 as FAIL (rc=1 would be downgraded to an uncounted WARN).
+        return 2
     if not text.strip():
         print("PASS [--cached] — no staged blog additions to gate.")
         return 0
@@ -200,8 +226,35 @@ def _test() -> int:
     # Gap 1 — ALLOWED must derive from the registry (standing values always present)
     if "R599" not in ALLOWED or "R2,000" not in ALLOWED:
         print("  TEST FAIL (Gap1): registry-derived ALLOWED missing standing/range values"); rc = 1
+    # --- D12 ABSENCE CONTROL (19/07/2026) -------------------------------------------------
+    # If the staged state cannot be read, --cached must FAIL CLOSED and never print PASS.
+    # Simulated exactly as a real hook failure would look: git unavailable (broken PATH /
+    # wrong CWD / mid-rebase). Before this control, that path returned "" -> "PASS" -> exit 0.
+    _real_run = subprocess.run
+
+    def _git_unavailable(*_a, **_k):
+        raise FileNotFoundError("git unavailable (simulated absence control)")
+
+    subprocess.run = _git_unavailable
+    try:
+        rc_blind = gate_cached()
+    finally:
+        subprocess.run = _real_run
+    if rc_blind == 0:
+        print("  TEST FAIL (absence): --cached PASSED while blind — the D12 bug is back"); rc = 1
+    else:
+        print(f"  PASS absence: --cached fails CLOSED when staged state is unreadable (rc={rc_blind})")
+
+    # PRODUCTION-VISIBILITY control (§722): against the REAL repo the git path must actually
+    # work. A tool whose --test is green but which returns _BLIND in production is an empty shell.
+    if staged_added_blog_text() is _BLIND:
+        print("  TEST FAIL: cannot read staged state in the REAL repo — gate is blind in production"); rc = 1
+    else:
+        print("  PASS production-visibility: real `git diff --cached` is readable (not an empty shell)")
+
     print("RESULT:", "ALL PASS" if rc == 0 else "FAILURES")
-    return rc
+    # Exit >=2 on real failure: a daily runner maps rc=1 to an UNCOUNTED WARN, only rc>=2 to FAIL.
+    return 2 if rc else 0
 
 
 if __name__ == "__main__":
