@@ -164,8 +164,19 @@ def staged_added_blog_text():
     staged state could not be read. Diff-scoped: legacy corpus + unrelated edits are never
     examined (§384). A gate that cannot SEE must never PASS (§704 absence control)."""
     try:
+        # Resolve the REPO ROOT and run git from there. The `-- src/app/blog` pathspec is
+        # relative to the CWD, so invoking this from scripts/ silently matched NOTHING and
+        # printed "no staged blog additions" -> exit 0, with an invented price staged
+        # (adversarial review 19/07). The wired pre-commit path happens to cd first; this
+        # makes correctness independent of who calls it and from where.
+        root = subprocess.run(
+            ["git", "rev-parse", "--show-toplevel"],
+            capture_output=True, text=True, check=True,
+        ).stdout.strip()
+        if not root:
+            raise OSError("git rev-parse returned no repo root")
         out = subprocess.run(
-            ["git", "diff", "--cached", "--unified=0", "--", "src/app/blog"],
+            ["git", "-C", root, "diff", "--cached", "--unified=0", "--", "src/app/blog"],
             capture_output=True, text=True, check=True,
         ).stdout
     except (subprocess.CalledProcessError, FileNotFoundError, OSError) as e:
