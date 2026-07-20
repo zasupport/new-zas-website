@@ -132,6 +132,14 @@ def offenders(text: str):
         fs = m.start(1)
         if fs in flagged:
             continue
+        # COMPARATIVE framing is not a competitor PRICE attribution. "Apple vs independent
+        # comparison, and from R599 assessment" is OUR fee in a comparison sentence, not
+        # Apple's price. Widening the window to catch "Apple, according to their rate card,
+        # charges R3,500" let this false positive in; a gate that fires on correct copy gets
+        # deleted, and then it guards nothing. (Real FP caught 20/07 on a live post.)
+        span = m.group(0).lower()
+        if " vs " in span or "vs." in span or "comparison" in span or "compared" in span:
+            continue
         canon = _norm(m.group(1).strip().rstrip(".,"))
         if canon in ALLOWED:   # only if it would otherwise pass
             s = max(0, m.start() - 8)

@@ -40,6 +40,14 @@ npm run lint
 echo "→ Checking redirect↔sitemap consistency..."
 node scripts/check-redirect-sitemap-consistency.mjs || { echo "ERROR: redirect↔sitemap consistency gate FAILED — a redirected slug is still in sitemap.ts. Remove it from src/app/sitemap.ts."; exit 1; }
 
+# 2.6 §402 blog-index ORPHAN gate (20/07/2026) — fail-closed. Every slug advertised in
+# sitemap.ts must be LINKED from the blog index, or Google cannot discover it by crawling.
+# Born from 27 real orphans: a reachability detector had already found them and written them
+# to a status file the same morning, and nothing blocked, so they sat there. Detecting into a
+# file is not a control. Fix with: python3 scripts/fix-blog-index-orphans.py --apply
+echo "→ Checking blog-index orphans (§402)..."
+python3 scripts/check-blog-index-orphans.py --check || { echo "ERROR: §402 orphan gate FAILED — sitemap URLs are linked from nothing. Run: python3 scripts/fix-blog-index-orphans.py --apply"; exit 1; }
+
 # 3. Build
 echo "→ Building..."
 npm run build
