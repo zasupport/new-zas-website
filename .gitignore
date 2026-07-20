@@ -18,3 +18,8 @@ docs/seo/*API*KEYS*.md
 *.env.secret
 docs/seo/.advisor-gap-inbox.jsonl
 docs/seo/advisor-gap-inbox.md
+
+# Python bytecode — tracked .pyc caused an audit tool to score itself WIRED by its own
+# bytecode (grep -r descends __pycache__). Never track compiled artefacts.
+__pycache__/
+*.pyc
