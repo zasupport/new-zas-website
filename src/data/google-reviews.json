@@ -1,9 +1,22 @@
 {
-  "ts": "2026-07-23T02:45:08Z",
+  "ts": "2026-07-24T02:45:08Z",
   "source": "gbp_v4",
-  "total_count": 644,
+  "total_count": 645,
   "rating": 4.9,
   "reviews": [
+    {
+      "id": "AbFvOqknJyYi5xD8dVeVLY7Ix5NvfmT32nE2npCy1I6A4R5zKTeUgCGJPoBoyl5bfOCFarXuZ-FPgw",
+      "displayName": "Ethan Tyrell Govender",
+      "comment": "Great Service and Responsiveness from the Team as a whole! I would highly recommend them!",
+      "starRating": 5,
+      "createTime": "2026-07-23T09:48:09.906028Z",
+      "updateTime": "2026-07-23T09:48:09.906028Z",
+      "language": "en",
+      "reply": {
+        "comment": "Hi Ethan,\n\nThank you so much for the compliment. \n\nWe do our best to be the number one provider in the country.\n\nIf you have any technology related requirements please don't hesitate to reach out to any time.\n\nZA Support Technical Team",
+        "updateTime": "2026-07-23T10:06:05.149920Z"
+      }
+    },
     {
       "id": "AbFvOqkvF_Ljnyvs53YMn4jUSr4fksr6PM9NV2QBxHu4Lpi4qqSO4inSCkKpc-Gj126voVVLlSTFag",
       "displayName": "GP Umlimi",
@@ -613,19 +626,6 @@
       "reply": {
         "comment": "It’s an absolute pleasure,  if you have any further questions or challenges just let me know and we’ll sort you out!",
         "updateTime": "2025-10-24T11:26:51.379509Z"
-      }
-    },
-    {
-      "id": "AbFvOqlnHMLKrr0R27MnAI0lxSllb46NFpEpiaSegqzl9BX0CeYlngLzRKNAGgUEkDxKpISRsiCz4w",
-      "displayName": "Angela Sibbs",
-      "comment": "Thank you for the help top service",
-      "starRating": 5,
-      "createTime": "2025-10-23T12:32:50.665001Z",
-      "updateTime": "2025-10-23T12:32:50.665001Z",
-      "language": "en",
-      "reply": {
-        "comment": "Thanks very much for taking the time out to give us this feedback. We appreciate it.",
-        "updateTime": "2025-10-24T11:27:44.493896Z"
       }
     },
     {
