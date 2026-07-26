@@ -1,0 +1,8 @@
+{
+  "category": "robots-index",
+  "label": "Indexed though blocked by robots.txt",
+  "severity": "critical",
+  "check": "python3 \"tools/robots/robots guard.py\" --live https://zasupport.com/robots.txt",
+  "pass_exit_code": 0,
+  "owner": "courtney@zasupport.com"
+}

@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "robots:preflight": "python3 \"tools/robots/robots preflight.py\"",
+    "robots:test": "python3 \"tools/robots/robots pressure test.py\"",
+    "robots:guard": "python3 \"tools/robots/robots guard.py\" --live https://zasupport.com/robots.txt",
+    "robots:audit": "python3 \"tools/robots/robots index engine.py\" wiring-audit"
   },
   "dependencies": {
     "@next/third-parties": "^16.1.6",

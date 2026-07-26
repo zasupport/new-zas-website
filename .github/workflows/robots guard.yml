@@ -1,0 +1,19 @@
+name: Robots Guard
+on: [push, pull_request]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install protego requests
+      - name: Controls must pass before the guard is trusted
+        run: python3 "tools/robots/robots pressure test.py"
+      - name: No protected URL may be blocked
+        run: |
+          SRC=""
+          for f in app/robots.ts src/app/robots.ts app/robots.js public/robots.txt; do
+            [ -f "$f" ] && SRC="$f" && break
+          done
+          python3 "tools/robots/robots guard.py" --robots "$SRC" --protected "tools/robots/protected urls.json"

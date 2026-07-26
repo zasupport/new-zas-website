@@ -23,3 +23,11 @@ docs/seo/advisor-gap-inbox.md
 # bytecode (grep -r descends __pycache__). Never track compiled artefacts.
 __pycache__/
 *.pyc
+
+# robots index guard runtime
+tools/robots/state/
+tools/robots/_archive/
+tools/robots/inbox/
+tools/robots/.venv/
+tools/robots/.staging/
+tools/robots/validation.log
