@@ -658,6 +658,40 @@ def git(repo, *args, check=True):
     return r.stdout.strip()
 
 
+DISALLOW_ARRAY_RE = re.compile(r"(disallow\s*=\s*\[)(.*?)(\])", re.DOTALL)
+
+
+def remove_disallow_rules(text, remove_rules, suffix):
+    """Remove the given rule string-literals from ONLY the disallow array (.ts/.js)
+    or the Disallow: lines (.txt).
+
+    F12 fix: the previous implementation ran text.replace() and a trailing-comma
+    regex across the WHOLE file, so a rule string that also appears in a comment or
+    a different array would be stripped and unrelated commas tidied. Here every edit
+    is confined to the `disallow = [ ... ]` array slice (or, for robots.txt, the
+    Disallow: lines). If the array cannot be located in a .ts/.js file the text is
+    returned UNCHANGED (fail-closed): rewrite_is_sound then rejects it because the
+    rule is still present, and the original is restored, rather than doing blind
+    whole-file surgery.
+    """
+    if suffix == ".txt":
+        for rule in sorted(remove_rules):
+            text = re.sub(rf"(?im)^\s*Disallow:\s*{re.escape(rule)}\s*$\n?", "", text)
+        return text
+    m = DISALLOW_ARRAY_RE.search(text)
+    if not m:
+        return text  # fail-closed, no whole-file fallback
+    head, body, tail = m.group(1), m.group(2), m.group(3)
+    for rule in sorted(remove_rules):
+        body = re.sub(rf"(?m)^\s*['\"]{re.escape(rule)}['\"],?\s*$\n?", "", body)
+        body = body.replace(f"'{rule}', ", "").replace(f'"{rule}", ', "")
+        body = body.replace(f"'{rule}'", "").replace(f'"{rule}"', "")
+    segment = head + body + tail
+    segment = re.sub(r",(\s*\])", r"\1", segment)   # drop a dangling comma before ]
+    segment = re.sub(r",(\s*),", r"\1,", segment)   # collapse doubled commas
+    return text[:m.start()] + segment + text[m.end():]
+
+
 def rewrite_is_sound(original, rewritten, removed, kept):
     """
     Structural self-check on an edited robots source. A regex edit on a TypeScript
@@ -671,15 +705,30 @@ def rewrite_is_sound(original, rewritten, removed, kept):
     for q in ("'", '"', "`"):
         if original.count(q) % 2 != rewritten.count(q) % 2:
             return False, f"quote parity changed for {q}"
+    # "Removed" is checked in the disallow array only. A removed rule string may
+    # legitimately still appear in a comment or an unrelated array (F12) — that is
+    # NOT a failed removal, and a whole-file check here would false-reject the
+    # correctly-scoped edit and restore the original (i.e. never remove anything).
+    _arr = DISALLOW_ARRAY_RE.search(rewritten)
     for rule in removed:
-        if rule in rewritten:
+        if _arr is not None:
+            body = _arr.group(2)
+            if f"'{rule}'" in body or f'"{rule}"' in body or f"`{rule}`" in body:
+                return False, f"rule {rule} was supposed to be removed but is still in the disallow array"
+        elif rule in rewritten:  # robots.txt / no array: fall back to whole-file
             return False, f"rule {rule} was supposed to be removed but is still present"
     for rule in kept:
         if rule in original and rule not in rewritten:
             return False, f"rule {rule} was supposed to be kept but was removed"
     shrink = len(original) - len(rewritten)
-    if shrink < 0 or shrink > max(400, len(original) * 0.4):
-        return False, f"implausible size change of {shrink} bytes"
+    # Plausible shrink = the bytes of the removed rules plus their punctuation
+    # (quotes + comma + surrounding whitespace/newline), plus a small slack. This is
+    # far tighter than the old len*0.4 heuristic, which permitted large collateral
+    # edits on a whole-file rewrite (F12). Removal-only edits cannot legitimately
+    # shrink the file by more than the rules they delete.
+    max_shrink = max(120, sum(len(r) + 6 for r in removed) + 200)
+    if shrink < 0 or shrink > max_shrink:
+        return False, f"implausible size change of {shrink} bytes (budget {max_shrink})"
     if not rewritten.strip():
         return False, "rewritten file is empty"
     return True, "ok"
@@ -766,14 +815,8 @@ def stage_patch(args):
 
     text = src.read_text(encoding="utf-8")
     original = text
-    for rule in sorted(remove_rules):
-        if src.suffix == ".txt":
-            text = re.sub(rf"(?im)^\s*Disallow:\s*{re.escape(rule)}\s*$\n?", "", text)
-        else:
-            text = re.sub(rf"(?m)^\s*['\"]{re.escape(rule)}['\"],?\s*$\n?", "", text)
-            text = text.replace(f"'{rule}', ", "").replace(f'"{rule}", ', "")
-            text = text.replace(f"'{rule}'", "").replace(f'"{rule}"', "")
-    text = re.sub(r",(\s*[\]\}])", r"\1", text)  # tidy dangling commas
+    # F12: removals confined to the disallow array slice (see remove_disallow_rules).
+    text = remove_disallow_rules(text, remove_rules, src.suffix)
     if text != original:
         ok, why = rewrite_is_sound(original, text, remove_rules, keep_rules)
         if not ok:
