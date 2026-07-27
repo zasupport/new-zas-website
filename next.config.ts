@@ -4,9 +4,10 @@ const nextConfig: NextConfig = {
   // Suppress X-Powered-By: Next.js header — hides framework from HTTP fingerprinting
   poweredByHeader: false,
 
-  // Skip TypeScript type-checking during Vercel build — CI runs tsc --noEmit in parallel
-  // Saves ~5-8s per build by not double-checking types
-  typescript: { ignoreBuildErrors: true },
+  // Type errors FAIL the build (§F4 SEO-hardening 27/07/2026). The prior
+  // ignoreBuildErrors:true shipped type errors to production silently; the repo
+  // is tsc-clean and the build passes with checking on, so the suppression is
+  // removed. CI additionally runs `npm run typecheck` (tsc --noEmit) as a gate.
 
   images: {
     formats: ['image/avif', 'image/webp'],
