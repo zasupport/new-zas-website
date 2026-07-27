@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SEO Tracker | ZA Support',
-  robots: { index: false, follow: false },
+  robots: { index: false, follow: true },
 };
 
 export const dynamic = 'force-dynamic';
