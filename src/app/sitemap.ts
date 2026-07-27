@@ -231,6 +231,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Assessment Process, transparent pricing page
     { url: `${base}/no-fix-no-fee`, lastModified: now, changeFrequency: 'weekly', priority: 0.95 },
 
+    // Editorial policy (E-E-A-T trust page; indexable, was missing from sitemap, F6 27/07/2026)
+    { url: `${base}/editorial-policy`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
+
     // Author pages
     { url: `${base}/author/courtney-bentley`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${base}/author/mary`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
