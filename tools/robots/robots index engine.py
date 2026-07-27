@@ -553,7 +553,7 @@ def fable_adjudicate(payload, api_key, model=FABLE_MODEL, retries=3):
     }
     body = {
         "model": model,
-        "max_tokens": 1200,
+        "max_tokens": 8000,
         "system": FABLE_SYSTEM,
         "messages": [{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
     }
@@ -1056,7 +1056,7 @@ well covered, say so once and move on.
 """
 
 
-def call_fable(system, payload, api_key, model=FABLE_MODEL, max_tokens=4000, retries=3):
+def call_fable(system, payload, api_key, model=FABLE_MODEL, max_tokens=16000, retries=3):
     """Single entry point for every model role. One place to fix, one place to log."""
     headers = {"x-api-key": api_key, "anthropic-version": ANTHROPIC_VERSION,
                "content-type": "application/json"}
@@ -1066,7 +1066,7 @@ def call_fable(system, payload, api_key, model=FABLE_MODEL, max_tokens=4000, ret
     last = None
     for attempt in range(1, retries + 1):
         try:
-            r = requests.post(ANTHROPIC_URL, headers=headers, json=body, timeout=180)
+            r = requests.post(ANTHROPIC_URL, headers=headers, json=body, timeout=600)
             if r.status_code in (429, 500, 502, 503, 529):
                 wait = min(2 ** attempt, 30)
                 say(f"  {r.status_code} from API, retry {attempt}/{retries} in {wait}s")
@@ -1074,10 +1074,14 @@ def call_fable(system, payload, api_key, model=FABLE_MODEL, max_tokens=4000, ret
                 last = f"HTTP {r.status_code}"
                 continue
             r.raise_for_status()
-            text = "".join(b.get("text", "") for b in r.json().get("content", [])
+            data = r.json()
+            text = "".join(b.get("text", "") for b in data.get("content", [])
                            if b.get("type") == "text").strip()
             fence = chr(96) * 3
             text = re.sub(rf"^{fence}(?:json)?|{fence}$", "", text, flags=re.M).strip()
+            if not text:
+                raise ValueError(f"empty text block (stop_reason={data.get('stop_reason')}); "
+                                 "extended-thinking models can exhaust max_tokens before the answer")
             return json.loads(text)
         except Exception as exc:
             last = str(exc)
