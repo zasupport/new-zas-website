@@ -39,6 +39,5 @@ export default function robots(): MetadataRoute.Robots {
       })),
     ],
     sitemap: 'https://zasupport.com/sitemap.xml',
-    host: 'https://zasupport.com',
   };
 }
