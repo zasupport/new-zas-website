@@ -86,6 +86,18 @@ python3 scripts/check-robots-next-static.py || { echo "ERROR: robots render-reso
 echo "→ Verifying every blog post is discoverable or redirected (§671 reconcile)..."
 python3 scripts/check-blog-sitemap-reconcile.py || { echo "ERROR: §671 reconcile gate FAILED — a blog post is live but absent from sitemap. Add it to src/app/sitemap.ts OR 301 it in next.config.ts (§529)."; exit 1; }
 
+# 3.85 ROUTE<->SITEMAP DRIFT gate — fail-closed (F6 SEO-hardening 27/07/2026). Sibling of the
+# blog reconcile for STATIC app routes: an indexable src/app/**/page.tsx not in sitemap.ts and
+# not redirected = live but undiscoverable. noindex / redirect() stubs are legitimately excluded.
+echo "→ Verifying no indexable static route drifted out of the sitemap (F6)..."
+python3 scripts/check-route-sitemap-drift.py || { echo "ERROR: route<->sitemap drift gate FAILED — an indexable route is absent from sitemap.ts. Add it to src/app/sitemap.ts (or noindex/redirect it)."; exit 1; }
+
+# 3.86 INTERNAL-PAGE NOINDEX LOCK — fail-closed (F1/F2 SEO-hardening 27/07/2026). /seo-report and
+# /search must stay noindex (never indexed, never sitemapped). Keeps the drift gate from being
+# "resolved" by wrongly publishing an internal page.
+echo "→ Verifying internal pages stay noindex (§F1/F2)..."
+python3 scripts/check-noindex-internal.py || { echo "ERROR: internal-page noindex lock FAILED — /seo-report or /search lost its noindex. Restore robots: { index: false } in the page metadata."; exit 1; }
+
 # 4. Git push (triggers Vercel auto-deploy)
 echo "→ Pushing to GitHub..."
 # Stage tracked files and new source files only — never accidentally stage .env secrets

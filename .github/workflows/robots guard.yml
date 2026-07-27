@@ -17,3 +17,46 @@ jobs:
             [ -f "$f" ] && SRC="$f" && break
           done
           python3 "tools/robots/robots guard.py" --robots "$SRC" --protected "tools/robots/protected urls.json"
+
+  # SEO / indexability gates — node-free so they run even if the build step is flaky.
+  # Mirrors the fast Python gate set in deploy.sh (F3/F6, 27/07/2026): the deploy script
+  # ran these but CI did not, so a PR / a push that skipped deploy.sh bypassed them.
+  seo-gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: robots.txt keeps /_next/ render resources crawlable (GSC WNC-20237597)
+        run: python3 scripts/check-robots-next-static.py
+      - name: Internal pages stay noindex (/seo-report, /search)
+        run: python3 scripts/check-noindex-internal.py
+      - name: No indexable route is missing from the sitemap (route<->sitemap drift)
+        run: python3 scripts/check-route-sitemap-drift.py
+      - name: Every blog post is discoverable or redirected (§671 reconcile)
+        run: python3 scripts/check-blog-sitemap-reconcile.py
+      - name: Gates prove they can FAIL (negative controls)
+        run: |
+          python3 scripts/check-robots-next-static.py --test
+          python3 scripts/check-noindex-internal.py --test
+          python3 scripts/check-route-sitemap-drift.py --test
+          python3 scripts/check-blog-sitemap-reconcile.py --test
+
+  # TypeScript typecheck gate (F4, 27/07/2026): next.config.ts no longer suppresses type
+  # errors (ignoreBuildErrors removed), so the build itself typechecks; `tsc --noEmit` is
+  # the explicit belt-and-braces gate the brief mandates. Build first so .next/types exists.
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+          cache: 'npm'
+      - run: npm ci
+      - name: Production build (type errors now fail the build)
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+      - name: tsc --noEmit
+        run: npm run typecheck
