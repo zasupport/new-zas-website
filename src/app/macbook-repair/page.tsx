@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, Clock, BadgeCheck, Star, Battery, Monitor, Keyboard, Cpu, Droplets, Wrench } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import { buildFaqSchema, buildItemListSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
@@ -170,6 +170,10 @@ const serviceSchema = {
 };
 
 const faqSchema = buildFaqSchema(faqs);
+const itemListSchema = buildItemListSchema(
+  'MacBook Repair Services',
+  services.map((s) => ({ name: s.title, url: `https://zasupport.com${s.href}` })),
+);
 
 
 export default function MacBookRepairPage() {
@@ -178,6 +182,7 @@ export default function MacBookRepairPage() {
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={serviceSchema} />
+      <SchemaOrg schema={itemListSchema} />
 
       {/* Hero */}
       <section className="hero-gradient grid-overlay pt-32 pb-16">

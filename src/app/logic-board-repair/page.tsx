@@ -6,7 +6,7 @@ import {
   Microscope, MapPin,
 } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema, buildBreadcrumbSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
+import { buildFaqSchema, buildBreadcrumbSchema, buildItemListSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { GoogleReviews } from '@/components/GoogleReviews';
 import FAQAccordion from '@/components/ui/FAQ';
 import Breadcrumb from '@/components/ui/Breadcrumb';
@@ -246,6 +246,13 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
 const faqSchema = buildFaqSchema(faqs);
 
+const itemListSchema = buildItemListSchema('MacBook Logic Board Repair by Model', [
+  { name: 'MacBook Pro logic board repair', url: 'https://zasupport.com/logic-board-repair/macbook-pro' },
+  { name: 'MacBook Air logic board repair', url: 'https://zasupport.com/logic-board-repair/macbook-air' },
+  { name: 'iMac logic board repair', url: 'https://zasupport.com/logic-board-repair/imac' },
+  { name: 'Mac mini logic board repair', url: 'https://zasupport.com/logic-board-repair/mac-mini' },
+]);
+
 const speakableSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
@@ -268,6 +275,7 @@ export default function LogicBoardRepairPage() {
       <SchemaOrg schema={serviceSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
       <SchemaOrg schema={speakableSchema} />
+      <SchemaOrg schema={itemListSchema} />
 
       <main className="bg-[#0A1A18] text-[#E8F4F1] min-h-screen">
         {/* Breadcrumb */}
@@ -296,9 +304,10 @@ export default function LogicBoardRepairPage() {
                 we do not swap the whole board. 12-month warranty. assessment.
               </p>
               <p className="text-[#7A9E98] mb-4">
-                We have been repairing MacBook logic boards from our Hyde Park workshop since 2009, 
+                We have been repairing MacBook logic boards from our Hyde Park workshop since 2009,
                 more than {SITE.yearsExperience} years and over 25,000 individual repair operations
-                across our specialist Apple workshop. Logic board work is what our workshop is
+                across our specialist Apple workshop, more than 17,000 of them board-level logic board
+                repairs. Logic board work is what our workshop is
                 built around: Apple Silicon, Intel-era MacBook Pro, MacBook Air, iMac and Mac mini.
               </p>
               <p className="text-[#7A9E98] mb-8 text-sm italic">

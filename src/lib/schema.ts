@@ -122,6 +122,27 @@ export function buildBreadcrumbSchema(
   };
 }
 
+// ─── ItemList Builder (competitive schema gap closed 12/08/2026) ──────────────
+// Emits an ItemList of the services/models a page offers. Google uses ItemList to
+// understand a page's service catalogue; competitor audit (11/08) found rivals
+// carry ItemList and ZA did not. Additive, no pricing (respects HIDE_SCHEMA_PRICING).
+export function buildItemListSchema(
+  name: string,
+  items: Array<{ name: string; url: string }>,
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+    })),
+  };
+}
+
 // ─── §166: self-serving AggregateRating / Review schema removed (22/05/2026) ──
 // Google rules review markup about one's own LocalBusiness/Organization
 // INELIGIBLE for star results and a manual-action risk. The Google rating is
