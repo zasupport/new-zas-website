@@ -1,0 +1,2 @@
+from,to,type,reason,status,rollback,approval
+https://www.zasupport.com/*,https://zasupport.com/*,301,host canonicalisation (currently 200),proposed,revert redirect rule,required

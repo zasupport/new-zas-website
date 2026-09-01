@@ -1,0 +1,18 @@
+{
+  "$comment": "Deliberate noindex/canonical policy (Handoff §5.5.6, §9 Phase D). Audit scripts flag drift from this. Changing production noindex/robots is APPROVAL-GATED.",
+  "version": "1.0",
+  "generated": "2026-09-01",
+  "must_be_noindex": [
+    { "pattern": "^/search", "reason": "site-search results must not become indexable thin/crawl-trap pages", "verified_current": "search page already sets robots index:false (Phase A)" }
+  ],
+  "must_be_indexable": [
+    "/", "/apple-repair", "/iphone-repair", "/macbook-repair", "/logic-board-repair",
+    "/liquid-damage", "/battery-replacement", "/screen-repair", "/imac-repair", "/mac-mini-repair", "/book"
+  ],
+  "must_be_disallowed_robots": ["/api/", "/admin/", "/studio/"],
+  "crawl_trap_guards": {
+    "no_faceted_url_explosions": true,
+    "no_indexable_thin_query_pages": true,
+    "no_search_result_indexing": true
+  }
+}

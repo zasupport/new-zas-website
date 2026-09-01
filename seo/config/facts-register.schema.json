@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://zasupport.com/seo/facts-register.schema.json",
+  "title": "ZA Support Facts Register entry",
+  "description": "Controlled source of truth for business/legal/commercial/trust claims (Handoff §4, Phase B). One entry per protected claim.",
+  "type": "object",
+  "required": ["claim_id", "claim_text", "claim_class", "scope", "source_of_truth", "owner_approval_required", "approved_value", "approved_on"],
+  "additionalProperties": false,
+  "properties": {
+    "claim_id": { "type": "string", "pattern": "^FR-[0-9]{3}$" },
+    "claim_text": { "type": "string", "minLength": 1 },
+    "claim_class": { "enum": ["legal", "commercial", "trust", "operational", "technical", "editorial"] },
+    "scope": { "enum": ["sitewide", "page", "GBP", "email", "social"] },
+    "source_of_truth": { "type": "string", "minLength": 1 },
+    "owner_approval_required": { "type": "boolean" },
+    "approved_value": { "type": ["string", "number", "null"] },
+    "approved_on": { "type": ["string", "null"], "description": "ISO date or null if pending" },
+    "review_due": { "type": ["string", "null"] },
+    "allowed_pages": { "type": "array", "items": { "type": "string" } },
+    "prohibited_variants": { "type": "array", "items": { "type": "string" } },
+    "status": { "enum": ["approved", "pending_verification", "prohibited"] },
+    "notes": { "type": "string" }
+  }
+}

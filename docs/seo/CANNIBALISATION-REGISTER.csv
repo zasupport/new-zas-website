@@ -1,0 +1,4 @@
+cluster,competing_urls,decision,action,evidence_source,status
+macbook repair johannesburg,"/ (homepage);/macbook-repair;/apple-repair;/contact",TBD,investigate-then-strengthen-primary,historic-serp+needs-gsc,open
+macbook logic board repair johannesburg,"/ (homepage);/logic-board-repair;/blog;/logic-board-repair/macbook-air-m4",TBD,investigate-intent-differences,historic-serp+needs-gsc,open
+macbook battery replacement,/battery-replacement,TBD,confirm-single-intent-page,needs-gsc,open

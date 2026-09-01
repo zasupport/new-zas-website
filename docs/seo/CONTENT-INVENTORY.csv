@@ -1,0 +1,10 @@
+url,template,status_code,canonical_self,robots,meta_keywords,title_eq_og,schema_types,action
+/,home,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;WebSite;FAQPage;WebPage",fix-claims
+/apple-repair,hub,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;FAQPage;Service;BreadcrumbList",metadata-policy
+/iphone-repair,hub,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;FAQPage;BreadcrumbList;Service",protect
+/macbook-repair,hub,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;FAQPage;BreadcrumbList;Service;ItemList",elevate
+/logic-board-repair,service,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;FAQPage;Service;BreadcrumbList;WebPage;ItemList",keep
+/liquid-damage,service,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;FAQPage;Service;BreadcrumbList",keep
+/battery-replacement,service,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;FAQPage;Service;BreadcrumbList",cannibalisation-check
+/screen-repair,service,200,yes,index,present,no,"LocalBusiness;ComputerRepairService;Service;FAQPage;BreadcrumbList",keep
+/search,utility,200,to-homepage,noindex,present,no,"LocalBusiness;ComputerRepairService",fix-canonical

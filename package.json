@@ -4,8 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node seo/scripts/build-search-index.mjs",
     "build": "next build",
     "start": "next start",
+    "search:index": "node seo/scripts/build-search-index.mjs",
+    "seo:crawl": "node seo/scripts/crawl-site.mjs",
+    "seo:audit:sitemap": "node seo/scripts/audit-sitemap.mjs",
+    "seo:audit:canonicals": "node seo/scripts/audit-canonicals.mjs",
+    "seo:audit:schema": "node seo/scripts/audit-schema.mjs",
+    "seo:audit:search": "node seo/scripts/audit-search.mjs",
+    "seo:audit:claims": "node seo/scripts/audit-claims.mjs --paths /",
+    "seo:report:weekly": "node seo/scripts/generate-weekly-report.mjs",
+    "test:e2e": "playwright test",
+    "test:seo": "node --test tests/seo/",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "check:robots-static": "python3 scripts/check-robots-next-static.py",
@@ -45,6 +56,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@playwright/test": "^1.47.0"
   }
 }
