@@ -2,7 +2,15 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { escapeHtml, isValidEmail, clampLength, LIMITS, normalizeZAPhone } from '@/lib/sanitise';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// Resend is created on first use, not at module scope. The constructor throws
+// when RESEND_API_KEY is absent, and `next build` evaluates this module while
+// collecting page data, so a module-scope client failed the build in any
+// environment without the secret (CI). Request-time behaviour is unchanged.
+let resendClient: Resend | null = null;
+function getResend(): Resend {
+  if (!resendClient) resendClient = new Resend(process.env.RESEND_API_KEY);
+  return resendClient;
+}
 
 const ZA_PHONE = '27645295863';
 
@@ -153,7 +161,7 @@ export async function POST(request: NextRequest) {
     const safeWhatsappUrl = whatsappUrl ? escapeHtml(whatsappUrl) : '';
 
     // Send notification to admin
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'ZA Support Website <admin@zasupport.com>',
       to: ['mary@zasupport.com'],
       subject: `[${safeUrgency}] New Enquiry, ${safeDevice || 'Unknown device'}, ${safeName}`,
@@ -181,7 +189,7 @@ export async function POST(request: NextRequest) {
     });
 
     // Send auto-reply to client
-    await resend.emails.send({
+    await getResend().emails.send({
       from: 'ZA Support <admin@zasupport.com>',
       to: [emailStr],
       subject: "Your ZA Support Enquiry, We'll Be in Touch",
