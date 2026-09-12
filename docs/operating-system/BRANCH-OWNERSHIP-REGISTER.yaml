@@ -1,0 +1,38 @@
+schema_version: '1.0'
+updated_at_utc: '2026-09-12T15:06:29Z'
+# Approved by owner (Courtney) 12/09/2026 "approve all" — decision 1 (one active writer,
+# lease/heartbeat, isolated worktree, release-candidate freeze, ambiguity=HOLD).
+# Ownership of seo/organic-growth-infra claimed after verifying: HEAD stable 2h42m
+# (last commit 14:18:52, no reflog activity since), no process operating on this repo/branch,
+# no .git/index.lock, no competing worktree on this branch. §644 ambiguity resolved.
+branches:
+  - branch: seo/organic-growth-infra
+    status: ACTIVE_WRITE
+    primary_writer: 'Claude Code (Opus 4.8)'
+    writer_session_id: 95d83018-30b7-4236-bced-d9fed69ee3b1
+    writer_started_at_utc: '2026-09-12T15:06:29Z'
+    lease_expires_at_utc: '2026-09-12T15:36:29Z'
+    scope_summary: >-
+      Docs-only governance work + release preparation for the accumulated
+      Phase-0/SEO/keyless-search branch. No source/pricing/DNS/workflow changes
+      beyond what is already committed. Release path (split vs release-train)
+      pending owner decision; production merge held for exact-SHA approval.
+    allowed_paths:
+      - docs/operating-system/
+      - docs/handoffs/
+      - docs/facts/
+      - docs/seo/
+    base_sha: da20026c5d28175c152a0e23a151d091bbe7191c   # origin/main (production, 12 Aug)
+    expected_head_sha: a0b891fd6ba4069cce9a67b196c5f2822e31fea5
+    linked_issue_or_task: 'ZA Support website audit programme — Phase 0 + release'
+    last_verified_at_utc: '2026-09-12T15:06:29Z'
+    handoff_path: docs/handoffs/   # accumulated master handoffs, to be filed docs-only
+    release_owner: Courtney
+    release_status: REVIEWING   # split-vs-release-train decision pending; NOT frozen; NOT approved
+    notes: >-
+      a0b891f authored by a prior concurrent session (Claude Fable 5) committing the
+      .claude framework + gitignoring machine-local state; runtime-served artefact is only
+      public/search-index.json. 5a90e4b fuses 60 files (+4227/-267): keyless search + index
+      + CI + facts-register + tests + config in ONE commit — split into isolated PRs = intra-commit
+      surgery on pushed history. Production /api/search=500 now; branch preview a0b891f is READY.
+      Exact-SHA owner approval required before any merge to main (decision 2).
