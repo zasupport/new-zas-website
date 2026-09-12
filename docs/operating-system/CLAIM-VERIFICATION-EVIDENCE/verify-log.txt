@@ -1,0 +1,50 @@
+CLAIM VERIFICATION EVIDENCE LOG
+Session: 95d83018 | Verified: 2026-09-12 ~12:26 SAST
+Authoritative-source re-verification of the Phase-0 Claude Code handoff claims,
+per the 12h23 Master Handoff section 1 command block. Read-only.
+
+--- git rev-parse --show-toplevel ---
+/Users/cb/Developer/new-zas-website
+
+--- git remote -v ---
+backup  https://zasupportbackup@github.com/zasupportbackup/new-zas-website.git (fetch/push)
+origin  https://github.com/zasupport/new-zas-website.git (fetch/push)
+
+--- git branch --show-current ---
+seo/organic-growth-infra
+
+--- git show --stat --oneline fc63e99 ---
+fc63e99 docs(seo): Phase 0 delta-audit foundation + wording-remediation worklist
+11 files changed, 415 insertions(+)  (docs/operating-system/* + docs/seo/WORDING-REMEDIATION-WORKLIST.md + phase-report)
+
+--- git show --stat --oneline d507ab2 ---
+d507ab2 fix(claims A1): homepage FAQ assessment-fee wording -> FR-008 compliant
+ src/app/page.tsx | 902 +++++  (1 file changed, 474 insertions(+), 428 deletions(-))
+ NOTE: 902 lines = Biome PostToolUse formatter reformatted the whole file
+ (tabs, import reorder, quote style) alongside the one-FAQ semantic change.
+
+--- git show d507ab2 -- src/app/page.tsx  (semantic hunk) ---
+- '...If you choose to proceed with the repair, the assessment fee is included in the total...'
++ "...The assessment fee is separate from the repair quotation and is non-refundable.
+   It is not credited toward, deducted from, or included in the repair cost, and it applies
+   whether or not you proceed with the repair. After the assessment we provide a written
+   repair quotation, and no repair work begins until you approve it..."
+
+--- live routes (curl, 12:26 SAST this turn) ---
+/search?q=Logic board  -> 200
+/sitemap.xml           -> 200
+/api/search?q=logic    -> 500
+
+--- google-rating.json ---
+"fetched": "2026-07-25T01:00:09Z"  (count 645, rating 4.9)  -> stale ~7 weeks
+
+--- za-gsc-page-export.py --export ---
+FAILED (loud): "google-auth / api-client not installed"  (rc reported 0 despite failure)
+CSV mtime unchanged (Sep 1) -> no refresh
+
+--- git push origin seo/organic-growth-infra ---
+! [remote rejected] refusing to allow a Personal Access Token to create or update
+  workflow .github/workflows/seo-pr-gates.yml without workflow scope
+
+--- npx tsc --noEmit ---
+exit 0, 0 error lines
