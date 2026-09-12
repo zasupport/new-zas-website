@@ -1,0 +1,122 @@
+{
+  "$schema": "https://zasupport.com/schemas/zas-roadmap-v1.json",
+  "manifest": "zas-roadmap",
+  "version": "1.0.0",
+  "created": "2026-08-11T19:00:00+02:00",
+  "supersedes_claim": {
+    "previous": "Ollama MLX support was rolling out in v0.16.x and not yet default",
+    "correction": "Ollama v0.30 (13/05/2026) promoted the MLX engine from preview to the DEFAULT Apple Silicon inference path. The earlier statement is superseded and should not be relied on.",
+    "source": "https://ollama.com/blog/mlx plus v0.30 release coverage",
+    "why_it_matters": "Advice built on the superseded claim would have had Courtney setting an environment variable that is no longer required, and treating a shipped default as experimental."
+  },
+
+  "sequencing_logic": {
+    "principle": "Order by what makes the next step safe, not by what looks most valuable in isolation.",
+    "reasoning": "Four of the five open items change how the advisor layer behaves: routing, caching, retrieval, and inference backend. None of them can be adopted safely while there is no way to tell whether behaviour got better or worse. The eval harness is therefore first, not because it is the most exciting, but because every other item is unmeasurable without it. Building a learned router before the eval means training on unlabelled traffic and calling the result an improvement with no evidence.",
+    "gate_rule": "No item ships until the eval harness scores it against the recorded baseline and the score does not regress.",
+    "reversibility_rule": "Prefer the mechanism that can be switched off in one line over the mechanism that is faster."
+  },
+
+  "items": [
+    {
+      "rank": 1,
+      "id": "advisor-eval",
+      "title": "Advisor accuracy evaluation harness",
+      "status": "BUILT 11/08/2026",
+      "why_first": "It is the measurement substrate. The other four items are all claims about improvement, and a claim about improvement with no measurement is an assertion. Building it first converts the remaining roadmap from opinion into evidence.",
+      "risk": "none",
+      "reversibility": "total, it is read-only and changes no runtime behaviour",
+      "safest_mechanism": {
+        "chosen": "Golden-set file of question and expected-classification pairs, scored offline against the router, with results appended to a history file",
+        "rejected": "LLM-as-judge scoring",
+        "why": "An LLM judge introduces a second unmeasured model into the measurement itself. A fixed golden set is deterministic, auditable, and can be extended by hand as real failures appear. Start deterministic, add judgement only when the deterministic signal is exhausted."
+      },
+      "gate": "The harness must detect a deliberately broken router. Falsification-tested."
+    },
+    {
+      "rank": 2,
+      "id": "response-cache",
+      "title": "Cache in front of Ollama",
+      "status": "NEXT",
+      "why_second": "Highest benefit-to-risk ratio once measurement exists. Identical prompts currently trigger full inference every time, which is pure waste. A cache changes latency and cost without changing answers, so the eval score should be identical before and after. That makes it the cleanest first use of the harness: any score change means the cache is corrupting responses.",
+      "risk": "low",
+      "reversibility": "one environment variable disables it",
+      "safest_mechanism": {
+        "chosen": "SQLite keyed on sha256 of model plus system plus user prompt, with a TTL",
+        "rejected": "Redis, which the published pattern recommends",
+        "why": "Redis adds a daemon that must be running, supervised, and reachable for the advisor layer to work. On a single Mac that is a new failure mode in exchange for microseconds that nobody perceives. SQLite is already present in the standard library, needs no process, survives reboot, and fails closed to a normal inference call. The published pattern assumes a multi-machine deployment; this is one laptop, so the constraint that produced the Redis recommendation does not hold here."
+      },
+      "gate": "Eval score identical before and after. Any drift means the cache is returning wrong answers.",
+      "verify": "cache hit rate above zero on a repeated question, and a cold run and warm run producing byte-identical answers"
+    },
+    {
+      "rank": 3,
+      "id": "sqlite-vec-index",
+      "title": "Persistent semantic index for the pattern engine T2 tier",
+      "status": "AFTER-CACHE",
+      "why_third": "It adds a capability rather than changing an existing one, so it cannot regress what already works. It is ranked below the cache only because it costs more to build and its benefit is narrower.",
+      "risk": "low",
+      "reversibility": "delete the index file, T2 degrades to T1 as it already does",
+      "safest_mechanism": {
+        "chosen": "sqlite-vec with incremental indexing keyed on file sha256, embeddings from nomic-embed-text at 768 dimensions",
+        "rejected": "Chroma or LanceDB",
+        "why": "The pattern engine already degrades cleanly through four tiers and already writes JSON. Adding a server-backed vector store would introduce a dependency heavier than the thing it serves. sqlite-vec is a single extension over a database format already in use. Incremental keying on content hash means re-indexing costs nothing when nothing changed."
+      },
+      "gate": "T1 lexical results must remain unchanged when T2 is enabled. Semantic results supplement, never replace.",
+      "verify": "index survives a restart, and a paraphrased query retrieves a document that TF-IDF misses"
+    },
+    {
+      "rank": 4,
+      "id": "learned-router",
+      "title": "Router trained on replayed telemetry",
+      "status": "GATED",
+      "why_fourth": "It is the only item that can silently make things worse. The current keyword-first router is transparent: a wrong route is traceable to a keyword. A learned router is opaque, and a regression shows up as slightly worse answers rather than an error. It must not be built until the eval harness has accumulated enough real labelled traffic to prove the learned version beats the keyword version.",
+      "risk": "medium",
+      "reversibility": "keep the keyword router as the fallback path and switch by config",
+      "safest_mechanism": {
+        "chosen": "Keyword-first with the learned model consulted only on keyword miss, and every decision logged with its outcome",
+        "rejected": "Replacing the keyword table with a classifier",
+        "why": "Published guidance is explicit that routing works when the router is trained on real traffic and corrected over time, and that the first version does not need to be clever, it needs to create the control point. The control point already exists. Layering the learned model behind the deterministic one preserves the transparent path and confines the opaque one to cases the transparent path already failed."
+      },
+      "gate": "At least 200 labelled routing decisions in the eval history, and the learned path must beat keyword accuracy on a held-out set before it is enabled.",
+      "blocked_by": ["advisor-eval accumulating real traffic"]
+    },
+    {
+      "rank": 5,
+      "id": "mlx-verification",
+      "title": "Verify the MLX inference path on the M5 Pro",
+      "status": "VERIFY-BEFORE-ACT",
+      "why_last": "Not because it is least valuable, but because it is the one item where the correct action is to measure the machine rather than build anything. Two published claims conflict, and acting on either without checking would be guessing.",
+      "risk": "low if verified first, medium if assumed",
+      "reversibility": "not applicable, this is a measurement not a change",
+      "conflicting_evidence": {
+        "claim_a": "Ollama v0.30 (13/05/2026) made MLX the default Apple Silicon inference path, and M5 Pro specifically gains GPU Neural Accelerator use for time-to-first-token and decode",
+        "claim_b": "Coverage of the earlier v0.19 release states the MLX backend requires 32GB unified memory, with Metal remaining the default below that",
+        "the_problem": "The M5 Pro in this fleet has 24GB unified memory, which sits below the stated 32GB floor but above nothing else relevant. Whether MLX actually engages on this exact machine is not answerable from published sources.",
+        "resolution": "Measure it. Do not infer it."
+      },
+      "safest_mechanism": {
+        "chosen": "Empirical verification on the machine itself before any configuration change",
+        "commands": [
+          "ollama --version",
+          "ollama ps",
+          "grep -i mlx ~/.ollama/logs/server.log | tail -20"
+        ],
+        "why": "This is precisely the failure mode the hardware-facts-are-read-never-inferred rule exists to prevent. A published memory floor is a claim about a release, not a reading of this machine. The M1 Pro at 16GB is separately below any stated floor, so the two machines may behave differently and must be measured separately."
+      },
+      "gate": "Record the observed backend per machine in the environment snapshot before any advisor performance claim references it."
+    }
+  ],
+
+  "append_only_contract": {
+    "rule": "Every accumulating artefact is appended to, never truncated or replaced.",
+    "files": [
+      ".claude/telemetry.ndjson",
+      ".claude/validation.log",
+      ".claude/learning-ledger.md",
+      ".claude/eval-history.ndjson"
+    ],
+    "enforcement": "The installer never writes these paths. The eval harness opens its history in append mode only. Rotation moves a full file aside under a timestamp rather than deleting it.",
+    "verification": "wc -l before and after any install must be non-decreasing for every file in this list."
+  }
+}

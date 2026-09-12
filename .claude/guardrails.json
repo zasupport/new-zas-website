@@ -1,0 +1,711 @@
+{
+  "$schema": "https://zasupport.com/schemas/zas-guardrails-v1.json",
+  "manifest": "zas-guardrails",
+  "version": "1.0.0",
+  "created": "2026-08-10T19:00:00+02:00",
+  "surface": [
+    "claude-code",
+    "chat"
+  ],
+  "interpretation_contract": {
+    "read_order": [
+      "guardrails",
+      "wiring",
+      "pattern_engine",
+      "verification"
+    ],
+    "on_conflict": "guardrail wins over rule; rule wins over preference",
+    "unknown_key_policy": "ignore, do not fail",
+    "apply_semantics": "merge inside managed block only, never clobber",
+    "managed_block": {
+      "begin": "// >>> BEGIN zas-guardrails v1 (managed)",
+      "end": "// <<< END zas-guardrails v1 (managed)"
+    }
+  },
+  "_doc_classification": {
+    "purpose": "Decide whether an intent belongs in a guardrail or a rule. This is the classification the user asked for.",
+    "guardrail": "Mechanically enforced by the harness. Runs every time. Model compliance irrelevant. Use when the cost of one failure is high or the failure is silent.",
+    "rule": "Read into context. Probabilistic. Use for judgement, style, and anything needing interpretation.",
+    "test": "If the sentence contains NEVER or ALWAYS and a machine could evaluate it, it is a guardrail. If it needs judgement, it is a rule."
+  },
+  "guardrails": [
+    {
+      "id": "GR-001",
+      "intent": "No credential file is ever read or written by the agent",
+      "was_a_rule": "Never touch .env files",
+      "why_guardrail": "Binary, machine-evaluable, one failure leaks secrets",
+      "mechanism": "permissions.deny",
+      "enforcement": "harness",
+      "config": {
+        "deny": [
+          "Read(.env)",
+          "Read(.env.*)",
+          "Read(./secrets/**)",
+          "Edit(.env)",
+          "Edit(.env.*)"
+        ]
+      },
+      "bypassable": false,
+      "verify": "/permissions lists the deny entries",
+      "failure_if_absent": "silent credential exposure"
+    },
+    {
+      "id": "GR-002",
+      "intent": "The agent cannot edit its own enforcement layer mid-session",
+      "was_a_rule": "Do not modify the hooks",
+      "why_guardrail": "Self-modification defeats every other control",
+      "mechanism": "permissions.deny + ConfigChange hook",
+      "enforcement": "harness",
+      "config": {
+        "deny": [
+          "Edit(.claude/hooks/**)",
+          "Edit(.claude/settings.json)",
+          "Edit(.claude/rules/**)",
+          "Edit(.claude/agents/**)"
+        ]
+      },
+      "bypassable": false,
+      "verify": "attempt an edit to .claude/hooks and confirm refusal"
+    },
+    {
+      "id": "GR-003",
+      "intent": "Unattended sessions never run without permission checks",
+      "was_a_rule": "Do not use bypassPermissions",
+      "why_guardrail": "A rule cannot stop a flag; a setting can",
+      "mechanism": "permissions.disableBypassPermissionsMode + PreToolUse guard reading permission_mode",
+      "enforcement": "harness",
+      "config": {
+        "disableBypassPermissionsMode": "disable",
+        "disableAutoMode": "disable"
+      },
+      "bypassable": false,
+      "verify": "telemetry field permission_mode must never equal bypassPermissions"
+    },
+    {
+      "id": "GR-004",
+      "intent": "Every code edit is linted and auto-fixed before the agent continues",
+      "was_a_rule": "Write clean code",
+      "why_guardrail": "Style and bug-risk are machine-checkable; the model forgets under load",
+      "mechanism": "PostToolUse hook on Edit|Write, exit 2 feeds residuals back",
+      "enforcement": "hook",
+      "config": {
+        "script": ".claude/hooks/lint-v2.sh",
+        "matcher": "Edit|Write",
+        "timeout": 60,
+        "tier": 0
+      },
+      "covers": [
+        "undeclared-variables",
+        "unreachable-code",
+        "missing-brackets",
+        "style",
+        "complexity",
+        "deprecated-methods"
+      ],
+      "bypassable": false,
+      "verify": "smoke-test negative control exits 2"
+    },
+    {
+      "id": "GR-005",
+      "intent": "No hardcoded secret survives an edit",
+      "was_a_rule": "Do not hardcode credentials",
+      "why_guardrail": "Pattern-matchable, high blast radius",
+      "mechanism": "PostToolUse hook, gitleaks with BSD-safe regex fallback",
+      "enforcement": "hook",
+      "config": {
+        "script": ".claude/hooks/secrets.sh",
+        "matcher": "Edit|Write",
+        "timeout": 30
+      },
+      "bypassable": false,
+      "verify": "planted AKIA key blocks with exit 2"
+    },
+    {
+      "id": "GR-006",
+      "intent": "The agent cannot declare done while verification fails",
+      "was_a_rule": "Test before declaring complete",
+      "why_guardrail": "This rule failed repeatedly as an instruction; the Stop event enforces it",
+      "mechanism": "Stop and SubagentStop hook, decision block",
+      "enforcement": "hook",
+      "config": {
+        "script": ".claude/hooks/test-gate.sh",
+        "timeout": 300,
+        "livelock_guard": "stop_hook_active",
+        "tier": 2
+      },
+      "bypassable": false,
+      "verify": "an untested change cannot end the turn"
+    },
+    {
+      "id": "GR-007",
+      "intent": "Unhandled promises and type errors are caught, but never in the hot path",
+      "was_a_rule": "Use type-aware linting",
+      "why_guardrail": "Placement is mechanical; latency budget is objective",
+      "mechanism": "Stop gate and CI, not PostToolUse",
+      "enforcement": "hook",
+      "config": {
+        "checks": [
+          "@typescript-eslint/no-floating-promises",
+          "tsc --noEmit",
+          "mypy"
+        ],
+        "tier": 2,
+        "rationale": "type-aware ESLint needs projectService, too slow per edit"
+      },
+      "bypassable": false,
+      "verify": "planted floating promise caught at Stop tier"
+    },
+    {
+      "id": "GR-008",
+      "intent": "Every executable artefact reports its own execution",
+      "was_a_rule": "Log what happens",
+      "why_guardrail": "Free-text logs made post-execution findings unreportable on 10/08/2026",
+      "mechanism": "shared telemetry emitter sourced by every hook",
+      "enforcement": "hook",
+      "config": {
+        "script": ".claude/hooks/_telemetry.sh",
+        "sink": ".claude/telemetry.ndjson",
+        "required_fields": [
+          "ts",
+          "hook",
+          "verdict",
+          "exit_code",
+          "duration_ms",
+          "event",
+          "session_id",
+          "prompt_id",
+          "tool_use_id",
+          "tool_name",
+          "permission_mode",
+          "agent_id",
+          "agent_type",
+          "cwd",
+          "host"
+        ],
+        "rotate_bytes": 5242880
+      },
+      "bypassable": false,
+      "verify": "telemetry.ndjson contains all fifteen fields"
+    },
+    {
+      "id": "GR-009",
+      "intent": "Nothing ships that references a file it does not include",
+      "was_a_rule": "Check the bundle is complete",
+      "why_guardrail": "Caught a real omission of secrets.sh and test-gate.sh on 10/08/2026",
+      "mechanism": "verify-delivery.sh Step 5 before present_files",
+      "enforcement": "pre-delivery gate",
+      "config": {
+        "script": ".claude/hooks/verify-delivery.sh",
+        "allowlist_file": ".deliveryignore"
+      },
+      "bypassable": false,
+      "verify": "gate exits 1 on a planted broken reference"
+    },
+    {
+      "id": "GR-010",
+      "intent": "Every new automation ships its hook block",
+      "was_a_rule": "hook-block-schema-mandate",
+      "why_guardrail": "The rule exists; this is its mechanical enforcement layer",
+      "mechanism": "Stop hook scanning git working tree for unwired .sh/.py/.plist",
+      "enforcement": "hook",
+      "config": {
+        "script": ".claude/hooks/guard-new-automation.sh",
+        "timeout": 30
+      },
+      "bypassable": false,
+      "verify": "an unwired script blocks the turn with exit 2"
+    },
+    {
+      "id": "GR-011",
+      "intent": "Every compounded-intelligence feature proves its persistence rather than assuming it",
+      "was_a_rule": "Remember to keep the ledger updated",
+      "why_guardrail": "Accumulation failing silently is indistinguishable from accumulation working, so only a mechanical check catches it",
+      "mechanism": "persistence-watchdog.sh under launchd, plus an append-only sink per artefact",
+      "enforcement": "launchd + watchdog",
+      "config": {
+        "script": ".claude/hooks/persistence-watchdog.sh",
+        "agent": "com.zasupport.persistence",
+        "schedule": "daily 08:15",
+        "checks": [
+          "growth",
+          "freshness",
+          "integrity"
+        ],
+        "self_healing": true
+      },
+      "bypassable": false,
+      "verify": "watchdog reports GROWING for every artefact and SHRANK for none"
+    },
+    {
+      "id": "GR-012",
+      "intent": "Escalation to Anthropic models is earned by evidence, never reflexive",
+      "was_a_rule": "Ask Claude when stuck",
+      "why_guardrail": "Escalation spends money and an instruction cannot enforce a budget",
+      "mechanism": "escalation-gate.py five-gate check, default PREPARE not CALL",
+      "enforcement": "gate",
+      "config": {
+        "script": ".claude/hooks/escalation-gate.py",
+        "gates": [
+          "necessity",
+          "competence",
+          "budget",
+          "credential",
+          "consent"
+        ],
+        "ceiling_usd": 5.0,
+        "period_days": 30,
+        "credential_source": "service-only env file, never a shell profile",
+        "audit": ".claude/escalation-decisions.ndjson"
+      },
+      "bypassable": false,
+      "verify": "assess a routine task and confirm it is blocked on necessity"
+    },
+    {
+      "id": "GR-013",
+      "intent": "Every generated artefact states its own destination",
+      "was_a_rule": "Remember to say where files go",
+      "why_guardrail": "Placement stated in prose is forgettable and drifts from the installer. A machine check cannot forget.",
+      "mechanism": "guard-file-placement.sh on the Stop event, plus the CLAUDE-CODE-INJECTION header convention",
+      "enforcement": "hook",
+      "config": {
+        "script": ".claude/hooks/guard-file-placement.sh",
+        "event": "Stop",
+        "timeout": 30,
+        "required_fields": [
+          "target_path",
+          "permissions",
+          "create_parent_dirs",
+          "backup_if_exists",
+          "overwrite_if_exists",
+          "post_install_verify",
+          "rollback_command"
+        ],
+        "exempt": [
+          ".claude/hooks/",
+          ".claude/rules/",
+          ".claude/agents/",
+          ".claude/fixtures/",
+          ".claude/framework/",
+          ".claude/capture/",
+          ".github/workflows/"
+        ],
+        "rule_file": ".claude/rules/file-placement-mandate.md"
+      },
+      "bypassable": false,
+      "verify": "create an artefact without a directive and confirm the turn blocks with exit 2"
+    },
+    {
+      "id": "GR-014",
+      "intent": "Every created file reveals its exact location automatically",
+      "was_a_rule": "Tell Courtney where the file is",
+      "why_guardrail": "A location stated in prose is forgettable and gets lost in a long response. Finder selecting the file cannot be missed.",
+      "mechanism": "launchd WatchPaths agent running open -R, plus the convention that every generated script ends with a reveal",
+      "enforcement": "launchd + convention",
+      "config": {
+        "script": "~/bin/za-reveal.sh",
+        "agent": "com.zasupport.reveal",
+        "watches": [
+          "~/Downloads",
+          "~/Desktop",
+          "~/Documents"
+        ],
+        "extensions": [
+          "command",
+          "sh",
+          "py",
+          "md",
+          "json",
+          "zip",
+          "pdf",
+          "docx",
+          "xlsx",
+          "html",
+          "plist",
+          "yml"
+        ],
+        "ignores": [
+          ".crdownload",
+          ".part",
+          ".download",
+          ".tmp",
+          "dotfiles",
+          "images",
+          "video"
+        ],
+        "debounce_s": 8,
+        "max_age_s": 90,
+        "rule_file": ".claude/rules/reveal-on-create.md"
+      },
+      "bypassable": true,
+      "bypass_note": "Deliberately disableable via launchctl bootout, because an agent that cannot be turned off gets worked around instead",
+      "verify": "download a .command and confirm Finder selects it"
+    },
+    {
+      "id": "GR-015",
+      "intent": "Any artefact Claude sends can be installed by one double-click, with no per-file installer",
+      "was_a_rule": "Tell Courtney where to copy the file",
+      "why_guardrail": "Every artefact already declares its own target_path in its injection header. A router that reads those headers makes manual placement unnecessary rather than merely discouraged.",
+      "mechanism": "ZAS Auto Install Downloads .command scans Downloads, parses CLAUDE-CODE-INJECTION headers, routes each file to its declared path",
+      "enforcement": "executable",
+      "config": {
+        "script": "~/bin/za-auto-install.command",
+        "parses": [
+          "shell-comment header form",
+          "YAML claude_code_injection frontmatter"
+        ],
+        "skips": "any file without a target_path, never guessed",
+        "archives": "existing file copied to .claude/_archive/<UTC> before replacement",
+        "reveals": "destination folder opened on completion per GR-014"
+      },
+      "bypassable": false,
+      "verify": "stage an artefact in Downloads and confirm it lands at its declared path with the declared mode"
+    },
+    {
+      "id": "GR-016",
+      "intent": "Terminal code that creates data proves it worked, in a file claude.ai can analyse",
+      "was_a_rule": "Tell Courtney whether it worked",
+      "why_guardrail": "Verification by pasting terminal output loses formatting, truncates, and hides errors inside grep filters. A generated report cannot be mangled by a paste.",
+      "mechanism": "report.sh runs the installed pipeline against real project files and writes a self-contained markdown report with YAML frontmatter",
+      "enforcement": "installer phase + on-demand",
+      "config": {
+        "script": ".claude/hooks/report.sh",
+        "output": ".claude/reports/ZAS Verification Report <DD.MM.YYYY HHMM>.md",
+        "must_contain": [
+          "verdict first",
+          "machine context including absent tools",
+          "control results with commands",
+          "real-data evidence",
+          "stated limitations"
+        ],
+        "absent_tool_semantics": "unvalidated, never passed",
+        "rule_file": ".claude/rules/verification-report-mandate.md"
+      },
+      "bypassable": false,
+      "verify": "run report.sh and confirm a report appears with a VERDICT section"
+    }
+  ],
+  "agent_architecture": {
+    "language_agent": {
+      "role": "LLM reasoning engine",
+      "responsibilities": [
+        "parse natural language intent",
+        "maintain task memory",
+        "select tools"
+      ],
+      "controls": [
+        "model",
+        "effort",
+        "extended thinking",
+        "subagent model field"
+      ],
+      "guardrails_applied": [
+        "GR-003"
+      ]
+    },
+    "local_agent": {
+      "role": "client-side runtime executing on the machine",
+      "responsibilities": [
+        "file operations",
+        "code reading",
+        "local system commands"
+      ],
+      "controls": [
+        "permissions allow/deny/ask",
+        "sandbox",
+        "tool availability"
+      ],
+      "guardrails_applied": [
+        "GR-001",
+        "GR-002",
+        "GR-005"
+      ]
+    },
+    "harness": {
+      "role": "agentic loop manager",
+      "responsibilities": [
+        "iterate prompt-execute-feedback",
+        "enforce permission boundaries",
+        "dispatch tools",
+        "stream status"
+      ],
+      "controls": [
+        "hooks at ~30 lifecycle events",
+        "permission modes",
+        "statusline"
+      ],
+      "guardrails_applied": [
+        "GR-004",
+        "GR-006",
+        "GR-007",
+        "GR-008",
+        "GR-009",
+        "GR-010"
+      ],
+      "status_streaming": {
+        "mechanism": "statusLine command",
+        "surfaces": [
+          "latest validation verdict",
+          "session cost"
+        ]
+      }
+    }
+  },
+  "linter_matrix": {
+    "javascript_typescript": {
+      "tier0": [
+        "biome check --write"
+      ],
+      "tier1": [
+        "eslint --fix --cache"
+      ],
+      "tier2": [
+        "typescript-eslint type-aware",
+        "tsc --noEmit"
+      ],
+      "rules": [
+        "no-undef",
+        "no-unreachable",
+        "no-unused-vars",
+        "@typescript-eslint/no-floating-promises",
+        "complexity",
+        "eslint-plugin-security"
+      ]
+    },
+    "python": {
+      "tier0": [
+        "ruff check --fix",
+        "ruff format"
+      ],
+      "tier1": [
+        "flake8",
+        "pylint"
+      ],
+      "tier2": [
+        "mypy",
+        "pyright"
+      ],
+      "rules": [
+        "F821",
+        "E",
+        "W",
+        "B",
+        "C901",
+        "S",
+        "I",
+        "UP",
+        "N"
+      ]
+    },
+    "go": {
+      "tier0": [
+        "gofmt -w",
+        "go vet"
+      ],
+      "tier1": [
+        "golangci-lint run --fix"
+      ],
+      "tier2": [
+        "golangci-lint run ./..."
+      ],
+      "rules": [
+        "gosec",
+        "gocognit",
+        "errcheck",
+        "unreachable"
+      ]
+    },
+    "rust": {
+      "tier0": [],
+      "tier1": [
+        "cargo clippy --fix"
+      ],
+      "tier2": [
+        "cargo clippy -- -D warnings"
+      ],
+      "rules": [
+        "correctness",
+        "suspicious",
+        "complexity",
+        "perf"
+      ]
+    },
+    "placement_rule": "tier0 and tier1 run PostToolUse per edited file under a 2s budget; tier2 runs at Stop or CI. Accuracy is re-sequenced, never removed."
+  },
+  "pattern_engine": {
+    "purpose": "Local ML pattern recognition across all Claude Code data, byte for byte, surfacing non-obvious cross-dataset insights",
+    "runs": "offline, local only, no network",
+    "corpus": [
+      "~/.claude/projects/**/*.jsonl",
+      ".claude/telemetry.ndjson",
+      ".claude/validation.log",
+      "~/.zas/cc-audit/**",
+      ".claude/rules/**",
+      "~/.claude/skills/**"
+    ],
+    "tiers": [
+      {
+        "tier": "T0",
+        "name": "statistical",
+        "deps": [
+          "python3-stdlib"
+        ],
+        "techniques": [
+          "frequency",
+          "co-occurrence",
+          "time-series drift"
+        ],
+        "always_available": true
+      },
+      {
+        "tier": "T1",
+        "name": "classical-ml",
+        "deps": [
+          "scikit-learn",
+          "numpy"
+        ],
+        "techniques": [
+          "TF-IDF vectorisation",
+          "DBSCAN clustering",
+          "IsolationForest anomaly detection",
+          "NMF topic extraction"
+        ],
+        "verified_versions": {
+          "scikit-learn": "1.8.0",
+          "numpy": "2.4.4"
+        }
+      },
+      {
+        "tier": "T2",
+        "name": "semantic",
+        "deps": [
+          "ollama",
+          "sqlite-vec"
+        ],
+        "models": [
+          {
+            "name": "nomic-embed-text",
+            "dims": 768
+          },
+          {
+            "name": "mxbai-embed-large",
+            "dims": 1024
+          },
+          {
+            "name": "bge-m3",
+            "dims": 1024,
+            "note": "multilingual, ~1.2GB"
+          },
+          {
+            "name": "embeddinggemma",
+            "note": "on-device oriented"
+          }
+        ],
+        "storage": "sqlite-vec, 4 bytes per float per dimension"
+      },
+      {
+        "tier": "T3",
+        "name": "generative-synthesis",
+        "deps": [
+          "ollama"
+        ],
+        "models": [
+          "qwen3:8b"
+        ],
+        "role": "draft the narrative; never the arbiter of fact"
+      }
+    ],
+    "degradation": "T3 to T2 to T1 to T0. Never fails closed. Missing tier logs an advisory and the next tier runs.",
+    "business_domains": {
+      "note": "Same engine, different corpus. Verified constraint: GA4 native predictive metrics require 1000 returning converters and 1000 non-converters in 28 days, so they will not activate for a specialist MSP site. Local models fill that gap.",
+      "sales": {
+        "corpus": [
+          "Zoho Books exports",
+          "quote and invoice history"
+        ],
+        "techniques": [
+          "IsolationForest on payment lag",
+          "DBSCAN on quote shape",
+          "survival-style conversion curves"
+        ],
+        "outputs": [
+          "which quote structures convert",
+          "which client segments pay late"
+        ]
+      },
+      "marketing_seo": {
+        "corpus": [
+          "GA4 BigQuery export",
+          "Search Console API",
+          "site crawl"
+        ],
+        "techniques": [
+          "TF-IDF plus DBSCAN for query clustering",
+          "trend detection on impressions",
+          "correlation of CWV against position"
+        ],
+        "outputs": [
+          "query clusters gaining position",
+          "pages where CWV drags ranking",
+          "click-to-call attribution"
+        ],
+        "caveat": "Google does not acknowledge CTR as a direct ranking factor; treat click patterns as diagnostic, not causal"
+      },
+      "forecasting": {
+        "techniques": [
+          "statsforecast",
+          "Prophet"
+        ],
+        "substrate": "PostgreSQL and TimescaleDB continuous aggregates"
+      }
+    }
+  },
+  "learning_arc": {
+    "loop": [
+      "SessionEnd appends structured lesson to ledger",
+      "weekly pattern engine mines the ledger plus telemetry",
+      "candidate rules surfaced as proposals",
+      "human approves",
+      "approved proposal becomes a guardrail if machine-evaluable, else a rule"
+    ],
+    "promotion_criterion": "a rule that fails three or more times in the ledger is promoted to a guardrail",
+    "ledger": ".claude/learning-ledger.md",
+    "never": "auto-apply a proposal to an enforcement file without the smoke gate",
+    "persistence_contract": {
+      "rule": "A compounded-intelligence feature without a launch agent and a watchdog is incomplete",
+      "advisory": "escalation-gate.py --should-persist decides per item, defaulting to persist when ambiguous",
+      "proof": "persistence-watchdog.sh growth, freshness and integrity checks"
+    }
+  },
+  "verification": {
+    "gates": [
+      {
+        "name": "smoke-test",
+        "script": ".claude/hooks/smoke-test.sh",
+        "controls": [
+          "positive",
+          "negative",
+          "absence",
+          "pressure",
+          "end-to-end"
+        ],
+        "definition_of_done": "negative control exits 2"
+      },
+      {
+        "name": "delivery-gate",
+        "script": ".claude/hooks/verify-delivery.sh",
+        "steps": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "advisor",
+        "agent": ".claude/agents/delivery-auditor.md",
+        "mode": "read-only"
+      }
+    ],
+    "falsification_required": true,
+    "falsification_contract": "every gate must be deliberately broken, confirmed to fail, restored, and confirmed to pass, with both outcomes recorded"
+  }
+}

@@ -24,6 +24,24 @@ docs/seo/advisor-gap-inbox.md
 __pycache__/
 *.pyc
 
+# Claude Code project framework — machine-local state (never commit).
+# The Stop guards scan uncommitted work, so local state must be ignored,
+# not left stranded in the working tree where it re-blocks every turn.
+.claude/.append-guard-*
+.claude/*.ndjson
+.claude/validation.log
+.claude/claims-ledger.json
+.claude/environment.json
+.claude/install-inventory.json
+.claude/learning-ledger.md
+.claude/settings.local.json
+.claude/patterns/
+.claude/persistence/
+.claude/reports/
+.claude/capture/
+.claude/_archive/
+.claude/worktrees/
+
 # robots index guard runtime
 tools/robots/state/
 tools/robots/_archive/
