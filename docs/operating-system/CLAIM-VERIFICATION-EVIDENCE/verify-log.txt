@@ -48,3 +48,11 @@ CSV mtime unchanged (Sep 1) -> no refresh
 
 --- npx tsc --noEmit ---
 exit 0, 0 error lines
+
+--- Vercel production deployment (MCP list_deployments, 12:30 SAST) ---
+project new-zas-website (prj_HbqpqjzYnZquFSes2NQwoSrjwYPd), team team_TLu6jKGfO0GacUXkjdSuYqwX
+current production: dpl_FuPz9NiFCpo7mRAaAqEQCVJMvzQy  state=READY  target=production  ref=main
+  githubCommitSha = da20026c5d28175c152a0e23a151d091bbe7191c  ("deploy: 12/08/2026 15:09")
+  -> da20026 PRECEDES 5a90e4b (keyless-search feat) => production is pre-keyless
+  => /api/search 500 is OLD deployed code, not a keyless runtime failure. C5 confirmed at SHA level.
+  branch seo/organic-growth-infra has no production deployment (deploys are from main).
