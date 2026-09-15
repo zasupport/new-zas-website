@@ -14,7 +14,10 @@ jobs:
       - name: Python (Ruff, mypy)
         if: matrix.check == 'python'
         run: |
-          pipx install ruff mypy || pip install ruff mypy
+          # ruff pinned to the version the repo is formatted under (ruff.toml
+          # required-version enforces the same pin loudly on any other binary).
+          pipx install "ruff==0.16.2" || pip install "ruff==0.16.2"
+          pipx install mypy || pip install mypy
           ruff check .
           ruff format --check .
           mypy . || true

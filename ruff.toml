@@ -15,6 +15,12 @@
 # human review, because this repo's Python is operational tooling where terse
 # forms are deliberate and `ruff format` already owns layout.
 
+# Formatter output drifts across ruff releases (proven 15/09: repo green under
+# 0.16.2 locally, 4 files "would be reformatted" under CI's fresh 0.16.7).
+# Pinning the binary makes any mismatched ruff fail LOUD instead of drifting.
+# Upgrading = bump this, bump the version in claude-quality.yml, reformat, commit.
+required-version = "==0.16.2"
+
 target-version = "py311"
 line-length = 100
 
