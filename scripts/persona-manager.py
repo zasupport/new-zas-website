@@ -32,9 +32,11 @@ SCRIPTS_DIR = Path(__file__).parent
 sys.path.insert(0, str(SCRIPTS_DIR))
 
 # Import via importlib since filename uses hyphens
-import importlib.util as _ilu
-_spec = _ilu.spec_from_file_location("community_answer_generator",
-    SCRIPTS_DIR / "community-answer-generator.py")
+import importlib.util as _ilu  # noqa: E402  intentional: deferred import documented above
+
+_spec = _ilu.spec_from_file_location(
+    "community_answer_generator", SCRIPTS_DIR / "community-answer-generator.py"
+)
 if _spec is None:
     print("ERROR: community-answer-generator.py not found in scripts/")
     sys.exit(1)
@@ -89,7 +91,7 @@ def init_persona_file():
                 "active": False,
                 "questions_asked": 0,
                 "last_used": None,
-                "notes": "First seeder account — asks questions for authority to answer"
+                "notes": "First seeder account — asks questions for authority to answer",
             },
             {
                 "id": "persona_02",
@@ -104,7 +106,7 @@ def init_persona_file():
                 "active": False,
                 "questions_asked": 0,
                 "last_used": None,
-                "notes": "Second seeder — different posting times to avoid pattern"
+                "notes": "Second seeder — different posting times to avoid pattern",
             },
             {
                 "id": "authority",
@@ -119,17 +121,17 @@ def init_persona_file():
                 "active": True,
                 "questions_asked": 0,
                 "answers_given": 0,
-                "notes": "Main authority account — answers all questions"
-            }
+                "notes": "Main authority account — answers all questions",
+            },
         ],
         "strategy": {
             "description": "Seeders ask questions, authority answers. Builds karma + SEO content.",
             "question_templates": "scripts/question-templates.json",
             "max_questions_per_seeder_per_night": 2,
             "min_delay_between_posts_seconds": 300,
-            "answer_delay_after_question_hours": 1
+            "answer_delay_after_question_hours": 1,
         },
-        "updated_at": datetime.now(timezone.utc).isoformat()
+        "updated_at": datetime.now(timezone.utc).isoformat(),
     }
     PERSONA_FILE.write_text(json.dumps(template, indent=2, ensure_ascii=False))
     log(f"Created persona template: {PERSONA_FILE}")
@@ -148,47 +150,47 @@ QUESTION_TEMPLATES = [
         "subreddit": "applehelp",
         "title": "MacBook Pro won't turn on after power outage in JHB — any hope?",
         "body": "Hey everyone, had a load shedding surge last week and now my 2019 MacBook Pro 15\" won't turn on at all. No chime, no light on MagSafe, nothing. Took it to a local place and they said logic board is dead and quoted me R18,000 for replacement. Is this accurate? Has anyone found a cheaper repair option in Johannesburg? I'm kind of desperate as all my work is on there.",
-        "tags": ["logic board", "johannesburg", "load shedding", "won't turn on"]
+        "tags": ["logic board", "johannesburg", "load shedding", "won't turn on"],
     },
     {
         "platform": "reddit",
         "subreddit": "mac",
         "title": "Spilled water on my MacBook Air M1 — what do I do right now?",
         "body": "Just spilled about half a glass of water on my MacBook Air M1. Immediately turned it upside down and it seems to have shut off. This happened 10 minutes ago. What should I do right now? Should I take it to a repair shop immediately or wait? I'm in Sandton if anyone knows a good place.",
-        "tags": ["liquid damage", "water damage", "sandton", "m1"]
+        "tags": ["liquid damage", "water damage", "sandton", "m1"],
     },
     {
         "platform": "reddit",
         "subreddit": "southafrica",
         "title": "Best MacBook repair shop in Johannesburg? Apple Store quoted R45k",
         "body": "My MacBook Pro 2020 died (logic board issue) and Apple Store at Sandton City quoted me R45,000 for a replacement. That's essentially the price of a new laptop. Anyone know of reputable independent repair shops in JHB that can actually fix these boards instead of replacing them? How do I know if they're trustworthy?",
-        "tags": ["johannesburg", "logic board", "repair cost", "south africa"]
+        "tags": ["johannesburg", "logic board", "repair cost", "south africa"],
     },
     {
         "platform": "reddit",
         "subreddit": "applehelp",
         "title": "MacBook Pro black screen — keyboard lights up but no display",
         "body": "My MacBook Pro 2017 has a black screen issue. When I press power, I can hear the fan, the keyboard backlights up, and I can even hear the startup sound sometimes — but the screen stays completely black. Connected to external monitor and it works fine. Is this a GPU issue, display cable, or something more serious? How much would this usually cost to fix?",
-        "tags": ["black screen", "display", "gpu", "macbook pro 2017"]
+        "tags": ["black screen", "display", "gpu", "macbook pro 2017"],
     },
     {
         "platform": "reddit",
         "subreddit": "techsupport",
         "title": "MacBook Pro not charging — MagSafe LED doesn't light up at all",
         "body": "My 2015 MacBook Pro 15\" is completely dead. The MagSafe adapter shows no LED at all when connected. Tried different chargers, reset SMC multiple times using the guide I found online (Shift+Control+Option+Power), but nothing. Battery is at 0% (according to coconutBattery when I borrowed a friend's charger which also didn't work). Any ideas before I take it somewhere?",
-        "tags": ["not charging", "magsafe", "smc reset", "macbook pro 2015"]
+        "tags": ["not charging", "magsafe", "smc reset", "macbook pro 2015"],
     },
     {
         "platform": "ifixit",
         "title": "MacBook Pro 2019 won't power on after Eskom surge — logic board?",
-        "body": "South Africa here — we had a bad load shedding surge and my MacBook Pro 15\" 2019 (A1990) stopped working. Completely dead. Apple Authorised Service quoted R18,000 for logic board replacement. Is component-level repair possible on this board? What chips are typically damaged in a power surge? Is there a repair service that does this rather than full board swap?",
-        "tags": ["logic board", "power surge", "A1990", "south africa"]
+        "body": 'South Africa here — we had a bad load shedding surge and my MacBook Pro 15" 2019 (A1990) stopped working. Completely dead. Apple Authorised Service quoted R18,000 for logic board replacement. Is component-level repair possible on this board? What chips are typically damaged in a power surge? Is there a repair service that does this rather than full board swap?',
+        "tags": ["logic board", "power surge", "A1990", "south africa"],
     },
     {
         "platform": "ifixit",
         "title": "MacBook Air 2020 liquid damage — keyboard and trackpad dead after water spill",
         "body": "Spilled about 200ml of water on my MacBook Air 2020 (M1, A2337). Immediately switched it off and dried it. Now keyboard and trackpad don't work, but when I use an external keyboard/mouse it boots fine. Display works too. Is this fixable without replacing the whole top case? I've seen prices for top case replacement and it's nearly as expensive as the laptop itself.",
-        "tags": ["liquid damage", "MacBook Air", "A2337", "keyboard", "trackpad"]
+        "tags": ["liquid damage", "MacBook Air", "A2337", "keyboard", "trackpad"],
     },
 ]
 
@@ -224,7 +226,7 @@ def generate_question_draft(persona: dict, question: dict) -> dict:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "status": "draft",
         "answer_status": "pending",
-        "note": "Seeder question — authority account will answer after ~1h delay"
+        "note": "Seeder question — authority account will answer after ~1h delay",
     }
 
     if platform == "reddit":
@@ -262,12 +264,16 @@ def main():
         return 0
 
     active_seeders = [p for p in personas if p.get("role") == "seeder" and p.get("active")]
-    authority = next((p for p in personas if p.get("role") == "authority" and p.get("active")), None)
+    authority = next(
+        (p for p in personas if p.get("role") == "authority" and p.get("active")), None
+    )
 
     log(f"Active seeders: {len(active_seeders)} | Authority: {'YES' if authority else 'NO'}")
 
     if not active_seeders:
-        log("No active seeder personas. Add Gmail/Reddit credentials to personas.json and set active=true")
+        log(
+            "No active seeder personas. Add Gmail/Reddit credentials to personas.json and set active=true"
+        )
         return 0
 
     # Load seen hashes from existing drafts
@@ -301,13 +307,13 @@ def main():
             seen_hashes.add(h)
 
             log(f"  Question: {q['title'][:65]}")
-            draft = generate_question_draft(persona, q)
+            generate_question_draft(persona, q)
             questions_created += 1
             count += 1
 
             # Generate authority answer for this question (pre-staged)
             if authority:
-                log(f"  Generating authority answer...")
+                log("  Generating authority answer...")
                 result = generate_authority_answer_for_question(q)
                 if result:
                     total_cost += result.get("cost_usd", 0)
@@ -328,7 +334,7 @@ def main():
                         "cost_usd": result.get("cost_usd"),
                         "generated_at": datetime.now(timezone.utc).isoformat(),
                         "status": "draft",
-                        "note": f"Authority answer for seeder question. Post AFTER seeder posts question (≥1h delay)."
+                        "note": "Authority answer for seeder question. Post AFTER seeder posts question (≥1h delay).",
                     }
 
                     if q["platform"] == "reddit":
@@ -354,10 +360,10 @@ def main():
     print(f"Questions drafted: {questions_created}")
     print(f"Authority answers staged: {answers_created}")
     print(f"Total API cost: ${total_cost:.4f}")
-    print(f"\nNext steps:")
-    print(f"  1. Seeder accounts post their QUESTIONS manually (or via Playwright when configured)")
-    print(f"  2. Wait ≥1 hour after question posted")
-    print(f"  3. Authority account (reddit_poster.py) posts the staged answers")
+    print("\nNext steps:")
+    print("  1. Seeder accounts post their QUESTIONS manually (or via Playwright when configured)")
+    print("  2. Wait ≥1 hour after question posted")
+    print("  3. Authority account (reddit_poster.py) posts the staged answers")
     print(f"  Drafts: {REDDIT_DRAFT_DIR} | {IFIXIT_DRAFT_DIR}")
     return 0
 

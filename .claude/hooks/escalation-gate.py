@@ -47,7 +47,13 @@ Usage:
   escalation-gate.py --budget                 show spend against ceiling
   escalation-gate.py --self-test
 """
-import argparse, json, os, re, sys, time
+
+import argparse
+import json
+import os
+import re
+import sys
+import time
 from pathlib import Path
 
 ROOT = Path(os.environ.get("CLAUDE_PROJECT_DIR", os.getcwd()))
@@ -61,7 +67,10 @@ MIN_ROUTE_ACCURACY = 0.80
 HIGHER_ORDER = [
     (r"\barchitect|\bdesign the|\brefactor across|\bmigrat(e|ion) strategy", "architectural"),
     (r"\birreversible|\bcannot be undone|\bdrop table|\bdelete production", "irreversible"),
-    (r"\bsecurity (review|model)|\bthreat model|\bauth(entication|orisation) design", "security-critical"),
+    (
+        r"\bsecurity (review|model)|\bthreat model|\bauth(entication|orisation) design",
+        "security-critical",
+    ),
     (r"\bacross (the )?(repo|codebase|services)|\bcross-cutting|\bwhole system", "cross-cutting"),
     (r"\btrade-?off|\bwhich approach|\bcompare (the )?(designs|approaches)", "judgement"),
 ]
@@ -70,10 +79,22 @@ HIGHER_ORDER = [
 # when in doubt the answer is persist, because losing compounded intelligence
 # is expensive and storing something unnecessary is cheap.
 PERSIST_YES = [
-    (r"telemetry|metric|measurement|eval|score|accuracy", "measurement stream, compounds over time"),
-    (r"lesson|learning|ledger|pattern|insight|finding", "compounded intelligence, the whole point is accumulation"),
-    (r"decision|rationale|why we|chose|rejected", "decision record, future sessions cannot reconstruct it"),
-    (r"rule|guardrail|policy|standard|convention", "governs future behaviour, must outlive the session"),
+    (
+        r"telemetry|metric|measurement|eval|score|accuracy",
+        "measurement stream, compounds over time",
+    ),
+    (
+        r"lesson|learning|ledger|pattern|insight|finding",
+        "compounded intelligence, the whole point is accumulation",
+    ),
+    (
+        r"decision|rationale|why we|chose|rejected",
+        "decision record, future sessions cannot reconstruct it",
+    ),
+    (
+        r"rule|guardrail|policy|standard|convention",
+        "governs future behaviour, must outlive the session",
+    ),
     (r"baseline|checkpoint|snapshot|hash|version", "comparison anchor, worthless if not retained"),
     (r"failure|incident|regression|bug found", "failure history prevents repetition"),
 ]
@@ -86,7 +107,7 @@ PERSIST_NO = [
 
 def log_decision(rec):
     DECISIONS.parent.mkdir(parents=True, exist_ok=True)
-    with open(DECISIONS, "a") as f:          # append only, refusals included
+    with open(DECISIONS, "a") as f:  # append only, refusals included
         f.write(json.dumps(rec) + "\n")
 
 
@@ -131,16 +152,30 @@ def classify_order(task):
 def should_persist(item):
     for pat, why in PERSIST_NO:
         if re.search(pat, item, re.I):
-            return {"persist": False, "confidence": "high", "reason": why, "decided_by": "local-rule"}
+            return {
+                "persist": False,
+                "confidence": "high",
+                "reason": why,
+                "decided_by": "local-rule",
+            }
     for pat, why in PERSIST_YES:
         if re.search(pat, item, re.I):
-            return {"persist": True, "confidence": "high", "reason": why, "decided_by": "local-rule",
-                    "requires": ["append-only sink", "launchd watcher", "growth verification"]}
+            return {
+                "persist": True,
+                "confidence": "high",
+                "reason": why,
+                "decided_by": "local-rule",
+                "requires": ["append-only sink", "launchd watcher", "growth verification"],
+            }
     # Conservative default: losing compounded intelligence costs more than
     # storing something that turns out unnecessary.
-    return {"persist": True, "confidence": "low", "reason":
-            "no rule matched; defaulting to persist because loss is more expensive than storage",
-            "decided_by": "conservative-default", "escalation_candidate": True}
+    return {
+        "persist": True,
+        "confidence": "low",
+        "reason": "no rule matched; defaulting to persist because loss is more expensive than storage",
+        "decided_by": "conservative-default",
+        "escalation_candidate": True,
+    }
 
 
 def assess(task, execute=False):
@@ -160,29 +195,40 @@ def assess(task, execute=False):
     acc = route_accuracy(route) if route else None
     if acc is None:
         gates["competence"] = bool(higher)
-        reasons.append("competence: no eval data for this route"
-                       + ("; higher-order task carries it" if higher else "; cannot justify escalation"))
+        reasons.append(
+            "competence: no eval data for this route"
+            + ("; higher-order task carries it" if higher else "; cannot justify escalation")
+        )
     else:
         gates["competence"] = acc < MIN_ROUTE_ACCURACY
-        reasons.append(f"competence: local route {route} scores {acc:.0%} "
-                       f"(threshold {MIN_ROUTE_ACCURACY:.0%})")
+        reasons.append(
+            f"competence: local route {route} scores {acc:.0%} (threshold {MIN_ROUTE_ACCURACY:.0%})"
+        )
 
     spent = spend_this_period()
     gates["budget"] = spent < BUDGET_CEILING
     reasons.append(f"budget: ${spent:.2f} of ${BUDGET_CEILING:.2f} used this period")
 
     gates["credential"] = ENV_FILE.exists()
-    reasons.append(f"credential: {'service env file present' if ENV_FILE.exists() else f'no {ENV_FILE}'}"
-                   " (never read from a shell profile)")
+    reasons.append(
+        f"credential: {'service env file present' if ENV_FILE.exists() else f'no {ENV_FILE}'}"
+        " (never read from a shell profile)"
+    )
 
     gates["consent"] = bool(execute)
     reasons.append("consent: --execute given" if execute else "consent: not given, preparing only")
 
     permitted = all(gates.values())
-    rec = {"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "epoch": now,
-           "task": task[:300], "gates": gates, "permitted": permitted,
-           "action": "ESCALATE" if permitted else "PREPARE-ONLY",
-           "reasons": reasons, "cost_usd": 0.0}
+    rec = {
+        "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "epoch": now,
+        "task": task[:300],
+        "gates": gates,
+        "permitted": permitted,
+        "action": "ESCALATE" if permitted else "PREPARE-ONLY",
+        "reasons": reasons,
+        "cost_usd": 0.0,
+    }
     if not permitted:
         rec["blocked_by"] = [k for k, v in gates.items() if not v]
     log_decision(rec)
@@ -191,7 +237,8 @@ def assess(task, execute=False):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--assess"); ap.add_argument("--should-persist")
+    ap.add_argument("--assess")
+    ap.add_argument("--should-persist")
     ap.add_argument("--execute", action="store_true")
     ap.add_argument("--budget", action="store_true")
     ap.add_argument("--json", action="store_true")
@@ -200,20 +247,29 @@ def main():
 
     if a.self_test:
         import tempfile
+
         n = f = 0
+
         def chk(label, cond):
             nonlocal n, f
             n += 1
             print(f"{'PASS' if cond else 'FAIL'}  {label}")
-            if not cond: f += 1
+            if not cond:
+                f += 1
+
         with tempfile.TemporaryDirectory() as t:
             global ROOT, DECISIONS, EVAL_HIST, ENV_FILE
-            ROOT = Path(t); DECISIONS = ROOT / "esc.ndjson"; EVAL_HIST = ROOT / "eval.ndjson"
+            ROOT = Path(t)
+            DECISIONS = ROOT / "esc.ndjson"
+            EVAL_HIST = ROOT / "eval.ndjson"
             ENV_FILE = ROOT / "absent.env"
 
             # NEGATIVE, the important one: no consent means never escalate
             r = assess("architect the whole system migration strategy")
-            chk("negative/no-consent-blocks", r["action"] == "PREPARE-ONLY" and "consent" in r["blocked_by"])
+            chk(
+                "negative/no-consent-blocks",
+                r["action"] == "PREPARE-ONLY" and "consent" in r["blocked_by"],
+            )
             # NEGATIVE: missing credential blocks even with consent
             r = assess("architect the whole system migration", execute=True)
             chk("negative/no-credential-blocks", "credential" in r.get("blocked_by", []))
@@ -229,7 +285,10 @@ def main():
             r = assess("architect the migration", execute=True)
             chk("negative/budget-ceiling-blocks", "budget" in r.get("blocked_by", []))
             # AUDIT: every decision including refusals is recorded
-            chk("audit/refusals-logged", DECISIONS.exists() and len(open(DECISIONS).readlines()) >= 5)
+            chk(
+                "audit/refusals-logged",
+                DECISIONS.exists() and len(open(DECISIONS).readlines()) >= 5,
+            )
             # PERSISTENCE: compounded intelligence must persist
             p = should_persist("the learning ledger of lessons from this session")
             chk("persist/compounded-intelligence-yes", p["persist"] and p["confidence"] == "high")
@@ -240,8 +299,13 @@ def main():
             p = should_persist("zxqv unmatched thing")
             chk("persist/conservative-default", p["persist"] and p["confidence"] == "low")
             # SAFETY: assessing never performs a call in self-test
-            chk("safety/never-calls-without-all-gates", all(
-                assess("architect x", execute=True)["action"] == "PREPARE-ONLY" for _ in range(2)))
+            chk(
+                "safety/never-calls-without-all-gates",
+                all(
+                    assess("architect x", execute=True)["action"] == "PREPARE-ONLY"
+                    for _ in range(2)
+                ),
+            )
         print(f"\nControls: {n}  Failures: {f}")
         print("RESULT: " + ("BROKEN" if f else "OPERATIONAL"))
         return 1 if f else 0
@@ -249,20 +313,26 @@ def main():
     if a.budget:
         s = spend_this_period()
         print(f"Escalation spend: ${s:.2f} of ${BUDGET_CEILING:.2f} over {BUDGET_PERIOD_DAYS} days")
-        print(f"Decisions recorded: {len(open(DECISIONS).readlines()) if DECISIONS.exists() else 0}")
+        print(
+            f"Decisions recorded: {len(open(DECISIONS).readlines()) if DECISIONS.exists() else 0}"
+        )
         return 0
 
     if a.should_persist:
         r = should_persist(a.should_persist)
-        print(json.dumps(r, indent=2) if a.json else
-              f"persist: {r['persist']} ({r['confidence']} confidence)\n  {r['reason']}"
-              + ("\n  requires: " + ", ".join(r["requires"]) if r.get("requires") else ""))
+        print(
+            json.dumps(r, indent=2)
+            if a.json
+            else f"persist: {r['persist']} ({r['confidence']} confidence)\n  {r['reason']}"
+            + ("\n  requires: " + ", ".join(r["requires"]) if r.get("requires") else "")
+        )
         return 0
 
     if a.assess:
         r = assess(a.assess, a.execute)
         if a.json:
-            print(json.dumps(r, indent=2)); return 0
+            print(json.dumps(r, indent=2))
+            return 0
         print(f"ACTION: {r['action']}\n")
         for x in r["reasons"]:
             print(f"  {x}")
@@ -272,7 +342,8 @@ def main():
         else:
             print("\nAll five gates passed. Escalation permitted.")
         return 0
-    ap.print_help(); return 2
+    ap.print_help()
+    return 2
 
 
 if __name__ == "__main__":

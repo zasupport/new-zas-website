@@ -37,7 +37,13 @@ Usage:
   advisor-eval.py --history          show the recorded runs
   advisor-eval.py --self-test
 """
-import argparse, json, os, subprocess, sys, time
+
+import argparse
+import json
+import os
+import subprocess
+import sys
+import time
 from pathlib import Path
 
 ROOT = Path(os.environ.get("CLAUDE_PROJECT_DIR", os.getcwd()))
@@ -69,7 +75,7 @@ SEED = [
 def ensure_golden():
     EVAL_DIR.mkdir(parents=True, exist_ok=True)
     if not GOLDEN.exists():
-        with open(GOLDEN, "w") as f:                      # created once only
+        with open(GOLDEN, "w") as f:  # created once only
             for q, r in SEED:
                 f.write(json.dumps({"question": q, "expected": r}) + "\n")
     return [json.loads(l) for l in open(GOLDEN) if l.strip()]
@@ -81,7 +87,9 @@ def route(question, router=None):
     try:
         out = subprocess.run(
             [sys.executable, r, "--ask", question, "--json"],
-            capture_output=True, text=True, timeout=60,
+            capture_output=True,
+            text=True,
+            timeout=60,
             env={**os.environ, "OLLAMA_HOST": os.environ.get("OLLAMA_HOST", "http://127.0.0.1:1")},
         )
         d = json.loads(out.stdout or "{}")
@@ -95,13 +103,20 @@ def score(cases, router=None):
     t0 = time.time()
     for c in cases:
         got, how = route(c["question"], router)
-        ok = (got == c["expected"])
+        ok = got == c["expected"]
         correct += ok
         b = by_route.setdefault(c["expected"], {"n": 0, "ok": 0})
         b["n"] += 1
         b["ok"] += ok
-        rows.append({"question": c["question"], "expected": c["expected"],
-                     "got": got, "routed_by": how, "correct": ok})
+        rows.append(
+            {
+                "question": c["question"],
+                "expected": c["expected"],
+                "got": got,
+                "routed_by": how,
+                "correct": ok,
+            }
+        )
     n = len(cases)
     return {
         "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
@@ -118,7 +133,7 @@ def append_history(rec, tag):
     HISTORY.parent.mkdir(parents=True, exist_ok=True)
     entry = {k: v for k, v in rec.items() if k != "rows"}
     entry["tag"] = tag
-    with open(HISTORY, "a") as f:                          # append only, never "w"
+    with open(HISTORY, "a") as f:  # append only, never "w"
         f.write(json.dumps(entry) + "\n")
 
 
@@ -149,18 +164,23 @@ def main():
 
     if a.self_test:
         import tempfile
+
         n = f = 0
+
         def chk(label, cond):
             nonlocal n, f
             n += 1
             print(f"{'PASS' if cond else 'FAIL'}  {label}")
-            if not cond: f += 1
+            if not cond:
+                f += 1
 
         with tempfile.TemporaryDirectory() as t:
             os.environ["CLAUDE_PROJECT_DIR"] = t
             global ROOT, EVAL_DIR, GOLDEN, HISTORY
-            ROOT = Path(t); EVAL_DIR = ROOT / ".claude" / "eval"
-            GOLDEN = EVAL_DIR / "golden-set.jsonl"; HISTORY = ROOT / ".claude" / "eval-history.ndjson"
+            ROOT = Path(t)
+            EVAL_DIR = ROOT / ".claude" / "eval"
+            GOLDEN = EVAL_DIR / "golden-set.jsonl"
+            HISTORY = ROOT / ".claude" / "eval-history.ndjson"
 
             cases = ensure_golden()
             chk("setup/golden-set-created", len(cases) == len(SEED))
@@ -173,8 +193,8 @@ def main():
             # If the harness cannot detect a broken router it measures nothing.
             broken = Path(t) / "broken-router.py"
             broken.write_text(
-                "import sys,json\n"
-                "print(json.dumps({'advisor':'commit','routed_by':'broken'}))\n")
+                "import sys,json\nprint(json.dumps({'advisor':'commit','routed_by':'broken'}))\n"
+            )
             bad = score(cases, router=str(broken))
             chk("falsification/detects-broken-router", bad["accuracy"] < rec["accuracy"])
             chk("falsification/broken-scores-near-zero", bad["accuracy"] <= 0.2)
@@ -203,18 +223,21 @@ def main():
 
     if a.add:
         EVAL_DIR.mkdir(parents=True, exist_ok=True)
-        with open(GOLDEN, "a") as fh:                      # append, never rewrite
+        with open(GOLDEN, "a") as fh:  # append, never rewrite
             fh.write(json.dumps({"question": a.add[0], "expected": a.add[1]}) + "\n")
         print(f"appended to golden set: {a.add[1]} <- {a.add[0]}")
         return 0
 
     if a.history:
         if not HISTORY.exists():
-            print("no eval history yet"); return 0
+            print("no eval history yet")
+            return 0
         for l in open(HISTORY):
             d = json.loads(l)
-            print(f"  {d['ts']}  {d.get('tag',''):<9} accuracy {d['accuracy']:.1%}  "
-                  f"({d['correct']}/{d['cases']})  {d['duration_ms']}ms")
+            print(
+                f"  {d['ts']}  {d.get('tag', ''):<9} accuracy {d['accuracy']:.1%}  "
+                f"({d['correct']}/{d['cases']})  {d['duration_ms']}ms"
+            )
         return 0
 
     cases = ensure_golden()
@@ -230,16 +253,20 @@ def main():
         if wrong:
             print("\nMisrouted:")
             for w in wrong:
-                print(f"  expected {w['expected']:<13} got {str(w['got']):<13} {w['question'][:52]}")
+                print(
+                    f"  expected {w['expected']:<13} got {str(w['got']):<13} {w['question'][:52]}"
+                )
             print("\nAdd each real misroute to the golden set so it is measured from now on:")
-            print(f"  python3 {sys.argv[0]} --add \"<question>\" <route>")
+            print(f'  python3 {sys.argv[0]} --add "<question>" <route>')
 
     if a.baseline:
-        append_history(rec, "baseline"); print("\nrecorded as baseline")
+        append_history(rec, "baseline")
+        print("\nrecorded as baseline")
     elif a.compare:
         b = load_baseline()
         if not b:
-            append_history(rec, "baseline"); print("\nno baseline existed; this run recorded as baseline")
+            append_history(rec, "baseline")
+            print("\nno baseline existed; this run recorded as baseline")
         else:
             d = rec["accuracy"] - b["accuracy"]
             append_history(rec, "compare")

@@ -6,8 +6,6 @@ No API calls. Pure templating. $0.00.
 Run by overnight batch or standalone: python3 scripts/auto-suburb-pages.py
 """
 
-import os
-import json
 import subprocess
 import sys
 from pathlib import Path
@@ -85,13 +83,14 @@ SUBURBS = {
 
 # ── Service type templates ────────────────────────────────────────────────────
 
+
 def logic_board_page(slug: str, s: dict) -> str:
     label = s["label"]
     drive = s["drive_mins"]
     km = s["distance_km"]
     collection = s["collection_note"]
     area_note = s["area_note"]
-    return f'''import type {{ Metadata }} from 'next';
+    return f"""import type {{ Metadata }} from 'next';
 import Link from 'next/link';
 import {{ Phone, CheckCircle, ArrowRight, MapPin, Cpu }} from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -284,7 +283,7 @@ export default function LogicBoardRepair{label.replace(" ", "")}Page() {{
     </>
   );
 }}
-'''
+"""
 
 
 def battery_page(slug: str, s: dict) -> str:
@@ -293,7 +292,7 @@ def battery_page(slug: str, s: dict) -> str:
     km = s["distance_km"]
     collection = s["collection_note"]
     area_note = s["area_note"]
-    return f'''import type {{ Metadata }} from 'next';
+    return f"""import type {{ Metadata }} from 'next';
 import Link from 'next/link';
 import {{ Phone, CheckCircle, ArrowRight, MapPin, Battery }} from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -464,16 +463,16 @@ export default function BatteryReplacement{label.replace(" ", "")}Page() {{
     </>
   );
 }}
-'''
+"""
 
 
 def liquid_damage_page(slug: str, s: dict) -> str:
     label = s["label"]
     drive = s["drive_mins"]
-    km = s["distance_km"]
+    s["distance_km"]
     collection = s["collection_note"]
-    area_note = s["area_note"]
-    return f'''import type {{ Metadata }} from 'next';
+    s["area_note"]
+    return f"""import type {{ Metadata }} from 'next';
 import Link from 'next/link';
 import {{ Phone, CheckCircle, ArrowRight, MapPin, AlertTriangle }} from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -643,7 +642,7 @@ export default function LiquidDamage{label.replace(" ", "")}Page() {{
     </>
   );
 }}
-'''
+"""
 
 
 def iphone_screen_page(slug: str, s: dict) -> str:
@@ -652,7 +651,7 @@ def iphone_screen_page(slug: str, s: dict) -> str:
     km = s["distance_km"]
     collection = s["collection_note"]
     area_note = s["area_note"]
-    return f'''import type {{ Metadata }} from 'next';
+    return f"""import type {{ Metadata }} from 'next';
 import Link from 'next/link';
 import {{ Phone, CheckCircle, ArrowRight, MapPin }} from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
@@ -825,7 +824,7 @@ export default function IPhoneScreenRepair{label.replace(" ", "")}Page() {{
     </>
   );
 }}
-'''
+"""
 
 
 # ── Sitemap entries ────────────────────────────────────────────────────────────

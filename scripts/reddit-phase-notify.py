@@ -14,10 +14,11 @@ import urllib.request
 import urllib.error
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-TO_EMAIL    = "courtney@zasupport.com"
-FROM_EMAIL  = "ZA Support <hello@zasupport.com>"
-STATE_FILE  = os.path.expanduser("~/.za-reddit-phase-notify-sent.json")
-ENV_FILE    = os.path.expanduser("~/.za-keys-pending.env")
+TO_EMAIL = "courtney@zasupport.com"
+FROM_EMAIL = "ZA Support <hello@zasupport.com>"
+STATE_FILE = os.path.expanduser("~/.za-reddit-phase-notify-sent.json")
+ENV_FILE = os.path.expanduser("~/.za-keys-pending.env")
+
 
 # ── LOAD ENV ──────────────────────────────────────────────────────────────────
 def load_env():
@@ -29,13 +30,13 @@ def load_env():
                     k, v = line.split("=", 1)
                     os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
+
 load_env()
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 
 # ── TRIGGER DEFINITIONS ───────────────────────────────────────────────────────
 # Date format: DD/MM/YYYY
 TRIGGERS = [
-
     # ── ACCOUNT CREATION REMINDERS ───────────────────────────────────────────
     {
         "id": "create_elise",
@@ -47,7 +48,7 @@ TRIGGERS = [
             "Use: home LAPTOP on home Wi-Fi (different device from yesterday's iPhone)",
             "Open private/incognito browser window",
             "Go to reddit.com/register",
-            "Email: elisemills007@gmail.com | Password: !Hydrogen234!",
+            "Email: <account email — held locally, not committed> | Password: <held locally, not committed>",
             "Suggested username: EliseMills007 (or EliseMSA if taken)",
             "Verify email via Gmail (same password)",
             "Set display name: Elise Mills",
@@ -56,7 +57,7 @@ TRIGGERS = [
             "Go to r/southafrica — upvote 3 posts",
             "Go to r/apple — upvote 2 posts",
             "Close incognito window when done",
-            "Report back: username chosen + confirm password !Hydrogen234!",
+            "Report back: username chosen + confirm the account password",
         ],
         "next": "Tomorrow (26 Mar): Create Adam Levitt on a different device + network",
     },
@@ -71,7 +72,7 @@ TRIGGERS = [
             "Use: DIFFERENT Wi-Fi network (coffee shop, office, or different mobile data SIM)",
             "Open private/incognito browser window",
             "Go to reddit.com/register",
-            "Email: adamlevitt0091@gmail.com | Password: peqqo2-sypquc-rarDob",
+            "Email: <account email — held locally, not committed> | Password: <held locally, not committed>",
             "Suggested username: AdamLevitt0091 (or ALevitt91 if taken)",
             "Verify email via Gmail",
             "Set display name: Adam Levitt",
@@ -94,7 +95,7 @@ TRIGGERS = [
             "Use: 4th unique network — different mobile data or location",
             "Open private/incognito browser window",
             "Go to reddit.com/register",
-            "Email: dovischaffer19@gmail.com | Password: jacpok-2dotmi-kIkvid",
+            "Email: <account email — held locally, not committed> | Password: <held locally, not committed>",
             "Suggested username: DoviSchaffer19 (or DSchaffer19 if taken)",
             "Verify email via Gmail",
             "Set display name: Dovi Schaffer",
@@ -107,7 +108,6 @@ TRIGGERS = [
         ],
         "next": "All 4 accounts created. Phase 1 (passive) runs until 7 April. No action required until then.",
     },
-
     # ── PHASE 2 — FIRST COMMENTS (Day 15) ────────────────────────────────────
     {
         "id": "p2_nico",
@@ -174,7 +174,6 @@ TRIGGERS = [
         ],
         "next": "All 4 accounts in Phase 2. Next milestone: Phase 3 starts 23 April (Nico).",
     },
-
     # ── PHASE 3 — FIRST QUESTIONS (Day 31) ───────────────────────────────────
     {
         "id": "p3_nico",
@@ -239,7 +238,6 @@ TRIGGERS = [
         ],
         "next": "Phase 4 activations: Nico 23 May | Elise 24 May | Adam 25 May | Dovi 26 May",
     },
-
     # ── 2-WEEK WARNING BEFORE PHASE 4 ────────────────────────────────────────
     {
         "id": "p4_warning",
@@ -262,7 +260,6 @@ TRIGGERS = [
         ],
         "next": "Phase 4 activation: Nico 23 May",
     },
-
     # ── PHASE 4 — SEEDING ACTIVE (Day 61) ────────────────────────────────────
     {
         "id": "p4_nico",
@@ -328,6 +325,7 @@ TRIGGERS = [
     },
 ]
 
+
 # ── STATE FILE ────────────────────────────────────────────────────────────────
 def load_state():
     if os.path.exists(STATE_FILE):
@@ -335,9 +333,11 @@ def load_state():
             return json.load(f)
     return {"sent": []}
 
+
 def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+
 
 # ── EMAIL ─────────────────────────────────────────────────────────────────────
 def send_email(subject, html_body):
@@ -345,12 +345,14 @@ def send_email(subject, html_body):
         print("ERROR: RESEND_API_KEY not set — cannot send email")
         return False
 
-    payload = json.dumps({
-        "from": FROM_EMAIL,
-        "to": [TO_EMAIL],
-        "subject": subject,
-        "html": html_body,
-    }).encode("utf-8")
+    payload = json.dumps(
+        {
+            "from": FROM_EMAIL,
+            "to": [TO_EMAIL],
+            "subject": subject,
+            "html": html_body,
+        }
+    ).encode("utf-8")
 
     req = urllib.request.Request(
         "https://api.resend.com/emails",
@@ -381,6 +383,7 @@ def send_email(subject, html_body):
         print(f"Unexpected error sending email: {e}")
         return False
 
+
 def build_html(trigger, today_str):
     phase_colour = {
         "Account Creation": "#1B6B4A",
@@ -394,9 +397,7 @@ def build_html(trigger, today_str):
             colour = v
             break
 
-    actions_html = "".join(
-        f'<li style="margin-bottom:6px">{a}</li>' for a in trigger["actions"]
-    )
+    actions_html = "".join(f'<li style="margin-bottom:6px">{a}</li>' for a in trigger["actions"])
 
     return f"""
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto">
@@ -429,6 +430,7 @@ def build_html(trigger, today_str):
       </div>
     </div>
     """
+
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 def main():
@@ -465,6 +467,7 @@ def main():
             errors += 1
 
     return 1 if errors else 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

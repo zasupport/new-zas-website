@@ -10,12 +10,23 @@ Offline-first: MATH and LOCAL tiers need no network. DOC claims are attempted
 and marked UNREACHABLE rather than assumed when the network is unavailable,
 because assuming a pass is exactly the failure this harness exists to prevent.
 """
-import argparse, json, math, os, random, subprocess, sys, time, zlib, hashlib, statistics
+
+import argparse
+import json
+import math
+import os
+import random
+import subprocess
+import sys
+import time
+import zlib
+import statistics
 from collections import Counter
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 PROJ = Path(os.environ.get("CLAUDE_PROJECT_DIR", os.getcwd()))
+
 
 def _find(name, default_dir):
     """The installer places the ledger in .claude/ while this script lives in
@@ -25,6 +36,7 @@ def _find(name, default_dir):
         if c.exists():
             return c
     return default_dir / name
+
 
 LEDGER = _find("claims-ledger.json", HERE)
 RESULTS = (HERE.parent if HERE.name == "hooks" else HERE) / "verification-results.ndjson"
@@ -45,8 +57,10 @@ def compression_ratio(seg: bytes) -> float:
 
 def js_divergence(p, q) -> float:
     m = [(a + b) / 2 for a, b in zip(p, q)]
+
     def kl(x, y):
         return sum(a * math.log2(a / b) for a, b in zip(x, y) if a > 0)
+
     return 0.5 * kl(p, m) + 0.5 * kl(q, m)
 
 
@@ -55,17 +69,22 @@ def math_checks():
     r = {}
     r["C001"] = abs(1 / 0.6745 - 1.4826) < 0.001
     r["C002"] = abs(0.6745 * 1.4826 - 1.0) < 0.001
-    r["C003"] = (3.5 == 3.5)
-    r["C004"] = ([0.1, 0.25] == [0.1, 0.25])
+    r["C003"] = 3.5 == 3.5
+    r["C004"] = [0.1, 0.25] == [0.1, 0.25]
     # JS bounded in [0,1] over many random distributions
     ok = True
     for _ in range(200):
         k = random.randint(2, 8)
-        p = [random.random() for _ in range(k)]; s = sum(p); p = [x / s for x in p]
-        q = [random.random() for _ in range(k)]; s = sum(q); q = [x / s for x in q]
+        p = [random.random() for _ in range(k)]
+        s = sum(p)
+        p = [x / s for x in p]
+        q = [random.random() for _ in range(k)]
+        s = sum(q)
+        q = [x / s for x in q]
         d = js_divergence(p, q)
         if not (-1e-9 <= d <= 1 + 1e-9):
-            ok = False; break
+            ok = False
+            break
     r["C005"] = ok
     # JS finite where KL is infinite: q has a zero bin that p does not
     p, q = [0.5, 0.5], [1.0, 0.0]
@@ -86,18 +105,20 @@ def math_checks():
             k += 1
         xs.append(k)
     r["C008"] = abs(statistics.mean(xs) - statistics.pvariance(xs)) < 0.25
-    r["C009"] = (1.36 == 1.36)
+    r["C009"] = 1.36 == 1.36
     # Repeated content must compress far smaller than varied content
-    rep = (b'{"hook":"lint","verdict":"pass"}\n' * 500)
-    var = b"".join(json.dumps({"hook": "lint", "v": i, "r": random.random()}).encode() + b"\n"
-                   for i in range(500))
+    rep = b'{"hook":"lint","verdict":"pass"}\n' * 500
+    var = b"".join(
+        json.dumps({"hook": "lint", "v": i, "r": random.random()}).encode() + b"\n"
+        for i in range(500)
+    )
     r["C010"] = compression_ratio(rep) < compression_ratio(var) / 2
     # The entropy trap: random noise scores HIGHER entropy than repeated content
     noise = bytes(random.getrandbits(8) for _ in range(4000))
     r["C011"] = entropy_bits(noise) > entropy_bits(rep)
-    r["C012"] = (3 == 3 and 64 == 64)
-    r["C013"] = (0.9 == 0.9 and 128 == 128)
-    r["C014"] = (0.05 <= 0.2 <= 0.25)
+    r["C012"] = 3 == 3 and 64 == 64
+    r["C013"] = 0.9 == 0.9 and 128 == 128
+    r["C014"] = 0.05 <= 0.2 <= 0.25
     return r
 
 
@@ -110,8 +131,11 @@ def local_checks(target: Path):
     py = sorted(hooks.glob("*.py")) if hooks.exists() else []
 
     # C020 enforcement hooks use exit 2, never exit 1
-    enforcing = [p for p in sh if p.name in
-                 ("lint-v2.sh", "secrets.sh", "test-gate.sh", "guard-new-automation.sh")]
+    enforcing = [
+        p
+        for p in sh
+        if p.name in ("lint-v2.sh", "secrets.sh", "test-gate.sh", "guard-new-automation.sh")
+    ]
     ok = bool(enforcing)
     for p in enforcing:
         t = p.read_text(errors="replace")
@@ -126,11 +150,15 @@ def local_checks(target: Path):
         if subprocess.run(["bash", "-n", str(p)], capture_output=True).returncode != 0:
             bad.append(p.name)
     for p in py:
-        if subprocess.run([sys.executable, "-m", "py_compile", str(p)],
-                          capture_output=True).returncode != 0:
+        if (
+            subprocess.run(
+                [sys.executable, "-m", "py_compile", str(p)], capture_output=True
+            ).returncode
+            != 0
+        ):
             bad.append(p.name)
     r["C021"] = bool(sh or py) and not bad
-    detail["C021"] = f"{len(sh)+len(py)} files, failures: {bad or 'none'}"
+    detail["C021"] = f"{len(sh) + len(py)} files, failures: {bad or 'none'}"
 
     # C022 control suites
     suites, passed = [], 0
@@ -139,7 +167,11 @@ def local_checks(target: Path):
         if "--self-test" not in t:
             continue
         suites.append(p.name)
-        cmd = ["bash", str(p), "--self-test"] if p.suffix == ".sh" else [sys.executable, str(p), "--self-test"]
+        cmd = (
+            ["bash", str(p), "--self-test"]
+            if p.suffix == ".sh"
+            else [sys.executable, str(p), "--self-test"]
+        )
         env = {**os.environ, "CLAUDE_PROJECT_DIR": str(target)}
         try:
             out = subprocess.run(cmd, capture_output=True, text=True, timeout=200, env=env)
@@ -156,16 +188,21 @@ def local_checks(target: Path):
         except Exception:
             pass
     r["C022"] = bool(suites) and passed == len(suites)
-    detail["C022"] = (f"{passed}/{len(suites)} suites passed"
-                      + (f", failing: {detail.pop('_c022_failures')}" if "_c022_failures" in detail else ""))
+    detail["C022"] = f"{passed}/{len(suites)} suites passed" + (
+        f", failing: {detail.pop('_c022_failures')}" if "_c022_failures" in detail else ""
+    )
 
     # C023 negative control: a planted fault must exit 2
     lint = hooks / "lint-v2.sh"
     fx = target / ".claude" / "fixtures" / "bad.py"
     if lint.exists() and fx.exists():
-        out = subprocess.run(["bash", str(lint)], input=json.dumps(
-            {"tool_input": {"file_path": str(fx)}}), capture_output=True, text=True,
-            env={**os.environ, "CLAUDE_PROJECT_DIR": str(target)})
+        out = subprocess.run(
+            ["bash", str(lint)],
+            input=json.dumps({"tool_input": {"file_path": str(fx)}}),
+            capture_output=True,
+            text=True,
+            env={**os.environ, "CLAUDE_PROJECT_DIR": str(target)},
+        )
         r["C023"] = out.returncode == 2
         detail["C023"] = f"planted fault exit={out.returncode} (2 required)"
     else:
@@ -173,8 +210,10 @@ def local_checks(target: Path):
         detail["C023"] = "lint hook or negative fixture absent"
 
     # C024 append-only: accumulating files non-decreasing across a re-check
-    acc = [target / ".claude" / n for n in
-           ("telemetry.ndjson", "validation.log", "learning-ledger.md", "eval-history.ndjson")]
+    acc = [
+        target / ".claude" / n
+        for n in ("telemetry.ndjson", "validation.log", "learning-ledger.md", "eval-history.ndjson")
+    ]
     present = [p for p in acc if p.exists()]
     before = {p: p.stat().st_size for p in present}
     time.sleep(0.05)
@@ -183,7 +222,9 @@ def local_checks(target: Path):
 
     # C025 toolchain
     try:
-        import numpy, sklearn
+        import numpy
+        import sklearn
+
         r["C025"] = True
         detail["C025"] = f"numpy {numpy.__version__}, sklearn {sklearn.__version__}"
     except ImportError as e:
@@ -197,19 +238,25 @@ def local_checks(target: Path):
     src = Path(os.environ.get("ZAS_SOURCE_BUNDLE", ""))
     vd = hooks / "verify-delivery.sh"
     if vd.exists() and src.exists() and (src / ".deliveryignore").exists():
-        out = subprocess.run(["bash", str(vd), str(src)], capture_output=True, text=True, timeout=180)
+        out = subprocess.run(
+            ["bash", str(vd), str(src)], capture_output=True, text=True, timeout=180
+        )
         r["C026"] = "PASS  reference closure" in out.stdout
         detail["C026"] = f"gate run against source bundle {src.name}"
     else:
         r["C026"] = None
-        detail["C026"] = ("no source bundle given (set ZAS_SOURCE_BUNDLE); "
-                          "reference closure is a source-bundle property, not an install property")
+        detail["C026"] = (
+            "no source bundle given (set ZAS_SOURCE_BUNDLE); "
+            "reference closure is a source-bundle property, not an install property"
+        )
     return r, detail
 
 
 # -------------------------------------------------------------- DOC checks
 def doc_checks(claims, timeout=20, offline=False):
-    import urllib.request, urllib.error
+    import urllib.request
+    import urllib.error
+
     r, detail = {}, {}
     for c in claims:
         if c["tier"] != "DOC":
@@ -227,7 +274,7 @@ def doc_checks(claims, timeout=20, offline=False):
             r[cid] = len(hits) == len(c.get("match", []))
             detail[cid] = f"matched {len(hits)}/{len(c.get('match', []))} tokens"
         except Exception as e:
-            r[cid] = None                       # UNREACHABLE, never assumed PASS
+            r[cid] = None  # UNREACHABLE, never assumed PASS
             detail[cid] = f"unreachable: {type(e).__name__}"
     return r, detail
 
@@ -243,11 +290,14 @@ def main():
 
     if a.self_test:
         n = f = 0
+
         def chk(l, c):
             nonlocal n, f
             n += 1
             print(f"{'PASS' if c else 'FAIL'}  {l}")
-            if not c: f += 1
+            if not c:
+                f += 1
+
         m = math_checks()
         chk("math/all-math-claims-hold", all(m.values()))
         chk("math/entropy-trap-demonstrated", m["C011"])
@@ -255,7 +305,9 @@ def main():
         # FALSIFICATION: a deliberately wrong constant must fail
         chk("falsification/wrong-constant-fails", not (abs(1 / 0.6745 - 9.9999) < 0.001))
         # DOC unreachable must be None, never True
-        d, _ = doc_checks([{"id": "X", "tier": "DOC", "url": "http://127.0.0.1:1/nope", "match": ["x"]}])
+        d, _ = doc_checks(
+            [{"id": "X", "tier": "DOC", "url": "http://127.0.0.1:1/nope", "match": ["x"]}]
+        )
         chk("honesty/unreachable-is-not-pass", d["X"] is None)
         # INTERPRETIVE claims must never be counted verified
         led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {"claims": []}
@@ -286,8 +338,15 @@ def main():
             st = "UNREACHABLE" if v is None else ("PASS" if v else "FAIL")
         else:
             st = "NOT-MECHANICALLY-VERIFIABLE"
-        rows.append({"id": cid, "tier": tier, "status": st, "claim": c["claim"][:110],
-                     "detail": ldet.get(cid) or ddet.get(cid, "")})
+        rows.append(
+            {
+                "id": cid,
+                "tier": tier,
+                "status": st,
+                "claim": c["claim"][:110],
+                "detail": ldet.get(cid) or ddet.get(cid, ""),
+            }
+        )
 
     ex = [r for r in rows if r["tier"] in ("MATH", "LOCAL", "DOC")]
     passed = sum(1 for r in ex if r["status"] == "PASS")
@@ -297,23 +356,33 @@ def main():
     attempted = passed + failed
     rate = (passed / attempted) if attempted else 0.0
 
-    report = {"ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-              "target": str(target),
-              "executable_claims": len(ex), "passed": passed, "failed": failed,
-              "unreachable": unreach, "interpretive_excluded": interp,
-              "confidence_rate_of_attempted": round(rate, 4),
-              "rows": rows}
+    report = {
+        "ts": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "target": str(target),
+        "executable_claims": len(ex),
+        "passed": passed,
+        "failed": failed,
+        "unreachable": unreach,
+        "interpretive_excluded": interp,
+        "confidence_rate_of_attempted": round(rate, 4),
+        "rows": rows,
+    }
     RESULTS.parent.mkdir(parents=True, exist_ok=True)
-    with open(RESULTS, "a") as fh:                       # append only
+    with open(RESULTS, "a") as fh:  # append only
         fh.write(json.dumps({k: v for k, v in report.items() if k != "rows"}) + "\n")
 
     if a.json:
-        print(json.dumps(report, indent=2)); return 0 if failed == 0 else 1
+        print(json.dumps(report, indent=2))
+        return 0 if failed == 0 else 1
 
     print("CLAIM VERIFICATION\n")
     for r in rows:
-        mark = {"PASS": "  ok  ", "FAIL": " FAIL ", "UNREACHABLE": " unrch",
-                "NOT-MECHANICALLY-VERIFIABLE": " interp"}[r["status"]]
+        mark = {
+            "PASS": "  ok  ",
+            "FAIL": " FAIL ",
+            "UNREACHABLE": " unrch",
+            "NOT-MECHANICALLY-VERIFIABLE": " interp",
+        }[r["status"]]
         print(f"{mark} {r['id']} [{r['tier']:<12}] {r['claim']}")
         if r["detail"]:
             print(f"          {r['detail']}")

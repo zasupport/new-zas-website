@@ -27,13 +27,13 @@ Emits machine-readable findings.json plus a human digest. Findings carry a
 confidence and the evidence that produced them, so nothing is asserted
 without a traceable source.
 """
+
 import argparse
 import collections
 import hashlib
 import json
 import math
 import os
-import re
 import sys
 import time
 from pathlib import Path
@@ -90,12 +90,14 @@ def load_corpus(roots):
         total_bytes += len(raw)
         txt = raw.decode("utf-8", errors="replace")
         docs.append(txt)
-        meta.append({
-            "path": str(p),
-            "bytes": len(raw),
-            "sha256": hashlib.sha256(raw).hexdigest()[:16],
-            "mtime": p.stat().st_mtime if p.exists() else 0,
-        })
+        meta.append(
+            {
+                "path": str(p),
+                "bytes": len(raw),
+                "sha256": hashlib.sha256(raw).hexdigest()[:16],
+                "mtime": p.stat().st_mtime if p.exists() else 0,
+            }
+        )
     return docs, meta, total_bytes
 
 
@@ -105,7 +107,12 @@ def tier0(docs, meta):
     findings = []
 
     # Telemetry verdicts across every NDJSON record found anywhere
-    verdicts, durations, modes, hooks = collections.Counter(), collections.defaultdict(list), collections.Counter(), collections.Counter()
+    verdicts, durations, modes, hooks = (
+        collections.Counter(),
+        collections.defaultdict(list),
+        collections.Counter(),
+        collections.Counter(),
+    )
     for d in docs:
         for line in d.splitlines():
             line = line.strip()
@@ -126,13 +133,19 @@ def tier0(docs, meta):
     if total:
         fails = verdicts.get("fail", 0) + verdicts.get("block", 0)
         rate = fails / total
-        findings.append({
-            "id": "T0-GATE-RATE", "tier": "T0", "kind": "rate",
-            "finding": f"Gate intervention rate {rate:.1%} across {total} recorded hook runs",
-            "evidence": dict(verdicts), "confidence": "high",
-            "action": "A rate above 30% suggests the model is repeatedly hitting the same rule; promote it to a guardrail."
-                      if rate > 0.30 else "Within normal range."
-        })
+        findings.append(
+            {
+                "id": "T0-GATE-RATE",
+                "tier": "T0",
+                "kind": "rate",
+                "finding": f"Gate intervention rate {rate:.1%} across {total} recorded hook runs",
+                "evidence": dict(verdicts),
+                "confidence": "high",
+                "action": "A rate above 30% suggests the model is repeatedly hitting the same rule; promote it to a guardrail."
+                if rate > 0.30
+                else "Within normal range.",
+            }
+        )
         # Latency outliers per hook: mean plus two standard deviations
         for h, ds in durations.items():
             if len(ds) < 3:
@@ -141,20 +154,33 @@ def tier0(docs, meta):
             sd = math.sqrt(sum((x - mean) ** 2 for x in ds) / len(ds))
             out = [x for x in ds if x > mean + 2 * sd]
             if out:
-                findings.append({
-                    "id": f"T0-LATENCY-{h}", "tier": "T0", "kind": "anomaly",
-                    "finding": f"{h}: {len(out)} run(s) beyond mean+2sd (mean {mean:.0f}ms, max {max(ds)}ms)",
-                    "evidence": {"mean_ms": round(mean, 1), "sd_ms": round(sd, 1), "outliers_ms": out[:5]},
-                    "confidence": "high",
-                    "action": "Check for cold-start costs such as first-run environment capture before blaming the tool."
-                })
+                findings.append(
+                    {
+                        "id": f"T0-LATENCY-{h}",
+                        "tier": "T0",
+                        "kind": "anomaly",
+                        "finding": f"{h}: {len(out)} run(s) beyond mean+2sd (mean {mean:.0f}ms, max {max(ds)}ms)",
+                        "evidence": {
+                            "mean_ms": round(mean, 1),
+                            "sd_ms": round(sd, 1),
+                            "outliers_ms": out[:5],
+                        },
+                        "confidence": "high",
+                        "action": "Check for cold-start costs such as first-run environment capture before blaming the tool.",
+                    }
+                )
         if modes.get("bypassPermissions"):
-            findings.append({
-                "id": "T0-GUARDRAIL-BREACH", "tier": "T0", "kind": "breach",
-                "finding": f"bypassPermissions observed {modes['bypassPermissions']} time(s). GR-003 requires zero.",
-                "evidence": dict(modes), "confidence": "high",
-                "action": "Set permissions.disableBypassPermissionsMode to disable."
-            })
+            findings.append(
+                {
+                    "id": "T0-GUARDRAIL-BREACH",
+                    "tier": "T0",
+                    "kind": "breach",
+                    "finding": f"bypassPermissions observed {modes['bypassPermissions']} time(s). GR-003 requires zero.",
+                    "evidence": dict(modes),
+                    "confidence": "high",
+                    "action": "Set permissions.disableBypassPermissionsMode to disable.",
+                }
+            )
 
     # Cross-file correlation: rules that exist but never appear in telemetry
     rule_names = set()
@@ -164,19 +190,29 @@ def tier0(docs, meta):
     corpus_blob = "\n".join(docs)
     dormant = [r for r in rule_names if corpus_blob.count(r) <= 1]
     if dormant:
-        findings.append({
-            "id": "T0-DORMANT-RULES", "tier": "T0", "kind": "cross-dataset",
-            "finding": f"{len(dormant)} rule file(s) never referenced outside their own definition",
-            "evidence": {"dormant": sorted(dormant)[:10]}, "confidence": "medium",
-            "action": "A rule that never fires is either unnecessary or not being loaded. Check its paths frontmatter."
-        })
+        findings.append(
+            {
+                "id": "T0-DORMANT-RULES",
+                "tier": "T0",
+                "kind": "cross-dataset",
+                "finding": f"{len(dormant)} rule file(s) never referenced outside their own definition",
+                "evidence": {"dormant": sorted(dormant)[:10]},
+                "confidence": "medium",
+                "action": "A rule that never fires is either unnecessary or not being loaded. Check its paths frontmatter.",
+            }
+        )
 
-    findings.append({
-        "id": "T0-CORPUS", "tier": "T0", "kind": "inventory",
-        "finding": f"{len(docs)} artefacts scanned, {sum(m['bytes'] for m in meta):,} bytes",
-        "evidence": {"files": len(docs), "hooks_seen": dict(hooks)}, "confidence": "high",
-        "action": "Baseline for drift comparison on the next run."
-    })
+    findings.append(
+        {
+            "id": "T0-CORPUS",
+            "tier": "T0",
+            "kind": "inventory",
+            "finding": f"{len(docs)} artefacts scanned, {sum(m['bytes'] for m in meta):,} bytes",
+            "evidence": {"files": len(docs), "hooks_seen": dict(hooks)},
+            "confidence": "high",
+            "action": "Baseline for drift comparison on the next run.",
+        }
+    )
     return findings
 
 
@@ -191,19 +227,38 @@ def tier1(docs, meta):
         from sklearn.decomposition import NMF
     except ImportError as e:
         log(f"ADVISORY T1 unavailable ({e}); degrading to T0 only")
-        return [{"id": "T1-SKIPPED", "tier": "T1", "kind": "advisory",
-                 "finding": "scikit-learn absent, classical ML tier skipped",
-                 "evidence": {}, "confidence": "high",
-                 "action": "pip install scikit-learn --break-system-packages"}]
+        return [
+            {
+                "id": "T1-SKIPPED",
+                "tier": "T1",
+                "kind": "advisory",
+                "finding": "scikit-learn absent, classical ML tier skipped",
+                "evidence": {},
+                "confidence": "high",
+                "action": "pip install scikit-learn --break-system-packages",
+            }
+        ]
 
     findings = []
     if len(docs) < 4:
-        return [{"id": "T1-INSUFFICIENT", "tier": "T1", "kind": "advisory",
-                 "finding": f"only {len(docs)} artefacts, below the 4 needed for clustering",
-                 "evidence": {}, "confidence": "high", "action": "Run again once more data has accumulated."}]
+        return [
+            {
+                "id": "T1-INSUFFICIENT",
+                "tier": "T1",
+                "kind": "advisory",
+                "finding": f"only {len(docs)} artefacts, below the 4 needed for clustering",
+                "evidence": {},
+                "confidence": "high",
+                "action": "Run again once more data has accumulated.",
+            }
+        ]
 
-    vec = TfidfVectorizer(max_features=2000, stop_words="english",
-                          token_pattern=r"[A-Za-z_][A-Za-z0-9_\-]{2,}", min_df=1)
+    vec = TfidfVectorizer(
+        max_features=2000,
+        stop_words="english",
+        token_pattern=r"[A-Za-z_][A-Za-z0-9_\-]{2,}",
+        min_df=1,
+    )
     X = vec.fit_transform(docs)
 
     # DBSCAN on cosine distance: which artefacts are near-duplicates
@@ -215,13 +270,17 @@ def tier1(docs, meta):
         clusters[int(lbl)].append(Path(m["path"]).name)
     dupes = {k: v for k, v in clusters.items() if k != -1 and len(v) > 1}
     if dupes:
-        findings.append({
-            "id": "T1-NEAR-DUPLICATES", "tier": "T1", "kind": "cluster",
-            "finding": f"{len(dupes)} cluster(s) of near-duplicate artefacts detected",
-            "evidence": {f"cluster_{k}": v[:6] for k, v in list(dupes.items())[:4]},
-            "confidence": "medium",
-            "action": "Overlapping rules or skills dilute each other. Merge, or scope them with distinct paths globs."
-        })
+        findings.append(
+            {
+                "id": "T1-NEAR-DUPLICATES",
+                "tier": "T1",
+                "kind": "cluster",
+                "finding": f"{len(dupes)} cluster(s) of near-duplicate artefacts detected",
+                "evidence": {f"cluster_{k}": v[:6] for k, v in list(dupes.items())[:4]},
+                "confidence": "medium",
+                "action": "Overlapping rules or skills dilute each other. Merge, or scope them with distinct paths globs.",
+            }
+        )
 
     # IsolationForest: artefacts structurally unlike the rest of the corpus
     if n >= 6:
@@ -229,13 +288,17 @@ def tier1(docs, meta):
         iso = IsolationForest(contamination=min(0.2, 2.0 / n), random_state=0).fit(dense)
         scores = iso.decision_function(dense)
         order = np.argsort(scores)[:3]
-        findings.append({
-            "id": "T1-OUTLIERS", "tier": "T1", "kind": "anomaly",
-            "finding": "Artefacts most structurally unlike the rest of the corpus",
-            "evidence": {Path(meta[i]["path"]).name: round(float(scores[i]), 4) for i in order},
-            "confidence": "medium",
-            "action": "An outlier is either genuinely novel or accidentally malformed. Open the top one and decide which."
-        })
+        findings.append(
+            {
+                "id": "T1-OUTLIERS",
+                "tier": "T1",
+                "kind": "anomaly",
+                "finding": "Artefacts most structurally unlike the rest of the corpus",
+                "evidence": {Path(meta[i]["path"]).name: round(float(scores[i]), 4) for i in order},
+                "confidence": "medium",
+                "action": "An outlier is either genuinely novel or accidentally malformed. Open the top one and decide which.",
+            }
+        )
 
     # NMF topics: latent themes spanning otherwise disparate files
     k = max(2, min(4, n // 3))
@@ -244,13 +307,18 @@ def tier1(docs, meta):
         terms = vec.get_feature_names_out()
         topics = {}
         for i, comp in enumerate(nmf.components_):
-            topics[f"theme_{i+1}"] = [terms[j] for j in comp.argsort()[:-7:-1]]
-        findings.append({
-            "id": "T1-THEMES", "tier": "T1", "kind": "topic",
-            "finding": f"{k} latent themes spanning the corpus",
-            "evidence": topics, "confidence": "medium",
-            "action": "A theme appearing across unrelated files is a candidate for a shared rule or skill."
-        })
+            topics[f"theme_{i + 1}"] = [terms[j] for j in comp.argsort()[:-7:-1]]
+        findings.append(
+            {
+                "id": "T1-THEMES",
+                "tier": "T1",
+                "kind": "topic",
+                "finding": f"{k} latent themes spanning the corpus",
+                "evidence": topics,
+                "confidence": "medium",
+                "action": "A theme appearing across unrelated files is a candidate for a shared rule or skill.",
+            }
+        )
     except Exception as e:
         log(f"ADVISORY NMF skipped: {e}")
     return findings
@@ -259,24 +327,44 @@ def tier1(docs, meta):
 # ----------------------------------------------------------- T2 semantic
 def tier2(docs, meta, model="nomic-embed-text"):
     """Semantic tier via Ollama embeddings. Degrades cleanly when absent."""
-    import urllib.request, urllib.error
+    import urllib.request
+    import urllib.error
+
     host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
     try:
         body = json.dumps({"model": model, "prompt": docs[0][:2000]}).encode()
-        req = urllib.request.Request(f"{host}/api/embeddings", data=body,
-                                     headers={"Content-Type": "application/json"})
+        req = urllib.request.Request(
+            f"{host}/api/embeddings", data=body, headers={"Content-Type": "application/json"}
+        )
         with urllib.request.urlopen(req, timeout=30) as r:
             dims = len(json.loads(r.read()).get("embedding", []))
-        return [{"id": "T2-SEMANTIC", "tier": "T2", "kind": "capability",
-                 "finding": f"Semantic tier live: {model} at {dims} dimensions",
-                 "evidence": {"model": model, "dims": dims, "storage": "sqlite-vec, 4 bytes per float"},
-                 "confidence": "high",
-                 "action": "Semantic clustering now supplements lexical TF-IDF, catching paraphrase that TF-IDF misses."}]
+        return [
+            {
+                "id": "T2-SEMANTIC",
+                "tier": "T2",
+                "kind": "capability",
+                "finding": f"Semantic tier live: {model} at {dims} dimensions",
+                "evidence": {
+                    "model": model,
+                    "dims": dims,
+                    "storage": "sqlite-vec, 4 bytes per float",
+                },
+                "confidence": "high",
+                "action": "Semantic clustering now supplements lexical TF-IDF, catching paraphrase that TF-IDF misses.",
+            }
+        ]
     except Exception as e:
-        return [{"id": "T2-SKIPPED", "tier": "T2", "kind": "advisory",
-                 "finding": f"Ollama unreachable, semantic tier skipped ({type(e).__name__})",
-                 "evidence": {"host": host, "model": model}, "confidence": "high",
-                 "action": f"ollama pull {model} to enable paraphrase-aware clustering."}]
+        return [
+            {
+                "id": "T2-SKIPPED",
+                "tier": "T2",
+                "kind": "advisory",
+                "finding": f"Ollama unreachable, semantic tier skipped ({type(e).__name__})",
+                "evidence": {"host": host, "model": model},
+                "confidence": "high",
+                "action": f"ollama pull {model} to enable paraphrase-aware clustering.",
+            }
+        ]
 
 
 # ---------------------------------------------------------------- output
@@ -295,8 +383,7 @@ def run(roots, out_dir, tiers):
         "manifest": "zas-pattern-findings",
         "version": "1.0.0",
         "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "corpus": {"artefacts": len(docs), "bytes": total,
-                   "roots": [str(r) for r in roots]},
+        "corpus": {"artefacts": len(docs), "bytes": total, "roots": [str(r) for r in roots]},
         "duration_ms": int((time.time() - t0) * 1000),
         "findings": findings,
         "limitations": [
@@ -322,25 +409,40 @@ def main():
 
     if a.self_test:
         import tempfile
+
         with tempfile.TemporaryDirectory() as t:
             td = Path(t)
-            (td / "telemetry.ndjson").write_text("\n".join(json.dumps({
-                "verdict": v, "hook": "lint", "duration_ms": d, "permission_mode": "default"
-            }) for v, d in [("pass", 50), ("pass", 55), ("fail", 1500), ("pass", 48)]))
+            (td / "telemetry.ndjson").write_text(
+                "\n".join(
+                    json.dumps(
+                        {
+                            "verdict": v,
+                            "hook": "lint",
+                            "duration_ms": d,
+                            "permission_mode": "default",
+                        }
+                    )
+                    for v, d in [("pass", 50), ("pass", 55), ("fail", 1500), ("pass", 48)]
+                )
+            )
             for i in range(4):
                 (td / f"doc{i}.md").write_text(f"rule about linting and security {i} " * 20)
             rep = run([td], td / "out", "012")
             assert rep["findings"], "no findings produced"
             assert any(f["tier"] == "T0" for f in rep["findings"]), "T0 did not run"
             assert (td / "out" / "findings.json").exists(), "findings.json not written"
-            print(f"self-test OK: {len(rep['findings'])} findings, "
-                  f"tiers {sorted({f['tier'] for f in rep['findings']})}")
+            print(
+                f"self-test OK: {len(rep['findings'])} findings, "
+                f"tiers {sorted({f['tier'] for f in rep['findings']})}"
+            )
         return 0
 
     roots = [Path(c) for c in a.corpus] if a.corpus else DEFAULT_CORPUS
     rep = run(roots, a.out, a.tiers)
-    print(f"\n=== PATTERN ENGINE: {rep['corpus']['artefacts']} artefacts, "
-          f"{rep['corpus']['bytes']:,} bytes, {rep['duration_ms']}ms ===\n")
+    print(
+        f"\n=== PATTERN ENGINE: {rep['corpus']['artefacts']} artefacts, "
+        f"{rep['corpus']['bytes']:,} bytes, {rep['duration_ms']}ms ===\n"
+    )
     for f in rep["findings"]:
         print(f"[{f['tier']}/{f['confidence']:>6}] {f['id']}")
         print(f"    {f['finding']}")

@@ -481,8 +481,7 @@ def check_inputs(tools, cfg):
             "Unextracted export archive",
             FAIL,
             ", ".join(z.name for z in zips),
-            f"Search Console exports a zip. Extract it: "
-            f"cd '{inbox}' && unzip -o '{zips[0].name}'",
+            f"Search Console exports a zip. Extract it: cd '{inbox}' && unzip -o '{zips[0].name}'",
         )
 
     files = [f for pat in ("*.csv", "*.tsv", "*.txt") for f in inbox.glob(pat)]
@@ -588,9 +587,7 @@ def check_proof(tools):
             PASS if (neg_ok and pos_ok) else FAIL,
             f"positive {d.get('positive_passed')}/{d.get('positive_total')}, "
             f"negative {d.get('negative_passed')}/{d.get('negative_total')}",
-            ""
-            if (neg_ok and pos_ok)
-            else "Do not trust the guard until every control passes",
+            "" if (neg_ok and pos_ok) else "Do not trust the guard until every control passes",
         )
     except Exception as exc:
         add(s, "Pressure test result", FAIL, str(exc), "Rerun the pressure test")
@@ -804,9 +801,7 @@ def check_robots_structure(cfg):
 
 
 def report(as_json, strict):
-    counts = {
-        k: sum(1 for r in results if r["status"] == k) for k in (PASS, WARN, FAIL, SKIP)
-    }
+    counts = {k: sum(1 for r in results if r["status"] == k) for k in (PASS, WARN, FAIL, SKIP)}
     blocking = [r for r in results if r["status"] == FAIL]
     warnings = [r for r in results if r["status"] == WARN]
 
@@ -848,9 +843,7 @@ def report(as_json, strict):
             for r in blocking:
                 print(f"    {r['section']}: {r['check']}")
         elif warnings:
-            print(
-                "  READY WITH WARNINGS. Safe to proceed, but read the warnings above."
-            )
+            print("  READY WITH WARNINGS. Safe to proceed, but read the warnings above.")
         else:
             print("  READY. Every prerequisite is in place.")
         print()

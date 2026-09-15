@@ -122,9 +122,7 @@ def load_json(path, default):
 
 def save_json(path, obj):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
-    Path(path).write_text(
-        json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
+    Path(path).write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def sha256_text(text):
@@ -185,9 +183,7 @@ def normalise_robots(text):
 
 
 def fetch_text(url, timeout=30):
-    r = requests.get(
-        url, headers={"User-Agent": UA}, timeout=timeout, allow_redirects=True
-    )
+    r = requests.get(url, headers={"User-Agent": UA}, timeout=timeout, allow_redirects=True)
     r.raise_for_status()
     return r.text
 
@@ -281,9 +277,7 @@ def gsc_top_pages(days=90, row_limit=1000):
         "rowLimit": row_limit,
     }
     try:
-        resp = (
-            svc.searchanalytics().query(siteUrl=c["gsc_property"], body=body).execute()
-        )
+        resp = svc.searchanalytics().query(siteUrl=c["gsc_property"], body=body).execute()
     except Exception as exc:
         say(f"Search Analytics query failed: {exc}")
         return set()
@@ -299,9 +293,7 @@ def stage_discover(args):
     robots_txt = fetch_text(robots_url)
     (STATE / "live robots.txt").write_text(robots_txt, encoding="utf-8")
     rhash = sha256_text(robots_txt)
-    proof(
-        f"discover | robots.txt fetched | {len(robots_txt)} bytes | sha256 {rhash[:16]}"
-    )
+    proof(f"discover | robots.txt fetched | {len(robots_txt)} bytes | sha256 {rhash[:16]}")
 
     parser = Protego.parse(normalise_robots(robots_txt))
 
@@ -377,9 +369,7 @@ class Quota:
 
     def take(self):
         if self.remaining() <= 0:
-            raise RuntimeError(
-                "URL Inspection daily quota exhausted (2000 QPD per property)"
-            )
+            raise RuntimeError("URL Inspection daily quota exhausted (2000 QPD per property)")
         now = time.time()
         self.minute_bucket = [t for t in self.minute_bucket if now - t < 60]
         if len(self.minute_bucket) >= SAFE_QPM:
@@ -409,9 +399,7 @@ def stage_inspect(args):
 
     creds = gsc_credentials()
     if creds is None:
-        say(
-            "No GSC service account configured. Set gsc_service_account_json in config.json."
-        )
+        say("No GSC service account configured. Set gsc_service_account_json in config.json.")
         sys.exit(2)
 
     svc = build("searchconsole", "v1", credentials=creds, cache_discovery=False)
@@ -485,9 +473,7 @@ def stage_inspect(args):
         f"errors {len(errors)} | quota used today {quota.data[quota.day]}/{QPD_CAP}"
     )
     for f in flagged:
-        say(
-            f"   FLAGGED  {f['url']}  ::  {f['coverageState']}  ::  {f['robotsTxtState']}"
-        )
+        say(f"   FLAGGED  {f['url']}  ::  {f['coverageState']}  ::  {f['robotsTxtState']}")
     return flagged
 
 
@@ -500,9 +486,7 @@ def live_page_evidence(url):
     """Direct fetch. What the page actually says about itself is primary evidence."""
     out = {"url": url}
     try:
-        r = requests.get(
-            url, headers={"User-Agent": UA}, timeout=30, allow_redirects=True
-        )
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=30, allow_redirects=True)
         html = r.text[:200000]
         out["status"] = r.status_code
         out["final_url"] = r.url
@@ -594,9 +578,7 @@ def fable_adjudicate(payload, api_key, model=FABLE_MODEL, retries=3):
         "model": model,
         "max_tokens": 8000,
         "system": FABLE_SYSTEM,
-        "messages": [
-            {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}
-        ],
+        "messages": [{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
     }
     last = None
     for attempt in range(1, retries + 1):
@@ -611,14 +593,10 @@ def fable_adjudicate(payload, api_key, model=FABLE_MODEL, retries=3):
             r.raise_for_status()
             data = r.json()
             text = "".join(
-                blk.get("text", "")
-                for blk in data.get("content", [])
-                if blk.get("type") == "text"
+                blk.get("text", "") for blk in data.get("content", []) if blk.get("type") == "text"
             ).strip()
             fence = chr(96) * 3
-            text = re.sub(
-                rf"^{fence}(?:json)?|{fence}$", "", text, flags=re.MULTILINE
-            ).strip()
+            text = re.sub(rf"^{fence}(?:json)?|{fence}$", "", text, flags=re.MULTILINE).strip()
             return json.loads(text)
         except Exception as exc:
             last = str(exc)
@@ -818,24 +796,16 @@ def stage_patch(args):
     approved = load_json(STATE / "approved verdicts.json", None)
     if approved is None:
         if not args.skip_verification:
-            say(
-                'No verification found. Run: python3 "robots index engine.py" verify-independent'
-            )
-            say(
-                "Override deliberately with --skip-verification if you accept unverified verdicts."
-            )
+            say('No verification found. Run: python3 "robots index engine.py" verify-independent')
+            say("Override deliberately with --skip-verification if you accept unverified verdicts.")
             sys.exit(2)
-        proof(
-            "patch | WARNING | proceeding without independent verification, operator override"
-        )
+        proof("patch | WARNING | proceeding without independent verification, operator override")
     else:
         ok = set(approved["urls"])
         withheld = [v["url"] for v in verdicts if v["url"] not in ok]
         verdicts = [v for v in verdicts if v["url"] in ok]
         if withheld:
-            proof(
-                f"patch | {len(withheld)} verdict(s) withheld by the independent verifier"
-            )
+            proof(f"patch | {len(withheld)} verdict(s) withheld by the independent verifier")
             for u in withheld:
                 say(f"   WITHHELD  {u}")
 
@@ -903,14 +873,10 @@ def stage_patch(args):
             src.write_text(original, encoding="utf-8")
             git(repo, "checkout", prev_branch, check=False)
             git(repo, "branch", "-D", branch, check=False)
-            proof(
-                f"patch | REWRITE REJECTED | {why} | original restored, branch unwound"
-            )
+            proof(f"patch | REWRITE REJECTED | {why} | original restored, branch unwound")
             say("The automatic rewrite did not pass its structural self-check.")
             say(f"Original is intact. Archived copy: {archived}")
-            say(
-                "Edit the robots source by hand using state/patch plan.json, then rerun verify."
-            )
+            say("Edit the robots source by hand using state/patch plan.json, then rerun verify.")
             sys.exit(3)
         src.write_text(text, encoding="utf-8")
         proof(
@@ -1015,21 +981,13 @@ def stage_bootstrap(args):
 
     if already_blocked:
         say("")
-        say(
-            "WARNING: these sitemap URLs are ALREADY disallowed to Googlebot right now:"
-        )
+        say("WARNING: these sitemap URLs are ALREADY disallowed to Googlebot right now:")
         for u in already_blocked[:40]:
             say(f"   BLOCKED  {u}")
-        say(
-            "Run the discover -> adjudicate -> verify-independent -> patch pipeline to fix them."
-        )
-        proof(
-            f"bootstrap | {len(already_blocked)} sitemap URLs currently blocked, pipeline needed"
-        )
+        say("Run the discover -> adjudicate -> verify-independent -> patch pipeline to fix them.")
+        proof(f"bootstrap | {len(already_blocked)} sitemap URLs currently blocked, pipeline needed")
     else:
-        say(
-            f"Baseline armed. {len(protected)} URLs are protected and all are crawlable now."
-        )
+        say(f"Baseline armed. {len(protected)} URLs are protected and all are crawlable now.")
     return 0
 
 
@@ -1042,9 +1000,7 @@ def stage_verify(args):
 
     doc = load_json(STATE / "verdicts.json", {"verdicts": []})
     targets = [
-        v["url"]
-        for v in doc["verdicts"]
-        if v.get("intent") in ("INDEX", "DEINDEX", "REMOVE")
+        v["url"] for v in doc["verdicts"] if v.get("intent") in ("INDEX", "DEINDEX", "REMOVE")
     ]
     if not targets:
         targets = load_json(STATE / "discovery.json", {}).get("locally_disallowed", [])
@@ -1061,17 +1017,13 @@ def stage_verify(args):
         proof("verify | RESULT FAIL | deployment has not taken effect or rules remain")
         return 1
 
-    proof(
-        "verify | RESULT PASS | no target URL is disallowed to Googlebot on the live site"
-    )
+    proof("verify | RESULT PASS | no target URL is disallowed to Googlebot on the live site")
 
     # Persist the protected set so the guard can defend it on every future build.
     # Merge into any existing baseline (e.g. from bootstrap) rather than overwrite,
     # so a URL that was protected before is never silently dropped. Archive first.
     existing = set(load_json(ROOT / "protected urls.json", {}).get("urls", []))
-    fresh = set(targets) | set(
-        load_json(STATE / "discovery.json", {}).get("candidates", [])
-    )
+    fresh = set(targets) | set(load_json(STATE / "discovery.json", {}).get("candidates", []))
     protected = sorted(existing | fresh)
     if existing:
         archive_file(ROOT / "protected urls.json")
@@ -1220,9 +1172,7 @@ well covered, say so once and move on.
 """
 
 
-def call_fable(
-    system, payload, api_key, model=FABLE_MODEL, max_tokens=16000, retries=3
-):
+def call_fable(system, payload, api_key, model=FABLE_MODEL, max_tokens=16000, retries=3):
     """Single entry point for every model role. One place to fix, one place to log."""
     headers = {
         "x-api-key": api_key,
@@ -1253,14 +1203,10 @@ def call_fable(
             r.raise_for_status()
             data = r.json()
             text = "".join(
-                b.get("text", "")
-                for b in data.get("content", [])
-                if b.get("type") == "text"
+                b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"
             ).strip()
             fence = chr(96) * 3
-            text = re.sub(
-                rf"^{fence}(?:json)?|{fence}$", "", text, flags=re.MULTILINE
-            ).strip()
+            text = re.sub(rf"^{fence}(?:json)?|{fence}$", "", text, flags=re.MULTILINE).strip()
             if not text:
                 raise ValueError(
                     f"empty text block (stop_reason={data.get('stop_reason')}); "
@@ -1330,9 +1276,7 @@ def build_inventory(repo):
     hooks_dir = repo / ".git" / "hooks"
     if hooks_dir.exists():
         inv["hooks"] = [
-            h.name
-            for h in hooks_dir.iterdir()
-            if h.is_file() and not h.name.endswith(".sample")
+            h.name for h in hooks_dir.iterdir() if h.is_file() and not h.name.endswith(".sample")
         ]
 
     for base in (Path.home() / ".claude" / "skills", repo / ".claude" / "skills"):
@@ -1378,8 +1322,7 @@ def stage_analyse(args):
     for f in findings:
         by_sev.setdefault(f.get("severity", "UNKNOWN"), []).append(f)
     proof(
-        "analyse | findings "
-        + " ".join(f"{k}:{len(v)}" for k, v in sorted(by_sev.items()))
+        "analyse | findings " + " ".join(f"{k}:{len(v)}" for k, v in sorted(by_sev.items()))
         or "analyse | no findings"
     )
 
@@ -1394,10 +1337,7 @@ def stage_analyse(args):
         report = ROOT / f"analyst safe changes {fstamp()}.md"
         report.write_text(
             f"# Analyst safe changes\n\nGenerated {stamp()}\n\n"
-            + "\n".join(
-                f"## {f['id']} {f.get('file', '')}\n\n{f.get('fix', '')}\n"
-                for f in auto
-            ),
+            + "\n".join(f"## {f['id']} {f.get('file', '')}\n\n{f.get('fix', '')}\n" for f in auto),
             encoding="utf-8",
         )
         proof(
@@ -1436,14 +1376,10 @@ def deterministic_checks(verdict, flagged_item, robots_txt, sitemap_set):
 
     for rule in verdict.get("robots_disallow_to_remove") or []:
         if rule not in robots_txt:
-            issues.append(
-                f"rule to remove '{rule}' does not appear in the live robots.txt"
-            )
+            issues.append(f"rule to remove '{rule}' does not appear in the live robots.txt")
     for rule in verdict.get("robots_disallow_to_keep") or []:
         if rule not in robots_txt:
-            issues.append(
-                f"rule to keep '{rule}' does not appear in the live robots.txt"
-            )
+            issues.append(f"rule to keep '{rule}' does not appear in the live robots.txt")
 
     live = live_page_evidence(url)
     status = live.get("status")
@@ -1451,9 +1387,7 @@ def deterministic_checks(verdict, flagged_item, robots_txt, sitemap_set):
         issues.append(f"marked for removal but the URL returns HTTP {status}")
     if verdict.get("intent") == "INDEX" and status not in (200, None):
         issues.append(f"marked for indexing but the URL returns HTTP {status}")
-    if verdict.get("action") == "ALLOW_CRAWL" and "noindex" in (
-        live.get("meta_robots") or ""
-    ):
+    if verdict.get("action") == "ALLOW_CRAWL" and "noindex" in (live.get("meta_robots") or ""):
         issues.append("marked for indexing but the page itself carries a noindex rule")
     if verdict.get("intent") == "INDEX" and url not in sitemap_set:
         issues.append("marked for indexing but the URL is absent from the sitemap")
@@ -1468,7 +1402,7 @@ def deterministic_checks(verdict, flagged_item, robots_txt, sitemap_set):
 
 
 def stage_verify_independent(args):
-    c = cfg()
+    cfg()
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not api_key:
         say("ANTHROPIC_API_KEY not set.")
@@ -1551,10 +1485,7 @@ def stage_verify_independent(args):
         STATE / "verification.json",
         {"generated": stamp(), "counts": counts, "rows": rows},
     )
-    proof(
-        "verify-independent | "
-        + " ".join(f"{k}:{v}" for k, v in sorted(counts.items()))
-    )
+    proof("verify-independent | " + " ".join(f"{k}:{v}" for k, v in sorted(counts.items())))
 
     blocked = [r for r in rows if r["outcome"] in ("REJECTED", "DISPUTED")]
     if blocked:
@@ -1564,9 +1495,7 @@ def stage_verify_independent(args):
             say(f"   {r['outcome']}  {r['url']}")
             for i in r["deterministic"]["issues"]:
                 say(f"       {i}")
-        proof(
-            f"verify-independent | {len(blocked)} verdict(s) withheld from the patch stage"
-        )
+        proof(f"verify-independent | {len(blocked)} verdict(s) withheld from the patch stage")
 
     # The patch stage reads this. Anything not CONFIRMED does not get applied.
     save_json(
@@ -1592,18 +1521,14 @@ def stage_advise(args):
 
     payload = {
         "site": cfg()["site"],
-        "infrastructure_findings": load_json(
-            STATE / "infrastructure findings.json", {}
-        ),
+        "infrastructure_findings": load_json(STATE / "infrastructure findings.json", {}),
         "pressure_test": load_json(STATE / "pressure test.json", {}),
         "verdicts": load_json(STATE / "verdicts.json", {}),
         "verification": load_json(STATE / "verification.json", {}),
         "wiring_audit": load_json(STATE / "wiring audit.json", {}),
         "discovery_counts": load_json(STATE / "discovery.json", {}).get("counts", {}),
     }
-    result = call_fable(
-        ADVISOR_SYSTEM, payload, api_key, model=args.model or FABLE_MODEL
-    )
+    result = call_fable(ADVISOR_SYSTEM, payload, api_key, model=args.model or FABLE_MODEL)
     if "error" in result:
         proof(f"advise | RESULT ERROR | {result['error']}")
         sys.exit(4)
@@ -1644,9 +1569,7 @@ def stage_wiring_audit(args):
     checks = []
 
     def check(name, ok, detail, fix):
-        checks.append(
-            {"hook_point": name, "present": bool(ok), "detail": detail, "fix": fix}
-        )
+        checks.append({"hook_point": name, "present": bool(ok), "detail": detail, "fix": fix})
 
     skill_user = home / ".claude" / "skills" / "robots-index-guard" / "SKILL.md"
     check(
@@ -1670,8 +1593,7 @@ def stage_wiring_audit(args):
             instr = cand
             break
     referenced = bool(
-        instr
-        and "robots-index-guard" in instr.read_text(encoding="utf-8", errors="replace")
+        instr and "robots-index-guard" in instr.read_text(encoding="utf-8", errors="replace")
     )
     check(
         "Referenced from INSTRUCTIONS.md index",
@@ -1681,9 +1603,7 @@ def stage_wiring_audit(args):
     )
 
     hook = repo / ".git" / "hooks" / "pre-commit"
-    hook_ok = hook.exists() and "robots guard" in hook.read_text(
-        encoding="utf-8", errors="replace"
-    )
+    hook_ok = hook.exists() and "robots guard" in hook.read_text(encoding="utf-8", errors="replace")
     check(
         "Pre-commit hook blocks bad robots edits",
         hook_ok,
@@ -1700,9 +1620,7 @@ def stage_wiring_audit(args):
     )
 
     pkg = repo / "package.json"
-    pkg_ok = pkg.exists() and "robots:guard" in pkg.read_text(
-        encoding="utf-8", errors="replace"
-    )
+    pkg_ok = pkg.exists() and "robots:guard" in pkg.read_text(encoding="utf-8", errors="replace")
     check(
         "npm script robots:guard available",
         pkg_ok,
@@ -1781,9 +1699,7 @@ def stage_wiring_audit(args):
 
 
 def main():
-    ap = argparse.ArgumentParser(
-        description="ZA Support robots.txt index remediation engine"
-    )
+    ap = argparse.ArgumentParser(description="ZA Support robots.txt index remediation engine")
     ap.add_argument(
         "stage",
         choices=[
@@ -1808,9 +1724,7 @@ def main():
     )
     ap.add_argument("--refresh", action="store_true", help="ignore inspection cache")
     ap.add_argument("--no-search-analytics", action="store_true")
-    ap.add_argument(
-        "--model", default="", help=f"override model, default {FABLE_MODEL}"
-    )
+    ap.add_argument("--model", default="", help=f"override model, default {FABLE_MODEL}")
     ap.add_argument("--min-confidence", type=float, default=0.6)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--push", action="store_true", help="push the fix branch to origin")

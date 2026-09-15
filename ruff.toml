@@ -1,0 +1,31 @@
+# ruff.toml — the committed Python lint/format POLICY for this repo.
+#
+# WHY THIS FILE EXISTS (root-cause fix, §917 15/09/2026):
+# The CI "Quality / tier2 (python)" leg runs bare `ruff check .` + `ruff format
+# --check .`. With NO committed config, ruff falls back to whatever its installed
+# version defaults to — so a developer's local ruff and CI's freshly-pipx-installed
+# ruff could SELECT DIFFERENT RULES and disagree (local showed 369, CI's stock
+# defaults differ). Pinning the policy here makes local == CI deterministically.
+# A repo whose CI enforces a standard it never defined is the defect.
+#
+# It is NOT rule-narrowing to hide problems: every rule that can flag a real bug
+# is kept (F pyflakes, E9 syntax, E4 imports, and the meaningful E7 comparison/
+# except rules). Only the PURE-FORMATTING E7 rules (E701/E702/E703 compound
+# statements, E741 ambiguous single-char names) are left to `ruff format` and
+# human review, because this repo's Python is operational tooling where terse
+# forms are deliberate and `ruff format` already owns layout.
+
+target-version = "py311"
+line-length = 100
+
+# Test fixtures are DELIBERATELY-BROKEN negative controls (planted faults for the
+# gates). The repo's own file-placement-mandate requires they stay OUT of the lint
+# path so a planted fault is never treated as real code. `tools/robots/zero loss.py`
+# is scratch (a space in the filename is the tell).
+extend-exclude = [
+  ".claude/fixtures",
+  "tools/robots/zero loss.py",
+]
+
+[lint]
+select = ["E4", "E9", "F", "E711", "E712", "E713", "E714", "E722"]
