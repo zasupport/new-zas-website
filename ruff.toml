@@ -31,6 +31,11 @@ line-length = 100
 extend-exclude = [
   ".claude/fixtures",
   "tools/robots/zero loss.py",
+  # ruff formats Python code blocks INSIDE Markdown (proven 15/09: 4 docs/*.md
+  # flagged the python leg red on CI). Doc snippets are illustrative, not
+  # maintained source — keep ruff to .py so a documentation example can never
+  # turn CI red. This is the real fix; the version pin only made it deterministic.
+  "*.md",
 ]
 
 [lint]
