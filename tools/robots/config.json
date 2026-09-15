@@ -2,7 +2,9 @@
   "site": "https://zasupport.com",
   "gsc_property": "sc-domain:zasupport.com",
   "gsc_service_account_json": "~/.za-support/gsc-service-account.json",
-  "repo_path": "/Users/courtneybentley/Developer/zasupport-web",
-  "sitemaps": ["https://zasupport.com/sitemap.xml"],
+  "repo_path": "~/Developer/new-zas-website",
+  "sitemaps": [
+    "https://zasupport.com/sitemap.xml"
+  ],
   "notify_email": "courtney@zasupport.com"
 }
