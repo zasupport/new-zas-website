@@ -927,5 +927,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/macbook-keyboard-keys-repeating-or-dead-what-it-means`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-runs-hot-and-fans-loud-what-we-check-first`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/what-a-macbook-liquid-damage-assessment-involves`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
+    { url: `${base}/suspected-hacked-apple-device`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 }, // §718 auto-added 2026-09-18
   ];
 }
