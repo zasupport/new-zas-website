@@ -160,6 +160,19 @@ function main() {
 		generated: new Date().toISOString(),
 		source:
 			"src/app/sitemap.ts (canonical URL list) + curated priority metadata",
+		// File-placement directive (consumers read .entries only; extra keys are inert)
+		claude_code_injection: {
+			target_path: "public/search-index.json",
+			permissions: "0644",
+			create_parent_dirs: false,
+			overwrite_if_exists: true,
+			backup_if_exists: false,
+			generated_by:
+				"seo/scripts/build-search-index.mjs (npm run search:index / prebuild)",
+			post_install_verify:
+				"node -e \"const i=require('./public/search-index.json'); if(!Array.isArray(i.entries)||i.entries.length<100) process.exit(1)\"",
+			rollback_command: "git checkout HEAD -- public/search-index.json",
+		},
 		count: entries.length,
 		entries,
 	};

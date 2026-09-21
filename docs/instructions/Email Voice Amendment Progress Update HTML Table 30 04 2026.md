@@ -91,10 +91,10 @@ If your service hard-codes the font in any HTML email template, update it on nex
 
 ```python
 # OLD
-EMAIL_BODY_STYLE = 'font-family: Arial, sans-serif; font-size: 12pt;'
+EMAIL_BODY_STYLE = "font-family: Arial, sans-serif; font-size: 12pt;"
 
 # NEW
-EMAIL_BODY_STYLE = 'font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt;'
+EMAIL_BODY_STYLE = "font-family: Aptos, Arial, Helvetica, sans-serif; font-size: 12pt;"
 ```
 
 If your service generates a progress update email, factor out a helper that returns an HTML colour-coded table given a list of `(item, status_text, colour)` tuples. The colour parameter must accept one of the four canonical RGB values above.

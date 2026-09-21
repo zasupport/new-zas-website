@@ -1,0 +1,67 @@
+# CLAUDE-CODE-INJECTION
+#   target_path: reliability/tooling-parity-manifest.yaml
+#   permissions: "0644"
+#   create_parent_dirs: true
+#   overwrite_if_exists: false
+#   backup_if_exists: .claude/_archive/<UTC-timestamp>/tooling-parity-manifest.yaml
+#   post_install_verify: "python3 -c \"import yaml,sys; yaml.safe_load(open('reliability/tooling-parity-manifest.yaml'))\" && test -s reliability/tooling-parity-manifest.yaml"
+#   rollback_command: "git checkout -- reliability/tooling-parity-manifest.yaml 2>/dev/null || rm -f reliability/tooling-parity-manifest.yaml"
+# (comment-form block: keeps the read-only auditor's schema keys untouched)
+# Shared-reliability-tooling branch-parity manifest (§926)
+# READ-ONLY policy contract. Only tools LISTED here are compared. Nothing else is touched.
+# The auditor never synchronises, copies, merges, stages, commits, pushes, or deploys.
+# Comparators: identical (raw sha256) | behavioural (python AST via ast.dump include_attributes=False)
+#              | exist-only (presence on required_on branches).
+version: 1
+branches:
+  - main
+  - seo/organic-growth-infra
+
+tools:
+  # Byte-identical carrier — the healer is deliberately the same on both branches.
+  - path: scripts/heal-route-sitemap-drift.py
+    parity: identical
+    required_on: [main, seo/organic-growth-infra]
+
+  # Behavioural parity — logic must match; a pure formatter reflow is allowed ONLY via a
+  # declared, expiring, owner-attributed approved_divergence bound to the exact AST hashes.
+  - path: scripts/check-route-sitemap-drift.py
+    parity: behavioural           # semantics: ast-equivalent-required (AST-identical or a bound waiver)
+    required_on: [main, seo/organic-growth-infra]
+    approved_divergence:
+      type: reviewed-semantic-equivalence-exception
+      reason: >-
+        ruff import-grouping reflow: `import os, re, sys, tempfile, shutil` on main (16fb24f,
+        27/07) vs one-import-per-line on dev (f3eee94, 16/09). Imported names are identical; the
+        find_orphans logic is unchanged. AST-structurally different (one Import node vs five), so
+        the strict AST comparator flags it. Functional equivalence is NOT assumed: it is DEMONSTRATED
+        by a reproducible detector-parity corpus (orphan / sitemap-listed / noindex / redirect-stub /
+        dynamic / malformed-fail-closed) run against BOTH revisions — identical exit codes, orphan
+        sets, classification, and no writes. This record waives ONLY this specific AST pair.
+      owner: Courtney Bentley
+      review_by: 2026-12-31
+      expected_status: dev-is-ruff-reflow-of-main
+      # Binds the waiver to THESE exact ASTs. A future real logic change on either branch produces
+      # a different pair and is NOT waived (fails closed).
+      main_ast_sha256: 1948214a06265da5f330b2ba889e154e171c27491a223aec635ffb46d1f11eda
+      dev_ast_sha256: 3a38eaee43affa9824a5ac82f1784424302416a01ac370de1c9a8cb282e4c8bf
+      ast_pair_sha256: ca7c528dd3eca6a030e25f1ff40d151df954f5097064b1ca2127fae9d4721bd4
+      # Reproducible functional-equivalence evidence (§926 Pass-3): ~/bin/za-detector-parity-corpus.sh
+      equivalence_test_id: detector-parity-corpus-v1
+      evidence_sha256: f912d89c114a6531d98e2172c154ad72d7a75e4335d0226004211677ba01898e
+
+  # Presence-only, required on dev; a declared, expiring exemption for its known absence on main.
+  - path: scripts/check-secrets.sh
+    parity: exist-only
+    required_on: [seo/organic-growth-infra, main]
+    exemptions:
+      - branch: main
+        reason: >-
+          §917 secret gate committed on dev but not yet on the main release line; committing it to
+          main is a separate approval (must not green a gate before secret rotation is confirmed).
+        owner: Courtney Bentley
+        review_by: 2026-11-15
+        expected_status: absent-on-main-pending-separate-approval
+
+# Tools intentionally NOT declared (ignored by parity): scripts/ci-quality-guard.sh,
+# scripts/check-lock-sync.sh — dev-only workflow tooling, not asserted as cross-branch shared.

@@ -49,3 +49,9 @@ tools/robots/inbox/
 tools/robots/.venv/
 tools/robots/.staging/
 tools/robots/validation.log
+
+# transient backups / office locks (§573 — never commit)
+*.bak
+*.pre-*-bak
+~$*
+.mcp.json.pre-*
