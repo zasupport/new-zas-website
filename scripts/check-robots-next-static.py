@@ -17,18 +17,21 @@ Usage:
   check-robots-next-static.py            scan src/app/robots.ts, exit 1 on violation
   check-robots-next-static.py --test     run built-in positive + negative controls
 """
-import os, re, sys
+
+import os
+import re
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ROBOTS_TS = os.path.join(ROOT, 'src', 'app', 'robots.ts')
+ROBOTS_TS = os.path.join(ROOT, "src", "app", "robots.ts")
 
 # Paths that MUST remain crawlable (Googlebot render resources).
-PROTECTED = ['/_next/static/', '/_next/image/']
+PROTECTED = ["/_next/static/", "/_next/image/"]
 
 
 def _extract_disallow(source: str):
     """Return the list of string literals in the `disallow` array of robots.ts."""
-    m = re.search(r'disallow\s*=\s*\[(.*?)\]', source, re.DOTALL)
+    m = re.search(r"disallow\s*=\s*\[(.*?)\]", source, re.DOTALL)
     if not m:
         return None  # signal: could not locate the array (fail closed)
     return re.findall(r"""['"`]([^'"`]*)['"`]""", m.group(1))
@@ -102,9 +105,9 @@ def run_tests():
 
 
 def main():
-    if '--test' in sys.argv:
+    if "--test" in sys.argv:
         sys.exit(0 if run_tests() else 1)
-    with open(ROBOTS_TS, encoding='utf-8') as f:
+    with open(ROBOTS_TS, encoding="utf-8") as f:
         source = f.read()
     passed, errs = check(source)
     if not passed:
@@ -117,5 +120,5 @@ def main():
     sys.exit(0)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

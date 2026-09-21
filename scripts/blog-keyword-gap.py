@@ -8,14 +8,13 @@ New function: za-blog-research-engine.py uses GSC + GA4 + PyTrends + competitor 
 """
 
 import json
-import os
 import re
 import sys
 import subprocess
 from datetime import datetime
 from pathlib import Path
 from urllib.request import urlopen, Request
-from urllib.parse import urlencode, quote_plus
+from urllib.parse import urlencode
 from urllib.error import URLError
 import time
 
@@ -27,13 +26,13 @@ TODAY = datetime.now().strftime("%d%m%Y")
 OUTPUT_FILE = OUTPUT_DIR / f"keyword-gaps-{TODAY}.json"
 
 PYTRENDS_TERMS = [
-    'macbook repair johannesburg',
-    'macbook not turning on',
-    'macbook liquid damage',
-    'logic board repair',
-    'macbook screen repair johannesburg',
-    'apple repair johannesburg',
-    'macbook battery johannesburg',
+    "macbook repair johannesburg",
+    "macbook not turning on",
+    "macbook liquid damage",
+    "logic board repair",
+    "macbook screen repair johannesburg",
+    "apple repair johannesburg",
+    "macbook battery johannesburg",
 ]
 
 FALLBACK_POOL = [
@@ -112,7 +111,7 @@ def get_trending_scores() -> dict:
 
         pt = TrendReq(hl="en-ZA", tz=120, timeout=(10, 25), retries=1, backoff_factor=0.5)
         # pytrends accepts max 5 terms per request
-        chunks = [PYTRENDS_TERMS[i:i+5] for i in range(0, len(PYTRENDS_TERMS), 5)]
+        chunks = [PYTRENDS_TERMS[i : i + 5] for i in range(0, len(PYTRENDS_TERMS), 5)]
         for chunk in chunks:
             try:
                 pt.build_payload(chunk, cat=0, timeframe="now 30-d", geo="ZA")
@@ -136,14 +135,17 @@ def get_competitor_titles() -> list:
     query = "macbook repair johannesburg blog site:co.za -site:zasupport.com"
     url = f"https://html.duckduckgo.com/html/?{urlencode({'q': query})}"
     try:
-        req = Request(url, headers={
-            "User-Agent": (
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/120.0.0.0 Safari/537.36"
-            ),
-            "Accept-Language": "en-ZA,en;q=0.9",
-        })
+        req = Request(
+            url,
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/120.0.0.0 Safari/537.36"
+                ),
+                "Accept-Language": "en-ZA,en;q=0.9",
+            },
+        )
         with urlopen(req, timeout=15) as resp:
             html = resp.read().decode("utf-8", errors="ignore")
 
@@ -159,7 +161,9 @@ def get_competitor_titles() -> list:
 
         # Also try result__snippet for additional context
         if not titles:
-            for match in re.finditer(r'class="result__snippet"[^>]*>(.*?)</(?:a|span|div)>', html, re.DOTALL):
+            for match in re.finditer(
+                r'class="result__snippet"[^>]*>(.*?)</(?:a|span|div)>', html, re.DOTALL
+            ):
                 raw = match.group(1)
                 clean = re.sub(r"<[^>]+>", "", raw).strip()
                 clean = re.sub(r"\s+", " ", clean)
@@ -175,7 +179,18 @@ def get_competitor_titles() -> list:
 # ── Fuzzy slug duplicate check ────────────────────────────────────────────────
 def _slug_words(slug: str) -> set:
     """Extract meaningful words from a slug."""
-    return set(re.split(r"[-_]+", slug.lower())) - {"", "a", "the", "in", "of", "to", "and", "or", "for", "2026"}
+    return set(re.split(r"[-_]+", slug.lower())) - {
+        "",
+        "a",
+        "the",
+        "in",
+        "of",
+        "to",
+        "and",
+        "or",
+        "for",
+        "2026",
+    }
 
 
 def is_duplicate(candidate_slug: str, existing_slugs: set) -> bool:
@@ -218,30 +233,33 @@ def build_candidates(
         # Find matching competitor titles
         term_words = set(term.lower().split())
         matched_titles = [
-            t for t in competitor_titles
-            if len(term_words & set(t.lower().split())) >= 2
+            t for t in competitor_titles if len(term_words & set(t.lower().split())) >= 2
         ]
         gap = "not covered"
-        candidates.append({
-            "slug": slug,
-            "keyword": term.title() + " 2026" if "2026" not in term else term.title(),
-            "trend_score": score,
-            "competitor_titles": matched_titles[:3],
-            "gap_note": gap,
-        })
+        candidates.append(
+            {
+                "slug": slug,
+                "keyword": term.title() + " 2026" if "2026" not in term else term.title(),
+                "trend_score": score,
+                "competitor_titles": matched_titles[:3],
+                "gap_note": gap,
+            }
+        )
 
     # Append fallback pool items if needed (always available as reserve)
     for fb_slug, fb_keyword in FALLBACK_POOL:
         if not is_duplicate(fb_slug, existing_slugs):
             # Avoid re-adding what's already in candidates
             if not any(c["slug"] == fb_slug for c in candidates):
-                candidates.append({
-                    "slug": fb_slug,
-                    "keyword": fb_keyword,
-                    "trend_score": 0,
-                    "competitor_titles": [],
-                    "gap_note": "not covered",
-                })
+                candidates.append(
+                    {
+                        "slug": fb_slug,
+                        "keyword": fb_keyword,
+                        "trend_score": 0,
+                        "competitor_titles": [],
+                        "gap_note": "not covered",
+                    }
+                )
 
     # Sort: highest trend_score first, then fewest competitor titles (lower competition)
     candidates.sort(key=lambda c: (-c["trend_score"], len(c["competitor_titles"])))
@@ -305,13 +323,15 @@ def main():
             if len(top3) >= 3:
                 break
             if not any(t["slug"] == fb_slug for t in top3):
-                top3.append({
-                    "slug": fb_slug,
-                    "keyword": fb_keyword,
-                    "trend_score": 0,
-                    "competitor_titles": [],
-                    "gap_note": "fallback — not covered",
-                })
+                top3.append(
+                    {
+                        "slug": fb_slug,
+                        "keyword": fb_keyword,
+                        "trend_score": 0,
+                        "competitor_titles": [],
+                        "gap_note": "fallback — not covered",
+                    }
+                )
 
     output = [format_topic(c) for c in top3[:3]]
     output_json = json.dumps(output, indent=2, ensure_ascii=False)

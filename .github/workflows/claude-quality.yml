@@ -1,0 +1,40 @@
+# CI parity: the same checks the hooks run locally, so local and CI never disagree.
+# Install to .github/workflows/claude-quality.yml
+name: Quality
+on: [push, pull_request]
+jobs:
+  tier2:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        check: [python, typescript, secrets]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python (Ruff, mypy)
+        if: matrix.check == 'python'
+        run: |
+          # ruff pinned to the version the repo is formatted under (ruff.toml
+          # required-version enforces the same pin loudly on any other binary).
+          pipx install "ruff==0.16.2" || pip install "ruff==0.16.2"
+          pipx install mypy || pip install mypy
+          ruff check .
+          ruff format --check .
+          mypy . || true
+      - name: TypeScript (type-aware lint, tsc)
+        if: matrix.check == 'typescript'
+        run: |
+          if [ -f package.json ]; then
+            npm ci
+            npx tsc --noEmit
+            npx eslint .            # type-aware config: catches no-floating-promises here, not in the hot path
+          fi
+      - name: Secrets (gitleaks full history)
+        if: matrix.check == 'secrets'
+        uses: gitleaks/gitleaks-action@v2
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gate smoke test
+        run: CLAUDE_PROJECT_DIR="$PWD" bash .claude/hooks/smoke-test.sh

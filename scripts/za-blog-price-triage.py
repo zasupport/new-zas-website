@@ -17,12 +17,18 @@ Usage:
   za-blog-price-triage.py --file <path>   # triage a specific .tsx/.md
   za-blog-price-triage.py --test          # negative-control: classifier discriminates
 """
-import importlib.util, re, subprocess, sys
+
+import importlib.util
+import re
+import subprocess
+import sys
 from pathlib import Path
 
 _HERE = Path(__file__).parent
 # reuse the §489 gate as SoT for ALLOWED + token regex (§354 no-fork)
-_spec = importlib.util.spec_from_file_location("price_gate", _HERE / "check-blog-price-allowlist.py")
+_spec = importlib.util.spec_from_file_location(
+    "price_gate", _HERE / "check-blog-price-allowlist.py"
+)
 _pg = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_pg)
 ALLOWED, TOKEN_RE = _pg.ALLOWED, _pg.TOKEN_RE
@@ -30,6 +36,8 @@ ALLOWED, TOKEN_RE = _pg.ALLOWED, _pg.TOKEN_RE
 # Confirmed competitor/market anchors (CLAUDE.md SEO rule) — the ONLY competitor
 # figures that are NOT themselves invented. Range R15,000-R70,000 + R4,499.
 CONFIRMED_COMPETITOR = {"R4,499"}
+
+
 def _in_confirmed_range(tok):
     try:
         v = int(tok.replace("R", "").replace(",", ""))
@@ -37,12 +45,16 @@ def _in_confirmed_range(tok):
         return False
     return 15000 <= v <= 70000  # Apple Store R15k-R70k (CLAUDE.md)
 
+
 COMPETITOR_RE = re.compile(
     r"apple|mac\s*shack|istore|official .{0,20}service provider|"
     r"new m[0-9]|new imac|new macbook|new mac mini|base m[0-9]|minimum for a new",
     re.I,
 )
-ZA_RE = re.compile(r"we charge|we quote|our price|our repair|at za support|za support (charge|repair|price)|in our workshop|costs? (from|between|roughly|around)", re.I)
+ZA_RE = re.compile(
+    r"we charge|we quote|our price|our repair|at za support|za support (charge|repair|price)|in our workshop|costs? (from|between|roughly|around)",
+    re.I,
+)
 
 
 def classify(ctx: str) -> str:
@@ -80,10 +92,12 @@ def triage(text: str):
         if tok in ALLOWED:
             continue
         s = max(0, m.start() - 70)
-        ctx = text[s:m.end() + 30].replace("\n", " ")
+        ctx = text[s : m.end() + 30].replace("\n", " ")
         cls = classify(ctx)
         # confirmed competitor values are legit even if attribution is loose
-        if cls in ("COMPETITOR-ANCHOR", "AMBIGUOUS") and (tok in CONFIRMED_COMPETITOR or _in_confirmed_range(tok)):
+        if cls in ("COMPETITOR-ANCHOR", "AMBIGUOUS") and (
+            tok in CONFIRMED_COMPETITOR or _in_confirmed_range(tok)
+        ):
             cls = "COMPETITOR-CONFIRMED"
         rows.append((slug_at(m.start()), tok, cls, ctx.strip()))
     return rows
@@ -91,6 +105,7 @@ def triage(text: str):
 
 def report(rows) -> str:
     from collections import Counter, defaultdict
+
     cls_count = Counter(r[2] for r in rows)
     by_post = defaultdict(lambda: Counter())
     for slug, tok, cls, _ in rows:
@@ -108,14 +123,18 @@ def report(rows) -> str:
     out.append("## ZA-INVENTED (real §489/§374/§559 violations) — distinct values")
     out.append(", ".join(f"{v}×{c}" for v, c in za_vals.most_common()) or "(none)")
     out.append("")
-    out.append("## COMPETITOR figures — distinct values (do they cluster on confirmed R15k-R70k/R4,499 or sprawl?)")
+    out.append(
+        "## COMPETITOR figures — distinct values (do they cluster on confirmed R15k-R70k/R4,499 or sprawl?)"
+    )
     out.append(", ".join(f"{v}×{c}" for v, c in comp_vals.most_common()) or "(none)")
     out.append("")
     out.append("## Posts with the most ZA-INVENTED prices (remediation priority)")
     ranked = sorted(by_post.items(), key=lambda kv: -kv[1].get("ZA-INVENTED", 0))
     for slug, c in ranked[:30]:
         if c.get("ZA-INVENTED", 0):
-            out.append(f"- `{slug}` — ZA-INVENTED:{c.get('ZA-INVENTED',0)} | competitor:{c.get('COMPETITOR-ANCHOR',0)+c.get('COMPETITOR-CONFIRMED',0)} | ambiguous:{c.get('AMBIGUOUS',0)}")
+            out.append(
+                f"- `{slug}` — ZA-INVENTED:{c.get('ZA-INVENTED', 0)} | competitor:{c.get('COMPETITOR-ANCHOR', 0) + c.get('COMPETITOR-CONFIRMED', 0)} | ambiguous:{c.get('AMBIGUOUS', 0)}"
+            )
     return "\n".join(out)
 
 
@@ -123,7 +142,11 @@ def _test() -> int:
     rc = 0
     cases = [
         ("M3 board repair at ZA Support ranges from R3,499 to R6,499", "R3,499", "ZA-INVENTED"),
-        ("Apple's M3 board replacement quote is typically R32,000 to R55,000", "R32,000", "COMPETITOR-CONFIRMED"),
+        (
+            "Apple's M3 board replacement quote is typically R32,000 to R55,000",
+            "R32,000",
+            "COMPETITOR-CONFIRMED",
+        ),
         ("the R17,000 minimum for a new MacBook", "R17,000", "COMPETITOR-CONFIRMED"),
         ("Apple charges R8,500 but we charge R3,499 in our workshop", "R8,500", "AMBIGUOUS"),
     ]
@@ -136,7 +159,8 @@ def _test() -> int:
             rc = 1
     # NEG-CONTROL power: a confirmed ZA anchor must NOT appear as a violation at all
     if any(r[1] == "R599" for r in triage("Assessment from R599.")):
-        print("  FAIL: confirmed anchor R599 leaked into violations (no power)"); rc = 1
+        print("  FAIL: confirmed anchor R599 leaked into violations (no power)")
+        rc = 1
     else:
         print("  PASS: NEG-CTRL confirmed anchor R599 correctly excluded")
     print("RESULT:", "ALL PASS" if rc == 0 else "FAILURES")
@@ -152,7 +176,8 @@ if __name__ == "__main__":
     else:
         text = subprocess.run(
             ["git", "show", "HEAD:src/app/blog/[slug]/page.tsx"],
-            capture_output=True, text=True,
+            capture_output=True,
+            text=True,
         ).stdout
     rows = triage(text)
     rep = report(rows)
