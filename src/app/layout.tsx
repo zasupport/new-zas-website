@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, DM_Mono } from 'next/font/google';
+import localFont from 'next/font/local';
 import { Analytics } from '@vercel/analytics/react';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import SiteShell from '@/components/layout/SiteShell';
@@ -7,17 +7,21 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { LOCAL_BUSINESS_SCHEMA } from '@/lib/seo';
 import './globals.css';
 
-const inter = Inter({
-  subsets: ['latin'],
+const inter = localFont({
+  src: '../fonts/inter-latin-wght-normal.woff2',
+  weight: '100 900',
   variable: '--font-inter',
   display: 'swap',
 });
 
-const dmMono = DM_Mono({
-  subsets: ['latin'],
+const dmMono = localFont({
+  src: [
+    { path: '../fonts/dm-mono-latin-300-normal.woff2', weight: '300' },
+    { path: '../fonts/dm-mono-latin-400-normal.woff2', weight: '400' },
+    { path: '../fonts/dm-mono-latin-500-normal.woff2', weight: '500' },
+  ],
   variable: '--font-dm-mono',
   display: 'swap',
-  weight: ['300', '400', '500'],
 });
 
 export const metadata: Metadata = {

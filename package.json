@@ -2,6 +2,20 @@
   "name": "new-zas-website",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "overrides": {
+    "@sanity/runtime-cli": {
+      "adm-zip": "^0.6.1"
+    },
+    "@vercel/frameworks": {
+      "js-yaml": "3.15.2"
+    },
+    "typeid-js": {
+      "uuid": "11.1.1"
+    }
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,13 +27,16 @@
     "check:route-sitemap-drift": "python3 scripts/check-route-sitemap-drift.py",
     "check:blog-sitemap-reconcile": "python3 scripts/check-blog-sitemap-reconcile.py",
     "check:seo": "npm run check:robots-static && npm run check:noindex-internal && npm run check:route-sitemap-drift && npm run check:blog-sitemap-reconcile",
+    "check:reliability": "node scripts/verify-release.mjs --self-test && node scripts/check-build-contract.mjs",
+    "verify:live": "node scripts/verify-release.mjs",
+    "check:security": "npm audit --audit-level=moderate",
     "robots:preflight": "python3 \"tools/robots/robots preflight.py\"",
     "robots:test": "python3 \"tools/robots/robots pressure test.py\"",
     "robots:guard": "python3 \"tools/robots/robots guard.py\" --live https://zasupport.com/robots.txt",
     "robots:audit": "python3 \"tools/robots/robots index engine.py\" wiring-audit"
   },
   "dependencies": {
-    "@next/third-parties": "^16.1.6",
+    "@next/third-parties": "16.3.5",
     "@sanity/client": "^7.16.0",
     "@sanity/image-url": "^2.0.3",
     "@vercel/analytics": "^1.6.1",
@@ -27,14 +44,14 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.35.1",
     "lucide-react": "^0.577.0",
-    "next": "16.1.6",
+    "next": "16.3.5",
     "next-sanity": "^12.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "react-hook-form": "^7.71.2",
     "resend": "^6.9.3",
     "sanity": "^5.13.0",
-    "sharp": "^0.34.5",
+    "sharp": "0.35.4",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
@@ -44,7 +61,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

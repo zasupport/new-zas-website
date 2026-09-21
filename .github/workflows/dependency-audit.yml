@@ -1,0 +1,23 @@
+name: Dependency advisory check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * 1"
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit the committed lockfile without installation
+        run: npm audit --json --audit-level=moderate > npm-audit.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dependency-advisories
+          path: npm-audit.json

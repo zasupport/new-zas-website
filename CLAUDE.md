@@ -1,7 +1,36 @@
 # ZA Support — new-zas-website project rules
 # Blog rules: /perfect-blog-creator SKILL is the canonical source — do not duplicate here
-# Stack: Next.js 15 + Tailwind v4 + Vercel | Repo: github.com/zasupport/new-zas-website
+# Stack: Next.js 16 + Tailwind v4 + Vercel | Repo: github.com/zasupport/new-zas-website
 # Global rules: ~/.claude/CLAUDE.md (auto-loaded)
+
+## Workspace/build evidence supplement, 21 September 2026
+
+Extends the existing source-verification and continuous-learning rules below.
+Before a release, run `npm run check:reliability`, `npm run check:seo`,
+`npm run check:security`, typecheck, lint and the full build using Node 22
+from `.nvmrc`. Do not relax `engine-strict` or permissions to make a gate pass.
+The cloud build, native Mac build and remote-device workspace permissions are
+separate observations. A linked worktree can keep .git outside an authorised
+folder; prefer an ordinary standalone clone with its own metadata. A denial
+requires supported workspace approval, never an indirect execution workaround.
+
+The reusable native repair and dual-environment receipt contract is
+`tools/workspace-recovery/ZA Support Workspace Recovery.command`.
+Run its self-test before delivery. The native verification receipt cannot by
+itself close the remote-access issue; a fresh revision-bound remote receipt is
+required. Existing uncommitted work must be preserved.
+
+Operational deliverables must carry an executable Claude Code lesson with
+evidence, trigger, checks, propagation destination and next action. Scan existing
+rules first and append only new knowledge. "Torcod" and contextually "clawed code"
+are speech-to-text variants of "Claude Code", not separate products.
+
+Sitemap lastmod must reflect a verified significant content change, not the
+current build time. Indexable, discovered, crawled and indexed are separate
+states. No automatic Indexing API notifications for ordinary service/blog pages.
+Use Search Console inspection for evidence and supported sitemap submission for
+discovery. Do not infer an overload or quality problem from discovery alone.
+Live release verification: `npm run verify:live -- --expected-version <8-char-sha>`.
 
 # §723 BLOG POOL PRICE-DOORWAY BAN + LOUD PRICE-STRAND + DISCARD-NOT-SANITIZE (HARD — 05/07/2026): fixed the 8-day publish drought (grep -c "✅ Inserted:" = 0). Root cause (real-data): topic pool was 36/36 price-demanding doorway permutations (<service>-{how-much,price,cost,vs-replacement,near-me,same-day,specialist}-johannesburg) → INVITE Haiku invented prices → §489 rejects ~100% → nothing inserts; pipeline logged "all already live" + rc=0 → drought INVISIBLE. FIX (Courtney 05/07 = input change, not another loop tweak): (a) POOL PRICE-DOORWAY BAN — single-source is_price_doorway(slug,keyword) in ~/bin/za-blog-pool-feed-gate.py (END-ANCHORED so "how-much-ram" quantity passes), imported by refiller za-blog-topic-pool.py (save_pool+replenish) AND fresh-engine za-keyword-fresh-engine.py --to-pool (§627 every pool-write chokepoint, §354 no-fork). Pool REPOINTED to 26 price-free INFORMATIONAL topics (backup .pre-723-repoint.bak). (b) LOUD PRICE-STRAND — za-blog-pipeline.sh parses SKIP (§489; NEW_POSTS=0 AND price-skips>0 → osascript+§289+exit 4, NOT "all already live". (c) DISCARD-AND-SUBSTITUTE — §489-UNRESOLVED after K=3 → discard dirty draft + pull next topic (brief slice 4×TARGET), never strand/sanitize (mangles §566). §489 KEPT INTACT (never invent/research prices §374/§559). Enforcement+test: feed-gate/refiller --test + za-blog-pool-guard-smoke.sh + za-blog-pipeline-strand-smoke.sh (both REAL-CONFIRMED via za-test-quality-gate.sh, pos+neg controls §584/§705). PROVEN 05/07: 2 pool drafts §489-clean (0 offenders, 1st attempt) + auto-blog-insert.py → ✅ Inserted=1 (first insert in 8d, §190-safe on throwaway branch, origin/main unchanged). Reversible §552 (za-rule-reversible.sh --revert 723). Full: ~/.claude/rules/723-blog-pool-price-doorway-ban.md | extends §613+§621+§489+§529+§167+§718
 

@@ -1,6 +1,7 @@
 name: Deploy ZA Support Website
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
@@ -15,17 +16,25 @@ on:
 
 jobs:
   validate:
-    name: Type Check + Lint
+    name: Type Check, Lint, SEO, Security and Full Build
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
       - run: npm ci
-      - name: TypeScript + ESLint (parallel)
-        run: npx tsc --noEmit & npm run lint & wait
+      - name: Fail-closed validation
+        run: |
+          set -euo pipefail
+          npm run typecheck
+          npm run lint
+          npm run check:seo
+          npm run check:reliability
+          npm run check:security
+          npm run build
 
   # ── WAIT FOR VERCEL — poll until the new deployment is live ───────────────
   wait-for-deploy:
@@ -37,21 +46,19 @@ jobs:
       - name: Poll until Vercel deployment is live (max 5 min)
         run: |
           echo "Waiting for Vercel Git Integration to deploy..."
-          COMMIT_SHORT="${GITHUB_SHA:0:7}"
+          set -euo pipefail
+          COMMIT_SHORT="${GITHUB_SHA:0:8}"
           for i in $(seq 1 20); do
-            HTTP=$(curl -s -o /dev/null -w "%{http_code}" "https://zasupport.com/api/health" --max-time 10 2>/dev/null||echo "000")
-            if [[ "$HTTP" == "200" ]]; then
-              echo "Site live (attempt $i)"
-              # Give Vercel a moment to propagate the new deployment
-              sleep 10
-              break
+            VERSION=$(curl --fail --silent --show-error "https://zasupport.com/api/health?verification=${GITHUB_SHA}" --max-time 10 | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d.get("version","") if d.get("status")=="ok" else "")' || true)
+            if [[ "$VERSION" == "$COMMIT_SHORT" ]]; then
+              echo "Verified exact production revision $VERSION (attempt $i)"
+              exit 0
             fi
-            echo "  Attempt $i: $HTTP — waiting 15s..."
+            echo "Attempt $i: expected $COMMIT_SHORT, observed ${VERSION:-unavailable}"
             sleep 15
-            if [[ $i -eq 20 ]]; then
-              echo "WARN: site did not respond after 5 min — continuing with tests"
-            fi
           done
+          echo "FAIL: expected production revision did not become live"
+          exit 1
 
   # ── RETEST — post-deploy health + security checks ────────────────────────
   retest:
@@ -60,6 +67,12 @@ jobs:
     needs: [validate, wait-for-deploy]
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Public indexability and release links
+        run: node scripts/verify-release.mjs --expected-version "${GITHUB_SHA:0:8}"
       - name: Endpoint tests (9 checks)
         run: |
           FAIL=0
@@ -85,8 +98,7 @@ jobs:
           echo "$H"|grep -qi "x-nextjs-prerender"&&echo "  WARN x-nextjs-prerender present (remove via Cloudflare Transform Rule)"||echo "  PASS x-nextjs-prerender absent"
           echo "$H"|grep -qi "unsafe-eval"&&{ echo "  FAIL CSP has unsafe-eval"; FAIL=$((FAIL+1)); }||true
           ROBOTS=$(curl -s "https://zasupport.com/robots.txt" --max-time 10 2>/dev/null)
-          echo "$ROBOTS"|grep -i "^Allow.*_next\|^Allow.*/studio/"&&{ echo "  FAIL robots.txt allows framework paths"; FAIL=$((FAIL+1)); }||echo "  PASS robots.txt clean"
-          echo "$ROBOTS"|grep -qi "^Disallow.*_next"&&echo "  PASS /_next/ blocked in robots.txt"||echo "  WARN /_next/ NOT blocked in robots.txt"
+          echo "$ROBOTS"|grep -qi "^Disallow.*_next"&&{ echo "FAIL: render resources blocked"; FAIL=$((FAIL+1)); }||echo "PASS: render resources not blocked"
           echo "$ROBOTS"|grep -qi "^Disallow.*/studio/"&&echo "  PASS /studio/ blocked in robots.txt"||echo "  WARN /studio/ NOT blocked in robots.txt"
           echo "Security: $FAIL failure(s)"; [[ $FAIL -eq 0 ]]||exit 1
 

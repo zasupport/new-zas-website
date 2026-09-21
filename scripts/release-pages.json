@@ -1,0 +1,418 @@
+[
+  {
+    "page": "/mac-data-recovery",
+    "expected": [
+      "/macbook-repair/data-recovery",
+      "/guides/how-to-recover-data-from-dead-macbook",
+      "/logic-board-repair",
+      "/liquid-damage",
+      "/digital-evidence-preservation",
+      "/apple-support"
+    ]
+  },
+  {
+    "page": "/apple-trade-in-johannesburg",
+    "expected": [
+      "/macbook-trade-in-checklist",
+      "/iphone-trade-in-checklist",
+      "/activation-lock-help",
+      "/blog/apple-repair-vs-replacement-guide-johannesburg",
+      "/mac-data-recovery",
+      "/apple-support"
+    ]
+  },
+  {
+    "page": "/macbook-trade-in-checklist",
+    "expected": [
+      "/apple-trade-in-johannesburg",
+      "/activation-lock-help",
+      "/mac-data-recovery",
+      "/apple-support"
+    ]
+  },
+  {
+    "page": "/iphone-trade-in-checklist",
+    "expected": [
+      "/apple-trade-in-johannesburg",
+      "/activation-lock-help",
+      "/apple-account-security-help",
+      "/apple-support"
+    ]
+  },
+  {
+    "page": "/activation-lock-help",
+    "expected": [
+      "/apple-account-security-help",
+      "/apple-trade-in-johannesburg",
+      "/apple-support"
+    ]
+  },
+  {
+    "page": "/mac-hacked-what-to-do",
+    "expected": [
+      "/suspected-hacked-apple-device",
+      "/mac-remote-access-scam-help",
+      "/apple-account-security-help",
+      "/digital-evidence-preservation",
+      "/macbook-repair/virus-removal"
+    ]
+  },
+  {
+    "page": "/mac-remote-access-scam-help",
+    "expected": [
+      "/suspected-hacked-apple-device",
+      "/apple-device-forensic-assessment",
+      "/apple-account-security-help",
+      "/digital-evidence-preservation"
+    ]
+  },
+  {
+    "page": "/apple-account-security-help",
+    "expected": [
+      "/apple-support",
+      "/activation-lock-help",
+      "/suspected-hacked-apple-device",
+      "/business-mac-security-incident-response"
+    ]
+  },
+  {
+    "page": "/business-mac-security-incident-response",
+    "expected": [
+      "/business",
+      "/sme-support",
+      "/business-device-investigation-consent",
+      "/digital-evidence-preservation",
+      "/apple-device-forensic-assessment",
+      "/mac-data-recovery"
+    ]
+  },
+  {
+    "page": "/digital-evidence-preservation",
+    "expected": [
+      "/apple-device-forensic-assessment",
+      "/chain-of-custody-digital-evidence-south-africa",
+      "/business-device-investigation-consent",
+      "/suspected-hacked-apple-device"
+    ]
+  },
+  {
+    "page": "/apple-device-forensic-assessment",
+    "expected": [
+      "/digital-evidence-preservation",
+      "/chain-of-custody-digital-evidence-south-africa",
+      "/business-device-investigation-consent",
+      "/business-mac-security-incident-response",
+      "/mac-data-recovery"
+    ]
+  },
+  {
+    "page": "/business-device-investigation-consent",
+    "expected": [
+      "/business-mac-security-incident-response",
+      "/apple-device-forensic-assessment",
+      "/digital-evidence-preservation",
+      "/chain-of-custody-digital-evidence-south-africa"
+    ]
+  },
+  {
+    "page": "/chain-of-custody-digital-evidence-south-africa",
+    "expected": [
+      "/digital-evidence-preservation",
+      "/apple-device-forensic-assessment",
+      "/business-device-investigation-consent",
+      "/business-mac-security-incident-response"
+    ]
+  },
+  {
+    "page": "/apple-support",
+    "expected": [
+      "/mac-data-recovery",
+      "/apple-trade-in-johannesburg",
+      "/suspected-hacked-apple-device",
+      "/apple-account-security-help"
+    ]
+  },
+  {
+    "page": "/macbook-repair",
+    "expected": [
+      "/macbook-not-turning-on",
+      "/guides/macbook-not-charging",
+      "/guides/macbook-overheating-fix",
+      "/guides/macbook-screen-flickering",
+      "/macbook-repair/trackpad",
+      "/macbook-repair/screen",
+      "/battery-replacement",
+      "/logic-board-repair",
+      "/liquid-damage",
+      "/mac-data-recovery"
+    ]
+  },
+  {
+    "page": "/apple-repair",
+    "expected": [
+      "/macbook-repair",
+      "/mac-data-recovery",
+      "/apple-trade-in-johannesburg",
+      "/suspected-hacked-apple-device"
+    ]
+  },
+  {
+    "page": "/liquid-damage",
+    "expected": [
+      "/mac-data-recovery",
+      "/macbook-repair",
+      "/digital-evidence-preservation"
+    ]
+  },
+  {
+    "page": "/logic-board-repair",
+    "expected": [
+      "/mac-data-recovery",
+      "/macbook-not-turning-on",
+      "/macbook-repair/charging-port",
+      "/macbook-repair"
+    ]
+  },
+  {
+    "page": "/macbook-repair/charging-port",
+    "expected": [
+      "/guides/macbook-not-charging",
+      "/battery-replacement",
+      "/logic-board-repair",
+      "/macbook-repair"
+    ]
+  },
+  {
+    "page": "/macbook-repair/data-recovery",
+    "expected": [
+      "/mac-data-recovery",
+      "/guides/how-to-recover-data-from-dead-macbook",
+      "/logic-board-repair",
+      "/digital-evidence-preservation"
+    ]
+  },
+  {
+    "page": "/macbook-repair/virus-removal",
+    "expected": [
+      "/suspected-hacked-apple-device",
+      "/mac-remote-access-scam-help",
+      "/apple-account-security-help",
+      "/apple-device-forensic-assessment"
+    ]
+  },
+  {
+    "page": "/guides/macbook-overheating-fix",
+    "expected": [
+      "/macbook-repair",
+      "/logic-board-repair",
+      "/blog/macbook-thermal-paste-replacement"
+    ]
+  },
+  {
+    "page": "/guides/how-to-check-macbook-battery-health",
+    "expected": [
+      "/battery-replacement",
+      "/macbook-repair",
+      "/blog/macbook-battery-service-recommended-meaning"
+    ]
+  },
+  {
+    "page": "/guides/how-to-recover-data-from-dead-macbook",
+    "expected": [
+      "/mac-data-recovery",
+      "/macbook-repair/data-recovery",
+      "/logic-board-repair"
+    ]
+  },
+  {
+    "page": "/guides/macbook-not-charging",
+    "expected": [
+      "/macbook-repair/charging-port",
+      "/battery-replacement",
+      "/logic-board-repair"
+    ]
+  },
+  {
+    "page": "/guides/macbook-screen-flickering",
+    "expected": [
+      "/macbook-repair/screen",
+      "/logic-board-repair",
+      "/macbook-repair"
+    ]
+  },
+  {
+    "page": "/macbook-not-turning-on",
+    "expected": [
+      "/mac-data-recovery",
+      "/logic-board-repair",
+      "/macbook-repair"
+    ]
+  },
+  {
+    "page": "/suspected-hacked-apple-device",
+    "expected": [
+      "/mac-hacked-what-to-do",
+      "/mac-remote-access-scam-help",
+      "/apple-device-forensic-assessment",
+      "/digital-evidence-preservation",
+      "/business-mac-security-incident-response",
+      "/apple-account-security-help"
+    ]
+  },
+  {
+    "page": "/business",
+    "expected": [
+      "/business-mac-security-incident-response",
+      "/business-device-investigation-consent"
+    ]
+  },
+  {
+    "page": "/sme-support",
+    "expected": [
+      "/business-mac-security-incident-response",
+      "/mac-data-recovery"
+    ]
+  },
+  {
+    "page": "/imac-repair",
+    "expected": [
+      "/mac-data-recovery",
+      "/apple-trade-in-johannesburg"
+    ]
+  },
+  {
+    "page": "/mac-mini-repair",
+    "expected": [
+      "/mac-data-recovery",
+      "/apple-support"
+    ]
+  },
+  {
+    "page": "/blog/signs-of-water-damage-macbook",
+    "expected": [
+      "/liquid-damage",
+      "/macbook-repair",
+      "/mac-data-recovery",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/macbook-thermal-paste-replacement",
+    "expected": [
+      "/guides/macbook-overheating-fix",
+      "/logic-board-repair",
+      "/macbook-repair",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/macbook-trackpad-not-clicking",
+    "expected": [
+      "/macbook-repair/trackpad",
+      "/battery-replacement",
+      "/macbook-repair",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/macbook-battery-service-recommended-meaning",
+    "expected": [
+      "/battery-replacement",
+      "/guides/how-to-check-macbook-battery-health",
+      "/macbook-repair",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/macbook-battery-health-below-80-percent",
+    "expected": [
+      "/battery-replacement",
+      "/macbook-repair",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/why-apple-declines-liquid-damage-repair",
+    "expected": [
+      "/liquid-damage",
+      "/mac-data-recovery",
+      "/macbook-repair",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/macbook-stage-light-effect-explained",
+    "expected": [
+      "/macbook-repair/screen",
+      "/macbook-repair",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/macbook-pro-m2-data-recovery",
+    "expected": [
+      "/mac-data-recovery",
+      "/macbook-repair/data-recovery",
+      "/guides/how-to-recover-data-from-dead-macbook",
+      "/logic-board-repair",
+      "/liquid-damage",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/macbook-pro-m3-data-recovery",
+    "expected": [
+      "/mac-data-recovery",
+      "/macbook-repair/data-recovery",
+      "/guides/how-to-recover-data-from-dead-macbook",
+      "/logic-board-repair",
+      "/liquid-damage",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/data-recovery-from-dead-macbook",
+    "expected": [
+      "/mac-data-recovery",
+      "/macbook-repair/data-recovery",
+      "/guides/how-to-recover-data-from-dead-macbook",
+      "/logic-board-repair",
+      "/liquid-damage",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/apple-repair-vs-replacement-guide-johannesburg",
+    "expected": [
+      "/apple-trade-in-johannesburg",
+      "/macbook-trade-in-checklist",
+      "/macbook-repair",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/apple-authorised-vs-independent-repair-johannesburg",
+    "expected": [
+      "/macbook-repair",
+      "/apple-trade-in-johannesburg",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/mac-virus-removal-johannesburg",
+    "expected": [
+      "/macbook-repair/virus-removal",
+      "/suspected-hacked-apple-device",
+      "/mac-remote-access-scam-help",
+      "/book"
+    ]
+  },
+  {
+    "page": "/blog/apple-id-locked-recovery-johannesburg",
+    "expected": [
+      "/apple-account-security-help",
+      "/activation-lock-help",
+      "/book"
+    ]
+  }
+]

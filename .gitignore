@@ -24,6 +24,10 @@ docs/seo/advisor-gap-inbox.md
 __pycache__/
 *.pyc
 
+# Isolated build checkouts and machine-readable verification evidence.
+.build-sandboxes/
+.reliability/
+
 # robots index guard runtime
 tools/robots/state/
 tools/robots/_archive/
