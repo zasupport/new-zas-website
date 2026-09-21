@@ -16,16 +16,16 @@ separate observations. A linked worktree can keep .git outside an authorised
 folder; prefer an ordinary standalone clone with its own metadata. A denial
 requires supported workspace approval, never an indirect execution workaround.
 
-The reusable native repair and dual-environment receipt contract is
-`tools/workspace-recovery/ZA Support Workspace Recovery.command`.
-Run its self-test before delivery. The native verification receipt cannot by
+Keep environment-specific workspace repair handoffs and diagnostic receipts
+private; do not commit personal paths or session context to this public repository.
+Run a recovery handoff's self-test before delivery. The native verification receipt cannot by
 itself close the remote-access issue; a fresh revision-bound remote receipt is
 required. Existing uncommitted work must be preserved.
 
 Operational deliverables must carry an executable Claude Code lesson with
 evidence, trigger, checks, propagation destination and next action. Scan existing
-rules first and append only new knowledge. "Torcod" and contextually "clawed code"
-are speech-to-text variants of "Claude Code", not separate products.
+rules first and append only new knowledge. Store personal workflow preferences in
+the private handoff, not in public source files.
 
 Sitemap lastmod must reflect a verified significant content change, not the
 current build time. Indexable, discovered, crawled and indexed are separate
