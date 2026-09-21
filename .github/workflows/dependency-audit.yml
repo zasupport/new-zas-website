@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version-file: '.nvmrc'
       - name: Audit the committed lockfile without installation
         run: npm audit --json --audit-level=moderate > npm-audit.json
       - uses: actions/upload-artifact@v4

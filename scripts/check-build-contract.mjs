@@ -16,4 +16,11 @@ assert(!workflow.includes('npm run lint & wait'),'Bare wait can hide a failed ga
 assert(workflow.includes('npm run build'),'Full build gate missing');
 assert(workflow.includes('npm run check:security'),'Security audit gate missing');
 assert(workflow.includes('${GITHUB_SHA:0:8}'),'Exact production revision must be checked');
+for (const file of fs.readdirSync(path.join(root,'.github/workflows')).filter(f=>/\.ya?ml$/.test(f))) {
+  const text=fs.readFileSync(path.join(root,'.github/workflows',file),'utf8');
+  if(text.includes('actions/setup-node')) {
+    assert(!/\bnode-version:/.test(text),file+': use .nvmrc rather than a second runtime version');
+    assert(text.includes("node-version-file: '.nvmrc'"),file+': runtime source of truth missing');
+  }
+}
 console.log('PASS: deterministic fonts, truthful sitemap dates, fail-closed CI and revision-bound deploy checks');

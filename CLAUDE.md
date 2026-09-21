@@ -9,6 +9,8 @@ Extends the existing source-verification and continuous-learning rules below.
 Before a release, run `npm run check:reliability`, `npm run check:seo`,
 `npm run check:security`, typecheck, lint and the full build using Node 22
 from `.nvmrc`. Do not relax `engine-strict` or permissions to make a gate pass.
+Every Node-based CI job reads `.nvmrc` through `node-version-file`; no separate
+hardcoded Node version is allowed. The build-contract test checks this.
 The cloud build, native Mac build and remote-device workspace permissions are
 separate observations. A linked worktree can keep .git outside an authorised
 folder; prefer an ordinary standalone clone with its own metadata. A denial
