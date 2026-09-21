@@ -4192,7 +4192,7 @@ Why haven't more people heard of us? Partly because we don't advertise heavily. 
 
 Start with a [WhatsApp message to 064 529 5863](https://wa.me/27645295863). Include your device model, what's happening (won't turn on, kernel panics, won't charge), and whether there's been any liquid exposure. We'll advise on next steps and book you a slot.
 
-Alternatively, visit [zasupport.com/book](https://www.zasupport.com/book) to check our schedule directly. We're open Monday to Friday, 8am to 5pm, Saturday 9am to 1pm.
+Alternatively, visit [zasupport.com/book](https://zasupport.com/book) to check our schedule directly. We're open Monday to Friday, 8am to 5pm, Saturday 9am to 1pm.
 
 Our full logic board repair process is documented at [/logic-board-repair](/logic-board-repair). That page covers pre-repair steps, what to expect during repair, and troubleshooting if issues persist post-repair.
 

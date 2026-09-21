@@ -222,8 +222,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Apple Watch repair
     { url: `${base}/apple-watch-repair`, changeFrequency: 'monthly', priority: 0.8 },
 
-    // AirPods repair
-    { url: `${base}/airpods-repair`, changeFrequency: 'monthly', priority: 0.8 },
 
     // Apple accessories repair
     { url: `${base}/accessories-repair`, changeFrequency: 'monthly', priority: 0.7 },

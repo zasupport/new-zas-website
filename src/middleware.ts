@@ -142,6 +142,18 @@ function isValidOrigin(request: NextRequest): boolean {
 
 // ─── Middleware Entry ───────────────────────────────────────────────────────
 export function middleware(request: NextRequest) {
+  // Canonical host: single-hop 301 www -> non-www. In-repo layer (CDN/DNS is the
+  // authoritative host-canonicalisation layer but is gated this pass). Anti-loop:
+  // ONLY redirects when Host starts with 'www.'; the non-www branch never redirects.
+  const host = request.headers.get('host') ?? '';
+  if (host.startsWith('www.')) {
+    const url = request.nextUrl.clone();
+    url.host = 'zasupport.com';
+    url.protocol = 'https:';
+    url.port = '';
+    return NextResponse.redirect(url, 301);
+  }
+
   const { pathname } = request.nextUrl;
   const ip = getClientIp(request);
   const ua = request.headers.get('user-agent');

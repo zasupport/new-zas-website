@@ -98,6 +98,16 @@ export const NAV_LINKS: NavLink[] = [
       { label: 'Apple MDM', href: '/jamf-mdm', desc: 'Apple device management' },
     ],
   },
+  {
+    label: 'Apple Support & Security',
+    href: '/apple-support',
+    children: [
+      { label: 'Apple Account Security Help', href: '/apple-account-security-help', desc: 'Account access, verification & protection' },
+      { label: 'Suspected Hacked Apple Device', href: '/suspected-hacked-apple-device', desc: 'Compromise checks & safe next steps' },
+      { label: 'Mac Data Recovery', href: '/mac-data-recovery', desc: 'Recover files from a failing Mac' },
+      { label: 'Apple Trade-In Johannesburg', href: '/apple-trade-in-johannesburg', desc: 'Prepare a device for resale or trade-in' },
+    ],
+  },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
 ];

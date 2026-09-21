@@ -18,17 +18,17 @@ function AuthorPageSchema({ author, articles }: { author: AuthorEntry; articles:
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    '@id': `https://www.zasupport.com/author/${author.slug}#person`,
+    '@id': `https://zasupport.com/author/${author.slug}#person`,
     name: author.name,
-    url: `https://www.zasupport.com/author/${author.slug}`,
-    image: `https://www.zasupport.com${author.image}`,
+    url: `https://zasupport.com/author/${author.slug}`,
+    image: `https://zasupport.com${author.image}`,
     jobTitle: author.role,
     description: author.bio,
     worksFor: {
       '@type': 'Organization',
-      '@id': 'https://www.zasupport.com/#organization',
+      '@id': 'https://zasupport.com/#organization',
       name: 'ZA Support',
-      url: 'https://www.zasupport.com',
+      url: 'https://zasupport.com',
     },
     knowsAbout: [
       'Apple Mac repair',
@@ -52,11 +52,11 @@ function AuthorPageSchema({ author, articles }: { author: AuthorEntry; articles:
   const profilePageSchema = {
     '@context': 'https://schema.org',
     '@type': 'ProfilePage',
-    '@id': `https://www.zasupport.com/author/${author.slug}`,
+    '@id': `https://zasupport.com/author/${author.slug}`,
     name: `${author.name}, ${author.role}`,
     description: author.bio,
     mainEntity: {
-      '@id': `https://www.zasupport.com/author/${author.slug}#person`,
+      '@id': `https://zasupport.com/author/${author.slug}#person`,
     },
   }
 

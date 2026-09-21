@@ -10,7 +10,6 @@ const serviceLinks = [
   { label: 'iPhone Repair', href: '/iphone-repair' },
   { label: 'iPad Repair', href: '/ipad-repair' },
   { label: 'Mac mini Repair', href: '/mac-mini-repair' },
-  { label: 'AirPods Repair', href: '/airpods-repair' },
   { label: 'Accessories Repair', href: '/accessories-repair' },
   { label: 'Apple Repair Hub', href: '/apple-repair' },
   { label: 'For Business', href: '/business' },
