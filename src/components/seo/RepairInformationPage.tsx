@@ -11,8 +11,8 @@ export default function RepairInformationPage({ slug }: { slug: keyof typeof con
   return <>
     {page.service && <SchemaOrg schema={{ ...buildServiceSchema({name: page.title, description: page.description}), provider: { '@id': 'https://zasupport.com/#organization' }, '@id': url + '#service', url }} />}
     <SchemaOrg schema={buildBreadcrumbSchema([{ name: 'Home', url: 'https://zasupport.com' }, { name: page.title, url }])} />
-    <main data-release="repair-growth-20260921" className="min-h-screen bg-[#0A1A18] text-[#E8F4F1]">
-      <header className="mx-auto max-w-5xl px-4 pb-12 pt-14 sm:px-6 sm:pt-20">
+    <article data-release="repair-growth-20260921" className="min-h-screen bg-[#0A1A18] text-[#E8F4F1]">
+      <header className="mx-auto max-w-5xl px-4 pb-12 pt-28 sm:px-6 sm:pt-32">
         <nav aria-label="Breadcrumb" className="mb-8 text-sm"><Link className="text-[#0FEA7A] underline" href="/">Home</Link><span className="px-2">/</span><span>{page.title}</span></nav>
         <p className="mb-4 text-sm font-semibold uppercase tracking-wider text-[#0FEA7A]">ZA Support · Johannesburg</p>
         <h1 className="max-w-4xl text-3xl font-extrabold leading-tight sm:text-5xl">{page.title}</h1>
@@ -31,6 +31,6 @@ export default function RepairInformationPage({ slug }: { slug: keyof typeof con
       </div>
       <RepairGrowthSection title="Related services and guidance" links={page.links as [string, string][]} />
       <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6"><PricingNote /></div>
-    </main>
+    </article>
   </>;
 }
