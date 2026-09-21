@@ -67,7 +67,7 @@ export function buildMetadata({
 
 export const LOCAL_BUSINESS_SCHEMA = {
   '@context': 'https://schema.org',
-  '@type': ['LocalBusiness', 'ComputerRepairService'],
+  '@type': 'LocalBusiness',
   '@id': `${SITE.url}/#organization`,
   name: SITE.name,
   alternateName: SITE.alternateName,
@@ -115,15 +115,6 @@ export const LOCAL_BUSINESS_SCHEMA = {
     { '@type': 'City', name: 'Randburg' },
     { '@type': 'City', name: 'Rosebank' },
     { '@type': 'City', name: 'Midrand' },
-  ],
-  serviceType: [
-    'Apple Mac Repair',
-    'iPhone Repair',
-    'iPad Repair',
-    'Liquid Damage Repair',
-    'Logic Board Repair',
-    'JAMF MDM',
-    'IT Managed Services',
   ],
   sameAs: [
     'https://www.facebook.com/appleexpertsouthafrica',
