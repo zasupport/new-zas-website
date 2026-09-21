@@ -4,6 +4,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://zasupport.com';
 
   return [
+    // Existing public articles recovered by the complete posts-key inventory.
+    // No fabricated lastModified: this repair changes discovery, not article text.
+    { url: `${base}/blog/apple-prepping-ios-26-4-1-update-for-iphone-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${base}/blog/these-are-my-favorite-macbook-neo-accessories-after-one-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${base}/blog/discounted-ipad-pro-hits-apple-refurb-store-with-last-g-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${base}/blog/iphone-18-s-biggest-design-change-will-be-new-colors-sa-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${base}/blog/apple-adds-apple-tv-and-ipad-mini-models-to-obsolete-pr-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${base}/blog/sunday-reboot-addiction-vr-and-how-the-iphone-air-doesn-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${base}/blog/first-ios-26-5-macos-26-5-developer-betas-now-available-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${base}/blog/ipados-26-5-beta-1-now-available-plus-tvos-26-5-watchos-south-africa-2026`, changeFrequency: 'yearly', priority: 0.5 },
     { url: `${base}/mac-data-recovery`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/apple-trade-in-johannesburg`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/macbook-trade-in-checklist`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
