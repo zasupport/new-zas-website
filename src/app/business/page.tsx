@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
@@ -237,6 +238,7 @@ export default function BusinessHubPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Apple-device incidents and investigation support"} paragraphs={["For a suspected account or device compromise, agree the business authority, preservation requirements and recovery priorities before making changes."]} links={[["/business-mac-security-incident-response","Mac security incident response"],["/business-device-investigation-consent","Investigation authority checklist"]]} />
+</>
   );
 }

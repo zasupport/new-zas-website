@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, CheckCircle, Star, MessageCircle, Shield, Wrench, AlertTriangle, Zap, Bug, Lock } from 'lucide-react';
@@ -539,6 +540,7 @@ export default function MacVirusRemovalPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"When removal is not the first step"} paragraphs={["If remote access, account takeover or a legal dispute is suspected, agree preservation before deleting software or resetting the Mac. A malware scan alone cannot prove what happened to an account or identify an attacker."]} links={[["/suspected-hacked-apple-device","Suspected hacked Apple-device assessment"],["/mac-remote-access-scam-help","Remote-access scam help"],["/apple-account-security-help","Apple Account security"],["/apple-device-forensic-assessment","Evidence-focused assessment"]]} />
+</>
   );
 }

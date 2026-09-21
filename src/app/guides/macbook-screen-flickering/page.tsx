@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Monitor, AlertTriangle, CheckCircle, Shield, Zap, Cpu, MapPin, Lightbulb } from 'lucide-react';
@@ -484,6 +485,7 @@ export default function MacBookScreenFlickeringGuidePage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Display symptom assessment"} paragraphs={["Lines, flicker, an intermittent backlight and a black display can have different causes. Record whether the symptom changes with lid movement or an external display, without repeatedly flexing a damaged assembly. Assessment determines whether the screen, connection or board needs work."]} links={[["/macbook-repair/screen","MacBook screen repair"],["/logic-board-repair","Board-level display faults"],["/macbook-repair","MacBook repair hub"]]} />
+</>
   );
 }

@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, HardDrive, Cpu, Wrench, Thermometer, Zap, Monitor } from 'lucide-react';
@@ -436,6 +437,7 @@ export default function MacMiniRepairPage() {
           </p>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Mac mini data recovery options"} paragraphs={["The Mac mini model, storage layout and encryption determine the available recovery path. If data is the priority, preserve the original hardware and stop before erasing or approving replacement parts."]} links={[["/mac-data-recovery","Mac mini recovery assessment"],["/apple-support","Migration and setup"]]} />
+</>
   );
 }

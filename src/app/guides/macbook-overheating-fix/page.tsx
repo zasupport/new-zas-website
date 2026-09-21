@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, CheckCircle, ArrowRight, MapPin, Thermometer, AlertTriangle } from 'lucide-react';
@@ -532,6 +533,7 @@ export default function MacBookOverheatingFixPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"When overheating needs a repair assessment"} paragraphs={["Heat and fan noise can come from workload, restricted airflow, software, fan or sensor faults, or board issues. Thermal paste is one possible consideration, not a diagnosis or automatic repair for every Mac. Apple silicon MacBook Air models are fanless, so fan-noise advice is not applicable to those devices."]} links={[["/macbook-repair","MacBook repair assessment"],["/logic-board-repair","Board and thermal-fault assessment"],["/blog/macbook-thermal-paste-replacement","Thermal paste: when it is relevant"]]} />
+</>
   );
 }

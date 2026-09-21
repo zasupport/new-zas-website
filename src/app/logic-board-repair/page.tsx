@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Suspense } from 'react';
@@ -761,7 +762,8 @@ export default function LogicBoardRepairPage() {
             </div>
           </div>
         </section>
-      </main>
+      <RepairGrowthSection title={"Component-level assessment and data priorities"} paragraphs={["The exact model and fault determine the board-level work. Record liquid or impact history and previous attempts, then assess power, charging, display and storage-related behaviour as applicable.","Microscope inspection and electrical measurements help distinguish faults before a component is replaced. Cleaning is selected only when appropriate to the affected assembly; it is not an automatic cure for every liquid-damaged board.","For Apple silicon and T2 Macs, readable internal storage depends on the encryption architecture. Removing flash chips alone does not recover the files. Agree recovery priorities before replacing the original board.","Post-repair checks should cover the original symptom and relevant charging, sleep, thermal, display and storage behaviour. The quote and report state remaining limits."]} links={[["/mac-data-recovery","Hardware-dependent data recovery"],["/macbook-not-turning-on","No-power diagnosis"],["/macbook-repair/charging-port","Charging-port assessment"],["/macbook-repair","MacBook repair hub"]]} />
+</main>
     </>
   );
 }

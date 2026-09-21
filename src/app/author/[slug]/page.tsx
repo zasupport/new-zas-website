@@ -71,8 +71,9 @@ function AuthorPageSchema({ author, articles }: { author: AuthorEntry; articles:
 // Generate self-referential canonical for every author slug rendered by this
 // template, per HR §399 every URL must declare its own canonical, never inherit
 // from root layout. Unknown slugs return notFound() before metadata renders.
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const author = authors[params.slug]
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const author = authors[slug]
   if (!author) {
     return {
       title: 'Author Not Found | ZA Support',
@@ -88,8 +89,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 // Full author page component
-export default function AuthorPage({ params }: { params: { slug: string } }) {
-  const author = authors[params.slug]
+export default async function AuthorPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const author = authors[slug]
   if (!author) notFound()
 
   // In production, fetch from Sanity CMS

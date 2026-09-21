@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import {
 	AlertTriangle,
 	CheckCircle,
@@ -81,7 +82,7 @@ const faqs = [
 		question:
 			"Will you recover a hacked account, remove Activation Lock, or bypass a password?",
 		answer:
-			"No. ZA Support does not promise account recovery, password, two-factor or Activation Lock bypass, guaranteed attribution of who did something, legal conclusions, forensic-admissibility claims, or recovery of lost data, funds or accounts. Account recovery is handled by Apple or your provider directly, and we will point you to the correct official route.",
+			"ZA Support assists legitimate owners with the official Apple or provider recovery process. We do not bypass passwords, two-factor authentication or Activation Lock, or guarantee account recovery or attacker attribution. Technical investigation and evidence reporting can be scoped separately, with qualified partners for process review and legal representation. A court determines admissibility.",
 	},
 	{
 		question: "How do I contact you privately?",
@@ -222,19 +223,17 @@ export default function SuspectedHackedAppleDevicePage() {
 					</p>
 					<ul className="mt-3 space-y-2 text-gray-800">
 						<li>
-							• Recovery of a locked or hacked Apple Account, email or other
-							account.
+							• Guaranteed recovery of a locked or compromised account outside the provider’s official process.
 						</li>
 						<li>
-							• Password, two-factor, or Activation Lock bypass or removal.
+							• Password, two-factor or Activation Lock bypass.
 						</li>
 						<li>
 							• A guarantee of who was responsible, or attribution of an
 							attacker.
 						</li>
 						<li>
-							• Legal advice or legal conclusions, or evidence prepared for
-							admissibility in court.
+							• Legal representation by ZA Support itself, or a guarantee of court admissibility.
 						</li>
 						<li>• Guaranteed recovery of lost data, money or accounts.</li>
 					</ul>
@@ -321,7 +320,8 @@ export default function SuspectedHackedAppleDevicePage() {
 						</a>
 					</div>
 				</section>
-			</main>
+			<RepairGrowthSection title={"Technical investigation and evidence-focused reporting"} paragraphs={["ZA Support handles technical assessment, preservation, analysis, reporting and recovery-oriented work directly within an agreed mandate. Advocates and qualified partners handle legal representation, regulated representation and relevant process review.","Appropriately qualified PSIRA partners can review the process followed and provide relevant sign-off within the engagement. Neither that sign-off nor a technical report guarantees court admissibility. Lawful authority, scope and device-specific limitations are documented before work begins."]} links={[["/mac-hacked-what-to-do","First steps for a suspected hacked Mac"],["/mac-remote-access-scam-help","Someone remotely accessed my Mac"],["/apple-device-forensic-assessment","Forensic assessment and reporting"],["/digital-evidence-preservation","Preserving device evidence"],["/business-mac-security-incident-response","Business incident response"],["/apple-account-security-help","Apple Account security assistance"]]} />
+</main>
 		</>
 	);
 }

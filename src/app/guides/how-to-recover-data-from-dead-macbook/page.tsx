@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, Clock, CheckCircle, AlertTriangle } from 'lucide-react';
@@ -39,7 +40,7 @@ const faqs = [
   {
     question: 'My MacBook M1 is dead. Can the SSD be removed for data recovery?',
     answer:
-      'No. On M1, M2, M3, and M4 MacBooks, the SSD NAND flash chips are soldered directly to the logic board and integrated into the Apple Silicon system-on-chip package. The storage controller and encryption are built into the SoC itself. There is no removable SSD to extract. Data recovery requires repairing the logic board to a functional state, then using Apple Share Disk or a direct boot to copy the data.',
+      'No. On M1, M2, M3, and M4 MacBooks, the NAND flash chips are soldered to the logic board; the storage controller and security functions are integrated into the Apple silicon architecture. The storage controller and encryption are built into the SoC itself. There is no removable SSD to extract. Data recovery requires repairing the logic board to a functional state, then using Apple Share Disk or a direct boot to copy the data.',
   },
   {
     question: 'Can I use DFU mode to recover data from my MacBook?',
@@ -294,7 +295,7 @@ export default function DataRecoveryGuidePage() {
               remove the bottom case with a pentalobe P5 screwdriver, disconnect the battery (important for
               safety), unscrew the single T5 Torx screw holding the SSD, slide it out, and connect it to a
               USB adapter on a working Mac. The data appears unencrypted unless FileVault was enabled, in which
-              case you will need the FileVault recovery key or the iCloud account password.
+              case you will need a valid Mac login credential or applicable FileVault recovery key. An Apple Account password is not a universal decryption credential.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
               {[
@@ -662,6 +663,7 @@ export default function DataRecoveryGuidePage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Recovery before reset or board replacement"} paragraphs={["Modern Mac internal encryption can bind recovery to the original hardware and valid credentials. Do not erase, restore firmware or replace the board until the recovery objective is assessed. Removing NAND chips alone is not a general recovery method for Apple silicon or T2 Macs."]} links={[["/mac-data-recovery","Mac recovery feasibility and limits"],["/macbook-repair/data-recovery","MacBook recovery service"],["/logic-board-repair","Original-board repair"]]} />
+</>
   );
 }

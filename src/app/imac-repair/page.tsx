@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Monitor, Cpu, HardDrive, Wrench, Droplets, Zap } from 'lucide-react';
@@ -363,6 +364,7 @@ export default function IMacRepairPage() {
           </p>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"iMac recovery before replacement"} paragraphs={["Internal drives, external storage and encrypted integrated storage require different methods. Identify the exact iMac model and discuss the required files before erasure or replacement hardware."]} links={[["/mac-data-recovery","iMac data recovery assessment"],["/apple-trade-in-johannesburg","Resale and handover readiness"]]} />
+</>
   );
 }

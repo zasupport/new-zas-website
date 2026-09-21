@@ -1,8 +1,9 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, BadgeCheck, Clock, Star, Headphones } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
-import { buildFaqSchema } from '@/lib/schema';
+import { buildFaqSchema, buildServiceSchema } from '@/lib/schema';
 import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE } from '@/lib/constants';
 import OrphanLinks from '@/components/ui/OrphanLinks';
@@ -27,8 +28,8 @@ const supportServices = [
   },
   {
     title: 'Data Recovery',
-    desc: 'Deleted files, failed drives, corrupted Time Machine backups, recovered where technically possible.',
-    href: '/apple-repair',
+    desc: 'Deleted files, failed drives, corrupted Time Machine backups, assessed for recovery where technically possible.',
+    href: '/mac-data-recovery',
   },
   {
     title: 'Mac Setup & Migration',
@@ -99,6 +100,7 @@ const faqSchema = buildFaqSchema(faqs);
 export default function AppleSupportPage() {
   return (
     <>
+      <SchemaOrg schema={{ ...buildServiceSchema({ name: 'Apple Support and Technical Help', description: 'Mac, iPhone and iPad troubleshooting, setup, migration, recovery assessment and Apple Account assistance in Johannesburg.' }), provider: { '@id': 'https://zasupport.com/#organization' }, '@id': 'https://zasupport.com/apple-support#service', url: 'https://zasupport.com/apple-support' }} />
       <SchemaOrg schema={faqSchema} />
       <SchemaOrg schema={breadcrumbSchema} />
 
@@ -226,6 +228,7 @@ export default function AppleSupportPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Recovery, security and device handover"} paragraphs={["Apple support includes migration and resale preparation, recovery assessment and assistance with official Apple Account security processes. If evidence may be needed, agree preservation before changes are made."]} links={[["/mac-data-recovery","Mac data recovery"],["/apple-trade-in-johannesburg","Trade-in and resale readiness"],["/suspected-hacked-apple-device","Suspected compromise assessment"],["/apple-account-security-help","Apple Account security help"]]} />
+</>
   );
 }

@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Suspense } from 'react';
@@ -654,7 +655,8 @@ export default function LiquidDamagePage() {
             </div>
           </div>
         </section>
-      </main>
+      <RepairGrowthSection title={"Protect the files before the repair"} paragraphs={["Disconnect external power and stop repeated attempts to start or charge a wet device. Tell the workshop which files need preserving before any board replacement or erasure is approved. Recovery depends on the affected hardware, storage and encryption."]} links={[["/mac-data-recovery","Mac liquid-damage data recovery"],["/macbook-repair","MacBook repair hub"],["/digital-evidence-preservation","Preservation before repair"]]} />
+</main>
     </>
   );
 }

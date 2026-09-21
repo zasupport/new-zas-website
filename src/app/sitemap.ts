@@ -5,6 +5,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
   return [
+    { url: `${base}/mac-data-recovery`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/apple-trade-in-johannesburg`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/macbook-trade-in-checklist`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/iphone-trade-in-checklist`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/activation-lock-help`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/mac-hacked-what-to-do`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/mac-remote-access-scam-help`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/apple-account-security-help`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/business-mac-security-incident-response`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/digital-evidence-preservation`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/apple-device-forensic-assessment`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/business-device-investigation-consent`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/chain-of-custody-digital-evidence-south-africa`, lastModified: new Date('2026-09-21T00:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
     // Homepage
     { url: base, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
 
