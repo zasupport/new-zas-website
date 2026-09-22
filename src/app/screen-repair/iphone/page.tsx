@@ -12,6 +12,7 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/iphone', title: 'iPhone Screen Repair Johannesburg [2026] | ZA Support', description: 'iPhone screen repair in Johannesburg. OLED & LCD panels, True Tone calibration, Face ID preserved. Same-day repair at Hyde Park. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Screen Repair Johannesburg [2026] | ZA Support',
   description:
     'iPhone screen repair in Johannesburg. OLED & LCD panels, True Tone calibration, Face ID preserved. Same-day repair at Hyde Park. Call 064 529 5863.',

@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-pro-16-inch', title: 'MacBook Pro 16-inch Logic Board Repair Johannesburg', description: 'MacBook Pro 16-inch logic board repair in Johannesburg. Intel 2019-2021, M1 Pro/Max 2021, M2 Pro/Max 2023, M3 Pro/Max 2023. No power, GPU, display, liquid damage. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro 16-inch Logic Board Repair Johannesburg',
   description: 'MacBook Pro 16-inch logic board repair in Johannesburg. Intel 2019-2021, M1 Pro/Max 2021, M2 Pro/Max 2023, M3 Pro/Max 2023. No power, GPU, display, liquid damage. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-16-inch' },

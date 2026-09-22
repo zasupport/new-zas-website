@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/randpark-ridge', title: 'MacBook Battery Replacement Randpark Ridge | ZA Support Hyde Park', description: 'MacBook battery replacement for Randpark Ridge clients. Genuine Apple-spec batteries, fast turnaround. We collect from Randpark Ridge and replace at our Hyde Park workshop. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Randpark Ridge | ZA Support Hyde Park',
   description:
     'MacBook battery replacement for Randpark Ridge clients. Genuine Apple-spec batteries, fast turnaround. We collect from Randpark Ridge and replace at our Hyde Park workshop. Assessment. Call 064 529 5863.',

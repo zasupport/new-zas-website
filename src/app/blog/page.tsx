@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, Calendar } from 'lucide-react';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/blog', title: 'Blog, Apple Tips, Repair Guides & Tech News | ZA Support', description: 'Apple repair tips, macOS guides, device maintenance advice, and IT news from ZA Support, Johannesburg\'s Apple specialists.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Blog, Apple Tips, Repair Guides & Tech News | ZA Support',
   description: 'Apple repair tips, macOS guides, device maintenance advice, and IT news from ZA Support, Johannesburg\'s Apple specialists.',
   alternates: { canonical: 'https://zasupport.com/blog' },

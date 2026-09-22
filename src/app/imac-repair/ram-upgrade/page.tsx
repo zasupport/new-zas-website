@@ -8,6 +8,7 @@ import { CONTACT } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/imac-repair/ram-upgrade', title: 'iMac RAM Upgrade Johannesburg | Up to 128 GB | ZA Support', description: 'iMac RAM upgrade in Johannesburg. Upgrade iMac 27" Intel to 32 GB, 64 GB or 128 GB RAM. Tool-free installation via rear panel. Same-day service. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iMac RAM Upgrade Johannesburg | Up to 128 GB | ZA Support',
   description:
     'iMac RAM upgrade in Johannesburg. Upgrade iMac 27" Intel to 32 GB, 64 GB or 128 GB RAM. Tool-free installation via rear panel. Same-day service. Hyde Park.',

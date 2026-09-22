@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-air-m3', title: 'MacBook Air M3 Logic Board Repair 2026', description: 'Expert MacBook Air M3 logic board repair in Johannesburg. Component-level diagnosis of M3 chip, MagSafe 3, USB-C and backlight failures. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M3 Logic Board Repair 2026',
   description:
     'Expert MacBook Air M3 logic board repair in Johannesburg. Component-level diagnosis of M3 chip, MagSafe 3, USB-C and backlight failures. Assessment.',
@@ -247,7 +248,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
               { label: 'MacBook Air M2 Logic Board Repair', href: '/logic-board-repair/macbook-air-m2' },
               { label: 'MacBook Air M1 Logic Board Repair', href: '/logic-board-repair/macbook-air-m1' },
               { label: 'MacBook Pro M3 Logic Board Repair', href: '/logic-board-repair/macbook-pro-m3' },
-              { label: 'Liquid Damage Repair', href: '/liquid-damage-repair' },
+              { label: 'Liquid Damage Repair', href: '/liquid-damage' },
             ].map((link) => (
               <Link
                 key={link.href}

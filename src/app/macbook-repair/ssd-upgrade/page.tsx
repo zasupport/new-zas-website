@@ -8,6 +8,7 @@ import PricingNote from '@/components/PricingNote';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/macbook-repair/ssd-upgrade', title: 'MacBook SSD Upgrade Johannesburg | Faster Boot, More Storage | ZA Support', description: 'MacBook SSD upgrade in Johannesburg. Replace slow or failing storage on Intel MacBook Air and Pro. Faster boot, more space. Data migration included. Hyde Park. up-to-3 year warranty.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook SSD Upgrade Johannesburg | Faster Boot, More Storage | ZA Support',
   description:
     'MacBook SSD upgrade in Johannesburg. Replace slow or failing storage on Intel MacBook Air and Pro. Faster boot, more space. Data migration included. Hyde Park. up-to-3 year warranty.',

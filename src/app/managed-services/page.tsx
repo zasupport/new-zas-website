@@ -17,6 +17,7 @@ const orphanManagedServicesLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/managed-services', title: 'IT Managed Services Johannesburg, Mac & Windows MSP | ZA Support', description: 'IT managed services in Johannesburg. Apple-first MSP for medical practices, SMEs, and professionals, also supporting Windows devices in mixed environments. Monitoring, support, JAMF MDM. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'IT Managed Services Johannesburg, Mac & Windows MSP | ZA Support',
   description:
     'IT managed services in Johannesburg. Apple-first MSP for medical practices, SMEs, and professionals, also supporting Windows devices in mixed environments. Monitoring, support, JAMF MDM. Call 064 529 5863.',

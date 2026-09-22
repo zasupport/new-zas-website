@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/macbook-running-slow', title: 'MacBook Running Slow? 12 Proven Fixes for 2026 | ZA Support', description: 'MacBook running slow? 12 step-by-step fixes from Activity Monitor to SSD upgrades. South Africa pricing, load shedding tips. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Running Slow? 12 Proven Fixes for 2026 | ZA Support',
   description:
     'MacBook running slow? 12 step-by-step fixes from Activity Monitor to SSD upgrades. South Africa pricing, load shedding tips. Assessment.',
@@ -656,7 +657,7 @@ export default function MacBookRunningSlowGuidePage() {
             {[
               { label: 'Logic Board Repair', href: '/logic-board-repair' },
               { label: 'Battery Replacement', href: '/battery-replacement' },
-              { label: 'SSD Upgrade', href: '/ssd-upgrade' },
+              { label: 'SSD Upgrade', href: '/macbook-repair/ssd-upgrade' },
               { label: 'Liquid Damage Repair', href: '/liquid-damage' },
               { label: 'MacBook Pro Repair', href: '/macbook-pro-repair' },
               { label: 'MacBook Air Repair', href: '/macbook-air-repair' },

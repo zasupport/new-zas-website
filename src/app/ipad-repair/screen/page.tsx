@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/ipad-repair/screen', title: 'iPad Screen Repair Johannesburg | ZA Support', description: 'iPad screen repair in Johannesburg. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPad Screen Repair Johannesburg | ZA Support',
   description:
     'iPad screen repair in Johannesburg. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',

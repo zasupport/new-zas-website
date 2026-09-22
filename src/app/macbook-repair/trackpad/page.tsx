@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/macbook-repair/trackpad', title: 'MacBook Trackpad Repair Johannesburg | ZA Support', description: 'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Assessment. Hyde Park, Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Trackpad Repair Johannesburg | ZA Support',
   description:
     'MacBook trackpad repair in Johannesburg. Trackpad not clicking, cursor jumping, swollen battery pushing trackpad up, Force Touch not working. All MacBook Air and Pro models. Assessment. Hyde Park, Johannesburg.',

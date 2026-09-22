@@ -14,6 +14,7 @@ const orphanAppleSupportLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/apple-support', title: 'Apple Support Johannesburg | Same-Day Help for Mac, iPhone, iPad | ZA Support', description: "Apple support in Johannesburg. On-site and in-studio help for Mac, iPhone, iPad and Apple Watch. Setup, troubleshooting, data recovery, business IT. 4.9★ 632+ reviews. Call 064 529 5863.", siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Apple Support Johannesburg | Same-Day Help for Mac, iPhone, iPad | ZA Support',
   description:
     "Apple support in Johannesburg. On-site and in-studio help for Mac, iPhone, iPad and Apple Watch. Setup, troubleshooting, data recovery, business IT. 4.9★ 632+ reviews. Call 064 529 5863.",

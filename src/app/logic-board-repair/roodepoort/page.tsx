@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/roodepoort', title: 'MacBook Logic Board Repair Roodepoort | ZA Support Hyde Park', description: 'MacBook logic board repair for Roodepoort residents. Component-level repair, board diagnostics, assessment. We collect from Roodepoort and repair at our Hyde Park workshop. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Logic Board Repair Roodepoort | ZA Support Hyde Park',
   description:
     'MacBook logic board repair for Roodepoort residents. Component-level repair, board diagnostics, assessment. We collect from Roodepoort and repair at our Hyde Park workshop. Call 064 529 5863.',
@@ -263,7 +264,6 @@ export default function LogicBoardRepairRoodepoortPage() {
             {[
               { label: "Randburg", href: "/logic-board-repair/randburg" },
               { label: "Northcliff", href: "/logic-board-repair/northcliff" },
-              { label: "Krugersdorp", href: "/logic-board-repair/krugersdorp" },
             ].map((area) => (
               <Link key={area.href} href={area.href} className="glass-card p-4 text-center group">
                 <span className="text-[#E8F4F1] text-sm font-semibold group-hover:text-[#0FEA7A] transition-colors">{area.label}</span>

@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/macbook-air-m3', title: 'MacBook Air M3 Battery Replacement Johannesburg 2026 | ZA Support', description: 'MacBook Air M3 battery replacement in Johannesburg. Service Battery warning, swollen battery, rapid drain. Same-day replacement. No Fix No Fee.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M3 Battery Replacement Johannesburg 2026 | ZA Support',
   description: 'MacBook Air M3 battery replacement in Johannesburg. Service Battery warning, swollen battery, rapid drain. Same-day replacement. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/macbook-air-m3' },

@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/author/mary', title: 'Mary, Client Communications & Operations Lead | ZA Support', description: 'Mary is the client communications and operations lead at ZA Support. She handles all incoming client enquiries, repair bookings, and follow-up correspondence from zasupport.com. All technical content is authored by Courtney Bentley.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Mary, Client Communications & Operations Lead | ZA Support',
   description:
     'Mary is the client communications and operations lead at ZA Support. She handles all incoming client enquiries, repair bookings, and follow-up correspondence from zasupport.com. All technical content is authored by Courtney Bentley.',

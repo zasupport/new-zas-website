@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/apple-support/medical-practices', title: 'Apple Mac Support Medical Practices Johannesburg', description: 'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Apple Mac Support Medical Practices Johannesburg',
   description:
     'Specialist Apple Mac IT support and repair for medical practices in Johannesburg. HPCSA-aware. MacBook, iMac, logic board repair. Assessment. Call 064 529 5863.',

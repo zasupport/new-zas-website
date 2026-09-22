@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/ipad', title: 'iPad Liquid Damage Repair Johannesburg', description: 'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Assessment, up-to-3 year warranty. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPad Liquid Damage Repair Johannesburg',
   description:
     'iPad liquid damage repair in Johannesburg. All iPad models including M4 iPad Pro. Assessment, up-to-3 year warranty. Call 064 529 5863.',

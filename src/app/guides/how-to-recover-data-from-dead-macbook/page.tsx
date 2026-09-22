@@ -10,6 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/how-to-recover-data-from-dead-macbook', title: 'How to Recover Data from a Dead MacBook in 2026 | ZA Support', description: 'Step-by-step guide to recovering data from a dead MacBook. Target Disk Mode, Apple Silicon Share Disk, T2 encryption, SSD removal, and professional options. Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'How to Recover Data from a Dead MacBook in 2026 | ZA Support',
   description:
     'Step-by-step guide to recovering data from a dead MacBook. Target Disk Mode, Apple Silicon Share Disk, T2 encryption, SSD removal, and professional options. Johannesburg.',

@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/northcliff', title: 'MacBook Liquid Damage Repair Northcliff | ZA Support Hyde Park', description: 'MacBook liquid damage repair for Northcliff clients. Ultrasonic cleaning, board-level diagnostics, same-day collection from Northcliff. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Liquid Damage Repair Northcliff | ZA Support Hyde Park',
   description: 'MacBook liquid damage repair for Northcliff clients. Ultrasonic cleaning, board-level diagnostics, same-day collection from Northcliff. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/northcliff' },

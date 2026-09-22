@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/iphone-repair/screen/sunninghill', title: 'iPhone Screen Repair Sunninghill | ZA Support Hyde Park', description: 'iPhone screen repair for Sunninghill clients. OLED and LCD screens, all models. We collect from Sunninghill. Same-day repair available. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Screen Repair Sunninghill | ZA Support Hyde Park',
   description: 'iPhone screen repair for Sunninghill clients. OLED and LCD screens, all models. We collect from Sunninghill. Same-day repair available. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/screen/sunninghill' },

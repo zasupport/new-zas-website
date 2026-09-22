@@ -29,6 +29,7 @@ const orphanIphoneScreenSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/iphone-repair/screen', title: 'iPhone Screen Repair Johannesburg | ZA Support', description: 'iPhone screen repair in Johannesburg. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Screen Repair Johannesburg | ZA Support',
   description:
     'iPhone screen repair in Johannesburg. Cracked OLED, dead touch, lines on display. iPhone 12 through 16 Pro Max. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',

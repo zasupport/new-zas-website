@@ -11,6 +11,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/macbook-screen-flickering', title: 'MacBook Screen Flickering? Causes & Fixes for 2026 | ZA Support', description: 'MacBook screen flickering? Diagnose Flexgate, GPU faults, backlight IC failure and more. Step-by-step fixes plus professional board-level repair in Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Flickering? Causes & Fixes for 2026 | ZA Support',
   description:
     'MacBook screen flickering? Diagnose Flexgate, GPU faults, backlight IC failure and more. Step-by-step fixes plus professional board-level repair in Johannesburg.',

@@ -4,6 +4,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/privacy', title: 'Privacy Policy | ZA Support: POPIA Compliant', description: 'ZA Support privacy policy. POPIA-compliant data protection for Apple repair, managed IT, and medical practice clients in Johannesburg. Learn how we collect, use, and protect your personal information.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Privacy Policy | ZA Support: POPIA Compliant',
   description:
     'ZA Support privacy policy. POPIA-compliant data protection for Apple repair, managed IT, and medical practice clients in Johannesburg. Learn how we collect, use, and protect your personal information.',

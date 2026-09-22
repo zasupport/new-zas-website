@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/iphone-repair/screen/midrand', title: 'iPhone Screen Repair Midrand | ZA Support Hyde Park', description: 'iPhone screen repair for Midrand clients. Cracked OLED, dead touch, lines on display. iPhone 12 to 16 Pro Max. We collect from Midrand. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Screen Repair Midrand | ZA Support Hyde Park',
   description:
     'iPhone screen repair for Midrand clients. Cracked OLED, dead touch, lines on display. iPhone 12 to 16 Pro Max. We collect from Midrand. Call 064 529 5863.',

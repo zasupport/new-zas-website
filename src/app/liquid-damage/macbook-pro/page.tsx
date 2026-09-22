@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/macbook-pro', title: 'MacBook Pro Liquid Damage Repair', description: 'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment, up-to-3 year warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro Liquid Damage Repair',
   description:
     'MacBook Pro liquid damage repair in Johannesburg. Emergency guide, Assessment, up-to-3 year warranty. All M-series and Intel models. Hyde Park. Call 064 529 5863.',

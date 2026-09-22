@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/macbook-air-m1', title: 'MacBook Air M1 Liquid Damage Repair Johannesburg', description: 'MacBook Air M1 liquid damage repair in Johannesburg. Fanless design means liquid pools on the board instead of spreading. Thinner chassis concentrates damage. Assessment. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M1 Liquid Damage Repair Johannesburg',
   description:
     'MacBook Air M1 liquid damage repair in Johannesburg. Fanless design means liquid pools on the board instead of spreading. Thinner chassis concentrates damage. Assessment. Hyde Park.',

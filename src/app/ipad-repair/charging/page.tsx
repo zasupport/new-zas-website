@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/ipad-repair/charging', title: 'iPad Not Charging, Repair Johannesburg | ZA Support', description: 'iPad not charging in Johannesburg? Port cleaning, charging port repair, charging IC fault diagnosis. All models. up-to-3 year warranty. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPad Not Charging, Repair Johannesburg | ZA Support',
   description:
     'iPad not charging in Johannesburg? Port cleaning, charging port repair, charging IC fault diagnosis. All models. up-to-3 year warranty. Hyde Park.',

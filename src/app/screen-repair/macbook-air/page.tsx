@@ -10,6 +10,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/macbook-air', title: 'MacBook Air Screen Repair Johannesburg [2026] | ZA Support', description: 'MacBook Air screen repair in Johannesburg. Cracked Liquid Retina, dead pixels, backlight failure. No Fix No Fee. Hyde Park workshop. Book today.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air Screen Repair Johannesburg [2026] | ZA Support',
   description:
     'MacBook Air screen repair in Johannesburg. Cracked Liquid Retina, dead pixels, backlight failure. No Fix No Fee. Hyde Park workshop. Book today.',

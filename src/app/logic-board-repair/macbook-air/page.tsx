@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-air', title: 'MacBook Air Logic Board Repair', description: 'MacBook Air logic board repair in Johannesburg. Assessment, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air Logic Board Repair',
   description:
     'MacBook Air logic board repair in Johannesburg. Assessment, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',

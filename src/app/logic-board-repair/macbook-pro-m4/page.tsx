@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-pro-m4', title: 'MacBook Pro M4 Logic Board Repair Johannesburg', description: 'MacBook Pro M4, M4 Pro, M4 Max (14-inch & 16-inch, 2024) logic board repair in Johannesburg. Thunderbolt 5, MagSafe 3, no power, charging, XDR display, liquid damage, component-level. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   // clean title (no manual "| ZA Support", layout template adds it once; avoids the
   // doubled-suffix bug present on older model pages). Keyword-first, ~58 chars.
   title: 'MacBook Pro M4 Logic Board Repair Johannesburg',

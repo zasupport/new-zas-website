@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/iphone', title: 'iPhone Liquid Damage Repair Johannesburg', description: 'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Liquid Damage Repair Johannesburg',
   description:
     'iPhone liquid damage repair in Johannesburg. All models iPhone 8 through 16 Pro Max. Assessment. Call 064 529 5863.',

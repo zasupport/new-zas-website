@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/about', title: 'About ZA Support | Apple Repair Specialist Johannesburg | Hyde Park', description: "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 50,000+ repairs, 4.9★. up-to-3 year warranty.", siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'About ZA Support | Apple Repair Specialist Johannesburg | Hyde Park',
   description:
     "ZA Support, certified Mac technician Johannesburg since 2009. Apple repair specialist Hyde Park, serving Sandton, Rosebank, Fourways, Bryanston, Midrand. 50,000+ repairs, 4.9★. up-to-3 year warranty.",

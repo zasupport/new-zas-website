@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/macbook-not-turning-on', title: 'MacBook Not Turning On? 10 Fixes to Try in 2026 | ZA Support', description: 'MacBook not turning on? Try these 10 proven fixes before booking a repair. Step-by-step guide from Johannesburg Apple repair specialists. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Not Turning On? 10 Fixes to Try in 2026 | ZA Support',
   description: 'MacBook not turning on? Try these 10 proven fixes before booking a repair. Step-by-step guide from Johannesburg Apple repair specialists. Assessment.',
   alternates: { canonical: 'https://zasupport.com/guides/macbook-not-turning-on' },
@@ -234,7 +235,7 @@ export default function MacBookNotTurningOnGuidePage() {
             {[
               { label: 'Logic Board Repair', href: '/logic-board-repair' },
               { label: 'MacBook Pro M1 Repair', href: '/logic-board-repair/macbook-pro-m1' },
-              { label: 'Charging Port Repair', href: '/charging-port-repair' },
+              { label: 'Charging Port Repair', href: '/macbook-repair/charging-port' },
               { label: 'Battery Replacement', href: '/battery-replacement' },
               { label: 'Liquid Damage Repair', href: '/liquid-damage' },
               { label: 'MacBook Pro M2 Repair', href: '/logic-board-repair/macbook-pro-m2' },

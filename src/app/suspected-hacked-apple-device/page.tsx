@@ -18,6 +18,7 @@ import { buildWhatsAppUrl, CONTACT } from "@/lib/constants";
 import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from "@/lib/schema";
 
 export const metadata: Metadata = {
+    openGraph: { url: "https://zasupport.com/suspected-hacked-apple-device", title: "Suspected Hacked Mac or iPhone? Apple Device Compromise Assessment | Johannesburg | ZA Support", description: "Worried your Mac, iPhone or Apple device is hacked? Calm, private assessment in Johannesburg. Suspicious pop-ups, unexpected remote access, phishing or strange logins. We help you check safely. Symptoms alone are not proof of compromise. Hyde Park.", siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
 	title:
 		"Suspected Hacked Mac or iPhone? Apple Device Compromise Assessment | Johannesburg | ZA Support",
 	description:

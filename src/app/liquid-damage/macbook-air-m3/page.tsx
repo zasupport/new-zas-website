@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/macbook-air-m3', title: 'MacBook Air M3 Liquid Damage Repair Johannesburg 2026', description: 'MacBook Air M3 liquid damage repair in Johannesburg. Coffee spills, water damage, condensation. Ultrasonic cleaning and component-level board repair. Assessment. No Fix No Fee.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M3 Liquid Damage Repair Johannesburg 2026',
   description: 'MacBook Air M3 liquid damage repair in Johannesburg. Coffee spills, water damage, condensation. Ultrasonic cleaning and component-level board repair. Assessment. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air-m3' },

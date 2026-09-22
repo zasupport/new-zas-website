@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/germiston', title: 'MacBook Battery Replacement Germiston | ZA Support Hyde Park', description: 'MacBook battery replacement for Germiston clients. Genuine Apple-spec batteries, fast turnaround. We collect from Germiston and replace at our Hyde Park workshop. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Germiston | ZA Support Hyde Park',
   description:
     'MacBook battery replacement for Germiston clients. Genuine Apple-spec batteries, fast turnaround. We collect from Germiston and replace at our Hyde Park workshop. Assessment. Call 064 529 5863.',

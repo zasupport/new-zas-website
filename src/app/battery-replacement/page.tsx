@@ -54,6 +54,7 @@ const orphanBatterySuburbLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement', title: 'MacBook Battery Replacement Johannesburg [2026] | ZA Support', description: 'MacBook & iPhone battery replacement in Johannesburg. Same-day service, up-to-3 year warranty. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Johannesburg [2026] | ZA Support',
   description:
     'MacBook & iPhone battery replacement in Johannesburg. Same-day service, up-to-3 year warranty. Assessment. Call 064 529 5863.',

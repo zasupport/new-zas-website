@@ -10,6 +10,7 @@ import { buildFaqSchema, LOCAL_BUSINESS_PROVIDER } from '@/lib/schema';
 import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/macbook-repair/virus-removal', title: 'Mac Virus & Malware Removal Johannesburg | No-Obligation Diagnostic | ZA Support', description: 'Mac virus and malware removal in Johannesburg. Assessment. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Mac Virus & Malware Removal Johannesburg | No-Obligation Diagnostic | ZA Support',
   description:
     'Mac virus and malware removal in Johannesburg. Assessment. Remove Genieo, SearchMine, MacKeeper, adware, and spyware. Mac running slow or showing pop-ups? We fix it. Hyde Park, Johannesburg.',

@@ -71,6 +71,7 @@ const orphanSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage', title: 'MacBook Liquid Damage Repair Johannesburg [2026]', description: 'MacBook & iPhone liquid damage repair in Johannesburg. Component-level board cleaning, ultrasonic recovery, same-day assessment. 12-month warranty. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Liquid Damage Repair Johannesburg [2026]',
   description:
     'MacBook & iPhone liquid damage repair in Johannesburg. Component-level board cleaning, ultrasonic recovery, same-day assessment. 12-month warranty. Call 064 529 5863.',

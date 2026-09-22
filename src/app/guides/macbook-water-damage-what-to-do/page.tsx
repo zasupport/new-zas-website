@@ -9,6 +9,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/macbook-water-damage-what-to-do', title: 'Spilled Water on MacBook? Do This Immediately | 2026 Guide | ZA Support', description: 'Spilled water on your MacBook? Power off NOW. Expert guide: what to do, what NOT to do, and when to get professional repair. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Spilled Water on MacBook? Do This Immediately | 2026 Guide | ZA Support',
   description:
     'Spilled water on your MacBook? Power off NOW. Expert guide: what to do, what NOT to do, and when to get professional repair. Assessment.',
@@ -469,7 +470,7 @@ export default function MacBookWaterDamageGuidePage() {
             {[
               { label: 'All Liquid Damage Repair', href: '/liquid-damage' },
               { label: 'Logic Board Repair', href: '/logic-board-repair' },
-              { label: 'Data Recovery', href: '/data-recovery#macbook' },
+              { label: 'Data Recovery', href: '/mac-data-recovery' },
               { label: 'MacBook Pro Liquid Damage', href: '/liquid-damage/macbook-pro' },
               { label: 'MacBook Air Liquid Damage', href: '/liquid-damage/macbook-air' },
               { label: 'MacBook Pro Repair', href: '/macbook-pro-repair' },

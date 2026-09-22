@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/kempton-park', title: 'MacBook Liquid Damage Repair Kempton Park | ZA Support Hyde Park', description: 'MacBook liquid damage repair for Kempton Park clients. Ultrasonic cleaning, board-level diagnostics. We collect from Kempton Park and Edenvale. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Liquid Damage Repair Kempton Park | ZA Support Hyde Park',
   description:
     'MacBook liquid damage repair for Kempton Park clients. Ultrasonic cleaning, board-level diagnostics. We collect from Kempton Park and Edenvale. Assessment. Call 064 529 5863.',

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { previewNeedsNoindex } from './lib/url-policy';
 
 // ─── Rate Limiting ──────────────────────────────────────────────────────────
 // In-memory sliding window per IP. Vercel edge functions are stateless so this
@@ -141,7 +142,7 @@ function isValidOrigin(request: NextRequest): boolean {
 }
 
 // ─── Middleware Entry ───────────────────────────────────────────────────────
-export function middleware(request: NextRequest) {
+function handleRequest(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const ip = getClientIp(request);
   const ua = request.headers.get('user-agent');
@@ -191,9 +192,26 @@ export function middleware(request: NextRequest) {
   return response;
 }
 
+export function middleware(request: NextRequest) {
+  const response = handleRequest(request);
+  // Next's internal URL may name a local origin behind a reverse proxy.
+  // Use the request Host, not x-forwarded-host or the internal build origin.
+  const requestHost = request.headers.get('host') || '';
+  let hostname = '';
+  try {
+    hostname = new URL(`http://${requestHost}`).hostname;
+  } catch {
+    // Malformed/absent hosts are never treated as indexable production.
+  }
+  if (previewNeedsNoindex(hostname)) {
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
+  }
+  return response;
+}
+
 export const config = {
   matcher: [
     // Apply to everything except static assets and images (handled by Vercel CDN)
-    '/((?!_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|c4f4daab237f44197e59b5b52f40da52.txt).*)',
+    '/((?!_next/static|_next/image|favicon.ico|c4f4daab237f44197e59b5b52f40da52.txt).*)',
   ],
 };

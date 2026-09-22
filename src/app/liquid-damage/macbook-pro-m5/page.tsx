@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/macbook-pro-m5', title: 'MacBook Pro M5 Liquid Damage Repair Johannesburg', description: 'MacBook Pro M5, M5 Pro, M5 Max (14-inch & 16-inch, 2026) liquid damage repair in Johannesburg. Coffee spills, water, condensation. Ultrasonic cleaning and component-level board repair. No Fix No Fee, assessment fee may apply.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro M5 Liquid Damage Repair Johannesburg',
   description: 'MacBook Pro M5, M5 Pro, M5 Max (14-inch & 16-inch, 2026) liquid damage repair in Johannesburg. Coffee spills, water, condensation. Ultrasonic cleaning and component-level board repair. No Fix No Fee, assessment fee may apply.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m5' },

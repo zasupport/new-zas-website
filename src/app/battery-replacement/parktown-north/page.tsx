@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/parktown-north', title: 'MacBook Battery Replacement Parktown North | ZA Support Hyde Park', description: 'MacBook battery replacement for Parktown North clients. Same-day service, collection from Parktown North. Written warranty. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Parktown North | ZA Support Hyde Park',
   description: 'MacBook battery replacement for Parktown North clients. Same-day service, collection from Parktown North. Written warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/parktown-north' },

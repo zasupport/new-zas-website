@@ -30,7 +30,7 @@ export function BlogSchema({
   faqs,
 }: BlogSchemaProps) {
   const author = authors[authorSlug]
-  const url = `https://www.zasupport.com/blog/${slug}`
+  const url = `https://zasupport.com/blog/${slug}`
 
   // BlogPosting schema with full E-E-A-T signals
   const blogPosting = {
@@ -47,7 +47,7 @@ export function BlogSchema({
     image: image
       ? {
           '@type': 'ImageObject',
-          url: image.startsWith('http') ? image : `https://www.zasupport.com${image}`,
+          url: image.startsWith('http') ? image : `https://zasupport.com${image}`,
         }
       : undefined,
     mainEntityOfPage: {
@@ -57,12 +57,12 @@ export function BlogSchema({
     author: {
       '@type': 'Person',
       name: author?.name || 'Courtney Bentley',
-      url: `https://www.zasupport.com/author/${authorSlug}`,
+      url: `https://zasupport.com/author/${authorSlug}`,
       jobTitle: author?.role || 'Founder & Apple-Certified Technician',
       worksFor: {
         '@type': 'Organization',
         name: 'ZA Support',
-        url: 'https://www.zasupport.com',
+        url: 'https://zasupport.com',
       },
       sameAs: [
         author?.linkedin,
@@ -84,10 +84,10 @@ export function BlogSchema({
     publisher: {
       '@type': 'Organization',
       name: 'ZA Support',
-      url: 'https://www.zasupport.com',
+      url: 'https://zasupport.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.zasupport.com/za-logo-standard-web.png',
+        url: 'https://zasupport.com/za-logo-standard-web.png',
       },
       sameAs: [
         'https://www.facebook.com/appleexpertsouthafrica',
@@ -111,13 +111,13 @@ export function BlogSchema({
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://www.zasupport.com',
+        item: 'https://zasupport.com',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Blog',
-        item: 'https://www.zasupport.com/blog',
+        item: 'https://zasupport.com/blog',
       },
       {
         '@type': 'ListItem',
@@ -150,12 +150,12 @@ export function BlogSchema({
         '@context': 'https://schema.org',
         '@type': 'Person',
         name: author.name,
-        url: `https://www.zasupport.com/author/${authorSlug}`,
+        url: `https://zasupport.com/author/${authorSlug}`,
         jobTitle: author.role,
         worksFor: {
           '@type': 'Organization',
           name: 'ZA Support',
-          url: 'https://www.zasupport.com',
+          url: 'https://zasupport.com',
         },
         sameAs: [
           author.linkedin,

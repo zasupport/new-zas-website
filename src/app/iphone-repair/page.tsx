@@ -9,6 +9,7 @@ import { CONTACT } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/iphone-repair', title: 'iPhone Repair Johannesburg, All Models, All Damage Types | ZA Support', description: 'iPhone repair in Johannesburg. Screen, battery, charging, liquid damage, back glass, camera. All models iPhone 6 through 16 Pro Max. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Repair Johannesburg, All Models, All Damage Types | ZA Support',
   description:
     'iPhone repair in Johannesburg. Screen, battery, charging, liquid damage, back glass, camera. All models iPhone 6 through 16 Pro Max. Assessment. Call 064 529 5863.',

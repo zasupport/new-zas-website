@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/macbook-pro-m1', title: 'MacBook Pro M1 Liquid Damage Repair Johannesburg', description: 'MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture means spills affect CPU, GPU and RAM simultaneously. Ultrasonic cleaning, component-level repair. Assessment. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro M1 Liquid Damage Repair Johannesburg',
   description:
     'MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture means spills affect CPU, GPU and RAM simultaneously. Ultrasonic cleaning, component-level repair. Assessment. Hyde Park.',

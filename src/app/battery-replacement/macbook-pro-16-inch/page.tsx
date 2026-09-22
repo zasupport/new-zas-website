@@ -25,6 +25,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/macbook-pro-16-inch', title: 'MacBook Pro 16-Inch Battery Replacement Johannesburg 2026 | ZA Support', description: 'MacBook Pro 16-inch battery replacement Johannesburg. 99.6 Wh cell, eight adhesive sections, full calibration. Assessment. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro 16-Inch Battery Replacement Johannesburg 2026 | ZA Support',
   description:
     'MacBook Pro 16-inch battery replacement Johannesburg. 99.6 Wh cell, eight adhesive sections, full calibration. Assessment. Hyde Park.',

@@ -10,6 +10,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/macbook-repair/data-recovery', title: 'MacBook Data Recovery Johannesburg | ZA Support', description: 'MacBook data recovery in Johannesburg. Recover deleted files, failed hard drives, SSD faults, accidental format, and liquid damage data loss. Recovery assessed for the device and fault. Hyde Park, Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Data Recovery Johannesburg | ZA Support',
   description:
     'MacBook data recovery in Johannesburg. Recover deleted files, failed hard drives, SSD faults, accidental format, and liquid damage data loss. Recovery assessed for the device and fault. Hyde Park, Johannesburg.',

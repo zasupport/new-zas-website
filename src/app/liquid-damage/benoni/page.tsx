@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/benoni', title: 'MacBook Liquid Damage Repair Benoni | ZA Support Hyde Park', description: 'MacBook liquid damage repair for Benoni clients. Ultrasonic cleaning, board-level diagnostics. We collect from Benoni. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Liquid Damage Repair Benoni | ZA Support Hyde Park',
   description:
     'MacBook liquid damage repair for Benoni clients. Ultrasonic cleaning, board-level diagnostics. We collect from Benoni. Assessment. Call 064 529 5863.',
@@ -159,7 +160,6 @@ export default function LiquidDamageBenoniPage() {
             {[
               { label: "Boksburg", href: "/liquid-damage/boksburg" },
               { label: "Edenvale", href: "/liquid-damage/edenvale" },
-              { label: "Springs", href: "/liquid-damage/springs" },
             ].map((area) => (
               <Link key={area.href} href={area.href} className="glass-card p-4 text-center group">
                 <span className="text-[#E8F4F1] text-sm font-semibold group-hover:text-[#0FEA7A] transition-colors">{area.label}</span>

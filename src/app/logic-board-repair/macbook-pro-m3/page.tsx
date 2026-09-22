@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-pro-m3', title: 'MacBook Pro M3 Logic Board Repair Johannesburg', description: 'MacBook Pro M3, M3 Pro, M3 Max logic board repair in Johannesburg. Charging, no power, display, USB-C, Thunderbolt 5, liquid damage. Component-level repair. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro M3 Logic Board Repair Johannesburg',
   description: 'MacBook Pro M3, M3 Pro, M3 Max logic board repair in Johannesburg. Charging, no power, display, USB-C, Thunderbolt 5, liquid damage. Component-level repair. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-m3' },

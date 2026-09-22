@@ -6,6 +6,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { CONTACT, SITE } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/author/courtney-bentley', title: 'Courtney Bentley, CEO & Apple Certified Expert Consultant | ZA Support', description: 'Courtney Bentley is the founder of ZA Support. Former Apple South Africa Manager. Forbes Africa 30 Under 30 (2019). 25,000+ Mac repairs. Component-level logic board repair specialist in Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Courtney Bentley, CEO & Apple Certified Expert Consultant | ZA Support',
   description:
     'Courtney Bentley is the founder of ZA Support. Former Apple South Africa Manager. Forbes Africa 30 Under 30 (2019). 25,000+ Mac repairs. Component-level logic board repair specialist in Johannesburg.',

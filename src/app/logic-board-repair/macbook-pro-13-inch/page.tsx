@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-pro-13-inch', title: 'MacBook Pro 13-inch Logic Board Repair Johannesburg', description: 'MacBook Pro 13-inch logic board repair in Johannesburg. Intel 2016-2020, M1 2020, M2 2022. Butterfly keyboard, USB-C faults, no power, T2 chip, liquid damage. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro 13-inch Logic Board Repair Johannesburg',
   description: 'MacBook Pro 13-inch logic board repair in Johannesburg. Intel 2016-2020, M1 2020, M2 2022. Butterfly keyboard, USB-C faults, no power, T2 chip, liquid damage. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-pro-13-inch' },

@@ -13,6 +13,7 @@ import { GoogleReviews } from '@/components/GoogleReviews';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com', title: 'Mac Repair Johannesburg, Logic Board Specialists', description: "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. up-to-3 year warranty. Call 064 529 5863.", siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Mac Repair Johannesburg, Logic Board Specialists',
   description:
     "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. up-to-3 year warranty. Call 064 529 5863.",

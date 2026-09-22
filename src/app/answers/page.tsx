@@ -8,6 +8,7 @@ import { CONTACT } from '@/lib/constants';
 import { ANSWER_CLUSTERS } from './answers-data';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/answers', title: 'Apple Repair & IT Questions Answered | ZA Support Johannesburg', description: 'Straight answers to the questions Johannesburg Mac owners and businesses ask most, logic board repair, liquid damage, batteries, screens, and managed Apple IT. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Apple Repair & IT Questions Answered | ZA Support Johannesburg',
   description:
     'Straight answers to the questions Johannesburg Mac owners and businesses ask most, logic board repair, liquid damage, batteries, screens, and managed Apple IT. Call 064 529 5863.',

@@ -12,6 +12,7 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/iphone', title: 'iPhone Battery Replacement Johannesburg [2026] | ZA Support', description: 'iPhone battery replacement in Johannesburg. Same-day service, IP68 re-sealed, battery health restored. Hyde Park workshop. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Battery Replacement Johannesburg [2026] | ZA Support',
   description:
     'iPhone battery replacement in Johannesburg. Same-day service, IP68 re-sealed, battery health restored. Hyde Park workshop. Call 064 529 5863.',

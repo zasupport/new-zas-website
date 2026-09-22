@@ -12,6 +12,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/imac', title: 'iMac Screen Repair Johannesburg [2026] | ZA Support', description: 'iMac screen repair in Johannesburg. 21.5″, 24″ M1/M3/M4 and 27″ Retina 5K specialists. Adhesive removal, 5K calibration. Contact for pricing. Hyde Park. Book now.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iMac Screen Repair Johannesburg [2026] | ZA Support',
   description:
     'iMac screen repair in Johannesburg. 21.5″, 24″ M1/M3/M4 and 27″ Retina 5K specialists. Adhesive removal, 5K calibration. Contact for pricing. Hyde Park. Book now.',

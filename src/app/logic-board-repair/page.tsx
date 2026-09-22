@@ -64,6 +64,7 @@ const orphanLbrSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair', title: 'MacBook Logic Board Repair Johannesburg [2026]', description: 'MacBook logic board repair in Johannesburg. Component-level repair for no-power, no-display, USB-C failure, GPU faults. Assessment. 12-month warranty. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Logic Board Repair Johannesburg [2026]',
   description:
     'MacBook logic board repair in Johannesburg. Component-level repair for no-power, no-display, USB-C failure, GPU faults. Assessment. 12-month warranty. Call 064 529 5863.',

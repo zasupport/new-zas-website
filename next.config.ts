@@ -32,7 +32,14 @@ const nextConfig: NextConfig = {
   },
 
   async redirects() {
-    return [
+    const routeRedirects = [
+      // Existing redirect-only routes: permanent relocation, query-preserving.
+      { source: '/apple-support/business', destination: '/managed-services', permanent: true },
+      { source: '/apple-support/enterprise', destination: '/jamf-mdm', permanent: true },
+      { source: '/ipad-repair/liquid-damage', destination: '/liquid-damage/ipad', permanent: true },
+      { source: '/iphone-repair/liquid-damage', destination: '/liquid-damage/iphone', permanent: true },
+      { source: '/macbook-repair/liquid-damage', destination: '/liquid-damage', permanent: true },
+      { source: '/macbook-repair/logic-board', destination: '/logic-board-repair', permanent: true },
       // WordPress legacy URL redirects
       { source: '/category/:slug', destination: '/blog', permanent: true },
       { source: '/tag/:slug', destination: '/blog', permanent: true },
@@ -245,6 +252,23 @@ const nextConfig: NextConfig = {
       { source: '/blog/water-damage-repair-northcliff', destination: '/liquid-damage', permanent: true },
       { source: '/blog/water-damage-repair-illovo', destination: '/liquid-damage', permanent: true },
       { source: '/blog/managed-it-medical-practices-sandton-2026', destination: '/apple-support/medical-practices', permanent: true }, // §529 doorway prune 30/06 (0-traffic, §671 orphan)
+    ];
+    // Resolve the public www host and a retired path in the SAME redirect.
+    // Host conditions are exact; preview routes are not forcibly sent to live.
+    // Framework permanent redirects are 308, a valid permanent canonical signal.
+    return [
+      ...routeRedirects.map((rule) => ({
+        ...rule,
+        has: [{ type: 'host' as const, value: 'www.zasupport.com' }],
+        destination: `https://zasupport.com${rule.destination}`,
+      })),
+      {
+        source: '/:path*',
+        has: [{ type: 'host' as const, value: 'www.zasupport.com' }],
+        destination: 'https://zasupport.com/:path*',
+        permanent: true,
+      },
+      ...routeRedirects,
     ];
   },
 };

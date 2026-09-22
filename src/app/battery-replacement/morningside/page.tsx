@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/morningside', title: 'MacBook Battery Replacement Morningside | ZA Support Hyde Park', description: 'MacBook battery replacement for Morningside clients. Apple-spec batteries, same-day service. We collect from Morningside. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Morningside | ZA Support Hyde Park',
   description: 'MacBook battery replacement for Morningside clients. Apple-spec batteries, same-day service. We collect from Morningside. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/morningside' },

@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/kempton-park', title: 'MacBook Screen Repair Kempton Park | ZA Support Hyde Park', description: 'MacBook screen repair for Kempton Park clients near OR Tambo. Cracked displays, backlight faults, and LCD damage. We collect from Kempton Park and repair at our Hyde Park workshop. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Kempton Park | ZA Support Hyde Park',
   description:
     'MacBook screen repair for Kempton Park clients near OR Tambo. Cracked displays, backlight faults, and LCD damage. We collect from Kempton Park and repair at our Hyde Park workshop. Call 064 529 5863.',

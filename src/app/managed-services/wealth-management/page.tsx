@@ -8,6 +8,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/managed-services/wealth-management', title: 'IT Support for Wealth Management Firms Johannesburg 2026 | ZA Support', description: 'IT support for wealth management firms and private banking advisors in Johannesburg. Apple specialist, FSCA compliance, POPIA, encrypted communications, zero-trust networks. Contact for pricing.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'IT Support for Wealth Management Firms Johannesburg 2026 | ZA Support',
   description:
     'IT support for wealth management firms and private banking advisors in Johannesburg. Apple specialist, FSCA compliance, POPIA, encrypted communications, zero-trust networks. Contact for pricing.',

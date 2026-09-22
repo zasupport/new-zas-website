@@ -3,6 +3,17 @@
 # Stack: Next.js 16 + Tailwind v4 + Vercel | Repo: github.com/zasupport/new-zas-website
 # Global rules: ~/.claude/CLAUDE.md (auto-loaded)
 
+## URL integrity and three-pass output review
+
+Read `docs/url-integrity.md` before URL, metadata, redirect or indexability work.
+Use only the approved production origin for owned public page identities.
+Do not confuse internal preview evidence with production verification.
+Run three explicit reviews before delivering code or reports: coverage, behavior
+and failure controls, then independent regression and unresolved-gap checks.
+Apply corrections between reviews. Preserve private evidence outside tracked
+source and redact deployment URLs from outward reports with the provided tool.
+Do not claim universal Google compliance or indexation from these checks.
+
 ## Workspace/build evidence supplement, 21 September 2026
 
 Extends the existing source-verification and continuous-learning rules below.

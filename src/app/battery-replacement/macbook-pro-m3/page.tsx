@@ -25,6 +25,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/macbook-pro-m3', title: 'MacBook Pro M3 Battery Replacement Johannesburg [2026] | ZA Support', description: 'MacBook Pro M3 battery replacement Johannesburg. 72.4Wh (14") / 100Wh (16") latest-gen cells. Longest rated life. Assessment. Hyde Park workshop.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro M3 Battery Replacement Johannesburg [2026] | ZA Support',
   description:
     'MacBook Pro M3 battery replacement Johannesburg. 72.4Wh (14") / 100Wh (16") latest-gen cells. Longest rated life. Assessment. Hyde Park workshop.',

@@ -8,6 +8,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/managed-services/investec', title: 'Managed IT Services for Investec Clients Johannesburg 2026 | ZA Support', description: 'Managed IT and Apple specialist support for Investec clients in Johannesburg. FSCA-compliant, POPIA-ready Mac fleet management for private bankers and wealth managers. Contact for pricing.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Managed IT Services for Investec Clients Johannesburg 2026 | ZA Support',
   description:
     'Managed IT and Apple specialist support for Investec clients in Johannesburg. FSCA-compliant, POPIA-ready Mac fleet management for private bankers and wealth managers. Contact for pricing.',

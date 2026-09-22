@@ -5,6 +5,7 @@ import PricingNote from '@/components/PricingNote';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/services', title: 'IT Services Johannesburg | Mac Repair, Security & Support | ZA Support', description: 'Complete IT services in Johannesburg, MacBook repair, iMac repair, data recovery, virus removal, Health Check monitoring, CyberShield security, SLA support and business IT. Hyde Park, Johannesburg. Complimentary IT assessment for new managed services clients.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'IT Services Johannesburg | Mac Repair, Security & Support | ZA Support',
   description:
     'Complete IT services in Johannesburg, MacBook repair, iMac repair, data recovery, virus removal, Health Check monitoring, CyberShield security, SLA support and business IT. Hyde Park, Johannesburg. Complimentary IT assessment for new managed services clients.',

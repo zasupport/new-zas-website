@@ -25,6 +25,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/mac-mini', title: 'Mac Mini Battery & Power Supply Repair Johannesburg 2026 | ZA Support', description: 'Mac Mini PRAM battery, power supply unit repair and UPS advice in Johannesburg. Assessment. 12-month warranty. Hyde Park workshop.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Mac Mini Battery & Power Supply Repair Johannesburg 2026 | ZA Support',
   description:
     'Mac Mini PRAM battery, power supply unit repair and UPS advice in Johannesburg. Assessment. 12-month warranty. Hyde Park workshop.',

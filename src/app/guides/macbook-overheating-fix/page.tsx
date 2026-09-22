@@ -10,6 +10,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/macbook-overheating-fix', title: 'MacBook Overheating? 8 Proven Fixes for 2026 | ZA Support', description: 'Fix MacBook overheating with 8 proven methods. SMC reset, fan cleaning, thermal paste, Activity Monitor tips. Professional thermal service in Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Overheating? 8 Proven Fixes for 2026 | ZA Support',
   description:
     'Fix MacBook overheating with 8 proven methods. SMC reset, fan cleaning, thermal paste, Activity Monitor tips. Professional thermal service in Johannesburg.',

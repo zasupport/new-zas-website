@@ -12,6 +12,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/enterprise', title: 'Enterprise Apple Support Johannesburg | Fleet Management & MDM | ZA Support', description: 'Enterprise Apple fleet management, MDM implementation, and dedicated IT support for businesses in Johannesburg. BEE Level 1 provider. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Enterprise Apple Support Johannesburg | Fleet Management & MDM | ZA Support',
   description:
     'Enterprise Apple fleet management, MDM implementation, and dedicated IT support for businesses in Johannesburg. BEE Level 1 provider. Assessment. Call 064 529 5863.',

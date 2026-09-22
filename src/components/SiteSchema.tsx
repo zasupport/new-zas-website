@@ -6,24 +6,24 @@ export function SiteSchema() {
   const organization = {
     '@context': 'https://schema.org',
     '@type': ['Organization', 'LocalBusiness'],
-    '@id': 'https://www.zasupport.com/#organization',
+    '@id': 'https://zasupport.com/#organization',
     name: 'ZA Support',
     alternateName: 'ZA Support Apple Experts',
-    url: 'https://www.zasupport.com',
+    url: 'https://zasupport.com',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://www.zasupport.com/za-logo-standard-web.png',
+      url: 'https://zasupport.com/za-logo-standard-web.png',
       width: 384,
       height: 80,
     },
-    image: 'https://www.zasupport.com/za-logo-standard-web.png',
+    image: 'https://zasupport.com/za-logo-standard-web.png',
     description:
       "Johannesburg's Apple repair specialists since 2009. Component-level logic board repair, liquid damage recovery, iPhone and iPad repair, JAMF MDM, and managed IT services. Hyde Park workshop.",
     foundingDate: '2009',
     founder: {
       '@type': 'Person',
       name: 'Courtney Bentley',
-      url: 'https://www.zasupport.com/author/courtney-bentley',
+      url: 'https://zasupport.com/author/courtney-bentley',
     },
     address: {
       '@type': 'PostalAddress',

@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/sunninghill', title: 'MacBook Screen Repair Sunninghill | ZA Support Hyde Park', description: 'MacBook screen repair for Sunninghill clients. Cracked displays, backlight failure, LCD faults. We collect from Sunninghill Village and repair at our Hyde Park workshop. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Sunninghill | ZA Support Hyde Park',
   description:
     'MacBook screen repair for Sunninghill clients. Cracked displays, backlight failure, LCD faults. We collect from Sunninghill Village and repair at our Hyde Park workshop. Call 064 529 5863.',

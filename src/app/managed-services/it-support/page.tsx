@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/managed-services/it-support', title: 'Mac IT Support Johannesburg: Business & SME | ZA Support', description: 'Mac IT support for Johannesburg businesses and SMEs. On-site and remote support for MacBook, iMac, and Mac mini fleets. Sandton, Rosebank, Midrand, Fourways, Hyde Park. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Mac IT Support Johannesburg: Business & SME | ZA Support',
   description:
     'Mac IT support for Johannesburg businesses and SMEs. On-site and remote support for MacBook, iMac, and Mac mini fleets. Sandton, Rosebank, Midrand, Fourways, Hyde Park. Call 064 529 5863.',

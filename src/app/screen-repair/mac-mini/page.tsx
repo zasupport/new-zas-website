@@ -11,6 +11,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/mac-mini', title: 'Mac Mini Screen & Display Repair Johannesburg 2026 | ZA Support', description: 'Mac Mini display repair in Johannesburg. HDMI, Thunderbolt, GPU faults, external monitor issues. M1, M2, M4. Assessment. Hyde Park workshop.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Mac Mini Screen & Display Repair Johannesburg 2026 | ZA Support',
   description:
     'Mac Mini display repair in Johannesburg. HDMI, Thunderbolt, GPU faults, external monitor issues. M1, M2, M4. Assessment. Hyde Park workshop.',

@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/apple-watch', title: 'Apple Watch Water Damage Repair Johannesburg', description: 'Apple Watch water damage repair in Johannesburg. Series 3 through Ultra 2. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Apple Watch Water Damage Repair Johannesburg',
   description:
     'Apple Watch water damage repair in Johannesburg. Series 3 through Ultra 2. Assessment. Call 064 529 5863.',

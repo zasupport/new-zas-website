@@ -9,6 +9,7 @@ import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/business/microsoft-365-for-business', title: 'Microsoft 365 for Business South Africa | M365 Deployment & Management | ZA Support', description: 'Microsoft 365 Business Premium, E3 and E5 deployment, Intune device management, Entra ID hardening and POPIA-aligned compliance for South African businesses. From R 12,500. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Microsoft 365 for Business South Africa | M365 Deployment & Management | ZA Support',
   description:
     'Microsoft 365 Business Premium, E3 and E5 deployment, Intune device management, Entra ID hardening and POPIA-aligned compliance for South African businesses. From R 12,500. Call 064 529 5863.',

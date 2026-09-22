@@ -22,6 +22,7 @@ export async function generateMetadata({
   const cluster = getCluster(slug);
   if (!cluster) return {};
   return {
+    openGraph: { url: `https://zasupport.com/answers/${cluster.slug}`, title: cluster.metaTitle, description: cluster.metaDescription, siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
     title: cluster.metaTitle,
     description: cluster.metaDescription,
     alternates: { canonical: `https://zasupport.com/answers/${cluster.slug}` },

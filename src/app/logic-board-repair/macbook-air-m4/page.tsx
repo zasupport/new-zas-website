@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-air-m4', title: 'MacBook Air M4 Logic Board Repair Johannesburg', description: 'MacBook Air M4 (13-inch & 15-inch, 2025) logic board repair in Johannesburg. No power, MagSafe 3 and USB-C charging, Thunderbolt 4, display and liquid damage, component-level. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M4 Logic Board Repair Johannesburg',
   description: 'MacBook Air M4 (13-inch & 15-inch, 2025) logic board repair in Johannesburg. No power, MagSafe 3 and USB-C charging, Thunderbolt 4, display and liquid damage, component-level. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m4' },

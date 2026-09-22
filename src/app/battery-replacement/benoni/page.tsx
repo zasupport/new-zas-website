@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/benoni', title: 'MacBook Battery Replacement Benoni | ZA Support Hyde Park', description: 'MacBook battery replacement for Benoni clients. Genuine Apple-spec batteries, fast turnaround. We collect from Benoni and replace at our Hyde Park workshop. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Benoni | ZA Support Hyde Park',
   description:
     'MacBook battery replacement for Benoni clients. Genuine Apple-spec batteries, fast turnaround. We collect from Benoni and replace at our Hyde Park workshop. Assessment. Call 064 529 5863.',
@@ -166,7 +167,6 @@ export default function BatteryReplacementBenoniPage() {
             {[
               { label: "Boksburg", href: "/battery-replacement/boksburg" },
               { label: "Edenvale", href: "/battery-replacement/edenvale" },
-              { label: "Springs", href: "/battery-replacement/springs" },
             ].map((area) => (
               <Link key={area.href} href={area.href} className="glass-card p-4 text-center group">
                 <span className="text-[#E8F4F1] text-sm font-semibold group-hover:text-[#0FEA7A] transition-colors">{area.label}</span>

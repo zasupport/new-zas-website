@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/kempton-park', title: 'MacBook Logic Board Repair Kempton Park | ZA Support Hyde Park', description: 'MacBook logic board repair for Kempton Park and OR Tambo area clients. Component-level repair specialists. Assessment, up-to-3 year warranty. We collect from Kempton Park. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Logic Board Repair Kempton Park | ZA Support Hyde Park',
   description:
     'MacBook logic board repair for Kempton Park and OR Tambo area clients. Component-level repair specialists. Assessment, up-to-3 year warranty. We collect from Kempton Park. Call 064 529 5863.',

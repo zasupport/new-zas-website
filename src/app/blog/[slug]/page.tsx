@@ -149,7 +149,7 @@ Load shedding does occasionally disrupt our schedule, but we maintain a backup p
 
 We hear this question regularly. A 2-3-year-old MacBook Pro M2 with a GPU fault is still a solid machine: the processor is excellent, RAM and storage are unchanged, and the display and trackpad are fine. Repairing the logic board preserves all of that value. A new M4 Pro would cost many times more; our GPU repair starts from R3,500, a fraction of replacement, and your machine will perform identically for software development, content creation, or general work.
 
-If you're considering a [data recovery service](/data-recovery) as part of the repair, for instance, if the failing GPU has also caused file system corruption, we can handle that too, though it's a separate process with its own timeline and cost.
+If you're considering a [data recovery service](/mac-data-recovery) as part of the repair, for instance, if the failing GPU has also caused file system corruption, we can handle that too, though it's a separate process with its own timeline and cost.
 
 ## Warranty and Support After Repair
 
@@ -235,7 +235,7 @@ Assessment of your M2 starts at R599, and logic board repair starts from R3,500,
 
 Logic board repairs, once assessed, are quoted based on what we find. Some repairs, replacing a failed capacitor or power IC, fall on the lower end. Others, where multiple components have failed or rework is extensive, cost more. We confirm the exact price after inspection, never before.
 
-If you've experienced liquid damage, our [liquid damage repair service](/liquid-damage) includes board cleaning, corrosion treatment, and full component testing. If your drive has failed alongside the logic board, we offer [data recovery](/data-recovery) from R2,999.
+If you've experienced liquid damage, our [liquid damage repair service](/liquid-damage) includes board cleaning, corrosion treatment, and full component testing. If your drive has failed alongside the logic board, we offer [data recovery](/mac-data-recovery) from R2,999.
 
 Once we begin repair, turnaround is 5-7 working days for most boards. Rush service is available, discuss this when you [contact us](/contact).
 
@@ -259,7 +259,7 @@ If your MacBook won't power on, shuts down randomly, charges intermittently, or 
 
 ### Q: Is it worth repairing an M2, or should I just buy a new one?
 
-If your MacBook is 2-3 years old, repair almost always makes financial sense. A new M3 or M4 Pro costs many times more. A logic board repair costs a fraction of that, and you get a machine you're already familiar with. If your M2 is out of warranty and you've never backed it up, we also offer [data recovery](/data-recovery), so you don't lose your files in the process.
+If your MacBook is 2-3 years old, repair almost always makes financial sense. A new M3 or M4 Pro costs many times more. A logic board repair costs a fraction of that, and you get a machine you're already familiar with. If your M2 is out of warranty and you've never backed it up, we also offer [data recovery](/mac-data-recovery), so you don't lose your files in the process.
 
 ### Q: What causes logic board failure in the first place? Can I prevent it?
 
@@ -275,7 +275,7 @@ All logic board repairs come with a 3-year warranty against the same fault. If t
 
 ### Q: Can you recover my data if the logic board failure has corrupted my drive?
 
-Yes. If your drive is intact but inaccessible because the logic board won't boot macOS, we can recover your data via our [data recovery service](/data-recovery). If the drive itself is damaged, we can often recover files from a second drive connected via external enclosure. Costs vary, and we confirm the figure after assessment, starting from R2,999. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with details of what you're trying to recover, and we'll give you a quote.`,
+Yes. If your drive is intact but inaccessible because the logic board won't boot macOS, we can recover your data via our [data recovery service](/mac-data-recovery). If the drive itself is damaged, we can often recover files from a second drive connected via external enclosure. Costs vary, and we confirm the figure after assessment, starting from R2,999. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with details of what you're trying to recover, and we'll give you a quote.`,
   },
   'liquid-damage-repair-cost-johannesburg': {
     slug: 'liquid-damage-repair-cost-johannesburg',
@@ -764,7 +764,7 @@ Your iPhone works hard for you, especially if you're running a business here in 
 
 Stay updated. Stay secure. Stay ahead of repairs.
 
-**Have questions about updating your iPhone? WhatsApp us:** [wa.me/27645295863](wa.me/27645295863)`
+**Have questions about updating your iPhone? WhatsApp us:** [wa.me/27645295863](https://wa.me/27645295863)`
 },
 'these-are-my-favorite-macbook-neo-accessories-after-one-south-africa-2026': {
   slug: 'these-are-my-favorite-macbook-neo-accessories-after-one-south-africa-2026',
@@ -4192,7 +4192,7 @@ Why haven't more people heard of us? Partly because we don't advertise heavily. 
 
 Start with a [WhatsApp message to 064 529 5863](https://wa.me/27645295863). Include your device model, what's happening (won't turn on, kernel panics, won't charge), and whether there's been any liquid exposure. We'll advise on next steps and book you a slot.
 
-Alternatively, visit [zasupport.com/book](https://www.zasupport.com/book) to check our schedule directly. We're open Monday to Friday, 8am to 5pm, Saturday 9am to 1pm.
+Alternatively, visit [zasupport.com/book](https://zasupport.com/book) to check our schedule directly. We're open Monday to Friday, 8am to 5pm, Saturday 9am to 1pm.
 
 Our full logic board repair process is documented at [/logic-board-repair](/logic-board-repair). That page covers pre-repair steps, what to expect during repair, and troubleshooting if issues persist post-repair.
 
@@ -10031,7 +10031,7 @@ That assessment covers:
 - Identification of regulatory gaps
 - Recommendations for remediation
 
-We then implement compliant [managed IT](/managed-it) services with:
+We then implement compliant [managed IT](/managed-services) services with:
 
 - A signed POPIA Section 21 operator agreement aligned to HPCSA requirements
 - Technical controls appropriate to medical data sensitivity
@@ -10074,7 +10074,7 @@ Review your current IT support agreement this week. If it does not include a POP
 
 If you're in Johannesburg or anywhere across Gauteng and need an assessment of your current compliance posture, [contact ZA Support](/contact). We offer a **from R599 assessment** covering your IT infrastructure, data security, and POPIA compliance. You can also reach us on [WhatsApp at **064 529 5863**](https://wa.me/27645295863).
 
-Your patients trust you with their most sensitive information. Your regulator expects you to protect it. A compliant [managed IT](/managed-it) provider isn't optional. It's your primary obligation.`,
+Your patients trust you with their most sensitive information. Your regulator expects you to protect it. A compliant [managed IT](/managed-services) provider isn't optional. It's your primary obligation.`,
   },
   'mac-studio-repair-johannesburg': {
     slug: 'mac-studio-repair-johannesburg',
@@ -14449,7 +14449,7 @@ We start with a from R599 assessment to isolate whether the issue lives in the d
 
 The actual screen removal process takes patience. Apple designed the M3 with the display as the primary access point. Our technicians heat the adhesive strip running around the screen perimeter using precision heating tools, too much heat risks damaging the LCD, too little and the adhesive won't release. Once separated, we disconnect the display cable, remove the old panel, and fit a genuine replacement with new adhesive tape.
 
-This repair typically takes 4-6 hours in our workshop. We quote from R2,800 for parts and labour, depending on whether you need a standard or higher-spec display panel. All work comes with our [up to 3-year warranty](/warranty), which covers the new display against defects.
+This repair typically takes 4-6 hours in our workshop. We quote from R2,800 for parts and labour, depending on whether you need a standard or higher-spec display panel. All work comes with our [up to 3-year warranty](/terms), which covers the new display against defects.
 
 ## Logic Board Repair and Component-Level Fixes
 
@@ -19729,9 +19729,9 @@ We also recommend component repair if your device contains irreplaceable data or
 
 ## Related Services: Liquid Damage and Power Issues
 
-Logic board problems frequently stem from [liquid damage](/liquid-damage/). Water-damaged devices may not show symptoms immediately; corrosion develops over weeks. If you've spilled liquid on your device, bring it to our Hyde Park workshop immediately, delays increase repair costs.
+Logic board problems frequently stem from [liquid damage](/liquid-damage). Water-damaged devices may not show symptoms immediately; corrosion develops over weeks. If you've spilled liquid on your device, bring it to our Hyde Park workshop immediately, delays increase repair costs.
 
-We also handle [logic board repair](/logic-board-repair/) across all Apple device types: iPhones, iPads, MacBooks, Mac minis, and iMacs. Each device class presents unique challenges (iPhones use compact BGA components; MacBooks use larger through-hole connectors), and our technicians are trained across all platforms.
+We also handle [logic board repair](/logic-board-repair) across all Apple device types: iPhones, iPads, MacBooks, Mac minis, and iMacs. Each device class presents unique challenges (iPhones use compact BGA components; MacBooks use larger through-hole connectors), and our technicians are trained across all platforms.
 
 ## Service Area: Rosebank, Sandton, Johannesburg and Beyond
 
@@ -21506,7 +21506,7 @@ Workshop assessment from R599 · 064 529 5863 · [Book via WhatsApp](https://wa.
 
 **Related Reading**
 - [Who is John Ternus? The Engineer Taking Over at Apple](/blog/who-is-john-ternus-apple-ceo-engineer)
-- [Apple Intelligence in South Africa: What the New CEO Means for the Timeline](/blog/apple-intelligence-south-africa-timeline)
+- Apple Intelligence in South Africa: What the New CEO Means for the Timeline
 - [What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet](/blog/apple-ceo-change-johannesburg-business-fleet)
 
 **Outbound authoritative source:** [Apple Newsroom, Tim Cook to Become Apple Executive Chairman, John Ternus to Become Apple CEO](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)`,
@@ -21656,7 +21656,7 @@ Workshop assessment from R599 · 064 529 5863 · [WhatsApp](https://wa.me/276452
 
 **Related Reading**
 - [Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for SA Users](/blog/tim-cook-steps-down-john-ternus-apple-ceo-south-africa)
-- [MacBook Neo Explained: The Product That Built Ternus's CEO Case](/blog/macbook-neo-apple-laptop-explained)
+- MacBook Neo Explained: The Product That Built Ternus's CEO Case
 - [What the Apple CEO Change Means for Johannesburg Businesses Running Apple Fleet](/blog/apple-ceo-change-johannesburg-business-fleet)
 
 **Outbound authoritative source:** [Apple Leadership, John Ternus](https://www.apple.com/leadership/john-ternus/)`,
@@ -21805,15 +21805,15 @@ Unlikely in any direction that matters to SA business fleet. Apple's repair poli
 
 We manage Apple fleet for Sandton, Rosebank, Hyde Park, and Bryanston-based firms, from 10-device professional services firms up to 150-device retail operations. JAMF/Kandji MDM, Apple Business Manager setup, POPIA device hardening, fleet refresh planning, and component-level Mac repair when devices fail.
 
-Book a fleet health check · 064 529 5863 · [WhatsApp](https://wa.me/27645295863) · [Enterprise Apple support →](/enterprise-apple-support)
+Book a fleet health check · 064 529 5863 · [WhatsApp](https://wa.me/27645295863) · [Enterprise Apple support →](/enterprise)
 
 ---
 
 **Related Reading**
 - [Tim Cook Steps Down, John Ternus Takes Over: What Apple's Leadership Change Means for SA Users](/blog/tim-cook-steps-down-john-ternus-apple-ceo-south-africa)
 - [Who is John Ternus? The Engineer Taking Over at Apple](/blog/who-is-john-ternus-apple-ceo-engineer)
-- [Apple Intelligence in South Africa: What the New CEO Means for the Timeline](/blog/apple-intelligence-south-africa-timeline)
-- [POPIA Compliance for Small Businesses Running Apple Devices](/blog/popia-compliance-apple-devices-south-africa)
+- Apple Intelligence in South Africa: What the New CEO Means for the Timeline
+- POPIA Compliance for Small Businesses Running Apple Devices
 
 **Outbound authoritative source:** [Apple Business Manager, Official Apple Documentation](https://support.apple.com/guide/apple-business-manager/welcome/web)`,
   },
@@ -48404,9 +48404,9 @@ For more information on protecting your device, Apple's official guidance is det
 
 If your MacBook, iPhone, iPad, or other Apple device has been exposed to liquid, don't delay. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to arrange an urgent appointment, or [book online at zasupport.com/book](https://zasupport.com/book) for a time that suits you.
 
-For general information on our liquid damage services, visit our [liquid damage repair page](/liquid-damage/). If you're considering a logic board replacement, we also offer specialised [logic board repair](/logic-board-repair/) for cases where targeted component replacement is more cost-effective than full board replacement.
+For general information on our liquid damage services, visit our [liquid damage repair page](/liquid-damage). If you're considering a logic board replacement, we also offer specialised [logic board repair](/logic-board-repair) for cases where targeted component replacement is more cost-effective than full board replacement.
 
-When you're ready to get started, [get in touch with us here](/contact/).
+When you're ready to get started, [get in touch with us here](/contact).
 
 We're open six days a week in Hyde Park. Bring your device in, or send a photo via WhatsApp if you're unsure whether damage is repairable. We'll give you honest advice and competitive pricing.
 
@@ -64009,7 +64009,7 @@ Our standard Mac Studio no-power diagnosis costs R599 and takes 15 minutes. That
 
 Repair costs range from R450 (SMC reset) to R4,100 (full PSU replacement). Most repairs fall between R1,200 and R2,400.
 
-We provide a 3-year warranty on all power supply replacements and a 2-year warranty on logic board repairs. This is the longest warranty in the Johannesburg market and reflects our confidence in our work. For full warranty terms, see our [repair warranty policy](https://zasupport.com/warranty).
+We provide a 3-year warranty on all power supply replacements and a 2-year warranty on logic board repairs. This is the longest warranty in the Johannesburg market and reflects our confidence in our work. For full warranty terms, see our [repair warranty policy](/terms).
 
 Our Hyde Park workshop is open Monday to Friday, 09:00 to 17:00. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) with a photo of your Mac Studio and a description of the fault, or [book online at zasupport.com/book](https://zasupport.com/book) for a same-day diagnostic appointment.
 
@@ -69695,7 +69695,7 @@ We also offer a "repair and verify" option: we perform the repair, run extended 
 
 We're 12 years into repairing Apple hardware in Johannesburg. Our technicians hold Apple Certification and have trained under senior engineers from authorised service centres. We work on-site in Hyde Park, no posting your machine to Cape Town or Pretoria. We give you a direct WhatsApp number to check on progress. And we don't push you toward expensive repairs if a cheaper fix will work.
 
-Most importantly: we preserve your data. GPU faults don't typically affect storage, but we never assume. Every machine that enters our workshop for logic board work is cloned to an external drive as a precaution. If data recovery is needed, our team can handle [data recovery](https://zasupport.com/data-recovery) separately, starting from R2,999 for mechanical faults.
+Most importantly: we preserve your data. GPU faults don't typically affect storage, but we never assume. Every machine that enters our workshop for logic board work is cloned to an external drive as a precaution. If data recovery is needed, our team can handle [data recovery](/mac-data-recovery) separately, starting from R2,999 for mechanical faults.
 
 ## Next Steps
 
@@ -70383,7 +70383,7 @@ We include a 3-year warranty on all logic board work and a 12-month warranty on 
 
 Sometimes a GPU fault is the first domino. If your Mac has suffered liquid damage, we address both the GPU and any corrosion on nearby capacitors. Our [liquid-damage repair service](https://zasupport.com/liquid-damage) covers this comprehensively.
 
-If you've lost access to your files because the Mac won't boot, our [data-recovery team](https://zasupport.com/data-recovery) can retrieve your files even if the logic board needs replacement. This costs from R2,999 and runs parallel to your repair timeline.
+If you've lost access to your files because the Mac won't boot, our [data-recovery team](/mac-data-recovery) can retrieve your files even if the logic board needs replacement. This costs from R2,999 and runs parallel to your repair timeline.
 
 For complex cases, liquid damage plus GPU fault, for example, we sometimes recommend logic board replacement with integrated data recovery. Once we've run diagnostics, we'll explain exactly why one path makes more sense than another.
 
@@ -70477,7 +70477,7 @@ Our repair process for liquid-damaged MacBook Pro 14-inch units follows a struct
 
 **Testing and validation** happens on specialised power-supply isolation units. We test the logic board in isolation before reassembling, so you're not paying for a device that fails the moment it arrives home.
 
-Many liquid-damaged MacBook Pro 14-inch units can be recovered if corrosion hasn't destroyed the logic board itself. If the board is beyond repair, our [data-recovery specialists can retrieve your files](https://zasupport.com/data-recovery), a service that costs from R2,999, ensuring you don't lose your work even if the hardware can't be saved.
+Many liquid-damaged MacBook Pro 14-inch units can be recovered if corrosion hasn't destroyed the logic board itself. If the board is beyond repair, our [data-recovery specialists can retrieve your files](/mac-data-recovery), a service that costs from R2,999, ensuring you don't lose your work even if the hardware can't be saved.
 
 ## Repair Timeline and Cost Expectations
 

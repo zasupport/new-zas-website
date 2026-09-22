@@ -4,6 +4,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/terms', title: 'Terms of Service | ZA Support', description: 'Terms of Service for ZA Support (Vizibiliti IS t/a ZA Support). Apple repair, managed IT, diagnostics. South African law, POPIA, ECTA compliant.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Terms of Service | ZA Support',
   description:
     'Terms of Service for ZA Support (Vizibiliti IS t/a ZA Support). Apple repair, managed IT, diagnostics. South African law, POPIA, ECTA compliant.',

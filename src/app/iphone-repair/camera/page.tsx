@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/iphone-repair/camera', title: 'iPhone Camera Repair Johannesburg | ZA Support', description: 'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. up-to-3 year warranty. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPhone Camera Repair Johannesburg | ZA Support',
   description:
     'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. up-to-3 year warranty. Hyde Park.',

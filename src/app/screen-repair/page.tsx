@@ -60,6 +60,7 @@ const orphanScreenSuburbLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair', title: 'MacBook Screen Repair Johannesburg [2026] | ZA Support', description: 'MacBook & iPhone screen repair in Johannesburg. Cracked display, flickering, dead pixels fixed. Up-to-3 year warranty. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Johannesburg [2026] | ZA Support',
   description:
     'MacBook & iPhone screen repair in Johannesburg. Cracked display, flickering, dead pixels fixed. Up-to-3 year warranty. Call 064 529 5863.',

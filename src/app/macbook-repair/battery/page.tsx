@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/macbook-repair/battery', title: 'MacBook Battery Replacement Johannesburg | ZA Support', description: 'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. up-to-3 year warranty. Hyde Park. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Johannesburg | ZA Support',
   description:
     'MacBook battery replacement Johannesburg. All MacBook Air M1/M2/M3 and MacBook Pro Intel + Apple Silicon models. Same-day available. up-to-3 year warranty. Hyde Park. Call 064 529 5863.',

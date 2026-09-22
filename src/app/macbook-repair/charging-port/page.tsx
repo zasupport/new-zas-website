@@ -10,6 +10,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/macbook-repair/charging-port', title: 'MacBook Not Charging, Repair Johannesburg | ZA Support', description: 'MacBook not charging in Johannesburg? We diagnose and repair all charging faults, dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Assessment. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Not Charging, Repair Johannesburg | ZA Support',
   description:
     'MacBook not charging in Johannesburg? We diagnose and repair all charging faults, dirty USB-C port, faulty MagSafe DC-in board, USB-C controller IC, charge IC. Assessment. Hyde Park.',

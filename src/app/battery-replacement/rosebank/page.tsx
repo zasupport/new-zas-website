@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/rosebank', title: 'MacBook Battery Replacement Rosebank | ZA Support Hyde Park', description: 'MacBook battery replacement for Rosebank clients. 5 minutes from our Hyde Park workshop. Apple-spec batteries, same-day service. Written warranty. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Rosebank | ZA Support Hyde Park',
   description:
     'MacBook battery replacement for Rosebank clients. 5 minutes from our Hyde Park workshop. Apple-spec batteries, same-day service. Written warranty. Call 064 529 5863.',

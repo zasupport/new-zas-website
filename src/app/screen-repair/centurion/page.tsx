@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/centurion', title: 'MacBook Screen Repair Centurion | ZA Support Hyde Park', description: 'MacBook screen repair for Centurion clients near Centurion Mall and Hendrik Verwoerd Drive tech offices. Cracked screens, backlight faults, and LCD damage. Collection service available. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Centurion | ZA Support Hyde Park',
   description:
     'MacBook screen repair for Centurion clients near Centurion Mall and Hendrik Verwoerd Drive tech offices. Cracked screens, backlight faults, and LCD damage. Collection service available. Call 064 529 5863.',

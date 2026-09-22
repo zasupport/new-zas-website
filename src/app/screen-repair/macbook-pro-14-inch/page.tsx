@@ -10,6 +10,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/macbook-pro-14-inch', title: 'MacBook Pro 14-Inch Screen Repair Johannesburg [2026] | ZA Support', description: 'MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED, ProMotion 120Hz. No Fix No Fee. Hyde Park workshop.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro 14-Inch Screen Repair Johannesburg [2026] | ZA Support',
   description:
     'MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED, ProMotion 120Hz. No Fix No Fee. Hyde Park workshop.',

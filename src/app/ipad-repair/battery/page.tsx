@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/ipad-repair/battery', title: 'iPad Battery Replacement Johannesburg | ZA Support', description: 'iPad battery replacement in Johannesburg. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPad Battery Replacement Johannesburg | ZA Support',
   description:
     'iPad battery replacement in Johannesburg. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',

@@ -8,6 +8,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/managed-services/apple-specialist', title: 'Apple IT Specialist Johannesburg: Apple Managed Services | ZA Support', description: 'Apple IT specialist in Johannesburg. JAMF MDM, Apple Business Manager, M-series Mac fleet management, Monterey/Ventura/Sonoma. Apple-only MSP for businesses and medical practices. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Apple IT Specialist Johannesburg: Apple Managed Services | ZA Support',
   description:
     'Apple IT specialist in Johannesburg. JAMF MDM, Apple Business Manager, M-series Mac fleet management, Monterey/Ventura/Sonoma. Apple-only MSP for businesses and medical practices. Call 064 529 5863.',

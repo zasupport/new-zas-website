@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/accessories-repair', title: 'Apple Accessories Repair Johannesburg | Keyboard, Mouse & Trackpad | ZA Support', description: 'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable repair. Hyde Park. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Apple Accessories Repair Johannesburg | Keyboard, Mouse & Trackpad | ZA Support',
   description:
     'Apple accessories repair in Johannesburg. Magic Keyboard, Magic Mouse, Magic Trackpad, and MagSafe cable repair. Hyde Park. Assessment.',

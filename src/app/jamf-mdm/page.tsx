@@ -7,6 +7,7 @@ import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/jamf-mdm', title: 'JAMF MDM Implementation South Africa | Apple Device Management | ZA Support', description: 'JAMF MDM implementation in South Africa. JAMF Pro and JAMF Now for schools, medical practices, and businesses. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'JAMF MDM Implementation South Africa | Apple Device Management | ZA Support',
   description: 'JAMF MDM implementation in South Africa. JAMF Pro and JAMF Now for schools, medical practices, and businesses. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/jamf-mdm' },

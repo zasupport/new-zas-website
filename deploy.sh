@@ -99,6 +99,11 @@ echo "→ Verifying internal pages stay noindex (§F1/F2)..."
 python3 scripts/check-noindex-internal.py || { echo "ERROR: internal-page noindex lock FAILED — /seo-report or /search lost its noindex. Restore robots: { index: false } in the page metadata."; exit 1; }
 
 # 4. Git push (triggers Vercel auto-deploy)
+echo "Checking source and rendered URL identity before any push..."
+npm run check:urls
+npm run build
+npm run check:urls-rendered
+
 echo "→ Pushing to GitHub..."
 # Stage tracked files and new source files only — never accidentally stage .env secrets
 git add src/ public/ package.json package-lock.json next.config.ts vercel.json tsconfig.json deploy.sh .github/ scripts/ 2>/dev/null || true

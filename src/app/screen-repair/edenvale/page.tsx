@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/edenvale', title: 'MacBook Screen Repair Edenvale | ZA Support Hyde Park', description: 'MacBook screen repair for Edenvale clients. Cracked displays, backlight failure, LCD faults. We collect from Edenvale and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Edenvale | ZA Support Hyde Park',
   description:
     'MacBook screen repair for Edenvale clients. Cracked displays, backlight failure, LCD faults. We collect from Edenvale and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.',

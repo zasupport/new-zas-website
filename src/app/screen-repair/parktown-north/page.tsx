@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/parktown-north', title: 'MacBook Screen Repair Parktown North | ZA Support Hyde Park', description: 'MacBook screen repair for Parktown North clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Parktown North. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Parktown North | ZA Support Hyde Park',
   description: 'MacBook screen repair for Parktown North clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Parktown North. Assessment.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/parktown-north' },

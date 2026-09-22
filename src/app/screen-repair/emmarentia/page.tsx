@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/emmarentia', title: 'MacBook Screen Repair Emmarentia | ZA Support Hyde Park', description: 'MacBook screen repair for Emmarentia clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Emmarentia. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Emmarentia | ZA Support Hyde Park',
   description: 'MacBook screen repair for Emmarentia clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Emmarentia. Assessment.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/emmarentia' },

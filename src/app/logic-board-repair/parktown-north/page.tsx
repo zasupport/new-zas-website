@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/parktown-north', title: 'MacBook Logic Board Repair Parktown North | ZA Support Hyde Park', description: 'MacBook logic board repair for Parktown North clients. Component-level repair, assessment. We collect from Parktown North. No Fix No Fee. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Logic Board Repair Parktown North | ZA Support Hyde Park',
   description: 'MacBook logic board repair for Parktown North clients. Component-level repair, assessment. We collect from Parktown North. No Fix No Fee. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/parktown-north' },

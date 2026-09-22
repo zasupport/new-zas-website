@@ -11,6 +11,7 @@ import { buildFaqSchema, buildBreadcrumbSchema, buildServiceSchema } from '@/lib
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/business/adobe-creative-cloud-support', title: 'Adobe Creative Cloud Support South Africa | Licensing & Deployment | ZA Support', description: 'Adobe Creative Cloud licence supply, deployment, managed updates, troubleshooting, and training for South African creative teams and businesses.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Adobe Creative Cloud Support South Africa | Licensing & Deployment | ZA Support',
   description:
     'Adobe Creative Cloud licence supply, deployment, managed updates, troubleshooting, and training for South African creative teams and businesses.',

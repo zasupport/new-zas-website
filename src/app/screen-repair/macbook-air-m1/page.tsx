@@ -10,6 +10,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/macbook-air-m1', title: 'MacBook Air M1 Screen Repair Johannesburg [2026] | ZA Support', description: 'MacBook Air M1 screen repair Johannesburg. Liquid Retina display, fanless design, True Tone. Backlight repair, cracked panel, anti-reflective coating. No Fix No Fee.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M1 Screen Repair Johannesburg [2026] | ZA Support',
   description:
     'MacBook Air M1 screen repair Johannesburg. Liquid Retina display, fanless design, True Tone. Backlight repair, cracked panel, anti-reflective coating. No Fix No Fee.',

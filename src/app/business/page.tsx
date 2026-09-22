@@ -14,6 +14,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import { GoogleReviews } from '@/components/GoogleReviews';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/business', title: 'Apple IT Support for Business Johannesburg | Managed Services | ZA Support', description: 'ZA Support is the Apple IT partner for Johannesburg businesses, managed services, SLAs, device management and priority support for SMEs, enterprises and medical practices. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Apple IT Support for Business Johannesburg | Managed Services | ZA Support',
   description:
     'ZA Support is the Apple IT partner for Johannesburg businesses, managed services, SLAs, device management and priority support for SMEs, enterprises and medical practices. Call 064 529 5863.',

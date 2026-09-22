@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/benoni', title: 'MacBook Screen Repair Benoni | ZA Support Hyde Park', description: 'MacBook screen repair for Benoni clients. Cracked displays, backlight failure, LCD faults. We collect from Benoni and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Benoni | ZA Support Hyde Park',
   description:
     'MacBook screen repair for Benoni clients. Cracked displays, backlight failure, LCD faults. We collect from Benoni and repair at our Hyde Park workshop. Assessment. Call 064 529 5863.',
@@ -166,7 +167,6 @@ export default function ScreenRepairBenoniPage() {
             {[
               { label: "Boksburg", href: "/screen-repair/boksburg" },
               { label: "Edenvale", href: "/screen-repair/edenvale" },
-              { label: "Springs", href: "/screen-repair/springs" },
             ].map((area) => (
               <Link key={area.href} href={area.href} className="glass-card p-4 text-center group">
                 <span className="text-[#E8F4F1] text-sm font-semibold group-hover:text-[#0FEA7A] transition-colors">{area.label}</span>

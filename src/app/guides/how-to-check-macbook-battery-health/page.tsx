@@ -26,6 +26,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/how-to-check-macbook-battery-health', title: 'How to Check MacBook Battery Health in 2026 | Complete Guide | ZA Support', description: 'Check MacBook battery health using System Information, Terminal & coconutBattery. Cycle counts, capacity thresholds & when to replace. Book at ZA Support.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'How to Check MacBook Battery Health in 2026 | Complete Guide | ZA Support',
   description:
     'Check MacBook battery health using System Information, Terminal & coconutBattery. Cycle counts, capacity thresholds & when to replace. Book at ZA Support.',

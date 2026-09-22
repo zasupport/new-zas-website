@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-air-m1', title: 'MacBook Air M1 Logic Board Repair Johannesburg', description: 'MacBook Air M1 logic board repair in Johannesburg. No power, USB-C charging faults, black screen, liquid damage. Fanless design means no active cooling failures. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M1 Logic Board Repair Johannesburg',
   description: 'MacBook Air M1 logic board repair in Johannesburg. No power, USB-C charging faults, black screen, liquid damage. Fanless design means no active cooling failures. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m1' },

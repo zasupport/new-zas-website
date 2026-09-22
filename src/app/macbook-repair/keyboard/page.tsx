@@ -21,6 +21,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/macbook-repair/keyboard', title: 'MacBook Keyboard Repair Johannesburg | ZA Support', description: 'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro, all models. Hyde Park, Johannesburg. warranty on scissor keyboards.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Keyboard Repair Johannesburg | ZA Support',
   description:
     'MacBook keyboard repair in Johannesburg. Butterfly keyboard replacement, scissor keyboard replacement, stuck keys, broken keycaps, liquid damage. MacBook Air and Pro, all models. Hyde Park, Johannesburg. warranty on scissor keyboards.',

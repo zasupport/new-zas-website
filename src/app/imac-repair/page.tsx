@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import { GoogleReviews } from '@/components/GoogleReviews';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/imac-repair', title: 'iMac Repair Johannesburg | Screen, RAM, SSD, Logic Board | ZA Support', description: 'iMac repair in Johannesburg. Screen replacement, RAM upgrade, SSD upgrade, logic board repair, liquid damage, all iMac models from 2012 onwards. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iMac Repair Johannesburg | Screen, RAM, SSD, Logic Board | ZA Support',
   description:
     'iMac repair in Johannesburg. Screen replacement, RAM upgrade, SSD upgrade, logic board repair, liquid damage, all iMac models from 2012 onwards. Hyde Park.',
@@ -62,7 +63,7 @@ const services = [
     title: 'Power Supply Repair',
     description:
       'iMac won\'t turn on, intermittent power loss, no display. Power supply unit diagnosis and replacement.',
-    href: '/imac-repair/power-supply',
+    href: '/book',
     price: 'Contact for pricing',
   },
 ];

@@ -8,6 +8,7 @@ import { CONTACT } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/imac-repair/ssd-upgrade', title: 'iMac SSD Upgrade Johannesburg | Fusion Drive to SSD | ZA Support', description: 'iMac SSD upgrade in Johannesburg. Replace slow hard drive or Fusion Drive with a fast SSD. Boot in under 20 seconds. All Intel iMac models. Data migration included. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iMac SSD Upgrade Johannesburg | Fusion Drive to SSD | ZA Support',
   description:
     'iMac SSD upgrade in Johannesburg. Replace slow hard drive or Fusion Drive with a fast SSD. Boot in under 20 seconds. All Intel iMac models. Data migration included. Hyde Park.',

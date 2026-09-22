@@ -25,6 +25,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/macbook-air', title: 'MacBook Air Battery Replacement Johannesburg [2026] | ZA Support', description: 'MacBook Air battery replacement in Johannesburg. M1, M2, M3 & Intel Air. Swollen battery, adhesive removal, cycle count checks. Assessment. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air Battery Replacement Johannesburg [2026] | ZA Support',
   description:
     'MacBook Air battery replacement in Johannesburg. M1, M2, M3 & Intel Air. Swollen battery, adhesive removal, cycle count checks. Assessment. Hyde Park.',

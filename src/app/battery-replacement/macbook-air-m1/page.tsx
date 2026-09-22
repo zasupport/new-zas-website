@@ -25,6 +25,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/macbook-air-m1', title: 'MacBook Air M1 Battery Replacement Johannesburg 2026 | ZA Support', description: 'MacBook Air M1 battery replacement Johannesburg. 49.9 Wh cell, fanless design considerations, full calibration. Assessment. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M1 Battery Replacement Johannesburg 2026 | ZA Support',
   description:
     'MacBook Air M1 battery replacement Johannesburg. 49.9 Wh cell, fanless design considerations, full calibration. Assessment. Hyde Park.',

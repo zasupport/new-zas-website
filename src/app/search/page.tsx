@@ -6,6 +6,8 @@ import SearchResults from './SearchResults';
 export const metadata: Metadata = {
   title: 'Search | ZA Support',
   description: 'Search the ZA Support website for Mac repair services, repair guides, and Apple tips.',
+  alternates: { canonical: 'https://zasupport.com/search' },
+  openGraph: { url: 'https://zasupport.com/search', title: 'Search | ZA Support' },
   robots: { index: false, follow: true },
 };
 

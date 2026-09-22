@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/fourways', title: 'MacBook Battery Replacement Fourways | ZA Support Hyde Park', description: 'MacBook battery replacement for Fourways clients. Genuine Apple-spec batteries, same-day service. We collect from Fourways and replace at our Hyde Park workshop. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Battery Replacement Fourways | ZA Support Hyde Park',
   description:
     'MacBook battery replacement for Fourways clients. Genuine Apple-spec batteries, same-day service. We collect from Fourways and replace at our Hyde Park workshop. Call 064 529 5863.',

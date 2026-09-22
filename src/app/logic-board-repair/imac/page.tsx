@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/imac', title: 'iMac Logic Board Repair Johannesburg', description: 'iMac logic board repair Johannesburg. 21.5", 24" and 27" models, M1, M3, M4, and Intel. We fix the chip, not the board. Assessment, up-to-3 year warranty. Hyde Park. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iMac Logic Board Repair Johannesburg',
   description:
     'iMac logic board repair Johannesburg. 21.5", 24" and 27" models, M1, M3, M4, and Intel. We fix the chip, not the board. Assessment, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',

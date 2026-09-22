@@ -5,6 +5,7 @@ import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildBreadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/editorial-policy', title: 'Editorial Policy | ZA Support', description: 'How ZA Support creates, reviews, and maintains technical content. All articles written or reviewed by Courtney Bentley, CEO & Apple Certified Expert Consultant with 17 years of experience.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'Editorial Policy | ZA Support',
   description:
     'How ZA Support creates, reviews, and maintains technical content. All articles written or reviewed by Courtney Bentley, CEO & Apple Certified Expert Consultant with 17 years of experience.',

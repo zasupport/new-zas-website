@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/craighall', title: 'MacBook Screen Repair Craighall | ZA Support Hyde Park', description: 'MacBook screen repair for Craighall clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Craighall. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Craighall | ZA Support Hyde Park',
   description: 'MacBook screen repair for Craighall clients. Cracked display, pressure marks, flickering, backlight failure. Collection from Craighall. Assessment.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/craighall' },

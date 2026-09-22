@@ -9,6 +9,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/midrand', title: 'MacBook Screen Repair Midrand | ZA Support Hyde Park', description: 'MacBook screen repair for Midrand clients. Cracked displays, backlight failure, and LCD faults repaired at our Hyde Park workshop with collection and return service. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Screen Repair Midrand | ZA Support Hyde Park',
   description:
     'MacBook screen repair for Midrand clients. Cracked displays, backlight failure, and LCD faults repaired at our Hyde Park workshop with collection and return service. Call 064 529 5863.',

@@ -11,6 +11,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/screen-repair/macbook-pro-m2', title: 'MacBook Pro M2 Screen Repair Johannesburg [2026] | ZA Support', description: 'MacBook Pro M2 screen repair in Johannesburg. Liquid Retina & XDR display specialists. Backlight IC, display cable, True Tone. Assessment. Hyde Park workshop.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro M2 Screen Repair Johannesburg [2026] | ZA Support',
   description:
     'MacBook Pro M2 screen repair in Johannesburg. Liquid Retina & XDR display specialists. Backlight IC, display cable, True Tone. Assessment. Hyde Park workshop.',

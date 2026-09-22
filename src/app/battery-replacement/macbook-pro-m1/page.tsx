@@ -25,6 +25,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/battery-replacement/macbook-pro-m1', title: 'MacBook Pro M1 Battery Replacement Johannesburg [2026] | ZA Support', description: 'MacBook Pro M1 battery replacement Johannesburg. 58.2Wh (13") / 70Wh (14") cells. First Apple Silicon. Assessment. Hyde Park workshop. 12-month warranty.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro M1 Battery Replacement Johannesburg [2026] | ZA Support',
   description:
     'MacBook Pro M1 battery replacement Johannesburg. 58.2Wh (13") / 70Wh (14") cells. First Apple Silicon. Assessment. Hyde Park workshop. 12-month warranty.',

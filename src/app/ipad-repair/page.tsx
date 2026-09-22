@@ -18,6 +18,7 @@ const orphanIpadRepairLinks = [
 ];
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/ipad-repair', title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support', description: 'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. Assessment. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iPad Repair Johannesburg | Screen, Battery & Charging | ZA Support',
   description:
     'iPad repair in Johannesburg. Screen, battery, charging port. iPad Pro M4, Air M2, mini 6. Assessment. Hyde Park.',

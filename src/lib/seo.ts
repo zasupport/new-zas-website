@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SITE, CONTACT } from './constants';
+import { canonicalPageUrl } from './url-policy';
 
 interface BuildMetadataOptions {
   title: string;
@@ -16,9 +17,7 @@ export function buildMetadata({
   ogImage = '/og-default.jpg',
   noIndex = false,
 }: BuildMetadataOptions): Metadata {
-  const canonical = canonicalUrl
-    ? `${SITE.url}${canonicalUrl}`
-    : SITE.url;
+  const canonical = canonicalPageUrl(canonicalUrl || '/');
 
   return {
     title,

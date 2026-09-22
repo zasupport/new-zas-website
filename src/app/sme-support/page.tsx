@@ -28,6 +28,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/sme-support', title: 'SME Apple Support Johannesburg | Business IT Solutions | ZA Support', description: 'SME Apple support and business IT solutions in Johannesburg. Managed services, dedicated account manager, specialist networking, Apple repairs and software development. BEE Level 1. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'SME Apple Support Johannesburg | Business IT Solutions | ZA Support',
   description:
     'SME Apple support and business IT solutions in Johannesburg. Managed services, dedicated account manager, specialist networking, Apple repairs and software development. BEE Level 1. Assessment.',

@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/parktown-north', title: 'MacBook Liquid Damage Repair Parktown North | ZA Support Hyde Park', description: 'MacBook liquid damage repair for Parktown North clients. Ultrasonic cleaning, component-level board repair. Assessment. Collection from Parktown North. No Fix No Fee.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Liquid Damage Repair Parktown North | ZA Support Hyde Park',
   description: 'MacBook liquid damage repair for Parktown North clients. Ultrasonic cleaning, component-level board repair. Assessment. Collection from Parktown North. No Fix No Fee.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/parktown-north' },

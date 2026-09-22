@@ -10,6 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/guides/macbook-not-charging', title: 'MacBook Not Charging? 10 Steps to Fix It in 2026 | ZA Support', description: 'MacBook not charging? Follow our 10-step troubleshooting guide covering charger checks, SMC resets, port diagnosis and charging IC repair. Hyde Park, JHB.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Not Charging? 10 Steps to Fix It in 2026 | ZA Support',
   description:
     'MacBook not charging? Follow our 10-step troubleshooting guide covering charger checks, SMC resets, port diagnosis and charging IC repair. Hyde Park, JHB.',
@@ -253,7 +254,7 @@ export default function MacBookNotChargingGuidePage() {
             {[
               { label: 'Logic Board Repair', href: '/logic-board-repair' },
               { label: 'Battery Replacement', href: '/battery-replacement' },
-              { label: 'Charging Port Repair', href: '/charging-port-repair' },
+              { label: 'Charging Port Repair', href: '/macbook-repair/charging-port' },
               { label: 'Liquid Damage Repair', href: '/liquid-damage' },
               { label: 'MacBook Pro Repair', href: '/macbook-pro-repair' },
               { label: 'MacBook Air Repair', href: '/macbook-air-repair' },

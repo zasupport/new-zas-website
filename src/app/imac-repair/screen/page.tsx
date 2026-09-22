@@ -8,6 +8,7 @@ import { CONTACT } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/imac-repair/screen', title: 'iMac Screen Repair Johannesburg | Cracked Display Replacement | ZA Support', description: 'iMac screen repair in Johannesburg. Cracked glass, dead pixels, backlight failure, display lines, all iMac models from 2012 onwards. Professional panel replacement. Hyde Park.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'iMac Screen Repair Johannesburg | Cracked Display Replacement | ZA Support',
   description:
     'iMac screen repair in Johannesburg. Cracked glass, dead pixels, backlight failure, display lines, all iMac models from 2012 onwards. Professional panel replacement. Hyde Park.',

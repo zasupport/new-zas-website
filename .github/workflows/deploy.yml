@@ -33,8 +33,17 @@ jobs:
           npm run lint
           npm run check:seo
           npm run check:reliability
+          npm run check:urls
           npm run check:security
           npm run build
+          npm run check:urls-rendered
+      - name: Preserve URL validation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: url-validation-${{ github.sha }}
+          path: .reliability/url-*.json
+          if-no-files-found: error
 
   # ── WAIT FOR VERCEL — poll until the new deployment is live ───────────────
   wait-for-deploy:
@@ -73,6 +82,15 @@ jobs:
           node-version-file: '.nvmrc'
       - name: Public indexability and release links
         run: node scripts/verify-release.mjs --expected-version "${GITHUB_SHA:0:8}"
+      - name: All-path canonical and redirect audit
+        run: npm run monitor:urls
+      - name: Preserve live URL evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: url-live-${{ github.sha }}
+          path: .reliability/url-live-*.json
+          if-no-files-found: error
       - name: Endpoint tests (9 checks)
         run: |
           FAIL=0

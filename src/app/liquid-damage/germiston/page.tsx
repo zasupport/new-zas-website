@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/germiston', title: 'MacBook Liquid Damage Repair Germiston | ZA Support Hyde Park', description: 'MacBook liquid damage repair for Germiston clients. Ultrasonic cleaning, board-level diagnostics. We collect from Germiston. Assessment. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Liquid Damage Repair Germiston | ZA Support Hyde Park',
   description:
     'MacBook liquid damage repair for Germiston clients. Ultrasonic cleaning, board-level diagnostics. We collect from Germiston. Assessment. Call 064 529 5863.',

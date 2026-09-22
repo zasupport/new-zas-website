@@ -9,6 +9,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/managed-services/unifi-networking', title: 'UniFi Business Networking Johannesburg 2026 Assessment | ZA Support', description: 'UniFi business networking for practices in Sandton, Bryanston, Morningside and Hyde Park. Segmented WiFi for POPIA, guest isolation, VPN, and managed support. Site assessment available.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'UniFi Business Networking Johannesburg 2026 Assessment | ZA Support',
   description:
     'UniFi business networking for practices in Sandton, Bryanston, Morningside and Hyde Park. Segmented WiFi for POPIA, guest isolation, VPN, and managed support. Site assessment available.',

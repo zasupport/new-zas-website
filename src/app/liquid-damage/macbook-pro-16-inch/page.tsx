@@ -10,6 +10,7 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/liquid-damage/macbook-pro-16-inch', title: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg [2026]', description: 'MacBook Pro 16-inch liquid damage repair Johannesburg. M1 Max, M2 Max, M3 Max specialists. 140W MagSafe 3, HDMI, SD slot corrosion repair. Assessment. No Fix No Fee.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg [2026]',
   description:
     'MacBook Pro 16-inch liquid damage repair Johannesburg. M1 Max, M2 Max, M3 Max specialists. 140W MagSafe 3, HDMI, SD slot corrosion repair. Assessment. No Fix No Fee.',

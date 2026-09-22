@@ -26,6 +26,7 @@ import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import PricingNote from '@/components/PricingNote';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/medical-it', title: 'Medical Practice IT Management Johannesburg | Apple MDM for Doctors | ZA Support', description: 'Medical practice IT management in Johannesburg. HPCSA-compliant Apple device management, POPIA patient data security, MDM for doctors. Assessment. BEE Level 1. Call 064 529 5863.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title:
     'Medical Practice IT Management Johannesburg | Apple MDM for Doctors | ZA Support',
   description:

@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/ui/Breadcrumb';
 import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
+    openGraph: { url: 'https://zasupport.com/logic-board-repair/macbook-air-m5', title: 'MacBook Air M5 Logic Board Repair Johannesburg', description: 'MacBook Air M5 (13-inch & 15-inch, 2026) logic board repair in Johannesburg. Surge, liquid and accidental damage Apple’s warranty won’t cover, charging, Thunderbolt 4, N1 Wi-Fi 7, component-level. Assessment.', siteName: 'ZA Support', locale: 'en_ZA', type: 'website', images: [{ url: 'https://zasupport.com/og-image.jpg', width: 1200, height: 630 }] },
   title: 'MacBook Air M5 Logic Board Repair Johannesburg',
   description: 'MacBook Air M5 (13-inch & 15-inch, 2026) logic board repair in Johannesburg. Surge, liquid and accidental damage Apple’s warranty won’t cover, charging, Thunderbolt 4, N1 Wi-Fi 7, component-level. Assessment.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air-m5' },
