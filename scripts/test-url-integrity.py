@@ -86,6 +86,14 @@ class IntegrityTests(unittest.TestCase):
         text = m.redact("https://candidate.vercel.app/a")
         self.assertEqual(m.redact(text), text)
 
+    def test_redacted_markdown_not_fake_link(self):
+        self.assertEqual(m.redact("[Preview](https://candidate.vercel.app/a)"), "Preview [deployment URL redacted]")
+
+    def test_redacted_html_not_fake_link(self):
+        text = m.redact('<a href="https://candidate.vercel.app/a">Preview</a>')
+        self.assertNotIn("href=", text)
+        self.assertNotIn("vercel.app", text)
+
     def test_loop(self):
         def fetch(url):
             return 301, {"location": url}, ""

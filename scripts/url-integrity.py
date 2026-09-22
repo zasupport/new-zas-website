@@ -53,6 +53,17 @@ def private(path):
 def redact(text):
     # Never turn a preview into a production link. Retain the raw original only
     # in the caller's restricted evidence store.
+    def markdown_link(match):
+        label, target = match.groups()
+        if VENDOR.search(target) or BARE_VENDOR.search(target):
+            return label + " [deployment URL redacted]"
+        return match.group(0)
+    text = re.sub(r"\[([^\]\n]+)\]\(([^)\n]+)\)", markdown_link, text)
+    def html_attribute(match):
+        if VENDOR.search(match[3]) or BARE_VENDOR.search(match[3]):
+            return 'data-redacted-url=""'
+        return match.group(0)
+    text = re.sub(r"\b(href|src)\s*=\s*([\"'])(.*?)\2", html_attribute, text, flags=re.I)
     text = VENDOR.sub("[deployment URL redacted]", text)
     return BARE_VENDOR.sub("[deployment host redacted]", text)
 
