@@ -12,6 +12,7 @@ import datetime as dt
 import hashlib
 from html.parser import HTMLParser
 import json
+import os
 from pathlib import Path
 import re
 import subprocess
@@ -22,7 +23,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get("URL_INTEGRITY_REPO", str(Path(__file__).resolve().parents[1]))).resolve()
 ORIGIN = "https://zasupport.com"
 HOSTS = {"zasupport.com", "www.zasupport.com"}
 REDIRECTS = {301, 302, 303, 307, 308}
