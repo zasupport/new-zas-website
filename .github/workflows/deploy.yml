@@ -21,6 +21,8 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
@@ -44,6 +46,7 @@ jobs:
           name: url-validation-${{ github.sha }}
           path: .reliability/url-*.json
           if-no-files-found: error
+          include-hidden-files: true
 
   # ── WAIT FOR VERCEL — poll until the new deployment is live ───────────────
   wait-for-deploy:
@@ -77,6 +80,8 @@ jobs:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
@@ -91,6 +96,7 @@ jobs:
           name: url-live-${{ github.sha }}
           path: .reliability/url-live-*.json
           if-no-files-found: error
+          include-hidden-files: true
       - name: Endpoint tests (9 checks)
         run: |
           FAIL=0
