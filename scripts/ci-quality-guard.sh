@@ -116,7 +116,7 @@ guard_workflow_robustness() {
     else
       bad "INVARIANT 3a: gitleaks used but NO 'fetch-depth: 0' — shallow checkout git-fails the secrets leg. Add fetch-depth:0 to the tier2 checkout."
     fi
-    if printf '%s\n' "$body" | grep -qi 'gitleaks-action'; then
+    if printf '%s\n' "$body" | grep -Eqi 'uses:[[:space:]]*gitleaks/gitleaks-action'; then
       ok "workflow: gitleaks-action (push-range is incremental)"
     elif printf '%s\n' "$body" | grep -Eqi 'gitleaks[^#]*detect'; then
       if printf '%s\n' "$body" | grep -q 'log-opts'; then
@@ -171,6 +171,19 @@ case "${1:---check}" in
     if REPO="$tmp3" bash "$0" --check >/dev/null 2>&1; then
       echo "  ✗ negative FAIL — guard passed a fragile (shallow) gitleaks workflow"; exit 1
     else echo "  ✓ negative PASS (fragile gitleaks workflow flagged)"; fi
+    # Negative control 3: a full-history 'gitleaks detect' (no --log-opts) MUST fail
+    # 3a — it would surface the known un-rotated finding and red permanently (§917).
+    echo "[negative] full-history 'gitleaks detect' (no --log-opts) must FAIL invariant 3a"
+    tmp4="$(mktemp -d)"; trap 'rm -rf "$tmp" "$tmp3" "$tmp4"' EXIT
+    ( cd "$tmp4" && git init -q )
+    mkdir -p "$tmp4/.github/workflows" "$tmp4/scripts"
+    cp "$REPO/ruff.toml" "$tmp4/" 2>/dev/null
+    cp "$REPO/scripts/check-secrets.sh" "$tmp4/scripts/" 2>/dev/null
+    printf '%s\n' '#!/bin/bash' 'bash scripts/check-secrets.sh' > "$tmp4/.git/hooks/pre-commit"
+    printf '%s\n' 'name: Quality' 'jobs:' '  tier2:' '    steps:' '      - uses: actions/checkout@v4' '        with:' '          fetch-depth: 0' '      - run: gitleaks detect --source . --exit-code 2' > "$tmp4/.github/workflows/claude-quality.yml"
+    if REPO="$tmp4" bash "$0" --check >/dev/null 2>&1; then
+      echo "  ✗ negative FAIL — guard passed a full-history gitleaks detect"; exit 1
+    else echo "  ✓ negative PASS (full-history detect flagged)"; fi
     # Absence control: proven above — missing ruff/gitleaks emit UNVALIDATED notes,
     # never a silent pass (see guard_lint_policy / guard_secret_gate).
     echo "[absence] missing-tool path emits UNVALIDATED, never silent-pass — by construction"
