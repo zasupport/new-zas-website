@@ -32,6 +32,7 @@ API:
 CLI:
   dash_normalizer.py --test              positive + negative controls (gate must be green)
 """
+
 import re
 import sys
 
@@ -59,8 +60,8 @@ def _strip_em_in_titles(text: str) -> str:
         new = first.rstrip() + ": " + rest.lstrip()
         return pre + new + post
 
-    text = _make("'").sub(repl, text)   # single-quote titles (blog index)
-    text = _make("`").sub(repl, text)   # backtick titles (blog [slug] Record)
+    text = _make("'").sub(repl, text)  # single-quote titles (blog index)
+    text = _make("`").sub(repl, text)  # backtick titles (blog [slug] Record)
     return text
 
 
@@ -87,8 +88,8 @@ def normalize_dashes(text: str) -> str:
 
     # 5. normalise ONLY artefacts the substitution created. Crucially we do NOT
     #    touch pre-existing commas (thousands separators like R4,499 / 10,000).
-    text = re.sub(r"[ \t]+,", ",", text)            # " ," -> "," (from spaced em-dash)
-    text = re.sub(r",[ \t]*,", ", ", text)          # ", ," -> ", "
+    text = re.sub(r"[ \t]+,", ",", text)  # " ," -> "," (from spaced em-dash)
+    text = re.sub(r",[ \t]*,", ", ", text)  # ", ," -> ", "
     # ", ." -> "." but NEVER touch ", ..." / ", ...spread" (the lookahead guards
     #   JS spread/ellipsis: `{ a, ...b }` and "wait, ..." must stay intact).
     text = re.sub(r",[ \t]*(?!\.\.)([.;:!?])", r"\1", text)
@@ -105,11 +106,6 @@ def count_dashes(text: str):
 
 
 def _test() -> int:
-    cases = [
-        # (input, expected)
-        ("Spilled Coffee on a MacBook — What to Do",
-         "Spilled Coffee on a MacBook — What to Do"),  # plain text -> comma (not title field)
-    ]
     # The plain-text case becomes a comma; title-field case becomes colon.
     checks = []
 
@@ -120,7 +116,9 @@ def _test() -> int:
 
     # 2. em-dash clause break -> comma
     checks.append(("em nospace", normalize_dashes("display—somewhere") == "display, somewhere"))
-    checks.append(("em spaced", normalize_dashes("Johannesburg — iPhone") == "Johannesburg, iPhone"))
+    checks.append(
+        ("em spaced", normalize_dashes("Johannesburg — iPhone") == "Johannesburg, iPhone")
+    )
 
     # 3. em-dash in title field -> colon (single-quote AND backtick forms)
     t_in = "title: 'Spilled Coffee on a MacBook — What to Do'"
@@ -131,8 +129,12 @@ def _test() -> int:
     checks.append(("em title backtick colon", normalize_dashes(bt_in) == bt_out))
     # content: backtick (multiline) must NOT be colon-ised — stays comma
     c_in = "content: `# Heading\nbody text—more text`"
-    checks.append(("content body comma not colon",
-                   normalize_dashes(c_in) == "content: `# Heading\nbody text, more text`"))
+    checks.append(
+        (
+            "content body comma not colon",
+            normalize_dashes(c_in) == "content: `# Heading\nbody text, more text`",
+        )
+    )
 
     # 4. em-dash digit range -> hyphen
     checks.append(("em digit range", normalize_dashes("R599—R2000") == "R599-R2000"))
@@ -151,31 +153,50 @@ def _test() -> int:
     checks.append(("no double comma", ", ," not in normalize_dashes("a — , b")))
 
     # 8. thousands separators MUST be untouched (the R4,499 regression)
-    checks.append(("thousands sep kept",
-                   normalize_dashes("**R4,499 and up** for work—still cheaper")
-                   == "**R4,499 and up** for work, still cheaper"))
-    checks.append(("plain 10,000 kept", normalize_dashes("over 10,000 repairs") == "over 10,000 repairs"))
+    checks.append(
+        (
+            "thousands sep kept",
+            normalize_dashes("**R4,499 and up** for work—still cheaper")
+            == "**R4,499 and up** for work, still cheaper",
+        )
+    )
+    checks.append(
+        ("plain 10,000 kept", normalize_dashes("over 10,000 repairs") == "over 10,000 repairs")
+    )
 
     # 9. newline not collapsed by a line-terminal em-dash
-    checks.append(("no para collapse",
-                   normalize_dashes("line one—\nline two") == "line one, \nline two"))
+    checks.append(
+        ("no para collapse", normalize_dashes("line one—\nline two") == "line one, \nline two")
+    )
 
     # 10. JS spread / ellipsis must survive a same-file em-dash trigger (the
     #     `true...data` build-break: rule 5c must NOT eat ", ..." )
-    checks.append(("spread intact",
-                   normalize_dashes("{ cron: true, ...data } and x—y")
-                   == "{ cron: true, ...data } and x, y"))
-    checks.append(("array spread intact",
-                   normalize_dashes("[...a ?? [], ...b] plus a—b")
-                   == "[...a ?? [], ...b] plus a, b"))
-    checks.append(("prose ellipsis intact",
-                   normalize_dashes("Wait, ... really? plus a—b")
-                   == "Wait, ... really? plus a, b"))
+    checks.append(
+        (
+            "spread intact",
+            normalize_dashes("{ cron: true, ...data } and x—y")
+            == "{ cron: true, ...data } and x, y",
+        )
+    )
+    checks.append(
+        (
+            "array spread intact",
+            normalize_dashes("[...a ?? [], ...b] plus a—b") == "[...a ?? [], ...b] plus a, b",
+        )
+    )
+    checks.append(
+        (
+            "prose ellipsis intact",
+            normalize_dashes("Wait, ... really? plus a—b") == "Wait, ... really? plus a, b",
+        )
+    )
 
     ok = all(p for _, p in checks)
     for name, p in checks:
         print(f"  {'✅' if p else '❌'} {name}")
-    print(f"{'✅ PASS' if ok else '❌ FAIL'}: dash_normalizer §547 ({sum(p for _,p in checks)}/{len(checks)})")
+    print(
+        f"{'✅ PASS' if ok else '❌ FAIL'}: dash_normalizer §547 ({sum(p for _, p in checks)}/{len(checks)})"
+    )
     return 0 if ok else 1
 
 

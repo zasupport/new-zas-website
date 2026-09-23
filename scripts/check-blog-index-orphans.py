@@ -30,7 +30,10 @@ NOT enforced here (deliberate, stated so nobody assumes coverage):
   * This gate proves LINK STRUCTURE only. Actual (re)indexing is Google's decision over days
     or weeks -- passing this gate does NOT mean a page is indexed.
 """
-import re, sys, os
+
+import re
+import sys
+import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITEMAP = os.path.join(ROOT, "src", "app", "sitemap.ts")
@@ -87,14 +90,18 @@ def cmd_check(list_only=False):
             print(s)
         return 0 if not orphans else 1
     if orphans:
-        print(f"FAIL [§402] — {len(orphans)} sitemap URL(s) are ORPHANS (in sitemap.ts, linked "
-              f"from nothing). Google cannot discover them by crawling:")
+        print(
+            f"FAIL [§402] — {len(orphans)} sitemap URL(s) are ORPHANS (in sitemap.ts, linked "
+            f"from nothing). Google cannot discover them by crawling:"
+        )
         for s in sorted(orphans)[:30]:
             print(f"  /blog/{s}")
         if len(orphans) > 30:
             print(f"  ... and {len(orphans) - 30} more")
-        print("  Fix: add them to the posts array in src/app/blog/page.tsx "
-              "(scripts/fix-blog-index-orphans.py does this from the content store).")
+        print(
+            "  Fix: add them to the posts array in src/app/blog/page.tsx "
+            "(scripts/fix-blog-index-orphans.py does this from the content store)."
+        )
         return 1
     print("PASS [§402] — every sitemap blog URL is linked from the index (0 orphans).")
     return 0
@@ -122,7 +129,9 @@ def _test():
 
     # NEGATIVE 2 — extra index entries not in the sitemap are NOT this gate's business.
     orph, reason = find_orphans(sm, ix_full + "{ slug: 'gamma' },")
-    chk("NEGATIVE: index-only slug is not flagged (not an orphan)", reason is None and orph == set())
+    chk(
+        "NEGATIVE: index-only slug is not flagged (not an orphan)", reason is None and orph == set()
+    )
 
     # NEGATIVE 3 — DOUBLE-QUOTED index rows must be seen. This is the variant the first
     # version of this gate was blind to: generated rows use json.dumps (double quotes), so a
@@ -131,16 +140,19 @@ def _test():
     chk("NEGATIVE: double-quoted index rows are recognised", reason is None and orph == set())
 
     # ABSENCE — unreadable / empty / format-drift must be UNKNOWN, never 'clean'. (§704)
-    for label, a, b in (("unreadable sitemap", None, ix_full),
-                        ("unreadable index", sm, None),
-                        ("sitemap parses to 0", "no slugs here", ix_full),
-                        ("index parses to 0", sm, "no slugs here")):
+    for label, a, b in (
+        ("unreadable sitemap", None, ix_full),
+        ("unreadable index", sm, None),
+        ("sitemap parses to 0", "no slugs here", ix_full),
+        ("index parses to 0", sm, "no slugs here"),
+    ):
         orph, reason = find_orphans(a, b)
         chk(f"ABSENCE: {label} -> UNKNOWN not clean", orph is None and reason is not None)
 
     # MUTATION — break the invariant (difference in the wrong direction) and POSITIVE must die.
     def mutated(sitemap_text, index_text):
         return index_slugs(index_text) - sitemap_slugs(sitemap_text), None
+
     orph, _ = mutated(sm, ix)
     chk("MUTATION: reversing the set difference breaks the positive case", orph != {"beta"})
 
@@ -148,11 +160,13 @@ def _test():
     real_sm, real_ix = _read(SITEMAP), _read(INDEX)
     seen_sm = len(sitemap_slugs(real_sm)) if real_sm else 0
     seen_ix = len(index_slugs(real_ix)) if real_ix else 0
-    chk(f"PRODUCTION-VISIBILITY: real files parsed ({seen_sm} sitemap / {seen_ix} index slugs)",
-        seen_sm > 100 and seen_ix > 100)
+    chk(
+        f"PRODUCTION-VISIBILITY: real files parsed ({seen_sm} sitemap / {seen_ix} index slugs)",
+        seen_sm > 100 and seen_ix > 100,
+    )
 
     print("RESULT:", "ALL PASS" if rc == 0 else "FAILURES")
-    return 2 if rc else 0   # >=2 so a daily runner counts a real failure
+    return 2 if rc else 0  # >=2 so a daily runner counts a real failure
 
 
 if __name__ == "__main__":

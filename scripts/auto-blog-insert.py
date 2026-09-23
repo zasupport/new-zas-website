@@ -24,8 +24,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 try:
     from blog_content_sanitiser import sanitise as _sanitise_body
 except Exception:
+
     def _sanitise_body(c, escaped=False):  # fail-open is unacceptable; fail-loud
-        raise RuntimeError("blog_content_sanitiser.sanitise unavailable — refusing to insert un-sanitised content (§343)")
+        raise RuntimeError(
+            "blog_content_sanitiser.sanitise unavailable — refusing to insert un-sanitised content (§343)"
+        )
+
 
 # §547 — em/en-dash normalisation at the INSERTION path. The body is dash-stripped
 # inside _sanitise_body, but title / excerpt / FAQ text are extracted separately and
@@ -37,8 +41,12 @@ except Exception:
 try:
     from dash_normalizer import normalize_dashes as _normalize_dashes
 except Exception:
+
     def _normalize_dashes(c):  # fail-loud — never let a raw glyph reach production (§547)
-        raise RuntimeError("dash_normalizer.normalize_dashes unavailable — refusing to insert un-normalised content (§547)")
+        raise RuntimeError(
+            "dash_normalizer.normalize_dashes unavailable — refusing to insert un-normalised content (§547)"
+        )
+
 
 # §489 PRE-INSERT PRICE FILTER (29/06/2026): Haiku disobeys the prompt price-guard and emits
 # invented Rand prices, which the pre-commit §489 gate then rejects -> the whole commit strands
@@ -48,13 +56,24 @@ except Exception:
 # §489 gate's own offenders() as SoT (§354 no-fork).
 try:
     import importlib.util as _ilu
-    _spec = _ilu.spec_from_file_location("_price_gate", str(Path(__file__).parent / "check-blog-price-allowlist.py"))
-    _pg = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_pg)
+
+    _spec = _ilu.spec_from_file_location(
+        "_price_gate", str(Path(__file__).parent / "check-blog-price-allowlist.py")
+    )
+    _pg = _ilu.module_from_spec(_spec)
+    _spec.loader.exec_module(_pg)
+
     def _unconfirmed_prices(text):
-        return _pg.offenders(text)   # [] if clean, else [(token, ctx), ...]
+        return _pg.offenders(text)  # [] if clean, else [(token, ctx), ...]
 except Exception:
-    def _unconfirmed_prices(text):   # fail-loud — never silently insert unverified prices (§489/§374)
-        raise RuntimeError("check-blog-price-allowlist.offenders unavailable — refusing to insert price-unverified content (§489)")
+
+    def _unconfirmed_prices(
+        text,
+    ):  # fail-loud — never silently insert unverified prices (§489/§374)
+        raise RuntimeError(
+            "check-blog-price-allowlist.offenders unavailable — refusing to insert price-unverified content (§489)"
+        )
+
 
 WEBSITE_DIR = Path(__file__).parent.parent
 BLOG_PAGE = WEBSITE_DIR / "src" / "app" / "blog" / "[slug]" / "page.tsx"
@@ -90,24 +109,24 @@ def slug_from_filename(fname: str) -> str:
     """draft-macbook-wont-charge-johannesburg-22032026.md → macbook-wont-charge-johannesburg"""
     name = fname.replace("draft-", "").replace(".md", "")
     # Strip any 8-digit date suffix (DDMMYYYY) from the end
-    name = re.sub(r'-\d{8}$', '', name)
+    name = re.sub(r"-\d{8}$", "", name)
     return name
 
 
 def extract_title(content: str) -> str:
     """Extract H1 title from markdown. §547: dash-normalised at source so every
     consumer (Record entry + listing entry) gets a dash-clean title."""
-    m = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+    m = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
     return _normalize_dashes(m.group(1).strip()) if m else "Untitled"
 
 
 def extract_excerpt(content: str) -> str:
     """Extract first non-heading paragraph as excerpt."""
-    lines = content.split('\n')
+    lines = content.split("\n")
     for line in lines:
         line = line.strip()
-        if line and not line.startswith('#') and not line.startswith('```') and len(line) > 40:
-            return _normalize_dashes(line[:200].rstrip('.')+'.')  # §547 dash-clean at source
+        if line and not line.startswith("#") and not line.startswith("```") and len(line) > 40:
+            return _normalize_dashes(line[:200].rstrip(".") + ".")  # §547 dash-clean at source
     return "ZA Support Apple repair specialists in Hyde Park, Johannesburg."
 
 
@@ -117,7 +136,9 @@ def extract_faqs_from_content(content: str) -> list[dict]:
     Falls back to generating 3 generic FAQs from the slug topic.
     """
     # Try to find JSON-LD FAQ block in the markdown
-    faq_match = re.search(r'```(?:json)?\s*(\{[^`]*"@type"\s*:\s*"FAQPage"[^`]*\})\s*```', content, re.DOTALL)
+    faq_match = re.search(
+        r'```(?:json)?\s*(\{[^`]*"@type"\s*:\s*"FAQPage"[^`]*\})\s*```', content, re.DOTALL
+    )
     if faq_match:
         try:
             schema = json.loads(faq_match.group(1))
@@ -135,18 +156,18 @@ def extract_faqs_from_content(content: str) -> list[dict]:
 
     # Extract Q&A pairs from ### headings followed by paragraph text
     faqs = []
-    lines = content.split('\n')
+    lines = content.split("\n")
     i = 0
     while i < len(lines) and len(faqs) < 6:
         line = lines[i].strip()
-        if line.startswith('###') and '?' in line:
-            q = line.lstrip('#').strip()
+        if line.startswith("###") and "?" in line:
+            q = line.lstrip("#").strip()
             # Collect answer (next non-empty lines until next heading)
             answer_lines = []
             i += 1
             while i < len(lines):
                 l = lines[i].strip()
-                if l.startswith('#') or l.startswith('---'):
+                if l.startswith("#") or l.startswith("---"):
                     break
                 if l:
                     answer_lines.append(l)
@@ -161,7 +182,7 @@ def extract_faqs_from_content(content: str) -> list[dict]:
 
 def escape_ts(text: str) -> str:
     """Escape text for TypeScript template literal."""
-    return text.replace('\\', '\\\\').replace('`', '\\`').replace('${', '\\${')
+    return text.replace("\\", "\\\\").replace("`", "\\`").replace("${", "\\${")
 
 
 def read_time(content: str) -> str:
@@ -178,36 +199,74 @@ def read_time(content: str) -> str:
 # drift out of sync (§529 root-cause 11/06/2026: static-only set silently missed
 # melville/craighall/emmarentia/greenside/linden/parktown-north → doorway posts slipped through).
 _DOORWAY_SUBURBS_FLOOR = {
-    'sandton', 'rosebank', 'bryanston', 'fourways', 'morningside', 'rivonia', 'houghton',
-    'melrose', 'illovo', 'parkhurst', 'northcliff', 'randburg', 'sunninghill', 'paulshof',
-    'woodmead', 'kyalami', 'edenvale', 'bedfordview', 'midrand', 'kempton-park', 'centurion',
-    'pretoria', 'roodepoort', 'boksburg', 'benoni', 'alberton', 'germiston', 'randpark-ridge',
+    "sandton",
+    "rosebank",
+    "bryanston",
+    "fourways",
+    "morningside",
+    "rivonia",
+    "houghton",
+    "melrose",
+    "illovo",
+    "parkhurst",
+    "northcliff",
+    "randburg",
+    "sunninghill",
+    "paulshof",
+    "woodmead",
+    "kyalami",
+    "edenvale",
+    "bedfordview",
+    "midrand",
+    "kempton-park",
+    "centurion",
+    "pretoria",
+    "roodepoort",
+    "boksburg",
+    "benoni",
+    "alberton",
+    "germiston",
+    "randpark-ridge",
 }
 # device/model dirs under /logic-board-repair/ that are NOT suburbs (must not be flagged)
-_NON_SUBURB_DIRS = {'imac', 'mac-mini', 'mac-studio', 'mac-pro'}
+_NON_SUBURB_DIRS = {"imac", "mac-mini", "mac-studio", "mac-pro"}
+
 
 def _service_suburbs():
     """Derive the live suburb set from the /logic-board-repair/ service dirs (the SoT).
     Excludes model/device dirs and files. Fails safe to the static floor on any error."""
     import os
-    base = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                        '..', 'src', 'app', 'logic-board-repair')
+
+    base = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "..", "src", "app", "logic-board-repair"
+    )
     out = set()
     try:
         for d in os.listdir(base):
             if not os.path.isdir(os.path.join(base, d)):
                 continue
-            if d.startswith('macbook') or d in _NON_SUBURB_DIRS:
+            if d.startswith("macbook") or d in _NON_SUBURB_DIRS:
                 continue  # model/device dir, not a suburb
             out.add(d)
     except OSError:
         pass
     return out
 
+
 DOORWAY_SUBURBS = _DOORWAY_SUBURBS_FLOOR | _service_suburbs()
 NAMED_ENTITY_TOKENS = {
-    'investec', 'hospital', 'clinic', 'jamf', 'netcare', 'medical', 'wealth', 'law',
-    'practice', 'practices', 'mediclinic', 'specialist',
+    "investec",
+    "hospital",
+    "clinic",
+    "jamf",
+    "netcare",
+    "medical",
+    "wealth",
+    "law",
+    "practice",
+    "practices",
+    "mediclinic",
+    "specialist",
 }
 
 
@@ -217,20 +276,20 @@ def is_doorway_slug(slug: str) -> bool:
     s = slug.lower()
     if any(tok in s for tok in NAMED_ENTITY_TOKENS):
         return False  # §194 high-value — keep
-    return any(re.search(rf'(^|-){sub}(-|$)', s) for sub in DOORWAY_SUBURBS)
+    return any(re.search(rf"(^|-){sub}(-|$)", s) for sub in DOORWAY_SUBURBS)
 
 
 def category_from_slug(slug: str) -> str:
     """Infer category from slug."""
-    if any(k in slug for k in ['cost', 'price', 'how-much']):
-        return 'Pricing'
-    if any(k in slug for k in ['how-to', 'check', 'guide']):
-        return 'How-To'
-    if any(k in slug for k in ['repair', 'logic-board', 'screen', 'battery']):
-        return 'Repairs'
-    if any(k in slug for k in ['wont', 'not-working', 'disconnecting', 'overheating', 'symptoms']):
-        return 'Troubleshooting'
-    return 'Repairs'
+    if any(k in slug for k in ["cost", "price", "how-much"]):
+        return "Pricing"
+    if any(k in slug for k in ["how-to", "check", "guide"]):
+        return "How-To"
+    if any(k in slug for k in ["repair", "logic-board", "screen", "battery"]):
+        return "Repairs"
+    if any(k in slug for k in ["wont", "not-working", "disconnecting", "overheating", "symptoms"]):
+        return "Troubleshooting"
+    return "Repairs"
 
 
 def build_post_entry(slug: str, content: str) -> str:
@@ -244,7 +303,7 @@ def build_post_entry(slug: str, content: str) -> str:
     body = escape_ts(_sanitise_body(content))
 
     # §230: Author ALWAYS Courtney Bentley — never 'ZA Support', 'David Bentley', or anonymous
-    author_slug = 'courtney-bentley'
+    author_slug = "courtney-bentley"
     return f"""  '{slug}': {{
     slug: '{slug}',
     title: `{title}`,
@@ -264,7 +323,7 @@ def build_faq_schema_entry(slug: str, faqs: list[dict]) -> str:
     entities = []
     for faq in faqs:
         q = escape_ts(_normalize_dashes(faq["question"]))  # §547 dash-clean
-        a = escape_ts(_normalize_dashes(faq["answer"]))    # §547 dash-clean
+        a = escape_ts(_normalize_dashes(faq["answer"]))  # §547 dash-clean
         entities.append(
             f"      {{ '@type': 'Question', name: `{q}`, acceptedAnswer: {{ '@type': 'Answer', text: `{a}` }} }},"
         )
@@ -302,44 +361,28 @@ def insert_into_blog_page(slug: str, post_entry: str, faq_entry: str) -> bool:
                 return False
             content = content.replace(
                 posts_close_alt,
-                f"\n{post_entry}\n}};\n\nexport async function generateStaticParams"
+                f"\n{post_entry}\n}};\n\nexport async function generateStaticParams",
             )
         else:
-            content = content.replace(
-                posts_close,
-                f"\n{post_entry}{posts_close}"
-            )
+            content = content.replace(posts_close, f"\n{post_entry}{posts_close}")
     else:
-        content = content.replace(
-            posts_marker,
-            f"{post_entry}\n  {posts_marker}"
-        )
+        content = content.replace(posts_marker, f"{post_entry}\n  {posts_marker}")
 
     # Insert FAQ schema if present
     if faq_entry:
         faq_marker = "// END_FAQ_SCHEMAS"
         if faq_marker not in content:
             # Fallback: find faqSchemas closing }; before export default
-            import re as _re
             # Find the faqSchemas block end — look for last entry in it
             faq_close = "\n  };\n\n  if (faqSchemas"
             if faq_close in content:
-                content = content.replace(
-                    faq_close,
-                    f"\n{faq_entry}{faq_close}"
-                )
+                content = content.replace(faq_close, f"\n{faq_entry}{faq_close}")
             else:
                 faq_marker_alt = "} as Record<string, object>"
                 if faq_marker_alt in content:
-                    content = content.replace(
-                        faq_marker_alt,
-                        f"{faq_entry}\n{faq_marker_alt}"
-                    )
+                    content = content.replace(faq_marker_alt, f"{faq_entry}\n{faq_marker_alt}")
         else:
-            content = content.replace(
-                faq_marker,
-                f"{faq_entry}\n  {faq_marker}"
-            )
+            content = content.replace(faq_marker, f"{faq_entry}\n  {faq_marker}")
 
     BLOG_PAGE.write_text(content)
     return True
@@ -348,7 +391,7 @@ def insert_into_blog_page(slug: str, post_entry: str, faq_entry: str) -> bool:
 def insert_listing_entry(slug: str, title: str, excerpt: str, category: str, read_time_str: str):
     """Insert post into the blog listing page (blog/page.tsx) so it appears on /blog."""
     if not BLOG_LISTING.exists():
-        print(f"  WARN: Blog listing page not found — post won't appear on /blog")
+        print("  WARN: Blog listing page not found — post won't appear on /blog")
         return
 
     content = BLOG_LISTING.read_text()
@@ -418,7 +461,9 @@ def main():
     _AUTOPUBLISH = os.environ.get("ZA_BLOG_AUTOPUBLISH") == "1"
     queued = []
     if not _AUTOPUBLISH:
-        print("📋 REVIEW MODE (default-safe): gate-passed drafts will be QUEUED for human approval, NOT published. (ZA_BLOG_AUTOPUBLISH=1 to publish)")
+        print(
+            "📋 REVIEW MODE (default-safe): gate-passed drafts will be QUEUED for human approval, NOT published. (ZA_BLOG_AUTOPUBLISH=1 to publish)"
+        )
 
     print(f"Found {len(drafts)} drafts. Already inserted: {len(inserted)}")
     print("=" * 60)
@@ -435,7 +480,9 @@ def main():
         # page, NOT in the blog — it dilutes the cluster and gets pruned/301'd anyway.
         # Block it at insert time UNLESS it carries a high-value named-entity token (§194).
         if is_doorway_slug(slug):
-            print(f"  SKIP (§529 doorway suburb-permutation — belongs on /service, not /blog): {slug}")
+            print(
+                f"  SKIP (§529 doorway suburb-permutation — belongs on /service, not /blog): {slug}"
+            )
             continue
 
         # iCloud advisory locks can raise EDEADLK (errno 11) on read_text().
@@ -458,7 +505,7 @@ def main():
         # Repair/competitive keywords need 1500+, informational 1200+, troubleshooting 800+
         cat = category_from_slug(slug)
         min_words = 800  # base minimum for all posts
-        if cat == 'Repairs':
+        if cat == "Repairs":
             min_words = 800  # accept 800 for now; 1500+ is target but Haiku caps output
         if word_count < min_words:
             print(f"  SKIP (too short): {slug} ({word_count} words, min {min_words} for {cat})")
@@ -469,12 +516,25 @@ def main():
         _bad = _unconfirmed_prices(content)
         if _bad:
             toks = ", ".join(sorted({t for t, _ in _bad}))
-            print(f"  SKIP (§489 invented price): {slug} — {len(_bad)} unconfirmed Rand figure(s): {toks}")
+            print(
+                f"  SKIP (§489 invented price): {slug} — {len(_bad)} unconfirmed Rand figure(s): {toks}"
+            )
             try:
-                import json as _json, time as _time
+                import json as _json
+                import time as _time
+
                 with open(Path.home() / ".za-blog-price-reject.jsonl", "a") as _f:
-                    _f.write(_json.dumps({"ts": _time.strftime("%Y-%m-%dT%H:%M:%S"), "slug": slug,
-                                          "count": len(_bad), "tokens": sorted({t for t, _ in _bad})}) + "\n")
+                    _f.write(
+                        _json.dumps(
+                            {
+                                "ts": _time.strftime("%Y-%m-%dT%H:%M:%S"),
+                                "slug": slug,
+                                "count": len(_bad),
+                                "tokens": sorted({t for t, _ in _bad}),
+                            }
+                        )
+                        + "\n"
+                    )
             except Exception:
                 pass
             continue
@@ -484,15 +544,30 @@ def main():
         # manifest — and NOT inserted/committed/pushed. The §167 "first-hand value" check is the
         # human's job here (deterministic detection proven impossible: n-gram sim ~0, prose varied).
         if not _AUTOPUBLISH:
-            import shutil as _sh, json as _json, time as _time
-            _q = Path.home() / ".za-blog-review-queue"; _q.mkdir(exist_ok=True)
+            import shutil as _sh
+            import json as _json
+            import time as _time
+
+            _q = Path.home() / ".za-blog-review-queue"
+            _q.mkdir(exist_ok=True)
             _sh.copy(str(draft_path), str(_q / f"{slug}.md"))
             with open(Path.home() / ".za-blog-review-manifest.jsonl", "a") as _f:
-                _f.write(_json.dumps({"ts": _time.strftime("%Y-%m-%dT%H:%M:%S"), "slug": slug,
-                                      "status": "pending", "queued": str(_q / f"{slug}.md"),
-                                      "words": word_count}) + "\n")
+                _f.write(
+                    _json.dumps(
+                        {
+                            "ts": _time.strftime("%Y-%m-%dT%H:%M:%S"),
+                            "slug": slug,
+                            "status": "pending",
+                            "queued": str(_q / f"{slug}.md"),
+                            "words": word_count,
+                        }
+                    )
+                    + "\n"
+                )
             queued.append(slug)
-            print(f"  📋 QUEUED for review (NOT published): {slug} — approve: za-blog-review.sh --approve {slug}")
+            print(
+                f"  📋 QUEUED for review (NOT published): {slug} — approve: za-blog-review.sh --approve {slug}"
+            )
             continue
 
         print(f"  Processing: {slug}")
@@ -516,7 +591,9 @@ def main():
             print(f"  ⚠️  Skipped: {slug}")
 
     if queued and not newly_inserted:
-        print(f"\n📋 {len(queued)} draft(s) QUEUED for human review (not published): {', '.join(queued)}")
+        print(
+            f"\n📋 {len(queued)} draft(s) QUEUED for human review (not published): {', '.join(queued)}"
+        )
         print("   Review/approve: za-blog-review.sh --list | --approve <slug> | --reject <slug>")
         return 0
     if not newly_inserted:
@@ -538,8 +615,15 @@ def main():
         print(f"SYNTAX CHECK FAILED:\n{errors}")
         # Revert blog files so next run can retry cleanly
         subprocess.run(
-            ["git", "checkout", "HEAD", "--",
-             "src/app/blog/[slug]/page.tsx", "src/app/blog/page.tsx", "src/app/sitemap.ts"],
+            [
+                "git",
+                "checkout",
+                "HEAD",
+                "--",
+                "src/app/blog/[slug]/page.tsx",
+                "src/app/blog/page.tsx",
+                "src/app/sitemap.ts",
+            ],
             cwd=WEBSITE_DIR,
         )
         print("Reverted blog files — slugs NOT marked inserted, will retry next run")
@@ -551,13 +635,14 @@ def main():
     # deploy. Refuse to commit blog posts unless HEAD is exactly `main`.
     branch_result = subprocess.run(
         ["git", "rev-parse", "--abbrev-ref", "HEAD"],
-        cwd=WEBSITE_DIR, capture_output=True, text=True,
+        cwd=WEBSITE_DIR,
+        capture_output=True,
+        text=True,
     )
     current_branch = branch_result.stdout.strip()
     if current_branch != "main":
         print(
-            f"❌ §386/§384: refusing to commit blog posts — HEAD is "
-            f"'{current_branch}', not main",
+            f"❌ §386/§384: refusing to commit blog posts — HEAD is '{current_branch}', not main",
             file=sys.stderr,
         )
         sys.exit(1)
@@ -570,11 +655,13 @@ def main():
     # guarantee. The §357 daily build+scan sweep is the ≤24h rendered backstop.
     subprocess.run(
         [sys.executable, str(Path(__file__).parent / "blog_content_sanitiser.py"), "--apply"],
-        cwd=WEBSITE_DIR, check=False,
+        cwd=WEBSITE_DIR,
+        check=False,
     )
     subprocess.run(
         ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],
-        cwd=WEBSITE_DIR, check=True,
+        cwd=WEBSITE_DIR,
+        check=True,
     )
     msg = f"feat: {len(newly_inserted)} blog posts auto-inserted (overnight Haiku batch)"
 
@@ -587,36 +674,53 @@ def main():
     # NOT a blunt `git checkout HEAD` — page.tsx is monolithic, so a revert would
     # nuke the whole batch (good posts with the leaky one) and doom-loop.
     def _commit_with_heal(message):
-        r = subprocess.run(["git", "commit", "-m", message],
-                           cwd=WEBSITE_DIR, capture_output=True, text=True)
+        r = subprocess.run(
+            ["git", "commit", "-m", message], cwd=WEBSITE_DIR, capture_output=True, text=True
+        )
         if r.returncode == 0:
             return True
-        print("⚠️  commit rejected (likely §300/§377 IP-leak hook) — one clean-the-leak "
-              f"heal attempt:\n{(r.stdout + r.stderr)[-800:]}", file=sys.stderr)
+        print(
+            "⚠️  commit rejected (likely §300/§377 IP-leak hook) — one clean-the-leak "
+            f"heal attempt:\n{(r.stdout + r.stderr)[-800:]}",
+            file=sys.stderr,
+        )
         subprocess.run(
             [sys.executable, str(Path(__file__).parent / "blog_content_sanitiser.py"), "--apply"],
-            cwd=WEBSITE_DIR, check=False,
+            cwd=WEBSITE_DIR,
+            check=False,
         )
-        subprocess.run(["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],
-                       cwd=WEBSITE_DIR, check=False)
-        r2 = subprocess.run(["git", "commit", "-m", message],
-                            cwd=WEBSITE_DIR, capture_output=True, text=True)
+        subprocess.run(
+            ["git", "add", "--", "src/app/blog/", "src/app/sitemap.ts"],
+            cwd=WEBSITE_DIR,
+            check=False,
+        )
+        r2 = subprocess.run(
+            ["git", "commit", "-m", message], cwd=WEBSITE_DIR, capture_output=True, text=True
+        )
         if r2.returncode == 0:
             print("✅ commit succeeded after clean-the-leak heal")
             return True
-        print("❌ §313 commit STILL rejected after heal — un-staging blog files so no "
-              f"silent staged orphan remains; manual review required:\n{(r2.stdout + r2.stderr)[-800:]}",
-              file=sys.stderr)
+        print(
+            "❌ §313 commit STILL rejected after heal — un-staging blog files so no "
+            f"silent staged orphan remains; manual review required:\n{(r2.stdout + r2.stderr)[-800:]}",
+            file=sys.stderr,
+        )
         # Un-stage only (keep edits on disk so posts aren't lost); next run's
         # sanitiser sweep gets another chance, and the failure is LOUD not silent.
-        subprocess.run(["git", "reset", "--", "src/app/blog/", "src/app/sitemap.ts"],
-                       cwd=WEBSITE_DIR, check=False)
+        subprocess.run(
+            ["git", "reset", "--", "src/app/blog/", "src/app/sitemap.ts"],
+            cwd=WEBSITE_DIR,
+            check=False,
+        )
         return False
 
     if not _commit_with_heal(msg):
         return 1
     push_result = subprocess.run(
-        ["git", "push", "origin", "main"], cwd=WEBSITE_DIR, capture_output=True, text=True,
+        ["git", "push", "origin", "main"],
+        cwd=WEBSITE_DIR,
+        capture_output=True,
+        text=True,
     )
     if push_result.returncode != 0:
         print(f"PUSH FAILED:\n{push_result.stderr[-1000:]}")

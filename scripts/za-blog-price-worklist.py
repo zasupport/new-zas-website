@@ -16,7 +16,11 @@ Usage:
   za-blog-price-worklist.py [--top N]   # default N=12 keep-scrub posts detailed
   za-blog-price-worklist.py --test      # segmentation + sentence-extraction power
 """
-import importlib.util, re, subprocess, sys
+
+import importlib.util
+import re
+import subprocess
+import sys
 from pathlib import Path
 from collections import Counter, defaultdict
 
@@ -28,6 +32,7 @@ def _load(path, name):
     m = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(m)
     return m
+
 
 _triage = _load(_HERE / "za-blog-price-triage.py", "price_triage")
 _abi = _load(_HERE / "auto-blog-insert.py", "auto_blog_insert")
@@ -46,7 +51,7 @@ def offending_sentences(content: str):
             if tok in ALLOWED:
                 continue
             s = max(0, m.start() - 60)
-            classes.append(classify(sent[s:m.end() + 20]))
+            classes.append(classify(sent[s : m.end() + 20]))
         if classes:
             yield sent.strip(), classes
 
@@ -79,15 +84,23 @@ def build(text: str, top: int):
     doorway.sort(key=lambda kv: -kv[1]["ZA-INVENTED"])
 
     out = ["# §489 Remediation WORKLIST (READ-ONLY) — 28/06/2026", ""]
-    out.append("Advisor-shaped: review tags before editing. ∅ auto-rewrite. Apply top batch only, dry-run + §190.")
+    out.append(
+        "Advisor-shaped: review tags before editing. ∅ auto-rewrite. Apply top batch only, dry-run + §190."
+    )
     out.append("")
-    out.append(f"## SEGMENT 1 — DOORWAY → 301 candidates ({len(doorway)} posts): redirect, do NOT scrub")
+    out.append(
+        f"## SEGMENT 1 — DOORWAY → 301 candidates ({len(doorway)} posts): redirect, do NOT scrub"
+    )
     for slug, c in doorway[:40]:
         out.append(f"- `{slug}` (ZA-INVENTED:{c['ZA-INVENTED']}) → 301 to service hub (§529)")
     out.append("")
-    out.append(f"## SEGMENT 2 — KEEP → scrub candidates ({len(keep)} posts), ranked by invented-count")
+    out.append(
+        f"## SEGMENT 2 — KEEP → scrub candidates ({len(keep)} posts), ranked by invented-count"
+    )
     for slug, c in keep[:60]:
-        out.append(f"- `{slug}` — ZA-INVENTED:{c['ZA-INVENTED']} competitor:{c.get('COMPETITOR-ANCHOR',0)+c.get('COMPETITOR-CONFIRMED',0)} ambiguous:{c.get('AMBIGUOUS',0)}")
+        out.append(
+            f"- `{slug}` — ZA-INVENTED:{c['ZA-INVENTED']} competitor:{c.get('COMPETITOR-ANCHOR', 0) + c.get('COMPETITOR-CONFIRMED', 0)} ambiguous:{c.get('AMBIGUOUS', 0)}"
+        )
     out.append("")
     out.append(f"## TOP {top} KEEP-SCRUB — sentence-level review (catch misclassifications HERE)")
     for slug, c in keep[:top]:
@@ -101,7 +114,9 @@ def build(text: str, top: int):
 def _test() -> int:
     rc = 0
     # segmentation power: a doorway slug routes to 301, a real keep slug does not
-    door = is_doorway("logic-board-repair-sandton-2026") or is_doorway("managed-it-medical-practices-sandton-2026")
+    door = is_doorway("logic-board-repair-sandton-2026") or is_doorway(
+        "managed-it-medical-practices-sandton-2026"
+    )
     keep = not is_doorway("how-much-macbook-repair-johannesburg-2026")
     print(f"  {'PASS' if door else 'FAIL'}: doorway slug detected as doorway")
     print(f"  {'PASS' if keep else 'FAIL'}: real informational slug NOT doorway")
@@ -110,7 +125,9 @@ def _test() -> int:
     # sentence extraction power: dirty sentence yields a class, clean one yields nothing
     dirty = list(offending_sentences("M3 board repair at ZA Support is R3,499 to R6,499."))
     clean = list(offending_sentences("Assessment from R599. We confirm price after we see it."))
-    print(f"  {'PASS' if dirty else 'FAIL'}: dirty sentence flagged ({dirty[0][1] if dirty else 'none'})")
+    print(
+        f"  {'PASS' if dirty else 'FAIL'}: dirty sentence flagged ({dirty[0][1] if dirty else 'none'})"
+    )
     print(f"  {'PASS' if not clean else 'FAIL'}: NEG-CTRL clean sentence (R599 only) not flagged")
     if not dirty or clean:
         rc = 1
@@ -127,7 +144,8 @@ if __name__ == "__main__":
         top = int(a[1])
     text = subprocess.run(
         ["git", "show", "HEAD:src/app/blog/[slug]/page.tsx"],
-        capture_output=True, text=True,
+        capture_output=True,
+        text=True,
     ).stdout
     rep = build(text, top)
     dest = _HERE.parent / "docs" / "seo" / "blog-price-remediation-worklist-28-06-2026.md"
