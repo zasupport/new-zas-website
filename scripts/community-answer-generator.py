@@ -8,8 +8,6 @@ Key principle: answers are genuinely helpful. SA mention = organic only.
 
 import os
 import re
-import json
-import random
 import anthropic
 from pathlib import Path
 
@@ -54,9 +52,22 @@ def is_sa_relevant(title: str, body: str, subreddit: str = "") -> bool:
     """Check if question has SA/Johannesburg relevance."""
     text = (title + " " + body + " " + subreddit).lower()
     sa_terms = [
-        "south africa", "johannesburg", "joburg", "sandton", "rosebank",
-        "pretoria", "cape town", "durban", "load shedding", "loadshedding",
-        "eskom", "jozi", "randburg", "fourways", "midrand", "bryanston"
+        "south africa",
+        "johannesburg",
+        "joburg",
+        "sandton",
+        "rosebank",
+        "pretoria",
+        "cape town",
+        "durban",
+        "load shedding",
+        "loadshedding",
+        "eskom",
+        "jozi",
+        "randburg",
+        "fourways",
+        "midrand",
+        "bryanston",
     ]
     return any(t in text for t in sa_terms)
 
@@ -131,7 +142,7 @@ Question title: {title}
 Question body: {body}
 
 Question type: {q_type}
-Focus guidance: {type_hints.get(q_type, type_hints['general'])}
+Focus guidance: {type_hints.get(q_type, type_hints["general"])}
 
 {style_rules}
 {sa_mention}
@@ -209,12 +220,14 @@ if __name__ == "__main__":
     result = generate_answer(
         title="MacBook Pro won't turn on after load shedding surge",
         body="My 2019 MacBook Pro 15 inch just died during a load shedding surge. "
-             "Nothing happens when I press power, no light, no fan, no chime. "
-             "Apple quoted me R35000 for a new logic board. Is there any other option? "
-             "I'm in Johannesburg.",
+        "Nothing happens when I press power, no light, no fan, no chime. "
+        "Apple quoted me R35000 for a new logic board. Is there any other option? "
+        "I'm in Johannesburg.",
         platform="Reddit",
         subreddit="r/applehelp",
     )
-    print(f"Type: {result.get('q_type')} | SA: {result.get('sa_relevant')} | Cost: ${result.get('cost_usd')}")
+    print(
+        f"Type: {result.get('q_type')} | SA: {result.get('sa_relevant')} | Cost: ${result.get('cost_usd')}"
+    )
     print("\n--- ANSWER ---")
     print(result.get("answer", result.get("error", "")))

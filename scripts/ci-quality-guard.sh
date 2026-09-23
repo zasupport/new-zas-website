@@ -105,11 +105,25 @@ guard_workflow_robustness() {
     return
   fi
   local body; body="$(cat "$REPO/$wf")"
-  if printf '%s' "$body" | grep -q 'gitleaks-action'; then
-    if printf '%s' "$body" | grep -Eq 'fetch-depth:[[:space:]]*0'; then
-      ok "workflow: gitleaks-action + fetch-depth:0 (push-range resolves, no 'unknown revision' red)"
+  # 3a — the secrets leg is edge-safe. Any gitleaks usage needs full history
+  # (fetch-depth: 0) so the base/parent commit resolves; without it the scan git-fails
+  # (128 / 'unknown revision') on a shallow parent or a null 'before'. AND the scan
+  # must stay INCREMENTAL: a bare 'gitleaks detect' with no --log-opts scans ALL
+  # history and surfaces the known un-rotated finding (§917) -> a permanent red.
+  if printf '%s\n' "$body" | grep -qi 'gitleaks'; then
+    if printf '%s\n' "$body" | grep -Eq 'fetch-depth:[[:space:]]*0'; then
+      ok "workflow: gitleaks + fetch-depth:0 (base/parent resolves, no git-128/unknown-revision red)"
     else
-      bad "INVARIANT 3a: gitleaks-action present but NO 'fetch-depth: 0' — a shallow checkout reds the secrets leg with 'unknown revision' (exit 1, not a leak). Add fetch-depth:0 to the tier2 checkout."
+      bad "INVARIANT 3a: gitleaks used but NO 'fetch-depth: 0' — shallow checkout git-fails the secrets leg. Add fetch-depth:0 to the tier2 checkout."
+    fi
+    if printf '%s\n' "$body" | grep -qi 'gitleaks-action'; then
+      ok "workflow: gitleaks-action (push-range is incremental)"
+    elif printf '%s\n' "$body" | grep -Eqi 'gitleaks[^#]*detect'; then
+      if printf '%s\n' "$body" | grep -q 'log-opts'; then
+        ok "workflow: gitleaks detect is incremental (bounded --log-opts range, not full history)"
+      else
+        bad "INVARIANT 3a: 'gitleaks detect' without --log-opts scans FULL history — surfaces the un-rotated finding and reds permanently (§917). Bound it to an incremental range."
+      fi
     fi
   fi
   if printf '%s' "$body" | grep -q 'smoke-test.sh'; then

@@ -6,7 +6,12 @@ Run: python3 "tools/robots/test-stage-patch-scoping.py"   (exit 0 = ALL PASS)
 
 Imports remove_disallow_rules + rewrite_is_sound from the engine (filename has spaces).
 """
-import importlib.util, os, re, sys, types
+
+import importlib.util
+import os
+import re
+import sys
+import types
 
 # The engine imports third-party deps (protego, requests) at module load that are
 # only needed by its network/parse paths, not by the two pure-string functions under
@@ -67,18 +72,23 @@ def main():
     if rule not in disallow_body:
         print("  PASS positive: rule removed from the disallow array")
     else:
-        print("  FAIL positive: rule still in disallow array"); rc = 1
+        print("  FAIL positive: rule still in disallow array")
+        rc = 1
 
     # ...but PRESERVED in the comment and the OTHER array (the whole point of F12).
     if "Historical note: '/seo-report/'" in scoped and "const OTHER = ['/seo-report/'," in scoped:
         print("  PASS no-collateral: comment + unrelated array occurrences left intact")
     else:
-        print("  FAIL no-collateral: scoped edit corrupted a comment or unrelated array"); rc = 1
+        print("  FAIL no-collateral: scoped edit corrupted a comment or unrelated array")
+        rc = 1
 
     # rewrite_is_sound must accept the scoped rewrite.
     ok, why = eng.rewrite_is_sound(FIXTURE, scoped, {rule}, set())
-    print(f"  PASS soundness: rewrite_is_sound accepts scoped edit" if ok
-          else f"  FAIL soundness: {why}")
+    print(
+        "  PASS soundness: rewrite_is_sound accepts scoped edit"
+        if ok
+        else f"  FAIL soundness: {why}"
+    )
     rc |= 0 if ok else 1
 
     # POWER / negative control: the OLD whole-file approach DID corrupt the comment +
@@ -87,7 +97,8 @@ def main():
     if "Historical note: '/seo-report/'" not in corrupted or "['/seo-report/'," not in corrupted:
         print("  PASS power: old whole-file removal provably corrupts comment/other array")
     else:
-        print("  FAIL power: old approach did NOT corrupt (control has no power)"); rc = 1
+        print("  FAIL power: old approach did NOT corrupt (control has no power)")
+        rc = 1
 
     # ABSENCE control: no disallow array -> unchanged (fail-closed), and rewrite_is_sound
     # then rejects because the rule is still present.
@@ -95,9 +106,14 @@ def main():
     unchanged = eng.remove_disallow_rules(NOARRAY, {rule}, ".ts")
     ok2, _ = eng.rewrite_is_sound(NOARRAY, unchanged, {rule}, set())
     if unchanged == NOARRAY and not ok2:
-        print("  PASS absence: no disallow array -> unchanged + rewrite_is_sound rejects (fail-closed)")
+        print(
+            "  PASS absence: no disallow array -> unchanged + rewrite_is_sound rejects (fail-closed)"
+        )
     else:
-        print(f"  FAIL absence: unchanged={unchanged==NOARRAY} sound_ok={ok2} (should be True/False)"); rc = 1
+        print(
+            f"  FAIL absence: unchanged={unchanged == NOARRAY} sound_ok={ok2} (should be True/False)"
+        )
+        rc = 1
 
     print("TEST: ALL PASS" if rc == 0 else "TEST: FAIL")
     return rc

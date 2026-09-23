@@ -75,14 +75,15 @@ ANTHROPIC_VERSION = "2023-06-01"
 GSC_INSPECT_URL = "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect"
 GSC_SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
 
-QPD_CAP = 2000          # per Search Console property, per Google usage limits
-QPM_CAP = 600           # per Search Console property, per Google usage limits
-SAFE_QPM = 240          # self-imposed ceiling, 40 percent of Google's limit
+QPD_CAP = 2000  # per Search Console property, per Google usage limits
+QPM_CAP = 600  # per Search Console property, per Google usage limits
+SAFE_QPM = 240  # self-imposed ceiling, 40 percent of Google's limit
 
 
 # --------------------------------------------------------------------------------------
 # Small helpers
 # --------------------------------------------------------------------------------------
+
 
 def now_sast():
     return datetime.now(SAST)
@@ -147,6 +148,7 @@ def cfg():
 # --------------------------------------------------------------------------------------
 # Stage 1: discover
 # --------------------------------------------------------------------------------------
+
 
 def normalise_robots(text):
     """
@@ -238,6 +240,7 @@ def read_inbox_csv_urls(site):
 def gsc_credentials():
     """Service account or OAuth user credentials for the Search Console API."""
     from google.oauth2 import service_account
+
     c = cfg()
     key = os.path.expanduser(c.get("gsc_service_account_json", ""))
     if not key or not Path(key).exists():
@@ -347,6 +350,7 @@ def stage_discover(args):
 # Stage 2: inspect
 # --------------------------------------------------------------------------------------
 
+
 class Quota:
     """Persistent day-scoped ledger so repeat runs never breach Google's caps."""
 
@@ -430,32 +434,37 @@ def stage_inspect(args):
         coverage = (idx.get("coverageState") or "").strip()
         robots_state = idx.get("robotsTxtState") or ""
         if BLOCKED_MARKER in coverage.lower() or robots_state == "DISALLOWED":
-            flagged.append({
-                "url": url,
-                "coverageState": coverage,
-                "robotsTxtState": robots_state,
-                "indexingState": idx.get("indexingState"),
-                "pageFetchState": idx.get("pageFetchState"),
-                "verdict": idx.get("verdict"),
-                "lastCrawlTime": idx.get("lastCrawlTime"),
-                "googleCanonical": idx.get("googleCanonical"),
-                "userCanonical": idx.get("userCanonical"),
-                "referringUrls": idx.get("referringUrls", []),
-                "inspectionResultLink": res.get("inspectionResultLink"),
-            })
+            flagged.append(
+                {
+                    "url": url,
+                    "coverageState": coverage,
+                    "robotsTxtState": robots_state,
+                    "indexingState": idx.get("indexingState"),
+                    "pageFetchState": idx.get("pageFetchState"),
+                    "verdict": idx.get("verdict"),
+                    "lastCrawlTime": idx.get("lastCrawlTime"),
+                    "googleCanonical": idx.get("googleCanonical"),
+                    "userCanonical": idx.get("userCanonical"),
+                    "referringUrls": idx.get("referringUrls", []),
+                    "inspectionResultLink": res.get("inspectionResultLink"),
+                }
+            )
         if i % 25 == 0:
             save_json(STATE / "inspect cache.json", cache)
             say(f"  {i}/{len(order)} inspected, {len(flagged)} flagged")
 
     save_json(STATE / "inspect cache.json", cache)
-    save_json(STATE / "flagged.json", {
-        "generated": stamp(),
-        "inspected_live": inspected,
-        "from_cache": len(order) - inspected - len(errors),
-        "flagged_count": len(flagged),
-        "flagged": flagged,
-        "errors": errors,
-    })
+    save_json(
+        STATE / "flagged.json",
+        {
+            "generated": stamp(),
+            "inspected_live": inspected,
+            "from_cache": len(order) - inspected - len(errors),
+            "flagged_count": len(flagged),
+            "flagged": flagged,
+            "errors": errors,
+        },
+    )
     proof(
         f"inspect | live calls {inspected} | flagged {len(flagged)} | "
         f"errors {len(errors)} | quota used today {quota.data[quota.day]}/{QPD_CAP}"
@@ -469,6 +478,7 @@ def stage_inspect(args):
 # Stage 3: adjudicate with Fable
 # --------------------------------------------------------------------------------------
 
+
 def live_page_evidence(url):
     """Direct fetch. What the page actually says about itself is primary evidence."""
     out = {"url": url}
@@ -477,15 +487,14 @@ def live_page_evidence(url):
         html = r.text[:200000]
         out["status"] = r.status_code
         out["final_url"] = r.url
-        out["redirected"] = (r.url.rstrip("/") != url.rstrip("/"))
+        out["redirected"] = r.url.rstrip("/") != url.rstrip("/")
         out["x_robots_tag"] = r.headers.get("X-Robots-Tag", "")
         out["content_type"] = r.headers.get("Content-Type", "")
         m = re.search(
-            r'<meta[^>]+name=["\']robots["\'][^>]+content=["\']([^"\']+)["\']',
-            html, re.I)
+            r'<meta[^>]+name=["\']robots["\'][^>]+content=["\']([^"\']+)["\']', html, re.I
+        )
         out["meta_robots"] = m.group(1) if m else ""
-        m = re.search(r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)["\']',
-                      html, re.I)
+        m = re.search(r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)["\']', html, re.I)
         out["canonical"] = m.group(1) if m else ""
         m = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
         out["title"] = re.sub(r"\s+", " ", m.group(1)).strip()[:200] if m else ""
@@ -562,7 +571,7 @@ def fable_adjudicate(payload, api_key, model=FABLE_MODEL, retries=3):
         try:
             r = requests.post(ANTHROPIC_URL, headers=headers, json=body, timeout=120)
             if r.status_code in (429, 500, 502, 503, 529):
-                wait = min(2 ** attempt, 30)
+                wait = min(2**attempt, 30)
                 say(f"  Fable {r.status_code}, retry {attempt}/{retries} in {wait}s")
                 time.sleep(wait)
                 last = f"HTTP {r.status_code}"
@@ -570,8 +579,7 @@ def fable_adjudicate(payload, api_key, model=FABLE_MODEL, retries=3):
             r.raise_for_status()
             data = r.json()
             text = "".join(
-                blk.get("text", "") for blk in data.get("content", [])
-                if blk.get("type") == "text"
+                blk.get("text", "") for blk in data.get("content", []) if blk.get("type") == "text"
             ).strip()
             fence = chr(96) * 3
             text = re.sub(rf"^{fence}(?:json)?|{fence}$", "", text, flags=re.M).strip()
@@ -579,10 +587,15 @@ def fable_adjudicate(payload, api_key, model=FABLE_MODEL, retries=3):
         except Exception as exc:
             last = str(exc)
             say(f"  Fable attempt {attempt}/{retries} failed: {exc}")
-            time.sleep(min(2 ** attempt, 30))
-    return {"error": last, "intent": "REVIEW", "action": "NONE",
-            "confidence": 0.0, "risk": "HIGH",
-            "reasoning": "Adjudication failed, human review required."}
+            time.sleep(min(2**attempt, 30))
+    return {
+        "error": last,
+        "intent": "REVIEW",
+        "action": "NONE",
+        "confidence": 0.0,
+        "risk": "HIGH",
+        "reasoning": "Adjudication failed, human review required.",
+    }
 
 
 def stage_adjudicate(args):
@@ -615,16 +628,21 @@ def stage_adjudicate(args):
         v = fable_adjudicate(payload, api_key, model=args.model or FABLE_MODEL)
         v["url"] = url
         verdicts.append(v)
-        say(f"   -> {v.get('intent')} / {v.get('action')} "
-            f"(confidence {v.get('confidence')}, risk {v.get('risk')})")
+        say(
+            f"   -> {v.get('intent')} / {v.get('action')} "
+            f"(confidence {v.get('confidence')}, risk {v.get('risk')})"
+        )
         time.sleep(0.4)
 
-    save_json(STATE / "verdicts.json", {"generated": stamp(),
-                                        "model": args.model or FABLE_MODEL,
-                                        "verdicts": verdicts})
+    save_json(
+        STATE / "verdicts.json",
+        {"generated": stamp(), "model": args.model or FABLE_MODEL, "verdicts": verdicts},
+    )
     low = [v for v in verdicts if float(v.get("confidence") or 0) < 0.6]
-    proof(f"adjudicate | model {args.model or FABLE_MODEL} | verdicts {len(verdicts)} | "
-          f"below confidence threshold {len(low)}")
+    proof(
+        f"adjudicate | model {args.model or FABLE_MODEL} | verdicts {len(verdicts)} | "
+        f"below confidence threshold {len(low)}"
+    )
     return verdicts
 
 
@@ -633,9 +651,12 @@ def stage_adjudicate(args):
 # --------------------------------------------------------------------------------------
 
 ROBOTS_CANDIDATES = [
-    "app/robots.ts", "app/robots.js",
-    "src/app/robots.ts", "src/app/robots.js",
-    "public/robots.txt", "app/robots.txt",
+    "app/robots.ts",
+    "app/robots.js",
+    "src/app/robots.ts",
+    "src/app/robots.js",
+    "public/robots.txt",
+    "app/robots.txt",
 ]
 
 
@@ -651,8 +672,7 @@ def find_robots_source(repo):
 
 
 def git(repo, *args, check=True):
-    r = subprocess.run(["git", "-C", str(repo), *args],
-                       capture_output=True, text=True)
+    r = subprocess.run(["git", "-C", str(repo), *args], capture_output=True, text=True)
     if check and r.returncode != 0:
         raise RuntimeError(f"git {' '.join(args)} failed: {r.stderr.strip()}")
     return r.stdout.strip()
@@ -687,9 +707,9 @@ def remove_disallow_rules(text, remove_rules, suffix):
         body = body.replace(f"'{rule}', ", "").replace(f'"{rule}", ', "")
         body = body.replace(f"'{rule}'", "").replace(f'"{rule}"', "")
     segment = head + body + tail
-    segment = re.sub(r",(\s*\])", r"\1", segment)   # drop a dangling comma before ]
-    segment = re.sub(r",(\s*),", r"\1,", segment)   # collapse doubled commas
-    return text[:m.start()] + segment + text[m.end():]
+    segment = re.sub(r",(\s*\])", r"\1", segment)  # drop a dangling comma before ]
+    segment = re.sub(r",(\s*),", r"\1,", segment)  # collapse doubled commas
+    return text[: m.start()] + segment + text[m.end() :]
 
 
 def rewrite_is_sound(original, rewritten, removed, kept):
@@ -699,8 +719,9 @@ def rewrite_is_sound(original, rewritten, removed, kept):
     nothing else. Any failure restores the original.
     """
     for ch_open, ch_close in (("{", "}"), ("[", "]"), ("(", ")")):
-        if (original.count(ch_open) - original.count(ch_close)
-                != rewritten.count(ch_open) - rewritten.count(ch_close)):
+        if original.count(ch_open) - original.count(ch_close) != rewritten.count(
+            ch_open
+        ) - rewritten.count(ch_close):
             return False, f"bracket balance changed for {ch_open}{ch_close}"
     for q in ("'", '"', "`"):
         if original.count(q) % 2 != rewritten.count(q) % 2:
@@ -714,7 +735,10 @@ def rewrite_is_sound(original, rewritten, removed, kept):
         if _arr is not None:
             body = _arr.group(2)
             if f"'{rule}'" in body or f'"{rule}"' in body or f"`{rule}`" in body:
-                return False, f"rule {rule} was supposed to be removed but is still in the disallow array"
+                return (
+                    False,
+                    f"rule {rule} was supposed to be removed but is still in the disallow array",
+                )
         elif rule in rewritten:  # robots.txt / no array: fall back to whole-file
             return False, f"rule {rule} was supposed to be removed but is still present"
     for rule in kept:
@@ -754,7 +778,7 @@ def stage_patch(args):
     approved = load_json(STATE / "approved verdicts.json", None)
     if approved is None:
         if not args.skip_verification:
-            say("No verification found. Run: python3 \"robots index engine.py\" verify-independent")
+            say('No verification found. Run: python3 "robots index engine.py" verify-independent')
             say("Override deliberately with --skip-verification if you accept unverified verdicts.")
             sys.exit(2)
         proof("patch | WARNING | proceeding without independent verification, operator override")
@@ -798,8 +822,10 @@ def stage_patch(args):
     say(json.dumps(plan, indent=2)[:3000])
 
     if args.dry_run:
-        proof(f"patch | DRY RUN | remove {len(remove_rules)} rules | "
-              f"noindex {len(noindex_paths)} | 410 {len(gone_paths)} | review {len(review)}")
+        proof(
+            f"patch | DRY RUN | remove {len(remove_rules)} rules | "
+            f"noindex {len(noindex_paths)} | 410 {len(gone_paths)} | review {len(review)}"
+        )
         return plan
 
     branch = f"seo/robots-index-fix-{now_sast().strftime('%Y%m%d-%H%M')}"
@@ -829,8 +855,10 @@ def stage_patch(args):
             say("Edit the robots source by hand using state/patch plan.json, then rerun verify.")
             sys.exit(3)
         src.write_text(text, encoding="utf-8")
-        proof(f"patch | rewrote {src.name} | {len(remove_rules)} Disallow rules removed | "
-              f"structural self-check passed")
+        proof(
+            f"patch | rewrote {src.name} | {len(remove_rules)} Disallow rules removed | "
+            f"structural self-check passed"
+        )
 
     if noindex_paths:
         hdr = repo / "seo noindex headers.md"
@@ -840,18 +868,24 @@ def stage_patch(args):
             "Add these to the `headers()` block in next.config so Google can crawl the\n"
             "route and read the noindex. Crawlable plus noindex is the only combination\n"
             "that removes an already indexed URL from the index.\n\n"
-            + "\n".join(f"- `{p}`  ->  `X-Robots-Tag: noindex, nofollow`" for p in sorted(set(noindex_paths)))
+            + "\n".join(
+                f"- `{p}`  ->  `X-Robots-Tag: noindex, nofollow`"
+                for p in sorted(set(noindex_paths))
+            )
             + "\n",
-            encoding="utf-8")
+            encoding="utf-8",
+        )
         proof(f"patch | noindex header targets written to {hdr.name}")
 
     git(repo, "add", "-A")
-    msg = (f"SEO: permanent fix for Indexed though blocked by robots.txt\n\n"
-           f"Disallow rules removed: {len(remove_rules)}\n"
-           f"noindex targets: {len(noindex_paths)}\n"
-           f"410 candidates: {len(gone_paths)}\n"
-           f"Held for human review: {len(review)}\n"
-           f"Generated {stamp()}")
+    msg = (
+        f"SEO: permanent fix for Indexed though blocked by robots.txt\n\n"
+        f"Disallow rules removed: {len(remove_rules)}\n"
+        f"noindex targets: {len(noindex_paths)}\n"
+        f"410 candidates: {len(gone_paths)}\n"
+        f"Held for human review: {len(review)}\n"
+        f"Generated {stamp()}"
+    )
     git(repo, "commit", "-m", msg)
     head = git(repo, "rev-parse", "--short", "HEAD")
     proof(f"patch | branch {branch} | commit {head}")
@@ -867,6 +901,7 @@ def stage_patch(args):
 # --------------------------------------------------------------------------------------
 # Stage 5: verify
 # --------------------------------------------------------------------------------------
+
 
 def stage_bootstrap(args):
     """
@@ -893,8 +928,10 @@ def stage_bootstrap(args):
         sitemap_urls |= collect_sitemap_urls(sm)
 
     if not sitemap_urls:
-        proof("bootstrap | RESULT FAIL | sitemap returned zero URLs, refusing to write an "
-              "empty baseline that would protect nothing")
+        proof(
+            "bootstrap | RESULT FAIL | sitemap returned zero URLs, refusing to write an "
+            "empty baseline that would protect nothing"
+        )
         say("The sitemap returned no URLs. Check the sitemap URL in config.json.")
         say("The guard will keep failing closed until a non-empty baseline exists.")
         return 1
@@ -904,14 +941,19 @@ def stage_bootstrap(args):
     protected = sorted(sitemap_urls)
     already_blocked = [u for u in protected if not parser.can_fetch(u, GOOGLEBOT)]
 
-    save_json(ROOT / "protected urls.json", {
-        "generated": stamp(),
-        "source": "sitemap bootstrap",
-        "sitemap_count": len(sitemap_urls),
-        "urls": protected,
-    })
-    proof(f"bootstrap | protected baseline written | {len(protected)} URLs from sitemap | "
-          f"already blocked by live robots.txt {len(already_blocked)}")
+    save_json(
+        ROOT / "protected urls.json",
+        {
+            "generated": stamp(),
+            "source": "sitemap bootstrap",
+            "sitemap_count": len(sitemap_urls),
+            "urls": protected,
+        },
+    )
+    proof(
+        f"bootstrap | protected baseline written | {len(protected)} URLs from sitemap | "
+        f"already blocked by live robots.txt {len(already_blocked)}"
+    )
 
     if already_blocked:
         say("")
@@ -933,14 +975,17 @@ def stage_verify(args):
     rhash = sha256_text(robots_txt)
 
     doc = load_json(STATE / "verdicts.json", {"verdicts": []})
-    targets = [v["url"] for v in doc["verdicts"]
-               if v.get("intent") in ("INDEX", "DEINDEX", "REMOVE")]
+    targets = [
+        v["url"] for v in doc["verdicts"] if v.get("intent") in ("INDEX", "DEINDEX", "REMOVE")
+    ]
     if not targets:
         targets = load_json(STATE / "discovery.json", {}).get("locally_disallowed", [])
 
     still_blocked = [u for u in targets if not parser.can_fetch(u, GOOGLEBOT)]
-    proof(f"verify | live robots.txt sha256 {rhash[:16]} | targets {len(targets)} | "
-          f"still disallowed to Googlebot {len(still_blocked)}")
+    proof(
+        f"verify | live robots.txt sha256 {rhash[:16]} | targets {len(targets)} | "
+        f"still disallowed to Googlebot {len(still_blocked)}"
+    )
     for u in still_blocked:
         say(f"   STILL BLOCKED  {u}")
 
@@ -958,17 +1003,21 @@ def stage_verify(args):
     protected = sorted(existing | fresh)
     if existing:
         archive_file(ROOT / "protected urls.json")
-    save_json(ROOT / "protected urls.json", {
-        "generated": stamp(),
-        "source": "verify merge",
-        "previously_protected": len(existing),
-        "added_this_run": len(protected) - len(existing),
-        "urls": protected,
-    })
-    proof(f"verify | protected URL set written | {len(protected)} URLs under guard "
-          f"({len(existing)} kept, {len(protected) - len(existing)} added)")
+    save_json(
+        ROOT / "protected urls.json",
+        {
+            "generated": stamp(),
+            "source": "verify merge",
+            "previously_protected": len(existing),
+            "added_this_run": len(protected) - len(existing),
+            "urls": protected,
+        },
+    )
+    proof(
+        f"verify | protected URL set written | {len(protected)} URLs under guard "
+        f"({len(existing)} kept, {len(protected) - len(existing)} added)"
+    )
     return 0
-
 
 
 # ======================================================================================
@@ -1101,35 +1150,44 @@ well covered, say so once and move on.
 
 def call_fable(system, payload, api_key, model=FABLE_MODEL, max_tokens=16000, retries=3):
     """Single entry point for every model role. One place to fix, one place to log."""
-    headers = {"x-api-key": api_key, "anthropic-version": ANTHROPIC_VERSION,
-               "content-type": "application/json"}
-    body = {"model": model, "max_tokens": max_tokens, "system": system,
-            "messages": [{"role": "user",
-                          "content": json.dumps(payload, ensure_ascii=False)[:400000]}]}
+    headers = {
+        "x-api-key": api_key,
+        "anthropic-version": ANTHROPIC_VERSION,
+        "content-type": "application/json",
+    }
+    body = {
+        "model": model,
+        "max_tokens": max_tokens,
+        "system": system,
+        "messages": [{"role": "user", "content": json.dumps(payload, ensure_ascii=False)[:400000]}],
+    }
     last = None
     for attempt in range(1, retries + 1):
         try:
             r = requests.post(ANTHROPIC_URL, headers=headers, json=body, timeout=600)
             if r.status_code in (429, 500, 502, 503, 529):
-                wait = min(2 ** attempt, 30)
+                wait = min(2**attempt, 30)
                 say(f"  {r.status_code} from API, retry {attempt}/{retries} in {wait}s")
                 time.sleep(wait)
                 last = f"HTTP {r.status_code}"
                 continue
             r.raise_for_status()
             data = r.json()
-            text = "".join(b.get("text", "") for b in data.get("content", [])
-                           if b.get("type") == "text").strip()
+            text = "".join(
+                b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"
+            ).strip()
             fence = chr(96) * 3
             text = re.sub(rf"^{fence}(?:json)?|{fence}$", "", text, flags=re.M).strip()
             if not text:
-                raise ValueError(f"empty text block (stop_reason={data.get('stop_reason')}); "
-                                 "extended-thinking models can exhaust max_tokens before the answer")
+                raise ValueError(
+                    f"empty text block (stop_reason={data.get('stop_reason')}); "
+                    "extended-thinking models can exhaust max_tokens before the answer"
+                )
             return json.loads(text)
         except Exception as exc:
             last = str(exc)
             say(f"  attempt {attempt}/{retries} failed: {exc}")
-            time.sleep(min(2 ** attempt, 30))
+            time.sleep(min(2**attempt, 30))
     return {"error": last}
 
 
@@ -1138,18 +1196,36 @@ def call_fable(system, payload, api_key, model=FABLE_MODEL, max_tokens=16000, re
 # --------------------------------------------------------------------------------------
 
 INVENTORY_FILES = [
-    "app/robots.ts", "src/app/robots.ts", "app/robots.js", "public/robots.txt",
-    "app/sitemap.ts", "src/app/sitemap.ts",
-    "next.config.js", "next.config.mjs", "next.config.ts",
-    "package.json", "vercel.json", "middleware.ts", "src/middleware.ts",
-    ".github/workflows/robots guard.yml", "CLAUDE.md", "INSTRUCTIONS.md",
+    "app/robots.ts",
+    "src/app/robots.ts",
+    "app/robots.js",
+    "public/robots.txt",
+    "app/sitemap.ts",
+    "src/app/sitemap.ts",
+    "next.config.js",
+    "next.config.mjs",
+    "next.config.ts",
+    "package.json",
+    "vercel.json",
+    "middleware.ts",
+    "src/middleware.ts",
+    ".github/workflows/robots guard.yml",
+    "CLAUDE.md",
+    "INSTRUCTIONS.md",
 ]
 
 
 def build_inventory(repo):
     repo = Path(repo)
-    inv = {"repo": str(repo), "generated": stamp(), "files": {}, "tree": [], "hooks": [],
-           "skills": [], "engine_source_excerpt": ""}
+    inv = {
+        "repo": str(repo),
+        "generated": stamp(),
+        "files": {},
+        "tree": [],
+        "hooks": [],
+        "skills": [],
+        "engine_source_excerpt": "",
+    }
 
     skip = {"node_modules", ".next", ".git", "dist", "build", ".vercel", ".venv"}
     count = 0
@@ -1170,8 +1246,9 @@ def build_inventory(repo):
 
     hooks_dir = repo / ".git" / "hooks"
     if hooks_dir.exists():
-        inv["hooks"] = [h.name for h in hooks_dir.iterdir()
-                        if h.is_file() and not h.name.endswith(".sample")]
+        inv["hooks"] = [
+            h.name for h in hooks_dir.iterdir() if h.is_file() and not h.name.endswith(".sample")
+        ]
 
     for base in (Path.home() / ".claude" / "skills", repo / ".claude" / "skills"):
         if base.exists():
@@ -1196,8 +1273,10 @@ def stage_analyse(args):
 
     inv = build_inventory(repo)
     save_json(STATE / "inventory.json", inv)
-    proof(f"analyse | inventory built | {len(inv['tree'])} files | "
-          f"{len(inv['files'])} key files read | {len(inv['hooks'])} git hooks")
+    proof(
+        f"analyse | inventory built | {len(inv['tree'])} files | "
+        f"{len(inv['files'])} key files read | {len(inv['hooks'])} git hooks"
+    )
 
     result = call_fable(ANALYST_SYSTEM, inv, api_key, model=args.model or FABLE_MODEL)
     if "error" in result:
@@ -1205,36 +1284,44 @@ def stage_analyse(args):
         sys.exit(4)
 
     findings = result.get("findings", [])
-    save_json(STATE / "infrastructure findings.json",
-              {"generated": stamp(), "model": args.model or FABLE_MODEL, **result})
+    save_json(
+        STATE / "infrastructure findings.json",
+        {"generated": stamp(), "model": args.model or FABLE_MODEL, **result},
+    )
 
     by_sev = {}
     for f in findings:
         by_sev.setdefault(f.get("severity", "UNKNOWN"), []).append(f)
-    proof("analyse | findings " + " ".join(
-        f"{k}:{len(v)}" for k, v in sorted(by_sev.items())) or "analyse | no findings")
+    proof(
+        "analyse | findings " + " ".join(f"{k}:{len(v)}" for k, v in sorted(by_sev.items()))
+        or "analyse | no findings"
+    )
 
     for sev in ("CRITICAL", "HIGH", "MEDIUM", "LOW"):
         for f in by_sev.get(sev, []):
-            say(f"  [{sev:8}] {f.get('category',''):9} {f.get('file','') or '-'}")
-            say(f"             {f.get('what','')}")
-            say(f"             fix: {f.get('fix','')}")
+            say(f"  [{sev:8}] {f.get('category', ''):9} {f.get('file', '') or '-'}")
+            say(f"             {f.get('what', '')}")
+            say(f"             fix: {f.get('fix', '')}")
 
     auto = [f for f in findings if f.get("auto_applicable")]
     if auto and args.apply_safe:
         report = ROOT / f"analyst safe changes {fstamp()}.md"
         report.write_text(
-            f"# Analyst safe changes\n\nGenerated {stamp()}\n\n" +
-            "\n".join(f"## {f['id']} {f.get('file','')}\n\n{f.get('fix','')}\n"
-                      for f in auto), encoding="utf-8")
-        proof(f"analyse | {len(auto)} auto-applicable changes written to {report.name} "
-              f"for review, not applied silently")
+            f"# Analyst safe changes\n\nGenerated {stamp()}\n\n"
+            + "\n".join(f"## {f['id']} {f.get('file', '')}\n\n{f.get('fix', '')}\n" for f in auto),
+            encoding="utf-8",
+        )
+        proof(
+            f"analyse | {len(auto)} auto-applicable changes written to {report.name} "
+            f"for review, not applied silently"
+        )
     return result
 
 
 # --------------------------------------------------------------------------------------
 # Verifier: deterministic half, then blind model half
 # --------------------------------------------------------------------------------------
+
 
 def deterministic_checks(verdict, flagged_item, robots_txt, sitemap_set):
     """
@@ -1248,11 +1335,15 @@ def deterministic_checks(verdict, flagged_item, robots_txt, sitemap_set):
     currently_blocked = not parser.can_fetch(url, GOOGLEBOT)
     gsc_state = (flagged_item or {}).get("robotsTxtState", "")
     if currently_blocked and gsc_state == "ALLOWED":
-        issues.append("live robots.txt blocks this URL but Search Console reports ALLOWED, "
-                      "the robots.txt Google holds is stale or differs")
+        issues.append(
+            "live robots.txt blocks this URL but Search Console reports ALLOWED, "
+            "the robots.txt Google holds is stale or differs"
+        )
     if not currently_blocked and gsc_state == "DISALLOWED":
-        issues.append("live robots.txt allows this URL but Search Console reports DISALLOWED, "
-                      "the fix may already be deployed and simply not recrawled")
+        issues.append(
+            "live robots.txt allows this URL but Search Console reports DISALLOWED, "
+            "the fix may already be deployed and simply not recrawled"
+        )
 
     for rule in verdict.get("robots_disallow_to_remove") or []:
         if rule not in robots_txt:
@@ -1272,12 +1363,17 @@ def deterministic_checks(verdict, flagged_item, robots_txt, sitemap_set):
     if verdict.get("intent") == "INDEX" and url not in sitemap_set:
         issues.append("marked for indexing but the URL is absent from the sitemap")
 
-    return {"url": url, "passed": not issues, "issues": issues,
-            "live_status": status, "currently_blocked": currently_blocked}
+    return {
+        "url": url,
+        "passed": not issues,
+        "issues": issues,
+        "live_status": status,
+        "currently_blocked": currently_blocked,
+    }
 
 
 def stage_verify_independent(args):
-    c = cfg()
+    cfg()
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not api_key:
         say("ANTHROPIC_API_KEY not set.")
@@ -1309,8 +1405,9 @@ def stage_verify_independent(args):
             "in_sitemap": url in sitemap_set,
             "robots_txt": robots_txt,
         }
-        blind = call_fable(VERIFIER_SYSTEM, evidence, api_key,
-                           model=args.model or FABLE_MODEL, max_tokens=800)
+        blind = call_fable(
+            VERIFIER_SYSTEM, evidence, api_key, model=args.model or FABLE_MODEL, max_tokens=800
+        )
 
         agree_intent = blind.get("intent") == v.get("intent")
         agree_action = blind.get("action") == v.get("action")
@@ -1324,25 +1421,34 @@ def stage_verify_independent(args):
         else:
             outcome = "DISPUTED"
 
-        rows.append({
-            "url": url,
-            "primary": {"intent": v.get("intent"), "action": v.get("action"),
-                        "confidence": v.get("confidence")},
-            "independent": {"intent": blind.get("intent"), "action": blind.get("action"),
-                            "confidence": blind.get("confidence"),
-                            "reasoning": blind.get("reasoning")},
-            "deterministic": det,
-            "outcome": outcome,
-        })
-        say(f"   -> {outcome}  primary {v.get('intent')}/{v.get('action')}  "
-            f"independent {blind.get('intent')}/{blind.get('action')}")
+        rows.append(
+            {
+                "url": url,
+                "primary": {
+                    "intent": v.get("intent"),
+                    "action": v.get("action"),
+                    "confidence": v.get("confidence"),
+                },
+                "independent": {
+                    "intent": blind.get("intent"),
+                    "action": blind.get("action"),
+                    "confidence": blind.get("confidence"),
+                    "reasoning": blind.get("reasoning"),
+                },
+                "deterministic": det,
+                "outcome": outcome,
+            }
+        )
+        say(
+            f"   -> {outcome}  primary {v.get('intent')}/{v.get('action')}  "
+            f"independent {blind.get('intent')}/{blind.get('action')}"
+        )
         time.sleep(0.4)
 
     counts = {}
     for r in rows:
         counts[r["outcome"]] = counts.get(r["outcome"], 0) + 1
-    save_json(STATE / "verification.json",
-              {"generated": stamp(), "counts": counts, "rows": rows})
+    save_json(STATE / "verification.json", {"generated": stamp(), "counts": counts, "rows": rows})
     proof("verify-independent | " + " ".join(f"{k}:{v}" for k, v in sorted(counts.items())))
 
     blocked = [r for r in rows if r["outcome"] in ("REJECTED", "DISPUTED")]
@@ -1356,16 +1462,20 @@ def stage_verify_independent(args):
         proof(f"verify-independent | {len(blocked)} verdict(s) withheld from the patch stage")
 
     # The patch stage reads this. Anything not CONFIRMED does not get applied.
-    save_json(STATE / "approved verdicts.json", {
-        "generated": stamp(),
-        "urls": [r["url"] for r in rows if r["outcome"] == "CONFIRMED"],
-    })
+    save_json(
+        STATE / "approved verdicts.json",
+        {
+            "generated": stamp(),
+            "urls": [r["url"] for r in rows if r["outcome"] == "CONFIRMED"],
+        },
+    )
     return rows
 
 
 # --------------------------------------------------------------------------------------
 # Advisor
 # --------------------------------------------------------------------------------------
+
 
 def stage_advise(args):
     api_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
@@ -1397,11 +1507,11 @@ def stage_advise(args):
     say("=" * 72)
     for pri in ("NOW", "SOON", "WATCH"):
         for g in [x for x in gaps if x.get("priority") == pri]:
-            say(f"  [{pri:5}] [{g.get('effort','')}] {g.get('gap','')}")
-            say(f"          why: {g.get('why_it_matters','')}")
-            say(f"          first step: {g.get('first_step','')}")
+            say(f"  [{pri:5}] [{g.get('effort', '')}] {g.get('gap', '')}")
+            say(f"          why: {g.get('why_it_matters', '')}")
+            say(f"          first step: {g.get('first_step', '')}")
     say("")
-    say(f"  biggest single risk: {result.get('biggest_single_risk','')}")
+    say(f"  biggest single risk: {result.get('biggest_single_risk', '')}")
     if result.get("what_is_already_solid"):
         say(f"  already solid: {result['what_is_already_solid']}")
     return result
@@ -1410,6 +1520,7 @@ def stage_advise(args):
 # --------------------------------------------------------------------------------------
 # Wiring audit: is this thing actually connected to anything
 # --------------------------------------------------------------------------------------
+
 
 def stage_wiring_audit(args):
     """
@@ -1422,51 +1533,61 @@ def stage_wiring_audit(args):
     checks = []
 
     def check(name, ok, detail, fix):
-        checks.append({"hook_point": name, "present": bool(ok),
-                       "detail": detail, "fix": fix})
+        checks.append({"hook_point": name, "present": bool(ok), "detail": detail, "fix": fix})
 
     skill_user = home / ".claude" / "skills" / "robots-index-guard" / "SKILL.md"
-    check("Skill installed for every session", skill_user.exists(), str(skill_user),
-          "Rerun Block 5 of the runbook")
+    check(
+        "Skill installed for every session",
+        skill_user.exists(),
+        str(skill_user),
+        "Rerun Block 5 of the runbook",
+    )
 
     skill_proj = repo / ".claude" / "skills" / "robots-index-guard" / "SKILL.md"
-    check("Skill installed at project scope", skill_proj.exists(), str(skill_proj),
-          "Rerun Block 5 of the runbook")
+    check(
+        "Skill installed at project scope",
+        skill_proj.exists(),
+        str(skill_proj),
+        "Rerun Block 5 of the runbook",
+    )
 
     instr = None
     for cand in (repo / "INSTRUCTIONS.md", repo / "docs" / "INSTRUCTIONS.md"):
         if cand.exists():
             instr = cand
             break
-    referenced = bool(instr and "robots-index-guard" in instr.read_text(
-        encoding="utf-8", errors="replace"))
-    check("Referenced from INSTRUCTIONS.md index", referenced,
-          str(instr) if instr else "INSTRUCTIONS.md not found",
-          "Rerun Block 6 of the runbook")
+    referenced = bool(
+        instr and "robots-index-guard" in instr.read_text(encoding="utf-8", errors="replace")
+    )
+    check(
+        "Referenced from INSTRUCTIONS.md index",
+        referenced,
+        str(instr) if instr else "INSTRUCTIONS.md not found",
+        "Rerun Block 6 of the runbook",
+    )
 
     hook = repo / ".git" / "hooks" / "pre-commit"
-    hook_ok = hook.exists() and "robots guard" in hook.read_text(
-        encoding="utf-8", errors="replace")
-    check("Pre-commit hook blocks bad robots edits", hook_ok, str(hook),
-          "Rerun Block 6 of the runbook")
+    hook_ok = hook.exists() and "robots guard" in hook.read_text(encoding="utf-8", errors="replace")
+    check(
+        "Pre-commit hook blocks bad robots edits",
+        hook_ok,
+        str(hook),
+        "Rerun Block 6 of the runbook",
+    )
 
     ci = repo / ".github" / "workflows" / "robots guard.yml"
-    check("CI workflow fails the build", ci.exists(), str(ci),
-          "Rerun Block 6 of the runbook")
+    check("CI workflow fails the build", ci.exists(), str(ci), "Rerun Block 6 of the runbook")
 
     pkg = repo / "package.json"
-    pkg_ok = pkg.exists() and "robots:guard" in pkg.read_text(
-        encoding="utf-8", errors="replace")
-    check("npm script robots:guard available", pkg_ok, str(pkg),
-          "Rerun Block 6 of the runbook")
+    pkg_ok = pkg.exists() and "robots:guard" in pkg.read_text(encoding="utf-8", errors="replace")
+    check("npm script robots:guard available", pkg_ok, str(pkg), "Rerun Block 6 of the runbook")
 
     plist = home / "Library" / "LaunchAgents" / "com.zasupport.robotsguard.plist"
     loaded = False
     if plist.exists():
         r = subprocess.run(["launchctl", "list"], capture_output=True, text=True)
         loaded = "com.zasupport.robotsguard" in r.stdout
-    check("Weekly monitor loaded in launchd", loaded, str(plist),
-          "Rerun Block 7 of the runbook")
+    check("Weekly monitor loaded in launchd", loaded, str(plist), "Rerun Block 7 of the runbook")
 
     prot = ROOT / "protected urls.json"
     prot_ok = False
@@ -1475,23 +1596,37 @@ def stage_wiring_audit(args):
             prot_ok = len(load_json(prot, {}).get("urls", [])) > 0
         except Exception:
             prot_ok = False
-    check("Protected URL baseline armed (non-empty)", prot_ok, str(prot),
-          "Run: python3 \"robots index engine.py\" bootstrap")
+    check(
+        "Protected URL baseline armed (non-empty)",
+        prot_ok,
+        str(prot),
+        'Run: python3 "robots index engine.py" bootstrap',
+    )
 
     ptest = STATE / "pressure test.json"
     ptest_ok = False
     if ptest.exists():
         d = load_json(ptest, {})
-        ptest_ok = (d.get("negative_passed") == d.get("negative_total")
-                    and d.get("positive_passed") == d.get("positive_total"))
-    check("Pressure test passed on this machine", ptest_ok, str(ptest),
-          "Run: python3 'robots pressure test.py'")
+        ptest_ok = d.get("negative_passed") == d.get("negative_total") and d.get(
+            "positive_passed"
+        ) == d.get("positive_total")
+    check(
+        "Pressure test passed on this machine",
+        ptest_ok,
+        str(ptest),
+        "Run: python3 'robots pressure test.py'",
+    )
 
     ledger = home / ".claude" / "install-ledger.json"
     led_ok = ledger.exists() and "robots-index-guard" in ledger.read_text(
-        encoding="utf-8", errors="replace")
-    check("Registered in the install chaser ledger", led_ok, str(ledger),
-          "Rerun Block 6 of the runbook")
+        encoding="utf-8", errors="replace"
+    )
+    check(
+        "Registered in the install chaser ledger",
+        led_ok,
+        str(ledger),
+        "Rerun Block 6 of the runbook",
+    )
 
     save_json(STATE / "wiring audit.json", {"generated": stamp(), "checks": checks})
     present = sum(1 for c_ in checks if c_["present"])
@@ -1511,23 +1646,43 @@ def stage_wiring_audit(args):
 # CLI
 # --------------------------------------------------------------------------------------
 
+
 def main():
     ap = argparse.ArgumentParser(description="ZA Support robots.txt index remediation engine")
-    ap.add_argument("stage", choices=[
-        "bootstrap", "analyse", "discover", "inspect", "adjudicate",
-        "verify-independent", "patch", "verify", "advise", "wiring-audit", "all"])
+    ap.add_argument(
+        "stage",
+        choices=[
+            "bootstrap",
+            "analyse",
+            "discover",
+            "inspect",
+            "adjudicate",
+            "verify-independent",
+            "patch",
+            "verify",
+            "advise",
+            "wiring-audit",
+            "all",
+        ],
+    )
     ap.add_argument("--limit", type=int, default=0, help="max URLs to inspect this run")
-    ap.add_argument("--full", action="store_true", help="inspect every candidate, not just blocked ones")
+    ap.add_argument(
+        "--full", action="store_true", help="inspect every candidate, not just blocked ones"
+    )
     ap.add_argument("--refresh", action="store_true", help="ignore inspection cache")
     ap.add_argument("--no-search-analytics", action="store_true")
     ap.add_argument("--model", default="", help=f"override model, default {FABLE_MODEL}")
     ap.add_argument("--min-confidence", type=float, default=0.6)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--push", action="store_true", help="push the fix branch to origin")
-    ap.add_argument("--apply-safe", action="store_true",
-                    help="write analyst safe changes to a review file")
-    ap.add_argument("--skip-verification", action="store_true",
-                    help="apply verdicts that the independent verifier has not confirmed")
+    ap.add_argument(
+        "--apply-safe", action="store_true", help="write analyst safe changes to a review file"
+    )
+    ap.add_argument(
+        "--skip-verification",
+        action="store_true",
+        help="apply verdicts that the independent verifier has not confirmed",
+    )
     args = ap.parse_args()
 
     STATE.mkdir(parents=True, exist_ok=True)
@@ -1551,7 +1706,7 @@ def main():
     elif args.stage == "wiring-audit":
         sys.exit(stage_wiring_audit(args))
     else:
-        stage_bootstrap(args)   # arm the guard first, before any other work
+        stage_bootstrap(args)  # arm the guard first, before any other work
         stage_analyse(args)
         stage_discover(args)
         stage_inspect(args)

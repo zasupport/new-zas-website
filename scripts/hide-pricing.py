@@ -25,6 +25,7 @@ Modes:
 
 ASCII-only output (no typographic dashes, §547). Idempotent.
 """
+
 import re
 import sys
 import os
@@ -111,8 +112,9 @@ RULES = [
     #     matches a string literal that is JUST a price ('R3,499', 'From R599'),
     #     never a price sitting inside a longer sentence string.
     (rf"'(?:From |from )?{RAND}'", "'Contact for pricing'"),
-    (rf"\"(?:From |from )?{RAND}\"", "\"Contact for pricing\""),
+    (rf"\"(?:From |from )?{RAND}\"", '"Contact for pricing"'),
 ]
+
 
 def transform(text: str) -> str:
     # Anchored rules only. NO global whitespace cleanup: `\s+`/`[ \t]{2,}` would
@@ -130,11 +132,8 @@ def target_files(root="src"):
         files += glob.glob(os.path.join(root, "**", ext), recursive=True)
     # schema.ts chokepoint already handled; blog is out of scope (service pages
     # only) and its prose is handled separately if ever needed.
-    skip = ("src/lib/schema.ts",
-            "src/app/blog/[slug]/page.tsx",
-            "src/app/blog/page.tsx")
-    return [f for f in sorted(set(files))
-            if not f.endswith(".pre-hide-pricing") and f not in skip]
+    skip = ("src/lib/schema.ts", "src/app/blog/[slug]/page.tsx", "src/app/blog/page.tsx")
+    return [f for f in sorted(set(files)) if not f.endswith(".pre-hide-pricing") and f not in skip]
 
 
 def residual_tokens(text: str):
@@ -170,8 +169,8 @@ def cmd_diff():
         if out != src:
             changed += 1
             for line in difflib.unified_diff(
-                src.splitlines(), out.splitlines(),
-                fromfile=f, tofile=f + " (hidden)", lineterm=""):
+                src.splitlines(), out.splitlines(), fromfile=f, tofile=f + " (hidden)", lineterm=""
+            ):
                 print(line)
     print(f"\n# {changed} file(s) would change")
 
@@ -202,38 +201,61 @@ def cmd_test():
     ok = True
     # positive: known priced strings must lose the amount, keep grammar
     pos = [
-        ("title: 'MacBook Liquid Damage Repair Johannesburg [2026] | From R1,500',",
-         "title: 'MacBook Liquid Damage Repair Johannesburg [2026]',"),
-        ("Assessment: from R599. This covers inspection.",
-         "Assessment. This covers inspection."),
-        ("the R599 assessment confirms the fault",
-         "the assessment confirms the fault"),
-        ("Apple charges R15,000-R70,000 for a board replacement.",
-         "Apple charges many times more for a board replacement."),
-        ("{ service: 'Assessment', price: 'From R599', note: 'x' },",
-         "{ service: 'Assessment', price: 'Contact for pricing', note: 'x' },"),
-        ("{ device: 'MacBook Air', from: 'R2,499', note: 'x' },",
-         "{ device: 'MacBook Air', from: 'Contact for pricing', note: 'x' },"),
-        ("You decide whether to go ahead. From R599 if you decline the repair.",
-         "You decide whether to go ahead."),
-        ("The assessment fee is from R599. This covers diagnosis.",
-         "The assessment fee applies. This covers diagnosis."),
-        ("Our assessment starts from R599 and includes a written quote.",
-         "Our assessment applies and includes a written quote."),
-        ("only the assessment fee from R599, not the repair",
-         "only the assessment fee, not the repair"),
-        ("Bring it in, we assess it (from R599), give you a quote.",
-         "Bring it in, we assess it, give you a quote."),
-        ("if it fails within the period, we fix it at from R599.",
-         "if it fails within the period, we fix it at our assessment fee."),
-        ("the R599 is deducted from the repair cost",
-         "the assessment fee is deducted from the repair cost"),
-        ("{ label: 'R599 Assessment', icon: 'x' }",
-         "{ label: 'Assessment', icon: 'x' }"),
-        ("How ZA Support assessments work: from R599 assessment fee, transparent.",
-         "How ZA Support assessments work: assessment fee, transparent."),
-        ("the from assessment fee applies to the repair",
-         "the assessment fee applies to the repair"),
+        (
+            "title: 'MacBook Liquid Damage Repair Johannesburg [2026] | From R1,500',",
+            "title: 'MacBook Liquid Damage Repair Johannesburg [2026]',",
+        ),
+        ("Assessment: from R599. This covers inspection.", "Assessment. This covers inspection."),
+        ("the R599 assessment confirms the fault", "the assessment confirms the fault"),
+        (
+            "Apple charges R15,000-R70,000 for a board replacement.",
+            "Apple charges many times more for a board replacement.",
+        ),
+        (
+            "{ service: 'Assessment', price: 'From R599', note: 'x' },",
+            "{ service: 'Assessment', price: 'Contact for pricing', note: 'x' },",
+        ),
+        (
+            "{ device: 'MacBook Air', from: 'R2,499', note: 'x' },",
+            "{ device: 'MacBook Air', from: 'Contact for pricing', note: 'x' },",
+        ),
+        (
+            "You decide whether to go ahead. From R599 if you decline the repair.",
+            "You decide whether to go ahead.",
+        ),
+        (
+            "The assessment fee is from R599. This covers diagnosis.",
+            "The assessment fee applies. This covers diagnosis.",
+        ),
+        (
+            "Our assessment starts from R599 and includes a written quote.",
+            "Our assessment applies and includes a written quote.",
+        ),
+        (
+            "only the assessment fee from R599, not the repair",
+            "only the assessment fee, not the repair",
+        ),
+        (
+            "Bring it in, we assess it (from R599), give you a quote.",
+            "Bring it in, we assess it, give you a quote.",
+        ),
+        (
+            "if it fails within the period, we fix it at from R599.",
+            "if it fails within the period, we fix it at our assessment fee.",
+        ),
+        (
+            "the R599 is deducted from the repair cost",
+            "the assessment fee is deducted from the repair cost",
+        ),
+        ("{ label: 'R599 Assessment', icon: 'x' }", "{ label: 'Assessment', icon: 'x' }"),
+        (
+            "How ZA Support assessments work: from R599 assessment fee, transparent.",
+            "How ZA Support assessments work: assessment fee, transparent.",
+        ),
+        (
+            "the from assessment fee applies to the repair",
+            "the assessment fee applies to the repair",
+        ),
     ]
     for src, want in pos:
         got = transform(src)
