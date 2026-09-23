@@ -301,7 +301,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/macbook-ssd-upgrade-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/imac-repair-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-speaker-not-working`, changeFrequency: 'yearly', priority: 0.65 },
-    { url: `${base}/blog/airpods-repair-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-wifi-keeps-disconnecting`, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${base}/blog/macbook-logic-board-symptoms-johannesburg`, changeFrequency: 'yearly', priority: 0.75 },
 
@@ -632,7 +631,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${base}/blog/iphone-15-pro-face-id-not-working-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/mac-mini-server-vs-cloud-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-keyboard-stuck-key-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
-        { url: `${base}/blog/airpods-pro-2-one-side-quiet-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/apple-watch-series-10-not-charging-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/intune-vs-jamf-medical-practice-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },
         { url: `${base}/blog/macbook-fan-running-constantly-johannesburg`, changeFrequency: 'yearly', priority: 0.7 },

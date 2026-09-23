@@ -155,6 +155,16 @@ export function middleware(request: NextRequest) {
   }
 
   const { pathname } = request.nextUrl;
+
+  // AirPods retired (not serviced). 410 Gone, no genuine Apple-repair replacement to 301 to.
+  const AIRPODS_GONE = new Set([
+    '/airpods-repair',
+    '/blog/airpods-repair-johannesburg',
+    '/blog/airpods-pro-2-one-side-quiet-johannesburg',
+  ]);
+  if (AIRPODS_GONE.has(pathname)) {
+    return new NextResponse('Gone', { status: 410 });
+  }
   const ip = getClientIp(request);
   const ua = request.headers.get('user-agent');
 

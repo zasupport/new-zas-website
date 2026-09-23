@@ -62,7 +62,7 @@ const faqs = [
   {
     question: 'Do you support all Apple devices?',
     answer:
-      'Yes, MacBook Air, MacBook Pro, iMac, Mac mini, Mac Pro, Mac Studio, iPhone (8 through 16 Pro Max), iPad (all models including M4), Apple Watch, AirPods, and HomePod. We also support Apple Business Manager, JAMF MDM, and Apple-first IT environments for companies.',
+      'Yes, MacBook Air, MacBook Pro, iMac, Mac mini, Mac Pro, Mac Studio, iPhone (8 through 16 Pro Max), iPad (all models including M4), Apple Watch, and HomePod. We also support Apple Business Manager, JAMF MDM, and Apple-first IT environments for companies.',
   },
   {
     question: 'Can you help with data migration from an old Mac to a new one?',

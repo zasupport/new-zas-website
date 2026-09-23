@@ -3966,55 +3966,6 @@ At **ZA Support in Hyde Park**, we diagnose and repair MacBook audio problems re
 If you've completed these troubleshooting steps without success, it's time to get professional eyes on your device. **[WhatsApp us on 064 529 5863](https://wa.me/27645295863)** to book an assessment or arrange a collection. We'll get you back to enjoying your MacBook with sound again.`,
   },
 
-  'airpods-repair-johannesburg': {
-    slug: 'airpods-repair-johannesburg',
-    title: `AirPods Repair in Johannesburg: What Can Actually Be Fixed`,
-    excerpt: `AirPods battery dead, one side not working, or sound quality degraded? Here is what AirPods repairs are possible and what it costs in Johannesburg.`,
-    date: '21 March 2026',
-    category: 'Repairs',
-    readTime: '4 min read',
-    author: 'courtney-bentley',
-    content: `# AirPods Repair in Johannesburg, What Can Actually Be Fixed
-
-Your AirPods stopped charging, one side has gone silent, or the sound just isn't what it used to be. Before you resign yourself to buying a new pair, it's worth knowing what repairs are actually possible. The good news is that many AirPods issues can be fixed, and in Johannesburg, you have options that don't involve sending your earbuds halfway across the world.
-
-## Battery problems are the most common repair
-
-Dead AirPods batteries are by far the most frequent issue we see at ZA Support. If your AirPods won't hold a charge or drain within minutes of use, the battery inside the earbud or charging case has likely degraded. This is completely normal after a couple of years, since lithium batteries degrade with each charge cycle.
-
-The good news is that **AirPods battery replacement** is straightforward and affordable. A single earbud battery replacement typically costs around R799 to R999, depending on your AirPods model. If both earbuds need new batteries, expect to pay roughly double. The charging case battery is usually in the R599 to R799 range. The entire process takes just a few hours, so you won't be without your earbuds for long.
-
-## One side not working, but the other is fine
-
-This is frustrating, but it's almost always fixable. When one AirPod suddenly stops producing sound or connecting properly, the problem is usually either a dead battery in that earbud or a connectivity issue. If the battery is the culprit, replacement costs are the same as above.
-
-Sometimes the issue is something simpler, though. Try resetting your AirPods by holding the setup button on the back of the case for 15 seconds until the light flashes amber and white. This clears the pairing and often fixes mysterious connectivity problems. If that doesn't work, the earbud might need professional diagnostics to identify whether it's a battery, speaker, or internal component failure.
-
-## Sound quality and audio issues
-
-If your AirPods still work but the sound has become tinny, distorted, or noticeably quieter, several things could be happening. The most common cause is simply earwax and debris buildup on the speaker mesh, which is easily cleaned without opening the earbud. Try gently brushing the speaker area with a dry, soft-bristled toothbrush or using a slightly damp cotton swab. Let them dry completely before using them again.
-
-If cleaning doesn't help, the speaker driver inside may be failing, which requires replacement. Speaker repairs typically cost between R1,199 and R1,599 per earbud. You might also have a firmware or connectivity issue, which should be ruled out before investing in hardware repairs. This is where a professional assessment becomes valuable.
-
-## Water damage and physical damage
-
-AirPods are water resistant, but not waterproof. If they've been submerged or exposed to heavy moisture, corrosion can develop inside the charging contacts or electronic components. This isn't always immediately obvious, either. Your AirPods might work for a few days before failing completely.
-
-If you've dropped them or sat on them and there's visible damage to the case, repairs become more complicated. Cracked cases are difficult to repair and replacement cases can be pricey. However, if the actual earbud components are intact, they may still be functional. Physical damage requires a proper inspection to determine whether repair makes financial sense.
-
-## Charging case problems
-
-Your AirPods earbuds might be perfectly fine, but the case won't charge them. In many cases, this is a battery issue in the case itself. The charging contacts can also accumulate corrosion or debris, which blocks the charging connection. Before assuming the worst, clean the metal charging contacts on both the case and the earbuds using a dry cloth or slightly damp cotton swab.
-
-If the case battery has failed, replacement is usually the most practical solution. Some case problems, like a stuck charging port, can sometimes be repaired, but you'll need to have it assessed by someone experienced with AirPods hardware.
-
-## Getting your AirPods assessed in Johannesburg
-
-Not every AirPods issue needs a professional, but knowing exactly what's wrong before you decide whether to repair or replace is sensible. ZA Support offers **AirPods assessments from R599**, which gives you a clear diagnosis and repair quote before you commit to anything.
-
-We're located in Hyde Park and serve the greater Johannesburg area. If you're in Sandton, Rosebank, Fourways, Bryanston, Midrand, or Randburg, we offer a collection service, so you don't even need to make a trip. Get in touch via [WhatsApp on 064 529 5863](https://wa.me/27645295863) to arrange a collection or book an appointment. Most AirPods repairs can be completed within 24 hours, so you'll be back to your music quickly.`,
-  },
-
   'macbook-wifi-keeps-disconnecting': {
     slug: 'macbook-wifi-keeps-disconnecting',
     title: `MacBook Wi-Fi Keeps Disconnecting: How to Fix It`,
@@ -30900,104 +30851,6 @@ Multiple stuck keys almost always signal a systemic design issue (especially on 
 ### Q: What if my MacBook is out of warranty? Do you still offer a repair guarantee?
 
 Yes. We offer 1 year labour warranty and up to 3 years on parts (depending on age and model). Your original Apple warranty status doesn't affect our guarantee. We stand behind our work.`,
-  },
-  'airpods-pro-2-one-side-quiet-johannesburg': {
-    slug: 'airpods-pro-2-one-side-quiet-johannesburg',
-    title: `Why One AirPod Pro 2 Is Going Quiet: A Johannesburg Technician's Guide`,
-    excerpt: `If you're sitting in a Johannesburg coffee shop and suddenly one of your AirPods Pro 2 sounds like it's playing through cotton wool, you're not alone. We've diagnosed this fault in more than 18,000 Ap.`,
-    date: '15 May 2026',
-    category: 'Repairs',
-    readTime: '7 min read',
-    author: 'courtney-bentley',
-    content: `# Why One AirPod Pro 2 Is Going Quiet: A Johannesburg Technician's Guide
-
-If you're sitting in a Johannesburg coffee shop and suddenly one of your AirPods Pro 2 sounds like it's playing through cotton wool, you're not alone. We've diagnosed this fault in more than 18,000 Apple audio devices across South Africa, and the good news is strikingly simple: it's almost never the expensive fix you're dreading.
-
-Over the past three years at our Hyde Park workshop, we've watched this particular complaint climb steadily. One earpiece drops to half volume. The other is perfectly clear. Clients panic, assume the speaker has blown, and reach for the credit card. What we've learned, and what Apple's own service data confirms, is that roughly 85% of these cases resolve with a method so straightforward it feels almost anticlimactic. We're going to walk you through exactly what's happening, why it happens, and how to fix it yourself before you need to bring your AirPods anywhere near a technician.
-
-## The Real Culprit: Mesh Blockage, Not Speaker Failure
-
-The AirPods Pro 2 design is elegant, but that elegance comes with a catch. Unlike older AirPods, the Pro 2 uses acoustic mesh covers over both the speaker and the microphone to manage sound dispersion and noise cancellation. In Johannesburg's climate, particularly during those dry winter months, dust, skin cells, and debris accumulate on this mesh faster than you might expect.
-
-When the mesh gets clogged, it doesn't fail catastrophically. Instead, it muffles output on that side. The speaker itself is working perfectly. The amplifier is fine. The active noise cancellation is functioning. What you're experiencing is acoustic dampening, pure and simple.
-
-We see this especially in clients who commute through Sandton or work in construction-adjacent environments. Load shedding has also meant more people working from home near open windows and ceiling vents, which accelerates dust accumulation. The mesh trap is doing its job, protecting the delicate speaker, but it's doing it *too* well.
-
-## How to Clean Your AirPods Pro 2 Mesh (The Right Way)
-
-Before you attempt any fix, understand this: the mesh is fragile. It's not a filter you can soak or scrub. Aggressive cleaning can perforate it or push debris deeper into the acoustic chamber.
-
-Start by removing the ear tips entirely. That silicone seal isn't just comfort, it's structural. The mesh sits underneath, and you need clear access. Use a magnifying glass or the torch on your phone held at an angle. You'll likely see a thin layer of dust or oxidised wax sitting on the surface.
-
-The safest method we recommend in-house uses a soft dry cotton bud and gentle circular motions. No water. No alcohol. Dry only. The bud should barely contact the mesh; you're not scrubbing, you're feathering the debris loose. Repeat on the second AirPod, then leave both units to air for five minutes.
-
-Reconnect your ear tips, ensure you're using the correct size, and test in a quiet space. Most clients report immediate improvement. If sound is still muted, the issue has likely progressed beyond mesh clogging, and you'll want professional assessment.
-
-For those in Johannesburg's northern suburbs or anyone who deals with Johannesburg's summer humidity, we recommend this maintenance every two months. It takes three minutes and costs nothing.
-
-## When Mesh Cleaning Isn't Enough: Board-Level Faults
-
-If cleaning the mesh hasn't restored your AirPods to full volume, you're dealing with a secondary issue. The most common culprit at this point is a disconnection or fault on the audio board itself, the circuit board that manages amplification and speaker control.
-
-This happens when debris penetrates past the mesh, or occasionally when thermal stress from load shedding power spikes has damaged components. We've documented this in more than 3,000 devices serviced in the past two years.
-
-At our Hyde Park location, our initial assessment is R599. This includes mesh inspection, board-level diagnostics using our specialised equipment, and a full report of what's happening inside your AirPods. From there, repair pathways are clear: a simple board reflow might restore function, or in rare cases, component replacement is necessary.
-
-If the issue is confirmed as board-level, repair typically costs between R1,200 and R1,800 depending on whether we're reflowing solder joints or replacing integrated circuits. All our repairs come with a three-year warranty, the longest guarantee in Johannesburg, so you're protected if the problem recurs.
-
-## Liquid Damage and Corrosion: The Hidden Culprit
-
-Here's something most users don't realise: AirPods Pro 2 have water resistance, but not waterproofing. The distinction is crucial.
-
-Water resistance means they'll handle sweat during a gym session and light rain. Waterproofing would mean full submersion is safe. Many clients in Johannesburg's western suburbs have damaged their AirPods by forgetting this during the rainy season, or by accidentally dropping them in pools or bathrooms.
-
-Even microscopic liquid ingress can corrode the circuit board, creating intermittent audio dropout. You might notice one side is quieter, or that it crackles, or that it cuts out entirely when you move your head. These are all corrosion signatures.
-
-Our [liquid damage repair service](/liquid-damage) handles this through ultrasonic cleaning and aggressive corrosion reversal. If caught early, within 48 hours of water exposure, success rates exceed 90%. Beyond that window, component damage becomes likely, and replacement becomes more cost-effective than repair.
-
-## Ear-Tip Seal Issues and How They Compound Quietness
-
-This is subtle but real. The ear tips on AirPods Pro 2 create a seal that's essential for both comfort and acoustics. A poor seal means sound leaks around the speaker instead of into your ear canal, creating the impression of volume loss.
-
-This is different from the mesh problem, but it's often mistaken for it. The audio is actually playing at full volume; you're just not hearing it correctly positioned.
-
-Check your ear-tip size. AirPods Pro 2 come in three sizes: small, medium, and large. Most people use medium out of habit, but Johannesburg is a diverse city, and ears vary considerably. If your current tips feel loose or uncomfortable, try the next size up or down. A proper seal should feel snug without being painful.
-
-If the seal is correct but you're still experiencing quietness after cleaning, then yes, you've got a deeper fault. That's when a [board-level repair](/logic-board-repair) becomes likely.
-
-## Getting Help in Johannesburg: Your Next Steps
-
-If you've tried cleaning and the problem persists, we're here. Our Hyde Park workshop is open Monday to Friday 8am-5pm, and Saturday 9am-2pm. [WhatsApp us on 064 529 5863](https://wa.me/27645295863) to describe your issue in detail, we can often diagnose over WhatsApp, or [book online at zasupport.com/book](https://zasupport.com/book) for a full diagnostic assessment.
-
-The R599 assessment includes mesh inspection, Bluetooth pairing diagnostics, and board-level testing. We'll give you a transparent repair quote before we touch anything. No surprises. We're POPIA-compliant and we keep your device data completely separate from our repair systems.
-
-For technical documentation, Apple's own support pages on AirPods maintenance are solid; check [Apple's official AirPods Pro support guide](https://support.apple.com/en-za/HT207952) for additional troubleshooting steps before you visit us.
-
-## Frequently Asked Questions
-
-### Q: Can I fix a quiet AirPod Pro 2 myself without opening it?
-
-Yes. In 85% of cases, mesh cleaning is enough. Use a dry cotton bud, magnifying glass, and gentle circular motions on the mesh. Never use water, alcohol, or compressed air. Leave to air-dry for five minutes before testing.
-
-### Q: How long does a professional assessment take?
-
-Our R599 diagnostic takes 30-45 minutes. We'll clean the mesh, run board diagnostics, and give you a written repair quote. You can wait in our Johannesburg showroom or collect the same day.
-
-### Q: Are AirPods Pro 2 waterproof?
-
-No. They're water-resistant, which means they handle sweat and light rain. Submersion in pools or baths will cause corrosion. If this happens, bring them in within 48 hours for the best repair outcome.
-
-### Q: What's the warranty on repaired AirPods Pro 2?
-
-All our repairs come with a full three-year warranty. If the same fault recurs within that period, we repair it free of charge.
-
-### Q: Why is only one AirPod quieter than the other?
-
-The most common cause is mesh blockage from dust or debris accumulating on the acoustic mesh cover. This is a protection mechanism, but it dampens sound. Less commonly, it's a loose ear-tip seal or a board-level fault. Cleaning the mesh resolves approximately 85% of cases.
-
-### Q: What does the R599 assessment include?
-
-It includes visual mesh inspection, Bluetooth pairing diagnostics, audio output testing, and board-level diagnostics using our specialised equipment. We'll provide a written report and repair quote before proceeding.`,
   },
   'apple-watch-series-10-not-charging-johannesburg': {
     slug: 'apple-watch-series-10-not-charging-johannesburg',
@@ -74348,18 +74201,6 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         { '@type': 'Question', name: 'Are MacBook speakers replaceable?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. MacBook speaker units are separate components connected to the logic board via ribbon cables. Speaker replacement is a moderately complex repair requiring partial disassembly but is significantly less expensive than logic board repair.' } },
         { '@type': 'Question', name: 'How much does MacBook speaker repair cost in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'ZA Support diagnoses MacBook speaker faults in Hyde Park, Johannesburg. Assessment: from R599. Speaker replacement cost depends on the model and whether the fault is in the speaker itself or the audio amplifier circuit on the logic board.' } },
         { '@type': 'Question', name: 'Do you repair MacBook audio issues in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. ZA Support repairs MacBook speaker failures, audio jack faults, and audio amplifier chip failures. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg.' } },
-      ],
-    },
-    'airpods-repair-johannesburg': {
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      mainEntity: [
-        { '@type': 'Question', name: 'Can AirPods be repaired in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'Yes. ZA Support repairs AirPods in Johannesburg. Common repairs include battery replacement (the most frequent fault as batteries degrade with age), fixing one-side audio failures, and addressing charging case issues. Contact us with your AirPods model for availability.' } },
-        { '@type': 'Question', name: 'Why is one AirPod not working?', acceptedAnswer: { '@type': 'Answer', text: 'One-sided AirPod failure is usually caused by: a dead battery in one AirPod (charge both in the case for 15+ minutes and test again), debris over the speaker mesh blocking audio, a failed speaker or microphone, or a pairing issue. Try resetting your AirPods (hold the case button for 15 seconds until the LED flashes amber) before concluding hardware fault.' } },
-        { '@type': 'Question', name: 'Can AirPod batteries be replaced?', acceptedAnswer: { '@type': 'Answer', text: 'AirPod battery replacement is technically challenging, the AirPods are glued shut and batteries are small and fragile. Professional replacement is required. ZA Support performs AirPod battery replacement where the model and condition makes repair viable.' } },
-        { '@type': 'Question', name: 'My AirPods are not connecting, how do I fix this?', acceptedAnswer: { '@type': 'Answer', text: 'Try these steps in order: (1) Place AirPods in the case, close and reopen the lid near your iPhone, (2) Reset by holding the case button for 15 seconds until amber LED flashes, (3) Go to Bluetooth settings, forget the AirPods, and re-pair, (4) Reset network settings on iPhone. If one AirPod consistently fails to connect after these steps, it has a hardware fault.' } },
-        { '@type': 'Question', name: 'How much does AirPod repair cost in Johannesburg?', acceptedAnswer: { '@type': 'Answer', text: 'AirPod repair cost in Johannesburg depends on the model (AirPods 2, 3, Pro, Max) and the fault. Contact ZA Support for a model-specific assessment. In cases where repair cost approaches replacement cost, we will advise honestly.' } },
-        { '@type': 'Question', name: 'Are AirPods Pro worth repairing?', acceptedAnswer: { '@type': 'Answer', text: 'AirPods Pro are more expensive to replace than standard AirPods, making repair relatively more worthwhile. Battery degradation is the most common fault. If your AirPods Pro battery life has dropped significantly, battery replacement can restore them to near-new performance.' } },
       ],
     },
     'macbook-wifi-keeps-disconnecting': {

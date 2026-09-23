@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     question: 'Do you repair iPads and MacBooks from Centurion as well?',
-    answer: 'Yes. We repair MacBooks, iPads, Apple Watches, AirPods, and iMacs in addition to iPhones. Collection from Centurion covers all Apple device types.',
+    answer: 'Yes. We repair MacBooks, iPads, Apple Watches and iMacs in addition to iPhones. Collection from Centurion covers all Apple device types.',
   },
 ];
 

@@ -67,6 +67,8 @@ python3 scripts/scan-rendered-leaks.py || { echo "ERROR: rendered-leak gate FAIL
 echo "→ Scanning live src for banned em/en-dashes (§547)..."
 python3 scripts/strip-typographic-dashes.py --scan || { echo "ERROR: §547 dash gate FAILED — aborting deploy. Fix: python3 scripts/strip-typographic-dashes.py --apply"; exit 1; }
 
+echo "→ AirPods retirement residue gate..."
+bash scripts/check-airpods-residue.sh || { echo "ERROR: AirPods residue gate FAILED - remove non-allowlisted AirPods service refs."; exit 1; }
 # 3.7 §287-T TURNAROUND / LEAD-TIME CLAUSE gate — fail-closed.
 # Every device-repair page showing a price or turnaround MUST render the
 # machine-dependent processing/lead-time clause (PricingNote, repair default true).
