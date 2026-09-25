@@ -3413,6 +3413,8 @@ If you're uncertain about what's wrong with your MacBook Pro, getting a professi
 
   'macbook-trackpad-not-clicking': {
     slug: 'macbook-trackpad-not-clicking',
+    shortTitle: 'MacBook Trackpad Not Clicking? Causes and Fixes',
+    seoDescription: 'MacBook trackpad not clicking, stuck, or registering ghost clicks? The most common causes, the quick fixes to try, and when it needs a workshop. Johannesburg.',
     title: `MacBook Trackpad Not Clicking or Stuck? Here Is Why`,
     excerpt: `MacBook trackpad not responding to clicks, clicking everywhere, or physically stuck? These are the most common causes and fixes.`,
     date: '21 March 2026',
@@ -11547,9 +11549,10 @@ We reassemble your MacBook and return it to you. You only pay the from R599 asse
   },
   'signs-of-water-damage-macbook': {
     slug: 'signs-of-water-damage-macbook',
+    shortTitle: 'MacBook Water Damage: 10 Signs to Check First',
     title: 'Signs of Water Damage on a MacBook: How to Check Before It Gets Worse',
     excerpt: 'Complete guide to spotting water damage on a MacBook. 10+ physical signs, LCI locations by model, second-hand buying checklist, and when silent corrosion strikes.',
-    seoDescription: 'Spilled liquid on your MacBook? How to spot water damage early, where the liquid sensors sit by model, and what decides a clean fix from a board repair. Johannesburg.',
+    seoDescription: 'Spilled liquid on your MacBook? See the 10 signs of water damage and where the liquid sensors sit by model. Know a clean fix from a board repair. Johannesburg.',
     date: '12 April 2026',
     category: 'How-To',
     readTime: '9 min read',
@@ -61203,6 +61206,8 @@ Every Mac starts with an assessment from R599, where we identify whether the fau
   },
   'macbook-thermal-paste-replacement': {
     slug: 'macbook-thermal-paste-replacement',
+    shortTitle: 'MacBook Thermal Paste Replacement: Worth It?',
+    seoDescription: 'MacBook running hot with constant fans? When new thermal paste actually helps, and when it does not. Honest workshop advice and costs from Hyde Park, Johannesburg.',
     title: `MacBook Thermal Paste Replacement: When It Helps, When It Does Not, and What It Costs`,
     excerpt: `If your MacBook runs hot, spins its fans constantly, or slows to a crawl during video calls, you have probably read that replacing the thermal paste will fix it. Sometimes that is true. Often it is on.`,
     date: '19 June 2026',
