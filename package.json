@@ -17,6 +17,7 @@
     }
   },
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks 2>/dev/null || true",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
