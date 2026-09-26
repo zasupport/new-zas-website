@@ -38,3 +38,5 @@ tools/robots/validation.log
 
 # Playwright transient run outputs (recurring file-placement guard noise, 26/09/2026)
 test-results/
+# design-template auditor local cache (rebuilt on demand)
+scripts/.design-template-ledger.json
