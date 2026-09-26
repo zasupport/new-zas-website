@@ -136,29 +136,29 @@ export default function IMacRepairPage() {
       <SchemaOrg schema={faqSchema} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-10 sm:py-20 px-4">
+      <section className="hero-gradient grid-overlay text-white pt-24 pb-16 sm:pt-32 sm:pb-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#0FEA7A]/10 text-[#0FEA7A] px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Monitor className="w-4 h-4" />
             iMac Repair Johannesburg
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             iMac Repair in Johannesburg
           </h1>
-          <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-[#B9D2CB] mb-8 max-w-2xl mx-auto">
             Screen replacement, RAM and SSD upgrades, logic board repair, liquid damage.
             All iMac models from 2012. Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
+              className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0FEA7A]/90 text-[#0A1A18] px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 border border-slate-500 hover:border-green-400 text-slate-300 hover:text-green-400 px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
+              className="inline-flex items-center gap-2 border border-[rgba(255,255,255,0.12)] hover:border-[#0FEA7A]/40 text-[#B9D2CB] hover:text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
             >
               Book Assessment
               <ArrowRight className="w-5 h-5" />
@@ -168,25 +168,25 @@ export default function IMacRepairPage() {
       </section>
 
       {/* Trust bar */}
-      <section className="bg-slate-800 border-y border-slate-700 py-4 px-4">
-        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-slate-300">
+      <section className="bg-[#111C1A] border-y border-[rgba(255,255,255,0.12)] py-4 px-4">
+        <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-[#B9D2CB]">
           <span>Assessment</span>
-          <span className="text-slate-500">|</span>
+          <span className="text-[#7A9E98]">|</span>
           <span>Same-Day RAM &amp; SSD Upgrades</span>
-          <span className="text-slate-500">|</span>
+          <span className="text-[#7A9E98]">|</span>
           <span>Assessment</span>
-          <span className="text-slate-500">|</span>
+          <span className="text-[#7A9E98]">|</span>
           <span>All iMac Models</span>
-          <span className="text-slate-500">|</span>
+          <span className="text-[#7A9E98]">|</span>
           <span>Hyde Park, Johannesburg</span>
         </div>
       </section>
 
       {/* Services */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-[rgba(255,255,255,0.03)]">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-slate-900 mb-4">iMac Repair Services</h2>
-          <p className="text-slate-500 text-center mb-12">
+          <h2 className="text-3xl font-bold text-center text-[#E8F4F1] mb-4">iMac Repair Services</h2>
+          <p className="text-[#7A9E98] text-center mb-12">
             Component-level repairs and upgrades for all Apple iMac models.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -196,16 +196,16 @@ export default function IMacRepairPage() {
                 <Link
                   key={service.title}
                   href={service.href}
-                  className="group border border-slate-200 rounded-xl p-6 hover:border-green-400 hover:shadow-md transition-all"
+                  className="group border border-[rgba(255,255,255,0.08)] rounded-xl p-6 hover:border-[#0FEA7A]/40 hover:shadow-md transition-all"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="p-2 bg-green-50 rounded-lg group-hover:bg-green-100 transition-colors shrink-0">
-                      <Icon className="w-6 h-6 text-green-600" />
+                    <div className="p-2 bg-[#0FEA7A]/10 rounded-lg group-hover:bg-green-100 transition-colors shrink-0">
+                      <Icon className="w-6 h-6 text-[#0FEA7A]" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-slate-900 mb-1">{service.title}</h3>
-                      <p className="text-sm text-slate-500 mb-2">{service.description}</p>
-                      <span className="text-xs font-medium text-green-600 bg-green-50 px-2 py-1 rounded">
+                      <h3 className="font-semibold text-[#E8F4F1] mb-1">{service.title}</h3>
+                      <p className="text-sm text-[#7A9E98] mb-2">{service.description}</p>
+                      <span className="text-xs font-medium text-[#0FEA7A] bg-[#0FEA7A]/10 px-2 py-1 rounded">
                         {service.price}
                       </span>
                     </div>
@@ -219,12 +219,12 @@ export default function IMacRepairPage() {
       </section>
 
       {/* SSD upgrade callout */}
-      <section className="py-12 px-4 bg-green-50 border-y border-green-100">
+      <section className="py-12 px-4 bg-[#0FEA7A]/10 border-y border-[#0FEA7A]/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-4">
             The best upgrade for a slow iMac? Replace the hard drive with an SSD.
           </h2>
-          <p className="text-slate-600 mb-6">
+          <p className="text-[#7A9E98] mb-6">
             A spinning hard drive is the most common cause of a slow iMac. Replacing it with a solid-state drive
             (SSD) drops boot times from over 2 minutes to under 20 seconds. Combined with a RAM upgrade on the
             27-inch models, your iMac performs like new, at a fraction of replacement cost.
@@ -235,15 +235,15 @@ export default function IMacRepairPage() {
               { label: 'RAM upgrade (32 GB)', note: '27" Intel models' },
               { label: 'SSD + RAM bundle', note: 'best value' },
             ].map((item) => (
-              <div key={item.label} className="bg-white border border-green-200 rounded-lg p-4">
-                <div className="font-medium text-slate-900 text-sm mb-1">{item.label}</div>
-                <div className="text-xs text-slate-500 mt-1">{item.note}</div>
+              <div key={item.label} className="bg-[rgba(255,255,255,0.03)] border border-[#0FEA7A]/20 rounded-lg p-4">
+                <div className="font-medium text-[#E8F4F1] text-sm mb-1">{item.label}</div>
+                <div className="text-xs text-[#7A9E98] mt-1">{item.note}</div>
               </div>
             ))}
           </div>
           <Link
             href="/imac-repair/ssd-upgrade"
-            className="inline-flex items-center gap-2 mt-6 text-green-600 font-medium hover:text-green-500"
+            className="inline-flex items-center gap-2 mt-6 text-[#0FEA7A] font-medium hover:text-[#0FEA7A]"
           >
             Learn about iMac SSD upgrades
             <ArrowRight className="w-4 h-4" />
@@ -252,20 +252,20 @@ export default function IMacRepairPage() {
       </section>
 
       {/* Models */}
-      <section className="py-16 px-4 bg-slate-50">
+      <section className="py-16 px-4 bg-[rgba(255,255,255,0.015)]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">iMac Models We Repair</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-8 text-center">iMac Models We Repair</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
             {models.map((model) => (
-              <div key={model.name} className="bg-white border border-slate-200 rounded-lg p-3">
-                <div className="font-medium text-slate-900 text-sm">{model.name}</div>
-                <div className="text-xs text-slate-500 mt-1">{model.note}</div>
+              <div key={model.name} className="bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-lg p-3">
+                <div className="font-medium text-[#E8F4F1] text-sm">{model.name}</div>
+                <div className="text-xs text-[#7A9E98] mt-1">{model.note}</div>
               </div>
             ))}
           </div>
-          <p className="text-center text-sm text-slate-500 mt-6">
+          <p className="text-center text-sm text-[#7A9E98] mt-6">
             Not sure which iMac you have?{' '}
-            <Link href="/apple-support" className="text-green-600 hover:underline">
+            <Link href="/apple-support" className="text-[#0FEA7A] hover:underline">
               We can identify your model from the serial number.
             </Link>
           </p>
@@ -273,23 +273,23 @@ export default function IMacRepairPage() {
       </section>
 
       {/* Repair vs Replace */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-[rgba(255,255,255,0.03)]">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">Repair or Replace?</h2>
-          <p className="text-slate-600 mb-8">
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-6">Repair or Replace?</h2>
+          <p className="text-[#7A9E98] mb-8">
             We give every iMac owner an honest assessment. Some machines are worth upgrading significantly;
             others are better replaced. We will tell you which, and if you decide to replace, we can source
             and configure a new Mac with your data migrated.
           </p>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
-              <thead className="bg-slate-900 text-white">
+            <table className="w-full text-sm border border-[rgba(255,255,255,0.08)] rounded-xl overflow-hidden">
+              <thead className="bg-[#0A1A18] text-white">
                 <tr>
                   <th className="text-left p-4">Scenario</th>
                   <th className="text-left p-4">Recommendation</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-100">
+              <tbody className="divide-y divide-[rgba(255,255,255,0.06)]">
                 {[
                   {
                     scenario: 'iMac 27" Intel (2015-2020) running slowly',
@@ -312,9 +312,9 @@ export default function IMacRepairPage() {
                     rec: 'Replace, repair cost exceeds value',
                   },
                 ].map((row) => (
-                  <tr key={row.scenario} className="hover:bg-slate-50">
-                    <td className="p-4 text-slate-700">{row.scenario}</td>
-                    <td className="p-4 text-slate-700">{row.rec}</td>
+                  <tr key={row.scenario} className="hover:bg-[rgba(15,234,122,0.04)]">
+                    <td className="p-4 text-[#B9D2CB]">{row.scenario}</td>
+                    <td className="p-4 text-[#B9D2CB]">{row.rec}</td>
                   </tr>
                 ))}
               </tbody>
@@ -324,9 +324,9 @@ export default function IMacRepairPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-16 px-4 bg-slate-50">
+      <section className="py-16 px-4 bg-[rgba(255,255,255,0.015)]">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-8 text-center">
             iMac Repair Questions
           </h2>
           <FAQAccordion items={faqs} />
@@ -337,29 +337,29 @@ export default function IMacRepairPage() {
       <GoogleReviews count={6} />
 
       {/* CTA */}
-      <section className="py-16 px-4 bg-slate-900 text-white">
+      <section className="py-16 px-4 bg-[#0A1A18] text-white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Bring Your iMac In</h2>
-          <p className="text-slate-300 mb-8">
+          <p className="text-[#B9D2CB] mb-8">
             Assessment. Fixed quote. Hyde Park, Johannesburg.
             Most upgrades completed same day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold transition-colors">
+              className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0FEA7A]/90 text-[#0A1A18] px-8 py-4 rounded-xl font-semibold transition-colors">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 border border-slate-600 hover:border-green-400 text-slate-300 hover:text-green-400 px-8 py-4 rounded-xl font-semibold transition-colors"
+              className="inline-flex items-center gap-2 border border-[rgba(255,255,255,0.12)] hover:border-[#0FEA7A]/40 text-[#B9D2CB] hover:text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold transition-colors"
             >
               Book Online
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
-          <p className="text-slate-500 text-sm mt-6">
+          <p className="text-[#7A9E98] text-sm mt-6">
             1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg · Mon-Fri 8am-6pm
           </p>
         </div>

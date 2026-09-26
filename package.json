@@ -30,6 +30,7 @@
     "check:reliability": "node scripts/verify-release.mjs --self-test && node scripts/check-build-contract.mjs",
     "verify:live": "node scripts/verify-release.mjs",
     "check:security": "npm audit --audit-level=moderate",
+    "check:design": "python3 scripts/audit-design-template.py --test && python3 scripts/audit-design-template.py --gate",
     "robots:preflight": "python3 \"tools/robots/robots preflight.py\"",
     "robots:test": "python3 \"tools/robots/robots pressure test.py\"",
     "robots:guard": "python3 \"tools/robots/robots guard.py\" --live https://zasupport.com/robots.txt",

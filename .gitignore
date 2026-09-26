@@ -35,3 +35,6 @@ tools/robots/inbox/
 tools/robots/.venv/
 tools/robots/.staging/
 tools/robots/validation.log
+
+# design-template auditor local cache (rebuilt on demand)
+scripts/.design-template-ledger.json

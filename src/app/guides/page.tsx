@@ -122,7 +122,7 @@ export default function GuidesPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <section className="bg-[#27504D] text-white py-16 md:py-24">
+      <section className="hero-gradient grid-overlay text-white pt-24 pb-16 sm:pt-32 sm:pb-24">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <nav className="text-sm text-white/70 mb-6">
             <Link href="/" className="hover:text-white">Home</Link>
@@ -139,7 +139,7 @@ export default function GuidesPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-[rgba(255,255,255,0.03)]">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid md:grid-cols-2 gap-8">
             {guides.map((guide) => {
@@ -148,25 +148,25 @@ export default function GuidesPage() {
                 <Link
                   key={guide.slug}
                   href={`/guides/${guide.slug}`}
-                  className="group border border-gray-200 rounded-xl p-6 hover:border-[#1B6B4A] hover:shadow-lg transition-all duration-200"
+                  className="group border border-[rgba(255,255,255,0.08)] rounded-xl p-6 hover:border-[#0FEA7A]/40 hover:shadow-lg transition-all duration-200"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-[#1B6B4A]/10 rounded-lg flex items-center justify-center group-hover:bg-[#1B6B4A]/20 transition-colors">
-                      <Icon className="w-6 h-6 text-[#1B6B4A]" />
+                    <div className="flex-shrink-0 w-12 h-12 bg-[#0FEA7A]/10 rounded-lg flex items-center justify-center group-hover:bg-[#1B6B4A]/20 transition-colors">
+                      <Icon className="w-6 h-6 text-[#0FEA7A]" />
                     </div>
                     <div className="flex-1">
-                      <span className="text-xs font-medium text-[#1B6B4A] uppercase tracking-wider">
+                      <span className="text-xs font-medium text-[#0FEA7A] uppercase tracking-wider">
                         {guide.category}
                       </span>
-                      <h2 className="text-xl font-bold text-gray-900 mt-1 group-hover:text-[#1B6B4A] transition-colors">
+                      <h2 className="text-xl font-bold text-[#E8F4F1] mt-1 group-hover:text-[#0FEA7A] transition-colors">
                         {guide.title}
                       </h2>
-                      <p className="text-gray-600 mt-2 text-sm leading-relaxed">
+                      <p className="text-[#7A9E98] mt-2 text-sm leading-relaxed">
                         {guide.excerpt}
                       </p>
-                      <div className="flex items-center gap-4 mt-4 text-sm text-gray-500">
+                      <div className="flex items-center gap-4 mt-4 text-sm text-[#7A9E98]">
                         <span>{guide.readTime}</span>
-                        <span className="flex items-center gap-1 text-[#1B6B4A] font-medium group-hover:underline">
+                        <span className="flex items-center gap-1 text-[#0FEA7A] font-medium group-hover:underline">
                           Read guide <ArrowRight className="w-4 h-4" />
                         </span>
                       </div>
@@ -179,13 +179,13 @@ export default function GuidesPage() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[rgba(255,255,255,0.015)]">
         <div className="container mx-auto px-4 max-w-3xl text-center">
-          <Wrench className="w-12 h-12 text-[#1B6B4A] mx-auto mb-4" />
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+          <Wrench className="w-12 h-12 text-[#0FEA7A] mx-auto mb-4" />
+          <h2 className="text-2xl md:text-3xl font-bold text-[#E8F4F1] mb-4">
             Tried Everything? We Can Help.
           </h2>
-          <p className="text-gray-600 mb-8 text-lg">
+          <p className="text-[#7A9E98] mb-8 text-lg">
             If the troubleshooting steps above did not fix your MacBook, it likely needs a professional
             diagnosis. Our Hyde Park workshop handles logic board repairs, liquid damage recovery, and
             every other Mac fault you can imagine.
@@ -193,18 +193,18 @@ export default function GuidesPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://wa.me/27645295863?text=Hi%2C%20I%20need%20help%20with%20my%20MacBook"
-              className="inline-flex items-center justify-center px-8 py-3 bg-[#25D366] text-white font-semibold rounded-lg hover:bg-[#20bd5a] transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 bg-[#0FEA7A] text-[#0A1A18] font-semibold rounded-lg hover:bg-[#0FEA7A]/90 transition-colors"
             >
               WhatsApp Us
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3 border-2 border-[#27504D] text-[#27504D] font-semibold rounded-lg hover:bg-[#27504D] hover:text-white transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-[#0FEA7A]/20 text-[#0FEA7A] font-semibold rounded-lg hover:bg-[rgba(15,234,122,0.04)] hover:text-white transition-colors"
             >
               Book Assessment
             </Link>
           </div>
-          <p className="text-sm text-gray-500 mt-4">
+          <p className="text-sm text-[#7A9E98] mt-4">
             No Fix, No Fee guarantee on all repairs. 12-month warranty included.
           </p>
         </div>

@@ -76,6 +76,13 @@ bash scripts/check-airpods-residue.sh || { echo "ERROR: AirPods residue gate FAI
 echo "→ Verifying machine-dependent lead-time clause on price/turnaround pages (§287-T)..."
 python3 scripts/check-turnaround-clause.py || { echo "ERROR: §287-T lead-time clause gate FAILED — aborting deploy. Add <PricingNote /> to the flagged page(s) or <PricingNote repair={false} /> on contract pages."; exit 1; }
 
+# 3.8 DESIGN-TEMPLATE CONFORMANCE gate - fail-closed (26/09/2026).
+# Every route must match the reference templates (/ and /macbook-not-turning-on):
+# no plain underlined link lists, bordered card surfaces, icons, no light/slate palette.
+# Incremental: unchanged routes reuse the ledger verdict (scripts/.design-template-ledger.json).
+echo "-> Verifying design-template conformance (audit-design-template.py)..."
+python3 scripts/audit-design-template.py --gate || { echo "ERROR: design-template gate FAILED - restyle the flagged shared component; for T6 run: python3 scripts/audit-design-template.py --fix <file>"; exit 1; }
+
 # 3.75 ROBOTS RENDER-RESOURCE gate — fail-closed (GSC WNC-20237597, 04/07/2026).
 # robots.ts must keep /_next/static/ + /_next/image/ crawlable — blocking them
 # causes "Indexed, though blocked by robots.txt" warnings + under-rendering.
