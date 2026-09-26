@@ -55,3 +55,28 @@ tools/robots/validation.log
 *.pre-*-bak
 ~$*
 .mcp.json.pre-*
+
+# Playwright ephemeral output — never a tracked deliverable (repo-hygiene, 26/09/2026)
+test-results/
+
+# Timestamped baseline-engine run snapshots (regenerable, not canonical, 26/09/2026)
+docs/governance/baselines/
+
+# Internal CC/Perplexity session handoffs, audits, triage + working plans (contain machine
+# paths + internal governance — keep OUT of the public repo). The intentionally-tracked
+# curated docs (ZA Support Website Build Master Handoff.md, MASTER-LOSSLESS-HANDOFF-website-session-*,
+# claude-ai-project-instructions.md, *-selfheal-handoff.md) have distinct names and stay tracked.
+docs/governance/BLOG-MONOLITH-*
+docs/governance/CLOUD-LOCAL-ROUTING-*
+docs/governance/MASTER-LOSSLESS-CLAUDE-CODE-*
+docs/governance/SESSION-TODO-*
+docs/governance/STANDING-RULE-*
+docs/governance/UNCOMMITTED-PATHS-*
+docs/governance/inbox/
+docs/governance/*.pre-*
+
+# Dated blog-supply curated-topic snapshots (regenerable daily output)
+docs/seo/curated-informational-topics-*.json
+
+# Timestamped post-deploy SEO-measurement snapshots (§795 site-improve) — regenerable output
+docs/governance/seo-measurement/
