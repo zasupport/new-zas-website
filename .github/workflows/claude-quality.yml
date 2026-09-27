@@ -67,3 +67,18 @@ jobs:
             echo "::warning title=smoke::.claude/hooks/smoke-test.sh absent on this ref -- dev hook harness not assembled here. Advisory skip (absence control), not a silent pass."
             echo "SMOKE: SCAFFOLDING-ABSENT (advisory) -- no local gate to run on this branch."
           fi
+      - name: Blog monolith parity harness (§788 verbatim-move detector)
+        # PR #12 moved the 689-post object out of page.tsx into posts.data.ts as a
+        # byte-exact verbatim relocation. The harness self-test proves the detector
+        # catches drift (positive / negative / slug / absence controls). Wiring it
+        # here means every future change to page.tsx or posts.data.ts re-proves the
+        # detector in CI, instead of resting on the author's apply-time roundtrip.
+        # Absence control per testing-controls.md: run where present, otherwise a
+        # LOUD logged advisory -- never a silent pass.
+        run: |
+          if [ -f scripts/blog-monolith-parity.sh ]; then
+            bash scripts/blog-monolith-parity.sh --test
+          else
+            echo "::warning title=parity::scripts/blog-monolith-parity.sh absent on this ref -- blog-monolith parity harness not present. Advisory skip (absence control), not a silent pass."
+            echo "PARITY: HARNESS-ABSENT (advisory) -- no parity gate to run on this branch."
+          fi
