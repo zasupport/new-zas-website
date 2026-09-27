@@ -79,7 +79,7 @@ export function AuthorBox({ authorSlug }: { authorSlug: string }) {
   ].filter(Boolean) as { platform: string; url: string }[]
 
   return (
-    <div className="mt-12 pt-8 border-t border-zinc-200">
+    <div className="mt-12 pt-8 border-t border-[rgba(255,255,255,0.08)]">
       <div className="flex items-start gap-5">
         <Link href={`/author/${author.slug}`} className="shrink-0">
           <Image
@@ -96,12 +96,12 @@ export function AuthorBox({ authorSlug }: { authorSlug: string }) {
           </p>
           <Link
             href={`/author/${author.slug}`}
-            className="text-lg font-semibold text-zinc-900 hover:text-emerald-700 transition-colors"
+            className="text-lg font-semibold text-[#E8F4F1] hover:text-[#0FEA7A]/80 transition-colors"
           >
             {author.name}
           </Link>
-          <p className="text-sm text-zinc-500 mt-0.5">{author.role}</p>
-          <p className="text-sm text-zinc-600 mt-2 leading-relaxed max-w-xl">
+          <p className="text-sm text-[#B9D2CB] mt-0.5">{author.role}</p>
+          <p className="text-sm text-[#7A9E98] mt-2 leading-relaxed max-w-xl">
             {author.bio}
           </p>
           {socials.length > 0 && (
@@ -113,7 +113,7 @@ export function AuthorBox({ authorSlug }: { authorSlug: string }) {
           )}
           <Link
             href={`/author/${author.slug}`}
-            className="inline-block mt-3 text-xs font-medium text-emerald-600 hover:text-emerald-700"
+            className="inline-block mt-3 text-xs font-medium text-[#0FEA7A] hover:text-[#0FEA7A]/80"
           >
             View all articles by {author.name.split(' ')[0]} →
           </Link>

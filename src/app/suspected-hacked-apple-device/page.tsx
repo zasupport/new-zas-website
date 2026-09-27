@@ -1,6 +1,7 @@
 import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import {
 	AlertTriangle,
+	ArrowRight,
 	CheckCircle,
 	KeyRound,
 	MessageCircle,
@@ -139,7 +140,7 @@ export default function SuspectedHackedAppleDevicePage() {
 			<SchemaOrg schema={faqSchema} />
 			<SchemaOrg schema={breadcrumbSchema} />
 			<SchemaOrg schema={serviceSchema} />
-			<main className="max-w-4xl mx-auto px-4 py-10">
+			<main className="max-w-4xl mx-auto px-4 pt-24 pb-10 sm:pt-32">
 				<Breadcrumb
 					items={[
 						{ label: "Apple Support", href: "/apple-support" },
@@ -151,7 +152,7 @@ export default function SuspectedHackedAppleDevicePage() {
 					<h1 className="text-3xl font-bold">
 						Suspected Hacked Mac or iPhone? A Calm, Private Assessment
 					</h1>
-					<p className="mt-4 text-lg text-gray-700">
+					<p className="mt-4 text-lg text-[#B9D2CB]">
 						If you think your Mac, iPhone or Apple device may have been hacked,
 						take a breath. Most worrying signs have an ordinary technical cause,
 						and the first job is to check safely what is actually happening
@@ -159,13 +160,13 @@ export default function SuspectedHackedAppleDevicePage() {
 						exactly that, privately and without judgement, from our Hyde Park
 						workshop.
 					</p>
-					<p className="mt-3 font-semibold text-gray-900">
+					<p className="mt-3 font-semibold text-[#E8F4F1]">
 						Symptoms alone are not proof of compromise.
 					</p>
 					<div className="mt-6 flex flex-wrap gap-3">
 						<a
 							href={wa}
-							className="inline-flex items-center gap-2 rounded-lg bg-green-600 px-5 py-3 text-white font-semibold"
+							className="inline-flex items-center gap-2 rounded-lg bg-[#0FEA7A] px-5 py-3 text-[#0A1A18] font-semibold"
 						>
 							<MessageCircle className="w-5 h-5" /> Ask us privately on WhatsApp
 						</a>
@@ -185,12 +186,12 @@ export default function SuspectedHackedAppleDevicePage() {
 					<ul className="mt-4 space-y-3">
 						{immediateActions.map((a) => (
 							<li key={a} className="flex gap-3">
-								<CheckCircle className="w-5 h-5 mt-1 text-green-600 shrink-0" />
-								<span className="text-gray-700">{a}</span>
+								<CheckCircle className="w-5 h-5 mt-1 text-[#0FEA7A] shrink-0" />
+								<span className="text-[#B9D2CB]">{a}</span>
 							</li>
 						))}
 					</ul>
-					<p className="mt-4 text-gray-700">
+					<p className="mt-4 text-[#B9D2CB]">
 						Keeping the evidence matters. If something is wrong, the messages,
 						emails, logs and settings on the device help us understand what
 						happened, so please avoid deleting them before we look together.
@@ -204,24 +205,24 @@ export default function SuspectedHackedAppleDevicePage() {
 					<div className="mt-4 grid gap-5 sm:grid-cols-2">
 						{whatWeAssess.map((w) => (
 							<div key={w.title} className="rounded-lg border p-5">
-								<w.icon className="w-6 h-6 text-emerald-700" />
+								<w.icon className="w-6 h-6 text-[#0FEA7A]" />
 								<h3 className="mt-2 font-semibold">{w.title}</h3>
-								<p className="mt-1 text-gray-700">{w.body}</p>
+								<p className="mt-1 text-[#B9D2CB]">{w.body}</p>
 							</div>
 						))}
 					</div>
 				</section>
 
-				<section className="mt-10 rounded-lg border border-amber-200 bg-amber-50 p-6">
+				<section className="mt-10 rounded-lg border border-amber-200 bg-[rgba(245,158,11,0.08)] p-6">
 					<h2 className="text-2xl font-semibold">
 						What this assessment is, and is not
 					</h2>
-					<p className="mt-3 text-gray-800">
+					<p className="mt-3 text-[#B9D2CB]">
 						This is a practical technical check to help you understand what is
 						happening and what to do next. It is honest about its limits. ZA
 						Support does not promise, and this assessment does not provide:
 					</p>
-					<ul className="mt-3 space-y-2 text-gray-800">
+					<ul className="mt-3 space-y-2 text-[#B9D2CB]">
 						<li>
 							• Guaranteed recovery of a locked or compromised account outside the provider’s official process.
 						</li>
@@ -237,7 +238,7 @@ export default function SuspectedHackedAppleDevicePage() {
 						</li>
 						<li>• Guaranteed recovery of lost data, money or accounts.</li>
 					</ul>
-					<p className="mt-3 text-gray-800">
+					<p className="mt-3 text-[#B9D2CB]">
 						Where account recovery is needed, we will point you to the correct
 						official Apple or provider route. Read more on our{" "}
 						<Link href="/editorial-policy" className="underline">
@@ -248,43 +249,43 @@ export default function SuspectedHackedAppleDevicePage() {
 				</section>
 
 				<section className="mt-10">
-					<h2 className="text-2xl font-semibold">Related help</h2>
-					<ul className="mt-4 space-y-2 text-emerald-800">
-						<li>
-							•{" "}
-							<Link href="/macbook-repair/virus-removal" className="underline">
+					<h2 className="text-2xl font-extrabold text-[#E8F4F1]">Related help</h2>
+					<ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 text-[#B9D2CB]">
+						<li className="flex h-full items-start gap-3 rounded-xl border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.03)] p-4 transition-all hover:border-[rgba(15,234,122,0.25)] hover:bg-[rgba(15,234,122,0.04)]">
+							<ArrowRight className="mt-1 h-4 w-4 flex-shrink-0 text-[#0FEA7A]" aria-hidden="true" /><span>
+							<Link href="/macbook-repair/virus-removal" className="font-semibold text-[#0FEA7A] hover:text-[#E8F4F1] transition-colors">
 								Mac virus and malware removal
 							</Link>{" "}
-							if the concern is adware, pop-ups or a slow Mac.
+							if the concern is adware, pop-ups or a slow Mac.</span>
 						</li>
-						<li>
-							•{" "}
-							<Link href="/macbook-repair" className="underline">
+						<li className="flex h-full items-start gap-3 rounded-xl border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.03)] p-4 transition-all hover:border-[rgba(15,234,122,0.25)] hover:bg-[rgba(15,234,122,0.04)]">
+							<ArrowRight className="mt-1 h-4 w-4 flex-shrink-0 text-[#0FEA7A]" aria-hidden="true" /><span>
+							<Link href="/macbook-repair" className="font-semibold text-[#0FEA7A] hover:text-[#E8F4F1] transition-colors">
 								MacBook repair
 							</Link>{" "}
 							and{" "}
-							<Link href="/imac-repair" className="underline">
+							<Link href="/imac-repair" className="font-semibold text-[#0FEA7A] hover:text-[#E8F4F1] transition-colors">
 								iMac repair
 							</Link>{" "}
-							for hardware faults.
+							for hardware faults.</span>
 						</li>
-						<li>
-							•{" "}
-							<Link href="/iphone-repair" className="underline">
+						<li className="flex h-full items-start gap-3 rounded-xl border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.03)] p-4 transition-all hover:border-[rgba(15,234,122,0.25)] hover:bg-[rgba(15,234,122,0.04)]">
+							<ArrowRight className="mt-1 h-4 w-4 flex-shrink-0 text-[#0FEA7A]" aria-hidden="true" /><span>
+							<Link href="/iphone-repair" className="font-semibold text-[#0FEA7A] hover:text-[#E8F4F1] transition-colors">
 								iPhone repair
 							</Link>{" "}
-							for device faults on your iPhone.
+							for device faults on your iPhone.</span>
 						</li>
-						<li>
-							•{" "}
-							<Link href="/contact" className="underline">
+						<li className="flex h-full items-start gap-3 rounded-xl border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.03)] p-4 transition-all hover:border-[rgba(15,234,122,0.25)] hover:bg-[rgba(15,234,122,0.04)]">
+							<ArrowRight className="mt-1 h-4 w-4 flex-shrink-0 text-[#0FEA7A]" aria-hidden="true" /><span>
+							<Link href="/contact" className="font-semibold text-[#0FEA7A] hover:text-[#E8F4F1] transition-colors">
 								Contact us
 							</Link>{" "}
 							or{" "}
-							<Link href="/book" className="underline">
+							<Link href="/book" className="font-semibold text-[#0FEA7A] hover:text-[#E8F4F1] transition-colors">
 								book an assessment
 							</Link>
-							.
+							.</span>
 						</li>
 					</ul>
 				</section>
@@ -298,7 +299,7 @@ export default function SuspectedHackedAppleDevicePage() {
 					/>
 				</section>
 
-				<section className="mt-10 border-t pt-6 text-sm text-gray-600">
+				<section className="mt-10 border-t pt-6 text-sm text-[#7A9E98]">
 					<p>
 						Reviewed by Courtney Bentley, CEO and Apple Certified Expert, ZA
 						Support. Written from real assessments carried out in our Hyde Park,
@@ -308,7 +309,7 @@ export default function SuspectedHackedAppleDevicePage() {
 					<div className="mt-4 flex flex-wrap gap-3">
 						<a
 							href={wa}
-							className="inline-flex items-center gap-2 rounded-lg bg-green-600 px-5 py-3 text-white font-semibold"
+							className="inline-flex items-center gap-2 rounded-lg bg-[#0FEA7A] px-5 py-3 text-[#0A1A18] font-semibold"
 						>
 							<MessageCircle className="w-5 h-5" /> Message us privately
 						</a>

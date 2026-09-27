@@ -85,37 +85,37 @@ export default function IMacScreenRepairPage() {
       <SchemaOrg schema={faqSchema} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-b from-slate-900 to-slate-800 text-white py-10 sm:py-20 px-4">
+      <section className="hero-gradient grid-overlay text-white pt-24 pb-16 sm:pt-32 sm:pb-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-4">
-            <Link href="/imac-repair" className="text-sm text-slate-400 hover:text-green-400 flex items-center gap-1">
+            <Link href="/imac-repair" className="text-sm text-[#7A9E98] hover:text-[#0FEA7A] flex items-center gap-1">
               iMac Repair
               <ArrowRight className="w-3 h-3" />
               <span className="text-white">Screen Repair</span>
             </Link>
           </div>
-          <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#0FEA7A]/10 text-[#0FEA7A] px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Monitor className="w-4 h-4" />
             iMac Screen Repair
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             iMac Screen Repair Johannesburg
           </h1>
-          <p className="text-xl text-slate-300 mb-4 max-w-2xl mx-auto">
+          <p className="text-xl text-[#B9D2CB] mb-4 max-w-2xl mx-auto">
             Cracked glass, dead pixels, backlight failure, display lines.
             All iMac models from 2012 onwards. Assessment and fixed quote.
           </p>
-          <p className="text-2xl font-bold text-green-400 mb-8">Assessment, contact us for a quote</p>
+          <p className="text-2xl font-bold text-[#0FEA7A] mb-8">Assessment, contact us for a quote</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
+              className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0FEA7A]/90 text-[#0A1A18] px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 border border-slate-500 hover:border-green-400 text-slate-300 hover:text-green-400 px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
+              className="inline-flex items-center gap-2 border border-[rgba(255,255,255,0.12)] hover:border-[#0FEA7A]/40 text-[#B9D2CB] hover:text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold text-lg transition-colors"
             >
               Book Assessment
               <ArrowRight className="w-5 h-5" />
@@ -125,12 +125,12 @@ export default function IMacScreenRepairPage() {
       </section>
 
       {/* Symptoms */}
-      <section className="py-12 px-4 bg-amber-50 border-b border-amber-100">
+      <section className="py-12 px-4 bg-[rgba(245,158,11,0.08)] border-b border-amber-500/30">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-xl font-bold text-slate-900 mb-4">Common iMac screen problems we repair:</h2>
+          <h2 className="text-xl font-bold text-[#E8F4F1] mb-4">Common iMac screen problems we repair:</h2>
           <div className="grid sm:grid-cols-2 gap-2">
             {symptoms.map((s) => (
-              <div key={s} className="flex items-center gap-2 text-slate-700">
+              <div key={s} className="flex items-center gap-2 text-[#B9D2CB]">
                 <span className="w-2 h-2 bg-amber-400 rounded-full shrink-0" />
                 {s}
               </div>
@@ -140,12 +140,12 @@ export default function IMacScreenRepairPage() {
       </section>
 
       {/* Dark screen tip */}
-      <section className="py-10 px-4 bg-blue-50 border-b border-blue-100">
+      <section className="py-10 px-4 bg-[rgba(255,255,255,0.03)] border-b border-[rgba(255,255,255,0.08)]">
         <div className="max-w-3xl mx-auto flex gap-4 items-start">
-          <AlertTriangle className="w-6 h-6 text-blue-500 shrink-0 mt-0.5" />
+          <AlertTriangle className="w-6 h-6 text-[#0FEA7A] shrink-0 mt-0.5" />
           <div>
-            <h3 className="font-bold text-slate-900 mb-1">Dark screen but machine still running?</h3>
-            <p className="text-slate-600 text-sm">
+            <h3 className="font-bold text-[#E8F4F1] mb-1">Dark screen but machine still running?</h3>
+            <p className="text-[#7A9E98] text-sm">
               Connect an external monitor via Thunderbolt or HDMI. If your desktop appears on the external screen, the logic board is fine, the issue is the internal backlight, not the logic board. Backlight repairs are significantly less than a full screen replacement.
             </p>
           </div>
@@ -153,31 +153,31 @@ export default function IMacScreenRepairPage() {
       </section>
 
       {/* Pricing */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-[rgba(255,255,255,0.03)]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2 text-center">iMac Screen Repair, Models &amp; Issues</h2>
-          <p className="text-slate-500 text-center mb-8">Assessment before any commitment. Contact us for a quote.</p>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-2 text-center">iMac Screen Repair, Models &amp; Issues</h2>
+          <p className="text-[#7A9E98] text-center mb-8">Assessment before any commitment. Contact us for a quote.</p>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-slate-200 rounded-xl overflow-hidden">
-              <thead className="bg-slate-900 text-white">
+            <table className="w-full text-sm border border-[rgba(255,255,255,0.08)] rounded-xl overflow-hidden">
+              <thead className="bg-[#0A1A18] text-white">
                 <tr>
                   <th className="text-left p-4">iMac Model</th>
                   <th className="text-left p-4">Issue</th>
                   <th className="text-left p-4">Notes</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-100">
+              <tbody className="divide-y divide-[rgba(255,255,255,0.06)]">
                 {pricingRows.map((row) => (
-                  <tr key={`${row.model}-${row.issue}`} className="hover:bg-slate-50">
-                    <td className="p-4 text-slate-700">{row.model}</td>
-                    <td className="p-4 text-slate-700 text-xs">{row.issue}</td>
-                    <td className="p-4 text-slate-500 text-xs">{row.note}</td>
+                  <tr key={`${row.model}-${row.issue}`} className="hover:bg-[rgba(15,234,122,0.04)]">
+                    <td className="p-4 text-[#B9D2CB]">{row.model}</td>
+                    <td className="p-4 text-[#B9D2CB] text-xs">{row.issue}</td>
+                    <td className="p-4 text-[#7A9E98] text-xs">{row.note}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-center text-sm text-slate-500 mt-4">
+          <p className="text-center text-sm text-[#7A9E98] mt-4">
             Parts availability confirmed before any work begins. Prices may vary for unusual configurations.
           </p>
           <PricingNote variant="inline" />
@@ -185,9 +185,9 @@ export default function IMacScreenRepairPage() {
       </section>
 
       {/* Process */}
-      <section className="py-16 px-4 bg-slate-50">
+      <section className="py-16 px-4 bg-[rgba(255,255,255,0.015)]">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">How iMac Screen Repair Works</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-8 text-center">How iMac Screen Repair Works</h2>
           <div className="space-y-6">
             {[
               { step: '1', title: 'Bring in your iMac', desc: 'We inspect the screen damage, connect an external monitor if needed to verify the logic board, and quote a fixed price.' },
@@ -197,12 +197,12 @@ export default function IMacScreenRepairPage() {
               { step: '5', title: 'Resealed and tested', desc: 'The display is resealed with new adhesive strips (where applicable), powered on, and tested for dead pixels, colour accuracy, and backlight uniformity before collection.' },
             ].map((item) => (
               <div key={item.step} className="flex gap-4">
-                <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
+                <div className="w-8 h-8 bg-[#0FEA7A] text-[#0A1A18] rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="font-semibold text-slate-900">{item.title}</h3>
-                  <p className="text-slate-500 text-sm mt-1">{item.desc}</p>
+                  <h3 className="font-semibold text-[#E8F4F1]">{item.title}</h3>
+                  <p className="text-[#7A9E98] text-sm mt-1">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -211,25 +211,25 @@ export default function IMacScreenRepairPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-[rgba(255,255,255,0.03)]">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-slate-900 mb-8 text-center">iMac Screen Repair Questions</h2>
+          <h2 className="text-2xl font-bold text-[#E8F4F1] mb-8 text-center">iMac Screen Repair Questions</h2>
           <FAQAccordion items={faqs} />
         </div>
       </section>
 
       {/* Combine with upgrade callout */}
-      <section className="py-12 px-4 bg-green-50 border-y border-green-100">
+      <section className="py-12 px-4 bg-[#0FEA7A]/10 border-y border-[#0FEA7A]/20">
         <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <h3 className="font-bold text-slate-900 mb-1">While the display is open, upgrade the SSD?</h3>
-            <p className="text-slate-600 text-sm">
+            <h3 className="font-bold text-[#E8F4F1] mb-1">While the display is open, upgrade the SSD?</h3>
+            <p className="text-[#7A9E98] text-sm">
               For most iMac models, the SSD is accessed through the same display opening. Replacing the internal drive at the same time as a screen repair adds minimal labour cost and eliminates a second service visit.
             </p>
           </div>
           <Link
             href="/imac-repair/ssd-upgrade"
-            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-500 text-white px-6 py-3 rounded-xl font-semibold whitespace-nowrap transition-colors"
+            className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0FEA7A]/90 text-[#0A1A18] px-6 py-3 rounded-xl font-semibold whitespace-nowrap transition-colors"
           >
             SSD Upgrade
             <ArrowRight className="w-4 h-4" />
@@ -238,23 +238,23 @@ export default function IMacScreenRepairPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 bg-slate-900 text-white">
+      <section className="py-16 px-4 bg-[#0A1A18] text-white">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book Your iMac Screen Repair</h2>
-          <p className="text-slate-300 mb-8">
+          <p className="text-[#B9D2CB] mb-8">
             Assessment. Fixed quote. Assessment.
             Hyde Park, Johannesburg.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={`tel:${CONTACT.phone}`}
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-xl font-semibold transition-colors">
+              className="inline-flex items-center gap-2 bg-[#0FEA7A] hover:bg-[#0FEA7A]/90 text-[#0A1A18] px-8 py-4 rounded-xl font-semibold transition-colors">
               <Phone className="w-5 h-5" />
               {CONTACT.phone}
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 border border-slate-600 hover:border-green-400 text-slate-300 hover:text-green-400 px-8 py-4 rounded-xl font-semibold transition-colors"
+              className="inline-flex items-center gap-2 border border-[rgba(255,255,255,0.12)] hover:border-[#0FEA7A]/40 text-[#B9D2CB] hover:text-[#0FEA7A] px-8 py-4 rounded-xl font-semibold transition-colors"
             >
               Book Online
               <ArrowRight className="w-5 h-5" />
