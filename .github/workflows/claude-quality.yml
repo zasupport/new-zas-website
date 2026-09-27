@@ -41,6 +41,12 @@ jobs:
       - name: Secrets (gitleaks full history)
         if: matrix.check == 'secrets'
         uses: gitleaks/gitleaks-action@v2
+        env:
+          # gitleaks-action@v2 REQUIRES GITHUB_TOKEN to scan on the pull_request event
+          # (it fetches the PR commit range). Without it the PR-triggered run aborts with
+          # "GITHUB_TOKEN is now required to scan pull requests" — a false red, not a leak.
+          # The push-triggered run is unaffected. §917 green-by-prevention (not hiding).
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   smoke:
     runs-on: ubuntu-latest
     steps:

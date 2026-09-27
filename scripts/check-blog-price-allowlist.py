@@ -25,6 +25,7 @@ import subprocess
 import sys
 import os
 import json
+from collections import Counter  # noqa: E402 — used by _net_added (move-aware §788 netting)
 
 # --- ALLOWED derives from the registry SoT (§354 no-fork). The pricing-matrix
 # loader (za-blog-pricing-matrix.py --load) writes ~/.za-blog-price-anchors.json;
@@ -184,6 +185,20 @@ def gate(text: str, label="content") -> int:
 _BLIND = object()
 
 
+def _net_added(added_lines, deleted_lines):
+    """Full-line multiset difference: lines ADDED more times than they were DELETED.
+    A verbatim relocation (added line == deleted line) cancels to nothing; a genuinely
+    new line survives. Order of the surviving added lines is preserved. Pure + unit-testable."""
+    remaining = Counter(added_lines) - Counter(deleted_lines)  # counts where added > deleted
+    out = []
+    budget = dict(remaining)
+    for ln in added_lines:
+        if budget.get(ln, 0) > 0:
+            out.append(ln)
+            budget[ln] -= 1
+    return "\n".join(out)
+
+
 def staged_added_blog_text():
     """Return ONLY the lines a staged commit ADDS under src/app/blog/**, or _BLIND if the
     staged state could not be read. Diff-scoped: legacy corpus + unrelated edits are never
@@ -214,12 +229,22 @@ def staged_added_blog_text():
             f"({e.__class__.__name__}: {e}). Failing CLOSED: blind is never a pass."
         )
         return _BLIND
-    added = []
+    added, deleted = [], []
     for ln in out.splitlines():
         # added content lines start with '+' but not the '+++ ' file header
         if ln.startswith("+") and not ln.startswith("+++"):
             added.append(ln[1:])
-    return "\n".join(added)
+        elif ln.startswith("-") and not ln.startswith("---"):
+            deleted.append(ln[1:])
+    # MOVE-AWARE (§788 net-effect, 26/09/2026): a line ADDED that is also DELETED in the
+    # same staged diff is a RELOCATION, not new content — a verbatim move (e.g. extracting
+    # the blog posts object to posts.data.ts) must not re-flag prices that already live in
+    # the deleted source. Full-LINE multiset netting (not bare-token) so a genuinely-new
+    # "R9,999" line is never masked by a deleted line that merely shares a figure. A price
+    # that survives the netting is genuinely new and STILL blocks — the §489 safety property
+    # is preserved. If a truly verbatim move leaves ANY offender, the move is not byte-exact
+    # (stop-and-investigate), which is exactly what we want the gate to say.
+    return _net_added(added, deleted)
 
 
 def gate_cached() -> int:
@@ -282,6 +307,31 @@ def _test() -> int:
     if "R599" not in ALLOWED or "R2,000" not in ALLOWED:
         print("  TEST FAIL (Gap1): registry-derived ALLOWED missing standing/range values")
         rc = 1
+    # --- MOVE-AWARE controls (§788, 26/09/2026) ------------------------------------------
+    # The safety property that must survive: a genuinely-new unconfirmed price STILL blocks.
+    new_price = "Apple charges R8,500 for this board."
+    move_line = "Our logic board repair from R3,500."  # allowlisted; represents any moved line
+    # (1) verbatim move: the same line added AND deleted -> nets to empty -> no offenders
+    if offenders(_net_added([new_price, move_line], [new_price, move_line])):
+        print("  TEST FAIL (move): verbatim move re-flagged pre-existing content")
+        rc = 1
+    else:
+        print("  PASS move: verbatim relocation nets to empty (no false block)")
+    # (2) genuinely-new price (added, NO matching deletion) -> survives -> STILL blocks
+    if not offenders(_net_added([new_price, move_line], [move_line])):
+        print("  TEST FAIL (move-safety): a NEW unconfirmed price was masked by netting")
+        rc = 1
+    else:
+        print("  PASS move-safety: genuinely-new unconfirmed price still blocks")
+    # (3) partial: price added twice, deleted once -> one survives -> blocks
+    if not offenders(_net_added([new_price, new_price], [new_price])):
+        print("  TEST FAIL (move-partial): net surplus new price not caught")
+        rc = 1
+    # (4) token-masking guard: a NEW figure must not be cancelled by a DIFFERENT deleted line
+    if not offenders(_net_added(["Apple quote R9,999 today."], ["Apple quote R8,888 today."])):
+        print("  TEST FAIL (move-token): full-line netting leaked a new figure via a shared token")
+        rc = 1
+
     # --- D12 ABSENCE CONTROL (19/07/2026) -------------------------------------------------
     # If the staged state cannot be read, --cached must FAIL CLOSED and never print PASS.
     # Simulated exactly as a real hook failure would look: git unavailable (broken PATH /
