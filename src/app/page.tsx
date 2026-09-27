@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import SchemaOrg from '@/components/seo/SchemaOrg';
 import { buildFaqSchema } from '@/lib/schema';
+import FAQAccordion from '@/components/ui/FAQ';
 import { CONTACT, SITE, buildWhatsAppUrl } from '@/lib/constants';
 import { GoogleReviews } from '@/components/GoogleReviews';
 import PricingNote from '@/components/PricingNote';
@@ -91,7 +92,7 @@ const differentiators = [
   },
   {
     icon: Star,
-    title: '4.9★ on Google, 120+ Reviews',
+    title: `${SITE.rating}★ on Google, ${SITE.reviewCount}+ Reviews`,
     description: 'Our reputation is built on honest diagnostics, transparent pricing, and delivering exactly what we promise. No hidden costs.',
   },
   {
@@ -423,6 +424,13 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      {/* FAQ Section - visible accordion matching the emitted FAQ schema (parity, section 165) */}
+      <section className="py-24 bg-[#0B1614]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FAQAccordion items={homepageFaqs} title="Frequently Asked Questions" />
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-24 bg-[#111C1A]">
