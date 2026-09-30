@@ -4659,7 +4659,7 @@ I've replaced hundreds of MacBook screens across Johannesburg, from shattered Re
 
 ## Understanding MacBook Screen Replacement Pricing in Johannesburg
 
-MacBook screen replacement starts from **R5,500**, depending on your model year and display type, with the exact figure confirmed after we assess your machine. What most people don't realise is that the final price reflects three distinct components: the panel itself, the surrounding bezel assembly, and labour.
+MacBook screen replacement starts from **R5,500**, depending on your model year and display type, with the exact figure confirmed after we assess your machine. What most people don't realise is that the final price reflects three distinct components: the panel itself, the surrounding bezel assembly, and labour. For a full 2026 breakdown of screen repair pricing across models, see our [MacBook screen repair cost guide for 2026](https://zasupport.com/blog/macbook-screen-repair-cost-2026).
 
 When you bring your MacBook to our Hyde Park workshop, we start with a comprehensive **R599 assessment**. This isn't a sales tactic, it's genuine diagnostics. I inspect the LCD panel, check for liquid damage beneath the display, examine the logic board's display connectors, and test backlight functionality. Many clients discover their issue isn't the screen at all; it's a faulty GPU affecting display output.
 
@@ -61868,7 +61868,7 @@ Our Hyde Park workshop handles everything from cracked glass on M3 MacBook Airs 
 
 ## Understanding MacBook Display Costs in Johannesburg
 
-MacBook screen repairs aren't one-size-fits-all. The cost sits on a spectrum determined by the model year, screen generation, whether you need just the glass replaced or the full panel, and whether there's underlying logic board damage from impact or liquid exposure.
+MacBook screen repairs aren't one-size-fits-all. The cost sits on a spectrum determined by the model year, screen generation, whether you need just the glass replaced or the full panel, and whether there's underlying logic board damage from impact or liquid exposure. Our [2026 MacBook screen repair cost guide](https://zasupport.com/blog/macbook-screen-repair-cost-2026) sets out the current figures for each model and screen generation.
 
 A 13-inch MacBook Air from 2021 onwards costs between R2,100 and R2,800 to repair if it's purely the Retina display panel. The older 2015-2017 models run R1,600-R2,200. A 14-inch or 16-inch MacBook Pro with its larger, higher-resolution Liquid Retina display sits between R3,200 and R4,500. These prices include labour, the replacement panel, and our standard one-year warranty on parts and workmanship.
 
