@@ -125,7 +125,6 @@ export const LOCAL_BUSINESS_SCHEMA = {
     'https://www.linkedin.com/company/zasupport/',
     'https://www.linkedin.com/in/bentleycourtney/',
   ],
-  legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
   founder: {
     '@type': 'Person',
     name: 'Courtney Bentley',

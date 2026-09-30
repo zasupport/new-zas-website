@@ -27,7 +27,6 @@ const localBusinessSchema = {
   '@id': 'https://zasupport.com/#organization',
   name: 'ZA Support',
   alternateName: 'Apple Experts',
-  legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
   description: 'Johannesburg Apple repair specialists and certified Mac technicians since 2009. Logic board component-level repair, JAMF MDM, and managed IT for medical practices and businesses across Gauteng.',
   url: 'https://zasupport.com',
   logo: 'https://zasupport.com/logo.png',
@@ -152,7 +151,6 @@ const organizationSchema = {
   '@type': 'Organization',
   '@id': 'https://zasupport.com/#organization',
   name: 'ZA Support',
-  legalName: 'Vizibiliti Intelligent Solutions (Pty) Ltd',
   url: 'https://zasupport.com',
   logo: 'https://zasupport.com/logo.png',
   foundingDate: '2009',
@@ -362,7 +360,7 @@ export default function AboutPage() {
               <div className="space-y-3">
                 {[
                   { label: 'Trading Name', value: 'ZA Support' },
-                  { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
+                  { label: 'Business information', value: 'Further business or legal information is available for review upon request.' },
                   { label: 'Founded', value: '2009' },
                   { label: 'Address', value: '1 Hyde Lane, Hyde Park, Second Floor, Office E2004, Johannesburg 2196' },
                   { label: 'Service Area', value: 'Greater Johannesburg / Gauteng' },

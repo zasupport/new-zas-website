@@ -187,7 +187,7 @@ export default function Footer() {
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
               <span>© {currentYear} ZA Support. All rights reserved.</span>
               <span>|</span>
-              <span>Vizibiliti Intelligent Solutions (Pty) Ltd</span>
+              <span>Further business or legal information is available for review upon request.</span>
               <span>|</span>
               <span>VAT Registered</span>
             </div>
