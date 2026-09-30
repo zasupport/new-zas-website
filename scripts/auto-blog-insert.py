@@ -373,6 +373,7 @@ def insert_into_blog_page(slug: str, post_entry: str, faq_entry: str) -> bool:
         faq_marker = "// END_FAQ_SCHEMAS"
         if faq_marker not in content:
             # Fallback: find faqSchemas closing }; before export default
+
             # Find the faqSchemas block end — look for last entry in it
             faq_close = "\n  };\n\n  if (faqSchemas"
             if faq_close in content:

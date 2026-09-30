@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Suspense } from 'react';
@@ -537,6 +538,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Battery health, symptoms and repair options"} paragraphs={["A health percentage or service message is part of the assessment. Runtime, shutdowns, charging behaviour and physical condition also matter. Stop use and charging if swelling or damage is suspected; do not press a raised trackpad or puncture the battery."]} links={[["/battery-replacement","Battery replacement assessment"],["/macbook-repair","MacBook repair hub"],["/blog/macbook-battery-service-recommended-meaning","What Service Recommended means"]]} />
+</>
   );
 }

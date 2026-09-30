@@ -88,3 +88,7 @@ docs/seo/curated-informational-topics-*.json
 
 # Timestamped post-deploy SEO-measurement snapshots (§795 site-improve) — regenerable output
 docs/governance/seo-measurement/
+.build-sandboxes/
+.reliability/
+
+scripts/.design-template-ledger.json

@@ -142,7 +142,29 @@ function isValidOrigin(request: NextRequest): boolean {
 
 // ─── Middleware Entry ───────────────────────────────────────────────────────
 export function middleware(request: NextRequest) {
+  // Canonical host: single-hop 301 www -> non-www. In-repo layer (CDN/DNS is the
+  // authoritative host-canonicalisation layer but is gated this pass). Anti-loop:
+  // ONLY redirects when Host starts with 'www.'; the non-www branch never redirects.
+  const host = request.headers.get('host') ?? '';
+  if (host.startsWith('www.')) {
+    const url = request.nextUrl.clone();
+    url.host = 'zasupport.com';
+    url.protocol = 'https:';
+    url.port = '';
+    return NextResponse.redirect(url, 301);
+  }
+
   const { pathname } = request.nextUrl;
+
+  // AirPods retired (not serviced). 410 Gone, no genuine Apple-repair replacement to 301 to.
+  const AIRPODS_GONE = new Set([
+    '/airpods-repair',
+    '/blog/airpods-repair-johannesburg',
+    '/blog/airpods-pro-2-one-side-quiet-johannesburg',
+  ]);
+  if (AIRPODS_GONE.has(pathname)) {
+    return new NextResponse('Gone', { status: 410 });
+  }
   const ip = getClientIp(request);
   const ua = request.headers.get('user-agent');
 

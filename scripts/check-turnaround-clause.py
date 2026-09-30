@@ -111,6 +111,7 @@ def scan() -> list:
 
 def run_tests() -> int:
     """Negative controls — the gate MUST flag these."""
+
     cases = [
         (
             "device page, turnaround, NO clause -> FAIL",

@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { GoogleReviews } from '@/components/GoogleReviews';
@@ -588,6 +589,7 @@ export default function AppleRepairPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Apple computer repair, recovery and preparation"} paragraphs={["Choose the symptom and device first. Recovery needs should be discussed before erasure or hardware replacement."]} links={[["/macbook-repair","MacBook repair"],["/mac-data-recovery","Mac, iMac and Mac mini data recovery"],["/apple-trade-in-johannesburg","Repair or prepare for resale"],["/suspected-hacked-apple-device","Security assessment"]]} />
+</>
   );
 }

@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, Shield, Clock, BadgeCheck, Star, Battery, Monitor, Keyboard, Cpu, Droplets, Wrench } from 'lucide-react';
@@ -398,6 +399,7 @@ export default function MacBookRepairPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Find the repair path for the symptom"} paragraphs={["A charging, display or startup symptom does not identify the failed component on its own. The assessment separates power, battery, display, software and board faults before repair is quoted.","If the files are the priority, say so before a reset or replacement board is considered. For liquid damage, stop charging and repeated power-on attempts. Model, storage architecture and previous repairs affect the available options."]} links={[["/macbook-not-turning-on","MacBook will not turn on"],["/guides/macbook-not-charging","MacBook not charging"],["/guides/macbook-overheating-fix","Overheating and fan noise"],["/guides/macbook-screen-flickering","Flickering screen or lines"],["/macbook-repair/trackpad","Trackpad repair"],["/macbook-repair/screen","Screen repair"],["/battery-replacement","Battery replacement"],["/logic-board-repair","Component-level board repair"],["/liquid-damage","Liquid-damage repair"],["/mac-data-recovery","Mac data recovery"]]} />
+</>
   );
 }

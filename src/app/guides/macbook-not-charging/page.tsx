@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, CheckCircle, MapPin, ArrowRight } from 'lucide-react';
@@ -289,6 +290,7 @@ export default function MacBookNotChargingGuidePage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Assessment for persistent charging faults"} paragraphs={["If the approved basic checks do not resolve charging, the next step is diagnosis rather than assuming that the port needs replacing. Disclose liquid exposure and stop charging if battery swelling or heat damage is present."]} links={[["/macbook-repair/charging-port","Charging-system assessment"],["/battery-replacement","Battery service"],["/logic-board-repair","Power-circuit diagnosis"]]} />
+</>
   );
 }

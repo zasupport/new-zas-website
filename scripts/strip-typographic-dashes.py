@@ -88,6 +88,7 @@ def run(apply: bool):
 
 
 def _test():
+
     checks = []
     # exclusion: a .pre-* file must NOT be selected
     fx = SRC / "__dash_fixture__.tsx"

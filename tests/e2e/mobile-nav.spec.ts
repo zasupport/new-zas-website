@@ -1,7 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
 import { expect, test } from "@playwright/test";
-// @ts-expect-error - plain .mjs sibling, no types needed
 import {
 	assessMobileNav,
 	EXPECTED_APPLE_SUPPORT_CHILDREN,

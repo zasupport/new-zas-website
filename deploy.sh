@@ -67,12 +67,21 @@ python3 scripts/scan-rendered-leaks.py || { echo "ERROR: rendered-leak gate FAIL
 echo "→ Scanning live src for banned em/en-dashes (§547)..."
 python3 scripts/strip-typographic-dashes.py --scan || { echo "ERROR: §547 dash gate FAILED — aborting deploy. Fix: python3 scripts/strip-typographic-dashes.py --apply"; exit 1; }
 
+echo "→ AirPods retirement residue gate..."
+bash scripts/check-airpods-residue.sh || { echo "ERROR: AirPods residue gate FAILED - remove non-allowlisted AirPods service refs."; exit 1; }
 # 3.7 §287-T TURNAROUND / LEAD-TIME CLAUSE gate — fail-closed.
 # Every device-repair page showing a price or turnaround MUST render the
 # machine-dependent processing/lead-time clause (PricingNote, repair default true).
 # Managed-services / business / contract pages must opt out (repair={false}).
 echo "→ Verifying machine-dependent lead-time clause on price/turnaround pages (§287-T)..."
 python3 scripts/check-turnaround-clause.py || { echo "ERROR: §287-T lead-time clause gate FAILED — aborting deploy. Add <PricingNote /> to the flagged page(s) or <PricingNote repair={false} /> on contract pages."; exit 1; }
+
+# 3.8 DESIGN-TEMPLATE CONFORMANCE gate - fail-closed (26/09/2026).
+# Every route must match the reference templates (/ and /macbook-not-turning-on):
+# no plain underlined link lists, bordered card surfaces, icons, no light/slate palette.
+# Incremental: unchanged routes reuse the ledger verdict (scripts/.design-template-ledger.json).
+echo "-> Verifying design-template conformance (audit-design-template.py)..."
+python3 scripts/audit-design-template.py --gate || { echo "ERROR: design-template gate FAILED - restyle the flagged shared component; for T6 run: python3 scripts/audit-design-template.py --fix <file>"; exit 1; }
 
 # 3.75 ROBOTS RENDER-RESOURCE gate — fail-closed (GSC WNC-20237597, 04/07/2026).
 # robots.ts must keep /_next/static/ + /_next/image/ crawlable — blocking them

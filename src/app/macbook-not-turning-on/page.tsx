@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
@@ -672,7 +673,8 @@ export default function MacBookNotTurningOnPage() {
         </div>
       </section>
 
-      </main>
+      <RepairGrowthSection title={"Preserve recovery options on a no-power Mac"} paragraphs={["If important files have no verified backup, discuss recovery before board replacement, erasure or firmware restoration. No-power diagnosis separates charging, battery, display and board faults."]} links={[["/mac-data-recovery","Data recovery from a Mac that will not start"],["/logic-board-repair","No-power board diagnosis"],["/macbook-repair","MacBook repair hub"]]} />
+</main>
     </>
   );
 }

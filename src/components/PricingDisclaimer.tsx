@@ -16,7 +16,6 @@ const PRICING_ROUTES = [
   '/macbook-pro-repair',
   '/macbook-air-repair',
   '/apple-watch-repair',
-  '/airpods-repair',
   '/accessories-repair',
   '/macbook-not-turning-on',
   '/services',

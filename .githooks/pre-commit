@@ -1,0 +1,42 @@
+#!/bin/bash
+# Committed pre-commit hook (distributed via core.hooksPath=.githooks — set by the
+# package.json "prepare" script on `npm install`). This is the PERMANENT fix for the
+# recurring Quality / tier2 (python) red: `ruff format --check .` failed on PR after PR
+# because unformatted Python kept landing and NOTHING auto-formatted it at commit time.
+#
+# SELF-HEAL: staged Python is auto-formatted with ruff (and re-staged) BEFORE the format
+# gate runs, so a commit can never contain unformatted Python. The CI `--check` stays as a
+# truthful red backstop. Portable + fail-closed + bash 3.2-safe (no mapfile).
+set -uo pipefail
+REPO="$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
+cd "$REPO" || exit 1
+fail(){ echo "pre-commit: $1"; exit 1; }
+
+# --- SELF-HEAL: auto-format staged Python, then re-stage what changed ---
+if command -v ruff >/dev/null 2>&1; then
+  STAGED_PY="$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.py$' || true)"
+  if [ -n "$STAGED_PY" ]; then
+    printf '%s\n' "$STAGED_PY" | while IFS= read -r f; do
+      [ -f "$f" ] && ruff format -- "$f" >/dev/null 2>&1 || true
+    done
+    printf '%s\n' "$STAGED_PY" | while IFS= read -r f; do
+      [ -f "$f" ] && git add -- "$f"
+    done
+  fi
+fi
+
+# --- committed gate chain (each guarded; portable across clones/worktrees) ---
+[ -f scripts/strip-typographic-dashes.py ]     && { python3 scripts/strip-typographic-dashes.py --scan     || fail "§547 dash gate — run: python3 scripts/strip-typographic-dashes.py --apply"; }
+[ -f scripts/check-turnaround-clause.py ]      && { python3 scripts/check-turnaround-clause.py             || fail "§287-T lead-time clause gate"; }
+[ -f scripts/check-robots-next-static.py ]     && { python3 scripts/check-robots-next-static.py            || fail "robots render-resource gate"; }
+[ -f scripts/check-blog-sitemap-reconcile.py ] && { python3 scripts/check-blog-sitemap-reconcile.py        || fail "§671 sitemap reconcile gate"; }
+[ -f scripts/check-blog-price-allowlist.py ]   && { python3 scripts/check-blog-price-allowlist.py --cached || fail "§489 price-allowlist gate"; }
+[ -x scripts/check-secrets.sh ]                && { scripts/check-secrets.sh --pre-commit                  || fail "secret gate"; }
+[ -x scripts/ci-quality-guard.sh ]             && { scripts/ci-quality-guard.sh --check                    || fail "§917 CI-quality guard"; }
+[ -x scripts/check-lock-sync.sh ]              && { scripts/check-lock-sync.sh --pre-commit                || fail "lock-sync gate"; }
+
+# --- optional machine-local enrichers (~/bin): enforce when present, skip on fresh clones ---
+if [ -x "$HOME/bin/za-blog-ip-zero-tolerance.sh" ]; then "$HOME/bin/za-blog-ip-zero-tolerance.sh" --pre-commit || fail "§300 blog IP gate"; fi
+[ -x "$HOME/bin/za-wa-ref-enforcer.sh" ] && "$HOME/bin/za-wa-ref-enforcer.sh" "$REPO" || true
+
+exit 0

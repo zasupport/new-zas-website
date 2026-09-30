@@ -366,7 +366,6 @@ export default function AccessoriesRepairPage() {
               { label: 'MacBook Repair', href: '/macbook-repair' },
               { label: 'MacBook Keyboard Repair', href: '/macbook-repair/keyboard' },
               { label: 'MacBook Trackpad Repair', href: '/macbook-repair/trackpad' },
-              { label: 'AirPods Repair', href: '/airpods-repair' },
               { label: 'Apple Watch Repair', href: '/apple-watch-repair' },
               { label: 'Apple Repair Johannesburg', href: '/apple-repair' },
             ].map((link) => (

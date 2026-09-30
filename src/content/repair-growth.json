@@ -1,0 +1,796 @@
+{
+  "mac-data-recovery": {
+    "title": "Mac Data Recovery Johannesburg",
+    "description": "MacBook, iMac and Mac mini data recovery assessment in Johannesburg. Dead Macs, liquid damage, FileVault and Apple silicon recovery options and limits.",
+    "intro": "A Mac that will not start does not automatically mean the files are lost. ZA Support assesses the device, the storage and the available backups before choosing a recovery method. Tell us whether the files or restoring the machine is the first priority.",
+    "sections": [
+      [
+        "Stop before erasing or replacing the board",
+        "Do not erase, restore firmware, reinstall over the affected volume or approve a replacement logic board before discussing the files that need to be recovered. If liquid is involved, disconnect external power and stop charging or testing the machine. Do not run recovery software against the only copy of important data.",
+        "Where the device may also contain evidence, agree on preservation before repairs or malware removal. A recovery job and an investigation have different priorities."
+      ],
+      [
+        "MacBook, iMac and Mac mini recovery",
+        "The assessment records the exact model, storage configuration, failure history, previous repair attempts and encryption status. Removable storage, integrated storage and external backup drives need different handling. A MacBook-specific assessment is available through our existing MacBook data recovery service.",
+        "For an iMac or Mac mini, confirm the model and whether the files are on internal storage, an external drive or a backup. The same fault description can require a different recovery method on a different generation."
+      ],
+      [
+        "Apple silicon, T2 and FileVault",
+        "Internal storage on Apple silicon and T2 Macs is encrypted using hardware-bound keys. Removing flash chips alone does not produce readable files. Recovery may depend on restoring enough of the original hardware to access storage through its security architecture.",
+        "A valid Mac login password or an applicable FileVault recovery key may be needed. An Apple Account password is not a universal substitute. Destroyed encryption keys, damaged security hardware or an erased volume can make recovery impossible. There is no promise to defeat encryption."
+      ],
+      [
+        "Dead MacBook and liquid-damage assessment",
+        "A no-power fault can involve charging, power circuitry, corrosion or other hardware. Component-level work may restore access to the original storage without replacing the entire board. The quote separates recovery objectives from returning the machine to normal use.",
+        "A successful power repair does not prove that every file is intact. Agreed sample files and priority folders are checked after extraction, and read errors or incomplete results are documented."
+      ],
+      [
+        "Deleted files, external drives and backups",
+        "Check Time Machine, authorised cloud copies and other backups first. Continued use may overwrite deleted data. Solid-state storage behaviour, encryption and prior erasure can prevent deleted-file recovery even when the device still works.",
+        "Imaging and write-protection are selected where technically applicable. A hardware write-blocker is not a universal acquisition method for integrated Apple storage. Where a full image cannot be made, the report records the acquisition method and its limitations."
+      ],
+      [
+        "What the assessment and report cover",
+        "Bring the device, relevant power supply and any available backup media. Explain the last known working state, any spill or impact, previous attempts, and the files that matter most. Keep passwords and recovery keys out of general enquiry messages; agree a secure access method during intake.",
+        "The result covers feasibility, proposed work, costs for approval, storage requirements and the available verification checks. Turnaround and outcome depend on the device and fault. No recovery percentage, fixed price or completion time is promised before assessment."
+      ]
+    ],
+    "links": [
+      [
+        "/macbook-repair/data-recovery",
+        "MacBook data recovery"
+      ],
+      [
+        "/guides/how-to-recover-data-from-dead-macbook",
+        "Dead MacBook recovery guide"
+      ],
+      [
+        "/logic-board-repair",
+        "Component-level logic-board repair"
+      ],
+      [
+        "/liquid-damage",
+        "Liquid-damage assessment"
+      ],
+      [
+        "/digital-evidence-preservation",
+        "Preserving digital evidence"
+      ],
+      [
+        "/apple-support",
+        "Apple support"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple Platform Security: volume encryption",
+        "https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web"
+      ]
+    ],
+    "service": true
+  },
+  "apple-trade-in-johannesburg": {
+    "title": "Apple Trade-in and Resale Readiness in Johannesburg",
+    "description": "Prepare a MacBook or iPhone for trade-in or resale. Backup, condition checks, Find My, Activation Lock, secure erasure and business-device readiness.",
+    "intro": "Before selling or trading in an Apple device, protect the data and check what the next owner will receive. ZA Support assists with assessment, migration and preparation in Johannesburg. This readiness service is not an Apple-operated trade-in programme or a guaranteed purchase offer.",
+    "sections": [
+      [
+        "Decide what happens to the device",
+        "Confirm the buyer or trade-in provider, their acceptance conditions, required accessories and how any offer will be confirmed. A working device, a damaged device and a managed business device may follow different processes. Do not assume that a checklist guarantees eligibility or a particular value."
+      ],
+      [
+        "Check condition before agreeing a value",
+        "Record the exact model, storage, battery condition, display faults, charging behaviour and any liquid or impact history. Disclose known faults. Compare a verified repair quote with an actual as-is offer before deciding whether to repair first.",
+        "ZA Support can assess repair options. Trade-in values and acceptance decisions remain subject to the receiving party's inspection and terms."
+      ],
+      [
+        "Move the files before erasure",
+        "Create a backup or transfer the required data, then check that important files, photos and accounts are accessible on the replacement device. Do not erase the only copy. If the device will not start, discuss recovery before any trade-in or board replacement."
+      ],
+      [
+        "Resolve ownership and account access",
+        "The owner needs control of Find My and Activation Lock. Use the owner's Apple Account and Apple's official removal process. Business devices also need an authorised organisation to address device management and enrolment before transfer.",
+        "Do not send passwords or identity documents through a general enquiry form. If ownership or authority is disputed, pause preparation and obtain appropriate instructions."
+      ],
+      [
+        "Erase using the correct device procedure",
+        "The Mac procedure depends on its hardware and macOS version. On supported Macs, Erase All Content and Settings is the intended reset workflow. Other models use Apple's model-appropriate sign-out, Recovery and reinstall instructions.",
+        "For iPhone, first transfer service and data, consider any paired Apple Watch, and follow the current erase workflow. Do not manually delete synced iCloud photos or contacts as a substitute for preparing the device."
+      ],
+      [
+        "Business and fleet handover",
+        "Agree which organisation owns each device, who may authorise erasure, which records must be retained and who confirms management release. Record the serial number, condition, completion checks and recipient in the handover record. Retention obligations and investigations take priority over routine erasure."
+      ]
+    ],
+    "links": [
+      [
+        "/macbook-trade-in-checklist",
+        "MacBook preparation checklist"
+      ],
+      [
+        "/iphone-trade-in-checklist",
+        "iPhone preparation checklist"
+      ],
+      [
+        "/activation-lock-help",
+        "Activation Lock owner assistance"
+      ],
+      [
+        "/blog/apple-repair-vs-replacement-guide-johannesburg",
+        "Repair or replace guide"
+      ],
+      [
+        "/mac-data-recovery",
+        "Recover files before transfer"
+      ],
+      [
+        "/apple-support",
+        "Setup and migration assistance"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple: prepare a Mac for a new owner",
+        "https://support.apple.com/en-za/102773"
+      ],
+      [
+        "Apple: prepare an iPhone or iPad",
+        "https://support.apple.com/en-za/109511"
+      ]
+    ],
+    "service": true
+  },
+  "macbook-trade-in-checklist": {
+    "title": "MacBook Trade-in and Resale Checklist",
+    "description": "What to do before selling a MacBook: check backups, ownership, FileVault, Find My, management release and the correct macOS erase procedure.",
+    "intro": "Prepare the files, accounts and hardware before handing over a MacBook. Keep the device until the data transfer and ownership checks have been completed. This checklist also applies to other Macs where the stated hardware and macOS requirements are met.",
+    "sections": [
+      [
+        "Record the Mac and its condition",
+        "Confirm the model, storage, serial number, charger and known faults. Obtain the receiving party's terms and inspection requirements. A trade-in estimate is not a final offer."
+      ],
+      [
+        "Verify the backup or migration",
+        "Check that essential files open on the backup or replacement Mac. Include local-only folders and application data that may not be in iCloud. If the original Mac cannot start, pause erasure and request a data recovery assessment."
+      ],
+      [
+        "Check accounts and business management",
+        "Confirm access to the owner's Apple Account and Find My controls. A company device may need an authorised administrator to release management and enrolment. Possession of a Mac or knowledge of its login password does not prove authority to transfer it."
+      ],
+      [
+        "Choose the correct erase route",
+        "Apple's Erase All Content and Settings workflow requires macOS Monterey 12 or later and Apple silicon or the T2 Security Chip. Use Apple's current instructions for the installed version.",
+        "If that option is unavailable, follow Apple's sign-out, Recovery, disk-erasure and macOS reinstallation procedure. Do not substitute a quick deletion of files. For an Intel Mac, follow the applicable NVRAM reset instructions in Apple's guide."
+      ],
+      [
+        "Leave the Mac ready for its new owner",
+        "After the approved reset, leave the device at Setup Assistant instead of creating an account for the buyer. Check with the receiving party how they want to verify setup and account-lock status. Keep a dated handover record and confirmation of any agreed management release."
+      ],
+      [
+        "When not to erase",
+        "Do not erase while recovery, an ownership dispute, a legal hold or an investigation is unresolved. Erasure can remove information that cannot be recovered. Have the scope settled before preparation proceeds."
+      ]
+    ],
+    "links": [
+      [
+        "/apple-trade-in-johannesburg",
+        "Trade-in and resale readiness"
+      ],
+      [
+        "/activation-lock-help",
+        "Owner-controlled Activation Lock help"
+      ],
+      [
+        "/mac-data-recovery",
+        "Data recovery before erasure"
+      ],
+      [
+        "/apple-support",
+        "Mac setup and migration"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple's Mac resale preparation instructions",
+        "https://support.apple.com/en-za/102773"
+      ]
+    ],
+    "service": false
+  },
+  "iphone-trade-in-checklist": {
+    "title": "iPhone Trade-in and Resale Checklist",
+    "description": "Prepare an iPhone for resale: transfer data, check backups, unpair Apple Watch, manage Find My and follow Apple's erase and service-transfer steps.",
+    "intro": "A handover should protect the owner's data and leave the recipient able to activate the iPhone. Complete the transfer checks before erasure, and follow the receiving trade-in provider's instructions on when to reset the phone.",
+    "sections": [
+      [
+        "Transfer and verify personal data",
+        "Use Apple's supported transfer or backup process. Check photos, contacts, messages and essential apps on the replacement device before removing the originals. Do not manually delete iCloud-synced contacts, photos or documents while signed in; that can delete them from other devices too."
+      ],
+      [
+        "Check account access before the appointment",
+        "Make sure the owner can use the Apple Account and trusted phone number. Stolen Device Protection can impose a security delay on some sensitive changes. Do not plan to resolve every account-access problem at the moment of handover."
+      ],
+      [
+        "Unpair accessories and transfer mobile service",
+        "If an Apple Watch is paired with the iPhone, follow Apple's unpairing instructions. Arrange SIM or eSIM service transfer with the network provider. If moving to a non-Apple phone, follow Apple's iMessage deregistration advice."
+      ],
+      [
+        "Follow Apple's erase procedure",
+        "After the transfer and required sign-out steps, use Settings, General, Transfer or Reset iPhone, then Erase All Content and Settings. Follow the account-password and eSIM prompts for the intended handover.",
+        "The exact steps can vary by iOS version and trade-in process. Where the provider requires an in-person assessment before erasure, follow that sequence. Confirm Find My and Activation Lock readiness through the authorised owner process."
+      ],
+      [
+        "Confirm condition and handover",
+        "Record model, storage, battery condition, damage, accessories and any remaining management restrictions. Confirm that the recipient can proceed with activation without the previous owner's account. Keep the transaction record; do not disclose passwords to the buyer."
+      ],
+      [
+        "Missing access or damaged device",
+        "If the owner cannot access the account, use Apple's recovery process. If the phone cannot start and data is needed, request assessment before erasure. There is no universal password or Activation Lock bypass."
+      ]
+    ],
+    "links": [
+      [
+        "/apple-trade-in-johannesburg",
+        "Trade-in readiness assistance"
+      ],
+      [
+        "/activation-lock-help",
+        "Activation Lock help"
+      ],
+      [
+        "/apple-account-security-help",
+        "Apple Account security assistance"
+      ],
+      [
+        "/apple-support",
+        "Transfer and setup support"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple's iPhone and iPad preparation instructions",
+        "https://support.apple.com/en-za/109511"
+      ]
+    ],
+    "service": false
+  },
+  "activation-lock-help": {
+    "title": "Activation Lock Help for Apple Device Owners",
+    "description": "Owner-authorised Activation Lock assistance for Mac and iPhone. Find My, previous-owner removal, business management and official Apple support routes.",
+    "intro": "Activation Lock is an ownership protection, not a fault that a repair automatically removes. ZA Support assists legitimate owners with checking the device state and following Apple's supported account and ownership processes.",
+    "sections": [
+      [
+        "Find out which restriction is present",
+        "An Apple Account lock, a Mac login password, FileVault, a device passcode and business device management are different controls. Record the exact screen message without sharing passwords. The appropriate route depends on which restriction is active."
+      ],
+      [
+        "Use the owner's Apple Account",
+        "Follow the current Apple instructions to remove the device from Find My where authorised. An erase alone is not a reason to assume the device has been released for a new owner. Confirm readiness before buying or transferring a used device."
+      ],
+      [
+        "If the device came from another owner",
+        "Ask the previous owner to complete the supported removal process. Do not purchase an assurance that someone can bypass the lock. If an organisation manages the device, its authorised administrator must handle the applicable release."
+      ],
+      [
+        "If account access has been lost",
+        "Use Apple's official password reset or account recovery route. Recovery may require a waiting period. Where Apple offers an ownership-support process, its requirements and decision apply. A repair shop cannot guarantee that Apple will approve a request."
+      ],
+      [
+        "What ZA Support can do",
+        "Assess the restriction, explain the official options and help prepare a legitimate ownership or account-support request. We do not bypass Activation Lock, defeat encryption or promise access to another person's account."
+      ]
+    ],
+    "links": [
+      [
+        "/apple-account-security-help",
+        "Compromised Apple Account help"
+      ],
+      [
+        "/apple-trade-in-johannesburg",
+        "Trade-in readiness"
+      ],
+      [
+        "/apple-support",
+        "Apple technical support"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple: account recovery and security",
+        "https://support.apple.com/en-za/102560"
+      ],
+      [
+        "Apple: prepare a device for transfer",
+        "https://support.apple.com/en-za/109511"
+      ]
+    ],
+    "service": true
+  },
+  "mac-hacked-what-to-do": {
+    "title": "Think Your Mac Has Been Hacked? What to Do",
+    "description": "Practical first steps for suspicious Mac activity, phishing, unexpected remote access and account alerts. Preserve evidence and arrange an assessment.",
+    "intro": "Unexpected pop-ups, a moving cursor or an unfamiliar sign-in deserve checking, but none alone proves that a Mac has been compromised. Separate immediate safety, account security and evidence preservation before trying to remove software.",
+    "sections": [
+      [
+        "If access appears to be happening now",
+        "Stop interacting with the caller or pop-up. Disconnect network access where safe and seek help from a separate trusted device. If payments or banking access are involved, contact the bank through a verified channel.",
+        "Where personal safety, coercion or stalking is a concern, use a safer device and obtain specialist support before changing settings that could alert another person. Avoid confronting a suspected actor based on technical symptoms alone."
+      ],
+      [
+        "Preserve the details",
+        "Record what happened, the time and time zone, visible warnings and any remote-support session details. Keep original emails and messages. Do not install a collection of scanners, delete logs or erase the Mac if an investigation may be needed."
+      ],
+      [
+        "Check accounts from a trusted device",
+        "Use Apple's official site directly to change the Apple Account password and review trusted devices and security details. Review the associated email account and phone number as well. Use the official recovery process if access has been lost."
+      ],
+      [
+        "What a technical assessment checks",
+        "ZA Support examines the agreed device and account scope, relevant remote-access settings, installed software, persistence locations and available records. A legitimate remote-support app can still have been misused. Findings distinguish observed facts, interpretations and unanswered questions."
+      ],
+      [
+        "Choose remediation or evidence preservation",
+        "Removing unwanted software may be the right repair action, but it can change evidence. Agree the priority before work begins. For a formal investigation, ZA Support handles the technical work and reporting, with qualified partners and legal practitioners engaged for their respective roles."
+      ]
+    ],
+    "links": [
+      [
+        "/suspected-hacked-apple-device",
+        "Book a suspected-compromise assessment"
+      ],
+      [
+        "/mac-remote-access-scam-help",
+        "Remote-access scam assistance"
+      ],
+      [
+        "/apple-account-security-help",
+        "Apple Account security"
+      ],
+      [
+        "/digital-evidence-preservation",
+        "Evidence preservation"
+      ],
+      [
+        "/macbook-repair/virus-removal",
+        "Mac malware removal"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple: if an account has been compromised",
+        "https://support.apple.com/en-za/102560"
+      ]
+    ],
+    "service": false
+  },
+  "mac-remote-access-scam-help": {
+    "title": "Mac Remote-access Scam Help",
+    "description": "Help after a fake-support call or unwanted remote session on a Mac. Containment, account checks, evidence preservation and technical assessment.",
+    "intro": "If someone persuaded you to install remote-support software, approve screen-sharing or sign in while they watched, treat the session as a security incident. The installed app may be legitimate; the concern is who used it and what they could access.",
+    "sections": [
+      [
+        "End the interaction safely",
+        "Stop following the caller's instructions. Disconnect the Mac from the network if a session is active and it is safe to do so. Do not call a number shown in a warning. Contact ZA Support, the bank or the relevant provider through an independently verified channel."
+      ],
+      [
+        "Protect accounts and payments",
+        "From a separate trusted device, change affected passwords, review account access and use the provider's session-revocation controls where available. Tell the bank promptly if banking was opened or a payment was made. Recovery of funds is not guaranteed."
+      ],
+      [
+        "Keep the session evidence",
+        "Record the call time, number displayed, app name, session identifier if available, payment references and relevant messages. Keep the original files. Do not publicly post screenshots containing personal details or access codes."
+      ],
+      [
+        "Review the Mac beyond one application",
+        "The assessment considers the authorised scope, remote-access configuration, permissions, persistence, browser changes and relevant logs. Uninstalling one remote-support tool does not by itself prove that accounts and the device are secure."
+      ],
+      [
+        "Agree the written outcome",
+        "A remediation report can record findings, changes made and remaining account actions. An evidence-focused engagement records preservation, acquisition and limitations before remediation. Attribution and court admissibility cannot be guaranteed."
+      ]
+    ],
+    "links": [
+      [
+        "/suspected-hacked-apple-device",
+        "Apple-device compromise assessment"
+      ],
+      [
+        "/apple-device-forensic-assessment",
+        "Evidence-focused assessment"
+      ],
+      [
+        "/apple-account-security-help",
+        "Account security assistance"
+      ],
+      [
+        "/digital-evidence-preservation",
+        "Preserve incident records"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple account compromise guidance",
+        "https://support.apple.com/en-za/102560"
+      ]
+    ],
+    "service": true
+  },
+  "apple-account-security-help": {
+    "title": "Apple Account Security and Phishing Help",
+    "description": "Assistance with suspicious Apple Account sign-ins, phishing, account takeover concerns and official account recovery. No password or security bypass.",
+    "intro": "An unexpected sign-in alert, password change or trusted device should be investigated through the account's official controls. ZA Support helps with assessment and the supported recovery workflow. Apple controls account recovery decisions and waiting periods.",
+    "sections": [
+      [
+        "Recognise a concern without trusting a message",
+        "Unrequested authentication codes, unfamiliar devices, changed account details or a password that no longer works can signal a problem. Open Apple's official account site directly instead of following a message link. A geographic sign-in alert alone is not conclusive proof of an attacker."
+      ],
+      [
+        "Regain control through the official process",
+        "From a trusted device, change or reset the Apple Account password. Review personal and security information and remove devices that the owner does not recognise. Check control of the associated email address and phone number, including unexpected forwarding or account changes."
+      ],
+      [
+        "If sign-in or password reset is unavailable",
+        "Use iforgot.apple.com to start Apple's account recovery process. There may be a waiting period. Do not pay for a promise to skip Apple's identity checks or defeat two-factor authentication."
+      ],
+      [
+        "After a phishing message",
+        "If credentials were entered, change them through the legitimate provider and review account access. If files or remote-support software were opened, arrange a device assessment as well. Keep the original message and relevant timestamps where reporting or an investigation is needed."
+      ],
+      [
+        "Technical assistance and limits",
+        "ZA Support can help review device settings, account-security options, available records and the recovery steps. Account ownership, provider decisions and encryption remain controlling limits. Passwords and recovery codes should not be included in ordinary enquiry messages."
+      ]
+    ],
+    "links": [
+      [
+        "/apple-support",
+        "Apple support"
+      ],
+      [
+        "/activation-lock-help",
+        "Activation Lock assistance"
+      ],
+      [
+        "/suspected-hacked-apple-device",
+        "Device compromise assessment"
+      ],
+      [
+        "/business-mac-security-incident-response",
+        "Business incident response"
+      ]
+    ],
+    "sources": [
+      [
+        "Apple: regain control of a compromised account",
+        "https://support.apple.com/en-za/102560"
+      ]
+    ],
+    "service": true
+  },
+  "business-mac-security-incident-response": {
+    "title": "Business Mac Security Incident Response",
+    "description": "Apple-focused incident assessment for Johannesburg businesses. Authorised containment, preservation, account review, reporting and recovery planning.",
+    "intro": "A suspected compromise can involve a Mac, email account, cloud service or remote-access session. ZA Support handles the technical investigation, preservation, reporting and recovery work within an agreed mandate. Legal representation and regulated representation are handled by the appropriate qualified partners.",
+    "sections": [
+      [
+        "Set the mandate and immediate priority",
+        "Identify the authorised business contact, affected devices and accounts, observed events and critical services. Agree whether the immediate objective is containment, evidence preservation, service restoration or a combination. Record changes already made."
+      ],
+      [
+        "Contain without losing the investigation",
+        "Containment can change volatile data and disrupt business services. Record the reason, time and person responsible for each action. Collection should be limited to the approved scope, with particular care around personal accounts, employee privacy and third-party information."
+      ],
+      [
+        "Investigate devices and identities",
+        "Relevant work can include Mac persistence review, remote-access configuration, account access records, email rules, suspicious applications and a timeline of available events. Log retention, permissions, encryption and provider access can limit what can be established."
+      ],
+      [
+        "Reporting and partner roles",
+        "The report separates observations, analysis, supported conclusions and limitations. ZA Support conducts the substantive technical work. Appropriately qualified PSIRA partners can review process and provide relevant sign-off within their mandate; legal practitioners advise on legal process and representation.",
+        "Partner sign-off does not bind a court or guarantee admissibility. Where litigation, employee disputes or criminal allegations are involved, obtain case-specific legal direction before extending collection."
+      ],
+      [
+        "Restore and verify",
+        "Agree the remediation plan, account actions, recovery priorities and post-change checks. Preserve required records before removing software or rebuilding a device. Report which checks passed and what remains unresolved."
+      ],
+      [
+        "Privacy and notification decisions",
+        "A suspected incident is not automatically proof of a reportable breach. The organisation should assess legal obligations with its information officer and legal advisers using the actual facts. Do not send raw incident evidence or personal information through general marketing forms."
+      ]
+    ],
+    "links": [
+      [
+        "/business",
+        "Business IT support"
+      ],
+      [
+        "/sme-support",
+        "SME support"
+      ],
+      [
+        "/business-device-investigation-consent",
+        "Investigation authority checklist"
+      ],
+      [
+        "/digital-evidence-preservation",
+        "Evidence preservation"
+      ],
+      [
+        "/apple-device-forensic-assessment",
+        "Apple-device forensic assessment"
+      ],
+      [
+        "/mac-data-recovery",
+        "Mac data recovery"
+      ]
+    ],
+    "sources": [
+      [
+        "ECTA section 15: electronic evidence",
+        "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf"
+      ],
+      [
+        "Cybercrimes Act 19 of 2020",
+        "https://www.gov.za/sites/default/files/gcis_document/202106/44651gon324.pdf"
+      ]
+    ],
+    "service": true
+  },
+  "digital-evidence-preservation": {
+    "title": "Digital Evidence Preservation for Apple Devices",
+    "description": "Preserve Mac and iPhone incident evidence with authorised intake, custody records, appropriate isolation, integrity checks and documented limitations.",
+    "intro": "Evidence preservation starts before deleting software, resetting an account or repairing a device. ZA Support records the agreed purpose and device state, selects an appropriate collection method and documents what was done. The correct method depends on the device, authority and evidence required.",
+    "sections": [
+      [
+        "What to preserve first",
+        "Keep original messages, emails, relevant devices and available account records. Record when the event was noticed and any actions already taken. Screenshots can provide useful context, but may omit metadata and are not a substitute for originals where those are available."
+      ],
+      [
+        "Do not apply a blanket power-off rule",
+        "Powering off, unlocking, disconnecting or leaving a device online can each affect evidence. An unlocked device may hold information that is unavailable after shutdown. Active remote access creates a different risk. Obtain a case-specific handling instruction and record the decision."
+      ],
+      [
+        "Radio isolation and protected handling",
+        "Faraday bags and shielded enclosures can be used for radio isolation where appropriate. They must be selected and checked for the required signals and device configuration. Shielding is not automatically perfect; power, heat and battery depletion require planning.",
+        "Radio isolation does not decrypt a device, disable every security control or prove that collection is complete. Do not improvise a handling method and assume it preserved the original state."
+      ],
+      [
+        "Images, hashes and write protection",
+        "Where feasible, an acquisition is made with documented tools and settings, and working copies are separated from preserved material. Cryptographic hashes identify and compare the captured files or images. A matching hash supports integrity of that item; it does not prove lawful collection or the truth of its contents.",
+        "Write-blocking is used where the storage and acquisition method support it. Integrated Apple storage, encryption and live acquisition can require different methods. Those choices and their limitations belong in the record."
+      ],
+      [
+        "Custody and controlled access",
+        "Record who received, transferred, examined or returned each item, with dates, times, identifiers, purpose and storage location. Limit access to authorised people. Agree retention, sharing and return or disposal instructions before closing the matter."
+      ],
+      [
+        "Technical report and legal review",
+        "The report identifies the instructions, sources, methods, findings and unresolved questions. ZA Support handles the technical work; qualified partners and legal practitioners support their agreed roles. Admissibility and evidential weight are for the court to determine. This page provides general process information, not advice on a particular legal matter."
+      ]
+    ],
+    "links": [
+      [
+        "/apple-device-forensic-assessment",
+        "Apple forensic assessment"
+      ],
+      [
+        "/chain-of-custody-digital-evidence-south-africa",
+        "Chain-of-custody records"
+      ],
+      [
+        "/business-device-investigation-consent",
+        "Authority and consent"
+      ],
+      [
+        "/suspected-hacked-apple-device",
+        "Suspected compromise assessment"
+      ]
+    ],
+    "sources": [
+      [
+        "NIST SP 800-101 Revision 1: mobile forensics",
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-101r1.pdf"
+      ],
+      [
+        "ECTA section 15",
+        "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf"
+      ]
+    ],
+    "service": true
+  },
+  "apple-device-forensic-assessment": {
+    "title": "Apple Device Forensic Assessment and Reporting",
+    "description": "Authorised Mac and iPhone technical investigation, evidence preservation and reporting, with qualified partner process review where required.",
+    "intro": "ZA Support conducts the technical assessment, evidence handling, analysis and reporting for Apple-device matters within a documented scope. Advocates, legal practitioners and appropriately qualified PSIRA partners handle legal or regulated representation and relevant process review within their mandate.",
+    "sections": [
+      [
+        "Define the questions before collecting",
+        "Agree which devices, accounts, dates and events are in scope, who has lawful authority and what the report needs to address. A repair diagnosis, a suspected compromise and a contested-evidence matter do not require identical acquisition or reporting."
+      ],
+      [
+        "Mac security tools and interpretation",
+        "Objective-See tools can support Mac assessment: KnockKnock inventories persistent software, BlockBlock monitors persistence activity and LuLu controls outbound connections. A tool alert is an observation to investigate, not proof of malicious intent or attribution.",
+        "Tools are selected for the device and task. Installing a monitor changes the machine, so preservation and collection decisions precede new tooling in evidence-sensitive matters. Tool versions, settings and relevant limitations are recorded."
+      ],
+      [
+        "Hardware and acquisition constraints",
+        "Radio shielding, controlled power, storage imaging, appropriate write protection and component-level recovery can support particular cases. None is a universal solution. Apple silicon and T2 encryption can make access dependent on original hardware and valid credentials.",
+        "A complete physical extraction may not be available. Hardware damage, encryption, retention periods and provider access can leave gaps. The report identifies the material actually acquired rather than implying access to everything."
+      ],
+      [
+        "Analysis and report structure",
+        "Reporting records the mandate, item identifiers, handling history, acquisition method, integrity values where applicable, timeline, findings and limitations. Observed facts are separated from interpretation. Alternative explanations and missing evidence are stated where relevant."
+      ],
+      [
+        "Court-oriented process support",
+        "Qualified PSIRA partners may review the process and provide relevant sign-off under the agreed engagement. Legal practitioners advise on legal strategy, disclosure and representation. Neither technical reporting nor partner sign-off guarantees admissibility or a particular court outcome."
+      ],
+      [
+        "Confidential intake",
+        "Use the booking or contact route to arrange a private intake. Do not upload passwords, full evidence sets or third-party personal data through a public enquiry form. Secure exchange, access and retention are agreed for the matter."
+      ]
+    ],
+    "links": [
+      [
+        "/digital-evidence-preservation",
+        "Evidence preservation methods"
+      ],
+      [
+        "/chain-of-custody-digital-evidence-south-africa",
+        "Custody records"
+      ],
+      [
+        "/business-device-investigation-consent",
+        "Consent and authority"
+      ],
+      [
+        "/business-mac-security-incident-response",
+        "Business response"
+      ],
+      [
+        "/mac-data-recovery",
+        "Recovery limitations"
+      ]
+    ],
+    "sources": [
+      [
+        "Objective-See tools",
+        "https://objective-see.org/tools.html"
+      ],
+      [
+        "Apple Platform Security",
+        "https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web"
+      ],
+      [
+        "NIST mobile forensics guidance",
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-101r1.pdf"
+      ],
+      [
+        "ECTA section 15",
+        "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf"
+      ]
+    ],
+    "service": true
+  },
+  "business-device-investigation-consent": {
+    "title": "Authority and Consent for Business Device Investigations",
+    "description": "An intake checklist for Mac and iPhone investigations: ownership, lawful authority, scope, employee privacy, retention and legal direction.",
+    "intro": "Owning a device does not automatically settle every question about access to accounts, communications and personal information. ZA Support requires a documented mandate appropriate to the work. This is a general intake guide; a legal practitioner should resolve disputed or case-specific authority.",
+    "sections": [
+      [
+        "Identify the instructing party",
+        "Record the organisation or owner, authorised representative and basis for instruction. Verify who can approve the investigation and receive the report. Physical possession or an available password is not by itself proof of lawful authority."
+      ],
+      [
+        "Define devices, accounts and time range",
+        "List the exact items and questions. Separate company systems from personal accounts and third-party data. Set the permitted collection, examination and disclosure scope, including what is excluded."
+      ],
+      [
+        "Company devices and employee privacy",
+        "Review applicable employment terms, acceptable-use rules, notices, privacy obligations and the proposed purpose with the appropriate advisers. A business-owned Mac can still contain personal material. Avoid assuming that ownership authorises unrestricted inspection."
+      ],
+      [
+        "Personal devices and disputed access",
+        "For bring-your-own-device arrangements, shared devices, family disputes or contested accounts, obtain case-specific direction before access. Consent must come from a person with authority for the relevant material. Where authority is unclear, preserve appropriately and pause intrusive work."
+      ],
+      [
+        "Legal process and law-enforcement powers",
+        "The Cybercrimes Act contains search, access and seizure provisions for law enforcement. Those powers must not be treated as a general licence for a private service provider. A warrant or other legal process may be required in a particular matter; counsel should determine the route."
+      ],
+      [
+        "Agree handling, retention and reporting",
+        "Document access controls, recipients, storage, retention, legal holds and permitted remediation. Obtain instructions before expanding the scope or erasing material. ZA Support performs the technical work; legal and regulated representation remain with the relevant qualified partners."
+      ]
+    ],
+    "links": [
+      [
+        "/business-mac-security-incident-response",
+        "Business incident response"
+      ],
+      [
+        "/apple-device-forensic-assessment",
+        "Apple-device assessment"
+      ],
+      [
+        "/digital-evidence-preservation",
+        "Preservation"
+      ],
+      [
+        "/chain-of-custody-digital-evidence-south-africa",
+        "Chain of custody"
+      ]
+    ],
+    "sources": [
+      [
+        "Cybercrimes Act 19 of 2020",
+        "https://www.gov.za/sites/default/files/gcis_document/202106/44651gon324.pdf"
+      ],
+      [
+        "ECTA electronic-evidence provisions",
+        "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf"
+      ]
+    ],
+    "service": false
+  },
+  "chain-of-custody-digital-evidence-south-africa": {
+    "title": "Digital Evidence Chain of Custody in South Africa",
+    "description": "How digital-evidence handling is documented: item identifiers, transfers, integrity checks, access records, reporting and court-related limitations.",
+    "intro": "A chain-of-custody record explains who handled an item and what happened to it. It supports the assessment of authenticity and integrity alongside the acquisition method and other evidence. It is not a certificate that guarantees admissibility.",
+    "sections": [
+      [
+        "Start with an identifiable item",
+        "Assign a case and item identifier. Record the device or media, condition, date and time of receipt, source, relevant accessories and packaging. Keep personal information limited to what the matter requires."
+      ],
+      [
+        "Record each transfer and examination",
+        "For each custody event, identify the person releasing and receiving the item, time, purpose, location and condition. Record changes to packaging or seals and any exceptions. Do not reconstruct missing events as though they were observed."
+      ],
+      [
+        "Distinguish original material and working copies",
+        "Describe how a file, image or export was acquired. Record integrity values where applicable and identify analysis copies. A hash comparison demonstrates whether the compared bytes match; it does not independently establish the original author's identity or whether collection was lawful."
+      ],
+      [
+        "Document tools and limitations",
+        "Record relevant versions, settings, timestamps and time-zone assumptions. Explain unavailable logs, partial extractions, encrypted material or actions that changed the device. A report should make another qualified examiner able to understand what was done."
+      ],
+      [
+        "Understand the South African evidence position",
+        "Section 15 of the Electronic Communications and Transactions Act addresses electronic evidence and its weight. Relevant considerations include reliability of generation, storage and communication, preservation of integrity and identification of the originator.",
+        "The legal requirements for a particular dispute extend beyond a custody form. Qualified partners can review process and provide relevant sign-off, but a court decides admissibility and weight. Obtain legal advice for a specific matter."
+      ],
+      [
+        "Request an evidence-focused intake",
+        "Tell ZA Support at the start if the matter may involve a court, insurer, employer dispute or criminal complaint. That allows preservation and reporting requirements to be agreed before repair or remediation changes the evidence."
+      ]
+    ],
+    "links": [
+      [
+        "/digital-evidence-preservation",
+        "Preservation workflow"
+      ],
+      [
+        "/apple-device-forensic-assessment",
+        "Assessment and reporting"
+      ],
+      [
+        "/business-device-investigation-consent",
+        "Authority checklist"
+      ],
+      [
+        "/business-mac-security-incident-response",
+        "Business incident response"
+      ]
+    ],
+    "sources": [
+      [
+        "Electronic Communications and Transactions Act, section 15",
+        "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf"
+      ],
+      [
+        "NIST mobile-device forensics",
+        "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-101r1.pdf"
+      ]
+    ],
+    "service": false
+  }
+}

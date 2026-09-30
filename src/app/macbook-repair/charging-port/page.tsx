@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Phone, ArrowRight, CheckCircle, Zap, Shield, Clock, Star, MapPin, AlertTriangle, Wrench } from 'lucide-react';
@@ -530,6 +531,7 @@ export default function MacBookChargingPortPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Not charging does not always mean a faulty port"} paragraphs={["The adapter, cable, power source, battery, port and board power circuitry can produce similar symptoms. Model identification and testing come before a replacement decision. Liquid exposure or battery swelling needs assessment before further charging."]} links={[["/guides/macbook-not-charging","Safe not-charging checks"],["/battery-replacement","Battery assessment"],["/logic-board-repair","Board-level power diagnosis"],["/macbook-repair","MacBook repair hub"]]} />
+</>
   );
 }

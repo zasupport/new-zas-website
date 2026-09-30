@@ -1,3 +1,4 @@
+import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
@@ -554,6 +555,7 @@ export default function SMESupportPage() {
           </div>
         </div>
       </section>
-    </>
+    <RepairGrowthSection title={"Security incident and recovery support"} paragraphs={["A device, email or cloud-account incident may need coordinated containment, preservation and restoration. Start with a scoped technical assessment."]} links={[["/business-mac-security-incident-response","Business Mac incident response"],["/mac-data-recovery","Mac data recovery"]]} />
+</>
   );
 }

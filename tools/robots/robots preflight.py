@@ -6,10 +6,6 @@ PURPOSE   Answer one question before anything else runs: is this machine, this
 STORAGE   <site repo>/tools/robots/
 EXECUTES  python3 "robots preflight.py" [--json] [--strict]
 RELATED   robots index engine.py | robots guard.py | robots pressure test.py
-PLACEMENT target_path: tools/robots/robots preflight.py (in place, per STORAGE)
-GOVERNANCE HOOK-GOVERNANCE: not-hook-governed — standalone CLI, no Claude Code
-          lifecycle touchpoint; equivalent controls per hook-block-mandate
-          exemption clause: robots pressure test.py + validation.log proof lines
 VERSION   1.0.0
 DATE      25/07/2026 10:30 SAST
 AUTHOR    Courtney Bentley, ZA Support
@@ -30,7 +26,7 @@ import re
 import shutil
 import subprocess
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 SAST = timezone(timedelta(hours=2))
@@ -52,13 +48,7 @@ results = []
 
 def add(section, name, status, detail="", fix=""):
     results.append(
-        {
-            "section": section,
-            "check": name,
-            "status": status,
-            "detail": detail,
-            "fix": fix,
-        }
+        {"section": section, "check": name, "status": status, "detail": detail, "fix": fix}
     )
     return status
 
@@ -112,13 +102,7 @@ def check_location():
         except Exception as exc:
             add(s, "package.json readable", FAIL, str(exc), "Repair package.json")
     else:
-        add(
-            s,
-            "package.json present",
-            FAIL,
-            "not found",
-            "This is probably not the site repo",
-        )
+        add(s, "package.json present", FAIL, "not found", "This is probably not the site repo")
 
     rc, branch, _ = sh("git", "rev-parse", "--abbrev-ref", "HEAD", cwd=repo)
     rc2, dirty, _ = sh("git", "status", "--porcelain", cwd=repo)
@@ -538,7 +522,8 @@ def check_inputs(tools, cfg):
 
         r = requests.get(f"{site}/robots.txt", headers={"User-Agent": UA}, timeout=20)
         txt = r.text
-        txt = txt.removeprefix("\ufeff")
+        if txt.startswith("\ufeff"):
+            txt = txt[1:]
         txt = txt.replace("\r\n", "\n").replace("\r", "\n")
         parser = Protego.parse(txt)
         blocked = [u for u in urls if not parser.can_fetch(u, "Googlebot")]
@@ -631,11 +616,7 @@ def check_wiring(tools, repo):
         ("CI workflow", repo / ".github" / "workflows" / "robots guard.yml", None),
         ("npm scripts", repo / "package.json", "robots:guard"),
         ("INSTRUCTIONS index", repo / "INSTRUCTIONS.md", "robots-index-guard"),
-        (
-            "Install chaser ledger",
-            home / ".claude" / "install-ledger.json",
-            "robots-index-guard",
-        ),
+        ("Install chaser ledger", home / ".claude" / "install-ledger.json", "robots-index-guard"),
     ]
     for name, path, needle in points:
         ok = path.exists()
@@ -781,8 +762,7 @@ def check_robots_structure(cfg):
     # from AI answer surfaces. Flag any Disallow: / applied to a search-class AI bot.
     for bot in ("OAI-SearchBot", "PerplexityBot", "ChatGPT-User", "Claude-SearchBot"):
         m = re.search(
-            rf"(?ims)^\s*User-agent:\s*{re.escape(bot)}\s*$(.*?)(?=^\s*User-agent:|\Z)",
-            txt,
+            rf"(?ims)^\s*User-agent:\s*{re.escape(bot)}\s*$(.*?)(?=^\s*User-agent:|\Z)", txt
         )
         if m and re.search(r"(?im)^\s*Disallow:\s*/\s*$", m.group(1)):
             add(
