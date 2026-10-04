@@ -6,6 +6,7 @@
     "node": "22.x"
   },
   "overrides": {
+    "dompurify": "^3.4.16",
     "@sanity/runtime-cli": {
       "adm-zip": "^0.6.1"
     },
@@ -30,7 +31,9 @@
     "check:seo": "npm run check:robots-static && npm run check:noindex-internal && npm run check:route-sitemap-drift && npm run check:blog-sitemap-reconcile",
     "check:reliability": "node scripts/verify-release.mjs --self-test && node scripts/check-build-contract.mjs",
     "verify:live": "node scripts/verify-release.mjs",
-    "check:security": "npm audit --audit-level=moderate",
+    "check:security": "node scripts/security-gate.mjs --check",
+    "security:heal": "node scripts/security-gate.mjs --heal",
+    "security:self-test": "node scripts/security-gate.mjs --self-test",
     "check:design": "python3 scripts/audit-design-template.py --test && python3 scripts/audit-design-template.py --gate",
     "robots:preflight": "python3 \"tools/robots/robots preflight.py\"",
     "robots:test": "python3 \"tools/robots/robots pressure test.py\"",
@@ -46,7 +49,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.35.1",
     "lucide-react": "^0.577.0",
-    "next": "16.3.5",
+    "next": "16.3.8",
     "next-sanity": "^12.1.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",

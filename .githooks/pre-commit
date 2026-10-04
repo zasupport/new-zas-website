@@ -34,6 +34,7 @@ fi
 [ -x scripts/check-secrets.sh ]                && { scripts/check-secrets.sh --pre-commit                  || fail "secret gate"; }
 [ -x scripts/ci-quality-guard.sh ]             && { scripts/ci-quality-guard.sh --check                    || fail "§917 CI-quality guard"; }
 [ -x scripts/check-lock-sync.sh ]              && { scripts/check-lock-sync.sh --pre-commit                || fail "lock-sync gate"; }
+[ -f scripts/security-gate.mjs ]               && { node scripts/security-gate.mjs --check-fast            || fail "§917 security-gate (allowlist expiry)"; }
 
 # --- optional machine-local enrichers (~/bin): enforce when present, skip on fresh clones ---
 if [ -x "$HOME/bin/za-blog-ip-zero-tolerance.sh" ]; then "$HOME/bin/za-blog-ip-zero-tolerance.sh" --pre-commit || fail "§300 blog IP gate"; fi
