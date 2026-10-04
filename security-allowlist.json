@@ -1,0 +1,21 @@
+{
+  "claude_code_injection": {
+    "target_path": "security-allowlist.json",
+    "permissions": "0644",
+    "create_parent_dirs": false,
+    "overwrite_if_exists": true,
+    "backup_if_exists": true,
+    "post_install_verify": "node scripts/security-gate.mjs --self-test",
+    "rollback_command": "git checkout security-allowlist.json"
+  },
+  "_doc": "§917/§785 HONEST security gate allowlist. An entry accepts ONE specific advisory ID ONLY because no non-breaking upstream fix exists, with a FORCED review date. The gate FAILS if today > reviewBy (forces re-review), and NEVER suppresses a critical-severity advisory regardless of what is listed here. Fixable vulnerabilities are fixed in package.json (bump/override), never allowlisted. To clear an entry: when an upstream fix ships, bump/override the dependency and delete the entry.",
+  "allow": [
+    {
+      "id": "GHSA-vfj7-8cjw-p6xm",
+      "package": "braces",
+      "maxSeverity": "high",
+      "reviewBy": "2027-01-02",
+      "reason": "braces stack-exhaustion DoS, advisory range <=3.0.3. braces 3.0.3 is the LATEST published version on npm (verified 04.10.2026: npm view braces version = 3.0.3), so NO upstream fix exists. Reached only through build and lint tooling (eslint-config-next -> @next/eslint-plugin-next -> fast-glob -> micromatch; @sanity/codegen/@sanity/cli -> chokidar/globby) over developer-authored glob patterns at build time. braces is not in the production runtime bundle served to visitors, so the DoS is not exploitable against the deployed site. npm audit's only offered fix is a --force downgrade of eslint-config-next to 14.2.35 and sanity to 5.7.0, which are regressions, not fixes. Re-check for an upstream braces/micromatch release on each review."
+    }
+  ]
+}
