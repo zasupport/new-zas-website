@@ -93,7 +93,7 @@ def save_seen(seen: set):
     SEEN_FILE.write_text(json.dumps(list(seen), indent=2))
 
 
-def api_get(endpoint: str, params: dict = None) -> dict:
+def api_get(endpoint: str, params: dict | None = None) -> dict:
     url = f"{IFIXIT_API}/{endpoint}"
     if params:
         url += "?" + urllib.parse.urlencode(params)

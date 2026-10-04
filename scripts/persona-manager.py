@@ -40,6 +40,7 @@ _spec = _ilu.spec_from_file_location(
 if _spec is None:
     print("ERROR: community-answer-generator.py not found in scripts/")
     sys.exit(1)
+assert _spec.loader is not None
 _mod = _ilu.module_from_spec(_spec)
 _spec.loader.exec_module(_mod)
 generate_answer = _mod.generate_answer
@@ -202,7 +203,7 @@ def pick_question_for_seeder(persona: dict, seen_hashes: set) -> dict | None:
     random.shuffle(available)
 
     for q in available:
-        h = hashlib.md5(q["title"].encode()).hexdigest()[:8]
+        h = hashlib.md5(str(q["title"]).encode()).hexdigest()[:8]
         if h not in seen_hashes:
             return q
     return None
@@ -303,7 +304,7 @@ def main():
                 log(f"  No more unique questions for {persona['name']}")
                 break
 
-            h = hashlib.md5(q["title"].encode()).hexdigest()[:8]
+            h = hashlib.md5(str(q["title"]).encode()).hexdigest()[:8]
             seen_hashes.add(h)
 
             log(f"  Question: {q['title'][:65]}")
