@@ -23,12 +23,13 @@ for _mod in ("protego", "requests"):
             __import__(_mod)
         except ImportError:
             _stub = types.ModuleType(_mod)
-            _stub.__getattr__ = lambda name: object  # any attribute -> harmless placeholder
+            _stub.__getattr__ = lambda name: object  # type: ignore[method-assign]  # any attribute -> harmless placeholder
             sys.modules[_mod] = _stub
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ENGINE = os.path.join(HERE, "robots index engine.py")
 spec = importlib.util.spec_from_file_location("robots_engine", ENGINE)
+assert spec is not None and spec.loader is not None
 eng = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(eng)
 

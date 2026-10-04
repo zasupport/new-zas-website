@@ -58,7 +58,7 @@ def offending_sentences(content: str):
 
 def parse_posts(text: str):
     """Return {slug: content-block} by splitting on `slug: '...'` markers (best-effort)."""
-    posts = {}
+    posts: dict = {}
     slug_re = re.compile(r"slug:\s*['\"]([a-z0-9-]+)['\"]")
     marks = [(m.start(), m.group(1)) for m in slug_re.finditer(text)]
     for i, (pos, slug) in enumerate(marks):
@@ -70,11 +70,12 @@ def parse_posts(text: str):
 def build(text: str, top: int):
     posts = parse_posts(text)
     rows = _triage.triage(text)  # (slug, tok, cls, ctx)
-    by_post = defaultdict(Counter)
+    by_post: defaultdict = defaultdict(Counter)
     for slug, tok, cls, _ in rows:
         by_post[slug][cls] += 1
 
-    doorway, keep = [], []
+    doorway: list = []
+    keep: list = []
     for slug, c in by_post.items():
         za = c.get("ZA-INVENTED", 0)
         if za == 0:
