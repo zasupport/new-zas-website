@@ -41,7 +41,7 @@
     "robots:audit": "python3 \"tools/robots/robots index engine.py\" wiring-audit"
   },
   "dependencies": {
-    "@next/third-parties": "16.3.5",
+    "@next/third-parties": "16.3.8",
     "@sanity/client": "^7.16.0",
     "@sanity/image-url": "^2.0.3",
     "@vercel/analytics": "^1.6.1",
@@ -56,7 +56,7 @@
     "react-hook-form": "^7.71.2",
     "resend": "^6.9.3",
     "sanity": "^5.13.0",
-    "sharp": "0.35.4",
+    "sharp": "0.35.5",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
@@ -66,7 +66,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.3.5",
+    "eslint-config-next": "16.3.8",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
