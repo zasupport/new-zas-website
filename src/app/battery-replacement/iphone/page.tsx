@@ -373,10 +373,7 @@ export default function BatteryReplacementIphonePage() {
           <p className="text-[#7A9E98] text-xs mt-4">
             Prices are indicative and confirmed in writing before any work begins. A separate, non-refundable assessment from R599 applies where diagnosis is required before a quote can be given.
           </p>
-          {/* TODO(data): flip to showPricing={FROM_PRICE !== null} once
-              src/data/pricing-ranges.json carries the confirmed from-price
-              (1200); its current 1599 would contradict the confirmed R1,200. */}
-          <PricingRange page="/battery-replacement/iphone" showPricing={false} />
+          <PricingRange page="/battery-replacement/iphone" showPricing={FROM_PRICE !== null} />
           <PricingNote variant="inline" />
         </div>
       </section>
