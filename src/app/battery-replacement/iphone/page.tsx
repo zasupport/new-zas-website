@@ -12,9 +12,9 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'iPhone Battery Replacement Johannesburg [2026] | ZA Support',
+  title: 'iPhone Battery Replacement Cost Johannesburg [2026] | ZA Support',
   description:
-    'iPhone battery replacement in Johannesburg. Same-day service, IP68 re-sealed, battery health restored. Hyde Park workshop. Call 064 529 5863.',
+    'iPhone battery replacement cost in Johannesburg: priced by model, fixed written quote after assessment. Same-day at Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/iphone' },
   keywords: [
     'iPhone battery replacement Johannesburg',
@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     'iPhone throttling slow battery fix Johannesburg',
     'same day iPhone battery replacement Johannesburg',
     'iPhone battery replacement price Johannesburg',
+    'how much does iPhone battery replacement cost Johannesburg',
   ],
 };
 
@@ -41,80 +42,90 @@ const breadcrumbSchemaItems = [
   { name: 'iPhone Battery Replacement', url: 'https://zasupport.com/battery-replacement/iphone' },
 ];
 
+// From-price CONFIRMED by Courtney 05/10/2026 (matches the §489 anchor
+// registry: iphone-battery from R1,200, src Courtney 28/06). Set back to null
+// to withdraw the price: copy falls back to qualitative wording and schema
+// pricing is scrubbed again.
+const FROM_PRICE = 'R1,200' as string | null;
+
+const ENTRY_PRICE_LABEL =
+  FROM_PRICE !== null ? `From ${FROM_PRICE}` : 'Fixed quote after R599 assessment';
+const MODEL_PRICE_LABEL = 'Fixed written quote by model';
+
 const pricingTiers = [
   {
     range: 'iPhone 8, SE (2nd & 3rd gen)',
-    price: 'Contact for pricing',
+    price: ENTRY_PRICE_LABEL,
     chemistry: 'Li-Ion 1,821-2,018 mAh',
     note: 'Adhesive pull tabs; straightforward access',
     turnaround: '30-60 min',
   },
   {
     range: 'iPhone X, XS, XS Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 2,658-3,174 mAh',
     note: 'OLED display removal required; Face ID flex handled with care',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 11, 11 Pro, 11 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 3,110-3,969 mAh',
     note: 'Triple camera cable routing; gasket re-sealed post-install',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 12, 12 Mini, 12 Pro, 12 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 2,227-3,687 mAh',
     note: 'MagSafe alignment verified post-install',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 13, 13 Mini, 13 Pro, 13 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 2,438-4,352 mAh',
     note: 'Larger cells than iPhone 12; adhesive tabs extend under logic board',
     turnaround: '90 min',
   },
   {
     range: 'iPhone 14, 14 Plus',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 3,279-4,323 mAh',
     note: 'Easier rear-access design; faster disassembly',
     turnaround: '60-90 min',
   },
   {
     range: 'iPhone 14 Pro, 14 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 3,200-4,323 mAh',
     note: 'Dynamic Island flex cable routing; Always-On display re-verified',
     turnaround: '90 min',
   },
   {
     range: 'iPhone 15, 15 Plus',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 3,349-4,383 mAh',
     note: 'USB-C connector; titanium frame requires adjusted tooling',
     turnaround: '90-120 min',
   },
   {
     range: 'iPhone 15 Pro, 15 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 3,274-4,422 mAh',
     note: 'Action button cable routing; titanium chassis',
     turnaround: '90-120 min',
   },
   {
     range: 'iPhone 16, 16 Plus',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 3,561-4,685 mAh',
     note: 'Camera Control button; Apple Intelligence unaffected',
     turnaround: '90-120 min',
   },
   {
     range: 'iPhone 16 Pro, 16 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     chemistry: 'Li-Ion 3,582-4,685 mAh',
     note: 'Latest teardown complexity; precision adhesive routing',
     turnaround: '120 min',
@@ -148,7 +159,9 @@ const faqs = [
   {
     question: 'How much does iPhone battery replacement cost in Johannesburg?',
     answer:
-      'iPhone battery replacement at ZA Support is priced by model, with iPhone 8 and SE at the lower end and the iPhone 15 and 16 Pro Max at the upper end. All prices include the battery cell, labour, IP68 gasket re-seal, and our 12-month warranty, and are a fraction of what the Apple Store charges for the same models. WhatsApp us your model for a current quote.',
+      FROM_PRICE !== null
+        ? `iPhone battery replacement at ZA Support starts from ${FROM_PRICE}, with iPhone 8 and SE at the lower end and the iPhone 15 and 16 Pro Max at the upper end. Every price includes the battery cell, labour, IP68 gasket re-seal, and our 12-month written warranty, and is a fraction of what the Apple Store charges for the same models. The exact price for your model is confirmed as a fixed written quote after the R599 assessment.`
+        : 'iPhone battery replacement at ZA Support is priced by model, with iPhone 8 and SE at the lower end and the iPhone 15 and 16 Pro Max at the upper end. The exact cost for your model is confirmed as a fixed written quote after the R599 assessment, and every price includes the battery cell, labour, IP68 gasket re-seal, and our 12-month written warranty. It is a fraction of what the Apple Store charges for the same models. WhatsApp us your model for a current quote.',
   },
   {
     question: 'How do I know if my iPhone battery needs replacing?',
@@ -178,7 +191,7 @@ const faqs = [
   {
     question: 'Is the iPhone battery replacement covered by a warranty?',
     answer:
-      'Yes. Every iPhone battery replacement at ZA Support includes a 12-month written warranty covering the battery cell and our workmanship. If the replacement battery develops a fault, capacity drops below 80% within the warranty period, charging irregularities, or a manufacturing defect, we replace it again at our assessment fee. The warranty is provided in writing at the time of collection. It covers parts and labour and does not cover subsequent physical damage or liquid ingress.',
+      'Yes. Every iPhone battery replacement at ZA Support includes a 12-month written warranty covering the battery cell and our workmanship. If the replacement battery develops a fault, capacity drops below 80% within the warranty period, charging irregularities, or a manufacturing defect, we replace it again at our assessment fee (from R599). The warranty is provided in writing at the time of collection. It covers parts and labour and does not cover subsequent physical damage or liquid ingress.',
   },
   {
     question: 'Does battery replacement void my iPhone warranty with Apple?',
@@ -217,17 +230,19 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
     { '@type': 'Neighborhood', name: 'Rosebank' },
   ],
-  offers: {
-    '@type': 'Offer',
-    priceCurrency: 'ZAR',
-    price: '899',
-    priceSpecification: {
-      '@type': 'PriceSpecification',
-      minPrice: '899',
-      maxPrice: '1499',
-      priceCurrency: 'ZAR',
-    },
-  },
+  // Offer pricing is gated on the approved FROM_PRICE (values undecided).
+  // Historical numbers are deliberately not restored. While FROM_PRICE is
+  // null no Offer is emitted, and SchemaOrg scrubs pricing anyway because
+  // keepPricing is false.
+  ...(FROM_PRICE !== null
+    ? {
+        offers: {
+          '@type': 'Offer',
+          priceCurrency: 'ZAR',
+          price: FROM_PRICE.replace(/[^0-9.]/g, ''),
+        },
+      }
+    : {}),
 };
 
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
@@ -237,8 +252,8 @@ export default function BatteryReplacementIphonePage() {
 
   return (
     <>
-      <SchemaOrg schema={faqSchema} />
-      <SchemaOrg schema={serviceSchema} />
+      <SchemaOrg schema={faqSchema} keepPricing={FROM_PRICE !== null} />
+      <SchemaOrg schema={serviceSchema} keepPricing={FROM_PRICE !== null} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       {/* Hero */}
@@ -255,11 +270,11 @@ export default function BatteryReplacementIphonePage() {
               We replace more iPhone batteries than any other repair in our Hyde Park workshop. The most common trigger is a phone that has started throttling, the owner notices it feels slower, checks Battery Health, and finds 74% or below. A new lithium-ion cell removes the throttle entirely and restores full performance within two charge cycles.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed text-base">
-              iPhone 8 through 16 Pro Max covered. Same-day service. IP68 gasket replaced as standard. 12-month written warranty. No appointment necessary, walk in to Hyde Park or WhatsApp us first.
+              {FROM_PRICE !== null ? `From ${FROM_PRICE}. ` : ''}iPhone 8 through 16 Pro Max covered. Same-day service. IP68 gasket replaced as standard. 12-month written warranty. Fixed written quote after the R599 assessment. No appointment necessary, walk in to Hyde Park or WhatsApp us first.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Battery, label: 'Contact for pricing' },
+                { icon: Battery, label: FROM_PRICE !== null ? `From ${FROM_PRICE}` : 'From R599 assessment' },
                 { icon: CheckCircle, label: 'IP68 Re-Sealed' },
                 { icon: Smartphone, label: 'iPhone 8-16 Pro Max' },
                 { icon: Clock, label: '30-120 Min Service' },
@@ -317,10 +332,13 @@ export default function BatteryReplacementIphonePage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
-            iPhone Battery Replacement Pricing
+            iPhone Battery Replacement Cost in Johannesburg
           </h2>
           <p className="text-[#7A9E98] mb-3 max-w-3xl leading-relaxed">
-            All prices include the replacement lithium-ion cell, labour, IP68 adhesive gasket re-seal, and our 12-month written warranty. The Apple Store charges many times more for the same models without AppleCare+, our pricing represents a significant saving on every replacement.
+            {FROM_PRICE !== null
+              ? `Replacements start from ${FROM_PRICE}, with the exact price for your model confirmed as a fixed written quote. `
+              : 'Every replacement is priced per model and confirmed as a fixed written quote after the R599 assessment. '}
+            All prices include the replacement lithium-ion cell, labour, IP68 adhesive gasket re-seal, and our 12-month written warranty. The Apple Store charges many times more for the same models without AppleCare+, our price is a fraction of Apple&apos;s replacement quote.
           </p>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed text-sm">
             For South African short-term insurance holders: battery degradation is typically excluded from accidental damage cover. Paying for the repair directly is the only practical route, and at these prices, it is by far the most economical option compared to an upgrade.
@@ -353,9 +371,12 @@ export default function BatteryReplacementIphonePage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Prices are indicative and confirmed in writing before any work begins. Assessment applies where diagnosis is required before a quote can be given.
+            Prices are indicative and confirmed in writing before any work begins. A separate, non-refundable assessment from R599 applies where diagnosis is required before a quote can be given.
           </p>
-          <PricingRange page="/battery-replacement/iphone" />
+          {/* TODO(data): flip to showPricing={FROM_PRICE !== null} once
+              src/data/pricing-ranges.json carries the confirmed from-price
+              (1200); its current 1599 would contradict the confirmed R1,200. */}
+          <PricingRange page="/battery-replacement/iphone" showPricing={false} />
           <PricingNote variant="inline" />
         </div>
       </section>
@@ -452,7 +473,7 @@ export default function BatteryReplacementIphonePage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iPhone 15 Pro and iPhone 12 covered, contact us for pricing</li>
+                <li>{FROM_PRICE !== null ? `Battery replacement from ${FROM_PRICE}, all models covered` : 'All models covered, fixed written quote before any work'}</li>
                 <li>Same-day repair for all models</li>
                 <li>12-month written warranty on battery and workmanship</li>
                 <li>IP68 gasket replaced | Battery health recalibrated</li>
@@ -463,7 +484,7 @@ export default function BatteryReplacementIphonePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <AlertTriangle className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Assessment applies to every iPhone battery replacement. If we assess your device and determine the fault lies elsewhere, such as a logic board charging circuit issue rather than the battery cell, you pay the diagnostic fee and receive your phone back exactly as presented. We never replace a battery that does not need replacing.
+              A separate, non-refundable assessment from R599 applies to every iPhone battery replacement. If we assess your device and determine the fault lies elsewhere, such as a logic board charging circuit issue rather than the battery cell, you pay only the assessment fee and receive your phone back exactly as presented. We never replace a battery that does not need replacing.
             </p>
           </div>
         </div>
@@ -541,7 +562,7 @@ export default function BatteryReplacementIphonePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 12-month warranty | Assessment
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | {FROM_PRICE !== null ? `From ${FROM_PRICE} | ` : ''}12-month warranty | Assessment from R599
             </p>
           </div>
         </div>
