@@ -14,8 +14,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
+      # Same decision as the Deploy workflow's check:security. The raw audit is saved for the
+      # artifact (npm audit exits 1 whenever any advisory exists, so its exit code is not the
+      # verdict); scripts/security-gate.mjs then judges that file against security-allowlist.json.
+      # Critical, new, or expired-review advisories fail the job. An unreadable audit file is
+      # UNVALIDATED (exit 2), never a pass.
       - name: Audit the committed lockfile without installation
-        run: npm audit --json --audit-level=moderate > npm-audit.json
+        run: |
+          npm audit --json > npm-audit.json || true
+          node scripts/security-gate.mjs --check --audit-file npm-audit.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
