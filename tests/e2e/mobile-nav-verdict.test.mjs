@@ -10,7 +10,7 @@ import {
 	assessMobileNav,
 	EXPECTED_APPLE_SUPPORT_CHILDREN,
 	TARGET_WIDTH,
-} from "./lib/mobile-nav-verdict.mjs";
+} from "./lib/mobile-nav-verdict.ts";
 
 const good = {
 	effectiveInnerWidth: TARGET_WIDTH,
