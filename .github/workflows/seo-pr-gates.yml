@@ -29,7 +29,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version-file: '.nvmrc'
           cache: 'npm'
 
       - name: Install
@@ -49,6 +49,15 @@ jobs:
 
       - name: Existing SEO checks (robots/sitemap/noindex drift)
         run: npm run check:seo
+
+      # The verdict logic the mobile-nav spec depends on. Runs under node:test, not Playwright.
+      - name: Mobile-nav verdict unit test
+        run: node --test tests/e2e/mobile-nav-verdict.test.mjs
+
+      # Loads every spec without a server or browser (seconds). A spec that cannot be imported
+      # fails here, before the production build, instead of after it.
+      - name: E2E suite loads
+        run: npx playwright test --list
 
       - name: Production build
         run: npm run build

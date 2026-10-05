@@ -5,7 +5,7 @@ import {
 	assessMobileNav,
 	EXPECTED_APPLE_SUPPORT_CHILDREN,
 	TARGET_WIDTH,
-} from "./lib/mobile-nav-verdict.mjs";
+} from "./lib/mobile-nav-verdict";
 
 // Permanent 390px authenticated/local mobile-nav acceptance pack.
 // Runs at a TRUE device viewport (Playwright sets it at the context level, so it is

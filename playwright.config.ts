@@ -7,6 +7,10 @@ const baseURL = process.env.BASE_URL || "http://localhost:3000";
 
 export default defineConfig({
 	testDir: "./tests/e2e",
+	// Specs only. Playwright's default testMatch also claims *.test.mjs, which pulled the
+	// node:test unit file (mobile-nav-verdict.test.mjs) into the browser run. That file is
+	// run by `node --test` in its own CI step.
+	testMatch: "**/*.spec.ts",
 	timeout: 30_000,
 	expect: { timeout: 10_000 },
 	fullyParallel: true,
