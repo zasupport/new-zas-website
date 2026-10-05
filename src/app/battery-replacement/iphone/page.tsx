@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'iPhone Battery Replacement Cost Johannesburg [2026] | ZA Support',
+  title: 'iPhone Battery Replacement Cost Johannesburg [2026]',
   description:
     'iPhone battery replacement cost in Johannesburg: priced by model, fixed written quote after assessment. Same-day at Hyde Park workshop. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement/iphone' },

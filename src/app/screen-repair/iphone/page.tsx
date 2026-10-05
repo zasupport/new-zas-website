@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'iPhone Screen Repair Cost Johannesburg [2026] | ZA Support',
+  title: 'iPhone Screen Repair Cost Johannesburg [2026]',
   description:
     'iPhone screen repair cost in Johannesburg: priced by model, fixed written quote after assessment. Face ID preserved, same-day repair. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/iphone' },
