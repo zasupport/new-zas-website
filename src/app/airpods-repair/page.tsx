@@ -15,7 +15,7 @@ import { buildWhatsAppUrl, CONTACT } from '@/lib/constants';
 import { buildBreadcrumbSchema, buildFaqSchema } from '@/lib/schema';
 
 export const metadata: Metadata = {
-  title: 'AirPods Repair Johannesburg [2026] | ZA Support',
+  title: 'AirPods Repair Johannesburg [2026]',
   description:
     'Honest answer: AirPods are sealed units and cannot be economically repaired. What to do instead, Apple service options explained. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/airpods-repair' },
