@@ -43,7 +43,7 @@ RULES = [
     (
         "C_ASSESSMENT_CREDIT",
         re.compile(
-            r"(?<![Nn]ot )credited\s+(?:against|towards?)|"
+            r"(?<![Nn]ot )credited\s+(?:against|towards?|to\b|into\b)|"
             r"(?:deducted from|applies? towards?|included in)\s+"
             r"(?:the\s+|your\s+|any\s+)?(?:repair|replacement|final|total|bill|quote)",
             re.I,
@@ -120,6 +120,7 @@ def run_test():
         planted = [
             "covered by our up-to-3 year warranty",
             "the fee is credited against the repair",
+            "assessment fee credited to your repair",
             "assessment is deducted from the final bill",
             "our No Fix No Fee promise",
             "a BEE Level 1 provider",
