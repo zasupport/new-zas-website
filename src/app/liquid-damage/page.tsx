@@ -403,7 +403,7 @@ export default function LiquidDamagePage() {
               Why We Repair at Component Level, Not Board Swap
             </h2>
             <p className="text-[#7A9E98] mb-10 max-w-2xl">
-              Most Apple repair shops quote a full logic-board replacement for any liquid damage,
+              Most Apple repair shops quote a full <Link href="/logic-board-repair" className="text-[#0FEA7A] hover:underline">logic-board</Link> replacement for any liquid damage,
               many times the cost of a component-level repair at the Apple Store, and on Apple Silicon Macs you lose your data and
               Touch ID pairing in the process. We do the opposite. We fix the specific failed components
               under microscope and leave your original board in place.
