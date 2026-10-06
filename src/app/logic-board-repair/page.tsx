@@ -1,6 +1,7 @@
 import RepairGrowthSection from '@/components/seo/RepairGrowthSection';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Suspense } from 'react';
 import {
   Phone, ArrowRight, Cpu, Zap, AlertTriangle, CheckCircle, Star, Shield, Clock,
@@ -710,6 +711,94 @@ export default function LogicBoardRepairPage() {
         </section>
 
         {/* ── Orphan-link injection, per-model + per-suburb ─────────────── */}
+        {/* ── Business decisions: downtime, data, economics ─────────────── */}
+        <section className="py-16 sm:py-20 px-4 bg-[#111C1A]">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
+              Logic Board Failure as a Business Decision
+            </h2>
+            <p className="text-[#7A9E98] text-sm mb-10 max-w-2xl">
+              When the failed Mac belongs to a practice, a studio or a fleet, the repair question is
+              commercial as much as technical. These are the factors we work through with business
+              clients before any work is approved.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { t: 'Downtime cost', d: 'The real cost of a dead Mac is usually the stalled work, not the board. We quote in writing after assessment and agree scheduling around your operation, with loan options discussed where available.' },
+                { t: 'Data risk', d: 'On modern Macs the storage is soldered to the board, so board failure is also a data event. Component-level repair targets a board that can boot, which is frequently the only realistic route back to the data.' },
+                { t: 'Repair economics', d: 'Component-level repair replaces the failed chip, not the whole board, which is why it costs a fraction of a board swap or a new machine. If repair is uneconomical for your device, the assessment says so and you decide with real information.' },
+                { t: 'Fleet devices', d: 'For managed fleets we record the fault class, affected model and outcome on your asset register, so repeated failures surface as a pattern you can plan around rather than isolated surprises.' },
+                { t: 'Insurance and reporting', d: 'Insurers ask for substantiation. Our written assessment documents the fault, the cause category where determinable, and the repair-versus-replacement position, suitable for claims and internal sign-off.' },
+                { t: 'Repair versus replacement', d: 'We give a straight recommendation either way. A machine worth replacing gets told honestly, with the data path handled first, because the wrong repair is as expensive as the wrong replacement.' },
+              ].map((c) => (
+                <div key={c.t} className="rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#0A1A18] p-6">
+                  <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">{c.t}</h3>
+                  <p className="text-[#7A9E98] text-sm leading-relaxed">{c.d}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Process evidence + capability boundaries ──────────────────── */}
+        <section className="py-16 sm:py-20 px-4">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl font-extrabold mb-4">
+              How We Prove the Diagnosis
+            </h2>
+            <div className="grid lg:grid-cols-2 gap-10 items-start">
+              <div>
+                <ol className="space-y-4 text-sm text-[#7A9E98] list-none">
+                  {[
+                    'Intake and photographic record of the board as received.',
+                    'Bench power-on with current-draw measurement, the draw profile narrows the fault to a rail before anything is touched.',
+                    'Thermal camera pass to locate shorted components heating under load.',
+                    'Schematic-level tracing with oscilloscope and multimeter to isolate the failed component, not just the failed area.',
+                    'Component replacement under stereo microscope, hot air and micro-soldering.',
+                    'Post-repair stress testing before the written outcome report, your quote described the fault; the report describes the fix.',
+                  ].map((step, i) => (
+                    <li key={step} className="flex gap-3">
+                      <span className="text-[#0FEA7A] font-bold">{i + 1}.</span>
+                      <span>{step}</span>
+                    </li>
+                  ))}
+                </ol>
+                <div className="mt-8 rounded-2xl border border-[rgba(15,234,122,0.18)] bg-[#111C1A] p-6">
+                  <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">Where we draw the line</h3>
+                  <p className="text-[#7A9E98] text-sm leading-relaxed mb-2">
+                    Honest capability boundaries matter more than big claims. We do not blind-swap
+                    boards and call it a repair. On Apple silicon and T2 machines, storage encryption
+                    ties data recovery to the survival of specific chips, so some data outcomes
+                    depend on the fault, not on effort. Severe multi-layer board burns can be
+                    uneconomical to repair, and when that is the finding, the assessment says so
+                    plainly and you pay only the assessment fee.
+                  </p>
+                  <p className="text-[#7A9E98] text-sm leading-relaxed">
+                    Suspected tampering or evidence-sensitive devices follow our{' '}
+                    <Link href="/apple-device-forensic-assessment" className="text-[#0FEA7A] hover:underline">
+                      forensic assessment process
+                    </Link>{' '}
+                    instead of the standard repair bench.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <Image
+                  src="/imac-logic-board-repair-johannesburg-workshop.webp"
+                  alt="Component-level iMac logic board repair at the ZA Support workshop in Johannesburg"
+                  width={960}
+                  height={640}
+                  className="rounded-2xl border border-[rgba(255,255,255,0.08)] w-full h-auto"
+                />
+                <p className="text-xs text-[#7A9E98] mt-3">
+                  Board-level work in our Hyde Park workshop. Technically reviewed by Courtney
+                  Bentley, CEO and Apple Certified Expert, 6 October 2026.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <OrphanLinks
           sectionTitle="Logic board repair by model and area"
           intro="Logic board work is what our Hyde Park workshop is built around, Apple Silicon, Intel-era MacBook Pro and MacBook Air, with collection across Gauteng. Pick the model you have or the suburb closest to you to read what the diagnostic, component-level repair and warranty work looks like for that machine or that area."

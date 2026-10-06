@@ -151,7 +151,7 @@ const faqs = [
 	{
 		question: "Do you support the equipment after deployment?",
 		answer:
-			"Yes, that is the point of the model. Equipment we procure joins your managed service: monitored, patched, supported and eventually refresh-planned by the same team. Repairs run through our Hyde Park workshop where that is the economical route.",
+			"Yes, that is the point of the model. Equipment we procure joins your managed service: monitored, patched, supported and eventually refresh-planned by the same team. Repairs run through our Hyde Park workshop where that is the economical route, including component-level logic board repair.",
 	},
 	{
 		question: "How long does a typical rollout take?",
@@ -232,7 +232,11 @@ export default function ProcurementPage() {
 					<p className="text-[#7A9E98] mb-10 max-w-3xl">
 						Ten stages, one accountable partner. You can enter at any stage, but
 						the value compounds when the same team carries a purchase from
-						specification to retirement.
+						specification to retirement, with{" "}
+						<Link href="/logic-board-repair" className="text-[#0FEA7A] hover:underline">
+							component-level repair
+						</Link>{" "}
+						extending device life in between.
 					</p>
 					<div className="grid sm:grid-cols-2 gap-6">
 						{steps.map((s, i) => (
