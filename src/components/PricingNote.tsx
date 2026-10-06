@@ -26,7 +26,8 @@ export default function PricingNote({
           <span className="block mt-2">
             <span className="font-semibold text-[#FCA5A5]">Processing and lead times are indicative only.</span>{' '}
             The repair process and turnaround time depend entirely on your specific machine and can change based on the model, the fault, and the parts your device needs.
-            You will only have a confirmed lead time after you enquire and speak to a ZA Support consultant who assesses your machine.
+            You will only have a confirmed lead time after you enquire and speak to a ZA Support consultant who assesses your machine.{' '}
+            Standard diagnostics start from four business hours. Need faster attention? Select the rush diagnostic option for immediate diagnostic commencement. Repair work starts from four business hours onward, while completion time depends on the fault's complexity, parts requirements, approval and testing.
           </span>
         )}
       </p>
