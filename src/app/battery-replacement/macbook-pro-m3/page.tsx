@@ -63,7 +63,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M3 Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro M3 battery replacement in Johannesburg. 72.4Wh (14-inch) and 100Wh (16-inch) latest-generation cell replacement. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro M3 battery replacement in Johannesburg. 72.4Wh (14-inch) and 100Wh (16-inch) latest-generation cell replacement. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -157,7 +157,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M3 battery replacement cost in Johannesburg?',
     answer:
-      'MacBook Pro M3 battery replacement is carried out at our Hyde Park workshop. The M3, M3 Pro, and M3 Max all use the same cell per chassis size: 72.4 Wh in the 14-inch and 100 Wh in the 16-inch. The Apple Store charges many times more for M3 battery replacement, and given how new these models are, may only service them under AppleCare+. Our price includes the replacement cell, all labour, calibration, and a written warranty of up to 3 years. Assessment fee applies, credited toward the repair cost if you proceed.',
+      'MacBook Pro M3 battery replacement is carried out at our Hyde Park workshop. The M3, M3 Pro, and M3 Max all use the same cell per chassis size: 72.4 Wh in the 14-inch and 100 Wh in the 16-inch. The Apple Store charges many times more for M3 battery replacement, and given how new these models are, may only service them under AppleCare+. Our price includes the replacement cell, all labour, calibration, and a written warranty of up to 3 years. The R599 assessment fee is a separate, non-refundable charge.',
   },
   {
     question: 'What is the battery capacity of the MacBook Pro M3?',
@@ -241,7 +241,7 @@ export default function BatteryReplacementMacBookProM3Page() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Battery, label: 'All M3 Models' },
                 { icon: Zap, label: 'Assessment' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -319,7 +319,7 @@ export default function BatteryReplacementMacBookProM3Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All pricing includes the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment fee applies, credited toward the repair cost if you proceed.
+            All pricing includes the replacement cell, labour, calibration, and our 12-month warranty. The R599 assessment fee is a separate, non-refundable charge.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-m3" />
           <PricingNote variant="inline" />
@@ -386,7 +386,7 @@ export default function BatteryReplacementMacBookProM3Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro M3 and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro M3 and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. 12-month warranty on all completed battery replacements.
             </p>
           </div>
         </div>
@@ -419,7 +419,7 @@ export default function BatteryReplacementMacBookProM3Page() {
                 <li>coconutBattery diagnostic before and after</li>
                 <li>Turnaround 4-6 hours same day</li>
                 <li>System Information screenshot at collection</li>
-                <li>Up-to-3 year warranty on replacement cell</li>
+                <li>12-month warranty on replacement cell</li>
               </ul>
             </div>
           </div>
@@ -436,7 +436,7 @@ export default function BatteryReplacementMacBookProM3Page() {
               { step: 2, title: 'Bottom Case & Battery Extraction', desc: 'Pentalobe screws removed, battery connector disconnected, adhesive pull-tabs released using controlled heat (max 50°C) and adhesive solvent. The larger 72.4 Wh M3 14-inch cell requires careful, staged tab extraction. Non-conductive plastic tools only.' },
               { step: 3, title: 'Replacement Cell Verification', desc: 'Replacement M3 cell tested for open-circuit voltage, capacity, and cell balance before installation. Cell model verified against Apple model identifier (A2992, A2991, A2780 etc.) to ensure exact match.' },
               { step: 4, title: 'Calibration & Full Charging Verification', desc: 'Full charge-discharge calibration with macOS open. System Settings confirms 100% health. Cycle count at 0-1. MagSafe and USB-C ports both verified for clean power acceptance.' },
-              { step: 5, title: 'Collect With Written Warranty', desc: 'Written warranty of up to 3 years, System Information screenshot, and assessment fee included in the total. Battery failure within warranty period = free replacement.' },
+              { step: 5, title: 'Collect With Written Warranty', desc: 'The R599 assessment fee is a separate, non-refundable charge. Battery failure within warranty period = free replacement.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] flex items-center justify-center">
@@ -528,7 +528,7 @@ export default function BatteryReplacementMacBookProM3Page() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 12-month warranty
             </p>
           </div>
         </div>

@@ -35,6 +35,7 @@
     "verify:live": "node scripts/verify-release.mjs",
     "check:security": "node scripts/security-gate.mjs --check",
     "check:supplier": "python3 scripts/check-supplier-confidentiality.py",
+    "check:claims": "python3 scripts/check-claims-integrity.py",
     "security:heal": "node scripts/security-gate.mjs --heal",
     "security:self-test": "node scripts/security-gate.mjs --self-test",
     "check:design": "python3 scripts/audit-design-template.py --test && python3 scripts/audit-design-template.py --gate",
@@ -59,7 +60,7 @@
     "react-hook-form": "^7.71.2",
     "resend": "^6.9.3",
     "sanity": "^5.13.0",
-    "sharp": "0.35.4",
+    "sharp": "0.35.5",
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {

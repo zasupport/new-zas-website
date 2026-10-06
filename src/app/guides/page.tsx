@@ -205,7 +205,7 @@ export default function GuidesPage() {
             </Link>
           </div>
           <p className="text-sm text-[#7A9E98] mt-4">
-            No Fix, No Fee guarantee on all repairs. 12-month warranty included.
+            Every repair is quoted in writing after assessment, and you approve the quote before any work begins. 12-month warranty included.
           </p>
         </div>
       </section>

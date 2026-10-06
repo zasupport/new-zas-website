@@ -169,7 +169,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on charging port repairs?',
     answer:
-      'All ZA Support charging port repairs carry a up-to-3 year warranty on parts and labour. If the same fault returns within the warranty period, same port, same cause, we fix it at our assessment fee. The warranty is documented in writing when you collect your machine.',
+      'All ZA Support charging port repairs carry a 12-month warranty on parts and labour. If the same fault returns within the warranty period, same port, same cause, we fix it at our assessment fee. The warranty is documented in writing when you collect your machine.',
   },
 ];
 
@@ -383,7 +383,7 @@ export default function MacBookChargingPortPage() {
                 ))}
               </div>
               <p className="text-[#7A9E98] text-xs mt-3">
-                Prices include parts and labour. up-to-3 year warranty on all repairs.
+                Prices include parts and labour. 12-month warranty on all repairs.
               </p>
               <div className="mt-5 bg-[rgba(255,255,255,0.03)] border border-[rgba(15,234,122,0.15)] rounded-xl p-4">
                 <p className="text-[#0FEA7A] font-semibold text-sm mb-1">Only charging on one side?</p>
@@ -427,9 +427,9 @@ export default function MacBookChargingPortPage() {
             {/* 6th card, guarantee */}
             <div className="bg-[rgba(39,80,77,0.25)] border border-[rgba(15,234,122,0.15)] rounded-2xl p-6 flex flex-col justify-center">
               <Shield className="w-8 h-8 text-[#0FEA7A] mb-4" />
-              <h3 className="text-[#E8F4F1] font-bold text-base mb-2">Up-to-3 Year Warranty</h3>
+              <h3 className="text-[#E8F4F1] font-bold text-base mb-2">12-Month Warranty</h3>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                Every charging port repair is covered by a up-to-3 year warranty on parts and labour. If the same fault returns, we fix it at our assessment fee.
+                Every charging port repair is covered by a 12-month warranty on parts and labour. If the same fault returns, we fix it at our assessment fee.
               </p>
             </div>
           </div>
@@ -507,7 +507,7 @@ export default function MacBookChargingPortPage() {
               MacBook Not Charging?
             </h2>
             <p className="text-[#7A9E98] mb-2">
-              Assessment. up-to-3 year warranty.
+              Assessment. 12-month warranty.
             </p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg, or we collect from you.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

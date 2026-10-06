@@ -359,7 +359,7 @@ export default function ScreenRepairMacMiniPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your Mac Mini display fault, you pay nothing and your machine is returned exactly as we received it. 12-month warranty on all completed display repairs.
+              Every repair is quoted before work begins. If the device cannot be repaired, you pay only the R599 assessment fee. 12-month warranty on all completed display repairs.
             </p>
           </div>
         </div>

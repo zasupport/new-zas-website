@@ -45,7 +45,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro screen repair in Johannesburg. Retina, Touch Bar, Liquid Retina XDR panels. Flexgate cable repair, LP8550 backlight IC, T-Con board. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro screen repair in Johannesburg. Retina, Touch Bar, Liquid Retina XDR panels. Flexgate cable repair, LP8550 backlight IC, T-Con board. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -170,7 +170,7 @@ const faqs = [
   {
     question: 'Is MacBook Pro screen repair covered by Apple warranty or AppleCare?',
     answer:
-      'Accidental damage, cracks, impacts, and physical damage, is not covered by Apple\'s standard one-year warranty. AppleCare+ does cover accidental damage with an excess payment, but it is only available for a limited period after purchase and requires a valid plan. If your MacBook Pro is out of warranty or does not have AppleCare+, ZA Support repairs the display at a fraction of the Apple Store cost. Our up-to-3 year warranty on the repaired display is in many cases longer than the remaining AppleCare+ cover.',
+      'Accidental damage, cracks, impacts, and physical damage, is not covered by Apple\'s standard one-year warranty. AppleCare+ does cover accidental damage with an excess payment, but it is only available for a limited period after purchase and requires a valid plan. If your MacBook Pro is out of warranty or does not have AppleCare+, ZA Support repairs the display at a fraction of the Apple Store cost. Our 12-month warranty on the repaired display is in many cases longer than the remaining AppleCare+ cover.',
   },
   {
     question: 'What is the difference between the Retina display and the Liquid Retina XDR display on MacBook Pro?',
@@ -206,7 +206,7 @@ export default function ScreenRepairMacBookProPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              From flexgate on 2016-2017 models to Liquid Retina XDR delamination on the latest 14-inch and 16-inch MacBook Pros, we have repaired thousands of MacBook Pro screens in our Hyde Park workshop. We diagnose the root cause before quoting, and every repair comes with our up-to-3 year warranty.
+              From flexgate on 2016-2017 models to Liquid Retina XDR delamination on the latest 14-inch and 16-inch MacBook Pros, we have repaired thousands of MacBook Pro screens in our Hyde Park workshop. We diagnose the root cause before quoting, and every repair comes with our 12-month warranty.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
@@ -217,7 +217,7 @@ export default function ScreenRepairMacBookProPage() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Monitor, label: 'All MacBook Pro Models' },
                 { icon: Cpu, label: 'Flexgate Specialist' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -295,7 +295,7 @@ export default function ScreenRepairMacBookProPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
           </p>
           <PricingRange page="/screen-repair/macbook-pro" />
           <PricingNote variant="inline" />
@@ -362,7 +362,7 @@ export default function ScreenRepairMacBookProPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your MacBook Pro screen fault, an assessment fee applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
+              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your MacBook Pro screen fault, an assessment fee applies and your machine is returned exactly as we received it. 12-month warranty on all completed screen repairs.
             </p>
           </div>
         </div>
@@ -395,7 +395,7 @@ export default function ScreenRepairMacBookProPage() {
                 <li>True Tone data preserved on all 2018+ models</li>
                 <li>Turnaround 24-72 hours for most models</li>
                 <li>LP8550 backlight IC repair, no full board replacement</li>
-                <li>Up-to-3 year warranty on all completed repairs</li>
+                <li>12-month warranty on all completed repairs</li>
               </ul>
             </div>
           </div>
@@ -489,7 +489,7 @@ export default function ScreenRepairMacBookProPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″, 14″ and 16″ serviced | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″, 14″ and 16″ serviced | 12-month warranty
             </p>
           </div>
         </div>

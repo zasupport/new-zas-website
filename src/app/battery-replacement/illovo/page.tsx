@@ -112,7 +112,7 @@ export default function BatteryReplacementIllovoPage() {
               {[
                 { icon: Battery, label: 'Apple-spec Batteries' },
                 { icon: Zap, label: 'Assessment' },
-                { icon: CheckCircle, label: 'No Fix No Fee' },
+                { icon: CheckCircle, label: 'Fixed Quote First' },
                 { icon: CheckCircle, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
@@ -180,7 +180,7 @@ export default function BatteryReplacementIllovoPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Battery Issue in Illovo? Assessment.</h2>
-            <p className="text-[#7A9E98] mb-6">We collect from Illovo. Assessment. No Fix No Fee. 12-month warranty.</p>
+            <p className="text-[#7A9E98] mb-6">We collect from Illovo. Assessment. Fixed written quotes. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('BAT-ILLOVO', 'battery')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 💬 WhatsApp for Quote

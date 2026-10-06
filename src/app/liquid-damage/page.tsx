@@ -456,7 +456,7 @@ export default function LiquidDamagePage() {
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
               Assessment fee covers full disassembly, inspection, and written fixed-price quote.
-              If you proceed with the repair, the assessment fee is included in the total. All prices in ZAR including VAT.
+              The R599 assessment fee is a separate, non-refundable charge. All prices in ZAR including VAT.
             </p>
             <PricingRange page="/liquid-damage" />
             <PricingNote />
@@ -487,7 +487,7 @@ export default function LiquidDamagePage() {
                 },
                 {
                   title: 'Transparent Fixed-Price Quotes',
-                  desc: 'You receive a written, fixed-price quote after the assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. Assessment fee included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote after the assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. The R599 assessment fee is a separate, non-refundable charge.',
                 },
                 {
                   title: 'Forbes Africa 30 Under 30 (2019)',
@@ -544,7 +544,7 @@ export default function LiquidDamagePage() {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 { title: 'Logic Board Repair', href: '/logic-board-repair', desc: 'Component-level board repair for no-power, no-display, USB-C faults' },
-                { title: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook and iPhone battery replacement with up-to-3 year warranty' },
+                { title: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook and iPhone battery replacement with 12-month warranty' },
                 { title: 'Screen Repair', href: '/screen-repair', desc: 'Cracked or flickering displays, MacBook, iMac, iPhone' },
                 { title: 'Contact Us', href: '/contact', desc: 'Book an assessment or get a WhatsApp quote' },
               ].map((link) => (

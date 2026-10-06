@@ -81,7 +81,7 @@ const credentials = [
   { icon: Wrench, label: 'Component-Level Repair', detail: 'Has overseen ZA Support’s 25,000+ Mac repair operations, logic board under microscope, chip-level diagnostics' },
   { icon: Shield, label: 'Medical IT Specialist', detail: 'HPCSA-compliant IT for medical practices across Gauteng, POPIA compliance' },
   { icon: CheckCircle, label: 'AI / Cognitive Computing (UNISA)', detail: 'UNISA, 2017-ongoing, Artificial Intelligence, deep structured learning, machine intelligence' },
-  { icon: CheckCircle, label: 'BEE Level 1', detail: 'Broad-based black economic empowerment, qualifying supplier for enterprise and government' },
+  { icon: CheckCircle, label: 'B-BBEE Level 4', detail: 'Broad-based black economic empowerment, qualifying supplier for enterprise and government' },
 ];
 
 const mediaLinks = [

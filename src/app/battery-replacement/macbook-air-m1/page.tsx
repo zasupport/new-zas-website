@@ -166,7 +166,7 @@ export default function BatteryReplacementMacBookAirM1Page() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The MacBook Air M1 redefined battery life, 18 hours from a 49.9 Wh cell. But Johannesburg&apos;s load shedding has pushed many of these machines to their cycle limit years ahead of schedule. We replace the battery in 2 to 3 hours at our Hyde Park workshop, with a 12-month warranty and Assessment guarantee.
+              The MacBook Air M1 redefined battery life, 18 hours from a 49.9 Wh cell. But Johannesburg&apos;s load shedding has pushed many of these machines to their cycle limit years ahead of schedule. We replace the battery in 2 to 3 hours at our Hyde Park workshop, with a 12-month warranty and assessment.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

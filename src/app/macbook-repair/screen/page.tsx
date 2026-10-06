@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Screen Replacement Johannesburg | ZA Support',
   description:
-    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',
+    'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/screen' },
   keywords: [
     'MacBook screen replacement Johannesburg',
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     question: 'Do you use genuine Apple screens?',
-    answer: 'We use OEM-quality replacement display assemblies that meet Apple\'s specifications for brightness, colour accuracy, and resolution. All replacement screens are tested before installation and carry our written up-to-3 year warranty. We do not use cheap aftermarket panels, the quality difference is visible.',
+    answer: 'We use OEM-quality replacement display assemblies that meet Apple\'s specifications for brightness, colour accuracy, and resolution. All replacement screens are tested before installation and carry our written 12-month warranty. We do not use cheap aftermarket panels, the quality difference is visible.',
   },
   {
     question: 'Will I lose any data during a screen replacement?',
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     question: 'What warranty do I get on a MacBook screen replacement?',
-    answer: 'All MacBook screen replacements at ZA Support come with a up-to-3 year warranty covering the replacement panel and our labour. If dead pixels appear, backlight fails, or the display develops any fault within the warranty period, we fix it under the warranty.',
+    answer: 'All MacBook screen replacements at ZA Support come with a 12-month warranty covering the replacement panel and our labour. If dead pixels appear, backlight fails, or the display develops any fault within the warranty period, we fix it under the warranty.',
   },
 ];
 
@@ -98,7 +98,7 @@ const serviceSchema = {
     { '@type': 'Suburb', name: 'Bryanston' },
     { '@type': 'Suburb', name: 'Hyde Park' },
   ],
-  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. up-to-3 year warranty.',
+  description: 'MacBook screen replacement in Johannesburg. Cracked Retina display, dead pixels, backlight failure, lines on screen, flickering. All M-series and Intel MacBook Air and Pro models. Same-day available. 12-month warranty.',
   availableChannel: [
     { '@type': 'ServiceChannel', serviceUrl: 'https://wa.me/27645295863', serviceType: 'WhatsApp' },
     { '@type': 'ServiceChannel', servicePhone: '+27645295863', serviceType: 'Phone' },
@@ -139,7 +139,7 @@ export default function MacBookScreenPage() {
           <Breadcrumb items={[{ label: 'MacBook Repair', href: '/macbook-repair' }, { label: 'Screen Replacement' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] text-[#0FEA7A] text-sm font-semibold px-4 py-2 rounded-full mb-6">
-              <CheckCircle className="w-4 h-4" /> Same-Day Available · Up-to-3 Year Warranty · Hyde Park JHB
+              <CheckCircle className="w-4 h-4" /> Same-Day Available · 12-Month Warranty · Hyde Park JHB
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               MacBook Screen Replacement<br />
@@ -178,7 +178,7 @@ export default function MacBookScreenPage() {
             {[
               { stat: '50,000+', label: 'Screens Replaced' },
               { stat: 'Same-Day', label: 'Available (most models)' },
-              { stat: '12-Month', label: 'Up-to-3 Year Warranty' },
+              { stat: '12-Month', label: '12-Month Warranty' },
               { stat: 'OEM Quality', label: 'Display Assemblies' },
             ].map((item) => (
               <div key={item.label} className="flex flex-col items-center">
@@ -310,7 +310,7 @@ export default function MacBookScreenPage() {
                 step: '05',
                 icon: <Clock className="w-5 h-5" />,
                 title: 'Warranty Issued',
-                desc: 'Your up-to-3 year warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period, fixed under the warranty.',
+                desc: 'Your 12-month warranty starts from the moment we hand the MacBook back. Dead pixels, backlight failure, or any display fault within the warranty period, fixed under the warranty.',
               },
             ].map((item) => (
               <div key={item.step} className="flex gap-6 bg-[rgba(255,255,255,0.03)] border border-[rgba(255,255,255,0.08)] rounded-2xl p-6 hover:border-[rgba(15,234,122,0.15)] transition-colors">
@@ -343,7 +343,7 @@ export default function MacBookScreenPage() {
                 desc: 'If we cannot fix your MacBook screen, assessment fee applies. We absorb the diagnostic cost. Zero risk to you.',
               },
               {
-                title: 'Up-to-3 Year Warranty',
+                title: '12-Month Warranty',
                 desc: 'Every screen replacement carries a warranty on parts and labour. In writing. No verbal promises.',
               },
               {
@@ -455,7 +455,7 @@ export default function MacBookScreenPage() {
             {[
               { title: 'Assessment', body: 'We diagnose the fault before you commit. An assessment fee applies.' },
               { title: 'Assessment', body: 'If we cannot repair it, assessment fee applies. Simple as that.' },
-              { title: 'Up-to-3 Year Warranty', body: 'Every screen replacement carries a up-to-3 year warranty on parts and labour.' },
+              { title: '12-Month Warranty', body: 'Every screen replacement carries a 12-month warranty on parts and labour.' },
             ].map(({ title, body }) => (
               <div key={title} className="glass-card p-5">
                 <p className="text-[#0FEA7A] font-bold text-sm mb-1">{title}</p>
@@ -528,7 +528,7 @@ export default function MacBookScreenPage() {
               Cracked MacBook Screen in Johannesburg?
             </h2>
             <p className="text-[#7A9E98] mb-2 text-lg">Same-day available. Assessment.</p>
-            <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · up-to-3 year warranty on all screen replacements</p>
+            <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg · 12-month warranty on all screen replacements</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={buildWhatsAppUrl('MBR-SCR', 'macbook-repair')}

@@ -91,7 +91,7 @@ const jsonLd = {
           name: 'Do you charge for an assessment?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'An assessment fee applies. If you proceed with the repair, this fee applies, you do not pay it on top. If you decline the repair after assessment, the assessment fee is payable. New managed services clients receive a complimentary IT assessment at our assessment fee.',
+            text: 'An assessment fee applies. If the device cannot be repaired, you pay only the R599 assessment fee. If you decline the repair after assessment, the assessment fee is payable. New managed services clients receive a complimentary IT assessment at our assessment fee.',
           },
         },
         {
@@ -107,7 +107,7 @@ const jsonLd = {
           name: 'How much does MacBook repair cost in Johannesburg?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'MacBook repair costs depend on the fault. An assessment fee applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a up-to-3 year warranty.',
+            text: 'MacBook repair costs depend on the fault. An assessment fee applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a 12-month warranty.',
           },
         },
         {
@@ -152,7 +152,7 @@ const services = [
     icon: Cpu,
     title: 'Logic Board Repair',
     description:
-      'Component-level repair for MacBook no-power, no-display, USB-C failure, GPU faults, and liquid damage. We repair the chips other shops replace. up-to-3 year warranty. Assessment.',
+      'Component-level repair for MacBook no-power, no-display, USB-C failure, GPU faults, and liquid damage. We repair the chips other shops replace. 12-month warranty. Assessment.',
     href: '/logic-board-repair',
     highlight: '#1 Service',
   },
@@ -160,7 +160,7 @@ const services = [
     icon: Laptop,
     title: 'MacBook Repair',
     description:
-      'Component-level repair for all MacBook models. Logic board component-level repair, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. up-to-3 year warranty on every job.',
+      'Component-level repair for all MacBook models. Logic board component-level repair, screen replacement, battery replacement, liquid damage recovery, keyboard repair and charging port replacement. 12-month warranty on every job.',
     href: '/macbook-repair',
     highlight: null,
   },
@@ -168,7 +168,7 @@ const services = [
     icon: Wrench,
     title: 'iMac Repair',
     description:
-      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a up-to-3 year warranty.',
+      'iMac screen replacement, RAM upgrades, SSD upgrades, logic board repair and liquid damage recovery. Intel and Apple Silicon iMac supported. All repairs carry a 12-month warranty.',
     href: '/imac-repair',
     highlight: null,
   },
@@ -283,7 +283,7 @@ export default function ServicesPage() {
             {[
               ['Complimentary IT Assessment', 'For new managed services clients'],
               ['Assessment Process', 'Transparent assessment fee'],
-              ['Up-to-3 Year Warranty', 'On all parts and labour'],
+              ['12-Month Warranty', 'On all parts and labour'],
               ['4.9 / 5 Rating', '632+ client reviews'],
             ].map(([heading, sub]) => (
               <div key={heading}>
@@ -395,7 +395,7 @@ export default function ServicesPage() {
                 ['Medical IT Experts', 'POPIA + HPCSA-compliant solutions for healthcare practices'],
                 ['Proactive Monitoring', 'Health Check detects failures before they happen'],
                 ['Transparent Pricing', 'All prices published. No surprise invoices.'],
-                ['Up-to-3 Year Warranty', 'On all parts and labour, no exceptions'],
+                ['12-Month Warranty', 'On all parts and labour, no exceptions'],
               ].map(([title, desc]) => (
                 <div key={title} className="glass-card p-5">
                   <p className="text-[#E8F4F1] font-bold text-sm mb-1.5">
@@ -426,15 +426,15 @@ export default function ServicesPage() {
               },
               {
                 q: 'Do you charge for an assessment?',
-                a: 'An assessment fee applies to all device diagnostics. If you approve the repair and proceed, the assessment fee applies, you do not pay it separately. If you decline the repair after assessment, the assessment fee is payable for the diagnostic work completed.',
+                a: 'An assessment fee applies to all device diagnostics. If the device cannot be repaired, you pay only the R599 assessment fee. If you decline the repair after assessment, the assessment fee is payable for the diagnostic work completed.',
               },
               {
                 q: 'Do new managed services clients get an onboarding assessment?',
-                a: 'Yes. New clients signing up for IT managed services receive an IT assessment included in onboarding. We audit your environment, identify risks, and recommend the right plan before any contract is signed.',
+                a: 'Yes. The R599 assessment fee is a separate, non-refundable charge. We audit your environment, identify risks, and recommend the right plan before any contract is signed.',
               },
               {
                 q: 'How much does MacBook repair cost in Johannesburg?',
-                a: 'MacBook repair costs depend on the fault. An assessment fee applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a up-to-3 year warranty.',
+                a: 'MacBook repair costs depend on the fault. An assessment fee applies. Contact us for a quote, we repair logic board components that other shops replace entirely. All repairs carry a 12-month warranty.',
               },
               {
                 q: 'What is Health Check monitoring?',

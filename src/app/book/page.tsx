@@ -112,7 +112,7 @@ export default function BookPage() {
           </h1>
           <p className="text-lg text-[#7A9E98] max-w-xl leading-relaxed">
             Fill in the form below and we will contact you within 2 hours to confirm your booking.
-            Assessment fee applies. up-to-3 year warranty on all repairs.
+            Assessment fee applies. 12-month warranty on all repairs.
           </p>
         </div>
       </section>
@@ -123,7 +123,7 @@ export default function BookPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             {[
               ['Assessment', 'Absorbed into repair if you proceed'],
-              ['Up-to-3 Year Warranty', 'On all parts and labour'],
+              ['12-Month Warranty', 'On all parts and labour'],
               ['2-Hour Response', 'We call you back fast'],
               ['4.9★ Reviews', '120+ happy clients'],
             ].map(([title, sub]) => (

@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Air Logic Board Repair',
   description:
-    'MacBook Air logic board repair in Johannesburg. Assessment, up-to-3 year warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air logic board repair in Johannesburg. Assessment, 12-month warranty. All Intel + M1/M2/M3 models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/macbook-air' },
   keywords: [
     'MacBook Air logic board repair Johannesburg',
@@ -111,7 +111,7 @@ const serviceAreas = [
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Logic Board Repair Johannesburg',
-  description: 'Expert MacBook Air logic board repair and component-level repair in Johannesburg. All Intel and Apple Silicon models. Assessment. up-to-3 year warranty.',
+  description: 'Expert MacBook Air logic board repair and component-level repair in Johannesburg. All Intel and Apple Silicon models. Assessment. 12-month warranty.',
   lowPrice: '5500',
   highPrice: '22000',
 });
@@ -538,7 +538,7 @@ export default function MacBookAirLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Air Logic Board Fault?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. 12-month warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Mon-Thu 08:00-17:00 · Fri 08:00-16:30 · Closed Weekends</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

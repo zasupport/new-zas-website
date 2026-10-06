@@ -197,7 +197,7 @@ export default function MacBookRepairPage() {
               MacBook Repair<br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. Assessment policy. up-to-3 year warranty.
+              Battery, screen, keyboard, liquid damage, logic board. All M-series and Intel MacBook Air and MacBook Pro models. Assessment policy. 12-month warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -213,7 +213,7 @@ export default function MacBookRepairPage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-6 mt-8 text-sm text-[#7A9E98]">
-              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty</span>
+              <span className="flex items-center gap-1.5"><BadgeCheck className="w-4 h-4 text-[#0FEA7A]" /> 12-Month Warranty</span>
               <span className="flex items-center gap-1.5"><Shield className="w-4 h-4 text-[#0FEA7A]" /> Assessment</span>
               <span className="flex items-center gap-1.5"><Clock className="w-4 h-4 text-[#0FEA7A]" /> Same-day for most repairs</span>
             </div>
@@ -288,7 +288,7 @@ export default function MacBookRepairPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs text-center mt-6">
-            Final cost confirmed after assessment fee. All repairs include up-to-3 year warranty.
+            Final cost confirmed after assessment fee. All repairs include 12-month warranty.
           </p>
           <div className="mt-8 p-5 bg-[rgba(15,234,122,0.05)] border border-[rgba(15,234,122,0.15)] rounded-xl text-center">
             <p className="text-[#E8F4F1] text-sm">

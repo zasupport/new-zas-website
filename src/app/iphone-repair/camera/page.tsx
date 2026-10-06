@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'iPhone Camera Repair Johannesburg | ZA Support',
   description:
-    'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. up-to-3 year warranty. Hyde Park.',
+    'iPhone camera repair in Johannesburg. Blurry photos, black screen, cracked lens. Front and rear. iPhone 12 through 16 Pro Max. 12-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/camera' },
   keywords: [
     'iPhone camera repair Johannesburg',
@@ -84,7 +84,7 @@ const processSteps = [
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct camera module is in stock for your specific model. We stock modules for all current iPhone generations.' },
   { step: '3', title: 'Camera Replaced', desc: 'A certified technician replaces the camera module or lens cover. Camera repairs typically take 60-90 minutes.' },
   { step: '4', title: 'Full Camera Test', desc: 'We test all lenses (wide, ultra-wide, telephoto), the flash, front camera, video OIS, and Portrait Mode before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the repair and our labour. Assessment applies.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a 12-month warranty on the repair and our labour. Assessment applies.' },
 ];
 
 const faqs = [
@@ -126,7 +126,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on iPhone camera repairs?',
     answer:
-      'All iPhone camera repairs at ZA Support come with a up-to-3 year warranty on the replacement module or lens and our labour. If the camera develops any fault within the warranty period, we fix it at our assessment fee.',
+      'All iPhone camera repairs at ZA Support come with a 12-month warranty on the replacement module or lens and our labour. If the camera develops any fault within the warranty period, we fix it at our assessment fee.',
   },
 ];
 
@@ -134,7 +134,7 @@ const faqs = [
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Camera Repair Johannesburg',
-  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. up-to-3 year warranty.',
+  description: 'iPhone camera repair in Johannesburg for all models iPhone 12 through 16 Pro Max. Blurry photos, black screen, cracked lens, OIS failure. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -179,10 +179,10 @@ export default function iPhoneCameraPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Blurry photos, black camera screen, cracked lens, OIS failure, we repair all iPhone camera faults.
-              Front and rear cameras, iPhone 12 through 16 Pro Max, up-to-3 year warranty, Hyde Park Johannesburg.
+              Front and rear cameras, iPhone 12 through 16 Pro Max, 12-month warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment', 'Up-to-3 Year Warranty', 'Face ID preserved', 'Assessment', 'ProRes compatible'].map((item) => (
+              {['Assessment', '12-Month Warranty', 'Face ID preserved', 'Assessment', 'ProRes compatible'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -240,7 +240,7 @@ export default function iPhoneCameraPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment.
+            All repairs include written 12-month warranty. Assessment.
             Face ID is never affected by front camera replacement.
           </p>
           <PricingNote variant="inline" />

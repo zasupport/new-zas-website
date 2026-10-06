@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Pro M4 Liquid Damage Repair Johannesburg',
-  description: 'MacBook Pro M4, M4 Pro, M4 Max (14-inch & 16-inch, 2024) liquid damage repair in Johannesburg. Coffee spills, water, condensation. Ultrasonic cleaning and component-level board repair. No Fix No Fee, assessment fee may apply.',
+  description: 'MacBook Pro M4, M4 Pro, M4 Max (14-inch & 16-inch, 2024) liquid damage repair in Johannesburg. Coffee spills, water, condensation. Ultrasonic cleaning and component-level board repair. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-m4' },
 };
 
@@ -30,7 +30,7 @@ const faqs = [
   { question: 'What is ultrasonic cleaning?', answer: 'We remove the M4 Pro logic board and submerge it in a professional ultrasonic bath. High-frequency sound waves dislodge corrosion, sugars and mineral deposits from under components where manual cleaning cannot reach. We then inspect under magnification and replace any damaged components individually.' },
   { question: 'Does liquid damage void my Apple warranty?', answer: 'Apple treats liquid damage as accidental and does not cover it under the standard warranty or AppleCare. Liquid contact indicators inside the M4 Pro change colour on contact with moisture; once triggered, Apple will only offer a full board replacement. Our component-level repair is not constrained by those indicators, we repair the actual damaged components.' },
   { question: 'How long does M4 Pro liquid damage repair take?', answer: 'Ultrasonic cleaning takes about 24 hours including drying. Component-level repair after cleaning typically adds 2-4 business days depending on corrosion, so total turnaround is usually 3-5 business days. Severe multi-component cases can take up to 7. The written quote states the timeline.' },
-  { question: 'Is my data safe after liquid damage?', answer: 'In most cases yes. The M4 chip integrates storage on-die and resists liquid well. As long as the M4 die is not physically cracked, your data is typically accessible once the surrounding circuits are repaired. A data-recovery assessment is included in the diagnostic.' },
+  { question: 'Is my data safe after liquid damage?', answer: 'In most cases yes. The M4 chip integrates storage on-die and resists liquid well. As long as the M4 die is not physically cracked, your data is typically accessible once the surrounding circuits are repaired. The R599 assessment fee is a separate, non-refundable charge.' },
   { question: 'Do you collect liquid-damaged MacBooks from Johannesburg suburbs?', answer: 'Yes, same-day collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, Parktown North, Greenside, Craighall and surrounding areas. For liquid damage, speed matters. WhatsApp 064 529 5863 to arrange immediate collection.' },
 ];
 
@@ -83,7 +83,7 @@ export default function MacBookProM4LiquidDamagePage() {
               <span>Hyde Park, Johannesburg | Same-day collection from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Ultrasonic Cleaning', 'Component-Level Repair', 'No Fix No Fee', 'Assessment Fee May Apply'].map((l) => (
+              {['Ultrasonic Cleaning', 'Component-Level Repair', 'Fixed Quote First', 'Assessment Fee May Apply'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>

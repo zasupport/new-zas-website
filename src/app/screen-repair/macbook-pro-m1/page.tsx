@@ -47,7 +47,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M1 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro M1 screen repair in Johannesburg. IPS Retina display replacement, display cable fault, backlight driver IC repair, True Tone preservation. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro M1 screen repair in Johannesburg. IPS Retina display replacement, display cable fault, backlight driver IC repair, True Tone preservation. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -240,7 +240,7 @@ export default function ScreenRepairMacBookProM1Page() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Cpu, label: 'M1 Chip Specialists' },
                 { icon: Eye, label: 'True Tone Preserved' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -318,7 +318,7 @@ export default function ScreenRepairMacBookProM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
           </p>
           <PricingRange page="/screen-repair/macbook-pro-m1" />
           <PricingNote variant="inline" />
@@ -385,7 +385,7 @@ export default function ScreenRepairMacBookProM1Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your MacBook Pro M1 screen fault, an assessment fee applies and your machine is returned exactly as we received it. Up-to-3 year warranty on all completed screen repairs.
+              Every repair is quoted before work begins. Our Assessment policy means that if we cannot resolve your MacBook Pro M1 screen fault, an assessment fee applies and your machine is returned exactly as we received it. 12-month warranty on all completed screen repairs.
             </p>
           </div>
         </div>
@@ -418,7 +418,7 @@ export default function ScreenRepairMacBookProM1Page() {
                 <li>True Tone data preserved on every display replacement</li>
                 <li>Turnaround 24-48 hours for most M1 screen repairs</li>
                 <li>Backlight driver IC repair, no full logic board replacement</li>
-                <li>Up-to-3 year warranty on all completed repairs</li>
+                <li>12-month warranty on all completed repairs</li>
               </ul>
             </div>
           </div>
@@ -512,7 +512,7 @@ export default function ScreenRepairMacBookProM1Page() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro M1 screen and cable repair | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro M1 screen and cable repair | 12-month warranty
             </p>
           </div>
         </div>
