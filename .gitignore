@@ -40,3 +40,7 @@ tools/robots/validation.log
 test-results/
 # design-template auditor local cache (rebuilt on demand)
 scripts/.design-template-ledger.json
+
+# ZA private AI handoffs (contain proprietary supply-chain references)
+docs/ai-handoffs/
+docs/claude-md/

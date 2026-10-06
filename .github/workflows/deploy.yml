@@ -27,6 +27,8 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - name: Fail-closed validation
+        env:
+          SUPPLIER_LEAK_PATTERNS: ${{ secrets.SUPPLIER_LEAK_PATTERNS }}
         run: |
           set -euo pipefail
           npm run typecheck
@@ -35,6 +37,7 @@ jobs:
           npm run check:design
           npm run check:reliability
           npm run check:security
+          npm run check:supplier
           npm run build
 
   # ── WAIT FOR VERCEL — poll until the new deployment is live ───────────────
