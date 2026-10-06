@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Pro Battery Replacement Johannesburg | All Models | ZA Support',
   description:
-    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. Genuine replacement batteries, data safe, up-to-3 year warranty. Assessment. Hyde Park.',
+    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. Genuine replacement batteries, data safe, 12-month warranty. Assessment. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/macbook-pro-repair/battery' },
   keywords: [
     'MacBook Pro battery replacement Johannesburg',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'MacBook Pro Battery Replacement Johannesburg | All Models | ZA Support',
-    description: 'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. up-to-3 year warranty. Assessment.',
+    description: 'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models. 12-month warranty. Assessment.',
     url: 'https://zasupport.com/macbook-pro-repair/battery',
     siteName: 'ZA Support',
     type: 'website',
@@ -42,7 +42,7 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
   description:
-    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models covered. Assessment. up-to-3 year warranty on parts and labour.',
+    'MacBook Pro battery replacement in Johannesburg. All Intel and Apple Silicon models covered. Assessment. 12-month warranty on parts and labour.',
 };
 
 const breadcrumbSchema = {
@@ -77,7 +77,7 @@ const process = [
   { step: '01', title: 'Drop In for Assessment', desc: 'Bring your MacBook Pro to our Hyde Park workshop. No appointment required, though calling ahead confirms stock for same-day service.' },
   { step: '02', title: 'Written Quote', desc: 'We check battery health, cycle count, and cell condition. You receive a fixed quote before any work begins, no surprises.' },
   { step: '03', title: 'Battery Replacement (Data Untouched)', desc: 'We replace the battery only. Your storage, apps, and data are completely unaffected. No reinstall or erase required.' },
-  { step: '04', title: 'Full Test and Return', desc: 'Battery health confirmed at 100% in macOS before collection. up-to-3 year warranty issued on parts and labour.' },
+  { step: '04', title: 'Full Test and Return', desc: 'Battery health confirmed at 100% in macOS before collection. 12-month warranty issued on parts and labour.' },
 ];
 
 const faqs = [
@@ -107,7 +107,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on battery replacements?',
-    answer: 'up-to-3 year warranty on the battery and labour. If the battery fails or shows the same fault within the warranty period, we replace it at our assessment fee. Extended warranty is also available on request.',
+    answer: '12-month warranty on the battery and labour. If the battery fails or shows the same fault within the warranty period, we replace it at our assessment fee. Extended warranty is also available on request.',
   },
   {
     question: 'What cycle count is considered high for a MacBook Pro battery?',
@@ -146,13 +146,13 @@ export default function MacBookProBatteryPage() {
               <span className="text-[#0FEA7A]">Replacement</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Battery draining fast, not charging, or swollen? We replace MacBook Pro batteries on all models. up-to-3 year warranty.
+              Battery draining fast, not charging, or swollen? We replace MacBook Pro batteries on all models. 12-month warranty.
             </p>
             {/* Badges */}
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Battery, label: 'Battery Replacement' },
-                { icon: Shield, label: 'Up-to-3 Year Warranty' },
+                { icon: Shield, label: '12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'Data Safe' },
               ].map(({ icon: Icon, label }) => (
@@ -317,7 +317,7 @@ export default function MacBookProBatteryPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Battery Dying?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Completed in 1-3 hours. up-to-3 year warranty. Assessment.</p>
+            <p className="text-[#7A9E98] mb-2">Completed in 1-3 hours. 12-month warranty. Assessment.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

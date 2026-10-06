@@ -79,7 +79,7 @@ const faqs = [
   {
     question: 'How much does the Mac assessment cost?',
     answer:
-      'The assessment fee applies. This covers the full diagnostic inspection of your Mac, board-level testing, fault identification, and a written quote. If you proceed with the repair, this fee applies and you do not pay it separately.',
+      'The assessment fee applies. This covers the full diagnostic inspection of your Mac, board-level testing, fault identification, and a written quote. If the device cannot be repaired, you pay only the R599 assessment fee.',
   },
   {
     question: 'What happens if I proceed with the repair?',

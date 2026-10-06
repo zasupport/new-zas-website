@@ -16,7 +16,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Mac Repair Johannesburg, Logic Board Specialists',
   description:
-    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. up-to-3 year warranty. Call 064 529 5863.",
+    "Johannesburg's Apple repair specialists. MacBook liquid damage, logic board component-level repair, iPhone & iPad repair. 4.9★ 632+ reviews. Hyde Park. 12-month warranty. Call 064 529 5863.",
   alternates: { canonical: 'https://zasupport.com' },
 };
 
@@ -146,7 +146,7 @@ const homepageFaqs = [
   {
     question: 'What is your assessment fee?',
     answer:
-      'ZA Support charges an assessment fee. This covers a full diagnostic inspection of your device. If you choose to proceed with the repair, the assessment fee is included in the total. If you choose not to proceed, the assessment fee applies. All repairs carry a up-to-3 year warranty on parts and labour.',
+      'ZA Support charges an assessment fee. This covers a full diagnostic inspection of your device. The R599 assessment fee is a separate, non-refundable charge. If you choose not to proceed, the assessment fee applies. All repairs carry a 12-month warranty on parts and labour.',
   },
   {
     question: 'How much does Mac repair cost in Johannesburg?',
@@ -171,7 +171,7 @@ const homepageFaqs = [
   {
     question: 'Is ZA Support an Apple Authorised Service Provider?',
     answer:
-      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple, and we can repair devices that Apple would refuse to fix (out of up-to-3 year warranty, out of production, or with third-party modifications). All repairs carry a up-to-3 year warranty on parts and labour. Extended warranty is available on request.',
+      'ZA Support is an independent Apple specialist, not an Apple Authorised Service Provider (AASP). This means we charge significantly less than Apple, and we can repair devices that Apple would refuse to fix (out of 12-month warranty, out of production, or with third-party modifications). All repairs carry a 12-month warranty on parts and labour. Extended warranty is available on request.',
   },
 ];
 
@@ -206,7 +206,7 @@ export default function HomePage() {
             </h1>
 
             <p className="speakable-summary text-base sm:text-lg text-[#7A9E98] mb-8 max-w-2xl leading-relaxed">
-              MacBook liquid damage, logic board component-level repair, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment. up-to-3 year warranty.
+              MacBook liquid damage, logic board component-level repair, screen, battery, iPhone. Hyde Park, Johannesburg. Assessment. 12-month warranty.
             </p>
 
             {/* Stats */}
@@ -259,7 +259,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-6 sm:gap-10 overflow-x-auto pb-1 sm:flex-wrap sm:justify-center">
             {[
-              { icon: Shield, label: 'Up-to-3 Year Warranty' },
+              { icon: Shield, label: '12-Month Warranty' },
               { icon: BadgeCheck, label: '16 Years Experience' },
               { icon: Clock, label: 'Fastest Turnaround Times' },
               { icon: Search, label: 'Assessment' },
@@ -444,7 +444,7 @@ export default function HomePage() {
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
               Bring your device in. We&apos;ll assess it, give you a clear quote,
-              and fix it fast, backed by a up-to-3 year warranty. Extended warranty available on request.
+              and fix it fast, backed by a 12-month warranty. Extended warranty available on request.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

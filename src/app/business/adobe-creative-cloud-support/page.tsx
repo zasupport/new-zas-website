@@ -271,7 +271,7 @@ export default function AdobeCreativeCloudSupportPage() {
             <p>
               We have operated as an Apple repair and IT specialist from Hyde Park since
               2009. Over seventeen years we have built a 4.9-star reputation across more
-              than 600 Google reviews and hold BEE Level 1 certification. We are an Apple
+              than 600 Google reviews and hold B-BBEE Level 4 certification. We are an Apple
               Authorised IT Specialist, a Microsoft Cloud Solution Provider, and a Ubiquiti
               partner with more than 1,100 UniFi installations since 2014. We work with
               consumer customers, SMBs, corporates, and medical practices across Gauteng,

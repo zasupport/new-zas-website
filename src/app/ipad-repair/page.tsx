@@ -300,7 +300,7 @@ export default function iPadRepairPage() {
               },
               {
                 title: 'Warranty',
-                desc: 'All parts and labour carry a up-to-3 year warranty. Same fault within the warranty period, we fix it free.',
+                desc: 'All parts and labour carry a 12-month warranty. Same fault within the warranty period, we fix it free.',
               },
               {
                 title: 'Assessment',

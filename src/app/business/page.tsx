@@ -54,7 +54,7 @@ const offerings = [
   {
     icon: Landmark,
     title: 'Government IT Services',
-    desc: 'BEE Level 1 Apple specialist support for public-sector and government Apple environments.',
+    desc: 'B-BBEE Level 4 Apple specialist support for public-sector and government Apple environments.',
     href: '/government',
   },
 ];

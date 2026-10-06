@@ -68,7 +68,7 @@ const keyboardTypes = [
   {
     name: 'Butterfly Keyboard',
     models: '2016-2019 MacBook Pro (all sizes)',
-    description: 'Apple\'s butterfly mechanism is prone to dust ingress, key bounce, and complete switch failure. Apple\'s repair programme has ended. The fix involves replacing the full top case assembly, including the keyboard, battery bracket, and chassis. We carry top cases for most affected models with a up-to-3 year warranty.',
+    description: 'Apple\'s butterfly mechanism is prone to dust ingress, key bounce, and complete switch failure. Apple\'s repair programme has ended. The fix involves replacing the full top case assembly, including the keyboard, battery bracket, and chassis. We carry top cases for most affected models with a 12-month warranty.',
     warning: true,
   },
   {
@@ -100,7 +100,7 @@ const process = [
   { step: '01', title: 'Drop In for Assessment', desc: 'Bring your MacBook Pro to our Hyde Park workshop. We test every key, check for liquid damage, and identify whether the fault is butterfly mechanism, top case, or logic board input.' },
   { step: '02', title: 'Written Quote', desc: 'You receive a fixed price before any work begins. For butterfly models, we also confirm whether any Apple extended programme coverage may apply.' },
   { step: '03', title: 'Top Case or Keyboard Replacement', desc: 'Most MacBook Pro keyboard repairs require full top case assembly replacement. Your storage and data are completely unaffected throughout.' },
-  { step: '04', title: 'Full Test and Return', desc: 'Every key tested before collection. up-to-3 year warranty issued on parts and labour.' },
+  { step: '04', title: 'Full Test and Return', desc: 'Every key tested before collection. 12-month warranty issued on parts and labour.' },
 ];
 
 const faqs = [
@@ -130,7 +130,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on keyboard repairs?',
-    answer: 'up-to-3 year warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at our assessment fee. Extended warranty is also available on request.',
+    answer: '12-month warranty on the top case assembly and labour. If the same fault reoccurs within the warranty period, we fix it at our assessment fee. Extended warranty is also available on request.',
   },
   {
     question: 'Are MacBook Pro 2020 and later keyboards more reliable?',
@@ -169,7 +169,7 @@ export default function MacBookProKeyboardPage() {
               <span className="text-[#0FEA7A]">Repair</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-2xl">
-              Butterfly keyboard failure, sticky keys, keys not registering. 2015-2019 MacBook Pro specialists. All models. up-to-3 year warranty.
+              Butterfly keyboard failure, sticky keys, keys not registering. 2015-2019 MacBook Pro specialists. All models. 12-month warranty.
             </p>
             <div className="bg-[rgba(255,165,0,0.08)] border border-[rgba(255,165,0,0.25)] rounded-xl px-4 py-3 mb-8 inline-flex items-start gap-2 max-w-2xl">
               <AlertTriangle className="w-4 h-4 text-orange-400 flex-shrink-0 mt-0.5" />
@@ -181,7 +181,7 @@ export default function MacBookProKeyboardPage() {
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Keyboard, label: 'Keyboard Repair' },
-                { icon: Shield, label: 'Up-to-3 Year Warranty' },
+                { icon: Shield, label: '12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
                 { icon: CheckCircle, label: 'Data Safe' },
               ].map(({ icon: Icon, label }) => (
@@ -345,7 +345,7 @@ export default function MacBookProKeyboardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Keyboard Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment. Fixed quote before any work begins.</p>
+            <p className="text-[#7A9E98] mb-2">12-month warranty. Assessment. Fixed quote before any work begins.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -101,7 +101,7 @@ const faqs = [
   {
     question: 'What is your assessment fee policy?',
     answer:
-      'Our assessment fee applies. This covers a full board-level diagnostic under microscope and a written fixed-price quote. If you proceed with the repair, the assessment fee is included in the total repair cost. If you decide not to proceed, the assessment fee is payable for the diagnostic work completed. We never start a repair without your explicit written approval of the fixed-price quote.',
+      'Our assessment fee applies. This covers a full board-level diagnostic under microscope and a written fixed-price quote. The R599 assessment fee is a separate, non-refundable charge. If you decide not to proceed, the assessment fee is payable for the diagnostic work completed. We never start a repair without your explicit written approval of the fixed-price quote.',
   },
   {
     question: 'How long does logic board repair take?',
@@ -477,7 +477,7 @@ export default function LogicBoardRepairPage() {
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
               Assessment fee applies, covers full board diagnostic under microscope and written
-              fixed-price quote. Included in the repair cost if you proceed. All prices in ZAR including VAT.
+              fixed-price quote. The R599 assessment fee is a separate, non-refundable charge. All prices in ZAR including VAT.
             </p>
             <PricingRange page="/logic-board-repair" />
             <PricingNote />
@@ -596,7 +596,7 @@ export default function LogicBoardRepairPage() {
                 },
                 {
                   title: 'Transparent Fixed-Price Quotes',
-                  desc: 'You receive a written, fixed-price quote after the assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. The assessment fee is included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote after the assessment, and that price is the price. No surprises, no "we found something else" upsells, no hidden charges. The R599 assessment fee is a separate, non-refundable charge.',
                 },
                 {
                   title: 'Forbes Africa 30 Under 30 (2019)',
@@ -677,7 +677,7 @@ export default function LogicBoardRepairPage() {
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {[
                 { title: 'Liquid Damage Repair', href: '/liquid-damage', desc: 'Ultrasonic cleaning and component-level board recovery after spills' },
-                { title: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook and iPhone battery replacement with up-to-3 year warranty' },
+                { title: 'Battery Replacement', href: '/battery-replacement', desc: 'MacBook and iPhone battery replacement with 12-month warranty' },
                 { title: 'Screen Repair', href: '/screen-repair', desc: 'Cracked or flickering MacBook, iMac, iPhone displays' },
                 { title: 'Contact Us', href: '/contact', desc: 'Book an assessment or get a WhatsApp quote' },
               ].map((link) => (

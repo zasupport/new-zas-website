@@ -14,14 +14,14 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Enterprise Apple Support Johannesburg | Fleet Management & MDM | ZA Support',
   description:
-    'Enterprise Apple fleet management, MDM implementation, and dedicated IT support for businesses in Johannesburg. BEE Level 1 provider. Assessment. Call 064 529 5863.',
+    'Enterprise Apple fleet management, MDM implementation, and dedicated IT support for businesses in Johannesburg. B-BBEE Level 4 provider. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/enterprise' },
   keywords: [
     'enterprise apple support johannesburg',
     'apple fleet management south africa',
     'mdm implementation johannesburg',
     'corporate apple support gauteng',
-    'bee level 1 it provider johannesburg',
+    'b-bbee level 4 it provider johannesburg',
     'enterprise mac support',
     'apple device lifecycle management',
     'corporate it support hyde park',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 const serviceSchema = buildServiceSchema({
   name: 'Enterprise Apple Support & Fleet Management',
   description:
-    'Enterprise-grade Apple fleet management, MDM implementation, device lifecycle management, and dedicated IT support for businesses across Johannesburg and Gauteng. BEE Level 1 certified provider.',
+    'Enterprise-grade Apple fleet management, MDM implementation, device lifecycle management, and dedicated IT support for businesses across Johannesburg and Gauteng. B-BBEE Level 4 contributor.',
   lowPrice: '599',
   highPrice: '25000',
 });
@@ -50,9 +50,9 @@ const enterpriseFaqs = [
       'Our enterprise Apple fleet management covers the full device lifecycle: procurement advisory, MDM enrolment (JAMF Pro, JAMF Now, or Apple Business Manager), zero-touch deployment, automated software distribution, security policy enforcement, remote wipe and lock, asset tracking, and end-of-life data sanitisation. We manage fleets from 5 to 500+ devices across MacBook, iMac, iPhone, and iPad.',
   },
   {
-    question: 'Are you a BEE Level 1 services provider?',
+    question: 'What is your B-BBEE status?',
     answer:
-      'Yes. Vizibiliti Intelligent Solutions (Pty) Ltd, trading as ZA Support, is a BEE Level 1 contributor. We are committed to youth development and women empowerment programmes within the technology sector. Our BEE certificate is available on request for procurement and tender documentation.',
+      'Yes. ZA Support is a B-BBEE Level 4 contributor. We are committed to youth development and women empowerment programmes within the technology sector. Our B-BBEE certificate is available on request for procurement and tender documentation.',
   },
   {
     question: 'What MDM solutions do you implement?',
@@ -193,7 +193,7 @@ export default function EnterprisePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <p className="text-[#0FEA7A] text-sm font-semibold uppercase tracking-widest mb-3">
-              Enterprise Apple Support · BEE Level 1 Provider · Hyde Park, Johannesburg
+              Enterprise Apple Support · B-BBEE Level 4 Provider · Hyde Park, Johannesburg
             </p>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-[1.05] mb-6">
@@ -254,7 +254,7 @@ export default function EnterprisePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-6 sm:gap-10 overflow-x-auto pb-1 sm:flex-wrap sm:justify-center">
             {[
-              { icon: Shield, label: 'BEE Level 1 Provider' },
+              { icon: Shield, label: 'B-BBEE Level 4 Provider' },
               { icon: Clock, label: 'Fastest Turnaround' },
               { icon: Users, label: 'Dedicated Account Manager' },
               { icon: Wrench, label: 'In-House Repair Workshop' },
@@ -312,23 +312,23 @@ export default function EnterprisePage() {
                 Social Impact & Transformation
               </p>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-6">
-                BEE Level 1 Contributor
+                B-BBEE Level 4 Contributor
               </h2>
               <div className="space-y-4 text-[#7A9E98] leading-relaxed">
                 <p>
-                  Vizibiliti Intelligent Solutions (Pty) Ltd, trading as ZA Support, holds BEE Level 1 contributor status. This is not a box-ticking exercise for us. We actively invest in youth development and women empowerment within the technology sector.
+                  ZA Support holds B-BBEE Level 4 contributor status. This is not a box-ticking exercise for us. We actively invest in youth development and women empowerment within the technology sector.
                 </p>
                 <p>
                   Our internship programme brings young South Africans into the Apple repair and IT support industry, providing hands-on mentorship alongside our senior engineers. We believe that building technical skills in underrepresented communities is not just good business; it is essential for the future of technology in South Africa.
                 </p>
                 <p>
-                  For enterprise procurement teams, our BEE Level 1 status means maximum B-BBEE points on your scorecard. Our certificate and supporting documentation are available on request for RFPs, tenders, and compliance audits.
+                  For enterprise procurement teams, our B-BBEE Level 4 status provides 100% B-BBEE procurement recognition on your scorecard. Our certificate and supporting documentation are available on request for RFPs, tenders, and compliance audits.
                 </p>
               </div>
             </div>
             <div className="space-y-4">
               {[
-                { label: 'BEE Level', value: 'Level 1 Contributor' },
+                { label: 'BEE Level', value: 'Level 4 Contributor' },
                 { label: 'Youth Development', value: 'Active internship & mentorship programme' },
                 { label: 'Women Empowerment', value: 'Technology sector skills development' },
                 { label: 'Legal Entity', value: 'Vizibiliti Intelligent Solutions (Pty) Ltd' },
@@ -457,7 +457,7 @@ export default function EnterprisePage() {
             <h3 className="text-2xl font-extrabold text-[#E8F4F1] mb-4">How We Work With Enterprise Clients</h3>
             <div className="space-y-4 text-[#7A9E98] leading-relaxed">
               <p>
-                Every enterprise engagement begins with a comprehensive IT assessment. We audit your current Apple fleet, network infrastructure, security posture, and software licensing. This is not a generic checklist. We sit with your team, understand your workflows, and identify the specific gaps that are costing you time and money. The assessment fee applies and is credited against your first SLA invoice.
+                Every enterprise engagement begins with a comprehensive IT assessment. We audit your current Apple fleet, network infrastructure, security posture, and software licensing. This is not a generic checklist. We sit with your team, understand your workflows, and identify the specific gaps that are costing you time and money. The R599 assessment fee is a separate, non-refundable charge.
               </p>
               <p>
                 From there, we build a tailored support plan. The most common mistake we see with corporate Apple deployments in Johannesburg is organisations treating Macs like Windows machines, applying the wrong management tools, missing macOS-specific security settings, and ignoring the Apple ecosystem integrations that make the platform productive. We fix that from day one.
@@ -520,7 +520,7 @@ export default function EnterprisePage() {
               Ready to Scale Your Apple IT?
             </h2>
             <p className="text-[#7A9E98] text-lg mb-8 max-w-2xl mx-auto">
-              Book an enterprise IT assessment. We will audit your fleet, identify gaps, and deliver a tailored support proposal within 48 hours. BEE Level 1 certified. Standard hourly rate applies.
+              Book an enterprise IT assessment. We will audit your fleet, identify gaps, and deliver a tailored support proposal within 48 hours. B-BBEE Level 4 certified. Standard hourly rate applies.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

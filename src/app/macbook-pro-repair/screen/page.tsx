@@ -97,7 +97,7 @@ const process = [
   { step: '01', title: 'Drop In for Assessment', desc: 'Bring your MacBook Pro to our Hyde Park workshop. We connect an external display first to isolate whether the fault is in the screen assembly, cable, or logic board.' },
   { step: '02', title: 'Written Quote', desc: 'You receive a fixed price before any work begins. For Flexgate and Staingate, we check Apple extended programme eligibility first.' },
   { step: '03', title: 'Screen Replacement (Data Untouched)', desc: 'We replace the display assembly only. Your storage, apps, and data are completely unaffected. No reinstall or erase required.' },
-  { step: '04', title: 'Full Test and Return', desc: 'Screen calibration verified, brightness and colour confirmed, and up-to-3 year warranty issued on parts and labour.' },
+  { step: '04', title: 'Full Test and Return', desc: 'Screen calibration verified, brightness and colour confirmed, and 12-month warranty issued on parts and labour.' },
 ];
 
 const faqs = [
@@ -131,7 +131,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you provide on screen repairs?',
-    answer: 'up-to-3 year warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at our assessment fee. Extended warranty is also available on request.',
+    answer: '12-month warranty on the screen assembly and labour. If the same fault reoccurs within the warranty period, we fix it at our assessment fee. Extended warranty is also available on request.',
   },
 ];
 
@@ -166,13 +166,13 @@ export default function MacBookProScreenPage() {
               <span className="text-[#0FEA7A]">Repair</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-8 max-w-2xl">
-              Cracked display, Flexgate stage-light effect, Staingate coating, backlight failure. All MacBook Pro models. up-to-3 year warranty.
+              Cracked display, Flexgate stage-light effect, Staingate coating, backlight failure. All MacBook Pro models. 12-month warranty.
             </p>
             {/* Badges */}
             <div className="flex flex-wrap gap-3 mb-8">
               {[
                 { icon: Monitor, label: 'Screen Repair' },
-                { icon: Shield, label: 'Up-to-3 Year Warranty' },
+                { icon: Shield, label: '12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
                 { icon: AlertTriangle, label: 'Flexgate Specialists' },
               ].map(({ icon: Icon, label }) => (
@@ -336,7 +336,7 @@ export default function MacBookProScreenPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               MacBook Pro Screen Needs Repair?
             </h2>
-            <p className="text-[#7A9E98] mb-2">up-to-3 year warranty. Assessment. Fixed quote before any work begins.</p>
+            <p className="text-[#7A9E98] mb-2">12-month warranty. Assessment. Fixed quote before any work begins.</p>
             <p className="text-[#7A9E98] text-sm mb-8">Hyde Park, Johannesburg. Drop in, no appointment needed.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

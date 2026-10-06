@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Bryanston | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Bryanston clients. Expert component-level repair, 10 minutes from Bryanston to Hyde Park. Assessment, up-to-3 year warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Bryanston clients. Expert component-level repair, 10 minutes from Bryanston to Hyde Park. Assessment, 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/bryanston' },
 };
 
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Bryanston',
-  description: 'MacBook logic board component-level repair for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Assessment. up-to-3 year warranty.',
+  description: 'MacBook logic board component-level repair for Bryanston clients. 10 minutes from Bryanston to our Hyde Park workshop. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -191,7 +191,7 @@ export default function LogicBoardRepairBryanstonPage() {
               { step: '02', title: 'Diagnostic Assessment', desc: 'Board inspected within 24 hours of collection. Fault identified to component level, schematic, microscope, and power diagnostics used.' },
               { step: '03', title: 'Written Quote and Sign-Off', desc: 'You receive a written quote: fault description, repair method, cost, and timeframe. No repair proceeds without your approval.' },
               { step: '04', title: 'Component-level repair Repair', desc: 'The specific failed component is replaced under a stereo microscope. Your original board is preserved. Only the fault is addressed.' },
-              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support up-to-3 year warranty. Standard turnaround 48-72 hours from approval.' },
+              { step: '05', title: 'Return to Bryanston', desc: 'Tested under load. Returned to your Bryanston address with a ZA Support 12-month warranty. Standard turnaround 48-72 hours from approval.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
@@ -238,7 +238,7 @@ export default function LogicBoardRepairBryanstonPage() {
                   'Significantly higher cost than component-level repair',
                   'Touch ID pairing is broken on replacement',
                   'May require data migration',
-                  'up-to-3 year warranty still applies',
+                  '12-month warranty still applies',
                   'Necessary for: burn damage, multiple failed chips',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-[#7A9E98] text-sm">
@@ -300,7 +300,7 @@ export default function LogicBoardRepairBryanstonPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Bryanston MacBook Fault? Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. Assessment. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-6">10 minutes from Bryanston. Assessment. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-BRYANSTON', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 💬 WhatsApp for Quote

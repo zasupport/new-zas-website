@@ -53,7 +53,7 @@ const faqs = [
   {
     question: 'Can you repair the 27-inch iMac Retina 5K display?',
     answer:
-      'Yes. The 27-inch Retina 5K display (models A1419, A2115) uses a 5120 × 2880 LCD panel with a wide colour (P3) gamut. After fitting a replacement panel we run a full 5K calibration sequence, brightness uniformity, P3 colour accuracy, and dead pixel sweep across all five test screens. We have completed this repair for clients in Sandton, Rosebank, Bryanston, and across Johannesburg. Assessment. Up-to-3 year warranty included.',
+      'Yes. The 27-inch Retina 5K display (models A1419, A2115) uses a 5120 × 2880 LCD panel with a wide colour (P3) gamut. After fitting a replacement panel we run a full 5K calibration sequence, brightness uniformity, P3 colour accuracy, and dead pixel sweep across all five test screens. We have completed this repair for clients in Sandton, Rosebank, Bryanston, and across Johannesburg. Assessment. 12-month warranty included.',
   },
   {
     question: 'My iMac 24-inch M1 screen is cracked. Is it worth repairing?',
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: 'Does the iMac display replacement include a warranty?',
     answer:
-      'Yes. Every iMac screen repair at ZA Support includes an up-to-3 year warranty covering the display panel, backlight circuit, and our workmanship. If the replacement panel develops dead pixels, backlight failure, or colour drift within the warranty period, we repair or replace it at our assessment fee. The warranty is issued in writing at the time of collection.',
+      'Yes. Every iMac screen repair at ZA Support includes an 12-month warranty covering the display panel, backlight circuit, and our workmanship. If the replacement panel develops dead pixels, backlight failure, or colour drift within the warranty period, we repair or replace it at our assessment fee. The warranty is issued in writing at the time of collection.',
   },
   {
     question: 'What is the TCON board, and can you repair it?',
@@ -143,7 +143,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'iMac Screen Repair Johannesburg',
-  description: 'Professional iMac screen repair in Johannesburg. 21.5-inch, 24-inch M1/M3/M4, and 27-inch Retina 5K models. Adhesive removal, 5K calibration, TCON board diagnosis. Contact for pricing. Up-to-3 year warranty.',
+  description: 'Professional iMac screen repair in Johannesburg. 21.5-inch, 24-inch M1/M3/M4, and 27-inch Retina 5K models. Adhesive removal, 5K calibration, TCON board diagnosis. Contact for pricing. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -215,7 +215,7 @@ export default function ScreenRepairImacPage() {
               {[
                 { icon: Shield, label: 'Assessment' },
                 { icon: Monitor, label: 'All iMac Models' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
                 { icon: Clock, label: '3-5 Day Turnaround' },
               ].map(({ icon: Icon, label }) => (
@@ -282,7 +282,7 @@ export default function ScreenRepairImacPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">iMac Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include the display assembly, adhesive strips, calibration, labour, and our up-to-3 year warranty. Assessment applies to all models. For comparison, the Apple Store charges many times our price for the same repair.
+            All prices include the display assembly, adhesive strips, calibration, labour, and our 12-month warranty. Assessment applies to all models. For comparison, the Apple Store charges many times our price for the same repair.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(15,234,122,0.12)]">
             <table className="w-full text-sm">
@@ -381,7 +381,7 @@ export default function ScreenRepairImacPage() {
                 <li>Written fixed-price quote before any work begins</li>
                 <li>3-5 day turnaround, all work done in our Hyde Park workshop</li>
                 <li>T-Con board and backlight circuit diagnosed separately, saves you money</li>
-                <li>Up-to-3 year warranty on parts and labour</li>
+                <li>12-month warranty on parts and labour</li>
                 <li>Your machine never leaves our workshop, data stays with you</li>
               </ul>
             </div>
@@ -441,7 +441,7 @@ export default function ScreenRepairImacPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">iMac Screen Damaged? Get a Fixed-Price Quote Today.</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              Contact for pricing, with an up-to-3 year warranty and Assessment. WhatsApp us a photo of the damage and we will give you an indicative price within the hour,  no call centre.
+              Contact for pricing, with an 12-month warranty and Assessment. WhatsApp us a photo of the damage and we will give you an indicative price within the hour,  no call centre.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -460,7 +460,7 @@ export default function ScreenRepairImacPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty assessment
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty assessment
             </p>
           </div>
         </div>

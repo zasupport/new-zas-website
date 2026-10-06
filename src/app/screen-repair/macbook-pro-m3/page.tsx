@@ -12,7 +12,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Pro M3 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro M3 screen repair in Johannesburg. Liquid Retina XDR mini-LED specialists. ProMotion, True Tone, backlight IC. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro M3 screen repair in Johannesburg. Liquid Retina XDR mini-LED specialists. ProMotion, True Tone, backlight IC. Fixed written quotes. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-m3' },
   keywords: [
     'MacBook Pro M3 screen repair Johannesburg',
@@ -48,7 +48,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M3 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro M3 screen repair in Johannesburg. Liquid Retina XDR mini-LED display replacement, display cable fault, backlight driver IC repair, True Tone preservation, ProMotion 120 Hz. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro M3 screen repair in Johannesburg. Liquid Retina XDR mini-LED display replacement, display cable fault, backlight driver IC repair, True Tone preservation, ProMotion 120 Hz. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -244,10 +244,10 @@ export default function ScreenRepairMacBookProM3Page() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Cpu, label: 'M3 Chip Specialists' },
                 { icon: Eye, label: 'True Tone & ProMotion Preserved' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -325,7 +325,7 @@ export default function ScreenRepairMacBookProM3Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment, applied toward the repair cost if you proceed. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -429,7 +429,7 @@ export default function ScreenRepairMacBookProM3Page() {
               {
                 step: '05',
                 title: 'Warranty and Collection',
-                desc: 'All MacBook Pro M3 screen repairs include our up-to-3 year warranty covering the parts and labour performed. We document the repair with a formal job card and can provide a VAT invoice for insurance claim purposes. Collection and return is available for clients in Sandton, Rosebank, Bryanston, Fourways, Midrand, and Randburg.',
+                desc: 'All MacBook Pro M3 screen repairs include our 12-month warranty covering the parts and labour performed. We document the repair with a formal job card and can provide a VAT invoice for insurance claim purposes. Collection and return is available for clients in Sandton, Rosebank, Bryanston, Fourways, Midrand, and Randburg.',
               },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
@@ -497,7 +497,7 @@ export default function ScreenRepairMacBookProM3Page() {
             MacBook Pro M3 Screen Repair, Johannesburg
           </h2>
           <p className="text-[#7A9E98] mb-8 text-lg leading-relaxed">
-            Assessment · No Fix No Fee · Up to 3 Year Warranty · Hyde Park Workshop · WhatsApp for a same-day quote
+            Every repair is quoted in writing after assessment, and you approve the quote before any work begins
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

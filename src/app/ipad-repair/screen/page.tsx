@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'iPad Screen Repair Johannesburg | ZA Support',
   description:
-    'iPad screen repair in Johannesburg. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',
+    'iPad screen repair in Johannesburg. Cracked glass, dead touch, unresponsive display. iPad mini, Air, Pro 11" and 12.9". Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/screen' },
   keywords: [
     'iPad screen repair Johannesburg',
@@ -80,7 +80,7 @@ const processSteps = [
   { step: '2', title: 'Parts Confirmed', desc: 'We confirm the correct replacement assembly is in stock for your specific model before committing to a repair date.' },
   { step: '3', title: 'Screen Replaced', desc: 'A certified technician replaces the display assembly. Most iPad screen repairs take 1-3 hours.' },
   { step: '4', title: 'Full Quality Check', desc: 'We test touch accuracy across the full panel, check brightness uniformity, verify Apple Pencil compatibility, and confirm Face ID or Touch ID still functions.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPad with a up-to-3 year warranty on the replacement screen and our labour. Assessment applies.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPad with a 12-month warranty on the replacement screen and our labour. Assessment applies.' },
 ];
 
 const faqs = [
@@ -122,7 +122,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad screen repairs?',
     answer:
-      'Yes. All iPad screen repairs at ZA Support come with a up-to-3 year warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at our assessment fee. This warranty is backed in writing.',
+      'Yes. All iPad screen repairs at ZA Support come with a 12-month warranty on the replacement panel and our labour. If dead pixels appear, the touch layer fails, or the display develops any fault within the warranty period, we fix it at our assessment fee. This warranty is backed in writing.',
   },
 ];
 
@@ -131,7 +131,7 @@ const faqs = [
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Screen Repair Johannesburg',
-  description: 'iPad screen repair in Johannesburg for all iPad mini, Air, and Pro models. Cracked glass, dead touch, dead pixels, backlight failure. up-to-3 year warranty.',
+  description: 'iPad screen repair in Johannesburg for all iPad mini, Air, and Pro models. Cracked glass, dead touch, dead pixels, backlight failure. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -175,10 +175,10 @@ export default function iPadScreenPage() {
             <p className="text-xl text-[#7A9E98] mb-4">
               Cracked glass, dead touch, dead pixels, ghost touch, we repair all iPad screen faults.
               iPad mini, iPad Air, iPad Pro 11" and 12.9". Same-day available.
-              up-to-3 year warranty. Hyde Park, Johannesburg.
+              12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment', 'Up-to-3 Year Warranty', 'Apple Pencil compatible', 'Same-day available', 'Assessment'].map((item) => (
+              {['Assessment', '12-Month Warranty', 'Apple Pencil compatible', 'Same-day available', 'Assessment'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -236,7 +236,7 @@ export default function iPadScreenPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment. Apple Pencil compatibility preserved.
+            All repairs include written 12-month warranty. Assessment. Apple Pencil compatibility preserved.
             Assessment fee applies if we cannot repair your device.
           </p>
           <PricingNote variant="inline" />
@@ -284,7 +284,7 @@ export default function iPadScreenPage() {
                 {[
                   {
                     icon: <Shield className="w-5 h-5" />,
-                    title: 'Up-to-3 Year Warranty',
+                    title: '12-Month Warranty',
                     desc: 'Every iPad screen repair carries a warranty on parts and labour. If it fails, we fix it, no arguments.',
                   },
                   {
@@ -321,7 +321,7 @@ export default function iPadScreenPage() {
               <div className="glass-card p-6 border-l-2 border-[#0FEA7A]">
                 <p className="text-[#7A9E98] text-sm italic mb-3">
                   &ldquo;I was told to replace the whole iPad. ZA Support replaced my screen
-                  same-day, up-to-3 year warranty, Apple Pencil still works. Should have called them first.&rdquo;
+                  same-day, 12-month warranty, Apple Pencil still works. Should have called them first.&rdquo;
                 </p>
                 <div className="flex items-center gap-2">
                   <div className="flex gap-0.5">

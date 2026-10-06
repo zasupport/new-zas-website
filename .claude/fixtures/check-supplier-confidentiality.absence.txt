@@ -1,0 +1,1 @@
+Absence control: scan with no pattern source configured.

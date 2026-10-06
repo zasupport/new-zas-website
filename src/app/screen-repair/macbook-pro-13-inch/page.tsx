@@ -12,7 +12,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Pro 13 Inch Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro 13-inch screen repair in Johannesburg. Retina IPS LCD specialists. M1, M2, Intel. Backlight IC, display cable. No Fix No Fee. Hyde Park.',
+    'MacBook Pro 13-inch screen repair in Johannesburg. Retina IPS LCD specialists. M1, M2, Intel. Backlight IC, display cable. Fixed written quotes. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-13-inch' },
   keywords: [
     'MacBook Pro 13 inch screen repair Johannesburg',
@@ -48,7 +48,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 13 Inch Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro 13-inch screen repair in Johannesburg. Retina IPS LCD display replacement for M1, M2, and Intel models. Display cable fault, backlight driver IC repair, True Tone preservation. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro 13-inch screen repair in Johannesburg. Retina IPS LCD display replacement for M1, M2, and Intel models. Display cable fault, backlight driver IC repair, True Tone preservation. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -250,10 +250,10 @@ export default function ScreenRepairMacBookPro13InchPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Cpu, label: 'M1, M2 & Intel Specialists' },
                 { icon: Eye, label: 'True Tone Preserved (M1/M2)' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -331,7 +331,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment, applied toward the repair cost if you proceed. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -435,7 +435,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
               {
                 step: '05',
                 title: 'Warranty and Collection',
-                desc: 'All MacBook Pro 13-inch screen repairs include our up-to-3 year warranty covering the parts and labour performed. We document the repair with a formal job card and can provide a VAT invoice for insurance claims. Collection and return is available for clients in Sandton, Rosebank, Bryanston, Fourways, Midrand, and Randburg.',
+                desc: 'All MacBook Pro 13-inch screen repairs include our 12-month warranty covering the parts and labour performed. We document the repair with a formal job card and can provide a VAT invoice for insurance claims. Collection and return is available for clients in Sandton, Rosebank, Bryanston, Fourways, Midrand, and Randburg.',
               },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
@@ -503,7 +503,7 @@ export default function ScreenRepairMacBookPro13InchPage() {
             MacBook Pro 13 Inch Screen Cracked or Dark?
           </h2>
           <p className="text-[#7A9E98] text-lg mb-8 leading-relaxed">
-            Send us your serial number on WhatsApp for a same-day quote. Assessment, applied toward repair if you proceed. No Fix No Fee on every job.
+            Send us your serial number on WhatsApp for a same-day quote. Assessment, applied toward repair if you proceed. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

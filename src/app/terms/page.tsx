@@ -88,7 +88,7 @@ export default function TermsPage() {
                 of whether you proceed with the repair.
               </p>
               <p className="mt-4">
-                <strong className="text-[#E8F4F1]">No Fix, No Fee policy:</strong> If we are unable to repair your device
+                <strong className="text-[#E8F4F1]">Quotation policy:</strong> Every repair is quoted in writing after assessment, and you approve the quote before any work begins. If we are unable to repair your device
                 after agreeing to undertake the work, no repair fee is charged. The assessment fee remains payable as it
                 covers diagnostic labour.
               </p>

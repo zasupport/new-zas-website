@@ -43,25 +43,25 @@ export const metadata: Metadata = {
 const pricingRows = [
   {
     model: 'Butterfly keyboard replacement (2016-2019)',
-    warranty: 'No up-to-3 year warranty, design defect',
+    warranty: 'No 12-month warranty, design defect',
     noWarranty: true,
     note: 'See butterfly explainer below',
   },
   {
     model: 'Scissor keyboard replacement (2020+)',
-    warranty: 'up-to-3 year warranty',
+    warranty: '12-month warranty',
     noWarranty: false,
     note: 'MacBook Air M1/M2/M3',
   },
   {
     model: 'MacBook Pro 14" / 16" keyboard (M-series)',
-    warranty: 'up-to-3 year warranty',
+    warranty: '12-month warranty',
     noWarranty: false,
     note: 'M1 / M2 / M3 / M4',
   },
   {
     model: 'Single keycap replacement',
-    warranty: 'up-to-3 year warranty',
+    warranty: '12-month warranty',
     noWarranty: false,
     note: 'Where mechanically feasible',
   },
@@ -156,7 +156,7 @@ const faqs = [
   {
     question: 'How much does MacBook keyboard repair cost in Johannesburg?',
     answer:
-      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a up-to-3 year warranty. We provide an assessment fee and a fixed written quote before starting any work.',
+      'MacBook keyboard repair cost depends on your model and the specific fault. Scissor-switch replacements (2020 and newer) carry a 12-month warranty. We provide an assessment fee and a fixed written quote before starting any work.',
   },
   {
     question: 'Why does the butterfly keyboard carry no warranty?',
@@ -361,7 +361,7 @@ export default function MacBookKeyboardPage() {
                   <div className="col-span-4 text-right">
                     {row.noWarranty ? (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-orange-400 bg-orange-400/10 border border-orange-400/20 px-2 py-1 rounded-full">
-                        <XCircle className="w-3 h-3" /> No up-to-3 year warranty
+                        <XCircle className="w-3 h-3" /> No 12-month warranty
                       </span>
                     ) : (
                       <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#0FEA7A] bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.2)] px-2 py-1 rounded-full">
@@ -393,7 +393,7 @@ export default function MacBookKeyboardPage() {
                 ZA Support does not offer a warranty on like-for-like butterfly keyboard replacements because the design itself is the cause of failure. Replacing one butterfly keyboard with another butterfly keyboard will very likely produce the same fault. We are transparent about this before you decide to proceed.
               </p>
               <p className="text-[#7A9E98] text-sm leading-relaxed">
-                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter, a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a up-to-3 year warranty.
+                <span className="text-[#E8F4F1] font-semibold">Our recommendation:</span> Ask about the scissor-switch keyboard adapter, a replacement top case using the more reliable Magic Keyboard mechanism. Available for select models. Carries a 12-month warranty.
               </p>
             </div>
           </div>

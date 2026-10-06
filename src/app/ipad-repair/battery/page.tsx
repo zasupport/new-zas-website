@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'iPad Battery Replacement Johannesburg | ZA Support',
   description:
-    'iPad battery replacement in Johannesburg. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',
+    'iPad battery replacement in Johannesburg. iPad dying at 40%, swollen back, slow charging. All models. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/battery' },
   keywords: [
     'iPad battery replacement Johannesburg',
@@ -79,7 +79,7 @@ const processSteps = [
   { step: '2', title: 'Battery Sourced', desc: 'We confirm the correct OEM-grade replacement battery is available for your model before booking the repair.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery. Most iPad battery replacements take 1-2 hours.' },
   { step: '4', title: 'Full Calibration', desc: 'We run a charge-discharge cycle to calibrate the new battery and verify accurate charge reporting.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect with a up-to-3 year warranty on the replacement battery and our labour. Assessment.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect with a 12-month warranty on the replacement battery and our labour. Assessment.' },
 ];
 
 const faqs = [
@@ -121,7 +121,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad battery replacements?',
     answer:
-      'Yes. All iPad battery replacements at ZA Support include a up-to-3 year warranty on the replacement battery and our labour. If the battery capacity drops unexpectedly or the replacement develops a fault within the warranty period, we fix it at our assessment fee.',
+      'Yes. All iPad battery replacements at ZA Support include a 12-month warranty on the replacement battery and our labour. If the battery capacity drops unexpectedly or the replacement develops a fault within the warranty period, we fix it at our assessment fee.',
   },
 ];
 
@@ -129,7 +129,7 @@ const faqs = [
 
 const serviceSchema = buildServiceSchema({
   name: 'iPad Battery Replacement Johannesburg',
-  description: 'iPad battery replacement in Johannesburg for all iPad mini, Air, and Pro models. iPad dying, swollen battery, slow charging. up-to-3 year warranty.',
+  description: 'iPad battery replacement in Johannesburg for all iPad mini, Air, and Pro models. iPad dying, swollen battery, slow charging. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -172,11 +172,11 @@ export default function iPadBatteryPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               iPad dying at 40%, swollen back, or barely lasting the morning? We replace iPad batteries.
-              iPad mini, iPad Air, iPad Pro. Same-day available. up-to-3 year warranty.
+              iPad mini, iPad Air, iPad Pro. Same-day available. 12-month warranty.
               Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment', 'Up-to-3 Year Warranty', 'Same-day available', 'Battery health test included', 'Swollen battery, urgent repair'].map((item) => (
+              {['Assessment', '12-Month Warranty', 'Same-day available', 'Battery health test included', 'Swollen battery, urgent repair'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -236,7 +236,7 @@ export default function iPadBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment. Battery health assessment included.
+            All repairs include written 12-month warranty. Assessment. Battery health assessment included.
           </p>
           <PricingNote variant="inline" />
         </div>

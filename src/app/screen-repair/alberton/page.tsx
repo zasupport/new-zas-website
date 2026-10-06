@@ -51,7 +51,7 @@ const faqs = [
     answer: 'Yes. We repair displays on MacBook Air M1, M2, M3 and MacBook Pro M1, M2, M3 models. Apple Silicon models use different display assemblies to Intel models and we stock parts for current-generation machines.',
   },
   {
-    question: 'What is an Assessment guarantee?',
+    question: 'What is an assessment?',
     answer: 'If we cannot repair your MacBook screen, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
   },
   {

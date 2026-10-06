@@ -38,6 +38,7 @@ jobs:
           npm run check:reliability
           npm run check:security
           npm run check:supplier
+          npm run check:claims
           npm run build
 
   # ── WAIT FOR VERCEL — poll until the new deployment is live ───────────────

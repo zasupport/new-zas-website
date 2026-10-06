@@ -154,7 +154,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 13-Inch Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro 13-inch liquid damage repair in Johannesburg. M1, M2 and Intel models. Touch Bar corrosion recovery, USB-C controller replacement, T2 security chip diagnosis, ultrasonic cleaning. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro 13-inch liquid damage repair in Johannesburg. M1, M2 and Intel models. Touch Bar corrosion recovery, USB-C controller replacement, T2 security chip diagnosis, ultrasonic cleaning. Assessment. 12-month warranty.',
   lowPrice: '4900',
   highPrice: '17150',
 });
@@ -190,7 +190,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / Intel' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -226,7 +226,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -328,7 +328,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
                 <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>M1, M2, and Intel 13-inch all supported</li>
-                <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
+                <li>Turnaround 24-72 hours, 12-month warranty</li>
                 <li>Touch Bar flex and T2 chip diagnosis included</li>
               </ul>
             </div>
@@ -469,7 +469,7 @@ export default function MacBookPro13InchLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

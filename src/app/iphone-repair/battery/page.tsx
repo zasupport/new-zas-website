@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'iPhone Battery Replacement Johannesburg | ZA Support',
   description:
-    'iPhone battery replacement in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. up-to-3 year warranty. Hyde Park, Johannesburg.',
+    'iPhone battery replacement in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park, Johannesburg.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/battery' },
   keywords: [
     'iPhone battery replacement Johannesburg',
@@ -86,7 +86,7 @@ const processSteps = [
   { step: '2', title: 'Battery Confirmed', desc: 'We confirm the correct replacement battery is in stock for your model. Same-day replacement is available for most models.' },
   { step: '3', title: 'Battery Replaced', desc: 'A certified technician replaces the battery under controlled conditions. iPhone battery replacement takes approximately 45-60 minutes.' },
   { step: '4', title: 'Quality Check', desc: 'We verify the new battery charges correctly, confirm battery health reads 100%, and test for unexpected shutdowns before returning your iPhone.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a up-to-3 year warranty on the replacement battery and our labour. Assessment applies if anything goes wrong.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You leave with a 12-month warranty on the replacement battery and our labour. Assessment applies if anything goes wrong.' },
 ];
 
 const faqs = [
@@ -128,7 +128,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on iPhone battery replacements?',
     answer:
-      'All iPhone battery replacements at ZA Support come with a up-to-3 year warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at our assessment fee.',
+      'All iPhone battery replacements at ZA Support come with a 12-month warranty on the replacement battery and our labour. If the battery drains unusually fast, fails to charge, or causes shutdowns within the warranty period, we replace it at our assessment fee.',
   },
 ];
 
@@ -136,7 +136,7 @@ const faqs = [
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Battery Replacement Johannesburg',
-  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. up-to-3 year warranty.',
+  description: 'iPhone battery replacement in Johannesburg for all models iPhone 12 through 16 Pro Max. Rapid drain, unexpected shutdowns, swollen batteries. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -181,10 +181,10 @@ export default function iPhoneBatteryPage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4">
               Battery draining fast, unexpected shutdowns, swollen battery, we replace iPhone batteries.
-              iPhone 12 through 16 Pro Max, same-day available, up-to-3 year warranty, Hyde Park Johannesburg.
+              iPhone 12 through 16 Pro Max, same-day available, 12-month warranty, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment', 'Assessment', 'Up-to-3 Year Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment', 'Assessment', '12-Month Warranty', 'Data safe', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -242,7 +242,7 @@ export default function iPhoneBatteryPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment. Data is never accessed or affected.
+            All repairs include written 12-month warranty. Assessment. Data is never accessed or affected.
             Battery health check included. Assessment.
           </p>
           <PricingNote variant="inline" />
@@ -343,7 +343,7 @@ export default function iPhoneBatteryPage() {
             >
               iPhone Battery Draining Fast?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Battery health check included. Assessment. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Battery health check included. Assessment. 12-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

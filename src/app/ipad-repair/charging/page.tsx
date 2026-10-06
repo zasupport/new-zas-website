@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'iPad Not Charging, Repair Johannesburg | ZA Support',
   description:
-    'iPad not charging in Johannesburg? Port cleaning, charging port repair, charging IC fault diagnosis. All models. up-to-3 year warranty. Hyde Park.',
+    'iPad not charging in Johannesburg? Port cleaning, charging port repair, charging IC fault diagnosis. All models. 12-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/ipad-repair/charging' },
   keywords: [
     'iPad not charging Johannesburg',
@@ -82,7 +82,7 @@ const processSteps = [
   { step: '2', title: 'Root Cause Identified', desc: 'We confirm whether the fault is debris, a damaged port, a charging IC fault, or the battery, before quoting.' },
   { step: '3', title: 'Fixed Price Quote', desc: 'You receive a written fixed-price quote. No surprises.' },
   { step: '4', title: 'Repair Completed', desc: 'A certified technician carries out the repair. Port clean: same visit. Port replacement: 1-3 hours. Board repair: 1-2 days.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'up-to-3 year warranty on parts and labour. Assessment applies to every repair.' },
+  { step: '5', title: 'Collect with Warranty', desc: '12-month warranty on parts and labour. Assessment applies to every repair.' },
 ];
 
 const faqs = [
@@ -124,7 +124,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPad charging repairs?',
     answer:
-      'Yes. All iPad charging repairs at ZA Support include a up-to-3 year warranty on parts and labour. If the port or related component fails within the warranty period, we fix it at our assessment fee. This applies to port cleans, port replacements, and logic board charging repairs.',
+      'Yes. All iPad charging repairs at ZA Support include a 12-month warranty on parts and labour. If the port or related component fails within the warranty period, we fix it at our assessment fee. This applies to port cleans, port replacements, and logic board charging repairs.',
   },
 ];
 
@@ -178,10 +178,10 @@ export default function iPadChargingPage() {
             <p className="text-xl text-[#7A9E98] mb-4">
               Dirty port, damaged pins, charging IC fault, or dead battery, we diagnose iPad charging
               problems. Assessment. All models, Lightning and USB-C.
-              up-to-3 year warranty. Hyde Park, Johannesburg.
+              12-month warranty. Hyde Park, Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment', 'Up-to-3 Year Warranty', 'Assessment', 'Same-day for most faults'].map((item) => (
+              {['Assessment', '12-Month Warranty', 'Assessment', 'Same-day for most faults'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -221,7 +221,7 @@ export default function iPadChargingPage() {
           </h2>
           <p className="text-[#7A9E98] mb-8 max-w-2xl">
             We diagnose the fault first, so you only pay for the repair that is actually needed.
-            All prices include labour and a up-to-3 year warranty.
+            All prices include labour and a 12-month warranty.
           </p>
           <div className="glass-card overflow-hidden max-w-2xl">
             <div className="grid grid-cols-3 gap-0 bg-[rgba(15,234,122,0.06)] px-6 py-3 border-b border-[rgba(255,255,255,0.06)]">
@@ -241,7 +241,7 @@ export default function iPadChargingPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All repairs include written up-to-3 year warranty. Assessment.
+            All repairs include written 12-month warranty. Assessment.
           </p>
           <PricingRange page="/ipad-repair/charging" />
           <PricingNote variant="inline" />

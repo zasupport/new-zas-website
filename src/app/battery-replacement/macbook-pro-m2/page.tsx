@@ -63,7 +63,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro M2 Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro M2 battery replacement in Johannesburg. 58.2Wh (13-inch) and 70Wh (14-inch) cell replacement. Improved M2 efficiency, same adhesive removal system. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro M2 battery replacement in Johannesburg. 58.2Wh (13-inch) and 70Wh (14-inch) cell replacement. Improved M2 efficiency, same adhesive removal system. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -241,7 +241,7 @@ export default function BatteryReplacementMacBookProM2Page() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Battery, label: 'All M2 Models' },
                 { icon: Zap, label: 'Assessment' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -319,7 +319,7 @@ export default function BatteryReplacementMacBookProM2Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All pricing includes the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment fee applies, credited toward the repair cost if you proceed.
+            All pricing includes the replacement cell, labour, calibration, and our 12-month warranty. The R599 assessment fee is a separate, non-refundable charge.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-m2" />
           <PricingNote variant="inline" />
@@ -386,7 +386,7 @@ export default function BatteryReplacementMacBookProM2Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro M2 and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro M2 and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. 12-month warranty on all completed battery replacements.
             </p>
           </div>
         </div>
@@ -419,7 +419,7 @@ export default function BatteryReplacementMacBookProM2Page() {
                 <li>coconutBattery diagnostic, capacity report included</li>
                 <li>Turnaround 2-6 hours same day</li>
                 <li>UPS advice for load shedding battery protection</li>
-                <li>Up-to-3 year warranty on the replacement cell</li>
+                <li>12-month warranty on the replacement cell</li>
               </ul>
             </div>
           </div>
@@ -455,7 +455,7 @@ export default function BatteryReplacementMacBookProM2Page() {
               {
                 step: 5,
                 title: 'Collect With Written Warranty',
-                desc: 'You collect with a written warranty of up to 3 years, a System Information screenshot confirming battery health, and the assessment fee included in the total. If the battery fails within the warranty period, we replace it again at our assessment fee.',
+                desc: 'The R599 assessment fee is a separate, non-refundable charge. If the battery fails within the warranty period, we replace it again at our assessment fee.',
               },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
@@ -564,7 +564,7 @@ export default function BatteryReplacementMacBookProM2Page() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | 12-month warranty
             </p>
           </div>
         </div>

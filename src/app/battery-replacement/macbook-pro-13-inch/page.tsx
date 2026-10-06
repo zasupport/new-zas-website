@@ -63,7 +63,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 13-inch Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Pro 13-inch battery replacement in Johannesburg. All models 2012 through 2024. Touch Bar dual-cell models covered. Adhesive removal specialists. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro 13-inch battery replacement in Johannesburg. All models 2012 through 2024. Touch Bar dual-cell models covered. Adhesive removal specialists. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -242,7 +242,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Battery, label: 'All 13″ Models 2012-2024' },
                 { icon: Zap, label: 'Assessment' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: AlertTriangle, label: 'Swollen Battery Specialist' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -309,7 +309,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include the replacement cell, labour, calibration, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
+            All prices include the replacement cell, labour, calibration, and our 12-month warranty. Assessment, applied toward the repair cost if you proceed. Assessment applies on all cases.
           </p>
           <PricingRange page="/battery-replacement/macbook-pro-13-inch" />
           <PricingNote variant="inline" />
@@ -371,7 +371,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro 13-inch and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. Up-to-3 year warranty on all completed battery replacements.
+              Every repair is quoted before work begins. Our Assessment policy means that if we assess your MacBook Pro 13-inch and determine a battery replacement will not resolve your issue, an assessment fee applies and your machine is returned unchanged. 12-month warranty on all completed battery replacements.
             </p>
           </div>
         </div>
@@ -401,7 +401,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
                 <li>coconutBattery capacity report at collection</li>
                 <li>Turnaround 2-4 hours same day</li>
                 <li>Touch Bar function verified on all Touch Bar models</li>
-                <li>Up-to-3 year warranty on the replacement cell</li>
+                <li>12-month warranty on the replacement cell</li>
               </ul>
             </div>
           </div>
@@ -418,7 +418,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
               { step: 2, title: 'Generation-Specific Adhesive Removal', desc: 'We identify your exact 13-inch model identifier and apply the correct adhesive removal technique for that generation. Controlled heat (max 50°C), the correct adhesive solvent, and non-conductive plastic tools. No metal near the battery pouch.' },
               { step: 3, title: 'Touch Bar Cable Management', desc: 'On Touch Bar models (2016-2021), the Touch Bar flex cable is carefully managed and protected during battery removal to prevent damage to the Touch Bar circuit. Touch Bar function is verified post-installation.' },
               { step: 4, title: 'Replacement Cell Verification', desc: 'Replacement cell tested for voltage, capacity, and cell balance before installation. Model identifier verified to ensure exact OEM capacity match.' },
-              { step: 5, title: 'Calibration & Collect', desc: 'Full charge-discharge calibration. Battery health confirmed at 100%. Written warranty up to 3 years, System Information screenshot, assessment fee included in total.' },
+              { step: 5, title: 'Calibration & Collect', desc: 'Full charge-discharge calibration. Battery health confirmed at 100%. The R599 assessment fee is a separate, non-refundable charge.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="flex gap-5">
                 <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[rgba(15,234,122,0.1)] border border-[rgba(15,234,122,0.25)] flex items-center justify-center">
@@ -510,7 +510,7 @@ export default function BatteryReplacementMacBookPro13InchPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ battery replacement | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | MacBook Pro 13″ battery replacement | 12-month warranty
             </p>
           </div>
         </div>
