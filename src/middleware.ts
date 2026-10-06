@@ -156,9 +156,9 @@ export function middleware(request: NextRequest) {
 
   const { pathname } = request.nextUrl;
 
-  // AirPods retired (not serviced). 410 Gone, no genuine Apple-repair replacement to 301 to.
+  // AirPods not serviced. /airpods-repair now serves an indexable referral page
+  // (approved 05/10/2026); the retired blog posts remain 410 Gone.
   const AIRPODS_GONE = new Set([
-    '/airpods-repair',
     '/blog/airpods-repair-johannesburg',
     '/blog/airpods-pro-2-one-side-quiet-johannesburg',
   ]);
