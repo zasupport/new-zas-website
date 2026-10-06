@@ -45,6 +45,7 @@ const repairTypes = [
   { title: 'Charging Port', href: '/iphone-repair/charging', price: 'Contact for pricing', desc: 'Lightning and USB-C port repair.' },
   { title: 'Back Glass', href: '/iphone-repair/back-glass', price: 'Contact for pricing', desc: 'Cracked back glass replacement.' },
   { title: 'Camera Repair', href: '/iphone-repair/camera', price: 'Contact for pricing', desc: 'Front and rear camera module.' },
+  { title: 'AirPods Advice', href: '/airpods-repair', price: 'Not serviced', desc: 'Why AirPods are not repairable, and your realistic options.' },
 ];
 
 const models = [

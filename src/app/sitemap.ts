@@ -168,6 +168,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/screen-repair/macbook-air`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/imac`, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/screen-repair/iphone`, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/airpods-repair`, changeFrequency: 'monthly', priority: 0.5 },
 
     // Screen repair suburb pages
     { url: `${base}/screen-repair/sandton`, changeFrequency: 'monthly', priority: 0.8 },
