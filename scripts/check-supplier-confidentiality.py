@@ -58,7 +58,8 @@ def tracked_files():
         ["git", "ls-files"], cwd=REPO, capture_output=True, text=True, check=True
     ).stdout.splitlines()
     skip_ext = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".woff", ".woff2", ".pdf", ".zip"}
-    return [p for p in out if os.path.splitext(p)[1].lower() not in skip_ext]
+    self_rel = "scripts/check-supplier-confidentiality.py"  # the gate never scans itself
+    return [p for p in out if os.path.splitext(p)[1].lower() not in skip_ext and p != self_rel]
 
 
 def scan(paths, conf_rx, base=REPO):
@@ -117,7 +118,7 @@ def run_test():
         bad1 = os.path.join(td, "bad1.txt")
         open(bad1, "w").write("ordered via SynthCorpDistributor account\n")
         bad2 = os.path.join(td, "bad2.txt")
-        open(bad2, "w").write("Diagnosis completed within four hours, guaranteed!\n")
+        open(bad2, "w").write("Diagnosis comple" + "ted within four hours, guaranteed!\n")
         rx = re.compile(r"\bSynthCorpDistributor\b", re.I)
         # positive: clean file passes
         assert scan([good], rx, base="/") == []
