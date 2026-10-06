@@ -34,6 +34,7 @@
     "check:reliability": "node scripts/verify-release.mjs --self-test && node scripts/check-build-contract.mjs",
     "verify:live": "node scripts/verify-release.mjs",
     "check:security": "node scripts/security-gate.mjs --check",
+    "check:supplier": "python3 scripts/check-supplier-confidentiality.py",
     "security:heal": "node scripts/security-gate.mjs --heal",
     "security:self-test": "node scripts/security-gate.mjs --self-test",
     "check:design": "python3 scripts/audit-design-template.py --test && python3 scripts/audit-design-template.py --gate",
