@@ -52,6 +52,12 @@ const offerings = [
     href: '/jamf-mdm',
   },
   {
+    icon: ShieldCheck,
+    title: 'IT Procurement & Sourcing',
+    desc: 'Requirements discovery, written quotation, deployment and lifecycle management for business technology, see our current verified technology portfolio.',
+    href: '/procurement',
+  },
+  {
     icon: Landmark,
     title: 'Government IT Services',
     desc: 'B-BBEE Level 4 Apple specialist support for public-sector and government Apple environments.',
@@ -179,6 +185,7 @@ export default function BusinessHubPage() {
           <p className="text-[#7A9E98] mb-10 max-w-2xl">
             Every business is different. Start with the area closest to your need, we will
             shape the right support around it.
+            Browse the brands we source on our <Link href="/technology-portfolio" className="text-[#0FEA7A] underline">technology portfolio</Link> page.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {offerings.map((o) => (

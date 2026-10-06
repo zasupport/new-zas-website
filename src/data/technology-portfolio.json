@@ -1,0 +1,90 @@
+{
+  "categories": [
+    {
+      "name": "Business devices",
+      "brands": [
+        "AMD",
+        "Acer",
+        "Apple",
+        "Asus",
+        "Dell",
+        "Gigabyte",
+        "HP",
+        "Huawei",
+        "Intel",
+        "Lenovo",
+        "MSI",
+        "Mecer",
+        "Samsung"
+      ]
+    },
+    {
+      "name": "Displays and audiovisual",
+      "brands": [
+        "BenQ",
+        "LG",
+        "Zoom"
+      ]
+    },
+    {
+      "name": "Networking and connectivity",
+      "brands": [
+        "Cambium",
+        "Grandstream",
+        "Mikrotik",
+        "Molex",
+        "TP-Link",
+        "Teltonika",
+        "Tenda",
+        "Ubiquiti"
+      ]
+    },
+    {
+      "name": "Cybersecurity and management",
+      "brands": [
+        "Bitdefender"
+      ]
+    },
+    {
+      "name": "Cloud and software",
+      "brands": [
+        "Microsoft"
+      ]
+    },
+    {
+      "name": "Servers and storage",
+      "brands": [
+        "Acronis",
+        "HPE",
+        "Seagate",
+        "Toshiba"
+      ]
+    },
+    {
+      "name": "Print and workplace",
+      "brands": [
+        "Brother",
+        "Epson",
+        "Logitech",
+        "Manhattan",
+        "Razer",
+        "Ricoh",
+        "Volkano"
+      ]
+    },
+    {
+      "name": "Power and continuity",
+      "brands": [
+        "Eaton"
+      ]
+    },
+    {
+      "name": "Physical security",
+      "brands": [
+        "Ajax",
+        "EZVIZ",
+        "Hikvision"
+      ]
+    }
+  ]
+}
