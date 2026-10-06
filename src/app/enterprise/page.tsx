@@ -483,6 +483,8 @@ export default function EnterprisePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { href: '/managed-services', label: 'Managed IT Services', desc: 'Monthly SLA coverage for businesses' },
+              { href: '/procurement', label: 'IT Procurement Service', desc: 'Fleet sourcing, deployment and lifecycle management' },
+              { href: '/technology-portfolio', label: 'Technology Portfolio', desc: 'Our current verified brand portfolio' },
               { href: '/logic-board-repair', label: 'Logic Board Repair', desc: 'Component-level board repair' },
               { href: '/about', label: 'About ZA Support', desc: '16 years of Apple expertise' },
               { href: '/contact', label: 'Contact Us', desc: 'Book an enterprise assessment' },
