@@ -16,6 +16,13 @@
       "maxSeverity": "high",
       "reviewBy": "2027-01-02",
       "reason": "braces stack-exhaustion DoS, advisory range <=3.0.3. braces 3.0.3 is the LATEST published version on npm (verified 04.10.2026: npm view braces version = 3.0.3), so NO upstream fix exists. Reached only through build and lint tooling (eslint-config-next -> @next/eslint-plugin-next -> fast-glob -> micromatch; @sanity/codegen/@sanity/cli -> chokidar/globby) over developer-authored glob patterns at build time. braces is not in the production runtime bundle served to visitors, so the DoS is not exploitable against the deployed site. npm audit's only offered fix is a --force downgrade of eslint-config-next to 14.2.35 and sanity to 5.7.0, which are regressions, not fixes. Re-check for an upstream braces/micromatch release on each review."
+    },
+    {
+      "id": "GHSA-hp3w-g68c-fv3c",
+      "package": "sprintf-js",
+      "maxSeverity": "moderate",
+      "reviewBy": "2027-01-06",
+      "reason": "sprintf-js advisory range <=1.1.3 with NO patched release published (verified 06.10.2026 via multi-source remediation reports for the 2026-10-05 advisory batch; our resolved version is 1.0.3). Sole dependent in the lockfile is @vercel/frameworks -> argparse (node_modules/@vercel/frameworks/node_modules/argparse), i.e. deployment-platform tooling metadata, not the production runtime bundle served to visitors. Fixable siblings from the same advisory batch were FIXED, not allowlisted: smol-toml overridden to 1.9.0 (GHSA-r4xh-jqrq-34v2) and source-map-js to 1.2.2 (GHSA-68fv-2mgg-jv7q). Re-check for a sprintf-js release on each review; delete this entry when one ships."
     }
   ]
 }
