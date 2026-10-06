@@ -234,7 +234,7 @@ export default function AssessmentProcessPage() {
                   <ul className="space-y-3">
                     {[
                       'Assessment fee applies',
-                      'Assessment fee credited to your repair',
+                      'Fixed written quote before any work',
                       'You pay the quoted repair price only',
                       'Written fixed-price quote provided',
                       'No deposit required to book',
