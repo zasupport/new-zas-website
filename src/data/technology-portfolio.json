@@ -7,6 +7,7 @@
         "Acer",
         "Apple",
         "Asus",
+        "Corsair",
         "Dell",
         "Gigabyte",
         "HP",
@@ -23,14 +24,17 @@
       "brands": [
         "BenQ",
         "LG",
+        "Philips",
         "Zoom"
       ]
     },
     {
       "name": "Networking and connectivity",
       "brands": [
+        "Aruba",
         "Cambium",
         "Grandstream",
+        "Juniper",
         "Mikrotik",
         "Molex",
         "TP-Link",
@@ -42,7 +46,9 @@
     {
       "name": "Cybersecurity and management",
       "brands": [
-        "Bitdefender"
+        "Bitdefender",
+        "Kaspersky",
+        "Sophos"
       ]
     },
     {
@@ -56,6 +62,7 @@
       "brands": [
         "Acronis",
         "HPE",
+        "Kingston",
         "Seagate",
         "Toshiba"
       ]
@@ -64,17 +71,21 @@
       "name": "Print and workplace",
       "brands": [
         "Brother",
+        "Canon",
         "Epson",
+        "Lexmark",
         "Logitech",
         "Manhattan",
         "Razer",
         "Ricoh",
+        "Targus",
         "Volkano"
       ]
     },
     {
       "name": "Power and continuity",
       "brands": [
+        "APC",
         "Eaton"
       ]
     },
