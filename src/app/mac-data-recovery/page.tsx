@@ -168,11 +168,11 @@ const serviceSchema = {
 	provider: LOCAL_BUSINESS_PROVIDER,
 	areaServed: [
 		{ "@type": "City", name: "Johannesburg" },
-		{ "@type": "Suburb", name: "Sandton" },
-		{ "@type": "Suburb", name: "Rosebank" },
-		{ "@type": "Suburb", name: "Fourways" },
-		{ "@type": "Suburb", name: "Bryanston" },
-		{ "@type": "Suburb", name: "Hyde Park" },
+		{ "@type": "Neighborhood", name: "Sandton" },
+		{ "@type": "Neighborhood", name: "Rosebank" },
+		{ "@type": "Neighborhood", name: "Fourways" },
+		{ "@type": "Neighborhood", name: "Bryanston" },
+		{ "@type": "Neighborhood", name: "Hyde Park" },
 	],
 	description:
 		"Mac data recovery in Johannesburg for MacBook, iMac and Mac mini. Assessment first, written quote before work, POPIA-aligned data handling. Recovery cannot be guaranteed; every device is assessed individually.",

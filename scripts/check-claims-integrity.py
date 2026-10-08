@@ -200,7 +200,13 @@ def run_test():
             "charge. It is not credited toward the repair. See /no-fix-no-fee for the "
             "assessment process. B-BBEE Level 4. It does not guarantee that data can "
             "be recovered or that recovered files will be complete, compatible or "
-            "usable. Recovery cannot be guaranteed. We do not publish untested advice.\n"
+            "usable. Recovery cannot be guaranteed. We do not publish untested advice. "
+            # bullet-exemption branch (disclaimer lists a la suspected-hacked page):
+            # second bullet sits >60 chars from the negation, so only the bullet
+            # guard passes it - this positive control pins that branch.
+            "This assessment does not provide: • Password bypass of any kind or "
+            "similar circumvention offerings for customers in any engagement. "
+            "• Guaranteed recovery of lost data, money or accounts.\n"
         )
         dr = root / "app" / "mac-data-recovery"
         dr.mkdir(parents=True)
