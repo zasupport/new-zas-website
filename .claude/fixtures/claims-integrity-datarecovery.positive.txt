@@ -1,0 +1,12 @@
+# Positive fixture - owner-approved P4 data-recovery copy that MUST pass the
+# claims gate (scripts/check-claims-integrity.py). Mirrors the allowlisted
+# primary-page copy exercised by --test. Owner confirmation, 2026-10-08.
+92% data-recovery rate. Recovery outcomes depend on the condition of the device
+and storage components, encryption and security configuration, available
+credentials and the extent of physical or electronic damage. Recovery cannot be
+guaranteed, and every device is assessed individually.
+Data recovery from R2,999. Final pricing is confirmed after assessment.
+The assessment is from R599, charged separately and non-refundable.
+Any applicable warranty covers only the qualifying repair work or replacement
+parts specified for the engagement. It does not guarantee that data can be
+recovered or that recovered files will be complete, compatible or usable.
