@@ -7977,7 +7977,7 @@ If we find active corrosion, we perform ultrasonic cleaning to halt the process 
 
 Do not wait for a complete failure. If you recognise any of the symptoms described above, or if you know your MacBook was exposed to any moisture, bring it in for assessment. Catching corrosion early means a R2,800 ultrasonic cleaning instead of a R6,000+ component repair later.
 
-We are at 1 Hyde Park Lane, Hyde Park, Johannesburg. Clients from Sandton, Fourways, Rosebank, Midrand, and Bryanston can reach us within 20 minutes. Our assessment starts from R599 and includes a full internal inspection with photographs.
+We are at 1 Hyde Park Lane, Hyde Park, Johannesburg. Clients from Sandton, Fourways, Rosebank, Midrand, and Bryanston can reach us within 20 minutes. Our assessment starts from R599 and includes a full internal inspection with photographs. Our [liquid damage repair](/liquid-damage) begins with that inspection.
 
 ## Frequently Asked Questions
 
@@ -26100,7 +26100,7 @@ You spilled coffee on your MacBook three weeks ago. You wiped it down, the keybo
 
 I have been the diagnostic engineer on the other side of these stories for years. The pattern is consistent. Liquid damage rarely announces itself the day it happens. It surfaces weeks or months later as a series of small, weird, intermittent symptoms that look like wear, software bugs, or bad luck. By the time the machine fails completely, the corrosion has already eaten through the logic board traces and the repair window has closed.
 
-This checklist exists for the moment between the spill and the failure. If you spot two or more of the warning signs below on the same machine, the probability of hidden liquid damage is high enough to justify a proper diagnostic. We charge R599 for that diagnostic at our Hyde Park workshop, and it covers MacBooks brought in from Sandton, Rosebank, Bryanston, Fourways, Randburg, and across Johannesburg. The R599 buys you a written diagnosis, an honest answer, and a repair quote scoped to what we actually find inside the chassis, not a guess from the outside.
+This checklist exists for the moment between the spill and the failure. If you spot two or more of the warning signs below on the same machine, the probability of hidden liquid damage is high enough to justify a proper diagnostic. We charge R599 for that diagnostic at our Hyde Park workshop, and it covers MacBooks brought in from Sandton, Rosebank, Bryanston, Fourways, Randburg, and across Johannesburg. The R599 buys you a written diagnosis, an honest answer, and a repair quote scoped to what we actually find inside the chassis, not a guess from the outside. If the signs point to moisture, our [liquid damage repair](/liquid-damage) covers the corrosion work that follows.
 
 ## How Liquid Damage Behaves Inside a MacBook
 
