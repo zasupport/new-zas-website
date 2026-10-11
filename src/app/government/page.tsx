@@ -9,13 +9,13 @@ import PricingNote from '@/components/PricingNote';
 import PricingRange from '@/components/PricingRange';
 
 export const metadata: Metadata = {
-  title: 'Government IT Services South Africa | BEE Level 1 Apple Specialist | ZA Support',
+  title: 'Government IT Services South Africa | B-BBEE Level 4 Apple Specialist | ZA Support',
   description:
-    'BEE Level 1 government IT services provider. CSD registered Apple specialist for GCIS, Treasury, Presidency & departments. Secure fleet management, POPIA compliance.',
+    'B-BBEE Level 4 government IT services provider. CSD registered Apple specialist for GCIS, Treasury, Presidency & departments. Secure fleet management, POPIA compliance.',
   alternates: { canonical: 'https://zasupport.com/government' },
   keywords: [
     'government IT services south africa',
-    'BEE level 1 IT provider',
+    'B-BBEE level 4 IT provider',
     'CSD registered IT company',
     'government apple support',
     'government fleet management',
@@ -26,16 +26,16 @@ export const metadata: Metadata = {
     'apple MDM government',
   ],
   openGraph: {
-    title: 'Government IT Services South Africa | BEE Level 1 | ZA Support',
-    description: 'CSD registered, BEE Level 1 Apple IT specialist for South African government departments. Secure fleet management, POPIA compliance, device lifecycle.',
+    title: 'Government IT Services South Africa | B-BBEE Level 4 | ZA Support',
+    description: 'CSD registered, B-BBEE Level 4 Apple IT specialist for South African government departments. Secure fleet management, POPIA compliance, device lifecycle.',
     url: 'https://zasupport.com/government',
     type: 'website',
     images: [{ url: 'https://zasupport.com/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Government IT Services South Africa | BEE Level 1 | ZA Support',
-    description: 'CSD registered, BEE Level 1 Apple IT specialist for South African government departments.',
+    title: 'Government IT Services South Africa | B-BBEE Level 4 | ZA Support',
+    description: 'CSD registered, B-BBEE Level 4 Apple IT specialist for South African government departments.',
     images: ['https://zasupport.com/og-image.png'],
   },
 };
@@ -47,7 +47,7 @@ const GOV_FAQS = [
   },
   {
     question: 'What is your BEE level and do you qualify for government procurement?',
-    answer: 'ZA Support operates as a BEE Level 1 services provider. This means government departments receive maximum preferential procurement points when contracting our services. We actively support youth empowerment, women in technology, and broad-based economic transformation through our operational model.',
+    answer: 'ZA Support operates as a B-BBEE Level 4 services provider. This means government departments receive maximum preferential procurement points when contracting our services. We actively support youth empowerment, women in technology, and broad-based economic transformation through our operational model.',
   },
   {
     question: 'Which government departments do you currently serve?',
@@ -71,13 +71,13 @@ const GOV_FAQS = [
   },
   {
     question: 'What is your turnaround time for government device repairs?',
-    answer: 'Standard government device repairs are completed within 3 to 5 business days. For departments with active SLA agreements, we offer priority turnaround of 24 to 48 hours. Emergency on-site support is available for critical infrastructure. All repairs carry an up-to-3 year warranty and include full chain-of-custody documentation required for government asset management.',
+    answer: 'Standard government device repairs are completed within 3 to 5 business days. For departments with active SLA agreements, we offer priority turnaround of 24 to 48 hours. Emergency on-site support is available for critical infrastructure. All repairs carry an 12-month warranty and include full chain-of-custody documentation required for government asset management.',
   },
 ];
 
 const serviceSchema = buildServiceSchema({
   name: 'Government IT Services South Africa',
-  description: 'BEE Level 1, CSD registered Apple IT specialist providing secure fleet management, POPIA compliance, device lifecycle management and government-grade security for South African government departments.',
+  description: 'B-BBEE Level 4, CSD registered Apple IT specialist providing secure fleet management, POPIA compliance, device lifecycle management and government-grade security for South African government departments.',
 });
 
 const faqSchema = buildFaqSchema(GOV_FAQS);
@@ -130,7 +130,7 @@ const GOV_SERVICES = [
 ];
 
 const BEE_HIGHLIGHTS = [
-  'BEE Level 1 contributor, maximum preferential procurement points',
+  'B-BBEE Level 4 contributor, maximum preferential procurement points',
   'Youth employment and skills development programmes',
   'Women empowerment through technology training initiatives',
   'Enterprise and supplier development for emerging IT businesses',
@@ -152,14 +152,14 @@ export default function GovernmentPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <p className="text-[#0FEA7A] text-sm font-semibold uppercase tracking-widest mb-3">
-              BEE Level 1 · CSD Registered · Government IT Specialist
+              B-BBEE Level 4 · CSD Registered · Government IT Specialist
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#E8F4F1] leading-tight mb-6">
               Government IT Services
               <br /><span className="text-[#0FEA7A]">South Africa</span>
             </h1>
             <p className="text-xl text-[#7A9E98] leading-relaxed max-w-3xl mb-8">
-              ZA Support is a BEE Level 1, CSD registered Apple IT specialist serving South African
+              ZA Support is a B-BBEE Level 4, CSD registered Apple IT specialist serving South African
               government departments since 2009. From the Presidency to Legal Aid South Africa, we deliver
               secure fleet management, POPIA compliance, and device lifecycle solutions that meet the
               stringent requirements of public sector procurement.
@@ -207,11 +207,11 @@ export default function GovernmentPage() {
               <div>
                 <p className="text-[#0FEA7A] text-xs font-semibold uppercase tracking-widest mb-2">Transformation</p>
                 <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">
-                  BEE Level 1 Services Provider
+                  B-BBEE Level 4 Services Provider
                 </h2>
                 <p className="text-[#7A9E98] leading-relaxed mb-4">
                   Government departments that prioritise broad-based economic empowerment in their IT procurement
-                  benefit most from engaging BEE Level 1 suppliers. In our experience working with departments such
+                  benefit most from engaging B-BBEE Level 4 suppliers. In our experience working with departments such
                   as the Department of Public Service and Administration (DPSA), the Department of Women, Youth and
                   Persons with Disabilities, and National Treasury, BEE scoring carries significant weight in
                   tender evaluations &mdash; often 20 to 30 points out of 100.
@@ -224,7 +224,7 @@ export default function GovernmentPage() {
                   expertise in Mac and iOS ecosystems.
                 </p>
                 <p className="text-[#7A9E98] leading-relaxed">
-                  Our BEE Level 1 status means government procurement officers receive the maximum available
+                  Our B-BBEE Level 4 status means government procurement officers receive the maximum available
                   preferential points when selecting ZA Support. We are fully CSD registered and meet every
                   compliance requirement for government IT procurement under the Preferential Procurement
                   Policy Framework Act. Contact us for our CSD supplier details and BEE certificate.
@@ -341,7 +341,7 @@ export default function GovernmentPage() {
               <h2 className="text-2xl font-bold text-[#E8F4F1]">Government Compliance</h2>
             </div>
             <p className="text-[#7A9E98] mb-4 leading-relaxed">
-              ZA Support is a BEE Level 1 contributor, fully CSD registered, and compliant with all
+              ZA Support is a B-BBEE Level 4 contributor, fully CSD registered, and compliant with all
               National Treasury procurement requirements. For our CSD supplier numbers, BEE certificate,
               and company registration details, please contact us directly.
             </p>
@@ -396,7 +396,7 @@ export default function GovernmentPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Ready to Secure Your Government Apple Estate?</h2>
             <p className="text-[#7A9E98] mb-6">
-              BEE Level 1 · CSD registered · Assessment · 063 529 5863
+              B-BBEE Level 4 · CSD registered · Assessment · 063 529 5863
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

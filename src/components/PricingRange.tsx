@@ -31,6 +31,9 @@ const data = pricingRanges as unknown as RangesShape;
 type Props = {
   page: string;
   variant?: 'card' | 'inline';
+  // Per-page opt-out of the TEMP price hide (mirror of SchemaOrg's keepPricing).
+  // Default false: all existing consumers keep the hidden behaviour unchanged.
+  showPricing?: boolean;
 };
 
 function fmt(n: number): string {
@@ -42,8 +45,8 @@ function fmt(n: number): string {
 // this back to false to restore the numeric ranges once new pricing is live.
 const HIDE_PRICING = true;
 
-export default function PricingRange({ page, variant = 'card' }: Props) {
-  if (HIDE_PRICING) {
+export default function PricingRange({ page, variant = 'card', showPricing = false }: Props) {
+  if (HIDE_PRICING && !showPricing) {
     if (variant === 'inline') {
       return (
         <p

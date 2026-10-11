@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Air Liquid Damage Repair',
   description:
-    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, Assessment, up-to-3 year warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
+    'MacBook Air liquid damage repair in Johannesburg. Emergency guide, Assessment, 12-month warranty. M1, M2, M3 and Intel models. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-air' },
   keywords: [
     'MacBook Air liquid damage repair Johannesburg',
@@ -78,7 +78,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on MacBook Air liquid damage repairs?',
     answer:
-      'All ZA Support liquid damage repairs carry a up-to-3 year warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at our assessment fee. Our Assessment policy also applies: if we cannot repair your machine, an assessment fee applies and the machine is returned exactly as received.',
+      'All ZA Support liquid damage repairs carry a 12-month warranty on every component we repair or replace. If the same fault returns within the warranty period due to our workmanship, we fix it at our assessment fee. Our Assessment policy also applies: if we cannot repair your machine, an assessment fee applies and the machine is returned exactly as received.',
   },
 ];
 
@@ -191,7 +191,7 @@ const repairProcess = [
   {
     step: '6',
     title: 'Collection or Delivery',
-    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a up-to-3 year warranty certificate with every repaired MacBook Air.',
+    detail: 'Collect from Hyde Park or we arrange secure courier delivery. We include a 12-month warranty certificate with every repaired MacBook Air.',
   },
 ];
 
@@ -200,7 +200,7 @@ const repairProcess = [
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Air Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, Assessment, up-to-3 year warranty. M1, M2, M3 and Intel models.',
+  description: 'Professional MacBook Air liquid damage repair in Johannesburg. Emergency assessment, Assessment, 12-month warranty. M1, M2, M3 and Intel models.',
   lowPrice: '4900',
   highPrice: '17150',
 });
@@ -230,7 +230,7 @@ export default function MacBookAirLiquidDamagePage() {
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
               Emergency assessment available. M1, M2, M3 and all Intel models.
-              Assessment. written up-to-3 year warranty. Hyde Park, Johannesburg.
+              Assessment. written 12-month warranty. Hyde Park, Johannesburg.
             </p>
             <p className="text-base text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
               The MacBook Air&apos;s thin, fanless design means liquid reaches the logic board faster than
@@ -281,7 +281,7 @@ export default function MacBookAirLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '★', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty, No Exceptions' },
+                { value: 'Covered', label: '12-Month Warranty, No Exceptions' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -500,7 +500,7 @@ export default function MacBookAirLiquidDamagePage() {
             <p className="text-[#7A9E98] text-sm leading-relaxed">
               All prices are confirmed before any work begins. Our Assessment policy applies to every case, 
               if we cannot repair your MacBook Air, an assessment fee applies and the machine is returned exactly
-              as received. up-to-3 year warranty on all repairs.
+              as received. 12-month warranty on all repairs.
             </p>
           </div>
         </div>

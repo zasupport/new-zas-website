@@ -159,7 +159,7 @@ export default function BatteryReplacementMacMiniPage() {
               <br /><span className="text-[#0FEA7A]">Johannesburg</span>
             </h1>
             <p className="text-xl text-[#7A9E98] mb-4 max-w-3xl leading-relaxed">
-              The Mac Mini is a desktop, it does not have a rechargeable battery. But it does have a PRAM coin cell, an internal power supply unit, and a power board that are all vulnerable to Johannesburg&apos;s load shedding surges. We diagnose and repair all Mac Mini power faults at our Hyde Park workshop. Assessment with Assessment guarantee and 12-month warranty.
+              The Mac Mini is a desktop, it does not have a rechargeable battery. But it does have a PRAM coin cell, an internal power supply unit, and a power board that are all vulnerable to Johannesburg&apos;s load shedding surges. We diagnose and repair all Mac Mini power faults at our Hyde Park workshop. Assessment with assessment and 12-month warranty.
             </p>
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />

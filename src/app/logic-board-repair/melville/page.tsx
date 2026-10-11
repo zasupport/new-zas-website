@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Melville | ZA Support Hyde Park',
-  description: 'MacBook logic board repair for Melville clients. Component-level repair, assessment. We collect from Melville. No Fix No Fee. Call 064 529 5863.',
+  description: 'MacBook logic board repair for Melville clients. Component-level repair, assessment. We collect from Melville. Fixed written quotes. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/melville' },
 };
 
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'What does MacBook logic board repair cost for Melville clients?',
-    answer: 'Assessment. The repair cost depends on the specific fault, a written quote with the exact price is provided before any work proceeds. Component-level repair typically costs 60-80% less than Apple\'s full board replacement. No Fix No Fee applies to all Melville clients.',
+    answer: 'Assessment. The repair cost depends on the specific fault, a written quote with the exact price is provided before any work proceeds. Component-level repair typically costs 60-80% less than Apple\'s full board replacement. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Can a MacBook logic board be repaired or does it need replacing?',
@@ -53,7 +53,7 @@ const faqs = [
     answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. Your data remains on the board throughout the repair process. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic.',
   },
   {
-    question: 'Do you offer No Fix No Fee for Melville clients?',
+    question: 'Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
     answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the assessment fee, not the full repair cost. This applies to all clients regardless of location. Collection from Melville is included.',
   },
 ];
@@ -108,7 +108,7 @@ export default function LogicBoardRepairMelvillePage() {
               <span>Hyde Park, Johannesburg | Assessment | Collecting from Melville, approx 12-18 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
+              {['Component-Level Repair', 'Fixed Quote First', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -178,7 +178,7 @@ export default function LogicBoardRepairMelvillePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Logic Board Fault? Assessment.</h2>
-            <p className="text-[#7A9E98] mb-6">Collecting from Melville. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-6">Collecting from Melville. Fixed written quotes.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-MELVILLE', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

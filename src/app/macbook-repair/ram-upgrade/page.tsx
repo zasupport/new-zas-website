@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl} from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'MacBook RAM Upgrade Johannesburg | Intel Mac Memory | ZA Support',
   description:
-    'MacBook RAM upgrade in Johannesburg. Upgrade memory on Intel MacBook Pro. More RAM = faster multitasking. Assessment. Hyde Park. up-to-3 year warranty.',
+    'MacBook RAM upgrade in Johannesburg. Upgrade memory on Intel MacBook Pro. More RAM = faster multitasking. Assessment. Hyde Park. 12-month warranty.',
   alternates: { canonical: 'https://zasupport.com/macbook-repair/ram-upgrade' },
 };
 
@@ -106,7 +106,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on RAM upgrades?',
     answer:
-      'All RAM upgrades carry a up-to-3 year warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at our assessment fee.',
+      'All RAM upgrades carry a 12-month warranty on parts and labour. If any issue arises from the upgrade within the warranty period, we fix it at our assessment fee.',
   },
 ];
 
@@ -115,7 +115,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook RAM Upgrade Johannesburg',
   description:
-    'MacBook RAM upgrade service in Johannesburg. Upgrade memory on Intel MacBook Pro models with SO-DIMM slots. up-to-3 year warranty.',
+    'MacBook RAM upgrade service in Johannesburg. Upgrade memory on Intel MacBook Pro models with SO-DIMM slots. 12-month warranty.',
   url: 'https://zasupport.com/macbook-repair/ram-upgrade',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
@@ -162,7 +162,7 @@ export default function MacBookRAMUpgradePage() {
             MacBook RAM Upgrade Johannesburg
           </h1>
           <p className="text-xl text-[#7A9E98] mb-6 max-w-2xl mx-auto">
-            Upgrade RAM on Intel MacBook Pro. More memory, faster multitasking, fewer crashes. up-to-3 year warranty.
+            Upgrade RAM on Intel MacBook Pro. More memory, faster multitasking, fewer crashes. 12-month warranty.
           </p>
 
           {/* Important note */}
@@ -182,7 +182,7 @@ export default function MacBookRAMUpgradePage() {
             {[
               { icon: <Cpu className="w-4 h-4" />, label: 'RAM Upgrade' },
               { icon: <Zap className="w-4 h-4" />, label: 'Same-Day Service' },
-              { icon: <Shield className="w-4 h-4" />, label: 'Up-to-3 Year Warranty' },
+              { icon: <Shield className="w-4 h-4" />, label: '12-Month Warranty' },
               { icon: <CheckCircle className="w-4 h-4" />, label: 'Written Quote First' },
             ].map((badge) => (
               <span

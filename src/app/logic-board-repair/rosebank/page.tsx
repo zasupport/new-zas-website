@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Rosebank | ZA Support Hyde Park',
   description:
-    'MacBook logic board repair for Rosebank clients. Component-level repair specialists 9 minutes from Rosebank. Assessment, up-to-3 year warranty. Call 064 529 5863.',
+    'MacBook logic board repair for Rosebank clients. Component-level repair specialists 9 minutes from Rosebank. Assessment, 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/rosebank' },
 };
 
@@ -66,7 +66,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Logic Board Repair Rosebank',
-  description: 'MacBook logic board component-level repair for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment. up-to-3 year warranty.',
+  description: 'MacBook logic board component-level repair for Rosebank clients. 5 minutes from our Hyde Park workshop. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -191,7 +191,7 @@ export default function LogicBoardRepairRosebankPage() {
               { step: '02', title: 'Diagnostic Assessment', desc: 'Board-level assessment within 24 hours using schematics and microscopy. Exact fault identified, no guesswork.' },
               { step: '03', title: 'Written Quote', desc: 'Clear breakdown: fault, repair method, cost, and timeframe. No work starts until you approve in writing.' },
               { step: '04', title: 'Precision Repair', desc: 'Component-level repair under a high-magnification stereo microscope. Only the failed component is touched, your board remains original.' },
-              { step: '05', title: 'Return to Rosebank', desc: 'Tested under load and returned to your door with a written up-to-3 year warranty. Turnaround typically 48-72 hours.' },
+              { step: '05', title: 'Return to Rosebank', desc: 'Tested under load and returned to your door with a written 12-month warranty. Turnaround typically 48-72 hours.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="glass-card p-6 flex gap-5">
                 <span className="text-[#0FEA7A] font-extrabold text-2xl flex-shrink-0">{step}</span>
@@ -300,7 +300,7 @@ export default function LogicBoardRepairRosebankPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Rosebank MacBook Fault? Diagnostic.</h2>
-            <p className="text-[#7A9E98] mb-6">9 minutes from Rosebank. Assessment. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-6">9 minutes from Rosebank. Assessment. 12-month warranty.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-ROSEBANK', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 💬 WhatsApp for Quote

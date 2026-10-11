@@ -56,7 +56,7 @@ const orphanBatterySuburbLinks = [
 export const metadata: Metadata = {
   title: 'MacBook Battery Replacement Johannesburg [2026] | ZA Support',
   description:
-    'MacBook & iPhone battery replacement in Johannesburg. Same-day service, up-to-3 year warranty. Assessment. Call 064 529 5863.',
+    'MacBook & iPhone battery replacement in Johannesburg. Same-day service, 12-month warranty. Assessment. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/battery-replacement' },
 };
 
@@ -124,7 +124,7 @@ const faqs = [
   },
   {
     question: 'Do you use genuine Apple batteries?',
-    answer: 'We use premium-grade replacement cells that match or exceed Apple OEM specifications for capacity, voltage, and thermal safety. These are the same cells used by authorised service providers globally. Each battery is tested for capacity, charge cycles, and thermal behaviour before installation. We do not use cheap aftermarket cells, which is why we can offer up to a 3-year warranty.',
+    answer: 'We use premium-grade replacement cells that match or exceed Apple OEM specifications for capacity, voltage, and thermal safety. These are the same cells used by authorised service providers globally. Each battery is tested for capacity, charge cycles, and thermal behaviour before installation. We do not use cheap aftermarket cells, which is why we can offer up to a 12-month warranty.',
   },
   {
     question: 'Will replacing my battery erase my data?',
@@ -144,7 +144,7 @@ const faqs = [
   },
   {
     question: 'Do you offer an Assessment policy on battery replacements?',
-    answer: 'Yes. If we assess your device and determine that a battery replacement will not resolve your issue, for example, if the problem is actually a logic board fault causing incorrect battery readings, you pay nothing beyond the assessment fee. We will never replace a battery that does not need replacing. If the battery is the confirmed issue, the assessment fee is included in the replacement cost.',
+    answer: 'Yes. If we assess your device and determine that a battery replacement will not resolve your issue, for example, if the problem is actually a logic board fault causing incorrect battery readings, you pay nothing beyond the assessment fee. We will never replace a battery that does not need replacing. The R599 assessment fee is a separate, non-refundable charge.',
   },
 ];
 
@@ -153,7 +153,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook Battery Replacement Johannesburg',
-  description: 'Professional MacBook, iPhone, and iPad battery replacement in Johannesburg. Same-day service. Up-to-3 year warranty. Hyde Park workshop.',
+  description: 'Professional MacBook, iPhone, and iPad battery replacement in Johannesburg. Same-day service. 12-month warranty. Hyde Park workshop.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -171,13 +171,13 @@ const serviceSchema = {
     itemListElement: [
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Air Battery Replacement', description: 'Same-day MacBook Air battery replacement. Up-to-3 year warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Air Battery Replacement', description: 'Same-day MacBook Air battery replacement. 12-month warranty.' },
         price: '1499',
         priceCurrency: 'ZAR',
       },
       {
         '@type': 'Offer',
-        itemOffered: { '@type': 'Service', name: 'MacBook Pro Battery Replacement', description: 'Same-day MacBook Pro battery replacement. Up-to-3 year warranty.' },
+        itemOffered: { '@type': 'Service', name: 'MacBook Pro Battery Replacement', description: 'Same-day MacBook Pro battery replacement. 12-month warranty.' },
         price: '1799',
         priceCurrency: 'ZAR',
       },
@@ -262,7 +262,7 @@ export default function BatteryReplacementPage() {
         <section className="border-y border-[#27504D]/30 py-8 px-4">
           <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {[
-              { icon: Shield, label: 'Up-to-3 Year Warranty' },
+              { icon: Shield, label: '12-Month Warranty' },
               { icon: Clock, label: 'Same-Day Service' },
               { icon: Star, label: `${SITE.rating}★ (${SITE.reviewCount} Reviews)` },
               { icon: CheckCircle, label: 'Assessment' },
@@ -348,7 +348,7 @@ export default function BatteryReplacementPage() {
               </table>
             </div>
             <p className="text-[#7A9E98] text-sm mt-6">
-              An assessment fee applies. If you proceed with the replacement, the assessment fee is included in the total cost.
+              An assessment fee applies. The R599 assessment fee is a separate, non-refundable charge.
               All pricing is in ZAR and includes VAT.
             </p>
             <PricingRange page="/battery-replacement" />
@@ -462,7 +462,7 @@ export default function BatteryReplacementPage() {
                 },
                 {
                   title: 'Transparent Pricing',
-                  desc: 'You receive a written, fixed-price quote before any work begins. The quote is the final price, no surprises, no hidden charges, no "we found something else" upsells. Assessment, included in the repair cost if you proceed.',
+                  desc: 'You receive a written, fixed-price quote before any work begins. The quote is the final price, no surprises, no hidden charges, no "we found something else" upsells. The R599 assessment fee is a separate, non-refundable charge.',
                 },
                 {
                   title: 'Central Location',

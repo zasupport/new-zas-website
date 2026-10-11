@@ -93,7 +93,7 @@ export const NAV_LINKS: NavLink[] = [
       { label: 'Enterprise', href: '/enterprise', desc: 'Fleet management & Apple MDM' },
       { label: 'SME Support', href: '/sme-support', desc: 'Small business Apple IT' },
       { label: 'Medical IT', href: '/medical-it', desc: 'HPCSA-compliant practice IT' },
-      { label: 'Government', href: '/government', desc: 'BEE Level 1 IT services' },
+      { label: 'Government', href: '/government', desc: 'B-BBEE Level 4 IT services' },
       { label: 'Managed IT', href: '/managed-services', desc: 'Monthly SLA coverage' },
       { label: 'Apple MDM', href: '/jamf-mdm', desc: 'Apple device management' },
     ],
@@ -114,7 +114,7 @@ export const NAV_LINKS: NavLink[] = [
 
 
 export const TRUST_BADGES = [
-  { label: 'Up-to-3 Year Warranty', icon: 'shield' },
+  { label: '12-Month Warranty', icon: 'shield' },
   { label: 'Fastest Turnaround Times', icon: 'clock' },
   { label: '16 Years Experience', icon: 'badge-check' },
   { label: 'Assessment', icon: 'search' },
@@ -188,7 +188,7 @@ const SERVICE_MESSAGES: Record<string, string> = {
   'ram-upgrade': 'Hi, I need a RAM upgrade quote',
   'apple-watch': 'Hi, I need an Apple Watch repair quote',
   'accessories': 'Hi, I need help with Apple accessories repair',
-  'no-fix-no-fee': 'Hi, I need a free Mac diagnostic',
+  'no-fix-no-fee': 'Hi, I need a Mac assessment',
   'managed-services': "Hi, I'd like a managed IT services quote",
   'medical-it': "Hi, I'm a medical practice and need IT support",
   'jamf-mdm': "Hi, I'd like a JAMF MDM implementation quote",

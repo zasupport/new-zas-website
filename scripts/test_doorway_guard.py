@@ -11,6 +11,7 @@ import sys
 spec = importlib.util.spec_from_file_location(
     "abi", os.path.join(os.path.dirname(os.path.abspath(__file__)), "auto-blog-insert.py")
 )
+assert spec is not None and spec.loader is not None
 m = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)
 

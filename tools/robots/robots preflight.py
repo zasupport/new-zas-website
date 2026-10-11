@@ -43,7 +43,7 @@ ROBOTS_SOURCES = [
     "public/robots.txt",
 ]
 
-results = []
+results: list = []
 
 
 def add(section, name, status, detail="", fix=""):

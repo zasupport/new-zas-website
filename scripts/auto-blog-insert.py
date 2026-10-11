@@ -25,7 +25,7 @@ try:
     from blog_content_sanitiser import sanitise as _sanitise_body
 except Exception:
 
-    def _sanitise_body(c, escaped=False):  # fail-open is unacceptable; fail-loud
+    def _sanitise_body(c, escaped=False):  # type: ignore[misc]  # fail-open is unacceptable; fail-loud
         raise RuntimeError(
             "blog_content_sanitiser.sanitise unavailable — refusing to insert un-sanitised content (§343)"
         )
@@ -42,7 +42,7 @@ try:
     from dash_normalizer import normalize_dashes as _normalize_dashes
 except Exception:
 
-    def _normalize_dashes(c):  # fail-loud — never let a raw glyph reach production (§547)
+    def _normalize_dashes(c):  # type: ignore[misc]  # fail-loud — never let a raw glyph reach production (§547)
         raise RuntimeError(
             "dash_normalizer.normalize_dashes unavailable — refusing to insert un-normalised content (§547)"
         )
@@ -60,6 +60,7 @@ try:
     _spec = _ilu.spec_from_file_location(
         "_price_gate", str(Path(__file__).parent / "check-blog-price-allowlist.py")
     )
+    assert _spec is not None and _spec.loader is not None
     _pg = _ilu.module_from_spec(_spec)
     _spec.loader.exec_module(_pg)
 
@@ -155,7 +156,7 @@ def extract_faqs_from_content(content: str) -> list[dict]:
             pass
 
     # Extract Q&A pairs from ### headings followed by paragraph text
-    faqs = []
+    faqs: list = []
     lines = content.split("\n")
     i = 0
     while i < len(lines) and len(faqs) < 6:

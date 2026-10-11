@@ -29,6 +29,7 @@ _HERE = Path(__file__).parent
 _spec = importlib.util.spec_from_file_location(
     "price_gate", _HERE / "check-blog-price-allowlist.py"
 )
+assert _spec is not None and _spec.loader is not None
 _pg = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_pg)
 ALLOWED, TOKEN_RE = _pg.ALLOWED, _pg.TOKEN_RE
@@ -107,7 +108,7 @@ def report(rows) -> str:
     from collections import Counter, defaultdict
 
     cls_count = Counter(r[2] for r in rows)
-    by_post = defaultdict(lambda: Counter())
+    by_post: defaultdict = defaultdict(lambda: Counter())
     for slug, tok, cls, _ in rows:
         by_post[slug][cls] += 1
     za_vals = Counter(r[1] for r in rows if r[2] == "ZA-INVENTED")

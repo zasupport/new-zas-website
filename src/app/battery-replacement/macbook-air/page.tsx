@@ -174,7 +174,7 @@ const processSteps = [
   {
     step: 3,
     title: 'Written Fixed-Price Quote',
-    desc: 'You receive a written quote before any work begins. Assessment, included in the replacement cost if you proceed. The quote is the final price. No surprises.',
+    desc: 'You receive a written quote before any work begins. The R599 assessment fee is a separate, non-refundable charge. The quote is the final price. No surprises.',
   },
   {
     step: 4,
@@ -228,7 +228,7 @@ const faqs = [
   {
     question: 'Can you check my MacBook Air battery health without replacing it?',
     answer:
-      'Yes. Our battery diagnostic is part of the assessment service. We will tell you your cycle count, maximum capacity percentage, battery condition flag, and charging circuit status. If the battery does not need replacing yet, we will tell you that, and give you a realistic estimate of how many months you have left at your current usage pattern. We would rather give you an honest assessment than replace a battery unnecessarily. If you proceed with a replacement, the assessment fee is included in the total cost.',
+      'Yes. Our battery diagnostic is part of the assessment service. We will tell you your cycle count, maximum capacity percentage, battery condition flag, and charging circuit status. If the battery does not need replacing yet, we will tell you that, and give you a realistic estimate of how many months you have left at your current usage pattern. We would rather give you an honest assessment than replace a battery unnecessarily. The R599 assessment fee is a separate, non-refundable charge.',
   },
   {
     question: 'How long does MacBook Air battery replacement take?',
@@ -248,7 +248,7 @@ const faqs = [
   {
     question: 'Does the Assessment policy apply to MacBook Air battery repairs?',
     answer:
-      'Yes. If we assess your MacBook Air and conclude that the problem is not the battery, for instance, a charging IC fault on the logic board, a damaged MagSafe or USB-C board, or a software issue causing incorrect readings, you pay only the assessment fee and your machine is returned exactly as received. We will never replace a battery that does not need replacing. If the battery is confirmed as the fault and you choose to proceed, the assessment fee is included in the replacement total.',
+      'Yes. If we assess your MacBook Air and conclude that the problem is not the battery, for instance, a charging IC fault on the logic board, a damaged MagSafe or USB-C board, or a software issue causing incorrect readings, you pay only the assessment fee and your machine is returned exactly as received. We will never replace a battery that does not need replacing. The R599 assessment fee is a separate, non-refundable charge.',
   },
 ];
 
@@ -260,7 +260,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air Battery Replacement Johannesburg',
   description:
-    'Professional MacBook Air battery replacement in Johannesburg. All models including M1, M2, M3, and Intel Retina Air. Swollen battery removal, adhesive cell extraction, cycle count diagnostics. Hyde Park workshop. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Air battery replacement in Johannesburg. All models including M1, M2, M3, and Intel Retina Air. Swollen battery removal, adhesive cell extraction, cycle count diagnostics. Hyde Park workshop. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -372,7 +372,7 @@ export default function BatteryReplacementMacBookAirPage() {
         <section className="border-y border-[#27504D]/30 py-8 px-4">
           <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
             {[
-              { icon: Shield, label: 'Up-to-3 Year Warranty' },
+              { icon: Shield, label: '12-Month Warranty' },
               { icon: Clock, label: 'Same-Day Service' },
               { icon: CheckCircle, label: 'Assessment' },
               { icon: MapPin, label: 'Hyde Park Workshop' },
@@ -614,7 +614,7 @@ export default function BatteryReplacementMacBookAirPage() {
                   </p>
                   <p className="text-[#7A9E98] leading-relaxed">
                     We diagnose the root cause before recommending any repair. If we confirm the battery is the issue
-                    and you choose to proceed, the assessment is included in the replacement cost, you do not
+                    The R599 assessment fee is a separate, non-refundable charge
                     pay it twice.
                   </p>
                 </div>
@@ -753,7 +753,7 @@ export default function BatteryReplacementMacBookAirPage() {
             </h2>
             <p className="text-[#7A9E98] mb-8 text-lg leading-relaxed">
               Walk in to our Hyde Park workshop, or WhatsApp us now for a quote. Same-day service available for M1,
-              M2, M3, and Intel Retina MacBook Air. Assessment. Up-to-3 year warranty.
+              M2, M3, and Intel Retina MacBook Air. Assessment. 12-month warranty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

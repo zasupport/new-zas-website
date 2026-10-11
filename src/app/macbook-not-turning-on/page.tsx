@@ -222,7 +222,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on MacBook repairs?',
     answer:
-      'All ZA Support repairs carry a up-to-3 year warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within the warranty period, we fix it at our assessment fee. The warranty is transferable if you sell the device.',
+      'All ZA Support repairs carry a 12-month warranty on the repaired component and any replaced parts. This is the longest warranty offered by any independent Mac repair workshop in Johannesburg. If the same fault recurs within the warranty period, we fix it at our assessment fee. The warranty is transferable if you sell the device.',
   },
 ];
 
@@ -232,7 +232,7 @@ const faqs = [
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Not Turning On, Repair & Diagnosis, Johannesburg',
   description:
-    'Same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. Assessment. up-to-3 year warranty.',
+    'Same-day assessment for MacBooks that won\'t turn on in Johannesburg. Battery, surge, liquid damage, logic board, firmware and backlight repairs. Assessment. 12-month warranty.',
   lowPrice: '1599',
   highPrice: '16000',
 });
@@ -562,7 +562,7 @@ export default function MacBookNotTurningOnPage() {
                 {
                   step: '6',
                   title: 'Collection',
-                  detail: 'Collect from Hyde Park or courier delivery across Johannesburg. up-to-3 year warranty issued. Most repairs complete within 24-72 hours.',
+                  detail: 'Collect from Hyde Park or courier delivery across Johannesburg. 12-month warranty issued. Most repairs complete within 24-72 hours.',
                   icon: <MapPin className="w-5 h-5" />,
                 },
               ].map((item) => (
@@ -637,7 +637,7 @@ export default function MacBookNotTurningOnPage() {
             </h2>
 
             <p className="text-[#7A9E98] text-lg mb-10 max-w-2xl mx-auto">
-              Assessment. Written quote. Assessment. up-to-3 year warranty.
+              Assessment. Written quote. Assessment. 12-month warranty.
               Based in Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways and all surrounding suburbs.
             </p>
 

@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Logic Board Repair Pretoria | ZA Support Hyde Park',
-  description: 'MacBook logic board repair for Pretoria clients. Component-level repair, assessment. We collect from Pretoria. No Fix No Fee. Call 064 529 5863.',
+  description: 'MacBook logic board repair for Pretoria clients. Component-level repair, assessment. We collect from Pretoria. Fixed written quotes. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/pretoria' },
 };
 
@@ -30,11 +30,11 @@ const faqs = [
   },
   {
     question: 'How far is Pretoria from your Hyde Park workshop?',
-    answer: 'Approximately 55 km from Pretoria to our workshop at 1 Hyde Lane, Second Floor, Office E2004, roughly 40-55 minutes by car. Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Same No Fix No Fee guarantee.',
+    answer: 'Approximately 55 km from Pretoria to our workshop at 1 Hyde Lane, Second Floor, Office E2004, roughly 40-55 minutes by car. Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'What does MacBook logic board repair cost for Pretoria clients?',
-    answer: 'Assessment. Repair cost depends on the specific fault, quoted in writing before any work proceeds. No Fix No Fee applies to all Pretoria clients.',
+    answer: 'Assessment. Repair cost depends on the specific fault, quoted in writing before any work proceeds. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Can a MacBook logic board be repaired or does it need replacing?',
@@ -53,7 +53,7 @@ const faqs = [
     answer: 'Yes. Component-level board repair does not require erasing or removing the SSD. If the board is completely non-functional, SSD readability is assessed as part of the diagnostic.',
   },
   {
-    question: 'Do you offer No Fix No Fee for Pretoria clients?',
+    question: 'Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
     answer: 'Yes. If we cannot repair your MacBook after the assessment, you pay only the assessment fee, not the full repair cost. This applies to all clients regardless of location.',
   },
 ];
@@ -108,7 +108,7 @@ export default function LogicBoardRepairPretoriaPage() {
               <span>Hyde Park, Johannesburg | Assessment | Collecting from Pretoria, approx 40-55 min drive</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Component-Level Repair', 'No Fix No Fee', 'Written Warranty', 'Assessment'].map((l) => (
+              {['Component-Level Repair', 'Fixed Quote First', 'Written Warranty', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -133,7 +133,7 @@ export default function LogicBoardRepairPretoriaPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Logic Board Faults We Repair for Pretoria Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Same No Fix No Fee guarantee. All MacBook models from 2015 onwards are covered, Intel and Apple Silicon. Faults assessed at component level. Written quote before any repair proceeds.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. All MacBook models from 2015 onwards are covered, Intel and Apple Silicon. Faults assessed at component level. Written quote before any repair proceeds.</p>
           <div className="space-y-4">
             {faults.map((f) => (
               <div key={f.title} className="glass-card p-5">
@@ -178,7 +178,7 @@ export default function LogicBoardRepairPretoriaPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Logic Board Fault? Assessment.</h2>
-            <p className="text-[#7A9E98] mb-6">Collecting from Pretoria. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-6">Collecting from Pretoria. Fixed written quotes.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LBR-PRETORIA', 'logic-board')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all" >
                 WhatsApp for Quote

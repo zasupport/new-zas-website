@@ -62,7 +62,7 @@ const orphanScreenSuburbLinks = [
 export const metadata: Metadata = {
   title: 'MacBook Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook & iPhone screen repair in Johannesburg. Cracked display, flickering, dead pixels fixed. Up-to-3 year warranty. Call 064 529 5863.',
+    'MacBook & iPhone screen repair in Johannesburg. Cracked display, flickering, dead pixels fixed. 12-month warranty. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair' },
 };
 
@@ -122,7 +122,7 @@ const compatibleDevices = [
 const faqs = [
   {
     question: 'How much does MacBook screen repair cost in Johannesburg?',
-    answer: 'Screen repair pricing depends on your specific model and the type of panel (LCD, Retina, OLED, or Liquid Retina XDR). Every quote includes the display assembly, labour, and our up-to-3 year warranty. Contact us for pricing and we provide a written quote before starting any work.',
+    answer: 'Screen repair pricing depends on your specific model and the type of panel (LCD, Retina, OLED, or Liquid Retina XDR). Every quote includes the display assembly, labour, and our 12-month warranty. Contact us for pricing and we provide a written quote before starting any work.',
   },
   {
     question: 'How long does a MacBook screen replacement take?',
@@ -142,7 +142,7 @@ const faqs = [
   },
   {
     question: 'How does your pricing compare to the Apple Store?',
-    answer: 'Apple\'s official screen replacement pricing in South Africa is much higher than ours, often many times more depending on the model. Our pricing is a fraction of Apple\'s. We use equivalent-grade panels with the same resolution, brightness, and colour accuracy, and we include an up-to-3 year warranty compared to Apple\'s 90-day repair warranty.',
+    answer: 'Apple\'s official screen replacement pricing in South Africa is much higher than ours, often many times more depending on the model. Our pricing is a fraction of Apple\'s. We use equivalent-grade panels with the same resolution, brightness, and colour accuracy, and we include an 12-month warranty compared to Apple\'s 90-day repair warranty.',
   },
   {
     question: 'Can you repair a MacBook screen with lines running through it?',
@@ -158,7 +158,7 @@ const faqs = [
   },
   {
     question: 'What warranty do you offer on screen repairs?',
-    answer: 'Every screen repair carried out by ZA Support includes an up-to-3 year warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period, dead pixels, backlight failure, colour shift, we repair or replace it at our assessment fee. The warranty is provided in writing and covers parts and labour.',
+    answer: 'Every screen repair carried out by ZA Support includes an 12-month warranty covering the display panel, backlight, and our workmanship. If the replacement screen develops a fault within the warranty period, dead pixels, backlight failure, colour shift, we repair or replace it at our assessment fee. The warranty is provided in writing and covers parts and labour.',
   },
 ];
 
@@ -175,7 +175,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'Service',
   name: 'MacBook & iPhone Screen Repair Johannesburg',
-  description: 'Professional MacBook and iPhone screen repair in Johannesburg. Cracked screens, flickering displays, dead pixels, backlight failure. Up-to-3 year warranty.',
+  description: 'Professional MacBook and iPhone screen repair in Johannesburg. Cracked screens, flickering displays, dead pixels, backlight failure. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: [
     { '@type': 'City', name: 'Johannesburg' },
@@ -284,7 +284,7 @@ export default function ScreenRepairPage() {
               </h1>
               <p className="text-lg sm:text-xl text-[#7A9E98] leading-relaxed mb-8 max-w-2xl">
                 Cracked screen, flickering display, or dead pixels? We repair MacBook, iMac, and iPhone screens from our
-                Hyde Park workshop. OEM-grade panels, True Tone calibration retained, and an up-to-3 year warranty on
+                Hyde Park workshop. OEM-grade panels, True Tone calibration retained, and an 12-month warranty on
                 every repair, at a fraction of the Apple Store&rsquo;s pricing.
               </p>
 
@@ -309,7 +309,7 @@ export default function ScreenRepairPage() {
               {/* Trust badges */}
               <div className="flex flex-wrap gap-6 mt-10 text-sm text-[#7A9E98]">
                 <span className="flex items-center gap-2">
-                  <Shield className="w-4 h-4 text-[#0FEA7A]" /> Up-to-3 Year Warranty
+                  <Shield className="w-4 h-4 text-[#0FEA7A]" /> 12-Month Warranty
                 </span>
                 <span className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" /> Assessment
@@ -398,7 +398,7 @@ export default function ScreenRepairPage() {
             </div>
 
             <p className="text-xs text-[#7A9E98] mt-6 text-center">
-              All quotes include parts, labour, and up-to-3 year warranty. Exact price depends on model year and panel type.
+              All quotes include parts, labour, and 12-month warranty. Exact price depends on model year and panel type.
               The Apple Store charges many times more for the same repairs.
             </p>
             <PricingRange page="/screen-repair" />
@@ -495,7 +495,7 @@ export default function ScreenRepairPage() {
             <div className="grid sm:grid-cols-3 gap-6">
               <div className="text-center p-6">
                 <Shield className="w-10 h-10 text-[#0FEA7A] mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">Up-to-3 Year Warranty</h3>
+                <h3 className="text-lg font-bold text-[#E8F4F1] mb-2">12-Month Warranty</h3>
                 <p className="text-[#7A9E98] text-sm">
                   Every screen repair includes a written warranty covering the display panel, backlight, and our workmanship.
                   Parts and labour included.

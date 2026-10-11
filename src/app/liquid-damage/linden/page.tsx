@@ -10,7 +10,7 @@ import { CONTACT, buildWhatsAppUrl } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'MacBook Liquid Damage Repair Linden | ZA Support Hyde Park',
-  description: 'MacBook liquid damage repair for Linden clients. Ultrasonic cleaning, component-level board repair. Assessment. Collection from Linden. No Fix No Fee.',
+  description: 'MacBook liquid damage repair for Linden clients. Ultrasonic cleaning, component-level board repair. Assessment. Collection from Linden. Fixed written quotes.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/linden' },
 };
 
@@ -53,8 +53,8 @@ const faqs = [
     answer: 'Ultrasonic cleaning takes 24 hours including drying time. Component-level repair adds 2-5 business days depending on the extent of corrosion. Typical total turnaround is 3-5 business days. We provide a timeline with the written quote.',
   },
   {
-    question: 'Do you offer No Fix No Fee for liquid damage from Linden?',
-    answer: 'Yes. If we cannot repair the board after assessment, you pay only the assessment fee. No Fix No Fee applies to all Linden clients. Collection is included.',
+    question: 'Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
+    answer: 'Yes. If we cannot repair the board after assessment, you pay only the assessment fee. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. Collection is included.',
   },
 ];
 
@@ -108,7 +108,7 @@ export default function LiquidDamageLindenPage() {
               <span>Hyde Park, Johannesburg | Assessment | Same-day collection from Linden</span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['Ultrasonic Cleaning', 'Component-Level Repair', 'No Fix No Fee', 'Assessment'].map((l) => (
+              {['Ultrasonic Cleaning', 'Component-Level Repair', 'Fixed Quote First', 'Assessment'].map((l) => (
                 <div key={l} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-4 py-2 rounded-full">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A]" />
                   <span className="text-[#E8F4F1] text-sm font-medium">{l}</span>
@@ -178,7 +178,7 @@ export default function LiquidDamageLindenPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">MacBook Liquid Damage? Time matters.</h2>
-            <p className="text-[#7A9E98] mb-6">Same-day collection from Linden. Ultrasonic cleaning. Assessment. No Fix No Fee.</p>
+            <p className="text-[#7A9E98] mb-6">Same-day collection from Linden. Ultrasonic cleaning. Assessment. Fixed written quotes.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={buildWhatsAppUrl('LD-LINDEN', 'liquid-damage')} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#0FEA7A] text-[#0A1A18] px-8 py-4 rounded-xl text-lg font-bold hover:bg-[#0FEA7A]/90 transition-all">
                 WhatsApp for Quote

@@ -62,7 +62,7 @@ const faqs = [
     answer: 'The assessment applies. This covers a full board-level inspection, fault identification, and a written quote. No repair work proceeds without your approval.',
   },
   {
-    question: 'Do you offer an Assessment guarantee?',
+    question: 'Do you offer an assessment?',
     answer: 'Yes. If we cannot repair your MacBook, you only pay the assessment fee. We will not charge for repair work that does not succeed.',
   },
   {

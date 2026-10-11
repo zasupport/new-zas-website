@@ -42,7 +42,7 @@ Data loss happens fast {EM} a spill, a surge, a drop {EN} these are daily here a
 Most repairs fall in the R2,800{EN}R8,500 range {EM} the assessment is R599.
 """
 
-results = []
+results: list = []
 
 
 def check(name, ok):

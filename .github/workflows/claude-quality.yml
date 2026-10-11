@@ -29,7 +29,7 @@ jobs:
           pipx install mypy || pip install mypy
           ruff check .
           ruff format --check .
-          mypy . || true
+          mypy .
       - name: TypeScript (type-aware lint, tsc)
         if: matrix.check == 'typescript'
         run: |
