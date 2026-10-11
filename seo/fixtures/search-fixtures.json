@@ -1,0 +1,13 @@
+{
+  "$comment": "Acceptance queries for onsite search (Handoff §9-C, §10). Each query must return at least one result whose path contains expect_path_contains.",
+  "cases": [
+    { "query": "Logic board", "expect_path_contains": "logic-board" },
+    { "query": "logic-board", "expect_path_contains": "logic-board" },
+    { "query": "MacBook liquid damage", "expect_path_contains": "liquid-damage" },
+    { "query": "battery", "expect_path_contains": "battery" },
+    { "query": "screen repair", "expect_path_contains": "screen" },
+    { "query": "macbook", "expect_path_contains": "macbook" }
+  ],
+  "empty_cases": ["", "   "],
+  "no_result_cases": ["xqzptvwlmn", "qwzkvjxb"]
+}

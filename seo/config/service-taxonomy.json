@@ -1,0 +1,46 @@
+{
+  "$comment": "Two-pillar service taxonomy (Handoff §7.1). Primary target URL per approved commercial cluster. Used by cannibalisation + internal-link + intent audits. Verify each primary_url resolves 200/canonical against production before treating as authoritative.",
+  "version": "1.0",
+  "generated": "2026-09-01",
+  "pillars": {
+    "iphone_repair": {
+      "role": "high_volume_acquisition_preserve",
+      "hub": "/iphone-repair",
+      "services": [
+        { "key": "iphone_screen", "label": "iPhone screen repair", "primary_url": "/screen-repair" },
+        { "key": "iphone_battery", "label": "iPhone battery replacement", "primary_url": "/battery-replacement" },
+        { "key": "iphone_charging", "label": "iPhone charging repair", "primary_url": "/iphone-repair" },
+        { "key": "iphone_liquid", "label": "iPhone liquid damage", "primary_url": "/liquid-damage" }
+      ]
+    },
+    "mac_repair": {
+      "role": "high_margin_elevate_first_class",
+      "hub": "/macbook-repair",
+      "services": [
+        { "key": "macbook_screen", "label": "MacBook screen repair", "primary_url": "/screen-repair", "revenue_priority": 1 },
+        { "key": "macbook_battery", "label": "MacBook battery replacement", "primary_url": "/battery-replacement", "revenue_priority": 2 },
+        { "key": "macbook_keyboard", "label": "MacBook keyboard repair", "primary_url": null, "revenue_priority": 3, "note": "confirm dedicated page exists" },
+        { "key": "macbook_trackpad", "label": "MacBook trackpad repair", "primary_url": null, "revenue_priority": 4, "note": "confirm dedicated page exists" },
+        { "key": "macbook_charging", "label": "MacBook charging / no-power repair", "primary_url": "/macbook-not-turning-on", "revenue_priority": 5 },
+        { "key": "macbook_logicboard", "label": "MacBook logic-board / component-level repair", "primary_url": "/logic-board-repair", "revenue_priority": 6 },
+        { "key": "macbook_liquid", "label": "MacBook liquid-damage repair", "primary_url": "/liquid-damage", "revenue_priority": 7 },
+        { "key": "mac_data_recovery", "label": "Mac data recovery", "primary_url": null, "revenue_priority": 8, "note": "Handoff §5.8: /data-recovery historically 404 while /macbook-repair/data-recovery in sitemap. Resolve canonical before GBP." },
+        { "key": "imac", "label": "iMac repair", "primary_url": "/imac-repair", "revenue_priority": 9 },
+        { "key": "mac_mini", "label": "Mac mini repair", "primary_url": "/mac-mini-repair", "revenue_priority": 10 },
+        { "key": "business_mac", "label": "Business Apple/Mac support", "primary_url": "/business", "revenue_priority": 11, "note": "only where real evidence supports" }
+      ]
+    }
+  },
+  "commercial_clusters": [
+    "macbook repair johannesburg",
+    "macbook logic-board repair johannesburg",
+    "macbook liquid-damage repair",
+    "macbook screen repair",
+    "macbook battery replacement",
+    "macbook keyboard repair",
+    "macbook trackpad repair",
+    "iphone screen repair",
+    "iphone battery replacement",
+    "apple repair"
+  ]
+}

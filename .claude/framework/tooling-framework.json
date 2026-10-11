@@ -1,0 +1,168 @@
+{
+  "manifest": "zas-tooling-framework",
+  "version": "1.0.0",
+  "created": "2026-08-13T09:00:00+02:00",
+  "source": "Consolidated from the research passes of 10 to 13/08/2026",
+
+  "evidence_grades": {
+    "A": "Peer-reviewed or primary-source measurement. Trust the number.",
+    "B": "Independent measurement, not peer reviewed. Trust the direction.",
+    "C": "Vendor self-reported. Trust the existence of the feature, not the magnitude.",
+    "D": "Plausible practice with no measurement found. Adopt on reasoning, not evidence."
+  },
+
+  "hardware_constraint": {
+    "primary": "MacBook Pro 16-inch 2026, Mac17,8, M5 Pro, 18-core, 24 GB unified, macOS Tahoe 26",
+    "secondary": "MacBook Pro M1 Pro, MacBookPro18,1, 16 GB",
+    "binding_limit": "24 GB unified memory",
+    "verified_measurements": {
+      "source": "Apple MLX research, 19/11/2025, benchmarked on a 24 GB M5",
+      "grade": "A",
+      "qwen3_30b_a3b_4bit_gb": 17.31,
+      "qwen3_8b_bf16_gb": 17.46,
+      "qwen3_8b_4bit_gb": 5.61,
+      "qwen3_14b_4bit_gb": 9.16
+    },
+    "rules": [
+      "4B to 14B models are comfortable",
+      "30B MoE at Q4 is viable but marginal, leaving little context headroom",
+      "Anything requiring 32 GB or more is NOT viable on this fleet",
+      "Ollama gates its MLX fast path at 32 GB, so this machine silently uses llama.cpp Metal. Use mlx-lm directly for prefill-heavy work on macOS 26.2+"
+    ]
+  },
+
+  "tiers": {
+    "hot": "PostToolUse hook. Budget under 2 seconds per edited file.",
+    "gate": "Stop and SubagentStop gate. Budget seconds.",
+    "scheduled": "launchd weekly or CI. Budget minutes.",
+    "subagent": "Invoked as a tool by an agent, not on a schedule.",
+    "human": "Invoked deliberately by a person. Never automated."
+  },
+
+  "recommended": [
+    {"id": "squawk", "tier": "gate", "priority": 1, "grade": "B",
+     "purpose": "Static lint of Postgres DDL for lock hazards before a migration runs",
+     "why": "TimescaleDB is extension and hypertable heavy, and a solo operator has no DBA to catch a non-concurrent index build that locks a table in production",
+     "licence": "Apache-2.0 OR MIT", "install": "uv tool install squawk-cli",
+     "verify": "squawk --version"},
+
+    {"id": "schemathesis", "tier": "gate", "priority": 2, "grade": "A",
+     "purpose": "Property-based contract testing driven by the FastAPI OpenAPI schema",
+     "why": "Peer-reviewed result (arXiv 2112.10328) that it finds 1.4x to 4.5x more unique defects than the next-best fuzzer across 16 real services",
+     "licence": "MIT", "install": "uv tool install schemathesis",
+     "verify": "schemathesis --version"},
+
+    {"id": "otel-genai", "tier": "gate", "priority": 3, "grade": "D",
+     "purpose": "OpenTelemetry GenAI spans for every advisor and Anthropic call",
+     "why": "The single largest missed category. One trace answers why an agent did what it did, in minutes rather than by reconstruction",
+     "caveat": "GenAI semantic conventions are still mostly Development stability, so attribute names may change. Instrument behind a thin adapter.",
+     "licence": "Apache-2.0", "install": "uv pip install opentelemetry-sdk opentelemetry-exporter-otlp",
+     "verify": "python3 -c 'import opentelemetry; print(opentelemetry.version.__version__)'"},
+
+    {"id": "sops", "tier": "human", "priority": 4, "grade": "D",
+     "purpose": "Encrypted secrets at rest, with age as the key backend",
+     "why": "Scanning for leaked secrets is not the same as managing them. gitleaks is already installed and closes only the detection half",
+     "licence": "MPL-2.0 and BSD", "install": "brew install sops age",
+     "verify": "sops --version && age --version"},
+
+    {"id": "pyrefly", "tier": "gate", "priority": 5, "grade": "C",
+     "purpose": "Rust Python type checker, primary",
+     "why": "1.0 shipped 12/05/2026, default for a 20 million line Instagram codebase, roughly 96 percent typing conformance versus ty at roughly 76 percent",
+     "licence": "MIT", "install": "uv tool install pyrefly",
+     "verify": "pyrefly --version",
+     "note": "Keep mypy for anything relying on mypy plugins such as Django ORM or SQLAlchemy"},
+
+    {"id": "ast-grep", "tier": "hot", "priority": 6, "grade": "D",
+     "purpose": "Structural search and rewrite over tree-sitter ASTs",
+     "why": "Fills the structural-not-textual gap for both search and safe refactor, fast enough for the hot path",
+     "risk": "Bus factor of one. Single maintainer, PyPI development status still Alpha, funded by GitHub Sponsors",
+     "licence": "MIT", "install": "brew install ast-grep",
+     "verify": "ast-grep --version"},
+
+    {"id": "syft-grype", "tier": "scheduled", "priority": 7, "grade": "D",
+     "purpose": "SBOM generation and vulnerability scanning of that SBOM",
+     "licence": "Apache-2.0", "install": "brew install syft grype",
+     "verify": "syft version && grype version"},
+
+    {"id": "ecosystem-audits", "tier": "gate", "priority": 8, "grade": "D",
+     "purpose": "Fast ecosystem-native dependency vulnerability checks",
+     "why": "Low false positive, seconds not minutes, so they belong at the gate rather than the weekly job",
+     "install": "uv tool install pip-audit bandit",
+     "also": ["go install golang.org/x/vuln/cmd/govulncheck@latest", "cargo install cargo-audit", "npm audit is built in"],
+     "verify": "pip-audit --version"},
+
+    {"id": "hypothesis", "tier": "gate", "priority": 9, "grade": "D",
+     "purpose": "Property-based testing for validation and pure logic",
+     "why": "Captures most of the practical benefit of formal methods at a fraction of the learning cost. Maintainer funding via Quansight, METR and Anthropic lowers the usual bus factor risk",
+     "licence": "MPL-2.0", "install": "uv pip install hypothesis",
+     "verify": "python3 -c 'import hypothesis; print(hypothesis.__version__)'"},
+
+    {"id": "mlx-lm", "tier": "subagent", "priority": 10, "grade": "A",
+     "purpose": "Direct MLX inference to exploit the M5 Pro Neural Accelerators",
+     "why": "Apple measured prefill up to 4.1x faster on M5 versus M4 and decode 19 to 27 percent faster. Ollama will not take this path at 24 GB",
+     "requires": "macOS 26.2 or later",
+     "licence": "MIT", "install": "uv tool install mlx-lm",
+     "verify": "python3 -c 'import mlx_lm; print(\"mlx-lm present\")'"},
+
+    {"id": "workflow", "tier": "human", "priority": 11, "grade": "D",
+     "purpose": "Task running, git hook backstop, local CI parity",
+     "why": "lefthook is the backstop that catches commits made outside Claude Code. just replaces make without the .PHONY footguns. act keeps the Stop gate and CI in parity without pushing",
+     "install": "brew install lefthook just act",
+     "verify": "lefthook version && just --version && act --version"},
+
+    {"id": "container", "tier": "subagent", "priority": 12, "grade": "D",
+     "purpose": "VM-per-container sandbox for running agent-generated code",
+     "why": "Separate kernel per container, sub-second boot, free, native to macOS 26 which this fleet runs",
+     "limitation": "No built-in Docker Compose. Pair with OrbStack if Compose is needed, and note OrbStack requires a paid licence for commercial use",
+     "licence": "Apache-2.0", "install": "brew install container",
+     "verify": "container --version"}
+  ],
+
+  "declined": [
+    {"id": "atlas-pro", "reason": "The free Apache-2.0 tier cannot manage extensions, functions, triggers, materialised views, partitions or sequences, all of which TimescaleDB relies on. The Postgres lock linting is Pro-only at 9 USD per seat per month. squawk does that linting for free."},
+    {"id": "mutation-testing-as-automation", "reason": "Too slow for routine gating. Meta made it work at scale with LLM assistance, but that assumes a platform team. Run it manually and module-scoped on pricing, auth or financial logic only."},
+    {"id": "formal-verification", "reason": "CrossHair, Z3, deal and icontract carry a learning cost that outweighs the benefit for a FastAPI and Next.js shop. Hypothesis captures most of the value."},
+    {"id": "spec-kit-as-framework", "reason": "The one controlled study (128 runs, 32 features, 5 repos) measured a +0.15 improvement on a 1-to-5 judge score, roughly 3 percent. The existing delivery and verification gates already implement the substantive discipline. Adopt the practice of writing acceptance criteria first, not the framework."},
+    {"id": "ty-as-primary", "reason": "Still pre-1.0 on the 0.0.x line with breaking changes possible between releases, and freshly acquired by OpenAI on 19/03/2026. Track it, do not gate on it."},
+    {"id": "slsa-attestation", "reason": "Enterprise overhead for a solo operator unless a client contract requires it. SBOM generation via Syft already covers the practical need."},
+    {"id": "zoekt", "reason": "ast-grep plus ripgrep plus a sqlite-vec index cover the need at this scale."},
+    {"id": "dagger-earthly", "reason": "Heavier than just and act. Earthly maintenance status is uncertain."},
+    {"id": "codestral-commercial", "reason": "Mistral Non-Production Licence forbids commercial use without a separate agreement. A licence trap for a support business."},
+    {"id": "nomic-embed-code", "reason": "The 7B GGUF is roughly 26 GB and would compete with the coder model for memory on a 24 GB machine."},
+    {"id": "iac-and-licence-scanning", "reason": "Checkov, tfsec, fossa and scancode are client-specific or enterprise overhead. Adopt only when a contract requires it."}
+  ],
+
+  "risk_register": [
+    {"item": "sqlite-vec", "risk": "HIGH", "detail": "Still on the 0.1.x line. The author stated the plan is a v1 then maintenance mode, a GitHub issue asks whether it is still maintained, and a community fork exists carrying a notice that the original author is unavailable.", "mitigation": "Keep it, but abstract the vector store behind an interface, pin the version, and document LanceDB as the fallback. Do not treat it as load-bearing without that abstraction."},
+    {"item": "ast-grep", "risk": "MEDIUM", "detail": "Bus factor of one, PyPI status still Alpha.", "mitigation": "Pin the version. Fallback is ripgrep plus tree-sitter directly."},
+    {"item": "astral-toolchain", "risk": "MEDIUM", "detail": "OpenAI acquired Astral (uv, ruff, ty) on 19/03/2026. Tools remain open source but product-plus-talent acquisitions can later become talent-only.", "mitigation": "ruff and uv are safe near term. Do not adopt ty as primary. Note that pyrefly is a Meta project and unaffected."},
+    {"item": "trivy-action", "risk": "MEDIUM", "detail": "The official GitHub Action was compromised twice in March 2026 by the TeamPCP campaign and package-repo GPG keys were rotated in April 2026.", "mitigation": "Pin to commit SHAs, never to a floating tag."},
+    {"item": "typescript-7", "risk": "LOW", "detail": "No stable programmatic API until 7.1, and an independent test found the two compilers did not report identical errors.", "mitigation": "Use tsgo as a fast command-line checker at the gate. Do not build tooling on its API yet."},
+    {"item": "otel-genai-conventions", "risk": "LOW", "detail": "Most gen_ai attributes are still Development stability.", "mitigation": "Instrument behind a thin adapter so a rename is a one-file change."}
+  ],
+
+  "evidence_anchors": {
+    "note": "The quantitative claims worth trusting, separated from the ones that are not.",
+    "grade_A": [
+      "METR RCT (arXiv 2507.09089): 16 experienced developers, 246 real tasks, measured 19 percent SLOWDOWN while developers self-estimated a 20 percent speedup. The February 2026 follow-up shows the effect probably narrowed or reversed but METR labels it an unreliable signal due to 30 to 50 percent task-submission selection bias.",
+      "Google Tricorder (Software Engineering at Google): over 50,000 review changes per day, effective false positive rate just under 5 percent, and analysers exceeding roughly 10 percent were routinely disabled by developers.",
+      "Schemathesis (arXiv 2112.10328): finds 1.4x to 4.5x more unique defects than the next-best fuzzer across 8 fuzzers and 16 services.",
+      "Apple MLX on M5 (19/11/2025): prefill up to 4.1x faster than M4, decode 19 to 27 percent faster, measured on a 24 GB machine."
+    ],
+    "grade_B_correlational": [
+      "DORA 2025 (nearly 5,000 respondents): AI adoption now correlates positively with throughput, a reversal from 2024, but still correlates with delivery instability.",
+      "CircleCI 2026 (28.7 million workflows, 22,000+ organisations): throughput up 59 percent year on year, main-branch success rate down to 70.8 percent, the lowest in over five years."
+    ],
+    "vendor_reported_treat_as_directional": [
+      "Faros AI: PR review time up 441.5 percent, incidents per PR up 242.7 percent",
+      "CodeRabbit: AI PRs averaged 1.7x more issues, security vulnerabilities up 2.74x",
+      "pyrefly speed figures, TypeScript 7 10x, Qwen and Mistral SWE-bench numbers"
+    ]
+  },
+
+  "governing_principle": {
+    "statement": "The constraint is verification, not generation.",
+    "derivation": "Every 2026 dataset agrees that AI raises change volume faster than review and testing absorb it. A solo operator has no second reviewer, so the highest-value investment is deterministic gates that reduce review load, not faster code generation.",
+    "corollary": "Keep automated gate false positives below roughly 10 percent, the Google Tricorder threshold, or you will begin ignoring your own gates. Prune rules before that happens."
+  }
+}

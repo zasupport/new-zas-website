@@ -1,0 +1,27 @@
+{
+  "$comment": "Query-intent to canonical-page map (Handoff §7.3 cannibalisation, §9 Phase G clusters). Seeded from historic GSC evidence (§5.9) — REFRESH against current GSC before prioritisation. positions/clicks are historic 12 May–10 Aug 2026, not current.",
+  "version": "1.0",
+  "generated": "2026-09-01",
+  "historic_source": "GSC sc-domain:zasupport.com 90d 2026-05-12..2026-08-10 (page export 884 pages)",
+  "clusters": [
+    { "intent": "managed it services johannesburg", "canonical": "/business", "historic": { "impressions": 1278, "position": 10.6, "clicks": 0 }, "note": "high-value B2B visibility gap; authority race, not just copy" },
+    { "intent": "iphone battery replacement", "canonical": "/battery-replacement", "historic": { "impressions": 2196, "position": 9.2, "clicks": 41 }, "note": "edge-of-page-one" },
+    { "intent": "iphone battery replacement cost", "canonical": "/battery-replacement", "historic": { "impressions": 1999, "position": 6.9, "clicks": 20 }, "note": "commercial intent near top" },
+    { "intent": "iphone screen repair", "canonical": "/screen-repair", "historic": { "impressions": 1121, "position": 11.7, "clicks": 22 }, "note": "page-two opportunity" },
+    { "intent": "macbook battery replacement", "canonical": "/battery-replacement", "historic": { "impressions": 595, "position": 15.0, "clicks": 11 }, "note": "possible cannibalisation with iphone battery on same URL — investigate" },
+    { "intent": "apple repair", "canonical": "/apple-repair", "historic": { "impressions": 1150, "position": 15.5, "clicks": 3 }, "note": "weak category visibility" },
+    { "intent": "macbook repair johannesburg", "canonical": "/macbook-repair", "historic_serp": "#1 homepage, #2 /apple-repair, #7 /contact", "note": "homepage outranks hub — cannibalisation candidate" },
+    { "intent": "macbook logic board repair johannesburg", "canonical": "/logic-board-repair", "historic_serp": "#1 homepage, #2 /logic-board-repair, #4 blog, #7 MBA M4 page", "note": "homepage + hub + blog + model page all rank — cannibalisation candidate" }
+  ],
+  "service_line_traffic_historic": {
+    "blog": { "clicks_90d": 1053, "position": 12.6, "role": "main organic engine, protect" },
+    "battery": { "clicks_90d": 487, "position": 15.7 },
+    "iphone": { "clicks_90d": 406, "position": 19.0 },
+    "screen": { "clicks_90d": 388, "position": 11.9 },
+    "macbook_mac": { "clicks_90d": 98, "position": 22.4 },
+    "logic_board": { "clicks_90d": 31, "position": 12.1 },
+    "liquid_damage": { "clicks_90d": 23, "position": 14.0 },
+    "managed_it_unifi": { "clicks_90d": 19, "position": 21.3 },
+    "forensics": { "clicks_90d": 0, "position": null }
+  }
+}

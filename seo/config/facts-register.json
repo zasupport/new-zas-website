@@ -1,0 +1,84 @@
+{
+  "$comment": "Machine-readable Facts Register — SoT for the claim-validation test (tests/seo/facts-register.test.ts). Human-readable mirror: docs/seo/FACTS-REGISTER.md. Do not alter approved_value without owner approval. Conforms to seo/config/facts-register.schema.json.",
+  "version": "1.0",
+  "generated": "2026-09-01",
+  "entries": [
+    {
+      "claim_id": "FR-001", "claim_class": "trust", "scope": "sitewide",
+      "claim_text": "Establishment year", "approved_value": "Established in 2009",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "prohibited_variants": ["16 years", "16 Years Experience", "16 Years Apple Experience", "years of experience"],
+      "notes": "Avoid calculated-duration claims; the number changes annually. Use fixed 'Established in 2009'."
+    },
+    {
+      "claim_id": "FR-002", "claim_class": "trust", "scope": "sitewide",
+      "claim_text": "Total repairs completed", "approved_value": "50,000+ repairs completed",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "notes": "Separate metric. Must carry an explanatory label. Never merged with FR-003/FR-004."
+    },
+    {
+      "claim_id": "FR-003", "claim_class": "trust", "scope": "sitewide",
+      "claim_text": "Repair operations measure", "approved_value": "25,000 repair operations",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "notes": "Separately defined operational measure. Never merged with FR-002/FR-004."
+    },
+    {
+      "claim_id": "FR-004", "claim_class": "trust", "scope": "sitewide",
+      "claim_text": "Board-level repairs measure", "approved_value": "17,000 board-level repairs",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "notes": "Separately defined board-level measure. Never merged with FR-002/FR-003."
+    },
+    {
+      "claim_id": "FR-005", "claim_class": "trust", "scope": "sitewide",
+      "claim_text": "Google reviews rating and count", "approved_value": null,
+      "source_of_truth": "google_business_profile", "owner_approval_required": true, "approved_on": null,
+      "status": "pending_verification",
+      "prohibited_variants": ["645", "632+", "120 reviews"],
+      "notes": "One verified GBP source feeds every display. Never hard-code competing figures. No self-serving AggregateRating JSON-LD. Store rating/review_count/source/fetched_at/displayed_at/status/last_successful."
+    },
+    {
+      "claim_id": "FR-006", "claim_class": "commercial", "scope": "sitewide",
+      "claim_text": "Diagnostic assessment fee — iPhone/iPad/Apple Watch", "approved_value": "R599 excluding VAT",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "notes": "Separate, non-refundable, non-creditable. Not deducted from or included in the repair quote."
+    },
+    {
+      "claim_id": "FR-007", "claim_class": "commercial", "scope": "sitewide",
+      "claim_text": "Diagnostic assessment fee — all computers", "approved_value": "R899 excluding VAT",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "notes": "MacBook, iMac, Mac mini, Windows laptops/desktops, Microsoft computers. Separate, non-refundable, non-creditable."
+    },
+    {
+      "claim_id": "FR-008", "claim_class": "commercial", "scope": "sitewide",
+      "claim_text": "Assessment-fee treatment policy",
+      "approved_value": "Separate, non-refundable diagnostic fee; not credited toward, deducted from, or included in the repair quotation; payable whether or not the customer proceeds; no repair begins without written customer approval.",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "prohibited_variants": ["assessment fee is included in the total", "assessment fee is deducted", "free assessment", "free diagnostic", "no fix no fee", "no-fix-no-fee"],
+      "notes": "Legacy homepage FAQ said the fee is included in the total if the repair proceeds — CONFLICTS with approved policy; must be removed/replaced everywhere (Handoff §5.3)."
+    },
+    {
+      "claim_id": "FR-009", "claim_class": "legal", "scope": "sitewide",
+      "claim_text": "Apple Original Parts and authorised resale wording",
+      "approved_value": "ZA Support uses Apple Original Parts where applicable and is authorised to resell new Apple and Microsoft computers, Apple accessories, and Apple warranties.",
+      "source_of_truth": "owner_and_legal_contract", "owner_approval_required": true, "approved_on": null,
+      "status": "pending_verification",
+      "prohibited_variants": ["Apple Authorised Service Provider", "Apple Authorized Service Provider"],
+      "notes": "PENDING legal/contract verification of exact permitted terminology, territory, product categories, legal entity, warranty description. Authorised resale is DISTINCT from being an Apple Authorised Service Provider. ZA Support is an independent Apple specialist, NOT an AASP."
+    },
+    {
+      "claim_id": "FR-010", "claim_class": "trust", "scope": "sitewide",
+      "claim_text": "Founder / leadership identity", "approved_value": "Courtney Bentley, CEO & Apple Certified Expert",
+      "source_of_truth": "owner", "owner_approval_required": true, "approved_on": "2026-09-01",
+      "status": "approved",
+      "prohibited_variants": ["David Bentley"],
+      "notes": "Sole founder/CEO. §403."
+    }
+  ]
+}

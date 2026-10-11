@@ -8,6 +8,10 @@ STORAGE   <site repo>/tools/robots/
 EXECUTES  python3 "zero loss.py" snapshot|verify|restore|list [args]
           ZL_ARCHIVE=<dir> overrides where archives are written
 RELATED   robots index engine.py | robots preflight.py
+PLACEMENT target_path: tools/robots/zero loss.py (in place, per STORAGE)
+GOVERNANCE HOOK-GOVERNANCE: not-hook-governed — standalone CLI, no Claude Code
+          lifecycle touchpoint; equivalent controls per hook-block-mandate
+          exemption clause: robots pressure test.py + validation.log proof lines
 VERSION   1.0.2
 DATE      19/07/2026 21:45 SAST
 AUTHOR    Courtney Bentley, ZA Support
@@ -32,7 +36,7 @@ import json
 import os
 import shutil
 import sys
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 SAST = timezone(timedelta(hours=2))
@@ -40,7 +44,9 @@ SAST = timezone(timedelta(hours=2))
 # directory while still writing archives to the permanent location. Without the
 # override the archive would land beside the script, which during testing on
 # 20/07/2026 put the snapshot inside the staging folder that gets moved away.
-ARCHIVE = Path(os.environ.get("ZL_ARCHIVE") or (Path(__file__).resolve().parent / "_archive"))
+ARCHIVE = Path(
+    os.environ.get("ZL_ARCHIVE") or (Path(__file__).resolve().parent / "_archive")
+)
 
 
 def stamp():
@@ -100,8 +106,12 @@ def snapshot(paths, note=""):
     roots = {"repo": Path.cwd().resolve(), "home": Path.home().resolve()}
     try:
         import subprocess
-        out = subprocess.check_output(["git", "rev-parse", "--show-toplevel"],
-                                      text=True, stderr=subprocess.DEVNULL).strip()
+
+        out = subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"],
+            text=True,
+            stderr=subprocess.DEVNULL,
+        ).strip()
         roots["repo"] = Path(out).resolve()
     except Exception:
         pass
@@ -134,17 +144,21 @@ def snapshot(paths, note=""):
             print(f"ABORT: archived copy of {p} does not match the original.")
             print(f"  original {original_hash}")
             print(f"  copy     {copy_hash}")
-            print("Nothing has been modified. Investigate the filesystem before retrying.")
+            print(
+                "Nothing has been modified. Investigate the filesystem before retrying."
+            )
             sys.exit(1)
 
-        entries.append({
-            "source": str(p),
-            "archived": str(target.relative_to(dest)),
-            "sha256": original_hash,
-            "bytes": p.stat().st_size,
-            "mode": oct(p.stat().st_mode)[-4:],
-            "verified": True,
-        })
+        entries.append(
+            {
+                "source": str(p),
+                "archived": str(target.relative_to(dest)),
+                "sha256": original_hash,
+                "bytes": p.stat().st_size,
+                "mode": oct(p.stat().st_mode)[-4:],
+                "verified": True,
+            }
+        )
 
     manifest = {
         "tag": t,
@@ -155,13 +169,15 @@ def snapshot(paths, note=""):
         "absent_at_snapshot_time": missing,
         "entries": entries,
     }
-    (dest / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    (dest / "manifest.json").write_text(
+        json.dumps(manifest, indent=2), encoding="utf-8"
+    )
 
     print(f"SNAPSHOT {t}")
     print(f"  archived and hash-verified : {len(entries)} file(s)")
     print(f"  did not exist yet          : {len(missing)} path(s)")
     print(f"  location                   : {dest}")
-    print(f"  restore with               : python3 \"zero loss.py\" restore \"{t}\"")
+    print(f'  restore with               : python3 "zero loss.py" restore "{t}"')
     return t
 
 
@@ -226,8 +242,10 @@ def restore(t):
     print(f"  restored and verified : {restored}/{len(m['entries'])}")
     print(f"  previous state held as: {pre}")
     if m["absent_at_snapshot_time"]:
-        print(f"  note: {len(m['absent_at_snapshot_time'])} path(s) did not exist at "
-              f"snapshot time and were left in place, nothing is deleted by this tool")
+        print(
+            f"  note: {len(m['absent_at_snapshot_time'])} path(s) did not exist at "
+            f"snapshot time and were left in place, nothing is deleted by this tool"
+        )
     for f in failed:
         print(f"  FAILED {f}")
     if failed:
@@ -244,7 +262,9 @@ def listing():
         mf = d / "manifest.json"
         if mf.exists():
             m = json.loads(mf.read_text(encoding="utf-8"))
-            rows.append((m["tag"], m["created"], m["archived_count"], m.get("note", "")))
+            rows.append(
+                (m["tag"], m["created"], m["archived_count"], m.get("note", ""))
+            )
     if not rows:
         print("No manifests found.")
         return 0
@@ -266,7 +286,7 @@ def main():
         if "--note" in args:
             i = args.index("--note")
             note = args[i + 1] if i + 1 < len(args) else ""
-            args = args[:i] + args[i + 2:]
+            args = args[:i] + args[i + 2 :]
         if not args:
             print("snapshot needs at least one path")
             sys.exit(2)
