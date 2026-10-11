@@ -70684,9 +70684,9 @@ Cost is confirmed after we assess your device. A new logic board is one of the m
     author: 'courtney-bentley',
     content: `# MacBook Pro M3 Data Recovery: What It Really Costs and How Long It Takes
 
-If your MacBook Pro M3 has stopped working, won't boot, or suffered physical damage, you're likely facing two urgent questions: can the data be saved, and how much will it cost? We've handled over 15,000 MacBooks through our Hyde Park workshop in Johannesburg, and [data recovery](/mac-data-recovery) is one of the most common repairs we perform, especially for M3 models that suffered unexpected failures during load shedding or accidental liquid damage.
+If your MacBook Pro M3 has stopped working, won't boot, or suffered physical damage, you're likely facing two urgent questions: can the data be saved, and how much will it cost? We've handled over 15,000 MacBooks through our Hyde Park workshop in Johannesburg, and data recovery is one of the most common repairs we perform, especially for M3 models that suffered unexpected failures during load shedding or accidental liquid damage.
 
-This guide explains what M3 data recovery actually involves, why it matters more than you might think, and how ZA Support approaches these repairs with the technical precision your device needs.
+This guide explains what M3 data recovery actually involves, why it matters more than you might think, and how our [data recovery service](/mac-data-recovery) approaches these repairs with the technical precision your device needs.
 
 ## Why M3 Data Recovery Is Different From Earlier MacBooks
 
