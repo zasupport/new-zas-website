@@ -41,11 +41,11 @@ What clients frequently ask us is whether their data is encrypted in a way that 
 
 When you bring your M2 into our Hyde Park location, we start with a detailed R599 assessment. This isn't a quick visual check. We run diagnostics, identify exactly where the failure sits, and map out the safest extraction path. That assessment covers imaging your SSD to a working external drive and initial diagnostics, it's non-refundable, but the cost applies toward the final recovery bill if you proceed.
 
-The actual recovery depends on what's failed. If your logic board is damaged but your SSD is intact, we remove the storage chip using microsoldering equipment and connect it to a specialised reader. This process takes between two and five days depending on whether we encounter file system corruption or encryption barriers. If the SSD controller itself has failed, we extract the raw NAND chips and reconstruct the file system, a more complex job that can stretch to two weeks.
+The actual recovery depends on what's failed. If your logic board is damaged but your SSD is intact, we remove the storage chip using microsoldering equipment and connect it to a specialised reader, the process our [MacBook data recovery](/macbook-repair/data-recovery) page sets out in full. This process takes between two and five days depending on whether we encounter file system corruption or encryption barriers. If the SSD controller itself has failed, we extract the raw NAND chips and reconstruct the file system, a more complex job that can stretch to two weeks.
 
 Throughout recovery, we maintain a sterile environment. Dust particles smaller than 100 microns can kill a delicate repair. We work under magnification, use anti-static mats, and document every step. Once we've successfully read your drive, we verify file integrity, check for corruption, and deliver your data on a new external SSD or cloud transfer, your choice.
 
-Our data recovery service starts from R2,999 for straightforward SSD extractions, though the final cost depends entirely on the damage we find during assessment. We always quote after diagnosis, never before. And every recovery comes with a three-year warranty on the recovered data integrity.
+Our [data recovery service](/mac-data-recovery) starts from R2,999 for straightforward SSD extractions, though the final cost depends entirely on the damage we find during assessment. We always quote after diagnosis, never before. And every recovery comes with a three-year warranty on the recovered data integrity.
 
 ## Liquid Damage and the M2: A Growing Challenge
 
@@ -91,7 +91,7 @@ No. Data recovery extracts your existing files to a new drive. Your original SSD
 
 ### Q: What if my MacBook won't turn on at all?
 
-That's often the easiest scenario for recovery. We can remove your SSD without powering on the machine and extract your files safely. Power-on failures don't mean data loss, they mean the logic board or charging circuit has failed, but your storage is almost always accessible.
+That's often the easiest scenario for recovery. We can remove your SSD without powering on the machine and extract your files safely. Power-on failures don't mean data loss, they mean the logic board or charging circuit has failed, but your storage is almost always accessible. Our guide on [recovering data from a dead MacBook](/guides/how-to-recover-data-from-dead-macbook) explains what is salvageable in this situation.
 
 ### Q: How much will recovery cost?
 
@@ -3447,7 +3447,7 @@ MacBook trackpads use a special force-sensing technology that can wear out over 
 
 Another common mechanical problem is a stuck button mechanism, where the internal spring or lever has become lodged and won't respond to pressure anymore. This usually feels like the trackpad is completely frozen or unresponsive to any clicks.
 
-These issues cannot be fixed at home. The trackpad mechanism is sealed and soldered to the logic board, so it requires professional repair or replacement.
+These issues cannot be fixed at home. The trackpad mechanism is sealed and soldered to the logic board, so it requires professional repair or replacement. Our [MacBook trackpad repair](/macbook-repair/trackpad) service handles the full mechanism.
 
 ## Battery and Keyboard Swelling
 
@@ -6953,6 +6953,8 @@ Here is what Johannesburg Mac owners typically face in 2026:
 - ZA Support: R2,500 to R6,000 (ultrasonic cleaning + component repair)
 
 The savings are not marginal. On a logic board repair, you are looking at 50% to 80% less. That is real money, especially when a new MacBook Pro starts at R32,000 in South Africa.
+
+If a repair is not worth it on an older machine, our [Apple trade-in in Johannesburg](/apple-trade-in-johannesburg) service can offset the cost of a replacement.
 
 ## Quality and Warranty: Separating Fact from Fear
 
@@ -11656,7 +11658,7 @@ A client from Sandton brought in a 2023 MacBook Pro M2 Pro that had suffered a "
 ## What to Do If You Spot the Signs
 
 1. **Do not ignore them.** Corrosion does not stop on its own.
-2. **Back up your data immediately** using Time Machine or manual copying.
+2. **Back up your data immediately** using Time Machine or manual copying. If the MacBook will not power on, our [data recovery service](/mac-data-recovery) can still retrieve your files.
 3. **Book an assessment.** Our [from R599 assessment](/liquid-damage) at our Hyde Park workshop includes a detailed stereo microscope inspection and itemised quote.
 4. **Act sooner rather than later.** Every week you delay, corrosion spreads and costs increase.
 
@@ -14830,7 +14832,7 @@ Most repairs, screen replacement, battery replacement, or charging port repair, 
 Apple Johannesburg will repair your device but typically offers only a one-year limited warranty. We provide up to three years on parts and labour, do component-level repair on devices Apple might declare unrepairable, and our from R599 assessment is thorough and transparent. We also service older models that Apple no longer supports.
 
 ### Q: Can I trade in my old device if I decide to replace it?
-Yes. We accept trade-ins on devices in any condition. We'll deduct the trade-in value from your replacement purchase. Bring your device in for an assessment, and we'll give you a trade-in value on the spot.
+Yes. We accept trade-ins on devices in any condition through our [Apple trade-in in Johannesburg](/apple-trade-in-johannesburg) service. We'll deduct the trade-in value from your replacement purchase. Bring your device in for an assessment, and our [MacBook trade-in checklist](/macbook-trade-in-checklist) helps you prepare it beforehand.
 
 ### Q: Is liquid damage always repairable?
 Not always. If water reached the logic board and has been there for days, corrosion may be permanent. But many liquid damage cases, especially if the device was powered off immediately, can be fully restored through ultrasonic cleaning and component repair. Book an assessment to know for certain.
@@ -16541,11 +16543,11 @@ Common infection vectors we encounter at ZA Support include:
 
 **Compromised websites.** Legitimate sites occasionally get hacked. A visit to an infected website can trigger a drive-by download, installing malware without your knowledge.
 
-**Fake security tools.** Pop-ups claiming "Your Mac is infected, click here to clean it" redirect to malicious apps. These fake antivirus tools are the infection itself.
+**Fake security tools.** Pop-ups claiming "Your Mac is infected, click here to clean it" redirect to malicious apps. These fake antivirus tools are the infection itself. If one of these pop-ups talked you into granting remote access, see our [Mac remote access scam help](/mac-remote-access-scam-help).
 
 **Browser extensions and plugins.** Seemingly innocent extensions from the Chrome Web Store or Safari Extensions gallery collect browsing data and inject advertisements.
 
-At our Hyde Park location, we've removed infections ranging from relatively benign adware (costing hours of productivity) to sophisticated spyware that captured passwords and banking credentials. Early intervention saves time and money.
+At our Hyde Park location, we've removed infections ranging from relatively benign adware (costing hours of productivity) to sophisticated spyware that captured passwords and banking credentials. If you believe your accounts were accessed, our [suspected hacked Apple device](/suspected-hacked-apple-device) checklist explains the next steps. Early intervention saves time and money.
 
 ## Warning Signs Your Mac Is Infected
 
@@ -16567,7 +16569,7 @@ If you notice one or more of these signs, professional malware removal is worth 
 
 ## Professional Mac Virus Removal: What We Do at ZA Support
 
-Our approach at ZA Support in Hyde Park combines manual inspection, specialised malware removal tools, and system hardening. Here's the process:
+Our [Mac virus removal](/macbook-repair/virus-removal) approach at ZA Support in Hyde Park combines manual inspection, specialised malware removal tools, and system hardening. Here's the process:
 
 **Step 1: Assessment and diagnosis.** We boot your Mac into Safe Mode and run a comprehensive scan using industry-standard detection tools (Malwarebytes for macOS, ClamXav, and manual process inspection). This takes 30-45 minutes and costs from R599. From R599 assessment applies, if we find no malware, you pay nothing.
 
@@ -31724,7 +31726,7 @@ In our experience working with clients across Johannesburg, from Sandton to Rose
 - Compromised password following a public data breach
 - Suspicious purchase activity detected by Apple's fraud systems
 
-Once locked, you cannot bypass it. You must go through Apple's official recovery process.
+Once locked, you cannot bypass it. You must go through Apple's official recovery process. If your device instead shows an Activation Lock screen, which is a separate lock tied to Find My, our [Activation Lock help](/activation-lock-help) covers that case.
 
 ## The Official Apple ID Recovery Process: What to Expect
 
@@ -31778,7 +31780,7 @@ Once your account is restored, do not let it happen again.
 
 Enable two-factor authentication immediately. Create and save your recovery key in a password manager or printed form stored safely. Use a strong, unique password, never reuse passwords across sites. Set up a recovery email address separate from your primary email.
 
-If you use the same Apple ID across multiple devices (which most of us do), a locked account cascades into a major problem. Prevention takes thirty minutes now versus days of recovery later.
+If you use the same Apple ID across multiple devices (which most of us do), a locked account cascades into a major problem. Prevention takes thirty minutes now versus days of recovery later. Our [Apple account security help](/apple-account-security-help) walks through each of these safeguards.
 
 [Contact us](https://zasupport.com/contact) if you need guidance setting up two-factor authentication properly.
 
@@ -57855,7 +57857,7 @@ If you're simply annoyed by the appearance but can tolerate it, repair is option
 
 The stage light effect occasionally accompanies other MacBook problems. If you've also experienced sudden shutdowns or kernel panics, you may have a broader logic board issue that our /logic-board-repair service addresses comprehensively. Similarly, if your MacBook has sustained water exposure, even minor spills, the stage light effect might be a secondary symptom of oxidation on the display driver circuits, our /liquid-damage specialists can assess whether more extensive corrosion repair is needed.
 
-We've repaired more than 15,000 display-related faults across all MacBook generations, and the stage light effect accounts for roughly 12% of those cases. This experience allows us to diagnose confidently and recommend cost-effective solutions.
+We've repaired more than 15,000 display-related faults across all MacBook generations, and the stage light effect accounts for roughly 12% of those cases. This experience allows us to diagnose confidently and recommend cost-effective solutions. If the fault turns out to be a damaged panel rather than a cable or board issue, our [MacBook screen repair](/macbook-repair/screen) service covers the full display assembly.
 
 ## Warranty and Ongoing Support
 
@@ -59442,9 +59444,9 @@ That's the critical point. Your MacBook's SSD, whether it's a 256GB, 512GB, or l
 
 ## The Data Recovery Process: What Happens in Our Workshop
 
-Start with our R599 assessment. We connect your MacBook to our diagnostic hardware, specialised tools that interface directly with the SSD, bypassing the logic board entirely. This takes about 45 minutes. We're checking: is the storage chip readable? Is the data partition intact? Are there signs of physical corruption?
+Start with our R599 assessment. We connect your MacBook to our diagnostic hardware, specialised tools that interface directly with the SSD, bypassing the logic board entirely. Our [MacBook data recovery](/macbook-repair/data-recovery) page details this SSD extraction. This takes about 45 minutes. We're checking: is the storage chip readable? Is the data partition intact? Are there signs of physical corruption?
 
-If the SSD responds to our equipment, recovery is almost certain. We mount the drive on a working Mac, image the entire storage to an external drive, and scan for recoverable files. We've recovered data from MacBooks that haven't powered on in three years.
+If the SSD responds to our equipment, recovery is almost certain. We mount the drive on a working Mac, image the entire storage to an external drive, and scan for recoverable files. This is the core of our [data recovery service](/mac-data-recovery). We've recovered data from MacBooks that haven't powered on in three years.
 
 If the SSD doesn't respond, if there's physical damage to the storage chip itself, or if the security encryption has degraded beyond repair, we'll tell you that upfront. No guessing. No false promises. We've seen roughly 8 percent of cases where the storage is genuinely unrecoverable, and we don't hide from that conversation.
 
@@ -59464,7 +59466,7 @@ For logic board failures specifically, we sometimes perform micro-soldering repa
 
 ## Why You Should Act Quickly
 
-If your MacBook is dead, don't leave it sitting on a shelf for months. Oxidation, corrosion, and component drift worsen over time, especially in Johannesburg's humidity cycles and load-shedding environment. The sooner we assess it, the higher your recovery success rate. Every week of delay reduces our options slightly.
+If your MacBook is dead, don't leave it sitting on a shelf for months. Oxidation, corrosion, and component drift worsen over time, especially in Johannesburg's humidity cycles and load-shedding environment. The sooner we assess it, the higher your recovery success rate. Every week of delay reduces our options slightly. Our [guide to recovering data from a dead MacBook](/guides/how-to-recover-data-from-dead-macbook) covers what you can safely check before bringing it in.
 
 Also, if you've been taking it to inexperienced technicians who've tried to force power-on cycles or opened the case without proper grounding, internal damage can multiply. This isn't blame, it's just physics. Bring it to us, and we'll work with what we have.
 
@@ -60023,7 +60025,7 @@ The distinction matters. A battery at 78 per cent health still works. It will st
 
 This is where the confusion really sets in. Not every "Service Recommended" message requires immediate action. Here's how we approach it with clients in Johannesburg.
 
-First, check your cycle count. Hold Option, click the battery icon, and note the cycle count displayed. MacBook batteries are typically rated for 1,000 complete charge cycles before reaching 80 per cent health. If you're at 800 cycles and seeing the warning, replacement is genuinely overdue. If you're at 300 cycles, something else might be wrong, possibly a calibration issue or a faulty sensor.
+First, check your cycle count. Hold Option, click the battery icon, and note the cycle count displayed. Our guide on [how to check your MacBook battery health](/guides/how-to-check-macbook-battery-health) walks through reading these figures. MacBook batteries are typically rated for 1,000 complete charge cycles before reaching 80 per cent health. If you're at 800 cycles and seeing the warning, replacement is genuinely overdue. If you're at 300 cycles, something else might be wrong, possibly a calibration issue or a faulty sensor.
 
 Second, observe your actual usage. If your MacBook powers through a full working day without problems, you might choose to wait. But if you're seeing unexpected shutdowns, rapid battery drain, or sudden percentage drops (from 60 per cent to 10 per cent in minutes), the battery is actively failing and needs immediate attention.
 
@@ -60980,7 +60982,7 @@ The catch: not every device is worth repairing. A five-year-old iPad with severe
 
 Apple's refusal to repair liquid damage creates a market gap, and that's where independent repair shops like ours operate. But it also creates real hardship for users, especially in Johannesburg where device replacement costs in ZAR can stretch household budgets.
 
-A liquid-damaged MacBook Air isn't worthless. Its display might be fine. Its keyboard might work perfectly. Its storage (if it's an external SSD model) might be completely intact. Scrapping an entire device because Apple won't repair it is wasteful and economically irrational.
+A liquid-damaged MacBook Air isn't worthless. Its display might be fine. Its keyboard might work perfectly. Its storage (if it's an external SSD model) might be completely intact. Even when the board is beyond repair, our [data recovery service](/mac-data-recovery) can usually retrieve the files from that storage. Scrapping an entire device because Apple won't repair it is wasteful and economically irrational.
 
 This is exactly why we offer repairs with warranties of up to three years on component replacements. When we repair a logic board, we test it under load, verify moisture hasn't returned, and stand behind the work. Apple's refusal to do this doesn't mean the repair is impossible, it means they've chosen a different business model.
 
@@ -61236,7 +61238,7 @@ The signs that point to paste are consistent: the Mac is an older Intel model, i
 
 Here is the part most articles leave out. In our experience, at least half the "overheating" Macs we assess do not need paste at all.
 
-Dust is the most common culprit. Johannesburg is a dusty, dry city, and after a few years the fan blades and heatsink fins clog with a felt of dust that blocks airflow. A careful clean often solves the heat without touching the paste.
+Dust is the most common culprit. Johannesburg is a dusty, dry city, and after a few years the fan blades and heatsink fins clog with a felt of dust that blocks airflow. A careful clean often solves the heat without touching the paste. Our step-by-step [MacBook overheating fix guide](/guides/macbook-overheating-fix) covers the airflow checks worth trying first.
 
 A failing fan bearing is another. If the fan cannot spin to full speed, no amount of fresh paste will keep temperatures down. We test fan RPM against the expected range before recommending anything.
 
@@ -70682,7 +70684,7 @@ Cost is confirmed after we assess your device. A new logic board is one of the m
     author: 'courtney-bentley',
     content: `# MacBook Pro M3 Data Recovery: What It Really Costs and How Long It Takes
 
-If your MacBook Pro M3 has stopped working, won't boot, or suffered physical damage, you're likely facing two urgent questions: can the data be saved, and how much will it cost? We've handled over 15,000 MacBooks through our Hyde Park workshop in Johannesburg, and data recovery is one of the most common repairs we perform, especially for M3 models that suffered unexpected failures during load shedding or accidental liquid damage.
+If your MacBook Pro M3 has stopped working, won't boot, or suffered physical damage, you're likely facing two urgent questions: can the data be saved, and how much will it cost? We've handled over 15,000 MacBooks through our Hyde Park workshop in Johannesburg, and [data recovery](/mac-data-recovery) is one of the most common repairs we perform, especially for M3 models that suffered unexpected failures during load shedding or accidental liquid damage.
 
 This guide explains what M3 data recovery actually involves, why it matters more than you might think, and how ZA Support approaches these repairs with the technical precision your device needs.
 
@@ -70708,7 +70710,7 @@ When you bring your M3 MacBook Pro to our Hyde Park location, here's what happen
 
 First, we perform a detailed diagnostic. This isn't a quick software check, it's a hardware and firmware assessment using specialised equipment. We examine the logic board for signs of [liquid damage](/liquid-damage), test the storage controller, and check whether the boot partition is still intact. This step costs R599 and is non-negotiable; without it, we're guessing.
 
-If the storage controller is functional but the data is inaccessible due to software corruption or firmware issues, we may be able to extract the data using Apple's Secure Enclave recovery tools or by temporarily isolating the storage chip and reading it directly. This process takes between 2 and 5 working days, depending on the amount of data and the specific nature of the corruption.
+If the storage controller is functional but the data is inaccessible due to software corruption or firmware issues, we may be able to extract the data using Apple's Secure Enclave recovery tools or by temporarily isolating the storage chip and reading it directly. Our [MacBook data recovery](/macbook-repair/data-recovery) page describes how this extraction works for each fault type. This process takes between 2 and 5 working days, depending on the amount of data and the specific nature of the corruption.
 
 If the logic board itself is damaged, which we see frequently in liquid-damage cases, the repair becomes more complex. We may need to replace the [logic board](/logic-board-repair) or perform micro-soldering repairs to restore the storage controller. A full logic-board replacement will be confirmed after your initial assessment, but data recovery from a damaged board typically runs from R2,999 upwards, depending on complexity.
 
@@ -70754,7 +70756,7 @@ Completely. We comply with POPIA and never decrypt or bypass Apple's Secure Encl
 
 ### Q: Can you recover data if the MacBook won't turn on at all?
 
-Yes, in most cases. Non-responsive Macs are often recoverable if the storage controller is intact. The R599 diagnostic will tell us whether recovery is possible and what it will cost.
+Yes, in most cases. Non-responsive Macs are often recoverable if the storage controller is intact. The R599 diagnostic will tell us whether recovery is possible and what it will cost. See our [guide to recovering data from a dead MacBook](/guides/how-to-recover-data-from-dead-macbook) for the full picture.
 
 ### Q: Why is M3 data recovery more expensive than it was for Intel MacBooks?
 
