@@ -31,6 +31,8 @@ scripts/daily-seo-normalize.py
 scripts/daily-seo-analyze.py
 scripts/daily-seo-healthcheck.py
 scripts/daily-seo-report.py
+scripts/za-ga4-page-metrics.py
+scripts/seo-source-receipt.py
 scripts/discovery-snapshot.py
 scripts/discovery-source-health.py
 scripts/discovery-gap-detect.py
