@@ -25347,21 +25347,17 @@ Screen damage on MacBooks ranges from minor cosmetic issues to complete display 
 
 ## MacBook Screen Repair Pricing in Johannesburg, What You'll Actually Pay
 
-The honest answer: MacBook screen repairs in Johannesburg run from R2,800 to R8,500 depending on your model and damage type.
+MacBook screen repair starts from R5,500. Final pricing is confirmed after assessment and depends on the model, the display assembly and parts availability.
 
-For a **MacBook Air** (13-inch or 15-inch, 2020-2025 models), a cracked or non-responsive display replacement costs between R3,200 and R4,900. We're talking about the complete display assembly, the LCD panel, backlight, and cabling all in one unit. It's not a repair of the screen itself; it's a full replacement.
+A screen repair on most MacBooks means replacing the complete display assembly, the LCD panel, backlight and cabling all in one unit. It is not a repair of the glass alone; it is a full assembly replacement. MacBook Pro models cost more than the Air because they use higher-resolution displays, and the newer mini-LED panels cost more than the standard panels on the Air. That feeds directly into the figure we confirm for your machine.
 
-**MacBook Pro** pricing is higher because the models are pricier and use higher-resolution displays. A 14-inch MacBook Pro (M3, M4, or M4 Pro) runs R5,200 to R7,100. The 16-inch variant can reach R8,500. Older Pro models (2019-2021 Intel or M1 generations) fall into the R4,200 to R6,800 bracket.
-
-These prices include labour, the new display assembly, and our standard three-year hardware warranty. There are no hidden fees. If we discover liquid damage or a logic board issue during the diagnostic, we'll quote separately, we never fold surprise costs into a screen repair.
-
-Why the variation? Newer MacBooks use more expensive display panels. The M4 Max models incorporate mini-LED technology, which costs more than standard IPS panels on the Air. That translates directly to your quote.
+These prices include labour, the new display assembly, and our standard 12-month hardware warranty. There are no hidden fees. If we discover liquid damage or a logic board issue during the diagnostic, we quote that separately. We never fold surprise costs into a screen repair.
 
 ## Diagnostics: The R599 Assessment That Saves Money
 
 Before we quote you a price, we run a from R599 assessment in our Hyde Park workshop. This includes visual inspection, liquid-damage testing, and a full display diagnostic using our calibration equipment.
 
-Here's what matters: a cracked screen that works is different from a screen that won't power on. We've seen customers assume they need a R7,000 replacement when the actual issue is a disconnected cable, fixed in twenty minutes for R350. We've also seen water ingress on the display connector that makes a R3,000 repair impossible until we address the underlying corrosion.
+Here's what matters: a cracked screen that works is different from a screen that won't power on. We've seen customers assume they need a full replacement when the actual issue is a disconnected cable, fixed in twenty minutes. We've also seen water ingress on the display connector that makes a straightforward repair impossible until we address the underlying corrosion.
 
 The assessment fee applies to your final invoice if you proceed with the repair. If we identify a problem we can't fix (like a damaged logic board underneath the display), we'll tell you that upfront and you've only paid R599.
 
@@ -25371,21 +25367,21 @@ Bring your MacBook to our workshop in Hyde Park, Sandton, Rosebank, or Midrand. 
 
 By mid-2026, load shedding has become part of Johannesburg's calendar. If stage 3 or stage 4 cuts are scheduled during our operating hours, repairs take longer. We've invested in backup power systems for our diagnostic equipment, but complex display replacements, which require precision alignment, sometimes get rescheduled to ensure quality.
 
-We'll tell you on the phone if a load shedding slot overlaps with your appointment. It's not ideal, but we won't rush a R6,000 repair.
+We'll tell you on the phone if a load shedding slot overlaps with your appointment. It's not ideal, but we won't rush a complex repair.
 
 ## What's Covered by Warranty, and What Isn't
 
-Our three-year hardware warranty covers the display replacement itself. If the panel you received fails due to manufacturing defect within 36 months, we replace it free.
+Our 12-month hardware warranty covers the display replacement itself. If the panel you received fails due to manufacturing defect within 36 months, we replace it free.
 
 What it doesn't cover: accidental damage during that period. If you drop your MacBook six months after the repair, that's a new claim. Water damage that occurs after the repair is separate. Normal wear, slight discolouration on edge bezels after two years, is not a defect.
 
-We honour our No Fix No Fee promise for diagnostics. If we can't fix the problem we identified, you don't pay labour. You only pay for parts if you approve the quote beforehand.
+Our diagnostic assessment is R599. You only pay for parts and labour if you approve the quote beforehand.
 
 ## Liquid Damage Complicates Screen Repairs
 
 This is the scenario we see most often in Johannesburg: coffee spill, or load shedding-related power surge damage that creates corrosion inside the display connector. A screen replacement alone won't fix it.
 
-Our workshop finds liquid damage in roughly 30% of screen repairs that come through the door. When we do, we escalate to our [logic board repair](https://zasupport.com/logic-board-repair) service. Cleaning the display connector and micro-soldering damaged traces adds R1,800 to R3,500 to your quote. It's not optional, without it, your new screen won't power on.
+Our workshop finds liquid damage in roughly 30% of screen repairs that come through the door. When we do, we escalate to our [logic board repair](https://zasupport.com/logic-board-repair) service. Cleaning the display connector and micro-soldering damaged traces adds to your quote, confirmed after assessment. It's not optional, without it, your new screen won't power on.
 
 That's why the [from R599 assessment](https://zasupport.com/contact) matters. We catch this before you've already paid for the display.
 
@@ -25411,7 +25407,7 @@ On MacBooks manufactured after 2016, the glass and LCD are fused together as one
 
 ### Q: How much more does a MacBook Pro screen cost than an Air screen?
 
-A MacBook Pro screen runs 40-60% more than a comparable Air. A Pro 14-inch is R5,200-R7,100; an Air 13-inch is R3,200-R4,900. The difference is mainly the resolution and panel technology. Pro models use higher pixel density and wider colour gamut, which costs more to manufacture and source.
+A MacBook Pro screen runs 40-60% more than a comparable Air. We confirm the exact figure for your model after the assessment. The difference is mainly the resolution and panel technology. Pro models use higher pixel density and wider colour gamut, which costs more to manufacture and source.
 
 ### Q: Do you repair screens on MacBooks older than 2015?
 
@@ -25419,9 +25415,9 @@ Yes, we repair 2010 and newer. Older machines (pre-2010 plastic models) are less
 
 ### Q: What if water damaged my screen and it's also inside the case?
 
-Liquid damage inside the chassis requires logic board inspection and likely micro-soldering repair. This is a separate service from screen replacement. From R599 assessment will identify this. Our [liquid damage service](https://zasupport.com/liquid-damage) handles this specifically. Total cost can reach R8,000-R12,000 depending on how far the corrosion has spread, but we won't know until we open it up.
+Liquid damage inside the chassis requires logic board inspection and likely micro-soldering repair. This is a separate service from screen replacement. From R599 assessment will identify this. Our [liquid damage service](https://zasupport.com/liquid-damage) handles this specifically. Total cost depends on how far the corrosion has spread, but we won't know until we open it up.
 
-### Q: Is the three-year warranty transferable if I sell my MacBook?
+### Q: Is the 12-month warranty transferable if I sell my MacBook?
 
 Yes. The warranty is tied to the device serial number, not the owner. If you sell your MacBook with a ZA Support display replacement, the new owner inherits the remaining warranty period. We keep service records linked to the serial number.
 
@@ -57834,11 +57830,11 @@ Our initial assessment is R599, and this includes a detailed report of findings.
 
 If the display cable is at fault, we replace it entirely. This is a labour-intensive job requiring complete disassembly of the MacBook Pro casing and careful disconnection of the cable from both the logic board and the screen assembly. The procedure takes 2 to 3 hours in our workshop, depending on your MacBook model.
 
-Cable replacements cost between R1,800 and R2,900, depending on whether your model requires additional components. We source genuine Apple cables and test the display extensively after installation, ensuring uniform brightness before we release the machine.
+Cable replacements are confirmed after assessment, depending on whether your model requires additional components. We source genuine Apple cables and test the display extensively after installation, ensuring uniform brightness before we release the machine.
 
 **Logic Board Repair**
 
-When the logic board is responsible, we have two options: component-level repair or logic board replacement. Component-level repair, replacing the faulty display driver chip, is more economical, ranging from R2,200 to R3,500, and carries our standard 3-year warranty. Full logic board replacement is more expensive (R4,500-R6,800) but necessary if multiple circuits are damaged.
+When the logic board is responsible, we have two options: component-level repair or logic board replacement. Component-level repair, replacing the faulty display driver chip, can be more economical than a full board replacement and starts from R3,500, confirmed after assessment, and carries our standard 12-month warranty. Full logic board replacement is more expensive, confirmed after assessment, but necessary if multiple circuits are damaged.
 
 Our technicians use thermal imaging and oscilloscope testing to pinpoint the exact faulty component before we commit to repair. This diagnostic rigour prevents unnecessary part replacements and keeps your cost down.
 
@@ -57861,7 +57857,7 @@ We've repaired more than 15,000 display-related faults across all MacBook genera
 
 ## Warranty and Ongoing Support
 
-All cable replacements and component-level repairs carry our standard 3-year hardware warranty. If the stage light effect returns within that period due to manufacturing defect in the replacement cable, we repair it again at no charge. Logic board replacements also include our 3-year coverage.
+All cable replacements and component-level repairs carry our standard 12-month hardware warranty. If the stage light effect returns within that period due to manufacturing defect in the replacement cable, we repair it again at no charge. Logic board replacements also include our 12-month coverage.
 
 Your MacBook is covered even if you purchased it from a different retailer. We don't require proof of purchase for repairs, though we do need to confirm the device is genuine Apple hardware, this takes two minutes during your initial assessment.
 
@@ -57877,7 +57873,7 @@ The stage light effect is purely hardware, either the display cable or logic boa
 
 ### Q: Can I fix the stage light effect myself?
 
-Technically possible, but not recommended. The display cable sits beneath the trackpad and keyboard, and disconnecting it requires careful disassembly. One slip, a torn cable or a bent connector pin, can turn a R2,000 repair into a R6,000 replacement. Our technicians have the proper tools and replacement parts on hand.
+Technically possible, but not recommended. The display cable sits beneath the trackpad and keyboard, and disconnecting it requires careful disassembly. One slip, a torn cable or a bent connector pin, can turn a targeted repair into a full replacement. Our technicians have the proper tools and replacement parts on hand.
 
 ### Q: Does the stage light effect get worse over time?
 
@@ -57885,11 +57881,11 @@ In our experience, cable-related stage light effects remain stable. They don't p
 
 ### Q: My MacBook is three years old. Is it still worth repairing, or should I replace it?
 
-This depends on your use case and budget. A MacBook Pro from 2019 or 2020 is still capable hardware for most professional tasks. A R2,500 cable repair significantly extends the life of your machine for less than half the cost of entry-level new hardware. We'd recommend repair if the rest of your MacBook is functioning well and you don't need the performance bump that a newer model provides.
+This depends on your use case and budget. A MacBook Pro from 2019 or 2020 is still capable hardware for most professional tasks. A targeted cable repair significantly extends the life of your machine for far less than entry-level new hardware. We'd recommend repair if the rest of your MacBook is functioning well and you don't need the performance bump that a newer model provides.
 
 ### Q: Will Apple repair the stage light effect?
 
-Yes, Apple's official repair service will address this issue, but it typically involves logic board replacement rather than component-level diagnostics. This makes Apple's repair more expensive, often R4,500-R7,000, than our targeted approach. Your AppleCare coverage will apply if you're within warranty. If your AppleCare has expired, our repair is generally more economical.
+Yes, Apple's official repair service will address this issue, but it typically involves logic board replacement rather than component-level diagnostics. This makes Apple's repair more expensive than our targeted approach. Your AppleCare coverage will apply if you're within warranty. If your AppleCare has expired, our repair is generally more economical.
 
 ### Q: Is the stage light effect covered under AppleCare?
 
@@ -59959,7 +59955,7 @@ We also check for moisture ingress, which we've encountered surprisingly often i
 
 ## What We Can Fix On-Site
 
-Most Mac mini power issues can be resolved in our workshop. PSU replacement typically takes two hours and costs between R2,400 and R3,200 depending on model year. Logic board repair for power delivery issues ranges from R1,800 (capacitor replacement) to R4,500 (full board rework), and we offer a three-year warranty on all component-level repairs.
+Most Mac mini power issues can be resolved in our workshop. PSU replacement typically takes about two hours, with the cost confirmed after the assessment. Logic board repair for power delivery issues starts from R3,500, with the exact figure confirmed after the assessment, and we offer a 12-month warranty on all component-level repairs.
 
 If your machine suffered liquid damage, we can clean, dry, and repair the affected circuits. If the board requires replacement, we source genuine Apple boards and ensure your data remains untouched, we work on the hardware layer only, not your drive.
 
@@ -59977,7 +59973,7 @@ If you're based in a Johannesburg suburb, Sandton, Bryanston, Rosebank, Parktown
 
 ### Q: Could it just be the power cable or wall socket?
 
-Absolutely, and that's always our starting point. Before bringing your Mac mini in, try the power cable in a different wall socket and, if possible, borrow a Mac mini power cable from a friend to test. If your machine powers on with a different cable, that's your answer, replacement cables cost around R450. If you still see nothing, the issue is internal.
+Absolutely, and that's always our starting point. Before bringing your Mac mini in, try the power cable in a different wall socket and, if possible, borrow a Mac mini power cable from a friend to test. If your machine powers on with a different cable, that's your answer, and a replacement cable is an inexpensive fix we confirm on assessment. If you still see nothing, the issue is internal.
 
 ### Q: How long will the repair take?
 
@@ -59985,7 +59981,7 @@ A PSU replacement takes two to three hours. Logic board diagnostics and repair t
 
 ### Q: Does ZA Support cover this under warranty?
 
-Our repairs come with a three-year warranty on parts and labour. If your Mac mini is still within Apple's one-year warranty, you may prefer to contact Apple directly; however, we often complete repairs faster and at lower cost than authorised service centres.
+Our repairs come with a 12-month warranty on parts and labour. If your Mac mini is still within Apple's one-year warranty, you may prefer to contact Apple directly; however, we often complete repairs faster and at lower cost than authorised service centres.
 
 ### Q: Can you recover my data if the Mac mini won't start?
 
