@@ -4663,7 +4663,7 @@ MacBook screen replacement starts from **R5,500**, depending on your model year 
 
 When you bring your MacBook to our Hyde Park workshop, we start with a comprehensive **R599 assessment**. This isn't a sales tactic, it's genuine diagnostics. I inspect the LCD panel, check for liquid damage beneath the display, examine the logic board's display connectors, and test backlight functionality. Many clients discover their issue isn't the screen at all; it's a faulty GPU affecting display output.
 
-The assessment fee applies toward your repair if you proceed. We operate on a **From R599 assessment guarantee**, meaning if we can't resolve your display issue, you pay nothing beyond that diagnostic.
+The R599 assessment is a separate, non-refundable fee. We operate on a **From R599 assessment guarantee**, meaning if we can't resolve your display issue, you pay nothing beyond that diagnostic.
 
 ## MacBook Screen Types and What They Cost
 
@@ -4731,7 +4731,7 @@ Typically 2-3 business days from drop-off to collection. Urgent same-day service
 Unfortunately no. MacBook Retina displays are fused units. Separating them usually destroys the LCD layer. We replace the entire assembly.
 
 **Is there one all-inclusive price?**
-The from-R5,500 figure covers the panel and labour, confirmed by model. Larger screens (14-16-inch) cost more. The R599 assessment applies toward this total.
+The from-R5,500 figure covers the panel and labour, confirmed by model. Larger screens (14-16-inch) cost more. The R599 assessment is separate from this figure and is non-refundable.
 
 **What if my MacBook is out of warranty?**
 Our 12-month warranty applies to all ZA Support repairs, regardless of your device's original warranty status. AppleCare doesn't affect our service coverage.
@@ -31972,7 +31972,7 @@ For very large libraries (over 100GB), consider starting uploads late at night o
 
 Most stuck uploads you can fix yourself. But some indicate deeper issues. If you've cleared cache, restarted your device, and tried the terminal command on Mac, and uploads are still stuck after 48 hours, something else is wrong.
 
-This could be a storage corruption issue, a problem with your iCloud account, or [logic board damage](/logic-board-repair) affecting hardware communication with the network. We offer a R599 assessment at our Hyde Park workshop to diagnose exactly what's happening. From that assessment, most clients either fix the problem themselves (we show them how) or we handle it for you. We provide up to a 3-year warranty on iCloud-related diagnostics and repairs.
+This could be a storage corruption issue, a problem with your iCloud account, or [logic board damage](/logic-board-repair) affecting hardware communication with the network. We offer a R599 assessment at our Hyde Park workshop to diagnose exactly what's happening. From that assessment, most clients either fix the problem themselves (we show them how) or we handle it for you. We provide a 12-month warranty on repairs.
 
 [Contact us for an assessment](/contact), or [WhatsApp us on 064 529 5863](https://wa.me/27645295863) if you want to describe the issue first.
 
