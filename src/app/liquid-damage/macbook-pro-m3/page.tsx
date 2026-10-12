@@ -149,7 +149,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M3 Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro M3 liquid damage repair in Johannesburg. 3nm chip specialist, MagSafe 3 corrosion recovery, ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro M3 liquid damage repair in Johannesburg. 3nm chip specialist, MagSafe 3 corrosion recovery, ultrasonic cleaning, component-level repair. Assessment. 12-month warranty.',
   lowPrice: '5700',
   highPrice: '19950',
 });
@@ -185,7 +185,7 @@ export default function MacBookProM3LiquidDamagePage() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M3 / M3 Pro / M3 Max' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -221,7 +221,7 @@ export default function MacBookProM3LiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -323,7 +323,7 @@ export default function MacBookProM3LiquidDamagePage() {
                 <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>M3 Pro and M3 Max multi-die memory repair available</li>
-                <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
+                <li>Turnaround 24-72 hours, 12-month warranty</li>
                 <li>MagSafe 3 charging path fully diagnosed</li>
               </ul>
             </div>
@@ -464,7 +464,7 @@ export default function MacBookProM3LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

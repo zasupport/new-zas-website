@@ -12,7 +12,7 @@ import PricingRange from '@/components/PricingRange';
 export const metadata: Metadata = {
   title: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg [2026]',
   description:
-    'MacBook Pro 16-inch liquid damage repair Johannesburg. M1 Max, M2 Max, M3 Max specialists. 140W MagSafe 3, HDMI, SD slot corrosion repair. Assessment. No Fix No Fee.',
+    'MacBook Pro 16-inch liquid damage repair Johannesburg. M1 Max, M2 Max, M3 Max specialists. 140W MagSafe 3, HDMI, SD slot corrosion repair. Assessment. Fixed written quotes.',
   alternates: { canonical: 'https://zasupport.com/liquid-damage/macbook-pro-16-inch' },
   keywords: [
     'MacBook Pro 16 inch liquid damage repair Johannesburg',
@@ -45,7 +45,7 @@ const faqs = [
   {
     question: 'Can a liquid-damaged MacBook Pro 16-inch be repaired?',
     answer:
-      'Yes, in most cases. The MacBook Pro 16-inch, across the 2021 M1 Pro/Max (A2485), 2023 M2 Pro/Max (A2780), and 2023 M3 Pro/M3 Max (A2991) generations, uses Apple Silicon chips alongside discrete peripheral controller ICs for USB-C, MagSafe 3, HDMI 2.1, and SD card connectivity. These controllers are individually replaceable at component level. A full logic board replacement is rarely necessary and is never our first recommendation. We have repaired all three 16-inch generations at our Hyde Park workshop. Assessment, No Fix No Fee on every case.',
+      'Yes, in most cases. The MacBook Pro 16-inch, across the 2021 M1 Pro/Max (A2485), 2023 M2 Pro/Max (A2780), and 2023 M3 Pro/M3 Max (A2991) generations, uses Apple Silicon chips alongside discrete peripheral controller ICs for USB-C, MagSafe 3, HDMI 2.1, and SD card connectivity. These controllers are individually replaceable at component level. A full logic board replacement is rarely necessary and is never our first recommendation. We have repaired all three 16-inch generations at our Hyde Park workshop. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Why is the MacBook Pro 16-inch higher-risk during a liquid event than smaller MacBooks?',
@@ -60,7 +60,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro 16-inch liquid damage repair cost in Johannesburg?',
     answer:
-      'Cost depends on which generation (M1 Pro/Max, M2 Pro/Max, M3 Pro/Max) and which circuits the liquid reached. A MagSafe or USB-C controller replacement is at the lower end of the range. HDMI controller corrosion, multi-channel memory bus contamination on an M1 Max or M3 Max board, or SSD controller trace damage on a high-capacity configuration requires more targeted work. Every repair is quoted in writing after the assessment, you know the cost before we start. No Fix No Fee means if we cannot repair the machine, you only pay the assessment fee.',
+      'Cost depends on which generation (M1 Pro/Max, M2 Pro/Max, M3 Pro/Max) and which circuits the liquid reached. A MagSafe or USB-C controller replacement is at the lower end of the range. HDMI controller corrosion, multi-channel memory bus contamination on an M1 Max or M3 Max board, or SSD controller trace damage on a high-capacity configuration requires more targeted work. Every repair is quoted in writing after the assessment, you know the cost before we start. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Can you recover data from a water-damaged MacBook Pro 16-inch?',
@@ -159,7 +159,7 @@ const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro 16-Inch Liquid Damage Repair Johannesburg',
   description:
-    'Professional MacBook Pro 16-inch liquid damage repair in Johannesburg. M1 Max, M2 Max, M3 Max specialists. HDMI 2.1, SD card, MagSafe 3 140W, and Thunderbolt 4 corrosion repair. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro 16-inch liquid damage repair in Johannesburg. M1 Max, M2 Max, M3 Max specialists. HDMI 2.1, SD card, MagSafe 3 140W, and Thunderbolt 4 corrosion repair. Assessment. 12-month warranty.',
   lowPrice: '5700',
   highPrice: '19950',
 });
@@ -192,10 +192,10 @@ export default function MacBookPro16InchLiquidDamagePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 / M2 / M3 Pro & Max' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -231,7 +231,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -305,7 +305,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. No Fix No Fee on every 16-inch case, if we cannot repair your MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year written warranty on all completed repairs.
+              All repairs are quoted before work begins. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. Up-to-3 year written warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -336,7 +336,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
                 <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>HDMI, SD card, MagSafe, Thunderbolt individually repaired</li>
-                <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
+                <li>Turnaround 24-72 hours, 12-month warranty</li>
                 <li>M1 Max / M3 Max multi-die memory repair available</li>
               </ul>
             </div>
@@ -464,7 +464,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
               MacBook Pro 16-Inch Liquid Damage? Every Hour Counts.
             </h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              The 16-inch&apos;s 140W charging architecture and Max-tier logic boards make liquid damage more time-critical than any other MacBook. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment. No Fix No Fee.
+              The 16-inch&apos;s 140W charging architecture and Max-tier logic boards make liquid damage more time-critical than any other MacBook. WhatsApp us now for immediate guidance and same-day collection across Johannesburg. Assessment. Fixed written quotes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -483,7 +483,7 @@ export default function MacBookPro16InchLiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

@@ -12,9 +12,9 @@ import PricingRange from '@/components/PricingRange';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'iPhone Screen Repair Johannesburg [2026] | ZA Support',
+  title: 'iPhone Screen Repair Cost Johannesburg [2026]',
   description:
-    'iPhone screen repair in Johannesburg. OLED & LCD panels, True Tone calibration, Face ID preserved. Same-day repair at Hyde Park. Call 064 529 5863.',
+    'iPhone screen repair cost in Johannesburg: priced by model, fixed written quote after assessment. Face ID preserved, same-day repair. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/iphone' },
   keywords: [
     'iPhone screen repair Johannesburg',
@@ -27,6 +27,8 @@ export const metadata: Metadata = {
     'broken iPhone screen repair Johannesburg',
     'iPhone screen repair same day Johannesburg',
     'iPhone Face ID screen repair Johannesburg',
+    'iPhone screen repair cost Johannesburg',
+    'how much does iPhone screen repair cost Johannesburg',
   ],
 };
 
@@ -41,80 +43,90 @@ const breadcrumbSchemaItems = [
   { name: 'iPhone Screen Repair', url: 'https://zasupport.com/screen-repair/iphone' },
 ];
 
+// From-price CONFIRMED by Courtney 05/10/2026 (matches the §489 anchor
+// registry: phone screen from R1,900, src Courtney 28/06). Set back to null
+// to withdraw the price: copy falls back to qualitative wording and schema
+// pricing is scrubbed again.
+const FROM_PRICE = 'R1,900' as string | null;
+
+const ENTRY_PRICE_LABEL =
+  FROM_PRICE !== null ? `From ${FROM_PRICE}` : 'Fixed quote after R599 assessment';
+const MODEL_PRICE_LABEL = 'Fixed written quote by model';
+
 const pricingTiers = [
   {
     range: 'iPhone 8, SE (2nd & 3rd gen)',
-    price: 'Contact for pricing',
+    price: ENTRY_PRICE_LABEL,
     panel: 'LCD (IPS Retina)',
     note: 'True Tone not supported on these models',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone X, XS, XS Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'Super Retina OLED',
     note: 'True Tone + wide colour (P3)',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 11',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'Liquid Retina LCD',
     note: 'True Tone, Haptic Touch',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 12, 12 Mini, 12 Pro',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'Super Retina XDR OLED',
     note: 'Ceramic Shield glass, True Tone, P3',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 13, 13 Mini, 13 Pro',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'Super Retina XDR OLED',
     note: 'ProMotion 120 Hz on Pro models',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 14, 14 Plus',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'Super Retina XDR OLED',
     note: 'Emergency SOS via satellite (unaffected by repair)',
     turnaround: 'Same day',
   },
   {
     range: 'iPhone 14 Pro, 14 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'ProMotion Always-On OLED',
     note: 'Dynamic Island; 120 Hz ProMotion',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 15, 15 Plus',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'Super Retina XDR OLED',
     note: 'USB-C; titanium frame on Pro',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 15 Pro, 15 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'ProMotion Always-On OLED',
     note: 'Action button; titanium chassis',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 16, 16 Plus',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'Super Retina XDR OLED',
     note: 'Camera Control button; Apple Intelligence',
     turnaround: '24-48 hrs',
   },
   {
     range: 'iPhone 16 Pro, 16 Pro Max',
-    price: 'Contact for pricing',
+    price: MODEL_PRICE_LABEL,
     panel: 'ProMotion Always-On OLED',
     note: 'Largest display Apple has made, 6.9″',
     turnaround: '24-48 hrs',
@@ -148,7 +160,9 @@ const faqs = [
   {
     question: 'How much does iPhone screen repair cost in Johannesburg?',
     answer:
-      'iPhone screen repair pricing at ZA Support depends on the model, with the iPhone 8 and SE LCD panels at the lower end and the iPhone 15 and 16 Pro Max at the upper end. All prices include labour, the display assembly, True Tone calibration transfer where applicable, and our up-to-3 year warranty. Compare this to the Apple Store, which charges many times our price depending on model.',
+      FROM_PRICE !== null
+        ? `iPhone screen repair at ZA Support starts from ${FROM_PRICE}, with the iPhone 8 and SE LCD panels at the lower end and the iPhone 15 and 16 Pro Max at the upper end. Every price includes labour, the display assembly, True Tone calibration transfer where applicable, and our 12-month written warranty. The exact price for your model is confirmed as a fixed written quote after the R599 assessment, and it is a fraction of what the Apple Store charges.`
+        : 'iPhone screen repair at ZA Support is priced by model, with the iPhone 8 and SE LCD panels at the lower end and the iPhone 15 and 16 Pro Max at the upper end. The exact cost for your model is confirmed as a fixed written quote after the R599 assessment, and every price includes labour, the display assembly, True Tone calibration transfer where applicable, and our 12-month written warranty. It is a fraction of what the Apple Store charges for the same repair.',
   },
   {
     question: 'Does iPhone screen repair affect Face ID?',
@@ -193,7 +207,7 @@ const faqs = [
   {
     question: 'Do you offer a warranty on iPhone screen replacements?',
     answer:
-      'Yes. Every iPhone screen repair at ZA Support includes an up-to-3 year warranty covering the display panel and our workmanship. If the replacement display develops a fault, dead pixels, touch issues, backlight failure, or colour shift, within the warranty period, we repair or replace it at our assessment fee. The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
+      'Yes. Every iPhone screen repair at ZA Support includes a 12-month written warranty covering the display panel and our workmanship. If the replacement display develops a fault, dead pixels, touch issues, backlight failure, or colour shift, within the warranty period, we repair or replace it at our assessment fee (from R599). The warranty is provided in writing at the time of collection. It covers parts and labour. It does not cover subsequent physical damage or liquid ingress.',
   },
   {
     question: 'Do you repair iPhone screens in Sandton or do I need to come to Hyde Park?',
@@ -216,17 +230,19 @@ const serviceSchema = {
     { '@type': 'Neighborhood', name: 'Hyde Park' },
     { '@type': 'Neighborhood', name: 'Sandton' },
   ],
-  offers: {
-    '@type': 'Offer',
-    priceCurrency: 'ZAR',
-    price: '1299',
-    priceSpecification: {
-      '@type': 'PriceSpecification',
-      minPrice: '1299',
-      maxPrice: '2999',
-      priceCurrency: 'ZAR',
-    },
-  },
+  // Offer pricing is gated on the approved FROM_PRICE (values undecided).
+  // Historical numbers are deliberately not restored. While FROM_PRICE is
+  // null no Offer is emitted, and SchemaOrg scrubs pricing anyway because
+  // keepPricing is false.
+  ...(FROM_PRICE !== null
+    ? {
+        offers: {
+          '@type': 'Offer',
+          priceCurrency: 'ZAR',
+          price: FROM_PRICE.replace(/[^0-9.]/g, ''),
+        },
+      }
+    : {}),
 };
 
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
@@ -236,8 +252,8 @@ export default function ScreenRepairIphonePage() {
 
   return (
     <>
-      <SchemaOrg schema={faqSchema} />
-      <SchemaOrg schema={serviceSchema} />
+      <SchemaOrg schema={faqSchema} keepPricing={FROM_PRICE !== null} />
+      <SchemaOrg schema={serviceSchema} keepPricing={FROM_PRICE !== null} />
       <SchemaOrg schema={breadcrumbSchema} />
 
       {/* Hero */}
@@ -254,15 +270,15 @@ export default function ScreenRepairIphonePage() {
               The most common iPhone screen repair we do at our Hyde Park workshop is cracked OLED glass on the 12 and 13 series, typically from a hip-height drop onto tiled floors, which is unforgiving to any glass panel. We carry stock for every iPhone from 8 through to 16 Pro Max, and most repairs are completed same day.
             </p>
             <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed text-base">
-              Contact for pricing. True Tone calibration transferred as standard. Face ID preserved. IP68 re-sealed. Up-to-3 year warranty. Assessment if we need to diagnose before quoting.
+              {FROM_PRICE !== null ? `From ${FROM_PRICE}. ` : ''}True Tone calibration transferred as standard. Face ID preserved. IP68 re-sealed. 12-month written warranty. Assessment from R599 if we need to diagnose before quoting, with a fixed written quote before any repair.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'Assessment' },
+                { icon: Shield, label: FROM_PRICE !== null ? `From ${FROM_PRICE}` : 'From R599 assessment' },
                 { icon: CheckCircle, label: 'True Tone Calibrated' },
                 { icon: Smartphone, label: 'Face ID Preserved' },
                 { icon: Zap, label: 'Same-Day Repair' },
-                { icon: Shield, label: 'Up-to-3 Year Warranty' },
+                { icon: Shield, label: '12-Month Warranty' },
               ].map(({ icon: Icon, label }) => (
                 <div
                   key={label}
@@ -316,10 +332,13 @@ export default function ScreenRepairIphonePage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-3">
-            iPhone Screen Repair Pricing
+            iPhone Screen Repair Cost in Johannesburg
           </h2>
           <p className="text-[#7A9E98] mb-3 max-w-3xl leading-relaxed">
-            All prices include the display assembly, True Tone calibration transfer where supported, IP68 re-seal, and our up-to-3 year warranty. The Apple Store charges many times our price for the same models, our pricing represents a saving of 50-70% on every repair.
+            {FROM_PRICE !== null
+              ? `Repairs start from ${FROM_PRICE}, with the exact price for your model confirmed as a fixed written quote. `
+              : 'Every repair is priced per model and confirmed as a fixed written quote after the R599 assessment. '}
+            All prices include the display assembly, True Tone calibration transfer where supported, IP68 re-seal, and our 12-month written warranty. The Apple Store charges many times our price for the same models, our price is a fraction of Apple&apos;s replacement quote.
           </p>
           <p className="text-[#7A9E98] mb-10 max-w-3xl leading-relaxed text-sm">
             For South African short-term insurance holders: many policies carry a significant excess on accidental screen damage. On iPhone 12 and below, claiming on insurance for a screen repair is often not economical compared to paying for the repair directly, speak to us and we will help you make the right call.
@@ -352,9 +371,9 @@ export default function ScreenRepairIphonePage() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            Prices are indicative and confirmed in writing before any work begins. Assessment applies where diagnosis is required before a quote can be given.
+            Prices are indicative and confirmed in writing before any work begins. A separate, non-refundable assessment from R599 applies where diagnosis is required before a quote can be given.
           </p>
-          <PricingRange page="/screen-repair/iphone" />
+          <PricingRange page="/screen-repair/iphone" showPricing={FROM_PRICE !== null} />
           <PricingNote variant="inline" />
         </div>
       </section>
@@ -439,9 +458,9 @@ export default function ScreenRepairIphonePage() {
             <div className="glass-card p-6 border border-[rgba(15,234,122,0.3)]">
               <h3 className="text-[#0FEA7A] font-bold mb-3">ZA Support</h3>
               <ul className="text-[#7A9E98] text-sm space-y-2">
-                <li>iPhone 15 and iPhone 12 screen repair, contact for pricing</li>
+                <li>{FROM_PRICE !== null ? `Screen repair from ${FROM_PRICE}, all models covered` : 'All models covered, fixed written quote before any work'}</li>
                 <li>Same-day repair for most models</li>
-                <li>Up-to-3 year warranty on display and workmanship</li>
+                <li>12-month written warranty on display and workmanship</li>
                 <li>True Tone transferred | Face ID preserved</li>
                 <li>Collection across Johannesburg, no travel needed</li>
               </ul>
@@ -450,7 +469,7 @@ export default function ScreenRepairIphonePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <AlertTriangle className="w-5 h-5 text-[#F5A623] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Assessment applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay the diagnostic fee and receive your phone back exactly as presented. We quote in writing before every repair, there are no surprises.
+              A separate, non-refundable assessment from R599 applies to every iPhone screen repair. If we cannot resolve your fault after assessment, you pay only the assessment fee and receive your phone back exactly as presented. We quote in writing before every repair, there are no surprises.
             </p>
           </div>
         </div>
@@ -528,7 +547,7 @@ export default function ScreenRepairIphonePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Up-to-3 year warranty | Assessment
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | {FROM_PRICE !== null ? `From ${FROM_PRICE} | ` : ''}12-month warranty | Assessment from R599
             </p>
           </div>
         </div>

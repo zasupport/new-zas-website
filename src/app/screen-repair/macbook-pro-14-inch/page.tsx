@@ -12,7 +12,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Pro 14-Inch Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED, ProMotion 120Hz. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED, ProMotion 120Hz. Fixed written quotes. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-pro-14-inch' },
   keywords: [
     'MacBook Pro 14 inch screen repair Johannesburg',
@@ -46,7 +46,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Pro 14-Inch Screen Repair Johannesburg',
   description:
-    'Professional MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED backlight, ProMotion 120Hz, True Tone preserved. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Pro 14-inch Liquid Retina XDR screen repair in Johannesburg. M1 Pro/Max through M4 Pro/Max. Mini-LED backlight, ProMotion 120Hz, True Tone preserved. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -211,10 +211,10 @@ export default function ScreenRepairMacBookPro14Page() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Monitor, label: 'Liquid Retina XDR Specialist' },
                 { icon: Cpu, label: 'M1 to M4 Pro/Max' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -267,7 +267,7 @@ export default function ScreenRepairMacBookPro14Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Pro 14-Inch Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include the full Liquid Retina XDR display assembly, labour, and our up-to-3 year warranty. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.
+            All prices include the full Liquid Retina XDR display assembly, labour, and our 12-month warranty. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -292,7 +292,7 @@ export default function ScreenRepairMacBookPro14Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment, applied toward the repair cost if you proceed. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -358,7 +358,7 @@ export default function ScreenRepairMacBookPro14Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee applies, if we cannot resolve the fault, assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. 12-month warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -391,7 +391,7 @@ export default function ScreenRepairMacBookPro14Page() {
                 <li>True Tone + ProMotion verified after every repair</li>
                 <li>Turnaround 48-72 hours from drop-off</li>
                 <li>Camera module compatibility confirmed before install</li>
-                <li>Up-to-3 year warranty on completed repairs</li>
+                <li>12-month warranty on completed repairs</li>
               </ul>
             </div>
           </div>

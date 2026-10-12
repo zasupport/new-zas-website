@@ -141,7 +141,7 @@ const severityLabels: Record<string, string> = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M2 Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro M2 liquid damage repair in Johannesburg. NAND controller specialist. Ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
+  description: 'Professional MacBook Pro M2 liquid damage repair in Johannesburg. NAND controller specialist. Ultrasonic cleaning, component-level repair. Assessment. 12-month warranty.',
   lowPrice: '5700',
   highPrice: '19950',
 });
@@ -177,7 +177,7 @@ export default function MacBookProM2LiquidDamagePage() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M2 Specialist' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -202,7 +202,7 @@ export default function MacBookProM2LiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -250,7 +250,7 @@ export default function MacBookProM2LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted before work begins. Assessment on every case, if we cannot repair your M2 MacBook Pro, an assessment fee applies and the machine is returned as received. Up-to-3 year warranty on all completed repairs.
+              All repairs are quoted before work begins. Assessment on every case, if we cannot repair your M2 MacBook Pro, an assessment fee applies and the machine is returned as received. 12-month warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -278,7 +278,7 @@ export default function MacBookProM2LiquidDamagePage() {
                 <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>NAND controller recovery available</li>
-                <li>Turnaround 24-72 hours, up-to-3 year warranty</li>
+                <li>Turnaround 24-72 hours, 12-month warranty</li>
               </ul>
             </div>
           </div>
@@ -365,7 +365,7 @@ export default function MacBookProM2LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

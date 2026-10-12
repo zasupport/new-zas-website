@@ -49,7 +49,7 @@ const faqs = [
   {
     question: 'How much does a MacBook Air M3 logic board repair cost in South Africa?',
     answer:
-      'Our assessment fee is deducted from the final repair cost if you proceed. Component-level repairs on the M3 Air cost far less than Apple\'s flat-rate board replacement. We provide an exact quote before any work begins.',
+      'The R599 assessment fee is a separate, non-refundable charge. Component-level repairs on the M3 Air cost far less than Apple\'s flat-rate board replacement. We provide an exact quote before any work begins.',
   },
   {
     question: 'Is the MacBook Air M3 logic board repairable at component level?',
@@ -212,7 +212,7 @@ export default function MacBookAirM3LogicBoardRepairPage() {
           </div>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
-              'Assessment guarantee',
+              'assessment',
               'Assessment',
               'Written warranty included',
               'Genuine and tested parts',

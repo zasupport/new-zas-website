@@ -76,6 +76,9 @@ bash scripts/check-airpods-residue.sh || { echo "ERROR: AirPods residue gate FAI
 echo "→ Verifying machine-dependent lead-time clause on price/turnaround pages (§287-T)..."
 python3 scripts/check-turnaround-clause.py || { echo "ERROR: §287-T lead-time clause gate FAILED — aborting deploy. Add <PricingNote /> to the flagged page(s) or <PricingNote repair={false} /> on contract pages."; exit 1; }
 
+echo "[deploy] claims-integrity gate (12-month warranty / non-refundable assessment / no banned promises)..."
+python3 scripts/check-claims-integrity.py || { echo "ERROR: claims-integrity gate FAILED - a banned claim class (3-year warranty / assessment credit / no-fix-no-fee / BEE Level 1 / free assessment) re-entered src/. Fix the flagged lines."; exit 1; }
+
 # 3.8 DESIGN-TEMPLATE CONFORMANCE gate - fail-closed (26/09/2026).
 # Every route must match the reference templates (/ and /macbook-not-turning-on):
 # no plain underlined link lists, bordered card surfaces, icons, no light/slate palette.

@@ -53,7 +53,7 @@ FALLBACK_POOL = [
 
 # ── Step 1: Read existing slugs ────────────────────────────────────────────────
 def get_existing_slugs() -> set:
-    slugs = set()
+    slugs: set = set()
     if not BLOG_PAGE.exists():
         return slugs
     content = BLOG_PAGE.read_text(encoding="utf-8")
@@ -65,7 +65,7 @@ def get_existing_slugs() -> set:
 # ── Step 2: Read latest SEO report keywords ────────────────────────────────────
 def get_seo_keywords() -> list:
     """Returns list of keyword strings from the newest report-*.json in SEO_DIR."""
-    keywords = []
+    keywords: list = []
     if not SEO_DIR.exists():
         return keywords
     reports = sorted(SEO_DIR.glob("report-*.json"), reverse=True)
@@ -94,7 +94,7 @@ def get_seo_keywords() -> list:
 # ── Step 3: PyTrends ───────────────────────────────────────────────────────────
 def get_trending_scores() -> dict:
     """Returns {term: score} from PyTrends (ZA, 30d). Fails gracefully."""
-    scores = {}
+    scores: dict = {}
     try:
         try:
             from pytrends.request import TrendReq

@@ -52,7 +52,7 @@ const faqs = [
   {
     question: 'How much does MacBook Pro M1 liquid damage repair cost?',
     answer:
-      'The cost depends entirely on the severity and location of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. USB-C board corrosion requiring controller replacement costs more. Severe logic board corrosion with multiple IC failures is the most complex case. We confirm the exact cost before any work begins. Assessment. No Fix No Fee.',
+      'The cost depends entirely on the severity and location of the damage. A keyboard-only spill with no logic board involvement is the most affordable repair. USB-C board corrosion requiring controller replacement costs more. Severe logic board corrosion with multiple IC failures is the most complex case. We confirm the exact cost before any work begins. Assessment. Fixed written quotes.',
   },
   {
     question: 'My M1 MacBook Pro got wet but still works, do I need repair?',
@@ -140,7 +140,7 @@ const severityLabels: Record<string, string> = {
 const faqSchema = buildFaqSchema(faqs);
 const serviceSchema = buildServiceSchema({
   name: 'MacBook Pro M1 Liquid Damage Repair Johannesburg',
-  description: 'Professional MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture specialist. Ultrasonic cleaning, component-level repair. Assessment. Up-to-3 year warranty.',
+  description: 'Professional MacBook Pro M1 liquid damage repair in Johannesburg. Unified memory architecture specialist. Ultrasonic cleaning, component-level repair. Assessment. 12-month warranty.',
 });
 const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbSchemaItems);
 
@@ -171,10 +171,10 @@ export default function MacBookProM1LiquidDamagePage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Cpu, label: 'M1 Specialist' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -199,7 +199,7 @@ export default function MacBookProM1LiquidDamagePage() {
                 { value: '500+', label: 'Liquid Damage Recoveries' },
                 { value: SITE.yearsExperience + ' Years', label: 'In Business Since 2009' },
                 { value: SITE.rating + '/5', label: SITE.reviewCount + ' Google Reviews' },
-                { value: 'Covered', label: 'Up-to-3 Year Warranty' },
+                { value: 'Covered', label: '12-Month Warranty' },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <p className="text-[#0FEA7A] text-xl font-extrabold">{value}</p>
@@ -247,7 +247,7 @@ export default function MacBookProM1LiquidDamagePage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs quoted before work begins. No Fix No Fee on every case, if we cannot repair your M1 MacBook Pro, an assessment fee applies and the machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              All repairs quoted before work begins. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. 12-month warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -275,7 +275,7 @@ export default function MacBookProM1LiquidDamagePage() {
                 <li>Assessment, repair quoted individually</li>
                 <li>Data preserved on the same logic board</li>
                 <li>Turnaround 24-72 hours for most cases</li>
-                <li>Up-to-3 year warranty on all repairs</li>
+                <li>12-month warranty on all repairs</li>
               </ul>
             </div>
           </div>
@@ -363,7 +363,7 @@ export default function MacBookProM1LiquidDamagePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment | 12-month warranty
             </p>
           </div>
         </div>

@@ -25,7 +25,7 @@ const faqs = [
   {
     question: 'How much does MacBook data recovery cost in South Africa?',
     answer:
-      'At ZA Support, data recovery assessment applies. Simple recoveries using Target Disk Mode or Share Disk are the most affordable option. Recoveries requiring logic board repair cost more depending on the fault. Chip-off NAND recovery, which is a last resort, is the most involved. We always quote before proceeding, and our No Fix No Fee policy means you only pay if we successfully recover your data.',
+      'At ZA Support, data recovery assessment applies. Simple recoveries using Target Disk Mode or Share Disk are the most affordable option. Recoveries requiring logic board repair cost more depending on the fault. Chip-off NAND recovery, which is a last resort, is the most involved. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Can I recover data from a MacBook that got water damage?',
@@ -68,7 +68,7 @@ const faqs = [
       'If board-level repair is not possible, the final option is chip-off NAND recovery. This involves desoldering the NAND flash memory chips from the logic board and reading them directly using specialised equipment. This only works on older Macs without T2 or Apple Silicon encryption. For T2 and Apple Silicon Macs where the board is truly beyond repair, the data is unfortunately unrecoverable due to hardware-bound encryption.',
   },
   {
-    question: 'Does ZA Support offer a No Fix No Fee guarantee on data recovery?',
+    question: 'Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
     answer:
       'Yes. If we cannot recover your data, you only pay the assessment fee. The assessment covers the full diagnostic, including opening the MacBook, inspecting the board under microscope, and determining the exact fault. If we determine recovery is possible and quote a repair, you only pay the full amount once your data is successfully extracted and verified.',
   },
@@ -142,7 +142,7 @@ export default function DataRecoveryGuidePage() {
           <Breadcrumb items={[{ label: 'Guides', href: '/guides' }, { label: 'Recover Data from Dead MacBook' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Data Recovery Guide · Assessment · No Fix No Fee</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Every repair is quoted in writing after assessment, and you approve the quote before any work begins</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               How to Recover Data from<br /><span className="text-[#0FEA7A]">a Dead MacBook</span>
@@ -531,7 +531,7 @@ export default function DataRecoveryGuidePage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Data Recovery Cost in South Africa (2026)</h2>
           <p className="text-[#7A9E98] leading-relaxed mb-8 max-w-3xl">
             Pricing depends on the method required. We always provide a written quote after the initial assessment.
-            Our No Fix No Fee policy means you only pay the full amount if we successfully recover your data.
+            Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -642,7 +642,7 @@ export default function DataRecoveryGuidePage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Dead MacBook? We Can Recover Your Data.
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment. No Fix No Fee. 12-month warranty on all board repairs.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. Fixed written quotes. 12-month warranty on all board repairs.</p>
             <p className="text-[#7A9E98] text-sm mb-8">1 Hyde Park Lane, Hyde Park, Johannesburg 2196. Same-day diagnostic available.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

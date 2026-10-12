@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: 'How far is Pretoria from your Hyde Park workshop?',
-    answer: 'Approximately 55 km, roughly 40-55 minutes by car. Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Same No Fix No Fee guarantee.',
+    answer: 'Approximately 55 km, roughly 40-55 minutes by car. Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'How long does a MacBook battery replacement take?',
@@ -133,7 +133,7 @@ export default function BatteryReplacementPretoriaPage() {
       <section className="py-10 sm:py-20 bg-[#111C1A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">Battery Symptoms We Fix for Pretoria Clients</h2>
-          <p className="text-[#7A9E98] mb-8 leading-relaxed">Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Same No Fix No Fee guarantee. We service all MacBook Air and MacBook Pro models from 2015 onwards, Intel and Apple Silicon.</p>
+          <p className="text-[#7A9E98] mb-8 leading-relaxed">Pretoria clients benefit from our Hyde Park-based component-level repair facility. Same assessment standard. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. We service all MacBook Air and MacBook Pro models from 2015 onwards, Intel and Apple Silicon.</p>
           <div className="space-y-4">
             {symptoms.map((f) => (
               <div key={f.title} className="glass-card p-5">

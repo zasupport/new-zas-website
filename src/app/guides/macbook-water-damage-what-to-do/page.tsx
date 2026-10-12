@@ -240,7 +240,7 @@ export default function MacBookWaterDamageGuidePage() {
                 { icon: Shield, label: 'Assessment' },
                 { icon: Droplets, label: 'Ultrasonic Cleaning' },
                 { icon: Clock, label: 'Same-Day Assessment' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -421,7 +421,7 @@ export default function MacBookWaterDamageGuidePage() {
           <div className="p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              <strong className="text-[#E8F4F1]">Assessment.</strong> If we cannot repair your MacBook, the assessment fee applies and the machine is returned exactly as received. All repair pricing confirmed in a written quote before any work begins. Up-to-3 year warranty on all completed repairs.
+              <strong className="text-[#E8F4F1]">Assessment.</strong> If we cannot repair your MacBook, the assessment fee applies and the machine is returned exactly as received. All repair pricing confirmed in a written quote before any work begins. 12-month warranty on all completed repairs.
             </p>
           </div>
           <PricingNote />
@@ -442,7 +442,7 @@ export default function MacBookWaterDamageGuidePage() {
             {[
               { title: 'Component-Level Repair', desc: 'We replace individual failed ICs, not entire boards. This costs a fraction of Apple\'s board-swap approach and preserves your data.' },
               { title: 'Same-Day Collection', desc: 'We collect liquid-damaged MacBooks from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg and all Johannesburg suburbs. Time is critical.' },
-              { title: 'Up-to-3 Year Warranty', desc: 'Every completed repair includes our warranty. If the same component fails, we repair it again at our assessment fee.' },
+              { title: '12-Month Warranty', desc: 'Every completed repair includes our warranty. If the same component fails, we repair it again at our assessment fee.' },
               { title: 'Transparent Pricing', desc: 'Written quote before any work begins. Transparent pricing confirmed after assessment on every case.' },
             ].map((item) => (
               <div key={item.title} className="glass-card p-5 border border-[rgba(15,234,122,0.15)]">
@@ -501,7 +501,7 @@ export default function MacBookWaterDamageGuidePage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment assessment | Up-to-3 year warranty
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Assessment assessment | 12-month warranty
             </p>
           </div>
         </div>

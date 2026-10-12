@@ -12,7 +12,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Air Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air screen repair in Johannesburg. Cracked Liquid Retina, dead pixels, backlight failure. No Fix No Fee. Hyde Park workshop. Book today.',
+    'MacBook Air screen repair in Johannesburg. Cracked Liquid Retina, dead pixels, backlight failure. Fixed written quotes. Hyde Park workshop. Book today.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-air' },
   keywords: [
     'MacBook Air screen repair Johannesburg',
@@ -86,9 +86,9 @@ const faqs = [
       'Yes, and this is the most common screen issue we see on 2013-2019 MacBook Air models specifically. The display data cable routes through the hinge and flexes thousands of times over the life of the machine. On the older non-Retina 13-inch and 11-inch MacBook Air, stress fractures in this cable cause flickering, lines, or intermittent black screens that are triggered by the angle you hold the lid. Replacing the display flex cable resolves this without needing a new display panel. The repair is faster and more affordable than a full display replacement.',
   },
   {
-    question: 'Does the No Fix No Fee policy apply to MacBook Air screen repairs?',
+    question: 'Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
     answer:
-      'Yes. If we assess your MacBook Air and cannot repair the screen fault, or if the repair cost is not economical for your situation, an assessment fee applies and your machine is returned exactly as received. We will never proceed with a repair without your written approval on a fixed-price quote. There are no hidden charges. Up-to-3 year warranty applies to all completed screen repairs.',
+      'Yes. If we assess your MacBook Air and cannot repair the screen fault, or if the repair cost is not economical for your situation, an assessment fee applies and your machine is returned exactly as received. We will never proceed with a repair without your written approval on a fixed-price quote. There are no hidden charges. 12-month warranty applies to all completed screen repairs.',
   },
   {
     question: 'Do you collect MacBook Airs for screen repair from across Johannesburg?',
@@ -199,7 +199,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air Screen Repair Johannesburg',
   description:
-    'Professional MacBook Air screen repair in Johannesburg. Cracked Liquid Retina panels, backlight failure, display flex cable faults, dead pixels. All models from 11-inch non-Retina to M3. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Air screen repair in Johannesburg. Cracked Liquid Retina panels, backlight failure, display flex cable faults, dead pixels. All models from 11-inch non-Retina to M3. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -249,9 +249,9 @@ export default function ScreenRepairMacBookAirPage() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Monitor, label: 'All Air Models' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
                 { icon: ArrowRight, label: '24-48 hr Turnaround' },
               ].map(({ icon: Icon, label }) => (
@@ -377,8 +377,8 @@ export default function ScreenRepairMacBookAirPage() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              All repairs are quoted in writing before any work begins. No Fix No Fee on every case, an assessment fee
-              applies if we cannot repair your MacBook Air screen. Up-to-3 year warranty on all completed repairs.
+              All repairs are quoted in writing before any work begins. Every repair is quoted in writing after assessment, and you approve the quote before any work begins
+              applies if we cannot repair your MacBook Air screen. 12-month warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -459,8 +459,8 @@ export default function ScreenRepairMacBookAirPage() {
                 <li>Screen repair for all Air models</li>
                 <li>Component-level diagnosis, flex cable vs panel vs circuit</li>
                 <li>24 to 48 hour turnaround at Hyde Park workshop</li>
-                <li>No Fix No Fee | written quote before work begins</li>
-                <li>Up-to-3 year warranty on completed repairs</li>
+                <li>Every repair is quoted in writing after assessment, and you approve the quote before any work begins</li>
+                <li>12-month warranty on completed repairs</li>
               </ul>
             </div>
           </div>
@@ -478,7 +478,7 @@ export default function ScreenRepairMacBookAirPage() {
           <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 leading-relaxed">
             All prices below are starting prices. The exact cost is confirmed in a written quote after our
-            assessment. Prices include labour, parts, and our up-to-3 year warranty.
+            assessment. Prices include labour, parts, and our 12-month warranty.
           </p>
           <div className="space-y-4">
             {[
@@ -515,7 +515,7 @@ export default function ScreenRepairMacBookAirPage() {
               {
                 item: 'Screen Assessment',
                 from: 'Contact for pricing',
-                note: 'Credited toward repair cost if you proceed',
+                note: 'The R599 assessment fee is a separate, non-refundable charge',
               },
             ].map((row) => (
               <div
@@ -550,7 +550,7 @@ export default function ScreenRepairMacBookAirPage() {
                 step: '1',
                 title: 'Assessment at Hyde Park Workshop',
                 detail:
-                  'We inspect the display under calibrated lighting, run a software display diagnostic, and check the backlight circuit and flex cable before touching any hardware. This tells us whether you need a new panel or a cheaper cable repair. Assessment, credited toward the repair.',
+                  'We inspect the display under calibrated lighting, run a software display diagnostic, and check the backlight circuit and flex cable before touching any hardware. This tells us whether you need a new panel or a cheaper cable repair. The R599 assessment fee is a separate, non-refundable charge.',
               },
               {
                 step: '2',
@@ -665,7 +665,7 @@ export default function ScreenRepairMacBookAirPage() {
               </a>
             </div>
             <p className="text-[#7A9E98] text-xs mt-6">
-              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Screen repair | Up-to-3 year warranty |
+              1 Hyde Lane, Hyde Park, Office E2004, JHB 2196 | Screen repair | 12-month warranty |
               Collection across Johannesburg
             </p>
           </div>

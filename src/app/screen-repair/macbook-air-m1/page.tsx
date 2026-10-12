@@ -12,7 +12,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Air M1 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air M1 screen repair Johannesburg. Liquid Retina display, fanless design, True Tone. Backlight repair, cracked panel, anti-reflective coating. No Fix No Fee.',
+    'MacBook Air M1 screen repair Johannesburg. Liquid Retina display, fanless design, True Tone. Backlight repair, cracked panel, anti-reflective coating. Fixed written quotes.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-air-m1' },
   keywords: [
     'MacBook Air M1 screen repair Johannesburg',
@@ -46,7 +46,7 @@ const serviceSchema = {
   '@type': 'Service',
   name: 'MacBook Air M1 Screen Repair Johannesburg',
   description:
-    'Professional MacBook Air M1 screen repair in Johannesburg. Liquid Retina 2560×1600, True Tone, P3 wide colour. Fanless design considerations. Assessment. Up-to-3 year warranty.',
+    'Professional MacBook Air M1 screen repair in Johannesburg. Liquid Retina 2560×1600, True Tone, P3 wide colour. Fanless design considerations. Assessment. 12-month warranty.',
   provider: LOCAL_BUSINESS_PROVIDER,
   areaServed: { '@type': 'City', name: 'Johannesburg' },
   serviceType: 'Screen Repair',
@@ -210,10 +210,10 @@ export default function ScreenRepairMacBookAirM1Page() {
             </div>
             <div className="flex flex-wrap gap-3 mb-8">
               {[
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
                 { icon: Monitor, label: 'All M1 Air Faults' },
                 { icon: Cpu, label: 'True Tone Preserved' },
-                { icon: CheckCircle, label: 'Up to 3 Year Warranty' },
+                { icon: CheckCircle, label: 'Up to 12-Month Warranty' },
                 { icon: Zap, label: 'Assessment' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
@@ -266,7 +266,7 @@ export default function ScreenRepairMacBookAirM1Page() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Air M1 Screen Repair Pricing</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            All prices include parts, labour, and our up-to-3 year warranty. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.
+            All prices include parts, labour, and our 12-month warranty. Apple Store charges many times our price for the same repair. We provide a written fixed-price quote before any work begins.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -291,7 +291,7 @@ export default function ScreenRepairMacBookAirM1Page() {
             </table>
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All prices include parts, labour, and our up-to-3 year warranty. Assessment, applied toward the repair cost if you proceed. No Fix No Fee applies on all cases.
+            All prices include parts, labour, and our 12-month warranty. Assessment, applied toward the repair cost if you proceed. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -357,7 +357,7 @@ export default function ScreenRepairMacBookAirM1Page() {
           <div className="mt-8 p-5 rounded-xl border border-[rgba(15,234,122,0.15)] bg-[rgba(15,234,122,0.04)] flex items-start gap-4">
             <Shield className="w-5 h-5 text-[#0FEA7A] flex-shrink-0 mt-0.5" />
             <p className="text-[#7A9E98] text-sm leading-relaxed">
-              Every repair is quoted before work begins. No Fix No Fee, if we cannot resolve the fault, assessment fee applies and your machine is returned exactly as received. Up-to-3 year warranty on all completed repairs.
+              Every repair is quoted before work begins. Every repair is quoted in writing after assessment, and you approve the quote before any work begins. 12-month warranty on all completed repairs.
             </p>
           </div>
         </div>
@@ -390,7 +390,7 @@ export default function ScreenRepairMacBookAirM1Page() {
                 <li>True Tone data migrated as standard</li>
                 <li>Turnaround 24-48 hours from drop-off</li>
                 <li>Flex cable diagnosed before assembly replacement</li>
-                <li>Up-to-3 year warranty on all completed repairs</li>
+                <li>12-month warranty on all completed repairs</li>
               </ul>
             </div>
           </div>

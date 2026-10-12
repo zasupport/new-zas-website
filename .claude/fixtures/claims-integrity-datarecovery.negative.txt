@@ -1,0 +1,12 @@
+# Negative fixture - planted violations that the claims gate MUST catch
+# (each string is exercised by scripts/check-claims-integrity.py --test;
+# a planted fault passing = broken gate, regardless of other results).
+we offer guaranteed data recovery
+we guarantee your data comes back
+100% recovery on all Macs
+95% recovery rate for MacBook Air
+92% recovery rate, no conditions apply          # 92% outside the allowlisted page
+92% data-recovery rate on every job.            # qualifier not adjacent (DR page)
+Data recovery from R1,999 for any Mac.          # below the R2,999 confirmed floor
+ratingValue: 92                                 # 92 laundered into a rating
+DO NOT PUBLISH this section                     # stale internal approval note

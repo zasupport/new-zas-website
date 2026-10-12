@@ -9,8 +9,8 @@ const SERVICE_MAP: Record<string, string> = {
   'macbook-repair': 'Hi, I need a MacBook repair quote',
   'battery': 'Hi, I need a MacBook battery replacement quote',
   'screen': 'Hi, I need a MacBook screen replacement quote',
-  'no-fix-no-fee': 'Hi, I need a free Mac diagnostic',
-  'assessment': 'Hi, I need a free Mac diagnostic',
+  'no-fix-no-fee': 'Hi, I need a Mac assessment',
+  'assessment': 'Hi, I need a Mac assessment',
   'general': 'Hi, I need help with my Apple device',
 };
 

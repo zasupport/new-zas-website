@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'iPhone Not Charging, Repair Johannesburg | ZA Support',
   description:
-    'iPhone not charging? Lightning and USB-C port repair in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. up-to-3 year warranty. Hyde Park.',
+    'iPhone not charging? Lightning and USB-C port repair in Johannesburg. All models iPhone 12 through 16 Pro Max. Same-day available. 12-month warranty. Hyde Park.',
   alternates: { canonical: 'https://zasupport.com/iphone-repair/charging' },
   keywords: [
     'iPhone not charging Johannesburg',
@@ -83,7 +83,7 @@ const processSteps = [
   { step: '2', title: 'Root Cause Found', desc: 'We determine whether the fault is lint blockage, port damage, a charging flex cable, or a broader liquid damage issue. You get a written fixed-price quote.' },
   { step: '3', title: 'Port Repaired', desc: 'A certified technician cleans or replaces the charging port. Port replacement takes approximately 60 minutes. Lint cleaning takes under 30 minutes.' },
   { step: '4', title: 'Charging Verified', desc: 'We verify fast charging works at the correct wattage, test data sync via cable, and confirm CarPlay connectivity if applicable.' },
-  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a up-to-3 year warranty on the repair and our labour. Assessment, assessment fee applies if we cannot resolve the fault.' },
+  { step: '5', title: 'Collect with Warranty', desc: 'You collect your iPhone with a 12-month warranty on the repair and our labour. Assessment, assessment fee applies if we cannot resolve the fault.' },
 ];
 
 const faqs = [
@@ -125,7 +125,7 @@ const faqs = [
   {
     question: 'What warranty do you offer on charging port repairs?',
     answer:
-      'All charging port repairs at ZA Support come with a up-to-3 year warranty on parts and labour. If the port stops charging, data sync fails, or CarPlay fails within the warranty period, we fix it at our assessment fee.',
+      'All charging port repairs at ZA Support come with a 12-month warranty on parts and labour. If the port stops charging, data sync fails, or CarPlay fails within the warranty period, we fix it at our assessment fee.',
   },
 ];
 
@@ -133,7 +133,7 @@ const faqs = [
 
 const serviceSchema = buildServiceSchema({
   name: 'iPhone Charging Port Repair Johannesburg',
-  description: 'iPhone charging port repair in Johannesburg. Lightning and USB-C. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion. up-to-3 year warranty.',
+  description: 'iPhone charging port repair in Johannesburg. Lightning and USB-C. All models iPhone 12 through 16 Pro Max. Lint cleaning, port replacement, corrosion. 12-month warranty.',
 });
 
 const breadcrumbSchemaItems = [
@@ -181,7 +181,7 @@ export default function iPhoneChargingPage() {
               Lightning and USB-C, iPhone 12 through 16 Pro Max, same-day available, Hyde Park Johannesburg.
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-[#7A9E98] mb-8">
-              {['Assessment', 'Assessment', 'Up-to-3 Year Warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
+              {['Assessment', 'Assessment', '12-Month Warranty', 'Lint clean available', 'Same-day available', 'Written quote'].map((item) => (
                 <li key={item} className="flex items-center gap-1.5">
                   <CheckCircle className="w-4 h-4 text-[#0FEA7A] flex-shrink-0" />
                   {item}
@@ -239,7 +239,7 @@ export default function iPhoneChargingPage() {
             ))}
           </div>
           <p className="text-[#7A9E98] text-xs mt-4">
-            All port repairs include written up-to-3 year warranty. We test your cable and adapter first before quoting a port replacement.
+            All port repairs include written 12-month warranty. We test your cable and adapter first before quoting a port replacement.
           </p>
           <PricingNote variant="inline" />
         </div>
@@ -339,7 +339,7 @@ export default function iPhoneChargingPage() {
             >
               iPhone Not Charging?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment. up-to-3 year warranty.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. 12-month warranty.</p>
             <p className="text-[#7A9E98] text-sm mb-8">
               Hyde Park, Johannesburg, serving Sandton, Rosebank, Fourways, Bryanston and surrounds.
             </p>

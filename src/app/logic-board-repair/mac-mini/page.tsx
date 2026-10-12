@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'Mac Mini Logic Board Repair Johannesburg',
   description:
-    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment, up-to-3 year warranty. Hyde Park. Call 064 529 5863.',
+    'Mac mini logic board repair Johannesburg. M1, M2, M2 Pro, M4, and Intel models. We fix the chip, not the board. Assessment, 12-month warranty. Hyde Park. Call 064 529 5863.',
   alternates: { canonical: 'https://zasupport.com/logic-board-repair/mac-mini' },
 };
 
@@ -64,7 +64,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on Mac mini logic board repair?',
     answer:
-      'All Mac mini logic board repairs carry a warranty on the specific component repaired. This is a up-to-3 year warranty with no fine print. If the repaired component fails within the warranty period, we fix it at our assessment fee. We stand behind our work.',
+      'All Mac mini logic board repairs carry a warranty on the specific component repaired. This is a 12-month warranty with no fine print. If the repaired component fails within the warranty period, we fix it at our assessment fee. We stand behind our work.',
   },
 ];
 
@@ -145,7 +145,7 @@ const serviceSchema = {
     telephone: '+27645295863',
   },
   areaServed: { '@type': 'City', name: 'Johannesburg' },
-  description: 'Mac mini logic board repair. Assessment. up-to-3 year warranty.',
+  description: 'Mac mini logic board repair. Assessment. 12-month warranty.',
   offers: {
     '@type': 'Offer',
     description: 'Mac mini logic board repair. Assessment.',
@@ -167,7 +167,7 @@ export default function MacMiniLogicBoardPage() {
           <Breadcrumb items={[{ label: 'Logic Board Repair', href: '/logic-board-repair' }, { label: 'Mac mini' }]} />
           <div className="mt-8 max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.2)] rounded-full px-4 py-2 mb-6">
-              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment · Up-to-3 Year Warranty · Hyde Park</span>
+              <span className="text-[#0FEA7A] text-sm font-semibold">Assessment · 12-Month Warranty · Hyde Park</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-extrabold text-[#E8F4F1] leading-tight mb-4">
               Mac mini Logic Board<br /><span className="text-[#0FEA7A]">Repair Johannesburg 2026</span>
@@ -232,7 +232,7 @@ export default function MacMiniLogicBoardPage() {
             <div>
               <p className="text-[#7A9E98] text-sm mb-1">ZA Support, Mac mini Logic Board Repair</p>
               <p className="text-2xl font-extrabold text-[#0FEA7A]">Component-level repair</p>
-              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. up-to-3 year warranty.</p>
+              <p className="text-[#7A9E98] text-xs mt-1">We repair only the failed component. 12-month warranty.</p>
             </div>
           </div>
         </div>
@@ -379,7 +379,7 @@ export default function MacMiniLogicBoardPage() {
               { step: '01', title: 'Drop-Off or Collection', desc: 'Bring your Mac mini to Hyde Park or arrange same-day collection from Sandton, Rosebank, Randburg, Fourways, Midrand, or Bryanston.' },
               { step: '02', title: 'Same-Day Diagnostic', desc: 'Board-level diagnostic using DC power supply analysis, scope probing, and thermal imaging. We identify the exact component at fault.' },
               { step: '03', title: 'Component-Level Repair', desc: 'Under microscope, we replace only the failed IC or component, not the whole board. Temperature-controlled soldering, correct equipment.' },
-              { step: '04', title: 'Full Test + Up-to-3 Year Warranty', desc: 'Post-repair stress test: all ports, display outputs, boot stability, thermal performance. Up-to-3 year warranty issued on collection.' },
+              { step: '04', title: 'Full Test + 12-Month Warranty', desc: 'Post-repair stress test: all ports, display outputs, boot stability, thermal performance. 12-month warranty issued on collection.' },
             ].map((s) => (
               <div key={s.step} className="glass-card p-6">
                 <span className="text-4xl font-black text-[rgba(15,234,122,0.2)]">{s.step}</span>
@@ -404,8 +404,8 @@ export default function MacMiniLogicBoardPage() {
                 desc: 'Apple replaces the entire Mac mini board. We replace the specific failed IC. You keep your data and save thousands.',
               },
               {
-                title: 'Up-to-3 Year Warranty',
-                desc: 'We issue a up-to-3 year warranty on every repair. No 90-day hidden cap. No fine print. If the repaired component fails within the warranty period, we fix it at zero cost.',
+                title: '12-Month Warranty',
+                desc: 'We issue a 12-month warranty on every repair. No 90-day hidden cap. No fine print. If the repaired component fails within the warranty period, we fix it at zero cost.',
               },
               {
                 title: 'Assessment',
@@ -472,7 +472,7 @@ export default function MacMiniLogicBoardPage() {
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">
               Mac mini Not Working?
             </h2>
-            <p className="text-[#7A9E98] mb-2">Assessment. up-to-3 year warranty. Hyde Park, Johannesburg.</p>
+            <p className="text-[#7A9E98] mb-2">Assessment. 12-month warranty. Hyde Park, Johannesburg.</p>
             <p className="text-[#7A9E98] text-sm mb-8">A second opinion costs you nothing, bring it in before committing to a board replacement.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

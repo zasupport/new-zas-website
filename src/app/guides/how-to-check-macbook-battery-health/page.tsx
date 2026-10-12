@@ -132,7 +132,7 @@ const faqs = [
   {
     question: 'What does Service Recommended mean on MacBook battery?',
     answer:
-      'Service Recommended means macOS has detected that your battery has degraded significantly, typically below 80% of its original capacity or exhibiting abnormal behaviour such as unexpected shutdowns. This is not an emergency, but it means the battery should be replaced soon. At ZA Support, we assess the exact state with coconutBattery and quote depending on the model. Our assessment fee applies and is credited toward the repair.',
+      'Service Recommended means macOS has detected that your battery has degraded significantly, typically below 80% of its original capacity or exhibiting abnormal behaviour such as unexpected shutdowns. This is not an emergency, but it means the battery should be replaced soon. At ZA Support, we assess the exact state with coconutBattery and quote depending on the model. The R599 assessment fee is a separate, non-refundable charge.',
   },
   {
     question: 'What is the difference between NominalChargeCapacity and DesignCapacity?',
@@ -162,7 +162,7 @@ const faqs = [
   {
     question: 'How much does MacBook battery replacement cost in South Africa?',
     answer:
-      'At ZA Support in Johannesburg, MacBook battery replacement pricing depends on the model, from older MacBook Air models up to MacBook Pro 16-inch models. Apple charges many times more depending on the model. Our price includes the replacement cell, labour, calibration, and a 12-month warranty. Assessment, applied toward the repair. No Fix No Fee.',
+      'At ZA Support in Johannesburg, MacBook battery replacement pricing depends on the model, from older MacBook Air models up to MacBook Pro 16-inch models. Apple charges many times more depending on the model. Our price includes the replacement cell, labour, calibration, and a 12-month warranty. Assessment, applied toward the repair. Fixed written quotes.',
   },
   {
     question: 'Can I check MacBook battery health from Terminal?',
@@ -226,7 +226,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
                 { icon: Battery, label: 'Capacity Thresholds' },
                 { icon: Terminal, label: 'Terminal Commands' },
                 { icon: CheckCircle, label: 'When to Replace' },
-                { icon: Shield, label: 'No Fix No Fee' },
+                { icon: Shield, label: 'Fixed Quote First' },
               ].map(({ icon: Icon, label }) => (
                 <div key={label} className="flex items-center gap-2 bg-[rgba(15,234,122,0.08)] border border-[rgba(15,234,122,0.15)] px-3 py-2 rounded-full">
                   <Icon className="w-4 h-4 text-[#0FEA7A]" />
@@ -440,7 +440,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#E8F4F1] mb-4">MacBook Battery Replacement Costs (ZAR)</h2>
           <p className="text-[#7A9E98] mb-8 max-w-3xl leading-relaxed">
-            If your battery health check reveals replacement is needed, here are our current prices at our Hyde Park workshop. All prices include the replacement cell, labour, full calibration, and a written 12-month warranty. No Fix No Fee applies to every repair.
+            If your battery health check reveals replacement is needed, here are our current prices at our Hyde Park workshop. All prices include the replacement cell, labour, full calibration, and a written 12-month warranty. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
           </p>
           <div className="overflow-x-auto rounded-2xl border border-[rgba(255,255,255,0.06)]">
             <table className="w-full text-sm">
@@ -514,7 +514,7 @@ export default function HowToCheckMacBookBatteryHealthPage() {
           <div className="bg-[rgba(39,80,77,0.3)] border border-[rgba(15,234,122,0.2)] rounded-3xl p-10">
             <h2 className="text-3xl font-extrabold text-[#E8F4F1] mb-3">Battery Health Looking Poor?</h2>
             <p className="text-[#7A9E98] mb-6 max-w-xl mx-auto leading-relaxed">
-              WhatsApp us your cycle count and maximum capacity percentage, we will tell you honestly whether you need a replacement. Assessment at our Hyde Park workshop. Same-day turnaround. No Fix No Fee. 12-month warranty on every battery we fit.
+              WhatsApp us your cycle count and maximum capacity percentage, we will tell you honestly whether you need a replacement. Assessment at our Hyde Park workshop. Same-day turnaround. Fixed written quotes. 12-month warranty on every battery we fit.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -43,6 +43,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Business hub
     { url: `${base}/business`, lastModified: new Date('2026-09-21T06:30:14Z'), changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${base}/procurement`, lastModified: new Date('2026-10-06T18:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/technology-portfolio`, lastModified: new Date('2026-10-06T18:00:00Z'), changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/business/adobe-creative-cloud-support`, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/business/microsoft-365-for-business`, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${base}/business/unifi-network-services`, changeFrequency: 'weekly', priority: 0.8 },
@@ -168,6 +170,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/screen-repair/macbook-air`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/screen-repair/imac`, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${base}/screen-repair/iphone`, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${base}/airpods-repair`, changeFrequency: 'monthly', priority: 0.5 },
 
     // Screen repair suburb pages
     { url: `${base}/screen-repair/sandton`, changeFrequency: 'monthly', priority: 0.8 },

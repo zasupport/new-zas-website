@@ -11,7 +11,7 @@ import PricingNote from '@/components/PricingNote';
 export const metadata: Metadata = {
   title: 'MacBook Air M3 Screen Repair Johannesburg [2026] | ZA Support',
   description:
-    'MacBook Air M3 screen repair in Johannesburg. Liquid Retina display specialists. Cracked screen, pressure marks, backlight fault. No Fix No Fee. Hyde Park workshop.',
+    'MacBook Air M3 screen repair in Johannesburg. Liquid Retina display specialists. Cracked screen, pressure marks, backlight fault. Fixed written quotes. Hyde Park workshop.',
   alternates: { canonical: 'https://zasupport.com/screen-repair/macbook-air-m3' },
   keywords: [
     'MacBook Air M3 screen repair Johannesburg',
@@ -39,7 +39,7 @@ const faults = [
 const faqs = [
   {
     question: 'How much does a MacBook Air M3 screen replacement cost in Johannesburg?',
-    answer: 'MacBook Air M3 screen replacement pricing depends on whether you have the 13.6-inch or 15.3-inch model, quoted individually at our Hyde Park workshop. The final price depends on the specific fault, a backlight circuit repair at component level can be significantly less than a full display assembly replacement. We provide a written quote after diagnostic, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.',
+    answer: 'MacBook Air M3 screen replacement pricing depends on whether you have the 13.6-inch or 15.3-inch model, quoted individually at our Hyde Park workshop. The final price depends on the specific fault, a backlight circuit repair at component level can be significantly less than a full display assembly replacement. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
   {
     question: 'Is the MacBook Air M3 13-inch screen different from the 15-inch?',
@@ -137,7 +137,7 @@ export default function MacBookAirM3ScreenRepairPage() {
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               {[
-                { label: 'No Fix No Fee' },
+                { label: 'Fixed Quote First' },
                 { label: 'Assessment' },
                 { label: 'Written Warranty' },
                 { label: 'True Tone Preserved' },
@@ -176,7 +176,7 @@ export default function MacBookAirM3ScreenRepairPage() {
               In our experience, the most common screen fault on the MacBook Air M3 in Johannesburg is physical cracking from bag-related impacts, the M3 Air is thinner and lighter than any previous Air generation at just 1.13 kg (13-inch) or 1.51 kg (15-inch), and many owners carry it without adequate padding. The second most common fault is backlight failure from load shedding power surges, which we see across all MacBook models but particularly frequently in suburbs like Sandton, Rosebank, and Midrand where machines are left plugged in at desks overnight.
             </p>
             <p>
-              We carry Liquid Retina display assemblies for both MacBook Air M3 configurations. Every replacement includes True Tone sensor calibration transfer, P3 colour gamut verification, and a comprehensive brightness uniformity check at 100%, 50%, and minimum brightness levels. Our assessment applies, and our No Fix No Fee policy means you pay nothing if we cannot resolve the fault.
+              We carry Liquid Retina display assemblies for both MacBook Air M3 configurations. Every replacement includes True Tone sensor calibration transfer, P3 colour gamut verification, and a comprehensive brightness uniformity check at 100%, 50%, and minimum brightness levels. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
             </p>
           </div>
         </div>
@@ -207,7 +207,7 @@ export default function MacBookAirM3ScreenRepairPage() {
             {[
               { step: '01', title: 'Book and Drop Off or Arrange Collection', desc: 'WhatsApp us with the code SR-MACBOOKAIRM3 or call to book. Drop off at our Hyde Park workshop (1 Hyde Park Lane) or arrange collection from anywhere within 25 km.' },
               { step: '02', title: 'Display Diagnostic', desc: 'We determine whether the fault is the panel itself, the backlight circuit, the display cable, or a logic board issue. This targeted approach means you only pay for what actually needs replacing.' },
-              { step: '03', title: 'Written Quote: No Fix No Fee', desc: 'You receive a clear, written quote with the exact fault, repair method, parts used, and turnaround time. If we cannot fix it, you pay nothing beyond the assessment fee.' },
+              { step: '03', title: 'Every repair is quoted in writing after assessment, and you approve the quote before any work begins', desc: 'You receive a clear, written quote with the exact fault, repair method, parts used, and turnaround time. If we cannot fix it, you pay nothing beyond the assessment fee.' },
               { step: '04', title: 'Repair and Calibration', desc: 'Display assembly replacement or component-level repair, followed by True Tone calibration transfer, P3 colour verification, and brightness uniformity testing at multiple levels.' },
               { step: '05', title: 'Quality Check and Collection', desc: 'We run the repaired MacBook Air M3 through our 12-point display checklist before release. Written warranty provided covering both parts and workmanship.' },
             ].map(({ step, title, desc }) => (

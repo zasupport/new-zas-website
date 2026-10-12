@@ -64,12 +64,12 @@ const faqs = [
   {
     question: 'How long does a MacBook diagnostic assessment take at ZA Support?',
     answer:
-      'A standard diagnostic takes 24 to 48 hours and covers CPU performance, SSD health, RAM usage under load, battery condition, and thermal performance. You receive a written report with our findings and a quote for any recommended work. Assessment, and if you proceed with repairs, the fee is deducted from the final invoice.',
+      'A standard diagnostic takes 24 to 48 hours and covers CPU performance, SSD health, RAM usage under load, battery condition, and thermal performance. You receive a written report with our findings and a quote for any recommended work. The R599 assessment fee is a separate, non-refundable charge.',
   },
   {
     question: 'Does ZA Support collect MacBooks for assessment in Johannesburg?',
     answer:
-      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection. No Fix No Fee applies to all assessments.',
+      'Yes. We collect from Sandton, Rosebank, Fourways, Bryanston, Midrand, Randburg, and surrounding Johannesburg suburbs. WhatsApp 064 529 5863 to arrange same-day collection. Every repair is quoted in writing after assessment, and you approve the quote before any work begins.',
   },
 ];
 
@@ -174,7 +174,7 @@ const howToSchema = {
       '@type': 'HowToStep',
       position: 12,
       name: 'Get a professional diagnostic assessment',
-      text: 'If software fixes have not resolved the issue, book a diagnostic assessment at ZA Support. We test SSD health, RAM performance, thermal behaviour, and battery condition. No Fix No Fee. WhatsApp 064 529 5863.',
+      text: 'If software fixes have not resolved the issue, book a diagnostic assessment at ZA Support. We test SSD health, RAM performance, thermal behaviour, and battery condition. Fixed written quotes. WhatsApp 064 529 5863.',
     },
   ],
   provider: LOCAL_BUSINESS_PROVIDER,
@@ -208,12 +208,12 @@ export default function MacBookRunningSlowGuidePage() {
             <div className="flex items-center gap-2 text-[#7A9E98] text-sm mb-8">
               <MapPin className="w-4 h-4 text-[#0FEA7A]" />
               <span>
-                Hyde Park, Johannesburg | Assessment | No Fix No Fee | 12-Month
+                Every repair is quoted in writing after assessment, and you approve the quote before any work begins
                 Warranty
               </span>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {['12 Proven Fixes', 'No Fix No Fee', 'Assessment', 'Same-Day Collection'].map(
+              {['12 Proven Fixes', 'Fixed Quote First', 'Assessment', 'Same-Day Collection'].map(
                 (l) => (
                   <div
                     key={l}
@@ -262,7 +262,7 @@ export default function MacBookRunningSlowGuidePage() {
               This guide walks you through the same 12 checks our technicians run, starting with the
               easiest free fixes and progressing to hardware-level diagnostics. Most MacBooks can be
               restored to full speed without spending a cent. When hardware is the culprit, we
-              provide honest assessments with a No Fix No Fee guarantee.
+              Every repair is quoted in writing after assessment, and you approve the quote before any work begins.
             </p>
             <p>
               In South Africa specifically, load shedding complicates things. Repeated hard shutdowns
@@ -686,7 +686,7 @@ export default function MacBookRunningSlowGuidePage() {
             </h2>
             <p className="text-[#7A9E98] mb-6">
               We test SSD health, RAM performance, thermals, and battery condition. Collection from
-              Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. No Fix No Fee.
+              Sandton, Rosebank, Fourways, Bryanston, Midrand, and Randburg. Fixed written quotes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

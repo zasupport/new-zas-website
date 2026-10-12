@@ -1,0 +1,101 @@
+{
+  "categories": [
+    {
+      "name": "Business devices",
+      "brands": [
+        "AMD",
+        "Acer",
+        "Apple",
+        "Asus",
+        "Corsair",
+        "Dell",
+        "Gigabyte",
+        "HP",
+        "Huawei",
+        "Intel",
+        "Lenovo",
+        "MSI",
+        "Mecer",
+        "Samsung"
+      ]
+    },
+    {
+      "name": "Displays and audiovisual",
+      "brands": [
+        "BenQ",
+        "LG",
+        "Philips",
+        "Zoom"
+      ]
+    },
+    {
+      "name": "Networking and connectivity",
+      "brands": [
+        "Aruba",
+        "Cambium",
+        "Grandstream",
+        "Juniper",
+        "Mikrotik",
+        "Molex",
+        "TP-Link",
+        "Teltonika",
+        "Tenda",
+        "Ubiquiti"
+      ]
+    },
+    {
+      "name": "Cybersecurity and management",
+      "brands": [
+        "Bitdefender",
+        "Kaspersky",
+        "Sophos"
+      ]
+    },
+    {
+      "name": "Cloud and software",
+      "brands": [
+        "Microsoft"
+      ]
+    },
+    {
+      "name": "Servers and storage",
+      "brands": [
+        "Acronis",
+        "HPE",
+        "Kingston",
+        "Seagate",
+        "Toshiba"
+      ]
+    },
+    {
+      "name": "Print and workplace",
+      "brands": [
+        "Brother",
+        "Canon",
+        "Epson",
+        "Lexmark",
+        "Logitech",
+        "Manhattan",
+        "Razer",
+        "Ricoh",
+        "Targus",
+        "Volkano"
+      ]
+    },
+    {
+      "name": "Power and continuity",
+      "brands": [
+        "APC",
+        "Eaton"
+      ]
+    },
+    {
+      "name": "Physical security",
+      "brands": [
+        "Ajax",
+        "EZVIZ",
+        "Hikvision"
+      ]
+    }
+  ]
+}
