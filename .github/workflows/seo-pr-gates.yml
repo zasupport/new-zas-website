@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write  # read-only diagnostic step comments the failure class on the PR (no code write)
 
 jobs:
   gates:
@@ -61,10 +62,24 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: E2E (search, conversions, rendering) against local build
-        run: npx playwright test
+        run: |
+          set -o pipefail   # preserve the real exit code; tee must not mask a failure
+          npx playwright test 2>&1 | tee e2e-output.log
         env:
           BASE_URL: http://localhost:3000
           CI: 'true'
+
+      # Read-only diagnostic (option b). Runs ONLY on failure, same-repo PRs only (never forks).
+      # Does NOT change the gate result, never edits code, never opens a PR; it posts/updates ONE
+      # marked PR comment classifying the failure so the next session starts at root cause.
+      - name: Diagnose gate failure (read-only; posts the failure class to the PR)
+        if: ${{ failure() && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+        continue-on-error: true   # observability-only; the real failure is already recorded by the step above
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: bash scripts/ci-classify-gate-failure.sh e2e-output.log
 
       - name: Upload Playwright report
         if: always()
